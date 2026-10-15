@@ -1,0 +1,17 @@
+{
+  "local_inputs_ready": true,
+  "ready_for_flow_upload": true,
+  "review_status": "complete",
+  "flow_uploaded": false,
+  "flow_video_generated": false,
+  "video_rendered": false,
+  "audio_generated": false,
+  "counts": {
+    "concepts": 5,
+    "clips": 41,
+    "new_start_assets": 23,
+    "unique_upload_images": 35,
+    "reference_images": 21,
+    "post_edit_segments": 6
+  }
+}

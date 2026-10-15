@@ -1,0 +1,82 @@
+{
+  "status": "prepared_only_generation_not_started",
+  "source_storyboard": "director_draft.json (C03; pending final reviewer revisions)",
+  "concept_id": "C03",
+  "title": "지구 침공, 잠시 중단",
+  "scene_count": 4,
+  "tool_planned": "built-in image_gen only after coordinator start signal",
+  "references_policy": "references remains empty until each actual reference exists, is inspected and is passed to image_gen; planned_references are plans, not existing inputs",
+  "visual_bible": "Original recurring cast: A, fictional Korean man about 35, short softly side-parted black hair, light beige long-sleeve button shirt, charcoal-gray trousers, plain dark shoes, ordinary white ceramic mug; calm, slightly hungry office-worker demeanor. B, one original tall commanding humanoid alien with slate blue-gray skin, broad expressive mouth, narrow amber eyes, small ribbed fan-shaped temple ridges, dark plum uniform with FOUR sleeve openings. B INTENTIONALLY has exactly FOUR separate arms: an upper pair attached to left/right shoulders and a lower pair attached symmetrically to left/right lateral upper ribcage; each hand has exactly four digits. Show distinct attachment points and no merged limbs. Four arms are correct fictional anatomy, NOT a generation error to fix. C, a different shorter pale-gray alien, smooth broad brow, small ear ridges, plain black uniform, exactly TWO arms, four digits per hand. B and C overact with growing desperation; A remains restrained. Spacecraft continuity: dark gunmetal ribbed walls, concentric vertical structural ribs, blue recessed lights, central simple swiveling chair, noncontact circular scanner on a side-mounted articulated support, one large inset monitor, fold-down desks stored visibly against the walls. No copied film-IP silhouettes.",
+  "scenes": [
+    {
+      "concept_id": "C03",
+      "scene_id": "S01",
+      "image_path": "images/C03/S01.png",
+      "source_cuts": [
+        "01"
+      ],
+      "prompt": "Use case: ads-marketing. One standalone cinematic photorealistic storyboard keyframe for an original Korean absurd-comedy film, landscape 16:9. High-budget science-fiction lighting, real material texture, volumetric blue beams, layered metallic spacecraft scale, expressive actor performance. The joke depends on exaggerated alien emotion versus an ordinary human employee's matter-of-fact behavior, never make all characters expressionless. No existing entertainment franchise designs or recognizable actors. No captions, readable lettering, numbers, logos, watermarks or collage. Abstract blank displays except the specifically requested food photography. No weapons, wounds or restraint devices.\n\nOriginal recurring cast: A, fictional Korean man about 35, short softly side-parted black hair, light beige long-sleeve button shirt, charcoal-gray trousers, plain dark shoes, ordinary white ceramic mug; calm, slightly hungry office-worker demeanor. B, one original tall commanding humanoid alien with slate blue-gray skin, broad expressive mouth, narrow amber eyes, small ribbed fan-shaped temple ridges, dark plum uniform with FOUR sleeve openings. B INTENTIONALLY has exactly FOUR separate arms: an upper pair attached to left/right shoulders and a lower pair attached symmetrically to left/right lateral upper ribcage; each hand has exactly four digits. Show distinct attachment points and no merged limbs. Four arms are correct fictional anatomy, NOT a generation error to fix. C, a different shorter pale-gray alien, smooth broad brow, small ear ridges, plain black uniform, exactly TWO arms, four digits per hand. B and C overact with growing desperation; A remains restrained. Spacecraft continuity: dark gunmetal ribbed walls, concentric vertical structural ribs, blue recessed lights, central simple swiveling chair, noncontact circular scanner on a side-mounted articulated support, one large inset monitor, fold-down desks stored visibly against the walls. No copied film-IP silhouettes.\n\nNo input image. Establish A for all subsequent scenes. A plain fictional office by a large window, no named business. Outside the glass a colossal original spacecraft underside crosses the overcast sky and casts an ominous shadow. A narrow blue-white volumetric tractor beam surrounds ONLY A, who floats about 15cm off the floor while carefully keeping his white mug upright. He glances down at the mug rather than screaming. Office objects stay on desks and the floor, no flying debris. Wide cinema composition, grounded ordinary furniture against the enormous visible spacecraft underside outside. Strong dramatic blue rim light and muted daylight; A's face and mug readable. This representative instant is after the beam has lifted him slightly; the shot begins before lift.",
+      "references": [],
+      "planned_references": [],
+      "motion": "그림자 이동→A만 빛기둥에 감싸임→머그잔이 기울지 않게 고쳐 쥐며 약간 떠오름.",
+      "representative_moment": "부양이 시작된 순간. 컷 시작은 그림자 접근.",
+      "review_status": "prepared_not_generated"
+    },
+    {
+      "concept_id": "C03",
+      "scene_id": "S02",
+      "image_path": "images/C03/S02.png",
+      "source_cuts": [
+        "02",
+        "03",
+        "04"
+      ],
+      "prompt": "Use case: ads-marketing. One standalone cinematic photorealistic storyboard keyframe for an original Korean absurd-comedy film, landscape 16:9. High-budget science-fiction lighting, real material texture, volumetric blue beams, layered metallic spacecraft scale, expressive actor performance. The joke depends on exaggerated alien emotion versus an ordinary human employee's matter-of-fact behavior, never make all characters expressionless. No existing entertainment franchise designs or recognizable actors. No captions, readable lettering, numbers, logos, watermarks or collage. Abstract blank displays except the specifically requested food photography. No weapons, wounds or restraint devices.\n\nOriginal recurring cast: A, fictional Korean man about 35, short softly side-parted black hair, light beige long-sleeve button shirt, charcoal-gray trousers, plain dark shoes, ordinary white ceramic mug; calm, slightly hungry office-worker demeanor. B, one original tall commanding humanoid alien with slate blue-gray skin, broad expressive mouth, narrow amber eyes, small ribbed fan-shaped temple ridges, dark plum uniform with FOUR sleeve openings. B INTENTIONALLY has exactly FOUR separate arms: an upper pair attached to left/right shoulders and a lower pair attached symmetrically to left/right lateral upper ribcage; each hand has exactly four digits. Show distinct attachment points and no merged limbs. Four arms are correct fictional anatomy, NOT a generation error to fix. C, a different shorter pale-gray alien, smooth broad brow, small ear ridges, plain black uniform, exactly TWO arms, four digits per hand. B and C overact with growing desperation; A remains restrained. Spacecraft continuity: dark gunmetal ribbed walls, concentric vertical structural ribs, blue recessed lights, central simple swiveling chair, noncontact circular scanner on a side-mounted articulated support, one large inset monitor, fold-down desks stored visibly against the walls. No copied film-IP silhouettes.\n\nInput image 1 will be actual approved S01, used ONLY as A's face, clothing and white mug continuity reference. Create the spacecraft interior and establish B and C original designs. Wide/medium-wide dramatic live-action sci-fi shot, noncontact ring scanner above seated unrestrained A in center-left; A holds his same mug casually and looks hungry rather than scared. Large monitor clearly displays an appetizing bowl of spicy red Korean jjamppong noodle soup, with a separately recognizable plate of tangsuyuk sweet-and-sour fried pork as the escalated lunch result, no text/UI labels/numbers. B stands camera-right in an enormous furious disbelieving scream, upper TWO hands gripping his head and lower TWO arms gesturing upward/outward toward the lunch display; ALL FOUR upper/lower arm attachments visibly separate on one torso. C at console beside the monitor grips the adjustment device with his exactly TWO hands, desperate concentration. Preserve room scale, blue science-fiction lighting and threatening technology against absurd mundane food. Prioritize readable emotional contrast and exact purposeful anatomy, not decorative visual clutter. Representative peak is second scan failure; first scan and escalation will be edited separately.",
+      "references": [],
+      "planned_references": [
+        "images/C03/S01.png"
+      ],
+      "motion": "첫 스캔 짬뽕→B 독촉·C 재조절→두 번째 스캔은 탕수육까지 더 구체적인 점심→B 네 팔 절규.",
+      "representative_moment": "두 번째 스캔 실패의 감정 정점. 첫 스캔 모니터 내용은 후속 편집으로 분리.",
+      "review_status": "prepared_not_generated"
+    },
+    {
+      "concept_id": "C03",
+      "scene_id": "S03",
+      "image_path": "images/C03/S03.png",
+      "source_cuts": [
+        "05",
+        "06"
+      ],
+      "prompt": "Use case: ads-marketing. One standalone cinematic photorealistic storyboard keyframe for an original Korean absurd-comedy film, landscape 16:9. High-budget science-fiction lighting, real material texture, volumetric blue beams, layered metallic spacecraft scale, expressive actor performance. The joke depends on exaggerated alien emotion versus an ordinary human employee's matter-of-fact behavior, never make all characters expressionless. No existing entertainment franchise designs or recognizable actors. No captions, readable lettering, numbers, logos, watermarks or collage. Abstract blank displays except the specifically requested food photography. No weapons, wounds or restraint devices.\n\nOriginal recurring cast: A, fictional Korean man about 35, short softly side-parted black hair, light beige long-sleeve button shirt, charcoal-gray trousers, plain dark shoes, ordinary white ceramic mug; calm, slightly hungry office-worker demeanor. B, one original tall commanding humanoid alien with slate blue-gray skin, broad expressive mouth, narrow amber eyes, small ribbed fan-shaped temple ridges, dark plum uniform with FOUR sleeve openings. B INTENTIONALLY has exactly FOUR separate arms: an upper pair attached to left/right shoulders and a lower pair attached symmetrically to left/right lateral upper ribcage; each hand has exactly four digits. Show distinct attachment points and no merged limbs. Four arms are correct fictional anatomy, NOT a generation error to fix. C, a different shorter pale-gray alien, smooth broad brow, small ear ridges, plain black uniform, exactly TWO arms, four digits per hand. B and C overact with growing desperation; A remains restrained. Spacecraft continuity: dark gunmetal ribbed walls, concentric vertical structural ribs, blue recessed lights, central simple swiveling chair, noncontact circular scanner on a side-mounted articulated support, one large inset monitor, fold-down desks stored visibly against the walls. No copied film-IP silhouettes.\n\nInput images will be actual approved S01 for A and S02 for all three characters plus spacecraft design. Preserve exact identities, costumes, mug, four-arm B anatomy and two-arm C anatomy. NEW representative moment in SAME spacecraft: frantic practical conversion into a classroom, achieved by hands, not magical morphing. B urgently uses TWO upper arms to pull a simple physical fold-down desk from visible wall hinges; one LOWER hand holds an ordinary blank notebook, the other LOWER hand holds a pen. Show all four separate arm connections; one torso, no duplicated bodies. His face has intensely anxious eagerness to learn, mouth open giving urgent orders. C uses one of his TWO hands to push the scanner's supported articulated arm aside and other hand starts turning a chair toward a clear blank wall at front. A remains calm at front placing the exact white mug on a small stand, gesturing where he will speak. Blue architectural lights remain while warm white classroom lights begin illuminating faces. Physically credible desk hinges, supported scanner and room continuity. Composition shows urgent overreaction versus simple explanation. No written notebook content or text.",
+      "references": [],
+      "planned_references": [
+        "images/C03/S01.png",
+        "images/C03/S02.png"
+      ],
+      "motion": "A 잔 내려놓음→B가 벽책상 펼치고 필기구 챙김→C 스캐너 치우고 의자 회전. 강제 변신 없음.",
+      "representative_moment": "책상을 손으로 꺼내는 전환 중간 상태. 컷05의 담담한 설명보다 이후 순간.",
+      "review_status": "prepared_not_generated"
+    },
+    {
+      "concept_id": "C03",
+      "scene_id": "S04",
+      "image_path": "images/C03/S04.png",
+      "source_cuts": [
+        "07",
+        "08",
+        "09"
+      ],
+      "prompt": "Use case: ads-marketing. One standalone cinematic photorealistic storyboard keyframe for an original Korean absurd-comedy film, landscape 16:9. High-budget science-fiction lighting, real material texture, volumetric blue beams, layered metallic spacecraft scale, expressive actor performance. The joke depends on exaggerated alien emotion versus an ordinary human employee's matter-of-fact behavior, never make all characters expressionless. No existing entertainment franchise designs or recognizable actors. No captions, readable lettering, numbers, logos, watermarks or collage. Abstract blank displays except the specifically requested food photography. No weapons, wounds or restraint devices.\n\nOriginal recurring cast: A, fictional Korean man about 35, short softly side-parted black hair, light beige long-sleeve button shirt, charcoal-gray trousers, plain dark shoes, ordinary white ceramic mug; calm, slightly hungry office-worker demeanor. B, one original tall commanding humanoid alien with slate blue-gray skin, broad expressive mouth, narrow amber eyes, small ribbed fan-shaped temple ridges, dark plum uniform with FOUR sleeve openings. B INTENTIONALLY has exactly FOUR separate arms: an upper pair attached to left/right shoulders and a lower pair attached symmetrically to left/right lateral upper ribcage; each hand has exactly four digits. Show distinct attachment points and no merged limbs. Four arms are correct fictional anatomy, NOT a generation error to fix. C, a different shorter pale-gray alien, smooth broad brow, small ear ridges, plain black uniform, exactly TWO arms, four digits per hand. B and C overact with growing desperation; A remains restrained. Spacecraft continuity: dark gunmetal ribbed walls, concentric vertical structural ribs, blue recessed lights, central simple swiveling chair, noncontact circular scanner on a side-mounted articulated support, one large inset monitor, fold-down desks stored visibly against the walls. No copied film-IP silhouettes.\n\nInput images will be approved S01, S02 and S03 for exact three-character and spacecraft/classroom continuity. SAME metallic spacecraft now contains TWO deployed simple desks and two seats facing A at front. Human A in beige shirt stands by a pale bright BLANK explanation panel with generous unobstructed region for later title; exact white mug on a small stand. Camera medium-wide from a frontal three-quarter angle so teacher A, both students, blank title panel and B's one torso are readable. B seated at nearest desk leans eagerly forward with an absurdly intense pleading/overconfident expression and raises ALL FOUR distinct arms above shoulder level to ask a question. Each pair's attachment at shoulders and lateral upper ribs must remain clearly visible, not hidden by desk or overlaps, four hands each four digits. This is intentional anatomy and the visual joke; not four people. C at adjacent desk uses exactly TWO arms to take notes on a blank notebook, then glances at B with surprise. A notices four raised hands with a slight deadpan pause. Warm white classroom lighting with cool spacecraft accents, retain alien materials. No UI, labels, numbers, writing or event title generated. Final representative pose is four hands raised; later hand-to-chest correction gag and ending title are motion/editorial notes.",
+      "references": [],
+      "planned_references": [
+        "images/C03/S01.png",
+        "images/C03/S02.png",
+        "images/C03/S03.png"
+      ],
+      "motion": "B 네 팔을 번쩍→한 분씩이라는 A 말→B 두 손은 가슴·두 손은 위로→A 고개 끄덕임→6초 행사명 편집.",
+      "representative_moment": "네 팔을 동시에 든 질문 순간. 컷08 동작과 컷09 타이틀은 후속 영상·편집 단계.",
+      "review_status": "prepared_not_generated"
+    }
+  ]
+}

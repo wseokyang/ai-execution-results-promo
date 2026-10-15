@@ -1,0 +1,1091 @@
+{
+  "status": "ALL_START_IMAGES_READY_NO_FLOW_EXECUTION",
+  "source_storyboards": "/home/wooseok/wsy/samsung_related/slide/AI실행결과발표대회_디자인3종/storyboards/2026-10-15_absurd-v2/storyboards.json",
+  "source_manifest": "/home/wooseok/wsy/samsung_related/slide/AI실행결과발표대회_디자인3종/storyboards/2026-10-15_absurd-v2/scene_manifest.json",
+  "official_flow_duration_status": "총괄이공식확인전달:Veo3.1 Lite/Fast의Frames시작/시작+끝은4·6·8초.기본8초생성후트림,단순동작4/6초선택.본안은Frames만사용하고Ingredients혼용하지않음.",
+  "planning_rules": [
+    "본문8컷당1생성클립을기본으로각안9클립만사용.C04기상/추종,C05천이탈/재착용의서로다른시작상태만추가분할.",
+    "기존대표이미지가결과를처음공개하는컷이면그대로시작해도정상.복제출력전/의상노출전/손가락사슬전처럼원인진행이중요한곳만새시작이미지7개필수.",
+    "기본8초생성후해당원본타임코드로트림.1초삽입마다새생성을요구하지않고급줌/크롭/하드컷은후편집.",
+    "9이미지의인물·소품참조는시작이미지준비에사용한다.Flow에는승인된시작프레임(필요시별도승인끝프레임)만보내고Ingredients와혼용하지않는다.",
+    "B급합성/복제잔상/과장표정은보존.각안49초본문+6초행사명정지=55초유지.",
+    "모든생성클립은8초로통일후원래편집길이로트림.기존누운상태/천가림상태의영상끝프레임의존성은각각C04-N06/C05-N04실제시작이미지로대체해0건."
+  ],
+  "style_guardrail": "실사 배우의 값싼 골판지·천 소품, 초록 크로마키 테두리, 납작한 복제·부유 합성, 과장된 표정은 의도다. 매끈한 회사 광고로 미화하지 않는다. 손·얼굴의 무작위 변형은 허용하지 않는다. 화면의 글자·행사명·수치는 생성하지 않고 후편집한다.",
+  "existing_image_audit": [
+    {
+      "concept_id": "C04",
+      "scene_id": "S01",
+      "actual_path": "/home/wooseok/wsy/samsung_related/slide/AI실행결과발표대회_디자인3종/storyboards/2026-10-15_absurd-v2/images/C04/S01.png",
+      "view_image_verified": true,
+      "findings": "이미컵위에선A를즉시리빌하는첫컷에사용가능.컵속등장과정은별도생성하지않음."
+    },
+    {
+      "concept_id": "C04",
+      "scene_id": "S02",
+      "actual_path": "/home/wooseok/wsy/samsung_related/slide/AI실행결과발표대회_디자인3종/storyboards/2026-10-15_absurd-v2/images/C04/S02.png",
+      "view_image_verified": true,
+      "findings": "A얼굴밀착/B버튼/인쇄물배출 이미 보임. 복사원인 시작용X,출력물움직이기O."
+    },
+    {
+      "concept_id": "C04",
+      "scene_id": "S03",
+      "actual_path": "/home/wooseok/wsy/samsung_related/slide/AI실행결과발표대회_디자인3종/storyboards/2026-10-15_absurd-v2/images/C04/S03.png",
+      "view_image_verified": true,
+      "findings": "꽉찬엘리베이터를딩+하드컷으로처음공개하면정상.그뒤비집기동작에사용가능."
+    },
+    {
+      "concept_id": "C04",
+      "scene_id": "S04",
+      "actual_path": "/home/wooseok/wsy/samsung_related/slide/AI실행결과발표대회_디자인3종/storyboards/2026-10-15_absurd-v2/images/C04/S04.png",
+      "view_image_verified": true,
+      "findings": "이미경악하며발을들어균형잃음. 노트북공개전X,넘어짐시작O."
+    },
+    {
+      "concept_id": "C04",
+      "scene_id": "S05",
+      "actual_path": "/home/wooseok/wsy/samsung_related/slide/AI실행결과발표대회_디자인3종/storyboards/2026-10-15_absurd-v2/images/C04/S05.png",
+      "view_image_verified": true,
+      "findings": "착석과짧은팔간격을즉시공개해필기시도/부탁동작에사용가능.엔딩정지도가능."
+    },
+    {
+      "concept_id": "C05",
+      "scene_id": "S01",
+      "actual_path": "/home/wooseok/wsy/samsung_related/slide/AI실행결과발표대회_디자인3종/storyboards/2026-10-15_absurd-v2/images/C05/S01-v2.png",
+      "view_image_verified": true,
+      "findings": "세귀신모두있는와이드지만첫컷A크롭→다음컷B/C크롭으로순차리빌가능.새빈사무실이미지불필요."
+    },
+    {
+      "concept_id": "C05",
+      "scene_id": "S02",
+      "actual_path": "/home/wooseok/wsy/samsung_related/slide/AI실행결과발표대회_디자인3종/storyboards/2026-10-15_absurd-v2/images/C05/S02.png",
+      "view_image_verified": true,
+      "findings": "C형광복과날아간천이이미보임. 공개전X,다시천덮기O."
+    },
+    {
+      "concept_id": "C05",
+      "scene_id": "S03",
+      "actual_path": "/home/wooseok/wsy/samsung_related/slide/AI실행결과발표대회_디자인3종/storyboards/2026-10-15_absurd-v2/images/C05/S03.png",
+      "view_image_verified": true,
+      "findings": "질문/지목전시작으로는부적합하여손내린N03필수.지목뒤노크는C크롭으로사용가능.오른쪽빈벽패치를2초정지로활용."
+    },
+    {
+      "concept_id": "C05",
+      "scene_id": "S04",
+      "actual_path": "/home/wooseok/wsy/samsung_related/slide/AI실행결과발표대회_디자인3종/storyboards/2026-10-15_absurd-v2/images/C05/S04.png",
+      "view_image_verified": true,
+      "findings": "착석/자기가슴지목을즉시리빌하고내생각대사에손짓강조가능.엔딩정지가능."
+    }
+  ],
+  "new_images": [
+    {
+      "id": "C04-N02",
+      "proposed_path": "start_images/C04/C04-N02.png",
+      "status": "generated_artist_checked",
+      "specification": "S02 복사기 구도·배우·의상 유지. A 얼굴은 이미 유리판에 닿아 있고 B의 정상 검지는 버튼 위에서 누르기 직전. 스캔 빛 없음, 출력구·바닥에 종이/복제가 전혀 없음. C는 뒤에서 기대, 직원은 옆으로 피하려는 상태. 복사 버튼 한 번으로 출력물이 나와 살아 움직일 공간 확보. 최초 복제 결과가 미리 보이면 실패.",
+      "reference_images": [
+        "/home/wooseok/wsy/samsung_related/slide/AI실행결과발표대회_디자인3종/storyboards/2026-10-15_absurd-v2/images/C04/S02.png"
+      ],
+      "continuity": "직원은 기존 짧은 검은 픽시컷 한국인 성인 여성·연회색 셔츠·검은 바지·흰 머그잔. A는 빨간 안테나·골판지 집게 소품팔, B는 파란 안테나·정상 손, C는 노란 안테나·넓은 어깨. 얼굴·테이프·종이 계기판을 동일하게 유지. A의 집게 소품팔 길이·관절 수는 고정하고 사람 손을 새로 꺼내거나 팔을 늘리지 않는다. 복제는 A와 같은 얼굴의 납작한 초록 테두리 합성 3개이며 실체 배우와 구분한다.",
+      "generation_prompt": "Use case: precise-object-edit / identity-preserve. Make ONE landscape16:9 standalone START FRAME for a live-action absurd low-budget comedy. Use actual reference image(s), preserve exact fictional Korean ADULT actors, faces, hair, costumes, cheap fluorescent-lit office and handmade design. This is INTENTIONALLY crude: corrugated cardboard, wrinkled duct tape, cheap cloth/wigs, exaggerated expressions, green chroma-key fringe and flat pasted-photo clones. Do NOT polish into a glossy corporate advertisement. Keep anatomy coherent, normal faces/hands, separate bodies. No text, captions, logos, numbers, watermarks or panels. Change the scene STATE specified below; the references may show a later result that MUST be withheld at this start.\n\nEDIT the copier photo locally. SAME four real actors: gray-shirt female employee, original red-antenna A face already pressed to copier glass, blue-antenna B and yellow-antenna broad-shouldered C. REMOVE the entire printed paper and red-antenna clone from output tray AND all clones anywhere. Output tray/floor must be EMPTY. REMOVE bright scanning glow; copier glass is unlit. B index finger HOVERS about1cm above copy button, not pressing it yet. Keep A face naturally pressed to glass, wide goofy confident face, C eagerly waiting, employee moving aside with white mug. Keep all original costumes, robot A short cardboard pincers and camera view. This image precedes first duplication. NO clone, paper with a face, floating copy, scan flash or completed button press visible.",
+      "path": "start_images/C04/C04-N02.png",
+      "absolute_path": "/home/wooseok/wsy/samsung_related/slide/AI실행결과발표대회_디자인3종/flow_handoff/2026-10-15_v2/start_images/C04/C04-N02.png",
+      "dimensions": [
+        1672,
+        941
+      ]
+    },
+    {
+      "id": "C04-N04",
+      "proposed_path": "start_images/C04/C04-N04.png",
+      "status": "generated_artist_checked",
+      "specification": "S04 책상·직원·ABC·복제3개 유지. 로봇들은 똑바로 서서 아직 써봐를 외치는 기대/허세 표정이며 뒤로 기울거나 놀라지 않는다. 직원은 열린 노트북을 자기 쪽으로 두고 곧 돌려줄 자세. 노트북 뒷면만 관객에게 보이도록 회전 축 확보. 머그잔은 책상 위. 기존 S04의 회색 바닥과 책상 배치를 그대로 유지하며 바닥에 새 소품을 추가하지 않는다.",
+      "reference_images": [
+        "/home/wooseok/wsy/samsung_related/slide/AI실행결과발표대회_디자인3종/storyboards/2026-10-15_absurd-v2/images/C04/S04.png",
+        "/home/wooseok/wsy/samsung_related/slide/AI실행결과발표대회_디자인3종/storyboards/2026-10-15_absurd-v2/images/C04/S02.png"
+      ],
+      "continuity": "직원은 기존 짧은 검은 픽시컷 한국인 성인 여성·연회색 셔츠·검은 바지·흰 머그잔. A는 빨간 안테나·골판지 집게 소품팔, B는 파란 안테나·정상 손, C는 노란 안테나·넓은 어깨. 얼굴·테이프·종이 계기판을 동일하게 유지. A의 집게 소품팔 길이·관절 수는 고정하고 사람 손을 새로 꺼내거나 팔을 늘리지 않는다. 복제는 A와 같은 얼굴의 납작한 초록 테두리 합성 3개이며 실체 배우와 구분한다.",
+      "generation_prompt": "Use case: precise-object-edit / identity-preserve. Make ONE landscape16:9 standalone START FRAME for a live-action absurd low-budget comedy. Use actual reference image(s), preserve exact fictional Korean ADULT actors, faces, hair, costumes, cheap fluorescent-lit office and handmade design. This is INTENTIONALLY crude: corrugated cardboard, wrinkled duct tape, cheap cloth/wigs, exaggerated expressions, green chroma-key fringe and flat pasted-photo clones. Do NOT polish into a glossy corporate advertisement. Keep anatomy coherent, normal faces/hands, separate bodies. No text, captions, logos, numbers, watermarks or panels. Change the scene STATE specified below; the references may show a later result that MUST be withheld at this start.\n\nNEW pre-reaction state in SAME desk office. Gray-shirt FEMALE employee sits at left with opened silver laptop facing HERSELF, about to rotate toward robots; viewer sees laptop BACK, not data. White mug on desk. Original A red antenna, B blue, C yellow are all STANDING UPRIGHT, BOTH FEET on floor, expectant/overconfident advertising faces, NOT shocked, NOT leaning or falling. A retains short cardboard pincers; B/C normal hands. EXACTLY THREE obvious FLAT green-fringed A-photo copies remain smaller in background, also upright. Keep the EXISTING GRAY FLOOR unchanged, with NO new floor objects or supports. Do not change actors or costumes; NO extra real people, no numbers, no laptop screen content. Freeze BEFORE the revealing statement and shock.",
+      "path": "start_images/C04/C04-N04.png",
+      "absolute_path": "/home/wooseok/wsy/samsung_related/slide/AI실행결과발표대회_디자인3종/flow_handoff/2026-10-15_v2/start_images/C04/C04-N04.png",
+      "dimensions": [
+        1672,
+        941
+      ]
+    },
+    {
+      "id": "C04-N05",
+      "proposed_path": "start_images/C04/C04-N05.png",
+      "status": "generated_artist_checked",
+      "specification": "S04와 같은 사무실, 직원이 닫은 노트북을 옆구리에 들고 나갈 준비. B의 정상 손만 직원 셔츠 소매를 가볍게 잡고, A의 짧은 집게는 가까이 선 B의 골판지 옆면 높이에 머물며 늘어나지 않는다. C는 뒤에 붙어 따라갈 자세. 모두 이미 일어났고 애원하는 표정. 평면 복제3개는 뒤에서 일어선 채 같은 방향을 향한다. 한 줄 종종걸음 출발 직전 상태로 정돈.",
+      "reference_images": [
+        "/home/wooseok/wsy/samsung_related/slide/AI실행결과발표대회_디자인3종/storyboards/2026-10-15_absurd-v2/images/C04/S04.png",
+        "/home/wooseok/wsy/samsung_related/slide/AI실행결과발표대회_디자인3종/storyboards/2026-10-15_absurd-v2/images/C04/S03.png"
+      ],
+      "continuity": "직원은 기존 짧은 검은 픽시컷 한국인 성인 여성·연회색 셔츠·검은 바지·흰 머그잔. A는 빨간 안테나·골판지 집게 소품팔, B는 파란 안테나·정상 손, C는 노란 안테나·넓은 어깨. 얼굴·테이프·종이 계기판을 동일하게 유지. A의 집게 소품팔 길이·관절 수는 고정하고 사람 손을 새로 꺼내거나 팔을 늘리지 않는다. 복제는 A와 같은 얼굴의 납작한 초록 테두리 합성 3개이며 실체 배우와 구분한다.",
+      "generation_prompt": "Use case: precise-object-edit / identity-preserve. Make ONE landscape16:9 standalone START FRAME for a live-action absurd low-budget comedy. Use actual reference image(s), preserve exact fictional Korean ADULT actors, faces, hair, costumes, cheap fluorescent-lit office and handmade design. This is INTENTIONALLY crude: corrugated cardboard, wrinkled duct tape, cheap cloth/wigs, exaggerated expressions, green chroma-key fringe and flat pasted-photo clones. Do NOT polish into a glossy corporate advertisement. Keep anatomy coherent, normal faces/hands, separate bodies. No text, captions, logos, numbers, watermarks or panels. Change the scene STATE specified below; the references may show a later result that MUST be withheld at this start.\n\nNEW wide three-quarter SIDE view in SAME office. Gray-shirt short-haired FEMALE employee at FRONT LEFT is standing, holding CLOSED plain silver laptop against her left hip, facing SCREEN LEFT toward exit. Original B blue antenna stands immediately behind her on right, using ONE NORMAL HUMAN HAND to lightly hold employee right shirt sleeve. Original A red antenna stands very close behind B; A SHORT CARDBOARD PINCERS remain at chest height touching/hovering beside B cardboard torso, NOT extended to employee and no real fingers added. Original C yellow antenna/broad shoulders waits behind A. All three plead with exaggerated faces but are not yet walking. EXACTLY THREE flat green-fringed A clones upright in background facing same LEFT direction. All bodies separate with readable legs. Pose a simple loose following line, no wrestling, pulling strain or human fusion. This is start of following, after everybody has risen. Keep identical costumes and faces.",
+      "path": "start_images/C04/C04-N05.png",
+      "absolute_path": "/home/wooseok/wsy/samsung_related/slide/AI실행결과발표대회_디자인3종/flow_handoff/2026-10-15_v2/start_images/C04/C04-N05.png",
+      "dimensions": [
+        1672,
+        941
+      ]
+    },
+    {
+      "id": "C05-N02",
+      "proposed_path": "start_images/C05/C05-N02-v2.png",
+      "status": "generated_artist_checked",
+      "specification": "S02와 동일한 직원·팬 조작 구도이되 선풍기는 아직 꺼져 있고 직원이 스위치에 손을 댈 준비. A/B/C는 모두 흰 천을 덮고 있고 C의 형광 운동복과 흰 운동화는 긴 천으로 완전히 숨긴다. 가발·천은 아직 바람에 날리지 않는다. C에게 당황한 노출 표정이나 공중에 날아간 여분 천이 없어야 한다.",
+      "reference_images": [
+        "/home/wooseok/wsy/samsung_related/slide/AI실행결과발표대회_디자인3종/storyboards/2026-10-15_absurd-v2/images/C05/S02.png",
+        "/home/wooseok/wsy/samsung_related/slide/AI실행결과발표대회_디자인3종/storyboards/2026-10-15_absurd-v2/images/C05/S01-v2.png"
+      ],
+      "continuity": "직원은 기존 베이지 니트·검은 바지 남성. 귀신 A는 긴 가발·빨간 핀, B는 짧은 가발·파란 핀, C는 삐뚤어진 가발·노란 핀. C는 형광 연두·분홍 운동복을 온전히 입고 흰 운동화를 신으며, 공개 전에는 긴 흰 천으로 하의·신발까지 가린다. 재착용 뒤 검은 신발이 새로 생기면 안 된다. 배우·가발·핀·부유 크기·초록 키잉 테두리 고정.",
+      "generation_prompt": "Use case: precise-object-edit / identity-preserve. Make ONE landscape16:9 standalone START FRAME for a live-action absurd low-budget comedy. Use actual reference image(s), preserve exact fictional Korean ADULT actors, faces, hair, costumes, cheap fluorescent-lit office and handmade design. This is INTENTIONALLY crude: corrugated cardboard, wrinkled duct tape, cheap cloth/wigs, exaggerated expressions, green chroma-key fringe and flat pasted-photo clones. Do NOT polish into a glossy corporate advertisement. Keep anatomy coherent, normal faces/hands, separate bodies. No text, captions, logos, numbers, watermarks or panels. Change the scene STATE specified below; the references may show a later result that MUST be withheld at this start.\n\nEDIT fan scene to fan-OFF PRE-REVEAL. SAME beige-sweater male employee holds gray pedestal fan with one hand ready at switch, face mildly irritated, not surprised by exposed clothing. Fan OFF: blades visibly still, wigs/sheets hang without wind. SAME three ghost actors A red clip, B blue clip, C yellow clip. ALL have WHITE SHEET CAPES attached. C MUST be COMPLETELY wrapped in long opaque WHITE cloth from neck down over ALL legs and FEET; ZERO fluorescent lime/pink tracksuit and ZERO white shoes visible. Only C FACE and normal HANDS may show. NO detached or flying white cloth anywhere. C has boastful sales smile, NOT reveal panic. Use fully covered C in reference2 for wardrobe; reference1 only sets fan-holder composition. Preserve green fringe, uneven scale and cheap wigs.",
+      "path": "start_images/C05/C05-N02-v2.png",
+      "absolute_path": "/home/wooseok/wsy/samsung_related/slide/AI실행결과발표대회_디자인3종/flow_handoff/2026-10-15_v2/start_images/C05/C05-N02-v2.png",
+      "dimensions": [
+        1672,
+        941
+      ]
+    },
+    {
+      "id": "C05-N03",
+      "proposed_path": "start_images/C05/C05-N03.png",
+      "status": "generated_artist_checked",
+      "specification": "S03과 동일한 지목 와이드 구도, 같은 직원·팬·ABC·빈 벽. 선풍기는 꺼졌고 C는 긴 흰 천을 다시 완전히 덮었다. C의 흰 운동화는 천 아래 감추거나 동일한 흰색만 허용. 세 귀신은 모두 팔과 손을 내리고 아직 아무도 누구를 가리키지 않는다. 손가락 사슬과 빈 벽 방향을 미리 알려주는 포즈 금지. 직원은 질문하려 한다.",
+      "reference_images": [
+        "/home/wooseok/wsy/samsung_related/slide/AI실행결과발표대회_디자인3종/storyboards/2026-10-15_absurd-v2/images/C05/S03.png",
+        "/home/wooseok/wsy/samsung_related/slide/AI실행결과발표대회_디자인3종/storyboards/2026-10-15_absurd-v2/images/C05/S02.png"
+      ],
+      "continuity": "직원은 기존 베이지 니트·검은 바지 남성. 귀신 A는 긴 가발·빨간 핀, B는 짧은 가발·파란 핀, C는 삐뚤어진 가발·노란 핀. C는 형광 연두·분홍 운동복을 온전히 입고 흰 운동화를 신으며, 공개 전에는 긴 흰 천으로 하의·신발까지 가린다. 재착용 뒤 검은 신발이 새로 생기면 안 된다. 배우·가발·핀·부유 크기·초록 키잉 테두리 고정.",
+      "generation_prompt": "Use case: precise-object-edit / identity-preserve. Make ONE landscape16:9 standalone START FRAME for a live-action absurd low-budget comedy. Use actual reference image(s), preserve exact fictional Korean ADULT actors, faces, hair, costumes, cheap fluorescent-lit office and handmade design. This is INTENTIONALLY crude: corrugated cardboard, wrinkled duct tape, cheap cloth/wigs, exaggerated expressions, green chroma-key fringe and flat pasted-photo clones. Do NOT polish into a glossy corporate advertisement. Keep anatomy coherent, normal faces/hands, separate bodies. No text, captions, logos, numbers, watermarks or panels. Change the scene STATE specified below; the references may show a later result that MUST be withheld at this start.\n\nEDIT pointer-chain photo back to BEFORE THE QUESTION/POINTING. SAME beige male employee, office, fan and three ghost identities, hairstyles, RED/BLUE/YELLOW clips. Fan OFF. A,B,C all have BOTH ARMS LOWERED close to body with relaxed normal hands, NO outstretched arm, NO index finger pointing, NO pointing toward each other, self or blank wall. Faces are mildly uncertain/listening but do not expose the complete blame chain early. Employee ready to ask question. C is again fully covered in long opaque WHITE sheet from neck over legs and FEET, hiding ALL lime/pink tracksuit and ALL shoes; do not show black shoes. Keep blank wall on right, normal photographed room and deliberately green-fringed floating adults. No extra ghost/source at wall. Keep EXACT camera framing and each actor's pixel placement from reference1. In the 1672x941 composition, C face, upper body and future knocking hand must stay inside the existing right-side crop x1020,y140,width650,height366. Do not reframe, resize C or move C toward center. Only lower the pointing arms, relax faces and cover C lower costume/feet.",
+      "path": "start_images/C05/C05-N03.png",
+      "absolute_path": "/home/wooseok/wsy/samsung_related/slide/AI실행결과발표대회_디자인3종/flow_handoff/2026-10-15_v2/start_images/C05/C05-N03.png",
+      "dimensions": [
+        1672,
+        941
+      ]
+    },
+    {
+      "id": "C04-N06",
+      "proposed_path": "start_images/C04/C04-N06.png",
+      "status": "generated_artist_checked",
+      "specification": "S04와 같은 사무실·여자직원·ABC·평면복제3개. 세 원형 로봇은 이미 기존 회색 바닥에 서로 떨어져 등을 대고 누워 있으며 얼굴이 잘 보이고 눈을 뜬 코믹한 경악 표정. A빨강/B파랑/C노랑 안테나와골판지·집게팔고정. 3평면복제도뒤쪽바닥에납작하게누워있고모두다른몸과겹치지않음. 직원은왼쪽책상에서머그잔을들고바라봄. 기상전이므로아무도일어서거나일어나는중이아님. 팔·다리뒤엉킴/추가배우/부상묘사금지.",
+      "reference_images": [
+        "/home/wooseok/wsy/samsung_related/slide/AI실행결과발표대회_디자인3종/storyboards/2026-10-15_absurd-v2/images/C04/S04.png",
+        "/home/wooseok/wsy/samsung_related/slide/AI실행결과발표대회_디자인3종/storyboards/2026-10-15_absurd-v2/images/C04/S03.png"
+      ],
+      "continuity": "직원은 기존 짧은 검은 픽시컷 한국인 성인 여성·연회색 셔츠·검은 바지·흰 머그잔. A는 빨간 안테나·골판지 집게 소품팔, B는 파란 안테나·정상 손, C는 노란 안테나·넓은 어깨. 얼굴·테이프·종이 계기판을 동일하게 유지. A의 집게 소품팔 길이·관절 수는 고정하고 사람 손을 새로 꺼내거나 팔을 늘리지 않는다. 복제는 A와 같은 얼굴의 납작한 초록 테두리 합성 3개이며 실체 배우와 구분한다.",
+      "generation_prompt": "Use case: precise-object-edit / identity-preserve. Make ONE landscape16:9 standalone START FRAME for a live-action absurd low-budget comedy. Use actual reference image(s), preserve exact fictional Korean ADULT actors, faces, hair, costumes, cheap fluorescent-lit office and handmade design. This is INTENTIONALLY crude: corrugated cardboard, wrinkled duct tape, cheap cloth/wigs, exaggerated expressions, green chroma-key fringe and flat pasted-photo clones. Do NOT polish into a glossy corporate advertisement. Keep anatomy coherent, normal faces/hands, separate bodies. No text, captions, logos, numbers, watermarks or panels. Change the scene STATE specified below; the references may show a later result that MUST be withheld at this start.\n\nNEW post-fall PRE-RISING state in SAME office and same four actual actors. High enough wide camera so floor is clear. Gray-shirt FEMALE employee seated at LEFT desk holds white mug and looks on. EXACTLY THREE ORIGINAL cardboard robot actors A(red),B(blue),C(yellow broad shoulders) ALREADY LIE ON THEIR BACKS on the SAME EXISTING GRAY FLOOR, separated side by side with generous visible gaps. Their heads/faces remain visible, eyes open with comic stunned expressions, normal legs stretched or gently bent separately. A SHORT CARDBOARD PINCERS stay beside his box chest, no human hands suddenly visible. B/C hands ordinary. NO ONE is standing, sitting up, kneeling or midway through falling; their backs and boxes are resting on the existing gray floor, ready to rise NEXT. Behind them EXACTLY THREE smaller obviously FLAT green-fringed PHOTO COPIES of A also lie flat like paper domino cutouts, each distinct. Four real actors total including employee, plus three flat copies. Avoid overlapping bodies, tangled limbs, extra heads/limbs, injury or unconsciousness. Preserve exact reference identities; do not turn employee male.",
+      "path": "start_images/C04/C04-N06.png",
+      "absolute_path": "/home/wooseok/wsy/samsung_related/slide/AI실행결과발표대회_디자인3종/flow_handoff/2026-10-15_v2/start_images/C04/C04-N06.png",
+      "dimensions": [
+        1672,
+        941
+      ]
+    },
+    {
+      "id": "C05-N04",
+      "proposed_path": "start_images/C05/C05-N04.png",
+      "status": "generated_artist_checked",
+      "specification": "S02와동일한팬바람구도이나천노출전. 직원이팬을돌리고A/B/C는바람을광고효과로즐기며허세. C는긴흰천을목에서발까지온전히덮어형광운동복과흰운동화가한픽셀도보이지않음. C흰천은몸에붙어있고바깥자락만펄럭이며공중의별도벗겨진천없음. C표정은당황이아닌뻔뻔한광고미소. 세귀신정상손·같은가발/핀/초록키잉고정.",
+      "reference_images": [
+        "/home/wooseok/wsy/samsung_related/slide/AI실행결과발표대회_디자인3종/flow_handoff/2026-10-15_v2/start_images/C05/C05-N02.png",
+        "/home/wooseok/wsy/samsung_related/slide/AI실행결과발표대회_디자인3종/storyboards/2026-10-15_absurd-v2/images/C05/S02.png"
+      ],
+      "continuity": "직원은 기존 베이지 니트·검은 바지 남성. 귀신 A는 긴 가발·빨간 핀, B는 짧은 가발·파란 핀, C는 삐뚤어진 가발·노란 핀. C는 형광 연두·분홍 운동복을 온전히 입고 흰 운동화를 신으며, 공개 전에는 긴 흰 천으로 하의·신발까지 가린다. 재착용 뒤 검은 신발이 새로 생기면 안 된다. 배우·가발·핀·부유 크기·초록 키잉 테두리 고정.",
+      "generation_prompt": "Use case: precise-object-edit. EDIT REFERENCE1, the newly prepared fan-OFF START FRAME, into the immediate next WIND-ON state. Preserve EXACT camera, office, actors' faces, RED/BLUE/YELLOW hair clips, relative floating sizes, gray fan position and male employee pose. Reference2 only illustrates the later wind effect; its exposed tracksuit must NOT appear here. Make the fan blow now: gently flutter A/B wigs and sheet edges, make A/B enjoy wind like cheap advertising models. C on RIGHT keeps his entire existing LONG OPAQUE WHITE SHEET securely ON HIS BODY, from neckline all the way below every foot. Let only the OUTER EDGES billow slightly. ZERO fluorescent lime/pink tracksuit, ZERO white shoes, ZERO black trousers or feet visible. Only C face and normal bare hands emerge; white sheet cuffs hide wrists/clothes. C has a smug energetic sales smile, NOT panic. No separate floating cloth, no pulled-off cape, no hole showing inner clothes. No removal starts until the NEXT video action. Preserve deliberately ugly green chroma fringe, costume folds and low-budget pasted-in look; no beautification. Normal anatomy, exactly four real adult Korean actors including seated employee. Single landscape16:9 frame, NO text/logo/watermark.",
+      "path": "start_images/C05/C05-N04.png",
+      "absolute_path": "/home/wooseok/wsy/samsung_related/slide/AI실행결과발표대회_디자인3종/flow_handoff/2026-10-15_v2/start_images/C05/C05-N04.png",
+      "dimensions": [
+        1672,
+        941
+      ]
+    }
+  ],
+  "concepts": [
+    {
+      "id": "C04",
+      "title": "써봐! 써봐! …어떻게?",
+      "total_seconds": 55,
+      "body_seconds": 49,
+      "ending_seconds": 6,
+      "cut_classification": [
+        {
+          "cut_id": "01",
+          "classification": "그대로 시작이미지 가능",
+          "reason": "컵위미니로봇자체를즉시리빌."
+        },
+        {
+          "cut_id": "02",
+          "classification": "새 시작상태 필요",
+          "reason": "복제배출전버튼대기N02필수."
+        },
+        {
+          "cut_id": "03",
+          "classification": "그대로 시작이미지 가능",
+          "reason": "딩+하드컷으로꽉찬엘리베이터즉시리빌."
+        },
+        {
+          "cut_id": "04",
+          "classification": "새 시작상태 필요",
+          "reason": "노트북공개전기대표정N04필수."
+        },
+        {
+          "cut_id": "05",
+          "classification": "그대로 시작이미지 가능",
+          "reason": "S04에서실제넘어짐까지생성."
+        },
+        {
+          "cut_id": "06",
+          "classification": "새 시작상태 필요",
+          "reason": "기상전누운상태는C04-N06,추종시작은C04-N05로미리준비.영상생성후프레임의존성없음."
+        },
+        {
+          "cut_id": "07",
+          "classification": "그대로 시작이미지 가능",
+          "reason": "착석/짧은팔간격즉시리빌.펼치기준비클립불필요."
+        },
+        {
+          "cut_id": "08",
+          "classification": "그대로 시작이미지 가능",
+          "reason": "기존S05로몸통굽히기와B수첩방어두동작."
+        },
+        {
+          "cut_id": "09",
+          "classification": "후편집정지",
+          "reason": "6초행사명."
+        }
+      ],
+      "generation_clips": [
+        {
+          "id": "C04-F01",
+          "original_cut_ids": [
+            "01"
+          ],
+          "edit_timecode": {
+            "start_seconds": 0,
+            "end_seconds": 5,
+            "target_seconds": 5
+          },
+          "generation_seconds": 8,
+          "generation_mode": "Veo3.1 Lite/Fast · Frames",
+          "ingredients": false,
+          "start_asset": {
+            "mode": "existing_image",
+            "path": "/home/wooseok/wsy/samsung_related/slide/AI실행결과발표대회_디자인3종/storyboards/2026-10-15_absurd-v2/images/C04/S01.png",
+            "classification": "그대로 시작이미지 가능"
+          },
+          "start_state": "컵 위 미니 로봇 A를 즉시 공개한다.",
+          "end_state": "A가 짧은 집게로 춤추다가 기울어진 컵 위에서 균형을 잡는다.",
+          "primary_action": "컵 위 A의 과장된 춤과 균형 잡기.",
+          "camera": "고정 컵·직원 미디엄 클로즈업.",
+          "continuity": "직원은 기존 짧은 검은 픽시컷 한국인 성인 여성·연회색 셔츠·검은 바지·흰 머그잔. A는 빨간 안테나·골판지 집게 소품팔, B는 파란 안테나·정상 손, C는 노란 안테나·넓은 어깨. 얼굴·테이프·종이 계기판을 동일하게 유지. A의 집게 소품팔 길이·관절 수는 고정하고 사람 손을 새로 꺼내거나 팔을 늘리지 않는다. 복제는 A와 같은 얼굴의 납작한 초록 테두리 합성 3개이며 실체 배우와 구분한다.",
+          "edit_notes": "컵 속에서 기어나오는 별도 준비숏은 만들지 않는다. 기존대표이미지 자체가 첫 훅 리빌. 배웠으면/써봐 챈트 유지.",
+          "text_audio_policy": "자막·행사명은후편집. 원대사/챈트/효과음 의미와 배치 유지; 음성 세부 방식은총괄확정. 이 이미지 참조를 Ingredients 입력과 혼용하지 않는다."
+        },
+        {
+          "id": "C04-F02",
+          "original_cut_ids": [
+            "02"
+          ],
+          "edit_timecode": {
+            "start_seconds": 5,
+            "end_seconds": 10,
+            "target_seconds": 5
+          },
+          "generation_seconds": 8,
+          "generation_mode": "Veo3.1 Lite/Fast · Frames",
+          "ingredients": false,
+          "start_asset": {
+            "mode": "new_image",
+            "asset_id": "C04-N02",
+            "classification": "새 시작상태 필요"
+          },
+          "start_state": "A의 얼굴은 복사기 유리에 붙어 있고 B는 버튼 앞에서 대기한다. 출력구는 비어 있다.",
+          "end_state": "버튼을 누른 뒤 스캔하고, 첫 인쇄물이 나와 납작한 A 복제로 몸을 펴며 움직인다.",
+          "primary_action": "복사기 한 번 작동해 움직이는 평면 복제를 배출.",
+          "camera": "원인과결과가같이보이는고정와이드.",
+          "continuity": "직원은 기존 짧은 검은 픽시컷 한국인 성인 여성·연회색 셔츠·검은 바지·흰 머그잔. A는 빨간 안테나·골판지 집게 소품팔, B는 파란 안테나·정상 손, C는 노란 안테나·넓은 어깨. 얼굴·테이프·종이 계기판을 동일하게 유지. A의 집게 소품팔 길이·관절 수는 고정하고 사람 손을 새로 꺼내거나 팔을 늘리지 않는다. 복제는 A와 같은 얼굴의 납작한 초록 테두리 합성 3개이며 실체 배우와 구분한다.",
+          "edit_notes": "8초 원본에서 버튼누름을 먼저 보여주고 출력물의 독립된 움직임까지5초에편집. A얼굴을유리에대는별도1초클립은생성하지않는다. 단순인쇄물정지후군중으로건너뛰면실패. 조악한2D팝업/추가복제반복은후편집가능.",
+          "text_audio_policy": "자막·행사명은후편집. 원대사/챈트/효과음 의미와 배치 유지; 음성 세부 방식은총괄확정. 이 이미지 참조를 Ingredients 입력과 혼용하지 않는다."
+        },
+        {
+          "id": "C04-F03",
+          "original_cut_ids": [
+            "03"
+          ],
+          "edit_timecode": {
+            "start_seconds": 10,
+            "end_seconds": 16,
+            "target_seconds": 6
+          },
+          "generation_seconds": 8,
+          "generation_mode": "Veo3.1 Lite/Fast · Frames",
+          "ingredients": false,
+          "start_asset": {
+            "mode": "existing_image",
+            "path": "/home/wooseok/wsy/samsung_related/slide/AI실행결과발표대회_디자인3종/storyboards/2026-10-15_absurd-v2/images/C04/S03.png",
+            "classification": "그대로 시작이미지 가능"
+          },
+          "start_state": "열린 엘리베이터 안에 로봇과 복제들이 가득 차 있다.",
+          "end_state": "마지막 복제가 비집고 들어가려다 멈춘다. C는 어깨가 걸렸지만 허세를 유지하고 직원은 돌아선다.",
+          "primary_action": "마지막평면복제의 비집어들기.",
+          "camera": "고정정면와이드.",
+          "continuity": "직원은 기존 짧은 검은 픽시컷 한국인 성인 여성·연회색 셔츠·검은 바지·흰 머그잔. A는 빨간 안테나·골판지 집게 소품팔, B는 파란 안테나·정상 손, C는 노란 안테나·넓은 어깨. 얼굴·테이프·종이 계기판을 동일하게 유지. A의 집게 소품팔 길이·관절 수는 고정하고 사람 손을 새로 꺼내거나 팔을 늘리지 않는다. 복제는 A와 같은 얼굴의 납작한 초록 테두리 합성 3개이며 실체 배우와 구분한다.",
+          "edit_notes": "문열림동작은엘리베이터딩+하드컷리빌로치환해새닫힌문이미지불필요. 사람을문으로누르지않고골판지어깨만걸린상태. 동일전체서사유지.",
+          "text_audio_policy": "자막·행사명은후편집. 원대사/챈트/효과음 의미와 배치 유지; 음성 세부 방식은총괄확정. 이 이미지 참조를 Ingredients 입력과 혼용하지 않는다."
+        },
+        {
+          "id": "C04-F04",
+          "original_cut_ids": [
+            "04"
+          ],
+          "edit_timecode": {
+            "start_seconds": 16,
+            "end_seconds": 23,
+            "target_seconds": 7
+          },
+          "generation_seconds": 8,
+          "generation_mode": "Veo3.1 Lite/Fast · Frames",
+          "ingredients": false,
+          "start_asset": {
+            "mode": "new_image",
+            "asset_id": "C04-N04",
+            "classification": "새 시작상태 필요"
+          },
+          "start_state": "A·B·C와 복제들이 자신만만하게 서 있다. 노트북은 직원 쪽을 향한다.",
+          "end_state": "직원이 노트북을 돌리자 얼굴들이 차례로 경악한다. 아직 넘어지지 않는다.",
+          "primary_action": "노트북공개에대한얼굴반응.",
+          "camera": "고정와이드,얼굴급줌3회는후편집.",
+          "continuity": "직원은 기존 짧은 검은 픽시컷 한국인 성인 여성·연회색 셔츠·검은 바지·흰 머그잔. A는 빨간 안테나·골판지 집게 소품팔, B는 파란 안테나·정상 손, C는 노란 안테나·넓은 어깨. 얼굴·테이프·종이 계기판을 동일하게 유지. A의 집게 소품팔 길이·관절 수는 고정하고 사람 손을 새로 꺼내거나 팔을 늘리지 않는다. 복제는 A와 같은 얼굴의 납작한 초록 테두리 합성 3개이며 실체 배우와 구분한다.",
+          "edit_notes": "기존S04는이미뒤로기울어원인전시작으로부적합. 관객에게노트북뒷면이보이는구도보존,실행사례는별도자막.",
+          "text_audio_policy": "자막·행사명은후편집. 원대사/챈트/효과음 의미와 배치 유지; 음성 세부 방식은총괄확정. 이 이미지 참조를 Ingredients 입력과 혼용하지 않는다."
+        },
+        {
+          "id": "C04-F05",
+          "original_cut_ids": [
+            "05"
+          ],
+          "edit_timecode": {
+            "start_seconds": 23,
+            "end_seconds": 28,
+            "target_seconds": 5
+          },
+          "generation_seconds": 8,
+          "generation_mode": "Veo3.1 Lite/Fast · Frames",
+          "ingredients": false,
+          "start_asset": {
+            "mode": "existing_image",
+            "path": "/home/wooseok/wsy/samsung_related/slide/AI실행결과발표대회_디자인3종/storyboards/2026-10-15_absurd-v2/images/C04/S04.png",
+            "classification": "그대로 시작이미지 가능"
+          },
+          "start_state": "A·B·C와 복제들이 경악하며 균형을 잃기 직전이다.",
+          "end_state": "A, B·C, 평면 복제가 차례로 넘어져 실제로 눕는다. C의 안테나가 잠깐 떨린다.",
+          "primary_action": "로봇군단이도미노처럼자빠짐.",
+          "camera": "고정와이드,착지공간이보이도록프레임유지.",
+          "continuity": "직원은 기존 짧은 검은 픽시컷 한국인 성인 여성·연회색 셔츠·검은 바지·흰 머그잔. A는 빨간 안테나·골판지 집게 소품팔, B는 파란 안테나·정상 손, C는 노란 안테나·넓은 어깨. 얼굴·테이프·종이 계기판을 동일하게 유지. A의 집게 소품팔 길이·관절 수는 고정하고 사람 손을 새로 꺼내거나 팔을 늘리지 않는다. 복제는 A와 같은 얼굴의 납작한 초록 테두리 합성 3개이며 실체 배우와 구분한다.",
+          "edit_notes": "발차기나춤에서끝내지말고실제로기존회색바닥에누운상태까지. 넘어짐은의도적인B급합성으로표현하고바닥에새소품을추가하지않는다.",
+          "text_audio_policy": "자막·행사명은후편집. 원대사/챈트/효과음 의미와 배치 유지; 음성 세부 방식은총괄확정. 이 이미지 참조를 Ingredients 입력과 혼용하지 않는다."
+        },
+        {
+          "id": "C04-F06",
+          "original_cut_ids": [
+            "06"
+          ],
+          "edit_timecode": {
+            "start_seconds": 28,
+            "end_seconds": 31,
+            "target_seconds": 3
+          },
+          "generation_seconds": 8,
+          "generation_mode": "Veo3.1 Lite/Fast · Frames",
+          "ingredients": false,
+          "start_asset": {
+            "mode": "new_image",
+            "asset_id": "C04-N06",
+            "classification": "새 시작상태 필요"
+          },
+          "start_state": "A·B·C와 평면 복제 3개가 기존 회색 바닥에 누워 있다.",
+          "end_state": "원형 로봇들이 벌떡 일어나 궁금한 표정으로 바뀐다. 복제들도 뒤늦게 일어난다.",
+          "primary_action": "로봇들이벌떡일어남.",
+          "camera": "같은축고정와이드.",
+          "continuity": "직원은 기존 짧은 검은 픽시컷 한국인 성인 여성·연회색 셔츠·검은 바지·흰 머그잔. A는 빨간 안테나·골판지 집게 소품팔, B는 파란 안테나·정상 손, C는 노란 안테나·넓은 어깨. 얼굴·테이프·종이 계기판을 동일하게 유지. A의 집게 소품팔 길이·관절 수는 고정하고 사람 손을 새로 꺼내거나 팔을 늘리지 않는다. 복제는 A와 같은 얼굴의 납작한 초록 테두리 합성 3개이며 실체 배우와 구분한다.",
+          "edit_notes": "이미서있는S04를시작으로쓰면넘어짐회수상실. 기상과추종은필요한몸상태가달라이번컷만2클립분할.",
+          "text_audio_policy": "자막·행사명은후편집. 원대사/챈트/효과음 의미와 배치 유지; 음성 세부 방식은총괄확정. 이 이미지 참조를 Ingredients 입력과 혼용하지 않는다."
+        },
+        {
+          "id": "C04-F07",
+          "original_cut_ids": [
+            "06"
+          ],
+          "edit_timecode": {
+            "start_seconds": 31,
+            "end_seconds": 36,
+            "target_seconds": 5
+          },
+          "generation_seconds": 8,
+          "generation_mode": "Veo3.1 Lite/Fast · Frames",
+          "ingredients": false,
+          "start_asset": {
+            "mode": "new_image",
+            "asset_id": "C04-N05",
+            "classification": "새 시작상태 필요"
+          },
+          "start_state": "직원은 닫힌 노트북을 들고 출발하려 한다. B만 직원의 소매를 잡고 A·C는 가까이 서 있다.",
+          "end_state": "직원이 걷자 로봇들과 복제들이 종종걸음으로 같은 방향을 따라간다.",
+          "primary_action": "직원에게매달린로봇들의같은방향따라가기.",
+          "camera": "측면고정또는작은패닝.",
+          "continuity": "직원은 기존 짧은 검은 픽시컷 한국인 성인 여성·연회색 셔츠·검은 바지·흰 머그잔. A는 빨간 안테나·골판지 집게 소품팔, B는 파란 안테나·정상 손, C는 노란 안테나·넓은 어깨. 얼굴·테이프·종이 계기판을 동일하게 유지. A의 집게 소품팔 길이·관절 수는 고정하고 사람 손을 새로 꺼내거나 팔을 늘리지 않는다. 복제는 A와 같은 얼굴의 납작한 초록 테두리 합성 3개이며 실체 배우와 구분한다.",
+          "edit_notes": "A의팔을늘리거나사람손을추가하지않는다. B의정상손만소매접촉,A는가까운B의골판지높이에짧은집게유지. 어떻게챈트/발표하러간다는대사유지.",
+          "text_audio_policy": "자막·행사명은후편집. 원대사/챈트/효과음 의미와 배치 유지; 음성 세부 방식은총괄확정. 이 이미지 참조를 Ingredients 입력과 혼용하지 않는다."
+        },
+        {
+          "id": "C04-F08",
+          "original_cut_ids": [
+            "07",
+            "08"
+          ],
+          "edit_timecode": {
+            "start_seconds": 36,
+            "end_seconds": 42,
+            "target_seconds": 6
+          },
+          "generation_seconds": 8,
+          "generation_mode": "Veo3.1 Lite/Fast · Frames",
+          "ingredients": false,
+          "start_asset": {
+            "mode": "existing_image",
+            "path": "/home/wooseok/wsy/samsung_related/slide/AI실행결과발표대회_디자인3종/storyboards/2026-10-15_absurd-v2/images/C04/S05.png",
+            "classification": "그대로 시작이미지 가능"
+          },
+          "start_state": "로봇들이 착석해 있다. A의 짧은 팔과 무릎 위 수첩 사이의 간격을 공개한다.",
+          "end_state": "A가 수첩에 닿으려 몸을 접지만 골판지만 구겨지고 팔은 여전히 닿지 않는다.",
+          "primary_action": "A가짧은소품팔로필기하려애씀.",
+          "camera": "앞줄와이드에서A중심급줌은후편집.",
+          "continuity": "직원은 기존 짧은 검은 픽시컷 한국인 성인 여성·연회색 셔츠·검은 바지·흰 머그잔. A는 빨간 안테나·골판지 집게 소품팔, B는 파란 안테나·정상 손, C는 노란 안테나·넓은 어깨. 얼굴·테이프·종이 계기판을 동일하게 유지. A의 집게 소품팔 길이·관절 수는 고정하고 사람 손을 새로 꺼내거나 팔을 늘리지 않는다. 복제는 A와 같은 얼굴의 납작한 초록 테두리 합성 3개이며 실체 배우와 구분한다.",
+          "edit_notes": "착석/수첩펼치기준비클립을따로만들지않는다. 짧은팔이이미보이는것은정상적인개그리빌.36~39초원자막,39초부터몸개그강화. B에게본격부탁하는대사는다음클립.",
+          "text_audio_policy": "자막·행사명은후편집. 원대사/챈트/효과음 의미와 배치 유지; 음성 세부 방식은총괄확정. 이 이미지 참조를 Ingredients 입력과 혼용하지 않는다."
+        },
+        {
+          "id": "C04-F09",
+          "original_cut_ids": [
+            "08"
+          ],
+          "edit_timecode": {
+            "start_seconds": 42,
+            "end_seconds": 49,
+            "target_seconds": 7
+          },
+          "generation_seconds": 8,
+          "generation_mode": "Veo3.1 Lite/Fast · Frames",
+          "ingredients": false,
+          "start_asset": {
+            "mode": "existing_image",
+            "path": "/home/wooseok/wsy/samsung_related/slide/AI실행결과발표대회_디자인3종/storyboards/2026-10-15_absurd-v2/images/C04/S05.png",
+            "classification": "그대로 시작이미지 가능"
+          },
+          "start_state": "A가 B에게 기댄 채 부탁하려 한다. B의 수첩은 몸 앞에 있다.",
+          "end_state": "B가 자기 수첩을 가슴으로 당겨 지킨다. A는 어이없어한다.",
+          "primary_action": "B가수첩을보호하며A의받아쓰기부탁을거절.",
+          "camera": "고정A/B투숏;기존이미지를후편집크롭.",
+          "continuity": "직원은 기존 짧은 검은 픽시컷 한국인 성인 여성·연회색 셔츠·검은 바지·흰 머그잔. A는 빨간 안테나·골판지 집게 소품팔, B는 파란 안테나·정상 손, C는 노란 안테나·넓은 어깨. 얼굴·테이프·종이 계기판을 동일하게 유지. A의 집게 소품팔 길이·관절 수는 고정하고 사람 손을 새로 꺼내거나 팔을 늘리지 않는다. 복제는 A와 같은 얼굴의 납작한 초록 테두리 합성 3개이며 실체 배우와 구분한다.",
+          "edit_notes": "옆에좀적어줘/나도듣고있잖아 유지.필기실패이미보여준뒤라대표이미지의부탁포즈를시작으로써도반전선노출문제없음.",
+          "text_audio_policy": "자막·행사명은후편집. 원대사/챈트/효과음 의미와 배치 유지; 음성 세부 방식은총괄확정. 이 이미지 참조를 Ingredients 입력과 혼용하지 않는다."
+        }
+      ],
+      "post_edit_segments": [
+        {
+          "id": "C04-E01",
+          "type": "후편집정지",
+          "original_cut_ids": [
+            "09"
+          ],
+          "edit_timecode": {
+            "start_seconds": 49,
+            "end_seconds": 55,
+            "target_seconds": 6
+          },
+          "source": {
+            "mode": "existing_image",
+            "path": "/home/wooseok/wsy/samsung_related/slide/AI실행결과발표대회_디자인3종/storyboards/2026-10-15_absurd-v2/images/C04/S05.png",
+            "classification": "그대로 시작이미지 가능"
+          },
+          "action": "기존S05 또는 C04-F09 최종프레임에 행사명 합성,6초 정지. 생성클립 없음.",
+          "caption": "2026년 품질팀\nAI 실행 결과 발표 대회\n함께 들으러 오세요.",
+          "constraints": "6초 유지. 인물·복제가 행사명을 가리지 않는 단순 여백/배경감광 적용, 로고·날짜·장소 추가 금지."
+        }
+      ],
+      "source_cut_dialogue_and_captions": [
+        {
+          "id": "01",
+          "scene": "S01",
+          "start": 0,
+          "end": 5,
+          "visual": "커피컵 클로즈업. 컵 속 조악한 축소 로봇 A가 테두리에 올라 직원에게 삿대질하며 춤. 컵이 조금 기울자 헛발질한다.",
+          "caption": "",
+          "dialogue": "A: “배웠으면! 써봐! 써봐!”",
+          "audio": "값싼 전자 드럼 4박과 배우가 직접 내는 뿅 소리. 커피컵 덜컹.",
+          "transition": "써봐 박자에 복도 하드 컷.",
+          "intent": "첫 화면부터 크기와 합성의 대놓고 허술함, 균형 잡는 몸개그."
+        },
+        {
+          "id": "02",
+          "scene": "S02",
+          "start": 5,
+          "end": 10,
+          "visual": "직원이 복도에서 A의 춤을 피해 옆으로 빠진다. A는 복사기 유리에 자기 골판지 얼굴을 눌러 대고 B가 복사 버튼을 누른다. 번쩍이는 스캔 빛 뒤 A와 같은 평면 복제 하나가 배출구에서 툭 튀어나와 구호를 잇는다. 싼 잘라붙이기 합성으로 복제가 반복된다.",
+          "caption": "",
+          "dialogue": "A: “써봐!” B: “한 장 더!” 복제들: “써봐! 써봐!”",
+          "audio": "같은 전자 드럼. 골판지 서로 부딪치는 툭 소리를 박자에 섞음.",
+          "transition": "직원의 피하는 동선을 따라 엘리베이터 문 앞으로.",
+          "intent": "반복 챈트를 사람 크기·수·동선의 확대로 변화."
+        },
+        {
+          "id": "03",
+          "scene": "S03",
+          "start": 10,
+          "end": 16,
+          "visual": "도망치려던 직원이 엘리베이터 문 앞에 선다. 문이 열리자 원형 A·B·C와 납작한 복제들로 꽉 차 있다. 문 밖 마지막 복제 하나가 비집고 들어가려 하고, 어깨 소품이 문틀에 걸린 C는 그 와중에도 영웅적인 표정으로 박자를 탄다. 직원은 다시 옆으로 빠져나간다.",
+          "caption": "",
+          "dialogue": "C: “써…봐!” 마지막 복제: “나도!”",
+          "audio": "박자는 그대로. 소품 삐걱·잘못 들어오는 박수. 무음으로 식히지 않음.",
+          "transition": "직원의 다음 발걸음에서 책상 앞에 앉는 점프컷.",
+          "intent": "집요한 독촉자들이 자기 소품에 발목 잡혀도 허세를 유지."
+        },
+        {
+          "id": "04",
+          "scene": "S04",
+          "start": 16,
+          "end": 23,
+          "visual": "직원이 책상에 앉아 노트북을 로봇들에게 돌려 보여준다. 관객에게는 노트북 뒷면이 보이는 구도이므로 실행 사례 표시는 별도 편집 자막으로 제시한다. 구체적 성과 수치·가짜 그래프는 넣지 않는다. 로봇 세 명의 눈이 차례로 커진다.",
+          "caption": "실행 사례",
+          "dialogue": "직원: “이미 실제 업무에 써봤는데요.”",
+          "audio": "챈트가 써—에서 테이프 늘어진 듯 끊김. 직원 대사는 선명하게.",
+          "transition": "얼굴 급줌 세 번 뒤 와이드.",
+          "intent": "독촉의 전제가 틀렸다는 반전. 화면은 광고용 가상 재연이며 실적 수치 없음."
+        },
+        {
+          "id": "05",
+          "scene": "S04",
+          "start": 23,
+          "end": 28,
+          "visual": "원형 A가 기존 회색 바닥으로 자빠지고 B·C가 한 박자 늦게 따라 눕는다. 배경의 평면 복제들도 싼 도미노 효과로 쓰러진다. C의 안테나만 계속 흔들린다. 직원은 컵을 쥐고 지켜본다.",
+          "caption": "",
+          "dialogue": "로봇들: “에에에?!”",
+          "audio": "낡은 게임 오버풍 하강음 지시와 골판지 와르르. 특정 기존 음원 사용 지시 아님.",
+          "transition": "마지막 쿵에 바로 벌떡 점프컷.",
+          "intent": "실제 적용을 해봤다는 평범한 사실에 과장된 신체 반응."
+        },
+        {
+          "id": "06",
+          "scene": "S04",
+          "start": 28,
+          "end": 36,
+          "visual": "원형 A·B·C가 벌떡 일어나 이번엔 소매를 잡고 애원하듯 따라붙는다. 직원이 노트북을 들고 걸으면 셋이 줄줄이 끌려가듯 종종걸음으로 따라간다. 복제들은 사라지지 않고 뒤에서 뒤늦게 일어나 같은 방향으로 따라간다.",
+          "caption": "",
+          "dialogue": "로봇들: “어떻게? 어떻게?” 직원: “그거 발표하러 가잖아요.”",
+          "audio": "이전 써봐 비트가 재개되지만 가사만 어떻게로 교체. 대사에서는 비트 낮춤.",
+          "transition": "직원이 화면 밖으로 한 걸음→앞줄에 이미 앉은 로봇으로 점프컷.",
+          "intent": "같은 반복 장치의 뜻을 실행 독촉에서 사례 질문으로 뒤집고 행사 연결."
+        },
+        {
+          "id": "07",
+          "scene": "S05",
+          "start": 36,
+          "end": 39,
+          "visual": "발표 공간 앞줄 A·B·C가 수첩을 펼치자마자 A만 짧은 팔이 종이에 닿지 않는다. 바로 필기 실패로 넘어간다. 배경 뒷줄에는 복제 실루엣들이 남아 있다.",
+          "caption": "직접 해본 AI 이야기, 함께 들어요.",
+          "dialogue": "직원: “제가 해본 방법부터…”",
+          "audio": "전자 드럼을 작게 유지. 수첩 펼치는 세 번의 퍽.",
+          "transition": "A의 짧은 팔 쪽 급줌.",
+          "intent": "발표대회가 로봇의 질문에 답하는 자리라는 목적을 보이기."
+        },
+        {
+          "id": "08",
+          "scene": "S05",
+          "start": 39,
+          "end": 49,
+          "visual": "A의 짧은 소품 팔이 무릎 위 수첩에 끝내 닿지 않는다. 몸통 전체를 접으려다 골판지만 구겨진다. A가 옆 B의 귀에 받아쓰기를 시키자 B는 자기 수첩을 가슴으로 당겨 지킨다.",
+          "caption": "",
+          "dialogue": "A: “옆에 좀 적어줘.” B: “나도 듣고 있잖아.”",
+          "audio": "골판지 우지끈 뒤 작은 필기 소리. 마지막 0.5초만 반응을 유지.",
+          "transition": "세 로봇과 빈 스크린 와이드 정지.",
+          "intent": "남에게 써보라고 하던 로봇이 자기 필기부터 도움을 구하는 작은 재반전."
+        },
+        {
+          "id": "09",
+          "scene": "S05",
+          "start": 49,
+          "end": 55,
+          "visual": "같은 발표 공간 정지화면. 빈 스크린에 정식 행사명과 참석 초대만 명료하게 합성. 로봇 실루엣은 아래쪽에 남긴다.",
+          "caption": "2026년 품질팀\nAI 실행 결과 발표 대회\n함께 들으러 오세요.",
+          "dialogue": "",
+          "audio": "전자 드럼 마무리, 마지막에 작게 어떻게 두 음절 리듬만 회수.",
+          "transition": "6초 유지 후 종료.",
+          "intent": "확인된 행사명을 읽고 참석 목적을 남김. 날짜·장소·혜택·신청 경로는 창작하지 않음."
+        }
+      ],
+      "timeline_validation": "0~55초빈틈/겹침없음.본문01~08과엔딩09모두커버.생성길이와편집길이구분."
+    },
+    {
+      "id": "C05",
+      "title": "된다더라 귀신들",
+      "total_seconds": 55,
+      "body_seconds": 49,
+      "ending_seconds": 6,
+      "cut_classification": [
+        {
+          "cut_id": "01",
+          "classification": "그대로 시작이미지 가능",
+          "reason": "S01-v2를사용하고첫5초는A쪽후편집크롭."
+        },
+        {
+          "cut_id": "02",
+          "classification": "그대로 시작이미지 가능",
+          "reason": "같은와이드에서B→C를후편집크롭으로순차공개."
+        },
+        {
+          "cut_id": "03",
+          "classification": "새 시작상태 필요",
+          "reason": "팬켜기전·C천가림N02필수."
+        },
+        {
+          "cut_id": "04",
+          "classification": "새 시작상태 필요",
+          "reason": "천이탈전은C05-N04완전가림상태,재착용은기존S02.영상끝프레임의존성없음."
+        },
+        {
+          "cut_id": "05",
+          "classification": "새 시작상태 필요",
+          "reason": "지목전손내린N03필수."
+        },
+        {
+          "cut_id": "06",
+          "classification": "새 시작상태 필요",
+          "reason": "N03에서순차지목.빈벽2초는기존S03일부크롭후편집정지."
+        },
+        {
+          "cut_id": "07",
+          "classification": "새 시작상태 필요",
+          "reason": "새C05-N03의손내린완전흰천상태에서C가주먹올려노크. 기존S03검은신발충돌제거."
+        },
+        {
+          "cut_id": "08",
+          "classification": "그대로 시작이미지 가능",
+          "reason": "착석/자기가슴지목즉시리빌후대사로의미회수."
+        },
+        {
+          "cut_id": "09",
+          "classification": "후편집정지",
+          "reason": "6초행사명."
+        }
+      ],
+      "generation_clips": [
+        {
+          "id": "C05-F01",
+          "original_cut_ids": [
+            "01"
+          ],
+          "edit_timecode": {
+            "start_seconds": 0,
+            "end_seconds": 5,
+            "target_seconds": 5
+          },
+          "generation_seconds": 8,
+          "generation_mode": "Veo3.1 Lite/Fast · Frames",
+          "ingredients": false,
+          "start_asset": {
+            "mode": "existing_image",
+            "path": "/home/wooseok/wsy/samsung_related/slide/AI실행결과발표대회_디자인3종/storyboards/2026-10-15_absurd-v2/images/C05/S01-v2.png",
+            "classification": "그대로 시작이미지 가능"
+          },
+          "start_state": "떠 있는 A를 공개한다. 전체 입력에는 B·C도 있지만 첫 컷은 A만 크롭한다.",
+          "end_state": "A가 과장된 판매 제스처로 허풍을 친다.",
+          "primary_action": "A의과장된허풍광고.",
+          "camera": "전체와이드생성후A얼굴쪽으로후편집크롭.",
+          "continuity": "직원은 기존 베이지 니트·검은 바지 남성. 귀신 A는 긴 가발·빨간 핀, B는 짧은 가발·파란 핀, C는 삐뚤어진 가발·노란 핀. C는 형광 연두·분홍 운동복을 온전히 입고 흰 운동화를 신으며, 공개 전에는 긴 흰 천으로 하의·신발까지 가린다. 재착용 뒤 검은 신발이 새로 생기면 안 된다. 배우·가발·핀·부유 크기·초록 키잉 테두리 고정.",
+          "edit_notes": "기존S01-v2를그대로Frames시작.첫컷편집크롭가안[x540,y0,w520,h293]으로B/C를숨김. 실제움직임확인후크롭조정. 빈사무실등장전새이미지불필요.",
+          "text_audio_policy": "자막·행사명은후편집. 원대사/챈트/효과음 의미와 배치 유지; 음성 세부 방식은총괄확정. 이 이미지 참조를 Ingredients 입력과 혼용하지 않는다."
+        },
+        {
+          "id": "C05-F02",
+          "original_cut_ids": [
+            "02"
+          ],
+          "edit_timecode": {
+            "start_seconds": 5,
+            "end_seconds": 11,
+            "target_seconds": 6
+          },
+          "generation_seconds": 8,
+          "generation_mode": "Veo3.1 Lite/Fast · Frames",
+          "ingredients": false,
+          "start_asset": {
+            "mode": "existing_image",
+            "path": "/home/wooseok/wsy/samsung_related/slide/AI실행결과발표대회_디자인3종/storyboards/2026-10-15_absurd-v2/images/C05/S01-v2.png",
+            "classification": "그대로 시작이미지 가능"
+          },
+          "start_state": "같은 와이드 구도에 B·C가 있다. 관객에게는 이번 컷에서 처음 공개한다.",
+          "end_state": "B와 C가 서로 끼어들며 A와 허세 경쟁을 한다.",
+          "primary_action": "B/C의서로끼어드는광고동작.",
+          "camera": "고정와이드생성후5~8초B크롭,8~10초C크롭,10~11초전체와이드.",
+          "continuity": "직원은 기존 베이지 니트·검은 바지 남성. 귀신 A는 긴 가발·빨간 핀, B는 짧은 가발·파란 핀, C는 삐뚤어진 가발·노란 핀. C는 형광 연두·분홍 운동복을 온전히 입고 흰 운동화를 신으며, 공개 전에는 긴 흰 천으로 하의·신발까지 가린다. 재착용 뒤 검은 신발이 새로 생기면 안 된다. 배우·가발·핀·부유 크기·초록 키잉 테두리 고정.",
+          "edit_notes": "첫등장을한명씩생성하지않고편집리빌로원순서보존. 의도적인복붙부유효과와각기다른크기유지. C형광복은완전가림.",
+          "text_audio_policy": "자막·행사명은후편집. 원대사/챈트/효과음 의미와 배치 유지; 음성 세부 방식은총괄확정. 이 이미지 참조를 Ingredients 입력과 혼용하지 않는다."
+        },
+        {
+          "id": "C05-F03",
+          "original_cut_ids": [
+            "03"
+          ],
+          "edit_timecode": {
+            "start_seconds": 11,
+            "end_seconds": 17,
+            "target_seconds": 6
+          },
+          "generation_seconds": 8,
+          "generation_mode": "Veo3.1 Lite/Fast · Frames",
+          "ingredients": false,
+          "start_asset": {
+            "mode": "new_image",
+            "asset_id": "C05-N02",
+            "classification": "새 시작상태 필요"
+          },
+          "start_state": "팬은 꺼져 있고 직원은 팬을 든 채 스위치를 누르기 직전이다. 귀신 셋은 모두 흰 천을 입고 영업 중이다.",
+          "end_state": "팬을 켜자 귀신들이 바람을 광고 효과처럼 즐긴다. C의 천은 끝까지 벗겨지지 않는다.",
+          "primary_action": "선풍기바람을오히려광고무대로이용.",
+          "camera": "고정팬·직원·귀신와이드.",
+          "continuity": "직원은 기존 베이지 니트·검은 바지 남성. 귀신 A는 긴 가발·빨간 핀, B는 짧은 가발·파란 핀, C는 삐뚤어진 가발·노란 핀. C는 형광 연두·분홍 운동복을 온전히 입고 흰 운동화를 신으며, 공개 전에는 긴 흰 천으로 하의·신발까지 가린다. 재착용 뒤 검은 신발이 새로 생기면 안 된다. 배우·가발·핀·부유 크기·초록 키잉 테두리 고정.",
+          "edit_notes": "기존S02는이미형광복공개라사용금지. 이클립끝까지C천과몸이분리되지않아야다음공개가성립.",
+          "text_audio_policy": "자막·행사명은후편집. 원대사/챈트/효과음 의미와 배치 유지; 음성 세부 방식은총괄확정. 이 이미지 참조를 Ingredients 입력과 혼용하지 않는다."
+        },
+        {
+          "id": "C05-F04",
+          "original_cut_ids": [
+            "04"
+          ],
+          "edit_timecode": {
+            "start_seconds": 17,
+            "end_seconds": 20,
+            "target_seconds": 3
+          },
+          "generation_seconds": 8,
+          "generation_mode": "Veo3.1 Lite/Fast · Frames",
+          "ingredients": false,
+          "start_asset": {
+            "mode": "new_image",
+            "asset_id": "C05-N04",
+            "classification": "새 시작상태 필요"
+          },
+          "start_state": "팬 바람이 부는 중이다. C는 긴 흰 천으로 옷과 신발을 완전히 가린 채 허세를 부린다.",
+          "end_state": "C의 천이 날아가 온전히 입고 있던 형광 운동복이 드러난다. C가 당황한다.",
+          "primary_action": "바람에C의흰천이이탈.",
+          "camera": "고정C포함미디엄.",
+          "continuity": "직원은 기존 베이지 니트·검은 바지 남성. 귀신 A는 긴 가발·빨간 핀, B는 짧은 가발·파란 핀, C는 삐뚤어진 가발·노란 핀. C는 형광 연두·분홍 운동복을 온전히 입고 흰 운동화를 신으며, 공개 전에는 긴 흰 천으로 하의·신발까지 가린다. 재착용 뒤 검은 신발이 새로 생기면 안 된다. 배우·가발·핀·부유 크기·초록 키잉 테두리 고정.",
+          "edit_notes": "천공개와재착용은정반대시작상태가필요해분할. 형광복이미보이는기존S02를이클립시작으로대체금지. 긴팔/긴바지/흰운동화고정.",
+          "text_audio_policy": "자막·행사명은후편집. 원대사/챈트/효과음 의미와 배치 유지; 음성 세부 방식은총괄확정. 이 이미지 참조를 Ingredients 입력과 혼용하지 않는다."
+        },
+        {
+          "id": "C05-F05",
+          "original_cut_ids": [
+            "04"
+          ],
+          "edit_timecode": {
+            "start_seconds": 20,
+            "end_seconds": 24,
+            "target_seconds": 4
+          },
+          "generation_seconds": 8,
+          "generation_mode": "Veo3.1 Lite/Fast · Frames",
+          "ingredients": false,
+          "start_asset": {
+            "mode": "existing_image",
+            "path": "/home/wooseok/wsy/samsung_related/slide/AI실행결과발표대회_디자인3종/storyboards/2026-10-15_absurd-v2/images/C05/S02.png",
+            "classification": "그대로 시작이미지 가능"
+          },
+          "start_state": "형광 운동복이 이미 공개됐고 C는 가까이 날아간 천을 잡으려 한다.",
+          "end_state": "C가 다시 천을 덮고 뻔뻔한 영업 미소로 돌아온다.",
+          "primary_action": "C가흰천을다시뒤집어씀.",
+          "camera": "고정와이드또는C미디엄.",
+          "continuity": "직원은 기존 베이지 니트·검은 바지 남성. 귀신 A는 긴 가발·빨간 핀, B는 짧은 가발·파란 핀, C는 삐뚤어진 가발·노란 핀. C는 형광 연두·분홍 운동복을 온전히 입고 흰 운동화를 신으며, 공개 전에는 긴 흰 천으로 하의·신발까지 가린다. 재착용 뒤 검은 신발이 새로 생기면 안 된다. 배우·가발·핀·부유 크기·초록 키잉 테두리 고정.",
+          "edit_notes": "같은운동복을입은채천만덮는다. 갑자기검은신발/검은바지로바꾸지말것. 팬끄는소리는말미후편집.",
+          "text_audio_policy": "자막·행사명은후편집. 원대사/챈트/효과음 의미와 배치 유지; 음성 세부 방식은총괄확정. 이 이미지 참조를 Ingredients 입력과 혼용하지 않는다."
+        },
+        {
+          "id": "C05-F06",
+          "original_cut_ids": [
+            "05"
+          ],
+          "edit_timecode": {
+            "start_seconds": 24,
+            "end_seconds": 30,
+            "target_seconds": 6
+          },
+          "generation_seconds": 8,
+          "generation_mode": "Veo3.1 Lite/Fast · Frames",
+          "ingredients": false,
+          "start_asset": {
+            "mode": "new_image",
+            "asset_id": "C05-N03",
+            "classification": "새 시작상태 필요"
+          },
+          "start_state": "팬이 멈췄고 C는 천을 다시 입었다. 귀신 셋 모두 손을 내렸으며 아무도 지목하지 않는다.",
+          "end_state": "직접 해본 사람을 묻자 귀신들이 서로 눈치를 본다.",
+          "primary_action": "직접해본사람질문에얼굴과시선만흔들림.",
+          "camera": "고정직원+ABC와이드.",
+          "continuity": "직원은 기존 베이지 니트·검은 바지 남성. 귀신 A는 긴 가발·빨간 핀, B는 짧은 가발·파란 핀, C는 삐뚤어진 가발·노란 핀. C는 형광 연두·분홍 운동복을 온전히 입고 흰 운동화를 신으며, 공개 전에는 긴 흰 천으로 하의·신발까지 가린다. 재착용 뒤 검은 신발이 새로 생기면 안 된다. 배우·가발·핀·부유 크기·초록 키잉 테두리 고정.",
+          "edit_notes": "기존S03의지목완료상태사용금지. 질문이끝나기전완성된손가락사슬을보여주지않는다.",
+          "text_audio_policy": "자막·행사명은후편집. 원대사/챈트/효과음 의미와 배치 유지; 음성 세부 방식은총괄확정. 이 이미지 참조를 Ingredients 입력과 혼용하지 않는다."
+        },
+        {
+          "id": "C05-F07",
+          "original_cut_ids": [
+            "06"
+          ],
+          "edit_timecode": {
+            "start_seconds": 30,
+            "end_seconds": 35,
+            "target_seconds": 5
+          },
+          "generation_seconds": 8,
+          "generation_mode": "Veo3.1 Lite/Fast · Frames",
+          "ingredients": false,
+          "start_asset": {
+            "mode": "new_image",
+            "asset_id": "C05-N03",
+            "classification": "새 시작상태 필요"
+          },
+          "start_state": "귀신 셋 모두 손을 내리고 있다. 빈 벽은 아직 주목받지 않는다.",
+          "end_state": "A가 B를, B가 C를, C가 빈 벽을 차례로 가리킨다.",
+          "primary_action": "출처를넘기는손가락릴레이.",
+          "camera": "같은축와이드,마지막손가락따라오른쪽짧은팬.",
+          "continuity": "직원은 기존 베이지 니트·검은 바지 남성. 귀신 A는 긴 가발·빨간 핀, B는 짧은 가발·파란 핀, C는 삐뚤어진 가발·노란 핀. C는 형광 연두·분홍 운동복을 온전히 입고 흰 운동화를 신으며, 공개 전에는 긴 흰 천으로 하의·신발까지 가린다. 재착용 뒤 검은 신발이 새로 생기면 안 된다. 배우·가발·핀·부유 크기·초록 키잉 테두리 고정.",
+          "edit_notes": "지목1개마다별도생성하지않고8초한클립에서순서만고정해5초사용.35~37초는별도빈벽정지로반드시분리.첫프레임에세명모두지목하면실패.",
+          "text_audio_policy": "자막·행사명은후편집. 원대사/챈트/효과음 의미와 배치 유지; 음성 세부 방식은총괄확정. 이 이미지 참조를 Ingredients 입력과 혼용하지 않는다."
+        },
+        {
+          "id": "C05-F08",
+          "original_cut_ids": [
+            "07"
+          ],
+          "edit_timecode": {
+            "start_seconds": 37,
+            "end_seconds": 43,
+            "target_seconds": 6
+          },
+          "generation_seconds": 8,
+          "generation_mode": "Veo3.1 Lite/Fast · Frames",
+          "ingredients": false,
+          "start_asset": {
+            "mode": "new_image",
+            "asset_id": "C05-N03",
+            "classification": "새 시작상태 필요"
+          },
+          "start_state": "빈 벽만 보여준 뒤 C로 돌아온다. C는 천을 완전히 입고 손을 내리고 있다.",
+          "end_state": "C가 주먹을 들어 벽을 두 번 두드린다. 답이 없자 눈을 피한다.",
+          "primary_action": "C가손을주먹으로올려빈벽을두번두드림.",
+          "camera": "C05-N03의기존S03동일축와이드생성후[x1020,y140,w650,h366]C·손·빈벽크롭.",
+          "continuity": "직원은 기존 베이지 니트·검은 바지 남성. 귀신 A는 긴 가발·빨간 핀, B는 짧은 가발·파란 핀, C는 삐뚤어진 가발·노란 핀. C는 형광 연두·분홍 운동복을 온전히 입고 흰 운동화를 신으며, 공개 전에는 긴 흰 천으로 하의·신발까지 가린다. 재착용 뒤 검은 신발이 새로 생기면 안 된다. 배우·가발·핀·부유 크기·초록 키잉 테두리 고정.",
+          "edit_notes": "기존S03의검은신발C를입력으로사용하지않는다. 새N03에서C전체하의·신발은흰천가림. 빈벽2초뒤돌아온C가주먹을올려노크. 직원초대는화면밖대사/발소리.",
+          "text_audio_policy": "자막·행사명은후편집. 원대사/챈트/효과음 의미와 배치 유지; 음성 세부 방식은총괄확정. 이 이미지 참조를 Ingredients 입력과 혼용하지 않는다."
+        },
+        {
+          "id": "C05-F09",
+          "original_cut_ids": [
+            "08"
+          ],
+          "edit_timecode": {
+            "start_seconds": 43,
+            "end_seconds": 49,
+            "target_seconds": 6
+          },
+          "generation_seconds": 8,
+          "generation_mode": "Veo3.1 Lite/Fast · Frames",
+          "ingredients": false,
+          "start_asset": {
+            "mode": "existing_image",
+            "path": "/home/wooseok/wsy/samsung_related/slide/AI실행결과발표대회_디자인3종/storyboards/2026-10-15_absurd-v2/images/C05/S04.png",
+            "classification": "그대로 시작이미지 가능"
+          },
+          "start_state": "착석한 귀신들의 전체 이미지다. C의 자기 지목은 얼굴 크롭으로 숨겨 둔다.",
+          "end_state": "내 생각! 대사에서 전체 구도와 C의 가슴 지목을 공개하고 A·B의 반응으로 마친다.",
+          "primary_action": "C가남대신자신을출처로지목.",
+          "camera": "고정앞줄미디엄.",
+          "continuity": "직원은 기존 베이지 니트·검은 바지 남성. 귀신 A는 긴 가발·빨간 핀, B는 짧은 가발·파란 핀, C는 삐뚤어진 가발·노란 핀. C는 형광 연두·분홍 운동복을 온전히 입고 흰 운동화를 신으며, 공개 전에는 긴 흰 천으로 하의·신발까지 가린다. 재착용 뒤 검은 신발이 새로 생기면 안 된다. 배우·가발·핀·부유 크기·초록 키잉 테두리 고정.",
+          "edit_notes": "환복/착석은하드컷리빌로생략가능한준비동작.이건들어야겠더라→누가?→내생각! 순서유지.지목자세가이미있어도이후대사가의미를뒤집는구조라새손내린이미지불필요.",
+          "text_audio_policy": "자막·행사명은후편집. 원대사/챈트/효과음 의미와 배치 유지; 음성 세부 방식은총괄확정. 이 이미지 참조를 Ingredients 입력과 혼용하지 않는다."
+        }
+      ],
+      "post_edit_segments": [
+        {
+          "id": "C05-E00",
+          "type": "후편집정지",
+          "original_cut_ids": [
+            "06"
+          ],
+          "edit_timecode": {
+            "start_seconds": 35,
+            "end_seconds": 37,
+            "target_seconds": 2
+          },
+          "source": {
+            "mode": "existing_image_post_edit_crop",
+            "path": "/home/wooseok/wsy/samsung_related/slide/AI실행결과발표대회_디자인3종/storyboards/2026-10-15_absurd-v2/images/C05/S03.png",
+            "crop_pixels": {
+              "x": 1460,
+              "y": 420,
+              "width": 210,
+              "height": 118
+            },
+            "classification": "후편집정지",
+            "note": "실제확인한1672×941이미지의오른쪽벽단독영역. 인물/손/그림자없는부분만확대해2초정지. 별도새이미지생성없음. 단색벽질감이라확대부담낮지만최종편집에서인물혼입0인지확인."
+          },
+          "action": "기존S03의순수빈벽부분만후편집크롭·확대해35~37초정확히2초유지. 사람/손/그림자/출처없음.",
+          "caption": "",
+          "constraints": "끝에 새 출처가 나타나면 개그가 달라짐. 말소리와 뿅 효과도 멈춘다."
+        },
+        {
+          "id": "C05-E01",
+          "type": "후편집정지",
+          "original_cut_ids": [
+            "09"
+          ],
+          "edit_timecode": {
+            "start_seconds": 49,
+            "end_seconds": 55,
+            "target_seconds": 6
+          },
+          "source": {
+            "mode": "existing_image",
+            "path": "/home/wooseok/wsy/samsung_related/slide/AI실행결과발표대회_디자인3종/storyboards/2026-10-15_absurd-v2/images/C05/S04.png",
+            "classification": "그대로 시작이미지 가능"
+          },
+          "action": "기존S04 또는 C05-F09 최종프레임에 행사명 합성,6초 정지. 생성클립 없음.",
+          "caption": "2026년 품질팀\nAI 실행 결과 발표 대회\n직접 해본 이야기를 함께 들으러 오세요.",
+          "constraints": "6초 유지. 가발/핀/정장은 남기고 행사명이 읽히는 빈스크린 활용. 미확인 날짜·장소 금지."
+        }
+      ],
+      "source_cut_dialogue_and_captions": [
+        {
+          "id": "01",
+          "scene": "S01",
+          "start": 0,
+          "end": 5,
+          "visual": "사무실 천장에 조악하게 붙인 거대한 귀신 A 얼굴이 툭 등장. 직원이 고개를 들자 A는 판매 방송 진행자처럼 눈을 부릅뜨고 두 손을 크게 벌린다.",
+          "caption": "",
+          "dialogue": "A: “된다더라아—!”",
+          "audio": "배우 목소리에 과한 싸구려 잔향. 리코더 한 음 같은 어설픈 등장 효과 지시.",
+          "transition": "직원의 시선을 따라 서랍 쪽 급팬.",
+          "intent": "실패처럼 무작위로 무너진 이미지가 아닌 의도적인 저예산 합성과 과장된 영업 연기."
+        },
+        {
+          "id": "02",
+          "scene": "S01",
+          "start": 5,
+          "end": 11,
+          "visual": "서랍 위 작은 귀신 B가 엄지를 치켜들고, 복사기 옆 C가 갑자기 커지며 끼어든다. A가 C 앞을 가로막으며 자기 광고가 더 큰 척한다. 직원이 손으로 셋의 차례를 정하려다 포기한다.",
+          "caption": "",
+          "dialogue": "B: “쉽다더라!” C: “엄청 좋다더라!”",
+          "audio": "서로 겹치는 짧은 광고 목소리, 삐뚤게 들어오는 박수 효과.",
+          "transition": "직원의 손이 선풍기 스위치로 가는 동작 컷.",
+          "intent": "모두 남에게 들은 주장만 내세우고 더 크게 말하려는 경쟁."
+        },
+        {
+          "id": "03",
+          "scene": "S02",
+          "start": 11,
+          "end": 17,
+          "visual": "직원이 선풍기를 켜 귀신들을 밀어내려 한다. 귀신 셋이 처음에는 휘청이지만 A가 가발을 광고 모델처럼 넘기고 바람을 즐기기 시작한다. 직원은 선풍기를 더 세게 튼다.",
+          "caption": "",
+          "dialogue": "직원: “좀 조용히…” A: “오, 바람 좋다!”",
+          "audio": "선풍기 웅. 엉성한 전자 댄스 박자가 바람과 함께 시작.",
+          "transition": "선풍기 앞 귀신 와이드.",
+          "intent": "쫓아내려던 장치가 오히려 광고 무대 효과가 되는 인과적 역전."
+        },
+        {
+          "id": "04",
+          "scene": "S02",
+          "start": 17,
+          "end": 24,
+          "visual": "귀신들이 바람 자리를 다투다 C의 흰 천이 날아가 형광색 운동복 차림이 그대로 드러난다. C는 당황해 허둥지둥 천을 주워 다시 뒤집어쓴다. 얼굴이 돌아오자마자 영업용 미소로 바뀌고 아무 일 없듯 광고를 재개한다. 신체 노출 없이 운동복은 온전히 입고 있다.",
+          "caption": "",
+          "dialogue": "C: “아, 잠깐…!” 천을 덮은 뒤 C: “좋다더라아—!”",
+          "audio": "직접 부르는 엇박 광고송·선풍기·천 펄럭임. 마지막 순간 스위치 딸깍.",
+          "transition": "직원이 선풍기를 끄며 같은 공간을 정면 와이드로.",
+          "intent": "바람을 즐기던 허세가 벗겨지고, 급히 수습하자마자 영업을 재개하는 뻔뻔함."
+        },
+        {
+          "id": "05",
+          "scene": "S03",
+          "start": 24,
+          "end": 30,
+          "visual": "바람이 멎어 가발이 얼굴에 붙는다. 직원이 단순하게 묻는다. 귀신 셋이 순간 서로 눈만 굴리고 A가 조심스럽게 팔을 든다.",
+          "caption": "",
+          "dialogue": "직원: “그런데, 직접 해본 사람은요?”",
+          "audio": "팬 모터가 멎는 소리 뒤 대사. 완전 정적은 0.7초만.",
+          "transition": "A 손가락을 따라 옆으로 짧게 팬.",
+          "intent": "크고 많은 주장과 직접 경험의 차이를 질문 하나로 드러냄."
+        },
+        {
+          "id": "06",
+          "scene": "S03",
+          "start": 30,
+          "end": 37,
+          "visual": "A가 B를 가리킨다. B는 화들짝 놀라 더 큰 동작으로 C를 가리킨다. C는 잠깐 멈췄다가 자신 있게 빈 벽을 가리킨다. 카메라가 따라가지만 마지막 2초에는 아무것도 없는 벽뿐이다.",
+          "caption": "",
+          "dialogue": "A: “얘가…” B: “아니, 쟤가…”",
+          "audio": "가리킬 때마다 뿅 한 음씩 높아짐. 빈 벽에는 효과음도 오지 않음.",
+          "transition": "빈 벽 옆으로 C 얼굴이 슬쩍 들어옴.",
+          "intent": "말의 출처를 찾는 전달 사슬의 끝이 비어 있다는 화면 개그. 권위에 굴복하는 장면으로 처리하지 않음."
+        },
+        {
+          "id": "07",
+          "scene": "S03",
+          "start": 37,
+          "end": 43,
+          "visual": "C가 자기가 가리킨 빈 벽을 두 번 두드린다. 아무 반응이 없자 눈을 피한다. 직원이 귀신들을 부르며 발표 공간 쪽으로 나간다.",
+          "caption": "",
+          "dialogue": "C: “계세요…?” 직원: “해본 사람 얘기를 들으러 가죠.”",
+          "audio": "작은 똑똑 뒤 대사. 가벼운 발걸음, 광고송은 다시 시작하지 않음.",
+          "transition": "손으로 벽을 짚은 C→자기 가슴을 짚는 C로 점프컷 준비.",
+          "intent": "실제 경험을 듣는 행사로 가는 이유를 앞선 출처 부재에서 바로 만듦."
+        },
+        {
+          "id": "08",
+          "scene": "S04",
+          "start": 43,
+          "end": 49,
+          "visual": "앞줄에 앉은 세 귀신은 흰 천 위에 값싼 정장만 덧입었다. C가 감상을 말하자 A가 자동으로 출처를 묻는다. C는 처음으로 남이 아니라 자기 가슴을 세게 가리킨다.",
+          "caption": "직접 해본 AI 이야기, 함께 들어요.",
+          "dialogue": "C: “이건 들어야겠더라.” A: “누가?” C: “내 생각!”",
+          "audio": "C의 내 생각에 짧은 자신만만한 입 효과음. A·B의 놀란 반응 0.5초.",
+          "transition": "앞줄과 빈 스크린을 남긴 정지화면.",
+          "intent": "끝까지 남의 말만 옮기던 귀신이 자기 의견을 처음 갖는 두 번째 반전. 로봇안의 필기 몸개그와 구별."
+        },
+        {
+          "id": "09",
+          "scene": "S04",
+          "start": 49,
+          "end": 55,
+          "visual": "빈 스크린에 정식 행사명과 참석 초대 합성. 귀신의 가발·집게핀·재킷은 하단에 작게 남긴다.",
+          "caption": "2026년 품질팀\nAI 실행 결과 발표 대회\n직접 해본 이야기를 함께 들으러 오세요.",
+          "dialogue": "",
+          "audio": "짧고 어설프게 당당한 마무리 악구 지시.",
+          "transition": "6초 유지 후 종료.",
+          "intent": "AI 우수 과제와 활용 역량 향상 사례를 함께 배우는 실제 행사 안내. 미확인 날짜·장소·혜택은 넣지 않음."
+        }
+      ],
+      "timeline_validation": "0~55초빈틈/겹침없음.본문01~08과엔딩09모두커버.생성길이와편집길이구분."
+    }
+  ],
+  "counts": {
+    "generation_clips": 18,
+    "new_images_to_prepare": 7,
+    "dependent_start_frames_to_extract_after_generation": 0,
+    "post_edit_segments": 3,
+    "source_images_visually_verified": 9,
+    "new_images_generated": 7
+  }
+}

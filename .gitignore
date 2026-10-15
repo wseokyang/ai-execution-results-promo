@@ -1,0 +1,14 @@
+# Reinstallable local tools and caches
+**/.tools/
+**/__pycache__/
+*.py[cod]
+.DS_Store
+Thumbs.db
+
+# Local credentials, if added later
+.env
+.env.*
+!.env.example
+
+# The expanded package is tracked; this >100 MiB ZIP is a Release asset.
+/flow_handoff/2026-10-15_v2/AI_대회_Flow_업로드직전_패키지.zip

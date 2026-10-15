@@ -1,0 +1,164 @@
+{
+  "scenes": [
+    {
+      "concept_id": "C01",
+      "scene_id": "S01",
+      "image_path": "/home/wooseok/wsy/samsung_related/slide/AI실행결과발표대회_디자인3종/storyboards/2026-10-15_absurd-v2/images/C01/S01.png",
+      "source_cuts": [
+        "01",
+        "02"
+      ],
+      "prompt": "Use case: ads-marketing.\nAsset type: one standalone cinematic representative keyframe for a later live-action absurdist promotional film. Landscape 16:9, high resolution. One image, one moment, no storyboard panels.\nShot and representative moment: Tight two-person composition, A face in foreground, B just behind at the same seat level; 75mm lens feeling, shallow focus, no readable location clues. The representative keyframe contains the late first-scene two-person sobbing state; the actual film first frame crops A alone before the tears intensify.\nStyle: A frame from an expensive absurdist Korean melodrama advertisement, committed emotional acting, tangible tears and reddened eyelids, pores and wet fabric, strong directional amber light on faces with cooler charcoal backgrounds, deep shadows and selective focus, subtle cinematic grain. A dramatic film still rather than a clean company brochure. The final room reveal may be brighter but retains cinematic contrast and human texture.\nCharacter continuity: {\"A\": \"Fictional Korean man in his late 30s, short straight black hair, clean-shaven, slightly angular face; plain white button-up shirt, charcoal trousers. Wet cheeks, reddened eyes, genuine restrained grief breaking into extreme sobbing.\", \"B\": \"Fictional Korean woman around 40, chin-length straight dark bob, navy cardigan over a light-gray shirt; sincere emotional collapse, never winking at the joke.\", \"C\": \"Fictional Korean man around 50, short graying hair, lime-green work vest over a white T-shirt, black trousers; initially matter-of-fact cleaner, then heartfelt sobbing.\", \"D\": \"Fictional Korean woman around 40, dark hair in a low bun, charcoal jacket over a white shirt, small black presentation remote; completely calm and practical.\"}\nProps: One small white cotton handkerchief; one vivid round yellow plastic cleaning bucket with a black handle; one gray mop. Chairs have understated gray upholstery and thin black legs. Never add funerary, wedding or medical props.\nText: no text, captions, logos, watermarks, signs, dates or fake UI. Leave specified screen or panel blank; the real Korean event title is added later by editing.\nConstraints: realistic anatomy; specific intentional absurd motion only as described; no random decorative AI symbols. No borrowed company branding or recognizable real person. Preserve an expensive dramatic film look with expressive performances.\nApproved scene and action: 16:9 실사 영화 프레임. 허구의 30대 성인 직원 A, 흰 셔츠와 차콜 바지, 짧은 검은 머리. 눈가가 붉고 눈물이 뺨을 따라 흐르며 입술이 떨린다. 바로 옆 남색 카디건의 직원 B도 눈물을 참다 고개를 숙인다. 얼굴은 진지하고 희극적 찡그림이 아닌 실제 오열. 배경은 어두운 보케와 중립적인 의자 등받이뿐이라 장소가 드러나지 않는다.\nApproved continuity: A는 흰 셔츠·차콜 바지, B는 남색 카디건·연한 회색 셔츠로 전 씬 고정. 둘 다 허구의 성인 직원이며 실존 인물 참조 없음. A는 처음부터 작은 흰 손수건을 쥔다. 프레임에 상복·영정·연애 사진·질병 징후는 넣지 않는다. 초반의 장소 은폐는 크롭과 심도로 처리하며 별도의 장례식 장소를 만들지 않는다.\nIf references are supplied, preserve the referenced characters, costumes, props and setting materials while composing this distinct shot. The requested image is a single full-frame shot, not a contact sheet.",
+      "references": [],
+      "motion": "A의 눈물 한 방울과 떨리는 숨을 먼저 잡는다. B가 참으려다 어깨를 한 번 크게 떨며 무너지는 얼굴로 시선을 옮긴다. 첫 장면에서는 행사명·AI 화면을 보여주지 않는다.",
+      "review_status": "artist_visual_check_passed_pending_three_reviewer_review",
+      "generated_source": "/home/wooseok/.codex/generated_images/01a13a98-f374-78a1-af88-b32c5dad3e46/exec-6997e73e-8fb4-4398-b124-57023e004553.png",
+      "dimensions": [
+        1672,
+        941
+      ]
+    },
+    {
+      "concept_id": "C02",
+      "scene_id": "S01",
+      "image_path": "/home/wooseok/wsy/samsung_related/slide/AI실행결과발표대회_디자인3종/storyboards/2026-10-15_absurd-v2/images/C02/S01.png",
+      "source_cuts": [
+        "01",
+        "02",
+        "03"
+      ],
+      "prompt": "Use case: ads-marketing.\nAsset type: one standalone cinematic representative keyframe for a later live-action absurdist promotional film. Landscape 16:9, high resolution. One image, one moment, no storyboard panels.\nShot and representative moment: Very low floor-level 28mm view at the desk aisle. A black socked foot misses its black shoe, which is visibly several centimeters airborne and tilting forward as it escapes; its matching shoe follows. A reaches urgently from the desk chair in the middle ground, B and her white sneakers appear farther down the same aisle. The brown loafers are a small recognizable pair by the far desk. Keep autonomous footwear and human feet clearly separate.\nStyle: Expensive live-action pursuit-thriller advertisement with absurd story, detailed leather and fabric, convincing premium VFX, cinematic directional daylight with hard-edged shadow and cool undertones, high contrast, precise focus. Floor-level kinetic camera and strong directional compositions during escape. Actors commit to real urgency. The queue and seated-shoe reveal shift into composed stillness. Never ordinary bright corporate stock photography or cartoon mascot shoes.\nCharacter continuity: {\"A\": \"Fictional Korean man in his mid-30s, short slightly wavy dark hair, white shirt with sleeves rolled once, charcoal trousers, black socks. He becomes physically desperate and surprised during the chase.\", \"B\": \"Fictional Korean woman in her 30s, black ponytail, light-blue button-up shirt, gray trousers, gray socks. She reacts with alarm and chases actively.\", \"C\": \"Fictional Korean man in his mid-40s, close-cropped black hair, green utility vest, black trousers, ordinary black work shoes; physically confident then shocked when the bag escapes.\", \"D\": \"Fictional Korean woman around 40, neat dark bob, beige blazer over a white shirt, black trousers; calm event usher who finds the shoes completely normal.\"}\nProps: Exactly three autonomous pairs: glossy black lace-up leather dress shoes belonging to A; plain white sneakers belonging to B; dark-brown loafers belonging to an offscreen owner. These shoes have NO faces, eyes, arms, legs or people inside. A large beige canvas sack with one red drawstring enters in S02. The sack moves because the trapped shoes push against its base, not because a person is inside. Do not add a crowd of loose shoes.\nText: no text, captions, logos, watermarks, signs, dates or fake UI. Leave specified screen or panel blank; the real Korean event title is added later by editing.\nConstraints: realistic anatomy; specific intentional absurd motion only as described; no random decorative AI symbols. No borrowed company branding or recognizable real person. Preserve an expensive dramatic film look with expressive performances.\nApproved scene and action: 16:9 영화적 실사. 밝은 회사 업무 공간의 넓은 통로 옆 책상. 흰 셔츠·차콜 바지의 직원 A가 앉아 검은 양말 신은 발을 검은 가죽 구두에 넣으려는데 구두 한 짝이 발에서 비껴나 앞으로 움직이는 순간이다. 다른 짝도 같은 방향을 향한다. 뒤에는 연한 하늘색 셔츠 직원 B와 그 발 근처의 흰 운동화 한 켤레가 보인다. 세 번째 짙은 갈색 로퍼 한 켤레는 먼 책상 아래에 있다.\nApproved continuity: A는 흰 셔츠·차콜 바지·검은 양말, B는 하늘색 셔츠·회색 바지·회색 양말. A의 검은 끈 구두, B의 흰 운동화, 주인이 화면 밖인 갈색 로퍼 총 세 켤레만 사용한다. 신발에 얼굴·눈·팔다리를 추가하지 않으며 실제 신발 형태가 그대로 움직인다.\nIf references are supplied, preserve the referenced characters, costumes, props and setting materials while composing this distinct shot. The requested image is a single full-frame shot, not a contact sheet.",
+      "references": [],
+      "motion": "첫 구두는 A가 발을 넣을 때 정확히 한 번 피한 뒤 앞으로 달아난다. A가 일어나 뒤쫓자 흰 운동화와 갈색 로퍼가 각 책상 아래에서 합류한다. 주인들은 양말 차림으로 뛰며, 카메라는 업무 공간의 같은 통로 안에서 움직인다.",
+      "review_status": "artist_visual_check_passed_pending_three_reviewer_review",
+      "generated_source": "/home/wooseok/.codex/generated_images/01a13a98-f374-78a1-af88-b32c5dad3e46/exec-eeb67791-bea6-4af6-8ca3-e23301415e7a.png",
+      "dimensions": [
+        1672,
+        941
+      ]
+    },
+    {
+      "concept_id": "C01",
+      "scene_id": "S02",
+      "image_path": "/home/wooseok/wsy/samsung_related/slide/AI실행결과발표대회_디자인3종/storyboards/2026-10-15_absurd-v2/images/C01/S02.png",
+      "source_cuts": [
+        "03"
+      ],
+      "prompt": "Use case: ads-marketing.\nAsset type: one standalone cinematic representative keyframe for a later live-action absurdist promotional film. Landscape 16:9, high resolution. One image, one moment, no storyboard panels.\nShot and representative moment: Low intimate 50mm view centered on the hands twisting the saturated white handkerchief; an absurd continuous thick stream falls into the yellow bucket held by B, both wet faces partly visible at top. Freeze the physically impossible amount of water with premium VFX realism, not a diagram.\nStyle: A frame from an expensive absurdist Korean melodrama advertisement, committed emotional acting, tangible tears and reddened eyelids, pores and wet fabric, strong directional amber light on faces with cooler charcoal backgrounds, deep shadows and selective focus, subtle cinematic grain. A dramatic film still rather than a clean company brochure. The final room reveal may be brighter but retains cinematic contrast and human texture.\nCharacter continuity: {\"A\": \"Fictional Korean man in his late 30s, short straight black hair, clean-shaven, slightly angular face; plain white button-up shirt, charcoal trousers. Wet cheeks, reddened eyes, genuine restrained grief breaking into extreme sobbing.\", \"B\": \"Fictional Korean woman around 40, chin-length straight dark bob, navy cardigan over a light-gray shirt; sincere emotional collapse, never winking at the joke.\", \"C\": \"Fictional Korean man around 50, short graying hair, lime-green work vest over a white T-shirt, black trousers; initially matter-of-fact cleaner, then heartfelt sobbing.\", \"D\": \"Fictional Korean woman around 40, dark hair in a low bun, charcoal jacket over a white shirt, small black presentation remote; completely calm and practical.\"}\nProps: One small white cotton handkerchief; one vivid round yellow plastic cleaning bucket with a black handle; one gray mop. Chairs have understated gray upholstery and thin black legs. Never add funerary, wedding or medical props.\nText: no text, captions, logos, watermarks, signs, dates or fake UI. Leave specified screen or panel blank; the real Korean event title is added later by editing.\nConstraints: realistic anatomy; specific intentional absurd motion only as described; no random decorative AI symbols. No borrowed company branding or recognizable real person. Preserve an expensive dramatic film look with expressive performances.\nApproved scene and action: 같은 두 직원의 좌석 사이 낮은 구도. A가 축축한 흰 손수건을 양손으로 비틀어 선명한 노란 청소용 양동이 안에 물줄기를 짠다. B는 진지하게 울며 양동이를 두 손으로 받쳐준다. 눈물과 손수건에서 나온 물이라는 황당한 인과가 읽혀야 한다. 의자 두 개와 인물 일부만 보여 아직 발표장 전체를 공개하지 않는다.\nApproved continuity: S01의 A·B·의상·손수건 유지. 노란 양동이는 검은 손잡이가 있는 둥근 플라스틱형으로 이후 콜백까지 동일. 바닥은 실내의 마른 회색 카펫이며 수건 바로 아래 소량의 물방울만 있다. 큰 홍수나 침수 위험은 없다.\nIf references are supplied, preserve the referenced characters, costumes, props and setting materials while composing this distinct shot. The requested image is a single full-frame shot, not a contact sheet.",
+      "references": [
+        "/home/wooseok/wsy/samsung_related/slide/AI실행결과발표대회_디자인3종/storyboards/2026-10-15_absurd-v2/images/C01/S01.png"
+      ],
+      "motion": "A가 손수건을 비틀자 예상보다 긴 물줄기가 나온다. B가 양동이 위치를 정확하게 맞춰 받는다. 둘은 자기 행동의 우스움을 의식하지 않는다.",
+      "review_status": "artist_visual_check_passed_pending_three_reviewer_review",
+      "generated_source": "/home/wooseok/.codex/generated_images/01a13a98-f374-78a1-af88-b32c5dad3e46/exec-3bed303c-94b6-4199-a6f8-68f5594d324c.png",
+      "dimensions": [
+        1672,
+        941
+      ]
+    },
+    {
+      "concept_id": "C02",
+      "scene_id": "S02",
+      "image_path": "/home/wooseok/wsy/samsung_related/slide/AI실행결과발표대회_디자인3종/storyboards/2026-10-15_absurd-v2/images/C02/S02.png",
+      "source_cuts": [
+        "04",
+        "05"
+      ],
+      "prompt": "Use case: ads-marketing.\nAsset type: one standalone cinematic representative keyframe for a later live-action absurdist promotional film. Landscape 16:9, high resolution. One image, one moment, no storyboard panels.\nShot and representative moment: Low tracking-angle 28mm chase shot in the same connecting corridor. The beige sack is caught mid-hop with the base visibly distorted into two shoe-sized bulges, red drawstring mouth gathered; a small gap and separate shadow establish that it is moving on its own. C reaches after the escaping sack, A and B chase in socks behind. No human body in the sack, no extra legs. Representative moment is the sack escaping; scene begins earlier with C catching the shoes.\nStyle: Expensive live-action pursuit-thriller advertisement with absurd story, detailed leather and fabric, convincing premium VFX, cinematic directional daylight with hard-edged shadow and cool undertones, high contrast, precise focus. Floor-level kinetic camera and strong directional compositions during escape. Actors commit to real urgency. The queue and seated-shoe reveal shift into composed stillness. Never ordinary bright corporate stock photography or cartoon mascot shoes.\nCharacter continuity: {\"A\": \"Fictional Korean man in his mid-30s, short slightly wavy dark hair, white shirt with sleeves rolled once, charcoal trousers, black socks. He becomes physically desperate and surprised during the chase.\", \"B\": \"Fictional Korean woman in her 30s, black ponytail, light-blue button-up shirt, gray trousers, gray socks. She reacts with alarm and chases actively.\", \"C\": \"Fictional Korean man in his mid-40s, close-cropped black hair, green utility vest, black trousers, ordinary black work shoes; physically confident then shocked when the bag escapes.\", \"D\": \"Fictional Korean woman around 40, neat dark bob, beige blazer over a white shirt, black trousers; calm event usher who finds the shoes completely normal.\"}\nProps: Exactly three autonomous pairs: glossy black lace-up leather dress shoes belonging to A; plain white sneakers belonging to B; dark-brown loafers belonging to an offscreen owner. These shoes have NO faces, eyes, arms, legs or people inside. A large beige canvas sack with one red drawstring enters in S02. The sack moves because the trapped shoes push against its base, not because a person is inside. Do not add a crowd of loose shoes.\nText: no text, captions, logos, watermarks, signs, dates or fake UI. Leave specified screen or panel blank; the real Korean event title is added later by editing.\nConstraints: realistic anatomy; specific intentional absurd motion only as described; no random decorative AI symbols. No borrowed company branding or recognizable real person. Preserve an expensive dramatic film look with expressive performances.\nApproved scene and action: 업무 공간과 연결된 넓은 실내 통로. 초록 작업 조끼·검은 바지의 관리 담당자 C가 큰 베이지색 캔버스 자루를 잡으려 손을 뻗는다. 자루 안에는 신발이 들어가 있고 바닥 부분이 두 발처럼 번갈아 부풀어 자루째 앞으로 도약한다. A와 B는 양말 차림으로 뒤에서 황당하고 절박하게 쫓는다. 정리된 벽과 바닥, 장애물 없는 통로.\nApproved continuity: A·B와 세 켤레 신발은 S01 그대로. C는 초록 작업 조끼·검은 바지·평범한 검은 운동화이며 포획한 신발과 구분한다. 자루는 베이지 캔버스, 붉은 조임 끈 하나. 신발을 자루에 넣는 것은 만화적인 포획이며 인물은 자루 안에 들어가지 않는다.\nIf references are supplied, preserve the referenced characters, costumes, props and setting materials while composing this distinct shot. The requested image is a single full-frame shot, not a contact sheet.",
+      "references": [
+        "/home/wooseok/wsy/samsung_related/slide/AI실행결과발표대회_디자인3종/storyboards/2026-10-15_absurd-v2/images/C02/S01.png"
+      ],
+      "motion": "C가 열린 자루로 세 켤레를 한 번에 받아낸 뒤 승리한 듯 입구를 모은다. 안도한 순간 자루 바닥이 교대로 움직이고 자루 자체가 C의 손에서 빠져 달아난다. C는 빈 손으로 잠깐 승리 자세를 유지하다 상황을 알아차린다.",
+      "review_status": "artist_visual_check_passed_pending_three_reviewer_review",
+      "generated_source": "/home/wooseok/.codex/generated_images/01a13a98-f374-78a1-af88-b32c5dad3e46/exec-fa7cc753-a7b4-4201-af6b-3098fe1fa17f.png",
+      "dimensions": [
+        1672,
+        941
+      ]
+    },
+    {
+      "concept_id": "C01",
+      "scene_id": "S03",
+      "image_path": "/home/wooseok/wsy/samsung_related/slide/AI실행결과발표대회_디자인3종/storyboards/2026-10-15_absurd-v2/images/C01/S03.png",
+      "source_cuts": [
+        "04",
+        "05"
+      ],
+      "prompt": "Use case: ads-marketing.\nAsset type: one standalone cinematic representative keyframe for a later live-action absurdist promotional film. Landscape 16:9, high resolution. One image, one moment, no storyboard panels.\nShot and representative moment: Eye-level medium-wide 40mm shot. C is visibly overcome with sobs while still gripping his gray mop, A reaches a corner of the handkerchief toward him, B stays beside the yellow bucket. Faces carry the narrative, dramatic side light, no seminar stage visible yet.\nStyle: A frame from an expensive absurdist Korean melodrama advertisement, committed emotional acting, tangible tears and reddened eyelids, pores and wet fabric, strong directional amber light on faces with cooler charcoal backgrounds, deep shadows and selective focus, subtle cinematic grain. A dramatic film still rather than a clean company brochure. The final room reveal may be brighter but retains cinematic contrast and human texture.\nCharacter continuity: {\"A\": \"Fictional Korean man in his late 30s, short straight black hair, clean-shaven, slightly angular face; plain white button-up shirt, charcoal trousers. Wet cheeks, reddened eyes, genuine restrained grief breaking into extreme sobbing.\", \"B\": \"Fictional Korean woman around 40, chin-length straight dark bob, navy cardigan over a light-gray shirt; sincere emotional collapse, never winking at the joke.\", \"C\": \"Fictional Korean man around 50, short graying hair, lime-green work vest over a white T-shirt, black trousers; initially matter-of-fact cleaner, then heartfelt sobbing.\", \"D\": \"Fictional Korean woman around 40, dark hair in a low bun, charcoal jacket over a white shirt, small black presentation remote; completely calm and practical.\"}\nProps: One small white cotton handkerchief; one vivid round yellow plastic cleaning bucket with a black handle; one gray mop. Chairs have understated gray upholstery and thin black legs. Never add funerary, wedding or medical props.\nText: no text, captions, logos, watermarks, signs, dates or fake UI. Leave specified screen or panel blank; the real Korean event title is added later by editing.\nConstraints: realistic anatomy; specific intentional absurd motion only as described; no random decorative AI symbols. No borrowed company branding or recognizable real person. Preserve an expensive dramatic film look with expressive performances.\nApproved scene and action: 동일 좌석 옆 통로. 연두색 작업 조끼·흰 티셔츠의 허구 성인 청소 담당자 C가 회색 밀대를 한 손에 쥔 채 울음을 터뜨린다. A가 눈물을 흘리면서도 C에게 흰 손수건 한 귀퉁이를 건넨다. 노란 양동이는 의자 옆 바닥에 놓여 있다. C는 방금 일을 멈춘 자세이고 밀대가 바닥에 비스듬히 닿아 있다.\nApproved continuity: A와 B는 앞 씬 의상 유지. C는 연두 조끼·흰 티셔츠·검은 바지·회색 밀대. 새로 등장한 C는 놀라거나 비난하지 않고 청소를 하다가 설명에 귀를 기울인다. 뒤의 발표 스크린은 이 씬에서 프레임 밖이다.\nIf references are supplied, preserve the referenced characters, costumes, props and setting materials while composing this distinct shot. The requested image is a single full-frame shot, not a contact sheet.",
+      "references": [
+        "/home/wooseok/wsy/samsung_related/slide/AI실행결과발표대회_디자인3종/storyboards/2026-10-15_absurd-v2/images/C01/S01.png",
+        "/home/wooseok/wsy/samsung_related/slide/AI실행결과발표대회_디자인3종/storyboards/2026-10-15_absurd-v2/images/C01/S02.png"
+      ],
+      "motion": "처음에는 C가 바닥의 소량의 물을 닦는다. 들려오는 설명에 손을 멈추고 고개를 든다. 참으려던 울음이 터지자 A가 손수건을 내민다. 우는 사람을 한 명 추가하는 것에 그치지 않고 청소 행동이 감정으로 중단되는 변화를 보여준다. C는 발표를 듣고 자신도 헤맸던 경험을 떠올려 울음을 터뜨리며, 이후 빈 의자에 앉아 함께 듣는다.",
+      "review_status": "artist_visual_check_passed_pending_three_reviewer_review",
+      "generated_source": "/home/wooseok/.codex/generated_images/01a13a98-f374-78a1-af88-b32c5dad3e46/exec-21133b34-61f1-4408-9900-737805982c5c.png",
+      "dimensions": [
+        1671,
+        941
+      ]
+    },
+    {
+      "concept_id": "C01",
+      "scene_id": "S04",
+      "image_path": "/home/wooseok/wsy/samsung_related/slide/AI실행결과발표대회_디자인3종/storyboards/2026-10-15_absurd-v2/images/C01/S04.png",
+      "source_cuts": [
+        "06",
+        "07",
+        "08"
+      ],
+      "prompt": "Use case: ads-marketing.\nAsset type: one standalone cinematic representative keyframe for a later live-action absurdist promotional film. Landscape 16:9, high resolution. One image, one moment, no storyboard panels.\nShot and representative moment: Cinematic wide three-quarter room reveal, 28mm lens feeling. Foreground A raises the same yellow bucket under his chin to prepare for another moving story; B next to him, C nearby with mop parked. In the background D calmly presents beside a generous blank bright screen. This is a representative late callback state, not the first frame of the stage reveal.\nStyle: A frame from an expensive absurdist Korean melodrama advertisement, committed emotional acting, tangible tears and reddened eyelids, pores and wet fabric, strong directional amber light on faces with cooler charcoal backgrounds, deep shadows and selective focus, subtle cinematic grain. A dramatic film still rather than a clean company brochure. The final room reveal may be brighter but retains cinematic contrast and human texture.\nCharacter continuity: {\"A\": \"Fictional Korean man in his late 30s, short straight black hair, clean-shaven, slightly angular face; plain white button-up shirt, charcoal trousers. Wet cheeks, reddened eyes, genuine restrained grief breaking into extreme sobbing.\", \"B\": \"Fictional Korean woman around 40, chin-length straight dark bob, navy cardigan over a light-gray shirt; sincere emotional collapse, never winking at the joke.\", \"C\": \"Fictional Korean man around 50, short graying hair, lime-green work vest over a white T-shirt, black trousers; initially matter-of-fact cleaner, then heartfelt sobbing.\", \"D\": \"Fictional Korean woman around 40, dark hair in a low bun, charcoal jacket over a white shirt, small black presentation remote; completely calm and practical.\"}\nProps: One small white cotton handkerchief; one vivid round yellow plastic cleaning bucket with a black handle; one gray mop. Chairs have understated gray upholstery and thin black legs. Never add funerary, wedding or medical props.\nText: no text, captions, logos, watermarks, signs, dates or fake UI. Leave specified screen or panel blank; the real Korean event title is added later by editing.\nConstraints: realistic anatomy; specific intentional absurd motion only as described; no random decorative AI symbols. No borrowed company branding or recognizable real person. Preserve an expensive dramatic film look with expressive performances.\nApproved scene and action: 밝은 사내 발표장 와이드. 앞의 차콜 재킷 발표자 D는 차분히 작은 리모컨을 들고 설명한다. 객석 A와 B는 눈물을 닦고, C는 밀대를 세워 둔 채 옆 빈 의자에 앉아 있다. A는 노란 양동이를 무릎 위에 올려 턱 아래로 들어 다음 이야기를 들을 준비를 한다. 넓은 스크린은 후속 편집으로 행사명과 문구를 넣기 위한 밝은 빈 영역이다. A와 B의 의자 옆에 낡은 개인 메모장 몇 권을 소박하게 두되 글자·수치·실제 과제명은 보이지 않는다.\nApproved continuity: 앞 씬의 A·B·C와 손수건·양동이·밀대를 정확히 유지한다. D는 허구의 성인 발표자, 차콜 재킷·흰 셔츠·작은 검은 리모컨이며 마지막까지 덤덤하다. 실제 과제명·성과 숫자·발표자 이름은 없다. 좌석 두세 개와 네 명 중심으로 구성해 불필요한 군중을 만들지 않는다.\nIf references are supplied, preserve the referenced characters, costumes, props and setting materials while composing this distinct shot. The requested image is a single full-frame shot, not a contact sheet.\nComposition clarification: use a side-aisle three-quarter viewpoint so the seated listeners on the left are oriented toward the presenter and screen on the right, while their tearful faces remain readable in three-quarter profile. The yellow bucket is visibly raised immediately below A's chin, not on the floor. Add only 2–3 worn closed personal notebooks next to the seats, no readable writing.",
+      "references": [
+        "/home/wooseok/wsy/samsung_related/slide/AI실행결과발표대회_디자인3종/storyboards/2026-10-15_absurd-v2/images/C01/S01.png",
+        "/home/wooseok/wsy/samsung_related/slide/AI실행결과발표대회_디자인3종/storyboards/2026-10-15_absurd-v2/images/C01/S02.png",
+        "/home/wooseok/wsy/samsung_related/slide/AI실행결과발표대회_디자인3종/storyboards/2026-10-15_absurd-v2/images/C01/S03.png"
+      ],
+      "motion": "카메라가 넓어지며 발표장이라는 장소를 처음 공개한다. D가 다음 사례를 예고하면 A가 손수건을 내려놓고 양동이를 턱 아래로 올린다. 마지막은 이 와이드 프레임을 정지하고 행사명을 편집으로 6초 표시한다. 추가 엔드카드 씬은 없다.",
+      "review_status": "artist_visual_check_passed_pending_three_reviewer_review",
+      "generated_source": "/home/wooseok/.codex/generated_images/01a13a98-f374-78a1-af88-b32c5dad3e46/exec-b518d6f2-c1c9-463f-aa0f-8a006805789d.png",
+      "dimensions": [
+        1672,
+        941
+      ]
+    },
+    {
+      "concept_id": "C02",
+      "scene_id": "S03",
+      "image_path": "/home/wooseok/wsy/samsung_related/slide/AI실행결과발표대회_디자인3종/storyboards/2026-10-15_absurd-v2/images/C02/S03.png",
+      "source_cuts": [
+        "06"
+      ],
+      "prompt": "Use case: precise-object-edit. Edit the supplied cinematic image. Keep all three people's exact faces, outfits, poses, the empty collapsed beige sack and red cord, corridor, lighting, open auditorium doorway, blank wall panel, camera angle and style unchanged. Correct ONLY the three pairs of shoes: they are patiently queued TO ENTER THE OPEN DOOR. Rotate their toes AWAY from the camera and TOWARD THE OPEN DOOR at upper-right; show their HEELS nearest the camera. Arrange the black lace-up dress shoes closest to the doorway as the lead pair, the white sneaker pair behind them in the middle, and the brown loafer pair last nearest camera. Exactly one black pair, one white pair, one brown pair: six shoes total, no other autonomous shoes. Maintain recognizable matching shoes. Each left and right shoe stands side-by-side within its pair. The queue is a diagonal line toward the doorway. No text, no logos. This is one standalone 16:9 film still. Do not change the humans or add new characters.",
+      "references": [
+        "/home/wooseok/.codex/generated_images/01a13a98-f374-78a1-af88-b32c5dad3e46/exec-39b3a149-8042-4461-961e-72c54025264c.png"
+      ],
+      "motion": "달아나는 자루를 쫓던 카메라가 문 앞에서 멈춘다. 구두부터 차례로 짧게 앞으로 한 칸씩 움직여, 도주의 동작이 조용히 입장을 기다리는 행동으로 바뀐다. A가 허리를 숙여 자기 구두를 잡으려 할 때 먼저 안으로 들어간다.",
+      "review_status": "artist_visual_check_passed_pending_three_reviewer_review",
+      "generated_source": "/home/wooseok/.codex/generated_images/01a13a98-f374-78a1-af88-b32c5dad3e46/exec-b5f09574-ffe5-4773-b856-3da8bbd8ac4c.png",
+      "dimensions": [
+        1672,
+        941
+      ]
+    },
+    {
+      "concept_id": "C02",
+      "scene_id": "S04",
+      "image_path": "/home/wooseok/wsy/samsung_related/slide/AI실행결과발표대회_디자인3종/storyboards/2026-10-15_absurd-v2/images/C02/S04.png",
+      "source_cuts": [
+        "07",
+        "08",
+        "09"
+      ],
+      "prompt": "Use case: precise-object-edit / corrected scene composition. Correct the supplied premium live-action film still so the audience chairs and shoes FACE THE STAGE, instead of facing away from it. Preserve the exact three fictional Korean people, faces, clothing, expressions, sock colors, three pairs of shoes, theater materials, warm cinematic light and blank screen. IMPORTANT SPATIAL CORRECTION: the stage and screen remain in the upper-right background. Reorient the chair row so each chair BACK is closer to the camera at lower-left and its SEAT extends toward the upper-right stage. Put the same three shoe pairs on three individual seats, heels nearer the chair backs and toes pointing away from camera toward that upper-right stage. Move the camera slightly higher and more to the SIDE, looking down obliquely into the seats, so the shoes are clearly readable despite the correctly oriented chair backs. This is a side-aisle three-quarter view, not a straight view from behind the chairs. The black dress-shoe pair, white sneaker pair, and brown loafer pair each occupy one seat. Exactly six autonomous shoes total, no extra shoes, no shoe faces or limbs. Keep two empty seats beside them for their human owners. The two shocked owners still stand in black/gray socks in the aisle and the calm female usher gestures at those empty seats. All seat backs and shoe toes must agree on the SAME forward direction toward the screen. The image must look like a real usable auditorium layout. One 16:9 cinematic still, no panels, no text, no logos.",
+      "references": [
+        "/home/wooseok/.codex/generated_images/01a13a98-f374-78a1-af88-b32c5dad3e46/exec-9e88088e-ce2f-44a7-9c64-406512007a49.png"
+      ],
+      "motion": "구두가 앞 좌석을 먼저 차지한 상태를 공개한다. A가 손을 뻗자 D가 빈 옆자리를 안내한다. A가 포기하고 구두 옆에 앉으면 구두 두 짝이 함께 앞쪽으로 조금 더 바르게 돌아앉는다. 마지막은 이 화면을 정지해 행사명을 6초 표시한다.",
+      "review_status": "artist_visual_check_passed_pending_three_reviewer_review",
+      "generated_source": "/home/wooseok/.codex/generated_images/01a13a98-f374-78a1-af88-b32c5dad3e46/exec-4737fdd5-7cef-4614-baa0-c444a30184d7.png",
+      "dimensions": [
+        1672,
+        941
+      ]
+    }
+  ]
+}

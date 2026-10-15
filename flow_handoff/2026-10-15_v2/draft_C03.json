@@ -1,0 +1,243 @@
+{
+  "status": "local_plan_ready_not_uploaded",
+  "concepts": [
+    {
+      "id": "C03",
+      "title": "지구 침공, 잠시 중단",
+      "approved_total_seconds": 55,
+      "body_seconds": 49,
+      "ending": {
+        "start": 49,
+        "end": 55,
+        "seconds": 6,
+        "type": "post_edit_freeze_and_title"
+      },
+      "continuity": "A: 동일한 베이지 셔츠 한국인 성인 남성, 짙은 회색 바지, 흰 머그. B: 청회색 피부·자주색 제복·정확히 네 팔인 지휘관. C: 옅은 회색 피부·검은 제복·두 팔 조수. 같은 우주선 벽·스캐너·홀로그램·가구. 생성프롬프트마다 한 주요 동작, 네 팔의 부착 위치 유지. 음식·자막은 화면 영역만, 실제 행사 결과 주장 없음.",
+      "new_start_images": [
+        {
+          "id": "C03_N01",
+          "planned_path": "/home/wooseok/wsy/samsung_related/slide/AI실행결과발표대회_디자인3종/flow_handoff/2026-10-15_v2/start_frames/C03/N01_start.png",
+          "reference_images": [
+            "/home/wooseok/wsy/samsung_related/slide/AI실행결과발표대회_디자인3종/storyboards/2026-10-15_absurd-v2/images/C03/S01.png"
+          ],
+          "required_start_state": "동일 사무실·인물·의상·카메라·우주선. A의 두 신발은 바닥에 붙어 있고 흰 머그잔을 평범하게 든다. 우주선 하부는 창 밖에 있으나 빛기둥은 아직 A를 감싸지 않고, 인물이 떠 있지 않는다. 거대한 그림자가 막 닿으려는 긴장된 시작 순간.",
+          "must_not_show_yet": "공중에 떠 있는 몸, 내려온 스캔 광선, 쏟아진 커피.",
+          "scene": "S01"
+        },
+        {
+          "id": "C03_N02",
+          "planned_path": "/home/wooseok/wsy/samsung_related/slide/AI실행결과발표대회_디자인3종/flow_handoff/2026-10-15_v2/start_frames/C03/N02_start.png",
+          "reference_images": [
+            "/home/wooseok/wsy/samsung_related/slide/AI실행결과발표대회_디자인3종/storyboards/2026-10-15_absurd-v2/images/C03/S02.png"
+          ],
+          "required_start_state": "같은 우주선 구도·A/B/C 캐스트. A는 왼쪽 의자에 흰 머그를 들고 앉고, B는 위엄 있게 네 팔을 낮게 벌린 채 A를 바라본다. C는 조작부 옆. 스캐너는 A 머리 위로 정렬되어 준비 상태. 뒤 홀로그램은 빈 푸른 분석 패널이며 음식·글자·숫자가 없다. B의 당황이나 화면 가리는 자세는 아직 없다.",
+          "must_not_show_yet": "짬뽕·탕수육, 지휘관 위의 스캐너, 지휘관의 당황·교실 가구.",
+          "scene": "S02"
+        },
+        {
+          "id": "C03_N04",
+          "planned_path": "/home/wooseok/wsy/samsung_related/slide/AI실행결과발표대회_디자인3종/flow_handoff/2026-10-15_v2/start_frames/C03/N04_start.png",
+          "reference_images": [
+            "/home/wooseok/wsy/samsung_related/slide/AI실행결과발표대회_디자인3종/storyboards/2026-10-15_absurd-v2/images/C03/S02.png"
+          ],
+          "required_start_state": "같은 캐스트·우주선·와이드 시점. 스캐너는 여전히 A 머리 위, 홀로그램에는 짬뽕 한 그릇만 표시. A는 머그를 들고 입맛을 다시고, B는 권위적인 표정으로 C에게 재조정을 지시하려 한다. C는 스캐너 조작부에 손을 댈 준비. B는 네 팔을 화면 앞으로 펼쳐 숨기지 않는다.",
+          "must_not_show_yet": "탕수육, 스캐너가 B로 이동한 상태, B의 체면 붕괴, 교실.",
+          "scene": "S02"
+        },
+        {
+          "id": "C03_N06",
+          "planned_path": "/home/wooseok/wsy/samsung_related/slide/AI실행결과발표대회_디자인3종/flow_handoff/2026-10-15_v2/start_frames/C03/N06_start.png",
+          "reference_images": [
+            "/home/wooseok/wsy/samsung_related/slide/AI실행결과발표대회_디자인3종/storyboards/2026-10-15_absurd-v2/images/C03/S03.png",
+            "/home/wooseok/wsy/samsung_related/slide/AI실행결과발표대회_디자인3종/storyboards/2026-10-15_absurd-v2/images/C03/S02.png"
+          ],
+          "required_start_state": "같은 우주선에서 교실 준비 직전. A는 왼쪽 작은 받침에 흰 머그를 놓고 서 있다. B는 닫혀 있거나 거의 닫힌 벽 수납 패널 앞에 서서 위쪽 두 손을 손잡이에 가볍게 대고 아래 두 손에는 노트와 펜을 든다. C는 방향을 돌리기 전 의자 뒤에 서고 스캐너는 이미 꺼져 있다. 펼쳐진 책상 열이나 완성된 교실은 아직 없다. 네 팔과 인물 얼굴·의상 유지.",
+          "must_not_show_yet": "이미 열린 벽 책상, 이미 앉아 필기하는 인물, 완성된 교실, 음식 홀로그램.",
+          "scene": "S03"
+        },
+        {
+          "id": "C03_N07",
+          "planned_path": "/home/wooseok/wsy/samsung_related/slide/AI실행결과발표대회_디자인3종/flow_handoff/2026-10-15_v2/start_frames/C03/N07_start.png",
+          "reference_images": [
+            "/home/wooseok/wsy/samsung_related/slide/AI실행결과발표대회_디자인3종/storyboards/2026-10-15_absurd-v2/images/C03/S04.png"
+          ],
+          "required_start_state": "동일 우주선 교실·세 인물·카메라·빈 설명 화면. B는 책상에 앉아 아래 두 손으로 노트와 펜을 잡고 필기 중이며, 위쪽 두 팔은 낮게 쉬고 있어 아직 질문 손을 들거나 서로 손목을 잡지 않았다. A는 B 책상 옆에서 설명을 마치려 하고 C는 조용히 필기. 스캐너는 빛줄기 없는 비활성.",
+          "must_not_show_yet": "들린 질문 팔, 다른 손목을 붙잡는 자세, 서로 당기는 팔다리, 행사 자막.",
+          "scene": "S04"
+        },
+        {
+          "id": "C03_N08",
+          "planned_path": "/home/wooseok/wsy/samsung_related/slide/AI실행결과발표대회_디자인3종/flow_handoff/2026-10-15_v2/start_frames/C03/N08_start.png",
+          "reference_images": [
+            "/home/wooseok/wsy/samsung_related/slide/AI실행결과발표대회_디자인3종/storyboards/2026-10-15_absurd-v2/images/C03/S04.png",
+            "/home/wooseok/wsy/samsung_related/slide/AI실행결과발표대회_디자인3종/flow_handoff/2026-10-15_v2/start_frames/C03/N07_start.png"
+          ],
+          "required_start_state": "S04의 동일 교실·세 인물·구도·표정·네 팔 동작을 유지. B는 위쪽 한 팔을 높이 들고 다른 위팔 손으로 그 손목을 잡은 상태이며 아래 두 팔로 필기한다. N07에서 이어지도록 스캐너 링의 발광과 아래 푸른 광선은 꺼져 있고 비활성. A는 기다리고 C는 필기하며 빈 설명 화면·흰 머그 위치 유지.",
+          "must_not_show_yet": "스캐너 재활성 발광링·하향 푸른 광선, 새 팔/인물, 행사 자막.",
+          "scene": "S04"
+        }
+      ],
+      "clips": [
+        {
+          "id": "C03_K01",
+          "source_cut_ids": [
+            "01"
+          ],
+          "edit_start": 0,
+          "edit_end": 5,
+          "target_edit_seconds": 5,
+          "generation_requested_seconds": 8,
+          "start_state": "A의 두 발이 바닥, 빛기둥 아직 없음",
+          "end_state": "A가 조금 떠오르며 잔을 바로 잡음",
+          "core_action": "창밖 그림자 뒤 푸른 빛이 A를 감싸 들어 올린다. A는 잔부터 챙긴다.",
+          "camera": "고정 로우와이드. 방 전체나 카메라가 회전하지 않음.",
+          "image": {
+            "classification": "새 시작상태 필요",
+            "new_start_asset_id": "C03_N01"
+          },
+          "continuity": "A: 동일한 베이지 셔츠 한국인 성인 남성, 짙은 회색 바지, 흰 머그. B: 청회색 피부·자주색 제복·정확히 네 팔인 지휘관. C: 옅은 회색 피부·검은 제복·두 팔 조수. 같은 우주선 벽·스캐너·홀로그램·가구. 생성프롬프트마다 한 주요 동작, 네 팔의 부착 위치 유지. 음식·자막은 화면 영역만, 실제 행사 결과 주장 없음."
+        },
+        {
+          "id": "C03_K02",
+          "source_cut_ids": [
+            "02"
+          ],
+          "edit_start": 5,
+          "edit_end": 11,
+          "target_edit_seconds": 6,
+          "generation_requested_seconds": 8,
+          "start_state": "빈 패널·스캐너 A 위 준비·B 위엄",
+          "end_state": "B가 비법을 요구하고 C가 스캐너 작동 버튼 위에 손을 준비한다. 패널은 빈 푸른 상태로 유지.",
+          "core_action": "B가 장치를 가리키며 A를 압박한다. C가 이미 A에 정렬된 스캐너를 켜기 직전 준비한다. 실제 작동광과 짬뽕은 K03에서 공개.",
+          "camera": "고정 미디엄와이드. 한 주요 B 제스처.",
+          "image": {
+            "classification": "새 시작상태 필요",
+            "new_start_asset_id": "C03_N02"
+          },
+          "continuity": "A: 동일한 베이지 셔츠 한국인 성인 남성, 짙은 회색 바지, 흰 머그. B: 청회색 피부·자주색 제복·정확히 네 팔인 지휘관. C: 옅은 회색 피부·검은 제복·두 팔 조수. 같은 우주선 벽·스캐너·홀로그램·가구. 생성프롬프트마다 한 주요 동작, 네 팔의 부착 위치 유지. 음식·자막은 화면 영역만, 실제 행사 결과 주장 없음."
+        },
+        {
+          "id": "C03_K03",
+          "source_cut_ids": [
+            "03"
+          ],
+          "edit_start": 11,
+          "edit_end": 18,
+          "target_edit_seconds": 7,
+          "generation_requested_seconds": 8,
+          "start_state": "같은 빈 패널·A 위 스캐너",
+          "end_state": "패널에 짬뽕이 나타나고 B가 당황",
+          "core_action": "C가 준비된 스캐너를 켜자 분석 패널에 짬뽕 한 그릇이 나타난다. A는 입맛을 다시고 B는 눈을 비빈다.",
+          "camera": "패널과 A/B가 함께 보이는 고정숏. 음식은 패널 안에만.",
+          "image": {
+            "classification": "새 시작상태 필요",
+            "new_start_asset_id": "C03_N02"
+          },
+          "continuity": "A: 동일한 베이지 셔츠 한국인 성인 남성, 짙은 회색 바지, 흰 머그. B: 청회색 피부·자주색 제복·정확히 네 팔인 지휘관. C: 옅은 회색 피부·검은 제복·두 팔 조수. 같은 우주선 벽·스캐너·홀로그램·가구. 생성프롬프트마다 한 주요 동작, 네 팔의 부착 위치 유지. 음식·자막은 화면 영역만, 실제 행사 결과 주장 없음."
+        },
+        {
+          "id": "C03_K04",
+          "source_cut_ids": [
+            "04"
+          ],
+          "edit_start": 18,
+          "edit_end": 25,
+          "target_edit_seconds": 7,
+          "generation_requested_seconds": 8,
+          "start_state": "A의 짬뽕·B는 아직 위엄",
+          "end_state": "B 위 스캐너·탕수육을 B가 네 팔로 가림",
+          "core_action": "B가 가까이 재촉한다. C의 재조정으로 스캐너가 B 위로 돌아가고 화면이 탕수육으로 전환된다. B가 다급히 가린다.",
+          "camera": "고정 와이드. 스캐너 이동→패널 변경→가림을 순차로.",
+          "image": {
+            "classification": "새 시작상태 필요",
+            "new_start_asset_id": "C03_N04"
+          },
+          "continuity": "A: 동일한 베이지 셔츠 한국인 성인 남성, 짙은 회색 바지, 흰 머그. B: 청회색 피부·자주색 제복·정확히 네 팔인 지휘관. C: 옅은 회색 피부·검은 제복·두 팔 조수. 같은 우주선 벽·스캐너·홀로그램·가구. 생성프롬프트마다 한 주요 동작, 네 팔의 부착 위치 유지. 음식·자막은 화면 영역만, 실제 행사 결과 주장 없음."
+        },
+        {
+          "id": "C03_K05",
+          "source_cut_ids": [
+            "05"
+          ],
+          "edit_start": 25,
+          "edit_end": 31,
+          "target_edit_seconds": 6,
+          "generation_requested_seconds": 8,
+          "start_state": "B의 비법 추출 실패가 이미 드러남",
+          "end_state": "A가 잔을 내려놓고 설명하겠다고 함",
+          "core_action": "A가 가까운 기존 콘솔에 잔을 놓고 평범하게 말한다. B의 네 팔은 천천히 내려간다.",
+          "camera": "A 중심의 고정 와이드/약한 푸시인. 대사 구간은 추가 동작 최소.",
+          "image": {
+            "classification": "그대로 시작이미지 가능",
+            "existing_image_path": "/home/wooseok/wsy/samsung_related/slide/AI실행결과발표대회_디자인3종/storyboards/2026-10-15_absurd-v2/images/C03/S02.png",
+            "conditions": "직전 컷의 결과를 보여주는 반응/계속 동작이므로 첫 프레임에 해당 결과 상태가 보이는 것이 정상."
+          },
+          "continuity": "A: 동일한 베이지 셔츠 한국인 성인 남성, 짙은 회색 바지, 흰 머그. B: 청회색 피부·자주색 제복·정확히 네 팔인 지휘관. C: 옅은 회색 피부·검은 제복·두 팔 조수. 같은 우주선 벽·스캐너·홀로그램·가구. 생성프롬프트마다 한 주요 동작, 네 팔의 부착 위치 유지. 음식·자막은 화면 영역만, 실제 행사 결과 주장 없음."
+        },
+        {
+          "id": "C03_K06",
+          "source_cut_ids": [
+            "06"
+          ],
+          "edit_start": 31,
+          "edit_end": 38,
+          "target_edit_seconds": 7,
+          "generation_requested_seconds": 8,
+          "start_state": "닫힌 벽 패널·정돈 전 가구",
+          "end_state": "B가 책상을 펴며 C가 의자를 돌림",
+          "core_action": "B 위쪽 두 팔이 접이식 책상을 열고 아래 두 팔은 노트·펜을 유지한다. C는 의자 하나를 앞쪽으로 돌린다.",
+          "camera": "벽 패널과 B 중심의 미디엄. 새 책상이 허공에서 생기지 않음.",
+          "image": {
+            "classification": "새 시작상태 필요",
+            "new_start_asset_id": "C03_N06"
+          },
+          "continuity": "A: 동일한 베이지 셔츠 한국인 성인 남성, 짙은 회색 바지, 흰 머그. B: 청회색 피부·자주색 제복·정확히 네 팔인 지휘관. C: 옅은 회색 피부·검은 제복·두 팔 조수. 같은 우주선 벽·스캐너·홀로그램·가구. 생성프롬프트마다 한 주요 동작, 네 팔의 부착 위치 유지. 음식·자막은 화면 영역만, 실제 행사 결과 주장 없음."
+        },
+        {
+          "id": "C03_K07",
+          "source_cut_ids": [
+            "07"
+          ],
+          "edit_start": 38,
+          "edit_end": 43,
+          "target_edit_seconds": 5,
+          "generation_requested_seconds": 8,
+          "start_state": "위쪽 팔 낮음·아래 팔 필기",
+          "end_state": "위쪽 질문 팔이 높은 위치에서 다른 위쪽 손에 손목을 잡혀 정지. 아직 내려오지 않음.",
+          "core_action": "위쪽 한 팔이 질문하려 올라가면 다른 위쪽 팔이 높은 위치에서 손목을 붙잡아 멈춘다. 아래 두 팔은 계속 필기. 높은 위치의 손목 씨름 상태로 K08과 연결한다.",
+          "camera": "고정 미디엄와이드. 팔은 순서대로 움직이며 한 몸에 네 팔만.",
+          "image": {
+            "classification": "새 시작상태 필요",
+            "new_start_asset_id": "C03_N07"
+          },
+          "continuity": "A: 동일한 베이지 셔츠 한국인 성인 남성, 짙은 회색 바지, 흰 머그. B: 청회색 피부·자주색 제복·정확히 네 팔인 지휘관. C: 옅은 회색 피부·검은 제복·두 팔 조수. 같은 우주선 벽·스캐너·홀로그램·가구. 생성프롬프트마다 한 주요 동작, 네 팔의 부착 위치 유지. 음식·자막은 화면 영역만, 실제 행사 결과 주장 없음."
+        },
+        {
+          "id": "C03_K08",
+          "source_cut_ids": [
+            "08"
+          ],
+          "edit_start": 43,
+          "edit_end": 49,
+          "target_edit_seconds": 6,
+          "generation_requested_seconds": 8,
+          "start_state": "자기 손목 잡음·아래 팔 필기",
+          "end_state": "B가 허둥대고 A가 기다림",
+          "core_action": "B의 들린 팔이 조금 올라가려다 반대 손에 제지된다. B는 자기 팔을 번갈아 보고 아직 못 적었다고 말한다.",
+          "camera": "같은 교실축 유지. 기존 손목잡기에서 이어지는 연기이며 다시 새 팔을 만들지 않음.",
+          "image": {
+            "classification": "새 시작상태 필요",
+            "new_start_asset_id": "C03_N08",
+            "conditions": "손목 잡기와 아래 팔 필기 상태는 직전 컷의 결과이므로 유지. 기존 S04의 켜진 스캐너만 꺼진 N08로 교체해 N07과 조명 연속성을 유지."
+          },
+          "continuity": "A: 동일한 베이지 셔츠 한국인 성인 남성, 짙은 회색 바지, 흰 머그. B: 청회색 피부·자주색 제복·정확히 네 팔인 지휘관. C: 옅은 회색 피부·검은 제복·두 팔 조수. 같은 우주선 벽·스캐너·홀로그램·가구. 생성프롬프트마다 한 주요 동작, 네 팔의 부착 위치 유지. 음식·자막은 화면 영역만, 실제 행사 결과 주장 없음."
+        }
+      ]
+    }
+  ],
+  "summary": {
+    "new_start_images": 6,
+    "generation_clips": 8
+  },
+  "blocking_adjustment": "C03 컷02 스캐너는 시작 이미지에서 A 위로 정렬된 준비 상태이며 C가 작동시킨다. 비법 추출 시도→음식 실패의 사건과 편집 길이는 유지. C03_K08은 N07 이후 스캐너가 다시 켜지지 않도록 S04 대신 발광링/하향 광선만 끈 C03_N08을 사용."
+}

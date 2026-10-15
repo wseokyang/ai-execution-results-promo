@@ -1,0 +1,72 @@
+{
+  "run_id": "2026-10-15_flow-pilot-01",
+  "basis": "flow_handoff/2026-10-15_v2",
+  "project_url": "https://flow.google.com/project/2bd21ab0-a7a1-458f-9b60-02a21875a0f4",
+  "user_budget_credits": 50,
+  "observed_initial_credits": 50,
+  "observed_fast_cost_per_output": 20,
+  "planned_outputs": 2,
+  "planned_credits": 40,
+  "planned_remaining_credits": 10,
+  "model": "Veo 3.1 - Fast",
+  "settings": {
+    "mode": "Frames",
+    "aspect_ratio": "16:9",
+    "outputs_per_request": 1,
+    "generation_seconds": 8,
+    "resolution": "720p"
+  },
+  "clips": [
+    {
+      "edit_seconds": 6,
+      "prompt": "prompts/C01/C01_K01_korean_dialogue.txt",
+      "status": "generated_downloaded",
+      "clip_id": "C01_K01",
+      "first_frame": "upload_frames/C01/C01_N01.png",
+      "uploaded_start_image": "C01_N01.png",
+      "generation_attempts": 2,
+      "source_file": "C01_K01_take01.mp4",
+      "flow_media_url": "https://flow.google.com/project/2bd21ab0-a7a1-458f-9b60-02a21875a0f4/edit/10bda760-88e6-4fa3-89e8-6a2bd9d04bfd",
+      "actual_duration": 8,
+      "actual_resolution": "1280x720",
+      "actual_fps": 24,
+      "audio_stream_present": false,
+      "audio_judgment": "Korean dialogue not generated; dubbing required",
+      "review_evidence": "C01_K01_contact_sheet.jpg; exact 0.5-second sampling from 24 fps",
+      "accepted": "conditional_video_candidate_after_dubbing"
+    },
+    {
+      "edit_seconds": 7,
+      "prompt": "prompts/C01/C01_K03_korean_dialogue.txt",
+      "status": "generated_downloaded",
+      "clip_id": "C01_K03",
+      "first_frame": "upload_frames/C01/C01_R_S02.png",
+      "generation_attempts": 1,
+      "source_file": "C01_K03_take01.mp4",
+      "flow_media_url": "https://flow.google.com/project/2bd21ab0-a7a1-458f-9b60-02a21875a0f4/edit/9bef205e-7bfe-4ea3-bb91-098244b4e093",
+      "actual_duration": 8,
+      "actual_resolution": "1280x720",
+      "actual_fps": 24,
+      "audio_stream_present": true,
+      "audio_judgment": "Audio track present; listening verification unavailable in this session",
+      "review_evidence": "C01_K03_contact_sheet.jpg; exact 0.5-second sampling from 24 fps",
+      "accepted": "hold_full_cut_use; experiment_and_partial_candidate"
+    }
+  ],
+  "external_generation_submitted_count": 3,
+  "actual_review_status": "three_reviewer_sample_frame_cross_review_complete_with_unresolved_production_issues",
+  "notes": [
+    "Existing approved five concepts and source images are preserved.",
+    "Actual generation outputs and credits will be updated after UI verification."
+  ],
+  "successful_outputs": 2,
+  "observed_remaining_credits": 10,
+  "observed_credits_spent": 40,
+  "blocking_error": null,
+  "secondary_ui_notice": null,
+  "awaiting": null,
+  "proof_screenshot": "flow_pilot_results.png",
+  "latest_progress_observed": "Both videos generated and downloaded",
+  "review_report": "review_summary.json",
+  "result_viewer": "index.html"
+}

@@ -1,0 +1,91 @@
+[
+  {
+    "page": 1,
+    "png": "review_sheets/sheet_01.png",
+    "assets": [
+      "C01_N01",
+      "C01_N02",
+      "C01_R_S02",
+      "C01_N04"
+    ]
+  },
+  {
+    "page": 2,
+    "png": "review_sheets/sheet_02.png",
+    "assets": [
+      "C01_R_S03",
+      "C01_N07",
+      "C01_N10",
+      "C02_N01"
+    ]
+  },
+  {
+    "page": 3,
+    "png": "review_sheets/sheet_03.png",
+    "assets": [
+      "C02_N02",
+      "C02_N03",
+      "C02_N05",
+      "C02_N06"
+    ]
+  },
+  {
+    "page": 4,
+    "png": "review_sheets/sheet_04.png",
+    "assets": [
+      "C02_R_S03",
+      "C02_R_S04",
+      "C03_N01",
+      "C03_N02"
+    ]
+  },
+  {
+    "page": 5,
+    "png": "review_sheets/sheet_05.png",
+    "assets": [
+      "C03_N04",
+      "C03_R_S02",
+      "C03_N06",
+      "C03_N07"
+    ]
+  },
+  {
+    "page": 6,
+    "png": "review_sheets/sheet_06.png",
+    "assets": [
+      "C03_R_S04",
+      "C04_R_S01",
+      "C04-N02",
+      "C04_R_S03"
+    ]
+  },
+  {
+    "page": 7,
+    "png": "review_sheets/sheet_07.png",
+    "assets": [
+      "C04-N04",
+      "C04_R_S04",
+      "C04-N06",
+      "C04-N05"
+    ]
+  },
+  {
+    "page": 8,
+    "png": "review_sheets/sheet_08.png",
+    "assets": [
+      "C04_R_S05",
+      "C05_R_S01-v2",
+      "C05-N02",
+      "C05-N04"
+    ]
+  },
+  {
+    "page": 9,
+    "png": "review_sheets/sheet_09.png",
+    "assets": [
+      "C05_R_S02",
+      "C05-N03",
+      "C05_R_S04"
+    ]
+  }
+]

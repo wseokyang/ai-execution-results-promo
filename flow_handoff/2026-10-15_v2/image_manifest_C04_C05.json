@@ -1,0 +1,183 @@
+{
+  "images": [
+    {
+      "id": "C04-N02",
+      "path": "start_images/C04/C04-N02.png",
+      "prompt": "Use case: precise-object-edit / identity-preserve. Make ONE landscape16:9 standalone START FRAME for a live-action absurd low-budget comedy. Use actual reference image(s), preserve exact fictional Korean ADULT actors, faces, hair, costumes, cheap fluorescent-lit office and handmade design. This is INTENTIONALLY crude: corrugated cardboard, wrinkled duct tape, cheap cloth/wigs, exaggerated expressions, green chroma-key fringe and flat pasted-photo clones. Do NOT polish into a glossy corporate advertisement. Keep anatomy coherent, normal faces/hands, separate bodies. No text, captions, logos, numbers, watermarks or panels. Change the scene STATE specified below; the references may show a later result that MUST be withheld at this start.\n\nEDIT the copier photo locally. SAME four real actors: gray-shirt female employee, original red-antenna A face already pressed to copier glass, blue-antenna B and yellow-antenna broad-shouldered C. REMOVE the entire printed paper and red-antenna clone from output tray AND all clones anywhere. Output tray/floor must be EMPTY. REMOVE bright scanning glow; copier glass is unlit. B index finger HOVERS about1cm above copy button, not pressing it yet. Keep A face naturally pressed to glass, wide goofy confident face, C eagerly waiting, employee moving aside with white mug. Keep all original costumes, robot A short cardboard pincers and camera view. This image precedes first duplication. NO clone, paper with a face, floating copy, scan flash or completed button press visible.",
+      "refs": [
+        "/home/wooseok/wsy/samsung_related/slide/AI실행결과발표대회_디자인3종/storyboards/2026-10-15_absurd-v2/images/C04/S02.png"
+      ],
+      "generated_source": "/home/wooseok/.codex/generated_images/01a13a98-cb83-76a0-9d9b-7895387c47f5/exec-ee66ef78-fb12-4949-9997-2f8ab1fd0fd4.png",
+      "tool": "built_in_image_gen",
+      "qa": {
+        "status": "artist_checked",
+        "viewed": true,
+        "observations": "복제·출력물·스캔광 없음. A 얼굴 유리밀착, B 버튼직전. 원형4배우·카드보드 유지."
+      },
+      "dimensions": [
+        1672,
+        941
+      ],
+      "sha256": "f91bb41d34d768c432f07eecf1b55a95bbf6eb2147f4194cc80eab731b64a09b",
+      "absolute_path": "/home/wooseok/wsy/samsung_related/slide/AI실행결과발표대회_디자인3종/flow_handoff/2026-10-15_v2/start_images/C04/C04-N02.png"
+    },
+    {
+      "id": "C04-N04",
+      "path": "start_images/C04/C04-N04.png",
+      "prompt": "Use case: precise-object-edit / identity-preserve. Make ONE landscape16:9 standalone START FRAME for a live-action absurd low-budget comedy. Use actual reference image(s), preserve exact fictional Korean ADULT actors, faces, hair, costumes, cheap fluorescent-lit office and handmade design. This is INTENTIONALLY crude: corrugated cardboard, wrinkled duct tape, cheap cloth/wigs, exaggerated expressions, green chroma-key fringe and flat pasted-photo clones. Do NOT polish into a glossy corporate advertisement. Keep anatomy coherent, normal faces/hands, separate bodies. No text, captions, logos, numbers, watermarks or panels. Change the scene STATE specified below; the references may show a later result that MUST be withheld at this start.\n\nNEW pre-reaction state in SAME desk office. Gray-shirt FEMALE employee sits at left with opened silver laptop facing HERSELF, about to rotate toward robots; viewer sees laptop BACK, not data. White mug on desk. Original A red antenna, B blue, C yellow are all STANDING UPRIGHT, BOTH FEET on floor, expectant/overconfident advertising faces, NOT shocked, NOT leaning or falling. A retains short cardboard pincers; B/C normal hands. EXACTLY THREE obvious FLAT green-fringed A-photo copies remain smaller in background, also upright. Keep the EXISTING GRAY FLOOR unchanged, with NO new floor objects or supports. Do not change actors or costumes; NO extra real people, no numbers, no laptop screen content. Freeze BEFORE the revealing statement and shock.",
+      "refs": [
+        "/home/wooseok/wsy/samsung_related/slide/AI실행결과발표대회_디자인3종/storyboards/2026-10-15_absurd-v2/images/C04/S04.png",
+        "/home/wooseok/wsy/samsung_related/slide/AI실행결과발표대회_디자인3종/storyboards/2026-10-15_absurd-v2/images/C04/S02.png"
+      ],
+      "generated_source": "/home/wooseok/.codex/generated_images/01a13a98-cb83-76a0-9d9b-7895387c47f5/exec-548cb40f-8b9a-4c50-aaf8-4398c41a3ef5.png",
+      "tool": "built_in_image_gen",
+      "qa": {
+        "status": "artist_checked",
+        "viewed": true,
+        "observations": "ABC 똑바로 서고 기대/허세 표정, 평면복제3개 유지, 기존회색바닥·소품추가없음."
+      },
+      "dimensions": [
+        1672,
+        941
+      ],
+      "sha256": "49d0a4b564190acc2da8ff7928236019dcf2f5f707f48594b346e51c1ab697a7",
+      "absolute_path": "/home/wooseok/wsy/samsung_related/slide/AI실행결과발표대회_디자인3종/flow_handoff/2026-10-15_v2/start_images/C04/C04-N04.png"
+    },
+    {
+      "id": "C04-N05",
+      "path": "start_images/C04/C04-N05.png",
+      "prompt": "Use case: precise-object-edit / identity-preserve. Make ONE landscape16:9 standalone START FRAME for a live-action absurd low-budget comedy. Use actual reference image(s), preserve exact fictional Korean ADULT actors, faces, hair, costumes, cheap fluorescent-lit office and handmade design. This is INTENTIONALLY crude: corrugated cardboard, wrinkled duct tape, cheap cloth/wigs, exaggerated expressions, green chroma-key fringe and flat pasted-photo clones. Do NOT polish into a glossy corporate advertisement. Keep anatomy coherent, normal faces/hands, separate bodies. No text, captions, logos, numbers, watermarks or panels. Change the scene STATE specified below; the references may show a later result that MUST be withheld at this start.\n\nNEW wide three-quarter SIDE view in SAME office. Gray-shirt short-haired FEMALE employee at FRONT LEFT is standing, holding CLOSED plain silver laptop against her left hip, facing SCREEN LEFT toward exit. Original B blue antenna stands immediately behind her on right, using ONE NORMAL HUMAN HAND to lightly hold employee right shirt sleeve. Original A red antenna stands very close behind B; A SHORT CARDBOARD PINCERS remain at chest height touching/hovering beside B cardboard torso, NOT extended to employee and no real fingers added. Original C yellow antenna/broad shoulders waits behind A. All three plead with exaggerated faces but are not yet walking. EXACTLY THREE flat green-fringed A clones upright in background facing same LEFT direction. All bodies separate with readable legs. Pose a simple loose following line, no wrestling, pulling strain or human fusion. This is start of following, after everybody has risen. Keep identical costumes and faces.",
+      "refs": [
+        "/home/wooseok/wsy/samsung_related/slide/AI실행결과발표대회_디자인3종/storyboards/2026-10-15_absurd-v2/images/C04/S04.png",
+        "/home/wooseok/wsy/samsung_related/slide/AI실행결과발표대회_디자인3종/storyboards/2026-10-15_absurd-v2/images/C04/S03.png"
+      ],
+      "generated_source": "/home/wooseok/.codex/generated_images/01a13a98-cb83-76a0-9d9b-7895387c47f5/exec-a8b1781d-d083-405f-8170-a82bc3cf4dcb.png",
+      "tool": "built_in_image_gen",
+      "qa": {
+        "status": "artist_checked",
+        "viewed": true,
+        "observations": "여자직원·B정상손소매접촉·A짧은집게·C·복제3개. 뒤엉킴없이같은방향출발자세."
+      },
+      "dimensions": [
+        1672,
+        941
+      ],
+      "sha256": "d0ec36e684008e185a999e6ce3c9b472b6d1778d6d3f620945db600688747156",
+      "absolute_path": "/home/wooseok/wsy/samsung_related/slide/AI실행결과발표대회_디자인3종/flow_handoff/2026-10-15_v2/start_images/C04/C04-N05.png"
+    },
+    {
+      "id": "C04-N06",
+      "path": "start_images/C04/C04-N06.png",
+      "prompt": "Use case: precise-object-edit / identity-preserve. Make ONE landscape16:9 standalone START FRAME for a live-action absurd low-budget comedy. Use actual reference image(s), preserve exact fictional Korean ADULT actors, faces, hair, costumes, cheap fluorescent-lit office and handmade design. This is INTENTIONALLY crude: corrugated cardboard, wrinkled duct tape, cheap cloth/wigs, exaggerated expressions, green chroma-key fringe and flat pasted-photo clones. Do NOT polish into a glossy corporate advertisement. Keep anatomy coherent, normal faces/hands, separate bodies. No text, captions, logos, numbers, watermarks or panels. Change the scene STATE specified below; the references may show a later result that MUST be withheld at this start.\n\nNEW post-fall PRE-RISING state in SAME office and same four actual actors. High enough wide camera so floor is clear. Gray-shirt FEMALE employee seated at LEFT desk holds white mug and looks on. EXACTLY THREE ORIGINAL cardboard robot actors A(red),B(blue),C(yellow broad shoulders) ALREADY LIE ON THEIR BACKS on the SAME EXISTING GRAY FLOOR, separated side by side with generous visible gaps. Their heads/faces remain visible, eyes open with comic stunned expressions, normal legs stretched or gently bent separately. A SHORT CARDBOARD PINCERS stay beside his box chest, no human hands suddenly visible. B/C hands ordinary. NO ONE is standing, sitting up, kneeling or midway through falling; their backs and boxes are resting on the existing gray floor, ready to rise NEXT. Behind them EXACTLY THREE smaller obviously FLAT green-fringed PHOTO COPIES of A also lie flat like paper domino cutouts, each distinct. Four real actors total including employee, plus three flat copies. Avoid overlapping bodies, tangled limbs, extra heads/limbs, injury or unconsciousness. Preserve exact reference identities; do not turn employee male.",
+      "refs": [
+        "/home/wooseok/wsy/samsung_related/slide/AI실행결과발표대회_디자인3종/storyboards/2026-10-15_absurd-v2/images/C04/S04.png",
+        "/home/wooseok/wsy/samsung_related/slide/AI실행결과발표대회_디자인3종/storyboards/2026-10-15_absurd-v2/images/C04/S03.png"
+      ],
+      "generated_source": "/home/wooseok/.codex/generated_images/01a13a98-cb83-76a0-9d9b-7895387c47f5/exec-e764fef8-f3bb-4837-bdc4-a63ef42e4b4f.png",
+      "tool": "built_in_image_gen",
+      "qa": {
+        "status": "artist_checked",
+        "viewed": true,
+        "observations": "ABC3명과flatcopy3개가서로분리되어기존회색바닥에누움. 여자직원유지,추가매트없음,정상팔다리."
+      },
+      "dimensions": [
+        1672,
+        941
+      ],
+      "sha256": "4bd81b1512f1b1f9293d835820edc1b2c3bdc167f5e5036f3cef36cbb3ffc7e6",
+      "absolute_path": "/home/wooseok/wsy/samsung_related/slide/AI실행결과발표대회_디자인3종/flow_handoff/2026-10-15_v2/start_images/C04/C04-N06.png"
+    },
+    {
+      "id": "C05-N02",
+      "path": "start_images/C05/C05-N02-v2.png",
+      "prompt": "Use case: precise-object-edit. EDIT THIS EXISTING START-FRAME with a STRICT LOCAL CHANGE TO GHOST A AND GHOST B ONLY. A is the large RED-HAIR-CLIP man at upper center; B is the BLUE-HAIR-CLIP woman at upper left. Their current eyes-closed heads-thrown-back wind-enjoyment poses reveal the later joke too soon. Replace ONLY their poses/expressions/hair/sheet draping: both EYES WIDE OPEN, HEADS UPRIGHT facing the seated employee, mouths loudly talking as pushy comical salespeople. A may bend elbows near chest with boastful open-palmed sales gestures; B gives an eager normal-hand advertising gesture. They are actively pitching, NOT relaxed or enjoying wind. Their cheap black wigs hang DOWN naturally with NO hair blown horizontally or floating outward. Their white sheet fabric hangs DOWN in natural gravity folds, NOT stretched like sails and NO wind ripples. Preserve exact faces, head scale, RED/BLUE clips and body position/height. Preserve deliberate green chroma-key fringe and crude compositing. ABSOLUTELY UNCHANGED: ghost C at right with YELLOW clip and FULL OPAQUE WHITE COVER from neck to below feet, no neon outfit or shoes visible; seated beige-sweater male employee, his expression, hands and fan-switch-ready pose; gray fan in OFF state; entire office, camera framing, lighting and all other props. Fan blades remain still, NO wind anywhere. Exactly four real adult actors, no anatomy errors. Single landscape16:9 photograph, NO text/logo/watermark.",
+      "refs": [
+        "/home/wooseok/wsy/samsung_related/slide/AI실행결과발표대회_디자인3종/flow_handoff/2026-10-15_v2/start_images/C05/C05-N02.png"
+      ],
+      "generated_source": "/home/wooseok/.codex/generated_images/01a13a98-cb83-76a0-9d9b-7895387c47f5/exec-a990999c-fb43-412c-b3ee-f84931b50f39.png",
+      "tool": "built_in_image_gen",
+      "qa": {
+        "status": "artist_checked",
+        "viewed": true,
+        "observations": "A/B가눈을뜨고고개를세운떠들썩한영업표정. 가발과천이아래로늘어져바람즐김선노출제거. C완전흰천가림·직원·팬OFF·구도유지. 기존N02와N04원본보존."
+      },
+      "dimensions": [
+        1672,
+        941
+      ],
+      "sha256": "085ab946b3542fa34f7f0e6293e73b59490d2092657b133f646faecb945d607e",
+      "absolute_path": "/home/wooseok/wsy/samsung_related/slide/AI실행결과발표대회_디자인3종/flow_handoff/2026-10-15_v2/start_images/C05/C05-N02-v2.png",
+      "revision_history": [
+        {
+          "path": "start_images/C05/C05-N02.png",
+          "prompt": "Use case: precise-object-edit / identity-preserve. Make ONE landscape16:9 standalone START FRAME for a live-action absurd low-budget comedy. Use actual reference image(s), preserve exact fictional Korean ADULT actors, faces, hair, costumes, cheap fluorescent-lit office and handmade design. This is INTENTIONALLY crude: corrugated cardboard, wrinkled duct tape, cheap cloth/wigs, exaggerated expressions, green chroma-key fringe and flat pasted-photo clones. Do NOT polish into a glossy corporate advertisement. Keep anatomy coherent, normal faces/hands, separate bodies. No text, captions, logos, numbers, watermarks or panels. Change the scene STATE specified below; the references may show a later result that MUST be withheld at this start.\n\nEDIT fan scene to fan-OFF PRE-REVEAL. SAME beige-sweater male employee holds gray pedestal fan with one hand ready at switch, face mildly irritated, not surprised by exposed clothing. Fan OFF: blades visibly still, wigs/sheets hang without wind. SAME three ghost actors A red clip, B blue clip, C yellow clip. ALL have WHITE SHEET CAPES attached. C MUST be COMPLETELY wrapped in long opaque WHITE cloth from neck down over ALL legs and FEET; ZERO fluorescent lime/pink tracksuit and ZERO white shoes visible. Only C FACE and normal HANDS may show. NO detached or flying white cloth anywhere. C has boastful sales smile, NOT reveal panic. Use fully covered C in reference2 for wardrobe; reference1 only sets fan-holder composition. Preserve green fringe, uneven scale and cheap wigs.",
+          "refs": [
+            "/home/wooseok/wsy/samsung_related/slide/AI실행결과발표대회_디자인3종/storyboards/2026-10-15_absurd-v2/images/C05/S02.png",
+            "/home/wooseok/wsy/samsung_related/slide/AI실행결과발표대회_디자인3종/storyboards/2026-10-15_absurd-v2/images/C05/S01-v2.png"
+          ],
+          "dimensions": [
+            1672,
+            941
+          ],
+          "qa": {
+            "status": "artist_checked",
+            "viewed": true,
+            "observations": "C의 형광복·흰신발이 긴 흰천으로 완전가림, 날아간 여분천 없음. 직원·팬·A/B/C 일치."
+          },
+          "sha256": "52d437515a61eac5fdda702bd996fd41c53c3e04f50dbb641357fc79fde86887",
+          "generated_source": "/home/wooseok/.codex/generated_images/01a13a98-cb83-76a0-9d9b-7895387c47f5/exec-1817a4d7-0b56-4c16-ae28-95ca1e4a09bb.png",
+          "absolute_path": "/home/wooseok/wsy/samsung_related/slide/AI실행결과발표대회_디자인3종/flow_handoff/2026-10-15_v2/start_images/C05/C05-N02.png"
+        }
+      ],
+      "selected_path": "start_images/C05/C05-N02-v2.png"
+    },
+    {
+      "id": "C05-N03",
+      "path": "start_images/C05/C05-N03.png",
+      "prompt": "Use case: precise-object-edit / identity-preserve. Make ONE landscape16:9 standalone START FRAME for a live-action absurd low-budget comedy. Use actual reference image(s), preserve exact fictional Korean ADULT actors, faces, hair, costumes, cheap fluorescent-lit office and handmade design. This is INTENTIONALLY crude: corrugated cardboard, wrinkled duct tape, cheap cloth/wigs, exaggerated expressions, green chroma-key fringe and flat pasted-photo clones. Do NOT polish into a glossy corporate advertisement. Keep anatomy coherent, normal faces/hands, separate bodies. No text, captions, logos, numbers, watermarks or panels. Change the scene STATE specified below; the references may show a later result that MUST be withheld at this start.\n\nEDIT pointer-chain photo back to BEFORE THE QUESTION/POINTING. SAME beige male employee, office, fan and three ghost identities, hairstyles, RED/BLUE/YELLOW clips. Fan OFF. A,B,C all have BOTH ARMS LOWERED close to body with relaxed normal hands, NO outstretched arm, NO index finger pointing, NO pointing toward each other, self or blank wall. Faces are mildly uncertain/listening but do not expose the complete blame chain early. Employee ready to ask question. C is again fully covered in long opaque WHITE sheet from neck over legs and FEET, hiding ALL lime/pink tracksuit and ALL shoes; do not show black shoes. Keep blank wall on right, normal photographed room and deliberately green-fringed floating adults. No extra ghost/source at wall. Keep EXACT camera framing and each actor's pixel placement from reference1. In the 1672x941 composition, C face, upper body and future knocking hand must stay inside the existing right-side crop x1020,y140,width650,height366. Do not reframe, resize C or move C toward center. Only lower the pointing arms, relax faces and cover C lower costume/feet.",
+      "refs": [
+        "/home/wooseok/wsy/samsung_related/slide/AI실행결과발표대회_디자인3종/storyboards/2026-10-15_absurd-v2/images/C05/S03.png",
+        "/home/wooseok/wsy/samsung_related/slide/AI실행결과발표대회_디자인3종/storyboards/2026-10-15_absurd-v2/images/C05/S02.png"
+      ],
+      "generated_source": "/home/wooseok/.codex/generated_images/01a13a98-cb83-76a0-9d9b-7895387c47f5/exec-c9c4adb2-aa4d-4408-a9ea-ed06900f3d38.png",
+      "tool": "built_in_image_gen",
+      "qa": {
+        "status": "artist_checked",
+        "viewed": true,
+        "observations": "세귀신모두손내림,지목없음,C의하의/신발완전흰천가림. C위치와빈벽크롭영역유지."
+      },
+      "dimensions": [
+        1672,
+        941
+      ],
+      "sha256": "cdd4eebd998c1ed04a8690ac73172cff0a5a50c4161bd7cdb86bcb8c475cdd99",
+      "absolute_path": "/home/wooseok/wsy/samsung_related/slide/AI실행결과발표대회_디자인3종/flow_handoff/2026-10-15_v2/start_images/C05/C05-N03.png"
+    },
+    {
+      "id": "C05-N04",
+      "path": "start_images/C05/C05-N04.png",
+      "prompt": "Use case: precise-object-edit. EDIT REFERENCE1, the newly prepared fan-OFF START FRAME, into the immediate next WIND-ON state. Preserve EXACT camera, office, actors' faces, RED/BLUE/YELLOW hair clips, relative floating sizes, gray fan position and male employee pose. Reference2 only illustrates the later wind effect; its exposed tracksuit must NOT appear here. Make the fan blow now: gently flutter A/B wigs and sheet edges, make A/B enjoy wind like cheap advertising models. C on RIGHT keeps his entire existing LONG OPAQUE WHITE SHEET securely ON HIS BODY, from neckline all the way below every foot. Let only the OUTER EDGES billow slightly. ZERO fluorescent lime/pink tracksuit, ZERO white shoes, ZERO black trousers or feet visible. Only C face and normal bare hands emerge; white sheet cuffs hide wrists/clothes. C has a smug energetic sales smile, NOT panic. No separate floating cloth, no pulled-off cape, no hole showing inner clothes. No removal starts until the NEXT video action. Preserve deliberately ugly green chroma fringe, costume folds and low-budget pasted-in look; no beautification. Normal anatomy, exactly four real adult Korean actors including seated employee. Single landscape16:9 frame, NO text/logo/watermark.",
+      "refs": [
+        "/home/wooseok/wsy/samsung_related/slide/AI실행결과발표대회_디자인3종/flow_handoff/2026-10-15_v2/start_images/C05/C05-N02.png",
+        "/home/wooseok/wsy/samsung_related/slide/AI실행결과발표대회_디자인3종/storyboards/2026-10-15_absurd-v2/images/C05/S02.png"
+      ],
+      "generated_source": "/home/wooseok/.codex/generated_images/01a13a98-cb83-76a0-9d9b-7895387c47f5/exec-7104ca03-23d0-4388-8148-08838687800b.png",
+      "tool": "built_in_image_gen",
+      "qa": {
+        "status": "artist_checked",
+        "viewed": true,
+        "observations": "팬바람·펄럭임은있지만C의흰천은몸에완전히붙어있고형광복·신발·하의노출0. 별도날아간천없음. 실제새N02의배우/팬/구도유지."
+      },
+      "dimensions": [
+        1672,
+        941
+      ],
+      "sha256": "c80935b150a274f583c27b80287a4b6fe7191074638e2388d06b67ffb9a5d9bf",
+      "absolute_path": "/home/wooseok/wsy/samsung_related/slide/AI실행결과발표대회_디자인3종/flow_handoff/2026-10-15_v2/start_images/C05/C05-N04.png"
+    }
+  ],
+  "tool": "built_in_image_gen",
+  "total": 7,
+  "qa_status": "artist_checked_ready_for_root_review",
+  "flow_executed": false
+}

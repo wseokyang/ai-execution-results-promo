@@ -1,0 +1,108 @@
+{
+  "tool": "built-in image_gen",
+  "concept_id": "C05",
+  "scenes": [
+    {
+      "concept_id": "C05",
+      "scene_id": "S01",
+      "image_path": "images/C05/S01-v3.png",
+      "source_cuts": [
+        "01",
+        "02"
+      ],
+      "prompt": "Use case: precise-object-edit. EDIT the supplied approved storyboard photograph locally; keep both EXACT fictional Korean adult actor identities, faces, hair, expressions, same sky-blue shirt and charcoal vest/white blouse, same hand-held real small black foam board and visible natural gripping fingers, same wood desk, chairs, pale wall, mug, notebook, window, light and overall camera framing. 16:9 photographic realism. This is a visual continuity fix, not a new scene.\nCRITICAL CORRECTION: rotate the OPEN SILVER LAPTOP on the desk so that the FRONT OF ITS DISPLAY and keyboard both face the camera/interviewer, as if the man has turned it around to show his work. The camera must NOT be looking at a silver rear display lid. Show a physically coherent laptop: light-emitting screen with black bezel at the BACK of the computer, a visible hinge below the display, and keyboard/trackpad base projecting FORWARD toward camera across the table. No duplicate screens, no impossible hinge, no reversed keyboard.\nThe woman is holding the same real black foam board BETWEEN the camera and the laptop DISPLAY, blocking most of the FRONT screen, while deliberately leaving a clearly visible STRIP OF THE LIT SCREEN and BLACK BEZEL exposed ABOVE the board plus a small exposed side corner if possible. Position the board a little LOWER or offset slightly so that the audience immediately recognizes that she is covering a laptop screen. The exposed display shows only soft meaningless pale-gray/blue abstract UI rectangles: absolutely NO readable letters, numbers, graphs, metrics, logos or real software. Keep the board handheld with visible 1cm physical edge and natural fingers, never digital censor rectangle. Preserve the man's puzzled paused expression and open explanatory hand. Both faces completely visible. Final image must make the joke 'she physically covers the screen he is trying to show us' instantly clear. Do not change the room or add anyone. No captions, typography, watermark or event title.",
+      "references": [
+        "/home/wooseok/wsy/samsung_related/slide/AI실행결과발표대회_디자인3종/storyboards/2026-10-14_promo-five/images/C05/S01.png"
+      ],
+      "motion": "노트북을 돌리면 담당자가 실제 판을 따라 옮김.",
+      "review_status": "artist_corrected_pending_independent_recheck",
+      "generation_status": "generated",
+      "generated_source": "/home/wooseok/.codex/generated_images/01a13a8a-7471-7482-97d0-63ad6548ddba/exec-6d0701d5-f0ca-49d6-9b04-718451efe4cb.png",
+      "artist_check": "Opened actual saved S01-v3.png. Laptop display front now faces camera: exposed lit screen strip and black bezel above real board, with matching forward-facing keyboard/trackpad and hinge arrangement. Board visibly blocks screen content; same actors, costumes, room and physical held board retained. Exposed UI consists only of pale abstract blocks without readable text or metrics. Addresses A-I02/B-I02/C-I01.",
+      "review_issue_ids": [
+        "A-I02",
+        "B-I02",
+        "C-I01"
+      ]
+    },
+    {
+      "concept_id": "C05",
+      "scene_id": "S02",
+      "image_path": "images/C05/S02.png",
+      "source_cuts": [
+        "03",
+        "04",
+        "05"
+      ],
+      "prompt": "Use case: ads-marketing. Generate ONE NEW standalone photorealistic cinematic storyboard keyframe, landscape 16:9, for the NEXT scene of this Korean workplace comedy. Input image 1 is the actual approved ACTOR, WARDROBE, ROOM AND PROP continuity reference, not a composition to duplicate. Preserve exactly the same fictional Korean adult man, same fictional Korean adult woman, faces, hair, shirt and vest, soft daylight, pale warm-gray wall, wood desk, gray chairs, plain silver laptop.\nScene S02: widen the camera noticeably to a medium-wide shot in the SAME interview corner. The sky-blue-shirt man remains seated on the LEFT but leans slightly left/sideways, trying to explain around an obstruction, then pauses with an amused-bewildered but deadpan closed-mouth expression. The charcoal-vest, white-blouse woman is on the RIGHT, professionally earnest and composed. She now holds a MUCH LARGER real matte-black foam board, 90cm wide (twice the width of the previous 45cm board), approximately 50cm tall, across the desk in front of the laptop and the man's below-shoulder gesturing hands. Two human heads MUST remain entirely visible above the board. Her hands naturally grip both side edges of the large board, with visible fingers and 1cm board thickness; it is a handheld physical prop, absolutely not a digital censor rectangle. Small sliver of silver laptop base can remain below board. The earlier SMALL 45cm board is now leaning visibly against the outside LEFT end/side of the desk, showing the scale escalation. Do not change people scale; enlarge the prop only. Man's shoulders and leaning posture readable, woman looking sideways toward him. The quiet funny moment after her oversized obstruction has halted his explanation. Keep scene calm and plausible, no force, no gag, no security gear, no privacy/censorship theme. Blank pale wall with some empty upper center space. No text, numbers, subtitles, labels, branding, logos, watermarks, decorative graphics or extra people. Natural anatomy and hands. Cinematic commercial photorealism with real material texture; no collage.",
+      "references": [
+        "/home/wooseok/wsy/samsung_related/slide/AI실행결과발표대회_디자인3종/storyboards/2026-10-14_promo-five/images/C05/S01.png"
+      ],
+      "motion": "몸을 피하면 큰 판이 따라가고 질문에 멈춘 채 답함.",
+      "review_status": "artist_checked_pending_independent_review",
+      "generation_status": "generated",
+      "generated_source": "/home/wooseok/.codex/generated_images/01a13a8a-7471-7482-97d0-63ad6548ddba/exec-1abae89f-16cb-4534-a694-576a3e3eff23.png",
+      "artist_check": "Opened actual saved S02.png. Same adult identities, costumes, room and laptop; visibly larger physical black board, both faces unobscured, hands and board edge visible; small board leans at left desk side. No embedded text/logos."
+    },
+    {
+      "concept_id": "C05",
+      "scene_id": "S03",
+      "image_path": "images/C05/S03.png",
+      "source_cuts": [
+        "06",
+        "07",
+        "08"
+      ],
+      "prompt": "Use case: precise-object-edit. Input image 1 is the S03 EDIT TARGET. Input image 2 is only a physical board size continuity reference from previous scene S02. EDIT IMAGE 1 with ONE targeted continuity correction: make the large black physical foam board held by the woman about 35 percent wider, extending its LEFT edge toward the middle of the desk and repositioning her left gripping hand naturally on that extended left edge. The right edge stays near its existing position. It must look like the SAME oversized approximately 90cm wide board from input image 2, now lowered below the woman's chest. Keep it LOW: its top edge stays at low rib / waist level, and lower part can be naturally occluded by desk. Preserve board physical thickness, foam texture and real hands; preserve natural arm anatomy. Do NOT raise the board back up in front of torsos or title area. If the widened board reaches the laptop, let the board sit naturally BEHIND the laptop and desk, keeping the laptop visible. Preserve EVERYTHING ELSE from image 1: both exact fictional Korean faces, expressions, pose, man on left, woman on right, hair, clothing, wood desk, laptop, smaller board leaning at left, window, room, camera framing and the huge blank upper-center title area. No text, logos, numbers, watermarks. One 16:9 photorealistic image, no collage.",
+      "references": [
+        "/home/wooseok/wsy/samsung_related/slide/AI실행결과발표대회_디자인3종/storyboards/2026-10-14_promo-five/images/C05/S03-candidate-v1.png",
+        "/home/wooseok/wsy/samsung_related/slide/AI실행결과발표대회_디자인3종/storyboards/2026-10-14_promo-five/images/C05/S02.png"
+      ],
+      "motion": "최종 공개 상태를 대표하는 프레임. 제목이 0.7초 보임→큰 판이 중앙을 가림→요청에 판을 내려 공개→전체 행사명 6초 유지. 판과 자막의 앞뒤 가림은 후속 편집.",
+      "review_status": "artist_checked_pending_independent_review",
+      "generation_status": "generated",
+      "generated_source": "/home/wooseok/.codex/generated_images/01a13a8a-7471-7482-97d0-63ad6548ddba/exec-3754aeff-5b1d-498a-8d49-7e10dfe337c3.png",
+      "artist_check": "Opened actual saved S03.png. Same adult identities and room, board lowered below chest, visible gripping hands and physical edges, open upper-center pale wall for title, laptop visible, no text/logos. Applied one targeted width correction so large board remains visually continuous with S02."
+    }
+  ],
+  "generation_history": [
+    {
+      "scene_id": "S01",
+      "image_path": "images/C05/S01-candidate-v2.png",
+      "prompt": "Use case: ads-marketing. Create ONE standalone photorealistic cinematic storyboard keyframe for a Korean office comedy advertisement. Landscape 16:9, 1920x1080 composition. Clean commercial cinematography, soft natural office daylight, true skin texture, believable anatomy, hands, fabrics and furniture. Fictional Korean adult actors, sincerely serious faces, only the situation absurd. No captions, typography, lettering, logos, numbers, watermarks, recognizable software, panels or collage. Plain blank walls and screen, no security or confidentiality context.\nBright simple office interview corner, pale warm-gray wall, wood desk, two plain chairs. Fictional Korean man age about 36, neat short side-parted black hair, sky-blue shirt with sleeves down, no tie, black trousers, seated at desk. Fictional Korean female prop handler age about 34, straight black chin-length bob, charcoal sleeveless vest over white long-sleeve shirt, black trousers, stands at his side. Plain silver unbranded laptop. A REAL physical handheld matte-black foam board 45cm wide and 1cm thick: visible side edges, actual fingers gripping the physical prop naturally.\nMedium three-quarter interview composition: man turns his OPEN silver laptop slightly toward camera to explain; female handler holds the small black foam board with both hands PRECISELY IN FRONT OF THE LAPTOP SCREEN, covering only screen. Keep both faces fully visible above the board, laptop base visible below it, and a small visible board-to-screen gap or side angle. Make the board unmistakably a real prop, not a digital censor bar. The man has noticed the physical board and voluntarily stopped mid-explanation, mouth now naturally closed and mild puzzled look at the board; no gag, no force, no effort to silence his voice. Handler has comically earnest professional focus on positioning the board. Reserve unobstructed plain wall toward upper center for later editorial copy, but generate absolutely no text. Clear visual joke, no extra people.",
+      "references": [],
+      "selected": false,
+      "reason": "Existing handoff S01.png selected after both inspected; alternative retained without overwriting."
+    },
+    {
+      "scene_id": "S03",
+      "image_path": "images/C05/S03-candidate-v1.png",
+      "prompt": "Use case: ads-marketing. Generate ONE NEW standalone photorealistic cinematic storyboard keyframe in LANDSCAPE 16:9 for the ending of this fictional Korean office comedy. Input images 1 and 2 are ACTUAL approved actor, wardrobe, office and physical prop references: image 1 establishes faces and costumes; image 2 establishes the LARGE board. Preserve these exact two fictional Korean adult actor identities, natural body proportions, sky-blue shirt on man, charcoal vest and white blouse on woman, black trousers, bob haircut and man's black side-parted hair, pale warm-gray office wall, wood desk, gray chairs and soft daylight. No additional actors.\nNEW scene S03, final revealed state AFTER the gag: reframe as a FRONTAL MEDIUM-WIDE INTERVIEW ENDING with abundant BLANK WALL SPACE occupying the UPPER CENTRAL 45 percent of the composition for later editorial title. Pull back / tilt the composition slightly upward to give this safe title area. SAME man is seated at far LEFT, smaller in frame but recognizable, looks quietly relieved toward the woman, mouth closed. SAME woman is at lower RIGHT, visible from the waist upward, sincerely slightly apologetic expression with mouth closed. She has LOWERED the SAME 90cm wide real matte-black foam board BELOW HER CHEST, top edge about waist/low rib level; naturally grips BOTH edges with visible hands and fingers. The large board is along the LOWER frame and must NOT obstruct faces, upper torsos, or the large empty upper-middle wall. Its material thickness and black side edge remain visible. Because the board is lowered, the plain silver laptop can again be partly visible on the same desk. Previous small board may remain against left desk side, consistent with reference 2. This is the ending AFTER the obstruction is removed, not a new obstruction pose. Calm deadpan humor. The board is an actual physical foam prop, never digital censor graphics. ABSOLUTELY NO words, text, event title, subtitles, logos, numbers, typography or watermarks anywhere; the event title will be composited later in the large free wall. Natural photographic anatomy and real office materials, no collage.",
+      "references": [
+        "/home/wooseok/wsy/samsung_related/slide/AI실행결과발표대회_디자인3종/storyboards/2026-10-14_promo-five/images/C05/S01.png",
+        "/home/wooseok/wsy/samsung_related/slide/AI실행결과발표대회_디자인3종/storyboards/2026-10-14_promo-five/images/C05/S02.png"
+      ],
+      "selected": false,
+      "reason": "Initial final-state composition retained as correction reference; board width enlarged in selected S03.png."
+    },
+    {
+      "concept_id": "C05",
+      "scene_id": "S01",
+      "image_path": "images/C05/S01.png",
+      "source_cuts": [
+        "01",
+        "02"
+      ],
+      "prompt": "Use case: ads-marketing. Create one standalone photorealistic cinematic storyboard keyframe for later image-to-video production. Landscape 16:9. Live-action Korean office comedy advertisement: believable skin, anatomy, hands, fabric, furniture and architectural materials; fictional adult Korean actors; everybody solemn and sincere, only the situation absurd. Clean commercial photography, soft natural office daylight, filmic contrast, natural colors. The visual joke must read without explanation. No captions, typography, lettering, logos, numbers, watermarks, named businesses or recognizable software interfaces. No panels, collage, cartoon faces or merged bodies. Screens and walls remain blank for later editing.\n\nVisual bible: bright simple office interview corner, pale warm-gray wall, wood desk, two plain chairs, soft window daylight. Interviewee: fictional Korean man around36, neat short black side-parted hair, sky-blue shirt, sleeves down, no tie, black trousers. Prop handler: fictional Korean woman around34, chin-length straight black hair, charcoal sleeveless vest, white long-sleeved shirt, black trousers. Both sincerely composed. Plain silver laptop without brand or readable data. REAL PHYSICAL handheld matte-black foam boards, 1cm thick, visible edges and natural fingers gripping them: small board45cm wide; large board90cm wide. No digital censor bars, floating graphics, security or confidentiality context, pixelation or additional people. Faces normally visible above boards.\n\nNo input image. Establish original consistent actors and production design for this concept. Medium three-quarter interview shot. Sky-blue interviewee turns open silver laptop slightly toward camera to explain. Charcoal-vest handler holds SMALL45cm physical black foam board in both hands precisely before screen, covering only screen; both faces fully visible. Show edge thickness, natural finger grips, laptop base and small board-to-screen gap, unmistakably an actual held prop rather than digital censorship. Straight serious expressions. The interviewee notices the physical board and voluntarily pauses speaking, mouth naturally closed; no gag, force or attempt to silence him. Event title is added only in later editing; current wall stays blank.",
+      "references": [],
+      "motion": "노트북을 돌리면 담당자가 실제 판을 따라 옮김.",
+      "review_status": "artist_checked_pending_independent_review",
+      "generation_status": "generated",
+      "generated_source": "/home/wooseok/.codex/generated_images/01a13a98-cb83-76a0-9d9b-7895387c47f5/exec-cd5381c8-7ccb-4078-a363-0384a11d8bdd.png",
+      "artist_check": "Opened and inspected approved S01.png after handoff. Two unobscured adult faces, physical held board with visible fingers/edge, open unbranded laptop, no captions/logos. Retained as continuity baseline; duplicate alternate preserved but not selected.",
+      "selected": false,
+      "reason": "Superseded by S01-v3.png after independent reviewers found the laptop rear lid facing camera; original retained without overwrite."
+    }
+  ],
+  "notes": "Only C05 records. Shared scene_manifest.json and image_prompts.json were not modified. All referenced paths were opened/inspected and actually passed to built-in image_gen. Flow was not run."
+}

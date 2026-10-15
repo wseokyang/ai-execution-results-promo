@@ -1,0 +1,75 @@
+{
+  "status": "pilot_review_complete_with_unresolved_production_issues",
+  "scope": "New pilot clips C01_K01 and C01_K03 only. Existing five concepts and approved input images unchanged.",
+  "method": "Three independent reviewers opened both actual extracted contact sheets and selected individual frames; collected independent results, exchanged issues, and each reconfirmed the director's disposition.",
+  "limitations": [
+    "0–7.5 seconds sampled every 0.5 seconds; continuous-motion stability not verified.",
+    "K01 has no audio stream; dialogue and lip sync unverified.",
+    "K03 has an audio stream, but its contents were not listened to in this session."
+  ],
+  "reviewers": [
+    "/root/pilot_review_a",
+    "/root/pilot_review_b",
+    "/root/pilot_review_c"
+  ],
+  "issues": [
+    {
+      "ids": [
+        "A-PILOT-001",
+        "B-PILOT-001",
+        "C-PILOT-001"
+      ],
+      "clip": "C01_K01",
+      "time": "0–8s",
+      "finding": "No audio track. Required Korean line 왜… 이제야… is missing.",
+      "status": "unresolved_before_final_use",
+      "disposition": "Preserve video as a candidate; dubbing, breaths and continuous playback check required. No further generation authorized within this run."
+    },
+    {
+      "ids": [
+        "A-PILOT-002",
+        "B-PILOT-002",
+        "C-PILOT-003"
+      ],
+      "clip": "C01_K03",
+      "time": "about 4.5–7.5s",
+      "finding": "B uses a second white handkerchief before its planned first appearance in K06.",
+      "status": "unresolved_before_final_use",
+      "disposition": "Full 7-second use is on hold. Earlier footage or a crop may be investigated later, but no fix or conform edit has been performed."
+    },
+    {
+      "ids": [
+        "A-PILOT-003",
+        "B-PILOT-003",
+        "C-PILOT-002"
+      ],
+      "clip": "C01_K03",
+      "time": "about 1.5–3.5s",
+      "finding": "Water visibly overflows the bucket despite no-overflow instruction.",
+      "status": "unresolved_director_decision",
+      "disposition": "Funny variation, but not approved as script-compliant. Preserve as experiment; continuity with later floor and cleaner shots must be checked before any adoption."
+    },
+    {
+      "ids": [
+        "C-PILOT-004"
+      ],
+      "clip": "C01_K03",
+      "time": "about 3–7s",
+      "finding": "Repeated changes of grip may distract from the ending.",
+      "status": "optional_suggestion",
+      "disposition": "Do not infer an actual motion reset from still frames. Check continuous playback before deciding."
+    }
+  ],
+  "cross_review": {
+    "A": "Agrees with B001/C001 and B002/C003. Agrees overflow requires recording and a decision, but removal itself is not mandatory. C004 is a suggestion; no proven reset. Confirms candidate/hold disposition; no new mandatory omission.",
+    "B": "Agrees with A001/C001 and A002/C003. Reconciles A003/C002 as optional removal but mandatory disclosure/decision. Agrees with C004 as suggestion. Confirms all B001–003 remain unresolved; no new omission.",
+    "C": "Agrees with A001/B001 and A002/B002. A003/B003 differ in severity label but share adoption/continuity conditions. Short trim is not a completed 7-second replacement. Confirms C001–003 unresolved, C004 suggestion."
+  },
+  "decisions": {
+    "C01_K01": "candidate_after_dubbing",
+    "C01_K03": "hold_full_7_second_use; retain_experiment_and_partial_candidate"
+  },
+  "new_generation_after_review": 0,
+  "final_credit_balance_observed": 10
+}
+

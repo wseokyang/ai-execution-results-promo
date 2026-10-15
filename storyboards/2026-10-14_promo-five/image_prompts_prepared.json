@@ -1,0 +1,290 @@
+{
+  "status": "Storyboards v2 approved; ready to generate",
+  "source_storyboard": "storyboards.json",
+  "scene_count": 16,
+  "reference_policy": "Generate each concept S01 independently. Inspect and save real output first. Open local references before next call. Use S02 additionally wherever it introduces cast or props. Planned references are not claims of existing images.",
+  "visual_bibles": {
+    "C01": "Visual bible: bright modern office corridor, pale warm-gray walls, open glass-and-wood meeting-room doorway, soft daylight. Lead fictional Korean man around 35, short neat black hair, white shirt, charcoal suit trousers, black lace-up shoes; small blank cream notebook and black pen. His disguise is a lightweight theatrical wearable plant costume: terracotta-colored foam cylindrical front shell from waist to mid-thigh, OPEN bottom for two normal legs, OPEN rear so he can sit, hidden fabric shoulder straps, artificial broad deep-green leaves around torso. No real heavy flowerpot, soil, human-plant fusion or trapped body. His ordinary hands emerge between artificial leaves; face partly glimpsed through leaves. Additional performers when requested: one rounded-leaf foam costume with navy trousers and brown shoes; one narrow-leaf foam costume with black trousers and black flat shoes. Guide when requested: fictional Korean woman around 40, chin-length straight black hair, beige blazer, white shirt, black trousers. Maintain every character and costume thereafter.",
+    "C02": "Visual bible: modest company presentation room with small ceremonial aisle, ivory fabric touches, warm daylight, plain bright projection wall; corporate setting, not lavish wedding venue. Two fictional adult Korean male attendants in navy business suits, white shirts, no ties: one with neat side-parted hair, one with slightly wavy hair. One 60 cm square ivory cushion carries one ordinary small 10 cm WHITE WIRELESS COMPUTER MOUSE, initially under translucent ivory veil. Presenter introduced in S02: fictional Korean man around 38, neat side-parted black hair, slim rectangular black glasses, charcoal suit, white shirt, no tie. Host introduced in S02: fictional Korean woman around 42, dark low bun, beige pantsuit, ivory blouse. Plain silver unbranded laptop, no readable screen, white table. Mouse, cushion and veil identical throughout. No actual bride or groom, rings, romance, giant mouse or extra crowd.",
+    "C03": "Visual bible: bright level office corridor, warm-gray walls, open presentation-room door far behind. Fictional Korean man around 37, charcoal suit, white shirt, black dress shoes, plain white open-visored racing-style helmet, serious eyes visible. Ordinary upright black mesh office chair with complete intact five-spoke base and ALL FIVE small casters ATTACHED and supporting it on the floor. Feet rest on floor. Two fictional adult Korean crew members in plain navy coveralls inspect attached wheels with cloth and small inspection light; never remove wheels. One separate spare caster sits in small white tray. Coworker introduced S02: fictional Korean woman around 35, shoulder-length straight black hair, beige cardigan, ivory shirt, black trousers, white mug. Small plain white floor-tape starting line, no text. No wheel removal, floating chair, tipping, racing vehicle, speed, smoke, fire, collision or logos.",
+    "C04": "Visual bible: small bright contemporary museum-like corporate room, connected by ordinary open doorway to modest presentation room. Exhibit: huge unmarked convex red pushbutton, diameter40cm, on white plinth beneath transparent glass dome, protected by red velvet rope stanchions. Docent: fictional Korean man around 50, neat salt-and-pepper hair, thin rectangular glasses, gray suit, white shirt, white cotton gloves. Visitor: fictional Korean woman around35, shoulder-length straight black hair, beige jacket, dark trousers. Guard: fictional Korean man around40, short black hair, plain navy uniform with no insignia, hat or weapon; carrying a small movable red-velvet rope barrier. Host introduced S03: fictional adult Korean woman with short neat hair, black pantsuit. Fix all identities and clothes. No intimidation; understated everyday expressions. Exhibit plaques and projection screen entirely blank; no performance statistics.",
+    "C05": "Visual bible: bright simple office interview corner, pale warm-gray wall, wood desk, two plain chairs, soft window daylight. Interviewee: fictional Korean man around36, neat short black side-parted hair, sky-blue shirt, sleeves down, no tie, black trousers. Prop handler: fictional Korean woman around34, chin-length straight black hair, charcoal sleeveless vest, white long-sleeved shirt, black trousers. Both sincerely composed. Plain silver laptop without brand or readable data. REAL PHYSICAL handheld matte-black foam boards, 1cm thick, visible edges and natural fingers gripping them: small board45cm wide; large board90cm wide. No digital censor bars, floating graphics, security or confidentiality context, pixelation or additional people. Faces normally visible above boards."
+  },
+  "scenes": [
+    {
+      "concept_id": "C01",
+      "scene_id": "S01",
+      "image_path": "images/C01/S01.png",
+      "source_cuts": [
+        "01",
+        "02"
+      ],
+      "prompt": "Use case: ads-marketing. Create one standalone photorealistic cinematic storyboard keyframe for later image-to-video production. Landscape 16:9. Live-action Korean office comedy advertisement: believable skin, anatomy, hands, fabric, furniture and architectural materials; fictional adult Korean actors; everybody solemn and sincere, only the situation absurd. Clean commercial photography, soft natural office daylight, filmic contrast, natural colors. The visual joke must read without explanation. No captions, typography, lettering, logos, numbers, watermarks, named businesses or recognizable software interfaces. No panels, collage, cartoon faces or merged bodies. Screens and walls remain blank for later editing.\n\nVisual bible: bright modern office corridor, pale warm-gray walls, open glass-and-wood meeting-room doorway, soft daylight. Lead fictional Korean man around 35, short neat black hair, white shirt, charcoal suit trousers, black lace-up shoes; small blank cream notebook and black pen. His disguise is a lightweight theatrical wearable plant costume: terracotta-colored foam cylindrical front shell from waist to mid-thigh, OPEN bottom for two normal legs, OPEN rear so he can sit, hidden fabric shoulder straps, artificial broad deep-green leaves around torso. No real heavy flowerpot, soil, human-plant fusion or trapped body. His ordinary hands emerge between artificial leaves; face partly glimpsed through leaves. Additional performers when requested: one rounded-leaf foam costume with navy trousers and brown shoes; one narrow-leaf foam costume with black trousers and black flat shoes. Guide when requested: fictional Korean woman around 40, chin-length straight black hair, beige blazer, white shirt, black trousers. Maintain every character and costume thereafter.\n\nNo input image. Establish original consistent actors and production design for this concept. Slightly low full-body three-quarter view of ONE lead performer beside open doorway. Foam pot costume and large artificial leaves conceal torso, ordinary trousers and both shoes completely visible; one shoe makes a tiny cautious sideways step toward the door. A real hand holds small blank notebook among foliage. Include top of plant and ample floor, so plant disguise and human feet read instantly. No extra performers or guide yet. The wearable terracotta pot front-shell is visibly soft fabric-covered foam, slightly pliable rather than ceramic; open bottom and rear. It is a costume over normal human anatomy.",
+      "references": [],
+      "planned_references": [],
+      "motion": "하단 구도에서 구두 한 걸음 후 틸트업. 열린 문 쪽으로 기울어 잎 사이 작은 수첩에 메모.",
+      "review_status": "prepared_not_generated",
+      "generation_status": "ready"
+    },
+    {
+      "concept_id": "C01",
+      "scene_id": "S02",
+      "image_path": "images/C01/S02.png",
+      "source_cuts": [
+        "03",
+        "04",
+        "05"
+      ],
+      "prompt": "Use case: ads-marketing. Create one standalone photorealistic cinematic storyboard keyframe for later image-to-video production. Landscape 16:9. Live-action Korean office comedy advertisement: believable skin, anatomy, hands, fabric, furniture and architectural materials; fictional adult Korean actors; everybody solemn and sincere, only the situation absurd. Clean commercial photography, soft natural office daylight, filmic contrast, natural colors. The visual joke must read without explanation. No captions, typography, lettering, logos, numbers, watermarks, named businesses or recognizable software interfaces. No panels, collage, cartoon faces or merged bodies. Screens and walls remain blank for later editing.\n\nVisual bible: bright modern office corridor, pale warm-gray walls, open glass-and-wood meeting-room doorway, soft daylight. Lead fictional Korean man around 35, short neat black hair, white shirt, charcoal suit trousers, black lace-up shoes; small blank cream notebook and black pen. His disguise is a lightweight theatrical wearable plant costume: terracotta-colored foam cylindrical front shell from waist to mid-thigh, OPEN bottom for two normal legs, OPEN rear so he can sit, hidden fabric shoulder straps, artificial broad deep-green leaves around torso. No real heavy flowerpot, soil, human-plant fusion or trapped body. His ordinary hands emerge between artificial leaves; face partly glimpsed through leaves. Additional performers when requested: one rounded-leaf foam costume with navy trousers and brown shoes; one narrow-leaf foam costume with black trousers and black flat shoes. Guide when requested: fictional Korean woman around 40, chin-length straight black hair, beige blazer, white shirt, black trousers. Maintain every character and costume thereafter.\n\nInput images are actual generated actor/wardrobe/prop/location references. Preserve those identities and designs while creating the NEW scene below; do not just copy earlier framing. Wide shot of SAME corridor. Exactly THREE adult plant-costume performers: same broad-leaf lead, rounded-leaf navy-trouser colleague, narrow-leaf black-trouser colleague. Their ordinary legs and shoes clearly visible beneath open-bottom foam costumes, all lean subtly toward the door listening. Beige-blazer guide stands in open doorway calmly pointing to empty chairs inside. Four people total; separate bodies and distinct costumes, no merged foliage. No other crowd. The wearable terracotta pot front-shell is visibly soft fabric-covered foam, slightly pliable rather than ceramic; open bottom and rear. It is a costume over normal human anatomy.",
+      "references": [],
+      "planned_references": [
+        "images/C01/S01.png"
+      ],
+      "motion": "와이드에서 세 화분 공개. 안내자가 손짓하면 세 화분이 동시에 바라본다.",
+      "review_status": "prepared_not_generated",
+      "generation_status": "ready"
+    },
+    {
+      "concept_id": "C01",
+      "scene_id": "S03",
+      "image_path": "images/C01/S03.png",
+      "source_cuts": [
+        "06",
+        "07"
+      ],
+      "prompt": "Use case: ads-marketing. Create one standalone photorealistic cinematic storyboard keyframe for later image-to-video production. Landscape 16:9. Live-action Korean office comedy advertisement: believable skin, anatomy, hands, fabric, furniture and architectural materials; fictional adult Korean actors; everybody solemn and sincere, only the situation absurd. Clean commercial photography, soft natural office daylight, filmic contrast, natural colors. The visual joke must read without explanation. No captions, typography, lettering, logos, numbers, watermarks, named businesses or recognizable software interfaces. No panels, collage, cartoon faces or merged bodies. Screens and walls remain blank for later editing.\n\nVisual bible: bright modern office corridor, pale warm-gray walls, open glass-and-wood meeting-room doorway, soft daylight. Lead fictional Korean man around 35, short neat black hair, white shirt, charcoal suit trousers, black lace-up shoes; small blank cream notebook and black pen. His disguise is a lightweight theatrical wearable plant costume: terracotta-colored foam cylindrical front shell from waist to mid-thigh, OPEN bottom for two normal legs, OPEN rear so he can sit, hidden fabric shoulder straps, artificial broad deep-green leaves around torso. No real heavy flowerpot, soil, human-plant fusion or trapped body. His ordinary hands emerge between artificial leaves; face partly glimpsed through leaves. Additional performers when requested: one rounded-leaf foam costume with navy trousers and brown shoes; one narrow-leaf foam costume with black trousers and black flat shoes. Guide when requested: fictional Korean woman around 40, chin-length straight black hair, beige blazer, white shirt, black trousers. Maintain every character and costume thereafter.\n\nInput images are actual generated actor/wardrobe/prop/location references. Preserve those identities and designs while creating the NEW scene below; do not just copy earlier framing. Interior SAME modest presentation room. Wide shot of THREE very generously spaced WIDE armless chairs, slightly diagonal. SAME three plant-costume adults sit normally wearing same foam FRONT shells, with costume rear openings allowing ordinary supported sitting; no hard flowerpots fused with chairs or pelvis. Real trousered legs reach floor; normal hands emerge through leaves in sincere applause. Preserve each leaf shape, costume, trousers and shoes. NO guide or any fourth person. Exactly THREE seated adults. Upper-right pale wall empty for later captions. Generous gaps ensure no chair-costume intersections. The wearable terracotta pot front-shell is visibly soft fabric-covered foam, slightly pliable rather than ceramic; open bottom and rear. It is a costume over normal human anatomy.",
+      "references": [],
+      "planned_references": [
+        "images/C01/S02.png",
+        "images/C01/S01.png"
+      ],
+      "motion": "박수에 잎이 흔들림. 마지막은 정지화면에 행사명과 초대를 편집 합성.",
+      "review_status": "prepared_not_generated",
+      "generation_status": "ready"
+    },
+    {
+      "concept_id": "C02",
+      "scene_id": "S01",
+      "image_path": "images/C02/S01.png",
+      "source_cuts": [
+        "01",
+        "02"
+      ],
+      "prompt": "Use case: ads-marketing. Create one standalone photorealistic cinematic storyboard keyframe for later image-to-video production. Landscape 16:9. Live-action Korean office comedy advertisement: believable skin, anatomy, hands, fabric, furniture and architectural materials; fictional adult Korean actors; everybody solemn and sincere, only the situation absurd. Clean commercial photography, soft natural office daylight, filmic contrast, natural colors. The visual joke must read without explanation. No captions, typography, lettering, logos, numbers, watermarks, named businesses or recognizable software interfaces. No panels, collage, cartoon faces or merged bodies. Screens and walls remain blank for later editing.\n\nVisual bible: modest company presentation room with small ceremonial aisle, ivory fabric touches, warm daylight, plain bright projection wall; corporate setting, not lavish wedding venue. Two fictional adult Korean male attendants in navy business suits, white shirts, no ties: one with neat side-parted hair, one with slightly wavy hair. One 60 cm square ivory cushion carries one ordinary small 10 cm WHITE WIRELESS COMPUTER MOUSE, initially under translucent ivory veil. Presenter introduced in S02: fictional Korean man around 38, neat side-parted black hair, slim rectangular black glasses, charcoal suit, white shirt, no tie. Host introduced in S02: fictional Korean woman around 42, dark low bun, beige pantsuit, ivory blouse. Plain silver unbranded laptop, no readable screen, white table. Mouse, cushion and veil identical throughout. No actual bride or groom, rings, romance, giant mouse or extra crowd.\n\nNo input image. Establish original consistent actors and production design for this concept. Eye-level medium-wide view down small ceremonial aisle. Exactly TWO navy-suit attendants solemnly carry ONE 60cm ivory cushion level between them. Tiny ordinary white computer mouse visible at center beneath partly lifted very translucent ivory veil. The visual joke is huge cushion versus tiny mouse. It must unmistakably be a computer mouse, never a person beneath veil. Natural supporting hands. Corporate room, no crowd.",
+      "references": [],
+      "planned_references": [],
+      "motion": "쿠션 천천히 입장. 베일을 살짝 들어 마우스 공개.",
+      "review_status": "prepared_not_generated",
+      "generation_status": "ready"
+    },
+    {
+      "concept_id": "C02",
+      "scene_id": "S02",
+      "image_path": "images/C02/S02.png",
+      "source_cuts": [
+        "03",
+        "04"
+      ],
+      "prompt": "Use case: ads-marketing. Create one standalone photorealistic cinematic storyboard keyframe for later image-to-video production. Landscape 16:9. Live-action Korean office comedy advertisement: believable skin, anatomy, hands, fabric, furniture and architectural materials; fictional adult Korean actors; everybody solemn and sincere, only the situation absurd. Clean commercial photography, soft natural office daylight, filmic contrast, natural colors. The visual joke must read without explanation. No captions, typography, lettering, logos, numbers, watermarks, named businesses or recognizable software interfaces. No panels, collage, cartoon faces or merged bodies. Screens and walls remain blank for later editing.\n\nVisual bible: modest company presentation room with small ceremonial aisle, ivory fabric touches, warm daylight, plain bright projection wall; corporate setting, not lavish wedding venue. Two fictional adult Korean male attendants in navy business suits, white shirts, no ties: one with neat side-parted hair, one with slightly wavy hair. One 60 cm square ivory cushion carries one ordinary small 10 cm WHITE WIRELESS COMPUTER MOUSE, initially under translucent ivory veil. Presenter introduced in S02: fictional Korean man around 38, neat side-parted black hair, slim rectangular black glasses, charcoal suit, white shirt, no tie. Host introduced in S02: fictional Korean woman around 42, dark low bun, beige pantsuit, ivory blouse. Plain silver unbranded laptop, no readable screen, white table. Mouse, cushion and veil identical throughout. No actual bride or groom, rings, romance, giant mouse or extra crowd.\n\nInput images are actual generated actor/wardrobe/prop/location references. Preserve those identities and designs while creating the NEW scene below; do not just copy earlier framing. Medium-wide three-quarter shot of white table in SAME room. Clearly establish charcoal-suit male presenter with slim black rectangular glasses and beige-pantsuit female host. One ordinary presenter index finger poised above SAME tiny white mouse, before a single click; host watches solemnly. Silver laptop, blank screen, same cushion and folded veil nearby. SAME two navy attendants quietly behind. No petals or confetti yet. Show faces and body proportions clearly for identity references.",
+      "references": [],
+      "planned_references": [
+        "images/C02/S01.png"
+      ],
+      "motion": "엄숙한 질문·고개 끄덕임·검지로 한 번 클릭.",
+      "review_status": "prepared_not_generated",
+      "generation_status": "ready"
+    },
+    {
+      "concept_id": "C02",
+      "scene_id": "S03",
+      "image_path": "images/C02/S03.png",
+      "source_cuts": [
+        "05",
+        "06"
+      ],
+      "prompt": "Use case: ads-marketing. Create one standalone photorealistic cinematic storyboard keyframe for later image-to-video production. Landscape 16:9. Live-action Korean office comedy advertisement: believable skin, anatomy, hands, fabric, furniture and architectural materials; fictional adult Korean actors; everybody solemn and sincere, only the situation absurd. Clean commercial photography, soft natural office daylight, filmic contrast, natural colors. The visual joke must read without explanation. No captions, typography, lettering, logos, numbers, watermarks, named businesses or recognizable software interfaces. No panels, collage, cartoon faces or merged bodies. Screens and walls remain blank for later editing.\n\nVisual bible: modest company presentation room with small ceremonial aisle, ivory fabric touches, warm daylight, plain bright projection wall; corporate setting, not lavish wedding venue. Two fictional adult Korean male attendants in navy business suits, white shirts, no ties: one with neat side-parted hair, one with slightly wavy hair. One 60 cm square ivory cushion carries one ordinary small 10 cm WHITE WIRELESS COMPUTER MOUSE, initially under translucent ivory veil. Presenter introduced in S02: fictional Korean man around 38, neat side-parted black hair, slim rectangular black glasses, charcoal suit, white shirt, no tie. Host introduced in S02: fictional Korean woman around 42, dark low bun, beige pantsuit, ivory blouse. Plain silver unbranded laptop, no readable screen, white table. Mouse, cushion and veil identical throughout. No actual bride or groom, rings, romance, giant mouse or extra crowd.\n\nInput images are actual generated actor/wardrobe/prop/location references. Preserve those identities and designs while creating the NEW scene below; do not just copy earlier framing. Preserve EXACT S02 actors, faces, outfits, table layout, laptop, mouse, cushion, folded veil, room and camera axis. Only action and celebration state change: modest shower of individual ivory and pale-pink petals drifts through air; two navy attendants clap gravely. Presenter keeps hand by tiny mouse and looks calmly toward beige host, who has a plain questioning expression. Faces unobstructed, no dense confetti, new decoration or extra people.",
+      "references": [],
+      "planned_references": [
+        "images/C02/S02.png",
+        "images/C02/S01.png"
+      ],
+      "motion": "축하 절정 후 질문에 음악 중단. 꽃잎 한 장만 늦게 떨어짐.",
+      "review_status": "prepared_not_generated",
+      "generation_status": "ready"
+    },
+    {
+      "concept_id": "C02",
+      "scene_id": "S04",
+      "image_path": "images/C02/S04.png",
+      "source_cuts": [
+        "07",
+        "08"
+      ],
+      "prompt": "Use case: ads-marketing. Create one standalone photorealistic cinematic storyboard keyframe for later image-to-video production. Landscape 16:9. Live-action Korean office comedy advertisement: believable skin, anatomy, hands, fabric, furniture and architectural materials; fictional adult Korean actors; everybody solemn and sincere, only the situation absurd. Clean commercial photography, soft natural office daylight, filmic contrast, natural colors. The visual joke must read without explanation. No captions, typography, lettering, logos, numbers, watermarks, named businesses or recognizable software interfaces. No panels, collage, cartoon faces or merged bodies. Screens and walls remain blank for later editing.\n\nVisual bible: modest company presentation room with small ceremonial aisle, ivory fabric touches, warm daylight, plain bright projection wall; corporate setting, not lavish wedding venue. Two fictional adult Korean male attendants in navy business suits, white shirts, no ties: one with neat side-parted hair, one with slightly wavy hair. One 60 cm square ivory cushion carries one ordinary small 10 cm WHITE WIRELESS COMPUTER MOUSE, initially under translucent ivory veil. Presenter introduced in S02: fictional Korean man around 38, neat side-parted black hair, slim rectangular black glasses, charcoal suit, white shirt, no tie. Host introduced in S02: fictional Korean woman around 42, dark low bun, beige pantsuit, ivory blouse. Plain silver unbranded laptop, no readable screen, white table. Mouse, cushion and veil identical throughout. No actual bride or groom, rings, romance, giant mouse or extra crowd.\n\nInput images are actual generated actor/wardrobe/prop/location references. Preserve those identities and designs while creating the NEW scene below; do not just copy earlier framing. SAME room, medium-wide rear three-quarter view of SAME charcoal-suit presenter turning toward ordinary presentation stage and large blank bright screen. Enough face profile to preserve hair and slim black rectangular glasses. He holds one small normal unbranded black presentation clicker, NOT the mouse; mouse stays on table behind if visible. One pale-pink petal on jacket shoulder. Earlier ceremonial table may remain in background. Large clear blank screen/wall for later event title. Calm confident posture, no fabricated slides.",
+      "references": [],
+      "planned_references": [
+        "images/C02/S02.png",
+        "images/C02/S03.png"
+      ],
+      "motion": "짧게 답하고 무대 쪽으로 걸음. 마지막 프레임 정지 후 행사명 합성.",
+      "review_status": "prepared_not_generated",
+      "generation_status": "ready"
+    },
+    {
+      "concept_id": "C03",
+      "scene_id": "S01",
+      "image_path": "images/C03/S01.png",
+      "source_cuts": [
+        "01",
+        "02"
+      ],
+      "prompt": "Use case: ads-marketing. Create one standalone photorealistic cinematic storyboard keyframe for later image-to-video production. Landscape 16:9. Live-action Korean office comedy advertisement: believable skin, anatomy, hands, fabric, furniture and architectural materials; fictional adult Korean actors; everybody solemn and sincere, only the situation absurd. Clean commercial photography, soft natural office daylight, filmic contrast, natural colors. The visual joke must read without explanation. No captions, typography, lettering, logos, numbers, watermarks, named businesses or recognizable software interfaces. No panels, collage, cartoon faces or merged bodies. Screens and walls remain blank for later editing.\n\nVisual bible: bright level office corridor, warm-gray walls, open presentation-room door far behind. Fictional Korean man around 37, charcoal suit, white shirt, black dress shoes, plain white open-visored racing-style helmet, serious eyes visible. Ordinary upright black mesh office chair with complete intact five-spoke base and ALL FIVE small casters ATTACHED and supporting it on the floor. Feet rest on floor. Two fictional adult Korean crew members in plain navy coveralls inspect attached wheels with cloth and small inspection light; never remove wheels. One separate spare caster sits in small white tray. Coworker introduced S02: fictional Korean woman around 35, shoulder-length straight black hair, beige cardigan, ivory shirt, black trousers, white mug. Small plain white floor-tape starting line, no text. No wheel removal, floating chair, tipping, racing vehicle, speed, smoke, fire, collision or logos.\n\nNo input image. Establish original consistent actors and production design for this concept. Medium-wide slightly low shot including entire black mesh office chair, complete five-spoke base and all attached casters supporting weight on floor. Helmeted suited employee solemnly upright, both dress shoes on floor. Two navy-coverall crew crouch beside attached wheels, checking with cloth and inspection light. Spare caster in white tray visibly separate. No lifting or wheel removal. Recognizable normal office background; professional pit-crew solemnity around an ordinary intact chair is the joke.",
+      "references": [],
+      "planned_references": [],
+      "motion": "바퀴 점검, 장갑, 헬멧 짧은 삽입 컷. 고속 이동 없음.",
+      "review_status": "prepared_not_generated",
+      "generation_status": "ready"
+    },
+    {
+      "concept_id": "C03",
+      "scene_id": "S02",
+      "image_path": "images/C03/S02.png",
+      "source_cuts": [
+        "03",
+        "04"
+      ],
+      "prompt": "Use case: ads-marketing. Create one standalone photorealistic cinematic storyboard keyframe for later image-to-video production. Landscape 16:9. Live-action Korean office comedy advertisement: believable skin, anatomy, hands, fabric, furniture and architectural materials; fictional adult Korean actors; everybody solemn and sincere, only the situation absurd. Clean commercial photography, soft natural office daylight, filmic contrast, natural colors. The visual joke must read without explanation. No captions, typography, lettering, logos, numbers, watermarks, named businesses or recognizable software interfaces. No panels, collage, cartoon faces or merged bodies. Screens and walls remain blank for later editing.\n\nVisual bible: bright level office corridor, warm-gray walls, open presentation-room door far behind. Fictional Korean man around 37, charcoal suit, white shirt, black dress shoes, plain white open-visored racing-style helmet, serious eyes visible. Ordinary upright black mesh office chair with complete intact five-spoke base and ALL FIVE small casters ATTACHED and supporting it on the floor. Feet rest on floor. Two fictional adult Korean crew members in plain navy coveralls inspect attached wheels with cloth and small inspection light; never remove wheels. One separate spare caster sits in small white tray. Coworker introduced S02: fictional Korean woman around 35, shoulder-length straight black hair, beige cardigan, ivory shirt, black trousers, white mug. Small plain white floor-tape starting line, no text. No wheel removal, floating chair, tipping, racing vehicle, speed, smoke, fire, collision or logos.\n\nInput images are actual generated actor/wardrobe/prop/location references. Preserve those identities and designs while creating the NEW scene below; do not just copy earlier framing. SAME corridor, medium-wide side two-shot. Exact same helmeted suited rider and intact five-caster black mesh chair. Beige-cardigan colleague with white mug stands beside him, everyday neutral expression; rider looks ahead seriously with feet on floor. Same two navy crew wait behind. Everything stationary. Plain mug and office atmosphere contrast with over-preparation. No racing effects.",
+      "references": [],
+      "planned_references": [
+        "images/C03/S01.png"
+      ],
+      "motion": "동료 질문, 직원 앞을 보고 답변, 동료 한 번 끄덕임.",
+      "review_status": "prepared_not_generated",
+      "generation_status": "ready"
+    },
+    {
+      "concept_id": "C03",
+      "scene_id": "S03",
+      "image_path": "images/C03/S03.png",
+      "source_cuts": [
+        "05",
+        "06",
+        "07"
+      ],
+      "prompt": "Use case: ads-marketing. Create one standalone photorealistic cinematic storyboard keyframe for later image-to-video production. Landscape 16:9. Live-action Korean office comedy advertisement: believable skin, anatomy, hands, fabric, furniture and architectural materials; fictional adult Korean actors; everybody solemn and sincere, only the situation absurd. Clean commercial photography, soft natural office daylight, filmic contrast, natural colors. The visual joke must read without explanation. No captions, typography, lettering, logos, numbers, watermarks, named businesses or recognizable software interfaces. No panels, collage, cartoon faces or merged bodies. Screens and walls remain blank for later editing.\n\nVisual bible: bright level office corridor, warm-gray walls, open presentation-room door far behind. Fictional Korean man around 37, charcoal suit, white shirt, black dress shoes, plain white open-visored racing-style helmet, serious eyes visible. Ordinary upright black mesh office chair with complete intact five-spoke base and ALL FIVE small casters ATTACHED and supporting it on the floor. Feet rest on floor. Two fictional adult Korean crew members in plain navy coveralls inspect attached wheels with cloth and small inspection light; never remove wheels. One separate spare caster sits in small white tray. Coworker introduced S02: fictional Korean woman around 35, shoulder-length straight black hair, beige cardigan, ivory shirt, black trousers, white mug. Small plain white floor-tape starting line, no text. No wheel removal, floating chair, tipping, racing vehicle, speed, smoke, fire, collision or logos.\n\nInput images are actual generated actor/wardrobe/prop/location references. Preserve those identities and designs while creating the NEW scene below; do not just copy earlier framing. Fixed wide composition SAME corridor, same rider, intact chair, crew and beige-cardigan colleague. Small plain white floor-tape start line directly before chair. One rider foot flat and other toe gently angled to nudge a tiny distance; chair upright with every caster attached. One crew member holds small plain checkered flag lowered beside body, away from chair. Bright open presentation doorway distant; upper wall empty for later title. A still moment of absurd anticipation, no speed or vehicle parts. CRITICAL: beige-cardigan coworker holds the SAME white mug, positioned beside and slightly BEHIND the chair, STARTING to walk naturally in the EXACT SAME direction as chair toward the open presentation doorway. Show rider and pedestrian in the same fixed wide frame, clear side or rear-three-quarter orientation, preparing the later joke where she casually overtakes him. She is not facing or watching the rider.",
+      "references": [],
+      "planned_references": [
+        "images/C03/S01.png",
+        "images/C03/S02.png"
+      ],
+      "motion": "깃발 내려감→의자가 몇십 cm 움직여 멈춤→한 번 더 작은 밀기→머그잔 동료가 평범한 두 걸음으로 같은 방향으로 추월. 고속 이동·충돌·비웃음 없음. 정지 후 행사명 합성.",
+      "review_status": "prepared_not_generated",
+      "generation_status": "ready"
+    },
+    {
+      "concept_id": "C04",
+      "scene_id": "S01",
+      "image_path": "images/C04/S01.png",
+      "source_cuts": [
+        "01",
+        "02",
+        "03",
+        "04"
+      ],
+      "prompt": "Use case: ads-marketing. Create one standalone photorealistic cinematic storyboard keyframe for later image-to-video production. Landscape 16:9. Live-action Korean office comedy advertisement: believable skin, anatomy, hands, fabric, furniture and architectural materials; fictional adult Korean actors; everybody solemn and sincere, only the situation absurd. Clean commercial photography, soft natural office daylight, filmic contrast, natural colors. The visual joke must read without explanation. No captions, typography, lettering, logos, numbers, watermarks, named businesses or recognizable software interfaces. No panels, collage, cartoon faces or merged bodies. Screens and walls remain blank for later editing.\n\nVisual bible: small bright contemporary museum-like corporate room, connected by ordinary open doorway to modest presentation room. Exhibit: huge unmarked convex red pushbutton, diameter40cm, on white plinth beneath transparent glass dome, protected by red velvet rope stanchions. Docent: fictional Korean man around 50, neat salt-and-pepper hair, thin rectangular glasses, gray suit, white shirt, white cotton gloves. Visitor: fictional Korean woman around35, shoulder-length straight black hair, beige jacket, dark trousers. Guard: fictional Korean man around40, short black hair, plain navy uniform with no insignia, hat or weapon; carrying a small movable red-velvet rope barrier. Host introduced S03: fictional adult Korean woman with short neat hair, black pantsuit. Fix all identities and clothes. No intimidation; understated everyday expressions. Exhibit plaques and projection screen entirely blank; no performance statistics.\n\nNo input image. Establish original consistent actors and production design for this concept. Wide three-quarter museum view. Huge unmarked red button visible through clear dome on white plinth. Existing red velvet ropes already protect exhibit. White-gloved gray-suit docent earnestly presents pristine button. Beige visitor cautiously reaches one normal hand while staying outside ropes. Navy guard seriously positions ONE additional small freestanding red-velvet barrier before already-protected display. Clear connected cord and poles, distinct arms. No writing on button, plinth, clothes or walls. A distinct clean BLANK RECTANGULAR NAMEPLATE on the FRONT of the white plinth faces the camera clearly for later compositing of the button label. Absolutely no letters generated on it.",
+      "references": [],
+      "planned_references": [],
+      "motion": "도슨트 설명→관람객 손→경비원 추가 차단봉. 이미 유리로 막혔는데 또 차단.",
+      "review_status": "prepared_not_generated",
+      "generation_status": "ready"
+    },
+    {
+      "concept_id": "C04",
+      "scene_id": "S02",
+      "image_path": "images/C04/S02.png",
+      "source_cuts": [
+        "05",
+        "06"
+      ],
+      "prompt": "Use case: ads-marketing. Create one standalone photorealistic cinematic storyboard keyframe for later image-to-video production. Landscape 16:9. Live-action Korean office comedy advertisement: believable skin, anatomy, hands, fabric, furniture and architectural materials; fictional adult Korean actors; everybody solemn and sincere, only the situation absurd. Clean commercial photography, soft natural office daylight, filmic contrast, natural colors. The visual joke must read without explanation. No captions, typography, lettering, logos, numbers, watermarks, named businesses or recognizable software interfaces. No panels, collage, cartoon faces or merged bodies. Screens and walls remain blank for later editing.\n\nVisual bible: small bright contemporary museum-like corporate room, connected by ordinary open doorway to modest presentation room. Exhibit: huge unmarked convex red pushbutton, diameter40cm, on white plinth beneath transparent glass dome, protected by red velvet rope stanchions. Docent: fictional Korean man around 50, neat salt-and-pepper hair, thin rectangular glasses, gray suit, white shirt, white cotton gloves. Visitor: fictional Korean woman around35, shoulder-length straight black hair, beige jacket, dark trousers. Guard: fictional Korean man around40, short black hair, plain navy uniform with no insignia, hat or weapon; carrying a small movable red-velvet rope barrier. Host introduced S03: fictional adult Korean woman with short neat hair, black pantsuit. Fix all identities and clothes. No intimidation; understated everyday expressions. Exhibit plaques and projection screen entirely blank; no performance statistics.\n\nInput images are actual generated actor/wardrobe/prop/location references. Preserve those identities and designs while creating the NEW scene below; do not just copy earlier framing. Medium-wide view from SAME exhibit room toward open adjoining doorway. SAME gray-suit docent and beige visitor turn toward bright ordinary corporate presentation stage with entirely blank white screen. Docent calmly gestures inside; visitor attentive. Part of same red rope/plinth at near edge preserves spatial continuity. Ordinary doorway, no fantasy portal. No audience, signs or data.",
+      "references": [],
+      "planned_references": [
+        "images/C04/S01.png"
+      ],
+      "motion": "발표 소리에 고개 돌림·질문·옆문 안 무대 공개.",
+      "review_status": "prepared_not_generated",
+      "generation_status": "ready"
+    },
+    {
+      "concept_id": "C04",
+      "scene_id": "S03",
+      "image_path": "images/C04/S03.png",
+      "source_cuts": [
+        "07",
+        "08"
+      ],
+      "prompt": "Use case: ads-marketing. Create one standalone photorealistic cinematic storyboard keyframe for later image-to-video production. Landscape 16:9. Live-action Korean office comedy advertisement: believable skin, anatomy, hands, fabric, furniture and architectural materials; fictional adult Korean actors; everybody solemn and sincere, only the situation absurd. Clean commercial photography, soft natural office daylight, filmic contrast, natural colors. The visual joke must read without explanation. No captions, typography, lettering, logos, numbers, watermarks, named businesses or recognizable software interfaces. No panels, collage, cartoon faces or merged bodies. Screens and walls remain blank for later editing.\n\nVisual bible: small bright contemporary museum-like corporate room, connected by ordinary open doorway to modest presentation room. Exhibit: huge unmarked convex red pushbutton, diameter40cm, on white plinth beneath transparent glass dome, protected by red velvet rope stanchions. Docent: fictional Korean man around 50, neat salt-and-pepper hair, thin rectangular glasses, gray suit, white shirt, white cotton gloves. Visitor: fictional Korean woman around35, shoulder-length straight black hair, beige jacket, dark trousers. Guard: fictional Korean man around40, short black hair, plain navy uniform with no insignia, hat or weapon; carrying a small movable red-velvet rope barrier. Host introduced S03: fictional adult Korean woman with short neat hair, black pantsuit. Fix all identities and clothes. No intimidation; understated everyday expressions. Exhibit plaques and projection screen entirely blank; no performance statistics.\n\nInput images are actual generated actor/wardrobe/prop/location references. Preserve those identities and designs while creating the NEW scene below; do not just copy earlier framing. Wide view inside adjoining modest presentation room. SAME navy guard pauses while setting ONE small red-velvet barrier in front of stage, hands still on poles. Short-haired black-pantsuit female host calmly gestures toward audience seating, welcoming an open arrangement. SAME gray-suit docent and beige visitor stand to one side. Four humans total. Large entirely blank bright screen for later title. No hostile gestures or struggle. Huge red museum button NOT moved onto stage.",
+      "references": [],
+      "planned_references": [
+        "images/C04/S01.png",
+        "images/C04/S02.png"
+      ],
+      "motion": "무대 진입로 중앙에 봉이 들어옴→사회자의 열린 손 초대→경비원 1초 멈춤→봉을 몸 뒤로 회수. 질책 없음. 마지막 빈 무대 정지화면에 행사명 합성.",
+      "review_status": "prepared_not_generated",
+      "generation_status": "ready"
+    },
+    {
+      "concept_id": "C05",
+      "scene_id": "S01",
+      "image_path": "images/C05/S01.png",
+      "source_cuts": [
+        "01",
+        "02"
+      ],
+      "prompt": "Use case: ads-marketing. Create one standalone photorealistic cinematic storyboard keyframe for later image-to-video production. Landscape 16:9. Live-action Korean office comedy advertisement: believable skin, anatomy, hands, fabric, furniture and architectural materials; fictional adult Korean actors; everybody solemn and sincere, only the situation absurd. Clean commercial photography, soft natural office daylight, filmic contrast, natural colors. The visual joke must read without explanation. No captions, typography, lettering, logos, numbers, watermarks, named businesses or recognizable software interfaces. No panels, collage, cartoon faces or merged bodies. Screens and walls remain blank for later editing.\n\nVisual bible: bright simple office interview corner, pale warm-gray wall, wood desk, two plain chairs, soft window daylight. Interviewee: fictional Korean man around36, neat short black side-parted hair, sky-blue shirt, sleeves down, no tie, black trousers. Prop handler: fictional Korean woman around34, chin-length straight black hair, charcoal sleeveless vest, white long-sleeved shirt, black trousers. Both sincerely composed. Plain silver laptop without brand or readable data. REAL PHYSICAL handheld matte-black foam boards, 1cm thick, visible edges and natural fingers gripping them: small board45cm wide; large board90cm wide. No digital censor bars, floating graphics, security or confidentiality context, pixelation or additional people. Faces normally visible above boards.\n\nNo input image. Establish original consistent actors and production design for this concept. Medium three-quarter interview shot. Sky-blue interviewee turns open silver laptop slightly toward camera to explain. Charcoal-vest handler holds SMALL45cm physical black foam board in both hands precisely before screen, covering only screen; both faces fully visible. Show edge thickness, natural finger grips, laptop base and small board-to-screen gap, unmistakably an actual held prop rather than digital censorship. Straight serious expressions. The interviewee notices the physical board and voluntarily pauses speaking, mouth naturally closed; no gag, force or attempt to silence him. Event title is added only in later editing; current wall stays blank.",
+      "references": [],
+      "planned_references": [],
+      "motion": "노트북을 돌리면 담당자가 실제 판을 따라 옮김.",
+      "review_status": "prepared_not_generated",
+      "generation_status": "ready"
+    },
+    {
+      "concept_id": "C05",
+      "scene_id": "S02",
+      "image_path": "images/C05/S02.png",
+      "source_cuts": [
+        "03",
+        "04",
+        "05"
+      ],
+      "prompt": "Use case: ads-marketing. Create one standalone photorealistic cinematic storyboard keyframe for later image-to-video production. Landscape 16:9. Live-action Korean office comedy advertisement: believable skin, anatomy, hands, fabric, furniture and architectural materials; fictional adult Korean actors; everybody solemn and sincere, only the situation absurd. Clean commercial photography, soft natural office daylight, filmic contrast, natural colors. The visual joke must read without explanation. No captions, typography, lettering, logos, numbers, watermarks, named businesses or recognizable software interfaces. No panels, collage, cartoon faces or merged bodies. Screens and walls remain blank for later editing.\n\nVisual bible: bright simple office interview corner, pale warm-gray wall, wood desk, two plain chairs, soft window daylight. Interviewee: fictional Korean man around36, neat short black side-parted hair, sky-blue shirt, sleeves down, no tie, black trousers. Prop handler: fictional Korean woman around34, chin-length straight black hair, charcoal sleeveless vest, white long-sleeved shirt, black trousers. Both sincerely composed. Plain silver laptop without brand or readable data. REAL PHYSICAL handheld matte-black foam boards, 1cm thick, visible edges and natural fingers gripping them: small board45cm wide; large board90cm wide. No digital censor bars, floating graphics, security or confidentiality context, pixelation or additional people. Faces normally visible above boards.\n\nInput images are actual generated actor/wardrobe/prop/location references. Preserve those identities and designs while creating the NEW scene below; do not just copy earlier framing. Wider SAME set, EXACT same actors, desk and laptop. Interviewee leans slightly sideways to explain around obstruction, face visible. Handler holds LARGE90cm physical board across desk, covering laptop and gesturing hands below shoulders; both heads unobscured. Previous SMALL45cm board leans against desk side for comparison. Natural gripping hands and board thickness; unchanged human scale. Sincere workplace interview, no security context. The interviewee notices the physical board and voluntarily pauses speaking, mouth naturally closed; no gag, force or attempt to silence him. Event title is added only in later editing; current wall stays blank.",
+      "references": [],
+      "planned_references": [
+        "images/C05/S01.png"
+      ],
+      "motion": "몸을 피하면 큰 판이 따라가고 질문에 멈춘 채 답함.",
+      "review_status": "prepared_not_generated",
+      "generation_status": "ready"
+    },
+    {
+      "concept_id": "C05",
+      "scene_id": "S03",
+      "image_path": "images/C05/S03.png",
+      "source_cuts": [
+        "06",
+        "07",
+        "08"
+      ],
+      "prompt": "Use case: ads-marketing. Create one standalone photorealistic cinematic storyboard keyframe for later image-to-video production. Landscape 16:9. Live-action Korean office comedy advertisement: believable skin, anatomy, hands, fabric, furniture and architectural materials; fictional adult Korean actors; everybody solemn and sincere, only the situation absurd. Clean commercial photography, soft natural office daylight, filmic contrast, natural colors. The visual joke must read without explanation. No captions, typography, lettering, logos, numbers, watermarks, named businesses or recognizable software interfaces. No panels, collage, cartoon faces or merged bodies. Screens and walls remain blank for later editing.\n\nVisual bible: bright simple office interview corner, pale warm-gray wall, wood desk, two plain chairs, soft window daylight. Interviewee: fictional Korean man around36, neat short black side-parted hair, sky-blue shirt, sleeves down, no tie, black trousers. Prop handler: fictional Korean woman around34, chin-length straight black hair, charcoal sleeveless vest, white long-sleeved shirt, black trousers. Both sincerely composed. Plain silver laptop without brand or readable data. REAL PHYSICAL handheld matte-black foam boards, 1cm thick, visible edges and natural fingers gripping them: small board45cm wide; large board90cm wide. No digital censor bars, floating graphics, security or confidentiality context, pixelation or additional people. Faces normally visible above boards.\n\nInput images are actual generated actor/wardrobe/prop/location references. Preserve those identities and designs while creating the NEW scene below; do not just copy earlier framing. Front-on medium-wide SAME corner. SAME charcoal-vest handler lowers SAME large90cm physical board below chest, naturally gripping both edges; sincere face visible. SAME sky-blue interviewee at left edge, smaller but recognizable. Upper central pale wall completely blank and unobstructed for later title. Final revealed state after prop-covering joke; no text. Board, thick edges and hands visible along lower frame so later editing can animate it up and down. The interviewee notices the physical board and voluntarily pauses speaking, mouth naturally closed; no gag, force or attempt to silence him. Event title is added only in later editing; current wall stays blank.",
+      "references": [],
+      "planned_references": [
+        "images/C05/S01.png",
+        "images/C05/S02.png"
+      ],
+      "motion": "제목이 0.7초 보임→큰 판이 중앙을 가림→요청에 내려 제목 공개→전체 행사명을 6초 유지. 판이 자막 앞에 오는 가림 관계는 후속 편집.",
+      "review_status": "prepared_not_generated",
+      "generation_status": "ready"
+    }
+  ],
+  "review_basis": "Three independent reviews, cross-check, revised v2 reconfirmed by root"
+}

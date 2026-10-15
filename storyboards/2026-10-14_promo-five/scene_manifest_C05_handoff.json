@@ -1,0 +1,20 @@
+{
+  "scenes": [
+    {
+      "concept_id": "C05",
+      "scene_id": "S01",
+      "image_path": "images/C05/S01.png",
+      "source_cuts": [
+        "01",
+        "02"
+      ],
+      "prompt": "Use case: ads-marketing. Create one standalone photorealistic cinematic storyboard keyframe for later image-to-video production. Landscape 16:9. Live-action Korean office comedy advertisement: believable skin, anatomy, hands, fabric, furniture and architectural materials; fictional adult Korean actors; everybody solemn and sincere, only the situation absurd. Clean commercial photography, soft natural office daylight, filmic contrast, natural colors. The visual joke must read without explanation. No captions, typography, lettering, logos, numbers, watermarks, named businesses or recognizable software interfaces. No panels, collage, cartoon faces or merged bodies. Screens and walls remain blank for later editing.\n\nVisual bible: bright simple office interview corner, pale warm-gray wall, wood desk, two plain chairs, soft window daylight. Interviewee: fictional Korean man around36, neat short black side-parted hair, sky-blue shirt, sleeves down, no tie, black trousers. Prop handler: fictional Korean woman around34, chin-length straight black hair, charcoal sleeveless vest, white long-sleeved shirt, black trousers. Both sincerely composed. Plain silver laptop without brand or readable data. REAL PHYSICAL handheld matte-black foam boards, 1cm thick, visible edges and natural fingers gripping them: small board45cm wide; large board90cm wide. No digital censor bars, floating graphics, security or confidentiality context, pixelation or additional people. Faces normally visible above boards.\n\nNo input image. Establish original consistent actors and production design for this concept. Medium three-quarter interview shot. Sky-blue interviewee turns open silver laptop slightly toward camera to explain. Charcoal-vest handler holds SMALL45cm physical black foam board in both hands precisely before screen, covering only screen; both faces fully visible. Show edge thickness, natural finger grips, laptop base and small board-to-screen gap, unmistakably an actual held prop rather than digital censorship. Straight serious expressions. The interviewee notices the physical board and voluntarily pauses speaking, mouth naturally closed; no gag, force or attempt to silence him. Event title is added only in later editing; current wall stays blank.",
+      "references": [],
+      "motion": "노트북을 돌리면 담당자가 실제 판을 따라 옮김.",
+      "review_status": "pending",
+      "generation_status": "generated",
+      "generated_source": "/home/wooseok/.codex/generated_images/01a13a98-cb83-76a0-9d9b-7895387c47f5/exec-cd5381c8-7ccb-4078-a363-0384a11d8bdd.png",
+      "artist_check": "Viewed output; detailed cross-review pending."
+    }
+  ]
+}

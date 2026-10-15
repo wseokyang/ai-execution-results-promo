@@ -1,0 +1,32 @@
+{
+  "status": "complete",
+  "version": "2026-10-15_absurd-v2",
+  "concepts": 5,
+  "high_quality_absurd": 3,
+  "deliberate_bgrade": 2,
+  "cuts": 44,
+  "selected_images": 21,
+  "durations_seconds": [
+    52,
+    54,
+    55,
+    55,
+    55
+  ],
+  "storyboard_reviewers": [
+    "A",
+    "B",
+    "C"
+  ],
+  "image_reviewers": [
+    "A",
+    "B",
+    "C"
+  ],
+  "remaining_required_revisions": 0,
+  "flow_video_generated": false,
+  "primary_artifact": "index.html",
+  "pdf": "AI실행결과발표대회_병맛콘티_V2.pdf",
+  "preview": "preview.png",
+  "file_validation": "passed"
+}

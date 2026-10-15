@@ -1,0 +1,690 @@
+{
+  "tool": "built-in image_gen",
+  "note": "생성 프롬프트·원본 출처 기록. 실행 입력은 handoff_manifest.json의 상대 경로를 사용.",
+  "records": {
+    "image_manifest_C01_C02.json": {
+      "assets": [
+        {
+          "asset_id": "C01_N01",
+          "concept_id": "C01",
+          "image_path": "/home/wooseok/wsy/samsung_related/slide/AI실행결과발표대회_디자인3종/flow_handoff/2026-10-15_v2/start_frames/C01/N01_start.png",
+          "planned_path": "/home/wooseok/wsy/samsung_related/slide/AI실행결과발표대회_디자인3종/flow_handoff/2026-10-15_v2/start_frames/C01/N01_start.png",
+          "generated_source": "/home/wooseok/.codex/generated_images/01a13a98-f374-78a1-af88-b32c5dad3e46/exec-f9efa85d-1e37-44e6-a793-d0139e455abc.png",
+          "prompt": "Use case: ads-marketing / identity-preserve cinematic pre-action frame.\nCreate ONE standalone 16:9 live-action film STARTING frame. The supplied reference image(s) depict LATER moments; use them to preserve exact cast identity, outfits, props, room materials and film lighting, but reconstruct the EARLIER state below. Do not copy completed actions from the references.\nRequired starting state: A 한 사람 얼굴의 극근접. 눈가에 눈물이 고이지만 아직 뺨을 타고 흐르기 전, 입술을 다물고 울음을 참는다. 흰 손수건 H1은 손에 있지만 입·눈을 가리지 않는다. 배경은 어두운 보케로 장소가 식별되지 않는다.\nPrecise staging priority: Frame ONLY the white-shirt man's face. Preserve his exact identity and warm dramatic side light. His mouth is closed, eyes open and glossy with tears held at the lower eyelids, cheeks dry with NO running tear tracks yet. Restrained emotion just before breaking down, not a neutral corporate portrait. Keep a small edge of his white handkerchief low in his hand without covering eyes/mouth. The woman must be entirely out of frame.\nMust not be visible yet: B의 이미 터진 오열, C, 양동이, 발표장, 스크린.\nStyle: expensive emotionally committed melodrama, textured real skin, warm directional edge light, cooler deep shadows, selective focus; no glossy company-brochure lighting. Emotions only as appropriate to this exact pre-action moment.\nPreserve identities and wardrobe exactly. Include only characters and props required for this starting state, not every later character or gag. Correct human anatomy. No subtitles, captions, logos, numbers, watermarks, graphics or panels.",
+          "reference_paths": [
+            "/home/wooseok/wsy/samsung_related/slide/AI실행결과발표대회_디자인3종/storyboards/2026-10-15_absurd-v2/images/C01/S01.png"
+          ],
+          "required_start_state": "A 한 사람 얼굴의 극근접. 눈가에 눈물이 고이지만 아직 뺨을 타고 흐르기 전, 입술을 다물고 울음을 참는다. 흰 손수건 H1은 손에 있지만 입·눈을 가리지 않는다. 배경은 어두운 보케로 장소가 식별되지 않는다.",
+          "must_not_show_yet": "B의 이미 터진 오열, C, 양동이, 발표장, 스크린.",
+          "qa": {
+            "status": "artist_checked_start_state_passed",
+            "method": "generated image visually inspected; original reference images opened with view_image",
+            "checks": [
+              "A 단독, 입을 다물고 참는 표정",
+              "B·양동이·무대 미노출",
+              "실행될 눈물 동작의 여지 유지"
+            ]
+          },
+          "generation_attempt_count": 1,
+          "dimensions": [
+            1672,
+            941
+          ]
+        },
+        {
+          "asset_id": "C01_N02",
+          "concept_id": "C01",
+          "image_path": "/home/wooseok/wsy/samsung_related/slide/AI실행결과발표대회_디자인3종/flow_handoff/2026-10-15_v2/start_frames/C01/N02_start.png",
+          "planned_path": "/home/wooseok/wsy/samsung_related/slide/AI실행결과발표대회_디자인3종/flow_handoff/2026-10-15_v2/start_frames/C01/N02_start.png",
+          "generated_source": "/home/wooseok/.codex/generated_images/01a13a98-f374-78a1-af88-b32c5dad3e46/exec-2cf546d5-1a18-4d2e-957a-47f72ac5f9d7.png",
+          "prompt": "Use case: ads-marketing / identity-preserve cinematic pre-action frame.\nCreate ONE standalone 16:9 live-action film STARTING frame. The supplied reference image(s) depict LATER moments; use them to preserve exact cast identity, outfits, props, room materials and film lighting, but reconstruct the EARLIER state below. Do not copy completed actions from the references.\nRequired starting state: B 중심 미디엄 클로즈업. B는 아직 크게 울지 않고 A를 달래려는 표정, 눈가만 촉촉하다. 손 하나를 A에게 내밀려는 준비 상태. 화면 가장자리 A는 이미 눈물을 흘리고 H1은 A가 계속 쥔다.\nPrecise staging priority: The navy-cardigan woman is the central subject, eyes OPEN, mouth CLOSED, concerned and trying to comfort the man; watery eyes but NO tears streaming down her cheeks, no grimacing sob yet. Her empty hand is poised to reach toward him, not touching the cloth. The already-crying white-shirt man appears only at the edge and keeps the white handkerchief himself. Use the same warm dramatic side light and shallow focus.\nMust not be visible yet: B가 이미 고개를 숙이고 오열하는 상태, 손수건의 소유권 이전.\nStyle: expensive emotionally committed melodrama, textured real skin, warm directional edge light, cooler deep shadows, selective focus; no glossy company-brochure lighting. Emotions only as appropriate to this exact pre-action moment.\nPreserve identities and wardrobe exactly. Include only characters and props required for this starting state, not every later character or gag. Correct human anatomy. No subtitles, captions, logos, numbers, watermarks, graphics or panels.",
+          "reference_paths": [
+            "/home/wooseok/wsy/samsung_related/slide/AI실행결과발표대회_디자인3종/storyboards/2026-10-15_absurd-v2/images/C01/S01.png"
+          ],
+          "required_start_state": "B 중심 미디엄 클로즈업. B는 아직 크게 울지 않고 A를 달래려는 표정, 눈가만 촉촉하다. 손 하나를 A에게 내밀려는 준비 상태. 화면 가장자리 A는 이미 눈물을 흘리고 H1은 A가 계속 쥔다.",
+          "must_not_show_yet": "B가 이미 고개를 숙이고 오열하는 상태, 손수건의 소유권 이전.",
+          "qa": {
+            "status": "artist_checked_start_state_passed",
+            "method": "generated image visually inspected; original reference images opened with view_image",
+            "checks": [
+              "B 눈을 뜨고 달래려는 표정, 오열 전",
+              "H1은 A가 유지",
+              "동일 배우·조명"
+            ]
+          },
+          "generation_attempt_count": 1,
+          "dimensions": [
+            1672,
+            941
+          ]
+        },
+        {
+          "asset_id": "C02_N01",
+          "concept_id": "C02",
+          "image_path": "/home/wooseok/wsy/samsung_related/slide/AI실행결과발표대회_디자인3종/flow_handoff/2026-10-15_v2/start_frames/C02/N01_start.png",
+          "planned_path": "/home/wooseok/wsy/samsung_related/slide/AI실행결과발표대회_디자인3종/flow_handoff/2026-10-15_v2/start_frames/C02/N01_start.png",
+          "generated_source": "/home/wooseok/.codex/generated_images/01a13a98-f374-78a1-af88-b32c5dad3e46/exec-fab3e265-9f15-43d0-8da0-3acdb5df8bb6.png",
+          "prompt": "Use case: ads-marketing / identity-preserve cinematic pre-action frame.\nCreate ONE standalone 16:9 live-action film STARTING frame. The supplied reference image(s) depict LATER moments; use them to preserve exact cast identity, outfits, props, room materials and film lighting, but reconstruct the EARLIER state below. Do not copy completed actions from the references.\nRequired starting state: 원 이미지보다 타이트한 바닥 구도. A의 검은 양말 발끝이 검은 구두 입구 바로 위에 있고 구두 두 짝 모두 아직 바닥에 정지. A는 아직 놀라거나 손을 뻗지 않는다. B와 다른 신발은 프레임 밖 또는 정상 상태의 흐린 배경.\nPrecise staging priority: Much tighter floor-level crop than reference. Show only the white-shirt man's charcoal trouser legs and BLACK SOCKED foot hovering 2–3cm above the opening of ONE black dress shoe, poised to put it on normally. BOTH matching black dress shoes are FLAT and motionless on floor with contact shadows directly underneath, no levitation, no motion blur. His hands are not reaching; no surprised people. Other footwear may be completely outside this tight crop. Same polished gray floor and daylight.\nMust not be visible yet: 공중에 떠 있거나 이미 도주하는 검은 구두, 추격하는 A/B, 먼저 도망간 흰 운동화.\nStyle: expensive photoreal chase-thriller advertisement, convincing practical-looking materials and VFX, low camera, directional daylight, detailed leather/canvas, same spatial world as references; no cartoon faces on shoes.\nPreserve identities and wardrobe exactly. Include only characters and props required for this starting state, not every later character or gag. Correct human anatomy. No subtitles, captions, logos, numbers, watermarks, graphics or panels.",
+          "reference_paths": [
+            "/home/wooseok/wsy/samsung_related/slide/AI실행결과발표대회_디자인3종/storyboards/2026-10-15_absurd-v2/images/C02/S01.png"
+          ],
+          "required_start_state": "원 이미지보다 타이트한 바닥 구도. A의 검은 양말 발끝이 검은 구두 입구 바로 위에 있고 구두 두 짝 모두 아직 바닥에 정지. A는 아직 놀라거나 손을 뻗지 않는다. B와 다른 신발은 프레임 밖 또는 정상 상태의 흐린 배경.",
+          "must_not_show_yet": "공중에 떠 있거나 이미 도주하는 검은 구두, 추격하는 A/B, 먼저 도망간 흰 운동화.",
+          "qa": {
+            "status": "artist_checked_start_state_passed",
+            "method": "generated image visually inspected; original reference images opened with view_image",
+            "checks": [
+              "검은 구두 두 짝 바닥 접촉",
+              "검은 양말 발이 구두 입구 위",
+              "도주·추격이 아직 없음"
+            ]
+          },
+          "generation_attempt_count": 1,
+          "dimensions": [
+            1672,
+            941
+          ]
+        },
+        {
+          "asset_id": "C01_N04",
+          "concept_id": "C01",
+          "image_path": "/home/wooseok/wsy/samsung_related/slide/AI실행결과발표대회_디자인3종/flow_handoff/2026-10-15_v2/start_frames/C01/N04_start.png",
+          "planned_path": "/home/wooseok/wsy/samsung_related/slide/AI실행결과발표대회_디자인3종/flow_handoff/2026-10-15_v2/start_frames/C01/N04_start.png",
+          "generated_source": "/home/wooseok/.codex/generated_images/01a13a98-f374-78a1-af88-b32c5dad3e46/exec-dd8a64f0-6762-437c-9f68-c488e3c4c929.png",
+          "prompt": "Use case: ads-marketing / identity-preserve cinematic pre-action frame.\nCreate ONE standalone 16:9 live-action film STARTING frame. The supplied reference image(s) depict LATER moments; use them to preserve exact cast identity, outfits, props, room materials and film lighting, but reconstruct the EARLIER state below. Do not copy completed actions from the references.\nRequired starting state: C가 A·B 옆 통로에서 밀대를 바닥에 대고 청소하는 중. C의 얼굴은 아직 평범하고 건조하며 시선은 바닥. A·B는 옆 좌석에서 울고 H1은 A에게 있다. 노란 양동이는 A·B 사이 바닥. 무대와 D는 프레임 밖.\nPrecise staging priority: The cleaner in lime-green vest is the SAME middle-aged man from the reference, but his face is dry and expression practical, his gaze DOWN at the floor. He is standing/leaning to mop, holding the gray mop naturally, not crouched sobbing. He has NO handkerchief. The seated white-shirt man still holds the only visible white handkerchief and he and the navy-cardigan woman are crying. Yellow bucket remains on floor between the two seated listeners. No stage or screen.\nMust not be visible yet: C의 눈물·오열·C가 손수건을 받은 상태·발표장 전면.\nStyle: expensive emotionally committed melodrama, textured real skin, warm directional edge light, cooler deep shadows, selective focus; no glossy company-brochure lighting. Emotions only as appropriate to this exact pre-action moment.\nPreserve identities and wardrobe exactly. Include only characters and props required for this starting state, not every later character or gag. Correct human anatomy. No subtitles, captions, logos, numbers, watermarks, graphics or panels.",
+          "reference_paths": [
+            "/home/wooseok/wsy/samsung_related/slide/AI실행결과발표대회_디자인3종/storyboards/2026-10-15_absurd-v2/images/C01/S02.png",
+            "/home/wooseok/wsy/samsung_related/slide/AI실행결과발표대회_디자인3종/storyboards/2026-10-15_absurd-v2/images/C01/S03.png"
+          ],
+          "required_start_state": "C가 A·B 옆 통로에서 밀대를 바닥에 대고 청소하는 중. C의 얼굴은 아직 평범하고 건조하며 시선은 바닥. A·B는 옆 좌석에서 울고 H1은 A에게 있다. 노란 양동이는 A·B 사이 바닥. 무대와 D는 프레임 밖.",
+          "must_not_show_yet": "C의 눈물·오열·C가 손수건을 받은 상태·발표장 전면.",
+          "qa": {
+            "status": "artist_checked_start_state_passed",
+            "method": "generated image visually inspected; references opened using view_image",
+            "checks": [
+              "C는 울지 않고 시선을 바닥에 둔 청소 상태",
+              "H1은 A에게 있고 C에게 없음",
+              "무대 미노출·양동이 바닥"
+            ]
+          },
+          "generation_attempt_count": 1,
+          "dimensions": [
+            1672,
+            941
+          ]
+        },
+        {
+          "asset_id": "C01_N07",
+          "concept_id": "C01",
+          "image_path": "/home/wooseok/wsy/samsung_related/slide/AI실행결과발표대회_디자인3종/flow_handoff/2026-10-15_v2/start_frames/C01/N07_start.png",
+          "planned_path": "/home/wooseok/wsy/samsung_related/slide/AI실행결과발표대회_디자인3종/flow_handoff/2026-10-15_v2/start_frames/C01/N07_start.png",
+          "generated_source": "/home/wooseok/.codex/generated_images/01a13a98-f374-78a1-af88-b32c5dad3e46/exec-103fa478-7b01-4aa4-81d4-0042d13615dd.png",
+          "prompt": "Use case: ads-marketing / identity-preserve cinematic pre-action frame.\nCreate ONE standalone 16:9 live-action film STARTING frame. The supplied reference image(s) depict LATER moments; use them to preserve exact cast identity, outfits, props, room materials and film lighting, but reconstruct the EARLIER state below. Do not copy completed actions from the references.\nRequired starting state: 첫 발표장 와이드의 시작. D와 빈 스크린, A/B 옆 낡은 개인 메모장들이 처음 보인다. C는 방금 빈 의자에 앉아 몸을 정돈하는 상태이며 H1은 C가 쥐고 밀대는 옆에 세워졌다. A는 노란 양동이를 무릎 위에 낮게 올려놓았지만 턱까지 들지 않는다. B는 한 손을 자기 주머니 안에 넣었고 별도 H2는 아직 밖으로 보이지 않는다. 모든 인물 얼굴·의상·방향은 S04 유지.\nPrecise staging priority: Keep the exact side-aisle composition and four identities of the stage reference. CRITICAL: lower the same yellow bucket so its BASE rests on the man's THIGHS and its rim is at lower abdomen/waist level, far BELOW chest and chin. His forearms point downward toward the bucket rather than upward. The navy-cardigan woman has one hand INSIDE her own cardigan pocket; her second white handkerchief is completely hidden. The cleaner is seated and keeps the first white cloth, mop beside him. Presenter and blank screen remain as in reference, with 2–3 worn personal notebooks near the seats.\nMust not be visible yet: A가 양동이를 턱 밑으로 올린 상태, B가 H2를 이미 눈에 댄 상태, 새 세 번째 손수건.\nStyle: expensive emotionally committed melodrama, textured real skin, warm directional edge light, cooler deep shadows, selective focus; no glossy company-brochure lighting. Emotions only as appropriate to this exact pre-action moment.\nPreserve identities and wardrobe exactly. Include only characters and props required for this starting state, not every later character or gag. Correct human anatomy. No subtitles, captions, logos, numbers, watermarks, graphics or panels.",
+          "reference_paths": [
+            "/home/wooseok/wsy/samsung_related/slide/AI실행결과발표대회_디자인3종/storyboards/2026-10-15_absurd-v2/images/C01/S03.png",
+            "/home/wooseok/wsy/samsung_related/slide/AI실행결과발표대회_디자인3종/storyboards/2026-10-15_absurd-v2/images/C01/S04.png"
+          ],
+          "required_start_state": "첫 발표장 와이드의 시작. D와 빈 스크린, A/B 옆 낡은 개인 메모장들이 처음 보인다. C는 방금 빈 의자에 앉아 몸을 정돈하는 상태이며 H1은 C가 쥐고 밀대는 옆에 세워졌다. A는 노란 양동이를 무릎 위에 낮게 올려놓았지만 턱까지 들지 않는다. B는 한 손을 자기 주머니 안에 넣었고 별도 H2는 아직 밖으로 보이지 않는다. 모든 인물 얼굴·의상·방향은 S04 유지.",
+          "must_not_show_yet": "A가 양동이를 턱 밑으로 올린 상태, B가 H2를 이미 눈에 댄 상태, 새 세 번째 손수건.",
+          "qa": {
+            "status": "artist_checked_start_state_passed",
+            "method": "generated image visually inspected; references opened using view_image",
+            "checks": [
+              "양동이 바닥이 A 무릎에 닿고 입구가 턱보다 낮음",
+              "B의 H2는 주머니 안에 숨김",
+              "C는 H1을 유지하며 착석, D는 평온"
+            ]
+          },
+          "generation_attempt_count": 1,
+          "dimensions": [
+            1672,
+            941
+          ]
+        },
+        {
+          "asset_id": "C02_N02",
+          "concept_id": "C02",
+          "image_path": "/home/wooseok/wsy/samsung_related/slide/AI실행결과발표대회_디자인3종/flow_handoff/2026-10-15_v2/start_frames/C02/N02_start.png",
+          "planned_path": "/home/wooseok/wsy/samsung_related/slide/AI실행결과발표대회_디자인3종/flow_handoff/2026-10-15_v2/start_frames/C02/N02_start.png",
+          "generated_source": "/home/wooseok/.codex/generated_images/01a13a98-f374-78a1-af88-b32c5dad3e46/exec-1b8b7b1e-0b49-4f16-8c4a-2d04a727aba4.png",
+          "prompt": "Use case: precise-object-edit. Keep the supplied cinematic frame unchanged EXCEPT the background woman's shoe/foot action. Preserve both people's exact faces, clothing, room, lighting, camera, the foreground man and his black dress shoes, and the brown loafers. The woman has NOT put on the white sneakers yet: show BOTH of her feet fully covered by GRAY SOCKS, with her heels and soles visibly behind and separate from the empty white sneaker openings. Place the two EMPTY WHITE SNEAKERS flat side-by-side on the floor 10cm in front of her gray-socked feet. Her hands rest on her knees or trouser cuffs, not holding sneaker laces. She looks down calmly, unaware of the man. The sneakers are stationary, not floating. No extra shoes: one black pair, one white pair, one brown pair only. Do not alter the main man or the position of his displaced black shoes. No text, no logos, one 16:9 live-action film frame.",
+          "reference_paths": [
+            "/home/wooseok/.codex/generated_images/01a13a98-f374-78a1-af88-b32c5dad3e46/exec-5b55a324-5120-444e-bd21-c91179240f75.png"
+          ],
+          "required_start_state": "첫 회피 직후 검은 구두 한 짝이 A의 발에서 한 뼘 벗어났고 다른 짝이 곁에 있다. A는 의자에서 몸을 앞으로 기울여 손을 뻗기 직전. B는 아직 이 일을 못 보고 평범하게 자기 운동화를 신으려 한다. 흰 운동화·갈색 로퍼는 정지.",
+          "must_not_show_yet": "B가 벌써 놀라 추격하거나 흰 운동화가 도주에 합류한 상태.",
+          "qa": {
+            "status": "artist_checked_start_state_passed",
+            "method": "generated image visually inspected; references opened using view_image",
+            "checks": [
+              "B는 양말 차림이며 흰 운동화가 비어 있음",
+              "B가 추격에 합류하지 않음",
+              "검은 구두만 1차 회피 후 위치"
+            ]
+          },
+          "generation_attempt_count": 2,
+          "dimensions": [
+            1672,
+            941
+          ]
+        },
+        {
+          "asset_id": "C01_N10",
+          "concept_id": "C01",
+          "image_path": "/home/wooseok/wsy/samsung_related/slide/AI실행결과발표대회_디자인3종/flow_handoff/2026-10-15_v2/start_frames/C01/N10_start.png",
+          "planned_path": "/home/wooseok/wsy/samsung_related/slide/AI실행결과발표대회_디자인3종/flow_handoff/2026-10-15_v2/start_frames/C01/N10_start.png",
+          "generated_source": "/home/wooseok/.codex/generated_images/01a13a98-f374-78a1-af88-b32c5dad3e46/exec-284a17e1-d004-439f-a051-f5c11c061940.png",
+          "prompt": "Use case: precise-object-edit. Use the supplied cinematic frame as the exact start-state base. Change ONLY the navy-cardigan woman's handkerchief state: she has just taken her own separate small white cotton handkerchief out of her pocket and now holds it UNFOLDED low above her lap, ready to fold. Her hand is no longer inside the pocket. The cleaner continues holding his original white cloth. Keep the white-shirt man, his exact face and hands, and the yellow bucket LOW on his thighs with the rim at waist level, far below his chest/chin, absolutely unchanged. Keep every other actor, expression, outfit, mop, notebooks, presenter, blank screen, room, camera and light unchanged. Exactly two visible white cloths: one in the woman's hands low at her lap and one with the cleaner. None with the white-shirt man. One 16:9 film starting frame, no captions/logos/text.",
+          "reference_paths": [
+            "/home/wooseok/wsy/samsung_related/slide/AI실행결과발표대회_디자인3종/flow_handoff/2026-10-15_v2/start_frames/C01/N07_start.png"
+          ],
+          "required_start_state": "A는 양동이를 무릎에 낮게 놓고 양손으로 잡는다. B는 방금 꺼낸 자기 H2를 손에 들고 접기 직전, C는 A에게 받은 H1을 계속 유지한다. D는 다음 사례를 예고하는 평온한 표정. 양동이 입구가 아직 A 턱에 닿지 않는다.",
+          "must_not_show_yet": "이미 턱 밑에 올라간 양동이, A가 손수건을 소유하거나 접는 동작.",
+          "qa": {
+            "status": "artist_checked_start_state_passed",
+            "method": "generated image visually inspected; references opened using view_image",
+            "checks": [
+              "A 양동이는 무릎에 낮게 있고 턱과 떨어짐",
+              "H2는 B가 펼쳐 쥐고 H1은 C가 유지",
+              "A에게 손수건 없음"
+            ]
+          },
+          "generation_attempt_count": 1,
+          "dimensions": [
+            1672,
+            941
+          ]
+        },
+        {
+          "asset_id": "C02_N03",
+          "concept_id": "C02",
+          "image_path": "/home/wooseok/wsy/samsung_related/slide/AI실행결과발표대회_디자인3종/flow_handoff/2026-10-15_v2/start_frames/C02/N03_start.png",
+          "planned_path": "/home/wooseok/wsy/samsung_related/slide/AI실행결과발표대회_디자인3종/flow_handoff/2026-10-15_v2/start_frames/C02/N03_start.png",
+          "generated_source": "/home/wooseok/.codex/generated_images/01a13a98-f374-78a1-af88-b32c5dad3e46/exec-8b7a9384-9ecd-4193-ae5d-b0ba67c3a909.png",
+          "prompt": "Use case: precise-object-edit. Keep this cinematic frame unchanged except the foreground woman's foot. She has NOT yet put on the white sneaker. Lift her ENTIRE GRAY-SOCKED foot clearly OUT of and ABOVE the empty white sneaker, leaving a visible 10cm AIR GAP between the sock sole and the sneaker opening. Show the EMPTY dark opening of the white sneaker. Her socked toes and heel must both be visible and separate from the shoe. Both white sneakers remain motionless FLAT on the floor in their current locations. Her hand may hold her trouser cuff, not the shoe. Her other gray-socked foot is behind the shoes. Preserve the same woman, face, ponytail, blue shirt, gray trousers, chair, corridor, low camera, daylight. Preserve the already-fleeing black shoe pair and pursuing man in the background, and the stationary brown loafers under the desk. Exactly six loose shoes total. No white shoe is worn by any human. No text or logos, one 16:9 frame.",
+          "reference_paths": [
+            "/home/wooseok/.codex/generated_images/01a13a98-f374-78a1-af88-b32c5dad3e46/exec-c4b0ce79-5075-44d8-9439-2a9bec1c0df5.png"
+          ],
+          "required_start_state": "동일 업무 통로의 넓은 로우 앵글. 검은 구두 한 켤레는 이미 먼 쪽으로 도주 중. B의 회색 양말 발이 흰 운동화를 신기 직전이고 흰 두 짝은 정지. 갈색 로퍼 한 켤레도 화면에 보이는 먼 책상 아래에 정지해 있다. 이 한 프레임에서 흰 운동화 다음 갈색 로퍼가 같은 통로에 합류할 여지를 확보한다.",
+          "must_not_show_yet": "흰 운동화 또는 갈색 로퍼가 이미 도주 중인 상태, B가 이미 추격하는 상태, 총 세 켤레 초과.",
+          "qa": {
+            "status": "artist_checked_start_state_passed",
+            "method": "generated image visually inspected; references opened using view_image",
+            "checks": [
+              "B의 회색 양말 발과 빈 흰 운동화 사이 간격",
+              "흰·갈색은 정지, 검은 구두만 이미 도주",
+              "자율 신발 총 6짝"
+            ]
+          },
+          "generation_attempt_count": 2,
+          "dimensions": [
+            1672,
+            941
+          ]
+        },
+        {
+          "asset_id": "C02_N05",
+          "concept_id": "C02",
+          "image_path": "/home/wooseok/wsy/samsung_related/slide/AI실행결과발표대회_디자인3종/flow_handoff/2026-10-15_v2/start_frames/C02/N05_start.png",
+          "planned_path": "/home/wooseok/wsy/samsung_related/slide/AI실행결과발표대회_디자인3종/flow_handoff/2026-10-15_v2/start_frames/C02/N05_start.png",
+          "generated_source": "/home/wooseok/.codex/generated_images/01a13a98-f374-78a1-af88-b32c5dad3e46/exec-2c717204-bb06-4c77-b7a1-92d42d53f23c.png",
+          "prompt": "Use case: ads-marketing / identity-preserve cinematic pre-action frame.\nCreate ONE standalone 16:9 live-action film STARTING frame. The supplied reference image(s) depict LATER moments; use them to preserve exact cast identity, outfits, props, room materials and film lighting, but reconstruct the EARLIER state below. Do not copy completed actions from the references.\nRequired starting state: C가 통로를 막고 베이지 자루 입구를 바닥 가까이 넓게 벌린 준비 상태. 검은 구두·흰 운동화·갈색 로퍼 총 세 켤레가 자루 바로 앞에 접근했으나 아직 자루 안에 들어가지 않았다. A/B는 양말 차림으로 뒤에서 쫓는다. 붉은 끈은 풀려 있다.\nPrecise staging priority: Use a LOW SIDE view of the same bright corridor, so cause and trajectory are obvious. The green-vest manager is near frame-right blocking the corridor, facing frame-left; he holds a LARGE EMPTY BEIGE SACK OPEN near the floor with its mouth facing the approaching shoes from frame-left. Three pairs of shoes approach but all SIX loose shoes are still OUTSIDE the sack. Black pair closest to mouth, white pair behind, brown pair last. A and B chase in socks behind the shoes at left. C's own black work shoes are worn normally and distinct. Sack has slack red drawstring, no tied mouth, no foot-shaped bulges, no jumping. Hold at instant before capture, not after.\nMust not be visible yet: 자루가 이미 닫혔거나 신발을 모두 잡았거나 자루 자체가 도약하는 상태.\nStyle: expensive photoreal chase-thriller advertisement, convincing practical-looking materials and VFX, low camera, directional daylight, detailed leather/canvas, same spatial world as references; no cartoon faces on shoes.\nPreserve identities and wardrobe exactly. Include only characters and props required for this starting state, not every later character or gag. Correct human anatomy. No subtitles, captions, logos, numbers, watermarks, graphics or panels.",
+          "reference_paths": [
+            "/home/wooseok/wsy/samsung_related/slide/AI실행결과발표대회_디자인3종/storyboards/2026-10-15_absurd-v2/images/C02/S01.png",
+            "/home/wooseok/wsy/samsung_related/slide/AI실행결과발표대회_디자인3종/storyboards/2026-10-15_absurd-v2/images/C02/S02.png"
+          ],
+          "required_start_state": "C가 통로를 막고 베이지 자루 입구를 바닥 가까이 넓게 벌린 준비 상태. 검은 구두·흰 운동화·갈색 로퍼 총 세 켤레가 자루 바로 앞에 접근했으나 아직 자루 안에 들어가지 않았다. A/B는 양말 차림으로 뒤에서 쫓는다. 붉은 끈은 풀려 있다.",
+          "must_not_show_yet": "자루가 이미 닫혔거나 신발을 모두 잡았거나 자루 자체가 도약하는 상태.",
+          "qa": {
+            "status": "artist_checked_start_state_passed",
+            "method": "generated image visually inspected; references opened using view_image",
+            "checks": [
+              "자루 입구가 열린 포획 전 상태",
+              "세 켤레 모두 자루 밖",
+              "붉은 끈 풀림·C는 실제 자루를 잡음"
+            ]
+          },
+          "generation_attempt_count": 1,
+          "dimensions": [
+            1672,
+            941
+          ]
+        },
+        {
+          "asset_id": "C02_N06",
+          "concept_id": "C02",
+          "image_path": "/home/wooseok/wsy/samsung_related/slide/AI실행결과발표대회_디자인3종/flow_handoff/2026-10-15_v2/start_frames/C02/N06_start.png",
+          "planned_path": "/home/wooseok/wsy/samsung_related/slide/AI실행결과발표대회_디자인3종/flow_handoff/2026-10-15_v2/start_frames/C02/N06_start.png",
+          "generated_source": "/home/wooseok/.codex/generated_images/01a13a98-f374-78a1-af88-b32c5dad3e46/exec-1943b984-bccd-488c-a98d-9093c7576764.png",
+          "prompt": "Use case: identity-preserve, cinematic pre-action starting frame. Image 1 is the SAME corridor, camera and cast immediately BEFORE successful capture. Image 2 shows a LATER escape and is ONLY a reference for the beige sack texture/red cord and cast; do NOT copy its airborne sack or running poses. Make the intervening SUCCESSFUL CAPTURE state: all six autonomous shoes (black dress pair, white sneaker pair, brown loafer pair) are now entirely INSIDE the beige sack and NO loose shoes remain on the floor. Green-vest manager C is at frame-right near the same position, calmly holding the gathered CLOSED mouth and red drawstring in one hand, with a satisfied proud expression. The sack's broad ordinary lumpy base rests FLAT ON THE FLOOR directly beside his leg. No separate foot-shaped bulges, no floating gap, no motion blur, no self-propelled movement. White-shirt man A and blue-shirt woman B stand still behind him, relieved; A wears black SOCKS and B gray SOCKS, no footwear. C keeps his own black work shoes. Preserve exact identities, clothing, office/corridor surfaces, daylight direction, low camera and premium film realism from image 1. A still moment before anything goes wrong. No one is reaching after the sack or running. No faces/arms/legs on sack. One 16:9 full-frame image, no text/logos/panels.",
+          "reference_paths": [
+            "/home/wooseok/wsy/samsung_related/slide/AI실행결과발표대회_디자인3종/flow_handoff/2026-10-15_v2/start_frames/C02/N05_start.png",
+            "/home/wooseok/wsy/samsung_related/slide/AI실행결과발표대회_디자인3종/storyboards/2026-10-15_absurd-v2/images/C02/S02.png"
+          ],
+          "required_start_state": "포획 성공 상태. 신발 세 켤레가 모두 자루 속에 들어가 외부에 자율 신발이 없다. C는 입구와 붉은 조임 끈을 한 손으로 모아 잡고 자루 바닥은 바닥에 얌전히 붙어 있다. C는 승리 표정, A/B는 안도한다. 자루에 아직 다리 모양 부풀음이나 들뜬 그림자가 없다.",
+          "must_not_show_yet": "자루의 자율 움직임·도약·추격, 바깥에 복제된 신발.",
+          "qa": {
+            "status": "artist_checked_start_state_passed",
+            "method": "generated image visually inspected; all references opened using view_image",
+            "checks": [
+              "자루 밑면이 바닥에 정지·밀착",
+              "C가 닫힌 입구를 잡고 성공 표정",
+              "A/B 안도·양말 차림·외부 자율 신발 없음",
+              "발 모양 부풀음이나 자루 도약 없음"
+            ]
+          },
+          "generation_attempt_count": 1,
+          "dimensions": [
+            1672,
+            941
+          ]
+        }
+      ],
+      "tool": "built-in image_gen",
+      "scope": [
+        "C01",
+        "C02"
+      ],
+      "flow_executed": false,
+      "completed_count": 10,
+      "expected_count": 10,
+      "status": "complete_10_of_10_artist_checked_pending_parent_review",
+      "summary": {
+        "C01": 5,
+        "C02": 5,
+        "total": 10,
+        "tool": "built-in image_gen",
+        "original_assets_unchanged": true,
+        "flow_executed": false
+      }
+    },
+    "image_manifest_C03.json": {
+      "concept_id": "C03",
+      "source": "draft_C03.json new_start_images",
+      "status": "all_6_generated_saved_and_artist_checked",
+      "generated_count": 6,
+      "expected_count": 6,
+      "assets": [
+        {
+          "asset_id": "C03_N01",
+          "path": "/home/wooseok/wsy/samsung_related/slide/AI실행결과발표대회_디자인3종/flow_handoff/2026-10-15_v2/start_frames/C03/N01_start.png",
+          "scene": "S01",
+          "source_clip_ids": [
+            "C03_K01"
+          ],
+          "prompt": "Use case: precise-object-edit. Edit this approved cinematic sci-fi comedy still into the EARLIER START FRAME, before abduction. Keep EXACT same original Korean adult male face and identity, short hair, beige shirt with same rolled cuffs, gray trousers, black shoes, white mug, office furniture, huge window, original spacecraft outside, dusk color palette, high-budget photoreal cinema lighting, 16:9 wide camera framing and perspective.\nONLY CHANGE TIME/POSE: the man is now firmly STANDING ON THE FLOOR in the same screen position, BOTH SHOE SOLES visibly touching the floor with natural contact shadows, no gap, no levitation. He casually holds the SAME WHITE MUG in front of his chest, level and unspilled, ordinary quiet expression before anything happens. Remove the entire blue-white vertical tractor-beam shaft, its circular ceiling opening glow, airborne particles and beam's circular pool on the floor. There is NO downward beam and NO scan light enveloping him. The huge dark spacecraft underside remains outside the glass and is just starting to cast an ominous shadow across the ordinary office; subtle blue running lights outside may remain, NOT an active shaft onto A. Light the man sufficiently with natural dusk/office spill to preserve face recognition, without spotlighting him. No floating body or objects, no spilt coffee, no changed cast, no extra people, no letters/numbers/logos/subtitles/watermarks. This image must show the moment BEFORE the beam turns on and before his feet rise.",
+          "refs": [
+            "/home/wooseok/wsy/samsung_related/slide/AI실행결과발표대회_디자인3종/storyboards/2026-10-15_absurd-v2/images/C03/S01.png"
+          ],
+          "dimensions": {
+            "width": 1672,
+            "height": 941,
+            "format": "PNG"
+          },
+          "generated_source": "/home/wooseok/.codex/generated_images/01a13a8a-7471-7482-97d0-63ad6548ddba/exec-236bfc60-0679-4bd5-88c9-6ccfc2c4dd56.png",
+          "sha256": "78c5a048bdc1f91df280a70507fa12c8388fabb76e367c4a419e57ae1a1894e1",
+          "required_start_state": "동일 사무실·인물·의상·카메라·우주선. A의 두 신발은 바닥에 붙어 있고 흰 머그잔을 평범하게 든다. 우주선 하부는 창 밖에 있으나 빛기둥은 아직 A를 감싸지 않고, 인물이 떠 있지 않는다. 거대한 그림자가 막 닿으려는 긴장된 시작 순간.",
+          "must_not_show_yet": "공중에 떠 있는 몸, 내려온 스캔 광선, 쏟아진 커피.",
+          "QA": {
+            "opened_actual_saved_image": true,
+            "status": "artist_checked_pending_independent_review",
+            "findings": [
+              "직접 저장 파일을 열어 확인: 두 신발이 바닥에 닿고 접지 그림자가 보임.",
+              "빛기둥·부양·커피 유출 없음. 원래 인물·베이지 셔츠·흰 머그·우주선·사무실 구도 유지."
+            ]
+          },
+          "generation_tool": "built-in image_gen",
+          "attempts": 1
+        },
+        {
+          "asset_id": "C03_N02",
+          "path": "/home/wooseok/wsy/samsung_related/slide/AI실행결과발표대회_디자인3종/flow_handoff/2026-10-15_v2/start_frames/C03/N02_start.png",
+          "scene": "S02",
+          "source_clip_ids": [
+            "C03_K02",
+            "C03_K03"
+          ],
+          "prompt": "Use case: precise-object-edit. Edit the approved original sci-fi comedy still to show the EARLIER START of the alien interrogation, BEFORE any food thought has been revealed. Keep the SAME three fictional characters and exact faces: Korean adult A at left with beige shirt, charcoal trousers and white mug; slate blue-gray commander B center in plum uniform with EXACTLY FOUR ARMS attached as upper shoulder pair and lower ribcage pair; pale-gray technician C right in black uniform with TWO ARMS. Preserve original character prosthetic designs, clothes, cinematic gunmetal spacecraft room, wide 16:9 camera, giant rectangular hologram, cold blue theatrical lighting. Do NOT copy any external film IP.\nCRITICAL TIMING/POSE CHANGES:\n1. Move the single circular noncontact scanner from the commander to DIRECTLY ABOVE seated HUMAN A's HEAD on the LEFT. Center of scanner aligns vertically with A's head. It hangs on its mechanical support in READY/IDLE state: dim blue rim only, NO active downward cone onto anyone. There must be NO scanner or beam over B.\n2. Make the huge hologram a plain EMPTY BLUE ANALYSIS PANEL, with soft transparent blue field and existing bright border only. NO food, no plate, no bowl, no text, no symbols, no numbers.\n3. B stands authoritatively and calmly looking at seated A, closed mouth, stern confident eyes. His upper two arms are lowered and slightly spread at waist/chest level in a measured commanding pose; lower two arms rest lower by his sides. All four arms retain separate attachments to one torso. No panic, no frantic spreading, no attempts to cover the screen.\n4. C stands beside the control console with his two hands near its controls, ready to switch on the scanner. He is not pointing at B. A remains relaxed on the left chair, exact white mug in hand.\nNo school desks, notebooks, pens or classroom seating rows yet. Only the existing sci-fi science room and interrogation chair/console. No weapons, restraints, injuries, additional people, extra limbs, captions, logos or watermarks. This is a clearly readable PRE-SCAN setup image with A under the scanner and a completely blank display.",
+          "refs": [
+            "/home/wooseok/wsy/samsung_related/slide/AI실행결과발표대회_디자인3종/storyboards/2026-10-15_absurd-v2/images/C03/S02.png"
+          ],
+          "dimensions": {
+            "width": 1672,
+            "height": 941,
+            "format": "PNG"
+          },
+          "generated_source": "/home/wooseok/.codex/generated_images/01a13a8a-7471-7482-97d0-63ad6548ddba/exec-2feeaf11-1a39-4b39-bcb2-a67b357ba340.png",
+          "sha256": "4642f09cc6e1d2be5967d4099efd5dfdd3956d20770e40b86d8e59d4825d6c9c",
+          "required_start_state": "같은 우주선 구도·A/B/C 캐스트. A는 왼쪽 의자에 흰 머그를 들고 앉고, B는 위엄 있게 네 팔을 낮게 벌린 채 A를 바라본다. C는 조작부 옆. 스캐너는 A 머리 위로 정렬되어 준비 상태. 뒤 홀로그램은 빈 푸른 분석 패널이며 음식·글자·숫자가 없다. B의 당황이나 화면 가리는 자세는 아직 없다.",
+          "must_not_show_yet": "짬뽕·탕수육, 지휘관 위의 스캐너, 지휘관의 당황·교실 가구.",
+          "QA": {
+            "opened_actual_saved_image": true,
+            "status": "artist_checked_pending_independent_review",
+            "findings": [
+              "직접 저장 파일을 열어 확인: 단일 스캐너가 왼쪽 A 머리 위 준비 상태, 아래 광선 없음.",
+              "푸른 패널은 음식·글자·숫자 없이 비어 있음. B 네 팔은 낮게 분리되어 권위적인 자세; C는 조작부 옆.",
+              "탕수육·짬뽕·B 위 스캐너·화면 가림·당황·교실 가구 없음."
+            ]
+          },
+          "generation_tool": "built-in image_gen",
+          "attempts": 1
+        },
+        {
+          "asset_id": "C03_N04",
+          "path": "/home/wooseok/wsy/samsung_related/slide/AI실행결과발표대회_디자인3종/flow_handoff/2026-10-15_v2/start_frames/C03/N04_start.png",
+          "scene": "S02",
+          "source_clip_ids": [
+            "C03_K04"
+          ],
+          "prompt": "Use case: precise-object-edit. Input image 1 is the APPROVED pre-scan START FRAME and main edit target. Input image 2 is only the established character/room continuity reference; DO NOT copy its tangsuyuk dish, its panicked commander pose or scanner over B. Preserve image1 exact 16:9 wide camera, human A seated LEFT with beige shirt/gray trousers/white mug, blue-gray FOUR-ARM commander B center in plum uniform, pale-gray TWO-ARM technician C right in black uniform, room, lighting and scanner position.\nCreate the next START FRAME AFTER the human's first scan but BEFORE the accidental scan of the commander. The SAME single circular scanner remains directly ABOVE HUMAN A at LEFT, NEVER above B. The giant hologram now displays ONLY ONE WHITE BOWL OF JJAMPPONG: unmistakable Korean spicy red-orange seafood NOODLE SOUP with visible noodles, mussels/shrimp, vegetables and rising steam. Food image contained strictly INSIDE the rectangular holographic panel. No other dishes, no fried pork, no tangsuyuk, no bowls on physical furniture, no text/numbers/labels.\nA still holds his same white coffee mug, watching the noodle soup with a subtly hungry closed-mouth lip-press, no exaggerated reaction. B is STILL AUTHORITATIVE, not embarrassed, not frightened. Turn his head toward C with stern impatient confidence, mouth only slightly open as he is about to order a scanner adjustment. He may angle one of his upper hands slightly toward technician C while his other three arms remain low and clearly attached to one torso; NOT four hands covering a screen, no flailing. C has two hands ready near scanner controls, focused and awaiting instruction, not yet pointing at B. Keep scanner mechanically over A and keep B clear of any beam. No classroom furniture, notebooks, extra people, duplicate limbs, captions, logos or watermarks. Cinematic original sci-fi practical realism. This must NOT reveal the later tangsuyuk/self-scan humiliation.",
+          "refs": [
+            "/home/wooseok/wsy/samsung_related/slide/AI실행결과발표대회_디자인3종/flow_handoff/2026-10-15_v2/start_frames/C03/N02_start.png",
+            "/home/wooseok/wsy/samsung_related/slide/AI실행결과발표대회_디자인3종/storyboards/2026-10-15_absurd-v2/images/C03/S02.png"
+          ],
+          "dimensions": {
+            "width": 1672,
+            "height": 941,
+            "format": "PNG"
+          },
+          "generated_source": "/home/wooseok/.codex/generated_images/01a13a8a-7471-7482-97d0-63ad6548ddba/exec-ff9f871d-34f6-4c86-95d7-261e13ec2eda.png",
+          "sha256": "d61ce4a776734aada74e7dc12b47903ac9c7fea898e104bcc2a8478ececce699",
+          "required_start_state": "같은 캐스트·우주선·와이드 시점. 스캐너는 여전히 A 머리 위, 홀로그램에는 짬뽕 한 그릇만 표시. A는 머그를 들고 입맛을 다시고, B는 권위적인 표정으로 C에게 재조정을 지시하려 한다. C는 스캐너 조작부에 손을 댈 준비. B는 네 팔을 화면 앞으로 펼쳐 숨기지 않는다.",
+          "must_not_show_yet": "탕수육, 스캐너가 B로 이동한 상태, B의 체면 붕괴, 교실.",
+          "QA": {
+            "opened_actual_saved_image": true,
+            "status": "artist_checked_pending_independent_review",
+            "findings": [
+              "직접 저장 파일을 열어 확인: 스캐너는 여전히 A 위; 패널에 해물과 면이 보이는 짬뽕 한 그릇만 있음.",
+              "B는 권위적으로 C를 향해 지시하는 상태이며 네 팔 가림/당황은 아직 없음. A 흰 머그 유지.",
+              "탕수육·B로 옮겨진 스캐너·교실 없음."
+            ]
+          },
+          "generation_tool": "built-in image_gen",
+          "attempts": 1
+        },
+        {
+          "asset_id": "C03_N06",
+          "path": "/home/wooseok/wsy/samsung_related/slide/AI실행결과발표대회_디자인3종/flow_handoff/2026-10-15_v2/start_frames/C03/N06_start.png",
+          "scene": "S03",
+          "source_clip_ids": [
+            "C03_K06"
+          ],
+          "prompt": "Use case: precise-object-edit. Input image 1 is the SAME spaceship during classroom conversion; EDIT IT BACK to the START, just BEFORE furniture is unfolded. Input image 2 is exact character/wardrobe/anatomy reference only. Preserve exact fictional Korean A, blue-gray FOUR-arm plum-uniform commander B, pale-gray TWO-arm black-uniform technician C, all faces, prosthetic details, clothes, original spaceship architecture and 16:9 cinematic camera. Preserve the human's ordinary white mug.\nCRITICAL START STATE: the fold-down wall desk next to B is COMPLETELY CLOSED, its flat rectangular front flush against the wall. NO horizontal table slab, NO opened triangular bracket, NO gap revealing an unfolded desk. B stands before the CLOSED PANEL with BOTH UPPER hands resting lightly on its two handles, ready to pull but not yet pulling. His LOWER two hands visibly hold one notebook and one pen. Exactly FOUR distinct arms from his one torso, same upper/lower attachment points; no extra limb or merged arms. B looks urgently ready to learn but has not begun unfolding anything.\nREMOVE ALL completed student desks and chair rows from foreground and room. Open metallic floor in the foreground, no classroom layout yet. Keep ONLY ONE loose simple chair next to technician C. C stands BEHIND that chair, which is still at its previous sideways angle and has not been rotated toward the teaching screen, two hands resting ready on chair/support. The circular scanner is parked aside and OFF: metallic ring with no active blue light, no cone or rays. It remains mechanically supported. Behind them the wall screen is blank/off with NO FOOD and NO TEXT.\nHuman A stays at LEFT standing by the same small metal pedestal, the SAME WHITE MUG already resting on top, his hand no longer carrying it; relaxed and matter-of-fact, ready to explain. Lighting still mainly cool spacecraft light, with modest warm practical spill, not a completed bright classroom. No people sitting and writing yet. No desks appearing from nowhere. No external film IP, logos, captions, letters, numbers, watermark or extra people. High-budget live-action sci-fi realism and unambiguous pre-action state.",
+          "refs": [
+            "/home/wooseok/wsy/samsung_related/slide/AI실행결과발표대회_디자인3종/storyboards/2026-10-15_absurd-v2/images/C03/S03.png",
+            "/home/wooseok/wsy/samsung_related/slide/AI실행결과발표대회_디자인3종/storyboards/2026-10-15_absurd-v2/images/C03/S02.png"
+          ],
+          "dimensions": {
+            "width": 1672,
+            "height": 941,
+            "format": "PNG"
+          },
+          "generated_source": "/home/wooseok/.codex/generated_images/01a13a8a-7471-7482-97d0-63ad6548ddba/exec-72ed50b6-37c5-405f-ad11-701bbfcc30dc.png",
+          "sha256": "d077423a03ec64ec06b5ee637db6f5c7e4751c8451004d24f647958101161adf",
+          "required_start_state": "같은 우주선에서 교실 준비 직전. A는 왼쪽 작은 받침에 흰 머그를 놓고 서 있다. B는 닫혀 있거나 거의 닫힌 벽 수납 패널 앞에 서서 위쪽 두 손을 손잡이에 가볍게 대고 아래 두 손에는 노트와 펜을 든다. C는 방향을 돌리기 전 의자 뒤에 서고 스캐너는 이미 꺼져 있다. 펼쳐진 책상 열이나 완성된 교실은 아직 없다. 네 팔과 인물 얼굴·의상 유지.",
+          "must_not_show_yet": "이미 열린 벽 책상, 이미 앉아 필기하는 인물, 완성된 교실, 음식 홀로그램.",
+          "QA": {
+            "opened_actual_saved_image": true,
+            "status": "artist_checked_pending_independent_review",
+            "findings": [
+              "직접 저장 파일을 열어 확인: 벽 책상 패널이 닫혀 있고 수평 책상판과 펼쳐진 가구 열이 없음.",
+              "B 위 두 손은 닫힌 패널 손잡이, 아래 두 손은 노트/펜. C는 단일 의자 뒤에서 준비.",
+              "스캐너는 빛줄기와 내부 발광 없이 비활성. 흰 머그는 A 옆 받침 위. 음식·완성 교실·앉아 필기하는 인물 없음."
+            ]
+          },
+          "generation_tool": "built-in image_gen",
+          "attempts": 1
+        },
+        {
+          "asset_id": "C03_N07",
+          "path": "/home/wooseok/wsy/samsung_related/slide/AI실행결과발표대회_디자인3종/flow_handoff/2026-10-15_v2/start_frames/C03/N07_start.png",
+          "scene": "S04",
+          "source_clip_ids": [
+            "C03_K07"
+          ],
+          "prompt": "Use case: precise-object-edit. Edit this approved original sci-fi classroom still into the EARLIER START FRAME, BEFORE the four-arm commander raises a question hand or grabs his own wrist. Preserve EXACT same three cast faces, head designs, skin, wardrobe, spaceship classroom, same camera framing and 16:9 composition: beige-shirt Korean adult A left, plum-uniform blue-gray FOUR-ARM commander B seated center-front at desk, black-uniform pale-gray TWO-ARM technician C rear right quietly writing. Preserve plain white mug on front-left metal stand and large blank pale teaching screen.\nONLY RESET B'S UPPER ARMS AND SCANNER STATUS. B still has exactly FOUR separately attached arms on ONE TORSO: upper pair from shoulders, lower pair from lateral ribs. His LOWER TWO hands keep actively writing/holding an open notebook in the desk center, with one pen. His UPPER TWO arms are now relaxed LOW, both elbows below shoulder level; upper hands rest separately near the OUTER left and right desk edges or chair arms, away from the writing hands. Clearly four distinct limb paths. There must be NO hand raised near or above head, NO wrist-gripping, NO crossed restraining arms, NO pulling another limb, NO question gesture yet. Restore an eager concentrated expression looking toward A or notes rather than the prior open-mouth panic. His posture prepares the coming gag without already performing it. Normal partial occlusion of a resting hand is acceptable, but never add or remove arms.\nA stands patiently near B's left desk side as if finishing an explanation, understated ordinary demeanor. C continues quiet notes using only his own two arms. The overhead scanner is INACTIVE: remove its downward light beam and bright internal blue scan glow, leaving an unlit metallic ring parked above/aside. Background architectural blue accents may remain. No food imagery anywhere, no event text, no captions, lettering, logos, numbers or watermark. Keep cinematic warm classroom lighting within alien metal setting. This exact frame must precede the question-hand rise and self-wrist-grab, not show their result.",
+          "refs": [
+            "/home/wooseok/wsy/samsung_related/slide/AI실행결과발표대회_디자인3종/storyboards/2026-10-15_absurd-v2/images/C03/S04.png"
+          ],
+          "dimensions": {
+            "width": 1672,
+            "height": 941,
+            "format": "PNG"
+          },
+          "generated_source": "/home/wooseok/.codex/generated_images/01a13a8a-7471-7482-97d0-63ad6548ddba/exec-ffa82ac1-6d95-4726-9a2f-56f463bc8577.png",
+          "sha256": "ad72e468527f3db1d32d860ff15f49c97201dab13cfff9102ea92cc2d6f28e7e",
+          "required_start_state": "동일 우주선 교실·세 인물·카메라·빈 설명 화면. B는 책상에 앉아 아래 두 손으로 노트와 펜을 잡고 필기 중이며, 위쪽 두 팔은 낮게 쉬고 있어 아직 질문 손을 들거나 서로 손목을 잡지 않았다. A는 B 책상 옆에서 설명을 마치려 하고 C는 조용히 필기. 스캐너는 빛줄기 없는 비활성.",
+          "must_not_show_yet": "들린 질문 팔, 다른 손목을 붙잡는 자세, 서로 당기는 팔다리, 행사 자막.",
+          "QA": {
+            "opened_actual_saved_image": true,
+            "status": "artist_checked_pending_independent_review",
+            "findings": [
+              "직접 저장 파일을 열어 확인: B 위쪽 두 팔은 낮게 책상 가장자리에 쉬고 아래 두 팔은 노트/펜으로 필기.",
+              "질문 팔 상승·손목 잡기·팔 당기기 없음. B의 네 팔은 한 몸에서 분리되어 읽힘.",
+              "C는 침착하게 필기, A는 기다림. 빈 설명 화면·흰 머그 유지. 스캐너 비활성, 행사 자막 없음."
+            ]
+          },
+          "generation_tool": "built-in image_gen",
+          "attempts": 1
+        },
+        {
+          "asset_id": "C03_N08",
+          "path": "/home/wooseok/wsy/samsung_related/slide/AI실행결과발표대회_디자인3종/flow_handoff/2026-10-15_v2/start_frames/C03/N08_start.png",
+          "scene": "S04",
+          "source_clip_ids": [
+            "C03_K08"
+          ],
+          "prompt": "Use case: precise-object-edit. Input image 1 is the EDIT TARGET: the approved spacecraft classroom shot where the purple-uniform four-armed commander holds his OWN raised wrist with his other upper hand while his two LOWER arms write and hold the notebook. Input image 2 is ONLY a reference for the overhead scanner's POWERED-OFF LIGHTING, NOT a pose reference.\nMake exactly ONE localized change to IMAGE 1: turn OFF the overhead scanner. Remove the luminous blue inner scanning rings and the downward blue shaft/cone/rays coming from the circular ceiling scanner. Replace those light-emitting strips with dark unlit metallic/glass ring surfaces like image 2. Keep the circular scanner's size, geometry, position and mechanical structure unchanged. Remove just the scanner's emitted blue light on nearby air and upper hand; keep the scene naturally lit by existing warm classroom lights and other architectural blue accent lights. Do NOT turn off unrelated background blue lights.\nPRESERVE EVERYTHING ELSE FROM IMAGE 1 as closely as possible: exact three actors/alien identities, all faces and expressions, FOUR distinct arms of B, especially the HIGH RAISED HAND and other hand GRIPPING ITS WRIST, lower writing arms, hands, pen, notebook, clothing, body poses, seated positions, two desks, human A patiently standing on left, C writing on right, white mug on metal stand, blank pale presentation screen, windows and camera. Do NOT copy the relaxed upper-arm pose from image 2. Do NOT change the gag, framing, layout, props or brightness of the rest of the scene. No text, logos or watermarks. 16:9 cinematic photorealism. Result is the SAME wrist-grab moment as image 1, with the scanner completely inactive to match the preceding shot.",
+          "refs": [
+            "/home/wooseok/wsy/samsung_related/slide/AI실행결과발표대회_디자인3종/storyboards/2026-10-15_absurd-v2/images/C03/S04.png",
+            "/home/wooseok/wsy/samsung_related/slide/AI실행결과발표대회_디자인3종/flow_handoff/2026-10-15_v2/start_frames/C03/N07_start.png"
+          ],
+          "dimensions": {
+            "width": 1672,
+            "height": 941,
+            "format": "PNG"
+          },
+          "generated_source": "/home/wooseok/.codex/generated_images/01a13a8a-7471-7482-97d0-63ad6548ddba/exec-e1131730-e809-4268-81e1-1d3b2412c2af.png",
+          "sha256": "8afa93b38180e21a787e81535786bdc11c197e76031b737e132e516085d5d1e0",
+          "required_start_state": "S04의 동일 교실·세 인물·구도·표정·네 팔 동작을 유지. B는 위쪽 한 팔을 높이 들고 다른 위팔 손으로 그 손목을 잡은 상태이며 아래 두 팔로 필기한다. N07에서 이어지도록 스캐너 링의 발광과 아래 푸른 광선은 꺼져 있고 비활성. A는 기다리고 C는 필기하며 빈 설명 화면·흰 머그 위치 유지.",
+          "must_not_show_yet": "스캐너 재활성 발광링·하향 푸른 광선, 새 팔/인물, 행사 자막.",
+          "QA": {
+            "opened_actual_saved_image": true,
+            "status": "artist_checked_pending_independent_review",
+            "findings": [
+              "실제 저장한 N08_start.png를 열어 스캐너 내부 파란 발광링과 하향 푸른 광선이 사라지고 비활성 금속 링으로 남은 것을 확인.",
+              "원본 S04의 높이 든 손/다른 손의 손목 잡기/아래 두 팔 필기, 세 인물 얼굴·복장·표정·구도·빈 설명 화면·머그가 시각적으로 유지됨.",
+              "N07은 꺼진 스캐너 빛 상태만 참조했고 낮은 팔 자세를 복사하지 않음. 원본 S04 파일 보존."
+            ]
+          },
+          "generation_tool": "built-in image_gen",
+          "attempts": 1
+        }
+      ],
+      "notes": "기존 원본 보존. 매 참조 이미지를 실제 열어 확인한 후 image_gen에 전달. N04는 기존 S02와 새 N02_start.png를 모두 참조해 초기 구도/스캐너 위치를 일치시킴. Flow 프로젝트 접근·업로드·영상 생성 없음. image dimensions are actual PNG dimensions. N08은 S04를 edit target, N07을 비활성 스캐너 빛 참고로만 사용한 국소 편집이며 K08 연속성 문제를 해결."
+    },
+    "image_manifest_C04_C05.json": {
+      "images": [
+        {
+          "id": "C04-N02",
+          "path": "start_images/C04/C04-N02.png",
+          "prompt": "Use case: precise-object-edit / identity-preserve. Make ONE landscape16:9 standalone START FRAME for a live-action absurd low-budget comedy. Use actual reference image(s), preserve exact fictional Korean ADULT actors, faces, hair, costumes, cheap fluorescent-lit office and handmade design. This is INTENTIONALLY crude: corrugated cardboard, wrinkled duct tape, cheap cloth/wigs, exaggerated expressions, green chroma-key fringe and flat pasted-photo clones. Do NOT polish into a glossy corporate advertisement. Keep anatomy coherent, normal faces/hands, separate bodies. No text, captions, logos, numbers, watermarks or panels. Change the scene STATE specified below; the references may show a later result that MUST be withheld at this start.\n\nEDIT the copier photo locally. SAME four real actors: gray-shirt female employee, original red-antenna A face already pressed to copier glass, blue-antenna B and yellow-antenna broad-shouldered C. REMOVE the entire printed paper and red-antenna clone from output tray AND all clones anywhere. Output tray/floor must be EMPTY. REMOVE bright scanning glow; copier glass is unlit. B index finger HOVERS about1cm above copy button, not pressing it yet. Keep A face naturally pressed to glass, wide goofy confident face, C eagerly waiting, employee moving aside with white mug. Keep all original costumes, robot A short cardboard pincers and camera view. This image precedes first duplication. NO clone, paper with a face, floating copy, scan flash or completed button press visible.",
+          "refs": [
+            "/home/wooseok/wsy/samsung_related/slide/AI실행결과발표대회_디자인3종/storyboards/2026-10-15_absurd-v2/images/C04/S02.png"
+          ],
+          "generated_source": "/home/wooseok/.codex/generated_images/01a13a98-cb83-76a0-9d9b-7895387c47f5/exec-ee66ef78-fb12-4949-9997-2f8ab1fd0fd4.png",
+          "tool": "built_in_image_gen",
+          "qa": {
+            "status": "artist_checked",
+            "viewed": true,
+            "observations": "복제·출력물·스캔광 없음. A 얼굴 유리밀착, B 버튼직전. 원형4배우·카드보드 유지."
+          },
+          "dimensions": [
+            1672,
+            941
+          ],
+          "sha256": "f91bb41d34d768c432f07eecf1b55a95bbf6eb2147f4194cc80eab731b64a09b",
+          "absolute_path": "/home/wooseok/wsy/samsung_related/slide/AI실행결과발표대회_디자인3종/flow_handoff/2026-10-15_v2/start_images/C04/C04-N02.png"
+        },
+        {
+          "id": "C04-N04",
+          "path": "start_images/C04/C04-N04.png",
+          "prompt": "Use case: precise-object-edit / identity-preserve. Make ONE landscape16:9 standalone START FRAME for a live-action absurd low-budget comedy. Use actual reference image(s), preserve exact fictional Korean ADULT actors, faces, hair, costumes, cheap fluorescent-lit office and handmade design. This is INTENTIONALLY crude: corrugated cardboard, wrinkled duct tape, cheap cloth/wigs, exaggerated expressions, green chroma-key fringe and flat pasted-photo clones. Do NOT polish into a glossy corporate advertisement. Keep anatomy coherent, normal faces/hands, separate bodies. No text, captions, logos, numbers, watermarks or panels. Change the scene STATE specified below; the references may show a later result that MUST be withheld at this start.\n\nNEW pre-reaction state in SAME desk office. Gray-shirt FEMALE employee sits at left with opened silver laptop facing HERSELF, about to rotate toward robots; viewer sees laptop BACK, not data. White mug on desk. Original A red antenna, B blue, C yellow are all STANDING UPRIGHT, BOTH FEET on floor, expectant/overconfident advertising faces, NOT shocked, NOT leaning or falling. A retains short cardboard pincers; B/C normal hands. EXACTLY THREE obvious FLAT green-fringed A-photo copies remain smaller in background, also upright. Keep the EXISTING GRAY FLOOR unchanged, with NO new floor objects or supports. Do not change actors or costumes; NO extra real people, no numbers, no laptop screen content. Freeze BEFORE the revealing statement and shock.",
+          "refs": [
+            "/home/wooseok/wsy/samsung_related/slide/AI실행결과발표대회_디자인3종/storyboards/2026-10-15_absurd-v2/images/C04/S04.png",
+            "/home/wooseok/wsy/samsung_related/slide/AI실행결과발표대회_디자인3종/storyboards/2026-10-15_absurd-v2/images/C04/S02.png"
+          ],
+          "generated_source": "/home/wooseok/.codex/generated_images/01a13a98-cb83-76a0-9d9b-7895387c47f5/exec-548cb40f-8b9a-4c50-aaf8-4398c41a3ef5.png",
+          "tool": "built_in_image_gen",
+          "qa": {
+            "status": "artist_checked",
+            "viewed": true,
+            "observations": "ABC 똑바로 서고 기대/허세 표정, 평면복제3개 유지, 기존회색바닥·소품추가없음."
+          },
+          "dimensions": [
+            1672,
+            941
+          ],
+          "sha256": "49d0a4b564190acc2da8ff7928236019dcf2f5f707f48594b346e51c1ab697a7",
+          "absolute_path": "/home/wooseok/wsy/samsung_related/slide/AI실행결과발표대회_디자인3종/flow_handoff/2026-10-15_v2/start_images/C04/C04-N04.png"
+        },
+        {
+          "id": "C04-N05",
+          "path": "start_images/C04/C04-N05.png",
+          "prompt": "Use case: precise-object-edit / identity-preserve. Make ONE landscape16:9 standalone START FRAME for a live-action absurd low-budget comedy. Use actual reference image(s), preserve exact fictional Korean ADULT actors, faces, hair, costumes, cheap fluorescent-lit office and handmade design. This is INTENTIONALLY crude: corrugated cardboard, wrinkled duct tape, cheap cloth/wigs, exaggerated expressions, green chroma-key fringe and flat pasted-photo clones. Do NOT polish into a glossy corporate advertisement. Keep anatomy coherent, normal faces/hands, separate bodies. No text, captions, logos, numbers, watermarks or panels. Change the scene STATE specified below; the references may show a later result that MUST be withheld at this start.\n\nNEW wide three-quarter SIDE view in SAME office. Gray-shirt short-haired FEMALE employee at FRONT LEFT is standing, holding CLOSED plain silver laptop against her left hip, facing SCREEN LEFT toward exit. Original B blue antenna stands immediately behind her on right, using ONE NORMAL HUMAN HAND to lightly hold employee right shirt sleeve. Original A red antenna stands very close behind B; A SHORT CARDBOARD PINCERS remain at chest height touching/hovering beside B cardboard torso, NOT extended to employee and no real fingers added. Original C yellow antenna/broad shoulders waits behind A. All three plead with exaggerated faces but are not yet walking. EXACTLY THREE flat green-fringed A clones upright in background facing same LEFT direction. All bodies separate with readable legs. Pose a simple loose following line, no wrestling, pulling strain or human fusion. This is start of following, after everybody has risen. Keep identical costumes and faces.",
+          "refs": [
+            "/home/wooseok/wsy/samsung_related/slide/AI실행결과발표대회_디자인3종/storyboards/2026-10-15_absurd-v2/images/C04/S04.png",
+            "/home/wooseok/wsy/samsung_related/slide/AI실행결과발표대회_디자인3종/storyboards/2026-10-15_absurd-v2/images/C04/S03.png"
+          ],
+          "generated_source": "/home/wooseok/.codex/generated_images/01a13a98-cb83-76a0-9d9b-7895387c47f5/exec-a8b1781d-d083-405f-8170-a82bc3cf4dcb.png",
+          "tool": "built_in_image_gen",
+          "qa": {
+            "status": "artist_checked",
+            "viewed": true,
+            "observations": "여자직원·B정상손소매접촉·A짧은집게·C·복제3개. 뒤엉킴없이같은방향출발자세."
+          },
+          "dimensions": [
+            1672,
+            941
+          ],
+          "sha256": "d0ec36e684008e185a999e6ce3c9b472b6d1778d6d3f620945db600688747156",
+          "absolute_path": "/home/wooseok/wsy/samsung_related/slide/AI실행결과발표대회_디자인3종/flow_handoff/2026-10-15_v2/start_images/C04/C04-N05.png"
+        },
+        {
+          "id": "C04-N06",
+          "path": "start_images/C04/C04-N06.png",
+          "prompt": "Use case: precise-object-edit / identity-preserve. Make ONE landscape16:9 standalone START FRAME for a live-action absurd low-budget comedy. Use actual reference image(s), preserve exact fictional Korean ADULT actors, faces, hair, costumes, cheap fluorescent-lit office and handmade design. This is INTENTIONALLY crude: corrugated cardboard, wrinkled duct tape, cheap cloth/wigs, exaggerated expressions, green chroma-key fringe and flat pasted-photo clones. Do NOT polish into a glossy corporate advertisement. Keep anatomy coherent, normal faces/hands, separate bodies. No text, captions, logos, numbers, watermarks or panels. Change the scene STATE specified below; the references may show a later result that MUST be withheld at this start.\n\nNEW post-fall PRE-RISING state in SAME office and same four actual actors. High enough wide camera so floor is clear. Gray-shirt FEMALE employee seated at LEFT desk holds white mug and looks on. EXACTLY THREE ORIGINAL cardboard robot actors A(red),B(blue),C(yellow broad shoulders) ALREADY LIE ON THEIR BACKS on the SAME EXISTING GRAY FLOOR, separated side by side with generous visible gaps. Their heads/faces remain visible, eyes open with comic stunned expressions, normal legs stretched or gently bent separately. A SHORT CARDBOARD PINCERS stay beside his box chest, no human hands suddenly visible. B/C hands ordinary. NO ONE is standing, sitting up, kneeling or midway through falling; their backs and boxes are resting on the existing gray floor, ready to rise NEXT. Behind them EXACTLY THREE smaller obviously FLAT green-fringed PHOTO COPIES of A also lie flat like paper domino cutouts, each distinct. Four real actors total including employee, plus three flat copies. Avoid overlapping bodies, tangled limbs, extra heads/limbs, injury or unconsciousness. Preserve exact reference identities; do not turn employee male.",
+          "refs": [
+            "/home/wooseok/wsy/samsung_related/slide/AI실행결과발표대회_디자인3종/storyboards/2026-10-15_absurd-v2/images/C04/S04.png",
+            "/home/wooseok/wsy/samsung_related/slide/AI실행결과발표대회_디자인3종/storyboards/2026-10-15_absurd-v2/images/C04/S03.png"
+          ],
+          "generated_source": "/home/wooseok/.codex/generated_images/01a13a98-cb83-76a0-9d9b-7895387c47f5/exec-e764fef8-f3bb-4837-bdc4-a63ef42e4b4f.png",
+          "tool": "built_in_image_gen",
+          "qa": {
+            "status": "artist_checked",
+            "viewed": true,
+            "observations": "ABC3명과flatcopy3개가서로분리되어기존회색바닥에누움. 여자직원유지,추가매트없음,정상팔다리."
+          },
+          "dimensions": [
+            1672,
+            941
+          ],
+          "sha256": "4bd81b1512f1b1f9293d835820edc1b2c3bdc167f5e5036f3cef36cbb3ffc7e6",
+          "absolute_path": "/home/wooseok/wsy/samsung_related/slide/AI실행결과발표대회_디자인3종/flow_handoff/2026-10-15_v2/start_images/C04/C04-N06.png"
+        },
+        {
+          "id": "C05-N02",
+          "path": "start_images/C05/C05-N02-v2.png",
+          "prompt": "Use case: precise-object-edit. EDIT THIS EXISTING START-FRAME with a STRICT LOCAL CHANGE TO GHOST A AND GHOST B ONLY. A is the large RED-HAIR-CLIP man at upper center; B is the BLUE-HAIR-CLIP woman at upper left. Their current eyes-closed heads-thrown-back wind-enjoyment poses reveal the later joke too soon. Replace ONLY their poses/expressions/hair/sheet draping: both EYES WIDE OPEN, HEADS UPRIGHT facing the seated employee, mouths loudly talking as pushy comical salespeople. A may bend elbows near chest with boastful open-palmed sales gestures; B gives an eager normal-hand advertising gesture. They are actively pitching, NOT relaxed or enjoying wind. Their cheap black wigs hang DOWN naturally with NO hair blown horizontally or floating outward. Their white sheet fabric hangs DOWN in natural gravity folds, NOT stretched like sails and NO wind ripples. Preserve exact faces, head scale, RED/BLUE clips and body position/height. Preserve deliberate green chroma-key fringe and crude compositing. ABSOLUTELY UNCHANGED: ghost C at right with YELLOW clip and FULL OPAQUE WHITE COVER from neck to below feet, no neon outfit or shoes visible; seated beige-sweater male employee, his expression, hands and fan-switch-ready pose; gray fan in OFF state; entire office, camera framing, lighting and all other props. Fan blades remain still, NO wind anywhere. Exactly four real adult actors, no anatomy errors. Single landscape16:9 photograph, NO text/logo/watermark.",
+          "refs": [
+            "/home/wooseok/wsy/samsung_related/slide/AI실행결과발표대회_디자인3종/flow_handoff/2026-10-15_v2/start_images/C05/C05-N02.png"
+          ],
+          "generated_source": "/home/wooseok/.codex/generated_images/01a13a98-cb83-76a0-9d9b-7895387c47f5/exec-a990999c-fb43-412c-b3ee-f84931b50f39.png",
+          "tool": "built_in_image_gen",
+          "qa": {
+            "status": "artist_checked",
+            "viewed": true,
+            "observations": "A/B가눈을뜨고고개를세운떠들썩한영업표정. 가발과천이아래로늘어져바람즐김선노출제거. C완전흰천가림·직원·팬OFF·구도유지. 기존N02와N04원본보존."
+          },
+          "dimensions": [
+            1672,
+            941
+          ],
+          "sha256": "085ab946b3542fa34f7f0e6293e73b59490d2092657b133f646faecb945d607e",
+          "absolute_path": "/home/wooseok/wsy/samsung_related/slide/AI실행결과발표대회_디자인3종/flow_handoff/2026-10-15_v2/start_images/C05/C05-N02-v2.png",
+          "revision_history": [
+            {
+              "path": "start_images/C05/C05-N02.png",
+              "prompt": "Use case: precise-object-edit / identity-preserve. Make ONE landscape16:9 standalone START FRAME for a live-action absurd low-budget comedy. Use actual reference image(s), preserve exact fictional Korean ADULT actors, faces, hair, costumes, cheap fluorescent-lit office and handmade design. This is INTENTIONALLY crude: corrugated cardboard, wrinkled duct tape, cheap cloth/wigs, exaggerated expressions, green chroma-key fringe and flat pasted-photo clones. Do NOT polish into a glossy corporate advertisement. Keep anatomy coherent, normal faces/hands, separate bodies. No text, captions, logos, numbers, watermarks or panels. Change the scene STATE specified below; the references may show a later result that MUST be withheld at this start.\n\nEDIT fan scene to fan-OFF PRE-REVEAL. SAME beige-sweater male employee holds gray pedestal fan with one hand ready at switch, face mildly irritated, not surprised by exposed clothing. Fan OFF: blades visibly still, wigs/sheets hang without wind. SAME three ghost actors A red clip, B blue clip, C yellow clip. ALL have WHITE SHEET CAPES attached. C MUST be COMPLETELY wrapped in long opaque WHITE cloth from neck down over ALL legs and FEET; ZERO fluorescent lime/pink tracksuit and ZERO white shoes visible. Only C FACE and normal HANDS may show. NO detached or flying white cloth anywhere. C has boastful sales smile, NOT reveal panic. Use fully covered C in reference2 for wardrobe; reference1 only sets fan-holder composition. Preserve green fringe, uneven scale and cheap wigs.",
+              "refs": [
+                "/home/wooseok/wsy/samsung_related/slide/AI실행결과발표대회_디자인3종/storyboards/2026-10-15_absurd-v2/images/C05/S02.png",
+                "/home/wooseok/wsy/samsung_related/slide/AI실행결과발표대회_디자인3종/storyboards/2026-10-15_absurd-v2/images/C05/S01-v2.png"
+              ],
+              "dimensions": [
+                1672,
+                941
+              ],
+              "qa": {
+                "status": "artist_checked",
+                "viewed": true,
+                "observations": "C의 형광복·흰신발이 긴 흰천으로 완전가림, 날아간 여분천 없음. 직원·팬·A/B/C 일치."
+              },
+              "sha256": "52d437515a61eac5fdda702bd996fd41c53c3e04f50dbb641357fc79fde86887",
+              "generated_source": "/home/wooseok/.codex/generated_images/01a13a98-cb83-76a0-9d9b-7895387c47f5/exec-1817a4d7-0b56-4c16-ae28-95ca1e4a09bb.png",
+              "absolute_path": "/home/wooseok/wsy/samsung_related/slide/AI실행결과발표대회_디자인3종/flow_handoff/2026-10-15_v2/start_images/C05/C05-N02.png"
+            }
+          ],
+          "selected_path": "start_images/C05/C05-N02-v2.png"
+        },
+        {
+          "id": "C05-N03",
+          "path": "start_images/C05/C05-N03.png",
+          "prompt": "Use case: precise-object-edit / identity-preserve. Make ONE landscape16:9 standalone START FRAME for a live-action absurd low-budget comedy. Use actual reference image(s), preserve exact fictional Korean ADULT actors, faces, hair, costumes, cheap fluorescent-lit office and handmade design. This is INTENTIONALLY crude: corrugated cardboard, wrinkled duct tape, cheap cloth/wigs, exaggerated expressions, green chroma-key fringe and flat pasted-photo clones. Do NOT polish into a glossy corporate advertisement. Keep anatomy coherent, normal faces/hands, separate bodies. No text, captions, logos, numbers, watermarks or panels. Change the scene STATE specified below; the references may show a later result that MUST be withheld at this start.\n\nEDIT pointer-chain photo back to BEFORE THE QUESTION/POINTING. SAME beige male employee, office, fan and three ghost identities, hairstyles, RED/BLUE/YELLOW clips. Fan OFF. A,B,C all have BOTH ARMS LOWERED close to body with relaxed normal hands, NO outstretched arm, NO index finger pointing, NO pointing toward each other, self or blank wall. Faces are mildly uncertain/listening but do not expose the complete blame chain early. Employee ready to ask question. C is again fully covered in long opaque WHITE sheet from neck over legs and FEET, hiding ALL lime/pink tracksuit and ALL shoes; do not show black shoes. Keep blank wall on right, normal photographed room and deliberately green-fringed floating adults. No extra ghost/source at wall. Keep EXACT camera framing and each actor's pixel placement from reference1. In the 1672x941 composition, C face, upper body and future knocking hand must stay inside the existing right-side crop x1020,y140,width650,height366. Do not reframe, resize C or move C toward center. Only lower the pointing arms, relax faces and cover C lower costume/feet.",
+          "refs": [
+            "/home/wooseok/wsy/samsung_related/slide/AI실행결과발표대회_디자인3종/storyboards/2026-10-15_absurd-v2/images/C05/S03.png",
+            "/home/wooseok/wsy/samsung_related/slide/AI실행결과발표대회_디자인3종/storyboards/2026-10-15_absurd-v2/images/C05/S02.png"
+          ],
+          "generated_source": "/home/wooseok/.codex/generated_images/01a13a98-cb83-76a0-9d9b-7895387c47f5/exec-c9c4adb2-aa4d-4408-a9ea-ed06900f3d38.png",
+          "tool": "built_in_image_gen",
+          "qa": {
+            "status": "artist_checked",
+            "viewed": true,
+            "observations": "세귀신모두손내림,지목없음,C의하의/신발완전흰천가림. C위치와빈벽크롭영역유지."
+          },
+          "dimensions": [
+            1672,
+            941
+          ],
+          "sha256": "cdd4eebd998c1ed04a8690ac73172cff0a5a50c4161bd7cdb86bcb8c475cdd99",
+          "absolute_path": "/home/wooseok/wsy/samsung_related/slide/AI실행결과발표대회_디자인3종/flow_handoff/2026-10-15_v2/start_images/C05/C05-N03.png"
+        },
+        {
+          "id": "C05-N04",
+          "path": "start_images/C05/C05-N04.png",
+          "prompt": "Use case: precise-object-edit. EDIT REFERENCE1, the newly prepared fan-OFF START FRAME, into the immediate next WIND-ON state. Preserve EXACT camera, office, actors' faces, RED/BLUE/YELLOW hair clips, relative floating sizes, gray fan position and male employee pose. Reference2 only illustrates the later wind effect; its exposed tracksuit must NOT appear here. Make the fan blow now: gently flutter A/B wigs and sheet edges, make A/B enjoy wind like cheap advertising models. C on RIGHT keeps his entire existing LONG OPAQUE WHITE SHEET securely ON HIS BODY, from neckline all the way below every foot. Let only the OUTER EDGES billow slightly. ZERO fluorescent lime/pink tracksuit, ZERO white shoes, ZERO black trousers or feet visible. Only C face and normal bare hands emerge; white sheet cuffs hide wrists/clothes. C has a smug energetic sales smile, NOT panic. No separate floating cloth, no pulled-off cape, no hole showing inner clothes. No removal starts until the NEXT video action. Preserve deliberately ugly green chroma fringe, costume folds and low-budget pasted-in look; no beautification. Normal anatomy, exactly four real adult Korean actors including seated employee. Single landscape16:9 frame, NO text/logo/watermark.",
+          "refs": [
+            "/home/wooseok/wsy/samsung_related/slide/AI실행결과발표대회_디자인3종/flow_handoff/2026-10-15_v2/start_images/C05/C05-N02.png",
+            "/home/wooseok/wsy/samsung_related/slide/AI실행결과발표대회_디자인3종/storyboards/2026-10-15_absurd-v2/images/C05/S02.png"
+          ],
+          "generated_source": "/home/wooseok/.codex/generated_images/01a13a98-cb83-76a0-9d9b-7895387c47f5/exec-7104ca03-23d0-4388-8148-08838687800b.png",
+          "tool": "built_in_image_gen",
+          "qa": {
+            "status": "artist_checked",
+            "viewed": true,
+            "observations": "팬바람·펄럭임은있지만C의흰천은몸에완전히붙어있고형광복·신발·하의노출0. 별도날아간천없음. 실제새N02의배우/팬/구도유지."
+          },
+          "dimensions": [
+            1672,
+            941
+          ],
+          "sha256": "c80935b150a274f583c27b80287a4b6fe7191074638e2388d06b67ffb9a5d9bf",
+          "absolute_path": "/home/wooseok/wsy/samsung_related/slide/AI실행결과발표대회_디자인3종/flow_handoff/2026-10-15_v2/start_images/C05/C05-N04.png"
+        }
+      ],
+      "tool": "built_in_image_gen",
+      "total": 7,
+      "qa_status": "artist_checked_ready_for_root_review",
+      "flow_executed": false
+    }
+  }
+}

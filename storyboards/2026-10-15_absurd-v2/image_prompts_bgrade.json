@@ -1,0 +1,250 @@
+{
+  "scenes": [
+    {
+      "concept_id": "C04",
+      "scene_id": "S01",
+      "image_path": "images/C04/S01.png",
+      "source_cuts": [
+        "01"
+      ],
+      "prompt": "Use case: ads-marketing. One standalone landscape16:9 storyboard keyframe for an INTENTIONALLY ULTRA-LOW-BUDGET absurd live-action office comedy. Photograph real-looking fictional Korean ADULT actors, NOT cartoons, robots rendered as real machines, animation, polished advertising or elegant cinema. Cheap flat fluorescent light, slightly unflattering consumer-camera wide lens, ordinary lived-in office. Make the craft visibly handmade: crudely cut cardboard or cloth, obvious tape, imperfect costumes, exaggerated facial acting and physical comedy. Where compositing is specified, deliberately mismatched scale/lighting and thin uneven GREEN SCREEN FRINGES are the joke; preserve those artifacts instead of polishing them away. This is deliberate amateur video design, not random AI damage: coherent human faces, normal anatomy, sensible hands, distinct bodies, intact furniture. Single frame, no collage or panels. NO written text, captions, lettering, brands, logos, numbers or watermarks. Blank screens/walls reserved for later edit. Render ONLY the characters explicitly active in this scene; do not add future cast.\n\nC04 fixed cast: employee is a fictional Korean woman around34 with short neat black pixie hair, pale-gray plain button-down shirt, black trousers, ordinary white mug; expressive irritation and disbelief, not a frozen deadpan face. Robot A is a fictional Korean man around32, round face, short straight black hair, face openly visible in a crude corrugated-cardboard head frame. He wears a brown cardboard torso box patched with wrinkled silver duct tape, a crooked RED paper antenna, and two comically SHORT artificial cardboard pincer arms attached at upper chest; his normal real arms stay inside the costume. Black normal human trousers and sneakers visible below. Absolutely no anatomical short-arm deformity: the short arms are clearly props. All dials are blank paper shapes with NO lettering. He acts like an overconfident loud street salesman.\n\nNo source image yet: establish this cast and design.\n\nACTIVE CAST ONLY employee plus Robot A. Medium close wide-lens office-desk view. Employee raises ordinary white coffee mug near face and stares at it with irritated astonishment. A WHOLE REAL-LIFE ACTOR in Robot A costume has been badly scaled down and crudely green-screened onto the MUG RIM, around20cm tall in scene, with face still readable. He spreads his normal legs to balance, waves his tiny cardboard pincer arms toward employee and yells with an absurd open mouth and raised eyebrows. Show uneven green fringe and mismatched source light so he looks like an amateur chroma-key insert, NOT a beautifully realistic toy or miniature robot. Mug, fingers, face and office anatomy remain normal. Laptop and paper clutter may be blurred behind, no words. No Robots B/C in this scene.",
+      "references": [],
+      "motion": "컵 속 축소 로봇이 폴짝 튀어 테두리에서 춤과 삿대질. 직원이 놀라 컵을 살짝 기울이자 로봇이 허둥지둥 균형을 잡는다.",
+      "review_status": "pending",
+      "generation_status": "generated",
+      "representative_moment": "평범한 사무실 책상 앞, 가상의 한국인 성인 직원이 들고 있는 흰 머그잔의 테두리 위에 골판지 로봇 A 배우를 작게 잘라붙인 듯 합성한다. 로봇은 양다리를 벌리고 한 팔로 얼굴을 가리키며 과하게 소리치는 표정, 직원은 컵을 눈높이로 들어 황당하게 본다. 얼굴·손은 정상이고 합성 크기·테두리만 일부러 조악. 16:9, 자막·로고 없음.",
+      "generated_source": "/home/wooseok/.codex/generated_images/01a13a98-cb83-76a0-9d9b-7895387c47f5/exec-7f143f17-7e82-4f16-98f0-dd6e8fe95274.png",
+      "tool_mode": "built_in_image_gen",
+      "artist_check": "Viewed: intentional handmade props, exaggerated expressions and green chroma fringe preserved; coherent anatomy.",
+      "representative_is_video_start": false,
+      "keyframe_timing_note": "컵 테두리에 이미 올라선 대표 순간. 시작 동작은 컵 속에서 올라오기.",
+      "pixel_dimensions": [
+        1672,
+        941
+      ]
+    },
+    {
+      "concept_id": "C04",
+      "scene_id": "S02",
+      "image_path": "images/C04/S02.png",
+      "source_cuts": [
+        "02"
+      ],
+      "prompt": "Use case: ads-marketing. One standalone landscape16:9 storyboard keyframe for an INTENTIONALLY ULTRA-LOW-BUDGET absurd live-action office comedy. Photograph real-looking fictional Korean ADULT actors, NOT cartoons, robots rendered as real machines, animation, polished advertising or elegant cinema. Cheap flat fluorescent light, slightly unflattering consumer-camera wide lens, ordinary lived-in office. Make the craft visibly handmade: crudely cut cardboard or cloth, obvious tape, imperfect costumes, exaggerated facial acting and physical comedy. Where compositing is specified, deliberately mismatched scale/lighting and thin uneven GREEN SCREEN FRINGES are the joke; preserve those artifacts instead of polishing them away. This is deliberate amateur video design, not random AI damage: coherent human faces, normal anatomy, sensible hands, distinct bodies, intact furniture. Single frame, no collage or panels. NO written text, captions, lettering, brands, logos, numbers or watermarks. Blank screens/walls reserved for later edit. Render ONLY the characters explicitly active in this scene; do not add future cast.\n\nC04 fixed cast: employee is a fictional Korean woman around34 with short neat black pixie hair, pale-gray plain button-down shirt, black trousers, ordinary white mug; expressive irritation and disbelief, not a frozen deadpan face. Robot A is a fictional Korean man around32, round face, short straight black hair, face openly visible in a crude corrugated-cardboard head frame. He wears a brown cardboard torso box patched with wrinkled silver duct tape, a crooked RED paper antenna, and two comically SHORT artificial cardboard pincer arms attached at upper chest; his normal real arms stay inside the costume. Black normal human trousers and sneakers visible below. Absolutely no anatomical short-arm deformity: the short arms are clearly props. All dials are blank paper shapes with NO lettering. He acts like an overconfident loud street salesman. Robot B is a fictional Korean woman around36 with straight bob and bangs, a crude matching cardboard torso/head frame, crooked BLUE antenna, normal-length rough cardboard sleeves with real natural hands emerging. Robot C is a fictional Korean man around42, slightly curly short black hair, crude box torso and head frame, crooked YELLOW antenna and exceptionally WIDE light-cardboard shoulder wings. All three have individual expressive real faces; no sealed robot masks. Exactly these three robot actors and the employee, four people total. Distinguish antenna colors and arm/shoulder designs throughout.\n\nUse supplied ACTUAL generated reference images to preserve actors, cardboard designs, RED/BLUE/YELLOW antennas and office. Create NEW scene and action. Do not polish away the intentional amateur cutout effects.\n\nACTIVE CAST employee and original Robots A, B, C. Same fictional Korean actors and cardboard suits. Ordinary old office PHOTOCOPIER with raised lid. Original Robot A is now normal adult size and leans his face awkwardly onto the copier glass, squashing cheek comically but face remains anatomically natural; his short cardboard pincer props rest against copier edge. Original Robot B presses ONE plain unlettered copy button with normal finger, looking overexcited. Original broad-shouldered C waits eagerly behind. Employee with gray shirt and white mug escapes past the side. A scanning glow is visible on glass. From the PAPER OUTPUT TRAY, one obviously FLAT two-dimensional photographic CUTOUT COPY of Robot A pops out, waist-up full costume silhouette like badly pasted video, red antenna and same face, with visible thin bright-green chroma-key fringe and mismatched scale. The copy is an intentional flat pixelated duplicate, NOT a new physical actor or extra human emerging from machine. Show copier glass action, button and output in one wide shot so cause and effect are unmistakable. No lettering on machine, no sheets covered in text. One newly emitted clone only.",
+      "references": [
+        "images/C04/S01.png"
+      ],
+      "motion": "직원이 피함→A 얼굴을 유리에 댐→B 버튼→스캔 빛→첫 복제가 튀어나옴. 복사 버튼과 결과의 인과를 보여준다.",
+      "review_status": "pending",
+      "generation_status": "generated",
+      "representative_moment": "생활감 있는 회사 복도의 복사기 앞. 골판지 로봇 A가 유리판에 얼굴을 대고 B가 버튼을 누른다. 배출구 옆에서 A와 같은 평면 잘라붙이기 복제 하나가 툭 튀어나온 순간. 직원은 춤 동선을 빠져나가고 있다. 복제의 해상도·초록 테두리·크기 불일치는 의도적인 저예산 효과. 손과 얼굴은 읽히고 별도 문자는 없다. 16:9.",
+      "generated_source": "/home/wooseok/.codex/generated_images/01a13a98-cb83-76a0-9d9b-7895387c47f5/exec-116dbc1b-4327-4d1f-aa39-839f2f98bcf0.png",
+      "tool_mode": "built_in_image_gen",
+      "artist_check": "Viewed: copier-button-to-flat-clone cause/effect and fan costume reveal readable; intentional chroma fringe kept.",
+      "representative_is_video_start": false,
+      "keyframe_timing_note": "첫 복제가 배출되는 대표 순간. 시작 동작은 A 얼굴을 유리에 대고 B가 버튼 누르기.",
+      "pixel_dimensions": [
+        1672,
+        941
+      ]
+    },
+    {
+      "concept_id": "C04",
+      "scene_id": "S03",
+      "image_path": "images/C04/S03.png",
+      "source_cuts": [
+        "03"
+      ],
+      "prompt": "Use case: ads-marketing. One standalone landscape16:9 storyboard keyframe for an INTENTIONALLY ULTRA-LOW-BUDGET absurd live-action office comedy. Photograph real-looking fictional Korean ADULT actors, NOT cartoons, robots rendered as real machines, animation, polished advertising or elegant cinema. Cheap flat fluorescent light, slightly unflattering consumer-camera wide lens, ordinary lived-in office. Make the craft visibly handmade: crudely cut cardboard or cloth, obvious tape, imperfect costumes, exaggerated facial acting and physical comedy. Where compositing is specified, deliberately mismatched scale/lighting and thin uneven GREEN SCREEN FRINGES are the joke; preserve those artifacts instead of polishing them away. This is deliberate amateur video design, not random AI damage: coherent human faces, normal anatomy, sensible hands, distinct bodies, intact furniture. Single frame, no collage or panels. NO written text, captions, lettering, brands, logos, numbers or watermarks. Blank screens/walls reserved for later edit. Render ONLY the characters explicitly active in this scene; do not add future cast.\n\nC04 fixed cast: employee is a fictional Korean woman around34 with short neat black pixie hair, pale-gray plain button-down shirt, black trousers, ordinary white mug; expressive irritation and disbelief, not a frozen deadpan face. Robot A is a fictional Korean man around32, round face, short straight black hair, face openly visible in a crude corrugated-cardboard head frame. He wears a brown cardboard torso box patched with wrinkled silver duct tape, a crooked RED paper antenna, and two comically SHORT artificial cardboard pincer arms attached at upper chest; his normal real arms stay inside the costume. Black normal human trousers and sneakers visible below. Absolutely no anatomical short-arm deformity: the short arms are clearly props. All dials are blank paper shapes with NO lettering. He acts like an overconfident loud street salesman. Robot B is a fictional Korean woman around36 with straight bob and bangs, a crude matching cardboard torso/head frame, crooked BLUE antenna, normal-length rough cardboard sleeves with real natural hands emerging. Robot C is a fictional Korean man around42, slightly curly short black hair, crude box torso and head frame, crooked YELLOW antenna and exceptionally WIDE light-cardboard shoulder wings. All three have individual expressive real faces; no sealed robot masks. Exactly these three robot actors and the employee, four people total. Distinguish antenna colors and arm/shoulder designs throughout.\n\nUse supplied ACTUAL generated reference images to preserve actors, cardboard designs, RED/BLUE/YELLOW antennas and office. Create NEW scene and action. Do not polish away the intentional amateur cutout effects.\n\nACTIVE CAST same employee and original Robots A, B, C, plus THREE clearly FLAT pasted-photo duplicates of original Robot A. Wide shot of OPEN office elevator at same corridor. Original A(red antenna), B(blue antenna) and C(yellow antenna, very wide light-cardboard shoulder wings) fill the doorway, plus two flat A copies jammed behind at deliberately inconsistent sizes. C shoulder PROP wings lightly catch doorway sides while his human body remains free, elevator door held fully OPEN. C chin dramatically high, heroic stupidly proud face. A third thin flat copy OUTSIDE elevator attempts to slip sideways through remaining gap. Employee with gray shirt and same mug stands OUTSIDE, turning away in exasperation. Actual originals are coherent dimensional human actors, paper/video clones are obvious green-fringed, lower-resolution 2D inserts with exactly A face/costume. No physical body fusion or extra fingers. Cheap cardboard, floppy tape, bold expressions, crowded ridiculous composition, not elegant corporate ad.",
+      "references": [
+        "images/C04/S01.png",
+        "images/C04/S02.png"
+      ],
+      "motion": "엘리베이터 열림→가득 찬 원형과 복제들 공개→마지막 복제 비집기와 C 어깨 걸림→직원 방향 전환. 실제 몸이 아니라 골판지 소품이 걸린다.",
+      "review_status": "pending",
+      "generation_status": "generated",
+      "representative_moment": "같은 복도와 연결된 열린 엘리베이터. 원형 A·B·C 골판지 로봇과 A의 평면 복제들이 어색하게 꽉 차 있다. C의 큰 어깨는 문틀에 걸리고 얼굴만 영웅적. 문 밖 마지막 평면 복제 하나가 옆으로 비집고 들어가려 한다. 연회색 셔츠 직원은 문 밖에서 돌아서려 한다. 의도적인 조악한 복제 합성과 싸구려 소품, 16:9.",
+      "generated_source": "/home/wooseok/.codex/generated_images/01a13a98-cb83-76a0-9d9b-7895387c47f5/exec-582c22c7-80be-4458-94c0-95aa2090831b.png",
+      "tool_mode": "built_in_image_gen",
+      "artist_check": "Viewed: originals A/B/C and three flat A clones distinct, oversized C shoulders and last clone at doorway readable.",
+      "representative_is_video_start": false,
+      "keyframe_timing_note": "문이 열린 뒤 포화 상태와 마지막 복제가 비집는 대표 순간.",
+      "pixel_dimensions": [
+        1672,
+        941
+      ]
+    },
+    {
+      "concept_id": "C04",
+      "scene_id": "S04",
+      "image_path": "images/C04/S04.png",
+      "source_cuts": [
+        "04",
+        "05",
+        "06"
+      ],
+      "prompt": "Use case: ads-marketing. One standalone landscape16:9 storyboard keyframe for an INTENTIONALLY ULTRA-LOW-BUDGET absurd live-action office comedy. Photograph real-looking fictional Korean ADULT actors, NOT cartoons, robots rendered as real machines, animation, polished advertising or elegant cinema. Cheap flat fluorescent light, slightly unflattering consumer-camera wide lens, ordinary lived-in office. Make the craft visibly handmade: crudely cut cardboard or cloth, obvious tape, imperfect costumes, exaggerated facial acting and physical comedy. Where compositing is specified, deliberately mismatched scale/lighting and thin uneven GREEN SCREEN FRINGES are the joke; preserve those artifacts instead of polishing them away. This is deliberate amateur video design, not random AI damage: coherent human faces, normal anatomy, sensible hands, distinct bodies, intact furniture. Single frame, no collage or panels. NO written text, captions, lettering, brands, logos, numbers or watermarks. Blank screens/walls reserved for later edit. Render ONLY the characters explicitly active in this scene; do not add future cast.\n\nC04 fixed cast: employee is a fictional Korean woman around34 with short neat black pixie hair, pale-gray plain button-down shirt, black trousers, ordinary white mug; expressive irritation and disbelief, not a frozen deadpan face. Robot A is a fictional Korean man around32, round face, short straight black hair, face openly visible in a crude corrugated-cardboard head frame. He wears a brown cardboard torso box patched with wrinkled silver duct tape, a crooked RED paper antenna, and two comically SHORT artificial cardboard pincer arms attached at upper chest; his normal real arms stay inside the costume. Black normal human trousers and sneakers visible below. Absolutely no anatomical short-arm deformity: the short arms are clearly props. All dials are blank paper shapes with NO lettering. He acts like an overconfident loud street salesman. Robot B is a fictional Korean woman around36 with straight bob and bangs, a crude matching cardboard torso/head frame, crooked BLUE antenna, normal-length rough cardboard sleeves with real natural hands emerging. Robot C is a fictional Korean man around42, slightly curly short black hair, crude box torso and head frame, crooked YELLOW antenna and exceptionally WIDE light-cardboard shoulder wings. All three have individual expressive real faces; no sealed robot masks. Exactly these three robot actors and the employee, four people total. Distinguish antenna colors and arm/shoulder designs throughout.\n\nUse supplied actual generated image(s) as cast/costume/location references. Preserve identity; change action and framing to the NEW scene below. Keep deliberate B-grade visual defects.\n\nACTIVE CAST same four adults. SAME lived-in office desk as S01. Pale-gray-shirt employee sits at desk and calmly-but-bemusedly turns open plain silver laptop toward three cardboard robots; visible screen completely blank for later case-heading compositing, no fake numbers/data. ALL THREE robots react with extremely oversized shock: bulging ordinary eyes and open mouths, flailing PROP arms, bodies leaning backward at staggered comic angles just BEFORE falling onto cheap silver floor mats. A at front initiates backwards fall, B and broad-shouldered C one beat behind. Keep their box costumes/RED BLUE YELLOW antennas exactly consistent with S02, human legs coherent. One cardboard lid slightly flaps open. This is a clumsy physical-comedy stunt freeze, NOT tidy posed promotional portrait, NOT injury, NOT horror. The image is the representative shock beat; later shots include landing and jumping back up. Background must retain THREE flat green-fringed photographic Robot-A clones from copier scene, smaller behind originals, tilting/falling like paper dominoes. They are 2D duplicates, not new human actors. Do not erase the clones.",
+      "references": [
+        "images/C04/S02.png",
+        "images/C04/S03.png"
+      ],
+      "motion": "직원이 노트북을 돌려 보여줌→A가 경악해 뒤로 자빠짐→B·C가 한 박자 늦게 따라 넘어짐→갑자기 벌떡 일어나 어떻게 챈트로 직원의 소매에 가볍게 매달림. 몸개그는 과장된 점프컷으로 연결.",
+      "review_status": "pending",
+      "generation_status": "generated",
+      "representative_moment": "사무실 책상에서 연회색 셔츠 직원이 열린 은색 노트북을 로봇들에게 돌려 보여준다. 화면은 후속 편집을 위한 단순 빈 면이며 수치·그래프를 만들지 않는다. 같은 골판지 로봇 세 명은 크게 경악하여 뒤로 넘어지기 직전 서로 다른 각도로 기울고 두 팔을 휘젓는다. 바닥에는 싸구려 은색 매트, 한 로봇의 골판지 뚜껑이 살짝 열린다. 과장된 스턴트 코미디 정지 순간, 정상 인체, 16:9. 뒤쪽에는 평면 복제 몇 개가 함께 넘어지는 모습이 작게 남는다.",
+      "generated_source": "/home/wooseok/.codex/generated_images/01a13a98-cb83-76a0-9d9b-7895387c47f5/exec-7bb38cd7-4970-4ed6-afb1-59c7a06769d7.png",
+      "tool_mode": "built_in_image_gen",
+      "artist_check": "Original trio and flat clones retained in exaggerated backward-shock action.",
+      "representative_is_video_start": false,
+      "keyframe_timing_note": "실제 적용을 해봤다는 말 뒤 로봇들이 넘어지기 직전의 대표 순간. 노트북 공개 동작보다 뒤.",
+      "pixel_dimensions": [
+        1672,
+        941
+      ]
+    },
+    {
+      "concept_id": "C04",
+      "scene_id": "S05",
+      "image_path": "images/C04/S05.png",
+      "source_cuts": [
+        "07",
+        "08",
+        "09"
+      ],
+      "prompt": "Use case: ads-marketing. One standalone landscape16:9 storyboard keyframe for an INTENTIONALLY ULTRA-LOW-BUDGET absurd live-action office comedy. Photograph real-looking fictional Korean ADULT actors, NOT cartoons, robots rendered as real machines, animation, polished advertising or elegant cinema. Cheap flat fluorescent light, slightly unflattering consumer-camera wide lens, ordinary lived-in office. Make the craft visibly handmade: crudely cut cardboard or cloth, obvious tape, imperfect costumes, exaggerated facial acting and physical comedy. Where compositing is specified, deliberately mismatched scale/lighting and thin uneven GREEN SCREEN FRINGES are the joke; preserve those artifacts instead of polishing them away. This is deliberate amateur video design, not random AI damage: coherent human faces, normal anatomy, sensible hands, distinct bodies, intact furniture. Single frame, no collage or panels. NO written text, captions, lettering, brands, logos, numbers or watermarks. Blank screens/walls reserved for later edit. Render ONLY the characters explicitly active in this scene; do not add future cast.\n\nC04 fixed cast: employee is a fictional Korean woman around34 with short neat black pixie hair, pale-gray plain button-down shirt, black trousers, ordinary white mug; expressive irritation and disbelief, not a frozen deadpan face. Robot A is a fictional Korean man around32, round face, short straight black hair, face openly visible in a crude corrugated-cardboard head frame. He wears a brown cardboard torso box patched with wrinkled silver duct tape, a crooked RED paper antenna, and two comically SHORT artificial cardboard pincer arms attached at upper chest; his normal real arms stay inside the costume. Black normal human trousers and sneakers visible below. Absolutely no anatomical short-arm deformity: the short arms are clearly props. All dials are blank paper shapes with NO lettering. He acts like an overconfident loud street salesman. Robot B is a fictional Korean woman around36 with straight bob and bangs, a crude matching cardboard torso/head frame, crooked BLUE antenna, normal-length rough cardboard sleeves with real natural hands emerging. Robot C is a fictional Korean man around42, slightly curly short black hair, crude box torso and head frame, crooked YELLOW antenna and exceptionally WIDE light-cardboard shoulder wings. All three have individual expressive real faces; no sealed robot masks. Exactly these three robot actors and the employee, four people total. Distinguish antenna colors and arm/shoulder designs throughout.\n\nUse supplied actual generated image(s) as cast/costume/location references. Preserve identity; change action and framing to the NEW scene below. Keep deliberate B-grade visual defects.\n\nACTIVE CAST same four adults. Small cheap company presentation corner: plastic chairs, plain screen, bare fluorescent ceiling, no ceremony décor. Employee stands behind with basic microphone beside blank screen. Three SAME cardboard robot adults sit in front row, imperfect costumes and RED BLUE YELLOW antennas unchanged. Robot A has a blank notebook on knees but his deliberately SHORT CARDBOARD PINCER PROPS cannot reach it; he twists entire box torso and looks furiously helpless, then leans toward Robot B as if dictating. Normal human arms remain inside A costume. Robot B uses NORMAL real hands through normal cardboard sleeves to write in own blank notebook, elbow protectively drawing it toward chest and skeptical side-eye at A. C nods absurdly seriously. All human faces/anatomy normal. Keep ample EMPTY screen for later event title. Handmade low-budget aesthetic, not polished commercial photography. Retain the THREE clearly FLAT photographic Robot-A clones seated in a small rear row in background, with their low-resolution green fringes and RED antennas. Original A/B/C remain main front row. Clones are intentional 2D inserts, not new extras. Do not erase clones between scenes.",
+      "references": [
+        "images/C04/S02.png",
+        "images/C04/S04.png"
+      ],
+      "motion": "수첩을 펼치자마자 A의 팔이 닿지 않음→몸통을 접으려다 골판지만 구겨짐→B에게 받아쓰기 요구→B는 자기 수첩 지킴. 배경 복제들은 조용히 따라 필기. 마지막 행사명 6초.",
+      "review_status": "pending",
+      "generation_status": "generated",
+      "representative_moment": "작은 사내 발표 공간. 연회색 셔츠 직원이 마이크를 들고 뒤쪽 빈 스크린 옆에 서 있고, 앞쪽 플라스틱 의자 세 개에는 같은 골판지 로봇들이 그대로 앉아 있다. 로봇 A는 무릎 위 수첩에 닿지 않는 짧은 소품 팔을 허우적거리며 입으로 받아쓰기를 시키고, 옆 B는 정상 길이 팔로 자기 수첩에 적으며 A를 옆눈으로 본다. C는 이미 고개를 크게 끄덕인다. 빈 스크린은 행사명 후속 합성 여백. 16:9 무문자. 뒷줄에는 앞 장면의 납작한 복제들이 작게 착석해 사라지지 않았음을 보인다.",
+      "generated_source": "/home/wooseok/.codex/generated_images/01a13a98-cb83-76a0-9d9b-7895387c47f5/exec-4a48fedc-c0f4-4459-bcd9-011fed956b25.png",
+      "tool_mode": "built_in_image_gen",
+      "artist_check": "Short prop arms fail to reach notebook; B protects notes; flat clones persist in rear row.",
+      "representative_is_video_start": false,
+      "keyframe_timing_note": "필기를 못 하는 A와 B의 반응 대표 순간. 앞줄 착석 후 수첩 펼치는 동작보다 뒤.",
+      "pixel_dimensions": [
+        1672,
+        941
+      ]
+    },
+    {
+      "concept_id": "C05",
+      "scene_id": "S01",
+      "image_path": "images/C05/S01-v2.png",
+      "source_cuts": [
+        "01",
+        "02"
+      ],
+      "prompt": "Use case: precise-object-edit. Reference1 is the EDIT TARGET, keep its exact composition, camera, faces, poses, room, fan-off state, exaggerated sales acting and deliberately rough GREEN CHROMA FRINGES. Reference2 is ONLY a wardrobe-continuity reference for ghost C, the right-side YELLOW-HAIR-CLIP performer. Make ONE LOCAL correction to reference1: extend ghost C's loose WHITE SHEET downward to hide ALL of his black trousers and black shoes completely, forming a long loose floating sheet that covers legs and feet. His full fluorescent tracksuit from reference2 is beneath the sheet but must remain entirely HIDDEN in this first scene. It will be revealed later. Keep C face, wig, YELLOW clip, raised normal hands and exact position unchanged. Do not change ghost A or B, their exposed black pants/shoes, employee, fan or office. Preserve the amateur pasted cutout edges and scale mismatches, no beautification. Single landscape16:9 image; no text or logos.",
+      "references": [
+        "images/C05/S01.png",
+        "images/C05/S02.png"
+      ],
+      "motion": "A 얼굴이 천장에 뚝 나타남→직원이 관심 보임→B가 서랍 위, C가 복사기 옆에 각기 다른 크기로 툭 추가. 각자 광고 세일즈 손짓.",
+      "review_status": "pending",
+      "generation_status": "generated",
+      "representative_moment": "조금 생활감 있는 사무실 책상. 가상의 한국인 성인 직원은 베이지 니트·검은 바지 차림으로 앉아 위를 본다. 천장 가까이 귀신 A의 큰 얼굴과 흰 천 상체가 조악하게 잘라 붙여져 과장된 판매 표정. 귀신 B는 열린 서랍 위에 작은 몸으로, 귀신 C는 복사기 옆에 비뚤어진 높이로 떠 있다. 세 귀신의 얼굴·몸·손은 정상이고 크기·경계·그림자 불일치만 의도적. 16:9 자막·로고 없음.",
+      "generated_source": "/home/wooseok/.codex/generated_images/01a13a98-cb83-76a0-9d9b-7895387c47f5/exec-d5aacfc8-e296-487b-9b6d-349e8b56d598.png",
+      "tool_mode": "built_in_image_gen",
+      "artist_check": "Corrected C first-scene white cape fully conceals lower clothes, consistent with later tracksuit reveal.",
+      "revision_history": [
+        {
+          "image_path": "images/C05/S01.png",
+          "prompt": "Use case: ads-marketing. One standalone landscape16:9 storyboard keyframe for an INTENTIONALLY ULTRA-LOW-BUDGET absurd live-action office comedy. Photograph real-looking fictional Korean ADULT actors, NOT cartoons, robots rendered as real machines, animation, polished advertising or elegant cinema. Cheap flat fluorescent light, slightly unflattering consumer-camera wide lens, ordinary lived-in office. Make the craft visibly handmade: crudely cut cardboard or cloth, obvious tape, imperfect costumes, exaggerated facial acting and physical comedy. Where compositing is specified, deliberately mismatched scale/lighting and thin uneven GREEN SCREEN FRINGES are the joke; preserve those artifacts instead of polishing them away. This is deliberate amateur video design, not random AI damage: coherent human faces, normal anatomy, sensible hands, distinct bodies, intact furniture. Single frame, no collage or panels. NO written text, captions, lettering, brands, logos, numbers or watermarks. Blank screens/walls reserved for later edit. Render ONLY the characters explicitly active in this scene; do not add future cast.\n\nC05 fixed cast: employee is a fictional Korean man around35, short neat black hair, beige knit sweater, black trousers. Exactly THREE bogus ghost performers in cheap white bed-sheet capes, black trousers and inexpensive black wigs: A is a Korean man around45 with broad expressive face, long messy wig held by RED plastic hair clip; B is a Korean woman around34 with short blunt black wig and BLUE clip; C is a Korean man around30 with narrow face, obviously crooked shoulder-length black wig held by YELLOW clip. They are living adult performers acting an exaggerated infomercial, not dead people, gore, scary monsters, religious figures or demonic beings. Normal eyes, mouths, bodies and fingers. A brags theatrically, B competes with sales gestures, C is shameless and nervous when challenged. Office geography: wood-laminate desk left, open drawer, ordinary copier at rear, large completely BLANK pale wall to right, cheap gray pedestal fan in foreground. Preserve actors, clips, capes, office and fan. Composited ghosts have knowingly crude green-fringed cutout edges, mismatched scale and missing/inconsistent shadows; real photographed employee and office remain intact.\n\nNo source image yet: establish this cast and design.\n\nACTIVE CAST same employee and three specified ghosts. Wide desk shot: beige-sweater employee seated below looking upward with alert curiosity. A appears near ceiling as an oversized floating real-actor face and sheet-covered torso cut out BADLY at roughly150percent normal size, loudly selling something with dramatic outstretched arms. B is poorly composited at about65percent normal adult scale hovering above open desk drawer. C is normal adult scale hovering off-kilter near copier, interrupting with broad sales gesture. They are not three separate panels: all crudely layered into ONE ordinary office photograph. Thin uneven GREEN fringe, different lighting and knowingly absent contact shadows must be obvious. Entire each actor remains coherent. Pedestal fan visible but switched off. No horror, translucency, elegant supernatural mist, writing or extra cast.",
+          "references": [],
+          "generated_source": "/home/wooseok/.codex/generated_images/01a13a98-cb83-76a0-9d9b-7895387c47f5/exec-d681e5b4-51f2-484a-94b6-16ccd32d2c22.png"
+        }
+      ],
+      "representative_is_video_start": false,
+      "keyframe_timing_note": "세 귀신이 모두 등장한 대표 순간. 첫 컷에는 A만 먼저 등장.",
+      "pixel_dimensions": [
+        1672,
+        941
+      ]
+    },
+    {
+      "concept_id": "C05",
+      "scene_id": "S02",
+      "image_path": "images/C05/S02.png",
+      "source_cuts": [
+        "03",
+        "04"
+      ],
+      "prompt": "Use case: ads-marketing. One standalone landscape16:9 storyboard keyframe for an INTENTIONALLY ULTRA-LOW-BUDGET absurd live-action office comedy. Photograph real-looking fictional Korean ADULT actors, NOT cartoons, robots rendered as real machines, animation, polished advertising or elegant cinema. Cheap flat fluorescent light, slightly unflattering consumer-camera wide lens, ordinary lived-in office. Make the craft visibly handmade: crudely cut cardboard or cloth, obvious tape, imperfect costumes, exaggerated facial acting and physical comedy. Where compositing is specified, deliberately mismatched scale/lighting and thin uneven GREEN SCREEN FRINGES are the joke; preserve those artifacts instead of polishing them away. This is deliberate amateur video design, not random AI damage: coherent human faces, normal anatomy, sensible hands, distinct bodies, intact furniture. Single frame, no collage or panels. NO written text, captions, lettering, brands, logos, numbers or watermarks. Blank screens/walls reserved for later edit. Render ONLY the characters explicitly active in this scene; do not add future cast.\n\nC05 fixed cast: employee is a fictional Korean man around35, short neat black hair, beige knit sweater, black trousers. Exactly THREE bogus ghost performers in cheap white bed-sheet capes, black trousers and inexpensive black wigs: A is a Korean man around45 with broad expressive face, long messy wig held by RED plastic hair clip; B is a Korean woman around34 with short blunt black wig and BLUE clip; C is a Korean man around30 with narrow face, obviously crooked shoulder-length black wig held by YELLOW clip. They are living adult performers acting an exaggerated infomercial, not dead people, gore, scary monsters, religious figures or demonic beings. Normal eyes, mouths, bodies and fingers. A brags theatrically, B competes with sales gestures, C is shameless and nervous when challenged. Office geography: wood-laminate desk left, open drawer, ordinary copier at rear, large completely BLANK pale wall to right, cheap gray pedestal fan in foreground. Preserve actors, clips, capes, office and fan. Composited ghosts have knowingly crude green-fringed cutout edges, mismatched scale and missing/inconsistent shadows; real photographed employee and office remain intact.\n\nUse supplied actual generated image(s) as cast/costume/location references. Preserve identity; change action and framing to the NEW scene below. Keep deliberate B-grade visual defects.\n\nACTIVE CAST exact SAME four actors and SAME office as S01. Employee holds SAME gray pedestal fan aimed at three ghosts. A and B enjoy the wind in ridiculous infomercial-model poses, long wig/white cape dramatically fluttering, RED and BLUE clips fixed. Main comic action: Ghost C (SAME crooked black wig, YELLOW clip, SAME face) has his loose white sheet cape BLOWN AWAY, exposing a COMPLETE NEON-LIME AND HOT-PINK TRACKSUIT with full zipped top, sleeves and long trousers. C remains entirely clothed, no nudity or underwear. His theatrical confidence collapses into exaggerated panic; he reaches with two normal hands to catch the runaway sheet floating just beside him, away from fan blades and faces. Body below cape should be normal real adult actor in inexpensive fluorescent gym clothes. Preserve same identity and deliberate amateur150/65/100percent mismatched ghost scales from S01. Green fringe, clumsy pasted compositing and absent shadows obvious, not beautiful supernatural mist. The joke is bogus ghost costume blown off to reveal cheap sportswear. Fan remains physical ordinary prop. Four actual people only.",
+      "references": [
+        "images/C05/S01.png"
+      ],
+      "motion": "처음엔 바람을 광고 효과로 즐김→자리 다툼→C 흰 천 이탈, 운동복 드러남→급히 다시 덮음→즉시 영업 말투로 복귀. 선풍기는 다음 씬에서 끈다.",
+      "review_status": "pending",
+      "generation_status": "generated",
+      "representative_moment": "같은 사무실에서 직원이 회색 선풍기를 돌린다. 귀신 A와 B는 바람에 가발과 흰 천을 펼치며 과장된 광고 모델 포즈. 귀신 C는 흰 천이 바람에 벗겨져 온전히 입은 형광색 운동복이 드러난 채, 당황해 날아간 흰 천을 급히 잡으려 두 손을 뻗는다. 얼굴과 가발·집게핀은 같은 C. 부유 합성의 초록 테두리와 잘라붙이기 흔적을 일부러 남긴 B급 단일 프레임. 16:9, 글자 없음.",
+      "generated_source": "/home/wooseok/.codex/generated_images/01a13a98-cb83-76a0-9d9b-7895387c47f5/exec-abe726c3-16dd-463b-a1c6-ce7ed2660756.png",
+      "tool_mode": "built_in_image_gen",
+      "artist_check": "Viewed: copier-button-to-flat-clone cause/effect and fan costume reveal readable; intentional chroma fringe kept.",
+      "representative_is_video_start": false,
+      "keyframe_timing_note": "C 흰천이 날아가 운동복이 드러난 대표 순간. 바람을 즐기는 첫 동작보다 뒤.",
+      "pixel_dimensions": [
+        1672,
+        941
+      ]
+    },
+    {
+      "concept_id": "C05",
+      "scene_id": "S03",
+      "image_path": "images/C05/S03.png",
+      "source_cuts": [
+        "05",
+        "06",
+        "07"
+      ],
+      "prompt": "Use case: ads-marketing. One standalone landscape16:9 storyboard keyframe for an INTENTIONALLY ULTRA-LOW-BUDGET absurd live-action office comedy. Photograph real-looking fictional Korean ADULT actors, NOT cartoons, robots rendered as real machines, animation, polished advertising or elegant cinema. Cheap flat fluorescent light, slightly unflattering consumer-camera wide lens, ordinary lived-in office. Make the craft visibly handmade: crudely cut cardboard or cloth, obvious tape, imperfect costumes, exaggerated facial acting and physical comedy. Where compositing is specified, deliberately mismatched scale/lighting and thin uneven GREEN SCREEN FRINGES are the joke; preserve those artifacts instead of polishing them away. This is deliberate amateur video design, not random AI damage: coherent human faces, normal anatomy, sensible hands, distinct bodies, intact furniture. Single frame, no collage or panels. NO written text, captions, lettering, brands, logos, numbers or watermarks. Blank screens/walls reserved for later edit. Render ONLY the characters explicitly active in this scene; do not add future cast.\n\nC05 fixed cast: employee is a fictional Korean man around35, short neat black hair, beige knit sweater, black trousers. Exactly THREE bogus ghost performers in cheap white bed-sheet capes, black trousers and inexpensive black wigs: A is a Korean man around45 with broad expressive face, long messy wig held by RED plastic hair clip; B is a Korean woman around34 with short blunt black wig and BLUE clip; C is a Korean man around30 with narrow face, obviously crooked shoulder-length black wig held by YELLOW clip. They are living adult performers acting an exaggerated infomercial, not dead people, gore, scary monsters, religious figures or demonic beings. Normal eyes, mouths, bodies and fingers. A brags theatrically, B competes with sales gestures, C is shameless and nervous when challenged. Office geography: wood-laminate desk left, open drawer, ordinary copier at rear, large completely BLANK pale wall to right, cheap gray pedestal fan in foreground. Preserve actors, clips, capes, office and fan. Composited ghosts have knowingly crude green-fringed cutout edges, mismatched scale and missing/inconsistent shadows; real photographed employee and office remain intact.\n\nUse supplied actual generated image(s) as cast/costume/location references. Preserve identity; change action and framing to the NEW scene below. Keep deliberate B-grade visual defects.\n\nACTIVE CAST exact same four actors. Wide straight-on frame against SAME office BLANK wall; fan OFF, cloth/hair now droop. Employee at far left watches with dry disbelief. Compose one UNBROKEN POINTER CHAIN: ghost A on left visibly points one ordinary index finger toward ghost B in middle; B panics and points toward ghost C farther right; C confidently points to a COMPLETELY EMPTY stretch of wall on far right. Allow large empty wall space at end of chain, absolutely NO fourth ghost, hidden source, picture, person or writing there. A/B/C faces have escalating shifty guilty-looking salesmen expressions, not horror. Preserve white capes, wigs, RED/BLUE/YELLOW clips and intentional green-fringed low-budget floating composite. Hands should be normal and pointing directions unambiguous. The joke is nobody has a firsthand source. C has hurriedly PUT THE SAME WHITE SHEET BACK ON after S02: fluorescent lime/pink tracksuit remains underneath, mostly covered. Same crooked wig and YELLOW clip. Do not keep him cape-less in this scene.",
+      "references": [
+        "images/C05/S01-v2.png",
+        "images/C05/S02.png"
+      ],
+      "motion": "직접 해본 사람 질문→A가 B를 가리킴→B가 C를 가리킴→C가 옆의 빈 벽을 가리킴→카메라가 마지막 손가락을 따라 빈 벽까지 이동→C가 벽을 조심스럽게 두드려보나 아무도 없음.",
+      "review_status": "pending",
+      "generation_status": "generated",
+      "representative_moment": "같은 사무실의 텅 빈 벽 앞 와이드. 선풍기는 꺼져 있다. 직원이 화면 한쪽에서 세 귀신을 본다. A는 B를, B는 C를, C는 자기 옆의 아무것도 없는 흰 벽을 가리킨다. 얼굴은 서로 눈치를 보며 점점 다급해진다. 마지막 손가락 끝에 넓게 비어 있는 벽을 충분히 보여준다. 부유 합성 테두리·흰 천은 유지. 16:9 무문자.",
+      "generated_source": "/home/wooseok/.codex/generated_images/01a13a98-cb83-76a0-9d9b-7895387c47f5/exec-892074f6-a0cc-405d-b935-3cebf8ad1897.png",
+      "tool_mode": "built_in_image_gen",
+      "artist_check": "A-to-B-to-C-to-empty-wall pointer chain readable; white cape restored on C.",
+      "representative_is_video_start": false,
+      "keyframe_timing_note": "A→B→C→빈 벽 손가락 사슬 완성 대표 순간. 질문 후 순서대로 가리키기.",
+      "pixel_dimensions": [
+        1671,
+        941
+      ]
+    },
+    {
+      "concept_id": "C05",
+      "scene_id": "S04",
+      "image_path": "images/C05/S04.png",
+      "source_cuts": [
+        "08",
+        "09"
+      ],
+      "prompt": "Use case: ads-marketing. One standalone landscape16:9 storyboard keyframe for an INTENTIONALLY ULTRA-LOW-BUDGET absurd live-action office comedy. Photograph real-looking fictional Korean ADULT actors, NOT cartoons, robots rendered as real machines, animation, polished advertising or elegant cinema. Cheap flat fluorescent light, slightly unflattering consumer-camera wide lens, ordinary lived-in office. Make the craft visibly handmade: crudely cut cardboard or cloth, obvious tape, imperfect costumes, exaggerated facial acting and physical comedy. Where compositing is specified, deliberately mismatched scale/lighting and thin uneven GREEN SCREEN FRINGES are the joke; preserve those artifacts instead of polishing them away. This is deliberate amateur video design, not random AI damage: coherent human faces, normal anatomy, sensible hands, distinct bodies, intact furniture. Single frame, no collage or panels. NO written text, captions, lettering, brands, logos, numbers or watermarks. Blank screens/walls reserved for later edit. Render ONLY the characters explicitly active in this scene; do not add future cast.\n\nC05 fixed cast: employee is a fictional Korean man around35, short neat black hair, beige knit sweater, black trousers. Exactly THREE bogus ghost performers in cheap white bed-sheet capes, black trousers and inexpensive black wigs: A is a Korean man around45 with broad expressive face, long messy wig held by RED plastic hair clip; B is a Korean woman around34 with short blunt black wig and BLUE clip; C is a Korean man around30 with narrow face, obviously crooked shoulder-length black wig held by YELLOW clip. They are living adult performers acting an exaggerated infomercial, not dead people, gore, scary monsters, religious figures or demonic beings. Normal eyes, mouths, bodies and fingers. A brags theatrically, B competes with sales gestures, C is shameless and nervous when challenged. Office geography: wood-laminate desk left, open drawer, ordinary copier at rear, large completely BLANK pale wall to right, cheap gray pedestal fan in foreground. Preserve actors, clips, capes, office and fan. Composited ghosts have knowingly crude green-fringed cutout edges, mismatched scale and missing/inconsistent shadows; real photographed employee and office remain intact.\n\nUse supplied actual generated image(s) as cast/costume/location references. Preserve identity; change action and framing to the NEW scene below. Keep deliberate B-grade visual defects.\n\nACTIVE CAST same four actors. Tiny cheap company presentation space, plastic chairs, large blank screen. A, B and C now sit at NORMAL HUMAN SCALE in three front-row plastic chairs after a deliberate jump-cut costume change. EXACT same recognizable wigs and RED/BLUE/YELLOW clips remain; each has simply pulled a cheap black suit jacket over the white sheet cape folded at shoulders. C unexpectedly points firmly at HIS OWN CHEST with a proudly self-discovered facial expression. A and B turn to him with comic startled disbelief, as if he has finally stated his own opinion. Employee in same beige sweater stands at aisle gesturing to empty screen and seats. Do not add real presenter or other audience. Slight remaining green compositing fringe may persist around wig/cape edges but intact anatomy. Large clear blank screen for later event title. Shamelessly cheap staging, no glamorous light.",
+      "references": [
+        "images/C05/S01-v2.png",
+        "images/C05/S03.png"
+      ],
+      "motion": "점프컷 환복 후 앞줄 착석→C가 이건 들어야겠더라→A가 누가라고 되묻자 C가 처음으로 자기 가슴을 짚음→세 사람 반응 정지 후 6초 행사명·초대 합성.",
+      "review_status": "pending",
+      "generation_status": "generated",
+      "representative_moment": "작은 사내 발표 공간의 앞줄. 같은 귀신 A·B·C가 흰 천을 어깨에 접고 값싼 검은 정장 재킷만 덧입어 플라스틱 의자에 앉았다. 가발과 색 집게핀은 그대로. C가 처음으로 자기 가슴을 자신 있게 가리키고, A·B는 놀라 C를 본다. 직원은 옆 통로에서 빈 스크린을 가리켜 자리를 안내한다. 무대 스크린은 행사명 후속 합성을 위한 빈 면. 16:9 무문자.",
+      "generated_source": "/home/wooseok/.codex/generated_images/01a13a98-cb83-76a0-9d9b-7895387c47f5/exec-faf0214d-cc91-4e95-a95f-4242bd0d7bba.png",
+      "tool_mode": "built_in_image_gen",
+      "artist_check": "Same wigs/clips and white sheets under black jackets; C points to own chest; A/B surprised.",
+      "representative_is_video_start": false,
+      "keyframe_timing_note": "C가 자기 가슴을 가리키는 마지막 반전 대표 순간. 환복·착석은 점프컷.",
+      "pixel_dimensions": [
+        1672,
+        941
+      ]
+    }
+  ]
+}

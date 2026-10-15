@@ -1,0 +1,296 @@
+{
+  "assets": [
+    {
+      "asset_id": "C01_N01",
+      "concept_id": "C01",
+      "image_path": "/home/wooseok/wsy/samsung_related/slide/AI실행결과발표대회_디자인3종/flow_handoff/2026-10-15_v2/start_frames/C01/N01_start.png",
+      "planned_path": "/home/wooseok/wsy/samsung_related/slide/AI실행결과발표대회_디자인3종/flow_handoff/2026-10-15_v2/start_frames/C01/N01_start.png",
+      "generated_source": "/home/wooseok/.codex/generated_images/01a13a98-f374-78a1-af88-b32c5dad3e46/exec-f9efa85d-1e37-44e6-a793-d0139e455abc.png",
+      "prompt": "Use case: ads-marketing / identity-preserve cinematic pre-action frame.\nCreate ONE standalone 16:9 live-action film STARTING frame. The supplied reference image(s) depict LATER moments; use them to preserve exact cast identity, outfits, props, room materials and film lighting, but reconstruct the EARLIER state below. Do not copy completed actions from the references.\nRequired starting state: A 한 사람 얼굴의 극근접. 눈가에 눈물이 고이지만 아직 뺨을 타고 흐르기 전, 입술을 다물고 울음을 참는다. 흰 손수건 H1은 손에 있지만 입·눈을 가리지 않는다. 배경은 어두운 보케로 장소가 식별되지 않는다.\nPrecise staging priority: Frame ONLY the white-shirt man's face. Preserve his exact identity and warm dramatic side light. His mouth is closed, eyes open and glossy with tears held at the lower eyelids, cheeks dry with NO running tear tracks yet. Restrained emotion just before breaking down, not a neutral corporate portrait. Keep a small edge of his white handkerchief low in his hand without covering eyes/mouth. The woman must be entirely out of frame.\nMust not be visible yet: B의 이미 터진 오열, C, 양동이, 발표장, 스크린.\nStyle: expensive emotionally committed melodrama, textured real skin, warm directional edge light, cooler deep shadows, selective focus; no glossy company-brochure lighting. Emotions only as appropriate to this exact pre-action moment.\nPreserve identities and wardrobe exactly. Include only characters and props required for this starting state, not every later character or gag. Correct human anatomy. No subtitles, captions, logos, numbers, watermarks, graphics or panels.",
+      "reference_paths": [
+        "/home/wooseok/wsy/samsung_related/slide/AI실행결과발표대회_디자인3종/storyboards/2026-10-15_absurd-v2/images/C01/S01.png"
+      ],
+      "required_start_state": "A 한 사람 얼굴의 극근접. 눈가에 눈물이 고이지만 아직 뺨을 타고 흐르기 전, 입술을 다물고 울음을 참는다. 흰 손수건 H1은 손에 있지만 입·눈을 가리지 않는다. 배경은 어두운 보케로 장소가 식별되지 않는다.",
+      "must_not_show_yet": "B의 이미 터진 오열, C, 양동이, 발표장, 스크린.",
+      "qa": {
+        "status": "artist_checked_start_state_passed",
+        "method": "generated image visually inspected; original reference images opened with view_image",
+        "checks": [
+          "A 단독, 입을 다물고 참는 표정",
+          "B·양동이·무대 미노출",
+          "실행될 눈물 동작의 여지 유지"
+        ]
+      },
+      "generation_attempt_count": 1,
+      "dimensions": [
+        1672,
+        941
+      ]
+    },
+    {
+      "asset_id": "C01_N02",
+      "concept_id": "C01",
+      "image_path": "/home/wooseok/wsy/samsung_related/slide/AI실행결과발표대회_디자인3종/flow_handoff/2026-10-15_v2/start_frames/C01/N02_start.png",
+      "planned_path": "/home/wooseok/wsy/samsung_related/slide/AI실행결과발표대회_디자인3종/flow_handoff/2026-10-15_v2/start_frames/C01/N02_start.png",
+      "generated_source": "/home/wooseok/.codex/generated_images/01a13a98-f374-78a1-af88-b32c5dad3e46/exec-2cf546d5-1a18-4d2e-957a-47f72ac5f9d7.png",
+      "prompt": "Use case: ads-marketing / identity-preserve cinematic pre-action frame.\nCreate ONE standalone 16:9 live-action film STARTING frame. The supplied reference image(s) depict LATER moments; use them to preserve exact cast identity, outfits, props, room materials and film lighting, but reconstruct the EARLIER state below. Do not copy completed actions from the references.\nRequired starting state: B 중심 미디엄 클로즈업. B는 아직 크게 울지 않고 A를 달래려는 표정, 눈가만 촉촉하다. 손 하나를 A에게 내밀려는 준비 상태. 화면 가장자리 A는 이미 눈물을 흘리고 H1은 A가 계속 쥔다.\nPrecise staging priority: The navy-cardigan woman is the central subject, eyes OPEN, mouth CLOSED, concerned and trying to comfort the man; watery eyes but NO tears streaming down her cheeks, no grimacing sob yet. Her empty hand is poised to reach toward him, not touching the cloth. The already-crying white-shirt man appears only at the edge and keeps the white handkerchief himself. Use the same warm dramatic side light and shallow focus.\nMust not be visible yet: B가 이미 고개를 숙이고 오열하는 상태, 손수건의 소유권 이전.\nStyle: expensive emotionally committed melodrama, textured real skin, warm directional edge light, cooler deep shadows, selective focus; no glossy company-brochure lighting. Emotions only as appropriate to this exact pre-action moment.\nPreserve identities and wardrobe exactly. Include only characters and props required for this starting state, not every later character or gag. Correct human anatomy. No subtitles, captions, logos, numbers, watermarks, graphics or panels.",
+      "reference_paths": [
+        "/home/wooseok/wsy/samsung_related/slide/AI실행결과발표대회_디자인3종/storyboards/2026-10-15_absurd-v2/images/C01/S01.png"
+      ],
+      "required_start_state": "B 중심 미디엄 클로즈업. B는 아직 크게 울지 않고 A를 달래려는 표정, 눈가만 촉촉하다. 손 하나를 A에게 내밀려는 준비 상태. 화면 가장자리 A는 이미 눈물을 흘리고 H1은 A가 계속 쥔다.",
+      "must_not_show_yet": "B가 이미 고개를 숙이고 오열하는 상태, 손수건의 소유권 이전.",
+      "qa": {
+        "status": "artist_checked_start_state_passed",
+        "method": "generated image visually inspected; original reference images opened with view_image",
+        "checks": [
+          "B 눈을 뜨고 달래려는 표정, 오열 전",
+          "H1은 A가 유지",
+          "동일 배우·조명"
+        ]
+      },
+      "generation_attempt_count": 1,
+      "dimensions": [
+        1672,
+        941
+      ]
+    },
+    {
+      "asset_id": "C02_N01",
+      "concept_id": "C02",
+      "image_path": "/home/wooseok/wsy/samsung_related/slide/AI실행결과발표대회_디자인3종/flow_handoff/2026-10-15_v2/start_frames/C02/N01_start.png",
+      "planned_path": "/home/wooseok/wsy/samsung_related/slide/AI실행결과발표대회_디자인3종/flow_handoff/2026-10-15_v2/start_frames/C02/N01_start.png",
+      "generated_source": "/home/wooseok/.codex/generated_images/01a13a98-f374-78a1-af88-b32c5dad3e46/exec-fab3e265-9f15-43d0-8da0-3acdb5df8bb6.png",
+      "prompt": "Use case: ads-marketing / identity-preserve cinematic pre-action frame.\nCreate ONE standalone 16:9 live-action film STARTING frame. The supplied reference image(s) depict LATER moments; use them to preserve exact cast identity, outfits, props, room materials and film lighting, but reconstruct the EARLIER state below. Do not copy completed actions from the references.\nRequired starting state: 원 이미지보다 타이트한 바닥 구도. A의 검은 양말 발끝이 검은 구두 입구 바로 위에 있고 구두 두 짝 모두 아직 바닥에 정지. A는 아직 놀라거나 손을 뻗지 않는다. B와 다른 신발은 프레임 밖 또는 정상 상태의 흐린 배경.\nPrecise staging priority: Much tighter floor-level crop than reference. Show only the white-shirt man's charcoal trouser legs and BLACK SOCKED foot hovering 2–3cm above the opening of ONE black dress shoe, poised to put it on normally. BOTH matching black dress shoes are FLAT and motionless on floor with contact shadows directly underneath, no levitation, no motion blur. His hands are not reaching; no surprised people. Other footwear may be completely outside this tight crop. Same polished gray floor and daylight.\nMust not be visible yet: 공중에 떠 있거나 이미 도주하는 검은 구두, 추격하는 A/B, 먼저 도망간 흰 운동화.\nStyle: expensive photoreal chase-thriller advertisement, convincing practical-looking materials and VFX, low camera, directional daylight, detailed leather/canvas, same spatial world as references; no cartoon faces on shoes.\nPreserve identities and wardrobe exactly. Include only characters and props required for this starting state, not every later character or gag. Correct human anatomy. No subtitles, captions, logos, numbers, watermarks, graphics or panels.",
+      "reference_paths": [
+        "/home/wooseok/wsy/samsung_related/slide/AI실행결과발표대회_디자인3종/storyboards/2026-10-15_absurd-v2/images/C02/S01.png"
+      ],
+      "required_start_state": "원 이미지보다 타이트한 바닥 구도. A의 검은 양말 발끝이 검은 구두 입구 바로 위에 있고 구두 두 짝 모두 아직 바닥에 정지. A는 아직 놀라거나 손을 뻗지 않는다. B와 다른 신발은 프레임 밖 또는 정상 상태의 흐린 배경.",
+      "must_not_show_yet": "공중에 떠 있거나 이미 도주하는 검은 구두, 추격하는 A/B, 먼저 도망간 흰 운동화.",
+      "qa": {
+        "status": "artist_checked_start_state_passed",
+        "method": "generated image visually inspected; original reference images opened with view_image",
+        "checks": [
+          "검은 구두 두 짝 바닥 접촉",
+          "검은 양말 발이 구두 입구 위",
+          "도주·추격이 아직 없음"
+        ]
+      },
+      "generation_attempt_count": 1,
+      "dimensions": [
+        1672,
+        941
+      ]
+    },
+    {
+      "asset_id": "C01_N04",
+      "concept_id": "C01",
+      "image_path": "/home/wooseok/wsy/samsung_related/slide/AI실행결과발표대회_디자인3종/flow_handoff/2026-10-15_v2/start_frames/C01/N04_start.png",
+      "planned_path": "/home/wooseok/wsy/samsung_related/slide/AI실행결과발표대회_디자인3종/flow_handoff/2026-10-15_v2/start_frames/C01/N04_start.png",
+      "generated_source": "/home/wooseok/.codex/generated_images/01a13a98-f374-78a1-af88-b32c5dad3e46/exec-dd8a64f0-6762-437c-9f68-c488e3c4c929.png",
+      "prompt": "Use case: ads-marketing / identity-preserve cinematic pre-action frame.\nCreate ONE standalone 16:9 live-action film STARTING frame. The supplied reference image(s) depict LATER moments; use them to preserve exact cast identity, outfits, props, room materials and film lighting, but reconstruct the EARLIER state below. Do not copy completed actions from the references.\nRequired starting state: C가 A·B 옆 통로에서 밀대를 바닥에 대고 청소하는 중. C의 얼굴은 아직 평범하고 건조하며 시선은 바닥. A·B는 옆 좌석에서 울고 H1은 A에게 있다. 노란 양동이는 A·B 사이 바닥. 무대와 D는 프레임 밖.\nPrecise staging priority: The cleaner in lime-green vest is the SAME middle-aged man from the reference, but his face is dry and expression practical, his gaze DOWN at the floor. He is standing/leaning to mop, holding the gray mop naturally, not crouched sobbing. He has NO handkerchief. The seated white-shirt man still holds the only visible white handkerchief and he and the navy-cardigan woman are crying. Yellow bucket remains on floor between the two seated listeners. No stage or screen.\nMust not be visible yet: C의 눈물·오열·C가 손수건을 받은 상태·발표장 전면.\nStyle: expensive emotionally committed melodrama, textured real skin, warm directional edge light, cooler deep shadows, selective focus; no glossy company-brochure lighting. Emotions only as appropriate to this exact pre-action moment.\nPreserve identities and wardrobe exactly. Include only characters and props required for this starting state, not every later character or gag. Correct human anatomy. No subtitles, captions, logos, numbers, watermarks, graphics or panels.",
+      "reference_paths": [
+        "/home/wooseok/wsy/samsung_related/slide/AI실행결과발표대회_디자인3종/storyboards/2026-10-15_absurd-v2/images/C01/S02.png",
+        "/home/wooseok/wsy/samsung_related/slide/AI실행결과발표대회_디자인3종/storyboards/2026-10-15_absurd-v2/images/C01/S03.png"
+      ],
+      "required_start_state": "C가 A·B 옆 통로에서 밀대를 바닥에 대고 청소하는 중. C의 얼굴은 아직 평범하고 건조하며 시선은 바닥. A·B는 옆 좌석에서 울고 H1은 A에게 있다. 노란 양동이는 A·B 사이 바닥. 무대와 D는 프레임 밖.",
+      "must_not_show_yet": "C의 눈물·오열·C가 손수건을 받은 상태·발표장 전면.",
+      "qa": {
+        "status": "artist_checked_start_state_passed",
+        "method": "generated image visually inspected; references opened using view_image",
+        "checks": [
+          "C는 울지 않고 시선을 바닥에 둔 청소 상태",
+          "H1은 A에게 있고 C에게 없음",
+          "무대 미노출·양동이 바닥"
+        ]
+      },
+      "generation_attempt_count": 1,
+      "dimensions": [
+        1672,
+        941
+      ]
+    },
+    {
+      "asset_id": "C01_N07",
+      "concept_id": "C01",
+      "image_path": "/home/wooseok/wsy/samsung_related/slide/AI실행결과발표대회_디자인3종/flow_handoff/2026-10-15_v2/start_frames/C01/N07_start.png",
+      "planned_path": "/home/wooseok/wsy/samsung_related/slide/AI실행결과발표대회_디자인3종/flow_handoff/2026-10-15_v2/start_frames/C01/N07_start.png",
+      "generated_source": "/home/wooseok/.codex/generated_images/01a13a98-f374-78a1-af88-b32c5dad3e46/exec-103fa478-7b01-4aa4-81d4-0042d13615dd.png",
+      "prompt": "Use case: ads-marketing / identity-preserve cinematic pre-action frame.\nCreate ONE standalone 16:9 live-action film STARTING frame. The supplied reference image(s) depict LATER moments; use them to preserve exact cast identity, outfits, props, room materials and film lighting, but reconstruct the EARLIER state below. Do not copy completed actions from the references.\nRequired starting state: 첫 발표장 와이드의 시작. D와 빈 스크린, A/B 옆 낡은 개인 메모장들이 처음 보인다. C는 방금 빈 의자에 앉아 몸을 정돈하는 상태이며 H1은 C가 쥐고 밀대는 옆에 세워졌다. A는 노란 양동이를 무릎 위에 낮게 올려놓았지만 턱까지 들지 않는다. B는 한 손을 자기 주머니 안에 넣었고 별도 H2는 아직 밖으로 보이지 않는다. 모든 인물 얼굴·의상·방향은 S04 유지.\nPrecise staging priority: Keep the exact side-aisle composition and four identities of the stage reference. CRITICAL: lower the same yellow bucket so its BASE rests on the man's THIGHS and its rim is at lower abdomen/waist level, far BELOW chest and chin. His forearms point downward toward the bucket rather than upward. The navy-cardigan woman has one hand INSIDE her own cardigan pocket; her second white handkerchief is completely hidden. The cleaner is seated and keeps the first white cloth, mop beside him. Presenter and blank screen remain as in reference, with 2–3 worn personal notebooks near the seats.\nMust not be visible yet: A가 양동이를 턱 밑으로 올린 상태, B가 H2를 이미 눈에 댄 상태, 새 세 번째 손수건.\nStyle: expensive emotionally committed melodrama, textured real skin, warm directional edge light, cooler deep shadows, selective focus; no glossy company-brochure lighting. Emotions only as appropriate to this exact pre-action moment.\nPreserve identities and wardrobe exactly. Include only characters and props required for this starting state, not every later character or gag. Correct human anatomy. No subtitles, captions, logos, numbers, watermarks, graphics or panels.",
+      "reference_paths": [
+        "/home/wooseok/wsy/samsung_related/slide/AI실행결과발표대회_디자인3종/storyboards/2026-10-15_absurd-v2/images/C01/S03.png",
+        "/home/wooseok/wsy/samsung_related/slide/AI실행결과발표대회_디자인3종/storyboards/2026-10-15_absurd-v2/images/C01/S04.png"
+      ],
+      "required_start_state": "첫 발표장 와이드의 시작. D와 빈 스크린, A/B 옆 낡은 개인 메모장들이 처음 보인다. C는 방금 빈 의자에 앉아 몸을 정돈하는 상태이며 H1은 C가 쥐고 밀대는 옆에 세워졌다. A는 노란 양동이를 무릎 위에 낮게 올려놓았지만 턱까지 들지 않는다. B는 한 손을 자기 주머니 안에 넣었고 별도 H2는 아직 밖으로 보이지 않는다. 모든 인물 얼굴·의상·방향은 S04 유지.",
+      "must_not_show_yet": "A가 양동이를 턱 밑으로 올린 상태, B가 H2를 이미 눈에 댄 상태, 새 세 번째 손수건.",
+      "qa": {
+        "status": "artist_checked_start_state_passed",
+        "method": "generated image visually inspected; references opened using view_image",
+        "checks": [
+          "양동이 바닥이 A 무릎에 닿고 입구가 턱보다 낮음",
+          "B의 H2는 주머니 안에 숨김",
+          "C는 H1을 유지하며 착석, D는 평온"
+        ]
+      },
+      "generation_attempt_count": 1,
+      "dimensions": [
+        1672,
+        941
+      ]
+    },
+    {
+      "asset_id": "C02_N02",
+      "concept_id": "C02",
+      "image_path": "/home/wooseok/wsy/samsung_related/slide/AI실행결과발표대회_디자인3종/flow_handoff/2026-10-15_v2/start_frames/C02/N02_start.png",
+      "planned_path": "/home/wooseok/wsy/samsung_related/slide/AI실행결과발표대회_디자인3종/flow_handoff/2026-10-15_v2/start_frames/C02/N02_start.png",
+      "generated_source": "/home/wooseok/.codex/generated_images/01a13a98-f374-78a1-af88-b32c5dad3e46/exec-1b8b7b1e-0b49-4f16-8c4a-2d04a727aba4.png",
+      "prompt": "Use case: precise-object-edit. Keep the supplied cinematic frame unchanged EXCEPT the background woman's shoe/foot action. Preserve both people's exact faces, clothing, room, lighting, camera, the foreground man and his black dress shoes, and the brown loafers. The woman has NOT put on the white sneakers yet: show BOTH of her feet fully covered by GRAY SOCKS, with her heels and soles visibly behind and separate from the empty white sneaker openings. Place the two EMPTY WHITE SNEAKERS flat side-by-side on the floor 10cm in front of her gray-socked feet. Her hands rest on her knees or trouser cuffs, not holding sneaker laces. She looks down calmly, unaware of the man. The sneakers are stationary, not floating. No extra shoes: one black pair, one white pair, one brown pair only. Do not alter the main man or the position of his displaced black shoes. No text, no logos, one 16:9 live-action film frame.",
+      "reference_paths": [
+        "/home/wooseok/.codex/generated_images/01a13a98-f374-78a1-af88-b32c5dad3e46/exec-5b55a324-5120-444e-bd21-c91179240f75.png"
+      ],
+      "required_start_state": "첫 회피 직후 검은 구두 한 짝이 A의 발에서 한 뼘 벗어났고 다른 짝이 곁에 있다. A는 의자에서 몸을 앞으로 기울여 손을 뻗기 직전. B는 아직 이 일을 못 보고 평범하게 자기 운동화를 신으려 한다. 흰 운동화·갈색 로퍼는 정지.",
+      "must_not_show_yet": "B가 벌써 놀라 추격하거나 흰 운동화가 도주에 합류한 상태.",
+      "qa": {
+        "status": "artist_checked_start_state_passed",
+        "method": "generated image visually inspected; references opened using view_image",
+        "checks": [
+          "B는 양말 차림이며 흰 운동화가 비어 있음",
+          "B가 추격에 합류하지 않음",
+          "검은 구두만 1차 회피 후 위치"
+        ]
+      },
+      "generation_attempt_count": 2,
+      "dimensions": [
+        1672,
+        941
+      ]
+    },
+    {
+      "asset_id": "C01_N10",
+      "concept_id": "C01",
+      "image_path": "/home/wooseok/wsy/samsung_related/slide/AI실행결과발표대회_디자인3종/flow_handoff/2026-10-15_v2/start_frames/C01/N10_start.png",
+      "planned_path": "/home/wooseok/wsy/samsung_related/slide/AI실행결과발표대회_디자인3종/flow_handoff/2026-10-15_v2/start_frames/C01/N10_start.png",
+      "generated_source": "/home/wooseok/.codex/generated_images/01a13a98-f374-78a1-af88-b32c5dad3e46/exec-284a17e1-d004-439f-a051-f5c11c061940.png",
+      "prompt": "Use case: precise-object-edit. Use the supplied cinematic frame as the exact start-state base. Change ONLY the navy-cardigan woman's handkerchief state: she has just taken her own separate small white cotton handkerchief out of her pocket and now holds it UNFOLDED low above her lap, ready to fold. Her hand is no longer inside the pocket. The cleaner continues holding his original white cloth. Keep the white-shirt man, his exact face and hands, and the yellow bucket LOW on his thighs with the rim at waist level, far below his chest/chin, absolutely unchanged. Keep every other actor, expression, outfit, mop, notebooks, presenter, blank screen, room, camera and light unchanged. Exactly two visible white cloths: one in the woman's hands low at her lap and one with the cleaner. None with the white-shirt man. One 16:9 film starting frame, no captions/logos/text.",
+      "reference_paths": [
+        "/home/wooseok/wsy/samsung_related/slide/AI실행결과발표대회_디자인3종/flow_handoff/2026-10-15_v2/start_frames/C01/N07_start.png"
+      ],
+      "required_start_state": "A는 양동이를 무릎에 낮게 놓고 양손으로 잡는다. B는 방금 꺼낸 자기 H2를 손에 들고 접기 직전, C는 A에게 받은 H1을 계속 유지한다. D는 다음 사례를 예고하는 평온한 표정. 양동이 입구가 아직 A 턱에 닿지 않는다.",
+      "must_not_show_yet": "이미 턱 밑에 올라간 양동이, A가 손수건을 소유하거나 접는 동작.",
+      "qa": {
+        "status": "artist_checked_start_state_passed",
+        "method": "generated image visually inspected; references opened using view_image",
+        "checks": [
+          "A 양동이는 무릎에 낮게 있고 턱과 떨어짐",
+          "H2는 B가 펼쳐 쥐고 H1은 C가 유지",
+          "A에게 손수건 없음"
+        ]
+      },
+      "generation_attempt_count": 1,
+      "dimensions": [
+        1672,
+        941
+      ]
+    },
+    {
+      "asset_id": "C02_N03",
+      "concept_id": "C02",
+      "image_path": "/home/wooseok/wsy/samsung_related/slide/AI실행결과발표대회_디자인3종/flow_handoff/2026-10-15_v2/start_frames/C02/N03_start.png",
+      "planned_path": "/home/wooseok/wsy/samsung_related/slide/AI실행결과발표대회_디자인3종/flow_handoff/2026-10-15_v2/start_frames/C02/N03_start.png",
+      "generated_source": "/home/wooseok/.codex/generated_images/01a13a98-f374-78a1-af88-b32c5dad3e46/exec-8b7a9384-9ecd-4193-ae5d-b0ba67c3a909.png",
+      "prompt": "Use case: precise-object-edit. Keep this cinematic frame unchanged except the foreground woman's foot. She has NOT yet put on the white sneaker. Lift her ENTIRE GRAY-SOCKED foot clearly OUT of and ABOVE the empty white sneaker, leaving a visible 10cm AIR GAP between the sock sole and the sneaker opening. Show the EMPTY dark opening of the white sneaker. Her socked toes and heel must both be visible and separate from the shoe. Both white sneakers remain motionless FLAT on the floor in their current locations. Her hand may hold her trouser cuff, not the shoe. Her other gray-socked foot is behind the shoes. Preserve the same woman, face, ponytail, blue shirt, gray trousers, chair, corridor, low camera, daylight. Preserve the already-fleeing black shoe pair and pursuing man in the background, and the stationary brown loafers under the desk. Exactly six loose shoes total. No white shoe is worn by any human. No text or logos, one 16:9 frame.",
+      "reference_paths": [
+        "/home/wooseok/.codex/generated_images/01a13a98-f374-78a1-af88-b32c5dad3e46/exec-c4b0ce79-5075-44d8-9439-2a9bec1c0df5.png"
+      ],
+      "required_start_state": "동일 업무 통로의 넓은 로우 앵글. 검은 구두 한 켤레는 이미 먼 쪽으로 도주 중. B의 회색 양말 발이 흰 운동화를 신기 직전이고 흰 두 짝은 정지. 갈색 로퍼 한 켤레도 화면에 보이는 먼 책상 아래에 정지해 있다. 이 한 프레임에서 흰 운동화 다음 갈색 로퍼가 같은 통로에 합류할 여지를 확보한다.",
+      "must_not_show_yet": "흰 운동화 또는 갈색 로퍼가 이미 도주 중인 상태, B가 이미 추격하는 상태, 총 세 켤레 초과.",
+      "qa": {
+        "status": "artist_checked_start_state_passed",
+        "method": "generated image visually inspected; references opened using view_image",
+        "checks": [
+          "B의 회색 양말 발과 빈 흰 운동화 사이 간격",
+          "흰·갈색은 정지, 검은 구두만 이미 도주",
+          "자율 신발 총 6짝"
+        ]
+      },
+      "generation_attempt_count": 2,
+      "dimensions": [
+        1672,
+        941
+      ]
+    },
+    {
+      "asset_id": "C02_N05",
+      "concept_id": "C02",
+      "image_path": "/home/wooseok/wsy/samsung_related/slide/AI실행결과발표대회_디자인3종/flow_handoff/2026-10-15_v2/start_frames/C02/N05_start.png",
+      "planned_path": "/home/wooseok/wsy/samsung_related/slide/AI실행결과발표대회_디자인3종/flow_handoff/2026-10-15_v2/start_frames/C02/N05_start.png",
+      "generated_source": "/home/wooseok/.codex/generated_images/01a13a98-f374-78a1-af88-b32c5dad3e46/exec-2c717204-bb06-4c77-b7a1-92d42d53f23c.png",
+      "prompt": "Use case: ads-marketing / identity-preserve cinematic pre-action frame.\nCreate ONE standalone 16:9 live-action film STARTING frame. The supplied reference image(s) depict LATER moments; use them to preserve exact cast identity, outfits, props, room materials and film lighting, but reconstruct the EARLIER state below. Do not copy completed actions from the references.\nRequired starting state: C가 통로를 막고 베이지 자루 입구를 바닥 가까이 넓게 벌린 준비 상태. 검은 구두·흰 운동화·갈색 로퍼 총 세 켤레가 자루 바로 앞에 접근했으나 아직 자루 안에 들어가지 않았다. A/B는 양말 차림으로 뒤에서 쫓는다. 붉은 끈은 풀려 있다.\nPrecise staging priority: Use a LOW SIDE view of the same bright corridor, so cause and trajectory are obvious. The green-vest manager is near frame-right blocking the corridor, facing frame-left; he holds a LARGE EMPTY BEIGE SACK OPEN near the floor with its mouth facing the approaching shoes from frame-left. Three pairs of shoes approach but all SIX loose shoes are still OUTSIDE the sack. Black pair closest to mouth, white pair behind, brown pair last. A and B chase in socks behind the shoes at left. C's own black work shoes are worn normally and distinct. Sack has slack red drawstring, no tied mouth, no foot-shaped bulges, no jumping. Hold at instant before capture, not after.\nMust not be visible yet: 자루가 이미 닫혔거나 신발을 모두 잡았거나 자루 자체가 도약하는 상태.\nStyle: expensive photoreal chase-thriller advertisement, convincing practical-looking materials and VFX, low camera, directional daylight, detailed leather/canvas, same spatial world as references; no cartoon faces on shoes.\nPreserve identities and wardrobe exactly. Include only characters and props required for this starting state, not every later character or gag. Correct human anatomy. No subtitles, captions, logos, numbers, watermarks, graphics or panels.",
+      "reference_paths": [
+        "/home/wooseok/wsy/samsung_related/slide/AI실행결과발표대회_디자인3종/storyboards/2026-10-15_absurd-v2/images/C02/S01.png",
+        "/home/wooseok/wsy/samsung_related/slide/AI실행결과발표대회_디자인3종/storyboards/2026-10-15_absurd-v2/images/C02/S02.png"
+      ],
+      "required_start_state": "C가 통로를 막고 베이지 자루 입구를 바닥 가까이 넓게 벌린 준비 상태. 검은 구두·흰 운동화·갈색 로퍼 총 세 켤레가 자루 바로 앞에 접근했으나 아직 자루 안에 들어가지 않았다. A/B는 양말 차림으로 뒤에서 쫓는다. 붉은 끈은 풀려 있다.",
+      "must_not_show_yet": "자루가 이미 닫혔거나 신발을 모두 잡았거나 자루 자체가 도약하는 상태.",
+      "qa": {
+        "status": "artist_checked_start_state_passed",
+        "method": "generated image visually inspected; references opened using view_image",
+        "checks": [
+          "자루 입구가 열린 포획 전 상태",
+          "세 켤레 모두 자루 밖",
+          "붉은 끈 풀림·C는 실제 자루를 잡음"
+        ]
+      },
+      "generation_attempt_count": 1,
+      "dimensions": [
+        1672,
+        941
+      ]
+    },
+    {
+      "asset_id": "C02_N06",
+      "concept_id": "C02",
+      "image_path": "/home/wooseok/wsy/samsung_related/slide/AI실행결과발표대회_디자인3종/flow_handoff/2026-10-15_v2/start_frames/C02/N06_start.png",
+      "planned_path": "/home/wooseok/wsy/samsung_related/slide/AI실행결과발표대회_디자인3종/flow_handoff/2026-10-15_v2/start_frames/C02/N06_start.png",
+      "generated_source": "/home/wooseok/.codex/generated_images/01a13a98-f374-78a1-af88-b32c5dad3e46/exec-1943b984-bccd-488c-a98d-9093c7576764.png",
+      "prompt": "Use case: identity-preserve, cinematic pre-action starting frame. Image 1 is the SAME corridor, camera and cast immediately BEFORE successful capture. Image 2 shows a LATER escape and is ONLY a reference for the beige sack texture/red cord and cast; do NOT copy its airborne sack or running poses. Make the intervening SUCCESSFUL CAPTURE state: all six autonomous shoes (black dress pair, white sneaker pair, brown loafer pair) are now entirely INSIDE the beige sack and NO loose shoes remain on the floor. Green-vest manager C is at frame-right near the same position, calmly holding the gathered CLOSED mouth and red drawstring in one hand, with a satisfied proud expression. The sack's broad ordinary lumpy base rests FLAT ON THE FLOOR directly beside his leg. No separate foot-shaped bulges, no floating gap, no motion blur, no self-propelled movement. White-shirt man A and blue-shirt woman B stand still behind him, relieved; A wears black SOCKS and B gray SOCKS, no footwear. C keeps his own black work shoes. Preserve exact identities, clothing, office/corridor surfaces, daylight direction, low camera and premium film realism from image 1. A still moment before anything goes wrong. No one is reaching after the sack or running. No faces/arms/legs on sack. One 16:9 full-frame image, no text/logos/panels.",
+      "reference_paths": [
+        "/home/wooseok/wsy/samsung_related/slide/AI실행결과발표대회_디자인3종/flow_handoff/2026-10-15_v2/start_frames/C02/N05_start.png",
+        "/home/wooseok/wsy/samsung_related/slide/AI실행결과발표대회_디자인3종/storyboards/2026-10-15_absurd-v2/images/C02/S02.png"
+      ],
+      "required_start_state": "포획 성공 상태. 신발 세 켤레가 모두 자루 속에 들어가 외부에 자율 신발이 없다. C는 입구와 붉은 조임 끈을 한 손으로 모아 잡고 자루 바닥은 바닥에 얌전히 붙어 있다. C는 승리 표정, A/B는 안도한다. 자루에 아직 다리 모양 부풀음이나 들뜬 그림자가 없다.",
+      "must_not_show_yet": "자루의 자율 움직임·도약·추격, 바깥에 복제된 신발.",
+      "qa": {
+        "status": "artist_checked_start_state_passed",
+        "method": "generated image visually inspected; all references opened using view_image",
+        "checks": [
+          "자루 밑면이 바닥에 정지·밀착",
+          "C가 닫힌 입구를 잡고 성공 표정",
+          "A/B 안도·양말 차림·외부 자율 신발 없음",
+          "발 모양 부풀음이나 자루 도약 없음"
+        ]
+      },
+      "generation_attempt_count": 1,
+      "dimensions": [
+        1672,
+        941
+      ]
+    }
+  ],
+  "tool": "built-in image_gen",
+  "scope": [
+    "C01",
+    "C02"
+  ],
+  "flow_executed": false,
+  "completed_count": 10,
+  "expected_count": 10,
+  "status": "complete_10_of_10_artist_checked_pending_parent_review",
+  "summary": {
+    "C01": 5,
+    "C02": 5,
+    "total": 10,
+    "tool": "built-in image_gen",
+    "original_assets_unchanged": true,
+    "flow_executed": false
+  }
+}

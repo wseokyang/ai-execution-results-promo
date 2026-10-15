@@ -1,0 +1,12 @@
+{
+  "candidate": {
+    "concept_id": "C05",
+    "scene_id": "S01",
+    "image_path": "images/C05/S01-candidate-v2.png",
+    "prompt": "Use case: ads-marketing. Create ONE standalone photorealistic cinematic storyboard keyframe for a Korean office comedy advertisement. Landscape 16:9, 1920x1080 composition. Clean commercial cinematography, soft natural office daylight, true skin texture, believable anatomy, hands, fabrics and furniture. Fictional Korean adult actors, sincerely serious faces, only the situation absurd. No captions, typography, lettering, logos, numbers, watermarks, recognizable software, panels or collage. Plain blank walls and screen, no security or confidentiality context.\nBright simple office interview corner, pale warm-gray wall, wood desk, two plain chairs. Fictional Korean man age about 36, neat short side-parted black hair, sky-blue shirt with sleeves down, no tie, black trousers, seated at desk. Fictional Korean female prop handler age about 34, straight black chin-length bob, charcoal sleeveless vest over white long-sleeve shirt, black trousers, stands at his side. Plain silver unbranded laptop. A REAL physical handheld matte-black foam board 45cm wide and 1cm thick: visible side edges, actual fingers gripping the physical prop naturally.\nMedium three-quarter interview composition: man turns his OPEN silver laptop slightly toward camera to explain; female handler holds the small black foam board with both hands PRECISELY IN FRONT OF THE LAPTOP SCREEN, covering only screen. Keep both faces fully visible above the board, laptop base visible below it, and a small visible board-to-screen gap or side angle. Make the board unmistakably a real prop, not a digital censor bar. The man has noticed the physical board and voluntarily stopped mid-explanation, mouth now naturally closed and mild puzzled look at the board; no gag, no force, no effort to silence his voice. Handler has comically earnest professional focus on positioning the board. Reserve unobstructed plain wall toward upper center for later editorial copy, but generate absolutely no text. Clear visual joke, no extra people.",
+    "references": [],
+    "selection": "not_selected",
+    "reason": "Earlier S01.png retained as shared continuity baseline after handoff; both candidates inspected.",
+    "generated_source": "/home/wooseok/.codex/generated_images/01a13a8a-7471-7482-97d0-63ad6548ddba/exec-5714a25e-e190-4b7b-8227-8eb007300bfb.png"
+  }
+}

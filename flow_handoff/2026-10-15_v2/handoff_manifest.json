@@ -1,0 +1,3542 @@
+{
+  "status": "ready_for_flow_upload",
+  "created_date": "2026-10-15",
+  "scope": "Local files only; no Flow upload, video generation, credits or account changes",
+  "settings": {
+    "mode": "Frames",
+    "input": "first_frame_only",
+    "model_proposal": "Veo 3.1 Fast",
+    "fallback": "Veo 3.1 Lite if available",
+    "aspect_ratio": "16:9",
+    "requested_seconds": 8,
+    "outputs_per_clip": 1,
+    "account_options_verified": false,
+    "native_resolution": "select available UI option; do not confuse upscale with native output",
+    "audio": "Korean dialogue prompt + motion-only alternate; exact speech and silence not guaranteed"
+  },
+  "counts": {
+    "concepts": 5,
+    "clips": 41,
+    "new_start_assets": 23,
+    "unique_upload_images": 35,
+    "reference_images": 21,
+    "post_edit_segments": 6
+  },
+  "assets": [
+    {
+      "id": "C01_N01",
+      "path": "upload_frames/C01/C01_N01.png",
+      "kind": "new_start_frame",
+      "source_path": "flow_handoff/2026-10-15_v2/start_frames/C01/N01_start.png",
+      "exists": true,
+      "width": 1672,
+      "height": 941,
+      "sha256": "4eaacbcf3cbc43f603ee85712ad851cc669c5911152509aa49fc9c3b0a4e6109",
+      "bytes": 1804253
+    },
+    {
+      "id": "C01_N02",
+      "path": "upload_frames/C01/C01_N02.png",
+      "kind": "new_start_frame",
+      "source_path": "flow_handoff/2026-10-15_v2/start_frames/C01/N02_start.png",
+      "exists": true,
+      "width": 1672,
+      "height": 941,
+      "sha256": "d133ea57d6bf49ce3625d584c13e5efed7840b5d7b7cf40bd954569d7422a9bb",
+      "bytes": 1849937
+    },
+    {
+      "id": "C01_R_S02",
+      "path": "upload_frames/C01/C01_R_S02.png",
+      "kind": "approved_representative_reused_as_start",
+      "source_path": "storyboards/2026-10-15_absurd-v2/images/C01/S02.png",
+      "exists": true,
+      "width": 1672,
+      "height": 941,
+      "sha256": "3c78e9cca153bf94c2751208af07ac902561abe52b515c8decb993fc7eb1f15f",
+      "bytes": 2135796
+    },
+    {
+      "id": "C01_N04",
+      "path": "upload_frames/C01/C01_N04.png",
+      "kind": "new_start_frame",
+      "source_path": "flow_handoff/2026-10-15_v2/start_frames/C01/N04_start.png",
+      "exists": true,
+      "width": 1672,
+      "height": 941,
+      "sha256": "e75f7f260b6e9c5c3800551057d717c6c75cc195a93ad2e296d4abf32e27bc57",
+      "bytes": 2117999
+    },
+    {
+      "id": "C01_R_S03",
+      "path": "upload_frames/C01/C01_R_S03.png",
+      "kind": "approved_representative_reused_as_start",
+      "source_path": "storyboards/2026-10-15_absurd-v2/images/C01/S03.png",
+      "exists": true,
+      "width": 1671,
+      "height": 941,
+      "sha256": "b43e1933adf56387c78ac67db52222c8c5edfcdd2f7b10f89ff9dda27783d91a",
+      "bytes": 2260195
+    },
+    {
+      "id": "C01_N07",
+      "path": "upload_frames/C01/C01_N07.png",
+      "kind": "new_start_frame",
+      "source_path": "flow_handoff/2026-10-15_v2/start_frames/C01/N07_start.png",
+      "exists": true,
+      "width": 1672,
+      "height": 941,
+      "sha256": "27d19dc64c703d84faa50538663bfffaca2b84f16c57b199dda000c715e505e6",
+      "bytes": 2001970
+    },
+    {
+      "id": "C01_N10",
+      "path": "upload_frames/C01/C01_N10.png",
+      "kind": "new_start_frame",
+      "source_path": "flow_handoff/2026-10-15_v2/start_frames/C01/N10_start.png",
+      "exists": true,
+      "width": 1672,
+      "height": 941,
+      "sha256": "1a5f8e3da071e46b537ed1657e1abe4a6dadcb6a81a216f2fa2aa43f7a99133c",
+      "bytes": 1951618
+    },
+    {
+      "id": "C02_N01",
+      "path": "upload_frames/C02/C02_N01.png",
+      "kind": "new_start_frame",
+      "source_path": "flow_handoff/2026-10-15_v2/start_frames/C02/N01_start.png",
+      "exists": true,
+      "width": 1672,
+      "height": 941,
+      "sha256": "37be3b8cd94a7533297ddacda351c404f8a97637d314f822c6faa2cc95b0a021",
+      "bytes": 2011085
+    },
+    {
+      "id": "C02_N02",
+      "path": "upload_frames/C02/C02_N02.png",
+      "kind": "new_start_frame",
+      "source_path": "flow_handoff/2026-10-15_v2/start_frames/C02/N02_start.png",
+      "exists": true,
+      "width": 1672,
+      "height": 941,
+      "sha256": "859faa1c143b9256fc677147389c0d6e21a73d64c510ee4b8ffcadc46ebe21b7",
+      "bytes": 1992188
+    },
+    {
+      "id": "C02_N03",
+      "path": "upload_frames/C02/C02_N03.png",
+      "kind": "new_start_frame",
+      "source_path": "flow_handoff/2026-10-15_v2/start_frames/C02/N03_start.png",
+      "exists": true,
+      "width": 1672,
+      "height": 941,
+      "sha256": "4c010c1f7ab887ec6ed1789a0c0d58c9c5ff024c9049c4959f8926d1aec6c9f8",
+      "bytes": 1955323
+    },
+    {
+      "id": "C02_N05",
+      "path": "upload_frames/C02/C02_N05.png",
+      "kind": "new_start_frame",
+      "source_path": "flow_handoff/2026-10-15_v2/start_frames/C02/N05_start.png",
+      "exists": true,
+      "width": 1672,
+      "height": 941,
+      "sha256": "597cfb9650dd36e0abe1b5a4d72b918c5e499968799cec181bda7797bf503387",
+      "bytes": 2223009
+    },
+    {
+      "id": "C02_N06",
+      "path": "upload_frames/C02/C02_N06.png",
+      "kind": "new_start_frame",
+      "source_path": "flow_handoff/2026-10-15_v2/start_frames/C02/N06_start.png",
+      "exists": true,
+      "width": 1672,
+      "height": 941,
+      "sha256": "80dae4c3cf75c867e1994a3ba57bfb4f64d71d22835478968b6eb86fd5b3ccf7",
+      "bytes": 2248438
+    },
+    {
+      "id": "C02_R_S03",
+      "path": "upload_frames/C02/C02_R_S03.png",
+      "kind": "approved_representative_reused_as_start",
+      "source_path": "storyboards/2026-10-15_absurd-v2/images/C02/S03.png",
+      "exists": true,
+      "width": 1672,
+      "height": 941,
+      "sha256": "6c5245eb2fab528b6d66f3c2aa907ce3161bac8d2b910fd8fa2e4fc6b1fb4df8",
+      "bytes": 2061480
+    },
+    {
+      "id": "C02_R_S04",
+      "path": "upload_frames/C02/C02_R_S04.png",
+      "kind": "approved_representative_reused_as_start",
+      "source_path": "storyboards/2026-10-15_absurd-v2/images/C02/S04.png",
+      "exists": true,
+      "width": 1672,
+      "height": 941,
+      "sha256": "1dd134f5582ac6ccbe008c8f62170dddc9e0dcd1cd7c3f80a8f815c4b76f187d",
+      "bytes": 2183140
+    },
+    {
+      "id": "C03_N01",
+      "path": "upload_frames/C03/C03_N01.png",
+      "kind": "new_start_frame",
+      "source_path": "flow_handoff/2026-10-15_v2/start_frames/C03/N01_start.png",
+      "exists": true,
+      "width": 1672,
+      "height": 941,
+      "sha256": "78c5a048bdc1f91df280a70507fa12c8388fabb76e367c4a419e57ae1a1894e1",
+      "bytes": 2018415
+    },
+    {
+      "id": "C03_N02",
+      "path": "upload_frames/C03/C03_N02.png",
+      "kind": "new_start_frame",
+      "source_path": "flow_handoff/2026-10-15_v2/start_frames/C03/N02_start.png",
+      "exists": true,
+      "width": 1672,
+      "height": 941,
+      "sha256": "4642f09cc6e1d2be5967d4099efd5dfdd3956d20770e40b86d8e59d4825d6c9c",
+      "bytes": 2115169
+    },
+    {
+      "id": "C03_N04",
+      "path": "upload_frames/C03/C03_N04.png",
+      "kind": "new_start_frame",
+      "source_path": "flow_handoff/2026-10-15_v2/start_frames/C03/N04_start.png",
+      "exists": true,
+      "width": 1672,
+      "height": 941,
+      "sha256": "d61ce4a776734aada74e7dc12b47903ac9c7fea898e104bcc2a8478ececce699",
+      "bytes": 2180559
+    },
+    {
+      "id": "C03_R_S02",
+      "path": "upload_frames/C03/C03_R_S02.png",
+      "kind": "approved_representative_reused_as_start",
+      "source_path": "storyboards/2026-10-15_absurd-v2/images/C03/S02.png",
+      "exists": true,
+      "width": 1672,
+      "height": 941,
+      "sha256": "c81646db6157f33c6149275272bf2bb2e368b3cf4bd23a76c6745773be10459a",
+      "bytes": 2225286
+    },
+    {
+      "id": "C03_N06",
+      "path": "upload_frames/C03/C03_N06.png",
+      "kind": "new_start_frame",
+      "source_path": "flow_handoff/2026-10-15_v2/start_frames/C03/N06_start.png",
+      "exists": true,
+      "width": 1672,
+      "height": 941,
+      "sha256": "d077423a03ec64ec06b5ee637db6f5c7e4751c8451004d24f647958101161adf",
+      "bytes": 2156266
+    },
+    {
+      "id": "C03_N07",
+      "path": "upload_frames/C03/C03_N07.png",
+      "kind": "new_start_frame",
+      "source_path": "flow_handoff/2026-10-15_v2/start_frames/C03/N07_start.png",
+      "exists": true,
+      "width": 1672,
+      "height": 941,
+      "sha256": "ad72e468527f3db1d32d860ff15f49c97201dab13cfff9102ea92cc2d6f28e7e",
+      "bytes": 1985039
+    },
+    {
+      "id": "C03_N08",
+      "path": "upload_frames/C03/C03_N08.png",
+      "kind": "new_start_frame",
+      "source_path": "flow_handoff/2026-10-15_v2/start_frames/C03/N08_start.png",
+      "exists": true,
+      "width": 1672,
+      "height": 941,
+      "sha256": "8afa93b38180e21a787e81535786bdc11c197e76031b737e132e516085d5d1e0",
+      "bytes": 1992806
+    },
+    {
+      "id": "C04_R_S01",
+      "path": "upload_frames/C04/C04_R_S01.png",
+      "kind": "approved_representative_reused_as_start",
+      "source_path": "storyboards/2026-10-15_absurd-v2/images/C04/S01.png",
+      "exists": true,
+      "width": 1672,
+      "height": 941,
+      "sha256": "c3c84ed20d6ae2701e06054173d008b71d3556981c8e17fbdf59fb8a30fbd0e2",
+      "bytes": 2054502
+    },
+    {
+      "id": "C04-N02",
+      "path": "upload_frames/C04/C04-N02.png",
+      "kind": "new_start_frame",
+      "source_path": "flow_handoff/2026-10-15_v2/start_images/C04/C04-N02.png",
+      "exists": true,
+      "width": 1672,
+      "height": 941,
+      "sha256": "f91bb41d34d768c432f07eecf1b55a95bbf6eb2147f4194cc80eab731b64a09b",
+      "bytes": 2044087
+    },
+    {
+      "id": "C04_R_S03",
+      "path": "upload_frames/C04/C04_R_S03.png",
+      "kind": "approved_representative_reused_as_start",
+      "source_path": "storyboards/2026-10-15_absurd-v2/images/C04/S03.png",
+      "exists": true,
+      "width": 1672,
+      "height": 941,
+      "sha256": "3f4d0674848b8d5cd9ebcfc2c5b7f8c997be6007f4fc0100615bfd9ed2ff30b7",
+      "bytes": 2171708
+    },
+    {
+      "id": "C04-N04",
+      "path": "upload_frames/C04/C04-N04.png",
+      "kind": "new_start_frame",
+      "source_path": "flow_handoff/2026-10-15_v2/start_images/C04/C04-N04.png",
+      "exists": true,
+      "width": 1672,
+      "height": 941,
+      "sha256": "49d0a4b564190acc2da8ff7928236019dcf2f5f707f48594b346e51c1ab697a7",
+      "bytes": 2101828
+    },
+    {
+      "id": "C04_R_S04",
+      "path": "upload_frames/C04/C04_R_S04.png",
+      "kind": "approved_representative_reused_as_start",
+      "source_path": "storyboards/2026-10-15_absurd-v2/images/C04/S04.png",
+      "exists": true,
+      "width": 1672,
+      "height": 941,
+      "sha256": "548653914a90b5da2882f2c79bc65c44d5400f10e2da989025a8aa20ea6e4011",
+      "bytes": 2182777
+    },
+    {
+      "id": "C04-N06",
+      "path": "upload_frames/C04/C04-N06.png",
+      "kind": "new_start_frame",
+      "source_path": "flow_handoff/2026-10-15_v2/start_images/C04/C04-N06.png",
+      "exists": true,
+      "width": 1672,
+      "height": 941,
+      "sha256": "4bd81b1512f1b1f9293d835820edc1b2c3bdc167f5e5036f3cef36cbb3ffc7e6",
+      "bytes": 2427957
+    },
+    {
+      "id": "C04-N05",
+      "path": "upload_frames/C04/C04-N05.png",
+      "kind": "new_start_frame",
+      "source_path": "flow_handoff/2026-10-15_v2/start_images/C04/C04-N05.png",
+      "exists": true,
+      "width": 1672,
+      "height": 941,
+      "sha256": "d0ec36e684008e185a999e6ce3c9b472b6d1778d6d3f620945db600688747156",
+      "bytes": 2231832
+    },
+    {
+      "id": "C04_R_S05",
+      "path": "upload_frames/C04/C04_R_S05.png",
+      "kind": "approved_representative_reused_as_start",
+      "source_path": "storyboards/2026-10-15_absurd-v2/images/C04/S05.png",
+      "exists": true,
+      "width": 1672,
+      "height": 941,
+      "sha256": "61e6da040957afc84542a4e5fc8dc965ee8b52705585c6360b032a90d9eb63ca",
+      "bytes": 2110368
+    },
+    {
+      "id": "C05_R_S01-v2",
+      "path": "upload_frames/C05/C05_R_S01-v2.png",
+      "kind": "approved_representative_reused_as_start",
+      "source_path": "storyboards/2026-10-15_absurd-v2/images/C05/S01-v2.png",
+      "exists": true,
+      "width": 1672,
+      "height": 941,
+      "sha256": "4ef9b423fa306d9e87c9325a80a70a37731050dad7a659ffe6bf0ed5d982d29b",
+      "bytes": 2086312
+    },
+    {
+      "id": "C05-N02",
+      "path": "upload_frames/C05/C05-N02.png",
+      "kind": "new_start_frame",
+      "source_path": "flow_handoff/2026-10-15_v2/start_images/C05/C05-N02-v2.png",
+      "exists": true,
+      "width": 1672,
+      "height": 941,
+      "sha256": "085ab946b3542fa34f7f0e6293e73b59490d2092657b133f646faecb945d607e",
+      "bytes": 2024963
+    },
+    {
+      "id": "C05-N04",
+      "path": "upload_frames/C05/C05-N04.png",
+      "kind": "new_start_frame",
+      "source_path": "flow_handoff/2026-10-15_v2/start_images/C05/C05-N04.png",
+      "exists": true,
+      "width": 1672,
+      "height": 941,
+      "sha256": "c80935b150a274f583c27b80287a4b6fe7191074638e2388d06b67ffb9a5d9bf",
+      "bytes": 2089831
+    },
+    {
+      "id": "C05_R_S02",
+      "path": "upload_frames/C05/C05_R_S02.png",
+      "kind": "approved_representative_reused_as_start",
+      "source_path": "storyboards/2026-10-15_absurd-v2/images/C05/S02.png",
+      "exists": true,
+      "width": 1672,
+      "height": 941,
+      "sha256": "9d6725c96a90c5e536774e5417d8542a4c6aa0966ecb7e2e2fa15dae3e20bb9f",
+      "bytes": 2139261
+    },
+    {
+      "id": "C05-N03",
+      "path": "upload_frames/C05/C05-N03.png",
+      "kind": "new_start_frame",
+      "source_path": "flow_handoff/2026-10-15_v2/start_images/C05/C05-N03.png",
+      "exists": true,
+      "width": 1672,
+      "height": 941,
+      "sha256": "cdd4eebd998c1ed04a8690ac73172cff0a5a50c4161bd7cdb86bcb8c475cdd99",
+      "bytes": 1965214
+    },
+    {
+      "id": "C05_R_S04",
+      "path": "upload_frames/C05/C05_R_S04.png",
+      "kind": "approved_representative_reused_as_start",
+      "source_path": "storyboards/2026-10-15_absurd-v2/images/C05/S04.png",
+      "exists": true,
+      "width": 1672,
+      "height": 941,
+      "sha256": "65b1e5443dc417b2985765e8b944f53943fc01a8e56b0876befd8207c7d59a12",
+      "bytes": 2056754
+    }
+  ],
+  "concepts": [
+    {
+      "id": "C01",
+      "title": "왜 이제 알려주셨어요",
+      "duration_seconds": 52,
+      "style": "고퀄리티 · 눈물의 멜로드라마",
+      "clips": [
+        {
+          "id": "C01_K01",
+          "concept_id": "C01",
+          "source_cut_ids": [
+            "01"
+          ],
+          "edit_start": 0,
+          "edit_end": 6,
+          "edit_seconds": 6,
+          "requested_generation_seconds": 8,
+          "model_preset": "Veo 3.1 Fast",
+          "mode": "Frames",
+          "first_frame": "upload_frames/C01/C01_N01.png",
+          "asset_id": "C01_N01",
+          "end_frame": null,
+          "ingredients": [],
+          "reference_only": [
+            "references/C01/S01.png"
+          ],
+          "start_state": "A 혼자 눈물이 맺힌 채 울음을 참는다.",
+          "end_state": "A가 말을 잇지 못하고 뺨으로 눈물이 흐른다.",
+          "action": "참던 A의 눈물이 한 방울 흐르며 감정이 무너진다.",
+          "camera": "극근접 고정. 장소를 보여주지 않는다.",
+          "continuity": "A=검수 이미지의 짧은 검은 머리 남성·흰 셔츠·차콜 바지. B=검은 단발 여성·남색 카디건·회색 셔츠. C=검수 이미지의 중년 남성·연두 작업 조끼·흰 티셔츠·검은 바지·회색 밀대. D=낮게 묶은 머리 여성·차콜 정장·흰 셔츠·검은 리모컨. 노란 둥근 양동이와 검은 손잡이 고정. H1=처음 A 소유 흰 손수건, 컷05에서 C에게 넘어가 이후 C가 유지. H2=B가 컷06에서 자기 주머니에서 꺼내는 별도 흰 손수건. A에게 세 번째 손수건을 만들지 않는다. 낡은 개인 메모장 2~3권은 컷06 장소 공개부터 노출. 오열 인물과 평온한 D의 감정 대비, 따뜻한 측면광과 깊은 그림자 유지.",
+          "edit_notes": "B나 양동이를 등장시키지 않는다.",
+          "prompt_native": "prompts/C01/C01_K01_korean_dialogue.txt",
+          "prompt_motion_only": "prompts/C01/C01_K01_motion_only.txt",
+          "dialogue": [
+            {
+              "start": 0.8,
+              "end": 4.5,
+              "speaker": "A",
+              "text": "왜… 이제야…"
+            }
+          ],
+          "planned_source_in": 0,
+          "planned_source_out": 6,
+          "trim_status": "planned_only_adjust_after_actual_generation",
+          "generation_status": "not_uploaded_not_generated",
+          "qa": [
+            "A가 말을 잇지 못하고 뺨으로 눈물이 흐른다.",
+            "핵심 동작이 선택 구간 안에 완료",
+            "첫 프레임과 인물·복장·소품 수량 일치",
+            "화면 자막·로고·새 인물 없음",
+            "대사 화자·순서 확인, 부정확하면 별도 더빙",
+            "움직임이 틀린 부분을 무리한 배속으로 숨기지 않음"
+          ],
+          "suggested_download_name": "C01_K01_take01.mp4",
+          "edit_crops": []
+        },
+        {
+          "id": "C01_K02",
+          "concept_id": "C01",
+          "source_cut_ids": [
+            "02"
+          ],
+          "edit_start": 6,
+          "edit_end": 12,
+          "edit_seconds": 6,
+          "requested_generation_seconds": 8,
+          "model_preset": "Veo 3.1 Fast",
+          "mode": "Frames",
+          "first_frame": "upload_frames/C01/C01_N02.png",
+          "asset_id": "C01_N02",
+          "end_frame": null,
+          "ingredients": [],
+          "reference_only": [
+            "references/C01/S01.png"
+          ],
+          "start_state": "B는 아직 크게 울지 않으며 손을 내밀어 A를 달래려 한다.",
+          "end_state": "B의 내밀던 손이 멈추고 고개를 숙이며 운다.",
+          "action": "A를 달래려던 B가 울음을 터뜨린다.",
+          "camera": "B 중심 미디엄 클로즈업, A는 가장자리.",
+          "continuity": "A=검수 이미지의 짧은 검은 머리 남성·흰 셔츠·차콜 바지. B=검은 단발 여성·남색 카디건·회색 셔츠. C=검수 이미지의 중년 남성·연두 작업 조끼·흰 티셔츠·검은 바지·회색 밀대. D=낮게 묶은 머리 여성·차콜 정장·흰 셔츠·검은 리모컨. 노란 둥근 양동이와 검은 손잡이 고정. H1=처음 A 소유 흰 손수건, 컷05에서 C에게 넘어가 이후 C가 유지. H2=B가 컷06에서 자기 주머니에서 꺼내는 별도 흰 손수건. A에게 세 번째 손수건을 만들지 않는다. 낡은 개인 메모장 2~3권은 컷06 장소 공개부터 노출. 오열 인물과 평온한 D의 감정 대비, 따뜻한 측면광과 깊은 그림자 유지.",
+          "edit_notes": "A는 기존 울음을 유지하는 배경 반응만 한다. H1은 아직 A에게 있고 B에게 전달하지 않는다.",
+          "prompt_native": "prompts/C01/C01_K02_korean_dialogue.txt",
+          "prompt_motion_only": "prompts/C01/C01_K02_motion_only.txt",
+          "dialogue": [
+            {
+              "start": 7.0,
+              "end": 10.5,
+              "speaker": "B",
+              "text": "진작… 좀…"
+            }
+          ],
+          "planned_source_in": 0,
+          "planned_source_out": 6,
+          "trim_status": "planned_only_adjust_after_actual_generation",
+          "generation_status": "not_uploaded_not_generated",
+          "qa": [
+            "B의 내밀던 손이 멈추고 고개를 숙이며 운다.",
+            "핵심 동작이 선택 구간 안에 완료",
+            "첫 프레임과 인물·복장·소품 수량 일치",
+            "화면 자막·로고·새 인물 없음",
+            "대사 화자·순서 확인, 부정확하면 별도 더빙",
+            "움직임이 틀린 부분을 무리한 배속으로 숨기지 않음"
+          ],
+          "suggested_download_name": "C01_K02_take01.mp4",
+          "edit_crops": []
+        },
+        {
+          "id": "C01_K03",
+          "concept_id": "C01",
+          "source_cut_ids": [
+            "03"
+          ],
+          "edit_start": 12,
+          "edit_end": 19,
+          "edit_seconds": 7,
+          "requested_generation_seconds": 8,
+          "model_preset": "Veo 3.1 Fast",
+          "mode": "Frames",
+          "first_frame": "upload_frames/C01/C01_R_S02.png",
+          "asset_id": "C01_R_S02",
+          "end_frame": null,
+          "ingredients": [],
+          "reference_only": [
+            "references/C01/S02.png"
+          ],
+          "start_state": "기존 S02의 물줄기가 이미 쏟아지는 순간을 하드 컷으로 처음 공개한다.",
+          "end_state": "물줄기가 오래 이어진 뒤 짧은 물방울로 잦아든다.",
+          "action": "A가 손수건을 더 비틀어 비현실적으로 긴 물줄기를 유지한다.",
+          "camera": "S02의 손·수건·양동이 중심 낮은 구도.",
+          "continuity": "A=검수 이미지의 짧은 검은 머리 남성·흰 셔츠·차콜 바지. B=검은 단발 여성·남색 카디건·회색 셔츠. C=검수 이미지의 중년 남성·연두 작업 조끼·흰 티셔츠·검은 바지·회색 밀대. D=낮게 묶은 머리 여성·차콜 정장·흰 셔츠·검은 리모컨. 노란 둥근 양동이와 검은 손잡이 고정. H1=처음 A 소유 흰 손수건, 컷05에서 C에게 넘어가 이후 C가 유지. H2=B가 컷06에서 자기 주머니에서 꺼내는 별도 흰 손수건. A에게 세 번째 손수건을 만들지 않는다. 낡은 개인 메모장 2~3권은 컷06 장소 공개부터 노출. 오열 인물과 평온한 D의 감정 대비, 따뜻한 측면광과 깊은 그림자 유지.",
+          "edit_notes": "B가 받치는 양동이를 수 cm 보정하는 것은 보조 동작으로 포함한다. 물이 없는 준비 프레임이나 역재생은 필요 없다. 비틀기 자체를 반복 리셋하지 않는다.",
+          "prompt_native": "prompts/C01/C01_K03_korean_dialogue.txt",
+          "prompt_motion_only": "prompts/C01/C01_K03_motion_only.txt",
+          "dialogue": [],
+          "planned_source_in": 0,
+          "planned_source_out": 7,
+          "trim_status": "planned_only_adjust_after_actual_generation",
+          "generation_status": "not_uploaded_not_generated",
+          "qa": [
+            "물줄기가 오래 이어진 뒤 짧은 물방울로 잦아든다.",
+            "핵심 동작이 선택 구간 안에 완료",
+            "첫 프레임과 인물·복장·소품 수량 일치",
+            "화면 자막·로고·새 인물 없음",
+            "대사 화자·순서 확인, 부정확하면 별도 더빙",
+            "움직임이 틀린 부분을 무리한 배속으로 숨기지 않음"
+          ],
+          "suggested_download_name": "C01_K03_take01.mp4",
+          "edit_crops": []
+        },
+        {
+          "id": "C01_K04",
+          "concept_id": "C01",
+          "source_cut_ids": [
+            "04"
+          ],
+          "edit_start": 19,
+          "edit_end": 25,
+          "edit_seconds": 6,
+          "requested_generation_seconds": 8,
+          "model_preset": "Veo 3.1 Fast",
+          "mode": "Frames",
+          "first_frame": "upload_frames/C01/C01_N04.png",
+          "asset_id": "C01_N04",
+          "end_frame": null,
+          "ingredients": [],
+          "reference_only": [
+            "references/C01/S03.png"
+          ],
+          "start_state": "C는 평범하게 청소 중이며 눈물이나 손수건이 없다.",
+          "end_state": "C가 고개를 들어 설명에 귀를 기울이고 밀대가 멈춘다. 아직 오열하지 않는다.",
+          "action": "청소하던 C가 설명을 듣고 밀대질을 멈춘다.",
+          "camera": "통로 중경 고정. D와 스크린은 프레임 밖.",
+          "continuity": "A=검수 이미지의 짧은 검은 머리 남성·흰 셔츠·차콜 바지. B=검은 단발 여성·남색 카디건·회색 셔츠. C=검수 이미지의 중년 남성·연두 작업 조끼·흰 티셔츠·검은 바지·회색 밀대. D=낮게 묶은 머리 여성·차콜 정장·흰 셔츠·검은 리모컨. 노란 둥근 양동이와 검은 손잡이 고정. H1=처음 A 소유 흰 손수건, 컷05에서 C에게 넘어가 이후 C가 유지. H2=B가 컷06에서 자기 주머니에서 꺼내는 별도 흰 손수건. A에게 세 번째 손수건을 만들지 않는다. 낡은 개인 메모장 2~3권은 컷06 장소 공개부터 노출. 오열 인물과 평온한 D의 감정 대비, 따뜻한 측면광과 깊은 그림자 유지.",
+          "edit_notes": "짧은 밀대 한 번 밀기→설명을 듣고 정지. C의 오열은 다음 컷에 남긴다. 화면 밖 D 대사를 후편집으로 깐다.",
+          "prompt_native": "prompts/C01/C01_K04_korean_dialogue.txt",
+          "prompt_motion_only": "prompts/C01/C01_K04_motion_only.txt",
+          "dialogue": [
+            {
+              "start": 20.0,
+              "end": 23.8,
+              "speaker": "D · 화면 밖",
+              "text": "제가 헤맨 과정도 같이 보여드릴게요."
+            }
+          ],
+          "planned_source_in": 0,
+          "planned_source_out": 6,
+          "trim_status": "planned_only_adjust_after_actual_generation",
+          "generation_status": "not_uploaded_not_generated",
+          "qa": [
+            "C가 고개를 들어 설명에 귀를 기울이고 밀대가 멈춘다. 아직 오열하지 않는다.",
+            "핵심 동작이 선택 구간 안에 완료",
+            "첫 프레임과 인물·복장·소품 수량 일치",
+            "화면 자막·로고·새 인물 없음",
+            "대사 화자·순서 확인, 부정확하면 별도 더빙",
+            "움직임이 틀린 부분을 무리한 배속으로 숨기지 않음"
+          ],
+          "suggested_download_name": "C01_K04_take01.mp4",
+          "edit_crops": []
+        },
+        {
+          "id": "C01_K05",
+          "concept_id": "C01",
+          "source_cut_ids": [
+            "05"
+          ],
+          "edit_start": 25,
+          "edit_end": 32,
+          "edit_seconds": 7,
+          "requested_generation_seconds": 8,
+          "model_preset": "Veo 3.1 Fast",
+          "mode": "Frames",
+          "first_frame": "upload_frames/C01/C01_R_S03.png",
+          "asset_id": "C01_R_S03",
+          "end_frame": null,
+          "ingredients": [],
+          "reference_only": [
+            "references/C01/S03.png"
+          ],
+          "start_state": "기존 S03처럼 C가 이미 오열하며 A와 H1 귀퉁이를 함께 잡는다.",
+          "end_state": "C가 H1을 혼자 쥐고 울며, 양동이는 C 쪽으로 조금 이동한다.",
+          "action": "C의 공감 오열이 터진 결과를 공개하고 그 감정을 유지한다.",
+          "camera": "S03의 세 인물 중경 유지.",
+          "continuity": "A=검수 이미지의 짧은 검은 머리 남성·흰 셔츠·차콜 바지. B=검은 단발 여성·남색 카디건·회색 셔츠. C=검수 이미지의 중년 남성·연두 작업 조끼·흰 티셔츠·검은 바지·회색 밀대. D=낮게 묶은 머리 여성·차콜 정장·흰 셔츠·검은 리모컨. 노란 둥근 양동이와 검은 손잡이 고정. H1=처음 A 소유 흰 손수건, 컷05에서 C에게 넘어가 이후 C가 유지. H2=B가 컷06에서 자기 주머니에서 꺼내는 별도 흰 손수건. A에게 세 번째 손수건을 만들지 않는다. 낡은 개인 메모장 2~3권은 컷06 장소 공개부터 노출. 오열 인물과 평온한 D의 감정 대비, 따뜻한 측면광과 깊은 그림자 유지.",
+          "edit_notes": "초반 오열 반응을 보여준 후 A가 H1을 놓고, B가 바닥 양동이를 살짝 밀어준다. 두 동작은 7초 안의 짧은 소품 전달이며 별도 클립으로 만들지 않는다. C 대사 ‘저만 그런 게 아니었네요…’를 유지한다. C는 이후 H1 소유.",
+          "prompt_native": "prompts/C01/C01_K05_korean_dialogue.txt",
+          "prompt_motion_only": "prompts/C01/C01_K05_motion_only.txt",
+          "dialogue": [
+            {
+              "start": 26.1,
+              "end": 30.5,
+              "speaker": "C",
+              "text": "저만 그런 게 아니었네요…"
+            }
+          ],
+          "planned_source_in": 0,
+          "planned_source_out": 7,
+          "trim_status": "planned_only_adjust_after_actual_generation",
+          "generation_status": "not_uploaded_not_generated",
+          "qa": [
+            "C가 H1을 혼자 쥐고 울며, 양동이는 C 쪽으로 조금 이동한다.",
+            "핵심 동작이 선택 구간 안에 완료",
+            "첫 프레임과 인물·복장·소품 수량 일치",
+            "화면 자막·로고·새 인물 없음",
+            "대사 화자·순서 확인, 부정확하면 별도 더빙",
+            "움직임이 틀린 부분을 무리한 배속으로 숨기지 않음"
+          ],
+          "suggested_download_name": "C01_K05_take01.mp4",
+          "edit_crops": []
+        },
+        {
+          "id": "C01_K06",
+          "concept_id": "C01",
+          "source_cut_ids": [
+            "06"
+          ],
+          "edit_start": 32,
+          "edit_end": 40,
+          "edit_seconds": 8,
+          "requested_generation_seconds": 8,
+          "model_preset": "Veo 3.1 Fast",
+          "mode": "Frames",
+          "first_frame": "upload_frames/C01/C01_N07.png",
+          "asset_id": "C01_N07",
+          "end_frame": null,
+          "ingredients": [],
+          "reference_only": [
+            "references/C01/S04.png"
+          ],
+          "start_state": "새 와이드: C가 방금 앉아 몸을 정돈하고 A의 양동이는 무릎에 낮게 있다. B의 손은 자기 주머니 안.",
+          "end_state": "D의 평범한 설명을 들으며 B는 H2를 꺼내 눈가를 닦고 무릎 쪽으로 내린다. 양동이는 계속 A 무릎.",
+          "action": "발표장과 관객으로 합류한 C를 공개하며 B가 자기 손수건을 꺼낸다.",
+          "camera": "첫 프레임에서 와이드로 장소를 공개하고 같은 축 고정. 메모장은 처음부터 이 컷에서 보인다.",
+          "continuity": "A=검수 이미지의 짧은 검은 머리 남성·흰 셔츠·차콜 바지. B=검은 단발 여성·남색 카디건·회색 셔츠. C=검수 이미지의 중년 남성·연두 작업 조끼·흰 티셔츠·검은 바지·회색 밀대. D=낮게 묶은 머리 여성·차콜 정장·흰 셔츠·검은 리모컨. 노란 둥근 양동이와 검은 손잡이 고정. H1=처음 A 소유 흰 손수건, 컷05에서 C에게 넘어가 이후 C가 유지. H2=B가 컷06에서 자기 주머니에서 꺼내는 별도 흰 손수건. A에게 세 번째 손수건을 만들지 않는다. 낡은 개인 메모장 2~3권은 컷06 장소 공개부터 노출. 오열 인물과 평온한 D의 감정 대비, 따뜻한 측면광과 깊은 그림자 유지.",
+          "edit_notes": "0~2초 C가 앉은 몸을 정돈하는 짧은 여운. 2~5초 B가 H2를 꺼내 닦는다. A·D 대사는 원래 8초 안에 후편집으로 배치한다. C의 착석과 양동이 바닥→무릎은 편집 연결에서 상태를 공개하는 것으로 처리한다. 이야기 결과는 보존하고 별도 소품 이동 삽입은 만들지 않는다.",
+          "prompt_native": "prompts/C01/C01_K06_korean_dialogue.txt",
+          "prompt_motion_only": "prompts/C01/C01_K06_motion_only.txt",
+          "dialogue": [
+            {
+              "start": 32.5,
+              "end": 36.0,
+              "speaker": "A",
+              "text": "이걸 혼자 붙잡고 있었는데…"
+            },
+            {
+              "start": 37.0,
+              "end": 39.4,
+              "speaker": "D",
+              "text": "다음 사례도 볼까요?"
+            }
+          ],
+          "planned_source_in": 0,
+          "planned_source_out": 8,
+          "trim_status": "planned_only_adjust_after_actual_generation",
+          "generation_status": "not_uploaded_not_generated",
+          "qa": [
+            "D의 평범한 설명을 들으며 B는 H2를 꺼내 눈가를 닦고 무릎 쪽으로 내린다. 양동이는 계속 A 무릎.",
+            "핵심 동작이 선택 구간 안에 완료",
+            "첫 프레임과 인물·복장·소품 수량 일치",
+            "화면 자막·로고·새 인물 없음",
+            "대사 화자·순서 확인, 부정확하면 별도 더빙",
+            "움직임이 틀린 부분을 무리한 배속으로 숨기지 않음"
+          ],
+          "suggested_download_name": "C01_K06_take01.mp4",
+          "edit_crops": []
+        },
+        {
+          "id": "C01_K07",
+          "concept_id": "C01",
+          "source_cut_ids": [
+            "07"
+          ],
+          "edit_start": 40,
+          "edit_end": 46,
+          "edit_seconds": 6,
+          "requested_generation_seconds": 8,
+          "model_preset": "Veo 3.1 Fast",
+          "mode": "Frames",
+          "first_frame": "upload_frames/C01/C01_N10.png",
+          "asset_id": "C01_N10",
+          "end_frame": null,
+          "ingredients": [],
+          "reference_only": [
+            "references/C01/S04.png"
+          ],
+          "start_state": "양동이는 A 무릎, B는 자기 H2를 접기 전, C는 H1 유지.",
+          "end_state": "양동이가 턱 바로 아래에 올라가고 A가 준비를 마친다.",
+          "action": "A가 다음 눈물에 대비해 양동이를 무릎에서 턱 밑으로 들어 올린다.",
+          "camera": "S04와 같은 측면 3/4 구도 유지.",
+          "continuity": "A=검수 이미지의 짧은 검은 머리 남성·흰 셔츠·차콜 바지. B=검은 단발 여성·남색 카디건·회색 셔츠. C=검수 이미지의 중년 남성·연두 작업 조끼·흰 티셔츠·검은 바지·회색 밀대. D=낮게 묶은 머리 여성·차콜 정장·흰 셔츠·검은 리모컨. 노란 둥근 양동이와 검은 손잡이 고정. H1=처음 A 소유 흰 손수건, 컷05에서 C에게 넘어가 이후 C가 유지. H2=B가 컷06에서 자기 주머니에서 꺼내는 별도 흰 손수건. A에게 세 번째 손수건을 만들지 않는다. 낡은 개인 메모장 2~3권은 컷06 장소 공개부터 노출. 오열 인물과 평온한 D의 감정 대비, 따뜻한 측면광과 깊은 그림자 유지.",
+          "edit_notes": "B가 자기 H2를 짧게 접는 동작은 초반 배경으로 처리. A의 상승을 중심으로 보여주고, 마지막 B가 빈 손으로 손잡이를 조금 바로잡는 것은 짧은 여운으로 포함한다. 승인된 최소 보정: 손수건을 접는 사람은 A가 아니라 B이다. A에게 새 손수건을 만들지 않는다. 마지막 프레임으로 6초 엔딩 제작.",
+          "prompt_native": "prompts/C01/C01_K07_korean_dialogue.txt",
+          "prompt_motion_only": "prompts/C01/C01_K07_motion_only.txt",
+          "dialogue": [
+            {
+              "start": 43.0,
+              "end": 45.6,
+              "speaker": "A",
+              "text": "잠깐만요. 이제 됐습니다."
+            }
+          ],
+          "planned_source_in": 0,
+          "planned_source_out": 6,
+          "trim_status": "planned_only_adjust_after_actual_generation",
+          "generation_status": "not_uploaded_not_generated",
+          "qa": [
+            "양동이가 턱 바로 아래에 올라가고 A가 준비를 마친다.",
+            "핵심 동작이 선택 구간 안에 완료",
+            "첫 프레임과 인물·복장·소품 수량 일치",
+            "화면 자막·로고·새 인물 없음",
+            "대사 화자·순서 확인, 부정확하면 별도 더빙",
+            "움직임이 틀린 부분을 무리한 배속으로 숨기지 않음"
+          ],
+          "suggested_download_name": "C01_K07_take01.mp4",
+          "edit_crops": []
+        }
+      ],
+      "post_edit": [
+        {
+          "id": "C01-E01",
+          "kind": "endcard",
+          "start": 46,
+          "end": 52,
+          "seconds": 6,
+          "overlay": "post/C01/title_overlay.svg",
+          "standalone": "post/C01/endcard.svg",
+          "preferred_background": "이 안의 마지막 생성 클립에서 검수된 최종 프레임",
+          "fallback": "같이 제공한 독립 타이틀 카드 사용",
+          "caption": "2026년 품질팀\nAI 실행 결과 발표 대회\n직접 해본 이야기를 나눕니다.",
+          "notes": "행사명 6초 온전히 유지. C02는 주인이 앉기 전 기존 대표 이미지로 되돌리지 않는다. 일시·장소·신청 URL 미확정으로 삽입하지 않음."
+        }
+      ],
+      "source_cuts": [
+        {
+          "id": "01",
+          "scene": "S01",
+          "start": 0,
+          "end": 6,
+          "visual": "A의 얼굴을 극단적으로 가깝게 잡는다. 눈물이 눈 아래에 고이다 뺨으로 흐르고, 말을 잇지 못해 입술을 깨문다. 감정의 이유나 장소를 보여주지 않는다.",
+          "caption": "",
+          "dialogue": "A: \"왜… 이제야…\"",
+          "audio": "절제된 피아노 한 음과 실제로 흐트러지는 호흡. 멜로드라마의 감정을 진심으로 만든다.",
+          "transition": "A가 옆을 돌아보는 시선에 맞춰 B로 컷.",
+          "intent": "첫 3초 안에 사연이 궁금한 감정적 장면으로 몰입시킨다."
+        },
+        {
+          "id": "02",
+          "scene": "S01",
+          "start": 6,
+          "end": 12,
+          "visual": "B는 A를 달래려다 오히려 자기 울음을 못 참고 고개를 숙인다. A가 건넨 손수건을 받으려던 손이 허공에서 멈춘다.",
+          "caption": "",
+          "dialogue": "B: \"진작… 좀…\"",
+          "audio": "피아노에 낮은 현악이 겹친다. A의 흐느낌에 B의 더 큰 울음이 뒤늦게 합류한다.",
+          "transition": "허공에 멈춘 손에서 손수건과 양동이로 낮게 컷.",
+          "intent": "감정을 나누는 관계처럼 보이게 하면서 울음의 원인에 대한 궁금증을 키운다."
+        },
+        {
+          "id": "03",
+          "scene": "S02",
+          "start": 12,
+          "end": 19,
+          "visual": "A가 손수건을 비틀자 물줄기가 노란 양동이로 쏟아진다. B는 여전히 울면서 양동이 위치를 정확하게 옮겨 한 방울도 놓치지 않으려 한다.",
+          "caption": "",
+          "dialogue": "",
+          "audio": "현악은 진지하게 지속한다. 비현실적으로 오래 이어지는 물 짜는 소리를 선명하게 들려준다.",
+          "transition": "물방울이 바닥에 떨어지는 지점에서 밀대가 들어오는 방향으로 컷.",
+          "intent": "슬픔의 반복을 눈물을 처리하는 노동이라는 전혀 새로운 행동으로 바꾼다."
+        },
+        {
+          "id": "04",
+          "scene": "S03",
+          "start": 19,
+          "end": 25,
+          "visual": "C가 바닥을 닦으며 들어온다. A와 B를 잠깐 보고 아무 말 없이 청소를 이어가다가, 화면 밖 설명을 듣고 밀대를 멈춘다.",
+          "caption": "",
+          "dialogue": "화면 밖 D: “제가 헤맨 과정도 같이 보여드릴게요.”",
+          "audio": "밀대 마찰음과 현실적인 설명 음성. 현악은 아직 희미하게 남아 있다.",
+          "transition": "멈춘 밀대에서 C의 표정으로 컷.",
+          "intent": "청소 담당자는 감정 소동을 정리할 사람처럼 들어오지만 설명 때문에 행동이 달라진다."
+        },
+        {
+          "id": "05",
+          "scene": "S03",
+          "start": 25,
+          "end": 32,
+          "visual": "C가 눈물을 참으려 고개를 들지만 결국 밀대를 붙잡고 오열한다. A는 이미 울고 있으면서도 익숙하게 손수건 귀퉁이를 건넨다. B가 양동이를 C 쪽으로 살짝 밀어준다.",
+          "caption": "",
+          "dialogue": "C: “저만 그런 게 아니었네요…”",
+          "audio": "참던 숨이 터지는 울음. 눈물의 감정은 크게 연기하되 웃음 효과음은 넣지 않는다.",
+          "transition": "D의 평온한 목소리를 먼저 들려주고 발표장 전체 와이드로 컷.",
+          "intent": "소동을 해결할 인물도 감정에 합류하는 반전. 양동이를 미리 보내는 행동으로 앞선 개그를 한 번 더 사용한다."
+        },
+        {
+          "id": "06",
+          "scene": "S04",
+          "start": 32,
+          "end": 40,
+          "visual": "처음으로 발표장 와이드. D는 작은 리모컨으로 설명하고 A·B·C는 울며 듣는다. A와 B 옆에 낡은 개인 메모장 몇 권이 처음 보인다. 과장된 종이 산이 아니라 혼자 고민한 흔적이다. C도 밀대를 세워 두고 의자에 앉는다. B가 자기 주머니에서 별도 흰 손수건을 꺼낸다.",
+          "caption": "직접 해본 AI 활용 경험을 나누는 자리",
+          "dialogue": "A: “이걸 혼자 붙잡고 있었는데…” D: “다음 사례도 볼까요?”",
+          "audio": "멜로드라마 음악을 급히 낮추고 평범한 발표 목소리, 의자·종이·물방울 생활음이 선명해진다.",
+          "transition": "같은 축에서 A의 준비 행동이 잘 보이게 조금 가까이 컷.",
+          "intent": "이별로 보였던 감정의 원인이 실제 경험 공유였음을 공개한다. 화면과 반응은 허구의 과장된 재연이며 구체적 성과를 주장하지 않는다."
+        },
+        {
+          "id": "07",
+          "scene": "S04",
+          "start": 40,
+          "end": 46,
+          "visual": "'다음 사례'라는 말에 B가 자기 손수건 H2를 접는다. C는 A에게 받은 H1을 유지한다. 이어 노란 양동이를 무릎에서 턱 바로 아래로 들어 올린다. B가 무표정하게 손잡이를 바로 잡아준다. D는 다음 설명을 준비한다.",
+          "caption": "",
+          "dialogue": "A: \"잠깐만요. 이제 됐습니다.\"",
+          "audio": "양동이 손잡이의 딸깍 소리. 감동 음악이 아주 짧게 다시 시작될 듯하다가 타이틀 음악으로 정리한다.",
+          "transition": "발표장 와이드 프레임을 정지.",
+          "intent": "손수건이 감당하지 못한 감정에 대비해 처음부터 양동이를 드는 콜백으로 마무리한다."
+        },
+        {
+          "id": "08",
+          "scene": "S04",
+          "start": 46,
+          "end": 52,
+          "visual": "직전 발표장 프레임을 정지한다. 빈 스크린 영역에 행사명과 시작 문구를 후속 편집 자막으로 넣어 6초 온전히 유지한다.",
+          "caption": "2026년 품질팀\nAI 실행 결과 발표 대회\n직접 해본 이야기를 나눕니다.",
+          "dialogue": "",
+          "audio": "짧은 타이틀 음악. 실제 현장 상영에서는 자연스럽게 마무리해 사회자로 연결한다.",
+          "transition": "6초 유지 후 사회자 또는 첫 발표로 연결.",
+          "intent": "행사명을 읽을 시간을 확보한다. 원인을 공개한 이야기의 의미를 경험 공유라는 사실로 고정한다."
+        }
+      ]
+    },
+    {
+      "id": "C02",
+      "title": "구두가 먼저 도착했습니다",
+      "duration_seconds": 54,
+      "style": "고퀄리티 · 구두 추격 스릴러",
+      "clips": [
+        {
+          "id": "C02_K01",
+          "concept_id": "C02",
+          "source_cut_ids": [
+            "01"
+          ],
+          "edit_start": 0,
+          "edit_end": 4,
+          "edit_seconds": 4,
+          "requested_generation_seconds": 8,
+          "model_preset": "Veo 3.1 Fast",
+          "mode": "Frames",
+          "first_frame": "upload_frames/C02/C02_N01.png",
+          "asset_id": "C02_N01",
+          "end_frame": null,
+          "ingredients": [],
+          "reference_only": [
+            "references/C02/S01.png"
+          ],
+          "start_state": "검은 구두 두 짝 모두 정지, A의 양말 발끝이 입구로 들어가기 직전.",
+          "end_state": "구두 한 짝이 한 뼘 피하고 A의 발만 허공에 남는다.",
+          "action": "검은 구두 한 짝이 A의 발을 한 번 피한다.",
+          "camera": "바닥 극저각 클로즈업.",
+          "continuity": "A=검수 이미지의 웨이브 검은 머리 남성·흰 셔츠·차콜 바지·검은 양말. B=묶은 검은 머리 여성·하늘색 셔츠·회색 바지·회색 양말. C=중년 남성·녹색 작업 조끼·어두운 상의·검은 바지·본인 검은 작업화. D=단발 여성·베이지 재킷·흰 셔츠·검은 바지. 자율 신발은 정확히 검은 끈 구두 1켤레, 흰 운동화 1켤레, 갈색 로퍼 1켤레, 총 6짝. C의 착용 작업화는 자율 신발 수량에 포함하지 않는다. 베이지 자루·붉은 조임 끈 고정. 자루 안에 사람이나 동물이 없다. 신발에 얼굴·팔다리를 붙이지 않는다. 입장 줄은 문 쪽부터 검은 구두, 흰 운동화, 갈색 로퍼. 의자와 신발 앞코는 스크린/무대 방향으로 일치시킨다.",
+          "edit_notes": "8초 생성 요청. 핵심 회피와 발이 허공에 멈추는 반응을 첫4초 안에 완료하고 나머지는 정지한 반응 유지. 완성본에는4초 사용.",
+          "prompt_native": "prompts/C02/C02_K01_korean_dialogue.txt",
+          "prompt_motion_only": "prompts/C02/C02_K01_motion_only.txt",
+          "dialogue": [
+            {
+              "start": 2.4,
+              "end": 3.3,
+              "speaker": "A",
+              "text": "어?"
+            }
+          ],
+          "planned_source_in": 0,
+          "planned_source_out": 4,
+          "trim_status": "planned_only_adjust_after_actual_generation",
+          "generation_status": "not_uploaded_not_generated",
+          "qa": [
+            "구두 한 짝이 한 뼘 피하고 A의 발만 허공에 남는다.",
+            "핵심 동작이 선택 구간 안에 완료",
+            "첫 프레임과 인물·복장·소품 수량 일치",
+            "화면 자막·로고·새 인물 없음",
+            "대사 화자·순서 확인, 부정확하면 별도 더빙",
+            "움직임이 틀린 부분을 무리한 배속으로 숨기지 않음"
+          ],
+          "suggested_download_name": "C02_K01_take01.mp4",
+          "edit_crops": []
+        },
+        {
+          "id": "C02_K02",
+          "concept_id": "C02",
+          "source_cut_ids": [
+            "02"
+          ],
+          "edit_start": 4,
+          "edit_end": 9,
+          "edit_seconds": 5,
+          "requested_generation_seconds": 8,
+          "model_preset": "Veo 3.1 Fast",
+          "mode": "Frames",
+          "first_frame": "upload_frames/C02/C02_N02.png",
+          "asset_id": "C02_N02",
+          "end_frame": null,
+          "ingredients": [],
+          "reference_only": [
+            "references/C02/S01.png"
+          ],
+          "start_state": "첫 회피 뒤 검은 구두 옆으로 A가 손을 뻗기 직전. B/다른 신발은 아직 정상.",
+          "end_state": "검은 구두 두 짝이 함께 달아나고 A가 의자에서 일어나 뒤쫓는다.",
+          "action": "A가 잡으려는 검은 구두 한 켤레가 통로로 달아난다.",
+          "camera": "구두를 따라 짧게 이동하는 낮은 카메라.",
+          "continuity": "A=검수 이미지의 웨이브 검은 머리 남성·흰 셔츠·차콜 바지·검은 양말. B=묶은 검은 머리 여성·하늘색 셔츠·회색 바지·회색 양말. C=중년 남성·녹색 작업 조끼·어두운 상의·검은 바지·본인 검은 작업화. D=단발 여성·베이지 재킷·흰 셔츠·검은 바지. 자율 신발은 정확히 검은 끈 구두 1켤레, 흰 운동화 1켤레, 갈색 로퍼 1켤레, 총 6짝. C의 착용 작업화는 자율 신발 수량에 포함하지 않는다. 베이지 자루·붉은 조임 끈 고정. 자루 안에 사람이나 동물이 없다. 신발에 얼굴·팔다리를 붙이지 않는다. 입장 줄은 문 쪽부터 검은 구두, 흰 운동화, 갈색 로퍼. 의자와 신발 앞코는 스크린/무대 방향으로 일치시킨다.",
+          "edit_notes": "A의 일어나기는 도주의 반응. B의 합류는 이 컷에서 발생하지 않는다.",
+          "prompt_native": "prompts/C02/C02_K02_korean_dialogue.txt",
+          "prompt_motion_only": "prompts/C02/C02_K02_motion_only.txt",
+          "dialogue": [
+            {
+              "start": 5.0,
+              "end": 6.4,
+              "speaker": "A",
+              "text": "거기 서!"
+            }
+          ],
+          "planned_source_in": 0,
+          "planned_source_out": 5,
+          "trim_status": "planned_only_adjust_after_actual_generation",
+          "generation_status": "not_uploaded_not_generated",
+          "qa": [
+            "검은 구두 두 짝이 함께 달아나고 A가 의자에서 일어나 뒤쫓는다.",
+            "핵심 동작이 선택 구간 안에 완료",
+            "첫 프레임과 인물·복장·소품 수량 일치",
+            "화면 자막·로고·새 인물 없음",
+            "대사 화자·순서 확인, 부정확하면 별도 더빙",
+            "움직임이 틀린 부분을 무리한 배속으로 숨기지 않음"
+          ],
+          "suggested_download_name": "C02_K02_take01.mp4",
+          "edit_crops": []
+        },
+        {
+          "id": "C02_K03",
+          "concept_id": "C02",
+          "source_cut_ids": [
+            "03"
+          ],
+          "edit_start": 9,
+          "edit_end": 15,
+          "edit_seconds": 6,
+          "requested_generation_seconds": 8,
+          "model_preset": "Veo 3.1 Fast",
+          "mode": "Frames",
+          "first_frame": "upload_frames/C02/C02_N03.png",
+          "asset_id": "C02_N03",
+          "end_frame": null,
+          "ingredients": [],
+          "reference_only": [
+            "references/C02/S01.png"
+          ],
+          "start_state": "검은 구두만 도주 중이며 흰/갈색은 각각 자기 자리에서 정지.",
+          "end_state": "흰 운동화가 먼저, 갈색 로퍼가 뒤이어 같은 통로에 들어와 총 세 켤레가 달린다.",
+          "action": "흰 운동화와 갈색 로퍼가 차례로 도주에 합류한다.",
+          "camera": "세 신발의 출발 위치가 함께 보이는 넓은 로우 앵글.",
+          "continuity": "A=검수 이미지의 웨이브 검은 머리 남성·흰 셔츠·차콜 바지·검은 양말. B=묶은 검은 머리 여성·하늘색 셔츠·회색 바지·회색 양말. C=중년 남성·녹색 작업 조끼·어두운 상의·검은 바지·본인 검은 작업화. D=단발 여성·베이지 재킷·흰 셔츠·검은 바지. 자율 신발은 정확히 검은 끈 구두 1켤레, 흰 운동화 1켤레, 갈색 로퍼 1켤레, 총 6짝. C의 착용 작업화는 자율 신발 수량에 포함하지 않는다. 베이지 자루·붉은 조임 끈 고정. 자루 안에 사람이나 동물이 없다. 신발에 얼굴·팔다리를 붙이지 않는다. 입장 줄은 문 쪽부터 검은 구두, 흰 운동화, 갈색 로퍼. 의자와 신발 앞코는 스크린/무대 방향으로 일치시킨다.",
+          "edit_notes": "약 0~3초 흰 운동화가 B 발을 피하고, 3~5초 갈색 로퍼가 같은 방향으로 합류한다. 동일한 합류 행동의 확대이므로 한 클립에서 순서대로 처리한다. B의 놀람과 추격은 뒤쪽 반응으로만 둔다. 각 색 한 켤레, 총 6짝.",
+          "prompt_native": "prompts/C02/C02_K03_korean_dialogue.txt",
+          "prompt_motion_only": "prompts/C02/C02_K03_motion_only.txt",
+          "dialogue": [
+            {
+              "start": 11.0,
+              "end": 12.4,
+              "speaker": "B",
+              "text": "제 것도요!"
+            }
+          ],
+          "planned_source_in": 0,
+          "planned_source_out": 6,
+          "trim_status": "planned_only_adjust_after_actual_generation",
+          "generation_status": "not_uploaded_not_generated",
+          "qa": [
+            "흰 운동화가 먼저, 갈색 로퍼가 뒤이어 같은 통로에 들어와 총 세 켤레가 달린다.",
+            "핵심 동작이 선택 구간 안에 완료",
+            "첫 프레임과 인물·복장·소품 수량 일치",
+            "화면 자막·로고·새 인물 없음",
+            "대사 화자·순서 확인, 부정확하면 별도 더빙",
+            "움직임이 틀린 부분을 무리한 배속으로 숨기지 않음"
+          ],
+          "suggested_download_name": "C02_K03_take01.mp4",
+          "edit_crops": []
+        },
+        {
+          "id": "C02_K04",
+          "concept_id": "C02",
+          "source_cut_ids": [
+            "04"
+          ],
+          "edit_start": 15,
+          "edit_end": 22,
+          "edit_seconds": 7,
+          "requested_generation_seconds": 8,
+          "model_preset": "Veo 3.1 Fast",
+          "mode": "Frames",
+          "first_frame": "upload_frames/C02/C02_N05.png",
+          "asset_id": "C02_N05",
+          "end_frame": null,
+          "ingredients": [],
+          "reference_only": [
+            "references/C02/S02.png"
+          ],
+          "start_state": "자루 입구가 열려 있고 세 켤레가 바깥에서 접근한다.",
+          "end_state": "세 켤레가 자루 안에 들어가고 입구가 모인다. 자루가 바닥에 정지한 채 C가 의기양양해진다.",
+          "action": "C가 자루로 세 켤레를 포획하고 성공을 확인한다.",
+          "camera": "포획 경로와 C 얼굴이 함께 읽히는 낮은 중경.",
+          "continuity": "A=검수 이미지의 웨이브 검은 머리 남성·흰 셔츠·차콜 바지·검은 양말. B=묶은 검은 머리 여성·하늘색 셔츠·회색 바지·회색 양말. C=중년 남성·녹색 작업 조끼·어두운 상의·검은 바지·본인 검은 작업화. D=단발 여성·베이지 재킷·흰 셔츠·검은 바지. 자율 신발은 정확히 검은 끈 구두 1켤레, 흰 운동화 1켤레, 갈색 로퍼 1켤레, 총 6짝. C의 착용 작업화는 자율 신발 수량에 포함하지 않는다. 베이지 자루·붉은 조임 끈 고정. 자루 안에 사람이나 동물이 없다. 신발에 얼굴·팔다리를 붙이지 않는다. 입장 줄은 문 쪽부터 검은 구두, 흰 운동화, 갈색 로퍼. 의자와 신발 앞코는 스크린/무대 방향으로 일치시킨다.",
+          "edit_notes": "앞부분 포획, 끝 1~2초는 자루가 정지한 성공 상태와 ‘잡았습니다’의 여운. 성공 리액션만 별도 생성하지 않는다.",
+          "prompt_native": "prompts/C02/C02_K04_korean_dialogue.txt",
+          "prompt_motion_only": "prompts/C02/C02_K04_motion_only.txt",
+          "dialogue": [
+            {
+              "start": 20.0,
+              "end": 21.3,
+              "speaker": "C",
+              "text": "잡았습니다."
+            }
+          ],
+          "planned_source_in": 0,
+          "planned_source_out": 7,
+          "trim_status": "planned_only_adjust_after_actual_generation",
+          "generation_status": "not_uploaded_not_generated",
+          "qa": [
+            "세 켤레가 자루 안에 들어가고 입구가 모인다. 자루가 바닥에 정지한 채 C가 의기양양해진다.",
+            "핵심 동작이 선택 구간 안에 완료",
+            "첫 프레임과 인물·복장·소품 수량 일치",
+            "화면 자막·로고·새 인물 없음",
+            "대사 화자·순서 확인, 부정확하면 별도 더빙",
+            "움직임이 틀린 부분을 무리한 배속으로 숨기지 않음"
+          ],
+          "suggested_download_name": "C02_K04_take01.mp4",
+          "edit_crops": []
+        },
+        {
+          "id": "C02_K05",
+          "concept_id": "C02",
+          "source_cut_ids": [
+            "05"
+          ],
+          "edit_start": 22,
+          "edit_end": 28,
+          "edit_seconds": 6,
+          "requested_generation_seconds": 8,
+          "model_preset": "Veo 3.1 Fast",
+          "mode": "Frames",
+          "first_frame": "upload_frames/C02/C02_N06.png",
+          "asset_id": "C02_N06",
+          "end_frame": null,
+          "ingredients": [],
+          "reference_only": [
+            "references/C02/S02.png"
+          ],
+          "start_state": "C가 닫힌 자루 입구를 잡고 승리한 상태. 자루 바닥은 바닥에 붙어 있다.",
+          "end_state": "두 군데로 번갈아 부푼 자루가 C 손을 빠져나가 도주하고 세 사람이 다시 쫓는다.",
+          "action": "정지한 자루가 스스로 움직여 C 손에서 달아난다.",
+          "camera": "같은 축 낮은 카메라, 자루가 움직인 뒤에만 짧게 추적.",
+          "continuity": "A=검수 이미지의 웨이브 검은 머리 남성·흰 셔츠·차콜 바지·검은 양말. B=묶은 검은 머리 여성·하늘색 셔츠·회색 바지·회색 양말. C=중년 남성·녹색 작업 조끼·어두운 상의·검은 바지·본인 검은 작업화. D=단발 여성·베이지 재킷·흰 셔츠·검은 바지. 자율 신발은 정확히 검은 끈 구두 1켤레, 흰 운동화 1켤레, 갈색 로퍼 1켤레, 총 6짝. C의 착용 작업화는 자율 신발 수량에 포함하지 않는다. 베이지 자루·붉은 조임 끈 고정. 자루 안에 사람이나 동물이 없다. 신발에 얼굴·팔다리를 붙이지 않는다. 입장 줄은 문 쪽부터 검은 구두, 흰 운동화, 갈색 로퍼. 의자와 신발 앞코는 스크린/무대 방향으로 일치시킨다.",
+          "edit_notes": "처음 짧은 안도→자루의 첫 움직임→탈출. C의 빈 손 승리 자세 0.5초와 뒤늦은 추격은 하나의 도주 사건의 반응으로 포함한다.",
+          "prompt_native": "prompts/C02/C02_K05_korean_dialogue.txt",
+          "prompt_motion_only": "prompts/C02/C02_K05_motion_only.txt",
+          "dialogue": [
+            {
+              "start": 24.2,
+              "end": 26.3,
+              "speaker": "C",
+              "text": "아니, 자루까지!"
+            }
+          ],
+          "planned_source_in": 0,
+          "planned_source_out": 6,
+          "trim_status": "planned_only_adjust_after_actual_generation",
+          "generation_status": "not_uploaded_not_generated",
+          "qa": [
+            "두 군데로 번갈아 부푼 자루가 C 손을 빠져나가 도주하고 세 사람이 다시 쫓는다.",
+            "핵심 동작이 선택 구간 안에 완료",
+            "첫 프레임과 인물·복장·소품 수량 일치",
+            "화면 자막·로고·새 인물 없음",
+            "대사 화자·순서 확인, 부정확하면 별도 더빙",
+            "움직임이 틀린 부분을 무리한 배속으로 숨기지 않음"
+          ],
+          "suggested_download_name": "C02_K05_take01.mp4",
+          "edit_crops": []
+        },
+        {
+          "id": "C02_K06",
+          "concept_id": "C02",
+          "source_cut_ids": [
+            "06"
+          ],
+          "edit_start": 28,
+          "edit_end": 35,
+          "edit_seconds": 7,
+          "requested_generation_seconds": 8,
+          "model_preset": "Veo 3.1 Fast",
+          "mode": "Frames",
+          "first_frame": "upload_frames/C02/C02_R_S03.png",
+          "asset_id": "C02_R_S03",
+          "end_frame": null,
+          "ingredients": [],
+          "reference_only": [
+            "references/C02/S03.png"
+          ],
+          "start_state": "기존 S03의 가지런한 세 켤레, 빈 자루, 이미 급히 멈춰 선 사람들을 첫 프레임에서 공개한다.",
+          "end_state": "검은 구두 한 켤레가 문턱 안쪽으로 조용히 들어가고 흰/갈색은 한 칸 대기한다.",
+          "action": "질서정연한 줄을 공개하고 선두 검은 구두가 차례대로 입장한다.",
+          "camera": "S03 고정 와이드로 추격 화면에서 하드 컷.",
+          "continuity": "A=검수 이미지의 웨이브 검은 머리 남성·흰 셔츠·차콜 바지·검은 양말. B=묶은 검은 머리 여성·하늘색 셔츠·회색 바지·회색 양말. C=중년 남성·녹색 작업 조끼·어두운 상의·검은 바지·본인 검은 작업화. D=단발 여성·베이지 재킷·흰 셔츠·검은 바지. 자율 신발은 정확히 검은 끈 구두 1켤레, 흰 운동화 1켤레, 갈색 로퍼 1켤레, 총 6짝. C의 착용 작업화는 자율 신발 수량에 포함하지 않는다. 베이지 자루·붉은 조임 끈 고정. 자루 안에 사람이나 동물이 없다. 신발에 얼굴·팔다리를 붙이지 않는다. 입장 줄은 문 쪽부터 검은 구두, 흰 운동화, 갈색 로퍼. 의자와 신발 앞코는 스크린/무대 방향으로 일치시킨다.",
+          "edit_notes": "급정지는 직전 추격에서 이 자세로 하드 컷하고 짧은 상체 잔류 흔들림·발소리 급정지로 표현. 이후 검은 구두 입장만 분명히 움직인다.",
+          "prompt_native": "prompts/C02/C02_K06_korean_dialogue.txt",
+          "prompt_motion_only": "prompts/C02/C02_K06_motion_only.txt",
+          "dialogue": [
+            {
+              "start": 29.0,
+              "end": 33.5,
+              "speaker": "발표자 · 문 안쪽",
+              "text": "직접 해본 방법을 함께 나눕니다."
+            }
+          ],
+          "planned_source_in": 0,
+          "planned_source_out": 7,
+          "trim_status": "planned_only_adjust_after_actual_generation",
+          "generation_status": "not_uploaded_not_generated",
+          "qa": [
+            "검은 구두 한 켤레가 문턱 안쪽으로 조용히 들어가고 흰/갈색은 한 칸 대기한다.",
+            "핵심 동작이 선택 구간 안에 완료",
+            "첫 프레임과 인물·복장·소품 수량 일치",
+            "화면 자막·로고·새 인물 없음",
+            "대사 화자·순서 확인, 부정확하면 별도 더빙",
+            "움직임이 틀린 부분을 무리한 배속으로 숨기지 않음"
+          ],
+          "suggested_download_name": "C02_K06_take01.mp4",
+          "edit_crops": []
+        },
+        {
+          "id": "C02_K07",
+          "concept_id": "C02",
+          "source_cut_ids": [
+            "07"
+          ],
+          "edit_start": 35,
+          "edit_end": 42,
+          "edit_seconds": 7,
+          "requested_generation_seconds": 8,
+          "model_preset": "Veo 3.1 Fast",
+          "mode": "Frames",
+          "first_frame": "upload_frames/C02/C02_R_S04.png",
+          "asset_id": "C02_R_S04",
+          "end_frame": null,
+          "ingredients": [],
+          "reference_only": [
+            "references/C02/S04.png"
+          ],
+          "start_state": "기존 S04처럼 세 켤레가 각각 객석을 차지했고 A/B는 통로에 서 있다.",
+          "end_state": "A가 손을 조금 뻗다가 멈추고 ‘거긴 제 자리…’라고 반응한다.",
+          "action": "A가 신발이 차지한 의자를 보고 되찾으려던 손을 멈춘다.",
+          "camera": "올바른 무대 방향을 유지하는 기존 S04의 뒤쪽 측면 3/4 구도.",
+          "continuity": "A=검수 이미지의 웨이브 검은 머리 남성·흰 셔츠·차콜 바지·검은 양말. B=묶은 검은 머리 여성·하늘색 셔츠·회색 바지·회색 양말. C=중년 남성·녹색 작업 조끼·어두운 상의·검은 바지·본인 검은 작업화. D=단발 여성·베이지 재킷·흰 셔츠·검은 바지. 자율 신발은 정확히 검은 끈 구두 1켤레, 흰 운동화 1켤레, 갈색 로퍼 1켤레, 총 6짝. C의 착용 작업화는 자율 신발 수량에 포함하지 않는다. 베이지 자루·붉은 조임 끈 고정. 자루 안에 사람이나 동물이 없다. 신발에 얼굴·팔다리를 붙이지 않는다. 입장 줄은 문 쪽부터 검은 구두, 흰 운동화, 갈색 로퍼. 의자와 신발 앞코는 스크린/무대 방향으로 일치시킨다.",
+          "edit_notes": "D는 기존 열린 손을 거의 움직이지 않고 기다린다. A의 손 멈춤과 표정이 중심.",
+          "prompt_native": "prompts/C02/C02_K07_korean_dialogue.txt",
+          "prompt_motion_only": "prompts/C02/C02_K07_motion_only.txt",
+          "dialogue": [
+            {
+              "start": 38.0,
+              "end": 40.5,
+              "speaker": "A",
+              "text": "거긴 제 자리…"
+            }
+          ],
+          "planned_source_in": 0,
+          "planned_source_out": 7,
+          "trim_status": "planned_only_adjust_after_actual_generation",
+          "generation_status": "not_uploaded_not_generated",
+          "qa": [
+            "A가 손을 조금 뻗다가 멈추고 ‘거긴 제 자리…’라고 반응한다.",
+            "핵심 동작이 선택 구간 안에 완료",
+            "첫 프레임과 인물·복장·소품 수량 일치",
+            "화면 자막·로고·새 인물 없음",
+            "대사 화자·순서 확인, 부정확하면 별도 더빙",
+            "움직임이 틀린 부분을 무리한 배속으로 숨기지 않음"
+          ],
+          "suggested_download_name": "C02_K07_take01.mp4",
+          "edit_crops": []
+        },
+        {
+          "id": "C02_K08",
+          "concept_id": "C02",
+          "source_cut_ids": [
+            "08"
+          ],
+          "edit_start": 42,
+          "edit_end": 48,
+          "edit_seconds": 6,
+          "requested_generation_seconds": 8,
+          "model_preset": "Veo 3.1 Fast",
+          "mode": "Frames",
+          "first_frame": "upload_frames/C02/C02_R_S04.png",
+          "asset_id": "C02_R_S04",
+          "end_frame": null,
+          "ingredients": [],
+          "reference_only": [
+            "references/C02/S04.png"
+          ],
+          "start_state": "같은 S04의 A/B는 양말 차림으로 통로에 서 있고 D가 빈 자리를 가리킨다.",
+          "end_state": "A/B가 실제로 빈 두 좌석에 앉아 신발과 함께 무대를 바라본다.",
+          "action": "D의 안내에 따라 두 주인이 신발 옆 빈 좌석에 앉는다.",
+          "camera": "기존 S04 와이드 고정. 두 빈 의자를 실제로 확인한 구도 유지.",
+          "continuity": "A=검수 이미지의 웨이브 검은 머리 남성·흰 셔츠·차콜 바지·검은 양말. B=묶은 검은 머리 여성·하늘색 셔츠·회색 바지·회색 양말. C=중년 남성·녹색 작업 조끼·어두운 상의·검은 바지·본인 검은 작업화. D=단발 여성·베이지 재킷·흰 셔츠·검은 바지. 자율 신발은 정확히 검은 끈 구두 1켤레, 흰 운동화 1켤레, 갈색 로퍼 1켤레, 총 6짝. C의 착용 작업화는 자율 신발 수량에 포함하지 않는다. 베이지 자루·붉은 조임 끈 고정. 자루 안에 사람이나 동물이 없다. 신발에 얼굴·팔다리를 붙이지 않는다. 입장 줄은 문 쪽부터 검은 구두, 흰 운동화, 갈색 로퍼. 의자와 신발 앞코는 스크린/무대 방향으로 일치시킨다.",
+          "edit_notes": "0~1.5초 D의 ‘주인분들도 앉으세요’. 이어 A/B가 가까운 빈 좌석으로 한 걸음 돌고 앉는다. 마지막 약 1초 검은 구두의 앞코가 미세하게 정돈되는 것은 착석 후 여운으로 포함하며 별도 생성하지 않는다. 검수 필수: 두 주인이 실제로 앉고, 신발 세 켤레가 각자 좌석을 유지하며, 의자를 관통하거나 신발을 다시 신지 않아야 한다. 착석 미완료 결과는 엔딩으로 채택하지 않는다.",
+          "prompt_native": "prompts/C02/C02_K08_korean_dialogue.txt",
+          "prompt_motion_only": "prompts/C02/C02_K08_motion_only.txt",
+          "dialogue": [
+            {
+              "start": 42.2,
+              "end": 44.3,
+              "speaker": "D",
+              "text": "주인분들도 앉으세요."
+            }
+          ],
+          "planned_source_in": 0,
+          "planned_source_out": 6,
+          "trim_status": "planned_only_adjust_after_actual_generation",
+          "generation_status": "not_uploaded_not_generated",
+          "qa": [
+            "A/B가 실제로 빈 두 좌석에 앉아 신발과 함께 무대를 바라본다.",
+            "핵심 동작이 선택 구간 안에 완료",
+            "첫 프레임과 인물·복장·소품 수량 일치",
+            "화면 자막·로고·새 인물 없음",
+            "대사 화자·순서 확인, 부정확하면 별도 더빙",
+            "움직임이 틀린 부분을 무리한 배속으로 숨기지 않음"
+          ],
+          "suggested_download_name": "C02_K08_take01.mp4",
+          "edit_crops": []
+        }
+      ],
+      "post_edit": [
+        {
+          "id": "C02-E01",
+          "kind": "endcard",
+          "start": 48,
+          "end": 54,
+          "seconds": 6,
+          "overlay": "post/C02/title_overlay.svg",
+          "standalone": "post/C02/endcard.svg",
+          "preferred_background": "이 안의 마지막 생성 클립에서 검수된 최종 프레임",
+          "fallback": "같이 제공한 독립 타이틀 카드 사용",
+          "caption": "2026년 품질팀\nAI 실행 결과 발표 대회\n직접 해본 이야기, 함께 들으러 오세요.",
+          "notes": "행사명 6초 온전히 유지. C02는 주인이 앉기 전 기존 대표 이미지로 되돌리지 않는다. 일시·장소·신청 URL 미확정으로 삽입하지 않음."
+        }
+      ],
+      "source_cuts": [
+        {
+          "id": "01",
+          "scene": "S01",
+          "start": 0,
+          "end": 4,
+          "visual": "A가 검은 구두에 발을 넣으려는 순간 구두가 정확히 발을 피해 한 뼘 앞으로 이동한다. A의 발만 허공에 남는다. 가죽과 발끝을 낮고 가까운 구도로 잡는다.",
+          "caption": "",
+          "dialogue": "A: \"어?\"",
+          "audio": "멀리서 아주 작게 들리는 발표장 박수. 발이 빗나가는 바닥 마찰음과 낮은 긴장음.",
+          "transition": "구두의 두 번째 움직임을 따라 낮은 추적 구도로 컷.",
+          "intent": "첫 3초 안에 살아 움직이는 신발이라는 사건을 만든다."
+        },
+        {
+          "id": "02",
+          "scene": "S01",
+          "start": 4,
+          "end": 9,
+          "visual": "A가 손으로 잡으려 하자 한 짝이 몸을 틀고 다른 짝과 함께 책상 옆 통로로 달아난다. A가 급히 일어나 양말 차림으로 쫓는다.",
+          "caption": "",
+          "dialogue": "A: \"거기 서!\"",
+          "audio": "짧은 구두 발소리 두 박자, 의자 밀리는 소리, 본격적인 추격 음악.",
+          "transition": "같은 통로를 넓게 잡는 로우 앵글.",
+          "intent": "단순한 소품 움직임에서 주인과 신발의 적극적인 추격으로 전환한다."
+        },
+        {
+          "id": "03",
+          "scene": "S01",
+          "start": 9,
+          "end": 15,
+          "visual": "B가 막 신으려던 흰 운동화까지 발 아래에서 빠져나와 검은 구두를 따라간다. 먼 책상 밑 갈색 로퍼도 합류한다. 뒤늦게 양말 차림이 된 B가 A를 보고 상황을 알아차린 뒤 쫓는다.",
+          "caption": "",
+          "dialogue": "B: \"제 것도요!\"",
+          "audio": "서로 다른 재질의 신발 소리가 겹친다. 추격 음악은 실제 액션 영화처럼 진지하게 고조된다.",
+          "transition": "앞을 막고 자루를 벌리는 C로 컷.",
+          "intent": "A 혼자 겪는 이상 현상이 다른 신발과 주인에게 번져 사건 규모가 커진다."
+        },
+        {
+          "id": "04",
+          "scene": "S02",
+          "start": 15,
+          "end": 22,
+          "visual": "C가 통로 앞에서 큰 자루를 벌려 세 켤레를 한 번에 받아낸다. 입구를 모은 뒤 A와 B를 향해 의기양양하게 고개를 끄덕인다.",
+          "caption": "",
+          "dialogue": "C: \"잡았습니다.\"",
+          "audio": "신발이 자루에 들어가는 툭툭 소리. 추격 음악이 승리의 음으로 마무리되는 듯한다.",
+          "transition": "같은 구도에서 C의 손과 자루를 조금 낮게 잡는다.",
+          "intent": "소동이 해결됐다고 믿을 순간을 명확히 만든다."
+        },
+        {
+          "id": "05",
+          "scene": "S02",
+          "start": 22,
+          "end": 28,
+          "visual": "안도한 순간 자루 바닥이 두 발처럼 번갈아 움직인다. 자루가 C의 손에서 미끄러져 통째로 달아난다. C는 빈 손으로 승리 자세를 0.5초 더 유지한 뒤 놀라 쫓는다.",
+          "caption": "",
+          "dialogue": "C: \"아니, 자루까지!\"",
+          "audio": "끝난 줄 알았던 추격 음악이 더 강하게 재개된다. 캔버스 자루의 둔탁한 발 구르는 소리.",
+          "transition": "통로 끝 열린 문 앞에서 갑자기 고정 와이드로 컷.",
+          "intent": "포획이라는 해결이 더 황당한 이동 방식으로 뒤집히는 두 번째 사건을 만든다."
+        },
+        {
+          "id": "06",
+          "scene": "S03",
+          "start": 28,
+          "end": 35,
+          "visual": "문 앞에는 난동 대신 세 켤레가 가지런히 줄 서 있다. 빈 자루는 옆에 주저앉아 있다. A·B·C가 급히 멈춰 서고, 구두는 차례가 되자 조용히 문 안으로 들어간다.",
+          "caption": "",
+          "dialogue": "문 안쪽 음성: \"직접 해본 방법을 함께 나눕니다.\"",
+          "audio": "추격 음악 중단. 발표장 음성과 차례대로 한 걸음 이동하는 신발 소리만 남긴다.",
+          "transition": "문을 통과하는 검은 구두 방향을 맞춰 객석으로 컷.",
+          "intent": "폭주하던 신발의 목적이 행사 입장이었음을 행동의 질서로 먼저 드러낸다."
+        },
+        {
+          "id": "07",
+          "scene": "S04",
+          "start": 35,
+          "end": 42,
+          "visual": "A가 자기 구두를 잡으려고 객석에 들어오지만 구두는 이미 앞줄 의자에 가지런히 놓여 있다. 다른 두 켤레도 각자 옆 의자를 차지했다. A의 뻗던 손이 멈춘다.",
+          "caption": "",
+          "dialogue": "A: \"거긴 제 자리…\"",
+          "audio": "객석의 생활음. 신발 바닥이 의자 위에서 작게 삐걱하는 소리.",
+          "transition": "A와 안내자 D, 빈 옆 의자가 함께 보이는 구도.",
+          "intent": "목적지를 찾으면 끝날 것이라는 예상 뒤에 신발이 관객이 되었다는 새 반전을 넣는다."
+        },
+        {
+          "id": "08",
+          "scene": "S04",
+          "start": 42,
+          "end": 48,
+          "visual": "D가 신발을 치우지 않고 빈 옆 의자를 안내한다. A와 B가 양말 차림으로 신발 옆자리에 앉는다. 검은 구두 두 짝이 무대 쪽으로 조금 더 바르게 돌아앉는다.",
+          "caption": "",
+          "dialogue": "D: \"주인분들도 앉으세요.\"",
+          "audio": "담담한 안내 대사, 의자 소리, 신발 두 짝이 방향을 맞추는 작은 마찰음. 짧은 타이틀 음악 시작.",
+          "transition": "신발과 주인이 함께 앉은 객석 프레임에서 정지.",
+          "intent": "신발의 욕구와 사람의 참석을 같은 자리에서 해결하며 초대 문구를 이야기 속 대사로 만든다."
+        },
+        {
+          "id": "09",
+          "scene": "S04",
+          "start": 48,
+          "end": 54,
+          "visual": "직전 객석 프레임을 정지하고 빈 스크린 영역에 행사명과 참석 초대를 후속 편집 자막으로 넣어 6초 유지한다.",
+          "caption": "2026년 품질팀\nAI 실행 결과 발표 대회\n직접 해본 이야기, 함께 들으러 오세요.",
+          "dialogue": "",
+          "audio": "짧고 명료한 타이틀 음악.",
+          "transition": "6초 유지 후 종료.",
+          "intent": "행사명이 추격전의 목적지를 설명한다. 미확인 날짜·장소·신청 방식은 넣지 않는다."
+        }
+      ]
+    },
+    {
+      "id": "C03",
+      "title": "지구 침공, 잠시 중단",
+      "duration_seconds": 55,
+      "style": "고퀄리티 · 외계 침공과 점심 메뉴",
+      "clips": [
+        {
+          "id": "C03_K01",
+          "concept_id": "C03",
+          "source_cut_ids": [
+            "01"
+          ],
+          "edit_start": 0,
+          "edit_end": 5,
+          "edit_seconds": 5,
+          "requested_generation_seconds": 8,
+          "model_preset": "Veo 3.1 Fast",
+          "mode": "Frames",
+          "first_frame": "upload_frames/C03/C03_N01.png",
+          "asset_id": "C03_N01",
+          "end_frame": null,
+          "ingredients": [],
+          "reference_only": [
+            "references/C03/S01.png"
+          ],
+          "start_state": "A의 두 발이 바닥, 빛기둥 아직 없음",
+          "end_state": "A가 조금 떠오르며 잔을 바로 잡음",
+          "action": "창밖 그림자 뒤 푸른 빛이 A를 감싸 들어 올린다. A는 잔부터 챙긴다.",
+          "camera": "고정 로우와이드. 방 전체나 카메라가 회전하지 않음.",
+          "continuity": "A: 동일한 베이지 셔츠 한국인 성인 남성, 짙은 회색 바지, 흰 머그. B: 청회색 피부·자주색 제복·정확히 네 팔인 지휘관. C: 옅은 회색 피부·검은 제복·두 팔 조수. 같은 우주선 벽·스캐너·홀로그램·가구. 생성프롬프트마다 한 주요 동작, 네 팔의 부착 위치 유지. 음식·자막은 화면 영역만, 실제 행사 결과 주장 없음.",
+          "edit_notes": "",
+          "prompt_native": "prompts/C03/C03_K01_korean_dialogue.txt",
+          "prompt_motion_only": "prompts/C03/C03_K01_motion_only.txt",
+          "dialogue": [
+            {
+              "start": 2.8,
+              "end": 3.7,
+              "speaker": "A",
+              "text": "어…?"
+            }
+          ],
+          "planned_source_in": 0,
+          "planned_source_out": 5,
+          "trim_status": "planned_only_adjust_after_actual_generation",
+          "generation_status": "not_uploaded_not_generated",
+          "qa": [
+            "A가 조금 떠오르며 잔을 바로 잡음",
+            "핵심 동작이 선택 구간 안에 완료",
+            "첫 프레임과 인물·복장·소품 수량 일치",
+            "화면 자막·로고·새 인물 없음",
+            "대사 화자·순서 확인, 부정확하면 별도 더빙",
+            "움직임이 틀린 부분을 무리한 배속으로 숨기지 않음"
+          ],
+          "suggested_download_name": "C03_K01_take01.mp4",
+          "edit_crops": []
+        },
+        {
+          "id": "C03_K02",
+          "concept_id": "C03",
+          "source_cut_ids": [
+            "02"
+          ],
+          "edit_start": 5,
+          "edit_end": 11,
+          "edit_seconds": 6,
+          "requested_generation_seconds": 8,
+          "model_preset": "Veo 3.1 Fast",
+          "mode": "Frames",
+          "first_frame": "upload_frames/C03/C03_N02.png",
+          "asset_id": "C03_N02",
+          "end_frame": null,
+          "ingredients": [],
+          "reference_only": [
+            "references/C03/S02.png"
+          ],
+          "start_state": "빈 패널·스캐너 A 위 준비·B 위엄",
+          "end_state": "B가 비법을 요구하고 C가 스캐너 작동 버튼 위에 손을 준비한다. 패널은 빈 푸른 상태로 유지.",
+          "action": "B가 장치를 가리키며 A를 압박한다. C가 이미 A에 정렬된 스캐너를 켜기 직전 준비한다. 실제 작동광과 짬뽕은 K03에서 공개.",
+          "camera": "고정 미디엄와이드. 한 주요 B 제스처.",
+          "continuity": "A: 동일한 베이지 셔츠 한국인 성인 남성, 짙은 회색 바지, 흰 머그. B: 청회색 피부·자주색 제복·정확히 네 팔인 지휘관. C: 옅은 회색 피부·검은 제복·두 팔 조수. 같은 우주선 벽·스캐너·홀로그램·가구. 생성프롬프트마다 한 주요 동작, 네 팔의 부착 위치 유지. 음식·자막은 화면 영역만, 실제 행사 결과 주장 없음.",
+          "edit_notes": "",
+          "prompt_native": "prompts/C03/C03_K02_korean_dialogue.txt",
+          "prompt_motion_only": "prompts/C03/C03_K02_motion_only.txt",
+          "dialogue": [
+            {
+              "start": 6.2,
+              "end": 9.4,
+              "speaker": "B",
+              "text": "그 비법을… 알아내겠다."
+            }
+          ],
+          "planned_source_in": 0,
+          "planned_source_out": 6,
+          "trim_status": "planned_only_adjust_after_actual_generation",
+          "generation_status": "not_uploaded_not_generated",
+          "qa": [
+            "B가 비법을 요구하고 C가 스캐너 작동 버튼 위에 손을 준비한다. 패널은 빈 푸른 상태로 유지.",
+            "핵심 동작이 선택 구간 안에 완료",
+            "첫 프레임과 인물·복장·소품 수량 일치",
+            "화면 자막·로고·새 인물 없음",
+            "대사 화자·순서 확인, 부정확하면 별도 더빙",
+            "움직임이 틀린 부분을 무리한 배속으로 숨기지 않음"
+          ],
+          "suggested_download_name": "C03_K02_take01.mp4",
+          "edit_crops": []
+        },
+        {
+          "id": "C03_K03",
+          "concept_id": "C03",
+          "source_cut_ids": [
+            "03"
+          ],
+          "edit_start": 11,
+          "edit_end": 18,
+          "edit_seconds": 7,
+          "requested_generation_seconds": 8,
+          "model_preset": "Veo 3.1 Fast",
+          "mode": "Frames",
+          "first_frame": "upload_frames/C03/C03_N02.png",
+          "asset_id": "C03_N02",
+          "end_frame": null,
+          "ingredients": [],
+          "reference_only": [
+            "references/C03/S02.png"
+          ],
+          "start_state": "같은 빈 패널·A 위 스캐너",
+          "end_state": "패널에 짬뽕이 나타나고 B가 당황",
+          "action": "C가 준비된 스캐너를 켜자 분석 패널에 짬뽕 한 그릇이 나타난다. A는 입맛을 다시고 B는 눈을 비빈다.",
+          "camera": "패널과 A/B가 함께 보이는 고정숏. 음식은 패널 안에만.",
+          "continuity": "A: 동일한 베이지 셔츠 한국인 성인 남성, 짙은 회색 바지, 흰 머그. B: 청회색 피부·자주색 제복·정확히 네 팔인 지휘관. C: 옅은 회색 피부·검은 제복·두 팔 조수. 같은 우주선 벽·스캐너·홀로그램·가구. 생성프롬프트마다 한 주요 동작, 네 팔의 부착 위치 유지. 음식·자막은 화면 영역만, 실제 행사 결과 주장 없음.",
+          "edit_notes": "",
+          "prompt_native": "prompts/C03/C03_K03_korean_dialogue.txt",
+          "prompt_motion_only": "prompts/C03/C03_K03_motion_only.txt",
+          "dialogue": [
+            {
+              "start": 13.8,
+              "end": 15.6,
+              "speaker": "A",
+              "text": "아… 짬뽕."
+            }
+          ],
+          "planned_source_in": 0,
+          "planned_source_out": 7,
+          "trim_status": "planned_only_adjust_after_actual_generation",
+          "generation_status": "not_uploaded_not_generated",
+          "qa": [
+            "패널에 짬뽕이 나타나고 B가 당황",
+            "핵심 동작이 선택 구간 안에 완료",
+            "첫 프레임과 인물·복장·소품 수량 일치",
+            "화면 자막·로고·새 인물 없음",
+            "대사 화자·순서 확인, 부정확하면 별도 더빙",
+            "움직임이 틀린 부분을 무리한 배속으로 숨기지 않음"
+          ],
+          "suggested_download_name": "C03_K03_take01.mp4",
+          "edit_crops": []
+        },
+        {
+          "id": "C03_K04",
+          "concept_id": "C03",
+          "source_cut_ids": [
+            "04"
+          ],
+          "edit_start": 18,
+          "edit_end": 25,
+          "edit_seconds": 7,
+          "requested_generation_seconds": 8,
+          "model_preset": "Veo 3.1 Fast",
+          "mode": "Frames",
+          "first_frame": "upload_frames/C03/C03_N04.png",
+          "asset_id": "C03_N04",
+          "end_frame": null,
+          "ingredients": [],
+          "reference_only": [
+            "references/C03/S02.png"
+          ],
+          "start_state": "A의 짬뽕·B는 아직 위엄",
+          "end_state": "B 위 스캐너·탕수육을 B가 네 팔로 가림",
+          "action": "B가 가까이 재촉한다. C의 재조정으로 스캐너가 B 위로 돌아가고 화면이 탕수육으로 전환된다. B가 다급히 가린다.",
+          "camera": "고정 와이드. 스캐너 이동→패널 변경→가림을 순차로.",
+          "continuity": "A: 동일한 베이지 셔츠 한국인 성인 남성, 짙은 회색 바지, 흰 머그. B: 청회색 피부·자주색 제복·정확히 네 팔인 지휘관. C: 옅은 회색 피부·검은 제복·두 팔 조수. 같은 우주선 벽·스캐너·홀로그램·가구. 생성프롬프트마다 한 주요 동작, 네 팔의 부착 위치 유지. 음식·자막은 화면 영역만, 실제 행사 결과 주장 없음.",
+          "edit_notes": "",
+          "prompt_native": "prompts/C03/C03_K04_korean_dialogue.txt",
+          "prompt_motion_only": "prompts/C03/C03_K04_motion_only.txt",
+          "dialogue": [
+            {
+              "start": 18.2,
+              "end": 19.1,
+              "speaker": "B",
+              "text": "더 깊이!"
+            },
+            {
+              "start": 21.0,
+              "end": 22.8,
+              "speaker": "C",
+              "text": "지휘관님 건데요."
+            },
+            {
+              "start": 23.1,
+              "end": 24.4,
+              "speaker": "B",
+              "text": "꺼! 꺼!"
+            }
+          ],
+          "planned_source_in": 0,
+          "planned_source_out": 7,
+          "trim_status": "planned_only_adjust_after_actual_generation",
+          "generation_status": "not_uploaded_not_generated",
+          "qa": [
+            "B 위 스캐너·탕수육을 B가 네 팔로 가림",
+            "핵심 동작이 선택 구간 안에 완료",
+            "첫 프레임과 인물·복장·소품 수량 일치",
+            "화면 자막·로고·새 인물 없음",
+            "대사 화자·순서 확인, 부정확하면 별도 더빙",
+            "움직임이 틀린 부분을 무리한 배속으로 숨기지 않음"
+          ],
+          "suggested_download_name": "C03_K04_take01.mp4",
+          "edit_crops": []
+        },
+        {
+          "id": "C03_K05",
+          "concept_id": "C03",
+          "source_cut_ids": [
+            "05"
+          ],
+          "edit_start": 25,
+          "edit_end": 31,
+          "edit_seconds": 6,
+          "requested_generation_seconds": 8,
+          "model_preset": "Veo 3.1 Fast",
+          "mode": "Frames",
+          "first_frame": "upload_frames/C03/C03_R_S02.png",
+          "asset_id": "C03_R_S02",
+          "end_frame": null,
+          "ingredients": [],
+          "reference_only": [
+            "references/C03/S03.png"
+          ],
+          "start_state": "B의 비법 추출 실패가 이미 드러남",
+          "end_state": "A가 잔을 내려놓고 설명하겠다고 함",
+          "action": "A가 가까운 기존 콘솔에 잔을 놓고 평범하게 말한다. B의 네 팔은 천천히 내려간다.",
+          "camera": "A 중심의 고정 와이드/약한 푸시인. 대사 구간은 추가 동작 최소.",
+          "continuity": "A: 동일한 베이지 셔츠 한국인 성인 남성, 짙은 회색 바지, 흰 머그. B: 청회색 피부·자주색 제복·정확히 네 팔인 지휘관. C: 옅은 회색 피부·검은 제복·두 팔 조수. 같은 우주선 벽·스캐너·홀로그램·가구. 생성프롬프트마다 한 주요 동작, 네 팔의 부착 위치 유지. 음식·자막은 화면 영역만, 실제 행사 결과 주장 없음.",
+          "edit_notes": "",
+          "prompt_native": "prompts/C03/C03_K05_korean_dialogue.txt",
+          "prompt_motion_only": "prompts/C03/C03_K05_motion_only.txt",
+          "dialogue": [
+            {
+              "start": 26.5,
+              "end": 29.3,
+              "speaker": "A",
+              "text": "말로 설명하면 되는데요."
+            }
+          ],
+          "planned_source_in": 0,
+          "planned_source_out": 6,
+          "trim_status": "planned_only_adjust_after_actual_generation",
+          "generation_status": "not_uploaded_not_generated",
+          "qa": [
+            "A가 잔을 내려놓고 설명하겠다고 함",
+            "핵심 동작이 선택 구간 안에 완료",
+            "첫 프레임과 인물·복장·소품 수량 일치",
+            "화면 자막·로고·새 인물 없음",
+            "대사 화자·순서 확인, 부정확하면 별도 더빙",
+            "움직임이 틀린 부분을 무리한 배속으로 숨기지 않음"
+          ],
+          "suggested_download_name": "C03_K05_take01.mp4",
+          "edit_crops": []
+        },
+        {
+          "id": "C03_K06",
+          "concept_id": "C03",
+          "source_cut_ids": [
+            "06"
+          ],
+          "edit_start": 31,
+          "edit_end": 38,
+          "edit_seconds": 7,
+          "requested_generation_seconds": 8,
+          "model_preset": "Veo 3.1 Fast",
+          "mode": "Frames",
+          "first_frame": "upload_frames/C03/C03_N06.png",
+          "asset_id": "C03_N06",
+          "end_frame": null,
+          "ingredients": [],
+          "reference_only": [
+            "references/C03/S03.png"
+          ],
+          "start_state": "닫힌 벽 패널·정돈 전 가구",
+          "end_state": "B가 책상을 펴며 C가 의자를 돌림",
+          "action": "B 위쪽 두 팔이 접이식 책상을 열고 아래 두 팔은 노트·펜을 유지한다. C는 의자 하나를 앞쪽으로 돌린다.",
+          "camera": "벽 패널과 B 중심의 미디엄. 새 책상이 허공에서 생기지 않음.",
+          "continuity": "A: 동일한 베이지 셔츠 한국인 성인 남성, 짙은 회색 바지, 흰 머그. B: 청회색 피부·자주색 제복·정확히 네 팔인 지휘관. C: 옅은 회색 피부·검은 제복·두 팔 조수. 같은 우주선 벽·스캐너·홀로그램·가구. 생성프롬프트마다 한 주요 동작, 네 팔의 부착 위치 유지. 음식·자막은 화면 영역만, 실제 행사 결과 주장 없음.",
+          "edit_notes": "",
+          "prompt_native": "prompts/C03/C03_K06_korean_dialogue.txt",
+          "prompt_motion_only": "prompts/C03/C03_K06_motion_only.txt",
+          "dialogue": [
+            {
+              "start": 32.0,
+              "end": 34.6,
+              "speaker": "B",
+              "text": "적어. 빨리 적어."
+            }
+          ],
+          "planned_source_in": 0,
+          "planned_source_out": 7,
+          "trim_status": "planned_only_adjust_after_actual_generation",
+          "generation_status": "not_uploaded_not_generated",
+          "qa": [
+            "B가 책상을 펴며 C가 의자를 돌림",
+            "핵심 동작이 선택 구간 안에 완료",
+            "첫 프레임과 인물·복장·소품 수량 일치",
+            "화면 자막·로고·새 인물 없음",
+            "대사 화자·순서 확인, 부정확하면 별도 더빙",
+            "움직임이 틀린 부분을 무리한 배속으로 숨기지 않음"
+          ],
+          "suggested_download_name": "C03_K06_take01.mp4",
+          "edit_crops": []
+        },
+        {
+          "id": "C03_K07",
+          "concept_id": "C03",
+          "source_cut_ids": [
+            "07"
+          ],
+          "edit_start": 38,
+          "edit_end": 43,
+          "edit_seconds": 5,
+          "requested_generation_seconds": 8,
+          "model_preset": "Veo 3.1 Fast",
+          "mode": "Frames",
+          "first_frame": "upload_frames/C03/C03_N07.png",
+          "asset_id": "C03_N07",
+          "end_frame": null,
+          "ingredients": [],
+          "reference_only": [
+            "references/C03/S04.png"
+          ],
+          "start_state": "위쪽 팔 낮음·아래 팔 필기",
+          "end_state": "위쪽 질문 팔이 높은 위치에서 다른 위쪽 손에 손목을 잡혀 정지. 아직 내려오지 않음.",
+          "action": "위쪽 한 팔이 질문하려 올라가면 다른 위쪽 팔이 높은 위치에서 손목을 붙잡아 멈춘다. 아래 두 팔은 계속 필기. 높은 위치의 손목 씨름 상태로 K08과 연결한다.",
+          "camera": "고정 미디엄와이드. 팔은 순서대로 움직이며 한 몸에 네 팔만.",
+          "continuity": "A: 동일한 베이지 셔츠 한국인 성인 남성, 짙은 회색 바지, 흰 머그. B: 청회색 피부·자주색 제복·정확히 네 팔인 지휘관. C: 옅은 회색 피부·검은 제복·두 팔 조수. 같은 우주선 벽·스캐너·홀로그램·가구. 생성프롬프트마다 한 주요 동작, 네 팔의 부착 위치 유지. 음식·자막은 화면 영역만, 실제 행사 결과 주장 없음.",
+          "edit_notes": "",
+          "prompt_native": "prompts/C03/C03_K07_korean_dialogue.txt",
+          "prompt_motion_only": "prompts/C03/C03_K07_motion_only.txt",
+          "dialogue": [
+            {
+              "start": 38.2,
+              "end": 40.0,
+              "speaker": "A",
+              "text": "질문 있으세요?"
+            },
+            {
+              "start": 40.2,
+              "end": 41.2,
+              "speaker": "B",
+              "text": "질문!"
+            }
+          ],
+          "planned_source_in": 0,
+          "planned_source_out": 5,
+          "trim_status": "planned_only_adjust_after_actual_generation",
+          "generation_status": "not_uploaded_not_generated",
+          "qa": [
+            "위쪽 질문 팔이 높은 위치에서 다른 위쪽 손에 손목을 잡혀 정지. 아직 내려오지 않음.",
+            "핵심 동작이 선택 구간 안에 완료",
+            "첫 프레임과 인물·복장·소품 수량 일치",
+            "화면 자막·로고·새 인물 없음",
+            "대사 화자·순서 확인, 부정확하면 별도 더빙",
+            "움직임이 틀린 부분을 무리한 배속으로 숨기지 않음"
+          ],
+          "suggested_download_name": "C03_K07_take01.mp4",
+          "edit_crops": []
+        },
+        {
+          "id": "C03_K08",
+          "concept_id": "C03",
+          "source_cut_ids": [
+            "08"
+          ],
+          "edit_start": 43,
+          "edit_end": 49,
+          "edit_seconds": 6,
+          "requested_generation_seconds": 8,
+          "model_preset": "Veo 3.1 Fast",
+          "mode": "Frames",
+          "first_frame": "upload_frames/C03/C03_N08.png",
+          "asset_id": "C03_N08",
+          "end_frame": null,
+          "ingredients": [],
+          "reference_only": [
+            "references/C03/S04.png"
+          ],
+          "start_state": "자기 손목 잡음·아래 팔 필기",
+          "end_state": "B가 허둥대고 A가 기다림",
+          "action": "B의 들린 팔이 조금 올라가려다 반대 손에 제지된다. B는 자기 팔을 번갈아 보고 아직 못 적었다고 말한다.",
+          "camera": "같은 교실축 유지. 기존 손목잡기에서 이어지는 연기이며 다시 새 팔을 만들지 않음.",
+          "continuity": "A: 동일한 베이지 셔츠 한국인 성인 남성, 짙은 회색 바지, 흰 머그. B: 청회색 피부·자주색 제복·정확히 네 팔인 지휘관. C: 옅은 회색 피부·검은 제복·두 팔 조수. 같은 우주선 벽·스캐너·홀로그램·가구. 생성프롬프트마다 한 주요 동작, 네 팔의 부착 위치 유지. 음식·자막은 화면 영역만, 실제 행사 결과 주장 없음.",
+          "edit_notes": "",
+          "prompt_native": "prompts/C03/C03_K08_korean_dialogue.txt",
+          "prompt_motion_only": "prompts/C03/C03_K08_motion_only.txt",
+          "dialogue": [
+            {
+              "start": 44.0,
+              "end": 47.8,
+              "speaker": "B",
+              "text": "아니, 잠깐! 아직 못 적었어요!"
+            }
+          ],
+          "planned_source_in": 0,
+          "planned_source_out": 6,
+          "trim_status": "planned_only_adjust_after_actual_generation",
+          "generation_status": "not_uploaded_not_generated",
+          "qa": [
+            "B가 허둥대고 A가 기다림",
+            "핵심 동작이 선택 구간 안에 완료",
+            "첫 프레임과 인물·복장·소품 수량 일치",
+            "화면 자막·로고·새 인물 없음",
+            "대사 화자·순서 확인, 부정확하면 별도 더빙",
+            "움직임이 틀린 부분을 무리한 배속으로 숨기지 않음"
+          ],
+          "suggested_download_name": "C03_K08_take01.mp4",
+          "edit_crops": []
+        }
+      ],
+      "post_edit": [
+        {
+          "id": "C03-E01",
+          "kind": "endcard",
+          "start": 49,
+          "end": 55,
+          "seconds": 6,
+          "overlay": "post/C03/title_overlay.svg",
+          "standalone": "post/C03/endcard.svg",
+          "preferred_background": "이 안의 마지막 생성 클립에서 검수된 최종 프레임",
+          "fallback": "같이 제공한 독립 타이틀 카드 사용",
+          "caption": "2026년 품질팀\nAI 실행 결과 발표 대회\n직접 해본 이야기, 함께 듣습니다.",
+          "notes": "행사명 6초 온전히 유지. C02는 주인이 앉기 전 기존 대표 이미지로 되돌리지 않는다. 일시·장소·신청 URL 미확정으로 삽입하지 않음."
+        }
+      ],
+      "source_cuts": [
+        {
+          "id": "01",
+          "scene": "S01",
+          "start": 0,
+          "end": 5,
+          "visual": "창밖으로 거대한 그림자가 지나간다. 빛기둥에 잡힌 A가 머그잔을 든 채 바닥에서 떠오른다. A는 소리를 지르기보다 잔이 기울지 않게 먼저 고쳐 쥔다.",
+          "caption": "",
+          "dialogue": "A: \"어…?\"",
+          "audio": "낮은 우주선 진동과 유리의 미세한 울림. 진짜 SF 침공 영화의 긴장음.",
+          "transition": "빛이 화면을 채우는 순간 우주선 내부로 컷.",
+          "intent": "큰 스케일의 위협을 첫 3초에 만들고 인간의 생활적인 반응을 대비시킨다."
+        },
+        {
+          "id": "02",
+          "scene": "S02",
+          "start": 5,
+          "end": 11,
+          "visual": "네 팔 지휘관 B가 A를 압박한다. 스캐너는 이미 A 위에 정렬돼 있고 C는 작동 버튼 직전까지 준비한다. 실제 작동광과 짬뽕 공개는 다음 컷.",
+          "caption": "",
+          "dialogue": "B: \"그 비법을… 알아내겠다.\"",
+          "audio": "낮고 엄숙한 외계 음성과 우주선의 대기음. 작동 기계음은 아직 없다.",
+          "transition": "C의 버튼 직전 손에서 같은 빈 패널 구도로 컷.",
+          "intent": "외계인이 원하는 것은 인간의 어떤 방법이라는 목표를 설정하고 기술로 알아내려는 시도를 시작한다."
+        },
+        {
+          "id": "03",
+          "scene": "S02",
+          "start": 11,
+          "end": 18,
+          "visual": "스캔 화면에 김이 나는 짬뽕이 크게 나타난다. A는 그것을 보며 입맛을 다신다. B는 손 하나로 화면을 가리켰다가 믿기지 않는다는 듯 다른 손으로 자기 눈을 비빈다.",
+          "caption": "점심: 짬뽕",
+          "dialogue": "A: \"아… 짬뽕.\"",
+          "audio": "스캐너가 켜지는 기계음 → 거창한 분석 완료음 → 국물 보글거리는 소리. 위협적인 음악은 아직 남아 있다.",
+          "transition": "B의 지시와 C의 조절 손을 연결하는 짧은 컷.",
+          "intent": "정복의 대상인 비법 대신 점심 생각이 드러나는 첫 실패를 선명하게 보여준다."
+        },
+        {
+          "id": "04",
+          "scene": "S02",
+          "start": 18,
+          "end": 25,
+          "visual": "B가 더 가까이 다가와 재촉한다. C가 스캐너를 재조정하다 B 머리 쪽으로 돌려 버린다. 화면에 탕수육 한 접시가 뜬다. C가 스캐너와 B를 번갈아 가리키자 B는 네 팔로 큰 화면을 가리며 다급하게 꺼 달라고 한다.",
+          "caption": "",
+          "dialogue": "B: “더 깊이!” C: “지휘관님 건데요.” B: “꺼! 꺼!”",
+          "audio": "기계 회전음이 고조됐다가 바삭한 음식 소리로 바뀐다. B의 절규를 크게 살린다.",
+          "transition": "절규가 끝나기 전에 A의 평범한 얼굴로 하드 컷.",
+          "intent": "인간의 점심 생각을 비웃던 지휘관의 권위가 자신의 생각 때문에 무너지는 두 번째 반전."
+        },
+        {
+          "id": "05",
+          "scene": "S03",
+          "start": 25,
+          "end": 31,
+          "visual": "A는 머그잔을 내려놓고 허리를 조금 펴며 설명할 준비를 한다. B와 C는 장비를 잡은 채 A를 본다.",
+          "caption": "",
+          "dialogue": "A: \"말로 설명하면 되는데요.\"",
+          "audio": "거창한 음악과 기계음을 끊는다. 머그잔을 놓는 소리 뒤 0.7초 정적.",
+          "transition": "B와 C가 동시에 움직이기 시작하는 동작으로 컷.",
+          "intent": "기술적 실패를 당사자의 경험 공유라는 단순한 해결 방식으로 전환한다."
+        },
+        {
+          "id": "06",
+          "scene": "S03",
+          "start": 31,
+          "end": 38,
+          "visual": "B가 네 팔을 총동원해 벽에서 책상을 펴고 노트와 펜을 챙긴다. C는 스캐너를 밀어 치우고 의자를 앞을 향해 돌린다. A는 그 사이 빈 벽 앞에 선다. 조명이 수업용처럼 밝아진다.",
+          "caption": "",
+          "dialogue": "B: \"적어. 빨리 적어.\"",
+          "audio": "급해진 발소리, 책상 펴지는 소리, 펜 뚜껑 소리. 짧고 다급한 현악 리듬.",
+          "transition": "정돈된 교실의 정면 와이드.",
+          "intent": "침공과 추출에 쓰던 인물과 공간이 학습과 질문을 위해 바쁘게 움직이는 구체적인 변화를 보여준다."
+        },
+        {
+          "id": "07",
+          "scene": "S04",
+          "start": 38,
+          "end": 43,
+          "visual": "A의 질문에 B의 위쪽 한 팔이 올라가면 다른 위쪽 손이 높은 위치에서 그 손목을 붙잡아 정지시킨다. 아직 내리지 않는다. 아래 두 팔은 필기한다.",
+          "caption": "",
+          "dialogue": "A: “질문 있으세요?” B: “질문!”",
+          "audio": "교실의 작은 펜 소리. 네 팔이 올라갈 때 제복이 한꺼번에 스치는 소리.",
+          "transition": "B의 한 몸과 네 팔이 모두 보이는 미디엄 와이드.",
+          "intent": "위협적이었던 네 팔을 질문에 너무 열성적인 관객의 몸개그로 바꾼다."
+        },
+        {
+          "id": "08",
+          "scene": "S04",
+          "start": 43,
+          "end": 49,
+          "visual": "질문하려는 팔이 다시 올라가려 하자 다른 팔이 필기 쪽으로 끌어온다. B는 자기 팔들을 번갈아 보며 허둥댄다. A는 펜을 멈추고 기다려 준다. C는 옆에서 침착하게 노트를 넘긴다.",
+          "caption": "",
+          "dialogue": "B: “아니, 잠깐! 아직 못 적었어요!”",
+          "audio": "B의 당당하고 약간 억울한 대사. 대사 뒤 0.8초 여운을 주고 밝은 타이틀 음악 시작.",
+          "transition": "교실의 세 인물이 보이는 와이드 프레임에서 정지.",
+          "intent": "강탈하던 권력자가 여러 팔로도 벅차게 배우는 학생이 되는 행동의 반전."
+        },
+        {
+          "id": "09",
+          "scene": "S04",
+          "start": 49,
+          "end": 55,
+          "visual": "직전 교실 프레임을 정지한다. 앞의 밝은 빈 화면에 행사명과 공유 문구를 후속 편집으로 넣어 6초 유지한다.",
+          "caption": "2026년 품질팀\nAI 실행 결과 발표 대회\n직접 해본 이야기, 함께 듣습니다.",
+          "dialogue": "",
+          "audio": "명료하고 짧은 타이틀 음악.",
+          "transition": "6초 유지 후 종료. 현장 도입에서는 사회자에게 연결.",
+          "intent": "뇌스캔 대신 설명을 듣기로 한 이야기의 해결을 AI 실행 경험을 공유하는 실제 행사와 연결한다. 실제 결과 수치나 특정 비법을 창작하지 않는다."
+        }
+      ]
+    },
+    {
+      "id": "C04",
+      "title": "써봐! 써봐! …어떻게?",
+      "duration_seconds": 55,
+      "style": "B급 · 골판지 로봇과 챈트 몸개그",
+      "clips": [
+        {
+          "id": "C04-F01",
+          "concept_id": "C04",
+          "source_cut_ids": [
+            "01"
+          ],
+          "edit_start": 0,
+          "edit_end": 5,
+          "edit_seconds": 5,
+          "requested_generation_seconds": 8,
+          "model_preset": "Veo 3.1 Fast",
+          "mode": "Frames",
+          "first_frame": "upload_frames/C04/C04_R_S01.png",
+          "asset_id": "C04_R_S01",
+          "end_frame": null,
+          "ingredients": [],
+          "reference_only": [
+            "references/C04/S01.png"
+          ],
+          "start_state": "컵 위 미니 로봇 A를 즉시 공개한다.",
+          "end_state": "A가 짧은 집게로 춤추다가 기울어진 컵 위에서 균형을 잡는다.",
+          "action": "컵 위 A의 과장된 춤과 균형 잡기.",
+          "camera": "고정 컵·직원 미디엄 클로즈업.",
+          "continuity": "직원은 기존 짧은 검은 픽시컷 한국인 성인 여성·연회색 셔츠·검은 바지·흰 머그잔. A는 빨간 안테나·골판지 집게 소품팔, B는 파란 안테나·정상 손, C는 노란 안테나·넓은 어깨. 얼굴·테이프·종이 계기판을 동일하게 유지. A의 집게 소품팔 길이·관절 수는 고정하고 사람 손을 새로 꺼내거나 팔을 늘리지 않는다. 복제는 A와 같은 얼굴의 납작한 초록 테두리 합성 3개이며 실체 배우와 구분한다.",
+          "edit_notes": "컵 속에서 기어나오는 별도 준비숏은 만들지 않는다. 기존대표이미지 자체가 첫 훅 리빌. 배웠으면/써봐 챈트 유지.",
+          "prompt_native": "prompts/C04/C04-F01_korean_dialogue.txt",
+          "prompt_motion_only": "prompts/C04/C04-F01_motion_only.txt",
+          "dialogue": [
+            {
+              "start": 0.4,
+              "end": 4.3,
+              "speaker": "A",
+              "text": "배웠으면! 써봐! 써봐!"
+            }
+          ],
+          "planned_source_in": 0,
+          "planned_source_out": 5,
+          "trim_status": "planned_only_adjust_after_actual_generation",
+          "generation_status": "not_uploaded_not_generated",
+          "qa": [
+            "A가 짧은 집게로 춤추다가 기울어진 컵 위에서 균형을 잡는다.",
+            "핵심 동작이 선택 구간 안에 완료",
+            "첫 프레임과 인물·복장·소품 수량 일치",
+            "화면 자막·로고·새 인물 없음",
+            "대사 화자·순서 확인, 부정확하면 별도 더빙",
+            "움직임이 틀린 부분을 무리한 배속으로 숨기지 않음"
+          ],
+          "suggested_download_name": "C04-F01_take01.mp4",
+          "edit_crops": []
+        },
+        {
+          "id": "C04-F02",
+          "concept_id": "C04",
+          "source_cut_ids": [
+            "02"
+          ],
+          "edit_start": 5,
+          "edit_end": 10,
+          "edit_seconds": 5,
+          "requested_generation_seconds": 8,
+          "model_preset": "Veo 3.1 Fast",
+          "mode": "Frames",
+          "first_frame": "upload_frames/C04/C04-N02.png",
+          "asset_id": "C04-N02",
+          "end_frame": null,
+          "ingredients": [],
+          "reference_only": [
+            "references/C04/S02.png"
+          ],
+          "start_state": "A의 얼굴은 복사기 유리에 붙어 있고 B는 버튼 앞에서 대기한다. 출력구는 비어 있다.",
+          "end_state": "버튼을 누른 뒤 스캔하고, 첫 인쇄물이 나와 납작한 A 복제로 몸을 펴며 움직인다.",
+          "action": "복사기 한 번 작동해 움직이는 평면 복제를 배출.",
+          "camera": "원인과결과가같이보이는고정와이드.",
+          "continuity": "직원은 기존 짧은 검은 픽시컷 한국인 성인 여성·연회색 셔츠·검은 바지·흰 머그잔. A는 빨간 안테나·골판지 집게 소품팔, B는 파란 안테나·정상 손, C는 노란 안테나·넓은 어깨. 얼굴·테이프·종이 계기판을 동일하게 유지. A의 집게 소품팔 길이·관절 수는 고정하고 사람 손을 새로 꺼내거나 팔을 늘리지 않는다. 복제는 A와 같은 얼굴의 납작한 초록 테두리 합성 3개이며 실체 배우와 구분한다.",
+          "edit_notes": "8초 원본에서 버튼누름을 먼저 보여주고 출력물의 독립된 움직임까지5초에편집. A얼굴을유리에대는별도1초클립은생성하지않는다. 단순인쇄물정지후군중으로건너뛰면실패. 조악한2D팝업/추가복제반복은후편집가능.",
+          "prompt_native": "prompts/C04/C04-F02_korean_dialogue.txt",
+          "prompt_motion_only": "prompts/C04/C04-F02_motion_only.txt",
+          "dialogue": [
+            {
+              "start": 5.2,
+              "end": 5.9,
+              "speaker": "A",
+              "text": "써봐!"
+            },
+            {
+              "start": 6.1,
+              "end": 7.1,
+              "speaker": "B",
+              "text": "한 장 더!"
+            },
+            {
+              "start": 8.0,
+              "end": 9.7,
+              "speaker": "복제들",
+              "text": "써봐! 써봐!"
+            }
+          ],
+          "planned_source_in": 0,
+          "planned_source_out": 5,
+          "trim_status": "planned_only_adjust_after_actual_generation",
+          "generation_status": "not_uploaded_not_generated",
+          "qa": [
+            "버튼을 누른 뒤 스캔하고, 첫 인쇄물이 나와 납작한 A 복제로 몸을 펴며 움직인다.",
+            "핵심 동작이 선택 구간 안에 완료",
+            "첫 프레임과 인물·복장·소품 수량 일치",
+            "화면 자막·로고·새 인물 없음",
+            "대사 화자·순서 확인, 부정확하면 별도 더빙",
+            "움직임이 틀린 부분을 무리한 배속으로 숨기지 않음"
+          ],
+          "suggested_download_name": "C04-F02_take01.mp4",
+          "edit_crops": []
+        },
+        {
+          "id": "C04-F03",
+          "concept_id": "C04",
+          "source_cut_ids": [
+            "03"
+          ],
+          "edit_start": 10,
+          "edit_end": 16,
+          "edit_seconds": 6,
+          "requested_generation_seconds": 8,
+          "model_preset": "Veo 3.1 Fast",
+          "mode": "Frames",
+          "first_frame": "upload_frames/C04/C04_R_S03.png",
+          "asset_id": "C04_R_S03",
+          "end_frame": null,
+          "ingredients": [],
+          "reference_only": [
+            "references/C04/S03.png"
+          ],
+          "start_state": "열린 엘리베이터 안에 로봇과 복제들이 가득 차 있다.",
+          "end_state": "마지막 복제가 비집고 들어가려다 멈춘다. C는 어깨가 걸렸지만 허세를 유지하고 직원은 돌아선다.",
+          "action": "마지막평면복제의 비집어들기.",
+          "camera": "고정정면와이드.",
+          "continuity": "직원은 기존 짧은 검은 픽시컷 한국인 성인 여성·연회색 셔츠·검은 바지·흰 머그잔. A는 빨간 안테나·골판지 집게 소품팔, B는 파란 안테나·정상 손, C는 노란 안테나·넓은 어깨. 얼굴·테이프·종이 계기판을 동일하게 유지. A의 집게 소품팔 길이·관절 수는 고정하고 사람 손을 새로 꺼내거나 팔을 늘리지 않는다. 복제는 A와 같은 얼굴의 납작한 초록 테두리 합성 3개이며 실체 배우와 구분한다.",
+          "edit_notes": "문열림동작은엘리베이터딩+하드컷리빌로치환해새닫힌문이미지불필요. 사람을문으로누르지않고골판지어깨만걸린상태. 동일전체서사유지.",
+          "prompt_native": "prompts/C04/C04-F03_korean_dialogue.txt",
+          "prompt_motion_only": "prompts/C04/C04-F03_motion_only.txt",
+          "dialogue": [
+            {
+              "start": 11.0,
+              "end": 13.3,
+              "speaker": "C",
+              "text": "써…봐!"
+            },
+            {
+              "start": 14.0,
+              "end": 15.1,
+              "speaker": "마지막 복제",
+              "text": "나도!"
+            }
+          ],
+          "planned_source_in": 0,
+          "planned_source_out": 6,
+          "trim_status": "planned_only_adjust_after_actual_generation",
+          "generation_status": "not_uploaded_not_generated",
+          "qa": [
+            "마지막 복제가 비집고 들어가려다 멈춘다. C는 어깨가 걸렸지만 허세를 유지하고 직원은 돌아선다.",
+            "핵심 동작이 선택 구간 안에 완료",
+            "첫 프레임과 인물·복장·소품 수량 일치",
+            "화면 자막·로고·새 인물 없음",
+            "대사 화자·순서 확인, 부정확하면 별도 더빙",
+            "움직임이 틀린 부분을 무리한 배속으로 숨기지 않음"
+          ],
+          "suggested_download_name": "C04-F03_take01.mp4",
+          "edit_crops": []
+        },
+        {
+          "id": "C04-F04",
+          "concept_id": "C04",
+          "source_cut_ids": [
+            "04"
+          ],
+          "edit_start": 16,
+          "edit_end": 23,
+          "edit_seconds": 7,
+          "requested_generation_seconds": 8,
+          "model_preset": "Veo 3.1 Fast",
+          "mode": "Frames",
+          "first_frame": "upload_frames/C04/C04-N04.png",
+          "asset_id": "C04-N04",
+          "end_frame": null,
+          "ingredients": [],
+          "reference_only": [
+            "references/C04/S04.png"
+          ],
+          "start_state": "A·B·C와 복제들이 자신만만하게 서 있다. 노트북은 직원 쪽을 향한다.",
+          "end_state": "직원이 노트북을 돌리자 얼굴들이 차례로 경악한다. 아직 넘어지지 않는다.",
+          "action": "노트북공개에대한얼굴반응.",
+          "camera": "고정와이드,얼굴급줌3회는후편집.",
+          "continuity": "직원은 기존 짧은 검은 픽시컷 한국인 성인 여성·연회색 셔츠·검은 바지·흰 머그잔. A는 빨간 안테나·골판지 집게 소품팔, B는 파란 안테나·정상 손, C는 노란 안테나·넓은 어깨. 얼굴·테이프·종이 계기판을 동일하게 유지. A의 집게 소품팔 길이·관절 수는 고정하고 사람 손을 새로 꺼내거나 팔을 늘리지 않는다. 복제는 A와 같은 얼굴의 납작한 초록 테두리 합성 3개이며 실체 배우와 구분한다.",
+          "edit_notes": "기존S04는이미뒤로기울어원인전시작으로부적합. 관객에게노트북뒷면이보이는구도보존,실행사례는별도자막.",
+          "prompt_native": "prompts/C04/C04-F04_korean_dialogue.txt",
+          "prompt_motion_only": "prompts/C04/C04-F04_motion_only.txt",
+          "dialogue": [
+            {
+              "start": 17.0,
+              "end": 20.5,
+              "speaker": "직원",
+              "text": "이미 실제 업무에 써봤는데요."
+            }
+          ],
+          "planned_source_in": 0,
+          "planned_source_out": 7,
+          "trim_status": "planned_only_adjust_after_actual_generation",
+          "generation_status": "not_uploaded_not_generated",
+          "qa": [
+            "직원이 노트북을 돌리자 얼굴들이 차례로 경악한다. 아직 넘어지지 않는다.",
+            "핵심 동작이 선택 구간 안에 완료",
+            "첫 프레임과 인물·복장·소품 수량 일치",
+            "화면 자막·로고·새 인물 없음",
+            "대사 화자·순서 확인, 부정확하면 별도 더빙",
+            "움직임이 틀린 부분을 무리한 배속으로 숨기지 않음"
+          ],
+          "suggested_download_name": "C04-F04_take01.mp4",
+          "edit_crops": []
+        },
+        {
+          "id": "C04-F05",
+          "concept_id": "C04",
+          "source_cut_ids": [
+            "05"
+          ],
+          "edit_start": 23,
+          "edit_end": 28,
+          "edit_seconds": 5,
+          "requested_generation_seconds": 8,
+          "model_preset": "Veo 3.1 Fast",
+          "mode": "Frames",
+          "first_frame": "upload_frames/C04/C04_R_S04.png",
+          "asset_id": "C04_R_S04",
+          "end_frame": null,
+          "ingredients": [],
+          "reference_only": [
+            "references/C04/S04.png"
+          ],
+          "start_state": "A·B·C와 복제들이 경악하며 균형을 잃기 직전이다.",
+          "end_state": "A, B·C, 평면 복제가 차례로 넘어져 실제로 눕는다. C의 안테나가 잠깐 떨린다.",
+          "action": "로봇군단이도미노처럼자빠짐.",
+          "camera": "고정와이드,착지공간이보이도록프레임유지.",
+          "continuity": "직원은 기존 짧은 검은 픽시컷 한국인 성인 여성·연회색 셔츠·검은 바지·흰 머그잔. A는 빨간 안테나·골판지 집게 소품팔, B는 파란 안테나·정상 손, C는 노란 안테나·넓은 어깨. 얼굴·테이프·종이 계기판을 동일하게 유지. A의 집게 소품팔 길이·관절 수는 고정하고 사람 손을 새로 꺼내거나 팔을 늘리지 않는다. 복제는 A와 같은 얼굴의 납작한 초록 테두리 합성 3개이며 실체 배우와 구분한다.",
+          "edit_notes": "발차기나춤에서끝내지말고실제로기존회색바닥에누운상태까지. 넘어짐은의도적인B급합성으로표현하고바닥에새소품을추가하지않는다.",
+          "prompt_native": "prompts/C04/C04-F05_korean_dialogue.txt",
+          "prompt_motion_only": "prompts/C04/C04-F05_motion_only.txt",
+          "dialogue": [
+            {
+              "start": 23.5,
+              "end": 25.5,
+              "speaker": "로봇들",
+              "text": "에에에?!"
+            }
+          ],
+          "planned_source_in": 0,
+          "planned_source_out": 5,
+          "trim_status": "planned_only_adjust_after_actual_generation",
+          "generation_status": "not_uploaded_not_generated",
+          "qa": [
+            "A, B·C, 평면 복제가 차례로 넘어져 실제로 눕는다. C의 안테나가 잠깐 떨린다.",
+            "핵심 동작이 선택 구간 안에 완료",
+            "첫 프레임과 인물·복장·소품 수량 일치",
+            "화면 자막·로고·새 인물 없음",
+            "대사 화자·순서 확인, 부정확하면 별도 더빙",
+            "움직임이 틀린 부분을 무리한 배속으로 숨기지 않음"
+          ],
+          "suggested_download_name": "C04-F05_take01.mp4",
+          "edit_crops": []
+        },
+        {
+          "id": "C04-F06",
+          "concept_id": "C04",
+          "source_cut_ids": [
+            "06"
+          ],
+          "edit_start": 28,
+          "edit_end": 31,
+          "edit_seconds": 3,
+          "requested_generation_seconds": 8,
+          "model_preset": "Veo 3.1 Fast",
+          "mode": "Frames",
+          "first_frame": "upload_frames/C04/C04-N06.png",
+          "asset_id": "C04-N06",
+          "end_frame": null,
+          "ingredients": [],
+          "reference_only": [
+            "references/C04/S04.png"
+          ],
+          "start_state": "A·B·C와 평면 복제 3개가 기존 회색 바닥에 누워 있다.",
+          "end_state": "원형 로봇들이 벌떡 일어나 궁금한 표정으로 바뀐다. 복제들도 뒤늦게 일어난다.",
+          "action": "로봇들이벌떡일어남.",
+          "camera": "같은축고정와이드.",
+          "continuity": "직원은 기존 짧은 검은 픽시컷 한국인 성인 여성·연회색 셔츠·검은 바지·흰 머그잔. A는 빨간 안테나·골판지 집게 소품팔, B는 파란 안테나·정상 손, C는 노란 안테나·넓은 어깨. 얼굴·테이프·종이 계기판을 동일하게 유지. A의 집게 소품팔 길이·관절 수는 고정하고 사람 손을 새로 꺼내거나 팔을 늘리지 않는다. 복제는 A와 같은 얼굴의 납작한 초록 테두리 합성 3개이며 실체 배우와 구분한다.",
+          "edit_notes": "이미서있는S04를시작으로쓰면넘어짐회수상실. 기상과추종은필요한몸상태가달라이번컷만2클립분할.",
+          "prompt_native": "prompts/C04/C04-F06_korean_dialogue.txt",
+          "prompt_motion_only": "prompts/C04/C04-F06_motion_only.txt",
+          "dialogue": [
+            {
+              "start": 28.8,
+              "end": 30.5,
+              "speaker": "로봇들",
+              "text": "어떻게?"
+            }
+          ],
+          "planned_source_in": 0,
+          "planned_source_out": 3,
+          "trim_status": "planned_only_adjust_after_actual_generation",
+          "generation_status": "not_uploaded_not_generated",
+          "qa": [
+            "원형 로봇들이 벌떡 일어나 궁금한 표정으로 바뀐다. 복제들도 뒤늦게 일어난다.",
+            "핵심 동작이 선택 구간 안에 완료",
+            "첫 프레임과 인물·복장·소품 수량 일치",
+            "화면 자막·로고·새 인물 없음",
+            "대사 화자·순서 확인, 부정확하면 별도 더빙",
+            "움직임이 틀린 부분을 무리한 배속으로 숨기지 않음"
+          ],
+          "suggested_download_name": "C04-F06_take01.mp4",
+          "edit_crops": []
+        },
+        {
+          "id": "C04-F07",
+          "concept_id": "C04",
+          "source_cut_ids": [
+            "06"
+          ],
+          "edit_start": 31,
+          "edit_end": 36,
+          "edit_seconds": 5,
+          "requested_generation_seconds": 8,
+          "model_preset": "Veo 3.1 Fast",
+          "mode": "Frames",
+          "first_frame": "upload_frames/C04/C04-N05.png",
+          "asset_id": "C04-N05",
+          "end_frame": null,
+          "ingredients": [],
+          "reference_only": [
+            "references/C04/S04.png"
+          ],
+          "start_state": "직원은 닫힌 노트북을 들고 출발하려 한다. B만 직원의 소매를 잡고 A·C는 가까이 서 있다.",
+          "end_state": "직원이 걷자 로봇들과 복제들이 종종걸음으로 같은 방향을 따라간다.",
+          "action": "직원에게매달린로봇들의같은방향따라가기.",
+          "camera": "측면고정또는작은패닝.",
+          "continuity": "직원은 기존 짧은 검은 픽시컷 한국인 성인 여성·연회색 셔츠·검은 바지·흰 머그잔. A는 빨간 안테나·골판지 집게 소품팔, B는 파란 안테나·정상 손, C는 노란 안테나·넓은 어깨. 얼굴·테이프·종이 계기판을 동일하게 유지. A의 집게 소품팔 길이·관절 수는 고정하고 사람 손을 새로 꺼내거나 팔을 늘리지 않는다. 복제는 A와 같은 얼굴의 납작한 초록 테두리 합성 3개이며 실체 배우와 구분한다.",
+          "edit_notes": "A의팔을늘리거나사람손을추가하지않는다. B의정상손만소매접촉,A는가까운B의골판지높이에짧은집게유지. 어떻게챈트/발표하러간다는대사유지.",
+          "prompt_native": "prompts/C04/C04-F07_korean_dialogue.txt",
+          "prompt_motion_only": "prompts/C04/C04-F07_motion_only.txt",
+          "dialogue": [
+            {
+              "start": 31.3,
+              "end": 32.6,
+              "speaker": "로봇들",
+              "text": "어떻게?"
+            },
+            {
+              "start": 33.0,
+              "end": 35.7,
+              "speaker": "직원",
+              "text": "그거 발표하러 가잖아요."
+            }
+          ],
+          "planned_source_in": 0,
+          "planned_source_out": 5,
+          "trim_status": "planned_only_adjust_after_actual_generation",
+          "generation_status": "not_uploaded_not_generated",
+          "qa": [
+            "직원이 걷자 로봇들과 복제들이 종종걸음으로 같은 방향을 따라간다.",
+            "핵심 동작이 선택 구간 안에 완료",
+            "첫 프레임과 인물·복장·소품 수량 일치",
+            "화면 자막·로고·새 인물 없음",
+            "대사 화자·순서 확인, 부정확하면 별도 더빙",
+            "움직임이 틀린 부분을 무리한 배속으로 숨기지 않음"
+          ],
+          "suggested_download_name": "C04-F07_take01.mp4",
+          "edit_crops": []
+        },
+        {
+          "id": "C04-F08",
+          "concept_id": "C04",
+          "source_cut_ids": [
+            "07",
+            "08"
+          ],
+          "edit_start": 36,
+          "edit_end": 42,
+          "edit_seconds": 6,
+          "requested_generation_seconds": 8,
+          "model_preset": "Veo 3.1 Fast",
+          "mode": "Frames",
+          "first_frame": "upload_frames/C04/C04_R_S05.png",
+          "asset_id": "C04_R_S05",
+          "end_frame": null,
+          "ingredients": [],
+          "reference_only": [
+            "references/C04/S05.png"
+          ],
+          "start_state": "로봇들이 착석해 있다. A의 짧은 팔과 무릎 위 수첩 사이의 간격을 공개한다.",
+          "end_state": "A가 수첩에 닿으려 몸을 접지만 골판지만 구겨지고 팔은 여전히 닿지 않는다.",
+          "action": "A가짧은소품팔로필기하려애씀.",
+          "camera": "앞줄와이드에서A중심급줌은후편집.",
+          "continuity": "직원은 기존 짧은 검은 픽시컷 한국인 성인 여성·연회색 셔츠·검은 바지·흰 머그잔. A는 빨간 안테나·골판지 집게 소품팔, B는 파란 안테나·정상 손, C는 노란 안테나·넓은 어깨. 얼굴·테이프·종이 계기판을 동일하게 유지. A의 집게 소품팔 길이·관절 수는 고정하고 사람 손을 새로 꺼내거나 팔을 늘리지 않는다. 복제는 A와 같은 얼굴의 납작한 초록 테두리 합성 3개이며 실체 배우와 구분한다.",
+          "edit_notes": "착석/수첩펼치기준비클립을따로만들지않는다. 짧은팔이이미보이는것은정상적인개그리빌.36~39초원자막,39초부터몸개그강화. B에게본격부탁하는대사는다음클립.",
+          "prompt_native": "prompts/C04/C04-F08_korean_dialogue.txt",
+          "prompt_motion_only": "prompts/C04/C04-F08_motion_only.txt",
+          "dialogue": [
+            {
+              "start": 36.2,
+              "end": 38.8,
+              "speaker": "직원 · 화면 밖",
+              "text": "제가 해본 방법부터…"
+            }
+          ],
+          "planned_source_in": 0,
+          "planned_source_out": 6,
+          "trim_status": "planned_only_adjust_after_actual_generation",
+          "generation_status": "not_uploaded_not_generated",
+          "qa": [
+            "A가 수첩에 닿으려 몸을 접지만 골판지만 구겨지고 팔은 여전히 닿지 않는다.",
+            "핵심 동작이 선택 구간 안에 완료",
+            "첫 프레임과 인물·복장·소품 수량 일치",
+            "화면 자막·로고·새 인물 없음",
+            "대사 화자·순서 확인, 부정확하면 별도 더빙",
+            "움직임이 틀린 부분을 무리한 배속으로 숨기지 않음"
+          ],
+          "suggested_download_name": "C04-F08_take01.mp4",
+          "edit_crops": []
+        },
+        {
+          "id": "C04-F09",
+          "concept_id": "C04",
+          "source_cut_ids": [
+            "08"
+          ],
+          "edit_start": 42,
+          "edit_end": 49,
+          "edit_seconds": 7,
+          "requested_generation_seconds": 8,
+          "model_preset": "Veo 3.1 Fast",
+          "mode": "Frames",
+          "first_frame": "upload_frames/C04/C04_R_S05.png",
+          "asset_id": "C04_R_S05",
+          "end_frame": null,
+          "ingredients": [],
+          "reference_only": [
+            "references/C04/S05.png"
+          ],
+          "start_state": "A가 B에게 기댄 채 부탁하려 한다. B의 수첩은 몸 앞에 있다.",
+          "end_state": "B가 자기 수첩을 가슴으로 당겨 지킨다. A는 어이없어한다.",
+          "action": "B가수첩을보호하며A의받아쓰기부탁을거절.",
+          "camera": "고정A/B투숏;기존이미지를후편집크롭.",
+          "continuity": "직원은 기존 짧은 검은 픽시컷 한국인 성인 여성·연회색 셔츠·검은 바지·흰 머그잔. A는 빨간 안테나·골판지 집게 소품팔, B는 파란 안테나·정상 손, C는 노란 안테나·넓은 어깨. 얼굴·테이프·종이 계기판을 동일하게 유지. A의 집게 소품팔 길이·관절 수는 고정하고 사람 손을 새로 꺼내거나 팔을 늘리지 않는다. 복제는 A와 같은 얼굴의 납작한 초록 테두리 합성 3개이며 실체 배우와 구분한다.",
+          "edit_notes": "옆에좀적어줘/나도듣고있잖아 유지.필기실패이미보여준뒤라대표이미지의부탁포즈를시작으로써도반전선노출문제없음.",
+          "prompt_native": "prompts/C04/C04-F09_korean_dialogue.txt",
+          "prompt_motion_only": "prompts/C04/C04-F09_motion_only.txt",
+          "dialogue": [
+            {
+              "start": 42.4,
+              "end": 44.8,
+              "speaker": "A",
+              "text": "옆에 좀 적어줘."
+            },
+            {
+              "start": 45.6,
+              "end": 48.3,
+              "speaker": "B",
+              "text": "나도 듣고 있잖아."
+            }
+          ],
+          "planned_source_in": 0,
+          "planned_source_out": 7,
+          "trim_status": "planned_only_adjust_after_actual_generation",
+          "generation_status": "not_uploaded_not_generated",
+          "qa": [
+            "B가 자기 수첩을 가슴으로 당겨 지킨다. A는 어이없어한다.",
+            "핵심 동작이 선택 구간 안에 완료",
+            "첫 프레임과 인물·복장·소품 수량 일치",
+            "화면 자막·로고·새 인물 없음",
+            "대사 화자·순서 확인, 부정확하면 별도 더빙",
+            "움직임이 틀린 부분을 무리한 배속으로 숨기지 않음"
+          ],
+          "suggested_download_name": "C04-F09_take01.mp4",
+          "edit_crops": []
+        }
+      ],
+      "post_edit": [
+        {
+          "id": "C04-E01",
+          "kind": "endcard",
+          "start": 49,
+          "end": 55,
+          "seconds": 6,
+          "overlay": "post/C04/title_overlay.svg",
+          "standalone": "post/C04/endcard.svg",
+          "preferred_background": "이 안의 마지막 생성 클립에서 검수된 최종 프레임",
+          "fallback": "같이 제공한 독립 타이틀 카드 사용",
+          "caption": "2026년 품질팀\nAI 실행 결과 발표 대회\n함께 들으러 오세요.",
+          "notes": "행사명 6초 온전히 유지. C02는 주인이 앉기 전 기존 대표 이미지로 되돌리지 않는다. 일시·장소·신청 URL 미확정으로 삽입하지 않음."
+        }
+      ],
+      "source_cuts": [
+        {
+          "id": "01",
+          "scene": "S01",
+          "start": 0,
+          "end": 5,
+          "visual": "커피컵 클로즈업. 컵 속 조악한 축소 로봇 A가 테두리에 올라 직원에게 삿대질하며 춤. 컵이 조금 기울자 헛발질한다.",
+          "caption": "",
+          "dialogue": "A: “배웠으면! 써봐! 써봐!”",
+          "audio": "값싼 전자 드럼 4박과 배우가 직접 내는 뿅 소리. 커피컵 덜컹.",
+          "transition": "써봐 박자에 복도 하드 컷.",
+          "intent": "첫 화면부터 크기와 합성의 대놓고 허술함, 균형 잡는 몸개그."
+        },
+        {
+          "id": "02",
+          "scene": "S02",
+          "start": 5,
+          "end": 10,
+          "visual": "직원이 복도에서 A의 춤을 피해 옆으로 빠진다. A는 복사기 유리에 자기 골판지 얼굴을 눌러 대고 B가 복사 버튼을 누른다. 번쩍이는 스캔 빛 뒤 A와 같은 평면 복제 하나가 배출구에서 툭 튀어나와 구호를 잇는다. 싼 잘라붙이기 합성으로 복제가 반복된다.",
+          "caption": "",
+          "dialogue": "A: “써봐!” B: “한 장 더!” 복제들: “써봐! 써봐!”",
+          "audio": "같은 전자 드럼. 골판지 서로 부딪치는 툭 소리를 박자에 섞음.",
+          "transition": "직원의 피하는 동선을 따라 엘리베이터 문 앞으로.",
+          "intent": "반복 챈트를 사람 크기·수·동선의 확대로 변화."
+        },
+        {
+          "id": "03",
+          "scene": "S03",
+          "start": 10,
+          "end": 16,
+          "visual": "도망치려던 직원이 엘리베이터 문 앞에 선다. 문이 열리자 원형 A·B·C와 납작한 복제들로 꽉 차 있다. 문 밖 마지막 복제 하나가 비집고 들어가려 하고, 어깨 소품이 문틀에 걸린 C는 그 와중에도 영웅적인 표정으로 박자를 탄다. 직원은 다시 옆으로 빠져나간다.",
+          "caption": "",
+          "dialogue": "C: “써…봐!” 마지막 복제: “나도!”",
+          "audio": "박자는 그대로. 소품 삐걱·잘못 들어오는 박수. 무음으로 식히지 않음.",
+          "transition": "직원의 다음 발걸음에서 책상 앞에 앉는 점프컷.",
+          "intent": "집요한 독촉자들이 자기 소품에 발목 잡혀도 허세를 유지."
+        },
+        {
+          "id": "04",
+          "scene": "S04",
+          "start": 16,
+          "end": 23,
+          "visual": "직원이 책상에 앉아 노트북을 로봇들에게 돌려 보여준다. 관객에게는 노트북 뒷면이 보이는 구도이므로 실행 사례 표시는 별도 편집 자막으로 제시한다. 구체적 성과 수치·가짜 그래프는 넣지 않는다. 로봇 세 명의 눈이 차례로 커진다.",
+          "caption": "실행 사례",
+          "dialogue": "직원: “이미 실제 업무에 써봤는데요.”",
+          "audio": "챈트가 써—에서 테이프 늘어진 듯 끊김. 직원 대사는 선명하게.",
+          "transition": "얼굴 급줌 세 번 뒤 와이드.",
+          "intent": "독촉의 전제가 틀렸다는 반전. 화면은 광고용 가상 재연이며 실적 수치 없음."
+        },
+        {
+          "id": "05",
+          "scene": "S04",
+          "start": 23,
+          "end": 28,
+          "visual": "원형 A가 바닥 매트로 자빠지고 B·C가 한 박자 늦게 따라 눕는다. 배경의 평면 복제들도 싼 도미노 효과로 쓰러진다. C의 안테나만 계속 흔들린다. 직원은 컵을 쥐고 지켜본다.",
+          "caption": "",
+          "dialogue": "로봇들: “에에에?!”",
+          "audio": "낡은 게임 오버풍 하강음 지시와 골판지 와르르. 특정 기존 음원 사용 지시 아님.",
+          "transition": "마지막 쿵에 바로 벌떡 점프컷.",
+          "intent": "실제 적용을 해봤다는 평범한 사실에 과장된 신체 반응."
+        },
+        {
+          "id": "06",
+          "scene": "S04",
+          "start": 28,
+          "end": 36,
+          "visual": "원형 A·B·C가 벌떡 일어나 이번엔 소매를 잡고 애원하듯 따라붙는다. 직원이 노트북을 들고 걸으면 셋이 줄줄이 끌려가듯 종종걸음으로 따라간다. 복제들은 사라지지 않고 뒤에서 뒤늦게 일어나 같은 방향으로 따라간다.",
+          "caption": "",
+          "dialogue": "로봇들: “어떻게? 어떻게?” 직원: “그거 발표하러 가잖아요.”",
+          "audio": "이전 써봐 비트가 재개되지만 가사만 어떻게로 교체. 대사에서는 비트 낮춤.",
+          "transition": "직원이 화면 밖으로 한 걸음→앞줄에 이미 앉은 로봇으로 점프컷.",
+          "intent": "같은 반복 장치의 뜻을 실행 독촉에서 사례 질문으로 뒤집고 행사 연결."
+        },
+        {
+          "id": "07",
+          "scene": "S05",
+          "start": 36,
+          "end": 39,
+          "visual": "발표 공간 앞줄 A·B·C가 수첩을 펼치자마자 A만 짧은 팔이 종이에 닿지 않는다. 바로 필기 실패로 넘어간다. 배경 뒷줄에는 복제 실루엣들이 남아 있다.",
+          "caption": "직접 해본 AI 이야기, 함께 들어요.",
+          "dialogue": "직원: “제가 해본 방법부터…”",
+          "audio": "전자 드럼을 작게 유지. 수첩 펼치는 세 번의 퍽.",
+          "transition": "A의 짧은 팔 쪽 급줌.",
+          "intent": "발표대회가 로봇의 질문에 답하는 자리라는 목적을 보이기."
+        },
+        {
+          "id": "08",
+          "scene": "S05",
+          "start": 39,
+          "end": 49,
+          "visual": "A의 짧은 소품 팔이 무릎 위 수첩에 끝내 닿지 않는다. 몸통 전체를 접으려다 골판지만 구겨진다. A가 옆 B의 귀에 받아쓰기를 시키자 B는 자기 수첩을 가슴으로 당겨 지킨다.",
+          "caption": "",
+          "dialogue": "A: “옆에 좀 적어줘.” B: “나도 듣고 있잖아.”",
+          "audio": "골판지 우지끈 뒤 작은 필기 소리. 마지막 0.5초만 반응을 유지.",
+          "transition": "세 로봇과 빈 스크린 와이드 정지.",
+          "intent": "남에게 써보라고 하던 로봇이 자기 필기부터 도움을 구하는 작은 재반전."
+        },
+        {
+          "id": "09",
+          "scene": "S05",
+          "start": 49,
+          "end": 55,
+          "visual": "같은 발표 공간 정지화면. 빈 스크린에 정식 행사명과 참석 초대만 명료하게 합성. 로봇 실루엣은 아래쪽에 남긴다.",
+          "caption": "2026년 품질팀\nAI 실행 결과 발표 대회\n함께 들으러 오세요.",
+          "dialogue": "",
+          "audio": "전자 드럼 마무리, 마지막에 작게 어떻게 두 음절 리듬만 회수.",
+          "transition": "6초 유지 후 종료.",
+          "intent": "확인된 행사명을 읽고 참석 목적을 남김. 날짜·장소·혜택·신청 경로는 창작하지 않음."
+        }
+      ]
+    },
+    {
+      "id": "C05",
+      "title": "된다더라 귀신들",
+      "duration_seconds": 55,
+      "style": "B급 · 조악한 유령 합성과 출처 없는 허풍",
+      "clips": [
+        {
+          "id": "C05-F01",
+          "concept_id": "C05",
+          "source_cut_ids": [
+            "01"
+          ],
+          "edit_start": 0,
+          "edit_end": 5,
+          "edit_seconds": 5,
+          "requested_generation_seconds": 8,
+          "model_preset": "Veo 3.1 Fast",
+          "mode": "Frames",
+          "first_frame": "upload_frames/C05/C05_R_S01-v2.png",
+          "asset_id": "C05_R_S01-v2",
+          "end_frame": null,
+          "ingredients": [],
+          "reference_only": [
+            "references/C05/S01-v2.png"
+          ],
+          "start_state": "떠 있는 A를 공개한다. 전체 입력에는 B·C도 있지만 첫 컷은 A만 크롭한다.",
+          "end_state": "A가 과장된 판매 제스처로 허풍을 친다.",
+          "action": "A의과장된허풍광고.",
+          "camera": "전체와이드생성후A얼굴쪽으로후편집크롭.",
+          "continuity": "직원은 기존 베이지 니트·검은 바지 남성. 귀신 A는 긴 가발·빨간 핀, B는 짧은 가발·파란 핀, C는 삐뚤어진 가발·노란 핀. C는 형광 연두·분홍 운동복을 온전히 입고 흰 운동화를 신으며, 공개 전에는 긴 흰 천으로 하의·신발까지 가린다. 재착용 뒤 검은 신발이 새로 생기면 안 된다. 배우·가발·핀·부유 크기·초록 키잉 테두리 고정.",
+          "edit_notes": "기존S01-v2를그대로Frames시작.첫컷편집크롭가안[x540,y0,w520,h293]으로B/C를숨김. 실제움직임확인후크롭조정. 빈사무실등장전새이미지불필요.",
+          "prompt_native": "prompts/C05/C05-F01_korean_dialogue.txt",
+          "prompt_motion_only": "prompts/C05/C05-F01_motion_only.txt",
+          "dialogue": [
+            {
+              "start": 0.5,
+              "end": 4.0,
+              "speaker": "A",
+              "text": "된다더라아—!"
+            }
+          ],
+          "planned_source_in": 0,
+          "planned_source_out": 5,
+          "trim_status": "planned_only_adjust_after_actual_generation",
+          "generation_status": "not_uploaded_not_generated",
+          "qa": [
+            "A가 과장된 판매 제스처로 허풍을 친다.",
+            "핵심 동작이 선택 구간 안에 완료",
+            "첫 프레임과 인물·복장·소품 수량 일치",
+            "화면 자막·로고·새 인물 없음",
+            "대사 화자·순서 확인, 부정확하면 별도 더빙",
+            "움직임이 틀린 부분을 무리한 배속으로 숨기지 않음"
+          ],
+          "suggested_download_name": "C05-F01_take01.mp4",
+          "edit_crops": [
+            {
+              "start": 0,
+              "end": 5,
+              "x": 540,
+              "y": 0,
+              "w": 520,
+              "h": 293,
+              "purpose": "A만 공개, B/C 숨김"
+            }
+          ],
+          "crop_note": "정지 이미지 기준 가안. 생성 결과의 얼굴·손 위치가 바뀌면 같은 공개 순서로 재조정. 원본 영상 폭/1672, 높이/941로 좌표 환산."
+        },
+        {
+          "id": "C05-F02",
+          "concept_id": "C05",
+          "source_cut_ids": [
+            "02"
+          ],
+          "edit_start": 5,
+          "edit_end": 11,
+          "edit_seconds": 6,
+          "requested_generation_seconds": 8,
+          "model_preset": "Veo 3.1 Fast",
+          "mode": "Frames",
+          "first_frame": "upload_frames/C05/C05_R_S01-v2.png",
+          "asset_id": "C05_R_S01-v2",
+          "end_frame": null,
+          "ingredients": [],
+          "reference_only": [
+            "references/C05/S01-v2.png"
+          ],
+          "start_state": "같은 와이드 구도에 B·C가 있다. 관객에게는 이번 컷에서 처음 공개한다.",
+          "end_state": "B와 C가 서로 끼어들며 A와 허세 경쟁을 한다.",
+          "action": "B/C의서로끼어드는광고동작.",
+          "camera": "고정와이드생성후5~8초B크롭,8~10초C크롭,10~11초전체와이드.",
+          "continuity": "직원은 기존 베이지 니트·검은 바지 남성. 귀신 A는 긴 가발·빨간 핀, B는 짧은 가발·파란 핀, C는 삐뚤어진 가발·노란 핀. C는 형광 연두·분홍 운동복을 온전히 입고 흰 운동화를 신으며, 공개 전에는 긴 흰 천으로 하의·신발까지 가린다. 재착용 뒤 검은 신발이 새로 생기면 안 된다. 배우·가발·핀·부유 크기·초록 키잉 테두리 고정.",
+          "edit_notes": "첫등장을한명씩생성하지않고편집리빌로원순서보존. 의도적인복붙부유효과와각기다른크기유지. C형광복은완전가림.",
+          "prompt_native": "prompts/C05/C05-F02_korean_dialogue.txt",
+          "prompt_motion_only": "prompts/C05/C05-F02_motion_only.txt",
+          "dialogue": [
+            {
+              "start": 5.5,
+              "end": 7.3,
+              "speaker": "B",
+              "text": "쉽다더라!"
+            },
+            {
+              "start": 8.1,
+              "end": 10.2,
+              "speaker": "C",
+              "text": "엄청 좋다더라!"
+            }
+          ],
+          "planned_source_in": 0,
+          "planned_source_out": 6,
+          "trim_status": "planned_only_adjust_after_actual_generation",
+          "generation_status": "not_uploaded_not_generated",
+          "qa": [
+            "B와 C가 서로 끼어들며 A와 허세 경쟁을 한다.",
+            "핵심 동작이 선택 구간 안에 완료",
+            "첫 프레임과 인물·복장·소품 수량 일치",
+            "화면 자막·로고·새 인물 없음",
+            "대사 화자·순서 확인, 부정확하면 별도 더빙",
+            "움직임이 틀린 부분을 무리한 배속으로 숨기지 않음"
+          ],
+          "suggested_download_name": "C05-F02_take01.mp4",
+          "edit_crops": [
+            {
+              "start": 5,
+              "end": 8,
+              "x": 55,
+              "y": 150,
+              "w": 490,
+              "h": 276,
+              "purpose": "B 첫 공개"
+            },
+            {
+              "start": 8,
+              "end": 10,
+              "x": 890,
+              "y": 250,
+              "w": 500,
+              "h": 281,
+              "purpose": "C 첫 공개"
+            },
+            {
+              "start": 10,
+              "end": 11,
+              "x": 0,
+              "y": 0,
+              "w": 1672,
+              "h": 941,
+              "purpose": "전체 합성 공개"
+            }
+          ],
+          "crop_note": "정지 이미지 기준 가안. 생성 결과의 얼굴·손 위치가 바뀌면 같은 공개 순서로 재조정. 원본 영상 폭/1672, 높이/941로 좌표 환산."
+        },
+        {
+          "id": "C05-F03",
+          "concept_id": "C05",
+          "source_cut_ids": [
+            "03"
+          ],
+          "edit_start": 11,
+          "edit_end": 17,
+          "edit_seconds": 6,
+          "requested_generation_seconds": 8,
+          "model_preset": "Veo 3.1 Fast",
+          "mode": "Frames",
+          "first_frame": "upload_frames/C05/C05-N02.png",
+          "asset_id": "C05-N02",
+          "end_frame": null,
+          "ingredients": [],
+          "reference_only": [
+            "references/C05/S02.png"
+          ],
+          "start_state": "팬은 꺼져 있고 직원은 팬을 든 채 스위치를 누르기 직전이다. 귀신 셋은 모두 흰 천을 입고 영업 중이다.",
+          "end_state": "팬을 켜자 귀신들이 바람을 광고 효과처럼 즐긴다. C의 천은 끝까지 벗겨지지 않는다.",
+          "action": "선풍기바람을오히려광고무대로이용.",
+          "camera": "고정팬·직원·귀신와이드.",
+          "continuity": "직원은 기존 베이지 니트·검은 바지 남성. 귀신 A는 긴 가발·빨간 핀, B는 짧은 가발·파란 핀, C는 삐뚤어진 가발·노란 핀. C는 형광 연두·분홍 운동복을 온전히 입고 흰 운동화를 신으며, 공개 전에는 긴 흰 천으로 하의·신발까지 가린다. 재착용 뒤 검은 신발이 새로 생기면 안 된다. 배우·가발·핀·부유 크기·초록 키잉 테두리 고정.",
+          "edit_notes": "기존S02는이미형광복공개라사용금지. 이클립끝까지C천과몸이분리되지않아야다음공개가성립.",
+          "prompt_native": "prompts/C05/C05-F03_korean_dialogue.txt",
+          "prompt_motion_only": "prompts/C05/C05-F03_motion_only.txt",
+          "dialogue": [
+            {
+              "start": 11.3,
+              "end": 13.1,
+              "speaker": "직원",
+              "text": "좀 조용히…"
+            },
+            {
+              "start": 14.3,
+              "end": 16.3,
+              "speaker": "A",
+              "text": "오, 바람 좋다!"
+            }
+          ],
+          "planned_source_in": 0,
+          "planned_source_out": 6,
+          "trim_status": "planned_only_adjust_after_actual_generation",
+          "generation_status": "not_uploaded_not_generated",
+          "qa": [
+            "팬을 켜자 귀신들이 바람을 광고 효과처럼 즐긴다. C의 천은 끝까지 벗겨지지 않는다.",
+            "핵심 동작이 선택 구간 안에 완료",
+            "첫 프레임과 인물·복장·소품 수량 일치",
+            "화면 자막·로고·새 인물 없음",
+            "대사 화자·순서 확인, 부정확하면 별도 더빙",
+            "움직임이 틀린 부분을 무리한 배속으로 숨기지 않음"
+          ],
+          "suggested_download_name": "C05-F03_take01.mp4",
+          "edit_crops": []
+        },
+        {
+          "id": "C05-F04",
+          "concept_id": "C05",
+          "source_cut_ids": [
+            "04"
+          ],
+          "edit_start": 17,
+          "edit_end": 20,
+          "edit_seconds": 3,
+          "requested_generation_seconds": 8,
+          "model_preset": "Veo 3.1 Fast",
+          "mode": "Frames",
+          "first_frame": "upload_frames/C05/C05-N04.png",
+          "asset_id": "C05-N04",
+          "end_frame": null,
+          "ingredients": [],
+          "reference_only": [
+            "references/C05/S02.png"
+          ],
+          "start_state": "팬 바람이 부는 중이다. C는 긴 흰 천으로 옷과 신발을 완전히 가린 채 허세를 부린다.",
+          "end_state": "C의 천이 날아가 온전히 입고 있던 형광 운동복이 드러난다. C가 당황한다.",
+          "action": "바람에C의흰천이이탈.",
+          "camera": "고정C포함미디엄.",
+          "continuity": "직원은 기존 베이지 니트·검은 바지 남성. 귀신 A는 긴 가발·빨간 핀, B는 짧은 가발·파란 핀, C는 삐뚤어진 가발·노란 핀. C는 형광 연두·분홍 운동복을 온전히 입고 흰 운동화를 신으며, 공개 전에는 긴 흰 천으로 하의·신발까지 가린다. 재착용 뒤 검은 신발이 새로 생기면 안 된다. 배우·가발·핀·부유 크기·초록 키잉 테두리 고정.",
+          "edit_notes": "천공개와재착용은정반대시작상태가필요해분할. 형광복이미보이는기존S02를이클립시작으로대체금지. 긴팔/긴바지/흰운동화고정.",
+          "prompt_native": "prompts/C05/C05-F04_korean_dialogue.txt",
+          "prompt_motion_only": "prompts/C05/C05-F04_motion_only.txt",
+          "dialogue": [
+            {
+              "start": 18.3,
+              "end": 19.7,
+              "speaker": "C",
+              "text": "아, 잠깐…!"
+            }
+          ],
+          "planned_source_in": 0,
+          "planned_source_out": 3,
+          "trim_status": "planned_only_adjust_after_actual_generation",
+          "generation_status": "not_uploaded_not_generated",
+          "qa": [
+            "C의 천이 날아가 온전히 입고 있던 형광 운동복이 드러난다. C가 당황한다.",
+            "핵심 동작이 선택 구간 안에 완료",
+            "첫 프레임과 인물·복장·소품 수량 일치",
+            "화면 자막·로고·새 인물 없음",
+            "대사 화자·순서 확인, 부정확하면 별도 더빙",
+            "움직임이 틀린 부분을 무리한 배속으로 숨기지 않음"
+          ],
+          "suggested_download_name": "C05-F04_take01.mp4",
+          "edit_crops": []
+        },
+        {
+          "id": "C05-F05",
+          "concept_id": "C05",
+          "source_cut_ids": [
+            "04"
+          ],
+          "edit_start": 20,
+          "edit_end": 24,
+          "edit_seconds": 4,
+          "requested_generation_seconds": 8,
+          "model_preset": "Veo 3.1 Fast",
+          "mode": "Frames",
+          "first_frame": "upload_frames/C05/C05_R_S02.png",
+          "asset_id": "C05_R_S02",
+          "end_frame": null,
+          "ingredients": [],
+          "reference_only": [
+            "references/C05/S02.png"
+          ],
+          "start_state": "형광 운동복이 이미 공개됐고 C는 가까이 날아간 천을 잡으려 한다.",
+          "end_state": "C가 다시 천을 덮고 뻔뻔한 영업 미소로 돌아온다.",
+          "action": "C가흰천을다시뒤집어씀.",
+          "camera": "고정와이드또는C미디엄.",
+          "continuity": "직원은 기존 베이지 니트·검은 바지 남성. 귀신 A는 긴 가발·빨간 핀, B는 짧은 가발·파란 핀, C는 삐뚤어진 가발·노란 핀. C는 형광 연두·분홍 운동복을 온전히 입고 흰 운동화를 신으며, 공개 전에는 긴 흰 천으로 하의·신발까지 가린다. 재착용 뒤 검은 신발이 새로 생기면 안 된다. 배우·가발·핀·부유 크기·초록 키잉 테두리 고정.",
+          "edit_notes": "같은운동복을입은채천만덮는다. 갑자기검은신발/검은바지로바꾸지말것. 팬끄는소리는말미후편집.",
+          "prompt_native": "prompts/C05/C05-F05_korean_dialogue.txt",
+          "prompt_motion_only": "prompts/C05/C05-F05_motion_only.txt",
+          "dialogue": [
+            {
+              "start": 22.0,
+              "end": 23.8,
+              "speaker": "C",
+              "text": "좋다더라아—!"
+            }
+          ],
+          "planned_source_in": 0,
+          "planned_source_out": 4,
+          "trim_status": "planned_only_adjust_after_actual_generation",
+          "generation_status": "not_uploaded_not_generated",
+          "qa": [
+            "C가 다시 천을 덮고 뻔뻔한 영업 미소로 돌아온다.",
+            "핵심 동작이 선택 구간 안에 완료",
+            "첫 프레임과 인물·복장·소품 수량 일치",
+            "화면 자막·로고·새 인물 없음",
+            "대사 화자·순서 확인, 부정확하면 별도 더빙",
+            "움직임이 틀린 부분을 무리한 배속으로 숨기지 않음"
+          ],
+          "suggested_download_name": "C05-F05_take01.mp4",
+          "edit_crops": []
+        },
+        {
+          "id": "C05-F06",
+          "concept_id": "C05",
+          "source_cut_ids": [
+            "05"
+          ],
+          "edit_start": 24,
+          "edit_end": 30,
+          "edit_seconds": 6,
+          "requested_generation_seconds": 8,
+          "model_preset": "Veo 3.1 Fast",
+          "mode": "Frames",
+          "first_frame": "upload_frames/C05/C05-N03.png",
+          "asset_id": "C05-N03",
+          "end_frame": null,
+          "ingredients": [],
+          "reference_only": [
+            "references/C05/S03.png"
+          ],
+          "start_state": "팬이 멈췄고 C는 천을 다시 입었다. 귀신 셋 모두 손을 내렸으며 아무도 지목하지 않는다.",
+          "end_state": "직접 해본 사람을 묻자 귀신들이 서로 눈치를 본다.",
+          "action": "직접해본사람질문에얼굴과시선만흔들림.",
+          "camera": "고정직원+ABC와이드.",
+          "continuity": "직원은 기존 베이지 니트·검은 바지 남성. 귀신 A는 긴 가발·빨간 핀, B는 짧은 가발·파란 핀, C는 삐뚤어진 가발·노란 핀. C는 형광 연두·분홍 운동복을 온전히 입고 흰 운동화를 신으며, 공개 전에는 긴 흰 천으로 하의·신발까지 가린다. 재착용 뒤 검은 신발이 새로 생기면 안 된다. 배우·가발·핀·부유 크기·초록 키잉 테두리 고정.",
+          "edit_notes": "기존S03의지목완료상태사용금지. 질문이끝나기전완성된손가락사슬을보여주지않는다.",
+          "prompt_native": "prompts/C05/C05-F06_korean_dialogue.txt",
+          "prompt_motion_only": "prompts/C05/C05-F06_motion_only.txt",
+          "dialogue": [
+            {
+              "start": 25.0,
+              "end": 28.8,
+              "speaker": "직원",
+              "text": "그런데, 직접 해본 사람은요?"
+            }
+          ],
+          "planned_source_in": 0,
+          "planned_source_out": 6,
+          "trim_status": "planned_only_adjust_after_actual_generation",
+          "generation_status": "not_uploaded_not_generated",
+          "qa": [
+            "직접 해본 사람을 묻자 귀신들이 서로 눈치를 본다.",
+            "핵심 동작이 선택 구간 안에 완료",
+            "첫 프레임과 인물·복장·소품 수량 일치",
+            "화면 자막·로고·새 인물 없음",
+            "대사 화자·순서 확인, 부정확하면 별도 더빙",
+            "움직임이 틀린 부분을 무리한 배속으로 숨기지 않음"
+          ],
+          "suggested_download_name": "C05-F06_take01.mp4",
+          "edit_crops": []
+        },
+        {
+          "id": "C05-F07",
+          "concept_id": "C05",
+          "source_cut_ids": [
+            "06"
+          ],
+          "edit_start": 30,
+          "edit_end": 35,
+          "edit_seconds": 5,
+          "requested_generation_seconds": 8,
+          "model_preset": "Veo 3.1 Fast",
+          "mode": "Frames",
+          "first_frame": "upload_frames/C05/C05-N03.png",
+          "asset_id": "C05-N03",
+          "end_frame": null,
+          "ingredients": [],
+          "reference_only": [
+            "references/C05/S03.png"
+          ],
+          "start_state": "귀신 셋 모두 손을 내리고 있다. 빈 벽은 아직 주목받지 않는다.",
+          "end_state": "A가 B를, B가 C를, C가 빈 벽을 차례로 가리킨다.",
+          "action": "출처를넘기는손가락릴레이.",
+          "camera": "같은축와이드,마지막손가락따라오른쪽짧은팬.",
+          "continuity": "직원은 기존 베이지 니트·검은 바지 남성. 귀신 A는 긴 가발·빨간 핀, B는 짧은 가발·파란 핀, C는 삐뚤어진 가발·노란 핀. C는 형광 연두·분홍 운동복을 온전히 입고 흰 운동화를 신으며, 공개 전에는 긴 흰 천으로 하의·신발까지 가린다. 재착용 뒤 검은 신발이 새로 생기면 안 된다. 배우·가발·핀·부유 크기·초록 키잉 테두리 고정.",
+          "edit_notes": "지목1개마다별도생성하지않고8초한클립에서순서만고정해5초사용.35~37초는별도빈벽정지로반드시분리.첫프레임에세명모두지목하면실패.",
+          "prompt_native": "prompts/C05/C05-F07_korean_dialogue.txt",
+          "prompt_motion_only": "prompts/C05/C05-F07_motion_only.txt",
+          "dialogue": [
+            {
+              "start": 30.3,
+              "end": 31.7,
+              "speaker": "A",
+              "text": "얘가…"
+            },
+            {
+              "start": 32.1,
+              "end": 33.8,
+              "speaker": "B",
+              "text": "아니, 쟤가…"
+            }
+          ],
+          "planned_source_in": 0,
+          "planned_source_out": 5,
+          "trim_status": "planned_only_adjust_after_actual_generation",
+          "generation_status": "not_uploaded_not_generated",
+          "qa": [
+            "A가 B를, B가 C를, C가 빈 벽을 차례로 가리킨다.",
+            "핵심 동작이 선택 구간 안에 완료",
+            "첫 프레임과 인물·복장·소품 수량 일치",
+            "화면 자막·로고·새 인물 없음",
+            "대사 화자·순서 확인, 부정확하면 별도 더빙",
+            "움직임이 틀린 부분을 무리한 배속으로 숨기지 않음"
+          ],
+          "suggested_download_name": "C05-F07_take01.mp4",
+          "edit_crops": []
+        },
+        {
+          "id": "C05-F08",
+          "concept_id": "C05",
+          "source_cut_ids": [
+            "07"
+          ],
+          "edit_start": 37,
+          "edit_end": 43,
+          "edit_seconds": 6,
+          "requested_generation_seconds": 8,
+          "model_preset": "Veo 3.1 Fast",
+          "mode": "Frames",
+          "first_frame": "upload_frames/C05/C05-N03.png",
+          "asset_id": "C05-N03",
+          "end_frame": null,
+          "ingredients": [],
+          "reference_only": [
+            "references/C05/S03.png"
+          ],
+          "start_state": "빈 벽만 보여준 뒤 C로 돌아온다. C는 천을 완전히 입고 손을 내리고 있다.",
+          "end_state": "C가 주먹을 들어 벽을 두 번 두드린다. 답이 없자 눈을 피한다.",
+          "action": "C가손을주먹으로올려빈벽을두번두드림.",
+          "camera": "C05-N03의기존S03동일축와이드생성후[x1020,y140,w650,h366]C·손·빈벽크롭.",
+          "continuity": "직원은 기존 베이지 니트·검은 바지 남성. 귀신 A는 긴 가발·빨간 핀, B는 짧은 가발·파란 핀, C는 삐뚤어진 가발·노란 핀. C는 형광 연두·분홍 운동복을 온전히 입고 흰 운동화를 신으며, 공개 전에는 긴 흰 천으로 하의·신발까지 가린다. 재착용 뒤 검은 신발이 새로 생기면 안 된다. 배우·가발·핀·부유 크기·초록 키잉 테두리 고정.",
+          "edit_notes": "기존S03의검은신발C를입력으로사용하지않는다. 새N03에서C전체하의·신발은흰천가림. 빈벽2초뒤돌아온C가주먹을올려노크. 직원초대는화면밖대사/발소리.",
+          "prompt_native": "prompts/C05/C05-F08_korean_dialogue.txt",
+          "prompt_motion_only": "prompts/C05/C05-F08_motion_only.txt",
+          "dialogue": [
+            {
+              "start": 37.4,
+              "end": 38.6,
+              "speaker": "C",
+              "text": "계세요…?"
+            },
+            {
+              "start": 39.0,
+              "end": 42.5,
+              "speaker": "직원 · 화면 밖",
+              "text": "해본 사람 얘기를 들으러 가죠."
+            }
+          ],
+          "planned_source_in": 0,
+          "planned_source_out": 6,
+          "trim_status": "planned_only_adjust_after_actual_generation",
+          "generation_status": "not_uploaded_not_generated",
+          "qa": [
+            "C가 주먹을 들어 벽을 두 번 두드린다. 답이 없자 눈을 피한다.",
+            "핵심 동작이 선택 구간 안에 완료",
+            "첫 프레임과 인물·복장·소품 수량 일치",
+            "화면 자막·로고·새 인물 없음",
+            "대사 화자·순서 확인, 부정확하면 별도 더빙",
+            "움직임이 틀린 부분을 무리한 배속으로 숨기지 않음"
+          ],
+          "suggested_download_name": "C05-F08_take01.mp4",
+          "edit_crops": [
+            {
+              "start": 37,
+              "end": 43,
+              "x": 1020,
+              "y": 140,
+              "w": 650,
+              "h": 366,
+              "purpose": "C와 빈 벽. 정확한 신규 이미지·영상에서 손/얼굴 위치 재확인"
+            }
+          ],
+          "crop_note": "정지 이미지 기준 가안. 생성 결과의 얼굴·손 위치가 바뀌면 같은 공개 순서로 재조정. 원본 영상 폭/1672, 높이/941로 좌표 환산."
+        },
+        {
+          "id": "C05-F09",
+          "concept_id": "C05",
+          "source_cut_ids": [
+            "08"
+          ],
+          "edit_start": 43,
+          "edit_end": 49,
+          "edit_seconds": 6,
+          "requested_generation_seconds": 8,
+          "model_preset": "Veo 3.1 Fast",
+          "mode": "Frames",
+          "first_frame": "upload_frames/C05/C05_R_S04.png",
+          "asset_id": "C05_R_S04",
+          "end_frame": null,
+          "ingredients": [],
+          "reference_only": [
+            "references/C05/S04.png"
+          ],
+          "start_state": "착석한 귀신들의 전체 이미지다. C의 자기 지목은 얼굴 크롭으로 숨겨 둔다.",
+          "end_state": "내 생각! 대사에서 전체 구도와 C의 가슴 지목을 공개하고 A·B의 반응으로 마친다.",
+          "action": "C가남대신자신을출처로지목.",
+          "camera": "고정앞줄미디엄.",
+          "continuity": "직원은 기존 베이지 니트·검은 바지 남성. 귀신 A는 긴 가발·빨간 핀, B는 짧은 가발·파란 핀, C는 삐뚤어진 가발·노란 핀. C는 형광 연두·분홍 운동복을 온전히 입고 흰 운동화를 신으며, 공개 전에는 긴 흰 천으로 하의·신발까지 가린다. 재착용 뒤 검은 신발이 새로 생기면 안 된다. 배우·가발·핀·부유 크기·초록 키잉 테두리 고정.",
+          "edit_notes": "환복/착석은하드컷리빌로생략가능한준비동작.이건들어야겠더라→누가?→내생각! 순서유지.지목자세가이미있어도이후대사가의미를뒤집는구조라새손내린이미지불필요.",
+          "prompt_native": "prompts/C05/C05-F09_korean_dialogue.txt",
+          "prompt_motion_only": "prompts/C05/C05-F09_motion_only.txt",
+          "dialogue": [
+            {
+              "start": 43.2,
+              "end": 45.5,
+              "speaker": "C",
+              "text": "이건 들어야겠더라."
+            },
+            {
+              "start": 45.7,
+              "end": 46.5,
+              "speaker": "A",
+              "text": "누가?"
+            },
+            {
+              "start": 46.9,
+              "end": 48.1,
+              "speaker": "C",
+              "text": "내 생각!"
+            }
+          ],
+          "planned_source_in": 0,
+          "planned_source_out": 6,
+          "trim_status": "planned_only_adjust_after_actual_generation",
+          "generation_status": "not_uploaded_not_generated",
+          "qa": [
+            "내 생각! 대사에서 전체 구도와 C의 가슴 지목을 공개하고 A·B의 반응으로 마친다.",
+            "핵심 동작이 선택 구간 안에 완료",
+            "첫 프레임과 인물·복장·소품 수량 일치",
+            "화면 자막·로고·새 인물 없음",
+            "대사 화자·순서 확인, 부정확하면 별도 더빙",
+            "움직임이 틀린 부분을 무리한 배속으로 숨기지 않음"
+          ],
+          "suggested_download_name": "C05-F09_take01.mp4",
+          "edit_crops": [
+            {
+              "start": 43,
+              "end": 45.7,
+              "x": 810,
+              "y": 270,
+              "w": 420,
+              "h": 236,
+              "purpose": "C 얼굴만: 가슴과 놀란 A/B 숨김"
+            },
+            {
+              "start": 45.7,
+              "end": 46.9,
+              "x": 20,
+              "y": 270,
+              "w": 450,
+              "h": 253,
+              "purpose": "A의 누가? 얼굴만"
+            },
+            {
+              "start": 46.9,
+              "end": 49,
+              "x": 0,
+              "y": 0,
+              "w": 1672,
+              "h": 941,
+              "purpose": "내 생각!에서 처음 자기 가슴 지목 공개"
+            }
+          ],
+          "crop_note": "정지 이미지 기준 가안. 생성 결과의 얼굴·손 위치가 바뀌면 같은 공개 순서로 재조정. 원본 영상 폭/1672, 높이/941로 좌표 환산."
+        }
+      ],
+      "post_edit": [
+        {
+          "id": "C05-E00",
+          "kind": "empty_wall_hold",
+          "start": 35,
+          "end": 37,
+          "seconds": 2,
+          "source": "references/C05/S03.png",
+          "crop_pixels": {
+            "x": 1460,
+            "y": 420,
+            "width": 210,
+            "height": 118
+          },
+          "audio": "완전 정적: 말·음악·효과음 모두 중지",
+          "notes": "인물·손·그림자 없는 빈 벽. 2초 유지 뒤 C의 노크로 전환. 이 크롭은 후편집용이며 Flow 입력이 아니다."
+        },
+        {
+          "id": "C05-E01",
+          "kind": "endcard",
+          "start": 49,
+          "end": 55,
+          "seconds": 6,
+          "overlay": "post/C05/title_overlay.svg",
+          "standalone": "post/C05/endcard.svg",
+          "preferred_background": "이 안의 마지막 생성 클립에서 검수된 최종 프레임",
+          "fallback": "같이 제공한 독립 타이틀 카드 사용",
+          "caption": "2026년 품질팀\nAI 실행 결과 발표 대회\n직접 해본 이야기를 함께 들으러 오세요.",
+          "notes": "행사명 6초 온전히 유지. C02는 주인이 앉기 전 기존 대표 이미지로 되돌리지 않는다. 일시·장소·신청 URL 미확정으로 삽입하지 않음."
+        }
+      ],
+      "source_cuts": [
+        {
+          "id": "01",
+          "scene": "S01",
+          "start": 0,
+          "end": 5,
+          "visual": "사무실 천장에 조악하게 붙인 거대한 귀신 A 얼굴이 툭 등장. 직원이 고개를 들자 A는 판매 방송 진행자처럼 눈을 부릅뜨고 두 손을 크게 벌린다.",
+          "caption": "",
+          "dialogue": "A: “된다더라아—!”",
+          "audio": "배우 목소리에 과한 싸구려 잔향. 리코더 한 음 같은 어설픈 등장 효과 지시.",
+          "transition": "직원의 시선을 따라 서랍 쪽 급팬.",
+          "intent": "실패처럼 무작위로 무너진 이미지가 아닌 의도적인 저예산 합성과 과장된 영업 연기."
+        },
+        {
+          "id": "02",
+          "scene": "S01",
+          "start": 5,
+          "end": 11,
+          "visual": "서랍 위 작은 귀신 B가 엄지를 치켜들고, 복사기 옆 C가 갑자기 커지며 끼어든다. A가 C 앞을 가로막으며 자기 광고가 더 큰 척한다. 직원이 손으로 셋의 차례를 정하려다 포기한다.",
+          "caption": "",
+          "dialogue": "B: “쉽다더라!” C: “엄청 좋다더라!”",
+          "audio": "서로 겹치는 짧은 광고 목소리, 삐뚤게 들어오는 박수 효과.",
+          "transition": "직원의 손이 선풍기 스위치로 가는 동작 컷.",
+          "intent": "모두 남에게 들은 주장만 내세우고 더 크게 말하려는 경쟁."
+        },
+        {
+          "id": "03",
+          "scene": "S02",
+          "start": 11,
+          "end": 17,
+          "visual": "직원이 선풍기를 켜 귀신들을 밀어내려 한다. 귀신 셋이 처음에는 휘청이지만 A가 가발을 광고 모델처럼 넘기고 바람을 즐기기 시작한다. 직원은 선풍기를 더 세게 튼다.",
+          "caption": "",
+          "dialogue": "직원: “좀 조용히…” A: “오, 바람 좋다!”",
+          "audio": "선풍기 웅. 엉성한 전자 댄스 박자가 바람과 함께 시작.",
+          "transition": "선풍기 앞 귀신 와이드.",
+          "intent": "쫓아내려던 장치가 오히려 광고 무대 효과가 되는 인과적 역전."
+        },
+        {
+          "id": "04",
+          "scene": "S02",
+          "start": 17,
+          "end": 24,
+          "visual": "귀신들이 바람 자리를 다투다 C의 흰 천이 날아가 형광색 운동복 차림이 그대로 드러난다. C는 당황해 허둥지둥 천을 주워 다시 뒤집어쓴다. 얼굴이 돌아오자마자 영업용 미소로 바뀌고 아무 일 없듯 광고를 재개한다. 신체 노출 없이 운동복은 온전히 입고 있다.",
+          "caption": "",
+          "dialogue": "C: “아, 잠깐…!” 천을 덮은 뒤 C: “좋다더라아—!”",
+          "audio": "직접 부르는 엇박 광고송·선풍기·천 펄럭임. 마지막 순간 스위치 딸깍.",
+          "transition": "직원이 선풍기를 끄며 같은 공간을 정면 와이드로.",
+          "intent": "바람을 즐기던 허세가 벗겨지고, 급히 수습하자마자 영업을 재개하는 뻔뻔함."
+        },
+        {
+          "id": "05",
+          "scene": "S03",
+          "start": 24,
+          "end": 30,
+          "visual": "바람이 멎어 가발이 얼굴에 붙는다. 직원이 단순하게 묻는다. 귀신 셋이 순간 서로 눈만 굴리고 A가 조심스럽게 팔을 든다.",
+          "caption": "",
+          "dialogue": "직원: “그런데, 직접 해본 사람은요?”",
+          "audio": "팬 모터가 멎는 소리 뒤 대사. 완전 정적은 0.7초만.",
+          "transition": "A 손가락을 따라 옆으로 짧게 팬.",
+          "intent": "크고 많은 주장과 직접 경험의 차이를 질문 하나로 드러냄."
+        },
+        {
+          "id": "06",
+          "scene": "S03",
+          "start": 30,
+          "end": 37,
+          "visual": "A가 B를 가리킨다. B는 화들짝 놀라 더 큰 동작으로 C를 가리킨다. C는 잠깐 멈췄다가 자신 있게 빈 벽을 가리킨다. 카메라가 따라가지만 마지막 2초에는 아무것도 없는 벽뿐이다.",
+          "caption": "",
+          "dialogue": "A: “얘가…” B: “아니, 쟤가…”",
+          "audio": "가리킬 때마다 뿅 한 음씩 높아짐. 빈 벽에는 효과음도 오지 않음.",
+          "transition": "빈 벽 옆으로 C 얼굴이 슬쩍 들어옴.",
+          "intent": "말의 출처를 찾는 전달 사슬의 끝이 비어 있다는 화면 개그. 권위에 굴복하는 장면으로 처리하지 않음."
+        },
+        {
+          "id": "07",
+          "scene": "S03",
+          "start": 37,
+          "end": 43,
+          "visual": "C가 자기가 가리킨 빈 벽을 두 번 두드린다. 아무 반응이 없자 눈을 피한다. 직원이 귀신들을 부르며 발표 공간 쪽으로 나간다.",
+          "caption": "",
+          "dialogue": "C: “계세요…?” 직원: “해본 사람 얘기를 들으러 가죠.”",
+          "audio": "작은 똑똑 뒤 대사. 가벼운 발걸음, 광고송은 다시 시작하지 않음.",
+          "transition": "손으로 벽을 짚은 C→자기 가슴을 짚는 C로 점프컷 준비.",
+          "intent": "실제 경험을 듣는 행사로 가는 이유를 앞선 출처 부재에서 바로 만듦."
+        },
+        {
+          "id": "08",
+          "scene": "S04",
+          "start": 43,
+          "end": 49,
+          "visual": "앞줄에 앉은 세 귀신은 흰 천 위에 값싼 정장만 덧입었다. C가 감상을 말하자 A가 자동으로 출처를 묻는다. C는 처음으로 남이 아니라 자기 가슴을 세게 가리킨다.",
+          "caption": "직접 해본 AI 이야기, 함께 들어요.",
+          "dialogue": "C: “이건 들어야겠더라.” A: “누가?” C: “내 생각!”",
+          "audio": "C의 내 생각에 짧은 자신만만한 입 효과음. A·B의 놀란 반응 0.5초.",
+          "transition": "앞줄과 빈 스크린을 남긴 정지화면.",
+          "intent": "끝까지 남의 말만 옮기던 귀신이 자기 의견을 처음 갖는 두 번째 반전. 로봇안의 필기 몸개그와 구별."
+        },
+        {
+          "id": "09",
+          "scene": "S04",
+          "start": 49,
+          "end": 55,
+          "visual": "빈 스크린에 정식 행사명과 참석 초대 합성. 귀신의 가발·집게핀·재킷은 하단에 작게 남긴다.",
+          "caption": "2026년 품질팀\nAI 실행 결과 발표 대회\n직접 해본 이야기를 함께 들으러 오세요.",
+          "dialogue": "",
+          "audio": "짧고 어설프게 당당한 마무리 악구 지시.",
+          "transition": "6초 유지 후 종료.",
+          "intent": "AI 우수 과제와 활용 역량 향상 사례를 함께 배우는 실제 행사 안내. 미확인 날짜·장소·혜택은 넣지 않음."
+        }
+      ]
+    }
+  ],
+  "review": {
+    "status": "complete",
+    "review_method": "3명 모두 5안전체를 독립검수 → 동료의견 교차검증 → 수정한 실제 이미지와 문구 재확인",
+    "scope": "시작이미지·컷연결·대사/음향/자막계획·시간표·입력패키지. 실제Flow영상/음성/최종재미에대한실험검증은아님",
+    "reviewers": [
+      "A / team_workflow_review",
+      "B / promo_reviewer_b",
+      "C / promo_reviewer_c"
+    ],
+    "final_selected_asset_ids": [
+      "C01_N01",
+      "C01_N02",
+      "C01_R_S02",
+      "C01_N04",
+      "C01_R_S03",
+      "C01_N07",
+      "C01_N10",
+      "C02_N01",
+      "C02_N02",
+      "C02_N03",
+      "C02_N05",
+      "C02_N06",
+      "C02_R_S03",
+      "C02_R_S04",
+      "C03_N01",
+      "C03_N02",
+      "C03_N04",
+      "C03_R_S02",
+      "C03_N06",
+      "C03_N07",
+      "C03_N08",
+      "C04_R_S01",
+      "C04-N02",
+      "C04_R_S03",
+      "C04-N04",
+      "C04_R_S04",
+      "C04-N06",
+      "C04-N05",
+      "C04_R_S05",
+      "C05_R_S01-v2",
+      "C05-N02",
+      "C05-N04",
+      "C05_R_S02",
+      "C05-N03",
+      "C05_R_S04"
+    ],
+    "final_actual_viewed_count_per_reviewer": 35,
+    "selected_new_start_assets": 23,
+    "reused_start_assets": 12,
+    "generation_clips": 41,
+    "duration_seconds": {
+      "C01": 52,
+      "C02": 54,
+      "C03": 55,
+      "C04": 55,
+      "C05": 55
+    },
+    "remaining_required_fixes": [],
+    "plan_review": {
+      "stage": "plan_independent_and_cross_review",
+      "status": "cross_review_complete_text_fixes_applied",
+      "reviews": {
+        "A": {
+          "A-FLOW-001": "C02_K01 4→8초 요청동기화",
+          "A-FLOW-002": "목표편집길이 안에 핵심동작완료,나머지유지",
+          "A-FLOW-003": "C03원대사/음향/자막/엔딩매핑"
+        },
+        "B": {
+          "B-FLOW-001": "C03K07높은손목잡기→K08연결",
+          "B-FLOW-002": "C05F09자기가슴지목 사전노출",
+          "B-FLOW-003": "8초및신규시작의존성동기화",
+          "B-FLOW-004": "짧은편집에서행동완료시점"
+        },
+        "C": {
+          "C-FLOW-001": "C04매트불일치",
+          "C-FLOW-002": "C03높은팔자세연결",
+          "C-FLOW-003": "C03K02→K03준비광되돌림",
+          "C-FLOW-004": "행동완료시간조건",
+          "C-FLOW-005": "8초및시작자산동기화"
+        }
+      },
+      "resolution": {
+        "duration": "41클립모두8초. 최종편집3~8초. prompt마다시간내행동완료+나머지hold 명시. 생성후동작미완성불합격",
+        "C03_arms": "K07은높은손목잡기정지. K08에서더올라가려다제지",
+        "C03_scan": "K02 C가버튼직전준비만. K03활성화→짬뽕",
+        "C03_audio": "원대본을dialogue.tsv/SRT와nativeprompt에화자별구간으로연결.음향/전환TSV.엔딩SVG제공",
+        "C04_floor": "N04/N06신규이미지에매트추가삭제.기존회색바닥고정",
+        "C05_reveal": "F09 43~45.7 C얼굴,45.7~46.9 A얼굴,46.9 내생각에서전체/가슴공개",
+        "C05_F08": "기존검은신발보이는S03대신천으로완전히가린새N03에서손내림→노크.빈벽cutaway2초후연결",
+        "dependencies": "C04N06누운상태,C05N04팬바람/천착용상태 실제제작; 이전영상끝프레임필요0"
+      },
+      "cross_review": {
+        "A": "B001/C002 높은손목잡기, B002 자기지목공개지연, B003/C005 8초/자산, B004/C004 동작완료, C001바닥, C003준비→작동에동의.82프롬프트본문/대사매핑검토.추가 A004 펜삭제와대명사통일, C05얼굴크롭타이밍2.7+1.2로동기화 요청.반영.",
+        "B": "A001/C005 8초·의존0,A002/C004 시간내행동완료,C001바닥,C002손목,C003스캔분리,A003대사매핑에동의.추가B005 작동음K03이동,B006앉은직원 문구요청.반영.",
+        "C": "A001/002 B003/004 길이·트림,A003대사매핑,B001손목에동의.B002는원래필수보다개선으로판단했으나지연공개보완에동의.추가C006앉은직원,C007내리기예고삭제,C008B대명사통일.반영."
+      },
+      "additional_fixes": [
+        "C03 컷02 음향/전환 비활성으로 변경, 컷03에 작동음 이동",
+        "C04 F05 seated worker",
+        "C04 F08 A pen 삭제",
+        "C04 F09 robot B 중립호칭",
+        "C03 K07 실제내리기예고삭제",
+        "C05 F09 얼굴고정2.7초+1.2초",
+        "C02 K01 4초생성가능 편집메모삭제"
+      ]
+    },
+    "image_review": {
+      "status": "complete",
+      "reviewed_initial_assets": [
+        "C01_N01",
+        "C01_N02",
+        "C01_R_S02",
+        "C01_N04",
+        "C01_R_S03",
+        "C01_N07",
+        "C01_N10",
+        "C02_N01",
+        "C02_N02",
+        "C02_N03",
+        "C02_N05",
+        "C02_N06",
+        "C02_R_S03",
+        "C02_R_S04",
+        "C03_N01",
+        "C03_N02",
+        "C03_N04",
+        "C03_R_S02",
+        "C03_N06",
+        "C03_N07",
+        "C03_R_S04",
+        "C04_R_S01",
+        "C04-N02",
+        "C04_R_S03",
+        "C04-N04",
+        "C04_R_S04",
+        "C04-N06",
+        "C04-N05",
+        "C04_R_S05",
+        "C05_R_S01-v2",
+        "C05-N02",
+        "C05-N04",
+        "C05_R_S02",
+        "C05-N03",
+        "C05_R_S04"
+      ],
+      "reviewer_A": {
+        "actual_viewed_count": 35,
+        "method": "view_image on each actual PNG",
+        "initial_judgment": "필수 재생성 없음. 시작상태/수량/H1H2/연결적합.",
+        "minor_text": "C04F09 his chest→B’s chest 요청,반영"
+      },
+      "reviewer_B": {
+        "actual_viewed_count": 35,
+        "initial_judgment": "35개 모두직접확인. C05-N02 바람즐김선노출1건필수, 나머지34개적합.",
+        "issues": [
+          {
+            "id": "B-START-001",
+            "asset": "C05-N02",
+            "required": true,
+            "finding": "팬OFF인데A/B눈감고바람즐기는표정/날리는가발·천"
+          }
+        ]
+      },
+      "reviewer_C": {
+        "actual_viewed_count": 35,
+        "method": "view_image on each actual PNG",
+        "issues": [
+          {
+            "id": "C-START-001",
+            "asset": "C03_R_S04",
+            "required": true,
+            "finding": "교실에서스캐너링/푸른광선다시켜짐"
+          },
+          {
+            "id": "C-START-002",
+            "asset": "C05-N02",
+            "required": true,
+            "finding": "팬OFF시작에A/B바람즐김결과노출"
+          }
+        ]
+      },
+      "director_resolution": "A는실물통과판단,B/C는바람전상태보완,C는스캐너소등을필수로판단.총괄은선후관계와이미지/프롬프트조건일치를명료하게하려두국소수정을채택.컨셉/총길이/클립수유지.",
+      "fixes": [
+        {
+          "issue_ids": [
+            "C-START-001"
+          ],
+          "selected_asset": "C03_N08",
+          "change": "기존S04인물·손목·4팔보존하고스캐너링/광선만OFF",
+          "status": "resolved_three_reviewers_reopened_actual_selected_images"
+        },
+        {
+          "issue_ids": [
+            "B-START-001",
+            "C-START-002"
+          ],
+          "selected_asset": "C05-N02",
+          "change": "C05-N02-v2로A/B눈뜬영업표정·바람전가발/천,직원·팬·C가림유지",
+          "status": "resolved_three_reviewers_reopened_actual_selected_images"
+        }
+      ],
+      "cross_review": {
+        "A": {
+          "judgment": "pass",
+          "reviewed_updated_images": [
+            "C03_N08",
+            "C05-N02 v2"
+          ],
+          "response": "이전바람표정은영업과장/링은대기등으로수용했으나B001/C002의작동전후명료성,C001의인접N07및OFF계약정합에동의.두수정실물다시열어해결확인. B’schest도확인.남은필수0."
+        },
+        "B": {
+          "judgment": "pass",
+          "reviewed_updated_images": [
+            "C03_N08",
+            "C05-N02 v2"
+          ],
+          "response": "C001스캐너소등정합에동의,C002/B001바람전상태보완해결. A의다른수량/H1H2/연결통과에동의하며초기두상태명료성판단은달랐으나수정으로해소.35개최종직접확인완료.남은필수0."
+        },
+        "C": {
+          "judgment": "pass",
+          "reviewed_updated_images": [
+            "C03_N08",
+            "C05-N02 v2"
+          ],
+          "response": "B001동의. A초기통과에는작동전후구분측면이견이있었으나수정후동의. N08OFF/4팔보존,N02v2눈뜬영업·천가라앉음직접확인.두지적해결.남은필수0."
+        }
+      }
+    },
+    "key_changes": [
+      "전체41클립8초요청/최종편집3~8초를분리하고사용구간내핵심행동완료조건추가",
+      "C01손수건H1 A→C/H2 B소유. 마지막손수건접기는B",
+      "C03K02준비/K03스캔·작동음,K07높은손목잡기/K08계속동작으로연결",
+      "C04바닥매트불일치삭제,직원착석·A펜추가지시삭제·B대명사정리",
+      "C05첫귀신순차크롭,빈벽2초정적,내생각에서자기지목공개",
+      "영상끝프레임없이모든컷시작자산로컬확보",
+      "C03N08스캐너OFF국소보정, C05N02v2바람전영업표정보정"
+    ],
+    "event_unknowns": [
+      "정확한일시",
+      "장소",
+      "참석신청방법/URL"
+    ],
+    "flow_status": "Not uploaded; no Flow video, audio or final edit rendered"
+  },
+  "missing": []
+}

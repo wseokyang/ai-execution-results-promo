@@ -1,0 +1,205 @@
+{
+  "concept_id": "C03",
+  "source": "draft_C03.json new_start_images",
+  "status": "all_6_generated_saved_and_artist_checked",
+  "generated_count": 6,
+  "expected_count": 6,
+  "assets": [
+    {
+      "asset_id": "C03_N01",
+      "path": "/home/wooseok/wsy/samsung_related/slide/AI실행결과발표대회_디자인3종/flow_handoff/2026-10-15_v2/start_frames/C03/N01_start.png",
+      "scene": "S01",
+      "source_clip_ids": [
+        "C03_K01"
+      ],
+      "prompt": "Use case: precise-object-edit. Edit this approved cinematic sci-fi comedy still into the EARLIER START FRAME, before abduction. Keep EXACT same original Korean adult male face and identity, short hair, beige shirt with same rolled cuffs, gray trousers, black shoes, white mug, office furniture, huge window, original spacecraft outside, dusk color palette, high-budget photoreal cinema lighting, 16:9 wide camera framing and perspective.\nONLY CHANGE TIME/POSE: the man is now firmly STANDING ON THE FLOOR in the same screen position, BOTH SHOE SOLES visibly touching the floor with natural contact shadows, no gap, no levitation. He casually holds the SAME WHITE MUG in front of his chest, level and unspilled, ordinary quiet expression before anything happens. Remove the entire blue-white vertical tractor-beam shaft, its circular ceiling opening glow, airborne particles and beam's circular pool on the floor. There is NO downward beam and NO scan light enveloping him. The huge dark spacecraft underside remains outside the glass and is just starting to cast an ominous shadow across the ordinary office; subtle blue running lights outside may remain, NOT an active shaft onto A. Light the man sufficiently with natural dusk/office spill to preserve face recognition, without spotlighting him. No floating body or objects, no spilt coffee, no changed cast, no extra people, no letters/numbers/logos/subtitles/watermarks. This image must show the moment BEFORE the beam turns on and before his feet rise.",
+      "refs": [
+        "/home/wooseok/wsy/samsung_related/slide/AI실행결과발표대회_디자인3종/storyboards/2026-10-15_absurd-v2/images/C03/S01.png"
+      ],
+      "dimensions": {
+        "width": 1672,
+        "height": 941,
+        "format": "PNG"
+      },
+      "generated_source": "/home/wooseok/.codex/generated_images/01a13a8a-7471-7482-97d0-63ad6548ddba/exec-236bfc60-0679-4bd5-88c9-6ccfc2c4dd56.png",
+      "sha256": "78c5a048bdc1f91df280a70507fa12c8388fabb76e367c4a419e57ae1a1894e1",
+      "required_start_state": "동일 사무실·인물·의상·카메라·우주선. A의 두 신발은 바닥에 붙어 있고 흰 머그잔을 평범하게 든다. 우주선 하부는 창 밖에 있으나 빛기둥은 아직 A를 감싸지 않고, 인물이 떠 있지 않는다. 거대한 그림자가 막 닿으려는 긴장된 시작 순간.",
+      "must_not_show_yet": "공중에 떠 있는 몸, 내려온 스캔 광선, 쏟아진 커피.",
+      "QA": {
+        "opened_actual_saved_image": true,
+        "status": "artist_checked_pending_independent_review",
+        "findings": [
+          "직접 저장 파일을 열어 확인: 두 신발이 바닥에 닿고 접지 그림자가 보임.",
+          "빛기둥·부양·커피 유출 없음. 원래 인물·베이지 셔츠·흰 머그·우주선·사무실 구도 유지."
+        ]
+      },
+      "generation_tool": "built-in image_gen",
+      "attempts": 1
+    },
+    {
+      "asset_id": "C03_N02",
+      "path": "/home/wooseok/wsy/samsung_related/slide/AI실행결과발표대회_디자인3종/flow_handoff/2026-10-15_v2/start_frames/C03/N02_start.png",
+      "scene": "S02",
+      "source_clip_ids": [
+        "C03_K02",
+        "C03_K03"
+      ],
+      "prompt": "Use case: precise-object-edit. Edit the approved original sci-fi comedy still to show the EARLIER START of the alien interrogation, BEFORE any food thought has been revealed. Keep the SAME three fictional characters and exact faces: Korean adult A at left with beige shirt, charcoal trousers and white mug; slate blue-gray commander B center in plum uniform with EXACTLY FOUR ARMS attached as upper shoulder pair and lower ribcage pair; pale-gray technician C right in black uniform with TWO ARMS. Preserve original character prosthetic designs, clothes, cinematic gunmetal spacecraft room, wide 16:9 camera, giant rectangular hologram, cold blue theatrical lighting. Do NOT copy any external film IP.\nCRITICAL TIMING/POSE CHANGES:\n1. Move the single circular noncontact scanner from the commander to DIRECTLY ABOVE seated HUMAN A's HEAD on the LEFT. Center of scanner aligns vertically with A's head. It hangs on its mechanical support in READY/IDLE state: dim blue rim only, NO active downward cone onto anyone. There must be NO scanner or beam over B.\n2. Make the huge hologram a plain EMPTY BLUE ANALYSIS PANEL, with soft transparent blue field and existing bright border only. NO food, no plate, no bowl, no text, no symbols, no numbers.\n3. B stands authoritatively and calmly looking at seated A, closed mouth, stern confident eyes. His upper two arms are lowered and slightly spread at waist/chest level in a measured commanding pose; lower two arms rest lower by his sides. All four arms retain separate attachments to one torso. No panic, no frantic spreading, no attempts to cover the screen.\n4. C stands beside the control console with his two hands near its controls, ready to switch on the scanner. He is not pointing at B. A remains relaxed on the left chair, exact white mug in hand.\nNo school desks, notebooks, pens or classroom seating rows yet. Only the existing sci-fi science room and interrogation chair/console. No weapons, restraints, injuries, additional people, extra limbs, captions, logos or watermarks. This is a clearly readable PRE-SCAN setup image with A under the scanner and a completely blank display.",
+      "refs": [
+        "/home/wooseok/wsy/samsung_related/slide/AI실행결과발표대회_디자인3종/storyboards/2026-10-15_absurd-v2/images/C03/S02.png"
+      ],
+      "dimensions": {
+        "width": 1672,
+        "height": 941,
+        "format": "PNG"
+      },
+      "generated_source": "/home/wooseok/.codex/generated_images/01a13a8a-7471-7482-97d0-63ad6548ddba/exec-2feeaf11-1a39-4b39-bcb2-a67b357ba340.png",
+      "sha256": "4642f09cc6e1d2be5967d4099efd5dfdd3956d20770e40b86d8e59d4825d6c9c",
+      "required_start_state": "같은 우주선 구도·A/B/C 캐스트. A는 왼쪽 의자에 흰 머그를 들고 앉고, B는 위엄 있게 네 팔을 낮게 벌린 채 A를 바라본다. C는 조작부 옆. 스캐너는 A 머리 위로 정렬되어 준비 상태. 뒤 홀로그램은 빈 푸른 분석 패널이며 음식·글자·숫자가 없다. B의 당황이나 화면 가리는 자세는 아직 없다.",
+      "must_not_show_yet": "짬뽕·탕수육, 지휘관 위의 스캐너, 지휘관의 당황·교실 가구.",
+      "QA": {
+        "opened_actual_saved_image": true,
+        "status": "artist_checked_pending_independent_review",
+        "findings": [
+          "직접 저장 파일을 열어 확인: 단일 스캐너가 왼쪽 A 머리 위 준비 상태, 아래 광선 없음.",
+          "푸른 패널은 음식·글자·숫자 없이 비어 있음. B 네 팔은 낮게 분리되어 권위적인 자세; C는 조작부 옆.",
+          "탕수육·짬뽕·B 위 스캐너·화면 가림·당황·교실 가구 없음."
+        ]
+      },
+      "generation_tool": "built-in image_gen",
+      "attempts": 1
+    },
+    {
+      "asset_id": "C03_N04",
+      "path": "/home/wooseok/wsy/samsung_related/slide/AI실행결과발표대회_디자인3종/flow_handoff/2026-10-15_v2/start_frames/C03/N04_start.png",
+      "scene": "S02",
+      "source_clip_ids": [
+        "C03_K04"
+      ],
+      "prompt": "Use case: precise-object-edit. Input image 1 is the APPROVED pre-scan START FRAME and main edit target. Input image 2 is only the established character/room continuity reference; DO NOT copy its tangsuyuk dish, its panicked commander pose or scanner over B. Preserve image1 exact 16:9 wide camera, human A seated LEFT with beige shirt/gray trousers/white mug, blue-gray FOUR-ARM commander B center in plum uniform, pale-gray TWO-ARM technician C right in black uniform, room, lighting and scanner position.\nCreate the next START FRAME AFTER the human's first scan but BEFORE the accidental scan of the commander. The SAME single circular scanner remains directly ABOVE HUMAN A at LEFT, NEVER above B. The giant hologram now displays ONLY ONE WHITE BOWL OF JJAMPPONG: unmistakable Korean spicy red-orange seafood NOODLE SOUP with visible noodles, mussels/shrimp, vegetables and rising steam. Food image contained strictly INSIDE the rectangular holographic panel. No other dishes, no fried pork, no tangsuyuk, no bowls on physical furniture, no text/numbers/labels.\nA still holds his same white coffee mug, watching the noodle soup with a subtly hungry closed-mouth lip-press, no exaggerated reaction. B is STILL AUTHORITATIVE, not embarrassed, not frightened. Turn his head toward C with stern impatient confidence, mouth only slightly open as he is about to order a scanner adjustment. He may angle one of his upper hands slightly toward technician C while his other three arms remain low and clearly attached to one torso; NOT four hands covering a screen, no flailing. C has two hands ready near scanner controls, focused and awaiting instruction, not yet pointing at B. Keep scanner mechanically over A and keep B clear of any beam. No classroom furniture, notebooks, extra people, duplicate limbs, captions, logos or watermarks. Cinematic original sci-fi practical realism. This must NOT reveal the later tangsuyuk/self-scan humiliation.",
+      "refs": [
+        "/home/wooseok/wsy/samsung_related/slide/AI실행결과발표대회_디자인3종/flow_handoff/2026-10-15_v2/start_frames/C03/N02_start.png",
+        "/home/wooseok/wsy/samsung_related/slide/AI실행결과발표대회_디자인3종/storyboards/2026-10-15_absurd-v2/images/C03/S02.png"
+      ],
+      "dimensions": {
+        "width": 1672,
+        "height": 941,
+        "format": "PNG"
+      },
+      "generated_source": "/home/wooseok/.codex/generated_images/01a13a8a-7471-7482-97d0-63ad6548ddba/exec-ff9f871d-34f6-4c86-95d7-261e13ec2eda.png",
+      "sha256": "d61ce4a776734aada74e7dc12b47903ac9c7fea898e104bcc2a8478ececce699",
+      "required_start_state": "같은 캐스트·우주선·와이드 시점. 스캐너는 여전히 A 머리 위, 홀로그램에는 짬뽕 한 그릇만 표시. A는 머그를 들고 입맛을 다시고, B는 권위적인 표정으로 C에게 재조정을 지시하려 한다. C는 스캐너 조작부에 손을 댈 준비. B는 네 팔을 화면 앞으로 펼쳐 숨기지 않는다.",
+      "must_not_show_yet": "탕수육, 스캐너가 B로 이동한 상태, B의 체면 붕괴, 교실.",
+      "QA": {
+        "opened_actual_saved_image": true,
+        "status": "artist_checked_pending_independent_review",
+        "findings": [
+          "직접 저장 파일을 열어 확인: 스캐너는 여전히 A 위; 패널에 해물과 면이 보이는 짬뽕 한 그릇만 있음.",
+          "B는 권위적으로 C를 향해 지시하는 상태이며 네 팔 가림/당황은 아직 없음. A 흰 머그 유지.",
+          "탕수육·B로 옮겨진 스캐너·교실 없음."
+        ]
+      },
+      "generation_tool": "built-in image_gen",
+      "attempts": 1
+    },
+    {
+      "asset_id": "C03_N06",
+      "path": "/home/wooseok/wsy/samsung_related/slide/AI실행결과발표대회_디자인3종/flow_handoff/2026-10-15_v2/start_frames/C03/N06_start.png",
+      "scene": "S03",
+      "source_clip_ids": [
+        "C03_K06"
+      ],
+      "prompt": "Use case: precise-object-edit. Input image 1 is the SAME spaceship during classroom conversion; EDIT IT BACK to the START, just BEFORE furniture is unfolded. Input image 2 is exact character/wardrobe/anatomy reference only. Preserve exact fictional Korean A, blue-gray FOUR-arm plum-uniform commander B, pale-gray TWO-arm black-uniform technician C, all faces, prosthetic details, clothes, original spaceship architecture and 16:9 cinematic camera. Preserve the human's ordinary white mug.\nCRITICAL START STATE: the fold-down wall desk next to B is COMPLETELY CLOSED, its flat rectangular front flush against the wall. NO horizontal table slab, NO opened triangular bracket, NO gap revealing an unfolded desk. B stands before the CLOSED PANEL with BOTH UPPER hands resting lightly on its two handles, ready to pull but not yet pulling. His LOWER two hands visibly hold one notebook and one pen. Exactly FOUR distinct arms from his one torso, same upper/lower attachment points; no extra limb or merged arms. B looks urgently ready to learn but has not begun unfolding anything.\nREMOVE ALL completed student desks and chair rows from foreground and room. Open metallic floor in the foreground, no classroom layout yet. Keep ONLY ONE loose simple chair next to technician C. C stands BEHIND that chair, which is still at its previous sideways angle and has not been rotated toward the teaching screen, two hands resting ready on chair/support. The circular scanner is parked aside and OFF: metallic ring with no active blue light, no cone or rays. It remains mechanically supported. Behind them the wall screen is blank/off with NO FOOD and NO TEXT.\nHuman A stays at LEFT standing by the same small metal pedestal, the SAME WHITE MUG already resting on top, his hand no longer carrying it; relaxed and matter-of-fact, ready to explain. Lighting still mainly cool spacecraft light, with modest warm practical spill, not a completed bright classroom. No people sitting and writing yet. No desks appearing from nowhere. No external film IP, logos, captions, letters, numbers, watermark or extra people. High-budget live-action sci-fi realism and unambiguous pre-action state.",
+      "refs": [
+        "/home/wooseok/wsy/samsung_related/slide/AI실행결과발표대회_디자인3종/storyboards/2026-10-15_absurd-v2/images/C03/S03.png",
+        "/home/wooseok/wsy/samsung_related/slide/AI실행결과발표대회_디자인3종/storyboards/2026-10-15_absurd-v2/images/C03/S02.png"
+      ],
+      "dimensions": {
+        "width": 1672,
+        "height": 941,
+        "format": "PNG"
+      },
+      "generated_source": "/home/wooseok/.codex/generated_images/01a13a8a-7471-7482-97d0-63ad6548ddba/exec-72ed50b6-37c5-405f-ad11-701bbfcc30dc.png",
+      "sha256": "d077423a03ec64ec06b5ee637db6f5c7e4751c8451004d24f647958101161adf",
+      "required_start_state": "같은 우주선에서 교실 준비 직전. A는 왼쪽 작은 받침에 흰 머그를 놓고 서 있다. B는 닫혀 있거나 거의 닫힌 벽 수납 패널 앞에 서서 위쪽 두 손을 손잡이에 가볍게 대고 아래 두 손에는 노트와 펜을 든다. C는 방향을 돌리기 전 의자 뒤에 서고 스캐너는 이미 꺼져 있다. 펼쳐진 책상 열이나 완성된 교실은 아직 없다. 네 팔과 인물 얼굴·의상 유지.",
+      "must_not_show_yet": "이미 열린 벽 책상, 이미 앉아 필기하는 인물, 완성된 교실, 음식 홀로그램.",
+      "QA": {
+        "opened_actual_saved_image": true,
+        "status": "artist_checked_pending_independent_review",
+        "findings": [
+          "직접 저장 파일을 열어 확인: 벽 책상 패널이 닫혀 있고 수평 책상판과 펼쳐진 가구 열이 없음.",
+          "B 위 두 손은 닫힌 패널 손잡이, 아래 두 손은 노트/펜. C는 단일 의자 뒤에서 준비.",
+          "스캐너는 빛줄기와 내부 발광 없이 비활성. 흰 머그는 A 옆 받침 위. 음식·완성 교실·앉아 필기하는 인물 없음."
+        ]
+      },
+      "generation_tool": "built-in image_gen",
+      "attempts": 1
+    },
+    {
+      "asset_id": "C03_N07",
+      "path": "/home/wooseok/wsy/samsung_related/slide/AI실행결과발표대회_디자인3종/flow_handoff/2026-10-15_v2/start_frames/C03/N07_start.png",
+      "scene": "S04",
+      "source_clip_ids": [
+        "C03_K07"
+      ],
+      "prompt": "Use case: precise-object-edit. Edit this approved original sci-fi classroom still into the EARLIER START FRAME, BEFORE the four-arm commander raises a question hand or grabs his own wrist. Preserve EXACT same three cast faces, head designs, skin, wardrobe, spaceship classroom, same camera framing and 16:9 composition: beige-shirt Korean adult A left, plum-uniform blue-gray FOUR-ARM commander B seated center-front at desk, black-uniform pale-gray TWO-ARM technician C rear right quietly writing. Preserve plain white mug on front-left metal stand and large blank pale teaching screen.\nONLY RESET B'S UPPER ARMS AND SCANNER STATUS. B still has exactly FOUR separately attached arms on ONE TORSO: upper pair from shoulders, lower pair from lateral ribs. His LOWER TWO hands keep actively writing/holding an open notebook in the desk center, with one pen. His UPPER TWO arms are now relaxed LOW, both elbows below shoulder level; upper hands rest separately near the OUTER left and right desk edges or chair arms, away from the writing hands. Clearly four distinct limb paths. There must be NO hand raised near or above head, NO wrist-gripping, NO crossed restraining arms, NO pulling another limb, NO question gesture yet. Restore an eager concentrated expression looking toward A or notes rather than the prior open-mouth panic. His posture prepares the coming gag without already performing it. Normal partial occlusion of a resting hand is acceptable, but never add or remove arms.\nA stands patiently near B's left desk side as if finishing an explanation, understated ordinary demeanor. C continues quiet notes using only his own two arms. The overhead scanner is INACTIVE: remove its downward light beam and bright internal blue scan glow, leaving an unlit metallic ring parked above/aside. Background architectural blue accents may remain. No food imagery anywhere, no event text, no captions, lettering, logos, numbers or watermark. Keep cinematic warm classroom lighting within alien metal setting. This exact frame must precede the question-hand rise and self-wrist-grab, not show their result.",
+      "refs": [
+        "/home/wooseok/wsy/samsung_related/slide/AI실행결과발표대회_디자인3종/storyboards/2026-10-15_absurd-v2/images/C03/S04.png"
+      ],
+      "dimensions": {
+        "width": 1672,
+        "height": 941,
+        "format": "PNG"
+      },
+      "generated_source": "/home/wooseok/.codex/generated_images/01a13a8a-7471-7482-97d0-63ad6548ddba/exec-ffa82ac1-6d95-4726-9a2f-56f463bc8577.png",
+      "sha256": "ad72e468527f3db1d32d860ff15f49c97201dab13cfff9102ea92cc2d6f28e7e",
+      "required_start_state": "동일 우주선 교실·세 인물·카메라·빈 설명 화면. B는 책상에 앉아 아래 두 손으로 노트와 펜을 잡고 필기 중이며, 위쪽 두 팔은 낮게 쉬고 있어 아직 질문 손을 들거나 서로 손목을 잡지 않았다. A는 B 책상 옆에서 설명을 마치려 하고 C는 조용히 필기. 스캐너는 빛줄기 없는 비활성.",
+      "must_not_show_yet": "들린 질문 팔, 다른 손목을 붙잡는 자세, 서로 당기는 팔다리, 행사 자막.",
+      "QA": {
+        "opened_actual_saved_image": true,
+        "status": "artist_checked_pending_independent_review",
+        "findings": [
+          "직접 저장 파일을 열어 확인: B 위쪽 두 팔은 낮게 책상 가장자리에 쉬고 아래 두 팔은 노트/펜으로 필기.",
+          "질문 팔 상승·손목 잡기·팔 당기기 없음. B의 네 팔은 한 몸에서 분리되어 읽힘.",
+          "C는 침착하게 필기, A는 기다림. 빈 설명 화면·흰 머그 유지. 스캐너 비활성, 행사 자막 없음."
+        ]
+      },
+      "generation_tool": "built-in image_gen",
+      "attempts": 1
+    },
+    {
+      "asset_id": "C03_N08",
+      "path": "/home/wooseok/wsy/samsung_related/slide/AI실행결과발표대회_디자인3종/flow_handoff/2026-10-15_v2/start_frames/C03/N08_start.png",
+      "scene": "S04",
+      "source_clip_ids": [
+        "C03_K08"
+      ],
+      "prompt": "Use case: precise-object-edit. Input image 1 is the EDIT TARGET: the approved spacecraft classroom shot where the purple-uniform four-armed commander holds his OWN raised wrist with his other upper hand while his two LOWER arms write and hold the notebook. Input image 2 is ONLY a reference for the overhead scanner's POWERED-OFF LIGHTING, NOT a pose reference.\nMake exactly ONE localized change to IMAGE 1: turn OFF the overhead scanner. Remove the luminous blue inner scanning rings and the downward blue shaft/cone/rays coming from the circular ceiling scanner. Replace those light-emitting strips with dark unlit metallic/glass ring surfaces like image 2. Keep the circular scanner's size, geometry, position and mechanical structure unchanged. Remove just the scanner's emitted blue light on nearby air and upper hand; keep the scene naturally lit by existing warm classroom lights and other architectural blue accent lights. Do NOT turn off unrelated background blue lights.\nPRESERVE EVERYTHING ELSE FROM IMAGE 1 as closely as possible: exact three actors/alien identities, all faces and expressions, FOUR distinct arms of B, especially the HIGH RAISED HAND and other hand GRIPPING ITS WRIST, lower writing arms, hands, pen, notebook, clothing, body poses, seated positions, two desks, human A patiently standing on left, C writing on right, white mug on metal stand, blank pale presentation screen, windows and camera. Do NOT copy the relaxed upper-arm pose from image 2. Do NOT change the gag, framing, layout, props or brightness of the rest of the scene. No text, logos or watermarks. 16:9 cinematic photorealism. Result is the SAME wrist-grab moment as image 1, with the scanner completely inactive to match the preceding shot.",
+      "refs": [
+        "/home/wooseok/wsy/samsung_related/slide/AI실행결과발표대회_디자인3종/storyboards/2026-10-15_absurd-v2/images/C03/S04.png",
+        "/home/wooseok/wsy/samsung_related/slide/AI실행결과발표대회_디자인3종/flow_handoff/2026-10-15_v2/start_frames/C03/N07_start.png"
+      ],
+      "dimensions": {
+        "width": 1672,
+        "height": 941,
+        "format": "PNG"
+      },
+      "generated_source": "/home/wooseok/.codex/generated_images/01a13a8a-7471-7482-97d0-63ad6548ddba/exec-e1131730-e809-4268-81e1-1d3b2412c2af.png",
+      "sha256": "8afa93b38180e21a787e81535786bdc11c197e76031b737e132e516085d5d1e0",
+      "required_start_state": "S04의 동일 교실·세 인물·구도·표정·네 팔 동작을 유지. B는 위쪽 한 팔을 높이 들고 다른 위팔 손으로 그 손목을 잡은 상태이며 아래 두 팔로 필기한다. N07에서 이어지도록 스캐너 링의 발광과 아래 푸른 광선은 꺼져 있고 비활성. A는 기다리고 C는 필기하며 빈 설명 화면·흰 머그 위치 유지.",
+      "must_not_show_yet": "스캐너 재활성 발광링·하향 푸른 광선, 새 팔/인물, 행사 자막.",
+      "QA": {
+        "opened_actual_saved_image": true,
+        "status": "artist_checked_pending_independent_review",
+        "findings": [
+          "실제 저장한 N08_start.png를 열어 스캐너 내부 파란 발광링과 하향 푸른 광선이 사라지고 비활성 금속 링으로 남은 것을 확인.",
+          "원본 S04의 높이 든 손/다른 손의 손목 잡기/아래 두 팔 필기, 세 인물 얼굴·복장·표정·구도·빈 설명 화면·머그가 시각적으로 유지됨.",
+          "N07은 꺼진 스캐너 빛 상태만 참조했고 낮은 팔 자세를 복사하지 않음. 원본 S04 파일 보존."
+        ]
+      },
+      "generation_tool": "built-in image_gen",
+      "attempts": 1
+    }
+  ],
+  "notes": "기존 원본 보존. 매 참조 이미지를 실제 열어 확인한 후 image_gen에 전달. N04는 기존 S02와 새 N02_start.png를 모두 참조해 초기 구도/스캐너 위치를 일치시킴. Flow 프로젝트 접근·업로드·영상 생성 없음. image dimensions are actual PNG dimensions. N08은 S04를 edit target, N07을 비활성 스캐너 빛 참고로만 사용한 국소 편집이며 K08 연속성 문제를 해결."
+}

@@ -1,0 +1,22 @@
+{
+  "status": "pass",
+  "checks": [
+    "C01: 52s, contiguous edit timeline, 6s endcard",
+    "C02: 54s, contiguous edit timeline, 6s endcard",
+    "C03: 55s, contiguous edit timeline, 6s endcard",
+    "C04: 55s, contiguous edit timeline, 6s endcard",
+    "C05: 55s, contiguous edit timeline, 6s endcard",
+    "41 unique clip IDs and matching English action specs",
+    "All generation requests 8 seconds; all planned clip trims <=8 seconds",
+    "Korean dialogue cues fit their clip intervals",
+    "No Ingredients inputs or required previous-video frame dependency",
+    "All selected start frames have SHA-256 and PNG dimension checks"
+  ],
+  "missing": [],
+  "not_validated": [
+    "No actual Flow video generated",
+    "Actual animation, dialogue pronunciation, lip sync, generation time and credit cost",
+    "Actual output crop positioning and final edit pacing"
+  ],
+  "review_status": "complete"
+}

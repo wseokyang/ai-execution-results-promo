@@ -1,0 +1,11 @@
+Official Google sources checked 2026-10-15 (public documentation only; user account not inspected).
+https://support.google.com/flow/answer/16353334?hl=en — Frames start/end vs Ingredients reference inputs; complementary prompts.
+https://support.google.com/flow/answer/16352836?hl=en — Model feature table; Veo 3.1 Fast/Lite Frames 4/6/8 seconds.
+https://support.google.com/flow/answer/16353544?hl=en — Supported countries/languages and recommendation for English prompts.
+https://support.google.com/flow/answer/16526234?hl=en — Plan-dependent upscaling and credits. Some Quality/Extend rows differ from the feature table; this package avoids those dependencies.
+https://blog.google/innovation-and-ai/products/veo-updates-flow/ — Veo native audio.
+https://blog.google/innovation-and-ai/technology/ai/veo-3-1-ingredients-to-video/ — Resolution/upscale distinction.
+
+Local creative source: storyboards/2026-10-15_absurd-v2/storyboards.json and selected scene_manifest.json, all five concepts reviewed previously.
+Current handoff makes only production blocking changes documented in review_summary.json. It does not establish any unconfirmed event date, venue, attendance URL, award or numerical outcome.
+Image mode: built-in image_gen; new start variants generated from the selected V2 representative images. Original images preserved.

@@ -1,0 +1,102 @@
+{
+  "status": "C03_four_scenes_generated_and_artist_checked",
+  "tool": "built-in image_gen",
+  "source_storyboard": "storyboards.json (latest reviewed C03; S02 self-exposure and S04 self-arm conflict revisions applied)",
+  "concept_id": "C03",
+  "scene_count": 4,
+  "scenes": [
+    {
+      "concept_id": "C03",
+      "scene_id": "S01",
+      "image_path": "images/C03/S01.png",
+      "source_cuts": [
+        "01"
+      ],
+      "prompt": "Use case: ads-marketing. Create ONE standalone high-budget live-action SCIENCE FICTION COMEDY film still, 16:9 landscape, cinematic theatrical realism. NOT a clean commercial office stock photo. Original fictional Korean adult male office employee A, about 35, natural short side-parted black hair, ordinary light beige long-sleeve button shirt, charcoal-gray trousers, plain dark shoes, holding an unbranded white ceramic coffee mug. Original actor, not a celebrity.\nSCENE: a plain contemporary office beside a huge glass window at dusk. Outside, a truly COLOSSAL original dark metallic alien spacecraft underside obscures nearly the whole sky, its brutal-scale curved structural ribs and cold blue running lights visible beyond the glass. A narrow vertical blue-white volumetric tractor beam enters through the ceiling/window area and surrounds ONLY the man. His whole body is floating about 20cm above the office floor, with a clear visible gap under BOTH shoes and a soft shadow below. He stands upright in the beam, looks down calmly at his coffee, carefully cups the mug so it will not spill. His expression is a small baffled inconvenience, not terror, not screaming; that mundane priority is the absurd joke. Ordinary papers, desks, chairs and objects remain solidly on the ground. No other people.\nWide, slightly low camera that shows A's full body, face, mug, floor gap and massive spacecraft outside. A centered slightly to the right with cinematic environment depth. Cold blue shaft light and hard rim highlights cut through atmospheric haze; desaturated ordinary office, dramatic shadows, detailed real skin and beige fabric. Monumental invasion film lighting contrasted against a man's humble coffee concern. Filmic lens, subtle grain, credible practical set, not cartoon or glossy game render. Entire single frame. No weapons, injuries, restraint, extra floating objects, existing sci-fi franchise designs, captions, text, numbers, logos, brand names or watermarks.",
+      "references": [],
+      "motion": "그림자가 지나간 뒤 빛기둥이 A만 감싼다. A가 머그잔을 조금 들어 내용물이 흐르지 않게 하면서 위로 이동한다. 과잉 액션 대신 거대 상황과 소박한 행동의 대비를 둔다.",
+      "review_status": "artist_checked_pending_independent_review",
+      "generation_status": "generated",
+      "generated_source": "/home/wooseok/.codex/generated_images/01a13a8a-7471-7482-97d0-63ad6548ddba/exec-c8e71655-a43a-403a-9cc1-0690b368b52b.png",
+      "representative_moment": "Slightly levitated moment; source cut begins with approaching spacecraft shadow.",
+      "artist_check": "Opened saved S01.png. Colossal spacecraft/blue beam/clear gap below shoes, original Korean adult calmly prioritizing white mug. Dark cinematic scale, no extra floating objects or captions."
+    },
+    {
+      "concept_id": "C03",
+      "scene_id": "S02",
+      "image_path": "images/C03/S02.png",
+      "source_cuts": [
+        "02",
+        "03",
+        "04"
+      ],
+      "prompt": "Use case: precise-object-edit. EDIT this sci-fi comedy frame with a targeted ANATOMY/POSE CORRECTION on ONLY THE CENTRAL PURPLE-UNIFORM ALIEN B. Preserve the same exact head/face design and panicked expression, plum outfit, overhead scanner, giant food hologram, human at left, two-armed assistant at right, camera, room and cinematic lighting.\nThe central alien intentionally has FOUR arms and four hands. DO NOT reduce him to a human two-arm body. Turn his torso somewhat toward camera into a three-quarter front view so all four arm origins and ALL FOUR HANDS are clearly visible while he tries frantically to cover the big food screen. TWO upper arms attach at shoulders, TWO lower arms attach symmetrically at left/right upper ribcage beneath the upper shoulders. Show a separate purple sleeve at each of these FOUR joints. Each arm has one elbow, one wrist and one hand, not branching arms. Fan the arms to upper-left, upper-right, lower-left and lower-right at distinct heights like a desperate attempt to block a big screen. Slight overlap with the food display is good; no arm hides entirely behind his back. The head still looks alarmed toward assistant.\nCRITICAL HAND DETAIL: every one of B's FOUR hands has exactly FOUR DIGITS TOTAL: ONE thumb plus THREE elongated fingers. Not four fingers plus thumb, not five or six fingers. Make the separated digits simple, broad and clearly countable. Maintain the character's single head, one torso and two legs. Preserve the food plate behind him visible between his arms. No change to other characters. No words, logos or watermark.",
+      "references": [
+        "/home/wooseok/wsy/samsung_related/slide/AI실행결과발표대회_디자인3종/storyboards/2026-10-15_absurd-v2/images/C03/S02-candidate-v1.png"
+      ],
+      "motion": "처음엔 A를 스캔해 짬뽕. B가 가까이 재촉하자 C가 재조정 중 스캐너를 B 쪽으로 돌림→탕수육 등장→C가 B를 가리킴→B가 네 팔로 화면 가리며 끄라고 함. 대표 이미지는 두 번째 반전 순간이다.",
+      "review_status": "artist_checked_pending_independent_review",
+      "generation_status": "generated",
+      "generated_source": "/home/wooseok/.codex/generated_images/01a13a8a-7471-7482-97d0-63ad6548ddba/exec-8225fd79-bb39-4b44-8ca5-1fd302f45b19.png",
+      "representative_moment": "Second reversal: B's own tangsuyuk thought is exposed. Initial A/jjamppong scan in cuts02/03 is not pictured and must be sequenced separately in later production.",
+      "artist_check": "Opened saved S02.png. Scanner above B, clearly visible tangsuyuk hologram, four arms attached to single plum-uniform B attempting to conceal it with frightened embarrassed expression, calm A with mug and C pointing. One targeted anatomy/pose correction adopted; no repeated detail tuning."
+    },
+    {
+      "concept_id": "C03",
+      "scene_id": "S03",
+      "image_path": "images/C03/S03.png",
+      "source_cuts": [
+        "05",
+        "06"
+      ],
+      "prompt": "Use case: ads-marketing. Create ONE NEW 16:9 cinematic photorealistic film still, NEXT SCENE of this original sci-fi absurd comedy. Input image 1 is the exact human A face/wardrobe/white-mug reference. Input image 2 is the exact alien B and alien C design, FOUR-arm B body, uniforms, spaceship architecture/materials and lighting reference. Preserve all three cast identities and clothes. Same original fictional cast, not an existing franchise. No words, logos, readable writing or watermarks.\nSCENE: the SAME dark metallic ribbed spacecraft is being hurriedly turned into a tiny classroom BY PHYSICAL HAND ACTION, not transformation magic. Human A in beige shirt is at the front LEFT beside a small plain metal stand, gently setting down the SAME WHITE MUG, calm and slightly tired, preparing to explain something. He is not holding the mug elsewhere simultaneously. Commander B in plum uniform, slate blue skin and sculpted temple fins is CENTER at a gunmetal wall, urgently unfolding a SIMPLE rectangular desk on clear real hinges from wall storage. B is one body with FOUR arms in the exact same attachment arrangement as image 2: upper pair from shoulders, lower pair from lateral upper ribs. The TWO UPPER arms pull the two sides of the fold-down desk; LOWER LEFT arm holds a plain blank notebook, LOWER RIGHT hand clutches a pen ready to write. All four arm trajectories readable with natural elbows, not fused. His expression is wildly urgent overcompliance, eyes bulging, mouth open giving frantic instructions: the former commander has become an overeager student. Alien C in black uniform at RIGHT/BACK, same pale skin and two-arm anatomy, uses one hand on the articulated support of the circular scanner to swing it aside, and the other hand on the back of a simple swiveling chair being turned toward the front blank wall. Show scanner still physically supported, not floating. Its projection of food is OFF; the broad front screen is pale blank, with no food, writing or icons.\nFrame as a roomy medium-wide sci-fi film set shot with strong actor/body staging: B's upper pair manipulating desk and lower pair clutching learning tools clearly separated, C clearing apparatus, calm human with mug at front. Same curved structural ribs, window into massive ship exterior, reflective gunmetal floor. Warm white teaching lights have just switched on, MIXED with remaining cold blue rim lights, atmosphere and theatrical depth; retain high-budget alien setting, not an ordinary office or school classroom. No new people, no weapons, no injuries, no restraints, no cloned limbs beyond B's intentional four and C/human's two. Do not make all faces neutral: B visibly frantic, C hurried focused, A everyday calm.",
+      "references": [
+        "/home/wooseok/wsy/samsung_related/slide/AI실행결과발표대회_디자인3종/storyboards/2026-10-15_absurd-v2/images/C03/S01.png",
+        "/home/wooseok/wsy/samsung_related/slide/AI실행결과발표대회_디자인3종/storyboards/2026-10-15_absurd-v2/images/C03/S02.png"
+      ],
+      "motion": "A가 설명하면 된다고 말하자 B와 C가 즉시 행동을 바꾼다. 스캐너를 치우고 책상을 펴고 의자를 돌리는 세 가지 연속 행동으로 교실 전환을 보여준다. 무의미한 물체 변신이나 폭발 효과는 쓰지 않는다.",
+      "review_status": "artist_checked_pending_independent_review",
+      "generation_status": "generated",
+      "generated_source": "/home/wooseok/.codex/generated_images/01a13a8a-7471-7482-97d0-63ad6548ddba/exec-23bd82eb-3787-4ed2-8214-cc644bc9afca.png",
+      "representative_moment": "Practical classroom conversion in progress, later moment of source cuts05/06.",
+      "artist_check": "Opened saved S03.png. Same cast and alien interior; B's four arms divided among fold-down wall desk, notebook and pen; C moving supported scanner and chair; A setting mug onto front stand. Warm teaching light added while alien materials retained."
+    },
+    {
+      "concept_id": "C03",
+      "scene_id": "S04",
+      "image_path": "images/C03/S04.png",
+      "source_cuts": [
+        "07",
+        "08",
+        "09"
+      ],
+      "prompt": "Use case: ads-marketing. ONE NEW 16:9 cinematic photorealistic film still of the FINAL CLASSROOM SCENE in this original high-budget sci-fi absurd comedy. Input image 1 is the exact fictional Korean human A face/wardrobe/mug reference. Input image 2 is the exact alien B and C faces, skin, plum/black uniforms and B's intentional four-arm body reference. Input image 3 is the exact spacecraft classroom set, furniture, blank teaching screen, scanner parked aside and mug on front stand reference. Preserve these identities and designs. Do not copy a famous alien IP. No lettering, numbers, logos, captions, recognizable software or watermarks.\nSTORY MOMENT: Commander B is now an overwhelmed, desperately eager student whose OWN FOUR ARMS are working against each other. NOT all arms raised. Compose him prominently center-right at a simple gunmetal student desk, front three-quarter view with ONE TORSO and ALL FOUR distinct arm attachments visible above desk level. Exactly FOUR ARMS: UPPER LEFT arm is trying to raise its hand to ask a question, elbow bent, forearm diagonally upward; UPPER RIGHT arm crosses over and visibly GRIPS THAT RAISED LEFT WRIST, PULLING IT BACK DOWN. The left hand is still partly raised while the right hand stops it: this physical wrist-grab must be immediately readable, not a high-five or hands fused together. LOWER LEFT arm holds an open plain notebook flat on his desk; LOWER RIGHT hand frantically WRITES with a single pen on it. These lower arms emerge from separate lower ribcage sleeves, not from the upper arms. Keep all four limb paths distinct with clear shoulders/elbows/wrists. His same expressive alien face is flustered and pleading, mouth open, eyebrows raised, glancing between his blocked questioning hand and notes. He has lost all military authority and cannot keep up. Four-digit alien hands are intentional, not human hand anatomy; prioritize the clear four-arm action.\nAlien C, same pale-gray head and black uniform, sits at a SECOND desk at far RIGHT/rear, only TWO arms, calmly writing notes with one hand while other holds the notebook. Human A stands LEFT/front beside large BRIGHT PALE BLANK teaching screen, watching patiently with ordinary understated expression, beige shirt, charcoal trousers. Same WHITE MUG rests on the small front stand, not duplicated or in his hand. A is smaller in frame but recognizable; the comic focus is B's self-defeating arm collision. Preserve ample blank upper-left/central teaching screen area for the later event-title overlay, no text now. Same metallic ribbed spaceship architecture and windows, parked circular scanner at side, warm teaching light mixed with cold blue accents. Two student desks, three characters total, cinematic texture and theatrical scale; NOT a clean office stock photograph. No other hands/limbs, no crowd, no collage. The upper wrist-grab and lower writing must be visibly separate simultaneous actions.",
+      "references": [
+        "/home/wooseok/wsy/samsung_related/slide/AI실행결과발표대회_디자인3종/storyboards/2026-10-15_absurd-v2/images/C03/S01.png",
+        "/home/wooseok/wsy/samsung_related/slide/AI실행결과발표대회_디자인3종/storyboards/2026-10-15_absurd-v2/images/C03/S02.png",
+        "/home/wooseok/wsy/samsung_related/slide/AI실행결과발표대회_디자인3종/storyboards/2026-10-15_absurd-v2/images/C03/S03.png"
+      ],
+      "motion": "질문 팔 상승→다른 팔의 제지→남은 두 팔의 급한 필기를 순차로 보여준다. B가 아직 못 적었다고 당황, A는 기다린다. 마지막 빈 화면에 행사명 6초.",
+      "review_status": "artist_checked_pending_independent_review",
+      "generation_status": "generated",
+      "generated_source": "/home/wooseok/.codex/generated_images/01a13a8a-7471-7482-97d0-63ad6548ddba/exec-a29bd2cb-c8fd-4e3b-bebd-0a3ea97d3ed4.png",
+      "representative_moment": "Upper-arm wrist-block plus lower-arm writing representative pose, following sequential question→restraint→writing action. Title to be added in later editing.",
+      "artist_check": "Opened saved S04.png. B's upper hand is raised and other upper hand grips that wrist; lower two arms hold notebook and write. Four distinct limb paths on one body, no all-four-hands-raised gag. C writes calmly, A waits; white mug on stand and generous blank title screen."
+    }
+  ],
+  "generation_history": [
+    {
+      "concept_id": "C03",
+      "scene_id": "S02",
+      "image_path": "images/C03/S02-candidate-v1.png",
+      "prompt": "Use case: ads-marketing. ONE original high-budget live-action science-fiction comedy film still, 16:9 landscape. Input image 1 is the ACTUAL character/wardrobe/mug reference for human A. Preserve his exact fictional Korean adult face, hair, beige shirt, charcoal trousers, white mug and calm mundane demeanor. Create original alien characters below, never copy recognizable film/game aliens. Film-quality practical prosthetic realism and alien fabrics, dramatic cold blue rim lights, deep metallic spacecraft, not cartoon or clean office photography.\nSPACE: dark gunmetal spacecraft science room with curved ribbed walls, one swiveling chair, one articulated overhead noncontact CIRCULAR BRAIN SCANNER, and one large rectangular blue-edged holographic display. The scanner has physically SWUNG AWAY from the human and is now directly over ALIEN COMMANDER B's HEAD, a soft readable scanning cone hitting B only.\nOnly THREE characters. LEFT: human A sits unrestrained on simple chair holding his white mug, calmly watching this embarrassing accident. CENTER: commander B is one original tall humanoid alien with slate blue-gray skin, amber eyes, broad very expressive mouth, ridged forehead and small sculpted ribbed temple fins, dark plum plain fitted uniform. B has INTENTIONAL FOUR-ARM anatomy: two upper arms from left/right shoulders and two lower arms from left/right sides of upper ribcage, FOUR distinct sleeves and attachments on ONE torso. Each hand has four digits. No other arms on B. He is in EXTREME embarrassed panic, eyes widened and mouth open in an urgent desperate shout. He frantically spreads all FOUR arms and hands over the huge holographic display trying to HIDE his exposed private lunch thought, with hands at four different heights and all limb origins still readable. The display behind his arms clearly shows a big realistic plate of golden Korean sweet-and-sour fried pork TANGSUYUK, sauce and vegetables, food photograph only, no writing. Leave enough dish visible between/beside hands for the joke. His four hands cannot actually cover this oversized screen. RIGHT: assistant C is a separate shorter pale-gray two-armed humanoid, smooth broad brow, small ear ridges, black uniform, exactly TWO arms. C points one hand accusingly at B, the other toward the scanner now over B, with comic surprised certainty. C is not panicking as much as B.\nWide/medium-wide frame of the whole triangle, A seated left, B with visible four-arm torso center, C right, circular scanner conspicuously OVER B rather than A, lunch projection behind B. The absurd contrast is B's authority collapsing when his OWN food thought is revealed, while human A calmly nurses his coffee. Light faces and arm attachments clearly despite moody cinematic blue atmosphere. No restraint, weapons, injuries, extra people, extra/merged limbs beyond the specified four/two/two anatomy, logos, readable text, numbers, captions or watermarks.",
+      "references": [
+        "/home/wooseok/wsy/samsung_related/slide/AI실행결과발표대회_디자인3종/storyboards/2026-10-15_absurd-v2/images/C03/S01.png"
+      ],
+      "generated_source": "/home/wooseok/.codex/generated_images/01a13a8a-7471-7482-97d0-63ad6548ddba/exec-138e0eb8-3d50-4b3f-9d20-8292bc6a7e2f.png",
+      "selected": false,
+      "reason": "One targeted anatomy/pose correction made four-arm silhouette more readable; candidate preserved."
+    }
+  ],
+  "notes": "Prepared draft image_prompts_high_b_prepared.json is superseded by this actual generation record. All references listed were actually opened and passed to built-in image_gen. No shared manifest modified, no Flow or video/audio production."
+}

@@ -1,0 +1,82 @@
+# 경로는 모두 이 프로젝트 폴더(AGENTS.md가 있는 폴더)를 기준으로 한다.
+# 초기 조사 기록이다. 후속 기획 실행 시 사용자 최신 지시와 원자료로 갱신한다.
+team_name = "AI 실행 결과 발표대회 홍보영상팀"
+prepared_on = "2026-10-14"
+project_root_relative_to_this_file = ".."
+setup_scope = "2026-10-14 사용자 실제 기획 요청 시작: 팀 확인 후 5안 기획·교차검수·씬 대표 이미지 제작. Flow 영상 제작 제외."
+
+[task]
+requested_future_deliverable = "차별화된 홍보영상 콘셉트 5안, 각 안의 컷별 스토리보드, 모든 씬의 실제 대표 이미지"
+purposes = ["참석 독려", "행사 소개·현장 도입"]
+tone = "2026-10-15 사용자 수정: 태국 광고·황당한 고퀄리티 스토리와 의도적인 초저예산 B급을 모두 포함. 소품만 이상한 순한 기업홍보 톤을 벗어나 상황 확대·과장된 연기·급반전·몸개그·반복을 사용."
+revision_mix = "고퀄리티 황당 스토리 3안 + 의도적 B급 2안. 상황 폭주형, 감정 과잉·반전형, 몸개그·반복형 각각 포함."
+reveal_policy = "AI·행사명을 초반에 반드시 설명하지 않는다. 마지막 반전과 자연스럽게 연결하며 전체 60초 이내."
+production_scope = "후속 영상 기획 요청 시 스토리보드와 씬별 이미지까지 추가 요청 없이 자동 진행. Flow 영상 제작·음원 생성·영상 렌더링·업로드는 제외."
+automatic_keyframes = true
+keyframe_scope = "검수 완료한 5안 모두의 씬별 최소 1장. 사용자 최신 지시로 범위를 좁힌 경우에는 그 범위를 따름."
+reviewers = ["promo_reviewer_a", "promo_reviewer_b", "promo_reviewer_c"]
+review_method = "3명 모두 동일 종합 기준으로 독립 검토 → 동료 의견 상호 교차 검증 → 수정본 재확인. 이미지에도 적용."
+
+[proposed_defaults]
+# 아래 항목은 행사 자료나 사용자가 확정한 조건이 아닌 기획용 제안값이다.
+duration_seconds = "전체 35~55초 제안, 인트로·엔딩 포함 60초 이내 필수"
+body_duration_seconds = "30초는 참고점. 사용자 추가 지시: 재미와 호흡을 위해 더 길어도 허용."
+cut_count = "6~8"
+aspect_ratio = "16:9"
+audience = "품질팀 내부 구성원으로 가정, 실제 배포 대상은 확인 필요"
+concept_mix = "참석 독려 2 / 행사 소개 2 / 혼합 1, 선정 근거에 따라 조정 가능"
+
+[event]
+status = "사용자 2026-10-14 대회 실제 개최 확정. 행사명에서 (안) 제거. 세부 일정 등은 기존 자료의 계획값으로 별도 관리."
+name = "2026년 품질팀 AI 실행 결과 발표 대회"
+source_document_date = "2026-10-13"
+purpose = "AI 우수 과제와 AI 활용 역량 향상 사례를 공유해 품질팀 AI 실천 문화를 확산"
+core_message = "AI를 학습하는 단계에서, 활용하고 성과 내는 AI로"
+preliminary_draft = "10월까지, 그룹·PJT별 우수 과제 1~2건 추천"
+final_round_draft = "11월 2주, 우수 과제 5~7건 발표"
+presentation_draft = "과제별 발표 7분 + 질의응답 2분"
+awards_draft = ["과제 우수상", "개인 발전상", "조직 실천상"]
+source_paths = ["AI실행결과발표대회_디자인3종.pptx", "AI실행결과발표대회안.png"]
+source_locations = ["PPTX 슬라이드 1~3", "원안 PNG 좌측 배경·운영 개요 및 우측 시간표·시상 방향"]
+unknowns = [
+  "정확한 날짜·시간·장소 및 기존 운영 계획의 세부값 확정 여부",
+  "시청 대상, 배포 채널, 영상 비율",
+  "참석·추천 방법과 신청 링크",
+  "발표자, 과제명, 실제 성과 수치",
+  "상금·경품·부상 여부"
+]
+
+[reference]
+name = "qrew"
+root = "../../../motion/qrew_old"
+verification_scope = "대표 프레임 4종, 설명·편집 코드·음향 설계 문서, MP4 메타 확인. 전체 영상의 연속 움직임과 실제 음원을 감상한 것은 아님."
+interpretation = "업무 불편을 거대한 물리적 상황으로 만들고 인물들은 진지하게 행동한다. 소동 뒤 담담한 한마디와 정적으로 웃기고 메시지를 정리한다."
+observed_duration_seconds = 15
+observed_fps = 30
+observed_resolution = "1920x1080"
+documented_bpm = 128
+reuse_rule = "웃음과 편집의 원리를 참고한다. 원본 자산을 수정하지 않으며 제품 대사·로고·음원·장면을 자동 재사용하지 않는다."
+
+[[reference.examples]]
+id = "v5_document_mountain"
+observation = "정장 직원이 문서 산을 등반한 뒤 사무실에서 QREW 켜셨어요?라는 한마디로 현실 복귀"
+storyboard = "../../../motion/qrew_old/v5-fullvideo/output/QREW-v5-fullvideo-storyboard.png"
+notes = "../../../motion/qrew_old/v5/README.txt"
+
+[[reference.examples]]
+id = "v6_deep_dive"
+observation = "수중 문서고를 탐색하던 정장 잠수부가 오리발을 착용한 채 사무실에 등장하고 담담한 대사에 반응"
+storyboard = "../../../motion/qrew_old/v6/output/QREW-v6-storyboard.png"
+notes = "../../../motion/qrew_old/v6/audio-notes.txt"
+
+[[reference.examples]]
+id = "v7_final_versions"
+observation = "최종·진짜 최종 등 문서들이 사람으로 등장해 다투다가 수정일은요?라는 질문 뒤 정적"
+storyboard = "../../../motion/qrew_old/v7-recut/output/QREW-v7-recut-storyboard.png"
+notes = "../../../motion/qrew_old/v7-recut/README.txt"
+
+[[reference.examples]]
+id = "v8_document_crowd"
+observation = "검사표·시험조건·변경 이력이 사람으로 몰려오며 짧은 삽입 컷을 쌓다가 자료만 주세요라는 말로 멈춤"
+storyboard = "../../../motion/qrew_old/v8-recut/output/QREW-v8-recut-storyboard.png"
+notes = "../../../motion/qrew_old/v8-recut/audio-notes.txt"

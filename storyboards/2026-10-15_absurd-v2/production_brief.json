@@ -1,0 +1,46 @@
+{
+  "run_id": "2026-10-15_absurd-v2",
+  "event_name": "2026년 품질팀 AI 실행 결과 발표 대회",
+  "event_status": "실제 개최 확정 — 사용자 확인",
+  "requested_revision": "고퀄리티 연출이지만 스토리가 황당한 광고와 의도적 B급 광고를 모두 고려한 새로운 콘티 5안. 기존 5개 소품극은 재사용하지 않음.",
+  "style_mix": [
+    "황당한 고퀄리티 스토리 3안",
+    "의도적인 B급 2안"
+  ],
+  "required_flavours": [
+    "상황 확대와 마지막 급반전",
+    "감정 과잉·진지한 몰입 뒤 맥 빠지는 반전",
+    "몸개그·과장된 연기·중독적 반복"
+  ],
+  "maximum_duration_seconds_including_intro_outro": 60,
+  "brand_reveal": "초반 AI 명시 의무 없음. 결말의 행사 공개가 앞 이야기의 원인·해결·의미를 회수.",
+  "source_references": [
+    {
+      "file": "../../../motion/qrew_old/reference-v7-v8/analysis.txt",
+      "topic": "CHAINDRITE 광고의 문제 인물 과잉 연기와 담담한 일상 인물, 반복 확대와 두 번째 반전"
+    },
+    {
+      "file": "../../../motion/qrew_old/reference-v5/analysis.txt",
+      "topic": "영화적 진지함과 황당한 사건, 덤덤한 제품 전환"
+    }
+  ],
+  "reference_scope": "분석 문서와 실제 대표 프레임 확인. 전체 영상과 음원 연속 감상은 아님.",
+  "unconfirmed": [
+    "정확한 일시·장소",
+    "참석 안내 방법",
+    "실제 발표 과제와 수치"
+  ],
+  "review_method": "3명 모두 의도 설명을 가리고 컷·대사부터 독립 검토: 예상→예상을 깨는 행동→기억나는 장면. 이후 교차 검증과 정확성·길이·이미지 재확인.",
+  "deliverables": [
+    "새 콘티 5안",
+    "3명 독립·교차 검수 및 수정 기록",
+    "씬별 실제 대표 이미지",
+    "이미지 교차 검수",
+    "HTML/PDF 및 생성 프롬프트"
+  ],
+  "excluded": [
+    "Flow 동영상 제작",
+    "음원 제작",
+    "외부 게시"
+  ]
+}

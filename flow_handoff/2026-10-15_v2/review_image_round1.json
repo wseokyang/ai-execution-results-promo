@@ -1,0 +1,122 @@
+{
+  "status": "complete",
+  "reviewed_initial_assets": [
+    "C01_N01",
+    "C01_N02",
+    "C01_R_S02",
+    "C01_N04",
+    "C01_R_S03",
+    "C01_N07",
+    "C01_N10",
+    "C02_N01",
+    "C02_N02",
+    "C02_N03",
+    "C02_N05",
+    "C02_N06",
+    "C02_R_S03",
+    "C02_R_S04",
+    "C03_N01",
+    "C03_N02",
+    "C03_N04",
+    "C03_R_S02",
+    "C03_N06",
+    "C03_N07",
+    "C03_R_S04",
+    "C04_R_S01",
+    "C04-N02",
+    "C04_R_S03",
+    "C04-N04",
+    "C04_R_S04",
+    "C04-N06",
+    "C04-N05",
+    "C04_R_S05",
+    "C05_R_S01-v2",
+    "C05-N02",
+    "C05-N04",
+    "C05_R_S02",
+    "C05-N03",
+    "C05_R_S04"
+  ],
+  "reviewer_A": {
+    "actual_viewed_count": 35,
+    "method": "view_image on each actual PNG",
+    "initial_judgment": "필수 재생성 없음. 시작상태/수량/H1H2/연결적합.",
+    "minor_text": "C04F09 his chest→B’s chest 요청,반영"
+  },
+  "reviewer_B": {
+    "actual_viewed_count": 35,
+    "initial_judgment": "35개 모두직접확인. C05-N02 바람즐김선노출1건필수, 나머지34개적합.",
+    "issues": [
+      {
+        "id": "B-START-001",
+        "asset": "C05-N02",
+        "required": true,
+        "finding": "팬OFF인데A/B눈감고바람즐기는표정/날리는가발·천"
+      }
+    ]
+  },
+  "reviewer_C": {
+    "actual_viewed_count": 35,
+    "method": "view_image on each actual PNG",
+    "issues": [
+      {
+        "id": "C-START-001",
+        "asset": "C03_R_S04",
+        "required": true,
+        "finding": "교실에서스캐너링/푸른광선다시켜짐"
+      },
+      {
+        "id": "C-START-002",
+        "asset": "C05-N02",
+        "required": true,
+        "finding": "팬OFF시작에A/B바람즐김결과노출"
+      }
+    ]
+  },
+  "director_resolution": "A는실물통과판단,B/C는바람전상태보완,C는스캐너소등을필수로판단.총괄은선후관계와이미지/프롬프트조건일치를명료하게하려두국소수정을채택.컨셉/총길이/클립수유지.",
+  "fixes": [
+    {
+      "issue_ids": [
+        "C-START-001"
+      ],
+      "selected_asset": "C03_N08",
+      "change": "기존S04인물·손목·4팔보존하고스캐너링/광선만OFF",
+      "status": "resolved_three_reviewers_reopened_actual_selected_images"
+    },
+    {
+      "issue_ids": [
+        "B-START-001",
+        "C-START-002"
+      ],
+      "selected_asset": "C05-N02",
+      "change": "C05-N02-v2로A/B눈뜬영업표정·바람전가발/천,직원·팬·C가림유지",
+      "status": "resolved_three_reviewers_reopened_actual_selected_images"
+    }
+  ],
+  "cross_review": {
+    "A": {
+      "judgment": "pass",
+      "reviewed_updated_images": [
+        "C03_N08",
+        "C05-N02 v2"
+      ],
+      "response": "이전바람표정은영업과장/링은대기등으로수용했으나B001/C002의작동전후명료성,C001의인접N07및OFF계약정합에동의.두수정실물다시열어해결확인. B’schest도확인.남은필수0."
+    },
+    "B": {
+      "judgment": "pass",
+      "reviewed_updated_images": [
+        "C03_N08",
+        "C05-N02 v2"
+      ],
+      "response": "C001스캐너소등정합에동의,C002/B001바람전상태보완해결. A의다른수량/H1H2/연결통과에동의하며초기두상태명료성판단은달랐으나수정으로해소.35개최종직접확인완료.남은필수0."
+    },
+    "C": {
+      "judgment": "pass",
+      "reviewed_updated_images": [
+        "C03_N08",
+        "C05-N02 v2"
+      ],
+      "response": "B001동의. A초기통과에는작동전후구분측면이견이있었으나수정후동의. N08OFF/4팔보존,N02v2눈뜬영업·천가라앉음직접확인.두지적해결.남은필수0."
+    }
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "status": "pass",
+  "archive": "AI_대회_Flow_업로드직전_패키지.zip",
+  "archive_bytes": 112184767,
+  "archive_sha256": "884575256210c4f724c9cccb87c5d9b8762b84bcc0232f5f9f12aace1692bae1",
+  "archive_members": 179,
+  "archive_crc": "pass",
+  "html_links_checked": 289,
+  "broken_local_links": 0,
+  "upload_png_count": 35,
+  "prompt_txt_count": 82,
+  "scope": "local pre-upload files only; no generated Flow video",
+  "three_reviewer_cross_review": "complete"
+}

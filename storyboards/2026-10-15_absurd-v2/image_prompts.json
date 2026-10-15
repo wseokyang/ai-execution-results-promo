@@ -1,0 +1,597 @@
+{
+  "tool": "built-in image_gen",
+  "source": "storyboards.json",
+  "scenes": [
+    {
+      "concept_id": "C01",
+      "scene_id": "S01",
+      "image_path": "images/C01/S01.png",
+      "source_cuts": [
+        "01",
+        "02"
+      ],
+      "prompt": "Use case: ads-marketing.\nAsset type: one standalone cinematic representative keyframe for a later live-action absurdist promotional film. Landscape 16:9, high resolution. One image, one moment, no storyboard panels.\nShot and representative moment: Tight two-person composition, A face in foreground, B just behind at the same seat level; 75mm lens feeling, shallow focus, no readable location clues. The representative keyframe contains the late first-scene two-person sobbing state; the actual film first frame crops A alone before the tears intensify.\nStyle: A frame from an expensive absurdist Korean melodrama advertisement, committed emotional acting, tangible tears and reddened eyelids, pores and wet fabric, strong directional amber light on faces with cooler charcoal backgrounds, deep shadows and selective focus, subtle cinematic grain. A dramatic film still rather than a clean company brochure. The final room reveal may be brighter but retains cinematic contrast and human texture.\nCharacter continuity: {\"A\": \"Fictional Korean man in his late 30s, short straight black hair, clean-shaven, slightly angular face; plain white button-up shirt, charcoal trousers. Wet cheeks, reddened eyes, genuine restrained grief breaking into extreme sobbing.\", \"B\": \"Fictional Korean woman around 40, chin-length straight dark bob, navy cardigan over a light-gray shirt; sincere emotional collapse, never winking at the joke.\", \"C\": \"Fictional Korean man around 50, short graying hair, lime-green work vest over a white T-shirt, black trousers; initially matter-of-fact cleaner, then heartfelt sobbing.\", \"D\": \"Fictional Korean woman around 40, dark hair in a low bun, charcoal jacket over a white shirt, small black presentation remote; completely calm and practical.\"}\nProps: One small white cotton handkerchief; one vivid round yellow plastic cleaning bucket with a black handle; one gray mop. Chairs have understated gray upholstery and thin black legs. Never add funerary, wedding or medical props.\nText: no text, captions, logos, watermarks, signs, dates or fake UI. Leave specified screen or panel blank; the real Korean event title is added later by editing.\nConstraints: realistic anatomy; specific intentional absurd motion only as described; no random decorative AI symbols. No borrowed company branding or recognizable real person. Preserve an expensive dramatic film look with expressive performances.\nApproved scene and action: 16:9 실사 영화 프레임. 허구의 30대 성인 직원 A, 흰 셔츠와 차콜 바지, 짧은 검은 머리. 눈가가 붉고 눈물이 뺨을 따라 흐르며 입술이 떨린다. 바로 옆 남색 카디건의 직원 B도 눈물을 참다 고개를 숙인다. 얼굴은 진지하고 희극적 찡그림이 아닌 실제 오열. 배경은 어두운 보케와 중립적인 의자 등받이뿐이라 장소가 드러나지 않는다.\nApproved continuity: A는 흰 셔츠·차콜 바지, B는 남색 카디건·연한 회색 셔츠로 전 씬 고정. 둘 다 허구의 성인 직원이며 실존 인물 참조 없음. A는 처음부터 작은 흰 손수건을 쥔다. 프레임에 상복·영정·연애 사진·질병 징후는 넣지 않는다. 초반의 장소 은폐는 크롭과 심도로 처리하며 별도의 장례식 장소를 만들지 않는다.\nIf references are supplied, preserve the referenced characters, costumes, props and setting materials while composing this distinct shot. The requested image is a single full-frame shot, not a contact sheet.",
+      "references": [],
+      "motion": "A의 눈물 한 방울과 떨리는 숨을 먼저 잡는다. B가 참으려다 어깨를 한 번 크게 떨며 무너지는 얼굴로 시선을 옮긴다. 첫 장면에서는 행사명·AI 화면을 보여주지 않는다. 대표 이미지는 두 사람이 이미 오열한 상태다. 영상 시작은 A 혼자 눈물을 참음→B의 감정 합류로 분리한다.",
+      "review_status": "passed_by_A_B_C",
+      "generated_source": "/home/wooseok/.codex/generated_images/01a13a98-f374-78a1-af88-b32c5dad3e46/exec-6997e73e-8fb4-4398-b124-57023e004553.png",
+      "dimensions": [
+        1672,
+        941
+      ],
+      "pixel_dimensions": [
+        1672,
+        941
+      ],
+      "sha256": "7496876bbe9b46e9f516462fd8b5573668bd4eae6ab7745ac95d5df12db9bf33",
+      "tool_mode": "built-in image_gen",
+      "review_scope": "대표 정지 이미지. 실제 동영상·음향·대사 리듬은 미제작."
+    },
+    {
+      "concept_id": "C01",
+      "scene_id": "S02",
+      "image_path": "images/C01/S02.png",
+      "source_cuts": [
+        "03"
+      ],
+      "prompt": "Use case: ads-marketing.\nAsset type: one standalone cinematic representative keyframe for a later live-action absurdist promotional film. Landscape 16:9, high resolution. One image, one moment, no storyboard panels.\nShot and representative moment: Low intimate 50mm view centered on the hands twisting the saturated white handkerchief; an absurd continuous thick stream falls into the yellow bucket held by B, both wet faces partly visible at top. Freeze the physically impossible amount of water with premium VFX realism, not a diagram.\nStyle: A frame from an expensive absurdist Korean melodrama advertisement, committed emotional acting, tangible tears and reddened eyelids, pores and wet fabric, strong directional amber light on faces with cooler charcoal backgrounds, deep shadows and selective focus, subtle cinematic grain. A dramatic film still rather than a clean company brochure. The final room reveal may be brighter but retains cinematic contrast and human texture.\nCharacter continuity: {\"A\": \"Fictional Korean man in his late 30s, short straight black hair, clean-shaven, slightly angular face; plain white button-up shirt, charcoal trousers. Wet cheeks, reddened eyes, genuine restrained grief breaking into extreme sobbing.\", \"B\": \"Fictional Korean woman around 40, chin-length straight dark bob, navy cardigan over a light-gray shirt; sincere emotional collapse, never winking at the joke.\", \"C\": \"Fictional Korean man around 50, short graying hair, lime-green work vest over a white T-shirt, black trousers; initially matter-of-fact cleaner, then heartfelt sobbing.\", \"D\": \"Fictional Korean woman around 40, dark hair in a low bun, charcoal jacket over a white shirt, small black presentation remote; completely calm and practical.\"}\nProps: One small white cotton handkerchief; one vivid round yellow plastic cleaning bucket with a black handle; one gray mop. Chairs have understated gray upholstery and thin black legs. Never add funerary, wedding or medical props.\nText: no text, captions, logos, watermarks, signs, dates or fake UI. Leave specified screen or panel blank; the real Korean event title is added later by editing.\nConstraints: realistic anatomy; specific intentional absurd motion only as described; no random decorative AI symbols. No borrowed company branding or recognizable real person. Preserve an expensive dramatic film look with expressive performances.\nApproved scene and action: 같은 두 직원의 좌석 사이 낮은 구도. A가 축축한 흰 손수건을 양손으로 비틀어 선명한 노란 청소용 양동이 안에 물줄기를 짠다. B는 진지하게 울며 양동이를 두 손으로 받쳐준다. 눈물과 손수건에서 나온 물이라는 황당한 인과가 읽혀야 한다. 의자 두 개와 인물 일부만 보여 아직 발표장 전체를 공개하지 않는다.\nApproved continuity: S01의 A·B·의상·손수건 유지. 노란 양동이는 검은 손잡이가 있는 둥근 플라스틱형으로 이후 콜백까지 동일. 바닥은 실내의 마른 회색 카펫이며 수건 바로 아래 소량의 물방울만 있다. 큰 홍수나 침수 위험은 없다.\nIf references are supplied, preserve the referenced characters, costumes, props and setting materials while composing this distinct shot. The requested image is a single full-frame shot, not a contact sheet.",
+      "references": [
+        "/home/wooseok/wsy/samsung_related/slide/AI실행결과발표대회_디자인3종/storyboards/2026-10-15_absurd-v2/images/C01/S01.png"
+      ],
+      "motion": "A가 손수건을 비틀자 예상보다 긴 물줄기가 나온다. B가 양동이 위치를 정확하게 맞춰 받는다. 둘은 자기 행동의 우스움을 의식하지 않는다.",
+      "review_status": "passed_by_A_B_C",
+      "generated_source": "/home/wooseok/.codex/generated_images/01a13a98-f374-78a1-af88-b32c5dad3e46/exec-3bed303c-94b6-4199-a6f8-68f5594d324c.png",
+      "dimensions": [
+        1672,
+        941
+      ],
+      "pixel_dimensions": [
+        1672,
+        941
+      ],
+      "sha256": "3c78e9cca153bf94c2751208af07ac902561abe52b515c8decb993fc7eb1f15f",
+      "tool_mode": "built-in image_gen",
+      "review_scope": "대표 정지 이미지. 실제 동영상·음향·대사 리듬은 미제작."
+    },
+    {
+      "concept_id": "C01",
+      "scene_id": "S03",
+      "image_path": "images/C01/S03.png",
+      "source_cuts": [
+        "04",
+        "05"
+      ],
+      "prompt": "Use case: ads-marketing.\nAsset type: one standalone cinematic representative keyframe for a later live-action absurdist promotional film. Landscape 16:9, high resolution. One image, one moment, no storyboard panels.\nShot and representative moment: Eye-level medium-wide 40mm shot. C is visibly overcome with sobs while still gripping his gray mop, A reaches a corner of the handkerchief toward him, B stays beside the yellow bucket. Faces carry the narrative, dramatic side light, no seminar stage visible yet.\nStyle: A frame from an expensive absurdist Korean melodrama advertisement, committed emotional acting, tangible tears and reddened eyelids, pores and wet fabric, strong directional amber light on faces with cooler charcoal backgrounds, deep shadows and selective focus, subtle cinematic grain. A dramatic film still rather than a clean company brochure. The final room reveal may be brighter but retains cinematic contrast and human texture.\nCharacter continuity: {\"A\": \"Fictional Korean man in his late 30s, short straight black hair, clean-shaven, slightly angular face; plain white button-up shirt, charcoal trousers. Wet cheeks, reddened eyes, genuine restrained grief breaking into extreme sobbing.\", \"B\": \"Fictional Korean woman around 40, chin-length straight dark bob, navy cardigan over a light-gray shirt; sincere emotional collapse, never winking at the joke.\", \"C\": \"Fictional Korean man around 50, short graying hair, lime-green work vest over a white T-shirt, black trousers; initially matter-of-fact cleaner, then heartfelt sobbing.\", \"D\": \"Fictional Korean woman around 40, dark hair in a low bun, charcoal jacket over a white shirt, small black presentation remote; completely calm and practical.\"}\nProps: One small white cotton handkerchief; one vivid round yellow plastic cleaning bucket with a black handle; one gray mop. Chairs have understated gray upholstery and thin black legs. Never add funerary, wedding or medical props.\nText: no text, captions, logos, watermarks, signs, dates or fake UI. Leave specified screen or panel blank; the real Korean event title is added later by editing.\nConstraints: realistic anatomy; specific intentional absurd motion only as described; no random decorative AI symbols. No borrowed company branding or recognizable real person. Preserve an expensive dramatic film look with expressive performances.\nApproved scene and action: 동일 좌석 옆 통로. 연두색 작업 조끼·흰 티셔츠의 허구 성인 청소 담당자 C가 회색 밀대를 한 손에 쥔 채 울음을 터뜨린다. A가 눈물을 흘리면서도 C에게 흰 손수건 한 귀퉁이를 건넨다. 노란 양동이는 의자 옆 바닥에 놓여 있다. C는 방금 일을 멈춘 자세이고 밀대가 바닥에 비스듬히 닿아 있다.\nApproved continuity: A와 B는 앞 씬 의상 유지. C는 연두 조끼·흰 티셔츠·검은 바지·회색 밀대. 새로 등장한 C는 놀라거나 비난하지 않고 청소를 하다가 설명에 귀를 기울인다. 뒤의 발표 스크린은 이 씬에서 프레임 밖이다.\nIf references are supplied, preserve the referenced characters, costumes, props and setting materials while composing this distinct shot. The requested image is a single full-frame shot, not a contact sheet.",
+      "references": [
+        "/home/wooseok/wsy/samsung_related/slide/AI실행결과발표대회_디자인3종/storyboards/2026-10-15_absurd-v2/images/C01/S01.png",
+        "/home/wooseok/wsy/samsung_related/slide/AI실행결과발표대회_디자인3종/storyboards/2026-10-15_absurd-v2/images/C01/S02.png"
+      ],
+      "motion": "처음에는 C가 바닥의 소량의 물을 닦는다. 들려오는 설명에 손을 멈추고 고개를 든다. 참으려던 울음이 터지자 A가 손수건을 내민다. 우는 사람을 한 명 추가하는 것에 그치지 않고 청소 행동이 감정으로 중단되는 변화를 보여준다. C는 발표를 듣고 자신도 헤맸던 경험을 떠올려 울음을 터뜨리며, 이후 빈 의자에 앉아 함께 듣는다. 대표 이미지는 오열 후다. 청소→설명에 귀 기울임→밀대 멈춤→오열 순서를 먼저 만든다.",
+      "review_status": "passed_by_A_B_C",
+      "generated_source": "/home/wooseok/.codex/generated_images/01a13a98-f374-78a1-af88-b32c5dad3e46/exec-21133b34-61f1-4408-9900-737805982c5c.png",
+      "dimensions": [
+        1671,
+        941
+      ],
+      "pixel_dimensions": [
+        1671,
+        941
+      ],
+      "sha256": "b43e1933adf56387c78ac67db52222c8c5edfcdd2f7b10f89ff9dda27783d91a",
+      "tool_mode": "built-in image_gen",
+      "review_scope": "대표 정지 이미지. 실제 동영상·음향·대사 리듬은 미제작."
+    },
+    {
+      "concept_id": "C01",
+      "scene_id": "S04",
+      "image_path": "images/C01/S04.png",
+      "source_cuts": [
+        "06",
+        "07",
+        "08"
+      ],
+      "prompt": "Use case: ads-marketing.\nAsset type: one standalone cinematic representative keyframe for a later live-action absurdist promotional film. Landscape 16:9, high resolution. One image, one moment, no storyboard panels.\nShot and representative moment: Cinematic wide three-quarter room reveal, 28mm lens feeling. Foreground A raises the same yellow bucket under his chin to prepare for another moving story; B next to him, C nearby with mop parked. In the background D calmly presents beside a generous blank bright screen. This is a representative late callback state, not the first frame of the stage reveal.\nStyle: A frame from an expensive absurdist Korean melodrama advertisement, committed emotional acting, tangible tears and reddened eyelids, pores and wet fabric, strong directional amber light on faces with cooler charcoal backgrounds, deep shadows and selective focus, subtle cinematic grain. A dramatic film still rather than a clean company brochure. The final room reveal may be brighter but retains cinematic contrast and human texture.\nCharacter continuity: {\"A\": \"Fictional Korean man in his late 30s, short straight black hair, clean-shaven, slightly angular face; plain white button-up shirt, charcoal trousers. Wet cheeks, reddened eyes, genuine restrained grief breaking into extreme sobbing.\", \"B\": \"Fictional Korean woman around 40, chin-length straight dark bob, navy cardigan over a light-gray shirt; sincere emotional collapse, never winking at the joke.\", \"C\": \"Fictional Korean man around 50, short graying hair, lime-green work vest over a white T-shirt, black trousers; initially matter-of-fact cleaner, then heartfelt sobbing.\", \"D\": \"Fictional Korean woman around 40, dark hair in a low bun, charcoal jacket over a white shirt, small black presentation remote; completely calm and practical.\"}\nProps: One small white cotton handkerchief; one vivid round yellow plastic cleaning bucket with a black handle; one gray mop. Chairs have understated gray upholstery and thin black legs. Never add funerary, wedding or medical props.\nText: no text, captions, logos, watermarks, signs, dates or fake UI. Leave specified screen or panel blank; the real Korean event title is added later by editing.\nConstraints: realistic anatomy; specific intentional absurd motion only as described; no random decorative AI symbols. No borrowed company branding or recognizable real person. Preserve an expensive dramatic film look with expressive performances.\nApproved scene and action: 밝은 사내 발표장 와이드. 앞의 차콜 재킷 발표자 D는 차분히 작은 리모컨을 들고 설명한다. 객석 A와 B는 눈물을 닦고, C는 밀대를 세워 둔 채 옆 빈 의자에 앉아 있다. A는 노란 양동이를 무릎 위에 올려 턱 아래로 들어 다음 이야기를 들을 준비를 한다. 넓은 스크린은 후속 편집으로 행사명과 문구를 넣기 위한 밝은 빈 영역이다. A와 B의 의자 옆에 낡은 개인 메모장 몇 권을 소박하게 두되 글자·수치·실제 과제명은 보이지 않는다.\nApproved continuity: 앞 씬의 A·B·C와 손수건·양동이·밀대를 정확히 유지한다. D는 허구의 성인 발표자, 차콜 재킷·흰 셔츠·작은 검은 리모컨이며 마지막까지 덤덤하다. 실제 과제명·성과 숫자·발표자 이름은 없다. 좌석 두세 개와 네 명 중심으로 구성해 불필요한 군중을 만들지 않는다.\nIf references are supplied, preserve the referenced characters, costumes, props and setting materials while composing this distinct shot. The requested image is a single full-frame shot, not a contact sheet.\nComposition clarification: use a side-aisle three-quarter viewpoint so the seated listeners on the left are oriented toward the presenter and screen on the right, while their tearful faces remain readable in three-quarter profile. The yellow bucket is visibly raised immediately below A's chin, not on the floor. Add only 2–3 worn closed personal notebooks next to the seats, no readable writing.",
+      "references": [
+        "/home/wooseok/wsy/samsung_related/slide/AI실행결과발표대회_디자인3종/storyboards/2026-10-15_absurd-v2/images/C01/S01.png",
+        "/home/wooseok/wsy/samsung_related/slide/AI실행결과발표대회_디자인3종/storyboards/2026-10-15_absurd-v2/images/C01/S02.png",
+        "/home/wooseok/wsy/samsung_related/slide/AI실행결과발표대회_디자인3종/storyboards/2026-10-15_absurd-v2/images/C01/S03.png"
+      ],
+      "motion": "카메라가 넓어지며 발표장이라는 장소를 처음 공개한다. D가 다음 사례를 예고하면 A가 손수건을 내려놓고 양동이를 턱 아래로 올린다. 마지막은 이 와이드 프레임을 정지하고 행사명을 편집으로 6초 표시한다. 추가 엔드카드 씬은 없다. 영상에서는 장소 공개와 다음 사례 예고 후에 양동이가 무릎에서 턱 밑으로 올라간다. B는 자기 주머니에서 별도 흰 손수건을 꺼내고 C는 A에게 받은 것을 유지한다. 장소 공개 때 음악을 낮추고 평범한 발표 목소리·의자 소리·물방울 생활음으로 현실감을 준다.",
+      "review_status": "passed_by_A_B_C",
+      "generated_source": "/home/wooseok/.codex/generated_images/01a13a98-f374-78a1-af88-b32c5dad3e46/exec-b518d6f2-c1c9-463f-aa0f-8a006805789d.png",
+      "dimensions": [
+        1672,
+        941
+      ],
+      "pixel_dimensions": [
+        1672,
+        941
+      ],
+      "sha256": "7714d4b25a0d1bc317471e72bc1a1387870b8fa8860cd15c04f7fae8b5126766",
+      "tool_mode": "built-in image_gen",
+      "review_scope": "대표 정지 이미지. 실제 동영상·음향·대사 리듬은 미제작."
+    },
+    {
+      "concept_id": "C02",
+      "scene_id": "S01",
+      "image_path": "images/C02/S01.png",
+      "source_cuts": [
+        "01",
+        "02",
+        "03"
+      ],
+      "prompt": "Use case: ads-marketing.\nAsset type: one standalone cinematic representative keyframe for a later live-action absurdist promotional film. Landscape 16:9, high resolution. One image, one moment, no storyboard panels.\nShot and representative moment: Very low floor-level 28mm view at the desk aisle. A black socked foot misses its black shoe, which is visibly several centimeters airborne and tilting forward as it escapes; its matching shoe follows. A reaches urgently from the desk chair in the middle ground, B and her white sneakers appear farther down the same aisle. The brown loafers are a small recognizable pair by the far desk. Keep autonomous footwear and human feet clearly separate.\nStyle: Expensive live-action pursuit-thriller advertisement with absurd story, detailed leather and fabric, convincing premium VFX, cinematic directional daylight with hard-edged shadow and cool undertones, high contrast, precise focus. Floor-level kinetic camera and strong directional compositions during escape. Actors commit to real urgency. The queue and seated-shoe reveal shift into composed stillness. Never ordinary bright corporate stock photography or cartoon mascot shoes.\nCharacter continuity: {\"A\": \"Fictional Korean man in his mid-30s, short slightly wavy dark hair, white shirt with sleeves rolled once, charcoal trousers, black socks. He becomes physically desperate and surprised during the chase.\", \"B\": \"Fictional Korean woman in her 30s, black ponytail, light-blue button-up shirt, gray trousers, gray socks. She reacts with alarm and chases actively.\", \"C\": \"Fictional Korean man in his mid-40s, close-cropped black hair, green utility vest, black trousers, ordinary black work shoes; physically confident then shocked when the bag escapes.\", \"D\": \"Fictional Korean woman around 40, neat dark bob, beige blazer over a white shirt, black trousers; calm event usher who finds the shoes completely normal.\"}\nProps: Exactly three autonomous pairs: glossy black lace-up leather dress shoes belonging to A; plain white sneakers belonging to B; dark-brown loafers belonging to an offscreen owner. These shoes have NO faces, eyes, arms, legs or people inside. A large beige canvas sack with one red drawstring enters in S02. The sack moves because the trapped shoes push against its base, not because a person is inside. Do not add a crowd of loose shoes.\nText: no text, captions, logos, watermarks, signs, dates or fake UI. Leave specified screen or panel blank; the real Korean event title is added later by editing.\nConstraints: realistic anatomy; specific intentional absurd motion only as described; no random decorative AI symbols. No borrowed company branding or recognizable real person. Preserve an expensive dramatic film look with expressive performances.\nApproved scene and action: 16:9 영화적 실사. 밝은 회사 업무 공간의 넓은 통로 옆 책상. 흰 셔츠·차콜 바지의 직원 A가 앉아 검은 양말 신은 발을 검은 가죽 구두에 넣으려는데 구두 한 짝이 발에서 비껴나 앞으로 움직이는 순간이다. 다른 짝도 같은 방향을 향한다. 뒤에는 연한 하늘색 셔츠 직원 B와 그 발 근처의 흰 운동화 한 켤레가 보인다. 세 번째 짙은 갈색 로퍼 한 켤레는 먼 책상 아래에 있다.\nApproved continuity: A는 흰 셔츠·차콜 바지·검은 양말, B는 하늘색 셔츠·회색 바지·회색 양말. A의 검은 끈 구두, B의 흰 운동화, 주인이 화면 밖인 갈색 로퍼 총 세 켤레만 사용한다. 신발에 얼굴·눈·팔다리를 추가하지 않으며 실제 신발 형태가 그대로 움직인다.\nIf references are supplied, preserve the referenced characters, costumes, props and setting materials while composing this distinct shot. The requested image is a single full-frame shot, not a contact sheet.",
+      "references": [],
+      "motion": "첫 구두는 A가 발을 넣을 때 정확히 한 번 피한 뒤 앞으로 달아난다. A가 일어나 뒤쫓자 흰 운동화와 갈색 로퍼가 각 책상 아래에서 합류한다. 주인들은 양말 차림으로 뛰며, 카메라는 업무 공간의 같은 통로 안에서 움직인다.",
+      "review_status": "passed_by_A_B_C",
+      "generated_source": "/home/wooseok/.codex/generated_images/01a13a98-f374-78a1-af88-b32c5dad3e46/exec-eeb67791-bea6-4af6-8ca3-e23301415e7a.png",
+      "dimensions": [
+        1672,
+        941
+      ],
+      "pixel_dimensions": [
+        1672,
+        941
+      ],
+      "sha256": "d06ebc2590d1f0343632af60f85f667c0a54dbaba42a70bead17f8e42829c8b2",
+      "tool_mode": "built-in image_gen",
+      "review_scope": "대표 정지 이미지. 실제 동영상·음향·대사 리듬은 미제작."
+    },
+    {
+      "concept_id": "C02",
+      "scene_id": "S02",
+      "image_path": "images/C02/S02.png",
+      "source_cuts": [
+        "04",
+        "05"
+      ],
+      "prompt": "Use case: ads-marketing.\nAsset type: one standalone cinematic representative keyframe for a later live-action absurdist promotional film. Landscape 16:9, high resolution. One image, one moment, no storyboard panels.\nShot and representative moment: Low tracking-angle 28mm chase shot in the same connecting corridor. The beige sack is caught mid-hop with the base visibly distorted into two shoe-sized bulges, red drawstring mouth gathered; a small gap and separate shadow establish that it is moving on its own. C reaches after the escaping sack, A and B chase in socks behind. No human body in the sack, no extra legs. Representative moment is the sack escaping; scene begins earlier with C catching the shoes.\nStyle: Expensive live-action pursuit-thriller advertisement with absurd story, detailed leather and fabric, convincing premium VFX, cinematic directional daylight with hard-edged shadow and cool undertones, high contrast, precise focus. Floor-level kinetic camera and strong directional compositions during escape. Actors commit to real urgency. The queue and seated-shoe reveal shift into composed stillness. Never ordinary bright corporate stock photography or cartoon mascot shoes.\nCharacter continuity: {\"A\": \"Fictional Korean man in his mid-30s, short slightly wavy dark hair, white shirt with sleeves rolled once, charcoal trousers, black socks. He becomes physically desperate and surprised during the chase.\", \"B\": \"Fictional Korean woman in her 30s, black ponytail, light-blue button-up shirt, gray trousers, gray socks. She reacts with alarm and chases actively.\", \"C\": \"Fictional Korean man in his mid-40s, close-cropped black hair, green utility vest, black trousers, ordinary black work shoes; physically confident then shocked when the bag escapes.\", \"D\": \"Fictional Korean woman around 40, neat dark bob, beige blazer over a white shirt, black trousers; calm event usher who finds the shoes completely normal.\"}\nProps: Exactly three autonomous pairs: glossy black lace-up leather dress shoes belonging to A; plain white sneakers belonging to B; dark-brown loafers belonging to an offscreen owner. These shoes have NO faces, eyes, arms, legs or people inside. A large beige canvas sack with one red drawstring enters in S02. The sack moves because the trapped shoes push against its base, not because a person is inside. Do not add a crowd of loose shoes.\nText: no text, captions, logos, watermarks, signs, dates or fake UI. Leave specified screen or panel blank; the real Korean event title is added later by editing.\nConstraints: realistic anatomy; specific intentional absurd motion only as described; no random decorative AI symbols. No borrowed company branding or recognizable real person. Preserve an expensive dramatic film look with expressive performances.\nApproved scene and action: 업무 공간과 연결된 넓은 실내 통로. 초록 작업 조끼·검은 바지의 관리 담당자 C가 큰 베이지색 캔버스 자루를 잡으려 손을 뻗는다. 자루 안에는 신발이 들어가 있고 바닥 부분이 두 발처럼 번갈아 부풀어 자루째 앞으로 도약한다. A와 B는 양말 차림으로 뒤에서 황당하고 절박하게 쫓는다. 정리된 벽과 바닥, 장애물 없는 통로.\nApproved continuity: A·B와 세 켤레 신발은 S01 그대로. C는 초록 작업 조끼·검은 바지·평범한 검은 운동화이며 포획한 신발과 구분한다. 자루는 베이지 캔버스, 붉은 조임 끈 하나. 신발을 자루에 넣는 것은 만화적인 포획이며 인물은 자루 안에 들어가지 않는다.\nIf references are supplied, preserve the referenced characters, costumes, props and setting materials while composing this distinct shot. The requested image is a single full-frame shot, not a contact sheet.",
+      "references": [
+        "/home/wooseok/wsy/samsung_related/slide/AI실행결과발표대회_디자인3종/storyboards/2026-10-15_absurd-v2/images/C02/S01.png"
+      ],
+      "motion": "C가 열린 자루로 세 켤레를 한 번에 받아낸 뒤 승리한 듯 입구를 모은다. 안도한 순간 자루 바닥이 교대로 움직이고 자루 자체가 C의 손에서 빠져 달아난다. C는 빈 손으로 잠깐 승리 자세를 유지하다 상황을 알아차린다. 대표 이미지는 탈출 순간이다. 반드시 먼저 자루에 포획 성공→C의 승리 자세·A/B의 안도→자루가 움직여 달아남의 순서를 둔다.",
+      "review_status": "passed_by_A_B_C",
+      "generated_source": "/home/wooseok/.codex/generated_images/01a13a98-f374-78a1-af88-b32c5dad3e46/exec-fa7cc753-a7b4-4201-af6b-3098fe1fa17f.png",
+      "dimensions": [
+        1672,
+        941
+      ],
+      "pixel_dimensions": [
+        1672,
+        941
+      ],
+      "sha256": "6f7c457245744b2662842ffd1c936e46d63fe322e4316521b4fd5b976498d75e",
+      "tool_mode": "built-in image_gen",
+      "review_scope": "대표 정지 이미지. 실제 동영상·음향·대사 리듬은 미제작."
+    },
+    {
+      "concept_id": "C02",
+      "scene_id": "S03",
+      "image_path": "images/C02/S03.png",
+      "source_cuts": [
+        "06"
+      ],
+      "prompt": "Use case: precise-object-edit. Edit the supplied cinematic image. Keep all three people's exact faces, outfits, poses, the empty collapsed beige sack and red cord, corridor, lighting, open auditorium doorway, blank wall panel, camera angle and style unchanged. Correct ONLY the three pairs of shoes: they are patiently queued TO ENTER THE OPEN DOOR. Rotate their toes AWAY from the camera and TOWARD THE OPEN DOOR at upper-right; show their HEELS nearest the camera. Arrange the black lace-up dress shoes closest to the doorway as the lead pair, the white sneaker pair behind them in the middle, and the brown loafer pair last nearest camera. Exactly one black pair, one white pair, one brown pair: six shoes total, no other autonomous shoes. Maintain recognizable matching shoes. Each left and right shoe stands side-by-side within its pair. The queue is a diagonal line toward the doorway. No text, no logos. This is one standalone 16:9 film still. Do not change the humans or add new characters.",
+      "references": [
+        "/home/wooseok/.codex/generated_images/01a13a98-f374-78a1-af88-b32c5dad3e46/exec-39b3a149-8042-4461-961e-72c54025264c.png"
+      ],
+      "motion": "달아나는 자루를 쫓던 카메라가 문 앞에서 멈춘다. 구두부터 차례로 짧게 앞으로 한 칸씩 움직여, 도주의 동작이 조용히 입장을 기다리는 행동으로 바뀐다. A가 허리를 숙여 자기 구두를 잡으려 할 때 먼저 안으로 들어간다.",
+      "review_status": "passed_by_A_B_C",
+      "generated_source": "/home/wooseok/.codex/generated_images/01a13a98-f374-78a1-af88-b32c5dad3e46/exec-b5f09574-ffe5-4773-b856-3da8bbd8ac4c.png",
+      "dimensions": [
+        1672,
+        941
+      ],
+      "pixel_dimensions": [
+        1672,
+        941
+      ],
+      "sha256": "6c5245eb2fab528b6d66f3c2aa907ce3161bac8d2b910fd8fa2e4fc6b1fb4df8",
+      "tool_mode": "built-in image_gen",
+      "review_scope": "대표 정지 이미지. 실제 동영상·음향·대사 리듬은 미제작."
+    },
+    {
+      "concept_id": "C02",
+      "scene_id": "S04",
+      "image_path": "images/C02/S04.png",
+      "source_cuts": [
+        "07",
+        "08",
+        "09"
+      ],
+      "prompt": "Use case: precise-object-edit / corrected scene composition. Correct the supplied premium live-action film still so the audience chairs and shoes FACE THE STAGE, instead of facing away from it. Preserve the exact three fictional Korean people, faces, clothing, expressions, sock colors, three pairs of shoes, theater materials, warm cinematic light and blank screen. IMPORTANT SPATIAL CORRECTION: the stage and screen remain in the upper-right background. Reorient the chair row so each chair BACK is closer to the camera at lower-left and its SEAT extends toward the upper-right stage. Put the same three shoe pairs on three individual seats, heels nearer the chair backs and toes pointing away from camera toward that upper-right stage. Move the camera slightly higher and more to the SIDE, looking down obliquely into the seats, so the shoes are clearly readable despite the correctly oriented chair backs. This is a side-aisle three-quarter view, not a straight view from behind the chairs. The black dress-shoe pair, white sneaker pair, and brown loafer pair each occupy one seat. Exactly six autonomous shoes total, no extra shoes, no shoe faces or limbs. Keep two empty seats beside them for their human owners. The two shocked owners still stand in black/gray socks in the aisle and the calm female usher gestures at those empty seats. All seat backs and shoe toes must agree on the SAME forward direction toward the screen. The image must look like a real usable auditorium layout. One 16:9 cinematic still, no panels, no text, no logos.",
+      "references": [
+        "/home/wooseok/.codex/generated_images/01a13a98-f374-78a1-af88-b32c5dad3e46/exec-9e88088e-ce2f-44a7-9c64-406512007a49.png"
+      ],
+      "motion": "구두가 앞 좌석을 먼저 차지한 상태를 공개한다. A가 손을 뻗자 D가 빈 옆자리를 안내한다. A가 포기하고 구두 옆에 앉으면 구두 두 짝이 함께 앞쪽으로 조금 더 바르게 돌아앉는다. 마지막은 이 화면을 정지해 행사명을 6초 표시한다. 대표 이미지는 주인들의 좌석 발견 순간이다. 되찾으려는 손 멈춤→안내자의 초대→주인들이 신발 옆에 실제로 앉는 결말까지 이어간다.",
+      "review_status": "passed_by_A_B_C",
+      "generated_source": "/home/wooseok/.codex/generated_images/01a13a98-f374-78a1-af88-b32c5dad3e46/exec-4737fdd5-7cef-4614-baa0-c444a30184d7.png",
+      "dimensions": [
+        1672,
+        941
+      ],
+      "pixel_dimensions": [
+        1672,
+        941
+      ],
+      "sha256": "1dd134f5582ac6ccbe008c8f62170dddc9e0dcd1cd7c3f80a8f815c4b76f187d",
+      "tool_mode": "built-in image_gen",
+      "review_scope": "대표 정지 이미지. 실제 동영상·음향·대사 리듬은 미제작."
+    },
+    {
+      "concept_id": "C03",
+      "scene_id": "S01",
+      "image_path": "images/C03/S01.png",
+      "source_cuts": [
+        "01"
+      ],
+      "prompt": "Use case: ads-marketing. Create ONE standalone high-budget live-action SCIENCE FICTION COMEDY film still, 16:9 landscape, cinematic theatrical realism. NOT a clean commercial office stock photo. Original fictional Korean adult male office employee A, about 35, natural short side-parted black hair, ordinary light beige long-sleeve button shirt, charcoal-gray trousers, plain dark shoes, holding an unbranded white ceramic coffee mug. Original actor, not a celebrity.\nSCENE: a plain contemporary office beside a huge glass window at dusk. Outside, a truly COLOSSAL original dark metallic alien spacecraft underside obscures nearly the whole sky, its brutal-scale curved structural ribs and cold blue running lights visible beyond the glass. A narrow vertical blue-white volumetric tractor beam enters through the ceiling/window area and surrounds ONLY the man. His whole body is floating about 20cm above the office floor, with a clear visible gap under BOTH shoes and a soft shadow below. He stands upright in the beam, looks down calmly at his coffee, carefully cups the mug so it will not spill. His expression is a small baffled inconvenience, not terror, not screaming; that mundane priority is the absurd joke. Ordinary papers, desks, chairs and objects remain solidly on the ground. No other people.\nWide, slightly low camera that shows A's full body, face, mug, floor gap and massive spacecraft outside. A centered slightly to the right with cinematic environment depth. Cold blue shaft light and hard rim highlights cut through atmospheric haze; desaturated ordinary office, dramatic shadows, detailed real skin and beige fabric. Monumental invasion film lighting contrasted against a man's humble coffee concern. Filmic lens, subtle grain, credible practical set, not cartoon or glossy game render. Entire single frame. No weapons, injuries, restraint, extra floating objects, existing sci-fi franchise designs, captions, text, numbers, logos, brand names or watermarks.",
+      "references": [],
+      "motion": "그림자가 지나간 뒤 빛기둥이 A만 감싼다. A가 머그잔을 조금 들어 내용물이 흐르지 않게 하면서 위로 이동한다. 과잉 액션 대신 거대 상황과 소박한 행동의 대비를 둔다.",
+      "review_status": "passed_by_A_B_C",
+      "generation_status": "generated",
+      "generated_source": "/home/wooseok/.codex/generated_images/01a13a8a-7471-7482-97d0-63ad6548ddba/exec-c8e71655-a43a-403a-9cc1-0690b368b52b.png",
+      "representative_moment": "Slightly levitated moment; source cut begins with approaching spacecraft shadow.",
+      "artist_check": "Opened saved S01.png. Colossal spacecraft/blue beam/clear gap below shoes, original Korean adult calmly prioritizing white mug. Dark cinematic scale, no extra floating objects or captions.",
+      "pixel_dimensions": [
+        1672,
+        941
+      ],
+      "sha256": "2e848393f074c9b9513c08f75291ca86d1a6aa60a56ac43277f1cd369201e480",
+      "tool_mode": "built-in image_gen",
+      "review_scope": "대표 정지 이미지. 실제 동영상·음향·대사 리듬은 미제작."
+    },
+    {
+      "concept_id": "C03",
+      "scene_id": "S02",
+      "image_path": "images/C03/S02.png",
+      "source_cuts": [
+        "02",
+        "03",
+        "04"
+      ],
+      "prompt": "Use case: precise-object-edit. EDIT this sci-fi comedy frame with a targeted ANATOMY/POSE CORRECTION on ONLY THE CENTRAL PURPLE-UNIFORM ALIEN B. Preserve the same exact head/face design and panicked expression, plum outfit, overhead scanner, giant food hologram, human at left, two-armed assistant at right, camera, room and cinematic lighting.\nThe central alien intentionally has FOUR arms and four hands. DO NOT reduce him to a human two-arm body. Turn his torso somewhat toward camera into a three-quarter front view so all four arm origins and ALL FOUR HANDS are clearly visible while he tries frantically to cover the big food screen. TWO upper arms attach at shoulders, TWO lower arms attach symmetrically at left/right upper ribcage beneath the upper shoulders. Show a separate purple sleeve at each of these FOUR joints. Each arm has one elbow, one wrist and one hand, not branching arms. Fan the arms to upper-left, upper-right, lower-left and lower-right at distinct heights like a desperate attempt to block a big screen. Slight overlap with the food display is good; no arm hides entirely behind his back. The head still looks alarmed toward assistant.\nCRITICAL HAND DETAIL: every one of B's FOUR hands has exactly FOUR DIGITS TOTAL: ONE thumb plus THREE elongated fingers. Not four fingers plus thumb, not five or six fingers. Make the separated digits simple, broad and clearly countable. Maintain the character's single head, one torso and two legs. Preserve the food plate behind him visible between his arms. No change to other characters. No words, logos or watermark.",
+      "references": [
+        "/home/wooseok/wsy/samsung_related/slide/AI실행결과발표대회_디자인3종/storyboards/2026-10-15_absurd-v2/images/C03/S02-candidate-v1.png"
+      ],
+      "motion": "처음엔 A를 스캔해 짬뽕. B가 가까이 재촉하자 C가 재조정 중 스캐너를 B 쪽으로 돌림→탕수육 등장→C가 B를 가리킴→B가 네 팔로 화면 가리며 끄라고 함. 대표 이미지는 두 번째 반전 순간이다. 선택 이미지는 B의 생각이 폭로된 후이며 첫 인간 스캔의 짬뽕과 구분한다.",
+      "review_status": "passed_by_A_B_C",
+      "generation_status": "generated",
+      "generated_source": "/home/wooseok/.codex/generated_images/01a13a8a-7471-7482-97d0-63ad6548ddba/exec-8225fd79-bb39-4b44-8ca5-1fd302f45b19.png",
+      "representative_moment": "Second reversal: B's own tangsuyuk thought is exposed. Initial A/jjamppong scan in cuts02/03 is not pictured and must be sequenced separately in later production.",
+      "artist_check": "Opened saved S02.png. Scanner above B, clearly visible tangsuyuk hologram, four arms attached to single plum-uniform B attempting to conceal it with frightened embarrassed expression, calm A with mug and C pointing. One targeted anatomy/pose correction adopted; no repeated detail tuning.",
+      "pixel_dimensions": [
+        1672,
+        941
+      ],
+      "sha256": "c81646db6157f33c6149275272bf2bb2e368b3cf4bd23a76c6745773be10459a",
+      "tool_mode": "built-in image_gen",
+      "review_scope": "대표 정지 이미지. 실제 동영상·음향·대사 리듬은 미제작."
+    },
+    {
+      "concept_id": "C03",
+      "scene_id": "S03",
+      "image_path": "images/C03/S03.png",
+      "source_cuts": [
+        "05",
+        "06"
+      ],
+      "prompt": "Use case: ads-marketing. Create ONE NEW 16:9 cinematic photorealistic film still, NEXT SCENE of this original sci-fi absurd comedy. Input image 1 is the exact human A face/wardrobe/white-mug reference. Input image 2 is the exact alien B and alien C design, FOUR-arm B body, uniforms, spaceship architecture/materials and lighting reference. Preserve all three cast identities and clothes. Same original fictional cast, not an existing franchise. No words, logos, readable writing or watermarks.\nSCENE: the SAME dark metallic ribbed spacecraft is being hurriedly turned into a tiny classroom BY PHYSICAL HAND ACTION, not transformation magic. Human A in beige shirt is at the front LEFT beside a small plain metal stand, gently setting down the SAME WHITE MUG, calm and slightly tired, preparing to explain something. He is not holding the mug elsewhere simultaneously. Commander B in plum uniform, slate blue skin and sculpted temple fins is CENTER at a gunmetal wall, urgently unfolding a SIMPLE rectangular desk on clear real hinges from wall storage. B is one body with FOUR arms in the exact same attachment arrangement as image 2: upper pair from shoulders, lower pair from lateral upper ribs. The TWO UPPER arms pull the two sides of the fold-down desk; LOWER LEFT arm holds a plain blank notebook, LOWER RIGHT hand clutches a pen ready to write. All four arm trajectories readable with natural elbows, not fused. His expression is wildly urgent overcompliance, eyes bulging, mouth open giving frantic instructions: the former commander has become an overeager student. Alien C in black uniform at RIGHT/BACK, same pale skin and two-arm anatomy, uses one hand on the articulated support of the circular scanner to swing it aside, and the other hand on the back of a simple swiveling chair being turned toward the front blank wall. Show scanner still physically supported, not floating. Its projection of food is OFF; the broad front screen is pale blank, with no food, writing or icons.\nFrame as a roomy medium-wide sci-fi film set shot with strong actor/body staging: B's upper pair manipulating desk and lower pair clutching learning tools clearly separated, C clearing apparatus, calm human with mug at front. Same curved structural ribs, window into massive ship exterior, reflective gunmetal floor. Warm white teaching lights have just switched on, MIXED with remaining cold blue rim lights, atmosphere and theatrical depth; retain high-budget alien setting, not an ordinary office or school classroom. No new people, no weapons, no injuries, no restraints, no cloned limbs beyond B's intentional four and C/human's two. Do not make all faces neutral: B visibly frantic, C hurried focused, A everyday calm.",
+      "references": [
+        "/home/wooseok/wsy/samsung_related/slide/AI실행결과발표대회_디자인3종/storyboards/2026-10-15_absurd-v2/images/C03/S01.png",
+        "/home/wooseok/wsy/samsung_related/slide/AI실행결과발표대회_디자인3종/storyboards/2026-10-15_absurd-v2/images/C03/S02.png"
+      ],
+      "motion": "A가 설명하면 된다고 말하자 B와 C가 즉시 행동을 바꾼다. 스캐너를 치우고 책상을 펴고 의자를 돌리는 세 가지 연속 행동으로 교실 전환을 보여준다. 무의미한 물체 변신이나 폭발 효과는 쓰지 않는다.",
+      "review_status": "passed_by_A_B_C",
+      "generation_status": "generated",
+      "generated_source": "/home/wooseok/.codex/generated_images/01a13a8a-7471-7482-97d0-63ad6548ddba/exec-23bd82eb-3787-4ed2-8214-cc644bc9afca.png",
+      "representative_moment": "Practical classroom conversion in progress, later moment of source cuts05/06.",
+      "artist_check": "Opened saved S03.png. Same cast and alien interior; B's four arms divided among fold-down wall desk, notebook and pen; C moving supported scanner and chair; A setting mug onto front stand. Warm teaching light added while alien materials retained.",
+      "pixel_dimensions": [
+        1672,
+        941
+      ],
+      "sha256": "bebcc084d1a606fff34ec5b7cfb443c335fe46fc926230a5fee5661f8b7f83d8",
+      "tool_mode": "built-in image_gen",
+      "review_scope": "대표 정지 이미지. 실제 동영상·음향·대사 리듬은 미제작."
+    },
+    {
+      "concept_id": "C03",
+      "scene_id": "S04",
+      "image_path": "images/C03/S04.png",
+      "source_cuts": [
+        "07",
+        "08",
+        "09"
+      ],
+      "prompt": "Use case: ads-marketing. ONE NEW 16:9 cinematic photorealistic film still of the FINAL CLASSROOM SCENE in this original high-budget sci-fi absurd comedy. Input image 1 is the exact fictional Korean human A face/wardrobe/mug reference. Input image 2 is the exact alien B and C faces, skin, plum/black uniforms and B's intentional four-arm body reference. Input image 3 is the exact spacecraft classroom set, furniture, blank teaching screen, scanner parked aside and mug on front stand reference. Preserve these identities and designs. Do not copy a famous alien IP. No lettering, numbers, logos, captions, recognizable software or watermarks.\nSTORY MOMENT: Commander B is now an overwhelmed, desperately eager student whose OWN FOUR ARMS are working against each other. NOT all arms raised. Compose him prominently center-right at a simple gunmetal student desk, front three-quarter view with ONE TORSO and ALL FOUR distinct arm attachments visible above desk level. Exactly FOUR ARMS: UPPER LEFT arm is trying to raise its hand to ask a question, elbow bent, forearm diagonally upward; UPPER RIGHT arm crosses over and visibly GRIPS THAT RAISED LEFT WRIST, PULLING IT BACK DOWN. The left hand is still partly raised while the right hand stops it: this physical wrist-grab must be immediately readable, not a high-five or hands fused together. LOWER LEFT arm holds an open plain notebook flat on his desk; LOWER RIGHT hand frantically WRITES with a single pen on it. These lower arms emerge from separate lower ribcage sleeves, not from the upper arms. Keep all four limb paths distinct with clear shoulders/elbows/wrists. His same expressive alien face is flustered and pleading, mouth open, eyebrows raised, glancing between his blocked questioning hand and notes. He has lost all military authority and cannot keep up. Four-digit alien hands are intentional, not human hand anatomy; prioritize the clear four-arm action.\nAlien C, same pale-gray head and black uniform, sits at a SECOND desk at far RIGHT/rear, only TWO arms, calmly writing notes with one hand while other holds the notebook. Human A stands LEFT/front beside large BRIGHT PALE BLANK teaching screen, watching patiently with ordinary understated expression, beige shirt, charcoal trousers. Same WHITE MUG rests on the small front stand, not duplicated or in his hand. A is smaller in frame but recognizable; the comic focus is B's self-defeating arm collision. Preserve ample blank upper-left/central teaching screen area for the later event-title overlay, no text now. Same metallic ribbed spaceship architecture and windows, parked circular scanner at side, warm teaching light mixed with cold blue accents. Two student desks, three characters total, cinematic texture and theatrical scale; NOT a clean office stock photograph. No other hands/limbs, no crowd, no collage. The upper wrist-grab and lower writing must be visibly separate simultaneous actions.",
+      "references": [
+        "/home/wooseok/wsy/samsung_related/slide/AI실행결과발표대회_디자인3종/storyboards/2026-10-15_absurd-v2/images/C03/S01.png",
+        "/home/wooseok/wsy/samsung_related/slide/AI실행결과발표대회_디자인3종/storyboards/2026-10-15_absurd-v2/images/C03/S02.png",
+        "/home/wooseok/wsy/samsung_related/slide/AI실행결과발표대회_디자인3종/storyboards/2026-10-15_absurd-v2/images/C03/S03.png"
+      ],
+      "motion": "질문 팔 상승→다른 팔의 제지→남은 두 팔의 급한 필기를 순차로 보여준다. B가 아직 못 적었다고 당황, A는 기다린다. 마지막 빈 화면에 행사명 6초. 수업 시작 때 좌석과 앞 화면을 먼저 보여준다. A가 설명하다 B의 책상 곁으로 와 기다리는 순간에 측면·정면 구도로 전환한다. 교실의 스캐너는 빛과 작동음을 꺼 비활성으로 둔다.",
+      "review_status": "passed_by_A_B_C",
+      "generation_status": "generated",
+      "generated_source": "/home/wooseok/.codex/generated_images/01a13a8a-7471-7482-97d0-63ad6548ddba/exec-a29bd2cb-c8fd-4e3b-bebd-0a3ea97d3ed4.png",
+      "representative_moment": "Upper-arm wrist-block plus lower-arm writing representative pose, following sequential question→restraint→writing action. Title to be added in later editing.",
+      "artist_check": "Opened saved S04.png. B's upper hand is raised and other upper hand grips that wrist; lower two arms hold notebook and write. Four distinct limb paths on one body, no all-four-hands-raised gag. C writes calmly, A waits; white mug on stand and generous blank title screen.",
+      "pixel_dimensions": [
+        1672,
+        941
+      ],
+      "sha256": "fcee5c1f1f248945570bca1f70e9fab329c42e8f069ee16cbfe6f65514e702f7",
+      "tool_mode": "built-in image_gen",
+      "review_scope": "대표 정지 이미지. 실제 동영상·음향·대사 리듬은 미제작."
+    },
+    {
+      "concept_id": "C04",
+      "scene_id": "S01",
+      "image_path": "images/C04/S01.png",
+      "source_cuts": [
+        "01"
+      ],
+      "prompt": "Use case: ads-marketing. One standalone landscape16:9 storyboard keyframe for an INTENTIONALLY ULTRA-LOW-BUDGET absurd live-action office comedy. Photograph real-looking fictional Korean ADULT actors, NOT cartoons, robots rendered as real machines, animation, polished advertising or elegant cinema. Cheap flat fluorescent light, slightly unflattering consumer-camera wide lens, ordinary lived-in office. Make the craft visibly handmade: crudely cut cardboard or cloth, obvious tape, imperfect costumes, exaggerated facial acting and physical comedy. Where compositing is specified, deliberately mismatched scale/lighting and thin uneven GREEN SCREEN FRINGES are the joke; preserve those artifacts instead of polishing them away. This is deliberate amateur video design, not random AI damage: coherent human faces, normal anatomy, sensible hands, distinct bodies, intact furniture. Single frame, no collage or panels. NO written text, captions, lettering, brands, logos, numbers or watermarks. Blank screens/walls reserved for later edit. Render ONLY the characters explicitly active in this scene; do not add future cast.\n\nC04 fixed cast: employee is a fictional Korean woman around34 with short neat black pixie hair, pale-gray plain button-down shirt, black trousers, ordinary white mug; expressive irritation and disbelief, not a frozen deadpan face. Robot A is a fictional Korean man around32, round face, short straight black hair, face openly visible in a crude corrugated-cardboard head frame. He wears a brown cardboard torso box patched with wrinkled silver duct tape, a crooked RED paper antenna, and two comically SHORT artificial cardboard pincer arms attached at upper chest; his normal real arms stay inside the costume. Black normal human trousers and sneakers visible below. Absolutely no anatomical short-arm deformity: the short arms are clearly props. All dials are blank paper shapes with NO lettering. He acts like an overconfident loud street salesman.\n\nNo source image yet: establish this cast and design.\n\nACTIVE CAST ONLY employee plus Robot A. Medium close wide-lens office-desk view. Employee raises ordinary white coffee mug near face and stares at it with irritated astonishment. A WHOLE REAL-LIFE ACTOR in Robot A costume has been badly scaled down and crudely green-screened onto the MUG RIM, around20cm tall in scene, with face still readable. He spreads his normal legs to balance, waves his tiny cardboard pincer arms toward employee and yells with an absurd open mouth and raised eyebrows. Show uneven green fringe and mismatched source light so he looks like an amateur chroma-key insert, NOT a beautifully realistic toy or miniature robot. Mug, fingers, face and office anatomy remain normal. Laptop and paper clutter may be blurred behind, no words. No Robots B/C in this scene.",
+      "references": [],
+      "motion": "컵 속 축소 로봇이 폴짝 튀어 테두리에서 춤과 삿대질. 직원이 놀라 컵을 살짝 기울이자 로봇이 허둥지둥 균형을 잡는다.",
+      "review_status": "passed_by_A_B_C",
+      "generation_status": "generated",
+      "representative_moment": "평범한 사무실 책상 앞, 가상의 한국인 성인 직원이 들고 있는 흰 머그잔의 테두리 위에 골판지 로봇 A 배우를 작게 잘라붙인 듯 합성한다. 로봇은 양다리를 벌리고 한 팔로 얼굴을 가리키며 과하게 소리치는 표정, 직원은 컵을 눈높이로 들어 황당하게 본다. 얼굴·손은 정상이고 합성 크기·테두리만 일부러 조악. 16:9, 자막·로고 없음.",
+      "generated_source": "/home/wooseok/.codex/generated_images/01a13a98-cb83-76a0-9d9b-7895387c47f5/exec-7f143f17-7e82-4f16-98f0-dd6e8fe95274.png",
+      "tool_mode": "built-in image_gen",
+      "artist_check": "Viewed: intentional handmade props, exaggerated expressions and green chroma fringe preserved; coherent anatomy.",
+      "representative_is_video_start": false,
+      "keyframe_timing_note": "컵 테두리에 이미 올라선 대표 순간. 시작 동작은 컵 속에서 올라오기.",
+      "pixel_dimensions": [
+        1672,
+        941
+      ],
+      "sha256": "c3c84ed20d6ae2701e06054173d008b71d3556981c8e17fbdf59fb8a30fbd0e2",
+      "review_scope": "대표 정지 이미지. 실제 동영상·음향·대사 리듬은 미제작."
+    },
+    {
+      "concept_id": "C04",
+      "scene_id": "S02",
+      "image_path": "images/C04/S02.png",
+      "source_cuts": [
+        "02"
+      ],
+      "prompt": "Use case: ads-marketing. One standalone landscape16:9 storyboard keyframe for an INTENTIONALLY ULTRA-LOW-BUDGET absurd live-action office comedy. Photograph real-looking fictional Korean ADULT actors, NOT cartoons, robots rendered as real machines, animation, polished advertising or elegant cinema. Cheap flat fluorescent light, slightly unflattering consumer-camera wide lens, ordinary lived-in office. Make the craft visibly handmade: crudely cut cardboard or cloth, obvious tape, imperfect costumes, exaggerated facial acting and physical comedy. Where compositing is specified, deliberately mismatched scale/lighting and thin uneven GREEN SCREEN FRINGES are the joke; preserve those artifacts instead of polishing them away. This is deliberate amateur video design, not random AI damage: coherent human faces, normal anatomy, sensible hands, distinct bodies, intact furniture. Single frame, no collage or panels. NO written text, captions, lettering, brands, logos, numbers or watermarks. Blank screens/walls reserved for later edit. Render ONLY the characters explicitly active in this scene; do not add future cast.\n\nC04 fixed cast: employee is a fictional Korean woman around34 with short neat black pixie hair, pale-gray plain button-down shirt, black trousers, ordinary white mug; expressive irritation and disbelief, not a frozen deadpan face. Robot A is a fictional Korean man around32, round face, short straight black hair, face openly visible in a crude corrugated-cardboard head frame. He wears a brown cardboard torso box patched with wrinkled silver duct tape, a crooked RED paper antenna, and two comically SHORT artificial cardboard pincer arms attached at upper chest; his normal real arms stay inside the costume. Black normal human trousers and sneakers visible below. Absolutely no anatomical short-arm deformity: the short arms are clearly props. All dials are blank paper shapes with NO lettering. He acts like an overconfident loud street salesman. Robot B is a fictional Korean woman around36 with straight bob and bangs, a crude matching cardboard torso/head frame, crooked BLUE antenna, normal-length rough cardboard sleeves with real natural hands emerging. Robot C is a fictional Korean man around42, slightly curly short black hair, crude box torso and head frame, crooked YELLOW antenna and exceptionally WIDE light-cardboard shoulder wings. All three have individual expressive real faces; no sealed robot masks. Exactly these three robot actors and the employee, four people total. Distinguish antenna colors and arm/shoulder designs throughout.\n\nUse supplied ACTUAL generated reference images to preserve actors, cardboard designs, RED/BLUE/YELLOW antennas and office. Create NEW scene and action. Do not polish away the intentional amateur cutout effects.\n\nACTIVE CAST employee and original Robots A, B, C. Same fictional Korean actors and cardboard suits. Ordinary old office PHOTOCOPIER with raised lid. Original Robot A is now normal adult size and leans his face awkwardly onto the copier glass, squashing cheek comically but face remains anatomically natural; his short cardboard pincer props rest against copier edge. Original Robot B presses ONE plain unlettered copy button with normal finger, looking overexcited. Original broad-shouldered C waits eagerly behind. Employee with gray shirt and white mug escapes past the side. A scanning glow is visible on glass. From the PAPER OUTPUT TRAY, one obviously FLAT two-dimensional photographic CUTOUT COPY of Robot A pops out, waist-up full costume silhouette like badly pasted video, red antenna and same face, with visible thin bright-green chroma-key fringe and mismatched scale. The copy is an intentional flat pixelated duplicate, NOT a new physical actor or extra human emerging from machine. Show copier glass action, button and output in one wide shot so cause and effect are unmistakable. No lettering on machine, no sheets covered in text. One newly emitted clone only.",
+      "references": [
+        "images/C04/S01.png"
+      ],
+      "motion": "직원이 피함→A 얼굴을 유리에 댐→B 버튼→스캔 빛→첫 복제가 튀어나옴. 복사 버튼과 결과의 인과를 보여준다. 1차 인쇄물이 떨어진 뒤 평면 복제가 몸을 펴고 실제로 움직이는 전환을 반드시 보여준다. 인쇄물 정지만 보여주고 군중으로 건너뛰지 않는다.",
+      "review_status": "passed_by_A_B_C",
+      "generation_status": "generated",
+      "representative_moment": "생활감 있는 회사 복도의 복사기 앞. 골판지 로봇 A가 유리판에 얼굴을 대고 B가 버튼을 누른다. 배출구 옆에서 A와 같은 평면 잘라붙이기 복제 하나가 툭 튀어나온 순간. 직원은 춤 동선을 빠져나가고 있다. 복제의 해상도·초록 테두리·크기 불일치는 의도적인 저예산 효과. 손과 얼굴은 읽히고 별도 문자는 없다. 16:9.",
+      "generated_source": "/home/wooseok/.codex/generated_images/01a13a98-cb83-76a0-9d9b-7895387c47f5/exec-116dbc1b-4327-4d1f-aa39-839f2f98bcf0.png",
+      "tool_mode": "built-in image_gen",
+      "artist_check": "Viewed: copier-button-to-flat-clone cause/effect and fan costume reveal readable; intentional chroma fringe kept.",
+      "representative_is_video_start": false,
+      "keyframe_timing_note": "첫 복제가 배출되는 대표 순간. 시작 동작은 A 얼굴을 유리에 대고 B가 버튼 누르기.",
+      "pixel_dimensions": [
+        1672,
+        941
+      ],
+      "sha256": "d3ea57a81298ecffedc478427365bf792494471c0747458ec0fe969434a815e8",
+      "review_scope": "대표 정지 이미지. 실제 동영상·음향·대사 리듬은 미제작."
+    },
+    {
+      "concept_id": "C04",
+      "scene_id": "S03",
+      "image_path": "images/C04/S03.png",
+      "source_cuts": [
+        "03"
+      ],
+      "prompt": "Use case: ads-marketing. One standalone landscape16:9 storyboard keyframe for an INTENTIONALLY ULTRA-LOW-BUDGET absurd live-action office comedy. Photograph real-looking fictional Korean ADULT actors, NOT cartoons, robots rendered as real machines, animation, polished advertising or elegant cinema. Cheap flat fluorescent light, slightly unflattering consumer-camera wide lens, ordinary lived-in office. Make the craft visibly handmade: crudely cut cardboard or cloth, obvious tape, imperfect costumes, exaggerated facial acting and physical comedy. Where compositing is specified, deliberately mismatched scale/lighting and thin uneven GREEN SCREEN FRINGES are the joke; preserve those artifacts instead of polishing them away. This is deliberate amateur video design, not random AI damage: coherent human faces, normal anatomy, sensible hands, distinct bodies, intact furniture. Single frame, no collage or panels. NO written text, captions, lettering, brands, logos, numbers or watermarks. Blank screens/walls reserved for later edit. Render ONLY the characters explicitly active in this scene; do not add future cast.\n\nC04 fixed cast: employee is a fictional Korean woman around34 with short neat black pixie hair, pale-gray plain button-down shirt, black trousers, ordinary white mug; expressive irritation and disbelief, not a frozen deadpan face. Robot A is a fictional Korean man around32, round face, short straight black hair, face openly visible in a crude corrugated-cardboard head frame. He wears a brown cardboard torso box patched with wrinkled silver duct tape, a crooked RED paper antenna, and two comically SHORT artificial cardboard pincer arms attached at upper chest; his normal real arms stay inside the costume. Black normal human trousers and sneakers visible below. Absolutely no anatomical short-arm deformity: the short arms are clearly props. All dials are blank paper shapes with NO lettering. He acts like an overconfident loud street salesman. Robot B is a fictional Korean woman around36 with straight bob and bangs, a crude matching cardboard torso/head frame, crooked BLUE antenna, normal-length rough cardboard sleeves with real natural hands emerging. Robot C is a fictional Korean man around42, slightly curly short black hair, crude box torso and head frame, crooked YELLOW antenna and exceptionally WIDE light-cardboard shoulder wings. All three have individual expressive real faces; no sealed robot masks. Exactly these three robot actors and the employee, four people total. Distinguish antenna colors and arm/shoulder designs throughout.\n\nUse supplied ACTUAL generated reference images to preserve actors, cardboard designs, RED/BLUE/YELLOW antennas and office. Create NEW scene and action. Do not polish away the intentional amateur cutout effects.\n\nACTIVE CAST same employee and original Robots A, B, C, plus THREE clearly FLAT pasted-photo duplicates of original Robot A. Wide shot of OPEN office elevator at same corridor. Original A(red antenna), B(blue antenna) and C(yellow antenna, very wide light-cardboard shoulder wings) fill the doorway, plus two flat A copies jammed behind at deliberately inconsistent sizes. C shoulder PROP wings lightly catch doorway sides while his human body remains free, elevator door held fully OPEN. C chin dramatically high, heroic stupidly proud face. A third thin flat copy OUTSIDE elevator attempts to slip sideways through remaining gap. Employee with gray shirt and same mug stands OUTSIDE, turning away in exasperation. Actual originals are coherent dimensional human actors, paper/video clones are obvious green-fringed, lower-resolution 2D inserts with exactly A face/costume. No physical body fusion or extra fingers. Cheap cardboard, floppy tape, bold expressions, crowded ridiculous composition, not elegant corporate ad.",
+      "references": [
+        "images/C04/S01.png",
+        "images/C04/S02.png"
+      ],
+      "motion": "엘리베이터 열림→가득 찬 원형과 복제들 공개→마지막 복제 비집기와 C 어깨 걸림→직원 방향 전환. 실제 몸이 아니라 골판지 소품이 걸린다.",
+      "review_status": "passed_by_A_B_C",
+      "generation_status": "generated",
+      "representative_moment": "같은 복도와 연결된 열린 엘리베이터. 원형 A·B·C 골판지 로봇과 A의 평면 복제들이 어색하게 꽉 차 있다. C의 큰 어깨는 문틀에 걸리고 얼굴만 영웅적. 문 밖 마지막 평면 복제 하나가 옆으로 비집고 들어가려 한다. 연회색 셔츠 직원은 문 밖에서 돌아서려 한다. 의도적인 조악한 복제 합성과 싸구려 소품, 16:9.",
+      "generated_source": "/home/wooseok/.codex/generated_images/01a13a98-cb83-76a0-9d9b-7895387c47f5/exec-582c22c7-80be-4458-94c0-95aa2090831b.png",
+      "tool_mode": "built-in image_gen",
+      "artist_check": "Viewed: originals A/B/C and three flat A clones distinct, oversized C shoulders and last clone at doorway readable.",
+      "representative_is_video_start": false,
+      "keyframe_timing_note": "문이 열린 뒤 포화 상태와 마지막 복제가 비집는 대표 순간.",
+      "pixel_dimensions": [
+        1672,
+        941
+      ],
+      "sha256": "3f4d0674848b8d5cd9ebcfc2c5b7f8c997be6007f4fc0100615bfd9ed2ff30b7",
+      "review_scope": "대표 정지 이미지. 실제 동영상·음향·대사 리듬은 미제작."
+    },
+    {
+      "concept_id": "C04",
+      "scene_id": "S04",
+      "image_path": "images/C04/S04.png",
+      "source_cuts": [
+        "04",
+        "05",
+        "06"
+      ],
+      "prompt": "Use case: ads-marketing. One standalone landscape16:9 storyboard keyframe for an INTENTIONALLY ULTRA-LOW-BUDGET absurd live-action office comedy. Photograph real-looking fictional Korean ADULT actors, NOT cartoons, robots rendered as real machines, animation, polished advertising or elegant cinema. Cheap flat fluorescent light, slightly unflattering consumer-camera wide lens, ordinary lived-in office. Make the craft visibly handmade: crudely cut cardboard or cloth, obvious tape, imperfect costumes, exaggerated facial acting and physical comedy. Where compositing is specified, deliberately mismatched scale/lighting and thin uneven GREEN SCREEN FRINGES are the joke; preserve those artifacts instead of polishing them away. This is deliberate amateur video design, not random AI damage: coherent human faces, normal anatomy, sensible hands, distinct bodies, intact furniture. Single frame, no collage or panels. NO written text, captions, lettering, brands, logos, numbers or watermarks. Blank screens/walls reserved for later edit. Render ONLY the characters explicitly active in this scene; do not add future cast.\n\nC04 fixed cast: employee is a fictional Korean woman around34 with short neat black pixie hair, pale-gray plain button-down shirt, black trousers, ordinary white mug; expressive irritation and disbelief, not a frozen deadpan face. Robot A is a fictional Korean man around32, round face, short straight black hair, face openly visible in a crude corrugated-cardboard head frame. He wears a brown cardboard torso box patched with wrinkled silver duct tape, a crooked RED paper antenna, and two comically SHORT artificial cardboard pincer arms attached at upper chest; his normal real arms stay inside the costume. Black normal human trousers and sneakers visible below. Absolutely no anatomical short-arm deformity: the short arms are clearly props. All dials are blank paper shapes with NO lettering. He acts like an overconfident loud street salesman. Robot B is a fictional Korean woman around36 with straight bob and bangs, a crude matching cardboard torso/head frame, crooked BLUE antenna, normal-length rough cardboard sleeves with real natural hands emerging. Robot C is a fictional Korean man around42, slightly curly short black hair, crude box torso and head frame, crooked YELLOW antenna and exceptionally WIDE light-cardboard shoulder wings. All three have individual expressive real faces; no sealed robot masks. Exactly these three robot actors and the employee, four people total. Distinguish antenna colors and arm/shoulder designs throughout.\n\nUse supplied actual generated image(s) as cast/costume/location references. Preserve identity; change action and framing to the NEW scene below. Keep deliberate B-grade visual defects.\n\nACTIVE CAST same four adults. SAME lived-in office desk as S01. Pale-gray-shirt employee sits at desk and calmly-but-bemusedly turns open plain silver laptop toward three cardboard robots; visible screen completely blank for later case-heading compositing, no fake numbers/data. ALL THREE robots react with extremely oversized shock: bulging ordinary eyes and open mouths, flailing PROP arms, bodies leaning backward at staggered comic angles just BEFORE falling onto cheap silver floor mats. A at front initiates backwards fall, B and broad-shouldered C one beat behind. Keep their box costumes/RED BLUE YELLOW antennas exactly consistent with S02, human legs coherent. One cardboard lid slightly flaps open. This is a clumsy physical-comedy stunt freeze, NOT tidy posed promotional portrait, NOT injury, NOT horror. The image is the representative shock beat; later shots include landing and jumping back up. Background must retain THREE flat green-fringed photographic Robot-A clones from copier scene, smaller behind originals, tilting/falling like paper dominoes. They are 2D duplicates, not new human actors. Do not erase the clones.",
+      "references": [
+        "images/C04/S02.png",
+        "images/C04/S03.png"
+      ],
+      "motion": "직원이 노트북을 돌려 보여줌→A가 경악해 뒤로 자빠짐→B·C가 한 박자 늦게 따라 넘어짐→갑자기 벌떡 일어나 어떻게 챈트로 직원의 소매에 가볍게 매달림. 몸개그는 과장된 점프컷으로 연결. 대표 이미지는 균형을 잃기 직전이며 실제로 매트에 넘어지는 순간까지 이어간다. 노트북은 로봇들에게 보여주는 방향이므로 관객용 실행 사례 표시는 화면 삽입 컷이나 별도 편집 자막으로 처리한다.",
+      "review_status": "passed_by_A_B_C",
+      "generation_status": "generated",
+      "representative_moment": "사무실 책상에서 연회색 셔츠 직원이 열린 은색 노트북을 로봇들에게 돌려 보여준다. 화면은 후속 편집을 위한 단순 빈 면이며 수치·그래프를 만들지 않는다. 같은 골판지 로봇 세 명은 크게 경악하여 뒤로 넘어지기 직전 서로 다른 각도로 기울고 두 팔을 휘젓는다. 바닥에는 싸구려 은색 매트, 한 로봇의 골판지 뚜껑이 살짝 열린다. 과장된 스턴트 코미디 정지 순간, 정상 인체, 16:9. 뒤쪽에는 평면 복제 몇 개가 함께 넘어지는 모습이 작게 남는다.",
+      "generated_source": "/home/wooseok/.codex/generated_images/01a13a98-cb83-76a0-9d9b-7895387c47f5/exec-7bb38cd7-4970-4ed6-afb1-59c7a06769d7.png",
+      "tool_mode": "built-in image_gen",
+      "artist_check": "Original trio and flat clones retained in exaggerated backward-shock action.",
+      "representative_is_video_start": false,
+      "keyframe_timing_note": "실제 적용을 해봤다는 말 뒤 로봇들이 넘어지기 직전의 대표 순간. 노트북 공개 동작보다 뒤.",
+      "pixel_dimensions": [
+        1672,
+        941
+      ],
+      "sha256": "548653914a90b5da2882f2c79bc65c44d5400f10e2da989025a8aa20ea6e4011",
+      "review_scope": "대표 정지 이미지. 실제 동영상·음향·대사 리듬은 미제작."
+    },
+    {
+      "concept_id": "C04",
+      "scene_id": "S05",
+      "image_path": "images/C04/S05.png",
+      "source_cuts": [
+        "07",
+        "08",
+        "09"
+      ],
+      "prompt": "Use case: ads-marketing. One standalone landscape16:9 storyboard keyframe for an INTENTIONALLY ULTRA-LOW-BUDGET absurd live-action office comedy. Photograph real-looking fictional Korean ADULT actors, NOT cartoons, robots rendered as real machines, animation, polished advertising or elegant cinema. Cheap flat fluorescent light, slightly unflattering consumer-camera wide lens, ordinary lived-in office. Make the craft visibly handmade: crudely cut cardboard or cloth, obvious tape, imperfect costumes, exaggerated facial acting and physical comedy. Where compositing is specified, deliberately mismatched scale/lighting and thin uneven GREEN SCREEN FRINGES are the joke; preserve those artifacts instead of polishing them away. This is deliberate amateur video design, not random AI damage: coherent human faces, normal anatomy, sensible hands, distinct bodies, intact furniture. Single frame, no collage or panels. NO written text, captions, lettering, brands, logos, numbers or watermarks. Blank screens/walls reserved for later edit. Render ONLY the characters explicitly active in this scene; do not add future cast.\n\nC04 fixed cast: employee is a fictional Korean woman around34 with short neat black pixie hair, pale-gray plain button-down shirt, black trousers, ordinary white mug; expressive irritation and disbelief, not a frozen deadpan face. Robot A is a fictional Korean man around32, round face, short straight black hair, face openly visible in a crude corrugated-cardboard head frame. He wears a brown cardboard torso box patched with wrinkled silver duct tape, a crooked RED paper antenna, and two comically SHORT artificial cardboard pincer arms attached at upper chest; his normal real arms stay inside the costume. Black normal human trousers and sneakers visible below. Absolutely no anatomical short-arm deformity: the short arms are clearly props. All dials are blank paper shapes with NO lettering. He acts like an overconfident loud street salesman. Robot B is a fictional Korean woman around36 with straight bob and bangs, a crude matching cardboard torso/head frame, crooked BLUE antenna, normal-length rough cardboard sleeves with real natural hands emerging. Robot C is a fictional Korean man around42, slightly curly short black hair, crude box torso and head frame, crooked YELLOW antenna and exceptionally WIDE light-cardboard shoulder wings. All three have individual expressive real faces; no sealed robot masks. Exactly these three robot actors and the employee, four people total. Distinguish antenna colors and arm/shoulder designs throughout.\n\nUse supplied actual generated image(s) as cast/costume/location references. Preserve identity; change action and framing to the NEW scene below. Keep deliberate B-grade visual defects.\n\nACTIVE CAST same four adults. Small cheap company presentation corner: plastic chairs, plain screen, bare fluorescent ceiling, no ceremony décor. Employee stands behind with basic microphone beside blank screen. Three SAME cardboard robot adults sit in front row, imperfect costumes and RED BLUE YELLOW antennas unchanged. Robot A has a blank notebook on knees but his deliberately SHORT CARDBOARD PINCER PROPS cannot reach it; he twists entire box torso and looks furiously helpless, then leans toward Robot B as if dictating. Normal human arms remain inside A costume. Robot B uses NORMAL real hands through normal cardboard sleeves to write in own blank notebook, elbow protectively drawing it toward chest and skeptical side-eye at A. C nods absurdly seriously. All human faces/anatomy normal. Keep ample EMPTY screen for later event title. Handmade low-budget aesthetic, not polished commercial photography. Retain the THREE clearly FLAT photographic Robot-A clones seated in a small rear row in background, with their low-resolution green fringes and RED antennas. Original A/B/C remain main front row. Clones are intentional 2D inserts, not new extras. Do not erase clones between scenes.",
+      "references": [
+        "images/C04/S02.png",
+        "images/C04/S04.png"
+      ],
+      "motion": "수첩을 펼치자마자 A의 팔이 닿지 않음→몸통을 접으려다 골판지만 구겨짐→B에게 받아쓰기 요구→B는 자기 수첩 지킴. 배경 복제들은 조용히 따라 필기. 마지막 행사명 6초.",
+      "review_status": "passed_by_A_B_C",
+      "generation_status": "generated",
+      "representative_moment": "작은 사내 발표 공간. 연회색 셔츠 직원이 마이크를 들고 뒤쪽 빈 스크린 옆에 서 있고, 앞쪽 플라스틱 의자 세 개에는 같은 골판지 로봇들이 그대로 앉아 있다. 로봇 A는 무릎 위 수첩에 닿지 않는 짧은 소품 팔을 허우적거리며 입으로 받아쓰기를 시키고, 옆 B는 정상 길이 팔로 자기 수첩에 적으며 A를 옆눈으로 본다. C는 이미 고개를 크게 끄덕인다. 빈 스크린은 행사명 후속 합성 여백. 16:9 무문자. 뒷줄에는 앞 장면의 납작한 복제들이 작게 착석해 사라지지 않았음을 보인다.",
+      "generated_source": "/home/wooseok/.codex/generated_images/01a13a98-cb83-76a0-9d9b-7895387c47f5/exec-4a48fedc-c0f4-4459-bcd9-011fed956b25.png",
+      "tool_mode": "built-in image_gen",
+      "artist_check": "Short prop arms fail to reach notebook; B protects notes; flat clones persist in rear row.",
+      "representative_is_video_start": false,
+      "keyframe_timing_note": "필기를 못 하는 A와 B의 반응 대표 순간. 앞줄 착석 후 수첩 펼치는 동작보다 뒤.",
+      "pixel_dimensions": [
+        1672,
+        941
+      ],
+      "sha256": "61e6da040957afc84542a4e5fc8dc965ee8b52705585c6360b032a90d9eb63ca",
+      "review_scope": "대표 정지 이미지. 실제 동영상·음향·대사 리듬은 미제작."
+    },
+    {
+      "concept_id": "C05",
+      "scene_id": "S01",
+      "image_path": "images/C05/S01-v2.png",
+      "source_cuts": [
+        "01",
+        "02"
+      ],
+      "prompt": "Use case: precise-object-edit. Reference1 is the EDIT TARGET, keep its exact composition, camera, faces, poses, room, fan-off state, exaggerated sales acting and deliberately rough GREEN CHROMA FRINGES. Reference2 is ONLY a wardrobe-continuity reference for ghost C, the right-side YELLOW-HAIR-CLIP performer. Make ONE LOCAL correction to reference1: extend ghost C's loose WHITE SHEET downward to hide ALL of his black trousers and black shoes completely, forming a long loose floating sheet that covers legs and feet. His full fluorescent tracksuit from reference2 is beneath the sheet but must remain entirely HIDDEN in this first scene. It will be revealed later. Keep C face, wig, YELLOW clip, raised normal hands and exact position unchanged. Do not change ghost A or B, their exposed black pants/shoes, employee, fan or office. Preserve the amateur pasted cutout edges and scale mismatches, no beautification. Single landscape16:9 image; no text or logos.",
+      "references": [
+        "images/C05/S01.png",
+        "images/C05/S02.png"
+      ],
+      "motion": "A 얼굴이 천장에 뚝 나타남→직원이 관심 보임→B가 서랍 위, C가 복사기 옆에 각기 다른 크기로 툭 추가. 각자 광고 세일즈 손짓.",
+      "review_status": "passed_by_A_B_C",
+      "generation_status": "generated",
+      "representative_moment": "조금 생활감 있는 사무실 책상. 가상의 한국인 성인 직원은 베이지 니트·검은 바지 차림으로 앉아 위를 본다. 천장 가까이 귀신 A의 큰 얼굴과 흰 천 상체가 조악하게 잘라 붙여져 과장된 판매 표정. 귀신 B는 열린 서랍 위에 작은 몸으로, 귀신 C는 복사기 옆에 비뚤어진 높이로 떠 있다. 세 귀신의 얼굴·몸·손은 정상이고 크기·경계·그림자 불일치만 의도적. 16:9 자막·로고 없음.",
+      "generated_source": "/home/wooseok/.codex/generated_images/01a13a98-cb83-76a0-9d9b-7895387c47f5/exec-d5aacfc8-e296-487b-9b6d-349e8b56d598.png",
+      "tool_mode": "built-in image_gen",
+      "artist_check": "Corrected C first-scene white cape fully conceals lower clothes, consistent with later tracksuit reveal.",
+      "revision_history": [
+        {
+          "image_path": "images/C05/S01.png",
+          "prompt": "Use case: ads-marketing. One standalone landscape16:9 storyboard keyframe for an INTENTIONALLY ULTRA-LOW-BUDGET absurd live-action office comedy. Photograph real-looking fictional Korean ADULT actors, NOT cartoons, robots rendered as real machines, animation, polished advertising or elegant cinema. Cheap flat fluorescent light, slightly unflattering consumer-camera wide lens, ordinary lived-in office. Make the craft visibly handmade: crudely cut cardboard or cloth, obvious tape, imperfect costumes, exaggerated facial acting and physical comedy. Where compositing is specified, deliberately mismatched scale/lighting and thin uneven GREEN SCREEN FRINGES are the joke; preserve those artifacts instead of polishing them away. This is deliberate amateur video design, not random AI damage: coherent human faces, normal anatomy, sensible hands, distinct bodies, intact furniture. Single frame, no collage or panels. NO written text, captions, lettering, brands, logos, numbers or watermarks. Blank screens/walls reserved for later edit. Render ONLY the characters explicitly active in this scene; do not add future cast.\n\nC05 fixed cast: employee is a fictional Korean man around35, short neat black hair, beige knit sweater, black trousers. Exactly THREE bogus ghost performers in cheap white bed-sheet capes, black trousers and inexpensive black wigs: A is a Korean man around45 with broad expressive face, long messy wig held by RED plastic hair clip; B is a Korean woman around34 with short blunt black wig and BLUE clip; C is a Korean man around30 with narrow face, obviously crooked shoulder-length black wig held by YELLOW clip. They are living adult performers acting an exaggerated infomercial, not dead people, gore, scary monsters, religious figures or demonic beings. Normal eyes, mouths, bodies and fingers. A brags theatrically, B competes with sales gestures, C is shameless and nervous when challenged. Office geography: wood-laminate desk left, open drawer, ordinary copier at rear, large completely BLANK pale wall to right, cheap gray pedestal fan in foreground. Preserve actors, clips, capes, office and fan. Composited ghosts have knowingly crude green-fringed cutout edges, mismatched scale and missing/inconsistent shadows; real photographed employee and office remain intact.\n\nNo source image yet: establish this cast and design.\n\nACTIVE CAST same employee and three specified ghosts. Wide desk shot: beige-sweater employee seated below looking upward with alert curiosity. A appears near ceiling as an oversized floating real-actor face and sheet-covered torso cut out BADLY at roughly150percent normal size, loudly selling something with dramatic outstretched arms. B is poorly composited at about65percent normal adult scale hovering above open desk drawer. C is normal adult scale hovering off-kilter near copier, interrupting with broad sales gesture. They are not three separate panels: all crudely layered into ONE ordinary office photograph. Thin uneven GREEN fringe, different lighting and knowingly absent contact shadows must be obvious. Entire each actor remains coherent. Pedestal fan visible but switched off. No horror, translucency, elegant supernatural mist, writing or extra cast.",
+          "references": [],
+          "generated_source": "/home/wooseok/.codex/generated_images/01a13a98-cb83-76a0-9d9b-7895387c47f5/exec-d681e5b4-51f2-484a-94b6-16ccd32d2c22.png"
+        }
+      ],
+      "representative_is_video_start": false,
+      "keyframe_timing_note": "세 귀신이 모두 등장한 대표 순간. 첫 컷에는 A만 먼저 등장.",
+      "pixel_dimensions": [
+        1672,
+        941
+      ],
+      "sha256": "4ef9b423fa306d9e87c9325a80a70a37731050dad7a659ffe6bf0ed5d982d29b",
+      "review_scope": "대표 정지 이미지. 실제 동영상·음향·대사 리듬은 미제작."
+    },
+    {
+      "concept_id": "C05",
+      "scene_id": "S02",
+      "image_path": "images/C05/S02.png",
+      "source_cuts": [
+        "03",
+        "04"
+      ],
+      "prompt": "Use case: ads-marketing. One standalone landscape16:9 storyboard keyframe for an INTENTIONALLY ULTRA-LOW-BUDGET absurd live-action office comedy. Photograph real-looking fictional Korean ADULT actors, NOT cartoons, robots rendered as real machines, animation, polished advertising or elegant cinema. Cheap flat fluorescent light, slightly unflattering consumer-camera wide lens, ordinary lived-in office. Make the craft visibly handmade: crudely cut cardboard or cloth, obvious tape, imperfect costumes, exaggerated facial acting and physical comedy. Where compositing is specified, deliberately mismatched scale/lighting and thin uneven GREEN SCREEN FRINGES are the joke; preserve those artifacts instead of polishing them away. This is deliberate amateur video design, not random AI damage: coherent human faces, normal anatomy, sensible hands, distinct bodies, intact furniture. Single frame, no collage or panels. NO written text, captions, lettering, brands, logos, numbers or watermarks. Blank screens/walls reserved for later edit. Render ONLY the characters explicitly active in this scene; do not add future cast.\n\nC05 fixed cast: employee is a fictional Korean man around35, short neat black hair, beige knit sweater, black trousers. Exactly THREE bogus ghost performers in cheap white bed-sheet capes, black trousers and inexpensive black wigs: A is a Korean man around45 with broad expressive face, long messy wig held by RED plastic hair clip; B is a Korean woman around34 with short blunt black wig and BLUE clip; C is a Korean man around30 with narrow face, obviously crooked shoulder-length black wig held by YELLOW clip. They are living adult performers acting an exaggerated infomercial, not dead people, gore, scary monsters, religious figures or demonic beings. Normal eyes, mouths, bodies and fingers. A brags theatrically, B competes with sales gestures, C is shameless and nervous when challenged. Office geography: wood-laminate desk left, open drawer, ordinary copier at rear, large completely BLANK pale wall to right, cheap gray pedestal fan in foreground. Preserve actors, clips, capes, office and fan. Composited ghosts have knowingly crude green-fringed cutout edges, mismatched scale and missing/inconsistent shadows; real photographed employee and office remain intact.\n\nUse supplied actual generated image(s) as cast/costume/location references. Preserve identity; change action and framing to the NEW scene below. Keep deliberate B-grade visual defects.\n\nACTIVE CAST exact SAME four actors and SAME office as S01. Employee holds SAME gray pedestal fan aimed at three ghosts. A and B enjoy the wind in ridiculous infomercial-model poses, long wig/white cape dramatically fluttering, RED and BLUE clips fixed. Main comic action: Ghost C (SAME crooked black wig, YELLOW clip, SAME face) has his loose white sheet cape BLOWN AWAY, exposing a COMPLETE NEON-LIME AND HOT-PINK TRACKSUIT with full zipped top, sleeves and long trousers. C remains entirely clothed, no nudity or underwear. His theatrical confidence collapses into exaggerated panic; he reaches with two normal hands to catch the runaway sheet floating just beside him, away from fan blades and faces. Body below cape should be normal real adult actor in inexpensive fluorescent gym clothes. Preserve same identity and deliberate amateur150/65/100percent mismatched ghost scales from S01. Green fringe, clumsy pasted compositing and absent shadows obvious, not beautiful supernatural mist. The joke is bogus ghost costume blown off to reveal cheap sportswear. Fan remains physical ordinary prop. Four actual people only.",
+      "references": [
+        "images/C05/S01.png"
+      ],
+      "motion": "처음엔 바람을 광고 효과로 즐김→자리 다툼→C 흰 천 이탈, 운동복 드러남→급히 다시 덮음→즉시 영업 말투로 복귀. 선풍기는 다음 씬에서 끈다.",
+      "review_status": "passed_by_A_B_C",
+      "generation_status": "generated",
+      "representative_moment": "같은 사무실에서 직원이 회색 선풍기를 돌린다. 귀신 A와 B는 바람에 가발과 흰 천을 펼치며 과장된 광고 모델 포즈. 귀신 C는 흰 천이 바람에 벗겨져 온전히 입은 형광색 운동복이 드러난 채, 당황해 날아간 흰 천을 급히 잡으려 두 손을 뻗는다. 얼굴과 가발·집게핀은 같은 C. 부유 합성의 초록 테두리와 잘라붙이기 흔적을 일부러 남긴 B급 단일 프레임. 16:9, 글자 없음.",
+      "generated_source": "/home/wooseok/.codex/generated_images/01a13a98-cb83-76a0-9d9b-7895387c47f5/exec-abe726c3-16dd-463b-a1c6-ce7ed2660756.png",
+      "tool_mode": "built-in image_gen",
+      "artist_check": "Viewed: copier-button-to-flat-clone cause/effect and fan costume reveal readable; intentional chroma fringe kept.",
+      "representative_is_video_start": false,
+      "keyframe_timing_note": "C 흰천이 날아가 운동복이 드러난 대표 순간. 바람을 즐기는 첫 동작보다 뒤.",
+      "pixel_dimensions": [
+        1672,
+        941
+      ],
+      "sha256": "9d6725c96a90c5e536774e5417d8542a4c6aa0966ecb7e2e2fa15dae3e20bb9f",
+      "review_scope": "대표 정지 이미지. 실제 동영상·음향·대사 리듬은 미제작."
+    },
+    {
+      "concept_id": "C05",
+      "scene_id": "S03",
+      "image_path": "images/C05/S03.png",
+      "source_cuts": [
+        "05",
+        "06",
+        "07"
+      ],
+      "prompt": "Use case: ads-marketing. One standalone landscape16:9 storyboard keyframe for an INTENTIONALLY ULTRA-LOW-BUDGET absurd live-action office comedy. Photograph real-looking fictional Korean ADULT actors, NOT cartoons, robots rendered as real machines, animation, polished advertising or elegant cinema. Cheap flat fluorescent light, slightly unflattering consumer-camera wide lens, ordinary lived-in office. Make the craft visibly handmade: crudely cut cardboard or cloth, obvious tape, imperfect costumes, exaggerated facial acting and physical comedy. Where compositing is specified, deliberately mismatched scale/lighting and thin uneven GREEN SCREEN FRINGES are the joke; preserve those artifacts instead of polishing them away. This is deliberate amateur video design, not random AI damage: coherent human faces, normal anatomy, sensible hands, distinct bodies, intact furniture. Single frame, no collage or panels. NO written text, captions, lettering, brands, logos, numbers or watermarks. Blank screens/walls reserved for later edit. Render ONLY the characters explicitly active in this scene; do not add future cast.\n\nC05 fixed cast: employee is a fictional Korean man around35, short neat black hair, beige knit sweater, black trousers. Exactly THREE bogus ghost performers in cheap white bed-sheet capes, black trousers and inexpensive black wigs: A is a Korean man around45 with broad expressive face, long messy wig held by RED plastic hair clip; B is a Korean woman around34 with short blunt black wig and BLUE clip; C is a Korean man around30 with narrow face, obviously crooked shoulder-length black wig held by YELLOW clip. They are living adult performers acting an exaggerated infomercial, not dead people, gore, scary monsters, religious figures or demonic beings. Normal eyes, mouths, bodies and fingers. A brags theatrically, B competes with sales gestures, C is shameless and nervous when challenged. Office geography: wood-laminate desk left, open drawer, ordinary copier at rear, large completely BLANK pale wall to right, cheap gray pedestal fan in foreground. Preserve actors, clips, capes, office and fan. Composited ghosts have knowingly crude green-fringed cutout edges, mismatched scale and missing/inconsistent shadows; real photographed employee and office remain intact.\n\nUse supplied actual generated image(s) as cast/costume/location references. Preserve identity; change action and framing to the NEW scene below. Keep deliberate B-grade visual defects.\n\nACTIVE CAST exact same four actors. Wide straight-on frame against SAME office BLANK wall; fan OFF, cloth/hair now droop. Employee at far left watches with dry disbelief. Compose one UNBROKEN POINTER CHAIN: ghost A on left visibly points one ordinary index finger toward ghost B in middle; B panics and points toward ghost C farther right; C confidently points to a COMPLETELY EMPTY stretch of wall on far right. Allow large empty wall space at end of chain, absolutely NO fourth ghost, hidden source, picture, person or writing there. A/B/C faces have escalating shifty guilty-looking salesmen expressions, not horror. Preserve white capes, wigs, RED/BLUE/YELLOW clips and intentional green-fringed low-budget floating composite. Hands should be normal and pointing directions unambiguous. The joke is nobody has a firsthand source. C has hurriedly PUT THE SAME WHITE SHEET BACK ON after S02: fluorescent lime/pink tracksuit remains underneath, mostly covered. Same crooked wig and YELLOW clip. Do not keep him cape-less in this scene.",
+      "references": [
+        "images/C05/S01-v2.png",
+        "images/C05/S02.png"
+      ],
+      "motion": "직접 해본 사람 질문→A가 B를 가리킴→B가 C를 가리킴→C가 옆의 빈 벽을 가리킴→카메라가 마지막 손가락을 따라 빈 벽까지 이동→C가 벽을 조심스럽게 두드려보나 아무도 없음. 지목을 따라간 마지막 2초는 인물이 없는 빈 벽만 잡는다. 그다음 C가 프레임에 들어와 벽을 두드린다. 단체 지목 와이드만 계속 유지하지 않는다.",
+      "review_status": "passed_by_A_B_C",
+      "generation_status": "generated",
+      "representative_moment": "같은 사무실의 텅 빈 벽 앞 와이드. 선풍기는 꺼져 있다. 직원이 화면 한쪽에서 세 귀신을 본다. A는 B를, B는 C를, C는 자기 옆의 아무것도 없는 흰 벽을 가리킨다. 얼굴은 서로 눈치를 보며 점점 다급해진다. 마지막 손가락 끝에 넓게 비어 있는 벽을 충분히 보여준다. 부유 합성 테두리·흰 천은 유지. 16:9 무문자.",
+      "generated_source": "/home/wooseok/.codex/generated_images/01a13a98-cb83-76a0-9d9b-7895387c47f5/exec-892074f6-a0cc-405d-b935-3cebf8ad1897.png",
+      "tool_mode": "built-in image_gen",
+      "artist_check": "A-to-B-to-C-to-empty-wall pointer chain readable; white cape restored on C.",
+      "representative_is_video_start": false,
+      "keyframe_timing_note": "A→B→C→빈 벽 손가락 사슬 완성 대표 순간. 질문 후 순서대로 가리키기.",
+      "pixel_dimensions": [
+        1671,
+        941
+      ],
+      "sha256": "724eddc7e3e4b001f0b6d7df585b76a57e091fd844e91dd96b28b4d304adea7e",
+      "review_scope": "대표 정지 이미지. 실제 동영상·음향·대사 리듬은 미제작."
+    },
+    {
+      "concept_id": "C05",
+      "scene_id": "S04",
+      "image_path": "images/C05/S04.png",
+      "source_cuts": [
+        "08",
+        "09"
+      ],
+      "prompt": "Use case: ads-marketing. One standalone landscape16:9 storyboard keyframe for an INTENTIONALLY ULTRA-LOW-BUDGET absurd live-action office comedy. Photograph real-looking fictional Korean ADULT actors, NOT cartoons, robots rendered as real machines, animation, polished advertising or elegant cinema. Cheap flat fluorescent light, slightly unflattering consumer-camera wide lens, ordinary lived-in office. Make the craft visibly handmade: crudely cut cardboard or cloth, obvious tape, imperfect costumes, exaggerated facial acting and physical comedy. Where compositing is specified, deliberately mismatched scale/lighting and thin uneven GREEN SCREEN FRINGES are the joke; preserve those artifacts instead of polishing them away. This is deliberate amateur video design, not random AI damage: coherent human faces, normal anatomy, sensible hands, distinct bodies, intact furniture. Single frame, no collage or panels. NO written text, captions, lettering, brands, logos, numbers or watermarks. Blank screens/walls reserved for later edit. Render ONLY the characters explicitly active in this scene; do not add future cast.\n\nC05 fixed cast: employee is a fictional Korean man around35, short neat black hair, beige knit sweater, black trousers. Exactly THREE bogus ghost performers in cheap white bed-sheet capes, black trousers and inexpensive black wigs: A is a Korean man around45 with broad expressive face, long messy wig held by RED plastic hair clip; B is a Korean woman around34 with short blunt black wig and BLUE clip; C is a Korean man around30 with narrow face, obviously crooked shoulder-length black wig held by YELLOW clip. They are living adult performers acting an exaggerated infomercial, not dead people, gore, scary monsters, religious figures or demonic beings. Normal eyes, mouths, bodies and fingers. A brags theatrically, B competes with sales gestures, C is shameless and nervous when challenged. Office geography: wood-laminate desk left, open drawer, ordinary copier at rear, large completely BLANK pale wall to right, cheap gray pedestal fan in foreground. Preserve actors, clips, capes, office and fan. Composited ghosts have knowingly crude green-fringed cutout edges, mismatched scale and missing/inconsistent shadows; real photographed employee and office remain intact.\n\nUse supplied actual generated image(s) as cast/costume/location references. Preserve identity; change action and framing to the NEW scene below. Keep deliberate B-grade visual defects.\n\nACTIVE CAST same four actors. Tiny cheap company presentation space, plastic chairs, large blank screen. A, B and C now sit at NORMAL HUMAN SCALE in three front-row plastic chairs after a deliberate jump-cut costume change. EXACT same recognizable wigs and RED/BLUE/YELLOW clips remain; each has simply pulled a cheap black suit jacket over the white sheet cape folded at shoulders. C unexpectedly points firmly at HIS OWN CHEST with a proudly self-discovered facial expression. A and B turn to him with comic startled disbelief, as if he has finally stated his own opinion. Employee in same beige sweater stands at aisle gesturing to empty screen and seats. Do not add real presenter or other audience. Slight remaining green compositing fringe may persist around wig/cape edges but intact anatomy. Large clear blank screen for later event title. Shamelessly cheap staging, no glamorous light.",
+      "references": [
+        "images/C05/S01-v2.png",
+        "images/C05/S03.png"
+      ],
+      "motion": "점프컷 환복 후 앞줄 착석→C가 이건 들어야겠더라→A가 누가라고 되묻자 C가 처음으로 자기 가슴을 짚음→세 사람 반응 정지 후 6초 행사명·초대 합성.",
+      "review_status": "passed_by_A_B_C",
+      "generation_status": "generated",
+      "representative_moment": "작은 사내 발표 공간의 앞줄. 같은 귀신 A·B·C가 흰 천을 어깨에 접고 값싼 검은 정장 재킷만 덧입어 플라스틱 의자에 앉았다. 가발과 색 집게핀은 그대로. C가 처음으로 자기 가슴을 자신 있게 가리키고, A·B는 놀라 C를 본다. 직원은 옆 통로에서 빈 스크린을 가리켜 자리를 안내한다. 무대 스크린은 행사명 후속 합성을 위한 빈 면. 16:9 무문자.",
+      "generated_source": "/home/wooseok/.codex/generated_images/01a13a98-cb83-76a0-9d9b-7895387c47f5/exec-faf0214d-cc91-4e95-a95f-4242bd0d7bba.png",
+      "tool_mode": "built-in image_gen",
+      "artist_check": "Same wigs/clips and white sheets under black jackets; C points to own chest; A/B surprised.",
+      "representative_is_video_start": false,
+      "keyframe_timing_note": "C가 자기 가슴을 가리키는 마지막 반전 대표 순간. 환복·착석은 점프컷.",
+      "pixel_dimensions": [
+        1672,
+        941
+      ],
+      "sha256": "65b1e5443dc417b2985765e8b944f53943fc01a8e56b0876befd8207c7d59a12",
+      "review_scope": "대표 정지 이미지. 실제 동영상·음향·대사 리듬은 미제작."
+    }
+  ],
+  "notes": [
+    "선택 이미지의 실제 생성 프롬프트와 참조 경로를 통합했다.",
+    "대표 이미지는 장면의 핵심 순간이며 시작 프레임·변화 순서는 콘티와 motion 메모를 따른다.",
+    "고퀄 3안과 의도적 B급 2안의 미술·연기 차이를 유지한다."
+  ]
+}

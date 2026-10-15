@@ -1,0 +1,32 @@
+{
+  "status": "complete",
+  "concepts": 5,
+  "cuts": 38,
+  "final_scenes": 16,
+  "durations_seconds": [
+    35,
+    40,
+    35,
+    37,
+    37
+  ],
+  "storyboard_reviewers": [
+    "A",
+    "B",
+    "C"
+  ],
+  "image_reviewers": [
+    "A",
+    "B",
+    "C"
+  ],
+  "remaining_required_revisions": 0,
+  "flow_video_generated": false,
+  "primary_artifact": "index.html",
+  "storyboard_data": "storyboards.json",
+  "selected_images": "scene_manifest.json",
+  "review_history": "review_history.json",
+  "pdf": "AI실행결과발표대회_홍보영상_5안.pdf",
+  "preview": "preview.png",
+  "file_validation": "passed"
+}
