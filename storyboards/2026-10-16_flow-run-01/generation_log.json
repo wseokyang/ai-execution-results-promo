@@ -1,0 +1,57 @@
+{
+  "run_id": "2026-10-16_flow-run-01",
+  "automation_id": "ai-flow",
+  "trigger_time_utc": "2026-10-15T15:13:57.652Z",
+  "basis": "flow_handoff/2026-10-15_v2",
+  "project_url": "https://flow.google.com/project/2bd21ab0-a7a1-458f-9b60-02a21875a0f4",
+  "observed_initial_credits": 10,
+  "daily_refresh_observed": false,
+  "observed_lite_cost_per_output": 10,
+  "planned_outputs": 1,
+  "planned_credits": 10,
+  "model": "Veo 3.1 - Lite",
+  "settings": {
+    "mode": "Frames",
+    "aspect_ratio": "16:9",
+    "outputs_per_request": 1,
+    "generation_seconds": 8,
+    "resolution": "720p"
+  },
+  "clips": [
+    {
+      "status": "failed_security_check",
+      "edit_seconds": 6,
+      "prompt": "prompts/C01/C01_K04_motion_only.txt",
+      "clip_id": "C01_K04",
+      "first_frame": "upload_frames/C01/C01_N04.png",
+      "generation_attempts": 1,
+      "uploaded_start_image": "C01_N04.png",
+      "source_file": null,
+      "flow_media_url": null,
+      "review_status": "not_reviewed_no_video_generated"
+    }
+  ],
+  "external_generation_submitted_count": 1,
+  "successful_outputs": 0,
+  "observed_remaining_credits": 10,
+  "observed_credits_spent": 0,
+  "notes": [
+    "After reload, account balance remained 10; no daily refresh observed.",
+    "Existing K01 and K03 were not regenerated.",
+    "A reCAPTCHA service connection error appeared and returned after one normal recovery reload. No CAPTCHA was solved or bypassed.",
+    "C01_N04.png upload completed and remains available in Flow. Reuse this asset; do not upload a duplicate.",
+    "Transient insufficient-credit notice followed submission, then the card showed abnormal-activity failure and the account showed 10 credits. Net observed spend is zero; any internal charge/refund was not separately verified.",
+    "No additional retries, purchases, plan changes, security bypass or video downloads occurred.",
+    "Future runs should check this failed card and the project results before submitting, because the user may retry manually."
+  ],
+  "blocking_error": "비정상적인 활동이 감지되었습니다. 페이지를 수정하는 브라우저 확장 프로그램으로 인해 문제가 발생할 수 있습니다.",
+  "secondary_ui_notice": "reCAPTCHA 서비스에 연결할 수 없습니다. 인터넷 연결을 확인한 후 페이지를 새로고침하여 reCAPTCHA 보안문자를 다시 로드하세요.",
+  "latest_progress_observed": "One K04 request failed; no new video; account balance remains 10.",
+  "retry_submitted_count": 0,
+  "review_status": "no_new_video_to_review",
+  "proof_screenshots": [
+    "flow_security_failure.jpg",
+    "credits_after_failure.jpg"
+  ],
+  "awaiting": "Flow security service/browser connection recovery; no further submission in this run."
+}
