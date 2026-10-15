@@ -1,0 +1,101 @@
+{
+  "run_id": "2026-10-16_flow-run-02",
+  "basis": "flow_handoff/2026-10-15_v2",
+  "trigger": "User reported refreshed Flow credits and requested continued production through standing authorization",
+  "project_url": "https://flow.google.com/project/2bd21ab0-a7a1-458f-9b60-02a21875a0f4",
+  "observed_initial_credits": 50,
+  "credit_refresh_observed": true,
+  "planned_outputs": 3,
+  "planned_credits": 50,
+  "settings": {
+    "outputs_per_request": 1,
+    "mode": "Frames",
+    "aspect_ratio": "16:9",
+    "generation_seconds": 8,
+    "resolution": "720p"
+  },
+  "clips": [
+    {
+      "prompt": "prompts/C01/C01_K02_korean_dialogue.txt",
+      "clip_id": "C01_K02",
+      "model": "Veo 3.1 - Fast",
+      "cost": 20,
+      "generation_attempts": 1,
+      "status": "failed_security_check",
+      "first_frame": "upload_frames/C01/C01_N02.png",
+      "uploaded_start_image": "C01_N02.png",
+      "submitted_by": "user_manual_click",
+      "generation_id": null,
+      "source_file": null,
+      "actual_duration_seconds": null,
+      "actual_resolution": null,
+      "audio_present": null,
+      "review_status": "not_performed_no_generated_video"
+    },
+    {
+      "prompt": "prompts/C01/C01_K04_motion_only.txt",
+      "clip_id": "C01_K04",
+      "model": "Veo 3.1 - Lite",
+      "cost": 10,
+      "generation_attempts": 0,
+      "status": "not_submitted",
+      "first_frame": "upload_frames/C01/C01_N04.png"
+    },
+    {
+      "prompt": "prompts/C01/C01_K05_korean_dialogue.txt",
+      "clip_id": "C01_K05",
+      "model": "Veo 3.1 - Fast",
+      "cost": 20,
+      "generation_attempts": 0,
+      "status": "not_submitted",
+      "first_frame": "upload_frames/C01/C01_R_S03.png"
+    }
+  ],
+  "external_generation_submitted_count": 1,
+  "successful_outputs": 0,
+  "observed_remaining_credits": 50,
+  "observed_credits_spent": 0,
+  "notes": [
+    "Prior K04 security failure was checked; no new successful video or active generation was present.",
+    "Browser reconnected as Chrome 4. A normal reload cleared the stale failure card; initial balance remained 50 after reload.",
+    "Existing K01 and K03 are preserved and not regenerated.",
+    "K02 first frame and original Korean-dialogue prompt were prepared in Flow. Actual settings confirmed Fast, Frames, 16:9, 720p, 8 seconds, x1, 20 credits.",
+    "The assistant submitted no generation request in this run. After preparation the user pressed Generate once and reported the same error.",
+    "The assistant then inspected the K02 failure card and persistent reCAPTCHA connection error, and confirmed the actual account balance was still 50.",
+    "No new video was available to download or review. K04 and K05 were not submitted in this run.",
+    "No further retries, security bypass, purchases, upgrades, or changes to browser security settings were performed.",
+    "C01_N02.png and C01_N04.png are already uploaded; reuse them rather than uploading duplicate assets.",
+    "Daily automation remains active; unchanged security failures should not trigger repeated requests or notifications.",
+    "After reporting the failure, the user asked the assistant to fill the prompt/settings and leave Generate for the user. The assistant used Reuse prompt on K02, verified its start image and Fast/Frames/16:9/720p/8sec/x1/20-credit settings, and left the enabled Generate button untouched. Inspect current results before future action; the user may submit from this prepared composer."
+  ],
+  "blocking_error": "User manual submission failed with unusual activity detected; reCAPTCHA service connection error remained visible.",
+  "awaiting": "Security service connection recovery. Do not repeat the failed Generate/Retry action while the same error persists. Inspect current results and balance before any later submission.",
+  "status": "blocked_security_connection",
+  "assistant_submitted_count": 0,
+  "manual_submitted_count": 1,
+  "charge_refund_breakdown": "not_observed_separately; initial and final balance both 50",
+  "proof_screenshots": [
+    "k02_ready_security_error.jpg",
+    "k02_manual_failure.jpg",
+    "credits_after_manual_failure.jpg",
+    "k02_manual_ready.jpg"
+  ],
+  "composer_handoff": {
+    "clip_id": "C01_K02",
+    "status": "prepared_for_user_manual_submission",
+    "requested_by_user": true,
+    "start_frame": "C01_N02.png",
+    "original_prompt_restored": true,
+    "model": "Veo 3.1 - Fast",
+    "displayed_cost": 20,
+    "aspect_ratio": "16:9",
+    "mode": "Frames",
+    "resolution": "720p",
+    "generation_seconds": 8,
+    "outputs_per_request": 1,
+    "generate_button_enabled": true,
+    "assistant_clicked_generate": false,
+    "security_connection_error_still_visible": true,
+    "proof_screenshot": "k02_manual_ready.jpg"
+  }
+}
