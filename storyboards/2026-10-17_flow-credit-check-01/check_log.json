@@ -1,0 +1,29 @@
+{
+  "checked_at_kst": "2026-10-17T00:08:36.422065+09:00",
+  "automation_id": "ai-flow",
+  "account_alias": "account03",
+  "project_url": "https://flow.google.com/u/1/project/59a3a687-1de1-40f6-ab37-a9631d6a8fa7",
+  "freshness": "Reloaded existing Chrome tab, waited for project load, then opened account details.",
+  "observed_credits": 0,
+  "renewal_notice": "Credits exhausted; wait until renewal. No specific next renewal time displayed. Midnight reset not assumed.",
+  "visible_completed_videos": [
+    "C01_K02_take02",
+    "C01_K03_take02",
+    "C01_K01_take02"
+  ],
+  "visible_uploaded_images": [
+    "C01_N02.png",
+    "C01_R_S02.png",
+    "C01_N01.png"
+  ],
+  "in_progress_requests_visible": 0,
+  "new_or_unlogged_video_visible": false,
+  "security_notice": "After account panel closed, reCAPTCHA service connection notice appeared. No generation was attempted; no retry or workaround performed.",
+  "new_generation_requests": 0,
+  "new_uploads": 0,
+  "credits_spent": 0,
+  "credits_refunded": 0,
+  "action": "No generation; wait for existing next scheduled check. No account switch, purchase, or subscription change.",
+  "C01_status": "v03 voice user listening pending. K02/K06 accepted. Do not regenerate existing C01 shots.",
+  "notification": "No new video or new generation failure; unchanged zero balance is non-actionable. Do not send repetitive status notification."
+}

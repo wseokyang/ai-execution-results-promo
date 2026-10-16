@@ -1,0 +1,41 @@
+{
+  "reviewer": "/root/handoff_integrity",
+  "scope": "Read-only check of 7 generation logs, upload_order.tsv and handoff manifest",
+  "C01_motion_clips_with_originals": 7,
+  "remaining_ungenerated_clips": 34,
+  "remaining_by_concept": {
+    "C02": 8,
+    "C03": 8,
+    "C04": 9,
+    "C05": 9
+  },
+  "checked_input_paths": 102,
+  "missing_paths": 0,
+  "queue_mismatches": 0,
+  "next_50_credit_plan_if_actual_UI_Fast20_Lite10": [
+    {
+      "clip": "C02_K01",
+      "model": "Fast",
+      "cost": 20,
+      "first_frame": "upload_frames/C02/C02_N01.png",
+      "prompt": "prompts/C02/C02_K01_korean_dialogue.txt"
+    },
+    {
+      "clip": "C02_K02",
+      "model": "Fast",
+      "cost": 20,
+      "first_frame": "upload_frames/C02/C02_N02.png",
+      "prompt": "prompts/C02/C02_K02_korean_dialogue.txt"
+    },
+    {
+      "clip": "C05-F06",
+      "model": "Lite",
+      "cost": 10,
+      "first_frame": "upload_frames/C05/C05-N03.png",
+      "prompt": "prompts/C05/C05-F06_motion_only.txt",
+      "note": "Simple gaze/reaction in locked wide shot; hands stay down, dialogue later in post."
+    }
+  ],
+  "plan_is_not_submission": true,
+  "source_precedence": "Handoff creation status is historical; latest actual generation logs determine duplicates."
+}
