@@ -12,3 +12,6 @@ Thumbs.db
 
 # The expanded package is tracked; this >100 MiB ZIP is a Release asset.
 /flow_handoff/2026-10-15_v2/AI_대회_Flow_업로드직전_패키지.zip
+
+# Windows download origin metadata is not an artifact
+**/*Zone.Identifier
