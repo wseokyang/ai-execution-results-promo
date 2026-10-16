@@ -1,0 +1,105 @@
+{
+  "run_id": "2026-10-16_flow-run-06",
+  "date_kst": "2026-10-16",
+  "basis": "flow_handoff/2026-10-15_v2",
+  "account_alias": "account03_garrett3738",
+  "trigger": "User logged into another Google account and offered 50 included credits for ongoing C01 completion. Actual 50 observed in UI.",
+  "project_url": "https://flow.google.com/u/1/project/59a3a687-1de1-40f6-ab37-a9631d6a8fa7",
+  "project_title": "AI 실행 결과 발표대회 · C01 보완 제작 · 계정03",
+  "status": "first_upload_rights_confirmation_pending",
+  "observed_initial_credits": 50,
+  "observed_remaining_credits": 50,
+  "assistant_submitted_count": 0,
+  "successful_outputs": 0,
+  "settings": {
+    "mode": "Frames",
+    "start_frame_only": true,
+    "aspect_ratio": "16:9",
+    "resolution": "720p",
+    "generation_seconds": 8,
+    "outputs_per_request": 1
+  },
+  "clips": [
+    {
+      "clip_id": "C01_K01",
+      "take": 2,
+      "status": "prepared_not_submitted",
+      "generation_attempts": 0,
+      "source_prompt": "C01_K01_source_prompt.txt",
+      "submitted_prompt": "C01_K01_take02_submitted_prompt.txt",
+      "first_frame": "upload_frames/C01/C01_N01.png",
+      "planned_model": "Veo 3.1 Fast",
+      "planned_cost": 20,
+      "quality_correction_reason": "take01 has no audio stream; preserve original as visual alternative and request clearly audible Korean male line.",
+      "prompt_changes": [
+        {
+          "before": "CONTINUITY: A is the short-haired man in a white shirt. B is the bob-haired woman in a navy cardigan. C is the middle-aged cleaner in a lime work vest. D is the calm female presenter in a charcoal jacket. Keep only the cast visible in this shot. Preserve the yellow bucket with black handle, gray mop and existing room. A's original handkerchief passes to C; B later uses her OWN separate handkerchief. Never conjure a third one.",
+          "after": "CONTINUITY: A is the short-haired adult man in the white shirt visible in the first frame. Preserve his identity, wardrobe and the single white handkerchief H1 already held below his chin. He keeps H1 throughout; it does not cover his mouth while he speaks. No other person, bucket, mop or additional handkerchief enters. Keep the location concealed in the existing dark bokeh."
+        },
+        {
+          "before": "AUDIO: Natural ambience and action sounds, no music or extra voices. Perform these short lines in order, preserving the pauses and speaker identity. Offscreen lines must stay offscreen.\nAt about 0.8–4.5s, A says in Korean exactly: “왜… 이제야…”",
+          "after": "AUDIO: Generate audible synchronized speech from the visible man, in a natural adult Korean male voice. At about 0.8–4.5 seconds, A says exactly: “왜… 이제야…” He speaks through restrained grief with a clear pause between the two words. Both words must be intelligible and clearly audible above his trembling breath; sobbing or silent mouth movement must not replace the spoken line. Match his visible mouth movements to the Korean words. Include soft natural breathing and quiet room ambience. No narrator, other voices, extra words or music."
+        }
+      ]
+    },
+    {
+      "clip_id": "C01_K03",
+      "take": 2,
+      "status": "prepared_not_submitted",
+      "generation_attempts": 0,
+      "source_prompt": "C01_K03_source_prompt.txt",
+      "submitted_prompt": "C01_K03_take02_submitted_prompt.txt",
+      "first_frame": "upload_frames/C01/C01_R_S02.png",
+      "planned_model": "Veo 3.1 Fast",
+      "planned_cost": 20,
+      "quality_correction_reason": "take01 has overflow around 1.5–3.5s and early B cloth around4.5s; control stream decay and per-shot hands.",
+      "prompt_changes": [
+        {
+          "before": "CONTINUITY: A is the short-haired man in a white shirt. B is the bob-haired woman in a navy cardigan. C is the middle-aged cleaner in a lime work vest. D is the calm female presenter in a charcoal jacket. Keep only the cast visible in this shot. Preserve the yellow bucket with black handle, gray mop and existing room. A's original handkerchief passes to C; B later uses her OWN separate handkerchief. Never conjure a third one.",
+          "after": "CONTINUITY: Preserve the two visible people, their clothing, and the yellow bucket with its black handle. There is exactly ONE white handkerchief in this shot: H1, held by A, the man in the white shirt, throughout. Its size stays unchanged. B, the woman in the navy cardigan, uses only her bare hands to steady the bucket. Her hands remain at the bucket; she never reaches into a pocket or toward her face. No cloth is passed between people and no additional handkerchief appears."
+        },
+        {
+          "before": "ACTION: Locked low medium shot. Continue the water stream already visible at the first frame: the man twists his tiny wet handkerchief and an impossibly sustained stream pours into the yellow bucket. The crying woman carefully shifts the bucket under the stream so almost no water misses. Keep a straight dramatic tone. Let the stream finally thin to a few drops; do not make the bucket grow or overflow.",
+          "after": "ACTION: Locked low medium shot, preserving the first-frame composition. Continue the water already falling from A's twisted handkerchief, then smoothly reduce the initial broad splash into one clearly visible, continuous stream aimed at the center of the bucket. The absurdity is how long this small handkerchief keeps producing water, not an increasing flood. A maintains one slow, continuous squeeze without releasing, unfolding or restarting the wringing action. B makes one small, careful adjustment of the bucket beneath the stream, then holds it steady while still crying sincerely. Keep the bucket's size and shape unchanged and its water surface below the rim. Retain the existing wet exterior and initial droplets, but create no new surge, overtopping sheet of water, or overflow down the sides. Do not tip or empty the bucket."
+        },
+        {
+          "before": "TIMING: The final edit uses 7 seconds of this shot. Complete the important action and reaction within the first 7 seconds; use any remaining time up to 8 seconds for a natural held end pose or small continuing motion. Do not postpone the payoff into the discarded tail. No cuts, montage, slow motion or replay.",
+          "after": "TIMING: During 0–1 second, carry over the initial splash and smoothly narrow the stream. During 1–4.5 seconds, sustain the clearly visible centered stream without increasing its volume. During 4.5–6 seconds, taper it into a few separated drops. During 6–8 seconds, hold the exhausted handkerchief above the bucket with only an occasional final drop. A still holds H1 and B's empty hands remain at the bucket. The final edit uses the first 7 seconds. No cuts, repeated action, slow motion or replay."
+        }
+      ]
+    },
+    {
+      "clip_id": "C01_K02",
+      "take": 2,
+      "status": "prepared_not_submitted",
+      "generation_attempts": 0,
+      "source_prompt": "C01_K02_source_prompt.txt",
+      "submitted_prompt": "C01_K02_take02_submitted_prompt.txt",
+      "first_frame": "upload_frames/C01/C01_N02.png",
+      "planned_model": "Veo 3.1 Lite",
+      "planned_cost": 10,
+      "quality_correction_reason": "take01 introduces separate B handkerchief around 5s; preserve B empty hands. ASR alone does not establish a spoken-word error.",
+      "prompt_changes": [
+        {
+          "before": "CONTINUITY: A is the short-haired man in a white shirt. B is the bob-haired woman in a navy cardigan. C is the middle-aged cleaner in a lime work vest. D is the calm female presenter in a charcoal jacket. Keep only the cast visible in this shot. Preserve the yellow bucket with black handle, gray mop and existing room. A's original handkerchief passes to C; B later uses her OWN separate handkerchief. Never conjure a third one.",
+          "after": "CONTINUITY: Preserve only the two people visible in the first frame: A, the man in the white shirt, and B, the woman in the navy cardigan. There is exactly ONE white handkerchief in this shot, H1, already held by A near his mouth. A keeps this same handkerchief throughout and never offers or releases it. Both of B's hands remain empty for the entire shot. Preserve the existing room and tight framing. No additional people or props appear."
+        },
+        {
+          "before": "ACTION: Tight two-shot on the same axis. The woman reaches toward the man's offered white handkerchief to console him, but stops her hand in midair as her own sob catches her. She lowers her head and cries harder than he does. The man keeps the handkerchief; she does not take it. No bucket or stage reveal yet.",
+          "after": "ACTION: Locked tight two-shot on the same axis. Continue B's already raised empty hand a few centimeters toward A's handkerchief, then visibly stop before touching either A or the cloth. Her attempt to console him fails as her own emotion catches her. She withdraws that empty hand directly to her own lap, lowers her head and breaks into stronger sobbing. Once lowered, both of her empty hands remain resting on her lap until the end. A continues his existing restrained crying and keeps H1 near his own mouth. Complete the reach, stop and withdrawal within the first 4 seconds; establish B's stronger crying before 6 seconds and hold it naturally through 8 seconds. No bucket or stage reveal."
+        },
+        {
+          "before": "AUDIO: Natural ambience and action sounds, no music or extra voices. Perform these short lines in order, preserving the pauses and speaker identity. Offscreen lines must stay offscreen.\nAt about 1.0–4.5s, B says in Korean exactly: “진작… 좀…”",
+          "after": "AUDIO: Natural ambience and breathing, no music or extra voices. Only B speaks. At approximately 1.0–4.5 seconds, B says exactly these Korean words: “진작… 좀…” Make both words clearly audible, separated by a brief emotional pause. Keep her breathing quieter than the words; her stronger sobbing follows the line. A does not speak. No additional words."
+        }
+      ]
+    }
+  ],
+  "preflight": "A independently inspected N01, B R_S02, C N02 and original prompts. Root incorporated targeted changes. No images or concepts recreated.",
+  "notes": [
+    "Initial reCAPTCHA connection message appeared, later disappeared before upload. No generation submitted.",
+    "User pressed Start onboarding. Separate first-upload rights dialog is still pending user action; agent has not accepted it.",
+    "K04take02/K06/K07 from account02 already saved and reviewed, never duplicate those submissions.",
+    "Verify actual model/cost/balance immediately before each submission. Proposed order K01 Fast20, K03 Fast20, K02 Lite10."
+  ]
+}
