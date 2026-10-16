@@ -1,0 +1,42 @@
+{
+  "date": "2026-10-17",
+  "status": "C05_first_request_security_failed_no_original",
+  "account_alias": "account04_sander892",
+  "project_url": "https://flow.google.com/project/ab1d7cb6-9b9a-4bde-b409-b6b2b0aa0912",
+  "start_balance": 20,
+  "end_balance": 20,
+  "ui_zero_credit_banner_briefly_seen": true,
+  "net_credit_change": 0,
+  "refund_amount_inferred_from_UI": 20,
+  "refund_transaction_separately_verified": false,
+  "generation_requests": [
+    {
+      "clip_id": "C05-F01",
+      "attempt": 1,
+      "intended_take": 1,
+      "generation_id": null,
+      "status": "failed_unusual_activity",
+      "model": "Veo 3.1 Fast",
+      "cost_shown": 20,
+      "mode": "Frames first only",
+      "aspect_ratio": "16:9",
+      "requested_seconds": 8,
+      "resolution_setting": "720p",
+      "outputs": 1,
+      "silent_return": false,
+      "first_frame": "flow_handoff/2026-10-15_v2/upload_frames/C05/C05_R_S01-v2.png",
+      "first_frame_sha256": "4ef9b423fa306d9e87c9325a80a70a37731050dad7a659ffe6bf0ed5d982d29b",
+      "exact_submitted_prompt_file": "C05-F01_take01_prompt.txt",
+      "error": "실패 비정상적인 활동이 감지되었습니다. 페이지를 수정하는 브라우저 확장 프로그램으로 인해 문제가 발생할 수 있습니다.",
+      "reCAPTCHA_connection_notice": true,
+      "retry_clicks": 0,
+      "original_file": null,
+      "actual_length": null,
+      "actual_resolution": null,
+      "actual_audio": null,
+      "review_status": "not_generated",
+      "evidence": "C05-F01_security_failure_balance20.png"
+    }
+  ],
+  "current_user_priority": "C01 recut and clearer K06 pronunciation requested after this failure. C05 remains next concept after C01 revision."
+}

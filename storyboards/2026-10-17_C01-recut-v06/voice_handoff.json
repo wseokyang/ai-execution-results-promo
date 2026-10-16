@@ -1,0 +1,26 @@
+{
+  "status": "prepared_not_submitted_by_assistant_user_manual_request_pending",
+  "project_url": "https://flow.google.com/project/1d89ebc4-606d-43e7-80be-6e6f4bcb2d63",
+  "account_alias": "account04_sander892",
+  "model": "Veo 3.1 Lite",
+  "cost_ui": 10,
+  "last_observed_balance": 20,
+  "balance_observation_source": "run08 failure account panel before this preparation",
+  "settings": {
+    "mode": "Frames",
+    "first_frame": "C01_N07.png",
+    "last_frame": null,
+    "aspect_ratio": "16:9",
+    "resolution": "720p",
+    "duration": 8,
+    "outputs": 1,
+    "silent_video_return": false
+  },
+  "prompt_file": "K06_voice_prompt.txt",
+  "assistant_generation_submissions": 0,
+  "generation_id": null,
+  "original_file": null,
+  "blocker": "reCAPTCHA service connection error; earlier same-account C05 request security failure",
+  "next_action": "Inspect actual project cards and balance before any new submission; user has been asked to click Generate once. Do not repeat same security failure or bypass it.",
+  "screenshot": "K06_voice_ready.png"
+}

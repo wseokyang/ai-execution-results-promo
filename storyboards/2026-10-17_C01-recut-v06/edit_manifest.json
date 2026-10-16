@@ -1,0 +1,159 @@
+{
+  "status": "recut_review_voice_replacement_pending",
+  "voice_status": "original_K06_voice_TEMPORARY_replacement_pending",
+  "output": {
+    "name": "C01_recut_v06_36s_voice_pending.mp4",
+    "bytes": 13395247,
+    "sha256": "26f2e2fde85a467ddb2bf85cc77eca5af0462c7f4a617cdb7d6fdfc2d0a63585"
+  },
+  "duration_seconds": 36,
+  "resolution": [
+    1280,
+    720
+  ],
+  "fps": 24,
+  "frames": 864,
+  "changes": [
+    "K07 entire cut and both lines removed",
+    "First water gag advances from14 to8.5s",
+    "K02 complete8s voice L-cut over moving K03 insert",
+    "Reveal advances from34 to23.5s",
+    "K06 audience reaction insert after3s for offscreen replacement D",
+    "Title freezes K06 frame155,30–36s",
+    "Original score recomposed for shorter edit; no K07 callback"
+  ],
+  "clips": [
+    {
+      "id": "K01",
+      "source": "2026-10-16_flow-run-06/C01_K01_take02.mp4",
+      "sha256": "ba08c0d6e81862405ff08c856573b9efe83853ee12270c06b5116a74e4ab9c6f",
+      "source_in": 0,
+      "source_out": 4.5,
+      "new_in": 0,
+      "new_out": 4.5
+    },
+    {
+      "id": "K02",
+      "source": "2026-10-16_flow-run-06/C01_K02_take02.mp4",
+      "sha256": "e9f8ef2fe7413aa5edc09161419b3cf4fa305fd51862cb9fd2f586c731fba439",
+      "source_in": 0,
+      "source_out": 4,
+      "new_in": 4.5,
+      "new_out": 8.5
+    },
+    {
+      "id": "K03",
+      "source": "2026-10-16_flow-run-06/C01_K03_take02.mp4",
+      "sha256": "3ac07ecaf2a0628e2db33d02d58d12a3e0616aaa9835cfced74b2507a34ae668",
+      "source_in": 0,
+      "source_out": 4.5,
+      "new_in": 8.5,
+      "new_out": 13.0
+    },
+    {
+      "id": "K04",
+      "source": "2026-10-16_flow-run-05/C01_K04_take02.mp4",
+      "sha256": "91bb3eea36ea8dd69bc14311302b63a4f58435e1989a3803f48af4000c20dd7b",
+      "source_in": 0.5,
+      "source_out": 6,
+      "new_in": 13,
+      "new_out": 18.5
+    },
+    {
+      "id": "K05",
+      "source": "2026-10-16_flow-run-04/C01_K05_take01.mp4",
+      "sha256": "3f2271c9c11cf4c691dd4d9fe98ace20d237516c0e3f543980d377f57839b25f",
+      "source_in": 0,
+      "source_out": 5,
+      "new_in": 18.5,
+      "new_out": 23.5
+    },
+    {
+      "id": "K06",
+      "source": "2026-10-16_flow-run-05/C01_K06_take01.mp4",
+      "sha256": "e849c7b8935d4530117502579488cbe25d27c68b8bef4665680afb11f87f8de7",
+      "source_in": 0,
+      "source_out": 6.5,
+      "new_in": 23.5,
+      "new_out": 30.0
+    }
+  ],
+  "audio_edits_from_v04": [
+    {
+      "v04_source": [
+        0,
+        4.5
+      ],
+      "new_start": 0,
+      "gain": 1,
+      "fade_seconds": 0.015
+    },
+    {
+      "v04_source": [
+        6,
+        14
+      ],
+      "new_start": 4.5,
+      "gain": 1,
+      "fade_seconds": 0.005
+    },
+    {
+      "v04_source": [
+        14,
+        18.5
+      ],
+      "new_start": 8.5,
+      "gain": 0.55,
+      "fade_seconds": 0.015
+    },
+    {
+      "v04_source": [
+        21.5,
+        27
+      ],
+      "new_start": 13,
+      "gain": 1,
+      "fade_seconds": 0.015
+    },
+    {
+      "v04_source": [
+        27,
+        32
+      ],
+      "new_start": 18.5,
+      "gain": 1,
+      "fade_seconds": 0.015
+    },
+    {
+      "v04_source": [
+        34,
+        40.5
+      ],
+      "new_start": 23.5,
+      "gain": 1,
+      "fade_seconds": 0.015
+    }
+  ],
+  "K04_voice": "user-selected Flow run07 take03, same3.70s at13.5–17.2",
+  "K06_voice_replacement_file": null,
+  "audio_speed_or_pitch_changed": false,
+  "full_decode_pass": true,
+  "final_loudness": {
+    "input_i": "-18.25",
+    "input_tp": "-1.50",
+    "input_lra": "6.10",
+    "input_thresh": "-29.25",
+    "output_i": "-18.77",
+    "output_tp": "-1.66",
+    "output_lra": "5.50",
+    "output_thresh": "-29.66",
+    "normalization_type": "dynamic",
+    "target_offset": "0.77"
+  },
+  "decoded_peak": 0.8406562209129333,
+  "full_scale_samples": 0,
+  "assistant_actual_listening": false,
+  "originals_modified": false,
+  "new_Flow_requests_by_render": 0,
+  "title_source": "2026-10-16_C01-edit-v01/title_overlay_720.png"
+}

@@ -1,0 +1,72 @@
+{
+  "status": "approved_for_generation",
+  "reviewers": [
+    "final_purpose_review_a",
+    "pilot_review_b",
+    "final_purpose_review_c"
+  ],
+  "independent_reviews_complete": true,
+  "cross_reviews_complete": true,
+  "blocking_findings": [],
+  "same_full_criteria": true,
+  "decision": "추가 이미지/계획컷 없이 C05 미생성 큐 진행",
+  "checks": [
+    "47초 생성동작+빈벽2초+엔딩6초=55초",
+    "9개 기존 첫프레임과 이미지해시 유지",
+    "F08/F09 대사·프롬프트·SRT 일치",
+    "행사연결/출처질문/자기의견반전 선명화",
+    "사내수용성/미확정정보 추가없음"
+  ],
+  "followup_checks": [
+    {
+      "ids": [
+        "A-C05-001",
+        "B-C05-001",
+        "C-POLISH-001"
+      ],
+      "required_after_generation": true,
+      "text": "F09 자기지목과 놀란A/B가 먼저 노출되지 않도록 C얼굴→A얼굴→내생각 전체공개. 실제손/얼굴이동에맞춰크롭조정."
+    },
+    {
+      "ids": [
+        "A-C05-002",
+        "C-POLISH-002"
+      ],
+      "required_after_generation": true,
+      "text": "F08/F09 실제말끝·호흡을확인하고 자막시간조정. 강제배속/발화절단금지. 빈벽2초/엔딩6초유지."
+    },
+    {
+      "ids": [
+        "B-C05-002"
+      ],
+      "required_if_optional_subtitles_used": true,
+      "text": "행사설명자막과대사자막겹침및가슴지목가림방지"
+    }
+  ],
+  "cross_review_summary": {
+    "A": "B/C의생성후크롭·호흡확인동의. 선택자막생략가능보완. 선행결함없음.",
+    "B": "A/C생성후확인동의. 늦은발화는컷내여백부터조정, 선행결함없음.",
+    "C": "A/B동의. 마지막공개순서/빈벽2초/엔딩6초유지. 현재추가이미지불필요."
+  },
+  "actual_images_viewed": {
+    "A": [
+      "C05_R_S04.png",
+      "C05-N03.png",
+      "C05_R_S01-v2.png"
+    ],
+    "B": [
+      "C05_R_S04.png",
+      "C05-N03.png"
+    ],
+    "C": [
+      "C05_R_S04.png",
+      "C05-N03.png",
+      "C05_R_S01-v2.png",
+      "C05-N02.png",
+      "C05-N04.png",
+      "C05_R_S02.png"
+    ]
+  },
+  "generation_success_verified": false,
+  "actual_audio_listening": false
+}

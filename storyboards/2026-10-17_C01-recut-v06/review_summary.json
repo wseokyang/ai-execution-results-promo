@@ -1,0 +1,121 @@
+{
+  "status": "visual_recut_pass_K06_voice_replacement_required",
+  "target": "C01_recut_v06_36s_voice_pending.mp4",
+  "sha256": "26f2e2fde85a467ddb2bf85cc77eca5af0462c7f4a617cdb7d6fdfc2d0a63585",
+  "method": "Three distinct reviewers independently opened actual rendered sample sheets and selected full-resolution boundary frames; then each received the other two reports. No continuous playback, actual listening, or full lip-sync approval.",
+  "independent": [
+    {
+      "reviewer": "A /root/final_purpose_review_a",
+      "visual": "pass",
+      "findings": [
+        "Water gag advances to8.5s and reveal to23.5s; less repetitive crying",
+        "K07 removal preserves coherent physical escalation and event reveal",
+        "K03 hides B mouth for L-cut; K06 reaction crop hides D",
+        "Title readable for6s"
+      ],
+      "files": [
+        "review_frames/sheet_01.jpg",
+        "review_frames/sheet_02.jpg",
+        "review_frames/sheet_03.jpg",
+        "ending_source_frame.png"
+      ],
+      "issues": [
+        {
+          "id": "A-V06-001",
+          "status": "unresolved_required",
+          "issue": "Replace user-rejected K06 pronunciation"
+        }
+      ]
+    },
+    {
+      "reviewer": "B /root/pilot_review_b",
+      "visual": "pass",
+      "technical": "review_copy_pass",
+      "findings": [
+        "K02 complete8s retained, K04 selected3.7s retained",
+        "No definite word cutoff found from source ASR/VAD and timeline",
+        "has_voice branch frozen to avoid runtime mismatch between audio and status",
+        "864frames,36s,full decode pass,PCM full-scale0"
+      ],
+      "files": [
+        "render_recut.py",
+        "edit_manifest.json",
+        "audio_validation.json",
+        "review_frames/sheet_01.jpg",
+        "review_frames/sheet_02.jpg",
+        "review_frames/sheet_03.jpg",
+        "review_frames/12.00s.jpg",
+        "review_frames/26.50s.jpg",
+        "review_frames/29.95s.jpg",
+        "review_frames/30.00s.jpg"
+      ],
+      "issues": [
+        {
+          "id": "B-R06-001",
+          "status": "resolved",
+          "issue": "Voice status race fixed in render code"
+        },
+        {
+          "id": "B-R06-002",
+          "status": "unresolved_required",
+          "issue": "K06 voice replacement absent"
+        },
+        {
+          "id": "B-R06-003",
+          "status": "listening_pending",
+          "issue": "K02 water/music masking not actually heard"
+        }
+      ]
+    },
+    {
+      "reviewer": "C /root/final_purpose_review_c",
+      "visual": "pass",
+      "findings": [
+        "Water-to-cleaner-to-event structure remains",
+        "Hands,cloth,water,bucket readable in crop",
+        "26.45→26.50 reaction crop retains action",
+        "No invented event facts or employee mockery introduced"
+      ],
+      "files": [
+        "review_frames/sheet_01.jpg",
+        "review_frames/sheet_02.jpg",
+        "review_frames/sheet_03.jpg",
+        "review_frames/08.50s.jpg",
+        "review_frames/12.95s.jpg",
+        "review_frames/26.45s.jpg",
+        "review_frames/26.50s.jpg",
+        "review_frames/29.95s.jpg",
+        "review_frames/30.00s.jpg",
+        "review_frames/35.90s.jpg"
+      ],
+      "issues": [
+        {
+          "id": "C-V06-001",
+          "status": "unresolved_required",
+          "issue": "K06 voice replacement absent"
+        },
+        {
+          "id": "C-V06-002",
+          "status": "listening_pending",
+          "issue": "K02 masking and K05 ending require actual listening"
+        }
+      ]
+    }
+  ],
+  "cross_review": [
+    {
+      "reviewer": "A",
+      "response": "Agrees with B-R06-002/C-V06-001 and B-R06-003/C-V06-002. Agrees with source-duration preservation by manifest, not independent code-race audit. Confirms C visual observations. No new visual blocker."
+    },
+    {
+      "reviewer": "B",
+      "response": "Agrees with A/C visual findings and mandatory K06 replacement. ASR K05 spelling cannot establish extra spoken syllables. K02 ASR12.57–13.49 contradicts actual source placement4.5–12.5; do not use that alignment for trimming."
+    },
+    {
+      "reviewer": "C",
+      "response": "Agrees with A/B visual findings and mandatory K06 replacement. Independently checked has_voice boolean and preserved source spans. Technical ending margins do not establish naturalness; masking/listening remain pending."
+    }
+  ],
+  "pd_decision": "Accept 36s picture recut for review. Delete K07 entirely; do not regenerate it. Preserve K04 chosen voice and K02 full utterance. Keep K06 existing voice explicitly temporary until Flow replacement is actually obtained and assessed. Do not describe the current render as final or pronunciation-fixed.",
+  "git_whitespace_exception": "run08/C05-F01_take01_prompt.txt retains exact observed submitted text including final space; do not strip source evidence."
+}
