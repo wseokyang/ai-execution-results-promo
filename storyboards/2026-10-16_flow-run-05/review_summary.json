@@ -1,0 +1,52 @@
+{
+  "run_id": "2026-10-16_flow-run-05",
+  "scope": "Three actual contact sheets (16 frames at 0.5s) and selected individual frames; no continuous playback, listening or lip-sync approval",
+  "reviewers": [
+    "repo_publish_audit as A",
+    "pilot_review_b",
+    "pilot_review_c"
+  ],
+  "independent_reviews_received": 3,
+  "cross_reviews_received": 3,
+  "dispositions": [
+    {
+      "ids": [
+        "A-001",
+        "B-001",
+        "C-003"
+      ],
+      "clip": "C01_K07",
+      "status": "unresolved_edit_decision",
+      "finding": "Bucket peaks around 3s then lowers by 5.5–6s; exact under-chin final pose not implemented. Choose ending with actual dialogue endpoint and adjacent shot; immediate regeneration not required.",
+      "cross": "A/B/C agree; C upgraded from optional suggestion to required final editing decision."
+    },
+    {
+      "ids": [
+        "B-002",
+        "C-002"
+      ],
+      "clip": "C01_K06_to_K07",
+      "status": "suggestion_retained",
+      "finding": "A hand and heads change between similar wide shots; evaluate continuous cut with D dialogue."
+    },
+    {
+      "ids": [
+        "C-001"
+      ],
+      "clip": "C01_K04",
+      "status": "suggestion_retained",
+      "finding": "Mop travels back and forth rather than one forward pass, but cleaning-stop-attention story works."
+    }
+  ],
+  "resolved_prior_k04": [
+    "Cleaner eyes/nose/mouth remain readable in reaction",
+    "B stays empty-handed",
+    "H1 remains with A, no early transfer"
+  ],
+  "candidate_lengths_seconds": {
+    "C01_K04_take02": 6,
+    "C01_K06_take01": 8,
+    "C01_K07_take01": "6 provisional; ending decision pending"
+  },
+  "pd_decision": "Preserve K04/K06 candidates; keep K07 with explicit editing decision pending. No reason to regenerate these automatically."
+}

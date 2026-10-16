@@ -1,0 +1,101 @@
+[
+  {
+    "clip_id": "C01_K06",
+    "file": "C01_K06_take01.mp4",
+    "bytes": 2485594,
+    "sha256": "e849c7b8935d4530117502579488cbe25d27c68b8bef4665680afb11f87f8de7",
+    "duration_seconds": 8.0,
+    "resolution": [
+      1280,
+      720
+    ],
+    "fps": 24.0,
+    "audio_stream_present": true,
+    "sample_times_seconds": [
+      0.0,
+      0.5,
+      1.0,
+      1.5,
+      2.0,
+      2.5,
+      3.0,
+      3.5,
+      4.0,
+      4.5,
+      5.0,
+      5.5,
+      6.0,
+      6.5,
+      7.0,
+      7.5
+    ],
+    "contact_sheet": "C01_K06_contact_sheet.jpg",
+    "review_scope": "16 sampled frames at 0.5-second intervals; not continuous playback or lip-sync validation"
+  },
+  {
+    "clip_id": "C01_K07",
+    "file": "C01_K07_take01.mp4",
+    "bytes": 2595826,
+    "sha256": "e696f011693bd2198ce3f4e4b370ede90556c9739393102f2f5664f83becce69",
+    "duration_seconds": 8.0,
+    "resolution": [
+      1280,
+      720
+    ],
+    "fps": 24.0,
+    "audio_stream_present": true,
+    "sample_times_seconds": [
+      0.0,
+      0.5,
+      1.0,
+      1.5,
+      2.0,
+      2.5,
+      3.0,
+      3.5,
+      4.0,
+      4.5,
+      5.0,
+      5.5,
+      6.0,
+      6.5,
+      7.0,
+      7.5
+    ],
+    "contact_sheet": "C01_K07_contact_sheet.jpg",
+    "review_scope": "16 sampled frames at 0.5-second intervals; not continuous playback or lip-sync validation"
+  },
+  {
+    "clip_id": "C01_K04",
+    "file": "C01_K04_take02.mp4",
+    "bytes": 2514407,
+    "sha256": "91bb3eea36ea8dd69bc14311302b63a4f58435e1989a3803f48af4000c20dd7b",
+    "duration_seconds": 8.0,
+    "resolution": [
+      1280,
+      720
+    ],
+    "fps": 24.0,
+    "audio_stream_present": true,
+    "sample_times_seconds": [
+      0.0,
+      0.5,
+      1.0,
+      1.5,
+      2.0,
+      2.5,
+      3.0,
+      3.5,
+      4.0,
+      4.5,
+      5.0,
+      5.5,
+      6.0,
+      6.5,
+      7.0,
+      7.5
+    ],
+    "contact_sheet": "C01_K04_contact_sheet.jpg",
+    "review_scope": "16 sampled frames at 0.5-second intervals; not continuous playback or lip-sync validation"
+  }
+]

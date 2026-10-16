@@ -1,0 +1,177 @@
+[
+  {
+    "file": "\\\\wsl.localhost\\Ubuntu-24.04\\home\\wooseok\\wsy\\samsung_related\\slide\\AI실행결과발표대회_디자인3종\\storyboards\\2026-10-16_flow-run-03\\C01_K02_take01.mp4",
+    "model": "faster-whisper small CPU int8",
+    "scope": "automatic transcription only; not listening, speaker verification, or lipsync approval",
+    "segments": [
+      {
+        "start": 0.62,
+        "end": 1.46,
+        "text": " 진짜",
+        "avg_logprob": -0.8719157874584198,
+        "no_speech_prob": 0.08809846639633179,
+        "words": [
+          {
+            "start": 0.62,
+            "end": 1.46,
+            "word": " 진짜",
+            "probability": 0.5799004435539246
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "file": "\\\\wsl.localhost\\Ubuntu-24.04\\home\\wooseok\\wsy\\samsung_related\\slide\\AI실행결과발표대회_디자인3종\\storyboards\\2026-10-16_flow-run-04\\C01_K05_take01.mp4",
+    "model": "faster-whisper small CPU int8",
+    "scope": "automatic transcription only; not listening, speaker verification, or lipsync approval",
+    "segments": [
+      {
+        "start": 1.14,
+        "end": 3.32,
+        "text": " 저만 그런 게 아니었네요, 깨요.",
+        "avg_logprob": -0.5688641220331192,
+        "no_speech_prob": 0.002408785279840231,
+        "words": [
+          {
+            "start": 1.14,
+            "end": 1.8,
+            "word": " 저만",
+            "probability": 0.8732290267944336
+          },
+          {
+            "start": 1.8,
+            "end": 2.04,
+            "word": " 그런",
+            "probability": 0.9731584191322327
+          },
+          {
+            "start": 2.04,
+            "end": 2.24,
+            "word": " 게",
+            "probability": 0.7147213816642761
+          },
+          {
+            "start": 2.24,
+            "end": 2.84,
+            "word": " 아니었네요,",
+            "probability": 0.9560035169124603
+          },
+          {
+            "start": 2.9,
+            "end": 3.32,
+            "word": " 깨요.",
+            "probability": 0.5309483855962753
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "file": "\\\\wsl.localhost\\Ubuntu-24.04\\home\\wooseok\\wsy\\samsung_related\\slide\\AI실행결과발표대회_디자인3종\\storyboards\\2026-10-16_flow-run-05\\C01_K06_take01.mp4",
+    "model": "faster-whisper small CPU int8",
+    "scope": "automatic transcription only; not listening, speaker verification, or lipsync approval",
+    "segments": [
+      {
+        "start": 0.05,
+        "end": 1.75,
+        "text": " 이걸 혼자 붙잡고 있었는데",
+        "avg_logprob": -0.31386247120405497,
+        "no_speech_prob": 0.044641751796007156,
+        "words": [
+          {
+            "start": 0.05,
+            "end": 0.59,
+            "word": " 이걸",
+            "probability": 0.908505380153656
+          },
+          {
+            "start": 0.59,
+            "end": 0.83,
+            "word": " 혼자",
+            "probability": 0.9399850368499756
+          },
+          {
+            "start": 0.83,
+            "end": 1.27,
+            "word": " 붙잡고",
+            "probability": 0.9946009119351705
+          },
+          {
+            "start": 1.27,
+            "end": 1.75,
+            "word": " 있었는데",
+            "probability": 0.9967288970947266
+          }
+        ]
+      },
+      {
+        "start": 1.75,
+        "end": 5.93,
+        "text": " 다음 사료도 볼까요?",
+        "avg_logprob": -0.31386247120405497,
+        "no_speech_prob": 0.044641751796007156,
+        "words": [
+          {
+            "start": 1.75,
+            "end": 2.75,
+            "word": " 다음",
+            "probability": 0.26701924204826355
+          },
+          {
+            "start": 5.15,
+            "end": 5.53,
+            "word": " 사료도",
+            "probability": 0.881737470626831
+          },
+          {
+            "start": 5.53,
+            "end": 5.93,
+            "word": " 볼까요?",
+            "probability": 0.9954539239406586
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "file": "\\\\wsl.localhost\\Ubuntu-24.04\\home\\wooseok\\wsy\\samsung_related\\slide\\AI실행결과발표대회_디자인3종\\storyboards\\2026-10-16_flow-run-05\\C01_K07_take01.mp4",
+    "model": "faster-whisper small CPU int8",
+    "scope": "automatic transcription only; not listening, speaker verification, or lipsync approval",
+    "segments": [
+      {
+        "start": 1.36,
+        "end": 6.12,
+        "text": " 잠깐만요, 이제 됐습니다",
+        "avg_logprob": -0.7705723444620768,
+        "no_speech_prob": 0.012506462633609772,
+        "words": [
+          {
+            "start": 1.36,
+            "end": 2.28,
+            "word": " 잠깐만요,",
+            "probability": 0.8731590509414673
+          },
+          {
+            "start": 4.94,
+            "end": 5.6,
+            "word": " 이제",
+            "probability": 0.9633195400238037
+          },
+          {
+            "start": 5.6,
+            "end": 6.12,
+            "word": " 됐습니다",
+            "probability": 0.9742105901241302
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "file": "\\\\wsl.localhost\\Ubuntu-24.04\\home\\wooseok\\wsy\\samsung_related\\slide\\AI실행결과발표대회_디자인3종\\storyboards\\2026-10-16_flow-run-05\\C01_K04_take02.mp4",
+    "model": "faster-whisper small CPU int8",
+    "scope": "automatic transcription only; not listening, speaker verification, or lipsync approval",
+    "segments": []
+  }
+]

@@ -1,0 +1,283 @@
+{
+  "run_id": "2026-10-16_flow-run-05",
+  "date_kst": "2026-10-16",
+  "basis": "flow_handoff/2026-10-15_v2",
+  "trigger": "User logged into another authorized account in Chrome Incognito to continue C01; actual balance 50 observed.",
+  "account_alias": "account02_cameron011",
+  "browser_mode": "user-provided Incognito",
+  "project_url": "https://flow.google.com/project/f96fac5e-3659-4cd2-a01a-44c83a75c1c5",
+  "observed_initial_credits": 50,
+  "observed_remaining_credits": 0,
+  "assistant_submitted_count": 4,
+  "successful_outputs": 3,
+  "status": "originals_saved_visual_cross_review_complete",
+  "settings": {
+    "mode": "Frames",
+    "start_frame_only": true,
+    "aspect_ratio": "16:9",
+    "resolution": "720p",
+    "generation_seconds": 8,
+    "outputs_per_request": 1,
+    "silent_video_return_changed_for_k04": true,
+    "restore_silent_video_return_after_result": false,
+    "silent_video_return_restored_to_original_false": true
+  },
+  "clips": [
+    {
+      "clip_id": "C01_K06",
+      "take": 1,
+      "first_frame": "upload_frames/C01/C01_N07.png",
+      "original_prompt": "C01_K06_korean_dialogue.txt",
+      "submitted_prompt": "C01_K06_submitted_prompt.txt",
+      "prompt_changes": [
+        {
+          "before": "A's original handkerchief passes to C; B later uses her OWN separate handkerchief. Never conjure a third one.",
+          "after": "H1 was already transferred to C before this shot. C keeps H1 throughout. A has no handkerchief. No handkerchief is passed between people in this shot. B's own H2 starts hidden inside her cardigan pocket. Only C holds a visible handkerchief at the beginning. B takes out her own H2 during this shot. Keep exactly these two handkerchiefs; never create a third.",
+          "reason": "Lock completed H1 transfer as starting state; clarify per-shot H2 state."
+        }
+      ],
+      "planned_model": "Veo 3.1 Fast",
+      "planned_cost": 20,
+      "generation_attempts": 1,
+      "status": "original_saved",
+      "actual_model": "Veo 3.1 - Fast",
+      "displayed_cost": 20,
+      "observed_credits_before": 50,
+      "submitted_at_kst": "2026-10-16T17:11:23.587497+09:00",
+      "generation_id": "0a719c98-84eb-4895-99b6-a68b2519e298",
+      "observed_credits_after": 30,
+      "actual_credit_debit": 20,
+      "observed_refund": 0,
+      "audio_listened": false,
+      "file": "C01_K06_take01.mp4",
+      "metadata": {
+        "clip_id": "C01_K06",
+        "file": "C01_K06_take01.mp4",
+        "bytes": 2485594,
+        "sha256": "e849c7b8935d4530117502579488cbe25d27c68b8bef4665680afb11f87f8de7",
+        "duration_seconds": 8.0,
+        "resolution": [
+          1280,
+          720
+        ],
+        "fps": 24.0,
+        "audio_stream_present": true,
+        "sample_times_seconds": [
+          0.0,
+          0.5,
+          1.0,
+          1.5,
+          2.0,
+          2.5,
+          3.0,
+          3.5,
+          4.0,
+          4.5,
+          5.0,
+          5.5,
+          6.0,
+          6.5,
+          7.0,
+          7.5
+        ],
+        "contact_sheet": "C01_K06_contact_sheet.jpg",
+        "review_scope": "16 sampled frames at 0.5-second intervals; not continuous playback or lip-sync validation"
+      },
+      "download_original_hash_matches": true,
+      "reencoded": false,
+      "lipsync_verified": false,
+      "continuous_playback_reviewed": false,
+      "visual_review_status": "candidate"
+    },
+    {
+      "clip_id": "C01_K07",
+      "take": 1,
+      "first_frame": "upload_frames/C01/C01_N10.png",
+      "original_prompt": "C01_K07_korean_dialogue.txt",
+      "submitted_prompt": "C01_K07_submitted_prompt.txt",
+      "prompt_changes": [
+        {
+          "before": "A's original handkerchief passes to C; B later uses her OWN separate handkerchief. Never conjure a third one.",
+          "after": "H1 was already transferred to C before this shot. C keeps H1 throughout. A has no handkerchief. No handkerchief is passed between people in this shot. B already holds her own H2 and folds it; she keeps it on her lap and uses one free hand to steady the bucket handle. Keep exactly these two handkerchiefs; never create a third.",
+          "reason": "Lock completed H1 transfer as starting state; clarify per-shot H2 state."
+        },
+        {
+          "before": "Same room and screen direction, closer locked three-person shot.",
+          "after": "Keep the supplied wide composition: three seated people in the foreground and D in the background. Locked camera, same room and screen direction.",
+          "reason": "Starting PNG is a wide four-person composition; avoid conflict with first-frame preservation."
+        }
+      ],
+      "planned_model": "Veo 3.1 Fast",
+      "planned_cost": 20,
+      "generation_attempts": 1,
+      "status": "original_saved",
+      "generation_id": "a9597434-cff5-4e96-8201-69579e9f3c81",
+      "actual_model": "Veo 3.1 - Fast",
+      "displayed_cost": 20,
+      "observed_credits_before": 30,
+      "observed_credits_after": 10,
+      "actual_credit_debit": 20,
+      "observed_refund": 0,
+      "audio_listened": false,
+      "file": "C01_K07_take01.mp4",
+      "metadata": {
+        "clip_id": "C01_K07",
+        "file": "C01_K07_take01.mp4",
+        "bytes": 2595826,
+        "sha256": "e696f011693bd2198ce3f4e4b370ede90556c9739393102f2f5664f83becce69",
+        "duration_seconds": 8.0,
+        "resolution": [
+          1280,
+          720
+        ],
+        "fps": 24.0,
+        "audio_stream_present": true,
+        "sample_times_seconds": [
+          0.0,
+          0.5,
+          1.0,
+          1.5,
+          2.0,
+          2.5,
+          3.0,
+          3.5,
+          4.0,
+          4.5,
+          5.0,
+          5.5,
+          6.0,
+          6.5,
+          7.0,
+          7.5
+        ],
+        "contact_sheet": "C01_K07_contact_sheet.jpg",
+        "review_scope": "16 sampled frames at 0.5-second intervals; not continuous playback or lip-sync validation"
+      },
+      "download_original_hash_matches": true,
+      "reencoded": false,
+      "lipsync_verified": false,
+      "continuous_playback_reviewed": false,
+      "visual_review_status": "ending_edit_decision_pending"
+    },
+    {
+      "clip_id": "C01_K04",
+      "take": 2,
+      "first_frame": "upload_frames/C01/C01_N04.png",
+      "submitted_prompt": "C01_K04_take02_submitted_prompt.txt",
+      "planned_model": "Veo 3.1 Lite",
+      "planned_cost": 10,
+      "status": "original_saved",
+      "generation_attempts": 2,
+      "quality_correction_reason": "take01 cropped cleaner face, introduced B cloth early and transferred H1 before K05. One additional quality take today.",
+      "prompt_changes": [
+        {
+          "before": "CONTINUITY: A is the short-haired man in a white shirt. B is the bob-haired woman in a navy cardigan. C is the middle-aged cleaner in a lime work vest. D is the calm female presenter in a charcoal jacket. Keep only the cast visible in this shot. Preserve the yellow bucket with black handle, gray mop and existing room. A's original handkerchief passes to C; B later uses her OWN separate handkerchief. Never conjure a third one.",
+          "after": "CONTINUITY: Preserve the three people and their positions in the first frame. A, the man in the white shirt, keeps the single white handkerchief H1 against his own mouth and nose throughout this shot. B, the woman in the navy cardigan, keeps both empty hands resting together on her lap throughout. C, the cleaner in the lime vest, holds only the gray mop. The yellow bucket stays on the floor in its original position. No handkerchief exchange, reaching between people, additional cloth, or bucket movement occurs."
+        },
+        {
+          "before": "ACTION: Locked medium shot of the cleaner. He makes one ordinary pass with his gray mop, hears an offscreen presenter, then stops the mop and slowly looks up, suddenly personally affected. He has not yet started sobbing and holds no handkerchief. Keep the presenter and presentation screen offscreen. The humor relies on his unexpectedly emotional attention, not a pratfall.",
+          "after": "ACTION: Keep the exact first-frame composition and a locked camera. C remains bent forward at the same torso height. He makes one short, ordinary forward pass with the mop without stepping, then stops it completely. While remaining bent forward, he raises only his gaze and tilts his chin a few degrees toward the unseen speaker. Keep his eyes, nose and mouth visible inside the frame throughout; he must not straighten up or raise his head toward the top edge. His expression changes from routine concentration to quiet, personally affected attention. His mouth stays closed; he does not cry, sob or reach toward A or B. A and B retain their existing sorrow with only small breathing movements and no change in hand positions. Do not reveal the presenter or presentation screen."
+        },
+        {
+          "before": "TIMING: The final edit uses 6 seconds of this shot. Complete the important action and reaction within the first 6 seconds; use any remaining time up to 8 seconds for a natural held end pose or small continuing motion. Do not postpone the payoff into the discarded tail. No cuts, montage, slow motion or replay.",
+          "after": "TIMING: During approximately 0–2 seconds, C completes the single short mop pass. During 2–4 seconds, he stops and shifts his gaze. During 4–8 seconds, hold his attentive reaction naturally, with the mop still. The final edit uses the first 6 seconds, so the complete action and readable reaction must occur within that interval. No cuts, repeated mop passes, slow motion or replay."
+        },
+        {
+          "before": "AUDIO ALTERNATIVE: No intelligible speech, no narration and no music. Use expressive acting with quiet mouth movements suitable for later Korean dubbing. Natural movement sounds only. Dialogue will be added in the edit; do not invent speech.",
+          "after": "AUDIO: Quiet natural mop and clothing sounds only. No intelligible speech, narration or music. The offscreen presenter's Korean line will be added during editing; none of the visible people speaks."
+        }
+      ],
+      "actual_model": "Veo 3.1 - Lite",
+      "displayed_cost": 10,
+      "observed_credits_before": 10,
+      "submitted_at_kst": "2026-10-16T17:20:29.723950+09:00",
+      "observed_credits_after": 0,
+      "actual_credit_debit": 20,
+      "observed_refund": 10,
+      "technical_attempts": [
+        {
+          "attempt": 1,
+          "status": "failed_audio_generation",
+          "silent_video_return": false,
+          "credits_before": 10,
+          "credits_after_debit": 0,
+          "credits_after_refund": 10,
+          "observed_refund": 10,
+          "generation_id": "cfdf81dc-5fbd-4779-b38e-21c6690b9cc1",
+          "output_returned": false
+        },
+        {
+          "attempt": 2,
+          "status": "generated_original_saved",
+          "silent_video_return": true,
+          "credits_before": 10,
+          "displayed_cost": 10,
+          "submitted_at_kst": "2026-10-16T17:23:52.966578+09:00",
+          "change_reason": "UI reported audio generation failure and offered return-silent-video setting. Enabled that setting for this motion-only shot after verifying refund. Same planned take02; no successful take02 existed.",
+          "generation_id": "22cde0b1-ac3b-449d-b943-f2598c0f9e29",
+          "credits_after": 0,
+          "output_returned": true
+        }
+      ],
+      "file": "C01_K04_take02.mp4",
+      "metadata": {
+        "clip_id": "C01_K04",
+        "file": "C01_K04_take02.mp4",
+        "bytes": 2514407,
+        "sha256": "91bb3eea36ea8dd69bc14311302b63a4f58435e1989a3803f48af4000c20dd7b",
+        "duration_seconds": 8.0,
+        "resolution": [
+          1280,
+          720
+        ],
+        "fps": 24.0,
+        "audio_stream_present": true,
+        "sample_times_seconds": [
+          0.0,
+          0.5,
+          1.0,
+          1.5,
+          2.0,
+          2.5,
+          3.0,
+          3.5,
+          4.0,
+          4.5,
+          5.0,
+          5.5,
+          6.0,
+          6.5,
+          7.0,
+          7.5
+        ],
+        "contact_sheet": "C01_K04_contact_sheet.jpg",
+        "review_scope": "16 sampled frames at 0.5-second intervals; not continuous playback or lip-sync validation"
+      },
+      "download_original_hash_matches": true,
+      "reencoded": false,
+      "audio_listened": false,
+      "lipsync_verified": false,
+      "continuous_playback_reviewed": false,
+      "visual_review_status": "candidate",
+      "generation_id": "22cde0b1-ac3b-449d-b943-f2598c0f9e29"
+    }
+  ],
+  "remaining_credit_plan": "Account02 actual balance 0. Do not repeat K04. User has logged into account03 with actual 50 credits; separate run06 tracks that work.",
+  "preflight_review": "repo_publish_audit independently viewed N07/N10 and checked latest timeline. Root incorporated minimum state/composition fixes, preserving source plan/images.",
+  "project_title": "AI 실행 결과 발표대회 · C01 후속 제작 · 계정02",
+  "connection_notes": [
+    "Incognito tab became accessible after user enabled extension access and refreshed.",
+    "reCAPTCHA connection error appeared; one agent reload then later user refresh. No generation until message disappeared.",
+    "User personally accepted first-upload rights dialog.",
+    "First chooser wait timed out during refresh; retry uploaded N07 successfully."
+  ],
+  "download_notes": [
+    "K06 and K07 original 720p downloads each requested once; Downloads currently contains temporary files, completion not yet verified. User asked to complete visible Chrome save/keep prompt if present. Browser downloads management page was blocked by browser URL policy; no workaround attempted.",
+    "User completed download confirmations. All three .mp4 files appeared, were copied without reencoding, and SHA256 matches were verified."
+  ],
+  "observed_total_spend": 50,
+  "transaction_ledger_checked": false,
+  "observed_gross_debit": 60,
+  "observed_total_refund": 10,
+  "originals_saved": 3
+}
