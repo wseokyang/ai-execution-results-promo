@@ -1,0 +1,35 @@
+{
+  "date_kst": "2026-10-17",
+  "reviewer": "/root/pilot_review_b",
+  "scope": "Stored ASR, source media metadata and actual55-second edit trims; not direct listening",
+  "findings": [
+    {
+      "clip": "C01_K01",
+      "transcribed_text": "왜… 이제야…",
+      "last_word_end_seconds": 3.44,
+      "used_seconds": 6,
+      "definite_missing_or_cut_word_found": false
+    },
+    {
+      "clip": "C01_K05",
+      "transcribed_text": "저만 그런 게 아니었네요",
+      "main_sentence_end_seconds": 2.84,
+      "used_seconds": 7,
+      "uncertainty": "ASR extra 깨요 may be sobbing misrecognized; not a verified utterance error.",
+      "definite_missing_or_cut_word_found": false
+    },
+    {
+      "clip": "C01_K07",
+      "transcribed_text": "잠깐만요, 이제 됐습니다",
+      "last_word_end_seconds": 6.12,
+      "used_seconds": 7,
+      "definite_missing_or_cut_word_found": false
+    }
+  ],
+  "decision": "No new source regeneration or trim adjustment indicated by this evidence. Keep user-accepted K02/K06. K04 voice auditions address explicit user pronunciation concern.",
+  "limitations": [
+    "No direct listening",
+    "No naturalness or exact pronunciation verification",
+    "No full lipsync verification"
+  ]
+}

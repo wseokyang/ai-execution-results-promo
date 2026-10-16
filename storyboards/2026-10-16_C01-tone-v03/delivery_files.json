@@ -19,5 +19,12 @@
       "preview_copy_hash_matches": true
     }
   ],
-  "status": "user_listening_pending"
+  "status": "K04_voice_accepted_by_user_final_sound_finish_pending",
+  "latest_user_followup": {
+    "date_kst": "2026-10-17",
+    "feedback": "음성 약간 발음같은게 아쉬운데, flow로 사회자 음성 부분을 생성할수는 없는거야?",
+    "status": "provisional_fallback_pronunciation_improvement_requested",
+    "next_work": "2026-10-17_flow-run-07"
+  },
+  "current_voice_status": "provisional_fallback_pronunciation_improvement_requested"
 }

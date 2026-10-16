@@ -1,5 +1,5 @@
 {
-  "status": "replacement_voice_review_pending",
+  "status": "K04_voice_accepted_final_sound_finish_pending",
   "file": "C01_review_edit_v03_55s.mp4",
   "bytes": 19598506,
   "sha256": "cbc2ea10c8820b2288d9f12d9d6c2858f90c9344e0724cd2fd4234cceea95535",
@@ -27,8 +27,21 @@
     "full_decode_exit_code": 0,
     "listening": "not performed by assistant",
     "user_confirmed_previous_K02_K06": "natural and intact",
-    "new_voice_user_approval": "pending"
+    "new_voice_user_approval": "accepted_by_user_2026-10-17",
+    "acceptance_scope": {
+      "date_kst": "2026-10-17",
+      "verbatim": "괜찮은듯",
+      "interpreted_scope": "Accept current v03 K04 replacement voice for use; not a blanket statement about all dialogue, lipsync, music, or final release."
+    }
   },
   "additional_Flow_credits": 0,
-  "paid_api_calls": 0
+  "paid_api_calls": 0,
+  "remaining_production": "Background music and final sound mix from established C01 plan; no new motion clips required.",
+  "latest_user_followup": {
+    "date_kst": "2026-10-17",
+    "feedback": "음성 약간 발음같은게 아쉬운데, flow로 사회자 음성 부분을 생성할수는 없는거야?",
+    "status": "provisional_fallback_pronunciation_improvement_requested",
+    "next_work": "2026-10-17_flow-run-07"
+  },
+  "current_voice_status": "provisional_fallback_pronunciation_improvement_requested"
 }

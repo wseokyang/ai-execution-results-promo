@@ -1,0 +1,73 @@
+{
+  "run_id": "2026-10-17_flow-run-07",
+  "date_kst": "2026-10-17",
+  "purpose": "C01 K04 offscreen presenter voice audition, preserving existing motion edit",
+  "account_alias": "account04_sander892",
+  "browser_mode": "user-provided Incognito",
+  "project_url": "https://flow.google.com/project/1d89ebc4-606d-43e7-80be-6e6f4bcb2d63",
+  "project_title": "AI 실행 결과 발표대회 · C01 발표자 음성 · 계정04",
+  "observed_initial_credits": 50,
+  "observed_remaining_credits": 40,
+  "assistant_submitted_count": 1,
+  "successful_outputs": 1,
+  "status": "voice_take01_generated_download_confirmation_pending",
+  "settings": {
+    "mode": "Frames",
+    "start_frame_only": true,
+    "aspect_ratio": "16:9",
+    "resolution": "720p",
+    "generation_seconds": 8,
+    "outputs_per_request": 1,
+    "planned_model": "Veo 3.1 Lite",
+    "displayed_cost": 10,
+    "return_silent_video": false
+  },
+  "user_steering": [
+    "v03 voice initially acceptable, then pronunciation concern reopened",
+    "User supplied currently signed-in account with50 credits",
+    "User preferred Lite10 x5 over Fast20; root agreed to up to5 necessary voice auditions with prompt adjustment after first result",
+    "User personally clicked first-upload rights agreement"
+  ],
+  "first_frame": "flow_handoff/2026-10-15_v2/upload_frames/C01/C01_N07.png",
+  "clips": [
+    {
+      "clip_id": "C01_K04_D_voice",
+      "take": 1,
+      "purpose": "audio source audition, not replacement motion shot",
+      "actual_model": "Veo 3.1 - Lite",
+      "displayed_cost": 10,
+      "observed_credits_before": 50,
+      "observed_credits_after": 40,
+      "submission_recorded_at_kst": "2026-10-17T00:41:28.913534+09:00",
+      "status": "generation_success_download_confirmation_pending",
+      "first_frame": "flow_handoff/2026-10-15_v2/upload_frames/C01/C01_N07.png",
+      "submitted_prompt": "C01_K04_D_voice_take01_prompt.txt",
+      "expected_file": "C01_K04_D_voice_take01.mp4",
+      "generation_id": "c76d6589-f550-4052-9a97-a7bab749e6ad",
+      "debit_observed": 10,
+      "refund": 0,
+      "result_url": "https://flow.google.com/project/1d89ebc4-606d-43e7-80be-6e6f4bcb2d63/edit/c76d6589-f550-4052-9a97-a7bab749e6ad",
+      "ui_title": "C01_K04_D_voice_take01 · Lite · 편안한 발표",
+      "ui_duration_seconds": 8,
+      "observed_completion_at_kst": "2026-10-17T00:47:03.872323+09:00",
+      "download": {
+        "ui_option": "720p 원본 크기",
+        "clicked": true,
+        "status": "Chrome temporary file; user save/keep confirmation requested",
+        "temporary_file": "C:/Users/wseok/Downloads/18b7683e-01d1-4104-b08e-dd293265db58.tmp",
+        "final_path": null,
+        "sha256": null
+      },
+      "review": {
+        "actual_audio_listening": false,
+        "asr": "pending_completed_download",
+        "audio_track": "unverified_until_original_saved"
+      },
+      "proof": "voice_take01_complete.png"
+    }
+  ],
+  "raw_originals_reencoded": false,
+  "net_debit": 10,
+  "refund": 0,
+  "downloaded_originals": 0
+}

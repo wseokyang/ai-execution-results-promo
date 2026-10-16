@@ -1,0 +1,8 @@
+{
+  "status": "setup_only_paused_for_user_voice_priority",
+  "date_kst": "2026-10-17",
+  "completed": "Official offline instrument synthesis engine and soundfont sources prepared only.",
+  "music_generated": false,
+  "video_rendered": false,
+  "reason": "User requests Flow speech improvement first. Do not call this a finished v04 edit."
+}

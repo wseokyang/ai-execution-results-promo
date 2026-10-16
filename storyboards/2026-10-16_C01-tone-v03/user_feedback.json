@@ -4,7 +4,22 @@
   "user_feedback": "톤앤매너가 상황에 안맞는거같은데?",
   "clarification": "너무 빠르거나 기계적임",
   "action": "Instruction-controlled natural delivery with phrase breathing and relaxed rhythm; target 3.5–4 seconds. Keep D calm to contrast with C's exaggerated crying.",
-  "previous_listening_confirmations_preserved": ["K02 dialogue and ending", "K06 dialogue and ending"],
-  "new_voice_approval": "pending",
-  "flow_regeneration_needed": false
+  "previous_listening_confirmations_preserved": [
+    "K02 dialogue and ending",
+    "K06 dialogue and ending"
+  ],
+  "new_voice_approval": "initially_accepted_then_pronunciation_improvement_requested",
+  "flow_regeneration_needed": "user_requested_voice_source_audition_only; existing_motion_cuts_preserved",
+  "acceptance": {
+    "date_kst": "2026-10-17",
+    "verbatim": "괜찮은듯",
+    "interpreted_scope": "Accept current v03 K04 replacement voice for use; not a blanket statement about all dialogue, lipsync, music, or final release."
+  },
+  "latest_user_followup": {
+    "date_kst": "2026-10-17",
+    "feedback": "음성 약간 발음같은게 아쉬운데, flow로 사회자 음성 부분을 생성할수는 없는거야?",
+    "status": "provisional_fallback_pronunciation_improvement_requested",
+    "next_work": "2026-10-17_flow-run-07"
+  },
+  "current_voice_status": "provisional_fallback_pronunciation_improvement_requested"
 }

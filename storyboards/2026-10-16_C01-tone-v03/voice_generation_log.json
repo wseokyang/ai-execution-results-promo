@@ -18,11 +18,23 @@
   "sha256": "30a5761a1340a0a40946887fec69d8f11c33abd36012e781ef138a474fd788eb",
   "reason": "User rejected v02 as too fast or mechanical; direct performance control instead of matching only timbre.",
   "voice_identity": "Stock synthetic Sohee voice; not a clone of the K06 synthetic presenter. K06 retained as user accepted.",
-  "review_status": "generated_candidate_not_listened_to_or_approved",
+  "review_status": "accepted_by_user_2026-10-17",
   "paid_api_calls": 0,
   "flow_credits_used": 0,
   "sources": [
     "https://huggingface.co/Qwen/Qwen3-TTS-12Hz-1.7B-CustomVoice",
     "https://github.com/QwenLM/Qwen3-TTS"
-  ]
+  ],
+  "user_response": {
+    "date_kst": "2026-10-17",
+    "verbatim": "괜찮은듯",
+    "interpreted_scope": "Accept current v03 K04 replacement voice for use; not a blanket statement about all dialogue, lipsync, music, or final release."
+  },
+  "latest_user_followup": {
+    "date_kst": "2026-10-17",
+    "feedback": "음성 약간 발음같은게 아쉬운데, flow로 사회자 음성 부분을 생성할수는 없는거야?",
+    "status": "provisional_fallback_pronunciation_improvement_requested",
+    "next_work": "2026-10-17_flow-run-07"
+  },
+  "current_voice_status": "provisional_fallback_pronunciation_improvement_requested"
 }
