@@ -1,0 +1,23 @@
+{
+  "files": [
+    {
+      "file": "C01_review_edit_v03_55s.mp4",
+      "bytes": 19598506,
+      "sha256": "cbc2ea10c8820b2288d9f12d9d6c2858f90c9344e0724cd2fd4234cceea95535",
+      "preview_copy_hash_matches": true
+    },
+    {
+      "file": "C01_K04_context_v03_25s.mp4",
+      "bytes": 9424800,
+      "sha256": "8b83bb265e1953dc9ba1cca964eebcf01d02cacaff160542868f55c0a84a89bf",
+      "preview_copy_hash_matches": true
+    },
+    {
+      "file": "C01_K04_D_natural_take01.wav",
+      "bytes": 188204,
+      "sha256": "30a5761a1340a0a40946887fec69d8f11c33abd36012e781ef138a474fd788eb",
+      "preview_copy_hash_matches": true
+    }
+  ],
+  "status": "user_listening_pending"
+}

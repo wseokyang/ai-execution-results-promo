@@ -1,0 +1,28 @@
+{
+  "file": "C01_K04_D_natural_take01.wav",
+  "model": "Qwen/Qwen3-TTS-12Hz-1.7B-CustomVoice",
+  "model_source": "model_source.json",
+  "speaker": "Sohee",
+  "mode": "custom_voice_with_instruction",
+  "local_only": true,
+  "device": "cpu",
+  "dtype": "float32",
+  "attention": "eager",
+  "seed": 42,
+  "text": "제가 헤맨 과정도, 같이 보여드릴게요.",
+  "instruct": "한국어로 사내 발표 중인 성인 여성의 자연스러운 대화체. 자기가 시행착오를 겪은 경험을 동료에게 편안하고 담담하게 설명한다. 평소 대화보다 조금 여유 있는 속도로, 약 3.5~4초에 걸쳐 말한다. 제가 헤맨 과정도 뒤에는 짧게 숨을 쉬고, 같이 보여드릴게요는 한 호흡으로 자연스럽게 연결한다. 단어마다 끊어 읽지 않고 사람처럼 부드러운 리듬과 작은 억양 변화를 준다. 중간 음역으로 말하며 말끝을 편안하게 내려놓는다. 웃거나 울지 않으며 광고 성우나 기계 안내 방송처럼 또박또박 과장하지 않는다.",
+  "language": "Korean",
+  "sample_rate": 24000,
+  "seconds": 3.92,
+  "elapsed_seconds": 43.832120180130005,
+  "sha256": "30a5761a1340a0a40946887fec69d8f11c33abd36012e781ef138a474fd788eb",
+  "reason": "User rejected v02 as too fast or mechanical; direct performance control instead of matching only timbre.",
+  "voice_identity": "Stock synthetic Sohee voice; not a clone of the K06 synthetic presenter. K06 retained as user accepted.",
+  "review_status": "generated_candidate_not_listened_to_or_approved",
+  "paid_api_calls": 0,
+  "flow_credits_used": 0,
+  "sources": [
+    "https://huggingface.co/Qwen/Qwen3-TTS-12Hz-1.7B-CustomVoice",
+    "https://github.com/QwenLM/Qwen3-TTS"
+  ]
+}

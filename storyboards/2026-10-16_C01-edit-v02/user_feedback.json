@@ -6,5 +6,9 @@
   },
   "K04_Heami_voice": "목소리 교체 필요",
   "scope": "Specific user listening confirmation for K02/K06; not a blanket audio/lipsync approval.",
-  "replacement_plan": "Try local Qwen3-TTS0.6B-Base with synthetic Flow D reference; no Flow credit or external paid API."
+  "replacement_plan": "Try local Qwen3-TTS0.6B-Base with synthetic Flow D reference; no Flow credit or external paid API.",
+  "K04_Qwen_take01_user_response": "톤앤매너가 상황에 안맞는거같은데?",
+  "K04_Qwen_take01_user_clarification": "너무 빠르거나 기계적임",
+  "K04_Qwen_take01_status": "rejected_by_user",
+  "next_work": "2026-10-16_C01-tone-v03"
 }

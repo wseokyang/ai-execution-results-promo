@@ -1,0 +1,44 @@
+{
+  "file": "C01_K04_D_natural_take01.wav",
+  "method": "local faster-whisper small CPU int8",
+  "segments": [
+    {
+      "start": 0.0,
+      "end": 3.68,
+      "text": " 제가 해맨 과정도 같이 보여드릴게요",
+      "words": [
+        {
+          "start": 0.0,
+          "end": 0.42,
+          "word": " 제가",
+          "probability": 0.949523389339447
+        },
+        {
+          "start": 0.42,
+          "end": 1.0,
+          "word": " 해맨",
+          "probability": 0.743830015261968
+        },
+        {
+          "start": 1.0,
+          "end": 1.68,
+          "word": " 과정도",
+          "probability": 0.9836541016896566
+        },
+        {
+          "start": 1.68,
+          "end": 2.92,
+          "word": " 같이",
+          "probability": 0.9864543080329895
+        },
+        {
+          "start": 2.92,
+          "end": 3.68,
+          "word": " 보여드릴게요",
+          "probability": 0.9627908170223236
+        }
+      ]
+    }
+  ],
+  "limitation": "Automatic transcription only. Does not verify naturalness, acting, voice continuity, or exact pronunciation."
+}

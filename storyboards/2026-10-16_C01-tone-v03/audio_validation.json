@@ -1,0 +1,12 @@
+{
+  "pcm_min": -18579,
+  "pcm_max": 21047,
+  "pcm_abs_peak_normalized": 0.642303466796875,
+  "saturated_samples": 0,
+  "all_zero": false,
+  "method": "Actual stored PCM samples; float waveform no longer retained from initial synthesis. Finite/peak preflight added to generation script for future runs, not claimed retroactively.",
+  "speech_completion": "ASR detects full sentence including 보여드릴게요 ending at 3.68s of 3.92s. Does not prove naturalness or exact pronunciation.",
+  "audio_tokens_budget": 150,
+  "estimated_audio_tokens_from_duration": 47.04,
+  "token_stop_reason": "Not exposed in saved generation result; duration is well below the approximately 12.5-second token budget."
+}

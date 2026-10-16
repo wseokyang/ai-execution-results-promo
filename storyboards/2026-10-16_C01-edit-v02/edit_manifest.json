@@ -30,5 +30,11 @@
     "new_voice_user_approval": "pending"
   },
   "additional_Flow_credits": 0,
-  "paid_api_calls": 0
+  "paid_api_calls": 0,
+  "latest_user_feedback": {
+    "status": "rejected",
+    "reason": "Too fast or mechanical; tone does not fit the situation.",
+    "date_kst": "2026-10-16",
+    "followup": "2026-10-16_C01-tone-v03"
+  }
 }

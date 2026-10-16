@@ -1,0 +1,7 @@
+{
+  "repository": "Qwen/Qwen3-TTS-12Hz-1.7B-CustomVoice",
+  "revision": "0c0e3051f131929182e2c023b9537f8b1c68adfe",
+  "destination": "C:\\Users\\wseok\\.cache\\codex-media-tools\\models\\Qwen3-TTS-12Hz-1.7B-CustomVoice",
+  "files": [],
+  "external_inference_calls": 0
+}

@@ -1,0 +1,11 @@
+{
+  "reviewer": "/root/repo_publish_audit",
+  "scope": "Read-only dramatic direction review, not audio listening",
+  "sources": ["storyboards/2026-10-15_absurd-v2/storyboards.json", "flow_handoff/2026-10-15_v2/post/C01/sound_and_transitions.tsv"],
+  "recommendation": "D remains a calm colleague casually sharing trial and error; audience emotion creates contrast. Avoid D crying or performing an advertising announcement.",
+  "target_seconds": [3.5, 4.0],
+  "phrase": "제가 헤맨 과정도 / 같이 보여드릴게요.",
+  "delivery": "Brief natural phrase breath, moderate pitch, slight emphasis on the process, gently falling ending; maintain room perspective under mop sound.",
+  "PD_decision": "Use relaxed conversational direction in response to user's specific too-fast/mechanical feedback. No change to accepted K02/K06 dialogue or visual cuts.",
+  "approval_limit": "Actual generated voice acceptance remains pending user listening. New stock voice timbre may differ from K06."
+}

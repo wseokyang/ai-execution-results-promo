@@ -1,0 +1,10 @@
+{
+  "date_kst": "2026-10-16",
+  "rejected_version": "2026-10-16_C01-edit-v02/C01_K04_D_qwen_take01.wav",
+  "user_feedback": "톤앤매너가 상황에 안맞는거같은데?",
+  "clarification": "너무 빠르거나 기계적임",
+  "action": "Instruction-controlled natural delivery with phrase breathing and relaxed rhythm; target 3.5–4 seconds. Keep D calm to contrast with C's exaggerated crying.",
+  "previous_listening_confirmations_preserved": ["K02 dialogue and ending", "K06 dialogue and ending"],
+  "new_voice_approval": "pending",
+  "flow_regeneration_needed": false
+}
