@@ -1,0 +1,75 @@
+{
+  "run_id": "2026-10-16_flow-run-03",
+  "date_kst": "2026-10-16",
+  "record_created_at_utc": "2026-10-16T00:04:35.811558+00:00",
+  "basis": "flow_handoff/2026-10-15_v2",
+  "trigger": "User explicitly requested one retry now after repeated manual failures.",
+  "project_url": "https://flow.google.com/project/2bd21ab0-a7a1-458f-9b60-02a21875a0f4",
+  "observed_initial_credits": 50,
+  "status": "generated_downloaded_reviewed_partial_candidate",
+  "assistant_submitted_count": 1,
+  "manual_submitted_count": 0,
+  "successful_outputs": 1,
+  "observed_remaining_credits": 30,
+  "observed_credits_spent": 20,
+  "clips": [
+    {
+      "clip_id": "C01_K02",
+      "first_frame": "upload_frames/C01/C01_N02.png",
+      "prompt": "prompts/C01/C01_K02_korean_dialogue.txt",
+      "prompt_diff": "none",
+      "model": "Veo 3.1 - Fast",
+      "displayed_cost": 20,
+      "settings": {
+        "mode": "Frames",
+        "start_frame_only": true,
+        "aspect_ratio": "16:9",
+        "resolution": "720p",
+        "generation_seconds": 8,
+        "outputs_per_request": 1
+      },
+      "generation_attempts": 1,
+      "status": "generated_downloaded",
+      "generation_id": "09cfb9b2-49b4-4ba0-9326-322c8fe67d02",
+      "source_file": "C01_K02_take01.mp4",
+      "actual_duration_seconds": 8.0,
+      "actual_resolution": [
+        1280,
+        720
+      ],
+      "audio_present": true,
+      "review_status": "hold_full_6_second_cut; partial_candidate_before_second_handkerchief",
+      "flow_media_url": "https://flow.google.com/project/2bd21ab0-a7a1-458f-9b60-02a21875a0f4/edit/09cfb9b2-49b4-4ba0-9326-322c8fe67d02",
+      "actual_fps": 24.0,
+      "audio_judgment": "Audio track present; dialogue content and lip-sync not verified by listening or continuous playback.",
+      "bytes": 2458492,
+      "sha256": "9426cbf7e78c893d8d4c6aea96e7e79a416e8622af1c5aa2ccc994591fc8fc58",
+      "edit_seconds_planned": 6,
+      "partial_candidate_window": "Approximately first 4.5 seconds; exact trim and dialogue endpoint not verified."
+    }
+  ],
+  "preflight": [
+    "Flow home and project no longer displayed the prior reCAPTCHA connection error before this submission. This does not establish that the security issue is resolved.",
+    "No new K02 video or active generation was visible in the existing project; prior K01/K03 preserved.",
+    "Actual account balance confirmed 50. Actual model and displayed cost confirmed Fast and 20.",
+    "Existing uploaded C01_N02.png reused, no new asset upload or project created."
+  ],
+  "notes": [
+    "The user specifically requested one retry. Generate was clicked once; no second click is authorized by this run.",
+    "Prior run02 manual failures remain separate; exact prior manual attempt count unknown.",
+    "K04 and K05 are not submitted in this run.",
+    "Generation progressed through 3% and 12%, then a new video appeared. UI duration confirmed 8 seconds.",
+    "Flow video named C01_K02_take01 — 함께 오열. 720p original size was downloaded once. Browser download wait timed out, but the finished MP4 was found in Downloads and copied intact; no second download or generation was requested.",
+    "Chrome connection identifier changed during download recovery; original video remained accessible. No security settings were changed.",
+    "Net account balance changed from 50 to 30. No additional clips generated in this one-retry run.",
+    "Three independent reviewers inspected sampled frames, exchanged findings, and confirmed the partial-candidate decision. The second handkerchief at 5.0 seconds remains an unresolved continuity issue."
+  ],
+  "charge_refund_breakdown": "Net balance change 50 to 30 confirmed in account UI; separate charge/refund transactions not inspected.",
+  "actual_review_status": "three_reviewer_sample_frame_cross_review_complete_with_unresolved_continuity_issue",
+  "review_report": "review_summary.json",
+  "result_viewer": "index.html",
+  "proof_screenshots": [
+    "k02_generated.jpg",
+    "credits_after_k02.jpg"
+  ]
+}

@@ -1,0 +1,35 @@
+[
+  {
+    "clip_id": "C01_K02",
+    "file": "C01_K02_take01.mp4",
+    "bytes": 2458492,
+    "sha256": "9426cbf7e78c893d8d4c6aea96e7e79a416e8622af1c5aa2ccc994591fc8fc58",
+    "duration_seconds": 8.0,
+    "resolution": [
+      1280,
+      720
+    ],
+    "fps": 24.0,
+    "audio_stream_present": true,
+    "sample_times_seconds": [
+      0.0,
+      0.5,
+      1.0,
+      1.5,
+      2.0,
+      2.5,
+      3.0,
+      3.5,
+      4.0,
+      4.5,
+      5.0,
+      5.5,
+      6.0,
+      6.5,
+      7.0,
+      7.5
+    ],
+    "contact_sheet": "C01_K02_contact_sheet.jpg",
+    "review_scope": "16 sampled frames at 0.5-second intervals; not continuous playback or lip-sync validation"
+  }
+]

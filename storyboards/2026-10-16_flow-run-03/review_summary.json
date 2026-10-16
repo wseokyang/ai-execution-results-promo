@@ -1,0 +1,114 @@
+{
+  "clip_id": "C01_K02",
+  "source_file": "C01_K02_take01.mp4",
+  "review_scope": "16 sampled frames at 0.5-second intervals; not continuous playback or lip-sync validation",
+  "audio_listening_performed": false,
+  "lip_sync_verified": false,
+  "continuous_playback_reviewed": false,
+  "overall_decision": "hold_full_6_second_cut; preserve_original_as_partial_use_candidate",
+  "independent_reviews": [
+    {
+      "reviewer": "A",
+      "actual_viewed_files": [
+        "C01_K02_contact_sheet.jpg",
+        "frames/C01_K02/frame_06.jpg",
+        "frames/C01_K02/frame_10.jpg",
+        "frames/C01_K02/frame_11.jpg",
+        "frames/C01_K02/frame_12.jpg"
+      ],
+      "findings": [
+        {
+          "id": "A-K02-001",
+          "severity": "required_disposition",
+          "status": "unresolved",
+          "time": "5.0–7.5 seconds",
+          "finding": "B holds a separate white handkerchief while A retains H1. This conflicts with no new handkerchief in K02 and H2 first appearing in K06.",
+          "action": "Hold planned full six-second use; preserve a partial candidate before the second handkerchief, subject to exact trim/audio review."
+        },
+        {
+          "id": "A-K02-002",
+          "severity": "optional",
+          "status": "suggestion_retained",
+          "time": "approximately 1.5–3.0 seconds",
+          "finding": "B approaches very near the cloth; the stop-in-midair beat is weak. No transfer of H1 is established in the samples.",
+          "action": "Keep the emotional reversal in later edit; do not regenerate solely for this."
+        }
+      ],
+      "cross_review_response": "Agrees with both other reviewers; no further required defect found. Approximately 4.5 seconds is not an approved exact trim endpoint."
+    },
+    {
+      "reviewer": "B",
+      "actual_viewed_files": [
+        "C01_K02_contact_sheet.jpg",
+        "frames/C01_K02/frame_06.jpg",
+        "frames/C01_K02/frame_10.jpg",
+        "frames/C01_K02/frame_11.jpg",
+        "frames/C01_K02/frame_16.jpg"
+      ],
+      "findings": [
+        {
+          "id": "B-K02-001",
+          "severity": "required_disposition",
+          "status": "unresolved",
+          "time": "5.0–7.5 seconds",
+          "finding": "B holds a separate white handkerchief while A retains H1. This conflicts with no new handkerchief in K02 and H2 first appearing in K06.",
+          "action": "Hold planned full six-second use; preserve a partial candidate before the second handkerchief, subject to exact trim/audio review."
+        },
+        {
+          "id": "B-K02-002",
+          "severity": "optional",
+          "status": "suggestion_retained",
+          "time": "approximately 1.5–3.0 seconds",
+          "finding": "B approaches very near the cloth; the stop-in-midair beat is weak. No transfer of H1 is established in the samples.",
+          "action": "Keep the emotional reversal in later edit; do not regenerate solely for this."
+        }
+      ],
+      "cross_review_response": "Agrees with both other reviewers; no further required defect found. Approximately 4.5 seconds is not an approved exact trim endpoint."
+    },
+    {
+      "reviewer": "C",
+      "actual_viewed_files": [
+        "C01_K02_contact_sheet.jpg",
+        "frames/C01_K02/frame_05.jpg",
+        "frames/C01_K02/frame_06.jpg",
+        "frames/C01_K02/frame_10.jpg",
+        "frames/C01_K02/frame_11.jpg"
+      ],
+      "findings": [
+        {
+          "id": "C-K02-001",
+          "severity": "required_disposition",
+          "status": "unresolved",
+          "time": "5.0–7.5 seconds",
+          "finding": "B holds a separate white handkerchief while A retains H1. This conflicts with no new handkerchief in K02 and H2 first appearing in K06.",
+          "action": "Hold planned full six-second use; preserve a partial candidate before the second handkerchief, subject to exact trim/audio review."
+        },
+        {
+          "id": "C-K02-002",
+          "severity": "optional",
+          "status": "suggestion_retained",
+          "time": "approximately 1.5–3.0 seconds",
+          "finding": "B approaches very near the cloth; the stop-in-midair beat is weak. No transfer of H1 is established in the samples.",
+          "action": "Keep the emotional reversal in later edit; do not regenerate solely for this."
+        }
+      ],
+      "cross_review_response": "Agrees with both other reviewers; no further required defect found. Approximately 4.5 seconds is not an approved exact trim endpoint."
+    }
+  ],
+  "cross_review": {
+    "completed": true,
+    "participants": [
+      "A:repo_publish_audit",
+      "B:pilot_review_b",
+      "C:pilot_review_c"
+    ],
+    "agreement": "All three independently identified a second handkerchief held by B while A retains H1 at about 5.0 seconds. All retain the issue as unresolved, hold the full six-second cut, and preserve an approximately 0–4.5 second partial candidate. Exact trim, speech endpoint and lip-sync remain unverified.",
+    "additional_required_issues": []
+  },
+  "pd_disposition": {
+    "001": "Unresolved; full six-second planned use held. Do not regenerate now. Preserve original; inspect exact trim in later editing.",
+    "002": "Optional improvement retained, not a regeneration reason.",
+    "positive": "B fails to console A and breaks into tears; A looks toward B by approximately 4–4.5 seconds. Cast, clothing and lighting appear stable in sampled frames.",
+    "no_changes": "No video re-encoding, edit, dialogue generation or extra take performed."
+  }
+}
