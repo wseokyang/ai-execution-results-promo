@@ -2,11 +2,17 @@
 
 행사 원자료, 홍보영상 5안의 스토리보드·대표 이미지, Flow 제작 준비 패키지와 실제 파일럿 결과를 보관하는 비공개 프로젝트입니다.
 
+## 최신 결과 · 2026-10-16
+
+C01의 일곱 동작 컷을 실제 Flow 영상으로 연결한 **55초 검토용 편집본**을 만들었습니다. [영상·편집 기록](storyboards/2026-10-16_C01-edit-v01/README.md). 세 명의 표본 시각 검수와 전체 디코딩은 통과했습니다. 실제 음성·립싱크와 K04 임시 더빙 수용 여부가 남아 최종 완성본으로 승인하지 않았습니다.
+
+새 계정에서 [K01·K03·K02 수정 원본 3개](storyboards/2026-10-16_flow-run-06/README.md)를 생성했습니다. Fast20+Fast20+Lite10, 잔액50→0. 원본은 그대로 보존했으며 실패·환불·추가 구매는 없습니다.
+
 ## 작업 이어받기
 
 1. [AGENTS.md](AGENTS.md)와 [RESUME_CODEX.txt](RESUME_CODEX.txt)를 먼저 확인합니다.
 2. 최신 제작 준비본은 [Flow 전달 패키지](flow_handoff/2026-10-15_v2/index.html)입니다. HTML은 저장소를 내려받아 브라우저에서 열면 됩니다.
-3. 실제 생성 원본은 총 5개입니다. [파일럿 K01·K03](storyboards/2026-10-15_flow-pilot-01/index.html), [K02](storyboards/2026-10-16_flow-run-03/index.html), [최신 K04·K05](storyboards/2026-10-16_flow-run-04/index.html)의 실행·검수 기록을 확인합니다.
+3. 실제 생성 원본은 총 11개입니다. 최신 [run06 원본·검수](storyboards/2026-10-16_flow-run-06/README.md)와 [C01 55초 검토용 편집본](storyboards/2026-10-16_C01-edit-v01/README.md)을 먼저 확인합니다. 아래는 이전 이력입니다. [파일럿 K01·K03](storyboards/2026-10-15_flow-pilot-01/index.html), [K02](storyboards/2026-10-16_flow-run-03/index.html), [최신 K04·K05](storyboards/2026-10-16_flow-run-04/index.html)의 실행·검수 기록을 확인합니다.
 
 완료된 5안과 이미지는 다시 만들지 않습니다. 후속 생성·편집·게시 범위는 사용자의 최신 요청을 따릅니다.
 

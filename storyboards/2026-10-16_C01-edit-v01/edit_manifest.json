@@ -1,0 +1,94 @@
+{
+  "status": "review_edit_audio_and_lipsync_not_approved",
+  "resolution": [
+    1280,
+    720
+  ],
+  "fps": 24,
+  "duration_seconds": 55,
+  "clips": [
+    {
+      "clip_id": "C01_K01",
+      "source": "2026-10-16_flow-run-06\\C01_K01_take02.mp4",
+      "source_sha256": "ba08c0d6e81862405ff08c856573b9efe83853ee12270c06b5116a74e4ab9c6f",
+      "in": 0,
+      "out": 6,
+      "timeline_start": 0,
+      "timeline_end": 6
+    },
+    {
+      "clip_id": "C01_K02",
+      "source": "2026-10-16_flow-run-06\\C01_K02_take02.mp4",
+      "source_sha256": "e9f8ef2fe7413aa5edc09161419b3cf4fa305fd51862cb9fd2f586c731fba439",
+      "in": 0,
+      "out": 8,
+      "timeline_start": 6,
+      "timeline_end": 14
+    },
+    {
+      "clip_id": "C01_K03",
+      "source": "2026-10-16_flow-run-06\\C01_K03_take02.mp4",
+      "source_sha256": "3ac07ecaf2a0628e2db33d02d58d12a3e0616aaa9835cfced74b2507a34ae668",
+      "in": 0,
+      "out": 7,
+      "timeline_start": 14,
+      "timeline_end": 21
+    },
+    {
+      "clip_id": "C01_K04",
+      "source": "2026-10-16_flow-run-05\\C01_K04_take02.mp4",
+      "source_sha256": "91bb3eea36ea8dd69bc14311302b63a4f58435e1989a3803f48af4000c20dd7b",
+      "in": 0,
+      "out": 6,
+      "timeline_start": 21,
+      "timeline_end": 27
+    },
+    {
+      "clip_id": "C01_K05",
+      "source": "2026-10-16_flow-run-04\\C01_K05_take01.mp4",
+      "source_sha256": "3f2271c9c11cf4c691dd4d9fe98ace20d237516c0e3f543980d377f57839b25f",
+      "in": 0,
+      "out": 7,
+      "timeline_start": 27,
+      "timeline_end": 34
+    },
+    {
+      "clip_id": "C01_K06",
+      "source": "2026-10-16_flow-run-05\\C01_K06_take01.mp4",
+      "source_sha256": "e849c7b8935d4530117502579488cbe25d27c68b8bef4665680afb11f87f8de7",
+      "in": 0,
+      "out": 8,
+      "timeline_start": 34,
+      "timeline_end": 42
+    },
+    {
+      "clip_id": "C01_K07",
+      "source": "2026-10-16_flow-run-05\\C01_K07_take01.mp4",
+      "source_sha256": "e696f011693bd2198ce3f4e4b370ede90556c9739393102f2f5664f83becce69",
+      "in": 0,
+      "out": 7,
+      "timeline_start": 42,
+      "timeline_end": 49
+    }
+  ],
+  "audio_scope": "Source audio retained, plus clearly identified local Microsoft Heami draft voice for offscreen D in K04. No listening or lipsync approval.",
+  "pd_changes": [
+    "K02 uses full 8 seconds to avoid cutting the late ASR-detected word.",
+    "K07 uses 7 seconds and bucket-in-front callback; exact under-chin final pose not achieved.",
+    "Ending freezes the final included K07 frame for 6 seconds."
+  ],
+  "title_basis": "flow_handoff/2026-10-15_v2/post/C01/title_overlay.svg",
+  "music": "No new music added in this review edit; dramatic music design remains pending.",
+  "ending": {
+    "start": 49,
+    "end": 55,
+    "source_frame_index": 167,
+    "source_time_seconds": 6.958333333333333,
+    "seconds": 6
+  },
+  "output": {
+    "file": "C01_review_edit_v01_55s.mp4",
+    "bytes": 19593078,
+    "sha256": "cf0a95b5cde11a2dc9d41b2f7263f143a1c22cc1d8f7d680b9503fc20194d067"
+  }
+}

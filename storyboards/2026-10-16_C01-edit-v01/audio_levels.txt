@@ -1,0 +1,41 @@
+Input #0, mov,mp4,m4a,3gp,3g2,mj2, from '\\wsl.localhost\Ubuntu-24.04\home\wooseok\wsy\samsung_related\slide\AI실행결과발표대회_디자인3종\storyboards\2026-10-16_C01-edit-v01\C01_review_edit_v01_55s.mp4':
+  Metadata:
+    major_brand     : isom
+    minor_version   : 512
+    compatible_brands: isomiso2avc1mp41
+    encoder         : Lavf61.7.100
+  Duration: 00:00:55.02, start: 0.000000, bitrate: 2848 kb/s
+  Stream #0:0[0x1](und): Video: h264 (High) (avc1 / 0x31637661), yuv420p(tv, smpte170m/bt709/iec61966-2-1, progressive), 1280x720 [SAR 1:1 DAR 16:9], 2668 kb/s, 24 fps, 24 tbr, 12288 tbn (default)
+      Metadata:
+        handler_name    : VideoHandler
+        vendor_id       : [0][0][0][0]
+        encoder         : Lavc61.19.100 libx264
+  Stream #0:1[0x2](und): Audio: aac (LC) (mp4a / 0x6134706D), 48000 Hz, stereo, fltp, 175 kb/s (default)
+      Metadata:
+        handler_name    : SoundHandler
+        vendor_id       : [0][0][0][0]
+[Parsed_volumedetect_0 @ 000001b698c4ce80] n_samples: 0
+Stream mapping:
+  Stream #0:1 -> #0:0 (aac (native) -> pcm_s16le (native))
+Press [q] to stop, [?] for help
+Output #0, null, to 'pipe:':
+  Metadata:
+    major_brand     : isom
+    minor_version   : 512
+    compatible_brands: isomiso2avc1mp41
+    encoder         : Lavf61.7.100
+  Stream #0:0(und): Audio: pcm_s16le, 48000 Hz, stereo, s16, 1536 kb/s (default)
+      Metadata:
+        handler_name    : SoundHandler
+        vendor_id       : [0][0][0][0]
+        encoder         : Lavc61.19.100 pcm_s16le
+[Parsed_volumedetect_0 @ 000001b696fc6740] n_samples: 5306368
+[Parsed_volumedetect_0 @ 000001b696fc6740] mean_volume: -24.4 dB
+[Parsed_volumedetect_0 @ 000001b696fc6740] max_volume: -2.0 dB
+[Parsed_volumedetect_0 @ 000001b696fc6740] histogram_2db: 197
+[Parsed_volumedetect_0 @ 000001b696fc6740] histogram_3db: 410
+[Parsed_volumedetect_0 @ 000001b696fc6740] histogram_4db: 1040
+[Parsed_volumedetect_0 @ 000001b696fc6740] histogram_5db: 1982
+[Parsed_volumedetect_0 @ 000001b696fc6740] histogram_6db: 3517
+[out#0/null @ 000001b698b96040] video:0KiB audio:10364KiB subtitle:0KiB other streams:0KiB global headers:0KiB muxing overhead: unknown
+size=N/A time=00:00:55.03 bitrate=N/A speed= 315x

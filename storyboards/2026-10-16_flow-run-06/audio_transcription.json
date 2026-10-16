@@ -1,0 +1,73 @@
+[
+  {
+    "file": "\\\\wsl.localhost\\Ubuntu-24.04\\home\\wooseok\\wsy\\samsung_related\\slide\\AI실행결과발표대회_디자인3종\\storyboards\\2026-10-16_flow-run-06\\C01_K01_take02.mp4",
+    "model": "faster-whisper small CPU int8",
+    "scope": "automatic transcription only; not listening, speaker verification, or lipsync approval",
+    "segments": [
+      {
+        "start": 0.0,
+        "end": 1.22,
+        "text": " 왜...",
+        "avg_logprob": -0.9759321570396423,
+        "no_speech_prob": 0.0010266595054417849,
+        "words": [
+          {
+            "start": 0.0,
+            "end": 1.22,
+            "word": " 왜...",
+            "probability": 0.5506016239523888
+          }
+        ]
+      },
+      {
+        "start": 2.34,
+        "end": 3.44,
+        "text": " 이제야...",
+        "avg_logprob": -0.9759321570396423,
+        "no_speech_prob": 0.0010266595054417849,
+        "words": [
+          {
+            "start": 2.34,
+            "end": 3.44,
+            "word": " 이제야...",
+            "probability": 0.6691479782263438
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "file": "\\\\wsl.localhost\\Ubuntu-24.04\\home\\wooseok\\wsy\\samsung_related\\slide\\AI실행결과발표대회_디자인3종\\storyboards\\2026-10-16_flow-run-06\\C01_K02_take02.mp4",
+    "model": "faster-whisper small CPU int8",
+    "scope": "automatic transcription only; not listening, speaker verification, or lipsync approval",
+    "segments": [
+      {
+        "start": 0.0,
+        "end": 7.98,
+        "text": " 진짜 좀...",
+        "avg_logprob": -1.003096302350362,
+        "no_speech_prob": 0.0712108388543129,
+        "words": [
+          {
+            "start": 0.0,
+            "end": 1.8,
+            "word": " 진짜",
+            "probability": 0.7670649290084839
+          },
+          {
+            "start": 5.96,
+            "end": 7.98,
+            "word": " 좀...",
+            "probability": 0.5035894215106964
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "file": "\\\\wsl.localhost\\Ubuntu-24.04\\home\\wooseok\\wsy\\samsung_related\\slide\\AI실행결과발표대회_디자인3종\\storyboards\\2026-10-16_flow-run-06\\C01_K03_take02.mp4",
+    "model": "faster-whisper small CPU int8",
+    "scope": "automatic transcription only; not listening, speaker verification, or lipsync approval",
+    "segments": []
+  }
+]

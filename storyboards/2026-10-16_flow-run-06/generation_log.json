@@ -6,25 +6,26 @@
   "trigger": "User logged into another Google account and offered 50 included credits for ongoing C01 completion. Actual 50 observed in UI.",
   "project_url": "https://flow.google.com/u/1/project/59a3a687-1de1-40f6-ab37-a9631d6a8fa7",
   "project_title": "AI 실행 결과 발표대회 · C01 보완 제작 · 계정03",
-  "status": "first_upload_rights_confirmation_pending",
+  "status": "three_originals_saved_visual_review_complete_audio_pending",
   "observed_initial_credits": 50,
-  "observed_remaining_credits": 50,
-  "assistant_submitted_count": 0,
-  "successful_outputs": 0,
+  "observed_remaining_credits": 0,
+  "assistant_submitted_count": 3,
+  "successful_outputs": 3,
   "settings": {
     "mode": "Frames",
     "start_frame_only": true,
     "aspect_ratio": "16:9",
     "resolution": "720p",
     "generation_seconds": 8,
-    "outputs_per_request": 1
+    "outputs_per_request": 1,
+    "return_silent_video": false
   },
   "clips": [
     {
       "clip_id": "C01_K01",
       "take": 2,
-      "status": "prepared_not_submitted",
-      "generation_attempts": 0,
+      "status": "original_saved_visual_candidate_audio_pending",
+      "generation_attempts": 1,
       "source_prompt": "C01_K01_source_prompt.txt",
       "submitted_prompt": "C01_K01_take02_submitted_prompt.txt",
       "first_frame": "upload_frames/C01/C01_N01.png",
@@ -40,13 +41,36 @@
           "before": "AUDIO: Natural ambience and action sounds, no music or extra voices. Perform these short lines in order, preserving the pauses and speaker identity. Offscreen lines must stay offscreen.\nAt about 0.8–4.5s, A says in Korean exactly: “왜… 이제야…”",
           "after": "AUDIO: Generate audible synchronized speech from the visible man, in a natural adult Korean male voice. At about 0.8–4.5 seconds, A says exactly: “왜… 이제야…” He speaks through restrained grief with a clear pause between the two words. Both words must be intelligible and clearly audible above his trembling breath; sobbing or silent mouth movement must not replace the spoken line. Match his visible mouth movements to the Korean words. Include soft natural breathing and quiet room ambience. No narrator, other voices, extra words or music."
         }
-      ]
+      ],
+      "actual_model": "Veo 3.1 - Fast",
+      "displayed_cost": 20,
+      "observed_credits_before": 50,
+      "submitted_at_kst": "2026-10-16T17:45:12.361145+09:00",
+      "observed_credits_after": 30,
+      "generation_id": "813ecaac-8c36-4b5d-8478-cf17f28f12f1",
+      "download_requested": true,
+      "file": "C01_K01_take02.mp4",
+      "actual_duration_seconds": 8.0,
+      "resolution": [
+        1280,
+        720
+      ],
+      "fps": 24.0,
+      "audio_stream_present": true,
+      "bytes": 2300691,
+      "sha256": "ba08c0d6e81862405ff08c856573b9efe83853ee12270c06b5116a74e4ab9c6f",
+      "raw_original_reencoded": false,
+      "refund": 0,
+      "actual_debit": 20,
+      "download_filename": "C01_K01_take02_—_왜_이제야_음성_20261016175158.mp4",
+      "source_copy_sha256_matches": true,
+      "actual_first_frame": "flow_handoff/2026-10-15_v2/upload_frames/C01/C01_N01.png"
     },
     {
       "clip_id": "C01_K03",
       "take": 2,
-      "status": "prepared_not_submitted",
-      "generation_attempts": 0,
+      "status": "original_saved_visual_candidate_audio_pending",
+      "generation_attempts": 1,
       "source_prompt": "C01_K03_source_prompt.txt",
       "submitted_prompt": "C01_K03_take02_submitted_prompt.txt",
       "first_frame": "upload_frames/C01/C01_R_S02.png",
@@ -66,13 +90,36 @@
           "before": "TIMING: The final edit uses 7 seconds of this shot. Complete the important action and reaction within the first 7 seconds; use any remaining time up to 8 seconds for a natural held end pose or small continuing motion. Do not postpone the payoff into the discarded tail. No cuts, montage, slow motion or replay.",
           "after": "TIMING: During 0–1 second, carry over the initial splash and smoothly narrow the stream. During 1–4.5 seconds, sustain the clearly visible centered stream without increasing its volume. During 4.5–6 seconds, taper it into a few separated drops. During 6–8 seconds, hold the exhausted handkerchief above the bucket with only an occasional final drop. A still holds H1 and B's empty hands remain at the bucket. The final edit uses the first 7 seconds. No cuts, repeated action, slow motion or replay."
         }
-      ]
+      ],
+      "actual_model": "Veo 3.1 - Fast",
+      "displayed_cost": 20,
+      "observed_credits_before": 30,
+      "submitted_at": "2026-10-16T08:50:25.673Z",
+      "observed_credits_after": 10,
+      "generation_id": "d724f403-164e-4c7d-a0cb-dbe02c853d67",
+      "download_requested": true,
+      "file": "C01_K03_take02.mp4",
+      "actual_duration_seconds": 8.0,
+      "resolution": [
+        1280,
+        720
+      ],
+      "fps": 24.0,
+      "audio_stream_present": true,
+      "bytes": 3411776,
+      "sha256": "3ac07ecaf2a0628e2db33d02d58d12a3e0616aaa9835cfced74b2507a34ae668",
+      "raw_original_reencoded": false,
+      "refund": 0,
+      "actual_debit": 20,
+      "download_filename": "C01_K03_take02_—_물줄기와_빈손_연속성_20261016175219.mp4",
+      "source_copy_sha256_matches": true,
+      "actual_first_frame": "flow_handoff/2026-10-15_v2/upload_frames/C01/C01_R_S02.png"
     },
     {
       "clip_id": "C01_K02",
       "take": 2,
-      "status": "prepared_not_submitted",
-      "generation_attempts": 0,
+      "status": "original_saved_visual_candidate_audio_pending",
+      "generation_attempts": 1,
       "source_prompt": "C01_K02_source_prompt.txt",
       "submitted_prompt": "C01_K02_take02_submitted_prompt.txt",
       "first_frame": "upload_frames/C01/C01_N02.png",
@@ -92,14 +139,43 @@
           "before": "AUDIO: Natural ambience and action sounds, no music or extra voices. Perform these short lines in order, preserving the pauses and speaker identity. Offscreen lines must stay offscreen.\nAt about 1.0–4.5s, B says in Korean exactly: “진작… 좀…”",
           "after": "AUDIO: Natural ambience and breathing, no music or extra voices. Only B speaks. At approximately 1.0–4.5 seconds, B says exactly these Korean words: “진작… 좀…” Make both words clearly audible, separated by a brief emotional pause. Keep her breathing quieter than the words; her stronger sobbing follows the line. A does not speak. No additional words."
         }
-      ]
+      ],
+      "actual_model": "Veo 3.1 - Lite",
+      "displayed_cost": 10,
+      "observed_credits_before": 10,
+      "submitted_at": "2026-10-16T08:51:35.274Z",
+      "generation_id": "2069c6bc-5e03-41b6-a368-f5ebda453eea",
+      "download_requested": true,
+      "observed_credits_after": 0,
+      "file": "C01_K02_take02.mp4",
+      "actual_duration_seconds": 8.0,
+      "resolution": [
+        1280,
+        720
+      ],
+      "fps": 24.0,
+      "audio_stream_present": true,
+      "bytes": 1984355,
+      "sha256": "e9f8ef2fe7413aa5edc09161419b3cf4fa305fd51862cb9fd2f586c731fba439",
+      "raw_original_reencoded": false,
+      "refund": 0,
+      "actual_debit": 10,
+      "download_filename": "C01_K02_take02_—_위로_실패_빈손_20261016175337.mp4",
+      "source_copy_sha256_matches": true,
+      "actual_first_frame": "flow_handoff/2026-10-15_v2/upload_frames/C01/C01_N02.png"
     }
   ],
   "preflight": "A independently inspected N01, B R_S02, C N02 and original prompts. Root incorporated targeted changes. No images or concepts recreated.",
   "notes": [
-    "Initial reCAPTCHA connection message appeared, later disappeared before upload. No generation submitted.",
-    "User pressed Start onboarding. Separate first-upload rights dialog is still pending user action; agent has not accepted it.",
+    "Historical preflight: reCAPTCHA connection notice appeared then cleared; no submission occurred at that preflight stage.",
+    "Resolved: user personally accepted first-upload rights dialog before all three submissions. Agent did not accept it.",
     "K04take02/K06/K07 from account02 already saved and reviewed, never duplicate those submissions.",
-    "Verify actual model/cost/balance immediately before each submission. Proposed order K01 Fast20, K03 Fast20, K02 Lite10."
-  ]
+    "Verify actual model/cost/balance immediately before each submission. Proposed order K01 Fast20, K03 Fast20, K02 Lite10.",
+    "User personally accepted account03 first-upload rights dialog. N01 upload completed. No security connection error at submission.",
+    "All three requests succeeded without a failed request or refund; original MP4 downloads completed normally. 50->30->10->0 observed in UI.",
+    "ASR is automatic transcription only. K02 uses full8s in review edit because last word may occur late; no extra take requested on ASR evidence alone."
+  ],
+  "gross_debit": 50,
+  "refund": 0,
+  "net_debit": 50
 }

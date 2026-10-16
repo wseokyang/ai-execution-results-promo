@@ -1,0 +1,31 @@
+{
+  "duration_seconds": 55.02,
+  "fps": 24.0,
+  "resolution": [
+    1280,
+    720
+  ],
+  "audio_track": true,
+  "decode_exit_code": 0,
+  "decode_errors": "",
+  "samples_seconds": [
+    0,
+    5.9,
+    6,
+    13.9,
+    14,
+    20.9,
+    21,
+    26.9,
+    27,
+    33.9,
+    34,
+    41.9,
+    42,
+    48.9,
+    49,
+    51,
+    54.9
+  ],
+  "review_scope": "sampled visual frames and technical decode only; not listening/lipsync approval"
+}

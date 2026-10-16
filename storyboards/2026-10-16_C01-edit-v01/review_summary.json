@@ -1,0 +1,32 @@
+{
+  "status": "sampled_visual_review_pass_audio_pending",
+  "reviewers": [
+    "repo_publish_audit",
+    "pilot_review_b",
+    "pilot_review_c"
+  ],
+  "actual_images_opened": [
+    "edit_contact_sheet.jpg",
+    "ending_source_frame.png",
+    "title_overlay_720.png",
+    "context_caption_720.png",
+    "review_frames/41.9s.jpg",
+    "review_frames/42.0s.jpg",
+    "review_frames/48.9s.jpg",
+    "review_frames/49.0s.jpg",
+    "review_frames/54.9s.jpg"
+  ],
+  "A": "No mandatory visual defects; title readable; pose changes optional. Audio and original word endpoint pending.",
+  "B": "A hands already at bucket before K07, prior hand-position jump resolved. B-FINAL-001 optional double-looking black handle, not blocker.",
+  "C": "Pixel-compared ending_source_frame against original K07 frame167: exact match. C-EDIT-001 other cast pose changes optional.",
+  "cross_review": "All3 received other2 findings and agreed optional observations remain; no additional mandatory visual omission.",
+  "pd_disposition": {
+    "B-FINAL-001": "optional observation retained; no extra generation",
+    "C-EDIT-001": "optional cut continuity observation retained",
+    "audio": "actual listening, original late-word endpoint and lipsync unapproved; user questions pending",
+    "voice": "K04 Heami draft; user acceptance pending",
+    "music": "no new score added"
+  },
+  "technical": "55.02s container, 55s video,720p24fps,decode pass",
+  "scope_limit": "Sampled images plus technical checks only; no actual listening or continuous playback verification."
+}

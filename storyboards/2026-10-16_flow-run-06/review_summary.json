@@ -1,0 +1,157 @@
+{
+  "status": "visual_candidates_cross_reviewed_audio_pending",
+  "scope": "Actual sampled frames at 0.5s intervals; not continuous playback, listening, or lipsync validation.",
+  "reviewers": {
+    "A": "repo_publish_audit",
+    "B": "pilot_review_b",
+    "C": "pilot_review_c"
+  },
+  "independent_reviews": {
+    "A": {
+      "issues": [
+        {
+          "id": "A-001",
+          "clip": "K01",
+          "severity": "required_check",
+          "issue": "audio/lipsync needs listening",
+          "disposition": "pending"
+        },
+        {
+          "id": "A-002",
+          "clip": "K02",
+          "severity": "required_check",
+          "issue": "late word may be clipped by 6s trim or original ending",
+          "disposition": "8s preserved; original endpoint listening pending"
+        },
+        {
+          "id": "A-003",
+          "clip": "K02",
+          "severity": "optional",
+          "issue": "B touches A shoulder instead of stopping in air",
+          "disposition": "accepted PD variation"
+        },
+        {
+          "id": "A-004",
+          "clip": "K03",
+          "severity": "optional",
+          "issue": "H1 unfolds/regrips after5.5s",
+          "disposition": "7s retained; no new stream or ownership error"
+        }
+      ]
+    },
+    "B": {
+      "issues": [
+        {
+          "id": "B-001",
+          "clip": "K01",
+          "severity": "required_check",
+          "issue": "audio/lipsync needs listening",
+          "disposition": "pending"
+        },
+        {
+          "id": "B-002",
+          "clip": "K03",
+          "severity": "optional",
+          "issue": "late H1 unfolding; optional5.5-6s trim",
+          "disposition": "7s retained"
+        },
+        {
+          "id": "B-003",
+          "clip": "K02",
+          "severity": "required_check",
+          "issue": "late word and original end require listening",
+          "disposition": "8s preserved, listening pending"
+        },
+        {
+          "id": "B-004",
+          "clip": "K02",
+          "severity": "optional",
+          "issue": "shoulder contact",
+          "disposition": "accepted PD variation"
+        }
+      ]
+    },
+    "C": {
+      "issues": [
+        {
+          "id": "C-001",
+          "clip": "K01/K03",
+          "severity": "required_check",
+          "issue": "actual speech, sound and lipsync unverified",
+          "disposition": "pending"
+        },
+        {
+          "id": "C-002",
+          "clip": "K03",
+          "severity": "optional",
+          "issue": "late H1 unfolding; optional5s trim",
+          "disposition": "7s retained"
+        },
+        {
+          "id": "C-003",
+          "clip": "K02",
+          "severity": "required_check",
+          "issue": "late word needs full8s and actual end check",
+          "disposition": "8s preserved, listening pending"
+        },
+        {
+          "id": "C-004",
+          "clip": "K02",
+          "severity": "optional",
+          "issue": "shoulder contact; lap hands not visible",
+          "disposition": "accepted PD variation"
+        }
+      ]
+    }
+  },
+  "cross_review": {
+    "A": {
+      "reviewed": [
+        "B-001",
+        "B-002",
+        "B-003",
+        "B-004",
+        "C-001",
+        "C-002",
+        "C-003",
+        "C-004"
+      ],
+      "result": "Agree; C-001 expands audio check to K03; shortening K03 optional, not required."
+    },
+    "B": {
+      "reviewed": [
+        "A-001",
+        "A-002",
+        "A-003",
+        "A-004",
+        "C-001",
+        "C-002",
+        "C-003",
+        "C-004"
+      ],
+      "result": "Agree; 8s K02 is not proof of intact source audio; no new mandatory visual omission."
+    },
+    "C": {
+      "reviewed": [
+        "A-001",
+        "A-002",
+        "A-003",
+        "A-004",
+        "B-001",
+        "B-002",
+        "B-003",
+        "B-004"
+      ],
+      "result": "Agree; late K02 original ending remains unchecked; K03 7s acceptable."
+    }
+  },
+  "pd_decisions": [
+    "K01 first6s,K02 full8s,K03 first7s are visual candidates.",
+    "Prior K01 missing audio stream solved structurally; spoken quality not yet approved.",
+    "Prior K02 early H2 and K03 overflow/earlyH2 resolved in samples.",
+    "K02 touch variation and K03 late regrip accepted, not grounds for another take.",
+    "K07 body-front bucket callback adopted explicitly instead of claiming exact under-chin pose.",
+    "55s review edit prepared separately; all7 motion shots use generated video."
+  ],
+  "audio_assistance": "audio_transcription.json is local faster-whisper small, not listening; K01 why/now found; K02 jin-jja may be ASR error; no extra generation authorized by this uncertainty alone."
+}
