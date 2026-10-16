@@ -31,11 +31,13 @@ for path in paths:
              'words': [{'start': w.start, 'end': w.end, 'word': w.word, 'probability': w.probability}
                        for w in s.words or []]} for s in segments]
     subprocess.run([str(ff), '-y', '-v', 'error', '-i', str(path), '-vn', '-c:a', 'copy', str(path.with_suffix('.m4a'))], check=True)
-    subprocess.run([str(ff), '-y', '-v', 'error', '-i', str(path), '-vn', '-c:a', 'pcm_s16le', '-ar', '48000', str(path.with_suffix('.wav'))], check=True)
+    # Float WAV preserves AAC decoder overshoots without clipping to integer full scale.
+    subprocess.run([str(ff), '-y', '-v', 'error', '-i', str(path), '-vn', '-c:a', 'pcm_f32le', '-ar', '48000', str(path.with_suffix('.wav'))], check=True)
     subprocess.run([str(ff), '-y', '-v', 'error', '-ss', '3', '-i', str(path), '-frames:v', '1', str(path.with_suffix('.png'))], check=True)
     result = {'file': path.name, 'bytes': path.stat().st_size, 'sha256': hashlib.sha256(path.read_bytes()).hexdigest(),
               'duration_seconds': duration, 'streams': streams, 'decode_pass': True,
               'decoded_pcm_finite': bool(np.isfinite(samples).all()), 'decoded_pcm_peak': float(np.max(np.abs(samples))),
+              'derived_wav_format': 'pcm_f32le, decoder overshoots preserved',
               'asr_model': 'faster-whisper small CPU int8', 'segments': rows,
               'limitation': 'Automatic transcription and technical inspection only. No actual listening, pronunciation, speaker identity, naturalness, or lip-sync verification.'}
     path.with_name(path.stem+'_inspection.json').write_text(json.dumps(result, ensure_ascii=False, indent=2), encoding='utf8')

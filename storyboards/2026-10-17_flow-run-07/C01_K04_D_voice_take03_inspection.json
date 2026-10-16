@@ -1,0 +1,66 @@
+{
+  "file": "C01_K04_D_voice_take03.mp4",
+  "bytes": 1878945,
+  "sha256": "55c9686919cc7f3576fa8367a8cdeb448152cb42a6d35d1c8881aee8604d90c8",
+  "duration_seconds": 8.0,
+  "streams": [
+    {
+      "type": "video",
+      "codec": "h264",
+      "duration_seconds": 8.0,
+      "width": 1280,
+      "height": 720,
+      "frame_rate": "24/1"
+    },
+    {
+      "type": "audio",
+      "codec": "aac",
+      "duration_seconds": 8.0
+    }
+  ],
+  "decode_pass": true,
+  "decoded_pcm_finite": true,
+  "decoded_pcm_peak": 1.251240611076355,
+  "derived_wav_format": "pcm_f32le, decoder overshoots preserved",
+  "asr_model": "faster-whisper small CPU int8",
+  "segments": [
+    {
+      "start": 0.0,
+      "end": 2.76,
+      "text": " 제가 실수한 부분도 같이 보여드릴게요",
+      "words": [
+        {
+          "start": 0.0,
+          "end": 0.78,
+          "word": " 제가",
+          "probability": 0.9291009306907654
+        },
+        {
+          "start": 0.78,
+          "end": 1.34,
+          "word": " 실수한",
+          "probability": 0.9925792614618937
+        },
+        {
+          "start": 1.34,
+          "end": 1.72,
+          "word": " 부분도",
+          "probability": 0.9934470256169637
+        },
+        {
+          "start": 1.72,
+          "end": 2.04,
+          "word": " 같이",
+          "probability": 0.9959478974342346
+        },
+        {
+          "start": 2.04,
+          "end": 2.76,
+          "word": " 보여드릴게요",
+          "probability": 0.93608158826828
+        }
+      ]
+    }
+  ],
+  "limitation": "Automatic transcription and technical inspection only. No actual listening, pronunciation, speaker identity, naturalness, or lip-sync verification."
+}

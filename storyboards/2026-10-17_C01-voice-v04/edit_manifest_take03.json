@@ -1,0 +1,49 @@
+{
+  "status": "voice_comparison_candidate_not_final",
+  "take": 3,
+  "source_original": "2026-10-17_flow-run-07\\C01_K04_D_voice_take03.mp4",
+  "original_sha256": "55c9686919cc7f3576fa8367a8cdeb448152cb42a6d35d1c8881aee8604d90c8",
+  "source_audio_trim_seconds": [
+    0,
+    3.7
+  ],
+  "trim_basis": "Reviewer B VAD latest end3.264s across thresholds0.3/0.5/0.7; retain0.436s tail. Original beginning retained, placement22–25.7s.",
+  "placement_seconds": [
+    22,
+    25.7
+  ],
+  "recognized_speech_in_full_edit": [
+    22.0,
+    24.759999999999998
+  ],
+  "voice_speed_change": false,
+  "voice_pitch_change": false,
+  "intermediate_wav": "pcm_f32le to preserve AAC decoder overshoots before normalization",
+  "audio_mix": "existing K04 ambience0.32; voice loudnorm-18LUFS; limiter0.89 no automatic boost; AAC192k",
+  "video_packet_count": 1320,
+  "video_payload_and_relative_timing_identical": true,
+  "mux_timestamp_shift_seconds": -0.0009765625,
+  "full_decode_pass": true,
+  "context_decode_pass": true,
+  "actual_listening": false,
+  "new_voice_user_acceptance": "selected by user: 세 번째로 진행",
+  "originals_reencoded": false,
+  "BGM_added": false,
+  "files": [
+    {
+      "name": "C01_review_edit_v04_take03_55s.mp4",
+      "bytes": 19600982,
+      "sha256": "096325b28609021402a86f70b1144d8bcaa851ed6a9355e5d6fd78bbf1e4c5e8"
+    },
+    {
+      "name": "C01_K04_Flow_take03_context_25s.mp4",
+      "bytes": 9426686,
+      "sha256": "0c3caeea4cca5553c326be5a5945893029fe78043a97db433d3e3c8f7370e312"
+    },
+    {
+      "name": "C01_K04_Flow_take03_segment.wav",
+      "bytes": 1420892,
+      "sha256": "86f58e70aff5add07803766754106f2ff836394daeae54bc90adc61020184135"
+    }
+  ]
+}

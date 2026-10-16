@@ -7,10 +7,10 @@
   "project_url": "https://flow.google.com/project/1d89ebc4-606d-43e7-80be-6e6f4bcb2d63",
   "project_title": "AI 실행 결과 발표대회 · C01 발표자 음성 · 계정04",
   "observed_initial_credits": 50,
-  "observed_remaining_credits": 40,
-  "assistant_submitted_count": 1,
-  "successful_outputs": 1,
-  "status": "voice_take01_generated_download_confirmation_pending",
+  "observed_remaining_credits": 20,
+  "assistant_submitted_count": 3,
+  "successful_outputs": 3,
+  "status": "three_originals_saved_take03_user_selected",
   "settings": {
     "mode": "Frames",
     "start_frame_only": true,
@@ -39,7 +39,7 @@
       "observed_credits_before": 50,
       "observed_credits_after": 40,
       "submission_recorded_at_kst": "2026-10-17T00:41:28.913534+09:00",
-      "status": "generation_success_download_confirmation_pending",
+      "status": "original_saved_technical_inspection_complete",
       "first_frame": "flow_handoff/2026-10-15_v2/upload_frames/C01/C01_N07.png",
       "submitted_prompt": "C01_K04_D_voice_take01_prompt.txt",
       "expected_file": "C01_K04_D_voice_take01.mp4",
@@ -53,21 +53,140 @@
       "download": {
         "ui_option": "720p 원본 크기",
         "clicked": true,
-        "status": "Chrome temporary file; user save/keep confirmation requested",
+        "status": "complete_user_confirmed",
         "temporary_file": "C:/Users/wseok/Downloads/18b7683e-01d1-4104-b08e-dd293265db58.tmp",
-        "final_path": null,
-        "sha256": null
+        "final_path": "C01_K04_D_voice_take01.mp4",
+        "sha256": "f6a30d66134417e38155c048f318c03af6b787b88ceca89a3f9ea7ba178e12cf"
       },
       "review": {
         "actual_audio_listening": false,
-        "asr": "pending_completed_download",
-        "audio_track": "unverified_until_original_saved"
+        "asr": "C01_K04_D_voice_take01_inspection.json",
+        "audio_track": "present",
+        "speech_interval_seconds": [
+          0.11,
+          2.53
+        ],
+        "pronunciation": "not verified by listening",
+        "decision": "Keep as timing-compatible candidate; compare a slower take because actual 2.42s delivery is shorter than requested about4.2s.",
+        "asr_spelling_uncertainty": "활맨 vs intended 헤맨: ASR difference is not proof of a pronunciation defect."
       },
-      "proof": "voice_take01_complete.png"
+      "proof": "voice_take01_complete.png",
+      "bytes": 1964178,
+      "sha256": "f6a30d66134417e38155c048f318c03af6b787b88ceca89a3f9ea7ba178e12cf",
+      "actual_duration_seconds": 8,
+      "resolution": "1280x720",
+      "frame_rate": 24,
+      "audio_track": true,
+      "original_file": "C01_K04_D_voice_take01.mp4"
+    },
+    {
+      "clip_id": "C01_K04_D_voice",
+      "take": 2,
+      "purpose": "audio source audition, not replacement motion shot",
+      "actual_model": "Veo 3.1 - Lite",
+      "displayed_cost": 10,
+      "observed_credits_before": 40,
+      "observed_credits_after": 30,
+      "submission_recorded_at_kst": "2026-10-17T00:54:07.224674+09:00",
+      "status": "original_saved_technical_inspection_complete",
+      "first_frame": "flow_handoff/2026-10-15_v2/upload_frames/C01/C01_N07.png",
+      "submitted_prompt": "C01_K04_D_voice_take02_prompt.txt",
+      "expected_file": "C01_K04_D_voice_take02.mp4",
+      "generation_id": "677301c2-d970-48f5-88b9-b8c04361d59e",
+      "debit_observed": 10,
+      "refund": 0,
+      "change_reason": "take01 ASR speech duration2.42s vs requested4.2s; user previously disliked fast delivery. Explicit phrase timing and short breath added, no ASR spelling based error claim.",
+      "result_url": "https://flow.google.com/project/1d89ebc4-606d-43e7-80be-6e6f4bcb2d63/edit/677301c2-d970-48f5-88b9-b8c04361d59e",
+      "bytes": 2066289,
+      "sha256": "e2cde3a521f66c37bd06c5ac224e54555361434c9a5190391d624288a99324f5",
+      "actual_duration_seconds": 8,
+      "resolution": "1280x720",
+      "frame_rate": 24,
+      "audio_track": true,
+      "original_file": "C01_K04_D_voice_take02.mp4",
+      "ui_title": "C01_K04_D_voice_take02 · Lite · 호흡과 여유",
+      "proof": "voice_take02_complete.png",
+      "download": {
+        "ui_option": "720p 원본 크기",
+        "status": "complete_user_confirmed",
+        "final_path": "C01_K04_D_voice_take02.mp4",
+        "sha256": "e2cde3a521f66c37bd06c5ac224e54555361434c9a5190391d624288a99324f5"
+      },
+      "review": {
+        "actual_audio_listening": false,
+        "asr": "C01_K04_D_voice_take02_inspection.json",
+        "speech_interval_seconds": [
+          0,
+          3.78
+        ],
+        "first_word_start_uncertain": true,
+        "asr_spelling_uncertainty": "헬멘 vs intended 헤맨; not proof of mispronunciation",
+        "decode_pass": true,
+        "decision": "Context/full comparison rendered. Await auditory comparison; no third blind audition.",
+        "float_decoder_peak": 1.1720495223999023,
+        "wav_export": "pcm_f32le avoids clipping decoder overshoots before mix normalization"
+      }
+    },
+    {
+      "clip_id": "C01_K04_D_voice",
+      "take": 3,
+      "purpose": "audio source audition, not replacement motion shot",
+      "actual_model": "Veo 3.1 - Lite",
+      "displayed_cost": 10,
+      "observed_credits_before": 30,
+      "observed_credits_after": 20,
+      "submission_recorded_at_kst": "2026-10-17T00:59:33.116962+09:00",
+      "status": "original_saved_user_selected",
+      "first_frame": "flow_handoff/2026-10-15_v2/upload_frames/C01/C01_N07.png",
+      "submitted_prompt": "C01_K04_D_voice_take03_prompt.txt",
+      "expected_file": "C01_K04_D_voice_take03.mp4",
+      "generation_id": "a4e4e053-3203-4bff-82ad-06b327d4bcef",
+      "debit_observed": 10,
+      "refund": 0,
+      "change_reason": "User heard awkward 헤맨 and preferredtake01. Replace problematic phrase with 실수한 부분; restore take01 direction instead of strict take02 timing. Preserves sharing trial/error; no exact voice continuity guarantee.",
+      "result_url": "https://flow.google.com/project/1d89ebc4-606d-43e7-80be-6e6f4bcb2d63/edit/a4e4e053-3203-4bff-82ad-06b327d4bcef",
+      "bytes": 1878945,
+      "sha256": "55c9686919cc7f3576fa8367a8cdeb448152cb42a6d35d1c8881aee8604d90c8",
+      "actual_duration_seconds": 8,
+      "resolution": "1280x720",
+      "frame_rate": 24,
+      "audio_track": true,
+      "original_file": "C01_K04_D_voice_take03.mp4",
+      "ui_title": "C01_K04_D_voice_take03 · Lite · 실수한 부분",
+      "review": {
+        "automatic_transcription": "제가 실수한 부분도 같이 보여드릴게요",
+        "speech_interval_seconds": [
+          0,
+          2.76
+        ],
+        "actual_listening_by_assistant": false,
+        "user_response": "세 번째로 진행",
+        "user_acceptance": "selected_for_K04",
+        "technical_decode_pass": true,
+        "trim_source_seconds": [
+          0,
+          3.7
+        ]
+      },
+      "download": {
+        "status": "completed",
+        "final_path": "C01_K04_D_voice_take03.mp4",
+        "sha256": "55c9686919cc7f3576fa8367a8cdeb448152cb42a6d35d1c8881aee8604d90c8",
+        "ui_option": "720p 원본 크기"
+      }
     }
   ],
   "raw_originals_reencoded": false,
-  "net_debit": 10,
+  "net_debit": 30,
   "refund": 0,
-  "downloaded_originals": 0
+  "downloaded_originals": 3,
+  "review_summary": "existing_11_originals_review.md; new voice actual pronunciation not verified by assistant; K02/K06 prior user confirmation preserved",
+  "comparison_directory": "storyboards/2026-10-17_C01-voice-v04",
+  "user_feedback": {
+    "verbatim": "헤멘 -> 이 발음이 좀 어색하긴 한데 첫번째가 낫다",
+    "interpretation": "take01 preferred overtake02; 헤맨 pronunciation concern remains. No final voice acceptance.",
+    "next_candidate_text": "제가 실수한 부분도 같이 보여드릴게요.",
+    "latest_response": "세 번째로 진행"
+  },
+  "selected_voice_take": 3
 }

@@ -1,0 +1,66 @@
+{
+  "file": "C01_K04_D_voice_take01.mp4",
+  "bytes": 1964178,
+  "sha256": "f6a30d66134417e38155c048f318c03af6b787b88ceca89a3f9ea7ba178e12cf",
+  "duration_seconds": 8.0,
+  "streams": [
+    {
+      "type": "video",
+      "codec": "h264",
+      "duration_seconds": 8.0,
+      "width": 1280,
+      "height": 720,
+      "frame_rate": "24/1"
+    },
+    {
+      "type": "audio",
+      "codec": "aac",
+      "duration_seconds": 8.0
+    }
+  ],
+  "decode_pass": true,
+  "decoded_pcm_finite": true,
+  "decoded_pcm_peak": 0.7691438794136047,
+  "derived_wav_format": "pcm_f32le, decoder overshoots preserved",
+  "asr_model": "faster-whisper small CPU int8",
+  "segments": [
+    {
+      "start": 0.11,
+      "end": 2.53,
+      "text": " 제가 활맨 과정도 같이 보여드릴게요",
+      "words": [
+        {
+          "start": 0.11,
+          "end": 0.67,
+          "word": " 제가",
+          "probability": 0.9159783720970154
+        },
+        {
+          "start": 0.67,
+          "end": 1.05,
+          "word": " 활맨",
+          "probability": 0.6407275628298521
+        },
+        {
+          "start": 1.05,
+          "end": 1.59,
+          "word": " 과정도",
+          "probability": 0.9766513903935751
+        },
+        {
+          "start": 1.59,
+          "end": 1.85,
+          "word": " 같이",
+          "probability": 0.9969413876533508
+        },
+        {
+          "start": 1.85,
+          "end": 2.53,
+          "word": " 보여드릴게요",
+          "probability": 0.9177268445491791
+        }
+      ]
+    }
+  ],
+  "limitation": "Automatic transcription and technical inspection only. No actual listening, pronunciation, speaker identity, naturalness, or lip-sync verification."
+}

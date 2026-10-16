@@ -1,0 +1,137 @@
+{
+  "method": "faster-whisper small CPU int8",
+  "limitation": "Not listening or pronunciation quality verification. Compare words, not ASR spelling as proof of errors.",
+  "segments": [
+    {
+      "start": 0.0,
+      "end": 13.81,
+      "text": " 왜 이제야 진짜 좀",
+      "words": [
+        {
+          "start": 0.0,
+          "end": 0.44,
+          "word": " 왜"
+        },
+        {
+          "start": 0.44,
+          "end": 3.26,
+          "word": " 이제야"
+        },
+        {
+          "start": 6.43,
+          "end": 7.79,
+          "word": " 진짜"
+        },
+        {
+          "start": 12.43,
+          "end": 13.81,
+          "word": " 좀"
+        }
+      ]
+    },
+    {
+      "start": 21.46,
+      "end": 40.09,
+      "text": " 제가 실수한 부분도 같이 보여드릴게요 저만 그런게 아니었네요게요 이걸 혼자 붙잡고 있었는데 다음 사료도 볼까요",
+      "words": [
+        {
+          "start": 21.46,
+          "end": 22.16,
+          "word": " 제가"
+        },
+        {
+          "start": 22.16,
+          "end": 23.38,
+          "word": " 실수한"
+        },
+        {
+          "start": 23.38,
+          "end": 23.76,
+          "word": " 부분도"
+        },
+        {
+          "start": 23.76,
+          "end": 24.1,
+          "word": " 같이"
+        },
+        {
+          "start": 24.1,
+          "end": 24.82,
+          "word": " 보여드릴게요"
+        },
+        {
+          "start": 24.82,
+          "end": 26.2,
+          "word": " 저만"
+        },
+        {
+          "start": 28.92,
+          "end": 29.34,
+          "word": " 그런게"
+        },
+        {
+          "start": 29.34,
+          "end": 30.26,
+          "word": " 아니었네요게요"
+        },
+        {
+          "start": 30.26,
+          "end": 31.2,
+          "word": " 이걸"
+        },
+        {
+          "start": 34.72,
+          "end": 34.96,
+          "word": " 혼자"
+        },
+        {
+          "start": 34.96,
+          "end": 35.42,
+          "word": " 붙잡고"
+        },
+        {
+          "start": 35.42,
+          "end": 35.92,
+          "word": " 있었는데"
+        },
+        {
+          "start": 35.92,
+          "end": 36.86,
+          "word": " 다음"
+        },
+        {
+          "start": 39.33,
+          "end": 39.69,
+          "word": " 사료도"
+        },
+        {
+          "start": 39.69,
+          "end": 40.09,
+          "word": " 볼까요"
+        }
+      ]
+    },
+    {
+      "start": 43.75,
+      "end": 48.28,
+      "text": " 잠깐만요 이제 됐습니다",
+      "words": [
+        {
+          "start": 43.75,
+          "end": 44.53,
+          "word": " 잠깐만요"
+        },
+        {
+          "start": 44.53,
+          "end": 45.35,
+          "word": " 이제"
+        },
+        {
+          "start": 47.78,
+          "end": 48.28,
+          "word": " 됐습니다"
+        }
+      ]
+    }
+  ]
+}

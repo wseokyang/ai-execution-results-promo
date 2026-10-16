@@ -1,0 +1,76 @@
+{
+  "status": "finished_edit_final_mix_listening_pending",
+  "file": "C01_why_now_edit_v05_55s.mp4",
+  "bytes": 20091486,
+  "sha256": "18796ab502be28a1614d63ad955da65cc55b7e193de3a6c234181505cb27c4fa",
+  "duration_seconds": 55,
+  "selected_voice": "Flow run07 take03, user said 세 번째로 진행",
+  "dialogue": "제가 실수한 부분도 같이 보여드릴게요.",
+  "picture": "All7 existing generated motion clips and6s ending retained",
+  "BGM": "New sparse piano/strings note sequence; no existing music or demo MIDI used",
+  "cue_regions": [
+    [
+      0,
+      34
+    ],
+    [
+      45.15,
+      46.45
+    ],
+    [
+      49.05,
+      54.8
+    ]
+  ],
+  "music_silent_34_to_42": true,
+  "score_loudness": {
+    "input_i": "-21.41",
+    "input_tp": "-6.02",
+    "input_lra": "16.40",
+    "input_thresh": "-32.52",
+    "output_i": "-28.60",
+    "output_tp": "-13.23",
+    "output_lra": "12.20",
+    "output_thresh": "-39.20",
+    "normalization_type": "dynamic",
+    "target_offset": "-1.40"
+  },
+  "master_measurement": {
+    "input_i": "-19.91",
+    "input_tp": "-1.45",
+    "input_lra": "7.90",
+    "input_thresh": "-31.01",
+    "output_i": "-18.83",
+    "output_tp": "-1.50",
+    "output_lra": "6.10",
+    "output_thresh": "-29.91",
+    "normalization_type": "dynamic",
+    "target_offset": "0.83"
+  },
+  "final_loudness": {
+    "input_i": "-18.23",
+    "input_tp": "-1.48",
+    "input_lra": "6.60",
+    "input_thresh": "-29.30",
+    "output_i": "-18.33",
+    "output_tp": "-1.50",
+    "output_lra": "5.80",
+    "output_thresh": "-29.35",
+    "normalization_type": "dynamic",
+    "target_offset": "0.33"
+  },
+  "decoded_peak": 0.8429622650146484,
+  "samples_above_full_scale": 0,
+  "video_packets": 1320,
+  "video_payload_and_relative_timing_identical": true,
+  "video_sha256": "SHA256=3fd16e070dd8c8a8a27be4e5f12e3957cf13aee0f9c94b1d0165b75fab6400b8",
+  "mux_shift_seconds": 0.0,
+  "full_decode_pass": true,
+  "originals_overwritten_or_reencoded": false,
+  "additional_Flow_credits_for_music_or_edit": 0,
+  "paid_API_calls": 0,
+  "actual_listening_by_assistant": false,
+  "remaining_review": "Full mix auditory check; do not claim human listening or all lip-sync verified.",
+  "silence_scope": "Numerical silence, not bit-exactzero after normalization/resampling",
+  "score_34_to_42_peak": 1.66e-09
+}

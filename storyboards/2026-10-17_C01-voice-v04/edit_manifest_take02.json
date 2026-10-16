@@ -1,0 +1,49 @@
+{
+  "status": "voice_comparison_candidate_not_final",
+  "take": 2,
+  "source_original": "2026-10-17_flow-run-07\\C01_K04_D_voice_take02.mp4",
+  "original_sha256": "e2cde3a521f66c37bd06c5ac224e54555361434c9a5190391d624288a99324f5",
+  "source_audio_trim_seconds": [
+    0,
+    4.6
+  ],
+  "trim_basis": "Reviewer B Silero VAD main region1.472–4.160s, additional0–0.288s uncertain event. Preserve original beginning and0.44s after VAD end. Place22–26.6s inside K04. No listening claim.",
+  "placement_seconds": [
+    22,
+    26.6
+  ],
+  "recognized_speech_in_full_edit": [
+    22.0,
+    25.78
+  ],
+  "voice_speed_change": false,
+  "voice_pitch_change": false,
+  "intermediate_wav": "pcm_f32le to preserve AAC decoder overshoots before normalization",
+  "audio_mix": "existing K04 ambience0.32; voice loudnorm-18LUFS; limiter0.89 no automatic boost; AAC192k",
+  "video_packet_count": 1320,
+  "video_payload_and_relative_timing_identical": true,
+  "mux_timestamp_shift_seconds": -0.0009765625,
+  "full_decode_pass": true,
+  "context_decode_pass": true,
+  "actual_listening": false,
+  "new_voice_user_acceptance": "comparison only; take03 subsequently selected",
+  "originals_reencoded": false,
+  "BGM_added": false,
+  "files": [
+    {
+      "name": "C01_review_edit_v04_take02_55s.mp4",
+      "bytes": 19601000,
+      "sha256": "c8aaafc93c8ea7960b7a139d6339112f13c967fbbd2f51f02d67596b0da8ea9e"
+    },
+    {
+      "name": "C01_K04_Flow_take02_context_25s.mp4",
+      "bytes": 9424718,
+      "sha256": "ea8c7afb1f091c7f72bfdecc93ea22c5fa21a2a39d682ba535e1419c116fc8bc"
+    },
+    {
+      "name": "C01_K04_Flow_take02_segment.wav",
+      "bytes": 1766492,
+      "sha256": "c8210bac9584ab4edcd8fcd01f721eabd44a65251e6d1f16493dd7fd81ae6efa"
+    }
+  ]
+}

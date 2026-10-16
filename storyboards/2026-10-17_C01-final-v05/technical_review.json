@@ -1,0 +1,28 @@
+{
+  "reviewer": "/root/pilot_review_b",
+  "scope": "Read-only code/media metadata/final score samples; no actual listening",
+  "status": "no_new_required_technical_defect_found",
+  "validation": {
+    "video_duration_seconds": 55,
+    "audio_duration_seconds": 55,
+    "container_seconds": 55.02,
+    "video_packets": 1320,
+    "payload_and_relative_timing_preserved": true,
+    "full_decode_pass": true,
+    "integrated_LUFS": -18.23,
+    "true_peak_dBTP": -1.48,
+    "decoded_peak": 0.843,
+    "samples_above_full_scale": 0
+  },
+  "silence_34_to_42": {
+    "nonzero_samples": 64,
+    "max_absolute": 1.66e-09,
+    "approx_dBFS": -176,
+    "interpretation": "negligible numerical residue; corrected exact-zero wording"
+  },
+  "limitations": [
+    "no actual full-mix listening",
+    "no complete lipsync approval",
+    "music masking and emotional effect not independently heard"
+  ]
+}

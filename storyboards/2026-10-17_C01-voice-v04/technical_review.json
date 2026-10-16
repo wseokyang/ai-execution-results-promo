@@ -1,0 +1,20 @@
+{
+  "reviewer": "/root/pilot_review_b",
+  "scope": "Read-only code, manifests, saved ASR and local VAD/silence measurements. Not listening.",
+  "findings": [
+    {"id":"B-V04-001","status":"passed","finding":"No voice speed/pitch filters. Abort above4.8-second slot. Existing1320 video packets and relative timing preserved; full decode passed."},
+    {"id":"B-V04-002","status":"passed","finding":"Limiter level=false and latency=true. AAC audio is re-encoded; do not claim identical samples outside K04."},
+    {"id":"B-V04-003","status":"resolved","finding":"take02 AAC float decoder overshoot1.172. Derived WAV/segment changed to pcm_f32le before normalization to avoid clipping during integer conversion. Original MP4 untouched."},
+    {"id":"B-V04-004","status":"resolved","finding":"ASR endpoint alone gives insufficient tail relative to VAD. Preservetake01 original0–3.3 andtake02 original0–4.6s, giving about0.45/0.44s after main VAD end. Bounds recorded separately."}
+  ],
+  "timing_comparison": {
+    "take01_main_vad_seconds":[0.512,2.848],
+    "take02_main_vad_seconds":[1.472,4.160],
+    "take02_extra_vad_seconds":[0,0.288],
+    "method":"Local Silero VAD threshold0.5, padding0ms; FFmpeg silence thresholds-40 to-30dB corroboration.",
+    "interpretation":"Main VAD and same latter phrase are about15percent longer intake02. Not evidence of50percent slowing; ASR initial0 timestamp is uncertain. No naturalness verdict."
+  },
+  "actual_listening":false,
+  "user_feedback":{"verbatim":"헤멘 -> 이 발음이 좀 어색하긴 한데 첫번째가 낫다","preferred_existing_candidate":"take01","remaining_concern":"헤맨 pronunciation","final_acceptance":false},
+  "wording_review":{"reviewer":"/root/repo_publish_audit","candidate":"제가 실수한 부분도 같이 보여드릴게요.","judgment":"Acceptable narrower wording: mistakes instead of trial/error generally. Preserves sharing difficulties and fits C/A reactions. Fictional presenter line, no new event facts.","listening_verified":false}
+}

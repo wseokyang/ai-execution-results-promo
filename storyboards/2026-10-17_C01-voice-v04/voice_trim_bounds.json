@@ -1,0 +1,23 @@
+{
+  "take01": {
+    "source_seconds": [
+      0,
+      3.3
+    ],
+    "reason": "Reviewer B Silero VAD main region0.512–2.848s. Preserve original beginning and approximately0.45s after VAD end, not only ASR endpoint. No listening claim."
+  },
+  "take02": {
+    "source_seconds": [
+      0,
+      4.6
+    ],
+    "reason": "Reviewer B Silero VAD main region1.472–4.160s, additional0–0.288s uncertain event. Preserve original beginning and0.44s after VAD end. Place22–26.6s inside K04. No listening claim."
+  },
+  "take03": {
+    "source_seconds": [
+      0,
+      3.7
+    ],
+    "reason": "Reviewer B VAD latest end3.264s across thresholds0.3/0.5/0.7; retain0.436s tail. Original beginning retained, placement22–25.7s."
+  }
+}

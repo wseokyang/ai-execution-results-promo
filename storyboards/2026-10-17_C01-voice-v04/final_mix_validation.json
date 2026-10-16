@@ -1,0 +1,39 @@
+{
+  "method": "Final AAC decode48k stereo float,K04 only",
+  "results": [
+    {
+      "file": "C01_review_edit_v04_take01_55s.mp4",
+      "sha256": "b018de1a9af0e22d2ade54c50fa7289ea889dc4bf331bd77ab37e81e7411463c",
+      "region_seconds": [
+        21,
+        27
+      ],
+      "decoded_peak": 0.534390926361084,
+      "above_full_scale": 0,
+      "finite": true
+    },
+    {
+      "file": "C01_review_edit_v04_take02_55s.mp4",
+      "sha256": "c8aaafc93c8ea7960b7a139d6339112f13c967fbbd2f51f02d67596b0da8ea9e",
+      "region_seconds": [
+        21,
+        27
+      ],
+      "decoded_peak": 0.8046270608901978,
+      "above_full_scale": 0,
+      "finite": true
+    },
+    {
+      "file": "C01_review_edit_v04_take03_55s.mp4",
+      "sha256": "096325b28609021402a86f70b1144d8bcaa851ed6a9355e5d6fd78bbf1e4c5e8",
+      "region_seconds": [
+        21,
+        27
+      ],
+      "decoded_peak": 0.57419753074646,
+      "above_full_scale": 0,
+      "finite": true
+    }
+  ],
+  "actual_listening": false
+}
