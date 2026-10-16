@@ -1,0 +1,10 @@
+{
+  "received_date_kst": "2026-10-16",
+  "user_confirmed": {
+    "K02_dialogue_and_endpoint": "둘 다 자연스럽게 들림",
+    "K06_dialogue_and_endpoint": "둘 다 자연스럽게 들림"
+  },
+  "K04_Heami_voice": "목소리 교체 필요",
+  "scope": "Specific user listening confirmation for K02/K06; not a blanket audio/lipsync approval.",
+  "replacement_plan": "Try local Qwen3-TTS0.6B-Base with synthetic Flow D reference; no Flow credit or external paid API."
+}

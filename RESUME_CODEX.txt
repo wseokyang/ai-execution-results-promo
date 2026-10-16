@@ -1,3 +1,12 @@
+최신 진행 — 2026-10-16 C01 편집v02 · K04 목소리 교체
+
+- 사용자가 v01의 K02/K06 대사와 말끝이 모두자연스럽게들린다고직접확인했다. 이두항목은해결,같은질문이나ASR추정만으로재생성하지않는다. 다른음성/전체립싱크승인으로확대하지않는다.
+- 사용자는K04 Microsoft Heami임시음성교체요청. 기존Flow합성발표자D의K06 4.5~6.3초참조로로컬Qwen3-TTS0.6B-Base새대사생성성공. C01_K04_D_qwen_take01.wav,24kHz모노PCM,2.48초. 실제문장전사에서전체단어검출,청취는아님.
+- 최신본: storyboards/2026-10-16_C01-edit-v02/C01_review_edit_v02_55s.mp4. 새음성22~24.48초배치,영상1320패킷내용/상대시간v01동일. AAC재인코딩,리먹스상수offset -0.9766ms기록. 전체디코딩통과,B-TECH-001리미터설정수정후독립기술재검수통과.
+- 새목소리샘플을사용자에게첨부하고사용/느리게/다른목소리선택을질문했다. 최신답변확인. 새목소리수용은아직미확인이라최종승인상태로바꾸지않는다. v01과Flow원본보존,Flow크레딧·유료API추가사용0.
+- 로컬환경: C:/Users/wseok/.cache/codex-media-tools/qwen-tts-env,공식PyPI qwen-tts0.1.1/torch2.7.1cu126,모델동일cache/models/Qwen3-TTS-12Hz-0.6B-Base. float16실패후float32+eager성공. 설치/모델은저장소밖,재현코드와requirements는v02폴더.
+- 기존5안/이미지재제작없음. 최신자동화스냅샷v02/automation_after_voice_change.json. 새음성답변대기만을이유로기존동작컷재생성금지.
+
 최신 진행 — 2026-10-16 run06 및 C01 편집v01 (아래 과거 인계보다 우선)
 
 - 계정03 프로젝트 https://flow.google.com/u/1/project/59a3a687-1de1-40f6-ab37-a9631d6a8fa7 에서 사용자가 최초권리동의를 직접완료했다. K01take02 Fast20, K03take02 Fast20, K02take02 Lite10 모두성공, 실제50→30→10→0. 실패/환불없음. 세원본은 storyboards/2026-10-16_flow-run-06/에 재인코딩없이보존. ID/프롬프트/SHA/잔액은generation_log.json.

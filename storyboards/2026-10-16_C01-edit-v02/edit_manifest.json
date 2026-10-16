@@ -1,0 +1,34 @@
+{
+  "status": "replacement_voice_review_pending",
+  "file": "C01_review_edit_v02_55s.mp4",
+  "bytes": 19599642,
+  "sha256": "d156bd920fe3d61bdcee66a32b37139e9db12abc1c67c761f325d8de9cd20347",
+  "base_edit": "2026-10-16_C01-edit-v01\\C01_review_edit_v01_55s.mp4",
+  "video_bitstream_sha256_before": "SHA256=3fd16e070dd8c8a8a27be4e5f12e3957cf13aee0f9c94b1d0165b75fab6400b8",
+  "video_bitstream_sha256_after": "SHA256=3fd16e070dd8c8a8a27be4e5f12e3957cf13aee0f9c94b1d0165b75fab6400b8",
+  "video_bitstream_identical": true,
+  "video_relative_packet_timing_identical": true,
+  "video_mux_timestamp_shift_seconds": -0.0009765625,
+  "video_packet_count": 1320,
+  "audio_edit": {
+    "clip": "K04",
+    "timeline_region": [
+      21,
+      27
+    ],
+    "new_voice": "C01_K04_D_qwen_take01.wav",
+    "voice_start": 22,
+    "voice_end": 24.48,
+    "ambient_source": "2026-10-16_flow-run-05\\C01_K04_take02.mp4",
+    "voice_seconds": 2.48
+  },
+  "unchanged_content": "All visual cuts, captions, ending and dialogue outside K04 retained. Audio track encoded to AAC; original source files untouched.",
+  "validation": {
+    "full_decode_exit_code": 0,
+    "listening": "not performed by assistant",
+    "user_confirmed_previous_K02_K06": "natural and intact",
+    "new_voice_user_approval": "pending"
+  },
+  "additional_Flow_credits": 0,
+  "paid_api_calls": 0
+}

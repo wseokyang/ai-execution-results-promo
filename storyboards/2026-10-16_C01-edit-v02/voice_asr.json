@@ -1,0 +1,42 @@
+{
+  "scope": "automatic transcription of new voice, not listening",
+  "segments": [
+    {
+      "start": 0.0,
+      "end": 2.24,
+      "text": " 제가 해맨 과정도 같이 보여드릴게요.",
+      "words": [
+        {
+          "start": 0.0,
+          "end": 0.38,
+          "word": " 제가",
+          "probability": 0.9700671434402466
+        },
+        {
+          "start": 0.38,
+          "end": 0.78,
+          "word": " 해맨",
+          "probability": 0.7906447052955627
+        },
+        {
+          "start": 0.78,
+          "end": 1.24,
+          "word": " 과정도",
+          "probability": 0.9840056697527567
+        },
+        {
+          "start": 1.24,
+          "end": 1.58,
+          "word": " 같이",
+          "probability": 0.9965502023696899
+        },
+        {
+          "start": 1.58,
+          "end": 2.24,
+          "word": " 보여드릴게요.",
+          "probability": 0.9260077774524689
+        }
+      ]
+    }
+  ]
+}

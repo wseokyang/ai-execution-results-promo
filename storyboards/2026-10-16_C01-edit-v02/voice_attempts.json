@@ -1,0 +1,21 @@
+[
+  {
+    "attempt": 1,
+    "device": "cuda:0",
+    "dtype": "float16",
+    "status": "failed_no_audio_created",
+    "error": "CUDA device-side assertion during sampling; precision-related numerical issue suspected, not established",
+    "next_change": "float32 inference on same GPU, no other prompt change"
+  },
+  {
+    "attempt": 2,
+    "device": "cuda:0",
+    "dtype": "float32",
+    "status": "success",
+    "file": "C01_K04_D_qwen_take01.wav",
+    "seconds": 2.48,
+    "listening_approval": "pending",
+    "paid_api_calls": 0,
+    "flow_credits": 0
+  }
+]

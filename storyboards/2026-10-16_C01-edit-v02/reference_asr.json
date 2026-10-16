@@ -1,0 +1,30 @@
+{
+  "scope": "automatic transcription of cropped reference, not listening",
+  "segments": [
+    {
+      "start": 2.74,
+      "end": 4.02,
+      "text": " 다음 사료도 볼까요?",
+      "words": [
+        {
+          "start": 2.74,
+          "end": 3.28,
+          "word": " 다음",
+          "probability": 0.9617787003517151
+        },
+        {
+          "start": 3.28,
+          "end": 3.66,
+          "word": " 사료도",
+          "probability": 0.9242814977963766
+        },
+        {
+          "start": 3.66,
+          "end": 4.02,
+          "word": " 볼까요?",
+          "probability": 0.9965590834617615
+        }
+      ]
+    }
+  ]
+}

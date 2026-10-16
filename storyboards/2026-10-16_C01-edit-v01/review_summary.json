@@ -28,5 +28,10 @@
     "music": "no new score added"
   },
   "technical": "55.02s container, 55s video,720p24fps,decode pass",
-  "scope_limit": "Sampled images plus technical checks only; no actual listening or continuous playback verification."
+  "scope_limit": "Sampled images plus technical checks only; no actual listening or continuous playback verification.",
+  "user_feedback_2026_10_16": {
+    "K02_and_K06_dialogue_and_endpoints": "User listened and reported both natural and intact.",
+    "K04_Heami": "User requests voice replacement.",
+    "scope": "Only these asked items; does not retroactively assert assistant listening or blanket lipsync approval."
+  }
 }

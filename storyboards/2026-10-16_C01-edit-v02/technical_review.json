@@ -1,0 +1,10 @@
+{
+  "reviewer": "pilot_review_b",
+  "scope": "read-only code/manifest/ffmpeg option audit, no listening",
+  "issue": "B-TECH-001",
+  "finding": "alimiter default automatic gain and latency not explicit",
+  "resolution": "level=false:latency=true",
+  "recheck": "resolved; no new mandatory technical problem",
+  "video_validation": "1320 packet payloads and relative PTS/DTS identical; constant mux offset -0.0009765625seconds recorded",
+  "new_voice": "user listening approval pending"
+}

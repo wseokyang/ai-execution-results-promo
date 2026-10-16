@@ -1,0 +1,30 @@
+{
+  "file": "C01_K04_D_qwen_take01.wav",
+  "model": "Qwen/Qwen3-TTS-12Hz-0.6B-Base",
+  "mode": "voice_clone",
+  "local_only": true,
+  "seed": 42,
+  "dtype": "float32",
+  "attention": "eager",
+  "text": "제가 헤맨 과정도 같이 보여드릴게요.",
+  "language": "Korean",
+  "reference": {
+    "file": "D_reference_clean_from_K06.wav",
+    "source": "storyboards/2026-10-16_flow-run-05/C01_K06_take01.mp4",
+    "in": 4.5,
+    "duration": 1.8,
+    "transcript": "다음 사례도 볼까요?",
+    "provenance": "Existing synthetic Flow character D, not a real person recording."
+  },
+  "sample_rate": 24000,
+  "seconds": 2.48,
+  "elapsed_seconds": 12.666101694107056,
+  "sha256": "6204c07956c2807a9b4c6b0c6d5e980f325c23e8d1ef7c3fb1edb14e8a2f3333",
+  "review_status": "generated_candidate_not_listened_to_or_approved",
+  "paid_api_calls": 0,
+  "flow_credits_used": 0,
+  "sources": [
+    "https://github.com/QwenLM/Qwen3-TTS",
+    "https://huggingface.co/Qwen/Qwen3-TTS-12Hz-0.6B-Base"
+  ]
+}
