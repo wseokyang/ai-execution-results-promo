@@ -1,0 +1,169 @@
+{
+  "run_id": "2026-10-16_flow-run-04",
+  "review_scope": "16 sampled frames per clip at 0.5-second intervals, plus K05 selected 1280x720 frames; not continuous playback",
+  "audio_listening_performed": false,
+  "lip_sync_verified": false,
+  "continuous_playback_reviewed": false,
+  "independent_reviews": [
+    {
+      "reviewer": "A",
+      "actual_viewed_files": [
+        "C01_K04_contact_sheet.jpg",
+        "C01_K05_contact_sheet.jpg",
+        "frames/C01_K04/frame_04.jpg",
+        "frames/C01_K04/frame_06.jpg",
+        "frames/C01_K04/frame_08.jpg",
+        "frames/C01_K04/frame_12.jpg",
+        "frames/C01_K05/frame_04.jpg",
+        "frames/C01_K05/frame_06.jpg",
+        "frames/C01_K05/frame_12.jpg",
+        "frames/C01_K05/frame_13.jpg",
+        "C01_K05_full_5_5.png",
+        "C01_K05_full_7_0.png"
+      ],
+      "findings": [
+        {
+          "id": "A04-001",
+          "clip_id": "C01_K04",
+          "severity": "required_disposition",
+          "status": "unresolved",
+          "finding": "B holds separate cloth from about 3.5 seconds, before H2 first appearance in K06.",
+          "time_seconds": "3.5–7.5"
+        },
+        {
+          "id": "A04-002",
+          "clip_id": "C01_K04",
+          "severity": "required_disposition",
+          "status": "unresolved",
+          "finding": "C face is cropped out near top during stand/look reaction; intended emotional response unreadable.",
+          "time_seconds": "approximately 2–4"
+        },
+        {
+          "id": "A04-003",
+          "clip_id": "C01_K04",
+          "severity": "required_disposition",
+          "status": "unresolved",
+          "finding": "A begins handing H1 to C, preempting K05 transfer.",
+          "time_seconds": "approximately 4.5–7.5"
+        },
+        {
+          "id": "A04-004",
+          "clip_id": "C01_K05",
+          "severity": "optional",
+          "status": "suggestion_retained",
+          "finding": "A also helps B nudge bucket at about 2–4 seconds; not a regeneration reason."
+        }
+      ],
+      "positive": "K05 H1 released by A around 1.5–2 seconds and retained by C; B empty hands, bucket moves at about 2–3.5 seconds; sincere crying escalation reads.",
+      "cross_review_response": "Agrees with both peers on all three unresolved K04 issues. Exact cropped-face interval varies slightly without changing judgment. K05 A helping bucket is optional; no new required issue. Full-resolution check confirms A hands empty, white area is shirt cuff, not a new cloth. K04 0–about 3 seconds is only an editing experiment, not resolution of reaction defect."
+    },
+    {
+      "reviewer": "B",
+      "actual_viewed_files": [
+        "C01_K04_contact_sheet.jpg",
+        "C01_K05_contact_sheet.jpg",
+        "frames/C01_K04/frame_04.jpg",
+        "frames/C01_K04/frame_06.jpg",
+        "frames/C01_K04/frame_08.jpg",
+        "frames/C01_K05/frame_05.jpg",
+        "frames/C01_K05/frame_12.jpg",
+        "frames/C01_K05/frame_13.jpg",
+        "C01_K05_full_5_5.png",
+        "C01_K05_full_6_0.png",
+        "C01_K05_full_7_0.png"
+      ],
+      "findings": [
+        {
+          "id": "B04-001",
+          "clip_id": "C01_K04",
+          "severity": "required_disposition",
+          "status": "unresolved",
+          "finding": "B holds separate cloth from about 3.5 seconds, before H2 first appearance in K06.",
+          "time_seconds": "3.5–7.5"
+        },
+        {
+          "id": "B04-002",
+          "clip_id": "C01_K04",
+          "severity": "required_disposition",
+          "status": "unresolved",
+          "finding": "C face is cropped out near top during stand/look reaction; intended emotional response unreadable.",
+          "time_seconds": "approximately 2–4"
+        },
+        {
+          "id": "B04-003",
+          "clip_id": "C01_K04",
+          "severity": "required_disposition",
+          "status": "unresolved",
+          "finding": "A begins handing H1 to C, preempting K05 transfer.",
+          "time_seconds": "approximately 4.5–7.5"
+        }
+      ],
+      "positive": "K05 H1 released by A around 1.5–2 seconds and retained by C; B empty hands, bucket moves at about 2–3.5 seconds; sincere crying escalation reads.",
+      "cross_review_response": "Agrees with both peers on all three unresolved K04 issues. Exact cropped-face interval varies slightly without changing judgment. K05 A helping bucket is optional; no new required issue. Full-resolution check confirms A hands empty, white area is shirt cuff, not a new cloth. K04 0–about 3 seconds is only an editing experiment, not resolution of reaction defect."
+    },
+    {
+      "reviewer": "C",
+      "actual_viewed_files": [
+        "C01_K04_contact_sheet.jpg",
+        "C01_K05_contact_sheet.jpg",
+        "frames/C01_K04/frame_06.jpg",
+        "frames/C01_K04/frame_08.jpg",
+        "frames/C01_K04/frame_10.jpg",
+        "frames/C01_K04/frame_12.jpg",
+        "frames/C01_K05/frame_04.jpg",
+        "frames/C01_K05/frame_06.jpg",
+        "frames/C01_K05/frame_11.jpg",
+        "frames/C01_K05/frame_12.jpg",
+        "frames/C01_K05/frame_13.jpg",
+        "frames/C01_K05/frame_15.jpg",
+        "C01_K05_full_5_5.png",
+        "C01_K05_full_6_0.png",
+        "C01_K05_full_7_0.png"
+      ],
+      "findings": [
+        {
+          "id": "C04-001",
+          "clip_id": "C01_K04",
+          "severity": "required_disposition",
+          "status": "unresolved",
+          "finding": "C face is cropped out near top during stand/look reaction; intended emotional response unreadable.",
+          "time_seconds": "approximately 2–4"
+        },
+        {
+          "id": "C04-002",
+          "clip_id": "C01_K04",
+          "severity": "required_disposition",
+          "status": "unresolved",
+          "finding": "B holds separate cloth from about 3.5 seconds, before H2 first appearance in K06.",
+          "time_seconds": "3.5–7.5"
+        },
+        {
+          "id": "C04-003",
+          "clip_id": "C01_K04",
+          "severity": "required_disposition",
+          "status": "unresolved",
+          "finding": "A begins handing H1 to C, preempting K05 transfer.",
+          "time_seconds": "approximately 4.5–7.5"
+        }
+      ],
+      "positive": "K05 H1 released by A around 1.5–2 seconds and retained by C; B empty hands, bucket moves at about 2–3.5 seconds; sincere crying escalation reads.",
+      "cross_review_response": "Agrees with both peers on all three unresolved K04 issues. Exact cropped-face interval varies slightly without changing judgment. K05 A helping bucket is optional; no new required issue. Full-resolution check confirms A hands empty, white area is shirt cuff, not a new cloth. K04 0–about 3 seconds is only an editing experiment, not resolution of reaction defect."
+    }
+  ],
+  "cross_review": {
+    "completed": true,
+    "participants": [
+      "A:repo_publish_audit",
+      "B:pilot_review_b",
+      "C:pilot_review_c"
+    ],
+    "all_responses_received": true,
+    "agreement": "K04 full planned six-second use held; about first three seconds only partial experiment. K05 first seven seconds visual candidate, audio unverified. All required K04 issues remain unresolved."
+  },
+  "pd_disposition": {
+    "K04": "Hold full 6 seconds. Preserve original. Test early partial only after missing K06/K07; do not claim face reaction fixed. Regenerate only if necessary after evaluating actual sequence.",
+    "K05": "Accept as 7-second visual candidate; exact audio, lip-sync and continuous movement still require review.",
+    "K05_uncertain_white_object": "Reviewer C raised uncertainty; new full-resolution frames resolved it as A shirt cuffs, not a new handkerchief. A and B independently confirmed during cross-review.",
+    "regeneration": "No extra takes this run; missing K06/K07 first when credits available."
+  }
+}

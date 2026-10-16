@@ -1,0 +1,68 @@
+[
+  {
+    "clip_id": "C01_K04",
+    "file": "C01_K04_take01.mp4",
+    "bytes": 3230602,
+    "sha256": "de0bb588db15037be7f4744f4e8fe05c15dc41ef532a44d30f2e860754bec37b",
+    "duration_seconds": 8.0,
+    "resolution": [
+      1280,
+      720
+    ],
+    "fps": 24.0,
+    "audio_stream_present": true,
+    "sample_times_seconds": [
+      0.0,
+      0.5,
+      1.0,
+      1.5,
+      2.0,
+      2.5,
+      3.0,
+      3.5,
+      4.0,
+      4.5,
+      5.0,
+      5.5,
+      6.0,
+      6.5,
+      7.0,
+      7.5
+    ],
+    "contact_sheet": "C01_K04_contact_sheet.jpg",
+    "review_scope": "16 sampled frames at 0.5-second intervals; not continuous playback or lip-sync validation"
+  },
+  {
+    "clip_id": "C01_K05",
+    "file": "C01_K05_take01.mp4",
+    "bytes": 4218620,
+    "sha256": "3f2271c9c11cf4c691dd4d9fe98ace20d237516c0e3f543980d377f57839b25f",
+    "duration_seconds": 8.0,
+    "resolution": [
+      1280,
+      720
+    ],
+    "fps": 24.0,
+    "audio_stream_present": true,
+    "sample_times_seconds": [
+      0.0,
+      0.5,
+      1.0,
+      1.5,
+      2.0,
+      2.5,
+      3.0,
+      3.5,
+      4.0,
+      4.5,
+      5.0,
+      5.5,
+      6.0,
+      6.5,
+      7.0,
+      7.5
+    ],
+    "contact_sheet": "C01_K05_contact_sheet.jpg",
+    "review_scope": "16 sampled frames at 0.5-second intervals; not continuous playback or lip-sync validation"
+  }
+]
