@@ -1,5 +1,5 @@
 {
-  "status": "technical_pass_auditory_acceptance_pending",
+  "status": "technical_and_visual_pass_user_selected_K06_voice",
   "reviewer": "/root/pilot_review_b",
   "visual_basis": "Reviewed v06 exact864 video payload packets and timestamps preserved; its existing A/B/C visual review applies to unchanged picture.",
   "code_findings": [
@@ -47,6 +47,13 @@
   "final_audit": "No new mandatory technical finding. 864 packets and timing unchanged, full decode pass, -18.25LUFS/-1.49dBTP, PCM peak0.841/full-scale0. Goal dialogue is not a verified transcript.",
   "actual_listening": false,
   "ASR_spelling": "다음 사료도 볼까요?",
-  "user_acceptance": false,
-  "remaining": "User listening judgment of pronunciation and full mix. Do not claim three new auditory reviews."
+  "user_acceptance": true,
+  "remaining": "No mandatory K06 voice correction pending after user selection. Assistant did not listen to audio; full-mix listening and all lip-sync were not independently certified.",
+  "user_acceptance_scope": "K06 replacement voice only",
+  "user_voice_selection": {
+    "date_kst": "2026-10-17",
+    "user_quote": "이 음성으로 진행",
+    "scope": "K06 new question voice in v07, shown in 12.5s context; not an explicit whole-mix listening certification",
+    "decision": "Adopt v07 as current final C01 edit; do not regenerate this voice without new specific feedback."
+  }
 }

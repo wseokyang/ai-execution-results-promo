@@ -4,7 +4,7 @@
   "purpose": "K06 presenter Korean pronunciation correction requested by user",
   "account_alias": "account04_sander892",
   "project_url": "https://flow.google.com/project/1d89ebc4-606d-43e7-80be-6e6f4bcb2d63",
-  "status": "take02_original_saved_inspection_complete_voice_not_auditorily_approved",
+  "status": "take02_original_saved_user_selected_voice_in_v07",
   "user_report_before_run": "Manual request failed; user refreshed. Exact prior error/click count not independently observed.",
   "preflight": {
     "existing_successful_voice_sources": 3,
@@ -61,7 +61,7 @@
       "cost": 10,
       "credits_before": 20,
       "change_reason": "First request failed audio generation, not security. Replace long English and phonetic constraints with concise Korean direction; same exact dialogue. One technical retry only.",
-      "review": "ASR and decode only; exact pronunciation not actually heard. ASR again renders 사례 as 사료; do not treat this alone as a proven pronunciation failure.",
+      "review": "Technical decode and ASR inspection complete. User selected the new K06 voice with 이 음성으로 진행 on 2026-10-17. Assistant did not listen; ASR spelling alone must not trigger regeneration.",
       "credits_after_debit": 10,
       "result_url": "https://flow.google.com/project/1d89ebc4-606d-43e7-80be-6e6f4bcb2d63/edit/c72a6cb0-6acf-40ec-8976-29be10c5315d",
       "ui_title": "C01_K06_D_voice_take02 · Lite · 또렷한 질문",
@@ -84,7 +84,13 @@
       ],
       "fps": 24,
       "audio_track": true,
-      "sha256": "9e0fe2ccb27dd369c57e054946359a75f83fadd045521c7945c95d261ca54f60"
+      "sha256": "9e0fe2ccb27dd369c57e054946359a75f83fadd045521c7945c95d261ca54f60",
+      "user_voice_selection": {
+        "date_kst": "2026-10-17",
+        "user_quote": "이 음성으로 진행",
+        "scope": "K06 new question voice in v07, shown in 12.5s context; not an explicit whole-mix listening certification",
+        "decision": "Adopt v07 as current final C01 edit; do not regenerate this voice without new specific feedback."
+      }
     }
   ],
   "screenshot": "K06_pending_balance10.png",

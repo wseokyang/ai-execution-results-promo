@@ -1,5 +1,5 @@
 {
-  "status": "completed_original_saved_replaced_in_v07_user_listening_pending",
+  "status": "completed_original_saved_replaced_in_v07_user_selected",
   "project_url": "https://flow.google.com/project/1d89ebc4-606d-43e7-80be-6e6f4bcb2d63",
   "account_alias": "account04_sander892",
   "model": "Veo 3.1 Lite",
@@ -21,9 +21,15 @@
   "generation_id": "c72a6cb0-6acf-40ec-8976-29be10c5315d",
   "original_file": "../2026-10-17_flow-run-09/C01_K06_D_voice_take02.mp4",
   "blocker": null,
-  "next_action": "Read user acceptance of v07 question before any further voice correction. Do not regenerate solely from ASR spelling.",
+  "next_action": "C01 v07 adopted final; continue C05 queue. Do not regenerate K06 from ASR spelling.",
   "screenshot": "K06_voice_ready.png",
   "latest_run": "../2026-10-17_flow-run-09/generation_log.json",
   "user_manual_result": "User reported failed and refreshed; exact error/click count not independently observed.",
-  "latest_edit": "../2026-10-17_C01-voicefix-v07/C01_recut_v07_36s.mp4"
+  "latest_edit": "../2026-10-17_C01-voicefix-v07/C01_recut_v07_36s.mp4",
+  "user_voice_selection": {
+    "date_kst": "2026-10-17",
+    "user_quote": "이 음성으로 진행",
+    "scope": "K06 new question voice in v07, shown in 12.5s context; not an explicit whole-mix listening certification",
+    "decision": "Adopt v07 as current final C01 edit; do not regenerate this voice without new specific feedback."
+  }
 }

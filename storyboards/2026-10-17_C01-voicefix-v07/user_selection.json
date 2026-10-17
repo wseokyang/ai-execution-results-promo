@@ -1,0 +1,9 @@
+{
+  "date_kst": "2026-10-17",
+  "user_quote": "이 음성으로 진행",
+  "scope": "K06 replacement voice in v07, presented in the 12.5-second context preview",
+  "decision": "Adopt C01_recut_v07_36s.mp4 as current final C01 edit without rerendering.",
+  "actual_listening_by_assistant": false,
+  "full_mix_user_certification": false,
+  "regeneration_needed": false
+}

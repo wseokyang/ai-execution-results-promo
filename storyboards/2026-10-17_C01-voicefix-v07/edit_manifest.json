@@ -1,5 +1,5 @@
 {
-  "status": "voice_replaced_auditory_review_pending",
+  "status": "final_edit_adopted_user_selected_K06_voice",
   "file": "C01_recut_v07_36s.mp4",
   "bytes": 13391565,
   "sha256": "b47a59928001291cbf9937e9eed609984725efa07c2deb0741deb5f6e6ca8b6c",
@@ -19,7 +19,7 @@
     26.7,
     30.0
   ],
-  "trim_basis": "Independent reviewer B Silero VAD: main0.032–1.536s; additional untranscribed activity1.888–2.272 and2.784–3.008. Preserve source origin and0.292s after latest activity. 0.20s after audience crop begins. No speed/pitch processing; actual listening pending.",
+  "trim_basis": "Independent reviewer B Silero VAD: main0.032–1.536s; additional untranscribed activity1.888–2.272 and2.784–3.008. Preserve source origin and0.292s after latest activity. 0.20s after audience crop begins. No speed/pitch processing; user selected this voice on 2026-10-17; assistant actual listening not performed.",
   "dialogue": "다음 사례도 볼까요?",
   "old_D_voice_removed": true,
   "old_K06_A_preserved_source": [
@@ -50,7 +50,14 @@
   "full_scale_samples": 0,
   "voice_speed_or_pitch_change": false,
   "actual_listening_by_assistant": false,
-  "new_voice_user_acceptance": false,
+  "new_voice_user_acceptance": true,
   "originals_modified": false,
-  "score": "v06 original36s score reused unchanged"
+  "score": "v06 original36s score reused unchanged",
+  "user_voice_selection": {
+    "date_kst": "2026-10-17",
+    "user_quote": "이 음성으로 진행",
+    "scope": "K06 new question voice in v07, shown in 12.5s context; not an explicit whole-mix listening certification",
+    "decision": "Adopt v07 as current final C01 edit; do not regenerate this voice without new specific feedback."
+  },
+  "canonical_final": true
 }
