@@ -1,0 +1,11 @@
+{
+  "source_filename": "C01_K06_D_voice_take02.mp4",
+  "source_seconds": [
+    0,
+    3.3
+  ],
+  "timeline_start": 26.7,
+  "basis": "Independent reviewer B Silero VAD: main0.032–1.536s; additional untranscribed activity1.888–2.272 and2.784–3.008. Preserve source origin and0.292s after latest activity. 0.20s after audience crop begins. No speed/pitch processing; actual listening pending.",
+  "ASR": "다음 사료도 볼까요? (automatic spelling only; not actual pronunciation verification)",
+  "actual_listening": false
+}

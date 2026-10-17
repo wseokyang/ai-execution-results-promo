@@ -1,0 +1,56 @@
+{
+  "status": "voice_replaced_auditory_review_pending",
+  "file": "C01_recut_v07_36s.mp4",
+  "bytes": 13391565,
+  "sha256": "b47a59928001291cbf9937e9eed609984725efa07c2deb0741deb5f6e6ca8b6c",
+  "duration_seconds": 36,
+  "frames": 864,
+  "resolution": [
+    1280,
+    720
+  ],
+  "voice_original": "2026-10-17_flow-run-09\\C01_K06_D_voice_take02.mp4",
+  "voice_original_sha256": "9e0fe2ccb27dd369c57e054946359a75f83fadd045521c7945c95d261ca54f60",
+  "voice_trim_seconds": [
+    0,
+    3.3
+  ],
+  "voice_timeline_seconds": [
+    26.7,
+    30.0
+  ],
+  "trim_basis": "Independent reviewer B Silero VAD: main0.032–1.536s; additional untranscribed activity1.888–2.272 and2.784–3.008. Preserve source origin and0.292s after latest activity. 0.20s after audience crop begins. No speed/pitch processing; actual listening pending.",
+  "dialogue": "다음 사례도 볼까요?",
+  "old_D_voice_removed": true,
+  "old_K06_A_preserved_source": [
+    34,
+    36.4
+  ],
+  "new_D_offscreen": true,
+  "selected_K04_voice_unchanged": true,
+  "video_packets_identical_to_v06": true,
+  "packet_timestamp_offset": 0,
+  "packet_timebase": "1/12288",
+  "packet_offset_seconds": 0.0,
+  "actual_voice_duration_seconds": 3.3,
+  "full_decode_pass": true,
+  "loudness": {
+    "input_i": "-18.25",
+    "input_tp": "-1.49",
+    "input_lra": "6.80",
+    "input_thresh": "-29.40",
+    "output_i": "-18.55",
+    "output_tp": "-1.50",
+    "output_lra": "5.60",
+    "output_thresh": "-29.62",
+    "normalization_type": "dynamic",
+    "target_offset": "0.55"
+  },
+  "PCM_peak": 0.8414531946182251,
+  "full_scale_samples": 0,
+  "voice_speed_or_pitch_change": false,
+  "actual_listening_by_assistant": false,
+  "new_voice_user_acceptance": false,
+  "originals_modified": false,
+  "score": "v06 original36s score reused unchanged"
+}

@@ -1,0 +1,54 @@
+{
+  "file": "C01_K06_D_voice_take02.mp4",
+  "bytes": 1724239,
+  "sha256": "9e0fe2ccb27dd369c57e054946359a75f83fadd045521c7945c95d261ca54f60",
+  "duration_seconds": 8.0,
+  "streams": [
+    {
+      "type": "video",
+      "codec": "h264",
+      "duration_seconds": 8.0,
+      "width": 1280,
+      "height": 720,
+      "frame_rate": "24/1"
+    },
+    {
+      "type": "audio",
+      "codec": "aac",
+      "duration_seconds": 8.0
+    }
+  ],
+  "decode_pass": true,
+  "decoded_pcm_finite": true,
+  "decoded_pcm_peak": 1.1659382581710815,
+  "derived_wav_format": "pcm_f32le, decoder overshoots preserved",
+  "asr_model": "faster-whisper small CPU int8",
+  "segments": [
+    {
+      "start": 0.0,
+      "end": 1.26,
+      "text": " 다음 사료도 볼까요?",
+      "words": [
+        {
+          "start": 0.0,
+          "end": 0.52,
+          "word": " 다음",
+          "probability": 0.9612013697624207
+        },
+        {
+          "start": 0.52,
+          "end": 0.86,
+          "word": " 사료도",
+          "probability": 0.9201664527257284
+        },
+        {
+          "start": 0.86,
+          "end": 1.26,
+          "word": " 볼까요?",
+          "probability": 0.9955452680587769
+        }
+      ]
+    }
+  ],
+  "limitation": "Automatic transcription and technical inspection only. No actual listening, pronunciation, speaker identity, naturalness, or lip-sync verification."
+}

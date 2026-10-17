@@ -1,0 +1,52 @@
+{
+  "status": "technical_pass_auditory_acceptance_pending",
+  "reviewer": "/root/pilot_review_b",
+  "visual_basis": "Reviewed v06 exact864 video payload packets and timestamps preserved; its existing A/B/C visual review applies to unchanged picture.",
+  "code_findings": [
+    {
+      "id": "B-V07-001",
+      "status": "resolved",
+      "detail": "Writable copy before audio fades"
+    },
+    {
+      "id": "B-V07-002",
+      "status": "resolved",
+      "detail": "Source bounds and actual normalized duration checked"
+    },
+    {
+      "id": "B-V07-003",
+      "status": "resolved",
+      "detail": "Video timebase equality and offset seconds checked"
+    }
+  ],
+  "voice_bounds": {
+    "source": [
+      0,
+      3.3
+    ],
+    "timeline": [
+      26.7,
+      30
+    ],
+    "vad_main": [
+      0.032,
+      1.536
+    ],
+    "vad_additional": [
+      [
+        1.888,
+        2.272
+      ],
+      [
+        2.784,
+        3.008
+      ]
+    ],
+    "tail_after_last_activity": 0.292
+  },
+  "final_audit": "No new mandatory technical finding. 864 packets and timing unchanged, full decode pass, -18.25LUFS/-1.49dBTP, PCM peak0.841/full-scale0. Goal dialogue is not a verified transcript.",
+  "actual_listening": false,
+  "ASR_spelling": "다음 사료도 볼까요?",
+  "user_acceptance": false,
+  "remaining": "User listening judgment of pronunciation and full mix. Do not claim three new auditory reviews."
+}
