@@ -1,0 +1,83 @@
+{
+  "file": "C05-F06_crop_review_6s.mp4",
+  "source": "C05-F06_take02.mp4",
+  "source_seconds": [
+    0,
+    6
+  ],
+  "crop_pixels": [
+    0,
+    40,
+    960,
+    540
+  ],
+  "output_resolution": [
+    1280,
+    720
+  ],
+  "fps": 24,
+  "duration_seconds": 6,
+  "decoded_frames": 144,
+  "decode_pass": true,
+  "audio_removed_for_visual_review_only": true,
+  "sha256": "a0d292a34174fcf7575037d0edb38b3be75bdeabf66aac1d4cc2a31f07dec794",
+  "ffmpeg_filter": "crop=960:540:0:40,scale=1280:720",
+  "render_args": ["-hide_banner","-loglevel","error","-i","C05-F06_take02.mp4","-t","6","-vf","crop=960:540:0:40,scale=1280:720","-an","-c:v","libx264","-crf","18","-pix_fmt","yuv420p","-movflags","+faststart","C05-F06_crop_review_6s.mp4"],
+  "review_status": "visual_candidate_accepted_three_independent_and_cross_reviews",
+  "original_wide_accepted": false,
+  "right_edge_inspection": "Rightmost80pixels from all144decoded frames, displayed at40pixel width in3contact sheets. Full-view review used13samples; no continuous playback claim.",
+  "sampled_frames": [
+    {
+      "file": "frame_00_0.000s.jpg",
+      "seconds": 0.0
+    },
+    {
+      "file": "frame_01_0.500s.jpg",
+      "seconds": 0.5
+    },
+    {
+      "file": "frame_02_1.000s.jpg",
+      "seconds": 1.0
+    },
+    {
+      "file": "frame_03_1.500s.jpg",
+      "seconds": 1.5
+    },
+    {
+      "file": "frame_04_2.000s.jpg",
+      "seconds": 2.0
+    },
+    {
+      "file": "frame_05_2.500s.jpg",
+      "seconds": 2.5
+    },
+    {
+      "file": "frame_06_3.000s.jpg",
+      "seconds": 3.0
+    },
+    {
+      "file": "frame_07_3.500s.jpg",
+      "seconds": 3.5
+    },
+    {
+      "file": "frame_08_4.000s.jpg",
+      "seconds": 4.0
+    },
+    {
+      "file": "frame_09_4.500s.jpg",
+      "seconds": 4.5
+    },
+    {
+      "file": "frame_10_5.000s.jpg",
+      "seconds": 5.0
+    },
+    {
+      "file": "frame_11_5.500s.jpg",
+      "seconds": 5.5
+    },
+    {
+      "file": "frame_12_5.958s.jpg",
+      "seconds": 5.958333333333333
+    }
+  ]
+}

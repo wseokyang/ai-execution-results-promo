@@ -1,0 +1,130 @@
+{
+  "clip_id": "C05-F06",
+  "take": 2,
+  "status": "crop_visual_candidate_accepted_after_three_independent_and_cross_reviews",
+  "original_file": "C05-F06_take02.mp4",
+  "review_candidate": "C05-F06_crop_review_6s.mp4",
+  "scope": "One shot only; original 17 still samples, crop 13 still samples and right-edge strips from all 144 crop frames. No actual audio listening or continuous playback claim.",
+  "technical": {
+    "original_duration": 8,
+    "resolution": [
+      1280,
+      720
+    ],
+    "fps": 24,
+    "video_decode_frames": 192,
+    "original_audio": "AAC 48kHz stereo, nonzero decoded signal",
+    "original_reencoded": false,
+    "original_sha256": "d1f0aa4c6d8c898df598f7a0a07d1cc9122fc8a627691774e45d1146f453d71e",
+    "crop_duration": 6,
+    "crop_decode_frames": 144,
+    "crop_audio": "removed for visual review only"
+  },
+  "independent_reviews": [
+    {
+      "reviewer": "/root/final_purpose_review_a",
+      "result": "Raw wide held; crop repair first",
+      "opened": [
+        "input C05-N03.png",
+        "review_frames/sheet_01.jpg",
+        "review_frames/sheet_02.jpg",
+        "frame_02_1.000s.jpg",
+        "frame_08_4.000s.jpg",
+        "frame_12_6.000s.jpg"
+      ],
+      "findings": [
+        {
+          "id": "A-F06-001",
+          "priority": "mandatory",
+          "detail": "Fourth ghost appears at about0.5s and stays to end; breaks three-ghost continuity and upcoming empty-wall joke."
+        },
+        {
+          "id": "A-F06-002",
+          "priority": "optional",
+          "detail": "B raises hands slightly after4.5s without pointing; can accept as anxious reaction."
+        },
+        {
+          "id": "A-F06-003",
+          "priority": "post_edit_remaining",
+          "detail": "Employee question mouth motion concentrated early; align later dubbing or use reaction insert. Lip-sync not verified."
+        }
+      ]
+    },
+    {
+      "reviewer": "/root/pilot_review_b",
+      "result": "Raw wide held; reaction story works, crop repair first",
+      "opened": [
+        "input C05-N03.png",
+        "review_frames/sheet_01.jpg",
+        "review_frames/sheet_02.jpg",
+        "frame_01_0.500s.jpg",
+        "frame_04_2.000s.jpg",
+        "frame_07_3.500s.jpg",
+        "frame_11_5.500s.jpg"
+      ],
+      "findings": [
+        {
+          "id": "B-F06-001",
+          "priority": "mandatory",
+          "detail": "Additional long-wig yellow-round-pin ghost at right from0.5s to7.958s, distinct from C."
+        },
+        {
+          "id": "B-F06-002",
+          "priority": "optional",
+          "detail": "B slightly extends hands at4.5–6s; not the pointing relay."
+        }
+      ]
+    },
+    {
+      "reviewer": "/root/final_purpose_review_c",
+      "result": "Raw wide held; crop repair before regeneration",
+      "opened": [
+        "input C05-N03.png",
+        "review_frames/sheet_01.jpg",
+        "review_frames/sheet_02.jpg",
+        "frame_01_0.500s.jpg",
+        "frame_02_1.000s.jpg",
+        "frame_06_3.000s.jpg",
+        "frame_12_6.000s.jpg"
+      ],
+      "findings": [
+        {
+          "id": "C-F06-001",
+          "priority": "mandatory",
+          "detail": "Fourth ghost on empty right wall contradicts actors and upcoming source-chain punchline."
+        },
+        {
+          "id": "C-F06-002",
+          "priority": "mandatory_recheck",
+          "detail": "After crop, inspect right edge for residual hair, cloth or green fringe throughout used range."
+        }
+      ]
+    }
+  ],
+  "pd_candidate": {
+    "source_range_seconds": [
+      0,
+      6
+    ],
+    "crop_pixels": [
+      0,
+      40,
+      960,
+      540
+    ],
+    "output_resolution": [
+      1280,
+      720
+    ],
+    "reason": "Exclude separated unwanted fourth ghost while preserving employee and original A/B/C reaction.",
+    "original_wide_allowed": false,
+    "additional_generation_this_turn": 0
+  },
+  "cross_reviews": [{"reviewer":"/root/final_purpose_review_a","decision":"Accept crop 0–6s as visual candidate","resolved":["A-F06-001","B-F06-001","C-F06-001","C-F06-002"],"optional_accepted":["A-F06-002","B-F06-002"],"post_edit_remaining":["A-F06-003"],"evidence":"13 crop frame samples and right-edge strips from all144frames show no fourth ghost or its residues; original C edges remain. Faces, pins and hands retained. Employee lower body/fan base crop does not impair reaction.","opened":["crop_review_frames/sheet_01.jpg","crop_review_frames/sheet_02.jpg","crop_review_frames/all_frame_right_edges_01.jpg","crop_review_frames/all_frame_right_edges_02.jpg","crop_review_frames/all_frame_right_edges_03.jpg","crop_review_frames/frame_02_1.000s.jpg","crop_review_frames/frame_12_5.958s.jpg"]},{"reviewer":"/root/pilot_review_b","decision":"Accept crop 0–6s as visual candidate","resolved":["A-F06-001","B-F06-001","C-F06-001","C-F06-002"],"optional_accepted":["A-F06-002","B-F06-002"],"post_edit_remaining":["A-F06-003"],"evidence":"Fourth ghost excluded across sampled full views and all144right-edge strips. B hand lift is an anxious reaction, not pointing. No new mandatory clipping. Full mix and lip-sync remain unverified.","opened":["crop_review_frames/sheet_01.jpg","crop_review_frames/sheet_02.jpg","crop_review_frames/all_frame_right_edges_01.jpg","crop_review_frames/all_frame_right_edges_02.jpg","crop_review_frames/all_frame_right_edges_03.jpg","crop_review_frames/frame_01_0.500s.jpg","crop_review_frames/frame_07_3.500s.jpg","crop_review_frames/frame_12_5.958s.jpg"]},{"reviewer":"/root/final_purpose_review_c","decision":"Accept crop 0–6s as visual candidate","resolved":["A-F06-001","B-F06-001","C-F06-001","C-F06-002"],"optional_accepted":["A-F06-002","B-F06-002"],"post_edit_remaining":["A-F06-003"],"evidence":"No additional ghost hair, cloth or green fringe in inspected crop boundaries. Remaining cloth and fringe belong to original C. Question and eye reactions remain legible; match dubbing to real mouth movement or use reaction insert later.","opened":["crop_review_frames/sheet_01.jpg","crop_review_frames/sheet_02.jpg","crop_review_frames/all_frame_right_edges_01.jpg","crop_review_frames/all_frame_right_edges_02.jpg","crop_review_frames/all_frame_right_edges_03.jpg","crop_review_frames/frame_00_0.000s.jpg","crop_review_frames/frame_09_4.500s.jpg","crop_review_frames/frame_12_5.958s.jpg"]}],
+  "pd_final_decision": "Use only the reviewed fixed crop of source0–6s; original wide remains rejected. Optional B hand movement accepted as anxious reaction. No additional generation needed for this visual defect. Dubbing, sound and lip-sync remain post-production work.",
+  "actual_listening": false,
+  "lip_sync_verified": false,
+  "fan_rotation_continuously_verified": false,
+  "dialogue_post_required": "그런데, 직접 해본 사람은요?",
+  "whole_C05_complete": false
+}

@@ -1,0 +1,98 @@
+{
+  "original_file": "C05-F06_take02.mp4",
+  "source_download": "C:\\Users\\wseok\\Downloads\\C05-F06_take02_·_Lite_·_질문에_20261017124130.mp4",
+  "bytes": 1772314,
+  "sha256": "d1f0aa4c6d8c898df598f7a0a07d1cc9122fc8a627691774e45d1146f453d71e",
+  "download_and_preserved_hash_equal": true,
+  "reencoded": false,
+  "container_seconds": 8.0,
+  "video_seconds": 8.0,
+  "width": 1280,
+  "height": 720,
+  "fps": 24.0,
+  "video_codec": "h264",
+  "audio_track": true,
+  "audio_streams": [
+    {
+      "codec": "aac",
+      "sample_rate": 48000,
+      "channels": 2
+    }
+  ],
+  "actual_listening_by_assistant": false,
+  "decoded_video_frames": 192,
+  "video_decode_pass": true,
+  "sampled_frames": [
+    {
+      "file": "frame_00_0.000s.jpg",
+      "seconds": 0.0
+    },
+    {
+      "file": "frame_01_0.500s.jpg",
+      "seconds": 0.5
+    },
+    {
+      "file": "frame_02_1.000s.jpg",
+      "seconds": 1.0
+    },
+    {
+      "file": "frame_03_1.500s.jpg",
+      "seconds": 1.5
+    },
+    {
+      "file": "frame_04_2.000s.jpg",
+      "seconds": 2.0
+    },
+    {
+      "file": "frame_05_2.500s.jpg",
+      "seconds": 2.5
+    },
+    {
+      "file": "frame_06_3.000s.jpg",
+      "seconds": 3.0
+    },
+    {
+      "file": "frame_07_3.500s.jpg",
+      "seconds": 3.5
+    },
+    {
+      "file": "frame_08_4.000s.jpg",
+      "seconds": 4.0
+    },
+    {
+      "file": "frame_09_4.500s.jpg",
+      "seconds": 4.5
+    },
+    {
+      "file": "frame_10_5.000s.jpg",
+      "seconds": 5.0
+    },
+    {
+      "file": "frame_11_5.500s.jpg",
+      "seconds": 5.5
+    },
+    {
+      "file": "frame_12_6.000s.jpg",
+      "seconds": 6.0
+    },
+    {
+      "file": "frame_13_6.500s.jpg",
+      "seconds": 6.5
+    },
+    {
+      "file": "frame_14_7.000s.jpg",
+      "seconds": 7.0
+    },
+    {
+      "file": "frame_15_7.500s.jpg",
+      "seconds": 7.5
+    },
+    {
+      "file": "frame_16_7.958s.jpg",
+      "seconds": 7.958333333333333
+    }
+  ],
+  "audio_decode_pass": true,
+  "decoded_audio_peak": 0.3897024989128113,
+  "decoded_audio_rms": 0.035517167671312265
+}

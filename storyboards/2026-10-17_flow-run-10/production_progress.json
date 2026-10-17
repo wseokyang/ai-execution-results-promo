@@ -1,0 +1,20 @@
+{
+  "date_kst": "2026-10-17",
+  "originals_preserved": 16,
+  "planned_motion_shots": 41,
+  "planned_shots_with_visual_candidates": 8,
+  "not_yet_generated_planned_shots": 33,
+  "C01_final_edit": "storyboards/2026-10-17_C01-voicefix-v07/C01_recut_v07_36s.mp4",
+  "C05": {
+    "planned": 9,
+    "visual_candidates": ["C05-F06"],
+    "not_generated": ["C05-F01","C05-F02","C05-F03","C05-F04","C05-F05","C05-F07","C05-F08","C05-F09"],
+    "F06_usage": "Only reviewed crop x0,y40,w960,h540 from source0–6s; do not use raw wide framing.",
+    "F06_post_remaining": ["Korean question dubbing", "sound", "lip-sync/edit alignment"],
+    "whole_film_complete": false
+  },
+  "next_generation": "C05-F01 after actual credit availability and pending-job check",
+  "last_observed_balance": 0,
+  "additional_generation_requests_this_save_review_turn": 0,
+  "additional_credit_spend_this_save_review_turn": 0
+}
