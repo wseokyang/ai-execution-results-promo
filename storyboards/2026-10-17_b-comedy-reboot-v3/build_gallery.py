@@ -31,7 +31,7 @@ def main():
                 ending_line = s['subtitle'].split('\n')[-1]
                 title_left = 53 if cid == 'C05' else 43
                 overlay = f'<div class="title-mock" style="left:{title_left}%"><small>2026년 품질팀</small><strong>AI 실행 결과<br>발표 대회</strong><em>{esc(ending_line)}</em></div>'
-            frame_label = '자막 배치 예시 · 원본 PNG는 배경판' if is_ending else '첫 프레임 · 클릭하면 확대' 
+            frame_label = '자막 배치 예시 · 원본 PNG는 배경판' if is_ending else '첫 프레임 · 클릭하면 확대'
             cutcards.append(f'''<article class="shot" id="{cid}-{s['id']}">
               <button class="frame" data-image="{esc(src)}" data-caption="{esc(title)}"><img src="{esc(src)}" alt="{esc(title)} 첫 프레임" loading="lazy">{overlay}<span>{frame_label}</span></button>
               <div class="shot-body"><div class="shot-top"><b>{esc(s['scene_id'])} · {esc(s['id'])}</b><span>{s['start']:g}–{s['end']:g}초 / {s['duration']:g}초</span></div>
