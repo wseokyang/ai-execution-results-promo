@@ -1,0 +1,23 @@
+Storyboard draft contract for this run
+
+Root object: run_id, version, source_brief, event_facts, assumptions, concepts.
+concepts is an array of exactly five new C01-C05 concepts. These IDs do not replace the preserved C01 film.
+
+Each concept:
+id, title, purpose, audience, format, logline, core_message, duration_seconds, aspect_ratio, bgrade_intensity (1-5), difficulty, difficulty_reason, hook, comedy_engine, three_act, event_information, final_action, difference, visual_style, characters, continuity, shots.
+
+Each shot:
+id (K01 etc), scene_id (S01 etc), start, end, duration,
+screen (what happens during shot), framing,
+subtitle, dialogue, sound, transition, intent,
+first_frame (literal initial state BEFORE principal action),
+next_motion (movement that follows), continuity_in, continuity_out,
+image_file (images/C01/K01.png etc), reference_cut (prior shot identity reference, or null).
+
+All shot times must be contiguous, begin at 0 and end at declared total <=60 seconds.
+Each shot gets its OWN genuinely generated first-frame file, including ending shot.
+No video generation, no audio generation, no actual video rendering.
+Short necessary labels can be generated in-image. Long subtitles and event title are separately specified for later typography; image must reserve legible space.
+If the last shot uses a title background plate, describe the first-frame plate and the exact separate title layout explicitly. Do not call it a finished composited title image.
+No new event date, venue, benefits, claims or performance metrics.
+Use numeric seconds. Empty text is an empty string, not an omitted field.

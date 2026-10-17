@@ -1,0 +1,13 @@
+{
+  "status": "pd_coordinate_alignment",
+  "C05": "A screen-left/B screen-right; inner bag hands A left/B right, outer flyer hands A right/B left.",
+  "C02": "Notebook under actor P right arm (screen-left); high-five P left/B right. T already approaches chair from screen-left in K02; brief approach is cut out.",
+  "unchanged": [
+    "story beats",
+    "durations",
+    "cut count",
+    "dialogue",
+    "prop ownership"
+  ],
+  "basis": "Artist observation and PD actual image inspection; reviewers receive corrected final storyboards."
+}

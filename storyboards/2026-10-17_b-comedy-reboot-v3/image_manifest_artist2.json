@@ -1,0 +1,640 @@
+{
+  "run_id": "2026-10-17_b-comedy-reboot-v3",
+  "artist": "reboot_artist_2",
+  "scope": [
+    "C02",
+    "C05"
+  ],
+  "generation_tool": "image_gen",
+  "status": "required_image_revisions_complete_pending_three_reviewer_recheck",
+  "entries": [
+    {
+      "concept_id": "C02",
+      "scene_id": "S01",
+      "cut_id": "K01",
+      "image_path": "images/C02/K01.png",
+      "prompt": "Use case: ads-marketing. Create one cinematic photographic FIRST FRAME of an original Korean absurd low-budget office comedy, 16:9 landscape 1536x864, full-bleed no black bars. This is a single moment before movement, no panels, no collage. A plain gray-green fluorescent office makeshift filming set between two square columns, floor tape marks, cheap practical props and slightly exaggerated earnest acting. Four fictional Korean adults, no real celebrity. Center P is a woman in her 30s with black hair tied low, pale green button-up shirt, dark gray chinos, white sneakers; a thin closed YELLOW notebook firmly tucked UNDER HER LEFT ARMPIT. Right B is a man in his 30s, short black hair, light gray sweatshirt, navy trousers. P and B face each other, their raised RIGHT palms separated by 10cm above head height, BEFORE the high-five. On left foreground D, woman 40s short curly bob under a red cap, black vest white T-shirt gray trousers, holds a single black-and-white blank clapperboard low at chest just before raising it. Far right background T, man 20s-30s short hair, dark teal work shirt beige trousers, holds one clear packing-tape roll with clean sleeves. Behind actors at waist height runs a 20cm wide cream paper ribbon between columns, torn at the center with both ragged ends drooping; single plain blue circle on the LEFT end. One gray folding chair behind P toward left of her path. Fixed wide composition, full bodies and feet visible, readable earnest fake-celebration pose. Avoid glossy corporate advertising, extra people, invented text, writing on clapperboard, logos, watermarks, digital rewind effects, confetti, trophies, visible stage lights. Exactly one yellow notebook. Natural anatomy.",
+      "reference_images": [],
+      "source_generated_path": "C:/Users/wseok/.codex/generated_images/01a149a2-d9c9-70e2-b538-eb2497e8c4e8/exec-eb50ce0e-65be-4397-8409-44a96be14752.png",
+      "generation_tool": "image_gen",
+      "first_frame": "P와 B의 오른손이 머리 위에서 서로 10cm 떨어져 있다. P의 왼쪽 겨드랑이에 노란 노트. D는 왼쪽에서 슬레이트를 들어 올리기 직전. 뒤의 넓은 종이 띠는 중앙이 찢어져 양끝이 아래로 처져 있다.",
+      "next_motion": "D의 지시 → 배우가 손을 이상하게 벌리고 팔을 내려 되감기 연기 시작.",
+      "artist_review": {
+        "status": "self_review_pass_pending_independent_review",
+        "viewed": true,
+        "notes": "실제 저장본 열어 확인. 네 인물·노란 노트·아직 닿지 않은 하이파이브·찢긴 띠·의자 확인. T 소매 깨끗함. 제목/자막 없음."
+      },
+      "revision": 1,
+      "actual_dimensions": {
+        "width": 1672,
+        "height": 941
+      },
+      "selected": true
+    },
+    {
+      "concept_id": "C02",
+      "scene_id": "S01",
+      "cut_id": "K02",
+      "image_path": "images/C02/K02.png",
+      "prompt": "Use case: ads-marketing. Create a new single FIRST FRAME shot of the SAME fictional office comedy as reference image, preserve exact faces, costumes, gray-green office columns, cream torn paper ribbon with blue circle, yellow notebook, gray folding chair. Full-bleed landscape 16:9, no bars/collage/text. Medium-wide side-axis view, feet fully visible. P the pale-green-shirt woman stands near center, facing screen-right, her LEFT heel slightly raised just before an awkward backward step toward screen-left. The closed YELLOW notebook stays tightly tucked beneath her LEFT armpit. Her hands have lowered from the high-five, she is slightly overearnest, not falling. A gray folding chair is only 20cm behind her heel at screen-left, still obstructing the backward path. T, the dark-teal-shirt beige-trousers male crew member, is on screen-right behind P, approaching the chair with an ordinary forward walking stride, arms ready but has not touched or moved the chair yet. His sleeves still clean, no tape scraps. B gray sweatshirt at right awkwardly unwinding his raised arms. Director D is outside the left frame, not visible. Exactly THREE people visible. Keep the ribbon torn at center, not repaired. This is before chair rescue, not after. Humble fluorescent practical-light comedy, physical earnestness, no polished glamour, no added props or words.",
+      "reference_images": [
+        "\\\\wsl.localhost\\Ubuntu-24.04\\home\\wooseok\\wsy\\samsung_related\\slide\\AI실행결과발표대회_디자인3종\\storyboards\\2026-10-17_b-comedy-reboot-v3\\images\\C02\\K01.png"
+      ],
+      "source_generated_path": "C:\\Users\\wseok\\.codex\\generated_images\\01a149a2-d9c9-70e2-b538-eb2497e8c4e8\\exec-8427859c-69c4-4406-968f-17649888ccad.png",
+      "generation_tool": "image_gen",
+      "first_frame": "P가 왼쪽 뒤꿈치를 들고 뒷걸음 직전. 뒤 20cm에 회색 접이 의자. T는 오른쪽 뒤에서 의자를 향해 정상 보폭으로 접근. B는 오른쪽에서 팔을 거꾸로 푸는 자세.",
+      "next_motion": "P의 뒷걸음 멈춤 → T가 의자를 화면 왼쪽 바깥으로 이동 → P가 한 걸음 계속.",
+      "artist_review": {
+        "status": "self_review_pass_pending_independent_review",
+        "viewed": true,
+        "notes": "생성/저장본 확인. P 뒤꿈치 들림·뒤쪽 의자·T 정상 전진·B 역연기 자세·깨끗한 소매 확인. T가 화면 왼쪽 의자 쪽에서 접근하여 대본의 오른쪽 출발점과 차이: 컷 사이 접근 이동 생략으로 제안, 검수자 판단 필요."
+      },
+      "revision": 1,
+      "actual_dimensions": {
+        "width": 1672,
+        "height": 941
+      },
+      "selected": true
+    },
+    {
+      "concept_id": "C02",
+      "scene_id": "S01",
+      "cut_id": "K03",
+      "image_path": "images/C02/K03.png",
+      "prompt": "Use case: ads-marketing. New photographic FIRST FRAME shot in the SAME original Korean low-budget comedy filming set. Preserve these exact three actors, costumes, yellow notebook, cream paper ribbon and gray-green office from references. 16:9 full-bleed wide no bars, no text/collage. Front-oblique medium-wide view with all torsos and relevant hands visible. P pale-green-shirt woman at center-left with closed yellow notebook tucked under LEFT armpit and B gray-sweatshirt man at center-right, both in slightly absurd awkward backward-step readiness just IN FRONT of the central torn gap of the cream ribbon, BEFORE backing through it. The wide cream paper ribbon still hangs TORN across the background at waist level, ragged ends clearly separated, blue circle on left end. T dark-teal-shirt beige-trousers male crew is on right of the gap, practical focused expression, BOTH cuff sleeves extended down to wrists. Each hand has a SHORT LOOSE transparent packing tape scrap hanging from a fingertip. He is about to park the two scraps on the OUTSIDE of his cuffs, but neither cuff has tape yet. His wrists are separated, NOT bound. One tape roll on the floor at his feet. The gray folding chair now set aside far left beside the column outside actor walking path. Director unseen outside frame. This is BEFORE tape repair; no joined ribbon, no finished sleeve gag, no extra hands, no extra people. Ordinary fluorescent light, cheap physical prop workmanship, earnest overacting by P/B contrasted with T doing real work.",
+      "reference_images": [
+        "\\\\wsl.localhost\\Ubuntu-24.04\\home\\wooseok\\wsy\\samsung_related\\slide\\AI실행결과발표대회_디자인3종\\storyboards\\2026-10-17_b-comedy-reboot-v3\\images\\C02\\K01.png",
+        "\\\\wsl.localhost\\Ubuntu-24.04\\home\\wooseok\\wsy\\samsung_related\\slide\\AI실행결과발표대회_디자인3종\\storyboards\\2026-10-17_b-comedy-reboot-v3\\images\\C02\\K02.png"
+      ],
+      "source_generated_path": "C:\\Users\\wseok\\.codex\\generated_images\\01a149a2-d9c9-70e2-b538-eb2497e8c4e8\\exec-6d8e3815-4455-4730-8151-3c322b42de67.png",
+      "generation_tool": "image_gen",
+      "first_frame": "P와 B는 종이 띠 중앙 틈 바로 앞에서 뒤로 갈 준비. T는 짧은 테이프 조각 두 개를 손가락에 걸고 양 소매 끝에 임시로 붙이려 한다. 중앙 종이 띠는 아직 찢어져 있고 P의 노트는 왼쪽 겨드랑이.",
+      "next_motion": "T가 테이프 조각을 양 소매에 임시로 붙임 → 배우가 틈 뒤로 빠지는 동안 T가 종이 양끝을 모아 이어 붙임.",
+      "artist_review": {
+        "status": "self_review_pass_pending_independent_review",
+        "viewed": true,
+        "notes": "생성/저장본 확인. 배우 역연기 준비·찢긴 띠·T 손가락의 테이프 두 조각 아직 소매 미부착·치운 의자 확인. T 소매가 팔뚝까지 접혀 있어 후속 소매 끝 접착 위치는 같은 말아올린 끝으로 유지."
+      },
+      "revision": 1,
+      "actual_dimensions": {
+        "width": 1672,
+        "height": 941
+      },
+      "selected": true
+    },
+    {
+      "concept_id": "C02",
+      "scene_id": "S02",
+      "cut_id": "K04",
+      "image_path": "images/C02/K04.png",
+      "prompt": "Use case: ads-marketing. Single new photographic FIRST FRAME, same Korean comic office film set and exact same fictional actors as reference. 16:9 landscape full bleed. Medium framing waist-up. P pale green shirt low ponytail at center, same closed yellow notebook tucked under her LEFT armpit, beginning to reach her opposite right hand across toward the closed notebook but hand not yet touching it. The notebook remains fully CLOSED, not removed. Her expression is politely ready to interrupt, relaxed and cooperative. D the red-cap woman director stands on LEFT of frame, black vest white tee curly bob, holding same OPEN blank clapperboard at chest height, about to deliver another command. B gray sweatshirt in RIGHT background frozen midway through an awkward reverse-arm acting gesture. T not visible in this framing. Behind them the cream waist-high ribbon has NOW BEEN REPAIRED at center, a conspicuous crooked clear tape splice holds the ragged ends together; single blue circle still on left end. Gray folding chair aside at far left. No extra people or notebook. No writing, no logos, no dialogue caption, no title. Humble fluorescent practical office textures, comedic overly serious director contrasted with natural P. This is before P takes notebook out; do not show it open.",
+      "reference_images": [
+        "\\\\wsl.localhost\\Ubuntu-24.04\\home\\wooseok\\wsy\\samsung_related\\slide\\AI실행결과발표대회_디자인3종\\storyboards\\2026-10-17_b-comedy-reboot-v3\\images\\C02\\K01.png",
+        "\\\\wsl.localhost\\Ubuntu-24.04\\home\\wooseok\\wsy\\samsung_related\\slide\\AI실행결과발표대회_디자인3종\\storyboards\\2026-10-17_b-comedy-reboot-v3\\images\\C02\\K03.png"
+      ],
+      "source_generated_path": "C:\\Users\\wseok\\.codex\\generated_images\\01a149a2-d9c9-70e2-b538-eb2497e8c4e8\\exec-15f87e25-fe49-4d02-89e7-0a63c5bc3adb.png",
+      "generation_tool": "image_gen",
+      "first_frame": "P는 왼쪽 겨드랑이의 닫힌 노란 노트에 오른손을 대기 직전. D는 슬레이트를 가슴 높이에 든 채 다음 지시를 하려 한다. B는 후경에서 반쯤 역연기한 자세.",
+      "next_motion": "P가 노트를 꺼내며 한 동작으로 펼쳐 D에게 보인다. 대사는 펼치는 동안.",
+      "artist_review": {
+        "status": "self_review_pass_pending_independent_review",
+        "viewed": true,
+        "notes": "실제 생성/저장본 확인. 노트 아직 닫힌 상태, 감독 열린 슬레이트, 이어진 띠 테이프, B 역연기 정지 확인. 노트 소지 화면측은 기준컷과 일치."
+      },
+      "revision": 1,
+      "actual_dimensions": {
+        "width": 1672,
+        "height": 941
+      },
+      "selected": true
+    },
+    {
+      "concept_id": "C02",
+      "scene_id": "S02",
+      "cut_id": "K05",
+      "image_path": "images/C02/K05.png",
+      "prompt": "Use case: ads-marketing. Create new single photographic FIRST FRAME of same Korean low-budget filming-set comedy. 16:9 full-bleed landscape no bars. Use reference exact characters faces and clothes. P woman pale green shirt low tied black hair now holds the yellow notebook OPEN at mid-chest, angled toward D woman red cap black vest on screen-left. P body turned 30 degrees LEFT toward D, before turning toward camera. D holds same OPEN blank clapperboard at chest and looks down attentively at the notebook, before closing it and stepping aside. Notebook contains only loose abstract scribble lines, arrows and cross-outs, no readable words or numbers. Gray-sweatshirt B at right background quietly waiting out of main focus, arms lowered. Behind: repaired cream waist-high paper ribbon with uneven clear tape splice and blue circle on left. T dark teal shirt can be omitted outside frame. Medium-wide from same front axis. Polite relieved P, director giving up overdone staging. Preserve notebook yellow cover and blank clapperboard. No new people, no text, no logos, no celebration, no completed turn.",
+      "reference_images": [
+        "\\\\wsl.localhost\\Ubuntu-24.04\\home\\wooseok\\wsy\\samsung_related\\slide\\AI실행결과발표대회_디자인3종\\storyboards\\2026-10-17_b-comedy-reboot-v3\\images\\C02\\K04.png"
+      ],
+      "source_generated_path": "C:\\Users\\wseok\\.codex\\generated_images\\01a149a2-d9c9-70e2-b538-eb2497e8c4e8\\exec-cb108a52-579f-4751-992d-f17cc88d8b8c.png",
+      "generation_tool": "image_gen",
+      "first_frame": "D가 열린 슬레이트를 들고 P의 펼친 노트를 보고 있다. P는 D 쪽으로 몸이 30도 돌아가 있으며 노트는 이미 열려 있음.",
+      "next_motion": "D가 말하며 슬레이트를 닫고 옆으로 한 걸음 → P 정면 전환.",
+      "artist_review": {
+        "status": "self_review_pass_pending_independent_review",
+        "viewed": true,
+        "notes": "열린 노트·열린 슬레이트·감독에게 몸을 튼 P·이어진 띠 확인. 추상 메모만 있음."
+      },
+      "revision": 1,
+      "actual_dimensions": {
+        "width": 1672,
+        "height": 941
+      },
+      "selected": true
+    },
+    {
+      "concept_id": "C05",
+      "scene_id": "S01",
+      "cut_id": "K01",
+      "image_path": "images/C05/K01.png",
+      "prompt": "Use case: ads-marketing. Create one photographic FIRST FRAME for an original deliberately low-budget Korean spy comedy. Full-bleed 16:9 landscape wide, no letterbox, no collage. Ordinary mint-gray office break room fluorescent ceiling with an absurdly serious warm amber spotlight on faces. Exactly TWO fictional Korean adult agents on two separate gray swivel chairs, backs partly toward one another. A sits SCREEN LEFT facing OUTWARD toward left: woman 40s straight chin-length black bob, beige trench coat over black turtleneck and black trousers, black sunglasses, stern lips. B sits SCREEN RIGHT facing OUTWARD toward right: man 30s short side-part black hair, navy jacket over white T-shirt, dark gray trousers, amber-lens sunglasses, extremely solemn. Each actor reaches down with their INNER arm to hold the oversized cloth handle of their own CLOSED rectangular SOFT briefcase on floor in center: A's bag BLACK at center-left, B's bag DARK BROWN center-right. Each bag handle has ONE palm-sized open plastic S-hook attached, visible cheap taped join. Two S-hooks approach one another but remain separated by 5cm, NOT interlocked yet. Feet planted on floor ready to turn chairs later. Show faces, knees, hands, bag handles and hooks clearly, low medium-wide frontal axis. Behind is a simple table and one cork bulletin board with one small out-of-focus mint poster indistinct, not readable. No gun, no money, no technology, no secret markings, no text, no titles, no logo, no third person, no extra bag or hook. The joke is solemn secrecy with embarrassingly obvious cheap props, not high-budget espionage. This is before bags touch; do not depict rotation or handshake.",
+      "reference_images": [],
+      "source_generated_path": "C:\\Users\\wseok\\.codex\\generated_images\\01a149a2-d9c9-70e2-b538-eb2497e8c4e8\\exec-eb38dd52-28a1-47bf-af7c-60b46d788f43.png",
+      "generation_tool": "image_gen",
+      "first_frame": "A는 왼쪽 바깥, B는 오른쪽 바깥을 보고 앉아 있다. 각자 안쪽 손으로 자기 가방의 큰 손잡이를 잡고 중앙으로 밀기 직전. 두 S자 고리는 서로 5cm 떨어져 아직 걸리지 않았음. 두 사람 발은 바닥.",
+      "next_motion": "두 가방 중앙 이동 → 큰 고리가 맞물림 → 두 사람이 손잡이를 당기다 멈춤. 카메라 고정.",
+      "artist_review": {
+        "status": "needs_pose_correction",
+        "viewed": true,
+        "notes": "고리 미연결·가방색·두 배우 확립. 그러나 정면 상체와 교차 다리로 의자 회전 시작 자세가 약해 K01_v2에서 몸/의자 바깥향·양발 바닥 수정 예정."
+      },
+      "revision": 1,
+      "actual_dimensions": {
+        "width": 1672,
+        "height": 941
+      },
+      "selected": false
+    },
+    {
+      "concept_id": "C02",
+      "scene_id": "S02",
+      "cut_id": "K06",
+      "image_path": "images/C02/K06.png",
+      "prompt": "Use case: ads-marketing. New single photographic FIRST FRAME, same exact Korean actors and office comedy set from references. 16:9 full-bleed. P pale-green-shirt woman low tied black hair fills LEFT foreground 60%, now facing camera calmly with OPEN yellow notebook at chest, her index finger hovering above first abstract scribble before pointing. No readable writing or numbers. T dark-teal-shirt beige-trousers male crew at RIGHT background, close enough that hands and cuff ends clearly visible. He has one short clear tape scrap temporarily parked on the outer edge of EACH rolled cuff, loose sticky tails pointing inward. His two hands and cuffs are SEPARATED by 15cm before he brings them together to tidy the repaired cream ribbon. Neither wrists nor cuffs are stuck to each other yet. Show tape tails separately, not one band or rope. Same cream ribbon with crooked clear central taped join and blue circle on left, at waist height behind P and in front of T. P warm-natural presentation, T matter-of-fact. D/B outside framing, exactly TWO people. No capture of completed gag, no tied hands, no pain, no blank stare glamour. Ordinary fluorescent physical B-movie comedy.",
+      "reference_images": [
+        "\\\\wsl.localhost\\Ubuntu-24.04\\home\\wooseok\\wsy\\samsung_related\\slide\\AI실행결과발표대회_디자인3종\\storyboards\\2026-10-17_b-comedy-reboot-v3\\images\\C02\\K05.png",
+        "\\\\wsl.localhost\\Ubuntu-24.04\\home\\wooseok\\wsy\\samsung_related\\slide\\AI실행결과발표대회_디자인3종\\storyboards\\2026-10-17_b-comedy-reboot-v3\\images\\C02\\K03.png"
+      ],
+      "source_generated_path": "C:\\Users\\wseok\\.codex\\generated_images\\01a149a2-d9c9-70e2-b538-eb2497e8c4e8\\exec-04003f57-1ff0-44e1-b7d4-e7d1d156c6e8.png",
+      "generation_tool": "image_gen",
+      "first_frame": "P는 열린 노트 위 첫 메모에 검지를 대기 직전. T는 뒤에서 두 손목이 15cm 떨어진 채 종이 띠와 테이프 꼬리를 정리하려 한다. 아직 손목끼리 붙지 않았음.",
+      "next_motion": "P의 첫 메모 가리키기와 대사 → T가 두 소매 끝을 모았다가 테이프 꼬리가 서로 붙음 → 한 번 내려다봄.",
+      "artist_review": {
+        "status": "needs_tape_duplicate_correction",
+        "viewed": true,
+        "notes": "두 소매 테이프와 별개로 손가락에 추가 2조각 생성. 손가락 조각만 제거해 실제 꼬리2개로 수정 예정."
+      },
+      "revision": 1,
+      "actual_dimensions": {
+        "width": 1672,
+        "height": 941
+      },
+      "selected": false
+    },
+    {
+      "concept_id": "C05",
+      "scene_id": "S01",
+      "cut_id": "K01",
+      "image_path": "images/C05/K01_v2.png",
+      "prompt": "Edit the reference first frame. Preserve EXACTLY these two actors' identities, costumes, glasses, same bags and separate open plastic hooks, low frontal camera, break-room set and amber/fluorescent lighting. Correct ONLY starting body and chair poses: LEFT woman A's entire torso, hips, knees and swivel chair face SCREEN LEFT in strong three-quarter SIDE profile; RIGHT man B's entire torso, hips, knees and swivel chair face SCREEN RIGHT in strong three-quarter SIDE profile. Their backs partly face each other. Both look outward away from each other. BOTH feet of EACH actor planted flat on floor, legs uncrossed, ready to push and rotate their own chair later. Their inner arms reach down and slightly back to hold their own bag handles still at CENTER floor. Black bag LEFT, brown RIGHT. Two hooks remain 5cm apart NOT touching. Keep hooks readable between bags. Do not merely turn heads while leaving chests front-facing. This is before inward chair rotation. Exactly two separate swivel chairs, no extra furniture added. Photographic original B-grade spy comedy, 16:9 full-bleed, no text or logos.",
+      "reference_images": [
+        "\\\\wsl.localhost\\Ubuntu-24.04\\home\\wooseok\\wsy\\samsung_related\\slide\\AI실행결과발표대회_디자인3종\\storyboards\\2026-10-17_b-comedy-reboot-v3\\images\\C05\\K01.png"
+      ],
+      "source_generated_path": "C:\\Users\\wseok\\.codex\\generated_images\\01a149a2-d9c9-70e2-b538-eb2497e8c4e8\\exec-0b21a419-bc3e-49de-8ca1-36ea622afb42.png",
+      "generation_tool": "image_gen",
+      "first_frame": "A는 왼쪽 바깥, B는 오른쪽 바깥을 보고 앉아 있다. 각자 안쪽 손으로 자기 가방의 큰 손잡이를 잡고 중앙으로 밀기 직전. 두 S자 고리는 서로 5cm 떨어져 아직 걸리지 않았음. 두 사람 발은 바닥.",
+      "next_motion": "두 가방 중앙 이동 → 큰 고리가 맞물림 → 두 사람이 손잡이를 당기다 멈춤. 카메라 고정.",
+      "artist_review": {
+        "status": "self_review_pass_pending_independent_review",
+        "viewed": true,
+        "notes": "바깥향 몸/의자와 양발 바닥 수정 완료. 고리 미연결·두 가방·두 인물 유지. K01_v2 채택."
+      },
+      "revision": 2,
+      "actual_dimensions": {
+        "width": 1672,
+        "height": 941
+      },
+      "selected": false
+    },
+    {
+      "concept_id": "C02",
+      "scene_id": "S02",
+      "cut_id": "K06",
+      "image_path": "images/C02/K06_v2.png",
+      "prompt": "Precise local correction to reference image. Keep the exact woman, open yellow notebook, pose, face, office, ribbon, framing and lighting UNCHANGED. Change ONLY the male crew worker's tape and hand position. REMOVE the TWO loose tape scraps he is holding between his fingertips. His fingertips must be EMPTY and naturally open. Keep exactly TWO existing transparent short tape tails attached to his rolled CUFF EDGES, one per cuff. Bring his forearms/cuffs a little closer so they remain about 15cm apart, NOT stuck together; both cuff tape tails point inward toward each other. No tape on fingertips, no additional scraps, no binding, no cuff-to-cuff bridge. It is the first moment BEFORE the two sleeve tapes accidentally touch. Full-bleed 16:9 photographic image.",
+      "reference_images": [
+        "\\\\wsl.localhost\\Ubuntu-24.04\\home\\wooseok\\wsy\\samsung_related\\slide\\AI실행결과발표대회_디자인3종\\storyboards\\2026-10-17_b-comedy-reboot-v3\\images\\C02\\K06.png"
+      ],
+      "source_generated_path": "C:\\Users\\wseok\\.codex\\generated_images\\01a149a2-d9c9-70e2-b538-eb2497e8c4e8\\exec-003a894b-f11b-480f-bbe6-8ef372340ef9.png",
+      "generation_tool": "image_gen",
+      "first_frame": "P는 열린 노트 위 첫 메모에 검지를 대기 직전. T는 뒤에서 두 손목이 15cm 떨어진 채 종이 띠와 테이프 꼬리를 정리하려 한다. 아직 손목끼리 붙지 않았음.",
+      "next_motion": "P의 첫 메모 가리키기와 대사 → T가 두 소매 끝을 모았다가 테이프 꼬리가 서로 붙음 → 한 번 내려다봄.",
+      "artist_review": {
+        "status": "self_review_pass_pending_independent_review",
+        "viewed": true,
+        "notes": "손가락의 중복 테이프 제거. 소매끝 2개만 남고 두손이 아직 떨어진 시작상태 확인. K06_v2 채택."
+      },
+      "revision": 2,
+      "actual_dimensions": {
+        "width": 1672,
+        "height": 941
+      },
+      "selected": false
+    },
+    {
+      "concept_id": "C05",
+      "scene_id": "S01",
+      "cut_id": "K02",
+      "image_path": "images/C05/K02.png",
+      "prompt": "Use reference as exact continuity. Generate the next distinct FIRST FRAME, same two original Korean spies, same outward-facing side-profile bodies and separate swivel chairs, same clothes and room. Full-bleed 16:9, camera pull slightly wider to show all feet and floor. They have NOT rotated chairs yet: left woman whole body facing screen-left, right man whole body screen-right, backs partly toward one another, looking away, feet planted ready to push. Change only bag state: the black left briefcase and dark-brown right briefcase have moved together in center and their two palm-sized WHITE OPEN PLASTIC S-hooks are now visibly INTERLOCKED like two chain links, attached one to each handle. Keep each hand on their own bag handle. No knot, no closed handcuffs, no extra hook, no third bag. Two bags sit on floor centrally below knees. Actor hands NOT touching each other. Preserve gravity and anatomy. This is after hook snag and before they turn inward to examine it. Faces remain outside-facing, serious and exaggeratedly stealthy. No text or logo.",
+      "reference_images": [
+        "\\\\wsl.localhost\\Ubuntu-24.04\\home\\wooseok\\wsy\\samsung_related\\slide\\AI실행결과발표대회_디자인3종\\storyboards\\2026-10-17_b-comedy-reboot-v3\\images\\C05\\K01_v2.png"
+      ],
+      "source_generated_path": "C:\\Users\\wseok\\.codex\\generated_images\\01a149a2-d9c9-70e2-b538-eb2497e8c4e8\\exec-eb7e0ac4-0c72-4cf7-9a2d-5bef349b4cf9.png",
+      "generation_tool": "image_gen",
+      "first_frame": "K01처럼 두 가방이 연결된 상태. A·B는 몸이 바깥을 향하고 안쪽 손으로 각자 손잡이를 잡음. 각자 한 발을 바닥에 힘줄 자세로 놓았고 의자는 아직 돌지 않았다.",
+      "next_motion": "각자 발로 자기 의자를 안쪽으로 회전 → 두 얼굴 정면 노출 → 서로를 보고 고개만 반대로 돌림. 가방이 의자를 자동으로 끌지 않음.",
+      "artist_review": {
+        "status": "self_review_pass_pending_independent_review",
+        "viewed": true,
+        "notes": "바깥향 몸/의자·발 바닥 유지. 중앙 고리 두 개 맞물림 확인. 회전 직전."
+      },
+      "revision": 1,
+      "actual_dimensions": {
+        "width": 1672,
+        "height": 941
+      },
+      "selected": false
+    },
+    {
+      "concept_id": "C02",
+      "scene_id": "S03",
+      "cut_id": "K07",
+      "image_path": "images/C02/K07.png",
+      "prompt": "Use case: ads-marketing. Generate a NEW separate end-title BACKGROUND PLATE for the same Korean low-budget office filming-set comedy, using references for exact prop designs, not for composition. Real photographic 16:9 full-bleed. NO PEOPLE. A little battered desk confined to far LEFT 35% of image. On desk an OPEN yellow notebook with the same abstract crossed-out diagrams and arrows, and the CLOSED black-and-white clapperboard with BLANK white face. Behind this left arrangement, a cream paper ribbon with single blue circle and a crooked clear taped splice stretches between two partial gray office columns, confined to the left zone. Most important RIGHT 60% of image is a clean bright gray-green unpatterned office WALL, flat evenly lit empty negative space for later title typography. Do not place table, ribbon, notebook, column, window, plant or clutter into right 60%. Modest fluorescent room light with gentle warmth on yellow notebook. No title, no words, no numbers, no logos, no pseudo-writing, no watermark. This is a newly composed endcard background, not a completed typeset title. Keep handmade tape joins and humble textures, not slick product photography.",
+      "reference_images": [
+        "\\\\wsl.localhost\\Ubuntu-24.04\\home\\wooseok\\wsy\\samsung_related\\slide\\AI실행결과발표대회_디자인3종\\storyboards\\2026-10-17_b-comedy-reboot-v3\\images\\C02\\K05.png",
+        "\\\\wsl.localhost\\Ubuntu-24.04\\home\\wooseok\\wsy\\samsung_related\\slide\\AI실행결과발표대회_디자인3종\\storyboards\\2026-10-17_b-comedy-reboot-v3\\images\\C02\\K06_v2.png"
+      ],
+      "source_generated_path": "C:\\Users\\wseok\\.codex\\generated_images\\01a149a2-d9c9-70e2-b538-eb2497e8c4e8\\exec-5361bd3d-32ef-4fd3-b02f-fa6de20ac940.png",
+      "generation_tool": "image_gen",
+      "first_frame": "새 사무실 배경 플레이트. 왼쪽 책상에 K06의 열린 노란 노트와 D의 닫힌 슬레이트. 뒤 종이 띠는 테이프 이음이 보임. 오른쪽 58% 벽은 글자 없이 비어 있음. 후편집 별도 조판: 오른쪽 58%의 무늬 없는 밝은 영역에 작은 1행 '2026년 품질팀', 큰 2행 'AI 실행 결과', 큰 3행 '발표 대회'. 전체 제목을 처음부터 끝까지 6초 유지. 제목 아래 연결 문구 1행. 이미지에는 제목·자막·로고·날짜를 그리지 않는다.",
+      "next_motion": "추가 인물 행동 없음. 후편집 타이틀을 6초 고정.",
+      "artist_review": {
+        "status": "self_review_pass_pending_independent_review",
+        "viewed": true,
+        "notes": "별도 엔딩배경. 소품 좌측·우측 넓은 회녹색 벽. 그림 내 제목 없음. 우측 50~60% 배치영역 확인."
+      },
+      "revision": 1,
+      "actual_dimensions": {
+        "width": 1672,
+        "height": 941
+      },
+      "selected": true
+    },
+    {
+      "concept_id": "C05",
+      "scene_id": "S02",
+      "cut_id": "K03",
+      "image_path": "images/C05/K03.png",
+      "prompt": "Use case: ads-marketing. New single photographic FIRST FRAME in exact same comic spy break room with same two actors, costume, bags, interlocked WHITE plastic S-hooks. 16:9 full-bleed. Both spies have just STOOD UP, now facing front/three-quarter toward camera, slightly bent at waist and knees because their joined bags are still ON THE FLOOR between them. A beige-trench black-sunglasses woman stays screen LEFT; B navy-jacket amber-glasses man stays screen RIGHT. Each holds their own INNER bag handle: A her LEFT hand, B his RIGHT hand. Closed BLACK bag left, closed DARK BROWN bag right, same two open hooks interlocked between handles visibly. Their outer hands rest loosely near thighs, no papers yet. They are about to lift the joined bags TOGETHER to the simple table one step BEHIND them; do not show bags airborne or already on table. Both swivel chairs now empty and facing toward front remain at left/right foreground edges; not blocking bag view. Table visible behind and bulletin board with one blurred mint poster far behind. Frontal medium-wide includes floor, handles, body faces, table. Over-serious faces and awkward symmetrical crouch, cheap real-prop comedy. Exactly two people and two bags. No text/brands, no extra limbs, no locking cuffs.",
+      "reference_images": [
+        "\\\\wsl.localhost\\Ubuntu-24.04\\home\\wooseok\\wsy\\samsung_related\\slide\\AI실행결과발표대회_디자인3종\\storyboards\\2026-10-17_b-comedy-reboot-v3\\images\\C05\\K02.png"
+      ],
+      "source_generated_path": "C:\\Users\\wseok\\.codex\\generated_images\\01a149a2-d9c9-70e2-b538-eb2497e8c4e8\\exec-65ca8377-f23e-4eea-afdf-9730f41c2a6a.png",
+      "generation_tool": "image_gen",
+      "first_frame": "두 사람이 의자에서 일어난 직후. 연결된 가방은 중앙 바닥, A·B는 각자 자기 손잡이를 이미 잡고 있다. 테이블은 한 걸음 뒤. 의자는 전경에 남아 있음.",
+      "next_motion": "두 사람이 연결된 가방을 함께 들어 바로 뒤 테이블에 올림. 2초 한 동작.",
+      "artist_review": {
+        "status": "self_review_pass_pending_independent_review",
+        "viewed": true,
+        "notes": "바닥 가방을 각자 안쪽 손으로 잡고 들어올리기 직전. 중앙 연결 고리 유지, 두 빈 의자와 뒤 테이블 확인."
+      },
+      "revision": 1,
+      "actual_dimensions": {
+        "width": 1672,
+        "height": 941
+      },
+      "selected": false
+    },
+    {
+      "concept_id": "C05",
+      "scene_id": "S02",
+      "cut_id": "K04",
+      "image_path": "images/C05/K04.png",
+      "prompt": "Use case: ads-marketing. New photographic FIRST FRAME, same two Korean spy-comedy actors and same break room / bags from references, exactly preserved faces and clothing and glasses. 16:9 landscape full-bleed. Eye-level frontal medium wide: both actors now stand behind the simple wooden table, woman A beige trench LEFT, man B navy jacket RIGHT. Two original SOFT briefcases are on TABLE in front of them, black LEFT and dark brown RIGHT. They are still fully CLOSED, their zipper/top flap shut. Same two WHITE open plastic S-hooks remain INTERLOCKED at center linking their cloth handles, clearly visible at front/center of table. Each actor places one hand on the zipper/top-flap closure of their own bag, poised to open it. Other hand steadies their bag. No envelope yet visible, no paper. They both look down with absurd grave seriousness. Background bulletin board with single mint paper remains heavily out of focus, no readable graphic. Fluorescent room plus warm side highlights, humble practical props and visible tape wrapping hook attachments. This is BEFORE opening bags or removing envelopes. No duplicate bags, no extra people, no text, logo, guns, handcuffs or money.",
+      "reference_images": [
+        "\\\\wsl.localhost\\Ubuntu-24.04\\home\\wooseok\\wsy\\samsung_related\\slide\\AI실행결과발표대회_디자인3종\\storyboards\\2026-10-17_b-comedy-reboot-v3\\images\\C05\\K03.png"
+      ],
+      "source_generated_path": "C:\\Users\\wseok\\.codex\\generated_images\\01a149a2-d9c9-70e2-b538-eb2497e8c4e8\\exec-c3b518b5-e822-4648-a231-b1962e3394f5.png",
+      "generation_tool": "image_gen",
+      "first_frame": "두 가방은 테이블 위에서 아직 닫혀 있다. A·B가 각자 자기 가방 뚜껑의 잠금에 손을 댄다. 고리는 중앙에서 연결되어 있음.",
+      "next_motion": "가방 열기와 봉투 꺼내기를 이어 한 번에 처리.",
+      "artist_review": {
+        "status": "self_review_pass_pending_independent_review",
+        "viewed": true,
+        "notes": "두 닫힌 소프트가방을 테이블에 놓고 지퍼를 잡은 상태. 중앙 연결 고리·색·두 인물 유지. 형태에 맞춰 잠금을 지퍼로 구현."
+      },
+      "revision": 1,
+      "actual_dimensions": {
+        "width": 1672,
+        "height": 941
+      },
+      "selected": false
+    },
+    {
+      "concept_id": "C05",
+      "scene_id": "S02",
+      "cut_id": "K05",
+      "image_path": "images/C05/K05.png",
+      "prompt": "Use case: ads-marketing. New distinct photographic FIRST FRAME in exact same break room and with same Korean spies from reference: A beige coat black sunglasses LEFT; B navy jacket amber glasses RIGHT. 16:9 full-bleed. Front medium framing showing both faces, hands, open bags. The original black and dark-brown SOFT briefcases now stand on table with top zippers OPEN and top fabric lips clearly spread apart, black bag left and brown right. Preserve interlocked white plastic hooks connecting their inner handle straps at center, tape wraps unchanged. Each actor now holds ONE small cream envelope above their own bag at lower chest height, looking down solemnly. One hand holds envelope, other hand reaches INSIDE its mouth poised to pull out a flyer. ONLY a small plain MINT corner of paper peeks out, no magenta/black graphic visible yet. Exactly two envelopes, no extra paper, no duplicate bags. Contents NOT displayed yet. Background bulletin-board poster still blurred indistinct. Avoid already-open full flyers, extra props, written text or logos. Continue cheap practical spy melodrama, fluorescent light plus amber rim, human faces serious to a ridiculous degree.",
+      "reference_images": [
+        "\\\\wsl.localhost\\Ubuntu-24.04\\home\\wooseok\\wsy\\samsung_related\\slide\\AI실행결과발표대회_디자인3종\\storyboards\\2026-10-17_b-comedy-reboot-v3\\images\\C05\\K04.png"
+      ],
+      "source_generated_path": "C:\\Users\\wseok\\.codex\\generated_images\\01a149a2-d9c9-70e2-b538-eb2497e8c4e8\\exec-07b6ddb3-497b-4d06-8967-f5154f01c9c9.png",
+      "generation_tool": "image_gen",
+      "first_frame": "A·B는 각자 크림색 봉투 입구에 손을 넣고 안내장을 꺼내기 직전. 안쪽에 민트색 모서리만 보이고 동일 그래픽은 아직 공개되지 않음. 열린 가방 아래.",
+      "next_motion": "동시에 펼침 → 같은 그래픽 확인하며 대사 → 시선이 뒤쪽으로 움직이기 시작.",
+      "artist_review": {
+        "status": "self_review_pass_pending_independent_review",
+        "viewed": true,
+        "notes": "열린 소프트가방·봉투 각1·민트 모서리만 노출·그래픽 미공개 확인. 고리 연결 유지."
+      },
+      "revision": 1,
+      "actual_dimensions": {
+        "width": 1672,
+        "height": 941
+      },
+      "selected": false
+    },
+    {
+      "concept_id": "C05",
+      "scene_id": "S03",
+      "cut_id": "K06",
+      "image_path": "images/C05/K06.png",
+      "prompt": "Use case: ads-marketing. Create distinct next FIRST FRAME, same exact two Korean spies, clothes, face identity, sunglasses, bags, white linked plastic hooks, break room as reference. 16:9 full-bleed wide frontal, pull back enough to see behind their heads to CORK BOARD. Both stand behind table, A beige coat on LEFT, B navy jacket RIGHT. Two soft cases still OPEN on table, black left/brown right, hooks still linked at center. Cream envelopes now placed INSIDE their own open bags. Each actor holds ONE fully unfolded portrait-format MINT flyer in their OUTER hand at lower chest: A in her RIGHT hand at screen-left, B in his LEFT hand at screen-right. Flyers angled visibly toward camera. Both heads still facing forward/down toward the flyer, just BEFORE they turn backward toward the bulletin board. Inner hands free low near table. On BOTH flyers exactly same simple bold abstract graphic: mint solid background, one LARGE MAGENTA RING in upper half, a BLACK THREE-STEP STAIRCASE silhouette in lower half. NO letters or numbers. On cork board centered BEHIND them is exactly ONE poster of identical mint/magenta-ring/black-three-stair graphic, same orientation, now clearly in focus. The three graphics must match visibly without text. Board poster not hidden by heads. Quiet dawning awkwardness rather than smiles. Only two actors, no new observer or signage. No duplicate pages. This moment reveals same graphic to viewer but actors have not looked behind yet.",
+      "reference_images": [
+        "\\\\wsl.localhost\\Ubuntu-24.04\\home\\wooseok\\wsy\\samsung_related\\slide\\AI실행결과발표대회_디자인3종\\storyboards\\2026-10-17_b-comedy-reboot-v3\\images\\C05\\K05.png"
+      ],
+      "source_generated_path": "C:\\Users\\wseok\\.codex\\generated_images\\01a149a2-d9c9-70e2-b538-eb2497e8c4e8\\exec-a51c4b8a-d5ef-4db5-8f45-7a1a54da783b.png",
+      "generation_tool": "image_gen",
+      "first_frame": "A·B는 각자 바깥손에 안내장을 든 채 게시판 쪽으로 고개를 돌리기 직전. 게시판 안내장은 처음으로 또렷하게 보이며 손의 그래픽과 같다. 두 가방은 테이블에서 열려 있고 연결 고리는 중앙.",
+      "next_motion": "게시판 발견 → A가 손 안내장을 조금 올려 같은 방향으로 확인 → B 짧은 대사.",
+      "artist_review": {
+        "status": "self_review_pass_pending_independent_review",
+        "viewed": true,
+        "notes": "손 안내장2+게시판1의 민트/자홍고리/계단그래픽 매칭. 두 요원은 아직 안내장을 보며 게시판 발견 전. 열린가방·안쪽봉투·고리 유지. PD정정된 바깥 안내장손(A오른손/B왼손) 적용."
+      },
+      "revision": 1,
+      "actual_dimensions": {
+        "width": 1672,
+        "height": 941
+      },
+      "selected": true
+    },
+    {
+      "concept_id": "C05",
+      "scene_id": "S03",
+      "cut_id": "K07",
+      "image_path": "images/C05/K07.png",
+      "prompt": "Use case: ads-marketing. New single FIRST FRAME of same absurd Korean spy break-room comedy, exact two actors, clothing, bags, linked white hooks, mint graphic flyers as reference. Full-bleed 16:9 full-body wide frontal. After a short editorial omission they have closed bags and walked to FRONT of table. A beige-trench woman stands SCREEN LEFT, B navy-jacket man SCREEN RIGHT, facing front side by side, BOTH feet planted, BEFORE stepping in opposite directions. INNER arms hang low: A's LEFT hand holds BLACK closed briefcase, B's RIGHT hand holds DARK BROWN closed briefcase. Bags almost touching at knee level in center, TWO WHITE open plastic S-hooks still visibly INTERLOCKED between handles, attached with same tape. OUTER arms hang down: A's RIGHT hand holds her mint flyer low beside LEFT EDGE of her outer thigh, B's LEFT hand holds his flyer low beside RIGHT EDGE of his outer thigh. Papers NOT at chest yet. Same graphic on each flyer: magenta ring above black stair silhouette on mint. Board behind centered with same one poster. Table behind their bodies, empty swivel chairs near side edges, no extra actors. Both serious, trying to leave inconspicuously. Show full shoes, hands, bags, papers, linked hooks without occlusion. No early promotional pose, no paper held in inner hand, no unconnected hooks, no duplicated hands, no text, no logos.",
+      "reference_images": [
+        "\\\\wsl.localhost\\Ubuntu-24.04\\home\\wooseok\\wsy\\samsung_related\\slide\\AI실행결과발표대회_디자인3종\\storyboards\\2026-10-17_b-comedy-reboot-v3\\images\\C05\\K06.png",
+        "\\\\wsl.localhost\\Ubuntu-24.04\\home\\wooseok\\wsy\\samsung_related\\slide\\AI실행결과발표대회_디자인3종\\storyboards\\2026-10-17_b-comedy-reboot-v3\\images\\C05\\K03.png"
+      ],
+      "source_generated_path": "C:\\Users\\wseok\\.codex\\generated_images\\01a149a2-d9c9-70e2-b538-eb2497e8c4e8\\exec-1b621736-644e-4a27-b518-1c2321545bd5.png",
+      "generation_tool": "image_gen",
+      "first_frame": "짧은 생략 뒤 A·B가 테이블 앞에서 정면으로 나란히 서 있다. 두 가방은 닫혀 있고 A의 오른손·B의 왼손에 낮게 들려 중앙 S고리가 계속 연결된다. A왼손·B오른손의 안내장은 바깥 허벅지 옆. 아직 서로 반대편으로 발을 떼지 않았다.",
+      "next_motion": "각자 바깥쪽으로 한 걸음 시도 → 짧은 당김에 스스로 정지 → 정면 노출을 알아차림 → 바깥손 안내장을 가슴으로 들어 A가 '오세요'. 사람을 당겨 되돌리거나 자동 회전시키지 않음.",
+      "artist_review": {
+        "status": "self_review_pass_pending_independent_review",
+        "viewed": true,
+        "notes": "정면 두 인물·양발 바닥·안쪽 닫힌 가방/바깥 낮은 안내장·중앙 연결 고리 확인. 안내장 아직 올리기 전. PD좌우정정 적용."
+      },
+      "revision": 1,
+      "actual_dimensions": {
+        "width": 1672,
+        "height": 941
+      },
+      "selected": true
+    },
+    {
+      "concept_id": "C05",
+      "scene_id": "S04",
+      "cut_id": "K08",
+      "image_path": "images/C05/K08.png",
+      "prompt": "Use case: ads-marketing. NEW SEPARATE END-TITLE BACKGROUND PLATE for the same original Korean low-budget spy comedy. Reference is for EXACT faces, costume, bag designs, linked white hooks, mint flyers and room mood. Full-bleed 16:9. Recompose scene: LEFT 40% contains both actors standing side by side in front of a SMALL cork board, woman A in beige on left of man B in navy, both full body or knee-up small enough for title to dominate later. They face camera rigidly and over-seriously pretending to be event promoters. Their OUTER hands now hold mint flyers up at CHEST height: A right hand at far left, B left hand at outer right. Inner hands still hold CLOSED briefcases LOW at thighs: black left, dark brown right, linked white plastic S-hooks clearly continuous between handles. Same exact mint flyers with MAGENTA RING upper half, BLACK STAIR silhouette below; board behind them also has one matching flyer. RIGHT 60% of frame must be CLEAN BRIGHT MINT WALL empty of furniture, people, shadows, props or patterns, for separate title overlay later. No words/title/date/logos anywhere. Keep bags in hands, do not put them on table. Soft fluorescent room light with warm amber faces, intentionally cheap practical spy-film vibe. No new person, no duplicate arms or flyers, no printed text. This is a background plate only, not a typeset endcard.",
+      "reference_images": [
+        "\\\\wsl.localhost\\Ubuntu-24.04\\home\\wooseok\\wsy\\samsung_related\\slide\\AI실행결과발표대회_디자인3종\\storyboards\\2026-10-17_b-comedy-reboot-v3\\images\\C05\\K07.png",
+        "\\\\wsl.localhost\\Ubuntu-24.04\\home\\wooseok\\wsy\\samsung_related\\slide\\AI실행결과발표대회_디자인3종\\storyboards\\2026-10-17_b-comedy-reboot-v3\\images\\C05\\K06.png"
+      ],
+      "source_generated_path": "C:\\Users\\wseok\\.codex\\generated_images\\01a149a2-d9c9-70e2-b538-eb2497e8c4e8\\exec-7c4bfdbe-ec70-4c8e-8e7b-c34420f6d40f.png",
+      "generation_tool": "image_gen",
+      "first_frame": "새 휴게실 배경. 왼쪽 A베이지·B네이비가 K07의 수습 자세로 서 있다. 안내장은 바깥손으로 가슴 앞, 닫힌 가방은 안쪽손으로 낮게 들고 중앙 연결 고리 유지. 뒤 게시판에는 같은 그래픽 한 장. 오른쪽 깨끗한 민트 벽. 후편집 별도 조판: 오른쪽 58%의 무늬 없는 밝은 영역에 작은 1행 '2026년 품질팀', 큰 2행 'AI 실행 결과', 큰 3행 '발표 대회'. 전체 제목을 처음부터 끝까지 6초 유지. 제목 아래 연결 문구 1행. 이미지에는 제목·자막·로고·날짜를 그리지 않는다.",
+      "next_motion": "후편집 타이틀6초 고정. 두 요원의 추가 행동 없음.",
+      "artist_review": {
+        "status": "self_review_pass_pending_independent_review",
+        "viewed": true,
+        "notes": "별도 엔딩배경. 왼쪽 두요원 바깥손 안내장 가슴 높이, 안쪽손 가방 낮게·중앙고리 연결·게시판 같은 그래픽. 우측 민트 여백 확인. 제목은 미합성."
+      },
+      "revision": 1,
+      "actual_dimensions": {
+        "width": 1672,
+        "height": 941
+      },
+      "selected": true
+    },
+    {
+      "concept_id": "C05",
+      "scene_id": "S01",
+      "cut_id": "K01",
+      "image_path": "images/C05/K01_v3.png",
+      "prompt": "Precise local continuity edit. IMAGE 1 is the target: preserve entire image exactly, including two people faces/hair/clothes/side-facing seated poses, hands, chair angles, separated white hooks, bags, floor, camera and light. Edit ONLY the small blurry rectangular paper pinned on the BACKGROUND cork board. Replace the old blurry green/white content on that paper with the same design seen on the bulletin board in IMAGE 2: solid mint paper, a large magenta ring in upper half and a black staircase silhouette in lower half. Crucial: keep target paper's original small dimensions, its far-background position and STRONG optical defocus. The magenta ring should be a soft blurred magenta oval/ring blob and lower black stairs a soft dark mass, not crisp illustration. It is background continuity, NOT a foreground reveal; no readable text, no enlargement, no refocus of board. Do not put flyers in hands. Don't alter anything outside the old poster rectangle. Keep full-bleed 16:9 photographic output.",
+      "reference_images": [
+        "\\\\wsl.localhost\\Ubuntu-24.04\\home\\wooseok\\wsy\\samsung_related\\slide\\AI실행결과발표대회_디자인3종\\storyboards\\2026-10-17_b-comedy-reboot-v3\\images\\C05\\K01_v2.png",
+        "\\\\wsl.localhost\\Ubuntu-24.04\\home\\wooseok\\wsy\\samsung_related\\slide\\AI실행결과발표대회_디자인3종\\storyboards\\2026-10-17_b-comedy-reboot-v3\\images\\C05\\K06.png"
+      ],
+      "source_generated_path": "C:\\Users\\wseok\\.codex\\generated_images\\01a149a2-d9c9-70e2-b538-eb2497e8c4e8\\exec-bff137c8-8091-4649-8326-a9425329e233.png",
+      "generation_tool": "image_gen",
+      "first_frame": "A는 왼쪽 바깥, B는 오른쪽 바깥을 보고 앉아 있다. 각자 안쪽 손으로 자기 가방의 큰 손잡이를 잡고 중앙으로 밀기 직전. 두 S자 고리는 서로 5cm 떨어져 아직 걸리지 않았음. 두 사람 발은 바닥.",
+      "next_motion": "두 가방 중앙 이동 → 큰 고리가 맞물림 → 두 사람이 손잡이를 당기다 멈춤. 카메라 고정.",
+      "artist_review": {
+        "status": "revision_self_review_pass_pending_recheck",
+        "viewed": true,
+        "notes": "3인교차후 PD 필수수정: 벽 도안을 민트/자홍링/검정계단으로 일치. 기존 크기와 아웃포커스 유지. 인물·가방·의자·미연결 고리 보존 확인."
+      },
+      "revision": 3,
+      "actual_dimensions": {
+        "width": 1672,
+        "height": 941
+      },
+      "selected": true
+    },
+    {
+      "concept_id": "C02",
+      "scene_id": "S02",
+      "cut_id": "K06",
+      "image_path": "images/C02/K06_v3.png",
+      "prompt": "Precise local prop edit of this image. Preserve woman P, her face, hands, notebook contents and position, ribbon, blue circle, whole office, male T face/body/clothes, camera and lighting exactly. Change ONLY the TWO transparent tape scraps on male T's cuff edges and bring those cuffs slightly closer if necessary. The tape scraps must be attached on the INNER SIDES of each rolled sleeve, facing one another in the central gap between his forearms. Each has a visibly protruding short shiny clear sticky tail extending horizontally TOWARD THE OTHER CUFF. The two inner cuffs/wrists are about 15cm apart, and the two clear tape tips still have visible AIR GAP: not touching yet. Remove tape from OUTER forearm edges; exactly two tape scraps total, one on each INNER cuff. His fingertips stay entirely empty. Do not add a tape bridge, do not wrap wrists, do not cross arms, no binding. This is before a simple inward hand motion causes the two cuff tails to stick. Both tails must be visibly poised to meet when cuffs move together, not pointing outward. Full-bleed 16:9.",
+      "reference_images": [
+        "\\\\wsl.localhost\\Ubuntu-24.04\\home\\wooseok\\wsy\\samsung_related\\slide\\AI실행결과발표대회_디자인3종\\storyboards\\2026-10-17_b-comedy-reboot-v3\\images\\C02\\K06_v2.png"
+      ],
+      "source_generated_path": "C:\\Users\\wseok\\.codex\\generated_images\\01a149a2-d9c9-70e2-b538-eb2497e8c4e8\\exec-eb7e8d8b-c745-4223-9a45-4651c0d85a52.png",
+      "generation_tool": "image_gen",
+      "first_frame": "P는 열린 노트 위 첫 메모에 검지를 대기 직전. T는 뒤에서 두 손목이 15cm 떨어진 채 종이 띠와 테이프 꼬리를 정리하려 한다. 아직 손목끼리 붙지 않았음.",
+      "next_motion": "P의 첫 메모 가리키기와 대사 → T가 두 소매 끝을 모았다가 테이프 꼬리가 서로 붙음 → 한 번 내려다봄.",
+      "artist_review": {
+        "status": "revision_self_review_pass_pending_recheck",
+        "viewed": true,
+        "notes": "3인교차후 PD 필수수정: 투명꼬리2개가 양소매 안쪽 중앙을 향함. 아직 공극 있음. 손가락 추가테이프 없음. P·노트·띠 보존 확인."
+      },
+      "revision": 3,
+      "actual_dimensions": {
+        "width": 1672,
+        "height": 941
+      },
+      "selected": true
+    },
+    {
+      "concept_id": "C05",
+      "scene_id": "S01",
+      "cut_id": "K02",
+      "image_path": "images/C05/K02_v2.png",
+      "prompt": "Precise local continuity edit. IMAGE 1 is the edit TARGET. Keep all people, faces, clothing, exact existing body and hand positions, chairs, bags, white plastic linked hooks, lighting, framing, floor and furniture UNCHANGED. ONLY replace content of the SINGLE small paper on the BACKGROUND CORK BOARD. Use IMAGE 2 only as poster graphic reference: solid mint rectangle, MAGENTA RING in upper half, BLACK STAIRCASE silhouette in lower half, no letters/numbers. Preserve target's original poster dimensions and distant location. It must stay strongly OUT OF FOCUS at exactly original background depth: blurred magenta ring/blob and soft dark staircase mass, not a crisp graphic reveal, no refocusing or enlarging the board. Everything outside that existing poster rectangle should remain unchanged. Do not put flyers in hands or change actor motion state. 16:9 full-bleed photoreal output.",
+      "reference_images": [
+        "\\\\wsl.localhost\\Ubuntu-24.04\\home\\wooseok\\wsy\\samsung_related\\slide\\AI실행결과발표대회_디자인3종\\storyboards\\2026-10-17_b-comedy-reboot-v3\\images\\C05\\K02.png",
+        "\\\\wsl.localhost\\Ubuntu-24.04\\home\\wooseok\\wsy\\samsung_related\\slide\\AI실행결과발표대회_디자인3종\\storyboards\\2026-10-17_b-comedy-reboot-v3\\images\\C05\\K06.png"
+      ],
+      "source_generated_path": "C:\\Users\\wseok\\.codex\\generated_images\\01a149a2-d9c9-70e2-b538-eb2497e8c4e8\\exec-5eb6ed3f-3f23-467d-a39a-e780137c113b.png",
+      "generation_tool": "image_gen",
+      "first_frame": "K01처럼 두 가방이 연결된 상태. A·B는 몸이 바깥을 향하고 안쪽 손으로 각자 손잡이를 잡음. 각자 한 발을 바닥에 힘줄 자세로 놓았고 의자는 아직 돌지 않았다.",
+      "next_motion": "각자 발로 자기 의자를 안쪽으로 회전 → 두 얼굴 정면 노출 → 서로를 보고 고개만 반대로 돌림. 가방이 의자를 자동으로 끌지 않음.",
+      "artist_review": {
+        "status": "revision_self_review_pass_pending_recheck",
+        "viewed": true,
+        "notes": "3인교차후 PD 필수수정: 작은 원거리 벽 게시물의 큰색/형태를 K06 도안과 일치. 아웃포커스 유지. 인물·손·가방·연결고리·의자 상태 보존 확인."
+      },
+      "revision": 2,
+      "actual_dimensions": {
+        "width": 1672,
+        "height": 941
+      },
+      "selected": true
+    },
+    {
+      "concept_id": "C05",
+      "scene_id": "S02",
+      "cut_id": "K03",
+      "image_path": "images/C05/K03_v2.png",
+      "prompt": "Precise local continuity edit. IMAGE 1 is the edit TARGET. Keep all people, faces, clothing, exact existing body and hand positions, chairs, bags, white plastic linked hooks, lighting, framing, floor and furniture UNCHANGED. ONLY replace content of the SINGLE small paper on the BACKGROUND CORK BOARD. Use IMAGE 2 only as poster graphic reference: solid mint rectangle, MAGENTA RING in upper half, BLACK STAIRCASE silhouette in lower half, no letters/numbers. Preserve target's original poster dimensions and distant location. It must stay strongly OUT OF FOCUS at exactly original background depth: blurred magenta ring/blob and soft dark staircase mass, not a crisp graphic reveal, no refocusing or enlarging the board. Everything outside that existing poster rectangle should remain unchanged. Do not put flyers in hands or change actor motion state. 16:9 full-bleed photoreal output.",
+      "reference_images": [
+        "\\\\wsl.localhost\\Ubuntu-24.04\\home\\wooseok\\wsy\\samsung_related\\slide\\AI실행결과발표대회_디자인3종\\storyboards\\2026-10-17_b-comedy-reboot-v3\\images\\C05\\K03.png",
+        "\\\\wsl.localhost\\Ubuntu-24.04\\home\\wooseok\\wsy\\samsung_related\\slide\\AI실행결과발표대회_디자인3종\\storyboards\\2026-10-17_b-comedy-reboot-v3\\images\\C05\\K06.png"
+      ],
+      "source_generated_path": "C:\\Users\\wseok\\.codex\\generated_images\\01a149a2-d9c9-70e2-b538-eb2497e8c4e8\\exec-60e885c0-0a02-4cf7-841e-fa22b6e6cf95.png",
+      "generation_tool": "image_gen",
+      "first_frame": "두 사람이 의자에서 일어난 직후. 연결된 가방은 중앙 바닥, A·B는 각자 자기 손잡이를 이미 잡고 있다. 테이블은 한 걸음 뒤. 의자는 전경에 남아 있음.",
+      "next_motion": "두 사람이 연결된 가방을 함께 들어 바로 뒤 테이블에 올림. 2초 한 동작.",
+      "artist_review": {
+        "status": "revision_self_review_pass_pending_recheck",
+        "viewed": true,
+        "notes": "3인교차후 PD 필수수정: 작은 원거리 벽 게시물의 큰색/형태를 K06 도안과 일치. 아웃포커스 유지. 인물·손·가방·연결고리·의자 상태 보존 확인."
+      },
+      "revision": 2,
+      "actual_dimensions": {
+        "width": 1672,
+        "height": 941
+      },
+      "selected": true
+    },
+    {
+      "concept_id": "C05",
+      "scene_id": "S02",
+      "cut_id": "K04",
+      "image_path": "images/C05/K04_v2.png",
+      "prompt": "Precise local continuity correction. IMAGE 1 is target. Preserve its entire foreground EXACTLY: actors faces, stern expressions, sunglasses, hair, hands and their exact bag/envelope poses, clothing, bag open/closed state, two white linked plastic hooks, table, camera and lighting. Change ONLY the small old rectangular POSTER on BACKGROUND CORK BOARD. Replace its content with same design as the board in IMAGE 2: MINT solid paper, MAGENTA RING in upper half, BLACK STAIRCASE silhouette in lower half, absolutely no letters/numbers. Keep old target poster's original small size, perspective and location, far behind actors. Render with STRONG optical defocus like existing background, enough that magenta and black are blurred masses, not crisp edges or an early clear reveal. Do not enlarge the poster or increase depth of field. Nothing outside original poster rectangle should change. Do not add fully exposed flyers in hands, and do not alter the exact source envelope and bag state. Full-bleed 16:9 photographic image.",
+      "reference_images": [
+        "\\\\wsl.localhost\\Ubuntu-24.04\\home\\wooseok\\wsy\\samsung_related\\slide\\AI실행결과발표대회_디자인3종\\storyboards\\2026-10-17_b-comedy-reboot-v3\\images\\C05\\K04.png",
+        "\\\\wsl.localhost\\Ubuntu-24.04\\home\\wooseok\\wsy\\samsung_related\\slide\\AI실행결과발표대회_디자인3종\\storyboards\\2026-10-17_b-comedy-reboot-v3\\images\\C05\\K06.png"
+      ],
+      "source_generated_path": "C:\\Users\\wseok\\.codex\\generated_images\\01a149a2-d9c9-70e2-b538-eb2497e8c4e8\\exec-7d39f492-7c55-492a-8520-ab0f87412719.png",
+      "generation_tool": "image_gen",
+      "first_frame": "두 가방은 테이블 위에서 아직 닫혀 있다. A·B가 각자 자기 가방 뚜껑의 잠금에 손을 댄다. 고리는 중앙에서 연결되어 있음.",
+      "next_motion": "가방 열기와 봉투 꺼내기를 이어 한 번에 처리.",
+      "artist_review": {
+        "status": "revision_self_review_pass_pending_recheck",
+        "viewed": true,
+        "notes": "3인교차후 PD 필수수정: 벽 작은게시물만 민트/자홍링/검정계단. 배경강한아웃포커스 유지. 얼굴·손·가방개폐/봉투·연결고리 상태 시각 보존 확인."
+      },
+      "revision": 2,
+      "actual_dimensions": {
+        "width": 1672,
+        "height": 941
+      },
+      "selected": true
+    },
+    {
+      "concept_id": "C05",
+      "scene_id": "S02",
+      "cut_id": "K05",
+      "image_path": "images/C05/K05_v2.png",
+      "prompt": "Precise local continuity correction. IMAGE 1 is target. Preserve its entire foreground EXACTLY: actors faces, stern expressions, sunglasses, hair, hands and their exact bag/envelope poses, clothing, bag open/closed state, two white linked plastic hooks, table, camera and lighting. Change ONLY the small old rectangular POSTER on BACKGROUND CORK BOARD. Replace its content with same design as the board in IMAGE 2: MINT solid paper, MAGENTA RING in upper half, BLACK STAIRCASE silhouette in lower half, absolutely no letters/numbers. Keep old target poster's original small size, perspective and location, far behind actors. Render with STRONG optical defocus like existing background, enough that magenta and black are blurred masses, not crisp edges or an early clear reveal. Do not enlarge the poster or increase depth of field. Nothing outside original poster rectangle should change. Do not add fully exposed flyers in hands, and do not alter the exact source envelope and bag state. Full-bleed 16:9 photographic image.",
+      "reference_images": [
+        "\\\\wsl.localhost\\Ubuntu-24.04\\home\\wooseok\\wsy\\samsung_related\\slide\\AI실행결과발표대회_디자인3종\\storyboards\\2026-10-17_b-comedy-reboot-v3\\images\\C05\\K05.png",
+        "\\\\wsl.localhost\\Ubuntu-24.04\\home\\wooseok\\wsy\\samsung_related\\slide\\AI실행결과발표대회_디자인3종\\storyboards\\2026-10-17_b-comedy-reboot-v3\\images\\C05\\K06.png"
+      ],
+      "source_generated_path": "C:\\Users\\wseok\\.codex\\generated_images\\01a149a2-d9c9-70e2-b538-eb2497e8c4e8\\exec-2e51a687-33ba-41d2-b622-e1a25a1f3a9a.png",
+      "generation_tool": "image_gen",
+      "first_frame": "A·B는 각자 크림색 봉투 입구에 손을 넣고 안내장을 꺼내기 직전. 안쪽에 민트색 모서리만 보이고 동일 그래픽은 아직 공개되지 않음. 열린 가방 아래.",
+      "next_motion": "동시에 펼침 → 같은 그래픽 확인하며 대사 → 시선이 뒤쪽으로 움직이기 시작.",
+      "artist_review": {
+        "status": "revision_self_review_pass_pending_recheck",
+        "viewed": true,
+        "notes": "3인교차후 PD 필수수정: 벽 작은게시물만 민트/자홍링/검정계단. 배경강한아웃포커스 유지. 얼굴·손·가방개폐/봉투·연결고리 상태 시각 보존 확인."
+      },
+      "revision": 2,
+      "actual_dimensions": {
+        "width": 1672,
+        "height": 941
+      },
+      "selected": true
+    }
+  ],
+  "completed_cut_count": 15,
+  "required_cut_count": 15,
+  "generated_file_count": 23,
+  "selected_paths": {
+    "C02": [
+      "images/C02/K01.png",
+      "images/C02/K02.png",
+      "images/C02/K03.png",
+      "images/C02/K04.png",
+      "images/C02/K05.png",
+      "images/C02/K06_v3.png",
+      "images/C02/K07.png"
+    ],
+    "C05": [
+      "images/C05/K01_v3.png",
+      "images/C05/K02_v2.png",
+      "images/C05/K03_v2.png",
+      "images/C05/K04_v2.png",
+      "images/C05/K05_v2.png",
+      "images/C05/K06.png",
+      "images/C05/K07.png",
+      "images/C05/K08.png"
+    ]
+  },
+  "delivery_notes": [
+    "기존 C01 영상/원본/다른 담당 파일 변경 없음. Flow/영상/음성 생성 없음.",
+    "실제 크기 모두1672x941, 16:9에 근접한 도구 기본 가로와이드(픽셀 반올림). letterbox없음. 임의 재인코딩/크롭 없음.",
+    "C05 좌우손은 PD 승인 정정: 화면왼쪽A 안쪽가방왼손/바깥안내장오른손, 화면오른쪽B 안쪽가방오른손/바깥안내장왼손.",
+    "C02 실제 이미지 기준 P노트는 본인오른쪽옆구리, C02K02 T는 화면왼쪽 의자옆 접근. PD 정정 제안 전달, 독립검수 판단 남음.",
+    "내장image_gen 개별호출 23개: 최초15컷+초기자가수정2개+교차검수후필수수정6개. 채택15컷, 모든이력보존."
+  ],
+  "latest_revision_summary": {
+    "requested": 6,
+    "completed": 6,
+    "tool": "image_gen",
+    "paths": [
+      "images/C02/K06_v3.png",
+      "images/C05/K01_v3.png",
+      "images/C05/K02_v2.png",
+      "images/C05/K03_v2.png",
+      "images/C05/K04_v2.png",
+      "images/C05/K05_v2.png"
+    ],
+    "remaining": "검수자 재확인. 담당 자가검수상 새 필수 문제 없음.",
+    "scope": "C05 K01~K05 벽 게시물 일치와 C02 K06 소매테이프 안쪽 방향. 기존파일 비파괴 보존."
+  }
+}

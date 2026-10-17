@@ -1,0 +1,26 @@
+{
+  "status": "complete",
+  "scope": "five new B-grade scenarios, full storyboards and actual independent first-frame PNG per cut",
+  "new_concepts": 5,
+  "selected_cut_images": 39,
+  "all_png_including_revision_history": 58,
+  "durations_seconds": [
+    31,
+    29,
+    31,
+    30,
+    29
+  ],
+  "entrypoint": "index.html",
+  "full_storyboards": "STORYBOARDS.md",
+  "image_mapping_and_prompts": "scene_manifest.json",
+  "review": "review_summary.json",
+  "validation": "validation.json",
+  "existing_C01_final_preserved": true,
+  "video_generation": 0,
+  "audio_generation": 0,
+  "Flow_uploads": 0,
+  "Flow_credit_use": 0,
+  "automation_status": "PAUSED",
+  "resume_automation_only_after_separate_user_video_request": true
+}

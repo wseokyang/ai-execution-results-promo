@@ -1,0 +1,169 @@
+{
+  "status": "three_peer_cross_reviews_complete",
+  "source": "image_review_round1.json",
+  "B": {
+    "peer_findings": [
+      {
+        "ids": [
+          "A-I001"
+        ],
+        "decision": "agree_optional",
+        "basis": "Chin-resting pose can read waiting but works as separate title plate."
+      },
+      {
+        "ids": [
+          "A-I002",
+          "C-I003"
+        ],
+        "decision": "agree_required",
+        "basis": "Poster graphic changes cannot be explained by defocus."
+      },
+      {
+        "ids": [
+          "C-I001"
+        ],
+        "decision": "agree_optional",
+        "basis": "Two versus one sleeve stripe confirmed; identity and handoff remain readable."
+      },
+      {
+        "ids": [
+          "C-I002"
+        ],
+        "decision": "agree_required",
+        "basis": "Audience attention corridor overlaps magician; move M/hat forward instead of only eyes."
+      },
+      {
+        "ids": [
+          "C-I004"
+        ],
+        "decision": "agree_document_alignment",
+        "basis": "W holds visible right side panel; use that in folding action."
+      },
+      {
+        "ids": [
+          "C-I005"
+        ],
+        "decision": "conditional_agree_document_fix",
+        "basis": "One wrist turn/light crossing can bring outer tape tails together in five seconds."
+      }
+    ],
+    "own_issue_change": {
+      "id": "B-I002",
+      "from": "required_image_fix",
+      "to": "required_motion_document_fix",
+      "condition": "About2s wrist turn/light sleeve crossing/contact; about2s attempted separation/reaction, concurrent with P dialogue. No tape teleportation or contactless sticking."
+    },
+    "disagreement": "A C04 pass is insufficient: magician orientation and uncompressed hat do not establish audience focus on assistant.",
+    "reopened": "C01 K05/K06; C02 K06_v2; C03 K05_v2/K06/K07_v2",
+    "new_required_issues": []
+  },
+  "A": {
+    "peer_findings": [
+      {
+        "ids": [
+          "B-I001",
+          "C-I001"
+        ],
+        "decision": "agree_optional",
+        "basis": "Ending pose and sleeve stripe do not prevent title plate or role/prop identification."
+      },
+      {
+        "ids": [
+          "B-I002",
+          "C-I005"
+        ],
+        "decision": "agree_image_fix",
+        "basis": "Wrist rotation alone does not rotate outer sleeve tape. Extra arm-cross choreography competes with dialogue/contact/reaction in five seconds. Retracts first-pass document-only suggestion."
+      },
+      {
+        "ids": [
+          "B-I003",
+          "C-I003"
+        ],
+        "decision": "agree_required",
+        "basis": "Same poster design required; retain early blur."
+      },
+      {
+        "ids": [
+          "B-I004",
+          "C-I002"
+        ],
+        "decision": "agree_required",
+        "basis": "Attention corridor blocked by magician. Updates earlier unconditional C04 pass."
+      },
+      {
+        "ids": [
+          "C-I004"
+        ],
+        "decision": "agree_document_alignment",
+        "basis": "Use visible side panel, withdraw host near hand before folding."
+      }
+    ],
+    "reopened": "C02 K06_v2; C04 K07_v2; C01 K05/K06; C03 K05_v2/K06/K07_v2/K08",
+    "new_required_issues": []
+  },
+  "C": {
+    "peer_findings": [
+      {
+        "ids": [
+          "A-I001",
+          "B-I001"
+        ],
+        "decision": "agree_optional",
+        "basis": "Separate ending plate remains usable."
+      },
+      {
+        "ids": [
+          "A-I002",
+          "B-I003"
+        ],
+        "decision": "agree_required",
+        "basis": "Early poster graphic differs, not just focus."
+      },
+      {
+        "ids": [
+          "B-I004"
+        ],
+        "decision": "agree_required",
+        "basis": "Move magician out of audience-to-hands corridor; leaning audience alone may not resolve obstruction."
+      },
+      {
+        "ids": [
+          "B-I002"
+        ],
+        "decision": "agree_image_fix",
+        "basis": "Five-second composition favors simple contact rather than extra arm rotation. Changes C-I005 recommendation to image repair."
+      }
+    ],
+    "new_required_issues": [
+      {
+        "id": "C-I006",
+        "scope": "delivery paths",
+        "finding": "storyboards.json image_file still names old versions for revised cuts.",
+        "direction": "Align final selected paths across storyboard, manifest and cut list after image repairs."
+      }
+    ],
+    "reopened": "C02 K06_v2; C04 K07_v2; C05 K05/K06"
+  },
+  "pd_decision": {
+    "required_image_repairs": [
+      "C05 K01-K05 same blurred poster",
+      "C04 K07 unobstructed attention corridor",
+      "C02 K06 two inward-facing non-contacting tape tails"
+    ],
+    "tape_disagreement_resolution": "B allowed short whole-arm crossing; PD chooses local tape edit to preserve the planned simple five-second gag, not by majority vote.",
+    "required_document_alignment": [
+      "C01 visible side panel and host hand withdrawal",
+      "C04 foreground magician/hat position",
+      "final selected image_file paths",
+      "C05 title area begins at53% in HTML"
+    ],
+    "optional_left_unchanged": [
+      "C03 ending chin rest",
+      "C03 K05/K06 fine sleeve stripe variation"
+    ],
+    "optional_reason": "These do not obscure identity, prop transfer, role reversal or title reading; regeneration could disturb already workable frames. Not claimed perfect costume matching.",
+    "awaiting_actual_revision_rechecks": false,
+    "revision_confirmation": "image_revision_confirmation.json"
+  }
+}

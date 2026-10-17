@@ -1,0 +1,53 @@
+{
+  "stage":"storyboard independent round 1",
+  "source":"director_draft_v1.json",
+  "independent":true,
+  "note":"세 검수자는 첫 제출 전에 동료 의견을 보지 않았다. 점수는 주관적 편집 판단, 관객 실험 아님. B의 반환은 중국어였으며 총괄이 아래 한국어로 요약했다. 실제 신규 이미지 검수는 아직 수행하지 않음.",
+  "reviewers":{
+    "A":{
+      "agent":"/root/reboot_review_a",
+      "scores":{"C01":[4,4,4,4,4],"C02":[4,3,4,3,2],"C03":[4,4,4,4,3],"C04":[4,3,4,4,3],"C05":[3,2,2,4,2]},
+      "score_order":["훅","웃음","행사 전달","차별성","완성도"],
+      "issues":[
+        {"id":"A-001","concept":"C02","cuts":"K04-K06","level":"required","problem":"노트 꺼냄·펼침·수락에 같은 해답 12초 재확인","fix":"3초 꺼내며 펼침+2~3초 감독 수락, 전체5~6초. K03 화면에 소매 테이프 잔여를 심어 마지막 개그 원인 보강"},
+        {"id":"A-002","concept":"C05","cuts":"K03-K06","level":"required","problem":"운반·개봉·봉투·종이·게시판17초","fix":"운반2~3초, 개봉/공개3초, 두 종이와 게시판일치3~4초. 전체8~10초"},
+        {"id":"A-003","concept":"C05","cuts":"K01,K07-K08","level":"required","problem":"비법을 구한다는 목표와 마지막 홍보 정렬의 동기 없음","fix":"첫말에 비법 목표, 끝에 들킨 사람처럼 보이지 않으려 홍보요원인 척하는 등 행동 원인"},
+        {"id":"A-004","concept":"C03","cuts":"K04","level":"required","problem":"시상대15cm+트로피70cm=85cm라 성인 얼굴을 가릴 수 없음","fix":"트로피 크기를 전체 컷에서 함께 확대하거나 얼굴가림 구도 변경"},
+        {"id":"A-005","concept":"C04","cuts":"K05-K07","level":"suggestion","problem":"빈자리4초/뒤공개5초/모자6초의15초가 김","fix":"각2초/3~4초/3~4초. 모자접힘과 계속보는행동은유지"},
+        {"id":"A-006","concept":"C01","cuts":"K01,K05-K07","level":"suggestion","problem":"처음은 장비판매처럼 읽힘, 시범진입/출고가각5초","fix":"첫말에 사람포장욕심 구체화. K05약3초 K06약4초"},
+        {"id":"A-007","concept":"C01,C02,C03","cuts":"K07-K08","level":"suggestion","problem":"셋다 노트 앞 정면 발표로 수렴","fix":"C03노트 제거, C01상자의 발표대 전환/C02실행기록/C03진행권교환으로구별"}
+      ],
+      "verdict":"A001-A004 해결 후 재확인"
+    },
+    "B":{
+      "agent":"/root/reboot_review_b",
+      "scores":{"C01":[4,4,4,4,3],"C02":[4,3,4,4,3],"C03":[4,4,4,4,4],"C04":[4,3,4,4,3],"C05":[3,2,3,4,2]},
+      "issues":[
+        {"id":"B-001","concept":"C02","cuts":"K04-K06","level":"required","problem":"기록 등장 후 같은 해답을12초 반복","fix":"노트꺼내며펼침3초+감독수락2초. 약29~30초전체, 8컷맞추지말것"},
+        {"id":"B-002","concept":"C05","cuts":"K03-K06","level":"required","problem":"답을 꺼내는 일에17초","fix":"운반2초, 개봉/동일종이공개5초, 게시판3초. 같은종이→이미공개2단계는유지"},
+        {"id":"B-003","concept":"C05","cuts":"K06-K07","level":"required","problem":"공개를알았다고광고포즈가되는것은감독의인위적배치","fix":"가방을들고갈라지려다아직연결된S고리가둘을정면으로되돌리고, 초대장을들어홍보물처럼남는초반동작콜백"},
+        {"id":"B-004","concept":"C04","cuts":"K03-K06","level":"required","problem":"뒤를보려는의도를미리노출해21초공개는예상확인","fix":"중립표정·의자들고퇴장만, 목적지숨김. 빈객석2초후반대편공개"},
+        {"id":"B-005","concept":"C01","cuts":"K01-K02","level":"suggestion","problem":"처음무엇을포장하는지불명확","fix":"경험을통째로보낸다는황당판매한마디. B1/B2/B3명확히구별"},
+        {"id":"B-006","concept":"C03","cuts":"K03-K04","level":"suggestion","problem":"내려감/소품끼움/손잡이잡음준비8초","fix":"내려간뒤바로말하려는컷에바퀴소리선행, 시상대추격. 두컷5~6초"},
+        {"id":"B-007","concept":"C01,C02,C03","cuts":"K07-K08","level":"suggestion","problem":"세안모두노트정면이야기로평탄화","fix":"C01 나는여기서말하겠다는상자직결한마디, C03뒤축하유지하며진행권회수, C02만기록중심"}
+      ],
+      "verdict":"C02/C04/C05 필수 수정 후 재확인; 현장추천C03, 참석추천수정C04"
+    },
+    "C":{
+      "agent":"/root/reboot_review_c",
+      "scores":{"C01":[4,4,4,4,3],"C02":[4,4,4,3,2],"C03":[4,4,4,3,3],"C04":[4,3,3,4,2],"C05":[3,3,2,4,2]},
+      "issues":[
+        {"id":"C-001","concept":"C02","cuts":"K04-K06","level":"required","problem":"기록한해답을12초설명","fix":"꺼내며펼침3초, 감독비킴2초, 삭제시간다른설명으로채우지말것"},
+        {"id":"C-002","concept":"C05","cuts":"K03-K06","level":"required","problem":"포장해체17초","fix":"운반2초, 개봉3초, 동일종이/게시판4~5초. 전체9~10초"},
+        {"id":"C-003","concept":"C05","cuts":"K01,K06-K08","level":"required","problem":"그방법의선행대상/홍보정렬목적없음","fix":"첫교환에직접해본방법을심고 새행동목표또는그에준하는실제사건으로마지막을잇기"},
+        {"id":"C-004","concept":"C04","cuts":"K03-K06","level":"required","problem":"관객이동목적지스포일러","fix":"앞에서는이유/목적지감춤. K03-K05의13초를6~8초로"},
+        {"id":"C-005","concept":"C04","cuts":"K06-K07","level":"required","problem":"자기조수의장치를이미아는마술사가처음방법을보고궁금해지는동기모순","fix":"관객의관심을되찾으려고앞에끼어앉는데모자가접혀낮아지고관객은계속조수손만보는동작"},
+        {"id":"C-006","concept":"C03","cuts":"K07","level":"required","problem":"5초내마이크집기/노트당기기/긴두문장과밀","fix":"노트제거, '어떻게 했는지부터요.'만남김"},
+        {"id":"C-007","concept":"C01","cuts":"K05-K07","level":"suggestion","problem":"시범→출고→발표까지15초","fix":"3초/3~4초/3초, 손하트이동중1번"},
+        {"id":"C-008","concept":"C01,C02,C03","cuts":"K07-K08","level":"suggestion","problem":"노트앞정면발표엔딩유사","fix":"C02만노트해결, C01포장발표대/C03중계석진행권으로구분"}
+      ],
+      "verdict":"C001-C006 필수 수정 후 재확인"
+    }
+  },
+  "common_checks":{"timing_totals":[36,36,35,38,36],"title_hold_seconds":6,"event_fact_errors_found":false,"actual_images_reviewed":false,"video_audio_reviewed":false}
+}

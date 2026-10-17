@@ -1,0 +1,16 @@
+{
+  "method": "Actual local HTML opened through Computer Use in the Codex in-app browser; screenshots and read-only DOM checks.",
+  "status": "passed",
+  "observations": [
+    "All39 cut cards present; final seven revision file paths selected.",
+    "Completion badge states five concepts/39cuts/no video generation.",
+    "C03 K07 image lightbox opens actual PNG and close button works.",
+    "Actual rendered ending title layouts for all five concepts were inspected.",
+    "C05 title originally overlapped B; left offset corrected from43% to53%, then screenshot confirmed clear separation.",
+    "Deep-link scroll margin corrected to keep cut images below sticky navigation.",
+    "Final landing page renders overview and navigation without layout clipping."
+  ],
+  "raw_PNG_policy": "No title text burned into originals; HTML text is a separate placement example.",
+  "filesystem_link_check": "validation.json checks all local HTML asset links exist.",
+  "limits": "This verifies the static planning gallery, not film motion, audio or audience response."
+}

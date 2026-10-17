@@ -1,0 +1,15 @@
+{
+  "scope": "교차 검수된 신규 5안의 모든 컷에 독립 첫 프레임 이미지 1개 이상",
+  "mode": "기본 내장 image_gen; API/CLI 대체 금지",
+  "aspect_ratio": "16:9, letterbox로 맞춘 3:2 이미지가 아니라 실제 가로 와이드 프레임",
+  "content": "독창적인 가상 성인 배우, 후속 연속 동작을 시작할 수 있는 한 순간. 콜라주·분할 화면·씬 전체 사건 요약 이미지 금지.",
+  "consistency": "안별 실제 생성 기준 이미지를 열고 참조한다. 얼굴·의상·공간·주요 소품의 형태/색/위치를 유지한다.",
+  "timing": "주요 동작 직전. 컷 후반의 펀치라인을 이미 완성한 장면으로 시작하지 않는다. 대사·자막은 콘티 필드로 분리.",
+  "ending": "엔딩 컷도 별도 생성. 큰 행사명용 여백을 확보한 배경판과 정확한 후편집 문구/위치를 구분해 기록한다. 빈 배경판을 완성 합성 타이틀이라고 부르지 않는다.",
+  "avoid": ["실제 브랜드/유명인/참고 광고 인물 복제", "추가 등장인물", "명시하지 않은 글자", "미확정 일시/장소/상금/성과", "매끈한 광고사진으로 B급 연기/무대장치를 제거", "기존 결과 덮어쓰기"],
+  "file_pattern": "images/C01/K01.png; 수정시 K01_v2.png 등 새 파일",
+  "manifest_entry_fields": ["concept_id","scene_id","cut_id","image_path","prompt","reference_images","source_generated_path","generation_tool","first_frame","next_motion","artist_review","revision"],
+  "generation_tool_value": "image_gen",
+  "review": "담당 실제 이미지 확인 후, 세 검수자 독립/교차. 필수 결함만 수정하고 취향 제안은 구분한다.",
+  "video_work": "Flow 업로드/영상 생성/음원 생성/영상 렌더링 없음"
+}

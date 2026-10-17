@@ -1,0 +1,72 @@
+{
+  "status": "three_reviewers_confirmed_required_resolved",
+  "reviewers": {
+    "A": {
+      "actual_reopened": [
+        "images/C04/K07_v3.png",
+        "images/C02/K06_v3.png",
+        "images/C05/K01_v3.png",
+        "images/C05/K02_v2.png",
+        "images/C05/K03_v2.png",
+        "images/C05/K04_v2.png",
+        "images/C05/K05_v2.png",
+        "images/C05/K06.png"
+      ],
+      "C04": "B-I004/C-I002 resolved. Audience-to-assistant corridor no longer blocked; three viewers/chairs, five people, uncompressed hat and magician orientation preserved. Document matches.",
+      "C01_document": "C-I004 resolved by visible side-panel folding and host withdrawing nearby hand.",
+      "required_unresolved": [],
+      "C02": "B-I002/C-I005 resolved: inward-facing separated tape tails, simple contact motion available.",
+      "C05": "A-I002/B-I003/C-I003 resolved: same defocused graphic, original characters/hands/bags/hooks preserved.",
+      "image_paths": "C-I006 resolved:39 storyboard/manifest paths and revised Markdown paths match real files.",
+      "optional_retained": "C03 ending pose and sleeve stripes remain optional."
+    },
+    "B": {
+      "actual_reopened": [
+        "images/C04/K07_v3.png",
+        "images/C02/K06_v3.png",
+        "images/C05/K01_v3.png",
+        "images/C05/K02_v2.png",
+        "images/C05/K03_v2.png",
+        "images/C05/K04_v2.png",
+        "images/C05/K05_v2.png",
+        "images/C05/K06.png"
+      ],
+      "C04": "B-I004/C-I002 resolved. Attention continues past foreground magician. Hat remains tall, ready for weight loading. K06-K07 spatial ellipsis matches.",
+      "required_unresolved": [],
+      "C02": "B-I002/C-I005 resolved: two inward-pointing tape tails, separate wrists and tails, simple contact now available.",
+      "C05": "A-I002/B-I003/C-I003 resolved: same mint/magenta/black graphic as K06, early defocus retained, hands/bags/hooks preserved.",
+      "C01_document": "C-I004 resolved: visible right side panel, hand withdrawal and action_limits aligned.",
+      "image_paths": "C-I006 resolved: all39 storyboard and manifest selected paths match; all exist.",
+      "optional_retained": "C03 sleeve stripes and ending pose remain optional."
+    },
+    "C": {
+      "actual_reopened": [
+        "images/C04/K07_v3.png",
+        "images/C02/K06_v3.png",
+        "images/C05/K01_v3.png",
+        "images/C05/K02_v2.png",
+        "images/C05/K03_v2.png",
+        "images/C05/K04_v2.png",
+        "images/C05/K05_v2.png",
+        "images/C05/K06.png"
+      ],
+      "C04": "B-I004/C-I002 resolved. Clear corridor to assistant handle; three viewers/chairs plus M/A preserved. Near-seated pose can precede weight loading; no claim of actual compression motion.",
+      "required_unresolved": [],
+      "C02": "B-I002/C-I005 resolved: two inward-pointing tape tails, separate wrists and tails, simple contact now available.",
+      "C05": "A-I002/B-I003/C-I003 resolved: same mint/magenta/black graphic as K06, early defocus retained, hands/bags/hooks preserved.",
+      "C01_document": "C-I004 resolved: visible right side panel, hand withdrawal and action_limits aligned.",
+      "image_paths": "C-I006 resolved: all39 storyboard and manifest selected paths match; all exist.",
+      "optional_retained": "C03 sleeve stripes and ending pose remain optional."
+    }
+  },
+  "limits": "Still-image and document rechecks only; no generated video, audio or audience testing.",
+  "selected_revisions": [
+    "images/C02/K06_v3.png",
+    "images/C04/K07_v3.png",
+    "images/C05/K01_v3.png",
+    "images/C05/K02_v2.png",
+    "images/C05/K03_v2.png",
+    "images/C05/K04_v2.png",
+    "images/C05/K05_v2.png"
+  ]
+}

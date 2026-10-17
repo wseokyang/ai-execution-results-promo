@@ -1,0 +1,200 @@
+{
+  "stage": "independent_image_review_round1",
+  "images": [
+    {
+      "concept_id": "C01",
+      "cut_id": "K01",
+      "image_path": "images/C01/K01.png"
+    },
+    {
+      "concept_id": "C01",
+      "cut_id": "K02",
+      "image_path": "images/C01/K02_v2.png"
+    },
+    {
+      "concept_id": "C01",
+      "cut_id": "K03",
+      "image_path": "images/C01/K03_v2.png"
+    },
+    {
+      "concept_id": "C01",
+      "cut_id": "K04",
+      "image_path": "images/C01/K04_v2.png"
+    },
+    {
+      "concept_id": "C01",
+      "cut_id": "K05",
+      "image_path": "images/C01/K05.png"
+    },
+    {
+      "concept_id": "C01",
+      "cut_id": "K06",
+      "image_path": "images/C01/K06.png"
+    },
+    {
+      "concept_id": "C01",
+      "cut_id": "K07",
+      "image_path": "images/C01/K07.png"
+    },
+    {
+      "concept_id": "C01",
+      "cut_id": "K08",
+      "image_path": "images/C01/K08.png"
+    },
+    {
+      "concept_id": "C02",
+      "cut_id": "K01",
+      "image_path": "images/C02/K01.png"
+    },
+    {
+      "concept_id": "C02",
+      "cut_id": "K02",
+      "image_path": "images/C02/K02.png"
+    },
+    {
+      "concept_id": "C02",
+      "cut_id": "K03",
+      "image_path": "images/C02/K03.png"
+    },
+    {
+      "concept_id": "C02",
+      "cut_id": "K04",
+      "image_path": "images/C02/K04.png"
+    },
+    {
+      "concept_id": "C02",
+      "cut_id": "K05",
+      "image_path": "images/C02/K05.png"
+    },
+    {
+      "concept_id": "C02",
+      "cut_id": "K06",
+      "image_path": "images/C02/K06_v2.png"
+    },
+    {
+      "concept_id": "C02",
+      "cut_id": "K07",
+      "image_path": "images/C02/K07.png"
+    },
+    {
+      "concept_id": "C03",
+      "cut_id": "K01",
+      "image_path": "images/C03/K01.png"
+    },
+    {
+      "concept_id": "C03",
+      "cut_id": "K02",
+      "image_path": "images/C03/K02_v2.png"
+    },
+    {
+      "concept_id": "C03",
+      "cut_id": "K03",
+      "image_path": "images/C03/K03.png"
+    },
+    {
+      "concept_id": "C03",
+      "cut_id": "K04",
+      "image_path": "images/C03/K04.png"
+    },
+    {
+      "concept_id": "C03",
+      "cut_id": "K05",
+      "image_path": "images/C03/K05_v2.png"
+    },
+    {
+      "concept_id": "C03",
+      "cut_id": "K06",
+      "image_path": "images/C03/K06.png"
+    },
+    {
+      "concept_id": "C03",
+      "cut_id": "K07",
+      "image_path": "images/C03/K07_v2.png"
+    },
+    {
+      "concept_id": "C03",
+      "cut_id": "K08",
+      "image_path": "images/C03/K08.png"
+    },
+    {
+      "concept_id": "C04",
+      "cut_id": "K01",
+      "image_path": "images/C04/K01_v2.png"
+    },
+    {
+      "concept_id": "C04",
+      "cut_id": "K02",
+      "image_path": "images/C04/K02.png"
+    },
+    {
+      "concept_id": "C04",
+      "cut_id": "K03",
+      "image_path": "images/C04/K03_v2.png"
+    },
+    {
+      "concept_id": "C04",
+      "cut_id": "K04",
+      "image_path": "images/C04/K04.png"
+    },
+    {
+      "concept_id": "C04",
+      "cut_id": "K05",
+      "image_path": "images/C04/K05.png"
+    },
+    {
+      "concept_id": "C04",
+      "cut_id": "K06",
+      "image_path": "images/C04/K06_v2.png"
+    },
+    {
+      "concept_id": "C04",
+      "cut_id": "K07",
+      "image_path": "images/C04/K07_v2.png"
+    },
+    {
+      "concept_id": "C04",
+      "cut_id": "K08",
+      "image_path": "images/C04/K08.png"
+    },
+    {
+      "concept_id": "C05",
+      "cut_id": "K01",
+      "image_path": "images/C05/K01_v2.png"
+    },
+    {
+      "concept_id": "C05",
+      "cut_id": "K02",
+      "image_path": "images/C05/K02.png"
+    },
+    {
+      "concept_id": "C05",
+      "cut_id": "K03",
+      "image_path": "images/C05/K03.png"
+    },
+    {
+      "concept_id": "C05",
+      "cut_id": "K04",
+      "image_path": "images/C05/K04.png"
+    },
+    {
+      "concept_id": "C05",
+      "cut_id": "K05",
+      "image_path": "images/C05/K05.png"
+    },
+    {
+      "concept_id": "C05",
+      "cut_id": "K06",
+      "image_path": "images/C05/K06.png"
+    },
+    {
+      "concept_id": "C05",
+      "cut_id": "K07",
+      "image_path": "images/C05/K07.png"
+    },
+    {
+      "concept_id": "C05",
+      "cut_id": "K08",
+      "image_path": "images/C05/K08.png"
+    }
+  ]
+}

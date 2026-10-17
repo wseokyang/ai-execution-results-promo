@@ -1,0 +1,26 @@
+{
+  "run_id": "2026-10-17_b-comedy-reboot-v3",
+  "latest_stage": "delivery_complete",
+  "research_complete": true,
+  "independent_writer_candidates": 8,
+  "selected_new_concepts": 5,
+  "storyboard_draft1_cuts": 40,
+  "independent_storyboard_reviewers": [
+    "A",
+    "B",
+    "C"
+  ],
+  "peer_cross_reviews_complete": true,
+  "revision_confirmation_complete": true,
+  "actual_new_images": 39,
+  "image_reviews_complete": true,
+  "flow_requests": 0,
+  "automation_status": "PAUSED",
+  "existing_C01_final_preserved": true,
+  "status": "complete",
+  "final_storyboard_cuts": 39,
+  "image_independent_reviewers_all_39": true,
+  "image_peer_cross_reviews_complete": true,
+  "required_image_revision_count": 7,
+  "image_revision_confirmation_complete": true
+}

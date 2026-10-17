@@ -1,0 +1,2109 @@
+{
+  "run_id": "2026-10-17_b-comedy-reboot-v3",
+  "scope": "five new concepts, actual first-frame image per cut",
+  "path_base": "this run folder",
+  "sources": [
+    {
+      "file": "image_manifest_artist1.json",
+      "entry_count": 24
+    },
+    {
+      "file": "image_manifest_artist2.json",
+      "entry_count": 23
+    },
+    {
+      "file": "image_manifest_artist3.json",
+      "entry_count": 8
+    }
+  ],
+  "selected_image_count": 39,
+  "images": [
+    {
+      "concept_id": "C01",
+      "scene_id": "S01",
+      "cut_id": "K01",
+      "image_path": "images/C01/K01.png",
+      "prompt": "Use case: ads-marketing. Create one photoreal live-action comedic storyboard FIRST FRAME, widescreen 16:9, 1536x864 or another exact 16:9 resolution. No montage. Intentionally cheap Korean cable home-shopping stage: mint paper backdrop, two pink LED rectangles, flat frontal stage light, exposed cardboard seams and brown packing tape; sincere overacting, not polished luxury advertising. Three original fictional Korean adult actors only. Center P: man in his 40s, neat short black hair, round black glasses, olive fine-knit sweater over white shirt collar, charcoal trousers, small black headset on left ear. His entire waist-up torso is visible above waist-high cardboard box B1. He is about to speak, lips just beginning to open. Left H: woman 30s, chin-length black bob, magenta sequin jacket, white tee, black trousers, white sneakers, exaggerated television sales smile. One hand presents P, other palm poised just ABOVE a tall silver prop microphone protruding 25cm from LEFT slot in B1. Right slot contains a closed thin silver laptop upright edge-first, almost entirely lowered inside box; only its top edge protrudes 2cm. This is a see-saw stage prop, not electronics on a normal table. Two separate slots clearly visible. Right W: woman40s, low black ponytail, navy work vest, light gray sleeves, beige trousers, calm expression. Beside her at far right stands B3, a separate wide low open cardboard demonstration box on visible wheeled dolly; back and top open, front flap upright. A U-shaped 30cm-high cardboard collar B2 waits on right floor, distinct from B3. Frontal medium-wide composition, left H, center P/B1, right W/B3, right exit space. First instant BEFORE pressing microphone; no movement completed. No labels, no words, no logos, no price tags, no books, no papers. Natural anatomy, separate fingers, believable props. Preserve goofy thrift-store production texture.",
+      "reference_images": [],
+      "source_generated_path": "C:\\Users\\wseok\\.codex\\generated_images\\01a149a2-c23e-7d73-bbc4-1a40d8438cf3\\exec-3141ace0-d687-407a-8c48-a7b3025ea6b0.png",
+      "generation_tool": "image_gen",
+      "first_frame": "P가 허리 높이 B1 뒤에 서서 허리 위 상반신이 보인다. P는 헤드셋으로 말하려 입을 막 열려 한다. 왼쪽 슬롯의 가짜 마이크가 25cm 나와 있고 H는 한 손으로 P를 소개하며 다른 손바닥을 마이크 위에 둔다. 오른쪽 슬롯의 닫힌 노트북은 윗변만 2cm 보인다. W는 오른쪽 B3 옆에서 대기.",
+      "next_motion": "H의 손이 마이크를 누름 → 오른쪽 노트북이 지레로 상승. 카메라 고정.",
+      "artist_review": {
+        "status": "self_checked_pending_three_reviewer_cross_review",
+        "opened_actual_image": true,
+        "checks": [
+          "3명 및 의상 확인",
+          "B1 허리 높이·마이크 높음·노트북 낮음 확인",
+          "H 누르기 전 손·P 말하려는 표정 확인",
+          "B2 바닥·B3 바퀴 받침 구별",
+          "불필요한 글자 없음"
+        ],
+        "notes": [
+          "B3 후면 개방은 정면 구도에서 명확하지 않음; 진입 컷 K05에서 확인",
+          "도구 원본 1672×941은 약16:9 가로 프레임, 레터박스 없음"
+        ]
+      },
+      "revision": 1,
+      "width": 1672,
+      "height": 941,
+      "bytes": 1990343,
+      "sha256": "eb758a692a32155538fe40b80ee6702546a67f2479507ac4c76f9b200eeba2b7",
+      "selected": true,
+      "artist_manifest": "image_manifest_artist1.json",
+      "artist_recorded_first_frame": "P가 허리 높이 B1 뒤에 서서 허리 위 상반신이 보인다. P는 헤드셋으로 말하려 입을 막 열려 한다. 왼쪽 슬롯의 가짜 마이크가 25cm 나와 있고 H는 한 손으로 P를 소개하며 다른 손바닥을 마이크 위에 둔다. 오른쪽 슬롯의 닫힌 노트북은 윗변만 2cm 보인다. W는 오른쪽 B3 옆에서 대기.",
+      "artist_recorded_next_motion": "H의 손이 마이크를 누름 → 오른쪽 노트북이 지레로 상승. 카메라 고정.",
+      "final_storyboard_first_frame": "P가 허리 높이 B1 뒤에 서서 허리 위 상반신이 보인다. P는 헤드셋으로 말하려 입을 막 열려 한다. 왼쪽 슬롯의 가짜 마이크가 25cm 나와 있고 H는 한 손으로 P를 소개하며 다른 손바닥을 마이크 위에 둔다. 오른쪽 슬롯의 닫힌 노트북은 윗변만 2cm 보인다. W는 오른쪽 B3 옆에서 대기.",
+      "final_storyboard_next_motion": "H의 손이 마이크를 누름 → 오른쪽 노트북이 지레로 상승. 카메라 고정.",
+      "final_review": {
+        "status": "accepted_after_independent_peer_cross_review",
+        "reviewers": [
+          "A",
+          "B",
+          "C"
+        ],
+        "scope": "still first frame",
+        "notes_file": "review_summary.json"
+      }
+    },
+    {
+      "concept_id": "C01",
+      "scene_id": "S01",
+      "cut_id": "K02",
+      "image_path": "images/C01/K02_v2.png",
+      "prompt": "Edit this first-frame photograph, keep exact three faces, clothing, set, composition. Crucial prop correction: the silver CLOSED laptop must NOT be held by the man. Move the laptop down and right so its lower half is visibly INSERTED VERTICALLY INTO the RIGHT-HAND HOLE of the cardboard box, at screen x about 64%. Its bottom edge disappears inside that hole, its top is roughly at the man's lower chest. It is supported by the hidden prop lever, not by hands. Man's two hands stay near his own stomach, empty and visibly away from laptop. Host reaches across with one palm hovering just above this laptop in RIGHT slot. LEFT slot still shows almost submerged microphone head. Absolutely no floating or handheld laptop. No second laptop. Keep both slots visible and separated. 16:9 photographic still, no text. Only correct position of laptop and arms.",
+      "reference_images": [
+        "\\\\wsl.localhost\\Ubuntu-24.04\\home\\wooseok\\wsy\\samsung_related\\slide\\AI실행결과발표대회_디자인3종\\storyboards\\2026-10-17_b-comedy-reboot-v3\\images\\C01\\K02.png"
+      ],
+      "source_generated_path": "C:\\Users\\wseok\\.codex\\generated_images\\01a149a2-c23e-7d73-bbc4-1a40d8438cf3\\exec-14e9b7e1-15c1-48f0-b85d-9d07cecc5f7d.png",
+      "generation_tool": "image_gen",
+      "first_frame": "노트북이 오른쪽에서 높이 솟아 있다. H는 왼손을 광고 제스처로 벌리고 오른손을 노트북 위에 얹기 직전이다. 왼쪽 마이크는 거의 보이지 않는다. P는 입을 열려다 기다린다.",
+      "next_motion": "노트북 하강 → 반대쪽 마이크 상승. H는 몸을 피하지 않고 미소만 고정.",
+      "artist_review": {
+        "status": "self_checked_pending_three_reviewer_cross_review",
+        "opened_actual_image": true,
+        "checks": [
+          "노트북이 오른쪽 슬롯 안에 수직 삽입됨",
+          "P 양손 빈 상태·슬롯 비접촉",
+          "마이크 낮음·호스트 누르기 전",
+          "세 인물·옷·세트 일치"
+        ],
+        "notes": []
+      },
+      "revision": 2,
+      "width": 1672,
+      "height": 941,
+      "bytes": 1965414,
+      "sha256": "b68b284cfd3d550b5038a6c4e746c8d9f6d060d58fe07032e9c5454ce7bd9da5",
+      "selected": true,
+      "artist_manifest": "image_manifest_artist1.json",
+      "artist_recorded_first_frame": "노트북이 오른쪽에서 높이 솟아 있다. H는 왼손을 광고 제스처로 벌리고 오른손을 노트북 위에 얹기 직전이다. 왼쪽 마이크는 거의 보이지 않는다. P는 입을 열려다 기다린다.",
+      "artist_recorded_next_motion": "노트북 하강 → 반대쪽 마이크 상승. H는 몸을 피하지 않고 미소만 고정.",
+      "final_storyboard_first_frame": "노트북이 오른쪽에서 높이 솟아 있다. H는 왼손을 광고 제스처로 벌리고 오른손을 노트북 위에 얹기 직전이다. 왼쪽 마이크는 거의 보이지 않는다. P는 입을 열려다 기다린다.",
+      "final_storyboard_next_motion": "노트북 하강 → 반대쪽 마이크 상승. H는 몸을 피하지 않고 미소만 고정.",
+      "final_review": {
+        "status": "accepted_after_independent_peer_cross_review",
+        "reviewers": [
+          "A",
+          "B",
+          "C"
+        ],
+        "scope": "still first frame",
+        "notes_file": "review_summary.json"
+      }
+    },
+    {
+      "concept_id": "C01",
+      "scene_id": "S02",
+      "cut_id": "K03",
+      "image_path": "images/C01/K03_v2.png",
+      "prompt": "Precise tiny continuity edit only. Keep this exact image including all three actors, U-shaped suspended cardboard collar and all hand positions. Make P center man's small BLACK HEADSET microphone clearly visible: black ear hook around HIS LEFT ear (screen-right), thin short black boom curves along HIS LEFT cheek, ending in a small round black foam microphone 2cm from left corner of mouth. Same as a presenter headset, not headphones. Do not change face, round glasses, hair, expression, sweater, position, cardboard, slot props or other people. No other additions. 16:9 photographic still.",
+      "reference_images": [
+        "\\\\wsl.localhost\\Ubuntu-24.04\\home\\wooseok\\wsy\\samsung_related\\slide\\AI실행결과발표대회_디자인3종\\storyboards\\2026-10-17_b-comedy-reboot-v3\\images\\C01\\K03.png"
+      ],
+      "source_generated_path": "C:\\Users\\wseok\\.codex\\generated_images\\01a149a2-c23e-7d73-bbc4-1a40d8438cf3\\exec-0b0743a3-c148-4b4a-8b8e-9b1a77dee688.png",
+      "generation_tool": "image_gen",
+      "first_frame": "W가 B2 덧판을 양손으로 들고 B1보다 15cm 높은 위치에서 맞추려 한다. P는 중앙에 그대로, H는 왼쪽에서 양팔로 더 큰 크기를 표시. B2 앞판은 접히지 않은 세로 상태.",
+      "next_motion": "W가 B2를 천천히 아래로 끼움. H가 만족스럽게 한 번 고개를 끄덕임.",
+      "artist_review": {
+        "status": "self_checked_pending_three_reviewer_cross_review",
+        "opened_actual_image": true,
+        "checks": [
+          "P 왼쪽 귀-볼 검정 붐 마이크 뚜렷하게 보완",
+          "배우·들고 있는 B2·두 슬롯 상태 유지"
+        ],
+        "notes": []
+      },
+      "revision": 2,
+      "width": 1672,
+      "height": 941,
+      "bytes": 1813805,
+      "sha256": "7efb370fe21e10a22896e3d388bf319b06adc91a3ce1043d7758846c8470f3ee",
+      "selected": true,
+      "artist_manifest": "image_manifest_artist1.json",
+      "artist_recorded_first_frame": "W가 B2 덧판을 양손으로 들고 B1보다 15cm 높은 위치에서 맞추려 한다. P는 중앙에 그대로, H는 왼쪽에서 양팔로 더 큰 크기를 표시. B2 앞판은 접히지 않은 세로 상태.",
+      "artist_recorded_next_motion": "W가 B2를 천천히 아래로 끼움. H가 만족스럽게 한 번 고개를 끄덕임.",
+      "final_storyboard_first_frame": "W가 B2 덧판을 양손으로 들고 B1보다 15cm 높은 위치에서 맞추려 한다. P는 중앙에 그대로, H는 왼쪽에서 양팔로 더 큰 크기를 표시. B2 앞판은 접히지 않은 세로 상태.",
+      "final_storyboard_next_motion": "W가 B2를 천천히 아래로 끼움. H가 만족스럽게 한 번 고개를 끄덕임.",
+      "final_review": {
+        "status": "accepted_after_independent_peer_cross_review",
+        "reviewers": [
+          "A",
+          "B",
+          "C"
+        ],
+        "scope": "still first frame",
+        "notes_file": "review_summary.json"
+      }
+    },
+    {
+      "concept_id": "C01",
+      "scene_id": "S02",
+      "cut_id": "K04",
+      "image_path": "images/C01/K04_v2.png",
+      "prompt": "Precise tiny continuity edit only. Keep this exact image including all three actors, upright cardboard front panel on B1, two hands hovering over notches and framing. Make center man P small BLACK HEADSET microphone clearly visible: black ear hook around HIS LEFT ear (screen-right), thin short black boom along HIS LEFT cheek ending in small round black foam microphone beside LEFT corner of mouth. Match a presenter headset, not headphones. Keep face/glasses/hair/olive sweater/expression/hand poses/panel exactly same. Do not fold panel, alter stage or add objects. No other additions,16:9 still.",
+      "reference_images": [
+        "\\\\wsl.localhost\\Ubuntu-24.04\\home\\wooseok\\wsy\\samsung_related\\slide\\AI실행결과발표대회_디자인3종\\storyboards\\2026-10-17_b-comedy-reboot-v3\\images\\C01\\K04.png"
+      ],
+      "source_generated_path": "C:\\Users\\wseok\\.codex\\generated_images\\01a149a2-c23e-7d73-bbc4-1a40d8438cf3\\exec-c1f0cf81-c882-45c8-9e8c-3bfe598c3cd3.png",
+      "generation_tool": "image_gen",
+      "first_frame": "B2 앞판이 아직 수직이다. P의 두 손이 앞판 상단 홈을 잡기 직전. 허리 높이 B1 위로 P의 상반신이 보이고 B2는 가슴 부근까지 온다. H는 왼쪽, W는 오른쪽. 기록지나 책은 없다.",
+      "next_motion": "P가 앞판을 접어 수평 발표대로 만들고 두 손을 올린다.",
+      "artist_review": {
+        "status": "self_checked_pending_three_reviewer_cross_review",
+        "opened_actual_image": true,
+        "checks": [
+          "헤드셋 귀걸이·붐·폼캡 선명",
+          "앞판 수직·양손 동작 전·인물 배치 유지"
+        ],
+        "notes": []
+      },
+      "revision": 2,
+      "width": 1672,
+      "height": 941,
+      "bytes": 1851511,
+      "sha256": "245f36b9b971e333567e4eb254ecc82c88258e89eede6f661e7cc8046dccf324",
+      "selected": true,
+      "artist_manifest": "image_manifest_artist1.json",
+      "artist_recorded_first_frame": "B2 앞판이 아직 수직이다. P의 두 손이 앞판 상단 홈을 잡기 직전. 허리 높이 B1 위로 P의 상반신이 보이고 B2는 가슴 부근까지 온다. H는 왼쪽, W는 오른쪽. 기록지나 책은 없다.",
+      "artist_recorded_next_motion": "P가 앞판을 접어 수평 발표대로 만들고 두 손을 올린다.",
+      "final_storyboard_first_frame": "B2 앞판이 아직 수직이다. P의 두 손이 앞판 상단 홈을 잡기 직전. 허리 높이 B1 위로 P의 상반신이 보이고 B2는 가슴 부근까지 온다. H는 왼쪽, W는 오른쪽. 기록지나 책은 없다.",
+      "final_storyboard_next_motion": "P가 앞판을 접어 수평 발표대로 만들고 두 손을 올린다.",
+      "final_review": {
+        "status": "accepted_after_independent_peer_cross_review",
+        "reviewers": [
+          "A",
+          "B",
+          "C"
+        ],
+        "scope": "still first frame",
+        "notes_file": "review_summary.json"
+      }
+    },
+    {
+      "concept_id": "C01",
+      "scene_id": "S03",
+      "cut_id": "K05",
+      "image_path": "images/C01/K05.png",
+      "prompt": "Create a new 16:9 first frame in this exact mint/pink cheap home-shopping set, same three actors. Ref1 shows wardrobe/faces and B1/B2; Ref2 shows separate B3 at right. Shift camera to focus right on B3, a wide LOW cardboard demonstration box on a low wheeled dolly, open TOP and BACK, upright front flap; no raised rear wall blocking entry. H magenta host is voluntarily climbing into B3, exactly ONE white sneaker inside, OTHER leg still outside on floor, BOTH hands gripping side rims, delighted show-host smile; NOT yet seated. W navy vest to right holds the still-upright front flap, waiting. Keep wheel dolly visible and stable. At LEFT background P olive sweater/headset/glasses stands at B1, whose B2 FRONT panel is now folded FORWARD exactly90deg into a horizontal cardboard lectern shelf; P rests both empty hands on that flat shelf. B2 side panels remain upright; no paper/book/laptop on shelf. B1/B2 and B3 are distinct, not attached. Three people only. Same textures and identities, body mechanics credible. No words/logos. Medium-wide first frame before host puts second foot in, not after she sits.",
+      "reference_images": [
+        "\\\\wsl.localhost\\Ubuntu-24.04\\home\\wooseok\\wsy\\samsung_related\\slide\\AI실행결과발표대회_디자인3종\\storyboards\\2026-10-17_b-comedy-reboot-v3\\images\\C01\\K04.png",
+        "\\\\wsl.localhost\\Ubuntu-24.04\\home\\wooseok\\wsy\\samsung_related\\slide\\AI실행결과발표대회_디자인3종\\storyboards\\2026-10-17_b-comedy-reboot-v3\\images\\C01\\K01.png"
+      ],
+      "source_generated_path": "C:\\Users\\wseok\\.codex\\generated_images\\01a149a2-c23e-7d73-bbc4-1a40d8438cf3\\exec-1fcaafd6-1dc3-47a7-b35e-5ce2df98b41e.png",
+      "generation_tool": "image_gen",
+      "first_frame": "B3은 상부가 열린 빈 상자. H가 한 발을 안에 넣고 두 손으로 테두리를 짚는다. W는 아직 열린 화면 오른쪽의 높은 옆판를 잡고 대기. 왼쪽 P는 B2 발표대 위에 두 손을 올린 상태.",
+      "next_motion": "H가 나머지 발을 넣어 앉고 광고 미소를 짓는다. W는 아직 덮지 않음.",
+      "artist_review": {
+        "status": "self_checked_pending_three_reviewer_cross_review",
+        "opened_actual_image": true,
+        "checks": [
+          "H 한 발 안·한 발 밖의 진입 전 자세",
+          "B3 바퀴·별도상자·W 대기",
+          "P 왼쪽 수평 발표대·빈 양손·헤드셋 유지"
+        ],
+        "notes": [
+          "B3의 열린 면은 카메라에서 전면 왼쪽으로 보임; W가 쥔 접이판은 오른쪽 가장자리. 후속컷에서 동일 구조로 연결."
+        ]
+      },
+      "revision": 1,
+      "width": 1672,
+      "height": 941,
+      "bytes": 1969879,
+      "sha256": "a964a49d01deb891dfdcdfa238ad5820d5ae8bbc7c9d32d0873654ad27ed110d",
+      "selected": true,
+      "artist_manifest": "image_manifest_artist1.json",
+      "artist_recorded_first_frame": "B3은 상부가 열린 빈 상자. H가 한 발을 안에 넣고 두 손으로 테두리를 짚는다. W는 아직 열린 전면 덮개를 잡고 대기. 왼쪽 P는 B2 발표대 위에 두 손을 올린 상태.",
+      "artist_recorded_next_motion": "H가 나머지 발을 넣어 앉고 광고 미소를 짓는다. W는 아직 덮지 않음.",
+      "final_storyboard_first_frame": "B3은 상부가 열린 빈 상자. H가 한 발을 안에 넣고 두 손으로 테두리를 짚는다. W는 아직 열린 화면 오른쪽의 높은 옆판를 잡고 대기. 왼쪽 P는 B2 발표대 위에 두 손을 올린 상태.",
+      "final_storyboard_next_motion": "H가 나머지 발을 넣어 앉고 광고 미소를 짓는다. W는 아직 덮지 않음.",
+      "final_review": {
+        "status": "accepted_after_independent_peer_cross_review",
+        "reviewers": [
+          "A",
+          "B",
+          "C"
+        ],
+        "scope": "still first frame",
+        "notes_file": "review_summary.json"
+      }
+    },
+    {
+      "concept_id": "C01",
+      "scene_id": "S03",
+      "cut_id": "K06",
+      "image_path": "images/C01/K06.png",
+      "prompt": "New next-shot FIRST FRAME, 16:9 single live-action still. Maintain exact same three actors, set, box positions and cardboard shapes. H has now climbed completely into the SAME right dolly box B3 and comfortably crouches/seats inside it. Show her magenta shoulders, happy sales-smiling face, and both free arms ABOVE box rim; right forearm outside, not making hand-heart yet. Her feet are inside, no duplicated limbs. W stands right beside dolly, BOTH hands resting on the STILL-OPEN upward cardboard front/side flap ready to fold it, not yet closing or pushing. Dolly entirely stationary, its four wheels visible, exit room on RIGHT. Left P remains at same B1/B2 lectern with folded HORIZONTAL cardboard shelf, both empty hands on top; his SMALL BLACK HEADSET BOOM FROM LEFT EAR TO LEFT CHEEK CLEARLY VISIBLE, round glasses, olive sweater. Show camera-facing front plane of right box not obscuring H face. Same metal dolly and tape seams. No completed packing, no closed lid above neck, no ropes/restraints, no distress, no finger-heart yet. Exactly three people, no text, no books/papers. Wide composition ready for W to fold flap and roll right.",
+      "reference_images": [
+        "\\\\wsl.localhost\\Ubuntu-24.04\\home\\wooseok\\wsy\\samsung_related\\slide\\AI실행결과발표대회_디자인3종\\storyboards\\2026-10-17_b-comedy-reboot-v3\\images\\C01\\K05.png"
+      ],
+      "source_generated_path": "C:\\Users\\wseok\\.codex\\generated_images\\01a149a2-c23e-7d73-bbc4-1a40d8438cf3\\exec-a42fbb9c-d23f-4bfb-a5b3-7121e3f940ca.png",
+      "generation_tool": "image_gen",
+      "first_frame": "H가 B3 안에서 카메라를 향해 미소 짓는다. W의 두 손은 아직 열린 화면 오른쪽의 높은 옆판 위. 바퀴 받침은 오른쪽 통로를 향하고 움직이기 전이다. H의 오른팔은 밖에 나와 있다.",
+      "next_motion": "H가 옆판 가까이 손을 안으로 거둠 → W가 보이는 옆판을 한 번 접음 → W가 카트를 밀며 B3 오른쪽 퇴장 → H가 이동 중 손하트. H를 결박하거나 놀라게 하지 않음.",
+      "artist_review": {
+        "status": "self_checked_pending_three_reviewer_cross_review",
+        "opened_actual_image": true,
+        "checks": [
+          "H 앉은 상태·얼굴/양팔 자유·아직 손하트 없음",
+          "W 열린 접이판에 양손·바퀴 정지",
+          "P·발표대·헤드셋 유지"
+        ],
+        "notes": []
+      },
+      "revision": 1,
+      "width": 1672,
+      "height": 941,
+      "bytes": 1917008,
+      "sha256": "028804c7ff3ae3303135478166ad391c7146d99facac092dd861d146b2f589d4",
+      "selected": true,
+      "artist_manifest": "image_manifest_artist1.json",
+      "artist_recorded_first_frame": "H가 B3 안에서 카메라를 향해 미소 짓는다. W의 두 손은 아직 열린 전면 덮개 위. 바퀴 받침은 오른쪽 통로를 향하고 움직이기 전이다. H의 오른팔은 밖에 나와 있다.",
+      "artist_recorded_next_motion": "덮개 한 번 접기 → W가 손잡이를 밀며 B3 오른쪽 퇴장 → H가 이동 중 손하트. H를 결박하거나 놀라게 하지 않음.",
+      "final_storyboard_first_frame": "H가 B3 안에서 카메라를 향해 미소 짓는다. W의 두 손은 아직 열린 화면 오른쪽의 높은 옆판 위. 바퀴 받침은 오른쪽 통로를 향하고 움직이기 전이다. H의 오른팔은 밖에 나와 있다.",
+      "final_storyboard_next_motion": "H가 옆판 가까이 손을 안으로 거둠 → W가 보이는 옆판을 한 번 접음 → W가 카트를 밀며 B3 오른쪽 퇴장 → H가 이동 중 손하트. H를 결박하거나 놀라게 하지 않음.",
+      "final_review": {
+        "status": "accepted_after_independent_peer_cross_review",
+        "reviewers": [
+          "A",
+          "B",
+          "C"
+        ],
+        "scope": "still first frame",
+        "notes_file": "review_summary.json"
+      }
+    },
+    {
+      "concept_id": "C01",
+      "scene_id": "S02",
+      "cut_id": "K07",
+      "image_path": "images/C01/K07.png",
+      "prompt": "Create next-shot FIRST FRAME in this same mint paper and pink-light cheap home-shopping studio, single 16:9 photoreal medium still. ONLY P remains. REMOVE both women AND right wheeled box/dolly completely: they have exited right. Center P olive sweater, same face, round black glasses and clearly visible small BLACK HEADSET BOOM on his LEFT ear/cheek (screen right when frontal). He stands behind SAME cardboard B1 and B2 front panel folded into horizontal lectern shelf, both empty hands resting on it. His HEAD and EYES currently turn toward the EMPTY RIGHT EXIT (screen right), about to look back at camera, lips relaxed, not yet speaking. Medium frontal framing with empty studio space on right showing departure. Preserve existing shelf shape, side cardboard tabs and brown tape; no books/papers/phones. B1 old slot prop system remains below/behind shelf where occluded, don't invent loose props. Only one person. No text or logos. Softly comic calm after chaotic host. Do not show women peeking or additional faces.",
+      "reference_images": [
+        "\\\\wsl.localhost\\Ubuntu-24.04\\home\\wooseok\\wsy\\samsung_related\\slide\\AI실행결과발표대회_디자인3종\\storyboards\\2026-10-17_b-comedy-reboot-v3\\images\\C01\\K06.png"
+      ],
+      "source_generated_path": "C:\\Users\\wseok\\.codex\\generated_images\\01a149a2-c23e-7d73-bbc4-1a40d8438cf3\\exec-f4c3fbfd-4bd5-4d97-8390-3354d29fe5a6.png",
+      "generation_tool": "image_gen",
+      "first_frame": "P는 수평 B2 발표대에 양손을 둔 채 오른쪽 출고 통로를 보고 있다. 헤드셋·안경·올리브 니트 유지. B1 지레 슬롯은 아래쪽에 남아 있음.",
+      "next_motion": "P가 시선을 카메라로 돌리고 짧게 말한다. 추가 소품 동작 없음.",
+      "artist_review": {
+        "status": "self_checked_pending_three_reviewer_cross_review",
+        "opened_actual_image": true,
+        "checks": [
+          "P 단독·오른쪽 출고 통로를 봄",
+          "수평 발표대·빈 양손·뚜렷한 헤드셋",
+          "H/W/B3 퇴장 상태"
+        ],
+        "notes": []
+      },
+      "revision": 1,
+      "width": 1672,
+      "height": 941,
+      "bytes": 1782789,
+      "sha256": "ef8388ae41472e8b455931197e8eefbc0079ae7376746ef0c1b6d49e483cd145",
+      "selected": true,
+      "artist_manifest": "image_manifest_artist1.json",
+      "artist_recorded_first_frame": "P는 수평 B2 발표대에 양손을 둔 채 오른쪽 출고 통로를 보고 있다. 헤드셋·안경·올리브 니트 유지. B1 지레 슬롯은 아래쪽에 남아 있음.",
+      "artist_recorded_next_motion": "P가 시선을 카메라로 돌리고 짧게 말한다. 추가 소품 동작 없음.",
+      "final_storyboard_first_frame": "P는 수평 B2 발표대에 양손을 둔 채 오른쪽 출고 통로를 보고 있다. 헤드셋·안경·올리브 니트 유지. B1 지레 슬롯은 아래쪽에 남아 있음.",
+      "final_storyboard_next_motion": "P가 시선을 카메라로 돌리고 짧게 말한다. 추가 소품 동작 없음.",
+      "final_review": {
+        "status": "accepted_after_independent_peer_cross_review",
+        "reviewers": [
+          "A",
+          "B",
+          "C"
+        ],
+        "scope": "still first frame",
+        "notes_file": "review_summary.json"
+      }
+    },
+    {
+      "concept_id": "C01",
+      "scene_id": "S04",
+      "cut_id": "K08",
+      "image_path": "images/C01/K08.png",
+      "prompt": "Generate a NEW separately composed title BACKGROUND PLATE, 16:9 photoreal still, no text. Use reference exact male P face/olive sweater/round glasses/BLACK LEFT-EAR HEADSET and same folded cardboard lectern as visual anchor. Place man and complete lectern SMALL entirely within LEFT 35% of frame, facing camera calmly, both empty hands on horizontal shelf. Keep deliberately cheap mint paper home-shopping set texture only at left, one pink LED rectangle may frame left behind him. RIGHT 60% must be a totally clean uninterrupted LIGHT MINT matte wall/background, even soft lighting, NO pink lights, NO tape seams, NO objects or people, NO texture marks that compete with future title. Large negative space for later independently typeset event name. Full frame photographic, not graphic mockup, no written text whatsoever, no logo, no border/letterbox. Man at left should be recognizable but title area is priority. No women, no dolly, no notebooks. This is final ending first frame, not finished title composite.",
+      "reference_images": [
+        "\\\\wsl.localhost\\Ubuntu-24.04\\home\\wooseok\\wsy\\samsung_related\\slide\\AI실행결과발표대회_디자인3종\\storyboards\\2026-10-17_b-comedy-reboot-v3\\images\\C01\\K07.png"
+      ],
+      "source_generated_path": "C:\\Users\\wseok\\.codex\\generated_images\\01a149a2-c23e-7d73-bbc4-1a40d8438cf3\\exec-c75e125d-3d41-46dc-903f-05d764e8b0ec.png",
+      "generation_tool": "image_gen",
+      "first_frame": "새 스튜디오 플레이트. 왼쪽 P는 골판지 발표대 위에 두 손을 두고 정면을 본다. 오른쪽은 글자 없는 깨끗한 민트 면. 후편집 별도 조판: 오른쪽 58%의 무늬 없는 밝은 영역에 작은 1행 '2026년 품질팀', 큰 2행 'AI 실행 결과', 큰 3행 '발표 대회'. 전체 제목을 처음부터 끝까지 6초 유지. 제목 아래 연결 문구 1행. 이미지에는 제목·자막·로고·날짜를 그리지 않는다.",
+      "next_motion": "이 기획 단계의 이미지는 움직이지 않는 배경. 향후 편집에서 타이틀을 처음부터 6초 유지하며 확대·이동하지 않음.",
+      "artist_review": {
+        "status": "self_checked_pending_three_reviewer_cross_review",
+        "opened_actual_image": true,
+        "checks": [
+          "P와 발표대 왼쪽 배치",
+          "오른쪽 넓은 민트 조판 여백·글자 없음",
+          "헤드셋·양손·의상 유지"
+        ],
+        "notes": [
+          "행사명은 미합성 배경판; storyboards.json의 지정 문구와 6초 조판 지시를 따름"
+        ]
+      },
+      "revision": 1,
+      "width": 1672,
+      "height": 941,
+      "bytes": 1696606,
+      "sha256": "06833c236dd41e43f46f01fc6bddd4c2bf7cafb019e63dfe8834483f9caf0217",
+      "selected": true,
+      "artist_manifest": "image_manifest_artist1.json",
+      "artist_recorded_first_frame": "새 스튜디오 플레이트. 왼쪽 P는 골판지 발표대 위에 두 손을 두고 정면을 본다. 오른쪽은 글자 없는 깨끗한 민트 면. 후편집 별도 조판: 오른쪽 58%의 무늬 없는 밝은 영역에 작은 1행 '2026년 품질팀', 큰 2행 'AI 실행 결과', 큰 3행 '발표 대회'. 전체 제목을 처음부터 끝까지 6초 유지. 제목 아래 연결 문구 1행. 이미지에는 제목·자막·로고·날짜를 그리지 않는다.",
+      "artist_recorded_next_motion": "이 기획 단계의 이미지는 움직이지 않는 배경. 향후 편집에서 타이틀을 처음부터 6초 유지하며 확대·이동하지 않음.",
+      "final_storyboard_first_frame": "새 스튜디오 플레이트. 왼쪽 P는 골판지 발표대 위에 두 손을 두고 정면을 본다. 오른쪽은 글자 없는 깨끗한 민트 면. 후편집 별도 조판: 오른쪽 58%의 무늬 없는 밝은 영역에 작은 1행 '2026년 품질팀', 큰 2행 'AI 실행 결과', 큰 3행 '발표 대회'. 전체 제목을 처음부터 끝까지 6초 유지. 제목 아래 연결 문구 1행. 이미지에는 제목·자막·로고·날짜를 그리지 않는다.",
+      "final_storyboard_next_motion": "이 기획 단계의 이미지는 움직이지 않는 배경. 향후 편집에서 타이틀을 처음부터 6초 유지하며 확대·이동하지 않음.",
+      "final_review": {
+        "status": "accepted_after_independent_peer_cross_review",
+        "reviewers": [
+          "A",
+          "B",
+          "C"
+        ],
+        "scope": "still first frame",
+        "notes_file": "review_summary.json"
+      }
+    },
+    {
+      "concept_id": "C02",
+      "scene_id": "S01",
+      "cut_id": "K01",
+      "image_path": "images/C02/K01.png",
+      "prompt": "Use case: ads-marketing. Create one cinematic photographic FIRST FRAME of an original Korean absurd low-budget office comedy, 16:9 landscape 1536x864, full-bleed no black bars. This is a single moment before movement, no panels, no collage. A plain gray-green fluorescent office makeshift filming set between two square columns, floor tape marks, cheap practical props and slightly exaggerated earnest acting. Four fictional Korean adults, no real celebrity. Center P is a woman in her 30s with black hair tied low, pale green button-up shirt, dark gray chinos, white sneakers; a thin closed YELLOW notebook firmly tucked UNDER HER LEFT ARMPIT. Right B is a man in his 30s, short black hair, light gray sweatshirt, navy trousers. P and B face each other, their raised RIGHT palms separated by 10cm above head height, BEFORE the high-five. On left foreground D, woman 40s short curly bob under a red cap, black vest white T-shirt gray trousers, holds a single black-and-white blank clapperboard low at chest just before raising it. Far right background T, man 20s-30s short hair, dark teal work shirt beige trousers, holds one clear packing-tape roll with clean sleeves. Behind actors at waist height runs a 20cm wide cream paper ribbon between columns, torn at the center with both ragged ends drooping; single plain blue circle on the LEFT end. One gray folding chair behind P toward left of her path. Fixed wide composition, full bodies and feet visible, readable earnest fake-celebration pose. Avoid glossy corporate advertising, extra people, invented text, writing on clapperboard, logos, watermarks, digital rewind effects, confetti, trophies, visible stage lights. Exactly one yellow notebook. Natural anatomy.",
+      "reference_images": [],
+      "source_generated_path": "C:/Users/wseok/.codex/generated_images/01a149a2-d9c9-70e2-b538-eb2497e8c4e8/exec-eb50ce0e-65be-4397-8409-44a96be14752.png",
+      "generation_tool": "image_gen",
+      "first_frame": "P의 왼손과 B의 오른손이 머리 위에서 서로 10cm 떨어져 있다. P의 오른쪽 겨드랑이(정면 화면 왼쪽)에 노란 노트. D는 왼쪽에서 슬레이트를 들어 올리기 직전. 뒤의 넓은 종이 띠는 중앙이 찢어져 양끝이 아래로 처져 있다.",
+      "next_motion": "D의 지시 → 배우가 손을 이상하게 벌리고 팔을 내려 되감기 연기 시작.",
+      "artist_review": {
+        "status": "self_review_pass_pending_independent_review",
+        "viewed": true,
+        "notes": "실제 저장본 열어 확인. 네 인물·노란 노트·아직 닿지 않은 하이파이브·찢긴 띠·의자 확인. T 소매 깨끗함. 제목/자막 없음."
+      },
+      "revision": 1,
+      "actual_dimensions": {
+        "width": 1672,
+        "height": 941
+      },
+      "selected": true,
+      "artist_manifest": "image_manifest_artist2.json",
+      "artist_recorded_first_frame": "P와 B의 오른손이 머리 위에서 서로 10cm 떨어져 있다. P의 왼쪽 겨드랑이에 노란 노트. D는 왼쪽에서 슬레이트를 들어 올리기 직전. 뒤의 넓은 종이 띠는 중앙이 찢어져 양끝이 아래로 처져 있다.",
+      "artist_recorded_next_motion": "D의 지시 → 배우가 손을 이상하게 벌리고 팔을 내려 되감기 연기 시작.",
+      "final_storyboard_first_frame": "P의 왼손과 B의 오른손이 머리 위에서 서로 10cm 떨어져 있다. P의 오른쪽 겨드랑이(정면 화면 왼쪽)에 노란 노트. D는 왼쪽에서 슬레이트를 들어 올리기 직전. 뒤의 넓은 종이 띠는 중앙이 찢어져 양끝이 아래로 처져 있다.",
+      "final_storyboard_next_motion": "D의 지시 → 배우가 손을 이상하게 벌리고 팔을 내려 되감기 연기 시작.",
+      "final_review": {
+        "status": "accepted_after_independent_peer_cross_review",
+        "reviewers": [
+          "A",
+          "B",
+          "C"
+        ],
+        "scope": "still first frame",
+        "notes_file": "review_summary.json"
+      }
+    },
+    {
+      "concept_id": "C02",
+      "scene_id": "S01",
+      "cut_id": "K02",
+      "image_path": "images/C02/K02.png",
+      "prompt": "Use case: ads-marketing. Create a new single FIRST FRAME shot of the SAME fictional office comedy as reference image, preserve exact faces, costumes, gray-green office columns, cream torn paper ribbon with blue circle, yellow notebook, gray folding chair. Full-bleed landscape 16:9, no bars/collage/text. Medium-wide side-axis view, feet fully visible. P the pale-green-shirt woman stands near center, facing screen-right, her LEFT heel slightly raised just before an awkward backward step toward screen-left. The closed YELLOW notebook stays tightly tucked beneath her LEFT armpit. Her hands have lowered from the high-five, she is slightly overearnest, not falling. A gray folding chair is only 20cm behind her heel at screen-left, still obstructing the backward path. T, the dark-teal-shirt beige-trousers male crew member, is on screen-right behind P, approaching the chair with an ordinary forward walking stride, arms ready but has not touched or moved the chair yet. His sleeves still clean, no tape scraps. B gray sweatshirt at right awkwardly unwinding his raised arms. Director D is outside the left frame, not visible. Exactly THREE people visible. Keep the ribbon torn at center, not repaired. This is before chair rescue, not after. Humble fluorescent practical-light comedy, physical earnestness, no polished glamour, no added props or words.",
+      "reference_images": [
+        "\\\\wsl.localhost\\Ubuntu-24.04\\home\\wooseok\\wsy\\samsung_related\\slide\\AI실행결과발표대회_디자인3종\\storyboards\\2026-10-17_b-comedy-reboot-v3\\images\\C02\\K01.png"
+      ],
+      "source_generated_path": "C:\\Users\\wseok\\.codex\\generated_images\\01a149a2-d9c9-70e2-b538-eb2497e8c4e8\\exec-8427859c-69c4-4406-968f-17649888ccad.png",
+      "generation_tool": "image_gen",
+      "first_frame": "P가 왼쪽 뒤꿈치를 들고 뒷걸음 직전. 뒤 20cm에 회색 접이 의자. T는 화면 왼쪽 의자 옆까지 정상 보폭으로 접근해 의자를 잡으려 한다. 컷 사이 T의 접근 일부는 생략한다. B는 오른쪽에서 팔을 거꾸로 푸는 자세.",
+      "next_motion": "P의 뒷걸음 멈춤 → T가 의자를 화면 왼쪽 바깥으로 이동 → P가 한 걸음 계속.",
+      "artist_review": {
+        "status": "self_review_pass_pending_independent_review",
+        "viewed": true,
+        "notes": "생성/저장본 확인. P 뒤꿈치 들림·뒤쪽 의자·T 정상 전진·B 역연기 자세·깨끗한 소매 확인. T가 화면 왼쪽 의자 쪽에서 접근하여 대본의 오른쪽 출발점과 차이: 컷 사이 접근 이동 생략으로 제안, 검수자 판단 필요."
+      },
+      "revision": 1,
+      "actual_dimensions": {
+        "width": 1672,
+        "height": 941
+      },
+      "selected": true,
+      "artist_manifest": "image_manifest_artist2.json",
+      "artist_recorded_first_frame": "P가 왼쪽 뒤꿈치를 들고 뒷걸음 직전. 뒤 20cm에 회색 접이 의자. T는 오른쪽 뒤에서 의자를 향해 정상 보폭으로 접근. B는 오른쪽에서 팔을 거꾸로 푸는 자세.",
+      "artist_recorded_next_motion": "P의 뒷걸음 멈춤 → T가 의자를 화면 왼쪽 바깥으로 이동 → P가 한 걸음 계속.",
+      "final_storyboard_first_frame": "P가 왼쪽 뒤꿈치를 들고 뒷걸음 직전. 뒤 20cm에 회색 접이 의자. T는 화면 왼쪽 의자 옆까지 정상 보폭으로 접근해 의자를 잡으려 한다. 컷 사이 T의 접근 일부는 생략한다. B는 오른쪽에서 팔을 거꾸로 푸는 자세.",
+      "final_storyboard_next_motion": "P의 뒷걸음 멈춤 → T가 의자를 화면 왼쪽 바깥으로 이동 → P가 한 걸음 계속.",
+      "final_review": {
+        "status": "accepted_after_independent_peer_cross_review",
+        "reviewers": [
+          "A",
+          "B",
+          "C"
+        ],
+        "scope": "still first frame",
+        "notes_file": "review_summary.json"
+      }
+    },
+    {
+      "concept_id": "C02",
+      "scene_id": "S01",
+      "cut_id": "K03",
+      "image_path": "images/C02/K03.png",
+      "prompt": "Use case: ads-marketing. New photographic FIRST FRAME shot in the SAME original Korean low-budget comedy filming set. Preserve these exact three actors, costumes, yellow notebook, cream paper ribbon and gray-green office from references. 16:9 full-bleed wide no bars, no text/collage. Front-oblique medium-wide view with all torsos and relevant hands visible. P pale-green-shirt woman at center-left with closed yellow notebook tucked under LEFT armpit and B gray-sweatshirt man at center-right, both in slightly absurd awkward backward-step readiness just IN FRONT of the central torn gap of the cream ribbon, BEFORE backing through it. The wide cream paper ribbon still hangs TORN across the background at waist level, ragged ends clearly separated, blue circle on left end. T dark-teal-shirt beige-trousers male crew is on right of the gap, practical focused expression, BOTH cuff sleeves extended down to wrists. Each hand has a SHORT LOOSE transparent packing tape scrap hanging from a fingertip. He is about to park the two scraps on the OUTSIDE of his cuffs, but neither cuff has tape yet. His wrists are separated, NOT bound. One tape roll on the floor at his feet. The gray folding chair now set aside far left beside the column outside actor walking path. Director unseen outside frame. This is BEFORE tape repair; no joined ribbon, no finished sleeve gag, no extra hands, no extra people. Ordinary fluorescent light, cheap physical prop workmanship, earnest overacting by P/B contrasted with T doing real work.",
+      "reference_images": [
+        "\\\\wsl.localhost\\Ubuntu-24.04\\home\\wooseok\\wsy\\samsung_related\\slide\\AI실행결과발표대회_디자인3종\\storyboards\\2026-10-17_b-comedy-reboot-v3\\images\\C02\\K01.png",
+        "\\\\wsl.localhost\\Ubuntu-24.04\\home\\wooseok\\wsy\\samsung_related\\slide\\AI실행결과발표대회_디자인3종\\storyboards\\2026-10-17_b-comedy-reboot-v3\\images\\C02\\K02.png"
+      ],
+      "source_generated_path": "C:\\Users\\wseok\\.codex\\generated_images\\01a149a2-d9c9-70e2-b538-eb2497e8c4e8\\exec-6d8e3815-4455-4730-8151-3c322b42de67.png",
+      "generation_tool": "image_gen",
+      "first_frame": "P와 B는 종이 띠 중앙 틈 바로 앞에서 뒤로 갈 준비. T는 짧은 테이프 조각 두 개를 손가락에 걸고 양 소매 끝에 임시로 붙이려 한다. 중앙 종이 띠는 아직 찢어져 있고 P의 노트는 오른쪽 겨드랑이(정면 화면 왼쪽).",
+      "next_motion": "T가 테이프 조각을 양 소매에 임시로 붙임 → 배우가 틈 뒤로 빠지는 동안 T가 종이 양끝을 모아 이어 붙임.",
+      "artist_review": {
+        "status": "self_review_pass_pending_independent_review",
+        "viewed": true,
+        "notes": "생성/저장본 확인. 배우 역연기 준비·찢긴 띠·T 손가락의 테이프 두 조각 아직 소매 미부착·치운 의자 확인. T 소매가 팔뚝까지 접혀 있어 후속 소매 끝 접착 위치는 같은 말아올린 끝으로 유지."
+      },
+      "revision": 1,
+      "actual_dimensions": {
+        "width": 1672,
+        "height": 941
+      },
+      "selected": true,
+      "artist_manifest": "image_manifest_artist2.json",
+      "artist_recorded_first_frame": "P와 B는 종이 띠 중앙 틈 바로 앞에서 뒤로 갈 준비. T는 짧은 테이프 조각 두 개를 손가락에 걸고 양 소매 끝에 임시로 붙이려 한다. 중앙 종이 띠는 아직 찢어져 있고 P의 노트는 왼쪽 겨드랑이.",
+      "artist_recorded_next_motion": "T가 테이프 조각을 양 소매에 임시로 붙임 → 배우가 틈 뒤로 빠지는 동안 T가 종이 양끝을 모아 이어 붙임.",
+      "final_storyboard_first_frame": "P와 B는 종이 띠 중앙 틈 바로 앞에서 뒤로 갈 준비. T는 짧은 테이프 조각 두 개를 손가락에 걸고 양 소매 끝에 임시로 붙이려 한다. 중앙 종이 띠는 아직 찢어져 있고 P의 노트는 오른쪽 겨드랑이(정면 화면 왼쪽).",
+      "final_storyboard_next_motion": "T가 테이프 조각을 양 소매에 임시로 붙임 → 배우가 틈 뒤로 빠지는 동안 T가 종이 양끝을 모아 이어 붙임.",
+      "final_review": {
+        "status": "accepted_after_independent_peer_cross_review",
+        "reviewers": [
+          "A",
+          "B",
+          "C"
+        ],
+        "scope": "still first frame",
+        "notes_file": "review_summary.json"
+      }
+    },
+    {
+      "concept_id": "C02",
+      "scene_id": "S02",
+      "cut_id": "K04",
+      "image_path": "images/C02/K04.png",
+      "prompt": "Use case: ads-marketing. Single new photographic FIRST FRAME, same Korean comic office film set and exact same fictional actors as reference. 16:9 landscape full bleed. Medium framing waist-up. P pale green shirt low ponytail at center, same closed yellow notebook tucked under her LEFT armpit, beginning to reach her opposite right hand across toward the closed notebook but hand not yet touching it. The notebook remains fully CLOSED, not removed. Her expression is politely ready to interrupt, relaxed and cooperative. D the red-cap woman director stands on LEFT of frame, black vest white tee curly bob, holding same OPEN blank clapperboard at chest height, about to deliver another command. B gray sweatshirt in RIGHT background frozen midway through an awkward reverse-arm acting gesture. T not visible in this framing. Behind them the cream waist-high ribbon has NOW BEEN REPAIRED at center, a conspicuous crooked clear tape splice holds the ragged ends together; single blue circle still on left end. Gray folding chair aside at far left. No extra people or notebook. No writing, no logos, no dialogue caption, no title. Humble fluorescent practical office textures, comedic overly serious director contrasted with natural P. This is before P takes notebook out; do not show it open.",
+      "reference_images": [
+        "\\\\wsl.localhost\\Ubuntu-24.04\\home\\wooseok\\wsy\\samsung_related\\slide\\AI실행결과발표대회_디자인3종\\storyboards\\2026-10-17_b-comedy-reboot-v3\\images\\C02\\K01.png",
+        "\\\\wsl.localhost\\Ubuntu-24.04\\home\\wooseok\\wsy\\samsung_related\\slide\\AI실행결과발표대회_디자인3종\\storyboards\\2026-10-17_b-comedy-reboot-v3\\images\\C02\\K03.png"
+      ],
+      "source_generated_path": "C:\\Users\\wseok\\.codex\\generated_images\\01a149a2-d9c9-70e2-b538-eb2497e8c4e8\\exec-15f87e25-fe49-4d02-89e7-0a63c5bc3adb.png",
+      "generation_tool": "image_gen",
+      "first_frame": "P는 오른쪽 겨드랑이의 닫힌 노란 노트에 왼손을 대기 직전. D는 슬레이트를 가슴 높이에 든 채 다음 지시를 하려 한다. B는 후경에서 반쯤 역연기한 자세.",
+      "next_motion": "P가 노트를 꺼내며 한 동작으로 펼쳐 D에게 보인다. 대사는 펼치는 동안.",
+      "artist_review": {
+        "status": "self_review_pass_pending_independent_review",
+        "viewed": true,
+        "notes": "실제 생성/저장본 확인. 노트 아직 닫힌 상태, 감독 열린 슬레이트, 이어진 띠 테이프, B 역연기 정지 확인. 노트 소지 화면측은 기준컷과 일치."
+      },
+      "revision": 1,
+      "actual_dimensions": {
+        "width": 1672,
+        "height": 941
+      },
+      "selected": true,
+      "artist_manifest": "image_manifest_artist2.json",
+      "artist_recorded_first_frame": "P는 왼쪽 겨드랑이의 닫힌 노란 노트에 오른손을 대기 직전. D는 슬레이트를 가슴 높이에 든 채 다음 지시를 하려 한다. B는 후경에서 반쯤 역연기한 자세.",
+      "artist_recorded_next_motion": "P가 노트를 꺼내며 한 동작으로 펼쳐 D에게 보인다. 대사는 펼치는 동안.",
+      "final_storyboard_first_frame": "P는 오른쪽 겨드랑이의 닫힌 노란 노트에 왼손을 대기 직전. D는 슬레이트를 가슴 높이에 든 채 다음 지시를 하려 한다. B는 후경에서 반쯤 역연기한 자세.",
+      "final_storyboard_next_motion": "P가 노트를 꺼내며 한 동작으로 펼쳐 D에게 보인다. 대사는 펼치는 동안.",
+      "final_review": {
+        "status": "accepted_after_independent_peer_cross_review",
+        "reviewers": [
+          "A",
+          "B",
+          "C"
+        ],
+        "scope": "still first frame",
+        "notes_file": "review_summary.json"
+      }
+    },
+    {
+      "concept_id": "C02",
+      "scene_id": "S02",
+      "cut_id": "K05",
+      "image_path": "images/C02/K05.png",
+      "prompt": "Use case: ads-marketing. Create new single photographic FIRST FRAME of same Korean low-budget filming-set comedy. 16:9 full-bleed landscape no bars. Use reference exact characters faces and clothes. P woman pale green shirt low tied black hair now holds the yellow notebook OPEN at mid-chest, angled toward D woman red cap black vest on screen-left. P body turned 30 degrees LEFT toward D, before turning toward camera. D holds same OPEN blank clapperboard at chest and looks down attentively at the notebook, before closing it and stepping aside. Notebook contains only loose abstract scribble lines, arrows and cross-outs, no readable words or numbers. Gray-sweatshirt B at right background quietly waiting out of main focus, arms lowered. Behind: repaired cream waist-high paper ribbon with uneven clear tape splice and blue circle on left. T dark teal shirt can be omitted outside frame. Medium-wide from same front axis. Polite relieved P, director giving up overdone staging. Preserve notebook yellow cover and blank clapperboard. No new people, no text, no logos, no celebration, no completed turn.",
+      "reference_images": [
+        "\\\\wsl.localhost\\Ubuntu-24.04\\home\\wooseok\\wsy\\samsung_related\\slide\\AI실행결과발표대회_디자인3종\\storyboards\\2026-10-17_b-comedy-reboot-v3\\images\\C02\\K04.png"
+      ],
+      "source_generated_path": "C:\\Users\\wseok\\.codex\\generated_images\\01a149a2-d9c9-70e2-b538-eb2497e8c4e8\\exec-cb108a52-579f-4751-992d-f17cc88d8b8c.png",
+      "generation_tool": "image_gen",
+      "first_frame": "D가 열린 슬레이트를 들고 P의 펼친 노트를 보고 있다. P는 D 쪽으로 몸이 30도 돌아가 있으며 노트는 이미 열려 있음.",
+      "next_motion": "D가 말하며 슬레이트를 닫고 옆으로 한 걸음 → P 정면 전환.",
+      "artist_review": {
+        "status": "self_review_pass_pending_independent_review",
+        "viewed": true,
+        "notes": "열린 노트·열린 슬레이트·감독에게 몸을 튼 P·이어진 띠 확인. 추상 메모만 있음."
+      },
+      "revision": 1,
+      "actual_dimensions": {
+        "width": 1672,
+        "height": 941
+      },
+      "selected": true,
+      "artist_manifest": "image_manifest_artist2.json",
+      "artist_recorded_first_frame": "D가 열린 슬레이트를 들고 P의 펼친 노트를 보고 있다. P는 D 쪽으로 몸이 30도 돌아가 있으며 노트는 이미 열려 있음.",
+      "artist_recorded_next_motion": "D가 말하며 슬레이트를 닫고 옆으로 한 걸음 → P 정면 전환.",
+      "final_storyboard_first_frame": "D가 열린 슬레이트를 들고 P의 펼친 노트를 보고 있다. P는 D 쪽으로 몸이 30도 돌아가 있으며 노트는 이미 열려 있음.",
+      "final_storyboard_next_motion": "D가 말하며 슬레이트를 닫고 옆으로 한 걸음 → P 정면 전환.",
+      "final_review": {
+        "status": "accepted_after_independent_peer_cross_review",
+        "reviewers": [
+          "A",
+          "B",
+          "C"
+        ],
+        "scope": "still first frame",
+        "notes_file": "review_summary.json"
+      }
+    },
+    {
+      "concept_id": "C02",
+      "scene_id": "S02",
+      "cut_id": "K06",
+      "image_path": "images/C02/K06_v3.png",
+      "prompt": "Precise local prop edit of this image. Preserve woman P, her face, hands, notebook contents and position, ribbon, blue circle, whole office, male T face/body/clothes, camera and lighting exactly. Change ONLY the TWO transparent tape scraps on male T's cuff edges and bring those cuffs slightly closer if necessary. The tape scraps must be attached on the INNER SIDES of each rolled sleeve, facing one another in the central gap between his forearms. Each has a visibly protruding short shiny clear sticky tail extending horizontally TOWARD THE OTHER CUFF. The two inner cuffs/wrists are about 15cm apart, and the two clear tape tips still have visible AIR GAP: not touching yet. Remove tape from OUTER forearm edges; exactly two tape scraps total, one on each INNER cuff. His fingertips stay entirely empty. Do not add a tape bridge, do not wrap wrists, do not cross arms, no binding. This is before a simple inward hand motion causes the two cuff tails to stick. Both tails must be visibly poised to meet when cuffs move together, not pointing outward. Full-bleed 16:9.",
+      "reference_images": [
+        "\\\\wsl.localhost\\Ubuntu-24.04\\home\\wooseok\\wsy\\samsung_related\\slide\\AI실행결과발표대회_디자인3종\\storyboards\\2026-10-17_b-comedy-reboot-v3\\images\\C02\\K06_v2.png"
+      ],
+      "source_generated_path": "C:\\Users\\wseok\\.codex\\generated_images\\01a149a2-d9c9-70e2-b538-eb2497e8c4e8\\exec-eb7e8d8b-c745-4223-9a45-4651c0d85a52.png",
+      "generation_tool": "image_gen",
+      "first_frame": "P는 열린 노트 위 첫 메모에 검지를 대기 직전. T는 뒤에서 두 손목이 15cm 떨어진 채 종이 띠와 테이프 꼬리를 정리하려 한다. 아직 손목끼리 붙지 않았음.",
+      "next_motion": "P의 첫 메모 가리키기와 대사 → T가 두 소매 끝을 모았다가 테이프 꼬리가 서로 붙음 → 한 번 내려다봄.",
+      "artist_review": {
+        "status": "revision_self_review_pass_pending_recheck",
+        "viewed": true,
+        "notes": "3인교차후 PD 필수수정: 투명꼬리2개가 양소매 안쪽 중앙을 향함. 아직 공극 있음. 손가락 추가테이프 없음. P·노트·띠 보존 확인."
+      },
+      "revision": 3,
+      "actual_dimensions": {
+        "width": 1672,
+        "height": 941
+      },
+      "selected": true,
+      "artist_manifest": "image_manifest_artist2.json",
+      "artist_recorded_first_frame": "P는 열린 노트 위 첫 메모에 검지를 대기 직전. T는 뒤에서 두 손목이 15cm 떨어진 채 종이 띠와 테이프 꼬리를 정리하려 한다. 아직 손목끼리 붙지 않았음.",
+      "artist_recorded_next_motion": "P의 첫 메모 가리키기와 대사 → T가 두 소매 끝을 모았다가 테이프 꼬리가 서로 붙음 → 한 번 내려다봄.",
+      "final_storyboard_first_frame": "P는 열린 노트 위 첫 메모에 검지를 대기 직전. T는 뒤에서 두 손목이 15cm 떨어진 채 종이 띠와 테이프 꼬리를 정리하려 한다. 아직 손목끼리 붙지 않았음.",
+      "final_storyboard_next_motion": "P의 첫 메모 가리키기와 대사 → T가 두 소매 끝을 모았다가 테이프 꼬리가 서로 붙음 → 한 번 내려다봄.",
+      "final_review": {
+        "status": "accepted_after_independent_peer_cross_review",
+        "reviewers": [
+          "A",
+          "B",
+          "C"
+        ],
+        "scope": "still first frame",
+        "notes_file": "review_summary.json"
+      }
+    },
+    {
+      "concept_id": "C02",
+      "scene_id": "S03",
+      "cut_id": "K07",
+      "image_path": "images/C02/K07.png",
+      "prompt": "Use case: ads-marketing. Generate a NEW separate end-title BACKGROUND PLATE for the same Korean low-budget office filming-set comedy, using references for exact prop designs, not for composition. Real photographic 16:9 full-bleed. NO PEOPLE. A little battered desk confined to far LEFT 35% of image. On desk an OPEN yellow notebook with the same abstract crossed-out diagrams and arrows, and the CLOSED black-and-white clapperboard with BLANK white face. Behind this left arrangement, a cream paper ribbon with single blue circle and a crooked clear taped splice stretches between two partial gray office columns, confined to the left zone. Most important RIGHT 60% of image is a clean bright gray-green unpatterned office WALL, flat evenly lit empty negative space for later title typography. Do not place table, ribbon, notebook, column, window, plant or clutter into right 60%. Modest fluorescent room light with gentle warmth on yellow notebook. No title, no words, no numbers, no logos, no pseudo-writing, no watermark. This is a newly composed endcard background, not a completed typeset title. Keep handmade tape joins and humble textures, not slick product photography.",
+      "reference_images": [
+        "\\\\wsl.localhost\\Ubuntu-24.04\\home\\wooseok\\wsy\\samsung_related\\slide\\AI실행결과발표대회_디자인3종\\storyboards\\2026-10-17_b-comedy-reboot-v3\\images\\C02\\K05.png",
+        "\\\\wsl.localhost\\Ubuntu-24.04\\home\\wooseok\\wsy\\samsung_related\\slide\\AI실행결과발표대회_디자인3종\\storyboards\\2026-10-17_b-comedy-reboot-v3\\images\\C02\\K06_v2.png"
+      ],
+      "source_generated_path": "C:\\Users\\wseok\\.codex\\generated_images\\01a149a2-d9c9-70e2-b538-eb2497e8c4e8\\exec-5361bd3d-32ef-4fd3-b02f-fa6de20ac940.png",
+      "generation_tool": "image_gen",
+      "first_frame": "새 사무실 배경 플레이트. 왼쪽 책상에 K06의 열린 노란 노트와 D의 닫힌 슬레이트. 뒤 종이 띠는 테이프 이음이 보임. 오른쪽 58% 벽은 글자 없이 비어 있음. 후편집 별도 조판: 오른쪽 58%의 무늬 없는 밝은 영역에 작은 1행 '2026년 품질팀', 큰 2행 'AI 실행 결과', 큰 3행 '발표 대회'. 전체 제목을 처음부터 끝까지 6초 유지. 제목 아래 연결 문구 1행. 이미지에는 제목·자막·로고·날짜를 그리지 않는다.",
+      "next_motion": "추가 인물 행동 없음. 후편집 타이틀을 6초 고정.",
+      "artist_review": {
+        "status": "self_review_pass_pending_independent_review",
+        "viewed": true,
+        "notes": "별도 엔딩배경. 소품 좌측·우측 넓은 회녹색 벽. 그림 내 제목 없음. 우측 50~60% 배치영역 확인."
+      },
+      "revision": 1,
+      "actual_dimensions": {
+        "width": 1672,
+        "height": 941
+      },
+      "selected": true,
+      "artist_manifest": "image_manifest_artist2.json",
+      "artist_recorded_first_frame": "새 사무실 배경 플레이트. 왼쪽 책상에 K06의 열린 노란 노트와 D의 닫힌 슬레이트. 뒤 종이 띠는 테이프 이음이 보임. 오른쪽 58% 벽은 글자 없이 비어 있음. 후편집 별도 조판: 오른쪽 58%의 무늬 없는 밝은 영역에 작은 1행 '2026년 품질팀', 큰 2행 'AI 실행 결과', 큰 3행 '발표 대회'. 전체 제목을 처음부터 끝까지 6초 유지. 제목 아래 연결 문구 1행. 이미지에는 제목·자막·로고·날짜를 그리지 않는다.",
+      "artist_recorded_next_motion": "추가 인물 행동 없음. 후편집 타이틀을 6초 고정.",
+      "final_storyboard_first_frame": "새 사무실 배경 플레이트. 왼쪽 책상에 K06의 열린 노란 노트와 D의 닫힌 슬레이트. 뒤 종이 띠는 테이프 이음이 보임. 오른쪽 58% 벽은 글자 없이 비어 있음. 후편집 별도 조판: 오른쪽 58%의 무늬 없는 밝은 영역에 작은 1행 '2026년 품질팀', 큰 2행 'AI 실행 결과', 큰 3행 '발표 대회'. 전체 제목을 처음부터 끝까지 6초 유지. 제목 아래 연결 문구 1행. 이미지에는 제목·자막·로고·날짜를 그리지 않는다.",
+      "final_storyboard_next_motion": "추가 인물 행동 없음. 후편집 타이틀을 6초 고정.",
+      "final_review": {
+        "status": "accepted_after_independent_peer_cross_review",
+        "reviewers": [
+          "A",
+          "B",
+          "C"
+        ],
+        "scope": "still first frame",
+        "notes_file": "review_summary.json"
+      }
+    },
+    {
+      "concept_id": "C03",
+      "scene_id": "S01",
+      "cut_id": "K01",
+      "image_path": "images/C03/K01.png",
+      "prompt": "Use case: ads-marketing.\nCreate ONE photorealistic first-frame still for a deliberately low-budget Korean absurdist comedy commercial. Widescreen true 16:9, no letterboxing, no collage. Not a polished corporate advertising portrait. Cheap practical props, earnest exaggerated sports ceremony, slightly flat tiny-gym lighting except bright light on commentator.\nLocation: small makeshift sports broadcast set in an ordinary empty cream-wall school gym, blue tape marks on parquet floor. Left grey folding table and grey folding chair; center-right very LOW broad square wheeled podium, its top only 15 cm from floor including conspicuous casters. A practical black push bar rises from the back of the podium. No text or numbers on anything.\nExactly three fictional Korean adults, no crowd.\nP: woman in her 30s, short black ponytail, cobalt blue tracksuit jacket with ONE white stripe and matching blue trousers, white sneakers. She stands on the low podium, holds a SMALL BLACK HANDHELD MICROPHONE just below her chin, lips about to open, determined calm expression.\nT: man in his 30s with short black hair, yellow tracksuit jacket, black trousers. He stands to P's right. In ONE hand he holds a YELLOW PAPER CUP containing large colored paper confetti at shoulder height, poised but he has NOT thrown any; his other hand relaxed. No airborne confetti.\nR: male commentator in his 40s, neat side part, cream blazer, RED BOW TIE, white shirt, black trousers. He sits at the LEFT folding table leaning forward with exaggerated anticipatory delight. On table ONLY a red headset, no microphone, books or papers.\nBeside T on a low prop stand stand a large lightweight GOLD FOIL PAPER TROPHY (70cm tall, wide cup with two loop handles, round unmarked base) and ONE bunch of red flowers in white wrapping. No trophy in P's hands.\nCamera medium wide/full body, front 3/4 enough to clearly see 15cm podium, P's feet, all three actors and trophy shape. Single moment BEFORE first confetti throw, faces unobstructed. Keep hands and separate objects physically clear. No captions, words, event title, logos, brands, medals, notebook or watermark.",
+      "reference_images": [],
+      "source_generated_path": "C:/Users/wseok/.codex/generated_images/01a149a5-d88b-78f0-b783-341dba8ba488/exec-e38fc650-369f-4a90-8cf5-6d244f462f0e.png",
+      "generation_tool": "image_gen",
+      "first_frame": "P는 높이15cm 시상대에 서서 마이크를 턱 아래에 들고 입을 열기 직전. T는 큰 색종이가 든 노랑 컵을 어깨 높이에 들되 아직 뿌리지 않았다. 높이70cm 트로피와 꽃다발은 T 옆 낮은 받침 위. R은 왼쪽 중계석 의자에서 몸을 앞으로 기울임. 테이블 위는 빨강 헤드셋 외 비어 있다.",
+      "next_motion": "P가 첫 음절 → T가 컵의 색종이를 한 번 위로 흩뿌림 → R이 열광.",
+      "artist_review": "실제 원본 열람. 세 인물·의상·소품 1개씩·동작 직전·글자 없음 확인. 첫 기준 승인 후보.",
+      "revision": 1,
+      "artist_manifest": "image_manifest_artist3.json",
+      "artist_recorded_first_frame": "P 시상대 위 마이크 턱 아래, T 노란 컵 아직 뿌리기 전, 트로피와 꽃다발은 옆 받침, R 왼쪽 책상. 실물 기준 이미지.",
+      "artist_recorded_next_motion": "P 첫 음절 후 T가 색종이를 한 번 뿌림",
+      "final_storyboard_first_frame": "P는 높이15cm 시상대에 서서 마이크를 턱 아래에 들고 입을 열기 직전. T는 큰 색종이가 든 노랑 컵을 어깨 높이에 들되 아직 뿌리지 않았다. 높이70cm 트로피와 꽃다발은 T 옆 낮은 받침 위. R은 왼쪽 중계석 의자에서 몸을 앞으로 기울임. 테이블 위는 빨강 헤드셋 외 비어 있다.",
+      "final_storyboard_next_motion": "P가 첫 음절 → T가 컵의 색종이를 한 번 위로 흩뿌림 → R이 열광.",
+      "final_review": {
+        "status": "accepted_after_independent_peer_cross_review",
+        "reviewers": [
+          "A",
+          "B",
+          "C"
+        ],
+        "scope": "still first frame",
+        "notes_file": "review_summary.json"
+      }
+    },
+    {
+      "concept_id": "C03",
+      "scene_id": "S01",
+      "cut_id": "K02",
+      "image_path": "images/C03/K02_v2.png",
+      "prompt": "Use case: precise-object-edit. This image is the EDIT TARGET. Correct only the staging of this one first-frame shot while preserving the same people, identities, clothes, trophy, bouquet, room and state BEFORE the obstruction. Two precise corrections:\n1) T, the yellow-jacket man at screen-right, must carry the gold trophy in his ANATOMICAL RIGHT hand, on the screen-LEFT side of his own body, the side closer to the blue-clad woman. His ANATOMICAL LEFT arm carries the red bouquet low on the screen-RIGHT/outside of his body. Do NOT cross his arms. Trophy vertical at chest; flowers low at waist. Woman's face and microphone remain unobscured. No transfer to her has happened.\n2) Reframe as a closer waist-up/hip-up medium of P and T, with the commentator still partially visible at far left. This must look like a new camera shot, not the same full-body shot. Maintain original 16:9 landscape canvas.\nAll other details identical. No captions, words, logos, numbers, extra hands or extra props.",
+      "reference_images": [
+        "images/C03/K02.png"
+      ],
+      "source_generated_path": "C:/Users/wseok/.codex/generated_images/01a149a5-d88b-78f0-b783-341dba8ba488/exec-1d3bd640-9512-47fb-825e-41399bd4e2f3.png",
+      "generation_tool": "image_gen",
+      "first_frame": "꽃가루는 대부분 떨어졌고 P 얼굴이 보인다. T가 트로피를 오른손으로 가슴 앞에, 꽃다발을 왼손으로 낮게 들고 P 앞으로 내밀기 직전. P의 마이크는 입 근처.",
+      "next_motion": "T가 트로피·꽃다발을 P 정면으로 올림. P가 마이크를 옆으로 20cm 옮기지만 꽃다발과 겹침.",
+      "artist_review": "실제 열람. 오른손 트로피·왼팔 꽃다발과 미디엄 구도를 수정. P 얼굴이 가려지기 직전 상태, 의상/인물 유지, 글자 없음.",
+      "revision": 2,
+      "prior_version": {
+        "image_path": "images/C03/K02.png",
+        "prompt": "Use case: ads-marketing. Generate ONE new 16:9 photorealistic FIRST FRAME for the next shot of the same deliberately B-grade Korean sports-broadcast comedy. The attached image is a CONTINUITY REFERENCE, not the framing to copy. Preserve EXACTLY these three adults' identities, hair and costumes, cheap cream gym wall and blue floor tape, foil-paper trophy design and red flowers in white wrapping, grey folding commentator table, red headset. No extra people.\nShot: medium from thigh/waist up, camera on same front axis. P (woman, blue tracksuit) is STILL standing on the low 15cm wheeled podium. She holds the same small black microphone near her mouth. Her face is clear and she is taking breath to try speaking again. T (yellow tracksuit man) is to her right, about to thrust the trophy and flowers towards her but has NOT done so yet. T's RIGHT hand supports the upright 70cm gold foil trophy at his own chest, with its two loop handles clearly recognizable. T's LEFT arm holds the ONE red bouquet LOW near his waist; flowers DO NOT obscure P's face yet. Separate hands and object shapes clear, no overlapping face.\nR (cream blazer red bowtie man) appears at left behind the table, looking eagerly at P. Table has only red headset.\nThe handful of large colored confetti has already fallen, a few scraps visible on floor. The yellow cup is now EMPTY and sits on low prop stand at far right; no airborne confetti. Low podium stays stationary; keep P on it.\nThis is strictly a still moment BEFORE the obstruction gag, not its result. Deliberately cheap crinkled gold craft trophy, ordinary gym texture, slightly broad acting. No text, logo, subtitle, medals, books, notebook or watermark. Full landscape 16:9 image, no letterbox or panels.",
+        "reason": "소품 좌우와 촬영 거리 수정"
+      },
+      "artist_manifest": "image_manifest_artist3.json",
+      "artist_recorded_first_frame": "P 얼굴 노출, T 두 소품 내밀기 직전, 컵 비고 색종이 바닥.",
+      "artist_recorded_next_motion": "T 꽃다발과 트로피를 P 앞으로 올림.",
+      "final_storyboard_first_frame": "꽃가루는 대부분 떨어졌고 P 얼굴이 보인다. T가 트로피를 오른손으로 가슴 앞에, 꽃다발을 왼손으로 낮게 들고 P 앞으로 내밀기 직전. P의 마이크는 입 근처.",
+      "final_storyboard_next_motion": "T가 트로피·꽃다발을 P 정면으로 올림. P가 마이크를 옆으로 20cm 옮기지만 꽃다발과 겹침.",
+      "final_review": {
+        "status": "accepted_after_independent_peer_cross_review",
+        "reviewers": [
+          "A",
+          "B",
+          "C"
+        ],
+        "scope": "still first frame",
+        "notes_file": "review_summary.json"
+      }
+    },
+    {
+      "concept_id": "C03",
+      "scene_id": "S01",
+      "cut_id": "K03",
+      "image_path": "images/C03/K03.png",
+      "prompt": "Use case: ads-marketing. Generate ONE separate cinematic first-frame photograph, 16:9 landscape, for the next shot of the same low-budget Korean sports ceremony comedy. Image 1 is exact room/layout/full-body character reference; image 2 exact costume, face, trophy and bouquet hand-assignment reference. Same THREE fictional adults, no others. Maintain crinkled gold paper trophy 70cm, same red bouquet white wrapping, low wooden wheeled podium only 15cm high including wheels, black rear push bar.\nNew camera is WIDE so feet and escape route are clearly visible. P blue tracksuit woman is STILL ON podium but has moved to its LEFT EDGE, both feet together close to the edge, about to step down towards the left commentator table. Her body angles left, black microphone held near her chin, expression determined rather than posing. She has NOT yet stepped onto the floor. The entire empty gap on floor between podium and table is visible.\nT yellow tracksuit man stands to her right, holds the gold trophy upright in his ANATOMICAL RIGHT hand (screen-left side of his body closer to P) and red bouquet in LEFT arm on his outside right. He still holds BOTH objects, neither placed on podium yet. T watches P with alert professional concern.\nR cream blazer red bowtie remains SEATED behind left grey table, leaning forward watching P. Table contains only RED HEADSET. Small stand at far right has one EMPTY yellow cup. Large confetti scraps remain scattered on floor.\nOnly start of step-down; podium is stationary and empty destination is safe/clear. No airborne confetti. No text, medals, numbers, notebook, watermarks or extra props. Keep cheap theatrical look and earnest comedy expressions, not luxury photography.",
+      "reference_images": [
+        "images/C03/K01.png",
+        "images/C03/K02_v2.png"
+      ],
+      "source_generated_path": "C:/Users/wseok/.codex/generated_images/01a149a5-d88b-78f0-b783-341dba8ba488/exec-cdc666f0-f77e-4f34-9025-bb0f2e0f5d96.png",
+      "generation_tool": "image_gen",
+      "first_frame": "P가 시상대 왼쪽 가장자리에 발을 모아 내려가기 직전. T는 트로피와 꽃다발을 들고 옆에 서 있다. 왼쪽 중계석 앞 바닥은 비어 있고 R은 그 뒤에서 P를 보고 있음.",
+      "next_motion": "P가 먼저 완전히 바닥으로 내려옴 → T가 트로피를 빈 시상대에 놓고 손잡이 잡음. 뜸들이거나 P·시상대를 번갈아 보는 연기 없음.",
+      "artist_review": "실제 원본 열람. 왼쪽 탈출 경로·낮은 단·동작 직전·소품 소유권 확인. 후속영상에서는 내려온 뒤에만 시상대 이동.",
+      "revision": 1,
+      "artist_manifest": "image_manifest_artist3.json",
+      "artist_recorded_first_frame": "P 시상대 왼쪽 가장자리 내려서기 직전, T 오른손 트로피/왼팔 꽃다발, R 왼쪽 착석.",
+      "artist_recorded_next_motion": "P 완전히 내림 뒤 T가 트로피를 빈 시상대에 놓고 손잡이 잡음.",
+      "final_storyboard_first_frame": "P가 시상대 왼쪽 가장자리에 발을 모아 내려가기 직전. T는 트로피와 꽃다발을 들고 옆에 서 있다. 왼쪽 중계석 앞 바닥은 비어 있고 R은 그 뒤에서 P를 보고 있음.",
+      "final_storyboard_next_motion": "P가 먼저 완전히 바닥으로 내려옴 → T가 트로피를 빈 시상대에 놓고 손잡이 잡음. 뜸들이거나 P·시상대를 번갈아 보는 연기 없음.",
+      "final_review": {
+        "status": "accepted_after_independent_peer_cross_review",
+        "reviewers": [
+          "A",
+          "B",
+          "C"
+        ],
+        "scope": "still first frame",
+        "notes_file": "review_summary.json"
+      }
+    },
+    {
+      "concept_id": "C03",
+      "scene_id": "S01",
+      "cut_id": "K04",
+      "image_path": "images/C03/K04.png",
+      "prompt": "Use case: ads-marketing. Create one NEW standalone photorealistic 16:9 first-frame still, next shot of this same cheap Korean absurdist sports broadcast. The reference image supplies exact three faces, costumes, room, paper trophy and props. Do not simply copy its action.\nWide fixed-camera frame showing full bodies and floor. P blue tracksuit woman has now COMPLETELY STEPPED OFF the wheeled podium and stands ON THE FLOOR at left-center in front of commentator's table, both white shoes flat on wooden floor. She holds her small black microphone near mouth, faces front, ready to speak, unobstructed face.\nT yellow tracksuit man is at right behind podium. The wheeled podium is now UNOCCUPIED BY PEOPLE and has the SAME 70cm gold crinkled foil-paper trophy standing upright on its flat top; no person is on the podium. Total trophy tip height including 15cm wheeled platform is approximately 85cm from FLOOR, lower than standing P's waist. Keep trophy small enough to clearly NOT obscure faces. Two loop handles and round unmarked base.\nT pushes rear black handle with ANATOMICAL RIGHT hand, from screen-right towards P, but is STILL at least half a meter to P's right and has not reached her. His LEFT arm holds the ONE red bouquet in white wrapping LOW BELOW CHEST. Flowers have NOT yet been lifted towards P's face. No body contact.\nR cream blazer red bowtie remains seated behind LEFT grey table watching, red headset on otherwise empty tabletop. Empty yellow cup on separate stand far right; confetti scraps on floor.\nComposition must clearly show gap between P and moving empty podium, low trophy, T's one hand on push bar and other arm with bouquet. This is start-state BEFORE the moving ceremony reaches her, not after. No text/logos/medals/books/notebook/watermark, no extra person or duplicate trophy. Ordinary gym, cheap crafted props, earnest exaggerated comedy.",
+      "reference_images": [
+        "images/C03/K03.png"
+      ],
+      "source_generated_path": "C:/Users/wseok/.codex/generated_images/01a149a5-d88b-78f0-b783-341dba8ba488/exec-337849f9-3f0a-4c5b-974a-2d2243b0cfb8.png",
+      "generation_tool": "image_gen",
+      "first_frame": "P는 중계석 앞 바닥에서 마이크를 입 가까이 든다. T는 오른쪽에서 트로피가 꽂힌 빈 시상대를 밀어 오는 중이나 아직 P 뒤에 도착하지 않았다. 트로피의 전체 높이는 바닥에서85cm이며 얼굴 높이에 닿지 않는다. T의 다른 팔 꽃다발은 아직 가슴 아래.",
+      "next_motion": "T가 시상대를 P 뒤에서 멈춤 → 다른 손 꽃다발을 P 얼굴·마이크 앞으로 올림. 트로피가 솟거나 커지지 않음.",
+      "artist_review": "실제 원본 열람. 사람 없는 시상대, 허리 아래 트로피와 얼굴 높이 분리. 꽃다발 아직 낮아 펀치라인 선노출 없음. 손 소유권 유지.",
+      "revision": 1,
+      "artist_manifest": "image_manifest_artist3.json",
+      "artist_recorded_first_frame": "P 이미 바닥, T 오른쪽에서 트로피 시상대 밀어오기 시작, 왼팔 꽃다발 가슴 아래.",
+      "artist_recorded_next_motion": "T가 P 뒤에서 멈추고 꽃다발만 얼굴 앞으로 올림.",
+      "final_storyboard_first_frame": "P는 중계석 앞 바닥에서 마이크를 입 가까이 든다. T는 오른쪽에서 트로피가 꽂힌 빈 시상대를 밀어 오는 중이나 아직 P 뒤에 도착하지 않았다. 트로피의 전체 높이는 바닥에서85cm이며 얼굴 높이에 닿지 않는다. T의 다른 팔 꽃다발은 아직 가슴 아래.",
+      "final_storyboard_next_motion": "T가 시상대를 P 뒤에서 멈춤 → 다른 손 꽃다발을 P 얼굴·마이크 앞으로 올림. 트로피가 솟거나 커지지 않음.",
+      "final_review": {
+        "status": "accepted_after_independent_peer_cross_review",
+        "reviewers": [
+          "A",
+          "B",
+          "C"
+        ],
+        "scope": "still first frame",
+        "notes_file": "review_summary.json"
+      }
+    },
+    {
+      "concept_id": "C03",
+      "scene_id": "S02",
+      "cut_id": "K05",
+      "image_path": "images/C03/K05_v2.png",
+      "prompt": "Use case: precise-object-edit. Image 1 is the edit target. Image 2 is reference ONLY for the wheeled wooden podium's black push handle. Fix one missing continuity detail: RESTORE the same inverted-U BLACK METAL PUSH HANDLE at the BACK edge of the low wooden wheeled podium, rising behind and to the right of the gold trophy, as it existed in image 2. It must attach to the podium with two narrow black uprights, top bar about hip height. It can be partially behind trophy, but its black curve and mounting must visibly remain. Do not move people, trophy, table, flowers, microphone, headset or any hands. Preserve all start-state staging: woman just about to grasp trophy; commentator open hands ready; bouquet held by yellow-jacket man. Same 16:9 full canvas, same faces, clothes and cheap gym look. No added text, logos, confetti cloud, extra people or new prop.",
+      "reference_images": [
+        "images/C03/K05.png",
+        "images/C03/K04.png"
+      ],
+      "source_generated_path": "C:/Users/wseok/.codex/generated_images/01a149a5-d88b-78f0-b783-341dba8ba488/exec-b3e3e013-a1c0-42e6-a542-3b8e4d5faeee.png",
+      "generation_tool": "image_gen",
+      "first_frame": "P가 두 손으로 시상대 받침의 트로피 손잡이를 잡기 직전. 작은 마이크는 바로 왼쪽 중계석 가장자리에 놓여 있다. R은 의자에서 일어나 두 손을 내밀며 받을 준비, T는 꽃다발을 들고 둘을 보고 있음.",
+      "next_motion": "P가 트로피를 R에게 전달 → R이 이미 멈춘 빈 시상대에 한 걸음 올라 포즈. 미끄러지거나 떠밀리지 않음.",
+      "artist_review": "실제 열람. 전달 직전·책상 마이크·R 열린 손·T 꽃다발 유지. 빠졌던 시상대 후면 검정 손잡이를 보완해 기구 연속성 회복.",
+      "revision": 2,
+      "prior_version": {
+        "image_path": "images/C03/K05.png",
+        "prompt": "Use case: ads-marketing. Generate a NEW first-frame photorealistic 16:9 widescreen still for the next shot of this absurd low-budget Korean sports ceremony. Use reference for EXACT same THREE fictional people, clothes, cream gym, parquet/blue tape, grey folding table, paper trophy, wheeled wooden podium and bouquet.\nNew wide composition closer around table and now-stopped podium. Left grey commentator table, center P, right low wheeled podium. The podium has rolled near the table and STOPPED; all wheels locked, no person on it. Gold crinkled paper trophy 70cm stands on podium top only 15cm high, trophy top below standing people's waists.\nP (blue tracksuit woman) stands on FLOOR beside podium, bends slightly towards trophy, BOTH hands hovering just outside the trophy's two loop handles, poised to pick it up but HAS NOT lifted it yet. The small black microphone is ALREADY lying on left tabletop close to P, next to only the RED HEADSET; no microphone in any hand.\nR (cream blazer red bowtie) has JUST RISEN from his grey chair behind the table, torso forward, both OPEN HANDS extended in eager readiness to receive trophy. He does NOT hold trophy yet and is NOT on podium. His excessive cheerful expectation contrasts P's purposeful calm.\nT (yellow tracksuit) remains at right, holds the single red bouquet in white wrapping in his LEFT arm at chest height, looks between P and R. His right hand relaxed by hip, NOT holding trophy. Keep all three adults anatomically clear.\nExactly ONE trophy on podium, ONE bouquet held by T, ONE microphone lying table, ONE red headset. No fourth actor, book, notebook, writing, logos, medals or number. Small floor-confetti remains. This instant is BEFORE the trophy transfer (the upcoming action), no early victorious pose. Deliberately cheap practical materials, natural texture, comedic blocking.",
+        "reason": "시상대 후면 밀기 손잡이 누락 보완"
+      },
+      "artist_manifest": "image_manifest_artist3.json",
+      "artist_recorded_first_frame": "P 트로피 손잡이 잡기 직전, R 양손 받을 준비, 마이크는 책상.",
+      "artist_recorded_next_motion": "P가 R에게 트로피 전달, R 멈춘 빈 단에 올라섬.",
+      "final_storyboard_first_frame": "P가 두 손으로 시상대 받침의 트로피 손잡이를 잡기 직전. 작은 마이크는 바로 왼쪽 중계석 가장자리에 놓여 있다. R은 의자에서 일어나 두 손을 내밀며 받을 준비, T는 꽃다발을 들고 둘을 보고 있음.",
+      "final_storyboard_next_motion": "P가 트로피를 R에게 전달 → R이 이미 멈춘 빈 시상대에 한 걸음 올라 포즈. 미끄러지거나 떠밀리지 않음.",
+      "final_review": {
+        "status": "accepted_after_independent_peer_cross_review",
+        "reviewers": [
+          "A",
+          "B",
+          "C"
+        ],
+        "scope": "still first frame",
+        "notes_file": "review_summary.json"
+      }
+    },
+    {
+      "concept_id": "C03",
+      "scene_id": "S02",
+      "cut_id": "K06",
+      "image_path": "images/C03/K06.png",
+      "prompt": "Use case: ads-marketing. Create ONE NEW 16:9 first-frame still, photorealistic deliberately cheap Korean sports ceremony comedy. Reference image is continuity for exact actors, outfits, gym, table, trophy and wheeled podium. Change staging to the NEXT shot.\nComposition WIDE, three full-body actors. On right R, cream blazer RED BOW TIE male commentator, now stands SAFELY ON TOP of the same stationary 15cm wooden wheeled podium, just received the same 70cm gold foil-paper trophy. R holds trophy upright in BOTH hands at chest, faces camera with exaggerated joyous victory expression, arms not raised overhead yet. Preserve podium black inverted-U rear push handle visible behind him. No motion of podium while occupied.\nT, yellow tracksuit man, stands on FLOOR just right of podium, body still HALF-TURNED LEFT towards P, not yet turned towards R. Holds the same SINGLE red bouquet white wrapping LOW near his waist in LEFT arm, flowers below faces. His free right hand at side. He will rotate towards R and lift flowers later; do NOT show that yet.\nP, blue tracksuit woman, is at LEFT BACKGROUND directly in front of the now-empty grey commentator chair behind the same left folding table, about to sit but still standing. She looks down toward chair with calm purposeful expression. P holds nothing. The small black microphone remains lying on tabletop near front right edge and red headset on left; NO extra table objects.\nExactly three people; ONE trophy R holds, ONE bouquet T holds, microphone+red headset on table, no duplicate props. Confetti scraps on floor, empty yellow cup may sit on far-right prop stand but no new cup. No notebooks, medals, words, logo, watermark. This is moment BEFORE bouquet turns to R and BEFORE P sits, not after.",
+      "reference_images": [
+        "images/C03/K05_v2.png"
+      ],
+      "source_generated_path": "C:/Users/wseok/.codex/generated_images/01a149a5-d88b-78f0-b783-341dba8ba488/exec-a17ba4cc-94ca-456f-b206-6a18ccff65de.png",
+      "generation_tool": "image_gen",
+      "first_frame": "R은 트로피를 가슴 앞에 들고 시상대에서 카메라를 향한 포즈. T의 몸은 아직 P 쪽으로 반쯤 돌아가 있고 꽃다발은 낮은 위치. P는 중계석 의자 바로 앞.",
+      "next_motion": "T가 R 쪽으로 90도 전환하고 꽃다발 올림 → R이 더 큰 포즈. P는 배경에서 조용히 착석.",
+      "artist_review": "실제 원본 열람. 트로피 소유 교환 완료·마이크/헤드셋 책상·꽃다발 들기 전 확인. 편차: T 시선은 이미 R 쪽, 몸은 정면에 가깝다. P는 의자 뒤에서 등받이 잡은 착석 준비라 후속 동작에 의자 빼기 포함. 주반전 선노출 아님.",
+      "revision": 1,
+      "artist_manifest": "image_manifest_artist3.json",
+      "artist_recorded_first_frame": "R 트로피 소유·멈춘 시상대 위, T 꽃다발 낮음, P 의자 앞 착석 준비.",
+      "artist_recorded_next_motion": "T가 R 향해 몸 더 돌리고 꽃다발 올림. P 의자 빼고 착석.",
+      "final_storyboard_first_frame": "R은 트로피를 가슴 앞에 들고 시상대에서 카메라를 향한 포즈. T의 몸은 아직 P 쪽으로 반쯤 돌아가 있고 꽃다발은 낮은 위치. P는 중계석 의자 바로 앞.",
+      "final_storyboard_next_motion": "T가 R 쪽으로 90도 전환하고 꽃다발 올림 → R이 더 큰 포즈. P는 배경에서 조용히 착석.",
+      "final_review": {
+        "status": "accepted_after_independent_peer_cross_review",
+        "reviewers": [
+          "A",
+          "B",
+          "C"
+        ],
+        "scope": "still first frame",
+        "notes_file": "review_summary.json"
+      }
+    },
+    {
+      "concept_id": "C03",
+      "scene_id": "S02",
+      "cut_id": "K07",
+      "image_path": "images/C03/K07_v2.png",
+      "prompt": "Use case: precise-object-edit. Image is EDIT TARGET. Fix ONLY clothing continuity, keep everything else exactly the same: 1) The yellow-jacket man in background must wear PLAIN SOLID BLACK TROUSERS with NO white stripes, identical to earlier shots. Remove the white side stripes from his trousers. 2) The foreground woman's cobalt blue tracksuit has ONE white stripe down each outer sleeve, not two parallel thick stripes. Keep one neat single white stripe on each outer arm, removing the extra stripe. Same single white stripe on her trouser side if visible. Preserve faces, hair, all poses, microphone on table and hand poised to pick it up, red headset, trophy, bouquet held across commentator's face, low podium and black push handle, gym, light, 16:9 framing. Do not remove the intended stripe entirely, do not alter action or any other object. No words or watermark.",
+      "reference_images": [
+        "images/C03/K07.png"
+      ],
+      "source_generated_path": "C:/Users/wseok/.codex/generated_images/01a149a5-d88b-78f0-b783-341dba8ba488/exec-b28ebf3c-5ec5-4106-a04a-4636b75712f5.png",
+      "generation_tool": "image_gen",
+      "first_frame": "P가 중계 의자에 앉아 오른손을 테이블 위 마이크에 대기 직전. 테이블에는 마이크와 R의 빨강 헤드셋뿐. R은 뒤 오른쪽에서 트로피 든 포즈, T는 그 얼굴 앞에 꽃다발을 들고 있음.",
+      "next_motion": "P가 마이크를 집으며 카메라로 향해 짧게 말함. R·T는 후경에서 같은 축하를 계속.",
+      "artist_review": "실제 열람. P 한 줄 트레이닝복과 T 무늬 없는 검정 바지 보완. 마이크 줍기 직전·후경 꽃다발 가림·소품 소유권 그대로.",
+      "revision": 2,
+      "prior_version": {
+        "image_path": "images/C03/K07.png",
+        "prompt": "Use case: ads-marketing. Generate ONE NEW camera shot, 16:9 photorealistic first-frame still, same low-budget Korean sports comedy. Reference preserves EXACT three actors and costumes, gym, trophy, bouquet, podium, table, small microphone, red headset.\nFRAMING CHANGES: medium FRONT view of P, the blue tracksuit woman, seated behind the LEFT commentator table, now foreground main subject occupying left/center. Natural short black ponytail, same single white stripe blue jacket. She faces camera with composed purposeful expression. Her anatomical RIGHT HAND hovers 2 cm above the SMALL BLACK HANDHELD MICROPHONE LYING HORIZONTALLY ON TABLE, about to pick it up, but microphone has NOT been lifted. Her left hand relaxed on table. Table contains ONLY that microphone and the red headset from reference. No notebooks/books/papers.\nFarther back on RIGHT, smaller secondary figures: R cream blazer red bowtie stands on low wooden podium holding gold crinkled foil trophy in victory pose. T yellow tracksuit man holds the SINGLE red flower bouquet with white wrapping UP at R's FACE HEIGHT, so bouquet blocks part of R's face and mouth, comedy in background. It is clearly T's hand/arm holding bouquet, R holds trophy. P foreground face completely clear.\nThe 15cm wooden wheeled podium and black rear push handle remain at right background, trophy remains same 70cm size, not duplicated. Same ordinary cream gym, blue floor tape, scattered confetti. This is instant BEFORE P grabs microphone, no dialogue text or title. No extra people, medals, props, logos or watermarks. P's serious quiet control contrasted with absurdly enthusiastic trophy celebration behind, not generic formal portrait.",
+        "reason": "추가된 의상 흰 줄 정리"
+      },
+      "artist_manifest": "image_manifest_artist3.json",
+      "artist_recorded_first_frame": "P 앉아 마이크에 손 대기 직전, 뒤 R 트로피/T 꽃다발.",
+      "artist_recorded_next_motion": "P 마이크 집어 정면 대사. 뒤 축하 유지.",
+      "final_storyboard_first_frame": "P가 중계 의자에 앉아 오른손을 테이블 위 마이크에 대기 직전. 테이블에는 마이크와 R의 빨강 헤드셋뿐. R은 뒤 오른쪽에서 트로피 든 포즈, T는 그 얼굴 앞에 꽃다발을 들고 있음.",
+      "final_storyboard_next_motion": "P가 마이크를 집으며 카메라로 향해 짧게 말함. R·T는 후경에서 같은 축하를 계속.",
+      "final_review": {
+        "status": "accepted_after_independent_peer_cross_review",
+        "reviewers": [
+          "A",
+          "B",
+          "C"
+        ],
+        "scope": "still first frame",
+        "notes_file": "review_summary.json"
+      }
+    },
+    {
+      "concept_id": "C03",
+      "scene_id": "S03",
+      "cut_id": "K08",
+      "image_path": "images/C03/K08.png",
+      "prompt": "Use case: ads-marketing. Generate ONE actual ENDING BACKGROUND PLATE, 16:9 landscape photorealistic image for the same Korean low-budget sports ceremony comedy. This is a NEW composed static ending plate, not a crop or collage. Reference preserves the exact female protagonist identity, face, black ponytail, cobalt tracksuit with ONE white stripe per outer sleeve, same grey folding commentator table, black microphone and red headset, ordinary cream gym materials and crinkled gold foil paper trophy.\nLAYOUT IS CRITICAL: All meaningful scenery, protagonist and props confined to LEFT 35% of frame. RIGHT 58% is a large CLEAN LIGHT CREAM WALL with no pattern, no objects, no person, no typography, no texture clutter, reserved for later event title. Calm even exposure for readable future dark text. Continuous real room, not split-screen.\nOn far LEFT a small grey folding table with P seated behind it, upper body visible, hands relaxed, black microphone laid down on table beside RED HEADSET, looking forward composed after reclaiming the speaking role. Behind her farther left a SMALL distant silhouette of the same gold foil two-handled trophy on the low wooden wheeled podium; keep black rear push bar if visible. The trophy is a small visual callback, not a second large focal point. No R or T visible in this separately arranged ending plate, no new people. Subtle small floor strip/parquet only along bottom; minimal confetti at far left allowed.\nThe image itself must contain NO WORDS, NO Korean text, no event title, no subtitles, logos, letters, numbers or watermark. This is an empty title background for later typography, not a finished title card. A single frame, true 16:9 without letterbox. Keep cheap physical props and the same person, not a glossy generic business portrait.",
+      "reference_images": [
+        "images/C03/K07_v2.png"
+      ],
+      "source_generated_path": "C:/Users/wseok/.codex/generated_images/01a149a5-d88b-78f0-b783-341dba8ba488/exec-1592acf4-bcc6-4e72-a0b5-89ac224c1b00.png",
+      "generation_tool": "image_gen",
+      "first_frame": "새 체육관 타이틀 배경. 왼쪽 P는 중계석에서 마이크를 내려놓고 정면을 보고, 뒤쪽 트로피는 작은 형태. 오른쪽은 깨끗한 크림 벽. 후편집 별도 조판: 오른쪽 58%의 무늬 없는 밝은 영역에 작은 1행 '2026년 품질팀', 큰 2행 'AI 실행 결과', 큰 3행 '발표 대회'. 전체 제목을 처음부터 끝까지 6초 유지. 제목 아래 연결 문구 1행. 이미지에는 제목·자막·로고·날짜를 그리지 않는다.",
+      "next_motion": "후편집 타이틀 6초 고정. 축하팀 추가 행동 없음.",
+      "artist_review": "실제 원본 열람. 엔딩 별도생성. 얼굴·의상·마이크/헤드셋·트로피 형태 유지. 오른쪽 주조판 구역 여백 확보, 하단 테이블은 약59% 지점까지 뻗으므로 제목은 벽 영역 안 배치. 이미지 자체는 글자 없는 배경판, 최종 합성타이틀 아님.",
+      "revision": 1,
+      "artist_manifest": "image_manifest_artist3.json",
+      "artist_recorded_first_frame": "새 엔딩 배경판. P 왼쪽 착석, 마이크 내려놓음, 뒤 작은 트로피, 오른쪽 넓은 크림 벽.",
+      "artist_recorded_next_motion": "후편집 행사명 6초 고정; 현 이미지에는 글자 없음.",
+      "final_storyboard_first_frame": "새 체육관 타이틀 배경. 왼쪽 P는 중계석에서 마이크를 내려놓고 정면을 보고, 뒤쪽 트로피는 작은 형태. 오른쪽은 깨끗한 크림 벽. 후편집 별도 조판: 오른쪽 58%의 무늬 없는 밝은 영역에 작은 1행 '2026년 품질팀', 큰 2행 'AI 실행 결과', 큰 3행 '발표 대회'. 전체 제목을 처음부터 끝까지 6초 유지. 제목 아래 연결 문구 1행. 이미지에는 제목·자막·로고·날짜를 그리지 않는다.",
+      "final_storyboard_next_motion": "후편집 타이틀 6초 고정. 축하팀 추가 행동 없음.",
+      "final_review": {
+        "status": "accepted_after_independent_peer_cross_review",
+        "reviewers": [
+          "A",
+          "B",
+          "C"
+        ],
+        "scope": "still first frame",
+        "notes_file": "review_summary.json"
+      }
+    },
+    {
+      "concept_id": "C04",
+      "scene_id": "S01",
+      "cut_id": "K01",
+      "image_path": "images/C04/K01_v2.png",
+      "prompt": "Edit only the large black top hat on stage LEFT. Reduce its cylindrical HEIGHT by about half: it should now be only35cm high, clearly LOWER THAN the chair SEAT, and45cm diameter, squat and broad enough to sit on later. Its bottom remains on the SAME floor spot. Add subtle horizontal accordion-paper crease rings to the cylinder under black felt. Keep folded red cloth on top of the shortened hat, scaled appropriately. Preserve absolutely everything else: exact magician, his low hands, gold curtain, red covered chair feet touching ground, two white sneaker toes underneath, exactly three seated audience backs and clothing, camera and lighting. 16:9 single photographic first frame, no text. Hat must not remain as tall as table; its top is below center chair seat level.",
+      "reference_images": [
+        "\\\\wsl.localhost\\Ubuntu-24.04\\home\\wooseok\\wsy\\samsung_related\\slide\\AI실행결과발표대회_디자인3종\\storyboards\\2026-10-17_b-comedy-reboot-v3\\images\\C04\\K01.png"
+      ],
+      "source_generated_path": "C:\\Users\\wseok\\.codex\\generated_images\\01a149a2-c23e-7d73-bbc4-1a40d8438cf3\\exec-f120ebfc-46d9-4f61-8b5e-c98d871b6bdc.png",
+      "generation_tool": "image_gen",
+      "first_frame": "의자 네 다리는 바닥에 닿아 있고 붉은 천 아래 A의 흰 운동화가 평평하게 보인다. M은 오른쪽에서 손을 허리 높이에 펼친 상태. 왼쪽 바닥 대형 모자 위에 큰 붉은 덮개가 접혀 있다. 관객 V1/V2/V3가 앞줄에 앉음.",
+      "next_motion": "M 손 상승 → A가 숨은 나무 손잡이를 들어 의자 10cm 상승·까치발. 카메라 고정.",
+      "artist_review": {
+        "status": "self_checked_pending_three_reviewer_cross_review",
+        "opened_actual_image": true,
+        "checks": [
+          "모자 높이를 낮춰 의자좌판보다 아래로 수정",
+          "모자 원통 주름 추가·접힌 천 유지",
+          "관객3명·의자 바닥·신발 두 개·M의 낮은 손 유지"
+        ],
+        "notes": []
+      },
+      "revision": 2,
+      "width": 1672,
+      "height": 941,
+      "bytes": 2173515,
+      "sha256": "0fc4114c2197939fcc3f4a3fbd57077f3e06d795a22a6c471871a69696b23b69",
+      "selected": true,
+      "artist_manifest": "image_manifest_artist1.json",
+      "artist_recorded_first_frame": "의자 네 다리는 바닥에 닿아 있고 붉은 천 아래 A의 흰 운동화가 평평하게 보인다. M은 오른쪽에서 손을 허리 높이에 펼친 상태. 왼쪽 바닥 대형 모자 위에 큰 붉은 덮개가 접혀 있다. 관객 V1/V2/V3가 앞줄에 앉음.",
+      "artist_recorded_next_motion": "M 손 상승 → A가 숨은 나무 손잡이를 들어 의자 10cm 상승·까치발. 카메라 고정.",
+      "final_storyboard_first_frame": "의자 네 다리는 바닥에 닿아 있고 붉은 천 아래 A의 흰 운동화가 평평하게 보인다. M은 오른쪽에서 손을 허리 높이에 펼친 상태. 왼쪽 바닥 대형 모자 위에 큰 붉은 덮개가 접혀 있다. 관객 V1/V2/V3가 앞줄에 앉음.",
+      "final_storyboard_next_motion": "M 손 상승 → A가 숨은 나무 손잡이를 들어 의자 10cm 상승·까치발. 카메라 고정.",
+      "final_review": {
+        "status": "accepted_after_independent_peer_cross_review",
+        "reviewers": [
+          "A",
+          "B",
+          "C"
+        ],
+        "scope": "still first frame",
+        "notes_file": "review_summary.json"
+      }
+    },
+    {
+      "concept_id": "C04",
+      "scene_id": "S01",
+      "cut_id": "K02",
+      "image_path": "images/C04/K02.png",
+      "prompt": "Generate NEXT SHOT FIRST FRAME,16:9 photoreal, same magician identity/black tails/burgundy waistcoat, same gold-curtain rehearsal room, exact audience3 clothing and same 3 gray chairs in foreground, same covered wooden chair with white sneaker toes at floor center. Magician has MOVED LEFT beside the low black accordion top hat35cm high45cm diameter. He bends forward slightly and grasps the folded RED COVER lying on hat with BOTH hands, just lifting its corners, about to unfold it. Cloth is still largely folded and still at the HAT, NOT yet on center chair. Center chair remains covered by its original smaller red cloth, all wooden legs grounded, white sneaker toes flat. Hat cylinder is visible underneath, low and broad, not tall. Camera stays frontal wide and audience backs keep stage shoes/hat visible. Exact first moment BEFORE he unfolds larger cover. No extra magician at right, no doubled person, no assistant face, no new audience or spare chairs. B-grade proud serious magic act, no text or logos.",
+      "reference_images": [
+        "\\\\wsl.localhost\\Ubuntu-24.04\\home\\wooseok\\wsy\\samsung_related\\slide\\AI실행결과발표대회_디자인3종\\storyboards\\2026-10-17_b-comedy-reboot-v3\\images\\C04\\K01_v2.png"
+      ],
+      "source_generated_path": "C:\\Users\\wseok\\.codex\\generated_images\\01a149a2-c23e-7d73-bbc4-1a40d8438cf3\\exec-ffa9df65-53ef-4a86-871f-c5a7bb4af2fa.png",
+      "generation_tool": "image_gen",
+      "first_frame": "마술 의자는 다시 바닥에 내려놓은 상태. M이 대형 모자 위의 큰 붉은 덮개를 양손으로 잡고 펼치기 직전. A의 흰 운동화는 앞 천 아래. 모자의 원통 형태가 선명하게 보임.",
+      "next_motion": "M이 큰 덮개를 씌움 → A가 오른쪽으로 잔걸음 두 번 → M 팔이 덩어리를 따라 옆으로 이동.",
+      "artist_review": {
+        "status": "self_checked_pending_three_reviewer_cross_review",
+        "opened_actual_image": true,
+        "checks": [
+          "M 모자 위 덮개를 잡고 펼치기 전",
+          "관객3명·신발2·마술의자 바닥 접촉",
+          "낮은 모자 형태 유지"
+        ],
+        "notes": []
+      },
+      "revision": 1,
+      "width": 1672,
+      "height": 941,
+      "bytes": 2143183,
+      "sha256": "ea99dea991397341a408e3edaa9af55222eaaa65ea06210f0e1ec52f348c082d",
+      "selected": true,
+      "artist_manifest": "image_manifest_artist1.json",
+      "artist_recorded_first_frame": "마술 의자는 다시 바닥에 내려놓은 상태. M이 대형 모자 위의 큰 붉은 덮개를 양손으로 잡고 펼치기 직전. A의 흰 운동화는 앞 천 아래. 모자의 원통 형태가 선명하게 보임.",
+      "artist_recorded_next_motion": "M이 큰 덮개를 씌움 → A가 오른쪽으로 잔걸음 두 번 → M 팔이 덩어리를 따라 옆으로 이동.",
+      "final_storyboard_first_frame": "마술 의자는 다시 바닥에 내려놓은 상태. M이 대형 모자 위의 큰 붉은 덮개를 양손으로 잡고 펼치기 직전. A의 흰 운동화는 앞 천 아래. 모자의 원통 형태가 선명하게 보임.",
+      "final_storyboard_next_motion": "M이 큰 덮개를 씌움 → A가 오른쪽으로 잔걸음 두 번 → M 팔이 덩어리를 따라 옆으로 이동.",
+      "final_review": {
+        "status": "accepted_after_independent_peer_cross_review",
+        "reviewers": [
+          "A",
+          "B",
+          "C"
+        ],
+        "scope": "still first frame",
+        "notes_file": "review_summary.json"
+      }
+    },
+    {
+      "concept_id": "C04",
+      "scene_id": "S02",
+      "cut_id": "K03",
+      "image_path": "images/C04/K03_v2.png",
+      "prompt": "Edit this image only to remove the small FOLDED RED CLOTH that is still lying on TOP OF THE BLACK HAT at rear left. That cover has already been used on the center chair. Black hat must be completely bare on top; keep its low35cm accordion cylinder and location. Preserve absolutely all people, poses, chair positions, red-covered center chair, curtain, no corridor, neutral V1 about to stand, three folding chairs and three audience members. Do not remove red cloth from chair. No other visual change, 16:9.",
+      "reference_images": [
+        "\\\\wsl.localhost\\Ubuntu-24.04\\home\\wooseok\\wsy\\samsung_related\\slide\\AI실행결과발표대회_디자인3종\\storyboards\\2026-10-17_b-comedy-reboot-v3\\images\\C04\\K03.png"
+      ],
+      "source_generated_path": "C:\\Users\\wseok\\.codex\\generated_images\\01a149a2-c23e-7d73-bbc4-1a40d8438cf3\\exec-adca5c16-a0db-47de-8384-cb3d814f2111.png",
+      "generation_tool": "image_gen",
+      "first_frame": "V1은 정면을 보는 중립 표정으로 자기 접이 의자 양옆을 잡고 일어서기 직전. V2/V3는 앉은 채 정면을 본다. M은 뒤에서 천에 손짓. 무대 뒤나 이어지는 통로는 프레임에 없다.",
+      "next_motion": "V1이 일어나 의자를 접어 들고 화면 왼쪽 경계 밖으로 퇴장. 카메라는 남음.",
+      "artist_review": {
+        "status": "self_checked_pending_three_reviewer_cross_review",
+        "opened_actual_image": true,
+        "checks": [
+          "모자 위 접힌 천 제거 완료",
+          "V1 손·중립 시선·관객 수 유지",
+          "무대 뒤 동선 비공개"
+        ],
+        "notes": []
+      },
+      "revision": 2,
+      "width": 1672,
+      "height": 941,
+      "bytes": 2153638,
+      "sha256": "2128abbde375935cda114b8c19e51c5ec1290fbb2736b70f4eb7146c7476f54a",
+      "selected": true,
+      "artist_manifest": "image_manifest_artist1.json",
+      "artist_recorded_first_frame": "V1은 정면을 보는 중립 표정으로 자기 접이 의자 양옆을 잡고 일어서기 직전. V2/V3는 앉은 채 정면을 본다. M은 뒤에서 천에 손짓. 무대 뒤나 이어지는 통로는 프레임에 없다.",
+      "artist_recorded_next_motion": "V1이 일어나 의자를 접어 들고 화면 왼쪽 경계 밖으로 퇴장. 카메라는 남음.",
+      "final_storyboard_first_frame": "V1은 정면을 보는 중립 표정으로 자기 접이 의자 양옆을 잡고 일어서기 직전. V2/V3는 앉은 채 정면을 본다. M은 뒤에서 천에 손짓. 무대 뒤나 이어지는 통로는 프레임에 없다.",
+      "final_storyboard_next_motion": "V1이 일어나 의자를 접어 들고 화면 왼쪽 경계 밖으로 퇴장. 카메라는 남음.",
+      "final_review": {
+        "status": "accepted_after_independent_peer_cross_review",
+        "reviewers": [
+          "A",
+          "B",
+          "C"
+        ],
+        "scope": "still first frame",
+        "notes_file": "review_summary.json"
+      }
+    },
+    {
+      "concept_id": "C04",
+      "scene_id": "S02",
+      "cut_id": "K04",
+      "image_path": "images/C04/K04.png",
+      "prompt": "Create NEXT FIRST FRAME of same B-grade magic show, 16:9 single photoreal still. Ref1 latest cloth/hat state; Ref2 room axis. V1 orange woman and HER folding chair have ALREADY LEFT frame entirely; empty floor at left former seat, no empty spare chair. ONLY TWO viewers remain: V2 man sage hoodie/jeans at center foreground still on gray folding chair, hands gripping seat sides about to rise; V3 gray-bob woman plum cardigan/black trousers right similarly still seated with hands on seat edge, both neutral looking ahead. SAME magician at stage RIGHT preparing to sweep one arm toward SCREEN RIGHT away from audience leaving left. His face looking right, eyes open, hands not yet fully stretched. Center covered chair now under larger RED cloth down to floor, assistant completely concealed. Low black35cm accordion hat stage LEFT BARE TOP, no folded cloth. Gold curtain and cream wall hide all backstage route; left boundary no doorway. Frontal wide: two audience backs low foreground, magician right, NO orange spectator anywhere. Freeze BEFORE remaining people stand. Exactly magician, two visible spectators and hidden assistant. No text/logos.",
+      "reference_images": [
+        "\\\\wsl.localhost\\Ubuntu-24.04\\home\\wooseok\\wsy\\samsung_related\\slide\\AI실행결과발표대회_디자인3종\\storyboards\\2026-10-17_b-comedy-reboot-v3\\images\\C04\\K03_v2.png",
+        "\\\\wsl.localhost\\Ubuntu-24.04\\home\\wooseok\\wsy\\samsung_related\\slide\\AI실행결과발표대회_디자인3종\\storyboards\\2026-10-17_b-comedy-reboot-v3\\images\\C04\\K01_v2.png"
+      ],
+      "source_generated_path": "C:\\Users\\wseok\\.codex\\generated_images\\01a149a2-c23e-7d73-bbc4-1a40d8438cf3\\exec-300f6fc0-7983-4121-9015-e7a495049b39.png",
+      "generation_tool": "image_gen",
+      "first_frame": "V1 자리만 비었다. V2는 의자를 잡고 일어나기 직전, V3는 자기 의자 옆을 잡는다. M은 오른쪽을 향해 팔을 뻗을 준비. 두 관객의 시선은 중립이며 왼쪽 뒤 목적지는 보이지 않는다.",
+      "next_motion": "M의 큰 팔짓과 동시에 V2·V3가 한 박자 차로 각자 의자를 들고 프레임 밖으로 이동. M은 마지막에 눈을 감음.",
+      "artist_review": {
+        "status": "self_checked_pending_three_reviewer_cross_review",
+        "opened_actual_image": true,
+        "checks": [
+          "V1와 의자 퇴장·2명/2의자 유지",
+          "두 관객 의자 잡고 아직 앉은 상태",
+          "M 오른쪽 시선·모자 빈 상단·뒤 동선 숨김"
+        ],
+        "notes": [
+          "M 오른팔은 준비보다 조금 먼저 뻗기 시작한 상태. 관객 퇴장 전이며 핵심 동작 여지는 남음."
+        ]
+      },
+      "revision": 1,
+      "width": 1672,
+      "height": 941,
+      "bytes": 2108332,
+      "sha256": "f2c4297cf99b330f786f771111a8e58e0b00ef1cd1e3168d44c2d3bd537b3428",
+      "selected": true,
+      "artist_manifest": "image_manifest_artist1.json",
+      "artist_recorded_first_frame": "V1 자리만 비었다. V2는 의자를 잡고 일어나기 직전, V3는 자기 의자 옆을 잡는다. M은 오른쪽을 향해 팔을 뻗을 준비. 두 관객의 시선은 중립이며 왼쪽 뒤 목적지는 보이지 않는다.",
+      "artist_recorded_next_motion": "M의 큰 팔짓과 동시에 V2·V3가 한 박자 차로 각자 의자를 들고 프레임 밖으로 이동. M은 마지막에 눈을 감음.",
+      "final_storyboard_first_frame": "V1 자리만 비었다. V2는 의자를 잡고 일어나기 직전, V3는 자기 의자 옆을 잡는다. M은 오른쪽을 향해 팔을 뻗을 준비. 두 관객의 시선은 중립이며 왼쪽 뒤 목적지는 보이지 않는다.",
+      "final_storyboard_next_motion": "M의 큰 팔짓과 동시에 V2·V3가 한 박자 차로 각자 의자를 들고 프레임 밖으로 이동. M은 마지막에 눈을 감음.",
+      "final_review": {
+        "status": "accepted_after_independent_peer_cross_review",
+        "reviewers": [
+          "A",
+          "B",
+          "C"
+        ],
+        "scope": "still first frame",
+        "notes_file": "review_summary.json"
+      }
+    },
+    {
+      "concept_id": "C04",
+      "scene_id": "S02",
+      "cut_id": "K05",
+      "image_path": "images/C04/K05.png",
+      "prompt": "Generate next-shot FIRST FRAME, same small gold-curtain rehearsal room/magician,16:9 photoreal wide. ALL THREE audience members have LEFT with ALL THREE gray folding chairs. FOREGROUND is completely EMPTY wooden floor: no people/chairs, do not show where they went. Only visible person is same thin-moustache magician, center-right rear, in black tails/burgundy waistcoat. His EYES CLOSED in proud finale, torso still UPRIGHT just BEFORE bowing, two arms softly spread in presentation. He has not noticed empty audience yet. Behind him same wooden chair covered by large RED velvet touching floor, concealed assistant NOT visible. Low broad BLACK accordion hat stage left, bare top, correct35cm height. Frame strictly from old audience toward stage, gold curtain and cream wall entirely conceal backside, NO opening/corridor/backstage. Show empty foreground prominently for punchline. No text/logo, no extra props. Frozen before bow, not a deep bow or surprised aftermath.",
+      "reference_images": [
+        "\\\\wsl.localhost\\Ubuntu-24.04\\home\\wooseok\\wsy\\samsung_related\\slide\\AI실행결과발표대회_디자인3종\\storyboards\\2026-10-17_b-comedy-reboot-v3\\images\\C04\\K04.png"
+      ],
+      "source_generated_path": "C:\\Users\\wseok\\.codex\\generated_images\\01a149a2-c23e-7d73-bbc4-1a40d8438cf3\\exec-3c14d1c7-8a3c-48ac-b738-2fb57f8d40bf.png",
+      "generation_tool": "image_gen",
+      "first_frame": "M은 눈을 감고 허리를 굽히기 직전. 앞줄 전경에는 사람과 의자가 모두 없고, 무대 뒤는 보이지 않는다. 대형 모자는 왼쪽 원래 위치.",
+      "next_motion": "짧은 인사 → 눈뜨기 → 빈 바닥 한 번 확인.",
+      "artist_review": {
+        "status": "self_checked_pending_three_reviewer_cross_review",
+        "opened_actual_image": true,
+        "checks": [
+          "관객 및 관객의자0개·전경 빈 바닥",
+          "M 눈감고 인사 전 상체·양팔",
+          "덮개/낮은모자·무대뒤 비공개 유지"
+        ],
+        "notes": []
+      },
+      "revision": 1,
+      "width": 1672,
+      "height": 941,
+      "bytes": 2143253,
+      "sha256": "7ee4a6a70f5efeeb16c996b39ef150274ee62f5c400e431184fdaea3b296aa71",
+      "selected": true,
+      "artist_manifest": "image_manifest_artist1.json",
+      "artist_recorded_first_frame": "M은 눈을 감고 허리를 굽히기 직전. 앞줄 전경에는 사람과 의자가 모두 없고, 무대 뒤는 보이지 않는다. 대형 모자는 왼쪽 원래 위치.",
+      "artist_recorded_next_motion": "짧은 인사 → 눈뜨기 → 빈 바닥 한 번 확인.",
+      "final_storyboard_first_frame": "M은 눈을 감고 허리를 굽히기 직전. 앞줄 전경에는 사람과 의자가 모두 없고, 무대 뒤는 보이지 않는다. 대형 모자는 왼쪽 원래 위치.",
+      "final_storyboard_next_motion": "짧은 인사 → 눈뜨기 → 빈 바닥 한 번 확인.",
+      "final_review": {
+        "status": "accepted_after_independent_peer_cross_review",
+        "reviewers": [
+          "A",
+          "B",
+          "C"
+        ],
+        "scope": "still first frame",
+        "notes_file": "review_summary.json"
+      }
+    },
+    {
+      "concept_id": "C04",
+      "scene_id": "S03",
+      "cut_id": "K06",
+      "image_path": "images/C04/K06_v2.png",
+      "prompt": "Edit ONLY magician's head and eyes at far right. Turn his face clearly toward SCREEN LEFT and slightly DOWN, looking directly at the three seated VIEWERS' FACES on the left. His nose must point LEFT, not right. Expression: restrained proud performer just realizing the audience is watching someone else, attentively checking their faces; not amazed at mechanism. Preserve exact same face, moustache, hair, body/clothes/hand on waist. Keep all other people and their existing attention to the assistant hands, chair, wood lifting bar, red cloth, black hat, layout and lighting exactly unchanged. One16:9 photo, no new content or text. Critical only head yaw correction to left.",
+      "reference_images": [
+        "\\\\wsl.localhost\\Ubuntu-24.04\\home\\wooseok\\wsy\\samsung_related\\slide\\AI실행결과발표대회_디자인3종\\storyboards\\2026-10-17_b-comedy-reboot-v3\\images\\C04\\K06.png"
+      ],
+      "source_generated_path": "C:\\Users\\wseok\\.codex\\generated_images\\01a149a2-c23e-7d73-bbc4-1a40d8438cf3\\exec-7ad621e2-18e6-4dc5-a440-de5b980348f1.png",
+      "generation_tool": "image_gen",
+      "first_frame": "V1/V2/V3가 주황·세이지·자주색 순서로 자기 세 의자에 앉아 A의 손을 본다. A는 천이 벗겨진 나무 의자 뒤 손잡이를 아직 들기 전. M은 프레임 가장자리에서 관객들의 얼굴을 확인하고 있다. 대형 모자는 M 바로 옆 바닥.",
+      "next_motion": "A가 손잡이를 조금 들어 시연 → 세 관객 눈길이 손을 따라감 → M은 관객을 보며 모자를 집음.",
+      "artist_review": {
+        "status": "self_checked_pending_three_reviewer_cross_review",
+        "opened_actual_image": true,
+        "checks": [
+          "M 얼굴·코가 화면 왼쪽 관객 방향으로 수정",
+          "관객3명·A 손잡이·나무의자 및 소품 유지",
+          "의자 올리기 전 시작 상태"
+        ],
+        "notes": []
+      },
+      "revision": 2,
+      "width": 1672,
+      "height": 941,
+      "bytes": 1969064,
+      "sha256": "30ff182f7094ea56acb859d9079ca02702b319e8713cc2048e1f1a235e2a6f93",
+      "selected": true,
+      "artist_manifest": "image_manifest_artist1.json",
+      "artist_recorded_first_frame": "V1/V2/V3가 주황·세이지·자주색 순서로 자기 세 의자에 앉아 A의 손을 본다. A는 천이 벗겨진 나무 의자 뒤 손잡이를 아직 들기 전. M은 프레임 가장자리에서 관객들의 얼굴을 확인하고 있다. 대형 모자는 M 바로 옆 바닥.",
+      "artist_recorded_next_motion": "A가 손잡이를 조금 들어 시연 → 세 관객 눈길이 손을 따라감 → M은 관객을 보며 모자를 집음.",
+      "final_storyboard_first_frame": "V1/V2/V3가 주황·세이지·자주색 순서로 자기 세 의자에 앉아 A의 손을 본다. A는 천이 벗겨진 나무 의자 뒤 손잡이를 아직 들기 전. M은 프레임 가장자리에서 관객들의 얼굴을 확인하고 있다. 대형 모자는 M 바로 옆 바닥.",
+      "final_storyboard_next_motion": "A가 손잡이를 조금 들어 시연 → 세 관객 눈길이 손을 따라감 → M은 관객을 보며 모자를 집음.",
+      "final_review": {
+        "status": "accepted_after_independent_peer_cross_review",
+        "reviewers": [
+          "A",
+          "B",
+          "C"
+        ],
+        "scope": "still first frame",
+        "notes_file": "review_summary.json"
+      }
+    },
+    {
+      "concept_id": "C04",
+      "scene_id": "S03",
+      "cut_id": "K07",
+      "image_path": "images/C04/K07_v3.png",
+      "prompt": "Recompose this single photographic FIRST FRAME to fix the essential eye-line story, preserving the SAME five Korean adults, faces, wardrobe, chair/hat apparatus and cheap rehearsal-room materials. Widescreen16:9. No new people. IMPORTANT use TWO DEPTH LAYERS, not the old flat line:\nMIDGROUND across UPPER HALF: the three spectators on LEFT on their same THREE gray folding chairs (orange woman, sage man, gray-haired plum woman). They lean their torsos a little to their own left/back to see AROUND the foreground magician. Their heads and eyes point unequivocally along a clear OPEN band to blue-jumpsuit assistant's TWO HANDS and wooden lifting bar at RIGHT midground. The connected wooden chair remains at right with all legs on floor, assistant behind it. Viewers are fascinated by her hands, NONE making eye contact with magician.\nFOREGROUND LOWER HALF, distinctly nearer camera: move magician AND his one black accordion top hat about1.5 metres toward camera, to bottom center-right. He is well BELOW the spectators-to-hands visual band in the composition; his silhouette must NOT interrupt their sightline. Slightly higher camera looking down allows visible empty space between magician silhouette and the direct midground line of sight. Magician is crouching just BEFORE sitting on the UNCOMPRESSED35cm-high,45cm-diameter black hat; hips hover3cm above top, feet grounded, knees bent. The hat still upright and creased, NOT collapsed. He turns his head back/up LEFT toward spectators, polite eager smile trying to get their attention; spectators ignore him and look beyond/above him toward A hands. Show enough of his moustached face/profile, no camera eye contact.\nRed velvet stays on floor beside wooden chair in RIGHT MIDGROUND. Plain cream wall, wooden floor, narrow gold curtain at far right. Keep assistant hands gripping bolted wooden bar clearly unobstructed. All three viewer faces visible and looking at that hand/bar, not at the magician. No overlap of magician head/torso over the hand-to-eyes pathway. No extra seats or hats. This is spatial repositioning, not merely changing pupils. No text/logos/diagram arrows; believable live-action B-grade stage comedy. Preserve first moment before sitting or hat compression.",
+      "reference_images": [
+        "\\\\wsl.localhost\\Ubuntu-24.04\\home\\wooseok\\wsy\\samsung_related\\slide\\AI실행결과발표대회_디자인3종\\storyboards\\2026-10-17_b-comedy-reboot-v3\\images\\C04\\K07_v2.png"
+      ],
+      "source_generated_path": "C:\\Users\\wseok\\.codex\\generated_images\\01a149a2-c23e-7d73-bbc4-1a40d8438cf3\\exec-b0f76bb9-4e13-4cff-8355-1a63615e4661.png",
+      "generation_tool": "image_gen",
+      "first_frame": "M은 관객 앞이지만 카메라 쪽으로 비껴 놓은 높이35cm 모자 위에 앉기 직전. 모자는 아직 눌리지 않았다. M은 관객을 향해 얼굴을 돌린다. 관객들은 M을 지나 중후경 A의 손과 나무 손잡이를 보며 약간 몸을 기울인다. 손잡이까지 열린 시선 경로와 모자 주름이 한 화면에 보인다.",
+      "next_motion": "M이 앉음 → 원통만20cm 접혀 낮아짐 → M이 관객을 향해 목을 빼고 작게 인사. 관객 시선은 A 손에서 떨어지지 않음.",
+      "artist_review": {
+        "status": "self_checked_pending_three_reviewer_recheck",
+        "opened_actual_image": true,
+        "checks": [
+          "마술사와 모자를 카메라 쪽 전경으로 이동",
+          "관객3명/회색의자3개와 중후경 A 손잡이 사이 열린 공간 확보",
+          "M은 왼쪽 관객 방향, 관객은 중후경 A 방향으로 몸을 기울임",
+          "A 두 손과 목재 손잡이 연결부 노출",
+          "모자 압축 전 높이·M 무릎 굽힌 앉기 직전 자세",
+          "인물 총5명·추가 소품/글자 없음"
+        ],
+        "notes": [
+          "3인 교차 검수 후 PD 필수 수정: 기존 M 몸통이 관객→A 손 시선경로와 겹친 구도를 공간 분리로 수정.",
+          "최종 해결 여부는 세 검수자의 실제 이미지 재확인 대기."
+        ]
+      },
+      "revision": 3,
+      "width": 1672,
+      "height": 941,
+      "bytes": 2107983,
+      "sha256": "17290e5e24c08b2d7461adfa1065fc59a24088744890b760c46dcc3749ae6806",
+      "selected": true,
+      "artist_manifest": "image_manifest_artist1.json",
+      "artist_recorded_first_frame": "M은 관객 앞이지만 카메라 쪽으로 비껴 놓은 높이35cm 모자 위에 앉기 직전. 모자는 아직 눌리지 않았다. M은 관객을 향해 얼굴을 돌린다. 관객들은 M을 지나 중후경 A의 손과 나무 손잡이를 보며 약간 몸을 기울인다. 손잡이까지 열린 시선 경로와 모자 주름이 한 화면에 보인다.",
+      "artist_recorded_next_motion": "M이 앉음 → 원통만20cm 접혀 낮아짐 → M이 관객을 향해 목을 빼고 작게 인사. 관객 시선은 A 손에서 떨어지지 않음.",
+      "final_storyboard_first_frame": "M은 관객 앞이지만 카메라 쪽으로 비껴 놓은 높이35cm 모자 위에 앉기 직전. 모자는 아직 눌리지 않았다. M은 관객을 향해 얼굴을 돌린다. 관객들은 M을 지나 중후경 A의 손과 나무 손잡이를 보며 약간 몸을 기울인다. 손잡이까지 열린 시선 경로와 모자 주름이 한 화면에 보인다.",
+      "final_storyboard_next_motion": "M이 앉음 → 원통만20cm 접혀 낮아짐 → M이 관객을 향해 목을 빼고 작게 인사. 관객 시선은 A 손에서 떨어지지 않음.",
+      "final_review": {
+        "status": "accepted_after_independent_peer_cross_review",
+        "reviewers": [
+          "A",
+          "B",
+          "C"
+        ],
+        "scope": "still first frame",
+        "notes_file": "review_summary.json"
+      }
+    },
+    {
+      "concept_id": "C04",
+      "scene_id": "S04",
+      "cut_id": "K08",
+      "image_path": "images/C04/K08.png",
+      "prompt": "Generate a NEW separate title BACKGROUND PLATE from this same cheap magic-show rehearsal room, 16:9 photographic still, NO PEOPLE AT ALL. Quiet low wide composition. Only three recognizable prop fragments grouped entirely in LEFT35%: same black accordion top hat now COMPRESSED to a low15cm-tall squat cylinder with tightly folded felt/paper creases; same rumpled RED velvet cloth; the end of same brown wooden lifting bar entering from extreme left. No whole chair or new objects. Light wooden floor and warm plain cream wall from room. RIGHT60% is completely clean uninterrupted LIGHT CREAM wall, softly evenly lit, abundant empty space for later event title; no curtain fold, no text, no marks or picture frames on right. Sliver of cheap gold curtain may be extreme left only. Hat brim/black folded rings recognizable, not broken or shredded. No writing/title/logo/date, no typography. This is independently generated ending first-frame background, NOT finished event title.",
+      "reference_images": [
+        "\\\\wsl.localhost\\Ubuntu-24.04\\home\\wooseok\\wsy\\samsung_related\\slide\\AI실행결과발표대회_디자인3종\\storyboards\\2026-10-17_b-comedy-reboot-v3\\images\\C04\\K07.png"
+      ],
+      "source_generated_path": "C:\\Users\\wseok\\.codex\\generated_images\\01a149a2-c23e-7d73-bbc4-1a40d8438cf3\\exec-9cedf06f-1ecc-4063-8f7c-9cc3ef05b5dd.png",
+      "generation_tool": "image_gen",
+      "first_frame": "새 연습실 배경 플레이트. 왼쪽 바닥에 K07처럼 접힌 대형 모자와 나무 손잡이의 끝, 붉은 천. 오른쪽은 아무 글 없는 크림 벽. 후편집 별도 조판: 오른쪽 58%의 무늬 없는 밝은 영역에 작은 1행 '2026년 품질팀', 큰 2행 'AI 실행 결과', 큰 3행 '발표 대회'. 전체 제목을 처음부터 끝까지 6초 유지. 제목 아래 연결 문구 1행. 이미지에는 제목·자막·로고·날짜를 그리지 않는다.",
+      "next_motion": "후편집 타이틀6초 고정. 소품은 움직이지 않음.",
+      "artist_review": {
+        "status": "self_checked_pending_three_reviewer_cross_review",
+        "opened_actual_image": true,
+        "checks": [
+          "왼쪽 접힌 모자·붉은천·손잡이 끝",
+          "오른쪽 넓은 크림 조판 여백",
+          "사람·글자·로고 없는 엔딩 배경판"
+        ],
+        "notes": [
+          "행사명은 미합성 배경판; 정확한 후편집 문구와 6초 유지 지시는 storyboards.json을 따름"
+        ]
+      },
+      "revision": 1,
+      "width": 1672,
+      "height": 941,
+      "bytes": 1623862,
+      "sha256": "4303ca0b84c7c2fbed6752b13b33a86702df26efd4760517301f2b065d82b319",
+      "selected": true,
+      "artist_manifest": "image_manifest_artist1.json",
+      "artist_recorded_first_frame": "새 연습실 배경 플레이트. 왼쪽 바닥에 K07처럼 접힌 대형 모자와 나무 손잡이의 끝, 붉은 천. 오른쪽은 아무 글 없는 크림 벽. 후편집 별도 조판: 오른쪽 58%의 무늬 없는 밝은 영역에 작은 1행 '2026년 품질팀', 큰 2행 'AI 실행 결과', 큰 3행 '발표 대회'. 전체 제목을 처음부터 끝까지 6초 유지. 제목 아래 연결 문구 1행. 이미지에는 제목·자막·로고·날짜를 그리지 않는다.",
+      "artist_recorded_next_motion": "후편집 타이틀6초 고정. 소품은 움직이지 않음.",
+      "final_storyboard_first_frame": "새 연습실 배경 플레이트. 왼쪽 바닥에 K07처럼 접힌 대형 모자와 나무 손잡이의 끝, 붉은 천. 오른쪽은 아무 글 없는 크림 벽. 후편집 별도 조판: 오른쪽 58%의 무늬 없는 밝은 영역에 작은 1행 '2026년 품질팀', 큰 2행 'AI 실행 결과', 큰 3행 '발표 대회'. 전체 제목을 처음부터 끝까지 6초 유지. 제목 아래 연결 문구 1행. 이미지에는 제목·자막·로고·날짜를 그리지 않는다.",
+      "final_storyboard_next_motion": "후편집 타이틀6초 고정. 소품은 움직이지 않음.",
+      "final_review": {
+        "status": "accepted_after_independent_peer_cross_review",
+        "reviewers": [
+          "A",
+          "B",
+          "C"
+        ],
+        "scope": "still first frame",
+        "notes_file": "review_summary.json"
+      }
+    },
+    {
+      "concept_id": "C05",
+      "scene_id": "S01",
+      "cut_id": "K01",
+      "image_path": "images/C05/K01_v3.png",
+      "prompt": "Precise local continuity edit. IMAGE 1 is the target: preserve entire image exactly, including two people faces/hair/clothes/side-facing seated poses, hands, chair angles, separated white hooks, bags, floor, camera and light. Edit ONLY the small blurry rectangular paper pinned on the BACKGROUND cork board. Replace the old blurry green/white content on that paper with the same design seen on the bulletin board in IMAGE 2: solid mint paper, a large magenta ring in upper half and a black staircase silhouette in lower half. Crucial: keep target paper's original small dimensions, its far-background position and STRONG optical defocus. The magenta ring should be a soft blurred magenta oval/ring blob and lower black stairs a soft dark mass, not crisp illustration. It is background continuity, NOT a foreground reveal; no readable text, no enlargement, no refocus of board. Do not put flyers in hands. Don't alter anything outside the old poster rectangle. Keep full-bleed 16:9 photographic output.",
+      "reference_images": [
+        "\\\\wsl.localhost\\Ubuntu-24.04\\home\\wooseok\\wsy\\samsung_related\\slide\\AI실행결과발표대회_디자인3종\\storyboards\\2026-10-17_b-comedy-reboot-v3\\images\\C05\\K01_v2.png",
+        "\\\\wsl.localhost\\Ubuntu-24.04\\home\\wooseok\\wsy\\samsung_related\\slide\\AI실행결과발표대회_디자인3종\\storyboards\\2026-10-17_b-comedy-reboot-v3\\images\\C05\\K06.png"
+      ],
+      "source_generated_path": "C:\\Users\\wseok\\.codex\\generated_images\\01a149a2-d9c9-70e2-b538-eb2497e8c4e8\\exec-bff137c8-8091-4649-8326-a9425329e233.png",
+      "generation_tool": "image_gen",
+      "first_frame": "A는 왼쪽 바깥, B는 오른쪽 바깥을 보고 앉아 있다. 각자 안쪽 손으로 자기 가방의 큰 손잡이를 잡고 중앙으로 밀기 직전. 두 S자 고리는 서로 5cm 떨어져 아직 걸리지 않았음. 두 사람 발은 바닥.",
+      "next_motion": "두 가방 중앙 이동 → 큰 고리가 맞물림 → 두 사람이 손잡이를 당기다 멈춤. 카메라 고정.",
+      "artist_review": {
+        "status": "revision_self_review_pass_pending_recheck",
+        "viewed": true,
+        "notes": "3인교차후 PD 필수수정: 벽 도안을 민트/자홍링/검정계단으로 일치. 기존 크기와 아웃포커스 유지. 인물·가방·의자·미연결 고리 보존 확인."
+      },
+      "revision": 3,
+      "actual_dimensions": {
+        "width": 1672,
+        "height": 941
+      },
+      "selected": true,
+      "artist_manifest": "image_manifest_artist2.json",
+      "artist_recorded_first_frame": "A는 왼쪽 바깥, B는 오른쪽 바깥을 보고 앉아 있다. 각자 안쪽 손으로 자기 가방의 큰 손잡이를 잡고 중앙으로 밀기 직전. 두 S자 고리는 서로 5cm 떨어져 아직 걸리지 않았음. 두 사람 발은 바닥.",
+      "artist_recorded_next_motion": "두 가방 중앙 이동 → 큰 고리가 맞물림 → 두 사람이 손잡이를 당기다 멈춤. 카메라 고정.",
+      "final_storyboard_first_frame": "A는 왼쪽 바깥, B는 오른쪽 바깥을 보고 앉아 있다. 각자 안쪽 손으로 자기 가방의 큰 손잡이를 잡고 중앙으로 밀기 직전. 두 S자 고리는 서로 5cm 떨어져 아직 걸리지 않았음. 두 사람 발은 바닥.",
+      "final_storyboard_next_motion": "두 가방 중앙 이동 → 큰 고리가 맞물림 → 두 사람이 손잡이를 당기다 멈춤. 카메라 고정.",
+      "final_review": {
+        "status": "accepted_after_independent_peer_cross_review",
+        "reviewers": [
+          "A",
+          "B",
+          "C"
+        ],
+        "scope": "still first frame",
+        "notes_file": "review_summary.json"
+      }
+    },
+    {
+      "concept_id": "C05",
+      "scene_id": "S01",
+      "cut_id": "K02",
+      "image_path": "images/C05/K02_v2.png",
+      "prompt": "Precise local continuity edit. IMAGE 1 is the edit TARGET. Keep all people, faces, clothing, exact existing body and hand positions, chairs, bags, white plastic linked hooks, lighting, framing, floor and furniture UNCHANGED. ONLY replace content of the SINGLE small paper on the BACKGROUND CORK BOARD. Use IMAGE 2 only as poster graphic reference: solid mint rectangle, MAGENTA RING in upper half, BLACK STAIRCASE silhouette in lower half, no letters/numbers. Preserve target's original poster dimensions and distant location. It must stay strongly OUT OF FOCUS at exactly original background depth: blurred magenta ring/blob and soft dark staircase mass, not a crisp graphic reveal, no refocusing or enlarging the board. Everything outside that existing poster rectangle should remain unchanged. Do not put flyers in hands or change actor motion state. 16:9 full-bleed photoreal output.",
+      "reference_images": [
+        "\\\\wsl.localhost\\Ubuntu-24.04\\home\\wooseok\\wsy\\samsung_related\\slide\\AI실행결과발표대회_디자인3종\\storyboards\\2026-10-17_b-comedy-reboot-v3\\images\\C05\\K02.png",
+        "\\\\wsl.localhost\\Ubuntu-24.04\\home\\wooseok\\wsy\\samsung_related\\slide\\AI실행결과발표대회_디자인3종\\storyboards\\2026-10-17_b-comedy-reboot-v3\\images\\C05\\K06.png"
+      ],
+      "source_generated_path": "C:\\Users\\wseok\\.codex\\generated_images\\01a149a2-d9c9-70e2-b538-eb2497e8c4e8\\exec-5eb6ed3f-3f23-467d-a39a-e780137c113b.png",
+      "generation_tool": "image_gen",
+      "first_frame": "K01처럼 두 가방이 연결된 상태. A·B는 몸이 바깥을 향하고 안쪽 손으로 각자 손잡이를 잡음. 각자 한 발을 바닥에 힘줄 자세로 놓았고 의자는 아직 돌지 않았다.",
+      "next_motion": "각자 발로 자기 의자를 안쪽으로 회전 → 두 얼굴 정면 노출 → 서로를 보고 고개만 반대로 돌림. 가방이 의자를 자동으로 끌지 않음.",
+      "artist_review": {
+        "status": "revision_self_review_pass_pending_recheck",
+        "viewed": true,
+        "notes": "3인교차후 PD 필수수정: 작은 원거리 벽 게시물의 큰색/형태를 K06 도안과 일치. 아웃포커스 유지. 인물·손·가방·연결고리·의자 상태 보존 확인."
+      },
+      "revision": 2,
+      "actual_dimensions": {
+        "width": 1672,
+        "height": 941
+      },
+      "selected": true,
+      "artist_manifest": "image_manifest_artist2.json",
+      "artist_recorded_first_frame": "K01처럼 두 가방이 연결된 상태. A·B는 몸이 바깥을 향하고 안쪽 손으로 각자 손잡이를 잡음. 각자 한 발을 바닥에 힘줄 자세로 놓았고 의자는 아직 돌지 않았다.",
+      "artist_recorded_next_motion": "각자 발로 자기 의자를 안쪽으로 회전 → 두 얼굴 정면 노출 → 서로를 보고 고개만 반대로 돌림. 가방이 의자를 자동으로 끌지 않음.",
+      "final_storyboard_first_frame": "K01처럼 두 가방이 연결된 상태. A·B는 몸이 바깥을 향하고 안쪽 손으로 각자 손잡이를 잡음. 각자 한 발을 바닥에 힘줄 자세로 놓았고 의자는 아직 돌지 않았다.",
+      "final_storyboard_next_motion": "각자 발로 자기 의자를 안쪽으로 회전 → 두 얼굴 정면 노출 → 서로를 보고 고개만 반대로 돌림. 가방이 의자를 자동으로 끌지 않음.",
+      "final_review": {
+        "status": "accepted_after_independent_peer_cross_review",
+        "reviewers": [
+          "A",
+          "B",
+          "C"
+        ],
+        "scope": "still first frame",
+        "notes_file": "review_summary.json"
+      }
+    },
+    {
+      "concept_id": "C05",
+      "scene_id": "S02",
+      "cut_id": "K03",
+      "image_path": "images/C05/K03_v2.png",
+      "prompt": "Precise local continuity edit. IMAGE 1 is the edit TARGET. Keep all people, faces, clothing, exact existing body and hand positions, chairs, bags, white plastic linked hooks, lighting, framing, floor and furniture UNCHANGED. ONLY replace content of the SINGLE small paper on the BACKGROUND CORK BOARD. Use IMAGE 2 only as poster graphic reference: solid mint rectangle, MAGENTA RING in upper half, BLACK STAIRCASE silhouette in lower half, no letters/numbers. Preserve target's original poster dimensions and distant location. It must stay strongly OUT OF FOCUS at exactly original background depth: blurred magenta ring/blob and soft dark staircase mass, not a crisp graphic reveal, no refocusing or enlarging the board. Everything outside that existing poster rectangle should remain unchanged. Do not put flyers in hands or change actor motion state. 16:9 full-bleed photoreal output.",
+      "reference_images": [
+        "\\\\wsl.localhost\\Ubuntu-24.04\\home\\wooseok\\wsy\\samsung_related\\slide\\AI실행결과발표대회_디자인3종\\storyboards\\2026-10-17_b-comedy-reboot-v3\\images\\C05\\K03.png",
+        "\\\\wsl.localhost\\Ubuntu-24.04\\home\\wooseok\\wsy\\samsung_related\\slide\\AI실행결과발표대회_디자인3종\\storyboards\\2026-10-17_b-comedy-reboot-v3\\images\\C05\\K06.png"
+      ],
+      "source_generated_path": "C:\\Users\\wseok\\.codex\\generated_images\\01a149a2-d9c9-70e2-b538-eb2497e8c4e8\\exec-60e885c0-0a02-4cf7-841e-fa22b6e6cf95.png",
+      "generation_tool": "image_gen",
+      "first_frame": "두 사람이 의자에서 일어난 직후. 연결된 가방은 중앙 바닥, A·B는 각자 자기 손잡이를 이미 잡고 있다. 테이블은 한 걸음 뒤. 의자는 전경에 남아 있음.",
+      "next_motion": "두 사람이 연결된 가방을 함께 들어 바로 뒤 테이블에 올림. 2초 한 동작.",
+      "artist_review": {
+        "status": "revision_self_review_pass_pending_recheck",
+        "viewed": true,
+        "notes": "3인교차후 PD 필수수정: 작은 원거리 벽 게시물의 큰색/형태를 K06 도안과 일치. 아웃포커스 유지. 인물·손·가방·연결고리·의자 상태 보존 확인."
+      },
+      "revision": 2,
+      "actual_dimensions": {
+        "width": 1672,
+        "height": 941
+      },
+      "selected": true,
+      "artist_manifest": "image_manifest_artist2.json",
+      "artist_recorded_first_frame": "두 사람이 의자에서 일어난 직후. 연결된 가방은 중앙 바닥, A·B는 각자 자기 손잡이를 이미 잡고 있다. 테이블은 한 걸음 뒤. 의자는 전경에 남아 있음.",
+      "artist_recorded_next_motion": "두 사람이 연결된 가방을 함께 들어 바로 뒤 테이블에 올림. 2초 한 동작.",
+      "final_storyboard_first_frame": "두 사람이 의자에서 일어난 직후. 연결된 가방은 중앙 바닥, A·B는 각자 자기 손잡이를 이미 잡고 있다. 테이블은 한 걸음 뒤. 의자는 전경에 남아 있음.",
+      "final_storyboard_next_motion": "두 사람이 연결된 가방을 함께 들어 바로 뒤 테이블에 올림. 2초 한 동작.",
+      "final_review": {
+        "status": "accepted_after_independent_peer_cross_review",
+        "reviewers": [
+          "A",
+          "B",
+          "C"
+        ],
+        "scope": "still first frame",
+        "notes_file": "review_summary.json"
+      }
+    },
+    {
+      "concept_id": "C05",
+      "scene_id": "S02",
+      "cut_id": "K04",
+      "image_path": "images/C05/K04_v2.png",
+      "prompt": "Precise local continuity correction. IMAGE 1 is target. Preserve its entire foreground EXACTLY: actors faces, stern expressions, sunglasses, hair, hands and their exact bag/envelope poses, clothing, bag open/closed state, two white linked plastic hooks, table, camera and lighting. Change ONLY the small old rectangular POSTER on BACKGROUND CORK BOARD. Replace its content with same design as the board in IMAGE 2: MINT solid paper, MAGENTA RING in upper half, BLACK STAIRCASE silhouette in lower half, absolutely no letters/numbers. Keep old target poster's original small size, perspective and location, far behind actors. Render with STRONG optical defocus like existing background, enough that magenta and black are blurred masses, not crisp edges or an early clear reveal. Do not enlarge the poster or increase depth of field. Nothing outside original poster rectangle should change. Do not add fully exposed flyers in hands, and do not alter the exact source envelope and bag state. Full-bleed 16:9 photographic image.",
+      "reference_images": [
+        "\\\\wsl.localhost\\Ubuntu-24.04\\home\\wooseok\\wsy\\samsung_related\\slide\\AI실행결과발표대회_디자인3종\\storyboards\\2026-10-17_b-comedy-reboot-v3\\images\\C05\\K04.png",
+        "\\\\wsl.localhost\\Ubuntu-24.04\\home\\wooseok\\wsy\\samsung_related\\slide\\AI실행결과발표대회_디자인3종\\storyboards\\2026-10-17_b-comedy-reboot-v3\\images\\C05\\K06.png"
+      ],
+      "source_generated_path": "C:\\Users\\wseok\\.codex\\generated_images\\01a149a2-d9c9-70e2-b538-eb2497e8c4e8\\exec-7d39f492-7c55-492a-8520-ab0f87412719.png",
+      "generation_tool": "image_gen",
+      "first_frame": "두 가방은 테이블 위에서 아직 닫혀 있다. A·B가 각자 자기 가방 뚜껑의 잠금에 손을 댄다. 고리는 중앙에서 연결되어 있음.",
+      "next_motion": "가방 열기와 봉투 꺼내기를 이어 한 번에 처리.",
+      "artist_review": {
+        "status": "revision_self_review_pass_pending_recheck",
+        "viewed": true,
+        "notes": "3인교차후 PD 필수수정: 벽 작은게시물만 민트/자홍링/검정계단. 배경강한아웃포커스 유지. 얼굴·손·가방개폐/봉투·연결고리 상태 시각 보존 확인."
+      },
+      "revision": 2,
+      "actual_dimensions": {
+        "width": 1672,
+        "height": 941
+      },
+      "selected": true,
+      "artist_manifest": "image_manifest_artist2.json",
+      "artist_recorded_first_frame": "두 가방은 테이블 위에서 아직 닫혀 있다. A·B가 각자 자기 가방 뚜껑의 잠금에 손을 댄다. 고리는 중앙에서 연결되어 있음.",
+      "artist_recorded_next_motion": "가방 열기와 봉투 꺼내기를 이어 한 번에 처리.",
+      "final_storyboard_first_frame": "두 가방은 테이블 위에서 아직 닫혀 있다. A·B가 각자 자기 가방 뚜껑의 잠금에 손을 댄다. 고리는 중앙에서 연결되어 있음.",
+      "final_storyboard_next_motion": "가방 열기와 봉투 꺼내기를 이어 한 번에 처리.",
+      "final_review": {
+        "status": "accepted_after_independent_peer_cross_review",
+        "reviewers": [
+          "A",
+          "B",
+          "C"
+        ],
+        "scope": "still first frame",
+        "notes_file": "review_summary.json"
+      }
+    },
+    {
+      "concept_id": "C05",
+      "scene_id": "S02",
+      "cut_id": "K05",
+      "image_path": "images/C05/K05_v2.png",
+      "prompt": "Precise local continuity correction. IMAGE 1 is target. Preserve its entire foreground EXACTLY: actors faces, stern expressions, sunglasses, hair, hands and their exact bag/envelope poses, clothing, bag open/closed state, two white linked plastic hooks, table, camera and lighting. Change ONLY the small old rectangular POSTER on BACKGROUND CORK BOARD. Replace its content with same design as the board in IMAGE 2: MINT solid paper, MAGENTA RING in upper half, BLACK STAIRCASE silhouette in lower half, absolutely no letters/numbers. Keep old target poster's original small size, perspective and location, far behind actors. Render with STRONG optical defocus like existing background, enough that magenta and black are blurred masses, not crisp edges or an early clear reveal. Do not enlarge the poster or increase depth of field. Nothing outside original poster rectangle should change. Do not add fully exposed flyers in hands, and do not alter the exact source envelope and bag state. Full-bleed 16:9 photographic image.",
+      "reference_images": [
+        "\\\\wsl.localhost\\Ubuntu-24.04\\home\\wooseok\\wsy\\samsung_related\\slide\\AI실행결과발표대회_디자인3종\\storyboards\\2026-10-17_b-comedy-reboot-v3\\images\\C05\\K05.png",
+        "\\\\wsl.localhost\\Ubuntu-24.04\\home\\wooseok\\wsy\\samsung_related\\slide\\AI실행결과발표대회_디자인3종\\storyboards\\2026-10-17_b-comedy-reboot-v3\\images\\C05\\K06.png"
+      ],
+      "source_generated_path": "C:\\Users\\wseok\\.codex\\generated_images\\01a149a2-d9c9-70e2-b538-eb2497e8c4e8\\exec-2e51a687-33ba-41d2-b622-e1a25a1f3a9a.png",
+      "generation_tool": "image_gen",
+      "first_frame": "A·B는 각자 크림색 봉투 입구에 손을 넣고 안내장을 꺼내기 직전. 안쪽에 민트색 모서리만 보이고 동일 그래픽은 아직 공개되지 않음. 열린 가방 아래.",
+      "next_motion": "동시에 펼침 → 같은 그래픽 확인하며 대사 → 시선이 뒤쪽으로 움직이기 시작.",
+      "artist_review": {
+        "status": "revision_self_review_pass_pending_recheck",
+        "viewed": true,
+        "notes": "3인교차후 PD 필수수정: 벽 작은게시물만 민트/자홍링/검정계단. 배경강한아웃포커스 유지. 얼굴·손·가방개폐/봉투·연결고리 상태 시각 보존 확인."
+      },
+      "revision": 2,
+      "actual_dimensions": {
+        "width": 1672,
+        "height": 941
+      },
+      "selected": true,
+      "artist_manifest": "image_manifest_artist2.json",
+      "artist_recorded_first_frame": "A·B는 각자 크림색 봉투 입구에 손을 넣고 안내장을 꺼내기 직전. 안쪽에 민트색 모서리만 보이고 동일 그래픽은 아직 공개되지 않음. 열린 가방 아래.",
+      "artist_recorded_next_motion": "동시에 펼침 → 같은 그래픽 확인하며 대사 → 시선이 뒤쪽으로 움직이기 시작.",
+      "final_storyboard_first_frame": "A·B는 각자 크림색 봉투 입구에 손을 넣고 안내장을 꺼내기 직전. 안쪽에 민트색 모서리만 보이고 동일 그래픽은 아직 공개되지 않음. 열린 가방 아래.",
+      "final_storyboard_next_motion": "동시에 펼침 → 같은 그래픽 확인하며 대사 → 시선이 뒤쪽으로 움직이기 시작.",
+      "final_review": {
+        "status": "accepted_after_independent_peer_cross_review",
+        "reviewers": [
+          "A",
+          "B",
+          "C"
+        ],
+        "scope": "still first frame",
+        "notes_file": "review_summary.json"
+      }
+    },
+    {
+      "concept_id": "C05",
+      "scene_id": "S03",
+      "cut_id": "K06",
+      "image_path": "images/C05/K06.png",
+      "prompt": "Use case: ads-marketing. Create distinct next FIRST FRAME, same exact two Korean spies, clothes, face identity, sunglasses, bags, white linked plastic hooks, break room as reference. 16:9 full-bleed wide frontal, pull back enough to see behind their heads to CORK BOARD. Both stand behind table, A beige coat on LEFT, B navy jacket RIGHT. Two soft cases still OPEN on table, black left/brown right, hooks still linked at center. Cream envelopes now placed INSIDE their own open bags. Each actor holds ONE fully unfolded portrait-format MINT flyer in their OUTER hand at lower chest: A in her RIGHT hand at screen-left, B in his LEFT hand at screen-right. Flyers angled visibly toward camera. Both heads still facing forward/down toward the flyer, just BEFORE they turn backward toward the bulletin board. Inner hands free low near table. On BOTH flyers exactly same simple bold abstract graphic: mint solid background, one LARGE MAGENTA RING in upper half, a BLACK THREE-STEP STAIRCASE silhouette in lower half. NO letters or numbers. On cork board centered BEHIND them is exactly ONE poster of identical mint/magenta-ring/black-three-stair graphic, same orientation, now clearly in focus. The three graphics must match visibly without text. Board poster not hidden by heads. Quiet dawning awkwardness rather than smiles. Only two actors, no new observer or signage. No duplicate pages. This moment reveals same graphic to viewer but actors have not looked behind yet.",
+      "reference_images": [
+        "\\\\wsl.localhost\\Ubuntu-24.04\\home\\wooseok\\wsy\\samsung_related\\slide\\AI실행결과발표대회_디자인3종\\storyboards\\2026-10-17_b-comedy-reboot-v3\\images\\C05\\K05.png"
+      ],
+      "source_generated_path": "C:\\Users\\wseok\\.codex\\generated_images\\01a149a2-d9c9-70e2-b538-eb2497e8c4e8\\exec-a51c4b8a-d5ef-4db5-8f45-7a1a54da783b.png",
+      "generation_tool": "image_gen",
+      "first_frame": "A·B는 각자 바깥손에 안내장을 든 채 게시판 쪽으로 고개를 돌리기 직전. 게시판 안내장은 처음으로 또렷하게 보이며 손의 그래픽과 같다. 두 가방은 테이블에서 열려 있고 연결 고리는 중앙.",
+      "next_motion": "게시판 발견 → A가 손 안내장을 조금 올려 같은 방향으로 확인 → B 짧은 대사.",
+      "artist_review": {
+        "status": "self_review_pass_pending_independent_review",
+        "viewed": true,
+        "notes": "손 안내장2+게시판1의 민트/자홍고리/계단그래픽 매칭. 두 요원은 아직 안내장을 보며 게시판 발견 전. 열린가방·안쪽봉투·고리 유지. PD정정된 바깥 안내장손(A오른손/B왼손) 적용."
+      },
+      "revision": 1,
+      "actual_dimensions": {
+        "width": 1672,
+        "height": 941
+      },
+      "selected": true,
+      "artist_manifest": "image_manifest_artist2.json",
+      "artist_recorded_first_frame": "A·B는 각자 바깥손에 안내장을 든 채 게시판 쪽으로 고개를 돌리기 직전. 게시판 안내장은 처음으로 또렷하게 보이며 손의 그래픽과 같다. 두 가방은 테이블에서 열려 있고 연결 고리는 중앙.",
+      "artist_recorded_next_motion": "게시판 발견 → A가 손 안내장을 조금 올려 같은 방향으로 확인 → B 짧은 대사.",
+      "final_storyboard_first_frame": "A·B는 각자 바깥손에 안내장을 든 채 게시판 쪽으로 고개를 돌리기 직전. 게시판 안내장은 처음으로 또렷하게 보이며 손의 그래픽과 같다. 두 가방은 테이블에서 열려 있고 연결 고리는 중앙.",
+      "final_storyboard_next_motion": "게시판 발견 → A가 손 안내장을 조금 올려 같은 방향으로 확인 → B 짧은 대사.",
+      "final_review": {
+        "status": "accepted_after_independent_peer_cross_review",
+        "reviewers": [
+          "A",
+          "B",
+          "C"
+        ],
+        "scope": "still first frame",
+        "notes_file": "review_summary.json"
+      }
+    },
+    {
+      "concept_id": "C05",
+      "scene_id": "S03",
+      "cut_id": "K07",
+      "image_path": "images/C05/K07.png",
+      "prompt": "Use case: ads-marketing. New single FIRST FRAME of same absurd Korean spy break-room comedy, exact two actors, clothing, bags, linked white hooks, mint graphic flyers as reference. Full-bleed 16:9 full-body wide frontal. After a short editorial omission they have closed bags and walked to FRONT of table. A beige-trench woman stands SCREEN LEFT, B navy-jacket man SCREEN RIGHT, facing front side by side, BOTH feet planted, BEFORE stepping in opposite directions. INNER arms hang low: A's LEFT hand holds BLACK closed briefcase, B's RIGHT hand holds DARK BROWN closed briefcase. Bags almost touching at knee level in center, TWO WHITE open plastic S-hooks still visibly INTERLOCKED between handles, attached with same tape. OUTER arms hang down: A's RIGHT hand holds her mint flyer low beside LEFT EDGE of her outer thigh, B's LEFT hand holds his flyer low beside RIGHT EDGE of his outer thigh. Papers NOT at chest yet. Same graphic on each flyer: magenta ring above black stair silhouette on mint. Board behind centered with same one poster. Table behind their bodies, empty swivel chairs near side edges, no extra actors. Both serious, trying to leave inconspicuously. Show full shoes, hands, bags, papers, linked hooks without occlusion. No early promotional pose, no paper held in inner hand, no unconnected hooks, no duplicated hands, no text, no logos.",
+      "reference_images": [
+        "\\\\wsl.localhost\\Ubuntu-24.04\\home\\wooseok\\wsy\\samsung_related\\slide\\AI실행결과발표대회_디자인3종\\storyboards\\2026-10-17_b-comedy-reboot-v3\\images\\C05\\K06.png",
+        "\\\\wsl.localhost\\Ubuntu-24.04\\home\\wooseok\\wsy\\samsung_related\\slide\\AI실행결과발표대회_디자인3종\\storyboards\\2026-10-17_b-comedy-reboot-v3\\images\\C05\\K03.png"
+      ],
+      "source_generated_path": "C:\\Users\\wseok\\.codex\\generated_images\\01a149a2-d9c9-70e2-b538-eb2497e8c4e8\\exec-1b621736-644e-4a27-b518-1c2321545bd5.png",
+      "generation_tool": "image_gen",
+      "first_frame": "짧은 생략 뒤 A·B가 테이블 앞에서 정면으로 나란히 서 있다. 두 가방은 닫혀 있고 배우 A의 왼손·B의 오른손에 낮게 들려 중앙 S고리가 계속 연결된다. 배우 A오른손·B왼손의 안내장은 바깥 허벅지 옆. 아직 서로 반대편으로 발을 떼지 않았다.",
+      "next_motion": "각자 바깥쪽으로 한 걸음 시도 → 짧은 당김에 스스로 정지 → 정면 노출을 알아차림 → 바깥손 안내장을 가슴으로 들어 A가 '오세요'. 사람을 당겨 되돌리거나 자동 회전시키지 않음.",
+      "artist_review": {
+        "status": "self_review_pass_pending_independent_review",
+        "viewed": true,
+        "notes": "정면 두 인물·양발 바닥·안쪽 닫힌 가방/바깥 낮은 안내장·중앙 연결 고리 확인. 안내장 아직 올리기 전. PD좌우정정 적용."
+      },
+      "revision": 1,
+      "actual_dimensions": {
+        "width": 1672,
+        "height": 941
+      },
+      "selected": true,
+      "artist_manifest": "image_manifest_artist2.json",
+      "artist_recorded_first_frame": "짧은 생략 뒤 A·B가 테이블 앞에서 정면으로 나란히 서 있다. 두 가방은 닫혀 있고 A의 오른손·B의 왼손에 낮게 들려 중앙 S고리가 계속 연결된다. A왼손·B오른손의 안내장은 바깥 허벅지 옆. 아직 서로 반대편으로 발을 떼지 않았다.",
+      "artist_recorded_next_motion": "각자 바깥쪽으로 한 걸음 시도 → 짧은 당김에 스스로 정지 → 정면 노출을 알아차림 → 바깥손 안내장을 가슴으로 들어 A가 '오세요'. 사람을 당겨 되돌리거나 자동 회전시키지 않음.",
+      "final_storyboard_first_frame": "짧은 생략 뒤 A·B가 테이블 앞에서 정면으로 나란히 서 있다. 두 가방은 닫혀 있고 배우 A의 왼손·B의 오른손에 낮게 들려 중앙 S고리가 계속 연결된다. 배우 A오른손·B왼손의 안내장은 바깥 허벅지 옆. 아직 서로 반대편으로 발을 떼지 않았다.",
+      "final_storyboard_next_motion": "각자 바깥쪽으로 한 걸음 시도 → 짧은 당김에 스스로 정지 → 정면 노출을 알아차림 → 바깥손 안내장을 가슴으로 들어 A가 '오세요'. 사람을 당겨 되돌리거나 자동 회전시키지 않음.",
+      "final_review": {
+        "status": "accepted_after_independent_peer_cross_review",
+        "reviewers": [
+          "A",
+          "B",
+          "C"
+        ],
+        "scope": "still first frame",
+        "notes_file": "review_summary.json"
+      }
+    },
+    {
+      "concept_id": "C05",
+      "scene_id": "S04",
+      "cut_id": "K08",
+      "image_path": "images/C05/K08.png",
+      "prompt": "Use case: ads-marketing. NEW SEPARATE END-TITLE BACKGROUND PLATE for the same original Korean low-budget spy comedy. Reference is for EXACT faces, costume, bag designs, linked white hooks, mint flyers and room mood. Full-bleed 16:9. Recompose scene: LEFT 40% contains both actors standing side by side in front of a SMALL cork board, woman A in beige on left of man B in navy, both full body or knee-up small enough for title to dominate later. They face camera rigidly and over-seriously pretending to be event promoters. Their OUTER hands now hold mint flyers up at CHEST height: A right hand at far left, B left hand at outer right. Inner hands still hold CLOSED briefcases LOW at thighs: black left, dark brown right, linked white plastic S-hooks clearly continuous between handles. Same exact mint flyers with MAGENTA RING upper half, BLACK STAIR silhouette below; board behind them also has one matching flyer. RIGHT 60% of frame must be CLEAN BRIGHT MINT WALL empty of furniture, people, shadows, props or patterns, for separate title overlay later. No words/title/date/logos anywhere. Keep bags in hands, do not put them on table. Soft fluorescent room light with warm amber faces, intentionally cheap practical spy-film vibe. No new person, no duplicate arms or flyers, no printed text. This is a background plate only, not a typeset endcard.",
+      "reference_images": [
+        "\\\\wsl.localhost\\Ubuntu-24.04\\home\\wooseok\\wsy\\samsung_related\\slide\\AI실행결과발표대회_디자인3종\\storyboards\\2026-10-17_b-comedy-reboot-v3\\images\\C05\\K07.png",
+        "\\\\wsl.localhost\\Ubuntu-24.04\\home\\wooseok\\wsy\\samsung_related\\slide\\AI실행결과발표대회_디자인3종\\storyboards\\2026-10-17_b-comedy-reboot-v3\\images\\C05\\K06.png"
+      ],
+      "source_generated_path": "C:\\Users\\wseok\\.codex\\generated_images\\01a149a2-d9c9-70e2-b538-eb2497e8c4e8\\exec-7c4bfdbe-ec70-4c8e-8e7b-c34420f6d40f.png",
+      "generation_tool": "image_gen",
+      "first_frame": "새 휴게실 배경. 왼쪽 A베이지·B네이비가 K07의 수습 자세로 서 있다. 안내장은 바깥손으로 가슴 앞, 닫힌 가방은 안쪽손으로 낮게 들고 중앙 연결 고리 유지. 뒤 게시판에는 같은 그래픽 한 장. 오른쪽 깨끗한 민트 벽. 후편집 별도 조판: 오른쪽 47%의 무늬 없는 밝은 영역에 작은 1행 '2026년 품질팀', 큰 2행 'AI 실행 결과', 큰 3행 '발표 대회'. 전체 제목을 처음부터 끝까지 6초 유지. 제목 아래 연결 문구 1행. 이미지에는 제목·자막·로고·날짜를 그리지 않는다. 실제 제목 조판은 화면 가로53% 지점부터 시작해 B의 몸·안내장과 겹치지 않는다.",
+      "next_motion": "후편집 타이틀6초 고정. 두 요원의 추가 행동 없음.",
+      "artist_review": {
+        "status": "self_review_pass_pending_independent_review",
+        "viewed": true,
+        "notes": "별도 엔딩배경. 왼쪽 두요원 바깥손 안내장 가슴 높이, 안쪽손 가방 낮게·중앙고리 연결·게시판 같은 그래픽. 우측 민트 여백 확인. 제목은 미합성."
+      },
+      "revision": 1,
+      "actual_dimensions": {
+        "width": 1672,
+        "height": 941
+      },
+      "selected": true,
+      "artist_manifest": "image_manifest_artist2.json",
+      "artist_recorded_first_frame": "새 휴게실 배경. 왼쪽 A베이지·B네이비가 K07의 수습 자세로 서 있다. 안내장은 바깥손으로 가슴 앞, 닫힌 가방은 안쪽손으로 낮게 들고 중앙 연결 고리 유지. 뒤 게시판에는 같은 그래픽 한 장. 오른쪽 깨끗한 민트 벽. 후편집 별도 조판: 오른쪽 58%의 무늬 없는 밝은 영역에 작은 1행 '2026년 품질팀', 큰 2행 'AI 실행 결과', 큰 3행 '발표 대회'. 전체 제목을 처음부터 끝까지 6초 유지. 제목 아래 연결 문구 1행. 이미지에는 제목·자막·로고·날짜를 그리지 않는다.",
+      "artist_recorded_next_motion": "후편집 타이틀6초 고정. 두 요원의 추가 행동 없음.",
+      "final_storyboard_first_frame": "새 휴게실 배경. 왼쪽 A베이지·B네이비가 K07의 수습 자세로 서 있다. 안내장은 바깥손으로 가슴 앞, 닫힌 가방은 안쪽손으로 낮게 들고 중앙 연결 고리 유지. 뒤 게시판에는 같은 그래픽 한 장. 오른쪽 깨끗한 민트 벽. 후편집 별도 조판: 오른쪽 47%의 무늬 없는 밝은 영역에 작은 1행 '2026년 품질팀', 큰 2행 'AI 실행 결과', 큰 3행 '발표 대회'. 전체 제목을 처음부터 끝까지 6초 유지. 제목 아래 연결 문구 1행. 이미지에는 제목·자막·로고·날짜를 그리지 않는다. 실제 제목 조판은 화면 가로53% 지점부터 시작해 B의 몸·안내장과 겹치지 않는다.",
+      "final_storyboard_next_motion": "후편집 타이틀6초 고정. 두 요원의 추가 행동 없음.",
+      "final_review": {
+        "status": "accepted_after_independent_peer_cross_review",
+        "reviewers": [
+          "A",
+          "B",
+          "C"
+        ],
+        "scope": "still first frame",
+        "notes_file": "review_summary.json"
+      }
+    }
+  ],
+  "superseded_variants": [
+    {
+      "concept_id": "C01",
+      "scene_id": "S01",
+      "cut_id": "K02",
+      "image_path": "images/C01/K02.png",
+      "prompt": "Use case: ads-marketing. Generate a new single 16:9 live-action first frame of the NEXT shot, using this reference for exact actors, wardrobe, mint paper home-shopping set, pink lights, cardboard box and cheap stage style. Same P man olive sweater/round glasses/left headset center and H magenta sequin host left. Closer medium camera crop, BOTH slots fully visible. Only change current prop state and pose: RIGHT slot now holds one CLOSED silver laptop upright, raised roughly 25cm above waist-high B1 to the man's lower chest; its broad plain silver cover faces camera. LEFT microphone has sunk almost fully into its slot, only a sliver of round metal head visible. H smiles with slightly strained sales enthusiasm, right palm poised 2cm ABOVE laptop upper edge, not yet pushing; left hand extended in a sales flourish away from slots. P waits with lips barely apart, upper body fully visible, no writing objects. W may be at far right frame margin as in reference but no additional people. Keep laptop one solid CLOSED rectangle, not an opened screen. Keep B1 same waist height. No text, logo, captions, prices, paper or books. This is the exact first instant before pushing the raised laptop; microphone has not re-emerged. Photoreal B-grade set.",
+      "reference_images": [
+        "\\\\wsl.localhost\\Ubuntu-24.04\\home\\wooseok\\wsy\\samsung_related\\slide\\AI실행결과발표대회_디자인3종\\storyboards\\2026-10-17_b-comedy-reboot-v3\\images\\C01\\K01.png"
+      ],
+      "source_generated_path": "C:\\Users\\wseok\\.codex\\generated_images\\01a149a2-c23e-7d73-bbc4-1a40d8438cf3\\exec-ba1a426f-3ca1-4281-89a4-0adb3f4fbe05.png",
+      "generation_tool": "image_gen",
+      "first_frame": "노트북이 오른쪽에서 높이 솟아 있다. H는 왼손을 광고 제스처로 벌리고 오른손을 노트북 위에 얹기 직전이다. 왼쪽 마이크는 거의 보이지 않는다. P는 입을 열려다 기다린다.",
+      "next_motion": "노트북 하강 → 반대쪽 마이크 상승. H는 몸을 피하지 않고 미소만 고정.",
+      "artist_review": {
+        "status": "superseded_preserved",
+        "opened_actual_image": true,
+        "checks": [
+          "인물·의상·세트 연속성 유지",
+          "실제 파일을 열어 소품 배치 결함 발견"
+        ],
+        "notes": [
+          "필수 수정: 노트북이 오른쪽 슬롯에 꽂히지 않고 P의 양손에 들려 있음. 미채택 후 수정 예정."
+        ],
+        "superseded_by": "images/C01/K02_v2.png"
+      },
+      "revision": 1,
+      "width": 1672,
+      "height": 941,
+      "bytes": 2024090,
+      "sha256": "433a4dd75bc82163d6fc0ad8f2120b37b9e2b59625b559c298d9a8c3e615b035",
+      "selected": false,
+      "artist_manifest": "image_manifest_artist1.json"
+    },
+    {
+      "concept_id": "C01",
+      "scene_id": "S02",
+      "cut_id": "K03",
+      "image_path": "images/C01/K03.png",
+      "prompt": "Generate NEXT SHOT first frame, one 16:9 live-action still using reference exact three people, clothes, mint cheap shopping set, B1 waist-high center box and separate far-right dolly box B3. This is the moment BEFORE placing a cardboard collar around B1. W, navy-vest woman on right, has picked up B2 from floor. B2 is the same U-shaped 30cm-high cardboard surround seen on floor in reference, but sized to fit around B1: ONE front rectangular panel spanning B1 width and TWO short side panels extending BACKWARD, open top, open bottom, open back. No closed crate. W holds it with two hands, aligned around and just 15cm ABOVE B1 top, ready to lower. Its front plane vertical, unbent, tape hinge line along bottom, two small grip notches along top. P remains standing behind B1, head and upper chest clearly visible above collar; headset and glasses unchanged, quietly waiting. H at left enthusiastically spreads both arms to announce bigger size; not touching collar. B1 prop microphone is up again and laptop almost submerged, partly occluded by collar as physically appropriate. B3 stays empty on far-right dolly, NOT lifted, same wide box. No spare B2 on floor now. Frontal wide with enough slight view of right side to read U form. Cheap rough cardboard, no words, no additional props, no papers/books. Exactly three people. Do not turn B2 into a fully enclosed box or place anybody inside it.",
+      "reference_images": [
+        "\\\\wsl.localhost\\Ubuntu-24.04\\home\\wooseok\\wsy\\samsung_related\\slide\\AI실행결과발표대회_디자인3종\\storyboards\\2026-10-17_b-comedy-reboot-v3\\images\\C01\\K01.png"
+      ],
+      "source_generated_path": "C:\\Users\\wseok\\.codex\\generated_images\\01a149a2-c23e-7d73-bbc4-1a40d8438cf3\\exec-d7d61f6e-f8d6-4871-96d8-d45961ea1ede.png",
+      "generation_tool": "image_gen",
+      "first_frame": "W가 B2 덧판을 양손으로 들고 B1보다 15cm 높은 위치에서 맞추려 한다. P는 중앙에 그대로, H는 왼쪽에서 양팔로 더 큰 크기를 표시. B2 앞판은 접히지 않은 세로 상태.",
+      "next_motion": "W가 B2를 천천히 아래로 끼움. H가 만족스럽게 한 번 고개를 끄덕임.",
+      "artist_review": {
+        "status": "superseded_preserved",
+        "opened_actual_image": true,
+        "checks": [
+          "B2 U자 앞/옆 덧판을 W가 들고 내려놓기 전",
+          "B2 뒷면·상하 개방 읽힘",
+          "B3는 별도 오른쪽 바퀴 상자 유지",
+          "세 인물 및 의상·무대 기준 유지"
+        ],
+        "notes": [],
+        "superseded_by": "images/C01/K03_v2.png"
+      },
+      "revision": 1,
+      "width": 1672,
+      "height": 941,
+      "bytes": 1912444,
+      "sha256": "0a79445339e90e8106cd2c653699ee0a0513aac0c34a55ea1087a9fe4e5becba",
+      "selected": false,
+      "artist_manifest": "image_manifest_artist1.json"
+    },
+    {
+      "concept_id": "C01",
+      "scene_id": "S02",
+      "cut_id": "K04",
+      "image_path": "images/C01/K04.png",
+      "prompt": "Create next shot FIRST FRAME as 16:9 photoreal still. Reference locks the three actors, clothing, mint/pink cheap shopping studio, cardboard shape. The U-shaped B2 surround has now been lowered and attached snugly around top of B1; its 30cm front panel is still VERTICAL at P's lower chest, NOT yet folded down. Its lower edge has a visible long brown-tape hinge line; same two grip notches along top as reference. P center reaches both EMPTY hands toward the upper notches, fingers hovering just before gripping, preparing to fold front panel FORWARD. P upper chest, face, headset/glasses fully visible. H remains left, amused sales smile paused; W right has RELEASED collar, hands lowered. Medium composition emphasizing man and upright panel, with H/W edges visible. B1 remains waist-height below B2. Prop slots behind front panel partly hidden realistically. Separate B3 stays right background if within crop. Do not place laptop or notebook in hands. Absolutely no books, papers, pen, text, logo. This is before folding; no horizontal ledge yet.",
+      "reference_images": [
+        "\\\\wsl.localhost\\Ubuntu-24.04\\home\\wooseok\\wsy\\samsung_related\\slide\\AI실행결과발표대회_디자인3종\\storyboards\\2026-10-17_b-comedy-reboot-v3\\images\\C01\\K03.png"
+      ],
+      "source_generated_path": "C:\\Users\\wseok\\.codex\\generated_images\\01a149a2-c23e-7d73-bbc4-1a40d8438cf3\\exec-1fefcff5-4648-4815-a417-886da7c981f1.png",
+      "generation_tool": "image_gen",
+      "first_frame": "B2 앞판이 아직 수직이다. P의 두 손이 앞판 상단 홈을 잡기 직전. 허리 높이 B1 위로 P의 상반신이 보이고 B2는 가슴 부근까지 온다. H는 왼쪽, W는 오른쪽. 기록지나 책은 없다.",
+      "next_motion": "P가 앞판을 접어 수평 발표대로 만들고 두 손을 올린다.",
+      "artist_review": {
+        "status": "superseded_preserved",
+        "opened_actual_image": true,
+        "checks": [
+          "B2 장착 후 수직 앞판·접기 전 양손 확인",
+          "세 인물 고정·B3 오른쪽 배경",
+          "글자·책·종이 없음"
+        ],
+        "notes": [],
+        "superseded_by": "images/C01/K04_v2.png"
+      },
+      "revision": 1,
+      "width": 1672,
+      "height": 941,
+      "bytes": 1975862,
+      "sha256": "17eebc3cb694c0c6c25bab9e156e92fdd844b4fef218e87ee87b3b438fd5dbde",
+      "selected": false,
+      "artist_manifest": "image_manifest_artist1.json"
+    },
+    {
+      "concept_id": "C02",
+      "scene_id": "S02",
+      "cut_id": "K06",
+      "image_path": "images/C02/K06.png",
+      "prompt": "Use case: ads-marketing. New single photographic FIRST FRAME, same exact Korean actors and office comedy set from references. 16:9 full-bleed. P pale-green-shirt woman low tied black hair fills LEFT foreground 60%, now facing camera calmly with OPEN yellow notebook at chest, her index finger hovering above first abstract scribble before pointing. No readable writing or numbers. T dark-teal-shirt beige-trousers male crew at RIGHT background, close enough that hands and cuff ends clearly visible. He has one short clear tape scrap temporarily parked on the outer edge of EACH rolled cuff, loose sticky tails pointing inward. His two hands and cuffs are SEPARATED by 15cm before he brings them together to tidy the repaired cream ribbon. Neither wrists nor cuffs are stuck to each other yet. Show tape tails separately, not one band or rope. Same cream ribbon with crooked clear central taped join and blue circle on left, at waist height behind P and in front of T. P warm-natural presentation, T matter-of-fact. D/B outside framing, exactly TWO people. No capture of completed gag, no tied hands, no pain, no blank stare glamour. Ordinary fluorescent physical B-movie comedy.",
+      "reference_images": [
+        "\\\\wsl.localhost\\Ubuntu-24.04\\home\\wooseok\\wsy\\samsung_related\\slide\\AI실행결과발표대회_디자인3종\\storyboards\\2026-10-17_b-comedy-reboot-v3\\images\\C02\\K05.png",
+        "\\\\wsl.localhost\\Ubuntu-24.04\\home\\wooseok\\wsy\\samsung_related\\slide\\AI실행결과발표대회_디자인3종\\storyboards\\2026-10-17_b-comedy-reboot-v3\\images\\C02\\K03.png"
+      ],
+      "source_generated_path": "C:\\Users\\wseok\\.codex\\generated_images\\01a149a2-d9c9-70e2-b538-eb2497e8c4e8\\exec-04003f57-1ff0-44e1-b7d4-e7d1d156c6e8.png",
+      "generation_tool": "image_gen",
+      "first_frame": "P는 열린 노트 위 첫 메모에 검지를 대기 직전. T는 뒤에서 두 손목이 15cm 떨어진 채 종이 띠와 테이프 꼬리를 정리하려 한다. 아직 손목끼리 붙지 않았음.",
+      "next_motion": "P의 첫 메모 가리키기와 대사 → T가 두 소매 끝을 모았다가 테이프 꼬리가 서로 붙음 → 한 번 내려다봄.",
+      "artist_review": {
+        "status": "needs_tape_duplicate_correction",
+        "viewed": true,
+        "notes": "두 소매 테이프와 별개로 손가락에 추가 2조각 생성. 손가락 조각만 제거해 실제 꼬리2개로 수정 예정."
+      },
+      "revision": 1,
+      "actual_dimensions": {
+        "width": 1672,
+        "height": 941
+      },
+      "selected": false,
+      "artist_manifest": "image_manifest_artist2.json"
+    },
+    {
+      "concept_id": "C02",
+      "scene_id": "S02",
+      "cut_id": "K06",
+      "image_path": "images/C02/K06_v2.png",
+      "prompt": "Precise local correction to reference image. Keep the exact woman, open yellow notebook, pose, face, office, ribbon, framing and lighting UNCHANGED. Change ONLY the male crew worker's tape and hand position. REMOVE the TWO loose tape scraps he is holding between his fingertips. His fingertips must be EMPTY and naturally open. Keep exactly TWO existing transparent short tape tails attached to his rolled CUFF EDGES, one per cuff. Bring his forearms/cuffs a little closer so they remain about 15cm apart, NOT stuck together; both cuff tape tails point inward toward each other. No tape on fingertips, no additional scraps, no binding, no cuff-to-cuff bridge. It is the first moment BEFORE the two sleeve tapes accidentally touch. Full-bleed 16:9 photographic image.",
+      "reference_images": [
+        "\\\\wsl.localhost\\Ubuntu-24.04\\home\\wooseok\\wsy\\samsung_related\\slide\\AI실행결과발표대회_디자인3종\\storyboards\\2026-10-17_b-comedy-reboot-v3\\images\\C02\\K06.png"
+      ],
+      "source_generated_path": "C:\\Users\\wseok\\.codex\\generated_images\\01a149a2-d9c9-70e2-b538-eb2497e8c4e8\\exec-003a894b-f11b-480f-bbe6-8ef372340ef9.png",
+      "generation_tool": "image_gen",
+      "first_frame": "P는 열린 노트 위 첫 메모에 검지를 대기 직전. T는 뒤에서 두 손목이 15cm 떨어진 채 종이 띠와 테이프 꼬리를 정리하려 한다. 아직 손목끼리 붙지 않았음.",
+      "next_motion": "P의 첫 메모 가리키기와 대사 → T가 두 소매 끝을 모았다가 테이프 꼬리가 서로 붙음 → 한 번 내려다봄.",
+      "artist_review": {
+        "status": "self_review_pass_pending_independent_review",
+        "viewed": true,
+        "notes": "손가락의 중복 테이프 제거. 소매끝 2개만 남고 두손이 아직 떨어진 시작상태 확인. K06_v2 채택."
+      },
+      "revision": 2,
+      "actual_dimensions": {
+        "width": 1672,
+        "height": 941
+      },
+      "selected": false,
+      "artist_manifest": "image_manifest_artist2.json"
+    },
+    {
+      "concept_id": "C04",
+      "scene_id": "S01",
+      "cut_id": "K01",
+      "image_path": "images/C04/K01.png",
+      "prompt": "Use case ads-marketing. A single 16:9 photoreal live-action FIRST FRAME for an intentionally cheap Korean community magic-show comedy, not an illustration or collage. Small rehearsal room, wrinkled GOLD curtain at rear, plain cream side walls, wooden floor, uneven practical theatre lighting. Center a wooden dining chair covered by cheap RED velvet that also conceals a crouched female assistant immediately behind it. Chair is NOT FLOATING: all four wooden legs touch floor. Cloth hem ends 8cm above floor and reveals only TWO WHITE SNEAKER TOES belonging to hidden assistant, both flat on ground. No assistant face/torso visible yet. Right magician M: original Korean man40s, slick black hair, thin moustache, black tailcoat, burgundy waistcoat, white shirt, black shoes; extravagant proud stage face, both palms currently at WAIST level BEFORE raising them. Left stage floor: oversized black felt top hat, 35cm tall/45cm wide, subtly accordion-paper side creases, with neatly folded larger red velvet cover on top. Foreground exactly THREE seated viewers in ONE row, seen mostly backs/three-quarter shoulder at low camera height: LEFT V1 Korean woman30s black bob/orange cardigan/cream trousers; MIDDLE V2 Korean man30s short black hair/sage hoodie/blue jeans; RIGHT V3 Korean woman50s gray bob/plum cardigan/black trousers. Each on ONE gray metal folding chair. Keep center stage chair floor gap and white sneakers fully visible BETWEEN audience shoulders; no blocking of gag. Exactly five people total including the fully hidden assistant. No additional chairs, hats or people, no text or logos. Wide frontal camera. Frozen moment BEFORE any levitation.",
+      "reference_images": [],
+      "source_generated_path": "C:\\Users\\wseok\\.codex\\generated_images\\01a149a2-c23e-7d73-bbc4-1a40d8438cf3\\exec-c32019d5-73de-49f1-9fdb-8dd4366287b5.png",
+      "generation_tool": "image_gen",
+      "first_frame": "의자 네 다리는 바닥에 닿아 있고 붉은 천 아래 A의 흰 운동화가 평평하게 보인다. M은 오른쪽에서 손을 허리 높이에 펼친 상태. 왼쪽 바닥 대형 모자 위에 큰 붉은 덮개가 접혀 있다. 관객 V1/V2/V3가 앞줄에 앉음.",
+      "next_motion": "M 손 상승 → A가 숨은 나무 손잡이를 들어 의자 10cm 상승·까치발. 카메라 고정.",
+      "artist_review": {
+        "status": "superseded_preserved",
+        "opened_actual_image": true,
+        "checks": [
+          "관객3명·앞줄의자3개",
+          "의자 바닥 접촉·흰 운동화 두 개",
+          "마술사 허리 높이 손·허술한 금색 무대"
+        ],
+        "notes": [
+          "필수 수정: 검정 모자 높이가 계획35cm보다 높게 생성됨. 크기 축소해 기준 확정 예정."
+        ],
+        "superseded_by": "images/C04/K01_v2.png"
+      },
+      "revision": 1,
+      "width": 1672,
+      "height": 941,
+      "bytes": 2258436,
+      "sha256": "36729115626513453179d9a78c88d6a11d46456e15c3d70de5cb5804c800d4e3",
+      "selected": false,
+      "artist_manifest": "image_manifest_artist1.json"
+    },
+    {
+      "concept_id": "C04",
+      "scene_id": "S02",
+      "cut_id": "K03",
+      "image_path": "images/C04/K03.png",
+      "prompt": "New shot FIRST FRAME from this same tiny low-budget magic show, one photoreal 16:9 still. Camera now near audience front LEFT at an oblique side angle that lets us see the THREE viewers' faces and the stage behind them. Preserve clothing/hair/ages from reference: V1 Korean woman30 black chin bob orange cardigan cream trousers nearest left; V2 Korean man30 short black hair sage hoodie jeans middle; V3 Korean woman50 gray bob plum cardigan black trousers right. They sit in their same ONE ROW of THREE gray folding chairs facing stage; neutral faces, not staring at backstage or excited. V1 has both hands near the two sides of her own seat, body shifted slightly forward, still seated and just about to rise. V2 V3 remain seated calmly. Magician same thin-moustache man in black tails/burgundy vest at rear right gesturing to covered chair. Red velvet now a larger cover over chair/hidden assistant, no face or body visible beneath. Gold curtain blocks rear stage view. Frame ENDS at cream wall/gold curtain on LEFT, absolutely no visible corridor or backstage entrance and no indication of audience destination. No extra person/chair. First instant BEFORE V1 stands, carries chair or leaves. Keep original cheap warm lighting, no text.",
+      "reference_images": [
+        "\\\\wsl.localhost\\Ubuntu-24.04\\home\\wooseok\\wsy\\samsung_related\\slide\\AI실행결과발표대회_디자인3종\\storyboards\\2026-10-17_b-comedy-reboot-v3\\images\\C04\\K01_v2.png"
+      ],
+      "source_generated_path": "C:\\Users\\wseok\\.codex\\generated_images\\01a149a2-c23e-7d73-bbc4-1a40d8438cf3\\exec-a788c799-a8c1-4a9b-8285-1ab8eb856397.png",
+      "generation_tool": "image_gen",
+      "first_frame": "V1은 정면을 보는 중립 표정으로 자기 접이 의자 양옆을 잡고 일어서기 직전. V2/V3는 앉은 채 정면을 본다. M은 뒤에서 천에 손짓. 무대 뒤나 이어지는 통로는 프레임에 없다.",
+      "next_motion": "V1이 일어나 의자를 접어 들고 화면 왼쪽 경계 밖으로 퇴장. 카메라는 남음.",
+      "artist_review": {
+        "status": "superseded_preserved",
+        "opened_actual_image": true,
+        "checks": [
+          "관객3명·같은 의자3개",
+          "V1 일어서기 직전 의자 잡음",
+          "뒷동선 비공개·금색커튼 막힘"
+        ],
+        "notes": [
+          "필수 수정: K02에 사용한 덮개가 모자 위에 남아 있음. 접힌 천만 제거해 연속성 수정."
+        ],
+        "superseded_by": "images/C04/K03_v2.png"
+      },
+      "revision": 1,
+      "width": 1672,
+      "height": 941,
+      "bytes": 2326771,
+      "sha256": "756d0e59114c93f9270e34ac261739bf2d55785c9937a7d673ead59cabcfea76",
+      "selected": false,
+      "artist_manifest": "image_manifest_artist1.json"
+    },
+    {
+      "concept_id": "C04",
+      "scene_id": "S03",
+      "cut_id": "K06",
+      "image_path": "images/C04/K06.png",
+      "prompt": "Generate a new scene FIRST FRAME,16:9 live-action photo for this SAME inexpensive magic show. References lock actors/clothes/floor/black hat/gray folding chair style. This is the FIRST REVERSE-ANGLE REVEAL BEHIND the little stage. Camera now sees plain cream rehearsal-room wall, edge of gold curtain, same wooden floor, NOT old frontal composition. Exactly FIVE original Korean adults visible. LEFT side: three viewers seated on their THREE gray folding chairs in left-to-right order V1 woman30 orange cardigan/black chin bob/cream trousers, V2 man30 sage hoodie/black short hair/jeans, V3 woman50 gray bob/plum cardigan/black trousers. Their faces in attentive three-quarter view all look toward assistant's HANDS at center-right, curious not laughing. Center-right A, newly revealed assistant: Korean woman30 with low black ponytail, blue WORK JUMPSUIT, the SAME WHITE sneakers previously seen. She stands behind one uncovered plain wooden dining chair. A long wooden lifting handle is firmly bolted to the BACK of that chair with two crude visible braces; handle extends rearward toward A at waist level. A holds this handle in BOTH hands, but chair four feet still touch floor, BEFORE lifting. Simple deliberately crude physical apparatus, no electronics, no unexplained floating wood. The RED velvet cover lies crumpled on floor beside chair, no cloth on hat. FAR RIGHT edge magician in same black tails/burgundy vest/thin moustache looks LEFT toward VIEWERS' FACES, assessing where their attention went, not marveling at his own trick. Low black accordion-cylinder top hat35cm height45cm width rests on floor immediately beside magician. All five distinct, no extra people or chairs, no desks/classroom setup, no papers or text. The attention belongs to assistant hands, magician visually secondary. Wide frame showing hand-handle connection and all three faces.",
+      "reference_images": [
+        "\\\\wsl.localhost\\Ubuntu-24.04\\home\\wooseok\\wsy\\samsung_related\\slide\\AI실행결과발표대회_디자인3종\\storyboards\\2026-10-17_b-comedy-reboot-v3\\images\\C04\\K03_v2.png",
+        "\\\\wsl.localhost\\Ubuntu-24.04\\home\\wooseok\\wsy\\samsung_related\\slide\\AI실행결과발표대회_디자인3종\\storyboards\\2026-10-17_b-comedy-reboot-v3\\images\\C04\\K05.png"
+      ],
+      "source_generated_path": "C:\\Users\\wseok\\.codex\\generated_images\\01a149a2-c23e-7d73-bbc4-1a40d8438cf3\\exec-77db0795-2077-410d-9216-b4c30abc4132.png",
+      "generation_tool": "image_gen",
+      "first_frame": "V1/V2/V3가 주황·세이지·자주색 순서로 자기 세 의자에 앉아 A의 손을 본다. A는 천이 벗겨진 나무 의자 뒤 손잡이를 아직 들기 전. M은 프레임 가장자리에서 관객들의 얼굴을 확인하고 있다. 대형 모자는 M 바로 옆 바닥.",
+      "next_motion": "A가 손잡이를 조금 들어 시연 → 세 관객 눈길이 손을 따라감 → M은 관객을 보며 모자를 집음.",
+      "artist_review": {
+        "status": "superseded_preserved",
+        "opened_actual_image": true,
+        "checks": [
+          "5명/관객의자3개/무대 나무의자1개",
+          "A 점프수트·흰 신발·목재 손잡이 고정 연결",
+          "무대 뒤 첫 공개·덮개바닥·의자 바닥 접촉"
+        ],
+        "notes": [
+          "필수 수정: M이 관객과 반대인 화면 오른쪽을 보고 있음. 고개와 시선만 왼쪽 관객 얼굴로 바꿀 것."
+        ],
+        "superseded_by": "images/C04/K06_v2.png"
+      },
+      "revision": 1,
+      "width": 1672,
+      "height": 941,
+      "bytes": 2069226,
+      "sha256": "389a0999fe9c18d49b2fa0ee9bfc1c24e67994700c3fced91ba31c44ea8924c8",
+      "selected": false,
+      "artist_manifest": "image_manifest_artist1.json"
+    },
+    {
+      "concept_id": "C04",
+      "scene_id": "S03",
+      "cut_id": "K07",
+      "image_path": "images/C04/K07.png",
+      "prompt": "Create NEXT SHOT FIRST FRAME from this exact low-budget magic-show backstage with SAME FIVE actors/faces/clothes/props,16:9 photoreal. Recompose to medium-wide SIDE VIEW, all spatial relationships clear. Three spectators sit at LEFT on same gray folding chairs, orange woman nearest left then sage man then plum gray-haired woman. They focus PAST the magician toward assistant's hands further RIGHT/behind him. Magician has MOVED the single black35cm-high accordion top hat into the gap BETWEEN audience and blue-jumpsuit assistant. He stands directly above the hat, bending knees/hips just beginning to sit but buttocks still3cm ABOVE its flat top, hat has NOT compressed yet. His FACE turns SCREEN LEFT toward audience, chin slightly forward, politely trying to regain their eye contact, NOT looking at apparatus. His back faces the assistant at RIGHT. Show magician full legs/hat/feet grounded so next lowering gag possible. Hat same black felt and accordion ring creases,35cm cylinder and45cm diameter, internal low seat ring faintly near bottom. Assistant behind/right holds same wooden bar rigidly attached to chair back, all four wooden chair legs on floor, calmly demonstrating. Red cloth remains on floor. Viewers' eyelines bypass magician at mid-right to A hands, not looking him in eyes; no one laughs, no classroom setup. NO duplicate hat, NO stool beside hat, NO extra person/chair. First instant BEFORE sitting/compression, NOT final sunken pose. Keep cream wall, wood floor, sliver gold curtain, no text/logo.",
+      "reference_images": [
+        "\\\\wsl.localhost\\Ubuntu-24.04\\home\\wooseok\\wsy\\samsung_related\\slide\\AI실행결과발표대회_디자인3종\\storyboards\\2026-10-17_b-comedy-reboot-v3\\images\\C04\\K06_v2.png"
+      ],
+      "source_generated_path": "C:\\Users\\wseok\\.codex\\generated_images\\01a149a2-c23e-7d73-bbc4-1a40d8438cf3\\exec-b56743fd-6bed-4bc4-894a-5595d527cff8.png",
+      "generation_tool": "image_gen",
+      "first_frame": "M은 V1/V2와 A 사이에 놓은 높이35cm 모자 위에 앉기 직전. M의 얼굴은 관객을 향하고, 관객들의 시선은 M 뒤 A의 손으로 향한다. 모자의 주름과 낮은 내부 좌판 테두리가 보임. A는 후경에서 손잡이를 다룬다.",
+      "next_motion": "M이 앉음 → 원통만20cm 접혀 낮아짐 → M이 관객을 향해 목을 빼고 작게 인사. 관객 시선은 A 손에서 떨어지지 않음.",
+      "artist_review": {
+        "status": "superseded_preserved",
+        "opened_actual_image": true,
+        "checks": [
+          "M 모자 위 앉기 전·모자 아직 높음",
+          "관객3명 및 A 손잡이·소품 유지",
+          "의자/모자 구별 및 5명 확인"
+        ],
+        "notes": [
+          "필수 수정: M이 카메라를 바라봐 관객 관심 회수 시선이 흐려짐. M 얼굴만 관객 쪽 완전 옆모습으로 한정 수정."
+        ],
+        "superseded_by": "images/C04/K07_v3.png"
+      },
+      "revision": 1,
+      "width": 1672,
+      "height": 941,
+      "bytes": 1994136,
+      "sha256": "e7f45b02f9af267213bb6a943ad78c1bbaa693dfcc137a9be1985f7112183b5c",
+      "selected": false,
+      "artist_manifest": "image_manifest_artist1.json"
+    },
+    {
+      "concept_id": "C04",
+      "scene_id": "S03",
+      "cut_id": "K07",
+      "image_path": "images/C04/K07_v2.png",
+      "prompt": "Precise edit only magician's HEAD. Turn his face to a full LEFT-FACING PROFILE, his nose clearly pointing toward the seated viewers at screen left, not toward camera. Tilt head slightly downward to aim eye contact at sage-shirt man/orange woman faces. We should see primarily his right facial profile and ear; no camera eye contact. He is trying to regain VIEWERS' attention. Keep slight polite performer's smile. Do NOT change his crouched body/feet/hips above uncompressed black hat, clothes, hat height/shape or any other person/prop. The spectators continue looking past him toward blue assistant's HANDS at far right; leave their heads neutral level, no looking up at magician. All five same identities. Maintain exact frame and lighting,16:9.",
+      "reference_images": [
+        "\\\\wsl.localhost\\Ubuntu-24.04\\home\\wooseok\\wsy\\samsung_related\\slide\\AI실행결과발표대회_디자인3종\\storyboards\\2026-10-17_b-comedy-reboot-v3\\images\\C04\\K07.png"
+      ],
+      "source_generated_path": "C:\\Users\\wseok\\.codex\\generated_images\\01a149a2-c23e-7d73-bbc4-1a40d8438cf3\\exec-b6ec4fbb-6511-4e18-99f6-1712aff4244f.png",
+      "generation_tool": "image_gen",
+      "first_frame": "M은 V1/V2와 A 사이에 놓은 높이35cm 모자 위에 앉기 직전. M의 얼굴은 관객을 향하고, 관객들의 시선은 M 뒤 A의 손으로 향한다. 모자의 주름과 낮은 내부 좌판 테두리가 보임. A는 후경에서 손잡이를 다룬다.",
+      "next_motion": "M이 앉음 → 원통만20cm 접혀 낮아짐 → M이 관객을 향해 목을 빼고 작게 인사. 관객 시선은 A 손에서 떨어지지 않음.",
+      "artist_review": {
+        "status": "superseded_preserved",
+        "opened_actual_image": true,
+        "checks": [
+          "M 얼굴 왼쪽 관객을 향한 옆모습·카메라 응시 해소",
+          "관객 시선은 수평으로 뒤 A 손 방향",
+          "모자 비접힘·M 앉기 전·5명 유지"
+        ],
+        "notes": [],
+        "superseded_by": "images/C04/K07_v3.png"
+      },
+      "revision": 2,
+      "width": 1672,
+      "height": 941,
+      "bytes": 1905594,
+      "sha256": "7593880d874480aca9afdf91c741fa1d2587bdec45ae7f4394f708d264785c28",
+      "selected": false,
+      "artist_manifest": "image_manifest_artist1.json"
+    },
+    {
+      "concept_id": "C05",
+      "scene_id": "S01",
+      "cut_id": "K01",
+      "image_path": "images/C05/K01.png",
+      "prompt": "Use case: ads-marketing. Create one photographic FIRST FRAME for an original deliberately low-budget Korean spy comedy. Full-bleed 16:9 landscape wide, no letterbox, no collage. Ordinary mint-gray office break room fluorescent ceiling with an absurdly serious warm amber spotlight on faces. Exactly TWO fictional Korean adult agents on two separate gray swivel chairs, backs partly toward one another. A sits SCREEN LEFT facing OUTWARD toward left: woman 40s straight chin-length black bob, beige trench coat over black turtleneck and black trousers, black sunglasses, stern lips. B sits SCREEN RIGHT facing OUTWARD toward right: man 30s short side-part black hair, navy jacket over white T-shirt, dark gray trousers, amber-lens sunglasses, extremely solemn. Each actor reaches down with their INNER arm to hold the oversized cloth handle of their own CLOSED rectangular SOFT briefcase on floor in center: A's bag BLACK at center-left, B's bag DARK BROWN center-right. Each bag handle has ONE palm-sized open plastic S-hook attached, visible cheap taped join. Two S-hooks approach one another but remain separated by 5cm, NOT interlocked yet. Feet planted on floor ready to turn chairs later. Show faces, knees, hands, bag handles and hooks clearly, low medium-wide frontal axis. Behind is a simple table and one cork bulletin board with one small out-of-focus mint poster indistinct, not readable. No gun, no money, no technology, no secret markings, no text, no titles, no logo, no third person, no extra bag or hook. The joke is solemn secrecy with embarrassingly obvious cheap props, not high-budget espionage. This is before bags touch; do not depict rotation or handshake.",
+      "reference_images": [],
+      "source_generated_path": "C:\\Users\\wseok\\.codex\\generated_images\\01a149a2-d9c9-70e2-b538-eb2497e8c4e8\\exec-eb38dd52-28a1-47bf-af7c-60b46d788f43.png",
+      "generation_tool": "image_gen",
+      "first_frame": "A는 왼쪽 바깥, B는 오른쪽 바깥을 보고 앉아 있다. 각자 안쪽 손으로 자기 가방의 큰 손잡이를 잡고 중앙으로 밀기 직전. 두 S자 고리는 서로 5cm 떨어져 아직 걸리지 않았음. 두 사람 발은 바닥.",
+      "next_motion": "두 가방 중앙 이동 → 큰 고리가 맞물림 → 두 사람이 손잡이를 당기다 멈춤. 카메라 고정.",
+      "artist_review": {
+        "status": "needs_pose_correction",
+        "viewed": true,
+        "notes": "고리 미연결·가방색·두 배우 확립. 그러나 정면 상체와 교차 다리로 의자 회전 시작 자세가 약해 K01_v2에서 몸/의자 바깥향·양발 바닥 수정 예정."
+      },
+      "revision": 1,
+      "actual_dimensions": {
+        "width": 1672,
+        "height": 941
+      },
+      "selected": false,
+      "artist_manifest": "image_manifest_artist2.json"
+    },
+    {
+      "concept_id": "C05",
+      "scene_id": "S01",
+      "cut_id": "K01",
+      "image_path": "images/C05/K01_v2.png",
+      "prompt": "Edit the reference first frame. Preserve EXACTLY these two actors' identities, costumes, glasses, same bags and separate open plastic hooks, low frontal camera, break-room set and amber/fluorescent lighting. Correct ONLY starting body and chair poses: LEFT woman A's entire torso, hips, knees and swivel chair face SCREEN LEFT in strong three-quarter SIDE profile; RIGHT man B's entire torso, hips, knees and swivel chair face SCREEN RIGHT in strong three-quarter SIDE profile. Their backs partly face each other. Both look outward away from each other. BOTH feet of EACH actor planted flat on floor, legs uncrossed, ready to push and rotate their own chair later. Their inner arms reach down and slightly back to hold their own bag handles still at CENTER floor. Black bag LEFT, brown RIGHT. Two hooks remain 5cm apart NOT touching. Keep hooks readable between bags. Do not merely turn heads while leaving chests front-facing. This is before inward chair rotation. Exactly two separate swivel chairs, no extra furniture added. Photographic original B-grade spy comedy, 16:9 full-bleed, no text or logos.",
+      "reference_images": [
+        "\\\\wsl.localhost\\Ubuntu-24.04\\home\\wooseok\\wsy\\samsung_related\\slide\\AI실행결과발표대회_디자인3종\\storyboards\\2026-10-17_b-comedy-reboot-v3\\images\\C05\\K01.png"
+      ],
+      "source_generated_path": "C:\\Users\\wseok\\.codex\\generated_images\\01a149a2-d9c9-70e2-b538-eb2497e8c4e8\\exec-0b21a419-bc3e-49de-8ca1-36ea622afb42.png",
+      "generation_tool": "image_gen",
+      "first_frame": "A는 왼쪽 바깥, B는 오른쪽 바깥을 보고 앉아 있다. 각자 안쪽 손으로 자기 가방의 큰 손잡이를 잡고 중앙으로 밀기 직전. 두 S자 고리는 서로 5cm 떨어져 아직 걸리지 않았음. 두 사람 발은 바닥.",
+      "next_motion": "두 가방 중앙 이동 → 큰 고리가 맞물림 → 두 사람이 손잡이를 당기다 멈춤. 카메라 고정.",
+      "artist_review": {
+        "status": "self_review_pass_pending_independent_review",
+        "viewed": true,
+        "notes": "바깥향 몸/의자와 양발 바닥 수정 완료. 고리 미연결·두 가방·두 인물 유지. K01_v2 채택."
+      },
+      "revision": 2,
+      "actual_dimensions": {
+        "width": 1672,
+        "height": 941
+      },
+      "selected": false,
+      "artist_manifest": "image_manifest_artist2.json"
+    },
+    {
+      "concept_id": "C05",
+      "scene_id": "S01",
+      "cut_id": "K02",
+      "image_path": "images/C05/K02.png",
+      "prompt": "Use reference as exact continuity. Generate the next distinct FIRST FRAME, same two original Korean spies, same outward-facing side-profile bodies and separate swivel chairs, same clothes and room. Full-bleed 16:9, camera pull slightly wider to show all feet and floor. They have NOT rotated chairs yet: left woman whole body facing screen-left, right man whole body screen-right, backs partly toward one another, looking away, feet planted ready to push. Change only bag state: the black left briefcase and dark-brown right briefcase have moved together in center and their two palm-sized WHITE OPEN PLASTIC S-hooks are now visibly INTERLOCKED like two chain links, attached one to each handle. Keep each hand on their own bag handle. No knot, no closed handcuffs, no extra hook, no third bag. Two bags sit on floor centrally below knees. Actor hands NOT touching each other. Preserve gravity and anatomy. This is after hook snag and before they turn inward to examine it. Faces remain outside-facing, serious and exaggeratedly stealthy. No text or logo.",
+      "reference_images": [
+        "\\\\wsl.localhost\\Ubuntu-24.04\\home\\wooseok\\wsy\\samsung_related\\slide\\AI실행결과발표대회_디자인3종\\storyboards\\2026-10-17_b-comedy-reboot-v3\\images\\C05\\K01_v2.png"
+      ],
+      "source_generated_path": "C:\\Users\\wseok\\.codex\\generated_images\\01a149a2-d9c9-70e2-b538-eb2497e8c4e8\\exec-eb7e0ac4-0c72-4cf7-9a2d-5bef349b4cf9.png",
+      "generation_tool": "image_gen",
+      "first_frame": "K01처럼 두 가방이 연결된 상태. A·B는 몸이 바깥을 향하고 안쪽 손으로 각자 손잡이를 잡음. 각자 한 발을 바닥에 힘줄 자세로 놓았고 의자는 아직 돌지 않았다.",
+      "next_motion": "각자 발로 자기 의자를 안쪽으로 회전 → 두 얼굴 정면 노출 → 서로를 보고 고개만 반대로 돌림. 가방이 의자를 자동으로 끌지 않음.",
+      "artist_review": {
+        "status": "self_review_pass_pending_independent_review",
+        "viewed": true,
+        "notes": "바깥향 몸/의자·발 바닥 유지. 중앙 고리 두 개 맞물림 확인. 회전 직전."
+      },
+      "revision": 1,
+      "actual_dimensions": {
+        "width": 1672,
+        "height": 941
+      },
+      "selected": false,
+      "artist_manifest": "image_manifest_artist2.json"
+    },
+    {
+      "concept_id": "C05",
+      "scene_id": "S02",
+      "cut_id": "K03",
+      "image_path": "images/C05/K03.png",
+      "prompt": "Use case: ads-marketing. New single photographic FIRST FRAME in exact same comic spy break room with same two actors, costume, bags, interlocked WHITE plastic S-hooks. 16:9 full-bleed. Both spies have just STOOD UP, now facing front/three-quarter toward camera, slightly bent at waist and knees because their joined bags are still ON THE FLOOR between them. A beige-trench black-sunglasses woman stays screen LEFT; B navy-jacket amber-glasses man stays screen RIGHT. Each holds their own INNER bag handle: A her LEFT hand, B his RIGHT hand. Closed BLACK bag left, closed DARK BROWN bag right, same two open hooks interlocked between handles visibly. Their outer hands rest loosely near thighs, no papers yet. They are about to lift the joined bags TOGETHER to the simple table one step BEHIND them; do not show bags airborne or already on table. Both swivel chairs now empty and facing toward front remain at left/right foreground edges; not blocking bag view. Table visible behind and bulletin board with one blurred mint poster far behind. Frontal medium-wide includes floor, handles, body faces, table. Over-serious faces and awkward symmetrical crouch, cheap real-prop comedy. Exactly two people and two bags. No text/brands, no extra limbs, no locking cuffs.",
+      "reference_images": [
+        "\\\\wsl.localhost\\Ubuntu-24.04\\home\\wooseok\\wsy\\samsung_related\\slide\\AI실행결과발표대회_디자인3종\\storyboards\\2026-10-17_b-comedy-reboot-v3\\images\\C05\\K02.png"
+      ],
+      "source_generated_path": "C:\\Users\\wseok\\.codex\\generated_images\\01a149a2-d9c9-70e2-b538-eb2497e8c4e8\\exec-65ca8377-f23e-4eea-afdf-9730f41c2a6a.png",
+      "generation_tool": "image_gen",
+      "first_frame": "두 사람이 의자에서 일어난 직후. 연결된 가방은 중앙 바닥, A·B는 각자 자기 손잡이를 이미 잡고 있다. 테이블은 한 걸음 뒤. 의자는 전경에 남아 있음.",
+      "next_motion": "두 사람이 연결된 가방을 함께 들어 바로 뒤 테이블에 올림. 2초 한 동작.",
+      "artist_review": {
+        "status": "self_review_pass_pending_independent_review",
+        "viewed": true,
+        "notes": "바닥 가방을 각자 안쪽 손으로 잡고 들어올리기 직전. 중앙 연결 고리 유지, 두 빈 의자와 뒤 테이블 확인."
+      },
+      "revision": 1,
+      "actual_dimensions": {
+        "width": 1672,
+        "height": 941
+      },
+      "selected": false,
+      "artist_manifest": "image_manifest_artist2.json"
+    },
+    {
+      "concept_id": "C05",
+      "scene_id": "S02",
+      "cut_id": "K04",
+      "image_path": "images/C05/K04.png",
+      "prompt": "Use case: ads-marketing. New photographic FIRST FRAME, same two Korean spy-comedy actors and same break room / bags from references, exactly preserved faces and clothing and glasses. 16:9 landscape full-bleed. Eye-level frontal medium wide: both actors now stand behind the simple wooden table, woman A beige trench LEFT, man B navy jacket RIGHT. Two original SOFT briefcases are on TABLE in front of them, black LEFT and dark brown RIGHT. They are still fully CLOSED, their zipper/top flap shut. Same two WHITE open plastic S-hooks remain INTERLOCKED at center linking their cloth handles, clearly visible at front/center of table. Each actor places one hand on the zipper/top-flap closure of their own bag, poised to open it. Other hand steadies their bag. No envelope yet visible, no paper. They both look down with absurd grave seriousness. Background bulletin board with single mint paper remains heavily out of focus, no readable graphic. Fluorescent room plus warm side highlights, humble practical props and visible tape wrapping hook attachments. This is BEFORE opening bags or removing envelopes. No duplicate bags, no extra people, no text, logo, guns, handcuffs or money.",
+      "reference_images": [
+        "\\\\wsl.localhost\\Ubuntu-24.04\\home\\wooseok\\wsy\\samsung_related\\slide\\AI실행결과발표대회_디자인3종\\storyboards\\2026-10-17_b-comedy-reboot-v3\\images\\C05\\K03.png"
+      ],
+      "source_generated_path": "C:\\Users\\wseok\\.codex\\generated_images\\01a149a2-d9c9-70e2-b538-eb2497e8c4e8\\exec-c3b518b5-e822-4648-a231-b1962e3394f5.png",
+      "generation_tool": "image_gen",
+      "first_frame": "두 가방은 테이블 위에서 아직 닫혀 있다. A·B가 각자 자기 가방 뚜껑의 잠금에 손을 댄다. 고리는 중앙에서 연결되어 있음.",
+      "next_motion": "가방 열기와 봉투 꺼내기를 이어 한 번에 처리.",
+      "artist_review": {
+        "status": "self_review_pass_pending_independent_review",
+        "viewed": true,
+        "notes": "두 닫힌 소프트가방을 테이블에 놓고 지퍼를 잡은 상태. 중앙 연결 고리·색·두 인물 유지. 형태에 맞춰 잠금을 지퍼로 구현."
+      },
+      "revision": 1,
+      "actual_dimensions": {
+        "width": 1672,
+        "height": 941
+      },
+      "selected": false,
+      "artist_manifest": "image_manifest_artist2.json"
+    },
+    {
+      "concept_id": "C05",
+      "scene_id": "S02",
+      "cut_id": "K05",
+      "image_path": "images/C05/K05.png",
+      "prompt": "Use case: ads-marketing. New distinct photographic FIRST FRAME in exact same break room and with same Korean spies from reference: A beige coat black sunglasses LEFT; B navy jacket amber glasses RIGHT. 16:9 full-bleed. Front medium framing showing both faces, hands, open bags. The original black and dark-brown SOFT briefcases now stand on table with top zippers OPEN and top fabric lips clearly spread apart, black bag left and brown right. Preserve interlocked white plastic hooks connecting their inner handle straps at center, tape wraps unchanged. Each actor now holds ONE small cream envelope above their own bag at lower chest height, looking down solemnly. One hand holds envelope, other hand reaches INSIDE its mouth poised to pull out a flyer. ONLY a small plain MINT corner of paper peeks out, no magenta/black graphic visible yet. Exactly two envelopes, no extra paper, no duplicate bags. Contents NOT displayed yet. Background bulletin-board poster still blurred indistinct. Avoid already-open full flyers, extra props, written text or logos. Continue cheap practical spy melodrama, fluorescent light plus amber rim, human faces serious to a ridiculous degree.",
+      "reference_images": [
+        "\\\\wsl.localhost\\Ubuntu-24.04\\home\\wooseok\\wsy\\samsung_related\\slide\\AI실행결과발표대회_디자인3종\\storyboards\\2026-10-17_b-comedy-reboot-v3\\images\\C05\\K04.png"
+      ],
+      "source_generated_path": "C:\\Users\\wseok\\.codex\\generated_images\\01a149a2-d9c9-70e2-b538-eb2497e8c4e8\\exec-07b6ddb3-497b-4d06-8967-f5154f01c9c9.png",
+      "generation_tool": "image_gen",
+      "first_frame": "A·B는 각자 크림색 봉투 입구에 손을 넣고 안내장을 꺼내기 직전. 안쪽에 민트색 모서리만 보이고 동일 그래픽은 아직 공개되지 않음. 열린 가방 아래.",
+      "next_motion": "동시에 펼침 → 같은 그래픽 확인하며 대사 → 시선이 뒤쪽으로 움직이기 시작.",
+      "artist_review": {
+        "status": "self_review_pass_pending_independent_review",
+        "viewed": true,
+        "notes": "열린 소프트가방·봉투 각1·민트 모서리만 노출·그래픽 미공개 확인. 고리 연결 유지."
+      },
+      "revision": 1,
+      "actual_dimensions": {
+        "width": 1672,
+        "height": 941
+      },
+      "selected": false,
+      "artist_manifest": "image_manifest_artist2.json"
+    }
+  ],
+  "status": "complete_39_selected_first_frames_reviewed",
+  "ending_policy": "raw PNG is a text-free background plate; HTML title is a separate placement preview",
+  "flow_uploads": 0,
+  "new_videos": 0
+}

@@ -1,0 +1,38 @@
+from pathlib import Path
+import json
+
+ROOT = Path(__file__).resolve().parent
+path = ROOT / 'image_review_round1.json'
+data = json.loads(path.read_text(encoding='utf-8'))
+data['reviews']['A']['remaining_four'] = {
+    'actual_viewing': '31 selected independent PNGs and C01/C02/C04/C05 contact sheets; all five concepts now examined',
+    'findings': [{'id':'A-I002', 'concept_id':'C05','cut_id':'K01-K05','severity':'required','finding':'Early wall poster contains teal rows/boxes; K06 changes to mint/magenta ring/black steps. Focus alone cannot explain graphic change.','direction':'Local poster edit only, using K06 same graphic, strongly blurred or partially obscured to avoid early reveal.'}],
+    'verdicts': {'C01':'Prop alternation, collar-to-lectern and host dispatch connect; no required issue.', 'C02':'Notebook and crew approach accepted; tape may meet after wrist rotation. No image regeneration required by A.', 'C04':'Three viewers/chairs maintained; destination hidden until K06. K07 magician faces audience; assistant behind, hat uncompressed.', 'C05':'Hand ownership/hooks/final promotion correct; poster continuity requires repair.'},
+    'subjective_ratings': {'C01':[4,4,4,4,4],'C02':[4,3,4,4,4],'C04':[4,4,4,4,4],'C05':[4,4,4,4,3]},
+    'rating_order':'hook/humor/event/distinctness/readiness; subjective, not audience measurements',
+    'limits':'No real motion/audio/audience response or HTML title rendering verification.'
+}
+data['reviews']['B']['remaining_four'] = {
+    'actual_viewing': '31 selected independent PNGs and four contact sheets; all five concepts now examined',
+    'findings': [
+        {'id':'B-I002','concept_id':'C02','cut_id':'K06_v2','severity':'required','finding':'Tape tails are on outer sleeves, not pointing into the wrist gap; merely bringing cuffs together does not establish contact.','direction':'Two adhesive tails on inner cuffs, pointing inward; wrists still separated.'},
+        {'id':'B-I003','concept_id':'C05','cut_id':'K01-K05','severity':'required','finding':'Early white/teal poster differs from later mint/magenta ring/black steps.','direction':'Same graphic, retain distance and defocus.'},
+        {'id':'B-I004','concept_id':'C04','cut_id':'K07_v2','severity':'required','finding':'Audience faces converge on M, reading as recovered attention rather than looking past him at A hands. This is visual readability, not certain eye-target measurement.','direction':'Audience lean around M and look at A handle height. M faces viewers; hat uncompressed.'}
+    ],
+    'verdicts': {'C01':'No required issue; escalating prop function and dispatch connect.', 'C02':'Rewind acting and real crew work distinct; tape contact needs repair.', 'C04':'Audience 3→2→0 and K06 reveal work; final gaze contrast needs repair.', 'C05':'Bags/hooks/ownership correct; poster graphic continuity needs repair.'},
+    'limits':'No motion/audio/lip-sync/Flow-success verification.'
+}
+data['reviews']['C']['remaining_four'] = {
+    'actual_viewing': '31 selected independent PNGs and four contact sheets; all 39 selected images now examined',
+    'findings': [
+        {'id':'C-I002','concept_id':'C04','cut_id':'K07_v2','severity':'required','finding':'Audience attention reads toward magician and line to assistant hands is blocked. Eye target itself is not claimed certain.','direction':'Bring M/hat toward camera or move assistant hands; separate audience gaze corridor. Hat before compression.'},
+        {'id':'C-I003','concept_id':'C05','cut_id':'K01-K05','severity':'required','finding':'Early white/teal graphic changes to mint/magenta/black in K06, especially apparent across similar K05/K06 framing.','direction':'Use same early poster, small and blurred.'},
+        {'id':'C-I004','concept_id':'C01','cut_id':'K05-K06','severity':'suggestion','finding':'W holds high right side panel, not front flap.','direction':'Align future action to folding this visible side panel before pushing cart; no image regeneration.'},
+        {'id':'C-I005','concept_id':'C02','cut_id':'K06_v2','severity':'suggestion','finding':'Tape is on outer cuffs; simple hand closure may not bring adhesive together.','direction':'Specify brief wrist turn/cross to make contact. Current first frame usable.'}
+    ],
+    'verdicts': {'C01':'Escalation/overacting/props/ending space usable.', 'C02':'Reverse acting, notebook and tape aftermath distinct; current first frame usable with motion clarification.', 'C04':'Audience disappearance and delayed reveal work; attention target requires clearer framing.', 'C05':'Hooks/bags/envelopes/flyers/final posture clear; wall graphic continuity must be repaired.'},
+    'limits':'No motion/audio/lip-sync/audience reaction or rendered HTML title verification.'
+}
+data['status'] = 'independent_reviews_complete_39_images_each'
+path.write_text(json.dumps(data, ensure_ascii=False, indent=2)+'\n', encoding='utf-8')
+print('Image review responses recorded.')

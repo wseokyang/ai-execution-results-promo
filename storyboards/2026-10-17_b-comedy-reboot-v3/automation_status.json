@@ -1,0 +1,9 @@
+{
+  "automation_id": "ai-flow",
+  "status": "PAUSED",
+  "changed_on": "2026-10-17",
+  "reason": "사용자 요청: 기존 완성 C01 보존, 새 B급 시나리오 5개와 컷별 첫 프레임 이미지까지만 제작. 영상은 만들지 않는다.",
+  "confirmed_by": "mcp__codex_app__automation_update: Updated automation in the app / status PAUSED",
+  "resume_condition": "사용자의 별도 영상 제작 요청",
+  "flow_requests_this_run": 0
+}

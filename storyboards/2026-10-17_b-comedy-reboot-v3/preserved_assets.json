@@ -1,0 +1,13 @@
+{
+  "existing_final_film": {
+    "path": "../2026-10-17_C01-voicefix-v07/C01_recut_v07_36s.mp4",
+    "sha256": "b47a59928001291cbf9937e9eed609984725efa07c2deb0741deb5f6e6ca8b6c",
+    "verified_on": "2026-10-17",
+    "action": "preserve unchanged"
+  },
+  "previous_storyboards": "../2026-10-15_absurd-v2/",
+  "previous_flow_run": "../2026-10-17_flow-run-10/",
+  "new_concept_namespace": "2026-10-17_b-comedy-reboot-v3/C01-C05",
+  "new_concept_display_names": "신규 1안~신규 5안",
+  "note": "새 5안은 추가 기획이다. 이미 완성한 기존 1번 영상은 유지한다."
+}

@@ -1,0 +1,27 @@
+{
+  "stage": "storyboard_v2_recheck",
+  "source": "director_draft.json version director-draft-2",
+  "final_copy": "storyboards.json",
+  "concept_count": 5,
+  "cut_count": 39,
+  "durations_seconds": [31, 29, 31, 30, 29],
+  "ending_seconds_each": 6,
+  "reviewers": [
+    {"reviewer":"A","agent":"/root/reboot_review_a","actually_read_all_five":true,"required_unresolved":[],"decision":"이미지 제작을 막는 필수 문제 없음","notes":"C02 기록5초·C05 내용공개10초, C03 꽃다발 높이, C04 목적지 은닉과 관심 회수, C05 고리 콜백·손 배치를 재확인. 새 취향 수정 요구 없음."},
+    {"reviewer":"B","agent":"/root/reboot_review_b","actually_read_all_five":true,"required_unresolved":[],"decision":"콘티 검토 완료, 이미지 제작 진행 가능","notes":"C01 경험 배송 목표·상반신 노출, C03 마이크 회수, C04 반대 시선, C05 인물이 스스로 멈추는 동작과 생략 편집을 재확인."},
+    {"reviewer":"C","agent":"/root/reboot_review_c","actually_read_all_five":true,"required_unresolved":[],"decision":"이미지 제작 진행 가능","notes":"기존 모든 필수 지적 해결. 행사 사실의 새 오기·운영안 확정 표현·직원 조롱·Flow 기능 보장 없음. 실제 이미지 검수는 별도 필요."}
+  ],
+  "resolved_groups": [
+    {"ids":["A-001","B-001","C-001"],"status":"resolved","evidence":"C02 기록 제시·수락 3+2초, K03 소매 테이프 원인 명시"},
+    {"ids":["A-002","B-002","C-002"],"status":"resolved","evidence":"C05 K03~K06 총10초, 동일 문서와 공개 게시판의 별도 반전 유지"},
+    {"ids":["A-003","B-003","C-003"],"status":"resolved","evidence":"AI 활용 방법 목표, 고리에 스스로 멈춤, 안내장 들어 홍보인 척하는 인과. 가방 닫기·집기 생략 명시"},
+    {"ids":["A-004"],"status":"resolved","evidence":"C03 70cm 트로피+15cm 시상대 유지, 얼굴 가림은 T의 꽃다발"},
+    {"ids":["A-005","B-004","C-004"],"status":"resolved","evidence":"C04 목적지는 K06 첫 공개, 빈 객석2초"},
+    {"ids":["C-005"],"status":"resolved","evidence":"마술사 목표를 자기 장치 학습에서 관객 관심 회수로 변경"},
+    {"ids":["B-006","C-006"],"status":"resolved","evidence":"C03 이동·추종6초, 노트 삭제, K07 짧은 말과 마이크 회수"},
+    {"ids":["A-006","B-005","C-007"],"status":"resolved","evidence":"C01 첫말로 목표 명시, 시범·출고·말하기 3/4/3초"},
+    {"ids":["A-007","B-007","C-008"],"status":"resolved","evidence":"C01 골판지 발표대, C02 기록, C03 중계 마이크로 결말 구별"}
+  ],
+  "actual_images_reviewed_at_this_stage": 0,
+  "pd_decision": "세 검수자의 실제 v2 재확인 수집 후 39컷 첫 프레임 이미지 제작 승인. 사용자 추가 승인 대기 없음."
+}

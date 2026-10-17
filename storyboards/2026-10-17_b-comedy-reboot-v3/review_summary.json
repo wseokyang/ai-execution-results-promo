@@ -1,0 +1,98 @@
+{
+  "status": "planning_and_first_frame_images_complete",
+  "storyboard": {
+    "concepts": 5,
+    "cuts": 39,
+    "durations_seconds": [
+      31,
+      29,
+      31,
+      30,
+      29
+    ],
+    "reviewers": [
+      "A",
+      "B",
+      "C"
+    ],
+    "independent_then_peer_cross_then_revision_confirmation": true,
+    "record": "review_revision_confirmation.json"
+  },
+  "images": {
+    "selected": 39,
+    "independent_reviewers": [
+      "A",
+      "B",
+      "C"
+    ],
+    "each_reviewed_all_39_actual_selected_PNGs": true,
+    "peer_cross_review_complete": true,
+    "required_revision_recheck_complete": true,
+    "all_png_including_history": 58,
+    "records": [
+      "image_review_round1.json",
+      "image_review_selection_round1.json",
+      "image_review_cross.json",
+      "image_revision_confirmation.json"
+    ]
+  },
+  "required_image_repairs": [
+    {
+      "cuts": "C05 K01-K05",
+      "reason": "same public poster must exist before reveal",
+      "result": "same mint/magenta/black design, defocused at beginning"
+    },
+    {
+      "cuts": "C04 K07",
+      "reason": "audience must continue watching assistant, not magician",
+      "result": "foreground magician/hat separated from attention corridor"
+    },
+    {
+      "cuts": "C02 K06",
+      "reason": "simple tape contact must work in five-second beat",
+      "result": "two inward-facing tape tails; wrists and tails initially separated"
+    }
+  ],
+  "document_alignment": [
+    "C01 visible side panel and host hand withdrawal",
+    "C02 actor-right notebook coordinate",
+    "C04 foreground magician movement",
+    "C05 inner bag / outer flyer hand naming",
+    "C05 title left53% placement",
+    "all image_file values match selected manifest"
+  ],
+  "optional_retained": [
+    {
+      "id": "C03 ending pose",
+      "decision": "retain chin-resting title-plate pose; does not undo role reversal"
+    },
+    {
+      "id": "C03 sleeve stripe",
+      "decision": "fine two-line/one-line difference remains in K05/K06 versus adjacent shots; identity and handoff clear"
+    }
+  ],
+  "pd_reason": "Prioritize readable causes, changing events and reversals. Optional costume/pose polish does not justify disturbing usable frames.",
+  "purpose_recommendations": {
+    "attendance": "C04",
+    "event_opening": "C02",
+    "broad_overacting": "C01"
+  },
+  "unverified": [
+    "motion timing in actual video",
+    "pronunciation",
+    "lip-sync",
+    "measured audience humor response",
+    "future Flow generation success"
+  ],
+  "event_unknowns": [
+    "exact date/time",
+    "venue",
+    "attendance route",
+    "awards",
+    "performance figures"
+  ],
+  "flow_uploads": 0,
+  "new_video_audio_generation": 0,
+  "automation": "PAUSED",
+  "existing_C01": "preserved unchanged"
+}
