@@ -1,6 +1,7 @@
 # 경로는 모두 이 프로젝트 폴더(AGENTS.md가 있는 폴더)를 기준으로 한다.
 # 초기 조사 기록이다. 후속 기획 실행 시 사용자 최신 지시와 원자료로 갱신한다.
 team_name = "AI 실행 결과 발표대회 홍보영상팀"
+# 최신 2026-10-18 사용자 피드백은 맨 아래 creative_direction_2026_10_18을 우선한다.
 prepared_on = "2026-10-14"
 project_root_relative_to_this_file = ".."
 setup_scope = "2026-10-14 사용자 실제 기획 요청 시작: 팀 확인 후 5안 기획·교차검수·씬 대표 이미지 제작. Flow 영상 제작 제외."
@@ -80,3 +81,12 @@ id = "v8_document_crowd"
 observation = "검사표·시험조건·변경 이력이 사람으로 몰려오며 짧은 삽입 컷을 쌓다가 자료만 주세요라는 말로 멈춤"
 storyboard = "../../../motion/qrew_old/v8-recut/output/QREW-v8-recut-storyboard.png"
 notes = "../../../motion/qrew_old/v8-recut/audio-notes.txt"
+
+[creative_direction_2026_10_18]
+user_preference = "돌고래유괴단 광고 감성을 선호. 2026-10-17 신규 5안은 그 감성이 고려되지 않았다는 사용자 피드백. 레퍼런스는 유튜브에서 직접 조사하며 사용자에게 다시 고르게 하지 않는다."
+creative_status = "신규 v3 콘티·39장 이미지의 제작 완료는 보존하되, 재미와 방향 적합성은 미해결. 기존 완성 C01 36초 영상은 유지한다."
+audit = "storyboards/2026-10-18_dolphiners-direction-audit/reference_audit.json"
+reset_brief = "storyboards/2026-10-18_dolphiners-direction-audit/creative_reset_brief.json"
+priority = "인물 목표·선택·사건의 확대·예상의 전복·행사 목적과 사건의 결합을 먼저 검수한다. 소품 연속성의 성립을 재미와 혼동하지 않는다."
+visual_rule = "B급을 저예산처럼 보이는 소품극과 동일시하지 않는다. 각 이야기의 필요에 따라 장르·촬영·미술·연기를 설계한다. 제작사 전체를 무표정·정적 또는 시네마틱 반전 한 공식으로 정의하지 않는다."
+scope = "이번 기록은 조사·진단·방향 수정이다. 새 5안·이미지 제작 완료 아님. 영상 생성·Flow 업로드 금지, 예약 PAUSED 유지."
