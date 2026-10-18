@@ -1,0 +1,17 @@
+프로젝트 씬 대표 이미지 제작 계약. 반드시 상세콘티 검토가 완료됐다는 총괄 지시 뒤 실제 생성한다.
+AGENTS.md, 본인 역할파일, C:/Users/wseok/.codex/skills/.system/imagegen/SKILL.md 읽기. 기본 내장 image_gen 도구만 사용. CLI/API/Flow/영상/음원 금지. 다른 하위팀 생성금지.
+현재 작업자 여럿이 같은 폴더를 쓰므로 본인에게 배정된 images/Cxx/와 image_manifest_Cxx.json만 작성한다. 타 파일/기존결과 되돌리거나 덮어쓰지 말것. 수정본은 Sxx_v2.png처럼 추가한다. storyboards.json은 총괄만 수정한다.
+
+읽기: storyboards.json의 배정 콘셉트 모든 컷. first_frame/next_motion/연속성/인물복장/구도/자막자리 확인. 한컷=독립PNG1장, 콜라주대체금지. 이미지를 생성하기전에 해당컷과 앞뒤행동을읽고 새컷시작상태를정확히그린다. 반전공개컷은작은텍스트없이도증거보이도록.
+16:9 실사광고 첫프레임. 각 안의 장르 유지. 문자/브랜드/행사명/로고는 후편집, 이미지에는 의도치않은문자/엉뚱한로고금지. 필수화면상문구가있다면정확성검수. 인물은허구의한국인, 특정유명인닮게요청하지않음.
+안별첫생성이기준이미지. 이후에는기준및직전관련이미지를실제로열어확인한뒤 referenced_image_paths로같은인물/공간/소품유지. 참조가불필요한인물변경/다른실제장소는그때만신규기준. 모든프롬프트와참조경로기록.
+
+도구: functions.exec 첫줄 // @exec: {"yield_time_ms": 120000, "max_output_tokens": 1000} 로 image_gen 호출, 완료시 generatedImage(result). 결과전체/base64를 text로덤프하지말것. 실패/수단부재는정확히기록하고CLI로바꾸지않음. 처음원본은C:/Users/wseok/.codex/generated_images/...에저장되므로실제반환경로에서배정폴더로바이트그대로복사. 파일저장후view_image로열어확인(도구반환에서이미실제로봤다면그사실기록). 필요하면원본SHA/복사SHA대조.
+완료한컷마다작은manifest를저장해중단시에도원본/프롬프트보존. 복사/메타데이터/검수용연락판에는Python/Pillow가능, 생성이미지내용수정에는image_gen만.
+
+manifest 형식:
+{"artist":"에이전트명","concept_id":"Cxx","images":[
+ {"concept_id":"Cxx","cut_id":"K01","scene_id":"S01","image_path":"images/Cxx/S01.png","prompt":"실제로제출한전체영문/한글프롬프트","reference_images":["실제로참조한절대경로"],"source_generated_path":"원본절대경로","generation_tool":"image_gen","selected":true,"artist_review":{"opened_actual_image":true,"status":"artist_pass 또는 needs_review","notes":"실제본사항과잔존문제"}}
+]}
+수정전파일은보존하고수정전엔트리selected:false. 원본누락이면완료로보고하지말것.
+완료보고: 컷별실제경로, 생성총수, 기준이미지, 구체잔존문제, 새미디어가PNG뿐임. 콘티/영상움직임/음성/관객반응검증했다고하지말것.

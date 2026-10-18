@@ -1,0 +1,69 @@
+{
+  "stage": "three reviewers final actual-image revision confirmation",
+  "reviewers": {
+    "A": {
+      "required_unresolved": 0,
+      "actual_opened_this_round": [
+        "images/C02/S08_v6.png",
+        "images/C02/S09_v3.png"
+      ],
+      "previous_actual_recheck": [
+        "images/C05/S06_v2.png",
+        "images/C05/S07_v2.png"
+      ],
+      "dispositions": {
+        "A_I01": "해결: 팬4명표시면앞쪽, 왼끝노트북과바닥스타시선틈, 두컷같은배치/보호손보존",
+        "B_I01": "해결: C05두v2벤치아래복제제거/전경인과보존, 선택경로반영",
+        "B_I02": "제안유지: 선행가려진검은면앞뒤미확정, 후속화면광관리",
+        "C_I01": "PD수용/제안: 호루라기차이추가재생성없음"
+      },
+      "conclusion": "이미지검수범위완료가능,새필수없음"
+    },
+    "B": {
+      "required_unresolved": 0,
+      "actual_opened_this_round": [
+        "images/C02/S08_v6.png",
+        "images/C02/S09_v3.png",
+        "contact_sheets/C02_all_cuts.jpg",
+        "contact_sheets/C05_all_cuts.jpg"
+      ],
+      "previous_actual_recheck": [
+        "images/C05/S06_v2.png",
+        "images/C05/S07_v2.png"
+      ],
+      "dispositions": {
+        "A_I01": "해결: 팬4명표시면앞쪽, 왼끝노트북과바닥스타시선틈, 두컷같은배치/보호손보존",
+        "B_I01": "해결: C05두v2벤치아래복제제거/전경인과보존, 선택경로반영",
+        "B_I02": "제안유지: 선행가려진검은면앞뒤미확정, 후속화면광관리",
+        "C_I01": "PD수용/제안: 호루라기차이추가재생성없음"
+      },
+      "mapping": "컷·씬·manifest selected·contact수정경로일치",
+      "conclusion": "대표이미지검수완료가능,C03보존"
+    },
+    "C": {
+      "required_unresolved": 0,
+      "actual_opened_this_round": [
+        "images/C02/S08_v6.png",
+        "images/C02/S09_v3.png",
+        "contact_sheets/C02_all_cuts.jpg",
+        "contact_sheets/C05_all_cuts.jpg"
+      ],
+      "previous_actual_recheck": [
+        "images/C05/S06_v2.png",
+        "images/C05/S07_v2.png"
+      ],
+      "dispositions": {
+        "A_I01": "해결: 팬4명표시면앞쪽, 왼끝노트북과바닥스타시선틈, 두컷같은배치/보호손보존",
+        "B_I01": "해결: C05두v2벤치아래복제제거/전경인과보존, 선택경로반영",
+        "B_I02": "제안유지: 선행가려진검은면앞뒤미확정, 후속화면광관리",
+        "C_I01": "PD수용/제안: 호루라기차이추가재생성없음"
+      },
+      "mapping": {
+        "selected_count": 43,
+        "mismatches": 0
+      },
+      "conclusion": "기존핵심해결,새필수없음"
+    }
+  },
+  "scope_limit": "원본2장/이전수정2장과명시연락표·매핑확인. 실제영상움직임·음성·최종자막·관객반응·Flow성공미검증. 세명동의는관객재미증명이아님."
+}

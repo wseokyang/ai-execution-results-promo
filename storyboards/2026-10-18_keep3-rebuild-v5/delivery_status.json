@@ -1,0 +1,14 @@
+{
+  "status": "complete",
+  "scope": "4 rebuilt scenarios and actual per-cut first frames, C03 preserved",
+  "concepts": 5,
+  "selected_images": 43,
+  "new_images": 35,
+  "retained_images": 8,
+  "new_video": false,
+  "new_audio": false,
+  "flow_upload": false,
+  "credits_used": 0,
+  "automation": "PAUSED retained",
+  "audience_or_user_creative_approval": false
+}

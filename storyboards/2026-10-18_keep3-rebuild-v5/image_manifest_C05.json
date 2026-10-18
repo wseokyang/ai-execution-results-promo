@@ -1,0 +1,235 @@
+{
+  "artist": "/root assisting keyframe production",
+  "concept_id": "C05",
+  "images": [
+    {
+      "concept_id": "C05",
+      "cut_id": "K01",
+      "scene_id": "S01",
+      "image_path": "images/C05/S01.png",
+      "prompt": "Create ONE photorealistic cinematic first frame of an original Korean absurd family comedy commercial, shot C05 S01. Wide 16:9 horizontal image. It initially feels like a tasteful home-invasion thriller, with cool blue evening window light and restrained high-end film lighting, but nobody is actually endangered. A modest contemporary Korean apartment living room, fixed low camera near the sofa at children's eye height. On the LEFT is a compact forest-green two-seat sofa set slightly diagonally, in front of full-height plain muted taupe curtains on the left wall. An ordinary empty wooden armless performance chair stands in the CENTER facing toward the sofa. On the RIGHT BACK is the apartment entry hall and a low plain wooden entrance bench; clearly establish these spatial anchors. Two fully clothed Korean children crouch behind the sofa and anxiously look toward the entry: an early-teen girl with a short black bob and navy-and-cream striped T-shirt, and a younger boy with short black hair and mustard yellow T-shirt. Their eyes and small hand grips on the sofa top are readable, restrained comic dread. Their mother, a Korean woman in her early forties with shoulder-length black hair, coral cardigan and cream trousers, stands by the left curtains, holding the curtain edge just before closing the last narrow gap. She is calmly busy preparing the room, neutral purposeful face, NOT frightened. Her free hand is near the sofa back, ready later to rotate it toward the empty center chair. No father yet, no laptop, no bags, no accordion, no tambourine, no dog yet. Natural distinct faces, real fabric, photographic architecture, consistent believable geography, generous negative space above the room. Suspense through framing and shadows, not a monster or intruder. No captions, logos, text, watermarks, collage, panels or UI. This is a single actual scene, BEFORE the mother closes the curtain and rotates the sofa.",
+      "reference_images": [],
+      "source_generated_path": "C:\\Users\\wseok\\.codex\\generated_images\\01a13daf-3732-7b90-99a8-92c605090d35\\exec-a45e1a28-ed9d-4ce0-bbb4-2511f9a598ef.png",
+      "generation_tool": "image_gen",
+      "selected": true,
+      "artist_review": {
+        "opened_actual_image": true,
+        "status": "artist_pass",
+        "notes": "생성 도구의 실제 픽셀 열람. 왼쪽 녹색 소파/아이들, 커튼 준비 엄마, 중앙 빈 의자, 오른쪽 현관 기준 확보. 아이들은 소파 팔걸이 뒤로 낮게 숨은 상태. 새 동작/문자는 없음."
+      },
+      "sha256": "c04d7ea8f9084cea37ac7c3cac9d8d4ea229557aa002c09b925fd4b79b3ea6dd",
+      "source_copy_sha256_match": true,
+      "width": 1672,
+      "height": 941
+    },
+    {
+      "concept_id": "C05",
+      "cut_id": "K02",
+      "scene_id": "S02",
+      "image_path": "images/C05/S02.png",
+      "prompt": "Create ONE photorealistic cinematic first frame for original Korean family comedy C05 S02, 16:9 horizontal. Use the attached first frame as the exact apartment reference: forest green sofa on left (can be off-frame), taupe curtains now CLOSED, wooden entry bench at right rear, same dark gray entry door, wood floor, tasteful lived-in apartment. Camera has moved closer to the entrance bench, a fixed medium-wide shot. A fictional Korean father in his early forties, short neat black hair, gentle ordinary face, light pale-gray button-up shirt, navy trousers and plain socks has just arrived. He holds a closed plain SILVER laptop visibly with both hands above a fully OPEN SOFT GRAY laptop shoulder bag on the wooden entry bench; the bag has wide black woven loop handles. This is BEFORE he puts the laptop inside, closes the zipper and places the gray bag on the floor below the bench. The silver laptop and gray bag association must be unmistakable, center of frame. Separately on the FLOOR to his right is a much larger rigid rectangular BURGUNDY instrument case, closed; do not show its contents or an accordion yet. Show both clearly distinct bags, father's face and hands and floor. No mother or children in this tighter entrance view, no dog. Carry over cool evening thriller atmosphere with a little warm practical light from the main room. Serious cinematic framing, natural anatomy and understated relieved father expression. No brands, Apple logo, text, screens, captions, watermark or collage. Grounded one-room geography, one single actual starting frame.",
+      "reference_images": [
+        "\\\\wsl.localhost\\Ubuntu-24.04\\home\\wooseok\\wsy\\samsung_related\\slide\\AI실행결과발표대회_디자인3종\\storyboards\\2026-10-18_keep3-rebuild-v5\\images\\C05\\S01.png"
+      ],
+      "source_generated_path": "C:\\Users\\wseok\\.codex\\generated_images\\01a13daf-3732-7b90-99a8-92c605090d35\\exec-354b59b0-0576-4ea2-b5d1-dff7525b9974.png",
+      "generation_tool": "image_gen",
+      "selected": true,
+      "artist_review": {
+        "opened_actual_image": true,
+        "status": "artist_pass",
+        "notes": "실제 출력 열람. 은색 노트북과 열린 회색 가방 결합 명확, 버건디 케이스 별도, 같은 현관·벤치·커튼. 아빠 기준 확보."
+      },
+      "sha256": "40c72570f708bbf0e691085faba67a3efbc2b51680561f16b97f3753bd308273",
+      "source_copy_sha256_match": true,
+      "width": 1672,
+      "height": 941
+    },
+    {
+      "concept_id": "C05",
+      "cut_id": "K03",
+      "scene_id": "S03",
+      "image_path": "images/C05/S03.png",
+      "prompt": "Generate ONE original Korean family-comedy cinematic first frame C05 S03, 16:9 photorealistic horizontal. Use reference S01 for the SAME apartment, mother/children casting, forest-green sofa left, CLOSED taupe curtains left, empty wooden armless chair now occupied at center, right-back dark entry door/bench. Use S02 for the EXACT same fictional father (short black hair, pale gray shirt with sleeves to forearms, navy trousers, gray socks), same gray laptop bag and large burgundy case. The time cut has moved the father and the burgundy instrument case to the central performance chair. Camera: over the two children's shoulders from the sofa, fixed medium-wide, their black-haired heads and striped navy/cream T-shirt and mustard T-shirt appear small in the foreground. The father sits upright on the wooden chair at CENTER and reveals a full-sized beautiful accordion across his chest: black and ivory keys with burgundy bellows, both hands correctly holding its playing sides, friendly eager smile, just BEFORE playing the first note. The instrument is immediately obvious and substantial. A large rigid burgundy accordion case is OPEN on the FLOOR on image RIGHT next to his chair, empty shaped interior visible. The closed SOFT GRAY laptop bag is still below the entry bench at right BACK, clearly a different object, not beside the father. Mother is outside this crop; do not reveal a tambourine. The room now shifts into warm attractive amber practical lighting, a polished cozy family performance, not horror violence. Children turn their attention to the performer; this frame should reveal the feared event is dad's enthusiastic concert. Preserve floor, rug, sideboard, plants and spatial geography from references. Natural faces, hands and instrument straps. No dog yet. No lettering, logo, caption, UI, watermark, extra people or collage.",
+      "reference_images": [
+        "\\\\wsl.localhost\\Ubuntu-24.04\\home\\wooseok\\wsy\\samsung_related\\slide\\AI실행결과발표대회_디자인3종\\storyboards\\2026-10-18_keep3-rebuild-v5\\images\\C05\\S01.png",
+        "\\\\wsl.localhost\\Ubuntu-24.04\\home\\wooseok\\wsy\\samsung_related\\slide\\AI실행결과발표대회_디자인3종\\storyboards\\2026-10-18_keep3-rebuild-v5\\images\\C05\\S02.png"
+      ],
+      "source_generated_path": "C:\\Users\\wseok\\.codex\\generated_images\\01a13daf-3732-7b90-99a8-92c605090d35\\exec-fcd7fa3b-2e3e-45a3-a198-9e1ff5c773e6.png",
+      "generation_tool": "image_gen",
+      "selected": true,
+      "artist_review": {
+        "opened_actual_image": true,
+        "status": "artist_pass",
+        "notes": "실제 출력 열람. 아빠 동일, 아코디언 즉시 공개, 버건디 열린 케이스 오른쪽/회색 가방 현관 아래 구별. 따뜻한 공연 색으로 전환. 케이스 내부 수납형상은 일반적 소품표현."
+      },
+      "sha256": "e4793a2a69c22336a17f3ad242d4534fc2a2c4a418d62a73a0c834590f80f544",
+      "source_copy_sha256_match": true,
+      "width": 1672,
+      "height": 941
+    },
+    {
+      "concept_id": "C05",
+      "cut_id": "K04",
+      "scene_id": "S04",
+      "image_path": "images/C05/S04.png",
+      "prompt": "Generate ONE photorealistic original Korean family comedy first frame C05 S04. 16:9 landscape film still. Use S01 as the exact mother/children/green-sofa/curtain reference and S03 as the now WARM amber performance lighting and room geography. Fixed medium camera beside the left end of the forest-green sofa, closed taupe curtains across the background. SAME mother: Korean early-forties woman, shoulder-length black hair, coral cardigan over pale top, cream trousers. She now has a delighted conspiratorial smile, looking toward the father performing offscreen on image RIGHT. In her RIGHT hand at shoulder height she visibly holds a real wooden golden tambourine with metal jingles, revealed immediately. Her LEFT hand rests on the near end of the green sofa, poised to give it one last small rotation toward the performance chair. The mother was preparing the concert all along, not rescuing the kids. Foreground on the sofa is the same young boy with short black hair and mustard T-shirt: show his torso, shoulder, attached arm and open hand reaching toward her for help, and his astonished dismayed face in three-quarter view. The older girl with black bob and navy/cream striped shirt can be partially visible next to him, slumped. Keep fingers and bodies clearly attached and anatomically natural. No accordion or father in this tighter frame; their performance continues offscreen. No dog or extra props. This is BEFORE she taps the tambourine and the child's hand drops. Single coherent cinematic scene, warm domestic texture, sober realistic acting that makes the betrayal funny, not cartoon faces. Do not change mother face, outfits, sofa fabric or closed curtains. No lettering, caption, logo, watermarks or collage.",
+      "reference_images": [
+        "\\\\wsl.localhost\\Ubuntu-24.04\\home\\wooseok\\wsy\\samsung_related\\slide\\AI실행결과발표대회_디자인3종\\storyboards\\2026-10-18_keep3-rebuild-v5\\images\\C05\\S01.png",
+        "\\\\wsl.localhost\\Ubuntu-24.04\\home\\wooseok\\wsy\\samsung_related\\slide\\AI실행결과발표대회_디자인3종\\storyboards\\2026-10-18_keep3-rebuild-v5\\images\\C05\\S03.png"
+      ],
+      "source_generated_path": "C:\\Users\\wseok\\.codex\\generated_images\\01a13daf-3732-7b90-99a8-92c605090d35\\exec-e96f05e9-a2c6-4ef8-aa9d-3d6ff41ee7cc.png",
+      "generation_tool": "image_gen",
+      "selected": true,
+      "artist_review": {
+        "opened_actual_image": true,
+        "status": "artist_pass",
+        "notes": "실제 출력 열람. 엄마 오른손 탬버린/왼손 소파, 아들 구원 손짓과 웃는 엄마 대비가 명확. 같은 의상·커튼·소파. 남매 위치는 팔걸이 뒤/소파 안쪽으로 읽혀 숨는 동작 기준으로 수용."
+      },
+      "sha256": "372eda9fe3aab339c02f16040060af1b0fe72d53df2a34c223b22dfb149d4703",
+      "source_copy_sha256_match": true,
+      "width": 1672,
+      "height": 941
+    },
+    {
+      "concept_id": "C05",
+      "cut_id": "K05",
+      "scene_id": "S05",
+      "image_path": "images/C05/S05.png",
+      "prompt": "Generate ONE original cinematic photoreal Korean family comedy first frame C05 S05, 16:9 wide. Match the exact fictional family, apartment and props in the references: father seated on central wooden armless chair in pale gray rolled-sleeve shirt, navy pants and gray socks playing a large burgundy accordion with ivory/black keys; mother shoulder-length black hair coral cardigan cream pants standing by the LEFT green sofa enthusiastically holding her real golden wooden tambourine; daughter black bob striped navy/cream T-shirt and younger son mustard T-shirt slumped against the green sofa cushions, visibly resigned in a comic tiny audience. Warm amber light, closed taupe curtains left, right-back entrance black door and wooden bench, sideboard globe lamp. OPEN rigid burgundy accordion case on floor image RIGHT beside dad. CLOSED gray soft laptop bag with black loop handles remains SMALL under right-back entry bench, unremarked, not beside dad. Introduce ONE medium-sized tan Korean mixed-breed dog with a white chest patch, pointed slightly floppy ears and plain forest green collar, sitting in foreground center-left facing the PERFORMERS and looking UP at dad's face/accordion, with a neutral patient expression. The dog must NOT look at the bag or entrance, not touch any bag; no advance hint of its upcoming action. Wide shot from camera near sofa front, all five family figures (2 adults,2 children,1 dog) visible, no extras. The still is just before father squeezes the next accordion beat and mother taps tambourine; children remain limp. Exaggerated cheerful parents against dead-tired children, premium believable photography, not cartoon or extreme distorted faces. Preserve accurate fingers, instrument straps and floor geometry. No text, logo, UI, watermark or collage.",
+      "reference_images": [
+        "\\\\wsl.localhost\\Ubuntu-24.04\\home\\wooseok\\wsy\\samsung_related\\slide\\AI실행결과발표대회_디자인3종\\storyboards\\2026-10-18_keep3-rebuild-v5\\images\\C05\\S01.png",
+        "\\\\wsl.localhost\\Ubuntu-24.04\\home\\wooseok\\wsy\\samsung_related\\slide\\AI실행결과발표대회_디자인3종\\storyboards\\2026-10-18_keep3-rebuild-v5\\images\\C05\\S03.png",
+        "\\\\wsl.localhost\\Ubuntu-24.04\\home\\wooseok\\wsy\\samsung_related\\slide\\AI실행결과발표대회_디자인3종\\storyboards\\2026-10-18_keep3-rebuild-v5\\images\\C05\\S04.png"
+      ],
+      "source_generated_path": "C:\\Users\\wseok\\.codex\\generated_images\\01a13daf-3732-7b90-99a8-92c605090d35\\exec-a53c5adc-1a53-4ade-bbef-7a622460cc8d.png",
+      "generation_tool": "image_gen",
+      "selected": true,
+      "artist_review": {
+        "opened_actual_image": true,
+        "status": "artist_pass_with_note",
+        "notes": "실제 출력 열람. 부모는 신나고 남매는 축 늘어진 대비. 개는 아빠 얼굴/악기 쪽만 보고 있어 뒤 반전 선노출 없음. 초록목줄과 황갈색 털 확정. 회색 가방은 현관 뒤 그림자/가림으로 식별 안됨; 선행 S02로 소재 도입되고 이 컷 강조 불필요라 수용."
+      },
+      "sha256": "a3f5ef6453327f3414408cb98f52eb98ac5b1da157260a6c6fda83a468ccc2e3",
+      "source_copy_sha256_match": true,
+      "width": 1672,
+      "height": 941
+    },
+    {
+      "concept_id": "C05",
+      "cut_id": "K06",
+      "scene_id": "S06",
+      "image_path": "images/C05/S06.png",
+      "prompt": "Generate ONE original cinematic photoreal first frame for Korean family comedy C05 S06 in 16:9. CONTINUITY: use S05 same tan medium dog with white chest, floppy pointed ears and forest-green collar, exact same father on wooden chair pale-gray rolled shirt/navy pants/gray socks with the same burgundy accordion strapped across chest, same warm apartment/rug. Use S02 exact SOFT GRAY laptop shoulder bag with wide black fabric loop handles, NOT burgundy hard case, not briefcase. Use S03 for burgundy accordion and open rigid burgundy case positioned on floor image RIGHT of father's chair. Camera is a fixed knee-height medium close shot: crop father's upper face out, show accordion lower bellows/keyboard, his two hands on instrument sides, lap and both legs/feet, dog head/body at LEFT and gray bag on rug CENTER just 20 cm before dad's socks. The dog has suddenly arrived with this laptop bag, muzzle touches bag's left side, poised to nudge it the last 20 cm toward dad. Still image just BEFORE final nose shove. No handle in mouth, no paws stuck in bag, closed zipper and natural weight. The dog stands on floor facing right toward father's feet, bag is physically between dog muzzle and dad. Burgundy OPEN EMPTY instrument case remains separate on far RIGHT edge, accordion remains across father's torso. Do not show transport from entrance, do not add dog duplicates or other people. Comedy is the unannounced return of dad's work bag interrupting music. No laptop visible yet. Realistic scale and shadows; bag must be clearly gray and different from burgundy case. No text, logo, captions, UI or collage.",
+      "reference_images": [
+        "\\\\wsl.localhost\\Ubuntu-24.04\\home\\wooseok\\wsy\\samsung_related\\slide\\AI실행결과발표대회_디자인3종\\storyboards\\2026-10-18_keep3-rebuild-v5\\images\\C05\\S02.png",
+        "\\\\wsl.localhost\\Ubuntu-24.04\\home\\wooseok\\wsy\\samsung_related\\slide\\AI실행결과발표대회_디자인3종\\storyboards\\2026-10-18_keep3-rebuild-v5\\images\\C05\\S03.png",
+        "\\\\wsl.localhost\\Ubuntu-24.04\\home\\wooseok\\wsy\\samsung_related\\slide\\AI실행결과발표대회_디자인3종\\storyboards\\2026-10-18_keep3-rebuild-v5\\images\\C05\\S05.png"
+      ],
+      "source_generated_path": "C:\\Users\\wseok\\.codex\\generated_images\\01a13daf-3732-7b90-99a8-92c605090d35\\exec-cd0dc9ea-8517-4e9d-b5f4-78ee6836ca16.png",
+      "generation_tool": "image_gen",
+      "selected": false,
+      "artist_review": {
+        "opened_actual_image": true,
+        "status": "superseded_due_to_background_bag_duplicate",
+        "notes": "실제 출력 열람. 회색 업무가방/버건디 악기케이스 명확히 구별. 개 코가 회색 가방 접촉, 아빠 악기 연주 유지. 예정 20cm보다 이미 발에 가까워 마지막 짧은 코 밀기+음악정지 시작점으로 사용."
+      },
+      "sha256": "7c9056519e8fec90c7b170a02ac0f29c2ae1ca451232ead6f4020e15b7d4c26d",
+      "source_copy_sha256_match": true,
+      "width": 1672,
+      "height": 941
+    },
+    {
+      "concept_id": "C05",
+      "cut_id": "K07",
+      "scene_id": "S07",
+      "image_path": "images/C05/S07.png",
+      "prompt": "Create ONE original Korean family comedy cinematic photoreal first frame C05 S07, 16:9. CONTINUITY: same father face/clothing and warm living room as S05, same tan medium dog with white chest and green collar as S06, same SOFT GRAY laptop bag/black loop handles and silver unbranded laptop as S02. Same burgundy accordion and its rigid burgundy case as S03. A clean narrative jump cut has OMITTED stowing accordion and lifting bag; do not show those actions. NOW father still sits center on wooden armless chair, gray bag rests flat across his lap with zipper partially open 10 cm, a silver laptop corner visible inside. Both hands naturally hold top edges of gray bag about to open and reveal laptop. Accordion is OFF his body and placed inside the OPEN BURGUNDY CASE on the FLOOR IMAGE RIGHT next to chair; show obvious black/ivory keyboard and burgundy bellows resting in it. Dog sits on floor IMAGE LEFT next to dad, in profile, his head currently turned to look at the ACCORDION inside right-side floor case, not yet at laptop. Father looks down at his gray bag with puzzled mild expression. Fixed low medium-wide camera including father's full face, lap bag, dog's entire face, and floor accordion case in one frame. Natural believable continuous floor and eyelines; the dog will later make ONE head turn from accordion to laptop, not repeated looking. Upper background closed taupe curtain left, sideboard globe lamp center and entrance dark door right. Children and mother outside this tight crop. First frame before opening laptop, not already working, no laptop UI or invented result. Same realistic proportions, warm premium light, accurate hands, no duplicate instrument or bags, no captions, no text/logo/watermark, no collage.",
+      "reference_images": [
+        "\\\\wsl.localhost\\Ubuntu-24.04\\home\\wooseok\\wsy\\samsung_related\\slide\\AI실행결과발표대회_디자인3종\\storyboards\\2026-10-18_keep3-rebuild-v5\\images\\C05\\S02.png",
+        "\\\\wsl.localhost\\Ubuntu-24.04\\home\\wooseok\\wsy\\samsung_related\\slide\\AI실행결과발표대회_디자인3종\\storyboards\\2026-10-18_keep3-rebuild-v5\\images\\C05\\S03.png",
+        "\\\\wsl.localhost\\Ubuntu-24.04\\home\\wooseok\\wsy\\samsung_related\\slide\\AI실행결과발표대회_디자인3종\\storyboards\\2026-10-18_keep3-rebuild-v5\\images\\C05\\S05.png",
+        "\\\\wsl.localhost\\Ubuntu-24.04\\home\\wooseok\\wsy\\samsung_related\\slide\\AI실행결과발표대회_디자인3종\\storyboards\\2026-10-18_keep3-rebuild-v5\\images\\C05\\S06.png"
+      ],
+      "source_generated_path": "C:\\Users\\wseok\\.codex\\generated_images\\01a13daf-3732-7b90-99a8-92c605090d35\\exec-9d437482-564f-440b-a983-7aaed8eb7c39.png",
+      "generation_tool": "image_gen",
+      "selected": false,
+      "artist_review": {
+        "opened_actual_image": true,
+        "status": "superseded_due_to_background_bag_duplicate",
+        "notes": "실제 출력 열람. 아빠 무릎 회색 가방의 은색 노트북, 오른쪽 케이스에 놓인 아코디언, 왼쪽 개 시선이 낮게 오른쪽으로 향함. 가방은 예정 10cm보다 넓게 열렸지만 노트북 뚜껑은 닫혀 있어 다음 공개 동작 가능. 손 정상."
+      },
+      "sha256": "ca285b185f86fbce2a0f869f784c6454014560f3bec1d8cb4c21f2f6e439ee8f",
+      "source_copy_sha256_match": true,
+      "width": 1672,
+      "height": 941
+    },
+    {
+      "concept_id": "C05",
+      "cut_id": "K08",
+      "scene_id": "S08",
+      "image_path": "images/C05/S08.png",
+      "prompt": "Generate ONE original Korean family comedy final first frame C05 S08 in photoreal cinematic 16:9. Match same family and exact apartment in references S04/S05/S07. Frame a fixed wider shot with family lower/right and ample EMPTY CLOSED TAUPE CURTAIN negative space at TOP LEFT for later 6-second title (DO NOT draw title). Father (same neat black hair, pale gray rolled shirt/navy pants/gray socks) is seated CENTER-RIGHT on wooden chair. On his lap lies the same GRAY soft laptop bag with black loop handles flattened beneath the OPEN silver unbranded laptop; laptop screen faces father and back lid faces camera, no visible software. Father looks at screen mildly confused, fingers hovering above keyboard. LEFT of his chair the same tan medium dog, white chest and forest-green collar, sitting alert with face/eyes angled UP toward the LAPTOP, clearly no longer toward instrument. On floor RIGHT of chair the SAME OPEN BURGUNDY RIGID CASE with accordion stowed visibly inside, keyboard/bellows visible; no accordion on father. At far LEFT forest-green sofa, same striped-shirt bob-haired daughter and younger mustard-shirt boy now straighten slightly with hopeful relief, still eyes on father. Same mother coral cardigan/cream trousers stands at sofa end, her right hand holds gold wooden tambourine motionless at shoulder height, left hand near sofa, smile has paused in puzzled anticipation. Composition shows dog looking at laptop, two different bags, parents/children emotional contrast in one readable frame, room geography as previous shots, warm globe lamp/sideboard behind and entrance far right. No new objects, no text, no logo, no UI, no dog anthropomorphic grin, no extra people, no watermark, no collage. First instant before father starts typing, not an invented business result.",
+      "reference_images": [
+        "\\\\wsl.localhost\\Ubuntu-24.04\\home\\wooseok\\wsy\\samsung_related\\slide\\AI실행결과발표대회_디자인3종\\storyboards\\2026-10-18_keep3-rebuild-v5\\images\\C05\\S04.png",
+        "\\\\wsl.localhost\\Ubuntu-24.04\\home\\wooseok\\wsy\\samsung_related\\slide\\AI실행결과발표대회_디자인3종\\storyboards\\2026-10-18_keep3-rebuild-v5\\images\\C05\\S05.png",
+        "\\\\wsl.localhost\\Ubuntu-24.04\\home\\wooseok\\wsy\\samsung_related\\slide\\AI실행결과발표대회_디자인3종\\storyboards\\2026-10-18_keep3-rebuild-v5\\images\\C05\\S07.png"
+      ],
+      "source_generated_path": "C:\\Users\\wseok\\.codex\\generated_images\\01a13daf-3732-7b90-99a8-92c605090d35\\exec-6f93838d-9b03-47b1-81fa-04f9b8e21316.png",
+      "generation_tool": "image_gen",
+      "selected": true,
+      "artist_review": {
+        "opened_actual_image": true,
+        "status": "artist_pass",
+        "notes": "실제 출력 열람. 노트북/회색 가방 아빠 무릎, 버건디 악기 케이스 오른쪽, 개 눈높이 올라 노트북/아빠 손 방향, 남매 표정 회복, 엄마 탬버린 유지. 상단 왼쪽 빈 커튼 후편집 행사명 공간 확보. 실제 동작·음성 검증 아님."
+      },
+      "sha256": "ce0cdff0745347f080873ef225a24970b79b8c1a9fc5e44f486f4370ebbd0bea",
+      "source_copy_sha256_match": true,
+      "width": 1672,
+      "height": 941
+    },
+    {
+      "concept_id": "C05",
+      "cut_id": "K06",
+      "scene_id": "S06",
+      "image_path": "images/C05/S06_v2.png",
+      "prompt": "Precise localized cleanup of this existing C05 S06 first frame. Keep the foreground dog nose touching the GRAY LAPTOP BAG at the father's feet absolutely intact. There must be ONLY ONE gray laptop bag in the entire image: that foreground bag. REMOVE ONLY the leftover SECOND small gray laptop bag underneath the wooden entry bench in the right BACKGROUND (behind father's right leg, left of the open burgundy case). Fill that tiny background area naturally with unobstructed wooden floor, wall/door shadow and existing bench legs. Do not remove or reshape the bench. Do not alter any other element: father's gray shirt/hands/navy pants/socks, accordion, dog/collar/body/face/nose, foreground gray bag/handles, open burgundy instrument case, rug, furniture, lighting, framing and texture remain exactly as input. No new objects. 16:9 cinematic photograph, no text or logo.",
+      "reference_images": [
+        "\\\\wsl.localhost\\Ubuntu-24.04\\home\\wooseok\\wsy\\samsung_related\\slide\\AI실행결과발표대회_디자인3종\\storyboards\\2026-10-18_keep3-rebuild-v5\\images\\C05\\S06.png"
+      ],
+      "source_generated_path": "C:\\Users\\wseok\\.codex\\generated_images\\01a13daf-3732-7b90-99a8-92c605090d35\\exec-0ce33bc9-0842-4a50-b6a7-a8e47872b2a0.png",
+      "generation_tool": "image_gen",
+      "selected": true,
+      "artist_review": {
+        "opened_actual_image": true,
+        "status": "cross_review_content_pass_mapping_selected",
+        "notes": "B-I01 지적 후 실제 원본 확인하여 후경 벤치 아래 복제 가방만 제거. 수정 출력에서 빈 바닥/벤치 다리 확인. 개 코-전경 회색 가방-아빠 악기 유지. 1차 독립 검토 경로는 아직 원본 유지; 교차 뒤 선택 예정."
+      },
+      "sha256": "822bd52d28ba41d14a396fa7aedc540342f7728df2546210cbfb51be9841900e",
+      "source_copy_sha256_match": true,
+      "width": 1672,
+      "height": 941
+    },
+    {
+      "concept_id": "C05",
+      "cut_id": "K07",
+      "scene_id": "S07",
+      "image_path": "images/C05/S07_v2.png",
+      "prompt": "Precise local cleanup of this C05 S07 first frame. There must be ONLY ONE soft gray laptop bag: the large gray bag visibly ON THE FATHER'S LAP with the silver laptop inside. Remove ONLY the leftover SECOND small gray bag beneath the right-background wooden entry bench (behind/left of the open burgundy accordion case). Replace that tiny under-bench object with empty wooden floor, natural door/wall shadow and the existing bench legs. Keep the bench unchanged. Preserve ALL other elements exactly: father's identity/face/clothes/hands/lap bag/silver laptop, dog/body/green collar/looking toward right, open burgundy case and accordion, rug, lamp, room, crop and lighting. Do not remove foreground bag or instrument case. No new objects, lettering or logos. 16:9 photographic image.",
+      "reference_images": [
+        "\\\\wsl.localhost\\Ubuntu-24.04\\home\\wooseok\\wsy\\samsung_related\\slide\\AI실행결과발표대회_디자인3종\\storyboards\\2026-10-18_keep3-rebuild-v5\\images\\C05\\S07.png"
+      ],
+      "source_generated_path": "C:\\Users\\wseok\\.codex\\generated_images\\01a13daf-3732-7b90-99a8-92c605090d35\\exec-9646356a-738e-4760-9832-3f7b9820e5d8.png",
+      "generation_tool": "image_gen",
+      "selected": true,
+      "artist_review": {
+        "opened_actual_image": true,
+        "status": "cross_review_content_pass_mapping_selected",
+        "notes": "B-I01 지적 후 실제 원본 확인하여 후경 벤치 아래 복제 가방만 제거. 수정 출력에서 벤치 아래 빈 바닥 확인. 무릎 회색 가방/은색 노트북과 개/오른쪽 악기는 유지. 독립 첫검토 경로는 원본 유지, 교차 후 선택 예정."
+      },
+      "sha256": "c149e59cf6bc282a856b899b7909f35b82aac457f806bdf4d952a566b9306e70",
+      "source_copy_sha256_match": true,
+      "width": 1672,
+      "height": 941
+    }
+  ]
+}

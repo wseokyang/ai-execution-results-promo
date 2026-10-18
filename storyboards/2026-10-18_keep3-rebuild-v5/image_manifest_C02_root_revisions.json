@@ -1,0 +1,97 @@
+{
+  "images": [
+    {
+      "concept_id": "C02",
+      "cut_id": "K08",
+      "scene_id": "S08",
+      "linked_cuts": [
+        "K08"
+      ],
+      "image_path": "images/C02/S08_v4.png",
+      "prompt": "Edit this existing photographic first frame C02 K08 to correct ONLY the shared laptop viewing geometry, retaining the same six people and polished night-location style. Keep the SAME cream-suited male star seated on floor LEFT, black bow tie, same face, with his LEFTWARD/BEHIND protective open palm outstretched. Keep his low comic seated pose and cream coat. Keep SAME female bodyguard, black suit/white shirt/ponytail, standing behind-left of folding table as presenter. Keep EXACTLY four same fans: gray-knit short-haired man, bob-haired navy-shirt woman, glasses olive-shirt man, long-haired beige-jacket woman.\nCORRECTION: rotate the SINGLE open black laptop so its DISPLAY FACE and KEYBOARD face diagonally toward the CAMERA FOREGROUND, not toward rear-left. Place its hinge along the FAR/BACK edge of table and keyboard along the NEAR/FRONT edge. Screen is front-facing enough for camera to see a broad rectangular illuminated panel (subtle abstract blue-gray glow, no text/data/logos). Then reposition ALL FOUR fans into a shallow semicircle at the RIGHT FRONT CORNER of the table, closer to camera than the screen plane. They must ALL be on the DISPLAY side and look down-left toward the same lit front surface; none can stand behind the laptop looking at its back. Shift the gray-knit man a little to the RIGHT so his torso does not cover the screen; the bob-haired woman beside him, glasses man and beige woman behind but still FRONT of screen plane. Preserve their faces, outfits and count. The star on left floor and the four fans right-front should share the same visible display face in a semicircle. Bodyguard can present from behind-left without staring at back.\nPreserve the folding table, dark marble wall and pillar, golden sconces, plants and wet reflective floor. Keep low black belt boundary in foreground and stone-mounted fixture, no free-standing metal stanchions. Camera remains outside-left diagonal medium wide, same photographic lens and warmth. Natural believable scale, fingers and anatomy. No second laptop, no text, no UI, no added screens, no extra people. This is the first frame for the star's short 'continue' nod, not a new setup shot.",
+      "reference_images": [
+        "\\\\wsl.localhost\\Ubuntu-24.04\\home\\wooseok\\wsy\\samsung_related\\slide\\AI실행결과발표대회_디자인3종\\storyboards\\2026-10-18_keep3-rebuild-v5\\images\\C02\\S08_v3.png"
+      ],
+      "source_generated_path": "C:\\Users\\wseok\\.codex\\generated_images\\01a13daf-3732-7b90-99a8-92c605090d35\\exec-6f463f7f-721b-4d26-a32e-67df4fb8b2c7.png",
+      "generation_tool": "image_gen",
+      "selected": false,
+      "revision_issue": "A-I01",
+      "artist_review": {
+        "opened_actual_image": true,
+        "status": "superseded_candidate",
+        "notes": "첫수정: 화면은정면으로돌았으나회색팬이여전히뒤에 있어보류"
+      },
+      "artist": "/root after C02 artist completed"
+    },
+    {
+      "concept_id": "C02",
+      "cut_id": "K08",
+      "scene_id": "S08",
+      "linked_cuts": [
+        "K08"
+      ],
+      "image_path": "images/C02/S08_v5.png",
+      "prompt": "Correct the audience blocking in reference 1, using reference 2 only for character identities and room continuity. Retain star seated on LEFT FLOOR with his one protective hand outstretched left, female black-suited presenter beyond the table at BACK LEFT, same night marble/gold lighting, one folding table and low foreground belt. Exactly SIX people total, same cast/clothes.\nESSENTIAL SPATIAL SHOT: camera is BEHIND THE AUDIENCE looking over their shoulders toward an open laptop. All FOUR fans stand on the NEAR/CAMERA side of the table, grouped on its RIGHT FRONT edge. Show the BACKS and THREE-QUARTER BACKS of ALL FOUR fans toward camera, not their full frontal faces. They lean AWAY FROM CAMERA toward the laptop screen farther back. Their heads and shoulders must be in FRONT of the laptop screen plane. Gray-knit man nearest the left of this group; navy-bob woman next to him; glasses olive-shirt man and long-haired beige-jacket woman at right. None of these four people may stand beyond the table or behind the laptop. Only the FEMALE PRESENTER stands beyond the far edge.\nPlace ONE open black laptop toward the FAR/BACK-CENTER of table, hinge far from camera, keyboard near. Its illuminated screen faces toward the CAMERA/AUDIENCE, and we see part of the illuminated display THROUGH the clear gap LEFT of the fans' shoulders, beside the floor-seated star. The star is beside the NEAR LEFT corner, so he can see that same lit screen obliquely. Keep a gap between his face and laptop. Screen only softly glowing blue/gray no text/UI. The four fans' backs may occlude RIGHT portion of laptop/table but NOT the entire display. A visually obvious OVER-THE-SHOULDER viewing arrangement, no person looking at display back. Don't optimize to show fan faces; correct viewing geometry is more important. Preserve exact cast, clothes and count, normal anatomy and natural pose. No duplicate laptops, no new people or screens. No text or logos. 16:9 photo. Keep cream star's comic low floor position and protective palm clearly visible.",
+      "reference_images": [
+        "\\\\wsl.localhost\\Ubuntu-24.04\\home\\wooseok\\wsy\\samsung_related\\slide\\AI실행결과발표대회_디자인3종\\storyboards\\2026-10-18_keep3-rebuild-v5\\images\\C02\\S08_v4.png",
+        "\\\\wsl.localhost\\Ubuntu-24.04\\home\\wooseok\\wsy\\samsung_related\\slide\\AI실행결과발표대회_디자인3종\\storyboards\\2026-10-18_keep3-rebuild-v5\\images\\C02\\S08_v3.png"
+      ],
+      "source_generated_path": "C:\\Users\\wseok\\.codex\\generated_images\\01a13daf-3732-7b90-99a8-92c605090d35\\exec-3578885d-c025-4234-a398-f4431affa172.png",
+      "generation_tool": "image_gen",
+      "selected": false,
+      "revision_issue": "A-I01",
+      "artist_review": {
+        "opened_actual_image": true,
+        "status": "superseded_candidate",
+        "notes": "관객4명모두화면앞쪽으로옮겨어깨너머구도확보. 스타-노트북사이회색팬가림때문비선정"
+      },
+      "artist": "/root after C02 artist completed"
+    },
+    {
+      "concept_id": "C02",
+      "cut_id": "K08",
+      "scene_id": "S08",
+      "linked_cuts": [
+        "K08"
+      ],
+      "image_path": "images/C02/S08_v6.png",
+      "prompt": "Localized edit of this photograph. Keep ALL SIX PEOPLE exactly where they are, with identical faces, poses, clothes and sizes. Preserve the four fans' BACKS toward camera and the floor-seated star on left with protective palm. Change ONLY laptop placement and a small tabletop region. Move the SINGLE open laptop from its current mostly blocked position behind the gray-knit fan to the FAR LEFT END of the tabletop, directly beside the floor-seated star and directly in front of the standing female presenter. Its screen and keyboard should now be clearly visible in the OPEN GAP between star's face and the gray-knit fan's LEFT shoulder. The entire laptop display must sit to the LEFT of the gray man's torso, with nothing between star's face and display. Keep a physically realistic laptop size. Display FRONT faces diagonally toward camera/near-right audience (the four fans), keyboard toward the near edge; same softly glowing blue-gray panel, no text/UI. All four fans remain on the near side, viewing over shoulders toward the moved screen. The seated star can see this same display through the clear left-side gap. Do NOT duplicate the laptop: remove it entirely from the old center position and leave empty dark tabletop there. Preserve tabletop legs, golden marble location, low belt, all people and everything else. Do not move camera, add people/screens, or put an emblem/text. 16:9 photographic image.",
+      "reference_images": [
+        "\\\\wsl.localhost\\Ubuntu-24.04\\home\\wooseok\\wsy\\samsung_related\\slide\\AI실행결과발표대회_디자인3종\\storyboards\\2026-10-18_keep3-rebuild-v5\\images\\C02\\S08_v5.png"
+      ],
+      "source_generated_path": "C:\\Users\\wseok\\.codex\\generated_images\\01a13daf-3732-7b90-99a8-92c605090d35\\exec-81773b10-466e-40ad-9511-161c2bf4a26d.png",
+      "generation_tool": "image_gen",
+      "selected": true,
+      "revision_issue": "A-I01",
+      "artist_review": {
+        "opened_actual_image": true,
+        "status": "revision_ready_for_recheck",
+        "notes": "노트북을테이블왼쪽끝으로옮겨스타와의시선틈확보. 네팬은표시면앞쪽에있음. 실제출력열람, 최종독립재확인대기"
+      },
+      "artist": "/root after C02 artist completed"
+    },
+    {
+      "concept_id": "C02",
+      "cut_id": "K09",
+      "scene_id": "S09",
+      "linked_cuts": [
+        "K09"
+      ],
+      "image_path": "images/C02/S09_v3.png",
+      "prompt": "Create a wider ending first frame of EXACTLY the same scene and blocking as this reference image. This is C02 K09, 16:9 photoreal cinematic night, no text. Pull camera back while preserving the same viewing axis; make the six-person group occupy the LOWER RIGHT two-thirds, leaving a large EMPTY DARK MARBLE WALL area at UPPER LEFT for a later title. Do not write the title.\nPreserve exact people and clothing: cream tuxedo male star sits on floor LEFT of folding table, one palm stretched back/left as if still guarding; black ponytailed female bodyguard/presenter stands beyond far-left table edge; four fans in gray knit/navy shirt with bob/olive shirt with glasses/beige jacket with long hair stand on NEAR RIGHT side of table with their BACKS/THREE-QUARTER BACKS toward camera, all leaning toward screen. They must NOT move behind the table to face camera.\nKeep the ONE OPEN LAPTOP on the LEFT end of the tabletop, adjacent to star's face and directly before female presenter. Its softly glowing front display is visible in the clear gap LEFT of gray-knit man's torso, angled toward CAMERA/NEAR RIGHT AUDIENCE. Star and four fans all remain on display FRONT side; no duplicate laptop. The four fans look down-left toward that actual laptop location. Preserve the gap between star and laptop, crowd shall not cover his face or the lit panel entirely. Star nod poised; presenter points near laptop as she explains.\nExpand same golden sconces, lit plants, black polished marble walls/reflective floor. Low black belt across foreground, mounted directly to a STONE PILLAR at left via small metal hook; NO stand-alone metal stanchion. Do not alter group geometry while widening. Exactly six fictional adults, natural hands, no extra screens, no text/logos/UI/data, no collage.",
+      "reference_images": [
+        "\\\\wsl.localhost\\Ubuntu-24.04\\home\\wooseok\\wsy\\samsung_related\\slide\\AI실행결과발표대회_디자인3종\\storyboards\\2026-10-18_keep3-rebuild-v5\\images\\C02\\S08_v6.png"
+      ],
+      "source_generated_path": "C:\\Users\\wseok\\.codex\\generated_images\\01a13daf-3732-7b90-99a8-92c605090d35\\exec-22f2c965-2ce0-4e8b-8a2f-0a38346e8892.png",
+      "generation_tool": "image_gen",
+      "selected": true,
+      "revision_issue": "A-I01",
+      "artist_review": {
+        "opened_actual_image": true,
+        "status": "revision_ready_for_recheck",
+        "notes": "수정S08배치그대로넓힘. 왼쪽바닥스타·보호손, 테이블왼끝단일노트북, 앞쪽팬4명, 좌상단여백/석재고정벨트확인"
+      },
+      "artist": "/root after C02 artist completed"
+    }
+  ]
+}

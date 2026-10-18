@@ -1,0 +1,112 @@
+{
+  "reviewer": "A",
+  "record_format": "PD transcription of returned review, condensed prose; subjective scores omitted",
+  "actual_opened_paths": {
+    "originals": {
+      "C01": [
+        "images/C01/S01.png",
+        "images/C01/S02_v2.png",
+        "images/C01/S03.png",
+        "images/C01/S04_v2.png",
+        "images/C01/S05.png",
+        "images/C01/S06_v2.png",
+        "images/C01/S07_v2.png",
+        "images/C01/S08_v2.png",
+        "images/C01/S09.png"
+      ],
+      "C02": [
+        "images/C02/S01.png",
+        "images/C02/S02_v2.png",
+        "images/C02/S03.png",
+        "images/C02/S04_v3.png",
+        "images/C02/S05.png",
+        "images/C02/S06.png",
+        "images/C02/S07_v3.png",
+        "images/C02/S08_v3.png",
+        "images/C02/S09_v2.png"
+      ],
+      "C03": [
+        "images/C03/K01.png",
+        "images/C03/K02.png",
+        "images/C03/K03.png",
+        "images/C03/K04.png",
+        "images/C03/K05.png",
+        "images/C03/K06_v2.png",
+        "images/C03/K07.png",
+        "images/C03/K08.png"
+      ],
+      "C04": [
+        "images/C04/S01.png",
+        "images/C04/S02.png",
+        "images/C04/S03_v2.png",
+        "images/C04/S04_v2.png",
+        "images/C04/S05.png",
+        "images/C04/S06.png",
+        "images/C04/S07_v2.png",
+        "images/C04/S08.png",
+        "images/C04/S09.png"
+      ],
+      "C05": [
+        "images/C05/S01.png",
+        "images/C05/S02.png",
+        "images/C05/S03.png",
+        "images/C05/S04.png",
+        "images/C05/S05.png",
+        "images/C05/S06.png",
+        "images/C05/S07.png",
+        "images/C05/S08.png"
+      ]
+    },
+    "contact_sheets": [
+      "contact_sheets/C01_all_cuts.jpg",
+      "contact_sheets/C02_all_cuts.jpg",
+      "contact_sheets/C03_all_cuts.jpg",
+      "contact_sheets/C04_all_cuts.jpg",
+      "contact_sheets/C05_all_cuts.jpg"
+    ]
+  },
+  "scope_limit": "43 selected PNG 각각 original, 5 contact high. 최신콘티·브리프대조. PPT재열람/동작/음성/립싱크/최종자막/관객재미 미검증. 첫제출전동료의견없음",
+  "concepts": [
+    {
+      "id": "C01",
+      "judgment": "pass",
+      "evidence": "포스터와같은원본/의자이탈전신/뒤집힌복제연결. S04착지전,S06코치넘어짐전, S08두팔구별.34초참석연결.호루라기차이수용."
+    },
+    {
+      "id": "C02",
+      "judgment": "required_revision",
+      "evidence": "스타버린팬이동/자기선기어통과/바닥경호결말읽힘. S07진입명확. 최종노트북과팬배치는공동시연관람약화.33초현장소개적절."
+    },
+    {
+      "id": "C03",
+      "judgment": "preserve",
+      "evidence": "거대한배송/두모듈/조건기록연결8장확인,42초기존유지.정확세부는후편집문구."
+    },
+    {
+      "id": "C04",
+      "judgment": "pass",
+      "evidence": "양보반복→문짝든주인/비서통과 역할역전. S07우측문/좌측길분리, S08기울기·무릎구체적.좌측힌지수용."
+    },
+    {
+      "id": "C05",
+      "judgment": "pass_in_first_review",
+      "evidence": "위협귀가→가족합주→개노트북반환. S05예고없음,S06발앞→S07무릎/케이스→S08열린노트북 점프컷맞음."
+    }
+  ],
+  "issues": [
+    {
+      "id": "A-I01",
+      "concept_id": "C02",
+      "cut_id": "K08/K09; K04/K06/K07 direction also inspect",
+      "severity": "required",
+      "observation": "S08_v3/S09_v2 표시화면·키보드는스타/경호원쪽, 네팬은대부분디스플레이뒷면쪽에모여숙임",
+      "reason": "팬이AI시연에빠진핵심원인과공동시선관계오류가능",
+      "fix": "팬반원·스타모두표시면을보도록노트북대각선회전또는팬재배치. 경호원옆설명가능,스타바닥/뒤보호손유지. 앞시연컷방향연동,새준비컷없음"
+    }
+  ],
+  "overall": {
+    "required_remaining": 1,
+    "ready_for_delivery": false,
+    "summary": "C02 공동관람방향보강후재확인. 기타4안새필수없음. 내부점수/개수는재미증거아님"
+  }
+}

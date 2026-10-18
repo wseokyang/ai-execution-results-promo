@@ -1,0 +1,719 @@
+{
+  "artist": "v5_artist_c02",
+  "concept_id": "C02",
+  "images": [
+    {
+      "concept_id": "C02",
+      "cut_id": "K01",
+      "scene_id": "S01",
+      "image_path": "images/C02/S01.png",
+      "prompt": "Use case: ads-marketing\nAsset type: one independent 16:9 photoreal cinematic commercial storyboard first frame, C02 K01.\nScene: a glamorous nighttime building entrance, dry charcoal stone floor with subtle reflections, red carpet leading toward bright glass doors at screen LEFT, a dark recessed alcove opening at screen RIGHT. Cinematic warm entrance light and sharp cool photographic flashes. Not a collage.\nExactly six fictional Korean adults, no likeness to a celebrity: STAR, a 40-year-old man with neat side-parted black hair, long cream dinner jacket with tails, matching cream trousers, white shirt and black bow tie; BODYGUARD, a 30-year-old woman with black low ponytail, fitted black suit, white shirt, discreet black earpiece; four fans: F1 woman bob haircut navy shirt carrying a small folded black table, F2 short-haired man gray knit sweater, F3 man olive shirt and glasses, F4 long-black-haired woman beige jacket.\nComposition: eye-level medium wide. Star in center-left raises his right hand only to shoulder height, about to wave with charming proud smile. Bodyguard stands forward and to screen right of him, extends her right arm sideways to hold the four fans back; a slim closed black laptop is visibly tucked under her LEFT upper arm. Fans grouped screen right facing the pair, interest still ambiguous. All six distinguishable; star's cream outfit unobstructed. Keep both left red-carpet route and right alcove visible enough to establish geography.\nTexture: expensive live-action ad, natural faces and anatomy, fabric and skin detail, motivated theatrical night lighting. No text, letters, numbers, signage, logos, watermark, UI, extra people, film borders. Frame must be a beginning state, not the later split or crawling gag.",
+      "reference_images": [],
+      "source_generated_path": "C:\\Users\\wseok\\.codex\\generated_images\\01a14ee7-397b-7ba0-9ba0-b1a00b7b93f2\\exec-a241097f-60bb-47c7-bdae-fe25a448296d.png",
+      "generation_tool": "image_gen",
+      "selected": true,
+      "artist_review": {
+        "opened_actual_image": true,
+        "status": "artist_pass",
+        "notes": "도구 결과의 실제 이미지를 열람. 크림 스타·여성 경호원·네 팬과 접이식 테이블·검정 노트북, 좌측 레드카펫과 우측 알코브 확인. BG의 팔 역할은 콘티 좌우와 반전되어 보여 후속 컷은 화면상 배치 유지. 원본 크기 1672×941으로 약16:9. PD가 2026-10-18 메시지에서 보호 팔/노트북의 일관된 화면상 좌우를 변경 수용."
+      },
+      "motion_camera_notes": "고정 눈높이 미디엄 와이드. ST 손 흔듦, BG 낮은 손짓 후 오른쪽 알코브로 회전.",
+      "linked_cuts": [
+        "K01"
+      ],
+      "first_frame_requested": "ST는 아직 손을 어깨 높이로 올리는 중. BG의 팔은 팬 쪽으로 펼쳐져 있고 팬 4명은 두 사람을 함께 본다. BG의 왼쪽 팔 아래에는 얇은 검정 노트북이 끼워져 있다.",
+      "next_motion": "ST가 손을 크게 흔든다. BG가 팬들에게 천천히 따라오라는 낮은 손짓을 하고 갈림길 쪽으로 몸을 돌린다.",
+      "camera_note": "고정 눈높이 미디엄 와이드. 전경 BG의 팔, 중앙 ST, 뒤쪽 팬과 붉은 카펫.",
+      "file_verification": {
+        "width": 1672,
+        "height": 941,
+        "sha256": "BFA0B0C637E2F4A3E9CC83877CF0CCEC81E4A9B8F23E4BDD2913A453AB09463B",
+        "byte_identical_to_generated_source": true
+      },
+      "sha256": "bfa0b0c637e2f4a3e9cc83877cf0ccec81e4a9b8f23e4bdd2913a453ab09463b",
+      "source_copy_sha256_match": true,
+      "width": 1672,
+      "height": 941
+    },
+    {
+      "concept_id": "C02",
+      "cut_id": "K02",
+      "scene_id": "S02",
+      "image_path": "images/C02/S02.png",
+      "prompt": "Use case: ads-marketing. One independent 16:9 photoreal cinematic first frame C02 K02. Use reference image 1 as the exact casting, wardrobe, night lighting and entrance geography. New camera: slightly elevated locked wide shot including whole bodies and BOTH routes.\nImportant story reversal: cream-suited male star ALONE at far screen LEFT on the red carpet toward the bright glass entrance, hand still raised to wave, beginning to look puzzled. The entire left route beside him is empty. At screen RIGHT the SAME black-suited female bodyguard with low ponytail walks two steps ahead toward the dark recessed stone alcove, slim CLOSED black laptop still tucked under her arm.\nExactly the SAME FOUR fans have ALL turned their BACKS to the star; their faces, torsos, knees and toes all aim diagonally RIGHT toward the bodyguard. Fan navy bob-haired woman carries folded small black table, gray sweater man, olive shirt man with glasses, long-haired beige-jacket woman. Show all four and their feet. Nobody follows, photographs or looks back at the cream star. Group is visibly separated from him by a wide empty zone.\nMaintain red carpet and bright doorway on LEFT and dark stone alcove on RIGHT. Expensive absurdist live-action ad, cool night and warm glass doors, natural faces/anatomy. No extra people, no clones, no text, letters, logos, UI, signs, watermark or collage. Not a portrait: the simultaneous empty left path and entire crowd moving right is the visual joke.",
+      "reference_images": [
+        "\\\\wsl.localhost\\Ubuntu-24.04\\home\\wooseok\\wsy\\samsung_related\\slide\\AI실행결과발표대회_디자인3종\\storyboards\\2026-10-18_keep3-rebuild-v5\\images\\C02\\S01.png"
+      ],
+      "source_generated_path": "C:\\Users\\wseok\\.codex\\generated_images\\01a14ee7-397b-7ba0-9ba0-b1a00b7b93f2\\exec-fad0ef33-4650-4010-9e59-ed6a8f830e0a.png",
+      "generation_tool": "image_gen",
+      "selected": false,
+      "artist_review": {
+        "opened_actual_image": true,
+        "status": "needs_review",
+        "notes": "실제 결과 확인: 스타와 경호원 동선은 명확하나 F4 베이지 재킷 여성이 누락되어 수정 필요."
+      },
+      "motion_camera_notes": "팬 모두 오른쪽 알코브로 이동한다. ST는 흔들던 손을 천천히 낮춘 뒤 뒤를 돌아본다. / 약간 높은 고정 와이드. 두 갈래 목적지가 동시에 끝까지 보이며 팬을 화면 밖으로 숨기지 않음.",
+      "linked_cuts": [
+        "K02"
+      ],
+      "first_frame_requested": "ST는 왼쪽에 혼자, BG는 오른쪽 두 걸음 앞. 팬 4명의 등과 발은 이미 BG 방향이며 ST를 따라가는 사람이 없다.",
+      "next_motion": "팬 모두 오른쪽 알코브로 이동한다. ST는 흔들던 손을 천천히 낮춘 뒤 뒤를 돌아본다.",
+      "camera_note": "약간 높은 고정 와이드. 두 갈래 목적지가 동시에 끝까지 보이며 팬을 화면 밖으로 숨기지 않음.",
+      "file_verification": {
+        "width": 1672,
+        "height": 941,
+        "sha256": "04642389706C1D27AD412AE14FCD464B2A1E8EB74AED21AF6162D28B0BE03170",
+        "byte_identical_to_generated_source": true
+      },
+      "sha256": "04642389706c1d27ad412ae14fcd464b2a1e8eb74aed21af6162d28b0be03170",
+      "source_copy_sha256_match": true,
+      "width": 1672,
+      "height": 941
+    },
+    {
+      "concept_id": "C02",
+      "cut_id": "K02",
+      "scene_id": "S02",
+      "image_path": "images/C02/S02_v2.png",
+      "prompt": "Use case: ads-marketing. Correct the attached wide shot (image 2) with continuity from original cast image 1. KEEP its exact camera, night lighting, red-carpet-left and dark-alcove-right geography, lone cream-suited star at far left, same female black-suited bodyguard walking right with closed laptop, and three existing fans.\nCRITICAL correction: add the missing FOURTH fan from image 1, the woman with long loose black hair and BEIGE blazer, dark trousers, behind the gray-knit man and slightly left of him. She must be fully distinguishable with face profile, torso and both legs visible. Shift existing group slightly left or widen framing as necessary so all six adults including the star fit, nobody cut off. Exactly 4 fans: navy bob woman carrying folded table, gray sweater man, olive shirt glasses man, beige blazer long-haired woman.\nEvery fan's face, torso and toes turn RIGHT to follow female bodyguard. All four leave the cream star alone to the left; no eye contact back to star. Keep natural anatomy, no duplicate bodies. One wide image 16:9. No text/logos/signage/watermark.",
+      "reference_images": [
+        "\\\\wsl.localhost\\Ubuntu-24.04\\home\\wooseok\\wsy\\samsung_related\\slide\\AI실행결과발표대회_디자인3종\\storyboards\\2026-10-18_keep3-rebuild-v5\\images\\C02\\S01.png",
+        "\\\\wsl.localhost\\Ubuntu-24.04\\home\\wooseok\\wsy\\samsung_related\\slide\\AI실행결과발표대회_디자인3종\\storyboards\\2026-10-18_keep3-rebuild-v5\\images\\C02\\S02.png"
+      ],
+      "source_generated_path": "C:\\Users\\wseok\\.codex\\generated_images\\01a14ee7-397b-7ba0-9ba0-b1a00b7b93f2\\exec-c58f0101-8e28-4449-922e-a0bc72fb5d06.png",
+      "generation_tool": "image_gen",
+      "selected": true,
+      "artist_review": {
+        "opened_actual_image": true,
+        "status": "artist_pass",
+        "notes": "보정 실제 이미지 열람. 네 팬 전원, 몸·얼굴·발이 오른쪽 경호원 방향이며 왼쪽 스타 주변 빈 경로 확인."
+      },
+      "motion_camera_notes": "고정 와이드. 네 팬이 오른쪽으로 이동, 스타 혼자 왼쪽에 남아 손을 내림.",
+      "linked_cuts": [
+        "K02"
+      ],
+      "first_frame_requested": "ST는 왼쪽에 혼자, BG는 오른쪽 두 걸음 앞. 팬 4명의 등과 발은 이미 BG 방향이며 ST를 따라가는 사람이 없다.",
+      "next_motion": "팬 모두 오른쪽 알코브로 이동한다. ST는 흔들던 손을 천천히 낮춘 뒤 뒤를 돌아본다.",
+      "camera_note": "약간 높은 고정 와이드. 두 갈래 목적지가 동시에 끝까지 보이며 팬을 화면 밖으로 숨기지 않음.",
+      "file_verification": {
+        "width": 1672,
+        "height": 941,
+        "sha256": "CBBC63C941B66E2386B0A3DE6E1CD165501FF16371FC0B3DBFF276F9F1594A10",
+        "byte_identical_to_generated_source": true
+      },
+      "sha256": "cbbc63c941b66e2386b0a3de6e1cd165501ff16371fc0b3dbff276f9f1594a10",
+      "source_copy_sha256_match": true,
+      "width": 1672,
+      "height": 941
+    },
+    {
+      "concept_id": "C02",
+      "cut_id": "K03",
+      "scene_id": "S03",
+      "image_path": "images/C02/S03.png",
+      "prompt": "Use case: ads-marketing. New independent 16:9 photoreal commercial first frame C02 K03, same fictional Korean cast and night location as both references, not a collage.\nMove the locked eye-level medium-wide camera to look directly INTO the dark charcoal-stone alcove at the RIGHT of the entrance. Alcove is spacious, around four meters wide. Its two stone entrance pillars frame left and right edges, dry dark stone floor and subtle warm overhead spots. No crowd-control belt installed yet.\nExactly FIVE people here (cream star is offscreen): the same female bodyguard, black low ponytail, black suit white shirt black earpiece, stands at the INNER BACK wall center-right, facing outward toward camera/fans. Her slim closed black laptop is still tucked under an arm, NOT on table yet. Same bob-haired woman in navy shirt F1 stands slightly left of center, bends over her small black folding table, ONE support leg not yet fully extended, holding it to finish unfolding; she lifts her face toward bodyguard to ask a question. Table about 60 cm high, simple rectangular dark tabletop on thin black legs.\nOther THREE fans arrange loosely along two sides facing bodyguard: gray-knit man just behind navy woman, olive-shirt glasses man on right, beige-blazer long-haired woman further right. Their backs or rear three-quarter shoulders face camera. All four fans countable. Keep a conspicuous EMPTY strip of floor 70 cm wide along the LEFT inside wall, running from the entrance toward the table's left side; no feet, chairs or bags in that strip. This will be important later.\nA beginning action pose: table not fully unfolded, CLOSED laptop still under bodyguard's arm, no presentation underway. High quality cinematic realistic warm/cool night lighting, detailed fabrics, clear faces, natural limbs. No cream star in frame, no other people, no text/signage/logos/UI/watermark.",
+      "reference_images": [
+        "\\\\wsl.localhost\\Ubuntu-24.04\\home\\wooseok\\wsy\\samsung_related\\slide\\AI실행결과발표대회_디자인3종\\storyboards\\2026-10-18_keep3-rebuild-v5\\images\\C02\\S01.png",
+        "\\\\wsl.localhost\\Ubuntu-24.04\\home\\wooseok\\wsy\\samsung_related\\slide\\AI실행결과발표대회_디자인3종\\storyboards\\2026-10-18_keep3-rebuild-v5\\images\\C02\\S02_v2.png"
+      ],
+      "source_generated_path": "C:\\Users\\wseok\\.codex\\generated_images\\01a14ee7-397b-7ba0-9ba0-b1a00b7b93f2\\exec-557eda3f-6298-415f-87c2-9418fd19e09e.png",
+      "generation_tool": "image_gen",
+      "selected": true,
+      "artist_review": {
+        "opened_actual_image": true,
+        "status": "artist_pass",
+        "notes": "다섯 인물·휴대 중 닫힌 노트북·테이블을 펴는 F1·좌측 빈 통로 확인. table 다리 완료 직전 표현은 미세하여 연속 동작 참고 필요."
+      },
+      "motion_camera_notes": "F1 받침대 마지막 다리를 펴고 BG가 닫힌 노트북을 테이블에 올려 열기. 고정 미디엄 와이드.",
+      "linked_cuts": [
+        "K03"
+      ],
+      "first_frame_requested": "받침대는 한쪽 다리를 마저 펴기 직전. BG의 검정 노트북은 팔 아래에 있고 F1이 얼굴을 올려 질문하려 한다.",
+      "next_motion": "F1이 받침대를 완전히 편다. BG가 노트북을 올려 열고 팬들은 반원으로 선다. UI는 색 면 정도만 보임.",
+      "camera_note": "알코브 바깥에서 보는 고정 미디엄 와이드. BG는 안쪽 벽을 등지고 팬은 카메라 쪽에 등을 둠.",
+      "file_verification": {
+        "width": 1672,
+        "height": 941,
+        "sha256": "F53D1E777F32B0597F2077C97623A8CA739E43D81D7622916976151F3FB0F49F",
+        "byte_identical_to_generated_source": true
+      },
+      "sha256": "f53d1e777f32b0597f2077c97623a8ca739e43d81d7622916976151f3fb0f49f",
+      "source_copy_sha256_match": true,
+      "width": 1672,
+      "height": 941
+    },
+    {
+      "concept_id": "C02",
+      "cut_id": "K04",
+      "scene_id": "S04",
+      "image_path": "images/C02/S04.png",
+      "prompt": "Use case: ads-marketing. One independent 16:9 photoreal cinematic commercial storyboard first frame C02 K04.\nReference image 1 locks the cream male star's face/costume. Reference image 2 locks the EXACT alcove, five people, small folding table and their positions. Show SAME alcove from slightly higher three-quarter camera OUTSIDE the entrance, not a reverse angle. Same dry black stone, warm ceiling spots. Bodyguard at back wall facing outward, four fans with their backs toward entrance, gray sweater man and navy bob woman left, olive glasses man and beige woman right. Small folding table now fully standing and slim black laptop open on it, toward fans. Only abstract soft screen color, no UI text.\nADD cream STAR in entrance foreground LEFT, entirely OUTSIDE the alcove, about to attach a BLACK flat retractable crowd-control BELT. The belt is only 45 cm above floor, below adult knees; attaches to small metal fittings on existing entrance stone pillars, NOT tall free-standing posts. Its far end already mounted on RIGHT pillar; belt crosses doorway to star's RIGHT hand holding a metal clip precisely 10 cm before the LEFT pillar fitting. His left hand near his cream coat lapel. Star stands upright proudly looking toward clip as he appoints himself guardian. He has not finished clipping it. All five others remain INSIDE behind belt line.\nComposition must clearly show: both belt ends, 45cm belt height, star outside, audience inside, table at back, EMPTY 70cm floor lane along left inside wall from belt to the left side of table. No feet in that lane. Same six people only, continuous wardrobe. Expensive serious-night-ad cinematography with absurd comedy staging, natural anatomy. No lettering, signs, logos, subtitles, watermark. Not collage.",
+      "reference_images": [
+        "\\\\wsl.localhost\\Ubuntu-24.04\\home\\wooseok\\wsy\\samsung_related\\slide\\AI실행결과발표대회_디자인3종\\storyboards\\2026-10-18_keep3-rebuild-v5\\images\\C02\\S01.png",
+        "\\\\wsl.localhost\\Ubuntu-24.04\\home\\wooseok\\wsy\\samsung_related\\slide\\AI실행결과발표대회_디자인3종\\storyboards\\2026-10-18_keep3-rebuild-v5\\images\\C02\\S03.png"
+      ],
+      "source_generated_path": "C:\\Users\\wseok\\.codex\\generated_images\\01a14ee7-397b-7ba0-9ba0-b1a00b7b93f2\\exec-c2bf9ea9-6e5e-4cce-b993-88111e4637e2.png",
+      "generation_tool": "image_gen",
+      "selected": false,
+      "artist_review": {
+        "opened_actual_image": true,
+        "status": "needs_review",
+        "notes": "생성 결과의 실제 이미지를 열람. 보호선이 이미 체결되어 있고 ST 손이 별도 상부 훅에 닿아 첫 프레임과 불일치. 팬 시선/노트북을 가리는 배치도 수정 필요."
+      },
+      "motion_camera_notes": "ST가 훅을 채우고 두 손을 자기 재킷 앞에 모은다. 팬들은 설명 듣는 방향을 유지한다. / 바깥쪽 높은 3/4 고정 와이드. 벨트 높이, 안쪽 팬·테이블, 바깥 ST의 관계를 한눈에 보여줌.",
+      "linked_cuts": [
+        "K04"
+      ],
+      "first_frame_requested": "ST의 오른손에 벨트 훅이 있고 반대 기둥까지 10cm 남아 있다. ST는 바깥, 모든 팬은 안쪽. 벨트는 무릎보다 낮은 45cm.",
+      "next_motion": "ST가 훅을 채우고 두 손을 자기 재킷 앞에 모은다. 팬들은 설명 듣는 방향을 유지한다.",
+      "camera_note": "바깥쪽 높은 3/4 고정 와이드. 벨트 높이, 안쪽 팬·테이블, 바깥 ST의 관계를 한눈에 보여줌.",
+      "file_verification": {
+        "width": 1672,
+        "height": 941,
+        "sha256": "AAB80D4B367F19BDA4192FF196F98FF79F4326A294827FB3EEC4E47FF7414ECA",
+        "byte_identical_to_generated_source": true
+      },
+      "sha256": "aab80d4b367f19bda4192ff196f98ff79f4326a294827fb3eec4e47ff7414eca",
+      "source_copy_sha256_match": true,
+      "width": 1672,
+      "height": 941
+    },
+    {
+      "concept_id": "C02",
+      "cut_id": "K04",
+      "scene_id": "S04",
+      "image_path": "images/C02/S04_v2.png",
+      "prompt": "Use case: ads-marketing. New corrected single 16:9 photo for movie storyboard shot K04. Reference 1 is exact cast cream-suit STAR ONLY. Reference 2 is the exact alcove layout, camera axis and FIVE OTHER PEOPLE: keep their back-facing arrangement. Reference 3 is previous failed shot only for the LOW BLACK BELT, do not copy its audience orientation or already-attached clip.\nCamera just outside alcove looking IN, high enough to see low floor. Gray sweater MAN and navy bob WOMAN are on near side of small table, their BACKS toward camera. Olive glasses man and beige long-haired woman stand on right side facing IN toward the bodyguard. The bodyguard stands by rear wall. Thin black laptop now OPEN on table, mostly obscured by the near audience. Nobody turns toward camera or star. Show exactly these five inside.\nCream STAR is at foreground LEFT, entirely OUTSIDE the entrance, gently bending his waist. He is INSTALLING the low black belt himself: RIGHT hand holds the left-end metal clip, horizontally 10 cm away from a single receiving fitting mounted on LEFT stone pillar at 45 cm above floor. RIGHT end already attached to right pillar at same low height. Belt is slightly slack because he has not clipped left end yet. There is NO upper fitting, no second belt, no tall posts. Put his right hand at the actual belt height, not at waist/chest height. His left hand touches his lapel with proud smile.\nLeave a clear empty 70 cm lane along inside LEFT wall, from entrance underneath belt to table's left side. Gray man is to the right of this lane. All six bodies fully clear, no extras. Same cream long jacket, black bow tie, black female suit, gray/navy/olive/beige clothes. The lowered belt is the important prop. Photo-real cinematic warm nighttime stone alcove, no text, no logos, no watermark, no collage.",
+      "reference_images": [
+        "\\\\wsl.localhost\\Ubuntu-24.04\\home\\wooseok\\wsy\\samsung_related\\slide\\AI실행결과발표대회_디자인3종\\storyboards\\2026-10-18_keep3-rebuild-v5\\images\\C02\\S01.png",
+        "\\\\wsl.localhost\\Ubuntu-24.04\\home\\wooseok\\wsy\\samsung_related\\slide\\AI실행결과발표대회_디자인3종\\storyboards\\2026-10-18_keep3-rebuild-v5\\images\\C02\\S03.png",
+        "\\\\wsl.localhost\\Ubuntu-24.04\\home\\wooseok\\wsy\\samsung_related\\slide\\AI실행결과발표대회_디자인3종\\storyboards\\2026-10-18_keep3-rebuild-v5\\images\\C02\\S04.png"
+      ],
+      "source_generated_path": "C:\\Users\\wseok\\.codex\\generated_images\\01a14ee7-397b-7ba0-9ba0-b1a00b7b93f2\\exec-444bf8f6-aee6-4363-8052-99f9480f1179.png",
+      "generation_tool": "image_gen",
+      "selected": false,
+      "artist_review": {
+        "opened_actual_image": true,
+        "status": "needs_review",
+        "notes": "팬들의 등 방향은 바로잡혔지만 왼쪽 상부 부품과 이미 체결된 하부 벨트가 남아 훅 동작 불일치. 해당 요소만 재수정."
+      },
+      "motion_camera_notes": "ST가 훅을 채우고 두 손을 자기 재킷 앞에 모은다. 팬들은 설명 듣는 방향을 유지한다. / 바깥쪽 높은 3/4 고정 와이드. 벨트 높이, 안쪽 팬·테이블, 바깥 ST의 관계를 한눈에 보여줌.",
+      "linked_cuts": [
+        "K04"
+      ],
+      "first_frame_requested": "ST의 오른손에 벨트 훅이 있고 반대 기둥까지 10cm 남아 있다. ST는 바깥, 모든 팬은 안쪽. 벨트는 무릎보다 낮은 45cm.",
+      "next_motion": "ST가 훅을 채우고 두 손을 자기 재킷 앞에 모은다. 팬들은 설명 듣는 방향을 유지한다.",
+      "camera_note": "바깥쪽 높은 3/4 고정 와이드. 벨트 높이, 안쪽 팬·테이블, 바깥 ST의 관계를 한눈에 보여줌.",
+      "file_verification": {
+        "width": 1672,
+        "height": 941,
+        "sha256": "308B8EAEFB558F479665DA5E622E4596D63E3A22FAC6D0EC3270293D153CB511",
+        "byte_identical_to_generated_source": true
+      },
+      "sha256": "308b8eaefb558f479665da5e622e4596d63e3a22fac6d0ec3270293d153cb511",
+      "source_copy_sha256_match": true,
+      "width": 1672,
+      "height": 941
+    },
+    {
+      "concept_id": "C02",
+      "cut_id": "K04",
+      "scene_id": "S04",
+      "image_path": "images/C02/S04_v3.png",
+      "prompt": "Use case: precise-object-edit. Edit this image only. Keep all faces, clothes, camera, architecture, lighting, four listeners and table EXACTLY unchanged.\nFix ONLY the star's right hand and the LEFT end of the LOW black belt.\nDELETE the extra black rectangular object currently under his right hand on the upper part of the left stone post. Leave smooth empty stone there.\nThe low belt currently runs across the image and is attached to the left post at knee height. DETACH its left end from that post. Move the star's right forearm and hand DOWN to that low belt level; his fingers HOLD the detached black belt end and its tiny metal hook, 10 cm to the RIGHT of the empty receiving slot on the left post. The belt end in his hand must be visibly separated from the post by a small gap. His arm is extended downward and torso may bend slightly to reach. The far RIGHT belt end stays attached. There must be ONE belt, ONE small empty receiver on left post, NO other black rectangular objects on that post. All other details invariant. No text, no logos. Single 16:9 photograph.",
+      "reference_images": [
+        "\\\\wsl.localhost\\Ubuntu-24.04\\home\\wooseok\\wsy\\samsung_related\\slide\\AI실행결과발표대회_디자인3종\\storyboards\\2026-10-18_keep3-rebuild-v5\\images\\C02\\S04_v2.png"
+      ],
+      "source_generated_path": "C:\\Users\\wseok\\.codex\\generated_images\\01a14ee7-397b-7ba0-9ba0-b1a00b7b93f2\\exec-ff0ad4c9-0113-4118-8a9d-a4c0d8629ed4.png",
+      "generation_tool": "image_gen",
+      "selected": true,
+      "artist_review": {
+        "opened_actual_image": true,
+        "status": "artist_pass",
+        "notes": "실제 이미지 열람. 별도 상부 부품 제거, 오른손이 미체결 벨트 끝을 잡고 왼쪽 고리와 간격 보임. 팬 등/좌측 빈 통로/양끝 높이 확인."
+      },
+      "motion_camera_notes": "ST가 낮은 벨트의 오른손 훅을 왼쪽 기둥 고리에 채우고 재킷 앞에 손을 모음. 고정 3/4 와이드.",
+      "linked_cuts": [
+        "K04"
+      ],
+      "first_frame_requested": "ST의 오른손에 벨트 훅이 있고 반대 기둥까지 10cm 남아 있다. ST는 바깥, 모든 팬은 안쪽. 벨트는 무릎보다 낮은 45cm.",
+      "next_motion": "ST가 훅을 채우고 두 손을 자기 재킷 앞에 모은다. 팬들은 설명 듣는 방향을 유지한다.",
+      "camera_note": "바깥쪽 높은 3/4 고정 와이드. 벨트 높이, 안쪽 팬·테이블, 바깥 ST의 관계를 한눈에 보여줌.",
+      "file_verification": {
+        "width": 1672,
+        "height": 941,
+        "sha256": "ED8F42123968300171DB5BC7228C0511235BD4360B02240CDE025310476CBAB8",
+        "byte_identical_to_generated_source": true
+      },
+      "sha256": "ed8f42123968300171db5bc7228c0511235bd4360b02240cde025310476cbab8",
+      "source_copy_sha256_match": true,
+      "width": 1672,
+      "height": 941
+    },
+    {
+      "concept_id": "C02",
+      "cut_id": "K05",
+      "scene_id": "S05",
+      "image_path": "images/C02/S05.png",
+      "prompt": "Use case: ads-marketing. One new 16:9 cinematic photoreal commercial first frame C02 K05. Use references for exact star, five other people and black-stone alcove continuity.\nCamera STILL OUTSIDE alcove, now a tighter eye-level medium view from slightly behind and to the LEFT of the cream star. His handsome fictional Korean side-profile occupies foreground left, alert curious expression, standing upright just BEFORE leaning his head sideways. No broad grin. In lower foreground the same low black belt is NOW securely attached to left stone post (single receiver), separating star outside from all five people inside.\nThe near-side GRAY SWEATER MAN and NAVY BOB-HAIRED WOMAN show their BACKS in midground, and must completely BLOCK the laptop screen from the star and camera. Bodyguard in black stands at inner rear wall; through the small gap between the fans only part of her face and her hand POINTING DOWN toward the hidden laptop can be seen. On right the olive glasses man and beige long-haired woman listen from the sides; no one looks at star. Four fans total, never duplicate. The laptop itself must NOT be visible in this shot. This is why the star cannot watch.\nKeep existing same positions, same low folding table, dry black stone floor, warm overhead alcove light, soft cool outside fill. Star has not crouched or crawled; he is about to peek left/right. No text, lettering, logos, UI, watermark, collage. An expensive comedic movie still with readable curiosity and obstructed sightline.",
+      "reference_images": [
+        "\\\\wsl.localhost\\Ubuntu-24.04\\home\\wooseok\\wsy\\samsung_related\\slide\\AI실행결과발표대회_디자인3종\\storyboards\\2026-10-18_keep3-rebuild-v5\\images\\C02\\S01.png",
+        "\\\\wsl.localhost\\Ubuntu-24.04\\home\\wooseok\\wsy\\samsung_related\\slide\\AI실행결과발표대회_디자인3종\\storyboards\\2026-10-18_keep3-rebuild-v5\\images\\C02\\S04_v3.png"
+      ],
+      "source_generated_path": "C:\\Users\\wseok\\.codex\\generated_images\\01a14ee7-397b-7ba0-9ba0-b1a00b7b93f2\\exec-2dd21202-d5c9-4a39-80c6-0c8d3d4b5a40.png",
+      "generation_tool": "image_gen",
+      "selected": true,
+      "artist_review": {
+        "opened_actual_image": true,
+        "status": "artist_pass",
+        "notes": "실제 이미지 열람. ST 바깥, 설치된 낮은 벨트, 팬 네 명의 등과 가려진 노트북, 틈 너머 설명 손 확인."
+      },
+      "motion_camera_notes": "고정 미디엄. ST가 좌우로 고개를 내밀다 훅과 바닥 쪽으로 시선을 내림.",
+      "linked_cuts": [
+        "K05"
+      ],
+      "first_frame_requested": "ST 눈높이에서 노트북은 팬들의 등 뒤에 완전히 가려져 있다. ST의 얼굴은 처음 옆으로 내밀기 직전.",
+      "next_motion": "ST가 고개를 좌우로 한 번씩 움직인다. 설명 화면을 못 보자 시선이 자기 벨트 훅과 바닥으로 내려간다.",
+      "camera_note": "바깥 ST의 옆얼굴과 팬들의 등, 틈 너머 BG 손을 함께 보는 고정 미디엄.",
+      "file_verification": {
+        "width": 1672,
+        "height": 941,
+        "sha256": "A0D2808556029D3DF6C6CCF5F528D1DA3F901C8B594D9A8D584923997C249881",
+        "byte_identical_to_generated_source": true
+      },
+      "sha256": "a0d2808556029d3df6c6ccf5f528d1da3f901c8b594d9a8d584923997c249881",
+      "source_copy_sha256_match": true,
+      "width": 1672,
+      "height": 941
+    },
+    {
+      "concept_id": "C02",
+      "cut_id": "K06",
+      "scene_id": "S06",
+      "image_path": "images/C02/S06.png",
+      "prompt": "Use case: ads-marketing. New single 16:9 photoreal commercial storyboard FIRST FRAME C02 K06. Same exact fictional Korean cast, cream suit, black female bodyguard, navy/gray/olive/beige four fans, night stone alcove. References lock layout and identities.\nLow locked three-quarter WIDE camera from OUTSIDE the entrance. Include star's ENTIRE body and left belt hook, and unobstructed floor lane. Same black belt now securely attached at 45 cm height between existing stone pillars. The one and only small release hook is on LEFT post. Star OUTSIDE at left, BOTH knees still STRAIGHT, feet on floor, torso leaning slightly forward enough to reach low hook. His RIGHT fingertips hover just TWO CENTIMETERS from the release clip, not yet touching, not holding it, belt stays taut. His left hand near his lapel. His face shows curious hesitance and self-conscious pride.\nINSIDE: gray knit man nearest left is beginning to turn JUST HIS HEAD back over his shoulder toward star, torso and feet still toward table. This is a brief caught-looking moment, not everyone staring. Navy bob woman, olive glasses man, beige woman remain facing the female bodyguard and open laptop. Bodyguard continues explaining by back wall. No changes to their positions.\nA clear EMPTY 70 cm lane along inside left wall goes from underneath belt to the table's left side; no feet in lane. Fans are clustered just to right of lane behind belt, making a big step awkward. Laptop mostly obscured by backs. Composition readable in one frame: easy release near hand, witness glancing back, path under low belt. Star has NOT crouched, kneeled or crawled YET. No text, logos, UI detail, watermark, extra people or collage. Cinematic warm ceiling light, realistic dry floor.",
+      "reference_images": [
+        "\\\\wsl.localhost\\Ubuntu-24.04\\home\\wooseok\\wsy\\samsung_related\\slide\\AI실행결과발표대회_디자인3종\\storyboards\\2026-10-18_keep3-rebuild-v5\\images\\C02\\S01.png",
+        "\\\\wsl.localhost\\Ubuntu-24.04\\home\\wooseok\\wsy\\samsung_related\\slide\\AI실행결과발표대회_디자인3종\\storyboards\\2026-10-18_keep3-rebuild-v5\\images\\C02\\S04_v3.png",
+        "\\\\wsl.localhost\\Ubuntu-24.04\\home\\wooseok\\wsy\\samsung_related\\slide\\AI실행결과발표대회_디자인3종\\storyboards\\2026-10-18_keep3-rebuild-v5\\images\\C02\\S05.png"
+      ],
+      "source_generated_path": "C:\\Users\\wseok\\.codex\\generated_images\\01a14ee7-397b-7ba0-9ba0-b1a00b7b93f2\\exec-6d618452-12cb-475d-a23c-e82483887d76.png",
+      "generation_tool": "image_gen",
+      "selected": true,
+      "artist_review": {
+        "opened_actual_image": true,
+        "status": "artist_pass",
+        "notes": "실제 이미지 열람. ST 무릎은 펴져 있고 손끝이 잠긴 훅 앞에 있으며 F2만 뒤돌아봄. 좌측 빈 통로와 네 팬 유지. 요청한 낮은 카메라보다 기준 와이드 높이에 가까움."
+      },
+      "motion_camera_notes": "F2가 잠깐 돌아보자 ST는 훅 손을 거두고 한쪽 무릎을 바닥에 댐. 벨트는 유지. 고정 낮은 3/4 와이드.",
+      "linked_cuts": [
+        "K06"
+      ],
+      "first_frame_requested": "ST의 손끝이 훅에서 2cm 떨어져 있다. 벨트 안쪽 사람들과 겹치지 않는 왼쪽 바닥 길이 보이고 ST의 무릎은 아직 펴져 있다.",
+      "next_motion": "ST가 훅을 풀려는 순간 F2가 짧게 돌아본다. ST는 손을 거두고 그대로 한쪽 무릎을 바닥에 댄다. 벨트는 풀지 않는다.",
+      "camera_note": "낮은 고정 3/4 와이드. 훅·벨트·ST 전신과 폭 70cm의 빈 바닥 길을 동시에.",
+      "file_verification": {
+        "width": 1672,
+        "height": 941,
+        "sha256": "6D4742690A718F5186F09660EB2C820EC35D1922C5ED984984F3E20791FE5D23",
+        "byte_identical_to_generated_source": true
+      },
+      "sha256": "6d4742690a718f5186f09660eb2c820ec35d1922c5ed984984f3e20791fe5d23",
+      "source_copy_sha256_match": true,
+      "width": 1672,
+      "height": 941
+    },
+    {
+      "concept_id": "C02",
+      "cut_id": "K07",
+      "scene_id": "S07",
+      "image_path": "images/C02/S07.png",
+      "prompt": "Use case: ads-marketing. One new 16:9 photoreal cinematic comedy first frame C02 K07, same exact six fictional Korean people, costumes and stone alcove as references. Reference 1 cast; reference 2 establishes low black belt and empty LEFT passage.\nCRITICAL NEW ACTION: the cream long-jacket STAR is NOW CRAWLING UNDER the still-fastened low black belt along the EMPTY LEFT floor lane. He crawls from OUTSIDE foreground into the alcove toward rear table. Both palms planted on floor inside; elbows deeply bent so his shoulders, head and upper chest are ALREADY beyond and underneath the belt on INSIDE. His hips, knees, black shoes and trailing cream jacket tails remain OUTSIDE nearer camera. The belt runs across ABOVE his lower back, not through him, with visible small air gap. His whole body is low, about 30 cm high under a 45 cm belt. Use natural human anatomy, two arms two legs. Head aimed toward table, partial side profile of intense curiosity. This is an awkward dignified man's crawl, not an injury or fall.\nCamera: ground-height locked three-quarter SIDE wide, still on OUTSIDE side of entrance axis, able to see star's whole horizontal body, both belt supports and clear lane continuing to table's empty left-side front seat. Do not reverse the back wall/table direction. LEFT wall lane empty of everyone else's feet. Four fans in same semicircle at table, backs toward entrance, gray and navy on left of table but to RIGHT of lane, olive/beige right. Bodyguard at rear wall, explaining. They keep attention on laptop, no staring at camera or helping star.\nMaintain one taut belt attached between existing stone pillars, not extra posts; belt remains behind his head and above waist as he passes under. Laptop on same small black folding table, no readable UI. Warm movie light and dry floor, detailed cream fabric trailing. No text, logos, watermark, collage, duplicated people.",
+      "reference_images": [
+        "\\\\wsl.localhost\\Ubuntu-24.04\\home\\wooseok\\wsy\\samsung_related\\slide\\AI실행결과발표대회_디자인3종\\storyboards\\2026-10-18_keep3-rebuild-v5\\images\\C02\\S01.png",
+        "\\\\wsl.localhost\\Ubuntu-24.04\\home\\wooseok\\wsy\\samsung_related\\slide\\AI실행결과발표대회_디자인3종\\storyboards\\2026-10-18_keep3-rebuild-v5\\images\\C02\\S06.png"
+      ],
+      "source_generated_path": "C:\\Users\\wseok\\.codex\\generated_images\\01a14ee7-397b-7ba0-9ba0-b1a00b7b93f2\\exec-5de5775f-335e-4383-8ae6-5bdb1f77c84f.png",
+      "generation_tool": "image_gen",
+      "selected": false,
+      "artist_review": {
+        "opened_actual_image": true,
+        "status": "needs_review",
+        "notes": "실제 열람: 인물은 낮게 기지만 보호선과 거의 평행해 보이며 머리/어깨의 안쪽 통과가 불명확. 핵심 동작 방향 수정 필요."
+      },
+      "motion_camera_notes": "ST가 손과 무릎을 두 번 앞으로 옮겨 벨트를 완전히 지난다. 재킷 꼬리가 바닥을 끌고 따라온다. 카메라 고정. / 바닥 높이의 고정 측면 와이드. 벨트를 넘는 몸과 앞쪽의 빈 자리까지 한 구도.",
+      "linked_cuts": [
+        "K07"
+      ],
+      "first_frame_requested": "ST의 어깨는 벨트 아래 안쪽에, 엉덩이와 재킷 꼬리는 바깥에 걸쳐 있다. 팬들은 양옆에서 설명을 듣고 빈 통로에는 발이 없다.",
+      "next_motion": "ST가 손과 무릎을 두 번 앞으로 옮겨 벨트를 완전히 지난다. 재킷 꼬리가 바닥을 끌고 따라온다. 카메라 고정.",
+      "camera_note": "바닥 높이의 고정 측면 와이드. 벨트를 넘는 몸과 앞쪽의 빈 자리까지 한 구도.",
+      "file_verification": {
+        "width": 1672,
+        "height": 941,
+        "sha256": "7E2F4410FD675EA1FCFE11B5F9DDD5702AADDAEAC3CAF57718C6DD4E2A730BE9",
+        "byte_identical_to_generated_source": true
+      },
+      "sha256": "7e2f4410fd675ea1fcfe11b5f9ddd5702aaddaeac3caf57718c6dd4e2a730be9",
+      "source_copy_sha256_match": true,
+      "width": 1672,
+      "height": 941
+    },
+    {
+      "concept_id": "C02",
+      "cut_id": "K07",
+      "scene_id": "S07",
+      "image_path": "images/C02/S07_v2.png",
+      "prompt": "Use case: precise-object-edit. Correct ONE crucial action in this 16:9 photo. Preserve architecture, belt at same height, the five standing people and table EXACTLY.\nROTATE and REPOSITION the crawling cream-suited man so he is crawling AWAY FROM THE CAMERA INTO THE ALCOVE, at a right angle to the horizontal black belt, rather than parallel to it. Viewer mainly sees his BACK and the soles of his shoes. His face is mostly hidden, only ear/side sliver visible.\nPlace him in the EMPTY LEFT LANE between the left stone wall and the gray-sweater man's feet. The cream man's HEAD, SHOULDERS, both hands are BEYOND the belt, deeper inside the image nearer back wall. His HIPS and KNEES are still in FRONT of the belt closer to camera, and his shoes extend toward lower left corner. The fixed belt must visibly PASS ABOVE HIS LOWER BACK between shoulders and hips, leaving clearance, without intersecting body. He is bent very low, elbows on floor, crawling beneath the 45cm-high belt. His spine points diagonally from lower-left foreground to upper-right BACK, not horizontally across the picture.\nAll his limbs stay in the clear left lane, no contact or overlap with fans' feet. Leave empty floor leading ahead of his head toward left side of table. No duplicated man, natural two hands/two legs. Same cream tails, black shoes, same lighting. No text or logos.",
+      "reference_images": [
+        "\\\\wsl.localhost\\Ubuntu-24.04\\home\\wooseok\\wsy\\samsung_related\\slide\\AI실행결과발표대회_디자인3종\\storyboards\\2026-10-18_keep3-rebuild-v5\\images\\C02\\S07.png"
+      ],
+      "source_generated_path": "C:\\Users\\wseok\\.codex\\generated_images\\01a14ee7-397b-7ba0-9ba0-b1a00b7b93f2\\exec-97d350df-6787-4e68-a5da-00f89b131ec7.png",
+      "generation_tool": "image_gen",
+      "selected": false,
+      "artist_review": {
+        "opened_actual_image": true,
+        "status": "needs_review",
+        "notes": "실제 열람. 안쪽으로 향하는 등/구두 방향과 발을 피한 통로는 수정됨. 머리·어깨가 선 안쪽에 진입한 증거는 여전히 약해 전진 위치 조정 필요."
+      },
+      "motion_camera_notes": "ST가 손과 무릎을 두 번 앞으로 옮겨 벨트를 완전히 지난다. 재킷 꼬리가 바닥을 끌고 따라온다. 카메라 고정. / 바닥 높이의 고정 측면 와이드. 벨트를 넘는 몸과 앞쪽의 빈 자리까지 한 구도.",
+      "linked_cuts": [
+        "K07"
+      ],
+      "first_frame_requested": "ST의 어깨는 벨트 아래 안쪽에, 엉덩이와 재킷 꼬리는 바깥에 걸쳐 있다. 팬들은 양옆에서 설명을 듣고 빈 통로에는 발이 없다.",
+      "next_motion": "ST가 손과 무릎을 두 번 앞으로 옮겨 벨트를 완전히 지난다. 재킷 꼬리가 바닥을 끌고 따라온다. 카메라 고정.",
+      "camera_note": "바닥 높이의 고정 측면 와이드. 벨트를 넘는 몸과 앞쪽의 빈 자리까지 한 구도.",
+      "file_verification": {
+        "width": 1672,
+        "height": 941,
+        "sha256": "0A6B0977497EE87A3B3C6D191CDE7D1351BE8AE6839A9B47FF6206ACEE62FD05",
+        "byte_identical_to_generated_source": true
+      },
+      "sha256": "0a6b0977497ee87a3b3c6d191cde7d1351be8ae6839a9b47ff6206acee62fd05",
+      "source_copy_sha256_match": true,
+      "width": 1672,
+      "height": 941
+    },
+    {
+      "concept_id": "C02",
+      "cut_id": "K07",
+      "scene_id": "S07",
+      "image_path": "images/C02/S07_v3.png",
+      "prompt": "Use case: precise-object-edit. Edit attached image only, keep architecture, camera, lighting, standing cast, table and exact black belt height unchanged.\nMove ONLY the crawling cream-suited man approximately 70 cm FORWARD AWAY FROM CAMERA, deeper into the empty left lane, so he is now HALFWAY UNDER THE BELT instead of approaching it. Keep him facing away and his whole body low.\nRequired visual relationship: his BLACK-HAIRED HEAD and cream SHOULDERS appear on the FAR SIDE of the horizontal black belt; the black belt visibly OCCLUDES a narrow strip across his LOWER BACK at the waist, making it clear he passes UNDER it. His HIPS, knees, shoes and trailing coat tails stay on the NEAR SIDE closer to camera. His head should be deeper inside than the belt, roughly beside but left of gray man's upper shins, with his hands farther in front of it toward the table. His feet remain in lower-left foreground.\nThe belt must be visibly IN FRONT OF his cream lower back in the photograph, while head and shoulders extend beyond it. The man does not touch the gray man's feet; stay left of all standing people. Two hands, two legs, no extra parts. No changes elsewhere. No text or watermark.",
+      "reference_images": [
+        "\\\\wsl.localhost\\Ubuntu-24.04\\home\\wooseok\\wsy\\samsung_related\\slide\\AI실행결과발표대회_디자인3종\\storyboards\\2026-10-18_keep3-rebuild-v5\\images\\C02\\S07_v2.png"
+      ],
+      "source_generated_path": "C:\\Users\\wseok\\.codex\\generated_images\\01a14ee7-397b-7ba0-9ba0-b1a00b7b93f2\\exec-ce6acab8-dea4-4e15-bdc0-455ebd75b991.png",
+      "generation_tool": "image_gen",
+      "selected": true,
+      "artist_review": {
+        "opened_actual_image": true,
+        "status": "artist_pass",
+        "notes": "실제 이미지 열람. 등을 보이며 안쪽으로 기어가는 방향, 머리/어깨 안쪽·구두와 재킷 바깥의 경계 상태, 벨트가 등 앞을 가리는 깊이 확인. 지정 측면보다 후면 3/4 구도에 가까워 동작 방향을 우선한 구성."
+      },
+      "motion_camera_notes": "몸은 왼쪽 빈 통로를 따라 안쪽으로 진입 중. 손과 무릎을 앞으로 두 차례 옮겨 테이블 왼쪽 낮은 자리 도착. 고정 와이드.",
+      "linked_cuts": [
+        "K07"
+      ],
+      "first_frame_requested": "ST의 어깨는 벨트 아래 안쪽에, 엉덩이와 재킷 꼬리는 바깥에 걸쳐 있다. 팬들은 양옆에서 설명을 듣고 빈 통로에는 발이 없다.",
+      "next_motion": "ST가 손과 무릎을 두 번 앞으로 옮겨 벨트를 완전히 지난다. 재킷 꼬리가 바닥을 끌고 따라온다. 카메라 고정.",
+      "camera_note": "바닥 높이의 고정 측면 와이드. 벨트를 넘는 몸과 앞쪽의 빈 자리까지 한 구도.",
+      "file_verification": {
+        "width": 1672,
+        "height": 941,
+        "sha256": "0D03FE21F838AB465C06B59C29DF4297DC06F77262CAF34C3ABFBD743A623EA5",
+        "byte_identical_to_generated_source": true
+      },
+      "sha256": "0d03fe21f838ab465c06b59c29df4297dc06f77262caf34c3abfbd743a623ea5",
+      "source_copy_sha256_match": true,
+      "width": 1672,
+      "height": 941
+    },
+    {
+      "concept_id": "C02",
+      "cut_id": "K08",
+      "scene_id": "S08",
+      "image_path": "images/C02/S08.png",
+      "prompt": "Use case: ads-marketing. New single 16:9 photoreal cinematic comedy first frame C02 K08. Reference 1 exact cream star face/costume; reference 2 exact alcove/table/five standing people and last position.\nNew state: star has finished crawling, is COMPLETELY INSIDE the belt and now SQUATS low on the floor at the LEFT SIDE OF THE TABLE, at the FRONT viewing position with clear line of sight to laptop. He is the ONLY person seated on floor. Same cream long jacket tails folded on stone to one side, knees bent naturally, both black shoes visible. His face in three-quarter profile looks intently UP toward the laptop screen and female bodyguard. His LEFT hand is just about to smooth the crumpled jacket tail near his knee. His RIGHT arm extends BACKWARD toward entrance with OPEN STOP PALM, pretending he is still guarding the crowd even from the floor. Subtle earnest proud expression, not broad slapstick grin.\nBodyguard black-suited woman stays behind table near back wall; gray man and navy bob woman stand near-side of table to right of star, olive glasses man and beige long-haired woman on far right, all watching laptop. Do not add or remove anyone. Laptop screen faces audience toward entrance; no readable UI. Maintain all positions and the LEFT empty lane used by star.\nMedium wide camera looking diagonally INTO alcove from outside-left on SAME entrance axis, at lower chest level, sufficiently close to see star's full seated body and bodyguard upper body plus low black belt still attached across entrance in near foreground, BEHIND star's outstretched guarding arm in world space. Do not move belt across his torso, do not put him outside it. He is visibly between belt and table. Warm overhead night light, dry stone and rich cream/black texture. No text, logo, watermark, collage.",
+      "reference_images": [
+        "\\\\wsl.localhost\\Ubuntu-24.04\\home\\wooseok\\wsy\\samsung_related\\slide\\AI실행결과발표대회_디자인3종\\storyboards\\2026-10-18_keep3-rebuild-v5\\images\\C02\\S01.png",
+        "\\\\wsl.localhost\\Ubuntu-24.04\\home\\wooseok\\wsy\\samsung_related\\slide\\AI실행결과발표대회_디자인3종\\storyboards\\2026-10-18_keep3-rebuild-v5\\images\\C02\\S07_v3.png"
+      ],
+      "source_generated_path": "C:\\Users\\wseok\\.codex\\generated_images\\01a14ee7-397b-7ba0-9ba0-b1a00b7b93f2\\exec-f809f593-071c-4f5a-a391-58c0108ae36f.png",
+      "generation_tool": "image_gen",
+      "selected": false,
+      "artist_review": {
+        "opened_actual_image": true,
+        "status": "needs_review",
+        "notes": "실제 열람. 낮은 바닥 자리와 뒤쪽 경호 손바닥은 읽히나 ST가 여전히 F2 옆 뒤에 있어 노트북 가시선이 불명확. 테이블 옆 앞자리 구도로 수정 필요."
+      },
+      "motion_camera_notes": "ST가 BG에게 계속하라는 작은 고갯짓을 한다. 뒤쪽을 향한 경호 손바닥은 그대로 유지한다. / 테이블 옆에서 보는 고정 미디엄 와이드. ST 전신·BG 상반신·뒤 보호선 포함.",
+      "linked_cuts": [
+        "K08"
+      ],
+      "first_frame_requested": "ST는 이미 앞자리 바닥에 앉아 있고 재킷 꼬리가 한쪽에 접혀 있다. 한 손은 재킷을 펴기 직전, BG는 노트북 옆에 서 있다.",
+      "next_motion": "ST가 BG에게 계속하라는 작은 고갯짓을 한다. 뒤쪽을 향한 경호 손바닥은 그대로 유지한다.",
+      "camera_note": "테이블 옆에서 보는 고정 미디엄 와이드. ST 전신·BG 상반신·뒤 보호선 포함.",
+      "file_verification": {
+        "width": 1672,
+        "height": 941,
+        "sha256": "76125DF582EC8ED7CBEA3821C836687F3DDD9DEF2911480F18CE853D14C9C318",
+        "byte_identical_to_generated_source": true
+      },
+      "sha256": "76125df582ec8ed7cbea3821c836687f3ddd9def2911480f18ce853d14c9c318",
+      "source_copy_sha256_match": true,
+      "width": 1672,
+      "height": 941
+    },
+    {
+      "concept_id": "C02",
+      "cut_id": "K08",
+      "scene_id": "S08",
+      "image_path": "images/C02/S08_v2.png",
+      "prompt": "Use case: ads-marketing. A genuinely NEW camera shot, 16:9 photoreal cinematic first frame, SAME scene and six people as reference, not a copy of the frontal composition.\nMove camera to OUTSIDE LEFT CORNER of alcove entrance, looking diagonally across toward the table, a 40-degree angle change while remaining on the entrance side. This angle must reveal the EMPTY LEFT SIDE of table as the front listening seat. No reverse view from behind laptop. Table now in center, bodyguard at far side/back, four fans clustered along near-right and right sides. Gray sweater man's back is foreground RIGHT of star's eyeline, navy woman farther right, olive/beige at far right. People stay physically in same semicircle; new angle changes overlap.\nCream STAR has crawled ALL THE WAY TO THE TABLE'S LEFT SIDE, well past the gray sweater man's standing position. He now sits crouched on floor immediately beside table's LEFT FRONT CORNER, face in clear side profile, looking UP AT THE LAPTOP SCREEN with a completely UNOBSTRUCTED eyeline. Important: no fan stands between his face and laptop. Put visible gap of air along this sightline. The laptop's open screen, only soft abstract colors, is visible obliquely to star. Black-suited female bodyguard stands at rear side of table preparing to continue.\nStar's long cream tails folded on floor, one hand near crumpled coat on knee, other arm reaches BACK toward entrance in a firm open STOP palm. He keeps a calm official face despite sitting on floor. Include full seated body and black shoes. The low black belt is BEHIND HIS WORLD POSITION, near entrance in near foreground bottom edge, never cutting across torso. Show the belt diagonally at very bottom foreground with its existing stone pillar mounts. Star lies between it and the table. No crawling duplicate.\nSame black stone warm-light alcove, exact cream/black/navy/gray/olive/beige costumes and six cast, realistic anatomy. Clear spatial gag, no extra humans, no text/signage/logos/watermark. Medium wide shot, not the previous straight-on wide.",
+      "reference_images": [
+        "\\\\wsl.localhost\\Ubuntu-24.04\\home\\wooseok\\wsy\\samsung_related\\slide\\AI실행결과발표대회_디자인3종\\storyboards\\2026-10-18_keep3-rebuild-v5\\images\\C02\\S01.png",
+        "\\\\wsl.localhost\\Ubuntu-24.04\\home\\wooseok\\wsy\\samsung_related\\slide\\AI실행결과발표대회_디자인3종\\storyboards\\2026-10-18_keep3-rebuild-v5\\images\\C02\\S08.png"
+      ],
+      "source_generated_path": "C:\\Users\\wseok\\.codex\\generated_images\\01a14ee7-397b-7ba0-9ba0-b1a00b7b93f2\\exec-e362770f-c565-4fbf-9e01-699a757caa81.png",
+      "generation_tool": "image_gen",
+      "selected": false,
+      "artist_review": {
+        "opened_actual_image": true,
+        "status": "needs_review",
+        "notes": "실제 열람. ST 테이블 왼쪽 앞자리와 노트북 가시선은 확보됨. BG 품에 닫힌 노트북이 중복 생성돼 단일 노트북으로 수정 필요."
+      },
+      "motion_camera_notes": "ST가 BG에게 계속하라는 작은 고갯짓을 한다. 뒤쪽을 향한 경호 손바닥은 그대로 유지한다. / 테이블 옆에서 보는 고정 미디엄 와이드. ST 전신·BG 상반신·뒤 보호선 포함.",
+      "linked_cuts": [
+        "K08"
+      ],
+      "first_frame_requested": "ST는 이미 앞자리 바닥에 앉아 있고 재킷 꼬리가 한쪽에 접혀 있다. 한 손은 재킷을 펴기 직전, BG는 노트북 옆에 서 있다.",
+      "next_motion": "ST가 BG에게 계속하라는 작은 고갯짓을 한다. 뒤쪽을 향한 경호 손바닥은 그대로 유지한다.",
+      "camera_note": "테이블 옆에서 보는 고정 미디엄 와이드. ST 전신·BG 상반신·뒤 보호선 포함.",
+      "file_verification": {
+        "width": 1672,
+        "height": 941,
+        "sha256": "38F748A3B4163F0390212E73ADD12FB1786994FC9FCEE12705F6A243C11A3299",
+        "byte_identical_to_generated_source": true
+      },
+      "sha256": "38f748a3b4163f0390212e73add12fb1786994fc9fcee12705f6a243c11a3299",
+      "source_copy_sha256_match": true,
+      "width": 1672,
+      "height": 941
+    },
+    {
+      "concept_id": "C02",
+      "cut_id": "K08",
+      "scene_id": "S08",
+      "image_path": "images/C02/S08_v3.png",
+      "prompt": "Use case: precise-object-edit. Edit attached photo, change only ONE unwanted prop: REMOVE the CLOSED BLACK LAPTOP currently held against the black-suited woman's abdomen. There must be exactly ONE laptop in this scene: the existing OPEN laptop sitting on the table. Preserve that open laptop unchanged. Replace removed closed laptop with uninterrupted black jacket/white shirt fabric and her natural empty hands loosely resting together at waist level, no tablet, no folder, nothing held. Keep every face, body pose, table, star's seated position and raised guarding palm, architecture, camera, lighting, other four people, belt, colors and 16:9 framing unchanged. No text, no logos.",
+      "reference_images": [
+        "\\\\wsl.localhost\\Ubuntu-24.04\\home\\wooseok\\wsy\\samsung_related\\slide\\AI실행결과발표대회_디자인3종\\storyboards\\2026-10-18_keep3-rebuild-v5\\images\\C02\\S08_v2.png"
+      ],
+      "source_generated_path": "C:\\Users\\wseok\\.codex\\generated_images\\01a14ee7-397b-7ba0-9ba0-b1a00b7b93f2\\exec-af3164e2-7eeb-4a93-bfa6-c98f6dbef838.png",
+      "generation_tool": "image_gen",
+      "selected": false,
+      "artist_review": {
+        "opened_actual_image": true,
+        "status": "artist_pass",
+        "notes": "실제 이미지 열람. ST 테이블 옆 낮은 앞자리, 노트북과 얼굴 사이 시야 확보, 뒤를 향한 경호 손바닥, 유일한 열린 노트북 확인. 카메라는 바깥 왼쪽 대각선으로 이동해 시야를 설명함."
+      },
+      "motion_camera_notes": "테이블 왼쪽 앞자리 ST가 BG에게 작은 고갯짓. 뒤쪽 경호 손바닥 유지. 바깥 왼쪽 대각선 미디엄 와이드.",
+      "linked_cuts": [
+        "K08"
+      ],
+      "first_frame_requested": "ST는 이미 앞자리 바닥에 앉아 있고 재킷 꼬리가 한쪽에 접혀 있다. 한 손은 재킷을 펴기 직전, BG는 노트북 옆에 서 있다.",
+      "next_motion": "ST가 BG에게 계속하라는 작은 고갯짓을 한다. 뒤쪽을 향한 경호 손바닥은 그대로 유지한다.",
+      "camera_note": "테이블 옆에서 보는 고정 미디엄 와이드. ST 전신·BG 상반신·뒤 보호선 포함.",
+      "file_verification": {
+        "width": 1672,
+        "height": 941,
+        "sha256": "3FB868ED6109BE6E70C5AD53EA75C9483695D02F0A42F15AFF51CB27D122CCBD",
+        "byte_identical_to_generated_source": true
+      },
+      "sha256": "3fb868ed6109be6e70c5ad53ea75c9483695d02f0a42f15aff51cb27d122ccbd",
+      "source_copy_sha256_match": true,
+      "width": 1672,
+      "height": 941
+    },
+    {
+      "concept_id": "C02",
+      "cut_id": "K09",
+      "scene_id": "S09",
+      "image_path": "images/C02/S09.png",
+      "prompt": "Use case: ads-marketing. A single 16:9 photoreal cinematic final first frame C02 K09, use the attached image as exact reference for all six people, their positions, clothes, table, ONE open laptop and low black belt. SAME moment and SAME camera side, but pull camera BACK into a much WIDER composition.\nPlace the entire group in the LOWER RIGHT two-thirds. Leave upper LEFT roughly 40 percent of frame as a large dark uncluttered charcoal stone wall area for later editorial title, no generated text. Need genuinely blank dark negative space, not bright glass doors, trees or additional people in that left-upper area. Keep location plausible by showing more of existing left stone facade. The whole six-person group remains legible and not tiny.\nBlack-suited female bodyguard at back side of small black folding table explains by pointing one hand toward the ONE laptop. Four fans stand in same semicircle: gray sweater male nearest camera/right, navy bob female beside him, olive glasses man and beige long-haired woman to far right. The cream-suited STAR stays seated on floor at table's LEFT FRONT CORNER, with unobstructed line of sight UP to the open laptop, same crumpled long tails and black bow tie. While listening intently he continues extending an arm BACK toward the entrance with a firm open stop palm. Only star sits on floor. Nobody looks into camera.\nLow black belt remains secured across entrance in lower foreground behind star in physical depth; same stone pillars, dry floor, warm overhead light, cinematic cream and black contrast. Whole star body, all four fans, female bodyguard and belt visible. No extra people, no second laptop, no extra props. No letters, numbers, signs, logos, UI text, subtitles, watermark, film borders or collage. A quiet continuing comic tableau rather than everyone frozen posing for an ad.",
+      "reference_images": [
+        "\\\\wsl.localhost\\Ubuntu-24.04\\home\\wooseok\\wsy\\samsung_related\\slide\\AI실행결과발표대회_디자인3종\\storyboards\\2026-10-18_keep3-rebuild-v5\\images\\C02\\S08_v3.png"
+      ],
+      "source_generated_path": "C:\\Users\\wseok\\.codex\\generated_images\\01a14ee7-397b-7ba0-9ba0-b1a00b7b93f2\\exec-49f1554f-1c9c-483f-b845-4e3cd58c6696.png",
+      "generation_tool": "image_gen",
+      "selected": false,
+      "artist_review": {
+        "opened_actual_image": true,
+        "status": "needs_review",
+        "notes": "실제 이미지 열람. 네 팬/여성 설명자/바닥 스타/단일 노트북과 좌상단 빈 벽은 확인. 전경 벨트에 독립 금속 기둥이 새로 생겨 기존 석재 기둥 부착식으로 수정 필요."
+      },
+      "motion_camera_notes": "같은 배치에서 BG 화면 지시, ST는 뒤쪽 경호 손바닥을 더 폄. 좌상단 후편집 행사명 6초 공간 확보.",
+      "linked_cuts": [
+        "K09"
+      ],
+      "first_frame_requested": "ST의 바닥 자리, BG·팬·보호선이 모두 보인다. 좌상단 벽은 비어 있으며 글자는 이미지에 생성하지 않는다.",
+      "next_motion": "BG가 화면 한 부분을 가리킨다. ST는 눈을 떼지 않은 채 뒤쪽 손바닥만 곧게 편다. 팬들은 조용히 듣는다.",
+      "camera_note": "고정 와이드. 인물은 하단·오른쪽, 좌상단 어두운 벽에 후편집 자막 공간.",
+      "file_verification": {
+        "width": 1672,
+        "height": 941,
+        "sha256": "A25D2A96272DF058269836B754FAA9219F35C860DF051E06B9BAC844F12B5ACD",
+        "byte_identical_to_generated_source": true
+      },
+      "sha256": "a25d2a96272df058269836b754faa9219f35c860df051e06b9bac844f12b5acd",
+      "source_copy_sha256_match": true,
+      "width": 1672,
+      "height": 941
+    },
+    {
+      "concept_id": "C02",
+      "cut_id": "K09",
+      "scene_id": "S09",
+      "image_path": "images/C02/S09_v2.png",
+      "prompt": "Use case: precise-object-edit. Edit attached photo; keep the six people, table, ONE laptop, camera, framing, dark blank upper-left wall, lighting and poses unchanged.\nCorrect ONLY the near-foreground black barrier supports to match earlier scene: this belt is fastened to EXISTING CHARCOAL STONE entrance pillars, NOT freestanding metal stanchions.\nREMOVE the shiny freestanding vertical metal post near BOTTOM CENTER of image completely. The flat black belt must continue as one uninterrupted strip across that location.\nAt far LEFT foreground, replace the thin shiny vertical metal pole with a broad dark textured STONE entrance pillar partly cut off by the left edge. The low belt attaches to a SMALL silver hook fixed on this stone, approximately 45cm above ground. At right the belt simply continues out of frame to the other stone pillar. No tall poles, no extra posts, no second belt. Preserve the entire upper-left blank wall and seated man's raised palm. No other changes. No text, logo or watermark.",
+      "reference_images": [
+        "\\\\wsl.localhost\\Ubuntu-24.04\\home\\wooseok\\wsy\\samsung_related\\slide\\AI실행결과발표대회_디자인3종\\storyboards\\2026-10-18_keep3-rebuild-v5\\images\\C02\\S09.png"
+      ],
+      "source_generated_path": "C:\\Users\\wseok\\.codex\\generated_images\\01a14ee7-397b-7ba0-9ba0-b1a00b7b93f2\\exec-d88a84a9-d1e3-4a84-8ab0-68990e598c50.png",
+      "generation_tool": "image_gen",
+      "selected": false,
+      "artist_review": {
+        "opened_actual_image": true,
+        "status": "artist_pass",
+        "notes": "실제 이미지 열람. 추가 독립 금속기둥 제거 및 석재 기둥 부착 벨트로 수정. 여섯 인물·단일 노트북·맨앞 바닥 스타·경호 손바닥·좌상단 빈벽 확인. 카메라 확장에 따른 건축선 원근 차이는 교차 검수 관찰점."
+      },
+      "motion_camera_notes": "고정 넓은 대각선 구도. BG가 화면 한 부분을 가리키고 ST는 뒤로 든 손바닥만 폄. 좌상단 행사명 후편집 6초 확보.",
+      "linked_cuts": [
+        "K09"
+      ],
+      "first_frame_requested": "ST의 바닥 자리, BG·팬·보호선이 모두 보인다. 좌상단 벽은 비어 있으며 글자는 이미지에 생성하지 않는다.",
+      "next_motion": "BG가 화면 한 부분을 가리킨다. ST는 눈을 떼지 않은 채 뒤쪽 손바닥만 곧게 편다. 팬들은 조용히 듣는다.",
+      "camera_note": "고정 와이드. 인물은 하단·오른쪽, 좌상단 어두운 벽에 후편집 자막 공간.",
+      "file_verification": {
+        "width": 1672,
+        "height": 941,
+        "sha256": "7308BACB61C598A740CAEBAF15E033E45EE97254123C308B9DD86407663C837E",
+        "byte_identical_to_generated_source": true
+      },
+      "sha256": "7308bacb61c598a740caebaf15e033e45ee97254123c308b9dd86407663c837e",
+      "source_copy_sha256_match": true,
+      "width": 1672,
+      "height": 941
+    },
+    {
+      "concept_id": "C02",
+      "cut_id": "K08",
+      "scene_id": "S08",
+      "linked_cuts": [
+        "K08"
+      ],
+      "image_path": "images/C02/S08_v4.png",
+      "prompt": "Edit this existing photographic first frame C02 K08 to correct ONLY the shared laptop viewing geometry, retaining the same six people and polished night-location style. Keep the SAME cream-suited male star seated on floor LEFT, black bow tie, same face, with his LEFTWARD/BEHIND protective open palm outstretched. Keep his low comic seated pose and cream coat. Keep SAME female bodyguard, black suit/white shirt/ponytail, standing behind-left of folding table as presenter. Keep EXACTLY four same fans: gray-knit short-haired man, bob-haired navy-shirt woman, glasses olive-shirt man, long-haired beige-jacket woman.\nCORRECTION: rotate the SINGLE open black laptop so its DISPLAY FACE and KEYBOARD face diagonally toward the CAMERA FOREGROUND, not toward rear-left. Place its hinge along the FAR/BACK edge of table and keyboard along the NEAR/FRONT edge. Screen is front-facing enough for camera to see a broad rectangular illuminated panel (subtle abstract blue-gray glow, no text/data/logos). Then reposition ALL FOUR fans into a shallow semicircle at the RIGHT FRONT CORNER of the table, closer to camera than the screen plane. They must ALL be on the DISPLAY side and look down-left toward the same lit front surface; none can stand behind the laptop looking at its back. Shift the gray-knit man a little to the RIGHT so his torso does not cover the screen; the bob-haired woman beside him, glasses man and beige woman behind but still FRONT of screen plane. Preserve their faces, outfits and count. The star on left floor and the four fans right-front should share the same visible display face in a semicircle. Bodyguard can present from behind-left without staring at back.\nPreserve the folding table, dark marble wall and pillar, golden sconces, plants and wet reflective floor. Keep low black belt boundary in foreground and stone-mounted fixture, no free-standing metal stanchions. Camera remains outside-left diagonal medium wide, same photographic lens and warmth. Natural believable scale, fingers and anatomy. No second laptop, no text, no UI, no added screens, no extra people. This is the first frame for the star's short 'continue' nod, not a new setup shot.",
+      "reference_images": [
+        "\\\\wsl.localhost\\Ubuntu-24.04\\home\\wooseok\\wsy\\samsung_related\\slide\\AI실행결과발표대회_디자인3종\\storyboards\\2026-10-18_keep3-rebuild-v5\\images\\C02\\S08_v3.png"
+      ],
+      "source_generated_path": "C:\\Users\\wseok\\.codex\\generated_images\\01a13daf-3732-7b90-99a8-92c605090d35\\exec-6f463f7f-721b-4d26-a32e-67df4fb8b2c7.png",
+      "generation_tool": "image_gen",
+      "selected": false,
+      "revision_issue": "A-I01",
+      "artist_review": {
+        "opened_actual_image": true,
+        "status": "superseded_candidate",
+        "notes": "첫수정: 화면은정면으로돌았으나회색팬이여전히뒤에 있어보류"
+      },
+      "artist": "/root after C02 artist completed",
+      "sha256": "4b951a710f75af05519155d65bebe1970dd78c20ea87ffdf96370b14a984c1d9",
+      "source_copy_sha256_match": true,
+      "width": 1672,
+      "height": 941
+    },
+    {
+      "concept_id": "C02",
+      "cut_id": "K08",
+      "scene_id": "S08",
+      "linked_cuts": [
+        "K08"
+      ],
+      "image_path": "images/C02/S08_v5.png",
+      "prompt": "Correct the audience blocking in reference 1, using reference 2 only for character identities and room continuity. Retain star seated on LEFT FLOOR with his one protective hand outstretched left, female black-suited presenter beyond the table at BACK LEFT, same night marble/gold lighting, one folding table and low foreground belt. Exactly SIX people total, same cast/clothes.\nESSENTIAL SPATIAL SHOT: camera is BEHIND THE AUDIENCE looking over their shoulders toward an open laptop. All FOUR fans stand on the NEAR/CAMERA side of the table, grouped on its RIGHT FRONT edge. Show the BACKS and THREE-QUARTER BACKS of ALL FOUR fans toward camera, not their full frontal faces. They lean AWAY FROM CAMERA toward the laptop screen farther back. Their heads and shoulders must be in FRONT of the laptop screen plane. Gray-knit man nearest the left of this group; navy-bob woman next to him; glasses olive-shirt man and long-haired beige-jacket woman at right. None of these four people may stand beyond the table or behind the laptop. Only the FEMALE PRESENTER stands beyond the far edge.\nPlace ONE open black laptop toward the FAR/BACK-CENTER of table, hinge far from camera, keyboard near. Its illuminated screen faces toward the CAMERA/AUDIENCE, and we see part of the illuminated display THROUGH the clear gap LEFT of the fans' shoulders, beside the floor-seated star. The star is beside the NEAR LEFT corner, so he can see that same lit screen obliquely. Keep a gap between his face and laptop. Screen only softly glowing blue/gray no text/UI. The four fans' backs may occlude RIGHT portion of laptop/table but NOT the entire display. A visually obvious OVER-THE-SHOULDER viewing arrangement, no person looking at display back. Don't optimize to show fan faces; correct viewing geometry is more important. Preserve exact cast, clothes and count, normal anatomy and natural pose. No duplicate laptops, no new people or screens. No text or logos. 16:9 photo. Keep cream star's comic low floor position and protective palm clearly visible.",
+      "reference_images": [
+        "\\\\wsl.localhost\\Ubuntu-24.04\\home\\wooseok\\wsy\\samsung_related\\slide\\AI실행결과발표대회_디자인3종\\storyboards\\2026-10-18_keep3-rebuild-v5\\images\\C02\\S08_v4.png",
+        "\\\\wsl.localhost\\Ubuntu-24.04\\home\\wooseok\\wsy\\samsung_related\\slide\\AI실행결과발표대회_디자인3종\\storyboards\\2026-10-18_keep3-rebuild-v5\\images\\C02\\S08_v3.png"
+      ],
+      "source_generated_path": "C:\\Users\\wseok\\.codex\\generated_images\\01a13daf-3732-7b90-99a8-92c605090d35\\exec-3578885d-c025-4234-a398-f4431affa172.png",
+      "generation_tool": "image_gen",
+      "selected": false,
+      "revision_issue": "A-I01",
+      "artist_review": {
+        "opened_actual_image": true,
+        "status": "superseded_candidate",
+        "notes": "관객4명모두화면앞쪽으로옮겨어깨너머구도확보. 스타-노트북사이회색팬가림때문비선정"
+      },
+      "artist": "/root after C02 artist completed",
+      "sha256": "76e27c9129f2229762a880e580dcafa256695d42a56d95feea856d341a9f8ed5",
+      "source_copy_sha256_match": true,
+      "width": 1672,
+      "height": 941
+    },
+    {
+      "concept_id": "C02",
+      "cut_id": "K08",
+      "scene_id": "S08",
+      "linked_cuts": [
+        "K08"
+      ],
+      "image_path": "images/C02/S08_v6.png",
+      "prompt": "Localized edit of this photograph. Keep ALL SIX PEOPLE exactly where they are, with identical faces, poses, clothes and sizes. Preserve the four fans' BACKS toward camera and the floor-seated star on left with protective palm. Change ONLY laptop placement and a small tabletop region. Move the SINGLE open laptop from its current mostly blocked position behind the gray-knit fan to the FAR LEFT END of the tabletop, directly beside the floor-seated star and directly in front of the standing female presenter. Its screen and keyboard should now be clearly visible in the OPEN GAP between star's face and the gray-knit fan's LEFT shoulder. The entire laptop display must sit to the LEFT of the gray man's torso, with nothing between star's face and display. Keep a physically realistic laptop size. Display FRONT faces diagonally toward camera/near-right audience (the four fans), keyboard toward the near edge; same softly glowing blue-gray panel, no text/UI. All four fans remain on the near side, viewing over shoulders toward the moved screen. The seated star can see this same display through the clear left-side gap. Do NOT duplicate the laptop: remove it entirely from the old center position and leave empty dark tabletop there. Preserve tabletop legs, golden marble location, low belt, all people and everything else. Do not move camera, add people/screens, or put an emblem/text. 16:9 photographic image.",
+      "reference_images": [
+        "\\\\wsl.localhost\\Ubuntu-24.04\\home\\wooseok\\wsy\\samsung_related\\slide\\AI실행결과발표대회_디자인3종\\storyboards\\2026-10-18_keep3-rebuild-v5\\images\\C02\\S08_v5.png"
+      ],
+      "source_generated_path": "C:\\Users\\wseok\\.codex\\generated_images\\01a13daf-3732-7b90-99a8-92c605090d35\\exec-81773b10-466e-40ad-9511-161c2bf4a26d.png",
+      "generation_tool": "image_gen",
+      "selected": true,
+      "revision_issue": "A-I01",
+      "artist_review": {
+        "opened_actual_image": true,
+        "status": "revision_ready_for_recheck",
+        "notes": "노트북을테이블왼쪽끝으로옮겨스타와의시선틈확보. 네팬은표시면앞쪽에있음. 실제출력열람, 최종독립재확인대기"
+      },
+      "artist": "/root after C02 artist completed",
+      "sha256": "ea7ef577b482d0c1ee8ae098d634ab0cd93d746adda6df2f31d852dab0b34f53",
+      "source_copy_sha256_match": true,
+      "width": 1672,
+      "height": 941
+    },
+    {
+      "concept_id": "C02",
+      "cut_id": "K09",
+      "scene_id": "S09",
+      "linked_cuts": [
+        "K09"
+      ],
+      "image_path": "images/C02/S09_v3.png",
+      "prompt": "Create a wider ending first frame of EXACTLY the same scene and blocking as this reference image. This is C02 K09, 16:9 photoreal cinematic night, no text. Pull camera back while preserving the same viewing axis; make the six-person group occupy the LOWER RIGHT two-thirds, leaving a large EMPTY DARK MARBLE WALL area at UPPER LEFT for a later title. Do not write the title.\nPreserve exact people and clothing: cream tuxedo male star sits on floor LEFT of folding table, one palm stretched back/left as if still guarding; black ponytailed female bodyguard/presenter stands beyond far-left table edge; four fans in gray knit/navy shirt with bob/olive shirt with glasses/beige jacket with long hair stand on NEAR RIGHT side of table with their BACKS/THREE-QUARTER BACKS toward camera, all leaning toward screen. They must NOT move behind the table to face camera.\nKeep the ONE OPEN LAPTOP on the LEFT end of the tabletop, adjacent to star's face and directly before female presenter. Its softly glowing front display is visible in the clear gap LEFT of gray-knit man's torso, angled toward CAMERA/NEAR RIGHT AUDIENCE. Star and four fans all remain on display FRONT side; no duplicate laptop. The four fans look down-left toward that actual laptop location. Preserve the gap between star and laptop, crowd shall not cover his face or the lit panel entirely. Star nod poised; presenter points near laptop as she explains.\nExpand same golden sconces, lit plants, black polished marble walls/reflective floor. Low black belt across foreground, mounted directly to a STONE PILLAR at left via small metal hook; NO stand-alone metal stanchion. Do not alter group geometry while widening. Exactly six fictional adults, natural hands, no extra screens, no text/logos/UI/data, no collage.",
+      "reference_images": [
+        "\\\\wsl.localhost\\Ubuntu-24.04\\home\\wooseok\\wsy\\samsung_related\\slide\\AI실행결과발표대회_디자인3종\\storyboards\\2026-10-18_keep3-rebuild-v5\\images\\C02\\S08_v6.png"
+      ],
+      "source_generated_path": "C:\\Users\\wseok\\.codex\\generated_images\\01a13daf-3732-7b90-99a8-92c605090d35\\exec-22f2c965-2ce0-4e8b-8a2f-0a38346e8892.png",
+      "generation_tool": "image_gen",
+      "selected": true,
+      "revision_issue": "A-I01",
+      "artist_review": {
+        "opened_actual_image": true,
+        "status": "revision_ready_for_recheck",
+        "notes": "수정S08배치그대로넓힘. 왼쪽바닥스타·보호손, 테이블왼끝단일노트북, 앞쪽팬4명, 좌상단여백/석재고정벨트확인"
+      },
+      "artist": "/root after C02 artist completed",
+      "sha256": "74376b7a4003e2558a9ef134529f4e60b98a2cfffaee28d81946f6f2ffe96a87",
+      "source_copy_sha256_match": true,
+      "width": 1672,
+      "height": 941
+    }
+  ]
+}

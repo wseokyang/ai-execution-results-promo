@@ -1,0 +1,15 @@
+{
+  "researcher":"/root/v5_reference_diagnosis",
+  "latest_feedback":"V4 C03만 유지. 나머지 네 안 재미·반전 부족으로 반려.",
+  "fact_check":{"directly_checked":["원본 PPTX 슬라이드1~3 텍스트","AI실행결과발표대회안.png"],"confirmed":"2026년 품질팀 AI 실행 결과 발표 대회 개최·행사명. AI 우수 과제 및 활용 역량 향상 사례 공유 목적.","unknown":["정확한 일시·장소","참석·추천·신청 방법","실제 발표자·과제·성과 수치","상금"],"correction":"실패 사례를 반드시 발표하는 대회라는 규정은 원자료에 없음. 실패·과정 훈화 수렴은 이전 기획의 창작 선택."},
+  "rejected_diagnosis":[
+    {"concept":"C01 악마","cuts":"K01–K09","problem":"K03에서 질문 때문에 귀환하는 규칙을 전부 공개. 이후 분할/조건 설명이 튜토리얼, 발표 자청은 작은 성격 변화일 뿐 앞 계약 사건을 재해석할 증거가 없음."},
+    {"concept":"C02 미래인","cuts":"K01–K09","problem":"8초 안에 실패와 학습의 소멸을 공개해 실패 복구 결론이 예상됨. 결과의 반대 감정은 있지만 자료 재입력 절차와 기록 보존으로 큰 시간여행 설정을 소비."},
+    {"concept":"C04 대역","cuts":"K01a–K08","problem":"5초에 촬영장 장치를 공개하고 과장 감독의 예시를 반복. 대역 입력을 미리 보여 새 사례도 예측 가능. 의자 점유는 소소한 후일담."},
+    {"concept":"C05 보존","cuts":"K01–K09","problem":"대상만 늘고 선을 치는 규칙은 동일. 스스로 넘어갈 수 있는 선에 갇혔다는 해석이 필요, 번호표는 자막이 뜻을 설명. 마지막은 실패 인정·습관 개선 훈화."}
+  ],
+  "retained_C03":{"confirmed_preference":"사용자가 이 안을 남기라고 선택함.","inference":"추상적 환경 요구가 실물 사무실로 배송되는 규모와 오해가 한눈에 보임. 두 번째 환경과 생활 반응이 추가됨.","do_not_infer":"모든 신규안을 배송/크레인/큰 소품으로 만들거나 C03의 모든 세부를 사용자 개별 승인으로 취급하지 않음."},
+  "new_gate":["관객이 처음 믿는 것","뒤늦게 보이는 새 증거","그 증거로 앞 행동의 뜻이 어떻게 바뀌는가","대사와 행사명을 가려도 남는 마지막 우스운 그림"],
+  "reference_scope":{"actual_viewed":["qrew reference-v5/contact-opening.png","qrew reference-v7-v8/contact-448-544.png","qrew v7-recut/output/QREW-v7-recut-storyboard.png"],"actual_read":["reference-v5/analysis.txt","reference-v7-v8/analysis.txt","v7-recut/animation.js"],"official_ads":"V4 reference_audit.json의 이전 화면·자동자막·공식 설명 확인 범위를 재사용.","not_claimed":["전편 연속 감상","실제 음원 청취","관객 웃음 검증"]},
+  "PD_rule":"정합성 검수 통과와 재미의 충족을 구별한다. 이미지 제작 전 콘셉트 자체의 예측 가능성을 별도 독립 검토한다."
+}

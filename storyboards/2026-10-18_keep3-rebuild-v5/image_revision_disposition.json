@@ -1,0 +1,47 @@
+{
+  "issues": [
+    {
+      "id": "A-I01",
+      "decision": "resolved",
+      "required": true,
+      "selected": [
+        "images/C02/S08_v6.png",
+        "images/C02/S09_v3.png"
+      ],
+      "reason": "표시면앞쪽에팬을배치하고노트북을왼끝으로옮겨스타시선틈확보. v4각도만수정은팬뒤위치남아보류, v5등너머는스타가림남아보류. 모두원본보존. 선행K04/06/07은가림으로방향확정안돼필수수정에서제외."
+    },
+    {
+      "id": "B-I01",
+      "decision": "resolved",
+      "required": true,
+      "selected": [
+        "images/C05/S06_v2.png",
+        "images/C05/S07_v2.png"
+      ],
+      "reason": "반환된가방이현관벤치밑에도복제돼두컷배경가방만제거. 개/전경가방/악기/점프컷보존."
+    },
+    {
+      "id": "B-I02",
+      "decision": "suggestion_retained",
+      "required": false,
+      "reason": "선행검은면은앞뒤확정못함. 미래화면광/관람방향메모, 추가이미지없음."
+    },
+    {
+      "id": "C-I01",
+      "decision": "accepted_minor_difference",
+      "required": false,
+      "reason": "C01S07작은호루라기없음은캐릭터/모방행동훼손안함. 후속의상안소품으로연결."
+    }
+  ],
+  "other_PD_choices": [
+    "C04첫이미지좌측힌지로통일,문은제거후전경오른쪽",
+    "C02K01보호왼팔/노트북오른팔기준으로문서정정",
+    "C05S01남매소파팔걸이뒤/쿠션안쪽. K06마지막짧은코밀기부터. K07가방넓게열려도노트북닫혀공개동작남음."
+  ],
+  "not_altered": [
+    "C03fullobjectand8selectedPNGs",
+    "existingC01v07MP4",
+    "originaleventandqrewassets"
+  ],
+  "final_required_unresolved": 0
+}

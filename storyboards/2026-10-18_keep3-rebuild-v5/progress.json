@@ -1,0 +1,11 @@
+{
+  "status": "complete",
+  "stage": "storyboards_and_actual_images_delivered",
+  "retained_concept": "C03",
+  "new_concepts_required": 4,
+  "video_generation": false,
+  "flow_upload": false,
+  "planned_new_images": 35,
+  "retained_images": 8,
+  "new_images": 35
+}

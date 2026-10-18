@@ -1,0 +1,135 @@
+{
+  "reviewer": "B",
+  "record_format": "PD transcription of returned review, condensed prose; subjective scores omitted",
+  "actual_opened_paths": {
+    "originals": {
+      "C01": [
+        "images/C01/S01.png",
+        "images/C01/S02_v2.png",
+        "images/C01/S03.png",
+        "images/C01/S04_v2.png",
+        "images/C01/S05.png",
+        "images/C01/S06_v2.png",
+        "images/C01/S07_v2.png",
+        "images/C01/S08_v2.png",
+        "images/C01/S09.png"
+      ],
+      "C02": [
+        "images/C02/S01.png",
+        "images/C02/S02_v2.png",
+        "images/C02/S03.png",
+        "images/C02/S04_v3.png",
+        "images/C02/S05.png",
+        "images/C02/S06.png",
+        "images/C02/S07_v3.png",
+        "images/C02/S08_v3.png",
+        "images/C02/S09_v2.png"
+      ],
+      "C03": [
+        "images/C03/K01.png",
+        "images/C03/K02.png",
+        "images/C03/K03.png",
+        "images/C03/K04.png",
+        "images/C03/K05.png",
+        "images/C03/K06_v2.png",
+        "images/C03/K07.png",
+        "images/C03/K08.png"
+      ],
+      "C04": [
+        "images/C04/S01.png",
+        "images/C04/S02.png",
+        "images/C04/S03_v2.png",
+        "images/C04/S04_v2.png",
+        "images/C04/S05.png",
+        "images/C04/S06.png",
+        "images/C04/S07_v2.png",
+        "images/C04/S08.png",
+        "images/C04/S09.png"
+      ],
+      "C05": [
+        "images/C05/S01.png",
+        "images/C05/S02.png",
+        "images/C05/S03.png",
+        "images/C05/S04.png",
+        "images/C05/S05.png",
+        "images/C05/S06.png",
+        "images/C05/S07.png",
+        "images/C05/S08.png"
+      ]
+    },
+    "contact_sheets": [
+      "contact_sheets/C01_all_cuts.jpg",
+      "contact_sheets/C02_all_cuts.jpg",
+      "contact_sheets/C03_all_cuts.jpg",
+      "contact_sheets/C04_all_cuts.jpg",
+      "contact_sheets/C05_all_cuts.jpg"
+    ]
+  },
+  "scope_limit": "43 selected원본모두detail:original + contact5. C05S06_v2/S07_v2는최초검토미포함. 첫제출전동료의견없음. PPT재열람/동작/음성/음악/최종편집/자막/관객반응/Flow성공미검증.",
+  "concepts": [
+    {
+      "id": "C01",
+      "judgment": "pass",
+      "evidence": "성공포스터/교정→원본미끄러짐시작→코치뒤집힘재복제 구별. K07/08차이명확,34초.호루라기수정불필요."
+    },
+    {
+      "id": "C02",
+      "judgment": "pass_with_suggestion",
+      "evidence": "팬관심경호원전환→자기선·팬등에막힘→기어들고새경호, K06돌아봄/K07통로/K08바닥후폭풍.네팬/단일노트북유지."
+    },
+    {
+      "id": "C03",
+      "judgment": "preserve",
+      "evidence": "거대한환경배송→주황모듈/시행착오내부의미전환.기록/두공간차이.조건과과정공유직접연결."
+    },
+    {
+      "id": "C04",
+      "judgment": "pass",
+      "evidence": "은박양보→주인같은정체→문제거→내려놓기도양보. K06틈/K07통로/K08대각선,양쪽비서이동/사람남음."
+    },
+    {
+      "id": "C05",
+      "judgment": "required_revision",
+      "evidence": "숨기/커튼예상→아코디언/엄마합류→개반환/가족기대. K02노트북가방명확,K05예고없음. 중복가방인과훼손."
+    }
+  ],
+  "issues": [
+    {
+      "id": "B-I01",
+      "concept_id": "C05",
+      "scene_id": [
+        "S06",
+        "S07"
+      ],
+      "cut_id": [
+        "K06",
+        "K07"
+      ],
+      "severity": "required",
+      "observation": "아빠발앞/무릎의회색가방외현관벤치밑에같은가방복제",
+      "reason": "개가같은업무가방반환한증거훼손",
+      "fix": "두컷벤치아래가방만제거.전경가방/개/악기/구도/갑작스런반환보존.운반준비추가금지. S08은가림때문확정안함,연결시확인",
+      "status": "최초selected미해결,수정후보교차대기"
+    },
+    {
+      "id": "B-I02",
+      "concept_id": "C02",
+      "cut_id": [
+        "K04",
+        "K06",
+        "K07"
+      ],
+      "severity": "suggestion",
+      "observation": "팬사이노트북면검고평평해화면/등판모호,K08켜진화면명확",
+      "reason": "군중자세/대사로보려몰림이해가능,화면광증거가있으면명료.현재등판오류단정못함",
+      "fix": "후속합성에서팬시선면미약화면광/무문자실행화면.등에가린스타/단일노트북유지.이제안만이미지재생성요구안함"
+    }
+  ],
+  "overall": {
+    "required_remaining": 1,
+    "timing": "34/33/42/35/31연속,신규끝6초/C03끝5초",
+    "facts": "허위일시/장소/성과/상금/신청경로없음",
+    "acceptability": "허구과잉행동·상황대상,실제직원저격없음",
+    "limit": "첫프레임준비상태이며완성영상/관객검증아님"
+  }
+}

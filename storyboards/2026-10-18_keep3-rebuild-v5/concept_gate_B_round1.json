@@ -1,0 +1,9 @@
+{"reviewer":"/root/v5_review_b","independent":true,"actual_audience_test":false,"findings":[
+{"id":"B-G01","candidate":"E1","status":"보강 필수","reason":"갈림길의 역할 역전은 읽힌다. 이후 스타 합류 예상. 자청 경호에 앞자리 확보 목표를 주고 자기 보호선에 막혀 기어들게 한다."},
+{"id":"B-G02","candidate":"E2","status":"보강 필수","reason":"상호 폭로는 유효하나 옷걸이 끝이 느슨하다. 체면 때문에 팔을 못 내리는 동기를 먼저 만들어야 함."},
+{"id":"B-G03","candidate":"E3","status":"탈락","reason":"리모컨이 있으면서 왕복하는 행동을 새 증거가 무효화한다. 익숙한 실패사진."},
+{"id":"B-G04","candidate":"E4","status":"탈락","reason":"첫 탈착 이후 상호 변장 예상. 교환 목적과 발각 손해 부재."},
+{"id":"B-G05","candidate":"W1","status":"유지","reason":"엉터리 비법 의심은 가능하나 낙상 직전이라는 정확한 원인과 오해 재생산 결말은 새 사건. 실제 직원 아닌 허구 코치 풍자 유지."},
+{"id":"B-G06","candidate":"W2","status":"탈락","reason":"첫 손/쪽지부터 군중 예상. 다시 숨는 행동은 습관이라는 설명에 의존. E2와 중복."},
+{"id":"B-G07","candidate":"W3","status":"보강 제안","reason":"가짜 감동→진짜 관심 예상되지만 빈 단상은 남는다. 종료 강행 시 사람들이 소품만 반납하고 설명에 남는 원인 필요."},
+{"id":"B-G08","candidate":"W4","status":"탈락","reason":"도구 공개부터 학습자 지위 추락 예상. E1과 중복."}],"common":"W1 유지, E1/E2 보강, W3 예비. 억지4선정 불필요. C03 유지 확정. 원본 재검증·이미지열람 미수행."}

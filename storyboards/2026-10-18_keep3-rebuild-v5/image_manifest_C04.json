@@ -1,0 +1,472 @@
+{
+  "artist": "v5_artist_c04",
+  "concept_id": "C04",
+  "images": [
+    {
+      "concept_id": "C04",
+      "cut_id": "K01",
+      "scene_id": "S01",
+      "image_path": "images/C04/S01.png",
+      "prompt": "Use case: ads-marketing. Generate one photographic first frame of a deliberately low-budget Korean office comedy, widescreen 16:9. No panels, no collage, no lettering, no logo.\nScene: flat bright office lighting, mint-green walls, gray floor. Camera in corridor looking 35 degrees obliquely at a wide white doorframe in the central background. Beyond it is a modest office room with one desk. A single lightweight plain white prop door is hinged on the RIGHT jamb and swung outward toward the camera to the right; it remains visibly open, with a silver lever on EACH face at matching height. Compose so actors on opposite sides can each reach a different face of this same door. Show the whole doorway and full bodies, a little headroom.\nExactly FOUR fictional Korean adults. Left foreground: HB, a man in his thirties with short black hair, royal-blue cardigan, light undershirt, dark gray trousers, behind his assistant RB. RB is a human actor visible inside a square foil-covered cardboard helmet, goofy handmade crumpled tinfoil costume with paper joints, blue rounded shoulder straps and blue shoes. RB faces into the room, about to touch the corridor-side door lever with one hand, with fingertips still a few centimeters away. In the room beyond the opposite face of the same open door: RY, another human actor in identical crude foil/cardboard costume but YELLOW rounded shoulder straps and yellow shoes, faces out toward the corridor and reaches for the opposite-face lever, still not touching. Behind RY inside the room is HY, a forty-something Korean woman with black bob hair, mustard-yellow cardigan and black trousers. Human owners each make a mild encouraging palm gesture toward their own color-matched assistant. The assistants look overly earnest and polite. Keep both owner faces and both assistant faces visible.\nImportant blocking: blue pair outside in foreground, yellow pair inside farther back. One open door only, two opposite-side handles; no second door. Freeze BEFORE the handles are touched, not after. Full-length people with clear limbs and feet. Broad mint wall upper left for later editing. Cheap costume seams and tape are intentional, avoid polished sci-fi robots. Real photographic textures and deliberately mundane set. No text of any kind.",
+      "reference_images": [],
+      "source_generated_path": "C:\\Users\\wseok\\.codex\\generated_images\\01a14eed-970c-7543-905b-9575f42c842a\\exec-04f9b3d9-5252-47a2-a2bc-035c8033da4a.png",
+      "generation_tool": "image_gen",
+      "selected": true,
+      "artist_review": {
+        "opened_actual_image": true,
+        "status": "artist_pass",
+        "notes": "실제 열람: 4인 색상짝, 은박, 접촉 전, 양면 손잡이 확인. 콘티의 우측 힌지 대신 좌측 힌지. 이후 이미지 좌측 힌지를 일관 유지하는 제안, 총괄 전달. 총괄이 좌측 힌지 변경 수용. 이후 좌측 힌지 고정, 제거 문 우측 이동 유지."
+      },
+      "next_motion": "비서들이 레버를 잡자마자 동시에 멈추고 먼저 가라는 자유로운 손바닥을 서로 내민다. K02의 과한 정중 동작으로 바로 이어진다.",
+      "camera_notes": "복도 쪽 35도 고정 와이드. 앞쪽 파랑 쌍, 뒤쪽 노랑 쌍, 문 양면과 목적지가 보임.",
+      "storyboard_first_frame": "두 비서는 열린 문 양면의 레버에 손을 뻗는 중이며 아직 닿지 않았다. 파랑 주인은 전경, 노랑 주인은 방 안.",
+      "width": 1672,
+      "height": 941,
+      "copied_sha256": "795439C371166314F3A29B868109C11DF7676C7F1677DEF99A58E09B3AB490F0",
+      "source_sha256": "795439C371166314F3A29B868109C11DF7676C7F1677DEF99A58E09B3AB490F0",
+      "byte_identical": true,
+      "review_status": "pending_independent_review",
+      "sha256": "795439c371166314f3a29b868109c11df7676c7f1677def99a58e09b3ab490f0",
+      "source_copy_sha256_match": true
+    },
+    {
+      "concept_id": "C04",
+      "cut_id": "K01",
+      "scene_id": "S01",
+      "image_path": "images/C04/S01_v2.png",
+      "prompt": "Use case: precise-object-edit. Edit the referenced photographic comedy frame into a corrected single first frame, 16:9. Keep all four fictional Korean actors' identities, exact costumes, mint office set, same flat light, scale and BEFORE-touching-handle action. Correct ONLY the doorway geometry and required blocking: the white door must be hinged on the RIGHT jamb of the opening as seen by the camera, NOT the left jamb. Rotate the open leaf toward the foreground from that right jamb; its free handle edge is forward/left of its hinge. A single solid open white door with matching metal lever handles on its two faces. Blue assistant and blue-cardigan male owner stay on the corridor/foreground side, yellow assistant and mustard-cardigan female owner stay on the office/background side. Adjust their positions enough that each assistant reaches toward the correct opposite face of this single open door with fingertips several centimeters away, neither touching yet. Keep all four faces visible and full bodies. No second door, no impossible handles attached in empty air, no text, no logos. Reserve blank mint wall at upper left. The doorway should be central, the swung-open door projects toward the camera on its right side.",
+      "reference_images": [
+        "\\\\wsl.localhost\\Ubuntu-24.04\\home\\wooseok\\wsy\\samsung_related\\slide\\AI실행결과발표대회_디자인3종\\storyboards\\2026-10-18_keep3-rebuild-v5\\images\\C04\\S01.png"
+      ],
+      "source_generated_path": "C:\\Users\\wseok\\.codex\\generated_images\\01a14eed-970c-7543-905b-9575f42c842a\\exec-77aa0dc2-eb35-4ba8-9bb5-e8f1ecfb29cd.png",
+      "generation_tool": "image_gen",
+      "selected": false,
+      "artist_review": {
+        "opened_actual_image": true,
+        "status": "needs_revision",
+        "notes": "생성 결과 직접 확인. 힌지 좌측, 레버가 힌지 부근에 중복된 오류. 비선정."
+      },
+      "next_motion": "비서들이 레버를 잡자마자 동시에 멈추고 먼저 가라는 자유로운 손바닥을 서로 내민다. K02의 과한 정중 동작으로 바로 이어진다.",
+      "camera_notes": "복도 쪽 35도 고정 와이드. 앞쪽 파랑 쌍, 뒤쪽 노랑 쌍, 문 양면과 목적지가 보임.",
+      "storyboard_first_frame": "두 비서는 열린 문 양면의 레버에 손을 뻗는 중이며 아직 닿지 않았다. 파랑 주인은 전경, 노랑 주인은 방 안.",
+      "width": 1672,
+      "height": 941,
+      "copied_sha256": "DEE3C2024131DAB7B679D10BA5F8C5675FCC28A4F050522BCC1DC32B9DE28350",
+      "source_sha256": "DEE3C2024131DAB7B679D10BA5F8C5675FCC28A4F050522BCC1DC32B9DE28350",
+      "byte_identical": true,
+      "review_status": "pending_independent_review",
+      "sha256": "dee3c2024131dab7b679d10ba5f8c5675fcc28a4f050522bcc1dc32b9de28350",
+      "source_copy_sha256_match": true
+    },
+    {
+      "concept_id": "C04",
+      "cut_id": "K01",
+      "scene_id": "S01",
+      "image_path": "images/C04/S01_v3.png",
+      "prompt": "Use case: ads-marketing. Create a NEW camera composition for a 16:9 photographic first frame of low-budget Korean office comedy. Reference image is ONLY for the four actors' faces, blue/mustard clothing, homemade foil costumes, and mint/gray palette. DO NOT copy its door layout, which is incorrect.\nCamera is in a corridor, wide full-body master shot looking obliquely through a doorway. Place the white empty rectangular doorframe at horizontal center, from x=600 to x=1050 on a 1672-pixel-wide composition. One plain white door leaf is physically attached to the RIGHT vertical jamb (x=1050), swings OUT into the corridor toward camera, with its FREE edge projecting rightwards towards x=1250. Door hinge is BACK/LEFT in the projected view of the leaf; handle/free edge is FRONT/RIGHT. This creates room for actors on the two opposite faces of the one door. The door occupies the right half, mint blank wall occupies left upper quadrant.\nRB blue foil assistant stands on corridor/front/left side of that leaf, facing diagonally toward room, one hand reaching near its front-face silver lever but NOT touching yet. HB blue-cardigan owner is immediately behind RB on corridor side. RY yellow foil assistant stands behind the open leaf on ROOM side, reaching for the opposite-face lever on the same free edge, NOT touching yet; HY mustard-cardigan owner stands further behind in the office room. Four actors total, all heads and bodies visible, do not obscure actors behind the leaf. Keep door opaque solid, use oblique angle allowing faces visible above or beside leaf. Door at normal adult height; full bodies.\nHuman actors visible inside foil cardboard square helmets; blue rounded shoulder straps and blue shoes on RB, yellow on RY. Charming obviously cheap crumpled foil and paper joints. HB Korean man 30s short black hair blue cardigan/dark gray pants; HY Korean woman 40s bob hair mustard cardigan/black pants. Both owners gesture encouragingly toward own assistant. Bright flat light, mint walls, gray floor, modest desk and window in room. No lettering, no labels, no logo, no sci-fi polish. Critical: ONE door with only TWO handles, one per opposing face near the SAME free edge; RIGHT-jamb hinges. Single image, not diagram or collage.",
+      "reference_images": [
+        "\\\\wsl.localhost\\Ubuntu-24.04\\home\\wooseok\\wsy\\samsung_related\\slide\\AI실행결과발표대회_디자인3종\\storyboards\\2026-10-18_keep3-rebuild-v5\\images\\C04\\S01.png"
+      ],
+      "source_generated_path": "C:\\Users\\wseok\\.codex\\generated_images\\01a14eed-970c-7543-905b-9575f42c842a\\exec-5f027c69-ba41-4fcf-ba9a-cf0aea266bfe.png",
+      "generation_tool": "image_gen",
+      "selected": false,
+      "artist_review": {
+        "opened_actual_image": true,
+        "status": "needs_revision",
+        "notes": "중앙 기둥 및 두 개의 문 통로가 생겨 비선정."
+      },
+      "next_motion": "비서들이 레버를 잡자마자 동시에 멈추고 먼저 가라는 자유로운 손바닥을 서로 내민다. K02의 과한 정중 동작으로 바로 이어진다.",
+      "camera_notes": "복도 쪽 35도 고정 와이드. 앞쪽 파랑 쌍, 뒤쪽 노랑 쌍, 문 양면과 목적지가 보임.",
+      "storyboard_first_frame": "두 비서는 열린 문 양면의 레버에 손을 뻗는 중이며 아직 닿지 않았다. 파랑 주인은 전경, 노랑 주인은 방 안.",
+      "width": 1672,
+      "height": 941,
+      "copied_sha256": "A53FA39122A413F56F527C9130A3EDC2B910B06CEF1EC9E038C50ACE8E9EFEF7",
+      "source_sha256": "A53FA39122A413F56F527C9130A3EDC2B910B06CEF1EC9E038C50ACE8E9EFEF7",
+      "byte_identical": true,
+      "review_status": "pending_independent_review",
+      "sha256": "a53fa39122a413f56f527c9130a3edc2b910b06cef1ec9e038c50ace8e9efef7",
+      "source_copy_sha256_match": true
+    },
+    {
+      "concept_id": "C04",
+      "cut_id": "K02",
+      "scene_id": "S02",
+      "linked_cuts": [
+        "K02"
+      ],
+      "image_path": "images/C04/S02.png",
+      "prompt": "Use case: ads-marketing. Generate a new single 16:9 photographic first frame of the next shot in the referenced deliberately B-grade office comedy. Reference image locks all FOUR actor identities, cheap foil cardboard costumes, blue/yellow color pairings, mint room and one open white door. Preserve the reference doorway geometry exactly, do not redesign or mirror it.\nFull-body fixed two-shot of blue and yellow foil assistants on opposite faces of the SAME open door, owners at left and right edges observing. The assistants' INSIDE HANDS NOW GRIP their respective metal lever handles, one handle on each face near same free edge. Their outside hands are lifted in front of waist, palm angled sideways just BEFORE flipping upward in a 'you first' gesture. Their two feet are side by side (no step or bow yet). The blue assistant is corridor foreground left, yellow assistant is room background right. Owners still on their own side: blue-cardigan short-haired Korean man outside, mustard-cardigan bob-haired Korean woman inside. Eyes on each other, artificially solemn exaggerated politeness. Clear hands touching levers and full feet. This is the start of a synchronized palm flip, two tiny backward steps, then bow, not the final bow. Same cheap tape, crumpled foil and paper joints, visible human faces. Flat bright light. No text, labels, logos, symbols or collage.",
+      "reference_images": [
+        "\\\\wsl.localhost\\Ubuntu-24.04\\home\\wooseok\\wsy\\samsung_related\\slide\\AI실행결과발표대회_디자인3종\\storyboards\\2026-10-18_keep3-rebuild-v5\\images\\C04\\S01.png"
+      ],
+      "source_generated_path": "C:\\Users\\wseok\\.codex\\generated_images\\01a14eed-970c-7543-905b-9575f42c842a\\exec-6d1bc5ee-97d9-4f14-b864-daa7c3704bb6.png",
+      "generation_tool": "image_gen",
+      "selected": true,
+      "artist_review": {
+        "opened_actual_image": true,
+        "status": "artist_pass",
+        "notes": "도구 실제 출력 열람: 비서 양면 레버 접촉, 자유 손바닥 준비, 전신/발/색상짝 유지. 손바닥은 이미 약간 위를 향함. 좌측 힌지 총괄 수용."
+      },
+      "next_motion": "손바닥 튕김 → 짧은 발빼기 두 번 → 인사 한 번을 동일한 박자로 실행한다. 손은 레버에서 떨어지지 않는다.",
+      "camera_notes": "고정 전신 투 샷. 손잡이·손·발을 모두 포함하고 주인들은 가장자리에서 관찰.",
+      "storyboard_first_frame": "두 비서의 안쪽 손은 레버를 잡고 바깥 손바닥은 위로 펴기 직전. 두 발은 나란히 서 있다.",
+      "width": 1672,
+      "height": 941,
+      "copied_sha256": "9C4258596F3B029267193F1EA851E3D7FF6F8529EEBAE0A3BB6CA36D4FA16351",
+      "source_sha256": "9C4258596F3B029267193F1EA851E3D7FF6F8529EEBAE0A3BB6CA36D4FA16351",
+      "byte_identical": true,
+      "review_status": "pending_independent_review",
+      "sha256": "9c4258596f3b029267193f1ea851e3d7ff6f8529eebae0a3bb6ca36d4fa16351",
+      "source_copy_sha256_match": true
+    },
+    {
+      "concept_id": "C04",
+      "cut_id": "K03",
+      "scene_id": "S03",
+      "linked_cuts": [
+        "K03"
+      ],
+      "image_path": "images/C04/S03.png",
+      "prompt": "Use case: ads-marketing. New single 16:9 photographic first frame in exactly the same B-grade mint office scene as references. Reference 1 fixes identities/set and reference 2 fixes current standing positions. The open white door geometry is APPROVED: left-side hinges as shown, keep exactly that one open leaf and its two opposite-face levers. Do not redesign door.\nShow the owners intervening at START of handover. Blue-cardigan Korean man HB steps behind blue foil assistant RB and places ONE hand directly on RB's blue shoulder strap. Mustard-cardigan bob-haired woman HY steps behind yellow foil assistant RY inside room and places ONE hand on RY's yellow shoulder strap. Both assistants STILL HOLD the same respective door levers with inner hands; outside hands now lowered. Each owner looks at own assistant with an earnest 'let us handle it' expression. Assistants look back a little but have NOT moved aside yet. Four full bodies, one open door, all faces and shoulder taps visible, identical blue/yellow shoes, cardboard helmets with real human faces. Blue pair foreground corridor left; yellow pair farther back in office right. Match reference 1 wide shot. Flat bright lighting, visible tape and paper/foil creases, mint wall and gray floor. No text/logos. Start frame before assistants release levers and step to own side, not a later stage.",
+      "reference_images": [
+        "\\\\wsl.localhost\\Ubuntu-24.04\\home\\wooseok\\wsy\\samsung_related\\slide\\AI실행결과발표대회_디자인3종\\storyboards\\2026-10-18_keep3-rebuild-v5\\images\\C04\\S01.png",
+        "\\\\wsl.localhost\\Ubuntu-24.04\\home\\wooseok\\wsy\\samsung_related\\slide\\AI실행결과발표대회_디자인3종\\storyboards\\2026-10-18_keep3-rebuild-v5\\images\\C04\\S02.png"
+      ],
+      "source_generated_path": "C:\\Users\\wseok\\.codex\\generated_images\\01a14eed-970c-7543-905b-9575f42c842a\\exec-69379d6f-cc99-4eb1-bdd3-61ac68c76f00.png",
+      "generation_tool": "image_gen",
+      "selected": false,
+      "artist_review": {
+        "opened_actual_image": true,
+        "status": "needs_review",
+        "notes": "실제 생성 결과 열람. 자기 색 어깨 접촉과 공간/인물 유지. 파랑 비서 손은 레버 끝에 닿거나 근접한 상태로 그립이 약하게 보임; 검수 요청."
+      },
+      "next_motion": "비서들이 손을 놓고 자기 출발 쪽 옆으로 비킨다. 주인들이 동일한 레버에 손을 댄다.",
+      "camera_notes": "K01과 같은 고정 와이드. 색상짝이 교대하는 과정 전체.",
+      "storyboard_first_frame": "HB의 손은 RB의 파란 어깨띠 위, HY의 손은 RY의 노란 어깨띠 위. 비서들이 아직 손잡이를 잡고 있다.",
+      "width": 1672,
+      "height": 941,
+      "copied_sha256": "6B3EDFEB7B8EF0F4DA8734FC3484006BF03C53F51D91D7C384D69EE4E7F93815",
+      "source_sha256": "6B3EDFEB7B8EF0F4DA8734FC3484006BF03C53F51D91D7C384D69EE4E7F93815",
+      "byte_identical": true,
+      "review_status": "pending_independent_review",
+      "sha256": "6b3edfeb7b8ef0f4da8734fc3484006bf03c53f51d91d7c384d69ee4e7f93815",
+      "source_copy_sha256_match": true
+    },
+    {
+      "concept_id": "C04",
+      "cut_id": "K04",
+      "scene_id": "S04",
+      "linked_cuts": [
+        "K04"
+      ],
+      "image_path": "images/C04/S04.png",
+      "prompt": "Use case: ads-marketing. New single 16:9 photographic first frame in reference B-grade mint office, identical camera and full-body framing to reference 2. Reference 1 locks identities/set and reference 3 previous handover. Show NOW the two HUMAN OWNERS have taken the exact positions of their assistants from reference 2. Blue-cardigan Korean man with short black hair is foreground corridor at the left face of the open white door. Mustard-cardigan Korean woman with bob hair is inside office at opposite/right face. EACH owner firmly grasps the corresponding metal lever with the hand nearest the door; their other palms are held at waist height angled upward in the SAME overly polite 'you first' preparation that assistants made in reference 2. Both feet parallel, bodies still upright, staring at each other with absurdly solemn courtesy. They have not bowed or stepped backward yet.\nThe assistants have moved aside to their own starting sides and are observers: blue foil human assistant left edge behind man, yellow foil human assistant right edge inside room behind woman. Two assistants plus two owners exactly; no one swaps colors or sides. Include all four faces and full bodies, clear hand contact with door levers. Preserve same single door at left-jamb hinges and swung-out leaf exactly as references, two opposing handles on same free edge. Same mint wall gray floor desk/blind window. Cheap crumpled foil cardboard robots with colored shoulder straps and shoes, real actor faces. Flat mundane light. No text/logos, no split panels.",
+      "reference_images": [
+        "\\\\wsl.localhost\\Ubuntu-24.04\\home\\wooseok\\wsy\\samsung_related\\slide\\AI실행결과발표대회_디자인3종\\storyboards\\2026-10-18_keep3-rebuild-v5\\images\\C04\\S01.png",
+        "\\\\wsl.localhost\\Ubuntu-24.04\\home\\wooseok\\wsy\\samsung_related\\slide\\AI실행결과발표대회_디자인3종\\storyboards\\2026-10-18_keep3-rebuild-v5\\images\\C04\\S02.png",
+        "\\\\wsl.localhost\\Ubuntu-24.04\\home\\wooseok\\wsy\\samsung_related\\slide\\AI실행결과발표대회_디자인3종\\storyboards\\2026-10-18_keep3-rebuild-v5\\images\\C04\\S03.png"
+      ],
+      "source_generated_path": "C:\\Users\\wseok\\.codex\\generated_images\\01a14eed-970c-7543-905b-9575f42c842a\\exec-f552a2b5-4f97-4e31-9803-ee436eef20f9.png",
+      "generation_tool": "image_gen",
+      "selected": false,
+      "artist_review": {
+        "opened_actual_image": true,
+        "status": "needs_review",
+        "notes": "실제 출력 열람: 주인 두 명이 비서 위치에서 양보 손바닥, 비서 측면 관찰. 문과 색상짝 유지. 파랑 주인의 손과 레버 끝 그립 접점이 분리돼 보이는 약점; 보정 예정."
+      },
+      "next_motion": "K02와 동일한 한 패턴을 실행한다. 비서들은 자기 주인의 끝 동작을 보고 고개를 약간 기울인다.",
+      "camera_notes": "K02와 정확히 같은 고정 전신 구도. 주인으로 인물만 교체된 비교 화면.",
+      "storyboard_first_frame": "주인들의 안쪽 손이 레버를 잡고 자유로운 손바닥은 K02의 비서와 같은 준비 위치. 양옆에 은박 비서가 보인다.",
+      "width": 1672,
+      "height": 941,
+      "copied_sha256": "882E7C42CAAB575107E45302196762EDCE298C20DC41D347D6988C406F6BFD54",
+      "source_sha256": "882E7C42CAAB575107E45302196762EDCE298C20DC41D347D6988C406F6BFD54",
+      "byte_identical": true,
+      "review_status": "pending_independent_review",
+      "sha256": "882e7c42caab575107e45302196762edce298c20dc41d347d6988c406f6bfd54",
+      "source_copy_sha256_match": true
+    },
+    {
+      "concept_id": "C04",
+      "cut_id": "K05",
+      "scene_id": "S05",
+      "linked_cuts": [
+        "K05"
+      ],
+      "image_path": "images/C04/S05.png",
+      "prompt": "Use case: ads-marketing. Single 16:9 new photographic first frame in the SAME reference cheap Korean office comedy. Match four actors, mint office, foil cardboard costumes, blue/yellow cardigans, open plain white door with LEFT-jamb hinges. Same axis but a medium-wide framing clearly showing faces, door hinges and hands.\nBlue-cardigan man in corridor side has straightened and now frowns with comically misplaced determination at the WHITE DOOR rather than the woman; his near hand is just starting to release the silver lever, fingertips still at lever end. Mustard-cardigan woman inside room turns her eyes and chin toward the visible hinges along LEFT jamb, seriously considering removing the door. Her near hand is also starting to release opposite-face lever. Their free hands are lowered, NOT polite palm gestures now. Door remains attached and open, do not remove it yet. Blue foil assistant stands out of the way on far left corridor, yellow foil assistant stands out of way on far right inside office, watching bemused. People do not change sides. Funny dramatic resolve, not fear or aggression. Keep all faces visible and hinge line readable, same left hinge position as reference. No extra handles, no floating hardware, no text, logo or collage. This is immediately before both people grip the door edges to lift it; do not show lifting already.",
+      "reference_images": [
+        "\\\\wsl.localhost\\Ubuntu-24.04\\home\\wooseok\\wsy\\samsung_related\\slide\\AI실행결과발표대회_디자인3종\\storyboards\\2026-10-18_keep3-rebuild-v5\\images\\C04\\S01.png",
+        "\\\\wsl.localhost\\Ubuntu-24.04\\home\\wooseok\\wsy\\samsung_related\\slide\\AI실행결과발표대회_디자인3종\\storyboards\\2026-10-18_keep3-rebuild-v5\\images\\C04\\S04.png"
+      ],
+      "source_generated_path": "C:\\Users\\wseok\\.codex\\generated_images\\01a14eed-970c-7543-905b-9575f42c842a\\exec-e7a39ddc-c937-4b5e-8b07-5453cd211c7f.png",
+      "generation_tool": "image_gen",
+      "selected": true,
+      "artist_review": {
+        "opened_actual_image": true,
+        "status": "artist_pass",
+        "notes": "출력 실제 열람: 주인들의 진지한 문제 전가 표정, 노랑 주인 힌지 시선, 비서 양옆 대기, 동일 문. 남성 손이 레버 끝에서 약간 분리되나 놓기 직전 상태 범위."
+      },
+      "next_motion": "둘이 문 가장자리를 받쳐 아주 조금 들어 올린다. 가벼운 세트 힌지의 연결 틈이 생긴다.",
+      "camera_notes": "고정 미디엄 와이드. 얼굴·문 힌지·손 위치를 함께.",
+      "storyboard_first_frame": "HB는 손잡이를 놓기 직전 문을 노려보고 HY는 힌지 쪽으로 시선을 옮기는 중. 비서는 옆으로 비켜 있다.",
+      "width": 1672,
+      "height": 941,
+      "copied_sha256": "A34115B76575AF7B393F8ADA2436665801C694402278D2ED072BC068DB574B6C",
+      "source_sha256": "A34115B76575AF7B393F8ADA2436665801C694402278D2ED072BC068DB574B6C",
+      "byte_identical": true,
+      "review_status": "pending_independent_review",
+      "sha256": "a34115b76575af7b393f8ada2436665801c694402278d2ed072bc068db574b6c",
+      "source_copy_sha256_match": true
+    },
+    {
+      "concept_id": "C04",
+      "cut_id": "K06",
+      "scene_id": "S06",
+      "linked_cuts": [
+        "K06"
+      ],
+      "image_path": "images/C04/S06.png",
+      "prompt": "Use case: ads-marketing. Single 16:9 photographic first frame, continuing exact referenced mint office comedy. Same four actors, blue man, mustard woman, cheap blue/yellow foil assistants, same wide camera axis. Widen a little to include whole door, frame, floor and empty foreground space to the RIGHT.\nAt this precise instant the two owners have JUST LIFTED the one lightweight white prop door leaf VERTICALLY off its left-jamb lift-off hinges by about 3 centimeters. Door is STILL UPRIGHT, still almost in its old open position, NOT yet turned sideways or carried away. There is a clear small separation at each of three hinge joints. The door bottom is raised a few centimeters above floor. Blue man stands corridor/front-left side of leaf supporting its hinge-side edge securely with BOTH hands, mustard woman stands on room/back-right side of same leaf supporting its free edge securely with BOTH hands. Their palms grip door EDGES, not door handles. They look earnestly concentrated, no distress; lightweight hollow prop, no destructive tools. Both faces fully visible beside edges of door.\nAssistants are out of the way at their own sides: blue costume far left corridor, yellow costume far right inside room. Original rectangular white frame remains upright in wall, doorway remains central, blank mint wall upper left, gray floor. In next action people will carry the detached door toward corridor foreground RIGHT and rotate its LONG axis horizontal. Do not show that future action yet: one door remains VERTICAL. No new furniture or supports, no extra door, no text, no logos. Real funny handmade foil/cardboard/tape textures and flat office lighting.",
+      "reference_images": [
+        "\\\\wsl.localhost\\Ubuntu-24.04\\home\\wooseok\\wsy\\samsung_related\\slide\\AI실행결과발표대회_디자인3종\\storyboards\\2026-10-18_keep3-rebuild-v5\\images\\C04\\S01.png",
+        "\\\\wsl.localhost\\Ubuntu-24.04\\home\\wooseok\\wsy\\samsung_related\\slide\\AI실행결과발표대회_디자인3종\\storyboards\\2026-10-18_keep3-rebuild-v5\\images\\C04\\S05.png"
+      ],
+      "source_generated_path": "C:\\Users\\wseok\\.codex\\generated_images\\01a14eed-970c-7543-905b-9575f42c842a\\exec-126c73a1-429a-4b42-a83d-ccb0775236ea.png",
+      "generation_tool": "image_gen",
+      "selected": true,
+      "artist_review": {
+        "opened_actual_image": true,
+        "status": "artist_pass",
+        "notes": "직접 열람: 세로 문짝이 바닥에서 뜨고 두 주인이 가장자리를 잡음. 비서 자기 쪽 대기. 문틀 중심과 오른쪽 여백 확보. 힌지 분리 3cm는 작은 디테일로 명확한 계량은 불가."
+      },
+      "next_motion": "HY가 문과 함께 복도 쪽으로 한 걸음 나오고 HB와 오른쪽으로 이동한다. 둘이 문을 가로로 돌려 허리 높이에 든다. 중앙 통과선은 비운다.",
+      "camera_notes": "고정 와이드. 문틀·바닥·두 주인·문 이동 전 경로를 모두 포함.",
+      "storyboard_first_frame": "문은 힌지에서 3cm 떠 있고 두 주인이 양끝을 받치고 있다. 문틀 오른쪽의 빈 받침 구조가 보이며 문은 아직 세로.",
+      "width": 1672,
+      "height": 941,
+      "copied_sha256": "958B11E39BADF81E9378DF6A7AA709D7EFC59C02BC3A14F7D3DE672B08A3FCD2",
+      "source_sha256": "958B11E39BADF81E9378DF6A7AA709D7EFC59C02BC3A14F7D3DE672B08A3FCD2",
+      "byte_identical": true,
+      "review_status": "pending_independent_review",
+      "sha256": "958b11e39badf81e9378df6a7aa709d7efc59c02bc3a14f7d3de672b08a3fcd2",
+      "source_copy_sha256_match": true
+    },
+    {
+      "concept_id": "C04",
+      "cut_id": "K07",
+      "scene_id": "S07",
+      "linked_cuts": [
+        "K07"
+      ],
+      "image_path": "images/C04/S07.png",
+      "prompt": "Use case: ads-marketing. Single 16:9 photographic FIRST FRAME, same four actors and same mint office from references. This is after the white door leaf has been removed and moved; change the action/state but preserve actor faces/costumes and office layout. Wide shot slightly farther back so left/central doorway AND people at foreground RIGHT are all visible. Same flat cheap office lighting.\nThe CENTRAL white rectangular doorframe is now COMPLETELY EMPTY, NO door leaf, no central post, clear open passage. Through it visible desk and window. Blue foil assistant is just OUTSIDE the LEFT side of the opening, body turned AWAY from camera and ready to walk INTO room. Yellow foil assistant is just INSIDE the RIGHT side of the opening, facing camera/corridor ready to walk OUT. Their separate lanes are visible; they have not crossed yet. Same homemade crumpled foil, blue/yellow shoulder straps/shoes, square helmets and human faces.\nIn the foreground RIGHT, entirely CLEAR of the doorway, stand the TWO OWNERS holding the SAME DETACHED WHITE DOOR together. Rotate this full-size rectangular door so its LONG axis is HORIZONTAL, spanning between the two owners like a large awkward plank held at WAIST HEIGHT. Broad white panel tilted slightly toward camera so its silver lever and latch/hinges still identify it as a real door, not a blank tabletop. Blue-cardigan man is at the LEFT end of the horizontal door, nearer image center; mustard-cardigan woman is at RIGHT end near image edge. Each supports own end securely with both hands, faces visible above it, full bodies and feet visible. Door is approximately 2m long, lightweight prop. Owners watch assistants with self-satisfied seriousness. The detached door and both owners must be to the RIGHT of central walking line, not blocking the opening. No door duplicated in frame. Keep large blank mint wall upper left. No text/logos, no collage. Freeze BEFORE assistants pass each other.",
+      "reference_images": [
+        "\\\\wsl.localhost\\Ubuntu-24.04\\home\\wooseok\\wsy\\samsung_related\\slide\\AI실행결과발표대회_디자인3종\\storyboards\\2026-10-18_keep3-rebuild-v5\\images\\C04\\S01.png",
+        "\\\\wsl.localhost\\Ubuntu-24.04\\home\\wooseok\\wsy\\samsung_related\\slide\\AI실행결과발표대회_디자인3종\\storyboards\\2026-10-18_keep3-rebuild-v5\\images\\C04\\S06.png"
+      ],
+      "source_generated_path": "C:\\Users\\wseok\\.codex\\generated_images\\01a14eed-970c-7543-905b-9575f42c842a\\exec-ae5bde0c-e68e-4cd5-af38-38174cef8de8.png",
+      "generation_tool": "image_gen",
+      "selected": false,
+      "artist_review": {
+        "opened_actual_image": true,
+        "status": "needs_revision",
+        "notes": "빈 문틀, 우측 가로 문, 두 비서 반대 방향 통로 및 인물 연속성 확보. 문 하단 장변에 힌지가 손잡이와 같은 가장자리에 생겨 상단 장변으로 이동 수정 필요."
+      },
+      "next_motion": "비서들은 멈추지 않고 반대 방향으로 통과한다. HY가 문 한쪽을 조금 낮추려다 HB가 그대로라 멈춘다.",
+      "camera_notes": "고정 와이드. 전경 오른쪽의 문짝과 중앙에서 반대 방향으로 지나가는 비서를 함께.",
+      "storyboard_first_frame": "문을 든 주인들은 이미 전경 오른쪽. RB는 문틀 앞 왼쪽, RY는 문틀 뒤 오른쪽에 있어 통과할 길이 각각 보인다.",
+      "width": 1672,
+      "height": 941,
+      "copied_sha256": "78F3059169F4241F9A9A2C7A9FA3041A99D88F7DE5DAFCF81DFB0D6142B426C7",
+      "source_sha256": "78F3059169F4241F9A9A2C7A9FA3041A99D88F7DE5DAFCF81DFB0D6142B426C7",
+      "byte_identical": true,
+      "review_status": "pending_independent_review",
+      "sha256": "78f3059169f4241f9a9a2c7a9fa3041a99d88f7de5dafcf81dfb0d6142b426c7",
+      "source_copy_sha256_match": true
+    },
+    {
+      "concept_id": "C04",
+      "cut_id": "K07",
+      "scene_id": "S07",
+      "linked_cuts": [
+        "K07"
+      ],
+      "image_path": "images/C04/S07_v2.png",
+      "prompt": "Use case: precise-object-edit. Make one very small continuity correction to this exact 16:9 photographic frame. Preserve EVERYTHING: all four actors, poses, faces, blue/yellow clothing, cheap foil robots, empty doorway, location of detached horizontal white door at foreground right, lighting and framing.\nChange ONLY hardware on the detached horizontal door: remove both visible metal HINGE pieces along its BOTTOM long edge (left bottom and right bottom). Put three small metal lift-off hinge plates along the TOP long edge, the edge nearest the owners' chests, so the hinge edge is OPPOSITE the lever/latch edge. The silver lever and latch near middle of BOTTOM long edge stay in place. This is the same normal door rotated clockwise 90 degrees, with original left hinges now on upper long edge. Do not add a second lever to front. Doorframe's left jamb may retain tiny mounting plates. No other change. No text/logo.",
+      "reference_images": [
+        "\\\\wsl.localhost\\Ubuntu-24.04\\home\\wooseok\\wsy\\samsung_related\\slide\\AI실행결과발표대회_디자인3종\\storyboards\\2026-10-18_keep3-rebuild-v5\\images\\C04\\S07.png"
+      ],
+      "source_generated_path": "C:\\Users\\wseok\\.codex\\generated_images\\01a14eed-970c-7543-905b-9575f42c842a\\exec-743c0ba7-2b4f-4c85-91cd-4e9db5f61fc4.png",
+      "generation_tool": "image_gen",
+      "selected": true,
+      "artist_review": {
+        "opened_actual_image": true,
+        "status": "artist_pass",
+        "notes": "직접 출력 열람. 상단 장변 힌지와 하단 손잡이로 회전 문 소품 구조 수정. 빈 문틀/우측 주인/두 통과 차선 유지. 첫 프레임은 비서 통과 동작 시작 자세."
+      },
+      "next_motion": "비서들은 멈추지 않고 반대 방향으로 통과한다. HY가 문 한쪽을 조금 낮추려다 HB가 그대로라 멈춘다.",
+      "camera_notes": "고정 와이드. 전경 오른쪽의 문짝과 중앙에서 반대 방향으로 지나가는 비서를 함께.",
+      "storyboard_first_frame": "문을 든 주인들은 이미 전경 오른쪽. RB는 문틀 앞 왼쪽, RY는 문틀 뒤 오른쪽에 있어 통과할 길이 각각 보인다.",
+      "width": 1672,
+      "height": 941,
+      "copied_sha256": "B4821D623726BBE4ABAC3385E751EE94E63378EBC8DC9AA401263C32D4199DBC",
+      "source_sha256": "B4821D623726BBE4ABAC3385E751EE94E63378EBC8DC9AA401263C32D4199DBC",
+      "byte_identical": true,
+      "review_status": "pending_independent_review",
+      "sha256": "b4821d623726bbe4abac3385e751ee94e63378ebc8dc9aa401263c32d4199dbc",
+      "source_copy_sha256_match": true
+    },
+    {
+      "concept_id": "C04",
+      "cut_id": "K08",
+      "scene_id": "S08",
+      "linked_cuts": [
+        "K08"
+      ],
+      "image_path": "images/C04/S08.png",
+      "prompt": "Use case: ads-marketing. New single 16:9 photographic FIRST FRAME of Korean B-grade comedy, identity and set locked to references. Reference 2 is the immediately previous situation: owners holding a detached horizontal white door at foreground right. Create a slightly tighter FULL-BODY two-shot of these SAME owners and the WHOLE door, with empty doorframe visible to left/background.\nCrucial visual gag ALREADY VISIBLE in the start frame: the mustard-cardigan woman on RIGHT has bent both knees into a deep half-squat, lowering HER END of the door toward knee/shin height. The blue-cardigan man at LEFT remains standing perfectly upright and still supports HIS END at WAIST height. Consequently the long white door makes a large OBVIOUS DIAGONAL from HIGH LEFT to LOW RIGHT, roughly 20 to 25 degrees, not horizontal. Whole door in frame and no part touches floor. The woman looks up at him with exaggerated strained politeness; man smiles politely at her and refuses to lower his own end. Both hands on their respective end; no bow yet. Feet planted, anatomically clear bent knees versus straight knees. Preserve their left/right order from reference 2, same royal-blue cardigan man, mustard-yellow cardigan bob-haired woman.\nSame full-size white door, long axis still broadly left-right. Its three small hinge plates remain on its upper long edge, single silver lever near center of lower long edge, door face toward camera. Same simple mint office, gray floor and flat bright lighting. Assistants are already elsewhere and may be outside crop; this shot concentrates on two humans. No duplicate door, no text/logos, no camera motion blur. Do NOT make both people squat; ONLY woman bends, ONLY her end lowers. This is the early diagonal stage before she lowers a little more and then stands again.",
+      "reference_images": [
+        "\\\\wsl.localhost\\Ubuntu-24.04\\home\\wooseok\\wsy\\samsung_related\\slide\\AI실행결과발표대회_디자인3종\\storyboards\\2026-10-18_keep3-rebuild-v5\\images\\C04\\S01.png",
+        "\\\\wsl.localhost\\Ubuntu-24.04\\home\\wooseok\\wsy\\samsung_related\\slide\\AI실행결과발표대회_디자인3종\\storyboards\\2026-10-18_keep3-rebuild-v5\\images\\C04\\S07_v2.png"
+      ],
+      "source_generated_path": "C:\\Users\\wseok\\.codex\\generated_images\\01a14eed-970c-7543-905b-9575f42c842a\\exec-4f8144ac-7e3c-4b3b-b00e-6a22d454f623.png",
+      "generation_tool": "image_gen",
+      "selected": true,
+      "artist_review": {
+        "opened_actual_image": true,
+        "status": "artist_pass",
+        "notes": "직접 출력 열람. 노랑 주인 무릎 굽힘/파랑 주인 선 자세, 좌상→우하 문 대각선, 전신/문 전체, 표정 확보. 힌지 상단/손잡이 하단 연속성 유지."
+      },
+      "next_motion": "HY가 무릎을 더 굽혀 문을 크게 기울인다. HB가 계속 버티며 먼저 하라고 인사하자 HY가 도로 일어나 수평으로 돌아온다. 한 번만 실패한다.",
+      "camera_notes": "고정 전신 투 샷. 문 전체와 두 사람의 발·표정을 포함.",
+      "storyboard_first_frame": "가로로 들던 문이 HY 쪽으로 이미 기울기 시작한다. HY는 무릎을 굽히고 HB는 똑바로 서서 반대 끝을 허리 높이에 받친다. 자세 차이와 큰 문 대각선이 한눈에 읽힌다.",
+      "width": 1672,
+      "height": 941,
+      "copied_sha256": "8A0C7C320405EB8397BB6EAB1AB7DDB0A0EA50E8FF9301722C406788935E9733",
+      "source_sha256": "8A0C7C320405EB8397BB6EAB1AB7DDB0A0EA50E8FF9301722C406788935E9733",
+      "byte_identical": true,
+      "review_status": "pending_independent_review",
+      "sha256": "8a0c7c320405eb8397bb6eab1ab7ddb0a0ea50e8ff9301722c406788935e9733",
+      "source_copy_sha256_match": true
+    },
+    {
+      "concept_id": "C04",
+      "cut_id": "K09",
+      "scene_id": "S09",
+      "linked_cuts": [
+        "K09"
+      ],
+      "image_path": "images/C04/S09.png",
+      "prompt": "Use case: ads-marketing. Single 16:9 photographic FINAL SHOT FIRST FRAME of same cheap Korean office comedy, reference actor identities and set. WIDE establishing view pulled back from reference 2, with generous BLANK MINT WALL in upper LEFT reserved for editorial title, do NOT render any title. Keep the white EMPTY doorframe central/left of center, free walking space visible, desk and window in room. No attached door.\nAt LOWER RIGHT in corridor, the SAME blue-cardigan man on left and mustard-cardigan bob-haired woman on right still hold the same removed white door BETWEEN THEM at waist height with long axis HORIZONTAL again, their knees now both straight. Door has same three small hinge plates along TOP long edge and silver lever near middle of BOTTOM long edge, white broad face visible. Both look at each other with absurdly polite 'you put it down first' expressions, a small preparatory incline of head, but neither has released the door. They are a slightly smaller cluster at lower right so upper wall remains quiet.\nThe assistants HAVE PASSED THROUGH already in opposite directions: BLUE foil assistant is well INSIDE the room, farther away, walking away toward a desk/right interior edge, back mostly to camera. YELLOW foil assistant is in CORRIDOR at extreme LEFT edge, about to walk out of frame to LEFT, side/back view; its yellow shoes/shoulder straps visible. Thus the doorway middle is clear and people holding door do not block it. Four actors total, no duplicates. Same bright flat lighting and intentionally crude taped foil cardboard robot suits, realistic texture. Only still photo, no text, no logos or extra props. Freeze just BEFORE assistants leave their respective frame edges, not before they enter doorway. Broad blank upper-left mint wall for six seconds of later event title.",
+      "reference_images": [
+        "\\\\wsl.localhost\\Ubuntu-24.04\\home\\wooseok\\wsy\\samsung_related\\slide\\AI실행결과발표대회_디자인3종\\storyboards\\2026-10-18_keep3-rebuild-v5\\images\\C04\\S01.png",
+        "\\\\wsl.localhost\\Ubuntu-24.04\\home\\wooseok\\wsy\\samsung_related\\slide\\AI실행결과발표대회_디자인3종\\storyboards\\2026-10-18_keep3-rebuild-v5\\images\\C04\\S07_v2.png",
+        "\\\\wsl.localhost\\Ubuntu-24.04\\home\\wooseok\\wsy\\samsung_related\\slide\\AI실행결과발표대회_디자인3종\\storyboards\\2026-10-18_keep3-rebuild-v5\\images\\C04\\S08.png"
+      ],
+      "source_generated_path": "C:\\Users\\wseok\\.codex\\generated_images\\01a14eed-970c-7543-905b-9575f42c842a\\exec-2f7bcbb2-5a98-4621-b6d4-e2e153f7c584.png",
+      "generation_tool": "image_gen",
+      "selected": true,
+      "artist_review": {
+        "opened_actual_image": true,
+        "status": "artist_pass",
+        "notes": "실제 출력 열람: 노랑 비서 복도 좌측 퇴장/파랑 비서 방 안 이동, 빈 문틀과 우측 가로 문, 여전히 양보하는 두 주인, 좌상단 빈 벽 확보. 자막/로고 없음."
+      },
+      "next_motion": "비서들이 각 방향으로 프레임을 벗어난다. 사람 둘은 문을 놓지 않고 작은 인사만 한 번 주고받는다.",
+      "camera_notes": "고정 와이드. 좌상단 민트 벽은 후편집 자막 자리, 오른쪽 아래 문과 사람의 답답한 덩어리.",
+      "storyboard_first_frame": "빈 문틀과 문을 든 두 주인이 동시에 보인다. 두 비서는 각 목적지 가장자리에 있고 좌상단은 글자 없는 빈 벽.",
+      "width": 1672,
+      "height": 941,
+      "copied_sha256": "98E0A6C71A344FB33BB8714CEC45553963C095056567DBC0AB806C8D23F4EB15",
+      "source_sha256": "98E0A6C71A344FB33BB8714CEC45553963C095056567DBC0AB806C8D23F4EB15",
+      "byte_identical": true,
+      "review_status": "pending_independent_review",
+      "sha256": "98e0a6c71a344fb33bb8714cec45553963c095056567dbc0ab806c8d23f4eb15",
+      "source_copy_sha256_match": true
+    },
+    {
+      "concept_id": "C04",
+      "cut_id": "K03",
+      "scene_id": "S03",
+      "linked_cuts": [
+        "K03"
+      ],
+      "image_path": "images/C04/S03_v2.png",
+      "prompt": "Use case: precise-object-edit. Minimal repair of this exact 16:9 photo. Preserve every pixel's intended composition, all FOUR actors' identities/poses, owner hands touching robot shoulders, blue/yellow pairing, same ONE left-hinged open door, both lever positions, room and flat lighting. Change ONLY the blue foil assistant's extended silver-gloved hand at center-left near the door handle. The glove must move a few centimeters toward the white door, and its fingers curl DOWN AROUND the existing silver horizontal lever, thumb visibly above the lever, forming an unambiguous physical GRIP. No gap between glove and lever. Keep lever rigidly attached to its existing circular plate on the door. Do NOT move or duplicate the metal handle. Keep yellow assistant's existing grip unchanged. The blue assistant's arm extends a little farther to accommodate, no extra limb. No other changes, no text or logos.",
+      "reference_images": [
+        "\\\\wsl.localhost\\Ubuntu-24.04\\home\\wooseok\\wsy\\samsung_related\\slide\\AI실행결과발표대회_디자인3종\\storyboards\\2026-10-18_keep3-rebuild-v5\\images\\C04\\S03.png"
+      ],
+      "source_generated_path": "C:\\Users\\wseok\\.codex\\generated_images\\01a14eed-970c-7543-905b-9575f42c842a\\exec-8abcb445-f7f2-47e2-8748-af0beb6bfccd.png",
+      "generation_tool": "image_gen",
+      "selected": true,
+      "artist_review": {
+        "opened_actual_image": true,
+        "status": "artist_pass",
+        "notes": "생성 출력 직접 열람. 한 번 좁은 보정으로 파랑 비서 은색 장갑과 문 레버의 빈틈 제거, 실제 감싼 접촉 확인. 그 외 인물/공간/동작 유지."
+      },
+      "next_motion": "비서들이 손을 놓고 자기 출발 쪽 옆으로 비킨다. 주인들이 동일한 레버에 손을 댄다.",
+      "camera_notes": "K01과 같은 고정 와이드. 색상짝이 교대하는 과정 전체.",
+      "storyboard_first_frame": "HB의 손은 RB의 파란 어깨띠 위, HY의 손은 RY의 노란 어깨띠 위. 비서들이 아직 손잡이를 잡고 있다.",
+      "width": 1672,
+      "height": 941,
+      "copied_sha256": "B85FE34F7372B43EB18E1B2BA1D932D7A1C4AE7FF0146FFD58DBAF4BFD69C3A6",
+      "source_sha256": "B85FE34F7372B43EB18E1B2BA1D932D7A1C4AE7FF0146FFD58DBAF4BFD69C3A6",
+      "byte_identical": true,
+      "review_status": "pending_independent_review",
+      "sha256": "b85fe34f7372b43eb18e1b2ba1d932d7a1c4ae7ff0146ffd58dbaf4bfd69c3a6",
+      "source_copy_sha256_match": true
+    },
+    {
+      "concept_id": "C04",
+      "cut_id": "K04",
+      "scene_id": "S04",
+      "linked_cuts": [
+        "K04"
+      ],
+      "image_path": "images/C04/S04_v2.png",
+      "prompt": "Use case: precise-object-edit. Minimal physical-contact repair of this exact 16:9 photo. Keep ALL composition and four actors, exact faces, clothes, foil costumes, open left-hinged door, two lever locations and mint office unchanged. Change ONLY blue-cardigan man's extended hand near the door: reach it a few centimeters farther RIGHT toward the circular handle mount, make his fingers wrap securely DOWN around the existing horizontal silver door lever and thumb rest above it. There must be no visible empty gap between the hand and lever, no extra loose metal piece in his palm. Lever remains ONE continuous rigid silver object attached to original circular plate on white door. His other hand stays as same 'you first' open palm at waist. Yellow-cardigan woman's hand remains holding her existing opposite-face lever. Preserve faces, posture, feet, costumes and all background. No new object, no duplicate handle, no text/logo.",
+      "reference_images": [
+        "\\\\wsl.localhost\\Ubuntu-24.04\\home\\wooseok\\wsy\\samsung_related\\slide\\AI실행결과발표대회_디자인3종\\storyboards\\2026-10-18_keep3-rebuild-v5\\images\\C04\\S04.png"
+      ],
+      "source_generated_path": "C:\\Users\\wseok\\.codex\\generated_images\\01a14eed-970c-7543-905b-9575f42c842a\\exec-1de9e6b5-5cf8-468f-bdf0-b53efecbfd88.png",
+      "generation_tool": "image_gen",
+      "selected": true,
+      "artist_review": {
+        "opened_actual_image": true,
+        "status": "artist_pass",
+        "notes": "생성 출력 직접 열람. 한 번 좁은 보정으로 파랑 주인 손과 문 레버의 빈틈 제거, 실제 감싼 접촉 확인. 그 외 인물/공간/동작 유지."
+      },
+      "next_motion": "K02와 동일한 한 패턴을 실행한다. 비서들은 자기 주인의 끝 동작을 보고 고개를 약간 기울인다.",
+      "camera_notes": "K02와 정확히 같은 고정 전신 구도. 주인으로 인물만 교체된 비교 화면.",
+      "storyboard_first_frame": "주인들의 안쪽 손이 레버를 잡고 자유로운 손바닥은 K02의 비서와 같은 준비 위치. 양옆에 은박 비서가 보인다.",
+      "width": 1672,
+      "height": 941,
+      "copied_sha256": "FDD7760746779697FD4C7C6A769F022C3B98F51967F4D6F5886B74718F19E41D",
+      "source_sha256": "FDD7760746779697FD4C7C6A769F022C3B98F51967F4D6F5886B74718F19E41D",
+      "byte_identical": true,
+      "review_status": "pending_independent_review",
+      "sha256": "fdd7760746779697fd4c7c6a769f022c3b98f51967f4d6f5886b74718f19e41d",
+      "source_copy_sha256_match": true
+    }
+  ],
+  "expected_scenes": 9,
+  "completed_scenes": 9,
+  "generated_png_count": 14,
+  "generation_tool": "built-in image_gen",
+  "baseline_image": "images/C04/S01.png",
+  "continuity_decisions": [
+    {
+      "id": "C04-HINGE-01",
+      "decision": "총괄 승인으로 문 힌지를 원 콘티의 우측에서 선택 기준 이미지의 좌측으로 변경. S01 원본을 기준으로 S02–S06에 일관 적용. 문 제거 후 전경 우측 운반 및 빈 문틀 동선은 유지.",
+      "approved_by": "root",
+      "date": "2026-10-18"
+    }
+  ],
+  "remaining_observations": [
+    "S02 및 S04 자유 손바닥은 이미 위로 열려 있어, 후속 움직임은 그 위치에서 짧은 튕김으로 시작하면 됨.",
+    "S06 문짝 바닥 이격은 읽히나 힌지 3cm 정량은 스틸에서 확인할 수 없음.",
+    "은박 비서들은 성인 배우 설정이지만 생성상 두 주인보다 작아 보임; 의도적 저예산 의상 캐릭터로 수용 여부는 검수 판단.",
+    "실제 동영상 움직임/음성/관객 반응은 검증하지 않음."
+  ],
+  "output_dimensions_note": "내장 도구 원본 크기 1672×941. 요청 구도 16:9에 근접하며 정확 정수 16:9는 아님. 원본 바이트 보존."
+}

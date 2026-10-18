@@ -1,0 +1,59 @@
+{
+  "run": "2026-10-18_keep3-rebuild-v5",
+  "coordinator": "/root",
+  "research": {
+    "agent": "/root/v5_reference_diagnosis",
+    "status": "complete",
+    "evidence": "reference_diagnosis.json"
+  },
+  "independent_writers": [
+    {
+      "agent": "/root/v5_comedy_writer",
+      "first_cards": 4,
+      "additional_cards": 2,
+      "other_writer_drafts_seen_before_first_submission": false,
+      "evidence": [
+        "comedy_candidates.json",
+        "comedy_additional.json"
+      ]
+    },
+    {
+      "agent": "/root/v5_ceremony_writer",
+      "first_cards": 4,
+      "additional_cards": 2,
+      "other_writer_drafts_seen_before_first_submission": false,
+      "evidence": [
+        "ceremony_candidates.json",
+        "additional_candidates.json"
+      ]
+    }
+  ],
+  "reviewers": [
+    "/root/v5_review_a",
+    "/root/v5_review_b",
+    "/root/v5_review_c"
+  ],
+  "concept_gate": {
+    "independent": "complete",
+    "cross_review": "complete",
+    "evidence": "concept_cross_reviews.json",
+    "selection": "selection_proposal.json",
+    "actual_audience_test": false
+  },
+  "director": {
+    "agent": "/root/v5_director",
+    "status": "complete",
+    "owned_file": "director_draft.json"
+  },
+  "storyboard_review": "three independent + peer cross + revision + metadata confirmation complete",
+  "images": "35 new selected first frames + 8 unchanged C03; correction sources preserved",
+  "image_review": "3 independent actual-pixel reviews + peer cross-check + concrete revision confirmation complete",
+  "flow_or_video_generation": false,
+  "principle": "독립/교차 검토는 내부 편집 판단이며 재미의 실제 검증이나 사용자 승인으로 표현하지 않는다.",
+  "image_artists": [
+    "v5_artist_c01",
+    "v5_artist_c02",
+    "v5_artist_c04",
+    "/root assisting C05"
+  ]
+}

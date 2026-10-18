@@ -1,0 +1,84 @@
+{
+  "reviewer": "C",
+  "record_format": "PD transcription of returned review, condensed prose; subjective scores omitted",
+  "actual_opened_paths": {
+    "contact_sheets": [
+      "contact_sheets/C01_all_cuts.jpg",
+      "contact_sheets/C02_all_cuts.jpg",
+      "contact_sheets/C03_all_cuts.jpg",
+      "contact_sheets/C04_all_cuts.jpg",
+      "contact_sheets/C05_all_cuts.jpg"
+    ],
+    "individual_originals": [
+      "images/C01/S04_v2.png",
+      "images/C01/S07_v2.png",
+      "images/C02/S07_v3.png",
+      "images/C02/S08_v3.png",
+      "images/C03/K06_v2.png",
+      "images/C04/S06.png",
+      "images/C04/S07_v2.png",
+      "images/C04/S08.png",
+      "images/C05/S05.png",
+      "images/C05/S07.png"
+    ]
+  },
+  "scope_limit": {
+    "independent": true,
+    "other_image_reviews_seen": false,
+    "visual_scope": "43 selected 컷을 contact5개의 축소 이미지로 확인, 10 PNG는 원본1672×941 추가 열람. 나머지33개는 개별 원본 검토 아님.",
+    "not_verified": [
+      "실제 움직임과 편집호흡",
+      "음성·음악·효과음",
+      "최종 자막 합성",
+      "관객 반응",
+      "Flow 성공"
+    ]
+  },
+  "concepts": [
+    {
+      "id": "C01",
+      "result": "pass_with_suggestion",
+      "evidence": "포스터와 교정자세 비교, S04 전신/의자/매트 원인, S07 촬영과 S08~09 누운모방 연결. 실제 의자이탈 움직임 미검증. 실제이야기 들으러떠나는 선택과 참석초대 연결."
+    },
+    {
+      "id": "C02",
+      "result": "pass",
+      "evidence": "카펫스타고립/팬4명의 오른쪽이동, S07 낮은몸·보호선·빈옆통로, S08 경호손짓 고집. 승인된 팔역할·카메라변경 수용, 단일노트북·인물유지. 활용질문과첫사례시작 연결."
+    },
+    {
+      "id": "C03",
+      "result": "preserve",
+      "evidence": "사무실배송규모/청록·주황공간/파일이동 구별. K06 파일/운송장 추가확인. 기존8장유지."
+    },
+    {
+      "id": "C04",
+      "result": "pass",
+      "evidence": "은박비서 색짝/주인의동작반복, S07 우측문짝·통과경로, S08 문대각선/무릎높이차 명확. 좌측힌지변경수용. 의도된은박테이프 결함아님."
+    },
+    {
+      "id": "C05",
+      "result": "pass_in_first_review",
+      "evidence": "숨은아이→악기→엄마탬버린 의미전환. S05 가방반환예고없음. S06→S07 생략명확, 노트북닫혀공개동작가능. 실제사례소개연결, 보편조기퇴근보장아님."
+    }
+  ],
+  "issues": [
+    {
+      "id": "C-I01",
+      "concept_id": "C01",
+      "cut_id": "K07",
+      "severity": "suggestion",
+      "observation": "S07_v2 호루라기안보임",
+      "reason": "정체/촬영/뒤집힌교본개그훼손없는작은의상차이",
+      "fix": "후속의상안소품처리로연결, 이 차이만재생성안함"
+    }
+  ],
+  "overall": {
+    "required_issue_count": 0,
+    "suggestion_count": 1,
+    "timing": "34/33/42/35/31초 공백겹침없음. 신규끝6초/C03끝5초 유지",
+    "mapping": "43 경로일치",
+    "facts": "확인범위 허위일정/장소/성과/상금/신청혼동없음",
+    "acceptability": "허구인물체면과상황을대상, 실제직원특정조롱아님",
+    "limitation": "내부편집판단이며 관객반응측정아님"
+  }
+}

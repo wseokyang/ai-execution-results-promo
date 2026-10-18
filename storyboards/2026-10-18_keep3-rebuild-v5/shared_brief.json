@@ -1,0 +1,51 @@
+{
+  "run_id": "2026-10-18_keep3-rebuild-v5",
+  "latest_user_request": "3번 하나 빼고 다 별로야. 3번을 남기고 나머지 다 다시 만들어봐. 재미도 없고 반전도 없잖아.",
+  "scope": {
+    "retained": "V4 C03",
+    "rebuild": [
+      "C01",
+      "C02",
+      "C04",
+      "C05"
+    ],
+    "first_frame_per_cut": true,
+    "video_generation": false,
+    "flow_upload": false,
+    "preserve_old_completed_C01": true
+  },
+  "event_facts": {
+    "name": "2026년 품질팀 AI 실행 결과 발표 대회",
+    "confirmed": "개최 사실·행사명·AI 실행 경험과 활용 사례 공유 목적",
+    "unknown": [
+      "정확한 일시",
+      "장소",
+      "참석·추천·신청 방법",
+      "실제 발표자·과제",
+      "성과 수치",
+      "상금"
+    ],
+    "source_note": "AGENTS.md, team/brief.toml, shared_brief.json 직접 열람. 행사 원자료 교차 확인은 공유 브리프 연구 담당의 검증 기록을 따름."
+  },
+  "assumptions": {
+    "audience": "품질팀내부시청가정",
+    "ratio": "16:9",
+    "max_seconds": 60
+  },
+  "creative_gate": [
+    "초반관객이믿는상황과예상결말을분리",
+    "뜻밖의새증거는실제화면에보여야함",
+    "그뒤에다시새로운사건이나반응으로웃음이커지는지",
+    "행사명을가려도짧은코미디로성립하는지",
+    "설명가능한장치·연속성·검수인원수를재미의증거로쓰지않음"
+  ],
+  "not_reuse": [
+    "악마계약",
+    "시간여행/실패복원",
+    "액션재연/대역",
+    "보존규칙",
+    "V3홈쇼핑/되감기/시상소감/관객마술/가방첩보"
+  ],
+  "retained_inference": "C03의환경요구→사무실실물배송은화면에서의미와규모가즉시읽힌다. 모든신규안을배송/거대소품으로복제하라는뜻은아님.",
+  "reference_scope": "V4 reference 조사범위와qrew원자료를참고. 새전체광고시청·음원청취주장없음."
+}
