@@ -1,0 +1,68 @@
+{
+  "date_kst": "2026-10-18",
+  "stage": "reference_research_and_creative_diagnosis",
+  "user_feedback": "돌고래유괴단 광고 감성을 선호하며, 신규 5안에 그 부분이 고려되지 않았다고 지적했다. 특정 광고를 사용자에게 고르게 하지 말고 유튜브에서 직접 조사한다.",
+  "researchers": ["/root", "/root/dolphiners_reference_audit"],
+  "independent_existing_work_audit": "/root/reboot_review_a",
+  "sources": [
+    {
+      "title": "Canon '안정환의 파워무비' Full Ver.",
+      "url": "https://www.youtube.com/watch?v=3KuYt8feH9s",
+      "publisher_verified": "돌고래유괴단 공식 채널",
+      "verified_scope": "공식 영상 페이지와 크레딧, 한국어 자동자막 전체, 도입 및 약 25~40초 표본 화면. 전체 연속 감상과 실제 음성 청취는 하지 않았다. 자동자막에는 오인식이 있으므로 정확한 대사 인용에 쓰지 않는다.",
+      "observation": "진지한 운동선수의 자기 서사와 멋있는 인물 화면이 먼저 등장한다. 뒤에는 경찰차 안 인물이 찍힌 사진으로 인물의 격이 바뀐다.",
+      "interpretation": "관객이 처음 받아들인 인물의 이미지를 후속 사건과 사진이 배반한다. 허술한 소품을 보여주는 것만으로 만들어지는 반전이 아니다."
+    },
+    {
+      "title": "SSG.COM 압도적 쓱케일",
+      "url": "https://www.youtube.com/watch?v=2Zlkd3oxFI0",
+      "supporting_url": "https://www.shinsegaegroupnewsroom.com/ssg-dotcom-online-new-ad/",
+      "verified_scope": "브랜드 공식 설명, 제작자 인터뷰, 연구자가 실제 확인한 0·15·20·25·35·44초 표본 화면. 전체 연속 감상·실제 음성 청취는 하지 않았다.",
+      "observation": "정돈된 노란 컨테이너의 깊은 공간에 빵 굽기·논밭·낚시가 등장한다. 인물에게는 긴장한 큰 표정도 있다. 주문과 배송의 약속이 지나치게 문자 그대로 실행된다.",
+      "interpretation": "브랜드가 말하는 신선함과 상품의 다양성이 황당한 사건의 원인이다. 전원 무표정이나 저예산 미술로 일반화할 수 없다."
+    },
+    {
+      "title": "배스킨라빈스 왕의 추석선물3 — 공식 30초판",
+      "url": "https://www.youtube.com/watch?v=oHhkO4kYZOk",
+      "supporting_url": "https://www.smcultureandcontents.com/ko/mobile/advertising/portfolio_view.asp?portfolio_srl=1360",
+      "full_version_link_only": "https://www.youtube.com/watch?v=EQhbrS4Xaus",
+      "verified_scope": "SM C&C 공식 제작 설명과 30초판 0·10·15·20·22·23초 실제 표본. Full 링크는 채널·제목만 확인했다. 전체 연속 감상·실제 음성 청취는 하지 않았다.",
+      "observation": "홈쇼핑의 상품 패널과 주문 띠를 유지한 채 정교한 곤룡포·용상, 왕과 호위무사의 진지한 클로즈업이 나타난다. 공식 설명은 왕의 뜻밖의 호의적인 시식 반응으로 긴장이 풀린다고 밝힌다.",
+      "interpretation": "밝은 판매 방송의 규칙과 사극의 위계가 충돌한다. 홈쇼핑 배경이나 이상한 왕관만 가져와서는 이 사건 구조가 생기지 않는다."
+    },
+    {
+      "title": "그랑사가 연극의 왕",
+      "url": "https://www.youtube.com/watch?v=UPex3HwdlC0",
+      "brand_original_link": "https://www.youtube.com/watch?v=mK8GiTBnFq0",
+      "supporting_url": "https://www.brandbrief.co.kr/news/articleViewAmp.html?idxno=4695",
+      "verified_scope": "공식 링크와 제작자 발언, 총괄이 도입 무대·아역 클로즈업 표본을 확인했다. 자동자막을 확보하지 못했고 이후 재생 오류가 발생했다. 전체 전개를 직접 시청했다고 쓰지 않는다.",
+      "source_supported_premise": "어린이 연극제에 성인 배우의 얼굴과 연기가 들어오는 배역 대비. 전체 전개 설명은 기사·제작자 발언 범위로 제한한다."
+    }
+  ],
+  "creator_interviews": [
+    {
+      "url": "https://kr.canon/magazine/detail/10160",
+      "publisher": "캐논코리아",
+      "summary": "신우석은 하나의 스토리텔링 공식을 제시하지 않고, 프로젝트의 본질과 목적·이야기에 따라 연출을 선택한다고 설명한다."
+    },
+    {
+      "url": "https://design.co.kr/article/114679/",
+      "publisher": "월간디자인 / 디자인플러스",
+      "summary": "미술의 아름다움과 추함 모두 이야기의 필요에 따라 선택하며, 관객이 투자한 시간에 감정적 보상을 주어야 한다는 제작자 발언을 확인했다."
+    }
+  ],
+  "existing_v3_diagnosis": {
+    "overall": "형식의 이름은 다르지만 작은 세트의 정면 콩트와 소품 조작으로 수렴했다. 장면 인과·소품 연속성 검수 통과를 요청한 광고 감성 및 재미의 충족으로 확대했다.",
+    "C01": "골판지 장치를 처음부터 공개하고 상자 사용법이 전개의 많은 부분을 차지한다.",
+    "C02": "가짜 촬영과 어설픈 역연기를 먼저 공개해 관객의 믿음이 뒤집히는 폭이 작다.",
+    "C03": "축하가 발화를 막는 갈등은 있으나 역할 교환의 결말을 예상하기 쉽고 상황의 변화가 작다.",
+    "C04": "처음부터 조수의 발을 공개한다. 이후 의자 이동과 모자 개그가 이야기의 의미를 크게 바꾸지 못한다.",
+    "C05": "AI 활용 방법의 교환이라고 먼저 설명해 공개 행사 안내장이라는 결말을 예상하기 쉽다. 가방·고리 조작이 사건보다 큰 비중을 차지한다."
+  },
+  "limits": [
+    "제작사 전체를 하나의 공식으로 정의하지 않는다.",
+    "실제 음성, 음악의 리듬, 전체 연속 움직임을 감상했다고 주장하지 않는다.",
+    "관객의 웃음이나 광고 효과를 측정한 것이 아니다.",
+    "새 시나리오 5안 또는 새 첫 프레임 제작 완료 기록이 아니다."
+  ]
+}

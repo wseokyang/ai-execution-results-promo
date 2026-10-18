@@ -1,0 +1,16 @@
+{
+  "scope": "새5안의콘티와컷별실제첫프레임. 기존완성1번보존. 영상생성금지.",
+  "roles": [
+    {"role":"총괄PD","agent":"/root","work":"사실브리프,5안선정,3인검수수집과수정,최종통합"},
+    {"role":"자료분석","agent":"/root/dolphiners_reference_audit","work":"PPTX1~3텍스트와행사PNG교차확인,기존공식광고조사범위정리"},
+    {"role":"코미디작가","agent":"/root/v4_comedy_writer","work":"독립4안과별도추가후보1안"},
+    {"role":"행사작가","agent":"/root/v4_ceremony_writer","work":"독립4안과CW01/CW03결말보강"},
+    {"role":"콘티연출","agent":"/root/v4_storyboard_director","work":"선정5안전체43컷초안. PD수정후44실제컷"},
+    {"role":"독립검수A","agent":"/root/v4_reviewer_a","work":"전체5안블라인드우선독립검토,타2명지적교차,수정재확인"},
+    {"role":"독립검수B","agent":"/root/v4_reviewer_b","work":"전체5안블라인드우선독립검토,타2명지적교차,수정재확인"},
+    {"role":"독립검수C","agent":"/root/v4_reviewer_c","work":"전체5안블라인드우선독립검토,타2명지적교차,수정재확인"},
+    {"role":"이미지제작","agents":["/root/v4_image_artist1","/root/v4_image_artist2","/root/v4_image_artist3"],"work":"동일이미지담당역할을폴더별병렬분담. 진행상태는각manifest기준."}
+  ],
+  "concurrency":"총괄포함최대4명. 단계별호출,하위팀없음.",
+  "scope_limit":"콘티승인은이미지검수를대신하지않으며 이미지검수는영상의움직임·음성·관객반응검증이아니다."
+}

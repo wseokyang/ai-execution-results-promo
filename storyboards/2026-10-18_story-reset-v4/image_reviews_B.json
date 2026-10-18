@@ -1,0 +1,49 @@
+{
+  "reviewer": "B",
+  "phase": "independent_image_review_part1",
+  "status": "C01_C02_C03_pass_no_required_regeneration",
+  "viewed": {
+    "contact_sheets": [
+      "contact_sheets/C01_all_cuts.jpg",
+      "contact_sheets/C02_all_cuts.jpg",
+      "contact_sheets/C03_all_cuts.jpg"
+    ],
+    "all_selected_cuts": [
+      "C01 K01–K09",
+      "C02 K01–K09",
+      "C03 K01–K08"
+    ],
+    "individual_pngs": [
+      "images/C01/K03_v2.png",
+      "images/C01/K04_v2.png",
+      "images/C02/K04.png",
+      "images/C02/K06.png",
+      "images/C02/K07.png",
+      "images/C02/K09.png",
+      "images/C03/K06_v2.png",
+      "images/C03/K08.png"
+    ]
+  },
+  "findings": [
+    {
+      "id": "IB-001",
+      "cut": "C02 K02/K07/K09",
+      "severity": "suggestion",
+      "issue": "복원 도식의 페이지 위치 차이. 후속 합성 시 K02 기준 통일. 현재 내용 복원은 읽힘."
+    },
+    {
+      "id": "IB-002",
+      "cut": "C03 K06",
+      "severity": "suggestion",
+      "issue": "주황 파일 줄무늬가 표지 장식처럼 보일 수 있음. 후속 동작에서 파일을 돌리거나 같은 조건 부분을 짚기."
+    },
+    {
+      "id": "IB-003",
+      "cut": "C01 K03",
+      "severity": "suggestion",
+      "issue": "곡선 계약선이 다소 팽팽하게 느껴짐. 질문 뒤 직선으로 당기는 변화 크게 주기."
+    }
+  ],
+  "observed": "26장 매핑 일치, C01공간·카드 시점·표정, C02동일 얼굴·노트상태, C03규모·문서구별·출발/하늘여백 확인.",
+  "scope": "C01~C03 정지 이미지. C04/C05 미검토. 동작·음성·효과 작동 미검증."
+}

@@ -1,0 +1,39 @@
+{
+  "phase":"C05_independent_image_review_before_PD_projector_edit",
+  "selected_images":9,
+  "reviews":{
+    "A":{
+      "status":"pass_no_required_image_revision",
+      "contact_sheet":"contact_sheets/C05_all_cuts.jpg",
+      "individual_pngs":["K01.png","K02.png","K03.png","K04.png","K05_v3.png","K06.png","K07.png","K08.png","K09.png"],
+      "findings":[{"id":"IA-006","cut":"C05 K08","severity":"suggestion","issue":"가위가 이미 선 가까이. 표 부착→사진→가위 접근·절단 순서를 지켜 기록 전에 선을 자르지 않음."}],
+      "observed":"A/B 결과 출처·보존대상 확대·투사 ON/OFF·기록존속·자기표 부착전/후·선 절단전/후 구별. 인물/복장 연속. 여백 확보.",
+      "all44_independent_reviewed":true
+    },
+    "B":{
+      "status":"pass_no_required_image_revision",
+      "contact_sheet":"contact_sheets/C05_all_cuts.jpg",
+      "individual_pngs":["K05_v3.png","K06.png","K07.png","K08.png","K09.png"],
+      "findings":[
+        {"id":"IB-005","cut":"C05 K05/K06","severity":"suggestion","issue":"프로젝터 렌즈가 관객쪽으로 보여 뒤 투사면과 광축이 부자연스러움. 방향 정렬 권장."},
+        {"id":"IB-006","cut":"C05 K09","severity":"suggestion","issue":"실행자가 이미 닫힌 폴더/기록/폰 소지. 다시 정리하지 말고 소지상태 출발로 콘티 수정."}
+      ],
+      "observed":"번호표/가위/폰의 사진과 절단 전 상태, 마지막 해제 상태 일치. 문·투사면 일관. 다섯안 강제귀환/실패복원/대형배송/주연석점유/자기보존 차별.",
+      "all44_independent_reviewed":true
+    },
+    "C":{
+      "status":"pass_no_required_image_revision",
+      "contact_sheet":"contact_sheets/C05_all_cuts.jpg",
+      "individual_pngs":["K05_v3.png","K06.png","K07.png","K08.png","K09.png"],
+      "findings":[
+        {"id":"IC-007","cut":"C05 K05–K07","severity":"suggestion","issue":"렌즈가 투사벽 아닌 관객을 향하는 것 같음. 광축 정렬하고 무관한 방향 광선 금지."},
+        {"id":"IC-008","cut":"C05 K08/K09","severity":"layout_note","issue":"표가 작음. 표에는 큰 3만, 보존 실패 사례 문구는 화면 자막으로 분리. 현재 텍스트는 미조판."},
+        {"id":"IC-009","cut":"C05 K09","severity":"suggestion","issue":"이미 기록을 챙겨 소지한 상태. 다시 펴고 정리하지 않고 출발·바퀴 콜백만."}
+      ],
+      "observed":"화면만 소멸/폰기록존속, 표 부착과 선절단 전후 명확. 규칙코미디이며 실제직원조롱표식없음.",
+      "all44_independent_reviewed":true
+    }
+  },
+  "scope":"개별 경로 기준 images/C05/. 세 명 모두 연락표 전체. 실제 움직임·음성·관객 반응은 미검증.",
+  "PD_decision":"프로젝터 광축은 필수지적 아니지만 첫 프레임의 구체적 물리 방향 결함을 줄이기 위해 K05/K06/K07 본체만 국소수정 요청. 수정 실물 재확인 대기."
+}

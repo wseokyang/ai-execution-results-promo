@@ -1,0 +1,10 @@
+{
+  "status": "complete",
+  "selected_images": 44,
+  "planned_cuts": 44,
+  "storyboard_reviews": "complete",
+  "image_reviews": "complete",
+  "video_generation": false,
+  "flow_upload": false,
+  "automation": "PAUSED"
+}

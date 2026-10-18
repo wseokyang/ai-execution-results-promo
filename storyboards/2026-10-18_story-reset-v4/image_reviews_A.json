@@ -1,0 +1,59 @@
+{
+  "reviewer": "A",
+  "phase": "independent_image_review_parts1_2",
+  "status": "C01_C02_C03_pass_no_required_regeneration",
+  "viewed": {
+    "contact_sheets": [
+      "contact_sheets/C01_all_cuts.jpg",
+      "contact_sheets/C02_all_cuts.jpg",
+      "contact_sheets/C03_all_cuts.jpg"
+    ],
+    "all_selected_cuts": [
+      "C01 K01–K09",
+      "C02 K01–K09",
+      "C03 K01–K08"
+    ],
+    "individual_pngs": [
+      "images/C01/K03_v2.png",
+      "images/C01/K05.png",
+      "images/C01/K06.png",
+      "images/C01/K07.png",
+      "images/C01/K08.png",
+      "images/C02/K02.png",
+      "images/C02/K04.png",
+      "images/C02/K06.png",
+      "images/C02/K07.png",
+      "images/C03/K05.png",
+      "images/C03/K06_v2.png",
+      "images/C03/K08.png"
+    ]
+  },
+  "findings": [
+    {
+      "id": "IA-001",
+      "cut": "C01 K07",
+      "severity": "suggestion",
+      "issue": "이미 고개를 돌려 미소 시작. 다음 움직임을 고개 돌리기 반복 대신 발 멈춤·미소 확대에 맞추기."
+    },
+    {
+      "id": "IA-002",
+      "cut": "C01 K08",
+      "severity": "suggestion",
+      "issue": "손이 겉가슴 주머니 부근. 재킷을 연 뒤 안주머니 명함을 꺼내도록 동작 명료화."
+    },
+    {
+      "id": "IA-003",
+      "cut": "C02 K02/K07/K09",
+      "severity": "suggestion",
+      "issue": "복원된 노트 도식 위치가 바뀜. K02를 후편집 도식 기준으로 고정. 빈/복원 상태는 명료하여 전체 재생성 요구 없음."
+    },
+    {
+      "id": "IA-004",
+      "cut": "C03 K05–K08",
+      "severity": "suggestion",
+      "issue": "B의 기록이 건축 도면/모형으로 구체화되어 사무실 설계 실패로 읽힐 여지. 허구 사례 수용 여부 기록, 비교는 자료 공통 표시 중심."
+    }
+  ],
+  "observed": "오컬트 엄숙함/체념/영업 미소 구별. K03 공간, 선 오른손목, 빨간 카드 K05부터, K07 이후 선 소멸, K09 여백 확인.",
+  "scope": "C01~C03 총26장. 실제 연락표 전체와 핵심 PNG 개별 확대. C04/C05 및 교차 검수 대기."
+}

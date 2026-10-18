@@ -1,0 +1,83 @@
+{
+  "phase": "C04_independent_image_review",
+  "selected_images": 9,
+  "reviews": {
+    "A": {
+      "status": "pass_no_required_image_revision",
+      "contact_sheet": "contact_sheets/C04_all_cuts.jpg",
+      "individual_pngs": [
+        "K01a.png",
+        "K01b.png",
+        "K02.png",
+        "K03.png",
+        "K04.png",
+        "K05.png",
+        "K06.png",
+        "K07.png",
+        "K08_v2.png"
+      ],
+      "finding": {
+        "id": "IA-005",
+        "cut": "C04 K02",
+        "severity": "future_production_note",
+        "issue": "첫 프레임의 대역 노트북은 닫혀 있고 대화에 시선. 5초 내 열기→직접 입력이 보여야 후반 자기 사례의 복선이 성립."
+      },
+      "observed": "액션/촬영반전·인물구별·감독 검정 의자 소유변화 명료. 원사례자 베이지의자, 대역 감독의 검정 의자, 감독 선 자세. 상단행사명 여백. 미채택 K08 미평가.",
+      "first26_notes_confirmed": true,
+      "limits": "정지 첫 프레임 검토. 의자 이동·발화·반응·입력 동작은 미검증."
+    },
+    "B": {
+      "status": "pass_no_required_image_revision",
+      "contact_sheet": "contact_sheets/C04_all_cuts.jpg",
+      "individual_pngs": [
+        "K01b.png",
+        "K05.png",
+        "K07.png",
+        "K08_v2.png"
+      ],
+      "finding": {
+        "id": "IB-004",
+        "cut": "C04 K05",
+        "severity": "suggestion",
+        "issue": "감독 확성기가 이미 가슴 아래. 다시 올리지 말고 힘이 풀려 허리 아래로 내려가는 작은 변화로 조정."
+      },
+      "observed": "옥상도약/모니터로 촬영 공개, 원사례자·대역 구별, 감독의 검정 X자 의자를 대역이 차지함이 명확. 엔딩여백 충분.",
+      "first26_notes_confirmed": true,
+      "limits": "K07 노트 전달·기립·의자 이동·착석 6초 실행은 영상에서 확인해야 함."
+    },
+    "C": {
+      "status": "pass_no_required_image_revision",
+      "contact_sheet": "contact_sheets/C04_all_cuts.jpg",
+      "individual_pngs": [
+        "K01b.png",
+        "K02.png",
+        "K07.png",
+        "K08_v2.png"
+      ],
+      "findings": [
+        {
+          "id": "IC-004",
+          "cut": "C04 K02",
+          "severity": "future_production_note",
+          "issue": "닫힌 노트북 열기→입력. 입력 손과 집중 얼굴을 함께 볼 시간 필요."
+        },
+        {
+          "id": "IC-005",
+          "cut": "C04 K07",
+          "severity": "suggestion",
+          "issue": "감독은 다리를 꼬고 앉음. 다리 풀기→몸 앞으로→일어나기→대역이 의자 가져가기 순서. 전달은 대사와 겹쳐 실제6초는 영상검수."
+        },
+        {
+          "id": "IC-006",
+          "cut": "C04 K01b",
+          "severity": "future_production_note",
+          "issue": "모니터 내 하네스 대역 움직임 합성 시 테두리·전경 인물 유지. 현재 정지 이미지로 움직임 검증 안 함."
+        }
+      ],
+      "observed": "액션에서 촬영 공개로 전환, 인물·옷·파일 구별. K07 감독검정의자→K08 대역점유/감독서있음 명확. 행사명여백 적합.",
+      "first26_notes_confirmed": true,
+      "limits": "정지 이미지·연출 계획 검수. 동작·음성·실제 반응 미검증."
+    }
+  },
+  "scope": "개별 PNG 경로의 기준은 images/C04/. 연락표 9장 모두 확인, 개별 확대 범위는 검수자별로 명시."
+}

@@ -1,0 +1,16 @@
+{
+  "reviewer": "C",
+  "phase": "independent_image_review_parts1_2",
+  "status": "C01_C02_C03_pass_no_required_regeneration",
+  "viewed": {
+    "contact_sheets": ["contact_sheets/C01_all_cuts.jpg", "contact_sheets/C02_all_cuts.jpg", "contact_sheets/C03_all_cuts.jpg"],
+    "all_selected_cuts": ["C01 K01–K09", "C02 K01–K09", "C03 K01–K08"],
+    "individual_pngs": ["images/C01/K03_v2.png", "images/C02/K04.png", "images/C02/K06.png", "images/C02/K07.png", "images/C03/K04.png", "images/C03/K06_v2.png"]
+  },
+  "findings": [
+    {"id":"IC-001", "cut":"C02 K02/K07/K09", "severity":"suggestion", "issue":"소멸·복원 노트의 도식 배치가 다름. K02를 기준으로 후속 합성에서 통일."},
+    {"id":"IC-002", "cut":"C03 K06", "severity":"suggestion", "issue":"주황 패턴은 표지 디자인으로 읽힐 수 있음. 안쪽 기록을 열고 회색 기록과 비교하는 동작·도식 후편집 필요."},
+    {"id":"IC-003", "cut":"C02 K04/K06", "severity":"future_production_note", "issue":"첫 프레임은 대기 상태. 정답에 절망하고 오답에 환호하는 반응은 후속 영상 검수 대상이며 현재 검증하지 않음."}
+  ],
+  "scope":"C01~C03 총26장 실제 연락표 및 기재한 개별 PNG 확인. C04/C05 및 교차 검수 대기."
+}

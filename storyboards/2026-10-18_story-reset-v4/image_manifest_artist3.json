@@ -1,0 +1,390 @@
+{
+  "run_id": "2026-10-18_story-reset-v4",
+  "artist": "/root/v4_image_artist3",
+  "images": [
+    {
+      "concept_id": "C03",
+      "cut_id": "K01",
+      "scene_id": "S01",
+      "image_path": "images/C03/K01.png",
+      "prompt": "Use case: ads-marketing. Generate ONE photorealistic cinematic first frame for an original Korean absurd industrial-scale comedy advertisement, shot C03 K01. Native 16:9 wide, 1536x864 or 2048x1152. Bright natural midday sunshine, a large clean concrete industrial delivery yard with distant warehouse roof line and expansive blue sky. Quiet 50mm medium shot of R, a Korean woman in her early 30s with black hair tied in a low ponytail, beige blouse, thin teal sleeveless vest, dark charcoal trousers. She sits at an ordinary small metal outdoor work table, holds a black smartphone to her LEFT ear with her left hand, her RIGHT hand resting lightly on loose diagram documents. Calm practical expression in the middle of a call, looking down at the documents, not looking up yet. A transparent glass of water and a gray folder lie on the table. Honest skin texture, editorial precision, real practical industrial world, polished Korean TV commercial cinematography. Composition leaves wide normal sunlit sky and daylight behind her. This is BEFORE a huge shadow sweeps over her. No shadow covering her yet. No office module visible anywhere, no crane visible, no driver in frame, no orange folder. Documents have abstract fine lines only, no legible letters or numbers. No caption, no branding, no logo, no watermark, no comic graphics, no collage. The ordinary opening must not reveal the gigantic delivery gag yet.",
+      "reference_images": [],
+      "source_generated_path": "C:\\Users\\wseok\\.codex\\generated_images\\01a14def-34dd-73a2-89ef-a6c63e3cb2ed\\exec-7763291c-92a8-4458-bd1d-ded1af76b945.png",
+      "generation_tool": "image_gen",
+      "artist_review": {
+        "opened_actual_image": true,
+        "status": "artist_pass",
+        "notes": "햇빛 정상, 통화와 자료 위 손, 모듈·기사 미등장 확인. 기준 인물 외모·의상 확보."
+      },
+      "selected": true,
+      "first_frame": "직원은 통화 중, 자료 위 손. 위 사무실은 안 보이고 정상 햇빛.",
+      "next_motion": "그림자 이동→위로 시선."
+    },
+    {
+      "concept_id": "C03",
+      "cut_id": "K02",
+      "scene_id": "S02",
+      "image_path": "images/C03/K02.png",
+      "prompt": "Use case: ads-marketing. Generate a new shot C03 K02, native 16:9 widescreen photorealistic absurd Korean industrial commercial. Reference image 1 is ONLY the identity/clothes of R and the daylight concrete logistics yard; preserve her beige blouse, teal vest, charcoal trousers and tied black hair. Completely new low 24mm extreme wide camera angle. Monumental reveal: an ENTIRE intact white prefabricated modern office room A, approximately 7 meters long, suspended several meters above empty concrete by four taut steel lifting cables from an enormous precise yellow crane. White metal shell, a distinctive TEAL entry door frame at its left front corner, broad full-height glass front and a side with neatly folded-open architectural wall panels; inside visible a tidy wooden desk, black swivel chair, monitor, gray binder and green potted plant. It looks like someone has meticulously shipped their whole working environment, not a damaged building, not a container of rubble. The office and sky dominate 80% of frame. R very small at far left foreground safely OUTSIDE a clear yellow ground exclusion boundary, watching upwards. T, Korean man early 40s with short black hair, yellow hard hat, navy work jacket, orange reflective vest, black trousers and BOTH hands in gray work gloves, stands safely to the side OUTSIDE the load footprint, looking up guiding delivery. People must not be under the hanging module. Precision steel construction, visible cables, clear sunny blue sky, believable real scale, sophisticated absurd visual comedy, high-budget commercial photography. No orange doorway or second module anywhere. No readable text, no signs, logos, captions, watermark, split panels or collage. First-frame state: A is stationary in midair, before lowering. Do not show landing yet.",
+      "reference_images": [
+        "\\\\wsl.localhost\\Ubuntu-24.04\\home\\wooseok\\wsy\\samsung_related\\slide\\AI실행결과발표대회_디자인3종\\storyboards\\2026-10-18_story-reset-v4\\images\\C03\\K01.png"
+      ],
+      "source_generated_path": "C:\\Users\\wseok\\.codex\\generated_images\\01a14def-34dd-73a2-89ef-a6c63e3cb2ed\\exec-21645e58-a582-4d91-bf5e-d1e8a0ad2577.png",
+      "generation_tool": "image_gen",
+      "artist_review": {
+        "opened_actual_image": true,
+        "status": "artist_pass",
+        "notes": "청록 문틀 A 공중·팽팽한 케이블·작업 공간 전체 보존. 사람은 모듈 왼편 투영 밖. B 미노출."
+      },
+      "selected": true,
+      "first_frame": "청록 문틀 A가 공중에 고정, 케이블 팽팽. 직원·기사 옆 안전선 밖.",
+      "next_motion": "모듈 조금 하강. 사람 위 이동 없음."
+    },
+    {
+      "concept_id": "C03",
+      "cut_id": "K03",
+      "scene_id": "S03",
+      "image_path": "images/C03/K03.png",
+      "prompt": "Use case: ads-marketing. New independent first frame shot C03 K03 of the same original industrial comedy commercial, photorealistic 16:9 widescreen. Reference 1 anchors R's exact face, low ponytail, beige blouse/teal vest/charcoal trousers. Reference 2 anchors white office module A, teal door frame, light wooden desk, plant, black office chair, crane operator T in yellow hard hat/navy jacket/orange reflective vest. The module has now safely landed, nobody hanging in the air. Camera INSIDE module A, 40mm side medium shot across the wooden desk. R is seated in profile three-quarter view at the desk ready to run a test on a laptop, RIGHT index finger hovering just above the keyboard, neutral concentration BEFORE execution, no success reaction. A closed GREY file lies directly beside her. Foreground screen area is large enough to see two diagram panels but no words: LEFT three clean outlined rectangles as a reference diagram, RIGHT neutral empty gray panel waiting for execution, no checkmarks or matching output yet. This is a prop screen whose final matching output will be composited during the motion shot. Through the side window, T visible outside at a safe distance, BOTH hands still wearing gray gloves, waiting patiently for the operation to finish, no glove removal yet. Teal door trim in background, bright blue daylight and industrial yard outdoors. Realistic intentional composition that shows screen, R's face and waiting T within one frame, not separate panels. Crisp nuanced natural light, sophisticated cinematic commercial, no comic caricature. No second office module, no orange doorway or orange file. No readable lettering, captions, logos, watermarks. Do not duplicate R or T.",
+      "reference_images": [
+        "\\\\wsl.localhost\\Ubuntu-24.04\\home\\wooseok\\wsy\\samsung_related\\slide\\AI실행결과발표대회_디자인3종\\storyboards\\2026-10-18_story-reset-v4\\images\\C03\\K01.png",
+        "\\\\wsl.localhost\\Ubuntu-24.04\\home\\wooseok\\wsy\\samsung_related\\slide\\AI실행결과발표대회_디자인3종\\storyboards\\2026-10-18_story-reset-v4\\images\\C03\\K02.png"
+      ],
+      "source_generated_path": "C:\\Users\\wseok\\.codex\\generated_images\\01a14def-34dd-73a2-89ef-a6c63e3cb2ed\\exec-2cba58c0-e1b4-43f8-bf85-539e66fb81a1.png",
+      "generation_tool": "image_gen",
+      "artist_review": {
+        "opened_actual_image": true,
+        "status": "artist_pass",
+        "notes": "실행 전 빈 결과 패널, 회색 파일, 청록 문틀, 창 밖 기사 양손 장갑 확인. UI 글자는 후편집."
+      },
+      "selected": true,
+      "first_frame": "직원이 회색 파일 옆에서 실행 전. 기사 양손 장갑, 종료 대기.",
+      "next_motion": "결과→끄덕임→기사 장갑 한 짝 벗음."
+    },
+    {
+      "concept_id": "C03",
+      "cut_id": "K04",
+      "scene_id": "S04",
+      "image_path": "images/C03/K04.png",
+      "prompt": "Use case: ads-marketing. New first frame C03 K04, 16:9 photoreal high-budget industrial comedy. Reference 1 anchors the intact white glass office A with teal door trim and sunny yard; reference 2 anchors closer view of T, the Korean male operator, and same light. Camera outside in deep-focus medium-wide view. T in LEFT FOREGROUND in yellow hard hat, navy jacket, orange reflective safety vest and black trousers, his body half turned to leave, neutral tired expectation that work is finished. His RIGHT hand is BARE, and his LEFT hand is still gloved and holding ONE removed gray right glove. Keep both hands clearly separated, exactly two human hands. A already landed behind him on frame LEFT, white glass office with TEAL door frame. On far UPPER RIGHT edge only, a tiny LOWER CORNER and a short white underside strip of a SECOND suspended white office B have JUST ENTERED the frame; orange paint on a tiny vertical edge hints at a second module, but most of B is still out of frame above. Show no B interior, no complete B shape, no full second office. T is safely lateral to all load paths, never under suspended object; the entering corner is far to his right. A and B left-right geography must read. Large clear blue sky. This is precisely BEFORE T reacts and before the second office is revealed: no pointing up, no glove being put back on, no surprised comic face yet. Strong industrial reality and sophisticated absurd understatement. No other people necessary. No readable writing, logos, captions or watermark. No collage.",
+      "reference_images": [
+        "\\\\wsl.localhost\\Ubuntu-24.04\\home\\wooseok\\wsy\\samsung_related\\slide\\AI실행결과발표대회_디자인3종\\storyboards\\2026-10-18_story-reset-v4\\images\\C03\\K02.png",
+        "\\\\wsl.localhost\\Ubuntu-24.04\\home\\wooseok\\wsy\\samsung_related\\slide\\AI실행결과발표대회_디자인3종\\storyboards\\2026-10-18_story-reset-v4\\images\\C03\\K03.png"
+      ],
+      "source_generated_path": "C:\\Users\\wseok\\.codex\\generated_images\\01a14def-34dd-73a2-89ef-a6c63e3cb2ed\\exec-35c3e5a2-b92e-4b96-9ba0-1479c5980515.png",
+      "generation_tool": "image_gen",
+      "artist_review": {
+        "opened_actual_image": true,
+        "status": "artist_pass",
+        "notes": "A 왼쪽 설치, B는 우상단 아랫모서리만 노출. 기사 오른손 맨손·왼손 장갑과 벗은 장갑 소지. 시선은 이미 우상향이지만 장갑 재착용/전체 B 공개 전 상태."
+      },
+      "selected": true,
+      "first_frame": "설치 A왼쪽, 기사 벗은 장갑 소지. B아랫모서리 막 프레임 진입.",
+      "next_motion": "B공개→기사 장갑 재착용."
+    },
+    {
+      "concept_id": "C03",
+      "cut_id": "K05",
+      "scene_id": "S05",
+      "image_path": "images/C03/K05.png",
+      "prompt": "Use case: ads-marketing. New distinct storyboard first frame C03 K05, 16:9 photorealistic cinematic Korean industrial commercial. Reference image 1 is exact identity/clothes of R: Korean woman early 30s, black low ponytail, beige blouse, thin teal vest, charcoal trousers. Reference image 2 is the modular-office architecture and bright exterior yard, not the teal trim color for this different office B. Camera just inside the ORANGE painted door frame of B, over R's shoulder with part of her right cheek visible, looking into a compact intact white modern office. This is the EARLY EXPERIMENT work environment: real orderly-but-busy revisions, notes and alternative diagrams pinned on a white board, multiple sheets with simple circles/crossings and arrows, some folded revisions, a working laptop on a wood desk, an office chair. Important: structurally intact and habitable, NOT a wreck, no broken equipment, no debris, no dirty ruined room. R holds black smartphone to her LEFT ear in LEFT hand. Her RIGHT hand is reaching toward but NOT YET TOUCHING a CLOSED BRIGHT ORANGE DOCUMENT FOLDER lying flat on the desk. Folder clearly separate from her fingers by a few centimeters. No gray folder in this room. Orange doorway frames the foreground, white glass-and-metal office shell, daylight. The facing side wall uses folded-back panels already open, with a glimpse of clean sunlit yard, no panel motion. Visual joke is an entire room full of failed attempts has been carefully delivered; keep calm practical authenticity. No colleague or driver visible. Documents show only abstract nonlinguistic marks, no readable words, dates or numbers. No captions, no logos or watermarks, no collage. Beginning state before picking up folder.",
+      "reference_images": [
+        "\\\\wsl.localhost\\Ubuntu-24.04\\home\\wooseok\\wsy\\samsung_related\\slide\\AI실행결과발표대회_디자인3종\\storyboards\\2026-10-18_story-reset-v4\\images\\C03\\K01.png",
+        "\\\\wsl.localhost\\Ubuntu-24.04\\home\\wooseok\\wsy\\samsung_related\\slide\\AI실행결과발표대회_디자인3종\\storyboards\\2026-10-18_story-reset-v4\\images\\C03\\K02.png"
+      ],
+      "source_generated_path": "C:\\Users\\wseok\\.codex\\generated_images\\01a14def-34dd-73a2-89ef-a6c63e3cb2ed\\exec-99b6352c-edb1-4059-a4e3-14e501650a68.png",
+      "generation_tool": "image_gen",
+      "artist_review": {
+        "opened_actual_image": true,
+        "status": "artist_pass_with_note",
+        "notes": "B 주황 문틀·초기 수정 기록·닫힌 주황 파일·왼손 통화 확인. 파일을 들기 전이나 오른손 끝은 표면에 거의 닿은 상태. 배경 자료는 건축 도식 모양의 제안값이며 읽을 내용은 후편집."
+      },
+      "selected": true,
+      "first_frame": "직원이 B안 닫힌 주황 파일 집기 전. 왼손 전화, 오른손 파일에 닿기 전.",
+      "next_motion": "파일 들어 질문→답 듣고 기사로 회전."
+    },
+    {
+      "concept_id": "C03",
+      "cut_id": "K06",
+      "scene_id": "S06",
+      "image_path": "images/C03/K06.png",
+      "prompt": "Use case: ads-marketing. New shot C03 K06, 16:9 cinematic photorealistic Korean absurd delivery commercial. Reference 1 preserves R's exact identity/clothes and orange folder. Reference 2 preserves T's exact face, yellow hard hat/navy jacket/orange reflective vest and white modular-office architecture. Frame an intimate waist-up three-quarter close-medium composition of a delivery return about to be signed, clearly showing both faces and documents. Outside at the TEAL doorway of office A, which remains on LEFT of background. A small metal table has an OPEN GRAY file on it. R has left the orange office B and now holds a partly open ORANGE file with her LEFT hand at waist level, her RIGHT hand empty resting near the table edge; she has NOT taken a pen and is NOT holding the gray file yet. Her smartphone is put away, no phone in either hand. T on frame RIGHT, BOTH hands in gray work gloves again, holds out a white delivery form on a slim clipboard toward her with one gloved hand; a black pen rests clipped to the board, not in R's hand. T looks expectant, R looks down preparing to sign before noticing something. The orange file contains a visible broad abstract diagonal-stripe rectangle, the open gray file shows the same broad stripe motif on one sheet; these are blank diagram markers for later compositing, no text. Spatial continuity: teal office A at left, orange office B at right rear, both standing safely on concrete. Their facing side panels are ALREADY folded fully open; no one is opening doors or walls. Bright sun, precision real industrial materials, quiet close-up with funny paperwork tension. No expressive discovery face yet, no signed document, no folded-up rooms. No readable lettering, logo, captions, or watermark. Exactly two people and two human hands per person.",
+      "reference_images": [
+        "\\\\wsl.localhost\\Ubuntu-24.04\\home\\wooseok\\wsy\\samsung_related\\slide\\AI실행결과발표대회_디자인3종\\storyboards\\2026-10-18_story-reset-v4\\images\\C03\\K05.png",
+        "\\\\wsl.localhost\\Ubuntu-24.04\\home\\wooseok\\wsy\\samsung_related\\slide\\AI실행결과발표대회_디자인3종\\storyboards\\2026-10-18_story-reset-v4\\images\\C03\\K04.png"
+      ],
+      "source_generated_path": "C:\\Users\\wseok\\.codex\\generated_images\\01a14def-34dd-73a2-89ef-a6c63e3cb2ed\\exec-c7065bd2-ab3e-43b7-838b-9c63f91a9a2c.png",
+      "generation_tool": "image_gen",
+      "artist_review": {
+        "opened_actual_image": true,
+        "status": "revision_needed",
+        "notes": "운송장에도 조건 줄무늬가 복제되어 단서 대상 혼동. 두 모듈 마주 보는 패널 개방이 충분히 보이지 않음. 수정본 생성."
+      },
+      "selected": false,
+      "first_frame": "청록 A문 앞 작은 테이블에 열린 회색 파일. 직원은 B에서 가져온 주황 파일을 들고, 기사는 운송장을 내민다. 직원은 아직 펜을 들지 않았다. 두 모듈의 마주 보는 패널은 처음부터 열린 건축 구조.",
+      "next_motion": "직원이 주황 파일을 돌려 안쪽 조건 기록을 열어 봄→테이블의 회색 기록과 같은 표시 발견→반품 서명 보류→회색 파일도 함께 듦. 첫 프레임의 주황 패턴은 표지이며 내부 기록은 아직 보이지 않는다. 대응 도식은 후편집 대상이다."
+    },
+    {
+      "concept_id": "C03",
+      "cut_id": "K06",
+      "scene_id": "S06",
+      "image_path": "images/C03/K06_v2.png",
+      "prompt": "Use case: precise-object-edit. Edit this 16:9 commercial frame with targeted corrections. Keep the same two people, facial identities, clothing, pose, gray folder OPEN on the small table, orange folder in woman's arm, camera, sunlight, module A on left with teal doorway and B on right with orange doorway. Change ONLY these details: (1) The WHITE DELIVERY SHEET on the clipboard held by the man must be PLAIN WHITE except a few very faint horizontal signature rules. Remove the entire diagonal striped graphic from this clipboard. ONLY the woman's orange folder and the gray folder on table carry matching stripe-condition motifs. These are the two relevant records, the waybill is not a record. (2) Show the inward-facing wall of EACH office as a fully opened bifold glass wall, with glass leaves already folded into a narrow stack against its far corner, revealing unobstructed open interior air across the space between A and B. This is an architectural state, nobody operating the panels. Preserve the two colored door frames. Everything else unchanged, same number of hands, no added people, no extra folders, no lettering, captions, logos or watermark.",
+      "reference_images": [
+        "\\\\wsl.localhost\\Ubuntu-24.04\\home\\wooseok\\wsy\\samsung_related\\slide\\AI실행결과발표대회_디자인3종\\storyboards\\2026-10-18_story-reset-v4\\images\\C03\\K06.png"
+      ],
+      "source_generated_path": "C:\\Users\\wseok\\.codex\\generated_images\\01a14def-34dd-73a2-89ef-a6c63e3cb2ed\\exec-84669b16-7137-491e-b7d5-4497a883513e.png",
+      "generation_tool": "image_gen",
+      "artist_review": {
+        "opened_actual_image": true,
+        "status": "artist_pass",
+        "notes": "운송장 줄무늬 제거 완료. 열린 회색 파일과 주황 파일만 조건 무늬. 두 모듈 접이 패널 개방 확인. 아직 펜 소지·회색 파일 수거 전."
+      },
+      "selected": true,
+      "first_frame": "청록 A문 앞 작은 테이블에 열린 회색 파일. 직원은 B에서 가져온 주황 파일을 들고, 기사는 운송장을 내민다. 직원은 아직 펜을 들지 않았다. 두 모듈의 마주 보는 패널은 처음부터 열린 건축 구조.",
+      "next_motion": "직원이 주황 파일을 돌려 안쪽 조건 기록을 열어 봄→테이블의 회색 기록과 같은 표시 발견→반품 서명 보류→회색 파일도 함께 듦. 첫 프레임의 주황 패턴은 표지이며 내부 기록은 아직 보이지 않는다. 대응 도식은 후편집 대상이다."
+    },
+    {
+      "concept_id": "C03",
+      "cut_id": "K07",
+      "scene_id": "S07",
+      "image_path": "images/C03/K07.png",
+      "prompt": "Use case: ads-marketing. Generate new first frame C03 K07 in native 16:9 wide realistic Korean industrial comedy commercial. Reference 1 anchors both exact people, clothing, faces and two modular rooms with open architectural panels. Reference 2 anchors orange room B's busy revision-notes interior. Side wide view showing BOTH white glass office modules side by side safely grounded: A LEFT with teal entry frame and tidy desk, B RIGHT with orange entry frame and dense revision papers on its back wall, intact and clean. The facing wall panels are ALREADY completely folded open on both rooms from the start, making the two interiors visible, no glass wall between the pair. The employee R, beige blouse, teal vest, charcoal trousers, low ponytail, stands between them, small against the huge rooms. She ALREADY cradles EXACTLY TWO closed folders against her chest in one RIGHT arm: a gray folder and an orange folder, with little paper tabs marking questions. Her LEFT hand holds black smartphone to LEFT ear; attentive interested expression, about to decide to hear the experience in person. T stands a few steps to her right, yellow hard hat, navy jacket, orange reflective vest, black trousers and BOTH gray gloves. His hands rest loosely at his sides, BEFORE he reaches for the belt buckle at his waist; not yet relieved or reacting. A small metal table with no folders now stands near teal A entrance; white delivery clipboard rests there. A simple work chair stands behind T for a later shot. Human scale versus enormous overdelivered rooms is the joke. Bright crisp sun and blue sky, sophisticated wide cinematic composition, industrial precision. No suspended modules, no shipping motion, no duplicate people, no extra folders, no text, logos, watermark or captions. Do not show R exiting or T sitting yet.",
+      "reference_images": [
+        "\\\\wsl.localhost\\Ubuntu-24.04\\home\\wooseok\\wsy\\samsung_related\\slide\\AI실행결과발표대회_디자인3종\\storyboards\\2026-10-18_story-reset-v4\\images\\C03\\K06_v2.png",
+        "\\\\wsl.localhost\\Ubuntu-24.04\\home\\wooseok\\wsy\\samsung_related\\slide\\AI실행결과발표대회_디자인3종\\storyboards\\2026-10-18_story-reset-v4\\images\\C03\\K05.png"
+      ],
+      "source_generated_path": "C:\\Users\\wseok\\.codex\\generated_images\\01a14def-34dd-73a2-89ef-a6c63e3cb2ed\\exec-e14d0c0f-3d9d-461e-a1e0-6cf76fdd1e40.png",
+      "generation_tool": "image_gen",
+      "artist_review": {
+        "opened_actual_image": true,
+        "status": "artist_pass",
+        "notes": "A 좌/B 우, 열린 패널, 파일 두 개 이미 소지, 통화 중, 기사 벨트에 손 대기 전. 손·얼굴·색 연속성 확인."
+      },
+      "selected": true,
+      "first_frame": "처음부터 열린 마주 보는 패널. 직원은 표시된 회색·주황 파일 두 개를 이미 팔에 안고 통화 중. 기사는 벨트에 손 뻗기 전.",
+      "next_motion": "직원 청강 결정→기사가 재운송 준비→작은 파일 들어 “제가 갈게요”→기사 손 멈춤. 패널 개방·파일 수거 동작 없음."
+    },
+    {
+      "concept_id": "C03",
+      "cut_id": "K08",
+      "scene_id": "S08",
+      "image_path": "images/C03/K08.png",
+      "prompt": "Use case: ads-marketing. New independent final first frame C03 K08, 16:9 cinematic photorealistic Korean industrial commercial. Reference image is exact characters, wardrobe, modules and spatial continuity. A substantially WIDER elevated establishing view than reference, pulled far back with clear expansive blue sky occupying the TOP HALF or more, reserved fully empty for later event-title typography. Two intact office modules sit safely on the concrete in the LOWER THIRD of picture: teal-trim white office A on LEFT, orange-trim white office B on RIGHT. The facing architectural bifold glass walls on BOTH are already fully open, with folded leaves visible, tidy office A and revision-note office B. R is small in the lower center foreground, just beginning to depart toward camera, already holding the SAME TWO closed files, gray and orange, against her chest with both arms. Phone put away. Same Korean woman, tied black hair, beige blouse, teal vest, charcoal trousers. T remains STANDING behind her, in yellow hard hat with chin strap still fastened, navy jacket, orange reflective vest, black trousers, gray gloves. A plain black work chair sits behind T ready for him to sit in the subsequent motion, but he is NOT sitting yet and NOT loosening strap yet. Small metal table remains next to left module. Sunny industrial yard, warehouses low on horizon. Scale contrast: huge rooms stay, person takes just two small files. No crane or objects obscuring upper sky; no new module, no crowd, no paper confetti. This image is the starting moment before exit and relieved sitting, not their completed actions. NO text anywhere, title and CTA will be added later; no logo or watermark. Preserve photographic specificity and polished natural sunlight.",
+      "reference_images": [
+        "\\\\wsl.localhost\\Ubuntu-24.04\\home\\wooseok\\wsy\\samsung_related\\slide\\AI실행결과발표대회_디자인3종\\storyboards\\2026-10-18_story-reset-v4\\images\\C03\\K07.png"
+      ],
+      "source_generated_path": "C:\\Users\\wseok\\.codex\\generated_images\\01a14def-34dd-73a2-89ef-a6c63e3cb2ed\\exec-9c11e4bf-4f90-4831-8ce6-43154f08cc4d.png",
+      "generation_tool": "image_gen",
+      "artist_review": {
+        "opened_actual_image": true,
+        "status": "artist_pass",
+        "notes": "두 방 잔류, R 파일 두 개 안고 출발, T 아직 서 있음, 빈 의자 확보. 상단 하늘 무문자 여백 확보. 높은 와이드보다 눈높이에 가까운 와이드 구도는 제안값."
+      },
+      "selected": true,
+      "first_frame": "마주 보는 패널이 열린 두 방. 직원은 두 질문 기록을 안고 전경으로 나가려 함. 기사는 아직 서 있음. 하늘 무문자.",
+      "next_motion": "직원 퇴장→기사 끈 풀고 착석. 제목 후편집."
+    },
+    {
+      "concept_id": "C04",
+      "cut_id": "K01a",
+      "scene_id": "S01",
+      "image_path": "images/C04/K01a.png",
+      "prompt": "Use case: ads-marketing. ONE original cinematic advertisement storyboard FIRST FRAME C04 K01a, native 16:9 widescreen photorealism. A genuinely spectacular blue night action-film rooftop in heavy rain, distant Seoul-like high-rise lights, wet concrete gleaming with cool filming floodlights from below. Low wide-angle action framing centered only on S, a Korean female professional stunt performer in her early 30s, athletic slim build, distinct angular long face, strong straight brows, monolid eyes, black hair tightly tied in a ponytail. She wears charcoal gray blazer over black fitted top, charcoal/black trousers, sturdy black shoes, and a clearly visible black stunt safety harness around waist and thighs. A taut silver safety wire runs upward from the secure harness into a dark overhead rig out of frame. She is on the rooftop edge in a PRE-TAKEOFF preparation pose, knees bent, both feet firmly planted on roof, torso leaning forward, intense focused expression, arms slightly back. This is BEFORE jumping: she is not yet suspended or flying, no long fall. Real rain droplets and wind, cinematic emotional tension, professional stunt-set precision. Only this one woman. No original office employee, no director, no screen-within-screen. No papers or laptop on the rooftop. No logos, text, titles, captions, watermarks, or comic graphics. The later reveal is that this is a film shoot; here show the serious action frame with visible safety wire for continuity.",
+      "reference_images": [],
+      "source_generated_path": "C:\\Users\\wseok\\.codex\\generated_images\\01a14def-34dd-73a2-89ef-a6c63e3cb2ed\\exec-785f19cc-f2c0-47f6-8323-848cac55e893.png",
+      "generation_tool": "image_gen",
+      "artist_review": {
+        "opened_actual_image": true,
+        "status": "artist_pass",
+        "notes": "S 단독·하네스·위로 연결된 안전 와이어·도약 전 발 착지 상태. 청색 빗밤 액션 톤 확인. C04 대역 기준 얼굴."
+      },
+      "selected": true,
+      "first_frame": "옥상 끝에서 하네스 대역이 도약 전 무릎 굽힘. 위로 안전 와이어, 아래 촬영 불빛. R은 점프 인물이 아님.",
+      "next_motion": "하네스 대역 도약. 긴 낙하 없음. 다음 컷으로 하드컷."
+    },
+    {
+      "concept_id": "C04",
+      "cut_id": "K01b",
+      "scene_id": "S01",
+      "image_path": "images/C04/K01b.png",
+      "prompt": "Use case: ads-marketing. New separate first frame C04 K01b, native 16:9 photorealistic film-set comedy. The reference image is ONLY the identity, clothing, harness and rainy rooftop action scene of STUNT WOMAN S, who should appear ONLY INSIDE a small filming monitor in this new image. Reveal the crew area under a rain canopy beside the blue-lit nighttime rooftop set. Medium two-shot of original office employee R and director D looking down toward a filming monitor in lower foreground. R is a DIFFERENT Korean woman early 30s: softly rounded face, small rounder eyes, shoulder-length straight black bob worn loose, CREAM blouse beneath charcoal-gray blazer, black trousers. NO harness on R. She holds a thin RED document folder against her waist with her left arm, right hand still lowered, poised to question the scene but not yet pointing. D Korean man mid40s, short scruffy beard, black baseball cap, black T-shirt, olive utility filming vest and single-ear headset. He still holds a RED megaphone raised near his face, looking satisfied at the monitor BEFORE lowering it. The monitor clearly displays S from the reference now safely suspended on a visible wire above the wet rooftop, feet OFF the roof, knees not yet tucked; the monitor woman has tightly tied ponytail, black top, gray blazer and black harness, not R's loose bob or cream blouse. Monitor image is photographic, no UI lettering. Lighting: cool blue rainy background, subtle warm practical canopy key on the two faces. Professional film equipment edges, wet atmosphere, authentic set texture. Keep just these two real foreground people plus S only on monitor, no duplicates in background. No logos, legible text, captions, watermark. This is before R points and before D lowers megaphone.",
+      "reference_images": [
+        "\\\\wsl.localhost\\Ubuntu-24.04\\home\\wooseok\\wsy\\samsung_related\\slide\\AI실행결과발표대회_디자인3종\\storyboards\\2026-10-18_story-reset-v4\\images\\C04\\K01a.png"
+      ],
+      "source_generated_path": "C:\\Users\\wseok\\.codex\\generated_images\\01a14def-34dd-73a2-89ef-a6c63e3cb2ed\\exec-0f5c7bc7-c7d2-476c-b2ef-7444d1d0fe9d.png",
+      "generation_tool": "image_gen",
+      "artist_review": {
+        "opened_actual_image": true,
+        "status": "artist_pass",
+        "notes": "실제 R/D 투숏·모니터 속 S 분리. R 단발/크림블라우스/붉은 파일, S 묶은 머리/하네스. 감독 확성기 아직 높음. 모니터 S만 공중."
+      },
+      "selected": true,
+      "first_frame": "원사례자와 감독이 촬영 모니터를 보는 순간. 감독은 아직 확성기를 들고 있음. 모니터에는 안전 와이어에 매달린 대역. 대역과 원사례자는 다른 사람.",
+      "next_motion": "R이 모니터를 가리켜 정정→감독 확성기 내림→모니터 속 S다리 접음."
+    },
+    {
+      "concept_id": "C04",
+      "cut_id": "K02",
+      "scene_id": "S02",
+      "image_path": "images/C04/K02.png",
+      "prompt": "Use case: ads-marketing. New FIRST FRAME shot C04 K02, native 16:9 photorealistic narrative comedy. Reference image 1 defines S the stunt woman: angular athletic face, tightly tied black ponytail, gray blazer over BLACK top and black safety harness. Reference image 2 defines R the ORIGINAL EMPLOYEE and D director: R loose shoulder-length bob, softer smaller face, CREAM blouse, charcoal blazer, RED thin folder; D black cap, short beard, olive filming vest, black tee, headset, RED megaphone. Preserve all THREE separate identities; R and S are two visibly different women, not clones. Under the same night rooftop crew canopy, time has passed and S has safely returned to a waiting seat. Deep-focus medium-wide composition: R and D in the foreground facing each other. R holds her CLOSED RED file in two hands at waist, before opening to explain. D's red megaphone is LOWERED beside his thigh, not speaking yet. S is clearly visible in the background to their right, seated with a CLOSED SILVER LAPTOP resting flat across her lap, and her CLOSED GREEN notebook beside her on a low equipment case. S's fingers rest on the closed laptop lid, about to open it but not yet doing so. Her harness remains at waist; safety wire disconnected, no hanging cable. Her intent is observant curiosity. Cool wet rooftop visible behind canopy with warm practical light on faces, real equipment cases and simple seats, no excessive crew. This is before she starts following along; no open laptop screen, no typed result. No captions, logos, watermarks, readable notebook text, or collage.",
+      "reference_images": [
+        "\\\\wsl.localhost\\Ubuntu-24.04\\home\\wooseok\\wsy\\samsung_related\\slide\\AI실행결과발표대회_디자인3종\\storyboards\\2026-10-18_story-reset-v4\\images\\C04\\K01a.png",
+        "\\\\wsl.localhost\\Ubuntu-24.04\\home\\wooseok\\wsy\\samsung_related\\slide\\AI실행결과발표대회_디자인3종\\storyboards\\2026-10-18_story-reset-v4\\images\\C04\\K01b.png"
+      ],
+      "source_generated_path": "C:\\Users\\wseok\\.codex\\generated_images\\01a14def-34dd-73a2-89ef-a6c63e3cb2ed\\exec-5983a154-fd9f-4e5e-9bdb-95071770352c.png",
+      "generation_tool": "image_gen",
+      "artist_review": {
+        "opened_actual_image": true,
+        "status": "artist_pass",
+        "notes": "R 붉은 파일 닫힘·D 확성기 내림·S 뒤 의자 닫힌 은색 노트북/초록 노트. 두 여성 얼굴과 머리·상의 구별. 실행 복선 시작 전 상태."
+      },
+      "selected": true,
+      "first_frame": "R파일 열기 전, 감독 확성기 내림. S의자에 닫힌 은색 노트북, 초록 노트 옆.",
+      "next_motion": "R설명 중 S노트북 열어 입력. 감독 눈 커짐."
+    },
+    {
+      "concept_id": "C04",
+      "cut_id": "K03",
+      "scene_id": "S03",
+      "image_path": "images/C04/K03.png",
+      "prompt": "Use case: ads-marketing. New FIRST FRAME C04 K03, native 16:9 photorealistic high-budget absurd film-set comedy. The reference image defines R, the original employee with loose bob, CREAM blouse, charcoal blazer, black trousers and RED folder, and D, male director black cap/beard/olive filming vest/black tee/headset/red megaphone. Keep them; S the stunt woman is OFFSCREEN here. Clear hard change of shooting location to a vast dusty WARM AMBER aircraft hangar movie set, sun beams in haze, monumental ceiling trusses, polished but believable cinematic scale. Static SYMMETRIC WIDE shot: TWO enormous black wheeled archive-data carts piled neatly with anonymous gray storage cases stand TOUCHING SIDE-BY-SIDE at center, still joined, not yet rolling apart. A single unbranded security-actor silhouette waits behind each cart, only TWO dark silhouettes, no army, no weapons, no real organizational badges. D stands off to right holding his RED megaphone DOWN at his side, before raising it to order the carts apart. R stands near center foreground beside an ordinary waist-high stand holding a small OPEN laptop, red file under one arm, her other hand relaxed near the laptop, before pointing. The human-scale laptop contrasts with the ludicrous physical duplication of data transport. Foreground figures must not block reading the two touching carts. R looks unimpressed but not clownish; director eager before action. No supernatural action, no danger, no explosion. No readable text, no logos, no subtitles or watermark. No split screen. This is BEFORE the carts move and before R corrects him.",
+      "reference_images": [
+        "\\\\wsl.localhost\\Ubuntu-24.04\\home\\wooseok\\wsy\\samsung_related\\slide\\AI실행결과발표대회_디자인3종\\storyboards\\2026-10-18_story-reset-v4\\images\\C04\\K02.png"
+      ],
+      "source_generated_path": "C:\\Users\\wseok\\.codex\\generated_images\\01a14def-34dd-73a2-89ef-a6c63e3cb2ed\\exec-8d4655d5-5d8f-4f18-aa1b-d6dc327b6392.png",
+      "generation_tool": "image_gen",
+      "artist_review": {
+        "opened_actual_image": true,
+        "status": "artist_pass",
+        "notes": "따뜻한 격납고 전환, 중앙 자료 카트 두 대 분리 전, 경비 2명, R 작은 노트북 옆·D 확성기 낮음. 로고/무기 없음."
+      },
+      "selected": true,
+      "first_frame": "두 카트가 중앙에 붙어 있고 아직 갈라지지 않음. 감독 확성기 들기 전, R노트북 옆.",
+      "next_motion": "카트 반대 이동→R노트북 지적. 대규모 질주 없음."
+    },
+    {
+      "concept_id": "C04",
+      "cut_id": "K04",
+      "scene_id": "S04",
+      "image_path": "images/C04/K04.png",
+      "prompt": "Use case: ads-marketing. New first frame C04 K04, 16:9 photorealistic Korean film-set comedy. Reference 1 anchors all three faces, wardrobe and props: R original employee loose black bob/cream blouse/gray blazer/RED file, S stunt woman with distinctly different angular athletic face/tight ponytail/black top/gray blazer/black harness/GREEN notebook/silver laptop, D beard/black cap/olive filming vest/red megaphone. Reference 2 anchors warm golden hangar location. At a quiet waiting corner inside that hangar, realistic waist-up medium three-person composition. S is still SITTING at the right on a simple black folding chair, a SILVER laptop OPEN on low work table in front of her, a CLOSED GREEN notebook in her left hand on her lap, right hand near the keyboard. She has been trying a workflow, now looks up attentively at D. The safety harness is still partly visible at her waist, wire disconnected. D stands near center with a small bundle of plain white script sheets held CLOSE TO HIS OWN CHEST, BEFORE extending them to S; red megaphone hangs lowered from his other hand. His expression mildly exasperated at the corrections, deciding to replace the speaker. R stands at left with her closed RED file, watching, no harness and visibly different face/hair from S. Critical starting state: script not handed over, S not standing yet, green notebook not placed on script yet. Warm dusty hangar depth, modest crew equipment, cinematic dramatic side-light softened for faces. No extra people, no legible text on script or screen, no caption, logo or watermark. Do not swap red and green records.",
+      "reference_images": [
+        "\\\\wsl.localhost\\Ubuntu-24.04\\home\\wooseok\\wsy\\samsung_related\\slide\\AI실행결과발표대회_디자인3종\\storyboards\\2026-10-18_story-reset-v4\\images\\C04\\K02.png",
+        "\\\\wsl.localhost\\Ubuntu-24.04\\home\\wooseok\\wsy\\samsung_related\\slide\\AI실행결과발표대회_디자인3종\\storyboards\\2026-10-18_story-reset-v4\\images\\C04\\K03.png"
+      ],
+      "source_generated_path": "C:\\Users\\wseok\\.codex\\generated_images\\01a14def-34dd-73a2-89ef-a6c63e3cb2ed\\exec-0c82db2b-1eab-463a-a9a5-a7d2a871e45f.png",
+      "generation_tool": "image_gen",
+      "artist_review": {
+        "opened_actual_image": true,
+        "status": "artist_pass",
+        "notes": "D 대본 전달 전·S 앉은 상태·닫힌 초록 노트·열린 은색 노트북. R/S 얼굴·헤어·상의·파일색 분리 확인."
+      },
+      "selected": true,
+      "first_frame": "감독 대본 내밀기 전. S노트 든 채 일어서기 전, R붉은 파일 옆.",
+      "next_motion": "대본 받기→자기 노트 얹기."
+    },
+    {
+      "concept_id": "C04",
+      "cut_id": "K05",
+      "scene_id": "S05",
+      "image_path": "images/C04/K05.png",
+      "prompt": "Use case: ads-marketing. New FIRST FRAME C04 K05, 16:9 photorealistic narrative advertising still. Use reference as exact identity and wardrobe lock for all three characters. Focus on S, the PONYTAIL Korean stunt woman with angular athletic face, charcoal gray blazer over BLACK top, visible black safety harness at waist. She is now STANDING in a modest interview-lit corner of the warm hangar, facing camera in a front medium-close shot. She holds her own CLOSED GREEN notebook at lower chest with both hands, fingers positioned ready to open it but it remains CLOSED. A few plain white script sheets are tucked underneath the notebook, held lower; she is choosing her own notebook rather than reading the script. Calm sincere expression, just before speaking. In soft but recognizable background LEFT, R with DIFFERENT softer face and loose bob, cream blouse, charcoal blazer holds a RED folder, standing several steps away before moving in. Background RIGHT, D with black cap, beard, olive filming vest, headset smiles in satisfaction, RED megaphone still near chest, before lowering it at the unexpected line. No director reaction of shock yet. Soft practical interview key with warm hangar architecture faintly behind, grounded professional cinematography, no actors posing as fashion models. No open notebook pages or result diagram yet. Only these three people. No legible text on props, no subtitles, logos or watermarks. Preserve separate identities: S has tied hair/black top/harness, R has loose bob/cream blouse/no harness.",
+      "reference_images": [
+        "\\\\wsl.localhost\\Ubuntu-24.04\\home\\wooseok\\wsy\\samsung_related\\slide\\AI실행결과발표대회_디자인3종\\storyboards\\2026-10-18_story-reset-v4\\images\\C04\\K04.png"
+      ],
+      "source_generated_path": "C:\\Users\\wseok\\.codex\\generated_images\\01a14def-34dd-73a2-89ef-a6c63e3cb2ed\\exec-94d47cfa-15c8-476d-b8a9-fe24968a9fad.png",
+      "generation_tool": "image_gen",
+      "artist_review": {
+        "opened_actual_image": true,
+        "status": "artist_pass",
+        "notes": "S 정면·닫힌 초록 노트·아래 대본, D 만족/R 뒤 관심 상태. 자기 사례 발화 전 첫 프레임."
+      },
+      "selected": true,
+      "first_frame": "S닫힌 노트 열기 전, 감독 만족·R떨어져 있음.",
+      "next_motion": "노트 열기→말→R접근."
+    },
+    {
+      "concept_id": "C04",
+      "cut_id": "K06",
+      "scene_id": "S06",
+      "image_path": "images/C04/K06.png",
+      "prompt": "Use case: ads-marketing. New distinct FIRST FRAME C04 K06. Native 16:9, 50mm same-height medium two-shot, photorealistic restrained cinematic comedy. Reference defines exact two different women and clothing; use R at LEFT with loose shoulder-length bob, cream blouse, charcoal blazer, black trousers, red thin file; S at RIGHT with tighter ponytail and distinct angular face, black top, charcoal blazer, visible black safety harness, black trousers. Director OFFSCREEN. R and S now stand close at same height, comparing their personal records between them. R holds an OPEN RED file facing inward with simple three-card diagram pages, not readable words. S holds her own OPEN GREEN notebook extended slightly BETWEEN both women, with different simple hand-drawn box-and-arrow diagrams on the pages. S has not yet pulled the notebook to her own chest. Their hands each remain on their OWN record, no exchanged papers, clear red-versus-green ownership. R looks at S's page with thoughtful questioning eyebrows, not smiling in approval yet. S calm and assured but not smug, eyes on R. Same warm hangar filming location, soft simple interview light replacing action grandeur, background lights out of focus. Exact start state before question and proud reply, no speech bubbles or captions. No director, no third person, no other folders, no scores, no legible words, logos or watermark. Anatomically normal hands, one separate pair of arms for each person.",
+      "reference_images": [
+        "\\\\wsl.localhost\\Ubuntu-24.04\\home\\wooseok\\wsy\\samsung_related\\slide\\AI실행결과발표대회_디자인3종\\storyboards\\2026-10-18_story-reset-v4\\images\\C04\\K05.png"
+      ],
+      "source_generated_path": "C:\\Users\\wseok\\.codex\\generated_images\\01a14def-34dd-73a2-89ef-a6c63e3cb2ed\\exec-bc01eb90-4979-4dc6-a765-055a4095c450.png",
+      "generation_tool": "image_gen",
+      "artist_review": {
+        "opened_actual_image": true,
+        "status": "artist_pass",
+        "notes": "두 인물 다른 외모 유지, R붉은/S초록 각각 소유, 열린 도식 비교 직전. 대역 노트 당기기 전. 도식 일부 표지 위 표현은 후속 편집 도식으로 취급."
+      },
+      "selected": true,
+      "first_frame": "R붉은 파일, S열린 노트를 아직 둘 사이에 둠.",
+      "next_motion": "비교→S노트 당김→R미소."
+    },
+    {
+      "concept_id": "C04",
+      "cut_id": "K07",
+      "scene_id": "S07",
+      "image_path": "images/C04/K07.png",
+      "prompt": "Use case: ads-marketing. New first frame C04 K07, native 16:9 photorealistic narrative commercial. Reference 1 fixes R and S exact distinct faces/clothing/record ownership, reference 2 fixes director identity/wardrobe. Location is now a simple interview corner within the warm hangar; warm neutral soft key, plain gray-beige backdrop, some background ceiling structure and camera equipment. WIDE full-body composition designed for a forthcoming chair-moving punchline. EXACTLY TWO CHAIRS TOTAL: (1) ONE EMPTY modest wooden interview chair with beige seat at CENTER, positioned facing a camera; this is the sole planned star seat. (2) Director D is currently clearly SITTING in a BLACK FOLDING DIRECTOR CHAIR on screen RIGHT, several feet separated from central chair. D black cap, beard, olive filming vest, black tee/headset, red megaphone resting across his lap; he extends one hand to indicate the single empty central chair. Both women are STANDING on LEFT of central chair: R loose bob, cream blouse/gray blazer holding closed RED file; S high ponytail, black top/gray blazer/black harness holding closed GREEN notebook. Each holds only her own record. S has not handed notebook to R and has not reached for a chair. Director is fully seated, not getting up yet. Keep all legs and both chairs clearly visible with a clean floor gap between chairs, no occlusion hiding seated state. One tripod-mounted movie camera at far foreground edge, no extra chairs anywhere, no crew crowd, no stunts or wires in this corner. No letters, logos, nameplates, captions or watermark. The comedy has not happened yet: two people who have experiences and only one planned interview seat, with the director still occupying the second chair.",
+      "reference_images": [
+        "\\\\wsl.localhost\\Ubuntu-24.04\\home\\wooseok\\wsy\\samsung_related\\slide\\AI실행결과발표대회_디자인3종\\storyboards\\2026-10-18_story-reset-v4\\images\\C04\\K06.png",
+        "\\\\wsl.localhost\\Ubuntu-24.04\\home\\wooseok\\wsy\\samsung_related\\slide\\AI실행결과발표대회_디자인3종\\storyboards\\2026-10-18_story-reset-v4\\images\\C04\\K04.png"
+      ],
+      "source_generated_path": "C:\\Users\\wseok\\.codex\\generated_images\\01a14def-34dd-73a2-89ef-a6c63e3cb2ed\\exec-27ca9fa2-c85f-4680-ab63-a579d4b44db7.png",
+      "generation_tool": "image_gen",
+      "artist_review": {
+        "opened_actual_image": true,
+        "status": "artist_pass",
+        "notes": "중앙 빈 주연석 1개·오른쪽 감독 검정 접이 의자 착석. 총 두 의자만, R/S 기록 소지한 채 서 있음. 의자 이동 전 상태 명료."
+      },
+      "selected": true,
+      "first_frame": "중앙 주연석 한 개. 감독은 오른쪽 검정 접이 의자에 앉아 그 주연석을 가리킴. S는 초록 노트, R은 붉은 파일을 들고 서 있다. 여분 의자는 없다.",
+      "next_motion": "S가 초록 노트를 R에게 맡김→감독이 말하며 반쯤 일어나는 순간 그 의자를 주연석 옆으로 끌어옴→R/S착석. 감독은 선 채 의자 빈자리를 봄."
+    },
+    {
+      "concept_id": "C04",
+      "cut_id": "K08",
+      "scene_id": "S08",
+      "image_path": "images/C04/K08.png",
+      "prompt": "Use case: ads-marketing. New final FIRST FRAME C04 K08, native 16:9 photorealistic cinematic interview-commercial still. Use reference image to keep EXACT same three distinct people, clothing, warm soft interview hangar set, two specific chairs and tripod camera. This is the changed blocking AFTER the chair has been moved: R, the loose-bob Korean woman in cream blouse/gray blazer, now SITS in the original beige wooden interview chair LEFT OF CENTER and holds her CLOSED RED file in her lap. S, the ponytail Korean stunt woman with black top/gray blazer/black harness, now SITS beside her RIGHT OF CENTER in the SAME BLACK FOLDING DIRECTOR CHAIR that the man occupied in reference. S holds her CLOSED GREEN notebook on lap, her own record returned. Chairs together facing camera, two equal story owners, calm ready expressions. The director D is now STANDING at the far RIGHT beside the tripod-mounted camera, FULLY UPRIGHT visible from head to shoes, empty space behind his legs with absolutely NO CHAIR left for him. He holds the red megaphone lowered in one hand, other hand hangs a few centimeters away from the camera pan handle, BEFORE touching it to widen the shot. He has not looked back yet. Make the image a stable wide composition pulled back with TOP 30-35 PERCENT clean softly lit gray-beige backdrop/empty hangar wall for later event title; all people mainly lower two-thirds. Exactly TWO chairs total, both occupied by the women, NO spare chair behind director or off to side, NO new furniture. Emphasize the deadpan physical consequence of his former seat becoming the second star seat. No text, captions, logos, name plates or watermarks. Both notebooks closed, no records opened yet. Preserve face identities and colors, no swapping the women.",
+      "reference_images": [
+        "\\\\wsl.localhost\\Ubuntu-24.04\\home\\wooseok\\wsy\\samsung_related\\slide\\AI실행결과발표대회_디자인3종\\storyboards\\2026-10-18_story-reset-v4\\images\\C04\\K07.png"
+      ],
+      "source_generated_path": "C:\\Users\\wseok\\.codex\\generated_images\\01a14def-34dd-73a2-89ef-a6c63e3cb2ed\\exec-4f3df0ce-8744-485b-aed7-124669d47a2a.png",
+      "generation_tool": "image_gen",
+      "artist_review": {
+        "opened_actual_image": true,
+        "status": "revision_needed",
+        "notes": "의자 이전·두 여성 착석·감독 서기 완성. 단 감독 손이 이미 카메라 손잡이에 닿아 콘티 시작 상태보다 이르므로 손만 수정."
+      },
+      "selected": false,
+      "first_frame": "R/S가 나란히 앉아 각각 닫힌 붉은 파일·초록 노트 소지. S좌석은 감독의 검정 접이 의자. 감독은 서서 카메라 손잡이를 잡기 전. 뒤 빈 의자 없음.",
+      "next_motion": "감독이 좌석 없는 뒤쪽 확인→서서 카메라 손잡이로 두 주연 구도 확보. 두 사람 기록 펼침. 행사명 후편집."
+    },
+    {
+      "concept_id": "C04",
+      "cut_id": "K08",
+      "scene_id": "S08",
+      "image_path": "images/C04/K08_v2.png",
+      "prompt": "Use case: precise-object-edit. Make one tiny first-frame continuity correction to this 16:9 image, preserving all faces, bodies, two occupied chairs, closed red/green records, clothes, backdrop, equipment, lighting and camera composition exactly. The standing director on the RIGHT must NOT YET TOUCH the camera pan handle. Move ONLY the director's arm nearest the camera down so his empty hand rests naturally beside his trouser thigh with a visible air gap from all camera equipment. His other hand continues holding the RED megaphone. Keep him fully standing, two women still seated, no empty chair. Do not alter any other feature. No new text, labels or watermark.",
+      "reference_images": [
+        "\\\\wsl.localhost\\Ubuntu-24.04\\home\\wooseok\\wsy\\samsung_related\\slide\\AI실행결과발표대회_디자인3종\\storyboards\\2026-10-18_story-reset-v4\\images\\C04\\K08.png"
+      ],
+      "source_generated_path": "C:\\Users\\wseok\\.codex\\generated_images\\01a14def-34dd-73a2-89ef-a6c63e3cb2ed\\exec-7c9c74a3-7e81-4e43-8d08-76afcaced6d0.png",
+      "generation_tool": "image_gen",
+      "artist_review": {
+        "opened_actual_image": true,
+        "status": "artist_pass",
+        "notes": "감독 손을 카메라에서 떼어 시작 상태 수정. R목재/S검정 감독 의자 착석, D서 있음, 여분 의자 없음, 상단 무문자 여백·두 기록 닫힘 확인."
+      },
+      "selected": true,
+      "first_frame": "R/S가 나란히 앉아 각각 닫힌 붉은 파일·초록 노트 소지. S좌석은 감독의 검정 접이 의자. 감독은 서서 카메라 손잡이를 잡기 전. 뒤 빈 의자 없음.",
+      "next_motion": "감독이 좌석 없는 뒤쪽 확인→서서 카메라 손잡이로 두 주연 구도 확보. 두 사람 기록 펼침. 행사명 후편집."
+    }
+  ]
+}

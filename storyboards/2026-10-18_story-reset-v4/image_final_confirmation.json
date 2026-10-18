@@ -1,0 +1,30 @@
+{
+  "scope":"새 5안 콘티·채택 첫 프레임 44장 및 수정본 재확인. 영상 제작 범위 아님.",
+  "reviewers":{
+    "A":{
+      "status":"confirmed_no_required_issue",
+      "actual_reopened_pngs":["images/C05/K05_v4.png","images/C05/K06_v2.png","images/C05/K07_v2.png"],
+      "resolved":["IB-005","IC-007"],
+      "confirmed_records":["최신 C05 연락표와 콘티/manifest 경로 일치","IA-006 표부착→촬영→절단","큰3와설명자막 분리","K09소지상태출발"],
+      "observation":"프로젝터 후면연결부 카메라쪽/투사벽 방향 정렬. 꺼짐→투사→꺼짐 및 폰기록 유지. 인물/문벽/기록/차단선 단계 보존, 새결함 없음.",
+      "decision":"44컷 연락표·개별이미지 독립/교차와 실제수정3장 재확인 종합하여 콘티·첫프레임 납품완료 가능. 장르와 웃음구조 구별."
+    },
+    "B":{
+      "status":"confirmed_no_required_issue",
+      "actual_reopened_pngs":["images/C05/K05_v4.png","images/C05/K06_v2.png","images/C05/K07_v2.png"],
+      "resolved":["IB-005","IC-007","IB-006","IC-009"],
+      "confirmed_records":["IA-006 표부착→사진→절단","IC-008 큰3+화면설명 분리","채택 경로 일치"],
+      "observation":"후면 단자가 관객쪽, 광축 수정. K05 OFF/미연결→K06 ON/연결/선미연결→K07 OFF/케이블분리/선연결 유지. 문/투사면/인물/기록배치 유지.",
+      "decision":"앞선44장 독립·교차와 수정3장 재확인을 합쳐 콘티·컷별첫프레임 납품완료 가능."
+    },
+    "C":{
+      "status":"confirmed_no_required_issue",
+      "actual_reopened_pngs":["images/C05/K05_v4.png","images/C05/K06_v2.png","images/C05/K07_v2.png"],
+      "resolved":["IB-005","IC-007"],
+      "confirmed_records":["storyboards.json와scene_manifest.json 새경로 일치"],
+      "observation":"프로젝터 본체방향 수정, 빈벽/미연결→켜진도식/폰연결/선미연결→빈벽/폰기록존속/케이블분리/선연결 유지. 문/테이블/인물관계 보존.",
+      "decision":"44장 독립열람, A/B교차, 교체본3장 실제 재확인 종합하여 요청범위 완료가능. 새필수문제없음."
+    }
+  },
+  "remaining_outside_scope":"도식 합성·번호/행사명 조판·동작 호흡·음성·립싱크·영상 렌더링은 미실행. 사용자 취향 승인·관객 반응을 뜻하지 않음."
+}

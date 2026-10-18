@@ -1,0 +1,1588 @@
+{
+  "run_id": "2026-10-18_story-reset-v4",
+  "version": "director-draft-1",
+  "event_facts": {
+    "name": "2026년 품질팀 AI 실행 결과 발표 대회",
+    "confirmed": "개최 사실·행사명·AI 실행 경험과 활용 사례 공유 목적",
+    "unknown": [
+      "정확한 일시",
+      "장소",
+      "참석·추천·신청 방법",
+      "실제 발표자·과제",
+      "성과 수치",
+      "상금"
+    ],
+    "source_note": "AGENTS.md, team/brief.toml, shared_brief.json 직접 열람. 행사 원자료 교차 확인은 공유 브리프 연구 담당의 검증 기록을 따름."
+  },
+  "assumptions": {
+    "audience": "품질팀 내부 시청 가정",
+    "ratio": "16:9 제작 제안",
+    "max_seconds": 60,
+    "fiction": "모든 인물·작업 도식·장르 사건은 창작. 실제 성과를 발명하지 않음.",
+    "scope": "기존 완성 C01 유지. 신규 5안 기획 초안. 영상·음원·이미지 생성 및 Flow 실행 없음.",
+    "text": "행사명·번호·도식 문자는 후편집. 각 편집 컷마다 독립적인 동작 시작 전 첫 프레임 PNG 필요."
+  },
+  "recommendations": {
+    "attendance": {
+      "concept_id": "C03",
+      "reason": "성공과 시행착오 기록을 사람이 직접 챙겨 가는 선택이 참석 제안과 이어지고 두 번째 배송의 시각적 보상이 크다."
+    },
+    "opening": {
+      "concept_id": "C04",
+      "reason": "대역이 실행 경험을 통해 주인공 자리를 얻는 결말이 실제 발표자들의 이야기를 여는 행사 시작과 맞는다."
+    },
+    "alternative_opening": {
+      "concept_id": "C02",
+      "reason": "실패 복원이라는 목표 반전과 첫 슬라이드 문장이 선명하다. 행사 전체를 실패담으로 한정하지 않도록 소개 문구를 주의한다."
+    }
+  },
+  "director_notes": {
+    "source_scope": [
+      "AGENTS.md",
+      "team/brief.toml",
+      "shared_brief.json",
+      "총괄 선정 카드와 추가 메시지"
+    ],
+    "not_verified": [
+      "광고 원본 전편 연속 시청·음성 청취",
+      "관객 실제 웃음 반응",
+      "후속 생성 성공률"
+    ],
+    "planning_only": true,
+    "first_frame_count": 43,
+    "creative_risks": [
+      "C01: 계약 조건을 두 귀환 안에 읽혀야 하며 UI 설명을 길게 하지 않는다.",
+      "C02: 실제 첫 실험을 막아서 경험이 사라진다는 인과 유지. 기록 삭제 때문으로 보이지 않게 한다.",
+      "C03: 사무실 배송 두 와이드가 핵심. 화면 단서는 3초 이내.",
+      "C04: 대역의 입력 복선이 흐리면 반전이 갑작스럽다. 두 번째 세트의 규모보다 역할 우선.",
+      "C05: 가장 절차적인 안. 통제선 지리와 투사 소멸을 한눈에 읽혀야 하고 복잡한 매듭으로 대체하면 안 된다."
+    ]
+  },
+  "concepts": [
+    {
+      "id": "C01",
+      "title": "계약이 끝나지 않는 악마",
+      "purpose": "참석 독려",
+      "audience": "품질팀 내부 사전 홍보 시청 가정",
+      "format": "오컬트 계약극에서 발표 섭외극으로 바뀌는 코미디",
+      "logline": "완성 결과 하나면 끝날 줄 알았던 악마가 직원이 스스로 해낼 때까지 퇴근하지 못한다.",
+      "core_message": "결과뿐 아니라 직접 해낼 수 있게 된 과정과 판단을 나눈다.",
+      "duration_seconds": 50,
+      "aspect_ratio": "16:9",
+      "bgrade_intensity": 4,
+      "difficulty": "높음",
+      "difficulty_reason": "붉은 계약선과 순간 복귀, 인물 연속성이 필요하다. 복귀는 실제 당김 대신 문 앞과 의자의 매치컷으로 대체 가능.",
+      "hook": "작은 업무 부탁을 위해 진짜 악마와 엄숙하게 계약한다.",
+      "comedy_engine": "두 번의 강제 귀환과 적응 → 직원의 자립으로 해방 → 악마가 자발적으로 발표 영업을 시작.",
+      "three_act": "① 결과만 주고 떠나려는 악마 ② 다른 자료·예외 조건으로 두 번 귀환 ③ 판단을 배우자 계약은 풀리지만 악마가 발표자로 남는다.",
+      "event_information": "AI 실행 결과와 활용 방법·경험을 공유하는 행사. 확정된 행사명만 노출.",
+      "final_action": "악마가 새 명함을 내밀며 발표 시간을 묻는다. 마지막에 경험을 함께 들어보자는 참석 제안.",
+      "difference": "한 공간의 관계와 권력 역전. 규모·군중보다 탈출하려는 악마의 감정과 적응으로 웃긴다.",
+      "visual_style": "청회색 비 오는 고층 야경, 황동 탁상등, 와인색 정장, 붉은 계약선. 진지한 오컬트 영화 조명과 거래극 근접 연기.",
+      "characters": [
+        {
+          "id": "E",
+          "description": "30대 한국인 여성 직원. 검은 단발, 아이보리 셔츠, 네이비 슬랙스. 차분하고 질문에 적극적."
+        },
+        {
+          "id": "D",
+          "description": "40대 한국인 남성 모습 악마. 뒤로 정돈한 짧은 검은 머리, 짧은 수염, 작은 검정 뿔 두 개. 와인색 정장·검정 셔츠·구두. 자신감→피로→영업 의욕. AI를 의인화한 인물이 아님."
+        },
+        {
+          "id": "B",
+          "description": "30대 한국인 남성 동료. 둥근 안경, 회색 가디건·흰 셔츠. K07부터 등장."
+        }
+      ],
+      "continuity": "창 왼쪽, 출입문 오른쪽 뒤, 책상 중앙. 직원 왼쪽·악마 방문 의자 오른쪽. 검정 계약 파일 위 계약서. 선은 계약서에서 악마 오른손목으로 연결되어 두 질문 때만 팽팽, 자립 실행 뒤 소멸. 회색 자료 세 장·빨간 조건 카드의 허구 UI는 후편집.",
+      "shots": [
+        {
+          "start": 0,
+          "end": 5,
+          "screen": "천둥 치는 창 앞, 악마가 계약서를 밀고 직원은 작은 업무 자료를 내민다. 서명으로 계약한다.",
+          "framing": "직원 어깨 너머 낮은 50mm 투숏. 계약서에서 악마 눈으로 짧은 틸트.",
+          "subtitle": "없음. 계약서 글자는 후편집 필요 없음.",
+          "dialogue": "E: “이 일을 제가 해낼 수 있게 해주세요.”",
+          "sound": "낮은 현악 드론, 펜 뚜껑 소리.",
+          "transition": "펜 끝이 종이에 닿는 순간 결과 카드로 매치컷.",
+          "intent": "엄숙한 거래와 일상적인 부탁의 크기 차이. 계약 조건은 직원의 자립.",
+          "first_frame": "두 사람이 책상 양편에 앉고 악마 앞에 미서명 계약서·검정 펜. 붉은 선·완성 결과는 아직 없음.",
+          "next_motion": "종이를 밀고 직원이 펜을 든다. 낮게 접근.",
+          "continuity_in": "첫 설정. 다른 인물 없음.",
+          "continuity_out": "서명 완료. 선은 다음 컷부터 느슨하게.",
+          "reference_cut": "기준 이미지: 외부 인물 참조 없음",
+          "id": "K01",
+          "scene_id": "S01",
+          "duration": 5,
+          "image_file": "images/C01/K01.png"
+        },
+        {
+          "start": 5,
+          "end": 10,
+          "screen": "악마가 손가락을 튕기자 정돈된 결과가 생긴다. 직원이 확인하는 동안 악마가 일어나 문으로 간다.",
+          "framing": "책상 3/4 미디엄에서 오른쪽 팬.",
+          "subtitle": "후편집: 정돈된 결과 세 칸. 성과 수치 없음.",
+          "dialogue": "D: “됐습니다.”",
+          "sound": "손가락 튕김, 해결된 화음, 문손잡이.",
+          "transition": "직원 손이 새 자료를 집는 인서트.",
+          "intent": "악마는 결과 제공만으로 계약이 끝난다고 오판.",
+          "first_frame": "악마가 서려는 순간 손가락은 튕기기 전. 화면은 원자료뿐. 계약선은 느슨함.",
+          "next_motion": "결과 후편집→악마 문 이동→직원 새 자료에 시선.",
+          "continuity_in": "계약서·직원 의자 위치 고정.",
+          "continuity_out": "악마 문 앞, 첫 결과 화면 유지.",
+          "reference_cut": "C01/K01",
+          "id": "K02",
+          "scene_id": "S02",
+          "duration": 5,
+          "image_file": "images/C01/K02.png"
+        },
+        {
+          "start": 10,
+          "end": 16,
+          "screen": "새 자료를 적용하자 결과 한 칸이 빈다. 질문에 붉은 선이 당겨지고 악마는 문 앞에서 사라졌다가 방문 의자에 착석한다.",
+          "framing": "빈 칸 1초 인서트, 문 앞 미디엄, 의자 휩팬 매치컷.",
+          "subtitle": "후편집: 빈 칸 하나·새 조건 카드.",
+          "dialogue": "E: “이때는요?”",
+          "sound": "음악 끊김, 선 징, 의자 쿵. 복귀 뒤 0.5초 음악 무음, 비 유지.",
+          "transition": "악마가 소매를 정리하며 다음 컷.",
+          "intent": "첫 강제 귀환으로 위엄과 체면이 무너짐.",
+          "first_frame": "직원은 새 빨간 카드를 화면 옆에 들고 악마는 열린 문 앞. 선은 아직 느슨하고 방문 의자 비어 있음.",
+          "next_motion": "질문 뒤 선 긴장→문 앞/의자 매치컷. 긴 인체 당김 금지.",
+          "continuity_in": "오른쪽 문, 새 자료만 바뀜.",
+          "continuity_out": "악마 방문 의자 복귀·선 느슨.",
+          "reference_cut": "C01/K02",
+          "id": "K03",
+          "scene_id": "S03",
+          "duration": 6,
+          "image_file": "images/C01/K03.png"
+        },
+        {
+          "start": 16,
+          "end": 22,
+          "screen": "악마가 세 자료를 작은 묶음으로 나눠 보여준다. 직원이 따라 성공하자 악마가 몰래 뒤로 물러난다.",
+          "framing": "손과 얼굴 미디엄. 뒤쪽 악마 탈출 시도도 보이는 깊은 초점.",
+          "subtitle": "후편집: 자료 묶음 분리만.",
+          "dialogue": "D: “나눠서 넣으시면 됩니다.”",
+          "sound": "종이·비. 몰래 나갈 때 작은 피치카토 두 음.",
+          "transition": "직원이 예외 빨간 카드를 발견하는 시선.",
+          "intent": "설명 이후에도 나가려는 욕망이 이어짐.",
+          "first_frame": "둘 다 책상. 악마가 아직 묶지 않은 회색 카드 세 장을 가리킴. 직원 손은 키보드 위.",
+          "next_motion": "자료 분리→직원 실행→악마 뒤로 두 걸음.",
+          "continuity_in": "소매만 조금 흐트러짐.",
+          "continuity_out": "두 번째 탈출 시도, 예외 카드 남음.",
+          "reference_cut": "C01/K03",
+          "id": "K04",
+          "scene_id": "S04",
+          "duration": 6,
+          "image_file": "images/C01/K04.png"
+        },
+        {
+          "start": 22,
+          "end": 28,
+          "screen": "직원이 빨간 조건 카드를 들고 묻는다. 두 번째 귀환 때 악마는 충격을 예상해 재킷을 정리하고 스스로 반듯하게 착석한다.",
+          "framing": "직원 측면 클로즈업→악마 정면 미디엄. 귀환은 짧게.",
+          "subtitle": "없음.",
+          "dialogue": "E: “왜 이건 따로예요?”",
+          "sound": "같은 징 소리, 더 작은 쿵. 악마가 0.3초 눈을 감음.",
+          "transition": "악마가 직원 쪽으로 몸을 돌림.",
+          "intent": "반복을 공포가 아닌 적응으로 변주.",
+          "first_frame": "직원이 빨간 카드를 회색 묶음 옆에 듦. 악마는 문손잡이 앞에서 재킷을 미리 잡음. 아직 복귀 전.",
+          "next_motion": "선 긴장→착석. 예상한 옷 정리가 펀치.",
+          "continuity_in": "귀환은 이 두 번으로 끝.",
+          "continuity_out": "악마 설명 준비.",
+          "reference_cut": "C01/K04",
+          "id": "K05",
+          "scene_id": "S05",
+          "duration": 6,
+          "image_file": "images/C01/K05.png"
+        },
+        {
+          "start": 28,
+          "end": 35,
+          "screen": "악마가 다른 조건 표시를 나란히 짚는다. 직원이 먼저 빨간 카드를 따로 분리해 실행한다. 빈 칸이 채워지고 악마 손목의 선이 풀린다.",
+          "framing": "측면 투숏. 조건 비교 1.5초·실행 2초·손목 1초.",
+          "subtitle": "후편집: 다른 조건 아이콘 두 개, 수치 없음.",
+          "dialogue": "D: “조건이 다르니까요.” E: “그럼, 이건 따로.”",
+          "sound": "드론 사라지고 공조음. 작은 실 끊김 소리.",
+          "transition": "자유로운 손목 확인→문 쪽 컷.",
+          "intent": "직원이 판단을 얻었을 때 계약이 끝남.",
+          "first_frame": "두 조건을 악마가 가리킴. 직원은 아직 카드를 옮기지 않았고 빈 칸·선이 남아 있음.",
+          "next_motion": "직원 스스로 분리→실행 결과→선 소멸.",
+          "continuity_in": "동일 예외 자료, 긴 기술 설명 없음.",
+          "continuity_out": "직원 자립, 선 완전 소멸.",
+          "reference_cut": "C01/K05",
+          "id": "K06",
+          "scene_id": "S06",
+          "duration": 7,
+          "image_file": "images/C01/K06.png"
+        },
+        {
+          "start": 35,
+          "end": 40,
+          "screen": "악마가 손목을 털며 나간다. 문 옆 동료가 경험 기록을 보며 말하자 악마의 발이 멈춘다.",
+          "framing": "문틀 오버숄더, 전경 악마 발·배경 직원과 동료.",
+          "subtitle": "없음.",
+          "dialogue": "B: “이 얘기, 다른 분들도 들으면…”",
+          "sound": "구두 발소리만 멎고 비 유지.",
+          "transition": "악마가 돌아서는 동작 컷.",
+          "intent": "강제로 남던 인물이 기회에 자발적으로 멈춤.",
+          "first_frame": "악마 한 발이 문턱을 넘기려 하고 동료는 막 도착. 손목에 선 없음.",
+          "next_motion": "대사에 발 멈춤→천천히 고개 회전.",
+          "continuity_in": "동료 첫 등장, 직원 책상 유지.",
+          "continuity_out": "악마가 명함 영업을 선택.",
+          "reference_cut": "C01/K06",
+          "id": "K07",
+          "scene_id": "S07",
+          "duration": 5,
+          "image_file": "images/C01/K07.png"
+        },
+        {
+          "start": 40,
+          "end": 45,
+          "screen": "악마가 안주머니에서 새 명함을 꺼내 직원에게 내민다. 계약 때보다 밝고 정중한 영업 미소.",
+          "framing": "명함과 얼굴이 함께 보이는 낮은 미디엄 클로즈업.",
+          "subtitle": "명함 글자·연락처 없음.",
+          "dialogue": "D: “발표 시간은 얼마나 됩니까.”",
+          "sound": "당당한 브라스 한 음. 상대 반응 0.7초 음악 무음.",
+          "transition": "명함 받는 손을 마지막 컷에 매치.",
+          "intent": "위협하던 거래자가 발표 기회를 영업하는 최종 반전.",
+          "first_frame": "악마가 돌아와 안주머니에 손을 넣기 직전. 명함은 아직 안 나옴. 직원 손 비어 있음.",
+          "next_motion": "명함 한 번 꺼내 내밀고 받음. 마술 없음.",
+          "continuity_in": "선 없는 손목·같은 정장.",
+          "continuity_out": "새 관계 성립, 추가 귀환 없음.",
+          "reference_cut": "C01/K01",
+          "id": "K08",
+          "scene_id": "S08",
+          "duration": 5,
+          "image_file": "images/C01/K08.png"
+        },
+        {
+          "start": 45,
+          "end": 50,
+          "screen": "닫힌 계약 파일 옆 경험 기록 위에 직원이 명함을 내려놓는다. 뒤 악마는 발표 전처럼 재킷을 여민다.",
+          "framing": "전경 기록 근접·배경 악마 흐림. 오른쪽 45% 어두운 여백.",
+          "subtitle": "45~50초 고정: “2026년 품질팀 / AI 실행 결과 발표 대회” / “결과를 만든 방법까지, 함께 들어보세요.”",
+          "dialogue": "없음.",
+          "sound": "종이 소리, 짧은 엔딩 화음, 낮은 빗소리.",
+          "transition": "행사명 5초 후 종료.",
+          "intent": "계약이 닫히고 경험 공유의 초대가 남음.",
+          "first_frame": "닫힌 검정 파일·경험 기록·손에 든 흰 명함. 배경 악마는 재킷을 여미기 전. 오른쪽 글자 없는 여백.",
+          "next_motion": "명함 내려놓기만. 텍스트 후편집.",
+          "continuity_in": "K08 명함 동일·선 없음.",
+          "continuity_out": "완결. 기존 완성 C01과 별도 신규 안.",
+          "reference_cut": "C01/K08",
+          "id": "K09",
+          "scene_id": "S09",
+          "duration": 5,
+          "image_file": "images/C01/K09.png"
+        }
+      ],
+      "scenes": [
+        {
+          "scene_id": "S01",
+          "linked_cuts": [
+            "K01"
+          ],
+          "representative_frame": "두 사람이 책상 양편에 앉고 악마 앞에 미서명 계약서·검정 펜. 붉은 선·완성 결과는 아직 없음.",
+          "continuity": "첫 설정. 다른 인물 없음. / 서명 완료. 선은 다음 컷부터 느슨하게.",
+          "aspect_ratio": "16:9",
+          "image_file": "images/C01/K01.png",
+          "motion_camera_notes": "종이를 밀고 직원이 펜을 든다. 낮게 접근."
+        },
+        {
+          "scene_id": "S02",
+          "linked_cuts": [
+            "K02"
+          ],
+          "representative_frame": "악마가 서려는 순간 손가락은 튕기기 전. 화면은 원자료뿐. 계약선은 느슨함.",
+          "continuity": "계약서·직원 의자 위치 고정. / 악마 문 앞, 첫 결과 화면 유지.",
+          "aspect_ratio": "16:9",
+          "image_file": "images/C01/K02.png",
+          "motion_camera_notes": "결과 후편집→악마 문 이동→직원 새 자료에 시선."
+        },
+        {
+          "scene_id": "S03",
+          "linked_cuts": [
+            "K03"
+          ],
+          "representative_frame": "직원은 새 빨간 카드를 화면 옆에 들고 악마는 열린 문 앞. 선은 아직 느슨하고 방문 의자 비어 있음.",
+          "continuity": "오른쪽 문, 새 자료만 바뀜. / 악마 방문 의자 복귀·선 느슨.",
+          "aspect_ratio": "16:9",
+          "image_file": "images/C01/K03.png",
+          "motion_camera_notes": "질문 뒤 선 긴장→문 앞/의자 매치컷. 긴 인체 당김 금지."
+        },
+        {
+          "scene_id": "S04",
+          "linked_cuts": [
+            "K04"
+          ],
+          "representative_frame": "둘 다 책상. 악마가 아직 묶지 않은 회색 카드 세 장을 가리킴. 직원 손은 키보드 위.",
+          "continuity": "소매만 조금 흐트러짐. / 두 번째 탈출 시도, 예외 카드 남음.",
+          "aspect_ratio": "16:9",
+          "image_file": "images/C01/K04.png",
+          "motion_camera_notes": "자료 분리→직원 실행→악마 뒤로 두 걸음."
+        },
+        {
+          "scene_id": "S05",
+          "linked_cuts": [
+            "K05"
+          ],
+          "representative_frame": "직원이 빨간 카드를 회색 묶음 옆에 듦. 악마는 문손잡이 앞에서 재킷을 미리 잡음. 아직 복귀 전.",
+          "continuity": "귀환은 이 두 번으로 끝. / 악마 설명 준비.",
+          "aspect_ratio": "16:9",
+          "image_file": "images/C01/K05.png",
+          "motion_camera_notes": "선 긴장→착석. 예상한 옷 정리가 펀치."
+        },
+        {
+          "scene_id": "S06",
+          "linked_cuts": [
+            "K06"
+          ],
+          "representative_frame": "두 조건을 악마가 가리킴. 직원은 아직 카드를 옮기지 않았고 빈 칸·선이 남아 있음.",
+          "continuity": "동일 예외 자료, 긴 기술 설명 없음. / 직원 자립, 선 완전 소멸.",
+          "aspect_ratio": "16:9",
+          "image_file": "images/C01/K06.png",
+          "motion_camera_notes": "직원 스스로 분리→실행 결과→선 소멸."
+        },
+        {
+          "scene_id": "S07",
+          "linked_cuts": [
+            "K07"
+          ],
+          "representative_frame": "악마 한 발이 문턱을 넘기려 하고 동료는 막 도착. 손목에 선 없음.",
+          "continuity": "동료 첫 등장, 직원 책상 유지. / 악마가 명함 영업을 선택.",
+          "aspect_ratio": "16:9",
+          "image_file": "images/C01/K07.png",
+          "motion_camera_notes": "대사에 발 멈춤→천천히 고개 회전."
+        },
+        {
+          "scene_id": "S08",
+          "linked_cuts": [
+            "K08"
+          ],
+          "representative_frame": "악마가 돌아와 안주머니에 손을 넣기 직전. 명함은 아직 안 나옴. 직원 손 비어 있음.",
+          "continuity": "선 없는 손목·같은 정장. / 새 관계 성립, 추가 귀환 없음.",
+          "aspect_ratio": "16:9",
+          "image_file": "images/C01/K08.png",
+          "motion_camera_notes": "명함 한 번 꺼내 내밀고 받음. 마술 없음."
+        },
+        {
+          "scene_id": "S09",
+          "linked_cuts": [
+            "K09"
+          ],
+          "representative_frame": "닫힌 검정 파일·경험 기록·손에 든 흰 명함. 배경 악마는 재킷을 여미기 전. 오른쪽 글자 없는 여백.",
+          "continuity": "K08 명함 동일·선 없음. / 완결. 기존 완성 C01과 별도 신규 안.",
+          "aspect_ratio": "16:9",
+          "image_file": "images/C01/K09.png",
+          "motion_camera_notes": "명함 내려놓기만. 텍스트 후편집."
+        }
+      ]
+    },
+    {
+      "id": "C02",
+      "title": "그 실수, 지우지 마세요",
+      "purpose": "행사 소개·현장 도입",
+      "audience": "발표 대회 시작 직전 현장 시청 가정",
+      "format": "실패 복구 작전으로 뒤집히는 시간여행 스릴러",
+      "logline": "실패를 막으러 온 미래의 내가, 그 실패에서 배운 방법까지 사라지자 과거와 함께 실패를 되살린다.",
+      "core_message": "시행착오와 수정 과정까지 있어야 실제 실행 경험이 된다.",
+      "duration_seconds": 50,
+      "aspect_ratio": "16:9",
+      "bgrade_intensity": 5,
+      "difficulty": "높음",
+      "difficulty_reason": "동일 얼굴 두 인물·시간 균열·노트 소멸과 복원이 필요하다. 분할 구도와 어깨 너머 컷, 노트/UI 후편집으로 단순화 가능.",
+      "hook": "미래의 내가 첫 실행을 몸으로 막는다. 성공을 보장하는 구원자처럼 등장.",
+      "comedy_engine": "실패 방지→실패 복원으로 목표 역전. 잘된 결과에 절망하고 틀린 결과에 환호.",
+      "three_act": "① 최초 실패 실험을 막음 ② 그때 얻을 수정 노트가 사라져 원래의 실패 복원 ③ 복구한 실패를 보호하고 발표 첫 장으로 사용.",
+      "event_information": "AI 실행 사례·활용 경험 공유. 행사 전체가 실패담이라는 뜻은 아니며 허구 사례 한 개의 시작.",
+      "final_action": "미래는 삭제를 막고 과거는 실패 화면을 첫 발표 슬라이드로 연다.",
+      "difference": "시간 인과 자체가 목표를 뒤집으며 감정과 편집 속도의 반전이 가장 큼.",
+      "visual_style": "작은 회색 실험 사무실·청록 시간 균열. 중반 손과 얼굴의 다급한 근접, 마지막 안정된 발표 구도.",
+      "characters": [
+        {
+          "id": "P",
+          "description": "30대 한국인 남성. 둥근 얼굴·짧은 검정 머리·얇은 은색 안경, 연회색 니트·흰 셔츠·검정 바지. 과거의 나."
+        },
+        {
+          "id": "F",
+          "description": "P와 동일 얼굴·안경·머리. 나이 분장 없이 남색 코트를 같은 회색 니트 위에 입음. 주황 스프링 수정 노트. 초반 자신감, 중반 다급함, 끝 과잉 보호."
+        }
+      ],
+      "continuity": "책상 왼쪽, 균열 오른쪽 벽 한 곳. 주황 노트는 미래가 처음부터 소지. 첫 실험을 실제로 막은 뒤에만 붉은 수정 화살표가 사라지고 원래 실패 복원 뒤 돌아옴. 기록 삭제가 시간 변경의 원인이 아님. 도식·노트 필기·UI는 후편집.",
+      "shots": [
+        {
+          "start": 0,
+          "end": 5,
+          "screen": "첫 실행을 누르려는 손 옆에 균열이 열리고 미래가 등장해 과거 손목을 멈춘다.",
+          "framing": "키보드 가까운 낮은 투숏. 막은 뒤 동일 얼굴 공개.",
+          "subtitle": "없음.",
+          "dialogue": "F: “그거 하지 마. 망해.”",
+          "sound": "전자 펄스와 균열음, 손목 잡는 순간 박자 끊김.",
+          "transition": "미래 팔의 노트로 시선 컷.",
+          "intent": "미래 구원자의 등장을 기대하게 함.",
+          "first_frame": "과거 손은 실행 키 바로 위, 오른쪽 벽에 가는 파란 균열과 미래 어깨 일부. 아직 접촉 전.",
+          "next_motion": "미래가 한 걸음 나와 손목 멈춤. 접촉 짧게.",
+          "continuity_in": "첫 시점, 노트는 미래 오른팔 아래.",
+          "continuity_out": "첫 실험 미실행.",
+          "reference_cut": "기준 이미지: 외부 인물 참조 없음",
+          "id": "K01",
+          "scene_id": "S01",
+          "duration": 5,
+          "image_file": "images/C02/K01.png"
+        },
+        {
+          "start": 5,
+          "end": 10,
+          "screen": "미래가 안심하며 펼친 노트에서 붉은 화살표와 수정 메모가 사라진다. 배경 실행 버튼은 눌리지 않았다.",
+          "framing": "노트와 미래 얼굴 근접. 끝 1초 누르지 않은 손 포함.",
+          "subtitle": "후편집: 수정 화살표 순차 소멸.",
+          "dialogue": "F: “내 수정 방법이…”",
+          "sound": "작은 역재생 음, 0.7초 음악 정적과 공조음.",
+          "transition": "미래가 과거 손을 키보드 쪽으로 돌리며 컷.",
+          "intent": "실패 경험을 없애면 수정 경험도 사라지는 인과.",
+          "first_frame": "노트 도형과 수정 화살표가 아직 온전함. 미래 안도 표정.",
+          "next_motion": "메모 소멸→표정 당황. 노트 효과 후편집.",
+          "continuity_in": "실행 안 함. 기록을 찢거나 삭제하지 않음.",
+          "continuity_out": "수정 내용 대부분 소멸.",
+          "reference_cut": "C02/K01",
+          "id": "K02",
+          "scene_id": "S02",
+          "duration": 5,
+          "image_file": "images/C02/K02.png"
+        },
+        {
+          "start": 10,
+          "end": 15,
+          "screen": "미래가 이번엔 과거 손을 키보드에 올려놓고 실행을 재촉한다. 과거가 몸을 뒤로 빼며 바라본다.",
+          "framing": "과거 얼굴 중심 35mm 투숏, 지시 손 크게.",
+          "subtitle": "없음.",
+          "dialogue": "F: “다시. 방금처럼.” P: “방금 말렸잖아요.”",
+          "sound": "키보드 스침, 대사 뒤 0.4초 표정 호흡.",
+          "transition": "실행 누르는 손으로 연결.",
+          "intent": "같은 인물의 명령이 정반대로 바뀜.",
+          "first_frame": "미래는 빈 노트를 들고 과거 손을 안내하기 전. 과거는 뒤로 젖혀짐.",
+          "next_motion": "재촉→황당한 반응→누름.",
+          "continuity_in": "주황 노트, 코트/니트 구별.",
+          "continuity_out": "실패 복원 시작.",
+          "reference_cut": "C02/K02",
+          "id": "K03",
+          "scene_id": "S03",
+          "duration": 5,
+          "image_file": "images/C02/K03.png"
+        },
+        {
+          "start": 15,
+          "end": 21,
+          "screen": "결과가 정돈되어 나오자 과거는 웃고 미래는 절망한다. 미래가 원래의 거친 자료 묶음을 다시 가져온다.",
+          "framing": "결과 도식 1초 뒤 미래 클로즈업, 과거 미소가 멎음.",
+          "subtitle": "후편집: 가지런한 네 칸, 점수 없음.",
+          "dialogue": "F: “아니, 더 틀리게 나왔었어!”",
+          "sound": "성공음 직후 불협화음. 미래의 절망과 과거의 미소 대비.",
+          "transition": "거친 자료가 책상에 놓이는 소리로 전환.",
+          "intent": "성공이 재난이 되는 감정 반전.",
+          "first_frame": "실행 키 위 과거 손, 기대하며 화면 보는 미래. 화면은 결과 전.",
+          "next_motion": "결과 등장→미래 절망→과거 미소 멎음.",
+          "continuity_in": "노트는 왼쪽 모서리에 펼침.",
+          "continuity_out": "원래 어수선한 자료 복구 필요.",
+          "reference_cut": "C02/K03",
+          "id": "K04",
+          "scene_id": "S04",
+          "duration": 6,
+          "image_file": "images/C02/K04.png"
+        },
+        {
+          "start": 21,
+          "end": 27,
+          "screen": "과거가 빼려는 중복 자료를 미래가 다시 넣는다. 반듯하게 정리하려는 손과 원래 어수선함을 지키는 손이 두 번 충돌한다.",
+          "framing": "탑숏. 회색 자료 세 장·같은 문양 카드 두 장.",
+          "subtitle": "카드는 원·줄무늬 도형, 읽을 문장 없음.",
+          "dialogue": "F: “그것도 있었어.” P: “이건 두 장인데?”",
+          "sound": "종이 탁탁, 짧은 손 부딪힘 두 번. 3박 단위 짧은 리듬.",
+          "transition": "중복 자료를 얹는 순간 실행 화면 컷.",
+          "intent": "실패를 원형 복원하려는 역설을 손의 목표 충돌로 보여줌.",
+          "first_frame": "회색 소매 손이 같은 문양 카드 한 장을 빼려 하고 남색 소매 손은 아직 닿지 않음.",
+          "next_motion": "미래가 중복 카드를 되돌려 넣음. 파일 대응은 후편집 도식.",
+          "continuity_in": "소매로 손 주인 구별, 노트 위쪽 고정.",
+          "continuity_out": "원래 중복 순서 복구.",
+          "reference_cut": "C02/K04",
+          "id": "K05",
+          "scene_id": "S05",
+          "duration": 6,
+          "image_file": "images/C02/K05.png"
+        },
+        {
+          "start": 27,
+          "end": 33,
+          "screen": "어긋난 결과가 나타나고 노트의 수정 화살표도 돌아온다. 미래가 주먹을 쥐며 환호하고 과거는 둘을 번갈아 본다.",
+          "framing": "노트·모니터 함께 보이는 3/4 숏, 얼굴 짧은 푸시인.",
+          "subtitle": "후편집: 어긋난 결과·수정 화살표 복원.",
+          "dialogue": "F: “그거야!”",
+          "sound": "실패 알림 뒤 승리 팡파르 1초, 황당한 얼굴에서 음악 낮춤.",
+          "transition": "과거 손이 닫기 키로 이동하는 시선.",
+          "intent": "실패에 환호하는 보상과 시간 인과의 해소.",
+          "first_frame": "모니터는 실행 대기, 노트 수정 영역 비어 있음. 둘이 기대하며 나란히 섬.",
+          "next_motion": "잘못된 결과→노트 복원→환호 순서.",
+          "continuity_in": "실패 조건 복원 이후에만 노트 복구.",
+          "continuity_out": "노트 온전, 실패 결과 유지.",
+          "reference_cut": "C02/K05",
+          "id": "K06",
+          "scene_id": "S06",
+          "duration": 6,
+          "image_file": "images/C02/K06.png"
+        },
+        {
+          "start": 33,
+          "end": 39,
+          "screen": "과거가 틀린 결과를 닫으려 하자 미래가 키보드 위에 손바닥을 덮는다. 첫 장면과 같은 보호 자세로 실패 삭제를 막는다.",
+          "framing": "K01의 낮은 구도를 반대 방향으로 반복.",
+          "subtitle": "없음.",
+          "dialogue": "F: “이건 남겨.”",
+          "sound": "손바닥 탁, 0.6초 공조음만.",
+          "transition": "과거가 손을 거두고 리모컨을 집음.",
+          "intent": "동일 행동이 정반대 대상을 보호하는 콜백.",
+          "first_frame": "과거 손이 닫기 키로 향하고 미래 손은 덮기 직전. 노트 복원 상태.",
+          "next_motion": "손으로 삭제 막기. 몸싸움 없음.",
+          "continuity_in": "노트 소유 유지. 첫 실행을 막은 의미만 반전.",
+          "continuity_out": "실패 기록 보존.",
+          "reference_cut": "C02/K01",
+          "id": "K07",
+          "scene_id": "S07",
+          "duration": 6,
+          "image_file": "images/C02/K07.png"
+        },
+        {
+          "start": 39,
+          "end": 45,
+          "screen": "과거가 실패를 첫 발표 슬라이드로 연다. 미래는 뒤에서 안도하다 키보드에 손이 가까워질 때마다 반사적으로 막는다. 과거가 그 손을 옆으로 밀고 정면을 향한다.",
+          "framing": "안정된 정면 미디엄, 미래는 오른쪽 뒤 작게.",
+          "subtitle": "후편집 슬라이드: “처음엔, 이렇게 안 됐습니다.”",
+          "dialogue": "P: “처음엔, 이렇게 안 됐습니다.”",
+          "sound": "따뜻한 단음. 발화 전 0.5초 숨, 문장 3초 확보.",
+          "transition": "발표 화면 옆 여백 유지하며 다음 컷.",
+          "intent": "실제 사례의 시작 문장을 열고 미래의 과잉 보호를 마지막 웃음으로 남김.",
+          "first_frame": "과거는 리모컨을 들고 정면 보기 전. 모니터 어긋난 도식, 미래는 노트 들고 긴장 풀기 전.",
+          "next_motion": "정면 발화→미래 손 반사→옆으로 밀림.",
+          "continuity_in": "동일 사무실, 실제 발표자로 단정 안 함.",
+          "continuity_out": "허구 사례 발표 시작.",
+          "reference_cut": "C02/K07",
+          "id": "K08",
+          "scene_id": "S08",
+          "duration": 6,
+          "image_file": "images/C02/K08.png"
+        },
+        {
+          "start": 45,
+          "end": 50,
+          "screen": "모니터 앞 미래 손은 삭제 영역을 계속 지킨다. 과거는 화면 밖에서 발표 준비. 왼쪽 벽에 행사명 고정.",
+          "framing": "모니터 옆 측면 중근접, 왼쪽 벽 50% 여백.",
+          "subtitle": "45~50초: “2026년 품질팀 / AI 실행 결과 발표 대회” / “지금, 실행 경험을 나눕니다.”",
+          "dialogue": "없음.",
+          "sound": "마무리 두 음, 작은 옷 소리.",
+          "transition": "행사명 5초 후 실제 사회자·발표 순서 연결.",
+          "intent": "설명 없이 끝까지 기록을 지키는 행동을 남김.",
+          "first_frame": "미래가 손을 키보드 위에 가볍게 얹음. 과거 프레임 밖. 왼쪽 벽 문자 없이.",
+          "next_motion": "작은 손 경계 반응만. 제목 후편집.",
+          "continuity_in": "미래는 사라지지 않음, 노트 복원 상태.",
+          "continuity_out": "현장 도입 종료.",
+          "reference_cut": "C02/K08",
+          "id": "K09",
+          "scene_id": "S09",
+          "duration": 5,
+          "image_file": "images/C02/K09.png"
+        }
+      ],
+      "scenes": [
+        {
+          "scene_id": "S01",
+          "linked_cuts": [
+            "K01"
+          ],
+          "representative_frame": "과거 손은 실행 키 바로 위, 오른쪽 벽에 가는 파란 균열과 미래 어깨 일부. 아직 접촉 전.",
+          "continuity": "첫 시점, 노트는 미래 오른팔 아래. / 첫 실험 미실행.",
+          "aspect_ratio": "16:9",
+          "image_file": "images/C02/K01.png",
+          "motion_camera_notes": "미래가 한 걸음 나와 손목 멈춤. 접촉 짧게."
+        },
+        {
+          "scene_id": "S02",
+          "linked_cuts": [
+            "K02"
+          ],
+          "representative_frame": "노트 도형과 수정 화살표가 아직 온전함. 미래 안도 표정.",
+          "continuity": "실행 안 함. 기록을 찢거나 삭제하지 않음. / 수정 내용 대부분 소멸.",
+          "aspect_ratio": "16:9",
+          "image_file": "images/C02/K02.png",
+          "motion_camera_notes": "메모 소멸→표정 당황. 노트 효과 후편집."
+        },
+        {
+          "scene_id": "S03",
+          "linked_cuts": [
+            "K03"
+          ],
+          "representative_frame": "미래는 빈 노트를 들고 과거 손을 안내하기 전. 과거는 뒤로 젖혀짐.",
+          "continuity": "주황 노트, 코트/니트 구별. / 실패 복원 시작.",
+          "aspect_ratio": "16:9",
+          "image_file": "images/C02/K03.png",
+          "motion_camera_notes": "재촉→황당한 반응→누름."
+        },
+        {
+          "scene_id": "S04",
+          "linked_cuts": [
+            "K04"
+          ],
+          "representative_frame": "실행 키 위 과거 손, 기대하며 화면 보는 미래. 화면은 결과 전.",
+          "continuity": "노트는 왼쪽 모서리에 펼침. / 원래 어수선한 자료 복구 필요.",
+          "aspect_ratio": "16:9",
+          "image_file": "images/C02/K04.png",
+          "motion_camera_notes": "결과 등장→미래 절망→과거 미소 멎음."
+        },
+        {
+          "scene_id": "S05",
+          "linked_cuts": [
+            "K05"
+          ],
+          "representative_frame": "회색 소매 손이 같은 문양 카드 한 장을 빼려 하고 남색 소매 손은 아직 닿지 않음.",
+          "continuity": "소매로 손 주인 구별, 노트 위쪽 고정. / 원래 중복 순서 복구.",
+          "aspect_ratio": "16:9",
+          "image_file": "images/C02/K05.png",
+          "motion_camera_notes": "미래가 중복 카드를 되돌려 넣음. 파일 대응은 후편집 도식."
+        },
+        {
+          "scene_id": "S06",
+          "linked_cuts": [
+            "K06"
+          ],
+          "representative_frame": "모니터는 실행 대기, 노트 수정 영역 비어 있음. 둘이 기대하며 나란히 섬.",
+          "continuity": "실패 조건 복원 이후에만 노트 복구. / 노트 온전, 실패 결과 유지.",
+          "aspect_ratio": "16:9",
+          "image_file": "images/C02/K06.png",
+          "motion_camera_notes": "잘못된 결과→노트 복원→환호 순서."
+        },
+        {
+          "scene_id": "S07",
+          "linked_cuts": [
+            "K07"
+          ],
+          "representative_frame": "과거 손이 닫기 키로 향하고 미래 손은 덮기 직전. 노트 복원 상태.",
+          "continuity": "노트 소유 유지. 첫 실행을 막은 의미만 반전. / 실패 기록 보존.",
+          "aspect_ratio": "16:9",
+          "image_file": "images/C02/K07.png",
+          "motion_camera_notes": "손으로 삭제 막기. 몸싸움 없음."
+        },
+        {
+          "scene_id": "S08",
+          "linked_cuts": [
+            "K08"
+          ],
+          "representative_frame": "과거는 리모컨을 들고 정면 보기 전. 모니터 어긋난 도식, 미래는 노트 들고 긴장 풀기 전.",
+          "continuity": "동일 사무실, 실제 발표자로 단정 안 함. / 허구 사례 발표 시작.",
+          "aspect_ratio": "16:9",
+          "image_file": "images/C02/K08.png",
+          "motion_camera_notes": "정면 발화→미래 손 반사→옆으로 밀림."
+        },
+        {
+          "scene_id": "S09",
+          "linked_cuts": [
+            "K09"
+          ],
+          "representative_frame": "미래가 손을 키보드 위에 가볍게 얹음. 과거 프레임 밖. 왼쪽 벽 문자 없이.",
+          "continuity": "미래는 사라지지 않음, 노트 복원 상태. / 현장 도입 종료.",
+          "aspect_ratio": "16:9",
+          "image_file": "images/C02/K09.png",
+          "motion_camera_notes": "작은 손 경계 반응만. 제목 후편집."
+        }
+      ]
+    },
+    {
+      "id": "C03",
+      "title": "환경까지 가져왔습니다",
+      "purpose": "참석 독려",
+      "audience": "품질팀 내부 사전 홍보 시청 가정",
+      "format": "초대형 물류 광고의 과잉 실행과 두 번째 배송",
+      "logline": "과정을 빠짐없이 보내 달랬더니 성공한 사무실이 통째로 온다. 끝인 줄 알자 실패했던 사무실도 온다.",
+      "core_message": "성공과 시행착오를 같이 보면 다른 조건에 적용할 단서를 얻는다.",
+      "duration_seconds": 49,
+      "aspect_ratio": "16:9",
+      "bgrade_intensity": 5,
+      "difficulty": "높음",
+      "difficulty_reason": "크레인 사무실 모듈·두 방·접이식 벽 연속성이 어렵다. 운송은 외부 와이드, 내부는 고정 세트로 분리. 부유 시작 상태와 착지 완료 상태를 나눠 대체 가능.",
+      "hook": "평범한 요청 다음 컷에 책상과 창문을 포함한 사무실이 공중에서 내려온다.",
+      "comedy_engine": "성실한 공유의 문자 그대로 과잉 실행→성공 뒤 실패 사무실 2차 배송→또 옮길 준비하는 기사 앞에서 사람과 기록만 이동.",
+      "three_act": "① 최종 환경 통째 배송 ② 재현 성공 뒤 초기 실험실도 배송 ③ 반품하려던 기록에서 단서를 발견, 두 기록을 들고 직접 간다.",
+      "event_information": "AI 실행 결과와 활용 과정 공유. 사무실 배송은 허구이며 실제 행사 장소·운송 방식 아님.",
+      "final_action": "기사가 운송 벨트를 조이자 주인공은 두 기록만 들고 “제가 갈게요.” 기사의 안도 반응으로 끝.",
+      "difference": "주간 산업 현장의 큰 공간과 배송 두 번. UI 단서는 총 3초 이내로 제한.",
+      "visual_style": "밝은 하늘, 노란 정밀 크레인·흰 모듈·유리와 금속. 높이·거리를 크게 바꾸는 산업 광고 구도.",
+      "characters": [
+        {
+          "id": "R",
+          "description": "30대 한국인 여성. 묶은 검은 머리, 베이지 블라우스·청록 얇은 조끼·짙은 회색 바지. 놀라다가도 기록의 단서를 관찰."
+        },
+        {
+          "id": "T",
+          "description": "40대 한국인 남성 기사. 노란 안전모·남색 재킷·주황 반사 조끼·검정 바지. 흰 운송장. 일을 끝내고 싶은 감정이 드러남."
+        },
+        {
+          "id": "S",
+          "description": "보내는 동료는 성실한 전화 음성만, 얼굴 불필요."
+        }
+      ],
+      "continuity": "안전한 평지. 사람은 모듈 아래에 서지 않음. A는 청록 문틀·정돈된 책상·회색 파일, B는 주황 문틀·수정 흔적·주황 파일. B는 폐허가 아님. K04 후 A왼쪽/B오른쪽. 서로 마주 보는 벽은 열리는 폴딩 패널. UI·노트·운송장 글자는 후편집.",
+      "shots": [
+        {
+          "start": 0,
+          "end": 5,
+          "screen": "배송 구역 테이블에서 직원이 통화하며 자료를 넘긴다. 컵 수면이 떨리고 큰 그림자가 덮자 위를 본다.",
+          "framing": "조용한 50mm 미디엄, 넓은 하늘 배경.",
+          "subtitle": "없음.",
+          "dialogue": "R: “결과 말고, 어떻게 했는지도요.”",
+          "sound": "바람·통화음, 마지막 1초 크레인 엔진.",
+          "transition": "위를 보는 시선에 초광각 하드컷.",
+          "intent": "평범한 부탁이 어떻게 받아들여질지 기대.",
+          "first_frame": "직원은 통화 중, 자료 위 손. 위 사무실은 안 보이고 정상 햇빛.",
+          "next_motion": "그림자 이동→위로 시선.",
+          "continuity_in": "첫 장소, 기사 화면 밖.",
+          "continuity_out": "큰 그림자·엔진 예고.",
+          "reference_cut": "기준 이미지: 외부 인물 참조 없음",
+          "id": "K01",
+          "scene_id": "S01",
+          "duration": 5,
+          "image_file": "images/C03/K01.png"
+        },
+        {
+          "start": 5,
+          "end": 11,
+          "screen": "온전한 모듈 A가 크레인에 매달려 있다. 내부 책상·의자·화분까지 보인다. 직원은 안전선 밖 작게, 기사는 착지 유도.",
+          "framing": "24mm 낮은 극와이드, 모듈·하늘이 대부분.",
+          "subtitle": "로고·간판 없음.",
+          "dialogue": "T: “작업 환경, 도착했습니다.”",
+          "sound": "금관 한 번, 무전·유압·엔진.",
+          "transition": "하강 방향과 내부 착석을 연결.",
+          "intent": "과정 공유가 공간 전체 배송으로 확대.",
+          "first_frame": "청록 문틀 A가 공중에 고정, 케이블 팽팽. 직원·기사 옆 안전선 밖.",
+          "next_motion": "모듈 조금 하강. 사람 위 이동 없음.",
+          "continuity_in": "A 외관·가구 배치 확정.",
+          "continuity_out": "A 설치 완료.",
+          "reference_cut": "C03/K01",
+          "id": "K02",
+          "scene_id": "S02",
+          "duration": 6,
+          "image_file": "images/C03/K02.png"
+        },
+        {
+          "start": 11,
+          "end": 16,
+          "screen": "A 안에서 같은 자료를 실행하니 참고와 결과 도식이 맞는다. 직원이 끄덕이고 창 밖 기사는 장갑을 벗는다.",
+          "framing": "내부 3/4 미디엄, 도식은 1초 인서트.",
+          "subtitle": "후편집: 같은 세 칸, 실적 수치 없음.",
+          "dialogue": "R: “같이 나오네요.”",
+          "sound": "확인음·장갑 소리, 해결 화음.",
+          "transition": "일어나려는 동작 중 경고음.",
+          "intent": "첫 배송이 목표를 달성해 2차 배송이 반전.",
+          "first_frame": "직원이 회색 파일 옆에서 실행 전. 기사 양손 장갑, 종료 대기.",
+          "next_motion": "결과→끄덕임→기사 장갑 한 짝 벗음.",
+          "continuity_in": "A청록, 동일 직원.",
+          "continuity_out": "재현 성공·오른손 장갑 벗음.",
+          "reference_cut": "C03/K02",
+          "id": "K03",
+          "scene_id": "S03",
+          "duration": 5,
+          "image_file": "images/C03/K03.png"
+        },
+        {
+          "start": 16,
+          "end": 22,
+          "screen": "기사가 돌아서는데 B 모듈이 A 옆으로 내려온다. 주황 문틀과 수정 노트가 가득한 내부. 기사가 장갑을 다시 낀다.",
+          "framing": "기사 전경·B 후경 깊은 초점. A왼쪽 유지.",
+          "subtitle": "없음.",
+          "dialogue": "T: “아직 하나 더요.”",
+          "sound": "후진 경고음, 첫 팡파르 시작하다 두 음에 끊음.",
+          "transition": "장갑 당김과 B문 열림 소리 매치.",
+          "intent": "끝난 줄 알았는데 실패 과정까지 배송.",
+          "first_frame": "설치 A왼쪽, 기사 벗은 장갑 소지. B아랫모서리 막 프레임 진입.",
+          "next_motion": "B공개→기사 장갑 재착용.",
+          "continuity_in": "A왼쪽/B오른쪽, 안전 구역.",
+          "continuity_out": "B설치, 기사 다시 장갑.",
+          "reference_cut": "C03/K02",
+          "id": "K04",
+          "scene_id": "S04",
+          "duration": 6,
+          "image_file": "images/C03/K04.png"
+        },
+        {
+          "start": 22,
+          "end": 29,
+          "screen": "직원이 B문을 연다. 파손이 아닌 수정 기록이 많은 초기 공간. 주황 파일을 들고 통화하며 묻는다.",
+          "framing": "문틀 너머 직원 오버숄더, 기록 밀도.",
+          "subtitle": "읽을 과제명·날짜 없음.",
+          "dialogue": "R: “이건 왜 보냈어요?” S(전화): “안 됐던 것도 빠짐없이 달라면서요.”",
+          "sound": "전화 음색·종이. 대사 5초·반응 1초.",
+          "transition": "파일에서 반품 운송장으로 시선.",
+          "intent": "과잉 배송도 부탁을 성실히 해석한 결과.",
+          "first_frame": "직원이 B안 닫힌 주황 파일 집기 전. 왼손 전화, 오른손 파일에 닿기 전.",
+          "next_motion": "파일 들어 질문→답 듣고 기사로 회전.",
+          "continuity_in": "B손상 없음, 실험 흔적만.",
+          "continuity_out": "직원 주황 파일 소지.",
+          "reference_cut": "C03/K04",
+          "id": "K05",
+          "scene_id": "S05",
+          "duration": 7,
+          "image_file": "images/C03/K05.png"
+        },
+        {
+          "start": 29,
+          "end": 35,
+          "screen": "반품 서명하려다 파일에서 튀어나온 페이지를 본다. 자기 자료와 같은 조건에 동그라미. 펜을 멈추고 운송장을 돌려준다.",
+          "framing": "운송장·파일·얼굴 근접. 조건 1.5초.",
+          "subtitle": "후편집: 두 자료의 같은 줄무늬 조건.",
+          "dialogue": "R: “반품… 잠깐.”",
+          "sound": "펜 딸깍, 0.4초 정적, 종이.",
+          "transition": "A/B패널 손잡이 잡기로 연결.",
+          "intent": "불필요했던 실패 기록이 자기 문제 단서.",
+          "first_frame": "기사 운송장 내밈, 직원 펜 들기 전. 파일 종이 모서리만 보임.",
+          "next_motion": "서명 시도→페이지 발견→서명 보류.",
+          "continuity_in": "회색 파일 A안, B오른쪽.",
+          "continuity_out": "반품 취소, 단서 확보.",
+          "reference_cut": "C03/K05",
+          "id": "K06",
+          "scene_id": "S06",
+          "duration": 6,
+          "image_file": "images/C03/K06.png"
+        },
+        {
+          "start": 35,
+          "end": 43,
+          "screen": "마주 보는 패널을 열자 성공과 초기 기록이 함께 보인다. 직원이 회색 파일까지 집는다. 기사는 또 운송할 줄 알고 벨트를 조인다. 직원이 “제가 갈게요” 하자 기사 손이 멈추고 안도한다.",
+          "framing": "두 방 측면 와이드. 마지막 2초 기사 반응.",
+          "subtitle": "없음.",
+          "dialogue": "R: “이건 같이 봐야겠네요.” (두 파일을 들고) “제가 갈게요.”",
+          "sound": "패널 레일·버클. 기사 안도 숨 0.8초.",
+          "transition": "직원이 전경 지나가며 와이프.",
+          "intent": "다시 공간을 옮길 예상이 사람의 선택으로 끝남.",
+          "first_frame": "패널 닫힘, 직원 손잡이 잡기 전. 주황 파일 팔 아래·회색 A책상. 기사 벨트에 손 뻗기 전.",
+          "next_motion": "패널 열기→회색 집기→출발→기사 안도. 동작 겹치지 않음.",
+          "continuity_in": "모듈 착지·크레인 정지.",
+          "continuity_out": "기록 두 개만 이동, 재운송 없음.",
+          "reference_cut": "C03/K06",
+          "id": "K07",
+          "scene_id": "S07",
+          "duration": 8,
+          "image_file": "images/C03/K07.png"
+        },
+        {
+          "start": 43,
+          "end": 49,
+          "screen": "두 사무실은 남고 직원은 작은 파일 두 개만 안고 걸어나간다. 기사가 안전모 끈을 풀고 의자에 앉는다.",
+          "framing": "높은 와이드. 모듈 아래 1/3, 상단 하늘 여백.",
+          "subtitle": "43~49초: “2026년 품질팀 / AI 실행 결과 발표 대회” / “사무실은 두고, 경험을 가져오세요.”",
+          "dialogue": "없음.",
+          "sound": "발소리·의자 삐걱, 가벼운 끝 화음.",
+          "transition": "행사명 6초 후 종료. 신청 버튼 없음.",
+          "intent": "큰 환경과 작은 기록을 한 프레임에서 참석 행동에 연결.",
+          "first_frame": "패널 열린 두 방, 직원 전경 진입 직전, 기사 아직 서 있음. 하늘 무문자.",
+          "next_motion": "직원 퇴장→기사 끈 풀고 착석. 제목 후편집.",
+          "continuity_in": "모듈 정지, 기사만 반응.",
+          "continuity_out": "허구 배송 완결.",
+          "reference_cut": "C03/K07",
+          "id": "K08",
+          "scene_id": "S08",
+          "duration": 6,
+          "image_file": "images/C03/K08.png"
+        }
+      ],
+      "scenes": [
+        {
+          "scene_id": "S01",
+          "linked_cuts": [
+            "K01"
+          ],
+          "representative_frame": "직원은 통화 중, 자료 위 손. 위 사무실은 안 보이고 정상 햇빛.",
+          "continuity": "첫 장소, 기사 화면 밖. / 큰 그림자·엔진 예고.",
+          "aspect_ratio": "16:9",
+          "image_file": "images/C03/K01.png",
+          "motion_camera_notes": "그림자 이동→위로 시선."
+        },
+        {
+          "scene_id": "S02",
+          "linked_cuts": [
+            "K02"
+          ],
+          "representative_frame": "청록 문틀 A가 공중에 고정, 케이블 팽팽. 직원·기사 옆 안전선 밖.",
+          "continuity": "A 외관·가구 배치 확정. / A 설치 완료.",
+          "aspect_ratio": "16:9",
+          "image_file": "images/C03/K02.png",
+          "motion_camera_notes": "모듈 조금 하강. 사람 위 이동 없음."
+        },
+        {
+          "scene_id": "S03",
+          "linked_cuts": [
+            "K03"
+          ],
+          "representative_frame": "직원이 회색 파일 옆에서 실행 전. 기사 양손 장갑, 종료 대기.",
+          "continuity": "A청록, 동일 직원. / 재현 성공·오른손 장갑 벗음.",
+          "aspect_ratio": "16:9",
+          "image_file": "images/C03/K03.png",
+          "motion_camera_notes": "결과→끄덕임→기사 장갑 한 짝 벗음."
+        },
+        {
+          "scene_id": "S04",
+          "linked_cuts": [
+            "K04"
+          ],
+          "representative_frame": "설치 A왼쪽, 기사 벗은 장갑 소지. B아랫모서리 막 프레임 진입.",
+          "continuity": "A왼쪽/B오른쪽, 안전 구역. / B설치, 기사 다시 장갑.",
+          "aspect_ratio": "16:9",
+          "image_file": "images/C03/K04.png",
+          "motion_camera_notes": "B공개→기사 장갑 재착용."
+        },
+        {
+          "scene_id": "S05",
+          "linked_cuts": [
+            "K05"
+          ],
+          "representative_frame": "직원이 B안 닫힌 주황 파일 집기 전. 왼손 전화, 오른손 파일에 닿기 전.",
+          "continuity": "B손상 없음, 실험 흔적만. / 직원 주황 파일 소지.",
+          "aspect_ratio": "16:9",
+          "image_file": "images/C03/K05.png",
+          "motion_camera_notes": "파일 들어 질문→답 듣고 기사로 회전."
+        },
+        {
+          "scene_id": "S06",
+          "linked_cuts": [
+            "K06"
+          ],
+          "representative_frame": "기사 운송장 내밈, 직원 펜 들기 전. 파일 종이 모서리만 보임.",
+          "continuity": "회색 파일 A안, B오른쪽. / 반품 취소, 단서 확보.",
+          "aspect_ratio": "16:9",
+          "image_file": "images/C03/K06.png",
+          "motion_camera_notes": "서명 시도→페이지 발견→서명 보류."
+        },
+        {
+          "scene_id": "S07",
+          "linked_cuts": [
+            "K07"
+          ],
+          "representative_frame": "패널 닫힘, 직원 손잡이 잡기 전. 주황 파일 팔 아래·회색 A책상. 기사 벨트에 손 뻗기 전.",
+          "continuity": "모듈 착지·크레인 정지. / 기록 두 개만 이동, 재운송 없음.",
+          "aspect_ratio": "16:9",
+          "image_file": "images/C03/K07.png",
+          "motion_camera_notes": "패널 열기→회색 집기→출발→기사 안도. 동작 겹치지 않음."
+        },
+        {
+          "scene_id": "S08",
+          "linked_cuts": [
+            "K08"
+          ],
+          "representative_frame": "패널 열린 두 방, 직원 전경 진입 직전, 기사 아직 서 있음. 하늘 무문자.",
+          "continuity": "모듈 정지, 기사만 반응. / 허구 배송 완결.",
+          "aspect_ratio": "16:9",
+          "image_file": "images/C03/K08.png",
+          "motion_camera_notes": "직원 퇴장→기사 끈 풀고 착석. 제목 후편집."
+        }
+      ]
+    },
+    {
+      "id": "C04",
+      "title": "이 장면은 제 경험에 없습니다",
+      "purpose": "행사 소개·현장 도입",
+      "audience": "발표 대회 시작 직전 현장 시청 가정",
+      "format": "광고 촬영 현장에서 대역이 실제 경험으로 주연이 되는 코미디",
+      "logline": "사례를 영웅담으로 꾸미려던 감독이 말을 듣는 대역으로 교체했는데 대역도 자기 사례를 들고 나온다.",
+      "core_message": "실제로 활용하고 경험을 얻은 사람이 이야기의 주인공이다.",
+      "duration_seconds": 51,
+      "aspect_ratio": "16:9",
+      "bgrade_intensity": 4,
+      "difficulty": "높음",
+      "difficulty_reason": "옥상 와이어·다른 대규모 세트·대역 복선 연속성이 필요. 군중 대신 두 대형 자료 카트와 경비 실루엣으로 규모 축소, 점프는 안전 정지 자세와 리액션 컷으로 분리 가능.",
+      "hook": "블록버스터 도약 도중 원사례자가 “저 안 뛰었는데요”라고 정정한다.",
+      "comedy_engine": "감독의 두 번 과장과 정정→대역으로 교체→직접 해본 대역이 자기 사례를 말하고 주연 자리를 추가.",
+      "three_act": "① 평범한 경험을 액션으로 부풀림 ② 대기 중 대역은 실제로 따라 해 봄 ③ 대역도 자기 경험을 얻어 주연 의자를 하나 더 놓음.",
+      "event_information": "AI 실행 경험과 활용 사례를 직접 공유하는 행사. 세 캐릭터는 실제 발표자 명단이 아닌 허구.",
+      "final_action": "대역이 두 번째 의자를 같은 선에 놓아 한 명용 촬영 구도를 실제로 바꾼다. 행사명 뒤 실제 발표 연결.",
+      "difference": "가짜 영웅 서사를 경험자의 자격이 밀어냄. 대역의 실행 복선을 미리 심어 반전을 공정하게 함.",
+      "visual_style": "푸른 야간 액션 옥상→먼지 낀 따뜻한 격납고→소박한 인터뷰 조명. 대형 장르 화면이 실제 사람에게 자리를 내줌.",
+      "characters": [
+        {
+          "id": "R",
+          "description": "30대 한국인 여성 원사례자. 어깨 길이 검은 머리·크림 블라우스·진회색 재킷·검정 바지. 붉은 얇은 파일. 차분하지만 사실 정정은 분명."
+        },
+        {
+          "id": "D",
+          "description": "40대 한국인 남성 감독. 검정 캡·짧은 수염·올리브 촬영 조끼·검정 티셔츠·헤드셋·붉은 확성기. 지시와 감정 큼."
+        },
+        {
+          "id": "S",
+          "description": "30대 한국인 여성 대역. R과 비슷한 키·체형이나 분명 다른 얼굴. 묶은 머리·진회색 재킷 아래 검정 안전 하네스·검정 바지. 은색 노트북·초록 노트. 성실함에서 자기 경험의 확신으로."
+        }
+      ],
+      "continuity": "R붉은 파일/S초록 노트·은색 노트북. 두 사람은 동일 얼굴 금지. K02부터 대역이 직접 입력하는 복선. 감독 복장·확성기 고정. 옥상과 격납고는 다른 촬영 세트임을 하드컷으로 명료하게. 카트·경비는 실제 군사 조직 표식 없는 영화 소품. 군중 얼굴 최소화.",
+      "shots": [
+        {
+          "start": 0,
+          "end": 6,
+          "screen": "대역이 비 오는 옥상에서 와이어 도약한다. 모니터 보는 원사례자가 “저 안 뛰었는데요.” 감독이 멈추자 매달린 대역 다리가 한 번 접힌다.",
+          "framing": "처음 2초 낮은 광각 액션, 뒤 4초 모니터·감독·원사례자 리액션.",
+          "subtitle": "없음.",
+          "dialogue": "R: “저 안 뛰었는데요.”",
+          "sound": "액션 타격음이 대사에서 끊김. 비와 와이어 삐걱 0.6초.",
+          "transition": "대역이 대기 위치로 돌아오는 발 컷.",
+          "intent": "멋진 도약의 사실이 부정되어 감독 과장 공개.",
+          "first_frame": "옥상 끝에서 하네스 대역이 도약 전 무릎 굽힘. 위로 안전 와이어, 아래 촬영 불빛. R은 점프 인물이 아님.",
+          "next_motion": "도약→안전 와이어 정지→리액션. 긴 낙하 없음.",
+          "continuity_in": "S만 하네스.",
+          "continuity_out": "촬영 중단·대역 무사 복귀.",
+          "reference_cut": "기준 이미지: 외부 인물 참조 없음",
+          "id": "K01",
+          "scene_id": "S01",
+          "duration": 6,
+          "image_file": "images/C04/K01.png"
+        },
+        {
+          "start": 6,
+          "end": 12,
+          "screen": "원사례자가 기록을 감독에게 보여준다. 뒤 대역은 은색 노트북을 열어 들은 순서를 따라 입력한다. 감독은 큰 장면을 상상한다.",
+          "framing": "전경 투숏과 배경 대역 입력을 2초 또렷이 보여주는 깊은 초점.",
+          "subtitle": "없음. 과제 내용은 카드 도식.",
+          "dialogue": "R: “자료를 나눠서 넣었어요.”",
+          "sound": "멀어진 비·천막 물방울, 대역 키보드 소리를 복선으로.",
+          "transition": "감독이 확성기를 드는 동작 매치.",
+          "intent": "대역의 마지막 자격이 갑자기 생기지 않도록 실행 선택을 심음.",
+          "first_frame": "R파일 열기 전, 감독 확성기 내림. S의자에 닫힌 은색 노트북, 초록 노트 옆.",
+          "next_motion": "R설명 중 S노트북 열어 입력. 감독 눈 커짐.",
+          "continuity_in": "R붉은 파일/S초록 노트.",
+          "continuity_out": "S실험 시작, 두 번째 세트 이동.",
+          "reference_cut": "C04/K01",
+          "id": "K02",
+          "scene_id": "S02",
+          "duration": 6,
+          "image_file": "images/C04/K02.png"
+        },
+        {
+          "start": 12,
+          "end": 18,
+          "screen": "격납고에서 검은 자료 카트 두 대가 반대편으로 갈라진다. 경비 실루엣 하나씩 따름. 원사례자는 중앙 작은 노트북을 가리켜 정정한다.",
+          "framing": "높은 천장 대칭 와이드→R미디엄.",
+          "subtitle": "실재 조직 로고 없음.",
+          "dialogue": "D: “전부 둘로!” R: “파일을 나눴다고요.”",
+          "sound": "행진 북 2타 뒤 바퀴 마찰만. 정정 후 0.4초.",
+          "transition": "감독이 대역 부르는 얼굴 컷.",
+          "intent": "디지털 분리를 거대한 물리 작전으로 오해한 두 번째 과장.",
+          "first_frame": "두 카트가 중앙에 붙어 있고 아직 갈라지지 않음. 감독 확성기 들기 전, R노트북 옆.",
+          "next_motion": "카트 반대 이동→R노트북 지적. 대규모 질주 없음.",
+          "continuity_in": "동일 복장, 촬영 세트 전환.",
+          "continuity_out": "두 번째 정정, 감독 피로.",
+          "reference_cut": "C04/K02",
+          "id": "K03",
+          "scene_id": "S03",
+          "duration": 6,
+          "image_file": "images/C04/K03.png"
+        },
+        {
+          "start": 18,
+          "end": 23,
+          "screen": "감독이 대본을 대역 손에 쥐여 준다. 대역은 노트북을 덮고 자기 초록 노트를 대본 위에 놓는다.",
+          "framing": "세 사람 허리 위 미디엄. 대본 전달과 노트 선택 함께.",
+          "subtitle": "대본 글자 안 읽힘.",
+          "dialogue": "D: “대역이 읽어요. 적힌 대로.”",
+          "sound": "종이 전달, 노트 툭.",
+          "transition": "초록 노트 여는 손 컷.",
+          "intent": "말 잘 들을 대역을 택했지만 자기 기록이 있음.",
+          "first_frame": "감독 대본 내밀기 전. S노트 든 채 일어서기 전, R붉은 파일 옆.",
+          "next_motion": "대본 받기→자기 노트 얹기.",
+          "continuity_in": "S는 K02 인물, 하네스 일부 유지.",
+          "continuity_out": "S발표 자리로.",
+          "reference_cut": "C04/K02",
+          "id": "K04",
+          "scene_id": "S04",
+          "duration": 5,
+          "image_file": "images/C04/K04.png"
+        },
+        {
+          "start": 23,
+          "end": 30,
+          "screen": "대역이 대본 대신 자기 결과 노트를 편다. 감독은 “다르게”에 확성기를 내리고 원사례자는 관심 생겨 다가온다.",
+          "framing": "S정면 중근접, 노트 아래·양쪽 반응 배경.",
+          "subtitle": "후편집: 같은 순서·다른 조건 도식, 성과 숫자 없음.",
+          "dialogue": "S: “저는 여기서 다르게 나왔습니다.”",
+          "sound": "대사 전 0.5초 숨, 음악 없이 말과 종이.",
+          "transition": "R한 걸음 접근→투숏.",
+          "intent": "읽기 실수인 줄 알지만 자기 경험이라는 반전 시작.",
+          "first_frame": "S닫힌 노트 열기 전, 감독 만족·R떨어져 있음.",
+          "next_motion": "노트 열기→말→R접근.",
+          "continuity_in": "초록 노트는 S것. 대본 낮게.",
+          "continuity_out": "자기 사례 확정 직전.",
+          "reference_cut": "C04/K04",
+          "id": "K05",
+          "scene_id": "S05",
+          "duration": 7,
+          "image_file": "images/C04/K05.png"
+        },
+        {
+          "start": 30,
+          "end": 37,
+          "screen": "R이 붉은 파일과 S노트를 비교한다. S는 초록 노트를 자기 가슴으로 당기며 자기 사례라 말한다. R이 작게 인정하며 웃는다.",
+          "framing": "같은 높이 50mm 투숏, 다른 얼굴·파일색 명료.",
+          "subtitle": "없음.",
+          "dialogue": "R: “잠깐, 그건 제 사례가 아닌데요.” S: “네. 제 겁니다.”",
+          "sound": "대사 사이 0.5초. “제 겁니다” 뒤 밝은 베이스 한 음.",
+          "transition": "감독 프레임 안으로 들어옴.",
+          "intent": "흉내 내는 대역이 자기 이야기 주인으로 변함.",
+          "first_frame": "R붉은 파일, S열린 노트를 아직 둘 사이에 둠.",
+          "next_motion": "비교→S노트 당김→R미소.",
+          "continuity_in": "기록 소유 교환 없음.",
+          "continuity_out": "두 경험자 인정.",
+          "reference_cut": "C04/K05",
+          "id": "K06",
+          "scene_id": "S06",
+          "duration": 7,
+          "image_file": "images/C04/K06.png"
+        },
+        {
+          "start": 37,
+          "end": 45,
+          "screen": "감독은 한 명용 의자를 가리킨다. S가 옆 여분 의자를 끌어 같은 선에 놓는다. R은 첫 의자에 앉는다.",
+          "framing": "한 명용 구도가 두 명용으로 넓어지는 트래킹 아웃.",
+          "subtitle": "없음.",
+          "dialogue": "D: “오늘 주연 한 명인데.” S: “그럼 두 명 찍으세요.”",
+          "sound": "대사 후 의자 끌림, 카메라 잠금 딸깍.",
+          "transition": "넓어진 구도 유지해 마지막 컷.",
+          "intent": "말이 아니라 의자와 프레임을 실제로 바꾸는 선택.",
+          "first_frame": "의자 한 개만 중앙. S여분 의자 등받이 잡기 전, 감독 첫 의자 지적.",
+          "next_motion": "S노트를 여분 의자 좌판에 먼저 놓고 의자 한 번 이동→R착석.",
+          "continuity_in": "붉은/초록 소유 유지, 두 의자 앞선 동일.",
+          "continuity_out": "주연 자리 두 개 확보.",
+          "reference_cut": "C04/K06",
+          "id": "K07",
+          "scene_id": "S07",
+          "duration": 8,
+          "image_file": "images/C04/K07.png"
+        },
+        {
+          "start": 45,
+          "end": 51,
+          "screen": "두 사람이 자기 기록을 편다. 감독이 삼각대를 뒤로 밀다 자기 감독 의자와 가볍게 부딪힌다. S는 하네스 버클을 풀고 노트를 편다.",
+          "framing": "안정된 인터뷰 와이드. 감독 가장자리·상단 30% 여백.",
+          "subtitle": "45~51초: “2026년 품질팀 / AI 실행 결과 발표 대회” / “해본 분들의 이야기, 지금 시작합니다.”",
+          "dialogue": "없음.",
+          "sound": "바퀴·의자 툭·버클 딸깍. 실제 발표 음향을 방해하지 않는 짧은 끝.",
+          "transition": "행사명 6초 후 실제 진행 연결.",
+          "intent": "영웅을 만들던 촬영이 실제 경험자 두 명에게 프레임을 내줌.",
+          "first_frame": "둘은 착석했으나 노트 미개봉. 감독 삼각대 손잡이, 뒤에 감독 의자. 상단 문자 없이.",
+          "next_motion": "삼각대 20cm→가벼운 닿음, 작은 노트·버클 동작.",
+          "continuity_in": "새 영웅 장면·추가 인물 없음.",
+          "continuity_out": "허구 촬영 종료·실제 행사 시작.",
+          "reference_cut": "C04/K07",
+          "id": "K08",
+          "scene_id": "S08",
+          "duration": 6,
+          "image_file": "images/C04/K08.png"
+        }
+      ],
+      "scenes": [
+        {
+          "scene_id": "S01",
+          "linked_cuts": [
+            "K01"
+          ],
+          "representative_frame": "옥상 끝에서 하네스 대역이 도약 전 무릎 굽힘. 위로 안전 와이어, 아래 촬영 불빛. R은 점프 인물이 아님.",
+          "continuity": "S만 하네스. / 촬영 중단·대역 무사 복귀.",
+          "aspect_ratio": "16:9",
+          "image_file": "images/C04/K01.png",
+          "motion_camera_notes": "도약→안전 와이어 정지→리액션. 긴 낙하 없음."
+        },
+        {
+          "scene_id": "S02",
+          "linked_cuts": [
+            "K02"
+          ],
+          "representative_frame": "R파일 열기 전, 감독 확성기 내림. S의자에 닫힌 은색 노트북, 초록 노트 옆.",
+          "continuity": "R붉은 파일/S초록 노트. / S실험 시작, 두 번째 세트 이동.",
+          "aspect_ratio": "16:9",
+          "image_file": "images/C04/K02.png",
+          "motion_camera_notes": "R설명 중 S노트북 열어 입력. 감독 눈 커짐."
+        },
+        {
+          "scene_id": "S03",
+          "linked_cuts": [
+            "K03"
+          ],
+          "representative_frame": "두 카트가 중앙에 붙어 있고 아직 갈라지지 않음. 감독 확성기 들기 전, R노트북 옆.",
+          "continuity": "동일 복장, 촬영 세트 전환. / 두 번째 정정, 감독 피로.",
+          "aspect_ratio": "16:9",
+          "image_file": "images/C04/K03.png",
+          "motion_camera_notes": "카트 반대 이동→R노트북 지적. 대규모 질주 없음."
+        },
+        {
+          "scene_id": "S04",
+          "linked_cuts": [
+            "K04"
+          ],
+          "representative_frame": "감독 대본 내밀기 전. S노트 든 채 일어서기 전, R붉은 파일 옆.",
+          "continuity": "S는 K02 인물, 하네스 일부 유지. / S발표 자리로.",
+          "aspect_ratio": "16:9",
+          "image_file": "images/C04/K04.png",
+          "motion_camera_notes": "대본 받기→자기 노트 얹기."
+        },
+        {
+          "scene_id": "S05",
+          "linked_cuts": [
+            "K05"
+          ],
+          "representative_frame": "S닫힌 노트 열기 전, 감독 만족·R떨어져 있음.",
+          "continuity": "초록 노트는 S것. 대본 낮게. / 자기 사례 확정 직전.",
+          "aspect_ratio": "16:9",
+          "image_file": "images/C04/K05.png",
+          "motion_camera_notes": "노트 열기→말→R접근."
+        },
+        {
+          "scene_id": "S06",
+          "linked_cuts": [
+            "K06"
+          ],
+          "representative_frame": "R붉은 파일, S열린 노트를 아직 둘 사이에 둠.",
+          "continuity": "기록 소유 교환 없음. / 두 경험자 인정.",
+          "aspect_ratio": "16:9",
+          "image_file": "images/C04/K06.png",
+          "motion_camera_notes": "비교→S노트 당김→R미소."
+        },
+        {
+          "scene_id": "S07",
+          "linked_cuts": [
+            "K07"
+          ],
+          "representative_frame": "의자 한 개만 중앙. S여분 의자 등받이 잡기 전, 감독 첫 의자 지적.",
+          "continuity": "붉은/초록 소유 유지, 두 의자 앞선 동일. / 주연 자리 두 개 확보.",
+          "aspect_ratio": "16:9",
+          "image_file": "images/C04/K07.png",
+          "motion_camera_notes": "S노트를 여분 의자 좌판에 먼저 놓고 의자 한 번 이동→R착석."
+        },
+        {
+          "scene_id": "S08",
+          "linked_cuts": [
+            "K08"
+          ],
+          "representative_frame": "둘은 착석했으나 노트 미개봉. 감독 삼각대 손잡이, 뒤에 감독 의자. 상단 문자 없이.",
+          "continuity": "새 영웅 장면·추가 인물 없음. / 허구 촬영 종료·실제 행사 시작.",
+          "aspect_ratio": "16:9",
+          "image_file": "images/C04/K08.png",
+          "motion_camera_notes": "삼각대 20cm→가벼운 닿음, 작은 노트·버클 동작."
+        }
+      ]
+    },
+    {
+      "id": "C05",
+      "title": "현장 보존",
+      "purpose": "혼합: 사전 홍보·현장 도입",
+      "audience": "품질팀 내부 사전 홍보 또는 현장 시청 가정",
+      "format": "정밀 보존 절차가 변화하는 기록을 따라잡지 못하는 현장 코미디",
+      "logline": "성공 순간을 얼리려는 담당이 새 결과와 비교 화면까지 봉인하다가 빈 벽과 자기 자신만 보존한다.",
+      "core_message": "결과를 고정 전시물로 두기보다 바꿔 보고 얻은 경험까지 나눈다.",
+      "duration_seconds": 49,
+      "aspect_ratio": "16:9",
+      "bgrade_intensity": 5,
+      "difficulty": "보통",
+      "difficulty_reason": "통제선 지리·두 책상·투사 소멸 인과가 읽혀야 함. 복잡한 매듭 대신 낮은 봉과 단순 선, 번호·투사는 후편집. 사람 몸에 테이프를 감지 않음.",
+      "hook": "성공 화면보다 의자 바퀴 각도를 맞추는 보존 전문가가 더 심각하다.",
+      "comedy_engine": "상태 동결 규칙과 계속 실행하는 행동 충돌→새 결과마다 영역 확대→투사 화면이 꺼져 본인만 남음→자기 실패도 기록.",
+      "three_act": "① 첫 성공 봉인 ② 새 조건·비교 화면으로 보존 구역 확대 ③ 기록은 빠져나가고 담당만 남아 자기 실패를 표기하고 직접 선을 자름.",
+      "event_information": "AI 실행·활용 경험 공유. 과장된 보존 절차는 허구이며 실제 품질팀 안전 규정을 지칭하지 않는다.",
+      "final_action": "담당이 가슴에 세 번째 사례 번호를 붙이고 자기 선을 자른다. 실행자는 그 실패 기록도 챙긴다. 단체 청강 엔딩 없음.",
+      "difference": "초자연·외부 대형 장비 없이 몸·공간·절차가 확대되는 웃음. 디지털 기록의 이동이 물리적 보존을 무력화.",
+      "visual_style": "밝은 회백 기록실 같은 사무실. 정밀 근접에서 후반 하이앵글로 동선 공개. 빨간 선·노란 번호표. 진지한 고급 관찰 다큐 촬영.",
+      "characters": [
+        {
+          "id": "E",
+          "description": "30대 한국인 남성 실행자. 곱슬기 짧은 검정 머리, 연청 셔츠 팔꿈치까지 걷음·진회색 바지. 검정 기록 폴더·무지 검정 휴대전화. 성공 뒤에도 다음 조건을 시험."
+        },
+        {
+          "id": "P",
+          "description": "40대 한국인 여성 보존 담당. 반듯한 검정 단발·진회색 작업복 위 밝은 회색 긴 가운·흰 장갑·보호안경 머리 위. 노란 표·빨간 선 롤. 원칙적이지만 자기 실패도 받아들임."
+        }
+      ],
+      "continuity": "직사각형 방, A왼쪽 창가/B오른쪽 벽/문 뒤 중앙/투사 벽은 문 오른쪽. 낮은 봉으로 단순 구역. 1=A,2=B,3=담당 자기 사례. 실행자는 복사본·자기 기록만 이동, 원물을 훔치지 않음. 마지막 담당이 자기 통제선을 해제. 실제 위험 경고 문구 없이 허구 보존선.",
+      "shots": [
+        {
+          "start": 0,
+          "end": 5,
+          "screen": "담당이 의자 바퀴 방향까지 작은 자로 맞추고 번호표를 붙인다. 실행자가 기록 폴더 집으려 하자 흰 장갑 손이 즉시 막는다.",
+          "framing": "바퀴 극근접 2초→폴더 손 근접→담당 얼굴 1초.",
+          "subtitle": "번호 1 후편집. 결과는 단순 도식.",
+          "dialogue": "P: “그대로.”",
+          "sound": "자·라벨 소리를 크게, 음악 없음.",
+          "transition": "멈춘 실행자 얼굴에서 방 와이드.",
+          "intent": "성공보다 의자 각도가 중요해진 과잉 보존.",
+          "first_frame": "바퀴 옆 흰 장갑 손·자, 번호표 아직 미부착. 전체 봉인 조기 공개 안 함.",
+          "next_motion": "바퀴 정렬→표 부착→폴더 손 막음.",
+          "continuity_in": "어수선하거나 망가진 곳 아님.",
+          "continuity_out": "A보존 시작·폴더 이동 불가.",
+          "reference_cut": "기준 이미지: 외부 인물 참조 없음",
+          "id": "K01",
+          "scene_id": "S01",
+          "duration": 5,
+          "image_file": "images/C05/K01.png"
+        },
+        {
+          "start": 5,
+          "end": 10,
+          "screen": "담당이 폴더를 원위치시키고 A둘레에 낮은 빨간 선을 건다. 실행자는 복사본 한 장과 전화만 들고 밖에 선다. 담당은 사진을 남긴다.",
+          "framing": "A왼쪽·빈B오른쪽 수평 와이드로 지리 공개.",
+          "subtitle": "번호 1만, 위험 문구 없음.",
+          "dialogue": "P: “성공 당시 그대로 보존합니다.”",
+          "sound": "선 풀림·셔터.",
+          "transition": "실행자 B보는 시선 컷.",
+          "intent": "공간은 고정해도 실행자는 활동을 멈추지 않음.",
+          "first_frame": "담당이 아직 연결 안 된 선 끝 소지. 실행자는 복사본·폰 들고 한 걸음 밖. B비어 있음.",
+          "next_motion": "선 걸기→사진→실행자 B시선.",
+          "continuity_in": "A원본 그대로. 낮은 사각 구역.",
+          "continuity_out": "A완성·B자유.",
+          "reference_cut": "C05/K01",
+          "id": "K02",
+          "scene_id": "S02",
+          "duration": 5,
+          "image_file": "images/C05/K02.png"
+        },
+        {
+          "start": 10,
+          "end": 15,
+          "screen": "실행자가 B에서 조건을 바꿔 실행하고 복사본에 표시한다. 다른 결과가 나오자 A촬영 중인 담당이 고개를 돌린다.",
+          "framing": "E측면 미디엄→P얼굴 포커스 이동.",
+          "subtitle": "후편집: 다른 조건 아이콘. 우열 점수 없음.",
+          "dialogue": "E: “이 조건이면…”",
+          "sound": "키보드·출력음, 돌아보는 순간 현악 한 음.",
+          "transition": "담당 첫걸음으로 연결.",
+          "intent": "정상적인 다음 실행이 담당에게 새 현장 발생.",
+          "first_frame": "E복사본 표시 전, P는 A사진 촬영 전. B선 없음.",
+          "next_motion": "실행→새 도식→담당 회전.",
+          "continuity_in": "A왼쪽/B오른쪽, 원본 안 옮김.",
+          "continuity_out": "두 번째 기록 발생.",
+          "reference_cut": "C05/K02",
+          "id": "K03",
+          "scene_id": "S03",
+          "duration": 5,
+          "image_file": "images/C05/K03.png"
+        },
+        {
+          "start": 15,
+          "end": 20,
+          "screen": "담당이 B에 2번표와 선을 친다. 실행자는 이미 일어나 기록을 들고 나왔다. 빈 의자를 정렬하던 담당은 A의 조금 움직인 의자를 보고 반대편을 본다.",
+          "framing": "두 책상 사이 좁은 와이드, 담당 시선 왕복.",
+          "subtitle": "번호 2 후편집.",
+          "dialogue": "P: “여기도 그대로.”",
+          "sound": "선 롤 빨라짐·발소리, 정교한 박자와 다급한 움직임 대비.",
+          "transition": "두 기록 펼치는 탑숏.",
+          "intent": "성공이 늘수록 유지 불가능해지는 원칙.",
+          "first_frame": "P가 B봉에 선 걸기 전, E는 기록 들고 일어남. A선 유지.",
+          "next_motion": "B봉인→빈 의자 정렬→A로 시선.",
+          "continuity_in": "사람을 묶거나 제압 안 함.",
+          "continuity_out": "두 구역과 중앙 자유 통로.",
+          "reference_cut": "C05/K03",
+          "id": "K04",
+          "scene_id": "S04",
+          "duration": 5,
+          "image_file": "images/C05/K04.png"
+        },
+        {
+          "start": 20,
+          "end": 26,
+          "screen": "실행자가 문 가까이 두 복사 기록을 나란히 촬영하고 폰을 작은 프로젝터에 연결한다. 빈 벽에 비교 도식이 켜진다. 담당은 두 구역에 안심하다 벽을 발견한다.",
+          "framing": "앞 2초 기록 탑숏, 뒤 4초 프로젝터·벽 측면.",
+          "subtitle": "후편집: 결과 둘·연결 화살표 하나, 긴 문장 없음.",
+          "dialogue": "없음.",
+          "sound": "사진음 2회·팬·전자음.",
+          "transition": "담당 눈에서 벽 컷.",
+          "intent": "비교하며 새 경험이 만들어져 물리적 책상 밖으로 퍼짐.",
+          "first_frame": "문 밖 작은 테이블에 두 복사 기록, E폰 소지, 프로젝터 아직 꺼짐. P는 책상 바라봄.",
+          "next_motion": "사진→연결→투사. 첫 프레임 투사 금지.",
+          "continuity_in": "원본은 책상, E는 문 쪽 자유 통로.",
+          "continuity_out": "문 오른쪽 벽에 비교 켜짐.",
+          "reference_cut": "C05/K04",
+          "id": "K05",
+          "scene_id": "S05",
+          "duration": 6,
+          "image_file": "images/C05/K05.png"
+        },
+        {
+          "start": 26,
+          "end": 32,
+          "screen": "담당이 투사까지 보존하려고 벽 앞 선을 친다. 기존 구역과 마지막 선을 연결하며 자신은 안에 남는다. 문 밖 실행자는 폰 연결선을 뽑는다.",
+          "framing": "위 모서리 하이앵글로 A/B·문·두 사람 위치 공개.",
+          "subtitle": "3번표는 아직 없음.",
+          "dialogue": "P: “이 화면도.”",
+          "sound": "선 롤 마지막 턱, 완료 화음 직전에 멈춤.",
+          "transition": "플러그 빠지는 클릭에 빈 벽 컷.",
+          "intent": "빛까지 고정하려는 선택으로 스스로 안에 남음. 우연히 얽히지 않음.",
+          "first_frame": "P마지막 봉에 선 연결 전, 벽 비교 켜짐. E문 밖에서 플러그 잡기 전. 마지막 구간 열림.",
+          "next_motion": "선 닫기→E플러그 분리. 한 동작씩.",
+          "continuity_in": "P안/E밖, 몸에 감긴 선 없음.",
+          "continuity_out": "P만 안쪽, 투사 꺼질 준비.",
+          "reference_cut": "C05/K05",
+          "id": "K06",
+          "scene_id": "S06",
+          "duration": 6,
+          "image_file": "images/C05/K06.png"
+        },
+        {
+          "start": 32,
+          "end": 38,
+          "screen": "투사가 꺼져 빈 벽. 담당이 선과 자기 위치를 번갈아 본다. 폰에는 기록 그대로. 나가려던 담당이 자기 선 앞에서 스스로 멈춘다.",
+          "framing": "빈 벽 1초→문에서 P미디엄, 폰 1초 인서트.",
+          "subtitle": "벽 완전 무문자, 폰 도식 후편집.",
+          "dialogue": "없음.",
+          "sound": "팬 꺼짐, 1초 음악 정적, 선 앞 구두 멈춤.",
+          "transition": "담당이 자기 가슴 내려다봄.",
+          "intent": "기록은 나가고 담당만 남았다는 실패를 말 없이 읽힘.",
+          "first_frame": "투사가 막 꺼진 빈 벽·완성된 선. P아직 벽 보고 E문 밖.",
+          "next_motion": "뒤돌기→한 발→스스로 멈춤→폰 기록 확인.",
+          "continuity_in": "삭제가 아니라 표시만 꺼짐. 다치거나 실제 감금 안 함.",
+          "continuity_out": "담당 자기 규칙 실패 인지.",
+          "reference_cut": "C05/K06",
+          "id": "K07",
+          "scene_id": "S07",
+          "duration": 6,
+          "image_file": "images/C05/K07.png"
+        },
+        {
+          "start": 38,
+          "end": 43,
+          "screen": "담당이 3번표를 자기 가슴에 붙인다. 실행자가 사진을 남기고 담당은 작은 가위로 자기 마지막 선을 잘라 연다.",
+          "framing": "가슴·얼굴 미디엄→선 자르는 손 틸트.",
+          "subtitle": "후편집 “3 / 보존 실패 사례” 38.5~42.5초 유지.",
+          "dialogue": "P: “이것도 가져가세요.”",
+          "sound": "라벨·셔터·가위 싹. 자조보다 담담한 인정.",
+          "transition": "선 양쪽 풀림과 출발 방향 연결.",
+          "intent": "성공만 보존하던 인물이 자기 실패를 사례로 내놓고 직접 원칙 해제.",
+          "first_frame": "P미부착 표·닫힌 가위 소지. 선 팽팽, E폰 아직 아래.",
+          "next_motion": "표 부착→사진→선 자름. 실패 기록 전에 해제하지 않음.",
+          "continuity_in": "기존1·2유지, 새 표는 자기 가슴.",
+          "continuity_out": "자기 사례 확보, 출입 해제.",
+          "reference_cut": "C05/K07",
+          "id": "K08",
+          "scene_id": "S08",
+          "duration": 5,
+          "image_file": "images/C05/K08.png"
+        },
+        {
+          "start": 43,
+          "end": 49,
+          "screen": "실행자가 새 사진과 복사 기록을 챙긴다. 담당은 3번표 붙인 채 나가려다 문턱 봉 바퀴를 정렬하려 손을 뻗고 스스로 거둔다. 둘이 자기 기록과 출발.",
+          "framing": "문 밖 비스듬한 와이드, 왼쪽 벽45% 여백. 해제 구간 보임.",
+          "subtitle": "43~49초: “2026년 품질팀 / AI 실행 결과 발표 대회” / “잘된 결과도, 바꿔 본 경험도.”",
+          "dialogue": "없음.",
+          "sound": "폴더·두 발소리, 가벼운 끝. 손 거둘 때 과장 효과 안 넣음.",
+          "transition": "행사명 6초 후 종료. 현장은 사회자 진행 연결.",
+          "intent": "성격을 완치하는 훈화 대신 손버릇을 한 번 거두는 행동. 청강 엔딩 없음.",
+          "first_frame": "E열린 폴더·폰, P가슴3번·문 옆. 비뚤어진 봉 바퀴에 손은 아직 안 닿음.",
+          "next_motion": "기록 정리→출발→P손 뻗다 거둠. 제목 고정.",
+          "continuity_in": "마지막 선 해제, 자기 사례표 유지.",
+          "continuity_out": "허구 규칙 코미디 완결.",
+          "reference_cut": "C05/K08",
+          "id": "K09",
+          "scene_id": "S09",
+          "duration": 6,
+          "image_file": "images/C05/K09.png"
+        }
+      ],
+      "scenes": [
+        {
+          "scene_id": "S01",
+          "linked_cuts": [
+            "K01"
+          ],
+          "representative_frame": "바퀴 옆 흰 장갑 손·자, 번호표 아직 미부착. 전체 봉인 조기 공개 안 함.",
+          "continuity": "어수선하거나 망가진 곳 아님. / A보존 시작·폴더 이동 불가.",
+          "aspect_ratio": "16:9",
+          "image_file": "images/C05/K01.png",
+          "motion_camera_notes": "바퀴 정렬→표 부착→폴더 손 막음."
+        },
+        {
+          "scene_id": "S02",
+          "linked_cuts": [
+            "K02"
+          ],
+          "representative_frame": "담당이 아직 연결 안 된 선 끝 소지. 실행자는 복사본·폰 들고 한 걸음 밖. B비어 있음.",
+          "continuity": "A원본 그대로. 낮은 사각 구역. / A완성·B자유.",
+          "aspect_ratio": "16:9",
+          "image_file": "images/C05/K02.png",
+          "motion_camera_notes": "선 걸기→사진→실행자 B시선."
+        },
+        {
+          "scene_id": "S03",
+          "linked_cuts": [
+            "K03"
+          ],
+          "representative_frame": "E복사본 표시 전, P는 A사진 촬영 전. B선 없음.",
+          "continuity": "A왼쪽/B오른쪽, 원본 안 옮김. / 두 번째 기록 발생.",
+          "aspect_ratio": "16:9",
+          "image_file": "images/C05/K03.png",
+          "motion_camera_notes": "실행→새 도식→담당 회전."
+        },
+        {
+          "scene_id": "S04",
+          "linked_cuts": [
+            "K04"
+          ],
+          "representative_frame": "P가 B봉에 선 걸기 전, E는 기록 들고 일어남. A선 유지.",
+          "continuity": "사람을 묶거나 제압 안 함. / 두 구역과 중앙 자유 통로.",
+          "aspect_ratio": "16:9",
+          "image_file": "images/C05/K04.png",
+          "motion_camera_notes": "B봉인→빈 의자 정렬→A로 시선."
+        },
+        {
+          "scene_id": "S05",
+          "linked_cuts": [
+            "K05"
+          ],
+          "representative_frame": "문 밖 작은 테이블에 두 복사 기록, E폰 소지, 프로젝터 아직 꺼짐. P는 책상 바라봄.",
+          "continuity": "원본은 책상, E는 문 쪽 자유 통로. / 문 오른쪽 벽에 비교 켜짐.",
+          "aspect_ratio": "16:9",
+          "image_file": "images/C05/K05.png",
+          "motion_camera_notes": "사진→연결→투사. 첫 프레임 투사 금지."
+        },
+        {
+          "scene_id": "S06",
+          "linked_cuts": [
+            "K06"
+          ],
+          "representative_frame": "P마지막 봉에 선 연결 전, 벽 비교 켜짐. E문 밖에서 플러그 잡기 전. 마지막 구간 열림.",
+          "continuity": "P안/E밖, 몸에 감긴 선 없음. / P만 안쪽, 투사 꺼질 준비.",
+          "aspect_ratio": "16:9",
+          "image_file": "images/C05/K06.png",
+          "motion_camera_notes": "선 닫기→E플러그 분리. 한 동작씩."
+        },
+        {
+          "scene_id": "S07",
+          "linked_cuts": [
+            "K07"
+          ],
+          "representative_frame": "투사가 막 꺼진 빈 벽·완성된 선. P아직 벽 보고 E문 밖.",
+          "continuity": "삭제가 아니라 표시만 꺼짐. 다치거나 실제 감금 안 함. / 담당 자기 규칙 실패 인지.",
+          "aspect_ratio": "16:9",
+          "image_file": "images/C05/K07.png",
+          "motion_camera_notes": "뒤돌기→한 발→스스로 멈춤→폰 기록 확인."
+        },
+        {
+          "scene_id": "S08",
+          "linked_cuts": [
+            "K08"
+          ],
+          "representative_frame": "P미부착 표·닫힌 가위 소지. 선 팽팽, E폰 아직 아래.",
+          "continuity": "기존1·2유지, 새 표는 자기 가슴. / 자기 사례 확보, 출입 해제.",
+          "aspect_ratio": "16:9",
+          "image_file": "images/C05/K08.png",
+          "motion_camera_notes": "표 부착→사진→선 자름. 실패 기록 전에 해제하지 않음."
+        },
+        {
+          "scene_id": "S09",
+          "linked_cuts": [
+            "K09"
+          ],
+          "representative_frame": "E열린 폴더·폰, P가슴3번·문 옆. 비뚤어진 봉 바퀴에 손은 아직 안 닿음.",
+          "continuity": "마지막 선 해제, 자기 사례표 유지. / 허구 규칙 코미디 완결.",
+          "aspect_ratio": "16:9",
+          "image_file": "images/C05/K09.png",
+          "motion_camera_notes": "기록 정리→출발→P손 뻗다 거둠. 제목 고정."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,282 @@
+{
+  "stage": "storyboard",
+  "independent_first_pass": true,
+  "blind_first": true,
+  "reviewers": [
+    "/root/v4_reviewer_a",
+    "/root/v4_reviewer_b",
+    "/root/v4_reviewer_c"
+  ],
+  "score_order": [
+    "hook",
+    "comedy",
+    "event",
+    "difference",
+    "readiness"
+  ],
+  "scores": {
+    "A": [
+      [
+        4,
+        4,
+        4,
+        4,
+        3
+      ],
+      [
+        5,
+        5,
+        4,
+        5,
+        4
+      ],
+      [
+        4,
+        3,
+        3,
+        4,
+        3
+      ],
+      [
+        5,
+        4,
+        5,
+        4,
+        4
+      ],
+      [
+        4,
+        4,
+        4,
+        4,
+        4
+      ]
+    ],
+    "B": [
+      [
+        4,
+        4,
+        4,
+        4,
+        4
+      ],
+      [
+        5,
+        4,
+        4,
+        5,
+        4
+      ],
+      [
+        4,
+        3,
+        3,
+        4,
+        3
+      ],
+      [
+        5,
+        3,
+        4,
+        4,
+        3
+      ],
+      [
+        3,
+        4,
+        4,
+        4,
+        4
+      ]
+    ],
+    "C": [
+      [
+        4,
+        3,
+        4,
+        4,
+        3
+      ],
+      [
+        5,
+        4,
+        4,
+        5,
+        4
+      ],
+      [
+        4,
+        4,
+        3,
+        4,
+        3
+      ],
+      [
+        4,
+        3,
+        4,
+        4,
+        3
+      ],
+      [
+        4,
+        3,
+        4,
+        4,
+        3
+      ]
+    ]
+  },
+  "score_note": "수정 전 초안에 대한 주관적 편집 판단. 관객 재미 측정이나 사용자 승인 아님.",
+  "weakest": {
+    "A": "C03 설명과 참석 연결",
+    "B": "C04 후반",
+    "C": "C04 후반"
+  },
+  "issues": [
+    {
+      "id": "A-001",
+      "cuts": "C01 K03–K06",
+      "severity": "필수",
+      "problem": "첫 분량 문제와 빨간 조건 문제가 구분되지 않음",
+      "pd_resolution": "회색 분량/빨간 조건을 순서대로 분리",
+      "status": "resolved_confirmed_by_A_B_C"
+    },
+    {
+      "id": "A-002",
+      "cuts": "C03 K07–K08",
+      "severity": "필수",
+      "problem": "참석과 사례 제출 혼동",
+      "pd_resolution": "직접 경험담을 듣는 선택과 CTA",
+      "status": "resolved_confirmed_by_A_B_C"
+    },
+    {
+      "id": "A-003",
+      "cuts": "C01 K03, C04 K01, C05 K01 외",
+      "severity": "필수",
+      "problem": "한 컷 안 여러 인서트와 하나의 첫 프레임 불일치",
+      "pd_resolution": "C04 K01a/b 분리, 나머지 실제 공간의 단일 구도와 카메라 이동으로 확정",
+      "status": "resolved_confirmed_by_A_B_C"
+    },
+    {
+      "id": "A-004",
+      "cuts": "C01 K07–K08",
+      "severity": "제안",
+      "problem": "발표 영업 동기",
+      "pd_resolution": "설명을 받아 적은 기록과 칭찬에 허영 회복",
+      "status": "resolved_confirmed_by_A_B_C"
+    },
+    {
+      "id": "A-005",
+      "cuts": "C03 K05–K07",
+      "severity": "제안",
+      "problem": "절차적 중반",
+      "pd_resolution": "패널 동작 삭제/파일 확보 선행",
+      "status": "resolved_confirmed_by_A_B_C"
+    },
+    {
+      "id": "A-006",
+      "cuts": "C05 K04",
+      "severity": "제안",
+      "problem": "원인 없는 의자 이동",
+      "pd_resolution": "삭제",
+      "status": "resolved_confirmed_by_A_B_C"
+    },
+    {
+      "id": "B-001",
+      "cuts": "C04 K05–K08",
+      "severity": "필수",
+      "problem": "후반 대화·인정·착석이 22초로 느슨",
+      "pd_resolution": "압축, 감독 의자 차지와 감독 서서 촬영",
+      "status": "resolved_confirmed_by_A_B_C"
+    },
+    {
+      "id": "B-002",
+      "cuts": "C02 K03–K04",
+      "severity": "필수",
+      "problem": "실행 동작 되감김",
+      "pd_resolution": "K04에서 한 번 실행",
+      "status": "resolved_confirmed_by_A_B_C"
+    },
+    {
+      "id": "B-003",
+      "cuts": "C02 K07",
+      "severity": "필수",
+      "problem": "닫기와 삭제 혼용",
+      "pd_resolution": "미저장 결과 폐기로 통일, 시간 이력은 변화 없음",
+      "status": "resolved_confirmed_by_A_B_C"
+    },
+    {
+      "id": "B-004",
+      "cuts": "C03 K08",
+      "severity": "필수",
+      "problem": "참석 CTA 불분명",
+      "pd_resolution": "경험담 듣기 CTA",
+      "status": "resolved_confirmed_by_A_B_C"
+    },
+    {
+      "id": "B-005",
+      "cuts": "C01 K07–K08",
+      "severity": "제안",
+      "problem": "악마 영업 동기",
+      "pd_resolution": "수 세기는 미채택, 칭찬·기록으로 동기",
+      "status": "resolved_confirmed_by_A_B_C"
+    },
+    {
+      "id": "B-006",
+      "cuts": "C03 K07",
+      "severity": "제안",
+      "problem": "8초에 패널·파일·벨트·두 대사 과밀",
+      "pd_resolution": "패널 이미 열림, 파일 이미 확보",
+      "status": "resolved_confirmed_by_A_B_C"
+    },
+    {
+      "id": "C-001",
+      "cuts": "C01 K07–K08",
+      "severity": "제안",
+      "problem": "자발적 발표 욕구 계기 부족",
+      "pd_resolution": "칭찬에 허영 살아나는 반응",
+      "status": "resolved_confirmed_by_A_B_C"
+    },
+    {
+      "id": "C-002",
+      "cuts": "C03 K08",
+      "severity": "필수",
+      "problem": "제출과 참석 혼동",
+      "pd_resolution": "듣는 행동으로 확정",
+      "status": "resolved_confirmed_by_A_B_C"
+    },
+    {
+      "id": "C-003",
+      "cuts": "C04 K05–K08",
+      "severity": "필수",
+      "problem": "후반 느슨하고 의자 충돌은 무관한 덤 개그",
+      "pd_resolution": "감독 의자 상실과 구도 확장으로 통제 실패",
+      "status": "resolved_confirmed_by_A_B_C"
+    },
+    {
+      "id": "C-004",
+      "cuts": "C05 K04–K05",
+      "severity": "필수",
+      "problem": "저절로 움직인 의자·두 번째 기록 출처 누락",
+      "pd_resolution": "이동 삭제/K03 프린터에서 두 번째 기록 확보",
+      "status": "resolved_confirmed_by_A_B_C"
+    },
+    {
+      "id": "C-005",
+      "cuts": "C05 K06–K08",
+      "severity": "제안",
+      "problem": "봉인 지리 복잡",
+      "pd_resolution": "출구로 가는 낮은 선 한 가닥, 자발적 멈춤",
+      "status": "resolved_confirmed_by_A_B_C"
+    }
+  ],
+  "cross_review": {
+    "A": "B001~006/C001~005 대조. 동의하되 감독 의자는 유일 해법 아님, 미저장 폐기는 시간 이력 변화 아님, 청중을 영혼 계약 대상으로 만들지 말 것. 모든 안 길이를 같게 맞추지 말 것.",
+    "B": "A001~006/C001~005 대조. A003은 연속이라고 이름만 바꾸면 안 됨. 영업 계산 선호는 취향. 선은 물리적 감금보다 자기 규칙.",
+    "C": "A001~006/B001~006 대조. A003 첫 독립에서 놓친 문제 인정. B005 사람 수 세기는 영혼 영업 위험 때문에 칭찬 선호. B006 과밀 동작 삭제 우선."
+  },
+  "cross_synthesis": "세 명 모두 핵심 필수 인과·목적·실제 컷 문제에 동의. 영업 계산 vs 칭찬은 PD가 칭찬 선택. 길이 일괄화 요구는 채택하지 않고 사건·반응 남기며 40/43/42/39/43초로 재설계.",
+  "actual_images_viewed": false,
+  "revision_confirmation": "A/B/C 각각 v4.1 실제파일 대조 후 모든 필수문제 해결·이미지진행가능. B가 발견한 C04K01a 복귀시점 문서오류도 매달린상태로 정정. 정지이미지 검수는 별도 대기."
+}

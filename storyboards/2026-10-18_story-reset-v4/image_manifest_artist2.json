@@ -1,0 +1,581 @@
+{
+  "run_id": "2026-10-18_story-reset-v4",
+  "artist": "/root/v4_image_artist2",
+  "generation_tool": "image_gen",
+  "images": [
+    {
+      "concept_id": "C02",
+      "cut_id": "K01",
+      "scene_id": "S01",
+      "image_path": "images/C02/K01.png",
+      "prompt": "Use case: ads-marketing. Create one photorealistic cinematic first-frame still for an original Korean absurd time-travel office comedy, C02 K01. Landscape exactly 16:9, 1536x864, no collage, no lettering or subtitles.\nSmall plain gray laboratory office. A pale wood desk and dark desktop monitor occupy the left side; a thin vertical glowing teal-blue temporal fissure is on the right wall, not a wide portal. Low 35mm two-person setup from close to keyboard height. P, a Korean man in his mid-thirties with round face, short neat black hair, thin silver wire glasses, pale gray knit sweater over white shirt and black trousers, sits left at the keyboard, profile/three-quarter face clearly recognizable. His right index finger is hovering just above a large key, not pressed. He is focused, unaware. In the extreme right foreground only the entering right shoulder/upper arm and part of torso of F, the future version of EXACTLY THE SAME MAN, is emerging from the fissure: navy wool overcoat over the identical gray sweater. An orange spiral notebook is tucked underneath F's right arm, visible at the lower right. F has NOT reached or touched P, no hand contact yet. The temporal light is a restrained teal rim on a believable gray office, cinematic tension, practical textured clothing, realistic skin, natural hands. No frontal wide advertising pose. Keep the laptop absent: one desktop monitor, one keyboard. No readable UI; screen seen obliquely with neutral dark blank panel. First instant BEFORE interruption; no stopped wrist or completed action. No text, logos, extra people, extra fingers, watermarks.",
+      "reference_images": [],
+      "source_generated_path": "C:/Users/wseok/.codex/generated_images/01a14def-0680-7111-9c20-26abc828fc94/exec-cfec4807-2a1b-44c5-8c20-09dde6b073db.png",
+      "generation_tool": "image_gen",
+      "first_frame": "과거 손은 실행 키 바로 위, 오른쪽 벽에 가는 파란 균열과 미래 어깨 일부. 아직 접촉 전.",
+      "next_motion": "미래가 한 걸음 나와 손목 멈춤. 접촉 짧게.",
+      "artist_review": {
+        "opened_actual_image": true,
+        "status": "artist_pass_pending_independent_review",
+        "notes": [
+          "개별 실제 원본을 열어 구도·노트 상태·접촉 전 시점을 확인.",
+          "도형의 변화와 후속 움직임은 이미지에서 검증하지 않았으며 후편집/영상화 메모로만 기록."
+        ]
+      },
+      "selected": true
+    },
+    {
+      "concept_id": "C02",
+      "cut_id": "K02",
+      "scene_id": "S02",
+      "image_path": "images/C02/K02.png",
+      "prompt": "Use case: ads-marketing. Generate a NEW 16:9 photorealistic cinematic first-frame still C02 K02 of the same time-travel comedy. Reference image 1 establishes the exact Korean male actor, silver glasses, short black hairstyle, gray knit over white shirt, navy coat, small gray office and orange spiral notebook. F is the future version of the seated man from reference, EXACT SAME FACE and AGE, wearing navy overcoat over the gray sweater. Show F in a close three-quarter shot from chest upward, relief just beginning on his face as he holds an orange-covered spiral notebook OPEN toward himself and camera. Notebook occupies lower half and F's recognizable face upper right. P is at most a blurred gray-sleeved shoulder at far left; no second different actor. In notebook, simple gray square flow diagrams and TWO bold red correction arrows are still fully visible/intact. These are crude geometric diagrams only, NO letters, numbers or words. One arrow curves from one square to another and one points down; generous blank paper for later compositing. This is BEFORE the marks disappear, no erased or faded effects yet. Both naturally formed hands support notebook edges; no pen needed. Gray office with faint cyan rim from fissure on right, pale wood desk blurred below; grounded thriller lighting, relief will turn to alarm later. No collage, no captions, no logo, no decorative typography. Preserve same facial identity, wardrobe and orange notebook. No changes in age, hairstyle, glasses.",
+      "reference_images": [
+        "C:/Users/wseok/.codex/generated_images/01a14def-0680-7111-9c20-26abc828fc94/exec-cfec4807-2a1b-44c5-8c20-09dde6b073db.png"
+      ],
+      "source_generated_path": "C:/Users/wseok/.codex/generated_images/01a14def-0680-7111-9c20-26abc828fc94/exec-a4f47b12-250f-482f-9f0e-5c53d50dd09d.png",
+      "generation_tool": "image_gen",
+      "first_frame": "노트 도형과 수정 화살표가 아직 온전함. 미래 안도 표정.",
+      "next_motion": "메모 소멸→표정 당황. 노트 효과 후편집.",
+      "artist_review": {
+        "opened_actual_image": true,
+        "status": "artist_pass_pending_independent_review",
+        "notes": [
+          "개별 실제 원본을 열어 구도·노트 상태·접촉 전 시점을 확인.",
+          "도형의 변화와 후속 움직임은 이미지에서 검증하지 않았으며 후편집/영상화 메모로만 기록."
+        ]
+      },
+      "selected": true
+    },
+    {
+      "concept_id": "C02",
+      "cut_id": "K03",
+      "scene_id": "S03",
+      "image_path": "images/C02/K03.png",
+      "prompt": "Use case: ads-marketing. New cinematic photographic 16:9 first frame C02 K03, original Korean time-travel comedy. Reference 1 = exact P actor/gray knit/office, reference 2 = identical F actor/navy coat and orange spiral notebook. Both are exactly the SAME person at same age, same short black hair, round face and thin silver glasses, no look-alike substitution. 35mm medium two-shot, focus on P's baffled face. P in gray knit/white shirt sits left at desk leaning torso and head BACK from the keyboard, a confused incredulous raised-brow glance toward F. F in navy overcoat leans from right, urgently reaching his LEFT hand toward P's hovering right wrist but NOT yet touching it. F holds orange spiral notebook open in RIGHT hand close to his chest; the two pages are completely BLANK except pale grid ruling, NO diagrams, arrows, writing or doodles. F concerned urgency, P exasperated disbelief, distinct emotional acting. Keyboard visible at lower left, no key being pressed. Pale wood desk/one dark desktop monitor left, gray small office shelving, narrow teal fissure right background. Shallow depth but both faces readable, real skin and wool, hand anatomy clean, cinematic subdued cool light. Moment BEFORE guiding P's hand. No captions, UI words, logos, watermarks or extra people; avoid finished hand contact and restored notebook.",
+      "reference_images": [
+        "C:/Users/wseok/.codex/generated_images/01a14def-0680-7111-9c20-26abc828fc94/exec-cfec4807-2a1b-44c5-8c20-09dde6b073db.png",
+        "C:/Users/wseok/.codex/generated_images/01a14def-0680-7111-9c20-26abc828fc94/exec-a4f47b12-250f-482f-9f0e-5c53d50dd09d.png"
+      ],
+      "source_generated_path": "C:/Users/wseok/.codex/generated_images/01a14def-0680-7111-9c20-26abc828fc94/exec-8d90a164-dbae-43ad-94d7-47bb05900e28.png",
+      "generation_tool": "image_gen",
+      "first_frame": "미래는 빈 노트를 들고 과거 손을 안내하기 전. 과거는 뒤로 젖혀짐.",
+      "next_motion": "미래가 과거 손을 실행 키 위로 안내→과거 황당한 반응. 아직 누르지 않고 끝.",
+      "artist_review": {
+        "opened_actual_image": true,
+        "status": "artist_pass_pending_independent_review",
+        "notes": [
+          "개별 실제 원본을 열어 구도·노트 상태·접촉 전 시점을 확인.",
+          "도형의 변화와 후속 움직임은 이미지에서 검증하지 않았으며 후편집/영상화 메모로만 기록."
+        ]
+      },
+      "selected": true
+    },
+    {
+      "concept_id": "C02",
+      "cut_id": "K04",
+      "scene_id": "S04",
+      "image_path": "images/C02/K04.png",
+      "prompt": "Use case: ads-marketing. NEW cinematic photorealistic 16:9 frame C02 K04, same Korean time travel office comedy. Reference images lock the two IDENTICAL faces, silver glasses, black hairstyle, gray knit P and navy overcoat F, pale wood desk, small gray office. Change camera to a SIDE THREE-QUARTER two-shot where the desktop monitor's SCREEN is visible large on LEFT third and BOTH recognizable male faces are on RIGHT half. P gray knit seated nearest camera, right index finger hovering one centimeter above large keyboard key, NOT pressed yet. F navy coat leans beside him with EXPECTANT tense concentration toward monitor. Neither is celebrating or despairing YET: this is the first instant before result appears. The monitor shows a plain neutral charcoal blank field with a single small soft gray rectangular button shape low down, no text, no results, no chart. Open ORANGE spiral notebook lies flat in left corner of pale wood desk between camera and monitor with completely BLANK pale-grid pages, no gray diagrams/red arrows. Notebook not being held. P and F are same round-faced Korean man age 35, same glasses and features; F not older. F's hands resting apart naturally on table/side, NOT holding P. Right gray wall retains thin cyan fissure behind them. Cinematic cool gray light with cyan rim, realistic wool/skin, no symmetrical frontal staging. Clear monitor surface reserved for later UI replacement, no logos, words, numbers, captions, watermark, duplicate monitors, extra hands, or completed results.",
+      "reference_images": [
+        "C:/Users/wseok/.codex/generated_images/01a14def-0680-7111-9c20-26abc828fc94/exec-8d90a164-dbae-43ad-94d7-47bb05900e28.png",
+        "C:/Users/wseok/.codex/generated_images/01a14def-0680-7111-9c20-26abc828fc94/exec-cfec4807-2a1b-44c5-8c20-09dde6b073db.png"
+      ],
+      "source_generated_path": "C:/Users/wseok/.codex/generated_images/01a14def-0680-7111-9c20-26abc828fc94/exec-d6dbfe0e-9c7f-41e3-a761-f52dacf2d4a3.png",
+      "generation_tool": "image_gen",
+      "first_frame": "실행 키 위 과거 손, 기대하며 화면 보는 미래. 화면은 결과 전.",
+      "next_motion": "결과 등장→미래 절망→과거 미소 멎음.",
+      "artist_review": {
+        "opened_actual_image": true,
+        "status": "artist_pass_pending_independent_review",
+        "notes": [
+          "실제 개별 원본 열람 완료. 결과 전 모니터와 빈 노트, 소매로 인물 구분, 중복 카드 도형 상태 확인.",
+          "후속 움직임·UI 변화는 미실행."
+        ]
+      },
+      "selected": true
+    },
+    {
+      "concept_id": "C02",
+      "cut_id": "K05",
+      "scene_id": "S05",
+      "image_path": "images/C02/K05.png",
+      "prompt": "Use case: ads-marketing. NEW 16:9 photographic cinema first-frame insert C02 K05. Reference 1 locks same pale wood desk, gray-knit P sleeve, navy coat F sleeve, open orange spiral notebook; reference 2 locks the orange notebook's blank paper state. True overhead TOP-DOWN shot of tabletop, only two human hands/forearms, no faces. At center three loose light-gray rectangular paper sheets at slightly untidy angles, plus TWO smaller cream cards printed with the EXACT SAME simple black circle and three short parallel stripes, no words, no numbers. Duplicate matching cards clearly separate, not a single merged card. P's right hand in light gray knit sleeve enters from bottom-left and lightly grips just ONE duplicate card edge, beginning to pull it outward, still above table. F's left hand in navy wool coat sleeve enters from right, hovering toward that card with palm down but NOT touching card or P yet; four fingers and thumb natural. Orange spiral notebook lies open across TOP edge with blank pale-grid pages, no red arrows or diagrams. Keyboard cropped far left if needed, pale wood fills rest. This is BEFORE the future hand puts duplicate back. Precise simple blocking, grounded cinematic cool light, tactile paper/wool, slightly absurd forensic restoration of a mess. No additional hands, no captions, no text, no logos, no colored UI overlays, no arrows on notebook, no collage.",
+      "reference_images": [
+        "C:/Users/wseok/.codex/generated_images/01a14def-0680-7111-9c20-26abc828fc94/exec-d6dbfe0e-9c7f-41e3-a761-f52dacf2d4a3.png",
+        "C:/Users/wseok/.codex/generated_images/01a14def-0680-7111-9c20-26abc828fc94/exec-8d90a164-dbae-43ad-94d7-47bb05900e28.png"
+      ],
+      "source_generated_path": "C:/Users/wseok/.codex/generated_images/01a14def-0680-7111-9c20-26abc828fc94/exec-440993b6-608c-47e1-ba15-d021fc99d328.png",
+      "generation_tool": "image_gen",
+      "first_frame": "회색 소매 손이 같은 문양 카드 한 장을 빼려 하고 남색 소매 손은 아직 닿지 않음.",
+      "next_motion": "미래가 중복 카드를 되돌려 넣음. 파일 대응은 후편집 도식.",
+      "artist_review": {
+        "opened_actual_image": true,
+        "status": "artist_pass_pending_independent_review",
+        "notes": [
+          "실제 개별 원본 열람 완료. 결과 전 모니터와 빈 노트, 소매로 인물 구분, 중복 카드 도형 상태 확인.",
+          "후속 움직임·UI 변화는 미실행."
+        ]
+      },
+      "selected": true
+    },
+    {
+      "concept_id": "C02",
+      "cut_id": "K06",
+      "scene_id": "S06",
+      "image_path": "images/C02/K06.png",
+      "prompt": "Use case: ads-marketing. NEW photorealistic cinematic 16:9 first-frame still C02 K06. References: 1 establishes same twin time-travel actors and desk/monitor; 2 is current duplicate paper arrangement. Keep EXACT SAME round-faced Korean man, short black hair and thin silver glasses for BOTH P and F. P wears light gray knit over white shirt, F the same knit plus navy wool overcoat. Now BOTH stand side by side behind desk, P right and F center, leaning slightly toward desktop screen on left with tense anticipatory faces. Camera elevated three-quarter angle, enough depth to see their faces, monitor surface left and notebook foreground simultaneously; medium shot not frontal wide. Open orange spiral notebook rests prominently on near-left desk, its pale grid pages ENTIRELY BLANK: NO diagrams, NO red arrows yet. Next to keyboard, THREE gray paper sheets and TWO cream cards with identical black circle and three stripes are untidily restored. Monitor dark neutral empty UI field, one small unlabelled button, NO results yet. No fists raised, no relief or celebration yet: this is waiting for execution BEFORE the incorrect result and notebook restoration. Thin teal fissure on right wall, same gray shelves. Real textures, suspenseful lighting with blue rim; facial emotion eager uncertainty, slightly tense body weight. No printed words, logos, numbers, subtitle, collage, extra hands, additional people, or diagrams prematurely restored.",
+      "reference_images": [
+        "C:/Users/wseok/.codex/generated_images/01a14def-0680-7111-9c20-26abc828fc94/exec-d6dbfe0e-9c7f-41e3-a761-f52dacf2d4a3.png",
+        "C:/Users/wseok/.codex/generated_images/01a14def-0680-7111-9c20-26abc828fc94/exec-440993b6-608c-47e1-ba15-d021fc99d328.png"
+      ],
+      "source_generated_path": "C:/Users/wseok/.codex/generated_images/01a14def-0680-7111-9c20-26abc828fc94/exec-0cb622de-d503-45b2-b855-887002857e8a.png",
+      "generation_tool": "image_gen",
+      "first_frame": "모니터는 실행 대기, 노트 수정 영역 비어 있음. 둘이 기대하며 나란히 섬.",
+      "next_motion": "잘못된 결과→노트 복원→환호 순서.",
+      "artist_review": {
+        "opened_actual_image": true,
+        "status": "artist_pass_pending_independent_review",
+        "notes": [
+          "실제 개별 원본 열람 완료. 결과 전 모니터와 빈 노트, 소매로 인물 구분, 중복 카드 도형 상태 확인.",
+          "후속 움직임·UI 변화는 미실행."
+        ]
+      },
+      "selected": true
+    },
+    {
+      "concept_id": "C02",
+      "cut_id": "K07",
+      "scene_id": "S07",
+      "image_path": "images/C02/K07.png",
+      "prompt": "Use case: ads-marketing. Create NEW cinematic photorealistic 16:9 first frame C02 K07, same original time-travel comedy. Reference 1 = office and identical two male actors/sleeves. Reference 2 = exact orange notebook's RESTORED geometric flowchart, gray outlined boxes and two red arrows. Reference 3 = keyboard-height opening framing to echo from reverse side.\nCamera very LOW at keyboard height from opposite end of the desk, three-quarter angle, monitor surface visible on RIGHT and P/F on left/background. P pale gray cable-knit over white shirt, same round Korean face/silver glasses/black hair. His finger is moving toward a key to discard an unsaved result, but has NOT pressed. F identical actor wearing navy wool coat leans in urgently; his open palm hovers about 3cm ABOVE the keyboard, about to cover it, without touching P or keys yet. Clean separated hands, no extra limbs. Monitor shows four SIMPLE gray outlined squares slightly misaligned/staggered, and ONE blank pale rectangular button at bottom, no text or numbers; these represent an imperfect result, not a finished clean grid. At far left desk edge orange spiral notebook open with FULLY RESTORED gray box flowchart and TWO RED arrows matching reference 2. Paper duplicate cards nearby subtle. Gray office, narrow teal fissure on same right wall now toward back of frame; realistic cinematic low angle, emotional seriousness about protecting an absurd failure, no smiles. No new magical disappearance, no fading notebook, no subtitles, logos, labels or watermark. This is BEFORE protective palm lands.",
+      "reference_images": [
+        "C:/Users/wseok/.codex/generated_images/01a14def-0680-7111-9c20-26abc828fc94/exec-0cb622de-d503-45b2-b855-887002857e8a.png",
+        "C:/Users/wseok/.codex/generated_images/01a14def-0680-7111-9c20-26abc828fc94/exec-a4f47b12-250f-482f-9f0e-5c53d50dd09d.png",
+        "C:/Users/wseok/.codex/generated_images/01a14def-0680-7111-9c20-26abc828fc94/exec-cfec4807-2a1b-44c5-8c20-09dde6b073db.png"
+      ],
+      "source_generated_path": "C:/Users/wseok/.codex/generated_images/01a14def-0680-7111-9c20-26abc828fc94/exec-f5179394-282a-43d3-996b-79d58c4e0d07.png",
+      "generation_tool": "image_gen",
+      "first_frame": "모니터에 미저장 결과와 단순 폐기 버튼 자리. 과거 손이 폐기 조작으로 향하고 미래 손은 덮기 직전. 수정 노트는 이미 복원되어 유지.",
+      "next_motion": "미저장 결과 폐기를 손으로 막음. 이미 겪은 실험과 노트의 시간 이력은 변하지 않음.",
+      "artist_review": {
+        "opened_actual_image": true,
+        "status": "artist_pass_pending_independent_review",
+        "notes": [
+          "개별 실제 이미지 열람 완료. 복원 노트·동일 얼굴·키보드 보호·클리커·엔딩 여백 확인.",
+          "K07 노트의 도형 배치는 K02와 페이지별 위치가 조금 다르므로 후편집 도형 통일 메모. 핵심 빈 상태/복원 상태는 정확.",
+          "동영상/오디오/Flow 실행 없음."
+        ]
+      },
+      "selected": true
+    },
+    {
+      "concept_id": "C02",
+      "cut_id": "K08",
+      "scene_id": "S08",
+      "image_path": "images/C02/K08.png",
+      "prompt": "Use case: ads-marketing. Generate NEW photoreal 16:9 first-frame cinema still C02 K08, Korean absurd time-travel office story. Reference 1 = exact twin actor appearance, costumes, monitor imperfect squares; reference 2 = orange notebook restored diagram. Stable frontal MEDIUM composition, not wide. P gray-knit/white-shirt man stands center-left waist-up, holding a small plain BLACK PRESENTATION CLICKER in his right hand at waist, his head still turned about 30 degrees to glance at monitor before turning toward camera to speak. No speaking yet. F identical man in navy coat stands SMALLER one step behind on RIGHT, tense and watchful over keyboard, holding orange spiral notebook against chest with cover edge visible, still slightly concerned, not yet relaxed or reaching. They share identical face, same age, thin silver glasses and short black hair. Desktop monitor at far-left edge angled toward camera shows four lightly outlined gray squares staggered/misaligned on dark field, no words, no numbers. Keyboard remains on pale wood desk bottom, papers/cards subtly present. Same gray office and thin teal seam on right wall background. Warm-neutral face light now slightly softer while cyan accent persists. Composition shows character faces, clicker and monitor, enough top-left quiet gray wall for later subtitle but NO baked-in text. No title, no logo, no audience, no stage, no changed location. This first frame is BEFORE P faces front and BEFORE F's reflexive hand blocking.",
+      "reference_images": [
+        "C:/Users/wseok/.codex/generated_images/01a14def-0680-7111-9c20-26abc828fc94/exec-f5179394-282a-43d3-996b-79d58c4e0d07.png",
+        "C:/Users/wseok/.codex/generated_images/01a14def-0680-7111-9c20-26abc828fc94/exec-a4f47b12-250f-482f-9f0e-5c53d50dd09d.png"
+      ],
+      "source_generated_path": "C:/Users/wseok/.codex/generated_images/01a14def-0680-7111-9c20-26abc828fc94/exec-7dd8386f-4543-44e3-933f-2141f3998a87.png",
+      "generation_tool": "image_gen",
+      "first_frame": "과거는 리모컨을 들고 정면 보기 전. 모니터 어긋난 도식, 미래는 노트 들고 긴장 풀기 전.",
+      "next_motion": "정면 발화→미래 손 반사→옆으로 밀림.",
+      "artist_review": {
+        "opened_actual_image": true,
+        "status": "artist_pass_pending_independent_review",
+        "notes": [
+          "개별 실제 이미지 열람 완료. 복원 노트·동일 얼굴·키보드 보호·클리커·엔딩 여백 확인.",
+          "K07 노트의 도형 배치는 K02와 페이지별 위치가 조금 다르므로 후편집 도형 통일 메모. 핵심 빈 상태/복원 상태는 정확.",
+          "동영상/오디오/Flow 실행 없음."
+        ]
+      },
+      "selected": true
+    },
+    {
+      "concept_id": "C02",
+      "cut_id": "K09",
+      "scene_id": "S09",
+      "image_path": "images/C02/K09.png",
+      "prompt": "Use case: ads-marketing. NEW photorealistic 16:9 closing first-frame still C02 K09 for the same Korean time-travel comedy. Reference 1 fixes exact F actor/gray office/coat; reference 2 establishes restored notebook symbols. ASYMMETRICAL SIDE MEDIUM-CLOSE composition: LEFT 50 PERCENT is uncluttered gray wall with absolutely NO text or objects, calm dark enough for later title. RIGHT HALF contains F alone, same Korean male age35 round face short black hair thin silver glasses, navy overcoat over gray knit/white shirt. P is completely OUT OF FRAME. F seated or leaning at desk in profile/three-quarter, gaze fixed alertly down at keyboard, protective near-paranoid seriousness but small scale. His ONE visible open hand rests LIGHTLY flat across several keyboard keys to guard them; no typing, no second touching hand. Orange spiral notebook with restored gray-box diagrams and two red arrows lies open beside keyboard on right/lower edge, remains intact. Desktop monitor cropped at far right, shows partial staggered gray square diagram without words. No new magic, no vanishing, narrow teal reflection at far-right edge only, not across the blank left wall. Cinematic natural quiet office light, tactile navy wool and paper, deliberate negative space. No captions, event title, lettering, numbers, logos, watermark or collage. The protective palm is already lightly at rest, only a tiny guarding reaction will happen later.",
+      "reference_images": [
+        "C:/Users/wseok/.codex/generated_images/01a14def-0680-7111-9c20-26abc828fc94/exec-7dd8386f-4543-44e3-933f-2141f3998a87.png",
+        "C:/Users/wseok/.codex/generated_images/01a14def-0680-7111-9c20-26abc828fc94/exec-a4f47b12-250f-482f-9f0e-5c53d50dd09d.png"
+      ],
+      "source_generated_path": "C:/Users/wseok/.codex/generated_images/01a14def-0680-7111-9c20-26abc828fc94/exec-037288da-2b88-4ef2-89e6-284ffd6be99e.png",
+      "generation_tool": "image_gen",
+      "first_frame": "미래가 손을 키보드 위에 가볍게 얹음. 과거 프레임 밖. 왼쪽 벽 문자 없이.",
+      "next_motion": "작은 손 경계 반응만. 제목 후편집.",
+      "artist_review": {
+        "opened_actual_image": true,
+        "status": "artist_pass_pending_independent_review",
+        "notes": [
+          "개별 실제 이미지 열람 완료. 복원 노트·동일 얼굴·키보드 보호·클리커·엔딩 여백 확인.",
+          "K07 노트의 도형 배치는 K02와 페이지별 위치가 조금 다르므로 후편집 도형 통일 메모. 핵심 빈 상태/복원 상태는 정확.",
+          "동영상/오디오/Flow 실행 없음."
+        ]
+      },
+      "selected": true
+    },
+    {
+      "concept_id": "C05",
+      "cut_id": "K01",
+      "scene_id": "S01",
+      "image_path": "images/C05/K01.png",
+      "prompt": "Use case: ads-marketing. NEW cinematic photo 16:9 first-frame insert C05 K01. Reference image 1 establishes the actual office furniture, P's light gray coat/white gloves and gray floor. Extreme low CLOSE-UP of one BLACK TWIN CASTER wheel on the gray rolling chair under LEFT desk A. An absurdly meticulous professional gesture: P's white cotton-gloved hand holds a short stainless steel ruler precisely alongside the wheel to check its angle; second white-gloved hand lightly poised beside the swivel, not moving it yet. Ruler has simple short measurement ticks, NO legible numbers or labels. Light gray coat sleeve visible, no actor face needed. A small plain YELLOW square label lies loose near gloved hand, NOT attached to wheel or chair yet. Top edge includes a sliver of pale gray desk underside to establish future tilt upward, not the entire desk. Clean light gray vinyl floor, realistic black rubber wheel and brushed metal caster, soft bright window daylight. Only one chair caster in focus, other chair legs naturally blurred. NO red cord/barrier visible yet, NO full-room reveal, no human foot trapped, no hazard sign, no caption, no brand, no typography, no collage. This is the very first instant before wheel adjustment and before attaching the yellow label. Documentary macro with tactile precision, genuinely serious camera treatment of an unnecessarily exact action.",
+      "reference_images": [
+        "C:/Users/wseok/.codex/generated_images/01a14def-0680-7111-9c20-26abc828fc94/exec-ba412d87-e34b-4314-99ad-80c1c892f673.png"
+      ],
+      "source_generated_path": "C:/Users/wseok/.codex/generated_images/01a14def-0680-7111-9c20-26abc828fc94/exec-a426ca18-f8c1-448b-a2ab-b517309acafa.png",
+      "generation_tool": "image_gen",
+      "first_frame": "바퀴 옆 흰 장갑 손·자, 번호표 아직 미부착. 전체 봉인 조기 공개 안 함.",
+      "next_motion": "바퀴 정렬→표 부착→폴더 손 막음.",
+      "artist_review": {
+        "opened_actual_image": true,
+        "status": "artist_pass_pending_independent_review",
+        "notes": [
+          "개별 실제 원본 열람. K01 바퀴/라벨 미부착, K02 A·B·문 위치/미연결 끝, K03 1장 기록/출력구 비어 있음 확인.",
+          "번호·행사명·비교 도식 효과는 후편집 사항."
+        ]
+      },
+      "selected": true
+    },
+    {
+      "concept_id": "C05",
+      "cut_id": "K02",
+      "scene_id": "S02",
+      "image_path": "images/C05/K02.png",
+      "prompt": "Use case: ads-marketing. Create one original photorealistic cinematic 16:9 first-frame still C05 K02, Korean absurd procedural office comedy, premium observational documentary look. Bright off-white archival office, rectangular room, NO dramatic sci-fi light. Spatial anchor: desk A on LEFT beside a large frosted daylight window, desk B on RIGHT against pale wall, open doorway centered in back wall, a broad blank white projection wall immediately to RIGHT of doorway. Both desks are modest pale gray work tables with black desktop monitors, keyboards and gray rolling office chairs. A has a black document folder on the front corner and monitor with a simple small gray diagram. B is currently unoccupied, with monitor dark and compact white printer whose output tray is empty. This is a clean ordinary office, not a dangerous site.\nP: Korean woman age40, precise straight black bob, light gray LONG conservation coat over charcoal workwear, white cotton gloves, clear protective goggles resting on TOP of her head. She stands front-left beside desk A, intent and professionally serious, holding the loose end of a thin red cloth cord/ribbon in one glove and its small red roll in the other. Around A are low silver posts about knee height with small caster bases, partially connected by a red line, but the last span nearest her is visibly OPEN and not yet attached. One small plain yellow square label at A, completely blank, no numerals.\nE: Korean man age30 with short slightly curly black hair, no glasses, light blue shirt with sleeves rolled to elbows, charcoal trousers. He stands center just OUTSIDE A's low boundary with one white copied record sheet in one hand and plain black smartphone in the other. No folder in his hand. Neutral practical curiosity, looking toward unused desk B. P and E distinct faces. B has NO red line or posts yet. Horizontal wide shot at normal eye level revealing exact room geography. Soft window light, realistic materials, restrained color: white gray, red cord, yellow label, blue shirt. NO captions, text, numbers, brands, caution signs, barrier around people, rope tangled around bodies, collage or watermark. This is BEFORE final A cord connection, not a completed sealed square.",
+      "reference_images": [],
+      "source_generated_path": "C:/Users/wseok/.codex/generated_images/01a14def-0680-7111-9c20-26abc828fc94/exec-ba412d87-e34b-4314-99ad-80c1c892f673.png",
+      "generation_tool": "image_gen",
+      "first_frame": "담당이 아직 연결 안 된 선 끝 소지. 실행자는 복사본·폰 들고 한 걸음 밖. B비어 있음.",
+      "next_motion": "선 걸기→사진→실행자 B시선.",
+      "artist_review": {
+        "opened_actual_image": true,
+        "status": "artist_pass_pending_independent_review",
+        "notes": [
+          "개별 실제 원본 열람. K01 바퀴/라벨 미부착, K02 A·B·문 위치/미연결 끝, K03 1장 기록/출력구 비어 있음 확인.",
+          "번호·행사명·비교 도식 효과는 후편집 사항."
+        ]
+      },
+      "selected": true
+    },
+    {
+      "concept_id": "C05",
+      "cut_id": "K03",
+      "scene_id": "S03",
+      "image_path": "images/C05/K03.png",
+      "prompt": "Use case: ads-marketing. New photographic 16:9 cinematic first frame C05 K03 of same original Korean procedural comedy. Reference fixes E male blue rolled-sleeve shirt/curly black hair/charcoal trousers, P female bob/light gray long coat/white gloves/goggles on head, rectangular bright gray office, left A and right B. SIDE MEDIUM view of E seated at desk B on RIGHT. E in profile calmly concentrates, his index finger hovering above keyboard BEFORE execution. Exactly ONE white copied record sheet with simple faint gray geometric boxes lies flat beside keyboard. His black phone lies next to it. Compact white printer in foreground right with output tray clearly EMPTY, no paper emerging, no stack of output; output happens later. B monitor shows neutral dark field with small blank button, no completed result, no text. B has NO red line/barrier/posts at all yet. In deeper left background P faces desk A with small black camera lifted near chest, ABOUT to photograph A, not yet looking toward E. A remains in fixed place with gray chair and black folder, knee-high red line now a completed simple perimeter and blank yellow label. Center-back doorway and blank white wall right of door remain spatially consistent, softened focus. Natural bright archival-office light, premium documentary focus, human concentration. No branded equipment text, numbers, captions, duplicate paper prematurely printed, wire around bodies, dramatic sci-fi effects or collage. Both actual characters match the reference exactly.",
+      "reference_images": [
+        "C:/Users/wseok/.codex/generated_images/01a14def-0680-7111-9c20-26abc828fc94/exec-ba412d87-e34b-4314-99ad-80c1c892f673.png"
+      ],
+      "source_generated_path": "C:/Users/wseok/.codex/generated_images/01a14def-0680-7111-9c20-26abc828fc94/exec-2d232ea3-b0fd-4c67-99f2-54f6011cdef8.png",
+      "generation_tool": "image_gen",
+      "first_frame": "B책상에 기존 복사본 한 장, E손은 실행 전. 작은 프린터의 출력구는 비어 있음. 뒤 P는 A를 촬영하려 한다. B통제선 없음.",
+      "next_motion": "실행→다른 도식→두 번째 기록 출력·집기→담당 고개 회전. 한 구도에서 기록 출처가 보임.",
+      "artist_review": {
+        "opened_actual_image": true,
+        "status": "artist_pass_pending_independent_review",
+        "notes": [
+          "개별 실제 원본 열람. K01 바퀴/라벨 미부착, K02 A·B·문 위치/미연결 끝, K03 1장 기록/출력구 비어 있음 확인.",
+          "번호·행사명·비교 도식 효과는 후편집 사항."
+        ]
+      },
+      "selected": true
+    },
+    {
+      "concept_id": "C05",
+      "cut_id": "K04",
+      "scene_id": "S04",
+      "image_path": "images/C05/K04.png",
+      "prompt": "Use case: ads-marketing. NEW cinematic photo 16:9 first-frame C05 K04. Use reference 1 for precise room plan and both characters; reference 2 for closer male E face and printer B. Wide composition across space BETWEEN two desks, same frontal direction as reference: A LEFT beside windows remains inside completed knee-high red perimeter, same gray chair stays still, black folder untouched; B RIGHT desk now being marked off with low silver caster-base posts. P the same Korean woman40 straight black bob/light gray long coat/dark gray workwear/white gloves/goggles on head stands right beside B. She holds red roll and its loose end CLOSE TO a post, NOT attached yet. A plain yellow square label rests near B monitor with no text. E same Korean man30 wavy black hair/blue rolled-sleeve shirt/charcoal pants has just RISEN from B chair and is already on the free central aisle side, holding TWO DISTINCT white records separated slightly so both sheets are visible, faint geometric gray diagrams only, and black phone held against them. No original black folder in his hands. E calm purposeful, glancing toward doorway at back center. P focused almost satisfied but not yet dusting gloves. B monitor has simple gray diagram, printer output empty after its one page was taken. Do NOT move A chair or desk, do NOT surround E's body, no rope tied to anyone. Partial B boundary with clear missing span, no third boundary at door yet, projection wall blank. Soft bright gray-white documentary lighting, no captions, numbers, labels, logos or collage. This is before final B line connection, after E has obtained two records.",
+      "reference_images": [
+        "C:/Users/wseok/.codex/generated_images/01a14def-0680-7111-9c20-26abc828fc94/exec-ba412d87-e34b-4314-99ad-80c1c892f673.png",
+        "C:/Users/wseok/.codex/generated_images/01a14def-0680-7111-9c20-26abc828fc94/exec-2d232ea3-b0fd-4c67-99f2-54f6011cdef8.png"
+      ],
+      "source_generated_path": "C:/Users/wseok/.codex/generated_images/01a14def-0680-7111-9c20-26abc828fc94/exec-1df92255-2ce7-4d1f-ac36-54c1617430c8.png",
+      "generation_tool": "image_gen",
+      "first_frame": "P는 B봉에 선을 걸기 전, E는 두 기록을 들고 일어남. A선·의자는 그대로.",
+      "next_motion": "B봉인→담당 장갑 털고 안도→E는 두 기록을 문 옆 테이블로 가져감. A의자는 움직이지 않음.",
+      "artist_review": {
+        "opened_actual_image": true,
+        "status": "artist_pass_pending_independent_review",
+        "notes": [
+          "개별 원본 열람. 두 기록, 투사 이전/이후, 마지막 선 미연결 상태 확인.",
+          "K05_v3은 문 안팎 지리를 원래 방향으로 재확립. 테이블은 문턱에 걸친 제안 배치."
+        ]
+      },
+      "selected": true
+    },
+    {
+      "concept_id": "C05",
+      "cut_id": "K05",
+      "scene_id": "S05",
+      "image_path": "images/C05/K05.png",
+      "prompt": "Use case: ads-marketing. NEW cinematic 16:9 photographic first-frame C05 K05. Reference fixes EXACT same man E blue shirt and woman P gray coat, office room and red boundaries. New oblique MEDIUM view from near the open doorway at an angle, simultaneously showing small side table just OUTSIDE the doorway in foreground and the large blank white wall immediately INSIDE to the doorway's right in upper background. A/B desks remain deeper in room and their red lines are completed, subtle background. E stands outside at the small side table, matching short wavy black hair, pale blue rolled sleeves/charcoal trousers. TWO separate white paper records lie SIDE BY SIDE on table, each with slightly different simple gray geometric rectangles, no writing. E holds plain black phone ABOVE the records preparing to photograph; not yet connected to projector. On same table a compact white projector with lens pointing through the open doorway toward blank wall; power status OFF, lens DARK, absolutely NO beam or projected rectangle on wall. Loose short BLACK connecting cable lies on table with its free connector visible, ready for phone. P in the background is facing the two desks rather than E or wall, still satisfied with preservation work, white gloves, goggles on bobbed head. Show table below and blank wall above in ONE composition, no insert collage. Original black folder remains at A and is not on this table. Bright neutral premium observational film texture. NO projection yet, no third barrier near door yet, no captions, numerals, brand text, watermark. This is BEFORE photographing and connecting phone to projector.",
+      "reference_images": [
+        "C:/Users/wseok/.codex/generated_images/01a14def-0680-7111-9c20-26abc828fc94/exec-1df92255-2ce7-4d1f-ac36-54c1617430c8.png",
+        "C:/Users/wseok/.codex/generated_images/01a14def-0680-7111-9c20-26abc828fc94/exec-2d232ea3-b0fd-4c67-99f2-54f6011cdef8.png"
+      ],
+      "source_generated_path": "C:/Users/wseok/.codex/generated_images/01a14def-0680-7111-9c20-26abc828fc94/exec-bbc3fea4-f595-4ab2-8d5f-e57e9606d075.png",
+      "generation_tool": "image_gen",
+      "first_frame": "문 밖 작은 테이블에 두 복사 기록, E폰 소지, 프로젝터 아직 꺼짐. P는 책상 바라봄.",
+      "next_motion": "사진→연결→투사. 첫 프레임 투사 금지.",
+      "artist_review": {
+        "opened_actual_image": true,
+        "status": "rejected",
+        "notes": [
+          "K05 초안의 추가 모니터/투사 벽 방향 혼란으로 미채택. 원본 보존."
+        ]
+      },
+      "selected": false
+    },
+    {
+      "concept_id": "C05",
+      "cut_id": "K05",
+      "scene_id": "S05",
+      "image_path": "images/C05/K05_v2.png",
+      "prompt": "Use case: precise-object-edit. Edit this image for C05 K05 revision, preserve 16:9 photorealistic format, same two actors, clothes, pose, two sheets, phone, table, daylight. Two targeted corrections:\n1. The office background must have ONLY TWO computer monitors in total: keep far-left monitor A and far-right monitor B near printer, REMOVE the extra monitor in the middle directly behind man's neck/upper arm, replacing it with ordinary uncluttered desk surface. Do not add any new equipment.\n2. Rotate the white projector on foreground table so its lens faces toward the big BLANK WALL at IMAGE RIGHT, away from camera; show its rear/side casing to camera, no glowing lens, no beam and absolutely no projection. Preserve the loose disconnected black cable and two paper records exactly.\nKeep P woman looking at desk, E man preparing to photograph two records, all first-frame actions BEFORE connection. No captions or text, no other changes.",
+      "reference_images": [
+        "C:/Users/wseok/.codex/generated_images/01a14def-0680-7111-9c20-26abc828fc94/exec-bbc3fea4-f595-4ab2-8d5f-e57e9606d075.png"
+      ],
+      "source_generated_path": "C:/Users/wseok/.codex/generated_images/01a14def-0680-7111-9c20-26abc828fc94/exec-cec23a07-7f26-4037-a81b-4758ae69a80b.png",
+      "generation_tool": "image_gen",
+      "first_frame": "문 밖 작은 테이블에 두 복사 기록, E폰 소지, 프로젝터 아직 꺼짐. P는 책상 바라봄.",
+      "next_motion": "사진→연결→투사. 첫 프레임 투사 금지.",
+      "artist_review": {
+        "opened_actual_image": true,
+        "status": "rejected",
+        "notes": [
+          "K05 초안의 추가 모니터/투사 벽 방향 혼란으로 미채택. 원본 보존."
+        ]
+      },
+      "selected": false
+    },
+    {
+      "concept_id": "C05",
+      "cut_id": "K05",
+      "scene_id": "S05",
+      "image_path": "images/C05/K05_v3.png",
+      "prompt": "Use case: ads-marketing. New first frame C05 K05 revision. Cinematic 16:9 photograph. Reference is the exact office plan and cast; do not reverse the room or add monitors. Camera stays INSIDE the office looking toward back wall, same direction as reference but closer and obliquely from left. The BACK DOOR is center-left. Broad completely BLANK white projection wall is immediately RIGHT OF THIS DOOR INSIDE the office. Desk A window left is mostly cropped out; desk B right edge with red cord can be partly visible. Exactly two desks/monitors total, not three.\nE same Korean man wavy short black hair, blue rolled-sleeve shirt, charcoal trousers stands just OUTSIDE the doorway, visible through the opening. A small side table sits across the threshold but mostly outside, visible lower-left through doorway. TWO copied white record sheets lie side by side on that table, simple pale geometric diagrams. E holds black phone ABOVE them to prepare photographing. Compact white projector sits at the near edge of table aimed diagonally THROUGH THE DOORWAY toward the blank wall at right. Projector OFF: no light, no beam, no picture. A short black cable is unplugged and lying beside it. P same Korean woman bob/gray long coat/white gloves/goggles on head is INSIDE on right, in profile or back three-quarter, looking toward desk B further right, not at E. No third red barrier at door yet. Wall INSIDE room at right must remain completely blank. One frame shows papers and phone lower-left, E through door, P right side and blank wall above-right. Preserve ordinary bright documentary texture and identities. No text, no numbers, no projection, no extra computers or equipment.",
+      "reference_images": [
+        "C:/Users/wseok/.codex/generated_images/01a14def-0680-7111-9c20-26abc828fc94/exec-1df92255-2ce7-4d1f-ac36-54c1617430c8.png"
+      ],
+      "source_generated_path": "C:/Users/wseok/.codex/generated_images/01a14def-0680-7111-9c20-26abc828fc94/exec-866b8c90-a16b-4950-ab72-06bcbb2aaedf.png",
+      "generation_tool": "image_gen",
+      "first_frame": "문 밖 작은 테이블에 두 복사 기록, E폰 소지, 프로젝터 아직 꺼짐. P는 책상 바라봄.",
+      "next_motion": "사진→연결→투사. 첫 프레임 투사 금지.",
+      "artist_review": {
+        "opened_actual_image": true,
+        "status": "artist_pass_pending_independent_review",
+        "notes": [
+          "개별 원본 열람. 두 기록, 투사 이전/이후, 마지막 선 미연결 상태 확인.",
+          "K05_v3은 문 안팎 지리를 원래 방향으로 재확립. 테이블은 문턱에 걸친 제안 배치."
+        ]
+      },
+      "selected": false,
+      "superseded_by": "images/C05/K05_v4.png"
+    },
+    {
+      "concept_id": "C05",
+      "cut_id": "K06",
+      "scene_id": "S06",
+      "image_path": "images/C05/K06.png",
+      "prompt": "Use case: ads-marketing. NEW photographic cinematic 16:9 C05 K06 first frame. Reference 1 is exact current doorway/table/projection-wall geography and actors. Reference 2 fixes full room A-left/window, B-right/printer and low red barriers. Raise camera to a HIGH THREE-QUARTER view diagonally across doorway area. Keep OPEN DOOR on left with E outside and blank projection screen/wall immediately to its right INSIDE office. Two copied records and white projector on small table at left/threshold. Projector now ON, black cable CONNECTED to E's phone, and a pale blue-gray comparison of TWO simple rectangular grid diagrams joined by ONE arrow is visibly projected on wall RIGHT, with NO text or numbers. E same blue-shirt man stands outside door, phone held near cable, his free hand still away from connector: he has NOT unplugged.\nP same bob-haired woman, long light-gray coat, white gloves, goggles on head, stands INSIDE between projection wall and the room side of doorway. She is extending a thin red line toward the last low silver post across the exit route. CRITICAL FIRST-FRAME STATE: one end attached to right-side post near her, other free end IN HER GLOVE about 15cm from left post, last exit span is still UNCONNECTED and sagging with a clear gap. Existing A/B desk boundaries stay connected in background; no chaotic maze. One final low line would cross her path to doorway once connected. No cord wraps around people, no physical prison, line only knee height. No third yellow label on chest yet. Serious precise action to absurdly preserve projected light. Show floor geometry, P inside/E outside, projection ON, last line NOT attached. Bright neutral office photograph, no captions, logos, hazard words or extra people.",
+      "reference_images": [
+        "C:/Users/wseok/.codex/generated_images/01a14def-0680-7111-9c20-26abc828fc94/exec-866b8c90-a16b-4950-ab72-06bcbb2aaedf.png",
+        "C:/Users/wseok/.codex/generated_images/01a14def-0680-7111-9c20-26abc828fc94/exec-1df92255-2ce7-4d1f-ac36-54c1617430c8.png"
+      ],
+      "source_generated_path": "C:/Users/wseok/.codex/generated_images/01a14def-0680-7111-9c20-26abc828fc94/exec-1bc2353d-0f42-462e-abfd-27114da96807.png",
+      "generation_tool": "image_gen",
+      "first_frame": "P마지막 봉에 선 연결 전, 벽 비교 켜짐. E문 밖에서 플러그 잡기 전. 마지막 구간 열림.",
+      "next_motion": "선 닫기→E플러그 분리. 한 동작씩.",
+      "artist_review": {
+        "opened_actual_image": true,
+        "status": "artist_pass_pending_independent_review",
+        "notes": [
+          "개별 원본 열람. 두 기록, 투사 이전/이후, 마지막 선 미연결 상태 확인.",
+          "K05_v3은 문 안팎 지리를 원래 방향으로 재확립. 테이블은 문턱에 걸친 제안 배치."
+        ]
+      },
+      "selected": false,
+      "superseded_by": "images/C05/K06_v2.png"
+    },
+    {
+      "concept_id": "C05",
+      "cut_id": "K07",
+      "scene_id": "S07",
+      "image_path": "images/C05/K07.png",
+      "prompt": "Use case: ads-marketing. NEW 16:9 photorealistic first-frame C05 K07. Reference 1 is exact immediately preceding space, actors and red posts. Reference 2 exact identities/outfits. LOWER camera to deep-focus medium angle beside doorway looking diagonally toward wall INSIDE room at right. In left foreground only part of E's blue rolled sleeve and hand holding plain black smartphone, E remains on OUTSIDE side of doorway/line. Phone tilted so small faint gray diagram thumbnail can be seen without text; detached black cable connector hangs loose, so records remain on phone. Across lower middle, a single thin RED ribbon is now STRAIGHT and CONNECTED between two low silver posts across route to door. Show both endpoints, no gap, no knots around people. P same Korean woman40 straight bob, gray long coat, white gloves, goggles on head, stands on INSIDE behind this line with back/three-quarter toward camera, still looking at white wall, hasn't turned to leave yet. Large wall/screen behind her is now completely BLANK WHITE: no projection, no colored rectangle, no ghost diagram. Projector on small side table is off/dark, two paper records remain there if table visible. Same bright gray office, A/B desk edges and their boundaries background only, no extra desk. First instant just after display OFF, no torn/cut line yet, NO yellow chest label, no scissors. Real normal low line she could easily step over; procedural self-restraint, not a cage or injury. No caption, words, numbers, logos, collage or watermark.",
+      "reference_images": [
+        "C:/Users/wseok/.codex/generated_images/01a14def-0680-7111-9c20-26abc828fc94/exec-1bc2353d-0f42-462e-abfd-27114da96807.png",
+        "C:/Users/wseok/.codex/generated_images/01a14def-0680-7111-9c20-26abc828fc94/exec-1df92255-2ce7-4d1f-ac36-54c1617430c8.png"
+      ],
+      "source_generated_path": "C:/Users/wseok/.codex/generated_images/01a14def-0680-7111-9c20-26abc828fc94/exec-b3c4a48f-d9e9-46d3-906f-593522ed0e99.png",
+      "generation_tool": "image_gen",
+      "first_frame": "투사가 막 꺼진 빈 벽·완성된 선. P아직 벽 보고 E문 밖.",
+      "next_motion": "뒤돌기→한 발→스스로 멈춤→폰 기록 확인.",
+      "artist_review": {
+        "opened_actual_image": true,
+        "status": "artist_pass_pending_independent_review",
+        "notes": [
+          "개별 실제 원본 열람. K07 투사 꺼짐/선 연결, K08 라벨 미부착/선 유지, K09 라벨 부착/출구선 해제/제목 여백 확인.",
+          "K09 폴더는 완전 펼침보다 반쯤 닫힌 소지 상태로 표현됨. 기록 정리 동작은 후속 메모. 번호는 후편집."
+        ]
+      },
+      "selected": false,
+      "superseded_by": "images/C05/K07_v2.png"
+    },
+    {
+      "concept_id": "C05",
+      "cut_id": "K08",
+      "scene_id": "S08",
+      "image_path": "images/C05/K08.png",
+      "prompt": "Use case: ads-marketing. NEW photographic cinematic 16:9 first-frame C05 K08. Reference 1 exact room ending state, taut red line, blank projection wall; reference 2 exact female P face and gray coat. Closer chest-and-face MEDIUM shot of P facing camera and E just across the low red line. P is Korean woman40 with same straight black bob, gray long conservation coat over charcoal shirt, white gloves, goggles on top of head. Emotion calm professional self-recognition, restrained, no broad smile or shame. In her left glove she holds one loose plain YELLOW square adhesive label just BELOW chest, about 10cm away from coat, NOT ATTACHED YET. Her chest is completely clear of labels. Right gloved hand holds a small pair of ordinary CLOSED SCISSORS down at waist with blades closed and pointing down; not touching any line yet. Red ribbon remains UNBROKEN and TAUT across lower foreground between posts, enough seen to prepare downward camera tilt. E blue-shirt male is at far-left cropped foreground, phone DOWN near his hip rather than photographing already. Blank white wall in background, projection OFF, no diagrams or words. Same bright archival office, natural real gloves and hands. No number printed on loose label: number 3 and caption are later edit. No text, labels already stuck, cut ribbon, dangling broken ends, open scissors, injury, ropes around people, logos or collage. BEFORE she labels herself, before photo, before cutting.",
+      "reference_images": [
+        "C:/Users/wseok/.codex/generated_images/01a14def-0680-7111-9c20-26abc828fc94/exec-b3c4a48f-d9e9-46d3-906f-593522ed0e99.png",
+        "C:/Users/wseok/.codex/generated_images/01a14def-0680-7111-9c20-26abc828fc94/exec-1df92255-2ce7-4d1f-ac36-54c1617430c8.png"
+      ],
+      "source_generated_path": "C:/Users/wseok/.codex/generated_images/01a14def-0680-7111-9c20-26abc828fc94/exec-48b43f14-0bcc-45cd-97ae-6e16a81d42e0.png",
+      "generation_tool": "image_gen",
+      "first_frame": "P미부착 표·닫힌 가위 소지. 선 팽팽, E폰 아직 아래.",
+      "next_motion": "표 부착→사진→선 자름. 실패 기록 전에 해제하지 않음.",
+      "artist_review": {
+        "opened_actual_image": true,
+        "status": "artist_pass_pending_independent_review",
+        "notes": [
+          "개별 실제 원본 열람. K07 투사 꺼짐/선 연결, K08 라벨 미부착/선 유지, K09 라벨 부착/출구선 해제/제목 여백 확인.",
+          "K09 폴더는 완전 펼침보다 반쯤 닫힌 소지 상태로 표현됨. 기록 정리 동작은 후속 메모. 번호는 후편집."
+        ]
+      },
+      "selected": true
+    },
+    {
+      "concept_id": "C05",
+      "cut_id": "K09",
+      "scene_id": "S09",
+      "image_path": "images/C05/K09.png",
+      "prompt": "Use case: ads-marketing. NEW photorealistic cinematic 16:9 C05 K09 closing first frame. Reference 1 exact P/E faces and costumes and label; reference 2 doorway/low posts/side table; reference 3 original office. Oblique wider shot from outside doorway with LEFT 45 PERCENT a completely blank neutral light gray wall reserved for later title, no text or objects in that area. The two people and open doorway occupy RIGHT half.\nE same Korean man30 short wavy hair, light-blue rolled-sleeve shirt, charcoal pants stands just outside doorway with an OPEN thin black document folder holding TWO white copied records and his black phone against folder; he is calmly collecting his work before leaving. Do not put tripod/camera in his hands.\nP same Korean woman40 straight black bob, long pale gray coat over dark gray shirt/trousers, white gloves and goggles on head stands by doorway to his right, small PLAIN YELLOW square label is NOW STUCK on her chest, no numeral yet (later compositing). Her right gloved hand remains near her side, not touching anything, gaze just beginning to notice one crooked caster of silver boundary post beside threshold. The final red line across doorway has been CUT: two separate loose red ends hang down from opposite low posts, a clearly OPEN pedestrian gap between them. Do not leave a taut red span across their exit. Other original desk boundary lines may remain behind inside office. One post's small black caster points noticeably sideways, a subtle habit callback for later movement. Projection wall stays blank, no active projection. No label on anyone's face, no red line around bodies, no cutting in progress, no hand touching wheel yet, no waving goodbye. Bright neutral premium documentary style, no captions, numbers, logos or collage.",
+      "reference_images": [
+        "C:/Users/wseok/.codex/generated_images/01a14def-0680-7111-9c20-26abc828fc94/exec-48b43f14-0bcc-45cd-97ae-6e16a81d42e0.png",
+        "C:/Users/wseok/.codex/generated_images/01a14def-0680-7111-9c20-26abc828fc94/exec-b3c4a48f-d9e9-46d3-906f-593522ed0e99.png",
+        "C:/Users/wseok/.codex/generated_images/01a14def-0680-7111-9c20-26abc828fc94/exec-ba412d87-e34b-4314-99ad-80c1c892f673.png"
+      ],
+      "source_generated_path": "C:/Users/wseok/.codex/generated_images/01a14def-0680-7111-9c20-26abc828fc94/exec-e219564f-7dc4-4020-afc6-36ee0066f8b3.png",
+      "generation_tool": "image_gen",
+      "first_frame": "E열린 폴더·폰, P가슴3번·문 옆. 비뚤어진 봉 바퀴에 손은 아직 안 닿음.",
+      "next_motion": "기록 정리→출발→P손 뻗다 거둠. 제목 고정.",
+      "artist_review": {
+        "opened_actual_image": true,
+        "status": "artist_pass_pending_independent_review",
+        "notes": [
+          "개별 실제 원본 열람. K07 투사 꺼짐/선 연결, K08 라벨 미부착/선 유지, K09 라벨 부착/출구선 해제/제목 여백 확인.",
+          "K09 폴더는 완전 펼침보다 반쯤 닫힌 소지 상태로 표현됨. 기록 정리 동작은 후속 메모. 번호는 후편집."
+        ]
+      },
+      "selected": true
+    },
+    {
+      "concept_id": "C05",
+      "cut_id": "K05",
+      "scene_id": "S05",
+      "image_path": "images/C05/K05_v4.png",
+      "prompt": "Use case: precise-object-edit. Edit ONLY the small white PROJECTOR on the lower-left table in this exact C05 K05 still. Keep the full image 16:9 and all other pixels/scene content as unchanged as possible.\nRotate the projector body IN PLACE on the tabletop so its optical lens aims diagonally AWAY FROM CAMERA toward the large blank white projection screen on the interior wall at upper-right (the wall immediately right of the open doorway). Currently the circular lens faces the viewer; that is the error. After correction the viewer sees mainly the projector's REAR connectors and SIDE ventilation, NOT a circular lens facing the viewer. The front lens is on the FAR SIDE of the device pointing into the screen, plausibly upward toward the screen center. Maintain same compact white rectangular model, same scale, same table position. Preserve the loose disconnected black cable and its endpoint, preserve both paper records exactly.\nProjector is OFF. No glowing lens, no beam, no projection: the wall remains entirely blank white. Preserve BOTH actors' exact faces, poses, clothing, hands and phone; door position, desk B, red ribbon, plants, paper diagrams, camera angle, framing, lighting. No new equipment, no added text, no cropped composition, no room rearrangement. A localized orientation correction only.",
+      "reference_images": [
+        "C:/Users/wseok/.codex/generated_images/01a14def-0680-7111-9c20-26abc828fc94/exec-866b8c90-a16b-4950-ab72-06bcbb2aaedf.png"
+      ],
+      "source_generated_path": "C:/Users/wseok/.codex/generated_images/01a14def-0680-7111-9c20-26abc828fc94/exec-5bb926fe-e73b-48c6-ac53-6b347fb62d7b.png",
+      "generation_tool": "image_gen",
+      "first_frame": "문 밖 작은 테이블에 두 복사 기록, E폰 소지, 프로젝터 아직 꺼짐. P는 책상 바라봄.",
+      "next_motion": "사진→연결→투사. 첫 프레임 투사 금지.",
+      "artist_review": {
+        "opened_actual_image": true,
+        "status": "artist_pass_pending_three_reviewer_recheck",
+        "notes": [
+          "OFF/빈 벽·미연결 케이블 유지",
+          "본체 뒤쪽 연결단자와 측면 통풍구가 카메라를 향하고 렌즈는 화면의 반대편에서 투사 벽을 향하도록 회전.",
+          "인물·소품·책상·벽·통제선 지리의 유의미한 변경 없음. 각 1회 내장 편집으로 완료. 실제 영사·영상 검증 아님."
+        ]
+      },
+      "selected": true,
+      "revision_reason": "PD 선택 국소 수정: IB005·IC007 공통 제안. 관객 방향 렌즈를 문 오른쪽 실내 투사 벽 방향으로 회전.",
+      "replaces_image": "images/C05/K05_v3.png"
+    },
+    {
+      "concept_id": "C05",
+      "cut_id": "K06",
+      "scene_id": "S06",
+      "image_path": "images/C05/K06_v2.png",
+      "prompt": "Use case: precise-object-edit. Edit image 1 ONLY. Image 2 is supporting reference for the same corrected white projector orientation, not a replacement scene.\nC05 K06, preserve exact 16:9 composition. ONLY rotate the white projector on the left-side table IN PLACE so its optical axis points diagonally AWAY FROM THE CAMERA toward the existing projected comparison diagram on the interior wall at upper-right. Current bright circular lens faces viewer, physically incorrect. Show rear connector panel and side ventilation toward viewer, lens on FAR SIDE pointing toward screen center. Keep the same white compact rectangular projector model and size/position, align as image 2 device orientation.\nThe projector is ON in this frame: retain the projected blue-gray TWO diagrams and arrow on wall EXACTLY; no change to that screen graphic. Its active lens is on the far side, so there must NOT be a bright circular light facing the viewer. A subtle far-side light spill is sufficient, do not add theatrical beam. Keep existing cable connected from phone to projector, alter only the tiny connector orientation if physically necessary. Preserve two paper records, both actors' faces/poses/outfits/hands/phone, red free end in woman's glove, open gap before last silver post, all desk/chairs/door/floor/light. Last red span stays UNCONNECTED, no third chest label, no new people or props. No text, no crop, no camera movement, no room rearrangement. A localized correction to device optical direction only.",
+      "reference_images": [
+        "C:/Users/wseok/.codex/generated_images/01a14def-0680-7111-9c20-26abc828fc94/exec-1bc2353d-0f42-462e-abfd-27114da96807.png",
+        "C:/Users/wseok/.codex/generated_images/01a14def-0680-7111-9c20-26abc828fc94/exec-5bb926fe-e73b-48c6-ac53-6b347fb62d7b.png"
+      ],
+      "source_generated_path": "C:/Users/wseok/.codex/generated_images/01a14def-0680-7111-9c20-26abc828fc94/exec-abe04a1d-ae14-4fc9-b7ee-036dc0bcab24.png",
+      "generation_tool": "image_gen",
+      "first_frame": "P마지막 봉에 선 연결 전, 벽 비교 켜짐. E문 밖에서 플러그 잡기 전. 마지막 구간 열림.",
+      "next_motion": "선 닫기→E플러그 분리. 한 동작씩.",
+      "artist_review": {
+        "opened_actual_image": true,
+        "status": "artist_pass_pending_three_reviewer_recheck",
+        "notes": [
+          "ON/비교 도식·폰 연결·출구선 미연결 유지",
+          "본체 뒤쪽 연결단자와 측면 통풍구가 카메라를 향하고 렌즈는 화면의 반대편에서 투사 벽을 향하도록 회전.",
+          "인물·소품·책상·벽·통제선 지리의 유의미한 변경 없음. 각 1회 내장 편집으로 완료. 실제 영사·영상 검증 아님."
+        ]
+      },
+      "selected": true,
+      "revision_reason": "PD 선택 국소 수정: IB005·IC007 공통 제안. 관객 방향 렌즈를 문 오른쪽 실내 투사 벽 방향으로 회전.",
+      "replaces_image": "images/C05/K06.png"
+    },
+    {
+      "concept_id": "C05",
+      "cut_id": "K07",
+      "scene_id": "S07",
+      "image_path": "images/C05/K07_v2.png",
+      "prompt": "Use case: precise-object-edit. Edit image 1 ONLY; image 2 is supporting reference for corrected projector orientation and model, do not transfer its projection or scene.\nC05 K07: preserve entire original 16:9 composition. The ONLY change is rotate the small white projector on the table at lower-left IN PLACE, optical front facing diagonally AWAY FROM CAMERA toward the large blank white projection screen on the interior wall upper-right. Current lens points at viewer and must instead face the screen. Viewer should see the projector's REAR connector panel and side vents, with circular lens hidden on FAR SIDE aiming toward screen. Same compact white rectangular body/size, same tabletop position, comparable orientation to image 2.\nThis K07 device is OFF: no glowing lens, no projection light or beam, screen/wall must remain perfectly blank white. Preserve exact disconnected short cable dangling from man's black phone, faint record thumbnail on phone, two sheets on table, man's cropped face/blue shirt/hand, woman's back-view/coat/goggles/pose, connected TAUT red exit ribbon and posts, all room objects and lighting. Do not open gap, do not cut ribbon, do not move woman or table, no added chest label. No new props/text, no reframing/crop. Local projector direction correction only.",
+      "reference_images": [
+        "C:/Users/wseok/.codex/generated_images/01a14def-0680-7111-9c20-26abc828fc94/exec-b3c4a48f-d9e9-46d3-906f-593522ed0e99.png",
+        "C:/Users/wseok/.codex/generated_images/01a14def-0680-7111-9c20-26abc828fc94/exec-abe04a1d-ae14-4fc9-b7ee-036dc0bcab24.png"
+      ],
+      "source_generated_path": "C:/Users/wseok/.codex/generated_images/01a14def-0680-7111-9c20-26abc828fc94/exec-8e90711e-2d48-4c39-83b8-5818081d3954.png",
+      "generation_tool": "image_gen",
+      "first_frame": "투사가 막 꺼진 빈 벽·완성된 선. P아직 벽 보고 E문 밖.",
+      "next_motion": "뒤돌기→한 발→스스로 멈춤→폰 기록 확인.",
+      "artist_review": {
+        "opened_actual_image": true,
+        "status": "artist_pass_pending_three_reviewer_recheck",
+        "notes": [
+          "OFF/빈 벽·폰 분리 커넥터·출구선 연결 유지",
+          "본체 뒤쪽 연결단자와 측면 통풍구가 카메라를 향하고 렌즈는 화면의 반대편에서 투사 벽을 향하도록 회전.",
+          "인물·소품·책상·벽·통제선 지리의 유의미한 변경 없음. 각 1회 내장 편집으로 완료. 실제 영사·영상 검증 아님."
+        ]
+      },
+      "selected": true,
+      "revision_reason": "PD 선택 국소 수정: IB005·IC007 공통 제안. 관객 방향 렌즈를 문 오른쪽 실내 투사 벽 방향으로 회전.",
+      "replaces_image": "images/C05/K07.png"
+    }
+  ],
+  "production_status": "18_selected_images_saved_projector_revisions_pending_three_reviewer_recheck",
+  "production_summary": {
+    "concepts": [
+      "C02",
+      "C05"
+    ],
+    "required_cut_count": 18,
+    "selected_count": 18,
+    "generated_files": 23,
+    "built_in_image_gen_calls": 23,
+    "video_or_audio_generated": false,
+    "flow_upload": false,
+    "notes": [
+      "C05 K05_v4.png, K06_v2.png, K07_v2.png 채택. 이전 원본 전부 보존.",
+      "C02 불변. C05 프로젝터 광축 수정 3장 각 1회 내장 편집, 실제 개별 열람 완료.",
+      "인물·첫 프레임 시점·핵심 상태 자체 검수. 실제 영상 움직임과 음성은 제작하거나 검증하지 않음.",
+      "기준 이미지와 컷별 참조를 내장 도구에 실제 전달. 로컬 참조 및 결과마다 view_image로 열람."
+    ]
+  }
+}

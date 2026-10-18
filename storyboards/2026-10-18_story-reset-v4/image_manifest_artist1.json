@@ -1,0 +1,235 @@
+{
+  "run_id": "2026-10-18_story-reset-v4",
+  "artist": "/root/v4_image_artist1",
+  "concepts_owned": [
+    "C01"
+  ],
+  "selected_cut_count": 9,
+  "total_generated_files": 11,
+  "images": [
+    {
+      "concept_id": "C01",
+      "cut_id": "K01",
+      "scene_id": "S01",
+      "image_path": "images/C01/K01.png",
+      "prompt": "Use case: ads-marketing. A single cinematic photorealistic Korean absurd occult commercial first-frame still, 16:9 landscape 1536x864. Real actors, natural anatomy and fabric texture, premium dramatic film lighting, not an illustration, not a collage. Rainy nighttime high-rise office: cool blue-gray city windows on the LEFT, wooden desk in CENTER, openable dark wooden door in RIGHT REAR. Warm brass desk lamp on left. Desk monitor and keyboard at employee left end, black contract folder and blank cream contract paper central, black visitor chair to the RIGHT. Employee E is Korean woman in her 30s with neat short black bob, ivory blouse and navy trousers, quietly engaged and capable. Devil D is Korean man in his 40s with slicked short black hair, short neat beard, two small black horns, wine burgundy suit, black shirt and black dress shoes, charismatic arrogant face. Keep these identities, costumes and architectural arrangement consistent. No legible text, no logos, no watermark, no captions, no numbers. Screens and papers have only sparse abstract gray rectangles; all UI and Korean captions are added later. C01 K01: low 50mm over-employee-shoulder TWO-SHOT showing both faces sufficiently for character references. E seated LEFT foreground three-quarter profile facing right. D seated RIGHT behind desk, leaning forward with solemn theatrical confidence, eyes intent on E. An UNSIGNED cream contract sheet and black pen lie in front of him on black folder. Employee holds a modest gray work document near her side. First moment BEFORE pushing contract or signing. NO red thread, no red condition card, no finished results. Quiet storm-blue windows and warm desk glow. Make ordinary small work request versus utterly serious supernatural contract visually clear.",
+      "reference_images": [],
+      "source_generated_path": "C:/Users/wseok/.codex/generated_images/01a14dee-d9fd-7ff0-b42b-4c2062f033fa/exec-eaae3cc0-7bec-46a6-b250-f8c59c03e843.png",
+      "generation_tool": "image_gen",
+      "first_frame": "두 사람이 책상 양편에 앉고 악마 앞에 미서명 계약서·검정 펜. 붉은 선·완성 결과는 아직 없음.",
+      "next_motion": "종이를 밀고 직원이 펜을 든다. 낮게 접근.",
+      "artist_review": {
+        "opened_actual_image": true,
+        "status": "artist_pass_pending_cross_review",
+        "notes": "의상·얼굴·비 오는 사무실 기준. 미서명 계약서, 선과 빨간 카드 없음. 모니터 하단의 매우 작은 유사 로고 형태는 선택 관찰이며 가독 가능한 브랜드 정보로 쓰지 않음."
+      },
+      "selected": true
+    },
+    {
+      "concept_id": "C01",
+      "cut_id": "K02",
+      "scene_id": "S02",
+      "image_path": "images/C01/K02.png",
+      "prompt": "Use case: ads-marketing. A single cinematic photorealistic Korean absurd occult commercial first-frame still, 16:9 landscape 1536x864. Real actors, natural anatomy and fabric texture, premium dramatic film lighting, not an illustration, not a collage. Rainy nighttime high-rise office: cool blue-gray city windows on the LEFT, wooden desk in CENTER, openable dark wooden door in RIGHT REAR. Warm brass desk lamp on left. Desk monitor and keyboard at employee left end, black contract folder and blank cream contract paper central, black visitor chair to the RIGHT. Employee E is Korean woman in her 30s with neat short black bob, ivory blouse and navy trousers, quietly engaged and capable. Devil D is Korean man in his 40s with slicked short black hair, short neat beard, two small black horns, wine burgundy suit, black shirt and black dress shoes, charismatic arrogant face. Keep these identities, costumes and architectural arrangement consistent. No legible text, no logos, no watermark, no captions, no numbers. Screens and papers have only sparse abstract gray rectangles; all UI and Korean captions are added later. C01 K02 NEW SHOT. Image 1 is reference only for the same two actors, clothes, desk and location. Three-quarter desk medium shot, employee E seated on LEFT in profile at keyboard, devil D on RIGHT beginning to rise out of HIS black visitor chair, cockily relaxed. His RIGHT hand is raised at chest level, thumb and middle finger poised BEFORE snapping, fingers realistic. He has NOT left for the door yet. The signed paper stays on black contract folder central desk. A very thin glowing red magical contract THREAD lies in a LOOSE curve between that paper and his RIGHT wrist, not tight, not a physical rope. Monitor on left visible with only dull sparse gray source blocks, NOT completed results. Filmic rain-night light and brass lamp continuity. No red card or coworker. Door remains in rear RIGHT. NO logos/text on objects.",
+      "reference_images": [
+        "\\\\wsl.localhost\\Ubuntu-24.04\\home\\wooseok\\wsy\\samsung_related\\slide\\AI실행결과발표대회_디자인3종\\storyboards\\2026-10-18_story-reset-v4\\images\\C01\\K01.png"
+      ],
+      "source_generated_path": "C:\\Users\\wseok\\.codex\\generated_images\\01a14dee-d9fd-7ff0-b42b-4c2062f033fa\\exec-7f0db0e0-2b9f-4430-9dd0-ca4320df78bc.png",
+      "generation_tool": "image_gen",
+      "first_frame": "악마가 서려는 순간 손가락은 튕기기 전. 화면은 원자료뿐. 계약선은 느슨함.",
+      "next_motion": "결과 후편집→악마 문 이동→직원 새 자료에 시선.",
+      "artist_review": {
+        "opened_actual_image": true,
+        "status": "artist_pass_pending_cross_review",
+        "notes": "오른손 스냅 직전, 느슨한 선, 원자료 화면. 완료 결과 및 빨간 카드 없음."
+      },
+      "selected": true
+    },
+    {
+      "concept_id": "C01",
+      "cut_id": "K03",
+      "scene_id": "S03",
+      "image_path": "images/C01/K03.png",
+      "prompt": "Use case: ads-marketing. A single cinematic photorealistic Korean absurd occult commercial first-frame still, 16:9 landscape 1536x864. Real actors, natural anatomy and fabric texture, premium dramatic film lighting, not an illustration, not a collage. Rainy nighttime high-rise office: cool blue-gray city windows on the LEFT, wooden desk in CENTER, openable dark wooden door in RIGHT REAR. Warm brass desk lamp on left. Desk monitor and keyboard at employee left end, black contract folder and blank cream contract paper central, black visitor chair to the RIGHT. Employee E is Korean woman in her 30s with neat short black bob, ivory blouse and navy trousers, quietly engaged and capable. Devil D is Korean man in his 40s with slicked short black hair, short neat beard, two small black horns, wine burgundy suit, black shirt and black dress shoes, charismatic arrogant face. Keep these identities, costumes and architectural arrangement consistent. No legible text, no logos, no watermark, no captions, no numbers. Screens and papers have only sparse abstract gray rectangles; all UI and Korean captions are added later. C01 K03 NEW DISTINCT CAMERA SHOT. Image 1 and 2 are continuity references for actors and architecture, not requested composition. Wide 24mm deep-focus locked shot, camera moved farther LEFT and backward looking diagonally across entire desk toward RIGHT REAR open door. CRUCIAL all four elements in ONE frame and sharp: (1) monitor screen LEFT foreground clearly visible awaiting input with three empty pale gray panels, (2) E at LEFT desk holding a modest bundle of gray paper cards next to monitor, (3) D full body at OPEN DOOR RIGHT REAR walking away and not yet returning, (4) his EMPTY BLACK VISITOR CHAIR in RIGHT MIDGROUND between desk and door, clearly separated from his body. E calmly curious, D smug hurried departure. Black folder and contract central desk. A thin loose red glowing thread from contract droops in a slack arc toward his RIGHT wrist at door, leave slack. NO red condition card anywhere. NO smoke or teleport effect yet, no double devil, no extra people. First frame BEFORE employee inputs gray bundle, BEFORE question and sudden return. Keep realistic spatial depth and wide framing rather than close two-shot.",
+      "reference_images": [
+        "\\\\wsl.localhost\\Ubuntu-24.04\\home\\wooseok\\wsy\\samsung_related\\slide\\AI실행결과발표대회_디자인3종\\storyboards\\2026-10-18_story-reset-v4\\images\\C01\\K01.png",
+        "\\\\wsl.localhost\\Ubuntu-24.04\\home\\wooseok\\wsy\\samsung_related\\slide\\AI실행결과발표대회_디자인3종\\storyboards\\2026-10-18_story-reset-v4\\images\\C01\\K02.png"
+      ],
+      "source_generated_path": "C:\\Users\\wseok\\.codex\\generated_images\\01a14dee-d9fd-7ff0-b42b-4c2062f033fa\\exec-434b3282-1ca7-4b3d-988a-ddc9ddcbe133.png",
+      "generation_tool": "image_gen",
+      "first_frame": "직원이 회색 자료 묶음을 모니터 옆에 들고 있다. 모니터는 입력 대기. 문 앞 악마와 빈 방문 의자가 모두 보임. 빨간 조건 카드는 아직 등장하지 않는다. 계약선은 느슨함.",
+      "next_motion": "회색 자료 한꺼번에 입력→큰 결과 칸 하나 공백→질문→계약선 긴장→같은 고정 화면 안에서 악마가 문 앞에서 의자로 순간 이동. 효과는 후속 합성 연출이며 생성 성공을 보장하지 않음.",
+      "artist_review": {
+        "opened_actual_image": true,
+        "status": "rejected_superseded",
+        "notes": "문·빈 의자·모니터·직원 동시 구도 확보. 원본은 선의 왼손목 연결 오류로 미채택."
+      },
+      "selected": false
+    },
+    {
+      "concept_id": "C01",
+      "cut_id": "K03",
+      "scene_id": "S03",
+      "image_path": "images/C01/K03_v2.png",
+      "prompt": "Use case: precise-object-edit. Edit this C01 K03 film still only to fix magical contract-thread continuity. Keep exactly same actors, their poses, office, framing, monitor, empty chair, papers, lighting. REMOVE red light and thread from devil's LEFT wrist (the lower hanging hand nearer the center of picture). Instead connect the thin red glowing thread to devil's RIGHT wrist, which is his raised hand at the brass door handle on the far RIGHT. Route the thread in a visibly LOOSE low sagging U-shaped arc from the cream contract paper on central desk toward that RIGHT door-handle wrist. It must look slack, not taut, no sparks. Do not add any red card. Maintain the same 16:9 image and no text.",
+      "reference_images": [
+        "\\\\wsl.localhost\\Ubuntu-24.04\\home\\wooseok\\wsy\\samsung_related\\slide\\AI실행결과발표대회_디자인3종\\storyboards\\2026-10-18_story-reset-v4\\images\\C01\\K03.png"
+      ],
+      "source_generated_path": "C:\\Users\\wseok\\.codex\\generated_images\\01a14dee-d9fd-7ff0-b42b-4c2062f033fa\\exec-b47ac693-a523-48c6-87bb-07c20f32ce20.png",
+      "generation_tool": "image_gen",
+      "first_frame": "직원이 회색 자료 묶음을 모니터 옆에 들고 있다. 모니터는 입력 대기. 문 앞 악마와 빈 방문 의자가 모두 보임. 빨간 조건 카드는 아직 등장하지 않는다. 계약선은 느슨함.",
+      "next_motion": "회색 자료 한꺼번에 입력→큰 결과 칸 하나 공백→질문→계약선 긴장→같은 고정 화면 안에서 악마가 문 앞에서 의자로 순간 이동. 효과는 후속 합성 연출이며 생성 성공을 보장하지 않음.",
+      "artist_review": {
+        "opened_actual_image": true,
+        "status": "artist_pass_pending_cross_review",
+        "notes": "오른손목(문손잡이 쪽) 연결로 수정. 네 요소 동시 노출·느슨한 곡선·빨간 카드 없음 확인."
+      },
+      "selected": true
+    },
+    {
+      "concept_id": "C01",
+      "cut_id": "K04",
+      "scene_id": "S04",
+      "image_path": "images/C01/K04.png",
+      "prompt": "Use case: ads-marketing. A single cinematic photorealistic Korean absurd occult commercial first-frame still, 16:9 landscape 1536x864. Real actors, natural anatomy and fabric texture, premium dramatic film lighting, not an illustration, not a collage. Rainy nighttime high-rise office: cool blue-gray city windows on the LEFT, wooden desk in CENTER, openable dark wooden door in RIGHT REAR. Warm brass desk lamp on left. Desk monitor and keyboard at employee left end, black contract folder and blank cream contract paper central, black visitor chair to the RIGHT. Employee E is Korean woman in her 30s with neat short black bob, ivory blouse and navy trousers, quietly engaged and capable. Devil D is Korean man in his 40s with slicked short black hair, short neat beard, two small black horns, wine burgundy suit, black shirt and black dress shoes, charismatic arrogant face. Keep these identities, costumes and architectural arrangement consistent. No legible text, no logos, no watermark, no captions, no numbers. Screens and papers have only sparse abstract gray rectangles; all UI and Korean captions are added later. C01 K04 NEW SHOT. References establish SAME actors/room, not same composition. Closer medium 40mm shot showing BOTH faces and hands around desk, E seated LEFT at keyboard, D again seated in visitor chair RIGHT with bruised pride, tired but determined to explain. D points his RIGHT index finger toward a single unsorted overlapping stack of THREE gray rectangular paper cards on desk near E; she has both hands poised above keyboard waiting attentively. First frame BEFORE he separates the gray stack into three sequential inputs. Contract paper on black folder still present, thin slack glowing red THREAD attached to D RIGHT wrist. No red condition card anywhere in this shot; it only appears AFTER the motion at end of scene. Monitor left with dull gray incomplete layout and no letters. Background right door visible. No third person. Capture increasingly mundane instructional mood within ominous premium occult lighting. Hands anatomically natural, do not merge cards and fingers.",
+      "reference_images": [
+        "\\\\wsl.localhost\\Ubuntu-24.04\\home\\wooseok\\wsy\\samsung_related\\slide\\AI실행결과발표대회_디자인3종\\storyboards\\2026-10-18_story-reset-v4\\images\\C01\\K01.png",
+        "\\\\wsl.localhost\\Ubuntu-24.04\\home\\wooseok\\wsy\\samsung_related\\slide\\AI실행결과발표대회_디자인3종\\storyboards\\2026-10-18_story-reset-v4\\images\\C01\\K03_v2.png"
+      ],
+      "source_generated_path": "C:\\Users\\wseok\\.codex\\generated_images\\01a14dee-d9fd-7ff0-b42b-4c2062f033fa\\exec-78ea917a-3760-4c0a-b636-5c459fc72652.png",
+      "generation_tool": "image_gen",
+      "first_frame": "둘 다 책상. 악마가 아직 묶지 않은 회색 카드 세 장을 가리킴. 직원 손은 키보드 위.",
+      "next_motion": "회색 자료 분리→직원 실행→회색 결과 채움→악마 뒤로 이동. 직원이 마지막 순간 빨간 조건 카드를 꺼냄.",
+      "artist_review": {
+        "opened_actual_image": true,
+        "status": "rejected_superseded",
+        "notes": "회색 카드 3장·키보드 손·얼굴 구도. 원본은 선이 왼손목과 화면 밖을 연결해 미채택."
+      },
+      "selected": false
+    },
+    {
+      "concept_id": "C01",
+      "cut_id": "K04",
+      "scene_id": "S04",
+      "image_path": "images/C01/K04_v2.png",
+      "prompt": "Use case: precise-object-edit. Correct ONLY the magical red thread in this C01 K04 frame. Preserve all people, faces, poses, gray cards, office and lighting. Erase the existing red light on the man's resting hand at SCREEN RIGHT and erase all red line extending off-screen. Put ONE thin loose glowing red thread from his POINTING HAND WRIST near the CENTER of image (his RIGHT wrist, hand whose index finger touches gray card) to the cream CONTRACT PAPER in the black folder at LOWER RIGHT. It should rest loosely in a small curved loop above desk, no tension, no sparks. Red connection must have exactly two endpoints: pointing right wrist and contract sheet. Do not add any red card. Same 16:9 still, no other edits.",
+      "reference_images": [
+        "\\\\wsl.localhost\\Ubuntu-24.04\\home\\wooseok\\wsy\\samsung_related\\slide\\AI실행결과발표대회_디자인3종\\storyboards\\2026-10-18_story-reset-v4\\images\\C01\\K04.png"
+      ],
+      "source_generated_path": "C:\\Users\\wseok\\.codex\\generated_images\\01a14dee-d9fd-7ff0-b42b-4c2062f033fa\\exec-743094d6-e7be-4add-9bf3-7db7caa1846c.png",
+      "generation_tool": "image_gen",
+      "first_frame": "둘 다 책상. 악마가 아직 묶지 않은 회색 카드 세 장을 가리킴. 직원 손은 키보드 위.",
+      "next_motion": "회색 자료 분리→직원 실행→회색 결과 채움→악마 뒤로 이동. 직원이 마지막 순간 빨간 조건 카드를 꺼냄.",
+      "artist_review": {
+        "opened_actual_image": true,
+        "status": "artist_pass_pending_cross_review",
+        "notes": "오른쪽 집게손목과 계약서 사이 연결만 수정. 회색 묶음·빨간 카드 없음 확인."
+      },
+      "selected": true
+    },
+    {
+      "concept_id": "C01",
+      "cut_id": "K05",
+      "scene_id": "S05",
+      "image_path": "images/C01/K05.png",
+      "prompt": "Use case: ads-marketing. A single cinematic photorealistic Korean absurd occult commercial first-frame still, 16:9 landscape 1536x864. Real actors, natural anatomy and fabric texture, premium dramatic film lighting, not an illustration, not a collage. Rainy nighttime high-rise office: cool blue-gray city windows on the LEFT, wooden desk in CENTER, openable dark wooden door in RIGHT REAR. Warm brass desk lamp on left. Desk monitor and keyboard at employee left end, black contract folder and blank cream contract paper central, black visitor chair to the RIGHT. Employee E is Korean woman in her 30s with neat short black bob, ivory blouse and navy trousers, quietly engaged and capable. Devil D is Korean man in his 40s with slicked short black hair, short neat beard, two small black horns, wine burgundy suit, black shirt and black dress shoes, charismatic arrogant face. Keep these identities, costumes and architectural arrangement consistent. No legible text, no logos, no watermark, no captions, no numbers. Screens and papers have only sparse abstract gray rectangles; all UI and Korean captions are added later. C01 K05. Images are continuity references. New 28mm DEEP FOCUS SIDE WIDE. E LEFT foreground seated, raises one small blank RED rectangular CONDITION CARD above the now-separated gray cards on desk; she looks genuinely curious at devil. This is first shot with red card. D stands RIGHT middle ground BEHIND his EMPTY visitor chair, about one step from returning to seat, facing LEFT toward her so his RIGHT hand is the one toward camera. He has resigned weary dignity, slightly closed eyelids and is preemptively straightening both suit lapels, preparing to sit voluntarily. Door in RIGHT REAR remains visible. Contract paper stays central and a thin loose red thread connects that paper to his RIGHT wrist (the hand on SCREEN LEFT when his front faces us), NO thread on his left wrist. First moment BEFORE her question, BEFORE taut thread and BEFORE he sits. All three key zones E/red card, empty chair, standing devil clear in same frame. No coworker, no duplicate devil, no smoke, no typography.",
+      "reference_images": [
+        "\\\\wsl.localhost\\Ubuntu-24.04\\home\\wooseok\\wsy\\samsung_related\\slide\\AI실행결과발표대회_디자인3종\\storyboards\\2026-10-18_story-reset-v4\\images\\C01\\K03_v2.png",
+        "\\\\wsl.localhost\\Ubuntu-24.04\\home\\wooseok\\wsy\\samsung_related\\slide\\AI실행결과발표대회_디자인3종\\storyboards\\2026-10-18_story-reset-v4\\images\\C01\\K04_v2.png"
+      ],
+      "source_generated_path": "C:\\Users\\wseok\\.codex\\generated_images\\01a14dee-d9fd-7ff0-b42b-4c2062f033fa\\exec-98faf2ea-44c3-4451-b4ad-2d62c4dd055b.png",
+      "generation_tool": "image_gen",
+      "first_frame": "직원이 처음 등장한 빨간 조건 카드를 회색 묶음 옆에 든다. 악마는 의자 뒤 문으로 가려다 재킷을 미리 잡는다. 빈 의자도 화면 안.",
+      "next_motion": "직원이 조건을 질문→선 긴장→악마가 예상한 듯 재킷을 정리하고 스스로 한 걸음 돌아와 반듯하게 앉음. 첫 귀환의 마법 대신 순응이 웃음.",
+      "artist_review": {
+        "opened_actual_image": true,
+        "status": "artist_pass_pending_cross_review",
+        "notes": "첫 빨간 조건 카드, 빈 의자 뒤 악마의 체념과 재킷 준비, 오른손목 선 유지."
+      },
+      "selected": true
+    },
+    {
+      "concept_id": "C01",
+      "cut_id": "K06",
+      "scene_id": "S06",
+      "image_path": "images/C01/K06.png",
+      "prompt": "Use case: ads-marketing. A single cinematic photorealistic Korean absurd occult commercial first-frame still, 16:9 landscape 1536x864. Real actors, natural anatomy and fabric texture, premium dramatic film lighting, not an illustration, not a collage. Rainy nighttime high-rise office: cool blue-gray city windows on the LEFT, wooden desk in CENTER, openable dark wooden door in RIGHT REAR. Warm brass desk lamp on left. Desk monitor and keyboard at employee left end, black contract folder and blank cream contract paper central, black visitor chair to the RIGHT. Employee E is Korean woman in her 30s with neat short black bob, ivory blouse and navy trousers, quietly engaged and capable. Devil D is Korean man in his 40s with slicked short black hair, short neat beard, two small black horns, wine burgundy suit, black shirt and black dress shoes, charismatic arrogant face. Keep these identities, costumes and architectural arrangement consistent. No legible text, no logos, no watermark, no captions, no numbers. Screens and papers have only sparse abstract gray rectangles; all UI and Korean captions are added later. C01 K06 NEW SIDE TWO-SHOT at 35mm. References show actors, props and location. Bring monitor into LEFT foreground with its SCREEN readable as abstract UI: two large pale gray result panels, one conspicuously EMPTY WHITE panel, no lettering/numbers. E seated LEFT with focused expression, her hand hovering near TWO adjacent source cards, one GRAY and one RED on desk. They remain adjacent, NOT yet separated by her. D seated RIGHT leans closer, earnestly points to the two contrasting cards with his RIGHT index finger (hand toward SCREEN LEFT), now explaining rather than threatening. Show both faces, cards, monitor and his RIGHT wrist in one composition. Thin glowing red thread from contract sheet to that pointing RIGHT wrist still exists, NOT vanished; the slack thread stays low on desk and does not touch left hand. Contract paper still on black folder. First frame BEFORE E moves red card, before successful result, before thread disappearance. No coworker yet. Blue rainy night and warm lamp, human earnest exchange.",
+      "reference_images": [
+        "\\\\wsl.localhost\\Ubuntu-24.04\\home\\wooseok\\wsy\\samsung_related\\slide\\AI실행결과발표대회_디자인3종\\storyboards\\2026-10-18_story-reset-v4\\images\\C01\\K04_v2.png",
+        "\\\\wsl.localhost\\Ubuntu-24.04\\home\\wooseok\\wsy\\samsung_related\\slide\\AI실행결과발표대회_디자인3종\\storyboards\\2026-10-18_story-reset-v4\\images\\C01\\K05.png"
+      ],
+      "source_generated_path": "C:\\Users\\wseok\\.codex\\generated_images\\01a14dee-d9fd-7ff0-b42b-4c2062f033fa\\exec-7d2a204c-4487-4a0d-bd85-c654c554ba86.png",
+      "generation_tool": "image_gen",
+      "first_frame": "두 조건을 악마가 가리킴. 직원은 아직 카드를 옮기지 않았고 빈 칸·선이 남아 있음.",
+      "next_motion": "직원 스스로 분리→실행 결과→선 소멸.",
+      "artist_review": {
+        "opened_actual_image": true,
+        "status": "artist_pass_pending_cross_review",
+        "notes": "회색/빨간 카드가 옆에 있고 아직 이동하지 않음. 빈 결과 칸·오른손목 선 유지."
+      },
+      "selected": true
+    },
+    {
+      "concept_id": "C01",
+      "cut_id": "K07",
+      "scene_id": "S07",
+      "image_path": "images/C01/K07.png",
+      "prompt": "Use case: ads-marketing. A single cinematic photorealistic Korean absurd occult commercial first-frame still, 16:9 landscape 1536x864. Real actors, natural anatomy and fabric texture, premium dramatic film lighting, not an illustration, not a collage. Rainy nighttime high-rise office: cool blue-gray city windows on the LEFT, wooden desk in CENTER, openable dark wooden door in RIGHT REAR. Warm brass desk lamp on left. Desk monitor and keyboard at employee left end, black contract folder and blank cream contract paper central, black visitor chair to the RIGHT. Employee E is Korean woman in her 30s with neat short black bob, ivory blouse and navy trousers, quietly engaged and capable. Devil D is Korean man in his 40s with slicked short black hair, short neat beard, two small black horns, wine burgundy suit, black shirt and black dress shoes, charismatic arrogant face. Keep these identities, costumes and architectural arrangement consistent. No legible text, no logos, no watermark, no captions, no numbers. Screens and papers have only sparse abstract gray rectangles; all UI and Korean captions are added later. C01 K07 NEW DISTINCT CAMERA ANGLE FROM THE HALLWAY looking back through open office door, low 28mm frame with door jamb at right edge. Devil D dominates RIGHT foreground in three-quarter back view, head slightly profile and one black shoe lifted immediately BEFORE crossing the threshold; relieved and ready to leave. His RIGHT wrist visible and COMPLETELY FREE: NO red glow, NO thread anywhere now. E remains seated behind the desk in LEFT background. A NEW male coworker B has just arrived at her side: Korean man in his30s, round glasses, gray cardigan over white shirt, dark trousers, short neat hair. B holds an open notebook with abstract handwritten strokes (no legible text), ready to comment with a pleasantly impressed face. Three people total. Employee and colleague in clear enough focus to read faces, devil's step and door threshold prominent. Office windows appear behind desk consistently, warm brass desk light, night rain. First moment BEFORE compliment stops devil's step; no business card yet. Keep both devil's horns, wine suit and exact identities from references.",
+      "reference_images": [
+        "\\\\wsl.localhost\\Ubuntu-24.04\\home\\wooseok\\wsy\\samsung_related\\slide\\AI실행결과발표대회_디자인3종\\storyboards\\2026-10-18_story-reset-v4\\images\\C01\\K01.png",
+        "\\\\wsl.localhost\\Ubuntu-24.04\\home\\wooseok\\wsy\\samsung_related\\slide\\AI실행결과발표대회_디자인3종\\storyboards\\2026-10-18_story-reset-v4\\images\\C01\\K05.png"
+      ],
+      "source_generated_path": "C:\\Users\\wseok\\.codex\\generated_images\\01a14dee-d9fd-7ff0-b42b-4c2062f033fa\\exec-c52ced96-79dd-403e-b84c-de18299bde62.png",
+      "generation_tool": "image_gen",
+      "first_frame": "악마 한 발이 문턱을 넘기려 하고 동료는 막 도착. 손목에 선 없음.",
+      "next_motion": "칭찬과 받아 적은 기록을 봄→발 멈춤→자부심 살아나며 돌아섬. 사람 수나 새 영혼 계약 계산은 넣지 않음.",
+      "artist_review": {
+        "opened_actual_image": true,
+        "status": "artist_pass_pending_cross_review",
+        "notes": "동료 첫 등장, 문턱 전 구두, 손목 선 없음. 동료 감탄이 막 시작되는 경계 표정으로 확인."
+      },
+      "selected": true
+    },
+    {
+      "concept_id": "C01",
+      "cut_id": "K08",
+      "scene_id": "S08",
+      "image_path": "images/C01/K08.png",
+      "prompt": "Use case: ads-marketing. A single cinematic photorealistic Korean absurd occult commercial first-frame still, 16:9 landscape 1536x864. Real actors, natural anatomy and fabric texture, premium dramatic film lighting, not an illustration, not a collage. Rainy nighttime high-rise office: cool blue-gray city windows on the LEFT, wooden desk in CENTER, openable dark wooden door in RIGHT REAR. Warm brass desk lamp on left. Desk monitor and keyboard at employee left end, black contract folder and blank cream contract paper central, black visitor chair to the RIGHT. Employee E is Korean woman in her 30s with neat short black bob, ivory blouse and navy trousers, quietly engaged and capable. Devil D is Korean man in his 40s with slicked short black hair, short neat beard, two small black horns, wine burgundy suit, black shirt and black dress shoes, charismatic arrogant face. Keep these identities, costumes and architectural arrangement consistent. No legible text, no logos, no watermark, no captions, no numbers. Screens and papers have only sparse abstract gray rectangles; all UI and Korean captions are added later. C01 K08 NEW LOW MEDIUM CLOSEUP, 50mm. Image1 establishes the same devil and female employee; image2 supplies colleague continuity but he may be cropped away. Devil D now standing close to desk on RIGHT, has returned voluntarily, markedly different expression: bright courteous salesman's smile, delighted at chance to present. His RIGHT hand hovers an inch in front of open left inner jacket pocket, BEFORE inserting hand to retrieve business card. NO business card visible yet, empty hands. E seated LEFT foreground in profile/shoulder, one empty hand relaxed on desk ready to receive later. No red thread or red glow anywhere, wrists bare. Keep two black horns, short beard, wine three-piece suit and black shirt. Cinematic film lighting now slightly warmer on his enthusiastic face while rainy blue window remains. Contract no longer a threat; nobody scared. No printed text, no logos, no extra fingers. First frame anticipates mundane business-card action, not magic.",
+      "reference_images": [
+        "\\\\wsl.localhost\\Ubuntu-24.04\\home\\wooseok\\wsy\\samsung_related\\slide\\AI실행결과발표대회_디자인3종\\storyboards\\2026-10-18_story-reset-v4\\images\\C01\\K01.png",
+        "\\\\wsl.localhost\\Ubuntu-24.04\\home\\wooseok\\wsy\\samsung_related\\slide\\AI실행결과발표대회_디자인3종\\storyboards\\2026-10-18_story-reset-v4\\images\\C01\\K07.png"
+      ],
+      "source_generated_path": "C:\\Users\\wseok\\.codex\\generated_images\\01a14dee-d9fd-7ff0-b42b-4c2062f033fa\\exec-a3fd0c52-4316-43ee-9d5a-98715fc14658.png",
+      "generation_tool": "image_gen",
+      "first_frame": "악마가 돌아와 안주머니에 손을 넣기 직전. 명함은 아직 안 나옴. 직원 손 비어 있음.",
+      "next_motion": "명함 한 번 꺼내 내밀고 받음. 마술 없음.",
+      "artist_review": {
+        "opened_actual_image": true,
+        "status": "artist_pass_pending_cross_review",
+        "notes": "영업 미소와 안주머니 방향 손, 명함 아직 없음. 선 소멸 유지."
+      },
+      "selected": true
+    },
+    {
+      "concept_id": "C01",
+      "cut_id": "K09",
+      "scene_id": "S09",
+      "image_path": "images/C01/K09.png",
+      "prompt": "Use case: ads-marketing. A single cinematic photorealistic Korean absurd occult commercial first-frame still, 16:9 landscape 1536x864. Real actors, natural anatomy and fabric texture, premium dramatic film lighting, not an illustration, not a collage. Rainy nighttime high-rise office: cool blue-gray city windows on the LEFT, wooden desk in CENTER, openable dark wooden door in RIGHT REAR. Warm brass desk lamp on left. Desk monitor and keyboard at employee left end, black contract folder and blank cream contract paper central, black visitor chair to the RIGHT. Employee E is Korean woman in her 30s with neat short black bob, ivory blouse and navy trousers, quietly engaged and capable. Devil D is Korean man in his 40s with slicked short black hair, short neat beard, two small black horns, wine burgundy suit, black shirt and black dress shoes, charismatic arrogant face. Keep these identities, costumes and architectural arrangement consistent. No legible text, no logos, no watermark, no captions, no numbers. Screens and papers have only sparse abstract gray rectangles; all UI and Korean captions are added later. C01 K09 FINAL FIRST FRAME, not a graphic title card. A NEW close shallow-depth 60mm tabletop composition: LEFT foreground sharply focused CLOSED black contract folder lying on desk, beside a few cream experience notes with faint abstract gray diagrams but no readable words. E's ivory cuff and natural hand at LEFT edge hold one small BLANK WHITE business card just ABOVE those notes, not yet laid down. Background LEFT/CENTER, softly out of focus but recognizably SAME devil in burgundy suit with horns standing proudly preparing for a presentation; arms lowered, just BEFORE adjusting lapels. RIGHT 45 percent of frame must be calm dark charcoal/brown negative space, no people or props crossing, for later Korean event title; do NOT render any text. NO red magical thread or red glow. Rain-window bokeh and warm brass lamp bokeh only on left. No duplicated hands, no extra business cards. This final still preserves real scene continuity but leaves clear typography area.",
+      "reference_images": [
+        "\\\\wsl.localhost\\Ubuntu-24.04\\home\\wooseok\\wsy\\samsung_related\\slide\\AI실행결과발표대회_디자인3종\\storyboards\\2026-10-18_story-reset-v4\\images\\C01\\K08.png"
+      ],
+      "source_generated_path": "C:\\Users\\wseok\\.codex\\generated_images\\01a14dee-d9fd-7ff0-b42b-4c2062f033fa\\exec-a4e6a1da-6755-4786-801a-857447e091f5.png",
+      "generation_tool": "image_gen",
+      "first_frame": "닫힌 검정 파일·경험 기록·손에 든 흰 명함. 배경 악마는 재킷을 여미기 전. 오른쪽 글자 없는 여백.",
+      "next_motion": "명함 내려놓기만. 텍스트 후편집.",
+      "artist_review": {
+        "opened_actual_image": true,
+        "status": "artist_pass_pending_cross_review",
+        "notes": "닫힌 계약 파일·경험 기록·흰 명함을 든 손, 우측 약45% 후편집 여백 확보. 악마 손은 재킷 가까이 준비 상태."
+      },
+      "selected": true
+    }
+  ]
+}
