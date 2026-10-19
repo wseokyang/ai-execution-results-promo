@@ -1,0 +1,14 @@
+{
+  "status": "complete",
+  "scope": "production preflight only",
+  "source_concepts_accepted_by_user": 5,
+  "editing_cuts": 43,
+  "visual_sources": 44,
+  "conditional_audio_sources": 3,
+  "planning_budget": 47,
+  "new_draft_visual_prompts": 44,
+  "reviewers_confirmed": 3,
+  "mandatory_unresolved": 0,
+  "video_audio_flow_executed": false,
+  "automation_resumed": false
+}

@@ -1,0 +1,68 @@
+{
+  "stage": "three distinct reviewers re-opened corrected production instructions after cross review",
+  "A": {
+    "agent": "/root/v8_review_a",
+    "result": "technical preflight complete, no mandatory unresolved issue",
+    "resolved": [
+      "A-P007",
+      "A-P008",
+      "B-P008",
+      "C-010",
+      "C-011"
+    ],
+    "additional_image_opened": "../2026-10-19_tone-polish-v8/images/C04/S05.png",
+    "note": "Agrees visible RC requires native K05 speech;3tails,44visual,3conditional audio confirmed."
+  },
+  "B": {
+    "agent": "/root/v8_review_b",
+    "result": "technical preflight complete, no mandatory unresolved issue",
+    "resolved": [
+      "B-P008",
+      "C-010"
+    ],
+    "note": "Accepts A/C distinction that C05 split is a recommendation rather than universal technical requirement. Counts and inputs agree."
+  },
+  "C": {
+    "agent": "/root/v8_review_c",
+    "result": "technical preflight complete, no mandatory unresolved issue",
+    "resolved": [
+      "C-010",
+      "C-011",
+      "C-012",
+      "A-P007",
+      "B-P008"
+    ],
+    "note": "K05 native RC matches silent-actor exclusions and deleted tail. C01K03 fixed shot and local K08 time agree across artifacts."
+  },
+  "counts": {
+    "visual": 44,
+    "by_concept": [
+      9,
+      9,
+      8,
+      9,
+      9
+    ],
+    "conditional_audio": 3,
+    "budget": 47,
+    "tail_sources": 3
+  },
+  "mandatory_unresolved": [],
+  "production_dependencies": [
+    "derive and inspect C01 monitor-interior first frame before submission",
+    "create C05K02A, inspect/save accepted endpoint before K02B"
+  ],
+  "not_verified": [
+    "actual generated video motion",
+    "actual Korean speech pronunciation or timbre",
+    "lip sync",
+    "actual account UI/credits/costs",
+    "audience response"
+  ],
+  "execution": {
+    "flow_submitted": 0,
+    "video_generated": 0,
+    "audio_generated": 0,
+    "automation_resumed": false
+  }
+}

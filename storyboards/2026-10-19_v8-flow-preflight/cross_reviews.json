@@ -1,0 +1,26 @@
+{
+ "stage":"three reviewers cross-checked each other's independent findings and the concrete production overlay",
+ "A":{
+  "peer_findings":{"B-P001":"agree resolved","B-P002":"agree resolved","B-P003":"agree resolved","B-P004":"agree with recommended split, disagree that split is a universal technical requirement","B-P005":"agree resolved","B-P006":"agree resolved","B-P007":"agree resolved","C-004":"agree resolved","C-005":"agree resolved","C-006":"agree resolved","C-007":"agree resolved before later C010 discovery","C-008":"agree adopted","C-009":"agree reflected"},
+  "own_findings":{"A-P001":"resolved at plan level","A-P002":"resolved at plan level","A-P003":"resolved at plan level","A-P004":"resolved at plan level","A-P005":"adopted","A-P006":"reflected as action ordering and prop ownership"},
+  "new_required":[{"id":"A-P007","cuts":["C01_K03","C05_K08"],"issue":"A cut transition conflicts with an8s retained shot/tail audio, and absolute34s conflicts with an8s source","fix":"keep same shot; use local2s"},{"id":"A-P008","cuts":["C05_K02A"],"issue":"A framing still asks to fold body although action only removes column","fix":"upright removal-only framing"}]
+ },
+ "B":{
+  "peer_findings":{"A-P001":"agree resolved","A-P002":"agree resolved","A-P003":"agree resolved before later C010 discovery","A-P004":"agree resolved","A-P005":"agree adopted","A-P006":"agree reflected","C-004":"agree resolved","C-005":"agree resolved","C-006":"agree resolved","C-007":"agree resolved before later C010 discovery","C-008":"agree reflected","C-009":"agree reflected"},
+  "own_findings":{"B-P001":"resolved","B-P002":"resolved","B-P003":"resolved","B-P004":"resolved by adopted production choice","B-P005":"resolved before later C010 discovery","B-P006":"resolved","B-P007":"resolved"},
+  "new_required":[{"id":"B-P008","cuts":["C01_K03","C05_K02A","C05_K08"],"issue":"cut command, A framing and absolute time left in generation prompts","fix":"no generated cut, upright A framing, local2s"}]
+ },
+ "C":{
+  "peer_findings":{"A-P001":"agree resolved","A-P002":"agree resolved","A-P003":"agree except C010 speaker/lip conflict","A-P004":"agree resolved","A-P005":"agree adopted, C011 remains","A-P006":"agree reflected","B-P001":"agree resolved","B-P002":"agree resolved","B-P003":"agree resolved","B-P004":"agree as recommended production choice, not universal requirement; C011 remains","B-P005":"agree except C010 visible RC must speak","B-P006":"agree resolved","B-P007":"agree resolved"},
+  "own_findings":{"C-004":"resolved","C-005":"resolved","C-006":"resolved","C-007":"mostly resolved, supplement C010","C-008":"adopted, supplement C011","C-009":"reflected; actual video still untested"},
+  "additional_actual_image_opened":"../2026-10-19_tone-polish-v8/images/C04/S05.png",
+  "new_required":[{"id":"C-010","cuts":["C04_K05"],"issue":"RC mouth visible but prompt makes him silent while borrowing another clip audio","fix":"native RC speech inK05, delete K04 tail plan, verify actual lip sync"},{"id":"C-011","cuts":["C05_K02A"],"issue":"A framing conflicts with action split","fix":"removal-only framing"},{"id":"C-012","cuts":["C05_K08"],"issue":"absolute34s in8s request","fix":"local2s; PA in post"}]
+ },
+ "PD_decisions":[
+  "Adopt all concrete prompt corrections. No approved story/image changes.",
+  "A/B split is recommended for this complex C05 shot, not a product limitation. One-source actual success remains possible.",
+  "Accept C010 from actual image evidence; visible RC speaks inK05. Remove K04 tail completely, reducing planned tails from4 to3 without changing44visual or3audio reserve.",
+  "Current source dependencies are legitimate production steps, not invented ready inputs. Actual audio/motion verification remains future work."
+ ],
+ "count":"44visual+3conditional audio=47planning budget, retries/additional speech sources excluded"
+}

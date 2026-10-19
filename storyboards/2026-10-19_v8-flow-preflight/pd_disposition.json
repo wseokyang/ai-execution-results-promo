@@ -1,0 +1,95 @@
+{
+  "decisions": [
+    {
+      "ids": [
+        "A-P001",
+        "B-P002",
+        "C-005",
+        "C-006"
+      ],
+      "action": "production overlay corrects actual initial state, removes pen and rail sounds; accepted V8 unchanged"
+    },
+    {
+      "ids": [
+        "A-P002",
+        "B-P001",
+        "B-P003",
+        "B-P007",
+        "C-004"
+      ],
+      "action": "C01K04 monitor-only source instead of another whole-room clip; post layers for evidence, internal condition marks, text and identical photograph"
+    },
+    {
+      "ids": [
+        "A-P003",
+        "B-P005",
+        "C-007"
+      ],
+      "action": "per-cut speaking and silent actors, voice profile, offscreen cue routing, native line vs audio-tail and optional auxiliary source"
+    },
+    {
+      "ids": [
+        "A-P004",
+        "B-P006"
+      ],
+      "action": "No BGM in generation request. One continuous score per film in post; intentional pauses remove music only. Actual voices must be listened to."
+    },
+    {
+      "ids": [
+        "A-P005",
+        "B-P004",
+        "C-008"
+      ],
+      "action": "Recommend C05K02A+B:44visual total. B uses accepted A endpoint; cannot prepare it before actual A exists. No blind frame interpolation or forced speed-up."
+    },
+    {
+      "ids": [
+        "A-P006",
+        "C-009"
+      ],
+      "action": "assign hand/prop ownership; early test complex falls, tripod cuffs, hatches, monster transformation/ear. No automatic Fast upgrade."
+    },
+    {
+      "ids": [
+        "A-P007",
+        "B-P008",
+        "C-012"
+      ],
+      "action": "C01K03 retains one fixed8s shot, transition only in post. C05K08 uses local2s, not absolute34s."
+    },
+    {
+      "ids": [
+        "A-P008",
+        "B-P008",
+        "C-011"
+      ],
+      "action": "C05K02A framing explicitly upright column removal only. B retains body-fold/entry."
+    },
+    {
+      "ids": [
+        "C-010"
+      ],
+      "action": "Visible RC speaks natively inC04K05; removed from silent list; deletedK04tail; actual lip/timbre comparison still required."
+    }
+  ],
+  "count_decision": {
+    "visual": 44,
+    "by_concept": {
+      "C01": 9,
+      "C02": 9,
+      "C03": 8,
+      "C04": 9,
+      "C05": 9
+    },
+    "audio_reserve": 3,
+    "planning_total": 47,
+    "audio_reserve_usage": "C03phoneS1, C04openingannouncer1, C05PA1; reuse accepted native cues instead if already natural. Do not submit all three merely to use budget.",
+    "tail_reuse": "C01K03 tail->K04P; C04K06 tail->K01CM; C05K04 tail->K07FM. Only exact natural cues actually obtained. C04K05 now native RC speech; K04tail deleted because mouth is visible. Tail failure may need another source beyond47."
+  },
+  "time_policy": "Keep V8 editing targets as baseline, not a promise that all action fits. If natural landing/dialogue or C05two-part action needs time, allow up to2s extra C01,3s C05,1s C04 and recalc edit; never speed speech or substitute moving stills. Titles keep original reading duration. All films remain under60s.",
+  "asset_dependencies": {
+    "C01_K04": "Before generation derive a screen-interior first frame from the approved PNG; preserve pose/face, keep fixed poster-room plate. Not exported in review-only turn.",
+    "C05_K02B": "Before submitting B save and inspect an actual accepted endpoint from A; no invented endpoint now."
+  },
+  "status": "three-reviewer independent/cross/correction verification complete; no mandatory unresolved planning issue; actual Flow/audio/motion untested"
+}

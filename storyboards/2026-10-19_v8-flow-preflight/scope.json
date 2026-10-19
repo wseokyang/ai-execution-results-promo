@@ -1,0 +1,13 @@
+{
+  "request": "Flow 제작 전 첫 프레임·동작·대사·화자·BGM·효과음·편집과 영상개수 검토",
+  "accepted_stories": "all five V8 concepts; no creative rebuild",
+  "today_execution": "review and preparation only; no Flow upload, video/audio generation, account switch, credit spend or automation resume",
+  "production_assumptions": {
+    "aspect_ratio": "16:9",
+    "outputs": 1,
+    "preferred_model": "Veo3.1 Lite subject to live UI confirmation; no automatic Fast upgrade",
+    "resolution": "720p starting assumption; check UI",
+    "duration": "4/6/8s according to current official Flow matrix; choose by needed action and edit handles, not final-cut duration alone"
+  },
+  "actual_account_UI_checked": false
+}

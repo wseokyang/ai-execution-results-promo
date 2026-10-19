@@ -1,7 +1,7 @@
 # 경로는 모두 이 프로젝트 폴더(AGENTS.md가 있는 폴더)를 기준으로 한다.
 # 초기 조사 기록이다. 후속 기획 실행 시 사용자 최신 지시와 원자료로 갱신한다.
 team_name = "AI 실행 결과 발표대회 홍보영상팀"
-# 최신 지시는 맨 아래 creative_direction_2026_10_19_tone_polish_v8을 우선한다.
+# 최신 제작 검토는 맨 아래 production_preflight_2026_10_19를 우선한다. 승인 콘티는 V8이다.
 prepared_on = "2026-10-14"
 project_root_relative_to_this_file = ".."
 setup_scope = "2026-10-14 사용자 실제 기획 요청 시작: 팀 확인 후 5안 기획·교차검수·씬 대표 이미지 제작. Flow 영상 제작 제외."
@@ -123,3 +123,11 @@ new_run = "storyboards/2026-10-19_tone-polish-v8"
 retained = "C01/C03/C05 전체 콘티 객체·25PNG 바이트 보존. C02/C04 이야기·AI 역할·35/34초 유지."
 delivery = "2/4 대사·호흡·체면 유지 행동 보완. 새 PNG2장 + 재사용41장 =43장. Git 루트 콘티_바로보기.md 추가."
 scope = "시나리오와 첫 프레임만. Flow·동영상·음원 금지, 예약 PAUSED 유지. 비공개 Git 유지."
+
+[production_preflight_2026_10_19]
+user_feedback = "V8 다섯 안 모두 괜찮음. 오늘 저녁 제작을 앞두고 첫 프레임·대사·음성·배경음·영상 수 전체 검토 요청."
+source = "storyboards/2026-10-19_tone-polish-v8"
+production_overlay = "storyboards/2026-10-19_v8-flow-preflight/FLOW_PREFLIGHT.md"
+counts = "편집43컷, 화면44개=9/9/8/9/9, 조건부 음성예비3개로47개계획. 재시도별도."
+delivery = "실제 첫 상태·화자·동작·음악지시 보정,44제작프롬프트초안,3인독립/교차/수정재확인완료. 기존5안·43PNG바이트불변."
+scope = "검토·준비만. Flow·영상·음원·크레딧사용0,예약재개안함. 실제발음·립싱크·동작은생성후검수."

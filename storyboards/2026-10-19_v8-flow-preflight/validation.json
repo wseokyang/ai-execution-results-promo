@@ -1,0 +1,42 @@
+{
+  "status": "passed",
+  "checks": {
+    "source_storyboards_bytes_unchanged": true,
+    "selected_images_unchanged": 43,
+    "images_opened_for_integrity": 43,
+    "image_dimensions": {
+      "(1672, 941)": 41,
+      "(1672, 940)": 1,
+      "(1671, 941)": 1
+    },
+    "ratio_note": "PNG dimensions are near16:9 with rounding under0.2%; verify live upload crop does not cut hands or title space. Originals unchanged.",
+    "cut_coverage": 43,
+    "visual_units": 44,
+    "by_concept": {
+      "C01": 9,
+      "C02": 9,
+      "C03": 8,
+      "C04": 9,
+      "C05": 9
+    },
+    "audio_reserve": 3,
+    "tail_audio_sources": 3,
+    "draft_prompts": 44,
+    "no_broken_report_links": true,
+    "known_prompt_conflicts_resolved": true,
+    "previous_finished_film_unchanged": true,
+    "new_media_generated": 0,
+    "flow_requests_submitted": 0
+  },
+  "production_input_dependencies": [
+    {
+      "id": "C01_K04",
+      "status": "derive_monitor_interior_before_submission"
+    },
+    {
+      "id": "C05_K02B",
+      "status": "accepted_C05_K02A_endpoint_required"
+    }
+  ],
+  "limits": "Static artifacts and source integrity only. No actual generated motion, audio listening, lip sync, current account UI, cost or model availability test."
+}

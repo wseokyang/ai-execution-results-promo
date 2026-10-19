@@ -1,0 +1,36 @@
+{
+  "checked_on": "2026-10-19",
+  "sources": [
+    {
+      "url": "https://support.google.com/flow/answer/16352836?hl=en",
+      "title": "Flow models and supported features",
+      "used_facts": [
+        "Veo3.1 Lite/Fast first-frame generation lists4/6/8seconds and both aspect ratios",
+        "Active model, resolution and credit cost should be checked before generating"
+      ]
+    },
+    {
+      "url": "https://support.google.com/flow/answer/16353334?hl=en",
+      "title": "Create videos in Flow",
+      "used_facts": [
+        "Start/end-frame prompts should describe action between supplied frames",
+        "Voice references are described for Omni Flash Ingredients; they are not a promised Veo Frames voice lock"
+      ]
+    },
+    {
+      "url": "https://support.google.com/googleone/answer/16287445",
+      "title": "Manage AI credits",
+      "used_facts": [
+        "Usage varies by feature/model and plan; previous observed10/20credit costs are not a current quote"
+      ]
+    }
+  ],
+  "inferences": [
+    "Same voice adjectives do not verify actual timbre consistency",
+    "Keeping BGM in post allows exact musical breaks and a continuous score"
+  ],
+  "not_checked": [
+    "current logged-in account, credits, settings, region-dependent controls",
+    "actual generated motion and speech in this new five-concept series"
+  ]
+}
