@@ -1,0 +1,36 @@
+{
+  "originals": [
+    {
+      "file": "C03_K06_take01.mp4",
+      "original_sha256_preserved": true,
+      "cache_copy_match": true
+    },
+    {
+      "file": "C03_K07_take01.mp4",
+      "original_sha256_preserved": true,
+      "cache_copy_match": true
+    },
+    {
+      "file": "C03_K08_take01.mp4",
+      "original_sha256_preserved": true,
+      "cache_copy_match": true
+    },
+    {
+      "file": "VO_C03_S_take01.mp4",
+      "original_sha256_preserved": true,
+      "cache_copy_match": true
+    },
+    {
+      "file": "C03_K05_take02.mp4",
+      "original_sha256_preserved": true,
+      "cache_copy_match": true
+    }
+  ],
+  "prompt_files_match_log_except_terminal_newline": true,
+  "gallery_video_count": 5,
+  "gallery_local_links_pass": true,
+  "brief_toml_parse": true,
+  "reviewer_count": 3,
+  "cross_review_count": 3,
+  "scope": "Delivery consistency only; not quality adoption or actual hearing"
+}

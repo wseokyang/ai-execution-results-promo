@@ -1,0 +1,62 @@
+{
+  "scope": "original preservation, input hashes and media decoding; not listening/lip-sync or adoption",
+  "checks": [
+    {
+      "cut": "C03_K06",
+      "take": 1,
+      "sha256": "2f3cfc06a9579d3aca160150b39fefccc83775750c1109387fb3f948c046a6c3",
+      "download_match": true,
+      "source_and_staging_image_match": true,
+      "decode_pass": true,
+      "seconds": 8.0
+    },
+    {
+      "cut": "C03_K07",
+      "take": 1,
+      "sha256": "9c3ff439daabac3fb692da49c748bce6e7992dfab23fbe284fd2c06833d76b19",
+      "download_match": true,
+      "source_and_staging_image_match": true,
+      "decode_pass": true,
+      "seconds": 8.0
+    },
+    {
+      "cut": "C03_K08",
+      "take": 1,
+      "sha256": "e48eeb2c1ef61ca1ebde396d8b3bfac9d0ea7f31c406706cfa2fbdcee23aa9c8",
+      "download_match": true,
+      "source_and_staging_image_match": true,
+      "decode_pass": true,
+      "seconds": 8.0
+    },
+    {
+      "cut": "VO_C03_S",
+      "take": 1,
+      "sha256": "0fbad48dd96b679b77391f9ce21a648eb56457365398a8d4a9c5b17e535cfb09",
+      "download_match": true,
+      "source_and_staging_image_match": true,
+      "decode_pass": true,
+      "seconds": 8.0
+    },
+    {
+      "cut": "C03_K05",
+      "take": 2,
+      "sha256": "20a3a09bae43b2a859440951ff2978466439dfb6d36afa22c8d762dba9cc059f",
+      "download_match": true,
+      "source_and_staging_image_match": true,
+      "decode_pass": true,
+      "seconds": 8.0
+    }
+  ],
+  "originals_count": 5,
+  "observed_balance_sequence": [
+    50,
+    50,
+    40,
+    30,
+    20,
+    10,
+    0
+  ],
+  "total_success_charge": 50,
+  "failed_attempts": 1
+}

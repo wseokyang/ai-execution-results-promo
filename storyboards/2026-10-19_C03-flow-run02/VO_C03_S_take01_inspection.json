@@ -1,0 +1,66 @@
+{
+  "file": "VO_C03_S_take01.mp4",
+  "bytes": 2403043,
+  "sha256": "0fbad48dd96b679b77391f9ce21a648eb56457365398a8d4a9c5b17e535cfb09",
+  "duration_seconds": 8.0,
+  "streams": [
+    {
+      "type": "video",
+      "codec": "h264",
+      "duration_seconds": 8.0,
+      "width": 1280,
+      "height": 720,
+      "frame_rate": "24/1"
+    },
+    {
+      "type": "audio",
+      "codec": "aac",
+      "duration_seconds": 8.0
+    }
+  ],
+  "decode_pass": true,
+  "decoded_pcm_finite": true,
+  "decoded_pcm_peak": 1.3752251863479614,
+  "derived_wav_format": "pcm_f32le, decoder overshoots preserved",
+  "asr_model": "faster-whisper small CPU int8",
+  "segments": [
+    {
+      "start": 0.0,
+      "end": 2.4,
+      "text": " 안 됐던 것도 빠짐없이 달라면서요.",
+      "words": [
+        {
+          "start": 0.0,
+          "end": 0.14,
+          "word": " 안",
+          "probability": 0.3121238052845001
+        },
+        {
+          "start": 0.14,
+          "end": 0.44,
+          "word": " 됐던",
+          "probability": 0.966145932674408
+        },
+        {
+          "start": 0.44,
+          "end": 0.7,
+          "word": " 것도",
+          "probability": 0.977827250957489
+        },
+        {
+          "start": 0.7,
+          "end": 1.58,
+          "word": " 빠짐없이",
+          "probability": 0.9563020765781403
+        },
+        {
+          "start": 1.58,
+          "end": 2.4,
+          "word": " 달라면서요.",
+          "probability": 0.9548598974943161
+        }
+      ]
+    }
+  ],
+  "limitation": "Automatic transcription and technical inspection only. No actual listening, pronunciation, speaker identity, naturalness, or lip-sync verification."
+}

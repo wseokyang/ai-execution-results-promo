@@ -1,0 +1,319 @@
+{
+  "run_id": "2026-10-19_C03-flow-run02",
+  "concept": "V8 C03 환경까지 가져왔습니다",
+  "status": "three_independent_visual_reviews_and_cross_reviews_complete; defects_unresolved",
+  "scope": "새 원본5개, contact80표본 + 개별PNG/승인 첫 프레임 대조. 실제 청취·연속재생·립싱크 미검증.",
+  "report_representation": "총괄이 실제 에이전트 반환을 ID별로 요약 저장. 원문 그대로의 인용이 아님.",
+  "independent_reviews": [
+    {
+      "reviewer": "A",
+      "agent": "/root/c03_run02_review_a",
+      "independent_before_peer_reports": true,
+      "opened": "5contact/80표본+개별PNG21장+V8입력4장",
+      "issues": [
+        {
+          "id": "A-031",
+          "cut": "K05",
+          "classification": "required",
+          "finding": "3.5초에 왼손 귀의 전화와 오른손 두 번째 전화 동시 확인.",
+          "disposition": "전체 채택 보류. 기존 화면과 연결·보정 가능성 먼저 검토.",
+          "resolution": "unresolved"
+        },
+        {
+          "id": "A-032",
+          "cut": "K05→K06",
+          "classification": "edit_validation",
+          "finding": "파일은 약2.5초부터 끝까지 탁자. 질문 ASR3.89~5.07초.",
+          "disposition": "질문→2.4초 VO→반응 및 K06 파일 소지 연결을 실제 편집으로 확인.",
+          "resolution": "unresolved"
+        },
+        {
+          "id": "A-033",
+          "cut": "K06",
+          "classification": "postproduction",
+          "finding": "내부 기록의 같은 조건이 아직 읽히지 않음.",
+          "disposition": "움직이는 두 기록의 도식 합성 및 최소1.5초 가독성 검증.",
+          "resolution": "unresolved"
+        },
+        {
+          "id": "A-034",
+          "cut": "K06→K07",
+          "classification": "edit_validation",
+          "finding": "5.5~7.5초 파일을 탁자에 포갬. 안는 종점 없음.",
+          "disposition": "파일을 모으는 동작에서 K07로 생략 연결 시험. 재생성 필수 아님.",
+          "resolution": "unresolved"
+        },
+        {
+          "id": "A-035",
+          "cut": "K07",
+          "classification": "required",
+          "finding": "4.5초 이후 시작 이미지에 없는 검정 선글라스. 둘째말 ASR끝4.57초와 겹침.",
+          "disposition": "말끝과 기사 반응을 보존하는 화면 처리. 단순 조기 트림으로 해결 판정 금지.",
+          "resolution": "unresolved"
+        },
+        {
+          "id": "A-036",
+          "cut": "K08",
+          "classification": "required",
+          "finding": "0.5초부터 주황 반사 조끼로 변함.",
+          "disposition": "청록 조끼·두 파일 연속성 보완. 파일 소실은 단정하지 않음.",
+          "resolution": "unresolved"
+        },
+        {
+          "id": "A-037",
+          "cut": "K08",
+          "classification": "required",
+          "finding": "흰 의자 추가, 6.5~7.5초 머리·손 또는 무릎·바닥 안전모 증식.",
+          "disposition": "전체 엔딩 채택 보류. 앞5초 트림으로 해결 안 됨.",
+          "resolution": "unresolved"
+        },
+        {
+          "id": "A-038",
+          "cut": "all",
+          "classification": "verification",
+          "finding": "실제 청취·연속재생·립싱크 미확인.",
+          "disposition": "화자·첫음절·말끝·현장음 확인. ASR/PCM 수치만으로 발음 실패·클리핑 단정 금지.",
+          "resolution": "unresolved"
+        },
+        {
+          "id": "A-039",
+          "cut": "K07",
+          "classification": "optional",
+          "finding": "둘째말 뒤 반응과 다음 컷까지 호흡을 줄일 여지.",
+          "disposition": "필수 오류 보완 후 반응 직후 연결 비교.",
+          "resolution": "proposal_retained"
+        }
+      ]
+    },
+    {
+      "reviewer": "B",
+      "agent": "/root/v8_review_b",
+      "independent_before_peer_reports": true,
+      "opened": "5contact/80표본+개별PNG17장+V8입력4장",
+      "issues": [
+        {
+          "id": "B-031",
+          "cut": "K06",
+          "classification": "edit_validation",
+          "finding": "7.5초에도 두 파일 탁자 위, 내부 조건 가독성 미완.",
+          "disposition": "K07 생략 연결·내부 도식1.5초 검증.",
+          "resolution": "unresolved"
+        },
+        {
+          "id": "B-032",
+          "cut": "K07",
+          "classification": "required",
+          "finding": "4.5초부터 선글라스, 둘째 문장과 겹침.",
+          "disposition": "반응·말끝 유지하는 부분 활용/보정 검토.",
+          "resolution": "unresolved"
+        },
+        {
+          "id": "B-033",
+          "cut": "K08",
+          "classification": "required",
+          "finding": "주황 조끼·흰 의자·안전모3개.",
+          "disposition": "전체 채택 보류.",
+          "resolution": "unresolved"
+        },
+        {
+          "id": "B-034",
+          "cut": "K08",
+          "classification": "edit_validation",
+          "finding": "착석 약6.5~7초, 첫5초에는 착석 결말 없음.",
+          "disposition": "행사명5초 가독성·전체 길이 재검증. 길이만 늘리면 시각 오류는 남음.",
+          "resolution": "unresolved"
+        },
+        {
+          "id": "B-035",
+          "cut": "K05",
+          "classification": "required",
+          "finding": "3.5초 두 번째 전화, 파일 탁자 종점.",
+          "disposition": "take02 자동 대체 금지.",
+          "resolution": "unresolved"
+        },
+        {
+          "id": "B-036",
+          "cut": "K05/VO",
+          "classification": "edit_validation",
+          "finding": "질문3.89~5.07, 첫7초에 VO자리1.93초.",
+          "disposition": "8초 원본에는2.4초 VO 여지 있으나 반응·화면 보완 동시 확인.",
+          "resolution": "unresolved"
+        },
+        {
+          "id": "B-037",
+          "cut": "VO/all",
+          "classification": "verification",
+          "finding": "S문장 ASR0~2.4초, 실제 음질·화자 미확인.",
+          "disposition": "음성 추출 후보. 화면컷으로 세지 않으며 실제 청취 필요.",
+          "resolution": "unresolved"
+        }
+      ]
+    },
+    {
+      "reviewer": "C",
+      "agent": "/root/v8_review_c",
+      "independent_before_peer_reports": true,
+      "opened": "5contact/80표본+개별PNG16장, V8K06/7/8 및 이전 확인K05",
+      "issues": [
+        {
+          "id": "C-031",
+          "cut": "K06",
+          "classification": "postproduction",
+          "finding": "내부 조건 증거와 탁자→안기 연결 미완.",
+          "disposition": "도식1.5초와 생략 연결 검증 우선, 재생성 필수 아님.",
+          "resolution": "unresolved"
+        },
+        {
+          "id": "C-032",
+          "cut": "K07",
+          "classification": "required",
+          "finding": "선글라스4.5초부터, 둘째말끝4.57초.",
+          "disposition": "앞부분 활용 가능. 문장 끝/기사 반응 보완 필요.",
+          "resolution": "unresolved"
+        },
+        {
+          "id": "C-033",
+          "cut": "K08",
+          "classification": "required",
+          "finding": "의상·의자·안전모 변형, 착석 약7초.",
+          "disposition": "전체 채택 보류, 첫6초 트림으로 결말 미완.",
+          "resolution": "unresolved"
+        },
+        {
+          "id": "C-034",
+          "cut": "K05",
+          "classification": "required",
+          "finding": "약3초 오른손 추가 기기, 2.5초 이후 파일 탁자.",
+          "disposition": "전화선 개선만으로 take02 채택 금지.",
+          "resolution": "unresolved"
+        },
+        {
+          "id": "C-035",
+          "cut": "K05/VO",
+          "classification": "edit_validation",
+          "finding": "질문 늦으나 새 VO2.4초는8초 안 배치 가능성.",
+          "disposition": "3.5초 무언 미달만으로 재생성하지 않음.",
+          "resolution": "unresolved"
+        },
+        {
+          "id": "C-036",
+          "cut": "VO/all",
+          "classification": "verification",
+          "finding": "목표문장 ASR 일치, 실제 화자·속도·음질 미확인.",
+          "disposition": "첫음절·말끝·자연스러움 청취 필요. PCM peak>1은 가청클리핑 증거 아님.",
+          "resolution": "unresolved"
+        }
+      ]
+    }
+  ],
+  "cross_reviews": [
+    {
+      "reviewer": "A",
+      "peer_issue_dispositions": {
+        "B-031": "동의; 실제 표본과 일치, 아직 미해결",
+        "B-032": "동의; 실제 표본과 일치, 아직 미해결",
+        "B-033": "동의; 실제 표본과 일치, 아직 미해결",
+        "B-034": "부분 동의: 첫5초만 자르면 착석 상실. 뒤3~8초에는 착석이 있으나 퇴장 시작·시각 오류를 해결하지 못함.",
+        "B-035": "동의; 실제 표본과 일치, 아직 미해결",
+        "B-036": "동의·보완: ASR 계산상5.07+2.4=7.47, 남는0.53초 반응이 자연스러운지는 미검증.",
+        "B-037": "동의; 실제 표본과 일치, 아직 미해결",
+        "C-031": "동의; 실제 표본과 일치, 아직 미해결",
+        "C-032": "동의; 실제 표본과 일치, 아직 미해결",
+        "C-033": "동의·보완:6.5초 착석 진행,7~7.5초 착석 상태. 정확 완료시각은 연속재생 미확인.",
+        "C-034": "동의; 실제 표본과 일치, 아직 미해결",
+        "C-035": "동의; 실제 표본과 일치, 아직 미해결",
+        "C-036": "동의; 실제 표본과 일치, 아직 미해결"
+      },
+      "additional": "새 필수 시각 오류 없음. 연속재생/현장음/립싱크 및 수정 후 전체 시간표·행사명 읽기시간 유지."
+    },
+    {
+      "reviewer": "B",
+      "peer_issue_dispositions": {
+        "A-031": "동의; 실제 표본과 일치, 아직 미해결",
+        "A-032": "동의; 실제 표본과 일치, 아직 미해결",
+        "A-033": "동의; 실제 표본과 일치, 아직 미해결",
+        "A-034": "동의; 실제 표본과 일치, 아직 미해결",
+        "A-035": "동의; 실제 표본과 일치, 아직 미해결",
+        "A-036": "동의·범위 제한: 직접 개별 확인은1초, 최초 발생시각 확정 안 함. 파일 소실 단정 안 함.",
+        "A-037": "동의; 실제 표본과 일치, 아직 미해결",
+        "A-038": "동의; 실제 표본과 일치, 아직 미해결",
+        "A-039": "선택 제안 동의; 단축만으로 선글라스 문제가 해결되지는 않음.",
+        "C-031": "동의; 실제 표본과 일치, 아직 미해결",
+        "C-032": "동의; 실제 표본과 일치, 아직 미해결",
+        "C-033": "동의; 실제 표본과 일치, 아직 미해결",
+        "C-034": "동의·범위 제한: 추가기기3.5초에서 직접 확인. take02 자동 대체 금지.",
+        "C-035": "동의; 실제 표본과 일치, 아직 미해결",
+        "C-036": "동의; 실제 표본과 일치, 아직 미해결"
+      },
+      "additional": "추가 누락 없음."
+    },
+    {
+      "reviewer": "C",
+      "peer_issue_dispositions": {
+        "A-031": "동의; 실제 표본과 일치, 아직 미해결",
+        "A-032": "동의; 실제 표본과 일치, 아직 미해결",
+        "A-033": "동의; 실제 표본과 일치, 아직 미해결",
+        "A-034": "동의; 실제 표본과 일치, 아직 미해결",
+        "A-035": "동의; 실제 표본과 일치, 아직 미해결",
+        "A-036": "동의: 교차 단계에서 K08 0.5초 개별PNG 추가로 열어 주황 조끼 확인. 파일 소실 단정 안 함.",
+        "A-037": "동의; 실제 표본과 일치, 아직 미해결",
+        "A-038": "동의; 실제 표본과 일치, 아직 미해결",
+        "A-039": "조건부 동의: 반응 직후 단축은 선택안, 오류 회피하려고 말끝을 자르면 안 됨.",
+        "B-031": "동의; 실제 표본과 일치, 아직 미해결",
+        "B-032": "동의; 실제 표본과 일치, 아직 미해결",
+        "B-033": "동의: 주황 조끼·흰 의자·안전모 증식 확인.",
+        "B-034": "동의; 실제 표본과 일치, 아직 미해결",
+        "B-035": "동의; 실제 표본과 일치, 아직 미해결",
+        "B-036": "동의; 실제 표본과 일치, 아직 미해결",
+        "B-037": "동의; 실제 표본과 일치, 아직 미해결"
+      },
+      "additional": "K08 0.5초PNG 추가 열람. 추가 누락 없음."
+    }
+  ],
+  "pd_dispositions": {
+    "C03_K06": {
+      "status": "conditional_edit_candidate",
+      "label": "후편집 조건부 후보",
+      "notes": "파일 관찰과 발견 표정 활용 가능. 내부 조건 도식1.5초, 파일을 모은 뒤 K07로 생략 연결 검증이 남음."
+    },
+    "C03_K07": {
+      "status": "partial_candidate_late_glasses_hold",
+      "label": "부분 후보 · 선글라스 보완",
+      "notes": "두 문장과 기사 반전은 확보. 약4.5초 뒤 선글라스가 생겨 말끝·반응을 살리는 보완 필요."
+    },
+    "C03_K08": {
+      "status": "hold_wardrobe_chair_helmet",
+      "label": "본편 채택 보류",
+      "notes": "청록 조끼가 주황으로 변함. 흰 의자 추가·안전모 증식. 착석은 후반이라 첫5초 트림으로 결말 확보 불가."
+    },
+    "VO_C03_S": {
+      "status": "audio_only_candidate_pending_listening",
+      "label": "전화 답변 음성 후보",
+      "notes": "목표 문장 자동전사0~2.4초. 실제 화자·발음·첫음절·말끝·음질은 청취 미확인. 본편 화면 수에 포함하지 않음."
+    },
+    "C03_K05": {
+      "status": "hold_two_phones_file_endpoint",
+      "label": "보완 take02 · 채택 보류",
+      "notes": "코일선은 표본상 사라졌지만 두 번째 전화기 생성, 파일은 끝까지 탁자에 남음. take01을 자동 대체하지 않음."
+    }
+  },
+  "pd_cross_resolution": [
+    "K08 착석 관련 지적은 첫5초/첫6초 트림으로 한정한다. 뒤 구간 선택이면 착석은 포함되지만 퇴장 시작·의상·소품 결함은 해결되지 않는다.",
+    "K06의 탁자 종점→K07 파일안기 생략 연결은 편집 검증 우선. 원본 오류와 예정된 후편집 도식을 구분한다.",
+    "K05 질문 뒤 약2.93초에2.4초 VO를 배치할 수 있다는 계산은 실제 자연스러움의 확인이 아니다.",
+    "K05 파일 종점 미달이take01/02에서 반복되어 추가 무변경 재생성 보류. 이번일자 추가 수정take 이미1개 사용.",
+    "K03 장갑, K04 B전체공개/장갑, 기존 K05take01 전화선·연결 문제는 이번 생성으로 해결된 것으로 쓰지 않는다.",
+    "K01 그림자 사용자 수용 유지. 기존 승인 이야기·첫 이미지와 완성 legacyC01 보존."
+  ],
+  "unresolved": true,
+  "final_film_complete": false,
+  "originals_saved_this_run": 5,
+  "motion_original_coverage": "8/8 planned motion cuts; not 8/8 adopted",
+  "total_C03_originals_across_runs": 10,
+  "next_steps": [
+    "원본 보존·음성 실제 청취 및 연속재생 확인",
+    "기존 원본 부분 편집으로 필수 결함을 해결할 수 있는지 검증",
+    "불가능한 결함만 구체적인 수정안으로 보류 관리; 잔액0이므로 추가 생성 없음"
+  ],
+  "credits_remaining": 0
+}

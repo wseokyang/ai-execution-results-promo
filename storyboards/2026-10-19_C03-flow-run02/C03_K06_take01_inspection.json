@@ -1,0 +1,48 @@
+{
+  "file": "C03_K06_take01.mp4",
+  "bytes": 2184376,
+  "sha256": "2f3cfc06a9579d3aca160150b39fefccc83775750c1109387fb3f948c046a6c3",
+  "duration_seconds": 8.0,
+  "streams": [
+    {
+      "type": "video",
+      "codec": "h264",
+      "duration_seconds": 8.0,
+      "width": 1280,
+      "height": 720,
+      "frame_rate": "24/1"
+    },
+    {
+      "type": "audio",
+      "codec": "aac",
+      "duration_seconds": 8.0
+    }
+  ],
+  "decode_pass": true,
+  "decoded_pcm_finite": true,
+  "decoded_pcm_peak": 0.5922484397888184,
+  "derived_wav_format": "pcm_f32le, decoder overshoots preserved",
+  "asr_model": "faster-whisper small CPU int8",
+  "segments": [
+    {
+      "start": 2.42,
+      "end": 3.84,
+      "text": " 반품 잠깐",
+      "words": [
+        {
+          "start": 2.42,
+          "end": 3.2,
+          "word": " 반품",
+          "probability": 0.6921571791172028
+        },
+        {
+          "start": 3.2,
+          "end": 3.84,
+          "word": " 잠깐",
+          "probability": 0.7620907425880432
+        }
+      ]
+    }
+  ],
+  "limitation": "Automatic transcription and technical inspection only. No actual listening, pronunciation, speaker identity, naturalness, or lip-sync verification."
+}

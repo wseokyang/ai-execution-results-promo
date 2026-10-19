@@ -1,0 +1,73 @@
+{
+  "file": "C03_K07_take01.mp4",
+  "bytes": 3406321,
+  "sha256": "9c3ff439daabac3fb692da49c748bce6e7992dfab23fbe284fd2c06833d76b19",
+  "duration_seconds": 8.0,
+  "streams": [
+    {
+      "type": "video",
+      "codec": "h264",
+      "duration_seconds": 8.0,
+      "width": 1280,
+      "height": 720,
+      "frame_rate": "24/1"
+    },
+    {
+      "type": "audio",
+      "codec": "aac",
+      "duration_seconds": 8.0
+    }
+  ],
+  "decode_pass": true,
+  "decoded_pcm_finite": true,
+  "decoded_pcm_peak": 0.9349249601364136,
+  "derived_wav_format": "pcm_f32le, decoder overshoots preserved",
+  "asr_model": "faster-whisper small CPU int8",
+  "segments": [
+    {
+      "start": 0.11,
+      "end": 1.85,
+      "text": " 이건 직접 들어야겠네요.",
+      "words": [
+        {
+          "start": 0.11,
+          "end": 0.71,
+          "word": " 이건",
+          "probability": 0.7896550893783569
+        },
+        {
+          "start": 0.71,
+          "end": 0.95,
+          "word": " 직접",
+          "probability": 0.9989774227142334
+        },
+        {
+          "start": 0.95,
+          "end": 1.85,
+          "word": " 들어야겠네요.",
+          "probability": 0.978801503777504
+        }
+      ]
+    },
+    {
+      "start": 3.51,
+      "end": 4.57,
+      "text": " 제가 갈게요.",
+      "words": [
+        {
+          "start": 3.51,
+          "end": 4.11,
+          "word": " 제가",
+          "probability": 0.9831372499465942
+        },
+        {
+          "start": 4.11,
+          "end": 4.57,
+          "word": " 갈게요.",
+          "probability": 0.993236631155014
+        }
+      ]
+    }
+  ],
+  "limitation": "Automatic transcription and technical inspection only. No actual listening, pronunciation, speaker identity, naturalness, or lip-sync verification."
+}
