@@ -1,0 +1,99 @@
+{
+  "run_id": "2026-10-20_C03-flow-run03",
+  "concept": "accepted V8 C03 환경까지 가져왔습니다",
+  "authorization": "2026-10-20 user logged in another account and asked to use it to fix C03",
+  "account_label": "user-signed-in additional account display wooseok,/u/2; email not stored",
+  "project_title": "C03 환경까지 가져왔습니다 · V8 오류 보완",
+  "project_url": "https://flow.google.com/u/2/project/1b4f0913-4664-41fa-9f38-9364a71db73c",
+  "starting_credits": 50,
+  "last_observed_credits": 50,
+  "requests_submitted": 0,
+  "credits_spent_confirmed": 0,
+  "status": "awaiting_user_first_upload_rights_confirmation",
+  "settings": {
+    "model": "Veo3.1 Lite",
+    "quoted_credits_per_request": 10,
+    "ratio": "16:9",
+    "seconds": 8,
+    "resolution": "720p",
+    "outputs": 1,
+    "mode": "Frames first only",
+    "silent_return": "OFF observed unchecked"
+  },
+  "queue": [
+    {
+      "cut_id": "C03_K07",
+      "take": 2,
+      "status": "prepared_not_submitted",
+      "prompt_file": "prompts/C03_K07_take02_planned.txt",
+      "planned_prompt": "8초,16:9,720p. 승인된 시작 이미지에서 이어지는 하나의 연속 실사 숏. 인물의 얼굴·옷·빛·공간과 물건의 수를 끝까지 유지한다. 배경음악·자막·로고·웃음소리 없음. 현장 동작에 맞는 절제된 소리만. 지정하지 않은 인물은 말하지 않는다.\n고정 와이드. R은 베이지 블라우스와 청록 조끼의 여성, 두 파일을 안고 스마트폰으로 통화 중이다. T는 노란 안전모·주황 반사 조끼의 남성 기사, 안경 없는 맨얼굴이다. T의 두 눈과 얼굴을 처음부터 끝까지 가리지 않고 R을 계속 바라본다. 고개를 숙이거나 돌아서지 않는다.\nR이 전화로 “이건 직접 들어야겠네요.”라고 자연스럽게 말한다. 그 말을 들은 T는 오른손만 천천히 허리 벨트로 가져가 재운송을 준비한다. R이 T를 바라보며 “제가 갈게요.”라고 말한다. T의 손이 벨트 앞에서 멈추고 어깨가 풀린다. 그 안도 반응을 잠깐 유지한다.\n두 문장은 모두 R의 차분한30대 여성 중음, 여유 있는 자연스러운 한국어로 한 번씩. 두 문장 외의 발화 없음. R의 두 파일과 무선 스마트폰 한 대 유지. T의 눈과 맨얼굴 유지, 안경·선글라스·마스크·추가 소품 없음. 말끝과 기사 반응을 온전히 남긴다.",
+      "input_image": "storyboards\\2026-10-19_tone-polish-v8\\images\\C03\\K07.png",
+      "input_sha256": "340235c2a044de49eb74c14b9054a3a4cfbd873f801cf2b716ae115177ca7f65",
+      "original_mp4": null,
+      "quoted_credits": 10
+    },
+    {
+      "cut_id": "C03_K08",
+      "take": 2,
+      "status": "prepared_not_submitted",
+      "prompt_file": "prompts/C03_K08_take02_planned.txt",
+      "planned_prompt": "8초,16:9,720p. 승인된 시작 이미지에서 이어지는 하나의 연속 실사 숏. 인물의 얼굴·옷·빛·공간과 물건의 수를 끝까지 유지한다. 배경음악·자막·로고·웃음소리 없음. 현장 동작에 맞는 절제된 소리만. 지정하지 않은 인물은 말하지 않는다.\n고정 와이드. 먼저 여성 R만 움직인다. R은 시작 이미지의 베이지 블라우스·청록색 얇은 조끼·짙은회색 바지를 그대로 입고, 회색과 주황 파일 두 개를 가슴에 안아 왼쪽 전경으로 걸어나간다. 주황색은 손에 든 파일이며 R의 옷이 아니다. 두 파일을 떨어뜨리거나 옷으로 바꾸지 않는다. 그동안 남성 기사 T는 제자리에서 기다린다.\nR이 화면 밖으로 나간 뒤에만 T가 뒤로 두 걸음 옮겨 시작 이미지에서 자기 바로 뒤에 있는 검은 바퀴 달린 사무용 의자에 앉아 안도한다. 안전모의 턱끈을 풀거나 안전모를 벗는 동작은 하지 않는다. 노란 안전모 한 개가 처음부터 끝까지 T의 머리에 그대로 있다. 검은 의자는 시작 위치의 같은 의자이며 새 의자를 만들지 않는다. 약6초까지 착석을 마치고 뒤에는 조용히 앉은 상태를 유지한다.\n어떤 인물도 말하거나 입을 움직이지 않는다. 발소리·옷 마찰·의자 소리만. 상단 하늘과 두 방은 끝까지 그대로, 행사명은 후편집하므로 화면에 글자를 생성하지 않는다.",
+      "input_image": "storyboards\\2026-10-19_tone-polish-v8\\images\\C03\\K08.png",
+      "input_sha256": "9da7ad62a267eaef1b8e709558dceba56b9072c5e8d49df2c0cc716b0ed66e77",
+      "original_mp4": null,
+      "quoted_credits": 10
+    },
+    {
+      "cut_id": "C03_K05",
+      "take": 3,
+      "status": "prepared_not_submitted",
+      "prompt_file": "prompts/C03_K05_take03_planned.txt",
+      "planned_prompt": "8초,16:9,720p. 승인된 시작 이미지에서 이어지는 하나의 연속 실사 숏. 인물의 얼굴·옷·빛·공간과 물건의 수를 끝까지 유지한다. 배경음악·자막·로고·웃음소리 없음. 현장 동작에 맞는 절제된 소리만. 지정하지 않은 인물은 말하지 않는다.\n파일 확보를 위한 무언 연결 영상. 여성 R은 왼손의 검정 스마트폰 한 대를 귀에 유지하며 말없이 듣는다. 오른손을 시작 이미지의 주황 파일 전체 아래로 넣어 닫힌 파일을 들어 가슴 앞에 댄다. 오른손은 계속 파일을 받치고 마지막까지 그 자세를 유지한다. 파일을 펼치거나 내려놓지 않는다. 몸을 돌리거나 걸어나가거나 다른 물건을 집지 않는다.\n고정 카메라. 전화기는 귀에 있는 한 대뿐, 오른손은 주황 파일만 받친다. 전화선이나 추가 기기를 만들지 않는다. 말소리·립싱크 없음. 질문과 전화 답변은 기존 원음으로 후편집한다. 파일 들어 유지하는 한 동작에만 집중한다.",
+      "input_image": "storyboards\\2026-10-19_tone-polish-v8\\images\\C03\\K05.png",
+      "input_sha256": "831554ed0e9afe80ed637157ca15c2cda54e1d7b2a6df7eae9fac5f0a611e5e3",
+      "original_mp4": null,
+      "quoted_credits": 10
+    },
+    {
+      "cut_id": "C03_K04",
+      "take": 2,
+      "status": "prepared_not_submitted",
+      "prompt_file": "prompts/C03_K04_take02_planned.txt",
+      "planned_prompt": "8초,16:9,720p. 승인된 시작 이미지에서 이어지는 하나의 연속 실사 숏. 인물의 얼굴·옷·빛·공간과 물건의 수를 끝까지 유지한다. 배경음악·자막·로고·웃음소리 없음. 현장 동작에 맞는 절제된 소리만. 지정하지 않은 인물은 말하지 않는다.\n시작 이미지에서 카메라가 천천히 뒤로 물러나 오른쪽 공간을 넓힌다. 왼쪽의 청록 방 A는 제자리에 유지된다. 오른쪽 위에 아랫모서리가 보이는 주황 방 B가 크레인 와이어에 매달린 채 천천히 수직으로 내려온다. 주황 문틀과 수정 기록이 많은 내부를 포함한 두 번째 사무실의 대부분이 프레임 안에 분명하게 드러난다. 모서리만 보이는 상태에 머물지 않는다.\n기사 T는 왼쪽 전경에 남아 낮고 담담한40대 남성 목소리로 “아직 하나 더요.”라고 한 번 말한다. 다른 말은 하지 않는다. 방 B가 충분히 공개된 뒤 왼손에 들고 있던 벗은 장갑 한 짝을 맨 오른손에 다시 끼운다. 왼손의 착용 장갑은 유지한다. 사람은 매달린 방 밑으로 이동하지 않는다. 말끝과 두 방이 보이는 화면을 남긴다.",
+      "input_image": "storyboards\\2026-10-19_tone-polish-v8\\images\\C03\\K04.png",
+      "input_sha256": "6f6b5c970d5926a4ccc67bbe24b4eaff71fcd409012e52a33a327451d1ccae11",
+      "original_mp4": null,
+      "quoted_credits": 10
+    },
+    {
+      "cut_id": "C03_K03",
+      "take": 2,
+      "status": "conditional_reserve_not_submitted",
+      "prompt_file": "prompts/C03_K03_take02_planned.txt",
+      "planned_prompt": "8초,16:9,720p. 승인된 시작 이미지에서 이어지는 하나의 연속 실사 숏. 인물의 얼굴·옷·빛·공간과 물건의 수를 끝까지 유지한다. 배경음악·자막·로고·웃음소리 없음. 현장 동작에 맞는 절제된 소리만. 지정하지 않은 인물은 말하지 않는다.\n시작 이미지 그대로 고정 구도. 여성 R은 회색 파일 옆의 결과를 보고 자연스러운30대 여성 중음으로 “같이 나오네요.”라고 한 번 말하고 짧게 끄덕인다. 다른 말은 하지 않는다.\n이어 창밖 기사 T가 왼손으로 오른손 장갑 끝을 잡아 완전히 벗는다. 왼손에는 원래 장갑을 계속 끼고, 벗은 오른손 장갑 한 짝을 왼손에 든다. 맨 오른손은 아래로 내리고 이후 그 상태를 유지한다. 얼굴·안전모·의상·물건 수를 유지하며 추가 동작하지 않는다.",
+      "input_image": "storyboards\\2026-10-19_tone-polish-v8\\images\\C03\\K03.png",
+      "input_sha256": "e019d13c28c0a630c57850e9788b13a8a7a90671e2ca79996378f9ee07ddcedc",
+      "original_mp4": null,
+      "quoted_credits": 10
+    }
+  ],
+  "budget_cap": 50,
+  "budget_plan": "K07,K08,K05 file pickup insert,K04:40; K03 reserve10 only if K04 glove chain works and needed. Do not spend solely to empty balance.",
+  "change_reasons": {
+    "K07": "Remove head dips; preserve bare eyes/face; correct unprompted sunglasses overlapping second line/reaction.",
+    "K08": "Separate R exit/T sitting; omit chinstrap handling, keep single helmet on head; existing black chair only. PD simplifies a detail, not ending.",
+    "K05": "Different action unit: silent closed-file pickup/hold insert, not third identical whole-dialogue reroll. Existing question/VO/listening visual require edit validation.",
+    "K04": "Slow camera pullback to expose room B instead of static corner; glove action only after reveal.",
+    "K03": "Conditional after K04; existing dialogue/reaction retained if glove joke cannot be recovered."
+  },
+  "limits": [
+    "Same cut at most one additional take today",
+    "Repeated same defect twice: hold unmodified retries",
+    "No purchase/subscription/upscale/automation resume",
+    "Old originals and approved PNGs unchanged",
+    "ASR is not actual listening"
+  ],
+  "preflight_review_agent": "/root/c03_run02_review_a",
+  "refresh_notice_observed": "매일 오전8:02 (UI observation only; not an asserted fixed reset time)",
+  "rights_confirmation": "Pending user action in current Chrome; do not click agreement automatically"
+}
