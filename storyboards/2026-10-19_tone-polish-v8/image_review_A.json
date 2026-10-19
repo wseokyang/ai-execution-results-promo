@@ -1,0 +1,8 @@
+{
+ "reviewer":"A","agent":"/root/v8_review_a","stage":"independent before peer image reports","verdict":"43 selected images usable, no required revision","required_remaining":[],
+ "opened_actual_images":["contact_sheets/C01_all_cuts.jpg","contact_sheets/C02_all_cuts.jpg","contact_sheets/C03_all_cuts.jpg","contact_sheets/C04_all_cuts.jpg","contact_sheets/C05_all_cuts.jpg","images/C02/S01_v8.png","images/C02/S02.png","images/C02/S09_v2.png","images/C04/S02.png","images/C04/S04.png","images/C04/S08.png","images/C04/S09_v8.png"],
+ "findings":[],
+ "assessment":{"C01":"자세→의자원본→바닥복제 시각 연결/캐스팅 유지","C02":"새K01 얼굴·손·진지한시선과 기존사진/붉은실/중앙빈공간 유지. K02와 캐스팅 일치, K09 손/포인터 위장동작 시작에 적합","C03":"사무실배송/두모듈/작은파일 크기대비와 연속성 유지","C04":"GU를향한CM시선/숨긴자기숟가락/3창3명6팔3그릇3나무숟가락/내린국자 확인. S02/S04 실제 한국어확인","C05":"특촬질감과 지붕지지→사다리/이어컵 시각반전 유지"},
+ "notes":["C04K09 제목영역은 복합배경, 지정반투명패널 사용이 전제","해시는 validation기록을 확인, 별도 재계산 안함"],
+ "limits":["C02손끝2cm거리 수치검증 아님","실제동작·음성·립싱크·자막합성/6초가독성·관객반응 미검증"]
+}

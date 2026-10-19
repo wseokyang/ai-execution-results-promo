@@ -1,0 +1,14 @@
+{
+  "user_request": "2,4 나쁘지않은데 좀 만 더 느낌. 전체이미지콘티Git에서도쉽게찾기",
+  "scope": "C02/C04 이야기와AI역할보존, 대사/호흡/체면유지행동 미세개선. C01/C03/C05 전체객체/PNG25보존. 영상/음원/Flow금지.",
+  "source_run": "2026-10-19_keep135-rebuild-v7",
+  "fact_reference": "../2026-10-19_keep135-rebuild-v7/reference_diagnosis.json",
+  "fact_scope": "이번 새 행사사실 추가없음. 이전 직접확인 기록을 재사용하며 광고전편 재시청 주장없음.",
+  "facts": {
+    "event": "2026년 품질팀 AI 실행 결과 발표 대회",
+    "purpose": "AI 실행 경험과 활용 사례 공유",
+    "unknown": "정확한일시/장소/참석신청/실제성과/시상세부 미확정"
+  },
+  "image_scope": "C02 K01와 C04 K09만 실제 신규/수정 PNG. 다른41장은 원본재사용. 단 기존이미지로 새첫상태가성립하는지검토.",
+  "github_scope": "private 유지. root 콘티_바로보기.md에43이미지인라인. 원본HTML과이미지전부Git에보존. 공개사이트없음."
+}

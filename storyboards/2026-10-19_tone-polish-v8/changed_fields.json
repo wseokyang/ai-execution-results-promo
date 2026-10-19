@@ -1,0 +1,80 @@
+{
+  "C02": {
+    "K01": [
+      "screen",
+      "framing",
+      "dialogue",
+      "sound",
+      "intent",
+      "first_frame",
+      "next_motion",
+      "image_file",
+      "postproduction_notes"
+    ],
+    "K02": [
+      "screen",
+      "dialogue",
+      "sound",
+      "next_motion",
+      "continuity_out"
+    ],
+    "K05": [
+      "screen",
+      "dialogue",
+      "sound",
+      "intent",
+      "next_motion",
+      "continuity_in"
+    ],
+    "K08": [
+      "screen",
+      "dialogue",
+      "sound",
+      "next_motion",
+      "postproduction_notes"
+    ],
+    "K09": [
+      "screen",
+      "dialogue",
+      "sound",
+      "intent",
+      "next_motion",
+      "continuity_in",
+      "postproduction_notes"
+    ]
+  },
+  "C04": {
+    "K01": [
+      "screen",
+      "dialogue",
+      "sound",
+      "intent",
+      "next_motion"
+    ],
+    "K04": [
+      "screen",
+      "dialogue",
+      "sound",
+      "intent",
+      "next_motion"
+    ],
+    "K07": [
+      "sound"
+    ],
+    "K08": [
+      "sound",
+      "intent"
+    ],
+    "K09": [
+      "screen",
+      "dialogue",
+      "sound",
+      "intent",
+      "first_frame",
+      "next_motion",
+      "continuity_in",
+      "image_file",
+      "postproduction_notes"
+    ]
+  }
+}

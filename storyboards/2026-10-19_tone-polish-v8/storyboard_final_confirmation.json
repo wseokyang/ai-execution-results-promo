@@ -1,0 +1,9 @@
+{
+ "status":"all_three_confirmed",
+ "reviewers":{
+  "A":{"agent":"/root/v8_review_a","required_remaining":[],"image_stage_can_proceed":true},
+  "B":{"agent":"/root/v8_review_b","required_remaining":[],"image_stage_can_proceed":true},
+  "C":{"agent":"/root/v8_review_c","required_remaining":[],"image_stage_can_proceed":true}
+ },
+ "limits":"텍스트 단계 확인. 실제 이미지·동작·발화·관객반응 검증 아님."
+}

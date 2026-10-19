@@ -1,0 +1,7 @@
+{
+ "PD":"/root",
+ "required_findings":0,
+ "decisions":[{"ids":["B-002","C-003"],"decision":"applied_as_motion_note","cut":"C02 K01","reason":"정지이미지에서 형사의 검지는 제품사진 가까이 있다. 영상첫동작을 같은사진우상단흐린흔적으로이동→지목→실당기기로명료화. 기존이미지로시작가능하여재생성없음.","fields":["shots.K01.next_motion","shots.K01.postproduction_notes","scene_list K01 next_motion and postproduction_notes"]}],
+ "new_image_regenerations":0,
+ "limits":"실제동작검증은미실행. 지목실현은향후영상검수."
+}

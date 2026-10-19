@@ -1,0 +1,26 @@
+{
+  "PD": "/root",
+  "required_findings": 0,
+  "decisions": [
+    {
+      "id": "A-001",
+      "decision": "applied",
+      "reason": "같은 사진벽이라는 공간 뜻을 제품 종류로 오해하지 않게 명료화"
+    },
+    {
+      "id": "B-001",
+      "decision": "applied",
+      "reason": "K02 낮은 베이스 유지로 K05 음악절단만 더 선명하게"
+    },
+    {
+      "id": "C-001",
+      "decision": "applied_as_production_note",
+      "reason": "3초 내 사진 읽는0.8~1초, 새컷/길이변경없음"
+    },
+    {
+      "id": "C-002",
+      "decision": "applied",
+      "reason": "1.7초까지 짧은발화,2.3초까지 시선호흡.총6초유지"
+    }
+  ]
+}

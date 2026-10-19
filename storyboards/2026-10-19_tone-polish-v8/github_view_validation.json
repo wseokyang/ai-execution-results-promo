@@ -1,0 +1,9 @@
+{
+  "status": "passed",
+  "inline_images": 43,
+  "image_order_matches_storyboards": true,
+  "broken_image_paths": [],
+  "readme_entry": true,
+  "scope": "source and local image paths; remote commit checked separately",
+  "sha256": "b8ab222660e53b4e4a620e55ac52101f3b3a7f3f6e3918a0cfaad6e6c383bbe8"
+}

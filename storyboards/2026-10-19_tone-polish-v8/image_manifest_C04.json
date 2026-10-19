@@ -1,0 +1,355 @@
+{
+  "concept_id": "C04",
+  "images": [
+    {
+      "concept_id": "C04",
+      "cut_id": "K01",
+      "scene_id": "S01",
+      "linked_cuts": [
+        "K01"
+      ],
+      "image_path": "images/C04/S01_v2.png",
+      "prompt": "Precise edit of this exact frame. Preserve both male actors, all poses and hands and memo slips, cramped wooden room, envelope PURPLE crescent, lighting and framing. Change ONLY left female soldier's face/hair and envelope opening: she is a DIFFERENT actress from outside guard commander. Make left woman age52 with a clearly ANGULAR broad SQUARE JAW, higher flatter cheekbones, leaner cheeks, narrow straight nose, narrow single-lidded eyes and straight brows, weathered mature skin, no round cheek fullness. Her grey hair is smooth straight hair combed close to head with centre part, a long grey single braid over shoulder, NO puffy short curls. Keep same olive sleeves, leather vest, hungry worried sideways look, shoulders/knees tucked. Keep body build solid and facial age genuine, no beautifying. Also show envelope OPEN with its top flap raised/back, thin visible opening along top edge ready for slips, same place/size/crescent. NO bowls/spoons/food and no text. Nothing else changes.",
+      "reference_images": [
+        "\\\\wsl.localhost\\Ubuntu-24.04\\home\\wooseok\\wsy\\samsung_related\\slide\\AI실행결과발표대회_디자인3종\\storyboards\\2026-10-19_keep135-rebuild-v7\\images\\C04\\S01.png"
+      ],
+      "source_generated_path": "C:\\Users\\wseok\\.codex\\generated_images\\01a15195-4fdf-7e70-af5c-65ca5b6eba21\\exec-17d941d0-f6b5-4914-8ac9-292e85e6861a.png",
+      "generation_tool": "image_gen",
+      "selected": true,
+      "artist_review": {
+        "opened_actual_image": true,
+        "status": "artist_pass_pending_independent_review",
+        "notes": [
+          "여성병사 직모긴땋음/각진턱으로 GU짧은곱슬과구별. 열린봉투·작은메모3·구긴몸·서로다른허기표정. 그릇/숟가락없음."
+        ]
+      },
+      "followup_motion": "병사들이 순서가 겹치게 메모를 봉투에 끼운다. 마지막 손이 봉투를 전달 틈 바깥으로 민다.",
+      "width": 1672,
+      "height": 941,
+      "sha256": "416065002e9ce6e7e0961fbd7b3613204f5a3331af16fdefa5d116258fb291c9",
+      "source_copy_sha256_match": true,
+      "generation_record_followup_motion": "병사셋메모순서겹쳐봉투삽입후틈으로민다.",
+      "motion_instruction_source": "current storyboards.json; source image manifest preserves generation-time notes",
+      "first_frame": "목마 안의 병사 셋이 어깨와 무릎을 접고 서로 눈치를 보는 긴장된 얼굴. 각 손의 작은 급식 메모는 무릎 높이, 초승달 반입 봉투에 몰래 끼우기 직전. 무기집은 가장자리 실루엣, 그릇·숟가락은 없음.",
+      "next_motion": "병사들이 순서가 겹치게 메모를 봉투에 끼운다. 마지막 손이 봉투를 전달 틈 바깥으로 민다.",
+      "reused_from_run": "2026-10-19_keep135-rebuild-v7",
+      "reused_image_path": "images/C04/S01_v2.png"
+    },
+    {
+      "concept_id": "C04",
+      "cut_id": "K02",
+      "scene_id": "S02",
+      "linked_cuts": [
+        "K02"
+      ],
+      "image_path": "images/C04/S02.png",
+      "prompt": "Use case: ads-marketing. ONE 16:9 cinematic live-action first frame. Use reference as exact identities and outdoor fortress/Trojan horse continuity. Scene is a stone gate admissions desk, bright dusty daylight. Only TWO foreground actors: CM, the same tall thin long pointed black-bearded Korean escort in PLUM cape and brown leather armour at screen LEFT, holds out a tan PURPLE-CRESCENT envelope together with a WHITE REPORT cover sheet toward RC at screen RIGHT. RC is same short round BALD elderly Korean registrar with round BLACK glasses, tiny white moustache, MUSTARD long vest and WHITE sleeves, hands reaching but NOT yet receiving. Both have serious professional expressions, commander a hint of smug confidence. On the cover sheet print exactly one bold legible Korean line: \"내부 탑승자 없음\". No other writing. This is original document's explicit claim, not narrator caption. Orient page toward camera at a shallow readable angle between their hands. The same large purple crescent on tan envelope is visible below white paper. Behind them the huge left-facing dark WOODEN HORSE body with same PURPLE CRESCENT and THREE FULLY CLOSED shutters stands by stone wall; no bowls, hands, food, no open panels. No matching crescent on banners: all fortress banners plain dark green.\nLarge rough wooden reception desk has MULTIPLE other delivery folders/envelopes stacked and fanned, each DIFFERENT plain simple geometric emblem (red triangle, blue square, orange circle), plus neutral modern desktop scanner on desk. These are different incoming items, not copies of crescent delivery. Preserve original papers not shredded. No tablet needed in hand this shot. Medium-wide framing faces and document exchange dominant, horse visible in background with deliberate modern scanner among historical costume. No GU, no food trolley required in this shot, no extra floating hands, no titles or logos. First instant before hands transfer envelope.",
+      "reference_images": [
+        "\\\\wsl.localhost\\Ubuntu-24.04\\home\\wooseok\\wsy\\samsung_related\\slide\\AI실행결과발표대회_디자인3종\\storyboards\\2026-10-19_keep135-rebuild-v7\\images\\C04\\S03_v2.png"
+      ],
+      "source_generated_path": "C:\\Users\\wseok\\.codex\\generated_images\\01a15195-4fdf-7e70-af5c-65ca5b6eba21\\exec-0eacbe12-9f10-4fbd-b953-b94a719a9f68.png",
+      "generation_tool": "image_gen",
+      "selected": true,
+      "artist_review": {
+        "opened_actual_image": true,
+        "status": "artist_pass_pending_independent_review",
+        "notes": [
+          "실제PNG의 '내부 탑승자 없음' 정확하게읽음. 다른반입물3종/스캐너/전달전손/초승달목마확인. 목마3창닫힘."
+        ]
+      },
+      "followup_motion": "CM이 봉투를 주고 RC가 원문을 책상에 두어 스캔 입력한다. 원본은 버리지 않는다.",
+      "width": 1672,
+      "height": 941,
+      "sha256": "fded34137585b5b2238d2aa016b99952fe6a261ffd9d869b21f16ac0648f78bf",
+      "source_copy_sha256_match": true,
+      "generation_record_followup_motion": "CM봉투를주고 RC원문보관하여스캔입력. 원본버리지않음.",
+      "motion_instruction_source": "current storyboards.json; source image manifest preserves generation-time notes",
+      "first_frame": "CM 손의 신고서·초승달 봉투가 RC 손 앞에 있다. 표지의 내부 탑승자 없음 문구를 후편집할 한 줄 영역. RC는 받기 전, 책상에는 다양한 다른 반입물 서류가 쌓여 있다.",
+      "next_motion": "CM이 봉투를 주고 RC가 원문을 책상에 두어 스캔 입력한다. 원본은 버리지 않는다.",
+      "reused_from_run": "2026-10-19_keep135-rebuild-v7",
+      "reused_image_path": "images/C04/S02.png"
+    },
+    {
+      "concept_id": "C04",
+      "cut_id": "K03",
+      "scene_id": "S03",
+      "linked_cuts": [
+        "K03"
+      ],
+      "image_path": "images/C04/S03_v2.png",
+      "prompt": "Precise-object-edit this exact frame. Keep everything else identical: three faces and bodies, costumes, poses, huge wooden horse, three CLOSED shutters, small document slot, cart CLOSED, camera and daylight. ONLY remove the crescent symbols from ALL distant fortress fabric banners, including tiny background banners held by guards. Make all fortress banners plain desaturated dark green fabric without any emblem or text. The TWO PURPLE CRESCENTS that MUST REMAIN are the one on the wooden horse's body and the one on the registrar's beige envelope. These identify only this delivery, NOT the kingdom. No other changes, 16:9 film still.",
+      "reference_images": [
+        "\\\\wsl.localhost\\Ubuntu-24.04\\home\\wooseok\\wsy\\samsung_related\\slide\\AI실행결과발표대회_디자인3종\\storyboards\\2026-10-19_keep135-rebuild-v7\\images\\C04\\S03.png"
+      ],
+      "source_generated_path": "C:\\Users\\wseok\\.codex\\generated_images\\01a15195-4fdf-7e70-af5c-65ca5b6eba21\\exec-2c162ac8-c902-449a-bfcc-d971d683cf54.png",
+      "generation_tool": "image_gen",
+      "selected": true,
+      "artist_review": {
+        "opened_actual_image": true,
+        "status": "artist_pass_pending_independent_review",
+        "notes": [
+          "실제출력열람. 성벽초승달제거, 목마/신고봉투만 초승달유지. 세배우/닫힌3창/수레닫힘 확인. 창높이상당하므로 끝 실제배식행위아닌 국자들기시작까지만."
+        ]
+      },
+      "followup_motion": "CM이 막으며 묻고 RC가 태블릿을 CM·GU 쪽으로 돌린다.",
+      "width": 1672,
+      "height": 941,
+      "sha256": "c59184ab6fcc725483b2df4d60b2665019be8c499ccf80e3eba52e7cbd3353d9",
+      "source_copy_sha256_match": true,
+      "generation_record_followup_motion": "CM앞막으며묻고 RC태블릿을GU/CM쪽으로돌림.",
+      "motion_instruction_source": "current storyboards.json; source image manifest preserves generation-time notes",
+      "first_frame": "GU 손은 수레 손잡이, CM은 앞을 막기 직전. RC 태블릿은 아직 가슴 쪽을 향해 화면 내용 비공개.",
+      "next_motion": "CM이 막으며 묻고 RC가 태블릿을 CM·GU 쪽으로 돌린다.",
+      "reused_from_run": "2026-10-19_keep135-rebuild-v7",
+      "reused_image_path": "images/C04/S03_v2.png"
+    },
+    {
+      "concept_id": "C04",
+      "cut_id": "K04",
+      "scene_id": "S04",
+      "linked_cuts": [
+        "K04"
+      ],
+      "image_path": "images/C04/S04.png",
+      "prompt": "Use case: ads-marketing. ONE landscape16:9 cinematic live-action film INSERT FIRST FRAME, same sunny fortress scene and Korean cast as references. Main composition is elderly registrar RC's modern BLACK tablet in landscape orientation held in his LEFT white-sleeved hand, large enough to occupy 65 percent of frame width, camera nearly perpendicular to readable screen with slight natural perspective. RC's RIGHT index finger hovers two centimetres BELOW the display, about to point but covers NO letters. His mustard vest and part of bald head/round glasses visible at right edge; long-bearded PLUM-caped commander CM is soft focus upper left looking tensely at tablet. In lower background on rough wooden ledge, one white original report and two small beige request slips with purple-crescent envelope.\nTablet shows a restrained document comparison app, not magic detection. TOP exactly \"AI 문서 대조\"; small badge below exactly \"확인 후보\". Thin LEFT sidebar has a vertical list of SIX plain document-row thumbnails/icons with varied geometric emblems (red triangle/blue square/orange circle/purple crescent), no tiny illegible paragraphs. Main screen split into TWO BIG light panels joined by ↔ symbol. LEFT big white panel exact bold Korean text, on two readable lines: \"내부 탑승자\" and \"없음\". RIGHT pale beige panel three LARGE separate words stacked: \"식사\" then \"물\" then \"수저\". These are already visible at FIRST instant, comparison complete BEFORE gesture. No percentages, no occupant numbers, no guilt stamp, no scan of people, no inside camera, no AI logo, no smiley robot. The AI identified a contradiction between declared absence and attached meal/water/cutlery requests, not identical-item classification. Short text only exactly as supplied. Clear no glare over text, realistic tablet glass. Background wooden horse only softly visible, all panels closed, no bowls/spoons or steam. No subtitles outside screen, no collage.",
+      "reference_images": [
+        "\\\\wsl.localhost\\Ubuntu-24.04\\home\\wooseok\\wsy\\samsung_related\\slide\\AI실행결과발표대회_디자인3종\\storyboards\\2026-10-19_keep135-rebuild-v7\\images\\C04\\S03_v2.png",
+        "\\\\wsl.localhost\\Ubuntu-24.04\\home\\wooseok\\wsy\\samsung_related\\slide\\AI실행결과발표대회_디자인3종\\storyboards\\2026-10-19_keep135-rebuild-v7\\images\\C04\\S02.png"
+      ],
+      "source_generated_path": "C:\\Users\\wseok\\.codex\\generated_images\\01a15195-4fdf-7e70-af5c-65ca5b6eba21\\exec-bf2fa7aa-b01c-4fc7-b5b0-abf23d3ad9d7.png",
+      "generation_tool": "image_gen",
+      "selected": true,
+      "artist_review": {
+        "opened_actual_image": true,
+        "status": "artist_pass_pending_independent_review",
+        "notes": [
+          "실제텍스트확인: AI 문서 대조/확인 후보/내부 탑승자 없음/식사/물/수저 정확. 다수문서목록+두큰구절내용대조명확. 인원숫자/유죄판정없음. 손지목전."
+        ]
+      },
+      "followup_motion": "RC가 신고 구절과 급식 요청을 차례로 짚으며 공개한다. CM은 설명을 듣고 목마로 눈을 돌린다. 마지막 수저 지목은 다음 원문 대조로 연결.",
+      "width": 1672,
+      "height": 941,
+      "sha256": "23f89eb3b1f873e4152bc07d13392806cca1e5a90412e08eb53ddb4b11fa7a8c",
+      "source_copy_sha256_match": true,
+      "generation_record_followup_motion": "RC신고구절과급식요청을차례로짚고 CM목마쪽눈돌림. 다음원문대조로.",
+      "motion_instruction_source": "current storyboards.json; source image manifest preserves generation-time notes",
+      "first_frame": "태블릿 왼쪽 가장자리는 여러 반입물 목록, 가운데 큰 신고 원문 내부 탑승자 없음과 오른쪽 첨부 요청 식사·물·수저가 이미 나란히 보인다. AI 문서 대조의 확인 후보일 뿐 판정은 없음. RC 손가락은 두 구절을 짚기 직전.",
+      "next_motion": "RC가 신고 구절과 급식 요청을 차례로 짚으며 공개한다. CM은 설명을 듣고 목마로 눈을 돌린다. 마지막 수저 지목은 다음 원문 대조로 연결.",
+      "reused_from_run": "2026-10-19_keep135-rebuild-v7",
+      "reused_image_path": "images/C04/S04.png"
+    },
+    {
+      "concept_id": "C04",
+      "cut_id": "K05",
+      "scene_id": "S05",
+      "linked_cuts": [
+        "K05"
+      ],
+      "image_path": "images/C04/S05.png",
+      "prompt": "Use case: ads-marketing. ONE landscape16:9 live-action cinematic first frame, same sunny fortress, EXACT same cast/props as references. Medium shot prioritizes ORIGINAL PAPERS in elderly RC's WHITE-sleeved hands at centre-left foreground, RC bald/round glasses/mustard vest partly visible left. Broad older Korean woman GU with short GREY CURLS, dark green padded vest, copper shoulder guards and BLACK gloves at screen right looks seriously down at originals. Behind her, huge wooden horse's large PURPLE CRESCENT is visibly the SAME emblem as on tan envelope under papers, three side shutters CLOSED and no hands showing. All fortress banners plain green. Closed stainless food trolley edge visible lower right, no steam or bowls/spoons.\nFirst instant before full spread: RC holds TWO overlapping physical originals with edges still slightly together, about to separate them side by side for confirmation. WHITE original report upper-left has exact clear Korean line \"내부 탑승자 없음\" in bold, same as reference2. Beige smaller request memo lower-right shows exactly three short stacked words \"식사\" / \"물\" / \"수저\". Tan envelope with purple crescent tucked beneath, still visible. These are actual paper sources, not tablet UI, no arrows or digital framing, no extra paragraph. GU's gloved hand open below papers, not covering wording, prepared to compare paper crescent then horse crescent. Show her thoughtful skeptical eye line on documents, not declaring guilt. Keep papers naturally physical, unobscured large brief words, realistic perspective, no modern laptop or tablet in this shot. No event title, no split panels, no generated text beyond short words on original papers.",
+      "reference_images": [
+        "\\\\wsl.localhost\\Ubuntu-24.04\\home\\wooseok\\wsy\\samsung_related\\slide\\AI실행결과발표대회_디자인3종\\storyboards\\2026-10-19_keep135-rebuild-v7\\images\\C04\\S03_v2.png",
+        "\\\\wsl.localhost\\Ubuntu-24.04\\home\\wooseok\\wsy\\samsung_related\\slide\\AI실행결과발표대회_디자인3종\\storyboards\\2026-10-19_keep135-rebuild-v7\\images\\C04\\S02.png"
+      ],
+      "source_generated_path": "C:\\Users\\wseok\\.codex\\generated_images\\01a15195-4fdf-7e70-af5c-65ca5b6eba21\\exec-bed74d8e-10c4-458e-8d87-280bebc0e48f.png",
+      "generation_tool": "image_gen",
+      "selected": true,
+      "artist_review": {
+        "opened_actual_image": true,
+        "status": "artist_pass_pending_independent_review",
+        "notes": [
+          "실제원문 '내부 탑승자 없음'/'식사 물 수저' 정확. 봉투/목마초승달일치, GU원문주시,닫힌수레. 문서아직겹쳐완전히나란히펼치기전."
+        ]
+      },
+      "followup_motion": "RC가 펼쳐 든 두 원문 내용이 맞음을 말로 확인한다. GU가 실물 표식과 수레로 시선을 옮긴다. 새로 펼치는 동작을 추가하지 않는다.",
+      "width": 1672,
+      "height": 941,
+      "sha256": "628a9ec184f3197f91a4a3ddf57c1e42fda7c41b5a993e627dab770359b78193",
+      "source_copy_sha256_match": true,
+      "generation_record_followup_motion": "RC원문두장을더펼쳐확인, GU목마표식과수레로시선이동.",
+      "motion_instruction_source": "current storyboards.json; source image manifest preserves generation-time notes",
+      "first_frame": "실제 신고서와 급식 메모는 RC 손에 이미 펼쳐져 있다. 봉투·목마 초승달이 함께 보이고 GU는 원문을 보고 있다. GU가 원문 내용과 실물 표식을 확인하기 직전.",
+      "next_motion": "RC가 펼쳐 든 두 원문 내용이 맞음을 말로 확인한다. GU가 실물 표식과 수레로 시선을 옮긴다. 새로 펼치는 동작을 추가하지 않는다.",
+      "reused_from_run": "2026-10-19_keep135-rebuild-v7",
+      "reused_image_path": "images/C04/S05.png"
+    },
+    {
+      "concept_id": "C04",
+      "cut_id": "K06",
+      "scene_id": "S06",
+      "linked_cuts": [
+        "K06"
+      ],
+      "image_path": "images/C04/S06.png",
+      "prompt": "Use case: ads-marketing. ONE 16:9 cinematic live-action first frame, use reference exact actors, huge Trojan horse, fortress and CLOSED steel food trolley. New staging closer to horse flank: gigantic left-facing dark wooden horse fills background, three square shutters ALL CLOSED in horizontal row, purple crescent below left panel and separate small document slot under middle panel. Horse motionless. Only this horse/envelope has crescent; fortress banners plain green.\nGU broad older Korean woman, short voluminous grey curls, green padded vest, copper shoulder plates, black gloves now stands at near LEFT of trolley, turned toward CM. SAME stainless two-tier trolley is pushed right beside horse flank, waist-height large rectangular food-pan lid firmly CLOSED. Her RIGHT black-gloved hand hovers just 3cm above its black lid handle, about to grasp, not yet touching. Other hand rests trolley rail. CM tall thin Korean man black pointed beard and plum cape stands CENTRE-RIGHT between trolley and horse, anxious but stubborn, about to deny. His blocking RIGHT hand is still at WAIST height with palm beginning to turn outward, NOT yet held up. Both actors look at each other; don't make everyone deadpan. RC short bald older man round glasses/mustard vest/white sleeves stands farther RIGHT holding original purple-crescent envelope and tablet close to body, watching. Big fixed medium-wide screen layout, closed three shutters clearly visible above actors, no palms/arms/bowls/spoons emerging. NO steam, no food, no ladles yet, no written text. Hard dusty sunlight and tense dramatic cinema with absurd modern cafeteria trolley. Keep cart dimensions and flat hinged lid consistent.",
+      "reference_images": [
+        "\\\\wsl.localhost\\Ubuntu-24.04\\home\\wooseok\\wsy\\samsung_related\\slide\\AI실행결과발표대회_디자인3종\\storyboards\\2026-10-19_keep135-rebuild-v7\\images\\C04\\S03_v2.png"
+      ],
+      "source_generated_path": "C:\\Users\\wseok\\.codex\\generated_images\\01a15195-4fdf-7e70-af5c-65ca5b6eba21\\exec-6c08148e-e1e3-4ff3-a5aa-c28b89c1f014.png",
+      "generation_tool": "image_gen",
+      "selected": true,
+      "artist_review": {
+        "opened_actual_image": true,
+        "status": "artist_pass_pending_independent_review",
+        "notes": [
+          "닫힌수레/3창, GU손잡이접촉전, CM허리높이손 준비, RC목마같은초승달보유. 개인그릇/숟가락/김없음."
+        ]
+      },
+      "followup_motion": "CM이 손바닥으로 막으며 부인한다. GU가 뚜껑 손잡이를 잡는다.",
+      "width": 1672,
+      "height": 941,
+      "sha256": "9ed6a96d1fac8dafc69410d47a2293663c0b4ccc402e5942d9ec5a8feee715f3",
+      "source_copy_sha256_match": true,
+      "generation_record_followup_motion": "CM손바닥막으며부인. GU뚜껑손잡이잡는다.",
+      "motion_instruction_source": "current storyboards.json; source image manifest preserves generation-time notes",
+      "first_frame": "수레 뚜껑은 닫혀 있고 GU 손은 손잡이 앞. CM의 막는 손은 아직 허리 높이.",
+      "next_motion": "CM이 손바닥으로 막으며 부인한다. GU가 뚜껑 손잡이를 잡는다.",
+      "reused_from_run": "2026-10-19_keep135-rebuild-v7",
+      "reused_image_path": "images/C04/S06.png"
+    },
+    {
+      "concept_id": "C04",
+      "cut_id": "K07",
+      "scene_id": "S07",
+      "linked_cuts": [
+        "K07"
+      ],
+      "image_path": "images/C04/S07.png",
+      "prompt": "Use case: ads-marketing. One16:9 live-action cinematic FIRST FRAME continuing exact reference. Camera now CLOSER and LOWER on silver food trolley CLOSED lid and GU's BLACK-gloved right hand grasping its black top handle. The lid is still FULLY CLOSED/flush against food-pan rim with no gap whatsoever. NO steam, no food, no bowls or eating spoons visible yet. GU is same older broad Korean woman with short abundant GREY CURLS, dark GREEN padded vest, copper shoulder armour. Show her calm determined profile at upper-left, hand on handle, not lifting yet. Tall thin long black-bearded Korean CM in PLUM cape stands upper-right background looking sideways toward the wooden horse, before smelling food, mouth closed as he stubbornly denies. His blocking palm remains held forward from prior cut. Exactly same giant dark wood horse flank in background with THREE CLOSED square shutters, purple crescent below left panel and separate small document slit; no arms or other leaks. RC can be partly visible at far edge holding tablet and envelope, not dominant. Same sunny ancient gate, plain green banners, harsh tactile war-movie sunlight. Medium-close lens, top lid dominates lower half; sequence is about to open it NEXT, do NOT show lifted/ajar lid or reveal food now. No text, split screen, extra props, no separate cookware or kettle.",
+      "reference_images": [
+        "\\\\wsl.localhost\\Ubuntu-24.04\\home\\wooseok\\wsy\\samsung_related\\slide\\AI실행결과발표대회_디자인3종\\storyboards\\2026-10-19_keep135-rebuild-v7\\images\\C04\\S06.png"
+      ],
+      "source_generated_path": "C:\\Users\\wseok\\.codex\\generated_images\\01a15195-4fdf-7e70-af5c-65ca5b6eba21\\exec-6a267936-f19d-464d-b987-9e567fcfdd26.png",
+      "generation_tool": "image_gen",
+      "selected": true,
+      "artist_review": {
+        "opened_actual_image": true,
+        "status": "artist_pass_pending_independent_review",
+        "notes": [
+          "실제출력열람. 뚜껑완전닫힘/김없음, GU장갑손잡이바로위접촉준비. CM막는손,3창닫힘. 손잡이잡는세부동작은후속영상첫순간확정필요."
+        ]
+      },
+      "followup_motion": "GU가 뚜껑을 열어 김이 난다. CM 코가 미세하게 움직이고 목마 안의 숨소리가 겹친다.",
+      "width": 1672,
+      "height": 941,
+      "sha256": "3dce3069e29a6be4c4b03623bc318b1e2b087e1854365e9cb5df075fb23b2f03",
+      "source_copy_sha256_match": true,
+      "generation_record_followup_motion": "GU손잡이를확실히감아쥐고뚜껑열어김. CM코미세반응/내부숨소리. 패널은아직닫힘.",
+      "motion_instruction_source": "current storyboards.json; source image manifest preserves generation-time notes",
+      "first_frame": "GU가 닫힌 뚜껑 손잡이를 잡고 아직 열기 전. CM은 목마 쪽을 보며 음식에 반응하기 전.",
+      "next_motion": "GU가 뚜껑을 열어 김이 난다. CM 코가 미세하게 움직이고 목마 안의 숨소리가 겹친다.",
+      "postproduction_notes": "실제 첫 프레임의 GU 장갑은 뚜껑 손잡이 바로 위다. 후속 첫 동작에서 손잡이를 확실히 잡은 뒤 뚜껑을 연다. 목마 창은 이 컷에서 닫힌 상태를 유지한다.",
+      "reused_from_run": "2026-10-19_keep135-rebuild-v7",
+      "reused_image_path": "images/C04/S07.png"
+    },
+    {
+      "concept_id": "C04",
+      "cut_id": "K08",
+      "scene_id": "S08",
+      "linked_cuts": [
+        "K08"
+      ],
+      "image_path": "images/C04/S08.png",
+      "prompt": "Use case: ads-marketing. ONE cinematic live-action FIRST FRAME, landscape16:9. Same exact colossal Trojan horse and three outside Korean actors as references, but camera pulled WAY BACK to broad epic wide establishing entire horse and giant fortress gate. Horse head points LEFT, huge dark wood body, four dark wheels, short black mane, purple crescent below left shutter, small document slot under middle shutter. EXACTLY THREE square shutters on near side are STILL FULLY CLOSED, no gap, NO arms, NO personal bowls or spoons outside anywhere. This is the instant immediately BEFORE the simultaneous three-shutter reveal. Keep clear space around each closed shutter for later arms.\nIn lower foreground, SAME rectangular stainless food trolley now has its SINGLE flat hinged lid fully lifted to near-vertical open position, hinging backward toward horse, attached to same pan; do not transform into round cauldron. Mild white STEAM rises ONLY from exposed hot food pan, drifts toward horse without obscuring closed shutters. GU same broad older woman grey short curls/green vest/copper shoulders/black gloves stands LEFT of trolley, one hand on raised lid's handle; pragmatic composed face. CM same tall black-pointed-beard man plum cape stands RIGHT of trolley, palm still raised from denial, mouth beginning to open but not yet shocked by arms. RC bald/mustard vest/white sleeves is far-right holding tablet and crescent original envelope, watching. No additional utensils, no people riding or peeking, no bowls or spoons showing. Fortress plain green banners without crescent; only horse and its papers have purple crescent. Dusty grand war-film light with ludicrous cafeteria cart, no text, no logos. Clear horse scale, three shutters visible and all CLOSED despite open steaming cart.",
+      "reference_images": [
+        "\\\\wsl.localhost\\Ubuntu-24.04\\home\\wooseok\\wsy\\samsung_related\\slide\\AI실행결과발표대회_디자인3종\\storyboards\\2026-10-19_keep135-rebuild-v7\\images\\C04\\S03_v2.png",
+        "\\\\wsl.localhost\\Ubuntu-24.04\\home\\wooseok\\wsy\\samsung_related\\slide\\AI실행결과발표대회_디자인3종\\storyboards\\2026-10-19_keep135-rebuild-v7\\images\\C04\\S07.png"
+      ],
+      "source_generated_path": "C:\\Users\\wseok\\.codex\\generated_images\\01a15195-4fdf-7e70-af5c-65ca5b6eba21\\exec-74645281-8eae-4b86-9bfd-887a998d966d.png",
+      "generation_tool": "image_gen",
+      "selected": true,
+      "artist_review": {
+        "opened_actual_image": true,
+        "status": "artist_pass_pending_independent_review",
+        "notes": [
+          "목마전신규모/3창닫힘. 열린수레에서만음식·김. 병사팔/개인그릇/숟가락아직없음. 첫프레임-이후반전분리확인."
+        ]
+      },
+      "followup_motion": "패널3개가 열리고 각 병사가 한 그릇·한 숟가락을 동시에 내민다. CM은 부인하던 손을 내리지 못한다.",
+      "width": 1671,
+      "height": 941,
+      "sha256": "5f565ee10714b4f673f7f79336e3e73988f9682a2b59fee638410d5b3132b634",
+      "source_copy_sha256_match": true,
+      "generation_record_followup_motion": "패널3개열리고올리브/파랑/황토각두팔로그릇하나숟가락하나내민다. CM손허공에남김.",
+      "motion_instruction_source": "current storyboards.json; source image manifest preserves generation-time notes",
+      "first_frame": "세 패널은 완전히 닫혀 있고 손·그릇·숟가락은 아직 안에 있다. 열린 수레에서만 김이 난다.",
+      "next_motion": "패널3개가 열리고 각 병사가 한 그릇·한 숟가락을 동시에 내민다. CM은 부인하던 손을 내리지 못한다.",
+      "reused_from_run": "2026-10-19_keep135-rebuild-v7",
+      "reused_image_path": "images/C04/S08.png"
+    },
+    {
+      "concept_id": "C04",
+      "cut_id": "K09",
+      "scene_id": "S09",
+      "linked_cuts": [
+        "K09"
+      ],
+      "image_path": "images/C04/S09_v2.png",
+      "prompt": "Precise-object-edit. Preserve this EXACT image including all six actors, their faces, sleeves and body positions, exactly SIX soldier arms, THREE silver bowls and THREE wooden spoons, commander hidden hand with NO spoon, open steaming cart and hanging metal ladle, horse, framing and sunlight. Only fix shutter door count: this horse had THREE SINGLE-LEAF shutters, one door leaf hinged on the LEFT of EACH of three openings. There must be EXACTLY THREE wooden door leaves total, one to the immediate LEFT of each opening. Currently there is an EXTRA open door leaf to the FAR RIGHT of the rightmost ochre-sleeved man's window. REMOVE ONLY THAT FAR-RIGHT EXTRA DOOR LEAF and replace its area by uninterrupted existing dark wooden horse wall/outer window frame. Keep the rightmost soldier and spoon untouched. Keep remaining THREE door leaves to left of respective windows (left of woman, between woman and blue man, between blue and ochre man). Do not close any window, do not remove any bowl/spoon/arm or add anything. No other edits, 16:9.",
+      "reference_images": [
+        "\\\\wsl.localhost\\Ubuntu-24.04\\home\\wooseok\\wsy\\samsung_related\\slide\\AI실행결과발표대회_디자인3종\\storyboards\\2026-10-19_keep135-rebuild-v7\\images\\C04\\S09.png"
+      ],
+      "source_generated_path": "C:\\Users\\wseok\\.codex\\generated_images\\01a15195-4fdf-7e70-af5c-65ca5b6eba21\\exec-5779d89c-ae91-421a-90e5-5f9c321de91b.png",
+      "generation_tool": "image_gen",
+      "selected": false,
+      "artist_review": {
+        "opened_actual_image": true,
+        "status": "artist_pass_pending_independent_review",
+        "notes": [
+          "실제출력계수: 창3/단일문짝3/병사6팔/은그릇3/나무숟가락3. 올리브-파랑-황토왼쪽순서. CM한손망토안,자기숟가락아직없음. GU국자내려진상태,RC원문/태블릿. 여분문짝제거완료."
+        ]
+      },
+      "followup_motion": "CM이 자기 숟가락을 꺼내 조용히 내민다. GU가 국자를 들고 RC는 원문과 목마 현장을 함께 기록한다.",
+      "width": 1672,
+      "height": 941,
+      "sha256": "930f3c502b6ad2b98448c1055390adfdd804826678862ba438be9fdb5b0c1f6d",
+      "source_copy_sha256_match": true,
+      "generation_record_followup_motion": "CM망토안자기숟가락꺼내조용히내민다. GU국자들기시작만(높은창으로배식안함). RC원문과현장함께기록. 행사명상단6초후편집.",
+      "motion_instruction_source": "current storyboards.json; source image manifest preserves generation-time notes",
+      "first_frame": "병사 그릇3개는 이미 창밖. CM 손은 망토 안에 있어 자기 숟가락은 아직 안 보인다. GU 국자는 수레 옆에 아직 내려져 있다.",
+      "next_motion": "CM이 자기 숟가락을 꺼내 조용히 내민다. GU가 국자를 들고 RC는 원문과 목마 현장을 함께 기록한다.",
+      "postproduction_notes": "행사명 권장 안전영역: 화면 가로64~98%, 세로2~20%의 우상단. 짙은 반투명 패널 위 흰색 3행 제목을 6초 유지한다. 병사 얼굴·세 창·그릇·지휘관 얼굴/손/숟가락을 가리지 않는다. 이 위치는 정지 PNG 기준이며 향후 움직임과 실제 합성 가독성은 다시 확인한다. GU는 국자를 드는 동작 시작까지만, 높은 창에 실제 배식 완료를 추가하지 않는다.",
+      "reused_from_run": "2026-10-19_keep135-rebuild-v7",
+      "reused_image_path": "images/C04/S09_v2.png",
+      "selection_note": "V7 first frame preserved, superseded by V8 tone polish"
+    },
+    {
+      "concept_id": "C04",
+      "cut_id": "K09",
+      "scene_id": "S09",
+      "linked_cuts": [
+        "K09"
+      ],
+      "image_path": "images/C04/S09_v8.png",
+      "prompt": "Use case: precise-object-edit. Edit this one reference image, preserving its whole 16:9 composition and everything except the purple-cloaked commander's head/eyes and very subtle authoritative posture.\nThe tall thin man in the LEFT foreground (CM, black topknot, pointed long black beard, plum cloak, brown armor) should look DIRECTLY at GU, the short-grey-curled broad older woman in green armor behind the food cart at screen RIGHT. Turn only his head and eyes naturally to his right toward that woman, rather than scanning away to the left or looking toward the camera. His chin is firm and level, proud and stubborn, preserving dignity after being exposed; he will lift it slightly in the later action, so do not tilt it dramatically upward now. Keep his familiar face and stern brows. His body stays erect and in exactly its existing foreground location. No sneer, smile, shame, shock or comedy mugging.\nSTRICT invariants: keep the CM's cloak, both arms/hands positions, ONE hand concealed inside the cloak and the other existing visible resting hand unchanged. NO commander spoon visible yet. Keep ALL other people, their faces, expressions, positions, costumes unchanged; GU's gaze already toward him, RC at far right holding documents/tablet. Keep the exact colossal horse, purple crescent, exactly THREE open square windows with exactly THREE single-leaf wooden doors (one leaf to LEFT of each opening), exactly THREE soldiers olive/blue/ochre left-to-right, exactly SIX soldier arms, THREE silver bowls, THREE wooden spoons. Keep the open steaming stainless food cart and its hanging DOWN metal ladle untouched. Keep the fortress, plain green banners, distant soldiers, daylight, shadows, camera angle, focal length, rich cinematic stylized live-action rendering and all textures intact. No new text, no title, no logo. No new objects, no extra door leaf, no altered tableware. This is an extremely localized direction-of-gaze/authority refinement, not a remake. Output one landscape 16:9 image.",
+      "reference_images": [
+        "\\\\wsl.localhost\\Ubuntu-24.04\\home\\wooseok\\wsy\\samsung_related\\slide\\AI실행결과발표대회_디자인3종\\storyboards\\2026-10-19_tone-polish-v8\\images\\C04\\S09_v2.png"
+      ],
+      "source_generated_path": "C:\\Users\\wseok\\.codex\\generated_images\\01a1523d-6041-7862-ab3e-a05242638ebe\\exec-fffa740e-3d3f-44cd-96fd-8b1f6d1dc59b.png",
+      "generation_tool": "image_gen",
+      "generated_this_run": true,
+      "selected": true,
+      "artist_review": {
+        "opened_actual_image": true,
+        "status": "artist_pass_pending_independent_review",
+        "notes": [
+          "참조와 새 출력 실제 view_image 열람. CM 얼굴이 화면 오른쪽 GU 방향으로 더 분명하게 회전했고 단호한 입·눈썹·곧은 자세 유지. 턱 과장 들림/익살 표정 없음.",
+          "CM 한손 망토 안, 반대 기존 손 그대로, 개인 숟가락 아직 없음. 세 창·좌측 단일 문짝3·병사3·팔6·은그릇3·나무숟가락3 유지. GU 국자 내려짐과 RC 원문/태블릿, 수레·김·목마·초승달·깃발 배치 보존.",
+          "확인 범위는 정지 이미지. 후속 턱 들기·숟가락 등장·대사·실제 시선 움직임은 미생성/미검증."
+        ],
+        "required_remaining": []
+      },
+      "followup_motion": "CM은 주위를 살피지 않고 GU를 보며 자기 숟가락을 꺼낸다. 턱을 조금 들고 “지휘관부터.”라고 말한다. GU는 대꾸 없이 국자를 드는 시작까지만, RC는 원문과 현장 기록을 유지한다. 약2.3초부터 내레이션을 얹는다.",
+      "generation_record_followup_motion": "이 이미지는 K09 시작 상태. 후속 CM 숟가락 꺼내기/턱 조금 들기, GU 국자 들기 시작을 위한 시선/권위자세만 국소 조정.",
+      "first_frame": "V7 S09_v2의 CM 전경·세 배식창·수레·인물 배치 유지. 병사 그릇3개는 이미 창밖. CM의 손은 망토 안에 있어 자기 숟가락은 아직 보이지 않는다. CM 시선은 GU를 향하고 턱은 정면의 권위 있는 자세이며 아직 더 들기 전. GU 국자는 수레 옆에 내려져 있다.",
+      "next_motion": "CM은 주위를 살피지 않고 GU를 보며 자기 숟가락을 꺼낸다. 턱을 조금 들고 “지휘관부터.”라고 말한다. GU는 대꾸 없이 국자를 드는 시작까지만, RC는 원문과 현장 기록을 유지한다. 약2.3초부터 내레이션을 얹는다.",
+      "postproduction_notes": "행사명은 우상단 가로64~98%, 세로2~20%에 짙은 반투명 패널/흰색3행, 6초 후편집. 얼굴·창·그릇·CM손/숟가락을 가리지 않도록 향후 실제 움직임과 합성 재확인. CM발화0~1.7초, 시작안내2.3초부터 약3초. GU는 국자를 들기 시작만, 높은 창에 실제 배식 완료 추가하지 않음.",
+      "width": 1672,
+      "height": 941,
+      "sha256": "c4a827f2ae15432457453b47a3382ccf36cf029fc38db8a31589638ccaaa9980",
+      "source_copy_sha256_match": true,
+      "revision_of": "images/C04/S09_v2.png",
+      "review_status": "pending_three_independent_image_reviews"
+    }
+  ]
+}

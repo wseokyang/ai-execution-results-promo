@@ -1,0 +1,9 @@
+{
+ "reviewer":"B","agent":"/root/v8_review_b","stage":"independent before peer image reports","verdict":"usable; no required image revision","required_remaining":[],
+ "opened_actual_images":["contact_sheets/C01_all_cuts.jpg","contact_sheets/C02_all_cuts.jpg","contact_sheets/C03_all_cuts.jpg","contact_sheets/C04_all_cuts.jpg","contact_sheets/C05_all_cuts.jpg","images/C02/S01_v8.png","images/C04/S09_v8.png","images/C02/S02.png","images/C02/S09_v2.png","images/C04/S08.png"],
+ "viewing_scope":"43cuts in five actual contact sheets;2new and3neighbors as separate PNGs; not all43 at original size",
+ "assessment":{"C01":"포스터/훈련/넓은원본/복제 연속","C02":"진지한 주름·눈썹·입, 제품사진/흔적/실/빈공간, S02캐스팅과S09게시공간 연속. 새손동작 시작상태 적합","C03":"모듈/두색환경/작은파일의 대비 유지","C04":"GU향하는CM시선,숨긴자기숟가락,3창3명6팔3그릇3나무숟가락·내린국자, S08닫힌창→S09열린창 연속","C05":"괴수→지붕받치기→짧은잭→사다리→이어컵 구별, 기존귀연결후속메모유지"},
+ "findings":[{"id":"B-002","severity":"suggestion","cut":"C02 K01","issue":"검지가 얼룩 자체보다 사진 아래 제품 몸체 방향에 가까움","direction":"후속동작에서 사진우상단 흐린흔적으로 손끝이동→짚기→실당기기 명료화. 재생성불필요","blocks_completion":false}],
+ "notes":["C04K09 우상단 제목은 반투명패널 전제","해시 재계산은 안하고validation기록대조"],
+ "limits":["거리/접촉 깊이 수치확정불가","실제동작·음성·제목합성·관객반응 미검증","K07사진동일재사용은 향후제작계약"]
+}

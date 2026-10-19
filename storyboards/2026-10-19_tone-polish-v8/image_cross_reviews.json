@@ -1,0 +1,7 @@
+{
+ "record_type":"PD faithful summary of actual peer cross reviews and file rechecks; images unchanged since independent viewing",
+ "A":{"B-002":"동의·반영확인: shots/scene_list/manifest 이동→지목→실당기기 일치","C-003":"동의·보완: 같은 사진 안의 이동 명시로 새사진지목오해방지","peer_C04":"시선·숨긴숟가락·3창소품수 관찰부합","required_remaining":[]},
+ "B":{"A":"동의: 실제열람시캐스팅/빈공간/시선/소품수 일치. A의S02/S04개별열람과 달리B는해당컷콘택트만확인","C-003":"동의: 현재손위치에서목표이동지시로해결,재생성불필요","B-002":"해결:본문/씬/manifest동작일치","required_remaining":[]},
+ "C":{"A":"동의: 관찰일치와동작검증하지않은범위적절. 제목복합배경대비패널전제","B-002":"동의:흐린흔적위치목표명시로해결","C-003":"해결:현재동작반영, 생성당시기록별도보존확인","required_remaining":[]},
+ "limits":["동작/음성/음향/립싱크/관객반응미검증","C02한사진재사용과C04제목합성은향후제작계약"]
+}

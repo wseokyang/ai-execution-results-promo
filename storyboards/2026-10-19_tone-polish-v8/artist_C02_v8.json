@@ -1,0 +1,41 @@
+{
+  "concept_id": "C02",
+  "images": [
+    {
+      "concept_id": "C02",
+      "cut_id": "K01",
+      "scene_id": "S01",
+      "image_path": "images/C02/S01_v8.png",
+      "prompt": "Use case: identity-preserve. Edit the supplied image into ONE cinematic live-action FIRST FRAME for C02 K01, landscape 16:9. The supplied image is the exact edit target and continuity reference. Preserve this SAME fictional middle-aged Korean detective: thick shoulder-length salt-and-pepper hair, heavy black moustache, deep facial folds, long torso and slight belly, battered dark-brown leather long coat over black shirt. Preserve the SAME industrial inspection room, corkboard, positions and order of the different product photographs, red thumbtacks/red thread pattern, and EMPTY rectangular central board area. No new characters or objects. CHANGE ONLY camera position/composition and emotional intensity: lower camera to slightly below his chest, looking subtly upward in a forceful noir medium shot, camera closer to his stern face and extended pointing hand so these read larger. His face left and extended forearm/hand through foreground, board right remains legible with several DIFFERENT products, including disc, block, hexagonal flange and white plastic part, not a wall of identical dots. Keep the central empty rectangle visible. Serious crime-thriller lighting, warm hard side light shaping face, cool dark lab shadows; authentic focused certainty as if he has truly found the criminal. Never wink, grin or signal comedy. His right index fingertip must hover visibly 2 cm IN FRONT OF a softly smudged product photograph, not touching paper yet; hand anatomy correct, no additional fingers. His other hand at lower frame holds the loose free END of red thread, not yet attached to the next photograph, both hands visible. His attention stays on the product photograph, not toward viewer. This is the instant BEFORE pointing/contact and connecting thread, not the climax. Do not reorganize the board or fill its central blank space; retain the same numbered-free product-photo identities and approximate perspective-adjusted layout. No writing, labels, subtitles, logos, watermarks, collage or artificial graphic overlay. Photorealistic original Korean noir commercial shot with real skin/leather texture. Keep all narrative state unchanged; modestly stronger low-angle intimacy and concentrated acting only.",
+      "reference_images": [
+        "\\\\wsl.localhost\\Ubuntu-24.04\\home\\wooseok\\wsy\\samsung_related\\slide\\AI실행결과발표대회_디자인3종\\storyboards\\2026-10-19_tone-polish-v8\\images\\C02\\S01.png"
+      ],
+      "source_generated_path": "C:\\Users\\wseok\\.codex\\generated_images\\01a1523d-395c-7b91-9bf7-3e230326f538\\exec-0969c503-426f-48a0-b148-86b4898bf252.png",
+      "generation_tool": "image_gen",
+      "generated_this_run": true,
+      "selected": true,
+      "artist_review": {
+        "opened_actual_image": true,
+        "status": "artist_checked_pending_independent_review",
+        "notes": [
+          "낮은 시점과 가까운 얼굴·손으로 누아르 긴장 강화. 형사는 웃음·윙크 없이 제품 사진에 집중.",
+          "기존 회흑 장발·굵은 콧수염·주름·갈색 가죽 코트·검정 셔츠 유지. 원형·각형·육각형·흰 플라스틱 제품 사진과 붉은 실·중앙 빈 직사각 영역 유지.",
+          "두 손과 느슨한 붉은 실 끝이 보이며 다음 사진에 연결되지 않음. 손가락은 사진 앞에 있으나 2cm 간격은 단일 정지화면에서 수치 검증할 수 없음. 영상 시작에서 살짝 전진하는 지목 동작을 유지.",
+          "자막·로고·새 행사 정보 없음. 정확한 화면비는 1672×941로 약16:9(내장도구 원본); 리사이즈·보정·합성 없음."
+        ]
+      },
+      "width": 1672,
+      "height": 941,
+      "sha256": "d163b4336574e853f8de78fad97852ad0c4b0ce525d994bf0a8e3c0508082030",
+      "source_copy_sha256_match": true,
+      "followup_motion": "DE가 흔적을 짚고 낮게 말하며 붉은 실을 다른 사진으로 당긴다. 얼굴은 진짜 범인을 쫓는 확신을 유지하고 미리 웃거나 관객에게 윙크하지 않는다.",
+      "generation_record_followup_motion": "DE가 흔적을 짚고 낮게 말하며 붉은 실을 다른 사진으로 당긴다. 얼굴은 진짜 범인을 쫓는 확신을 유지하고 미리 웃거나 관객에게 윙크하지 않는다.",
+      "motion_instruction_source": "V8 storyboards.json C02 K01, storyboard_final_confirmation.json all three confirmed",
+      "first_frame": "기존 DE 캐스팅·가죽 코트·사진벽 그대로, 낮은 시점에서 손가락이 전경에 크게 보인다. 손가락은 흐린 흔적 사진에 닿기 직전이고 붉은 실 끝도 아직 다음 사진에 걸리지 않았다. 중앙 빈 영역과 사진·실 배치는 유지.",
+      "next_motion": "DE가 흔적을 짚고 낮게 말하며 붉은 실을 다른 사진으로 당긴다. 얼굴은 진짜 범인을 쫓는 확신을 유지하고 미리 웃거나 관객에게 윙크하지 않는다.",
+      "linked_cuts": [
+        "K01"
+      ]
+    }
+  ]
+}

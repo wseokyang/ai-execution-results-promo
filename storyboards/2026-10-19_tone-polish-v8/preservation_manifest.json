@@ -1,0 +1,186 @@
+{
+  "images": [
+    {
+      "concept_id": "C01",
+      "cut_id": "K01",
+      "source": "\\\\wsl.localhost\\Ubuntu-24.04\\home\\wooseok\\wsy\\samsung_related\\slide\\AI실행결과발표대회_디자인3종\\storyboards\\2026-10-19_keep135-rebuild-v7\\images\\C01\\S01.png",
+      "copy": "images/C01/S01.png",
+      "sha256": "ab3e1d18cb295359c7f7942caf356491f8e25a2309801e2f2ff1ab3221d09490"
+    },
+    {
+      "concept_id": "C01",
+      "cut_id": "K02",
+      "source": "\\\\wsl.localhost\\Ubuntu-24.04\\home\\wooseok\\wsy\\samsung_related\\slide\\AI실행결과발표대회_디자인3종\\storyboards\\2026-10-19_keep135-rebuild-v7\\images\\C01\\S02_v2.png",
+      "copy": "images/C01/S02_v2.png",
+      "sha256": "4c687b1f004130affb7139ec26357a842fd529e0c30565f8f65e22e8a3a36652"
+    },
+    {
+      "concept_id": "C01",
+      "cut_id": "K03",
+      "source": "\\\\wsl.localhost\\Ubuntu-24.04\\home\\wooseok\\wsy\\samsung_related\\slide\\AI실행결과발표대회_디자인3종\\storyboards\\2026-10-19_keep135-rebuild-v7\\images\\C01\\S03.png",
+      "copy": "images/C01/S03.png",
+      "sha256": "3c4890378e36982cc5c1e6342cae3631bf706d725f7de7c2286497c30ff5bfef"
+    },
+    {
+      "concept_id": "C01",
+      "cut_id": "K04",
+      "source": "\\\\wsl.localhost\\Ubuntu-24.04\\home\\wooseok\\wsy\\samsung_related\\slide\\AI실행결과발표대회_디자인3종\\storyboards\\2026-10-19_keep135-rebuild-v7\\images\\C01\\S04_v2.png",
+      "copy": "images/C01/S04_v2.png",
+      "sha256": "e9213a81ca38afcf758dfe1fbe0bc35aeec6d6d0a6b49b92ffa619007d73a4b0"
+    },
+    {
+      "concept_id": "C01",
+      "cut_id": "K05",
+      "source": "\\\\wsl.localhost\\Ubuntu-24.04\\home\\wooseok\\wsy\\samsung_related\\slide\\AI실행결과발표대회_디자인3종\\storyboards\\2026-10-19_keep135-rebuild-v7\\images\\C01\\S05.png",
+      "copy": "images/C01/S05.png",
+      "sha256": "9eae38d365fea0638467dac7d7412367bbba942ded224d5be7d0930d78e31c09"
+    },
+    {
+      "concept_id": "C01",
+      "cut_id": "K06",
+      "source": "\\\\wsl.localhost\\Ubuntu-24.04\\home\\wooseok\\wsy\\samsung_related\\slide\\AI실행결과발표대회_디자인3종\\storyboards\\2026-10-19_keep135-rebuild-v7\\images\\C01\\S06_v2.png",
+      "copy": "images/C01/S06_v2.png",
+      "sha256": "2e237c16fb686807d6dfa7c5a5afc0aab463c6c2a330799fca6eff14771c5aaa"
+    },
+    {
+      "concept_id": "C01",
+      "cut_id": "K07",
+      "source": "\\\\wsl.localhost\\Ubuntu-24.04\\home\\wooseok\\wsy\\samsung_related\\slide\\AI실행결과발표대회_디자인3종\\storyboards\\2026-10-19_keep135-rebuild-v7\\images\\C01\\S07_v2.png",
+      "copy": "images/C01/S07_v2.png",
+      "sha256": "1c0c35af0bcc160e439633110dd53c21dc6d2f721d2fd23a2e92b834d2d08b61"
+    },
+    {
+      "concept_id": "C01",
+      "cut_id": "K08",
+      "source": "\\\\wsl.localhost\\Ubuntu-24.04\\home\\wooseok\\wsy\\samsung_related\\slide\\AI실행결과발표대회_디자인3종\\storyboards\\2026-10-19_keep135-rebuild-v7\\images\\C01\\S08_v2.png",
+      "copy": "images/C01/S08_v2.png",
+      "sha256": "2b5f6c7416474be240fc756ecd3171743aa458920310e7040d5295210d194147"
+    },
+    {
+      "concept_id": "C01",
+      "cut_id": "K09",
+      "source": "\\\\wsl.localhost\\Ubuntu-24.04\\home\\wooseok\\wsy\\samsung_related\\slide\\AI실행결과발표대회_디자인3종\\storyboards\\2026-10-19_keep135-rebuild-v7\\images\\C01\\S09.png",
+      "copy": "images/C01/S09.png",
+      "sha256": "06f84039fa0e3e7a8e4ccfd9a69e2055bbba7e319faad002f010ebd5c323d980"
+    },
+    {
+      "concept_id": "C03",
+      "cut_id": "K01",
+      "source": "\\\\wsl.localhost\\Ubuntu-24.04\\home\\wooseok\\wsy\\samsung_related\\slide\\AI실행결과발표대회_디자인3종\\storyboards\\2026-10-19_keep135-rebuild-v7\\images\\C03\\K01.png",
+      "copy": "images/C03/K01.png",
+      "sha256": "aff884bcbe2696e5b47356789a7da8642b9c7dba38c2166cb4a140fa2182e408"
+    },
+    {
+      "concept_id": "C03",
+      "cut_id": "K02",
+      "source": "\\\\wsl.localhost\\Ubuntu-24.04\\home\\wooseok\\wsy\\samsung_related\\slide\\AI실행결과발표대회_디자인3종\\storyboards\\2026-10-19_keep135-rebuild-v7\\images\\C03\\K02.png",
+      "copy": "images/C03/K02.png",
+      "sha256": "85978f057b9ef5965a41021b683ef21ae26ddbd2e8f947dee429098db7c44d9b"
+    },
+    {
+      "concept_id": "C03",
+      "cut_id": "K03",
+      "source": "\\\\wsl.localhost\\Ubuntu-24.04\\home\\wooseok\\wsy\\samsung_related\\slide\\AI실행결과발표대회_디자인3종\\storyboards\\2026-10-19_keep135-rebuild-v7\\images\\C03\\K03.png",
+      "copy": "images/C03/K03.png",
+      "sha256": "e019d13c28c0a630c57850e9788b13a8a7a90671e2ca79996378f9ee07ddcedc"
+    },
+    {
+      "concept_id": "C03",
+      "cut_id": "K04",
+      "source": "\\\\wsl.localhost\\Ubuntu-24.04\\home\\wooseok\\wsy\\samsung_related\\slide\\AI실행결과발표대회_디자인3종\\storyboards\\2026-10-19_keep135-rebuild-v7\\images\\C03\\K04.png",
+      "copy": "images/C03/K04.png",
+      "sha256": "6f6b5c970d5926a4ccc67bbe24b4eaff71fcd409012e52a33a327451d1ccae11"
+    },
+    {
+      "concept_id": "C03",
+      "cut_id": "K05",
+      "source": "\\\\wsl.localhost\\Ubuntu-24.04\\home\\wooseok\\wsy\\samsung_related\\slide\\AI실행결과발표대회_디자인3종\\storyboards\\2026-10-19_keep135-rebuild-v7\\images\\C03\\K05.png",
+      "copy": "images/C03/K05.png",
+      "sha256": "831554ed0e9afe80ed637157ca15c2cda54e1d7b2a6df7eae9fac5f0a611e5e3"
+    },
+    {
+      "concept_id": "C03",
+      "cut_id": "K06",
+      "source": "\\\\wsl.localhost\\Ubuntu-24.04\\home\\wooseok\\wsy\\samsung_related\\slide\\AI실행결과발표대회_디자인3종\\storyboards\\2026-10-19_keep135-rebuild-v7\\images\\C03\\K06_v2.png",
+      "copy": "images/C03/K06_v2.png",
+      "sha256": "a9f2264954837aa587a1e267d6d627bf1ba3511921d7574789aa267d000ba750"
+    },
+    {
+      "concept_id": "C03",
+      "cut_id": "K07",
+      "source": "\\\\wsl.localhost\\Ubuntu-24.04\\home\\wooseok\\wsy\\samsung_related\\slide\\AI실행결과발표대회_디자인3종\\storyboards\\2026-10-19_keep135-rebuild-v7\\images\\C03\\K07.png",
+      "copy": "images/C03/K07.png",
+      "sha256": "340235c2a044de49eb74c14b9054a3a4cfbd873f801cf2b716ae115177ca7f65"
+    },
+    {
+      "concept_id": "C03",
+      "cut_id": "K08",
+      "source": "\\\\wsl.localhost\\Ubuntu-24.04\\home\\wooseok\\wsy\\samsung_related\\slide\\AI실행결과발표대회_디자인3종\\storyboards\\2026-10-19_keep135-rebuild-v7\\images\\C03\\K08.png",
+      "copy": "images/C03/K08.png",
+      "sha256": "9da7ad62a267eaef1b8e709558dceba56b9072c5e8d49df2c0cc716b0ed66e77"
+    },
+    {
+      "concept_id": "C05",
+      "cut_id": "K01",
+      "source": "\\\\wsl.localhost\\Ubuntu-24.04\\home\\wooseok\\wsy\\samsung_related\\slide\\AI실행결과발표대회_디자인3종\\storyboards\\2026-10-19_keep135-rebuild-v7\\images\\C05\\S01.png",
+      "copy": "images/C05/S01.png",
+      "sha256": "0a551636d27d96fe1f71c1e3b27b96e377a0f79acb9aa5af67261734fb6c34bd"
+    },
+    {
+      "concept_id": "C05",
+      "cut_id": "K02",
+      "source": "\\\\wsl.localhost\\Ubuntu-24.04\\home\\wooseok\\wsy\\samsung_related\\slide\\AI실행결과발표대회_디자인3종\\storyboards\\2026-10-19_keep135-rebuild-v7\\images\\C05\\S02.png",
+      "copy": "images/C05/S02.png",
+      "sha256": "2dfb4a6a02368e9591eb6450d6ffceee51c1d94d7838b44017fc897b637887b7"
+    },
+    {
+      "concept_id": "C05",
+      "cut_id": "K03",
+      "source": "\\\\wsl.localhost\\Ubuntu-24.04\\home\\wooseok\\wsy\\samsung_related\\slide\\AI실행결과발표대회_디자인3종\\storyboards\\2026-10-19_keep135-rebuild-v7\\images\\C05\\S03.png",
+      "copy": "images/C05/S03.png",
+      "sha256": "c917a0453761e583e138026f4270ac6c06c71fda9fceb3a943611304f775c467"
+    },
+    {
+      "concept_id": "C05",
+      "cut_id": "K04",
+      "source": "\\\\wsl.localhost\\Ubuntu-24.04\\home\\wooseok\\wsy\\samsung_related\\slide\\AI실행결과발표대회_디자인3종\\storyboards\\2026-10-19_keep135-rebuild-v7\\images\\C05\\S04_v2.png",
+      "copy": "images/C05/S04_v2.png",
+      "sha256": "cf45dac7f8e940c0a9ac6e072e3a1b88755e1d1d6cce2e8f886fa0a6f7ca1540"
+    },
+    {
+      "concept_id": "C05",
+      "cut_id": "K05",
+      "source": "\\\\wsl.localhost\\Ubuntu-24.04\\home\\wooseok\\wsy\\samsung_related\\slide\\AI실행결과발표대회_디자인3종\\storyboards\\2026-10-19_keep135-rebuild-v7\\images\\C05\\S05_v2.png",
+      "copy": "images/C05/S05_v2.png",
+      "sha256": "24c842c5ffbc5941979e7fdef265f395b68ec4776c290f33972eb0a59dcae7fd"
+    },
+    {
+      "concept_id": "C05",
+      "cut_id": "K06",
+      "source": "\\\\wsl.localhost\\Ubuntu-24.04\\home\\wooseok\\wsy\\samsung_related\\slide\\AI실행결과발표대회_디자인3종\\storyboards\\2026-10-19_keep135-rebuild-v7\\images\\C05\\S06.png",
+      "copy": "images/C05/S06.png",
+      "sha256": "572aea2ad7d0c08ee7b7afb70abc854e6b27194c1088494c4f502b6f4c9b2633"
+    },
+    {
+      "concept_id": "C05",
+      "cut_id": "K07",
+      "source": "\\\\wsl.localhost\\Ubuntu-24.04\\home\\wooseok\\wsy\\samsung_related\\slide\\AI실행결과발표대회_디자인3종\\storyboards\\2026-10-19_keep135-rebuild-v7\\images\\C05\\S07.png",
+      "copy": "images/C05/S07.png",
+      "sha256": "94d026ac96f1f3358181f09dc8ca2ac4af849691725b85089bb0f8a1fa92c81a"
+    },
+    {
+      "concept_id": "C05",
+      "cut_id": "K08",
+      "source": "\\\\wsl.localhost\\Ubuntu-24.04\\home\\wooseok\\wsy\\samsung_related\\slide\\AI실행결과발표대회_디자인3종\\storyboards\\2026-10-19_keep135-rebuild-v7\\images\\C05\\S08_v2.png",
+      "copy": "images/C05/S08_v2.png",
+      "sha256": "e94a07fe371524a68d9132d569be8ae7a84556a723ea89554ac63bc43ae2869d"
+    }
+  ],
+  "old_completed_film_path": "\\\\wsl.localhost\\Ubuntu-24.04\\home\\wooseok\\wsy\\samsung_related\\slide\\AI실행결과발표대회_디자인3종\\storyboards\\2026-10-17_C01-voicefix-v07\\C01_recut_v07_36s.mp4",
+  "old_completed_film_sha256": "b47a59928001291cbf9937e9eed609984725efa07c2deb0741deb5f6e6ca8b6c",
+  "retained_concepts": [
+    "C01",
+    "C03",
+    "C05"
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "concept_id": "C04",
+  "cut_id": "K09",
+  "scene_id": "S09",
+  "linked_cuts": [
+    "K09"
+  ],
+  "image_path": "images/C04/S09_v8.png",
+  "prompt": "Use case: precise-object-edit. Edit this one reference image, preserving its whole 16:9 composition and everything except the purple-cloaked commander's head/eyes and very subtle authoritative posture.\nThe tall thin man in the LEFT foreground (CM, black topknot, pointed long black beard, plum cloak, brown armor) should look DIRECTLY at GU, the short-grey-curled broad older woman in green armor behind the food cart at screen RIGHT. Turn only his head and eyes naturally to his right toward that woman, rather than scanning away to the left or looking toward the camera. His chin is firm and level, proud and stubborn, preserving dignity after being exposed; he will lift it slightly in the later action, so do not tilt it dramatically upward now. Keep his familiar face and stern brows. His body stays erect and in exactly its existing foreground location. No sneer, smile, shame, shock or comedy mugging.\nSTRICT invariants: keep the CM's cloak, both arms/hands positions, ONE hand concealed inside the cloak and the other existing visible resting hand unchanged. NO commander spoon visible yet. Keep ALL other people, their faces, expressions, positions, costumes unchanged; GU's gaze already toward him, RC at far right holding documents/tablet. Keep the exact colossal horse, purple crescent, exactly THREE open square windows with exactly THREE single-leaf wooden doors (one leaf to LEFT of each opening), exactly THREE soldiers olive/blue/ochre left-to-right, exactly SIX soldier arms, THREE silver bowls, THREE wooden spoons. Keep the open steaming stainless food cart and its hanging DOWN metal ladle untouched. Keep the fortress, plain green banners, distant soldiers, daylight, shadows, camera angle, focal length, rich cinematic stylized live-action rendering and all textures intact. No new text, no title, no logo. No new objects, no extra door leaf, no altered tableware. This is an extremely localized direction-of-gaze/authority refinement, not a remake. Output one landscape 16:9 image.",
+  "reference_images": [
+    "\\\\wsl.localhost\\Ubuntu-24.04\\home\\wooseok\\wsy\\samsung_related\\slide\\AI실행결과발표대회_디자인3종\\storyboards\\2026-10-19_tone-polish-v8\\images\\C04\\S09_v2.png"
+  ],
+  "source_generated_path": "C:\\Users\\wseok\\.codex\\generated_images\\01a1523d-6041-7862-ab3e-a05242638ebe\\exec-fffa740e-3d3f-44cd-96fd-8b1f6d1dc59b.png",
+  "generation_tool": "image_gen",
+  "generated_this_run": true,
+  "selected": true,
+  "artist_review": {
+    "opened_actual_image": true,
+    "status": "artist_pass_pending_independent_review",
+    "notes": [
+      "참조와 새 출력 실제 view_image 열람. CM 얼굴이 화면 오른쪽 GU 방향으로 더 분명하게 회전했고 단호한 입·눈썹·곧은 자세 유지. 턱 과장 들림/익살 표정 없음.",
+      "CM 한손 망토 안, 반대 기존 손 그대로, 개인 숟가락 아직 없음. 세 창·좌측 단일 문짝3·병사3·팔6·은그릇3·나무숟가락3 유지. GU 국자 내려짐과 RC 원문/태블릿, 수레·김·목마·초승달·깃발 배치 보존.",
+      "확인 범위는 정지 이미지. 후속 턱 들기·숟가락 등장·대사·실제 시선 움직임은 미생성/미검증."
+    ],
+    "required_remaining": []
+  },
+  "followup_motion": "CM은 주위를 살피지 않고 GU를 보며 자기 숟가락을 꺼낸다. 턱을 조금 들고 “지휘관부터.”라고 말한다. GU는 대꾸 없이 국자를 드는 시작까지만, RC는 원문과 현장 기록을 유지한다. 약2.3초부터 내레이션을 얹는다.",
+  "generation_record_followup_motion": "이 이미지는 K09 시작 상태. 후속 CM 숟가락 꺼내기/턱 조금 들기, GU 국자 들기 시작을 위한 시선/권위자세만 국소 조정.",
+  "first_frame": "V7 S09_v2의 CM 전경·세 배식창·수레·인물 배치 유지. 병사 그릇3개는 이미 창밖. CM의 손은 망토 안에 있어 자기 숟가락은 아직 보이지 않는다. CM 시선은 GU를 향하고 턱은 정면의 권위 있는 자세이며 아직 더 들기 전. GU 국자는 수레 옆에 내려져 있다.",
+  "next_motion": "CM은 주위를 살피지 않고 GU를 보며 자기 숟가락을 꺼낸다. 턱을 조금 들고 “지휘관부터.”라고 말한다. GU는 대꾸 없이 국자를 드는 시작까지만, RC는 원문과 현장 기록을 유지한다. 약2.3초부터 내레이션을 얹는다.",
+  "postproduction_notes": "행사명은 우상단 가로64~98%, 세로2~20%에 짙은 반투명 패널/흰색3행, 6초 후편집. 얼굴·창·그릇·CM손/숟가락을 가리지 않도록 향후 실제 움직임과 합성 재확인. CM발화0~1.7초, 시작안내2.3초부터 약3초. GU는 국자를 들기 시작만, 높은 창에 실제 배식 완료 추가하지 않음.",
+  "width": 1672,
+  "height": 941,
+  "sha256": "c4a827f2ae15432457453b47a3382ccf36cf029fc38db8a31589638ccaaa9980",
+  "source_copy_sha256_match": true,
+  "revision_of": "images/C04/S09_v2.png",
+  "review_status": "pending_three_independent_image_reviews"
+}

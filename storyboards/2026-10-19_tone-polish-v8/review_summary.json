@@ -1,0 +1,29 @@
+{
+  "status": "required_storyboard_and_image_findings_closed",
+  "user_scope": "V7 C02/C04 not bad, requested a little more atmosphere; C01/C03/C05 retained. Full image storyboard requested on Git.",
+  "creative_changes": [
+    "C02: 현장마다 네가 있었어라는 진지한 추적. 고정 카메라에 이제 못 움직여라고 말하고 수갑 클릭 뒤 음악만 0.6초 멈춘다.",
+    "C02: 사례 설명 반복을 덜고 자기 사진을 떼려다 사진 가장자리를 펴 주는 행동으로 체면을 지킨다.",
+    "C04: 숨소리도 내지 마라 다음 꼬르륵. AI 문서 비교의 수저 질문이 지휘관의 마지막 숟가락과 연결된다.",
+    "C04: 그릇 공개 순간에 전쟁 음악을 끊고 들킨 지휘관도 지휘관부터라고 명령한다.",
+    "이야기·AI 후보 대조와 사람 확인·길이·구별되는 외형 유지. 첫 프레임2장만 보완,41장 원본 재사용."
+  ],
+  "github_finding": "V7 index.html and selected43 PNGs were already present on remote main. Added root inline Markdown and README entry for direct GitHub reading.",
+  "storyboard_reviews": "storyboard_reviews.json",
+  "storyboard_cross": "storyboard_cross_reviews.json",
+  "storyboard_final": "storyboard_final_confirmation.json",
+  "image_reviews": [
+    "image_review_A.json",
+    "image_review_B.json",
+    "image_review_C.json"
+  ],
+  "image_cross": "image_cross_reviews.json",
+  "image_final": "image_final_confirmation.json",
+  "reference_scope": "reference_basis.json",
+  "preservation": "preservation_manifest.json",
+  "limits": [
+    "동작·음성·립싱크·관객 반응 미검증",
+    "내부 검수 완료는 V8 사용자 창작 수용을 뜻하지 않음",
+    "HTML 브라우저 자동 렌더 검수는 기존 로컬 파일 제한을 존중해 미실행. PNG 실제 열람·정적 HTML 링크·해시 검증."
+  ]
+}

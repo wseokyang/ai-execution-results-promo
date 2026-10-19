@@ -1,0 +1,281 @@
+{
+  "concept_id": "C05",
+  "images": [
+    {
+      "concept_id": "C05",
+      "cut_id": "K01",
+      "scene_id": "S01",
+      "linked_cuts": [
+        "K01"
+      ],
+      "image_path": "images/C05/S01.png",
+      "prompt": "Use case: ads-marketing. A single 16:9 widescreen first frame for an absurd Korean live-action miniature tokusatsu disaster comedy, no collage, no words, no logo.\nScene S01: extremely low-angle wide shot outside a fictional modest Korean institutional gymnasium in ominous stormy backlight. A threatening original RED long-necked monster stands upright on the LEFT beside the gym's independent rectangular entrance canopy on the RIGHT. Monster upright height 8 meters; the separate canopy soffit is 5 meters; the gym behind it is 12 meters tall. Perspective makes monster imposing but never changes these dimensions. Canopy flat horizontal pale concrete slab supported by FOUR slender square gray columns; all four intact. It is a free standing four-post porch in front of the taller gray gym, NOT the gym's main roof. Door in gym behind porch.\nMONSTER DESIGN LOCK: an obviously fabricated miniature special-effects rubber puppet, not human or photoreal animal, not cute mascot. A very long thick flexible scarlet neck roughly half its full upright height, small block-shaped red torso, long thick red arms with simple four-finger mitt hands, two short stout square legs. Small rectangular red head, two round yellow inset eyes with tiny black pupils staring with arrogant menace, straight horizontal mouth slit slightly opening just before a roar, small half-circle red ears behind each side of head. Visible rough red rubber seams and painted texture, no scales or hair or horns. Both arms hang at body sides, knees straight, neck fully extended. Do not show neck folded yet. Keep this silhouette unmistakably strange and threatening. Heavy cloud sky, harsh practical rim light, miniature grass, concrete seams, distant small pedestrian woman in gray jacket and man in navy shirt outside porch for scale. Nobody underneath canopy. No destruction yet, no rubble, no ladder, no tools, no earphones. Composition reads monster, independent intact canopy and taller gym together. Grainy photographed physical models with cinematic contrast, not glossy CGI, not children's toy advertising.",
+      "reference_images": [],
+      "source_generated_path": "C:\\Users\\wseok\\.codex\\generated_images\\01a15195-8ba1-7de0-a3ae-6169a54cc7a7\\exec-1351a745-4624-478e-a427-0900035bc328.png",
+      "generation_tool": "image_gen",
+      "selected": true,
+      "width": 1672,
+      "height": 941,
+      "sha256": "0a551636d27d96fe1f71c1e3b27b96e377a0f79acb9aa5af67261734fb6c34bd",
+      "source_copy_sha256_match": true,
+      "artist_review": {
+        "opened_actual_image": true,
+        "status": "artist_inspected_pending_independent_review",
+        "notes": [
+          "직립한 긴 붉은 목과 노란 눈, 의도적 고무 인형 질감, 온전한 네 기둥 포치 확인. 행사 문구 없음."
+        ]
+      },
+      "followup_motion": "괴수가 포효한 뒤 실내 쪽으로 눈을 돌리고 앞왼쪽 기둥에 손을 뻗기 시작한다.",
+      "first_frame": "괴수 입이 포효 직전 벌어져 있고 두 팔은 몸 옆. 앞왼쪽 기둥은 온전하며 포치 지붕은 수평.",
+      "next_motion": "괴수가 포효한 뒤 실내 쪽으로 눈을 돌리고 앞왼쪽 기둥에 손을 뻗기 시작한다.",
+      "review_status": "independent_actual_image_review_cross_check_and_required_closure_complete",
+      "reused_from_run": "2026-10-19_keep135-rebuild-v7",
+      "new_generation_in_this_run": false,
+      "reused_image_path": "images/C05/S01.png"
+    },
+    {
+      "concept_id": "C05",
+      "cut_id": "K02",
+      "scene_id": "S02",
+      "linked_cuts": [
+        "K02"
+      ],
+      "image_path": "images/C05/S02.png",
+      "prompt": "Use case: ads-marketing. Generate a new single 16:9 shot S02 from the referenced S01 image. Image 1 is the actual continuity reference for the red rubber monster and gray gymnasium and independent four-post porch. Keep their exact identities, shapes, relative scale, materials. Not a collage, no text.\nNew camera: wider eye-height three-quarter exterior shot, less extreme low angle, full monster including feet and porch all visible. Monster stands immediately LEFT of the porch's FRONT LEFT COLUMN, reaching its right hand toward that specific square pale column. The four fingers are spread 15 cm before contact: FIRST FRAME before it grabs and pulls. Other arm at side. It is STILL FULLY UPRIGHT, knees straight, the very long red neck vertical, at least half full height, no folded neck yet. It looks arrogantly determined, not cute. Mouth thin horizontal slit, yellow eyes, red half-circle ears. Puppet rubber seam texture unchanged.\nAll FOUR original square columns still intact, canopy roof still horizontal. The designated front-left column is nearest the monster and is unobstructed enough to see hand-to-column distance. Body never intersects roof. Gym main building still twice the height of the porch; monster upright 8m, porch underside 5m, gym 12m. No giant growth or shrinking. Two tiny onlookers, gray-jacket woman and navy-shirt man, stand together far left outside the porch. Empty paved area farther left to eventually lay the extracted column, but NO fallen column yet. No debris, tools, earphones, ladder. Dramatic gray daylight with hard side light; photographed practical miniature, slightly grainy, intentionally handmade not polished cartoon.",
+      "reference_images": [
+        "C:\\Users\\wseok\\.codex\\generated_images\\01a15195-8ba1-7de0-a3ae-6169a54cc7a7\\exec-1351a745-4624-478e-a427-0900035bc328.png"
+      ],
+      "source_generated_path": "C:\\Users\\wseok\\.codex\\generated_images\\01a15195-8ba1-7de0-a3ae-6169a54cc7a7\\exec-cdaa1ff8-25a1-4487-8da4-9db15041d4bf.png",
+      "generation_tool": "image_gen",
+      "selected": true,
+      "width": 1672,
+      "height": 941,
+      "sha256": "2dfb4a6a02368e9591eb6450d6ffceee51c1d94d7838b44017fc897b637887b7",
+      "source_copy_sha256_match": true,
+      "artist_review": {
+        "opened_actual_image": true,
+        "status": "artist_inspected_pending_independent_review",
+        "notes": [
+          "직립 유지, 앞 왼쪽 기둥에 손 닿기 전, 포치 밖 통행인, 아직 파손 없음 확인."
+        ]
+      },
+      "followup_motion": "기둥을 빼 왼쪽에 눕힌다. 바로 무릎을 굽히고 긴 목을 큰 S자로 접어 포치 밑으로 들어가 양팔을 승리 자세로 든다. 동작 사이 몸 크기는 고정.",
+      "first_frame": "괴수는 아직 포치 바깥 직립 상태에서 손이 앞왼쪽 기둥을 잡기 직전. 긴 목은 펴져 있고 무릎도 아직 굽히지 않았다. 지붕은 수평, 통행인 둘은 포치 밖.",
+      "next_motion": "기둥을 빼 왼쪽에 눕힌다. 바로 무릎을 굽히고 긴 목을 큰 S자로 접어 포치 밑으로 들어가 양팔을 승리 자세로 든다. 동작 사이 몸 크기는 고정.",
+      "review_status": "independent_actual_image_review_cross_check_and_required_closure_complete",
+      "reused_from_run": "2026-10-19_keep135-rebuild-v7",
+      "new_generation_in_this_run": false,
+      "reused_image_path": "images/C05/S02.png"
+    },
+    {
+      "concept_id": "C05",
+      "cut_id": "K03",
+      "scene_id": "S03",
+      "linked_cuts": [
+        "K03"
+      ],
+      "image_path": "images/C05/S03.png",
+      "prompt": "Use case: ads-marketing. Single 16:9 first frame S03 for the same tokusatsu story. Image1 is EXACT monster crouching pose and three-column damaged porch continuity; image2 gives earlier ominous light and monster original standing size. Create the MOMENT BEFORE image1: monster celebrates under the unsupported left porch corner, then notices roof beginning to tip. Match its full original body dimensions, no shrinkage.\nTake a slightly closer three-quarter medium-wide camera to show whole monster, folded knees, large S-shaped full-length neck, both raised hands, roof edge and fallen column. Head stays4.5m high with ear4.2m and shoulder2.2m. Same scarlet rough rubber body, yellow eyes, semicircle ears. The monster's BOTH hands are open in a victory pose 20–30cm BELOW the porch underside, clearly separated from it by visible air. It has NOT caught the roof yet. Head turned slightly upward, eyes seeing the roof, smug expression just becoming alarm, not smile. Roof has only just begun to tilt at missing front-left corner. Next action is catching with both palms.\nExactly THREE standing original columns (the front-left fourth is gone). One full-length intact square concrete column lies on left ground, same diagonal position as image1. No rubble, no additional damage. Gym main body12m intact and door at right rear. No people, no jack, no ladder, no earphone: foreman has not arrived yet. Muted dramatic daylight transitioning to bright day, cinematic painted miniature set and practical rubber seams. Maintain the S-shaped long neck from image1, not a short dinosaur neck. No text, logos, collage.",
+      "reference_images": [
+        "C:\\Users\\wseok\\.codex\\generated_images\\01a15195-8ba1-7de0-a3ae-6169a54cc7a7\\exec-fbd1a34c-c065-4cad-ba02-d189edd4c59f.png",
+        "C:\\Users\\wseok\\.codex\\generated_images\\01a15195-8ba1-7de0-a3ae-6169a54cc7a7\\exec-cdaa1ff8-25a1-4487-8da4-9db15041d4bf.png"
+      ],
+      "source_generated_path": "C:\\Users\\wseok\\.codex\\generated_images\\01a15195-8ba1-7de0-a3ae-6169a54cc7a7\\exec-f6e07dfb-7a16-4fc4-b929-07721548e539.png",
+      "generation_tool": "image_gen",
+      "selected": true,
+      "width": 1672,
+      "height": 941,
+      "sha256": "c917a0453761e583e138026f4270ac6c06c71fda9fceb3a943611304f775c467",
+      "source_copy_sha256_match": true,
+      "artist_review": {
+        "opened_actual_image": true,
+        "status": "artist_inspected_pending_independent_review",
+        "notes": [
+          "긴 목 S자 접힘과 양 무릎, 지붕에 닿기 전 두 손, 누운 기둥 1개, 사람·잭 없음 확인. 지붕 각도는 원근과 후속 움직임 검수 필요."
+        ]
+      },
+      "followup_motion": "지붕이 더 기울기 시작하자 괴수가 양손으로 앞 가장자리를 받쳐 멈춘다. 머리·몸에 충돌하지 않는다.",
+      "first_frame": "괴수는 무릎을 굽히고 긴 목을 S자로 접은 채 두 팔을 승리 자세로 든다. 지붕이 막 기울기 시작했고 양손은 아직 닿지 않았다. 귀는 약 4.2m 높이.",
+      "next_motion": "지붕이 더 기울기 시작하자 괴수가 양손으로 앞 가장자리를 받쳐 멈춘다. 머리·몸에 충돌하지 않는다.",
+      "review_status": "independent_actual_image_review_cross_check_and_required_closure_complete",
+      "reused_from_run": "2026-10-19_keep135-rebuild-v7",
+      "new_generation_in_this_run": false,
+      "reused_image_path": "images/C05/S03.png"
+    },
+    {
+      "concept_id": "C05",
+      "cut_id": "K04",
+      "scene_id": "S04",
+      "linked_cuts": [
+        "K04"
+      ],
+      "image_path": "images/C05/S04_v2.png",
+      "prompt": "Use case: precise-object-edit. Edit this exact 16:9 S04 frame. Keep monster face, proportions, folded S neck, knees, both hands supporting roof, facilities foreman's exact face/body/clothes, jack, camera and daylight unchanged. Correct ONLY the extracted column continuity.\n1) There must be exactly THREE standing columns remaining. Remove the extra narrow gray vertical column visible immediately behind the monster's screen-left upper arm and left side of its torso (around image x650). Leave the proper rear column near center x980 and the two right columns unchanged. No replacement supports.\n2) Replace the short concrete chunk on far left pavement with ONE complete long intact square column, the full height of the original 5-meter porch supports, laid on its side diagonally away into the left forecourt. The close end is at the far bottom-left foreground and the long shaft recedes toward the left side background; use foreshortening but ensure it clearly reads as a long complete structural post, not a broken short block. Full post visible inside frame, not under monster feet. No additional rubble, no extra fallen posts. Everything else unchanged. No text.",
+      "reference_images": [
+        "C:\\Users\\wseok\\.codex\\generated_images\\01a15195-8ba1-7de0-a3ae-6169a54cc7a7\\exec-3ca088ec-fda3-4c86-953a-f91e5715b945.png"
+      ],
+      "source_generated_path": "C:\\Users\\wseok\\.codex\\generated_images\\01a15195-8ba1-7de0-a3ae-6169a54cc7a7\\exec-fbd1a34c-c065-4cad-ba02-d189edd4c59f.png",
+      "generation_tool": "image_gen",
+      "selected": true,
+      "width": 1672,
+      "height": 941,
+      "sha256": "cf45dac7f8e940c0a9ac6e072e3a1b88755e1d1d6cce2e8f886fa0a6f7ca1540",
+      "source_copy_sha256_match": true,
+      "artist_review": {
+        "opened_actual_image": true,
+        "status": "artist_inspected_pending_independent_review",
+        "notes": [
+          "큰 체격 은발 버즈컷 50대 반장·노란 장갑·짧은 붉은 잭 확인. 여분 기둥 제거 후 서 있는 기둥 3개, 누운 긴 기둥 1개. 긴 S자 목과 굽힌 무릎, 두 손 지지 확인."
+        ]
+      },
+      "followup_motion": "FM이 잭을 끝까지 올렸다가 부족한 높이를 확인하고 급히 두 손을 든다. 괴수는 떠날 길을 흘겨보다 양손 지지를 유지한다. 긴 목의 접힘과 귀 높이는 그대로.",
+      "first_frame": "FM이 접힌 받침대를 굴려 멈추기 직전. 괴수는 무릎과 긴 목을 S자로 접은 같은 크기로 지붕을 받치며 왼쪽 길을 본다. 정수리 4.5m·귀 4.2m 기준.",
+      "next_motion": "FM이 잭을 끝까지 올렸다가 부족한 높이를 확인하고 급히 두 손을 든다. 괴수는 떠날 길을 흘겨보다 양손 지지를 유지한다. 긴 목의 접힘과 귀 높이는 그대로.",
+      "review_status": "independent_actual_image_review_cross_check_and_required_closure_complete",
+      "reused_from_run": "2026-10-19_keep135-rebuild-v7",
+      "new_generation_in_this_run": false,
+      "reused_image_path": "images/C05/S04_v2.png"
+    },
+    {
+      "concept_id": "C05",
+      "cut_id": "K05",
+      "scene_id": "S05",
+      "linked_cuts": [
+        "K05"
+      ],
+      "image_path": "images/C05/S05_v2.png",
+      "prompt": "Use case: precise-object-edit. Correct ONLY the monster's neck/head pose in image1 (S05 medium shot). Image2 is the exact previous pose it must retain. Keep image1 camera crop, daylight, architecture, open door on screen RIGHT, both hand positions and all body sizes unchanged.\nThe long neck must have the SAME S bend handedness as image2: from shoulders it bends toward screen RIGHT, then curves back so the head points toward screen LEFT. Do NOT mirror or reverse the S curve. Its head still faces toward screen left as in image2. Only the small black pupils in the two yellow eyes glance toward screen RIGHT toward the open gym door. It is the first frame BEFORE turning/leaning to listen, NOT already looking all the way right. Keep original rectangular red head, semi-circle ears and long neck volume without shrinking. Both hands continue pressing the underside of the roof. No new props, words, earphones, wires, or people.",
+      "reference_images": [
+        "C:\\Users\\wseok\\.codex\\generated_images\\01a15195-8ba1-7de0-a3ae-6169a54cc7a7\\exec-1b6a2a03-528c-44fa-9062-7c8e1c6ba861.png",
+        "C:\\Users\\wseok\\.codex\\generated_images\\01a15195-8ba1-7de0-a3ae-6169a54cc7a7\\exec-fbd1a34c-c065-4cad-ba02-d189edd4c59f.png"
+      ],
+      "source_generated_path": "C:\\Users\\wseok\\.codex\\generated_images\\01a15195-8ba1-7de0-a3ae-6169a54cc7a7\\exec-e0adf38c-dc52-4fe8-854c-0a9c2d6fbca3.png",
+      "generation_tool": "image_gen",
+      "selected": true,
+      "width": 1672,
+      "height": 941,
+      "sha256": "24c842c5ffbc5941979e7fdef265f395b68ec4776c290f33972eb0a59dcae7fd",
+      "source_copy_sha256_match": true,
+      "artist_review": {
+        "opened_actual_image": true,
+        "status": "artist_inspected_pending_independent_review",
+        "notes": [
+          "S04와 같은 S자 방향으로 복구. 두 손 지지, 오른쪽 열린 문, 이어폰과 사다리 미등장. 시선의 작은 이동은 후속 동작에서 보강."
+        ]
+      },
+      "followup_motion": "괴수가 귀를 문 쪽으로 기울인다. 지붕이 작은 범위로 따라 움직이자 바로 자세를 되돌린다.",
+      "first_frame": "괴수는 무릎·긴 목을 S자로 접은 같은 지지 자세. 양손이 지붕을 받치고 귀는 약 4.2m. 눈만 열린 문으로 돌아가 귀를 기울이기 직전.",
+      "next_motion": "괴수가 귀를 문 쪽으로 기울인다. 지붕이 작은 범위로 따라 움직이자 바로 자세를 되돌린다.",
+      "review_status": "independent_actual_image_review_cross_check_and_required_closure_complete",
+      "reused_from_run": "2026-10-19_keep135-rebuild-v7",
+      "new_generation_in_this_run": false,
+      "reused_image_path": "images/C05/S05_v2.png"
+    },
+    {
+      "concept_id": "C05",
+      "cut_id": "K06",
+      "scene_id": "S06",
+      "linked_cuts": [
+        "K06"
+      ],
+      "image_path": "images/C05/S06.png",
+      "prompt": "Use case: ads-marketing. Single 16:9 S06 first frame in the SAME practical tokusatsu courtyard as image1. Wide low-ish camera near a ladder's wheel base. SAME exact giant red monster in background center, S-folded long neck and crouched knees, both hands flat supporting roof, head height4.5m/ear4.2m, NOT standing up or becoming smaller. Its pupils look forward with weary hope, head still pointing screen-left in same S-curve as reference.\nA genuinely LONG 5.5-meter aluminum mobile access ladder is JUST ENTERING from screen LEFT; broad four-wheel stabilizer base on ground completely OUTSIDE canopy footprint. Strong diagonal silver ladder rails rise from left foreground toward the monster's accessible visible red ear around4.2m, rails extending above; uppermost equipment beyond the top crop and hidden behind rails so NO earphone or headset is visible anywhere. This must read as useful rescue equipment, not a small household stepladder. First frame BEFORE wheels are locked and before anyone climbs.\nA new technician pushes its waist-height lower handle: 64-year-old Korean man, wiry thin body, narrow shoulders, long creased face, short silver hair, thin long WHITE GOATEE, dark navy work BIB OVERALLS over a gray shirt, orange gloves, worn dark boots. Distinctly smaller/slimmer and older than the large clean-shaven silver BUZZCUT foreman in olive jacket at the far RIGHT. Technician has both feet on ground, practical focused expression, not posing. Foreman can be at right near the raised short red jack, normal human scale1.75m. Neither person stands beneath roof.\nOne long removed concrete post stays on left ground but not across wheels; exactly three standing pillars remain. Door rear-right open. Bright daylight, chipped red rubber seams, physical miniature gym, mundane facility staff versus trapped enormous creature. No text, no logo, no earphones, no wires, no headphones revealed, no extra humans.",
+      "reference_images": [
+        "C:\\Users\\wseok\\.codex\\generated_images\\01a15195-8ba1-7de0-a3ae-6169a54cc7a7\\exec-fbd1a34c-c065-4cad-ba02-d189edd4c59f.png"
+      ],
+      "source_generated_path": "C:\\Users\\wseok\\.codex\\generated_images\\01a15195-8ba1-7de0-a3ae-6169a54cc7a7\\exec-584182e6-6ab7-4896-be2b-98421c78f129.png",
+      "generation_tool": "image_gen",
+      "selected": true,
+      "width": 1672,
+      "height": 941,
+      "sha256": "572aea2ad7d0c08ee7b7afb70abc854e6b27194c1088494c4f502b6f4c9b2633",
+      "source_copy_sha256_match": true,
+      "artist_review": {
+        "opened_actual_image": true,
+        "status": "artist_inspected_pending_independent_review",
+        "notes": [
+          "작은 체격 흰 수염·멜빵 작업 기사와 큰 체격 반장 대비 확인. 긴 바퀴 사다리 진입, 이어폰 미공개. 두 손 지지 유지."
+        ]
+      },
+      "followup_motion": "TE가 바깥 지지대를 고정하고 사다리 끝을 이미 고정된 4.2m 귀 높이에 맞춘다. 괴수는 목을 펴지 않고 눈만 위로 따라간다.",
+      "first_frame": "긴 사다리 하부가 왼쪽에 막 들어온다. TE가 손잡이를 밀고 괴수는 같은 S자 목·굽힌 무릎·4.2m 귀 높이로 정면을 본다. 이어폰은 아직 보이지 않음.",
+      "next_motion": "TE가 바깥 지지대를 고정하고 사다리 끝을 이미 고정된 4.2m 귀 높이에 맞춘다. 괴수는 목을 펴지 않고 눈만 위로 따라간다.",
+      "review_status": "independent_actual_image_review_cross_check_and_required_closure_complete",
+      "reused_from_run": "2026-10-19_keep135-rebuild-v7",
+      "new_generation_in_this_run": false,
+      "reused_image_path": "images/C05/S06.png"
+    },
+    {
+      "concept_id": "C05",
+      "cut_id": "K07",
+      "scene_id": "S07",
+      "linked_cuts": [
+        "K07"
+      ],
+      "image_path": "images/C05/S07.png",
+      "prompt": "Use case: ads-marketing. New single 16:9 S07, upper-ladder close medium shot revealing the unexpected object. Image1 gives technician, ladder and set. Image2 gives exact monster head and folded S neck. Keep every identity and size. No text.\nCamera is at ear height from an oblique angle OUTSIDE the canopy, aimed toward the monster's visible near red half-circle ear. Compose the large monster's head on RIGHT and the technician standing on the upper ladder steps at LEFT, his chest at ear level. Adjust camera around the head so the visible accessible ear is at the left side of its head nearest technician, but the long neck stays folded into an S beneath and the giant stays squatting at4.2m ear height. The camera change may reveal opposite side of head; do not change monster anatomy. Its large red rubber hands still visibly support roof on both sides (partial hands at frame edges acceptable), with narrow clearance above head.\nThe same 64-year-old Korean technician: wiry thin body, narrow shoulders, long lined face, short silver-gray hair, LONG THIN WHITE GOATEE, navy work bib overalls over gray shirt, orange gloves. Worn realistic face, not youthful or handsome model. Secure footing on aluminum ladder, one hand steadying rail. With his other orange-gloved hand he holds ONE large BLACK ROUND WIRED EAR CUP exactly10cm away from monster's red ear: obvious air gap, NOT attached yet. Ear cup is not a full headset: no over-head band, no second cup. Short rear fixing strap hanging loose. One black audio wire hangs from the cup OUTSIDE the ladder rails down toward ground. This is a sound installation, not rescue. Serious routine-work expression. Monster eyes look toward tiny workman, puzzled and disappointed, no smile.\nBright day; gray roof soffit and small portion of intact gym in background. Show hands-roof contact, giant ear, single round ear cup and aging technician clearly. No random tools, no jack near head, no extra worker, no fake typography. Real photographed rubber-and-concrete miniature with live-action human composite, tactile chipped red skin and practical B-movie textures.",
+      "reference_images": [
+        "C:\\Users\\wseok\\.codex\\generated_images\\01a15195-8ba1-7de0-a3ae-6169a54cc7a7\\exec-584182e6-6ab7-4896-be2b-98421c78f129.png",
+        "C:\\Users\\wseok\\.codex\\generated_images\\01a15195-8ba1-7de0-a3ae-6169a54cc7a7\\exec-e0adf38c-dc52-4fe8-854c-0a9c2d6fbca3.png"
+      ],
+      "source_generated_path": "C:\\Users\\wseok\\.codex\\generated_images\\01a15195-8ba1-7de0-a3ae-6169a54cc7a7\\exec-5f8e6cec-02ae-4b37-9dd5-b7d1d1f00a21.png",
+      "generation_tool": "image_gen",
+      "selected": true,
+      "width": 1672,
+      "height": 941,
+      "sha256": "94d026ac96f1f3358181f09dc8ca2ac4af849691725b85089bb0f8a1fa92c81a",
+      "source_copy_sha256_match": true,
+      "artist_review": {
+        "opened_actual_image": true,
+        "status": "artist_inspected_pending_independent_review",
+        "notes": [
+          "반대쪽 사선의 귀 높이 근접 카메라. 기사 주름·흰 수염·주황 장갑, 검정 단일 이어컵과 귀 사이 틈, 양손 지지 일부 확인. 카메라 전환에 따른 귀 측면 매칭은 독립 검수 요청."
+        ]
+      },
+      "followup_motion": "TE가 이어컵을 귀에 걸고 짧은 뒤 고정끈을 건다. 괴수는 눈을 한번 깜빡이고 오른쪽 실내를 본다.",
+      "first_frame": "TE가 커다란 검정 이어컵을 귀에서 10cm 떨어진 곳에 든 상태. 아직 귀에 걸리지 않았고 선은 사다리 바깥으로 내려감.",
+      "next_motion": "TE가 이어컵을 귀에 걸고 짧은 뒤 고정끈을 건다. 괴수는 눈을 한번 깜빡이고 오른쪽 실내를 본다.",
+      "postproduction_notes": "K07은 K06/K08 와이드와 반대 사선의 귀 높이 접사. 설치 대상은 K08에 보이는 한쪽 귀로 고정한다. 화면 좌우가 바뀐다고 실제 귀를 바꾸지 않는다. 실제 영상 제작에서는 전선·건물 방향까지 대조할 것. 정지 이미지 단계에서 귀 연결 동작 검증 완료라고 기록하지 않는다.",
+      "review_status": "independent_actual_image_review_cross_check_and_required_closure_complete",
+      "reused_from_run": "2026-10-19_keep135-rebuild-v7",
+      "new_generation_in_this_run": false,
+      "reused_image_path": "images/C05/S07.png"
+    },
+    {
+      "concept_id": "C05",
+      "cut_id": "K08",
+      "scene_id": "S08",
+      "linked_cuts": [
+        "K08"
+      ],
+      "image_path": "images/C05/S08_v2.png",
+      "prompt": "Use case: precise-object-edit. Correct ONLY giant red monster HEAD AND LONG NECK in image1. Image2 shows the EXACT SAME giant, exact original neck length and S-shaped folded pose needed for continuity. Keep image1 entire wide set, workers, ladder, cable, jack, three remaining columns, fallen column, bent legs, torso scale, both supporting arm and hand positions, roof and lighting identical.\nIn image1 the neck is too short and bends only once. Replace it with the full long tightly folded S-shaped neck from image2. From upper chest the thick red neck curves up toward SCREEN RIGHT, then curves back LEFT, putting head to SCREEN LEFT of the upper neck bend. SAME head size as image2 relative to torso. Head points screen LEFT as image2, not toward screen RIGHT. Do not mirror the S curve. The ear at4.2m and head top4.5m fit just below roof unchanged. Eyes glance down toward the ground foreman on right without turning the entire head.\nKeep ONE black round wired ear cup but attach it to the visible half-circle red ear on the SCREEN RIGHT rear of the now-leftward-facing head. No overhead band. Cable can curve gently behind head to join existing cable descending left. Do not create a second ear cup. No other alterations, no text.",
+      "reference_images": [
+        "C:\\Users\\wseok\\.codex\\generated_images\\01a15195-8ba1-7de0-a3ae-6169a54cc7a7\\exec-135f3875-3d89-42fd-850b-f7ea3f0a313f.png",
+        "C:\\Users\\wseok\\.codex\\generated_images\\01a15195-8ba1-7de0-a3ae-6169a54cc7a7\\exec-fbd1a34c-c065-4cad-ba02-d189edd4c59f.png"
+      ],
+      "source_generated_path": "C:\\Users\\wseok\\.codex\\generated_images\\01a15195-8ba1-7de0-a3ae-6169a54cc7a7\\exec-d9ac2caa-5cd8-4ad2-bf03-5c79d37ec743.png",
+      "generation_tool": "image_gen",
+      "selected": true,
+      "width": 1672,
+      "height": 941,
+      "sha256": "e94a07fe371524a68d9132d569be8ae7a84556a723ea89554ac63bc43ae2869d",
+      "source_copy_sha256_match": true,
+      "artist_review": {
+        "opened_actual_image": true,
+        "status": "artist_inspected_pending_independent_review",
+        "notes": [
+          "S04 기준 긴 S자 목·굽힌 무릎·두 손 지지 복구. 연결 완료한 검정 단일 이어컵, 바닥 두 작업자, 짧은 잭·누운 기둥·사다리 확인. 엄지 동작 전 프레임이며 손을 아직 떼지 않음."
+        ]
+      },
+      "followup_motion": "첫 2초: 괴수가 답하려 오른손 손목을 눈에 띄게 굽히고 손가락을 펼쳐 엄지 손짓으로 바꾸려 한다. 지붕이 흔들리자 곧바로 다시 잡고 고개를 끄덕인다. 34초 안내 시작 뒤에는 두 손을 고정하고 작은 고갯짓으로 듣는다.",
+      "first_frame": "괴수의 S자 목·굽힌 무릎·두 손 지지는 그대로. 이어컵은 연결 완료, 눈은 아래 FM을 향해 잘 들린다는 답을 보내려는 표정. 오른손 손목은 아직 펴져 있고 손가락도 지붕을 잡고 있다.",
+      "next_motion": "첫 2초: 괴수가 답하려 오른손 손목을 눈에 띄게 굽히고 손가락을 펼쳐 엄지 손짓으로 바꾸려 한다. 지붕이 흔들리자 곧바로 다시 잡고 고개를 끄덕인다. 34초 안내 시작 뒤에는 두 손을 고정하고 작은 고갯짓으로 듣는다.",
+      "postproduction_notes": "행사명은 하단 포장면(대략 y 88~97%)에 한 줄로 6초. 시작 안내는 음성으로 전달하며 별도 보조 자막은 생략한다. 실제 합성 후 가독성·전선 및 작업자 발 비침범 확인. 손짓은 청취 확인에 대한 응답이다.",
+      "review_status": "independent_actual_image_review_cross_check_and_required_closure_complete",
+      "reused_from_run": "2026-10-19_keep135-rebuild-v7",
+      "new_generation_in_this_run": false,
+      "reused_image_path": "images/C05/S08_v2.png"
+    }
+  ]
+}

@@ -1,0 +1,8 @@
+{
+ "reviewer":"C","agent":"/root/v8_review_c","stage":"independent before peer image reports","verdict":"two new images usable; no required regeneration","required_remaining":[],
+ "opened_actual_images":["contact_sheets/C01_all_cuts.jpg","contact_sheets/C02_all_cuts.jpg","contact_sheets/C03_all_cuts.jpg","contact_sheets/C04_all_cuts.jpg","contact_sheets/C05_all_cuts.jpg","images/C02/S01_v8.png","images/C04/S09_v8.png","images/C02/S02.png","images/C02/S09_v2.png","images/C04/S08.png"],
+ "assessment":{"C01":"거대사진→원본→바닥자세 구분, 인물/복장/공간 유지","C02":"굳은얼굴/숙인몸으로 진짜확신, 사진/실/빈영역·다음실 미고정. K02캐스팅/마지막체면연기와 양립","C03":"두색공간/작은파일 규모반전, 차별성 유지","C04":"CM→GU 시선/곧은몸/숨긴개인숟가락,3창3명6팔3그릇3나무숟가락/내린국자/RC서류 유지. K08창닫힘→K09창열림 인과","C05":"인형질감/기둥대체/청취반전 유지, 귀연결은후속"},
+ "findings":[{"id":"C-003","severity":"suggestion","cut":"C02 K01","issue":"검지 현재위치는 금속제품 아래 가장자리 부근,흐린흔적은위쪽","direction":"후속첫동작에서 손끝을 흐린흔적으로 이동하여 지목. 현위치를누르기만하지않음. 재생성불필요","blocks_completion":false}],
+ "notes":["C04제목복합배경에 짙은패널필요","41재사용/25보존은validation결과확인, 별도해시반복없음","기존사진픽셀동일성은후속한사진재사용계약"],
+ "limits":["정지이미지로 거리/동작/발음/음악/립싱크 검증안함","후편집행사명 실제합성안함","사내수용/유머는 관객반응측정아님"]
+}

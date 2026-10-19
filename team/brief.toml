@@ -1,7 +1,7 @@
 # 경로는 모두 이 프로젝트 폴더(AGENTS.md가 있는 폴더)를 기준으로 한다.
 # 초기 조사 기록이다. 후속 기획 실행 시 사용자 최신 지시와 원자료로 갱신한다.
 team_name = "AI 실행 결과 발표대회 홍보영상팀"
-# 최신 지시는 맨 아래 creative_direction_2026_10_19_keep_c01_c03_c05를 우선한다.
+# 최신 지시는 맨 아래 creative_direction_2026_10_19_tone_polish_v8을 우선한다.
 prepared_on = "2026-10-14"
 project_root_relative_to_this_file = ".."
 setup_scope = "2026-10-14 사용자 실제 기획 요청 시작: 팀 확인 후 5안 기획·교차검수·씬 대표 이미지 제작. Flow 영상 제작 제외."
@@ -116,3 +116,10 @@ retained = "V6 전체 콘티 객체3개·채택PNG25장. 기존 C01 36초v07 SHA
 delivery = "C02 검은 점을 잡아라 35초9컷 / C04 목마는 식사 중입니다 34초9컷. 신규18장. 전체43장."
 creative_status = "콘티·실제 첫 프레임·3인 독립/교차/필수수정 검토 완료. 신규2안 사용자창작수용·관객재미 미확인."
 scope = "시나리오와 컷별 첫프레임만. Flow·동영상·음원 금지. ai-flow PAUSED 유지."
+
+[creative_direction_2026_10_19_tone_polish_v8]
+user_feedback = "V7 2/4 나쁘지 않으나 조금 더 느낌. 전체 이미지 콘티를 Git에서 쉽게 찾기."
+new_run = "storyboards/2026-10-19_tone-polish-v8"
+retained = "C01/C03/C05 전체 콘티 객체·25PNG 바이트 보존. C02/C04 이야기·AI 역할·35/34초 유지."
+delivery = "2/4 대사·호흡·체면 유지 행동 보완. 새 PNG2장 + 재사용41장 =43장. Git 루트 콘티_바로보기.md 추가."
+scope = "시나리오와 첫 프레임만. Flow·동영상·음원 금지, 예약 PAUSED 유지. 비공개 Git 유지."
