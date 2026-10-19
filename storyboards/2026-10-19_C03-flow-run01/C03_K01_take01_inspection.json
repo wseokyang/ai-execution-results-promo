@@ -1,0 +1,60 @@
+{
+  "file": "C03_K01_take01.mp4",
+  "bytes": 1326996,
+  "sha256": "c0e542c8ffe8af828f8a0c32ff70f02241738156cf9fea44c8ef665b404ef80e",
+  "duration_seconds": 8.0,
+  "streams": [
+    {
+      "type": "video",
+      "codec": "h264",
+      "duration_seconds": 8.0,
+      "width": 1280,
+      "height": 720,
+      "frame_rate": "24/1"
+    },
+    {
+      "type": "audio",
+      "codec": "aac",
+      "duration_seconds": 8.0
+    }
+  ],
+  "decode_pass": true,
+  "decoded_pcm_finite": true,
+  "decoded_pcm_peak": 0.9198791980743408,
+  "derived_wav_format": "pcm_f32le, decoder overshoots preserved",
+  "asr_model": "faster-whisper small CPU int8",
+  "segments": [
+    {
+      "start": 0.0,
+      "end": 2.16,
+      "text": " 결과 말고 어떻게 했는지도요",
+      "words": [
+        {
+          "start": 0.0,
+          "end": 0.3,
+          "word": " 결과",
+          "probability": 0.8573631048202515
+        },
+        {
+          "start": 0.3,
+          "end": 0.68,
+          "word": " 말고",
+          "probability": 0.9810303449630737
+        },
+        {
+          "start": 0.68,
+          "end": 1.36,
+          "word": " 어떻게",
+          "probability": 0.9716005921363831
+        },
+        {
+          "start": 1.36,
+          "end": 2.16,
+          "word": " 했는지도요",
+          "probability": 0.9572623372077942
+        }
+      ]
+    }
+  ],
+  "limitation": "Automatic transcription and technical inspection only. No actual listening, pronunciation, speaker identity, naturalness, or lip-sync verification."
+}

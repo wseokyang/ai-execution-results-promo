@@ -1,6 +1,6 @@
 # AI 실행 결과 발표 대회 · 영상 기획
 
-최신 제작 상태: [새 3번 「환경까지 가져왔습니다」 Flow 작업 기록](storyboards/2026-10-19_C03-flow-run01/). 사용자 생성 승인 후 첫 요청이 Flow 보안 오류로 실패했습니다. **완성0개 / 관측잔액50→50**, K01 입력을 복원하고 사용자 보안·로그인 확인을 기다립니다.
+최신 제작 상태: [새 3번 「환경까지 가져왔습니다」 Flow 작업 기록](storyboards/2026-10-19_C03-flow-run01/). 재로그인 후 K01 재시도 성공, **원본1개 / 잔액40**입니다. 그림자 표현과 편집 길이 보완이 남아 최종 채택은 보류했습니다. [원본 바로보기](storyboards/2026-10-19_C03-flow-run01/C03_K01_take01.mp4).
 
 ## [전체 이미지 콘티 바로보기 →](콘티_바로보기.md)
 
@@ -15,7 +15,7 @@
 | --- | --- |
 | 이미지와 대사를 한 화면에서 보기 | [전체 이미지 콘티](콘티_바로보기.md) |
 | Flow 제작 전 첫 상태·대사·음성·음악 점검과 영상 수 | [제작 점검표](storyboards/2026-10-19_v8-flow-preflight/FLOW_PREFLIGHT.md) |
-| 아직 제출하지 않은 44개 영상 프롬프트 초안 | [제작용 프롬프트](storyboards/2026-10-19_v8-flow-preflight/prompts/) |
+| 화면용 44개 제작 프롬프트 초안 | [제작용 프롬프트](storyboards/2026-10-19_v8-flow-preflight/prompts/) |
 | 이전에 전달한 형태의 HTML 원본 | [V8 index.html](storyboards/2026-10-19_tone-polish-v8/index.html) |
 | PNG 원본·HTML·프롬프트 전체 | [V8 폴더](storyboards/2026-10-19_tone-polish-v8/) |
 | 시간·자막·음향까지 포함한 컷 표 | [전체 컷 표](storyboards/2026-10-19_tone-polish-v8/STORYBOARDS.md) |

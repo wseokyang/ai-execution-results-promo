@@ -6,8 +6,8 @@
   "project_title": "C03 환경까지 가져왔습니다 · V8 제작",
   "account_label": "existing main Chrome PLUS account; no account switch",
   "starting_credits": 50,
-  "last_observed_credits": 50,
-  "credits_spent_confirmed": 0,
+  "last_observed_credits": 40,
+  "credits_spent_confirmed": 10,
   "settings": {
     "model": "Veo 3.1 - Lite",
     "mode": "Frames first only",
@@ -19,7 +19,7 @@
     "duration_deviation": "Actual Lite UI exposes no duration control; composer remains8s. Use8s sources and trim, rather than assume6s availability from docs.",
     "silent_return_setting": "OFF observed after toggle; UI toast says silent videos blocked"
   },
-  "status": "blocked_by_Flow_security_error_user_check_pending",
+  "status": "K01_saved_candidate_on_hold_after_single_retry",
   "planned_first_batch": [
     "C03_K01",
     "C03_K02",
@@ -31,7 +31,7 @@
     {
       "cut_id": "C03_K01",
       "take": 1,
-      "status": "failed_security_check",
+      "status": "completed_candidate_on_hold",
       "input_image": "../2026-10-19_tone-polish-v8/images/C03/K01.png",
       "source_image": "\\\\wsl.localhost\\Ubuntu-24.04\\home\\wooseok\\wsy\\samsung_related\\slide\\AI실행결과발표대회_디자인3종\\storyboards\\2026-10-19_tone-polish-v8\\images\\C03\\K01.png",
       "input_sha256": "aff884bcbe2696e5b47356789a7da8642b9c7dba38c2166cb4a140fa2182e408",
@@ -42,8 +42,8 @@
       "preflight_recommended_seconds": 6,
       "live_ui_quote_credits": 10,
       "input_submitted": true,
-      "generation_id": null,
-      "original_mp4": null,
+      "generation_id": "cb7b682d-af03-4ef7-b669-53c6bad195a7",
+      "original_mp4": "C03_K01_take01.mp4",
       "audio_verified": false,
       "submitted_prompt": "8초, 16:9, 720p. 한 개의 연속 숏.\n16:9, 승인된 시작 이미지의 인물 외형·복장·빛·공간·소품을 유지. 고정된 숏의 시작부터 동작을 이어간다.\n첫 상태: 직원은 통화 중, 자료 위 손. 위 사무실은 안 보이고 정상 햇빛.\n동작: 통화 중인 직원이 문장을 차분하게 말한다. 화면 밖 높은 곳의 물체가 만드는 넓은 그림자가 서서히 탁자와 직원 쪽으로 들어오자, 말끝을 온전히 마친 직원이 눈과 고개만 위쪽으로 들어 올려 본다. 이 숏에서는 공중 사무실이나 크레인 실체를 보여주지 않는다.\n구도: 조용한 50mm 미디엄, 넓은 하늘 배경.\n발화: C03_R (30대 한국인 여성. 묶은 검은 머리, 베이지 블라우스·청록 얇은 조끼·짙은 회색 바지.): 정확히 ‘결과 말고, 어떻게 했는지도요.’. 30대 여성 중음의 자연스러운 업무 통화. 요구사항을 차분하게 설명하고, 말이 끝난 다음 그림자를 이상하게 여긴다. 문장을 급하게 읽거나 광고처럼 강조하지 않는다.\n여기에 지정하지 않은 인물은 말하거나 입을 움직이지 않는다. 화면 밖 추가 대사와 정확한 UI·사진·행사 자막은 편집에서 넣으므로 생성하지 않는다.\n배경음악 없음. 실제 동작에 맞는 절제된 현장음만. 웃음소리·코믹 효과음·자막·로고·불필요한 말소리 없음.\n말은 자연스러운 한국어, 급하지 않게, 말끝을 온전히 남긴다. 동작을 순서대로, 신체·물건이 새로 생기거나 사라지지 않게.\n동작과 대사는 앞부분부터 자연스럽게 진행하고, 완료된 뒤에는 같은 구도를 유지하며 편집용 여유를 남긴다. 8초를 채우기 위해 말을 느리게 늘리거나 새 대사를 추가하지 않는다.",
       "submitted_model": "Veo 3.1 - Lite",
@@ -55,14 +55,95 @@
         "silent_return": false
       },
       "credits_before": 50,
-      "error": "비정상적인 활동이 감지되었습니다. 페이지를 수정하는 브라우저 확장 프로그램으로 인해 문제가 발생할 수 있습니다.",
+      "error": null,
       "generation_id_note": "No generation ID exposed in observed failed-card UI; no successful output.",
-      "credits_after": 50,
-      "net_credit_change_observed": 0,
+      "credits_after": 40,
+      "net_credit_change_observed": -10,
       "transient_charge_unknown": true,
-      "refund_status": "not observed; same50balance before/after",
-      "review_status": "no video to review",
-      "composer_restored": true
+      "refund_status": "none observed for attempt02",
+      "review_status": "3 independent and cross sample-visual reviews; first4s unusable as whole action; shadow artifact requires adoption decision/edit; actual audio/lip-sync unverified",
+      "composer_restored": false,
+      "attempts": [
+        {
+          "attempt_no": 1,
+          "submitted_at_utc": null,
+          "timestamp_note": "Original record has no exact timestamp; not retrospectively inferred.",
+          "submitted_by": "assistant",
+          "submitted_prompt": "8초, 16:9, 720p. 한 개의 연속 숏.\n16:9, 승인된 시작 이미지의 인물 외형·복장·빛·공간·소품을 유지. 고정된 숏의 시작부터 동작을 이어간다.\n첫 상태: 직원은 통화 중, 자료 위 손. 위 사무실은 안 보이고 정상 햇빛.\n동작: 통화 중인 직원이 문장을 차분하게 말한다. 화면 밖 높은 곳의 물체가 만드는 넓은 그림자가 서서히 탁자와 직원 쪽으로 들어오자, 말끝을 온전히 마친 직원이 눈과 고개만 위쪽으로 들어 올려 본다. 이 숏에서는 공중 사무실이나 크레인 실체를 보여주지 않는다.\n구도: 조용한 50mm 미디엄, 넓은 하늘 배경.\n발화: C03_R (30대 한국인 여성. 묶은 검은 머리, 베이지 블라우스·청록 얇은 조끼·짙은 회색 바지.): 정확히 ‘결과 말고, 어떻게 했는지도요.’. 30대 여성 중음의 자연스러운 업무 통화. 요구사항을 차분하게 설명하고, 말이 끝난 다음 그림자를 이상하게 여긴다. 문장을 급하게 읽거나 광고처럼 강조하지 않는다.\n여기에 지정하지 않은 인물은 말하거나 입을 움직이지 않는다. 화면 밖 추가 대사와 정확한 UI·사진·행사 자막은 편집에서 넣으므로 생성하지 않는다.\n배경음악 없음. 실제 동작에 맞는 절제된 현장음만. 웃음소리·코믹 효과음·자막·로고·불필요한 말소리 없음.\n말은 자연스러운 한국어, 급하지 않게, 말끝을 온전히 남긴다. 동작을 순서대로, 신체·물건이 새로 생기거나 사라지지 않게.\n동작과 대사는 앞부분부터 자연스럽게 진행하고, 완료된 뒤에는 같은 구도를 유지하며 편집용 여유를 남긴다. 8초를 채우기 위해 말을 느리게 늘리거나 새 대사를 추가하지 않는다.",
+          "input_sha256": "aff884bcbe2696e5b47356789a7da8642b9c7dba38c2166cb4a140fa2182e408",
+          "model": "Veo 3.1 - Lite",
+          "settings": {
+            "seconds": 8,
+            "resolution": "720p",
+            "ratio": "16:9",
+            "outputs": 1,
+            "silent_return": false
+          },
+          "credits_before": 50,
+          "credits_after": 50,
+          "status": "failed_security_check",
+          "generation_id": null,
+          "error": "비정상적인 활동이 감지되었습니다. 페이지를 수정하는 브라우저 확장 프로그램으로 인해 문제가 발생할 수 있습니다.",
+          "refund_status": "not observed; same50balance before/after",
+          "proof": "flow_security_error.jpg"
+        },
+        {
+          "attempt_no": 2,
+          "authorization": "User reauthenticated and explicitly requested one retry.",
+          "submitted_at_utc": "2026-10-19T06:20:22.309Z",
+          "submitted_at_kst": "2026-10-19T15:20:22.309+09:00",
+          "submitted_by": "assistant",
+          "submitted_prompt": "8초, 16:9, 720p. 한 개의 연속 숏.\n16:9, 승인된 시작 이미지의 인물 외형·복장·빛·공간·소품을 유지. 고정된 숏의 시작부터 동작을 이어간다.\n첫 상태: 직원은 통화 중, 자료 위 손. 위 사무실은 안 보이고 정상 햇빛.\n동작: 통화 중인 직원이 문장을 차분하게 말한다. 화면 밖 높은 곳의 물체가 만드는 넓은 그림자가 서서히 탁자와 직원 쪽으로 들어오자, 말끝을 온전히 마친 직원이 눈과 고개만 위쪽으로 들어 올려 본다. 이 숏에서는 공중 사무실이나 크레인 실체를 보여주지 않는다.\n구도: 조용한 50mm 미디엄, 넓은 하늘 배경.\n발화: C03_R (30대 한국인 여성. 묶은 검은 머리, 베이지 블라우스·청록 얇은 조끼·짙은 회색 바지.): 정확히 ‘결과 말고, 어떻게 했는지도요.’. 30대 여성 중음의 자연스러운 업무 통화. 요구사항을 차분하게 설명하고, 말이 끝난 다음 그림자를 이상하게 여긴다. 문장을 급하게 읽거나 광고처럼 강조하지 않는다.\n여기에 지정하지 않은 인물은 말하거나 입을 움직이지 않는다. 화면 밖 추가 대사와 정확한 UI·사진·행사 자막은 편집에서 넣으므로 생성하지 않는다.\n배경음악 없음. 실제 동작에 맞는 절제된 현장음만. 웃음소리·코믹 효과음·자막·로고·불필요한 말소리 없음.\n말은 자연스러운 한국어, 급하지 않게, 말끝을 온전히 남긴다. 동작을 순서대로, 신체·물건이 새로 생기거나 사라지지 않게.\n동작과 대사는 앞부분부터 자연스럽게 진행하고, 완료된 뒤에는 같은 구도를 유지하며 편집용 여유를 남긴다. 8초를 채우기 위해 말을 느리게 늘리거나 새 대사를 추가하지 않는다.",
+          "input_sha256": "aff884bcbe2696e5b47356789a7da8642b9c7dba38c2166cb4a140fa2182e408",
+          "model": "Veo 3.1 - Lite",
+          "settings": {
+            "seconds": 8,
+            "resolution": "720p",
+            "ratio": "16:9",
+            "outputs": 1,
+            "silent_return": false
+          },
+          "quoted_credits": 10,
+          "credits_before": 50,
+          "credits_after": 40,
+          "status": "completed_original_saved",
+          "generation_id": "cb7b682d-af03-4ef7-b669-53c6bad195a7",
+          "error": null,
+          "refund_status": "none observed",
+          "retry_authorization_used": true,
+          "generation_id_source": "Flow edit URL; exposed asset ID, server job ID not separately exposed",
+          "result_url": "https://flow.google.com/project/c105a8ef-b295-4fc4-907c-1eb8e025245d/edit/cb7b682d-af03-4ef7-b669-53c6bad195a7",
+          "original_mp4": "C03_K01_take01.mp4",
+          "original_sha256": "c0e542c8ffe8af828f8a0c32ff70f02241738156cf9fea44c8ef665b404ef80e",
+          "download_filename": "Woman_talking_on_phone_20261019152152.mp4",
+          "download_method": "Flow media download menu >720p original size; download event timed out but completed MP4 found in user Downloads and validated",
+          "original_reencoded": false,
+          "actual_duration_seconds": 8.0,
+          "actual_resolution": "1280x720",
+          "actual_frame_rate": "24/1",
+          "audio_stream_present": true,
+          "decode_pass": true,
+          "audio_verified": false,
+          "lip_sync_verified": false,
+          "proof": "flow_K01_complete.jpg"
+        }
+      ],
+      "latest_attempt_no": 2,
+      "events_note": "Per-attempt history is authoritative; first failure preserved in attempts[0].",
+      "generation_id_source": "Flow edit URL; exposed asset ID, server job ID not separately exposed",
+      "result_url": "https://flow.google.com/project/c105a8ef-b295-4fc4-907c-1eb8e025245d/edit/cb7b682d-af03-4ef7-b669-53c6bad195a7",
+      "original_sha256": "c0e542c8ffe8af828f8a0c32ff70f02241738156cf9fea44c8ef665b404ef80e",
+      "download_filename": "Woman_talking_on_phone_20261019152152.mp4",
+      "download_method": "Flow media download menu >720p original size; download event timed out but completed MP4 found in user Downloads and validated",
+      "original_reencoded": false,
+      "actual_duration_seconds": 8.0,
+      "actual_resolution": "1280x720",
+      "actual_frame_rate": "24/1",
+      "audio_stream_present": true,
+      "decode_pass": true,
+      "lip_sync_verified": false,
+      "proof": "flow_K01_complete.jpg",
+      "review_file": "review_summary.json"
     },
     {
       "cut_id": "C03_K02",
@@ -227,13 +308,37 @@
     {
       "event": "User asked to check any security/login instructions directly; no security setting changed or bypass attempted",
       "generation_submitted": false
+    },
+    {
+      "event": "User refresh recheck: reopened same project, only existing K01 image, no video/pending request. ReCAPTCHA connection warning returned; restored composer; no submit.",
+      "generation_submitted": false
+    },
+    {
+      "event": "User reports reauthentication and authorizes one retry; new Chrome connection points to same main account/project; balance50, Lite10,8s720p16:9x1,silent returnOFF verified; no prior pending/success.",
+      "generation_submitted": false
+    },
+    {
+      "event": "K01 submitted once after reauthentication, generation card and50to40 credit change observed.",
+      "submitted_at_utc": "2026-10-19T06:20:22.309Z",
+      "attempt_no": 2,
+      "generation_submitted": true
+    },
+    {
+      "event": "K01 attempt02 completed,8s source; original720pMP4 downloaded and byte-identical copy preserved;1280x72024fpsAAC,full decode passed; ASR full requested line detected0to2.16s; actual listening not performed.",
+      "generation_submitted": false
+    },
+    {
+      "event": "Completed video and final40credit balance confirmed. Three sample visual reviews and cross-review found shadow/wipe artifact and late look-up. Original preserved; no additional generation in this single-retry request.",
+      "generation_submitted": false
     }
   ],
   "automation_resumed": false,
   "purchases": 0,
-  "net_credit_change_observed": 0,
-  "successful_videos": 0,
+  "net_credit_change_observed": -10,
+  "successful_videos": 1,
   "failed_attempts": 1,
-  "proof": "flow_security_error.jpg",
-  "next_action": "After user says service is normal, first inspect actual existing result and balance; do not submit if any pending/success request exists. Current queue startsK01."
+  "proof": "flow_K01_complete.jpg",
+  "next_action": "Continue C03 ungenerated K02 onward under original production request. Preserve K01; do not duplicate it. Before final adoption resolve shadow edit/timing and actual listening/lip-sync. Single reauthentication retry completed.",
+  "total_submissions": 2,
+  "usable_candidates_confirmed": 0
 }

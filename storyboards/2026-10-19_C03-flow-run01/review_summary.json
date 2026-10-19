@@ -1,0 +1,71 @@
+{
+  "concept": "C03 환경까지 가져왔습니다 (V8)",
+  "cut_id": "C03_K01",
+  "source": "C03_K01_take01.mp4",
+  "review_status": "candidate_on_hold_pending_edit_and_audio_review",
+  "scope": "Three independent reviewers opened actual decoded sample frames; cross-review performed. No continuous playback listening or lip-sync verification.",
+  "reviewers": {
+    "A": {
+      "agent": "/root/handoff_integrity",
+      "samples": "contact16; individual2.5,3.5,4.5,5.0,7.5s;V8PNG and prompt",
+      "findings": [
+        {
+          "id": "A-VID001",
+          "severity": "required_before_adoption",
+          "finding": "Opaque diagonal band obscures sky/building/table; reads as lens occlusion/wipe, not physically cast shadow."
+        },
+        {
+          "id": "A-VID002",
+          "severity": "required_edit",
+          "finding": "Look-up begins after4.0s; first4s trim loses reaction."
+        }
+      ],
+      "cross": "Agrees B/C timing; agrees shadow needs resolution before adoption; preserve source, no immediate regeneration, ungenerated cuts first."
+    },
+    "B": {
+      "agent": "/root/v8_review_b",
+      "samples": "contact16; individual1.5,2.5,3.5,4.0,4.5,5.0,5.5,7.5s;V8PNG and prompt",
+      "findings": [
+        {
+          "id": "B-VID001",
+          "severity": "required_edit",
+          "finding": "Look-up clear5to5.5s; use5.5to6s or tested edit without speeding dialogue."
+        },
+        {
+          "id": "B-VID002",
+          "severity": "required_before_adoption",
+          "finding": "Black diagonal1.5to3s and sky-darkening boundary3.5to4.5s require edit treatment or specific revised take if not salvageable."
+        }
+      ],
+      "cross": "Agrees A and C timing; supports PD unresolved-shadow status while continuous playback remains unverified."
+    },
+    "C": {
+      "agent": "/root/v8_review_c",
+      "samples": "contact16; individual2.5,4.0,5.5,7.5s;V8PNG and prompt",
+      "findings": [
+        {
+          "id": "C-VID001",
+          "severity": "required_edit",
+          "finding": "First4s incomplete; test5.5to6s use."
+        },
+        {
+          "id": "C-VID002",
+          "initial_severity": "PD_choice_pending_continuous_playback",
+          "final_severity": "required_before_adoption",
+          "finding": "Sky-obscuring black shape appears like foreground obstruction/wipe; continuous playback judgment remains needed."
+        }
+      ],
+      "cross": "Accepts A/B evidence and PD stronger classification; no additional omission."
+    }
+  },
+  "pd_disposition": {
+    "basis": "Actual samples show sky occlusion and late look-up; not majority vote.",
+    "original": "preserve unchanged",
+    "adoption": "not yet approved",
+    "required_edit": "Do not use first4s as completed shot. Test5.5to6s or dialogue-preserving edit and overall pacing.",
+    "shadow": "Unresolved adoption blocker; test edit first, revised take only if existing material cannot work.",
+    "regeneration": "None in this retry; no duplicate K01 submission. Ungenerated C03 clips have priority.",
+    "continuity": "No obvious extra hands, prop replacement, costume/identity break, or recognizable room/crane in inspected samples.",
+    "audio": "Audio stream and ASR full line present; actual pronunciation/naturalness/lip-sync not verified."
+  }
+}
