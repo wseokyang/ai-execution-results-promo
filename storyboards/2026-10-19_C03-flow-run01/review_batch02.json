@@ -1,0 +1,120 @@
+{
+  "batch": "2026-10-19 C03 K02-K05",
+  "status": "independent_and_cross_sample_reviews_complete_with_unresolved_adoption_items",
+  "originals": [
+    "C03_K02_take01.mp4",
+    "C03_K03_take01.mp4",
+    "C03_K04_take01.mp4",
+    "C03_K05_take01.mp4"
+  ],
+  "technical": "All four8s1280x72024fpsH264AAC,full decode pass; originals byte-identical to downloads.",
+  "scope": "Three independent reviewers opened all four contact sheets,64 actual0.5s samples and selected full-size frames plus fourV8inputs/prompts. No continuous playback or actual listening.",
+  "reviewers": {
+    "A": {
+      "agent": "/root/handoff_integrity",
+      "scope": "64 contact samples plus9 individual frames and4 inputs",
+      "cross": "Agrees with B/C. Telephone cord raised from choice to required-before-adoption after input continuity comparison."
+    },
+    "B": {
+      "agent": "/root/v8_review_b",
+      "scope": "64 contact samples;K02 4/5/7.5,K03 4/5/6.5/7.5,K04 0/4/5.5/7.5,K05 0/1.5/3/4/5/7;fourinputs",
+      "cross": "Agrees A/C except initialA telephone-cord severity, supports PD required-before-adoption classification. No omissions."
+    },
+    "C": {
+      "agent": "/root/v8_review_c",
+      "scope": "64 contact samples;K03 4.5/6/7.5,K04 5.5/7.5,K05 3.5/4.5/5.5/6.5/7;fourinputs",
+      "cross": "Agrees A/B. Cord conflicts with wireless input; actual audio remains unverified. No omissions."
+    }
+  },
+  "findings": [
+    {
+      "id": "C03-B02-01",
+      "cuts": [
+        "C03_K03",
+        "C03_K04"
+      ],
+      "severity": "required_before_adoption",
+      "title": "Right-glove remove/put-on chain not achieved",
+      "evidence": "K03 sampled through7.5s keeps gloves on both hands. K04 starts bare right, manipulates left glove; late frame shows both hands bare.",
+      "reviewer_ids": [
+        "A-VID021",
+        "A-VID022",
+        "B-VID020",
+        "C-VID021"
+      ],
+      "action": "Preserve early confirmation/dialogue; test continuity edit. Do not mark glove joke completed."
+    },
+    {
+      "id": "C03-B02-02",
+      "cuts": [
+        "C03_K04"
+      ],
+      "severity": "required_before_adoption",
+      "title": "Orange second room B not fully revealed",
+      "evidence": "Across0to7.5s only upper-right orange-edged bottom corner appears.",
+      "reviewer_ids": [
+        "A-VID023",
+        "B-VID021",
+        "C-VID022"
+      ],
+      "action": "Retain dialogue and reaction; test cut toK05 orange interior before deciding specific revised source. Original intended reveal not fulfilled."
+    },
+    {
+      "id": "C03-B02-03",
+      "cuts": [
+        "C03_K05"
+      ],
+      "severity": "required_before_adoption",
+      "title": "Cord appears on wireless phone",
+      "evidence": "Approved input has smartphone without cord; generated samples show coil phone cord during question and response.",
+      "reviewer_ids": [
+        "A-VID025",
+        "B-VID022",
+        "C-VID023"
+      ],
+      "action": "Needs visual treatment, alternate usable framing, or a specific revised source. Simple head/tail trim insufficient. User has not accepted this prop change."
+    },
+    {
+      "id": "C03-B02-04",
+      "cuts": [
+        "C03_K05"
+      ],
+      "severity": "required_edit_validation",
+      "title": "Telephone answer duration and end-state continuity",
+      "evidence": "ASR question ends3.92s; first7s leaves3.08s, short of planned3.5s answer slot. Turns toward outside during question, then lowers folder around6s.",
+      "reviewer_ids": [
+        "A-VID024",
+        "B-VID023",
+        "C-VID024"
+      ],
+      "action": "0.5to7.5s source segment is only a timing candidate, not a solved edit. Check spoken answer, reaction order, andK06 folder-held opening together."
+    },
+    {
+      "id": "C03-B02-05",
+      "cuts": [
+        "C03_K03",
+        "C03_K04"
+      ],
+      "severity": "actual_listening_required_before_audio_adoption",
+      "title": "Possible extra speech detected by ASR",
+      "evidence": "K03 ASR includes 정확히 before target line;K04 ASR detects another unclear segment1.72to3.18s.",
+      "reviewer_ids": [
+        "A-VID026",
+        "B-VID024",
+        "C-VID025"
+      ],
+      "action": "Do not infer pronunciation failure from ASR alone. Verify actual speech and then trim only unnecessary audio if appropriate."
+    }
+  ],
+  "pd_disposition": {
+    "basis": "Observed samples and scene requirements; not a majority-vote artistic judgment.",
+    "K01": "Prior shadow effect accepted by user; no regeneration for that effect.",
+    "K02": "Visual candidate using0to5s; later walking under/overlapping room omitted. Audio/lip-sync still unverified.",
+    "K03": "Partial-use candidate;Rconfirmation usable, glove chain unresolved. Exact diagrams remain planned postproduction.",
+    "K04": "Hold full-scene adoption; initial dialogue/reaction may be used; B reveal/glove chain unresolved.",
+    "K05": "Hold full-scene adoption; phone cord, answer timing, rotation order and folder end-state unresolved.",
+    "regeneration": "None. Credit0. Next generation follows ungeneratedK06-K08, then requiredphonevoice and grounded fixes.",
+    "final_film": "Not edited or complete; no synthetic still-image substitute."
+  },
+  "audio_note": "ASR is not listening. Decoded PCM peaks above1 in K02/K04/K05 can be AAC decoder overshoots; no audible clipping claim. Float WAVs preserve values."
+}

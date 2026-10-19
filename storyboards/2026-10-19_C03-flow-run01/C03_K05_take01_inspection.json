@@ -1,0 +1,54 @@
+{
+  "file": "C03_K05_take01.mp4",
+  "bytes": 2753499,
+  "sha256": "0ba5cacd054de669a36b95fc1cb24d1306e299ddccf9c86630f810630cedd51e",
+  "duration_seconds": 8.0,
+  "streams": [
+    {
+      "type": "video",
+      "codec": "h264",
+      "duration_seconds": 8.0,
+      "width": 1280,
+      "height": 720,
+      "frame_rate": "24/1"
+    },
+    {
+      "type": "audio",
+      "codec": "aac",
+      "duration_seconds": 8.0
+    }
+  ],
+  "decode_pass": true,
+  "decoded_pcm_finite": true,
+  "decoded_pcm_peak": 1.1877267360687256,
+  "derived_wav_format": "pcm_f32le, decoder overshoots preserved",
+  "asr_model": "faster-whisper small CPU int8",
+  "segments": [
+    {
+      "start": 2.64,
+      "end": 3.92,
+      "text": " 이건 왜 보냈어요?",
+      "words": [
+        {
+          "start": 2.64,
+          "end": 3.22,
+          "word": " 이건",
+          "probability": 0.8475642800331116
+        },
+        {
+          "start": 3.22,
+          "end": 3.4,
+          "word": " 왜",
+          "probability": 0.987784206867218
+        },
+        {
+          "start": 3.4,
+          "end": 3.92,
+          "word": " 보냈어요?",
+          "probability": 0.9719550460577011
+        }
+      ]
+    }
+  ],
+  "limitation": "Automatic transcription and technical inspection only. No actual listening, pronunciation, speaker identity, naturalness, or lip-sync verification."
+}

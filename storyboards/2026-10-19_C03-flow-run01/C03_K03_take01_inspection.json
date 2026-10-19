@@ -1,0 +1,54 @@
+{
+  "file": "C03_K03_take01.mp4",
+  "bytes": 1795705,
+  "sha256": "8e2f2621ef49587d1734f0332647d6fc86f0fb9416ef443326f2f35d309a8b93",
+  "duration_seconds": 8.0,
+  "streams": [
+    {
+      "type": "video",
+      "codec": "h264",
+      "duration_seconds": 8.0,
+      "width": 1280,
+      "height": 720,
+      "frame_rate": "24/1"
+    },
+    {
+      "type": "audio",
+      "codec": "aac",
+      "duration_seconds": 8.0
+    }
+  ],
+  "decode_pass": true,
+  "decoded_pcm_finite": true,
+  "decoded_pcm_peak": 0.9870513677597046,
+  "derived_wav_format": "pcm_f32le, decoder overshoots preserved",
+  "asr_model": "faster-whisper small CPU int8",
+  "segments": [
+    {
+      "start": 0.0,
+      "end": 1.38,
+      "text": " 정확히 같이 나오네요.",
+      "words": [
+        {
+          "start": 0.0,
+          "end": 0.6,
+          "word": " 정확히",
+          "probability": 0.983394056558609
+        },
+        {
+          "start": 0.6,
+          "end": 0.94,
+          "word": " 같이",
+          "probability": 0.9721390008926392
+        },
+        {
+          "start": 0.94,
+          "end": 1.38,
+          "word": " 나오네요.",
+          "probability": 0.9946514070034027
+        }
+      ]
+    }
+  ],
+  "limitation": "Automatic transcription and technical inspection only. No actual listening, pronunciation, speaker identity, naturalness, or lip-sync verification."
+}

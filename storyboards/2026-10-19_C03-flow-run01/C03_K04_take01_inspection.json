@@ -1,0 +1,79 @@
+{
+  "file": "C03_K04_take01.mp4",
+  "bytes": 2688699,
+  "sha256": "fab1a68fc3a72b2c7763388fa4a42d7423840a709a59d53303eb4ecf7ee0a07e",
+  "duration_seconds": 8.0,
+  "streams": [
+    {
+      "type": "video",
+      "codec": "h264",
+      "duration_seconds": 8.0,
+      "width": 1280,
+      "height": 720,
+      "frame_rate": "24/1"
+    },
+    {
+      "type": "audio",
+      "codec": "aac",
+      "duration_seconds": 8.0
+    }
+  ],
+  "decode_pass": true,
+  "decoded_pcm_finite": true,
+  "decoded_pcm_peak": 1.268099069595337,
+  "derived_wav_format": "pcm_f32le, decoder overshoots preserved",
+  "asr_model": "faster-whisper small CPU int8",
+  "segments": [
+    {
+      "start": 0.0,
+      "end": 1.72,
+      "text": " 아직 하나 더요.",
+      "words": [
+        {
+          "start": 0.0,
+          "end": 0.48,
+          "word": " 아직",
+          "probability": 0.6986625790596008
+        },
+        {
+          "start": 0.48,
+          "end": 0.7,
+          "word": " 하나",
+          "probability": 0.6891748309135437
+        },
+        {
+          "start": 0.7,
+          "end": 1.72,
+          "word": " 더요.",
+          "probability": 0.766043484210968
+        }
+      ]
+    },
+    {
+      "start": 1.72,
+      "end": 3.18,
+      "text": " 가토리인 체중을 집니다.",
+      "words": [
+        {
+          "start": 1.72,
+          "end": 2.48,
+          "word": " 가토리인",
+          "probability": 0.3992202490568161
+        },
+        {
+          "start": 2.48,
+          "end": 2.86,
+          "word": " 체중을",
+          "probability": 0.7211843490600586
+        },
+        {
+          "start": 2.86,
+          "end": 3.18,
+          "word": " 집니다.",
+          "probability": 0.6965642720460892
+        }
+      ]
+    }
+  ],
+  "limitation": "Automatic transcription and technical inspection only. No actual listening, pronunciation, speaker identity, naturalness, or lip-sync verification."
+}

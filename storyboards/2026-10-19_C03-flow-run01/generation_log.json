@@ -6,8 +6,8 @@
   "project_title": "C03 환경까지 가져왔습니다 · V8 제작",
   "account_label": "existing main Chrome PLUS account; no account switch",
   "starting_credits": 50,
-  "last_observed_credits": 40,
-  "credits_spent_confirmed": 10,
+  "last_observed_credits": 0,
+  "credits_spent_confirmed": 50,
   "settings": {
     "model": "Veo 3.1 - Lite",
     "mode": "Frames first only",
@@ -19,7 +19,7 @@
     "duration_deviation": "Actual Lite UI exposes no duration control; composer remains8s. Use8s sources and trim, rather than assume6s availability from docs.",
     "silent_return_setting": "OFF observed after toggle; UI toast says silent videos blocked"
   },
-  "status": "K01_saved_candidate_on_hold_after_single_retry",
+  "status": "five_originals_saved_credit0_remaining_K06_to_K08_and_phone_voice",
   "planned_first_batch": [
     "C03_K01",
     "C03_K02",
@@ -31,7 +31,7 @@
     {
       "cut_id": "C03_K01",
       "take": 1,
-      "status": "completed_candidate_on_hold",
+      "status": "completed_visual_effect_user_accepted",
       "input_image": "../2026-10-19_tone-polish-v8/images/C03/K01.png",
       "source_image": "\\\\wsl.localhost\\Ubuntu-24.04\\home\\wooseok\\wsy\\samsung_related\\slide\\AI실행결과발표대회_디자인3종\\storyboards\\2026-10-19_tone-polish-v8\\images\\C03\\K01.png",
       "input_sha256": "aff884bcbe2696e5b47356789a7da8642b9c7dba38c2166cb4a140fa2182e408",
@@ -61,7 +61,7 @@
       "net_credit_change_observed": -10,
       "transient_charge_unknown": true,
       "refund_status": "none observed for attempt02",
-      "review_status": "3 independent and cross sample-visual reviews; first4s unusable as whole action; shadow artifact requires adoption decision/edit; actual audio/lip-sync unverified",
+      "review_status": "Shadow visual effect accepted by user; retain source. Timing adjustment and actual audio/lip-sync review remain.",
       "composer_restored": false,
       "attempts": [
         {
@@ -143,12 +143,13 @@
       "decode_pass": true,
       "lip_sync_verified": false,
       "proof": "flow_K01_complete.jpg",
-      "review_file": "review_summary.json"
+      "review_file": "review_summary.json",
+      "user_feedback": "그림자 뭐 나쁘지 않은듯. 나머지도 이어서 만들어줘"
     },
     {
       "cut_id": "C03_K02",
       "take": 1,
-      "status": "not_submitted",
+      "status": "completed_visual_candidate_audio_pending",
       "input_image": "../2026-10-19_tone-polish-v8/images/C03/K02.png",
       "source_image": "\\\\wsl.localhost\\Ubuntu-24.04\\home\\wooseok\\wsy\\samsung_related\\slide\\AI실행결과발표대회_디자인3종\\storyboards\\2026-10-19_tone-polish-v8\\images\\C03\\K02.png",
       "input_sha256": "85978f057b9ef5965a41021b683ef21ae26ddbd2e8f947dee429098db7c44d9b",
@@ -158,15 +159,54 @@
       "planned_seconds": 8,
       "preflight_recommended_seconds": 6,
       "live_ui_quote_credits": 10,
-      "input_submitted": false,
-      "generation_id": null,
-      "original_mp4": null,
-      "audio_verified": false
+      "input_submitted": true,
+      "generation_id": "6214073b-408f-4786-8510-7d372c121ddd",
+      "original_mp4": "C03_K02_take01.mp4",
+      "audio_verified": false,
+      "submitted_at_utc": "2026-10-19T12:59:10.175Z",
+      "submitted_prompt": "8초, 16:9, 720p. 한 개의 연속 숏.\n16:9, 승인된 시작 이미지의 인물 외형·복장·빛·공간·소품을 유지. 고정된 숏의 시작부터 동작을 이어간다.\n첫 상태: 청록 문틀 A가 공중에 고정, 케이블 팽팽. 직원·기사 옆 안전선 밖.\n동작: 모듈 조금 하강. 사람 위 이동 없음.\n구도: 24mm 낮은 극와이드, 모듈·하늘이 대부분.\n발화: C03_T (40대 한국인 남성 기사. 노란 안전모·남색 재킷·주황 반사 조끼·검정 바지. 흰 운송장. 일을 끝내고 싶은 감정이 드러남.): 정확히 ‘작업 환경, 도착했습니다.’. 40대 남성 중저음. 일을 끝내고 싶은 현실적인 배송 기사. 억지 사투리·과한 해설 금지.\n여기에 지정하지 않은 인물은 말하거나 입을 움직이지 않는다. 화면 밖 추가 대사와 정확한 UI·사진·행사 자막은 편집에서 넣으므로 생성하지 않는다.\n배경음악 없음. 실제 동작에 맞는 절제된 현장음만. 웃음소리·코믹 효과음·자막·로고·불필요한 말소리 없음.\n말은 자연스러운 한국어, 급하지 않게, 말끝을 온전히 남긴다. 동작을 순서대로, 신체·물건이 새로 생기거나 사라지지 않게.\n동작과 대사는 앞부분부터 자연스럽게 진행하고, 완료된 뒤에는 같은 구도를 유지하며 편집용 여유를 남긴다. 8초를 채우기 위해 말을 느리게 늘리거나 새 대사를 추가하지 않는다.\n",
+      "submitted_prompt_file": "prompts/C03_K02_take01_planned.txt",
+      "submitted_model": "Veo 3.1 - Lite",
+      "submitted_settings": {
+        "seconds": 8,
+        "resolution": "720p",
+        "ratio": "16:9",
+        "outputs": 1,
+        "silent_return": false
+      },
+      "credits_before": 40,
+      "credits_after": 30,
+      "net_credit_change_observed": -10,
+      "refund_status": "none observed",
+      "attempts": [
+        {
+          "attempt_no": 1,
+          "status": "completed_original_saved",
+          "submitted_at_utc": "2026-10-19T12:59:10.175Z",
+          "credits_before": 40,
+          "credits_after": 30
+        }
+      ],
+      "generation_id_source": "Flow edit asset ID; job ID not separately exposed",
+      "result_url": "https://flow.google.com/project/c105a8ef-b295-4fc4-907c-1eb8e025245d/edit/6214073b-408f-4786-8510-7d372c121ddd",
+      "original_sha256": "7cd2ebd0524cd928786594c9e2a357a232ecd8e7eaae4f0959f1bee893cf75d5",
+      "download_filename": "Delivery_worker_speaks_about_env…_20261019220055.mp4",
+      "original_reencoded": false,
+      "actual_duration_seconds": 8,
+      "actual_resolution": "1280x720",
+      "actual_frame_rate": "24/1",
+      "audio_stream_present": true,
+      "decode_pass": true,
+      "lip_sync_verified": false,
+      "inspection": "C03_K02_take01_inspection.json",
+      "proof": "flow_K02_complete.jpg",
+      "review_file": "review_batch02.json",
+      "review_status": "Visual candidate using0to5s; later walking under/overlapping room omitted. Audio/lip-sync still unverified."
     },
     {
       "cut_id": "C03_K03",
       "take": 1,
-      "status": "not_submitted",
+      "status": "completed_partial_candidate_review_flags",
       "input_image": "../2026-10-19_tone-polish-v8/images/C03/K03.png",
       "source_image": "\\\\wsl.localhost\\Ubuntu-24.04\\home\\wooseok\\wsy\\samsung_related\\slide\\AI실행결과발표대회_디자인3종\\storyboards\\2026-10-19_tone-polish-v8\\images\\C03\\K03.png",
       "input_sha256": "e019d13c28c0a630c57850e9788b13a8a7a90671e2ca79996378f9ee07ddcedc",
@@ -176,15 +216,54 @@
       "planned_seconds": 8,
       "preflight_recommended_seconds": 6,
       "live_ui_quote_credits": 10,
-      "input_submitted": false,
-      "generation_id": null,
-      "original_mp4": null,
-      "audio_verified": false
+      "input_submitted": true,
+      "generation_id": "f0014b96-e2c8-403c-89ca-1277c499a266",
+      "original_mp4": "C03_K03_take01.mp4",
+      "audio_verified": false,
+      "submitted_at_utc": "2026-10-19T13:00:35.726Z",
+      "submitted_prompt": "8초, 16:9, 720p. 한 개의 연속 숏.\n16:9, 승인된 시작 이미지의 인물 외형·복장·빛·공간·소품을 유지. 고정된 숏의 시작부터 동작을 이어간다.\n첫 상태: 직원이 회색 파일 옆에서 실행 전. 기사 양손 장갑, 종료 대기.\n동작: 결과→끄덕임→기사 장갑 한 짝 벗음.\n구도: 모듈 안 측면 미디엄. 전경의 큰 도식 둘·직원 얼굴·창 밖 기사 모두 같은 화면. 도식 인서트 없음.\n발화: C03_R (30대 한국인 여성. 묶은 검은 머리, 베이지 블라우스·청록 얇은 조끼·짙은 회색 바지. 놀라다가도 기록의 단서를 관찰.): 정확히 ‘같이 나오네요.’. 30대 여성 중음. 같은 결과가 나오는 것을 직접 확인한 담담한 납득. 짧게 끄덕이며 자연스럽게 말한다. 이 숏에서 다음 사건의 당황이나 결심까지 연기하지 않는다.\n여기에 지정하지 않은 인물은 말하거나 입을 움직이지 않는다. 화면 밖 추가 대사와 정확한 UI·사진·행사 자막은 편집에서 넣으므로 생성하지 않는다.\n배경음악 없음. 실제 동작에 맞는 절제된 현장음만. 웃음소리·코믹 효과음·자막·로고·불필요한 말소리 없음.\n말은 자연스러운 한국어, 급하지 않게, 말끝을 온전히 남긴다. 동작을 순서대로, 신체·물건이 새로 생기거나 사라지지 않게.\n동작과 대사는 앞부분부터 자연스럽게 진행하고, 완료된 뒤에는 같은 구도를 유지하며 편집용 여유를 남긴다. 8초를 채우기 위해 말을 느리게 늘리거나 새 대사를 추가하지 않는다.\n기사는 오른손 장갑 한 짝만 벗는다. 다음 컷에서 같은 오른손 장갑을 다시 낀다.\n",
+      "submitted_prompt_file": "prompts/C03_K03_take01_submitted.txt",
+      "submitted_model": "Veo 3.1 - Lite",
+      "submitted_settings": {
+        "seconds": 8,
+        "resolution": "720p",
+        "ratio": "16:9",
+        "outputs": 1,
+        "silent_return": false
+      },
+      "credits_before": 30,
+      "credits_after": 20,
+      "net_credit_change_observed": -10,
+      "refund_status": "none observed",
+      "attempts": [
+        {
+          "attempt_no": 1,
+          "status": "completed_original_saved",
+          "submitted_at_utc": "2026-10-19T13:00:35.726Z",
+          "credits_before": 30,
+          "credits_after": 20
+        }
+      ],
+      "generation_id_source": "Flow edit asset ID; job ID not separately exposed",
+      "result_url": "https://flow.google.com/project/c105a8ef-b295-4fc4-907c-1eb8e025245d/edit/f0014b96-e2c8-403c-89ca-1277c499a266",
+      "original_sha256": "8e2f2621ef49587d1734f0332647d6fc86f0fb9416ef443326f2f35d309a8b93",
+      "download_filename": "Woman_speaking_and_removing_glove_20261019220253.mp4",
+      "original_reencoded": false,
+      "actual_duration_seconds": 8,
+      "actual_resolution": "1280x720",
+      "actual_frame_rate": "24/1",
+      "audio_stream_present": true,
+      "decode_pass": true,
+      "lip_sync_verified": false,
+      "inspection": "C03_K03_take01_inspection.json",
+      "proof": "flow_K03_complete.jpg",
+      "review_file": "review_batch02.json",
+      "review_status": "Partial-use candidate;Rconfirmation usable, glove chain unresolved. Exact diagrams remain planned postproduction."
     },
     {
       "cut_id": "C03_K04",
       "take": 1,
-      "status": "not_submitted",
+      "status": "completed_candidate_on_hold",
       "input_image": "../2026-10-19_tone-polish-v8/images/C03/K04.png",
       "source_image": "\\\\wsl.localhost\\Ubuntu-24.04\\home\\wooseok\\wsy\\samsung_related\\slide\\AI실행결과발표대회_디자인3종\\storyboards\\2026-10-19_tone-polish-v8\\images\\C03\\K04.png",
       "input_sha256": "6f6b5c970d5926a4ccc67bbe24b4eaff71fcd409012e52a33a327451d1ccae11",
@@ -194,15 +273,54 @@
       "planned_seconds": 8,
       "preflight_recommended_seconds": 6,
       "live_ui_quote_credits": 10,
-      "input_submitted": false,
-      "generation_id": null,
-      "original_mp4": null,
-      "audio_verified": false
+      "input_submitted": true,
+      "generation_id": "286d67ac-09c4-4b78-9533-ab5da33808ae",
+      "original_mp4": "C03_K04_take01.mp4",
+      "audio_verified": false,
+      "submitted_at_utc": "2026-10-19T13:02:07.639Z",
+      "submitted_prompt": "8초, 16:9, 720p. 한 개의 연속 숏.\n16:9, 승인된 시작 이미지의 인물 외형·복장·빛·공간·소품을 유지. 고정된 숏의 시작부터 동작을 이어간다.\n첫 상태: 설치 A왼쪽, 기사 벗은 장갑 소지. B아랫모서리 막 프레임 진입.\n동작: B공개→기사 장갑 재착용.\n구도: 기사 전경·B 후경 깊은 초점. A왼쪽 유지.\n발화: C03_T (40대 한국인 남성 기사. 노란 안전모·남색 재킷·주황 반사 조끼·검정 바지. 흰 운송장. 일을 끝내고 싶은 감정이 드러남.): 정확히 ‘아직 하나 더요.’. 40대 남성 중저음. 일을 끝내고 싶은 현실적인 배송 기사. 억지 사투리·과한 해설 금지.\n여기에 지정하지 않은 인물은 말하거나 입을 움직이지 않는다. 화면 밖 추가 대사와 정확한 UI·사진·행사 자막은 편집에서 넣으므로 생성하지 않는다.\n배경음악 없음. 실제 동작에 맞는 절제된 현장음만. 웃음소리·코믹 효과음·자막·로고·불필요한 말소리 없음.\n말은 자연스러운 한국어, 급하지 않게, 말끝을 온전히 남긴다. 동작을 순서대로, 신체·물건이 새로 생기거나 사라지지 않게.\n동작과 대사는 앞부분부터 자연스럽게 진행하고, 완료된 뒤에는 같은 구도를 유지하며 편집용 여유를 남긴다. 8초를 채우기 위해 말을 느리게 늘리거나 새 대사를 추가하지 않는다.\nA 청록 방은 왼쪽 설치 완료, B 주황 방은 오른쪽으로 들어온다. 기사는 오른손 장갑 한 짝을 다시 낀다.\n",
+      "submitted_prompt_file": "prompts/C03_K04_take01_planned.txt",
+      "submitted_model": "Veo 3.1 - Lite",
+      "submitted_settings": {
+        "seconds": 8,
+        "resolution": "720p",
+        "ratio": "16:9",
+        "outputs": 1,
+        "silent_return": false
+      },
+      "credits_before": 20,
+      "credits_after": 10,
+      "net_credit_change_observed": -10,
+      "refund_status": "none observed",
+      "attempts": [
+        {
+          "attempt_no": 1,
+          "status": "completed_original_saved",
+          "submitted_at_utc": "2026-10-19T13:02:07.639Z",
+          "credits_before": 20,
+          "credits_after": 10
+        }
+      ],
+      "generation_id_source": "Flow edit asset ID; job ID not separately exposed",
+      "result_url": "https://flow.google.com/project/c105a8ef-b295-4fc4-907c-1eb8e025245d/edit/286d67ac-09c4-4b78-9533-ab5da33808ae",
+      "original_sha256": "fab1a68fc3a72b2c7763388fa4a42d7423840a709a59d53303eb4ecf7ee0a07e",
+      "download_filename": "Delivery_worker_putting_on_gloves_20261019220410.mp4",
+      "original_reencoded": false,
+      "actual_duration_seconds": 8,
+      "actual_resolution": "1280x720",
+      "actual_frame_rate": "24/1",
+      "audio_stream_present": true,
+      "decode_pass": true,
+      "lip_sync_verified": false,
+      "inspection": "C03_K04_take01_inspection.json",
+      "proof": "flow_K04_complete.jpg",
+      "review_file": "review_batch02.json",
+      "review_status": "Hold full-scene adoption; initial dialogue/reaction may be used; B reveal/glove chain unresolved."
     },
     {
       "cut_id": "C03_K05",
       "take": 1,
-      "status": "not_submitted",
+      "status": "completed_candidate_on_hold",
       "input_image": "../2026-10-19_tone-polish-v8/images/C03/K05.png",
       "source_image": "\\\\wsl.localhost\\Ubuntu-24.04\\home\\wooseok\\wsy\\samsung_related\\slide\\AI실행결과발표대회_디자인3종\\storyboards\\2026-10-19_tone-polish-v8\\images\\C03\\K05.png",
       "input_sha256": "831554ed0e9afe80ed637157ca15c2cda54e1d7b2a6df7eae9fac5f0a611e5e3",
@@ -212,10 +330,50 @@
       "planned_seconds": 8,
       "preflight_recommended_seconds": 8,
       "live_ui_quote_credits": 10,
-      "input_submitted": false,
-      "generation_id": null,
-      "original_mp4": null,
-      "audio_verified": false
+      "input_submitted": true,
+      "generation_id": "90275c98-2e46-4750-ad14-3d484b239984",
+      "original_mp4": "C03_K05_take01.mp4",
+      "audio_verified": false,
+      "submitted_at_utc": "2026-10-19T13:03:56.937Z",
+      "submitted_prompt": "8초, 16:9, 720p. 한 개의 연속 숏.\n16:9, 승인된 시작 이미지의 인물 외형·복장·빛·공간·소품을 유지. 고정된 숏의 시작부터 동작을 이어간다.\n첫 상태: B 내부가 이미 보이는 시작 상태. R은 왼손 전화·오른손을 주황 파일에 대기 직전. 문 열기·방에 들어오기 동작을 추가하지 않는다.\n동작: 파일 들어 질문→답 듣고 기사로 회전.\n구도: 문틀 너머 직원 오버숄더, 기록 밀도.\n발화: C03_R (30대 한국인 여성. 묶은 검은 머리, 베이지 블라우스·청록 얇은 조끼·짙은 회색 바지. 놀라다가도 기록의 단서를 관찰.): 대사는 따옴표 안의 문장만: “이건 왜 보냈어요?” 30대 여성 중음. 예상 밖에 실패 기록까지 와 있는 것을 보고 약간 당혹스러워 묻는 일상 말투. 질문 후에는 조용히 상대의 답을 듣는다. 이 숏에서 직접 방문하겠다는 결심까지 연기하지 않는다.\n여기에 지정하지 않은 인물은 말하거나 입을 움직이지 않는다. 화면 밖 추가 대사와 정확한 UI·사진·행사 자막은 편집에서 넣으므로 생성하지 않는다.\n배경음악 없음. 실제 동작에 맞는 절제된 현장음만. 웃음소리·코믹 효과음·자막·로고·불필요한 말소리 없음.\n말은 자연스러운 한국어, 급하지 않게, 말끝을 온전히 남긴다. 동작을 순서대로, 신체·물건이 새로 생기거나 사라지지 않게.\nR은 첫 질문 후 전화 답을 약3.5초 듣는 무언 반응. S의 답변 음성은 후편집한다.\n동작과 대사는 앞부분부터 자연스럽게 진행하고, 완료된 뒤에는 같은 구도를 유지하며 편집용 여유를 남긴다. 8초를 채우기 위해 말을 느리게 늘리거나 새 대사를 추가하지 않는다.\n",
+      "submitted_prompt_file": "prompts/C03_K05_take01_submitted.txt",
+      "submitted_model": "Veo 3.1 - Lite",
+      "submitted_settings": {
+        "seconds": 8,
+        "resolution": "720p",
+        "ratio": "16:9",
+        "outputs": 1,
+        "silent_return": false
+      },
+      "credits_before": 10,
+      "credits_after": 0,
+      "net_credit_change_observed": -10,
+      "refund_status": "none observed",
+      "prompt_change_reason": "Single-shot emotion only. Removed exact-word adverb before quote after K03 ASR detected that adverb; requested spoken sentence unchanged.",
+      "attempts": [
+        {
+          "attempt_no": 1,
+          "status": "completed_original_saved",
+          "submitted_at_utc": "2026-10-19T13:03:56.937Z",
+          "credits_before": 10,
+          "credits_after": 0
+        }
+      ],
+      "generation_id_source": "Flow edit asset ID; job ID not separately exposed",
+      "result_url": "https://flow.google.com/project/c105a8ef-b295-4fc4-907c-1eb8e025245d/edit/90275c98-2e46-4750-ad14-3d484b239984",
+      "original_sha256": "0ba5cacd054de669a36b95fc1cb24d1306e299ddccf9c86630f810630cedd51e",
+      "download_filename": "Woman_asking_about_file_records_20261019220541.mp4",
+      "original_reencoded": false,
+      "actual_duration_seconds": 8,
+      "actual_resolution": "1280x720",
+      "actual_frame_rate": "24/1",
+      "audio_stream_present": true,
+      "decode_pass": true,
+      "lip_sync_verified": false,
+      "inspection": "C03_K05_take01_inspection.json",
+      "proof": "flow_K05_complete.jpg",
+      "review_file": "review_batch02.json",
+      "review_status": "Hold full-scene adoption; phone cord, answer timing, rotation order and folder end-state unresolved."
     },
     {
       "cut_id": "C03_K06",
@@ -330,15 +488,57 @@
     {
       "event": "Completed video and final40credit balance confirmed. Three sample visual reviews and cross-review found shadow/wipe artifact and late look-up. Original preserved; no additional generation in this single-retry request.",
       "generation_submitted": false
+    },
+    {
+      "event": "User accepts K01 shadow effect and requests remaining C03 generation. K02 submitted once Lite10,40to30 credits observed.",
+      "submitted_at_utc": "2026-10-19T12:59:10.175Z",
+      "generation_submitted": true
+    },
+    {
+      "event": "C03_K03 submitted once Lite10; actual balance change observed",
+      "submitted_at_utc": "2026-10-19T13:00:35.726Z",
+      "credits_before": 30,
+      "credits_after": 20,
+      "generation_submitted": true
+    },
+    {
+      "event": "C03_K04 submitted once Lite10; actual balance change observed",
+      "submitted_at_utc": "2026-10-19T13:02:07.639Z",
+      "credits_before": 20,
+      "credits_after": 10,
+      "generation_submitted": true
+    },
+    {
+      "event": "K05 submitted once Lite10,10to0. K02-K05 all completed,original720pMP4s saved unchanged. Final actual balance0 observed. No other generation or retry.",
+      "generation_submitted": true,
+      "submitted_at_utc": "2026-10-19T13:03:56.937Z"
+    },
+    {
+      "event": "K02-K05 three independent and cross sample reviews completed. K02visualcandidate,K03partial,K04/K05held for concrete issues. Finalcredit0. No additional generation.",
+      "generation_submitted": false
     }
   ],
   "automation_resumed": false,
   "purchases": 0,
-  "net_credit_change_observed": -10,
-  "successful_videos": 1,
+  "net_credit_change_observed": -50,
+  "successful_videos": 5,
   "failed_attempts": 1,
-  "proof": "flow_K01_complete.jpg",
-  "next_action": "Continue C03 ungenerated K02 onward under original production request. Preserve K01; do not duplicate it. Before final adoption resolve shadow edit/timing and actual listening/lip-sync. Single reauthentication retry completed.",
-  "total_submissions": 2,
-  "usable_candidates_confirmed": 0
+  "proof": "flow_K01-K05_results.jpg",
+  "next_action": "Credits0. On renewed authorized credits, first inspect current account/results and generateK06,K07,K08 in order, then phoneSvoice if no usable source. K01 shadow accepted. K03glove/K04reveal-glove/K05phone/timing need edit validation or specific later fixes; do not repeat existing requests blindly.",
+  "total_submissions": 6,
+  "usable_candidates_confirmed": 0,
+  "continuation_credits_spent": 40,
+  "review_batch_file": "review_batch02.json",
+  "audio_pronunciation_verified": false,
+  "editing_cost_note": {
+    "checked_date_kst": "2026-10-19",
+    "source": "https://support.google.com/flow/answer/16526234?hl=en",
+    "official_table": {
+      "Gemini_Omni_Flash_existing_video_edit_all_lengths_resolutions": 40,
+      "Veo_3_1_Lite_generation_non_Ultra": 10
+    },
+    "actual_edit_quote_checked_in_current_UI": false,
+    "rule": "Verify live quote before any future paid edit. Local trimming, sequencing, subtitle and audio-level work uses no Flow credits. User pricing question does not authorize a paid edit.",
+    "paid_edits_submitted": 0
+  }
 }

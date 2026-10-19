@@ -1,0 +1,66 @@
+[
+  {
+    "file": "00_0.000s.png",
+    "actual_seconds": 0.0
+  },
+  {
+    "file": "01_0.500s.png",
+    "actual_seconds": 0.5
+  },
+  {
+    "file": "02_1.000s.png",
+    "actual_seconds": 1.0
+  },
+  {
+    "file": "03_1.500s.png",
+    "actual_seconds": 1.5
+  },
+  {
+    "file": "04_2.000s.png",
+    "actual_seconds": 2.0
+  },
+  {
+    "file": "05_2.500s.png",
+    "actual_seconds": 2.5
+  },
+  {
+    "file": "06_3.000s.png",
+    "actual_seconds": 3.0
+  },
+  {
+    "file": "07_3.500s.png",
+    "actual_seconds": 3.5
+  },
+  {
+    "file": "08_4.000s.png",
+    "actual_seconds": 4.0
+  },
+  {
+    "file": "09_4.500s.png",
+    "actual_seconds": 4.5
+  },
+  {
+    "file": "10_5.000s.png",
+    "actual_seconds": 5.0
+  },
+  {
+    "file": "11_5.500s.png",
+    "actual_seconds": 5.5
+  },
+  {
+    "file": "12_6.000s.png",
+    "actual_seconds": 6.0
+  },
+  {
+    "file": "13_6.500s.png",
+    "actual_seconds": 6.5
+  },
+  {
+    "file": "14_7.000s.png",
+    "actual_seconds": 7.0
+  },
+  {
+    "file": "15_7.500s.png",
+    "actual_seconds": 7.5
+  }
+]

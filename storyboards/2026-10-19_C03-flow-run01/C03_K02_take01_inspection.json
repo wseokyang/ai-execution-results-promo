@@ -1,0 +1,54 @@
+{
+  "file": "C03_K02_take01.mp4",
+  "bytes": 2216107,
+  "sha256": "7cd2ebd0524cd928786594c9e2a357a232ecd8e7eaae4f0959f1bee893cf75d5",
+  "duration_seconds": 8.0,
+  "streams": [
+    {
+      "type": "video",
+      "codec": "h264",
+      "duration_seconds": 8.0,
+      "width": 1280,
+      "height": 720,
+      "frame_rate": "24/1"
+    },
+    {
+      "type": "audio",
+      "codec": "aac",
+      "duration_seconds": 8.0
+    }
+  ],
+  "decode_pass": true,
+  "decoded_pcm_finite": true,
+  "decoded_pcm_peak": 1.3076074123382568,
+  "derived_wav_format": "pcm_f32le, decoder overshoots preserved",
+  "asr_model": "faster-whisper small CPU int8",
+  "segments": [
+    {
+      "start": 0.0,
+      "end": 1.68,
+      "text": " 작업 환경 도착했습니다",
+      "words": [
+        {
+          "start": 0.0,
+          "end": 0.28,
+          "word": " 작업",
+          "probability": 0.9194265604019165
+        },
+        {
+          "start": 0.28,
+          "end": 0.7,
+          "word": " 환경",
+          "probability": 0.7230991125106812
+        },
+        {
+          "start": 0.7,
+          "end": 1.68,
+          "word": " 도착했습니다",
+          "probability": 0.9137542446454366
+        }
+      ]
+    }
+  ],
+  "limitation": "Automatic transcription and technical inspection only. No actual listening, pronunciation, speaker identity, naturalness, or lip-sync verification."
+}
