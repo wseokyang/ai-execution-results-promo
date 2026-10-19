@@ -1,0 +1,29 @@
+{
+  "stage":"cross_review_before_document_revision",
+  "all_independent_reports_received_before_peer_sharing":true,
+  "new_required_image_regeneration":false,
+  "reviews":[
+    {"reviewer":"A","decision":"필수 이미지 재생성 없음. 문서 수정 후 재확인 필요.","cross_checks":[
+      {"peer_id":"B-I001","judgment":"동의·보완","reason":"얼굴 방향 차이로 귀 이동처럼 보일 여지 있으나 축이 달라 오류 확정 불가. 동일 귀·반대 사선·하강/정리 시간 생략 기록. 후속 영상에서 전선·건물 대조."},
+      {"peer_id":"B-I002","judgment":"동의","reason":"A-I001과 같은 종이 단서. 시험대·관·문 미노출. 초반 역광·거친 흔들림/끝 약한 팔랑임 대비."},
+      {"peer_id":"B-I003","judgment":"동의·보완","reason":"실제 여백에 맞춰 자막 구체화. 없는 빈 석벽 지시는 문서 수정 필수."},
+      {"peer_id":"C-I001","judgment":"동의·분류 상향","reason":"이미지 결함과 전달 문서 불일치 구분 타당. 최초 선택 분류를 문서 필수 수정으로 수용. 오른쪽 문·2~3행·6초·행동 비침범 통일."},
+      {"peer_id":"C-I002","judgment":"동의","reason":"소품 허술함 제거보다 기사 확신·동작 대비 유지. 띠만 정지 확대하지 않기."}
+    ],"new_required_findings":[],"pending":"문서 반영 확인. 실제 합성/영상/음성/관객 반응 미검증."},
+    {"reviewer":"B","decision":"이미지 필수 재생성 없음. C-I001 문서 필수 수정 수용, 반영 전 종결 아님.","cross_checks":[
+      {"peer_id":"A-I001","judgment":"동의","reason":"평평한 띠·찢어진 끝 확인, 기계·문 미노출. B-I002와 같은 선택 관찰."},
+      {"peer_id":"A-I002","judgment":"동의·보완","reason":"사다리 연장/상부 작업/지상 작업 사이 시간 생략 가능. 같은 귀·사선 메모 필요하나 실제 연결 검증 완료로 쓰지 않기."},
+      {"peer_id":"A-I003","judgment":"동의·일부 필수 상향","reason":"C02의 문서상 빈 석벽은 명확한 불일치. C04 목재/C05 포장면도 적절. 얼굴·지도·기사 다리·불꽃·괴수 손 보호."},
+      {"peer_id":"C-I001","judgment":"동의·분류 상향","reason":"B-I003을 선택으로 분류했으나 실제 없는 위치 지시는 필수 문서 수정. PNG 유지, 오른쪽 문 대비 패널·2~3행·6초."},
+      {"peer_id":"C-I002","judgment":"동의","reason":"소품을 지우면 의도적 B급 표현 약화. 별도 확대·정지 금지 메모로 충분."}
+    ],"new_required_findings":[],"pending":"C02 위치, C04/C05 배치, C05 귀·카메라·하강/정리 메모 실제 확인. 실제 영상 등 미검증."},
+    {"reviewer":"C","decision":"이미지 필수 재생성 없음. C-I001 유지, 귀·카메라·시간 생략과 자막 메모 확인 예정.","cross_checks":[
+      {"peer_id":"A-I001","judgment":"동의","reason":"종이 재질 읽히나 작업실 정체 확정은 아님. C-I002 같은 선택 관찰."},
+      {"peer_id":"A-I002","judgment":"동의","reason":"사다리 높이·작업자 상부/지상 차이. 연속 동작이면 순간이동처럼 보이나 시간 생략 가능. 재생성 불필요."},
+      {"peer_id":"A-I003","judgment":"내용 동의·분류 일부 이견","reason":"C02 빈 석벽 확정 지시는 취향 아닌 문서 불일치. C-I001 필수로 통합."},
+      {"peer_id":"B-I001","judgment":"동의","reason":"귀가 이동한 듯 보일 여지 있으나 카메라 변화로 오류 확정 불가. 같은 귀·반대 사선 고정."},
+      {"peer_id":"B-I002","judgment":"동의","reason":"사실적 불꽃으로 바꾸면 마지막 동일 종이 물체와 연결 약화. 앞뒤 움직임·소리 차이로 처리."},
+      {"peer_id":"B-I003","judgment":"내용 동의·C02 필수 유지","reason":"C02 문 위 패널, C04 얼굴 위 목재, C05 발·전선·잭 피한 포장면. 실제 합성 가독성 검증 주장 금지."}
+    ],"new_required_findings":[],"own_status":{"C-I001":"수정 방향 수용, 실제 반영 확인 전 미해결","C-I002":"선택 제안으로 남김"},"limits":"B의 유지17장 전체 열람을 C의 열람 범위로 합산하지 않음. C01/C03 변경 요구 없음."}
+  ]
+}

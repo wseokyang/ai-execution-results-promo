@@ -1,0 +1,14 @@
+{
+ "status":"all_three_confirmed_no_unresolved_required_storyboard_findings",
+ "concept_seconds":{"C01":34,"C02":38,"C03":42,"C04":42,"C05":38},
+ "new_cut_count":26,
+ "retained_cut_count":17,
+ "reviewers":[
+  {"agent":"/root/v6_review_a","confirmed":["A-S01/B-S01/C-S01초기기계·창높이숨김","A-S02/B-S06/C-S02손역할·지도전달순서","A-S03/C-S03관측구역광만","B-S02/C-S04들림응답손짓","B-S03크기·진입자세","A-S04/C-S05중반압축","A-S05/C-S06실루엣","B-S04/B-S05CTA·참조값"],"retained_objects_equal_to_V5":true,"required_remaining":[]},
+  {"agent":"/root/v6_review_b","confirmed":["B-S01반전공개시점","B-S02질문동기삭제","B-S03괴수8m/포치5m/본체12m/접힌머리4.5m귀4.2m/사다리5.5m","B-S06/A-S02/C-S02지도안착뒤브레이크","A-S03/C-S03현대신발정보감춤","B-S04CTA/B-S05자기참조해소","중반및엔딩축약"],"retained_objects_equal_to_V5":true,"required_remaining":[]},
+  {"agent":"/root/v6_review_c","confirmed":["C-S01외피/음색/창구도","C-S02지도/손/브레이크순서","C-S03관찰범위·계속옵니다대사","C-S04잘들린다는응답→34초시작안내","B-S03S목진입과고정치수","C-S05/C-S06리듬과가독성","B-S04/B-S05CTA및참조"],"retained_objects_equal_to_preserved_copy":true,"required_remaining":[]}
+ ],
+ "PD_status":"storyboards approved for actual first-frame production; not a claim of audience humor approval",
+ "image_status_at_confirmation":"new_images_not_yet_generated",
+ "limits":"동작·음성·립싱크·관객반응미검증. 보존1·3은사용자지시대로변경하지않음."
+}

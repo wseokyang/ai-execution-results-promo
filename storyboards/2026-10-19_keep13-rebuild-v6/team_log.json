@@ -1,0 +1,121 @@
+{
+  "run_id": "2026-10-19_keep13-rebuild-v6",
+  "PD": "/root",
+  "retained_concepts": [
+    "C01",
+    "C03"
+  ],
+  "rebuild_concepts": [
+    "C02",
+    "C04",
+    "C05"
+  ],
+  "stages": [
+    {
+      "stage": "reference_fact_recheck",
+      "agent": "/root/v6_reference",
+      "status": "complete",
+      "artifact": "reference_diagnosis.json",
+      "scope": "행사PPTX1~3/PNG, qrew표본·문서, 공식광고설명, 실제V5콘티·거절안contact"
+    },
+    {
+      "stage": "independent_concept_writing",
+      "agents": [
+        "/root/v6_comedy",
+        "/root/v6_ceremony"
+      ],
+      "status": "complete",
+      "initial_candidates": 8,
+      "first_submissions_shared_before_return": false,
+      "artifact": "selected_cards_initial.json"
+    },
+    {
+      "stage": "independent_concept_gate",
+      "agents": [
+        "/root/v6_review_a",
+        "/root/v6_review_b",
+        "/root/v6_review_c"
+      ],
+      "status": "complete",
+      "artifact": "concept_gate_reviews.json",
+      "decision": "C02조건부, 초기C04박수/C05외계보류"
+    },
+    {
+      "stage": "additional_writing",
+      "agents": [
+        "/root/v6_comedy",
+        "/root/v6_ceremony"
+      ],
+      "status": "complete",
+      "new_candidates": 4,
+      "artifact": "selected_cards.json",
+      "decision": "C04목마잠입, C05괴수포치지지로교체"
+    },
+    {
+      "stage": "concept_cross_check",
+      "agents": [
+        "/root/v6_review_a",
+        "/root/v6_review_b",
+        "/root/v6_review_c"
+      ],
+      "status": "complete",
+      "artifact": "concept_cross_reviews.json"
+    },
+    {
+      "stage": "detailed_storyboards",
+      "agent": "/root/v6_director",
+      "status": "complete",
+      "artifact": "director_draft.json",
+      "ownership": "초안JSON한파일만, 보존콘티는총괄병합"
+    },
+    {
+      "stage": "full_storyboard_independent_cross_review",
+      "status": "complete",
+      "agents": [
+        "/root/v6_review_a",
+        "/root/v6_review_b",
+        "/root/v6_review_c"
+      ],
+      "artifacts": [
+        "storyboard_reviews.json",
+        "storyboard_cross_reviews.json",
+        "storyboard_final_confirmation.json"
+      ]
+    },
+    {
+      "stage": "actual_per_scene_first_frames",
+      "status": "complete",
+      "retained_images": 17,
+      "agents": [
+        "/root/v6_artist_c02",
+        "/root/v6_artist_c04",
+        "/root/v6_artist_c05"
+      ],
+      "new_images_required": 26
+    },
+    {
+      "stage": "actual_image_independent_cross_review",
+      "status": "complete",
+      "agents": [
+        "/root/v6_review_a",
+        "/root/v6_review_b",
+        "/root/v6_review_c"
+      ],
+      "artifacts": [
+        "image_review_A.json",
+        "image_review_B.json",
+        "image_review_C.json",
+        "image_cross_reviews.json",
+        "image_revision_disposition.json",
+        "image_final_confirmation.json"
+      ]
+    }
+  ],
+  "not_performed": [
+    "Flow업로드",
+    "영상생성",
+    "음원생성",
+    "실제관객웃음측정"
+  ],
+  "note": "내부점수·합의를창작품질이나사용자승인의객관적증거로취급하지않는다."
+}

@@ -1,0 +1,20 @@
+{
+  "reviewer":"총괄 PD",
+  "actual_images_opened_individually":{
+    "C02":["S01.png","S04.png","S06_v2.png","S07.png","S08.png","S09_v2.png"],
+    "C04":["S01.png","S03.png","S05.png","S06_v2.png","S07.png","S08.png","S09_v2.png"],
+    "C05":["S01.png","S03.png","S04_v2.png","S05_v2.png","S06.png","S07.png","S08_v2.png"]
+  },
+  "contact_sheets_opened":["contact_sheets/C02_all_cuts.jpg","contact_sheets/C04_all_cuts.jpg","contact_sheets/C05_all_cuts.jpg"],
+  "overview_opened":"overview.png",
+  "observations":[
+    "노년 공주·삭발 조수·마른 콧수염 기사, 세 중장년 병사, 특촬 괴수·시설 작업자의 화면 구별 확인.",
+    "C02 초반 기계 부품·낮은 창 높이 감춤, 이후 정상 문·끊어진 관과 기사 자청 진입을 확인.",
+    "C04 내부 장르와 외부 축제 대비, 빈 안장 주행·퍼레이드의 사건 변화를 확인.",
+    "C05 긴 목을 접고 지붕 지지, 잭·사다리·이어컵의 단계 확인. 귀와 사다리 상태 변화는 후속 움직임 제작 메모로 처리.",
+    "실제 화면에 맞게 엔딩 행사명 배치 문서를 수정. 원본 PNG에 글자를 그리지 않음.",
+    "overview.png의 제목·유지/신규 구분·각 안 썸네일과 텍스트가 겹치거나 잘리지 않는 것을 확인."
+  ],
+  "limits":["새26장 모두를 총괄이 개별 원본으로 열었다고 주장하지 않음. 개별20장과 전체 새 연락표 검토.","HTML 실제 브라우저 렌더 미실행. 정적 링크와 PNG·문서를 확인.","실제 영상·음성·관객 반응 미검증."],
+  "scope_protection":"기존 C01/C03 객체·채택17PNG·기존 C01 완성영상 SHA 대조 통과. Flow 미사용."
+}

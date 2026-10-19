@@ -1,0 +1,318 @@
+{
+  "concept_id": "C02",
+  "expected_images": 9,
+  "images": [
+    {
+      "concept_id": "C02",
+      "cut_id": "K04",
+      "scene_id": "S04",
+      "image_path": "images/C02/S04.png",
+      "prompt": "Use case: ads-marketing. Asset: single cinematic live-action storyboard FIRST FRAME, landscape 16:9, standalone photograph, no collage, no text/logos/captions. C02 S04: the reveal of an absurd medieval rescue, now clearly a practical engineering workshop. CAST continuity, distinct ordinary Korean performers: PR, a 67-year-old Korean woman with a broad strong face and shoulders, short tightly curled silver-white hair, visible authentic facial wrinkles, tiny pearl earrings, a flat small gold crown, heavy plum-purple long work dress and golden ochre canvas apron. KN, very slim tall Korean man age 38, long narrow face, thin black moustache, slicked-back dark hair, polished teal armor including teal legs and boots, narrow black belt, NO cape. AS, Korean woman age 25 with a completely shaved head, large black-rim transparent safety goggles, angular gray coveralls and black work boots. Never glamorous young fashion models. Humor is from the knight's earnest decisions, not appearances. Bright natural daylight in a rough stone ground-floor workshop. Wide indoor reverse angle: an ordinary full-size hinged wooden door stands OPEN at far LEFT, clearly a normal entrance; large shattered rectangular wood-framed window at RIGHT, sill 85cm above floor. No high tower fall. Knight stands just inside broken window at right, awkwardly lowering one foot from sill to floor, shocked but not comic mugging. Princess in middle at workbench, hand still at waist BEFORE pointing; assistant next to her holds one thin gray folder. Workbench has ONE open black laptop, some abstract diagram papers, one open empty brown leather document satchel. Through the broken window outside, an enormous copper-red dragon head about 2m tall and 2m wide sits fixed on gray steel testing stand; red paper flame ribbons hang limp from mouth. Its scaly neck shell has split apart, first revealing a disconnected black corrugated air tube with visible clamp and a gray blower box. Dragon is an object outside the room, not a small toy indoors; show bulky plausible mechanical test setup clearly through wide window. Same dragon has angular copper scales, two backward curved horns, long snout and dark eye. Keep door, broken window, three distinct people, papers and failed tube readable in one real spatial composition. Photoreal cinematic advertising production design, stone textures, soft daylight, muted earthy palette with teal armor and purple dress. This is the instant BEFORE princess points. Do not add hidden strangers or extra laptops. No generated writing; subtitles will be added later.",
+      "reference_images": [],
+      "source_generated_path": "C:\\Users\\wseok\\.codex\\generated_images\\01a15195-17b9-7a42-bcd3-f9f80c677bed\\exec-fddfafb1-4236-4bb2-9b1d-a3373a7f57b6.png",
+      "generation_tool": "image_gen",
+      "selected": true,
+      "artist_review": {
+        "opened_actual_image": true,
+        "status": "artist_checked_pending_independent_review",
+        "notes": [
+          "67세 공주 주름·넓은 얼굴/어깨, 삭발 여성 조수, 긴 얼굴 콧수염 기사 구분됨.",
+          "실내 왼쪽 정상 문/오른쪽 파손 창, 큰 용의 끊어진 관/시험대/단일 노트북 확인.",
+          "첫 프레임은 기사 창턱 하차 중, 공주 손 허리. 실제 영상 행동은 미검증."
+        ]
+      },
+      "width": 1672,
+      "height": 941,
+      "sha256": "d1e655c586b08fed39fa2f3c7940303cea09e4ca2df4837fa06fed90c1509093",
+      "source_copy_sha256_match": true,
+      "followup_motion": "PR이 장치를 한 번 가리키며 말한다. KN은 정상 문 쪽으로 고개를 돌리고 멈춘다. 추가 시선 왕복이나 조수 동작은 넣지 않는다."
+    },
+    {
+      "concept_id": "C02",
+      "cut_id": "K01",
+      "scene_id": "S01",
+      "image_path": "images/C02/S01.png",
+      "prompt": "Use case: ads-marketing. Create ONE 16:9 cinematic live-action first-frame photograph, no montage/no writing. Reference image is solely cast, copper dragon head and stone-window design reference. Change viewpoint and lighting dramatically to BEFORE any damage. C02 S01 opening of a sincere frightening fantasy rescue: low camera tilted upward, the enormous copper-red horned dragon face approximately TWO METERS TALL fills the LEFT two-thirds of frame, unbroken jagged copper scales cover EVERYTHING mechanical. Its dark jaw is only just opening BEFORE roaring, THREE long red flame-like paper strips inside mouth are heavily backlit red, their paper texture indistinguishable in the dark. No real flame needed. Blue-black smoke, gold/red rim light, threatening scale and cinematic depth; distant tall stone tower rises behind. At upper-right BACKGROUND through same wood-framed INTACT closed glass window, the older princess is clearly visible inside, her hand raised near chest BEFORE reaching downward to warn the knight. Window's lower wall and ground completely OUT OF FRAME; it appears high by framing alone. Near RIGHT foreground are only the knight's slim teal-armored upper shoulder and long moustached profile, earnestly looking at dragon, mouth closed, preparing his heroism. CAST continuity, distinct ordinary Korean performers: PR, a 67-year-old Korean woman with a broad strong face and shoulders, short tightly curled silver-white hair, visible authentic facial wrinkles, tiny pearl earrings, a flat small gold crown, heavy plum-purple long work dress and golden ochre canvas apron. KN, very slim tall Korean man age 38, long narrow face, thin black moustache, slicked-back dark hair, polished teal armor including teal legs and boots, narrow black belt, NO cape. AS, Korean woman age 25 with a completely shaved head, large black-rim transparent safety goggles, angular gray coveralls and black work boots. Never glamorous young fashion models. Humor is from the knight's earnest decisions, not appearances. Only PR and KN present. The princess must look elderly, not a young model, same broad wrinkled face and white curls. NO assistant, no normal door, no ground, no feet, no disconnected tube, no clamps, no metal testing frame, no blower box, no machinery, no split neck or broken glass. No visible test apparatus anywhere: intact copper scales, smoke and cropping conceal all of it. Shoot with serious blockbuster tension and realistic scale, 35mm film look. Not a cute dragon toy or cartoon. No text or logos; editorial captions later.",
+      "reference_images": [
+        "\\\\wsl.localhost\\Ubuntu-24.04\\home\\wooseok\\wsy\\samsung_related\\slide\\AI실행결과발표대회_디자인3종\\storyboards\\2026-10-19_keep13-rebuild-v6\\images\\C02\\S04.png"
+      ],
+      "source_generated_path": "C:\\Users\\wseok\\.codex\\generated_images\\01a15195-17b9-7a42-bcd3-f9f80c677bed\\exec-53066294-bba3-426c-a2b8-6b69de83af20.png",
+      "generation_tool": "image_gen",
+      "selected": true,
+      "artist_review": {
+        "opened_actual_image": true,
+        "status": "artist_checked_pending_independent_review",
+        "notes": [
+          "용 얼굴의 대형 스케일과 판타지 긴장 확인.",
+          "공주 손은 뻗기 전, 기사 전경 상반신. 지면·정상 문·기계 구조·낮은 창 높이 없음.",
+          "붉은 띠 3개이며 첫 프레임부터 소재가 약간 읽힐 여지는 있으나 강한 역광과 용 규모 유지."
+        ]
+      },
+      "width": 1672,
+      "height": 941,
+      "sha256": "276fa3d82cd99018ca3c40ac2e467f926821e3a9b3ece270992e36bd58b25a5f",
+      "source_copy_sha256_match": true,
+      "followup_motion": "용의 붉은 종이 불꽃이 역광 속에서 거칠게 흔들린다. PR이 화면 아래를 가리키며 외치고 KN이 용을 향해 몸을 돌린다. 카메라는 지면을 공개하지 않는다."
+    },
+    {
+      "concept_id": "C02",
+      "cut_id": "K02",
+      "scene_id": "S02",
+      "image_path": "images/C02/S02.png",
+      "prompt": "Use case: ads-marketing. ONE standalone landscape 16:9 cinematic live-action close-up FIRST FRAME for C02 S02, no text or collage. References: Image1 establishes intact copper dragon's neck scale color and dark dramatic exterior light; Image2 establishes knight's teal armor and slim proportions ONLY, do not copy revealed machines or room. Extreme tight low-angle detail of ONE armored knight boot hovering about FIVE CENTIMETERS above an INTACT rounded dragon neck covered in overlapping jagged copper-red scales. Teal metal boot has dark leather sole and segmented pointed toe, connected anatomically to one narrow armored shin entering from upper-right. Boot points toward left, sole nearly horizontal, poised BEFORE stamping. Scaly curved neck spans lower image diagonal; NO crack or gap yet, all scales closed and continuous, warm copper highlights with deep navy shadows. No hand or face. Only the single boot/shin and scaly surface fit in frame; smoke and shallow focus conceal rest. No ground, wall, door, window, dragon face, other people, clamps, hose, wires, gray stand, mechanical parts, blower. It must look like a heroic dangerous creature encounter, not a plastic pipe prop. Emphatic cinematic rim light matching opening, material detail, realistic sole hovering with visible small air gap, action has NOT occurred. No lettering; any later captions are editorial.",
+      "reference_images": [
+        "\\\\wsl.localhost\\Ubuntu-24.04\\home\\wooseok\\wsy\\samsung_related\\slide\\AI실행결과발표대회_디자인3종\\storyboards\\2026-10-19_keep13-rebuild-v6\\images\\C02\\S01.png",
+        "\\\\wsl.localhost\\Ubuntu-24.04\\home\\wooseok\\wsy\\samsung_related\\slide\\AI실행결과발표대회_디자인3종\\storyboards\\2026-10-19_keep13-rebuild-v6\\images\\C02\\S04.png"
+      ],
+      "source_generated_path": "C:\\Users\\wseok\\.codex\\generated_images\\01a15195-17b9-7a42-bcd3-f9f80c677bed\\exec-cbb58a97-641d-4d73-92cf-3219fe9797f6.png",
+      "generation_tool": "image_gen",
+      "selected": true,
+      "artist_review": {
+        "opened_actual_image": true,
+        "status": "artist_checked_pending_independent_review",
+        "notes": [
+          "청록 부츠 하나가 온전한 비늘 표면 위에 떠 있는 타이트 접사.",
+          "기계·지면·창·문 노출 없음. 파손 전 시작상태 확인."
+        ]
+      },
+      "width": 1672,
+      "height": 941,
+      "sha256": "d72221c31f1d9e3f26402db199b33faca7edc20eea2ff093a7a577be0258c210",
+      "source_copy_sha256_match": true,
+      "followup_motion": "부츠가 내려오고 비늘 목 외피가 짧게 갈라져 양옆으로 벌어진다. 안쪽은 검은 그림자로 남기고 낮은 포효가 멎는다."
+    },
+    {
+      "concept_id": "C02",
+      "cut_id": "K03",
+      "scene_id": "S03",
+      "image_path": "images/C02/S03.png",
+      "prompt": "Use case: ads-marketing. ONE standalone landscape 16:9 single-frame live-action cinematic photograph, C02 S03 FIRST FRAME before impact, not a contact sheet, no written text. Use reference1 for the same tall skinny moustached Korean knight and teal armor, reference2 for the still-intact wooden glass window, warm/cool dramatic exterior lighting and stone wall. EXTREME CLOSE, shoulder-level external oblique view. The knight's polished teal shoulder is held approximately 20 centimeters in front of the completely INTACT closed glass-paned wooden window, ready to charge shoulder first. Only upper armored torso, one shoulder and a partial sliver of his long determined moustached profile at far left, and wood mullions/glass/stone fills whole frame. Head tipped down slightly, concentrated brave seriousness. Window is still unbroken: NO shards, cracks, damage or open window. Through glass only indistinct dark interior, no princess. Crop so severely that there is NO lower window sill, NO legs, NO ground, NO wall below window, NO ordinary door, NO dragon or machinery, and no reveal of the window height. Gold rim on teal metal, blue shadow on stone, real layered armor and old wood material. Freeze just before the shoulder strike, clear small air space between shoulder and glass. Motion and breakage belong to later video and must NOT already appear in this first image. No captions or logo, editorial text separately.",
+      "reference_images": [
+        "\\\\wsl.localhost\\Ubuntu-24.04\\home\\wooseok\\wsy\\samsung_related\\slide\\AI실행결과발표대회_디자인3종\\storyboards\\2026-10-19_keep13-rebuild-v6\\images\\C02\\S04.png",
+        "\\\\wsl.localhost\\Ubuntu-24.04\\home\\wooseok\\wsy\\samsung_related\\slide\\AI실행결과발표대회_디자인3종\\storyboards\\2026-10-19_keep13-rebuild-v6\\images\\C02\\S01.png"
+      ],
+      "source_generated_path": "C:\\Users\\wseok\\.codex\\generated_images\\01a15195-17b9-7a42-bcd3-f9f80c677bed\\exec-8ef102cf-99b3-4331-ab2a-bb5e1d4ed3d6.png",
+      "generation_tool": "image_gen",
+      "selected": true,
+      "artist_review": {
+        "opened_actual_image": true,
+        "status": "artist_checked_pending_independent_review",
+        "notes": [
+          "갑옷 어깨와 온전한 유리창의 충돌 전 간격 확인.",
+          "지면·하체·창 아래 벽·문·장치 비노출."
+        ]
+      },
+      "width": 1671,
+      "height": 941,
+      "sha256": "66a92914ca9914d17e60378b14a4be60265701486697d10108e1f1e9ce553f25",
+      "source_copy_sha256_match": true,
+      "followup_motion": "어깨가 창 소품을 밀며 상체가 안으로 들어간다. 파편은 타이트한 프레임 하단으로 떨어지고 지면까지 따라가지 않는다."
+    },
+    {
+      "concept_id": "C02",
+      "cut_id": "K05",
+      "scene_id": "S05",
+      "image_path": "images/C02/S05.png",
+      "prompt": "Use case: ads-marketing. ONE landscape 16:9 cinematic live-action storyboard FIRST FRAME C02 S05, standalone photograph, not collage, no text. Use the reference image to preserve exactly the princess, assistant, costumes, rustic stone workshop and desk/props. Frame a natural eye-level MEDIUM shot of princess from head to hips at the same workbench. Her silver-white tight curly hair, small gold crown, tiny pearl earrings, visibly lined broad 67-year-old Korean face and strong broad shoulders must remain; purple work dress and ochre canvas apron unchanged. She is matter-of-fact and absorbed in work, not smiling for camera. Her empty hands hover just BEFORE collecting several flat sheets of test-record diagrams on tabletop. ONE open black laptop sits left on desk, with screen showing only large abstract list bars without legible letters or numbers. ONE open EMPTY brown leather document satchel sits next to records, the same bag as reference. No papers already packed and no second laptop. Behind her at right, the shaved-head Korean female assistant in black-rimmed clear safety goggles and gray coveralls holds ONE thin gray folder close to torso. Do not include knight in this crop. Background stone and shelves softly defocused, consistent bright natural workshop daylight. The first frame is BEFORE packing records and laptop; the future motion will gather records, close laptop and put them into same bag. Hands anatomically ordinary with five fingers, practical reachable tabletop arrangement. Keep face and wrinkles clear. No readable text, no logos, no captions; Korean subtitle will be added editorially.",
+      "reference_images": [
+        "\\\\wsl.localhost\\Ubuntu-24.04\\home\\wooseok\\wsy\\samsung_related\\slide\\AI실행결과발표대회_디자인3종\\storyboards\\2026-10-19_keep13-rebuild-v6\\images\\C02\\S04.png"
+      ],
+      "source_generated_path": "C:\\Users\\wseok\\.codex\\generated_images\\01a15195-17b9-7a42-bcd3-f9f80c677bed\\exec-332a3ef7-0c4b-47ab-812b-022a4d3e3542.png",
+      "generation_tool": "image_gen",
+      "selected": true,
+      "artist_review": {
+        "opened_actual_image": true,
+        "status": "artist_checked_pending_independent_review",
+        "notes": [
+          "노년 공주와 조수의 캐스트/복장 유지.",
+          "단일 노트북·빈 갈색 가방·회색 파일과 기록을 집기 전 손 위치 확인.",
+          "도식은 추상적이며 실제 업무 내용·성과 수치 없음."
+        ]
+      },
+      "width": 1672,
+      "height": 941,
+      "sha256": "c47f14c4cfc52305c991545c958ec670c0ca1ec838f445226723765ffa9ede47",
+      "source_copy_sha256_match": true,
+      "followup_motion": "기록을 넣고 노트북을 닫아 가방에 넣는다. PR이 손잡이를 들며 문으로 몸을 돌린다."
+    },
+    {
+      "concept_id": "C02",
+      "cut_id": "K06",
+      "scene_id": "S06",
+      "image_path": "images/C02/S06.png",
+      "prompt": "Use case: ads-marketing. Single live-action cinematic first-frame photograph C02 S06, landscape 16:9, standalone shot not collage, no captions/no writing. Reference is cast, dragon construction and workshop source; this is EXTERIOR REVERSE view in clear daylight, not interior. CAST continuity, distinct ordinary Korean performers: PR, a 67-year-old Korean woman with a broad strong face and shoulders, short tightly curled silver-white hair, visible authentic facial wrinkles, tiny pearl earrings, a flat small gold crown, heavy plum-purple long work dress and golden ochre canvas apron. KN, very slim tall Korean man age 38, long narrow face, thin black moustache, slicked-back dark hair, polished teal armor including teal legs and boots, narrow black belt, NO cape. AS, Korean woman age 25 with a completely shaved head, large black-rim transparent safety goggles, angular gray coveralls and black work boots. Never glamorous young fashion models. Humor is from the knight's earnest decisions, not appearances. Camera outside faces the stone workshop wall. Required layout seen from outside: normal open hinged wooden DOOR at far RIGHT, broken rectangular wood-framed WINDOW center, enormous copper-red horned dragon head foreground LEFT. The dragon faces LEFT in side profile; its head about TWO METERS TALL and two meters long, clearly bigger than person's upper body. It stands on sturdy fixed gray steel test rack. Dragon mouth open with exactly THREE separate red paper flame strips hanging down limp, NO fire. Behind dragon at center-left, scaly neck shell has split open, broken/disconnected corrugated air tube and gray blower box are visible. There is a human-shoulder-wide access opening at BACK of head, around one meter above ground, entirely EMPTY, awaiting later action. No person in dragon now. At far RIGHT skinny teal-armored moustached knight has just stepped normally out through wooden door; one boot on low outside stone step, hands empty down by sides, chest not touched yet. Behind him still INSIDE threshold: broad elderly white-curly princess holds ONE closed brown leather document satchel in left hand; her right hand down before gesturing. Shaved-head assistant behind her holds ONE thin gray folder. No loose laptop remains visible. The door is tall ordinary usable entrance. Broken window at normal ground-floor height, shattered upper frame, no damage elsewhere. Clear open walking space from doorway to back of dragon, clear path continuing right out of frame. Background tall tower can be partly seen but this is ground-level workshop. Same physical dragon as reference, reverse side, no living dragon body/tail. Practical absurdity played completely seriously, realistic materials, balanced wide framing includes all feet and dragon support, daylight contrast with initial fantasy lighting. No ornate crowd or other characters.",
+      "reference_images": [
+        "\\\\wsl.localhost\\Ubuntu-24.04\\home\\wooseok\\wsy\\samsung_related\\slide\\AI실행결과발표대회_디자인3종\\storyboards\\2026-10-19_keep13-rebuild-v6\\images\\C02\\S04.png"
+      ],
+      "source_generated_path": "C:\\Users\\wseok\\.codex\\generated_images\\01a15195-17b9-7a42-bcd3-f9f80c677bed\\exec-78dbe4f7-37e4-45ce-8339-7cad9e0be4b2.png",
+      "generation_tool": "image_gen",
+      "selected": false,
+      "artist_review": {
+        "opened_actual_image": true,
+        "status": "revision_required",
+        "notes": [
+          "외부 역구도: 문 오른쪽/파손창 중앙/용 왼쪽. 기사 정상문 출입, PR 가방 유지.",
+          "조수의 회색 파일 누락. 해당 소품만 수정 예정."
+        ]
+      },
+      "width": 1672,
+      "height": 941,
+      "sha256": "d703ba589d395dcba713f2852076610bf4dc097cc5d89081a8517efdfbdebcf9",
+      "source_copy_sha256_match": true,
+      "followup_motion": "PR이 종료를 제안한다. KN은 가슴에 손을 대며 선언하고, 말끝에 용 뒤쪽으로 몸을 돌린다. 두 걸음 이동은 K07 시작 배치로 이어 생략한다."
+    },
+    {
+      "concept_id": "C02",
+      "cut_id": "K06",
+      "scene_id": "S06",
+      "image_path": "images/C02/S06_v2.png",
+      "prompt": "Use case: precise-object-edit. Edit this single 16:9 photoreal cinematic storyboard frame. Change ONLY one missing continuity prop: the shaved-head assistant woman at the FAR RIGHT in gray coveralls and black safety goggles must hold ONE thin plain GRAY A4 folder vertically against her torso using her existing two hands, as she did before. Make hand grip natural. Keep her face, head, goggles and costume exactly. Preserve EVERY other detail, camera, sunlight, three people and positions, princess's brown satchel, knight stepping outside, huge copper dragon head and three red hanging paper strips, empty dragon rear opening, disconnected tube, testing rack, shattered window and open wooden door. Do not introduce any new text, labels, people or devices. Only add gray folder in assistant's hands. Single image, no collage, no captions.",
+      "reference_images": [
+        "\\\\wsl.localhost\\Ubuntu-24.04\\home\\wooseok\\wsy\\samsung_related\\slide\\AI실행결과발표대회_디자인3종\\storyboards\\2026-10-19_keep13-rebuild-v6\\images\\C02\\S06.png"
+      ],
+      "source_generated_path": "C:\\Users\\wseok\\.codex\\generated_images\\01a15195-17b9-7a42-bcd3-f9f80c677bed\\exec-add1eaae-01cb-48d6-bac2-05118c161368.png",
+      "generation_tool": "image_gen",
+      "selected": true,
+      "artist_review": {
+        "opened_actual_image": true,
+        "status": "artist_checked_pending_independent_review",
+        "notes": [
+          "조수 회색 파일 추가, 다른 세 인물·용/문/창 배치 유지.",
+          "후속 동작 전 기사 빈손과 발 계단, 공주 손 아래 유지."
+        ]
+      },
+      "width": 1672,
+      "height": 941,
+      "sha256": "84f01af33239cd9420e16306e2d9ea6b919942d0c4f911e2fcc90a269d54710e",
+      "source_copy_sha256_match": true,
+      "followup_motion": "PR이 종료를 제안한다. KN은 가슴에 손을 대며 선언하고, 말끝에 용 뒤쪽으로 몸을 돌린다. 두 걸음 이동은 K07 시작 배치로 이어 생략한다."
+    },
+    {
+      "concept_id": "C02",
+      "cut_id": "K07",
+      "scene_id": "S07",
+      "image_path": "images/C02/S07.png",
+      "prompt": "Use case: ads-marketing. Single landscape 16:9 cinematic live-action photograph FIRST FRAME C02 S07. Reference is the exact continuing exterior location, light, dragon and knight. Keep the HUGE copper-red horned dragon head stationary on the identical gray steel testing rack at LEFT, normal shattered workshop window behind it. Dragon's front snout points LEFT; empty shoulder-wide BACK access hole at RIGHT of dragon, minimum 70cm wide and about 1.25m above ground. Broken scaly neck and disconnected tube remain as reference, no repair yet. Camera medium-wide SIDE VIEW from slightly behind dragon, close enough to read access hole and human pose but includes knight's long legs and feet. The skinny long-faced Korean knight with thin black moustache and slicked-back dark hair, same teal armor and black belt, now stands on ground immediately to RIGHT of access hole. He has NOT inserted his head: face entirely OUTSIDE about 20cm from hole, both eyes and moustache visible in profile, upper body still mostly upright leaning slightly forward BEFORE bending at waist. One hand rests on a fixed side rail of dragon's supporting frame, his other arm hangs naturally. Both feet planted on ground, no climbing pose, no riding on top. He looks into empty hole with absurdly solemn determination. This first frame precedes the action of bending and putting his head, shoulders and upper chest INSIDE. Do not pre-show that final pose. Only knight in this closer crop; doorway with others is outside frame to far right. Show enough empty dark rear cavity to make the forthcoming entrance physically plausible, not a solid panel or tiny hose opening. Keep copper scales and practical machinery honest, daylight realistic advertising production still. No new props, no extra people, no words or logos. No collage. Never miniaturize dragon.",
+      "reference_images": [
+        "\\\\wsl.localhost\\Ubuntu-24.04\\home\\wooseok\\wsy\\samsung_related\\slide\\AI실행결과발표대회_디자인3종\\storyboards\\2026-10-19_keep13-rebuild-v6\\images\\C02\\S06_v2.png"
+      ],
+      "source_generated_path": "C:\\Users\\wseok\\.codex\\generated_images\\01a15195-17b9-7a42-bcd3-f9f80c677bed\\exec-469488df-54d1-4914-86b9-aa1e66e9852b.png",
+      "generation_tool": "image_gen",
+      "selected": true,
+      "artist_review": {
+        "opened_actual_image": true,
+        "status": "artist_checked_pending_independent_review",
+        "notes": [
+          "기사 얼굴은 용 뒤쪽 개구부 밖, 한 손은 고정 프레임, 두 발 지면.",
+          "사람 상체가 들어갈 큰 입구와 거대 용 스케일·끊어진 관 유지.",
+          "현 첫 프레임에서 허리 숙임/진입 결과 미리 보이지 않음."
+        ]
+      },
+      "width": 1672,
+      "height": 941,
+      "sha256": "a42ac27396b70372c7dcae20536d17b2b7806459d9ded53bc9208a24b6c817ee",
+      "source_copy_sha256_match": true,
+      "followup_motion": "KN이 허리를 굽혀 머리·어깨·상체를 넣고 입 안쪽 송풍 통로로 숨을 분다. 첫 바람은 작게 끝난다."
+    },
+    {
+      "concept_id": "C02",
+      "cut_id": "K08",
+      "scene_id": "S08",
+      "image_path": "images/C02/S08.png",
+      "prompt": "Use case: ads-marketing. Single landscape 16:9 live-action cinematic FIRST FRAME C02 S08, standalone photograph, no collage/no text. Reference1 is exact exterior wide spatial layout and princess/assistant/bag/folder; Reference2 is dragon rear access opening and knight. Continue same courtyard, stone workshop wall, normal OPEN door at far RIGHT, shattered ground-floor window middle, HUGE copper dragon head pointing LEFT on fixed gray rack at left, disconnected black tube and blower visible. Now the same skinny tall man in teal armor has bent forward at the waist and inserted his HEAD, SHOULDERS and UPPER HALF of torso horizontally into the rear opening of the dragon. His head and face must be entirely hidden INSIDE dark dragon cavity. His armored waist, hips and TWO LONG LEGS remain clearly OUTSIDE to the right of dragon, both teal boots planted on stone ground. One hand can grip frame beside opening. Anatomically plausible single person, not cut-off body and no extra feet. His spine enters through actual opening, not solid wall or scales. Dragon mouth's THREE red paper strips hang limp; no blowing effect yet. At right background doorway, elderly broad-faced white-curly Korean princess with small gold crown, plum dress/ochre apron stands JUST INSIDE threshold with ONE closed brown leather satchel. Shaved-head young Korean female assistant in gray coveralls and black safety goggles stands next to/behind her, holds ONE gray folder; her free hand near door edge, BEFORE closing. They are preparing to step out, not already leaving scene. Both composed and busy, not laughing at knight. No laptop left on table visible. Keep real light, material, all cast identity, window/door directions and massive dragon scale. Clean visual story split: bent hero on LEFT, two technicians poised to depart through door RIGHT. Later motion will have them walk right and close door, do not pre-show shut door. All text and event title added in post only.",
+      "reference_images": [
+        "\\\\wsl.localhost\\Ubuntu-24.04\\home\\wooseok\\wsy\\samsung_related\\slide\\AI실행결과발표대회_디자인3종\\storyboards\\2026-10-19_keep13-rebuild-v6\\images\\C02\\S06_v2.png",
+        "\\\\wsl.localhost\\Ubuntu-24.04\\home\\wooseok\\wsy\\samsung_related\\slide\\AI실행결과발표대회_디자인3종\\storyboards\\2026-10-19_keep13-rebuild-v6\\images\\C02\\S07.png"
+      ],
+      "source_generated_path": "C:\\Users\\wseok\\.codex\\generated_images\\01a15195-17b9-7a42-bcd3-f9f80c677bed\\exec-abf4a09d-b3b2-4733-8a68-bb95943c9f4f.png",
+      "generation_tool": "image_gen",
+      "selected": true,
+      "artist_review": {
+        "opened_actual_image": true,
+        "status": "artist_checked_pending_independent_review",
+        "notes": [
+          "기사 머리·어깨는 용 뒤 개구부 안, 허리·두 다리는 밖에 남음.",
+          "공주/조수 정상문 문턱 안, 가방/파일 유지, 문 열림. 아직 퇴장 전.",
+          "용 입 붉은 종이 세 줄 처짐."
+        ]
+      },
+      "width": 1672,
+      "height": 941,
+      "sha256": "8cb1c45a59a073200940182774cd79be8b3864e9ee23262c6eb9c22b237ed279",
+      "source_copy_sha256_match": true,
+      "followup_motion": "두 사람이 오른쪽으로 걸어나가고 AS가 문을 닫는다. KN은 숨을 다시 크게 들이마신다."
+    },
+    {
+      "concept_id": "C02",
+      "cut_id": "K09",
+      "scene_id": "S09",
+      "image_path": "images/C02/S09.png",
+      "prompt": "Use case: ads-marketing. ONE landscape 16:9 photoreal live-action cinematic storyboard FIRST FRAME C02 S09, single shot no collage. Reference is exact ongoing courtyard scene. The two women have now LEFT THE FRAME entirely through the normal path right; REMOVE princess and assistant, satchel and folder are with them, no dropped props. Ordinary wooden DOOR at right background is now CLOSED and undamaged. Shattered window middle remains shattered. Keep identical huge copper dragon head on gray fixed testing rack at LEFT pointing left, broken neck casing and disconnected corrugated tube/blower box. The slim teal-armored knight is still bent forward into rear opening: all of his head, neck, shoulders and upper chest concealed inside cavity; armored waist and TWO long legs visible outside right of head, both boots on ground, one gloved hand rests on stable rack. Real anatomy, no extra limbs. This is just BEFORE next exaggerated inhale: still posture, no movement blur. Exactly THREE red paper strips from mouth hang straight DOWN, still and limp, not blowing or lifting. Camera fixed side medium-wide includes snout, three strips, access-hole bodily pose, two legs and rack so joke readable at once. Compose with generous EMPTY STONE WALL area in upper RIGHT third, above knight/closed door, reserved for a future two-line event title; DO NOT render letters, symbols or subtitle now. Same clear daylight and practical copper material, worn teal armor, ordinary courtyard, not a new castle scene. Do not crop feet. Do not add a face outside dragon or any new character. No actual flames. No watermark or logos. The subsequent video will show weak paper flutter; not yet in this FIRST FRAME.",
+      "reference_images": [
+        "\\\\wsl.localhost\\Ubuntu-24.04\\home\\wooseok\\wsy\\samsung_related\\slide\\AI실행결과발표대회_디자인3종\\storyboards\\2026-10-19_keep13-rebuild-v6\\images\\C02\\S08.png"
+      ],
+      "source_generated_path": "C:\\Users\\wseok\\.codex\\generated_images\\01a15195-17b9-7a42-bcd3-f9f80c677bed\\exec-37ab01e4-5948-458f-bfcf-46060fa682fb.png",
+      "generation_tool": "image_gen",
+      "selected": false,
+      "artist_review": {
+        "opened_actual_image": true,
+        "status": "revision_required",
+        "notes": [
+          "기사/용/종이 3줄/공주와 조수 퇴장 상태 성립.",
+          "자막 여백을 만들며 문 상단 높이가 작아지는 공간 연속성 오류. 원래 S08 문 규격 유지 수정."
+        ]
+      },
+      "width": 1672,
+      "height": 941,
+      "sha256": "5d49283a16981ff4aa4ebed4e0f8fe450115a43a11c7108f301bc35968ab3b57",
+      "source_copy_sha256_match": true,
+      "followup_motion": "KN이 한 번 길게 불어 종이를 약하게 흔든 뒤 다시 숨을 들이마신다. 카메라 고정, 갑옷 허리와 긴 두 다리는 밖에 남는다."
+    },
+    {
+      "concept_id": "C02",
+      "cut_id": "K09",
+      "scene_id": "S09",
+      "image_path": "images/C02/S09_v2.png",
+      "prompt": "Use case: precise-object-edit. This exact photograph is C02 S08 and needs the immediately subsequent S09 still. Edit ONLY these changes: remove the two women from the right doorway completely (they have departed off right with satchel and folder); swing the existing normal wooden hinged door CLOSED inside its EXISTING FULL-HEIGHT doorway. The door's outer frame, top beam at the very top-right edge, threshold at current height, width, and all stone wall geometry MUST remain EXACTLY the same. Do not shrink doorway, lower top beam or create more stone wall above. Preserve every other pixel arrangement: giant copper dragon and gray rack at left, its three limp red paper strips, disconnected tube and machine, shattered central window, skinny teal-armored man bent with head and shoulders fully inside rear opening, waist and both legs/boots outside, ground and daylight. His posture still just before inhale; no flutter yet. No new persons, no bag left behind, no writing, no text or logos. Single 16:9 cinematic live-action photograph. For future title editorially use a translucent overlay if needed; do NOT change architecture to manufacture title room. Closed door fills the original very tall opening exactly. Preserve image viewpoint and object scale.",
+      "reference_images": [
+        "\\\\wsl.localhost\\Ubuntu-24.04\\home\\wooseok\\wsy\\samsung_related\\slide\\AI실행결과발표대회_디자인3종\\storyboards\\2026-10-19_keep13-rebuild-v6\\images\\C02\\S08.png"
+      ],
+      "source_generated_path": "C:\\Users\\wseok\\.codex\\generated_images\\01a15195-17b9-7a42-bcd3-f9f80c677bed\\exec-2a61e160-5903-4175-896e-81312c6c3f97.png",
+      "generation_tool": "image_gen",
+      "selected": true,
+      "artist_review": {
+        "opened_actual_image": true,
+        "status": "artist_checked_pending_independent_review",
+        "notes": [
+          "기존 S08 문틀 높이 유지한 닫힌 문, 공주/조수 퇴장, 기사 진입 자세·용/관 유지.",
+          "종이 세 줄은 처진 상태. 장치 동작 결과를 아직 선공개하지 않음.",
+          "상단 석벽 빈 여백은 부족하므로 후편집 행사명은 오른쪽 문/석벽 위 명암판 또는 그라데이션 영역 권장. 구조 연속성 우선 제안이며 총괄 판단 필요."
+        ]
+      },
+      "width": 1672,
+      "height": 941,
+      "sha256": "cf2304b3a4d8e6506d7ce21727020a52436e14a8608a15a950de450bb9e62606",
+      "source_copy_sha256_match": true,
+      "followup_motion": "KN이 한 번 길게 불어 종이를 약하게 흔든 뒤 다시 숨을 들이마신다. 카메라 고정, 갑옷 허리와 긴 두 다리는 밖에 남는다."
+    }
+  ],
+  "completed_images": 9,
+  "status": "artist_complete_pending_independent_image_reviews",
+  "generated_file_count": 11,
+  "generation_method": "built-in image_gen only; one individual scene per call, two targeted revisions; no Flow/video/audio",
+  "selected_image_paths": [
+    "images/C02/S01.png",
+    "images/C02/S02.png",
+    "images/C02/S03.png",
+    "images/C02/S04.png",
+    "images/C02/S05.png",
+    "images/C02/S06_v2.png",
+    "images/C02/S07.png",
+    "images/C02/S08.png",
+    "images/C02/S09_v2.png"
+  ],
+  "open_notes": [
+    "S09_v2 preserves door height. Event title will need editorial contrast backing over right door/stone rather than a large blank upper stone wall.",
+    "Actual motion, voice, lip sync and audience humor response are not verified by stills."
+  ]
+}

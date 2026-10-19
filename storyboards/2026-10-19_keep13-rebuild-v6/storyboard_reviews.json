@@ -1,0 +1,28 @@
+{
+ "stage":"full_five_concept_independent_storyboard_review",
+ "A":{"agent":"/root/v6_review_a","findings":[
+  {"id":"A-S01","concept":"C02","cuts":["K02","K04"],"required":true,"issue":"플라스틱주름관이4초에장치정체선공개","fix":"비늘외피로가리고공업부품은K04처음공개"},
+  {"id":"A-S02","concept":"C04","cuts":["K04","K06","K09"],"required":true,"issue":"LT레버·지도·연필손겹침/지도CO이동누락","fix":"SO레버,LТ지도연필,K06CO무릎지도전달"},
+  {"id":"A-S03","concept":"C04","cuts":["K01","K05","K08"],"required":true,"issue":"현대축제보면서전쟁믿는시야문제","fix":"낮고좁은관측구로발·그림자만보임"},
+  {"id":"A-S04","concept":"C02","cuts":["K04","K05","K06"],"required":false,"issue":"중반18초늘어질수있음","fix":"반응·짐정리압축"},
+  {"id":"A-S05","concept":"C05","cuts":["K08"],"required":false,"issue":"와이드1cm손짓안읽힘","fix":"손목굽힘과손가락펴는실루엣"}
+ ],"decision":"필수3건수정후이미지진행","time_checked":[34,42,42,42,40]},
+ "B":{"agent":"/root/v6_review_b","findings":[
+  {"id":"B-S01","concept":"C02","cuts":["K02","K03"],"required":true,"issue":"기계재질·음색/허리높이창조기공개","fix":"비늘외피만/지면자른어깨창구도"},
+  {"id":"B-S02","concept":"C05","cuts":["K08"],"required":true,"issue":"시작안내전질문하려손올림","fix":"들리시죠에잘들린다는손응답실패/고개답"},
+  {"id":"B-S03","concept":"C05","cuts":["K01","K02","K03"],"required":true,"issue":"긴목거대괴수가낮은포치밑으로갑자기들어감","fix":"크기고정, K02무릎굽혀목접고자기기둥자리에들어감"},
+  {"id":"B-S04","concept":"C04","cuts":["K09"],"required":false,"issue":"AI연결느슨함","fix":"해보기전엔몰랐던AI이야기내레이션"},
+  {"id":"B-S05","concept":"C04/C05","cuts":["C04K03","C05K04"],"required":false,"issue":"reference_cut자기참조","fix":"새외부/인물기준컷null표시"},
+  {"id":"B-S06","concept":"C04","cuts":["K04"],"required":false,"issue":"LT손역할겹침","fix":"지도고정/손분리"}
+ ],"decision":"필수3건수정후진행","time_checked":[34,42,42,42,40],"retained_comparison":"V5 C01/C03객체동일확인"},
+ "C":{"agent":"/root/v6_review_c","findings":[
+  {"id":"C-S01","concept":"C02","cuts":["K02","K03"],"required":true,"issue":"기계관·창높이로반전선공개","fix":"목외피만보임/K03지면숨김"},
+  {"id":"C-S02","concept":"C04","cuts":["K04"],"required":true,"issue":"LT양손업무과다","fix":"SO레버/LT무릎지도와연필"},
+  {"id":"C-S03","concept":"C04","cuts":["K05"],"required":true,"issue":"군인이현대복장볼수있는시야","fix":"테마성문상부·역광머리실루엣으로한정안제시"},
+  {"id":"C-S04","concept":"C05","cuts":["K08"],"required":true,"issue":"아직시작전질문동기없음","fix":"이어폰설치감사표시로수정안제시"},
+  {"id":"C-S05","concept":"C02","cuts":["K04","K05","K06"],"required":false,"issue":"중반늘어짐","fix":"기록·노트북포장짧게"},
+  {"id":"C-S06","concept":"C05","cuts":["K08"],"required":false,"issue":"1cm와이드불가독","fix":"손팔실루엣기준"}
+ ],"decision":"필수4건수정후진행","time_checked":[34,42,42,42,40]},
+ "PD_revision_request":"3인필수모두반영요청. 시야는A의발·그림자안을채택, 마지막손짓은B의들림응답채택. C02중반4초압축38초, C05끝2초압축38초. C04지도연필역할분리및전달. C05실제크기고정/목접는동작. 수정은연출가director_draft.json, 최종병합은총괄.",
+ "limits":"실제새이미지/음성/움직임/관객반응은미검토. 점수·합의는재미의객관적증거가아님."
+}

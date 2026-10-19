@@ -1,0 +1,26 @@
+{
+  "status": "required_storyboard_and_image_findings_closed",
+  "creative_changes": [
+    "초기 박수·항복 카드는 이전 반려 구조를 반복한다는 3인 검토로 폐기",
+    "C02 구출 오해 뒤 기사가 송풍기를 자청. C04 잠입 성공→놀이기구 노동→탈출이 퍼레이드. C05 파괴자가 기둥→구조를 기대한 사다리에서 이어폰 설치",
+    "신규 캐스트: 노년 여성 기술자/마른 콧수염 기사/삭발 여성 조수, 중장년 남성 3인, 빨간 특촬 괴수와 시설 작업자",
+    "C02 기계 정체 조기 노출 숨김·중반 4초 압축, C04 지도와 레버를 다루는 손 역할·시야·전달 정리, C05 크기·자세·응답 동기·시점 정리"
+  ],
+  "storyboard_review": "storyboard_final_confirmation.json",
+  "image_reviews": [
+    "image_review_A.json",
+    "image_review_B.json",
+    "image_review_C.json"
+  ],
+  "cross_check": "image_cross_reviews.json",
+  "image_disposition": "image_revision_disposition.json",
+  "image_final": "image_final_confirmation.json",
+  "preservation": "preservation_manifest.json",
+  "reference_scope": "reference_diagnosis.json",
+  "limits": [
+    "정지 이미지와 계획 대사 검토",
+    "실제 영상 움직임·음성·립싱크·관객 반응 미검증",
+    "내부 점수와 합의는 재미나 사용자 승인의 증거가 아님",
+    "로컬 HTML 브라우저 자동 검수는 기존 제한을 존중해 수행하지 않았고 PNG·문서·정적 링크를 확인"
+  ]
+}

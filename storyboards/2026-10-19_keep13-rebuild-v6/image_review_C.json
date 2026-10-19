@@ -1,0 +1,164 @@
+{
+  "reviewer": "C",
+  "agent": "/root/v6_review_c",
+  "stage": "independent_actual_image_review",
+  "decision": "신규 이미지 필수 재생성 요구 없음. C02 엔딩 자막 배치 설명 1건을 실제 이미지에 맞게 수정한 뒤 납품 가능.",
+  "review_scope": {
+    "new_images_opened_individually": 26,
+    "retained_contact_sheet_coverage": "C01 9컷·C03 8컷 전체",
+    "retained_images_opened_individually": 4,
+    "other_reviewers_seen_before_submission": false,
+    "not_verified": [
+      "실제 영상 움직임·컷 사이 동작 연결",
+      "음성·발음·립싱크",
+      "행사 자막 합성 후 가독성",
+      "관객 반응·사용자 재미 평가",
+      "이번 이미지 검토에서 행사 원자료를 새로 대조하지는 않음"
+    ]
+  },
+  "actual_opened_paths": {
+    "C02": [
+      "images/C02/S01.png",
+      "images/C02/S02.png",
+      "images/C02/S03.png",
+      "images/C02/S04.png",
+      "images/C02/S05.png",
+      "images/C02/S06_v2.png",
+      "images/C02/S07.png",
+      "images/C02/S08.png",
+      "images/C02/S09_v2.png"
+    ],
+    "C04": [
+      "images/C04/S01.png",
+      "images/C04/S02.png",
+      "images/C04/S03.png",
+      "images/C04/S04.png",
+      "images/C04/S05.png",
+      "images/C04/S06_v2.png",
+      "images/C04/S07.png",
+      "images/C04/S08.png",
+      "images/C04/S09_v2.png"
+    ],
+    "C05": [
+      "images/C05/S01.png",
+      "images/C05/S02.png",
+      "images/C05/S03.png",
+      "images/C05/S04_v2.png",
+      "images/C05/S05_v2.png",
+      "images/C05/S06.png",
+      "images/C05/S07.png",
+      "images/C05/S08_v2.png"
+    ],
+    "retained": [
+      "contact_sheets/C01_all_cuts.jpg",
+      "contact_sheets/C03_all_cuts.jpg",
+      "images/C01/S04_v2.png",
+      "images/C01/S08_v2.png",
+      "images/C03/K02.png",
+      "images/C03/K06_v2.png"
+    ]
+  },
+  "scores_are": "주관적 편집 판단. 관객 반응 측정값 아님.",
+  "score_order": [
+    "훅",
+    "유머",
+    "행사 전달",
+    "차별성",
+    "완성도"
+  ],
+  "portfolio_evaluation": [
+    {
+      "concept_id": "C01",
+      "scores": [
+        4,
+        4,
+        4,
+        4,
+        4
+      ],
+      "judgment": "멋진 포스터 자세와 원본 미끄러짐, 바닥 자세를 따라 하는 두 사람 구별. 원본 공개와 모방 확대가 연락표에서 읽힘. 사용자 보존 대상 수정 없음."
+    },
+    {
+      "concept_id": "C02",
+      "scores": [
+        4,
+        4,
+        4,
+        5,
+        4
+      ],
+      "judgment": "대형 용 위협→기계 실체→용 안 기사 변화 명확. S02 기계관/S03 지면 숨김, S04 정상 문 공개. 노년 공주·삭발 조수·마른 콧수염 기사 차이 실현. 개구부와 남은 다리의 신체 개그."
+    },
+    {
+      "concept_id": "C03",
+      "scores": [
+        4,
+        4,
+        4,
+        5,
+        4
+      ],
+      "judgment": "공중 사무실 규모·청록/주황 환경·두 기록 유지. 작은 인물과 큰 환경이 신규 장르와 구별. 보존 대상 수정 없음."
+    },
+    {
+      "concept_id": "C04",
+      "scores": [
+        4,
+        4,
+        3,
+        5,
+        4
+      ],
+      "judgment": "내부 절박한 세 얼굴/외부 밝은 놀이기구·퍼레이드 대비. 대기 줄·행렬로 새 사건 확대. 인물·레버·페달·지도 이동 읽힘, 관측구는 그림자. 행사 연결은 콘티의 AI 경험 문구가 담당."
+    },
+    {
+      "concept_id": "C05",
+      "scores": [
+        4,
+        4,
+        4,
+        4,
+        4
+      ],
+      "judgment": "직립 괴수→목·무릎 접고 기둥 자리에 갇히는 변화. S06 이어폰 없음/S07 최초 공개로 반전 성립. 짧은 잭·누운 기둥·양손·이어컵·전선 연결. 특촬 인형 허술함은 의도적 미술로 수용."
+    }
+  ],
+  "findings": [
+    {
+      "id": "C-I001",
+      "severity": "required_document_fix",
+      "concept_id": "C02",
+      "scene_id": "S09",
+      "cut_id": "K09",
+      "path": "images/C02/S09_v2.png",
+      "actual_opened": true,
+      "issue": "채택 이미지에 콘티의 위쪽 빈 석벽이 충분하지 않다. 오른쪽은 큰 닫힌 목재 문, 중앙 기사.",
+      "evidence": "storyboards.json screen/framing은 빈 석벽에 행사명 배치를 명시하나 S09_v2는 문 높이·공간 연속성을 보존한 구도.",
+      "specific_fix": "이미지 유지. 오른쪽 문 위 명암판/어두운 그라데이션 위 2~3행 행사명. 기사 허리·다리/왼쪽 종이 불꽃 비침범, 6초 유지.",
+      "regenerate_image": false
+    },
+    {
+      "id": "C-I002",
+      "severity": "optional_editorial_note",
+      "concept_id": "C02",
+      "scene_id": "S01",
+      "cut_id": "K01",
+      "path": "images/C02/S01.png",
+      "actual_opened": true,
+      "issue": "붉은 띠 종이 질감으로 가짜 용을 일찍 짐작할 수 있다.",
+      "evidence": "거대한 비늘·연기·영웅적 구도와 납작한 띠·찢어진 끝이 함께 보임. 기계 구조·정상 문은 미노출.",
+      "specific_fix": "의도적 B급 단서 수용. 띠만 확대·정지하지 않고 포효·기사 확신 중심. 이 이유만으로 재생성하지 않음.",
+      "regenerate_image": false
+    }
+  ],
+  "common_checks": {
+    "casting_diversity": "노년 여성 기술자·삭발 조수, 체형·수염·머리 다른 장년 셋, 특촬 인형·다른 시설 작업자로 주역 구성이 달라짐.",
+    "humor_target": "외모 아닌 구출 고집·위장 노동·파괴 선택의 역효과.",
+    "first_frame_readiness": "밟기·창 파손·지도 전달·기둥 제거·이어컵 설치가 잘못된 완료 상태로 치환되지 않음.",
+    "continuity": "주역·의상·용·문·창·목마·괴수 자세·주요 소품이 이해를 막지 않는 수준으로 유지.",
+    "event_information": "날짜·장소·성과·신청 방식 창작 없음. 행사명 후편집.",
+    "duration": "34/38/42/42/38초 콘티 유지. 실제 재생 시간 검증 아님.",
+    "production_limits": "목마 운동·군중 이동·용 진입·목 접힘·지붕 지지는 향후 영상 검수 필요. 생성 성공 보장 아님."
+  },
+  "overall_note": "사건과 캐스팅 차이가 실제 이미지에 구현. 필수 재생성 추가 사유 없음. 점수·통과는 제작사와 동일한 효과나 실제 재미의 객관적 증명이 아님."
+}

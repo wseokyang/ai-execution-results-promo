@@ -1,0 +1,423 @@
+{
+  "images": [
+    {
+      "concept_id": "C03",
+      "cut_id": "K01",
+      "scene_id": "S01",
+      "image_path": "images/C03/K01.png",
+      "prompt": "Use case: ads-marketing. Generate ONE photorealistic cinematic first frame for an original Korean absurd industrial-scale comedy advertisement, shot C03 K01. Native 16:9 wide, 1536x864 or 2048x1152. Bright natural midday sunshine, a large clean concrete industrial delivery yard with distant warehouse roof line and expansive blue sky. Quiet 50mm medium shot of R, a Korean woman in her early 30s with black hair tied in a low ponytail, beige blouse, thin teal sleeveless vest, dark charcoal trousers. She sits at an ordinary small metal outdoor work table, holds a black smartphone to her LEFT ear with her left hand, her RIGHT hand resting lightly on loose diagram documents. Calm practical expression in the middle of a call, looking down at the documents, not looking up yet. A transparent glass of water and a gray folder lie on the table. Honest skin texture, editorial precision, real practical industrial world, polished Korean TV commercial cinematography. Composition leaves wide normal sunlit sky and daylight behind her. This is BEFORE a huge shadow sweeps over her. No shadow covering her yet. No office module visible anywhere, no crane visible, no driver in frame, no orange folder. Documents have abstract fine lines only, no legible letters or numbers. No caption, no branding, no logo, no watermark, no comic graphics, no collage. The ordinary opening must not reveal the gigantic delivery gag yet.",
+      "reference_images": [],
+      "source_generated_path": "C:\\Users\\wseok\\.codex\\generated_images\\01a14def-34dd-73a2-89ef-a6c63e3cb2ed\\exec-7763291c-92a8-4458-bd1d-ded1af76b945.png",
+      "generation_tool": "image_gen",
+      "artist_review": {
+        "opened_actual_image": true,
+        "status": "artist_pass",
+        "notes": "햇빛 정상, 통화와 자료 위 손, 모듈·기사 미등장 확인. 기준 인물 외모·의상 확보."
+      },
+      "selected": true,
+      "first_frame": "직원은 통화 중, 자료 위 손. 위 사무실은 안 보이고 정상 햇빛.",
+      "next_motion": "그림자 이동→위로 시선.",
+      "width": 1672,
+      "height": 941,
+      "sha256": "aff884bcbe2696e5b47356789a7da8642b9c7dba38c2166cb4a140fa2182e408",
+      "bytes": 1881089,
+      "artist_manifest": "image_manifest_artist3.json",
+      "final_storyboard_first_frame": "직원은 통화 중, 자료 위 손. 위 사무실은 안 보이고 정상 햇빛.",
+      "final_storyboard_next_motion": "그림자 이동→위로 시선.",
+      "final_review": {
+        "status": "accepted_for_storyboard_first_frame",
+        "reviewers": [
+          "A",
+          "B",
+          "C"
+        ],
+        "records": [
+          "image_reviews_A.json",
+          "image_reviews_B.json",
+          "image_reviews_C.json",
+          "image_reviews_C04.json",
+          "image_reviews_C05.json",
+          "image_cross_reviews.json",
+          "image_cross_reviews_final.json",
+          "image_final_confirmation.json"
+        ],
+        "limits": "정지 이미지와 계획 검토. 동작·음성·관객반응 미검증. 별도 표기한 UI/도식/자막은 후편집 대상."
+      },
+      "reused_from_run": "2026-10-18_keep3-rebuild-v5",
+      "new_generation_in_this_run": false,
+      "linked_cuts": [
+        "K01"
+      ],
+      "review_status": "three_independent_reviews_cross_check_and_revision_confirmation_complete"
+    },
+    {
+      "concept_id": "C03",
+      "cut_id": "K02",
+      "scene_id": "S02",
+      "image_path": "images/C03/K02.png",
+      "prompt": "Use case: ads-marketing. Generate a new shot C03 K02, native 16:9 widescreen photorealistic absurd Korean industrial commercial. Reference image 1 is ONLY the identity/clothes of R and the daylight concrete logistics yard; preserve her beige blouse, teal vest, charcoal trousers and tied black hair. Completely new low 24mm extreme wide camera angle. Monumental reveal: an ENTIRE intact white prefabricated modern office room A, approximately 7 meters long, suspended several meters above empty concrete by four taut steel lifting cables from an enormous precise yellow crane. White metal shell, a distinctive TEAL entry door frame at its left front corner, broad full-height glass front and a side with neatly folded-open architectural wall panels; inside visible a tidy wooden desk, black swivel chair, monitor, gray binder and green potted plant. It looks like someone has meticulously shipped their whole working environment, not a damaged building, not a container of rubble. The office and sky dominate 80% of frame. R very small at far left foreground safely OUTSIDE a clear yellow ground exclusion boundary, watching upwards. T, Korean man early 40s with short black hair, yellow hard hat, navy work jacket, orange reflective vest, black trousers and BOTH hands in gray work gloves, stands safely to the side OUTSIDE the load footprint, looking up guiding delivery. People must not be under the hanging module. Precision steel construction, visible cables, clear sunny blue sky, believable real scale, sophisticated absurd visual comedy, high-budget commercial photography. No orange doorway or second module anywhere. No readable text, no signs, logos, captions, watermark, split panels or collage. First-frame state: A is stationary in midair, before lowering. Do not show landing yet.",
+      "reference_images": [
+        "\\\\wsl.localhost\\Ubuntu-24.04\\home\\wooseok\\wsy\\samsung_related\\slide\\AI실행결과발표대회_디자인3종\\storyboards\\2026-10-18_story-reset-v4\\images\\C03\\K01.png"
+      ],
+      "source_generated_path": "C:\\Users\\wseok\\.codex\\generated_images\\01a14def-34dd-73a2-89ef-a6c63e3cb2ed\\exec-21645e58-a582-4d91-bf5e-d1e8a0ad2577.png",
+      "generation_tool": "image_gen",
+      "artist_review": {
+        "opened_actual_image": true,
+        "status": "artist_pass",
+        "notes": "청록 문틀 A 공중·팽팽한 케이블·작업 공간 전체 보존. 사람은 모듈 왼편 투영 밖. B 미노출."
+      },
+      "selected": true,
+      "first_frame": "청록 문틀 A가 공중에 고정, 케이블 팽팽. 직원·기사 옆 안전선 밖.",
+      "next_motion": "모듈 조금 하강. 사람 위 이동 없음.",
+      "width": 1672,
+      "height": 941,
+      "sha256": "85978f057b9ef5965a41021b683ef21ae26ddbd2e8f947dee429098db7c44d9b",
+      "bytes": 2125887,
+      "artist_manifest": "image_manifest_artist3.json",
+      "final_storyboard_first_frame": "청록 문틀 A가 공중에 고정, 케이블 팽팽. 직원·기사 옆 안전선 밖.",
+      "final_storyboard_next_motion": "모듈 조금 하강. 사람 위 이동 없음.",
+      "final_review": {
+        "status": "accepted_for_storyboard_first_frame",
+        "reviewers": [
+          "A",
+          "B",
+          "C"
+        ],
+        "records": [
+          "image_reviews_A.json",
+          "image_reviews_B.json",
+          "image_reviews_C.json",
+          "image_reviews_C04.json",
+          "image_reviews_C05.json",
+          "image_cross_reviews.json",
+          "image_cross_reviews_final.json",
+          "image_final_confirmation.json"
+        ],
+        "limits": "정지 이미지와 계획 검토. 동작·음성·관객반응 미검증. 별도 표기한 UI/도식/자막은 후편집 대상."
+      },
+      "reused_from_run": "2026-10-18_keep3-rebuild-v5",
+      "new_generation_in_this_run": false,
+      "linked_cuts": [
+        "K02"
+      ],
+      "review_status": "three_independent_reviews_cross_check_and_revision_confirmation_complete"
+    },
+    {
+      "concept_id": "C03",
+      "cut_id": "K03",
+      "scene_id": "S03",
+      "image_path": "images/C03/K03.png",
+      "prompt": "Use case: ads-marketing. New independent first frame shot C03 K03 of the same original industrial comedy commercial, photorealistic 16:9 widescreen. Reference 1 anchors R's exact face, low ponytail, beige blouse/teal vest/charcoal trousers. Reference 2 anchors white office module A, teal door frame, light wooden desk, plant, black office chair, crane operator T in yellow hard hat/navy jacket/orange reflective vest. The module has now safely landed, nobody hanging in the air. Camera INSIDE module A, 40mm side medium shot across the wooden desk. R is seated in profile three-quarter view at the desk ready to run a test on a laptop, RIGHT index finger hovering just above the keyboard, neutral concentration BEFORE execution, no success reaction. A closed GREY file lies directly beside her. Foreground screen area is large enough to see two diagram panels but no words: LEFT three clean outlined rectangles as a reference diagram, RIGHT neutral empty gray panel waiting for execution, no checkmarks or matching output yet. This is a prop screen whose final matching output will be composited during the motion shot. Through the side window, T visible outside at a safe distance, BOTH hands still wearing gray gloves, waiting patiently for the operation to finish, no glove removal yet. Teal door trim in background, bright blue daylight and industrial yard outdoors. Realistic intentional composition that shows screen, R's face and waiting T within one frame, not separate panels. Crisp nuanced natural light, sophisticated cinematic commercial, no comic caricature. No second office module, no orange doorway or orange file. No readable lettering, captions, logos, watermarks. Do not duplicate R or T.",
+      "reference_images": [
+        "\\\\wsl.localhost\\Ubuntu-24.04\\home\\wooseok\\wsy\\samsung_related\\slide\\AI실행결과발표대회_디자인3종\\storyboards\\2026-10-18_story-reset-v4\\images\\C03\\K01.png",
+        "\\\\wsl.localhost\\Ubuntu-24.04\\home\\wooseok\\wsy\\samsung_related\\slide\\AI실행결과발표대회_디자인3종\\storyboards\\2026-10-18_story-reset-v4\\images\\C03\\K02.png"
+      ],
+      "source_generated_path": "C:\\Users\\wseok\\.codex\\generated_images\\01a14def-34dd-73a2-89ef-a6c63e3cb2ed\\exec-2cba58c0-e1b4-43f8-bf85-539e66fb81a1.png",
+      "generation_tool": "image_gen",
+      "artist_review": {
+        "opened_actual_image": true,
+        "status": "artist_pass",
+        "notes": "실행 전 빈 결과 패널, 회색 파일, 청록 문틀, 창 밖 기사 양손 장갑 확인. UI 글자는 후편집."
+      },
+      "selected": true,
+      "first_frame": "직원이 회색 파일 옆에서 실행 전. 기사 양손 장갑, 종료 대기.",
+      "next_motion": "결과→끄덕임→기사 장갑 한 짝 벗음.",
+      "width": 1672,
+      "height": 941,
+      "sha256": "e019d13c28c0a630c57850e9788b13a8a7a90671e2ca79996378f9ee07ddcedc",
+      "bytes": 1980614,
+      "artist_manifest": "image_manifest_artist3.json",
+      "final_storyboard_first_frame": "직원이 회색 파일 옆에서 실행 전. 기사 양손 장갑, 종료 대기.",
+      "final_storyboard_next_motion": "결과→끄덕임→기사 장갑 한 짝 벗음.",
+      "final_review": {
+        "status": "accepted_for_storyboard_first_frame",
+        "reviewers": [
+          "A",
+          "B",
+          "C"
+        ],
+        "records": [
+          "image_reviews_A.json",
+          "image_reviews_B.json",
+          "image_reviews_C.json",
+          "image_reviews_C04.json",
+          "image_reviews_C05.json",
+          "image_cross_reviews.json",
+          "image_cross_reviews_final.json",
+          "image_final_confirmation.json"
+        ],
+        "limits": "정지 이미지와 계획 검토. 동작·음성·관객반응 미검증. 별도 표기한 UI/도식/자막은 후편집 대상."
+      },
+      "reused_from_run": "2026-10-18_keep3-rebuild-v5",
+      "new_generation_in_this_run": false,
+      "linked_cuts": [
+        "K03"
+      ],
+      "review_status": "three_independent_reviews_cross_check_and_revision_confirmation_complete"
+    },
+    {
+      "concept_id": "C03",
+      "cut_id": "K04",
+      "scene_id": "S04",
+      "image_path": "images/C03/K04.png",
+      "prompt": "Use case: ads-marketing. New first frame C03 K04, 16:9 photoreal high-budget industrial comedy. Reference 1 anchors the intact white glass office A with teal door trim and sunny yard; reference 2 anchors closer view of T, the Korean male operator, and same light. Camera outside in deep-focus medium-wide view. T in LEFT FOREGROUND in yellow hard hat, navy jacket, orange reflective safety vest and black trousers, his body half turned to leave, neutral tired expectation that work is finished. His RIGHT hand is BARE, and his LEFT hand is still gloved and holding ONE removed gray right glove. Keep both hands clearly separated, exactly two human hands. A already landed behind him on frame LEFT, white glass office with TEAL door frame. On far UPPER RIGHT edge only, a tiny LOWER CORNER and a short white underside strip of a SECOND suspended white office B have JUST ENTERED the frame; orange paint on a tiny vertical edge hints at a second module, but most of B is still out of frame above. Show no B interior, no complete B shape, no full second office. T is safely lateral to all load paths, never under suspended object; the entering corner is far to his right. A and B left-right geography must read. Large clear blue sky. This is precisely BEFORE T reacts and before the second office is revealed: no pointing up, no glove being put back on, no surprised comic face yet. Strong industrial reality and sophisticated absurd understatement. No other people necessary. No readable writing, logos, captions or watermark. No collage.",
+      "reference_images": [
+        "\\\\wsl.localhost\\Ubuntu-24.04\\home\\wooseok\\wsy\\samsung_related\\slide\\AI실행결과발표대회_디자인3종\\storyboards\\2026-10-18_story-reset-v4\\images\\C03\\K02.png",
+        "\\\\wsl.localhost\\Ubuntu-24.04\\home\\wooseok\\wsy\\samsung_related\\slide\\AI실행결과발표대회_디자인3종\\storyboards\\2026-10-18_story-reset-v4\\images\\C03\\K03.png"
+      ],
+      "source_generated_path": "C:\\Users\\wseok\\.codex\\generated_images\\01a14def-34dd-73a2-89ef-a6c63e3cb2ed\\exec-35c3e5a2-b92e-4b96-9ba0-1479c5980515.png",
+      "generation_tool": "image_gen",
+      "artist_review": {
+        "opened_actual_image": true,
+        "status": "artist_pass",
+        "notes": "A 왼쪽 설치, B는 우상단 아랫모서리만 노출. 기사 오른손 맨손·왼손 장갑과 벗은 장갑 소지. 시선은 이미 우상향이지만 장갑 재착용/전체 B 공개 전 상태."
+      },
+      "selected": true,
+      "first_frame": "설치 A왼쪽, 기사 벗은 장갑 소지. B아랫모서리 막 프레임 진입.",
+      "next_motion": "B공개→기사 장갑 재착용.",
+      "width": 1672,
+      "height": 941,
+      "sha256": "6f6b5c970d5926a4ccc67bbe24b4eaff71fcd409012e52a33a327451d1ccae11",
+      "bytes": 2050156,
+      "artist_manifest": "image_manifest_artist3.json",
+      "final_storyboard_first_frame": "설치 A왼쪽, 기사 벗은 장갑 소지. B아랫모서리 막 프레임 진입.",
+      "final_storyboard_next_motion": "B공개→기사 장갑 재착용.",
+      "final_review": {
+        "status": "accepted_for_storyboard_first_frame",
+        "reviewers": [
+          "A",
+          "B",
+          "C"
+        ],
+        "records": [
+          "image_reviews_A.json",
+          "image_reviews_B.json",
+          "image_reviews_C.json",
+          "image_reviews_C04.json",
+          "image_reviews_C05.json",
+          "image_cross_reviews.json",
+          "image_cross_reviews_final.json",
+          "image_final_confirmation.json"
+        ],
+        "limits": "정지 이미지와 계획 검토. 동작·음성·관객반응 미검증. 별도 표기한 UI/도식/자막은 후편집 대상."
+      },
+      "reused_from_run": "2026-10-18_keep3-rebuild-v5",
+      "new_generation_in_this_run": false,
+      "linked_cuts": [
+        "K04"
+      ],
+      "review_status": "three_independent_reviews_cross_check_and_revision_confirmation_complete"
+    },
+    {
+      "concept_id": "C03",
+      "cut_id": "K05",
+      "scene_id": "S05",
+      "image_path": "images/C03/K05.png",
+      "prompt": "Use case: ads-marketing. New distinct storyboard first frame C03 K05, 16:9 photorealistic cinematic Korean industrial commercial. Reference image 1 is exact identity/clothes of R: Korean woman early 30s, black low ponytail, beige blouse, thin teal vest, charcoal trousers. Reference image 2 is the modular-office architecture and bright exterior yard, not the teal trim color for this different office B. Camera just inside the ORANGE painted door frame of B, over R's shoulder with part of her right cheek visible, looking into a compact intact white modern office. This is the EARLY EXPERIMENT work environment: real orderly-but-busy revisions, notes and alternative diagrams pinned on a white board, multiple sheets with simple circles/crossings and arrows, some folded revisions, a working laptop on a wood desk, an office chair. Important: structurally intact and habitable, NOT a wreck, no broken equipment, no debris, no dirty ruined room. R holds black smartphone to her LEFT ear in LEFT hand. Her RIGHT hand is reaching toward but NOT YET TOUCHING a CLOSED BRIGHT ORANGE DOCUMENT FOLDER lying flat on the desk. Folder clearly separate from her fingers by a few centimeters. No gray folder in this room. Orange doorway frames the foreground, white glass-and-metal office shell, daylight. The facing side wall uses folded-back panels already open, with a glimpse of clean sunlit yard, no panel motion. Visual joke is an entire room full of failed attempts has been carefully delivered; keep calm practical authenticity. No colleague or driver visible. Documents show only abstract nonlinguistic marks, no readable words, dates or numbers. No captions, no logos or watermarks, no collage. Beginning state before picking up folder.",
+      "reference_images": [
+        "\\\\wsl.localhost\\Ubuntu-24.04\\home\\wooseok\\wsy\\samsung_related\\slide\\AI실행결과발표대회_디자인3종\\storyboards\\2026-10-18_story-reset-v4\\images\\C03\\K01.png",
+        "\\\\wsl.localhost\\Ubuntu-24.04\\home\\wooseok\\wsy\\samsung_related\\slide\\AI실행결과발표대회_디자인3종\\storyboards\\2026-10-18_story-reset-v4\\images\\C03\\K02.png"
+      ],
+      "source_generated_path": "C:\\Users\\wseok\\.codex\\generated_images\\01a14def-34dd-73a2-89ef-a6c63e3cb2ed\\exec-99b6352c-edb1-4059-a4e3-14e501650a68.png",
+      "generation_tool": "image_gen",
+      "artist_review": {
+        "opened_actual_image": true,
+        "status": "artist_pass_with_note",
+        "notes": "B 주황 문틀·초기 수정 기록·닫힌 주황 파일·왼손 통화 확인. 파일을 들기 전이나 오른손 끝은 표면에 거의 닿은 상태. 배경 자료는 건축 도식 모양의 제안값이며 읽을 내용은 후편집."
+      },
+      "selected": true,
+      "first_frame": "직원이 B안 닫힌 주황 파일 집기 전. 왼손 전화, 오른손 파일에 닿기 전.",
+      "next_motion": "파일 들어 질문→답 듣고 기사로 회전.",
+      "width": 1672,
+      "height": 941,
+      "sha256": "831554ed0e9afe80ed637157ca15c2cda54e1d7b2a6df7eae9fac5f0a611e5e3",
+      "bytes": 2080871,
+      "artist_manifest": "image_manifest_artist3.json",
+      "final_storyboard_first_frame": "직원이 B안 닫힌 주황 파일 집기 전. 왼손 전화, 오른손 파일에 닿기 전.",
+      "final_storyboard_next_motion": "파일 들어 질문→답 듣고 기사로 회전.",
+      "final_review": {
+        "status": "accepted_for_storyboard_first_frame",
+        "reviewers": [
+          "A",
+          "B",
+          "C"
+        ],
+        "records": [
+          "image_reviews_A.json",
+          "image_reviews_B.json",
+          "image_reviews_C.json",
+          "image_reviews_C04.json",
+          "image_reviews_C05.json",
+          "image_cross_reviews.json",
+          "image_cross_reviews_final.json",
+          "image_final_confirmation.json"
+        ],
+        "limits": "정지 이미지와 계획 검토. 동작·음성·관객반응 미검증. 별도 표기한 UI/도식/자막은 후편집 대상."
+      },
+      "reused_from_run": "2026-10-18_keep3-rebuild-v5",
+      "new_generation_in_this_run": false,
+      "linked_cuts": [
+        "K05"
+      ],
+      "review_status": "three_independent_reviews_cross_check_and_revision_confirmation_complete"
+    },
+    {
+      "concept_id": "C03",
+      "cut_id": "K06",
+      "scene_id": "S06",
+      "image_path": "images/C03/K06_v2.png",
+      "prompt": "Use case: precise-object-edit. Edit this 16:9 commercial frame with targeted corrections. Keep the same two people, facial identities, clothing, pose, gray folder OPEN on the small table, orange folder in woman's arm, camera, sunlight, module A on left with teal doorway and B on right with orange doorway. Change ONLY these details: (1) The WHITE DELIVERY SHEET on the clipboard held by the man must be PLAIN WHITE except a few very faint horizontal signature rules. Remove the entire diagonal striped graphic from this clipboard. ONLY the woman's orange folder and the gray folder on table carry matching stripe-condition motifs. These are the two relevant records, the waybill is not a record. (2) Show the inward-facing wall of EACH office as a fully opened bifold glass wall, with glass leaves already folded into a narrow stack against its far corner, revealing unobstructed open interior air across the space between A and B. This is an architectural state, nobody operating the panels. Preserve the two colored door frames. Everything else unchanged, same number of hands, no added people, no extra folders, no lettering, captions, logos or watermark.",
+      "reference_images": [
+        "\\\\wsl.localhost\\Ubuntu-24.04\\home\\wooseok\\wsy\\samsung_related\\slide\\AI실행결과발표대회_디자인3종\\storyboards\\2026-10-18_story-reset-v4\\images\\C03\\K06.png"
+      ],
+      "source_generated_path": "C:\\Users\\wseok\\.codex\\generated_images\\01a14def-34dd-73a2-89ef-a6c63e3cb2ed\\exec-84669b16-7137-491e-b7d5-4497a883513e.png",
+      "generation_tool": "image_gen",
+      "artist_review": {
+        "opened_actual_image": true,
+        "status": "artist_pass",
+        "notes": "운송장 줄무늬 제거 완료. 열린 회색 파일과 주황 파일만 조건 무늬. 두 모듈 접이 패널 개방 확인. 아직 펜 소지·회색 파일 수거 전."
+      },
+      "selected": true,
+      "first_frame": "청록 A문 앞 작은 테이블에 열린 회색 파일. 직원은 B에서 가져온 주황 파일을 들고, 기사는 운송장을 내민다. 직원은 아직 펜을 들지 않았다. 두 모듈의 마주 보는 패널은 처음부터 열린 건축 구조.",
+      "next_motion": "직원이 주황 파일을 돌려 안쪽 조건 기록을 열어 봄→테이블의 회색 기록과 같은 표시 발견→반품 서명 보류→회색 파일도 함께 듦. 첫 프레임의 주황 패턴은 표지이며 내부 기록은 아직 보이지 않는다. 대응 도식은 후편집 대상이다.",
+      "width": 1672,
+      "height": 941,
+      "sha256": "a9f2264954837aa587a1e267d6d627bf1ba3511921d7574789aa267d000ba750",
+      "bytes": 2039379,
+      "artist_manifest": "image_manifest_artist3.json",
+      "final_storyboard_first_frame": "청록 A문 앞 작은 테이블에 열린 회색 파일. 직원은 B에서 가져온 주황 파일을 들고, 기사는 운송장을 내민다. 직원은 아직 펜을 들지 않았다. 두 모듈의 마주 보는 패널은 처음부터 열린 건축 구조.",
+      "final_storyboard_next_motion": "직원이 주황 파일을 돌려 안쪽 조건 기록을 열어 봄→테이블의 회색 기록과 같은 표시 발견→반품 서명 보류→회색 파일도 함께 듦. 첫 프레임의 주황 패턴은 표지이며 내부 기록은 아직 보이지 않는다. 대응 도식은 후편집 대상이다.",
+      "final_review": {
+        "status": "accepted_for_storyboard_first_frame",
+        "reviewers": [
+          "A",
+          "B",
+          "C"
+        ],
+        "records": [
+          "image_reviews_A.json",
+          "image_reviews_B.json",
+          "image_reviews_C.json",
+          "image_reviews_C04.json",
+          "image_reviews_C05.json",
+          "image_cross_reviews.json",
+          "image_cross_reviews_final.json",
+          "image_final_confirmation.json"
+        ],
+        "limits": "정지 이미지와 계획 검토. 동작·음성·관객반응 미검증. 별도 표기한 UI/도식/자막은 후편집 대상."
+      },
+      "reused_from_run": "2026-10-18_keep3-rebuild-v5",
+      "new_generation_in_this_run": false,
+      "linked_cuts": [
+        "K06"
+      ],
+      "review_status": "three_independent_reviews_cross_check_and_revision_confirmation_complete"
+    },
+    {
+      "concept_id": "C03",
+      "cut_id": "K07",
+      "scene_id": "S07",
+      "image_path": "images/C03/K07.png",
+      "prompt": "Use case: ads-marketing. Generate new first frame C03 K07 in native 16:9 wide realistic Korean industrial comedy commercial. Reference 1 anchors both exact people, clothing, faces and two modular rooms with open architectural panels. Reference 2 anchors orange room B's busy revision-notes interior. Side wide view showing BOTH white glass office modules side by side safely grounded: A LEFT with teal entry frame and tidy desk, B RIGHT with orange entry frame and dense revision papers on its back wall, intact and clean. The facing wall panels are ALREADY completely folded open on both rooms from the start, making the two interiors visible, no glass wall between the pair. The employee R, beige blouse, teal vest, charcoal trousers, low ponytail, stands between them, small against the huge rooms. She ALREADY cradles EXACTLY TWO closed folders against her chest in one RIGHT arm: a gray folder and an orange folder, with little paper tabs marking questions. Her LEFT hand holds black smartphone to LEFT ear; attentive interested expression, about to decide to hear the experience in person. T stands a few steps to her right, yellow hard hat, navy jacket, orange reflective vest, black trousers and BOTH gray gloves. His hands rest loosely at his sides, BEFORE he reaches for the belt buckle at his waist; not yet relieved or reacting. A small metal table with no folders now stands near teal A entrance; white delivery clipboard rests there. A simple work chair stands behind T for a later shot. Human scale versus enormous overdelivered rooms is the joke. Bright crisp sun and blue sky, sophisticated wide cinematic composition, industrial precision. No suspended modules, no shipping motion, no duplicate people, no extra folders, no text, logos, watermark or captions. Do not show R exiting or T sitting yet.",
+      "reference_images": [
+        "\\\\wsl.localhost\\Ubuntu-24.04\\home\\wooseok\\wsy\\samsung_related\\slide\\AI실행결과발표대회_디자인3종\\storyboards\\2026-10-18_story-reset-v4\\images\\C03\\K06_v2.png",
+        "\\\\wsl.localhost\\Ubuntu-24.04\\home\\wooseok\\wsy\\samsung_related\\slide\\AI실행결과발표대회_디자인3종\\storyboards\\2026-10-18_story-reset-v4\\images\\C03\\K05.png"
+      ],
+      "source_generated_path": "C:\\Users\\wseok\\.codex\\generated_images\\01a14def-34dd-73a2-89ef-a6c63e3cb2ed\\exec-e14d0c0f-3d9d-461e-a1e0-6cf76fdd1e40.png",
+      "generation_tool": "image_gen",
+      "artist_review": {
+        "opened_actual_image": true,
+        "status": "artist_pass",
+        "notes": "A 좌/B 우, 열린 패널, 파일 두 개 이미 소지, 통화 중, 기사 벨트에 손 대기 전. 손·얼굴·색 연속성 확인."
+      },
+      "selected": true,
+      "first_frame": "처음부터 열린 마주 보는 패널. 직원은 표시된 회색·주황 파일 두 개를 이미 팔에 안고 통화 중. 기사는 벨트에 손 뻗기 전.",
+      "next_motion": "직원 청강 결정→기사가 재운송 준비→작은 파일 들어 “제가 갈게요”→기사 손 멈춤. 패널 개방·파일 수거 동작 없음.",
+      "width": 1672,
+      "height": 941,
+      "sha256": "340235c2a044de49eb74c14b9054a3a4cfbd873f801cf2b716ae115177ca7f65",
+      "bytes": 2293924,
+      "artist_manifest": "image_manifest_artist3.json",
+      "final_storyboard_first_frame": "처음부터 열린 마주 보는 패널. 직원은 표시된 회색·주황 파일 두 개를 이미 팔에 안고 통화 중. 기사는 벨트에 손 뻗기 전.",
+      "final_storyboard_next_motion": "직원 청강 결정→기사가 재운송 준비→작은 파일 들어 “제가 갈게요”→기사 손 멈춤. 패널 개방·파일 수거 동작 없음.",
+      "final_review": {
+        "status": "accepted_for_storyboard_first_frame",
+        "reviewers": [
+          "A",
+          "B",
+          "C"
+        ],
+        "records": [
+          "image_reviews_A.json",
+          "image_reviews_B.json",
+          "image_reviews_C.json",
+          "image_reviews_C04.json",
+          "image_reviews_C05.json",
+          "image_cross_reviews.json",
+          "image_cross_reviews_final.json",
+          "image_final_confirmation.json"
+        ],
+        "limits": "정지 이미지와 계획 검토. 동작·음성·관객반응 미검증. 별도 표기한 UI/도식/자막은 후편집 대상."
+      },
+      "reused_from_run": "2026-10-18_keep3-rebuild-v5",
+      "new_generation_in_this_run": false,
+      "linked_cuts": [
+        "K07"
+      ],
+      "review_status": "three_independent_reviews_cross_check_and_revision_confirmation_complete"
+    },
+    {
+      "concept_id": "C03",
+      "cut_id": "K08",
+      "scene_id": "S08",
+      "image_path": "images/C03/K08.png",
+      "prompt": "Use case: ads-marketing. New independent final first frame C03 K08, 16:9 cinematic photorealistic Korean industrial commercial. Reference image is exact characters, wardrobe, modules and spatial continuity. A substantially WIDER elevated establishing view than reference, pulled far back with clear expansive blue sky occupying the TOP HALF or more, reserved fully empty for later event-title typography. Two intact office modules sit safely on the concrete in the LOWER THIRD of picture: teal-trim white office A on LEFT, orange-trim white office B on RIGHT. The facing architectural bifold glass walls on BOTH are already fully open, with folded leaves visible, tidy office A and revision-note office B. R is small in the lower center foreground, just beginning to depart toward camera, already holding the SAME TWO closed files, gray and orange, against her chest with both arms. Phone put away. Same Korean woman, tied black hair, beige blouse, teal vest, charcoal trousers. T remains STANDING behind her, in yellow hard hat with chin strap still fastened, navy jacket, orange reflective vest, black trousers, gray gloves. A plain black work chair sits behind T ready for him to sit in the subsequent motion, but he is NOT sitting yet and NOT loosening strap yet. Small metal table remains next to left module. Sunny industrial yard, warehouses low on horizon. Scale contrast: huge rooms stay, person takes just two small files. No crane or objects obscuring upper sky; no new module, no crowd, no paper confetti. This image is the starting moment before exit and relieved sitting, not their completed actions. NO text anywhere, title and CTA will be added later; no logo or watermark. Preserve photographic specificity and polished natural sunlight.",
+      "reference_images": [
+        "\\\\wsl.localhost\\Ubuntu-24.04\\home\\wooseok\\wsy\\samsung_related\\slide\\AI실행결과발표대회_디자인3종\\storyboards\\2026-10-18_story-reset-v4\\images\\C03\\K07.png"
+      ],
+      "source_generated_path": "C:\\Users\\wseok\\.codex\\generated_images\\01a14def-34dd-73a2-89ef-a6c63e3cb2ed\\exec-9c11e4bf-4f90-4831-8ce6-43154f08cc4d.png",
+      "generation_tool": "image_gen",
+      "artist_review": {
+        "opened_actual_image": true,
+        "status": "artist_pass",
+        "notes": "두 방 잔류, R 파일 두 개 안고 출발, T 아직 서 있음, 빈 의자 확보. 상단 하늘 무문자 여백 확보. 높은 와이드보다 눈높이에 가까운 와이드 구도는 제안값."
+      },
+      "selected": true,
+      "first_frame": "마주 보는 패널이 열린 두 방. 직원은 두 질문 기록을 안고 전경으로 나가려 함. 기사는 아직 서 있음. 하늘 무문자.",
+      "next_motion": "직원 퇴장→기사 끈 풀고 착석. 제목 후편집.",
+      "width": 1672,
+      "height": 941,
+      "sha256": "9da7ad62a267eaef1b8e709558dceba56b9072c5e8d49df2c0cc716b0ed66e77",
+      "bytes": 2164333,
+      "artist_manifest": "image_manifest_artist3.json",
+      "final_storyboard_first_frame": "마주 보는 패널이 열린 두 방. 직원은 두 질문 기록을 안고 전경으로 나가려 함. 기사는 아직 서 있음. 하늘 무문자.",
+      "final_storyboard_next_motion": "직원 퇴장→기사 끈 풀고 착석. 제목 후편집.",
+      "final_review": {
+        "status": "accepted_for_storyboard_first_frame",
+        "reviewers": [
+          "A",
+          "B",
+          "C"
+        ],
+        "records": [
+          "image_reviews_A.json",
+          "image_reviews_B.json",
+          "image_reviews_C.json",
+          "image_reviews_C04.json",
+          "image_reviews_C05.json",
+          "image_cross_reviews.json",
+          "image_cross_reviews_final.json",
+          "image_final_confirmation.json"
+        ],
+        "limits": "정지 이미지와 계획 검토. 동작·음성·관객반응 미검증. 별도 표기한 UI/도식/자막은 후편집 대상."
+      },
+      "reused_from_run": "2026-10-18_keep3-rebuild-v5",
+      "new_generation_in_this_run": false,
+      "linked_cuts": [
+        "K08"
+      ],
+      "review_status": "three_independent_reviews_cross_check_and_revision_confirmation_complete"
+    }
+  ],
+  "new_generation_in_this_run": false
+}

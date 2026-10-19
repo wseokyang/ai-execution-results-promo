@@ -1,0 +1,295 @@
+{
+  "images": [
+    {
+      "concept_id": "C01",
+      "cut_id": "K01",
+      "scene_id": "S01",
+      "linked_cuts": [
+        "K01"
+      ],
+      "image_path": "images/C01/S01.png",
+      "prompt": "Use case: ads-marketing. Asset: C01 S01 K01, first frame of a Korean absurd comedy commercial, single continuous cinematic live-action shot, widescreen 16:9.\nA serious premium athletic training studio, dark teal walls, warm rim lighting and real sweat, gray thick exercise mat centered on wooden floor. Physical openable door on far LEFT, one large black screen and small laptop on a wheeled cart at far RIGHT, screen dark. A gigantic landscape paper photograph hangs centrally on the wall. The photograph shows ONLY the tightly cropped upper torso of a fictional Korean man in his 30s, short neat black hair, light blue button-up shirt, leaning backwards 25 degrees toward screen right while his RIGHT hand reaches forward/up toward screen left, spread fingers, as if balancing. The crop hides ALL chair, legs and floor; no text.\nIn front of the photo, a Korean woman student in her 30s with a black bob haircut and lemon-yellow tracksuit sits on the very front edge of a LOW black armless wheeled office chair on the mat. Her torso leans backwards toward screen right at exactly the same angle as the man in the photo. She extends her RIGHT hand towards screen left in exactly the same gesture, fingers slightly bent; focused effort and sweat, no pain. A Korean female coach in her 40s, neat bun, burgundy headband, plain burgundy tracksuit and tiny whistle necklace stands just left of the student, sternly scrutinizing her hand. Coach's two fingertips hover 2cm from student's right index finger, not yet touching.\nIn the right rear stand two observers, clearly separate: Korean male pupil in teal tracksuit with short curly hair, and young Korean male assistant in gray polo shirt and black trousers holding a compact black mirrorless camera at his waist. Exactly four real people in the room plus the man pictured on the poster. Eye-level locked WIDE full-body framing, door/photo/chair/cart all visible, clear readable hand-gesture comparison. Humor through obsessive athletic seriousness applied to an absurd pose. Photoreal skin and fabrics, filmic contrast, no generic stock-photo smiles. No captions, labels, writing, logos, watermarks, readable interface. No collage, no panels. Anatomically correct hands and legs.",
+      "reference_images": [],
+      "source_generated_path": "C:\\Users\\wseok\\.codex\\generated_images\\01a14ee7-1348-7291-8847-25a24f8c5fd0\\exec-06e78a92-36c4-44d7-9bd4-1634c66369e2.png",
+      "generation_tool": "image_gen",
+      "selected": true,
+      "followup_motion": "T가 손가락만 2cm 펴 준다. L1은 숨을 참고 자세를 유지한다. 고정 카메라.",
+      "artist_review": {
+        "opened_actual_image": true,
+        "status": "artist_pass",
+        "notes": "생성 도구 실제 반환 이미지 열람. 포스터 크롭·손모양과 수강생 몸모양 비교, 코치 손 접근 직전, 4인/문/카트 확인. 의상에 매우 작은 비문자 장식이 있으나 읽히는 문자·브랜드 없음."
+      },
+      "width": 1672,
+      "height": 941,
+      "sha256": "ab3e1d18cb295359c7f7942caf356491f8e25a2309801e2f2ff1ab3221d09490",
+      "original_copy_sha256_match": true,
+      "source_copy_sha256_match": true,
+      "new_generation_in_this_run": false,
+      "first_frame": "L1의 오른손 손가락이 살짝 구부러져 있고 T의 두 손가락은 아직 닿기 직전. 벽 사진에는 같은 손모양과 기울어진 상체만 크게 보이며 의자·다리·바닥은 잘려 있다.",
+      "next_motion": "T가 손가락만 2cm 펴 준다. L1은 숨을 참고 자세를 유지한다. 카메라는 움직이지 않는다.",
+      "review_status": "three_independent_reviews_cross_check_and_revision_confirmation_complete",
+      "reused_from_run": "2026-10-18_keep3-rebuild-v5"
+    },
+    {
+      "concept_id": "C01",
+      "cut_id": "K02",
+      "scene_id": "S02",
+      "linked_cuts": [
+        "K02"
+      ],
+      "image_path": "images/C01/S02_v2.png",
+      "prompt": "Use case: precise-object-edit. Edit this C01 S02 cinematic frame with exactly one staging correction. Keep the camera, poster photograph, all faces, lighting, clothing, colors and student's leaning pose exactly the same. Change ONLY the burgundy female coach's raised right hand/forearm: her hand no longer reaches toward the student's fingers. Instead she holds a straight open palm beside the student's LEFT shoulder (the shoulder nearest the coach, screen-center), hovering about 5cm above it, tilted at the same diagonal as the student's shoulders, visibly measuring the torso angle. The student still extends her own right arm to screen left, and the coach's hand must not touch it. Keep the coach's other arm down and keep the same concentrated expression. Anatomically natural elbow and fingers. No new objects, text or branding. 16:9.",
+      "reference_images": [
+        "\\\\wsl.localhost\\Ubuntu-24.04\\home\\wooseok\\wsy\\samsung_related\\slide\\AI실행결과발표대회_디자인3종\\storyboards\\2026-10-18_keep3-rebuild-v5\\images\\C01\\S02.png"
+      ],
+      "source_generated_path": "C:\\Users\\wseok\\.codex\\generated_images\\01a14ee7-1348-7291-8847-25a24f8c5fd0\\exec-95adfd0a-b60b-46fb-80f5-2a3579364055.png",
+      "generation_tool": "image_gen",
+      "selected": true,
+      "followup_motion": "L1이 상체 각도를 조금 더 기울이고 손끝을 편다. T가 엄숙히 한 번 고개를 끄덕인다.",
+      "artist_review": {
+        "opened_actual_image": true,
+        "status": "artist_pass",
+        "notes": "수정 생성 결과 실제 열람. 코치 손이 수강생 어깨 근처에 떠서 각도를 재는 제스처로 수정됨. 포스터·인물·복장 연속성 유지."
+      },
+      "width": 1672,
+      "height": 941,
+      "sha256": "4c687b1f004130affb7139ec26357a842fd529e0c30565f8f65e22e8a3a36652",
+      "original_copy_sha256_match": true,
+      "source_copy_sha256_match": true,
+      "new_generation_in_this_run": false,
+      "first_frame": "벽 사진 속 P와 L1의 상체가 같은 방향으로 기울어 있다. T의 손바닥은 L1 어깨 옆에서 각도를 표시하기 직전. 사진 속 의자나 바닥은 보이지 않는다.",
+      "next_motion": "L1이 상체 각도를 조금 더 기울이고 손끝을 편다. T가 엄숙히 한 번 고개를 끄덕인다.",
+      "review_status": "three_independent_reviews_cross_check_and_revision_confirmation_complete",
+      "reused_from_run": "2026-10-18_keep3-rebuild-v5"
+    },
+    {
+      "concept_id": "C01",
+      "cut_id": "K03",
+      "scene_id": "S03",
+      "linked_cuts": [
+        "K03"
+      ],
+      "image_path": "images/C01/S03.png",
+      "prompt": "Use case: ads-marketing. C01 S03 K03 first frame, 16:9 photoreal cinema still, a new medium-wide view of the SAME dark teal training studio in Image 1. Image 1 is exact identity/room/wardrobe/poster reference; preserve these precisely.\nFrame the RIGHT portion of the room. At screen left include part of the same huge physical wall poster: its light-blue-shirted Korean man leaning backwards right, right hand stretched to left, exact image content unchanged. In front of the wall at center stands the REAL man from that poster, same face and hairstyle, now relaxed and upright in the identical light-blue button-up shirt, dark gray trousers and white sneakers. His right hand rests over a laptop keyboard ready to press play, not yet pressed. At screen right is the same LARGE landscape black monitor on a tall black wheeled cart with the laptop below, no messy cables. On the large monitor display the SAME tightly cropped photo-frame of this man and his reaching right hand as in the poster, matching the very same instant and angle. It must show ONLY upper torso, no chair, floor or legs. Image on screen is large, bright and clear, no interface elements, no playback icon, no text.\nBurgundy female coach with bun, burgundy headband and whistle stands left of the real man, sternly checking him rather than looking at the screen, preserve identity from Image 1. Others can be out of this tighter framing. No one repeats the leaning pose in real space in this shot. Cinematic warm side light, real skin, teal walls and wooden floor consistent. The poster and monitor are physical objects within ONE coherent room shot, not a graphic layout or collage. No captions, text, logos or watermarks. Facial continuity of man across poster, screen and real person is essential.",
+      "reference_images": [
+        "\\\\wsl.localhost\\Ubuntu-24.04\\home\\wooseok\\wsy\\samsung_related\\slide\\AI실행결과발표대회_디자인3종\\storyboards\\2026-10-18_keep3-rebuild-v5\\images\\C01\\S01.png"
+      ],
+      "source_generated_path": "C:\\Users\\wseok\\.codex\\generated_images\\01a14ee7-1348-7291-8847-25a24f8c5fd0\\exec-08eaa168-b454-4c30-a562-a4093797ae72.png",
+      "generation_tool": "image_gen",
+      "selected": true,
+      "followup_motion": "P가 재생 키를 누른다. 모니터가 크롭 없는 원본으로 넘어가려는 순간 K04로 컷한다.",
+      "artist_review": {
+        "opened_actual_image": true,
+        "status": "artist_pass",
+        "notes": "생성 결과 실제 열람. 포스터·모니터·실물 P의 얼굴/하늘색 셔츠 연속성, 재생키에 올린 손, 코치의 시선 확인. 화면은 같은 상체 크롭이며 작은 UI 없음."
+      },
+      "width": 1672,
+      "height": 941,
+      "sha256": "3c4890378e36982cc5c1e6342cae3631bf706d725f7de7c2286497c30ff5bfef",
+      "original_copy_sha256_match": true,
+      "source_copy_sha256_match": true,
+      "new_generation_in_this_run": false,
+      "first_frame": "P가 포스터와 같은 하늘색 셔츠를 입고 노트북 재생 키에 손을 올린 상태. 큰 모니터는 사진과 같은 자세로 정지해 있다. 로고·작은 UI·문구 없음.",
+      "next_motion": "P가 재생 키를 누른다. 모니터가 크롭 없는 원본으로 넘어가려는 순간 K04로 컷한다.",
+      "review_status": "three_independent_reviews_cross_check_and_revision_confirmation_complete",
+      "reused_from_run": "2026-10-18_keep3-rebuild-v5"
+    },
+    {
+      "concept_id": "C01",
+      "cut_id": "K04",
+      "scene_id": "S04",
+      "linked_cuts": [
+        "K04"
+      ],
+      "image_path": "images/C01/S04_v2.png",
+      "prompt": "Use case: precise-object-edit. C01 S04 revision, 16:9. Image 1 is the edit target; Image 2 is chair-design reference only. Preserve Image 1's entire camera setup, wall poster, monitor bezel/cart, man inside monitor, exact pre-slip body pose/right arm, mat, lighting, every spatial position.\nModify ONLY the low black wheeled chair INSIDE THE MONITOR. Add the same small padded black rounded rectangular backrest with one central support that the chair in Image 2 has, so it reads as the same low armless task chair, not a backless stool. It is still displaced to the man's right, beginning to slide out, upright on wheels; he is still perched precariously on the left front edge, not yet on the floor. Do not move or change the man's body/face/arm, do not change the cropped poster, and do not enlarge the chair or add armrests. No text, logo, watermark or interface.",
+      "reference_images": [
+        "\\\\wsl.localhost\\Ubuntu-24.04\\home\\wooseok\\wsy\\samsung_related\\slide\\AI실행결과발표대회_디자인3종\\storyboards\\2026-10-18_keep3-rebuild-v5\\images\\C01\\S04.png",
+        "\\\\wsl.localhost\\Ubuntu-24.04\\home\\wooseok\\wsy\\samsung_related\\slide\\AI실행결과발표대회_디자인3종\\storyboards\\2026-10-18_keep3-rebuild-v5\\images\\C01\\S05.png"
+      ],
+      "source_generated_path": "C:\\Users\\wseok\\.codex\\generated_images\\01a14ee7-1348-7291-8847-25a24f8c5fd0\\exec-b2abc371-ffe4-45bd-a156-bc80f9908bfc.png",
+      "generation_tool": "image_gen",
+      "selected": true,
+      "followup_motion": "고정된 큰 모니터 안에서 의자가 옆으로 밀려 빠지고 P가 매트에 낮게 풀썩한다. 오른손이 균형을 잡다 내려간다. 포스터는 움직이지 않아 원인과 크롭의 차이가 보인다.",
+      "artist_review": {
+        "opened_actual_image": true,
+        "status": "artist_pass",
+        "notes": "수정 생성 결과 실제 열람. 모니터 안 의자의 둥근 패드 등받이를 S05와 맞춤. P는 아직 바닥 전이며 포스터와 같은 손모양·기울기 유지. 이 컷은 독립 PNG이며 실제 미끄러짐 움직임은 미생성."
+      },
+      "width": 1672,
+      "height": 941,
+      "sha256": "e9213a81ca38afcf758dfe1fbe0bc35aeec6d6d0a6b49b92ffa619007d73a4b0",
+      "original_copy_sha256_match": true,
+      "source_copy_sha256_match": true,
+      "new_generation_in_this_run": false,
+      "first_frame": "왼쪽 포스터는 하늘색 셔츠 P의 비스듬한 상체와 오른손만 크롭한다. 오른쪽 모니터의 더 넓은 원본은 같은 사람·같은 순간·같은 손모양이며, 그 아래 비스듬히 빠지기 시작한 바퀴 의자와 매트가 처음 보인다. P는 아직 바닥에 앉기 전이다.",
+      "next_motion": "고정된 큰 모니터 안에서 의자가 옆으로 밀려 빠지고 P가 매트에 낮게 풀썩한다. 오른손이 균형을 잡다 내려간다. 포스터는 움직이지 않아 원인과 크롭의 차이가 보인다.",
+      "review_status": "three_independent_reviews_cross_check_and_revision_confirmation_complete",
+      "reused_from_run": "2026-10-18_keep3-rebuild-v5"
+    },
+    {
+      "concept_id": "C01",
+      "cut_id": "K05",
+      "scene_id": "S05",
+      "linked_cuts": [
+        "K05"
+      ],
+      "image_path": "images/C01/S05.png",
+      "prompt": "Use case: ads-marketing. C01 S05 K05 first frame, one 16:9 photoreal cinematic wide shot. Image 1 is the exact room, cast and equipment reference; Image 2 is the real blue-shirt man's identity and monitor reference. Return to Image 1's eye-level wide composition: open wooden door at FAR LEFT, massive unchanged cropped upper-body poster center, gray thick mat and low black wheeled chair center, monitor and cart at RIGHT. All five fictional Korean characters present now, identities and wardrobe exactly preserved.\nLEFT group: the bob-haired woman student in lemon-yellow tracksuit has just stood up from the chair and is standing normally, facing the blue-shirted man with a curious question about his real work. She is not gesturing with the absurd raised hand anymore. The real poster man wears light blue shirt, dark gray trousers, white sneakers, and stands near the left door, his open hand inviting her toward that door; they have NOT walked out yet.\nCENTER: the burgundy tracksuit female coach with bun/headband/whistle stands beside the now EMPTY low black armless wheeled chair, staring at the empty seat with offended determination. Her hand is about to reach for the chair, not yet moving it. Keep the chair on the gray mat.\nRIGHT rear: curly-haired male student in teal tracksuit and gray-polo black-trousered camera assistant wait solemnly. Five real people, no extras. Same giant poster unchanged, still showing only torso/right hand. At the far-right monitor the uncropped original is now paused after its action: blue-shirted man seated LOW on the mat, chair beside him, no UI; monitor is peripheral so don't let it dominate. Match same teal walls/wooden floor, golden sports-ad rim lighting and serious tension. Everyone is anatomically realistic, no slapstick injury or pain. No captions, text, badges, logos or watermark. Single camera setup, no panels.",
+      "reference_images": [
+        "\\\\wsl.localhost\\Ubuntu-24.04\\home\\wooseok\\wsy\\samsung_related\\slide\\AI실행결과발표대회_디자인3종\\storyboards\\2026-10-18_keep3-rebuild-v5\\images\\C01\\S01.png",
+        "\\\\wsl.localhost\\Ubuntu-24.04\\home\\wooseok\\wsy\\samsung_related\\slide\\AI실행결과발표대회_디자인3종\\storyboards\\2026-10-18_keep3-rebuild-v5\\images\\C01\\S03.png"
+      ],
+      "source_generated_path": "C:\\Users\\wseok\\.codex\\generated_images\\01a14ee7-1348-7291-8847-25a24f8c5fd0\\exec-39c4880d-8671-474a-b620-0e752848bd23.png",
+      "generation_tool": "image_gen",
+      "selected": true,
+      "followup_motion": "P와 L1이 왼쪽 문 쪽으로 두 걸음 이동한다. T는 의자를 자기 앞 매트 중앙으로 20cm 당긴다.",
+      "artist_review": {
+        "opened_actual_image": true,
+        "status": "artist_pass",
+        "notes": "생성 결과 실제 열람. 다섯 인물/문 방향 열린 손/의자에서 일어난 L1/빈 의자 바라보는 코치/관찰자 위치 확인. 모니터에는 원본 진행 후 매트에 앉은 P. 의자 등받이는 이 컷에서 크게 보이므로 S04 의자와 추가 일치 점검."
+      },
+      "width": 1672,
+      "height": 941,
+      "sha256": "9eae38d365fea0638467dac7d7412367bbba942ded224d5be7d0930d78e31c09",
+      "original_copy_sha256_match": true,
+      "source_copy_sha256_match": true,
+      "new_generation_in_this_run": false,
+      "first_frame": "L1이 일어나 P에게 질문하려는 얼굴. P는 왼쪽 문 방향으로 손을 펼치고 T는 빈 의자를 바라본다.",
+      "next_motion": "P와 L1이 왼쪽 문 쪽으로 두 걸음 이동한다. T는 의자를 자기 앞 매트 중앙으로 20cm 당긴다.",
+      "review_status": "three_independent_reviews_cross_check_and_revision_confirmation_complete",
+      "reused_from_run": "2026-10-18_keep3-rebuild-v5"
+    },
+    {
+      "concept_id": "C01",
+      "cut_id": "K06",
+      "scene_id": "S06",
+      "linked_cuts": [
+        "K06"
+      ],
+      "image_path": "images/C01/S06_v2.png",
+      "prompt": "Use case: precise-object-edit. C01 S06 revision. Image 1 is the edit target, Image 2 is monitor-content reference. Change ONLY the currently dark large monitor on the far RIGHT of Image 1: restore the same paused video image seen on the monitor in Image 2, showing the light-blue-shirted man sitting low on the mat beside his black wheeled chair. Keep that image fitting naturally within the existing black bezel and perspective, with no UI or text. Preserve EVERYTHING ELSE in Image 1 exactly: coach still seated on edge of chair copying the poster, raised right arm, all faces and clothing, camera angle, photo, room, mat, chair position, two standing men. Do not move camera or alter lighting, add people or add words. 16:9.",
+      "reference_images": [
+        "\\\\wsl.localhost\\Ubuntu-24.04\\home\\wooseok\\wsy\\samsung_related\\slide\\AI실행결과발표대회_디자인3종\\storyboards\\2026-10-18_keep3-rebuild-v5\\images\\C01\\S06.png",
+        "\\\\wsl.localhost\\Ubuntu-24.04\\home\\wooseok\\wsy\\samsung_related\\slide\\AI실행결과발표대회_디자인3종\\storyboards\\2026-10-18_keep3-rebuild-v5\\images\\C01\\S05.png"
+      ],
+      "source_generated_path": "C:\\Users\\wseok\\.codex\\generated_images\\01a14ee7-1348-7291-8847-25a24f8c5fd0\\exec-11544be9-3089-445a-92d8-3f2f74d858cb.png",
+      "generation_tool": "image_gen",
+      "selected": true,
+      "followup_motion": "의자가 옆으로 밀리자 T의 몸이 매트에 낮게 풀썩 뒤집힌다. 곧바로 오른팔과 굽힌 무릎을 굳혀 의도한 자세인 척한다. 충격 자체보다 멈춰서 권위를 지키는 표정에 집중한다.",
+      "artist_review": {
+        "opened_actual_image": true,
+        "status": "artist_pass",
+        "notes": "수정 결과 실제 열람. 우측 모니터를 S05의 P 착석 정지화면으로 복구. 코치 의자 시작 자세/오른손/나머지 두 사람 유지. S07에서 등을 대는 결과로 연결 예정."
+      },
+      "width": 1672,
+      "height": 941,
+      "sha256": "2e237c16fb686807d6dfa7c5a5afc0aab463c6c2a330799fca6eff14771c5aaa",
+      "original_copy_sha256_match": true,
+      "source_copy_sha256_match": true,
+      "new_generation_in_this_run": false,
+      "first_frame": "T는 아직 의자 끝에 앉아 오른손을 들고 있다. 양발은 매트 가까이, 의자는 낮고 몸 뒤로 조금 이동할 여유가 있다.",
+      "next_motion": "의자가 옆으로 밀리자 T의 몸이 매트에 낮게 풀썩 뒤집힌다. 곧바로 오른팔과 굽힌 무릎을 굳혀 의도한 자세인 척한다. 충격 자체보다 멈춰서 권위를 지키는 표정에 집중한다.",
+      "review_status": "three_independent_reviews_cross_check_and_revision_confirmation_complete",
+      "reused_from_run": "2026-10-18_keep3-rebuild-v5"
+    },
+    {
+      "concept_id": "C01",
+      "cut_id": "K07",
+      "scene_id": "S07",
+      "linked_cuts": [
+        "K07"
+      ],
+      "image_path": "images/C01/S07_v2.png",
+      "prompt": "Use case: precise-object-edit. Edit C01 S07 with one cosmetic correction only. Remove all tiny brand-like chest or trouser emblems, wordmarks and logos from the burgundy coach's tracksuit, teal pupil's tracksuit and gray polo. Replace each tiny emblem with the same uninterrupted underlying fabric color and texture. Garments are entirely unbranded, no tiny animal/leaf symbols. Keep decorative seam stripes. Preserve everything else pixel-faithfully: all three identities, facial expressions, body poses (coach on her back with right arm and one knee up), photographer kneeling, pupil standing, hands, feet, floor, poster, chair, monitor and camera framing. Do not change pose or lighting. No new text or watermarks. 16:9.",
+      "reference_images": [
+        "\\\\wsl.localhost\\Ubuntu-24.04\\home\\wooseok\\wsy\\samsung_related\\slide\\AI실행결과발표대회_디자인3종\\storyboards\\2026-10-18_keep3-rebuild-v5\\images\\C01\\S07.png"
+      ],
+      "source_generated_path": "C:\\Users\\wseok\\.codex\\generated_images\\01a14ee7-1348-7291-8847-25a24f8c5fd0\\exec-9f6b8bcf-d235-4680-b773-3a1b80eaa46b.png",
+      "generation_tool": "image_gen",
+      "selected": true,
+      "followup_motion": "A가 셔터를 누른다. T는 자세를 더 굳히고 L2가 그 옆 매트로 몸을 낮추기 시작한다.",
+      "artist_review": {
+        "opened_actual_image": true,
+        "status": "needs_review",
+        "notes": "실제 이미지 열람. 로고 유사 장식 제거, 코치/제자/촬영 구도 유지. 호루라기는 보이지 않음. 총괄이 개그 핵심 아닌 미세 소품 차이로 추가 생성 불요 지시해 검수 관찰로 남김."
+      },
+      "width": 1672,
+      "height": 941,
+      "sha256": "1c0c35af0bcc160e439633110dd53c21dc6d2f721d2fd23a2e92b834d2d08b61",
+      "original_copy_sha256_match": true,
+      "source_copy_sha256_match": true,
+      "new_generation_in_this_run": false,
+      "first_frame": "T는 등을 매트에 대고 한 무릎을 굽혀 올린 채 오른팔을 들고 있다. A는 무릎을 꿇고 카메라를 향한다. L2는 아직 서 있지만 T의 굽힌 무릎을 유심히 보고 있다.",
+      "next_motion": "A가 셔터를 누른다. T는 자세를 더 굳히고 L2가 그 옆 매트로 몸을 낮추기 시작한다.",
+      "review_status": "three_independent_reviews_cross_check_and_revision_confirmation_complete",
+      "reused_from_run": "2026-10-18_keep3-rebuild-v5"
+    },
+    {
+      "concept_id": "C01",
+      "cut_id": "K08",
+      "scene_id": "S08",
+      "linked_cuts": [
+        "K08"
+      ],
+      "image_path": "images/C01/S08_v2.png",
+      "prompt": "Use case: precise-object-edit. C01 S08 critical staging correction. Preserve this 16:9 image's whole set, people, faces, poses, costumes, camera, chair, monitor, poster, coach's silver whistle, lighting and photographer.\nChange ONLY the male pupil's RIGHT arm. He is the teal-clad man lying BEHIND the burgundy coach. His right arm must be lifted diagonally toward upper-left in the exact same gesture as the coach, with an open spread-finger right hand. Place his teal sleeve and hand visibly to the LEFT of the coach's raised burgundy arm, with 20cm clear visual gap, no occlusion/overlap. There must be TWO distinct raised arms and TWO distinct hands visible, one belonging to each person, attached anatomically to their respective shoulders. The teal pupil's left arm remains resting beside his body, and both people retain one bent raised knee and one straight leg. Do not add a third arm or move the coach. The viewer must instantly see that the pupil copies the coach's arm as well as her knee. No text/brand/logo or other changes.",
+      "reference_images": [
+        "\\\\wsl.localhost\\Ubuntu-24.04\\home\\wooseok\\wsy\\samsung_related\\slide\\AI실행결과발표대회_디자인3종\\storyboards\\2026-10-18_keep3-rebuild-v5\\images\\C01\\S08.png"
+      ],
+      "source_generated_path": "C:\\Users\\wseok\\.codex\\generated_images\\01a14ee7-1348-7291-8847-25a24f8c5fd0\\exec-15aa0bcd-8bd1-4de1-ba72-d9a341a1985f.png",
+      "generation_tool": "image_gen",
+      "selected": true,
+      "followup_motion": "L2가 발끝을 T와 같은 방향으로 꺾는다. T가 눈으로 만족을 표시하고 A의 셔터가 한 번 울린다.",
+      "artist_review": {
+        "opened_actual_image": true,
+        "status": "artist_pass",
+        "notes": "수정 결과 실제 열람. 코치와 제자의 오른팔 두 개/손 두 개가 각각 보여 팔·굽힌 무릎 복제가 한눈에 읽힘. 등은 매트에 닿고 조수 촬영 구도 유지. 제자 시선과 발끝 미세 각도는 영상에서 연출할 사항."
+      },
+      "width": 1672,
+      "height": 941,
+      "sha256": "2b5f6c7416474be240fc756ecd3171743aa458920310e7040d5295210d194147",
+      "original_copy_sha256_match": true,
+      "source_copy_sha256_match": true,
+      "new_generation_in_this_run": false,
+      "first_frame": "두 사람은 이미 나란히 매트에 등을 댄 채 오른팔과 한 무릎을 들고 있다. L2의 발끝 각도만 T와 다르다. A는 둘을 함께 촬영한다.",
+      "next_motion": "L2가 발끝을 T와 같은 방향으로 꺾는다. T가 눈으로 만족을 표시하고 A의 셔터가 한 번 울린다.",
+      "review_status": "three_independent_reviews_cross_check_and_revision_confirmation_complete",
+      "reused_from_run": "2026-10-18_keep3-rebuild-v5"
+    },
+    {
+      "concept_id": "C01",
+      "cut_id": "K09",
+      "scene_id": "S09",
+      "linked_cuts": [
+        "K09"
+      ],
+      "image_path": "images/C01/S09.png",
+      "prompt": "Use case: ads-marketing. C01 S09 K09 final-shot FIRST FRAME, single 16:9 photoreal cinematic WIDE view. Image 1 is the cast/room/layout reference. Image 2 is the immediately preceding floor tableau to preserve EXACTLY. Keep all identities, wardrobe, poster content and floor poses.\nThe camera has pulled farther back and framed more of the room's LEFT side. Reveal additional uninterrupted dark teal wall space on the UPPER LEFT, at least 40% of image width and 40% of image height, empty with no art, objects, lights or words there; this is reserved for later Korean event-title overlay, DO NOT draw any text. Keep the existing wooden doorway at far-left/lower-left, still a little AJAR at start, warm hallway beyond. Poster remains physically to the RIGHT of that door, now in upper-right portion of this wider frame; monitor still farther right. Preserve spatial order, don't move objects relative to each other.\nIn LOWER RIGHT half, same burgundy woman coach and teal male pupil lie side by side on their BACKS on the gray mat, heads toward screen right, feet toward left, both with one RIGHT arm raised and one RIGHT knee bent up, left legs extended, matching the exact funny stiff copy pose from Image 2. TWO separate raised right hands clearly visible with gap, both bent knees visible, full bodies distinct and readable. Coach still wears bun, burgundy headband, small silver whistle on cord. Pupil earnestly copying; coach proudly certain. Gray-polo camera assistant kneels just to their LEFT aiming camera at them, same as prior shot. Empty low black wheeled chair behind their heads, monitor retains paused blue-shirt-man seated beside chair if visible. No other real people. Blue-shirt man exists only on physical unchanged torso poster and monitor.\nWarm sports commercial rim lighting, serious rich texture, comic tableau occupying lower right while upper left is clean negative space. This is still the same studio, not a new location. No text, logos, UI, watermarks or graphic panels. Unbranded clothes with seam stripes, no tiny emblems. Avoid shrinking people so far they become unreadable.",
+      "reference_images": [
+        "\\\\wsl.localhost\\Ubuntu-24.04\\home\\wooseok\\wsy\\samsung_related\\slide\\AI실행결과발표대회_디자인3종\\storyboards\\2026-10-18_keep3-rebuild-v5\\images\\C01\\S01.png",
+        "\\\\wsl.localhost\\Ubuntu-24.04\\home\\wooseok\\wsy\\samsung_related\\slide\\AI실행결과발표대회_디자인3종\\storyboards\\2026-10-18_keep3-rebuild-v5\\images\\C01\\S08_v2.png"
+      ],
+      "source_generated_path": "C:\\Users\\wseok\\.codex\\generated_images\\01a14ee7-1348-7291-8847-25a24f8c5fd0\\exec-a86cf999-f815-4941-b9a3-11b5efe84173.png",
+      "generation_tool": "image_gen",
+      "selected": true,
+      "followup_motion": "A가 한 장 더 찍고 T·L2는 자세를 유지한다. 왼쪽 문만 천천히 닫힌다. 카메라 고정.",
+      "artist_review": {
+        "opened_actual_image": true,
+        "status": "artist_pass",
+        "notes": "생성 결과 실제 열람. 두 인물 등/팔/한 무릎 복제와 조수 촬영 유지. 좌상단 빈 청록 벽 확보, 문 아직 열림, 포스터/모니터 존재. 장면 후속 움직임과 실제 자막 가독성은 영상 미제작으로 검증하지 않음."
+      },
+      "width": 1672,
+      "height": 941,
+      "sha256": "06f84039fa0e3e7a8e4ccfd9a69e2055bbba7e319faad002f010ebd5c323d980",
+      "original_copy_sha256_match": true,
+      "source_copy_sha256_match": true,
+      "new_generation_in_this_run": false,
+      "first_frame": "K08의 나란히 누운 T·L2와 조수. 팔과 굽힌 무릎 자세 유지, 좌상단 벽은 텍스트 없는 여백.",
+      "next_motion": "A가 한 장 더 찍고 T·L2는 자세를 유지한다. 왼쪽 문만 천천히 닫힌다. 카메라 고정.",
+      "review_status": "three_independent_reviews_cross_check_and_revision_confirmation_complete",
+      "reused_from_run": "2026-10-18_keep3-rebuild-v5"
+    }
+  ],
+  "new_generation_in_this_run": false
+}

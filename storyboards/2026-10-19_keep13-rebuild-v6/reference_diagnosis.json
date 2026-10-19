@@ -1,0 +1,19 @@
+{
+  "researcher": "/root/v6_reference",
+  "scope": "이번에 PPTX 1~3 XML 텍스트와 원안 PNG, V5 전체 컷·거절3안 contact, qrew 원참고 표본 이미지를 실제 확인. 공식 광고 설명 재조회. 광고 전체 연속 재생·음원 청취는 하지 않음.",
+  "rejected_v5": [
+    {"id":"C02","problem":"관심 대상 교체 이후 19초가 벨트 설치·엿보기·기어들기라는 작은 체면 개그. 반전이 새 판을 만들지 못함."},
+    {"id":"C04","problem":"첫 컷에 양보 규칙 전부 공개. 인물·비서 교체와 문 제거 후에도 같은 패턴 반복."},
+    {"id":"C05","problem":"귀가 위험→악기 공개 뒤 새 갈등이 약함. 개가 노트북을 돌려줘 다시 일하는 결말은 공유 행사 가치와 연결이 약함."}
+  ],
+  "retained_inference": "C01 반증에도 권위를 고수해 사고를 교본으로 복제하는 선택, C03 추상적 요구가 큰 물리적 사건이 되고 추가 정보로 판단이 바뀌는 전개를 새 안의 검토 기준으로 삼는다. 사용자 선택 이유를 직접 확인했다는 뜻은 아님.",
+  "references": [
+    {"title":"캐논 안정환의 파워무비","url":"https://www.youtube.com/watch?v=3KuYt8feH9s","evidence":"로컬 reference-v5/contact-opening.png 실제 재열람. YouTube 본문 재조회 실패.","interpretation":"능숙한 행동이 예상 밖 결과를 낳고 카메라의 기록 대상이 된다. 제품 기능과 사건이 서로 필요하다."},
+    {"title":"SSG 압도적 쓱케일","url":"https://www.shinsegaegroupnewsroom.com/ssg-dotcom-online-new-ad/","evidence":"공식 설명 확인","interpretation":"신선한 상품 배송이라는 약속의 실행 방식 자체를 황당하게 확대한다. 규모는 장식이 아닌 새 노동·사건의 원인."},
+    {"title":"왕의 추석선물3","url":"https://www.smcultureandcontents.com/ko/mobile/advertising/portfolio_view.asp?portfolio_srl=1360","evidence":"공식 제작 설명 확인","interpretation":"사극 위계와 판매 방송이 충돌하며 각 인물이 자기 장르를 진지하게 연기한다. 단순한 왕관 소품이 아님."},
+    {"title":"아임얼라이브 콤부차 Google 사례","url":"https://services.google.com/fh/files/events/imalive.pdf","evidence":"공개 사례 자료 2쪽만 확인, 신규 영상 화면·음성 미확인","interpretation":"낯선 캐릭터에 출신과 욕구가 있어야 한다. 단순 마스코트 추가나 노년 배우 추가는 해결책이 아님."}
+  ],
+  "qrew_scope": {"images":["../../../motion/qrew_old/reference-v5/contact-opening.png","../../../motion/qrew_old/reference-v7-v8/contact-448-544.png","../../../motion/qrew_old/v7-recut/output/QREW-v7-recut-storyboard.png"],"text":["reference-v5/analysis.txt","reference-v7-v8/analysis.txt","v7-recut/animation.js","v7-recut/README.txt","v7-recut/audio-notes.txt"],"finding":"백발·머리숱 적고 체격 큰 인물·웨이브 여성 등 서로 다른 주장이 인물 증가와 쟁탈로 번진다. 차분한 직원 한 명과 큰 표정의 인물들이 대비된다. 태국 해충 사례와 돌고래유괴단 작품은 구분한다."},
+  "creative_constraints": ["첫 반전 뒤 인물이 선택해서 새 사건을 일으킬 것", "행사 공유가 장르의 목표를 바꾸는 원인일 것; 노트북 앞에 모여 학습하는 결말 반복 금지", "나이 숫자뿐 아니라 첫 프레임의 얼굴·머리·체형·관계 구조로 서로 다른 캐스트를 구별할 것"],
+  "facts": {"event":"2026년 품질팀 AI 실행 결과 발표 대회","purpose":"AI 우수 과제·활용 역량 향상 경험 공유, 실천 문화 확산","unknown":["정확한 일시·장소","참석/추천/신청 방법","실제 발표 과제·성과 수치","상금"],"operating_draft_not_final":"11월2주·5~7건·발표7분+질의2분 등 원자료 운영안은 최종 홍보에 확정 사실로 쓰지 않는다.","not_required":"실패 경험 발표가 필수라는 규정 없음"}
+}

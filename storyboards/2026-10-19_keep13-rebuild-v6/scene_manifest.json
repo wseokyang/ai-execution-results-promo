@@ -1,0 +1,1545 @@
+{
+  "run_id": "2026-10-19_keep13-rebuild-v6",
+  "images": [
+    {
+      "concept_id": "C01",
+      "cut_id": "K01",
+      "scene_id": "S01",
+      "linked_cuts": [
+        "K01"
+      ],
+      "image_path": "images/C01/S01.png",
+      "prompt": "Use case: ads-marketing. Asset: C01 S01 K01, first frame of a Korean absurd comedy commercial, single continuous cinematic live-action shot, widescreen 16:9.\nA serious premium athletic training studio, dark teal walls, warm rim lighting and real sweat, gray thick exercise mat centered on wooden floor. Physical openable door on far LEFT, one large black screen and small laptop on a wheeled cart at far RIGHT, screen dark. A gigantic landscape paper photograph hangs centrally on the wall. The photograph shows ONLY the tightly cropped upper torso of a fictional Korean man in his 30s, short neat black hair, light blue button-up shirt, leaning backwards 25 degrees toward screen right while his RIGHT hand reaches forward/up toward screen left, spread fingers, as if balancing. The crop hides ALL chair, legs and floor; no text.\nIn front of the photo, a Korean woman student in her 30s with a black bob haircut and lemon-yellow tracksuit sits on the very front edge of a LOW black armless wheeled office chair on the mat. Her torso leans backwards toward screen right at exactly the same angle as the man in the photo. She extends her RIGHT hand towards screen left in exactly the same gesture, fingers slightly bent; focused effort and sweat, no pain. A Korean female coach in her 40s, neat bun, burgundy headband, plain burgundy tracksuit and tiny whistle necklace stands just left of the student, sternly scrutinizing her hand. Coach's two fingertips hover 2cm from student's right index finger, not yet touching.\nIn the right rear stand two observers, clearly separate: Korean male pupil in teal tracksuit with short curly hair, and young Korean male assistant in gray polo shirt and black trousers holding a compact black mirrorless camera at his waist. Exactly four real people in the room plus the man pictured on the poster. Eye-level locked WIDE full-body framing, door/photo/chair/cart all visible, clear readable hand-gesture comparison. Humor through obsessive athletic seriousness applied to an absurd pose. Photoreal skin and fabrics, filmic contrast, no generic stock-photo smiles. No captions, labels, writing, logos, watermarks, readable interface. No collage, no panels. Anatomically correct hands and legs.",
+      "reference_images": [],
+      "source_generated_path": "C:\\Users\\wseok\\.codex\\generated_images\\01a14ee7-1348-7291-8847-25a24f8c5fd0\\exec-06e78a92-36c4-44d7-9bd4-1634c66369e2.png",
+      "generation_tool": "image_gen",
+      "selected": true,
+      "followup_motion": "T가 손가락만 2cm 펴 준다. L1은 숨을 참고 자세를 유지한다. 고정 카메라.",
+      "artist_review": {
+        "opened_actual_image": true,
+        "status": "artist_pass",
+        "notes": "생성 도구 실제 반환 이미지 열람. 포스터 크롭·손모양과 수강생 몸모양 비교, 코치 손 접근 직전, 4인/문/카트 확인. 의상에 매우 작은 비문자 장식이 있으나 읽히는 문자·브랜드 없음."
+      },
+      "width": 1672,
+      "height": 941,
+      "sha256": "ab3e1d18cb295359c7f7942caf356491f8e25a2309801e2f2ff1ab3221d09490",
+      "original_copy_sha256_match": true,
+      "source_copy_sha256_match": true,
+      "new_generation_in_this_run": false,
+      "first_frame": "L1의 오른손 손가락이 살짝 구부러져 있고 T의 두 손가락은 아직 닿기 직전. 벽 사진에는 같은 손모양과 기울어진 상체만 크게 보이며 의자·다리·바닥은 잘려 있다.",
+      "next_motion": "T가 손가락만 2cm 펴 준다. L1은 숨을 참고 자세를 유지한다. 카메라는 움직이지 않는다.",
+      "review_status": "independent_actual_image_review_cross_check_and_required_closure_complete",
+      "reused_from_run": "2026-10-18_keep3-rebuild-v5"
+    },
+    {
+      "concept_id": "C01",
+      "cut_id": "K02",
+      "scene_id": "S02",
+      "linked_cuts": [
+        "K02"
+      ],
+      "image_path": "images/C01/S02_v2.png",
+      "prompt": "Use case: precise-object-edit. Edit this C01 S02 cinematic frame with exactly one staging correction. Keep the camera, poster photograph, all faces, lighting, clothing, colors and student's leaning pose exactly the same. Change ONLY the burgundy female coach's raised right hand/forearm: her hand no longer reaches toward the student's fingers. Instead she holds a straight open palm beside the student's LEFT shoulder (the shoulder nearest the coach, screen-center), hovering about 5cm above it, tilted at the same diagonal as the student's shoulders, visibly measuring the torso angle. The student still extends her own right arm to screen left, and the coach's hand must not touch it. Keep the coach's other arm down and keep the same concentrated expression. Anatomically natural elbow and fingers. No new objects, text or branding. 16:9.",
+      "reference_images": [
+        "\\\\wsl.localhost\\Ubuntu-24.04\\home\\wooseok\\wsy\\samsung_related\\slide\\AI실행결과발표대회_디자인3종\\storyboards\\2026-10-18_keep3-rebuild-v5\\images\\C01\\S02.png"
+      ],
+      "source_generated_path": "C:\\Users\\wseok\\.codex\\generated_images\\01a14ee7-1348-7291-8847-25a24f8c5fd0\\exec-95adfd0a-b60b-46fb-80f5-2a3579364055.png",
+      "generation_tool": "image_gen",
+      "selected": true,
+      "followup_motion": "L1이 상체 각도를 조금 더 기울이고 손끝을 편다. T가 엄숙히 한 번 고개를 끄덕인다.",
+      "artist_review": {
+        "opened_actual_image": true,
+        "status": "artist_pass",
+        "notes": "수정 생성 결과 실제 열람. 코치 손이 수강생 어깨 근처에 떠서 각도를 재는 제스처로 수정됨. 포스터·인물·복장 연속성 유지."
+      },
+      "width": 1672,
+      "height": 941,
+      "sha256": "4c687b1f004130affb7139ec26357a842fd529e0c30565f8f65e22e8a3a36652",
+      "original_copy_sha256_match": true,
+      "source_copy_sha256_match": true,
+      "new_generation_in_this_run": false,
+      "first_frame": "벽 사진 속 P와 L1의 상체가 같은 방향으로 기울어 있다. T의 손바닥은 L1 어깨 옆에서 각도를 표시하기 직전. 사진 속 의자나 바닥은 보이지 않는다.",
+      "next_motion": "L1이 상체 각도를 조금 더 기울이고 손끝을 편다. T가 엄숙히 한 번 고개를 끄덕인다.",
+      "review_status": "independent_actual_image_review_cross_check_and_required_closure_complete",
+      "reused_from_run": "2026-10-18_keep3-rebuild-v5"
+    },
+    {
+      "concept_id": "C01",
+      "cut_id": "K03",
+      "scene_id": "S03",
+      "linked_cuts": [
+        "K03"
+      ],
+      "image_path": "images/C01/S03.png",
+      "prompt": "Use case: ads-marketing. C01 S03 K03 first frame, 16:9 photoreal cinema still, a new medium-wide view of the SAME dark teal training studio in Image 1. Image 1 is exact identity/room/wardrobe/poster reference; preserve these precisely.\nFrame the RIGHT portion of the room. At screen left include part of the same huge physical wall poster: its light-blue-shirted Korean man leaning backwards right, right hand stretched to left, exact image content unchanged. In front of the wall at center stands the REAL man from that poster, same face and hairstyle, now relaxed and upright in the identical light-blue button-up shirt, dark gray trousers and white sneakers. His right hand rests over a laptop keyboard ready to press play, not yet pressed. At screen right is the same LARGE landscape black monitor on a tall black wheeled cart with the laptop below, no messy cables. On the large monitor display the SAME tightly cropped photo-frame of this man and his reaching right hand as in the poster, matching the very same instant and angle. It must show ONLY upper torso, no chair, floor or legs. Image on screen is large, bright and clear, no interface elements, no playback icon, no text.\nBurgundy female coach with bun, burgundy headband and whistle stands left of the real man, sternly checking him rather than looking at the screen, preserve identity from Image 1. Others can be out of this tighter framing. No one repeats the leaning pose in real space in this shot. Cinematic warm side light, real skin, teal walls and wooden floor consistent. The poster and monitor are physical objects within ONE coherent room shot, not a graphic layout or collage. No captions, text, logos or watermarks. Facial continuity of man across poster, screen and real person is essential.",
+      "reference_images": [
+        "\\\\wsl.localhost\\Ubuntu-24.04\\home\\wooseok\\wsy\\samsung_related\\slide\\AI실행결과발표대회_디자인3종\\storyboards\\2026-10-18_keep3-rebuild-v5\\images\\C01\\S01.png"
+      ],
+      "source_generated_path": "C:\\Users\\wseok\\.codex\\generated_images\\01a14ee7-1348-7291-8847-25a24f8c5fd0\\exec-08eaa168-b454-4c30-a562-a4093797ae72.png",
+      "generation_tool": "image_gen",
+      "selected": true,
+      "followup_motion": "P가 재생 키를 누른다. 모니터가 크롭 없는 원본으로 넘어가려는 순간 K04로 컷한다.",
+      "artist_review": {
+        "opened_actual_image": true,
+        "status": "artist_pass",
+        "notes": "생성 결과 실제 열람. 포스터·모니터·실물 P의 얼굴/하늘색 셔츠 연속성, 재생키에 올린 손, 코치의 시선 확인. 화면은 같은 상체 크롭이며 작은 UI 없음."
+      },
+      "width": 1672,
+      "height": 941,
+      "sha256": "3c4890378e36982cc5c1e6342cae3631bf706d725f7de7c2286497c30ff5bfef",
+      "original_copy_sha256_match": true,
+      "source_copy_sha256_match": true,
+      "new_generation_in_this_run": false,
+      "first_frame": "P가 포스터와 같은 하늘색 셔츠를 입고 노트북 재생 키에 손을 올린 상태. 큰 모니터는 사진과 같은 자세로 정지해 있다. 로고·작은 UI·문구 없음.",
+      "next_motion": "P가 재생 키를 누른다. 모니터가 크롭 없는 원본으로 넘어가려는 순간 K04로 컷한다.",
+      "review_status": "independent_actual_image_review_cross_check_and_required_closure_complete",
+      "reused_from_run": "2026-10-18_keep3-rebuild-v5"
+    },
+    {
+      "concept_id": "C01",
+      "cut_id": "K04",
+      "scene_id": "S04",
+      "linked_cuts": [
+        "K04"
+      ],
+      "image_path": "images/C01/S04_v2.png",
+      "prompt": "Use case: precise-object-edit. C01 S04 revision, 16:9. Image 1 is the edit target; Image 2 is chair-design reference only. Preserve Image 1's entire camera setup, wall poster, monitor bezel/cart, man inside monitor, exact pre-slip body pose/right arm, mat, lighting, every spatial position.\nModify ONLY the low black wheeled chair INSIDE THE MONITOR. Add the same small padded black rounded rectangular backrest with one central support that the chair in Image 2 has, so it reads as the same low armless task chair, not a backless stool. It is still displaced to the man's right, beginning to slide out, upright on wheels; he is still perched precariously on the left front edge, not yet on the floor. Do not move or change the man's body/face/arm, do not change the cropped poster, and do not enlarge the chair or add armrests. No text, logo, watermark or interface.",
+      "reference_images": [
+        "\\\\wsl.localhost\\Ubuntu-24.04\\home\\wooseok\\wsy\\samsung_related\\slide\\AI실행결과발표대회_디자인3종\\storyboards\\2026-10-18_keep3-rebuild-v5\\images\\C01\\S04.png",
+        "\\\\wsl.localhost\\Ubuntu-24.04\\home\\wooseok\\wsy\\samsung_related\\slide\\AI실행결과발표대회_디자인3종\\storyboards\\2026-10-18_keep3-rebuild-v5\\images\\C01\\S05.png"
+      ],
+      "source_generated_path": "C:\\Users\\wseok\\.codex\\generated_images\\01a14ee7-1348-7291-8847-25a24f8c5fd0\\exec-b2abc371-ffe4-45bd-a156-bc80f9908bfc.png",
+      "generation_tool": "image_gen",
+      "selected": true,
+      "followup_motion": "고정된 큰 모니터 안에서 의자가 옆으로 밀려 빠지고 P가 매트에 낮게 풀썩한다. 오른손이 균형을 잡다 내려간다. 포스터는 움직이지 않아 원인과 크롭의 차이가 보인다.",
+      "artist_review": {
+        "opened_actual_image": true,
+        "status": "artist_pass",
+        "notes": "수정 생성 결과 실제 열람. 모니터 안 의자의 둥근 패드 등받이를 S05와 맞춤. P는 아직 바닥 전이며 포스터와 같은 손모양·기울기 유지. 이 컷은 독립 PNG이며 실제 미끄러짐 움직임은 미생성."
+      },
+      "width": 1672,
+      "height": 941,
+      "sha256": "e9213a81ca38afcf758dfe1fbe0bc35aeec6d6d0a6b49b92ffa619007d73a4b0",
+      "original_copy_sha256_match": true,
+      "source_copy_sha256_match": true,
+      "new_generation_in_this_run": false,
+      "first_frame": "왼쪽 포스터는 하늘색 셔츠 P의 비스듬한 상체와 오른손만 크롭한다. 오른쪽 모니터의 더 넓은 원본은 같은 사람·같은 순간·같은 손모양이며, 그 아래 비스듬히 빠지기 시작한 바퀴 의자와 매트가 처음 보인다. P는 아직 바닥에 앉기 전이다.",
+      "next_motion": "고정된 큰 모니터 안에서 의자가 옆으로 밀려 빠지고 P가 매트에 낮게 풀썩한다. 오른손이 균형을 잡다 내려간다. 포스터는 움직이지 않아 원인과 크롭의 차이가 보인다.",
+      "review_status": "independent_actual_image_review_cross_check_and_required_closure_complete",
+      "reused_from_run": "2026-10-18_keep3-rebuild-v5"
+    },
+    {
+      "concept_id": "C01",
+      "cut_id": "K05",
+      "scene_id": "S05",
+      "linked_cuts": [
+        "K05"
+      ],
+      "image_path": "images/C01/S05.png",
+      "prompt": "Use case: ads-marketing. C01 S05 K05 first frame, one 16:9 photoreal cinematic wide shot. Image 1 is the exact room, cast and equipment reference; Image 2 is the real blue-shirt man's identity and monitor reference. Return to Image 1's eye-level wide composition: open wooden door at FAR LEFT, massive unchanged cropped upper-body poster center, gray thick mat and low black wheeled chair center, monitor and cart at RIGHT. All five fictional Korean characters present now, identities and wardrobe exactly preserved.\nLEFT group: the bob-haired woman student in lemon-yellow tracksuit has just stood up from the chair and is standing normally, facing the blue-shirted man with a curious question about his real work. She is not gesturing with the absurd raised hand anymore. The real poster man wears light blue shirt, dark gray trousers, white sneakers, and stands near the left door, his open hand inviting her toward that door; they have NOT walked out yet.\nCENTER: the burgundy tracksuit female coach with bun/headband/whistle stands beside the now EMPTY low black armless wheeled chair, staring at the empty seat with offended determination. Her hand is about to reach for the chair, not yet moving it. Keep the chair on the gray mat.\nRIGHT rear: curly-haired male student in teal tracksuit and gray-polo black-trousered camera assistant wait solemnly. Five real people, no extras. Same giant poster unchanged, still showing only torso/right hand. At the far-right monitor the uncropped original is now paused after its action: blue-shirted man seated LOW on the mat, chair beside him, no UI; monitor is peripheral so don't let it dominate. Match same teal walls/wooden floor, golden sports-ad rim lighting and serious tension. Everyone is anatomically realistic, no slapstick injury or pain. No captions, text, badges, logos or watermark. Single camera setup, no panels.",
+      "reference_images": [
+        "\\\\wsl.localhost\\Ubuntu-24.04\\home\\wooseok\\wsy\\samsung_related\\slide\\AI실행결과발표대회_디자인3종\\storyboards\\2026-10-18_keep3-rebuild-v5\\images\\C01\\S01.png",
+        "\\\\wsl.localhost\\Ubuntu-24.04\\home\\wooseok\\wsy\\samsung_related\\slide\\AI실행결과발표대회_디자인3종\\storyboards\\2026-10-18_keep3-rebuild-v5\\images\\C01\\S03.png"
+      ],
+      "source_generated_path": "C:\\Users\\wseok\\.codex\\generated_images\\01a14ee7-1348-7291-8847-25a24f8c5fd0\\exec-39c4880d-8671-474a-b620-0e752848bd23.png",
+      "generation_tool": "image_gen",
+      "selected": true,
+      "followup_motion": "P와 L1이 왼쪽 문 쪽으로 두 걸음 이동한다. T는 의자를 자기 앞 매트 중앙으로 20cm 당긴다.",
+      "artist_review": {
+        "opened_actual_image": true,
+        "status": "artist_pass",
+        "notes": "생성 결과 실제 열람. 다섯 인물/문 방향 열린 손/의자에서 일어난 L1/빈 의자 바라보는 코치/관찰자 위치 확인. 모니터에는 원본 진행 후 매트에 앉은 P. 의자 등받이는 이 컷에서 크게 보이므로 S04 의자와 추가 일치 점검."
+      },
+      "width": 1672,
+      "height": 941,
+      "sha256": "9eae38d365fea0638467dac7d7412367bbba942ded224d5be7d0930d78e31c09",
+      "original_copy_sha256_match": true,
+      "source_copy_sha256_match": true,
+      "new_generation_in_this_run": false,
+      "first_frame": "L1이 일어나 P에게 질문하려는 얼굴. P는 왼쪽 문 방향으로 손을 펼치고 T는 빈 의자를 바라본다.",
+      "next_motion": "P와 L1이 왼쪽 문 쪽으로 두 걸음 이동한다. T는 의자를 자기 앞 매트 중앙으로 20cm 당긴다.",
+      "review_status": "independent_actual_image_review_cross_check_and_required_closure_complete",
+      "reused_from_run": "2026-10-18_keep3-rebuild-v5"
+    },
+    {
+      "concept_id": "C01",
+      "cut_id": "K06",
+      "scene_id": "S06",
+      "linked_cuts": [
+        "K06"
+      ],
+      "image_path": "images/C01/S06_v2.png",
+      "prompt": "Use case: precise-object-edit. C01 S06 revision. Image 1 is the edit target, Image 2 is monitor-content reference. Change ONLY the currently dark large monitor on the far RIGHT of Image 1: restore the same paused video image seen on the monitor in Image 2, showing the light-blue-shirted man sitting low on the mat beside his black wheeled chair. Keep that image fitting naturally within the existing black bezel and perspective, with no UI or text. Preserve EVERYTHING ELSE in Image 1 exactly: coach still seated on edge of chair copying the poster, raised right arm, all faces and clothing, camera angle, photo, room, mat, chair position, two standing men. Do not move camera or alter lighting, add people or add words. 16:9.",
+      "reference_images": [
+        "\\\\wsl.localhost\\Ubuntu-24.04\\home\\wooseok\\wsy\\samsung_related\\slide\\AI실행결과발표대회_디자인3종\\storyboards\\2026-10-18_keep3-rebuild-v5\\images\\C01\\S06.png",
+        "\\\\wsl.localhost\\Ubuntu-24.04\\home\\wooseok\\wsy\\samsung_related\\slide\\AI실행결과발표대회_디자인3종\\storyboards\\2026-10-18_keep3-rebuild-v5\\images\\C01\\S05.png"
+      ],
+      "source_generated_path": "C:\\Users\\wseok\\.codex\\generated_images\\01a14ee7-1348-7291-8847-25a24f8c5fd0\\exec-11544be9-3089-445a-92d8-3f2f74d858cb.png",
+      "generation_tool": "image_gen",
+      "selected": true,
+      "followup_motion": "의자가 옆으로 밀리자 T의 몸이 매트에 낮게 풀썩 뒤집힌다. 곧바로 오른팔과 굽힌 무릎을 굳혀 의도한 자세인 척한다. 충격 자체보다 멈춰서 권위를 지키는 표정에 집중한다.",
+      "artist_review": {
+        "opened_actual_image": true,
+        "status": "artist_pass",
+        "notes": "수정 결과 실제 열람. 우측 모니터를 S05의 P 착석 정지화면으로 복구. 코치 의자 시작 자세/오른손/나머지 두 사람 유지. S07에서 등을 대는 결과로 연결 예정."
+      },
+      "width": 1672,
+      "height": 941,
+      "sha256": "2e237c16fb686807d6dfa7c5a5afc0aab463c6c2a330799fca6eff14771c5aaa",
+      "original_copy_sha256_match": true,
+      "source_copy_sha256_match": true,
+      "new_generation_in_this_run": false,
+      "first_frame": "T는 아직 의자 끝에 앉아 오른손을 들고 있다. 양발은 매트 가까이, 의자는 낮고 몸 뒤로 조금 이동할 여유가 있다.",
+      "next_motion": "의자가 옆으로 밀리자 T의 몸이 매트에 낮게 풀썩 뒤집힌다. 곧바로 오른팔과 굽힌 무릎을 굳혀 의도한 자세인 척한다. 충격 자체보다 멈춰서 권위를 지키는 표정에 집중한다.",
+      "review_status": "independent_actual_image_review_cross_check_and_required_closure_complete",
+      "reused_from_run": "2026-10-18_keep3-rebuild-v5"
+    },
+    {
+      "concept_id": "C01",
+      "cut_id": "K07",
+      "scene_id": "S07",
+      "linked_cuts": [
+        "K07"
+      ],
+      "image_path": "images/C01/S07_v2.png",
+      "prompt": "Use case: precise-object-edit. Edit C01 S07 with one cosmetic correction only. Remove all tiny brand-like chest or trouser emblems, wordmarks and logos from the burgundy coach's tracksuit, teal pupil's tracksuit and gray polo. Replace each tiny emblem with the same uninterrupted underlying fabric color and texture. Garments are entirely unbranded, no tiny animal/leaf symbols. Keep decorative seam stripes. Preserve everything else pixel-faithfully: all three identities, facial expressions, body poses (coach on her back with right arm and one knee up), photographer kneeling, pupil standing, hands, feet, floor, poster, chair, monitor and camera framing. Do not change pose or lighting. No new text or watermarks. 16:9.",
+      "reference_images": [
+        "\\\\wsl.localhost\\Ubuntu-24.04\\home\\wooseok\\wsy\\samsung_related\\slide\\AI실행결과발표대회_디자인3종\\storyboards\\2026-10-18_keep3-rebuild-v5\\images\\C01\\S07.png"
+      ],
+      "source_generated_path": "C:\\Users\\wseok\\.codex\\generated_images\\01a14ee7-1348-7291-8847-25a24f8c5fd0\\exec-9f6b8bcf-d235-4680-b773-3a1b80eaa46b.png",
+      "generation_tool": "image_gen",
+      "selected": true,
+      "followup_motion": "A가 셔터를 누른다. T는 자세를 더 굳히고 L2가 그 옆 매트로 몸을 낮추기 시작한다.",
+      "artist_review": {
+        "opened_actual_image": true,
+        "status": "needs_review",
+        "notes": "실제 이미지 열람. 로고 유사 장식 제거, 코치/제자/촬영 구도 유지. 호루라기는 보이지 않음. 총괄이 개그 핵심 아닌 미세 소품 차이로 추가 생성 불요 지시해 검수 관찰로 남김."
+      },
+      "width": 1672,
+      "height": 941,
+      "sha256": "1c0c35af0bcc160e439633110dd53c21dc6d2f721d2fd23a2e92b834d2d08b61",
+      "original_copy_sha256_match": true,
+      "source_copy_sha256_match": true,
+      "new_generation_in_this_run": false,
+      "first_frame": "T는 등을 매트에 대고 한 무릎을 굽혀 올린 채 오른팔을 들고 있다. A는 무릎을 꿇고 카메라를 향한다. L2는 아직 서 있지만 T의 굽힌 무릎을 유심히 보고 있다.",
+      "next_motion": "A가 셔터를 누른다. T는 자세를 더 굳히고 L2가 그 옆 매트로 몸을 낮추기 시작한다.",
+      "review_status": "independent_actual_image_review_cross_check_and_required_closure_complete",
+      "reused_from_run": "2026-10-18_keep3-rebuild-v5"
+    },
+    {
+      "concept_id": "C01",
+      "cut_id": "K08",
+      "scene_id": "S08",
+      "linked_cuts": [
+        "K08"
+      ],
+      "image_path": "images/C01/S08_v2.png",
+      "prompt": "Use case: precise-object-edit. C01 S08 critical staging correction. Preserve this 16:9 image's whole set, people, faces, poses, costumes, camera, chair, monitor, poster, coach's silver whistle, lighting and photographer.\nChange ONLY the male pupil's RIGHT arm. He is the teal-clad man lying BEHIND the burgundy coach. His right arm must be lifted diagonally toward upper-left in the exact same gesture as the coach, with an open spread-finger right hand. Place his teal sleeve and hand visibly to the LEFT of the coach's raised burgundy arm, with 20cm clear visual gap, no occlusion/overlap. There must be TWO distinct raised arms and TWO distinct hands visible, one belonging to each person, attached anatomically to their respective shoulders. The teal pupil's left arm remains resting beside his body, and both people retain one bent raised knee and one straight leg. Do not add a third arm or move the coach. The viewer must instantly see that the pupil copies the coach's arm as well as her knee. No text/brand/logo or other changes.",
+      "reference_images": [
+        "\\\\wsl.localhost\\Ubuntu-24.04\\home\\wooseok\\wsy\\samsung_related\\slide\\AI실행결과발표대회_디자인3종\\storyboards\\2026-10-18_keep3-rebuild-v5\\images\\C01\\S08.png"
+      ],
+      "source_generated_path": "C:\\Users\\wseok\\.codex\\generated_images\\01a14ee7-1348-7291-8847-25a24f8c5fd0\\exec-15aa0bcd-8bd1-4de1-ba72-d9a341a1985f.png",
+      "generation_tool": "image_gen",
+      "selected": true,
+      "followup_motion": "L2가 발끝을 T와 같은 방향으로 꺾는다. T가 눈으로 만족을 표시하고 A의 셔터가 한 번 울린다.",
+      "artist_review": {
+        "opened_actual_image": true,
+        "status": "artist_pass",
+        "notes": "수정 결과 실제 열람. 코치와 제자의 오른팔 두 개/손 두 개가 각각 보여 팔·굽힌 무릎 복제가 한눈에 읽힘. 등은 매트에 닿고 조수 촬영 구도 유지. 제자 시선과 발끝 미세 각도는 영상에서 연출할 사항."
+      },
+      "width": 1672,
+      "height": 941,
+      "sha256": "2b5f6c7416474be240fc756ecd3171743aa458920310e7040d5295210d194147",
+      "original_copy_sha256_match": true,
+      "source_copy_sha256_match": true,
+      "new_generation_in_this_run": false,
+      "first_frame": "두 사람은 이미 나란히 매트에 등을 댄 채 오른팔과 한 무릎을 들고 있다. L2의 발끝 각도만 T와 다르다. A는 둘을 함께 촬영한다.",
+      "next_motion": "L2가 발끝을 T와 같은 방향으로 꺾는다. T가 눈으로 만족을 표시하고 A의 셔터가 한 번 울린다.",
+      "review_status": "independent_actual_image_review_cross_check_and_required_closure_complete",
+      "reused_from_run": "2026-10-18_keep3-rebuild-v5"
+    },
+    {
+      "concept_id": "C01",
+      "cut_id": "K09",
+      "scene_id": "S09",
+      "linked_cuts": [
+        "K09"
+      ],
+      "image_path": "images/C01/S09.png",
+      "prompt": "Use case: ads-marketing. C01 S09 K09 final-shot FIRST FRAME, single 16:9 photoreal cinematic WIDE view. Image 1 is the cast/room/layout reference. Image 2 is the immediately preceding floor tableau to preserve EXACTLY. Keep all identities, wardrobe, poster content and floor poses.\nThe camera has pulled farther back and framed more of the room's LEFT side. Reveal additional uninterrupted dark teal wall space on the UPPER LEFT, at least 40% of image width and 40% of image height, empty with no art, objects, lights or words there; this is reserved for later Korean event-title overlay, DO NOT draw any text. Keep the existing wooden doorway at far-left/lower-left, still a little AJAR at start, warm hallway beyond. Poster remains physically to the RIGHT of that door, now in upper-right portion of this wider frame; monitor still farther right. Preserve spatial order, don't move objects relative to each other.\nIn LOWER RIGHT half, same burgundy woman coach and teal male pupil lie side by side on their BACKS on the gray mat, heads toward screen right, feet toward left, both with one RIGHT arm raised and one RIGHT knee bent up, left legs extended, matching the exact funny stiff copy pose from Image 2. TWO separate raised right hands clearly visible with gap, both bent knees visible, full bodies distinct and readable. Coach still wears bun, burgundy headband, small silver whistle on cord. Pupil earnestly copying; coach proudly certain. Gray-polo camera assistant kneels just to their LEFT aiming camera at them, same as prior shot. Empty low black wheeled chair behind their heads, monitor retains paused blue-shirt-man seated beside chair if visible. No other real people. Blue-shirt man exists only on physical unchanged torso poster and monitor.\nWarm sports commercial rim lighting, serious rich texture, comic tableau occupying lower right while upper left is clean negative space. This is still the same studio, not a new location. No text, logos, UI, watermarks or graphic panels. Unbranded clothes with seam stripes, no tiny emblems. Avoid shrinking people so far they become unreadable.",
+      "reference_images": [
+        "\\\\wsl.localhost\\Ubuntu-24.04\\home\\wooseok\\wsy\\samsung_related\\slide\\AI실행결과발표대회_디자인3종\\storyboards\\2026-10-18_keep3-rebuild-v5\\images\\C01\\S01.png",
+        "\\\\wsl.localhost\\Ubuntu-24.04\\home\\wooseok\\wsy\\samsung_related\\slide\\AI실행결과발표대회_디자인3종\\storyboards\\2026-10-18_keep3-rebuild-v5\\images\\C01\\S08_v2.png"
+      ],
+      "source_generated_path": "C:\\Users\\wseok\\.codex\\generated_images\\01a14ee7-1348-7291-8847-25a24f8c5fd0\\exec-a86cf999-f815-4941-b9a3-11b5efe84173.png",
+      "generation_tool": "image_gen",
+      "selected": true,
+      "followup_motion": "A가 한 장 더 찍고 T·L2는 자세를 유지한다. 왼쪽 문만 천천히 닫힌다. 카메라 고정.",
+      "artist_review": {
+        "opened_actual_image": true,
+        "status": "artist_pass",
+        "notes": "생성 결과 실제 열람. 두 인물 등/팔/한 무릎 복제와 조수 촬영 유지. 좌상단 빈 청록 벽 확보, 문 아직 열림, 포스터/모니터 존재. 장면 후속 움직임과 실제 자막 가독성은 영상 미제작으로 검증하지 않음."
+      },
+      "width": 1672,
+      "height": 941,
+      "sha256": "06f84039fa0e3e7a8e4ccfd9a69e2055bbba7e319faad002f010ebd5c323d980",
+      "original_copy_sha256_match": true,
+      "source_copy_sha256_match": true,
+      "new_generation_in_this_run": false,
+      "first_frame": "K08의 나란히 누운 T·L2와 조수. 팔과 굽힌 무릎 자세 유지, 좌상단 벽은 텍스트 없는 여백.",
+      "next_motion": "A가 한 장 더 찍고 T·L2는 자세를 유지한다. 왼쪽 문만 천천히 닫힌다. 카메라 고정.",
+      "review_status": "independent_actual_image_review_cross_check_and_required_closure_complete",
+      "reused_from_run": "2026-10-18_keep3-rebuild-v5"
+    },
+    {
+      "concept_id": "C02",
+      "cut_id": "K01",
+      "scene_id": "S01",
+      "image_path": "images/C02/S01.png",
+      "prompt": "Use case: ads-marketing. Create ONE 16:9 cinematic live-action first-frame photograph, no montage/no writing. Reference image is solely cast, copper dragon head and stone-window design reference. Change viewpoint and lighting dramatically to BEFORE any damage. C02 S01 opening of a sincere frightening fantasy rescue: low camera tilted upward, the enormous copper-red horned dragon face approximately TWO METERS TALL fills the LEFT two-thirds of frame, unbroken jagged copper scales cover EVERYTHING mechanical. Its dark jaw is only just opening BEFORE roaring, THREE long red flame-like paper strips inside mouth are heavily backlit red, their paper texture indistinguishable in the dark. No real flame needed. Blue-black smoke, gold/red rim light, threatening scale and cinematic depth; distant tall stone tower rises behind. At upper-right BACKGROUND through same wood-framed INTACT closed glass window, the older princess is clearly visible inside, her hand raised near chest BEFORE reaching downward to warn the knight. Window's lower wall and ground completely OUT OF FRAME; it appears high by framing alone. Near RIGHT foreground are only the knight's slim teal-armored upper shoulder and long moustached profile, earnestly looking at dragon, mouth closed, preparing his heroism. CAST continuity, distinct ordinary Korean performers: PR, a 67-year-old Korean woman with a broad strong face and shoulders, short tightly curled silver-white hair, visible authentic facial wrinkles, tiny pearl earrings, a flat small gold crown, heavy plum-purple long work dress and golden ochre canvas apron. KN, very slim tall Korean man age 38, long narrow face, thin black moustache, slicked-back dark hair, polished teal armor including teal legs and boots, narrow black belt, NO cape. AS, Korean woman age 25 with a completely shaved head, large black-rim transparent safety goggles, angular gray coveralls and black work boots. Never glamorous young fashion models. Humor is from the knight's earnest decisions, not appearances. Only PR and KN present. The princess must look elderly, not a young model, same broad wrinkled face and white curls. NO assistant, no normal door, no ground, no feet, no disconnected tube, no clamps, no metal testing frame, no blower box, no machinery, no split neck or broken glass. No visible test apparatus anywhere: intact copper scales, smoke and cropping conceal all of it. Shoot with serious blockbuster tension and realistic scale, 35mm film look. Not a cute dragon toy or cartoon. No text or logos; editorial captions later.",
+      "reference_images": [
+        "\\\\wsl.localhost\\Ubuntu-24.04\\home\\wooseok\\wsy\\samsung_related\\slide\\AI실행결과발표대회_디자인3종\\storyboards\\2026-10-19_keep13-rebuild-v6\\images\\C02\\S04.png"
+      ],
+      "source_generated_path": "C:\\Users\\wseok\\.codex\\generated_images\\01a15195-17b9-7a42-bcd3-f9f80c677bed\\exec-53066294-bba3-426c-a2b8-6b69de83af20.png",
+      "generation_tool": "image_gen",
+      "selected": true,
+      "artist_review": {
+        "opened_actual_image": true,
+        "status": "artist_checked_pending_independent_review",
+        "notes": [
+          "용 얼굴의 대형 스케일과 판타지 긴장 확인.",
+          "공주 손은 뻗기 전, 기사 전경 상반신. 지면·정상 문·기계 구조·낮은 창 높이 없음.",
+          "붉은 띠 3개이며 첫 프레임부터 소재가 약간 읽힐 여지는 있으나 강한 역광과 용 규모 유지."
+        ]
+      },
+      "width": 1672,
+      "height": 941,
+      "sha256": "276fa3d82cd99018ca3c40ac2e467f926821e3a9b3ece270992e36bd58b25a5f",
+      "source_copy_sha256_match": true,
+      "followup_motion": "용의 붉은 종이 불꽃이 역광 속에서 거칠게 흔들린다. PR이 화면 아래를 가리키며 외치고 KN이 용을 향해 몸을 돌린다. 카메라는 지면을 공개하지 않는다.",
+      "first_frame": "거대 용의 입이 포효 직전 벌어지고 PR은 창문에서 손을 뻗기 직전. KN은 어깨와 긴 얼굴만 전경에 있다. 용 목 파손·낮은 창의 지면·정상 문은 아직 보이지 않는다.",
+      "next_motion": "용의 붉은 종이 불꽃이 역광 속에서 거칠게 흔들린다. PR이 화면 아래를 가리키며 외치고 KN이 용을 향해 몸을 돌린다. 카메라는 지면을 공개하지 않는다.",
+      "linked_cuts": [
+        "K01"
+      ],
+      "postproduction_notes": "붉은 종이 띠는 의도적인 B급 단서로 유지. 초반 강한 역광·빠른 흔들림·굉음과 마지막 약한 팔랑임을 대비한다. 띠만 따로 확대하거나 오래 멈추지 않는다.",
+      "review_status": "independent_actual_image_review_cross_check_and_required_closure_complete"
+    },
+    {
+      "concept_id": "C02",
+      "cut_id": "K02",
+      "scene_id": "S02",
+      "image_path": "images/C02/S02.png",
+      "prompt": "Use case: ads-marketing. ONE standalone landscape 16:9 cinematic live-action close-up FIRST FRAME for C02 S02, no text or collage. References: Image1 establishes intact copper dragon's neck scale color and dark dramatic exterior light; Image2 establishes knight's teal armor and slim proportions ONLY, do not copy revealed machines or room. Extreme tight low-angle detail of ONE armored knight boot hovering about FIVE CENTIMETERS above an INTACT rounded dragon neck covered in overlapping jagged copper-red scales. Teal metal boot has dark leather sole and segmented pointed toe, connected anatomically to one narrow armored shin entering from upper-right. Boot points toward left, sole nearly horizontal, poised BEFORE stamping. Scaly curved neck spans lower image diagonal; NO crack or gap yet, all scales closed and continuous, warm copper highlights with deep navy shadows. No hand or face. Only the single boot/shin and scaly surface fit in frame; smoke and shallow focus conceal rest. No ground, wall, door, window, dragon face, other people, clamps, hose, wires, gray stand, mechanical parts, blower. It must look like a heroic dangerous creature encounter, not a plastic pipe prop. Emphatic cinematic rim light matching opening, material detail, realistic sole hovering with visible small air gap, action has NOT occurred. No lettering; any later captions are editorial.",
+      "reference_images": [
+        "\\\\wsl.localhost\\Ubuntu-24.04\\home\\wooseok\\wsy\\samsung_related\\slide\\AI실행결과발표대회_디자인3종\\storyboards\\2026-10-19_keep13-rebuild-v6\\images\\C02\\S01.png",
+        "\\\\wsl.localhost\\Ubuntu-24.04\\home\\wooseok\\wsy\\samsung_related\\slide\\AI실행결과발표대회_디자인3종\\storyboards\\2026-10-19_keep13-rebuild-v6\\images\\C02\\S04.png"
+      ],
+      "source_generated_path": "C:\\Users\\wseok\\.codex\\generated_images\\01a15195-17b9-7a42-bcd3-f9f80c677bed\\exec-cbb58a97-641d-4d73-92cf-3219fe9797f6.png",
+      "generation_tool": "image_gen",
+      "selected": true,
+      "artist_review": {
+        "opened_actual_image": true,
+        "status": "artist_checked_pending_independent_review",
+        "notes": [
+          "청록 부츠 하나가 온전한 비늘 표면 위에 떠 있는 타이트 접사.",
+          "기계·지면·창·문 노출 없음. 파손 전 시작상태 확인."
+        ]
+      },
+      "width": 1672,
+      "height": 941,
+      "sha256": "d72221c31f1d9e3f26402db199b33faca7edc20eea2ff093a7a577be0258c210",
+      "source_copy_sha256_match": true,
+      "followup_motion": "부츠가 내려오고 비늘 목 외피가 짧게 갈라져 양옆으로 벌어진다. 안쪽은 검은 그림자로 남기고 낮은 포효가 멎는다.",
+      "first_frame": "청록 부츠 밑창이 온전한 적동색 비늘 목 외피 5cm 위에 있다. 비늘은 아직 벌어지지 않았으며 기계 부품은 보이지 않는다.",
+      "next_motion": "부츠가 내려오고 비늘 목 외피가 짧게 갈라져 양옆으로 벌어진다. 안쪽은 검은 그림자로 남기고 낮은 포효가 멎는다.",
+      "linked_cuts": [
+        "K02"
+      ],
+      "review_status": "independent_actual_image_review_cross_check_and_required_closure_complete"
+    },
+    {
+      "concept_id": "C02",
+      "cut_id": "K03",
+      "scene_id": "S03",
+      "image_path": "images/C02/S03.png",
+      "prompt": "Use case: ads-marketing. ONE standalone landscape 16:9 single-frame live-action cinematic photograph, C02 S03 FIRST FRAME before impact, not a contact sheet, no written text. Use reference1 for the same tall skinny moustached Korean knight and teal armor, reference2 for the still-intact wooden glass window, warm/cool dramatic exterior lighting and stone wall. EXTREME CLOSE, shoulder-level external oblique view. The knight's polished teal shoulder is held approximately 20 centimeters in front of the completely INTACT closed glass-paned wooden window, ready to charge shoulder first. Only upper armored torso, one shoulder and a partial sliver of his long determined moustached profile at far left, and wood mullions/glass/stone fills whole frame. Head tipped down slightly, concentrated brave seriousness. Window is still unbroken: NO shards, cracks, damage or open window. Through glass only indistinct dark interior, no princess. Crop so severely that there is NO lower window sill, NO legs, NO ground, NO wall below window, NO ordinary door, NO dragon or machinery, and no reveal of the window height. Gold rim on teal metal, blue shadow on stone, real layered armor and old wood material. Freeze just before the shoulder strike, clear small air space between shoulder and glass. Motion and breakage belong to later video and must NOT already appear in this first image. No captions or logo, editorial text separately.",
+      "reference_images": [
+        "\\\\wsl.localhost\\Ubuntu-24.04\\home\\wooseok\\wsy\\samsung_related\\slide\\AI실행결과발표대회_디자인3종\\storyboards\\2026-10-19_keep13-rebuild-v6\\images\\C02\\S04.png",
+        "\\\\wsl.localhost\\Ubuntu-24.04\\home\\wooseok\\wsy\\samsung_related\\slide\\AI실행결과발표대회_디자인3종\\storyboards\\2026-10-19_keep13-rebuild-v6\\images\\C02\\S01.png"
+      ],
+      "source_generated_path": "C:\\Users\\wseok\\.codex\\generated_images\\01a15195-17b9-7a42-bcd3-f9f80c677bed\\exec-8ef102cf-99b3-4331-ab2a-bb5e1d4ed3d6.png",
+      "generation_tool": "image_gen",
+      "selected": true,
+      "artist_review": {
+        "opened_actual_image": true,
+        "status": "artist_checked_pending_independent_review",
+        "notes": [
+          "갑옷 어깨와 온전한 유리창의 충돌 전 간격 확인.",
+          "지면·하체·창 아래 벽·문·장치 비노출."
+        ]
+      },
+      "width": 1671,
+      "height": 941,
+      "sha256": "66a92914ca9914d17e60378b14a4be60265701486697d10108e1f1e9ce553f25",
+      "source_copy_sha256_match": true,
+      "followup_motion": "어깨가 창 소품을 밀며 상체가 안으로 들어간다. 파편은 타이트한 프레임 하단으로 떨어지고 지면까지 따라가지 않는다.",
+      "first_frame": "갑옷 어깨가 온전한 창틀 앞 20cm. 어깨와 창틀만 보이며, PR·지면·인물 다리·창의 하단 높이는 프레임 밖이다.",
+      "next_motion": "어깨가 창 소품을 밀며 상체가 안으로 들어간다. 파편은 타이트한 프레임 하단으로 떨어지고 지면까지 따라가지 않는다.",
+      "linked_cuts": [
+        "K03"
+      ],
+      "review_status": "independent_actual_image_review_cross_check_and_required_closure_complete"
+    },
+    {
+      "concept_id": "C02",
+      "cut_id": "K04",
+      "scene_id": "S04",
+      "image_path": "images/C02/S04.png",
+      "prompt": "Use case: ads-marketing. Asset: single cinematic live-action storyboard FIRST FRAME, landscape 16:9, standalone photograph, no collage, no text/logos/captions. C02 S04: the reveal of an absurd medieval rescue, now clearly a practical engineering workshop. CAST continuity, distinct ordinary Korean performers: PR, a 67-year-old Korean woman with a broad strong face and shoulders, short tightly curled silver-white hair, visible authentic facial wrinkles, tiny pearl earrings, a flat small gold crown, heavy plum-purple long work dress and golden ochre canvas apron. KN, very slim tall Korean man age 38, long narrow face, thin black moustache, slicked-back dark hair, polished teal armor including teal legs and boots, narrow black belt, NO cape. AS, Korean woman age 25 with a completely shaved head, large black-rim transparent safety goggles, angular gray coveralls and black work boots. Never glamorous young fashion models. Humor is from the knight's earnest decisions, not appearances. Bright natural daylight in a rough stone ground-floor workshop. Wide indoor reverse angle: an ordinary full-size hinged wooden door stands OPEN at far LEFT, clearly a normal entrance; large shattered rectangular wood-framed window at RIGHT, sill 85cm above floor. No high tower fall. Knight stands just inside broken window at right, awkwardly lowering one foot from sill to floor, shocked but not comic mugging. Princess in middle at workbench, hand still at waist BEFORE pointing; assistant next to her holds one thin gray folder. Workbench has ONE open black laptop, some abstract diagram papers, one open empty brown leather document satchel. Through the broken window outside, an enormous copper-red dragon head about 2m tall and 2m wide sits fixed on gray steel testing stand; red paper flame ribbons hang limp from mouth. Its scaly neck shell has split apart, first revealing a disconnected black corrugated air tube with visible clamp and a gray blower box. Dragon is an object outside the room, not a small toy indoors; show bulky plausible mechanical test setup clearly through wide window. Same dragon has angular copper scales, two backward curved horns, long snout and dark eye. Keep door, broken window, three distinct people, papers and failed tube readable in one real spatial composition. Photoreal cinematic advertising production design, stone textures, soft daylight, muted earthy palette with teal armor and purple dress. This is the instant BEFORE princess points. Do not add hidden strangers or extra laptops. No generated writing; subtitles will be added later.",
+      "reference_images": [],
+      "source_generated_path": "C:\\Users\\wseok\\.codex\\generated_images\\01a15195-17b9-7a42-bcd3-f9f80c677bed\\exec-fddfafb1-4236-4bb2-9b1d-a3373a7f57b6.png",
+      "generation_tool": "image_gen",
+      "selected": true,
+      "artist_review": {
+        "opened_actual_image": true,
+        "status": "artist_checked_pending_independent_review",
+        "notes": [
+          "67세 공주 주름·넓은 얼굴/어깨, 삭발 여성 조수, 긴 얼굴 콧수염 기사 구분됨.",
+          "실내 왼쪽 정상 문/오른쪽 파손 창, 큰 용의 끊어진 관/시험대/단일 노트북 확인.",
+          "첫 프레임은 기사 창턱 하차 중, 공주 손 허리. 실제 영상 행동은 미검증."
+        ]
+      },
+      "width": 1672,
+      "height": 941,
+      "sha256": "d1e655c586b08fed39fa2f3c7940303cea09e4ca2df4837fa06fed90c1509093",
+      "source_copy_sha256_match": true,
+      "followup_motion": "PR이 장치를 한 번 가리키며 말한다. KN은 정상 문 쪽으로 고개를 돌리고 멈춘다. 추가 시선 왕복이나 조수 동작은 넣지 않는다.",
+      "first_frame": "KN은 막 창에서 발을 내린 자세. PR 손은 아직 허리 높이, AS는 회색 파일을 들고 있다. 정상 문은 열려 있다. 창밖 갈라진 비늘 외피 속 끊어진 관과 송풍 상자를 이번 프레임에서 처음 드러낸다.",
+      "next_motion": "PR이 장치를 한 번 가리키며 말한다. KN은 정상 문 쪽으로 고개를 돌리고 멈춘다. 추가 시선 왕복이나 조수 동작은 넣지 않는다.",
+      "linked_cuts": [
+        "K04"
+      ],
+      "review_status": "independent_actual_image_review_cross_check_and_required_closure_complete"
+    },
+    {
+      "concept_id": "C02",
+      "cut_id": "K05",
+      "scene_id": "S05",
+      "image_path": "images/C02/S05.png",
+      "prompt": "Use case: ads-marketing. ONE landscape 16:9 cinematic live-action storyboard FIRST FRAME C02 S05, standalone photograph, not collage, no text. Use the reference image to preserve exactly the princess, assistant, costumes, rustic stone workshop and desk/props. Frame a natural eye-level MEDIUM shot of princess from head to hips at the same workbench. Her silver-white tight curly hair, small gold crown, tiny pearl earrings, visibly lined broad 67-year-old Korean face and strong broad shoulders must remain; purple work dress and ochre canvas apron unchanged. She is matter-of-fact and absorbed in work, not smiling for camera. Her empty hands hover just BEFORE collecting several flat sheets of test-record diagrams on tabletop. ONE open black laptop sits left on desk, with screen showing only large abstract list bars without legible letters or numbers. ONE open EMPTY brown leather document satchel sits next to records, the same bag as reference. No papers already packed and no second laptop. Behind her at right, the shaved-head Korean female assistant in black-rimmed clear safety goggles and gray coveralls holds ONE thin gray folder close to torso. Do not include knight in this crop. Background stone and shelves softly defocused, consistent bright natural workshop daylight. The first frame is BEFORE packing records and laptop; the future motion will gather records, close laptop and put them into same bag. Hands anatomically ordinary with five fingers, practical reachable tabletop arrangement. Keep face and wrinkles clear. No readable text, no logos, no captions; Korean subtitle will be added editorially.",
+      "reference_images": [
+        "\\\\wsl.localhost\\Ubuntu-24.04\\home\\wooseok\\wsy\\samsung_related\\slide\\AI실행결과발표대회_디자인3종\\storyboards\\2026-10-19_keep13-rebuild-v6\\images\\C02\\S04.png"
+      ],
+      "source_generated_path": "C:\\Users\\wseok\\.codex\\generated_images\\01a15195-17b9-7a42-bcd3-f9f80c677bed\\exec-332a3ef7-0c4b-47ab-812b-022a4d3e3542.png",
+      "generation_tool": "image_gen",
+      "selected": true,
+      "artist_review": {
+        "opened_actual_image": true,
+        "status": "artist_checked_pending_independent_review",
+        "notes": [
+          "노년 공주와 조수의 캐스트/복장 유지.",
+          "단일 노트북·빈 갈색 가방·회색 파일과 기록을 집기 전 손 위치 확인.",
+          "도식은 추상적이며 실제 업무 내용·성과 수치 없음."
+        ]
+      },
+      "width": 1672,
+      "height": 941,
+      "sha256": "c47f14c4cfc52305c991545c958ec670c0ca1ec838f445226723765ffa9ede47",
+      "source_copy_sha256_match": true,
+      "followup_motion": "기록을 넣고 노트북을 닫아 가방에 넣는다. PR이 손잡이를 들며 문으로 몸을 돌린다.",
+      "first_frame": "PR 손이 책상 위 기록에 닿기 직전. 노트북은 열려 있고 갈색 가방은 옆에 비어 있다.",
+      "next_motion": "기록을 넣고 노트북을 닫아 가방에 넣는다. PR이 손잡이를 들며 문으로 몸을 돌린다.",
+      "linked_cuts": [
+        "K05"
+      ],
+      "review_status": "independent_actual_image_review_cross_check_and_required_closure_complete"
+    },
+    {
+      "concept_id": "C02",
+      "cut_id": "K06",
+      "scene_id": "S06",
+      "image_path": "images/C02/S06_v2.png",
+      "prompt": "Use case: precise-object-edit. Edit this single 16:9 photoreal cinematic storyboard frame. Change ONLY one missing continuity prop: the shaved-head assistant woman at the FAR RIGHT in gray coveralls and black safety goggles must hold ONE thin plain GRAY A4 folder vertically against her torso using her existing two hands, as she did before. Make hand grip natural. Keep her face, head, goggles and costume exactly. Preserve EVERY other detail, camera, sunlight, three people and positions, princess's brown satchel, knight stepping outside, huge copper dragon head and three red hanging paper strips, empty dragon rear opening, disconnected tube, testing rack, shattered window and open wooden door. Do not introduce any new text, labels, people or devices. Only add gray folder in assistant's hands. Single image, no collage, no captions.",
+      "reference_images": [
+        "\\\\wsl.localhost\\Ubuntu-24.04\\home\\wooseok\\wsy\\samsung_related\\slide\\AI실행결과발표대회_디자인3종\\storyboards\\2026-10-19_keep13-rebuild-v6\\images\\C02\\S06.png"
+      ],
+      "source_generated_path": "C:\\Users\\wseok\\.codex\\generated_images\\01a15195-17b9-7a42-bcd3-f9f80c677bed\\exec-add1eaae-01cb-48d6-bac2-05118c161368.png",
+      "generation_tool": "image_gen",
+      "selected": true,
+      "artist_review": {
+        "opened_actual_image": true,
+        "status": "artist_checked_pending_independent_review",
+        "notes": [
+          "조수 회색 파일 추가, 다른 세 인물·용/문/창 배치 유지.",
+          "후속 동작 전 기사 빈손과 발 계단, 공주 손 아래 유지."
+        ]
+      },
+      "width": 1672,
+      "height": 941,
+      "sha256": "84f01af33239cd9420e16306e2d9ea6b919942d0c4f911e2fcc90a269d54710e",
+      "source_copy_sha256_match": true,
+      "followup_motion": "PR이 종료를 제안한다. KN은 가슴에 손을 대며 선언하고, 말끝에 용 뒤쪽으로 몸을 돌린다. 두 걸음 이동은 K07 시작 배치로 이어 생략한다.",
+      "first_frame": "KN의 한 발이 정상 문 바깥 계단에 있고 두 손은 빈 상태. PR은 문턱 안쪽에서 손을 들기 직전, 용 뒤 입구에는 아직 사람이 없다.",
+      "next_motion": "PR이 종료를 제안한다. KN은 가슴에 손을 대며 선언하고, 말끝에 용 뒤쪽으로 몸을 돌린다. 두 걸음 이동은 K07 시작 배치로 이어 생략한다.",
+      "linked_cuts": [
+        "K06"
+      ],
+      "review_status": "independent_actual_image_review_cross_check_and_required_closure_complete"
+    },
+    {
+      "concept_id": "C02",
+      "cut_id": "K07",
+      "scene_id": "S07",
+      "image_path": "images/C02/S07.png",
+      "prompt": "Use case: ads-marketing. Single landscape 16:9 cinematic live-action photograph FIRST FRAME C02 S07. Reference is the exact continuing exterior location, light, dragon and knight. Keep the HUGE copper-red horned dragon head stationary on the identical gray steel testing rack at LEFT, normal shattered workshop window behind it. Dragon's front snout points LEFT; empty shoulder-wide BACK access hole at RIGHT of dragon, minimum 70cm wide and about 1.25m above ground. Broken scaly neck and disconnected tube remain as reference, no repair yet. Camera medium-wide SIDE VIEW from slightly behind dragon, close enough to read access hole and human pose but includes knight's long legs and feet. The skinny long-faced Korean knight with thin black moustache and slicked-back dark hair, same teal armor and black belt, now stands on ground immediately to RIGHT of access hole. He has NOT inserted his head: face entirely OUTSIDE about 20cm from hole, both eyes and moustache visible in profile, upper body still mostly upright leaning slightly forward BEFORE bending at waist. One hand rests on a fixed side rail of dragon's supporting frame, his other arm hangs naturally. Both feet planted on ground, no climbing pose, no riding on top. He looks into empty hole with absurdly solemn determination. This first frame precedes the action of bending and putting his head, shoulders and upper chest INSIDE. Do not pre-show that final pose. Only knight in this closer crop; doorway with others is outside frame to far right. Show enough empty dark rear cavity to make the forthcoming entrance physically plausible, not a solid panel or tiny hose opening. Keep copper scales and practical machinery honest, daylight realistic advertising production still. No new props, no extra people, no words or logos. No collage. Never miniaturize dragon.",
+      "reference_images": [
+        "\\\\wsl.localhost\\Ubuntu-24.04\\home\\wooseok\\wsy\\samsung_related\\slide\\AI실행결과발표대회_디자인3종\\storyboards\\2026-10-19_keep13-rebuild-v6\\images\\C02\\S06_v2.png"
+      ],
+      "source_generated_path": "C:\\Users\\wseok\\.codex\\generated_images\\01a15195-17b9-7a42-bcd3-f9f80c677bed\\exec-469488df-54d1-4914-86b9-aa1e66e9852b.png",
+      "generation_tool": "image_gen",
+      "selected": true,
+      "artist_review": {
+        "opened_actual_image": true,
+        "status": "artist_checked_pending_independent_review",
+        "notes": [
+          "기사 얼굴은 용 뒤쪽 개구부 밖, 한 손은 고정 프레임, 두 발 지면.",
+          "사람 상체가 들어갈 큰 입구와 거대 용 스케일·끊어진 관 유지.",
+          "현 첫 프레임에서 허리 숙임/진입 결과 미리 보이지 않음."
+        ]
+      },
+      "width": 1672,
+      "height": 941,
+      "sha256": "a42ac27396b70372c7dcae20536d17b2b7806459d9ded53bc9208a24b6c817ee",
+      "source_copy_sha256_match": true,
+      "followup_motion": "KN이 허리를 굽혀 머리·어깨·상체를 넣고 입 안쪽 송풍 통로로 숨을 분다. 첫 바람은 작게 끝난다.",
+      "first_frame": "KN은 용 뒤에 두 발로 서서 허리를 숙이기 직전. 얼굴은 뒤쪽 개구부 밖 20cm에 있고 손 하나가 고정 프레임에 닿아 있다. 머리 안에 아직 들어가지 않았다.",
+      "next_motion": "KN이 허리를 굽혀 머리·어깨·상체를 넣고 입 안쪽 송풍 통로로 숨을 분다. 첫 바람은 작게 끝난다.",
+      "linked_cuts": [
+        "K07"
+      ],
+      "review_status": "independent_actual_image_review_cross_check_and_required_closure_complete"
+    },
+    {
+      "concept_id": "C02",
+      "cut_id": "K08",
+      "scene_id": "S08",
+      "image_path": "images/C02/S08.png",
+      "prompt": "Use case: ads-marketing. Single landscape 16:9 live-action cinematic FIRST FRAME C02 S08, standalone photograph, no collage/no text. Reference1 is exact exterior wide spatial layout and princess/assistant/bag/folder; Reference2 is dragon rear access opening and knight. Continue same courtyard, stone workshop wall, normal OPEN door at far RIGHT, shattered ground-floor window middle, HUGE copper dragon head pointing LEFT on fixed gray rack at left, disconnected black tube and blower visible. Now the same skinny tall man in teal armor has bent forward at the waist and inserted his HEAD, SHOULDERS and UPPER HALF of torso horizontally into the rear opening of the dragon. His head and face must be entirely hidden INSIDE dark dragon cavity. His armored waist, hips and TWO LONG LEGS remain clearly OUTSIDE to the right of dragon, both teal boots planted on stone ground. One hand can grip frame beside opening. Anatomically plausible single person, not cut-off body and no extra feet. His spine enters through actual opening, not solid wall or scales. Dragon mouth's THREE red paper strips hang limp; no blowing effect yet. At right background doorway, elderly broad-faced white-curly Korean princess with small gold crown, plum dress/ochre apron stands JUST INSIDE threshold with ONE closed brown leather satchel. Shaved-head young Korean female assistant in gray coveralls and black safety goggles stands next to/behind her, holds ONE gray folder; her free hand near door edge, BEFORE closing. They are preparing to step out, not already leaving scene. Both composed and busy, not laughing at knight. No laptop left on table visible. Keep real light, material, all cast identity, window/door directions and massive dragon scale. Clean visual story split: bent hero on LEFT, two technicians poised to depart through door RIGHT. Later motion will have them walk right and close door, do not pre-show shut door. All text and event title added in post only.",
+      "reference_images": [
+        "\\\\wsl.localhost\\Ubuntu-24.04\\home\\wooseok\\wsy\\samsung_related\\slide\\AI실행결과발표대회_디자인3종\\storyboards\\2026-10-19_keep13-rebuild-v6\\images\\C02\\S06_v2.png",
+        "\\\\wsl.localhost\\Ubuntu-24.04\\home\\wooseok\\wsy\\samsung_related\\slide\\AI실행결과발표대회_디자인3종\\storyboards\\2026-10-19_keep13-rebuild-v6\\images\\C02\\S07.png"
+      ],
+      "source_generated_path": "C:\\Users\\wseok\\.codex\\generated_images\\01a15195-17b9-7a42-bcd3-f9f80c677bed\\exec-abf4a09d-b3b2-4733-8a68-bb95943c9f4f.png",
+      "generation_tool": "image_gen",
+      "selected": true,
+      "artist_review": {
+        "opened_actual_image": true,
+        "status": "artist_checked_pending_independent_review",
+        "notes": [
+          "기사 머리·어깨는 용 뒤 개구부 안, 허리·두 다리는 밖에 남음.",
+          "공주/조수 정상문 문턱 안, 가방/파일 유지, 문 열림. 아직 퇴장 전.",
+          "용 입 붉은 종이 세 줄 처짐."
+        ]
+      },
+      "width": 1672,
+      "height": 941,
+      "sha256": "8cb1c45a59a073200940182774cd79be8b3864e9ee23262c6eb9c22b237ed279",
+      "source_copy_sha256_match": true,
+      "followup_motion": "두 사람이 오른쪽으로 걸어나가고 AS가 문을 닫는다. KN은 숨을 다시 크게 들이마신다.",
+      "first_frame": "PR과 AS는 문턱을 넘기 직전. PR 가방·AS 파일이 보이고 문은 열려 있다. KN 상체는 이미 용 안.",
+      "next_motion": "두 사람이 오른쪽으로 걸어나가고 AS가 문을 닫는다. KN은 숨을 다시 크게 들이마신다.",
+      "linked_cuts": [
+        "K08"
+      ],
+      "review_status": "independent_actual_image_review_cross_check_and_required_closure_complete"
+    },
+    {
+      "concept_id": "C02",
+      "cut_id": "K09",
+      "scene_id": "S09",
+      "image_path": "images/C02/S09_v2.png",
+      "prompt": "Use case: precise-object-edit. This exact photograph is C02 S08 and needs the immediately subsequent S09 still. Edit ONLY these changes: remove the two women from the right doorway completely (they have departed off right with satchel and folder); swing the existing normal wooden hinged door CLOSED inside its EXISTING FULL-HEIGHT doorway. The door's outer frame, top beam at the very top-right edge, threshold at current height, width, and all stone wall geometry MUST remain EXACTLY the same. Do not shrink doorway, lower top beam or create more stone wall above. Preserve every other pixel arrangement: giant copper dragon and gray rack at left, its three limp red paper strips, disconnected tube and machine, shattered central window, skinny teal-armored man bent with head and shoulders fully inside rear opening, waist and both legs/boots outside, ground and daylight. His posture still just before inhale; no flutter yet. No new persons, no bag left behind, no writing, no text or logos. Single 16:9 cinematic live-action photograph. For future title editorially use a translucent overlay if needed; do NOT change architecture to manufacture title room. Closed door fills the original very tall opening exactly. Preserve image viewpoint and object scale.",
+      "reference_images": [
+        "\\\\wsl.localhost\\Ubuntu-24.04\\home\\wooseok\\wsy\\samsung_related\\slide\\AI실행결과발표대회_디자인3종\\storyboards\\2026-10-19_keep13-rebuild-v6\\images\\C02\\S08.png"
+      ],
+      "source_generated_path": "C:\\Users\\wseok\\.codex\\generated_images\\01a15195-17b9-7a42-bcd3-f9f80c677bed\\exec-2a61e160-5903-4175-896e-81312c6c3f97.png",
+      "generation_tool": "image_gen",
+      "selected": true,
+      "artist_review": {
+        "opened_actual_image": true,
+        "status": "artist_checked_pending_independent_review",
+        "notes": [
+          "기존 S08 문틀 높이 유지한 닫힌 문, 공주/조수 퇴장, 기사 진입 자세·용/관 유지.",
+          "종이 세 줄은 처진 상태. 장치 동작 결과를 아직 선공개하지 않음.",
+          "상단 석벽 빈 여백은 부족하므로 후편집 행사명은 오른쪽 문/석벽 위 명암판 또는 그라데이션 영역 권장. 구조 연속성 우선 제안이며 총괄 판단 필요."
+        ]
+      },
+      "width": 1672,
+      "height": 941,
+      "sha256": "cf2304b3a4d8e6506d7ce21727020a52436e14a8608a15a950de450bb9e62606",
+      "source_copy_sha256_match": true,
+      "followup_motion": "KN이 한 번 길게 불어 종이를 약하게 흔든 뒤 다시 숨을 들이마신다. 카메라 고정, 갑옷 허리와 긴 두 다리는 밖에 남는다.",
+      "first_frame": "종이 세 줄은 아래로 늘어져 있고 KN의 밖에 남은 몸통은 들숨을 시작하기 직전. 문 닫힘·깨진 창·같은 받침. 글자는 이미지에 생성하지 않는다.",
+      "next_motion": "KN이 한 번 길게 불어 종이를 약하게 흔든 뒤 다시 숨을 들이마신다. 카메라 고정, 갑옷 허리와 긴 두 다리는 밖에 남는다.",
+      "linked_cuts": [
+        "K09"
+      ],
+      "postproduction_notes": "행사명 3행 예: 2026년 품질팀 / AI 실행 결과 / 발표 대회. 보조 문구는 같은 패널 아래 작은 2행. 기사·불꽃 비침범을 우선하며 실제 합성 후 글자 크기와 대비를 재확인한다.",
+      "review_status": "independent_actual_image_review_cross_check_and_required_closure_complete"
+    },
+    {
+      "concept_id": "C03",
+      "cut_id": "K01",
+      "scene_id": "S01",
+      "image_path": "images/C03/K01.png",
+      "prompt": "Use case: ads-marketing. Generate ONE photorealistic cinematic first frame for an original Korean absurd industrial-scale comedy advertisement, shot C03 K01. Native 16:9 wide, 1536x864 or 2048x1152. Bright natural midday sunshine, a large clean concrete industrial delivery yard with distant warehouse roof line and expansive blue sky. Quiet 50mm medium shot of R, a Korean woman in her early 30s with black hair tied in a low ponytail, beige blouse, thin teal sleeveless vest, dark charcoal trousers. She sits at an ordinary small metal outdoor work table, holds a black smartphone to her LEFT ear with her left hand, her RIGHT hand resting lightly on loose diagram documents. Calm practical expression in the middle of a call, looking down at the documents, not looking up yet. A transparent glass of water and a gray folder lie on the table. Honest skin texture, editorial precision, real practical industrial world, polished Korean TV commercial cinematography. Composition leaves wide normal sunlit sky and daylight behind her. This is BEFORE a huge shadow sweeps over her. No shadow covering her yet. No office module visible anywhere, no crane visible, no driver in frame, no orange folder. Documents have abstract fine lines only, no legible letters or numbers. No caption, no branding, no logo, no watermark, no comic graphics, no collage. The ordinary opening must not reveal the gigantic delivery gag yet.",
+      "reference_images": [],
+      "source_generated_path": "C:\\Users\\wseok\\.codex\\generated_images\\01a14def-34dd-73a2-89ef-a6c63e3cb2ed\\exec-7763291c-92a8-4458-bd1d-ded1af76b945.png",
+      "generation_tool": "image_gen",
+      "artist_review": {
+        "opened_actual_image": true,
+        "status": "artist_pass",
+        "notes": "햇빛 정상, 통화와 자료 위 손, 모듈·기사 미등장 확인. 기준 인물 외모·의상 확보."
+      },
+      "selected": true,
+      "first_frame": "직원은 통화 중, 자료 위 손. 위 사무실은 안 보이고 정상 햇빛.",
+      "next_motion": "그림자 이동→위로 시선.",
+      "width": 1672,
+      "height": 941,
+      "sha256": "aff884bcbe2696e5b47356789a7da8642b9c7dba38c2166cb4a140fa2182e408",
+      "bytes": 1881089,
+      "artist_manifest": "image_manifest_artist3.json",
+      "final_storyboard_first_frame": "직원은 통화 중, 자료 위 손. 위 사무실은 안 보이고 정상 햇빛.",
+      "final_storyboard_next_motion": "그림자 이동→위로 시선.",
+      "final_review": {
+        "status": "accepted_for_storyboard_first_frame",
+        "reviewers": [
+          "A",
+          "B",
+          "C"
+        ],
+        "records": [
+          "image_reviews_A.json",
+          "image_reviews_B.json",
+          "image_reviews_C.json",
+          "image_reviews_C04.json",
+          "image_reviews_C05.json",
+          "image_cross_reviews.json",
+          "image_cross_reviews_final.json",
+          "image_final_confirmation.json"
+        ],
+        "limits": "정지 이미지와 계획 검토. 동작·음성·관객반응 미검증. 별도 표기한 UI/도식/자막은 후편집 대상."
+      },
+      "reused_from_run": "2026-10-18_keep3-rebuild-v5",
+      "new_generation_in_this_run": false,
+      "linked_cuts": [
+        "K01"
+      ],
+      "review_status": "independent_actual_image_review_cross_check_and_required_closure_complete"
+    },
+    {
+      "concept_id": "C03",
+      "cut_id": "K02",
+      "scene_id": "S02",
+      "image_path": "images/C03/K02.png",
+      "prompt": "Use case: ads-marketing. Generate a new shot C03 K02, native 16:9 widescreen photorealistic absurd Korean industrial commercial. Reference image 1 is ONLY the identity/clothes of R and the daylight concrete logistics yard; preserve her beige blouse, teal vest, charcoal trousers and tied black hair. Completely new low 24mm extreme wide camera angle. Monumental reveal: an ENTIRE intact white prefabricated modern office room A, approximately 7 meters long, suspended several meters above empty concrete by four taut steel lifting cables from an enormous precise yellow crane. White metal shell, a distinctive TEAL entry door frame at its left front corner, broad full-height glass front and a side with neatly folded-open architectural wall panels; inside visible a tidy wooden desk, black swivel chair, monitor, gray binder and green potted plant. It looks like someone has meticulously shipped their whole working environment, not a damaged building, not a container of rubble. The office and sky dominate 80% of frame. R very small at far left foreground safely OUTSIDE a clear yellow ground exclusion boundary, watching upwards. T, Korean man early 40s with short black hair, yellow hard hat, navy work jacket, orange reflective vest, black trousers and BOTH hands in gray work gloves, stands safely to the side OUTSIDE the load footprint, looking up guiding delivery. People must not be under the hanging module. Precision steel construction, visible cables, clear sunny blue sky, believable real scale, sophisticated absurd visual comedy, high-budget commercial photography. No orange doorway or second module anywhere. No readable text, no signs, logos, captions, watermark, split panels or collage. First-frame state: A is stationary in midair, before lowering. Do not show landing yet.",
+      "reference_images": [
+        "\\\\wsl.localhost\\Ubuntu-24.04\\home\\wooseok\\wsy\\samsung_related\\slide\\AI실행결과발표대회_디자인3종\\storyboards\\2026-10-18_story-reset-v4\\images\\C03\\K01.png"
+      ],
+      "source_generated_path": "C:\\Users\\wseok\\.codex\\generated_images\\01a14def-34dd-73a2-89ef-a6c63e3cb2ed\\exec-21645e58-a582-4d91-bf5e-d1e8a0ad2577.png",
+      "generation_tool": "image_gen",
+      "artist_review": {
+        "opened_actual_image": true,
+        "status": "artist_pass",
+        "notes": "청록 문틀 A 공중·팽팽한 케이블·작업 공간 전체 보존. 사람은 모듈 왼편 투영 밖. B 미노출."
+      },
+      "selected": true,
+      "first_frame": "청록 문틀 A가 공중에 고정, 케이블 팽팽. 직원·기사 옆 안전선 밖.",
+      "next_motion": "모듈 조금 하강. 사람 위 이동 없음.",
+      "width": 1672,
+      "height": 941,
+      "sha256": "85978f057b9ef5965a41021b683ef21ae26ddbd2e8f947dee429098db7c44d9b",
+      "bytes": 2125887,
+      "artist_manifest": "image_manifest_artist3.json",
+      "final_storyboard_first_frame": "청록 문틀 A가 공중에 고정, 케이블 팽팽. 직원·기사 옆 안전선 밖.",
+      "final_storyboard_next_motion": "모듈 조금 하강. 사람 위 이동 없음.",
+      "final_review": {
+        "status": "accepted_for_storyboard_first_frame",
+        "reviewers": [
+          "A",
+          "B",
+          "C"
+        ],
+        "records": [
+          "image_reviews_A.json",
+          "image_reviews_B.json",
+          "image_reviews_C.json",
+          "image_reviews_C04.json",
+          "image_reviews_C05.json",
+          "image_cross_reviews.json",
+          "image_cross_reviews_final.json",
+          "image_final_confirmation.json"
+        ],
+        "limits": "정지 이미지와 계획 검토. 동작·음성·관객반응 미검증. 별도 표기한 UI/도식/자막은 후편집 대상."
+      },
+      "reused_from_run": "2026-10-18_keep3-rebuild-v5",
+      "new_generation_in_this_run": false,
+      "linked_cuts": [
+        "K02"
+      ],
+      "review_status": "independent_actual_image_review_cross_check_and_required_closure_complete"
+    },
+    {
+      "concept_id": "C03",
+      "cut_id": "K03",
+      "scene_id": "S03",
+      "image_path": "images/C03/K03.png",
+      "prompt": "Use case: ads-marketing. New independent first frame shot C03 K03 of the same original industrial comedy commercial, photorealistic 16:9 widescreen. Reference 1 anchors R's exact face, low ponytail, beige blouse/teal vest/charcoal trousers. Reference 2 anchors white office module A, teal door frame, light wooden desk, plant, black office chair, crane operator T in yellow hard hat/navy jacket/orange reflective vest. The module has now safely landed, nobody hanging in the air. Camera INSIDE module A, 40mm side medium shot across the wooden desk. R is seated in profile three-quarter view at the desk ready to run a test on a laptop, RIGHT index finger hovering just above the keyboard, neutral concentration BEFORE execution, no success reaction. A closed GREY file lies directly beside her. Foreground screen area is large enough to see two diagram panels but no words: LEFT three clean outlined rectangles as a reference diagram, RIGHT neutral empty gray panel waiting for execution, no checkmarks or matching output yet. This is a prop screen whose final matching output will be composited during the motion shot. Through the side window, T visible outside at a safe distance, BOTH hands still wearing gray gloves, waiting patiently for the operation to finish, no glove removal yet. Teal door trim in background, bright blue daylight and industrial yard outdoors. Realistic intentional composition that shows screen, R's face and waiting T within one frame, not separate panels. Crisp nuanced natural light, sophisticated cinematic commercial, no comic caricature. No second office module, no orange doorway or orange file. No readable lettering, captions, logos, watermarks. Do not duplicate R or T.",
+      "reference_images": [
+        "\\\\wsl.localhost\\Ubuntu-24.04\\home\\wooseok\\wsy\\samsung_related\\slide\\AI실행결과발표대회_디자인3종\\storyboards\\2026-10-18_story-reset-v4\\images\\C03\\K01.png",
+        "\\\\wsl.localhost\\Ubuntu-24.04\\home\\wooseok\\wsy\\samsung_related\\slide\\AI실행결과발표대회_디자인3종\\storyboards\\2026-10-18_story-reset-v4\\images\\C03\\K02.png"
+      ],
+      "source_generated_path": "C:\\Users\\wseok\\.codex\\generated_images\\01a14def-34dd-73a2-89ef-a6c63e3cb2ed\\exec-2cba58c0-e1b4-43f8-bf85-539e66fb81a1.png",
+      "generation_tool": "image_gen",
+      "artist_review": {
+        "opened_actual_image": true,
+        "status": "artist_pass",
+        "notes": "실행 전 빈 결과 패널, 회색 파일, 청록 문틀, 창 밖 기사 양손 장갑 확인. UI 글자는 후편집."
+      },
+      "selected": true,
+      "first_frame": "직원이 회색 파일 옆에서 실행 전. 기사 양손 장갑, 종료 대기.",
+      "next_motion": "결과→끄덕임→기사 장갑 한 짝 벗음.",
+      "width": 1672,
+      "height": 941,
+      "sha256": "e019d13c28c0a630c57850e9788b13a8a7a90671e2ca79996378f9ee07ddcedc",
+      "bytes": 1980614,
+      "artist_manifest": "image_manifest_artist3.json",
+      "final_storyboard_first_frame": "직원이 회색 파일 옆에서 실행 전. 기사 양손 장갑, 종료 대기.",
+      "final_storyboard_next_motion": "결과→끄덕임→기사 장갑 한 짝 벗음.",
+      "final_review": {
+        "status": "accepted_for_storyboard_first_frame",
+        "reviewers": [
+          "A",
+          "B",
+          "C"
+        ],
+        "records": [
+          "image_reviews_A.json",
+          "image_reviews_B.json",
+          "image_reviews_C.json",
+          "image_reviews_C04.json",
+          "image_reviews_C05.json",
+          "image_cross_reviews.json",
+          "image_cross_reviews_final.json",
+          "image_final_confirmation.json"
+        ],
+        "limits": "정지 이미지와 계획 검토. 동작·음성·관객반응 미검증. 별도 표기한 UI/도식/자막은 후편집 대상."
+      },
+      "reused_from_run": "2026-10-18_keep3-rebuild-v5",
+      "new_generation_in_this_run": false,
+      "linked_cuts": [
+        "K03"
+      ],
+      "review_status": "independent_actual_image_review_cross_check_and_required_closure_complete"
+    },
+    {
+      "concept_id": "C03",
+      "cut_id": "K04",
+      "scene_id": "S04",
+      "image_path": "images/C03/K04.png",
+      "prompt": "Use case: ads-marketing. New first frame C03 K04, 16:9 photoreal high-budget industrial comedy. Reference 1 anchors the intact white glass office A with teal door trim and sunny yard; reference 2 anchors closer view of T, the Korean male operator, and same light. Camera outside in deep-focus medium-wide view. T in LEFT FOREGROUND in yellow hard hat, navy jacket, orange reflective safety vest and black trousers, his body half turned to leave, neutral tired expectation that work is finished. His RIGHT hand is BARE, and his LEFT hand is still gloved and holding ONE removed gray right glove. Keep both hands clearly separated, exactly two human hands. A already landed behind him on frame LEFT, white glass office with TEAL door frame. On far UPPER RIGHT edge only, a tiny LOWER CORNER and a short white underside strip of a SECOND suspended white office B have JUST ENTERED the frame; orange paint on a tiny vertical edge hints at a second module, but most of B is still out of frame above. Show no B interior, no complete B shape, no full second office. T is safely lateral to all load paths, never under suspended object; the entering corner is far to his right. A and B left-right geography must read. Large clear blue sky. This is precisely BEFORE T reacts and before the second office is revealed: no pointing up, no glove being put back on, no surprised comic face yet. Strong industrial reality and sophisticated absurd understatement. No other people necessary. No readable writing, logos, captions or watermark. No collage.",
+      "reference_images": [
+        "\\\\wsl.localhost\\Ubuntu-24.04\\home\\wooseok\\wsy\\samsung_related\\slide\\AI실행결과발표대회_디자인3종\\storyboards\\2026-10-18_story-reset-v4\\images\\C03\\K02.png",
+        "\\\\wsl.localhost\\Ubuntu-24.04\\home\\wooseok\\wsy\\samsung_related\\slide\\AI실행결과발표대회_디자인3종\\storyboards\\2026-10-18_story-reset-v4\\images\\C03\\K03.png"
+      ],
+      "source_generated_path": "C:\\Users\\wseok\\.codex\\generated_images\\01a14def-34dd-73a2-89ef-a6c63e3cb2ed\\exec-35c3e5a2-b92e-4b96-9ba0-1479c5980515.png",
+      "generation_tool": "image_gen",
+      "artist_review": {
+        "opened_actual_image": true,
+        "status": "artist_pass",
+        "notes": "A 왼쪽 설치, B는 우상단 아랫모서리만 노출. 기사 오른손 맨손·왼손 장갑과 벗은 장갑 소지. 시선은 이미 우상향이지만 장갑 재착용/전체 B 공개 전 상태."
+      },
+      "selected": true,
+      "first_frame": "설치 A왼쪽, 기사 벗은 장갑 소지. B아랫모서리 막 프레임 진입.",
+      "next_motion": "B공개→기사 장갑 재착용.",
+      "width": 1672,
+      "height": 941,
+      "sha256": "6f6b5c970d5926a4ccc67bbe24b4eaff71fcd409012e52a33a327451d1ccae11",
+      "bytes": 2050156,
+      "artist_manifest": "image_manifest_artist3.json",
+      "final_storyboard_first_frame": "설치 A왼쪽, 기사 벗은 장갑 소지. B아랫모서리 막 프레임 진입.",
+      "final_storyboard_next_motion": "B공개→기사 장갑 재착용.",
+      "final_review": {
+        "status": "accepted_for_storyboard_first_frame",
+        "reviewers": [
+          "A",
+          "B",
+          "C"
+        ],
+        "records": [
+          "image_reviews_A.json",
+          "image_reviews_B.json",
+          "image_reviews_C.json",
+          "image_reviews_C04.json",
+          "image_reviews_C05.json",
+          "image_cross_reviews.json",
+          "image_cross_reviews_final.json",
+          "image_final_confirmation.json"
+        ],
+        "limits": "정지 이미지와 계획 검토. 동작·음성·관객반응 미검증. 별도 표기한 UI/도식/자막은 후편집 대상."
+      },
+      "reused_from_run": "2026-10-18_keep3-rebuild-v5",
+      "new_generation_in_this_run": false,
+      "linked_cuts": [
+        "K04"
+      ],
+      "review_status": "independent_actual_image_review_cross_check_and_required_closure_complete"
+    },
+    {
+      "concept_id": "C03",
+      "cut_id": "K05",
+      "scene_id": "S05",
+      "image_path": "images/C03/K05.png",
+      "prompt": "Use case: ads-marketing. New distinct storyboard first frame C03 K05, 16:9 photorealistic cinematic Korean industrial commercial. Reference image 1 is exact identity/clothes of R: Korean woman early 30s, black low ponytail, beige blouse, thin teal vest, charcoal trousers. Reference image 2 is the modular-office architecture and bright exterior yard, not the teal trim color for this different office B. Camera just inside the ORANGE painted door frame of B, over R's shoulder with part of her right cheek visible, looking into a compact intact white modern office. This is the EARLY EXPERIMENT work environment: real orderly-but-busy revisions, notes and alternative diagrams pinned on a white board, multiple sheets with simple circles/crossings and arrows, some folded revisions, a working laptop on a wood desk, an office chair. Important: structurally intact and habitable, NOT a wreck, no broken equipment, no debris, no dirty ruined room. R holds black smartphone to her LEFT ear in LEFT hand. Her RIGHT hand is reaching toward but NOT YET TOUCHING a CLOSED BRIGHT ORANGE DOCUMENT FOLDER lying flat on the desk. Folder clearly separate from her fingers by a few centimeters. No gray folder in this room. Orange doorway frames the foreground, white glass-and-metal office shell, daylight. The facing side wall uses folded-back panels already open, with a glimpse of clean sunlit yard, no panel motion. Visual joke is an entire room full of failed attempts has been carefully delivered; keep calm practical authenticity. No colleague or driver visible. Documents show only abstract nonlinguistic marks, no readable words, dates or numbers. No captions, no logos or watermarks, no collage. Beginning state before picking up folder.",
+      "reference_images": [
+        "\\\\wsl.localhost\\Ubuntu-24.04\\home\\wooseok\\wsy\\samsung_related\\slide\\AI실행결과발표대회_디자인3종\\storyboards\\2026-10-18_story-reset-v4\\images\\C03\\K01.png",
+        "\\\\wsl.localhost\\Ubuntu-24.04\\home\\wooseok\\wsy\\samsung_related\\slide\\AI실행결과발표대회_디자인3종\\storyboards\\2026-10-18_story-reset-v4\\images\\C03\\K02.png"
+      ],
+      "source_generated_path": "C:\\Users\\wseok\\.codex\\generated_images\\01a14def-34dd-73a2-89ef-a6c63e3cb2ed\\exec-99b6352c-edb1-4059-a4e3-14e501650a68.png",
+      "generation_tool": "image_gen",
+      "artist_review": {
+        "opened_actual_image": true,
+        "status": "artist_pass_with_note",
+        "notes": "B 주황 문틀·초기 수정 기록·닫힌 주황 파일·왼손 통화 확인. 파일을 들기 전이나 오른손 끝은 표면에 거의 닿은 상태. 배경 자료는 건축 도식 모양의 제안값이며 읽을 내용은 후편집."
+      },
+      "selected": true,
+      "first_frame": "직원이 B안 닫힌 주황 파일 집기 전. 왼손 전화, 오른손 파일에 닿기 전.",
+      "next_motion": "파일 들어 질문→답 듣고 기사로 회전.",
+      "width": 1672,
+      "height": 941,
+      "sha256": "831554ed0e9afe80ed637157ca15c2cda54e1d7b2a6df7eae9fac5f0a611e5e3",
+      "bytes": 2080871,
+      "artist_manifest": "image_manifest_artist3.json",
+      "final_storyboard_first_frame": "직원이 B안 닫힌 주황 파일 집기 전. 왼손 전화, 오른손 파일에 닿기 전.",
+      "final_storyboard_next_motion": "파일 들어 질문→답 듣고 기사로 회전.",
+      "final_review": {
+        "status": "accepted_for_storyboard_first_frame",
+        "reviewers": [
+          "A",
+          "B",
+          "C"
+        ],
+        "records": [
+          "image_reviews_A.json",
+          "image_reviews_B.json",
+          "image_reviews_C.json",
+          "image_reviews_C04.json",
+          "image_reviews_C05.json",
+          "image_cross_reviews.json",
+          "image_cross_reviews_final.json",
+          "image_final_confirmation.json"
+        ],
+        "limits": "정지 이미지와 계획 검토. 동작·음성·관객반응 미검증. 별도 표기한 UI/도식/자막은 후편집 대상."
+      },
+      "reused_from_run": "2026-10-18_keep3-rebuild-v5",
+      "new_generation_in_this_run": false,
+      "linked_cuts": [
+        "K05"
+      ],
+      "review_status": "independent_actual_image_review_cross_check_and_required_closure_complete"
+    },
+    {
+      "concept_id": "C03",
+      "cut_id": "K06",
+      "scene_id": "S06",
+      "image_path": "images/C03/K06_v2.png",
+      "prompt": "Use case: precise-object-edit. Edit this 16:9 commercial frame with targeted corrections. Keep the same two people, facial identities, clothing, pose, gray folder OPEN on the small table, orange folder in woman's arm, camera, sunlight, module A on left with teal doorway and B on right with orange doorway. Change ONLY these details: (1) The WHITE DELIVERY SHEET on the clipboard held by the man must be PLAIN WHITE except a few very faint horizontal signature rules. Remove the entire diagonal striped graphic from this clipboard. ONLY the woman's orange folder and the gray folder on table carry matching stripe-condition motifs. These are the two relevant records, the waybill is not a record. (2) Show the inward-facing wall of EACH office as a fully opened bifold glass wall, with glass leaves already folded into a narrow stack against its far corner, revealing unobstructed open interior air across the space between A and B. This is an architectural state, nobody operating the panels. Preserve the two colored door frames. Everything else unchanged, same number of hands, no added people, no extra folders, no lettering, captions, logos or watermark.",
+      "reference_images": [
+        "\\\\wsl.localhost\\Ubuntu-24.04\\home\\wooseok\\wsy\\samsung_related\\slide\\AI실행결과발표대회_디자인3종\\storyboards\\2026-10-18_story-reset-v4\\images\\C03\\K06.png"
+      ],
+      "source_generated_path": "C:\\Users\\wseok\\.codex\\generated_images\\01a14def-34dd-73a2-89ef-a6c63e3cb2ed\\exec-84669b16-7137-491e-b7d5-4497a883513e.png",
+      "generation_tool": "image_gen",
+      "artist_review": {
+        "opened_actual_image": true,
+        "status": "artist_pass",
+        "notes": "운송장 줄무늬 제거 완료. 열린 회색 파일과 주황 파일만 조건 무늬. 두 모듈 접이 패널 개방 확인. 아직 펜 소지·회색 파일 수거 전."
+      },
+      "selected": true,
+      "first_frame": "청록 A문 앞 작은 테이블에 열린 회색 파일. 직원은 B에서 가져온 주황 파일을 들고, 기사는 운송장을 내민다. 직원은 아직 펜을 들지 않았다. 두 모듈의 마주 보는 패널은 처음부터 열린 건축 구조.",
+      "next_motion": "직원이 주황 파일을 돌려 안쪽 조건 기록을 열어 봄→테이블의 회색 기록과 같은 표시 발견→반품 서명 보류→회색 파일도 함께 듦. 첫 프레임의 주황 패턴은 표지이며 내부 기록은 아직 보이지 않는다. 대응 도식은 후편집 대상이다.",
+      "width": 1672,
+      "height": 941,
+      "sha256": "a9f2264954837aa587a1e267d6d627bf1ba3511921d7574789aa267d000ba750",
+      "bytes": 2039379,
+      "artist_manifest": "image_manifest_artist3.json",
+      "final_storyboard_first_frame": "청록 A문 앞 작은 테이블에 열린 회색 파일. 직원은 B에서 가져온 주황 파일을 들고, 기사는 운송장을 내민다. 직원은 아직 펜을 들지 않았다. 두 모듈의 마주 보는 패널은 처음부터 열린 건축 구조.",
+      "final_storyboard_next_motion": "직원이 주황 파일을 돌려 안쪽 조건 기록을 열어 봄→테이블의 회색 기록과 같은 표시 발견→반품 서명 보류→회색 파일도 함께 듦. 첫 프레임의 주황 패턴은 표지이며 내부 기록은 아직 보이지 않는다. 대응 도식은 후편집 대상이다.",
+      "final_review": {
+        "status": "accepted_for_storyboard_first_frame",
+        "reviewers": [
+          "A",
+          "B",
+          "C"
+        ],
+        "records": [
+          "image_reviews_A.json",
+          "image_reviews_B.json",
+          "image_reviews_C.json",
+          "image_reviews_C04.json",
+          "image_reviews_C05.json",
+          "image_cross_reviews.json",
+          "image_cross_reviews_final.json",
+          "image_final_confirmation.json"
+        ],
+        "limits": "정지 이미지와 계획 검토. 동작·음성·관객반응 미검증. 별도 표기한 UI/도식/자막은 후편집 대상."
+      },
+      "reused_from_run": "2026-10-18_keep3-rebuild-v5",
+      "new_generation_in_this_run": false,
+      "linked_cuts": [
+        "K06"
+      ],
+      "review_status": "independent_actual_image_review_cross_check_and_required_closure_complete"
+    },
+    {
+      "concept_id": "C03",
+      "cut_id": "K07",
+      "scene_id": "S07",
+      "image_path": "images/C03/K07.png",
+      "prompt": "Use case: ads-marketing. Generate new first frame C03 K07 in native 16:9 wide realistic Korean industrial comedy commercial. Reference 1 anchors both exact people, clothing, faces and two modular rooms with open architectural panels. Reference 2 anchors orange room B's busy revision-notes interior. Side wide view showing BOTH white glass office modules side by side safely grounded: A LEFT with teal entry frame and tidy desk, B RIGHT with orange entry frame and dense revision papers on its back wall, intact and clean. The facing wall panels are ALREADY completely folded open on both rooms from the start, making the two interiors visible, no glass wall between the pair. The employee R, beige blouse, teal vest, charcoal trousers, low ponytail, stands between them, small against the huge rooms. She ALREADY cradles EXACTLY TWO closed folders against her chest in one RIGHT arm: a gray folder and an orange folder, with little paper tabs marking questions. Her LEFT hand holds black smartphone to LEFT ear; attentive interested expression, about to decide to hear the experience in person. T stands a few steps to her right, yellow hard hat, navy jacket, orange reflective vest, black trousers and BOTH gray gloves. His hands rest loosely at his sides, BEFORE he reaches for the belt buckle at his waist; not yet relieved or reacting. A small metal table with no folders now stands near teal A entrance; white delivery clipboard rests there. A simple work chair stands behind T for a later shot. Human scale versus enormous overdelivered rooms is the joke. Bright crisp sun and blue sky, sophisticated wide cinematic composition, industrial precision. No suspended modules, no shipping motion, no duplicate people, no extra folders, no text, logos, watermark or captions. Do not show R exiting or T sitting yet.",
+      "reference_images": [
+        "\\\\wsl.localhost\\Ubuntu-24.04\\home\\wooseok\\wsy\\samsung_related\\slide\\AI실행결과발표대회_디자인3종\\storyboards\\2026-10-18_story-reset-v4\\images\\C03\\K06_v2.png",
+        "\\\\wsl.localhost\\Ubuntu-24.04\\home\\wooseok\\wsy\\samsung_related\\slide\\AI실행결과발표대회_디자인3종\\storyboards\\2026-10-18_story-reset-v4\\images\\C03\\K05.png"
+      ],
+      "source_generated_path": "C:\\Users\\wseok\\.codex\\generated_images\\01a14def-34dd-73a2-89ef-a6c63e3cb2ed\\exec-e14d0c0f-3d9d-461e-a1e0-6cf76fdd1e40.png",
+      "generation_tool": "image_gen",
+      "artist_review": {
+        "opened_actual_image": true,
+        "status": "artist_pass",
+        "notes": "A 좌/B 우, 열린 패널, 파일 두 개 이미 소지, 통화 중, 기사 벨트에 손 대기 전. 손·얼굴·색 연속성 확인."
+      },
+      "selected": true,
+      "first_frame": "처음부터 열린 마주 보는 패널. 직원은 표시된 회색·주황 파일 두 개를 이미 팔에 안고 통화 중. 기사는 벨트에 손 뻗기 전.",
+      "next_motion": "직원 청강 결정→기사가 재운송 준비→작은 파일 들어 “제가 갈게요”→기사 손 멈춤. 패널 개방·파일 수거 동작 없음.",
+      "width": 1672,
+      "height": 941,
+      "sha256": "340235c2a044de49eb74c14b9054a3a4cfbd873f801cf2b716ae115177ca7f65",
+      "bytes": 2293924,
+      "artist_manifest": "image_manifest_artist3.json",
+      "final_storyboard_first_frame": "처음부터 열린 마주 보는 패널. 직원은 표시된 회색·주황 파일 두 개를 이미 팔에 안고 통화 중. 기사는 벨트에 손 뻗기 전.",
+      "final_storyboard_next_motion": "직원 청강 결정→기사가 재운송 준비→작은 파일 들어 “제가 갈게요”→기사 손 멈춤. 패널 개방·파일 수거 동작 없음.",
+      "final_review": {
+        "status": "accepted_for_storyboard_first_frame",
+        "reviewers": [
+          "A",
+          "B",
+          "C"
+        ],
+        "records": [
+          "image_reviews_A.json",
+          "image_reviews_B.json",
+          "image_reviews_C.json",
+          "image_reviews_C04.json",
+          "image_reviews_C05.json",
+          "image_cross_reviews.json",
+          "image_cross_reviews_final.json",
+          "image_final_confirmation.json"
+        ],
+        "limits": "정지 이미지와 계획 검토. 동작·음성·관객반응 미검증. 별도 표기한 UI/도식/자막은 후편집 대상."
+      },
+      "reused_from_run": "2026-10-18_keep3-rebuild-v5",
+      "new_generation_in_this_run": false,
+      "linked_cuts": [
+        "K07"
+      ],
+      "review_status": "independent_actual_image_review_cross_check_and_required_closure_complete"
+    },
+    {
+      "concept_id": "C03",
+      "cut_id": "K08",
+      "scene_id": "S08",
+      "image_path": "images/C03/K08.png",
+      "prompt": "Use case: ads-marketing. New independent final first frame C03 K08, 16:9 cinematic photorealistic Korean industrial commercial. Reference image is exact characters, wardrobe, modules and spatial continuity. A substantially WIDER elevated establishing view than reference, pulled far back with clear expansive blue sky occupying the TOP HALF or more, reserved fully empty for later event-title typography. Two intact office modules sit safely on the concrete in the LOWER THIRD of picture: teal-trim white office A on LEFT, orange-trim white office B on RIGHT. The facing architectural bifold glass walls on BOTH are already fully open, with folded leaves visible, tidy office A and revision-note office B. R is small in the lower center foreground, just beginning to depart toward camera, already holding the SAME TWO closed files, gray and orange, against her chest with both arms. Phone put away. Same Korean woman, tied black hair, beige blouse, teal vest, charcoal trousers. T remains STANDING behind her, in yellow hard hat with chin strap still fastened, navy jacket, orange reflective vest, black trousers, gray gloves. A plain black work chair sits behind T ready for him to sit in the subsequent motion, but he is NOT sitting yet and NOT loosening strap yet. Small metal table remains next to left module. Sunny industrial yard, warehouses low on horizon. Scale contrast: huge rooms stay, person takes just two small files. No crane or objects obscuring upper sky; no new module, no crowd, no paper confetti. This image is the starting moment before exit and relieved sitting, not their completed actions. NO text anywhere, title and CTA will be added later; no logo or watermark. Preserve photographic specificity and polished natural sunlight.",
+      "reference_images": [
+        "\\\\wsl.localhost\\Ubuntu-24.04\\home\\wooseok\\wsy\\samsung_related\\slide\\AI실행결과발표대회_디자인3종\\storyboards\\2026-10-18_story-reset-v4\\images\\C03\\K07.png"
+      ],
+      "source_generated_path": "C:\\Users\\wseok\\.codex\\generated_images\\01a14def-34dd-73a2-89ef-a6c63e3cb2ed\\exec-9c11e4bf-4f90-4831-8ce6-43154f08cc4d.png",
+      "generation_tool": "image_gen",
+      "artist_review": {
+        "opened_actual_image": true,
+        "status": "artist_pass",
+        "notes": "두 방 잔류, R 파일 두 개 안고 출발, T 아직 서 있음, 빈 의자 확보. 상단 하늘 무문자 여백 확보. 높은 와이드보다 눈높이에 가까운 와이드 구도는 제안값."
+      },
+      "selected": true,
+      "first_frame": "마주 보는 패널이 열린 두 방. 직원은 두 질문 기록을 안고 전경으로 나가려 함. 기사는 아직 서 있음. 하늘 무문자.",
+      "next_motion": "직원 퇴장→기사 끈 풀고 착석. 제목 후편집.",
+      "width": 1672,
+      "height": 941,
+      "sha256": "9da7ad62a267eaef1b8e709558dceba56b9072c5e8d49df2c0cc716b0ed66e77",
+      "bytes": 2164333,
+      "artist_manifest": "image_manifest_artist3.json",
+      "final_storyboard_first_frame": "마주 보는 패널이 열린 두 방. 직원은 두 질문 기록을 안고 전경으로 나가려 함. 기사는 아직 서 있음. 하늘 무문자.",
+      "final_storyboard_next_motion": "직원 퇴장→기사 끈 풀고 착석. 제목 후편집.",
+      "final_review": {
+        "status": "accepted_for_storyboard_first_frame",
+        "reviewers": [
+          "A",
+          "B",
+          "C"
+        ],
+        "records": [
+          "image_reviews_A.json",
+          "image_reviews_B.json",
+          "image_reviews_C.json",
+          "image_reviews_C04.json",
+          "image_reviews_C05.json",
+          "image_cross_reviews.json",
+          "image_cross_reviews_final.json",
+          "image_final_confirmation.json"
+        ],
+        "limits": "정지 이미지와 계획 검토. 동작·음성·관객반응 미검증. 별도 표기한 UI/도식/자막은 후편집 대상."
+      },
+      "reused_from_run": "2026-10-18_keep3-rebuild-v5",
+      "new_generation_in_this_run": false,
+      "linked_cuts": [
+        "K08"
+      ],
+      "review_status": "independent_actual_image_review_cross_check_and_required_closure_complete"
+    },
+    {
+      "concept_id": "C04",
+      "cut_id": "K01",
+      "scene_id": "S01",
+      "linked_cuts": [
+        "K01"
+      ],
+      "image_path": "images/C04/S01.png",
+      "prompt": "Use case: ads-marketing. Create ONE cinematic live-action film first frame, landscape 16:9, no lettering or watermark. Dark cramped hollow wooden Trojan horse interior, serious Korean war-film lighting, dusty old brown timber ribs, warm narrow sidelight, deep shadows. Three clearly different middle-aged/older Korean men, not handsome young idols, sincere tense acting. Camera looks across the cramped interior, commander closest centre-front, lieutenant screen left, soldier screen right. Commander: age 65, large broad shoulders and heavy solid build, deep wrinkles, short white hair visible around small weathered bronze rounded helmet with chin cord, broad flat nose, brown worn leather vest over coarse beige tunic. Lieutenant LEFT: age 55, tall very thin build, long neck and long narrow face, long downward grey moustache, short grey hair tied behind, olive quilted vest and grey cloth trousers. Soldier RIGHT: age 45, short dense black curly hair, round face, round build short neck, ochre cloth jacket and dark brown trousers.\nFirst instant before action: a LARGE FLAT beige paper rests directly across the LEFT lieutenant's knees, with only ONE broad red straight arrow, absolutely no writing and no black marks yet. Lieutenant left hand holds paper steady; his right hand holds a thick BLACK charcoal pencil five centimetres above paper. Front-centre commander reaches one index finger just above red arrow, not yet touching, tiny confident conspiratorial smile. RIGHT round soldier has BOTH hands gripping one vertical wood rocking lever at his side, waiting motionless. NO OTHER person touches that lever. Show existing mechanical foot pedals for left lieutenant and right soldier low in frame, an identifiable RED brake lever beside commander's right knee. This is a human-powered wheeled rocking horse, not a car cockpit: simple wood and metal cranks. A single extremely LOW NARROW peephole near the FLOOR points down at pale ground, showing only abstract harsh backlit shadows, absolutely no identifiable footwear, legs, costumes, festival or modern environment. No eye-level windows. The three men and their hands, knees and assigned controls must read distinctly, naturally anatomical. 28mm compressed medium-wide, no collage. Keep top strip dark timber for later titles; do not generate any text. This image establishes the exact faces, clothes and interior for subsequent scenes.",
+      "reference_images": [],
+      "source_generated_path": "C:\\Users\\wseok\\.codex\\generated_images\\01a15195-4fdf-7e70-af5c-65ca5b6eba21\\exec-90346895-c365-496b-b80b-7a9f99797a71.png",
+      "generation_tool": "image_gen",
+      "selected": true,
+      "artist_review": {
+        "opened_actual_image": true,
+        "status": "artist_pass_pending_independent_review",
+        "notes": [
+          "실제 출력 열람. 백발·큰체격 대장/마른 긴얼굴 부관/둥근 곱슬 병사 구별됨. LT무릎 지도, SO양손레버, 페달/빨간브레이크 고정. 관측구는 하단 지면 그림자뿐.",
+          "연필은 표면 바로 위로 읽히며 5cm 지정값보다 가까움. 검정선 생성 전 상태 유지."
+        ]
+      },
+      "followup_motion": "CO가 화살표를 따라 짚고 속삭인다. 낮은 관측구 바닥 그림자가 지나간다.",
+      "width": 1672,
+      "height": 941,
+      "sha256": "f03d8ae895b26f0e323ce68938344a23060cb791f52e96a66faa4e9567b1f20f",
+      "source_copy_sha256_match": true,
+      "first_frame": "LT 무릎의 평평한 지도에 CO 손끝이 닿기 직전. LT는 한 손으로 지도를 고정하고 다른 손 연필은 종이 위 5cm. 하단 관측구에는 바닥 그림자만 보임.",
+      "next_motion": "CO가 화살표를 한 번 따라 짚고 속삭인다. 낮은 관측구의 지면 그림자가 지나간다. 누구도 바깥 전체를 볼 수 없다.",
+      "review_status": "independent_actual_image_review_cross_check_and_required_closure_complete"
+    },
+    {
+      "concept_id": "C04",
+      "cut_id": "K02",
+      "scene_id": "S02",
+      "linked_cuts": [
+        "K02"
+      ],
+      "image_path": "images/C04/S02.png",
+      "prompt": "Use case: ads-marketing. Create one 16:9 live-action cinematic INSERT FIRST FRAME from the supplied reference exterior. Reference image is the actual set/child continuity reference, not a picture to include in scene. CLOSE-UP of the SAME plain narrow vertical metal coin slot plate on the same dark curved wooden horse body. Entire frame dominated by tactile brown wooden planks and the small metal plate; slot is EMPTY. A single child's right hand enters from LEFT holding one generic silver coin upright between thumb and index finger, coin still TWO CENTIMETRES outside the vertical slot, about to insert, no contact yet. A small part of green-and-white horizontally striped short sleeve identifies the SAME age9 child as reference. Correct small child's hand anatomy five fingers. No readable numbers or inscriptions on coin. Sunlight glancing off metal, warm lively daytime. At far background edge only out-of-focus red/yellow/blue bunting, shallow depth of field. No child's whole face needed, no adult hands, no soldiers, no signs, no text, no logos. This shot will later show the coin being pushed in, do NOT show coin already inserted. Preserve material, coinplate shape, vertical slot and age of hand exactly.",
+      "reference_images": [
+        "\\\\wsl.localhost\\Ubuntu-24.04\\home\\wooseok\\wsy\\samsung_related\\slide\\AI실행결과발표대회_디자인3종\\storyboards\\2026-10-19_keep13-rebuild-v6\\images\\C04\\S03.png"
+      ],
+      "source_generated_path": "C:\\Users\\wseok\\.codex\\generated_images\\01a15195-4fdf-7e70-af5c-65ca5b6eba21\\exec-92312c8f-279a-4eec-b1e2-34f956fa622a.png",
+      "generation_tool": "image_gen",
+      "selected": true,
+      "artist_review": {
+        "opened_actual_image": true,
+        "status": "artist_pass_pending_independent_review",
+        "notes": [
+          "실제 출력 열람. 줄무늬 소매/동일 금속판/목재/동전 투입 전 접사. 손/투입구 정상, 읽히는 숫자 없음."
+        ]
+      },
+      "followup_motion": "동전 방향을 세로 슬롯에 맞추며 밀어 넣고 손을 뺀다. 금속 통에 한 번 떨어진다.",
+      "width": 1672,
+      "height": 941,
+      "sha256": "25d46addaec2bdb1148b93f89e5ba71ed5602e7cd623ef2e6ea3053d603a39bb",
+      "source_copy_sha256_match": true,
+      "first_frame": "아이 손이 동전을 투입구 2cm 앞에 든 상태. 아직 동전이 들어가지 않았고 투입구는 빈 상태.",
+      "next_motion": "동전을 밀어 넣고 손을 뺀다. 금속 통에 한 번 떨어진다.",
+      "review_status": "independent_actual_image_review_cross_check_and_required_closure_complete"
+    },
+    {
+      "concept_id": "C04",
+      "cut_id": "K03",
+      "scene_id": "S03",
+      "linked_cuts": [
+        "K03"
+      ],
+      "image_path": "images/C04/S03.png",
+      "prompt": "Use case: ads-marketing. ONE live-action cinematic comedy first frame, landscape 16:9, no text or logos. A bright present-day Korean town square holding a small imaginary medieval theme festival. Cheerful noon sun, bunting, modern folding pop-up booths, colourful casual clothes, a recognizably temporary plywood faux stone gate in background. Main subject is a large hollow TROJAN WOODEN HORSE disguised as a quaint coin-operated fair ride: huge round barrel-like dark brown plank body big enough to hide three seated adult men, a blocky proud long wooden neck and horse head pointing SCREEN RIGHT, short BLACK mane, SINGLE RED rectangular flat saddle on its back, carved fixed wooden legs mounted above a visible rectangular dark metal chassis, exactly FOUR black rubber wheels at its corners (far pair visible by three-quarter angle), and a horizontal steel pivot between body and chassis for gentle rocking. NO rocking curved runners, no real horse, no motor, no people visible inside. Show a small unlettered metal coin slot plate on near side of the body, low small slit near chassis directed toward ground. This exterior is roughly 3.5m long and 2.5m high, a broad enclosed barrel big enough for adult performers, not a tiny toddler toy.\nFirst moment before mounting: a Korean child age9, cropped dark hair, green-and-white horizontal striped short-sleeved T-shirt, blue jeans, simple sneakers, stands with one foot on FINAL TOP STEP of a sturdy LOW broad three-step platform beside horse, one hand on saddle, hips NOT seated yet. Parent age40 with glasses and tan casual jacket stands near steps ready to assist. Red saddle and four wheeled chassis clearly visible; horse completely stopped. Only a handful of festival visitors dispersed in background, NOT a long queue yet. Camera medium-wide three-quarter view from horse left side, head points screen right, full horse and steps fully in frame, space before its nose. This is the visual reveal: a heroic siege device is actually used as a children's ride. Cheerfully ordinary festival attitudes, realistic tactile wood, mild incongruity rather than fantasy painting. No writing, no visible prices, no swords, no logos, no elderly soldiers shown outside.",
+      "reference_images": [],
+      "source_generated_path": "C:\\Users\\wseok\\.codex\\generated_images\\01a15195-4fdf-7e70-af5c-65ca5b6eba21\\exec-795ab29f-06e0-4ab4-b9a4-7f065143a617.png",
+      "generation_tool": "image_gen",
+      "selected": true,
+      "artist_review": {
+        "opened_actual_image": true,
+        "status": "artist_pass_pending_independent_review",
+        "notes": [
+          "실제 출력 열람. 네 고무바퀴·사각차대·수평축·붉은안장·검정갈기·금속동전구멍 확인. 줄무늬 아이는 계단 마지막 단, 앉기 전. 현대 부스/성문 대비가 읽힘."
+        ]
+      },
+      "followup_motion": "CH가 정지한 안장에 앉아 목을 한 번 두드린다. 보호자는 계단 곁에 선다.",
+      "width": 1672,
+      "height": 941,
+      "sha256": "2973212c959a98d9cf806bf8de987d4f695b074fdf6646fa16ce9a0f53d5c71c",
+      "source_copy_sha256_match": true,
+      "first_frame": "CH는 계단 마지막 단에 한 발을 둔 채 안장에 앉기 직전. 목마 4바퀴는 정지하고 내부 인물은 보이지 않음.",
+      "next_motion": "CH가 정지한 안장에 앉아 목을 한 번 두드린다. 보호자는 계단 곁에 선다.",
+      "review_status": "independent_actual_image_review_cross_check_and_required_closure_complete"
+    },
+    {
+      "concept_id": "C04",
+      "cut_id": "K04",
+      "scene_id": "S04",
+      "linked_cuts": [
+        "K04"
+      ],
+      "image_path": "images/C04/S04.png",
+      "prompt": "Use case: ads-marketing. ONE 16:9 cinematic live-action first frame for next shot inside the EXACT Trojan wooden horse in reference. Use reference as identity/set continuity, same three older Korean faces, bodies, costumes and seated positions, same wooden interior, same warm war-film lighting. No writing or collage. Change their action and emotion from the reference: broad white-haired commander CENTRE leans slightly forward, hands tucked near his OWN chest/body, alarmed urgent expression preparing to whisper an order toward soldier RIGHT. He is NOT pointing at map now. Tall gaunt grey-moustached lieutenant LEFT keeps the same large beige map directly across HIS knees, only broad red straight arrow and NO black squiggles yet. His LEFT hand clamps paper's edge steady, RIGHT hand holds charcoal pencil with tip almost touching paper, ready for a line to be accidentally drawn when cabin rocks. Soldier RIGHT, round face dense curly hair ochre jacket, grips the SAME ONE long wooden rocking lever with BOTH hands, braced shoulders, serious anxious look, lever has not moved yet. The hand lever is only at right soldier; no lieutenant hand on lever. At this instant the wooden cabin is level before rocking. Same foot pedal assemblies low left and right, same RED brake handle beside commander locked upright. Only the floor-level narrow observation slit shows highly backlit abstract moving shadows on ground, NO identifiable shoes, laces, trouser legs, modern props or festival. Above-head slits just light with no exterior detail. Camera slightly closer 32mm but same axis, all three faces, both lieutenant's hands on separate jobs and soldier's two hands clearly visible, unambiguous hand ownership, human anatomy correct. Preserve old age wrinkles and varied physique, avoid glamorous young actors. No new characters or controls.",
+      "reference_images": [
+        "\\\\wsl.localhost\\Ubuntu-24.04\\home\\wooseok\\wsy\\samsung_related\\slide\\AI실행결과발표대회_디자인3종\\storyboards\\2026-10-19_keep13-rebuild-v6\\images\\C04\\S01.png"
+      ],
+      "source_generated_path": "C:\\Users\\wseok\\.codex\\generated_images\\01a15195-4fdf-7e70-af5c-65ca5b6eba21\\exec-affb1c5d-604e-44f7-86a2-c4fb681b4643.png",
+      "generation_tool": "image_gen",
+      "selected": true,
+      "artist_review": {
+        "opened_actual_image": true,
+        "status": "artist_pass_pending_independent_review",
+        "notes": [
+          "실제 출력 열람. 인물/장치/방향 기준 유지. CO손 자기 가슴 근처, LT무릎 지도/연필, SO양손레버. 흔들림 전 수평/검정선 없음."
+        ]
+      },
+      "followup_motion": "SO가 레버를 왕복해 몸통이 기운다. LT가 종이를 붙잡고 연필이 흔들려 큰 굴곡선을 남긴다. 브레이크 잠김 유지.",
+      "width": 1672,
+      "height": 941,
+      "sha256": "9eba1aafbab6f705b7b56c7a4894af413c40f1b65848717b67cc403407a77497",
+      "source_copy_sha256_match": true,
+      "first_frame": "몸통은 수평. SO 양손은 기존 레버에 닿아 있지만 아직 밀지 않았다. LT는 한 손으로 무릎 지도를 고정하고 다른 손 연필 끝은 종이에 닿기 직전. CO 손은 자기 몸 가까이.",
+      "next_motion": "SO가 레버를 한 번 왕복해 몸통이 작게 기운다. LT는 지도를 한 손으로 붙잡고 다른 손 연필이 흔들려 큰 굴곡선을 남긴다. CO는 레버와 지도를 동시에 잡지 않는다.",
+      "review_status": "independent_actual_image_review_cross_check_and_required_closure_complete"
+    },
+    {
+      "concept_id": "C04",
+      "cut_id": "K05",
+      "scene_id": "S05",
+      "linked_cuts": [
+        "K05"
+      ],
+      "image_path": "images/C04/S05.png",
+      "prompt": "Use case: ads-marketing. ONE 16:9 live-action movie first frame, same bright Korean modern theme festival and EXACT Trojan horse prop as reference. Move camera slightly higher and farther for a broad high three-quarter wide: horse on screen LEFT to CENTRE, horse head still points RIGHT, enormous rounded dark wooden barrel belly, short black mane, RED rectangular saddle, exactly FOUR black rubber wheels and same rectangular metal chassis with horizontal rocking pivot. Same separate three-step wooden boarding platform on horse near side. No visible interior people. The boy age9 with green-and-white striped shirt and blue jeans has finished riding: FIRST INSTANT just BEFORE dismounting. He is still sitting on the red saddle with torso turned toward the wooden steps, one hand steady on saddle and feet preparing to lower to upper step. Do not show him jumping or already on ground. His tan-jacket glasses-wearing parent stands immediately beside steps. NEW festival manager is a 55-year-old Korean woman with short puffy salt-and-pepper curly hair, visible age lines and stocky practical silhouette, ORANGE reflective vest, black trousers, small whistle around neck, stands at bottom of steps looking up, hands currently near waist; later she will stop the next person. The horse is stationary level, NOT rolling now.\nThe NEW comic reveal is a LONG SINGLE-FILE QUEUE of parents and children extending away from the steps deep through the SAME faux stone festival gate and beyond. Show roughly eight distinct varied front visitors and then small diminishing queue silhouettes extending through gate, no crowd blocking horse path. Bright bunting, modern tent stalls, ordinary contemporary casual clothing. Make depth of queue and gate unmistakable, not a group of random scattered pedestrians. Main boy and manager clear, lots of space around wheel and stair bottom. All faces natural, ordinary Korean age/build variety. No writing on banners, no prices, no logos, no confetti yet, no parade staff yet. Strong contrast with cramped solemn warrior interior, realistic photographic texture. Keep horse same large scale suitable for three crouched adults inside.",
+      "reference_images": [
+        "\\\\wsl.localhost\\Ubuntu-24.04\\home\\wooseok\\wsy\\samsung_related\\slide\\AI실행결과발표대회_디자인3종\\storyboards\\2026-10-19_keep13-rebuild-v6\\images\\C04\\S03.png"
+      ],
+      "source_generated_path": "C:\\Users\\wseok\\.codex\\generated_images\\01a15195-4fdf-7e70-af5c-65ca5b6eba21\\exec-fa7f87f7-c4ac-4805-8c96-b98e84431399.png",
+      "generation_tool": "image_gen",
+      "selected": true,
+      "artist_review": {
+        "opened_actual_image": true,
+        "status": "artist_pass_pending_independent_review",
+        "notes": [
+          "실제 출력 열람. 긴 한 줄이 성문 너머까지 연결. CH가 안장 옆으로 몸을 돌려 계단으로 하차 시작 직전, FD는 계단 아래. 차대/바퀴/안장 동일. 이동 전 하차 동작은 후속 영상에서 필수."
+        ]
+      },
+      "followup_motion": "CH가 계단을 내려 두 발을 바닥에 딛는다. FD가 손바닥을 펴 다음 손님을 멈춘다. 빈 안장 확인 후에만 다음컷 주행.",
+      "width": 1672,
+      "height": 940,
+      "sha256": "db842371531da60967e12cec445f4aef956c83eb458d8ba50a2b2c189ef49ed6",
+      "source_copy_sha256_match": true,
+      "first_frame": "줄은 이미 뒤로 이어져 있고 CH는 안장에서 몸을 돌려 내려오기 직전. FD는 계단 아래에 서 있다.",
+      "next_motion": "CH가 계단을 내려 두 발을 바닥에 딛는다. FD가 손바닥을 펴 다음 손님을 멈춘다. 외부를 보는 병사의 눈·시점 컷을 넣지 않는다.",
+      "review_status": "independent_actual_image_review_cross_check_and_required_closure_complete"
+    },
+    {
+      "concept_id": "C04",
+      "cut_id": "K06",
+      "scene_id": "S06",
+      "linked_cuts": [
+        "K06"
+      ],
+      "image_path": "images/C04/S06_v2.png",
+      "prompt": "Use case: precise-object-edit. Edit this exact cinematic image, preserve camera, all three faces, costumes, map markings, lighting, floor slit, pedal machinery, body positions and right soldier's two hands on the wooden lever. Make ONE targeted correction to hand ownership: the beige crumpled map must rest FLAT across the LEFT thin moustached man's knees, entirely to LEFT of helmeted commander's body. LEFT man's LEFT hand visibly clamps the outer-left paper edge; his RIGHT hand visibly holds the paper's upper-right corner, both hands connected to the LEFT man's dark grey sleeves. The central helmeted commander's LEFT hand must be completely away from map and rest OPEN palm-up on his own EMPTY left thigh, ready to receive it later. His RIGHT hand still hovers above RED brake handle not pulling it. Absolutely no commander hand on map. Map remains only with thin moustached lieutenant, with same broad red straight arrow crossed by one black wavy line. Let map lower a little so both forearms and ownership of hands are unambiguous. Empty commander's lap is important. This is BEFORE map handover, not during it. Keep everything else unchanged, 16:9 no text or logo.",
+      "reference_images": [
+        "\\\\wsl.localhost\\Ubuntu-24.04\\home\\wooseok\\wsy\\samsung_related\\slide\\AI실행결과발표대회_디자인3종\\storyboards\\2026-10-19_keep13-rebuild-v6\\images\\C04\\S06.png"
+      ],
+      "source_generated_path": "C:\\Users\\wseok\\.codex\\generated_images\\01a15195-4fdf-7e70-af5c-65ca5b6eba21\\exec-9758c79f-a76f-4e63-bf4f-ff177fdf2cee.png",
+      "generation_tool": "image_gen",
+      "selected": true,
+      "artist_review": {
+        "opened_actual_image": true,
+        "status": "artist_pass_pending_independent_review",
+        "notes": [
+          "실제 출력 열람. LT양손/무릎에 지도 소유 명확. CO왼손 빈무릎 위에서 수령대기, 오른손 브레이크 위 대기. SO양손레버 유지. S06 손담당 지적 자체수정 완료."
+        ]
+      },
+      "followup_motion": "첫0.8초 LT가 지도를 CO무릎에 전달. CO왼손으로 눌러 놓은 뒤 오른손으로 빨간브레이크해제. 이후 SO레버 놓고 LT/SO페달.",
+      "width": 1672,
+      "height": 941,
+      "sha256": "ae9d14f8f72546ee8a9fa0a252bec800be03e1d3459c565452405f04036ffa38",
+      "source_copy_sha256_match": true,
+      "first_frame": "구겨진 지도는 아직 LT 무릎 위, CO 무릎은 비어 있다. CO 손은 빨간 레버 앞, SO 손은 기존 흔들림 레버에 있고 발은 아직 페달 중립 위치.",
+      "next_motion": "첫 0.8초 LT가 지도를 CO 무릎에 놓는다. CO가 한 번 눌러 자리 잡은 뒤에만 오른손을 빨간 브레이크로 옮겨 해제한다. 지도 전달·받기와 브레이크 조작을 동시에 하지 않는다. 이후 SO가 기존 손 레버를 놓고 LT와 페달을 밟는다.",
+      "review_status": "independent_actual_image_review_cross_check_and_required_closure_complete"
+    },
+    {
+      "concept_id": "C04",
+      "cut_id": "K07",
+      "scene_id": "S07",
+      "linked_cuts": [
+        "K07"
+      ],
+      "image_path": "images/C04/S07.png",
+      "prompt": "Use case: ads-marketing. ONE 16:9 live-action comedy movie first frame. Reference1 supplies exact wooden Trojan horse and festival architecture; reference2 supplies identical orange-vest female festival manager and crowd. New shot from same side at eye level in the SAME bright modern Korean theme festival. The very LARGE dark wooden barrel horse now slowly rolling SCREEN LEFT to RIGHT into an EMPTY pedestrian parade lane; head points RIGHT. Preserve short black mane, red rectangular saddle, shape/size, exactly FOUR black rubber wheels, rectangular chassis and rocking axle, coin-slot plate and ground-facing low slit. Crucially RED SADDLE COMPLETELY EMPTY: NO CHILD on horse, no adults riding either. Boarding wooden steps have been LEFT BEHIND, standing separately in background far-left with the green-striped boy and tan-jacket parent now fully on ground beside them. Keep boy/parent distant, not in horse's wheel path. No interior soldiers visible.\nFIRST INSTANT before reaction: horse front wheels just about to enter an empty lane in front of the festival manager. Manager SCREEN RIGHT, age55 round practical build, puffy short salt-and-pepper curly hair, ORANGE reflective vest, black trousers, whistle around neck, stares at moving prop with a surprised raised-brow look. Her hands are not touching barrier yet, hanging slightly raised near waist. A simple red-and-white rope barrier between two portable posts marks PARADE entrance on RIGHT ahead of horse, currently closed, space for her to unhook it later. Two distinct ADULT festival attendants with BLUE waistcoats over modern casual shirts stand near far and near sides of lane, each holding ONE colourful wooden STICK HOBBYHORSE (clearly toy horse head on long stick, not actual horses). They have not begun walking yet. Background queue waits behind, eight varied people with kids beside guardians, modern tents and bunting, same faux stone gate. Broad unobstructed path in front. No medieval soldiers outside, no real horses, no text/logos, no confetti yet. Funny contrast: an escape vehicle innocently recruited as a parade float. Photoreal cinematic, fresh staging not exact previous framing.",
+      "reference_images": [
+        "\\\\wsl.localhost\\Ubuntu-24.04\\home\\wooseok\\wsy\\samsung_related\\slide\\AI실행결과발표대회_디자인3종\\storyboards\\2026-10-19_keep13-rebuild-v6\\images\\C04\\S03.png",
+        "\\\\wsl.localhost\\Ubuntu-24.04\\home\\wooseok\\wsy\\samsung_related\\slide\\AI실행결과발표대회_디자인3종\\storyboards\\2026-10-19_keep13-rebuild-v6\\images\\C04\\S05.png"
+      ],
+      "source_generated_path": "C:\\Users\\wseok\\.codex\\generated_images\\01a15195-4fdf-7e70-af5c-65ca5b6eba21\\exec-15fa69ba-79da-4f6f-a50d-8e9c4306e634.png",
+      "generation_tool": "image_gen",
+      "selected": true,
+      "artist_review": {
+        "opened_actual_image": true,
+        "status": "artist_pass_pending_independent_review",
+        "notes": [
+          "실제 출력 열람. 빈 붉은안장/네바퀴, 아이두발 지면·계단뒤편, FD손 로프접촉전, 파란조끼 성인2인 막대말. 주행 통로 확보."
+        ]
+      },
+      "followup_motion": "목마가 느리게 굴러온다. FD가 로프를 열고 오른쪽을 가리킨다. 두 성인요원이 양옆에서 걷기 시작.",
+      "width": 1672,
+      "height": 941,
+      "sha256": "1195e15e6fec03280addde76a18d5e05bb5ba21a1b2aeb265709abd2d0f6266d",
+      "source_copy_sha256_match": true,
+      "first_frame": "목마 앞바퀴가 FD 앞의 빈 통로에 들어오기 직전. 안장 비어 있고 FD의 손은 아직 줄에 닿지 않음.",
+      "next_motion": "목마가 느리게 굴러온다. FD가 줄을 열고 오른쪽을 가리킨다. 두 성인 요원이 목마 양옆에서 걷기 시작.",
+      "review_status": "independent_actual_image_review_cross_check_and_required_closure_complete"
+    },
+    {
+      "concept_id": "C04",
+      "cut_id": "K08",
+      "scene_id": "S08",
+      "linked_cuts": [
+        "K08"
+      ],
+      "image_path": "images/C04/S08.png",
+      "prompt": "Use case: ads-marketing. ONE landscape16:9 cinematic live-action first frame. Continue the EXACT modern Korean faux-medieval theme festival of reference1 and reference2, same HUGE dark wooden Trojan horse with BLACK mane, single RED rectangular saddle EMPTY, four BLACK RUBBER wheels, metal rectangular chassis, horse head pointing screen RIGHT. Reference1 is last shot for exact manager, two toy-horse staff and geography; reference2 is original full prop. New much WIDER higher camera so the whole procession can be read. Horse is now HEAD OF THE PARADE, in near centre-left moving LEFT toward RIGHT slowly, with a broad EMPTY route in front. Crucial: people are BEHIND the horse at least TWO METRES away, not in front blocking it. Two SAME adult festival attendants in blue waistcoats flank horse, one on near side at midbody and one on far side near horse's head, each carrying the same brightly painted toy STICK HOBBYHORSE upright: no real horses, no weapons. Orange reflective vest manager age55 puffy grey-black curly hair on right OUTSIDE route holds one hand HIGH, about to give a confetti signal, not lowered yet. Confetti has NOT been thrown yet. Behind horse on left, a joyous dense line of families is ready to walk, children holding parents' hands, including SAME green-striped child and tan-jacket glasses parent now clearly on GROUND well behind wheels. People start raising hands, no running. A clear wide two-metre gap separates trailing family group from horse tail/wheels. Show bunting and modern tent booths framing procession, same faux stone festival gate now behind them. Heroic wide parade composition on ordinary bright pavement, the ridiculous siege prop is now the main attraction, photorealistic advertising-quality natural sunshine. Empty red saddle must be visible, no interior men visible, no boarding steps attached or travelling with horse. No text, logos, no confetti yet. Preserve exact horse scale and blocky proportions, avoid turning it into a living horse, small toy, fantasy castle, or narrow cart.",
+      "reference_images": [
+        "\\\\wsl.localhost\\Ubuntu-24.04\\home\\wooseok\\wsy\\samsung_related\\slide\\AI실행결과발표대회_디자인3종\\storyboards\\2026-10-19_keep13-rebuild-v6\\images\\C04\\S07.png",
+        "\\\\wsl.localhost\\Ubuntu-24.04\\home\\wooseok\\wsy\\samsung_related\\slide\\AI실행결과발표대회_디자인3종\\storyboards\\2026-10-19_keep13-rebuild-v6\\images\\C04\\S03.png"
+      ],
+      "source_generated_path": "C:\\Users\\wseok\\.codex\\generated_images\\01a15195-4fdf-7e70-af5c-65ca5b6eba21\\exec-e877b8b0-2ee4-48fc-a9c4-466cd1f131bf.png",
+      "generation_tool": "image_gen",
+      "selected": true,
+      "artist_review": {
+        "opened_actual_image": true,
+        "status": "artist_pass_pending_independent_review",
+        "notes": [
+          "실제 출력 열람. 행렬 선두 목마 빈안장, 막대말성인 둘, 뒤편 아이/보호자, FD신호팔 올림. 전진공간 확보, 색종이 전 상태. 손님은 목마에 타지 않음."
+        ]
+      },
+      "followup_motion": "행렬이 천천히 전진, 보호자/아이 손흔듦. FD신호뒤 색종이 한번. 외부 안전한 느린속도와 내부 급한페달 대비.",
+      "width": 1672,
+      "height": 941,
+      "sha256": "23de5ef877ca86383593f5c31b9f87eb4e532878dd1315399847e3bb84d89b4e",
+      "source_copy_sha256_match": true,
+      "first_frame": "목마가 행렬 선두에 들어선 직후, FD의 손은 색종이 신호를 내리기 직전. 뒤 사람들은 2m 이상 떨어져 걸을 준비.",
+      "next_motion": "행렬이 천천히 전진하고 보호자·아이들이 손을 흔든다. 색종이가 한번 날린다.",
+      "review_status": "independent_actual_image_review_cross_check_and_required_closure_complete"
+    },
+    {
+      "concept_id": "C04",
+      "cut_id": "K09",
+      "scene_id": "S09",
+      "linked_cuts": [
+        "K09"
+      ],
+      "image_path": "images/C04/S09_v2.png",
+      "prompt": "Use case: precise-object-edit. Edit image1 ONLY two mechanical continuity details, preserve ALL faces, poses, map in commander's hands, paper marks, clothing, camera, lighting, pedal assemblies, floor opening. Image2 is reference for old mechanical lever design only, NOT pose target.\n1) The RED-handled brake lever next to central commander's right knee is currently vertical/locked. Rotate that SAME red brake handle down toward SCREEN RIGHT, near-HORIZONTAL at its base, in an unmistakably RELEASED lower position. No vertical red handle should remain. Keep its metal pivot and location unchanged. Only ONE red brake lever.\n2) Restore the old LONG WOODEN rocking lever seen at right edge of image2: in image1 put it standing unattended at the extreme RIGHT wall behind the round curly-haired soldier's right elbow, leaning against wall. The soldier does NOT touch it: both of his hands stay braced on HIS OWN THIGHS exactly as image1. The lever is a simple weathered wooden shaft, single, not a weapon, no duplicate.\nNo other changes. Three older men still serious and tense, lieutenant and round soldier pedalling, commander owns map. Same cinematic photograph landscape16:9, no text.",
+      "reference_images": [
+        "\\\\wsl.localhost\\Ubuntu-24.04\\home\\wooseok\\wsy\\samsung_related\\slide\\AI실행결과발표대회_디자인3종\\storyboards\\2026-10-19_keep13-rebuild-v6\\images\\C04\\S09.png",
+        "\\\\wsl.localhost\\Ubuntu-24.04\\home\\wooseok\\wsy\\samsung_related\\slide\\AI실행결과발표대회_디자인3종\\storyboards\\2026-10-19_keep13-rebuild-v6\\images\\C04\\S01.png"
+      ],
+      "source_generated_path": "C:\\Users\\wseok\\.codex\\generated_images\\01a15195-4fdf-7e70-af5c-65ca5b6eba21\\exec-ede9cae5-52ba-494f-b449-0b5068020252.png",
+      "generation_tool": "image_gen",
+      "selected": true,
+      "artist_review": {
+        "opened_actual_image": true,
+        "status": "artist_pass_pending_independent_review",
+        "notes": [
+          "실제 출력 열람. 지도는 CO양손/무릎. LT·SO페달 위치, SO손 자기무릎. 빨간브레이크 수평해제, 손레버 우측벽대기 복구. 현대외부안보임.",
+          "상부 자막은 어두운 천장 위 한 줄 배치 권장. 요청18%여백보다 실제여백 좁으므로 배우 머리를 가리는 두꺼운 상단박스는 피할 것."
+        ]
+      },
+      "followup_motion": "CO가 지도를 펴려다 다시접고 앞봄. LT/SO계속페달. 행사명7초후편집, 외부밝은환호와 내부필사적노동대비.",
+      "width": 1672,
+      "height": 941,
+      "sha256": "b60a9ecb95d6e68e904bcb4b7eedbb5acc3affaf8ad61a546ffad22c155b27a0",
+      "source_copy_sha256_match": true,
+      "first_frame": "구겨진 지도가 CO 무릎 앞에서 펼쳐지기 직전. 붉은 직진 화살표와 이미 남은 검정 굴곡선이 크고 단순하다. 두 사람 발은 페달 상하 중립 위치.",
+      "next_motion": "CO가 지도를 펴려다 다시 접고 앞을 본다. LT·SO는 계속 페달을 밟는다. 글자를 읽히려 확대하거나 새 도식을 덧그리지 않는다.",
+      "postproduction_notes": "제목을 최상단(대략 y 1~6%) 한 줄로 7초 유지. 실제 합성에서 720p 기준 가독성을 확인한다. 머리·얼굴·지도·페달 영역은 피하고 내레이션을 받는 별도 홍보 문구를 중복해서 쌓지 않는다.",
+      "review_status": "independent_actual_image_review_cross_check_and_required_closure_complete"
+    },
+    {
+      "concept_id": "C05",
+      "cut_id": "K01",
+      "scene_id": "S01",
+      "linked_cuts": [
+        "K01"
+      ],
+      "image_path": "images/C05/S01.png",
+      "prompt": "Use case: ads-marketing. A single 16:9 widescreen first frame for an absurd Korean live-action miniature tokusatsu disaster comedy, no collage, no words, no logo.\nScene S01: extremely low-angle wide shot outside a fictional modest Korean institutional gymnasium in ominous stormy backlight. A threatening original RED long-necked monster stands upright on the LEFT beside the gym's independent rectangular entrance canopy on the RIGHT. Monster upright height 8 meters; the separate canopy soffit is 5 meters; the gym behind it is 12 meters tall. Perspective makes monster imposing but never changes these dimensions. Canopy flat horizontal pale concrete slab supported by FOUR slender square gray columns; all four intact. It is a free standing four-post porch in front of the taller gray gym, NOT the gym's main roof. Door in gym behind porch.\nMONSTER DESIGN LOCK: an obviously fabricated miniature special-effects rubber puppet, not human or photoreal animal, not cute mascot. A very long thick flexible scarlet neck roughly half its full upright height, small block-shaped red torso, long thick red arms with simple four-finger mitt hands, two short stout square legs. Small rectangular red head, two round yellow inset eyes with tiny black pupils staring with arrogant menace, straight horizontal mouth slit slightly opening just before a roar, small half-circle red ears behind each side of head. Visible rough red rubber seams and painted texture, no scales or hair or horns. Both arms hang at body sides, knees straight, neck fully extended. Do not show neck folded yet. Keep this silhouette unmistakably strange and threatening. Heavy cloud sky, harsh practical rim light, miniature grass, concrete seams, distant small pedestrian woman in gray jacket and man in navy shirt outside porch for scale. Nobody underneath canopy. No destruction yet, no rubble, no ladder, no tools, no earphones. Composition reads monster, independent intact canopy and taller gym together. Grainy photographed physical models with cinematic contrast, not glossy CGI, not children's toy advertising.",
+      "reference_images": [],
+      "source_generated_path": "C:\\Users\\wseok\\.codex\\generated_images\\01a15195-8ba1-7de0-a3ae-6169a54cc7a7\\exec-1351a745-4624-478e-a427-0900035bc328.png",
+      "generation_tool": "image_gen",
+      "selected": true,
+      "width": 1672,
+      "height": 941,
+      "sha256": "0a551636d27d96fe1f71c1e3b27b96e377a0f79acb9aa5af67261734fb6c34bd",
+      "source_copy_sha256_match": true,
+      "artist_review": {
+        "opened_actual_image": true,
+        "status": "artist_inspected_pending_independent_review",
+        "notes": [
+          "직립한 긴 붉은 목과 노란 눈, 의도적 고무 인형 질감, 온전한 네 기둥 포치 확인. 행사 문구 없음."
+        ]
+      },
+      "followup_motion": "괴수가 포효한 뒤 실내 쪽으로 눈을 돌리고 앞왼쪽 기둥에 손을 뻗기 시작한다.",
+      "first_frame": "괴수 입이 포효 직전 벌어져 있고 두 팔은 몸 옆. 앞왼쪽 기둥은 온전하며 포치 지붕은 수평.",
+      "next_motion": "괴수가 포효한 뒤 실내 쪽으로 눈을 돌리고 앞왼쪽 기둥에 손을 뻗기 시작한다.",
+      "review_status": "independent_actual_image_review_cross_check_and_required_closure_complete"
+    },
+    {
+      "concept_id": "C05",
+      "cut_id": "K02",
+      "scene_id": "S02",
+      "linked_cuts": [
+        "K02"
+      ],
+      "image_path": "images/C05/S02.png",
+      "prompt": "Use case: ads-marketing. Generate a new single 16:9 shot S02 from the referenced S01 image. Image 1 is the actual continuity reference for the red rubber monster and gray gymnasium and independent four-post porch. Keep their exact identities, shapes, relative scale, materials. Not a collage, no text.\nNew camera: wider eye-height three-quarter exterior shot, less extreme low angle, full monster including feet and porch all visible. Monster stands immediately LEFT of the porch's FRONT LEFT COLUMN, reaching its right hand toward that specific square pale column. The four fingers are spread 15 cm before contact: FIRST FRAME before it grabs and pulls. Other arm at side. It is STILL FULLY UPRIGHT, knees straight, the very long red neck vertical, at least half full height, no folded neck yet. It looks arrogantly determined, not cute. Mouth thin horizontal slit, yellow eyes, red half-circle ears. Puppet rubber seam texture unchanged.\nAll FOUR original square columns still intact, canopy roof still horizontal. The designated front-left column is nearest the monster and is unobstructed enough to see hand-to-column distance. Body never intersects roof. Gym main building still twice the height of the porch; monster upright 8m, porch underside 5m, gym 12m. No giant growth or shrinking. Two tiny onlookers, gray-jacket woman and navy-shirt man, stand together far left outside the porch. Empty paved area farther left to eventually lay the extracted column, but NO fallen column yet. No debris, tools, earphones, ladder. Dramatic gray daylight with hard side light; photographed practical miniature, slightly grainy, intentionally handmade not polished cartoon.",
+      "reference_images": [
+        "C:\\Users\\wseok\\.codex\\generated_images\\01a15195-8ba1-7de0-a3ae-6169a54cc7a7\\exec-1351a745-4624-478e-a427-0900035bc328.png"
+      ],
+      "source_generated_path": "C:\\Users\\wseok\\.codex\\generated_images\\01a15195-8ba1-7de0-a3ae-6169a54cc7a7\\exec-cdaa1ff8-25a1-4487-8da4-9db15041d4bf.png",
+      "generation_tool": "image_gen",
+      "selected": true,
+      "width": 1672,
+      "height": 941,
+      "sha256": "2dfb4a6a02368e9591eb6450d6ffceee51c1d94d7838b44017fc897b637887b7",
+      "source_copy_sha256_match": true,
+      "artist_review": {
+        "opened_actual_image": true,
+        "status": "artist_inspected_pending_independent_review",
+        "notes": [
+          "직립 유지, 앞 왼쪽 기둥에 손 닿기 전, 포치 밖 통행인, 아직 파손 없음 확인."
+        ]
+      },
+      "followup_motion": "기둥을 빼 왼쪽에 눕힌다. 바로 무릎을 굽히고 긴 목을 큰 S자로 접어 포치 밑으로 들어가 양팔을 승리 자세로 든다. 동작 사이 몸 크기는 고정.",
+      "first_frame": "괴수는 아직 포치 바깥 직립 상태에서 손이 앞왼쪽 기둥을 잡기 직전. 긴 목은 펴져 있고 무릎도 아직 굽히지 않았다. 지붕은 수평, 통행인 둘은 포치 밖.",
+      "next_motion": "기둥을 빼 왼쪽에 눕힌다. 바로 무릎을 굽히고 긴 목을 큰 S자로 접어 포치 밑으로 들어가 양팔을 승리 자세로 든다. 동작 사이 몸 크기는 고정.",
+      "review_status": "independent_actual_image_review_cross_check_and_required_closure_complete"
+    },
+    {
+      "concept_id": "C05",
+      "cut_id": "K03",
+      "scene_id": "S03",
+      "linked_cuts": [
+        "K03"
+      ],
+      "image_path": "images/C05/S03.png",
+      "prompt": "Use case: ads-marketing. Single 16:9 first frame S03 for the same tokusatsu story. Image1 is EXACT monster crouching pose and three-column damaged porch continuity; image2 gives earlier ominous light and monster original standing size. Create the MOMENT BEFORE image1: monster celebrates under the unsupported left porch corner, then notices roof beginning to tip. Match its full original body dimensions, no shrinkage.\nTake a slightly closer three-quarter medium-wide camera to show whole monster, folded knees, large S-shaped full-length neck, both raised hands, roof edge and fallen column. Head stays4.5m high with ear4.2m and shoulder2.2m. Same scarlet rough rubber body, yellow eyes, semicircle ears. The monster's BOTH hands are open in a victory pose 20–30cm BELOW the porch underside, clearly separated from it by visible air. It has NOT caught the roof yet. Head turned slightly upward, eyes seeing the roof, smug expression just becoming alarm, not smile. Roof has only just begun to tilt at missing front-left corner. Next action is catching with both palms.\nExactly THREE standing original columns (the front-left fourth is gone). One full-length intact square concrete column lies on left ground, same diagonal position as image1. No rubble, no additional damage. Gym main body12m intact and door at right rear. No people, no jack, no ladder, no earphone: foreman has not arrived yet. Muted dramatic daylight transitioning to bright day, cinematic painted miniature set and practical rubber seams. Maintain the S-shaped long neck from image1, not a short dinosaur neck. No text, logos, collage.",
+      "reference_images": [
+        "C:\\Users\\wseok\\.codex\\generated_images\\01a15195-8ba1-7de0-a3ae-6169a54cc7a7\\exec-fbd1a34c-c065-4cad-ba02-d189edd4c59f.png",
+        "C:\\Users\\wseok\\.codex\\generated_images\\01a15195-8ba1-7de0-a3ae-6169a54cc7a7\\exec-cdaa1ff8-25a1-4487-8da4-9db15041d4bf.png"
+      ],
+      "source_generated_path": "C:\\Users\\wseok\\.codex\\generated_images\\01a15195-8ba1-7de0-a3ae-6169a54cc7a7\\exec-f6e07dfb-7a16-4fc4-b929-07721548e539.png",
+      "generation_tool": "image_gen",
+      "selected": true,
+      "width": 1672,
+      "height": 941,
+      "sha256": "c917a0453761e583e138026f4270ac6c06c71fda9fceb3a943611304f775c467",
+      "source_copy_sha256_match": true,
+      "artist_review": {
+        "opened_actual_image": true,
+        "status": "artist_inspected_pending_independent_review",
+        "notes": [
+          "긴 목 S자 접힘과 양 무릎, 지붕에 닿기 전 두 손, 누운 기둥 1개, 사람·잭 없음 확인. 지붕 각도는 원근과 후속 움직임 검수 필요."
+        ]
+      },
+      "followup_motion": "지붕이 더 기울기 시작하자 괴수가 양손으로 앞 가장자리를 받쳐 멈춘다. 머리·몸에 충돌하지 않는다.",
+      "first_frame": "괴수는 무릎을 굽히고 긴 목을 S자로 접은 채 두 팔을 승리 자세로 든다. 지붕이 막 기울기 시작했고 양손은 아직 닿지 않았다. 귀는 약 4.2m 높이.",
+      "next_motion": "지붕이 더 기울기 시작하자 괴수가 양손으로 앞 가장자리를 받쳐 멈춘다. 머리·몸에 충돌하지 않는다.",
+      "review_status": "independent_actual_image_review_cross_check_and_required_closure_complete"
+    },
+    {
+      "concept_id": "C05",
+      "cut_id": "K04",
+      "scene_id": "S04",
+      "linked_cuts": [
+        "K04"
+      ],
+      "image_path": "images/C05/S04_v2.png",
+      "prompt": "Use case: precise-object-edit. Edit this exact 16:9 S04 frame. Keep monster face, proportions, folded S neck, knees, both hands supporting roof, facilities foreman's exact face/body/clothes, jack, camera and daylight unchanged. Correct ONLY the extracted column continuity.\n1) There must be exactly THREE standing columns remaining. Remove the extra narrow gray vertical column visible immediately behind the monster's screen-left upper arm and left side of its torso (around image x650). Leave the proper rear column near center x980 and the two right columns unchanged. No replacement supports.\n2) Replace the short concrete chunk on far left pavement with ONE complete long intact square column, the full height of the original 5-meter porch supports, laid on its side diagonally away into the left forecourt. The close end is at the far bottom-left foreground and the long shaft recedes toward the left side background; use foreshortening but ensure it clearly reads as a long complete structural post, not a broken short block. Full post visible inside frame, not under monster feet. No additional rubble, no extra fallen posts. Everything else unchanged. No text.",
+      "reference_images": [
+        "C:\\Users\\wseok\\.codex\\generated_images\\01a15195-8ba1-7de0-a3ae-6169a54cc7a7\\exec-3ca088ec-fda3-4c86-953a-f91e5715b945.png"
+      ],
+      "source_generated_path": "C:\\Users\\wseok\\.codex\\generated_images\\01a15195-8ba1-7de0-a3ae-6169a54cc7a7\\exec-fbd1a34c-c065-4cad-ba02-d189edd4c59f.png",
+      "generation_tool": "image_gen",
+      "selected": true,
+      "width": 1672,
+      "height": 941,
+      "sha256": "cf45dac7f8e940c0a9ac6e072e3a1b88755e1d1d6cce2e8f886fa0a6f7ca1540",
+      "source_copy_sha256_match": true,
+      "artist_review": {
+        "opened_actual_image": true,
+        "status": "artist_inspected_pending_independent_review",
+        "notes": [
+          "큰 체격 은발 버즈컷 50대 반장·노란 장갑·짧은 붉은 잭 확인. 여분 기둥 제거 후 서 있는 기둥 3개, 누운 긴 기둥 1개. 긴 S자 목과 굽힌 무릎, 두 손 지지 확인."
+        ]
+      },
+      "followup_motion": "FM이 잭을 끝까지 올렸다가 부족한 높이를 확인하고 급히 두 손을 든다. 괴수는 떠날 길을 흘겨보다 양손 지지를 유지한다. 긴 목의 접힘과 귀 높이는 그대로.",
+      "first_frame": "FM이 접힌 받침대를 굴려 멈추기 직전. 괴수는 무릎과 긴 목을 S자로 접은 같은 크기로 지붕을 받치며 왼쪽 길을 본다. 정수리 4.5m·귀 4.2m 기준.",
+      "next_motion": "FM이 잭을 끝까지 올렸다가 부족한 높이를 확인하고 급히 두 손을 든다. 괴수는 떠날 길을 흘겨보다 양손 지지를 유지한다. 긴 목의 접힘과 귀 높이는 그대로.",
+      "review_status": "independent_actual_image_review_cross_check_and_required_closure_complete"
+    },
+    {
+      "concept_id": "C05",
+      "cut_id": "K05",
+      "scene_id": "S05",
+      "linked_cuts": [
+        "K05"
+      ],
+      "image_path": "images/C05/S05_v2.png",
+      "prompt": "Use case: precise-object-edit. Correct ONLY the monster's neck/head pose in image1 (S05 medium shot). Image2 is the exact previous pose it must retain. Keep image1 camera crop, daylight, architecture, open door on screen RIGHT, both hand positions and all body sizes unchanged.\nThe long neck must have the SAME S bend handedness as image2: from shoulders it bends toward screen RIGHT, then curves back so the head points toward screen LEFT. Do NOT mirror or reverse the S curve. Its head still faces toward screen left as in image2. Only the small black pupils in the two yellow eyes glance toward screen RIGHT toward the open gym door. It is the first frame BEFORE turning/leaning to listen, NOT already looking all the way right. Keep original rectangular red head, semi-circle ears and long neck volume without shrinking. Both hands continue pressing the underside of the roof. No new props, words, earphones, wires, or people.",
+      "reference_images": [
+        "C:\\Users\\wseok\\.codex\\generated_images\\01a15195-8ba1-7de0-a3ae-6169a54cc7a7\\exec-1b6a2a03-528c-44fa-9062-7c8e1c6ba861.png",
+        "C:\\Users\\wseok\\.codex\\generated_images\\01a15195-8ba1-7de0-a3ae-6169a54cc7a7\\exec-fbd1a34c-c065-4cad-ba02-d189edd4c59f.png"
+      ],
+      "source_generated_path": "C:\\Users\\wseok\\.codex\\generated_images\\01a15195-8ba1-7de0-a3ae-6169a54cc7a7\\exec-e0adf38c-dc52-4fe8-854c-0a9c2d6fbca3.png",
+      "generation_tool": "image_gen",
+      "selected": true,
+      "width": 1672,
+      "height": 941,
+      "sha256": "24c842c5ffbc5941979e7fdef265f395b68ec4776c290f33972eb0a59dcae7fd",
+      "source_copy_sha256_match": true,
+      "artist_review": {
+        "opened_actual_image": true,
+        "status": "artist_inspected_pending_independent_review",
+        "notes": [
+          "S04와 같은 S자 방향으로 복구. 두 손 지지, 오른쪽 열린 문, 이어폰과 사다리 미등장. 시선의 작은 이동은 후속 동작에서 보강."
+        ]
+      },
+      "followup_motion": "괴수가 귀를 문 쪽으로 기울인다. 지붕이 작은 범위로 따라 움직이자 바로 자세를 되돌린다.",
+      "first_frame": "괴수는 무릎·긴 목을 S자로 접은 같은 지지 자세. 양손이 지붕을 받치고 귀는 약 4.2m. 눈만 열린 문으로 돌아가 귀를 기울이기 직전.",
+      "next_motion": "괴수가 귀를 문 쪽으로 기울인다. 지붕이 작은 범위로 따라 움직이자 바로 자세를 되돌린다.",
+      "review_status": "independent_actual_image_review_cross_check_and_required_closure_complete"
+    },
+    {
+      "concept_id": "C05",
+      "cut_id": "K06",
+      "scene_id": "S06",
+      "linked_cuts": [
+        "K06"
+      ],
+      "image_path": "images/C05/S06.png",
+      "prompt": "Use case: ads-marketing. Single 16:9 S06 first frame in the SAME practical tokusatsu courtyard as image1. Wide low-ish camera near a ladder's wheel base. SAME exact giant red monster in background center, S-folded long neck and crouched knees, both hands flat supporting roof, head height4.5m/ear4.2m, NOT standing up or becoming smaller. Its pupils look forward with weary hope, head still pointing screen-left in same S-curve as reference.\nA genuinely LONG 5.5-meter aluminum mobile access ladder is JUST ENTERING from screen LEFT; broad four-wheel stabilizer base on ground completely OUTSIDE canopy footprint. Strong diagonal silver ladder rails rise from left foreground toward the monster's accessible visible red ear around4.2m, rails extending above; uppermost equipment beyond the top crop and hidden behind rails so NO earphone or headset is visible anywhere. This must read as useful rescue equipment, not a small household stepladder. First frame BEFORE wheels are locked and before anyone climbs.\nA new technician pushes its waist-height lower handle: 64-year-old Korean man, wiry thin body, narrow shoulders, long creased face, short silver hair, thin long WHITE GOATEE, dark navy work BIB OVERALLS over a gray shirt, orange gloves, worn dark boots. Distinctly smaller/slimmer and older than the large clean-shaven silver BUZZCUT foreman in olive jacket at the far RIGHT. Technician has both feet on ground, practical focused expression, not posing. Foreman can be at right near the raised short red jack, normal human scale1.75m. Neither person stands beneath roof.\nOne long removed concrete post stays on left ground but not across wheels; exactly three standing pillars remain. Door rear-right open. Bright daylight, chipped red rubber seams, physical miniature gym, mundane facility staff versus trapped enormous creature. No text, no logo, no earphones, no wires, no headphones revealed, no extra humans.",
+      "reference_images": [
+        "C:\\Users\\wseok\\.codex\\generated_images\\01a15195-8ba1-7de0-a3ae-6169a54cc7a7\\exec-fbd1a34c-c065-4cad-ba02-d189edd4c59f.png"
+      ],
+      "source_generated_path": "C:\\Users\\wseok\\.codex\\generated_images\\01a15195-8ba1-7de0-a3ae-6169a54cc7a7\\exec-584182e6-6ab7-4896-be2b-98421c78f129.png",
+      "generation_tool": "image_gen",
+      "selected": true,
+      "width": 1672,
+      "height": 941,
+      "sha256": "572aea2ad7d0c08ee7b7afb70abc854e6b27194c1088494c4f502b6f4c9b2633",
+      "source_copy_sha256_match": true,
+      "artist_review": {
+        "opened_actual_image": true,
+        "status": "artist_inspected_pending_independent_review",
+        "notes": [
+          "작은 체격 흰 수염·멜빵 작업 기사와 큰 체격 반장 대비 확인. 긴 바퀴 사다리 진입, 이어폰 미공개. 두 손 지지 유지."
+        ]
+      },
+      "followup_motion": "TE가 바깥 지지대를 고정하고 사다리 끝을 이미 고정된 4.2m 귀 높이에 맞춘다. 괴수는 목을 펴지 않고 눈만 위로 따라간다.",
+      "first_frame": "긴 사다리 하부가 왼쪽에 막 들어온다. TE가 손잡이를 밀고 괴수는 같은 S자 목·굽힌 무릎·4.2m 귀 높이로 정면을 본다. 이어폰은 아직 보이지 않음.",
+      "next_motion": "TE가 바깥 지지대를 고정하고 사다리 끝을 이미 고정된 4.2m 귀 높이에 맞춘다. 괴수는 목을 펴지 않고 눈만 위로 따라간다.",
+      "review_status": "independent_actual_image_review_cross_check_and_required_closure_complete"
+    },
+    {
+      "concept_id": "C05",
+      "cut_id": "K07",
+      "scene_id": "S07",
+      "linked_cuts": [
+        "K07"
+      ],
+      "image_path": "images/C05/S07.png",
+      "prompt": "Use case: ads-marketing. New single 16:9 S07, upper-ladder close medium shot revealing the unexpected object. Image1 gives technician, ladder and set. Image2 gives exact monster head and folded S neck. Keep every identity and size. No text.\nCamera is at ear height from an oblique angle OUTSIDE the canopy, aimed toward the monster's visible near red half-circle ear. Compose the large monster's head on RIGHT and the technician standing on the upper ladder steps at LEFT, his chest at ear level. Adjust camera around the head so the visible accessible ear is at the left side of its head nearest technician, but the long neck stays folded into an S beneath and the giant stays squatting at4.2m ear height. The camera change may reveal opposite side of head; do not change monster anatomy. Its large red rubber hands still visibly support roof on both sides (partial hands at frame edges acceptable), with narrow clearance above head.\nThe same 64-year-old Korean technician: wiry thin body, narrow shoulders, long lined face, short silver-gray hair, LONG THIN WHITE GOATEE, navy work bib overalls over gray shirt, orange gloves. Worn realistic face, not youthful or handsome model. Secure footing on aluminum ladder, one hand steadying rail. With his other orange-gloved hand he holds ONE large BLACK ROUND WIRED EAR CUP exactly10cm away from monster's red ear: obvious air gap, NOT attached yet. Ear cup is not a full headset: no over-head band, no second cup. Short rear fixing strap hanging loose. One black audio wire hangs from the cup OUTSIDE the ladder rails down toward ground. This is a sound installation, not rescue. Serious routine-work expression. Monster eyes look toward tiny workman, puzzled and disappointed, no smile.\nBright day; gray roof soffit and small portion of intact gym in background. Show hands-roof contact, giant ear, single round ear cup and aging technician clearly. No random tools, no jack near head, no extra worker, no fake typography. Real photographed rubber-and-concrete miniature with live-action human composite, tactile chipped red skin and practical B-movie textures.",
+      "reference_images": [
+        "C:\\Users\\wseok\\.codex\\generated_images\\01a15195-8ba1-7de0-a3ae-6169a54cc7a7\\exec-584182e6-6ab7-4896-be2b-98421c78f129.png",
+        "C:\\Users\\wseok\\.codex\\generated_images\\01a15195-8ba1-7de0-a3ae-6169a54cc7a7\\exec-e0adf38c-dc52-4fe8-854c-0a9c2d6fbca3.png"
+      ],
+      "source_generated_path": "C:\\Users\\wseok\\.codex\\generated_images\\01a15195-8ba1-7de0-a3ae-6169a54cc7a7\\exec-5f8e6cec-02ae-4b37-9dd5-b7d1d1f00a21.png",
+      "generation_tool": "image_gen",
+      "selected": true,
+      "width": 1672,
+      "height": 941,
+      "sha256": "94d026ac96f1f3358181f09dc8ca2ac4af849691725b85089bb0f8a1fa92c81a",
+      "source_copy_sha256_match": true,
+      "artist_review": {
+        "opened_actual_image": true,
+        "status": "artist_inspected_pending_independent_review",
+        "notes": [
+          "반대쪽 사선의 귀 높이 근접 카메라. 기사 주름·흰 수염·주황 장갑, 검정 단일 이어컵과 귀 사이 틈, 양손 지지 일부 확인. 카메라 전환에 따른 귀 측면 매칭은 독립 검수 요청."
+        ]
+      },
+      "followup_motion": "TE가 이어컵을 귀에 걸고 짧은 뒤 고정끈을 건다. 괴수는 눈을 한번 깜빡이고 오른쪽 실내를 본다.",
+      "first_frame": "TE가 커다란 검정 이어컵을 귀에서 10cm 떨어진 곳에 든 상태. 아직 귀에 걸리지 않았고 선은 사다리 바깥으로 내려감.",
+      "next_motion": "TE가 이어컵을 귀에 걸고 짧은 뒤 고정끈을 건다. 괴수는 눈을 한번 깜빡이고 오른쪽 실내를 본다.",
+      "postproduction_notes": "K07은 K06/K08 와이드와 반대 사선의 귀 높이 접사. 설치 대상은 K08에 보이는 한쪽 귀로 고정한다. 화면 좌우가 바뀐다고 실제 귀를 바꾸지 않는다. 실제 영상 제작에서는 전선·건물 방향까지 대조할 것. 정지 이미지 단계에서 귀 연결 동작 검증 완료라고 기록하지 않는다.",
+      "review_status": "independent_actual_image_review_cross_check_and_required_closure_complete"
+    },
+    {
+      "concept_id": "C05",
+      "cut_id": "K08",
+      "scene_id": "S08",
+      "linked_cuts": [
+        "K08"
+      ],
+      "image_path": "images/C05/S08_v2.png",
+      "prompt": "Use case: precise-object-edit. Correct ONLY giant red monster HEAD AND LONG NECK in image1. Image2 shows the EXACT SAME giant, exact original neck length and S-shaped folded pose needed for continuity. Keep image1 entire wide set, workers, ladder, cable, jack, three remaining columns, fallen column, bent legs, torso scale, both supporting arm and hand positions, roof and lighting identical.\nIn image1 the neck is too short and bends only once. Replace it with the full long tightly folded S-shaped neck from image2. From upper chest the thick red neck curves up toward SCREEN RIGHT, then curves back LEFT, putting head to SCREEN LEFT of the upper neck bend. SAME head size as image2 relative to torso. Head points screen LEFT as image2, not toward screen RIGHT. Do not mirror the S curve. The ear at4.2m and head top4.5m fit just below roof unchanged. Eyes glance down toward the ground foreman on right without turning the entire head.\nKeep ONE black round wired ear cup but attach it to the visible half-circle red ear on the SCREEN RIGHT rear of the now-leftward-facing head. No overhead band. Cable can curve gently behind head to join existing cable descending left. Do not create a second ear cup. No other alterations, no text.",
+      "reference_images": [
+        "C:\\Users\\wseok\\.codex\\generated_images\\01a15195-8ba1-7de0-a3ae-6169a54cc7a7\\exec-135f3875-3d89-42fd-850b-f7ea3f0a313f.png",
+        "C:\\Users\\wseok\\.codex\\generated_images\\01a15195-8ba1-7de0-a3ae-6169a54cc7a7\\exec-fbd1a34c-c065-4cad-ba02-d189edd4c59f.png"
+      ],
+      "source_generated_path": "C:\\Users\\wseok\\.codex\\generated_images\\01a15195-8ba1-7de0-a3ae-6169a54cc7a7\\exec-d9ac2caa-5cd8-4ad2-bf03-5c79d37ec743.png",
+      "generation_tool": "image_gen",
+      "selected": true,
+      "width": 1672,
+      "height": 941,
+      "sha256": "e94a07fe371524a68d9132d569be8ae7a84556a723ea89554ac63bc43ae2869d",
+      "source_copy_sha256_match": true,
+      "artist_review": {
+        "opened_actual_image": true,
+        "status": "artist_inspected_pending_independent_review",
+        "notes": [
+          "S04 기준 긴 S자 목·굽힌 무릎·두 손 지지 복구. 연결 완료한 검정 단일 이어컵, 바닥 두 작업자, 짧은 잭·누운 기둥·사다리 확인. 엄지 동작 전 프레임이며 손을 아직 떼지 않음."
+        ]
+      },
+      "followup_motion": "첫 2초: 괴수가 답하려 오른손 손목을 눈에 띄게 굽히고 손가락을 펼쳐 엄지 손짓으로 바꾸려 한다. 지붕이 흔들리자 곧바로 다시 잡고 고개를 끄덕인다. 34초 안내 시작 뒤에는 두 손을 고정하고 작은 고갯짓으로 듣는다.",
+      "first_frame": "괴수의 S자 목·굽힌 무릎·두 손 지지는 그대로. 이어컵은 연결 완료, 눈은 아래 FM을 향해 잘 들린다는 답을 보내려는 표정. 오른손 손목은 아직 펴져 있고 손가락도 지붕을 잡고 있다.",
+      "next_motion": "첫 2초: 괴수가 답하려 오른손 손목을 눈에 띄게 굽히고 손가락을 펼쳐 엄지 손짓으로 바꾸려 한다. 지붕이 흔들리자 곧바로 다시 잡고 고개를 끄덕인다. 34초 안내 시작 뒤에는 두 손을 고정하고 작은 고갯짓으로 듣는다.",
+      "postproduction_notes": "행사명은 하단 포장면(대략 y 88~97%)에 한 줄로 6초. 시작 안내는 음성으로 전달하며 별도 보조 자막은 생략한다. 실제 합성 후 가독성·전선 및 작업자 발 비침범 확인. 손짓은 청취 확인에 대한 응답이다.",
+      "review_status": "independent_actual_image_review_cross_check_and_required_closure_complete"
+    }
+  ],
+  "ratio": "16:9",
+  "new_video_or_audio": false
+}

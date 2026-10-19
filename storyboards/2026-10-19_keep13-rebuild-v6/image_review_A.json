@@ -1,0 +1,38 @@
+{
+  "reviewer": "A",
+  "agent": "/root/v6_review_a",
+  "stage": "independent_image_review",
+  "decision": "교차 검증 진행 가능",
+  "required_findings_count": 0,
+  "actual_opened_individual_images": {
+    "C01": ["images/C01/S04_v2.png", "images/C01/S08_v2.png"],
+    "C02": ["images/C02/S01.png", "images/C02/S02.png", "images/C02/S03.png", "images/C02/S04.png", "images/C02/S05.png", "images/C02/S06_v2.png", "images/C02/S07.png", "images/C02/S08.png", "images/C02/S09_v2.png"],
+    "C03": ["images/C03/K02.png", "images/C03/K06_v2.png"],
+    "C04": ["images/C04/S01.png", "images/C04/S02.png", "images/C04/S03.png", "images/C04/S04.png", "images/C04/S05.png", "images/C04/S06_v2.png", "images/C04/S07.png", "images/C04/S08.png", "images/C04/S09_v2.png"],
+    "C05": ["images/C05/S01.png", "images/C05/S02.png", "images/C05/S03.png", "images/C05/S04_v2.png", "images/C05/S05_v2.png", "images/C05/S06.png", "images/C05/S07.png", "images/C05/S08_v2.png"]
+  },
+  "retained_contact_sheets_opened": ["storyboards/2026-10-18_keep3-rebuild-v5/contact_sheets/C01_all_cuts.jpg", "storyboards/2026-10-18_keep3-rebuild-v5/contact_sheets/C03_all_cuts.jpg"],
+  "retained_scope": "C01 9컷·C03 8컷 전체 연락표와 각 2장 원본. 보존 17장의 개별 원본 전체 열람을 주장하지 않음. 17장 SHA256는 보존 기록과 일치.",
+  "score_order": ["훅", "화면 웃음", "행사 전달", "차별성", "이미지 완성도"],
+  "scores_are": "주관적 편집 판단. 관객 반응 측정값 아님.",
+  "concept_reviews": [
+    {"concept_id":"C01","scores":[4,4,4,4,4],"assessment":"거대 자세 사진과 실제 신체 모방, 원본 화면의 의자, 바닥 자세를 복제하는 두 인물이 연결된다. 연락표에서 행동 전개가 구별되고 핵심 원본 2장에서 비교 구도와 마지막 그림을 확인했다. 새 수정 요구 없음."},
+    {"concept_id":"C02","scores":[4,4,4,4,4],"assessment":"S01 용 크기와 기사의 진지한 얼굴이 구조극을 세운다. S02·S03은 내부 관과 낮은 창의 지면을 숨기고 S04에서 정상 문·시험대·끊어진 관을 공개한다. S07 진입 전과 S08·S09 용 속 기사 자세가 연결된다. 노년 공주·삭발 조수·콧수염 기사 외형, 가방·파일·닫힌 문 연결을 확인."},
+    {"concept_id":"C03","scores":[4,4,4,5,4],"assessment":"공중 사무실과 두 모듈의 색 구분이 큰 사건을 전달한다. 전체 연락표와 K02·K06 원본에서 규모 및 두 기록 연결 확인. 보존 범위를 바꿀 필수 문제 없음."},
+    {"concept_id":"C04","scores":[4,4,3,5,4],"assessment":"어두운 내부의 세 병사와 밝은 축제 대비, 동전·탑승·긴 줄·빈 안장 이동·퍼레이드 상태가 구별된다. 레버·지도·연필 소유와 낮은 관측구, 중장년 3인 실루엣 확인. 행사 연결은 계획과 실행 차이를 통한 은유다."},
+    {"concept_id":"C05","scores":[4,4,4,4,4],"assessment":"직립→없어진 기둥·접힌 목→두 손 지지→긴 사다리→이어컵 단계가 읽힌다. S03 지붕 접촉 전, S04 이후 지지, S08 응답 손짓 전. 긴 목·굽힌 무릎·짧은 잭·누운 기둥 유지. 반장과 기사의 체격·얼굴·복장이 구분된다."}
+  ],
+  "findings": [
+    {"id":"A-I001","severity":"선택 제안","concept_id":"C02","scene_id":"S01","cut_id":"K01","path":"images/C02/S01.png","problem":"붉은 띠가 정지 화면에서는 종이 소품이라는 힌트를 준다.","evidence":"평평하고 찢어진 모서리. 다만 시험대·관·모터는 숨겨져 작업실 정체를 확정하지 않는다.","direction":"B급 소품성을 지우기 위한 재생성은 요구하지 않음. 후속 영상에서 역광·띠 움직임·기사의 진지한 반응 유지."},
+    {"id":"A-I002","severity":"선택 제안","concept_id":"C05","scene_id":["S06","S07","S08"],"cut_id":["K06","K07","K08"],"path":["images/C05/S06.png","images/C05/S07.png","images/C05/S08_v2.png"],"problem":"사다리 연장 길이와 촬영 축 변화에 후속 연결 메모 필요.","evidence":"S06 위까지 뻗은 사다리, S07 반대 사선 접사, S08 지상 작업자와 더 낮아 보이는 사다리. 구조 기대→이어폰 공개는 읽힘.","direction":"K07 이후 기사 하강·사다리 정리의 시간 생략과 귀 측면 연결을 명시. 미세한 길이 차이로 재생성할 필요 없음."},
+    {"id":"A-I003","severity":"선택 제안","concept_id":["C02","C04","C05"],"scene_id":["S09","S09","S08"],"cut_id":["K09","K09","K08"],"path":["images/C02/S09_v2.png","images/C04/S09_v2.png","images/C05/S08_v2.png"],"problem":"후편집 행사명 위치를 실제 이미지에 맞춰야 함.","evidence":"C02 오른쪽 닫힌 문, C04 상단 어두운 목재, C05 인물·지붕·장비 밀집.","direction":"고정 위치·대비 패널 지정, 얼굴·기사 다리·지도·괴수 손을 가리지 않기. PNG에 글자를 재생성할 필요 없음."}
+  ],
+  "common_checks": {
+    "internal_acceptability":"허구 인물의 선택과 과잉 행동이 대상. 실제 직원·외모 조롱 이미지 없음.",
+    "event_facts":"임의 일정·장소·성과·상금·신청 방식 없음.",
+    "text":"행사명·설명 자막 후편집. 실제 합성 자막 가독성은 아직 검증하지 않음.",
+    "first_frame_motion":"주요 행동 전후 상태 구별, 후속 동작 시작 여지 있음. 생성 성공 보장 아님.",
+    "timing":"콘티 재확인 34/38/42/42/38초. 실제 영상 시간 검증으로 확대하지 않음.",
+    "limits":["동작·음성·립싱크 미검증","관객 반응 미측정","돌고래유괴단 스타일의 객관적 일치 판정 아님","동료 이미지 검토 의견을 보기 전 독립 제출"]
+  }
+}

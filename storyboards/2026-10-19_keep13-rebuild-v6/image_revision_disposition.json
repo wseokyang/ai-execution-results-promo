@@ -1,0 +1,45 @@
+{
+  "status": "applied_and_confirmed_by_all_three_reviewers",
+  "PNG_changes_after_independent_review": 0,
+  "retained_concepts_unchanged": [
+    "C01",
+    "C03"
+  ],
+  "findings": [
+    {
+      "ids": [
+        "C-I001",
+        "A-I003",
+        "B-I003"
+      ],
+      "disposition": "document_fixed",
+      "reason": "C02 K09 screen/framing and S09 scene now use right closed door contrast panel, 2–3 title lines, 6 seconds, knight/flames protected. C04/C05 actual overlay positions and duplicate subtitle removal also specified.",
+      "paths": [
+        "storyboards.json",
+        "STORYBOARDS.md",
+        "index.html"
+      ]
+    },
+    {
+      "ids": [
+        "A-I001",
+        "B-I002",
+        "C-I002"
+      ],
+      "disposition": "intentional_B_grade_clue_retained_with_motion_note",
+      "reason": "Paper strips do not reveal apparatus or normal door. Preserve same physical prop and early/late light/motion contrast."
+    },
+    {
+      "ids": [
+        "A-I002",
+        "B-I001"
+      ],
+      "disposition": "future_motion_continuity_note_added",
+      "reason": "Same ear and reverse-oblique close-up defined; installer descent and ladder adjustment omitted between shots. Actual moving continuity remains unverified."
+    }
+  ],
+  "limits": [
+    "No new PNG needed by the three independent/cross reviews",
+    "No actual text-composited movie, motion, audio or audience-response validation"
+  ]
+}

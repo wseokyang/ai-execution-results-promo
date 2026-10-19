@@ -1,0 +1,335 @@
+{
+  "concept_id": "C04",
+  "status": "artist_complete_pending_independent_image_review",
+  "generation_tool": "image_gen",
+  "images": [
+    {
+      "concept_id": "C04",
+      "cut_id": "K01",
+      "scene_id": "S01",
+      "linked_cuts": [
+        "K01"
+      ],
+      "image_path": "images/C04/S01.png",
+      "prompt": "Use case: ads-marketing. Create ONE cinematic live-action film first frame, landscape 16:9, no lettering or watermark. Dark cramped hollow wooden Trojan horse interior, serious Korean war-film lighting, dusty old brown timber ribs, warm narrow sidelight, deep shadows. Three clearly different middle-aged/older Korean men, not handsome young idols, sincere tense acting. Camera looks across the cramped interior, commander closest centre-front, lieutenant screen left, soldier screen right. Commander: age 65, large broad shoulders and heavy solid build, deep wrinkles, short white hair visible around small weathered bronze rounded helmet with chin cord, broad flat nose, brown worn leather vest over coarse beige tunic. Lieutenant LEFT: age 55, tall very thin build, long neck and long narrow face, long downward grey moustache, short grey hair tied behind, olive quilted vest and grey cloth trousers. Soldier RIGHT: age 45, short dense black curly hair, round face, round build short neck, ochre cloth jacket and dark brown trousers.\nFirst instant before action: a LARGE FLAT beige paper rests directly across the LEFT lieutenant's knees, with only ONE broad red straight arrow, absolutely no writing and no black marks yet. Lieutenant left hand holds paper steady; his right hand holds a thick BLACK charcoal pencil five centimetres above paper. Front-centre commander reaches one index finger just above red arrow, not yet touching, tiny confident conspiratorial smile. RIGHT round soldier has BOTH hands gripping one vertical wood rocking lever at his side, waiting motionless. NO OTHER person touches that lever. Show existing mechanical foot pedals for left lieutenant and right soldier low in frame, an identifiable RED brake lever beside commander's right knee. This is a human-powered wheeled rocking horse, not a car cockpit: simple wood and metal cranks. A single extremely LOW NARROW peephole near the FLOOR points down at pale ground, showing only abstract harsh backlit shadows, absolutely no identifiable footwear, legs, costumes, festival or modern environment. No eye-level windows. The three men and their hands, knees and assigned controls must read distinctly, naturally anatomical. 28mm compressed medium-wide, no collage. Keep top strip dark timber for later titles; do not generate any text. This image establishes the exact faces, clothes and interior for subsequent scenes.",
+      "reference_images": [],
+      "source_generated_path": "C:\\Users\\wseok\\.codex\\generated_images\\01a15195-4fdf-7e70-af5c-65ca5b6eba21\\exec-90346895-c365-496b-b80b-7a9f99797a71.png",
+      "generation_tool": "image_gen",
+      "selected": true,
+      "artist_review": {
+        "opened_actual_image": true,
+        "status": "artist_pass_pending_independent_review",
+        "notes": [
+          "실제 출력 열람. 백발·큰체격 대장/마른 긴얼굴 부관/둥근 곱슬 병사 구별됨. LT무릎 지도, SO양손레버, 페달/빨간브레이크 고정. 관측구는 하단 지면 그림자뿐.",
+          "연필은 표면 바로 위로 읽히며 5cm 지정값보다 가까움. 검정선 생성 전 상태 유지."
+        ]
+      },
+      "followup_motion": "CO가 화살표를 따라 짚고 속삭인다. 낮은 관측구 바닥 그림자가 지나간다.",
+      "width": 1672,
+      "height": 941,
+      "sha256": "f03d8ae895b26f0e323ce68938344a23060cb791f52e96a66faa4e9567b1f20f",
+      "source_copy_sha256_match": true
+    },
+    {
+      "concept_id": "C04",
+      "cut_id": "K02",
+      "scene_id": "S02",
+      "linked_cuts": [
+        "K02"
+      ],
+      "image_path": "images/C04/S02.png",
+      "prompt": "Use case: ads-marketing. Create one 16:9 live-action cinematic INSERT FIRST FRAME from the supplied reference exterior. Reference image is the actual set/child continuity reference, not a picture to include in scene. CLOSE-UP of the SAME plain narrow vertical metal coin slot plate on the same dark curved wooden horse body. Entire frame dominated by tactile brown wooden planks and the small metal plate; slot is EMPTY. A single child's right hand enters from LEFT holding one generic silver coin upright between thumb and index finger, coin still TWO CENTIMETRES outside the vertical slot, about to insert, no contact yet. A small part of green-and-white horizontally striped short sleeve identifies the SAME age9 child as reference. Correct small child's hand anatomy five fingers. No readable numbers or inscriptions on coin. Sunlight glancing off metal, warm lively daytime. At far background edge only out-of-focus red/yellow/blue bunting, shallow depth of field. No child's whole face needed, no adult hands, no soldiers, no signs, no text, no logos. This shot will later show the coin being pushed in, do NOT show coin already inserted. Preserve material, coinplate shape, vertical slot and age of hand exactly.",
+      "reference_images": [
+        "\\\\wsl.localhost\\Ubuntu-24.04\\home\\wooseok\\wsy\\samsung_related\\slide\\AI실행결과발표대회_디자인3종\\storyboards\\2026-10-19_keep13-rebuild-v6\\images\\C04\\S03.png"
+      ],
+      "source_generated_path": "C:\\Users\\wseok\\.codex\\generated_images\\01a15195-4fdf-7e70-af5c-65ca5b6eba21\\exec-92312c8f-279a-4eec-b1e2-34f956fa622a.png",
+      "generation_tool": "image_gen",
+      "selected": true,
+      "artist_review": {
+        "opened_actual_image": true,
+        "status": "artist_pass_pending_independent_review",
+        "notes": [
+          "실제 출력 열람. 줄무늬 소매/동일 금속판/목재/동전 투입 전 접사. 손/투입구 정상, 읽히는 숫자 없음."
+        ]
+      },
+      "followup_motion": "동전 방향을 세로 슬롯에 맞추며 밀어 넣고 손을 뺀다. 금속 통에 한 번 떨어진다.",
+      "width": 1672,
+      "height": 941,
+      "sha256": "25d46addaec2bdb1148b93f89e5ba71ed5602e7cd623ef2e6ea3053d603a39bb",
+      "source_copy_sha256_match": true
+    },
+    {
+      "concept_id": "C04",
+      "cut_id": "K03",
+      "scene_id": "S03",
+      "linked_cuts": [
+        "K03"
+      ],
+      "image_path": "images/C04/S03.png",
+      "prompt": "Use case: ads-marketing. ONE live-action cinematic comedy first frame, landscape 16:9, no text or logos. A bright present-day Korean town square holding a small imaginary medieval theme festival. Cheerful noon sun, bunting, modern folding pop-up booths, colourful casual clothes, a recognizably temporary plywood faux stone gate in background. Main subject is a large hollow TROJAN WOODEN HORSE disguised as a quaint coin-operated fair ride: huge round barrel-like dark brown plank body big enough to hide three seated adult men, a blocky proud long wooden neck and horse head pointing SCREEN RIGHT, short BLACK mane, SINGLE RED rectangular flat saddle on its back, carved fixed wooden legs mounted above a visible rectangular dark metal chassis, exactly FOUR black rubber wheels at its corners (far pair visible by three-quarter angle), and a horizontal steel pivot between body and chassis for gentle rocking. NO rocking curved runners, no real horse, no motor, no people visible inside. Show a small unlettered metal coin slot plate on near side of the body, low small slit near chassis directed toward ground. This exterior is roughly 3.5m long and 2.5m high, a broad enclosed barrel big enough for adult performers, not a tiny toddler toy.\nFirst moment before mounting: a Korean child age9, cropped dark hair, green-and-white horizontal striped short-sleeved T-shirt, blue jeans, simple sneakers, stands with one foot on FINAL TOP STEP of a sturdy LOW broad three-step platform beside horse, one hand on saddle, hips NOT seated yet. Parent age40 with glasses and tan casual jacket stands near steps ready to assist. Red saddle and four wheeled chassis clearly visible; horse completely stopped. Only a handful of festival visitors dispersed in background, NOT a long queue yet. Camera medium-wide three-quarter view from horse left side, head points screen right, full horse and steps fully in frame, space before its nose. This is the visual reveal: a heroic siege device is actually used as a children's ride. Cheerfully ordinary festival attitudes, realistic tactile wood, mild incongruity rather than fantasy painting. No writing, no visible prices, no swords, no logos, no elderly soldiers shown outside.",
+      "reference_images": [],
+      "source_generated_path": "C:\\Users\\wseok\\.codex\\generated_images\\01a15195-4fdf-7e70-af5c-65ca5b6eba21\\exec-795ab29f-06e0-4ab4-b9a4-7f065143a617.png",
+      "generation_tool": "image_gen",
+      "selected": true,
+      "artist_review": {
+        "opened_actual_image": true,
+        "status": "artist_pass_pending_independent_review",
+        "notes": [
+          "실제 출력 열람. 네 고무바퀴·사각차대·수평축·붉은안장·검정갈기·금속동전구멍 확인. 줄무늬 아이는 계단 마지막 단, 앉기 전. 현대 부스/성문 대비가 읽힘."
+        ]
+      },
+      "followup_motion": "CH가 정지한 안장에 앉아 목을 한 번 두드린다. 보호자는 계단 곁에 선다.",
+      "width": 1672,
+      "height": 941,
+      "sha256": "2973212c959a98d9cf806bf8de987d4f695b074fdf6646fa16ce9a0f53d5c71c",
+      "source_copy_sha256_match": true
+    },
+    {
+      "concept_id": "C04",
+      "cut_id": "K04",
+      "scene_id": "S04",
+      "linked_cuts": [
+        "K04"
+      ],
+      "image_path": "images/C04/S04.png",
+      "prompt": "Use case: ads-marketing. ONE 16:9 cinematic live-action first frame for next shot inside the EXACT Trojan wooden horse in reference. Use reference as identity/set continuity, same three older Korean faces, bodies, costumes and seated positions, same wooden interior, same warm war-film lighting. No writing or collage. Change their action and emotion from the reference: broad white-haired commander CENTRE leans slightly forward, hands tucked near his OWN chest/body, alarmed urgent expression preparing to whisper an order toward soldier RIGHT. He is NOT pointing at map now. Tall gaunt grey-moustached lieutenant LEFT keeps the same large beige map directly across HIS knees, only broad red straight arrow and NO black squiggles yet. His LEFT hand clamps paper's edge steady, RIGHT hand holds charcoal pencil with tip almost touching paper, ready for a line to be accidentally drawn when cabin rocks. Soldier RIGHT, round face dense curly hair ochre jacket, grips the SAME ONE long wooden rocking lever with BOTH hands, braced shoulders, serious anxious look, lever has not moved yet. The hand lever is only at right soldier; no lieutenant hand on lever. At this instant the wooden cabin is level before rocking. Same foot pedal assemblies low left and right, same RED brake handle beside commander locked upright. Only the floor-level narrow observation slit shows highly backlit abstract moving shadows on ground, NO identifiable shoes, laces, trouser legs, modern props or festival. Above-head slits just light with no exterior detail. Camera slightly closer 32mm but same axis, all three faces, both lieutenant's hands on separate jobs and soldier's two hands clearly visible, unambiguous hand ownership, human anatomy correct. Preserve old age wrinkles and varied physique, avoid glamorous young actors. No new characters or controls.",
+      "reference_images": [
+        "\\\\wsl.localhost\\Ubuntu-24.04\\home\\wooseok\\wsy\\samsung_related\\slide\\AI실행결과발표대회_디자인3종\\storyboards\\2026-10-19_keep13-rebuild-v6\\images\\C04\\S01.png"
+      ],
+      "source_generated_path": "C:\\Users\\wseok\\.codex\\generated_images\\01a15195-4fdf-7e70-af5c-65ca5b6eba21\\exec-affb1c5d-604e-44f7-86a2-c4fb681b4643.png",
+      "generation_tool": "image_gen",
+      "selected": true,
+      "artist_review": {
+        "opened_actual_image": true,
+        "status": "artist_pass_pending_independent_review",
+        "notes": [
+          "실제 출력 열람. 인물/장치/방향 기준 유지. CO손 자기 가슴 근처, LT무릎 지도/연필, SO양손레버. 흔들림 전 수평/검정선 없음."
+        ]
+      },
+      "followup_motion": "SO가 레버를 왕복해 몸통이 기운다. LT가 종이를 붙잡고 연필이 흔들려 큰 굴곡선을 남긴다. 브레이크 잠김 유지.",
+      "width": 1672,
+      "height": 941,
+      "sha256": "9eba1aafbab6f705b7b56c7a4894af413c40f1b65848717b67cc403407a77497",
+      "source_copy_sha256_match": true
+    },
+    {
+      "concept_id": "C04",
+      "cut_id": "K05",
+      "scene_id": "S05",
+      "linked_cuts": [
+        "K05"
+      ],
+      "image_path": "images/C04/S05.png",
+      "prompt": "Use case: ads-marketing. ONE 16:9 live-action movie first frame, same bright Korean modern theme festival and EXACT Trojan horse prop as reference. Move camera slightly higher and farther for a broad high three-quarter wide: horse on screen LEFT to CENTRE, horse head still points RIGHT, enormous rounded dark wooden barrel belly, short black mane, RED rectangular saddle, exactly FOUR black rubber wheels and same rectangular metal chassis with horizontal rocking pivot. Same separate three-step wooden boarding platform on horse near side. No visible interior people. The boy age9 with green-and-white striped shirt and blue jeans has finished riding: FIRST INSTANT just BEFORE dismounting. He is still sitting on the red saddle with torso turned toward the wooden steps, one hand steady on saddle and feet preparing to lower to upper step. Do not show him jumping or already on ground. His tan-jacket glasses-wearing parent stands immediately beside steps. NEW festival manager is a 55-year-old Korean woman with short puffy salt-and-pepper curly hair, visible age lines and stocky practical silhouette, ORANGE reflective vest, black trousers, small whistle around neck, stands at bottom of steps looking up, hands currently near waist; later she will stop the next person. The horse is stationary level, NOT rolling now.\nThe NEW comic reveal is a LONG SINGLE-FILE QUEUE of parents and children extending away from the steps deep through the SAME faux stone festival gate and beyond. Show roughly eight distinct varied front visitors and then small diminishing queue silhouettes extending through gate, no crowd blocking horse path. Bright bunting, modern tent stalls, ordinary contemporary casual clothing. Make depth of queue and gate unmistakable, not a group of random scattered pedestrians. Main boy and manager clear, lots of space around wheel and stair bottom. All faces natural, ordinary Korean age/build variety. No writing on banners, no prices, no logos, no confetti yet, no parade staff yet. Strong contrast with cramped solemn warrior interior, realistic photographic texture. Keep horse same large scale suitable for three crouched adults inside.",
+      "reference_images": [
+        "\\\\wsl.localhost\\Ubuntu-24.04\\home\\wooseok\\wsy\\samsung_related\\slide\\AI실행결과발표대회_디자인3종\\storyboards\\2026-10-19_keep13-rebuild-v6\\images\\C04\\S03.png"
+      ],
+      "source_generated_path": "C:\\Users\\wseok\\.codex\\generated_images\\01a15195-4fdf-7e70-af5c-65ca5b6eba21\\exec-fa7f87f7-c4ac-4805-8c96-b98e84431399.png",
+      "generation_tool": "image_gen",
+      "selected": true,
+      "artist_review": {
+        "opened_actual_image": true,
+        "status": "artist_pass_pending_independent_review",
+        "notes": [
+          "실제 출력 열람. 긴 한 줄이 성문 너머까지 연결. CH가 안장 옆으로 몸을 돌려 계단으로 하차 시작 직전, FD는 계단 아래. 차대/바퀴/안장 동일. 이동 전 하차 동작은 후속 영상에서 필수."
+        ]
+      },
+      "followup_motion": "CH가 계단을 내려 두 발을 바닥에 딛는다. FD가 손바닥을 펴 다음 손님을 멈춘다. 빈 안장 확인 후에만 다음컷 주행.",
+      "width": 1672,
+      "height": 940,
+      "sha256": "db842371531da60967e12cec445f4aef956c83eb458d8ba50a2b2c189ef49ed6",
+      "source_copy_sha256_match": true
+    },
+    {
+      "concept_id": "C04",
+      "cut_id": "K06",
+      "scene_id": "S06",
+      "linked_cuts": [
+        "K06"
+      ],
+      "image_path": "images/C04/S06_v2.png",
+      "prompt": "Use case: precise-object-edit. Edit this exact cinematic image, preserve camera, all three faces, costumes, map markings, lighting, floor slit, pedal machinery, body positions and right soldier's two hands on the wooden lever. Make ONE targeted correction to hand ownership: the beige crumpled map must rest FLAT across the LEFT thin moustached man's knees, entirely to LEFT of helmeted commander's body. LEFT man's LEFT hand visibly clamps the outer-left paper edge; his RIGHT hand visibly holds the paper's upper-right corner, both hands connected to the LEFT man's dark grey sleeves. The central helmeted commander's LEFT hand must be completely away from map and rest OPEN palm-up on his own EMPTY left thigh, ready to receive it later. His RIGHT hand still hovers above RED brake handle not pulling it. Absolutely no commander hand on map. Map remains only with thin moustached lieutenant, with same broad red straight arrow crossed by one black wavy line. Let map lower a little so both forearms and ownership of hands are unambiguous. Empty commander's lap is important. This is BEFORE map handover, not during it. Keep everything else unchanged, 16:9 no text or logo.",
+      "reference_images": [
+        "\\\\wsl.localhost\\Ubuntu-24.04\\home\\wooseok\\wsy\\samsung_related\\slide\\AI실행결과발표대회_디자인3종\\storyboards\\2026-10-19_keep13-rebuild-v6\\images\\C04\\S06.png"
+      ],
+      "source_generated_path": "C:\\Users\\wseok\\.codex\\generated_images\\01a15195-4fdf-7e70-af5c-65ca5b6eba21\\exec-9758c79f-a76f-4e63-bf4f-ff177fdf2cee.png",
+      "generation_tool": "image_gen",
+      "selected": true,
+      "artist_review": {
+        "opened_actual_image": true,
+        "status": "artist_pass_pending_independent_review",
+        "notes": [
+          "실제 출력 열람. LT양손/무릎에 지도 소유 명확. CO왼손 빈무릎 위에서 수령대기, 오른손 브레이크 위 대기. SO양손레버 유지. S06 손담당 지적 자체수정 완료."
+        ]
+      },
+      "followup_motion": "첫0.8초 LT가 지도를 CO무릎에 전달. CO왼손으로 눌러 놓은 뒤 오른손으로 빨간브레이크해제. 이후 SO레버 놓고 LT/SO페달.",
+      "width": 1672,
+      "height": 941,
+      "sha256": "ae9d14f8f72546ee8a9fa0a252bec800be03e1d3459c565452405f04036ffa38",
+      "source_copy_sha256_match": true
+    },
+    {
+      "concept_id": "C04",
+      "cut_id": "K06",
+      "scene_id": "S06",
+      "linked_cuts": [
+        "K06"
+      ],
+      "image_path": "images/C04/S06.png",
+      "prompt": "Use case: ads-marketing. ONE 16:9 live-action cinematic first frame. Use supplied image as EXACT identity/set reference: same three older Korean men, identical faces, body types, clothes, wooden horse interior, control layout and warm tense war-film lighting. Shot is a lower medium angle concentrating on knees and controls while all three faces remain visible. LEFT gaunt moustached lieutenant, CENTRE broad white-haired commander in bronze helmet, RIGHT round curly-haired soldier ochre jacket. Now a few moments after they rocked the ride: the large beige paper map is visibly CREASED and CRUMPLED, and has ONE thick BLACK WINDING WAVY LINE crossing the existing straight RED right-pointing arrow. No other marks, no text. FIRST INSTANT BEFORE HANDOVER: map still fully on LEFT lieutenant's knees. His left hand grips its left edge and right hand grips its right edge, preparing to lift and pass it to commander, map has not moved yet; charcoal pencil tucked visibly behind his ear, not a third hand. Commander's lap is completely EMPTY. Commander looks determined, left hand open over his own thigh ready to receive map. His RIGHT hand hovers just ABOVE the existing red brake handle beside his right knee, NOT pulling it yet. Red brake still UPRIGHT locked. RIGHT round soldier still has BOTH hands on the SAME wooden rocking lever at screen right, feet at neutral on existing foot pedals. No new control levers or machinery. Later action sequence will be map handed over FIRST, THEN brake released, THEN lieutenant and soldier pedal; this image must be before all three actions. Preserve two original foot pedal assemblies in foreground. Single floor peephole only shows abstract harsh backlit ground shadows, no visible modern clothing or shoes or event. Natural hands and joints. No text, subtitles, logos or split screen. Genuine urgency, no comical ugly-face exaggeration.",
+      "reference_images": [
+        "\\\\wsl.localhost\\Ubuntu-24.04\\home\\wooseok\\wsy\\samsung_related\\slide\\AI실행결과발표대회_디자인3종\\storyboards\\2026-10-19_keep13-rebuild-v6\\images\\C04\\S01.png"
+      ],
+      "source_generated_path": "C:\\Users\\wseok\\.codex\\generated_images\\01a15195-4fdf-7e70-af5c-65ca5b6eba21\\exec-16fc14ac-e48e-4cc4-8af9-c7e27e1c6a63.png",
+      "generation_tool": "image_gen",
+      "selected": false,
+      "artist_review": {
+        "opened_actual_image": true,
+        "status": "revision_needed",
+        "notes": [
+          "지도는 LT무릎이나 오른쪽 가장자리 손이 CO손으로 보이며 전달 전 두 손 담당이 불분명. CO왼손 자기무릎으로 분리하는 수정 예정."
+        ]
+      },
+      "followup_motion": "지도 전달 완료 뒤 CO브레이크해제, 이후 LT/SO페달.",
+      "width": 1672,
+      "height": 941,
+      "sha256": "60a4c596bb4b5ce58b1dc7af59adfcdef9cfa506ffaf4c6e20a0b2cd8e47031a",
+      "source_copy_sha256_match": true
+    },
+    {
+      "concept_id": "C04",
+      "cut_id": "K07",
+      "scene_id": "S07",
+      "linked_cuts": [
+        "K07"
+      ],
+      "image_path": "images/C04/S07.png",
+      "prompt": "Use case: ads-marketing. ONE 16:9 live-action comedy movie first frame. Reference1 supplies exact wooden Trojan horse and festival architecture; reference2 supplies identical orange-vest female festival manager and crowd. New shot from same side at eye level in the SAME bright modern Korean theme festival. The very LARGE dark wooden barrel horse now slowly rolling SCREEN LEFT to RIGHT into an EMPTY pedestrian parade lane; head points RIGHT. Preserve short black mane, red rectangular saddle, shape/size, exactly FOUR black rubber wheels, rectangular chassis and rocking axle, coin-slot plate and ground-facing low slit. Crucially RED SADDLE COMPLETELY EMPTY: NO CHILD on horse, no adults riding either. Boarding wooden steps have been LEFT BEHIND, standing separately in background far-left with the green-striped boy and tan-jacket parent now fully on ground beside them. Keep boy/parent distant, not in horse's wheel path. No interior soldiers visible.\nFIRST INSTANT before reaction: horse front wheels just about to enter an empty lane in front of the festival manager. Manager SCREEN RIGHT, age55 round practical build, puffy short salt-and-pepper curly hair, ORANGE reflective vest, black trousers, whistle around neck, stares at moving prop with a surprised raised-brow look. Her hands are not touching barrier yet, hanging slightly raised near waist. A simple red-and-white rope barrier between two portable posts marks PARADE entrance on RIGHT ahead of horse, currently closed, space for her to unhook it later. Two distinct ADULT festival attendants with BLUE waistcoats over modern casual shirts stand near far and near sides of lane, each holding ONE colourful wooden STICK HOBBYHORSE (clearly toy horse head on long stick, not actual horses). They have not begun walking yet. Background queue waits behind, eight varied people with kids beside guardians, modern tents and bunting, same faux stone gate. Broad unobstructed path in front. No medieval soldiers outside, no real horses, no text/logos, no confetti yet. Funny contrast: an escape vehicle innocently recruited as a parade float. Photoreal cinematic, fresh staging not exact previous framing.",
+      "reference_images": [
+        "\\\\wsl.localhost\\Ubuntu-24.04\\home\\wooseok\\wsy\\samsung_related\\slide\\AI실행결과발표대회_디자인3종\\storyboards\\2026-10-19_keep13-rebuild-v6\\images\\C04\\S03.png",
+        "\\\\wsl.localhost\\Ubuntu-24.04\\home\\wooseok\\wsy\\samsung_related\\slide\\AI실행결과발표대회_디자인3종\\storyboards\\2026-10-19_keep13-rebuild-v6\\images\\C04\\S05.png"
+      ],
+      "source_generated_path": "C:\\Users\\wseok\\.codex\\generated_images\\01a15195-4fdf-7e70-af5c-65ca5b6eba21\\exec-15fa69ba-79da-4f6f-a50d-8e9c4306e634.png",
+      "generation_tool": "image_gen",
+      "selected": true,
+      "artist_review": {
+        "opened_actual_image": true,
+        "status": "artist_pass_pending_independent_review",
+        "notes": [
+          "실제 출력 열람. 빈 붉은안장/네바퀴, 아이두발 지면·계단뒤편, FD손 로프접촉전, 파란조끼 성인2인 막대말. 주행 통로 확보."
+        ]
+      },
+      "followup_motion": "목마가 느리게 굴러온다. FD가 로프를 열고 오른쪽을 가리킨다. 두 성인요원이 양옆에서 걷기 시작.",
+      "width": 1672,
+      "height": 941,
+      "sha256": "1195e15e6fec03280addde76a18d5e05bb5ba21a1b2aeb265709abd2d0f6266d",
+      "source_copy_sha256_match": true
+    },
+    {
+      "concept_id": "C04",
+      "cut_id": "K08",
+      "scene_id": "S08",
+      "linked_cuts": [
+        "K08"
+      ],
+      "image_path": "images/C04/S08.png",
+      "prompt": "Use case: ads-marketing. ONE landscape16:9 cinematic live-action first frame. Continue the EXACT modern Korean faux-medieval theme festival of reference1 and reference2, same HUGE dark wooden Trojan horse with BLACK mane, single RED rectangular saddle EMPTY, four BLACK RUBBER wheels, metal rectangular chassis, horse head pointing screen RIGHT. Reference1 is last shot for exact manager, two toy-horse staff and geography; reference2 is original full prop. New much WIDER higher camera so the whole procession can be read. Horse is now HEAD OF THE PARADE, in near centre-left moving LEFT toward RIGHT slowly, with a broad EMPTY route in front. Crucial: people are BEHIND the horse at least TWO METRES away, not in front blocking it. Two SAME adult festival attendants in blue waistcoats flank horse, one on near side at midbody and one on far side near horse's head, each carrying the same brightly painted toy STICK HOBBYHORSE upright: no real horses, no weapons. Orange reflective vest manager age55 puffy grey-black curly hair on right OUTSIDE route holds one hand HIGH, about to give a confetti signal, not lowered yet. Confetti has NOT been thrown yet. Behind horse on left, a joyous dense line of families is ready to walk, children holding parents' hands, including SAME green-striped child and tan-jacket glasses parent now clearly on GROUND well behind wheels. People start raising hands, no running. A clear wide two-metre gap separates trailing family group from horse tail/wheels. Show bunting and modern tent booths framing procession, same faux stone festival gate now behind them. Heroic wide parade composition on ordinary bright pavement, the ridiculous siege prop is now the main attraction, photorealistic advertising-quality natural sunshine. Empty red saddle must be visible, no interior men visible, no boarding steps attached or travelling with horse. No text, logos, no confetti yet. Preserve exact horse scale and blocky proportions, avoid turning it into a living horse, small toy, fantasy castle, or narrow cart.",
+      "reference_images": [
+        "\\\\wsl.localhost\\Ubuntu-24.04\\home\\wooseok\\wsy\\samsung_related\\slide\\AI실행결과발표대회_디자인3종\\storyboards\\2026-10-19_keep13-rebuild-v6\\images\\C04\\S07.png",
+        "\\\\wsl.localhost\\Ubuntu-24.04\\home\\wooseok\\wsy\\samsung_related\\slide\\AI실행결과발표대회_디자인3종\\storyboards\\2026-10-19_keep13-rebuild-v6\\images\\C04\\S03.png"
+      ],
+      "source_generated_path": "C:\\Users\\wseok\\.codex\\generated_images\\01a15195-4fdf-7e70-af5c-65ca5b6eba21\\exec-e877b8b0-2ee4-48fc-a9c4-466cd1f131bf.png",
+      "generation_tool": "image_gen",
+      "selected": true,
+      "artist_review": {
+        "opened_actual_image": true,
+        "status": "artist_pass_pending_independent_review",
+        "notes": [
+          "실제 출력 열람. 행렬 선두 목마 빈안장, 막대말성인 둘, 뒤편 아이/보호자, FD신호팔 올림. 전진공간 확보, 색종이 전 상태. 손님은 목마에 타지 않음."
+        ]
+      },
+      "followup_motion": "행렬이 천천히 전진, 보호자/아이 손흔듦. FD신호뒤 색종이 한번. 외부 안전한 느린속도와 내부 급한페달 대비.",
+      "width": 1672,
+      "height": 941,
+      "sha256": "23de5ef877ca86383593f5c31b9f87eb4e532878dd1315399847e3bb84d89b4e",
+      "source_copy_sha256_match": true
+    },
+    {
+      "concept_id": "C04",
+      "cut_id": "K09",
+      "scene_id": "S09",
+      "linked_cuts": [
+        "K09"
+      ],
+      "image_path": "images/C04/S09_v2.png",
+      "prompt": "Use case: precise-object-edit. Edit image1 ONLY two mechanical continuity details, preserve ALL faces, poses, map in commander's hands, paper marks, clothing, camera, lighting, pedal assemblies, floor opening. Image2 is reference for old mechanical lever design only, NOT pose target.\n1) The RED-handled brake lever next to central commander's right knee is currently vertical/locked. Rotate that SAME red brake handle down toward SCREEN RIGHT, near-HORIZONTAL at its base, in an unmistakably RELEASED lower position. No vertical red handle should remain. Keep its metal pivot and location unchanged. Only ONE red brake lever.\n2) Restore the old LONG WOODEN rocking lever seen at right edge of image2: in image1 put it standing unattended at the extreme RIGHT wall behind the round curly-haired soldier's right elbow, leaning against wall. The soldier does NOT touch it: both of his hands stay braced on HIS OWN THIGHS exactly as image1. The lever is a simple weathered wooden shaft, single, not a weapon, no duplicate.\nNo other changes. Three older men still serious and tense, lieutenant and round soldier pedalling, commander owns map. Same cinematic photograph landscape16:9, no text.",
+      "reference_images": [
+        "\\\\wsl.localhost\\Ubuntu-24.04\\home\\wooseok\\wsy\\samsung_related\\slide\\AI실행결과발표대회_디자인3종\\storyboards\\2026-10-19_keep13-rebuild-v6\\images\\C04\\S09.png",
+        "\\\\wsl.localhost\\Ubuntu-24.04\\home\\wooseok\\wsy\\samsung_related\\slide\\AI실행결과발표대회_디자인3종\\storyboards\\2026-10-19_keep13-rebuild-v6\\images\\C04\\S01.png"
+      ],
+      "source_generated_path": "C:\\Users\\wseok\\.codex\\generated_images\\01a15195-4fdf-7e70-af5c-65ca5b6eba21\\exec-ede9cae5-52ba-494f-b449-0b5068020252.png",
+      "generation_tool": "image_gen",
+      "selected": true,
+      "artist_review": {
+        "opened_actual_image": true,
+        "status": "artist_pass_pending_independent_review",
+        "notes": [
+          "실제 출력 열람. 지도는 CO양손/무릎. LT·SO페달 위치, SO손 자기무릎. 빨간브레이크 수평해제, 손레버 우측벽대기 복구. 현대외부안보임.",
+          "상부 자막은 어두운 천장 위 한 줄 배치 권장. 요청18%여백보다 실제여백 좁으므로 배우 머리를 가리는 두꺼운 상단박스는 피할 것."
+        ]
+      },
+      "followup_motion": "CO가 지도를 펴려다 다시접고 앞봄. LT/SO계속페달. 행사명7초후편집, 외부밝은환호와 내부필사적노동대비.",
+      "width": 1672,
+      "height": 941,
+      "sha256": "b60a9ecb95d6e68e904bcb4b7eedbb5acc3affaf8ad61a546ffad22c155b27a0",
+      "source_copy_sha256_match": true
+    },
+    {
+      "concept_id": "C04",
+      "cut_id": "K09",
+      "scene_id": "S09",
+      "linked_cuts": [
+        "K09"
+      ],
+      "image_path": "images/C04/S09.png",
+      "prompt": "Use case: ads-marketing. ONE cinematic live-action 16:9 first frame for FINAL shot. Reference1 establishes exact faces/set, reference2 establishes exact crumpled map with red straight arrow and single BLACK winding line. Same cramped dark wooden Trojan horse interior; same three older Korean men, identity and costume locked. CENTRE broad white-haired 65-year-old commander in worn bronze helmet and brown leather vest; LEFT 55-year-old gaunt tall long grey-moustached lieutenant olive vest; RIGHT 45-year-old round curly-haired soldier ochre jacket. They are now escaping by PEDALLING, no one operating rocking hand lever anymore. Commander CENTRE now holds the SAME CRUMPLED map on HIS OWN knees in foreground, not left man's knees. Its red right-pointing straight arrow and the one black wavy detour line clearly visible; no other ink or writing. Commander BOTH hands hold folded outer paper edges, about to unfold it wider, alarmed determined expression looking at map. Map partly folded but main markings exposed. LEFT lieutenant's knees have NO map, feet on original left pedal crank; RIGHT soldier's two hands have RELEASED the upright wooden rocking lever, hands bracing only his OWN thighs, feet on original right pedal crank. Both pairs of feet at neutral positions ready to push, natural urgent leaning postures, sweat on lined faces. Same RED brake handle at commander's right is now lowered/releases brake, no new machinery. Commander does NOT pedal, left and right men do. Floor narrow slit shows nothing but bright unidentifiable ground shadows, no modern clothing, no view of festival. Camera pulled slightly back and angled to keep all 3 faces, large map centre foreground and TWO foot pedal sets visible. Reserve top 18 percent as DARK empty wooden wall for later event title, NO generated text whatsoever. Warm dusty intense war-film lighting, contrast with bright parade, no comedic ugly faces, no youth beautifying. Absolutely no split screen, no caption, no modern laptops.",
+      "reference_images": [
+        "\\\\wsl.localhost\\Ubuntu-24.04\\home\\wooseok\\wsy\\samsung_related\\slide\\AI실행결과발표대회_디자인3종\\storyboards\\2026-10-19_keep13-rebuild-v6\\images\\C04\\S01.png",
+        "\\\\wsl.localhost\\Ubuntu-24.04\\home\\wooseok\\wsy\\samsung_related\\slide\\AI실행결과발표대회_디자인3종\\storyboards\\2026-10-19_keep13-rebuild-v6\\images\\C04\\S06_v2.png"
+      ],
+      "source_generated_path": "C:\\Users\\wseok\\.codex\\generated_images\\01a15195-4fdf-7e70-af5c-65ca5b6eba21\\exec-0e48455c-46d1-44ca-8178-60539a0d21ef.png",
+      "generation_tool": "image_gen",
+      "selected": false,
+      "artist_review": {
+        "opened_actual_image": true,
+        "status": "revision_needed",
+        "notes": [
+          "지도CO무릎/LT·SO페달 상태는맞음. 빨간브레이크가 아직직립, SO손레버가 사라짐. 브레이크해제각과 손레버 벽쪽대기복구 필요."
+        ]
+      },
+      "followup_motion": "CO지도를펴려다다시접고앞봄. LT/SO페달계속. 상부어두운공간에행사명후편집.",
+      "width": 1672,
+      "height": 941,
+      "sha256": "1594c6537629401ab2bbb9eb888a0f8a2032b7db3e3f41a0736a9d03dd62b268",
+      "source_copy_sha256_match": true
+    }
+  ],
+  "generated_scene_count": 9,
+  "total_scene_count": 9,
+  "generated_file_count": 11,
+  "selected_count": 9,
+  "casting_note": "CO 백발·큰체격·주름 / LT 마른긴얼굴·회색콧수염 / SO 둥근체격·검정곱슬. FD 50대짧은부푼곱슬. 외모는 웃음대상아님.",
+  "remaining_notes": [
+    "3명 실제 이미지 독립/교차 검수 대기",
+    "S05 마지막 아이 두발착지 후 K06 이동. K06 지도전달→브레이크→페달 순서 필수.",
+    "S09 상단어두운천장에 행사명 한 줄 권장. 자막/행사정보 이미지생성안함.",
+    "화면비 1672x941(8씬)/1672x940(S05), 원본바이트 유지. 후속영상16:9 프레이밍미세조정사항."
+  ],
+  "restrictions_observed": [
+    "built-in image_gen only",
+    "no Flow",
+    "no video/audio",
+    "no edits to C01 or C03",
+    "original generated bytes copied, source retained"
+  ]
+}

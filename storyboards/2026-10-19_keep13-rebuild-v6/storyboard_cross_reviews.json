@@ -1,0 +1,8 @@
+{
+ "stage":"cross_validation_after_all_three_independent_storyboard_reviews",
+ "A":{"agent":"/root/v6_review_a","agrees":["B-S01","C-S01","B-S02","C-S04","B-S03","B-S04","B-S05","B-S06","C-S02","C-S03","C-S05","C-S06"],"material_notes":"B-S03크기문제는본인누락인정. K03창높이와기계음색보완. C05감사보다들린다는응답이앞대사와정확히연결. C04AI설명추가컷필요없음.","status":"direction_accepted_pending_revised_file"},
+ "B":{"agent":"/root/v6_review_b","agrees":["A-S01","C-S01","A-S02","C-S02","A-S03","C-S03","A-S04","C-S05","A-S05","C-S06","C-S04"],"changed_judgment":"C04B-G09시야해결판단일부철회. 기계인과와군인관찰정보는별개. 손문제B-S06을필수로상향.","material_notes":"C02압축에도공주종료제안후기사자청의반박자유지. C05귀/지붕/사다리규격확인.","status":"direction_accepted_pending_revised_file"},
+ "C":{"agent":"/root/v6_review_c","agrees":["A-S01","A-S02","A-S03","A-S04","A-S05","B-S01","B-S02","B-S03","B-S04","B-S05","B-S06"],"changed_judgment":"LT→CO지도전달과긴목크기문제본인누락인정. C05감사표시대신들림응답PD선택수용.","material_notes":"C04발시야라도현대운동화디테일은감춤. 지도받기와브레이크해제는순차. B-S06손문제는필수.","status":"direction_accepted_pending_revised_file"},
+ "PD_choices":["C02기계정체/K03지면은K04이후공개, 중반4초압축총38초","C04SO레버/LT지도연필/CO지도수령뒤브레이크, 낮은관측구역광그림자만","C05K02무릎과긴목을접어포치밑진입/크기고정, 들림응답손짓실패, 마지막6초로총38초","자기참조null, 모든scene_list·자막시간동기화"],
+ "note":"방향동의만기록. 실제수정확인은storyboard_final_confirmation.json에별도저장예정."
+}

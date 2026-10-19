@@ -1,0 +1,29 @@
+{
+ "stage":"independent_before_storyboards",
+ "reviewers":[
+  {"agent":"/root/v6_review_a","findings":[
+   {"id":"A-G01","concept":"C02","severity":"required","issue":"초반 구조요청처럼 들린 외침을 나중에 다른말로 바꾸는 속임수 방지","proposal":"같은 외침 일부를 소음으로 가리거나 손짓 오해로 연결"},
+   {"id":"A-G02","concept":"C02","severity":"required","issue":"떠난 뒤 기사 불기 노동 이유 부족","proposal":"스스로 복구/보호 자청해 계속 영웅 역할 고집"},
+   {"id":"A-G03","concept":"C04","severity":"required_rebuild","issue":"발표에 관심이동 후 풍선손 추가는 경호 반려안 반복","proposal":"후반 재발상, 사업욕망이 새로운 오판·실행을 일으켜야"},
+   {"id":"A-G04","concept":"C05","severity":"required_rebuild","issue":"설명 못함은 예상가능, 그물 별개 규칙","proposal":"공 가로챈 대장이 실제 시연자로 지정되는 명확한 재앙 필요; 단순청강 결말 금지"},
+   {"id":"A-G05","concept":"all_new","severity":"suggestion","issue":"회색 짧은머리로 다시수렴 가능","proposal":"실제 얼굴·헤어·체형·복장 함께 비교"}
+  ],"decision":"C02수정후상세화, C04/C05현카드보류"},
+  {"agent":"/root/v6_review_b","findings":[
+   {"id":"B-G01","concept":"C02","severity":"required","issue":"공주가 벌주면 익숙한 유능/무능 반전","proposal":"기사가 영웅성을 지키려 스스로 용 역할 선택"},
+   {"id":"B-G02","concept":"C02","severity":"suggestion","issue":"세 파손 해설 과다","proposal":"동일장치 외부/내부 선명대응, 파손2개이내"},
+   {"id":"B-G03","concept":"C04","severity":"required_rebuild","issue":"고용인 관심이동+장치고장은 새 권력변화아님","proposal":"자신의 체계가 목적을 반대로 실행하거나 전면교체"},
+   {"id":"B-G04","concept":"C04","severity":"required","issue":"이미발표중인데 시작하자는 CTA 시점충돌","proposal":"가상사전시연/본행사전환 분리"},
+   {"id":"B-G05","concept":"C05","severity":"required","issue":"그물 포획오해 근거없음","proposal":"자기가 정한 규칙에 걸리는 사건 또는 교체"},
+   {"id":"B-G06","concept":"C05","severity":"suggestion","issue":"항복문수정 제목이사건에없음","proposal":"문서와권력변화맞물리거나제목교체"}
+  ],"decision":"C02조건부, C04/C05현안확정반대"},
+  {"agent":"/root/v6_review_c","findings":[
+   {"id":"C-G01","concept":"C02","severity":"required","issue":"공주 임의처벌로 보임","proposal":"복구까지가구출이라는 자청을통해자기몸이부품"},
+   {"id":"C-G02","concept":"C02","severity":"required","issue":"외침맥락공정성과파손해설","proposal":"동일음성·동작, 파손두개로정리"},
+   {"id":"C-G03","concept":"C04","severity":"required","issue":"발표자화자찬과장난감개그","proposal":"질문손을박수신호로오해하는 구체선택/계약욕망"},
+   {"id":"C-G04","concept":"C04","severity":"suggestion","issue":"환불제목미회수/실제고용암시","proposal":"제목수정 또는 허구영업상황"},
+   {"id":"C-G05","concept":"C05","severity":"required_rebuild","issue":"포획규칙갑작스러움·자료청강훈화","proposal":"자기규칙에걸리게하거나CE64독자변형으로대체"}
+  ],"decision":"C02조건부, C04보강가능, C05보류"}
+ ],
+ "PD_disposition":"C02만 상세 전개. 초반 동일 외침/파손 축소/기사의 자발적 복구 세 항목 반영. C04·C05는 현 카드의 장치를 손보는 수준으로 확정하지 않고 두 작가에게 추가 재발상 의뢰. 캐스팅 다양성과 이야기 성립을 구별한다.",
+ "limits":"카드 단계. 실제 새 이미지·영상·음원·관객 반응 미검토. 세 검수자는 상대 결과를 보기 전에 독립 제출했다."
+}

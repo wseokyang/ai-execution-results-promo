@@ -1,3 +1,9 @@
+## 최신: 2026-10-19 V6
+
+사용자가 유지한 V5의 1·3안을 그대로 두고, 2·4·5안의 시나리오와 첫 프레임을 새로 만들었습니다. 신규 26장 + 보존 17장. 영상·음원·Flow 생성 없음.
+
+[V6 전체 컷 표](storyboards/2026-10-19_keep13-rebuild-v6/STORYBOARDS.md) · [V6 이미지 콘티](storyboards/2026-10-19_keep13-rebuild-v6/index.html) · [검토 요약](storyboards/2026-10-19_keep13-rebuild-v6/review_summary.json)
+
 # AI 실행 결과 발표대회 홍보영상
 
 행사 원자료, 홍보영상 5안의 스토리보드·대표 이미지, Flow 제작 준비 패키지와 실제 파일럿 결과를 보관하는 비공개 프로젝트입니다.

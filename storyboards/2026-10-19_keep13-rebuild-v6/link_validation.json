@@ -1,0 +1,8 @@
+{
+  "status": "passed",
+  "references": 153,
+  "local_file_references": 138,
+  "anchors": 10,
+  "browser_rendered": false,
+  "scope": "HTML source links and assets checked; no local-file browser automation workaround"
+}

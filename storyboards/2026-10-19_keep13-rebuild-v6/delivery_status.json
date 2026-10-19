@@ -1,0 +1,13 @@
+{
+  "status": "complete",
+  "scope": "5 detailed storyboards and 43 actual first frames; C01/C03 retained unchanged, C02/C04/C05 rebuilt",
+  "selected_images": 43,
+  "new_selected_images": 26,
+  "retained_images": 17,
+  "old_completed_C01_film_preserved": true,
+  "Flow_upload": false,
+  "video_generation": false,
+  "audio_generation": false,
+  "audience_humor_validation": false,
+  "creative_acceptance": "user retained C01/C03; new C02/C04/C05 awaiting user judgment, not claimed accepted"
+}
