@@ -1,0 +1,75 @@
+{
+  "PD": "/root",
+  "status": "complete",
+  "actual_collaboration": [
+    {
+      "stage": "자료·목적 재분석",
+      "agents": [
+        "/root/v6_reference"
+      ],
+      "result": "reference_diagnosis.json. PPTX1~3 XML·원안PNG 확인. 이전qrew/공식광고확인범위명시"
+    },
+    {
+      "stage": "독립 발상",
+      "agents": [
+        "/root/v6_comedy",
+        "/root/v6_ceremony"
+      ],
+      "result": "각4개·총8개, 첫제출전상호공유없음. writer_candidates.json 총괄축약기록"
+    },
+    {
+      "stage": "새2안선정·선행검토",
+      "agents": [
+        "/root",
+        "/root/v6_review_a",
+        "/root/v6_review_b",
+        "/root/v6_review_c"
+      ],
+      "result": "CE73/CE71 채택, 보존3안유지. concept_gate_reviews.json"
+    },
+    {
+      "stage": "컷전개",
+      "agents": [
+        "/root/v6_director"
+      ],
+      "result": "director_draft.json 한파일작성. 이후총괄이구체지적반영수정"
+    },
+    {
+      "stage": "전체5안독립·교차·수정재확인",
+      "agents": [
+        "/root/v6_review_a",
+        "/root/v6_review_b",
+        "/root/v6_review_c"
+      ],
+      "result": "storyboard_reviews/cross_reviews/revision_disposition/final_confirmation. AI역할중복발견후내용불일치탐색으로실제변경, 35/34초압축"
+    },
+    {
+      "stage": "첫프레임생성",
+      "agents": [
+        "/root/v6_artist_c02",
+        "/root/v6_artist_c04"
+      ],
+      "status": "complete",
+      "scope": "서로다른새안각9장, 내장image_gen. 보존25장재생성없음"
+    },
+    {
+      "stage": "보존·스크립트검사",
+      "agents": [
+        "/root/handoff_integrity"
+      ],
+      "result": "handoff_integrity_audit.json 읽기전용, 필수결함없음"
+    },
+    {
+      "stage": "실제이미지독립·교차·필수지적확인",
+      "agents": [
+        "/root/v6_review_a",
+        "/root/v6_review_b",
+        "/root/v6_review_c"
+      ],
+      "result": "image_review_A/B/C.json, image_cross_reviews.json, image_revision_disposition.json, image_final_confirmation.json"
+    }
+  ],
+  "image_review": "three independent reviews, peer cross checks, required finding closure",
+  "delivery": "local gallery, Markdown, selected PNGs, prompts and records complete; packaging verified separately",
+  "limits": "실제로수행한단계만기록. 동작·음성·관객반응·사용자신규2안수용검증아님. 하위팀재생성없음, 단계별재사용."
+}

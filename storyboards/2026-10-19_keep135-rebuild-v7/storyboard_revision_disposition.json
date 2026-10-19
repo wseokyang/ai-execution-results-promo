@@ -1,0 +1,14 @@
+{
+  "status":"PD_revision_applied_pending_three_confirmations",
+  "revision":"director_draft.json 및 storyboards.json. 수정 전 director_draft_before_revision.json 보존",
+  "items":[
+    {"ids":["A7-S01","B7-S01","C7-S01","PD7-S02"],"action":"AI 일을 다수 신고·첨부의 내용 불일치 후보 찾기로 변경. 대상 묶기 폐기. 동일봉투 보존","reason":"같은 대상재분류중복제거, 별도창구로장소/컷늘리지않음. 교차검토3인대체해법수용"},
+    {"ids":["C7-S02","A7-X01"],"action":"실제신고원문 내부 탑승자 없음 명시. UI에같은신고와식사/물/수저직접대조, 원문/실물은사람확인, 사람존재판정은현장그릇등장까지보류"},
+    {"ids":["A7-S02","B7-S02","C7-S03","PD7-S01"],"action":"C04 AI5초+원문2초, 확인중복발언삭제. 총34초. 부인·헛기침·뚜껑·집단그릇·지휘관숟가락유지"},
+    {"ids":["A7-S03","B7-S03","C7-S03","PD7-S03"],"action":"C04 첫프레임은목마내부에구긴몸·병사얼굴우선, 메모는작은행동. 그릇/숟가락숨김"},
+    {"ids":["A7-S04","B7-S04","C7-S04","PD7-S01"],"action":"C02 AI후보3장첫프레임에놓고사람겹침5초. 청소전결과·천접촉직전을첫프레임에두고닦기·재촬영4초. 총35초"},
+    {"ids":["A7-S05"],"action":"C04 엔딩지휘관얼굴과망토손전경, 배식창후경, 숟가락밝은배경실루엣"}
+  ],
+  "preserved":["C01","C03","C05"],
+  "new_image_generation":"not_started"
+}

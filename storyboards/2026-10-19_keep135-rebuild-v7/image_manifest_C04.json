@@ -1,0 +1,381 @@
+{
+  "concept_id": "C04",
+  "status": "artist_complete_pending_independent_image_review",
+  "generation_tool": "image_gen",
+  "images": [
+    {
+      "concept_id": "C04",
+      "cut_id": "K01",
+      "scene_id": "S01",
+      "linked_cuts": [
+        "K01"
+      ],
+      "image_path": "images/C04/S01_v2.png",
+      "prompt": "Precise edit of this exact frame. Preserve both male actors, all poses and hands and memo slips, cramped wooden room, envelope PURPLE crescent, lighting and framing. Change ONLY left female soldier's face/hair and envelope opening: she is a DIFFERENT actress from outside guard commander. Make left woman age52 with a clearly ANGULAR broad SQUARE JAW, higher flatter cheekbones, leaner cheeks, narrow straight nose, narrow single-lidded eyes and straight brows, weathered mature skin, no round cheek fullness. Her grey hair is smooth straight hair combed close to head with centre part, a long grey single braid over shoulder, NO puffy short curls. Keep same olive sleeves, leather vest, hungry worried sideways look, shoulders/knees tucked. Keep body build solid and facial age genuine, no beautifying. Also show envelope OPEN with its top flap raised/back, thin visible opening along top edge ready for slips, same place/size/crescent. NO bowls/spoons/food and no text. Nothing else changes.",
+      "reference_images": [
+        "\\\\wsl.localhost\\Ubuntu-24.04\\home\\wooseok\\wsy\\samsung_related\\slide\\AI실행결과발표대회_디자인3종\\storyboards\\2026-10-19_keep135-rebuild-v7\\images\\C04\\S01.png"
+      ],
+      "source_generated_path": "C:\\Users\\wseok\\.codex\\generated_images\\01a15195-4fdf-7e70-af5c-65ca5b6eba21\\exec-17d941d0-f6b5-4914-8ac9-292e85e6861a.png",
+      "generation_tool": "image_gen",
+      "selected": true,
+      "artist_review": {
+        "opened_actual_image": true,
+        "status": "artist_pass_pending_independent_review",
+        "notes": [
+          "여성병사 직모긴땋음/각진턱으로 GU짧은곱슬과구별. 열린봉투·작은메모3·구긴몸·서로다른허기표정. 그릇/숟가락없음."
+        ]
+      },
+      "followup_motion": "병사들이 순서가 겹치게 메모를 봉투에 끼운다. 마지막 손이 봉투를 전달 틈 바깥으로 민다.",
+      "width": 1672,
+      "height": 941,
+      "sha256": "416065002e9ce6e7e0961fbd7b3613204f5a3331af16fdefa5d116258fb291c9",
+      "source_copy_sha256_match": true,
+      "generation_record_followup_motion": "병사셋메모순서겹쳐봉투삽입후틈으로민다.",
+      "motion_instruction_source": "current storyboards.json after image peer review; exact prompt unchanged"
+    },
+    {
+      "concept_id": "C04",
+      "cut_id": "K01",
+      "scene_id": "S01",
+      "linked_cuts": [
+        "K01"
+      ],
+      "image_path": "images/C04/S01.png",
+      "prompt": "Use case: ads-marketing. ONE landscape16:9 cinematic live-action first frame. Interior of giant dark plank Trojan horse, cramped enough three Korean infiltrators crouch with shoulders hunched and knees tucked, heads dominate foreground. Serious war-film warm sidelight through tiny document slit, dusty wooden ribs, secret anxious sideways glances, hunger. Left S1: 52-year-old Korean woman broad jaw, mature lined face, long GREY braid over one shoulder, OLIVE green cloth sleeves with worn brown leather vest. Centre S2: 24-year-old very THIN Korean man, conspicuously large ears and short black hair, DARK BLUE cloth sleeves, worn simple leather vest. Right S3: 45-year-old ROUND heavy Korean man, short brown CURLY hair and broad nose, OCHRE sleeves and worn leather vest. Clearly different silhouettes, not three handsome generic leads. S1 presses one elbow against stomach with uncomfortable worried look; S2 peeks nervously toward tiny slit; S3 puckers lips to suppress stomach noise. Each has exactly one small plain pale food-request paper at knee height, held near but NOT yet inserted into ONE open large tan ENVELOPE on a narrow ledge at the small document slot. Envelope has a single solid PURPLE CRESCENT mark, matching the supplied reference envelope prop; reference only for tan envelope/wood material, NO outside actors to copy. Three small request slips can be blank, no readable writing. Focus on expressive cramped faces, papers a small clandestine action below, no overhead view of documents. There are ABSOLUTELY NO BOWLS, NO SPOONS, NO FOOD, no water cups anywhere, these will only be revealed much later. Their hands are natural, separate and not overlapping as a blob. Three closed side shutters seen only as dark seams in background, do not open. No tablet inside, no external commander present, no logos or subtitles, one cohesive frame not collage.",
+      "reference_images": [
+        "\\\\wsl.localhost\\Ubuntu-24.04\\home\\wooseok\\wsy\\samsung_related\\slide\\AI실행결과발표대회_디자인3종\\storyboards\\2026-10-19_keep135-rebuild-v7\\images\\C04\\S03_v2.png"
+      ],
+      "source_generated_path": "C:\\Users\\wseok\\.codex\\generated_images\\01a15195-4fdf-7e70-af5c-65ca5b6eba21\\exec-4a13f030-8ae8-409f-98cb-8f9291d45f6e.png",
+      "generation_tool": "image_gen",
+      "selected": false,
+      "artist_review": {
+        "opened_actual_image": true,
+        "status": "revision_needed",
+        "notes": [
+          "3명구김·메모/그릇없음적합. 여성병사얼굴이GU와가까워 별도배우인상으로수정, 봉투열린입명확히할예정."
+        ]
+      },
+      "followup_motion": "병사셋작은메모순서겹쳐봉투삽입후틈으로민다.",
+      "width": 1672,
+      "height": 941,
+      "sha256": "b8f7e2051f584d3a80bbb511d425e233b71d53f1fb6a90d23a00ff4f8f99e408",
+      "source_copy_sha256_match": true
+    },
+    {
+      "concept_id": "C04",
+      "cut_id": "K02",
+      "scene_id": "S02",
+      "linked_cuts": [
+        "K02"
+      ],
+      "image_path": "images/C04/S02.png",
+      "prompt": "Use case: ads-marketing. ONE 16:9 cinematic live-action first frame. Use reference as exact identities and outdoor fortress/Trojan horse continuity. Scene is a stone gate admissions desk, bright dusty daylight. Only TWO foreground actors: CM, the same tall thin long pointed black-bearded Korean escort in PLUM cape and brown leather armour at screen LEFT, holds out a tan PURPLE-CRESCENT envelope together with a WHITE REPORT cover sheet toward RC at screen RIGHT. RC is same short round BALD elderly Korean registrar with round BLACK glasses, tiny white moustache, MUSTARD long vest and WHITE sleeves, hands reaching but NOT yet receiving. Both have serious professional expressions, commander a hint of smug confidence. On the cover sheet print exactly one bold legible Korean line: \"내부 탑승자 없음\". No other writing. This is original document's explicit claim, not narrator caption. Orient page toward camera at a shallow readable angle between their hands. The same large purple crescent on tan envelope is visible below white paper. Behind them the huge left-facing dark WOODEN HORSE body with same PURPLE CRESCENT and THREE FULLY CLOSED shutters stands by stone wall; no bowls, hands, food, no open panels. No matching crescent on banners: all fortress banners plain dark green.\nLarge rough wooden reception desk has MULTIPLE other delivery folders/envelopes stacked and fanned, each DIFFERENT plain simple geometric emblem (red triangle, blue square, orange circle), plus neutral modern desktop scanner on desk. These are different incoming items, not copies of crescent delivery. Preserve original papers not shredded. No tablet needed in hand this shot. Medium-wide framing faces and document exchange dominant, horse visible in background with deliberate modern scanner among historical costume. No GU, no food trolley required in this shot, no extra floating hands, no titles or logos. First instant before hands transfer envelope.",
+      "reference_images": [
+        "\\\\wsl.localhost\\Ubuntu-24.04\\home\\wooseok\\wsy\\samsung_related\\slide\\AI실행결과발표대회_디자인3종\\storyboards\\2026-10-19_keep135-rebuild-v7\\images\\C04\\S03_v2.png"
+      ],
+      "source_generated_path": "C:\\Users\\wseok\\.codex\\generated_images\\01a15195-4fdf-7e70-af5c-65ca5b6eba21\\exec-0eacbe12-9f10-4fbd-b953-b94a719a9f68.png",
+      "generation_tool": "image_gen",
+      "selected": true,
+      "artist_review": {
+        "opened_actual_image": true,
+        "status": "artist_pass_pending_independent_review",
+        "notes": [
+          "실제PNG의 '내부 탑승자 없음' 정확하게읽음. 다른반입물3종/스캐너/전달전손/초승달목마확인. 목마3창닫힘."
+        ]
+      },
+      "followup_motion": "CM이 봉투를 주고 RC가 원문을 책상에 두어 스캔 입력한다. 원본은 버리지 않는다.",
+      "width": 1672,
+      "height": 941,
+      "sha256": "fded34137585b5b2238d2aa016b99952fe6a261ffd9d869b21f16ac0648f78bf",
+      "source_copy_sha256_match": true,
+      "generation_record_followup_motion": "CM봉투를주고 RC원문보관하여스캔입력. 원본버리지않음.",
+      "motion_instruction_source": "current storyboards.json after image peer review; exact prompt unchanged"
+    },
+    {
+      "concept_id": "C04",
+      "cut_id": "K03",
+      "scene_id": "S03",
+      "linked_cuts": [
+        "K03"
+      ],
+      "image_path": "images/C04/S03_v2.png",
+      "prompt": "Precise-object-edit this exact frame. Keep everything else identical: three faces and bodies, costumes, poses, huge wooden horse, three CLOSED shutters, small document slot, cart CLOSED, camera and daylight. ONLY remove the crescent symbols from ALL distant fortress fabric banners, including tiny background banners held by guards. Make all fortress banners plain desaturated dark green fabric without any emblem or text. The TWO PURPLE CRESCENTS that MUST REMAIN are the one on the wooden horse's body and the one on the registrar's beige envelope. These identify only this delivery, NOT the kingdom. No other changes, 16:9 film still.",
+      "reference_images": [
+        "\\\\wsl.localhost\\Ubuntu-24.04\\home\\wooseok\\wsy\\samsung_related\\slide\\AI실행결과발표대회_디자인3종\\storyboards\\2026-10-19_keep135-rebuild-v7\\images\\C04\\S03.png"
+      ],
+      "source_generated_path": "C:\\Users\\wseok\\.codex\\generated_images\\01a15195-4fdf-7e70-af5c-65ca5b6eba21\\exec-2c162ac8-c902-449a-bfcc-d971d683cf54.png",
+      "generation_tool": "image_gen",
+      "selected": true,
+      "artist_review": {
+        "opened_actual_image": true,
+        "status": "artist_pass_pending_independent_review",
+        "notes": [
+          "실제출력열람. 성벽초승달제거, 목마/신고봉투만 초승달유지. 세배우/닫힌3창/수레닫힘 확인. 창높이상당하므로 끝 실제배식행위아닌 국자들기시작까지만."
+        ]
+      },
+      "followup_motion": "CM이 막으며 묻고 RC가 태블릿을 CM·GU 쪽으로 돌린다.",
+      "width": 1672,
+      "height": 941,
+      "sha256": "c59184ab6fcc725483b2df4d60b2665019be8c499ccf80e3eba52e7cbd3353d9",
+      "source_copy_sha256_match": true,
+      "generation_record_followup_motion": "CM앞막으며묻고 RC태블릿을GU/CM쪽으로돌림.",
+      "motion_instruction_source": "current storyboards.json after image peer review; exact prompt unchanged"
+    },
+    {
+      "concept_id": "C04",
+      "cut_id": "K03",
+      "scene_id": "S03",
+      "linked_cuts": [
+        "K03"
+      ],
+      "image_path": "images/C04/S03.png",
+      "prompt": "Use case: ads-marketing. ONE live-action cinematic Korean absurd war-comedy first frame, landscape16:9, realistic film set, no writing or captions. Establish a HUGE intimidating Trojan wooden horse parked just outside a monumental rough-stone fortress gate in bright dusty sunlight. Horse body 6 metres long, neck/head 6 metres high, head points SCREEN LEFT, short black mane, very dark plank body, exactly FOUR big black wheels. Near-facing side has EXACTLY THREE square wooden shutters in ONE evenly spaced horizontal row, ALL fully CLOSED; separate small horizontal DOCUMENT SLOT below middle shutter. Large plain PURPLE CRESCENT MOON painted on body below left shutter, no letters. No saddle, no festival decorations, no windows other than three panels, no visible people inside. Monumental war-film scale rather than cute amusement ride.\nThree Koreans in foreground lower quarter, clearly different faces/ages/builds:\nGU female guard commander, age58, broad large powerful body, wide deeply lined face, voluminous short grey CURLY hair, dark green padded vest, copper shoulder guards, black work gloves. Stands SCREEN LEFT of waist-high stainless food-service trolley, BOTH hands on its push handle. Modern trolley is two-tier rectangular cart with wheels, top one big rectangular insulated food pan with SINGLE large flat hinged SILVER LID firmly CLOSED, small black handle. No steam, NO bowls or spoons visible anywhere.\nCM male escort commander age42, TALL THIN, sharp cheekbones, long sharply pointed BLACK beard, black hair tied back, dark PLUM cape over worn brown leather armour. Stands centre in front of horse, tense defensive look, about to move in front of GU but blocking hand still down near waist.\nRC male registrar age65, SHORT ROUND build, BALD shiny head, round BLACK glasses, small thin WHITE moustache, mustard-yellow long work vest and WHITE sleeves, stands screen RIGHT holding modern black tablet with screen facing HIS CHEST (only black back visible) and a beige document envelope with same PURPLE CRESCENT. Not looking at camera.\nClear wide composition showing horse whole head/body and its three CLOSED panels, cart and each actor separately; theatrical scale, urgent dramatic expressions, deliberate modern-tablet/cart anachronism treated seriously. Maintain broad pale upper stone wall area for later text but do NOT generate words. No weapon violence, no soldiers hands, bowls or spoons, no reveal yet.",
+      "reference_images": [],
+      "source_generated_path": "C:\\Users\\wseok\\.codex\\generated_images\\01a15195-4fdf-7e70-af5c-65ca5b6eba21\\exec-69c16c99-7144-4e98-bfb5-cfd53aa8f07a.png",
+      "generation_tool": "image_gen",
+      "selected": false,
+      "artist_review": {
+        "opened_actual_image": true,
+        "status": "revision_needed",
+        "notes": [
+          "세배우/닫힌패널3개/수레기준 적합. 성벽배너에도 초승달이 생겨 개별반입물표식뜻이흐려짐. 배너표식제거예정."
+        ]
+      },
+      "followup_motion": "CM앞막으며묻고 RC태블릿을GU/CM쪽으로돌림.",
+      "width": 1672,
+      "height": 941,
+      "sha256": "2af8dfb1a2e48814f99005a4329ddc5aecf065bc3f08c0bcded103d83033983a",
+      "source_copy_sha256_match": true
+    },
+    {
+      "concept_id": "C04",
+      "cut_id": "K04",
+      "scene_id": "S04",
+      "linked_cuts": [
+        "K04"
+      ],
+      "image_path": "images/C04/S04.png",
+      "prompt": "Use case: ads-marketing. ONE landscape16:9 cinematic live-action film INSERT FIRST FRAME, same sunny fortress scene and Korean cast as references. Main composition is elderly registrar RC's modern BLACK tablet in landscape orientation held in his LEFT white-sleeved hand, large enough to occupy 65 percent of frame width, camera nearly perpendicular to readable screen with slight natural perspective. RC's RIGHT index finger hovers two centimetres BELOW the display, about to point but covers NO letters. His mustard vest and part of bald head/round glasses visible at right edge; long-bearded PLUM-caped commander CM is soft focus upper left looking tensely at tablet. In lower background on rough wooden ledge, one white original report and two small beige request slips with purple-crescent envelope.\nTablet shows a restrained document comparison app, not magic detection. TOP exactly \"AI 문서 대조\"; small badge below exactly \"확인 후보\". Thin LEFT sidebar has a vertical list of SIX plain document-row thumbnails/icons with varied geometric emblems (red triangle/blue square/orange circle/purple crescent), no tiny illegible paragraphs. Main screen split into TWO BIG light panels joined by ↔ symbol. LEFT big white panel exact bold Korean text, on two readable lines: \"내부 탑승자\" and \"없음\". RIGHT pale beige panel three LARGE separate words stacked: \"식사\" then \"물\" then \"수저\". These are already visible at FIRST instant, comparison complete BEFORE gesture. No percentages, no occupant numbers, no guilt stamp, no scan of people, no inside camera, no AI logo, no smiley robot. The AI identified a contradiction between declared absence and attached meal/water/cutlery requests, not identical-item classification. Short text only exactly as supplied. Clear no glare over text, realistic tablet glass. Background wooden horse only softly visible, all panels closed, no bowls/spoons or steam. No subtitles outside screen, no collage.",
+      "reference_images": [
+        "\\\\wsl.localhost\\Ubuntu-24.04\\home\\wooseok\\wsy\\samsung_related\\slide\\AI실행결과발표대회_디자인3종\\storyboards\\2026-10-19_keep135-rebuild-v7\\images\\C04\\S03_v2.png",
+        "\\\\wsl.localhost\\Ubuntu-24.04\\home\\wooseok\\wsy\\samsung_related\\slide\\AI실행결과발표대회_디자인3종\\storyboards\\2026-10-19_keep135-rebuild-v7\\images\\C04\\S02.png"
+      ],
+      "source_generated_path": "C:\\Users\\wseok\\.codex\\generated_images\\01a15195-4fdf-7e70-af5c-65ca5b6eba21\\exec-bf2fa7aa-b01c-4fc7-b5b0-abf23d3ad9d7.png",
+      "generation_tool": "image_gen",
+      "selected": true,
+      "artist_review": {
+        "opened_actual_image": true,
+        "status": "artist_pass_pending_independent_review",
+        "notes": [
+          "실제텍스트확인: AI 문서 대조/확인 후보/내부 탑승자 없음/식사/물/수저 정확. 다수문서목록+두큰구절내용대조명확. 인원숫자/유죄판정없음. 손지목전."
+        ]
+      },
+      "followup_motion": "RC가 신고 구절과 급식 요청을 차례로 짚으며 공개한다. CM은 설명을 듣고 목마로 눈을 돌린다. 마지막 수저 지목은 다음 원문 대조로 연결.",
+      "width": 1672,
+      "height": 941,
+      "sha256": "23f89eb3b1f873e4152bc07d13392806cca1e5a90412e08eb53ddb4b11fa7a8c",
+      "source_copy_sha256_match": true,
+      "generation_record_followup_motion": "RC신고구절과급식요청을차례로짚고 CM목마쪽눈돌림. 다음원문대조로.",
+      "motion_instruction_source": "current storyboards.json after image peer review; exact prompt unchanged"
+    },
+    {
+      "concept_id": "C04",
+      "cut_id": "K05",
+      "scene_id": "S05",
+      "linked_cuts": [
+        "K05"
+      ],
+      "image_path": "images/C04/S05.png",
+      "prompt": "Use case: ads-marketing. ONE landscape16:9 live-action cinematic first frame, same sunny fortress, EXACT same cast/props as references. Medium shot prioritizes ORIGINAL PAPERS in elderly RC's WHITE-sleeved hands at centre-left foreground, RC bald/round glasses/mustard vest partly visible left. Broad older Korean woman GU with short GREY CURLS, dark green padded vest, copper shoulder guards and BLACK gloves at screen right looks seriously down at originals. Behind her, huge wooden horse's large PURPLE CRESCENT is visibly the SAME emblem as on tan envelope under papers, three side shutters CLOSED and no hands showing. All fortress banners plain green. Closed stainless food trolley edge visible lower right, no steam or bowls/spoons.\nFirst instant before full spread: RC holds TWO overlapping physical originals with edges still slightly together, about to separate them side by side for confirmation. WHITE original report upper-left has exact clear Korean line \"내부 탑승자 없음\" in bold, same as reference2. Beige smaller request memo lower-right shows exactly three short stacked words \"식사\" / \"물\" / \"수저\". Tan envelope with purple crescent tucked beneath, still visible. These are actual paper sources, not tablet UI, no arrows or digital framing, no extra paragraph. GU's gloved hand open below papers, not covering wording, prepared to compare paper crescent then horse crescent. Show her thoughtful skeptical eye line on documents, not declaring guilt. Keep papers naturally physical, unobscured large brief words, realistic perspective, no modern laptop or tablet in this shot. No event title, no split panels, no generated text beyond short words on original papers.",
+      "reference_images": [
+        "\\\\wsl.localhost\\Ubuntu-24.04\\home\\wooseok\\wsy\\samsung_related\\slide\\AI실행결과발표대회_디자인3종\\storyboards\\2026-10-19_keep135-rebuild-v7\\images\\C04\\S03_v2.png",
+        "\\\\wsl.localhost\\Ubuntu-24.04\\home\\wooseok\\wsy\\samsung_related\\slide\\AI실행결과발표대회_디자인3종\\storyboards\\2026-10-19_keep135-rebuild-v7\\images\\C04\\S02.png"
+      ],
+      "source_generated_path": "C:\\Users\\wseok\\.codex\\generated_images\\01a15195-4fdf-7e70-af5c-65ca5b6eba21\\exec-bed74d8e-10c4-458e-8d87-280bebc0e48f.png",
+      "generation_tool": "image_gen",
+      "selected": true,
+      "artist_review": {
+        "opened_actual_image": true,
+        "status": "artist_pass_pending_independent_review",
+        "notes": [
+          "실제원문 '내부 탑승자 없음'/'식사 물 수저' 정확. 봉투/목마초승달일치, GU원문주시,닫힌수레. 문서아직겹쳐완전히나란히펼치기전."
+        ]
+      },
+      "followup_motion": "RC가 펼쳐 든 두 원문 내용이 맞음을 말로 확인한다. GU가 실물 표식과 수레로 시선을 옮긴다. 새로 펼치는 동작을 추가하지 않는다.",
+      "width": 1672,
+      "height": 941,
+      "sha256": "628a9ec184f3197f91a4a3ddf57c1e42fda7c41b5a993e627dab770359b78193",
+      "source_copy_sha256_match": true,
+      "generation_record_followup_motion": "RC원문두장을더펼쳐확인, GU목마표식과수레로시선이동.",
+      "motion_instruction_source": "current storyboards.json after image peer review; exact prompt unchanged"
+    },
+    {
+      "concept_id": "C04",
+      "cut_id": "K06",
+      "scene_id": "S06",
+      "linked_cuts": [
+        "K06"
+      ],
+      "image_path": "images/C04/S06.png",
+      "prompt": "Use case: ads-marketing. ONE 16:9 cinematic live-action first frame, use reference exact actors, huge Trojan horse, fortress and CLOSED steel food trolley. New staging closer to horse flank: gigantic left-facing dark wooden horse fills background, three square shutters ALL CLOSED in horizontal row, purple crescent below left panel and separate small document slot under middle panel. Horse motionless. Only this horse/envelope has crescent; fortress banners plain green.\nGU broad older Korean woman, short voluminous grey curls, green padded vest, copper shoulder plates, black gloves now stands at near LEFT of trolley, turned toward CM. SAME stainless two-tier trolley is pushed right beside horse flank, waist-height large rectangular food-pan lid firmly CLOSED. Her RIGHT black-gloved hand hovers just 3cm above its black lid handle, about to grasp, not yet touching. Other hand rests trolley rail. CM tall thin Korean man black pointed beard and plum cape stands CENTRE-RIGHT between trolley and horse, anxious but stubborn, about to deny. His blocking RIGHT hand is still at WAIST height with palm beginning to turn outward, NOT yet held up. Both actors look at each other; don't make everyone deadpan. RC short bald older man round glasses/mustard vest/white sleeves stands farther RIGHT holding original purple-crescent envelope and tablet close to body, watching. Big fixed medium-wide screen layout, closed three shutters clearly visible above actors, no palms/arms/bowls/spoons emerging. NO steam, no food, no ladles yet, no written text. Hard dusty sunlight and tense dramatic cinema with absurd modern cafeteria trolley. Keep cart dimensions and flat hinged lid consistent.",
+      "reference_images": [
+        "\\\\wsl.localhost\\Ubuntu-24.04\\home\\wooseok\\wsy\\samsung_related\\slide\\AI실행결과발표대회_디자인3종\\storyboards\\2026-10-19_keep135-rebuild-v7\\images\\C04\\S03_v2.png"
+      ],
+      "source_generated_path": "C:\\Users\\wseok\\.codex\\generated_images\\01a15195-4fdf-7e70-af5c-65ca5b6eba21\\exec-6c08148e-e1e3-4ff3-a5aa-c28b89c1f014.png",
+      "generation_tool": "image_gen",
+      "selected": true,
+      "artist_review": {
+        "opened_actual_image": true,
+        "status": "artist_pass_pending_independent_review",
+        "notes": [
+          "닫힌수레/3창, GU손잡이접촉전, CM허리높이손 준비, RC목마같은초승달보유. 개인그릇/숟가락/김없음."
+        ]
+      },
+      "followup_motion": "CM이 손바닥으로 막으며 부인한다. GU가 뚜껑 손잡이를 잡는다.",
+      "width": 1672,
+      "height": 941,
+      "sha256": "9ed6a96d1fac8dafc69410d47a2293663c0b4ccc402e5942d9ec5a8feee715f3",
+      "source_copy_sha256_match": true,
+      "generation_record_followup_motion": "CM손바닥막으며부인. GU뚜껑손잡이잡는다.",
+      "motion_instruction_source": "current storyboards.json after image peer review; exact prompt unchanged"
+    },
+    {
+      "concept_id": "C04",
+      "cut_id": "K07",
+      "scene_id": "S07",
+      "linked_cuts": [
+        "K07"
+      ],
+      "image_path": "images/C04/S07.png",
+      "prompt": "Use case: ads-marketing. One16:9 live-action cinematic FIRST FRAME continuing exact reference. Camera now CLOSER and LOWER on silver food trolley CLOSED lid and GU's BLACK-gloved right hand grasping its black top handle. The lid is still FULLY CLOSED/flush against food-pan rim with no gap whatsoever. NO steam, no food, no bowls or eating spoons visible yet. GU is same older broad Korean woman with short abundant GREY CURLS, dark GREEN padded vest, copper shoulder armour. Show her calm determined profile at upper-left, hand on handle, not lifting yet. Tall thin long black-bearded Korean CM in PLUM cape stands upper-right background looking sideways toward the wooden horse, before smelling food, mouth closed as he stubbornly denies. His blocking palm remains held forward from prior cut. Exactly same giant dark wood horse flank in background with THREE CLOSED square shutters, purple crescent below left panel and separate small document slit; no arms or other leaks. RC can be partly visible at far edge holding tablet and envelope, not dominant. Same sunny ancient gate, plain green banners, harsh tactile war-movie sunlight. Medium-close lens, top lid dominates lower half; sequence is about to open it NEXT, do NOT show lifted/ajar lid or reveal food now. No text, split screen, extra props, no separate cookware or kettle.",
+      "reference_images": [
+        "\\\\wsl.localhost\\Ubuntu-24.04\\home\\wooseok\\wsy\\samsung_related\\slide\\AI실행결과발표대회_디자인3종\\storyboards\\2026-10-19_keep135-rebuild-v7\\images\\C04\\S06.png"
+      ],
+      "source_generated_path": "C:\\Users\\wseok\\.codex\\generated_images\\01a15195-4fdf-7e70-af5c-65ca5b6eba21\\exec-6a267936-f19d-464d-b987-9e567fcfdd26.png",
+      "generation_tool": "image_gen",
+      "selected": true,
+      "artist_review": {
+        "opened_actual_image": true,
+        "status": "artist_pass_pending_independent_review",
+        "notes": [
+          "실제출력열람. 뚜껑완전닫힘/김없음, GU장갑손잡이바로위접촉준비. CM막는손,3창닫힘. 손잡이잡는세부동작은후속영상첫순간확정필요."
+        ]
+      },
+      "followup_motion": "GU가 뚜껑을 열어 김이 난다. CM 코가 미세하게 움직이고 목마 안의 숨소리가 겹친다.",
+      "width": 1672,
+      "height": 941,
+      "sha256": "3dce3069e29a6be4c4b03623bc318b1e2b087e1854365e9cb5df075fb23b2f03",
+      "source_copy_sha256_match": true,
+      "generation_record_followup_motion": "GU손잡이를확실히감아쥐고뚜껑열어김. CM코미세반응/내부숨소리. 패널은아직닫힘.",
+      "motion_instruction_source": "current storyboards.json after image peer review; exact prompt unchanged"
+    },
+    {
+      "concept_id": "C04",
+      "cut_id": "K08",
+      "scene_id": "S08",
+      "linked_cuts": [
+        "K08"
+      ],
+      "image_path": "images/C04/S08.png",
+      "prompt": "Use case: ads-marketing. ONE cinematic live-action FIRST FRAME, landscape16:9. Same exact colossal Trojan horse and three outside Korean actors as references, but camera pulled WAY BACK to broad epic wide establishing entire horse and giant fortress gate. Horse head points LEFT, huge dark wood body, four dark wheels, short black mane, purple crescent below left shutter, small document slot under middle shutter. EXACTLY THREE square shutters on near side are STILL FULLY CLOSED, no gap, NO arms, NO personal bowls or spoons outside anywhere. This is the instant immediately BEFORE the simultaneous three-shutter reveal. Keep clear space around each closed shutter for later arms.\nIn lower foreground, SAME rectangular stainless food trolley now has its SINGLE flat hinged lid fully lifted to near-vertical open position, hinging backward toward horse, attached to same pan; do not transform into round cauldron. Mild white STEAM rises ONLY from exposed hot food pan, drifts toward horse without obscuring closed shutters. GU same broad older woman grey short curls/green vest/copper shoulders/black gloves stands LEFT of trolley, one hand on raised lid's handle; pragmatic composed face. CM same tall black-pointed-beard man plum cape stands RIGHT of trolley, palm still raised from denial, mouth beginning to open but not yet shocked by arms. RC bald/mustard vest/white sleeves is far-right holding tablet and crescent original envelope, watching. No additional utensils, no people riding or peeking, no bowls or spoons showing. Fortress plain green banners without crescent; only horse and its papers have purple crescent. Dusty grand war-film light with ludicrous cafeteria cart, no text, no logos. Clear horse scale, three shutters visible and all CLOSED despite open steaming cart.",
+      "reference_images": [
+        "\\\\wsl.localhost\\Ubuntu-24.04\\home\\wooseok\\wsy\\samsung_related\\slide\\AI실행결과발표대회_디자인3종\\storyboards\\2026-10-19_keep135-rebuild-v7\\images\\C04\\S03_v2.png",
+        "\\\\wsl.localhost\\Ubuntu-24.04\\home\\wooseok\\wsy\\samsung_related\\slide\\AI실행결과발표대회_디자인3종\\storyboards\\2026-10-19_keep135-rebuild-v7\\images\\C04\\S07.png"
+      ],
+      "source_generated_path": "C:\\Users\\wseok\\.codex\\generated_images\\01a15195-4fdf-7e70-af5c-65ca5b6eba21\\exec-74645281-8eae-4b86-9bfd-887a998d966d.png",
+      "generation_tool": "image_gen",
+      "selected": true,
+      "artist_review": {
+        "opened_actual_image": true,
+        "status": "artist_pass_pending_independent_review",
+        "notes": [
+          "목마전신규모/3창닫힘. 열린수레에서만음식·김. 병사팔/개인그릇/숟가락아직없음. 첫프레임-이후반전분리확인."
+        ]
+      },
+      "followup_motion": "패널3개가 열리고 각 병사가 한 그릇·한 숟가락을 동시에 내민다. CM은 부인하던 손을 내리지 못한다.",
+      "width": 1671,
+      "height": 941,
+      "sha256": "5f565ee10714b4f673f7f79336e3e73988f9682a2b59fee638410d5b3132b634",
+      "source_copy_sha256_match": true,
+      "generation_record_followup_motion": "패널3개열리고올리브/파랑/황토각두팔로그릇하나숟가락하나내민다. CM손허공에남김.",
+      "motion_instruction_source": "current storyboards.json after image peer review; exact prompt unchanged"
+    },
+    {
+      "concept_id": "C04",
+      "cut_id": "K09",
+      "scene_id": "S09",
+      "linked_cuts": [
+        "K09"
+      ],
+      "image_path": "images/C04/S09_v2.png",
+      "prompt": "Precise-object-edit. Preserve this EXACT image including all six actors, their faces, sleeves and body positions, exactly SIX soldier arms, THREE silver bowls and THREE wooden spoons, commander hidden hand with NO spoon, open steaming cart and hanging metal ladle, horse, framing and sunlight. Only fix shutter door count: this horse had THREE SINGLE-LEAF shutters, one door leaf hinged on the LEFT of EACH of three openings. There must be EXACTLY THREE wooden door leaves total, one to the immediate LEFT of each opening. Currently there is an EXTRA open door leaf to the FAR RIGHT of the rightmost ochre-sleeved man's window. REMOVE ONLY THAT FAR-RIGHT EXTRA DOOR LEAF and replace its area by uninterrupted existing dark wooden horse wall/outer window frame. Keep the rightmost soldier and spoon untouched. Keep remaining THREE door leaves to left of respective windows (left of woman, between woman and blue man, between blue and ochre man). Do not close any window, do not remove any bowl/spoon/arm or add anything. No other edits, 16:9.",
+      "reference_images": [
+        "\\\\wsl.localhost\\Ubuntu-24.04\\home\\wooseok\\wsy\\samsung_related\\slide\\AI실행결과발표대회_디자인3종\\storyboards\\2026-10-19_keep135-rebuild-v7\\images\\C04\\S09.png"
+      ],
+      "source_generated_path": "C:\\Users\\wseok\\.codex\\generated_images\\01a15195-4fdf-7e70-af5c-65ca5b6eba21\\exec-5779d89c-ae91-421a-90e5-5f9c321de91b.png",
+      "generation_tool": "image_gen",
+      "selected": true,
+      "artist_review": {
+        "opened_actual_image": true,
+        "status": "artist_pass_pending_independent_review",
+        "notes": [
+          "실제출력계수: 창3/단일문짝3/병사6팔/은그릇3/나무숟가락3. 올리브-파랑-황토왼쪽순서. CM한손망토안,자기숟가락아직없음. GU국자내려진상태,RC원문/태블릿. 여분문짝제거완료."
+        ]
+      },
+      "followup_motion": "CM이 자기 숟가락을 꺼내 조용히 내민다. GU가 국자를 들고 RC는 원문과 목마 현장을 함께 기록한다.",
+      "width": 1672,
+      "height": 941,
+      "sha256": "930f3c502b6ad2b98448c1055390adfdd804826678862ba438be9fdb5b0c1f6d",
+      "source_copy_sha256_match": true,
+      "generation_record_followup_motion": "CM망토안자기숟가락꺼내조용히내민다. GU국자들기시작만(높은창으로배식안함). RC원문과현장함께기록. 행사명상단6초후편집.",
+      "motion_instruction_source": "current storyboards.json after image peer review; exact prompt unchanged"
+    },
+    {
+      "concept_id": "C04",
+      "cut_id": "K09",
+      "scene_id": "S09",
+      "linked_cuts": [
+        "K09"
+      ],
+      "image_path": "images/C04/S09.png",
+      "prompt": "Use case: ads-marketing. ONE landscape16:9 live-action cinematic FIRST FRAME for the final shot of same absurd Korean war comedy. Reference1 exact exterior horse/cart/fortress. Reference2 ONLY the THREE hidden soldiers' identities and sleeve colors. Reference3 exact foreground commander identity. NO collage.\nCamera medium-wide closer from front so tall thin long BLACK pointed-beard commander CM in dark PLUM cape is prominent FOREGROUND LEFT, face guilty and hungry, looking sideways toward food cart. His right hand is INSIDE HIS CLOSED CAPE at waist level; NO spoon or bowl visible in either commander hand. He is about to secretly pull his own spoon out LATER, do NOT show it now.\nBEHIND him across upper-centre/right are EXACTLY THREE open square shutters in the same wooden horse side, aligned in one horizontal row. Shutter doors swing outward on their existing side hinges, not upward hatches. Inside each separate window show one matching soldier leaning just enough to expose face and TWO forearms. LEFT window: mature square-jawed grey-braided WOMAN S1 with OLIVE sleeves. CENTRE window: young THIN man S2 large ears short black hair with DARK BLUE sleeves. RIGHT window: ROUND man S3 short brown curly hair with OCHRE sleeves. Each pair of arms is connected visibly to that soldier, not disembodied. EXACTLY SIX soldier arms total. Each soldier's LEFT hand extends ONE plain SILVER empty round BOWL, and RIGHT hand extends ONE WOODEN eating SPOON. Total exactly THREE silver bowls + THREE wooden spoons, one bowl and one spoon PER WINDOW, clearly separated, no doubling or overlap. These are hungry hopeful expressions, not zombie horror. Bowls already outside at this first instant; commander spoon still hidden. Keep purple crescent below left shutter and separate paper slot below middle shutter, huge dark horse body and its black mane/head LEFT.\nLower foreground-right open stainless rectangular food trolley with same flat lid raised, mild steam. GU broad older woman grey short CURLS, dark green vest, copper shoulders, black gloves stands near trolley with hands relaxed, NOT serving yet. One large METAL soup LADLE hangs DOWN on cart side, not held and visually different from three wooden eating spoons. RC bald/mustard vest/round glasses/white sleeves visible far right behind, holding original crescent envelope and tablet ready to record. Upper stone wall empty for later event title, fortress banners plain green without symbols. No words or captions. Do not put soldiers outside horse, no reaching food across high windows, no bowls in commander hands. 28mm photographic film frame, strong body/hand anatomical continuity, warm sun/dust.",
+      "reference_images": [
+        "\\\\wsl.localhost\\Ubuntu-24.04\\home\\wooseok\\wsy\\samsung_related\\slide\\AI실행결과발표대회_디자인3종\\storyboards\\2026-10-19_keep135-rebuild-v7\\images\\C04\\S08.png",
+        "\\\\wsl.localhost\\Ubuntu-24.04\\home\\wooseok\\wsy\\samsung_related\\slide\\AI실행결과발표대회_디자인3종\\storyboards\\2026-10-19_keep135-rebuild-v7\\images\\C04\\S01_v2.png",
+        "\\\\wsl.localhost\\Ubuntu-24.04\\home\\wooseok\\wsy\\samsung_related\\slide\\AI실행결과발표대회_디자인3종\\storyboards\\2026-10-19_keep135-rebuild-v7\\images\\C04\\S03_v2.png"
+      ],
+      "source_generated_path": "C:\\Users\\wseok\\.codex\\generated_images\\01a15195-4fdf-7e70-af5c-65ca5b6eba21\\exec-7739ccc4-1735-4413-9885-b3a17710ee84.png",
+      "generation_tool": "image_gen",
+      "selected": false,
+      "artist_review": {
+        "opened_actual_image": true,
+        "status": "revision_needed",
+        "notes": [
+          "3인/6팔/3그릇/3숟가락/CM숟가락미노출 정확. 창문3개는맞지만 오른쪽끝에여분문짝1개. 단일패널3개연속성위해끝문짝제거예정."
+        ]
+      },
+      "followup_motion": "CM망토안자기숟가락꺼내슬쩍내밀기. GU국자들기시작. RC원문/현장함께기록.",
+      "width": 1672,
+      "height": 941,
+      "sha256": "51d3fafcc5fab6f3c20d15a19ac2a52526021fc8a1794a2cf264bcad2c6e3601",
+      "source_copy_sha256_match": true
+    }
+  ],
+  "generated_scene_count": 9,
+  "total_scene_count": 9,
+  "generated_file_count": 12,
+  "selected_count": 9,
+  "remaining_notes": [
+    "3명 실제이미지 독립/교차검수대기",
+    "S07장갑은손잡이바로위. 후속영상시작시손잡이감아쥔후뚜껑열기.",
+    "S09국자는들기시작까지만,높은창에실제배식안함.",
+    "S02/S04/S05 필수짧은한국어실제PNG열람정확확인. 행사명후편집.",
+    "선택PNG 원본출력바이트보존. S08=1671x941,나머지1672x941로16:9근사."
+  ],
+  "restrictions_observed": [
+    "built-in image_gen only",
+    "no Flow or video/audio",
+    "no C01/C03/C05 edits",
+    "original bytes copied and source files retained"
+  ]
+}

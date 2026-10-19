@@ -1,0 +1,106 @@
+{
+  "reviewer": "A",
+  "agent": "/root/v6_review_a",
+  "stage": "actual image independent review",
+  "record_type": "PD condensed faithful record of returned findings",
+  "decision": "신규 선택 PNG18장 유지 가능. 필수 이미지 재생성 없음. 문서 수정2건.",
+  "findings": [
+    {
+      "id": "A-I001",
+      "priority": "required_document_fix",
+      "concept": "C04",
+      "cut": "K09",
+      "path": "images/C04/S09_v2.png",
+      "issue": "상단 빈 성벽이라는 콘티와 실제 목마/깃발/성벽/하늘의 복합 배경이 다름",
+      "direction": "얼굴/배식창/지휘관 손을 피한 대비 패널과 2~3행 행사명을 6초 유지. 제안 위치 좌상단, 보조 문구 압박 시 생략. PNG 재생성 불필요"
+    },
+    {
+      "id": "A-I002",
+      "priority": "required_document_fix",
+      "concepts": [
+        "C02",
+        "C04"
+      ],
+      "cuts": [
+        "C02-K03",
+        "C02-K05",
+        "C02-K09",
+        "C04-K01",
+        "C04-K03",
+        "C04-K09"
+      ],
+      "issue": "검토 시작 당시 storyboards.json이 미채택 기본 PNG를 가리킴",
+      "direction": "컷/씬/갤러리 selected=true 동기화. 미선택 원본 보존"
+    },
+    {
+      "id": "A-I003",
+      "priority": "suggestion",
+      "concept": "C04",
+      "cut": "K05",
+      "path": "images/C04/S05.png",
+      "issue": "원문이 이미 펼쳐져 있는데 첫프레임 서술은 펼치기 직전",
+      "direction": "이미 펼쳐 든 원문으로 첫프레임과 다음 동작을 맞춤. 확인/표식/수레 시선 이동을2초에 배치"
+    },
+    {
+      "id": "A-I004",
+      "priority": "future_production_note",
+      "concept": "C02",
+      "cut": "K07",
+      "path": "images/C02/S07.png",
+      "issue": "휴대전화 화면 안 담당자 지목과 실제 손의 시점 차이",
+      "direction": "향후 영상에서 실제 지목 동작과 전화 화면 시점 일치. 현재 대표이미지 재생성 필수 아님"
+    }
+  ],
+  "actual_opened_new_pngs": [
+    "images/C02/S01.png",
+    "images/C02/S02.png",
+    "images/C02/S03_v2.png",
+    "images/C02/S04.png",
+    "images/C02/S05_v2.png",
+    "images/C02/S06.png",
+    "images/C02/S07.png",
+    "images/C02/S08.png",
+    "images/C02/S09_v2.png",
+    "images/C04/S01_v2.png",
+    "images/C04/S02.png",
+    "images/C04/S03_v2.png",
+    "images/C04/S04.png",
+    "images/C04/S05.png",
+    "images/C04/S06.png",
+    "images/C04/S07.png",
+    "images/C04/S08.png",
+    "images/C04/S09_v2.png"
+  ],
+  "additional_opened": [
+    "images/C02/S07_document_photo.png"
+  ],
+  "preservation_check": {
+    "contact_sheets_actually_opened": [
+      "../2026-10-19_keep13-rebuild-v6/contact_sheets/C01_all_cuts.jpg",
+      "../2026-10-19_keep13-rebuild-v6/contact_sheets/C03_all_cuts.jpg",
+      "../2026-10-19_keep13-rebuild-v6/contact_sheets/C05_all_cuts.jpg"
+    ],
+    "hashes_checked": 25,
+    "hash_mismatches": [],
+    "objects_equal_to_V6": [
+      "C01",
+      "C03",
+      "C05"
+    ],
+    "scope": "보존25장은 연락표/해시. 개별 PNG 재열람으로 주장하지 않음"
+  },
+  "portfolio": {
+    "C01": "과장 자세 교정/사고 공개/새 교본 유지",
+    "C02": "형사 과잉 수사/수갑/자신이 사례판에 놓이는 전복, 사진 출처/인물/장비 연속성",
+    "C03": "공중 사무실/두 번째 환경 규모/작은 파일 유지",
+    "C04": "몸 구겨 숨은 병사/신고 요청 충돌/동일 병사와 식기/지휘관 숟가락 다음 행동",
+    "C05": "파괴자가 기둥/사다리가 청취 지원의 두 전복 유지"
+  },
+  "common_checks": "청소/수갑/재촬영/사진부착 및 뚜껑/패널/지휘관 숟가락의 전후 구분. 실제 신고/요청 글자 확인. 신규엔딩6초. 실존직원/외모조롱 발견 없음.",
+  "required_image_regeneration": [],
+  "required_document_changes": [
+    "A-I001",
+    "A-I002"
+  ],
+  "limits": "동료 이미지 의견 열람 전 독립 제출. 동작/음성/립싱크/최종 자막합성/관객 반응 미검증."
+}

@@ -1,0 +1,80 @@
+{
+  "status": "all_three_confirmed",
+  "stage": "actual image independent/peer/revision closure",
+  "reviewers": {
+    "A": {
+      "agent": "/root/v6_review_a",
+      "required_remaining": [],
+      "required_image_regeneration": [],
+      "confirmed": [
+        "A-I001/B-I003/C-I001 행사명배치",
+        "A-I002/B-I001 선택경로",
+        "A-I003 이미펼친원문 및 개별/통합followup_motion동기화",
+        "B-I002 CM시야",
+        "A-I004/C-I002 후속동일사진메모",
+        "artist-C04-K07 손잡이/배식범위"
+      ],
+      "actual_files_checked": [
+        "image_revision_disposition.json",
+        "director_draft.json",
+        "storyboards.json",
+        "scene_manifest.json",
+        "STORYBOARDS.md",
+        "index.html",
+        "image_manifest_C04.json"
+      ],
+      "preservation": "43선택PNG해시/보존3객체V6동일"
+    },
+    "B": {
+      "agent": "/root/v6_review_b",
+      "required_remaining": [],
+      "required_image_regeneration": [],
+      "confirmed": [
+        "전체주요수정첫재확인",
+        "마지막C04 S05 개별/통합 followup_motion 직접읽어최신next_motion일치확인"
+      ],
+      "actual_files_checked": [
+        "image_revision_disposition.json",
+        "director_draft.json",
+        "storyboards.json",
+        "scene_manifest.json",
+        "STORYBOARDS.md",
+        "index.html",
+        "image_manifest_C04.json"
+      ],
+      "note": "첫재확인에서놓친잔여필드도동료지적뒤좁은재확인으로종결"
+    },
+    "C": {
+      "agent": "/root/v6_review_c",
+      "required_remaining": [],
+      "required_image_regeneration": [],
+      "confirmed": [
+        "전체주요수정",
+        "실제S09_v2재열람과패널위치계획",
+        "C04 S05 개별/통합followup_motion동기화"
+      ],
+      "actual_files_checked": [
+        "image_revision_disposition.json",
+        "director_draft.json",
+        "storyboards.json",
+        "scene_manifest.json",
+        "STORYBOARDS.md",
+        "index.html",
+        "image_manifest_C04.json",
+        "images/C04/S09_v2.png"
+      ],
+      "note": "발견한잔여동기화1건해결후종결"
+    }
+  },
+  "new_images_actually_opened_individually_by_each_reviewer": 18,
+  "retained_images_scope": "각자 보존3안 연락표 실제열람 및25원본/복사본해시 확인. 이번 보존25개 개별 재열람으로 주장하지 않음.",
+  "review_history": [
+    "image_review_A.json",
+    "image_review_B.json",
+    "image_review_C.json",
+    "image_cross_reviews.json",
+    "image_revision_disposition.json",
+    "image_recheck_round1.json"
+  ],
+  "limits": "첫프레임 및 계획 검토. 최종자막합성/영상동작/음성/립싱크/관객반응 미검증. 신규2안 사용자수용 미확인."
+}

@@ -1,7 +1,7 @@
 # 경로는 모두 이 프로젝트 폴더(AGENTS.md가 있는 폴더)를 기준으로 한다.
 # 초기 조사 기록이다. 후속 기획 실행 시 사용자 최신 지시와 원자료로 갱신한다.
 team_name = "AI 실행 결과 발표대회 홍보영상팀"
-# 최신 2026-10-18 사용자 피드백은 맨 아래 creative_direction_2026_10_18을 우선한다.
+# 최신 지시는 맨 아래 creative_direction_2026_10_19_keep_c01_c03_c05를 우선한다.
 prepared_on = "2026-10-14"
 project_root_relative_to_this_file = ".."
 setup_scope = "2026-10-14 사용자 실제 기획 요청 시작: 팀 확인 후 5안 기획·교차검수·씬 대표 이미지 제작. Flow 영상 제작 제외."
@@ -108,3 +108,11 @@ new_run = "storyboards/2026-10-19_keep13-rebuild-v6"
 delivery = "C02 공주38초9컷 / C04 목마42초9컷 / C05 괴수38초8컷, 신규26장. 전체5안43장."
 creative_status = "콘티·실제첫프레임 제작과3인검토완료. 신규3안 사용자창작수용·관객재미는미확인. 초기박수/항복안은카드게이트에서폐기."
 scope = "Flow·동영상·음원 생성 금지. ai-flow PAUSED. 기존기획·패키지·원자료덮어쓰지않음."
+
+[creative_direction_2026_10_19_keep_c01_c03_c05]
+user_feedback = "V6 C05 좋음. C01/C03/C05 유지. C02/C04는 AI 발표대회 연결 부족으로 교체. 트로이목마는 C04에서 유지."
+new_run = "storyboards/2026-10-19_keep135-rebuild-v7"
+retained = "V6 전체 콘티 객체3개·채택PNG25장. 기존 C01 36초v07 SHA 보존."
+delivery = "C02 검은 점을 잡아라 35초9컷 / C04 목마는 식사 중입니다 34초9컷. 신규18장. 전체43장."
+creative_status = "콘티·실제 첫 프레임·3인 독립/교차/필수수정 검토 완료. 신규2안 사용자창작수용·관객재미 미확인."
+scope = "시나리오와 컷별 첫프레임만. Flow·동영상·음원 금지. ai-flow PAUSED 유지."

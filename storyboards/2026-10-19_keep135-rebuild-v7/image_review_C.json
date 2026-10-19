@@ -1,0 +1,81 @@
+{
+  "reviewer": "C",
+  "agent": "/root/v6_review_c",
+  "stage": "actual image independent review",
+  "record_type": "PD condensed faithful record of returned findings",
+  "decision": "신규 선택18장 실제 개별 열람. 필수 재생성 없음. 교차 검토 진행 가능.",
+  "findings": [
+    {
+      "id": "C-I001",
+      "priority": "suggestion",
+      "concept": "C04",
+      "cut": "K09",
+      "path": "images/C04/S09_v2.png",
+      "issue": "상단 빈 성벽과 실제 복합 배경 차이로 행사명 대비 불안정",
+      "direction": "얕은 어두운 그라데이션+행사명2행6초. 인물/그릇/숟가락 동작 영역 제외. 보조문구 생략 가능. PNG 재생성 불필요"
+    },
+    {
+      "id": "C-I002",
+      "priority": "future_production_note",
+      "concept": "C02",
+      "cuts": [
+        "K07",
+        "K08",
+        "K09"
+      ],
+      "paths": [
+        "images/C02/S07.png",
+        "images/C02/S08.png",
+        "images/C02/S09_v2.png"
+      ],
+      "issue": "전화미리보기/인쇄사진은 같은 사건이나 세부픽셀 동일하지 않음",
+      "direction": "향후 K07 촬영 순간 한 사진을 K08/K09에 재사용한다는 합성 메모 유지. 현재 재생성 사유 아님"
+    }
+  ],
+  "actual_opened_new_pngs": [
+    "images/C02/S01.png",
+    "images/C02/S02.png",
+    "images/C02/S03_v2.png",
+    "images/C02/S04.png",
+    "images/C02/S05_v2.png",
+    "images/C02/S06.png",
+    "images/C02/S07.png",
+    "images/C02/S08.png",
+    "images/C02/S09_v2.png",
+    "images/C04/S01_v2.png",
+    "images/C04/S02.png",
+    "images/C04/S03_v2.png",
+    "images/C04/S04.png",
+    "images/C04/S05.png",
+    "images/C04/S06.png",
+    "images/C04/S07.png",
+    "images/C04/S08.png",
+    "images/C04/S09_v2.png"
+  ],
+  "preservation_check": {
+    "contact_sheets_actually_opened": [
+      "../2026-10-19_keep13-rebuild-v6/contact_sheets/C01_all_cuts.jpg",
+      "../2026-10-19_keep13-rebuild-v6/contact_sheets/C03_all_cuts.jpg",
+      "../2026-10-19_keep13-rebuild-v6/contact_sheets/C05_all_cuts.jpg"
+    ],
+    "source_copy_hashes_checked": 25,
+    "hash_mismatches": [],
+    "objects_equal_to_V6": [
+      "C01",
+      "C03",
+      "C05"
+    ],
+    "new_selected_hashes_match": 18,
+    "scope": "보존25장은 연락표/해시. 개별 PNG 재열람으로 주장하지 않음"
+  },
+  "portfolio": {
+    "C01": "자세 모방/사고공개/착지교본 확대 유지",
+    "C02": "심각한 형사/제품사진 불균형, 장치 체포가 새가림, 자신이 사례사진이 되는 두번째사건",
+    "C03": "작업환경/실패환경 물리배송 규모 구별 유지",
+    "C04": "병사허기/신고요청대조/집단그릇/지휘관숟가락 단계별웃음. 실제한국어/현대배식수레 시대착오 명확",
+    "C05": "괴수기둥/사다리청취지원 전복 유지"
+  },
+  "common_checks": "C02 후보/청소/수갑설치/새촬영 전후와 C04 뚜껑/창/팔6/그릇3/숟가락3 확인. 캐스팅 구별, 외형조롱없음. 신규 행사일정/성과/시상 발명 없음.",
+  "required_remaining": [],
+  "limits": "동료 의견 보지 않은 독립 제출. 실제 동작/음성/립싱크/광학/관객반응/최종합성자막 미검증."
+}

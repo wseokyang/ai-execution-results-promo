@@ -1,0 +1,23 @@
+{
+  "stage": "first actual recheck",
+  "reviewers": {
+    "A": {
+      "result": "43장해시/보존3객체/주요수정확인, C04 S05 통합 및 원개별manifest followup_motion 구문 상충 발견",
+      "required_remaining": [
+        "A-I003"
+      ]
+    },
+    "B": {
+      "result": "주요수정모두확인. 잔여followup_motion은발견하지못함",
+      "required_remaining": []
+    },
+    "C": {
+      "result": "주요수정확인, C04 S05 followup_motion 상충 발견",
+      "required_remaining": [
+        "A-I003"
+      ],
+      "reopened_actual": "images/C04/S09_v2.png"
+    }
+  },
+  "resolution_next": "개별selected manifest와 통합manifest 최신동작동기화. 생성당시동작메모는명시적기록필드로보존. PNG/제출프롬프트변경없음. 세명좁은재확인"
+}

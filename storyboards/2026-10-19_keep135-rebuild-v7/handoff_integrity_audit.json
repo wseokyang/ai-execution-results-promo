@@ -1,0 +1,8 @@
+{
+  "agent":"/root/handoff_integrity",
+  "stage":"이미지 제작 중, 납품 스크립트 읽기전용 감사",
+  "scripts":["build_delivery.py","merge_images.py","build_overview.py","finalize_records.py","package_delivery.py","assemble_storyboards.py"],
+  "status":"no_concrete_script_findings",
+  "verified":["6개 구문 검사","신규35/34초·각9컷/전체43컷","보존3개 전체객체 V6동일 및merge 메모리모의무변형","보존25PNG원본SHA 일치","기존완성C01 36초v07 SHA일치","최신AI역할문구 일치","정적경로구성"],
+  "not_performed":["제작중새이미지누락판정","최종패키지실제링크·CRC","파일수정","finalize/package실행"]
+}

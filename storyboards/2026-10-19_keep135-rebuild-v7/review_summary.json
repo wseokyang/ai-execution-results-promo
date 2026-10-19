@@ -1,0 +1,28 @@
+{
+  "status": "required_storyboard_and_image_findings_closed",
+  "user_scope": "V6 C05 accepted; C01/C03/C05 unchanged; C02/C04 rewritten for concrete AI use and experience sharing; Trojan horse retained",
+  "creative_changes": [
+    "C02: AI가 다수 검사사진에서 묶은 유사 흔적을 사람이 겹쳐 확인하고 촬영창 청소·재촬영으로 원인을 확인. 공개 설명을 들은 형사가 증거 확보를 하다가 다음 문제의 원인이 됨.",
+    "C04: AI가 내부 탑승자 없음 신고와 식사·물·수저 요청의 내용 충돌을 후보로 제시. 사람이 원문·실물을 확인하고 급식 수레로 확인하자 부인 뒤 그릇이 일제히 튀어나옴.",
+    "기술 설명을 따로 늘리지 않고 증거 공개와 인물의 선택이 다음 사건을 만들도록 구성. 중복 설명 대사를 줄여 C02 35초, C04 34초로 정리.",
+    "C01/C03/C05 전체 콘티 객체와 채택 PNG25장은 V6와 동일."
+  ],
+  "concept_gate": "concept_gate_reviews.json",
+  "storyboard_review": "storyboard_final_confirmation.json",
+  "image_reviews": [
+    "image_review_A.json",
+    "image_review_B.json",
+    "image_review_C.json"
+  ],
+  "image_cross_check": "image_cross_reviews.json",
+  "image_disposition": "image_revision_disposition.json",
+  "image_final": "image_final_confirmation.json",
+  "preservation": "preservation_manifest.json",
+  "reference_scope": "reference_diagnosis.json",
+  "limits": [
+    "실제 정지 PNG와 계획 대사·행동 검토",
+    "동작·음성·립싱크·관객 반응 미검증",
+    "내부 검토 완료는 신규2안의 사용자 창작 수용을 뜻하지 않음",
+    "로컬 HTML 브라우저 자동 검수는 기존 제한을 존중해 수행하지 않음. 실제 PNG·문서·정적 링크 검사"
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "researcher":"/root/v6_reference",
+  "stage":"V7 목적 결합 재검토",
+  "verification_scope_this_turn":{"read":["V6 C02/C04 전체 콘티","team/brief.toml","RESUME_CODEX.txt","원본 PPTX 슬라이드1~3 XML 텍스트"],"viewed":["AI실행결과발표대회안.png"],"not_performed":["V6 이미지 독립 검수","광고 전편 재시청·음성 청취","파일 수정","하위 에이전트","Flow·이미지·영상·음원 생성"]},
+  "scope":{"retain_unchanged":["C01","C03","C05"],"rewrite":["C02","C04"],"trojan_horse":"개념 유지 가능, 기존 줄거리와 행사 연결 유지 승인은 아님","status_correction":"V6 제작 정합성 검수는 목적 전달 검증이 아니며 C02/C04 목적 적합성은 최신 사용자 피드백으로 미충족"},
+  "diagnosis":[
+    {"id":"C02","cuts":"K01~04 / K05 / K06~09","structure":"구출 오해로 시험장치를 파손한 기사가 송풍기 자청. K05 AI 기록 발표는 공주 외출 이유.","AI_optional":"AI 기록을 수기 기록으로 바꿔도 파손·오해 해소·자청 복구·종이 불꽃 결말 유지.","result_unclear":"무엇을 AI에 맡겼고 무엇이 나왔으며 사람이 무엇을 확인했는지 안 보임.","sharing_optional":"경험을 보여주거나 듣는 행위가 기사 판단과 마지막 사건을 바꾸지 않음.","required_change":"AI 실행/결과가 오해를 일으키거나 뒤집는 물증, 공개 행위가 판단·행동 변화여야 함. K05 문구 강화만으로 해결되지 않음."},
+    {"id":"C04","cuts":"K01~08 / K09","structure":"목마 병사의 잠입→축제 놀이기구 노동→탈출이 퍼레이드. 마지막에 AI 내레이션.","AI_optional":"앞8컷에 AI 사용·결과물 없음. 계획과 실제 차이는 어떤 경험 행사에도 적용 가능.","result_unclear":"흔들린 지도는 실행 기록의 비유일 뿐 AI 물증 아님.","sharing_optional":"병사는 오해한 채 아무에게도 경험을 전달하지 않음. 다른 행사명으로 바꿔도 동일.","required_change":"숨긴 것·가져온 것·작동 방법·드러난 결과 중 하나를 구체적인 AI 실행에 결합. 그 경험 공개가 잠입 목적이나 반전/해결을 결정."}
+  ],
+  "facts":[
+    {"item":"행사명","value":"2026년 품질팀 AI 실행 결과 발표 대회","status":"사용자 개최 확정, (안) 제외","source":"AGENTS.md; PPTX1~3 제목; 원안PNG상단"},
+    {"item":"목적","value":"AI 우수 과제·활용 역량 향상 사례 공유로 품질팀 AI 실천 문화 확산","status":"원자료 명시","source":"PPTX1~3 목적; PNG좌측 배경/목적"},
+    {"item":"메시지","value":"학습하는 AI에서 활용하고 성과 내는 AI로","status":"원자료 명시","source":"PPTX1~3; PNG좌측상단"},
+    {"item":"운영안","value":"10월 추천,11월2주5~7건,발표7분+질의2분,우수상/발전상/실천상","status":"최종 확정 홍보값으로 사용하지 않음","source":"PPTX1~3; PNG운영/시간표/시상"},
+    {"item":"오독 금지","value":"2026-10-13은 작성일, 도입5분은 개회사 포함 프로그램 시간","source":"PNG우상단/시간표; PPTX1~3"}
+  ],
+  "unknowns":["정확한 일시·장소","참석·추천·신청 방법","실제 발표자·과제·성과수치","상금·경품","실제 배포대상·채널"],
+  "acceptance_tests":[
+    {"test":"AI 제거 시험","pass":"입력·활용행위·산출물·확인 중 사건에 필요한 연결이 화면에 남음","fail":"AI를 수기나 일반계획으로 바꿔도 반전이 동일"},
+    {"test":"실행 결과 물증","pass":"무엇을 해봤고 무엇이 나왔는지 설명 가능, 물증이 선택·반전 바꿈","fail":"노트북이나 썼다는 대사만 있음"},
+    {"test":"발표·공유 인과","pass":"보여주거나 듣는 일이 원인·목표·반전·해결","fail":"행사명과 함께들어요만 빼면 완전히 독립 광고"},
+    {"test":"늦은 공개 허용","pass":"후반 공개가 앞 행동과 소품 뜻을 바꿈","fail":"초반AI강요 또는 후반 무관한 설명 덧붙임"}
+  ],
+  "reference_principles":[
+    {"title":"SSG 압도적 쓱케일","source":"https://www.shinsegaegroupnewsroom.com/ssg-dotcom-online-new-ad/","principle":"신선 배송 약속 때문에 배송차 안 생산·채집 사건 발생. 홍보 가치가 사건 원인.","scope":"이전 공식 설명 직접 확인 기록 재사용"},
+    {"title":"캐논 안정환의 파워무비","source":"../../../motion/qrew_old/reference-v5/analysis.txt 및 contact-opening.png","principle":"사고가 카메라가 포착하는 결과물. 기능과 결말이 같은 장면.","scope":"이전 설명·실제 표본 확인, 전편/음성 아님"},
+    {"title":"QREW V7","source":"../../../motion/qrew_old/v7-recut/README.txt, animation.js, output/QREW-v7-recut-storyboard.png","principle":"최종본 주장에 수정일 질문이 직접 답하고 원문/이력/근거가 동일 문제 해결.","scope":"이전 문서·코드·대표이미지 확인, 음성 미청취"}
+  ],
+  "prohibitions":["보존1·3·5 변경","끝말·타이틀만 수선","노트북/로봇/AI대사를 실행증거 대신 사용","발표하러 간다는 퇴장 대사만으로 연결완료 판정","실패발표를 행사필수규정으로 만들기","허구를 실제사내성과로 소개","성공보장·절감수치·시상창작","목적설명 때문에 반전과 행동 제거"]
+}

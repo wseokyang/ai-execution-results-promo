@@ -1,3 +1,14 @@
+[2026-10-19 V7 최신 완료 — C01·C03·C05 유지 / C02·C04 AI 실행과 행사 연결 재작성]
+최신 사용자: V6 C05 좋음, C02/C04는 AI 발표대회 관련성 부족. 트로이목마 한 안 유지 가능. C01/C03/C05 전체 콘티 객체와 채택25PNG는 V6와 바이트·객체 동일.
+작업: storyboards/2026-10-19_keep135-rebuild-v7/ (index.html, STORYBOARDS.md, scene_manifest.json, review_summary.json).
+새 안: C02 검은 점을 잡아라 35초9컷 / C04 목마는 식사 중입니다 34초9컷. 신규 실제 첫 프레임 18장 + 보존25장 = 43장. 채택 경로는 scene_manifest/storyboards를 사용하며 수정 이전 PNG는 보존.
+연구·두 작가 독립발상·3인 전체콘티 독립/교차/수정확인·실제PNG 독립/교차/필수지적확인 완료. 관객반응·새2안 사용자수용·실제동작·음성·립싱크 미검증. future_production_notes.json 확인.
+Windows 검토본: C:/Users/wseok/.codex/visualizations/2026/10/19/01a13daf-3732-7b90-99a8-92c605090d35/B_comedy_keep135_rebuild_v7/index.html
+같은 상위 폴더 B_comedy_keep135_rebuild_v7_full_package.zip. 패키지 검증 별도. Git 반영 상태는 git log/remote로 확인.
+기존 완성 C01 36초 v07 SHA 유지. Flow·동영상·음원 생성0, ai-flow PAUSED 유지. 이번 시나리오/첫프레임 요청으로 이전 자동생성 큐를 재개하지 않는다.
+
+이하 이전 작업 이력 — 최신 V7 지시 우선
+
 [2026-10-19 V6 최신 완료 — C01·C03 유지 / C02·C04·C05 새 콘티·이미지]
 작업: storyboards/2026-10-19_keep13-rebuild-v6/ (index.html, STORYBOARDS.md, scene_manifest.json)
 V5 C01 성공 자세 교정원 34초와 C03 환경까지 가져왔습니다 42초는 콘티 객체·채택17PNG 원본 바이트 그대로 보존. 기존 완성 C01 36초 v07 영화도 SHA 일치.

@@ -1,0 +1,74 @@
+{
+  "stage": "PD image-review disposition",
+  "changes": [
+    {
+      "ids": [
+        "A-I001",
+        "B-I003",
+        "C-I001"
+      ],
+      "decision": "반영",
+      "action": "C04 K09 우상단64~98%,2~20% 짙은반투명패널 3행6초. 보조문구생략. framing/subtitle/postproduction_notes/text_assets/scene_list동기화",
+      "reason": "실제PNG에서 얼굴·그릇·지휘관과 목마머리를 피함. 향후 최종합성확인 별도"
+    },
+    {
+      "ids": [
+        "A-I002",
+        "B-I001"
+      ],
+      "decision": "반영",
+      "action": "최종선택v2여섯경로 shots/scene_list/director_draft/manifest/HTML동기화",
+      "reason": "이전PNG혼용방지. 원본·수정전버전 보존"
+    },
+    {
+      "ids": [
+        "A-I003"
+      ],
+      "decision": "반영",
+      "action": "C04 K05 이미펼친원문확인과시선이동으로first_frame/screen/next_motion/sound수정",
+      "reason": "실제이미지와2초호흡일치"
+    },
+    {
+      "ids": [
+        "B-I002"
+      ],
+      "decision": "반영",
+      "action": "C04 K04 CM은화면직접읽기대신 RC설명듣고목마를봄. screen/next_motion동기화",
+      "reason": "실제태블릿방향일치"
+    },
+    {
+      "ids": [
+        "A-I004",
+        "C-I002"
+      ],
+      "decision": "후속제작메모로반영",
+      "action": "C02 K07~09 동일촬영사진재사용과미리보기시점동기화",
+      "reason": "현재선택이미지는같은사건을전달하나세부픽셀동일아님. 사용자요청범위상정지이미지재생성필수아님"
+    },
+    {
+      "ids": [
+        "artist-C04-K07"
+      ],
+      "decision": "반영",
+      "action": "GU 장갑손잡이확실히잡은뒤열기. 높은창실제배식추가금지",
+      "reason": "실제시작프레임과향후동작구분"
+    },
+    {
+      "ids": [
+        "A-I003",
+        "C-recheck-01"
+      ],
+      "decision": "반영",
+      "action": "통합 scene_manifest의 followup_motion을 최신 next_motion과 동기화. 생성당시 메모는 generation_record_followup_motion으로 분리 보존",
+      "reason": "동일 항목의 추가 펼치기 지시가 남은 것을 C 재확인에서 발견. 제출 프롬프트 원문과 PNG는 유지."
+    }
+  ],
+  "PNG_regeneration_after_independent_review": 0,
+  "PNG_bytes_unchanged": true,
+  "retained_concepts_unchanged": [
+    "C01",
+    "C03",
+    "C05"
+  ],
+  "status": "closed_by_all_three_after_actual_recheck"
+}
