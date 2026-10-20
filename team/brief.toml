@@ -146,3 +146,12 @@ status = "Lite10 성공4개+오디오실패환불1회, 순사용40/잔액10. K07
 review = "K07맨얼굴/K08조끼·의자·안전모/K05파일보유 표본개선. K04B공개개선/오른장갑재착용미달. K03조건실패로미제출10보존. 3인독립표본검수·상호교차·PD처리완료, review_summary.json. 실제음성/연속재생/편집연결미검증."
 scope = "기존V8기획PNG/legacyC01보존. 구매·업스케일·임의계정전환·예약재개·공개게시없음. 무음반환은K04기술복구시ON후OFF복구."
 project_url = "https://flow.google.com/u/2/project/1b4f0913-4664-41fa-9f38-9364a71db73c"
+
+[production_C03_2026_10_20_glove_insert]
+user_request = "새로 로그인한 계정으로 남은 K03/K04 동작 보완 승인; 최초 권리동의 직접완료."
+run = "storyboards/2026-10-20_C03-flow-run04"
+status = "Lite10 한 번 생성 성공/행동 품질보류. 50→40. K04_insert_take03 원본보존; K03 미제출. 총15원본, 최종영화미완성."
+method = "기존 K04 참조 내장imagegen 근접 첫프레임1장,3인독립교차PASS. 대사/공개를기존원본유지하고장갑단일동작만분리."
+review = "오른손으로왼장갑소매당김/5.25~5.5초오른맨손에장갑재질발생. 정상착용아니므로HOLD. 같은지시반복/조건부K03중단,40보존."
+scope = "원본8초720p24fps비디오만,무음반환ON후OFF복구. 기획43PNG/이전원본/legacyC01보존. 구매·예약재개·공개게시없음."
+project_url = "https://flow.google.com/u/3/project/ae9e0683-9828-484b-a182-68bb08987cdb"

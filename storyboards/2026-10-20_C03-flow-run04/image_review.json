@@ -1,0 +1,97 @@
+{
+  "scope": "K04_insert01 first-frame image and planned single-action prompt",
+  "phase": "three independent actual image reviews and peer cross reviews completed",
+  "main_actual_view": true,
+  "reviews": {
+    "A": {
+      "agent": "/root/c03_run02_review_a",
+      "verdict": "PASS",
+      "actual_files": [
+        "images/C03/K04_insert01.png",
+        "images/C03/image_manifest.json",
+        "prompts/C03_K04_insert_take03_planned.txt"
+      ],
+      "issues": [
+        {
+          "id": "A-049",
+          "status": "pass",
+          "finding": "Bare anatomical right at screen left; left gloved holding one separate empty glove. Two hands and two gloves."
+        },
+        {
+          "id": "A-050",
+          "status": "pass",
+          "finding": "Natural overlapping fingers and separate empty glove opening; no confirmed extra fingers."
+        },
+        {
+          "id": "A-051",
+          "status": "pass_with_observation",
+          "finding": "Orange vest/navy sleeves/black trousers/outdoor A retained; frontal centering is intentional insert change."
+        },
+        {
+          "id": "A-052",
+          "status": "generation_check_required",
+          "finding": "Must verify actual insertion, left glove persistence, final two-glove state."
+        }
+      ]
+    },
+    "C": {
+      "agent": "/root/v8_review_c",
+      "verdict": "PASS",
+      "actual_files": [
+        "images/C03/K04_insert01.png",
+        "images/C03/image_manifest.json",
+        "prompts/C03_K04_insert_take03_planned.txt",
+        "../2026-10-19_tone-polish-v8/images/C03/K04.png"
+      ],
+      "issues": [
+        {
+          "id": "C-053",
+          "status": "pass",
+          "finding": "Correct bare right/gloved left plus separate empty glove, two hands/two gloves."
+        },
+        {
+          "id": "C-054",
+          "status": "pass",
+          "finding": "Clothes and outdoor A background continuity suitable for close-up."
+        },
+        {
+          "id": "C-055",
+          "status": "generation_check_required",
+          "finding": "Actual wearing fingers-to-wrist and separated final two-glove hold must be verified after generation."
+        }
+      ]
+    },
+    "B": {
+      "agent": "/root/v8_review_b",
+      "verdict": "PASS",
+      "actual_files": [
+        "images/C03/K04_insert01.png",
+        "images/C03/image_manifest.json",
+        "prompts/C03_K04_insert_take03_planned.txt",
+        "../2026-10-19_tone-polish-v8/images/C03/K04.png"
+      ],
+      "issues": [
+        {
+          "id": "B-052",
+          "status": "pass",
+          "finding": "Two hands, gloved left plus separate empty glove, open cuff, clothes and A consistent."
+        },
+        {
+          "id": "B-053",
+          "status": "resolved_in_existing_prompt",
+          "finding": "Left maintains empty cuff, right enters; planned prompt already explicit."
+        }
+      ],
+      "access_note": "Relative text path failed initially; absolute path supplied and manifest/prompt/original image actually read in cross stage."
+    }
+  },
+  "limitations": [
+    "Image review is not actual video action success or audience laughter validation."
+  ],
+  "cross_reviews": {
+    "A": "Agrees B-052/053 C-053/054/055; B-053 already covered, no new required change.",
+    "B": "Agrees A-049/050/051/052 C-053/054/055; confirmed existing prompt resolves B-053.",
+    "C": "Agrees A-049/050/051/052 B-052/053; no new required change."
+  },
+  "pd_decision": "Use as close-up insert input. Keep exact planned prompt. Actual insertion/left glove continuity/final two gloves require video review."
+}

@@ -1,0 +1,22 @@
+{
+  "file": "C03_K04_insert_take03.mp4",
+  "download_source": "C:\\Users\\wseok\\Downloads\\Hands_wearing_grey_gloves_20261020112258.mp4",
+  "bytes": 2169329,
+  "sha256": "ab10d4152effe13530b93ec88debb65113c97c7e0325546ac801d0da6d13221e",
+  "download_sha256_match": true,
+  "duration_seconds": 8.0,
+  "streams": [
+    {
+      "type": "video",
+      "codec": "h264",
+      "width": 1280,
+      "height": 720,
+      "frame_rate": "24/1"
+    }
+  ],
+  "decoded_video_frames": 192,
+  "full_video_decode_pass": true,
+  "audio_track_present": false,
+  "original_reencoded": false,
+  "limitation": "Technical verification, no actual listening or continuous playback assessment."
+}

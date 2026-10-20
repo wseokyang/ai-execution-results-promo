@@ -1,0 +1,109 @@
+{
+  "concept": "V8 C03 환경까지 가져왔습니다",
+  "cut": "C03_K04_insert_take03",
+  "phase": "three independent actual sample reviews and cross reviews complete",
+  "verdict": "HOLD",
+  "technical_audio": "Original contains video stream only; no audio track. Confirmed by inspection JSON.",
+  "independent": {
+    "A": {
+      "agent": "/root/c03_run02_review_a",
+      "verdict": "HOLD",
+      "actual_viewed": "Contact16,transition10,individualPNG10 including5.250/5.333/5.417",
+      "issues": [
+        {
+          "id": "A-053",
+          "severity": "required",
+          "status": "unresolved",
+          "finding": "3.5~5.25s bare right pulls left glove instead of entering empty glove."
+        },
+        {
+          "id": "A-054",
+          "severity": "required",
+          "status": "unresolved",
+          "finding": "5.250 bare right to5.333 gray surface; texture transformation rather than insertion."
+        },
+        {
+          "id": "A-055",
+          "severity": "conditional",
+          "status": "not_adopted",
+          "finding": "6.5/7.5 two-glove stills are possible separate inputs, not K04 success. Reverse would reverse defect, not solve it."
+        }
+      ]
+    },
+    "B": {
+      "agent": "/root/v8_review_b",
+      "verdict": "HOLD",
+      "actual_viewed": "Contact16 and individual1/2.5/3/3.5/5/5.5/6/6.5/7/7.5",
+      "issues": [
+        {
+          "id": "B-054",
+          "severity": "required",
+          "status": "unresolved",
+          "finding": "Right hand touches opening1~2.5s but pulls left glove3.5~5 instead of wearing."
+        },
+        {
+          "id": "B-055",
+          "severity": "required",
+          "status": "unresolved",
+          "finding": "Separate empty glove merges left3~3.5; right glove appears without insertion by5.5."
+        },
+        {
+          "id": "B-056",
+          "severity": "optional",
+          "status": "observation",
+          "finding": "Late two-glove still possible separate input, does not satisfy K04-success condition. Small brown glove stain optional."
+        }
+      ]
+    },
+    "C": {
+      "agent": "/root/v8_review_c",
+      "verdict": "HOLD",
+      "actual_viewed": "Contact16,individual1/2.5/3/3.5/5/6/7.5,transition5.167/5.250/5.333/5.417/5.500",
+      "issues": [
+        {
+          "id": "C-056",
+          "severity": "required",
+          "status": "unresolved",
+          "finding": "Bare right pulls left cuff3.5~5.25; no right insertion."
+        },
+        {
+          "id": "C-057",
+          "severity": "required",
+          "status": "unresolved",
+          "finding": "5.250 bare;5.333 gray wrist/back;5.417 partial skin thumb. Material morph."
+        },
+        {
+          "id": "C-058",
+          "severity": "conditional",
+          "status": "not_adopted",
+          "finding": "6~7.5 both gloves/clothes/background usable state only; wearing action would be omitted."
+        }
+      ]
+    }
+  },
+  "cross": {
+    "A": "Agrees B-054/055/056 C-056/057/058; onset refined to5.333, stain optional. No new required omissions; HOLD/K03not submitted/40 retained.",
+    "C": "Agrees A-053/054/055 B-054/055/056; reverse inference not playback test; exact empty-glove merge not continuous verified. Required C-056/057 unresolved.",
+    "B": "Agrees A-053/054/055 C-056/057/058. Actually viewed transition.jpg and5.250/5.333/5.417 PNG, refined onset. Required B-054/055 unresolved. Reverse inference not direct playback test. HOLD/K03not submitted/40 retained."
+  },
+  "pd_decision": {
+    "action_repair_success": false,
+    "adopt_original_as_wearing_insert": false,
+    "request_K03": false,
+    "additional_identical_retry": false,
+    "credits_retained": 40,
+    "reason": "Same core physical-action defect persisted despite changed close-up/single-action method. End state alone cannot fulfill required removal/rewear gag. Preserve old dialogue/reveal; separate edit decision needed.",
+    "remaining_original_action_gaps": [
+      "K03 right-glove removal",
+      "K04 right-glove rewear"
+    ],
+    "overall_C03_originals": 15,
+    "overall_C03_final_edit_complete": false
+  },
+  "limits": [
+    "Independent and cross reviews of extracted actual frames; no continuous-playback review.",
+    "No audience reaction/laughter assessment.",
+    "Silent original, no pronunciation or lip-sync claim.",
+    "Old V8 storyboards/43 first frames, prior originals and legacy C01 retained."
+  ]
+}

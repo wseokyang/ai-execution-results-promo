@@ -1,0 +1,41 @@
+{
+  "concept_id": "C03",
+  "scene_id": "K04_insert01",
+  "connected_cuts": [
+    "C03_K04"
+  ],
+  "total_requested_scene_images": 1,
+  "generated_scene_images": 1,
+  "image_path": "storyboards/2026-10-20_C03-flow-run04/images/C03/K04_insert01.png",
+  "final_prompt": "Use case: identity-preserve.\nAsset type: a single photoreal cinematic 16:9 starting frame for the C03 K04 glove-putting-on insert, not the completed motion.\nInput image 1 is the EDIT TARGET. Recompose the same worker and same exact moment into a waist-level close-up. Change only camera framing/position and center the hands; preserve his clothing, body, glove state, colors, sunlight and setting.\nComposition: crop from mid-chest to mid-thigh, no face, head, helmet or sky visible. The lower orange reflective vest, navy long sleeves, black cargo trousers, both forearms and both hands must be fully in frame. He is facing mostly toward the camera. Keep enough open space around his hands at the center for a later simple gloving action. Preserve the sunny industrial concrete apron in front of glass office A as a softly out-of-focus background; exclude suspended room B entirely.\nCRUCIAL START STATE: His anatomical RIGHT hand on the viewer's LEFT is fully BARE, with natural visible skin and fingers. His anatomical LEFT hand on the viewer's RIGHT wears ONE light gray knitted work glove. That already-gloved left hand holds by its cuff ONE SEPARATE EMPTY gray knitted right-hand work glove, hanging loosely downward. Exactly TWO gloves in total: one worn on the left, one empty dangling from the left-hand grip. The separate glove's empty cuff and hanging fingers should be visually distinct from the worn glove. The bare right hand remains separate and relaxed near the empty glove, not inserted into it yet. Do not depict the glove-putting-on action already completed.\nMaintain the existing orange safety vest with silver reflective bands, navy sleeves, black pants and hard daylight direction. Natural anatomy with exactly two human hands, no extra fingers or arms; do not fuse the hanging glove with the worn glove. No text, watermark, logos, extra props or additional people. Landscape 16:9 image, cinematic photoreal continuity with the supplied frame.",
+  "prompt_path": "storyboards/2026-10-20_C03-flow-run04/images/C03/K04_insert01_prompt.txt",
+  "actual_reference_image_paths": [
+    "storyboards/2026-10-19_tone-polish-v8/images/C03/K04.png"
+  ],
+  "generation_tool": "built-in image_gen.imagegen; edit with referenced_image_paths",
+  "generated_source_path": "C:/Users/wseok/.codex/generated_images/01a15716-3c98-77e0-93f1-bfd4b0052f47/exec-bd48b512-454b-43c9-b022-995ad13763e1.png",
+  "transparent_background": false,
+  "iterations": 1,
+  "movement_camera_note": "Static waist close-up. Anatomical right hand (screen left) starts bare; left hand (screen right) wears one gray knit glove and holds a separate empty right-hand glove by the cuff. Future video action: insert bare right hand into the empty glove and pull cuff with gloved left hand. The still does not assert animation success.",
+  "review_status": "image artist + PD + three independent/cross reviewers actual image PASS; resulting video action separately HOLD",
+  "actual_visual_observation": [
+    "Face/helmet/sky/suspended B excluded",
+    "Orange reflective vest, navy long sleeves and black trousers maintained",
+    "Exactly two visible hands: bare screen-left right hand; gray-gloved screen-right left hand",
+    "Separate empty glove hangs from cuff grip, cuff opening and dangling fingers visible",
+    "No text/logos/extra characters; sunny industrial concrete and glass A background retained"
+  ],
+  "differences_and_limits": [
+    "Closer frontal crop versus wider slightly angled original; hand pose centered for insert",
+    "Physical source is exterior concrete apron in front of office A, so preserved outdoor pavement instead of inventing interior floor",
+    "This start frame cannot validate later glove animation or continuity through a complete rendered edit"
+  ],
+  "original_assets_modified": false,
+  "created_date_local": "2026-10-20",
+  "sha256": "1a7ec6ed6bb56f0c93ef368c50eb880e6fc1180b207b7f53c0dfe1b7566a3e30",
+  "width": 1672,
+  "height": 941,
+  "aspect_ratio_requested": "16:9",
+  "actual_ratio_note": "Native imagegen output 1672×941 (~16:9); no crop/resizing/re-encoding applied.",
+  "review_record": "../../image_review.json"
+}

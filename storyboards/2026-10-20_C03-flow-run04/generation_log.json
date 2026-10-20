@@ -1,0 +1,86 @@
+{
+  "run_id": "2026-10-20_C03-flow-run04",
+  "concept": "V8 C03 환경까지 가져왔습니다",
+  "authorization": "2026-10-20 user explicitly requested use newly logged-in Chrome account to finish missing K03/K04 actions, after being informed these two actions were missing.",
+  "account_label": "current user-signed-in account display sejung,/u/3; no email stored",
+  "project_url": "https://flow.google.com/u/3/project/ae9e0683-9828-484b-a182-68bb08987cdb",
+  "project_title": "C03 환경까지 가져왔습니다 · 장갑 동작 보완",
+  "starting_credits": 50,
+  "last_observed_credits": 40,
+  "requests_submitted": 1,
+  "credits_spent_confirmed": 10,
+  "status": "completed_original_saved_quality_hold",
+  "rights_confirmation": "User replied 했어; DOM verified rights dialog gone and upload available. Agent did not accept agreement.",
+  "settings_observed": {
+    "model": "Veo 3.1 - Lite",
+    "quoted_cost": 10,
+    "ratio": "16:9",
+    "seconds": 8,
+    "resolution": "720p",
+    "outputs": 1,
+    "mode": "Frames first only",
+    "silent_fallback": true
+  },
+  "budget_plan": "K04 hand-only insert first10; if actual right-glove wearing succeeds, K03 removal using successful end frame10. Remaining credits not allocated to repeated failures. Budget capped at available50.",
+  "method_change": "New tightly framed hand/waist input derived via built-in imagegen from approved K04. One silent hand action instead of wide camera/reveal/dialogue/glove combination. Preserve existing dialogue/reveal videos and approved originals.",
+  "latest_user_override": "Latest explicit repair request authorizes a further changed-method K04 attempt after earlier same-day hold. It does not authorize unmodified repeated attempts.",
+  "queue": [
+    {
+      "cut_id": "C03_K04",
+      "take": 3,
+      "role": "hand_only_rewear_insert",
+      "status": "completed_original_saved_action_quality_hold",
+      "prompt_file": "prompts/C03_K04_insert_take03_submitted.txt",
+      "original_mp4": "C03_K04_insert_take03.mp4",
+      "input_image": "images/C03/K04_insert01.png",
+      "input_sha256": "1a7ec6ed6bb56f0c93ef368c50eb880e6fc1180b207b7f53c0dfe1b7566a3e30",
+      "submitted_at_utc": "2026-10-20T02:21:14.336Z",
+      "credits_before": 50,
+      "credits_after": 40,
+      "actual_deduction": 10,
+      "refund": 0,
+      "model": "Veo 3.1 - Lite",
+      "quoted_cost": 10,
+      "asset_id": "947dcdec-6810-4e16-b38f-2610d3aa5c9a",
+      "id_kind": "Flow visible asset ID from edit URL, not server job ID",
+      "original_sha256": "ab10d4152effe13530b93ec88debb65113c97c7e0325546ac801d0da6d13221e",
+      "duration_seconds": 8.0,
+      "resolution": "1280x720",
+      "audio_track_present": false,
+      "download_event_note": "Browser event timed out but final MP4 appeared in Downloads. File verified and copied; no duplicate download.",
+      "completion_evidence": "Flow showed completed no-audio card; final Downloads file timestamp 2026-10-20 11:22:58 KST; exact server completion not exposed.",
+      "review_status": "three_independent_and_cross_actual_sample_reviews_HOLD",
+      "review_file": "review_summary.json"
+    },
+    {
+      "cut_id": "C03_K03",
+      "take": 2,
+      "role": "hand_only_removal_insert",
+      "status": "not_submitted_K04_action_not_achieved",
+      "prompt_file": "prompts/C03_K03_insert_take02_planned.txt",
+      "input_image": "pending actual success end frame; do not invent",
+      "original_mp4": null
+    }
+  ],
+  "preflight_review": "/root/c03_run02_review_a: approved K04 has bare actor-right/screen-left and gloved actor-left/screen-right holding separate empty glove; prefer rewear first then removal.",
+  "preserve": [
+    "Approved V8 storyboards and PNGs",
+    "All previous C03 originals",
+    "Legacy completed C01"
+  ],
+  "limits": [
+    "No purchases/upgrades/public posting/automation resumption",
+    "No account switching by agent",
+    "No identical retries if new insert fails",
+    "ASR not actual listening"
+  ],
+  "silent_fallback_note": "Temporarily enabled for silent hand inserts; restore OFF before finish.",
+  "successful_deliveries": 1,
+  "adopted_action_repairs": 0,
+  "settings_at_end": {
+    "silent_fallback": false,
+    "composer_empty": true,
+    "last_observed_credits": 40
+  },
+  "refund_note": "No failure/refund shown. Valid video returned, creative motion defect; confirmed net cost10."
+}
