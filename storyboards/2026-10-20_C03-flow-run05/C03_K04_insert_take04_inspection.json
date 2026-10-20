@@ -1,0 +1,20 @@
+{
+  "file": "C03_K04_insert_take04.mp4",
+  "bytes": 2331314,
+  "sha256": "ae034e11e08e2156682b123350004b9f8607ae7093734158631e6e2dcef03aeb",
+  "duration_seconds": 8.0,
+  "streams": [
+    {
+      "type": "video",
+      "codec": "h264",
+      "width": 1280,
+      "height": 720,
+      "frame_rate": "24/1"
+    }
+  ],
+  "decoded_video_frames": 192,
+  "full_video_decode_pass": true,
+  "audio_track_present": false,
+  "original_reencoded": false,
+  "limitation": "Technical decoding and extracted frames; not actual listening or continuous visual playback."
+}

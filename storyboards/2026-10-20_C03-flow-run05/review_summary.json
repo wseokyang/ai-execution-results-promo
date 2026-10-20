@@ -1,0 +1,71 @@
+{
+  "run_id": "2026-10-20_C03-flow-run05",
+  "scope": "Two new original videos and one 7.5-second editorial alternative; no final-film approval.",
+  "method": "Three distinct reviewers independently opened actual extracted images, then cross-reviewed the other two findings. PD inspected contact sheets and selected conservative state-only intervals.",
+  "limitations": ["No reviewer claimed continuous playback, actual audio listening, pronunciation, or lip-sync verification.", "Frame sampling does not establish real-time 0.75-second readability or comic timing."],
+  "independent_reviews": {
+    "A": {
+      "agent": "/root/c03_run02_review_a",
+      "removal_evidence": "32-frame contact, 14 individual PNGs, both inputs and inspection JSON",
+      "wearing_evidence": "32-frame contact, 15 individual PNGs, inspection JSON and inputs",
+      "edit_evidence": "30-frame rendered contact, four boundary PNGs and edit manifest",
+      "findings": [
+        {"id":"A-056","cut":"K03 insert take02","severity":"required","finding":"Right hand pulls the left glove at 2-2.5s; left skin appears at 2.75-3.75s, violating left-glove continuity."},
+        {"id":"A-057","cut":"K03 insert take02","severity":"required","finding":"Finger fabric becomes skin at 2.75-3.25s; glove states swap at 3.75-4.25s. Not physical removal; do not reverse."},
+        {"id":"A-058","cut":"K03 insert take02","severity":"optional","finding":"6-7.75s has the desired post-state. Prefer 6-7s; earlier left-wrist boundary less stable."},
+        {"id":"A-059","cut":"K04 insert take04","severity":"required","finding":"Separate empty glove merges into the left worn glove around 1-1.5s."},
+        {"id":"A-060","cut":"K04 insert take04","severity":"required","finding":"Right hand manipulates the left glove while bare; 4.5s bare becomes gloved at 4.75s without insertion. Left glove fingers distort at 4-4.5s."},
+        {"id":"A-061","cut":"K04 insert take04","severity":"optional","finding":"6-6.75s can supply a both-gloved state only."},
+        {"id":"A-062","cut":"7.5s review edit","severity":"review_candidate","finding":"Morphs excluded; bare-plus-empty state, B reveal, both-gloved state read in samples. Not action success or final-film approval."}
+      ]
+    },
+    "B": {
+      "agent": "/root/v8_review_b",
+      "removal_evidence": "32-frame contact and eight individual PNGs at 1,2.75,3,3.75,4,4.25,4.5,7.75s",
+      "wearing_evidence": "32-frame contact and nine individual PNGs at 1,1.5,3.5,4.25,4.5,4.75,5.5,6.5,7.75s",
+      "edit_evidence": "30-frame rendered contact and edit manifest",
+      "findings": [
+        {"id":"B-057","cut":"K03 insert take02","severity":"required","finding":"Wrong-hand removal and left skin exposure."},
+        {"id":"B-058","cut":"K03 insert take02","severity":"required","finding":"Finger fabric disappears and states swap around 3.75-4.25s, not a sliding glove."},
+        {"id":"B-059","cut":"K03 insert take02","severity":"optional","finding":"4.5-7.75s post-state candidate only; not action or reverse-source approval."},
+        {"id":"B-060","cut":"K04 insert take04","severity":"required","finding":"Empty glove merges into the left glove around 1-1.5s."},
+        {"id":"B-061","cut":"K04 insert take04","severity":"required","finding":"4.5s bare right hand becomes gray at 4.75s without insertion."},
+        {"id":"B-062","cut":"K04 insert take04","severity":"optional","finding":"5.5-7.75s state-only candidate; prefer 6-6.75s."},
+        {"id":"B-063","cut":"7.5s review edit","severity":"review_candidate","finding":"State connection readable, B distinguishable in last wide, no new required visual defect in samples. Real-time timing and listening unverified."}
+      ]
+    },
+    "C": {
+      "agent": "/root/v8_review_c",
+      "removal_evidence": "32-frame contact, prompt and nine individual PNGs at 1,2.5,2.75,3,3.5,3.75,4,4.25,4.5s",
+      "wearing_evidence": "32-frame contact, prompt and ten individual PNGs at 0.75,1,1.25,2,4,4.25,4.5,4.75,6,7.5s",
+      "edit_evidence": "30-frame rendered contact at 0.25s spacing and boundary PNGs",
+      "findings": [
+        {"id":"C-059","cut":"K03 insert take02","severity":"required","finding":"Wrong glove is pulled and left fingers become bare."},
+        {"id":"C-060","cut":"K03 insert take02","severity":"required","finding":"Glove material morphs at 2.5-3s then states swap around 3.75-4s; reverse unsuitable."},
+        {"id":"C-061","cut":"K03 insert take02","severity":"optional","finding":"4.5-7.75s post-state candidate, not normal removal."},
+        {"id":"C-062","cut":"K04 insert take04","severity":"required","finding":"Empty glove merges at 1-1.5s and is no longer distinct at 2s."},
+        {"id":"C-063","cut":"K04 insert take04","severity":"required","finding":"Left glove pulled at 4-4.5s; right hand morphs from bare to gloved at 4.5-4.75s."},
+        {"id":"C-064","cut":"K04 insert take04","severity":"optional","finding":"5.5-7.75s post-state candidate; conservative 6-6.5s short insert."},
+        {"id":"C-065","cut":"7.5s review edit","severity":"review_candidate","finding":"Morphs excluded, states connected in samples, no new required visual defect. Review-only alternative; listening and timing unverified."}
+      ]
+    }
+  },
+  "cross_reviews": [
+    {"reviewer":"A","peer_ids":["B-057","B-058","B-059","C-059","C-060","C-061"],"result":"Agrees on removal HOLD and no reverse; selects narrower 6-7s stable-state interval."},
+    {"reviewer":"B","peer_ids":["A-056","A-057","A-058","C-059","C-060","C-061"],"result":"Agrees on wrong-hand/morph HOLD. Wider state interval was a candidate, so A's conservative subset is compatible."},
+    {"reviewer":"C","peer_ids":["A-056","A-057","A-058","B-057","B-058","B-059"],"result":"Agrees on action HOLD/no reverse; stable post-state only, final interval must be checked in render."},
+    {"reviewer":"A","peer_ids":["B-060","B-061","B-062","C-062","C-063","C-064"],"result":"Agrees on wearing HOLD, separate-glove merge and material appearance; 6-6.75s state-only use."},
+    {"reviewer":"B","peer_ids":["A-059","A-060","A-061","C-062","C-063","C-064"],"result":"Agrees; confirms left-glove deformation at 4.25-4.5s. Interval differences are editorial choices, not action approval."},
+    {"reviewer":"C","peer_ids":["A-059","A-060","A-061","B-060","B-061","B-062"],"result":"Agrees on wearing HOLD and conservative post-state-only alternative."},
+    {"reviewer":"A","peer_ids":["B-063","C-065"],"result":"Agrees after rendered-sample review. Deliver only as 7.5s editorial alternative; 0.75s readability, timing, actual listening and lip-sync remain unverified."},
+    {"reviewer":"B","peer_ids":["A-062","C-065"],"result":"Agrees. Morph exclusion and state connection confirmed in samples; not physical-action success or final adoption."},
+    {"reviewer":"C","peer_ids":["A-062","B-063"],"result":"Agrees. No new required sampled visual defect; real-time pacing/listening/lip-sync still unverified."}
+  ],
+  "pd_disposition": {
+    "required_original_action_findings": "UNRESOLVED. Both new originals retained on HOLD for physical removal/wearing. No further same-action generation; 10 credits retained.",
+    "optional_state_findings": "Used 6-6.75s from each new original, separated by existing dialogue/room reveal. These are moving-video portions, not animated stills.",
+    "render_findings": "Three reviewers agree on sampled visual suitability as a review-only edit. Original action requirement not marked solved; final user adoption pending.",
+    "remaining": "Real-time rhythm, audio listening, lip-sync, K05/K06 connections, full-film graphics and final edit.",
+    "credits": "40 to 30 to 10; Lite10 + Fast20, no refund. Final Lite selected and silent fallback OFF."
+  }
+}

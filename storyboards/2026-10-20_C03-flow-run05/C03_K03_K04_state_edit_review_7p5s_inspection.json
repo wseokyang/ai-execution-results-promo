@@ -1,0 +1,25 @@
+{
+  "file": "C03_K03_K04_state_edit_review_7p5s.mp4",
+  "bytes": 2879044,
+  "sha256": "f3e1fda78736090dc7e2935b5ba43110733c16b09286f56415795b529fb5386f",
+  "duration_seconds": 7.5,
+  "streams": [
+    {
+      "type": "video",
+      "codec": "h264",
+      "width": 1280,
+      "height": 720,
+      "frame_rate": "24/1"
+    },
+    {
+      "type": "audio",
+      "codec": "aac"
+    }
+  ],
+  "decoded_video_frames": 180,
+  "full_video_decode_pass": true,
+  "audio_track_present": true,
+  "file_kind": "edited_review_derivative",
+  "inspection_reencodes_file": false,
+  "limitation": "Technical decoding and extracted frames; not actual listening or continuous visual playback."
+}

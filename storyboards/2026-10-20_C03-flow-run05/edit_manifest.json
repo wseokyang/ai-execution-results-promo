@@ -1,0 +1,77 @@
+{
+  "status": "review-only editorial alternative, not final adoption",
+  "output": "C03_K03_K04_state_edit_review_7p5s.mp4",
+  "nominal_duration_seconds": 7.5,
+  "video_timeline": [
+    {
+      "at": 0,
+      "source": "\\\\wsl.localhost\\Ubuntu-24.04\\home\\wooseok\\wsy\\samsung_related\\slide\\AI실행결과발표대회_디자인3종\\storyboards\\2026-10-19_C03-flow-run01\\C03_K03_take01.mp4",
+      "in": 0,
+      "out": 2.5
+    },
+    {
+      "at": 2.5,
+      "source": "\\\\wsl.localhost\\Ubuntu-24.04\\home\\wooseok\\wsy\\samsung_related\\slide\\AI실행결과발표대회_디자인3종\\storyboards\\2026-10-20_C03-flow-run05\\C03_K03_insert_take02.mp4",
+      "in": 6,
+      "out": 6.75
+    },
+    {
+      "at": 3.25,
+      "source": "\\\\wsl.localhost\\Ubuntu-24.04\\home\\wooseok\\wsy\\samsung_related\\slide\\AI실행결과발표대회_디자인3종\\storyboards\\2026-10-20_C03-flow-run03\\C03_K04_take02.mp4",
+      "in": 0,
+      "out": 3.5
+    },
+    {
+      "at": 6.75,
+      "source": "\\\\wsl.localhost\\Ubuntu-24.04\\home\\wooseok\\wsy\\samsung_related\\slide\\AI실행결과발표대회_디자인3종\\storyboards\\2026-10-20_C03-flow-run05\\C03_K04_insert_take04.mp4",
+      "in": 6,
+      "out": 6.75
+    }
+  ],
+  "audio": "Existing K03 0-3.25s then existing K04 0-4.25s. K04 gain0.7 to allow decoder peak headroom. No new insert audio, BGM or voice synthesis.",
+  "action_change": "Omit removal/wearing mechanics; show completed states across hard cuts. Does not claim either generated action succeeded.",
+  "original_sha256": {
+    "\\\\wsl.localhost\\Ubuntu-24.04\\home\\wooseok\\wsy\\samsung_related\\slide\\AI실행결과발표대회_디자인3종\\storyboards\\2026-10-19_C03-flow-run01\\C03_K03_take01.mp4": "8e2f2621ef49587d1734f0332647d6fc86f0fb9416ef443326f2f35d309a8b93",
+    "\\\\wsl.localhost\\Ubuntu-24.04\\home\\wooseok\\wsy\\samsung_related\\slide\\AI실행결과발표대회_디자인3종\\storyboards\\2026-10-20_C03-flow-run05\\C03_K03_insert_take02.mp4": "1c19dda3cdd6a1a1c5f0a9e27eebb7b7a92d380998e0fa9c4cbd0fa7c3e404ee",
+    "\\\\wsl.localhost\\Ubuntu-24.04\\home\\wooseok\\wsy\\samsung_related\\slide\\AI실행결과발표대회_디자인3종\\storyboards\\2026-10-20_C03-flow-run03\\C03_K04_take02.mp4": "9b5bfe6df63a530b7545eb269ace505b8719f89f89a8e502ab5607fbd8dae8cf",
+    "\\\\wsl.localhost\\Ubuntu-24.04\\home\\wooseok\\wsy\\samsung_related\\slide\\AI실행결과발표대회_디자인3종\\storyboards\\2026-10-20_C03-flow-run05\\C03_K04_insert_take04.mp4": "ae034e11e08e2156682b123350004b9f8607ae7093734158631e6e2dcef03aeb"
+  },
+  "originals_unchanged": true,
+  "render_full_decode_pass": true,
+  "limitations": [
+    "Actual audio listening and continuous playback review not done by this script.",
+    "C03 full film and graphic overlays remain unfinished.",
+    "Prior K03 ASR includes 정확히 같이 나오네요; preserved original phrase, not newly synthesized."
+  ],
+  "review_status": "Three-reviewer independent and cross sampled visual review passed for a review-only alternative; final adoption pending.",
+  "review_record": "review_summary.json",
+  "technical_metadata": {
+    "file": "C03_K03_K04_state_edit_review_7p5s.mp4",
+    "bytes": 2879044,
+    "sha256": "f3e1fda78736090dc7e2935b5ba43110733c16b09286f56415795b529fb5386f",
+    "duration_seconds": 7.5,
+    "streams": [
+      {
+        "type": "video",
+        "codec": "h264",
+        "width": 1280,
+        "height": 720,
+        "frame_rate": "24/1"
+      },
+      {
+        "type": "audio",
+        "codec": "aac"
+      }
+    ],
+    "decoded_video_frames": 180,
+    "full_video_decode_pass": true,
+    "audio_track_present": true,
+    "file_kind": "edited_review_derivative",
+    "inspection_reencodes_file": false,
+    "limitation": "Technical decoding and extracted frames; not actual listening or continuous visual playback."
+  },
+  "physical_actions_solved": false,
+  "actual_audio_listening": false,
+  "continuous_playback_review": false,
+  "user_accepted": false
+}
