@@ -1,0 +1,38 @@
+{
+  "run_id": "2026-10-20_C03-flow-run08",
+  "status": "visual sample candidates; integrated edit reviewed separately",
+  "method": "Three distinct reviewers independently opened actual32-frame contacts and individual PNGs, then cross-checked other findings.",
+  "independent": [
+    {
+      "reviewer": "A",
+      "K01": "A-R08-V01..04: surface cast shadow PASS; use0–6/6.25; partial overhead underside is optional observation; props stable.",
+      "K06": "A-R08-V05..07: first0–2 stable two pages/two hands; separate tracked graphics and matching wide content required."
+    },
+    {
+      "reviewer": "B",
+      "K01": "B-R08-V01..04: surface shadow PASS; use0–5.75/6; partial underside noted; full room not revealed.",
+      "K06": "B-R08-V05..07: first0–2 stable; two diagrams must remain readable at least1.5s."
+    },
+    {
+      "reviewer": "C",
+      "K01": "C-R08-01..03: shadow PASS. Corrected initial no-object claim: small edge at2s, gray underside4s, upper band6s. Complete out-of-frame prompt not met.",
+      "K06": "C-R08-04..05: first0–2 stable, two pages independently tracked; blank original alone not discovery."
+    }
+  ],
+  "cross_review": {
+    "A": "Agrees B/C physical shadow and first2s K06; partial underside accepted only with explicit PD change.",
+    "B": "Agrees A/C usage windows and page tracking; record partial reveal honestly.",
+    "C": "Agrees A/B; retracts complete non-exposure claim; accepts partial underside as anticipatory cue."
+  },
+  "pd_resolution": {
+    "K01": "Adopt0–6s. Partial underside is accepted as an approaching-object cue; room-wide reveal still occurs at K02. Not full prompt compliance.",
+    "K05": "No output on either new Fast request. HOLD retry after two audio failures/refunds. Existing run03 clean picture and run01 question VO retained.",
+    "K06": "Adopt0–2s at edit27.25–29.25. Add same diagrams to closeup and visible surrounding wide pages. Actual final render reviews in edit-v02."
+  },
+  "limitations": [
+    "Sampled frames, not continuous playback",
+    "No actual listening or pronunciation/lip-sync certification",
+    "Original AAC presence is not proof of correct speech"
+  ],
+  "edit": "../2026-10-20_C03-edit-v02/C03_review_edit_v02_46s.mp4"
+}

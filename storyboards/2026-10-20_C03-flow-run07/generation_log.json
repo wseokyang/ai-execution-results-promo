@@ -1,0 +1,97 @@
+{
+  "run_id": "2026-10-20_C03-flow-run07",
+  "user_authorization": "한컷 그러면 하나 더 아무거나 만들어봐라 — explicit one additional generation after edit review found no mandatory missing shot",
+  "project_url": "https://flow.google.com/u/2/project/1b4f0913-4664-41fa-9f38-9364a71db73c",
+  "account_label": "user-opened current /u/2 wooseok; same project as run03; no account switch by agent",
+  "starting_credits": 10,
+  "ui_renewal_text": "크레딧은 매일 오전 10:43에 갱신됩니다.",
+  "request_limit": 1,
+  "status": "completed_original_preserved_visual_hold",
+  "planned_cut": "C03_K05_take04",
+  "purpose": "Optional question-only synchronous speech spare for the current edit's detached question audio. Does not repeat file pickup/answer/turning choreography.",
+  "model": "Veo 3.1 Lite",
+  "quoted_cost": 10,
+  "settings_observed": {
+    "mode": "Frames first only",
+    "ratio": "16:9",
+    "resolution": "720p",
+    "seconds": 8,
+    "outputs": 1,
+    "silent_fallback": false
+  },
+  "input_start": "../2026-10-19_tone-polish-v8/images/C03/K05.png",
+  "input_cache_path": "C:/Users/wseok/.cache/codex-flow/C03-v8-2026-10-19/C03_K05.png",
+  "input_sha256": "831554ed0e9afe80ed637157ca15c2cda54e1d7b2a6df7eae9fac5f0a611e5e3",
+  "upload": "Reused existing C03_K05.png asset in current project; no new upload",
+  "prompt_file": "prompts/C03_K05_take04_planned.txt",
+  "requests": [
+    {
+      "cut_id": "C03_K05",
+      "take": 4,
+      "submitted_at_utc": "2026-10-20T06:26:17.102Z",
+      "model": "Veo 3.1 Lite",
+      "quoted_cost": 10,
+      "credits_before": 10,
+      "credits_after": 0,
+      "deduction_observed": 10,
+      "refund_observed": 0,
+      "status": "completed_visual_hold",
+      "prompt_file": "prompts/C03_K05_take04_submitted.txt",
+      "submitted_prompt_exact": "8-second photoreal live-action shot, continuing exactly from the starting image. Same Korean woman with black ponytail, beige blouse and teal vest, same orange-framed workspace and desk. Locked camera.\nShe already holds ONE black cordless phone to her LEFT ear. Her RIGHT hand stays lightly on the CLOSED orange folder lying flat on the desk. Keep these two objects in those positions throughout; no file pickup, no transfer, no second phone, no cable.\nShe glances slightly toward the orange folder, then asks into the phone in natural Korean, mildly puzzled but calm: \"이건 왜 보냈어요?\"\nThis is the only spoken sentence. Start the sentence after a short half-second pause and finish it naturally within the first three seconds, with visible natural mouth movement. Clear adult Korean female voice, normal conversational speed, no crying, no robotic reading. Then close her mouth and listen silently to the phone for the remaining time, with a small puzzled reaction.\nDo not generate the other caller's answer. No narrator, extra dialogue, music, subtitles, captions or new objects. Preserve hands, clothing, architecture and daylight. Quiet office room tone only.",
+      "input_sha256": "831554ed0e9afe80ed637157ca15c2cda54e1d7b2a6df7eae9fac5f0a611e5e3",
+      "input_start": "../2026-10-19_tone-polish-v8/images/C03/K05.png",
+      "settings": {
+        "mode": "Frames first only",
+        "ratio": "16:9",
+        "resolution": "720p",
+        "seconds": 8,
+        "outputs": 1,
+        "silent_fallback": false
+      },
+      "asset_id": "0feaa025-4f16-459c-8789-90638fb897ff",
+      "original_mp4": "C03_K05_take04.mp4",
+      "download_source": "C:/Users/wseok/Downloads/Woman_speaking_on_phone_20261020152831.mp4",
+      "technical_metadata": {
+        "file": "C03_K05_take04.mp4",
+        "bytes": 2380416,
+        "sha256": "0f067d4e04d6fc74685b5067ec0ba767e206c9f42203ce7f6f612275e573fad9",
+        "duration_seconds": 8.0,
+        "streams": [
+          {
+            "type": "video",
+            "codec": "h264",
+            "width": 1280,
+            "height": 720,
+            "frame_rate": "24/1"
+          },
+          {
+            "type": "audio",
+            "codec": "aac"
+          }
+        ],
+        "decoded_video_frames": 192,
+        "full_video_decode_pass": true,
+        "audio_track_present": true,
+        "file_kind": "downloaded_original",
+        "inspection_reencodes_file": false,
+        "limitation": "Technical decoding and extracted frames; not actual listening or continuous visual playback."
+      },
+      "original_reencoded": false,
+      "download_sha256_matches": true,
+      "review_record": "review_summary.json"
+    }
+  ],
+  "preserve": "Prior18originals,45.25seditv01,V8images,legacyC01 unchanged; no purchase, account switch, public post or automation resume.",
+  "last_observed_credits": 0,
+  "ending_credits": 0,
+  "net_credits_used": 10,
+  "refunds_observed": 0,
+  "new_originals": 1,
+  "c03_total_originals": 19,
+  "pending_generation_requests": 0,
+  "quality_decision": {
+    "status": "HOLD_direct_picture_adoption",
+    "reason": "At 1.0s a coiled telephone cable appears and persists. The question ASR interval 0.75–2.05s crosses the defect. Keep edit v01 unchanged.",
+    "audio": "ASR has target question 0.75–2.05s and uncertain extra recognition 6.22–6.90s. No actual listening or lip-sync verification."
+  }
+}

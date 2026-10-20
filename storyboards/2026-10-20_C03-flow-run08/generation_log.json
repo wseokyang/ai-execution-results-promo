@@ -1,0 +1,221 @@
+{
+  "run_id": "2026-10-20_C03-flow-run08",
+  "user_authorization": "50크레딧 계정을 준비했으니 첫 그림자를 재작업하고 50크레딧 모두 써서 부족한 부분 완성",
+  "project_url": "https://flow.google.com/project/c105a8ef-b295-4fc4-907c-1eb8e025245d",
+  "account_label": "user-selected current primary PLUS account; no agent account switching",
+  "starting_credits": 50,
+  "last_observed_credits": 20,
+  "renewal_note": "Home banner mentioned 50 additional credits daily; exact renewal time not shown. No midnight assumption.",
+  "banner_note": "Project low-credit banner coexisted with account panel showing 50. Actual account-panel balance verified twice and generation button enabled.",
+  "status": "two_originals_preserved_visual_reviewed_two_audio_failures_refunded",
+  "plan": [
+    {
+      "cut_id": "C03_K01",
+      "take": 2,
+      "model": "Veo 3.1 Fast",
+      "quoted_cost": 20,
+      "purpose": "User-requested shadow correction; new no-sky first frame"
+    },
+    {
+      "cut_id": "C03_K05",
+      "take": 5,
+      "model": "Veo 3.1 Fast",
+      "quoted_cost": 20,
+      "purpose": "Repeated coil cable defect; new explicit flat smartphone and question only"
+    },
+    {
+      "cut_id": "C03_K06_insert",
+      "take": 1,
+      "model": "Veo 3.1 Lite",
+      "quoted_cost": 10,
+      "purpose": "Optional clarity improvement; two inner pages for later tracked diagram"
+    }
+  ],
+  "requests": [
+    {
+      "cut_id": "C03_K01",
+      "take": 2,
+      "submitted_at_utc": "2026-10-20T06:44:39.251Z",
+      "model": "Veo 3.1 Fast",
+      "quoted_cost": 20,
+      "credits_before": 50,
+      "credits_after": 30,
+      "actual_deduction": 20,
+      "refund": 0,
+      "status": "completed_visual_sample_candidate",
+      "prompt_file": "prompts/C03_K01_take02_submitted.txt",
+      "submitted_prompt_exact": "8-second photoreal live-action shot, same woman, clothes, phone, outdoor yard, table, gray folder, drawings and glass as the starting frame. Camera remains locked at this high three-quarter angle; no sky enters the composition.\nShe holds the same thin black smartphone at her left ear and calmly says once in natural Korean: \"결과 말고, 어떻게 했는지도요.\" Start after a short 0.3-second pause and finish naturally by about 3 seconds. Clear conversational Korean female voice, not theatrical.\nAs she finishes speaking, a large rectangular office module passing overhead OUTSIDE the frame casts a realistic soft-edged shadow. Its shadow enters the distant concrete ground, travels toward the table, then crosses the table surface, papers and her clothing. This is an actual cast shadow attached to physical surfaces: the edge bends and changes perspective at each surface, and visible texture remains inside the shadow. Keep daylight outside the shadow unchanged. Do not use a black screen overlay, wipe, fade, lighting transition or flat opaque shape. Do not show the module itself in this shot.\nShe stops speaking, notices the shade, and lifts her eyes and chin toward the overhead source by about 5 seconds, then holds that curious upward look. Her phone and right hand remain stable; no extra objects or gestures.\nExactly one woman, two hands and one smartphone, no telephone cable. No other dialogue, narrator, music, subtitles or captions. Quiet outdoor ambience and a faint distant machinery sound only.",
+      "input_start": "images/C03/K01_shadow_v2.png",
+      "input_start_sha256": "41ae894c122b41561c4f4a2b1befce8e564e708766a4c44319fe3c193a6e334c",
+      "settings": {
+        "mode": "Frames first only",
+        "ratio": "16:9",
+        "resolution": "720p",
+        "seconds": 8,
+        "outputs": 1,
+        "silent_fallback": false
+      },
+      "asset_id": "171024a1-3b32-4fd9-a3ce-0aaa9b485644",
+      "original_mp4": "C03_K01_take02.mp4",
+      "download_source": "C:/Users/wseok/Downloads/Woman_talking_on_phone_outdoors_20261020154716.mp4",
+      "technical_metadata": {
+        "file": "C03_K01_take02.mp4",
+        "bytes": 2064730,
+        "sha256": "4b34416b828e344d1694b76b7f07c30e2c434b9267000c28df88601912dbb545",
+        "duration_seconds": 8,
+        "streams": [
+          {
+            "type": "video",
+            "codec": "h264",
+            "width": 1280,
+            "height": 720,
+            "frame_rate": "24/1"
+          },
+          {
+            "type": "audio",
+            "codec": "aac"
+          }
+        ],
+        "decoded_video_frames": 192,
+        "full_video_decode_pass": true,
+        "audio_track_present": true,
+        "file_kind": "downloaded_original",
+        "inspection_reencodes_file": false,
+        "limitation": "Technical decoding and extracted frames; not actual listening or continuous visual playback."
+      },
+      "original_reencoded": false,
+      "download_sha256_matches": true,
+      "review_record": "review_summary.json"
+    },
+    {
+      "cut_id": "C03_K05",
+      "take": 5,
+      "submitted_at_utc": "2026-10-20T06:46:38.796Z",
+      "model": "Veo 3.1 Fast",
+      "quoted_cost": 20,
+      "credits_before": 30,
+      "credits_after": 10,
+      "actual_deduction": 20,
+      "refund": 20,
+      "status": "failed_audio_generation_refunded",
+      "prompt_file": "prompts/C03_K05_take05_submitted.txt",
+      "submitted_prompt_exact": "8-second photoreal live-action shot from the exact starting image. Same Korean woman, black ponytail, beige blouse, teal vest, orange-framed workspace, desk and closed orange folder. Camera locked.\nThe object at her LEFT ear is one thin flat rectangular black SMARTPHONE with camera lenses and a flat back. Preserve that exact smartphone shape for the entire shot. It has no cable, cord, curved handset, base or receiver. Her RIGHT hand rests lightly on the closed orange folder, which stays flat on the desk throughout.\nAfter a half-second pause, she asks once in clear natural Korean, mildly puzzled: \"이건 왜 보냈어요?\" Finish the question naturally within the first three seconds. Her visible mouth moves naturally with the words. Normal conversational adult Korean female voice, not robotic and not rushed.\nAfter the question she closes her mouth and listens silently, lowering her eyes slightly toward the folder without turning her body or head away. No file pickup, page opening, phone transfer or new prop. The other caller does not speak in this generation.\nExactly two hands and one smartphone throughout. No cable or second phone. No additional words, narrator, music, subtitles or captions. Quiet room tone only. Preserve the architecture, sunlight and clothing.",
+      "input_start": "images/C03/K05_smartphone_v2.png",
+      "input_start_sha256": "f341f590ecf3a79208a0ee5bdb9d1da4214774d40fa0edfff5cd979c3eb1743a",
+      "settings": {
+        "mode": "Frames first only",
+        "ratio": "16:9",
+        "resolution": "720p",
+        "seconds": 8,
+        "outputs": 1,
+        "silent_fallback": false
+      },
+      "credits_after_refund": 30
+    },
+    {
+      "cut_id": "C03_K05",
+      "take": 5,
+      "submitted_at_utc": "2026-10-20T06:49:20.701Z",
+      "model": "Veo 3.1 Fast",
+      "quoted_cost": 20,
+      "credits_before": 30,
+      "credits_after": 10,
+      "actual_deduction": 20,
+      "refund": 20,
+      "status": "failed_audio_generation_refunded",
+      "prompt_file": "prompts/C03_K05_take05_retry_submitted.txt",
+      "submitted_prompt_exact": "8-second realistic live-action shot. Keep the woman, clothes, room and objects exactly as in the first image. Fixed camera. Her left hand holds the same thin flat black smartphone against her left ear. Her right hand stays on the closed orange folder on the desk. One smartphone, two hands; keep the phone cordless with no cable and no extra objects.\nShe asks in a natural clear Korean female voice: \"이건 왜 보냈어요?\" She says this one short question near the beginning, then listens calmly with her mouth closed. Small natural facial motion only. Keep her body facing the desk and the folder flat on the desk. Quiet room ambience. No music or captions.",
+      "input_start": "images/C03/K05_smartphone_v2.png",
+      "input_start_sha256": "f341f590ecf3a79208a0ee5bdb9d1da4214774d40fa0edfff5cd979c3eb1743a",
+      "settings": {
+        "mode": "Frames first only",
+        "ratio": "16:9",
+        "resolution": "720p",
+        "seconds": 8,
+        "outputs": 1,
+        "silent_fallback": false
+      },
+      "credits_after_refund": 30,
+      "attempt": 2,
+      "change_reason": "One technical recovery after audio-generation failure and verified20-credit refund; simplified voice/timing instructions. Silent fallback remainsOFF."
+    },
+    {
+      "cut_id": "C03_K06_insert",
+      "take": 1,
+      "submitted_at_utc": "2026-10-20T06:53:22.382Z",
+      "model": "Veo 3.1 Lite",
+      "quoted_cost": 10,
+      "credits_before": 30,
+      "credits_after": 20,
+      "actual_deduction": 10,
+      "refund": 0,
+      "status": "completed_visual_sample_candidate",
+      "prompt_file": "prompts/C03_K06_insert_take01_submitted.txt",
+      "submitted_prompt_exact": "8-second photoreal close-up continuing exactly from the starting image. The woman holds the open orange folder above the metal table. The open gray ring folder stays on the table below it. Preserve the same two internal white pages, folder positions, hands, beige sleeves, teal vest and daylight.\nOne very subtle slow camera push-in, less than five percent. Both white internal pages remain visible and sharp for the entire shot, leaving their central areas clear for later graphics. Her hands support the orange folder steadily with only natural micro-movement.\nNo page turning, pointing, writing, picking up, placing down, paper flutter, new documents or extra hands. Do not add printed text, icons or diagrams; those are added in editing. No speech, narrator, music, subtitles or captions. Quiet outdoor ambience only.",
+      "input_start": "images/C03/K06_records_closeup.png",
+      "input_start_sha256": "b50a23820bad7c1b943508d49165817987c5c0b5f8efdaaee78803be9432fbfd",
+      "settings": {
+        "mode": "Frames first only",
+        "ratio": "16:9",
+        "resolution": "720p",
+        "seconds": 8,
+        "outputs": 1,
+        "silent_fallback": true
+      },
+      "asset_id": "1f9ecb3b-6891-4d2b-92d7-5170f171e671",
+      "original_mp4": "C03_K06_insert_take01.mp4",
+      "download_source": "C:/Users/wseok/Downloads/Woman_holding_open_orange_folder_20261020155523.mp4",
+      "technical_metadata": {
+        "file": "C03_K06_insert_take01.mp4",
+        "bytes": 2048090,
+        "sha256": "0e97c8258f1cb2ace5080840b87c9b0a7641e3cdfb8e500035a4fa98e0ef848c",
+        "duration_seconds": 8,
+        "streams": [
+          {
+            "type": "video",
+            "codec": "h264",
+            "width": 1280,
+            "height": 720,
+            "frame_rate": "24/1"
+          },
+          {
+            "type": "audio",
+            "codec": "aac"
+          }
+        ],
+        "decoded_video_frames": 192,
+        "full_video_decode_pass": true,
+        "audio_track_present": true,
+        "file_kind": "downloaded_original",
+        "inspection_reencodes_file": false,
+        "limitation": "Technical decoding and extracted frames; not actual listening or continuous visual playback."
+      },
+      "original_reencoded": false,
+      "download_sha256_matches": true,
+      "review_record": "review_summary.json"
+    }
+  ],
+  "settings": {
+    "mode": "Frames first only",
+    "ratio": "16:9",
+    "resolution": "720p",
+    "seconds": 8,
+    "outputs": 1,
+    "silent_fallback": false
+  },
+  "preserve": "Previous originals, edit v01, legacy C01 and five V8 plans preserved. No purchase, subscription changes, paid upscale, account switch, public post or automation resume.",
+  "ending_credits": 20,
+  "total_deductions": 70,
+  "refunds_observed": 40,
+  "net_credits_used": 30,
+  "new_originals": 2,
+  "c03_total_originals": 21,
+  "pending_generation_requests": 0,
+  "silent_fallback_restored_off": true,
+  "remaining_credit_decision": {
+    "credits": 20,
+    "reason": "K05 audio generation failed twice with separate verified20 refunds; no third repeated request. Existing clean pickup and question VO remain usable in edit. Director and visual sample review found no other concrete missing shot justifying a substitute spend.",
+    "user_all50_request_fully_spent": false,
+    "next": "Keep20. Reassess only if actual viewing/listening identifies a specific defect; no automatic repetitive K05 request."
+  }
+}

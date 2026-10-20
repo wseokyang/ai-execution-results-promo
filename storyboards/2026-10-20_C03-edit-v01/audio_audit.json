@@ -1,0 +1,24 @@
+{
+  "reviewer": "/root/c03_audio_audit",
+  "scope": "Source metadata, existing ASR, direct stereo PCM measurements; no actual listening",
+  "originals": [
+    {"source": "run01 K01 take01", "speech_seconds": [0, 2.16], "asr": "결과 말고 어떻게 했는지도요", "stereo_peak_dbfs": -3.56},
+    {"source": "run01 K02 take01", "speech_seconds": [0, 1.68], "asr": "작업 환경 도착했습니다", "stereo_peak_dbfs": -0.44},
+    {"source": "run01 K03 take01", "speech_seconds": [0, 1.38], "asr": "정확히 같이 나오네요", "stereo_peak_dbfs": -3.13},
+    {"source": "run03 K04 take02", "speech_seconds": [0.85, 1.99], "asr": "아직 하나 더요", "stereo_peak_dbfs": -0.01},
+    {"source": "run01 K05 take01", "speech_seconds": [2.64, 3.92], "asr": "이건 왜 보냈어요", "stereo_peak_dbfs": -1.48},
+    {"source": "run02 K05 take02", "speech_seconds": [3.89, 5.07], "asr": "이건 왜 보냈어요", "stereo_peak_dbfs": -3.06},
+    {"source": "run02 VO_C03_S take01", "speech_seconds": [0, 2.4], "asr": "안 됐던 것도 빠짐없이 달라면서요", "stereo_peak_dbfs": -0.01},
+    {"source": "run02 K06 take01", "speech_seconds": [2.42, 3.84], "asr": "반품 잠깐", "stereo_peak_dbfs": -6.96},
+    {"source": "run03 K07 take02", "speech_seconds": [[0.14, 1.86], [2.6, 4.1]], "asr": "이건 직접 들어야겠네요 / 제가 갈게요", "stereo_peak_dbfs": -0.74},
+    {"source": "run03 K08 take02", "asr": "No detected speech", "stereo_peak_dbfs": -6.73}
+  ],
+  "finding": "Earlier inspection peak >1 was reproduced in an FFmpeg 16kHz mono downmix. It is not evidence of original stereo clipping. All 10 original stereo sources had zero samples above full scale.",
+  "examples": [
+    {"source": "VO_C03_S", "stereo_peak": 0.999118, "mono_16k_peak": 1.375225},
+    {"source": "K04 run03", "stereo_peak": 0.998947, "mono_16k_peak": 1.391662}
+  ],
+  "pd_decision": "Use original stereo for editing; R question from run01 selected after visual editor recommended rear-view replacement. No speech speed or pitch changes. Final mixed ASR in audio_transcription.json.",
+  "actual_listening": false,
+  "pronunciation_or_lipsync_verified": false
+}

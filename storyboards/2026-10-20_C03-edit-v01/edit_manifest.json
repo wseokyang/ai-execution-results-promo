@@ -1,0 +1,306 @@
+{
+  "status": "first full review edit; three independent/cross visual sample reviews completed; actual listening pending",
+  "concept": "V8 C03 환경까지 가져왔습니다",
+  "file": "C03_review_edit_v01_45s.mp4",
+  "duration_seconds": 45.25,
+  "dimensions": [
+    1280,
+    720
+  ],
+  "fps": 24,
+  "decoded_frames": 1086,
+  "timeline": [
+    {
+      "cut": "K01",
+      "source": "2026-10-19_C03-flow-run01/C03_K01_take01.mp4",
+      "source_in": 0,
+      "source_out": 5.5,
+      "start": 0,
+      "end": 5.5
+    },
+    {
+      "cut": "K02",
+      "source": "2026-10-19_C03-flow-run01/C03_K02_take01.mp4",
+      "source_in": 0,
+      "source_out": 4,
+      "start": 5.5,
+      "end": 9.5
+    },
+    {
+      "cut": "K03",
+      "source": "2026-10-19_C03-flow-run01/C03_K03_take01.mp4",
+      "source_in": 0,
+      "source_out": 2.5,
+      "start": 9.5,
+      "end": 12.0
+    },
+    {
+      "cut": "K03_done",
+      "source": "2026-10-20_C03-flow-run05/C03_K03_insert_take02.mp4",
+      "source_in": 6,
+      "source_out": 7,
+      "start": 12.0,
+      "end": 13.0
+    },
+    {
+      "cut": "K04",
+      "source": "2026-10-20_C03-flow-run03/C03_K04_take02.mp4",
+      "source_in": 0,
+      "source_out": 3.5,
+      "start": 13.0,
+      "end": 16.5
+    },
+    {
+      "cut": "K04_cuff",
+      "source": "2026-10-20_C03-flow-run06/C03_K04_insert_take05.mp4",
+      "source_in": 2.25,
+      "source_out": 5.75,
+      "start": 16.5,
+      "end": 20.0
+    },
+    {
+      "cut": "K05",
+      "source": "2026-10-20_C03-flow-run03/C03_K05_take03.mp4",
+      "source_in": 1,
+      "source_out": 6.5,
+      "start": 20.0,
+      "end": 25.5
+    },
+    {
+      "cut": "K06",
+      "source": "2026-10-19_C03-flow-run02/C03_K06_take01.mp4",
+      "source_in": 0,
+      "source_out": 5.75,
+      "start": 25.5,
+      "end": 31.25
+    },
+    {
+      "cut": "K07",
+      "source": "2026-10-20_C03-flow-run03/C03_K07_take02.mp4",
+      "source_in": 0,
+      "source_out": 6,
+      "start": 31.25,
+      "end": 37.25
+    },
+    {
+      "cut": "K08",
+      "source": "2026-10-20_C03-flow-run03/C03_K08_take02.mp4",
+      "source_in": 0,
+      "source_out": 8,
+      "start": 37.25,
+      "end": 45.25
+    }
+  ],
+  "captions": [
+    [
+      0,
+      2.55,
+      "결과 말고, 어떻게 했는지도요."
+    ],
+    [
+      5.5,
+      7.65,
+      "작업 환경, 도착했습니다."
+    ],
+    [
+      9.5,
+      11.3,
+      "정확히 같이 나오네요."
+    ],
+    [
+      13.7,
+      15.35,
+      "아직 하나 더요."
+    ],
+    [
+      20.3,
+      22.1,
+      "이건 왜 보냈어요?"
+    ],
+    [
+      22.25,
+      25.1,
+      "안 됐던 것도 빠짐없이 달라면서요."
+    ],
+    [
+      27.85,
+      29.6,
+      "반품… 잠깐."
+    ],
+    [
+      31.25,
+      33.5,
+      "이건 직접 들어야겠네요."
+    ],
+    [
+      33.75,
+      35.8,
+      "제가 갈게요."
+    ]
+  ],
+  "audio_events": [
+    {
+      "source": "2026-10-19_C03-flow-run01/C03_K01_take01.mp4",
+      "source_in": 0,
+      "source_out": 5.5,
+      "at": 0,
+      "gain": 0.85,
+      "role": "original sync"
+    },
+    {
+      "source": "2026-10-19_C03-flow-run01/C03_K02_take01.mp4",
+      "source_in": 0,
+      "source_out": 4,
+      "at": 5.5,
+      "gain": 0.65,
+      "role": "original sync"
+    },
+    {
+      "source": "2026-10-19_C03-flow-run01/C03_K03_take01.mp4",
+      "source_in": 0,
+      "source_out": 2.5,
+      "at": 9.5,
+      "gain": 0.85,
+      "role": "original sync"
+    },
+    {
+      "source": "2026-10-20_C03-flow-run03/C03_K04_take02.mp4",
+      "source_in": 0,
+      "source_out": 3.5,
+      "at": 13.0,
+      "gain": 0.65,
+      "role": "original sync"
+    },
+    {
+      "source": "2026-10-20_C03-flow-run03/C03_K05_take03.mp4",
+      "source_in": 1,
+      "source_out": 6.5,
+      "at": 20.0,
+      "gain": 0.18,
+      "role": "original sync"
+    },
+    {
+      "source": "2026-10-19_C03-flow-run02/C03_K06_take01.mp4",
+      "source_in": 0,
+      "source_out": 5.75,
+      "at": 25.5,
+      "gain": 1.15,
+      "role": "original sync"
+    },
+    {
+      "source": "2026-10-20_C03-flow-run03/C03_K07_take02.mp4",
+      "source_in": 0,
+      "source_out": 6,
+      "at": 31.25,
+      "gain": 0.75,
+      "role": "original sync"
+    },
+    {
+      "source": "2026-10-20_C03-flow-run03/C03_K08_take02.mp4",
+      "source_in": 0,
+      "source_out": 8,
+      "at": 37.25,
+      "gain": 0.9,
+      "role": "original sync"
+    },
+    {
+      "source": "2026-10-19_C03-flow-run01/C03_K03_take01.mp4",
+      "source_in": 4.5,
+      "source_out": 5.5,
+      "at": 12,
+      "gain": 0.3,
+      "role": "nonverbal ambient bridge"
+    },
+    {
+      "source": "2026-10-20_C03-flow-run03/C03_K04_take02.mp4",
+      "source_in": 4.5,
+      "source_out": 8,
+      "at": 16.5,
+      "gain": 0.22,
+      "role": "nonverbal ambient bridge"
+    },
+    {
+      "source": "2026-10-19_C03-flow-run01/C03_K05_take01.mp4",
+      "source_in": 2.4,
+      "source_out": 4.2,
+      "at": 20.15,
+      "gain": 0.75,
+      "role": "R question, rear view"
+    },
+    {
+      "source": "2026-10-19_C03-flow-run02/VO_C03_S_take01.mp4",
+      "source_in": 0,
+      "source_out": 2.7,
+      "at": 22.25,
+      "gain": 0.6,
+      "role": "offscreen telephone S"
+    }
+  ],
+  "original_sha256": {
+    "2026-10-20_C03-flow-run06/C03_K04_insert_take05.mp4": "d6c31fdef71a05c75bcc07c63ad64f0d18fb201b3e4b88fce4c96414af33f0cc",
+    "2026-10-19_C03-flow-run01/C03_K05_take01.mp4": "0ba5cacd054de669a36b95fc1cb24d1306e299ddccf9c86630f810630cedd51e",
+    "2026-10-19_C03-flow-run01/C03_K03_take01.mp4": "8e2f2621ef49587d1734f0332647d6fc86f0fb9416ef443326f2f35d309a8b93",
+    "2026-10-19_C03-flow-run02/VO_C03_S_take01.mp4": "0fbad48dd96b679b77391f9ce21a648eb56457365398a8d4a9c5b17e535cfb09",
+    "2026-10-19_C03-flow-run02/C03_K06_take01.mp4": "2f3cfc06a9579d3aca160150b39fefccc83775750c1109387fb3f948c046a6c3",
+    "2026-10-19_C03-flow-run01/C03_K01_take01.mp4": "c0e542c8ffe8af828f8a0c32ff70f02241738156cf9fea44c8ef665b404ef80e",
+    "2026-10-20_C03-flow-run03/C03_K04_take02.mp4": "9b5bfe6df63a530b7545eb269ace505b8719f89f89a8e502ab5607fbd8dae8cf",
+    "2026-10-20_C03-flow-run03/C03_K07_take02.mp4": "f683f80eb7122213bdb918c3e0ce88b352ba4509daf7a474272a8ef95ab03d67",
+    "2026-10-20_C03-flow-run05/C03_K03_insert_take02.mp4": "1c19dda3cdd6a1a1c5f0a9e27eebb7b7a92d380998e0fa9c4cbd0fa7c3e404ee",
+    "2026-10-19_C03-flow-run01/C03_K02_take01.mp4": "7cd2ebd0524cd928786594c9e2a357a232ecd8e7eaae4f0959f1bee893cf75d5",
+    "2026-10-20_C03-flow-run03/C03_K05_take03.mp4": "d635759eeeb38c7de2f051e8928e7039c27e51569e682d0e594d8c3c6baa0036",
+    "2026-10-20_C03-flow-run03/C03_K08_take02.mp4": "d95349e114ec385f21054df106892f9fdfd6cd56ee5bccc9fbfa6b7c44000450"
+  },
+  "original_files_unchanged": true,
+  "new_flow_requests": 0,
+  "new_credits_used": 0,
+  "graphics": {
+    "K03": "Same three boxes, reference/result, laptop perspective composite for 2.5s",
+    "K06": "Two internal-record callouts and matching conditions, 26.75–28.50s; starts after inside page is visible",
+    "ending": "40.25–45.25s fixed event title and attendance invitation"
+  },
+  "pd_changes": [
+    "Removal action replaced by 1s bare-hand end state; insertion omitted before cuff adjustment.",
+    "K05 question audio over clean rear-view file pickup; no voice speed alteration.",
+    "Diagram exposure expanded to 4.25s total on existing motion shots for readability.",
+    "K06 gathering files to K07 held files is a temporal ellipsis."
+  ],
+  "technical": {
+    "full_decode_pass": true,
+    "frames": 1086,
+    "originals_unchanged": true,
+    "decoded_pcm_peak": 0.8364659547805786,
+    "full_scale_samples": 0,
+    "pre_master_loudness": {
+      "input_i": "-18.72",
+      "input_tp": "-3.24",
+      "input_lra": "16.90",
+      "input_thresh": "-31.97",
+      "output_i": "-19.94",
+      "output_tp": "-2.29",
+      "output_lra": "10.80",
+      "output_thresh": "-32.31",
+      "normalization_type": "dynamic",
+      "target_offset": "1.94"
+    },
+    "final_loudness": {
+      "input_i": "-18.31",
+      "input_tp": "-1.45",
+      "input_lra": "11.20",
+      "input_thresh": "-30.63",
+      "output_i": "-20.03",
+      "output_tp": "-1.50",
+      "output_lra": "10.70",
+      "output_thresh": "-31.84",
+      "normalization_type": "dynamic",
+      "target_offset": "2.03"
+    }
+  },
+  "limitations": [
+    "No actual listening, continuous playback, pronunciation or lip-sync verification claimed.",
+    "Cuff 3.5s retained; shorten only if continuous playback demonstrates drag.",
+    "No mandatory missing generation identified. Subsequent explicit user request for a spare is separate run07."
+  ],
+  "sha256": "aabdc5f52fa661b5289bfbacf625e9c305e9897379345755c93839667507c70a",
+  "bytes": 18058588,
+  "review_record": "review_summary.json"
+}

@@ -1,0 +1,39 @@
+{
+  "actual_listening": false,
+  "method": "faster-whisper small CPU int8; explicit .5L+.5R downmix",
+  "files": {
+    "C03_K01_take02.mp4": [
+      {
+        "start": 0.0,
+        "end": 2.24,
+        "text": " 결과 말고 어떻게 했는지도요",
+        "words": [
+          {
+            "word": " 결과",
+            "start": 0.0,
+            "end": 0.32,
+            "probability": 0.9050193428993225
+          },
+          {
+            "word": " 말고",
+            "start": 0.32,
+            "end": 0.66,
+            "probability": 0.9790647029876709
+          },
+          {
+            "word": " 어떻게",
+            "start": 0.66,
+            "end": 1.46,
+            "probability": 0.9822648763656616
+          },
+          {
+            "word": " 했는지도요",
+            "start": 1.46,
+            "end": 2.24,
+            "probability": 0.9707532376050949
+          }
+        ]
+      }
+    ]
+  }
+}

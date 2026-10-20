@@ -1,0 +1,5 @@
+# Reproducible local intermediate renders; delivery MP4 and score notes are tracked.
+C03_picture_v02.mp4
+C03_mix_float.wav
+C03_original_sparse_score.wav
+render_stderr.txt

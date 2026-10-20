@@ -1,0 +1,52 @@
+{
+  "method": "local faster-whisper small int8; explicit0.5L+0.5R mono downmix",
+  "file": "C03_K05_take04.mp4",
+  "actual_listening": false,
+  "pronunciation_pass": null,
+  "segments": [
+    {
+      "start": 0.75,
+      "end": 2.05,
+      "text": " 이건 왜 보냈어요?",
+      "words": [
+        {
+          "word": " 이건",
+          "start": 0.75,
+          "end": 1.29,
+          "probability": 0.5368558764457703
+        },
+        {
+          "word": " 왜",
+          "start": 1.29,
+          "end": 1.49,
+          "probability": 0.9948890805244446
+        },
+        {
+          "word": " 보냈어요?",
+          "start": 1.49,
+          "end": 2.05,
+          "probability": 0.9861350953578949
+        }
+      ]
+    },
+    {
+      "start": 6.22,
+      "end": 6.9,
+      "text": " 저 문제요.",
+      "words": [
+        {
+          "word": " 저",
+          "start": 6.22,
+          "end": 6.44,
+          "probability": 0.04748765751719475
+        },
+        {
+          "word": " 문제요.",
+          "start": 6.44,
+          "end": 6.9,
+          "probability": 0.8996613025665283
+        }
+      ]
+    }
+  ]
+}

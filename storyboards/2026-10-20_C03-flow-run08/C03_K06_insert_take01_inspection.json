@@ -1,0 +1,25 @@
+{
+  "file": "C03_K06_insert_take01.mp4",
+  "bytes": 2048090,
+  "sha256": "0e97c8258f1cb2ace5080840b87c9b0a7641e3cdfb8e500035a4fa98e0ef848c",
+  "duration_seconds": 8.0,
+  "streams": [
+    {
+      "type": "video",
+      "codec": "h264",
+      "width": 1280,
+      "height": 720,
+      "frame_rate": "24/1"
+    },
+    {
+      "type": "audio",
+      "codec": "aac"
+    }
+  ],
+  "decoded_video_frames": 192,
+  "full_video_decode_pass": true,
+  "audio_track_present": true,
+  "file_kind": "downloaded_original",
+  "inspection_reencodes_file": false,
+  "limitation": "Technical decoding and extracted frames; not actual listening or continuous visual playback."
+}

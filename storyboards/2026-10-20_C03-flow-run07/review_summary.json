@@ -1,0 +1,80 @@
+{
+  "run_id": "2026-10-20_C03-flow-run07",
+  "actual_review": "Three distinct reviewers opened 32-frame contact sheet and individual actual frames, with run03 clean take comparison.",
+  "independent": [
+    {
+      "reviewer": "A",
+      "issues": [
+        {
+          "id": "A-R07-01",
+          "priority": "required_before_adoption",
+          "result": "HOLD",
+          "detail": "Cable appears at 1.0s and persists; clean opening cannot contain full question."
+        },
+        {
+          "id": "A-R07-02",
+          "priority": "optional",
+          "detail": "Head direction jump to desk-facing pickup needs edit check."
+        },
+        {
+          "id": "A-R07-03",
+          "priority": "unverified",
+          "detail": "Audio and lip sync not listened/verified."
+        }
+      ]
+    },
+    {
+      "reviewer": "B",
+      "issues": [
+        {
+          "id": "B-R07-01",
+          "priority": "required_before_adoption",
+          "result": "HOLD",
+          "detail": "Black coil between phone and desk from 1.0s."
+        },
+        {
+          "id": "B-R07-02",
+          "priority": "optional",
+          "detail": "New head turn and old pickup direction differ."
+        },
+        {
+          "id": "B-R07-03",
+          "priority": "unverified",
+          "detail": "ASR alone not speech approval."
+        }
+      ]
+    },
+    {
+      "reviewer": "C",
+      "issues": [
+        {
+          "id": "C-R07-01",
+          "priority": "required_before_adoption",
+          "result": "HOLD",
+          "detail": "Coil during question interval."
+        },
+        {
+          "id": "C-R07-02",
+          "result": "PASS_sampled",
+          "detail": "Two hands, one phone, closed folder fixed."
+        },
+        {
+          "id": "C-R07-03",
+          "priority": "optional",
+          "detail": "Head direction continuity."
+        }
+      ]
+    }
+  ],
+  "cross_review": {
+    "A": "Agrees B/C cable HOLD; audio-only possible after listening, not synchronous picture solution.",
+    "B": "Agrees A/C cable HOLD; do not claim silent tail from prompt or ASR.",
+    "C": "Agrees A/B direct-picture HOLD; keep current edit; new smartphone first frame instead of identical retry."
+  },
+  "pd_resolution": "Preserve raw; no replacement in v01. Latest explicit 50-credit user request authorizes run08 with changed first frame.",
+  "limitations": [
+    "sampled frames, not continuous playback",
+    "no actual listening",
+    "no certified pronunciation or lip sync"
+  ]
+}

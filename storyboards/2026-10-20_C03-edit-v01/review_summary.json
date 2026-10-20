@@ -1,0 +1,68 @@
+{
+  "concept": "V8 C03 환경까지 가져왔습니다",
+  "artifact": "C03_review_edit_v01_45s.mp4",
+  "method": "Three distinct reviewers independently opened actual render contact sheets and selected full-resolution frames, then cross-reviewed findings and re-opened corrected frames.",
+  "reviewers": {
+    "A": "/root/c03_edit_review_a",
+    "B": "/root/c03_edit_review_b",
+    "C": "/root/v8_review_c"
+  },
+  "independent_assessment": {
+    "A": {"hook": 4, "humor": 4, "event": 4, "distinctiveness": 4, "readiness": 3},
+    "B": {"hook": 4, "humor": 4, "event": 4, "distinctiveness": 4, "readiness": 3},
+    "C": {"hook": 4, "humor": 4, "event": 4, "distinctiveness": 5, "readiness": 3}
+  },
+  "score_scope": "Subjective editorial judgment, not measured audience response.",
+  "findings": [
+    {
+      "ids": ["A-E01", "B-E01", "C-E01"],
+      "severity": "required visual correction",
+      "cut": "K06",
+      "issue": "At 26.250s the orange internal-record leader pointed to the woman's vest.",
+      "correction": "Delay comparison to 26.75–28.50s (1.75s). New first anchor (515,418) follows the visible inside page; later anchors retained.",
+      "status": "resolved by all three",
+      "cross_review": {
+        "A": "Agrees with B/C; 26.250/26.708 have no callout, 26.750/27.000/28.458 point to inside paper; removed at28.500.",
+        "B": "Agrees with A/C; actual corrected frames meet inside-record meaning and >=1.5s duration.",
+        "C": "Agrees with A/B; shirt-pointing defect removed; remaining real-time reading not certified."
+      }
+    },
+    {
+      "ids": ["A-E02"],
+      "severity": "optional visual polish",
+      "cut": "K08",
+      "issue": "Original title gradient ended as a horizontal band.",
+      "correction": "Cosine fade over390px replaces abrupt power curve.",
+      "status": "resolved; A/B/C inspected40.250 and43.500 and agree title/CTA and sitting remain visible"
+    },
+    {
+      "ids": ["A-E03", "B-E02", "C-E03"],
+      "severity": "optional pacing adjustment",
+      "cut": "K04 cuff",
+      "issue": "3.5s cuff adjustment may feel long in continuous playback.",
+      "pd_decision": "Keep pull and release in this first review edit. Shorten only if playback demonstrates drag.",
+      "status": "proposal retained; all three agree this is not a generation blocker"
+    },
+    {
+      "ids": ["B-E03", "C-E02"],
+      "severity": "final acceptance check, not a proven defect",
+      "cut": "K05 and full mix",
+      "issue": "Actual listening, pronunciation, sentence endings, voice distinction, lip sync and continuous pacing remain unverified.",
+      "status": "pending actual playback/listening; all three agree not to infer a defect or trigger regeneration from ASR"
+    }
+  ],
+  "initial_evidence": {
+    "all_reviewers": "review_contact_01.jpg through review_contact_04.jpg plus individually selected review_frames PNGs",
+    "A": ["09.500", "20.500", "21.500", "26.250", "27.000", "28.250", "40.250", "43.500"],
+    "B": ["09.500", "12.958", "20.500", "21.500", "22.500", "26.250", "27.000", "27.750", "28.458", "31.208", "31.250", "40.250", "43.500"],
+    "C": ["09.500", "10.500", "11.958", "20.500", "22.500", "26.250", "27.000", "27.750", "28.250", "28.458", "31.208", "31.250", "40.250", "43.500", "45.208"],
+    "before_correction_samples": "review_before/26.250s.png and40.250s.png"
+  },
+  "corrected_frames_opened_by_all_three": ["26.250", "26.708", "26.750", "27.000", "28.458", "28.500", "40.250", "43.500"],
+  "visual_sample_result": "No remaining required visual correction identified; suitable for first full review delivery.",
+  "actual_audio_listening": false,
+  "continuous_playback_verified": false,
+  "lip_sync_verified": false,
+  "mandatory_extra_flow_shot_identified": false,
+  "subsequent_user_direction": "After these reviews, user explicitly requested one additional arbitrary shot. run07 will create a K05 question-only spare; that authorization does not change this review result."
+}

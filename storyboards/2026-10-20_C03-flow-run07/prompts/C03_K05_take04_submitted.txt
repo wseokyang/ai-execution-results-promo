@@ -1,0 +1,5 @@
+8-second photoreal live-action shot, continuing exactly from the starting image. Same Korean woman with black ponytail, beige blouse and teal vest, same orange-framed workspace and desk. Locked camera.
+She already holds ONE black cordless phone to her LEFT ear. Her RIGHT hand stays lightly on the CLOSED orange folder lying flat on the desk. Keep these two objects in those positions throughout; no file pickup, no transfer, no second phone, no cable.
+She glances slightly toward the orange folder, then asks into the phone in natural Korean, mildly puzzled but calm: "이건 왜 보냈어요?"
+This is the only spoken sentence. Start the sentence after a short half-second pause and finish it naturally within the first three seconds, with visible natural mouth movement. Clear adult Korean female voice, normal conversational speed, no crying, no robotic reading. Then close her mouth and listen silently to the phone for the remaining time, with a small puzzled reaction.
+Do not generate the other caller's answer. No narrator, extra dialogue, music, subtitles, captions or new objects. Preserve hands, clothing, architecture and daylight. Quiet office room tone only.

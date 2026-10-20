@@ -1,0 +1,70 @@
+{
+  "concept": "V8 C03 환경까지 가져왔습니다",
+  "artifact": "C03_review_edit_v02_46s.mp4",
+  "duration_seconds": 45.75,
+  "reviewers": {
+    "A": "/root/c03_edit_review_a",
+    "B": "/root/c03_edit_review_b",
+    "C": "/root/v8_review_c"
+  },
+  "method": "Three distinct reviewers independently opened all four actual render contact sheets and selected full-resolution PNGs, then cross-checked findings. All three re-opened nine corrected final-render PNGs.",
+  "independent": {
+    "A": {
+      "A-EV2-01": "Required: wide gray diagonal print and orange dense writing did not match the closeup's colored three bars.",
+      "A-EV2-02": "PASS sampled closeup tracking and2s legibility; no hand/page-edge spill.",
+      "A-EV2-03": "PASS shadow/upward reaction to full room reveal.",
+      "A-EV2-04": "Optional: cuff3.5s may shorten only if actual playback drags."
+    },
+    "B": {
+      "B-E2-01": "Observed same page-content mismatch; initially graded improvement, later agreed final local correction appropriate.",
+      "B-E2-02": "PASS sampled closeup tracking/legibility.",
+      "B-E2-03": "Optional cuff pacing; no extra generation.",
+      "B-E2-04": "Audio/voice/lip sync unverified, not an identified defect."
+    },
+    "C": {
+      "C-EV2-01": "PASS sampled closeup tracking, initially missed surrounding page-content mismatch.",
+      "C-EV2-02": "PASS sampled cause/effect and accepted temporal ellipses.",
+      "C-EV2-03": "Actual listening and final voice check pending.",
+      "C-EV2-04": "Optional cuff pacing."
+    }
+  },
+  "cross_review": {
+    "A": "Agreed B's observation, retained required grade because comparison motivates return cancellation. Agreed C's other passes but identified missing wide-page continuity check.",
+    "B": "Agreed A's factual mismatch and PD required local correction for final printed-page continuity. Agreed C's remaining observations.",
+    "C": "Acknowledged missed wide-page mismatch, corrected earlier no-required-fix conclusion, agreed required correction."
+  },
+  "fixes": [
+    {
+      "ids": ["A-EV2-01", "B-E2-01"],
+      "action": "Same diagram artwork added to visible gray wide page and orange page after closeup, using manual plane tracking and foreground preservation.",
+      "status": "resolved_by_A_B_C"
+    },
+    {
+      "ids": ["A-EV2-05", "C-preview-print-artifacts"],
+      "issue": "First correction preview left dark dots and broken print due to luminance mask and minification aliasing.",
+      "action": "Opaque page fill; exclude only colored foreground hand/binder instead of dark print; three-times supersampled perspective transform and Lanczos downsample.",
+      "status": "resolved_by_A_B_C"
+    }
+  ],
+  "final_recheck": {
+    "actual_render_pngs": ["26.000s.png", "27.208s.png", "27.250s.png", "28.250s.png", "29.208s.png", "29.250s.png", "30.000s.png", "31.000s.png", "31.708s.png"],
+    "A": "All nine opened. Same diagram content, dark holes/print breaks resolved, no graphics remaining on hands/covers/table after closing. No mandatory visual issue.",
+    "B": "All nine opened. Content matches and print improved, no foreground residue. No mandatory visual issue.",
+    "C": "All nine opened. Content continuity and orange print artifacts resolved, no residual graphics30–31.708. No mandatory visual issue."
+  },
+  "final_visual_status": "PASS_sampled_after_local_composite_fixes",
+  "pd_decisions": [
+    "K01 partial underside is accepted as anticipatory cue; full room reveal remains K02. Complete no-object prompt not achieved.",
+    "K05 failed twice with verified refunds; existing clean pickup and separately captured question/telephone reply retained.",
+    "Glove removal/insertion shown through accepted state ellipses, not successful full physical removal/insertion.",
+    "No further concrete missing motion shot identified; preserve20 credits instead of third identical failure or unrelated filler."
+  ],
+  "purpose": "Request for process grows into delivery of successful and failed working environments; record comparison changes protagonist's choice to hear the process in person. Event title and invitation retained for5s.",
+  "technical_scope": "1098 frames decoded; source SHA unchanged; nine ASR lines detected; finite audio with zero full-scale samples.",
+  "limitations": [
+    "Actual audio was not listened to.",
+    "Continuous visual playback and realtime pacing were not verified.",
+    "Pronunciation, voice continuity, word endings and lip sync remain unverified.",
+    "This is a revised review edit, not final user-approved film or measured audience humor."
+  ]
+}

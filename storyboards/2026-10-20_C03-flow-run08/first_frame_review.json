@@ -1,0 +1,31 @@
+{
+  "actual_opened_images": ["images/C03/K01_shadow_v2.png", "images/C03/K05_smartphone_v2.png", "images/C03/K06_records_closeup.png"],
+  "references": ["../2026-10-19_tone-polish-v8/images/C03/K01.png","../2026-10-19_tone-polish-v8/images/C03/K05.png","../2026-10-19_tone-polish-v8/images/C03/K06_v2.png","../2026-10-19_C03-flow-run02/frames/C03_K06_take01/03_1.500s.png"],
+  "independent": {
+    "A": {
+      "A-R08-I01": "K01 PASS: no sky, bright before-state, same R/table/folder/glass, two hands one phone. Optional physical cast-shadow direction.",
+      "A-R08-I02": "K05 PASS: clear thin smartphone, mouth profile, one phone no cord, right hand closed folder. Small eye lowering helps cut connection.",
+      "A-R08-I03": "K06 PASS input, REQUIRED postproduction: blank inner pages need identical-condition graphics.",
+      "A-R08-I04": "Optional tiny push only, no turn or regrip."
+    },
+    "B": {
+      "B-R08-I01": "K01 PASS, physical ground-to-table shadow test needed.",
+      "B-R08-I02": "K05 PASS, avoid large head turn.",
+      "B-R08-I03": "K06 PASS, orange held above table, gray on table, clear inner pages.",
+      "B-R08-I04": "REQUIRED postproduction: matching diagram on both inner pages at least 1.5s.",
+      "B-R08-I05": "Tiny push appropriate; binder ring detail difference optional observation."
+    },
+    "C": {
+      "C-I08-01": "K01 PASS bright no-sky setup and object continuity.",
+      "C-I08-02": "K05 PASS flat smartphone, no cord, mouth visible, closed folder.",
+      "C-I08-03": "K06 PASS subject to tracked inner-page diagrams matching surrounding footage."
+    }
+  },
+  "cross": {
+    "A": "Agrees all B/C findings. Clarifies small eye movement is allowed though large head turn is not. K06 postproduction requirement unresolved until actual render check.",
+    "B": "Agrees A/C, no new mandatory input correction. Graph plan accepted but final compositing not yet complete.",
+    "C": "Agrees A/B. At least 1.5s graph legibility must be verified after rendering; binder ring difference not mandatory regeneration."
+  },
+  "pd_resolution": "All 3 inputs approved. Physical shadow and phone stability instructions applied. K06 tracked matching inner-page diagrams required in next edit; not falsely marked solved.",
+  "limitations": "Still-image review only. Generated action, pronunciation, lip sync, continuous playback and tracked composites unverified."
+}
