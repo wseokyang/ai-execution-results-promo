@@ -1,0 +1,28 @@
+{
+  "file": "C03_K08_take02.mp4",
+  "bytes": 4432364,
+  "sha256": "d95349e114ec385f21054df106892f9fdfd6cd56ee5bccc9fbfa6b7c44000450",
+  "duration_seconds": 8.0,
+  "streams": [
+    {
+      "type": "video",
+      "codec": "h264",
+      "duration_seconds": 8.0,
+      "width": 1280,
+      "height": 720,
+      "frame_rate": "24/1"
+    },
+    {
+      "type": "audio",
+      "codec": "aac",
+      "duration_seconds": 8.0
+    }
+  ],
+  "decode_pass": true,
+  "decoded_pcm_finite": true,
+  "decoded_pcm_peak": 0.659537672996521,
+  "derived_wav_format": "pcm_f32le, decoder overshoots preserved",
+  "asr_model": "faster-whisper small CPU int8",
+  "segments": [],
+  "limitation": "Automatic transcription and technical inspection only. No actual listening, pronunciation, speaker identity, naturalness, or lip-sync verification."
+}

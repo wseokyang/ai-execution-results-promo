@@ -1,0 +1,371 @@
+{
+  "run_id": "2026-10-20_C03-flow-run03",
+  "concept": "accepted V8 C03 환경까지 가져왔습니다",
+  "status": "three_independent_visual_reviews_and_cross_reviews_complete",
+  "report_representation": "총괄이 실제 에이전트 반환을 ID별로 요약. 원문 인용 아님.",
+  "independent_reviews": [
+    {
+      "reviewer": "A",
+      "agent": "/root/c03_run02_review_a",
+      "independent_before_peer_reports": true,
+      "opened": "4contact64표본+개별PNG22장, 승인입력/프롬프트/inspection",
+      "issues": [
+        {
+          "id": "A-041",
+          "cut": "all",
+          "classification": "verification",
+          "finding": "실제 청취·연속재생·립싱크 미확인. ASR와 PCMpeak는 청취가 아님.",
+          "disposition": "편집 단계에서 확인; 미해결"
+        },
+        {
+          "id": "A-042",
+          "cut": "K08",
+          "classification": "edit_validation",
+          "finding": "착석은 약5.5초 이후. 첫5초만 쓰면 착석 완료와 안도 반응이 충분히 남지 않음.",
+          "disposition": "1.5~6.5초 등 시험, 행사명 읽기시간 확인"
+        },
+        {
+          "id": "A-043",
+          "cut": "K07→K08",
+          "classification": "optional",
+          "finding": "K07의 갈색 허리 파우치가 K08에서는 보이지 않음.",
+          "disposition": "실제 연결 확인, 재생성 필수 아님"
+        },
+        {
+          "id": "A-044",
+          "cut": "K07",
+          "classification": "optional",
+          "finding": "7.5초 두 인물이 내려다보는 끝이 출발 흐름을 약화.",
+          "disposition": "약6~6.5초 사용 검토"
+        },
+        {
+          "id": "A-045",
+          "cut": "K05→K06",
+          "classification": "edit_validation",
+          "finding": "파일 확보는 해결. 질문→답변→파일집기→조건발견 연결 미완료.",
+          "disposition": "약1.5~4.5초 집기 삽입 후보; 두전화기 옛 화면 재노출 방지"
+        },
+        {
+          "id": "A-046",
+          "cut": "K05",
+          "classification": "optional",
+          "finding": "들어 올린 파일이 얇아지고 노란 탭이 보임.",
+          "disposition": "색·개수·용도 유지. K06 연결 관찰"
+        },
+        {
+          "id": "A-047",
+          "cut": "K04",
+          "classification": "required_edit",
+          "finding": "4~7.5초 오른손은 맨손. 왼손 장갑 조작으로 재착용 실패.",
+          "disposition": "B 공개 약0~3.5초 활용 검토; K03 추가생성 보류"
+        },
+        {
+          "id": "A-048",
+          "cut": "K04→K05/K07",
+          "classification": "edit_validation",
+          "finding": "B 공개 개선. 공중에 떠있고 골판 외벽·작은창·수납물이 두드러짐.",
+          "disposition": "하강중→설치후 내부 생략 연결 시험; 추가 생성 필수 아님"
+        }
+      ]
+    },
+    {
+      "reviewer": "B",
+      "agent": "/root/v8_review_b",
+      "independent_before_peer_reports": true,
+      "opened": "4contact64표본+개별PNG24장, 승인입력/프롬프트/inspection",
+      "issues": [
+        {
+          "id": "B-041",
+          "cut": "K08",
+          "classification": "edit_validation",
+          "finding": "5.5~6초 착석 안정. 첫5초 트림 부적합.",
+          "disposition": "퇴장·착석·행사명 읽기시간 편집검증"
+        },
+        {
+          "id": "B-042",
+          "cut": "K07",
+          "classification": "optional",
+          "finding": "고개 숙임·양손 사용은 프롬프트 차이지만 핵심 반전 유지.",
+          "disposition": "PD 선택으로 수용 가능"
+        },
+        {
+          "id": "B-043",
+          "cut": "K07→K08",
+          "classification": "optional",
+          "finding": "갈색 허리 파우치 연결과 전화 내리는 순간 확인 필요.",
+          "disposition": "연속 재생 확인; 전화 소실 단정 금지"
+        },
+        {
+          "id": "B-044",
+          "cut": "all",
+          "classification": "verification",
+          "finding": "발음·화자는 미청취, 립싱크는 미검증.",
+          "disposition": "ASR로 통과시키지 않음"
+        },
+        {
+          "id": "B-045",
+          "cut": "K05",
+          "classification": "resolved_sample",
+          "finding": "2.5초 파일 들기,3.5~4초부터 안고끝까지유지. 전화한대·오른손파일.",
+          "disposition": "무언 파일확보 삽입 후보"
+        },
+        {
+          "id": "B-046",
+          "cut": "K05→K06",
+          "classification": "edit_validation",
+          "finding": "전체 K05 대사 대체 아님. K06은 파일 펼침 상태.",
+          "disposition": "2~5초 집기 또는4~7.5초 청취화면 후보; 조합검증"
+        },
+        {
+          "id": "B-047",
+          "cut": "K05",
+          "classification": "optional",
+          "finding": "들어올린 파일이 얇고 탭이 생김.",
+          "disposition": "이 차이만으로 추가생성 안함"
+        },
+        {
+          "id": "B-048",
+          "cut": "K04",
+          "classification": "required_edit",
+          "finding": "4/5/6.5/7/7.5초 오른손 맨손. 재착용 실패.",
+          "disposition": "K03만 보완해도 연결복구 안됨"
+        },
+        {
+          "id": "B-049",
+          "cut": "K04",
+          "classification": "resolved_sample",
+          "finding": "3.5~4초 B 대부분·와이어 공개, A와기사 위치유지.",
+          "disposition": "대사·두번째방공개 부분활용 후보"
+        },
+        {
+          "id": "B-050",
+          "cut": "K04→K05",
+          "classification": "optional",
+          "finding": "B 내부가 도면벽보다 상자·수납물 중심.",
+          "disposition": "실제 연결에서 동일 공간인지 확인"
+        },
+        {
+          "id": "B-051",
+          "cut": "K04",
+          "classification": "verification",
+          "finding": "AAC와 ASR 아직하나더요0.85~1.99초.",
+          "disposition": "실제음성/말끝/립싱크 미확인"
+        }
+      ]
+    },
+    {
+      "reviewer": "C",
+      "agent": "/root/v8_review_c",
+      "independent_before_peer_reports": true,
+      "opened": "4contact64표본+개별PNG17장, 승인입력/프롬프트/inspection",
+      "issues": [
+        {
+          "id": "C-041",
+          "cut": "K07",
+          "classification": "resolved_sample",
+          "finding": "0~7.5초 선글라스 없음, 조끼와 두파일 유지.",
+          "disposition": "시각 편집 후보"
+        },
+        {
+          "id": "C-042",
+          "cut": "K07",
+          "classification": "optional",
+          "finding": "고개숙임·양손사용 있지만 의미유지. 둘째말ASR끝4.1초.",
+          "disposition": "약5.5~6초 편집후보"
+        },
+        {
+          "id": "C-043",
+          "cut": "K08",
+          "classification": "resolved_sample",
+          "finding": "청록조끼·두파일·안전모한개·기존검정의자. 의자를손으로당김.",
+          "disposition": "새 의자 생성으로 오인하지 않음"
+        },
+        {
+          "id": "C-044",
+          "cut": "K08",
+          "classification": "edit_validation",
+          "finding": "R퇴장약4초,T착석약5.5초.",
+          "disposition": "약6~6.5초 사용 및 타이틀 가독성 검증. 시작 트림은 A/PD 후속 시험안."
+        },
+        {
+          "id": "C-045",
+          "cut": "all",
+          "classification": "verification",
+          "finding": "실제음성·립싱크·현장음 미확인.",
+          "disposition": "청취 필요"
+        },
+        {
+          "id": "C-046",
+          "cut": "K05",
+          "classification": "resolved_sample",
+          "finding": "2.5~3초파일들기,3.5초세움,4~7.5초가슴앞유지. 확인한 표본에서 추가기기·줄 발견못함.",
+          "disposition": "단일동작 삽입 후보"
+        },
+        {
+          "id": "C-047",
+          "cut": "K05→K06",
+          "classification": "edit_validation",
+          "finding": "파일편 상태·장소전환 생략연결 미확인.",
+          "disposition": "1.5~4.5초후보,전체K05해결아님"
+        },
+        {
+          "id": "C-048",
+          "cut": "K05",
+          "classification": "optional",
+          "finding": "후반 전화/왼손 일부 가려짐. 숨은 세부형태까지 검증할 수 없음.",
+          "disposition": "필요한 만큼만 사용"
+        },
+        {
+          "id": "C-049",
+          "cut": "K04",
+          "classification": "resolved_sample",
+          "finding": "3~3.5초 B대부분/문틀/실내/줄 공개.",
+          "disposition": "약0.5~4초부분활용 후보"
+        },
+        {
+          "id": "C-050",
+          "cut": "K04",
+          "classification": "required_edit",
+          "finding": "4.5/6/7/7.5초 오른손 맨손, 재착용미달.",
+          "disposition": "K03예비생성 보류"
+        },
+        {
+          "id": "C-051",
+          "cut": "K04→K05/K07",
+          "classification": "optional",
+          "finding": "골판외벽·상자/서류실내와후속공간 차이.",
+          "disposition": "연결검증"
+        },
+        {
+          "id": "C-052",
+          "cut": "K04",
+          "classification": "verification",
+          "finding": "AAC/ASR0.85~1.99. 실제 청취아님.",
+          "disposition": "발음·말끝·음색·립싱크확인 필요"
+        }
+      ]
+    }
+  ],
+  "cross_reviews": [
+    {
+      "reviewer": "A",
+      "received_peer_reports_after_independent_submission": true,
+      "peer_issue_dispositions": {
+        "B-041": "동의; 직접 확인한 표본과 일치. 해결 범위와 필수 편집/청취 검증 또는 선택 관찰 상태를 유지.",
+        "B-042": "동의; 직접 확인한 표본과 일치. 해결 범위와 필수 편집/청취 검증 또는 선택 관찰 상태를 유지.",
+        "B-043": "동의; 직접 확인한 표본과 일치. 해결 범위와 필수 편집/청취 검증 또는 선택 관찰 상태를 유지.",
+        "B-044": "동의; 직접 확인한 표본과 일치. 해결 범위와 필수 편집/청취 검증 또는 선택 관찰 상태를 유지.",
+        "B-045": "동의·시간보완:2.5초집기중,3초에탁자와분리분명,4초부터보유.",
+        "B-046": "동의; 직접 확인한 표본과 일치. 해결 범위와 필수 편집/청취 검증 또는 선택 관찰 상태를 유지.",
+        "B-047": "동의; 직접 확인한 표본과 일치. 해결 범위와 필수 편집/청취 검증 또는 선택 관찰 상태를 유지.",
+        "B-048": "동의; 직접 확인한 표본과 일치. 해결 범위와 필수 편집/청취 검증 또는 선택 관찰 상태를 유지.",
+        "B-049": "동의; 직접 확인한 표본과 일치. 해결 범위와 필수 편집/청취 검증 또는 선택 관찰 상태를 유지.",
+        "B-050": "동의·분류보완:다른방확정아님. 최종공간연결검증필수,외형재생성선택.",
+        "B-051": "동의:무음반환ON과실제AAC/ASR산출구분. 무음영상이라보고금지.",
+        "C-041": "동의; 직접 확인한 표본과 일치. 해결 범위와 필수 편집/청취 검증 또는 선택 관찰 상태를 유지.",
+        "C-042": "동의; 직접 확인한 표본과 일치. 해결 범위와 필수 편집/청취 검증 또는 선택 관찰 상태를 유지.",
+        "C-043": "동의; 직접 확인한 표본과 일치. 해결 범위와 필수 편집/청취 검증 또는 선택 관찰 상태를 유지.",
+        "C-044": "동의; 직접 확인한 표본과 일치. 해결 범위와 필수 편집/청취 검증 또는 선택 관찰 상태를 유지.",
+        "C-045": "동의; 직접 확인한 표본과 일치. 해결 범위와 필수 편집/청취 검증 또는 선택 관찰 상태를 유지.",
+        "C-046": "동의·시간보완:2.5~3초집기→3.5초세움→4초보유.",
+        "C-047": "동의; 직접 확인한 표본과 일치. 해결 범위와 필수 편집/청취 검증 또는 선택 관찰 상태를 유지.",
+        "C-048": "동의; 직접 확인한 표본과 일치. 해결 범위와 필수 편집/청취 검증 또는 선택 관찰 상태를 유지.",
+        "C-049": "동의·끝점보완:4초장갑조작시작이라3.5초전후컷점비교. 고정4초아님.",
+        "C-050": "동의; 직접 확인한 표본과 일치. 해결 범위와 필수 편집/청취 검증 또는 선택 관찰 상태를 유지.",
+        "C-051": "동의·분류보완:공간시간생략검증남음,추가생성의무없음.",
+        "C-052": "동의; 직접 확인한 표본과 일치. 해결 범위와 필수 편집/청취 검증 또는 선택 관찰 상태를 유지."
+      },
+      "new_required_omissions": [],
+      "pd_plan_accepted": true
+    },
+    {
+      "reviewer": "B",
+      "received_peer_reports_after_independent_submission": true,
+      "peer_issue_dispositions": {
+        "A-041": "동의; 직접 확인한 표본과 일치. 해결 범위와 필수 편집/청취 검증 또는 선택 관찰 상태를 유지.",
+        "A-042": "동의:5.5~6초착석안정. 앞5초트림부적합,제목시간검증.",
+        "A-043": "동의; 직접 확인한 표본과 일치. 해결 범위와 필수 편집/청취 검증 또는 선택 관찰 상태를 유지.",
+        "A-044": "동의; 직접 확인한 표본과 일치. 해결 범위와 필수 편집/청취 검증 또는 선택 관찰 상태를 유지.",
+        "A-045": "동의; 직접 확인한 표본과 일치. 해결 범위와 필수 편집/청취 검증 또는 선택 관찰 상태를 유지.",
+        "A-046": "동의; 직접 확인한 표본과 일치. 해결 범위와 필수 편집/청취 검증 또는 선택 관찰 상태를 유지.",
+        "A-047": "동의:오른손끝까지맨손. K03미제출/10보존타당.",
+        "A-048": "동의; 직접 확인한 표본과 일치. 해결 범위와 필수 편집/청취 검증 또는 선택 관찰 상태를 유지.",
+        "C-041": "동의; 직접 확인한 표본과 일치. 해결 범위와 필수 편집/청취 검증 또는 선택 관찰 상태를 유지.",
+        "C-042": "동의; 직접 확인한 표본과 일치. 해결 범위와 필수 편집/청취 검증 또는 선택 관찰 상태를 유지.",
+        "C-043": "동의; 직접 확인한 표본과 일치. 해결 범위와 필수 편집/청취 검증 또는 선택 관찰 상태를 유지.",
+        "C-044": "동의:구간은편집후보일뿐,착석/제목확인.",
+        "C-045": "동의; 직접 확인한 표본과 일치. 해결 범위와 필수 편집/청취 검증 또는 선택 관찰 상태를 유지.",
+        "C-046": "동의:파일집기유지확인,가려진전화손세부까지검증확대금지.",
+        "C-047": "동의; 직접 확인한 표본과 일치. 해결 범위와 필수 편집/청취 검증 또는 선택 관찰 상태를 유지.",
+        "C-048": "동의:가림범위한계유지.",
+        "C-049": "동의·보완:3.5초전후공개가읽히므로종점기계적적용금지,공개여유확보.",
+        "C-050": "동의; 직접 확인한 표본과 일치. 해결 범위와 필수 편집/청취 검증 또는 선택 관찰 상태를 유지.",
+        "C-051": "동의; 직접 확인한 표본과 일치. 해결 범위와 필수 편집/청취 검증 또는 선택 관찰 상태를 유지.",
+        "C-052": "동의; 직접 확인한 표본과 일치. 해결 범위와 필수 편집/청취 검증 또는 선택 관찰 상태를 유지."
+      },
+      "new_required_omissions": [],
+      "pd_plan_accepted": true
+    },
+    {
+      "reviewer": "C",
+      "received_peer_reports_after_independent_submission": true,
+      "peer_issue_dispositions": {
+        "A-041": "동의; 직접 확인한 표본과 일치. 해결 범위와 필수 편집/청취 검증 또는 선택 관찰 상태를 유지.",
+        "A-042": "동의; 직접 확인한 표본과 일치. 해결 범위와 필수 편집/청취 검증 또는 선택 관찰 상태를 유지.",
+        "A-043": "동의·선택:파우치차이관찰,재생성필수아님.",
+        "A-044": "동의; 직접 확인한 표본과 일치. 해결 범위와 필수 편집/청취 검증 또는 선택 관찰 상태를 유지.",
+        "A-045": "동의; 직접 확인한 표본과 일치. 해결 범위와 필수 편집/청취 검증 또는 선택 관찰 상태를 유지.",
+        "A-046": "동의; 직접 확인한 표본과 일치. 해결 범위와 필수 편집/청취 검증 또는 선택 관찰 상태를 유지.",
+        "A-047": "동의·미해결:맨오른손확인, K03만으로개그복구안됨.",
+        "A-048": "동의:하강중→설치후내부의동일공간연결확인필요,추가생성필수아님.",
+        "B-041": "동의; 직접 확인한 표본과 일치. 해결 범위와 필수 편집/청취 검증 또는 선택 관찰 상태를 유지.",
+        "B-042": "동의; 직접 확인한 표본과 일치. 해결 범위와 필수 편집/청취 검증 또는 선택 관찰 상태를 유지.",
+        "B-043": "동의·선택:전화는가려질수있어소실단정안함.",
+        "B-044": "동의; 직접 확인한 표본과 일치. 해결 범위와 필수 편집/청취 검증 또는 선택 관찰 상태를 유지.",
+        "B-045": "동의·표본해결:가려진전화손세부는확인못함.",
+        "B-046": "동의; 직접 확인한 표본과 일치. 해결 범위와 필수 편집/청취 검증 또는 선택 관찰 상태를 유지.",
+        "B-047": "동의; 직접 확인한 표본과 일치. 해결 범위와 필수 편집/청취 검증 또는 선택 관찰 상태를 유지.",
+        "B-048": "동의·미해결:재착용없음,10보존.",
+        "B-049": "동의; 직접 확인한 표본과 일치. 해결 범위와 필수 편집/청취 검증 또는 선택 관찰 상태를 유지.",
+        "B-050": "동의:외관차이자동오류확정금지.",
+        "B-051": "동의; 직접 확인한 표본과 일치. 해결 범위와 필수 편집/청취 검증 또는 선택 관찰 상태를 유지."
+      },
+      "new_required_omissions": [],
+      "pd_plan_accepted": true
+    }
+  ],
+  "final_film_complete": false,
+  "actual_listening_verified": false,
+  "continuous_playback_verified": false,
+  "credits_remaining": 10,
+  "pd_dispositions": {
+    "K07": "선글라스 수정 표본해결. 고개숙임/양손은 선택변경수용. 반응뒤편집후보",
+    "K08": "의상·의자·안전모 수정 표본해결. 의자당김은수용,착석과타이틀시간실제확인",
+    "K05": "파일확보무언삽입후보. 기존질문/전화답변과조합미검증",
+    "K04": "대사·B공개부분후보. 오른장갑재착용미해결,후반덜어내는편집검증",
+    "K03": "조건실패로생성안함;10보존"
+  },
+  "originals_saved_this_run": 4,
+  "total_C03_originals_across_runs": 14,
+  "sampled_visual_defects_resolved": [
+    "K07 unprompted sunglasses",
+    "K08 wardrobe/chair/helmet duplication",
+    "K05 insert phone/file endpoint",
+    "K04 room B reveal"
+  ],
+  "unresolved": [
+    "K04 right-glove rewear; glove gag not restored",
+    "K05 full dialogue/VO/insert sequence",
+    "K04 space/time ellipse and K06 internal evidence graphic/transition",
+    "K08 final trim/title duration",
+    "Actual listening, voice, pronunciation, lip sync and continuous playback"
+  ],
+  "pd_cross_resolution": [
+    "A042 wording softened to insufficient completed-sit/reaction, not total absence of ending.",
+    "K05 pickup2.5~3s rather than an exact unsupported frame; all cutpoints remain candidates.",
+    "C044 start-trim attribution assigned to A/PD followup.",
+    "Room B shape difference is a continuity validation item, not proof of different room nor mandatory reroll.",
+    "K07 head bow/two-hand gesture and K08 existing-chair pull accepted as directorial variations.",
+    "K04 glove action unresolved; K03 not submitted,10 retained. No additional output required for this repair generation batch."
+  ]
+}

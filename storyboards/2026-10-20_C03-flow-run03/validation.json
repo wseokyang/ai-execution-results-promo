@@ -1,0 +1,41 @@
+{
+  "run_id": "2026-10-20_C03-flow-run03",
+  "files": [
+    {
+      "file": "C03_K07_take02.mp4",
+      "download_sha_matches": true,
+      "decode_pass": true,
+      "approved_input_unchanged": true,
+      "submitted_prompt_matches": true
+    },
+    {
+      "file": "C03_K08_take02.mp4",
+      "download_sha_matches": true,
+      "decode_pass": true,
+      "approved_input_unchanged": true,
+      "submitted_prompt_matches": true
+    },
+    {
+      "file": "C03_K05_take03.mp4",
+      "download_sha_matches": true,
+      "decode_pass": true,
+      "approved_input_unchanged": true,
+      "submitted_prompt_matches": true
+    },
+    {
+      "file": "C03_K04_take02.mp4",
+      "download_sha_matches": true,
+      "decode_pass": true,
+      "approved_input_unchanged": true,
+      "submitted_prompt_matches": true
+    }
+  ],
+  "new_originals": 4,
+  "all_files_validated": true,
+  "originals_reencoded": false,
+  "gallery_video_sources_exist": true,
+  "gallery_browser_render_verified": false,
+  "limitation": "Local HTML automation was unavailable due browser file URL policy. File paths/content checked; no rendered UI QA claimed. Actual audio listening and continuous visual playback unverified.",
+  "three_distinct_independent_and_cross_reviews_complete": true,
+  "cross_peer_ids_complete": true
+}

@@ -1,0 +1,54 @@
+{
+  "file": "C03_K04_take02.mp4",
+  "bytes": 2658591,
+  "sha256": "9b5bfe6df63a530b7545eb269ace505b8719f89f89a8e502ab5607fbd8dae8cf",
+  "duration_seconds": 8.0,
+  "streams": [
+    {
+      "type": "video",
+      "codec": "h264",
+      "duration_seconds": 8.0,
+      "width": 1280,
+      "height": 720,
+      "frame_rate": "24/1"
+    },
+    {
+      "type": "audio",
+      "codec": "aac",
+      "duration_seconds": 8.0
+    }
+  ],
+  "decode_pass": true,
+  "decoded_pcm_finite": true,
+  "decoded_pcm_peak": 1.3916618824005127,
+  "derived_wav_format": "pcm_f32le, decoder overshoots preserved",
+  "asr_model": "faster-whisper small CPU int8",
+  "segments": [
+    {
+      "start": 0.85,
+      "end": 1.99,
+      "text": " 아직 하나 더요",
+      "words": [
+        {
+          "start": 0.85,
+          "end": 1.41,
+          "word": " 아직",
+          "probability": 0.9379577040672302
+        },
+        {
+          "start": 1.41,
+          "end": 1.61,
+          "word": " 하나",
+          "probability": 0.7979287505149841
+        },
+        {
+          "start": 1.61,
+          "end": 1.99,
+          "word": " 더요",
+          "probability": 0.9717420637607574
+        }
+      ]
+    }
+  ],
+  "limitation": "Automatic transcription and technical inspection only. No actual listening, pronunciation, speaker identity, naturalness, or lip-sync verification."
+}
