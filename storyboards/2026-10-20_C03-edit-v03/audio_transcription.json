@@ -1,0 +1,239 @@
+{
+  "method": "local faster-whisper small int8; explicit0.5L+0.5R mono downmix",
+  "file": "C03_review_edit_v03_45s.mp4",
+  "actual_listening": false,
+  "pronunciation_pass": null,
+  "segments": [
+    {
+      "start": 0.0,
+      "end": 2.34,
+      "text": " 결과 말고 어떻게 했는지도요.",
+      "words": [
+        {
+          "word": " 결과",
+          "start": 0.0,
+          "end": 0.32,
+          "probability": 0.9090327620506287
+        },
+        {
+          "word": " 말고",
+          "start": 0.32,
+          "end": 0.64,
+          "probability": 0.9821615219116211
+        },
+        {
+          "word": " 어떻게",
+          "start": 0.64,
+          "end": 1.52,
+          "probability": 0.9798193573951721
+        },
+        {
+          "word": " 했는지도요.",
+          "start": 1.52,
+          "end": 2.34,
+          "probability": 0.9571220427751541
+        }
+      ]
+    },
+    {
+      "start": 5.77,
+      "end": 7.77,
+      "text": " 작업 환경 도착했습니다.",
+      "words": [
+        {
+          "word": " 작업",
+          "start": 5.77,
+          "end": 6.25,
+          "probability": 0.6717118620872498
+        },
+        {
+          "word": " 환경",
+          "start": 6.25,
+          "end": 6.69,
+          "probability": 0.8883400857448578
+        },
+        {
+          "word": " 도착했습니다.",
+          "start": 6.69,
+          "end": 7.77,
+          "probability": 0.9378137985865275
+        }
+      ]
+    },
+    {
+      "start": 10.04,
+      "end": 11.42,
+      "text": " 정확히 같이 나오네요.",
+      "words": [
+        {
+          "word": " 정확히",
+          "start": 10.04,
+          "end": 10.62,
+          "probability": 0.9555464386940002
+        },
+        {
+          "word": " 같이",
+          "start": 10.62,
+          "end": 10.94,
+          "probability": 0.9907888770103455
+        },
+        {
+          "word": " 나오네요.",
+          "start": 10.94,
+          "end": 11.42,
+          "probability": 0.9951784014701843
+        }
+      ]
+    },
+    {
+      "start": 14.42,
+      "end": 15.62,
+      "text": " 아직 하나 더요.",
+      "words": [
+        {
+          "word": " 아직",
+          "start": 14.42,
+          "end": 14.9,
+          "probability": 0.9296944737434387
+        },
+        {
+          "word": " 하나",
+          "start": 14.9,
+          "end": 15.12,
+          "probability": 0.9039181470870972
+        },
+        {
+          "word": " 더요.",
+          "start": 15.12,
+          "end": 15.62,
+          "probability": 0.9746101796627045
+        }
+      ]
+    },
+    {
+      "start": 19.12,
+      "end": 20.18,
+      "text": " 이건 왜 보냈어요?",
+      "words": [
+        {
+          "word": " 이건",
+          "start": 19.12,
+          "end": 19.48,
+          "probability": 0.9215657114982605
+        },
+        {
+          "word": " 왜",
+          "start": 19.48,
+          "end": 19.66,
+          "probability": 0.9892145991325378
+        },
+        {
+          "word": " 보냈어요?",
+          "start": 19.66,
+          "end": 20.18,
+          "probability": 0.9812275916337967
+        }
+      ]
+    },
+    {
+      "start": 20.6,
+      "end": 23.12,
+      "text": " 안 됐던 것도 빠짐없이 달라면서요.",
+      "words": [
+        {
+          "word": " 안",
+          "start": 20.6,
+          "end": 20.82,
+          "probability": 0.78310626745224
+        },
+        {
+          "word": " 됐던",
+          "start": 20.82,
+          "end": 21.1,
+          "probability": 0.9636852343877157
+        },
+        {
+          "word": " 것도",
+          "start": 21.1,
+          "end": 21.38,
+          "probability": 0.9817376732826233
+        },
+        {
+          "word": " 빠짐없이",
+          "start": 21.38,
+          "end": 22.24,
+          "probability": 0.961517870426178
+        },
+        {
+          "word": " 달라면서요.",
+          "start": 22.24,
+          "end": 23.12,
+          "probability": 0.9568759948015213
+        }
+      ]
+    },
+    {
+      "start": 27.5,
+      "end": 28.86,
+      "text": " 반품 잠깐.",
+      "words": [
+        {
+          "word": " 반품",
+          "start": 27.5,
+          "end": 28.16,
+          "probability": 0.9025053381919861
+        },
+        {
+          "word": " 잠깐.",
+          "start": 28.16,
+          "end": 28.86,
+          "probability": 0.9035024046897888
+        }
+      ]
+    },
+    {
+      "start": 31.05,
+      "end": 32.49,
+      "text": " 이건 직접 들어야겠네요.",
+      "words": [
+        {
+          "word": " 이건",
+          "start": 31.05,
+          "end": 31.45,
+          "probability": 0.9723753333091736
+        },
+        {
+          "word": " 직접",
+          "start": 31.45,
+          "end": 31.69,
+          "probability": 0.9997075200080872
+        },
+        {
+          "word": " 들어야겠네요.",
+          "start": 31.69,
+          "end": 32.49,
+          "probability": 0.9744623601436615
+        }
+      ]
+    },
+    {
+      "start": 34.25,
+      "end": 34.87,
+      "text": " 제가 갈게요.",
+      "words": [
+        {
+          "word": " 제가",
+          "start": 34.25,
+          "end": 34.37,
+          "probability": 0.9329619407653809
+        },
+        {
+          "word": " 갈게요.",
+          "start": 34.37,
+          "end": 34.87,
+          "probability": 0.9912291765213013
+        }
+      ]
+    }
+  ]
+}

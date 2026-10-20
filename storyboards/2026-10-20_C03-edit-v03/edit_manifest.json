@@ -1,0 +1,345 @@
+{
+  "status": "revised review edit; independent and cross visual sample review complete; actual listening pending",
+  "concept": "V8 C03 환경까지 가져왔습니다",
+  "file": "C03_review_edit_v03_45s.mp4",
+  "duration_seconds": 44.75,
+  "dimensions": [
+    1280,
+    720
+  ],
+  "fps": 24,
+  "decoded_frames": 1074,
+  "timeline": [
+    {
+      "cut": "K01",
+      "source": "2026-10-20_C03-flow-run08/C03_K01_take02.mp4",
+      "source_in": 0,
+      "source_out": 6,
+      "start": 0,
+      "end": 6
+    },
+    {
+      "cut": "K02",
+      "source": "2026-10-19_C03-flow-run01/C03_K02_take01.mp4",
+      "source_in": 0,
+      "source_out": 4,
+      "start": 6,
+      "end": 10
+    },
+    {
+      "cut": "K03",
+      "source": "2026-10-19_C03-flow-run01/C03_K03_take01.mp4",
+      "source_in": 0,
+      "source_out": 2.5,
+      "start": 10,
+      "end": 12.5
+    },
+    {
+      "cut": "K03_done",
+      "source": "2026-10-20_C03-flow-run05/C03_K03_insert_take02.mp4",
+      "source_in": 6,
+      "source_out": 7,
+      "start": 12.5,
+      "end": 13.5
+    },
+    {
+      "cut": "K04",
+      "source": "2026-10-20_C03-flow-run03/C03_K04_take02.mp4",
+      "source_in": 0,
+      "source_out": 3.5,
+      "start": 13.5,
+      "end": 17.0
+    },
+    {
+      "cut": "K04_cuff",
+      "source": "2026-10-20_C03-flow-run06/C03_K04_insert_take05.mp4",
+      "source_in": 2.25,
+      "source_out": 5.75,
+      "start": 17.0,
+      "end": 20.5
+    },
+    {
+      "cut": "K05_listen",
+      "source": "2026-10-20_C03-flow-run09/C03_K05_question_take05.mp4",
+      "source_in": 0,
+      "source_out": 1,
+      "start": 20.5,
+      "end": 21.5
+    },
+    {
+      "cut": "K05",
+      "source": "2026-10-20_C03-flow-run03/C03_K05_take03.mp4",
+      "source_in": 1.25,
+      "source_out": 4.75,
+      "start": 21.5,
+      "end": 25.0
+    },
+    {
+      "cut": "K06_before",
+      "source": "2026-10-19_C03-flow-run02/C03_K06_take01.mp4",
+      "source_in": 0,
+      "source_out": 1.25,
+      "start": 25.0,
+      "end": 26.25
+    },
+    {
+      "cut": "K06_records",
+      "source": "2026-10-20_C03-flow-run08/C03_K06_insert_take01.mp4",
+      "source_in": 0,
+      "source_out": 2,
+      "start": 26.25,
+      "end": 28.25
+    },
+    {
+      "cut": "K06_after",
+      "source": "2026-10-19_C03-flow-run02/C03_K06_take01.mp4",
+      "source_in": 3.25,
+      "source_out": 5.75,
+      "start": 28.25,
+      "end": 30.75
+    },
+    {
+      "cut": "K07",
+      "source": "2026-10-20_C03-flow-run03/C03_K07_take02.mp4",
+      "source_in": 0,
+      "source_out": 6,
+      "start": 30.75,
+      "end": 36.75
+    },
+    {
+      "cut": "K08",
+      "source": "2026-10-20_C03-flow-run03/C03_K08_take02.mp4",
+      "source_in": 0,
+      "source_out": 8,
+      "start": 36.75,
+      "end": 44.75
+    }
+  ],
+  "captions": [
+    [
+      0,
+      2.55,
+      "결과 말고, 어떻게 했는지도요."
+    ],
+    [
+      6.0,
+      8.15,
+      "작업 환경, 도착했습니다."
+    ],
+    [
+      10.0,
+      11.8,
+      "정확히 같이 나오네요."
+    ],
+    [
+      14.2,
+      15.85,
+      "아직 하나 더요."
+    ],
+    [
+      18.65,
+      20.45,
+      "이건 왜 보냈어요?"
+    ],
+    [
+      20.65,
+      23.5,
+      "안 됐던 것도 빠짐없이 달라면서요."
+    ],
+    [
+      27.35,
+      29.1,
+      "반품… 잠깐."
+    ],
+    [
+      30.75,
+      33.0,
+      "이건 직접 들어야겠네요."
+    ],
+    [
+      33.25,
+      35.3,
+      "제가 갈게요."
+    ]
+  ],
+  "audio_events": [
+    {
+      "source": "2026-10-20_C03-flow-run08/C03_K01_take02.mp4",
+      "source_in": 0,
+      "source_out": 6,
+      "at": 0,
+      "gain": 0.85,
+      "role": "original sync"
+    },
+    {
+      "source": "2026-10-19_C03-flow-run01/C03_K02_take01.mp4",
+      "source_in": 0,
+      "source_out": 4,
+      "at": 6,
+      "gain": 0.65,
+      "role": "original sync"
+    },
+    {
+      "source": "2026-10-19_C03-flow-run01/C03_K03_take01.mp4",
+      "source_in": 0,
+      "source_out": 2.5,
+      "at": 10,
+      "gain": 0.85,
+      "role": "original sync"
+    },
+    {
+      "source": "2026-10-20_C03-flow-run03/C03_K04_take02.mp4",
+      "source_in": 0,
+      "source_out": 3.5,
+      "at": 13.5,
+      "gain": 0.65,
+      "role": "original sync"
+    },
+    {
+      "source": "2026-10-20_C03-flow-run03/C03_K05_take03.mp4",
+      "source_in": 1.25,
+      "source_out": 4.75,
+      "at": 21.5,
+      "gain": 0.18,
+      "role": "original sync"
+    },
+    {
+      "source": "2026-10-20_C03-flow-run03/C03_K07_take02.mp4",
+      "source_in": 0,
+      "source_out": 6,
+      "at": 30.75,
+      "gain": 0.75,
+      "role": "original sync"
+    },
+    {
+      "source": "2026-10-20_C03-flow-run03/C03_K08_take02.mp4",
+      "source_in": 0,
+      "source_out": 8,
+      "at": 36.75,
+      "gain": 0.9,
+      "role": "original sync"
+    },
+    {
+      "source": "2026-10-19_C03-flow-run01/C03_K03_take01.mp4",
+      "source_in": 4.5,
+      "source_out": 5.5,
+      "at": 12.5,
+      "gain": 0.3,
+      "role": "nonverbal ambient bridge"
+    },
+    {
+      "source": "2026-10-20_C03-flow-run03/C03_K04_take02.mp4",
+      "source_in": 4.5,
+      "source_out": 8,
+      "at": 17,
+      "gain": 0.22,
+      "role": "nonverbal ambient bridge"
+    },
+    {
+      "source": "2026-10-20_C03-flow-run03/C03_K05_take03.mp4",
+      "source_in": 0,
+      "source_out": 1,
+      "at": 20.5,
+      "gain": 0.18,
+      "role": "ambient bridge under new silent listening picture"
+    },
+    {
+      "source": "2026-10-19_C03-flow-run01/C03_K05_take01.mp4",
+      "source_in": 2.4,
+      "source_out": 4.2,
+      "at": 18.65,
+      "gain": 0.75,
+      "role": "R offscreen question J-cut over prior cuff picture"
+    },
+    {
+      "source": "2026-10-19_C03-flow-run02/VO_C03_S_take01.mp4",
+      "source_in": 0,
+      "source_out": 2.7,
+      "at": 20.65,
+      "gain": 0.6,
+      "role": "offscreen telephone S"
+    },
+    {
+      "source": "2026-10-19_C03-flow-run02/C03_K06_take01.mp4",
+      "source_in": 0,
+      "source_out": 5.75,
+      "at": 25,
+      "gain": 1.15,
+      "role": "K06 original continuous dialogue under insert"
+    }
+  ],
+  "original_sha256": {
+    "2026-10-19_C03-flow-run02/C03_K06_take01.mp4": "2f3cfc06a9579d3aca160150b39fefccc83775750c1109387fb3f948c046a6c3",
+    "2026-10-20_C03-flow-run08/C03_K01_take02.mp4": "4b34416b828e344d1694b76b7f07c30e2c434b9267000c28df88601912dbb545",
+    "2026-10-19_C03-flow-run02/VO_C03_S_take01.mp4": "0fbad48dd96b679b77391f9ce21a648eb56457365398a8d4a9c5b17e535cfb09",
+    "2026-10-19_C03-flow-run01/C03_K02_take01.mp4": "7cd2ebd0524cd928786594c9e2a357a232ecd8e7eaae4f0959f1bee893cf75d5",
+    "2026-10-19_C03-flow-run01/C03_K05_take01.mp4": "0ba5cacd054de669a36b95fc1cb24d1306e299ddccf9c86630f810630cedd51e",
+    "2026-10-20_C03-flow-run03/C03_K05_take03.mp4": "d635759eeeb38c7de2f051e8928e7039c27e51569e682d0e594d8c3c6baa0036",
+    "2026-10-20_C03-flow-run08/C03_K06_insert_take01.mp4": "0e97c8258f1cb2ace5080840b87c9b0a7641e3cdfb8e500035a4fa98e0ef848c",
+    "2026-10-20_C03-flow-run09/C03_K05_question_take05.mp4": "2d683a5a89286f40b35c35f4c5ad5cb0d757a063abd27bdaf0aa37a0db0a6d89",
+    "2026-10-19_C03-flow-run01/C03_K03_take01.mp4": "8e2f2621ef49587d1734f0332647d6fc86f0fb9416ef443326f2f35d309a8b93",
+    "2026-10-20_C03-flow-run05/C03_K03_insert_take02.mp4": "1c19dda3cdd6a1a1c5f0a9e27eebb7b7a92d380998e0fa9c4cbd0fa7c3e404ee",
+    "2026-10-20_C03-flow-run03/C03_K04_take02.mp4": "9b5bfe6df63a530b7545eb269ace505b8719f89f89a8e502ab5607fbd8dae8cf",
+    "2026-10-20_C03-flow-run06/C03_K04_insert_take05.mp4": "d6c31fdef71a05c75bcc07c63ad64f0d18fb201b3e4b88fce4c96414af33f0cc",
+    "2026-10-20_C03-flow-run03/C03_K07_take02.mp4": "f683f80eb7122213bdb918c3e0ce88b352ba4509daf7a474272a8ef95ab03d67",
+    "2026-10-20_C03-flow-run03/C03_K08_take02.mp4": "d95349e114ec385f21054df106892f9fdfd6cd56ee5bccc9fbfa6b7c44000450"
+  },
+  "original_files_unchanged": true,
+  "new_flow_requests": 2,
+  "new_credits_used": 20,
+  "graphics": {
+    "K03": "Same three boxes, reference/result, laptop perspective composite for 2.5s",
+    "K06": "New real motion closeup with diagrams on both inner pages, 26.25–28.25s",
+    "ending": "39.75–44.75s fixed event title and attendance invitation"
+  },
+  "pd_changes": [
+    "Removal action replaced by 1s bare-hand end state; insertion omitted before cuff adjustment.",
+    "K05 old question moved before the picture cut; new silent first1s is listening only, then existing clean pickup. No lipsync claim or voice speed alteration.",
+    "K05 total picture trimmed by1s; all following segments and ending move1s earlier.",
+    "New K01 physical shadow and upward reaction used through6s.",
+    "New K06 inner-page insert replaces2s within original scene; original voice unchanged.",
+    "K06 gathering files to K07 held files is a temporal ellipsis."
+  ],
+  "technical": {
+    "full_decode_pass": true,
+    "frames": 1074,
+    "originals_unchanged": true,
+    "decoded_pcm_peak": 0.841590166091919,
+    "full_scale_samples": 0,
+    "pre_master_loudness": {
+      "input_i": "-18.63",
+      "input_tp": "-1.64",
+      "input_lra": "17.60",
+      "input_thresh": "-31.89",
+      "output_i": "-20.13",
+      "output_tp": "-1.66",
+      "output_lra": "10.90",
+      "output_thresh": "-32.24",
+      "normalization_type": "dynamic",
+      "target_offset": "2.13"
+    },
+    "final_loudness": {
+      "input_i": "-18.35",
+      "input_tp": "-1.49",
+      "input_lra": "11.90",
+      "input_thresh": "-30.41",
+      "output_i": "-19.62",
+      "output_tp": "-1.50",
+      "output_lra": "8.20",
+      "output_thresh": "-31.26",
+      "normalization_type": "dynamic",
+      "target_offset": "1.62"
+    }
+  },
+  "limitations": [
+    "No actual listening, continuous playback, pronunciation or lip-sync verification claimed.",
+    "New synchronous question audio not achieved. Run09 partial-prompt reaction excluded; silent full-question first1s used only as listening.",
+    "Question is a J-cut over cuff picture; speaker/referent comprehension needs actual viewing/listening.",
+    "Small21.5s pose/phone change accepted as an editorial cut, not continuous same-take motion.",
+    "Glove removal/insertion remain state ellipses; original full physical action not restored.",
+    "Review edit, not user-approved final film."
+  ],
+  "sha256": "5771b164a21879545256b2c74d9dfb68953c73c76cb102885a2a87586f949e67",
+  "bytes": 18723373,
+  "review_record": "review_summary.json"
+}

@@ -1,0 +1,108 @@
+{
+  "actual_listening": false,
+  "method": "faster-whisper small CPU int8; explicit .5L+.5R downmix",
+  "files": {
+    "C03_K05_reaction_take01.mp4": [
+      {
+        "start": 1.15,
+        "end": 2.15,
+        "text": " 타이밍을 이해할 수 있습니다.",
+        "words": [
+          {
+            "word": " 타이밍을",
+            "start": 1.15,
+            "end": 1.89,
+            "probability": 0.35914981812238694
+          },
+          {
+            "word": " 이해할",
+            "start": 1.89,
+            "end": 1.89,
+            "probability": 0.2589799761772156
+          },
+          {
+            "word": " 수",
+            "start": 1.89,
+            "end": 1.89,
+            "probability": 0.5188189744949341
+          },
+          {
+            "word": " 있습니다.",
+            "start": 1.89,
+            "end": 2.15,
+            "probability": 0.11510633677244186
+          }
+        ]
+      },
+      {
+        "start": 2.31,
+        "end": 4.61,
+        "text": " 그러나, Tuesday에 적용할 필요가 필요합니다.",
+        "words": [
+          {
+            "word": " 그러나,",
+            "start": 2.31,
+            "end": 2.53,
+            "probability": 0.48844614438712597
+          },
+          {
+            "word": " Tuesday에",
+            "start": 2.91,
+            "end": 4.61,
+            "probability": 0.27788496017456055
+          },
+          {
+            "word": " 적용할",
+            "start": 4.61,
+            "end": 4.61,
+            "probability": 0.24324123126765093
+          },
+          {
+            "word": " 필요가",
+            "start": 4.61,
+            "end": 4.61,
+            "probability": 0.32400745898485184
+          },
+          {
+            "word": " 필요합니다.",
+            "start": 4.61,
+            "end": 4.61,
+            "probability": 0.5461954772472382
+          }
+        ]
+      },
+      {
+        "start": 5.25,
+        "end": 5.93,
+        "text": " 오케이.",
+        "words": [
+          {
+            "word": " 오케이.",
+            "start": 5.25,
+            "end": 5.93,
+            "probability": 0.12984225153923035
+          }
+        ]
+      },
+      {
+        "start": 6.29,
+        "end": 6.89,
+        "text": " 일을 해볼까요.",
+        "words": [
+          {
+            "word": " 일을",
+            "start": 6.29,
+            "end": 6.39,
+            "probability": 0.2586859427392483
+          },
+          {
+            "word": " 해볼까요.",
+            "start": 6.39,
+            "end": 6.89,
+            "probability": 0.20816774169603983
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "file": "C03_K05_question_take05.mp4",
+  "bytes": 1686376,
+  "sha256": "2d683a5a89286f40b35c35f4c5ad5cb0d757a063abd27bdaf0aa37a0db0a6d89",
+  "duration_seconds": 8.0,
+  "streams": [
+    {
+      "type": "video",
+      "codec": "h264",
+      "width": 1280,
+      "height": 720,
+      "frame_rate": "24/1"
+    }
+  ],
+  "decoded_video_frames": 192,
+  "full_video_decode_pass": true,
+  "audio_track_present": false,
+  "file_kind": "downloaded_original",
+  "inspection_reencodes_file": false,
+  "limitation": "Technical decoding and extracted frames; not actual listening or continuous visual playback."
+}

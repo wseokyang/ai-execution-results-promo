@@ -1,0 +1,66 @@
+{
+  "concept": "V8 C03 환경까지 가져왔습니다",
+  "artifact": "C03_review_edit_v03_45s.mp4",
+  "duration_seconds": 44.75,
+  "reviewers": {
+    "A": "/root/c03_edit_review_a",
+    "B": "/root/c03_edit_review_b",
+    "C": "/root/v8_review_c"
+  },
+  "method": "Three distinct reviewers independently open five contact sheets and selected full-resolution PNGs extracted from the actual v03 MP4, then cross-check findings.",
+  "independent": {
+    "A": {
+      "A-EV3-01": "Required metadata correction: manifest46s filename differs from actual45s file.",
+      "A-EV3-02": "Small21.458–21.500 head/phone/arm jump, but desk-to-pickup sequence intact; optional.",
+      "A-EV3-03": "Question on cuff picture has temporarily ambiguous speaker/referent without audio; actual viewing/listening pending, not established defect.",
+      "A-EV3-04": "Caption timing moved without overlap, page comparison2s and wide continuity maintained; no closing-page graphic residue.",
+      "A-EV3-05": "Ending5s readable, shadow and room expansion plus attendance conclusion maintained."
+    },
+    "B": {
+      "B-EV3-01": "Same filename metadata correction required.",
+      "B-EV3-02": "Small phone/head/right-hand change at21.5, optional refinement only if playback distracting.",
+      "B-EV3-03": "Speaker not labelled in cuff question subtitle; audio attribution not verified.",
+      "other": "Five contacts and critical boundary PNGs show intact files, page graphics and readable5s ending; no mandatory visual issue."
+    },
+    "C": {
+      "C-EV3-01": "Small21.5s head/phone/right-hand jump, no folder reset; optional only.",
+      "C-EV3-02": "Cuff picture may make question refer to glove without audio; actual listening required.",
+      "C-EV3-03": "Page diagrams in wide/closeup/return, caption and pickup order, attendance decision and5s ending maintained.",
+      "C-EV3-04": "Initial metadata filename issue, later recheck requested."
+    }
+  },
+  "cross_review": {
+    "A": "Agrees B/C optional jump, no file reversal and stable page/ending. Actually rechecked manifest filename and file existence; required metadata issue resolved.",
+    "B": "Agrees A/C, no required render revision. Rechecked manifest, reproduction code and actual file45s name; metadata issue resolved.",
+    "C": "Agrees A/B no mandatory visual issue and optional pose jump. Actually rechecked corrected manifest and file existence. Listening and realtime comprehension remain unverified."
+  },
+  "fixes": [
+    {
+      "ids": ["A-EV3-01", "B-EV3-01"],
+      "action": "Manifest file value changed to C03_review_edit_v03_45s.mp4; renderer and transcription defaults corrected to same name.",
+      "status": "resolved_rechecked_by_A_B_C"
+    }
+  ],
+  "final_visual_status": "PASS_sampled_with_editorial_limitations",
+  "pd_decisions": [
+    "Use only first1s of silent new question as listening; retain old question and phone-answer recordings, no speech synthesis or speed changes.",
+    "Exclude accidental partial-prompt reaction entirely.",
+    "Accept small21.5s pose transition as an editorial cut; no claim of continuous same-take action.",
+    "J-cut speaker/referent comprehension remains actual viewing/listening question.",
+    "K06 and following sound/captions/title moved1s earlier together. Ending retains5s."
+  ],
+  "technical": {
+    "decoded_frames": 1074,
+    "full_decode_pass": true,
+    "original_sha256_unchanged": true,
+    "asr_lines_detected": 9,
+    "decoded_pcm_peak": 0.841590166091919,
+    "full_scale_samples": 0
+  },
+  "limitations": [
+    "Actual audio listening and continuous playback not performed.",
+    "Pronunciation, voice continuity, word endings and lip sync not certified.",
+    "New synchronous question audio was not obtained.",
+    "This is a review edit, not final user-approved film or measured audience response."
+  ]
+}

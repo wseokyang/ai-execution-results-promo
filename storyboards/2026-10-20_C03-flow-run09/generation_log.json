@@ -1,0 +1,164 @@
+{
+  "run_id": "2026-10-20_C03-flow-run09",
+  "status": "two_outputs_preserved_reviewed_separately",
+  "user_authorization": "20 다 사용해서 모자란 부분 다 완성하고 영상 편집까지 시작하자",
+  "supersedes": "Previous preserve20 recommendation; user explicitly reauthorizes20 spend. New split-shot Lite workflow, not same failed Fast request.",
+  "project_url": "https://flow.google.com/project/c105a8ef-b295-4fc4-907c-1eb8e025245d",
+  "account_label": "Current user-selected PLUS account; no agent switching",
+  "starting_credits": 20,
+  "last_observed_credits": 0,
+  "plan": [
+    {
+      "cut": "C03_K05_question",
+      "take": 5,
+      "model": "Veo3.1 Lite",
+      "cost": 10
+    },
+    {
+      "cut": "C03_K05_pickup",
+      "take": 1,
+      "model": "Veo3.1 Lite",
+      "cost": 10
+    }
+  ],
+  "input_start": "images/C03_K05_smartphone.png",
+  "input_sha256": "f341f590ecf3a79208a0ee5bdb9d1da4214774d40fa0edfff5cd979c3eb1743a",
+  "settings_observed": {
+    "mode": "Frames first only",
+    "ratio": "16:9",
+    "resolution": "720p",
+    "seconds": 8,
+    "outputs": 1,
+    "model": "Veo3.1 Lite",
+    "cost": 10,
+    "silent_fallback": true
+  },
+  "reason": "Improve synchronous question picture and same-phone same-angle file pickup. Voice fallback may produce no audio; actual result must be verified.",
+  "requests": [
+    {
+      "cut_id": "C03_K05_reaction",
+      "take": 1,
+      "submitted_at_utc_approx": "2026-10-20T09:27:32.727Z",
+      "timestamp_note": "Recorded after submission was detected; not exact click time",
+      "model": "Veo 3.1 Lite",
+      "quoted_cost": 10,
+      "credits_before": 20,
+      "credits_after": 10,
+      "actual_deduction": 10,
+      "refund": 0,
+      "status": "completed_downloaded",
+      "prompt_file": "prompts/C03_K05_reaction_take01_submitted.txt",
+      "submitted_prompt_exact": "8-second realistic live-action shot continuing from the first frame. Fixed camera, the same woman and room. Her left hand keeps the same flat black cordless smartphone at her left ear. Her right hand rests on the same closed orange folder on the desk.\r",
+      "input_start": "images/C03_K05_smartphone.png",
+      "input_sha256": "f341f590ecf3a79208a0ee5bdb9d1da4214774d40fa0edfff5cd979c3eb1743a",
+      "settings": {
+        "mode": "Frames first only",
+        "ratio": "16:9",
+        "resolution": "720p",
+        "seconds": 8,
+        "outputs": 1,
+        "model": "Veo3.1 Lite",
+        "cost": 10,
+        "silent_fallback": true
+      },
+      "incident": "Multiline typeText newline submitted first paragraph before dialogue text. Detected from new card and20→10. Do not claim question was submitted. Remaining planned full text was left in composer; second request will be filled safely and verified.",
+      "asset_id": "13df7133-2ab1-45e9-ab42-5d904802674f",
+      "original": "C03_K05_reaction_take01.mp4",
+      "technical": {
+        "file": "C03_K05_reaction_take01.mp4",
+        "bytes": 2173283,
+        "sha256": "2f077ca504ad72a34d980f557713c792a6238b0e89e7c41ba932af1af181ca18",
+        "duration_seconds": 8.0,
+        "streams": [
+          {
+            "type": "video",
+            "codec": "h264",
+            "width": 1280,
+            "height": 720,
+            "frame_rate": "24/1"
+          },
+          {
+            "type": "audio",
+            "codec": "aac"
+          }
+        ],
+        "decoded_video_frames": 192,
+        "full_video_decode_pass": true,
+        "audio_track_present": true,
+        "file_kind": "downloaded_original",
+        "inspection_reencodes_file": false,
+        "limitation": "Technical decoding and extracted frames; not actual listening or continuous visual playback."
+      },
+      "download_sha256_matches": true,
+      "original_reencoded": false,
+      "review_status": "see review_summary.json"
+    },
+    {
+      "cut_id": "C03_K05_question",
+      "take": 5,
+      "submitted_at_utc": "2026-10-20T09:28:39.686Z",
+      "model": "Veo 3.1 Lite",
+      "quoted_cost": 10,
+      "credits_before": 10,
+      "credits_after": 0,
+      "actual_deduction": 10,
+      "refund": 0,
+      "status": "completed_downloaded",
+      "prompt_file": "prompts/C03_K05_question_take05_submitted.txt",
+      "submitted_prompt_exact": "8-second realistic live-action shot continuing from the first frame. Fixed camera, the same woman and room. Her left hand keeps the same flat black cordless smartphone at her left ear. Her right hand rests on the same closed orange folder on the desk. In a calm natural Korean female conversational voice, she asks once: \"이건 왜 보냈어요?\" Begin after a brief pause, finish the short question naturally, then close her mouth and listen. Keep her head orientation and both hands steady. No additional words, no file handling, no phone cable, no other people. Quiet room ambience, no music, no captions.",
+      "input_start": "images/C03_K05_smartphone.png",
+      "input_sha256": "f341f590ecf3a79208a0ee5bdb9d1da4214774d40fa0edfff5cd979c3eb1743a",
+      "settings": {
+        "mode": "Frames first only",
+        "ratio": "16:9",
+        "resolution": "720p",
+        "seconds": 8,
+        "outputs": 1,
+        "model": "Veo3.1 Lite",
+        "cost": 10,
+        "silent_fallback": true
+      },
+      "asset_id": "6d10f57e-5fe8-40ea-be80-ad865f4aca69",
+      "original": "C03_K05_question_take05.mp4",
+      "technical": {
+        "file": "C03_K05_question_take05.mp4",
+        "bytes": 1686376,
+        "sha256": "2d683a5a89286f40b35c35f4c5ad5cb0d757a063abd27bdaf0aa37a0db0a6d89",
+        "duration_seconds": 8.0,
+        "streams": [
+          {
+            "type": "video",
+            "codec": "h264",
+            "width": 1280,
+            "height": 720,
+            "frame_rate": "24/1"
+          }
+        ],
+        "decoded_video_frames": 192,
+        "full_video_decode_pass": true,
+        "audio_track_present": false,
+        "file_kind": "downloaded_original",
+        "inspection_reencodes_file": false,
+        "limitation": "Technical decoding and extracted frames; not actual listening or continuous visual playback."
+      },
+      "download_sha256_matches": true,
+      "original_reencoded": false,
+      "review_status": "see review_summary.json"
+    }
+  ],
+  "constraints": "No new purchase, account switching, paid upscale, public post, automation resume. Restore silent fallbackOFF. Preserve all originals and prior edits.",
+  "ending_credits": 0,
+  "total_deduction": 20,
+  "total_refund": 0,
+  "net_credits_used": 20,
+  "cumulative_c03_originals": 23,
+  "active_generation_count": 0,
+  "silent_fallback_restored_off": true,
+  "proof": "proof/completed_and_mute_off.png",
+  "plan_change": "First partial prompt submitted on typeText newline. Last10 reassigned to full question only; planned new pickup not submitted. Existing run03 clean pickup retained.",
+  "quality_outcomes": [
+    "Reaction has unrequested ASR speech and phone lowers to chin; original preserved, audio excluded.",
+    "Question returned video without audio; no synchronous question voice success.",
+    "Partial first1.25s listening picture considered for edit; full acceptance governed by review."
+  ]
+}

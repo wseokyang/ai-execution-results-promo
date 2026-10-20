@@ -1,0 +1,43 @@
+{
+  "run_id": "2026-10-20_C03-flow-run09",
+  "method": "Three distinct agents independently opened both actual 32-frame contact sheets and selected original-resolution extracted PNGs, then cross-checked other findings.",
+  "independent": {
+    "A": {
+      "A-R09-01": "Question has no audio. Do not claim synchronous question or force old voice to visible mouth.",
+      "A-R09-02": "Question0–1s listening candidate. Phone, right hand and closed orange folder stable. Long open-mouth expression after3.25s unsuitable for long listening.",
+      "A-R09-03": "Reaction1–2.25s reserve only; later forklift, hand leaving file and phone movement. AAC excluded.",
+      "A-R09-04": "New listening must precede pickup, otherwise folder resets to desk."
+    },
+    "B": {
+      "B-R09-01": "Question turns at1.5s and mouth open at3/6s; no voice alignment evidence.",
+      "B-R09-02": "No sampled coil cord, second phone or extra hand. Hidden early reaction phone not proven absent.",
+      "B-R09-03": "Question0–1.25s or reaction0.75–2.25s optional short listening; do not lengthen just to use.",
+      "B-R09-04": "Reaction forklift at4.5s and right hand away at7.75s make later pickup transition unsuitable.",
+      "B-R09-05": "Exclude unrequested reaction audio; ASR is not listening."
+    },
+    "C": {
+      "C-R09-01": "No sampled coil, phone duplication or added hand; closed folder remains on desk.",
+      "C-R09-02": "Reaction phone under chin by3.25s and lowered by7.5s; forklift later.",
+      "C-R09-03": "Question0–1.25s quiet, then turn and prolonged mouth movement. No synchronous-voice success.",
+      "C-R09-04": "Short listening before old pickup is possible, not a necessary improvement over v02.",
+      "C-R09-05": "Unrequested reaction ASR speech is not independently heard."
+    }
+  },
+  "cross_review": {
+    "A": "Agrees B/C windows and C phone-under-chin observation. Conservative1s question listening before pickup, offscreen Q and shifted captions accepted; verify21.5s head jump.",
+    "B": "Agrees A/C restrictions. PD J-cut accepted, but worker-image speaker attribution and21.5s hand/head/phone jump require render check; move every later track1s.",
+    "C": "Agrees A/B. PD offscreen question then listening/pickup accepted; possible mistaken glove referent for 'this' and21.5s match require render check."
+  },
+  "pd_resolution": {
+    "reaction": "Preserve raw; exclude picture and audio from v03.",
+    "question": "Use source0–1s only for listening, not speech. Question voice remains old run01 recording, offscreen before this picture.",
+    "pickup": "Retain actual run03 pickup1.25–4.75s. New pickup request was not submitted after first input incident.",
+    "v03": "Question18.65–20.45 over prior cuff shot; listening20.5–21.5; pickup21.5–25; phone answer20.65–23.35; K06 onward1s earlier; total44.75s.",
+    "scope": "Exact synchronous question enhancement not achieved. Editing alternative is separately reviewed."
+  },
+  "limitations": [
+    "Actual audio listening, continuous playback and lip sync not verified.",
+    "ASR does not certify reaction words or question pronunciation.",
+    "All original MP4s preserved without re-encoding."
+  ]
+}
