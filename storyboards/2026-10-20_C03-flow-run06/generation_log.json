@@ -1,0 +1,97 @@
+{
+  "run_id": "2026-10-20_C03-flow-run06",
+  "user_authorization": "2026-10-20: 10크레딧 남았으니까 한번 더 시도해봐. Explicit one further Lite request overrides previous stop recommendation.",
+  "project_url": "https://flow.google.com/u/3/project/ae9e0683-9828-484b-a182-68bb08987cdb",
+  "account_label": "same current /u/3 account; no account switch",
+  "starting_credits": 10,
+  "ui_renewal_text": "크레딧은 매일 오전 11:11에 갱신됩니다.",
+  "status": "complete_one_requested_attempt_reviewed_and_preserved",
+  "request_limit": 1,
+  "planned_cut": "C03_K04_insert_take05",
+  "planned_model": "Veo 3.1 Lite",
+  "quoted_cost": 10,
+  "settings_observed": "Frames,16:9,720p,8seconds,x1,Lite10",
+  "method_change": "New first frame with both gloves already worn, visible right wrist and opposite hand pinching right cuff. Only upward cuff tightening; no full insertion/removal. First frame only avoids forced end-pose interpolation.",
+  "prompt_file": "prompts/C03_K04_insert_take05_planned.txt",
+  "requests": [
+    {
+      "cut_id": "C03_K04",
+      "take": 5,
+      "role": "cuff_finish_insert",
+      "submitted_at_utc": "2026-10-20T03:56:25.529Z",
+      "model": "Veo 3.1 Lite",
+      "quoted_cost": 10,
+      "credits_before": 10,
+      "credits_after": 0,
+      "actual_deduction": 10,
+      "refund": 0,
+      "mode": "Frames first only",
+      "ratio": "16:9",
+      "resolution": "720p",
+      "seconds": 8,
+      "outputs": 1,
+      "silent_fallback": true,
+      "prompt_file": "prompts/C03_K04_insert_take05_submitted.txt",
+      "input_start": "images/C03/K04_finish_insert01.png",
+      "status": "completed_original_preserved_cuff_adjustment_candidate",
+      "asset_id": "1bb48bb9-ed0f-4c72-b540-5f075a9ef700",
+      "original_mp4": "C03_K04_insert_take05.mp4",
+      "download_source": "C:/Users/wseok/Downloads/Worker_adjusting_gray_knit_gloves_20261020125735.mp4",
+      "technical_metadata": {
+        "file": "C03_K04_insert_take05.mp4",
+        "bytes": 2359919,
+        "sha256": "d6c31fdef71a05c75bcc07c63ad64f0d18fb201b3e4b88fce4c96414af33f0cc",
+        "duration_seconds": 8.0,
+        "streams": [
+          {
+            "type": "video",
+            "codec": "h264",
+            "width": 1280,
+            "height": 720,
+            "frame_rate": "24/1"
+          }
+        ],
+        "decoded_video_frames": 192,
+        "full_video_decode_pass": true,
+        "audio_track_present": false,
+        "file_kind": "downloaded_original",
+        "inspection_reencodes_file": false,
+        "limitation": "Technical decoding and extracted frames; not actual listening or continuous visual playback."
+      },
+      "original_reencoded": false,
+      "download_sha256_matches": true,
+      "submitted_prompt_exact": "8-second photoreal close-up, fixed camera, same worker and clothes as the starting image. Both hands already wear gray knit gloves. The hand on the LEFT of the picture stays still with fingers pointing down. Its cuff is folded forward, leaving a strip of bare wrist above it. The hand on the RIGHT of the picture already pinches that folded cuff.\nOne small action only: the picture-right hand pulls the pinched cuff UP toward the navy sleeve on the picture-left forearm, unfolding the SAME cloth a few centimeters over the exposed wrist. Clearly show the fabric edge moving over the skin. Do not pull the other glove or remove either glove. After this single slow pull, release the cuff and hold both gloved hands naturally still for the last two seconds.\nExactly two hands and two worn gloves throughout. No loose glove, new object, skin-to-fabric transformation, camera movement, dialogue, music or text. Preserve normal hand anatomy, orange vest, navy sleeves, black trousers and daylight. This is just tightening an already-worn glove cuff.\n",
+      "input_start_sha256": "8d66a0d77aa6fc3c91c77361bd1758e37eea259c7a256c744b20eb483f41fe1d",
+      "review_record": "review_summary.json"
+    }
+  ],
+  "preserve": "Previous originals, V8 planning, legacyC01 unchanged. No purchase, upgrade, account switch, public post or automation resumption.",
+  "input_image": "images/C03/K04_finish_insert01.png",
+  "silent_fallback": true,
+  "last_observed_credits": 0,
+  "silent_fallback_restored_off": true,
+  "ending_credits": 0,
+  "net_credits_used": 10,
+  "refunds_observed": 0,
+  "new_originals": 1,
+  "c03_total_originals": 18,
+  "pending_generation_requests": 0,
+  "final_ui_settings": {
+    "model": "Veo 3.1 Lite",
+    "silent_fallback": false,
+    "composer": "empty"
+  },
+  "final_ui_evidence": "completed_ui.jpg",
+  "final_film_complete": false,
+  "quality_decision": {
+    "status": "accepted_cuff_adjustment_candidate_sampled_visual",
+    "summary_ko": "오른손 장갑의 커프를 당겨 정돈하고 놓는 동작은 시각 표본에서 통과했습니다. 전체 장갑 삽입·탈착을 해결한 것은 아닙니다.",
+    "candidate_range_seconds": [
+      2.25,
+      5.75
+    ],
+    "range_status": "Editorial recommendation only; no trimmed derivative rendered this run.",
+    "remaining": "K03 physical removal unresolved. Earlier bare-to-worn continuity needs an omission cut. C03 full edit, real-time pacing and other clips' audio remain unfinished.",
+    "whole_film_complete": false
+  }
+}

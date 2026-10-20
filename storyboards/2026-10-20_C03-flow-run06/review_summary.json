@@ -1,0 +1,36 @@
+{
+  "run_id": "2026-10-20_C03-flow-run06",
+  "image": "images/C03/K04_finish_insert01.png",
+  "method_review": {"id":"A-063","finding":"Supports changed-method finishing movement; fingers already in glove, opposite gloved hand pulls right cuff. Physical cloth edge must move over skin. Not full insertion."},
+  "image_independent_reviews": [
+    {"reviewer":"A","agent":"/root/c03_run02_review_a","actual_view":"Full-resolution PNG, one image","ids":["A-064","A-065"],"verdict":"PASS for cuff tightening only","finding":"Two hands/two gloves, no loose glove, right wrist skin and pinched cuff distinct. Fingers and back of hand already covered; do not claim half insertion."},
+    {"reviewer":"B","agent":"/root/v8_review_b","actual_view":"PNG, one image","ids":["B-064","B-065"],"verdict":"PASS for cuff tightening only","finding":"Both gloves distinct; cuff/skin boundary clear. Left hand must keep own glove and pull right cuff only; full insertion unsuitable."},
+    {"reviewer":"C","agent":"/root/v8_review_c","actual_view":"PNG, one image","ids":["C-066","C-067"],"verdict":"PASS for cuff tightening only","finding":"Two hands/two worn gloves, exposed right wrist and proper pinch. Limit to small cuff pull/release; not bare-hand insertion."}
+  ],
+  "image_cross_reviews": [
+    {"reviewer":"A","peer_ids":["B-064","B-065","C-066","C-067"],"result":"Agrees; revised prompt fits actual image and cuff direction within already-worn-glove adjustment scope."},
+    {"reviewer":"B","peer_ids":["A-064","A-065","C-066","C-067"],"result":"Agrees; screen-right hand pulls screen-left cuff toward navy sleeve then releases, matching image."},
+    {"reviewer":"C","peer_ids":["A-064","A-065","B-064","B-065"],"result":"Agrees; revised already-worn right cuff movement matches start image."}
+  ],
+  "pd_image_decision": "Accept image as cuff-tightening start. Revise prompt from partly inserted fingers to already-worn gloves, few centimeters of cuff movement. One first-frame-only Lite10 request per explicit new user instruction.",
+  "video_review_status": "three_independent_and_cross_sample_reviews_complete",
+  "video_independent_reviews": [
+    {"reviewer":"A","actual_view":"32 contact frames and 11 individual PNGs","verdict":"sampled_visual_PASS_for_cuff_adjustment","findings":[{"id":"A-066","priority":"required_condition_met","finding":"Left hand holds right cuff. At 2.5-3.25s knit edge moves toward sleeve covering exposed wrist; release at 4.5-5.25s. No wrong-glove manipulation or sudden skin-to-fabric change in samples."},{"id":"A-067","priority":"required_condition_met","finding":"Two hands/two gloves, no extra or fused glove; worn states persist at 5.25-7.75s. Clothing and outdoor background continue."},{"id":"A-068","priority":"optional","finding":"2.25-5.75s suggested to trim repeated adjustment and tail. Bare-to-gloved insertion still omitted across cuts; not full insertion success."}]},
+    {"reviewer":"B","actual_view":"32 contact frames and 9 PNGs at 0,0.75,1.5,2.5,3,3.25,4.25,5.25,7.75s","verdict":"sampled_visual_PASS_for_cuff_adjustment","findings":[{"id":"B-066","priority":"required_condition_met","finding":"Left gloved hand pulls right cuff; 2.5-3.25s edge moves over wrist skin rather than skin changing into fabric."},{"id":"B-067","priority":"required_condition_met","finding":"Two worn gloves maintained, no extra hand or empty glove. Hands separate about 5-5.25s and hold. Clothing/background continue."},{"id":"B-068","priority":"optional","finding":"2-5.5s proposed edit candidate; bare-to-worn transition still needs an omission cut."}]},
+    {"reviewer":"C","actual_view":"32 contact frames and 9 PNGs at 0,1,2,3,3.5,4.25,4.75,5.5,7.5s","verdict":"sampled_visual_PASS_for_cuff_adjustment","findings":[{"id":"C-068","priority":"required_condition_met","finding":"Left hand keeps right cuff. Folded cuff at 0-2s unfolds toward sleeve by 3-3.5s, reducing wrist skin. No skin-to-gray change found."},{"id":"C-069","priority":"required_condition_met","finding":"Two hands/two worn gloves; release at 4.75-5.25s then stable. Full insertion not solved; earlier bare state needs editorial omission."},{"id":"C-070","priority":"optional","finding":"Repeated adjustment makes full8s slow; 2-5.5s may be used after continuous-playback timing review."}]}
+  ],
+  "video_cross_reviews": [
+    {"reviewer":"A","peer_ids":["B-066","B-067","C-068","C-069","B-068","C-070"],"result":"Agrees on cloth-edge movement, skin reduction, release, two gloves and no new required sampled defect. Interval differences are editorial margins; PD2.25-5.75s acceptable. Cuff-adjustment candidate only, not full insertion/removal."},
+    {"reviewer":"B","peer_ids":["A-066","A-067","C-068","C-069","A-068","C-070"],"result":"Agrees. Both suggested intervals capture same action with different margins; accepts PD2.25-5.75s recommendation. Original preserved; full insertion/removal and continuous-playback quality not established."},
+    {"reviewer":"C","peer_ids":["A-066","A-067","B-066","B-067","A-068","B-068"],"result":"Agrees with edge movement, release, glove continuity and no new required sampled defect. PD2.25-5.75s valid recommendation; timing unverified. Preserve8s original and distinguish from full insertion/removal."}
+  ],
+  "pd_video_decision": {
+    "status":"accepted_cuff_adjustment_candidate_sampled_visual",
+    "summary_ko":"오른손 장갑의 커프를 당겨 정돈하고 놓는 동작은 시각 표본에서 통과했습니다. 전체 장갑 삽입·탈착을 해결한 것은 아닙니다.",
+    "candidate_range_seconds":[2.25,5.75],
+    "range_status":"Editorial recommendation only; no trimmed derivative rendered this run.",
+    "remaining":"K03 physical removal unresolved. Earlier bare-to-worn continuity needs an omission cut. C03 full edit, real-time pacing and other clips' audio remain unfinished.",
+    "whole_film_complete":false
+  },
+  "limitations": ["Image approval is not video action success.", "No audio listening or continuous-playback verification claimed."]
+}

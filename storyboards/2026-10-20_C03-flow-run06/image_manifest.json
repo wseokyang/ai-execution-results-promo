@@ -1,0 +1,42 @@
+{
+  "concept_id": "C03",
+  "scene_id": "K04_finish_insert01",
+  "connected_cuts": [
+    "C03_K04"
+  ],
+  "generated_scene_count": 1,
+  "requested_scene_count": 1,
+  "image_path": "storyboards/2026-10-20_C03-flow-run06/images/C03/K04_finish_insert01.png",
+  "final_prompt": "Use case: precise-object-edit.\nAsset type: one photoreal 16:9 close-up starting frame for C03 K04 glove-finishing insert.\nInput image 1 is the edit target. Preserve the camera framing, worker's torso, orange reflective safety vest, navy sleeves, black cargo pants, gray knitted work glove material, bright outdoor daylight, concrete ground, blurred glass office and industrial background. No face, helmet or text.\nChange ONLY the hand and glove arrangement into a physically clear PRE-FINISH state:\nThe anatomical RIGHT hand, on the viewer's LEFT, is now already inside its own gray knitted right glove: all FIVE digits INCLUDING the thumb are fully seated in their corresponding closed cloth fingers. NO bare fingertip and no bare thumb may remain. However, the elastic cuff of that RIGHT glove is still bunched/folded back at the MIDDLE of the BACK of the right hand, not yet pulled down to the wrist. Thus the lower back of the right hand and the entire right wrist remain visibly bare skin between the navy sleeve and the folded gray cuff. Show a crisp, plausible cloth-to-skin boundary. The right hand is angled slightly diagonally downward toward the center, back of hand visible to camera, fingers relaxed and separated enough to read their correct anatomy.\nThe anatomical LEFT hand, on the viewer's RIGHT, remains fully covered in its own intact left gray glove, with its cuff correctly at its own wrist. Its thumb and forefinger gently pinch ONLY the folded cuff edge of the RIGHT glove, preparing to pull that cuff toward the RIGHT wrist. The left hand is NOT gripping or peeling its own left glove. Make the two wrists, two arms and two gloves clearly traceable and visually separate, with no fused palm mass.\nRemove the separate empty hanging glove entirely because that glove is now partially donned on the right hand. Exactly TWO hands and TWO gloves total, each glove belongs to a separate hand. No loose third glove, no extra limb, no extra fingers.\nThis is the START state before a subsequent video pulls the RIGHT cuff over the right wrist. Do not depict both gloves already fully worn to the wrists. Preserve natural textile folds and realistic human anatomy. No added props, writing, logos, speech, collage or graphics.",
+  "actual_reference_image_paths": [
+    "storyboards/2026-10-20_C03-flow-run04/images/C03/K04_insert01.png"
+  ],
+  "prompt_path": "storyboards/2026-10-20_C03-flow-run06/image_prompt.txt",
+  "generation_tool": "built-in image_gen.imagegen, referenced_image_paths edit",
+  "generated_source_path": "C:/Users/wseok/.codex/generated_images/01a15716-3c98-77e0-93f1-bfd4b0052f47/exec-f893be30-e5dd-4b07-8d62-80d71e35b86b.png",
+  "generation_count": 1,
+  "transparent_background": false,
+  "width": 1672,
+  "height": 941,
+  "byte_count": 2021249,
+  "sha256": "8d66a0d77aa6fc3c91c77361bd1758e37eea259c7a256c744b20eb483f41fe1d",
+  "aspect_ratio_note": "Native output 1672×941, approximately 16:9. No image re-encoding, crop or resizing.",
+  "motion_camera_note": "Static waist close-up. Finish putting on anatomical RIGHT glove (screen-left): the already-gloved left hand (screen-right) pulls only the right glove cuff over the visible right wrist. All fingers start inside the gloves. No insertion of fingers, no extra glove.",
+  "review_status": "PD accepted shorter cuff-adjustment scope; three actual-image independent/cross reviews complete",
+  "actual_observations": [
+    "Two visible hands, each in one gray knitted glove; no separate empty glove",
+    "All right-hand fingers including thumb covered; bare right wrist/lower forearm clearly visible",
+    "Screen-right left glove pinches the folded cuff edge of screen-left right glove; own left cuff remains at left wrist",
+    "Original orange vest/navy sleeves/black trousers and sunny concrete/glass-office background maintained",
+    "No face, text or extra props"
+  ],
+  "deviation_from_request": "Requested cuff at middle of back of right hand with lower hand skin exposed; actual cuff is nearer the base of hand/right wrist. Clearly exposed skin is chiefly wrist/lower forearm, not a large exposed lower hand. Thus available action range is a shorter cuff finish, not the specified larger partial-donning motion.",
+  "pd_followup": "Parent instructed no more image generation; save current candidate and review under shortened finishing-action scope.",
+  "remaining_uncertainties": [
+    "Image depicts already-worn gloves, not a half-inserted hand.",
+    "Motion candidate received sampled visual review; continuous-playback timing remains unverified."
+  ],
+  "original_assets_modified": false,
+  "created_date_local": "2026-10-20",
+  "review_record": "review_summary.json"
+}
