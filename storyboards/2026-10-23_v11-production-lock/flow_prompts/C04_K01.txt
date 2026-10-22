@@ -1,0 +1,13 @@
+Future production draft; do not submit before the user selects this concept.
+Use the designated PNG as the starting frame, preserving the same character identities, costumes, scale, left-right staging and props. One continuous shot matching the camera instruction below. Widescreen 16:9. The intended source clip is 8 seconds; the editor will trim the selected motion to the storyboard timing. No spoken dialogue, voice-over or lip-sync performance. No subtitles, captions, titles, logos, watermarks or legible interface/document writing. All exact typography and narrative captions will be composited in post. Silent facial and body acting must convey the action. Do not reveal the next shot's payoff early or add new characters.
+
+Concept: C04 목마는 식사 중입니다
+Unit: C04_K01
+Start state: 병사 셋 긴장. 한 명의 빈손이 배 바로 위에서 누르기 직전. 다른 둘이 눈치를 볼 구도. 급식메모·초승달봉투는 무릎 높이. 그릇·숟가락 없음.
+Physical action: One hidden soldier presses their stomach and the other two look over. The middle soldier slides one last blank meal request sheet into the crescent envelope. Keep dishes and spoons concealed.
+Camera: 좁은 목마 내부 압축 미디엄 와이드. 몸을 구겨 숨은 세 병사의 얼굴·목재 갈비뼈·눈치가 우선. 메모와 봉투는 그 앞의 작은 행동. 그릇·숟가락은 어디에도 없음.
+Incoming continuity: 첫 화면. 세 소매색·봉투 표식 확립.
+Outgoing continuity: 요청 메모가 반입 신청 봉투 안에 실제 들어감.
+Acting/style: 큰 목조 트로이목마와 거친 석조 성문, 햇빛·먼지·가죽 복장. 같은 공간에 현대 태블릿·스캐너·스테인리스 보온 배식 수레를 태연하게 사용한다. 의도적인 시대착오이며 타임슬립 설명은 하지 않는다.
+Caption-safe coordinates only, do NOT render any lettering: [{'left_pct': 7, 'width_pct': 86, 'top_pct': 4}, {'left_pct': 7, 'width_pct': 86, 'top_pct': 4}]
+Continuity notes describe the editor's story connection, not extra on-screen text or extra actions. Preserve clean plates for all typography.

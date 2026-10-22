@@ -1,0 +1,206 @@
+{
+  "A": {
+    "agent": "final_review_a",
+    "independent": true,
+    "scope": {
+      "all_87_shots": true,
+      "start_contact_sheets": 10,
+      "selected_start_states": 88,
+      "caption_contact_sheets": 10,
+      "individual_images": [
+        "C08/S06.png",
+        "C08/S07.png",
+        "C10/S04_v2.png",
+        "C10/S05.png"
+      ]
+    },
+    "strongest": [
+      "C06",
+      "C04",
+      "C10"
+    ],
+    "weaker": [
+      "C07",
+      "C08",
+      "C09"
+    ],
+    "verdicts": {
+      "C01": "권장",
+      "C02": "권장·행사 의미 가장 구체적",
+      "C03": "권장·기존 원본 우선",
+      "C04": "권장",
+      "C05": "권장·행사 연결은 상대적으로 느슨함",
+      "C06": "우선 권장",
+      "C07": "가능·중반 반복",
+      "C08": "조건부·차광 인과 검증",
+      "C09": "조건부·호출 규칙 검증",
+      "C10": "우선 권장·복합 동작 위험"
+    },
+    "findings": [
+      {
+        "id": "FA-001",
+        "severity": "required",
+        "cuts": "24 caption mirrors",
+        "finding": "text_assets.cues 구좌표·줄바꿈 사본과 현행 shots.caption_cues 불일치",
+        "fix": "현행 shots 큐를 단일 기준으로 동기화"
+      },
+      {
+        "id": "FA-002",
+        "severity": "production_gate",
+        "cuts": "C08 K04-K08",
+        "finding": "동일 작업 도해가 망토 차광으로 읽히는 효과는 후합성 미검증",
+        "fix": "동일도해·위치 유지, 반사 감소, 가독성 회복, 만족 반응을 채택조건으로 명시"
+      },
+      {
+        "id": "FA-003",
+        "severity": "suggestion",
+        "cuts": "C10 K04",
+        "finding": "6초 복구·긴리본·자투리낙하·가위접착·반응 과밀",
+        "fix": "복구와 긴리본 우선, 가위접착은 K05 시작상태로 생략 가능"
+      },
+      {
+        "id": "FA-004",
+        "severity": "production_gate",
+        "cuts": "C09 K01/K03/K04/K05/K08",
+        "finding": "손바닥 호출 규칙을 놓치면 기계행동이 임의적",
+        "fix": "손바닥→짧은 대기→한 팔 작동을 동일 리듬으로 반복"
+      },
+      {
+        "id": "FA-005",
+        "severity": "suggestion",
+        "cuts": "C07 K02-K03",
+        "finding": "질문자 합류 두 번의 변화량이 비슷함",
+        "fix": "확보 동작에 맞춰1~2초 선택 단축; 자막 시간 보존"
+      }
+    ]
+  },
+  "B": {
+    "agent": "v10_review_b",
+    "independent": true,
+    "scope": {
+      "all_87_shots": true,
+      "start_contact_sheets": 10,
+      "selected_start_states": 88,
+      "caption_contact_sheets": 10,
+      "individual_images": [
+        "C03/S06.png",
+        "C04/S08.png",
+        "C06/S01.png",
+        "C07/S06.png",
+        "C08/S06.png",
+        "C08/S07.png",
+        "C09/S07_v2.png",
+        "C09/S08_v2.png",
+        "C10/S03_v2.png",
+        "C10/S04_v2.png",
+        "C10/S05.png"
+      ]
+    },
+    "strongest": [
+      "C01",
+      "C05",
+      "C06"
+    ],
+    "opening": "C10",
+    "weaker": [
+      "C07",
+      "C08"
+    ],
+    "verdict": "전면 재기획·보류할 이야기는 없음. FB-001 정리 후 착수 권장.",
+    "findings": [
+      {
+        "id": "FB-001",
+        "severity": "required",
+        "cuts": "24 caption mirrors + C06 K09/C07 K09/C08 K08 framing",
+        "finding": "중복 자막 큐 24개와 구도에 구상단 지시 잔존",
+        "fix": "현행 하단/좁은 박스 기준을 자막·구도·MD·프롬프트에 일치"
+      },
+      {
+        "id": "FB-002",
+        "severity": "suggestion",
+        "cuts": "C07 K04-K06",
+        "finding": "4/4/6초 줄 이동14초가 웃음 변화량보다 길다",
+        "fix": "3/3/4초 편집안; 초대와 재차가림 유지"
+      },
+      {
+        "id": "FB-003",
+        "severity": "suggestion",
+        "cuts": "C10 K05",
+        "finding": "붙은 가위가 와이드에서 작다",
+        "fix": "한 손잡이를 들자 둘이 따라오는 순간에 짧은 편집 확대"
+      },
+      {
+        "id": "FB-004",
+        "severity": "suggestion",
+        "cuts": "C08 K06",
+        "finding": "반사→차광 효과 실제 도해 미검증",
+        "fix": "같은 그래픽에 반사만 제거, 깨끗해진 화면을 약1초 읽힌 뒤 전환"
+      }
+    ]
+  },
+  "C": {
+    "agent": "v10_review_c",
+    "independent": true,
+    "scope": {
+      "all_87_shots": true,
+      "start_contact_sheets": 10,
+      "selected_start_states": 88,
+      "caption_contact_sheets": 10,
+      "individual_images": [
+        "C01/S04.png",
+        "C02/S05.png",
+        "C03/S06.png",
+        "C04/S08.png",
+        "C05/S02B_v3.png",
+        "C06/S01.png",
+        "C07/S04.png",
+        "C08/S06.png",
+        "C08/S07.png",
+        "C09/S08_v2.png",
+        "C10/S06_v2.png",
+        "C10/S07.png",
+        "C10/S09.png"
+      ]
+    },
+    "strongest": [
+      "C01",
+      "C06",
+      "C10"
+    ],
+    "weaker": [
+      "C02",
+      "C08"
+    ],
+    "verdict": "C08 명세 보완 후 권장, 나머지9안 권장. 전면 보류 없음.",
+    "findings": [
+      {
+        "id": "FC-001",
+        "severity": "required",
+        "cuts": "24 caption mirrors + C06 K09/C07 K09/C08 K08",
+        "finding": "자막 사본 및 framing/manifest 상단 지시 충돌",
+        "fix": "실제 cue/proof 기준 모든 제작필드 동기화"
+      },
+      {
+        "id": "FC-002",
+        "severity": "required_spec",
+        "cuts": "C08 K06-K07",
+        "finding": "S07 광선이 망토 위로 남아 반사만 껐다고 읽힐 위험",
+        "fix": "검정천이 빛길진입→천 뒤 빛/화면반사 동시에 감소→동일도해1초 유지. 후속컷도 차단 유지"
+      },
+      {
+        "id": "FC-003",
+        "severity": "suggestion",
+        "cuts": "C02 K02-K04",
+        "finding": "4~17초 정상조사로 코미디 약속 약해짐",
+        "fix": "K02 수사관의 지나치게 엄숙한 반출 차단을 선명히; 추가대사없음"
+      },
+      {
+        "id": "FC-004",
+        "severity": "suggestion",
+        "cuts": "C08 K03-K05",
+        "finding": "과정 공개 중 주역의 관심상실이 자리이동으로 지나갈 위험",
+        "fix": "객석시선이 세트로 빠질 때 정면 재확보, 망토펼치기 전에 아무도 안보는 것을 확인"
+      }
+    ]
+  }
+}

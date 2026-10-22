@@ -1,0 +1,27 @@
+{
+  "status": "PASS",
+  "concepts": 10,
+  "editorial_shots": 87,
+  "source_units": 88,
+  "caption_cues": 70,
+  "synchronized_caption_mirrors": 70,
+  "durations": {
+    "C01": 37.5,
+    "C02": 39,
+    "C03": 44.75,
+    "C04": 37,
+    "C05": 43,
+    "C06": 44,
+    "C07": 39,
+    "C08": 41,
+    "C09": 44,
+    "C10": 46
+  },
+  "selected_pngs_identical_to_v10": 88,
+  "preserved_files_checked": 444,
+  "local_links_checked": 665,
+  "flow_requests": 0,
+  "new_video_audio_files": 0,
+  "issues": [],
+  "scope": "Data/paths/hashes/timing checks. Actual image inspection and independent editorial judgments are recorded in review_summary.json. No actual moving-video or browser-render validation claimed."
+}

@@ -1,0 +1,13 @@
+Future production draft; do not submit before the user selects this concept.
+Use the designated PNG as the starting frame, preserving the same character identities, costumes, scale, left-right staging and props. One continuous shot matching the camera instruction below. Widescreen 16:9. The intended source clip is 8 seconds; the editor will trim the selected motion to the storyboard timing. No spoken dialogue, voice-over or lip-sync performance. No subtitles, captions, titles, logos, watermarks or legible interface/document writing. All exact typography and narrative captions will be composited in post. Silent facial and body acting must convey the action. Do not reveal the next shot's payoff early or add new characters.
+
+Concept: C05 괴수는 퇴근할 수 없다
+Unit: C05_K06
+Start state: 실제 PNG의 사다리는 이미 긴 길이로 펴져 있다. TE가 하부를 이동·고정하기 직전이며 새로 늘리거나 조립하지 않는다. 이어컵은 이 구도에서 보이지 않는다.
+Physical action: 이미 펴진 사다리의 하부를 TE가 바깥 지면에서 밀어 위치를 맞추고 지지대·바퀴 브레이크를 고정한다. 귀 높이는 그대로, 사다리 연장·조립 없음. 괴수는 목을 펴지 않고 눈만 따라간다.
+Camera: 사다리 하부에서 위로 향하는 와이드. TE·바퀴형 지지대·긴 사다리·괴수 양손이 보임. 이어폰이 달린 상부 장비는 이 구도에서 가림.
+Incoming continuity: K04의 접힌 괴수 크기·귀 높이와 지붕 각도 유지. 사다리는 포치 아래가 아닌 별도 지면.
+Outgoing continuity: 이 컷에서는 긴 길이를 유지. K06→K07 사이 작업 높이 조절·고정·등반 시간을 생략해 귀 높이의 최종 설치 상태로 연결.
+Acting/style: 초반은 실루엣·낮은 하늘·극적인 역광의 재난 영화. 파손 후는 밝은 낮과 페인트 질감·고무 봉제선·얕은 모형 심도가 드러나는 특촬. 체육관은 온전하고 독립 포치만 한쪽으로 기운다. 실제 시설이나 로고를 재현하지 않는다.
+Caption-safe coordinates only, do NOT render any lettering: []
+Continuity notes describe the editor's story connection, not extra on-screen text or extra actions. Preserve clean plates for all typography.

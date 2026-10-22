@@ -1,0 +1,13 @@
+Future production draft; do not submit before the user selects this concept.
+Use the designated PNG as the starting frame, preserving the same character identities, costumes, scale, left-right staging and props. One continuous shot matching the camera instruction below. Widescreen 16:9. The intended source clip is 8 seconds; the editor will trim the selected motion to the storyboard timing. No spoken dialogue, voice-over or lip-sync performance. No subtitles, captions, titles, logos, watermarks or legible interface/document writing. All exact typography and narrative captions will be composited in post. Silent facial and body acting must convey the action. Do not reveal the next shot's payoff early or add new characters.
+
+Concept: C01 성공 자세 교정원
+Unit: C01_K03
+Start state: P가 포스터와 같은 하늘색 셔츠를 입고 노트북 재생 키에 손을 올린 상태. 큰 모니터는 사진과 같은 자세로 정지해 있다. 로고·작은 UI·문구 없음.
+Physical action: P presses the laptop play key once. Keep the large monitor as a static clean insert plate with no animated content or lettering. No speaking.
+Camera: 고정 미디엄 와이드. P와 모니터를 함께 두고 벽 포스터 일부를 왼쪽에 포함.
+Incoming continuity: 우측 모니터와 카트는 K01부터 존재. 연결선은 카트 안에서 정리되어 있음.
+Outgoing continuity: 모니터 영상만 다음 순간으로 진행. P의 현장 위치는 카트 옆 유지.
+Acting/style: 고급 체육관 광고. 짙은 청록 벽, 따뜻한 얼굴 역광, 땀, 단단한 정면 구도. 장비와 바닥 매트는 실제 체육관처럼 보이되 사진의 우스운 몸모양을 가장 크게 둔다.
+Caption-safe coordinates only, do NOT render any lettering: [{'left_pct': 7, 'width_pct': 86, 'bottom_pct': 6}]
+Continuity notes describe the editor's story connection, not extra on-screen text or extra actions. Preserve clean plates for all typography.

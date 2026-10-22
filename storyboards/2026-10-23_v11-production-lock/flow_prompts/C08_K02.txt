@@ -1,0 +1,13 @@
+Future production draft; do not submit before the user selects this concept.
+Use the designated PNG as the starting frame, preserving the same character identities, costumes, scale, left-right staging and props. One continuous shot matching the camera instruction below. Widescreen 16:9. The intended source clip is 8 seconds; the editor will trim the selected motion to the storyboard timing. No spoken dialogue, voice-over or lip-sync performance. No subtitles, captions, titles, logos, watermarks or legible interface/document writing. All exact typography and narrative captions will be composited in post. Silent facial and body acting must convey the action. Do not reveal the next shot's payoff early or add new characters.
+
+Concept: C08 이 오페라는 끝났습니다
+Unit: C08_K02
+Start state: AU가 객석 앞줄에서 한 손을 가슴 높이로 들기 직전. 화면 후경 왼쪽 OP가 퇴장 방향으로 발을 돌린 상태지만 아직 떠나지 않았다.
+Physical action: AU가 손을 들고 OP를 본다. OP는 발을 멈추고 자신 있게 엄지로 막 뒤를 가리킨다. 입을 움직여 설명하지 않는다.
+Camera: 질문자의 옆얼굴과 멀리 보이는 OP의 가리키는 팔을 읽는 객석 측면 미디엄 와이드.
+Incoming continuity: 같은 금빛 결과판과 OP. AU 외에 개별 얼굴 관객 추가 없음.
+Outgoing continuity: OP가 뒤편을 가리켰고 회전판 밖 왼쪽 앞무대에 남음.
+Acting/style: 고급 오페라 무대, 로열블루·금빛·검정 대비, 과장된 몸짓을 진지하게 찍는다. 작업 담당은 빠르고 실용적이며 주역은 절대 윙크하지 않는다. 객석 질문 뒤에도 장르의 격을 낮추지 않는다.
+Caption-safe coordinates only, do NOT render any lettering: [{'left_pct': 43, 'width_pct': 45, 'top_pct': 5, 'font_cqw': 3.1}]
+Continuity notes describe the editor's story connection, not extra on-screen text or extra actions. Preserve clean plates for all typography.

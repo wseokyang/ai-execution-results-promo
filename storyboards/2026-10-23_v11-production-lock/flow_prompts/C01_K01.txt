@@ -1,0 +1,13 @@
+Future production draft; do not submit before the user selects this concept.
+Use the designated PNG as the starting frame, preserving the same character identities, costumes, scale, left-right staging and props. One continuous shot matching the camera instruction below. Widescreen 16:9. The intended source clip is 8 seconds; the editor will trim the selected motion to the storyboard timing. No spoken dialogue, voice-over or lip-sync performance. No subtitles, captions, titles, logos, watermarks or legible interface/document writing. All exact typography and narrative captions will be composited in post. Silent facial and body acting must convey the action. Do not reveal the next shot's payoff early or add new characters.
+
+Concept: C01 성공 자세 교정원
+Unit: C01_K01
+Start state: L1의 오른손 손가락이 살짝 구부러져 있고 T의 두 손가락은 아직 닿기 직전. 벽 사진에는 같은 손모양과 기울어진 상체만 크게 보이며 의자·다리·바닥은 잘려 있다.
+Physical action: T가 손가락만 2cm 펴 준다. L1은 숨을 참고 자세를 유지한다. 카메라는 움직이지 않는다.
+Camera: 눈높이 고정 와이드. 왼쪽 출입문, 중앙 포스터·의자, 오른쪽 모니터 카트가 한 화면.
+Incoming continuity: 첫 화면. P의 벽 포스터로 사진 속 인물을 먼저 소개.
+Outgoing continuity: L1의 손이 포스터와 같은 모양. 의자와 발 위치는 K02에 그대로.
+Acting/style: 고급 체육관 광고. 짙은 청록 벽, 따뜻한 얼굴 역광, 땀, 단단한 정면 구도. 장비와 바닥 매트는 실제 체육관처럼 보이되 사진의 우스운 몸모양을 가장 크게 둔다.
+Caption-safe coordinates only, do NOT render any lettering: [{'left_pct': 7, 'width_pct': 86, 'bottom_pct': 6}]
+Continuity notes describe the editor's story connection, not extra on-screen text or extra actions. Preserve clean plates for all typography.

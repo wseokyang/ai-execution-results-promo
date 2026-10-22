@@ -1,0 +1,13 @@
+Future production draft; do not submit before the user selects this concept.
+Use the designated PNG as the starting frame, preserving the same character identities, costumes, scale, left-right staging and props. One continuous shot matching the camera instruction below. Widescreen 16:9. The intended source clip is 8 seconds; the editor will trim the selected motion to the storyboard timing. No spoken dialogue, voice-over or lip-sync performance. No subtitles, captions, titles, logos, watermarks or legible interface/document writing. All exact typography and narrative captions will be composited in post. Silent facial and body acting must convey the action. Do not reveal the next shot's payoff early or add new characters.
+
+Concept: C02 검은 점을 잡아라
+Unit: C02_K02
+Start state: DE가 트레이 앞에 들어서기 직전, IN은 모니터를 가리키기 직전. 수갑은 아직 코트 안.
+Physical action: TE stops the tray. DE ceremoniously blocks the products with his whole body, far too seriously. When IN points at the monitor, DE keeps his blocking posture and turns only his head. No dialogue or wink.
+Camera: 검사대 측면 미디엄 와이드. 왼쪽 고정 H, 오른쪽 지그, 전경 DE와 IN. TE는 뒤에서 트레이를 멈춤.
+Incoming continuity: 같은 검사실. H는 고정, 아직 W 앞에 수갑 없음.
+Outgoing continuity: DE는 제품을 막는 몸 자세를 유지하며 고개와 시선만 모니터로 향함. K03 AI·사람 비교 과정으로 연결.
+Acting/style: 같은 검사실. 형사 쪽은 어두운 누아르 빛·갈색 가죽, 담당자 쪽은 중성 검사 조명·코발트 작업복. 붉은 실의 과잉 수사벽과 차분한 실제 장비를 대비한다. 상표·실제 사건·실존 배우 얼굴 없음.
+Caption-safe coordinates only, do NOT render any lettering: [{'left_pct': 7, 'width_pct': 86, 'bottom_pct': 6}]
+Continuity notes describe the editor's story connection, not extra on-screen text or extra actions. Preserve clean plates for all typography.

@@ -1,0 +1,13 @@
+Future production draft; do not submit before the user selects this concept.
+Use the designated PNG as the starting frame, preserving the same character identities, costumes, scale, left-right staging and props. One continuous shot matching the camera instruction below. Widescreen 16:9. The intended source clip is 8 seconds; the editor will trim the selected motion to the storyboard timing. No spoken dialogue, voice-over or lip-sync performance. No subtitles, captions, titles, logos, watermarks or legible interface/document writing. All exact typography and narrative captions will be composited in post. Silent facial and body acting must convey the action. Do not reveal the next shot's payoff early or add new characters.
+
+Concept: C03 환경까지 가져왔습니다
+Unit: C03_K04
+Start state: 설치 A왼쪽, 기사 벗은 장갑 소지. B아랫모서리 막 프레임 진입.
+Physical action: B 공개→기사가 장갑을 다시 준비하고 커프를 당겨 고정. 이미 확보한 실제 장갑 동작·상태 생략 허용, 전체 착용 재생성을 필수로 삼지 않음.
+Camera: 기사 전경·B 후경 깊은 초점. A왼쪽 유지.
+Incoming continuity: A왼쪽/B오른쪽, 안전 구역.
+Outgoing continuity: B설치, 기사 다시 장갑.
+Acting/style: 밝은 하늘, 노란 정밀 크레인·흰 모듈·유리와 금속. 높이·거리를 크게 바꾸는 산업 광고 구도.
+Caption-safe coordinates only, do NOT render any lettering: [{'left_pct': 7, 'width_pct': 86, 'bottom_pct': 6}]
+Continuity notes describe the editor's story connection, not extra on-screen text or extra actions. Preserve clean plates for all typography.

@@ -1,0 +1,13 @@
+Future production draft; do not submit before the user selects this concept.
+Use the designated PNG as the starting frame, preserving the same character identities, costumes, scale, left-right staging and props. One continuous shot matching the camera instruction below. Widescreen 16:9. The intended source clip is 8 seconds; the editor will trim the selected motion to the storyboard timing. No spoken dialogue, voice-over or lip-sync performance. No subtitles, captions, titles, logos, watermarks or legible interface/document writing. All exact typography and narrative captions will be composited in post. Silent facial and body acting must convey the action. Do not reveal the next shot's payoff early or add new characters.
+
+Concept: C03 환경까지 가져왔습니다
+Unit: C03_K02
+Start state: 청록 문틀 A가 공중에 고정, 케이블 팽팽. 직원·기사 옆 안전선 밖.
+Physical action: 모듈 조금 하강. 사람 위 이동 없음.
+Camera: 24mm 낮은 극와이드, 모듈·하늘이 대부분.
+Incoming continuity: A 외관·가구 배치 확정.
+Outgoing continuity: A 설치 완료.
+Acting/style: 밝은 하늘, 노란 정밀 크레인·흰 모듈·유리와 금속. 높이·거리를 크게 바꾸는 산업 광고 구도.
+Caption-safe coordinates only, do NOT render any lettering: [{'left_pct': 7, 'width_pct': 86, 'bottom_pct': 6}]
+Continuity notes describe the editor's story connection, not extra on-screen text or extra actions. Preserve clean plates for all typography.

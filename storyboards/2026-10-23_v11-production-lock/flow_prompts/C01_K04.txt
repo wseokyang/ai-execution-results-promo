@@ -1,0 +1,13 @@
+Future production draft; do not submit before the user selects this concept.
+Use the designated PNG as the starting frame, preserving the same character identities, costumes, scale, left-right staging and props. One continuous shot matching the camera instruction below. Widescreen 16:9. The intended source clip is 8 seconds; the editor will trim the selected motion to the storyboard timing. No spoken dialogue, voice-over or lip-sync performance. No subtitles, captions, titles, logos, watermarks or legible interface/document writing. All exact typography and narrative captions will be composited in post. Silent facial and body acting must convey the action. Do not reveal the next shot's payoff early or add new characters.
+
+Concept: C01 성공 자세 교정원
+Unit: C01_K04
+Start state: V8 S04_v2 모니터 내부와 동일 P·상체·손방향. 아직 낮은 바퀴 의자 끝에 앉은 전신, 매트·바퀴가 보이는 독립 원본 프레임. 착지 전.
+Physical action: P begins in the same leaning pose as the photograph. His low wheeled chair slips sideways and he lands softly on the thick mat. Show the full body and hold his dignified reaction. This is a standalone source insert; do not draw a monitor around it.
+Camera: 모니터 내부 원본 영상만. P 전신·바퀴 의자·매트 고정 와이드, 포스터/방 없음.
+Incoming continuity: 사진과 같은 상체·오른손 자세의 크롭 없는 착지 전 상태. 골반은 아직 의자 가장자리에 있고 발·바퀴·매트가 보임.
+Outgoing continuity: 사진의 전체 맥락을 실제 동작으로 확인. P는 매트에 낮아졌고 의자는 옆으로 밀림.
+Acting/style: 고급 체육관 광고. 짙은 청록 벽, 따뜻한 얼굴 역광, 땀, 단단한 정면 구도. 장비와 바닥 매트는 실제 체육관처럼 보이되 사진의 우스운 몸모양을 가장 크게 둔다.
+Caption-safe coordinates only, do NOT render any lettering: []
+Continuity notes describe the editor's story connection, not extra on-screen text or extra actions. Preserve clean plates for all typography.

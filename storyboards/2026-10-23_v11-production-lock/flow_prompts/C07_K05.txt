@@ -1,0 +1,13 @@
+Future production draft; do not submit before the user selects this concept.
+Use the designated PNG as the starting frame, preserving the same character identities, costumes, scale, left-right staging and props. One continuous shot matching the camera instruction below. Widescreen 16:9. The intended source clip is 8 seconds; the editor will trim the selected motion to the storyboard timing. No spoken dialogue, voice-over or lip-sync performance. No subtitles, captions, titles, logos, watermarks or legible interface/document writing. All exact typography and narrative captions will be composited in post. Silent facial and body acting must convey the action. Do not reveal the next shot's payoff early or add new characters.
+
+Concept: C07 결투 시간을 뺏긴 여자
+Unit: C07_K05
+Start state: EX가 바닥에서 집은 줄 끝을 한 손으로 느슨하게 잡고, 다른 손으로 열린 수첩을 Q1에게 보여준다. Q1/Q2는 줄 뒤쪽으로 각각 손을 내밀기 직전. CW는 멀리서 줄 반대 끝을 잡고 있다.
+Physical action: EX turns the open notebook toward CW. Q1 follows the page with his gaze and lightly holds the nearby slack rope; Q2 holds another slack section while watching the same notebook. Nobody is restrained. EX uses one hand to hold the book and does not grow another pointing hand.
+Camera: EX·Q1·Q2와 느슨하게 늘어진 줄을 보는 미디엄 와이드. CW는 오른쪽 후경.
+Incoming continuity: EX가 줄을 집는 과정만 컷 사이 생략. 줄은 계속 한 가닥.
+Outgoing continuity: 세 사람이 손으로 느슨한 줄을 잡고 수첩을 함께 봄. 목·허리·팔 감김 없음.
+Acting/style: 먼지와 길게 뻗은 그림자의 정통 서부극. 시네마스코프 같은 넓은 공간감을 16:9 안에서 사용. 총잡이는 짜증을 절제하며 끝까지 위엄을 지킨다. 경험자는 평온하게 수첩에 집중.
+Caption-safe coordinates only, do NOT render any lettering: [{'left_pct': 7, 'width_pct': 86, 'bottom_pct': 3, 'font_cqw': 3.1, 'title_cqw': 4, 'padding_pct': 0.6}]
+Continuity notes describe the editor's story connection, not extra on-screen text or extra actions. Preserve clean plates for all typography.

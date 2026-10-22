@@ -1,0 +1,193 @@
+{
+  "run_id": "2026-10-23_v11-production-lock",
+  "status": "PREPRODUCTION_REVIEW_COMPLETE; VIDEO_PRODUCTION_NOT_STARTED",
+  "record_type": "Faithful summaries of actual agent replies, not verbatim transcripts.",
+  "stages": [
+    "same comprehensive brief",
+    "three independent reviews of all10 concepts/87shots/88 selected states",
+    "cross-review after first submissions",
+    "V11 specification edits and proof rendering",
+    "three reconfirmations",
+    "additional FC005/006 and FB005 fixed; all three reconfirmed"
+  ],
+  "independent_record": "independent_reviews.json",
+  "cross_record": "cross_reviews.json",
+  "pd_record": "PD_DECISIONS.md",
+  "reviewers": {
+    "A": {
+      "agent": "final_review_a",
+      "verdict": "제작 전 명세 검수 종결 가능. 선택 작품 제작 착수 권장. 남은 필수 명세 수정 없음.",
+      "resolved_or_production_specification_resolved": [
+        "FA-001",
+        "FA-002",
+        "FA-003",
+        "FA-004",
+        "FB-001",
+        "FB-002",
+        "FB-003",
+        "FB-004",
+        "FB-005",
+        "FC-001",
+        "FC-002",
+        "FC-003",
+        "FC-004",
+        "FC-005",
+        "FC-006",
+        "PD-001",
+        "PD-002"
+      ],
+      "suggestion_not_applied": [
+        "FA-005: C07 K02~03 추가단축은 제안으로 남김. K04~06 4초 단축 후 필요하지 않음."
+      ],
+      "actual_additional_images_opened": [
+        "post_assets/C08_process.png",
+        "post_assets/C08_light_path_plan.png",
+        "caption_proofs/C07_captions.jpg",
+        "caption_proofs/C07_K04_cue1.jpg",
+        "caption_proofs/C06_K09_cue1.jpg",
+        "caption_proofs/C08_K08_cue1.jpg"
+      ],
+      "reconfirmation_rounds": "V11 재확인에서 FC005/006·FB005를 추가 발견하고 국소 수정 후 실제 파일 재확인까지 완료",
+      "unresolved_mandatory": [],
+      "not_claimed": [
+        "actual moving video review",
+        "actual composited C08 success",
+        "audience testing",
+        "contest eligibility"
+      ],
+      "extra_checks": "88선택PNG SHA256 V10일치 확인, 수정C05A/B프롬프트·유닛·manifest 추가 재확인."
+    },
+    "B": {
+      "agent": "v10_review_b",
+      "verdict": "제작 전 명세 검수 종결 가능. 선택 작품 제작 착수 권장. 남은 필수 명세 수정 없음.",
+      "resolved_or_production_specification_resolved": [
+        "FA-001",
+        "FA-002",
+        "FA-003",
+        "FA-004",
+        "FB-001",
+        "FB-002",
+        "FB-003",
+        "FB-004",
+        "FB-005",
+        "FC-001",
+        "FC-002",
+        "FC-003",
+        "FC-004",
+        "FC-005",
+        "FC-006",
+        "PD-001",
+        "PD-002"
+      ],
+      "suggestion_not_applied": [
+        "FA-005: C07 K02~03 추가단축은 제안으로 남김. K04~06 4초 단축 후 필요하지 않음."
+      ],
+      "actual_additional_images_opened": [
+        "post_assets/C08_process.png",
+        "post_assets/C08_light_path_plan.png",
+        "caption_proofs/C07_captions.jpg",
+        "caption_proofs/C07_K04_cue1.jpg",
+        "caption_proofs/C06_K09_cue1.jpg",
+        "caption_proofs/C08_K08_cue1.jpg"
+      ],
+      "reconfirmation_rounds": "V11 재확인에서 FC005/006·FB005를 추가 발견하고 국소 수정 후 실제 파일 재확인까지 완료",
+      "unresolved_mandatory": [],
+      "not_claimed": [
+        "actual moving video review",
+        "actual composited C08 success",
+        "audience testing",
+        "contest eligibility"
+      ],
+      "extra_checks": "70개 자막 사본 일치,87컷 시간,88유닛 사용시간,전체88프롬프트 행동·카메라 필드 대조."
+    },
+    "C": {
+      "agent": "v10_review_c",
+      "verdict": "제작 전 명세 검수 종결 가능. 선택 작품 제작 착수 권장. 남은 필수 명세 수정 없음.",
+      "resolved_or_production_specification_resolved": [
+        "FA-001",
+        "FA-002",
+        "FA-003",
+        "FA-004",
+        "FB-001",
+        "FB-002",
+        "FB-003",
+        "FB-004",
+        "FB-005",
+        "FC-001",
+        "FC-002",
+        "FC-003",
+        "FC-004",
+        "FC-005",
+        "FC-006",
+        "PD-001",
+        "PD-002"
+      ],
+      "suggestion_not_applied": [
+        "FA-005: C07 K02~03 추가단축은 제안으로 남김. K04~06 4초 단축 후 필요하지 않음."
+      ],
+      "actual_additional_images_opened": [
+        "post_assets/C08_process.png",
+        "post_assets/C08_light_path_plan.png",
+        "caption_proofs/C07_captions.jpg",
+        "caption_proofs/C07_K04_cue1.jpg",
+        "caption_proofs/C06_K09_cue1.jpg",
+        "caption_proofs/C08_K08_cue1.jpg",
+        "caption_proofs/C07_K05_cue1.jpg"
+      ],
+      "reconfirmation_rounds": "V11 재확인에서 FC005/006·FB005를 추가 발견하고 국소 수정 후 실제 파일 재확인까지 완료",
+      "unresolved_mandatory": [],
+      "not_claimed": [
+        "actual moving video review",
+        "actual composited C08 success",
+        "audience testing",
+        "contest eligibility"
+      ],
+      "extra_checks": "88선택PNG SHA256 V10일치 확인, 새지적FC005/006 및 FB005 최종재확인."
+    }
+  },
+  "remaining_mandatory_preproduction_issues": [],
+  "planned_video_acceptance_checks": [
+    "C08 차광 실제 영상/합성",
+    "C09 한 팔 호출·동일 종이 이동",
+    "C05 A→B 실제 종료·시작 연결",
+    "C07 자발적 이동·다시 가림",
+    "C10 두 가위 반응·점프/착지",
+    "움직이는 화면의 자막 가림·무음 전체재생·상영 크기 가독성"
+  ],
+  "new_keyframe_images": 0,
+  "selected_start_images_reused_from_v10": 88,
+  "code_rendered_postproduction_diagrams": [
+    "post_assets/C08_process.svg",
+    "post_assets/C08_process.png",
+    "post_assets/C08_light_path_plan.png"
+  ],
+  "new_flow_requests": 0,
+  "new_credits_used": 0,
+  "new_video_audio_files": 0,
+  "duration_seconds": {
+    "C01": 37.5,
+    "C02": 39,
+    "C03": 44.75,
+    "C04": 37,
+    "C05": 43,
+    "C06": 44,
+    "C07": 39,
+    "C08": 41,
+    "C09": 44,
+    "C10": 46
+  },
+  "limitations": "정지 이미지·명세의 제작 준비 검토. 실제 동작·합성·음성·립싱크·최종 재생·관객 반응·출품 규정 검증 아님. C08 그림은 계획도. BGM/SFX는 역할만 명세했으며 특정 음원을 선정/청취/라이선스 확인하지 않음.",
+  "evidence_scope": "원자료 PPTX1~3 텍스트와 기존자료/레퍼런스분석을 읽고 해당 행사근거 확인. qrew/광고 전체영상이나 음원을 이번에 감상했다고 주장하지 않음.",
+  "recommendations": {
+    "overall": "C06",
+    "live_opening": "C10",
+    "strong_visual_alternatives": [
+      "C01",
+      "C05"
+    ],
+    "first_motion_check_required_before_full_batch": [
+      "C08",
+      "C09"
+    ]
+  }
+}
