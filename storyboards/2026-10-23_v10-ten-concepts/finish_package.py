@@ -2,6 +2,8 @@
 from pathlib import Path
 import json,shutil,re,hashlib
 R=Path(__file__).resolve().parent;ROOT=R.parents[1]
+if (ROOT/"team/review-navigation/root_review_manifest.json").exists():
+    raise SystemExit("Historical layout script: use team/review-navigation/build_root_reviews.py for the current review-first root.")
 d=json.loads((R/'storyboards.json').read_text(encoding='utf8'))
 v=json.loads((R/'validation.json').read_text(encoding='utf8'))
 review=json.loads((R/'review_summary.json').read_text(encoding='utf8'))

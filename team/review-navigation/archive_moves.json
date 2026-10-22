@@ -1,0 +1,108 @@
+[
+  {
+    "source_relative": "01_네이비골드_보고형.png",
+    "destination_relative": "archive/original-design/01_네이비골드_보고형.png",
+    "sha256": "AFABBAAE85B1AC32EF7190A63FADA933BBE40401DB38F1E8E00F5CC855A9505C",
+    "kind": "original-design"
+  },
+  {
+    "source_relative": "01_네이비골드_보고형.pptx",
+    "destination_relative": "archive/original-design/01_네이비골드_보고형.pptx",
+    "sha256": "1188DDB9550E49F23E3AE0E5B95254A8A0BDFDAA858031359861E376BF8AD6E6",
+    "kind": "original-design"
+  },
+  {
+    "source_relative": "02_블루_타임라인형.png",
+    "destination_relative": "archive/original-design/02_블루_타임라인형.png",
+    "sha256": "7F9550A2F337BF96CD0F8875E814ECB683F91CE573B1937538DDF5E732D9AA32",
+    "kind": "original-design"
+  },
+  {
+    "source_relative": "02_블루_타임라인형.pptx",
+    "destination_relative": "archive/original-design/02_블루_타임라인형.pptx",
+    "sha256": "D9235339F4E5C4954566F83A740244C1806900A50AEC407C9D1287D8361E3B99",
+    "kind": "original-design"
+  },
+  {
+    "source_relative": "03_딥그린_핵심강조형.png",
+    "destination_relative": "archive/original-design/03_딥그린_핵심강조형.png",
+    "sha256": "F018DBE7F6D42FFAAC826417C1A1A53973D5FC744F9DC705CADE4089E9C6D2F5",
+    "kind": "original-design"
+  },
+  {
+    "source_relative": "03_딥그린_핵심강조형.pptx",
+    "destination_relative": "archive/original-design/03_딥그린_핵심강조형.pptx",
+    "sha256": "C98AE2024B118018F3ED8E2D41E50FEC46C4040F22F448BA7A49DBD14558AE7F",
+    "kind": "original-design"
+  },
+  {
+    "source_relative": "비교미리보기.png",
+    "destination_relative": "archive/original-design/비교미리보기.png",
+    "sha256": "BEA06F9F0600F38B12263581D66C9324E5C48F43936C01C0263189DABC80AB17",
+    "kind": "original-design"
+  },
+  {
+    "source_relative": "image.png",
+    "destination_relative": "archive/original-design/image.png",
+    "sha256": "1043F2361889AFAAEFCC3597EECCBCEDCD1E2A658CD6B4D135CDC52D103D180C",
+    "kind": "original-design"
+  },
+  {
+    "source_relative": "AI실행결과발표대회_디자인3종.pptx",
+    "destination_relative": "archive/original-design/AI실행결과발표대회_디자인3종.pptx",
+    "sha256": "5103B6D5DC0AA561CA7B6388E2EBE173FF5A19D7298F2A989D047F8764815E23",
+    "kind": "original-design"
+  },
+  {
+    "source_relative": "AI실행결과발표대회안.png",
+    "destination_relative": "archive/original-design/AI실행결과발표대회안.png",
+    "sha256": "061DAC03474CBC5985025476CD29502038EC867B055886E8EE7105652DA40F54",
+    "kind": "original-design"
+  },
+  {
+    "source_relative": "index.html",
+    "destination_relative": "archive/original-design/index.html",
+    "sha256": "47C8464F101A6A2776FA231BB4726DD7BEFD2496A9155786C5202996951A9B4A",
+    "kind": "original-design"
+  },
+  {
+    "source_relative": "README_before_v8.md",
+    "destination_relative": "archive/previous-guides/README_before_v8.md",
+    "sha256": "F0A2634ACB5F24FE8488FBA17A92A4337986FC6626754BEA7324B88EFCC7B6AC",
+    "kind": "previous-guide",
+    "archived_sha256": "472efba9e9e6f6acf98a6f2ad5f086d24017cdc4e00166bac3fde5d5ece2ecad",
+    "change": "Only archive-relative navigation targets adjusted; narrative and images preserved"
+  },
+  {
+    "source_relative": "README_before_v9.md",
+    "destination_relative": "archive/previous-guides/README_before_v9.md",
+    "sha256": "C47B4C5D137FC6EEE04F2AC385E90CC96151E8AC1D747F5B6B6FD565DDB4870B",
+    "kind": "previous-guide",
+    "archived_sha256": "1436a5336ccb56d3919c4bf265af37d1e316111c6702e2bc26ea1796d6208fc4",
+    "change": "Only archive-relative navigation targets adjusted; narrative and images preserved"
+  },
+  {
+    "source_relative": "README_before_v10.md",
+    "destination_relative": "archive/previous-guides/README_before_v10.md",
+    "sha256": "DE4D239C8FD2A653B226C2E10DABD9D75436BD17686A6443EE25E2259D4465B9",
+    "kind": "previous-guide",
+    "archived_sha256": "703ba1987f5ea2cf3872a4f10d7934473018d15e1c976fbd77e38d61ca79bcaa",
+    "change": "Only archive-relative navigation targets adjusted; narrative and images preserved"
+  },
+  {
+    "source_relative": "콘티_바로보기_V8.md",
+    "destination_relative": "archive/previous-guides/콘티_바로보기_V8.md",
+    "sha256": "E3078D3D7E5F03BC5591315A5C9C283B74136A76D7F34A15A8AA045E134E0F96",
+    "kind": "previous-guide",
+    "archived_sha256": "5dfccafdd6513cc1325f70a5ae39c65bd6434a61a35540b135596a9cbb0e9ede",
+    "change": "Only archive-relative navigation targets adjusted; narrative and images preserved"
+  },
+  {
+    "source_relative": "콘티_바로보기_V9.md",
+    "destination_relative": "archive/previous-guides/콘티_바로보기_V9.md",
+    "sha256": "BAA386ACD74BF9DED7B715FC083B00EFB38236B027055A0763F4C99E5178CBD2",
+    "kind": "previous-guide",
+    "archived_sha256": "1f628847d6d49cd7d33cfa08c66f4116533ec342d7a7b18de35dfe3d26d45e24",
+    "change": "Only archive-relative navigation targets adjusted; narrative and images preserved"
+  }
+]

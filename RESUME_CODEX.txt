@@ -1,3 +1,8 @@
+[2026-10-23 Git 메인 검수용 정리 — V10 내용·이미지 불변]
+사용자 요청: Git에서 검수하도록 이전 파일을 정리하고 최신 스토리보드 파일들을 메인에 배치. 루트 README.md가 검수 시작점, 01_성공_자세_교정원.md부터 10_개막을_허가하지_않는_기계.md까지 안별10문서에 모든88시작상태/자막정지예시/행동/자막시간/음향/전환 포함. 콘티_바로보기.md 최신88이미지 유지.
+구형 README_before_v8/v9/v10 및 콘티_V8/V9는 archive/previous-guides/. 초기 디자인 PNG/PPTX/원안/index.html은 archive/original-design/로 바이트불변 이동. AGENTS.md와 team/brief.toml의 원자료2경로 갱신. storyboards/와 flow_handoff/는 경로 유지, 기존 완성영상/원본 불변.
+최신 제작명세는 여전히 storyboards/2026-10-23_v10-ten-concepts/storyboards.json 및 scene_manifest.json. 루트 검수문서 갱신은 team/review-navigation/build_root_reviews.py 사용. V10 finish_package.py는 이전루트배치를 다시 만드는 이력스크립트이므로 재실행금지. 이번 작업은 파일정리·검수문서작성·Git반영만, Flow/영상/음원/이미지새생성/크레딧사용0. 예약PAUSED유지. 이동/링크 검증은 team/review-navigation/ 기록.
+
 [2026-10-23 Q-AI Fair V10 — 기존5보완+새5/총10안/시작88장]
 최신사용자: Flow영상에자막생성금지, 모든자막후처리. 기존1~5내용보완+신규5추가하여총10안중선택, 캐릭터외형다양화, 돌고래유괴단식장르진정성/인물선택/반전/후폭풍을선호. 현재Flow·영상·음원·크레딧사용0, 예약PAUSED유지. 선택전자동영상생성금지.
 최신명세 storyboards/2026-10-23_v10-ten-concepts/storyboards.json 및 scene_manifest.json. 편집87컷/시작88상태. 기존C01~05는37.5/39/44.75/37/43초, 신규C06퇴근좀해주세요44초9장/C07결투시간을뺏긴여자43초9장/C08이오페라는끝났습니다41초8장/C09지구인은질문이많다45초9장/C10개막을허가하지않는기계46초9장. 새44PNG내장image_gen실제생성+기존V9선택44바이트재사용. 새캐스트는기본얼굴반복없이얼굴·머리·체형·복장·연기구분. 원본C01/C03v03/V9보존.

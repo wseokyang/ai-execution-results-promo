@@ -1,0 +1,59 @@
+{
+  "source": "storyboards/2026-10-23_v10-ten-concepts",
+  "version": "V10",
+  "concepts": [
+    {
+      "id": "C01",
+      "file": "01_성공_자세_교정원.md",
+      "start_images": 9
+    },
+    {
+      "id": "C02",
+      "file": "02_검은_점을_잡아라.md",
+      "start_images": 9
+    },
+    {
+      "id": "C03",
+      "file": "03_환경까지_가져왔습니다.md",
+      "start_images": 8
+    },
+    {
+      "id": "C04",
+      "file": "04_목마는_식사_중입니다.md",
+      "start_images": 9
+    },
+    {
+      "id": "C05",
+      "file": "05_괴수는_퇴근할_수_없다.md",
+      "start_images": 9
+    },
+    {
+      "id": "C06",
+      "file": "06_퇴근_좀_해주세요.md",
+      "start_images": 9
+    },
+    {
+      "id": "C07",
+      "file": "07_결투_시간을_뺏긴_여자.md",
+      "start_images": 9
+    },
+    {
+      "id": "C08",
+      "file": "08_이_오페라는_끝났습니다.md",
+      "start_images": 8
+    },
+    {
+      "id": "C09",
+      "file": "09_지구인은_질문이_많다.md",
+      "start_images": 9
+    },
+    {
+      "id": "C10",
+      "file": "10_개막을_허가하지_않는_기계.md",
+      "start_images": 9
+    }
+  ],
+  "selected_start_images": 88,
+  "review_pages_include": "every actual selected start image or separately rendered caption proof, exact caption timings, next action, intent, dialogue, sound, camera and transition",
+  "media_changed": false
+}
