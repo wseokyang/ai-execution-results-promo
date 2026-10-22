@@ -1,0 +1,222 @@
+{
+  "concept_id": "C06",
+  "images": [
+    {
+      "id": "C06_K01",
+      "concept_id": "C06",
+      "scene_id": "S01",
+      "linked_cut": "K01",
+      "image_path": "images/C06/S01.png",
+      "source_generated_path": "C:\\Users\\wseok\\.codex\\generated_images\\01a164df-1990-7500-a038-0a0a40059160\\exec-9fc7a38f-88db-464d-a52f-76ae8d7837df.png",
+      "generation_tool": "image_gen",
+      "prompt": "Cinematic serious Korean ghost-film lighting, tactile practical costumes, deep teal moonlight in a modest nighttime office, realistic faces and physical props, understated employee against emotionally invested ghost, widescreen 16:9. Avoid gore, injury, neck distortion, transparency or objects passing through bodies.\n\nCharacter continuity bible: GH: a very thin adult male ghost with a long pale narrow face, visible eyes, long straight black hair tucked behind ears, normal uninjured neck, ankle-length opaque white funeral robe and extra-long empty sleeves. WO: tall broad-shouldered late-50s Korean woman, rectangular face, angular clear glasses, salt-and-pepper asymmetrical short undercut hair, mustard shirt and dark brown trousers. G2: short broad male ghost with gray buzz cut and light-gray short robe. G3: small older female ghost with a single brown braid and pale sand robe. Include only characters explicitly named in this shot.\n\nEXACT SHOT START STATE: GH hovers fully upside down above the desk, face visible and normal straight neck. One sleeve-covered forearm extends horizontally toward WO with the wrist angled slightly upward, a believable place to hang a loop handle. WO sits below holding a closed folder by its loop handle just before hanging it over that forearm. No folder attached yet. Serious threatening approach. Clear dark upper-left caption zone.\n\nCreate one standalone cinematic first-frame image before the described action, not a collage, storyboard sheet or completed payoff. Use only visible characters named in the shot. Preserve unique face shapes, body types, hair, clothing and all prop counts. No subtitles, letters, readable text, logos, watermark, fabricated signage or UI text; leave clean blank graphic surfaces and caption-safe negative space. Natural hands with correct anatomy. No motion blur. Subsequent action is for later Flow video, do not depict multiple moments in this still.\nEstablish office geography: door on far LEFT wall, central aged rectangular wooden desk, dark monitor on RIGHT edge of desk, gray wheeled desk chair occupied by WO, night city window behind. TWO people ONLY. WO has clearly short asymmetric salt-and-pepper undercut, tall sturdy broad shoulders and angular clear eyeglasses, no bob and no curls. She is seated screen left. GH floats truly inverted above the right half of the desk: feet UP near ceiling, torso vertical upside down, shoulders below torso, head BELOW shoulders. Entire body inversion with neck aligned naturally along spine, never a twisted head on upright body. Hair falls down toward desk while his face stays visible. One robe-covered forearm bends outward horizontally toward woman's hand, the extended empty sleeve is unoccupied. WO holds ONE closed slim brown document case with an upright loop handle, the loop still entirely in her own hand and NOT yet attached to ghost sleeve, clear 15 cm gap. GH's intense stare threatens her, she calmly concentrates on her papers. Leave dark upper-left wall clear. No other ghosts. Single 16:9 cinematic first frame.",
+      "referenced_image_paths": [],
+      "next_motion": "GH가 천천히 얼굴을 가까이 내밀자 WO가 수평으로 내민 소매 덮인 팔뚝에 서류철의 고리 손잡이를 건다. GH의 눈만 매달린 서류철을 향한다.",
+      "camera_notes": "책상과 두 얼굴, 빈 소매 끝을 동시에 보는 고정 미디엄 와이드. 하단 책상 앞면은 자막 여백.",
+      "artist_review": {
+        "opened_actual_image": true,
+        "notes": "실제 파일 열람. 정상 목의 거꾸로 부유/창백한 긴 얼굴, 여성 비대칭 언더컷·겨자색 셔츠·안경, 책상 왼쪽 문·오른쪽 모니터·야간 창 기준 확립. 서류철 고리는 WO 손에 있고 유령 소매와 분리, 동작 전 상태. 신체 상해·관통 없음. 부유 몸 상단은 프레임 밖으로 이어짐."
+      },
+      "review_status": "artist checked; independent review pending"
+    },
+    {
+      "id": "C06_K02",
+      "concept_id": "C06",
+      "scene_id": "S02",
+      "linked_cut": "K02",
+      "image_path": "images/C06/S02.png",
+      "source_generated_path": "C:\\Users\\wseok\\.codex\\generated_images\\01a164df-1990-7500-a038-0a0a40059160\\exec-20730bb5-9a6b-4303-8b55-7cbf55473084.png",
+      "generation_tool": "image_gen",
+      "prompt": "Cinematic serious Korean ghost-film lighting, tactile practical costumes, deep teal moonlight in a modest nighttime office, realistic faces and physical props, understated employee against emotionally invested ghost, widescreen 16:9. Avoid gore, injury, neck distortion, transparency or objects passing through bodies.\n\nCharacter continuity bible: GH: a very thin adult male ghost with a long pale narrow face, visible eyes, long straight black hair tucked behind ears, normal uninjured neck, ankle-length opaque white funeral robe and extra-long empty sleeves. WO: tall broad-shouldered late-50s Korean woman, rectangular face, angular clear glasses, salt-and-pepper asymmetrical short undercut hair, mustard shirt and dark brown trousers. G2: short broad male ghost with gray buzz cut and light-gray short robe. G3: small older female ghost with a single brown braid and pale sand robe. Include only characters explicitly named in this shot.\n\nEXACT SHOT START STATE: Same office and faces. GH is upright on the far side of the desk, hands hovering just above its edge before one shake. WO holds a slightly uneven stack of paper on the desktop, not yet aligned. Show both faces and the paper edges; no violent shaking, no broken furniture.\n\nCreate one standalone cinematic first-frame image before the described action, not a collage, storyboard sheet or completed payoff. Use only visible characters named in the shot. Preserve unique face shapes, body types, hair, clothing and all prop counts. No subtitles, letters, readable text, logos, watermark, fabricated signage or UI text; leave clean blank graphic surfaces and caption-safe negative space. Natural hands with correct anatomy. No motion blur. Subsequent action is for later Flow video, do not depict multiple moments in this still.\nUse supplied S01 as exact identity/set/lighting reference, but ghost now stands UPRIGHT on opposite side of wooden desk, feet below body. Same long narrow pale male face (30s), straight black hair behind ears, long thin body and opaque white robe. His two hands emerge from sleeves and hover 2 cm above desk edge preparing to grip, intense frustrated stare. WO same short shaved-side salt-and-pepper haircut, clear angular glasses, mustard shirt, seated left, holds a thick stack of completely blank papers with visibly offset uneven edges atop desk, BEFORE aligning it. Closed brown loop-handled document case from previous scene now lies flat on the desk away from active paper stack. Preserve left door, rear night city window, right monitor and gray chair. Desk-height medium framing, both faces visible, no new characters, no completed gag.",
+      "referenced_image_paths": [
+        "\\\\wsl.localhost\\Ubuntu-24.04\\home\\wooseok\\wsy\\samsung_related\\slide\\AI실행결과발표대회_디자인3종\\storyboards\\2026-10-23_v10-ten-concepts\\images\\C06\\S01.png"
+      ],
+      "next_motion": "GH가 책상을 한 번 짧게 흔든다. WO는 종이 묶음 끝을 책상에 대어 반듯하게 맞춘 뒤, 고개만 작게 끄덕인다. GH가 흔들던 손을 멈춘다.",
+      "camera_notes": "책상 높이의 고정 미디엄. GH 양손과 종이 모서리, WO 얼굴을 포함.",
+      "artist_review": {
+        "opened_actual_image": true,
+        "notes": "실제 파일 열람. GH 정상 방향으로 서서 두 손이 책상 잡기 전, WO 앞 종이 가장자리 어긋남, 서류철 책상 위 잔류. 사무실·의상·헤어 연속. 글자/상해/완료 상태 없음."
+      },
+      "review_status": "artist checked; independent review pending"
+    },
+    {
+      "id": "C06_K03",
+      "concept_id": "C06",
+      "scene_id": "S03",
+      "linked_cut": "K03",
+      "image_path": "images/C06/S03.png",
+      "source_generated_path": "C:\\Users\\wseok\\.codex\\generated_images\\01a164df-1990-7500-a038-0a0a40059160\\exec-fae211f3-5db6-44ba-b84b-e8016b21b2b1.png",
+      "generation_tool": "image_gen",
+      "prompt": "Cinematic serious Korean ghost-film lighting, tactile practical costumes, deep teal moonlight in a modest nighttime office, realistic faces and physical props, understated employee against emotionally invested ghost, widescreen 16:9. Avoid gore, injury, neck distortion, transparency or objects passing through bodies.\n\nCharacter continuity bible: GH: a very thin adult male ghost with a long pale narrow face, visible eyes, long straight black hair tucked behind ears, normal uninjured neck, ankle-length opaque white funeral robe and extra-long empty sleeves. WO: tall broad-shouldered late-50s Korean woman, rectangular face, angular clear glasses, salt-and-pepper asymmetrical short undercut hair, mustard shirt and dark brown trousers. G2: short broad male ghost with gray buzz cut and light-gray short robe. G3: small older female ghost with a single brown braid and pale sand robe. Include only characters explicitly named in this shot.\n\nEXACT SHOT START STATE: The same GH sits upright at the front row of a bright modest presentation room, pale narrow face clearly visible in three-quarter view, pencil raised above a blank open notebook before taking notes. A large clean blank two-column screen is beside him; two distant audience backs only, no presenter or recognizable logos. Serious attentive learner. No text or letters anywhere.\n\nCreate one standalone cinematic first-frame image before the described action, not a collage, storyboard sheet or completed payoff. Use only visible characters named in the shot. Preserve unique face shapes, body types, hair, clothing and all prop counts. No subtitles, letters, readable text, logos, watermark, fabricated signage or UI text; leave clean blank graphic surfaces and caption-safe negative space. Natural hands with correct anatomy. No motion blur. Subsequent action is for later Flow video, do not depict multiple moments in this still.\nSHOT LOCATION EXCEPTION: This shot is in a BRIGHT softly lit modest presentation room, NOT the dark office. Use reference ONLY for GH's same face, long straight black hair, very thin body and white long robe. WO and other ghosts are absent. GH seated at left/front row end, his long pale male face shown in three-quarter view, earnestly focused on blank presentation screen at right. One small open plain off-white notebook supported on his lap, right hand holds wooden pencil with tip hovering above paper before writing; left hand supports notebook. Large wall screen at right has TWO totally blank pale panels, no symbols. Only two distant people from behind, normal neutral clothes, no visible faces. Modest rows of gray chairs. Screen and ghost both in composition, clean upper right area for later event title. 16:9 cinematic wide first frame.",
+      "referenced_image_paths": [
+        "\\\\wsl.localhost\\Ubuntu-24.04\\home\\wooseok\\wsy\\samsung_related\\slide\\AI실행결과발표대회_디자인3종\\storyboards\\2026-10-23_v10-ten-concepts\\images\\C06\\S02.png"
+      ],
+      "next_motion": "GH가 화면과 수첩을 번갈아 보고 한 줄을 적는다. 발표 화면에는 후편집으로 기록 분류→원문 대조의 두 단계가 차례로 강조된다.",
+      "camera_notes": "앞줄을 대각선으로 보는 미디엄 와이드. GH의 얼굴이 식별되며 중앙 화면 글은 후편집.",
+      "artist_review": {
+        "opened_actual_image": true,
+        "notes": "실제 파일 열람. 같은 GH가 밝은 발표 공간에서 연필 들고 필기 전. 두 단 빈 화면/수첩/참석자 뒷모습 정확히 2명. 행사명·프로그램 등 생성 글 없음. GH는 측면 통로 끝에 앉았으며 화면과 얼굴 동시 가시."
+      },
+      "review_status": "artist checked; independent review pending"
+    },
+    {
+      "id": "C06_K04",
+      "concept_id": "C06",
+      "scene_id": "S04",
+      "linked_cut": "K04",
+      "image_path": "images/C06/S04.png",
+      "source_generated_path": "C:\\Users\\wseok\\.codex\\generated_images\\01a164df-1990-7500-a038-0a0a40059160\\exec-6fe9209f-66d1-4e4f-8be0-88c3fd1834b7.png",
+      "generation_tool": "image_gen",
+      "prompt": "Cinematic serious Korean ghost-film lighting, tactile practical costumes, deep teal moonlight in a modest nighttime office, realistic faces and physical props, understated employee against emotionally invested ghost, widescreen 16:9. Avoid gore, injury, neck distortion, transparency or objects passing through bodies.\n\nCharacter continuity bible: GH: a very thin adult male ghost with a long pale narrow face, visible eyes, long straight black hair tucked behind ears, normal uninjured neck, ankle-length opaque white funeral robe and extra-long empty sleeves. WO: tall broad-shouldered late-50s Korean woman, rectangular face, angular clear glasses, salt-and-pepper asymmetrical short undercut hair, mustard shirt and dark brown trousers. G2: short broad male ghost with gray buzz cut and light-gray short robe. G3: small older female ghost with a single brown braid and pale sand robe. Include only characters explicitly named in this shot.\n\nEXACT SHOT START STATE: Back in the identical nighttime office. WO is poised to compare one original paper beside a monitor with clean blank grouping panels. GH stands beside her already hugging the familiar gray lounge-chair cushion, anxiously waiting for her to finish; his open notebook lies on the desk. Before the human verification mark, no completion symbols. Large simple blank document blocks for later compositing, no text.\n\nCreate one standalone cinematic first-frame image before the described action, not a collage, storyboard sheet or completed payoff. Use only visible characters named in the shot. Preserve unique face shapes, body types, hair, clothing and all prop counts. No subtitles, letters, readable text, logos, watermark, fabricated signage or UI text; leave clean blank graphic surfaces and caption-safe negative space. Natural hands with correct anatomy. No motion blur. Subsequent action is for later Flow video, do not depict multiple moments in this still.\nUse reference 1 for identical night office and both character identities; reference 2 for SAME small plain notebook now open on desk. New over-left-shoulder medium angle includes WO's rectangular face in profile at left, her hand hovering just BEFORE pointing to a blank original sheet. Her original paper lies adjacent to the monitor at screen right; monitor faces camera enough to show two simple blank gray grouping panels, NO words/numbers/checkmarks. Slim dark laptop open on desk below monitor, with plain dark screen, establishes next shot's laptop. Same other papers and brown loop-handled case remain on desk. GH stands behind her, hugging ONE plain square gray cushion to his chest with ONE arm, his other hand beside the open small notebook. He looks impatiently hopeful, NOT already lying down. Gray lounge chair visible further right without its cushion. Teal night window and left door maintain layout. Only GH and WO. No other ghosts. Single 16:9.",
+      "referenced_image_paths": [
+        "\\\\wsl.localhost\\Ubuntu-24.04\\home\\wooseok\\wsy\\samsung_related\\slide\\AI실행결과발표대회_디자인3종\\storyboards\\2026-10-23_v10-ten-concepts\\images\\C06\\S02.png",
+        "\\\\wsl.localhost\\Ubuntu-24.04\\home\\wooseok\\wsy\\samsung_related\\slide\\AI실행결과발표대회_디자인3종\\storyboards\\2026-10-23_v10-ten-concepts\\images\\C06\\S03.png"
+      ],
+      "next_motion": "WO가 AI 분류 제안의 한 항목과 원본의 같은 표시를 대조한다. GH는 끝난 줄 알고 쿠션을 베개처럼 얼굴 옆에 대며 눕기 준비를 하다, WO가 확인할 두 번째 표시로 손을 옮기자 바로 멈춘다. 마지막 확인 표시는 WO가 직접 한다. 한 묶음 외 다른 업무는 저절로 처리되지 않는다.",
+      "camera_notes": "직원·모니터·원본 종이를 함께 잡는 어깨 너머 미디엄. 화면 좌우 패널은 크게 단순하게.",
+      "artist_review": {
+        "opened_actual_image": true,
+        "notes": "실제 파일 열람. 밤 사무실 복귀, GH 회색 쿠션 품에/같은 작은 수첩 책상. WO 원본·빈 분류 패널 비교 준비. 종이 묶음·서류철 남음. K05 연속성을 위한 열린 노트북을 모니터 아래 선행 배치(일반 소품 제안값). 완료표시·읽을 글 없음."
+      },
+      "review_status": "artist checked; independent review pending"
+    },
+    {
+      "id": "C06_K05",
+      "concept_id": "C06",
+      "scene_id": "S05",
+      "linked_cut": "K05",
+      "image_path": "images/C06/S05.png",
+      "source_generated_path": "C:\\Users\\wseok\\.codex\\generated_images\\01a164df-1990-7500-a038-0a0a40059160\\exec-c8153bb6-2cd4-4527-8adc-9589cac63e35.png",
+      "generation_tool": "image_gen",
+      "prompt": "Cinematic serious Korean ghost-film lighting, tactile practical costumes, deep teal moonlight in a modest nighttime office, realistic faces and physical props, understated employee against emotionally invested ghost, widescreen 16:9. Avoid gore, injury, neck distortion, transparency or objects passing through bodies.\n\nCharacter continuity bible: GH: a very thin adult male ghost with a long pale narrow face, visible eyes, long straight black hair tucked behind ears, normal uninjured neck, ankle-length opaque white funeral robe and extra-long empty sleeves. WO: tall broad-shouldered late-50s Korean woman, rectangular face, angular clear glasses, salt-and-pepper asymmetrical short undercut hair, mustard shirt and dark brown trousers. G2: short broad male ghost with gray buzz cut and light-gray short robe. G3: small older female ghost with a single brown braid and pale sand robe. Include only characters explicitly named in this shot.\n\nEXACT SHOT START STATE: Same office wide angle. WO has her bag already on her shoulder and one hand poised over the still-open laptop before closing it; checked papers remain on the desk. GH stands aside near the left exit, anticipating her departure. Door is not yet closed. Clean lower desk-front caption zone.\n\nCreate one standalone cinematic first-frame image before the described action, not a collage, storyboard sheet or completed payoff. Use only visible characters named in the shot. Preserve unique face shapes, body types, hair, clothing and all prop counts. No subtitles, letters, readable text, logos, watermark, fabricated signage or UI text; leave clean blank graphic surfaces and caption-safe negative space. Natural hands with correct anatomy. No motion blur. Subsequent action is for later Flow video, do not depict multiple moments in this still.\nSame two characters and nighttime office. Wider camera than reference 1. WO now STANDS beside her gray desk chair, already wearing a plain dark brown shoulder bag; right hand hovering over TOP EDGE of still-open slim dark laptop lid, ready to close it, not already closed. Keep mustard shirt, high-waisted dark brown trousers, short asymmetric gray undercut and clear angular glasses. Checked papers, small open notebook and brown document case remain on same central wooden desk; right monitor stays with blank two-panels. GH is now at the FAR LEFT EXIT, standing aside to let her leave; he still hugs the SAME single square gray cushion to chest, anticipatory tired gaze toward her. Left door slightly ajar. Gray low lounge chair at right empty. Do not show her already outside, no extra ghosts. 16:9.",
+      "referenced_image_paths": [
+        "\\\\wsl.localhost\\Ubuntu-24.04\\home\\wooseok\\wsy\\samsung_related\\slide\\AI실행결과발표대회_디자인3종\\storyboards\\2026-10-23_v10-ten-concepts\\images\\C06\\S04.png",
+        "\\\\wsl.localhost\\Ubuntu-24.04\\home\\wooseok\\wsy\\samsung_related\\slide\\AI실행결과발표대회_디자인3종\\storyboards\\2026-10-23_v10-ten-concepts\\images\\C06\\S01.png"
+      ],
+      "next_motion": "WO가 노트북을 닫고 왼쪽 문 밖으로 걸어 나간다. GH는 문이 닫히는 것을 끝까지 지켜본다.",
+      "camera_notes": "왼쪽 문과 책상 전체를 보는 고정 와이드.",
+      "artist_review": {
+        "opened_actual_image": true,
+        "notes": "실제 파일 열람. WO 어깨 가방, 열린 노트북 닫기 직전 손, GH 왼쪽 열린 문에서 쿠션을 안고 기다림. 종이·수첩·서류철 남음. 정렬된 남은 문서와 옷/헤어 유지. 노트북을 닫는 손 좌우는 텍스트에 필수 지정 없으며 이 프레임의 왼손을 후속 동작 기준으로 사용."
+      },
+      "review_status": "artist checked; independent review pending"
+    },
+    {
+      "id": "C06_K06",
+      "concept_id": "C06",
+      "scene_id": "S06",
+      "linked_cut": "K06",
+      "image_path": "images/C06/S06_v2.png",
+      "source_generated_path": "C:\\Users\\wseok\\.codex\\generated_images\\01a164df-1990-7500-a038-0a0a40059160\\exec-496f0805-c93f-4fa7-b846-e39f21aa3577.png",
+      "generation_tool": "image_gen",
+      "prompt": "Cinematic serious Korean ghost-film lighting, tactile practical costumes, deep teal moonlight in a modest nighttime office, realistic faces and physical props, understated employee against emotionally invested ghost, widescreen 16:9. Avoid gore, injury, neck distortion, transparency or objects passing through bodies.\n\nCharacter continuity bible: GH: a very thin adult male ghost with a long pale narrow face, visible eyes, long straight black hair tucked behind ears, normal uninjured neck, ankle-length opaque white funeral robe and extra-long empty sleeves. WO: tall broad-shouldered late-50s Korean woman, rectangular face, angular clear glasses, salt-and-pepper asymmetrical short undercut hair, mustard shirt and dark brown trousers. G2: short broad male ghost with gray buzz cut and light-gray short robe. G3: small older female ghost with a single brown braid and pale sand robe. Include only characters explicitly named in this shot.\n\nEXACT SHOT START STATE: Same office with the left door closed and familiar low lounge chair. GH is just beginning to lean backward above that chair, a gray cushion already below. He has not fully reclined yet. Normal neck and visible face, quiet anticipation of rest, no new guests or laptops.\n\nCreate one standalone cinematic first-frame image before the described action, not a collage, storyboard sheet or completed payoff. Use only visible characters named in the shot. Preserve unique face shapes, body types, hair, clothing and all prop counts. No subtitles, letters, readable text, logos, watermark, fabricated signage or UI text; leave clean blank graphic surfaces and caption-safe negative space. Natural hands with correct anatomy. No motion blur. Subsequent action is for later Flow video, do not depict multiple moments in this still.\nRevise the composition clearly; do not repeat the reference's standing-by-desk pose. Same GH face, robe and night office from references. Camera pulls far BACK and slightly LEFT into a WIDE 16:9 room view: closed door on extreme LEFT, wooden desk and computer in MIDDLE, separate low padded gray rest chair on RIGHT in front of window. The empty wheeled employee chair stays by desk. GH is on RIGHT directly above the rest chair in a half-reclined pose, body diagonal about 45 degrees, knees slightly bent, feet low toward floor and back approaching the chair cushion. He is about to float horizontally but not yet fully lying down; torso leans BACK, chest faces up. Normal aligned neck, recognizable face in profile, eyes still softly open, both arms relaxed toward sides. The single gray cushion lies on rest chair beneath head area. Both feet/body visible enough to read pose. No employee, no other ghosts. All desk props retained, laptop closed, no text, no injury. This first-frame must visibly show preparation to RECLINE, not standing upright.",
+      "referenced_image_paths": [
+        "\\\\wsl.localhost\\Ubuntu-24.04\\home\\wooseok\\wsy\\samsung_related\\slide\\AI실행결과발표대회_디자인3종\\storyboards\\2026-10-23_v10-ten-concepts\\images\\C06\\S04.png",
+        "\\\\wsl.localhost\\Ubuntu-24.04\\home\\wooseok\\wsy\\samsung_related\\slide\\AI실행결과발표대회_디자인3종\\storyboards\\2026-10-23_v10-ten-concepts\\images\\C06\\S06.png"
+      ],
+      "next_motion": "GH가 의자 바로 위에 몸을 길게 띄우며 눈을 감는다. 긴 수의는 정상 중력처럼 아래로 드리워지고 문 쪽 소리에 반응해야 할 필요는 없다.",
+      "camera_notes": "작은 휴식 의자와 닫힌 문이 같은 화면에 있는 고정 와이드. 유령은 누워도 정상 목.",
+      "artist_review": {
+        "opened_actual_image": true,
+        "notes": "실제 파일 열람. 닫힌 좌측 문·중앙 책상·우측 별도 회색 휴식 의자 구도 확립. GH는 쿠션 위로 몸을 기대기 시작하는 대각선 자세, 아직 완전히 누운 상태 아님. WO/방문자 없음. 최초 S06도 보존. 기존 뒤 의자의 자세한 형상을 이 와이드에서 회색 낮은 팔걸이 의자로 구체화."
+      },
+      "review_status": "artist checked; independent review pending"
+    },
+    {
+      "id": "C06_K07",
+      "concept_id": "C06",
+      "scene_id": "S07",
+      "linked_cut": "K07",
+      "image_path": "images/C06/S07_v2.png",
+      "source_generated_path": "C:\\Users\\wseok\\.codex\\generated_images\\01a164df-1990-7500-a038-0a0a40059160\\exec-90c7893c-27a6-47cc-9f41-7cb0a3bd6a2b.png",
+      "generation_tool": "image_gen",
+      "prompt": "Edit the provided image with one tiny local correction only. Remove the small circular emblem/logo on the closed navy-blue laptop carried by the gray-buzzcut male visitor at the left doorway. Make that laptop lid uniformly plain matte navy blue with absolutely no letters, emblem, sticker, logo or graphics. If any marks on the gray laptop are visible, similarly keep its lid plain gray. Preserve all three people exactly: identities, pose, eyes, expressions, robes, hair, laptop count and folded black chair. Preserve entire office, ghost half-reclining at right, door, furniture, documents, camera framing, 16:9 dimensions, cinematic teal night lighting. No other changes.",
+      "referenced_image_paths": [
+        "\\\\wsl.localhost\\Ubuntu-24.04\\home\\wooseok\\wsy\\samsung_related\\slide\\AI실행결과발표대회_디자인3종\\storyboards\\2026-10-23_v10-ten-concepts\\images\\C06\\S07.png"
+      ],
+      "next_motion": "G2와 G3가 문 안으로 한 걸음 들어와 닫힌 노트북을 조심스럽게 내민다. GH는 몸을 일으키려다 멈추고 두 노트북을 번갈아 본다.",
+      "camera_notes": "문·두 방문자·메인 유령의 얼굴이 보이는 미디엄 와이드. 하단에는 노트북을 가리지 않는 폭 좁은 여백.",
+      "artist_review": {
+        "opened_actual_image": true,
+        "notes": "실제 파일 열람. G2 회색 버즈컷·남색 노트북, G3 갈색 한 가닥 땋음·회색 노트북·검정 접힌 의자. GH 우측 반쯤 기대며 눈 감은 상태. 팻말/직원 없음. S07의 작은 노트북 표식 제거된 v2 선택."
+      },
+      "review_status": "artist checked; independent review pending"
+    },
+    {
+      "id": "C06_K08",
+      "concept_id": "C06",
+      "scene_id": "S08",
+      "linked_cut": "K08",
+      "image_path": "images/C06/S08.png",
+      "source_generated_path": "C:\\Users\\wseok\\.codex\\generated_images\\01a164df-1990-7500-a038-0a0a40059160\\exec-b5d43966-45f1-4f85-9c5d-3d6e4650693e.png",
+      "generation_tool": "image_gen",
+      "prompt": "Cinematic serious Korean ghost-film lighting, tactile practical costumes, deep teal moonlight in a modest nighttime office, realistic faces and physical props, understated employee against emotionally invested ghost, widescreen 16:9. Avoid gore, injury, neck distortion, transparency or objects passing through bodies.\n\nCharacter continuity bible: GH: a very thin adult male ghost with a long pale narrow face, visible eyes, long straight black hair tucked behind ears, normal uninjured neck, ankle-length opaque white funeral robe and extra-long empty sleeves. WO: tall broad-shouldered late-50s Korean woman, rectangular face, angular clear glasses, salt-and-pepper asymmetrical short undercut hair, mustard shirt and dark brown trousers. G2: short broad male ghost with gray buzz cut and light-gray short robe. G3: small older female ghost with a single brown braid and pale sand robe. Include only characters explicitly named in this shot.\n\nEXACT SHOT START STATE: GH stands behind the same desk holding a small blank tabletop sign just above the desk before setting it down. G2 hugs his closed laptop, G3 still holds the folded chair. Show the blank sign face and the ghost’s strained polite expression. Do not show an open chair or text.\n\nCreate one standalone cinematic first-frame image before the described action, not a collage, storyboard sheet or completed payoff. Use only visible characters named in the shot. Preserve unique face shapes, body types, hair, clothing and all prop counts. No subtitles, letters, readable text, logos, watermark, fabricated signage or UI text; leave clean blank graphic surfaces and caption-safe negative space. Natural hands with correct anatomy. No motion blur. Subsequent action is for later Flow video, do not depict multiple moments in this still.\nUse reference 1 for exact G2/G3 faces, clothes, hair, laptop colors and folded chair; reference 2 for close GH facial identity. Reframe to a medium-wide visitor-side angle of the SAME wooden desk. GH now standing UPRIGHT behind desk at screen right, holding ONE small landscape tabletop sign with two hands, its totally blank light cream front face toward visitors/camera; sign lower edge hovers 10 cm ABOVE tabletop BEFORE setting it down, don't place duplicate sign on table. GH attempts a tight polite smile. G2 and G3 at screen left/front of desk, BOTH standing. G2 gray buzzcut, broad body, hugs plain navy closed laptop to chest. G3 brown single braid on right shoulder, sand robe, gray closed laptop under left arm, FOLDED black chair held vertically in right hand beside leg. Chair has not opened. Same papers, brown case and notebook remain on desk, computer pushed right in framing, gray cushion/rest chair in background. No WO. Clear upper wall for later text, no readable text, logos or laptop emblems. 16:9.",
+      "referenced_image_paths": [
+        "\\\\wsl.localhost\\Ubuntu-24.04\\home\\wooseok\\wsy\\samsung_related\\slide\\AI실행결과발표대회_디자인3종\\storyboards\\2026-10-23_v10-ten-concepts\\images\\C06\\S07_v2.png",
+        "\\\\wsl.localhost\\Ubuntu-24.04\\home\\wooseok\\wsy\\samsung_related\\slide\\AI실행결과발표대회_디자인3종\\storyboards\\2026-10-23_v10-ten-concepts\\images\\C06\\S02.png"
+      ],
+      "next_motion": "GH가 팻말을 두 방문자 쪽으로 반듯하게 세우고 두 손을 모은다. 팻말에는 후편집으로 질문을 행사로 돌리는 문구를 넣는다. G3는 의자를 아직 펴지 않는다.",
+      "camera_notes": "책상과 GH 얼굴, 팻말 앞면, 양쪽 방문자의 어깨가 보이는 고정 미디엄.",
+      "artist_review": {
+        "opened_actual_image": true,
+        "notes": "실제 파일 열람. GH 양손에 빈 탁상 팻말/아직 공중, 억지 친절 미소. 두 방문자는 서 있고 각 노트북 1개/G3 검정 의자 접힘 유지. 로고·문구 없음. 쿠션은 후경 의자 쪽 일부 가려짐."
+      },
+      "review_status": "artist checked; independent review pending"
+    },
+    {
+      "id": "C06_K09",
+      "concept_id": "C06",
+      "scene_id": "S09",
+      "linked_cut": "K09",
+      "image_path": "images/C06/S09_v2.png",
+      "source_generated_path": "C:\\Users\\wseok\\.codex\\generated_images\\01a164df-1990-7500-a038-0a0a40059160\\exec-090bf63e-0846-4fc3-886d-e3a0e06544b4.png",
+      "generation_tool": "image_gen",
+      "prompt": "Make one local correction to this image and preserve everything else exactly. The closed gray laptop lying at the LEFT edge of the desk has a small bright logo-shaped mark in the middle of its lid. Remove that mark, leaving the entire lid uniformly plain gray metal with absolutely no branding, symbols, stickers or text. Do not alter its size, position or lighting. Preserve all three ghosts, their faces/poses/costumes, hands on the still-folded black chair, the navy laptop held by the male visitor, the blank upright desk sign, office geography, teal night lighting and wide 16:9 composition. No other change.",
+      "referenced_image_paths": [
+        "\\\\wsl.localhost\\Ubuntu-24.04\\home\\wooseok\\wsy\\samsung_related\\slide\\AI실행결과발표대회_디자인3종\\storyboards\\2026-10-23_v10-ten-concepts\\images\\C06\\S09.png"
+      ],
+      "next_motion": "G3가 의자를 펴고 조용히 앉는다. GH의 미소가 굳는다. 마지막에는 G2가 여전히 서서 기다리는 상태를 유지하고 행사명·연결 문구를 후편집한다.",
+      "camera_notes": "책상·접이식 의자·세 얼굴을 읽는 고정 와이드. 위쪽 어두운 벽을 제목 여백으로 확보.",
+      "artist_review": {
+        "opened_actual_image": true,
+        "notes": "실제 파일 열람. G3 양손으로 접힌 의자 잡아 펴기 직전, G2 서서 남색 노트북 보유, GH 빈 손·억지 미소, 팻말은 책상 위에 이미 섬. G3 회색 노트북은 양손 사용을 위해 책상 왼쪽에 두었다는 컷 사이 동작을 제안값으로 기록. 회색 노트북의 생성 표식은 v2에서 제거."
+      },
+      "review_status": "artist checked; independent review pending"
+    }
+  ],
+  "rejected_attempts": [
+    {
+      "source_generated_path": "C:\\Users\\wseok\\.codex\\generated_images\\01a164df-1990-7500-a038-0a0a40059160\\exec-b7fcd174-8e69-40e6-bac5-a0231d368995.png",
+      "image_path": "images/C06/S06.png",
+      "prompt": "Cinematic serious Korean ghost-film lighting, tactile practical costumes, deep teal moonlight in a modest nighttime office, realistic faces and physical props, understated employee against emotionally invested ghost, widescreen 16:9. Avoid gore, injury, neck distortion, transparency or objects passing through bodies.\n\nCharacter continuity bible: GH: a very thin adult male ghost with a long pale narrow face, visible eyes, long straight black hair tucked behind ears, normal uninjured neck, ankle-length opaque white funeral robe and extra-long empty sleeves. WO: tall broad-shouldered late-50s Korean woman, rectangular face, angular clear glasses, salt-and-pepper asymmetrical short undercut hair, mustard shirt and dark brown trousers. G2: short broad male ghost with gray buzz cut and light-gray short robe. G3: small older female ghost with a single brown braid and pale sand robe. Include only characters explicitly named in this shot.\n\nEXACT SHOT START STATE: Same office with the left door closed and familiar low lounge chair. GH is just beginning to lean backward above that chair, a gray cushion already below. He has not fully reclined yet. Normal neck and visible face, quiet anticipation of rest, no new guests or laptops.\n\nCreate one standalone cinematic first-frame image before the described action, not a collage, storyboard sheet or completed payoff. Use only visible characters named in the shot. Preserve unique face shapes, body types, hair, clothing and all prop counts. No subtitles, letters, readable text, logos, watermark, fabricated signage or UI text; leave clean blank graphic surfaces and caption-safe negative space. Natural hands with correct anatomy. No motion blur. Subsequent action is for later Flow video, do not depict multiple moments in this still.\nOnly GH in this shot; WO has left. Same modest office geography, door on FAR LEFT now CLOSED, wooden desk center-left with documents, notebook and CLOSED existing laptop. Monitor blank/dark on far right of desk. Camera wide, framed to also show gray low rest chair at RIGHT beside desk. Same square gray cushion now rests on that chair seat/back. Ghost stands in front of this chair with feet still low near floor, knees slightly bent and upper body leaning backward just 25 degrees, beginning to recline but NOT fully horizontal and NOT fully seated. His face visible, neck naturally aligned, eyelids soft with exhaustion, mouth relaxed. Arms loose by side, no object held. Same long straight black hair, white opaque robe. Robe drapes naturally down, no body passing through chair. Night moonlight identical. No visitors anywhere, no new laptops, no text, 16:9.",
+      "referenced_image_paths": [
+        "\\\\wsl.localhost\\Ubuntu-24.04\\home\\wooseok\\wsy\\samsung_related\\slide\\AI실행결과발표대회_디자인3종\\storyboards\\2026-10-23_v10-ten-concepts\\images\\C06\\S04.png",
+        "\\\\wsl.localhost\\Ubuntu-24.04\\home\\wooseok\\wsy\\samsung_related\\slide\\AI실행결과발표대회_디자인3종\\storyboards\\2026-10-23_v10-ten-concepts\\images\\C06\\S05.png"
+      ],
+      "review_status": "revision_required",
+      "reason": "GH가 책상 앞 업무의자 옆에 서서 휴식 의자에 기대기 직전 자세와 우측 동선이 약함. 우측 휴식공간으로 구도 수정."
+    },
+    {
+      "source_generated_path": "C:\\Users\\wseok\\.codex\\generated_images\\01a164df-1990-7500-a038-0a0a40059160\\exec-498ff183-383d-4005-9d12-3f2439292a26.png",
+      "image_path": "images/C06/S07.png",
+      "prompt": "Cinematic serious Korean ghost-film lighting, tactile practical costumes, deep teal moonlight in a modest nighttime office, realistic faces and physical props, understated employee against emotionally invested ghost, widescreen 16:9. Avoid gore, injury, neck distortion, transparency or objects passing through bodies.\n\nCharacter continuity bible: GH: a very thin adult male ghost with a long pale narrow face, visible eyes, long straight black hair tucked behind ears, normal uninjured neck, ankle-length opaque white funeral robe and extra-long empty sleeves. WO: tall broad-shouldered late-50s Korean woman, rectangular face, angular clear glasses, salt-and-pepper asymmetrical short undercut hair, mustard shirt and dark brown trousers. G2: short broad male ghost with gray buzz cut and light-gray short robe. G3: small older female ghost with a single brown braid and pale sand robe. Include only characters explicitly named in this shot.\n\nEXACT SHOT START STATE: G2 and G3 stand at the just-opened office door before stepping in, holding two closed laptops; G3 also carries a folded black chair. GH is half-reclined at the right, just opening his eyes. Keep the newcomers distinct from the long-haired lead ghost. No standing sign yet.\n\nCreate one standalone cinematic first-frame image before the described action, not a collage, storyboard sheet or completed payoff. Use only visible characters named in the shot. Preserve unique face shapes, body types, hair, clothing and all prop counts. No subtitles, letters, readable text, logos, watermark, fabricated signage or UI text; leave clean blank graphic surfaces and caption-safe negative space. Natural hands with correct anatomy. No motion blur. Subsequent action is for later Flow video, do not depict multiple moments in this still.\nReference 1 sets exact WIDE geography: left door, central desk, RIGHT gray low chair and cushion. Reference 2 defines GH identity, not pose. Now door at LEFT partly open, revealing exactly TWO NEW visitors standing just OUTSIDE the threshold, not yet walking into room. G2: short broad male ghost around 40, short gray buzzcut, round jaw, no sideburns, pale light-gray short robe, holding ONE closed navy-blue laptop hugged at chest. G3: small slim older female ghost around 60, narrow face, long brown hair in a single braid over her RIGHT shoulder, pale sand robe; ONE closed gray laptop under left arm and ONE FOLDED black metal chair carried vertically with right hand beside her leg. Keep both their faces and distinct objects visible. No mockery or comic facial deformity. Main GH remains at RIGHT half-reclining diagonally above his same gray cushion/chair, normal neck, eyes almost closed before noticing them, hands empty. No woman employee. No sign yet, no unfolded black chair, no laptop already handed over. Desk papers and closed existing laptop remain. Wide 16:9 cinematic still.",
+      "referenced_image_paths": [
+        "\\\\wsl.localhost\\Ubuntu-24.04\\home\\wooseok\\wsy\\samsung_related\\slide\\AI실행결과발표대회_디자인3종\\storyboards\\2026-10-23_v10-ten-concepts\\images\\C06\\S06_v2.png",
+        "\\\\wsl.localhost\\Ubuntu-24.04\\home\\wooseok\\wsy\\samsung_related\\slide\\AI실행결과발표대회_디자인3종\\storyboards\\2026-10-23_v10-ten-concepts\\images\\C06\\S02.png"
+      ],
+      "review_status": "revision_required",
+      "reason": "G2 남색 노트북 뒷면 작은 로고처럼 보이는 표식 제거."
+    },
+    {
+      "source_generated_path": "C:\\Users\\wseok\\.codex\\generated_images\\01a164df-1990-7500-a038-0a0a40059160\\exec-adf69029-2ad1-4d21-9141-161e4225696a.png",
+      "image_path": "images/C06/S09.png",
+      "prompt": "Cinematic serious Korean ghost-film lighting, tactile practical costumes, deep teal moonlight in a modest nighttime office, realistic faces and physical props, understated employee against emotionally invested ghost, widescreen 16:9. Avoid gore, injury, neck distortion, transparency or objects passing through bodies.\n\nCharacter continuity bible: GH: a very thin adult male ghost with a long pale narrow face, visible eyes, long straight black hair tucked behind ears, normal uninjured neck, ankle-length opaque white funeral robe and extra-long empty sleeves. WO: tall broad-shouldered late-50s Korean woman, rectangular face, angular clear glasses, salt-and-pepper asymmetrical short undercut hair, mustard shirt and dark brown trousers. G2: short broad male ghost with gray buzz cut and light-gray short robe. G3: small older female ghost with a single brown braid and pale sand robe. Include only characters explicitly named in this shot.\n\nEXACT SHOT START STATE: Same office final wide shot before the last gag. G3 holds a still-folded black chair ready to open it, G2 stands with his closed laptop, GH forces a polite smile behind the desk. The blank small sign is already upright. Leave the dark upper wall clean for the event title. No duplicate people or extra chairs.\n\nCreate one standalone cinematic first-frame image before the described action, not a collage, storyboard sheet or completed payoff. Use only visible characters named in the shot. Preserve unique face shapes, body types, hair, clothing and all prop counts. No subtitles, letters, readable text, logos, watermark, fabricated signage or UI text; leave clean blank graphic surfaces and caption-safe negative space. Natural hands with correct anatomy. No motion blur. Subsequent action is for later Flow video, do not depict multiple moments in this still.\nKeep same character identities and set from reference 1. Camera pulls back to show G3's entire still-FOLDED black chair at screen left foreground. G3 stands, BOTH HANDS holding opposite sides of the folded chair BEFORE spreading it; her gray closed laptop has been placed flat on the near left corner of the desk to free her hands. G2 stands behind-left of her, hugs his own closed NAVY laptop and waits; no chair for G2. GH stands behind wooden desk at right with empty hands neatly together and a strained polite smile. The SAME small landscape blank cream sign is now standing upright ON tabletop, entirely blank front visible. Do not show GH holding sign. Do not unfold chair or seat G3 yet. Same paper stack, brown document case, small notebook and dark monitor; only one portable black folding chair. Upper-left dark wall is open for event title later. No text, symbols, logos, employee or extra ghosts. 16:9 first frame.",
+      "referenced_image_paths": [
+        "\\\\wsl.localhost\\Ubuntu-24.04\\home\\wooseok\\wsy\\samsung_related\\slide\\AI실행결과발표대회_디자인3종\\storyboards\\2026-10-23_v10-ten-concepts\\images\\C06\\S08.png",
+        "\\\\wsl.localhost\\Ubuntu-24.04\\home\\wooseok\\wsy\\samsung_related\\slide\\AI실행결과발표대회_디자인3종\\storyboards\\2026-10-23_v10-ten-concepts\\images\\C06\\S07_v2.png"
+      ],
+      "review_status": "revision_required",
+      "reason": "책상 위 회색 노트북 뒷면 흰 로고처럼 보이는 표식 제거."
+    }
+  ]
+}

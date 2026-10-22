@@ -1,0 +1,13 @@
+Future production draft; do not submit before the user selects this concept.
+Use the designated PNG as the starting frame, preserving the same character identities, costumes, scale, left-right staging and props. One continuous shot matching the camera instruction below. Widescreen 16:9. The intended source clip is 8 seconds; the editor will trim the selected motion to the storyboard timing. No spoken dialogue, voice-over or lip-sync performance. No subtitles, captions, titles, logos, watermarks or legible interface/document writing. All exact typography and narrative captions will be composited in post. Silent facial and body acting must convey the action. Do not reveal the next shot's payoff early or add new characters.
+
+Concept: C03 환경까지 가져왔습니다
+Unit: C03_K07
+Start state: 처음부터 열린 마주 보는 패널. 직원은 표시된 회색·주황 파일 두 개를 이미 팔에 안고 통화 중. 기사는 벨트에 손 뻗기 전.
+Physical action: The driver looks at both office modules and starts tightening his belt as if preparing another delivery. The worker keeps both files under one arm and the phone in the other hand, then turns her body toward the exit. The driver's hands stop in surprised relief.
+Camera: 두 모듈 출입구와 직원·기사가 함께 보이는 측면 와이드. 직원과 기사 반응을 한 구도에서 읽음.
+Incoming continuity: K06에서 질문할 두 기록을 확보.
+Outgoing continuity: 직원은 경험담을 직접 들으러 출발, 사무실은 그대로.
+Acting/style: 밝은 하늘, 노란 정밀 크레인·흰 모듈·유리와 금속. 높이·거리를 크게 바꾸는 산업 광고 구도.
+Caption-safe coordinates only, do NOT render any lettering: [{'left_pct': 7, 'width_pct': 86, 'bottom_pct': 6}, {'left_pct': 7, 'width_pct': 86, 'bottom_pct': 6}]
+Continuity notes describe the editor's story connection, not extra on-screen text or extra actions. Preserve clean plates for all typography.

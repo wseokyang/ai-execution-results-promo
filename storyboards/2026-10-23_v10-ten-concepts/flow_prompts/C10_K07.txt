@@ -1,0 +1,13 @@
+Future production draft; do not submit before the user selects this concept.
+Use the designated PNG as the starting frame, preserving the same character identities, costumes, scale, left-right staging and props. One continuous shot matching the camera instruction below. Widescreen 16:9. The intended source clip is 8 seconds; the editor will trim the selected motion to the storyboard timing. No spoken dialogue, voice-over or lip-sync performance. No subtitles, captions, titles, logos, watermarks or legible interface/document writing. All exact typography and narrative captions will be composited in post. Silent facial and body acting must convey the action. Do not reveal the next shot's payoff early or add new characters.
+
+Concept: C10 개막을 허가하지 않는 기계
+Unit: C10_K07
+Start state: MC 왼쪽과 DV 오른쪽이 자유 리본 한 끝씩 잡고 첫 큰 회전을 시작하기 직전. 리본 뒤 후경 입구 쪽에는 P1이 회색 실행 기록 폴더를 가슴에 안고 발을 나란히 모은 채 기다린다. 리본 가운데는 아직 바닥.
+Physical action: 둘이 리본을 한 번 큰 원호로 돌려 박자를 보인다. P1이 그 박자에 두 번 움찔하지만 뛰지 못한다. MC는 미소를 유지하고 다시 낮은 출발 위치로 리본을 돌린다.
+Camera: 리본 원호 전체·P1 전신·두 끝을 잡은 사람들의 손이 모두 보이는 고정 와이드. 발과 바닥이 잘리지 않음. 카메라는 무대 안쪽에서 후경 입구를 보는 같은 축을 유지한다. MC는 화면 왼쪽, DV와 정지 장치는 오른쪽. P1은 후경 대기 위치에서 리본을 넘어 카메라 쪽 전경 발표 위치로 이동한다. K09에서 180도 역방향으로 카메라를 바꾸지 않는다.
+Incoming continuity: 자유 리본, 기계 정지. P1 첫 등장 얼굴·의상·폴더 식별. 카메라는 무대 안쪽에서 후경 입구를 보는 같은 축을 유지한다. MC는 화면 왼쪽, DV와 정지 장치는 오른쪽. P1은 후경 대기 위치에서 리본을 넘어 카메라 쪽 전경 발표 위치로 이동한다. K09에서 180도 역방향으로 카메라를 바꾸지 않는다.
+Outgoing continuity: P1은 아직 입장 전, 점프 0회. 리본은 다음 회전의 낮은 위치.
+Acting/style: 의도적으로 호화로운 소규모 개막 무대. 분홍 줄무늬 사회자의 과도한 환대와 진지한 개발자. 기계는 크고 노출된 B급 실물 소품이며 공급 롤·바닥 리본이 보인다. 점프는 대단한 스포츠가 아닌 불필요하게 장엄한 입장.
+Caption-safe coordinates only, do NOT render any lettering: []
+Continuity notes describe the editor's story connection, not extra on-screen text or extra actions. Preserve clean plates for all typography.

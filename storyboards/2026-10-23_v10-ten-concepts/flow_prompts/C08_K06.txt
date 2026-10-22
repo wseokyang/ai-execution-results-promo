@@ -1,0 +1,13 @@
+Future production draft; do not submit before the user selects this concept.
+Use the designated PNG as the starting frame, preserving the same character identities, costumes, scale, left-right staging and props. One continuous shot matching the camera instruction below. Widescreen 16:9. The intended source clip is 8 seconds; the editor will trim the selected motion to the storyboard timing. No spoken dialogue, voice-over or lip-sync performance. No subtitles, captions, titles, logos, watermarks or legible interface/document writing. All exact typography and narrative captions will be composited in post. Silent facial and body acting must convey the action. Do not reveal the next shot's payoff early or add new characters.
+
+Concept: C08 이 오페라는 끝났습니다
+Unit: C08_K06
+Start state: OP가 양팔을 벌려 망토를 크게 펼친 상태. ST의 손은 관객 쪽 자유 망토 끝에 닿기 직전. 왼쪽 위 빛이 아직 작업 화면에 반사되고 있다.
+Physical action: ST가 망토의 자유 끝 하나를 조금 돌려 검정 안감이 조명과 작업 화면 사이에 서도록 한다. OP는 놀랐지만 팔을 유지한다. 같은 화면의 반사가 사라지고 작업 카드가 또렷해진다.
+Camera: 관객이 화면을 정면으로 보면서 왼쪽에 세워진 망토의 옆면과 조명 방향을 함께 확인하는 미디엄 와이드.
+Incoming continuity: K05 펼쳐진 망토, 동일 조명과 반사. OP 발 위치는 크게 바뀌지 않음.
+Outgoing continuity: 검정 망토 면이 빛과 화면 사이에 서고, 관객 시야에서는 화면이 가려지지 않음.
+Acting/style: 고급 오페라 무대, 로열블루·금빛·검정 대비, 과장된 몸짓을 진지하게 찍는다. 작업 담당은 빠르고 실용적이며 주역은 절대 윙크하지 않는다. 객석 질문 뒤에도 장르의 격을 낮추지 않는다.
+Caption-safe coordinates only, do NOT render any lettering: []
+Continuity notes describe the editor's story connection, not extra on-screen text or extra actions. Preserve clean plates for all typography.

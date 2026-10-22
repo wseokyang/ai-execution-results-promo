@@ -1,0 +1,503 @@
+{
+  "status": "Completed: three independent all-88 image reviews, mutual cross review, revised text and caption-proof reconfirmation by all three",
+  "scope": "Actual selected PNGs/contact sheets plus final planning text. No actual motion, final post-composite, venue readability or audience response test.",
+  "reviews": {
+    "A": {
+      "agent": "/root/v10_review_a",
+      "phase": "completed independent",
+      "selected_images_seen": 88,
+      "concepts": [
+        "C01",
+        "C02",
+        "C03",
+        "C04",
+        "C05",
+        "C06",
+        "C07",
+        "C08",
+        "C09",
+        "C10"
+      ],
+      "contact_sheets": [
+        "contact_sheets/C01_all_starts.jpg",
+        "contact_sheets/C02_all_starts.jpg",
+        "contact_sheets/C03_all_starts.jpg",
+        "contact_sheets/C04_all_starts.jpg",
+        "contact_sheets/C05_all_starts.jpg",
+        "contact_sheets/C06_all_starts.jpg",
+        "contact_sheets/C07_all_starts.jpg",
+        "contact_sheets/C08_all_starts.jpg",
+        "contact_sheets/C09_all_starts.jpg",
+        "contact_sheets/C10_all_starts.jpg"
+      ],
+      "originals_seen": [
+        "images/C01/S02.png",
+        "images/C01/S04.png",
+        "images/C02/S05.png",
+        "images/C02/S08_v2.png",
+        "images/C03/S03.png",
+        "images/C03/S06.png",
+        "images/C04/S09.png",
+        "images/C05/S06_v2.png",
+        "images/C05/S07_v3.png",
+        "images/C05/S08_v2.png",
+        "images/C06/S01.png",
+        "images/C06/S04.png",
+        "images/C06/S09_v2.png",
+        "images/C07/S04.png",
+        "images/C07/S05_v2.png",
+        "images/C07/S06.png",
+        "images/C07/S08.png",
+        "images/C07/S09.png",
+        "images/C08/S03_v2.png",
+        "images/C08/S06.png",
+        "images/C08/S07.png",
+        "images/C09/S01.png",
+        "images/C09/S05_v2.png",
+        "images/C09/S06_v2.png",
+        "images/C09/S07_v2.png",
+        "images/C09/S08_v2.png",
+        "images/C09/S09_v2.png",
+        "images/C10/S02_v2.png",
+        "images/C10/S03_v2.png",
+        "images/C10/S04_v2.png",
+        "images/C10/S05.png",
+        "images/C10/S06_v2.png",
+        "images/C10/S07.png",
+        "images/C10/S08.png",
+        "images/C10/S09.png"
+      ],
+      "prior_actual_opens": [
+        "images/C03/S03.png",
+        "images/C03/S06.png",
+        "images/C05/S06_v2.png",
+        "images/C05/S07_v3.png",
+        "images/C05/S08_v2.png"
+      ],
+      "required_issues": [],
+      "suggestions": [
+        {
+          "id": "I-A-001",
+          "concept": "C09",
+          "finding": "Service arm bases shift between selected images, especially S07/S08/S09. Nonblocking at selection phase, but fixed-base production needs a continuity solution."
+        },
+        {
+          "id": "I-A-002",
+          "concept": "C10",
+          "finding": "S06 hand-held U is shorter than S07 wide U. Upper-body handoff edit may reduce the perceived length jump; motion not verified."
+        }
+      ],
+      "ratings_order": [
+        "hook",
+        "humor",
+        "event_connection",
+        "differentiation",
+        "image_quality"
+      ],
+      "ratings": {
+        "C01": [
+          4,
+          4,
+          4,
+          4,
+          4
+        ],
+        "C02": [
+          3,
+          4,
+          5,
+          4,
+          4
+        ],
+        "C03": [
+          4,
+          4,
+          4,
+          5,
+          4
+        ],
+        "C04": [
+          4,
+          4,
+          5,
+          5,
+          4
+        ],
+        "C05": [
+          4,
+          5,
+          3,
+          5,
+          4
+        ],
+        "C06": [
+          5,
+          4,
+          5,
+          5,
+          4
+        ],
+        "C07": [
+          4,
+          3,
+          4,
+          4,
+          4
+        ],
+        "C08": [
+          3,
+          3,
+          5,
+          4,
+          4
+        ],
+        "C09": [
+          4,
+          4,
+          4,
+          5,
+          4
+        ],
+        "C10": [
+          3,
+          4,
+          5,
+          5,
+          4
+        ]
+      },
+      "conclusion": "No mandatory new PNG generation identified in 88 selected images. Two production continuity suggestions. Actual HTML captions were not rendered by A at independent phase.",
+      "additional_cross_originals_seen": [
+        "images/C05/S02A.png",
+        "images/C05/S02B_v3.png"
+      ],
+      "total_original_detail_count_after_cross": 37
+    },
+    "B": {
+      "agent": "/root/v10_review_b",
+      "phase": "completed independent",
+      "independent_before_peer_reports": true,
+      "selected_images_seen": 88,
+      "contact_sheets": [
+        "contact_sheets/C01_all_starts.jpg",
+        "contact_sheets/C02_all_starts.jpg",
+        "contact_sheets/C03_all_starts.jpg",
+        "contact_sheets/C04_all_starts.jpg",
+        "contact_sheets/C05_all_starts.jpg",
+        "contact_sheets/C06_all_starts.jpg",
+        "contact_sheets/C07_all_starts.jpg",
+        "contact_sheets/C08_all_starts.jpg",
+        "contact_sheets/C09_all_starts.jpg",
+        "contact_sheets/C10_all_starts.jpg"
+      ],
+      "originals_seen": [
+        "images/C06/S01.png",
+        "images/C06/S09_v2.png",
+        "images/C07/S05_v2.png",
+        "images/C07/S06.png",
+        "images/C08/S03_v2.png",
+        "images/C08/S04.png",
+        "images/C08/S06.png",
+        "images/C08/S07.png",
+        "images/C09/S01.png",
+        "images/C09/S03.png",
+        "images/C09/S05_v2.png",
+        "images/C09/S06_v2.png",
+        "images/C09/S07_v2.png",
+        "images/C09/S08_v2.png",
+        "images/C09/S09_v2.png",
+        "images/C10/S02_v2.png",
+        "images/C10/S03_v2.png",
+        "images/C10/S05.png",
+        "images/C10/S06_v2.png",
+        "images/C10/S07.png",
+        "images/C10/S08.png",
+        "images/C10/S09.png"
+      ],
+      "actual_motion_or_audience_test": false,
+      "prior_existing_individual_images_seen": 44,
+      "required_issues": [
+        {
+          "id": "I-B-001",
+          "concept": "C10",
+          "finding": "K07-K09 image movement is rear waiting area to camera/front, contrary to upper continuity."
+        },
+        {
+          "id": "I-B-002",
+          "concept": "C09",
+          "finding": "Fixed floor-mounted arm description contradicts actual changing base positions. Define repositionable stands and offscreen preparation or correct images."
+        },
+        {
+          "id": "I-B-003",
+          "concepts": [
+            "C06",
+            "C07",
+            "C09",
+            "C10"
+          ],
+          "finding": "Wide top caption boxes overlap faces or helmet; coordinates must be shot-specific. PNG/CSS comparison, not actual rendered video review."
+        }
+      ],
+      "conclusion": "All three required issues can be solved without regenerating the selected PNGs. Distinct characters and visual causality generally present across ten concepts."
+    },
+    "C": {
+      "agent": "/root/v10_review_c",
+      "phase": "completed independent",
+      "independent_before_peer_reports": true,
+      "selected_images_seen": 88,
+      "contact_sheets": [
+        "contact_sheets/C01_all_starts.jpg",
+        "contact_sheets/C02_all_starts.jpg",
+        "contact_sheets/C03_all_starts.jpg",
+        "contact_sheets/C04_all_starts.jpg",
+        "contact_sheets/C05_all_starts.jpg",
+        "contact_sheets/C06_all_starts.jpg",
+        "contact_sheets/C07_all_starts.jpg",
+        "contact_sheets/C08_all_starts.jpg",
+        "contact_sheets/C09_all_starts.jpg",
+        "contact_sheets/C10_all_starts.jpg"
+      ],
+      "originals_seen": [
+        "images/C06/S01.png",
+        "images/C06/S09_v2.png",
+        "images/C07/S05_v2.png",
+        "images/C07/S06.png",
+        "images/C07/S08.png",
+        "images/C07/S09.png",
+        "images/C08/S06.png",
+        "images/C08/S07.png",
+        "images/C08/S08.png",
+        "images/C09/S05_v2.png",
+        "images/C09/S06_v2.png",
+        "images/C09/S07_v2.png",
+        "images/C09/S08_v2.png",
+        "images/C09/S09_v2.png",
+        "images/C10/S03_v2.png",
+        "images/C10/S05.png",
+        "images/C10/S06_v2.png",
+        "images/C10/S07.png",
+        "images/C10/S08.png",
+        "images/C10/S09.png"
+      ],
+      "actual_motion_or_audience_test": false,
+      "required_issues": [
+        {
+          "id": "I-C-001",
+          "concept": "C10",
+          "finding": "K07-K09 share MC-left/DV-right axis. Define rear entrance to foreground stage; S09 is not a reverse camera."
+        },
+        {
+          "id": "I-C-002",
+          "concept": "C10",
+          "finding": "K03 scissor move right to patch must propagate from screen to next_motion and scene_list."
+        }
+      ],
+      "ratings_order": [
+        "hook",
+        "humor",
+        "event_connection",
+        "differentiation",
+        "image_quality"
+      ],
+      "ratings": {
+        "C01": [
+          4,
+          4,
+          4,
+          4,
+          4
+        ],
+        "C02": [
+          4,
+          4,
+          5,
+          4,
+          4
+        ],
+        "C03": [
+          4,
+          4,
+          5,
+          5,
+          4
+        ],
+        "C04": [
+          4,
+          5,
+          4,
+          5,
+          4
+        ],
+        "C05": [
+          5,
+          4,
+          4,
+          5,
+          4
+        ],
+        "C06": [
+          5,
+          4,
+          4,
+          5,
+          4
+        ],
+        "C07": [
+          4,
+          4,
+          4,
+          5,
+          4
+        ],
+        "C08": [
+          5,
+          4,
+          4,
+          5,
+          4
+        ],
+        "C09": [
+          5,
+          4,
+          5,
+          5,
+          4
+        ],
+        "C10": [
+          4,
+          5,
+          4,
+          5,
+          4
+        ]
+      },
+      "conclusion": "No mandatory PNG regeneration found. Two production wording issues. 88 selected starts and20 original files actually inspected."
+    }
+  },
+  "cross_review": [
+    {
+      "issue_id": "I-A-001",
+      "peer_reasoning": "All agree base positions vary. A treated selection-phase severity as advisory; B required reconciling fixed-base production instructions. PD chose movable stands, offscreen repositioning between shots, fixed within each shot.",
+      "pd_resolution": "resolved at storyboard/image preparation phase",
+      "unverified": "actual generated motion, edited timing and venue readability"
+    },
+    {
+      "issue_id": "I-A-002",
+      "peer_reasoning": "All agree short-U/full-U continuous wide edit could expose a jump. Accept upper-body K06 handoff and K07 total length reference; actual motion continuity still needs verification.",
+      "pd_resolution": "resolved at storyboard/image preparation phase",
+      "unverified": "actual generated motion, edited timing and venue readability"
+    },
+    {
+      "issue_id": "I-B-001",
+      "peer_reasoning": "All agree P1 moves from rear waiting area toward camera; same MC-left/DV-right axis retained.",
+      "pd_resolution": "resolved at storyboard/image preparation phase",
+      "unverified": "actual generated motion, edited timing and venue readability"
+    },
+    {
+      "issue_id": "I-B-002",
+      "peer_reasoning": "All agree fixed-floor description conflicts with selected images; resolved together with I-A-001 without regenerating PNGs.",
+      "pd_resolution": "resolved at storyboard/image preparation phase",
+      "unverified": "actual generated motion, edited timing and venue readability"
+    },
+    {
+      "issue_id": "I-B-003",
+      "peer_reasoning": "All agree broad top captions obstruct important faces. Actual derivative caption proofs show shot-specific safe positions.",
+      "pd_resolution": "resolved at storyboard/image preparation phase",
+      "unverified": "actual generated motion, edited timing and venue readability"
+    },
+    {
+      "issue_id": "I-C-001",
+      "peer_reasoning": "All agree C10 K07-K09 are not reverse-angle shots. Canonical direction and all delivery fields corrected.",
+      "pd_resolution": "resolved at storyboard/image preparation phase",
+      "unverified": "actual generated motion, edited timing and venue readability"
+    },
+    {
+      "issue_id": "I-C-002",
+      "peer_reasoning": "All agree rightward scissor travel before cutting must propagate to all planning/production fields; verified synchronized.",
+      "pd_resolution": "resolved at storyboard/image preparation phase",
+      "unverified": "actual generated motion, edited timing and venue readability"
+    },
+    {
+      "issue_id": "I-PD-001",
+      "peer_reasoning": "All agree final title must not cover reaction. C10 lower title after action; C04 K04 information plate inside blank tablet. Perspective tracking still future work.",
+      "pd_resolution": "resolved at storyboard/image preparation phase",
+      "unverified": "actual generated motion, edited timing and venue readability"
+    },
+    {
+      "issue_id": "I-A-003",
+      "peer_reasoning": "Cross-review addition: stale manifest camera_notes synchronized. C05 K02A/B intentionally remain separate unit-specific starts/actions/cameras, sharing 3+4=7 editorial seconds.",
+      "pd_resolution": "resolved at storyboard/image preparation phase",
+      "unverified": "actual generated motion, edited timing and venue readability"
+    }
+  ],
+  "final_reconfirmation": {
+    "A": {
+      "agent": "/root/v10_review_a",
+      "received": true,
+      "actual_caption_proofs_opened": [
+        "caption_proofs/C01_captions.jpg",
+        "caption_proofs/C02_captions.jpg",
+        "caption_proofs/C03_captions.jpg",
+        "caption_proofs/C04_captions.jpg",
+        "caption_proofs/C05_captions.jpg",
+        "caption_proofs/C06_captions.jpg",
+        "caption_proofs/C07_captions.jpg",
+        "caption_proofs/C08_captions.jpg",
+        "caption_proofs/C09_captions.jpg",
+        "caption_proofs/C10_captions.jpg"
+      ],
+      "peer_reports_read": true,
+      "remaining_required_issues": 0,
+      "selection_stage_complete": true,
+      "C05_K02AB_separate_units_reconfirmed": true,
+      "browser_render_not_claimed_by_reviewer": true
+    },
+    "B": {
+      "agent": "/root/v10_review_b",
+      "received": true,
+      "actual_caption_proofs_opened": [
+        "caption_proofs/C01_captions.jpg",
+        "caption_proofs/C02_captions.jpg",
+        "caption_proofs/C03_captions.jpg",
+        "caption_proofs/C04_captions.jpg",
+        "caption_proofs/C05_captions.jpg",
+        "caption_proofs/C06_captions.jpg",
+        "caption_proofs/C07_captions.jpg",
+        "caption_proofs/C08_captions.jpg",
+        "caption_proofs/C09_captions.jpg",
+        "caption_proofs/C10_captions.jpg"
+      ],
+      "peer_reports_read": true,
+      "remaining_required_issues": 0,
+      "selection_stage_complete": true,
+      "C05_K02AB_separate_units_reconfirmed": true,
+      "browser_render_not_claimed_by_reviewer": true
+    },
+    "C": {
+      "agent": "/root/v10_review_c",
+      "received": true,
+      "actual_caption_proofs_opened": [
+        "caption_proofs/C01_captions.jpg",
+        "caption_proofs/C02_captions.jpg",
+        "caption_proofs/C03_captions.jpg",
+        "caption_proofs/C04_captions.jpg",
+        "caption_proofs/C05_captions.jpg",
+        "caption_proofs/C06_captions.jpg",
+        "caption_proofs/C07_captions.jpg",
+        "caption_proofs/C08_captions.jpg",
+        "caption_proofs/C09_captions.jpg",
+        "caption_proofs/C10_captions.jpg"
+      ],
+      "peer_reports_read": true,
+      "remaining_required_issues": 0,
+      "selection_stage_complete": true,
+      "C05_K02AB_separate_units_reconfirmed": true,
+      "browser_render_not_claimed_by_reviewer": true
+    }
+  },
+  "pd_issue": {
+    "id": "I-PD-001",
+    "finding": "Actual HTML C10 end caption covered faces; derivative proof also showed C04 K04 face overlap. Shot-specific positions revised. Original PNGs unchanged."
+  },
+  "resolution_packet": "IMAGE_CROSS_PACKET.md"
+}

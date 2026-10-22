@@ -1,0 +1,253 @@
+{
+  "concept_id": "C07",
+  "images": [
+    {
+      "id": "C07_K01",
+      "concept_id": "C07",
+      "scene_id": "S01",
+      "linked_cut": "K01",
+      "image_path": "images/C07/S01.png",
+      "source_generated_path": "C:/Users/wseok/.codex/generated_images/01a164df-584d-76e3-b26d-e65e7ccc420c/exec-84088fef-2bed-40eb-a78d-36da1b520701.png",
+      "generation_tool": "image_gen",
+      "prompt": "Sincere cinematic western at golden dusty noon, long shadows and a wide empty frontier street, tactile wood storefronts, no extra townspeople, no gunfire, no injury. Restrained irritated gunfighter, utterly calm expert. Realistic faces, 16:9, strong silhouette differences.\n\nCharacter continuity bible: CW: a 40s Black woman with bald head visible under a triangular wide-brim hat, broad shoulders, long angular face and strong cheekbones, long ivory duster coat, black high neck, brown boots. EX: a short elderly East Asian woman with a tiny square face, very short white pixie hair, navy poncho and sand trousers, worn leather notebook. Exactly TWO people, CW and EX only.\n\nEXACT SHOT START STATE: Wide western duel before the reveal: CW stands on screen right, coat parted and hand near her hip; EX on left has one hand poised at a small closed leather notebook pouch. Empty dusty distance between them. No notebook has been drawn yet, no visible gun, no questioners. Both faces readable.\n\nCreate one standalone cinematic first-frame image before the described action, not a collage, storyboard sheet or completed payoff. Use only visible characters named in the shot. Preserve unique face shapes, body types, hair, clothing and all prop counts. No subtitles, letters, readable text, logos, watermark, fabricated signage or UI text; leave clean blank graphic surfaces and caption-safe negative space. Natural hands with correct anatomy. No motion blur. Subsequent action is for later Flow video, do not depict multiple moments in this still.\nFirst frame, serious live-action western. Both women shown full length in profile three-quarter facing one another. Tall CW at RIGHT, broad triangular-brim taupe hat tilted enough to show her bald scalp at the sides, long ivory coat open at hip showing ONLY a soft tan coiled rope and small dark notebook pouch. No firearm or holster. Much shorter EX at LEFT, silver-white short pixie, navy poncho, hand hovering just before closed worn leather notebook pouch at hip. Dusty EMPTY center street, no other people or animals. No printed shop signs. High dramatic warm sunlight and dusty haze, clear upper sky for captions.",
+      "referenced_image_paths": [],
+      "motion_camera_notes": "EX가 허리에서 가죽 수첩을 꺼내 펼친다. CW의 손은 허리 옆에서 그대로 멈추고 눈만 수첩으로 내려간다. 두 사람 전신과 긴 사이 거리를 보는 눈높이 와이드. 하늘 위쪽 여백.",
+      "artist_review": {
+        "opened_actual_image": true,
+        "notes": "키/실루엣/민머리·백발/코트·판초 구분, CW오른쪽 EX왼쪽, 수첩 공개 이전·빈 중앙 길·권총 없음 확인. 햇빛과 긴 그림자 연속 기준."
+      },
+      "review_status": "artist checked; independent review pending",
+      "integrity": {
+        "sha256": "2D307A73C57A93A95AE6FC6A09123421E2FB552150FA039B0B89DA63CD1C13E0",
+        "byte_identical_to_source": true,
+        "png_width": 1672,
+        "png_height": 941
+      }
+    },
+    {
+      "id": "C07_K02",
+      "concept_id": "C07",
+      "scene_id": "S02",
+      "linked_cut": "K02",
+      "image_path": "images/C07/S02.png",
+      "source_generated_path": "C:/Users/wseok/.codex/generated_images/01a164df-584d-76e3-b26d-e65e7ccc420c/exec-48bf1e50-bc39-4ba4-8473-777d54a4e7cb.png",
+      "generation_tool": "image_gen",
+      "prompt": "Sincere cinematic western at golden dusty noon, long shadows and a wide empty frontier street, tactile wood storefronts, no extra townspeople, no gunfire, no injury. Restrained irritated gunfighter, utterly calm expert. Realistic faces, 16:9, strong silhouette differences.\n\nCharacter continuity bible: CW: a 40s Black woman with bald head visible under a triangular wide-brim hat, broad shoulders, long angular face and strong cheekbones, long ivory duster coat, black high neck, brown boots. EX: a short elderly East Asian woman with a tiny square face, very short white pixie hair, navy poncho and sand trousers, worn leather notebook. Q1: a tall slender Latin American man with short reddish-brown curls, no facial hair, cream canvas apron over white shirt. Exactly three people: CW, EX and Q1 only.\n\nEXACT SHOT START STATE: EX holds her already-open leather notebook. Q1 is at the wooden shop doorway just before stepping into the line of sight between EX and CW. CW waits at screen right, still dignified. Show the open notebook without text and a clear walking path; Q2 is not present yet.\n\nCreate one standalone cinematic first-frame image before the described action, not a collage, storyboard sheet or completed payoff. Use only visible characters named in the shot. Preserve unique face shapes, body types, hair, clothing and all prop counts. No subtitles, letters, readable text, logos, watermark, fabricated signage or UI text; leave clean blank graphic surfaces and caption-safe negative space. Natural hands with correct anatomy. No motion blur. Subsequent action is for later Flow video, do not depict multiple moments in this still.\nActual reference image 1 fixes CW at screen RIGHT and EX at LEFT, exact faces, clothing, hats, sunlight, empty frontier street. New medium-wide composition includes LEFT wooden shop doorway behind EX. Tall slender Latino shopkeeper Q1 with reddish-brown short curls, long straight nose and clean-shaven face stands at the threshold with one foot poised before stepping out, white shirt/cream canvas apron, small black notebook tucked at waist, ordinary BLUE ballpoint pen in apron chest pocket. EX holds OPEN brown leather notebook at chest level, pages show only a few broad abstract line shapes with NO readable letters. CW still watches EX seriously. Q1 has not blocked view yet. NO Q2, no other people. Keep notebook small and visibly leather-bound.",
+      "referenced_image_paths": [
+        "\\\\wsl.localhost\\Ubuntu-24.04\\home\\wooseok\\wsy\\samsung_related\\slide\\AI실행결과발표대회_디자인3종\\storyboards\\2026-10-23_v10-ten-concepts\\images\\C07\\S01.png"
+      ],
+      "motion_camera_notes": "Q1이 둘 사이에 들어와 EX의 수첩을 가리킨다. CW가 EX 얼굴을 보려고 몸을 옆으로 반 걸음 옮긴다. 기존 축의 미디엄 와이드. Q1이 시야를 실제로 가리는 동선을 크게 보여줌.",
+      "artist_review": {
+        "opened_actual_image": true,
+        "notes": "EX 열린 가죽수첩·Q1 문턱 진입 전·CW 오른쪽·세 인물만 확인. Q1 곱슬 적갈색/앞치마/파란펜으로 외형 구별. 글 없음."
+      },
+      "review_status": "artist checked; independent review pending",
+      "integrity": {
+        "sha256": "EA9C395068BAD279FE12F136F2B99AF42E5955F868EB70C36528491D2805E19A",
+        "byte_identical_to_source": true,
+        "png_width": 1672,
+        "png_height": 941
+      }
+    },
+    {
+      "id": "C07_K03",
+      "concept_id": "C07",
+      "scene_id": "S03",
+      "linked_cut": "K03",
+      "image_path": "images/C07/S03.png",
+      "source_generated_path": "C:/Users/wseok/.codex/generated_images/01a164df-584d-76e3-b26d-e65e7ccc420c/exec-fc0bfed7-da77-4b11-af53-a242e04ffd5d.png",
+      "generation_tool": "image_gen",
+      "prompt": "Sincere cinematic western at golden dusty noon, long shadows and a wide empty frontier street, tactile wood storefronts, no extra townspeople, no gunfire, no injury. Restrained irritated gunfighter, utterly calm expert. Realistic faces, 16:9, strong silhouette differences.\n\nCharacter continuity bible: CW: a 40s Black woman with bald head visible under a triangular wide-brim hat, broad shoulders, long angular face and strong cheekbones, long ivory duster coat, black high neck, brown boots. EX: a short elderly East Asian woman with a tiny square face, very short white pixie hair, navy poncho and sand trousers, worn leather notebook. Q1: a tall slender Latin American man with short reddish-brown curls, no facial hair, cream canvas apron over white shirt. Q2: a middle-aged South Asian woman with round face, dark brows, low twin black braids, olive short jacket and beige wide trousers. Include only named visible characters.\n\nEXACT SHOT START STATE: From behind CW’s shoulder, Q2 stands on the opposite boardwalk just before crossing the newly opened sightline. EX and Q1 are already absorbed in the open notebook. Four distinct people only. CW’s annoyance is restrained; no crowd or body contact.\n\nCreate one standalone cinematic first-frame image before the described action, not a collage, storyboard sheet or completed payoff. Use only visible characters named in the shot. Preserve unique face shapes, body types, hair, clothing and all prop counts. No subtitles, letters, readable text, logos, watermark, fabricated signage or UI text; leave clean blank graphic surfaces and caption-safe negative space. Natural hands with correct anatomy. No motion blur. Subsequent action is for later Flow video, do not depict multiple moments in this still.\nUse reference to preserve CW, EX and Q1 identities, garments and frontier set. Reframe as a medium-wide over CW's RIGHT-side shoulder, her ivory coat and hat along screen right foreground, EX and Q1 together on LEFT midground looking at EX open leather notebook. Q1 has already moved next to EX, blue ballpoint remains in apron chest pocket. Introduce ONLY Q2 as a fourth distinct person at the opposite right wooden sidewalk behind CW: sturdy middle-aged SOUTH ASIAN woman, round brown face, dark thick eyebrows, long black hair tied in TWO LOW BRAIDS, short olive jacket and wide beige trousers. She holds a tiny WHITE notebook closed in one hand, and is just about to step down from sidewalk into the open path. She has NOT reached EX yet. Exactly FOUR people, no extras. CW face in three-quarter profile and restrained irritation, no grin. Keep same warm dusty sunlight, blank signs, caption-safe sky, no readable writing.",
+      "referenced_image_paths": [
+        "\\\\wsl.localhost\\Ubuntu-24.04\\home\\wooseok\\wsy\\samsung_related\\slide\\AI실행결과발표대회_디자인3종\\storyboards\\2026-10-23_v10-ten-concepts\\images\\C07\\S02.png"
+      ],
+      "motion_camera_notes": "Q2가 CW의 새 시야를 가로질러 EX 앞으로 다가가 기록 한 곳을 가리킨다. CW가 다시 옆으로 몸을 기울이지만 세 사람이 겹쳐 보인다. CW 어깨 뒤에서 EX와 질문자 둘을 보는 고정 미디엄. 세 사람의 집중 방향은 수첩.",
+      "artist_review": {
+        "opened_actual_image": true,
+        "notes": "Q1 EX 옆, Q2 반대 보도에서 흰 수첩 든 진입 전, CW 어깨 뒤 구도. 네 인물 얼굴·머리·복장 구별, 줄은 아직 허리 보관."
+      },
+      "review_status": "artist checked; independent review pending",
+      "integrity": {
+        "sha256": "261C531DED0E00A84906ED3432A1E1FEFDE84AB3FC02A437CEFEFB9958447555",
+        "byte_identical_to_source": true,
+        "png_width": 1672,
+        "png_height": 941
+      }
+    },
+    {
+      "id": "C07_K04",
+      "concept_id": "C07",
+      "scene_id": "S04",
+      "linked_cut": "K04",
+      "image_path": "images/C07/S04.png",
+      "source_generated_path": "C:/Users/wseok/.codex/generated_images/01a164df-584d-76e3-b26d-e65e7ccc420c/exec-a5504451-bf84-4e8c-ac1c-6967f8ce5cf8.png",
+      "generation_tool": "image_gen",
+      "prompt": "Sincere cinematic western at golden dusty noon, long shadows and a wide empty frontier street, tactile wood storefronts, no extra townspeople, no gunfire, no injury. Restrained irritated gunfighter, utterly calm expert. Realistic faces, 16:9, strong silhouette differences.\n\nCharacter continuity bible: CW: a 40s Black woman with bald head visible under a triangular wide-brim hat, broad shoulders, long angular face and strong cheekbones, long ivory duster coat, black high neck, brown boots. EX: a short elderly East Asian woman with a tiny square face, very short white pixie hair, navy poncho and sand trousers, worn leather notebook. Q1: a tall slender Latin American man with short reddish-brown curls, no facial hair, cream canvas apron over white shirt. Q2: a middle-aged South Asian woman with round face, dark brows, low twin black braids, olive short jacket and beige wide trousers. Include only named visible characters.\n\nEXACT SHOT START STATE: CW on the right holds a loose tan rope loop below shoulder level, ready for a gentle underhand throw into the empty sand in front of EX on the left. EX holds her notebook; Q1 and Q2 stand behind her. The rope is entirely in CW’s hands, not around any body. Clear ground target, no action already completed.\n\nCreate one standalone cinematic first-frame image before the described action, not a collage, storyboard sheet or completed payoff. Use only visible characters named in the shot. Preserve unique face shapes, body types, hair, clothing and all prop counts. No subtitles, letters, readable text, logos, watermark, fabricated signage or UI text; leave clean blank graphic surfaces and caption-safe negative space. Natural hands with correct anatomy. No motion blur. Subsequent action is for later Flow video, do not depict multiple moments in this still.\nReference 1 locks all FOUR distinct faces/clothes; reference 2 gives original wide staging with EX left and CW right. Return to eye-level full-body WIDE across the street: CW stands at RIGHT facing left, holding ONE loose tan rope in her hands, her RIGHT hand holds a soft loop LOW near her right hip for a future gentle underhand toss, LEFT hand holds the remaining loose coils. The rope is no longer clipped to her belt. No rope spans the street yet. LEFT EX holds her OPEN leather notebook in ONE hand, head turns toward CW. Behind EX are Q1 with blue pen still in apron chest pocket and Q2 with white notebook tucked under her arm. Q2 has now joined the left group. Large EMPTY dusty ground between groups, no rope on people. No text. Keep serious restrained western acting.",
+      "referenced_image_paths": [
+        "\\\\wsl.localhost\\Ubuntu-24.04\\home\\wooseok\\wsy\\samsung_related\\slide\\AI실행결과발표대회_디자인3종\\storyboards\\2026-10-23_v10-ten-concepts\\images\\C07\\S03.png",
+        "\\\\wsl.localhost\\Ubuntu-24.04\\home\\wooseok\\wsy\\samsung_related\\slide\\AI실행결과발표대회_디자인3종\\storyboards\\2026-10-23_v10-ten-concepts\\images\\C07\\S01.png"
+      ],
+      "motion_camera_notes": "CW가 부드러운 줄 고리를 EX 발 앞 빈 바닥에 던진다. 사람에게 걸리지 않고 모래에 떨어진다. 줄을 놓은 오른손으로 EX 한 사람과 자기 앞 빈자리를 짧게 가리킨다. EX는 설명을 이어가며 고개만 끄덕인다. 두 사람과 줄 낙하 지점이 한 화면에 있는 고정 와이드. 줄의 끝까지 보임.",
+      "artist_review": {
+        "opened_actual_image": true,
+        "notes": "CW 오른손 낮은 줄고리/왼손 나머지 줄, EX쪽 빈 바닥, 세 인물 왼쪽, 몸에 걸린 줄 없음 확인. EX는 시작 이미지에서 두 손으로 수첩을 받치며 S05 줄집기 이전 한 손을 뗄 수 있음."
+      },
+      "review_status": "artist checked; independent review pending",
+      "integrity": {
+        "sha256": "31818CEDD61AE25F07F306EF4C2BEF833ACA5265ECF2CA2A0CB9E67569721B3D",
+        "byte_identical_to_source": true,
+        "png_width": 1672,
+        "png_height": 941
+      }
+    },
+    {
+      "id": "C07_K05",
+      "concept_id": "C07",
+      "scene_id": "S05",
+      "linked_cut": "K05",
+      "image_path": "images/C07/S05_v2.png",
+      "source_generated_path": "C:/Users/wseok/.codex/generated_images/01a164df-584d-76e3-b26d-e65e7ccc420c/exec-a6ce3345-ae49-492b-874f-dc2c86d11efd.png",
+      "generation_tool": "image_gen",
+      "prompt": "Correct the rope physics and first-state hand positions of reference 1. Preserve all four exact faces, costumes and western location. Arrange LEFT group in order from screen-left: short white-haired EX, tall curly-haired apron Q1 immediately beside her, braided olive-jacket Q2 beside Q1. Distant CW remains at RIGHT. EX holds the open leather notebook ONLY in left hand and the very END of a single tan rope ONLY in right hand. The rope runs from EX hand downward in ONE natural smooth shallow U, then rises to distant CW hand. It stays entirely IN FRONT of the three left people, and is not wound around anyone. There is NO extra rope extending left of EX and NO unsupported upward peaks. Q1 and Q2 each hold ONE empty hand open hovering 5cm above separate low segments of this rope, not touching it yet. Other hands at their sides. They look at EX's notebook. The rope is supported ONLY by EX and CW, naturally sagging from gravity. CW holds the opposite end without pulling. No other scene changes, no text, 16:9 live-action cinematic still.",
+      "referenced_image_paths": [
+        "\\\\wsl.localhost\\Ubuntu-24.04\\home\\wooseok\\wsy\\samsung_related\\slide\\AI실행결과발표대회_디자인3종\\storyboards\\2026-10-23_v10-ten-concepts\\images\\C07\\S05.png"
+      ],
+      "motion_camera_notes": "Q1이 느슨한 줄을 한 손으로 잡고, Q2도 옆의 다른 구간을 잡는다. EX는 다른 한 손에 든 열린 수첩을 기울여 큰 수정 표시가 둘에게 보이게 하며 설명을 이어간다. 손을 추가로 써서 페이지를 가리키지 않는다. EX·Q1·Q2와 느슨하게 늘어진 줄을 보는 미디엄 와이드. CW는 오른쪽 후경.",
+      "artist_review": {
+        "opened_actual_image": true,
+        "notes": "한 가닥 줄은 EX와 CW 손 사이 자연스런 U. Q1/Q2 빈손은 줄 위에서 잡기 전. EX 오른손 줄/왼손 수첩, 몸 감김 없음. 물리적 처짐 수정본."
+      },
+      "review_status": "artist checked; independent review pending",
+      "integrity": {
+        "sha256": "12EA2F93F8128A4781229CCFE994582A262DF46F84A651E6BB2FC792AE8B020D",
+        "byte_identical_to_source": true,
+        "png_width": 1672,
+        "png_height": 941
+      }
+    },
+    {
+      "id": "C07_K06",
+      "concept_id": "C07",
+      "scene_id": "S06",
+      "linked_cut": "K06",
+      "image_path": "images/C07/S06.png",
+      "source_generated_path": "C:/Users/wseok/.codex/generated_images/01a164df-584d-76e3-b26d-e65e7ccc420c/exec-97c64bf0-c484-46ee-819d-576ccbc6f544.png",
+      "generation_tool": "image_gen",
+      "prompt": "Sincere cinematic western at golden dusty noon, long shadows and a wide empty frontier street, tactile wood storefronts, no extra townspeople, no gunfire, no injury. Restrained irritated gunfighter, utterly calm expert. Realistic faces, 16:9, strong silhouette differences.\n\nCharacter continuity bible: CW: a 40s Black woman with bald head visible under a triangular wide-brim hat, broad shoulders, long angular face and strong cheekbones, long ivory duster coat, black high neck, brown boots. EX: a short elderly East Asian woman with a tiny square face, very short white pixie hair, navy poncho and sand trousers, worn leather notebook. Q1: a tall slender Latin American man with short reddish-brown curls, no facial hair, cream canvas apron over white shirt. Q2: a middle-aged South Asian woman with round face, dark brows, low twin black braids, olive short jacket and beige wide trousers. Include only named visible characters.\n\nEXACT SHOT START STATE: Wide full-body shot before movement. CW stands at the right poised to give one gentle directional pull; EX and the two questioners stand at the left with relaxed knees and loose rope sections in their hands, still studying the notebook. Their feet are planted ready to walk, not dragged or suspended. Keep rope slack and no body loops.\n\nCreate one standalone cinematic first-frame image before the described action, not a collage, storyboard sheet or completed payoff. Use only visible characters named in the shot. Preserve unique face shapes, body types, hair, clothing and all prop counts. No subtitles, letters, readable text, logos, watermark, fabricated signage or UI text; leave clean blank graphic surfaces and caption-safe negative space. Natural hands with correct anatomy. No motion blur. Subsequent action is for later Flow video, do not depict multiple moments in this still.\nReference image gives exact FOUR identities and their positions. New shot START before the group moves: full-length eye-level wide shot, slightly further back. LEFT group arranged EX, Q1, Q2 from left to right; all three look down toward the open brown leather notebook held solely in EX LEFT hand and tilted to them. EX RIGHT hand holds rope tip; Q1 and Q2 EACH now loosely hold a DIFFERENT section of the same tan rope in one hand. Their other hands do not touch rope. The rope has small slack curves between the separate hands, then a long loose sag across the empty space to CW at RIGHT. CW now holds opposite free end with BOTH hands near waist, poised to gently guide them toward herself, without tugging yet. All four pairs of boots planted on ground, upright relaxed torsos, no leaning or sliding. No rope wrapped around limbs or bodies, no knots. No walking completed. Q1 blue pen stays in apron pocket, Q2 small white notebook tucked under free arm. No text.",
+      "referenced_image_paths": [
+        "\\\\wsl.localhost\\Ubuntu-24.04\\home\\wooseok\\wsy\\samsung_related\\slide\\AI실행결과발표대회_디자인3종\\storyboards\\2026-10-23_v10-ten-concepts\\images\\C07\\S05_v2.png"
+      ],
+      "motion_camera_notes": "CW가 줄을 한 번 당겨 방향을 만든다. EX가 설명을 계속하며 CW 쪽으로 걸어오고 Q1/Q2도 수첩을 보려고 함께 걷는다. 도착한 Q1/Q2가 다시 CW 앞을 가려, CW는 빈틈으로 고개를 내밀다 멈춘다. 기대하던 둘만의 자리는 설명회 맨 앞자리가 된다. 걷는 발과 네 사람 전신이 보이는 고정 와이드. 과장된 미끄러짐이나 강제 끌림 없음.",
+      "artist_review": {
+        "opened_actual_image": true,
+        "notes": "세 사람 각자 줄 한 구간 잡음·CW 두손 끝 잡음·빈 중앙 공간·발 전부 지면·자발 이동 직전·몸 감김 없음 확인."
+      },
+      "review_status": "artist checked; independent review pending",
+      "integrity": {
+        "sha256": "FF9A5FA71F70C27CD2D613F47075A6A29472633CDFF23D3CFF946F1DA188699E",
+        "byte_identical_to_source": true,
+        "png_width": 1672,
+        "png_height": 941
+      }
+    },
+    {
+      "id": "C07_K07",
+      "concept_id": "C07",
+      "scene_id": "S07",
+      "linked_cut": "K07",
+      "image_path": "images/C07/S07.png",
+      "source_generated_path": "C:/Users/wseok/.codex/generated_images/01a164df-584d-76e3-b26d-e65e7ccc420c/exec-8b25561c-a871-4d62-84ae-f6748f213b09.png",
+      "generation_tool": "image_gen",
+      "prompt": "Sincere cinematic western at golden dusty noon, long shadows and a wide empty frontier street, tactile wood storefronts, no extra townspeople, no gunfire, no injury. Restrained irritated gunfighter, utterly calm expert. Realistic faces, 16:9, strong silhouette differences.\n\nCharacter continuity bible: CW: a 40s Black woman with bald head visible under a triangular wide-brim hat, broad shoulders, long angular face and strong cheekbones, long ivory duster coat, black high neck, brown boots. EX: a short elderly East Asian woman with a tiny square face, very short white pixie hair, navy poncho and sand trousers, worn leather notebook. Q1: a tall slender Latin American man with short reddish-brown curls, no facial hair, cream canvas apron over white shirt. Q2: a middle-aged South Asian woman with round face, dark brows, low twin black braids, olive short jacket and beige wide trousers. Include only named visible characters.\n\nEXACT SHOT START STATE: The four people now form a close semicircle. CW is about to draw her own small black notebook from a hip pouch, keeping her chin proudly raised. EX shows her open leather notebook, Q1 and Q2 watch from each side. Slack rope lies harmlessly on the sand. No pencil spinning yet.\n\nCreate one standalone cinematic first-frame image before the described action, not a collage, storyboard sheet or completed payoff. Use only visible characters named in the shot. Preserve unique face shapes, body types, hair, clothing and all prop counts. No subtitles, letters, readable text, logos, watermark, fabricated signage or UI text; leave clean blank graphic surfaces and caption-safe negative space. Natural hands with correct anatomy. No motion blur. Subsequent action is for later Flow video, do not depict multiple moments in this still.\nUse reference image for exact four faces, costumes, hat and western street light. New moment after the other three have voluntarily walked over to CW: tight semicircle at RIGHT side of street, medium-wide knee-up shot with a little ground at bottom. CW on RIGHT foreground proudly upright, chin raised and face serious, empty RIGHT hand hovering just above her still-CLOSED hip notebook pouch, small black notebook NOT drawn yet, NO pencil visible. EX at center-left presents her already-open brown leather notebook toward CW, Q1 stands just behind EX on far left, Q2 behind between EX and CW, each attentive. Q1 ordinary blue pen remains in cream apron chest pocket. Q2 white notebook tucked at waist. All hands free of rope now, the entire tan rope lies loose and flat on sand at lower frame edge, no suspended section or binding. NO note-taking yet. Preserve clear distinct faces, no smiles or text.",
+      "referenced_image_paths": [
+        "\\\\wsl.localhost\\Ubuntu-24.04\\home\\wooseok\\wsy\\samsung_related\\slide\\AI실행결과발표대회_디자인3종\\storyboards\\2026-10-23_v10-ten-concepts\\images\\C07\\S06.png"
+      ],
+      "motion_camera_notes": "CW가 작은 수첩과 노란 연필을 꺼내 가장 앞에서 적을 준비를 한다. 고개를 숙이지 않고 결투 때처럼 턱을 높인 채 EX에게 한 줄을 요청한다. 네 사람 상반신이 모인 미디엄. CW의 수첩·연필과 무표정 얼굴이 전경.",
+      "artist_review": {
+        "opened_actual_image": true,
+        "notes": "네 인물 작은 학습 원·CW 닫힌 허리파우치에 손/수첩·연필 아직 미공개·턱 든 태도·바닥 줄·Q1 주머니 파란펜 확인."
+      },
+      "review_status": "artist checked; independent review pending",
+      "integrity": {
+        "sha256": "3B33DDB39D639C6E3B597E32B70ED852814003523313C3D4AAAB68F1963ED24B",
+        "byte_identical_to_source": true,
+        "png_width": 1672,
+        "png_height": 941
+      }
+    },
+    {
+      "id": "C07_K08",
+      "concept_id": "C07",
+      "scene_id": "S08",
+      "linked_cut": "K08",
+      "image_path": "images/C07/S08.png",
+      "source_generated_path": "C:/Users/wseok/.codex/generated_images/01a164df-584d-76e3-b26d-e65e7ccc420c/exec-776ca456-c7a2-436e-9282-490831ddfb1d.png",
+      "generation_tool": "image_gen",
+      "prompt": "Sincere cinematic western at golden dusty noon, long shadows and a wide empty frontier street, tactile wood storefronts, no extra townspeople, no gunfire, no injury. Restrained irritated gunfighter, utterly calm expert. Realistic faces, 16:9, strong silhouette differences.\n\nCharacter continuity bible: CW: a 40s Black woman with bald head visible under a triangular wide-brim hat, broad shoulders, long angular face and strong cheekbones, long ivory duster coat, black high neck, brown boots. Q1: a tall slender Latin American man with short reddish-brown curls, no facial hair, cream canvas apron over white shirt. Only CW and Q1 visible in this tighter shot.\n\nEXACT SHOT START STATE: CW holds an open black notebook in her left hand and a short yellow pencil upright between right thumb and index finger just before one flourish. Q1 stands beside her with a blue ballpoint still in his apron pocket. Her face is solemn and proud; no flying pencil, no duplicate writing tools in her hand.\n\nCreate one standalone cinematic first-frame image before the described action, not a collage, storyboard sheet or completed payoff. Use only visible characters named in the shot. Preserve unique face shapes, body types, hair, clothing and all prop counts. No subtitles, letters, readable text, logos, watermark, fabricated signage or UI text; leave clean blank graphic surfaces and caption-safe negative space. Natural hands with correct anatomy. No motion blur. Subsequent action is for later Flow video, do not depict multiple moments in this still.\nReference locks exact CW and Q1 faces, clothes, lighting and hats. Change camera to a tighter waist-up TWO-PERSON composition: CW at right foreground, Q1 at left beside her, EX and Q2 outside frame. CW chin high, composed serious face; LEFT hand supports small OPEN BLACK pocket notebook around waist height. RIGHT hand is raised at chest height, thumb and index finger gently holding ONE SHORT YELLOW WOODEN PENCIL upright before twirling. Pencil 10cm long, hexagonal yellow wood with sharpened graphite tip, not a pen. Notebook pages entirely blank. Q1's ordinary BLUE BALLPOINT visibly stays in his apron chest pocket and his hands remain down. No duplicated pens or pencils. Full hand anatomy clear, no movement blur, no airborne pencil yet, no smiling. Upper background empty sky for captions.",
+      "referenced_image_paths": [
+        "\\\\wsl.localhost\\Ubuntu-24.04\\home\\wooseok\\wsy\\samsung_related\\slide\\AI실행결과발표대회_디자인3종\\storyboards\\2026-10-23_v10-ten-concepts\\images\\C07\\S07.png"
+      ],
+      "motion_camera_notes": "CW가 연필을 한 번 멋있게 돌리려다 화면 옆으로 놓친다. 빈손을 보는 0.5초 뒤 Q1이 평범한 파란 볼펜을 내민다. CW는 모자를 고치거나 웃지 않는다. 손과 CW 얼굴, Q1 상반신을 함께 보는 고정 미디엄. 연필은 한 방향으로만 화면 밖 이동.",
+      "artist_review": {
+        "opened_actual_image": true,
+        "notes": "CW 왼손 열린 검정 수첩/오른손 단일 노란 연필 돌리기 전·Q1 주머니 파란펜 유지·진지한 턱높이 확인. 펜 제공과 연필 이탈은 후속 영상 행동."
+      },
+      "review_status": "artist checked; independent review pending",
+      "integrity": {
+        "sha256": "11D8D10184FA7E9EDAC9D689AC1578E3DB2969BB524AE0CD2645E3043BE37C28",
+        "byte_identical_to_source": true,
+        "png_width": 1672,
+        "png_height": 941
+      }
+    },
+    {
+      "id": "C07_K09",
+      "concept_id": "C07",
+      "scene_id": "S09",
+      "linked_cut": "K09",
+      "image_path": "images/C07/S09.png",
+      "source_generated_path": "C:/Users/wseok/.codex/generated_images/01a164df-584d-76e3-b26d-e65e7ccc420c/exec-86c2a6ae-37e2-45a9-9aed-e10920ffd945.png",
+      "generation_tool": "image_gen",
+      "prompt": "Sincere cinematic western at golden dusty noon, long shadows and a wide empty frontier street, tactile wood storefronts, no extra townspeople, no gunfire, no injury. Restrained irritated gunfighter, utterly calm expert. Realistic faces, 16:9, strong silhouette differences.\n\nCharacter continuity bible: CW: a 40s Black woman with bald head visible under a triangular wide-brim hat, broad shoulders, long angular face and strong cheekbones, long ivory duster coat, black high neck, brown boots. EX: a short elderly East Asian woman with a tiny square face, very short white pixie hair, navy poncho and sand trousers, worn leather notebook. Q1: a tall slender Latin American man with short reddish-brown curls, no facial hair, cream canvas apron over white shirt. Q2: a middle-aged South Asian woman with round face, dark brows, low twin black braids, olive short jacket and beige wide trousers. Include only named visible characters.\n\nEXACT SHOT START STATE: CW now holds the borrowed ordinary blue ballpoint just above the first blank line of her black notebook. EX tilts the leather notebook toward her; Q1 and Q2 lean in naturally. All four remain serious in the western street. Wide clean sky above them for the final title, no visible text in notebooks.\n\nCreate one standalone cinematic first-frame image before the described action, not a collage, storyboard sheet or completed payoff. Use only visible characters named in the shot. Preserve unique face shapes, body types, hair, clothing and all prop counts. No subtitles, letters, readable text, logos, watermark, fabricated signage or UI text; leave clean blank graphic surfaces and caption-safe negative space. Natural hands with correct anatomy. No motion blur. Subsequent action is for later Flow video, do not depict multiple moments in this still.\nReference 1 gives the four-person group and reference 2 gives the CW black notebook and the exact ordinary BLUE BALLPOINT in Q1 pocket. New final shot starts AFTER the pencil accident and pen handover: the yellow pencil is entirely OFFSCREEN and absent. CW at RIGHT now holds that single borrowed BLUE BALLPOINT in RIGHT hand, tip hovering just ABOVE the first blank line of her OPEN BLACK notebook held in LEFT hand, before writing. Q1 chest pocket is EMPTY, no second pen. CW still raises chin with dignity. EX center-left tilts her OPEN BROWN leather notebook toward CW. Q1 behind left and Q2 behind center lean in to learn, all four distinct faces visible. Wider medium-wide camera with generous empty sky above for future event title, faces and hands below upper 15%. Loose tan rope lies on sand behind feet if in frame, never held or wrapped. Same street and golden light. NO titles, logos, readable text, subtitles or actual writing yet. Exactly FOUR people.",
+      "referenced_image_paths": [
+        "\\\\wsl.localhost\\Ubuntu-24.04\\home\\wooseok\\wsy\\samsung_related\\slide\\AI실행결과발표대회_디자인3종\\storyboards\\2026-10-23_v10-ten-concepts\\images\\C07\\S07.png",
+        "\\\\wsl.localhost\\Ubuntu-24.04\\home\\wooseok\\wsy\\samsung_related\\slide\\AI실행결과발표대회_디자인3종\\storyboards\\2026-10-23_v10-ten-concepts\\images\\C07\\S08.png"
+      ],
+      "motion_camera_notes": "CW가 턱은 높인 채 볼펜으로 한 줄을 적는다. EX는 다음 항목을 가리키고 둘은 조용히 고개를 맞댄다. 마지막에는 네 사람의 작은 학습 원을 유지한다. 조금 넓어진 미디엄 와이드. 먼 서부 거리 위 하늘을 제목 여백으로 확보.",
+      "artist_review": {
+        "opened_actual_image": true,
+        "notes": "CW 오른손 파란펜/왼손 검정 수첩·노란연필 미노출·Q1 주머니 펜 없음·네 인물 작은 학습원·상단 하늘 여백 확인. 종이 실제 필기와 턱 유지 움직임은 영상 검수 대상."
+      },
+      "review_status": "artist checked; independent review pending",
+      "integrity": {
+        "sha256": "6BC5F010E360BAFE91F30680EB7702FEAA130DA9B326CA0399C329D559433832",
+        "byte_identical_to_source": true,
+        "png_width": 1672,
+        "png_height": 941
+      }
+    }
+  ],
+  "rejected_attempts": [
+    {
+      "id": "C07_K05",
+      "image_path": "images/C07/S05.png",
+      "source_generated_path": "C:/Users/wseok/.codex/generated_images/01a164df-584d-76e3-b26d-e65e7ccc420c/exec-40005fd9-578b-4e11-90d5-aa4452f263c6.png",
+      "prompt": "Sincere cinematic western at golden dusty noon, long shadows and a wide empty frontier street, tactile wood storefronts, no extra townspeople, no gunfire, no injury. Restrained irritated gunfighter, utterly calm expert. Realistic faces, 16:9, strong silhouette differences.\n\nCharacter continuity bible: CW: a 40s Black woman with bald head visible under a triangular wide-brim hat, broad shoulders, long angular face and strong cheekbones, long ivory duster coat, black high neck, brown boots. EX: a short elderly East Asian woman with a tiny square face, very short white pixie hair, navy poncho and sand trousers, worn leather notebook. Q1: a tall slender Latin American man with short reddish-brown curls, no facial hair, cream canvas apron over white shirt. Q2: a middle-aged South Asian woman with round face, dark brows, low twin black braids, olive short jacket and beige wide trousers. Include only named visible characters.\n\nEXACT SHOT START STATE: EX already loosely holds the rope end in one hand and an open notebook in the other. Q1 and Q2 are just reaching toward separate slack sections of the same rope, not yet gripping them. They look at the notebook, not hypnotized. CW is distant on screen right holding the opposite end. No loops around bodies.\n\nCreate one standalone cinematic first-frame image before the described action, not a collage, storyboard sheet or completed payoff. Use only visible characters named in the shot. Preserve unique face shapes, body types, hair, clothing and all prop counts. No subtitles, letters, readable text, logos, watermark, fabricated signage or UI text; leave clean blank graphic surfaces and caption-safe negative space. Natural hands with correct anatomy. No motion blur. Subsequent action is for later Flow video, do not depict multiple moments in this still.\nUse reference for exact four identities and clothes. New medium-wide three-quarter composition foreground LEFT group and distant RIGHT CW. EX holds opened brown leather notebook ONLY in her LEFT hand, its pages tilted toward Q1/Q2 with simple broad abstract diagram marks, no letters. EX RIGHT hand holds a free rope tip loosely at her waist. One continuous tan rope lies in loose drooping curves well IN FRONT OF the group at waist/knee level and extends across empty ground to CW at far right. Q1 and Q2 have each stored their own small notebooks in their waist pocket/under arm and extend ONE empty hand toward two DIFFERENT slack rope sections, fingers visibly hovering without contact. They study EX notebook. No one wrapped, no rope behind a waist, no ropes crossing bodies. EX has exactly two hands, one notebook and one rope. CW holds opposite rope end, no pulling yet. No walking yet. No fifth person.",
+      "referenced_image_paths": [
+        "\\\\wsl.localhost\\Ubuntu-24.04\\home\\wooseok\\wsy\\samsung_related\\slide\\AI실행결과발표대회_디자인3종\\storyboards\\2026-10-23_v10-ten-concepts\\images\\C07\\S04.png"
+      ],
+      "reason": "Q1 접촉/줄의 비물리적 높이 변화 수정"
+    }
+  ],
+  "delivery_validation": {
+    "selected_count": 9,
+    "unique_ids": true,
+    "all_sources_exist": true,
+    "all_references_exist": true,
+    "all_source_bytes_identical": true,
+    "prompts_recorded_from_actual_calls": true,
+    "independent_review": "pending",
+    "generation_mode": "built-in image_gen only",
+    "flow_calls": 0
+  }
+}

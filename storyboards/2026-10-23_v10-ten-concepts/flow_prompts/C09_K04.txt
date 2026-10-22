@@ -1,0 +1,13 @@
+Future production draft; do not submit before the user selects this concept.
+Use the designated PNG as the starting frame, preserving the same character identities, costumes, scale, left-right staging and props. One continuous shot matching the camera instruction below. Widescreen 16:9. The intended source clip is 8 seconds; the editor will trim the selected motion to the storyboard timing. No spoken dialogue, voice-over or lip-sync performance. No subtitles, captions, titles, logos, watermarks or legible interface/document writing. All exact typography and narrative captions will be composited in post. Silent facial and body acting must convey the action. Do not reveal the next shot's payoff early or add new characters.
+
+Concept: C09 지구인은 질문이 많다
+Unit: C09_K04
+Start state: HU가 받은 수첩을 책상 위에 펼쳤다. AL은 왼손에 결과판을 들고 오른손을 아직 모은 채 수첩 앞을 가리려 한다. 팔들은 접혀 있다.
+Physical action: AL이 기록 앞을 가리려고 빈 오른손바닥을 활짝 편다. HU가 손 옆으로 고개를 조금 기울여 기록을 계속 본다. 받침대 서비스 표시등이 작게 켜진다.
+Camera: 수첩·가리는 빈 손·투구의 수평 시선창을 읽는 미디엄. 손이 인간에게 닿지 않음. 한 숏 내 두 받침대의 위치는 시작 PNG 그대로 고정.
+Incoming continuity: 첫 수첩은 펼쳐짐. 두 팔 휴지 상태. 두 황동 의전 팔은 컷 사이 준비 시간에 위치를 조정할 수 있는 이동식 받침대 장치다. 활동 컷과 휴지 컷 사이 재배치 시간은 생략한다. 한 연속 숏 안에서는 시작 PNG의 받침대 위치를 고정하고 관절만 움직인다. 순간 이동이나 바닥을 미끄러지는 자동 이동을 요청하지 않는다.
+Outgoing continuity: AL 빈 손바닥이 서비스 영역에 보임. 다음 폴더는 여전히 받침대에 존재.
+Acting/style: 상아색·황동·짙은 보라의 정교한 외계 의전실. 광택 큰 투구와 낮은 인간의 계시 구도로 시작하고 마지막에는 실용적인 책상 눈높이가 된다. 팔은 분명한 기계이며 마법의 빛으로 자료를 생성하지 않는다.
+Caption-safe coordinates only, do NOT render any lettering: [{'left_pct': 36, 'width_pct': 28, 'top_pct': 3, 'font_cqw': 3.0}]
+Continuity notes describe the editor's story connection, not extra on-screen text or extra actions. Preserve clean plates for all typography.

@@ -1,0 +1,13 @@
+Future production draft; do not submit before the user selects this concept.
+Use the designated PNG as the starting frame, preserving the same character identities, costumes, scale, left-right staging and props. One continuous shot matching the camera instruction below. Widescreen 16:9. The intended source clip is 8 seconds; the editor will trim the selected motion to the storyboard timing. No spoken dialogue, voice-over or lip-sync performance. No subtitles, captions, titles, logos, watermarks or legible interface/document writing. All exact typography and narrative captions will be composited in post. Silent facial and body acting must convey the action. Do not reveal the next shot's payoff early or add new characters.
+
+Concept: C04 목마는 식사 중입니다
+Unit: C04_K02
+Start state: CM 손의 신고서·초승달 봉투가 RC 손 앞에 있다. 표지의 내부 탑승자 없음 문구를 후편집할 한 줄 영역. RC는 받기 전, 책상에는 다양한 다른 반입물 서류가 쌓여 있다.
+Physical action: CM이 봉투를 주고 RC가 원문을 책상에 두어 스캔 입력한다. 원본은 버리지 않는다.
+Camera: 밝은 외부 미디엄 와이드. 성문 사무실 책상·CM·RC·여러 문서·뒤 목마의 표식.
+Incoming continuity: K01과 같은 초승달 봉투. 목마는 성문 밖 정지.
+Outgoing continuity: 탑승자 없음 신고와 첨부 요청 원문이 함께 보관·입력된다. 이후 AI 대조 경과 시간은 생략.
+Acting/style: 큰 목조 트로이목마와 거친 석조 성문, 햇빛·먼지·가죽 복장. 같은 공간에 현대 태블릿·스캐너·스테인리스 보온 배식 수레를 태연하게 사용한다. 의도적인 시대착오이며 타임슬립 설명은 하지 않는다.
+Caption-safe coordinates only, do NOT render any lettering: [{'left_pct': 7, 'width_pct': 86, 'bottom_pct': 6}]
+Continuity notes describe the editor's story connection, not extra on-screen text or extra actions. Preserve clean plates for all typography.

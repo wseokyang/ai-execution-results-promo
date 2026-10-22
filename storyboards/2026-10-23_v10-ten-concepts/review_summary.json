@@ -1,0 +1,97 @@
+{
+  "run_id": "2026-10-23_v10-ten-concepts",
+  "event_name": "Q-AI Fair",
+  "ready_for_user_selection": true,
+  "status": "storyboard and start-image delivery complete; user choice and actual video production are later stages",
+  "counts": {
+    "concepts": 10,
+    "editorial_cuts": 87,
+    "selected_start_images": 88,
+    "new_generated_selected_PNGs": 44,
+    "V9_byte_reused_selected_PNGs": 44,
+    "flow_requests": 0,
+    "credits_spent": 0,
+    "video_or_audio_generated": 0
+  },
+  "concepts": [
+    {
+      "id": "C01",
+      "title": "성공 자세 교정원",
+      "seconds": 37.5,
+      "start_images": 9
+    },
+    {
+      "id": "C02",
+      "title": "검은 점을 잡아라",
+      "seconds": 39,
+      "start_images": 9
+    },
+    {
+      "id": "C03",
+      "title": "환경까지 가져왔습니다",
+      "seconds": 44.75,
+      "start_images": 8
+    },
+    {
+      "id": "C04",
+      "title": "목마는 식사 중입니다",
+      "seconds": 37,
+      "start_images": 9
+    },
+    {
+      "id": "C05",
+      "title": "괴수는 퇴근할 수 없다",
+      "seconds": 43,
+      "start_images": 9
+    },
+    {
+      "id": "C06",
+      "title": "퇴근 좀 해주세요",
+      "seconds": 44,
+      "start_images": 9
+    },
+    {
+      "id": "C07",
+      "title": "결투 시간을 뺏긴 여자",
+      "seconds": 43,
+      "start_images": 9
+    },
+    {
+      "id": "C08",
+      "title": "이 오페라는 끝났습니다",
+      "seconds": 41,
+      "start_images": 8
+    },
+    {
+      "id": "C09",
+      "title": "지구인은 질문이 많다",
+      "seconds": 45,
+      "start_images": 9
+    },
+    {
+      "id": "C10",
+      "title": "개막을 허가하지 않는 기계",
+      "seconds": 46,
+      "start_images": 9
+    }
+  ],
+  "text_review": "text_review.json",
+  "existing_image_review": "existing_image_review.json",
+  "final_image_review": "image_review.json",
+  "scope_of_actual_review": "Each A/B/C inspected all88 selected images in full-size contact sheets, with individual original-detail checks, then all10 caption-proof sheets. Root additionally rendered/tested local HTML. No actual generated motion or audience reaction was tested.",
+  "remaining_required_storyboard_image_issues": [],
+  "future_verification": [
+    "Selected Flow model/cost/real balance before each request. No accounts accessed in this run.",
+    "Reuse existing C03 footage before any new requests.",
+    "Actual rope rotation/jump, service-arm transfer and cape movement; first PNGs do not guarantee generation success.",
+    "Actual video caption timing, moving-object clearance, exact screen/page compositing and perspective tracking.",
+    "Venue reading distance and audience comedy response.",
+    "Exact event date, venue, participation method and performance figures remain unconfirmed."
+  ],
+  "preserved": "Legacy C01 final movie, C03v03 and source videos, V8/V9 and original reference assets unchanged;99 baseline source hashes checked in validation.json",
+  "automation": "Remains PAUSED. No resume or schedule change.",
+  "recommendations": {
+    "attendance": "C06 퇴근 좀 해주세요: 직원 퇴근이라는 절박한 목표에서 실제 사례를 배우러 가는 행동이 발생하고, 마지막 유령 상담 대기가 다시 행사 질문으로 연결된다. 창작적 추천이며 관객 반응 측정은 아니다.",
+    "opening": "C10 개막을 허가하지 않는 기계: 개막식 자체의 고장이 새 입장 의식을 만들며, 첫 발표자가 기록을 펴는 순간 실제 행사 시작으로 자연스럽게 넘어간다. 리본 동작은 생성 후 별도 확인."
+  }
+}

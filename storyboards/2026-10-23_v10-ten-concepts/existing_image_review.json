@@ -1,0 +1,26 @@
+{
+  "stage": "Existing C01-C05 independent actual-image review; new C06-C10 not yet generated",
+  "B": {
+    "agent": "/root/v10_review_b",
+    "independent": true,
+    "actual_images_opened": 44,
+    "method": "44 selected V10 PNG files opened individually with view_image. Additional original-detail inspection C01/S04, C03/S06, C05/S07_v3.",
+    "issues": [
+      {"id":"B-I01","severity":"required production specification","concept":"C03","shots":["K03","K06"],"finding":"Blank notebook and file pages are valid clean plates, but exact comparable clue graphics are not specified in text_assets.","direction":"Specify same condition symbols, different result marks and comparison highlight without invented performance numbers."},
+      {"id":"B-I02","severity":"suggestion","concept":"C05","shots":["K06","K07","K08"],"finding":"Ladder tip is above frame in K06 and near ear in K08. Existing K07 transition already omits descent/tidying.","direction":"Make omitted height adjustment explicit; no immediate image regeneration required."}
+    ],
+    "conclusion":"No required image regeneration found. Original character distinctions and main payoff prerequisites visible. Compositing and actual video unverified."
+  },
+  "C": {
+    "agent":"/root/v10_review_c",
+    "independent":true,
+    "actual_images_opened":44,
+    "method":"Five in-memory contact sheets with individually identified 44 selected V10 PNGs. Nine originals enlarged: C01 S02/S04, C02 S08_v2, C03 S06, C04 S08/S09, C05 S06_v2/S07_v3/S08_v2.",
+    "issues":[
+      {"id":"C-I01","severity":"required instruction consistency","concept":"C05","shots":["K06","K07","K08"],"finding":"K06 tip extends above roof; K07 hinge and K08 tip are near ear. Existing instruction prohibits length changes.","direction":"Allow time omission for position/height adjustment before K07, or match ladder heights. Do not claim one generated transformation will succeed."}
+    ],
+    "conclusion":"Other main start-state/character/prop continuity reusable. New five images and actual motion unverified."
+  },
+  "PD_actual_scope":"Opened V9 selected-image contact sheets C01-C05, whose underlying selected PNG bytes are reused in V10. Five sheets, 44 visible starts. Additional prior actual character source inspection is recorded in CAST_CONTINUITY_NOTES.json.",
+  "cross_review":"Pending, to be combined with full new image review"
+}

@@ -1,0 +1,13 @@
+Future production draft; do not submit before the user selects this concept.
+Use the designated PNG as the starting frame, preserving the same character identities, costumes, scale, left-right staging and props. One continuous shot matching the camera instruction below. Widescreen 16:9. The intended source clip is 8 seconds; the editor will trim the selected motion to the storyboard timing. No spoken dialogue, voice-over or lip-sync performance. No subtitles, captions, titles, logos, watermarks or legible interface/document writing. All exact typography and narrative captions will be composited in post. Silent facial and body acting must convey the action. Do not reveal the next shot's payoff early or add new characters.
+
+Concept: C04 목마는 식사 중입니다
+Unit: C04_K09
+Start state: V7 S09_v2의 CM 전경·세 배식창·수레·인물 배치 유지. 병사 그릇3개는 이미 창밖. CM의 손은 망토 안에 있어 자기 숟가락은 아직 보이지 않는다. CM 시선은 GU를 향하고 턱은 정면의 권위 있는 자세이며 아직 더 들기 전. GU 국자는 수레 옆에 내려져 있다.
+Physical action: CM reveals his own spoon from under the cape and raises his chin with rank-conscious dignity. GU starts lifting a ladle. Hold the silent characters and three already revealed soldiers for the ending.
+Camera: CM의 얼굴·망토 손을 전경에 두고 목마의 세 배식창을 후경에 유지하는 미디엄 와이드. 작은 나무 숟가락이 밝은 수레 앞에서 읽힐 크기. 행사명은 실제 복합 배경의 우상단에 대비 패널로 배치.
+Incoming continuity: V7 S09_v2 배치·세 병사 그릇·숟가락을 유지. CM의 것은 망토 안에 있던 별도 작은 숟가락 하나. 첫 상태의 CM 시선·턱만 GU를 향한 권위로 조정하며 소품을 추가·이동하지 않는다.
+Outgoing continuity: 현장 도입 종료. 허구 반입 분석을 실제 사내 과제·성과나 필수 실패 발표 규정으로 소개하지 않음.
+Acting/style: 큰 목조 트로이목마와 거친 석조 성문, 햇빛·먼지·가죽 복장. 같은 공간에 현대 태블릿·스캐너·스테인리스 보온 배식 수레를 태연하게 사용한다. 의도적인 시대착오이며 타임슬립 설명은 하지 않는다.
+Caption-safe coordinates only, do NOT render any lettering: [{'left_pct': 35, 'width_pct': 60, 'top_pct': 3, 'font_cqw': 3.0}, {'left_pct': 35, 'width_pct': 60, 'top_pct': 3, 'font_cqw': 3.0}]
+Continuity notes describe the editor's story connection, not extra on-screen text or extra actions. Preserve clean plates for all typography.

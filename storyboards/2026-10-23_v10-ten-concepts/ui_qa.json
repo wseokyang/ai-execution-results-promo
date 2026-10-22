@@ -1,0 +1,20 @@
+{
+  "surface": "actual local HTML via cua_repl in-app browser",
+  "observed_article_count": 88,
+  "observed_concept_sections": 10,
+  "caption_box_outside_stage": 0,
+  "completed_image_load_failures_observed": 0,
+  "tested_selection": [
+    "C06",
+    "C10"
+  ],
+  "observed_selection_image_total": 18,
+  "selection_reset_confirmed": true,
+  "actual_render_samples": [
+    "C03 first shots",
+    "C04 K04 tablet information plate",
+    "C10 K09 lower title"
+  ],
+  "all_caption_proofs": "caption_proofs/C01_captions.jpg through C10_captions.jpg, opened by PD andA/B/C",
+  "limits": "PIL proof font metrics may slightly differ from browser; moving-video clearance not checked. Test selection does not submit requests."
+}

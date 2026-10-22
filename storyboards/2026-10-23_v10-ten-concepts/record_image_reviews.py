@@ -1,0 +1,20 @@
+"""Record completed independent reports, not conclusions of pending cross review."""
+from pathlib import Path
+import json
+R=Path(__file__).resolve().parent
+p=R/'image_review.json';d=json.loads(p.read_text(encoding='utf8'))
+a=d['reviews']['A'];a.update(phase='completed independent',selected_images_seen=88,concepts=[f'C{i:02}'for i in range(1,11)],contact_sheets=[f'contact_sheets/C{i:02}_all_starts.jpg'for i in range(1,11)])
+a['originals_seen'] += ['images/C09/'+n+'.png'for n in ['S01','S05_v2','S06_v2','S07_v2','S08_v2','S09_v2']]+['images/C10/'+n+'.png'for n in ['S02_v2','S03_v2','S04_v2','S05','S06_v2','S07','S08','S09']]
+a['suggestions']=[{'id':'I-A-001','concept':'C09','finding':'Service arm bases shift between selected images, especially S07/S08/S09. Nonblocking at selection phase, but fixed-base production needs a continuity solution.'},{'id':'I-A-002','concept':'C10','finding':'S06 hand-held U is shorter than S07 wide U. Upper-body handoff edit may reduce the perceived length jump; motion not verified.'}]
+a['ratings'].update(C09=[4,4,4,5,4],C10=[3,4,5,5,4]);a['conclusion']='No mandatory new PNG generation identified in 88 selected images. Two production continuity suggestions. Actual HTML captions were not rendered by A at independent phase.'
+bpaths={'C06':['S01','S09_v2'],'C07':['S05_v2','S06'],'C08':['S03_v2','S04','S06','S07'],'C09':['S01','S03','S05_v2','S06_v2','S07_v2','S08_v2','S09_v2'],'C10':['S02_v2','S03_v2','S05','S06_v2','S07','S08','S09']}
+cpaths={'C06':['S01','S09_v2'],'C07':['S05_v2','S06','S08','S09'],'C08':['S06','S07','S08'],'C09':['S05_v2','S06_v2','S07_v2','S08_v2','S09_v2'],'C10':['S03_v2','S05','S06_v2','S07','S08','S09']}
+for who,paths in [('B',bpaths),('C',cpaths)]:
+ d['reviews'][who]={'agent':'/root/v10_review_'+who.lower(),'phase':'completed independent','independent_before_peer_reports':True,'selected_images_seen':88,'contact_sheets':a['contact_sheets'],'originals_seen':['images/'+cid+'/'+n+'.png'for cid,ns in paths.items()for n in ns],'actual_motion_or_audience_test':False}
+d['reviews']['B'].update(prior_existing_individual_images_seen=44,required_issues=[{'id':'I-B-001','concept':'C10','finding':'K07-K09 image movement is rear waiting area to camera/front, contrary to upper continuity.'},{'id':'I-B-002','concept':'C09','finding':'Fixed floor-mounted arm description contradicts actual changing base positions. Define repositionable stands and offscreen preparation or correct images.'},{'id':'I-B-003','concepts':['C06','C07','C09','C10'],'finding':'Wide top caption boxes overlap faces or helmet; coordinates must be shot-specific. PNG/CSS comparison, not actual rendered video review.'}],conclusion='All three required issues can be solved without regenerating the selected PNGs. Distinct characters and visual causality generally present across ten concepts.')
+d['reviews']['C'].update(required_issues=[{'id':'I-C-001','concept':'C10','finding':'K07-K09 share MC-left/DV-right axis. Define rear entrance to foreground stage; S09 is not a reverse camera.'},{'id':'I-C-002','concept':'C10','finding':'K03 scissor move right to patch must propagate from screen to next_motion and scene_list.'}],ratings_order=a['ratings_order'],ratings=dict(zip([f'C{i:02}'for i in range(1,11)],[[4,4,4,4,4],[4,4,5,4,4],[4,4,5,5,4],[4,5,4,5,4],[5,4,4,5,4],[5,4,4,5,4],[4,4,4,5,4],[5,4,4,5,4],[5,4,5,5,4],[4,5,4,5,4]])),conclusion='No mandatory PNG regeneration found. Two production wording issues. 88 selected starts and20 original files actually inspected.')
+d['status']='Three independent image reports collected; revised images/text/caption proofs in cross review'
+d['pd_issue']={'id':'I-PD-001','finding':'Actual HTML C10 end caption covered faces; derivative proof also showed C04 K04 face overlap. Shot-specific positions revised. Original PNGs unchanged.'}
+d['resolution_packet']='IMAGE_CROSS_PACKET.md'
+p.write_text(json.dumps(d,ensure_ascii=False,indent=2)+'\n',encoding='utf8')
+print('Recorded A/B/C independent image findings; cross not yet claimed')

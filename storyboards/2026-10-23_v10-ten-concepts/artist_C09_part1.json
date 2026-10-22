@@ -1,0 +1,118 @@
+{
+  "concept_id": "C09",
+  "images": [
+    {
+      "id": "C09_K01",
+      "concept_id": "C09",
+      "scene_id": "S01",
+      "linked_cut": "K01",
+      "image_path": "images/C09/S01.png",
+      "source_generated_path": "C:/Users/wseok/.codex/generated_images/01a164df-1990-7500-a038-0a0a40059160/exec-006aeb84-051a-4076-bd68-4a400954565a.png",
+      "generation_tool": "image_gen",
+      "prompt": "Grand cinematic first-contact chamber, precise ivory and brass practical science-fiction design, deep purple accents, sincere ceremonial dignity, warm soft faces. One human visitor, one alien, two fixed service arms, open document pedestal. No magical holographic document creation. 16:9, exact graphics added later.\n\nCharacter continuity bible: AL: a middle-aged fictional alien with broad low body, ivory ceremonial shoulder armor and gray-purple sleeves. Helmet-on state: a very tall rigid ivory cylindrical ceremonial helmet, genuinely open at the top and bottom, narrow dark front visor with black inner face shield, face hidden. Helmet-off state: the same body with a broad flat purple face, tiny dark eyes and short white sideburns; no long neck. HU: short sturdy 40s woman with strong eyebrows, broad nose, short brown pageboy hair, white asymmetrical jacket and charcoal trousers. Two clearly mechanical brass floor-mounted service arms, L with plain joints and R with a small purple band, black two-prong grippers; only the specified arm moves.\n\nEXACT SHOT START STATE: Before the first service gesture: helmeted AL at right has his empty right hand almost but not yet open. AR_L rests beside the top blank luminous result board on a clearly open pedestal; worn notebooks and folders are visible beneath. AR_R is folded. HU stands lower at left looking up. Tall ivory cylindrical helmet visibly has an open upper rim, no face reveal, no text.\n\nCreate one standalone cinematic first-frame image before the described action, not a collage, storyboard sheet or completed payoff. Use only visible characters named in the shot. Preserve unique face shapes, body types, hair, clothing and all prop counts. No subtitles, letters, readable text, logos, watermark, fabricated signage or UI text; leave clean blank graphic surfaces and caption-safe negative space. Natural hands with correct anatomy. No motion blur. Subsequent action is for later Flow video, do not depict multiple moments in this still.\nProp count clarification: exactly one rigid luminous blank result board, one worn thin notebook, one revision folder and one thin paper bundle stacked on the pedestal in that order; no extra books. Exactly TWO mechanical service arms, each attached to its own floor base, never organic. The top rim of helmet is a clearly visible dark open oval, not a cap. Human at screen left, alien at screen right. At this starting moment the result board remains flat on pedestal and the alien holds no object. A 16:9 wide photograph, cinematic practical set.",
+      "referenced_image_paths": [],
+      "next_motion": "AL이 빈 손바닥을 보인다. AR_L이 받침대 맨 위 결과판을 집어 AL의 손 앞에 정중하게 내민다. AL이 받아 자신의 앞에 세운다. 다른 팔은 움직이지 않는다. HU의 시선은 하사되는 결과판을 지나 받침대의 낡은 기록으로 향한다.",
+      "camera_notes": "낮은 HU 어깨 너머로 사절·두 팔·열린 자료 받침대를 보는 대칭 와이드. 큰 투구의 상단 원통 형태가 보임.",
+      "artist_review": {
+        "opened_actual_image": true,
+        "notes": "실제 생성 이미지 및 저장 파일 열람. 사람 왼쪽/외계 사절 오른쪽, 보라 얼굴 비공개, 열린 원통 투구, 빈 오른손, 받침대의 결과판·수첩·폴더·종이 묶음과 두 기계팔 확인. 오른팔은 접힘. 사절은 넓은 의전복 실루엣. 읽을 글자 없음. 정지 첫 상태로 움직임 성공은 미검증."
+      },
+      "review_status": "artist checked; independent review pending"
+    },
+    {
+      "id": "C09_K02",
+      "concept_id": "C09",
+      "scene_id": "S02",
+      "linked_cut": "K02",
+      "image_path": "images/C09/S02.png",
+      "source_generated_path": "C:\\Users\\wseok\\.codex\\generated_images\\01a164df-1990-7500-a038-0a0a40059160\\exec-d4b81210-7bdb-4410-9f86-90fdbb7dc630.png",
+      "generation_tool": "image_gen",
+      "prompt": "Grand cinematic first-contact chamber, precise ivory and brass practical science-fiction design, deep purple accents, sincere ceremonial dignity, warm soft faces. One human visitor, one alien, two fixed service arms, open document pedestal. No magical holographic document creation. 16:9, exact graphics added later.\n\nCharacter continuity bible: AL: a middle-aged fictional alien with broad low body, ivory ceremonial shoulder armor and gray-purple sleeves. Helmet-on state: a very tall rigid ivory cylindrical ceremonial helmet, genuinely open at the top and bottom, narrow dark front visor with black inner face shield, face hidden. Helmet-off state: the same body with a broad flat purple face, tiny dark eyes and short white sideburns; no long neck. HU: short sturdy 40s woman with strong eyebrows, broad nose, short brown pageboy hair, white asymmetrical jacket and charcoal trousers. Two clearly mechanical brass floor-mounted service arms, L with plain joints and R with a small purple band, black two-prong grippers; only the specified arm moves.\n\nEXACT SHOT START STATE: AL holds the blank result board near his torso, ready to offer it forward. HU looks past it toward the worn top notebook and has one hand still closed near her chest before copying the open-palm gesture. Both arms folded. Show the same visible source stack, no notebook already in HU’s hands.\n\nCreate one standalone cinematic first-frame image before the described action, not a collage, storyboard sheet or completed payoff. Use only visible characters named in the shot. Preserve unique face shapes, body types, hair, clothing and all prop counts. No subtitles, letters, readable text, logos, watermark, fabricated signage or UI text; leave clean blank graphic surfaces and caption-safe negative space. Natural hands with correct anatomy. No motion blur. Subsequent action is for later Flow video, do not depict multiple moments in this still.\nUse provided S01 only as cast, wardrobe, helmet and chamber reference. Change to a closer eye-level side medium-wide composition showing HU at left and AL right. EXACT PROPS: AL left hand supports the same luminous blank rigid result board vertically, held near his own torso BEFORE offering it. His right hand rests low. Human right hand is gathered near her chest, she looks toward the worn thin brown notebook on the visible pedestal. Both mechanical service arms are fully folded and their grippers empty. On pedestal now only ONE worn brown thin notebook above ONE purple folder above ONE thin paper bundle; result board has been removed. No face visible through black helmet visor. Helmet upper rim open. 16:9.",
+      "referenced_image_paths": [
+        "\\\\wsl.localhost\\Ubuntu-24.04\\home\\wooseok\\wsy\\samsung_related\\slide\\AI실행결과발표대회_디자인3종\\storyboards\\2026-10-23_v10-ten-concepts\\images\\C09\\S01.png"
+      ],
+      "next_motion": "AL이 결과판을 하사하듯 앞으로 내민다. HU는 받는 대신 낡은 수첩을 가리키고 같은 빈 손바닥을 조심스럽게 편다.",
+      "camera_notes": "두 인물 옆얼굴과 결과판·받침대 자료가 보이는 고정 미디엄 와이드.",
+      "artist_review": {
+        "opened_actual_image": true,
+        "notes": "저장 파일 실제 열람. 동일 인물·미술·열린 투구/얼굴 가림. 결과판 AL 왼손, HU 오른손 가슴 가까이, 수첩이 받침대 위에 남고 기계팔 2개 정지. 글자 없음. 고정팔 위치의 미세 원근 변화는 후속 독립 검토 대상."
+      },
+      "review_status": "artist checked; independent review pending"
+    },
+    {
+      "id": "C09_K03",
+      "concept_id": "C09",
+      "scene_id": "S03",
+      "linked_cut": "K03",
+      "image_path": "images/C09/S03.png",
+      "source_generated_path": "C:\\Users\\wseok\\.codex\\generated_images\\01a164df-1990-7500-a038-0a0a40059160\\exec-799da269-d130-4c71-93f1-353941e692ad.png",
+      "generation_tool": "image_gen",
+      "prompt": "Grand cinematic first-contact chamber, precise ivory and brass practical science-fiction design, deep purple accents, sincere ceremonial dignity, warm soft faces. One human visitor, one alien, two fixed service arms, open document pedestal. No magical holographic document creation. 16:9, exact graphics added later.\n\nCharacter continuity bible: AL: a middle-aged fictional alien with broad low body, ivory ceremonial shoulder armor and gray-purple sleeves. Helmet-on state: a very tall rigid ivory cylindrical ceremonial helmet, genuinely open at the top and bottom, narrow dark front visor with black inner face shield, face hidden. Helmet-off state: the same body with a broad flat purple face, tiny dark eyes and short white sideburns; no long neck. HU: short sturdy 40s woman with strong eyebrows, broad nose, short brown pageboy hair, white asymmetrical jacket and charcoal trousers. Two clearly mechanical brass floor-mounted service arms, L with plain joints and R with a small purple band, black two-prong grippers; only the specified arm moves.\n\nEXACT SHOT START STATE: HU waits with an open empty right hand. AR_R is poised just above the worn top notebook on the pedestal, before lifting it. AL still holds his result board; L remains completely folded. Show a clean single transfer path and no duplicate notebook in the human hand.\n\nCreate one standalone cinematic first-frame image before the described action, not a collage, storyboard sheet or completed payoff. Use only visible characters named in the shot. Preserve unique face shapes, body types, hair, clothing and all prop counts. No subtitles, letters, readable text, logos, watermark, fabricated signage or UI text; leave clean blank graphic surfaces and caption-safe negative space. Natural hands with correct anatomy. No motion blur. Subsequent action is for later Flow video, do not depict multiple moments in this still.\nReference 1 establishes identities, wardrobe and set. Reference 2 establishes current props. New closer medium shot with a clear source-to-recipient path: HU at screen left now holds her EMPTY RIGHT PALM OPEN toward the pedestal, not touching anything. The right-side brass robot arm with PURPLE BAND has reached toward the worn BROWN notebook still resting atop the central pedestal; its black two-prong gripper hovers 5 cm above the notebook, has not yet picked it up. Plain left robot arm fully folded in background. AL on right still helmeted, face hidden, holds the same luminous result board in LEFT hand near torso, right hand low. Pedestal contains notebook then purple revision folder then paper bundle. NO notebook in human hand yet. Camera must show entire helmet upper rim and notebook/gripper, both characters remain distinct. 16:9.",
+      "referenced_image_paths": [
+        "\\\\wsl.localhost\\Ubuntu-24.04\\home\\wooseok\\wsy\\samsung_related\\slide\\AI실행결과발표대회_디자인3종\\storyboards\\2026-10-23_v10-ten-concepts\\images\\C09\\S01.png",
+        "\\\\wsl.localhost\\Ubuntu-24.04\\home\\wooseok\\wsy\\samsung_related\\slide\\AI실행결과발표대회_디자인3종\\storyboards\\2026-10-23_v10-ten-concepts\\images\\C09\\S02.png"
+      ],
+      "next_motion": "AR_R이 낡은 수첩 하나를 집어 HU의 손 앞에 내민다. HU가 수첩을 받으면 R이 놓고 물러난다. AL은 결과판을 조금 높이 들며 수첩 쪽 시선을 가린다.",
+      "camera_notes": "수첩의 출처와 이동 경로, 두 얼굴/투구를 읽는 고정 미디엄. 가리는 결과판이 사람 얼굴 전체를 덮지 않음.",
+      "artist_review": {
+        "opened_actual_image": true,
+        "notes": "실제 파일 열람. HU 빈 오른손, R의 보라 띠/수첩 위 집기 전 집게, L 접힘, 결과판 AL 왼손, 수첩은 받침대에 잔류 확인. 인물·투구 연속, 얼굴 미공개·글자 없음."
+      },
+      "review_status": "artist checked; independent review pending"
+    },
+    {
+      "id": "C09_K04",
+      "concept_id": "C09",
+      "scene_id": "S04",
+      "linked_cut": "K04",
+      "image_path": "images/C09/S04.png",
+      "source_generated_path": "C:\\Users\\wseok\\.codex\\generated_images\\01a164df-1990-7500-a038-0a0a40059160\\exec-ce66cad6-59ae-47e0-9edb-d50876272d2d.png",
+      "generation_tool": "image_gen",
+      "prompt": "Grand cinematic first-contact chamber, precise ivory and brass practical science-fiction design, deep purple accents, sincere ceremonial dignity, warm soft faces. One human visitor, one alien, two fixed service arms, open document pedestal. No magical holographic document creation. 16:9, exact graphics added later.\n\nCharacter continuity bible: AL: a middle-aged fictional alien with broad low body, ivory ceremonial shoulder armor and gray-purple sleeves. Helmet-on state: a very tall rigid ivory cylindrical ceremonial helmet, genuinely open at the top and bottom, narrow dark front visor with black inner face shield, face hidden. Helmet-off state: the same body with a broad flat purple face, tiny dark eyes and short white sideburns; no long neck. HU: short sturdy 40s woman with strong eyebrows, broad nose, short brown pageboy hair, white asymmetrical jacket and charcoal trousers. Two clearly mechanical brass floor-mounted service arms, L with plain joints and R with a small purple band, black two-prong grippers; only the specified arm moves.\n\nEXACT SHOT START STATE: HU has the worn notebook open on the low desk. AL holds the result board in his left hand; his free right fingers are still partly gathered just before spreading to obscure the notebook. Both mechanical arms folded, the next folder visibly atop the pedestal. Keep the human face unobstructed and no contact with her body.\n\nCreate one standalone cinematic first-frame image before the described action, not a collage, storyboard sheet or completed payoff. Use only visible characters named in the shot. Preserve unique face shapes, body types, hair, clothing and all prop counts. No subtitles, letters, readable text, logos, watermark, fabricated signage or UI text; leave clean blank graphic surfaces and caption-safe negative space. Natural hands with correct anatomy. No motion blur. Subsequent action is for later Flow video, do not depict multiple moments in this still.\nReferences are same identities/wardrobe/architecture, do not clone their composition. Camera moves to an eye-level medium shot at a LOW ivory-and-brass desk in front of the original document pedestal. HU screen left has placed the single worn brown notebook OPEN on the LOW desk, she looks down at it. AL at right still holds the luminous blank result board in LEFT hand. His EMPTY RIGHT HAND hovers between the open notebook and his torso with fingers partly gathered together, BEFORE opening palm to obscure notebook. No contact with HU. Original central taller pedestal visible behind contains only purple revision folder on a thin paper bundle; notebook removed to foreground desk. Both brass service arms folded, R purple band. Helmet still worn and face fully hidden. All notebook pages are blank. 16:9.",
+      "referenced_image_paths": [
+        "\\\\wsl.localhost\\Ubuntu-24.04\\home\\wooseok\\wsy\\samsung_related\\slide\\AI실행결과발표대회_디자인3종\\storyboards\\2026-10-23_v10-ten-concepts\\images\\C09\\S01.png",
+        "\\\\wsl.localhost\\Ubuntu-24.04\\home\\wooseok\\wsy\\samsung_related\\slide\\AI실행결과발표대회_디자인3종\\storyboards\\2026-10-23_v10-ten-concepts\\images\\C09\\S03.png"
+      ],
+      "next_motion": "AL이 기록 앞을 가리려고 빈 오른손바닥을 활짝 편다. HU가 손 옆으로 고개를 조금 기울여 기록을 계속 본다. 받침대 서비스 표시등이 작게 켜진다.",
+      "camera_notes": "수첩·가리는 빈 손·투구의 수평 시선창을 읽는 미디엄. 손이 인간에게 닿지 않음.",
+      "artist_review": {
+        "opened_actual_image": true,
+        "notes": "실제 파일 열람. 낮은 책상에 펼친 수첩, AL 오른손 손가락 모음/가리기 전, 결과판 왼손, 뒷 받침대에는 폴더와 얇은 자료만 남음. 두 팔 접힘. 후경 R 보라 띠는 구도상 약하게 보여 영상에서 재확인 필요. 얼굴 가림·빈 페이지 확인."
+      },
+      "review_status": "artist checked; independent review pending"
+    },
+    {
+      "id": "C09_K05",
+      "concept_id": "C09",
+      "scene_id": "S05",
+      "linked_cut": "K05",
+      "image_path": "images/C09/S05_v2.png",
+      "source_generated_path": "C:\\Users\\wseok\\.codex\\generated_images\\01a164df-1990-7500-a038-0a0a40059160\\exec-8682046e-68ee-4fee-b3d8-9da2bea35c93.png",
+      "generation_tool": "image_gen",
+      "prompt": "Edit the provided image narrowly, maintaining this exact wide 16:9 cinematic image, set, identities, clothes, helmet, robotic arms, brass/purple colors and all prop quantities. ONLY correct human gaze and alien's right-hand position: woman at left leans her head slightly toward the open notebook and looks DOWN at its blank pages, calmly reading past the alien hand; her hands rest beside the notebook on the low table. Alien's empty RIGHT hand remains an OPEN PALM with spread fingers, but is lowered and brought forward to hover 15 cm above the open notebook with vertical palm facing the woman, partially in her sightline toward the notebook. It does NOT obscure her face or touch her. Alien LEFT hand continues holding the luminous result board against torso. Left mechanical claw still poised over purple folder on BACK pedestal, right purple-banded robot folded. Notebook not moved, folder not picked up, no paper in alien right hand, no additional limbs. No text/logos. Do not reveal alien face.",
+      "referenced_image_paths": [
+        "\\\\wsl.localhost\\Ubuntu-24.04\\home\\wooseok\\wsy\\samsung_related\\slide\\AI실행결과발표대회_디자인3종\\storyboards\\2026-10-23_v10-ten-concepts\\images\\C09\\S05.png"
+      ],
+      "next_motion": "AR_L이 실제 수정 폴더를 집어 AL의 펼친 손 앞에 정중하게 내민다. AL은 가리는 손을 유지하려다 폴더를 받을 수밖에 없고 결과판과 기록을 양손에 나눠 든다.",
+      "camera_notes": "AL 상반신·열린 손·폴더 이동과 HU의 옆얼굴을 함께 보는 미디엄 와이드.",
+      "artist_review": {
+        "opened_actual_image": true,
+        "notes": "실제 파일 열람. HU가 열린 수첩을 내려다보도록 수정, AL 빈 오른손 펼침/왼손 결과판. L이 실제 받침대 폴더 집기 직전, R 접힘/보라 띠. 원본 S05도 보존. 손의 의도는 후속 동작·자막에서 강화 필요하나 첫 상태에 자료 전달 완료는 없음."
+      },
+      "review_status": "artist checked; independent review pending"
+    }
+  ],
+  "rejected_attempts": [
+    {
+      "source_generated_path": "C:\\Users\\wseok\\.codex\\generated_images\\01a164df-1990-7500-a038-0a0a40059160\\exec-77f9b825-c375-4c72-94ee-542ca66eda13.png",
+      "image_path": "images/C09/S05.png",
+      "prompt": "Grand cinematic first-contact chamber, precise ivory and brass practical science-fiction design, deep purple accents, sincere ceremonial dignity, warm soft faces. One human visitor, one alien, two fixed service arms, open document pedestal. No magical holographic document creation. 16:9, exact graphics added later.\n\nCharacter continuity bible: AL: a middle-aged fictional alien with broad low body, ivory ceremonial shoulder armor and gray-purple sleeves. Helmet-on state: a very tall rigid ivory cylindrical ceremonial helmet, genuinely open at the top and bottom, narrow dark front visor with black inner face shield, face hidden. Helmet-off state: the same body with a broad flat purple face, tiny dark eyes and short white sideburns; no long neck. HU: short sturdy 40s woman with strong eyebrows, broad nose, short brown pageboy hair, white asymmetrical jacket and charcoal trousers. Two clearly mechanical brass floor-mounted service arms, L with plain joints and R with a small purple band, black two-prong grippers; only the specified arm moves.\n\nEXACT SHOT START STATE: AL’s right palm is already spread in front of the open notebook; AR_L is poised beside the visible next folder on the pedestal before serving it. R stays folded. AL still holds the result board only in his left hand. No folder already in the right hand, no magical extra documents.\n\nCreate one standalone cinematic first-frame image before the described action, not a collage, storyboard sheet or completed payoff. Use only visible characters named in the shot. Preserve unique face shapes, body types, hair, clothing and all prop counts. No subtitles, letters, readable text, logos, watermark, fabricated signage or UI text; leave clean blank graphic surfaces and caption-safe negative space. Natural hands with correct anatomy. No motion blur. Subsequent action is for later Flow video, do not depict multiple moments in this still.\nReference 2 is exact preceding scene and set. Use a slightly wider side medium framing keeping HU left, AL right. AL's EMPTY RIGHT PALM is now fully spread toward HU in front of the open brown notebook, partly obscuring only notebook sightline, NOT human face. LEFT HAND still grips luminous result board beside torso. Plain LEFT mechanical service arm unfolds behind desk and its empty black two-prong gripper waits immediately beside the purple folder still resting on the central rear pedestal, BEFORE lifting it. RIGHT mechanical arm remains completely folded at screen right, clearly show its small purple band. Exactly two robot arms. Worn brown notebook open at foreground low desk, purple folder and thin paper bundle on rear pedestal. No folder already in AL hand. His helmet and concealed face unchanged, visible dark hollow open upper rim. 16:9.",
+      "referenced_image_paths": [
+        "\\\\wsl.localhost\\Ubuntu-24.04\\home\\wooseok\\wsy\\samsung_related\\slide\\AI실행결과발표대회_디자인3종\\storyboards\\2026-10-23_v10-ten-concepts\\images\\C09\\S01.png",
+        "\\\\wsl.localhost\\Ubuntu-24.04\\home\\wooseok\\wsy\\samsung_related\\slide\\AI실행결과발표대회_디자인3종\\storyboards\\2026-10-23_v10-ten-concepts\\images\\C09\\S04.png"
+      ],
+      "review_status": "revision_required",
+      "reason": "HU가 수첩 대신 사절을 보고 있어 시선 수정, 펼친 손을 기록 앞 위치로 낮춤."
+    }
+  ]
+}

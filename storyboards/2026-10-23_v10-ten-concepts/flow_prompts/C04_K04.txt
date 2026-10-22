@@ -1,0 +1,13 @@
+Future production draft; do not submit before the user selects this concept.
+Use the designated PNG as the starting frame, preserving the same character identities, costumes, scale, left-right staging and props. One continuous shot matching the camera instruction below. Widescreen 16:9. The intended source clip is 8 seconds; the editor will trim the selected motion to the storyboard timing. No spoken dialogue, voice-over or lip-sync performance. No subtitles, captions, titles, logos, watermarks or legible interface/document writing. All exact typography and narrative captions will be composited in post. Silent facial and body acting must convey the action. Do not reveal the next shot's payoff early or add new characters.
+
+Concept: C04 목마는 식사 중입니다
+Unit: C04_K04
+Start state: 태블릿 왼쪽 가장자리는 여러 반입물 목록, 가운데 큰 신고 원문 내부 탑승자 없음과 오른쪽 첨부 요청 식사·물·수저가 이미 나란히 보인다. AI 문서 대조의 확인 후보일 뿐 판정은 없음. RC 손가락은 두 구절을 짚기 직전.
+Physical action: RC points to two clean graphic panels on the tablet one after the other. CM glances sideways toward the wooden horse. Keep the panels blank for later exact graphic insertion.
+Camera: RC 손과 태블릿 중심 미디엄. 주변에 원문3장이 놓여 화면과 종이의 출처 관계를 보임. 긴 보고서 읽기 없음.
+Incoming continuity: K02 실제 신고와 첨부의 동일 원문. 여러 문서 중 후보를 이미 좁힌 상태.
+Outgoing continuity: 후보의 충돌 내용과 급식 요청이 공개됨. 사람이 원문·실물·현장을 확인해야 함.
+Acting/style: 큰 목조 트로이목마와 거친 석조 성문, 햇빛·먼지·가죽 복장. 같은 공간에 현대 태블릿·스캐너·스테인리스 보온 배식 수레를 태연하게 사용한다. 의도적인 시대착오이며 타임슬립 설명은 하지 않는다.
+Caption-safe coordinates only, do NOT render any lettering: [{'left_pct': 31, 'width_pct': 38, 'top_pct': 40, 'font_cqw': 3.0, 'padding_pct': 0.6}]
+Continuity notes describe the editor's story connection, not extra on-screen text or extra actions. Preserve clean plates for all typography.

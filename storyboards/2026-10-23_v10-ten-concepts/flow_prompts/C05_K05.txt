@@ -1,0 +1,13 @@
+Future production draft; do not submit before the user selects this concept.
+Use the designated PNG as the starting frame, preserving the same character identities, costumes, scale, left-right staging and props. One continuous shot matching the camera instruction below. Widescreen 16:9. The intended source clip is 8 seconds; the editor will trim the selected motion to the storyboard timing. No spoken dialogue, voice-over or lip-sync performance. No subtitles, captions, titles, logos, watermarks or legible interface/document writing. All exact typography and narrative captions will be composited in post. Silent facial and body acting must convey the action. Do not reveal the next shot's payoff early or add new characters.
+
+Concept: C05 괴수는 퇴근할 수 없다
+Unit: C05_K05
+Start state: 괴수는 무릎·긴 목을 S자로 접은 같은 지지 자세. 양손이 지붕을 받치고 귀는 약 4.2m. 눈만 열린 문으로 돌아가 귀를 기울이기 직전.
+Physical action: Keep both hands supporting the roof. The monster's eyes drift toward the entrance with curiosity. It tilts its head slightly, making the roof wobble, and immediately restores the support posture.
+Camera: 괴수 머리·양손·지붕 앞 가장자리와 오른쪽 열린 체육관 문을 보는 고정 미디엄.
+Incoming continuity: K04 접힌 자세·개체 크기·양손·지붕 각도·문 방향 유지. 잭은 짧음.
+Outgoing continuity: 괴수는 안의 말을 듣고 싶지만 몸을 기울일 수 없다는 사실을 확인.
+Acting/style: 초반은 실루엣·낮은 하늘·극적인 역광의 재난 영화. 파손 후는 밝은 낮과 페인트 질감·고무 봉제선·얕은 모형 심도가 드러나는 특촬. 체육관은 온전하고 독립 포치만 한쪽으로 기운다. 실제 시설이나 로고를 재현하지 않는다.
+Caption-safe coordinates only, do NOT render any lettering: [{'left_pct': 7, 'width_pct': 86, 'bottom_pct': 6}]
+Continuity notes describe the editor's story connection, not extra on-screen text or extra actions. Preserve clean plates for all typography.

@@ -1,0 +1,13 @@
+Future production draft; do not submit before the user selects this concept.
+Use the designated PNG as the starting frame, preserving the same character identities, costumes, scale, left-right staging and props. One continuous shot matching the camera instruction below. Widescreen 16:9. The intended source clip is 8 seconds; the editor will trim the selected motion to the storyboard timing. No spoken dialogue, voice-over or lip-sync performance. No subtitles, captions, titles, logos, watermarks or legible interface/document writing. All exact typography and narrative captions will be composited in post. Silent facial and body acting must convey the action. Do not reveal the next shot's payoff early or add new characters.
+
+Concept: C05 괴수는 퇴근할 수 없다
+Unit: C05_K02A
+Start state: 기둥 온전·괴수 직립·손 접촉 직전.
+Physical action: 기둥을 빼 왼쪽 바닥에 놓고 손을 놓는다. 끝까지 직립, 지붕 수평, 두 손 자유.
+Camera: 직립 괴수·앞왼쪽 기둥·왼쪽 빈 바닥·포치가 함께 보이는 고정 와이드. 기둥 제거와 내려놓기만 담는다.
+Incoming continuity: 같은 앞왼쪽 기둥. 건물 본체·다른 세 기둥은 그대로.
+Outgoing continuity: 기둥 하나 제거. 괴수 무릎 굽힘·S자 목으로 정수리 약 4.5m·귀 약 4.2m가 5m 포치 아래에 들어간 상태.
+Acting/style: 초반은 실루엣·낮은 하늘·극적인 역광의 재난 영화. 파손 후는 밝은 낮과 페인트 질감·고무 봉제선·얕은 모형 심도가 드러나는 특촬. 체육관은 온전하고 독립 포치만 한쪽으로 기운다. 실제 시설이나 로고를 재현하지 않는다.
+Caption-safe coordinates only, do NOT render any lettering: []
+Continuity notes describe the editor's story connection, not extra on-screen text or extra actions. Preserve clean plates for all typography.

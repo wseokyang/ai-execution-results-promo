@@ -1,0 +1,13 @@
+Future production draft; do not submit before the user selects this concept.
+Use the designated PNG as the starting frame, preserving the same character identities, costumes, scale, left-right staging and props. One continuous shot matching the camera instruction below. Widescreen 16:9. The intended source clip is 8 seconds; the editor will trim the selected motion to the storyboard timing. No spoken dialogue, voice-over or lip-sync performance. No subtitles, captions, titles, logos, watermarks or legible interface/document writing. All exact typography and narrative captions will be composited in post. Silent facial and body acting must convey the action. Do not reveal the next shot's payoff early or add new characters.
+
+Concept: C02 검은 점을 잡아라
+Unit: C02_K08
+Start state: IN이 새 사진을 중앙에서 10cm 떨어진 곳에 들고 있다. 아직 벽에 붙이지 않았고 중앙은 비어 있다.
+Physical action: IN이 직접 사진을 붙인다. DE는 사진 속 자기 모습을 알아보고 눈이 멈춘다. 이 컷에서 말하거나 손을 뻗지 않는다.
+Camera: 수사벽 정면 미디엄 와이드. IN 손과 새 사진, DE 옆얼굴. 새 사진 속 H·수갑·인물은 K07과 동일.
+Incoming continuity: K07과 동일 현장 사진을 사용. AI의 판단 결과가 아닌 IN의 확인·공개.
+Outgoing continuity: 수사벽 중앙에 DE 현장 사진. 실제 수갑은 여전히 H 앞.
+Acting/style: 같은 검사실. 형사 쪽은 어두운 누아르 빛·갈색 가죽, 담당자 쪽은 중성 검사 조명·코발트 작업복. 붉은 실의 과잉 수사벽과 차분한 실제 장비를 대비한다. 상표·실제 사건·실존 배우 얼굴 없음.
+Caption-safe coordinates only, do NOT render any lettering: []
+Continuity notes describe the editor's story connection, not extra on-screen text or extra actions. Preserve clean plates for all typography.

@@ -1,0 +1,13 @@
+Future production draft; do not submit before the user selects this concept.
+Use the designated PNG as the starting frame, preserving the same character identities, costumes, scale, left-right staging and props. One continuous shot matching the camera instruction below. Widescreen 16:9. The intended source clip is 8 seconds; the editor will trim the selected motion to the storyboard timing. No spoken dialogue, voice-over or lip-sync performance. No subtitles, captions, titles, logos, watermarks or legible interface/document writing. All exact typography and narrative captions will be composited in post. Silent facial and body acting must convey the action. Do not reveal the next shot's payoff early or add new characters.
+
+Concept: C10 개막을 허가하지 않는 기계
+Unit: C10_K05
+Start state: 긴 주 리본이 바닥에 늘어지고, 별도로 잘려 떨어진 짧은 빨간 접착 자투리가 트레이 위 두 가위의 닫힌 날을 함께 붙였다. 주 리본과 트레이 사이에 연결 띠는 없다. DV의 손가락은 정지 버튼 직전, MC는 가위 손잡이를 보고 있다.
+Physical action: DV가 정지 버튼을 누른다. 장치와 롤이 완전히 멈춘다. MC는 두 가위가 함께 들리는 손잡이를 잠깐 확인한 뒤 다시 내려놓고 태연하게 리본을 본다.
+Camera: DV·정지 버튼·고정된 롤·붙은 도구를 보는 미디엄 와이드. MC 얼굴도 포함.
+Incoming continuity: 주 리본과 별개의 자투리가 두 가위를 붙임. 가위를 들면 두 가위만 함께 들리고 주 리본은 움직이지 않음.
+Outgoing continuity: 기계 정지. 두 가위는 트레이에 놓임. 다음 컷 전 사람이 양쪽 집게를 풀어 리본을 분리한다.
+Acting/style: 의도적으로 호화로운 소규모 개막 무대. 분홍 줄무늬 사회자의 과도한 환대와 진지한 개발자. 기계는 크고 노출된 B급 실물 소품이며 공급 롤·바닥 리본이 보인다. 점프는 대단한 스포츠가 아닌 불필요하게 장엄한 입장.
+Caption-safe coordinates only, do NOT render any lettering: [{'left_pct': 43, 'width_pct': 31, 'top_pct': 3, 'font_cqw': 2.8, 'padding_pct': 0.6}]
+Continuity notes describe the editor's story connection, not extra on-screen text or extra actions. Preserve clean plates for all typography.

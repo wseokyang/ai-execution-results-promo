@@ -1,0 +1,494 @@
+{
+  "status": "Three independent detailed reviews, cross review and all-three revised-text reconfirmation completed; image review separate",
+  "B": {
+    "agent": "/root/v10_review_b",
+    "independent": true,
+    "scope": "All10 old-duration detailed text; all44 existing PNGs individually opened; original PPTX1-3/PNG event facts compared. No new images or actual video.",
+    "ratings_order": "hook/humor/event/difference/readiness; subjective editorial judgment",
+    "ratings": {
+      "C01": [
+        4,
+        4,
+        4,
+        4,
+        4
+      ],
+      "C02": [
+        4,
+        4,
+        5,
+        4,
+        4
+      ],
+      "C03": [
+        4,
+        4,
+        4,
+        5,
+        3
+      ],
+      "C04": [
+        4,
+        4,
+        5,
+        5,
+        4
+      ],
+      "C05": [
+        5,
+        5,
+        4,
+        5,
+        4
+      ],
+      "C06": [
+        5,
+        4,
+        5,
+        5,
+        4
+      ],
+      "C07": [
+        4,
+        3,
+        4,
+        4,
+        4
+      ],
+      "C08": [
+        3,
+        4,
+        5,
+        4,
+        4
+      ],
+      "C09": [
+        3,
+        4,
+        4,
+        4,
+        3
+      ],
+      "C10": [
+        3,
+        4,
+        5,
+        5,
+        3
+      ]
+    },
+    "issues": [
+      {
+        "id": "B-001",
+        "severity": "required production specification",
+        "cuts": "C03 K03/K06",
+        "finding": "Shared clue graphic missing in blank plates.",
+        "fix": "Same condition symbol and different treatment order, highlighted in both records; no metrics.",
+        "pd_status": "adopted and text resolved; see PD_DECISIONS.md and cross_and_reconfirmation"
+      },
+      {
+        "id": "B-002",
+        "severity": "required",
+        "cuts": "C09 K08-K09",
+        "finding": "Thin paper bundle becomes previously handed notebook.",
+        "fix": "Keep final paper sheet throughout action and image prompt.",
+        "pd_status": "adopted and text resolved; see PD_DECISIONS.md and cross_and_reconfirmation"
+      },
+      {
+        "id": "B-003",
+        "severity": "required hook alignment",
+        "cuts": "C10 K01-K02",
+        "finding": "First5seconds lacks promised repair reveal; technical caption may pre-explain it.",
+        "fix": "Cut within3seconds, repair and MC reaction before5seconds, label afterward.",
+        "pd_status": "adopted and text resolved; see PD_DECISIONS.md and cross_and_reconfirmation"
+      },
+      {
+        "id": "B-004",
+        "severity": "required",
+        "cuts": "C04 final_action",
+        "finding": "Stale34-38.8 timing; actual32-36.8.",
+        "fix": "Synchronize.",
+        "pd_status": "adopted and text resolved; see PD_DECISIONS.md and cross_and_reconfirmation"
+      },
+      {
+        "id": "B-005",
+        "severity": "suggestion",
+        "cuts": "C07 K06-K08",
+        "finding": "Gunfighter may merely get a better view, weak defeat.",
+        "fix": "Two questioners block view again and force her to peer through gap.",
+        "pd_status": "adopted and text resolved; see PD_DECISIONS.md and cross_and_reconfirmation"
+      },
+      {
+        "id": "B-006",
+        "severity": "suggestion",
+        "cuts": "C06 K03-K04",
+        "finding": "12seconds learning/applying too explanatory.",
+        "fix": "Immediate one-task goal caption and premature pillow preparation.",
+        "pd_status": "adopted and text resolved; see PD_DECISIONS.md and cross_and_reconfirmation"
+      },
+      {
+        "id": "B-007",
+        "severity": "suggestion",
+        "cuts": "C09 K01-K02",
+        "finding": "First6seconds just exotic service.",
+        "fix": "HU looks past result to worn notebook before5seconds.",
+        "pd_status": "adopted and text resolved; see PD_DECISIONS.md and cross_and_reconfirmation"
+      }
+    ],
+    "preliminary_resolution": {
+      "C10 normal cutting alternative": "taped tools supply motivation; peer review of tape linkage still pending",
+      "C08 glare": "fixed light and cape direction adequately specified"
+    }
+  },
+  "C": {
+    "agent": "/root/v10_review_c",
+    "independent": true,
+    "scope": "All10 detailed text; existing44 actual images as separately recorded; original PPTX1-3 text and original event PNG directly compared. New5 images and actual video unverified.",
+    "ratings_order": "hook/humor/event/difference/readiness; subjective editorial judgment",
+    "ratings": {
+      "C01": [
+        4,
+        4,
+        4,
+        5,
+        4
+      ],
+      "C02": [
+        4,
+        4,
+        5,
+        5,
+        4
+      ],
+      "C03": [
+        4,
+        4,
+        4,
+        5,
+        4
+      ],
+      "C04": [
+        4,
+        4,
+        5,
+        5,
+        4
+      ],
+      "C05": [
+        5,
+        4,
+        4,
+        5,
+        4
+      ],
+      "C06": [
+        5,
+        4,
+        5,
+        5,
+        4
+      ],
+      "C07": [
+        4,
+        3,
+        4,
+        4,
+        3
+      ],
+      "C08": [
+        3,
+        3,
+        4,
+        4,
+        4
+      ],
+      "C09": [
+        4,
+        4,
+        4,
+        4,
+        4
+      ],
+      "C10": [
+        2,
+        4,
+        5,
+        5,
+        3
+      ]
+    },
+    "issues": [
+      {
+        "id": "C-001",
+        "severity": "required",
+        "cuts": "C10 K04-K06",
+        "finding": "Scissors remain connected to main ribbon unless separated.",
+        "fix": "Explicit already severed offcut, scissors left on tray.",
+        "pd_status": "adopted and text resolved; see PD_DECISIONS.md and cross_and_reconfirmation"
+      },
+      {
+        "id": "C-002",
+        "severity": "required instruction consistency",
+        "cuts": "C05 K06-K08",
+        "finding": "No-height-change instruction conflicts with actual ladder height change.",
+        "fix": "Omit adjustment time before K07 or match image height.",
+        "pd_status": "adopted and text resolved; see PD_DECISIONS.md and cross_and_reconfirmation"
+      },
+      {
+        "id": "C-003",
+        "severity": "suggestion",
+        "cuts": "C10 K01-K02",
+        "finding": "No surprise in first5 seconds.",
+        "fix": "Cut opening to3seconds, repair visible before5seconds.",
+        "pd_status": "adopted and text resolved; see PD_DECISIONS.md and cross_and_reconfirmation"
+      },
+      {
+        "id": "C-004",
+        "severity": "suggestion",
+        "cuts": "C07 K04-K05",
+        "finding": "EX accepts rope without visible invitation.",
+        "fix": "CW points at EX then her own empty spot; EX responds while continuing explanation.",
+        "pd_status": "adopted and text resolved; see PD_DECISIONS.md and cross_and_reconfirmation"
+      },
+      {
+        "id": "C-005",
+        "severity": "suggestion",
+        "cuts": "C08 K03-K04",
+        "finding": "13seconds rotate and explain before further comic action.",
+        "fix": "Compress rotation/process; preserve later hero pride.",
+        "pd_status": "adopted and text resolved; see PD_DECISIONS.md and cross_and_reconfirmation"
+      }
+    ],
+    "preliminary_resolution": {
+      "C-P01": "walking motivation resolved, invitation remains suggestion",
+      "C-P02": "single-task/cushion/door question resolved",
+      "C-P03": "open-palm trigger resolved",
+      "C-P04": "reel/clamps specified; new scissors issue C-001",
+      "C-P05": "spatial attention vs recurring service rule distinguish C08/C09"
+    }
+  },
+  "A": {
+    "agent": "/root/v10_review_a",
+    "independent": true,
+    "scope": "All 10 detailed shots and captions first, then intent/continuity/casting/generation units. No new images or video inspected.",
+    "ratings_order": "hook/humor/event/difference/readiness; subjective editorial judgment, not audience measurement",
+    "ratings": {
+      "C01": [
+        4,
+        4,
+        4,
+        4,
+        4
+      ],
+      "C02": [
+        3,
+        4,
+        5,
+        4,
+        4
+      ],
+      "C03": [
+        4,
+        4,
+        4,
+        5,
+        4
+      ],
+      "C04": [
+        4,
+        4,
+        5,
+        5,
+        4
+      ],
+      "C05": [
+        4,
+        5,
+        3,
+        5,
+        4
+      ],
+      "C06": [
+        5,
+        4,
+        5,
+        5,
+        4
+      ],
+      "C07": [
+        4,
+        3,
+        4,
+        4,
+        4
+      ],
+      "C08": [
+        3,
+        3,
+        5,
+        4,
+        4
+      ],
+      "C09": [
+        4,
+        4,
+        4,
+        4,
+        4
+      ],
+      "C10": [
+        2,
+        4,
+        5,
+        5,
+        3
+      ]
+    },
+    "issues": [
+      {
+        "id": "A-001",
+        "severity": "required",
+        "cuts": "C10 K04-K06",
+        "finding": "Scissors adhere to ribbon but later free jump rope is not separated.",
+        "fix": "Use an already severed tape offcut binding the closed blades, left on tray separate from main ribbon.",
+        "pd_status": "adopted and text resolved; see PD_DECISIONS.md and cross_and_reconfirmation"
+      },
+      {
+        "id": "A-002",
+        "severity": "required",
+        "cuts": "C09 K08-K09",
+        "finding": "Thin paper bundle becomes a notebook already handed out earlier.",
+        "fix": "Keep final prop a thin document folder or paper sheet.",
+        "pd_status": "adopted and text resolved; see PD_DECISIONS.md and cross_and_reconfirmation"
+      },
+      {
+        "id": "A-003",
+        "severity": "required",
+        "cuts": "C04 K09/final_action",
+        "finding": "Obsolete 34-38.8 timing; actual event cue32-36.8 and end37.",
+        "fix": "Synchronize final_action.",
+        "pd_status": "adopted and text resolved; see PD_DECISIONS.md and cross_and_reconfirmation"
+      },
+      {
+        "id": "A-004",
+        "severity": "suggestion",
+        "cuts": "C10 K01-K02",
+        "finding": "First5 seconds ordinary cutting; delayed repair reveal.",
+        "fix": "Shorten first cut to2-3seconds; show repair and MC eyes before technical caption.",
+        "pd_status": "adopted and text resolved; see PD_DECISIONS.md and cross_and_reconfirmation"
+      },
+      {
+        "id": "A-005",
+        "severity": "suggestion",
+        "cuts": "C06 K03-K04",
+        "finding": "12 seconds of explanation stalls comedy.",
+        "fix": "Compress and make ghost's premature rest preparation the active comic beat while retaining source check.",
+        "pd_status": "adopted and text resolved; see PD_DECISIONS.md and cross_and_reconfirmation"
+      },
+      {
+        "id": "A-006",
+        "severity": "suggestion",
+        "cuts": "C08 K03-K04",
+        "finding": "13 seconds rotation/process exposition before comic escalation.",
+        "fix": "Compress rotation, have hero try to regain front position while audience follows process.",
+        "pd_status": "adopted and text resolved; see PD_DECISIONS.md and cross_and_reconfirmation"
+      },
+      {
+        "id": "A-007",
+        "severity": "suggestion",
+        "cuts": "C07 K04-K06",
+        "finding": "18 seconds of rope procedure for one turn.",
+        "fix": "Compress throw/handholding preparation; retain voluntary walking and crowd blocks gunfighter again.",
+        "pd_status": "adopted and text resolved; see PD_DECISIONS.md and cross_and_reconfirmation"
+      }
+    ]
+  },
+  "final_durations": [
+    37.5,
+    39,
+    44.75,
+    37,
+    43,
+    44,
+    43,
+    41,
+    45,
+    46
+  ],
+  "cross_and_reconfirmation": {
+    "A": {
+      "agent": "/root/v10_review_a",
+      "peer_issues_reviewed": [
+        "B-001",
+        "B-002",
+        "B-003",
+        "B-004",
+        "B-005",
+        "B-006",
+        "B-007",
+        "C-001",
+        "C-002",
+        "C-003",
+        "C-004",
+        "C-005"
+      ],
+      "decision": "All required issues and accepted suggestions resolved; image production may start.",
+      "nuances": [
+        "B-003 symptom agreed; A treated hook timing as improvement, B as selected-card requirement. Same correction adopted.",
+        "B-005 needs a consequence for monopolizing, not added humiliation; blocked view suffices.",
+        "A additionally opened only5 existing PNGs: C03 S03/S06 and C05 S06_v2/S07_v3/S08_v2. This is not44-image review."
+      ],
+      "verification": "Actual shot/start/prompt agreement, continuous timings and caption bounds; no new image/motion inspection."
+    },
+    "B": {
+      "agent": "/root/v10_review_b",
+      "peer_issues_reviewed": [
+        "A-001",
+        "A-002",
+        "A-003",
+        "A-004",
+        "A-005",
+        "A-006",
+        "A-007",
+        "C-001",
+        "C-002",
+        "C-003",
+        "C-004",
+        "C-005"
+      ],
+      "decision": "All required issues and accepted suggestions resolved; image production may start.",
+      "nuances": [
+        "Initially found unusable-scissors motivation but missed tape-to-main-ribbon attachment; agrees A/C repair.",
+        "C-002 more precisely identifies no-height-change instruction conflict than B-I02 tidying suggestion.",
+        "B-X01 found old top-level C10 continuity sentence; re-opened current file after normalization and confirmed separately severed offcut."
+      ],
+      "verification": "44/43/41/45/46 revised times, caption bounds, first5seconds reveal, source clue graphic specification."
+    },
+    "C": {
+      "agent": "/root/v10_review_c",
+      "peer_issues_reviewed": [
+        "A-001",
+        "A-002",
+        "A-003",
+        "A-004",
+        "A-005",
+        "A-006",
+        "A-007",
+        "B-001",
+        "B-002",
+        "B-003",
+        "B-004",
+        "B-005",
+        "B-006",
+        "B-007"
+      ],
+      "decision": "All required issues and accepted suggestions resolved; image production may start.",
+      "nuances": [
+        "C09 cannot prove literal teleporting notebook from wording alone; inconsistent prop type still risks generation error and is correctly fixed.",
+        "C03 blank plates are not errors; precise compositing specification resolves planning gap, not actual compositing quality.",
+        "C05 ordinary descent after installation alone was insufficient for K06-to-K07; new pre-install height adjustment omission resolves."
+      ],
+      "verification": "All10 totals and caption bounds, screen/action agreement, preserved humor mechanisms. No new images or motion inspected."
+    }
+  }
+}

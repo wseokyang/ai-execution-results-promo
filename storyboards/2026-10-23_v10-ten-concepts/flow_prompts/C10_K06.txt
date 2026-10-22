@@ -1,0 +1,13 @@
+Future production draft; do not submit before the user selects this concept.
+Use the designated PNG as the starting frame, preserving the same character identities, costumes, scale, left-right staging and props. One continuous shot matching the camera instruction below. Widescreen 16:9. The intended source clip is 8 seconds; the editor will trim the selected motion to the storyboard timing. No spoken dialogue, voice-over or lip-sync performance. No subtitles, captions, titles, logos, watermarks or legible interface/document writing. All exact typography and narrative captions will be composited in post. Silent facial and body acting must convey the action. Do not reveal the next shot's payoff early or add new characters.
+
+Concept: C10 개막을 허가하지 않는 기계
+Unit: C10_K06
+Start state: 장치는 뒤 오른쪽에 멈춰 있다. 양쪽 의전 기둥의 집게가 실제로 열려 있고, MC는 기둥과 공급 롤에서 완전히 분리된 부드러운 리본 두 끝을 손에 들었다. DV가 한 끝을 받으려 빈손을 내민다. 별개 접착 자투리로 붙은 가위 두 개는 뒤 트레이에 남고, 주 리본과 연결되지 않는다.
+Physical action: MC가 DV에게 리본 한 끝을 정중히 건네고 반대 끝은 자신이 잡는다. 둘이 입구 좌우로 한 걸음 벌려 서며 MC가 의전처럼 팔을 가볍게 푼다. 리본 가운데는 바닥에 느슨하게 놓인다.
+Camera: 열린 기둥 집게·분리된 리본·두 사람 전신이 보이는 정면 와이드. 중앙 입장 통로 확보. 손에서 끝을 건네는 상반신 중심 연결로 짧게 사용하고, 줄의 전체 길이는 K07 와이드 기준으로 맞춘다. K06에서 길어지는 변형을 생성하지 않는다.
+Incoming continuity: 장치 정지 후 양끝 집게와 공급 연결을 풀어낸 준비 시간은 생략. 별개 자투리와 가위는 뒤 트레이에 남음. 두 사람은 자유 주 리본 끝만 잡음.
+Outgoing continuity: MC 왼쪽, DV 오른쪽, 자유 리본 한 끝씩. 장치는 멀리 정지, 몸에 감긴 곳 없음.
+Acting/style: 의도적으로 호화로운 소규모 개막 무대. 분홍 줄무늬 사회자의 과도한 환대와 진지한 개발자. 기계는 크고 노출된 B급 실물 소품이며 공급 롤·바닥 리본이 보인다. 점프는 대단한 스포츠가 아닌 불필요하게 장엄한 입장.
+Caption-safe coordinates only, do NOT render any lettering: [{'left_pct': 39, 'width_pct': 28, 'top_pct': 3, 'font_cqw': 2.8, 'padding_pct': 0.6}]
+Continuity notes describe the editor's story connection, not extra on-screen text or extra actions. Preserve clean plates for all typography.

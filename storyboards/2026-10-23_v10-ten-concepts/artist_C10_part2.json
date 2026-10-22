@@ -1,0 +1,102 @@
+{
+  "concept_id": "C10",
+  "images": [
+    {
+      "id": "C10_K06",
+      "concept_id": "C10",
+      "scene_id": "S06",
+      "linked_cut": "K06",
+      "image_path": "images/C10/S06_v2.png",
+      "source_generated_path": "C:\\Users\\wseok\\.codex\\generated_images\\01a164df-a008-7dc1-9b16-fd30d343998f\\exec-fa16a2ea-66f6-4e3c-a854-1909ca4cd87b.png",
+      "generation_tool": "image_gen",
+      "prompt": "Precise edit image 1: fix only ribbon topology. There must be ONE unbranched long ribbon with exactly TWO ends, both held in MC's two hands. From his camera-left hand it falls to floor, follows ONE simple loose U curve across floor then rises to his offered camera-right hand. Remove the extra red tail extending along the floor toward the developer; no third branch or third end, no crossed or merged ribbons. Keep the two held ends and a generous long sag in between. Both gold post clamps visibly OPEN and empty. Preserve all people, faces, poses, machine, attached side tray with exactly two scissors bonded by separate short scrap, no connection to ribbon. 16:9 no text.",
+      "referenced_image_paths": [
+        "\\\\wsl.localhost\\Ubuntu-24.04\\home\\wooseok\\wsy\\samsung_related\\slide\\AI실행결과발표대회_디자인3종\\storyboards\\2026-10-23_v10-ten-concepts\\images\\C10\\S06.png"
+      ],
+      "next_motion": "MC가 DV에게 리본 한 끝을 정중히 건네고 반대 끝은 자신이 잡는다. 둘이 입구 좌우로 한 걸음 벌려 서며 MC가 의전처럼 팔을 가볍게 푼다. 리본 가운데는 바닥에 느슨하게 놓인다.",
+      "camera_note": "열린 기둥 집게·분리된 리본·두 사람 전신이 보이는 정면 와이드. 중앙 입장 통로 확보.",
+      "artist_review": {
+        "opened_actual_image": true,
+        "notes": "실제 열람. 사회자가 리본 두 끝 보유, DV 빈손, 단일 U형 리본으로 세번째 꼬리 제거. 양쪽 기둥과 기계에서 분리, 두 가위와 짧은 자투리는 기계부착 트레이 잔류."
+      },
+      "review_status": "artist checked; independent review pending"
+    },
+    {
+      "id": "C10_K07",
+      "concept_id": "C10",
+      "scene_id": "S07",
+      "linked_cut": "K07",
+      "image_path": "images/C10/S07.png",
+      "source_generated_path": "C:\\Users\\wseok\\.codex\\generated_images\\01a164df-1990-7500-a038-0a0a40059160\\exec-fc9ff3f1-76a8-4c4c-a5dd-7ef34f304b91.png",
+      "generation_tool": "image_gen",
+      "prompt": "Grand but knowingly low-budget opening ceremony, pink stripes, red flexible ribbon, exposed practical machine with a large real refill reel. Serious ceremonial smiles and practical developer, not chaotic slapstick. Bright indoor stage, 16:9. No autonomous magic, no material appearing from nowhere, no ribbon body binding, no rigid hoop.\n\nCharacter continuity bible: MC: a plump 40s man with round face and short nose, short slicked-back copper hair, no facial hair, pink vertical-striped suit, white bow tie and white shoes. DV: tall Black female developer in her late 30s, long face, extremely short tight black curls, no glasses, long navy work coat, black trousers and low red sneakers. P1: small slight late-20s East Asian man with straight bowl fringe, large round clear glasses, pastel-lime waistcoat, white shirt, cream wide trousers and low black shoes, holding thick gray folder. P2: large-bodied 50s white woman with long thick copper braid, cobalt straight dress and low black shoes. Machine: gray practical repair trolley on a short rear floor rail, one low joining head, conspicuous red refill tape reel and visible feed strip. Include only characters named in the shot.\n\nEXACT SHOT START STATE: Before the first ceremonial swing. MC at left and DV at right each hold one free ribbon end, its center still resting on the floor. P1 stands centered in front of the stage holding his gray folder tightly, feet together, not jumping. Full bodies and ribbon path, idle machine far behind, no second presenter yet.\n\nCreate one standalone cinematic first-frame image before the described action, not a collage, storyboard sheet or completed payoff. Use only visible characters named in the shot. Preserve unique face shapes, body types, hair, clothing and all prop counts. No subtitles, letters, readable text, logos, watermark, fabricated signage or UI text; leave clean blank graphic surfaces and caption-safe negative space. Natural hands with correct anatomy. No motion blur. Subsequent action is for later Flow video, do not depict multiple moments in this still.\nUse reference 1 for exact MC/DV cast, costumes, pink ceremony set and FREE ribbon topology; reference 2 only for exact two-scissor tray contents. Now MC at LEFT holds ONE ribbon end in his inward hand, DV at RIGHT holds the OTHER end in her inward hand. Exactly one long unbranched red ribbon with two ends, middle sagging in one broad U onto floor. Both gold post clamps remain OPEN and EMPTY at outside edges. No connection to machine/reel/tray. Add P1 for first time: small slender late-20s East Asian man, bowl fringe, LARGE ROUND CLEAR glasses, pale lime waistcoat/white shirt/cream wide trousers/low black shoes, thick plain gray folder hugged to chest. He stands centered in FRONT of the ribbon entrance with both feet together, not crouching or jumping; body aimed toward the clear stage landing space, head in three-quarter turn toward MC so his glasses/face are visible. Full feet and single U ribbon path visible. Machine idle far rear RIGHT, attached tray still holds exactly two CLOSED scissors (small gold scissors + large red-handled shears) stuck only with short separate red scrap. No second presenter, no extra red strips on floor. Bright grand but intentionally cheesy practical ceremony, 16:9.",
+      "referenced_image_paths": [
+        "\\\\wsl.localhost\\Ubuntu-24.04\\home\\wooseok\\wsy\\samsung_related\\slide\\AI실행결과발표대회_디자인3종\\storyboards\\2026-10-23_v10-ten-concepts\\images\\C10\\S06_v2.png",
+        "\\\\wsl.localhost\\Ubuntu-24.04\\home\\wooseok\\wsy\\samsung_related\\slide\\AI실행결과발표대회_디자인3종\\storyboards\\2026-10-23_v10-ten-concepts\\images\\C10\\S05.png"
+      ],
+      "next_motion": "둘이 리본을 한 번 큰 원호로 돌려 박자를 보인다. P1이 그 박자에 두 번 움찔하지만 뛰지 못한다. MC는 미소를 유지하고 다시 낮은 출발 위치로 리본을 돌린다.",
+      "camera_note": "리본 원호 전체·P1 전신·두 끝을 잡은 사람들의 손이 모두 보이는 고정 와이드. 발과 바닥이 잘리지 않음.",
+      "artist_review": {
+        "opened_actual_image": true,
+        "notes": "실제 파일 열람. MC 왼쪽/DV 오른쪽 각각 리본 끝 보유, 단일 자유 U형 리본/중앙 바닥, 열린 빈 기둥 집게. P1 라임 조끼·둥근안경·바가지컷·회색 폴더 가슴·발 모음. 두 가위/자투리 트레이 잔류, 장치와 주리본 분리. P2 없음."
+      },
+      "review_status": "artist checked; independent review pending"
+    },
+    {
+      "id": "C10_K08",
+      "concept_id": "C10",
+      "scene_id": "S08",
+      "linked_cut": "K08",
+      "image_path": "images/C10/S08.png",
+      "source_generated_path": "C:\\Users\\wseok\\.codex\\generated_images\\01a164df-1990-7500-a038-0a0a40059160\\exec-b834fec0-db5a-44cf-b3a3-90de9f742a56.png",
+      "generation_tool": "image_gen",
+      "prompt": "Grand but knowingly low-budget opening ceremony, pink stripes, red flexible ribbon, exposed practical machine with a large real refill reel. Serious ceremonial smiles and practical developer, not chaotic slapstick. Bright indoor stage, 16:9. No autonomous magic, no material appearing from nowhere, no ribbon body binding, no rigid hoop.\n\nCharacter continuity bible: MC: a plump 40s man with round face and short nose, short slicked-back copper hair, no facial hair, pink vertical-striped suit, white bow tie and white shoes. DV: tall Black female developer in her late 30s, long face, extremely short tight black curls, no glasses, long navy work coat, black trousers and low red sneakers. P1: small slight late-20s East Asian man with straight bowl fringe, large round clear glasses, pastel-lime waistcoat, white shirt, cream wide trousers and low black shoes, holding thick gray folder. P2: large-bodied 50s white woman with long thick copper braid, cobalt straight dress and low black shoes. Machine: gray practical repair trolley on a short rear floor rail, one low joining head, conspicuous red refill tape reel and visible feed strip. Include only characters named in the shot.\n\nEXACT SHOT START STATE: Before the single jump. P1 crouches slightly with both arms holding the gray folder securely. The soft red ribbon is low in front of his shoes, held by MC and DV at the edges ready for the next sweep. Show a clear landing area behind him on the stage. Feet still on ground, no rigid ribbon hoop, no mid-air freeze or collision.\n\nCreate one standalone cinematic first-frame image before the described action, not a collage, storyboard sheet or completed payoff. Use only visible characters named in the shot. Preserve unique face shapes, body types, hair, clothing and all prop counts. No subtitles, letters, readable text, logos, watermark, fabricated signage or UI text; leave clean blank graphic surfaces and caption-safe negative space. Natural hands with correct anatomy. No motion blur. Subsequent action is for later Flow video, do not depict multiple moments in this still.\nReference 1 exact three identities, wardrobe, gray folder and FREE single ribbon. This shot is BEFORE jump, not landing. Change camera to LOW ANGLE wide three-quarter side view with all feet and a large clear stage landing area visible beyond ribbon. P1 centered with knees SLIGHTLY BENT, heels/soles STILL ON FLOOR, both forearms hugging same closed thick gray folder securely; concentrating, no smile now. Bowl fringe, large round clear glasses, lime waistcoat unchanged. MC LEFT/DV RIGHT each one ribbon end, hands lower at hip height ready for a sweep; long flexible single red strip sags low in front of P1's shoes, no overhead arc yet. Camera makes unblocked direction into stage visible. Rear-right idle machine, two closed scissors and SEPARATE short red scrap on attached side tray as reference2. Main ribbon never connects to trolley, reel or open empty gold post clamps. No second presenter. No airborne person, no completed jump, no extra ribbon branches, no text or logos, 16:9.",
+      "referenced_image_paths": [
+        "\\\\wsl.localhost\\Ubuntu-24.04\\home\\wooseok\\wsy\\samsung_related\\slide\\AI실행결과발표대회_디자인3종\\storyboards\\2026-10-23_v10-ten-concepts\\images\\C10\\S07.png",
+        "\\\\wsl.localhost\\Ubuntu-24.04\\home\\wooseok\\wsy\\samsung_related\\slide\\AI실행결과발표대회_디자인3종\\storyboards\\2026-10-23_v10-ten-concepts\\images\\C10\\S05.png"
+      ],
+      "next_motion": "P1이 낮게 지나가는 리본을 한 번 과장되게 높이 뛰어넘어 무대 안쪽으로 착지한다. MC와 DV는 리본 속도를 줄여 멈추고, P1은 폴더를 떨어뜨리지 않는다. 공중 정지나 두 번째 점프는 없다.",
+      "camera_note": "P1 전신과 낮은 리본·착지 공간을 보는 로앵글 와이드. 높이는 과장하되 실제 착지 방향이 보임.",
+      "artist_review": {
+        "opened_actual_image": true,
+        "notes": "실제 파일 열람. 로앵글 와이드·P1 무릎 굽힘/양발 바닥·회색 폴더 고정, 낮은 부드러운 리본 한 가닥. MC/DV 각 끝 보유, 열린 기둥 집게와 장치 분리. 실제 점프는 아직 하지 않은 시작 상태. 후속 점프 방향·안정 착지는 동영상 별도 검수."
+      },
+      "review_status": "artist checked; independent review pending"
+    },
+    {
+      "id": "C10_K09",
+      "concept_id": "C10",
+      "scene_id": "S09",
+      "linked_cut": "K09",
+      "image_path": "images/C10/S09.png",
+      "source_generated_path": "C:\\Users\\wseok\\.codex\\generated_images\\01a164df-1990-7500-a038-0a0a40059160\\exec-3b9d15b2-eb12-4571-a354-82cf3d2bcbab.png",
+      "generation_tool": "image_gen",
+      "prompt": "Grand but knowingly low-budget opening ceremony, pink stripes, red flexible ribbon, exposed practical machine with a large real refill reel. Serious ceremonial smiles and practical developer, not chaotic slapstick. Bright indoor stage, 16:9. No autonomous magic, no material appearing from nowhere, no ribbon body binding, no rigid hoop.\n\nCharacter continuity bible: MC: a plump 40s man with round face and short nose, short slicked-back copper hair, no facial hair, pink vertical-striped suit, white bow tie and white shoes. DV: tall Black female developer in her late 30s, long face, extremely short tight black curls, no glasses, long navy work coat, black trousers and low red sneakers. P1: small slight late-20s East Asian man with straight bowl fringe, large round clear glasses, pastel-lime waistcoat, white shirt, cream wide trousers and low black shoes, holding thick gray folder. P2: large-bodied 50s white woman with long thick copper braid, cobalt straight dress and low black shoes. Machine: gray practical repair trolley on a short rear floor rail, one low joining head, conspicuous red refill tape reel and visible feed strip. Include only characters named in the shot.\n\nEXACT SHOT START STATE: Final shot before the calm reset. P1 stands safely inside the stage with his gray folder still closed, ready to open it. MC and DV hold the ribbon motionless and slack behind him. P2 has just arrived at the entrance with her folder under one arm, knees still straight before warming up. Clear upper backdrop title space, machine visibly idle, no second jump.\n\nCreate one standalone cinematic first-frame image before the described action, not a collage, storyboard sheet or completed payoff. Use only visible characters named in the shot. Preserve unique face shapes, body types, hair, clothing and all prop counts. No subtitles, letters, readable text, logos, watermark, fabricated signage or UI text; leave clean blank graphic surfaces and caption-safe negative space. Natural hands with correct anatomy. No motion blur. Subsequent action is for later Flow video, do not depict multiple moments in this still.\nUse references for identical MC, DV, P1, gray folder and ceremony set. Camera is now an inside-stage medium-wide angle looking back toward the entrance: P1 is in FOREGROUND on the safe inner side after landing, feet settled, gray folder still CLOSED in both hands held lower at waist just BEFORE he opens it. Same bowl fringe, large round clear glasses, lime waistcoat, cream trousers; calm face as if nothing happened. MC left and DV right are behind him holding one end each of the same completely slack red ribbon; middle rests on floor, motion stopped, exactly two ends, no branches and no connection to machine. New P2 appears further behind at entrance for the FIRST time: large-bodied white woman in her 50s, long thick COPPER braid down her back, long oval face, COBALT straight dress and low black shoes, one small plain closed folder tucked under arm. P2 feet together, knees still STRAIGHT, before bending to warm up; no jump. Four people total, no audience. Machine visibly idle at rear right with two closed scissors on its attached tray bonded by separate short scrap. Upper central cream/pink backdrop blank for later event title. Single 16:9 cinematic first-frame. No text/logos, no motion blur or airborne bodies.",
+      "referenced_image_paths": [
+        "\\\\wsl.localhost\\Ubuntu-24.04\\home\\wooseok\\wsy\\samsung_related\\slide\\AI실행결과발표대회_디자인3종\\storyboards\\2026-10-23_v10-ten-concepts\\images\\C10\\S08.png",
+        "\\\\wsl.localhost\\Ubuntu-24.04\\home\\wooseok\\wsy\\samsung_related\\slide\\AI실행결과발표대회_디자인3종\\storyboards\\2026-10-23_v10-ten-concepts\\images\\C10\\S07.png"
+      ],
+      "next_motion": "P1이 아무 일도 없었던 듯 기록 폴더를 펼친다. 뒤에서 P2가 진지하게 무릎을 한 번 굽혀 준비 운동한다. MC는 그쪽을 향해 의전 미소를 유지한다. 다음 점프는 하지 않는다.",
+      "camera_note": "P1 기록과 태연한 얼굴 전경, P2 준비 동작과 두 사람의 리본을 후경에 두는 미디엄 와이드. 상단 빈 무대 벽에 제목.",
+      "artist_review": {
+        "opened_actual_image": true,
+        "notes": "실제 파일 열람. P1 전경·양발 착지·회색 폴더 아직 닫힘, 리본은 뒤에서 MC/DV가 느슨하게 유지. P2 코발트 원피스·구리색 땋은 머리·무지 폴더·무릎 펴고 기다림. 동일 장치/가위·자투리 유지, 읽을 글 없음. 무대 안쪽에서 입구를 보는 반대 방향 컷이라는 카메라 가정 적용; 후속 영상의 점프 이동축은 편집 시 검증 필요."
+      },
+      "review_status": "artist checked; independent review pending"
+    }
+  ],
+  "rejected_attempts": [
+    {
+      "id": "C10_K06",
+      "image_path": "images/C10/S06.png",
+      "source_generated_path": "C:\\Users\\wseok\\.codex\\generated_images\\01a164df-a008-7dc1-9b16-fd30d343998f\\exec-e5a01256-512a-4a72-bf08-8fc5a54fdd97.png",
+      "prompt": "Grand but knowingly low-budget opening ceremony, pink stripes, red flexible ribbon, exposed practical machine with a large real refill reel. Serious ceremonial smiles and practical developer, not chaotic slapstick. Bright indoor stage, 16:9. No autonomous magic, no material appearing from nowhere, no ribbon body binding, no rigid hoop.\n\nCharacter continuity bible: MC: a plump 40s man with round face and short nose, short slicked-back copper hair, no facial hair, pink vertical-striped suit, white bow tie and white shoes. DV: tall Black female developer in her late 30s, long face, extremely short tight black curls, no glasses, long navy work coat, black trousers and low red sneakers. P1: small slight late-20s East Asian man with straight bowl fringe, large round clear glasses, pastel-lime waistcoat, white shirt, cream wide trousers and low black shoes, holding thick gray folder. P2: large-bodied 50s white woman with long thick copper braid, cobalt straight dress and low black shoes. Machine: gray practical repair trolley on a short rear floor rail, one low joining head, conspicuous red refill tape reel and visible feed strip. Include only characters named in the shot.\n\nEXACT SHOT START STATE: After preparation, both ceremony post clamps are visibly open. Repair trolley parked idle behind right. MC holds both free ends of the long soft red MAIN ribbon and is about to pass one to DV empty hand. Ribbon fully disconnected from posts and reel, loose on floor. Behind them on the shallow tray remain the two closed scissors bonded by a SHORT SEVERED red adhesive scrap. Scissors and scrap are completely separate from the main ribbon, with a clear gap. Empty central walkway, no rope around bodies.\n\nCreate one standalone cinematic first-frame image before the described action, not a collage, storyboard sheet or completed payoff. Use only visible characters named in the shot. Preserve unique face shapes, body types, hair, clothing and all prop counts. No subtitles, letters, readable text, logos, watermark, fabricated signage or UI text; leave clean blank graphic surfaces and caption-safe negative space. Natural hands with correct anatomy. No motion blur. Subsequent action is for later Flow video, do not depict multiple moments in this still.\nReference 1 current set and tool tray and reference 2 exact actor identities and costumes. Camera WIDE, both open gold post clamps visible at outside edges. MC left holds BOTH separate free ends of one long red ribbon in his two hands, one end offered toward DV empty reaching hand at right; she has NOT yet taken it. Ribbon middle lies loosely on floor between them, totally separated from posts and machine. Machine parked further rear right on same rails; retain its built-in tray attached on machine left, with exactly two closed scissors (small gold scissors, big garden shears with long red handles) bonded by a separate SHORT red tape scrap. Absolutely no new central table or tray pedestal. Visible empty space between main ribbon and scissors tray, no strip connecting them. Do not include presenters yet.",
+      "referenced_image_paths": [
+        "\\\\wsl.localhost\\Ubuntu-24.04\\home\\wooseok\\wsy\\samsung_related\\slide\\AI실행결과발표대회_디자인3종\\storyboards\\2026-10-23_v10-ten-concepts\\images\\C10\\S05.png",
+        "\\\\wsl.localhost\\Ubuntu-24.04\\home\\wooseok\\wsy\\samsung_related\\slide\\AI실행결과발표대회_디자인3종\\storyboards\\2026-10-23_v10-ten-concepts\\images\\C10\\S01.png"
+      ],
+      "reason": "리본 세번째 꼬리 제거",
+      "selected": false
+    }
+  ]
+}

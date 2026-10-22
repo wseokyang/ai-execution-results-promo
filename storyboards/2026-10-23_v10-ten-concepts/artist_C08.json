@@ -1,0 +1,245 @@
+{
+  "concept_id": "C08",
+  "images": [
+    {
+      "id": "C08_K01",
+      "concept_id": "C08",
+      "scene_id": "S01",
+      "linked_cut": "K01",
+      "image_path": "images/C08/S01_v2.png",
+      "source_generated_path": "C:\\Users\\wseok\\.codex\\generated_images\\01a164df-a008-7dc1-9b16-fd30d343998f\\exec-dbbe93e1-1816-495f-9295-e4b7f630afb0.png",
+      "generation_tool": "image_gen",
+      "prompt": "Precise continuity edit. Use image 1 as edit target: keep exactly the opera lead face, body, high black wig, white makeup, royal-blue/gold cape, arms-open pre-bow pose, and elderly silver-bob conductor at left unchanged. Change ONLY physical stage structure behind them to match image 2: freestanding gold blank double-sided panel on two short ornamental supports physically resting inside a circular revolving platform; NO broad staircase separating panel and circle. Same fixed blue/gold theater and upper-left spotlight. Keep the grand frontal framing and lead in CENTER. Conductor is just beginning to lower one knee, before full kneeling. Do not add ST crew member from image 2, only OP and CO. Do not expose backstage. 16:9, no writing, logos, watermark.",
+      "referenced_image_paths": [
+        "\\\\wsl.localhost\\Ubuntu-24.04\\home\\wooseok\\wsy\\samsung_related\\slide\\AI실행결과발표대회_디자인3종\\storyboards\\2026-10-23_v10-ten-concepts\\images\\C08\\S01.png",
+        "\\\\wsl.localhost\\Ubuntu-24.04\\home\\wooseok\\wsy\\samsung_related\\slide\\AI실행결과발표대회_디자인3종\\storyboards\\2026-10-23_v10-ten-concepts\\images\\C08\\S03_v2.png"
+      ],
+      "next_motion": "OP가 과장된 큰 인사를 한 번 한다. CO도 진지하게 몸을 낮춘다. OP가 천천히 일어나 피날레가 끝났다는 얼굴을 만든다.",
+      "camera_note": "무대 전체의 정면 와이드. 커다란 주역과 작은 지휘자의 크기 대비를 살리고 금빛 결과판 중앙은 비워 둠.",
+      "artist_review": {
+        "opened_actual_image": true,
+        "notes": "실제 열람. 동일 얼굴·복장·첫 상태 유지하며 금빛 판 지지대가 회전판 위에 놓이도록 구조 수정 확인."
+      },
+      "review_status": "artist checked; independent review pending"
+    },
+    {
+      "id": "C08_K02",
+      "concept_id": "C08",
+      "scene_id": "S02",
+      "linked_cut": "K02",
+      "image_path": "images/C08/S02_v2.png",
+      "source_generated_path": "C:\\Users\\wseok\\.codex\\generated_images\\01a164df-a008-7dc1-9b16-fd30d343998f\\exec-9efd54cc-ae2f-40e6-a09f-83d1f2f12a8c.png",
+      "generation_tool": "image_gen",
+      "prompt": "Precise continuity edit. Image 1 edit target, preserve exact audience-side camera composition, close teal-knit man with glasses and hand near chest, distant round opera lead at left and both characters faces/costumes. Change only background stage physical construction to match image 2: the blank gold panel is freestanding on two short ornamental supports on circular revolving platform. Remove the broad stairs, show circle floor seam and supports in consistent perspective. Retain opulent blue/gold theater and upper-left spotlight, same scale, blank upper background. Do not add red-haired worker, no backstage view, no pointing hand or already raised hand. 16:9, no text/logos.",
+      "referenced_image_paths": [
+        "\\\\wsl.localhost\\Ubuntu-24.04\\home\\wooseok\\wsy\\samsung_related\\slide\\AI실행결과발표대회_디자인3종\\storyboards\\2026-10-23_v10-ten-concepts\\images\\C08\\S02.png",
+        "\\\\wsl.localhost\\Ubuntu-24.04\\home\\wooseok\\wsy\\samsung_related\\slide\\AI실행결과발표대회_디자인3종\\storyboards\\2026-10-23_v10-ten-concepts\\images\\C08\\S03_v2.png"
+      ],
+      "next_motion": "AU가 손을 들고 OP를 본다. OP는 발을 멈추고 자신 있게 엄지로 막 뒤를 가리킨다. 입을 움직여 설명하지 않는다.",
+      "camera_note": "질문자의 옆얼굴과 멀리 보이는 OP의 가리키는 팔을 읽는 객석 측면 미디엄 와이드.",
+      "artist_review": {
+        "opened_actual_image": true,
+        "notes": "실제 열람. 동일 얼굴·복장·첫 상태 유지하며 금빛 판 지지대가 회전판 위에 놓이도록 구조 수정 확인."
+      },
+      "review_status": "artist checked; independent review pending"
+    },
+    {
+      "id": "C08_K03",
+      "concept_id": "C08",
+      "scene_id": "S03",
+      "linked_cut": "K03",
+      "image_path": "images/C08/S03_v2.png",
+      "source_generated_path": "C:\\Users\\wseok\\.codex\\generated_images\\01a164df-a008-7dc1-9b16-fd30d343998f\\exec-bf1c937e-58fb-4e52-ba4a-8ed12d67e0d4.png",
+      "generation_tool": "image_gen",
+      "prompt": "Grand sincere opera stage, richly cinematic royal blue, gold and matte black, practical theatrical sets and restrained crew, no parody facial mugging. Widescreen 16:9. Keep clear geometry between stage-left overhead spotlight, the cape, and stage-right display. All writing and event branding added later.\n\nCharacter continuity bible: OP: a very large round-bodied male opera lead with a round face, smooth white theatrical makeup, no facial hair, a towering black rolled wig, royal-blue costume with gold ornament, huge floor-length royal-blue and gold cape with matte black lining. ST: broad-shouldered young woman with strong freckles, red buzz-cut hair, black short-sleeve workwear and slim gray tool belt. CO: tiny thin elderly woman with sharp triangular chin, straight silver chin-length bob, no glasses, black tailcoat and white collar, thin white baton. AU: one male audience questioner with small face, round dark glasses, neat short brown hair and teal knit. Only named characters in each shot.\n\nEXACT SHOT START STATE: Wide opera stage before rotation. ST with freckled face and red buzz cut stands at the fixed stage-left control with a finger just above a blank button. Golden front set remains facing camera on a clearly visible circular turntable. OP waits on the fixed apron at left outside the circle. No backstage reveal yet, no text.\n\nCreate one standalone cinematic first-frame image before the described action, not a collage, storyboard sheet or completed payoff. Use only visible characters named in the shot. Preserve unique face shapes, body types, hair, clothing and all prop counts. No subtitles, letters, readable text, logos, watermark, fabricated signage or UI text; leave clean blank graphic surfaces and caption-safe negative space. Natural hands with correct anatomy. No motion blur. Subsequent action is for later Flow video, do not depict multiple moments in this still.\nReference 1 locks OP face, makeup, wig, cape and theater style. The previous steps below the golden set belong to the central circular revolving platform; reveal a clear circular stage seam around that complete set now. Operator ST stands at far camera-left fixed control pedestal, OP to her right but still outside the circle. OP holds cape folded near waist, not spread. Full wider stage, no workers other than ST. 16:9.\nCRITICAL GEOMETRY CORRECTION to reference image: The empty circular floor platform in the foreground is WRONG. Put the gold rectangular panel physically on the REAR HALF OF THIS SAME circular platform, with two short visible supports anchored to that circular floor. The panel must be a freestanding double-sided set that can rotate WITH the circle. The circle must extend behind and around the panel, not end before the steps. Remove the broad marble staircase between circle and panel, use a small low base within the circle. Keep actors and their faces/clothing, light, curtains and columns unchanged. ST hand must hover 3 cm above button, not already pressing. No text.",
+      "referenced_image_paths": [
+        "\\\\wsl.localhost\\Ubuntu-24.04\\home\\wooseok\\wsy\\samsung_related\\slide\\AI실행결과발표대회_디자인3종\\storyboards\\2026-10-23_v10-ten-concepts\\images\\C08\\S03.png"
+      ],
+      "next_motion": "ST가 버튼을 누르자 회전 세트가 약45도 돌아가기 시작한다. OP는 고정 앞무대에서 한 걸음 옮겨 자기 정면을 객석에 다시 맞추려 하지만 시선은 돌아가는 세트를 따라간다. 뒤 작업 책상 일부만 나타나며 전체는 다음 컷에 공개한다.",
+      "camera_note": "원형 바닥 경계·ST·OP·세트 전체를 함께 보는 고정 와이드. 회전 방향은 시계 방향.",
+      "artist_review": {
+        "opened_actual_image": true,
+        "notes": "실제 열람. 원형 무대 안에 금빛 양면 판의 지지대가 위치하도록 수정. ST 버튼 직전 손, OP 회전판 밖, 무대 뒤 미노출 확인."
+      },
+      "review_status": "artist checked; independent review pending"
+    },
+    {
+      "id": "C08_K04",
+      "concept_id": "C08",
+      "scene_id": "S04",
+      "linked_cut": "K04",
+      "image_path": "images/C08/S04.png",
+      "source_generated_path": "C:\\Users\\wseok\\.codex\\generated_images\\01a164df-a008-7dc1-9b16-fd30d343998f\\exec-e2102ee1-57cd-4b52-bbc1-4380d8e19bda.png",
+      "generation_tool": "image_gen",
+      "prompt": "Grand sincere opera stage, richly cinematic royal blue, gold and matte black, practical theatrical sets and restrained crew, no parody facial mugging. Widescreen 16:9. Keep clear geometry between stage-left overhead spotlight, the cape, and stage-right display. All writing and event branding added later.\n\nCharacter continuity bible: OP: a very large round-bodied male opera lead with a round face, smooth white theatrical makeup, no facial hair, a towering black rolled wig, royal-blue costume with gold ornament, huge floor-length royal-blue and gold cape with matte black lining. ST: broad-shouldered young woman with strong freckles, red buzz-cut hair, black short-sleeve workwear and slim gray tool belt. CO: tiny thin elderly woman with sharp triangular chin, straight silver chin-length bob, no glasses, black tailcoat and white collar, thin white baton. AU: one male audience questioner with small face, round dark glasses, neat short brown hair and teal knit. Only named characters in each shot.\n\nEXACT SHOT START STATE: Turntable rotation is complete, showing the backstage work desk and a large blank process display with three blank physical work cards. ST stands ready to point at the first card. OP is at the display’s left outer side. A fixed upper-left spotlight creates a visible pale glare on part of the screen. Keep the work area and the glare source geometry clear; no written content.\n\nCreate one standalone cinematic first-frame image before the described action, not a collage, storyboard sheet or completed payoff. Use only visible characters named in the shot. Preserve unique face shapes, body types, hair, clothing and all prop counts. No subtitles, letters, readable text, logos, watermark, fabricated signage or UI text; leave clean blank graphic surfaces and caption-safe negative space. Natural hands with correct anatomy. No motion blur. Subsequent action is for later Flow video, do not depict multiple moments in this still.\nImage 1 reference for identical OP/ST and fixed theater, circular stage and upper-left spotlight. The whole double-sided golden panel has rotated 180 degrees: NOW show the plain practical BACK of it containing one large widescreen blank process monitor, with a simple black work desk and exactly three blank rectangular cards standing on the desk. This reverse is functional dark backstage material, not gold luxury front. Desk and display anchored within circle. OP stands just to screen left on fixed apron, ST near desk. The camera sees monitor front with pale diagonal glare on LEFT third and usable darker right two-thirds. Light source remains upper camera LEFT, never right. 16:9.",
+      "referenced_image_paths": [
+        "\\\\wsl.localhost\\Ubuntu-24.04\\home\\wooseok\\wsy\\samsung_related\\slide\\AI실행결과발표대회_디자인3종\\storyboards\\2026-10-23_v10-ten-concepts\\images\\C08\\S03_v2.png"
+      ],
+      "next_motion": "ST가 첫 시도·수정 표시·적용본에 해당하는 세 카드를 한 번 차례로 짚는다. 후편집 화면에는 최소 단계 그래픽이 나타난다. CO와 AU의 시선은 OP에서 작업 화면으로 이동한다.",
+      "camera_note": "뒷면 작업 세트 정면 미디엄 와이드. 화면 왼쪽 반사와 오른쪽 읽을 부분을 분리. OP는 화면 옆 외곽.",
+      "artist_review": {
+        "opened_actual_image": true,
+        "notes": "실제 열람. 동일 회전판 위 작업면, 무지 카드3개, 좌상 광원의 화면 반사, OP/ST 외형 일치. ST 손끝은 첫 카드 모서리 가까이 준비."
+      },
+      "review_status": "artist checked; independent review pending"
+    },
+    {
+      "id": "C08_K05",
+      "concept_id": "C08",
+      "scene_id": "S05",
+      "linked_cut": "K05",
+      "image_path": "images/C08/S05_v2.png",
+      "source_generated_path": "C:\\Users\\wseok\\.codex\\generated_images\\01a164df-a008-7dc1-9b16-fd30d343998f\\exec-cd28c55b-223c-46d2-8ee9-98335399f70c.png",
+      "generation_tool": "image_gen",
+      "prompt": "Precise local edit of image 1. Remove the tiny white mark/logo on the red buzz-cut worker's black polo chest, making that fabric entirely plain black. Also turn elderly conductor's gaze subtly toward the large monitor, while her baton remains lowered. Keep EVERYTHING else unchanged, including identities, hands, gathered cape, stage geometry, monitor glare, three blank cards, lighting, crop. No text or logos. 16:9.",
+      "referenced_image_paths": [
+        "\\\\wsl.localhost\\Ubuntu-24.04\\home\\wooseok\\wsy\\samsung_related\\slide\\AI실행결과발표대회_디자인3종\\storyboards\\2026-10-23_v10-ten-concepts\\images\\C08\\S05.png"
+      ],
+      "next_motion": "OP가 한 걸음 앞으로 나서며 망토를 거대한 부채처럼 펼친다. 검정 안감이 드러나고 ST의 눈이 그 넓은 어두운 면을 본다. 망토는 작업 화면 앞을 가로막지 않는다.",
+      "camera_note": "OP 전신과 ST, 화면 왼쪽 경계를 읽는 고정 와이드. OP의 앞 걸음은 화면 옆 공간 안에서만.",
+      "artist_review": {
+        "opened_actual_image": true,
+        "notes": "실제 열람. 가슴 무늬 명암 감소·CO 화면 쪽 시선 보정. 외형·모은 망토·반사 유지."
+      },
+      "review_status": "artist checked; independent review pending"
+    },
+    {
+      "id": "C08_K06",
+      "concept_id": "C08",
+      "scene_id": "S06",
+      "linked_cut": "K06",
+      "image_path": "images/C08/S06.png",
+      "source_generated_path": "C:\\Users\\wseok\\.codex\\generated_images\\01a164df-a008-7dc1-9b16-fd30d343998f\\exec-d22e10c5-9347-4295-be7e-c820190cfe41.png",
+      "generation_tool": "image_gen",
+      "prompt": "Grand sincere opera stage, richly cinematic royal blue, gold and matte black, practical theatrical sets and restrained crew, no parody facial mugging. Widescreen 16:9. Keep clear geometry between stage-left overhead spotlight, the cape, and stage-right display. All writing and event branding added later.\n\nCharacter continuity bible: OP: a very large round-bodied male opera lead with a round face, smooth white theatrical makeup, no facial hair, a towering black rolled wig, royal-blue costume with gold ornament, huge floor-length royal-blue and gold cape with matte black lining. ST: broad-shouldered young woman with strong freckles, red buzz-cut hair, black short-sleeve workwear and slim gray tool belt. CO: tiny thin elderly woman with sharp triangular chin, straight silver chin-length bob, no glasses, black tailcoat and white collar, thin white baton. AU: one male audience questioner with small face, round dark glasses, neat short brown hair and teal knit. Only named characters in each shot.\n\nEXACT SHOT START STATE: OP already holds the cape open at stage left, black lining visible. ST’s hand hovers just before turning one free cape edge into the angled spotlight beam. The screen still has the same pale glare. Show the screen front to camera and the cape beside it, not across it. Do not pre-remove the glare or show the completed shade.\n\nCreate one standalone cinematic first-frame image before the described action, not a collage, storyboard sheet or completed payoff. Use only visible characters named in the shot. Preserve unique face shapes, body types, hair, clothing and all prop counts. No subtitles, letters, readable text, logos, watermark, fabricated signage or UI text; leave clean blank graphic surfaces and caption-safe negative space. Natural hands with correct anatomy. No motion blur. Subsequent action is for later Flow video, do not depict multiple moments in this still.\nImage 1 only references identities and current set. Change OP posture to arms wide horizontally, holding both cape edges raised AT HIS SIDES and black inner cape exposed, like a grand theatrical flourish. Entire expanded cape stays LEFT of the monitor, so reposition lead further left and camera slightly wider. ST stands near its audience-facing free edge, fingers hovering a few cm away BEFORE touching or turning it. Spotlight beam still passes above/around cape to the upper-left monitor glare; the shading action has NOT occurred. CO stays at right with lowered baton. ST shirt absolutely plain solid black without any white chest mark, badge or logo. 16:9.",
+      "referenced_image_paths": [
+        "\\\\wsl.localhost\\Ubuntu-24.04\\home\\wooseok\\wsy\\samsung_related\\slide\\AI실행결과발표대회_디자인3종\\storyboards\\2026-10-23_v10-ten-concepts\\images\\C08\\S05.png"
+      ],
+      "next_motion": "ST가 망토의 자유 끝 하나를 조금 돌려 검정 안감이 조명과 작업 화면 사이에 서도록 한다. OP는 놀랐지만 팔을 유지한다. 같은 화면의 반사가 사라지고 작업 카드가 또렷해진다.",
+      "camera_note": "관객이 화면을 정면으로 보면서 왼쪽에 세워진 망토의 옆면과 조명 방향을 함께 확인하는 미디엄 와이드.",
+      "artist_review": {
+        "opened_actual_image": true,
+        "notes": "실제 열람. 망토 검정 안감 펼침, ST 손끝 접촉 전 간격, 화면 반사 잔존, 좌측 광원 확인. 실제 망토 회전·차광은 후속 동작."
+      },
+      "review_status": "artist checked; independent review pending"
+    },
+    {
+      "id": "C08_K07",
+      "concept_id": "C08",
+      "scene_id": "S07",
+      "linked_cut": "K07",
+      "image_path": "images/C08/S07.png",
+      "source_generated_path": "C:\\Users\\wseok\\.codex\\generated_images\\01a164df-a008-7dc1-9b16-fd30d343998f\\exec-b64dcede-1e9c-4059-b7d9-6b5c049a871c.png",
+      "generation_tool": "image_gen",
+      "prompt": "Grand sincere opera stage, richly cinematic royal blue, gold and matte black, practical theatrical sets and restrained crew, no parody facial mugging. Widescreen 16:9. Keep clear geometry between stage-left overhead spotlight, the cape, and stage-right display. All writing and event branding added later.\n\nCharacter continuity bible: OP: a very large round-bodied male opera lead with a round face, smooth white theatrical makeup, no facial hair, a towering black rolled wig, royal-blue costume with gold ornament, huge floor-length royal-blue and gold cape with matte black lining. ST: broad-shouldered young woman with strong freckles, red buzz-cut hair, black short-sleeve workwear and slim gray tool belt. CO: tiny thin elderly woman with sharp triangular chin, straight silver chin-length bob, no glasses, black tailcoat and white collar, thin white baton. AU: one male audience questioner with small face, round dark glasses, neat short brown hair and teal knit. Only named characters in each shot.\n\nEXACT SHOT START STATE: CO stands in the foreground with her baton paused at chest height before pointing. OP holds the cape as a side shade at left; the process display at right is now free of glare, ST ready beside it. No baton pointing at the star, no text. Keep all three faces distinct.\n\nCreate one standalone cinematic first-frame image before the described action, not a collage, storyboard sheet or completed payoff. Use only visible characters named in the shot. Preserve unique face shapes, body types, hair, clothing and all prop counts. No subtitles, letters, readable text, logos, watermark, fabricated signage or UI text; leave clean blank graphic surfaces and caption-safe negative space. Natural hands with correct anatomy. No motion blur. Subsequent action is for later Flow video, do not depict multiple moments in this still.\nImage 1 identity and set reference. Advance only to the completed shading position: OP now holds both arms diagonally UP at his sides to head height, keeping the broad matte black cape lining upright and slightly tilted into upper-left beam, its dark surface visibly intercepts that beam LEFT of the monitor. The monitor face remains fully visible and uniform dark gray without its previous white glare. Cape never crosses monitor. CO has moved to foreground center between OP and display, thin white baton held vertically near her CHEST, not extended or pointing yet. ST stands right beside the display hands at rest, plain solid black shirt with absolutely no logo or chest mark. Exactly 3 blank cards remain. Full bodies and clear floor, 16:9.",
+      "referenced_image_paths": [
+        "\\\\wsl.localhost\\Ubuntu-24.04\\home\\wooseok\\wsy\\samsung_related\\slide\\AI실행결과발표대회_디자인3종\\storyboards\\2026-10-23_v10-ten-concepts\\images\\C08\\S06.png"
+      ],
+      "next_motion": "CO가 OP 대신 작업 화면을 지휘봉으로 정중하게 가리킨다. OP가 지휘봉 끝을 따라 보다가 양팔을 조금 더 높여 망토를 팽팽하게 만든다.",
+      "camera_note": "CO 전경·OP 왼쪽·읽을 수 있는 작업 화면 오른쪽의 삼각 구도. 인원 추가 없음.",
+      "artist_review": {
+        "opened_actual_image": true,
+        "notes": "실제 열람. 양팔을 높인 OP·검정 망토 차광, 반사 제거된 화면, CO 지휘봉 가슴 높이, ST 대기. 광원은 좌상 유지."
+      },
+      "review_status": "artist checked; independent review pending"
+    },
+    {
+      "id": "C08_K08",
+      "concept_id": "C08",
+      "scene_id": "S08",
+      "linked_cut": "K08",
+      "image_path": "images/C08/S08.png",
+      "source_generated_path": "C:\\Users\\wseok\\.codex\\generated_images\\01a164df-a008-7dc1-9b16-fd30d343998f\\exec-98cb3672-ee90-431b-b69b-b5c47196df93.png",
+      "generation_tool": "image_gen",
+      "prompt": "Grand sincere opera stage, richly cinematic royal blue, gold and matte black, practical theatrical sets and restrained crew, no parody facial mugging. Widescreen 16:9. Keep clear geometry between stage-left overhead spotlight, the cape, and stage-right display. All writing and event branding added later.\n\nCharacter continuity bible: OP: a very large round-bodied male opera lead with a round face, smooth white theatrical makeup, no facial hair, a towering black rolled wig, royal-blue costume with gold ornament, huge floor-length royal-blue and gold cape with matte black lining. ST: broad-shouldered young woman with strong freckles, red buzz-cut hair, black short-sleeve workwear and slim gray tool belt. CO: tiny thin elderly woman with sharp triangular chin, straight silver chin-length bob, no glasses, black tailcoat and white collar, thin white baton. AU: one male audience questioner with small face, round dark glasses, neat short brown hair and teal knit. Only named characters in each shot.\n\nEXACT SHOT START STATE: Final opera-stage composition before the small acknowledgement. OP proudly holds the royal-blue cape with black lining as a side shade; ST has one hand near her chest before a thumbs-up. CO already points her baton at the blank process display. The star’s face remains solemnly regal, no pain or mockery. Clear upper-right title zone.\n\nCreate one standalone cinematic first-frame image before the described action, not a collage, storyboard sheet or completed payoff. Use only visible characters named in the shot. Preserve unique face shapes, body types, hair, clothing and all prop counts. No subtitles, letters, readable text, logos, watermark, fabricated signage or UI text; leave clean blank graphic surfaces and caption-safe negative space. Natural hands with correct anatomy. No motion blur. Subsequent action is for later Flow video, do not depict multiple moments in this still.\nKeep all faces, costume, cape shade height and spotlight geometry exactly as reference image 1. Advance only CO baton extended toward blank work monitor and ST right hand loosely near her chest BEFORE raising her thumb; no thumbs-up yet, no extra hand. OP lifts chin solemnly and keeps both arms and cape raised. Foreground CO is small/thin elderly lady. Wide 16:9, blank upper-right display title zone, no logo on crew shirt. Three blank cards remain.",
+      "referenced_image_paths": [
+        "\\\\wsl.localhost\\Ubuntu-24.04\\home\\wooseok\\wsy\\samsung_related\\slide\\AI실행결과발표대회_디자인3종\\storyboards\\2026-10-23_v10-ten-concepts\\images\\C08\\S07.png"
+      ],
+      "next_motion": "ST가 OP에게 짧게 엄지를 보여 준다. OP는 관객의 환호를 받은 것처럼 턱을 더 높여 위엄 있게 받아들인다. 작업 화면과 망토 위치는 끝까지 유지한다.",
+      "camera_note": "OP의 과잉 의전 표정과 실제 작업 화면을 함께 담는 고정 미디엄 와이드. 상단 빈 무대 공간에 제목.",
+      "artist_review": {
+        "opened_actual_image": true,
+        "notes": "실제 열람. 차광 유지, 화면을 향한 지휘봉, ST 엄지 전 가슴높이 손, OP의 위엄 유지 확인."
+      },
+      "review_status": "artist checked; independent review pending"
+    }
+  ],
+  "rejected_attempts": [
+    {
+      "id": "C08_K03",
+      "image_path": "images/C08/S03.png",
+      "source_generated_path": "C:\\Users\\wseok\\.codex\\generated_images\\01a164df-a008-7dc1-9b16-fd30d343998f\\exec-80edbf6a-b563-4dc9-a032-e47c92685510.png",
+      "prompt": "Grand sincere opera stage, richly cinematic royal blue, gold and matte black, practical theatrical sets and restrained crew, no parody facial mugging. Widescreen 16:9. Keep clear geometry between stage-left overhead spotlight, the cape, and stage-right display. All writing and event branding added later.\n\nCharacter continuity bible: OP: a very large round-bodied male opera lead with a round face, smooth white theatrical makeup, no facial hair, a towering black rolled wig, royal-blue costume with gold ornament, huge floor-length royal-blue and gold cape with matte black lining. ST: broad-shouldered young woman with strong freckles, red buzz-cut hair, black short-sleeve workwear and slim gray tool belt. CO: tiny thin elderly woman with sharp triangular chin, straight silver chin-length bob, no glasses, black tailcoat and white collar, thin white baton. AU: one male audience questioner with small face, round dark glasses, neat short brown hair and teal knit. Only named characters in each shot.\n\nEXACT SHOT START STATE: Wide opera stage before rotation. ST with freckled face and red buzz cut stands at the fixed stage-left control with a finger just above a blank button. Golden front set remains facing camera on a clearly visible circular turntable. OP waits on the fixed apron at left outside the circle. No backstage reveal yet, no text.\n\nCreate one standalone cinematic first-frame image before the described action, not a collage, storyboard sheet or completed payoff. Use only visible characters named in the shot. Preserve unique face shapes, body types, hair, clothing and all prop counts. No subtitles, letters, readable text, logos, watermark, fabricated signage or UI text; leave clean blank graphic surfaces and caption-safe negative space. Natural hands with correct anatomy. No motion blur. Subsequent action is for later Flow video, do not depict multiple moments in this still.\nReference 1 locks OP face, makeup, wig, cape and theater style. The previous steps below the golden set belong to the central circular revolving platform; reveal a clear circular stage seam around that complete set now. Operator ST stands at far camera-left fixed control pedestal, OP to her right but still outside the circle. OP holds cape folded near waist, not spread. Full wider stage, no workers other than ST. 16:9.",
+      "referenced_image_paths": [
+        "\\\\wsl.localhost\\Ubuntu-24.04\\home\\wooseok\\wsy\\samsung_related\\slide\\AI실행결과발표대회_디자인3종\\storyboards\\2026-10-23_v10-ten-concepts\\images\\C08\\S01.png"
+      ],
+      "reason": "판이 회전판 뒤 고정 벽처럼 보이는 오류 수정",
+      "selected": false
+    },
+    {
+      "id": "C08_K01",
+      "concept_id": "C08",
+      "scene_id": "S01",
+      "linked_cut": "K01",
+      "image_path": "images/C08/S01.png",
+      "source_generated_path": "C:\\Users\\wseok\\.codex\\generated_images\\01a164df-a008-7dc1-9b16-fd30d343998f\\exec-6f5819e3-904d-41cb-bdad-1f52533e5907.png",
+      "generation_tool": "image_gen",
+      "prompt": "Grand sincere opera stage, richly cinematic royal blue, gold and matte black, practical theatrical sets and restrained crew, no parody facial mugging. Widescreen 16:9. Keep clear geometry between stage-left overhead spotlight, the cape, and stage-right display. All writing and event branding added later.\n\nCharacter continuity bible: OP: a very large round-bodied male opera lead with a round face, smooth white theatrical makeup, no facial hair, a towering black rolled wig, royal-blue costume with gold ornament, huge floor-length royal-blue and gold cape with matte black lining. ST: broad-shouldered young woman with strong freckles, red buzz-cut hair, black short-sleeve workwear and slim gray tool belt. CO: tiny thin elderly woman with sharp triangular chin, straight silver chin-length bob, no glasses, black tailcoat and white collar, thin white baton. AU: one male audience questioner with small face, round dark glasses, neat short brown hair and teal knit. Only named characters in each shot.\n\nEXACT SHOT START STATE: Full frontal opera stage before a grand bow. OP stands with arms wide before a clean blank golden result panel, huge royal-blue cape outside visible. CO at front left is just beginning to lower one knee with baton lowered. No backstage work area visible. Strong scale difference, sincere regal faces, no text.\n\nCreate one standalone cinematic first-frame image before the described action, not a collage, storyboard sheet or completed payoff. Use only visible characters named in the shot. Preserve unique face shapes, body types, hair, clothing and all prop counts. No subtitles, letters, readable text, logos, watermark, fabricated signage or UI text; leave clean blank graphic surfaces and caption-safe negative space. Natural hands with correct anatomy. No motion blur. Subsequent action is for later Flow video, do not depict multiple moments in this still.\nAspect ratio must be 16:9 horizontal. Emphasize the oversized ROUND body of the lead and the full royal-blue exterior of his cape, gold embroidery outside and only subtle black fold lining. No black outer cape. Actor is clean shaven. This image establishes the entire stage geometry for later scenes.",
+      "referenced_image_paths": [],
+      "next_motion": "OP가 과장된 큰 인사를 한 번 한다. CO도 진지하게 몸을 낮춘다. OP가 천천히 일어나 피날레가 끝났다는 얼굴을 만든다.",
+      "camera_note": "무대 전체의 정면 와이드. 커다란 주역과 작은 지휘자의 크기 대비를 살리고 금빛 결과판 중앙은 비워 둠.",
+      "artist_review": {
+        "opened_actual_image": true,
+        "notes": "실제 파일 열람. 수염 없는 큰 원형 주역, 높은 검정 가발, 청금 망토와 작은 은발 지휘자, 좌상 광원·무지 금빛 판 확인. 지휘자는 무릎 낮추기 시작한 포즈. 후속 실제 동작은 미검증."
+      },
+      "review_status": "artist checked; independent review pending",
+      "selected": false,
+      "reason": "양면판·회전판 구조 정합 보정"
+    },
+    {
+      "id": "C08_K02",
+      "concept_id": "C08",
+      "scene_id": "S02",
+      "linked_cut": "K02",
+      "image_path": "images/C08/S02.png",
+      "source_generated_path": "C:\\Users\\wseok\\.codex\\generated_images\\01a164df-a008-7dc1-9b16-fd30d343998f\\exec-075c067b-b122-4cd7-a9c4-d54d8ecc359e.png",
+      "generation_tool": "image_gen",
+      "prompt": "Grand sincere opera stage, richly cinematic royal blue, gold and matte black, practical theatrical sets and restrained crew, no parody facial mugging. Widescreen 16:9. Keep clear geometry between stage-left overhead spotlight, the cape, and stage-right display. All writing and event branding added later.\n\nCharacter continuity bible: OP: a very large round-bodied male opera lead with a round face, smooth white theatrical makeup, no facial hair, a towering black rolled wig, royal-blue costume with gold ornament, huge floor-length royal-blue and gold cape with matte black lining. ST: broad-shouldered young woman with strong freckles, red buzz-cut hair, black short-sleeve workwear and slim gray tool belt. CO: tiny thin elderly woman with sharp triangular chin, straight silver chin-length bob, no glasses, black tailcoat and white collar, thin white baton. AU: one male audience questioner with small face, round dark glasses, neat short brown hair and teal knit. Only named characters in each shot.\n\nEXACT SHOT START STATE: Side audience view before a raised-hand question. AU in front row is about to lift one hand; OP is visible on the distant stage apron at left, foot turned toward an exit but not yet pointing backstage. Golden front set still intact. Three blurred audience backs at most. Blank upper background for the question.\n\nCreate one standalone cinematic first-frame image before the described action, not a collage, storyboard sheet or completed payoff. Use only visible characters named in the shot. Preserve unique face shapes, body types, hair, clothing and all prop counts. No subtitles, letters, readable text, logos, watermark, fabricated signage or UI text; leave clean blank graphic surfaces and caption-safe negative space. Natural hands with correct anatomy. No motion blur. Subsequent action is for later Flow video, do not depict multiple moments in this still.\nImage 1 reference: match the opera lead identity, large round shape, tall black wig, blue-and-gold cape, golden panel and opulent blue theater. New camera from audience SIDE, NOT a repeat of the frontal stage. Questioner's hand remains down near chest level before raising. Only AU face close to camera and distant OP. Spotlight stays stage upper left. 16:9.",
+      "referenced_image_paths": [
+        "\\\\wsl.localhost\\Ubuntu-24.04\\home\\wooseok\\wsy\\samsung_related\\slide\\AI실행결과발표대회_디자인3종\\storyboards\\2026-10-23_v10-ten-concepts\\images\\C08\\S01.png"
+      ],
+      "next_motion": "AU가 손을 들고 OP를 본다. OP는 발을 멈추고 자신 있게 엄지로 막 뒤를 가리킨다. 입을 움직여 설명하지 않는다.",
+      "camera_note": "질문자의 옆얼굴과 멀리 보이는 OP의 가리키는 팔을 읽는 객석 측면 미디엄 와이드.",
+      "artist_review": {
+        "opened_actual_image": true,
+        "notes": "실제 열람. 청록 니트·둥근 안경 관객, 가슴 가까이 둔 손, 무대 왼쪽 OP, 금빛 앞면과 동일 외형 확인. 뒤편 선공개 없음."
+      },
+      "review_status": "artist checked; independent review pending",
+      "selected": false,
+      "reason": "양면판·회전판 구조 정합 보정"
+    },
+    {
+      "id": "C08_K05",
+      "concept_id": "C08",
+      "scene_id": "S05",
+      "linked_cut": "K05",
+      "image_path": "images/C08/S05.png",
+      "source_generated_path": "C:\\Users\\wseok\\.codex\\generated_images\\01a164df-a008-7dc1-9b16-fd30d343998f\\exec-40515c13-a307-48d0-89bb-4b9204c6b355.png",
+      "generation_tool": "image_gen",
+      "prompt": "Grand sincere opera stage, richly cinematic royal blue, gold and matte black, practical theatrical sets and restrained crew, no parody facial mugging. Widescreen 16:9. Keep clear geometry between stage-left overhead spotlight, the cape, and stage-right display. All writing and event branding added later.\n\nCharacter continuity bible: OP: a very large round-bodied male opera lead with a round face, smooth white theatrical makeup, no facial hair, a towering black rolled wig, royal-blue costume with gold ornament, huge floor-length royal-blue and gold cape with matte black lining. ST: broad-shouldered young woman with strong freckles, red buzz-cut hair, black short-sleeve workwear and slim gray tool belt. CO: tiny thin elderly woman with sharp triangular chin, straight silver chin-length bob, no glasses, black tailcoat and white collar, thin white baton. AU: one male audience questioner with small face, round dark glasses, neat short brown hair and teal knit. Only named characters in each shot.\n\nEXACT SHOT START STATE: OP stands beside the left edge of the work display holding his huge cape ends gathered before a dramatic spread. ST looks from the glare-covered screen toward the cape. OP does not stand in front of the screen. Keep upper-left spotlight direction visible and the matte black inner lining only at the folds, not already used as a shade.\n\nCreate one standalone cinematic first-frame image before the described action, not a collage, storyboard sheet or completed payoff. Use only visible characters named in the shot. Preserve unique face shapes, body types, hair, clothing and all prop counts. No subtitles, letters, readable text, logos, watermark, fabricated signage or UI text; leave clean blank graphic surfaces and caption-safe negative space. Natural hands with correct anatomy. No motion blur. Subsequent action is for later Flow video, do not depict multiple moments in this still.\nImage 1 matches current work area, glare, OP and ST; image 2 only restores elderly CO face and clothes. Medium-wide closer framing than reference. OP LEFT of the screen, both hands each gathering a cape edge near his waist BEFORE spreading. ST turns her head to OP while her hands are at rest; CO in foreground right looks to screen, baton lowered. Exactly three blank work cards and same upper-left glare. Keep lead round-bodied, clean shaven. No pointing action already complete. 16:9.",
+      "referenced_image_paths": [
+        "\\\\wsl.localhost\\Ubuntu-24.04\\home\\wooseok\\wsy\\samsung_related\\slide\\AI실행결과발표대회_디자인3종\\storyboards\\2026-10-23_v10-ten-concepts\\images\\C08\\S04.png",
+        "\\\\wsl.localhost\\Ubuntu-24.04\\home\\wooseok\\wsy\\samsung_related\\slide\\AI실행결과발표대회_디자인3종\\storyboards\\2026-10-23_v10-ten-concepts\\images\\C08\\S01.png"
+      ],
+      "next_motion": "OP가 한 걸음 앞으로 나서며 망토를 거대한 부채처럼 펼친다. 검정 안감이 드러나고 ST의 눈이 그 넓은 어두운 면을 본다. 망토는 작업 화면 앞을 가로막지 않는다.",
+      "camera_note": "OP 전신과 ST, 화면 왼쪽 경계를 읽는 고정 와이드. OP의 앞 걸음은 화면 옆 공간 안에서만.",
+      "artist_review": {
+        "opened_actual_image": true,
+        "notes": "실제 열람. 망토를 모은 첫 상태, ST의 OP 쪽 시선, 작업 화면 반사 유지. 검정 상의의 작은 밝은 무늬는 별도 제거 보정 예정."
+      },
+      "review_status": "artist checked; independent review pending",
+      "selected": false,
+      "reason": "의상 작은 무늬와 시선 보정"
+    }
+  ]
+}

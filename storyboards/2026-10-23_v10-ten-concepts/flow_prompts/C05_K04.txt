@@ -1,0 +1,13 @@
+Future production draft; do not submit before the user selects this concept.
+Use the designated PNG as the starting frame, preserving the same character identities, costumes, scale, left-right staging and props. One continuous shot matching the camera instruction below. Widescreen 16:9. The intended source clip is 8 seconds; the editor will trim the selected motion to the storyboard timing. No spoken dialogue, voice-over or lip-sync performance. No subtitles, captions, titles, logos, watermarks or legible interface/document writing. All exact typography and narrative captions will be composited in post. Silent facial and body acting must convey the action. Do not reveal the next shot's payoff early or add new characters.
+
+Concept: C05 괴수는 퇴근할 수 없다
+Unit: C05_K04
+Start state: FM이 접힌 받침대를 굴려 멈추기 직전. 괴수는 무릎과 긴 목을 S자로 접은 같은 크기로 지붕을 받치며 왼쪽 길을 본다. 정수리 4.5m·귀 4.2m 기준.
+Physical action: FM pumps the short jack to its full height, finds it still too low, and raises both hands to tell the monster to keep holding. The monster glances toward its escape route but maintains roof support.
+Camera: 고정 와이드. 거대한 인형·짧은 잭·주름 있는 반장의 크기 대비. 포치 아래로 FM이 들어가지 않음.
+Incoming continuity: K03 지붕 각도·접힌 무릎·S자 목·양손·개체 크기를 이어받는 낮 시점 새 기준. 뽑힌 기둥은 왼쪽 바닥.
+Outgoing continuity: 짧은 잭은 오른쪽 바깥에 남음. 괴수는 여전히 떠날 수 없음.
+Acting/style: 초반은 실루엣·낮은 하늘·극적인 역광의 재난 영화. 파손 후는 밝은 낮과 페인트 질감·고무 봉제선·얕은 모형 심도가 드러나는 특촬. 체육관은 온전하고 독립 포치만 한쪽으로 기운다. 실제 시설이나 로고를 재현하지 않는다.
+Caption-safe coordinates only, do NOT render any lettering: [{'left_pct': 7, 'width_pct': 86, 'bottom_pct': 6}]
+Continuity notes describe the editor's story connection, not extra on-screen text or extra actions. Preserve clean plates for all typography.

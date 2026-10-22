@@ -1,0 +1,13 @@
+Future production draft; do not submit before the user selects this concept.
+Use the designated PNG as the starting frame, preserving the same character identities, costumes, scale, left-right staging and props. One continuous shot matching the camera instruction below. Widescreen 16:9. The intended source clip is 8 seconds; the editor will trim the selected motion to the storyboard timing. No spoken dialogue, voice-over or lip-sync performance. No subtitles, captions, titles, logos, watermarks or legible interface/document writing. All exact typography and narrative captions will be composited in post. Silent facial and body acting must convey the action. Do not reveal the next shot's payoff early or add new characters.
+
+Concept: C06 퇴근 좀 해주세요
+Unit: C06_K09
+Start state: 팻말이 책상에 서 있다. G3의 닫힌 회색 노트북은 책상 왼쪽에 내려놓았다. G3가 접힌 의자의 양쪽을 잡고 펴기 직전이고 G2는 옆에서 남색 노트북을 안고 차례를 기다린다. GH는 정중한 미소를 유지하려 한다.
+Physical action: G3 opens the folding chair and quietly sits. GH's polite smile freezes. G2 remains standing with a closed laptop, waiting for a turn. Hold this final tableau.
+Camera: 책상·접이식 의자·세 얼굴을 읽는 고정 와이드. 위쪽 어두운 벽을 제목 여백으로 확보.
+Incoming continuity: 팻말·두 노트북·접힌 의자. G3가 회색 노트북을 책상 왼쪽에 내려놓는 시간은 컷 사이에 생략한다. 인원은 GH+G2+G3 정확히 셋.
+Outgoing continuity: 상담은 아직 시작 전. 행사 소개는 이야기 밖의 후편집이며 실제 운영 정보를 만들지 않는다.
+Acting/style: 청록 그림자가 깊은 야간 사무실의 정통 공포 조명. 유령은 겁주기에 진심, 직원은 급한 자기 일을 할 뿐이다. 행사 장면은 밝고 담백하며, 돌아온 사무실은 동일한 밤이다.
+Caption-safe coordinates only, do NOT render any lettering: [{'left_pct': 7, 'width_pct': 86, 'bottom_pct': 2, 'font_cqw': 2.7, 'title_cqw': 4, 'padding_pct': 0.6}]
+Continuity notes describe the editor's story connection, not extra on-screen text or extra actions. Preserve clean plates for all typography.

@@ -1,0 +1,89 @@
+﻿concept_id	unit_id	start_image	prompt_file	editorial_cut	editorial_cut_seconds	duration_note	status	policy
+C01	C01_K01	images/C01/S01.png	flow_prompts/C01_K01.txt	K01	4	source clip trim target; verify after generation	NOT_SUBMITTED	await user concept selection
+C01	C01_K02	images/C01/S02.png	flow_prompts/C01_K02.txt	K02	2.5	source clip trim target; verify after generation	NOT_SUBMITTED	await user concept selection
+C01	C01_K03	images/C01/S03.png	flow_prompts/C01_K03.txt	K03	3	source clip trim target; verify after generation	NOT_SUBMITTED	await user concept selection
+C01	C01_K04	images/C01/S04.png	flow_prompts/C01_K04.txt	K04	5	source clip trim target; verify after generation	NOT_SUBMITTED	await user concept selection
+C01	C01_K05	images/C01/S05.png	flow_prompts/C01_K05.txt	K05	4	source clip trim target; verify after generation	NOT_SUBMITTED	await user concept selection
+C01	C01_K06	images/C01/S06.png	flow_prompts/C01_K06.txt	K06	5	source clip trim target; verify after generation	NOT_SUBMITTED	await user concept selection
+C01	C01_K07	images/C01/S07.png	flow_prompts/C01_K07.txt	K07	3	source clip trim target; verify after generation	NOT_SUBMITTED	await user concept selection
+C01	C01_K08	images/C01/S08.png	flow_prompts/C01_K08.txt	K08	4	source clip trim target; verify after generation	NOT_SUBMITTED	await user concept selection
+C01	C01_K09	images/C01/S09.png	flow_prompts/C01_K09.txt	K09	7	source clip trim target; verify after generation	NOT_SUBMITTED	await user concept selection
+C02	C02_K01	images/C02/S01_v2.png	flow_prompts/C02_K01.txt	K01	4	source clip trim target; verify after generation	NOT_SUBMITTED	await user concept selection
+C02	C02_K02	images/C02/S02.png	flow_prompts/C02_K02.txt	K02	3	source clip trim target; verify after generation	NOT_SUBMITTED	await user concept selection
+C02	C02_K03	images/C02/S03.png	flow_prompts/C02_K03.txt	K03	6	source clip trim target; verify after generation	NOT_SUBMITTED	await user concept selection
+C02	C02_K04	images/C02/S04.png	flow_prompts/C02_K04.txt	K04	4	source clip trim target; verify after generation	NOT_SUBMITTED	await user concept selection
+C02	C02_K05	images/C02/S05.png	flow_prompts/C02_K05.txt	K05	4	source clip trim target; verify after generation	NOT_SUBMITTED	await user concept selection
+C02	C02_K06	images/C02/S06.png	flow_prompts/C02_K06.txt	K06	3	source clip trim target; verify after generation	NOT_SUBMITTED	await user concept selection
+C02	C02_K07	images/C02/S07_v2.png	flow_prompts/C02_K07.txt	K07	3	source clip trim target; verify after generation	NOT_SUBMITTED	await user concept selection
+C02	C02_K08	images/C02/S08_v2.png	flow_prompts/C02_K08.txt	K08	4	source clip trim target; verify after generation	NOT_SUBMITTED	await user concept selection
+C02	C02_K09	images/C02/S09_v2.png	flow_prompts/C02_K09.txt	K09	8	source clip trim target; verify after generation	NOT_SUBMITTED	await user concept selection
+C03	C03_K01	images/C03/S01.png	flow_prompts/C03_K01.txt	K01	6	source clip trim target; verify after generation	NOT_SUBMITTED	reuse existing C03 footage first
+C03	C03_K02	images/C03/S02.png	flow_prompts/C03_K02.txt	K02	4	source clip trim target; verify after generation	NOT_SUBMITTED	reuse existing C03 footage first
+C03	C03_K03	images/C03/S03.png	flow_prompts/C03_K03.txt	K03	3.5	source clip trim target; verify after generation	NOT_SUBMITTED	reuse existing C03 footage first
+C03	C03_K04	images/C03/S04.png	flow_prompts/C03_K04.txt	K04	7	source clip trim target; verify after generation	NOT_SUBMITTED	reuse existing C03 footage first
+C03	C03_K05	images/C03/S05.png	flow_prompts/C03_K05.txt	K05	4.5	source clip trim target; verify after generation	NOT_SUBMITTED	reuse existing C03 footage first
+C03	C03_K06	images/C03/S06.png	flow_prompts/C03_K06.txt	K06	5.75	source clip trim target; verify after generation	NOT_SUBMITTED	reuse existing C03 footage first
+C03	C03_K07	images/C03/S07.png	flow_prompts/C03_K07.txt	K07	6	source clip trim target; verify after generation	NOT_SUBMITTED	reuse existing C03 footage first
+C03	C03_K08	images/C03/S08_v2.png	flow_prompts/C03_K08.txt	K08	8	source clip trim target; verify after generation	NOT_SUBMITTED	reuse existing C03 footage first
+C04	C04_K01	images/C04/S01.png	flow_prompts/C04_K01.txt	K01	5	source clip trim target; verify after generation	NOT_SUBMITTED	await user concept selection
+C04	C04_K02	images/C04/S02.png	flow_prompts/C04_K02.txt	K02	3	source clip trim target; verify after generation	NOT_SUBMITTED	await user concept selection
+C04	C04_K03	images/C04/S03.png	flow_prompts/C04_K03.txt	K03	3	source clip trim target; verify after generation	NOT_SUBMITTED	await user concept selection
+C04	C04_K04	images/C04/S04.png	flow_prompts/C04_K04.txt	K04	5	source clip trim target; verify after generation	NOT_SUBMITTED	await user concept selection
+C04	C04_K05	images/C04/S05.png	flow_prompts/C04_K05.txt	K05	3	source clip trim target; verify after generation	NOT_SUBMITTED	await user concept selection
+C04	C04_K06	images/C04/S06.png	flow_prompts/C04_K06.txt	K06	3	source clip trim target; verify after generation	NOT_SUBMITTED	await user concept selection
+C04	C04_K07	images/C04/S07.png	flow_prompts/C04_K07.txt	K07	3	source clip trim target; verify after generation	NOT_SUBMITTED	await user concept selection
+C04	C04_K08	images/C04/S08.png	flow_prompts/C04_K08.txt	K08	4	source clip trim target; verify after generation	NOT_SUBMITTED	await user concept selection
+C04	C04_K09	images/C04/S09.png	flow_prompts/C04_K09.txt	K09	8	source clip trim target; verify after generation	NOT_SUBMITTED	await user concept selection
+C05	C05_K01	images/C05/S01.png	flow_prompts/C05_K01.txt	K01	4	source clip trim target; verify after generation	NOT_SUBMITTED	await user concept selection
+C05	C05_K02A	images/C05/S02A.png	flow_prompts/C05_K02A.txt	K02	7	K02A and K02B share this editorial duration; split after motion selection	NOT_SUBMITTED	await user concept selection
+C05	C05_K02B	images/C05/S02B_v3.png	flow_prompts/C05_K02B.txt	K02	7	K02A and K02B share this editorial duration; split after motion selection	NOT_SUBMITTED	await user concept selection
+C05	C05_K03	images/C05/S03.png	flow_prompts/C05_K03.txt	K03	4	source clip trim target; verify after generation	NOT_SUBMITTED	await user concept selection
+C05	C05_K04	images/C05/S04.png	flow_prompts/C05_K04.txt	K04	5	source clip trim target; verify after generation	NOT_SUBMITTED	await user concept selection
+C05	C05_K05	images/C05/S05.png	flow_prompts/C05_K05.txt	K05	6	source clip trim target; verify after generation	NOT_SUBMITTED	await user concept selection
+C05	C05_K06	images/C05/S06_v2.png	flow_prompts/C05_K06.txt	K06	4	source clip trim target; verify after generation	NOT_SUBMITTED	await user concept selection
+C05	C05_K07	images/C05/S07_v3.png	flow_prompts/C05_K07.txt	K07	5	source clip trim target; verify after generation	NOT_SUBMITTED	await user concept selection
+C05	C05_K08	images/C05/S08_v2.png	flow_prompts/C05_K08.txt	K08	8	source clip trim target; verify after generation	NOT_SUBMITTED	await user concept selection
+C06	C06_K01	images/C06/S01.png	flow_prompts/C06_K01.txt	K01	5	source clip trim target; verify after generation	NOT_SUBMITTED	await user concept selection
+C06	C06_K02	images/C06/S02.png	flow_prompts/C06_K02.txt	K02	5	source clip trim target; verify after generation	NOT_SUBMITTED	await user concept selection
+C06	C06_K03	images/C06/S03.png	flow_prompts/C06_K03.txt	K03	4	source clip trim target; verify after generation	NOT_SUBMITTED	await user concept selection
+C06	C06_K04	images/C06/S04.png	flow_prompts/C06_K04.txt	K04	5	source clip trim target; verify after generation	NOT_SUBMITTED	await user concept selection
+C06	C06_K05	images/C06/S05.png	flow_prompts/C06_K05.txt	K05	4	source clip trim target; verify after generation	NOT_SUBMITTED	await user concept selection
+C06	C06_K06	images/C06/S06_v2.png	flow_prompts/C06_K06.txt	K06	4	source clip trim target; verify after generation	NOT_SUBMITTED	await user concept selection
+C06	C06_K07	images/C06/S07_v2.png	flow_prompts/C06_K07.txt	K07	5	source clip trim target; verify after generation	NOT_SUBMITTED	await user concept selection
+C06	C06_K08	images/C06/S08.png	flow_prompts/C06_K08.txt	K08	4	source clip trim target; verify after generation	NOT_SUBMITTED	await user concept selection
+C06	C06_K09	images/C06/S09_v2.png	flow_prompts/C06_K09.txt	K09	8	source clip trim target; verify after generation	NOT_SUBMITTED	await user concept selection
+C07	C07_K01	images/C07/S01.png	flow_prompts/C07_K01.txt	K01	5	source clip trim target; verify after generation	NOT_SUBMITTED	await user concept selection
+C07	C07_K02	images/C07/S02.png	flow_prompts/C07_K02.txt	K02	5	source clip trim target; verify after generation	NOT_SUBMITTED	await user concept selection
+C07	C07_K03	images/C07/S03.png	flow_prompts/C07_K03.txt	K03	4	source clip trim target; verify after generation	NOT_SUBMITTED	await user concept selection
+C07	C07_K04	images/C07/S04.png	flow_prompts/C07_K04.txt	K04	4	source clip trim target; verify after generation	NOT_SUBMITTED	await user concept selection
+C07	C07_K05	images/C07/S05_v2.png	flow_prompts/C07_K05.txt	K05	4	source clip trim target; verify after generation	NOT_SUBMITTED	await user concept selection
+C07	C07_K06	images/C07/S06.png	flow_prompts/C07_K06.txt	K06	6	source clip trim target; verify after generation	NOT_SUBMITTED	await user concept selection
+C07	C07_K07	images/C07/S07.png	flow_prompts/C07_K07.txt	K07	4	source clip trim target; verify after generation	NOT_SUBMITTED	await user concept selection
+C07	C07_K08	images/C07/S08.png	flow_prompts/C07_K08.txt	K08	5	source clip trim target; verify after generation	NOT_SUBMITTED	await user concept selection
+C07	C07_K09	images/C07/S09.png	flow_prompts/C07_K09.txt	K09	6	source clip trim target; verify after generation	NOT_SUBMITTED	await user concept selection
+C08	C08_K01	images/C08/S01_v2.png	flow_prompts/C08_K01.txt	K01	4	source clip trim target; verify after generation	NOT_SUBMITTED	await user concept selection
+C08	C08_K02	images/C08/S02_v2.png	flow_prompts/C08_K02.txt	K02	5	source clip trim target; verify after generation	NOT_SUBMITTED	await user concept selection
+C08	C08_K03	images/C08/S03_v2.png	flow_prompts/C08_K03.txt	K03	4	source clip trim target; verify after generation	NOT_SUBMITTED	await user concept selection
+C08	C08_K04	images/C08/S04.png	flow_prompts/C08_K04.txt	K04	5	source clip trim target; verify after generation	NOT_SUBMITTED	await user concept selection
+C08	C08_K05	images/C08/S05_v2.png	flow_prompts/C08_K05.txt	K05	5	source clip trim target; verify after generation	NOT_SUBMITTED	await user concept selection
+C08	C08_K06	images/C08/S06.png	flow_prompts/C08_K06.txt	K06	6	source clip trim target; verify after generation	NOT_SUBMITTED	await user concept selection
+C08	C08_K07	images/C08/S07.png	flow_prompts/C08_K07.txt	K07	4	source clip trim target; verify after generation	NOT_SUBMITTED	await user concept selection
+C08	C08_K08	images/C08/S08.png	flow_prompts/C08_K08.txt	K08	8	source clip trim target; verify after generation	NOT_SUBMITTED	await user concept selection
+C09	C09_K01	images/C09/S01.png	flow_prompts/C09_K01.txt	K01	4	source clip trim target; verify after generation	NOT_SUBMITTED	await user concept selection
+C09	C09_K02	images/C09/S02.png	flow_prompts/C09_K02.txt	K02	4	source clip trim target; verify after generation	NOT_SUBMITTED	await user concept selection
+C09	C09_K03	images/C09/S03.png	flow_prompts/C09_K03.txt	K03	5	source clip trim target; verify after generation	NOT_SUBMITTED	await user concept selection
+C09	C09_K04	images/C09/S04.png	flow_prompts/C09_K04.txt	K04	4	source clip trim target; verify after generation	NOT_SUBMITTED	await user concept selection
+C09	C09_K05	images/C09/S05_v2.png	flow_prompts/C09_K05.txt	K05	5	source clip trim target; verify after generation	NOT_SUBMITTED	await user concept selection
+C09	C09_K06	images/C09/S06_v2.png	flow_prompts/C09_K06.txt	K06	4	source clip trim target; verify after generation	NOT_SUBMITTED	await user concept selection
+C09	C09_K07	images/C09/S07_v2.png	flow_prompts/C09_K07.txt	K07	5	source clip trim target; verify after generation	NOT_SUBMITTED	await user concept selection
+C09	C09_K08	images/C09/S08_v2.png	flow_prompts/C09_K08.txt	K08	5	source clip trim target; verify after generation	NOT_SUBMITTED	await user concept selection
+C09	C09_K09	images/C09/S09_v2.png	flow_prompts/C09_K09.txt	K09	9	source clip trim target; verify after generation	NOT_SUBMITTED	await user concept selection
+C10	C10_K01	images/C10/S01.png	flow_prompts/C10_K01.txt	K01	3	source clip trim target; verify after generation	NOT_SUBMITTED	await user concept selection
+C10	C10_K02	images/C10/S02_v2.png	flow_prompts/C10_K02.txt	K02	5	source clip trim target; verify after generation	NOT_SUBMITTED	await user concept selection
+C10	C10_K03	images/C10/S03_v2.png	flow_prompts/C10_K03.txt	K03	4	source clip trim target; verify after generation	NOT_SUBMITTED	await user concept selection
+C10	C10_K04	images/C10/S04_v2.png	flow_prompts/C10_K04.txt	K04	6	source clip trim target; verify after generation	NOT_SUBMITTED	await user concept selection
+C10	C10_K05	images/C10/S05.png	flow_prompts/C10_K05.txt	K05	4	source clip trim target; verify after generation	NOT_SUBMITTED	await user concept selection
+C10	C10_K06	images/C10/S06_v2.png	flow_prompts/C10_K06.txt	K06	4	source clip trim target; verify after generation	NOT_SUBMITTED	await user concept selection
+C10	C10_K07	images/C10/S07.png	flow_prompts/C10_K07.txt	K07	6	source clip trim target; verify after generation	NOT_SUBMITTED	await user concept selection
+C10	C10_K08	images/C10/S08.png	flow_prompts/C10_K08.txt	K08	6	source clip trim target; verify after generation	NOT_SUBMITTED	await user concept selection
+C10	C10_K09	images/C10/S09.png	flow_prompts/C10_K09.txt	K09	8	source clip trim target; verify after generation	NOT_SUBMITTED	await user concept selection

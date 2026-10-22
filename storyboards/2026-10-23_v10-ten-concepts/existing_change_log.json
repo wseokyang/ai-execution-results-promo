@@ -1,0 +1,62 @@
+[
+  {
+    "id": "E-001",
+    "scope": "C02 K01",
+    "severity": "required",
+    "change": "현장마다→제품은 다른데 흔적은 같다. 동일 장비의 제품 사진이라는 원인 명확화."
+  },
+  {
+    "id": "E-002",
+    "scope": "C05 K08",
+    "severity": "required",
+    "change": "오프스크린 음성 잔존 지시 제거, 자막→몸짓 답신으로 통일."
+  },
+  {
+    "id": "E-003",
+    "scope": "C05 K01/K02",
+    "severity": "priority",
+    "change": "입구 독점 목표와 문지기 자세를 명시. 입구를 막던 인물이 못 떠나는 기둥이 되는 인과."
+  },
+  {
+    "id": "E-004",
+    "scope": "C04 K04",
+    "severity": "priority",
+    "change": "문서 설명7→5초. AI 대조 머리말+탑승자없음/수저요청의 한 화면. 전체39→37초."
+  },
+  {
+    "id": "E-005",
+    "scope": "C01 K01/K02",
+    "severity": "suggestion_adopted",
+    "change": "질문 반복 대신 코치의 확신. 비교 컷 무자막2.5초. 전체39→37.5초."
+  },
+  {
+    "id": "E-006",
+    "scope": "C01 K09",
+    "severity": "suggestion_not_adopted",
+    "change": "기존 간단한 행사 문구 유지. 추가 교훈 문장보다 바닥 자세의 후폭풍을 보게 함."
+  },
+  {
+    "id": "E-007",
+    "scope": "C02 K03",
+    "severity": "suggestion_adopted",
+    "change": "AI가 모은 후보3장/겹치니 전부 같은 자리로 단축. 원본 비교는 사람이 수행."
+  },
+  {
+    "id": "E-008",
+    "scope": "C03 K03",
+    "severity": "suggestion_adopted",
+    "change": "일반 재현 보장처럼 읽힐 문구를 이번 결과도 같네로 한정."
+  },
+  {
+    "id": "E-009",
+    "scope": "C03 K07",
+    "severity": "suggestion_adopted",
+    "change": "직접 봐야겠습니다→해본 사람에게 물어봐야겠네요. 방문 대상 명확화."
+  },
+  {
+    "id": "E-010",
+    "scope": "C05 K05",
+    "severity": "suggestion_adopted",
+    "change": "갑작스런 개과천선 없이 기다리던 중 작은 호기심 표정만."
+  }
+]
