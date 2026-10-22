@@ -1,0 +1,298 @@
+{
+  "concept_id": "C03",
+  "expected_images": 8,
+  "images": [
+    {
+      "id": "C03_K01",
+      "concept_id": "C03",
+      "scene_id": "S01",
+      "linked_cut": "K01",
+      "image_path": "images/C03/S01.png",
+      "source_generated_path": "C:\\Users\\wseok\\.codex\\generated_images\\01a16463-45b7-7831-8539-123dbe2d6b5c\\exec-39c160e7-368a-46f2-9a9f-fd751deba6eb.png",
+      "generation_tool": "image_gen",
+      "prompt": "Create one newly rendered 16:9 cinematic first-frame image, not a collage or storyboard page. Use the supplied approved V8 reference to preserve exact casting, wardrobe, creature design, architecture, props and left-right continuity. Depict the start of future motion, not its payoff. No captions, subtitles, logos, watermark or random writing baked in; typography will be added in post. Preserve a calm high-contrast region for later captions without obscuring or shrinking essential action. No extra characters or giant decorative props. Outdoor delivery desk in normal daylight BEFORE moving shadow. Ponytailed woman in beige blouse, teal vest and charcoal trousers holds plain flat black CORDLESS smartphone at left ear, other hand above papers, cup on desk. No overhead office visible yet. Medium with clear background.\nUse case: ads-marketing. Render a NEW camera image matching this reference character and set, not an unchanged duplication. Preserve this exact Korean woman in her 30s, black low ponytail, beige rolled-sleeve blouse, teal vest, charcoal trousers. The flat black smartphone is in her LEFT hand at her LEFT ear, RIGHT hand lightly on the paperwork, only two natural arms. Clear water in the glass is completely still. No moving overhead shadow yet, no crane, no aerial office in frame. Bright normal midday industrial yard. Give the lower-right concrete area quiet space for later caption overlay, no visible writing on papers. 16:9 1536x864 landscape single frame.",
+      "referenced_image_paths": [
+        "\\\\wsl.localhost\\Ubuntu-24.04\\home\\wooseok\\wsy\\samsung_related\\slide\\AI실행결과발표대회_디자인3종/storyboards/2026-10-19_tone-polish-v8/images/C03/K01.png"
+      ],
+      "next_motion": "요청 자막을 먼저 읽힘. 자료 위 컵 수면이 떨림→실제 공간을 지나는 그림자→위로 시선. 발화 불필요.",
+      "camera_notes": "조용한 50mm 미디엄, 넓은 하늘 배경. 얼굴·손·핵심 소품을 피한 하단 안전 여백; 화면 테두리6% 비움.",
+      "sha256": "82F67AB736A93B60D337739819E3BBEF97BCD556B01C10822F3919E323D13138",
+      "source_sha256": "82F67AB736A93B60D337739819E3BBEF97BCD556B01C10822F3919E323D13138",
+      "dimensions": [
+        1672,
+        941
+      ],
+      "artist_review": {
+        "opened_actual_image": true,
+        "status": "candidate",
+        "notes": [
+          "정상 햇빛이며 공중 모듈과 이동 그림자 없음.",
+          "동일 여성·베이지 블라우스·청록 조끼·평평한 검정 스마트폰, 컵·자료 유지.",
+          "왼손 전화·오른손 자료, 두 팔만 보임. 자막은 후편집."
+        ]
+      },
+      "attempts": []
+    },
+    {
+      "id": "C03_K02",
+      "concept_id": "C03",
+      "scene_id": "S02",
+      "linked_cut": "K02",
+      "image_path": "images/C03/S02.png",
+      "source_generated_path": "C:\\Users\\wseok\\.codex\\generated_images\\01a16463-45b7-7831-8539-123dbe2d6b5c\\exec-954ea748-23e6-44cc-99f7-7d2078691814.png",
+      "generation_tool": "image_gen",
+      "prompt": "Create one newly rendered 16:9 cinematic first-frame image, not a collage or storyboard page. Use the supplied approved V8 reference to preserve exact casting, wardrobe, creature design, architecture, props and left-right continuity. Depict the start of future motion, not its payoff. No captions, subtitles, logos, watermark or random writing baked in; typography will be added in post. Preserve a calm high-contrast region for later captions without obscuring or shrinking essential action. No extra characters or giant decorative props. Extreme-wide low angle of intact teal-framed office A suspended by taut crane cables, real desk, chair and plant inside. Woman and yellow-helmeted driver small outside safety line, never under load. Office still airborne before lowering. No orange office.\nUse case: ads-marketing. Image 1 is architecture, crane, blocking reference; image 2 is newly established woman wardrobe/identity reference. Render newly from this setup, preserve Korean woman with black ponytail beige blouse and teal vest, Korean male driver wearing yellow hardhat/navy jacket/orange reflective vest/black trousers/both grey gloves. One intact white glass office A with teal trim floats well above ground from FOUR stable taut lifting lines attached to its corners, no bending architecture. Module and blue sky dominate, 24mm low angle. Two humans on LEFT entirely outside the load footprint and yellow safe line. Same timber desk, black mesh chair, plant and grey file within. No orange module yet. Leave low foreground concrete free for captions. Single natural cinematic frame, 16:9 landscape.",
+      "referenced_image_paths": [
+        "\\\\wsl.localhost\\Ubuntu-24.04\\home\\wooseok\\wsy\\samsung_related\\slide\\AI실행결과발표대회_디자인3종/storyboards/2026-10-19_tone-polish-v8/images/C03/K02.png",
+        "\\\\wsl.localhost\\Ubuntu-24.04\\home\\wooseok\\wsy\\samsung_related\\slide\\AI실행결과발표대회_디자인3종/storyboards/2026-10-23_v9-caption-first/images/C03/S01.png"
+      ],
+      "next_motion": "모듈 조금 하강. 사람 위 이동 없음.",
+      "camera_notes": "24mm 낮은 극와이드, 모듈·하늘이 대부분. 얼굴·손·핵심 소품을 피한 하단 안전 여백; 화면 테두리6% 비움.",
+      "sha256": "22D0C19F15FC3E029D5607FCC7C54E90F71903219E1B496ADCCBB6A68C0B2A27",
+      "source_sha256": "22D0C19F15FC3E029D5607FCC7C54E90F71903219E1B496ADCCBB6A68C0B2A27",
+      "dimensions": [
+        1672,
+        941
+      ],
+      "artist_review": {
+        "opened_actual_image": true,
+        "status": "candidate",
+        "notes": [
+          "A 공중 부양·팽팽한 네 지점 케이블, 청록 문틀·흰 외벽·목재 책상·검정 의자 유지.",
+          "두 인물은 적재물 왼쪽 안전선 밖이며 아래에 서 있지 않음. B 없음.",
+          "낮은 와이드·밝은 하늘, 하단 콘크리트 자막 영역 있음."
+        ]
+      },
+      "attempts": []
+    },
+    {
+      "id": "C03_K03",
+      "concept_id": "C03",
+      "scene_id": "S03",
+      "linked_cut": "K03",
+      "image_path": "images/C03/S03.png",
+      "source_generated_path": "C:\\Users\\wseok\\.codex\\generated_images\\01a16463-45b7-7831-8539-123dbe2d6b5c\\exec-04f09735-03cd-402b-bd02-339ce4d2ac47.png",
+      "generation_tool": "image_gen",
+      "prompt": "Create one newly rendered 16:9 cinematic first-frame image, not a collage or storyboard page. Use the supplied approved V8 reference to preserve exact casting, wardrobe, creature design, architecture, props and left-right continuity. Depict the start of future motion, not its payoff. No captions, subtitles, logos, watermark or random writing baked in; typography will be added in post. Preserve a calm high-contrast region for later captions without obscuring or shrinking essential action. No extra characters or giant decorative props. Inside teal office A. Woman preparing to operate laptop with open gray file. Large simple reference/result diagram surfaces clean for later compositing. Driver through window waits with BOTH gloves still on. No new small labels or numbers.\nUse case: ads-marketing. Input 1 layout reference; input 2 newly approved exact woman identity and beige shirt/teal vest; input 3 newly established module exterior. Newly render the interior first state with THIS SAME woman at desk, preparing a click, attentive neutral expression, fingers above trackpad not yet pressing. IMPORTANT CHANGE from old layout: GRAY FILE OPEN on left foreground of desk, not closed. Its broad white inner sheet and laptop screen are two clean separate planes for later comparison graphic compositing, no results or marks pre-revealed. Laptop screen plain softly lit pale-gray, file blank white without text. Keep desk clear. Same driver outside glass on right wearing yellow hardhat navy jacket orange safety vest, BOTH hands visibly wearing grey work gloves, waiting. Keep black mesh office chair, teal door and white pot plant. Natural cinematic midday, 16:9 wide, bottom 15% table edge clear for subtitle overlay. No orange file or orange office, no phone in her hands in this cut.",
+      "referenced_image_paths": [
+        "\\\\wsl.localhost\\Ubuntu-24.04\\home\\wooseok\\wsy\\samsung_related\\slide\\AI실행결과발표대회_디자인3종/storyboards/2026-10-19_tone-polish-v8/images/C03/K03.png",
+        "\\\\wsl.localhost\\Ubuntu-24.04\\home\\wooseok\\wsy\\samsung_related\\slide\\AI실행결과발표대회_디자인3종/storyboards/2026-10-23_v9-caption-first/images/C03/S01.png",
+        "\\\\wsl.localhost\\Ubuntu-24.04\\home\\wooseok\\wsy\\samsung_related\\slide\\AI실행결과발표대회_디자인3종/storyboards/2026-10-23_v9-caption-first/images/C03/S02.png"
+      ],
+      "next_motion": "큰 단순 도식 결과가 기준과 일치→R 끄덕임→기사의 장갑 벗은 끝 상태로 편집 가능. 정확한 장갑 탈착 전체를 필수 생성 요구로 삼지 않음.",
+      "camera_notes": "모듈 안 측면 미디엄. 전경의 큰 도식 둘·직원 얼굴·창 밖 기사 모두 같은 화면. 도식 인서트 없음. 얼굴·손·핵심 소품을 피한 하단 안전 여백; 화면 테두리6% 비움.",
+      "sha256": "33D00D7008FFB3EBA1A69A5C457933E42645F2AC612BC222EE1009FBCCAE8405",
+      "source_sha256": "33D00D7008FFB3EBA1A69A5C457933E42645F2AC612BC222EE1009FBCCAE8405",
+      "dimensions": [
+        1672,
+        941
+      ],
+      "artist_review": {
+        "opened_actual_image": true,
+        "status": "candidate",
+        "notes": [
+          "새 결과 전체화면에서 회색 파일이 열린 상태이며 안쪽 백지 면, 노트북의 깨끗한 화면 확인.",
+          "기사 양손 모두 회색 장갑, 노란 안전모·주황 조끼 유지.",
+          "여성 손가락은 실행 전 트랙패드 근처. 후편집 도식 전 상태로 보존.",
+          "view_image로 프로젝트 복사본과 원본도 개방 요청; 표시가 작은 색상 조각으로 축약되는 UI 이상이 있어 실제 생성 도구가 표시한 전체 결과를 함께 검수함."
+        ]
+      },
+      "attempts": []
+    },
+    {
+      "id": "C03_K04",
+      "concept_id": "C03",
+      "scene_id": "S04",
+      "linked_cut": "K04",
+      "image_path": "images/C03/S04.png",
+      "source_generated_path": "C:\\Users\\wseok\\.codex\\generated_images\\01a16463-45b7-7831-8539-123dbe2d6b5c\\exec-92d9fc59-ea9f-4155-b347-db4ceee81c96.png",
+      "generation_tool": "image_gen",
+      "prompt": "Create one newly rendered 16:9 cinematic first-frame image, not a collage or storyboard page. Use the supplied approved V8 reference to preserve exact casting, wardrobe, creature design, architecture, props and left-right continuity. Depict the start of future motion, not its payoff. No captions, subtitles, logos, watermark or random writing baked in; typography will be added in post. Preserve a calm high-contrast region for later captions without obscuring or shrinking essential action. No extra characters or giant decorative props. Installed teal office A at left. Yellow-helmeted driver foreground holds one removed glove, corresponding hand bare, BEFORE putting it back on. Only lower edge of orange-framed office B begins entering background from above. Preserve cables and safe distances.\nUse case: ads-marketing. Image 1 is actor and precise first-frame staging reference; image 2 is newly established teal office A. Newly render same Korean delivery man, exact face from image 1, navy jacket orange reflective vest yellow hardhat, charcoal work trousers. His anatomical RIGHT hand hangs completely bare at screen left, anatomical LEFT hand is still in grey glove and loosely holds the ONE removed grey right-hand glove by cuff. Removed glove clearly hangs empty. He has just noticed something overhead with weary surprise, looking toward upper right; not putting glove on yet. A stands installed at left. The lower orange-trimmed corner and WHITE UNDERSIDE of B barely enters the very upper-right corner from ABOVE, mostly outside frame, it has not landed and must not appear as a whole building. No one under the suspended load. Bright blue sky; wide concrete negative space bottom-right for later captions. 16:9 single frame, no text on helmet or anywhere.",
+      "referenced_image_paths": [
+        "\\\\wsl.localhost\\Ubuntu-24.04\\home\\wooseok\\wsy\\samsung_related\\slide\\AI실행결과발표대회_디자인3종/storyboards/2026-10-19_tone-polish-v8/images/C03/K04.png",
+        "\\\\wsl.localhost\\Ubuntu-24.04\\home\\wooseok\\wsy\\samsung_related\\slide\\AI실행결과발표대회_디자인3종/storyboards/2026-10-23_v9-caption-first/images/C03/S02.png"
+      ],
+      "next_motion": "B 공개→기사가 장갑을 다시 준비하고 커프를 당겨 고정. 이미 확보한 실제 장갑 동작·상태 생략 허용, 전체 착용 재생성을 필수로 삼지 않음.",
+      "camera_notes": "기사 전경·B 후경 깊은 초점. A왼쪽 유지. 얼굴·손·핵심 소품을 피한 하단 안전 여백; 화면 테두리6% 비움.",
+      "sha256": "103EABC3485497BE82EEF217941DC4D0873F76C08BA7F54574ABA45001474C28",
+      "source_sha256": "103EABC3485497BE82EEF217941DC4D0873F76C08BA7F54574ABA45001474C28",
+      "dimensions": [
+        1672,
+        941
+      ],
+      "artist_review": {
+        "opened_actual_image": true,
+        "status": "candidate",
+        "notes": [
+          "A는 왼쪽 설치 상태, B 흰 밑바닥·주황 하단 모서리만 화면 위 오른쪽으로 들어옴.",
+          "오른손 맨손·왼손 회색 장갑과 벗은 장갑 1개 유지. 착용 행동 전.",
+          "기사는 B 적재물 아래에서 벗어나 있으며, 표정·시선과 아래 여백 확인."
+        ]
+      },
+      "attempts": []
+    },
+    {
+      "id": "C03_K05",
+      "concept_id": "C03",
+      "scene_id": "S05",
+      "linked_cut": "K05",
+      "image_path": "images/C03/S05.png",
+      "source_generated_path": "C:\\Users\\wseok\\.codex\\generated_images\\01a16463-45b7-7831-8539-123dbe2d6b5c\\exec-0fdaf286-368c-44bf-aaa7-91c52b0253f9.png",
+      "generation_tool": "image_gen",
+      "prompt": "Create one newly rendered 16:9 cinematic first-frame image, not a collage or storyboard page. Use the supplied approved V8 reference to preserve exact casting, wardrobe, creature design, architecture, props and left-right continuity. Depict the start of future motion, not its payoff. No captions, subtitles, logos, watermark or random writing baked in; typography will be added in post. Preserve a calm high-contrast region for later captions without obscuring or shrinking essential action. No extra characters or giant decorative props. Orange office B interior already visible through open door, reasonable revision notes, not destruction. Woman holds flat black CORDLESS smartphone at left ear. Right hand rests on closed orange file just before lifting it. No coiled cable or corded receiver, no door-opening action. Clear quiet subtitle region.\nUse case: ads-marketing. Input 1 is B interior and over-shoulder composition reference, input 2 exact established woman identity/wardrobe. Newly render this one frame. Match ponytail, beige rolled sleeve blouse, fitted teal vest and dark trousers. Her LEFT hand holds a slim FLAT BLACK SMARTPHONE against LEFT ear; only one phone, never a curved handset, no cable. Her RIGHT fingertips touch the CLOSED SOLID ORANGE FILE which lies flat on the desk, just before lifting. No file already lifted. This orange file has a plain solid orange cover without diagonal stripes or words. Through existing open orange doorway show revision drawings and loose papers, practical well-kept working room, NOT ruined. Preserve room model, laptop and black mesh chair without duplicating props. No readable writing, no random text. Existing opposite folding panels already open. Lower desk edge right has space for later caption overlay, no baked captions. Single 16:9 photorealistic bright cinematic frame.",
+      "referenced_image_paths": [
+        "\\\\wsl.localhost\\Ubuntu-24.04\\home\\wooseok\\wsy\\samsung_related\\slide\\AI실행결과발표대회_디자인3종/storyboards/2026-10-19_tone-polish-v8/images/C03/K05.png",
+        "\\\\wsl.localhost\\Ubuntu-24.04\\home\\wooseok\\wsy\\samsung_related\\slide\\AI실행결과발표대회_디자인3종/storyboards/2026-10-23_v9-caption-first/images/C03/S01.png"
+      ],
+      "next_motion": "R이 전화 상대 설명을 듣는 자세에서 주황 파일을 들어 기록을 살핀다. 보내는 동료 자막을 읽힌 뒤 기사 쪽으로 몸을 돌림. 질문·답변 립싱크 불필요.",
+      "camera_notes": "문틀 너머 직원 오버숄더, 기록 밀도. 얼굴·손·핵심 소품을 피한 하단 안전 여백; 화면 테두리6% 비움.",
+      "sha256": "61662C94BFD1C5102B5FAD6F1D3B88B7A5006C2E2875B4F3C9E3D282364879FE",
+      "source_sha256": "61662C94BFD1C5102B5FAD6F1D3B88B7A5006C2E2875B4F3C9E3D282364879FE",
+      "dimensions": [
+        1672,
+        941
+      ],
+      "artist_review": {
+        "opened_actual_image": true,
+        "status": "candidate",
+        "notes": [
+          "주황 B 실내는 이미 열린 상태이고 수정 도면·종이·모형을 유지하되 폐허 아님.",
+          "왼손 평평한 검정 무선 스마트폰 통화, 오른손은 책상 위 닫힌 주황 파일을 집기 직전.",
+          "인물 양팔·손 개수 정상, 유선 수화기·코일선·행사글자 없음. 후편집 자막은 하단 소품과 겹치지 않도록 배치 필요."
+        ]
+      },
+      "attempts": []
+    },
+    {
+      "id": "C03_K06",
+      "concept_id": "C03",
+      "scene_id": "S06",
+      "linked_cut": "K06",
+      "image_path": "images/C03/S06.png",
+      "source_generated_path": "C:\\Users\\wseok\\.codex\\generated_images\\01a16463-45b7-7831-8539-123dbe2d6b5c\\exec-e52abf07-7735-41fd-a204-46d259a4c371.png",
+      "generation_tool": "image_gen",
+      "prompt": "Create one newly rendered 16:9 cinematic first-frame image, not a collage or storyboard page. Use the supplied approved V8 reference to preserve exact casting, wardrobe, creature design, architecture, props and left-right continuity. Depict the start of future motion, not its payoff. No captions, subtitles, logos, watermark or random writing baked in; typography will be added in post. Preserve a calm high-contrast region for later captions without obscuring or shrinking essential action. No extra characters or giant decorative props. Woman ALREADY holds partly opened orange file. Gray file open on table; driver holds waybill. Woman has NO pen. Both file INNER PAGES expose broad clean regions for matching condition bars in post. Cover decoration is not the evidence. Eyes about to compare inner records. Do not add hand-held objects.\nUse case: ads-marketing. Newly render a single 16:9 medium-close shot, preserve identities and outfits. Input 1 has correct two actors and A-left/B-right staging but WRONG file evidence angle: CHANGE THAT. Image 2 establishes new plain orange file, image 3 new male driver, image 4 new gray file and woman. The woman at LEFT is already holding an OPEN orange file low in front of her, tilted slightly UP, so camera can clearly see a LARGE WHITE INNER PAGE (not its orange front cover). Orange outer cover is solid orange, with no stripes or diagrams. Her eyes are just about to compare this page to the OPEN GRAY FILE on the foreground table. Gray file's WHITE INNER PAGE also fully visible. Both pages broad and blank for precise condition graphics and labels in post. Arrange three separate readable planes: orange inner page left-mid, gray page foreground, driver's white waybill at right. Only two natural hands on woman, no pen, no extra objects. Driver stands right with both grey gloves, holding his single white clipboard waybill not passing it yet. Phone not in hands in this cut. Teal module A left, orange B right, both panels already folded open. Warm bright daylight, leave low foreground edge for caption, no baked text or random letters.",
+      "referenced_image_paths": [
+        "\\\\wsl.localhost\\Ubuntu-24.04\\home\\wooseok\\wsy\\samsung_related\\slide\\AI실행결과발표대회_디자인3종/storyboards/2026-10-19_tone-polish-v8/images/C03/K06_v2.png",
+        "\\\\wsl.localhost\\Ubuntu-24.04\\home\\wooseok\\wsy\\samsung_related\\slide\\AI실행결과발표대회_디자인3종/storyboards/2026-10-23_v9-caption-first/images/C03/S05.png",
+        "\\\\wsl.localhost\\Ubuntu-24.04\\home\\wooseok\\wsy\\samsung_related\\slide\\AI실행결과발표대회_디자인3종/storyboards/2026-10-23_v9-caption-first/images/C03/S04.png",
+        "\\\\wsl.localhost\\Ubuntu-24.04\\home\\wooseok\\wsy\\samsung_related\\slide\\AI실행결과발표대회_디자인3종/storyboards/2026-10-23_v9-caption-first/images/C03/S03.png"
+      ],
+      "next_motion": "주황 안쪽 기록을 회색 안쪽 기록과 비교. 일치 조건을 2초 유지한 뒤 운송장을 받지 않고 파일을 더 안는다. 펜·운송장 주고받기 없음.",
+      "camera_notes": "운송장·파일·얼굴 근접. 조건 1.5초. 얼굴·손·핵심 소품을 피한 하단 안전 여백; 화면 테두리6% 비움.",
+      "sha256": "D3610002B334DA9B3B77BF7D618A80ADF89785CFEE20BBC731032469B103749C",
+      "source_sha256": "D3610002B334DA9B3B77BF7D618A80ADF89785CFEE20BBC731032469B103749C",
+      "dimensions": [
+        1672,
+        941
+      ],
+      "artist_review": {
+        "opened_actual_image": true,
+        "status": "candidate",
+        "notes": [
+          "여성 손에 주황 파일이 이미 일부 펼쳐져 있고 카메라에 흰 안쪽 페이지가 보임.",
+          "회색 파일은 테이블에 열려 안쪽 페이지가 보임. 두 기록 비교 도식·정확한 라벨은 후편집 예정이며 표지 장식으로 대체하지 않음.",
+          "기사 운송장 보유·양손 장갑 유지, 여성 펜 없음. A왼쪽/B오른쪽, 추가 손 없음."
+        ]
+      },
+      "attempts": []
+    },
+    {
+      "id": "C03_K07",
+      "concept_id": "C03",
+      "scene_id": "S07",
+      "linked_cut": "K07",
+      "image_path": "images/C03/S07.png",
+      "source_generated_path": "C:\\Users\\wseok\\.codex\\generated_images\\01a16463-45b7-7831-8539-123dbe2d6b5c\\exec-fc9c2fda-3f83-4703-a885-1e06d2825f5c.png",
+      "generation_tool": "image_gen",
+      "prompt": "Create one newly rendered 16:9 cinematic first-frame image, not a collage or storyboard page. Use the supplied approved V8 reference to preserve exact casting, wardrobe, creature design, architecture, props and left-right continuity. Depict the start of future motion, not its payoff. No captions, subtitles, logos, watermark or random writing baked in; typography will be added in post. Preserve a calm high-contrast region for later captions without obscuring or shrinking essential action. No extra characters or giant decorative props. Side wide between teal and orange offices, both panels already open. Woman already cradles gray and orange files together, cordless phone in free hand. Driver's hands have not yet tightened belt. Include her small files, his belt and both big rooms to support the reversal.\nUse case: ads-marketing. New 16:9 full-body side-wide frame matching image 1 composition, image 2 new identity of both actors and files. Teal A fixed at LEFT, orange B fixed at RIGHT, same workrooms, both broad folding panels ALREADY fully folded open. Woman center-left faces driver, waiting BEFORE turning to exit. She cradles exactly TWO CLOSED FILES together in her anatomical RIGHT arm (gray in front, solid orange behind), right hand hugging their lower right edge. Her anatomical LEFT hand holds the SAME single FLAT BLACK CORDLESS SMARTPHONE to LEFT ear. Exactly TWO arms TWO hands, no third hand or floating phone. Her face unobstructed, no sunglasses. Driver center-right yellow hardhat remains ON HEAD, orange safety vest/navy work jacket, both grey gloves on, hands naturally hanging down BELOW waist and not yet reaching or tightening belt. White waybill now rests on foreground metal table. No pen swap. Same woman ponytail/beige blouse/teal vest/charcoal trousers, no wardrobe change. Black mesh chair in orange room maintained. Keep ground bottom 12% clear for captions. Blank no readable text, single coherent film still not collage.",
+      "referenced_image_paths": [
+        "\\\\wsl.localhost\\Ubuntu-24.04\\home\\wooseok\\wsy\\samsung_related\\slide\\AI실행결과발표대회_디자인3종/storyboards/2026-10-19_tone-polish-v8/images/C03/K07.png",
+        "\\\\wsl.localhost\\Ubuntu-24.04\\home\\wooseok\\wsy\\samsung_related\\slide\\AI실행결과발표대회_디자인3종/storyboards/2026-10-23_v9-caption-first/images/C03/S06.png",
+        "\\\\wsl.localhost\\Ubuntu-24.04\\home\\wooseok\\wsy\\samsung_related\\slide\\AI실행결과발표대회_디자인3종/storyboards/2026-10-23_v9-caption-first/images/C03/S01.png"
+      ],
+      "next_motion": "직접 만나 확인하겠다는 자막에 기사가 두 방을 보며 벨트를 조인다. 직원은 두 파일을 한 팔에 유지하고 전화기를 든 손도 그대로 둔 채 몸을 출구로 돌린다. 이번에는 본인이 가겠다는 자막 뒤 기사의 손이 멈춘다.",
+      "camera_notes": "두 모듈 출입구와 직원·기사가 함께 보이는 측면 와이드. 직원과 기사 반응을 한 구도에서 읽음. 얼굴·손·핵심 소품을 피한 하단 안전 여백; 화면 테두리6% 비움.",
+      "sha256": "C14F88D8D30326B442BD5B2867A373D49BB0F42669C06241250D355EFBBF01A9",
+      "source_sha256": "C14F88D8D30326B442BD5B2867A373D49BB0F42669C06241250D355EFBBF01A9",
+      "dimensions": [
+        1672,
+        941
+      ],
+      "artist_review": {
+        "opened_actual_image": true,
+        "status": "candidate",
+        "notes": [
+          "여성은 오른팔로 회색+주황 닫힌 파일 두 개를 함께 안고 왼손 스마트폰을 왼귀에 유지.",
+          "두 팔/두 손만 보이며 맨얼굴 유지. 기사 양손은 몸 옆에 내려 벨트 조작 전.",
+          "A왼쪽/B오른쪽 폴딩 패널은 이미 열림. 기사 노란 안전모·조끼·장갑 유지, 운송장은 전경 테이블."
+        ]
+      },
+      "attempts": []
+    },
+    {
+      "id": "C03_K08",
+      "concept_id": "C03",
+      "scene_id": "S08",
+      "linked_cut": "K08",
+      "image_path": "images/C03/S08_v2.png",
+      "source_generated_path": "C:\\Users\\wseok\\.codex\\generated_images\\01a16463-45b7-7831-8539-123dbe2d6b5c\\exec-863c4b42-05b2-4760-b615-b3b839c3ce4b.png",
+      "generation_tool": "image_gen",
+      "prompt": "Edit this actual generated C03 ending frame. Use case: precise-object-edit. Change ONLY the woman's starting pose: she must NOT be walking. Put her about 0.6 meter farther back beside the standing driver, BOTH shoes fully flat on the concrete, weight balanced in a natural stationary stance, feet side-by-side, no lifted heel, no stepping leg or crossed legs. She has just turned her torso toward the foreground ready to leave, but has not yet taken the first step. Continue holding the same gray and orange closed folders at chest in exactly two arms, no phone visible. Preserve her exact face, low ponytail, beige blouse, teal vest, charcoal trousers. Keep EVERY other element and composition unchanged: same driver still standing yellow helmet on his head, navy/orange outfit and grey gloves; empty black mesh wheeled chair behind him; teal office A left and orange B right with folding panels already open; desk props; industrial yard; broad empty blue sky; sunlight; no words/logos. Single 16:9 landscape film frame. The desired image is the STILL instant before the woman starts walking, not the action underway.",
+      "referenced_image_paths": [
+        "\\\\wsl.localhost\\Ubuntu-24.04\\home\\wooseok\\wsy\\samsung_related\\slide\\AI실행결과발표대회_디자인3종/storyboards/2026-10-23_v9-caption-first/images/C03/S08.png"
+      ],
+      "next_motion": "직원이 작은 파일 두 개만 안고 퇴장한 뒤 기사가 기존 의자에 앉는다. 안전모는 머리에 유지하며 턱끈 조작은 요구하지 않는다.",
+      "camera_notes": "안정된 눈높이 와이드. 모듈·나가는 직원·기사와 의자를 한 프레임, 상단 하늘 여백. 실제 첫 프레임의 구도를 기준으로 유지. 상단 빈 하늘; 화면 테두리6% 비움.",
+      "sha256": "CBFD81C55E5A96FD371320C8976CE7161BC35DB1A3A1170DDC9AD7F39E1FA8A7",
+      "source_sha256": "CBFD81C55E5A96FD371320C8976CE7161BC35DB1A3A1170DDC9AD7F39E1FA8A7",
+      "dimensions": [
+        1672,
+        941
+      ],
+      "artist_review": {
+        "opened_actual_image": true,
+        "status": "candidate",
+        "notes": [
+          "수정본에서 여성의 양발이 바닥에 붙은 정지 시작 상태 확인. 두 파일 유지.",
+          "기사 서 있음·노란 안전모 머리 유지·기존 검정 메쉬 바퀴의자 확인.",
+          "A왼쪽/B오른쪽 열린 폴딩 패널·상단 빈 하늘 유지. 행사명은 후편집.",
+          "S08 첫 결과는 걸음 중이어서 보존 후 S08_v2로 수정."
+        ]
+      },
+      "attempts": [
+        {
+          "image_path": "images/C03/S08.png",
+          "source_generated_path": "C:\\Users\\wseok\\.codex\\generated_images\\01a16463-45b7-7831-8539-123dbe2d6b5c\\exec-c4aa7bbf-81b8-4e7b-9b11-ba04a6aa4213.png",
+          "sha256": "3F34BDE63E580833E8C36F1725BB15CEE971560EBC0E839F28286EECFB3B98AA",
+          "dimensions": [
+            1672,
+            941
+          ],
+          "prompt": "Create one newly rendered 16:9 cinematic first-frame image, not a collage or storyboard page. Use the supplied approved V8 reference to preserve exact casting, wardrobe, creature design, architecture, props and left-right continuity. Depict the start of future motion, not its payoff. No captions, subtitles, logos, watermark or random writing baked in; typography will be added in post. Preserve a calm high-contrast region for later captions without obscuring or shrinking essential action. No extra characters or giant decorative props. Stable eye-level wide. Both offices open and stationary. Woman with two small files about to walk toward foreground. Driver still stands beside chair with the same yellow helmet on his head, without introducing a new chinstrap detail. Clean upper sky for end title. No generated event signage.\nUse case: ads-marketing. Reference 1 ending layout and enormous clear sky, reference 2 newly established exact actors, rooms, files. Render a NEW wide first frame, before her exit and before he sits. Same ponytailed woman in beige shirt teal vest charcoal trousers stands center-left with TWO closed gray and solid orange files hugged together. Both her feet are still on ground, torso just turned toward camera/foreground ready for first step, not already far away. Phone now stowed and not visible; no extra handheld objects. Same male driver center-right still UPRIGHT, yellow hardhat ON HIS HEAD, navy jacket/orange reflective vest/grey gloves/black trousers. His hands relaxed, no helmet removal, no invented chinstrap manipulation. Right behind him the same established BLACK MESH WHEELED OFFICE CHAIR is empty, ready for him to sit, chair not red or wooden and no extra new chair design. Teal office A LEFT, orange B RIGHT, both stationary, broad facing folding panels already fully open, intact rooms. Preserve desktop props and quiet industrial yard. Upper 40% mostly blue sky is clean for Q-AI Fair title to be added later; DO NOT write that title or any text into image. Low eye-level 16:9 cinematic landscape, warm clear daylight, end-state seating must not happen yet.",
+          "referenced_image_paths": [
+            "\\\\wsl.localhost\\Ubuntu-24.04\\home\\wooseok\\wsy\\samsung_related\\slide\\AI실행결과발표대회_디자인3종/storyboards/2026-10-19_tone-polish-v8/images/C03/K08.png",
+            "\\\\wsl.localhost\\Ubuntu-24.04\\home\\wooseok\\wsy\\samsung_related\\slide\\AI실행결과발표대회_디자인3종/storyboards/2026-10-23_v9-caption-first/images/C03/S07.png"
+          ],
+          "review": {
+            "opened_actual_image": true,
+            "status": "requires_revision",
+            "notes": [
+              "기사 서 있음·안전모 머리 유지·검정 바퀴의자·두 모듈·상단 하늘 여백 확인.",
+              "여성은 두 파일을 들고 있으나 이미 걸음 중이며 한 발이 들림. 출발 직전 상태로 국소 수정 필요."
+            ]
+          }
+        }
+      ]
+    }
+  ],
+  "generated_scene_count": 8,
+  "generated_image_count": 9,
+  "selected_images": 8,
+  "status": "artist reviewed; awaiting independent cross review",
+  "remaining_notes": [
+    "K03·K06 도식/라벨과 모든 자막은 후편집.",
+    "정지 이미지 검수이며 실제 동작·무음 연속 재생 검증 아님.",
+    "Flow/동영상/음원/크레딧 사용 없음."
+  ]
+}

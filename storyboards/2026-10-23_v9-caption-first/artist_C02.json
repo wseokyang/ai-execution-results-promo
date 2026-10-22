@@ -1,0 +1,423 @@
+{
+  "concept_id": "C02",
+  "expected_images": 9,
+  "images": [
+    {
+      "id": "C02_K01",
+      "concept_id": "C02",
+      "scene_id": "S01",
+      "linked_cut": "K01",
+      "image_path": "images/C02/S01_v2.png",
+      "source_generated_path": "C:\\Users\\wseok\\.codex\\generated_images\\01a16462-ffcb-7d32-941c-014ec69f730b\\exec-cd2a78fd-0829-4fe2-bd16-f5df79161f8a.png",
+      "generation_tool": "image_gen",
+      "prompt": "Use case: precise-object-edit. Make a newly rendered corrected cinematic frame from this image. Preserve the detective identity, hair, moustache, brown cracked leather coat, black shirt, evidence cork board, exact photographs, red strings, empty center, framing, lighting and 16:9 landscape dimensions. Change ONLY the position of his extended pointing hand and arm: raise the index fingertip so it visibly hovers 2 cm in front of the SOFT BLACK BLURRED OCCLUSION near the UPPER RIGHT of the rectangular metal-block photo, instead of pointing to the metal product itself. Keep one index finger extended with anatomically correct hand. Other hand still holds loose red string. No contact yet. No captions, labels, logos, watermarks or new props.",
+      "referenced_image_paths": [
+        "\\\\wsl.localhost\\Ubuntu-24.04\\home\\wooseok\\wsy\\samsung_related\\slide\\AI실행결과발표대회_디자인3종\\storyboards\\2026-10-23_v9-caption-first\\images\\C02\\S01.png"
+      ],
+      "next_motion": "DE가 사진의 흐린 흔적을 한 번 짚고 붉은 실을 다른 사진으로 당긴다. 확신에 찬 얼굴, 웃음·윙크·발화 없음.",
+      "camera_notes": "같은 수사벽을 낮은 시점에서 보는 누아르 미디엄. DE의 얼굴·갈색 코트와 전경 손을 크게 두되 제품 사진의 위치·붉은 실·중앙 빈 영역은 V7과 동일하게 유지.",
+      "sha256": "F3C9A88D066EF598B6589F7C01EB9E0182115897A8C25FA898C07ED958DD3353",
+      "source_sha256": "F3C9A88D066EF598B6589F7C01EB9E0182115897A8C25FA898C07ED958DD3353",
+      "dimensions": [
+        1672,
+        941
+      ],
+      "artist_review": {
+        "opened_actual_image": true,
+        "status": "candidate",
+        "notes": [
+          "손끝이 흐린 흔적 직전으로 상승해 시작 상태 확인.",
+          "형사 정체성·흐린 흔적3장과 깨끗한 제품사진 혼합·중앙 빈 칸 확인.",
+          "1672×941 도구 원본 비율 약16:9, 재인코딩 없음."
+        ]
+      },
+      "attempts": [
+        {
+          "id": "C02_K01",
+          "concept_id": "C02",
+          "scene_id": "S01",
+          "linked_cut": "K01",
+          "image_path": "images/C02/S01.png",
+          "source_generated_path": "C:\\Users\\wseok\\.codex\\generated_images\\01a16462-ffcb-7d32-941c-014ec69f730b\\exec-564ccb5e-9965-45f6-96b2-9c02ba847dc3.png",
+          "generation_tool": "image_gen",
+          "prompt": "Create one newly rendered 16:9 cinematic first-frame image, not a collage or storyboard page. Use the supplied approved V8 reference to preserve exact casting, wardrobe, creature design, architecture, props and left-right continuity. Depict the start of future motion, not its payoff. No captions, subtitles, logos, watermark or random writing baked in; typography will be added in post. Preserve a calm high-contrast region for later captions without obscuring or shrinking essential action. No extra characters or giant decorative props. Low-angle noir medium. Long salt-and-pepper-haired moustached detective in worn brown coat at red-string evidence wall. Large foreground finger hovers just before touching a soft dark mark in a product photograph. The crowded wall mixes many varied product photographs, including clean photographs. Only a few have a similar blurry occlusion in an upper-right image location; they are not already sorted or aligned as a solved comparison. Preserve empty center and string layout. No culprit portrait or police logo.\nUse case: ads-marketing. This is a NEW first-frame render using the image as a casting/set reference, not a duplicate. Keep the Korean older detective's thick moustache, wavy long grey-streaked hair, black shirt, cracked brown leather coat and fiercely serious gaze. The raised fingertip is visibly 2 cm away from the photograph. At least half the product photographs on the board are fully clean, no dark blotch. Only three photos carry a soft out-of-focus dark smear near the upper right. Varied irregular unsorted layout with empty cork center. Preserve blue industrial shadows and warm tungsten edge light. One coherent cinematic frame, 16:9 landscape.",
+          "referenced_image_paths": [
+            "\\\\wsl.localhost\\Ubuntu-24.04\\home\\wooseok\\wsy\\samsung_related\\slide\\AI실행결과발표대회_디자인3종\\storyboards\\2026-10-19_tone-polish-v8\\images\\C02\\S01_v8.png"
+          ],
+          "next_motion": "DE가 사진의 흐린 흔적을 한 번 짚고 붉은 실을 다른 사진으로 당긴다. 확신에 찬 얼굴, 웃음·윙크·발화 없음.",
+          "camera_notes": "같은 수사벽을 낮은 시점에서 보는 누아르 미디엄. DE의 얼굴·갈색 코트와 전경 손을 크게 두되 제품 사진의 위치·붉은 실·중앙 빈 영역은 V7과 동일하게 유지.",
+          "sha256": "7D0ECCC0FE249AF9240411D6B8746A779E9770848FEA7D47F2FC0C02A9ACA9AD",
+          "source_sha256": "7D0ECCC0FE249AF9240411D6B8746A779E9770848FEA7D47F2FC0C02A9ACA9AD",
+          "dimensions": [
+            1672,
+            941
+          ],
+          "artist_review": {
+            "opened_actual_image": true,
+            "status": "revision_required",
+            "notes": [
+              "형사 외형·누아르 빛·중앙 빈 칸·깨끗한 제품사진 혼합 확인.",
+              "손끝이 흐린 흔적 대신 제품 하단을 향함. 손 위치 국소 보정 필요."
+            ]
+          },
+          "attempts": []
+        }
+      ]
+    },
+    {
+      "id": "C02_K02",
+      "concept_id": "C02",
+      "scene_id": "S02",
+      "linked_cut": "K02",
+      "image_path": "images/C02/S02.png",
+      "source_generated_path": "C:\\Users\\wseok\\.codex\\generated_images\\01a16462-ffcb-7d32-941c-014ec69f730b\\exec-ddf739d3-4b4a-4141-9f86-fa7bbd3a2141.png",
+      "generation_tool": "image_gen",
+      "prompt": "Create one newly rendered 16:9 cinematic first-frame image, not a collage or storyboard page. Use the supplied approved V8 reference to preserve exact casting, wardrobe, creature design, architecture, props and left-right continuity. Depict the start of future motion, not its payoff. No captions, subtitles, logos, watermark or random writing baked in; typography will be added in post. Preserve a calm high-contrast region for later captions without obscuring or shrinking essential action. No extra characters or giant decorative props. Side medium-wide inspection bench. Detective about to block product tray. Small curly-haired woman inspector with round glasses and cobalt coveralls about to point at monitor. Elderly thin bald technician stands behind tray. Preserve fixed camera housing H, protective window W, bracket B and specimen jig. Handcuffs hidden inside coat.\nUse case: ads-marketing. Reference1 supplies exact room, three Korean performers and apparatus design; reference2 supplies refreshed detective identity and evidence wall including mixed clean product photos. Preserve small older curly-haired female inspector, round spectacles, cobalt overalls and grey gloves; thin elderly balding technician grey vest and white shirt; detective worn brown leather coat and black shirt. NEW first-frame render: detective stands just to the LEFT of the tray's path with one foot beginning to step toward it, not already blocking it. Technician holds tray at waist height behind. Inspector has BOTH gloved hands resting near bench, has not pointed yet. Machine at screen center-right facing right: square brushed-metal H, black top bracket B, orange-framed protective window W in front of lens, white upright rectangular specimen in black jig to right. Monitor behind shows a specimen with soft upper-right smudge; no readable UI text. Cuffs not visible. Keep lower safe area, single 16:9 landscape frame.",
+      "referenced_image_paths": [
+        "\\\\wsl.localhost\\Ubuntu-24.04\\home\\wooseok\\wsy\\samsung_related\\slide\\AI실행결과발표대회_디자인3종\\storyboards\\2026-10-19_tone-polish-v8\\images\\C02\\S02.png",
+        "\\\\wsl.localhost\\Ubuntu-24.04\\home\\wooseok\\wsy\\samsung_related\\slide\\AI실행결과발표대회_디자인3종\\storyboards\\2026-10-23_v9-caption-first\\images\\C02\\S01_v2.png"
+      ],
+      "next_motion": "TE가 트레이를 멈추고 DE가 막아선다. IN이 모니터를 가리키면 DE는 몸을 둔 채 고개만 돌린다. 발화 없음.",
+      "camera_notes": "검사대 측면 미디엄 와이드. 왼쪽 고정 H, 오른쪽 지그, 전경 DE와 IN. TE는 뒤에서 트레이를 멈춤.",
+      "sha256": "0D7513618BB9163142935E3734AEC61E56CE261BED018EC85857A6968102FB21",
+      "source_sha256": "0D7513618BB9163142935E3734AEC61E56CE261BED018EC85857A6968102FB21",
+      "dimensions": [
+        1672,
+        941
+      ],
+      "artist_review": {
+        "opened_actual_image": true,
+        "status": "candidate",
+        "notes": [
+          "세 인물 정체성과 장비 H/W/B/흰 시편 배열 유지 확인.",
+          "수갑 없음, IN 양손 검사대 위·가리키기 전, DE 트레이 왼쪽에 서 있어 막아서는 후속동작 가능.",
+          "발은 프레임 아래이므로 첫 발 움직임은 후속 영상에서 확인 필요."
+        ]
+      },
+      "attempts": []
+    },
+    {
+      "id": "C02_K03",
+      "concept_id": "C02",
+      "scene_id": "S03",
+      "linked_cut": "K03",
+      "image_path": "images/C02/S03.png",
+      "source_generated_path": "C:\\Users\\wseok\\.codex\\generated_images\\01a16462-ffcb-7d32-941c-014ec69f730b\\exec-2a15117d-f6f3-45cc-91ce-6c324e9facec.png",
+      "generation_tool": "image_gen",
+      "prompt": "Create one newly rendered 16:9 cinematic first-frame image, not a collage or storyboard page. Use the supplied approved V8 reference to preserve exact casting, wardrobe, creature design, architecture, props and left-right continuity. Depict the start of future motion, not its payoff. No captions, subtitles, logos, watermark or random writing baked in; typography will be added in post. Preserve a calm high-contrast region for later captions without obscuring or shrinking essential action. No extra characters or giant decorative props. Monitor-centered medium with inspector's gloved hand and profile. Many small varied product thumbnails at left; three LARGE SEPARATE candidate photos at right, showing different products and the same soft dark occlusion at the same upper-right position. Hand hovers before overlap comparison. Clean screen panels for exact labels in post; no fabricated writing or automated verdict. Do not overlap candidates yet.\nUse case: ads-marketing. NEW first frame. Reference1 defines monitor framing and candidates, reference2 defines the exact current cast and industrial room. Same small middle-aged Korean female inspector with black curly bob, round spectacles, cobalt blue coveralls, grey knit gloves. Her right hand HOVERS 2cm above mouse, not pressing yet. Three large candidate ORIGINALS clearly separate side by side at screen right, no overlaps; disc, rectangular metal block, octagonal ring differ, each has the SAME fuzzy upper-right occlusion. Left thumbnails include both clean and occluded photos. Broad plain dark top screen header for labels added later. Absolutely no writing, verdicts, arrows, culprit or face recognition. One 16:9 landscape photograph.",
+      "referenced_image_paths": [
+        "\\\\wsl.localhost\\Ubuntu-24.04\\home\\wooseok\\wsy\\samsung_related\\slide\\AI실행결과발표대회_디자인3종\\storyboards\\2026-10-19_tone-polish-v8\\images\\C02\\S03_v2.png",
+        "\\\\wsl.localhost\\Ubuntu-24.04\\home\\wooseok\\wsy\\samsung_related\\slide\\AI실행결과발표대회_디자인3종\\storyboards\\2026-10-23_v9-caption-first\\images\\C02\\S02.png"
+      ],
+      "next_motion": "IN이 이미 좁혀진 원본3장을 겹쳐 비교한다. 같은 위치를 지목하는 손과 DE가 장비로 돌리는 시선을 겹쳐 다음 컷으로 연결한다.",
+      "camera_notes": "IN의 손·작은 체격 옆얼굴과 모니터를 함께. 전체 영상에서 AI 처리 화면은 이 컷 한 화면에 집중.",
+      "sha256": "844A8660F5F6D680DC5B28A3FAE60E7D0B184FA5931680BD00A3B9ACD02015D8",
+      "source_sha256": "844A8660F5F6D680DC5B28A3FAE60E7D0B184FA5931680BD00A3B9ACD02015D8",
+      "dimensions": [
+        1672,
+        941
+      ],
+      "artist_review": {
+        "opened_actual_image": true,
+        "status": "candidate",
+        "notes": [
+          "서로 다른 후보 원본3장이 오른쪽에 겹치지 않고 개별 표시됨.",
+          "세 후보의 같은 우상단에 흐린 가림, 왼쪽에 깨끗한 썸네일 포함.",
+          "IN 장갑손이 마우스 위 조작 직전이며 얼굴·안경·작업복 일치. 자동 판정·글자 없음."
+        ]
+      },
+      "attempts": []
+    },
+    {
+      "id": "C02_K04",
+      "concept_id": "C02",
+      "scene_id": "S04",
+      "linked_cut": "K04",
+      "image_path": "images/C02/S04.png",
+      "source_generated_path": "C:\\Users\\wseok\\.codex\\generated_images\\01a16462-ffcb-7d32-941c-014ec69f730b\\exec-d404d0ea-d22d-4fe2-ba25-ea10fa308538.png",
+      "generation_tool": "image_gen",
+      "prompt": "Create one newly rendered 16:9 cinematic first-frame image, not a collage or storyboard page. Use the supplied approved V8 reference to preserve exact casting, wardrobe, creature design, architecture, props and left-right continuity. Depict the start of future motion, not its payoff. No captions, subtitles, logos, watermark or random writing baked in; typography will be added in post. Preserve a calm high-contrast region for later captions without obscuring or shrinking essential action. No extra characters or giant decorative props. Fixed side medium of same camera housing H, window W, specimen jig and monitor. Cleaning cloth hovers just short of dirty W. Same white specimen remains fixed. Monitor still shows pre-cleaning occlusion. Detective watches; no clean result yet.\nUse case: ads-marketing. NEW cinematic first-frame render. Ref1 provides the close camera axis; ref2 current cast and set. Maintain exact Korean moustached older detective and small curly-haired middle-aged female inspector, round glasses, cobalt coveralls, grey gloves. Inspector's white cloth remains visibly 3 cm IN FRONT of the dirty protective orange-framed window W, BEFORE wiping. H silver camera on fixed round metal post is LEFT, black bracket B atop, orange W ahead of lens facing RIGHT toward the unchanged upright white rectangular specimen in black jig. Monitor at rear right still shows PRE-CLEAN blurred upper-right mark. No cuff anywhere. Fingers anatomically normal, no result prematurely cleaned. Subtle lower caption-safe tabletop. 16:9 landscape.",
+      "referenced_image_paths": [
+        "\\\\wsl.localhost\\Ubuntu-24.04\\home\\wooseok\\wsy\\samsung_related\\slide\\AI실행결과발표대회_디자인3종\\storyboards\\2026-10-19_tone-polish-v8\\images\\C02\\S04.png",
+        "\\\\wsl.localhost\\Ubuntu-24.04\\home\\wooseok\\wsy\\samsung_related\\slide\\AI실행결과발표대회_디자인3종\\storyboards\\2026-10-23_v9-caption-first\\images\\C02\\S02.png"
+      ],
+      "next_motion": "IN이 W를 닦고 촬영 버튼을 누른다. 모니터가 동일 시편의 가림 없는 결과로 바뀌며 DE가 고개를 끄덕인다.",
+      "camera_notes": "고정 측면 미디엄. H와 W, 오른쪽 지그의 동일 시편, 뒤 모니터가 한 화면. W 표면과 결과를 전후로 확인 가능.",
+      "sha256": "E3696DB21BD5C88C660E0D78358312DE99ACA7D1BF9DEF5C735DC9C798120882",
+      "source_sha256": "E3696DB21BD5C88C660E0D78358312DE99ACA7D1BF9DEF5C735DC9C798120882",
+      "dimensions": [
+        1672,
+        941
+      ],
+      "artist_review": {
+        "opened_actual_image": true,
+        "status": "candidate",
+        "notes": [
+          "흐린 보호창과 청소 전 모니터 가림 확인.",
+          "천과 W 사이에 틈이 보여 닦기 전 상태, 수갑 없음.",
+          "H 왼쪽·W 전면·흰 시편 오른쪽·뒤 모니터와 인물 정체 유지."
+        ]
+      },
+      "attempts": []
+    },
+    {
+      "id": "C02_K05",
+      "concept_id": "C02",
+      "scene_id": "S05",
+      "linked_cut": "K05",
+      "image_path": "images/C02/S05.png",
+      "source_generated_path": "C:\\Users\\wseok\\.codex\\generated_images\\01a16462-ffcb-7d32-941c-014ec69f730b\\exec-6981ff2a-0d1e-48b9-bee1-4829f31bf642.png",
+      "generation_tool": "image_gen",
+      "prompt": "Create one newly rendered 16:9 cinematic first-frame image, not a collage or storyboard page. Use the supplied approved V8 reference to preserve exact casting, wardrobe, creature design, architecture, props and left-right continuity. Depict the start of future motion, not its payoff. No captions, subtitles, logos, watermark or random writing baked in; typography will be added in post. Preserve a calm high-contrast region for later captions without obscuring or shrinking essential action. No extra characters or giant decorative props. Tight side medium. First handcuff ring OPEN before attachment to existing bracket B on fixed camera H. Other ring still in detective's hand, NOT covering protective window W yet. Show optical line toward specimen. Camera remains bolted down.\nUse case: ads-marketing. NEW first-frame render. Ref1 provides cuff handling; ref2 exact newly rendered cast and same machine. Clean the protective glass now, monitor displays clean white specimen image, no dark smear. Older moustached detective with long grey-streaked hair holds ONE normal metal handcuff PAIR. First cuff ring OPEN with visibly separated gate, hovering just BEFORE closing around EXISTING top black bracket B. Second ring held in his other hand, high enough to leave orange protective window fully clear. Both his hands visible and anatomically correct. No cuffs attached yet, neither ring hangs. Same square silver camera bolted on chrome pedestal on LEFT and white upright specimen in black jig RIGHT. Preserve top bracket; do not add a new tall handle or move camera. Small curly-haired inspector watches skeptically from behind. Single 16:9 frame, text-free.",
+      "referenced_image_paths": [
+        "\\\\wsl.localhost\\Ubuntu-24.04\\home\\wooseok\\wsy\\samsung_related\\slide\\AI실행결과발표대회_디자인3종\\storyboards\\2026-10-19_tone-polish-v8\\images\\C02\\S05_v2.png",
+        "\\\\wsl.localhost\\Ubuntu-24.04\\home\\wooseok\\wsy\\samsung_related\\slide\\AI실행결과발표대회_디자인3종\\storyboards\\2026-10-23_v9-caption-first\\images\\C02\\S04.png"
+      ],
+      "next_motion": "DE가 첫 고리를 B에 잠그고 손을 놓는다. 다른 고리가 W 앞에 매달린다. 철컥 뒤 0.6초 무반응. H는 움직이지 않음, 발화 없음.",
+      "camera_notes": "고정 H의 측면 타이트 미디엄. DE 콧수염 옆얼굴·수갑·B·W·오른쪽 시편의 광로를 함께.",
+      "sha256": "19E0C97C76B680161EE1B6AA75422A64AE9D2942DB50BB0B31003F7DD12FAED0",
+      "source_sha256": "19E0C97C76B680161EE1B6AA75422A64AE9D2942DB50BB0B31003F7DD12FAED0",
+      "dimensions": [
+        1672,
+        941
+      ],
+      "artist_review": {
+        "opened_actual_image": true,
+        "status": "candidate",
+        "notes": [
+          "수갑 한 벌을 두 손으로 지지, 첫 고리 하부가 열려 B에 잠그기 전 상태.",
+          "두 번째 고리는 손에 있으며 W를 가리지 않음. 깨끗한 W·모니터 확인.",
+          "장비 고정·동일 시편·형사와 검사자 얼굴 유지."
+        ]
+      },
+      "attempts": []
+    },
+    {
+      "id": "C02_K06",
+      "concept_id": "C02",
+      "scene_id": "S06",
+      "linked_cut": "K06",
+      "image_path": "images/C02/S06.png",
+      "source_generated_path": "C:\\Users\\wseok\\.codex\\generated_images\\01a16462-ffcb-7d32-941c-014ec69f730b\\exec-331a39c4-4d59-4150-98fc-5500b8527439.png",
+      "generation_tool": "image_gen",
+      "prompt": "Create one newly rendered 16:9 cinematic first-frame image, not a collage or storyboard page. Use the supplied approved V8 reference to preserve exact casting, wardrobe, creature design, architecture, props and left-right continuity. Depict the start of future motion, not its payoff. No captions, subtitles, logos, watermark or random writing baked in; typography will be added in post. Preserve a calm high-contrast region for later captions without obscuring or shrinking essential action. No extra characters or giant decorative props. One cuff ring attached to B, other hangs physically in front of W. Monitor still shows the previous CLEAN specimen image. Inspector's hand waits above shutter button. Detective satisfied. No new ring obstruction on monitor at this starting moment.\nUse case: ads-marketing. A NEW first-frame cinematic render. Reference1 supplies intended action state; reference2 supplies newly rendered exact cast and apparatus. Same LEFT silver H camera fixed on chrome post, black horizontal top bracket B, orange W ahead of lens, same RIGHT upright white specimen in black jig, monitor behind at right. Exactly one pair of silver handcuffs: first ring now CLOSED around tip of B; chain descends; second ring HANGS DIRECTLY across the FRONT surface of W, one solid metal arc partially obscuring the central optical line toward the specimen. The physical ring must visibly overlap orange window, not hang off to the side. Detective has released both hands and looks quietly proud. Small curly-haired inspector's grey-gloved index finger hovers 2cm ABOVE round shutter button, BEFORE pressing. Monitor shows only the previous CLEAN white specimen surface with zero dark spot and zero ring shadow: new photograph has not been taken yet. No cloth. No typography. 16:9 landscape.",
+      "referenced_image_paths": [
+        "\\\\wsl.localhost\\Ubuntu-24.04\\home\\wooseok\\wsy\\samsung_related\\slide\\AI실행결과발표대회_디자인3종\\storyboards\\2026-10-19_tone-polish-v8\\images\\C02\\S06.png",
+        "\\\\wsl.localhost\\Ubuntu-24.04\\home\\wooseok\\wsy\\samsung_related\\slide\\AI실행결과발표대회_디자인3종\\storyboards\\2026-10-23_v9-caption-first\\images\\C02\\S05.png"
+      ],
+      "next_motion": "IN이 촬영하고 모니터에 새 흐린 고리 가림이 나타난다. IN이 실물 고리를 본 뒤 TE와 눈을 마주친다.",
+      "camera_notes": "K04와 같은 검사대 축. 실물 고리·W·시편·모니터를 동시에.",
+      "sha256": "46BE8AA29D907DDC6278911C1CDFB33ECAC4FBFAB1BE467E6A70BF27CEAC7FFE",
+      "source_sha256": "46BE8AA29D907DDC6278911C1CDFB33ECAC4FBFAB1BE467E6A70BF27CEAC7FFE",
+      "dimensions": [
+        1672,
+        941
+      ],
+      "artist_review": {
+        "opened_actual_image": true,
+        "status": "candidate",
+        "notes": [
+          "수갑 첫 고리가 기존 B 끝에 연결되고 다른 고리의 금속 가장자리가 W 전면과 겹침.",
+          "모니터는 가림 없는 이전 깨끗한 흰 결과이며 재촬영 전 상태 확인.",
+          "IN 손끝이 버튼 위에 뜸, DE가 손을 놓고 뿌듯한 얼굴, 장비 위치 유지."
+        ]
+      },
+      "attempts": []
+    },
+    {
+      "id": "C02_K07",
+      "concept_id": "C02",
+      "scene_id": "S07",
+      "linked_cut": "K07",
+      "image_path": "images/C02/S07_v2.png",
+      "source_generated_path": "C:\\Users\\wseok\\.codex\\generated_images\\01a16462-ffcb-7d32-941c-014ec69f730b\\exec-7dd36bd9-6519-44e4-9c77-aae9483cf635.png",
+      "generation_tool": "image_gen",
+      "prompt": "Use case: precise-object-edit. Correct this cinematic first frame, preserving all cast identity, costumes, industrial set, composition and 16:9 landscape. Image1 is edit target. Image2 supplies correct cuff/window geometry. Exactly these fixes: (1) detective's HEAD AND EYES are turned to his RIGHT looking down at the silver machine and handcuff, NOT toward foreground technician/phone; he remains proud, both hands on lapels. (2) smartphone remains horizontally at technician's lower chest before raising, screen depicts exact same PRESENT physical scene: detective looking at machine, female inspector with BOTH HANDS RESTING on tabletop, no pointing hand yet. (3) match physical hanging handcuff to reference2 so metal arc overlaps protective orange window. Preserve monitor blurry annular result. Everything else unchanged. No text, captions, face boxes, watermark or additional objects.",
+      "referenced_image_paths": [
+        "\\\\wsl.localhost\\Ubuntu-24.04\\home\\wooseok\\wsy\\samsung_related\\slide\\AI실행결과발표대회_디자인3종\\storyboards\\2026-10-23_v9-caption-first\\images\\C02\\S07.png",
+        "\\\\wsl.localhost\\Ubuntu-24.04\\home\\wooseok\\wsy\\samsung_related\\slide\\AI실행결과발표대회_디자인3종\\storyboards\\2026-10-23_v9-caption-first\\images\\C02\\S06.png"
+      ],
+      "next_motion": "TE가 들어 한 번 촬영한다. DE는 늦게 전화 쪽으로 얼굴을 돌린다. IN이 고리를 확인해 준다.",
+      "camera_notes": "TE 어깨 너머 현장 와이드. 전화 화면에는 현재 DE·수갑·장비가 그대로 보임. 얼굴 자동 인식 UI 없음.",
+      "sha256": "AD6DCC8F668272350C1414713169CE6FB0A8BA06DFEF34351C096A187D078CF9",
+      "source_sha256": "AD6DCC8F668272350C1414713169CE6FB0A8BA06DFEF34351C096A187D078CF9",
+      "dimensions": [
+        1672,
+        941
+      ],
+      "artist_review": {
+        "opened_actual_image": true,
+        "status": "candidate",
+        "notes": [
+          "DE 머리와 시선이 장비 쪽으로 수정되어 전화로 늦게 돌리는 후속동작 확보.",
+          "수갑 고리-W 겹침과 가슴높이 전화·IN 실제 양손 검사대 위 확인.",
+          "전화 속 작은 화면에 같은 인물·장비·수갑이 보임. 전화 내부 IN 손 세부가 실제 양손 위치와 완전히 일치하지 않아 교차검수 확인 항목으로 남김."
+        ]
+      },
+      "attempts": [
+        {
+          "id": "C02_K07",
+          "concept_id": "C02",
+          "scene_id": "S07",
+          "linked_cut": "K07",
+          "image_path": "images/C02/S07.png",
+          "source_generated_path": "C:\\Users\\wseok\\.codex\\generated_images\\01a16462-ffcb-7d32-941c-014ec69f730b\\exec-c5d81a12-c307-4586-bbcd-4fdd9feb954a.png",
+          "generation_tool": "image_gen",
+          "prompt": "Create one newly rendered 16:9 cinematic first-frame image, not a collage or storyboard page. Use the supplied approved V8 reference to preserve exact casting, wardrobe, creature design, architecture, props and left-right continuity. Depict the start of future motion, not its payoff. No captions, subtitles, logos, watermark or random writing baked in; typography will be added in post. Preserve a calm high-contrast region for later captions without obscuring or shrinking essential action. No extra characters or giant decorative props. Over elderly technician's shoulder. His smartphone at chest height before lifting to record proud detective beside cuffed camera. Inspector prepares to point at actual hanging ring. No face-recognition boxes or phone text. Match physical cuff and camera geometry.\nUse case: ads-marketing. NEW first-frame render from slightly behind left shoulder of SAME elderly balding thin Korean technician, grey vest, pale shirt. Ref1 framing, ref2 exact newly rendered cuffed apparatus and performers, ref3 technician identity. His hands hold smartphone HORIZONTALLY at LOWER CHEST height, clearly below his face, about to raise it, not yet pressing shutter. Live camera view is same current detective beside same cuffed camera, no boxes or words. Detective at left remains proud, hands holding coat lapels, face still looking toward camera APPARATUS to his right, NOT already facing technician's phone. Small female inspector at right with hands resting on bench before indicating cuff. Maintain same camera H silver box, black top B with one attached cuff, second ring overlapping front of orange W as in ref2, white specimen at right. Rear monitor now shows fuzzy annular occlusion from shot just taken after K06 first state. One cuff pair only. Single 16:9 cinematic photograph with lower caption space, no text.",
+          "referenced_image_paths": [
+            "\\\\wsl.localhost\\Ubuntu-24.04\\home\\wooseok\\wsy\\samsung_related\\slide\\AI실행결과발표대회_디자인3종\\storyboards\\2026-10-19_tone-polish-v8\\images\\C02\\S07.png",
+            "\\\\wsl.localhost\\Ubuntu-24.04\\home\\wooseok\\wsy\\samsung_related\\slide\\AI실행결과발표대회_디자인3종\\storyboards\\2026-10-23_v9-caption-first\\images\\C02\\S06.png",
+            "\\\\wsl.localhost\\Ubuntu-24.04\\home\\wooseok\\wsy\\samsung_related\\slide\\AI실행결과발표대회_디자인3종\\storyboards\\2026-10-23_v9-caption-first\\images\\C02\\S02.png"
+          ],
+          "next_motion": "TE가 들어 한 번 촬영한다. DE는 늦게 전화 쪽으로 얼굴을 돌린다. IN이 고리를 확인해 준다.",
+          "camera_notes": "TE 어깨 너머 현장 와이드. 전화 화면에는 현재 DE·수갑·장비가 그대로 보임. 얼굴 자동 인식 UI 없음.",
+          "sha256": "F0B62664F6458A34D02E949CB967FAA90F3CE7716AB8DE80350F4CD1698B73CF",
+          "source_sha256": "F0B62664F6458A34D02E949CB967FAA90F3CE7716AB8DE80350F4CD1698B73CF",
+          "dimensions": [
+            1672,
+            941
+          ],
+          "artist_review": {
+            "opened_actual_image": true,
+            "status": "revision_required",
+            "notes": [
+              "세 인물과 장비 및 새 고리 가림 결과 확인.",
+              "휴대전화는 가슴 높이지만 DE의 시선이 이미 전화 쪽이며 전화 속 IN손이 현실보다 먼저 가리킴. 국소 보정 필요."
+            ]
+          },
+          "attempts": []
+        }
+      ]
+    },
+    {
+      "id": "C02_K08",
+      "concept_id": "C02",
+      "scene_id": "S08",
+      "linked_cut": "K08",
+      "image_path": "images/C02/S08_v2.png",
+      "source_generated_path": "C:\\Users\\wseok\\.codex\\generated_images\\01a16462-ffcb-7d32-941c-014ec69f730b\\exec-d6f48ca4-178b-43c7-bd63-720522483b43.png",
+      "generation_tool": "image_gen",
+      "prompt": "Use case: precise-object-edit. Image1 is edit target. Image2 is approved evidence-wall reference. Preserve ALL characters, exact faces and clothing, held large field photograph including its depicted characters/machine/handcuffs/monitor, positions, lighting, composition and 16:9 aspect. Change ONLY the peripheral small product photographs on the outer cork board: remove the soft dark smears from all except exactly THREE photographs (the top rectangular metal block, top octagonal ring, and middle-right perforated cylinder). All remaining outer small product photographs must be CLEAN studio product photos with no blurry black marks, matching the mixed unsorted wall in image2. Do not alter products, red strings, pins or photograph locations. Keep central photograph UNATTACHED and held about10cm in front of empty cork by inspector. No text, watermarks or new objects.",
+      "referenced_image_paths": [
+        "\\\\wsl.localhost\\Ubuntu-24.04\\home\\wooseok\\wsy\\samsung_related\\slide\\AI실행결과발표대회_디자인3종\\storyboards\\2026-10-23_v9-caption-first\\images\\C02\\S08.png",
+        "\\\\wsl.localhost\\Ubuntu-24.04\\home\\wooseok\\wsy\\samsung_related\\slide\\AI실행결과발표대회_디자인3종\\storyboards\\2026-10-23_v9-caption-first\\images\\C02\\S01_v2.png"
+      ],
+      "next_motion": "IN이 직접 사진을 붙인다. DE는 사진 속 자기 모습을 알아보고 눈이 멈춘다. 이 컷에서 말하거나 손을 뻗지 않는다.",
+      "camera_notes": "수사벽 정면 미디엄 와이드. IN 손과 새 사진, DE 옆얼굴. 새 사진 속 H·수갑·인물은 K07과 동일.",
+      "sha256": "1A96F2DB0DFEC91E14BC0F2F98F988FE998F1076A398C5F4957A05BD9C2DDF6F",
+      "source_sha256": "1A96F2DB0DFEC91E14BC0F2F98F988FE998F1076A398C5F4957A05BD9C2DDF6F",
+      "dimensions": [
+        1672,
+        941
+      ],
+      "artist_review": {
+        "opened_actual_image": true,
+        "status": "candidate",
+        "notes": [
+          "현장 사진 속 동일 DE·IN·수갑 장비와 고리 가림 모니터 확인.",
+          "핀 없이 사진을 양손으로 벽 앞에 들고 있으며 중앙 아래 빈 코르크 및 그림자 확인.",
+          "주변 제품사진이 깨끗한 다수+흐린 가림3장으로 수정됨. 글자·워터마크 없음."
+        ]
+      },
+      "attempts": [
+        {
+          "id": "C02_K08",
+          "concept_id": "C02",
+          "scene_id": "S08",
+          "linked_cut": "K08",
+          "image_path": "images/C02/S08.png",
+          "source_generated_path": "C:\\Users\\wseok\\.codex\\generated_images\\01a16462-ffcb-7d32-941c-014ec69f730b\\exec-cd148b76-5f95-4c34-97d2-23a32b81acc1.png",
+          "generation_tool": "image_gen",
+          "prompt": "Create one newly rendered 16:9 cinematic first-frame image, not a collage or storyboard page. Use the supplied approved V8 reference to preserve exact casting, wardrobe, creature design, architecture, props and left-right continuity. Depict the start of future motion, not its payoff. No captions, subtitles, logos, watermark or random writing baked in; typography will be added in post. Preserve a calm high-contrast region for later captions without obscuring or shrinking essential action. No extra characters or giant decorative props. Front view evidence wall. Inspector holds new printed photo 10 cm in front of still-empty central space, before attaching it. Photo depicts SAME proud detective, cuffed camera and ring from prior shot, not a replacement portrait. Detective watches in profile.\nUse case: ads-marketing. NEW single cinematic first-frame. Ref1 gives two-performer composition at wall; Ref2 is exact NEW scene photo source; Ref3 exact evidence-board mixed clean photos and older detective identity. Preserve petite curly-haired Korean inspector at LEFT in cobalt coveralls and grey gloves, round glasses. Detective RIGHT in profile, same moustache, hair and cracked brown coat, hands lowered. Inspector holds ONE landscape photographic print about 10cm AWAY from center of cork board before attaching it, tilted slightly so air gap and shadow visible. Center cork remains unoccupied behind it. The print must depict SAME long-haired detective on LEFT holding coat lapels, SAME cuffed silver camera center (one cuff on black top bracket, other hanging over orange window), SAME inspector at right now pointing at ring, SAME white upright specimen and blurry ring monitor. This is a field record photo of prior shot, not mugshot, no portrait substitutions. Outer board preserve ref3: mostly clean varied product photos and only three fuzzy-smudge photos, red threads and empty central cork. No text or pins on new print yet. 16:9 landscape.",
+          "referenced_image_paths": [
+            "\\\\wsl.localhost\\Ubuntu-24.04\\home\\wooseok\\wsy\\samsung_related\\slide\\AI실행결과발표대회_디자인3종\\storyboards\\2026-10-19_tone-polish-v8\\images\\C02\\S08.png",
+            "\\\\wsl.localhost\\Ubuntu-24.04\\home\\wooseok\\wsy\\samsung_related\\slide\\AI실행결과발표대회_디자인3종\\storyboards\\2026-10-23_v9-caption-first\\images\\C02\\S07_v2.png",
+            "\\\\wsl.localhost\\Ubuntu-24.04\\home\\wooseok\\wsy\\samsung_related\\slide\\AI실행결과발표대회_디자인3종\\storyboards\\2026-10-23_v9-caption-first\\images\\C02\\S01_v2.png"
+          ],
+          "next_motion": "IN이 직접 사진을 붙인다. DE는 사진 속 자기 모습을 알아보고 눈이 멈춘다. 이 컷에서 말하거나 손을 뻗지 않는다.",
+          "camera_notes": "수사벽 정면 미디엄 와이드. IN 손과 새 사진, DE 옆얼굴. 새 사진 속 H·수갑·인물은 K07과 동일.",
+          "sha256": "EE495B61CD54B5D20254152F323C2A8E7AFC945479F163C82FA1719854953E3C",
+          "source_sha256": "EE495B61CD54B5D20254152F323C2A8E7AFC945479F163C82FA1719854953E3C",
+          "dimensions": [
+            1672,
+            941
+          ],
+          "artist_review": {
+            "opened_actual_image": true,
+            "status": "revision_required",
+            "notes": [
+              "새 현장 사진 속 같은 형사·검사자·수갑 장비·고리 가림 모니터 확인.",
+              "사진을 핀 없이 공중에 든 시작 상태 확인.",
+              "주변 사진에 원참조의 많은 얼룩이 돌아옴. S01과 맞춰 깨끗한 사진 혼합으로 수정 필요."
+            ]
+          },
+          "attempts": []
+        }
+      ]
+    },
+    {
+      "id": "C02_K09",
+      "concept_id": "C02",
+      "scene_id": "S09",
+      "linked_cut": "K09",
+      "image_path": "images/C02/S09_v2.png",
+      "source_generated_path": "C:\\Users\\wseok\\.codex\\generated_images\\01a16462-ffcb-7d32-941c-014ec69f730b\\exec-02744181-9c48-40fa-80a6-5b536e5d5022.png",
+      "generation_tool": "image_gen",
+      "prompt": "Use case: precise-object-edit. Image1 edit target, image2 continuity reference. Preserve ALL people, faces, clothing, exact hands, lowered pointer, pinned central field photograph, camera framing, blank upper wall and lighting. ONLY remove black blurry spots from the SMALL OUTER product photographs on cork board to match image2. Keep exactly THREE spots: upper rectangular metal block, upper octagonal metal ring, middle-right perforated cylinder. Remove spots from white plastic block, black heatsink, ball bearings, white pellets, lower cylinder and every other small product photo. The central large field photograph remains wholly unchanged with its detective, inspector, cuffed camera and ring-shadow monitor. Do not move pins, red threads, products or images. 16:9 landscape, no typography or watermark.",
+      "referenced_image_paths": [
+        "\\\\wsl.localhost\\Ubuntu-24.04\\home\\wooseok\\wsy\\samsung_related\\slide\\AI실행결과발표대회_디자인3종\\storyboards\\2026-10-23_v9-caption-first\\images\\C02\\S09.png",
+        "\\\\wsl.localhost\\Ubuntu-24.04\\home\\wooseok\\wsy\\samsung_related\\slide\\AI실행결과발표대회_디자인3종\\storyboards\\2026-10-23_v9-caption-first\\images\\C02\\S08_v2.png"
+      ],
+      "next_motion": "IN의 포인터가 사진에 닿으면 DE가 떼려던 손가락을 펴 가장자리를 한 번 반듯하게 누른다. 그 손과 태연한 얼굴을 유지한다. 옷깃 정리·팔짱·추가 손짓은 넣지 않는다.",
+      "camera_notes": "고정 미디엄 와이드. DE 손·포인터·중앙 사진, 위쪽 벽의 자막 여백.",
+      "sha256": "F53406A9898DF07B92DAD5BDE7C14D9EE37886693B9D40F824452BA3486D7B55",
+      "source_sha256": "F53406A9898DF07B92DAD5BDE7C14D9EE37886693B9D40F824452BA3486D7B55",
+      "dimensions": [
+        1672,
+        941
+      ],
+      "artist_review": {
+        "opened_actual_image": true,
+        "status": "candidate",
+        "notes": [
+          "S08의 현장 사진과 같은 구성으로 중앙에 핀 고정, 주변 제품 사진 깨끗한 다수+가림3장 확인.",
+          "DE손끝이 사진 앞에 떠 있고 IN 포인터는 허리 높이에 내려가 있음.",
+          "상단 빈 회색 벽에 후편집 행사명 여백 확보. 손·얼굴·사진 가리지 않음."
+        ]
+      },
+      "attempts": [
+        {
+          "id": "C02_K09",
+          "concept_id": "C02",
+          "scene_id": "S09",
+          "linked_cut": "K09",
+          "image_path": "images/C02/S09.png",
+          "source_generated_path": "C:\\Users\\wseok\\.codex\\generated_images\\01a16462-ffcb-7d32-941c-014ec69f730b\\exec-009137b7-a212-4e1d-b299-e02ff9c95102.png",
+          "generation_tool": "image_gen",
+          "prompt": "Create one newly rendered 16:9 cinematic first-frame image, not a collage or storyboard page. Use the supplied approved V8 reference to preserve exact casting, wardrobe, creature design, architecture, props and left-right continuity. Depict the start of future motion, not its payoff. No captions, subtitles, logos, watermark or random writing baked in; typography will be added in post. Preserve a calm high-contrast region for later captions without obscuring or shrinking essential action. No extra characters or giant decorative props. New photo now fixed at wall center. Detective's fingertips hover 10 cm away before trying to remove it. Inspector's pointer remains at waist. Preserve clear upper wall for later title without covering photo, face or hand. No innocent straightening pose yet.\nUse case: ads-marketing. NEW cinematic ending first-frame, 16:9 landscape. PRIORITIZE image1 for exact present character identity, NEW field photograph and cleaned mixed evidence-board contents; image2 is only guide for WIDER framing and hand/pointer staging. Camera pulls slightly back so broad PLAIN grey upper wall spans top quarter for event text added in post (DO NOT generate words). The SAME landscape field photograph from image1 is now pinned flat at board center with two small red pins. Do not replace or simplify its detailed scene: same long-haired detective, same inspector, same silver camera with orange window and hanging cuff, same monitor and white specimen. All surrounding product photographs and strings retain image1 arrangement and mostly CLEAN photos, only three blurred marks. Inspector stands LEFT holding thin black pointer at WAIST height with both gloved hands; pointer tip not touching photo and not raised. Detective stands RIGHT, one hand extended with fingertips 10cm in front of right edge of his photo, not touching, not already peeling or pressing. His face remains sternly composed, looking at the photograph. His other hand stays down. No text, logo, watermarks or arrows.",
+          "referenced_image_paths": [
+            "\\\\wsl.localhost\\Ubuntu-24.04\\home\\wooseok\\wsy\\samsung_related\\slide\\AI실행결과발표대회_디자인3종\\storyboards\\2026-10-23_v9-caption-first\\images\\C02\\S08_v2.png",
+            "\\\\wsl.localhost\\Ubuntu-24.04\\home\\wooseok\\wsy\\samsung_related\\slide\\AI실행결과발표대회_디자인3종\\storyboards\\2026-10-19_tone-polish-v8\\images\\C02\\S09_v2.png"
+          ],
+          "next_motion": "IN의 포인터가 사진에 닿으면 DE가 떼려던 손가락을 펴 가장자리를 한 번 반듯하게 누른다. 그 손과 태연한 얼굴을 유지한다. 옷깃 정리·팔짱·추가 손짓은 넣지 않는다.",
+          "camera_notes": "고정 미디엄 와이드. DE 손·포인터·중앙 사진, 위쪽 벽의 자막 여백.",
+          "sha256": "2E2268460578AB4EBFD79441DB0141354C290F048BDBB21DDC52C46FB6E6AB79",
+          "source_sha256": "2E2268460578AB4EBFD79441DB0141354C290F048BDBB21DDC52C46FB6E6AB79",
+          "dimensions": [
+            1672,
+            941
+          ],
+          "artist_review": {
+            "opened_actual_image": true,
+            "status": "revision_required",
+            "notes": [
+              "중앙 현장 사진 핀 부착, DE손 사진 직전, IN 포인터 허리 높이, 상단 빈 벽 확인.",
+              "주변 제품 사진의 얼룩이 일부 다시 늘어나 S08과 연속성 수정을 진행."
+            ]
+          },
+          "attempts": []
+        }
+      ]
+    }
+  ]
+}

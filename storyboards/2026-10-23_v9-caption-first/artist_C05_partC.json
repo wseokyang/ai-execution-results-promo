@@ -1,0 +1,162 @@
+{
+  "concept_id": "C05",
+  "owned_units": [
+    "C05_K07",
+    "C05_K08"
+  ],
+  "expected_images": 2,
+  "images": [
+    {
+      "id": "C05_K07",
+      "concept_id": "C05",
+      "scene_id": "S07",
+      "linked_cut": "K07",
+      "image_path": "images/C05/S07_v3.png",
+      "source_generated_path": "C:/Users/wseok/.codex/generated_images/01a13daf-3732-7b90-99a8-92c605090d35/exec-845f1f22-ed5f-4df8-9073-90f50064e832.png",
+      "generation_tool": "image_gen",
+      "prompt": "Precise local correction of this single film still. Keep the exact creature, LEFT-pointing muzzle, visible ear on the RIGHT of its head, S-folded neck, both hands supporting roof, lighting, building and camera unchanged. The black earcup is currently incorrectly in front of the nose. Move ONLY the technician's extended right arm, orange-gloved hand and the black earcup farther right so the earcup is poised approximately 10cm directly next to the visible round RED EAR at screen-right of the head, behind the eye. His right elbow should be naturally straightened and his torso may lean slightly forward from the ladder to reach; make a physically natural arm length, do not stretch the limb unnaturally. His left hand keeps gripping the ladder. If needed translate the technician and ladder slightly toward the creature's shoulder without reversing orientation so he can reach the ear. Black earcup NOT touching yet, loose strap and one cable falling outside ladder. Do not put the cup in front of the eye or mouth. Keep face and eye legible above the reaching forearm. One technician, two normal human arms and hands only. Monster's eyes, ear position, head direction and supporting hands unchanged. No captions, logos or text. Same 16:9 single cinematic practical rubber puppet frame.",
+      "referenced_image_paths": [
+        "\\\\wsl.localhost\\Ubuntu-24.04\\home\\wooseok\\wsy\\samsung_related\\slide\\AI실행결과발표대회_디자인3종\\storyboards\\2026-10-23_v9-caption-first\\images\\C05\\S07_v2.png"
+      ],
+      "next_motion": "TE가 화면에 보이는 같은 귀에 이어컵과 뒤끈을 건다. 실체 공개 후 들리세요? 자막. 괴수 한 번 깜빡임. 발화 없음.",
+      "camera_notes": "와이드와 같은 쪽에서 당긴 사다리 상부 미디엄. 주둥이 왼쪽·귀 오른쪽·같은 S목. 기술자와 양손 지붕 지지 일부.",
+      "sha256": "123b91e6793aee0aeba8fca92bcf4a9c43584d0d8abd7af2f3c564b7a7e812b2",
+      "source_sha256": "123b91e6793aee0aeba8fca92bcf4a9c43584d0d8abd7af2f3c564b7a7e812b2",
+      "dimensions": [
+        1672,
+        941
+      ],
+      "artist_review": {
+        "opened_actual_image": true,
+        "status": "candidate_after_cross_review_fix",
+        "notes": [
+          "실제 전체 생성 출력 확인. 주둥이 왼쪽·보이는 귀 오른쪽·같은 S자 목·양손 지붕 지지 유지.",
+          "이어컵이 노출된 귀 바로 옆에 있고 미장착. 기술자가 팔을 자연스럽게 뻗고 반대 손은 사다리를 잡음.",
+          "첫 수정에서 컵이 주둥이 앞에 남아 국소 수정 1회 추가. 두 이전 파일·정확 요청 보존. 독립 재확인 대기."
+        ]
+      },
+      "attempts": [
+        {
+          "id": "C05_K07",
+          "concept_id": "C05",
+          "scene_id": "S07",
+          "linked_cut": "K07",
+          "image_path": "images/C05/S07.png",
+          "source_generated_path": "C:\\Users\\wseok\\.codex\\generated_images\\01a16462-ffcb-7d32-941c-014ec69f730b\\exec-b9024830-e12d-4ef2-aa14-87620c862a11.png",
+          "generation_tool": "image_gen",
+          "prompt": "Create one newly rendered 16:9 cinematic first-frame image, not a collage or storyboard page. Use the supplied approved V8 reference to preserve exact casting, wardrobe, creature design, architecture, props and left-right continuity. Depict the start of future motion, not its payoff. No captions, subtitles, logos, watermark or random writing baked in; typography will be added in post. Preserve a calm high-contrast region for later captions without obscuring or shrinking essential action. No extra characters or giant decorative props. Fixed medium at ladder top. Technician holds ONE oversized black wired earcup10cm from SAME far-side red ear BEFORE fitting; rear strap not attached. Cable outside ladder toward gym. Yellow eye watches, both supporting hands partly visible. Preserve actual ear/building orientation despite opposite camera angle.\nUse case: ads-marketing. NEW single first-frame photoreal practical tokusatsu puppet film still. Image1 defines close camera, technician and chosen ear orientation; image2 is current monster/porch visual identity. Preserve deliberately cheap red painted foam puppet texture, chips and seams, round yellow bulging eyes with tiny black pupils, horizontal slit mouth, red rounded ears, thick long S-FOLDED neck (not shortened), square torso. Same slender elderly Korean technician, short silver hair, long thin white goatee, grey shirt, navy work overalls, orange work gloves. He is at TOP of already-extended ladder outside porch, not under unsupported load. One gloved hand safely grips ladder while the other holds ONE oversized BLACK WIRED EARCUP visibly10cm away from SAME far red ear before contact; loose rear strap not fastened yet. Black wire runs down OUTSIDE ladder, no loops around body or rungs. Both giant supporting hands partly visible at left/right upper frame, pressing roof underside firmly; monster cannot lift either hand. Opposite camera angle to wide shot is allowed, but do not mirror ear on anatomy. Preserve S neck and exact red head, scale ear approximately4.2m above ground relative to5m porch. No writing, captions, logo or watermark; 16:9 landscape.\nImage3 shows current support pose after roof capture and daylight. Maintain that same head/neck scale and both hands supporting roof. Technician is a normal small adult relative to the same giant.",
+          "referenced_image_paths": [
+            "\\\\wsl.localhost\\Ubuntu-24.04\\home\\wooseok\\wsy\\samsung_related\\slide\\AI실행결과발표대회_디자인3종\\storyboards\\2026-10-19_tone-polish-v8\\images\\C05\\S07.png",
+            "\\\\wsl.localhost\\Ubuntu-24.04\\home\\wooseok\\wsy\\samsung_related\\slide\\AI실행결과발표대회_디자인3종\\storyboards\\2026-10-23_v9-caption-first\\images\\C05\\S03.png",
+            "\\\\wsl.localhost\\Ubuntu-24.04\\home\\wooseok\\wsy\\samsung_related\\slide\\AI실행결과발표대회_디자인3종\\storyboards\\2026-10-23_v9-caption-first\\images\\C05\\S04.png"
+          ],
+          "next_motion": "TE가 같은 먼쪽 귀에 이어컵·뒤끈을 건다. 실체를 먼저 보여준 뒤 아래 FM의 들리세요? 자막. 괴수 한 번 깜빡임. 발화 없음.",
+          "camera_notes": "사다리 상부의 고정 미디엄. TE의 마른 수염 얼굴·노란 눈·한쪽 귀·이어컵·지붕을 붙든 양손 일부.",
+          "sha256": "877282E4AF6246960A195D1049FCD185986D75E6CE4EC63E02BCA965656D74B7",
+          "source_sha256": "877282E4AF6246960A195D1049FCD185986D75E6CE4EC63E02BCA965656D74B7",
+          "dimensions": [
+            1672,
+            941
+          ],
+          "artist_review": {
+            "opened_actual_image": true,
+            "status": "candidate",
+            "notes": [
+              "TE 은회색 머리·흰 긴 턱수염·남색 멜빵·주황 장갑과 사다리 상부 위치 확인.",
+              "검정 유선 이어컵1개가 귀 앞 틈을 두고 대기, 뒤끈 미체결, 케이블 사다리 바깥.",
+              "S자목·빨간 인형 페인트/이음새·노란눈 유지, 양손 지붕 지지 일부가 프레임 양끝에 보임.",
+              "반대 카메라 시점이므로 새 와이드와 귀의 실제 동일성은 교차검수 항목."
+            ]
+          }
+        },
+        {
+          "id": "C05_K07",
+          "image_path": "images/C05/S07_v2.png",
+          "source_generated_path": "C:/Users/wseok/.codex/generated_images/01a13daf-3732-7b90-99a8-92c605090d35/exec-28af7771-615b-4fb6-afb0-1cae85cde802.png",
+          "status": "superseded; earcup remains in front of muzzle, not next to ear",
+          "prompt": "Create a corrected cinematic 16:9 first-frame film still for this exact practical red rubber tokusatsu creature. Reference 1 is the AUTHORITATIVE anatomy, head direction, building direction and roof support state. Reference 2 provides the elderly technician's casting, clothing and the black wired earcup, but its reversed monster head direction is WRONG and must NOT be copied. Reference 3 defines the same extended ladder and set. Make a closer view from the SAME side of the scene as reference 1, without mirroring anything: the creature's muzzle points to SCREEN LEFT and its visible round ear is on the SCREEN RIGHT of its head behind the yellow eye. Keep the same S-folded neck flowing down to the same torso. Both giant hands remain pressing the roof underside, visible near the upper edges. The slender elderly Korean technician with short silver hair, long thin white goatee, grey shirt, navy overalls and orange work gloves stands on upper rungs of the same ladder outside the porch. Position camera and technician naturally so his right gloved hand holds ONE black wired earcup approximately 10cm BEFORE touching that SAME visible ear on screen-right of the creature's head, while his left gloved hand steadies the ladder. The earcup is not yet attached and its strap is loose. The ladder's lower position remains toward screen left as in the wide scene; do not reverse the building or monster to fit him. Camera may move closer and slightly sideways on this same side, but must preserve LEFT-pointing muzzle and RIGHT-side visible ear. Cable descends freely outside ladder. Keep normal-sized technician and giant creature scale, chipped red painted foam, protruding yellow eyes and worried puppet expression. Warm bright daylight as reference 1. This is a BEFORE-installation shot. No text, no captions, no labels, no watermark, no additional characters or limbs. 16:9 landscape, one image.",
+          "referenced_image_paths": [
+            "\\\\wsl.localhost\\Ubuntu-24.04\\home\\wooseok\\wsy\\samsung_related\\slide\\AI실행결과발표대회_디자인3종\\storyboards\\2026-10-23_v9-caption-first\\images\\C05\\S08_v2.png",
+            "\\\\wsl.localhost\\Ubuntu-24.04\\home\\wooseok\\wsy\\samsung_related\\slide\\AI실행결과발표대회_디자인3종\\storyboards\\2026-10-23_v9-caption-first\\images\\C05\\S07.png",
+            "\\\\wsl.localhost\\Ubuntu-24.04\\home\\wooseok\\wsy\\samsung_related\\slide\\AI실행결과발표대회_디자인3종\\storyboards\\2026-10-23_v9-caption-first\\images\\C05\\S06_v2.png"
+          ],
+          "sha256": "198a1aeee729224c81236adfe42c1ad8ac36ae3ff673d43add134963853689d5",
+          "artist_review": {
+            "opened_actual_image": true,
+            "status": "superseded",
+            "notes": [
+              "귀 방향은 복구됐지만 컵이 주둥이 앞에 남아 다음 국소 수정으로 교체."
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "C05_K08",
+      "concept_id": "C05",
+      "scene_id": "S08",
+      "linked_cut": "K08",
+      "image_path": "images/C05/S08_v2.png",
+      "source_generated_path": "C:\\Users\\wseok\\.codex\\generated_images\\01a16462-ffcb-7d32-941c-014ec69f730b\\exec-bc926bdb-4339-44c1-b6c2-4cccffefc347.png",
+      "generation_tool": "image_gen",
+      "prompt": "Use case: precise-object-edit. Correct image1 only, preserving its same cast, set, body size, both hands pressing roof, knees, pavement, jack, column and lighting. Image2 defines REQUIRED head and S-neck orientation; image3 defines full extended ladder height and attached-ear orientation. Fix: restore monster HEAD to face SCREEN LEFT exactly as image2 and3; long neck follows SAME S curve as image2, do NOT mirror neck. Mouth points left and same visible ear sits on head's SCREEN RIGHT. Attach ONE black wired earcup on that SAME visible right-side red ear, with rear strap and cable outside ladder. Eyes may glance slightly DOWN toward foreman without turning head. BOTH hands and straight wrists firmly support roof, NO thumb up. Restore the fully-extended tall ladder at screen LEFT: top reaches about ear height4.2m, as tall relative to monster as image3, not the shortened ladder in image1. Technician stays on ground beside it, with ORANGE gloves, holding rail. Preserve foreman yellow gloves. Cable runs outside ladder then across ground to open entrance. No extra earcup, no text, no watermark. 16:9 landscape.",
+      "referenced_image_paths": [
+        "\\\\wsl.localhost\\Ubuntu-24.04\\home\\wooseok\\wsy\\samsung_related\\slide\\AI실행결과발표대회_디자인3종\\storyboards\\2026-10-23_v9-caption-first\\images\\C05\\S08.png",
+        "\\\\wsl.localhost\\Ubuntu-24.04\\home\\wooseok\\wsy\\samsung_related\\slide\\AI실행결과발표대회_디자인3종\\storyboards\\2026-10-23_v9-caption-first\\images\\C05\\S04.png",
+        "\\\\wsl.localhost\\Ubuntu-24.04\\home\\wooseok\\wsy\\samsung_related\\slide\\AI실행결과발표대회_디자인3종\\storyboards\\2026-10-19_tone-polish-v8\\images\\C05\\S08_v2.png"
+      ],
+      "next_motion": "35–38초 오른손 엄지 답신 시도→지붕 흔들림→다시 잡기→작은 끄덕임. 38–42.8초 손 고정 상태에 행사명·시작 문구. 필수 안내 음성 없음.",
+      "camera_notes": "외부 고정 와이드. 같은 S목·무릎·양손 지지. 몸개그 3초 후 하단 제목판을 사용해 지붕·손·얼굴을 보존한다.",
+      "sha256": "138B2F1A01B7E19E258D254E05EBF5B5DC947982A4ECB0C686EA3DC0AC3BFB0D",
+      "source_sha256": "138B2F1A01B7E19E258D254E05EBF5B5DC947982A4ECB0C686EA3DC0AC3BFB0D",
+      "dimensions": [
+        1672,
+        941
+      ],
+      "artist_review": {
+        "opened_actual_image": true,
+        "status": "candidate",
+        "notes": [
+          "머리 왼쪽·S자 목·같은 귀 위치로 복구, 긴 사다리 높이 복구.",
+          "이어컵1개가 설치되고 검은 케이블이 사다리 바깥/바닥을 따라 입구로 연결.",
+          "양손 지붕 지지·곧은 손목·엄지 들기 전, 무릎 접힘/개체 크기/짧은 잭/왼쪽 누운 기둥 유지.",
+          "기사 장갑은 광원 아래 황주황으로 보임. 반장 쪽 눈길의 명확성은 후속 동작 검수 대상. 하단 자막 여백 확보."
+        ]
+      },
+      "attempts": [
+        {
+          "id": "C05_K08",
+          "concept_id": "C05",
+          "scene_id": "S08",
+          "linked_cut": "K08",
+          "image_path": "images/C05/S08.png",
+          "source_generated_path": "C:\\Users\\wseok\\.codex\\generated_images\\01a16462-ffcb-7d32-941c-014ec69f730b\\exec-11dc441e-0a5d-48c8-9371-4fb34c2d66ec.png",
+          "generation_tool": "image_gen",
+          "prompt": "Create one newly rendered 16:9 cinematic first-frame image, not a collage or storyboard page. Use the supplied approved V8 reference to preserve exact casting, wardrobe, creature design, architecture, props and left-right continuity. Depict the start of future motion, not its payoff. No captions, subtitles, logos, watermark or random writing baked in; typography will be added in post. Preserve a calm high-contrast region for later captions without obscuring or shrinking essential action. No extra characters or giant decorative props. Exterior wide. Same full-size monster crouched with S-neck, BOTH hands gripping roof. Black wired earcup ALREADY fitted to same far ear, cable to gym. Monster looks down at foreman BEFORE thumbs-up: right wrist straight and fingers gripping. Column and short jack remain. Clear lower-left pavement or sky for title without covering hands, feet, cable or ear.\nUse case: ads-marketing. NEW single practical tokusatsu puppet film still. PRIORITIZE image1 for CURRENT same red monster size/skin/head/S-neck, porch height, roof angle and warm daylight. Image2 guides completed earcup and personnel arrangement; image3 provides actual earcup and technician identity. Wide exterior at same frontal side as image1. Monster approximately8m upright but NOW knees deeply bent and very long neck folded into a big S, crown4.5m, ear4.2m; do NOT shorten neck, torso or legs. BOTH thick red hands firmly press roof UNDERSIDE at same two spots, fingers extended against it and wrists straight. Right thumb NOT raised yet. One BLACK WIRED EARCUP already mounted on SAME red far ear, secured behind head with subtle black strap, cable descends OUTSIDE ladder and across ground toward open gym entrance right, not wrapped around body. Monster pupils look downward toward stocky silver buzzcut foreman at right, olive jacket black trousers yellow gloves. Same slender white-goateed elderly technician at left now on ground next to full-height ladder after implied descent. Fallen column lies on LEFT pavement; short red jack remains right. Preserve cheap chipped rubber puppet aesthetic, not realistic dinosaur. Frame lower-left clear pavement for later event words while keeping cable/feet visible. No typography, watermark or labels. 16:9 landscape.",
+          "referenced_image_paths": [
+            "\\\\wsl.localhost\\Ubuntu-24.04\\home\\wooseok\\wsy\\samsung_related\\slide\\AI실행결과발표대회_디자인3종\\storyboards\\2026-10-23_v9-caption-first\\images\\C05\\S04.png",
+            "\\\\wsl.localhost\\Ubuntu-24.04\\home\\wooseok\\wsy\\samsung_related\\slide\\AI실행결과발표대회_디자인3종\\storyboards\\2026-10-19_tone-polish-v8\\images\\C05\\S08_v2.png",
+            "\\\\wsl.localhost\\Ubuntu-24.04\\home\\wooseok\\wsy\\samsung_related\\slide\\AI실행결과발표대회_디자인3종\\storyboards\\2026-10-23_v9-caption-first\\images\\C05\\S07.png"
+          ],
+          "next_motion": "35–38초 오른손 엄지 답신 시도→지붕 흔들림→다시 잡기→작은 끄덕임. 38–42.8초 손 고정 상태에 행사명·시작 문구. 필수 안내 음성 없음.",
+          "camera_notes": "외부 고정 와이드. K04 기준 크기·S자 목·굽힌 무릎을 유지한다. 밝은 지붕 하면과 대비되는 오른손의 손목·손가락 동작을 보이게 한다. 행사명은 발·전선·잭 아래의 하단 포장면에 어두운 그라데이션을 받쳐 배치한다. 얼굴·이어컵·양손을 덮지 않는다.",
+          "sha256": "7A48967F758A1EEE3CC8FBA987F25A07057293A5372D666D71859AF3521B14CF",
+          "source_sha256": "7A48967F758A1EEE3CC8FBA987F25A07057293A5372D666D71859AF3521B14CF",
+          "dimensions": [
+            1672,
+            941
+          ],
+          "artist_review": {
+            "opened_actual_image": true,
+            "status": "revision_required",
+            "notes": [
+              "양손 지붕 지지·이어컵 연결·바닥 케이블·반장/기사·기둥·잭 확인.",
+              "머리 방향이 기존 왼쪽에서 오른쪽으로 뒤집히고 사다리가 짧아져 목/귀/사다리 연속성 보정 필요."
+            ]
+          },
+          "attempts": []
+        }
+      ]
+    }
+  ]
+}

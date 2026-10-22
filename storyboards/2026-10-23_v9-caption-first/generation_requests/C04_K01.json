@@ -1,0 +1,13 @@
+{
+  "id": "C04_K01",
+  "source_generated_path": "C:\\Users\\wseok\\.codex\\generated_images\\01a13daf-3732-7b90-99a8-92c605090d35\\exec-edb1e584-8673-47ba-b90c-e838b2e22c48.png",
+  "prompt": "Create a newly rendered single cinematic 16:9 widescreen START FRAME for an absurdly serious Korean historical comedy commercial. Use this reference for the exact three faces, ages, hairstyles, armor, sleeve colors, timber construction, light, and purple crescent envelope. Fresh frame, no collage. Inside the cramped Trojan horse: left older Korean woman with gray side braid and olive sleeves; center thin young Korean man with short black hair, dark-blue sleeves; right round middle-aged Korean man with curly brown hair and ochre sleeves. Precisely three soldiers. Their conspiracy is played with intense realism, not smiles. The right ochre man's free hand is hovering just above his own belly BEFORE clutching it; his other hand holds a small blank meal-request slip. The other two have alert tense eyes and are beginning to notice him. Envelope with a simple purple crescent is open at knee height, no slips inserted yet. No bowls, spoons, plates, food or weapons. Each person has exactly two natural hands, connected to correct arms. Compose slightly wider than reference so a dark quiet upper timber area has space for later captions without covering faces, belly hand, slips or crescent envelope. Maintain warm slatted light and rich dark wood, film texture, authentic costumes. Do not add any captions, letters, logos, titles, watermark, border or panel divisions. The scene must be BEFORE the belly clutch and before the note is placed into the envelope.",
+  "referenced_image_paths": [
+    "\\\\wsl.localhost\\Ubuntu-24.04\\home\\wooseok\\wsy\\samsung_related\\slide\\AI실행결과발표대회_디자인3종\\storyboards\\2026-10-19_tone-polish-v8\\images\\C04\\S01_v2.png"
+  ],
+  "observations": [
+    "실제 생성 결과 확인: 병사 셋과 올리브/남색/황토 소매, 종이·보라 초승달 봉투 유지.",
+    "황토 병사의 빈손이 배 앞에 있고 그릇·수저 미노출. 위쪽 어두운 목재 여백 확보.",
+    "정지 프레임이며 이후 배 누르기/메모 투입 동작 성공은 미검증."
+  ]
+}

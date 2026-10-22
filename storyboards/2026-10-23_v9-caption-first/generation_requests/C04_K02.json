@@ -1,0 +1,13 @@
+{
+  "id": "C04_K02",
+  "source_generated_path": "C:\\Users\\wseok\\.codex\\generated_images\\01a13daf-3732-7b90-99a8-92c605090d35\\exec-fc6096cd-d1f1-433b-899b-e8348ffe44bb.png",
+  "prompt": "New single 16:9 cinematic opening frame for the next shot of this Korean historical absurdist commercial. Preserve the reference's exact commander face, tied long black hair, pointed black beard, purple cloak, brown armor; preserve the elderly short round bald clerk with black round glasses, white moustache, mustard vest and white sleeves. Same stone gate, wooden Trojan horse facing LEFT behind them, exactly THREE square CLOSED side hatches and purple crescent emblem. Commander on left holds a crescent envelope and one broad white declaration sheet immediately BEFORE handing it to clerk on right. Clerk's two open hands wait with a visible gap, no contact yet. All hands anatomically clear. Foreground reception desk with stacks of other delivery envelopes marked simple colored geometric symbols and a modern flatbed scanner. Exact document text will be composited later: keep the entire broad white declaration sheet BLANK and planar, no letters anywhere. No readable writing, no caption, watermark, logo, title or collage. Rich realistic period light and filmic detail, solemn believable acting. Leave an uncrowded dark patch near the upper stone wall for later subtitle, while keeping face, hands, envelope, three hatches and horse emblem unobstructed. Horse hatches fully closed, no bowl, spoon, food, interior soldier or steam. This is the start before the paper transfer, not the completed handover.",
+  "referenced_image_paths": [
+    "\\\\wsl.localhost\\Ubuntu-24.04\\home\\wooseok\\wsy\\samsung_related\\slide\\AI실행결과발표대회_디자인3종\\storyboards\\2026-10-19_tone-polish-v8\\images\\C04\\S02.png"
+  ],
+  "observations": [
+    "실제 결과: 지휘관·기록담당 외형/의상 유지. 열린 두 손과 문서 사이 간격이 있는 전달 전 상태.",
+    "목마 옆창 세 개 닫힘, 보라 초승달 일치, 음식·그릇 미노출.",
+    "신고서 글을 제거해 후편집용 넓은 흰 면 확보. 후속 문구 합성 필요."
+  ]
+}

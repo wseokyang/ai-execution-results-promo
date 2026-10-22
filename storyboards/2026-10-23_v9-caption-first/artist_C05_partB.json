@@ -1,0 +1,143 @@
+{
+  "concept_id": "C05",
+  "part": "B",
+  "expected_images": 3,
+  "assigned_units": [
+    "C05_K04",
+    "C05_K05",
+    "C05_K06"
+  ],
+  "images": [
+    {
+      "id": "C05_K04",
+      "concept_id": "C05",
+      "scene_id": "S04",
+      "linked_cut": "K04",
+      "image_path": "images/C05/S04.png",
+      "source_generated_path": "C:\\Users\\wseok\\.codex\\generated_images\\01a16462-c046-7f73-8e87-d3114dbd42a8\\exec-345df29f-8924-4d9a-974f-80638037832c.png",
+      "generation_tool": "image_gen",
+      "prompt": "Create one newly rendered 16:9 cinematic first-frame image, not a collage or storyboard page. Use the supplied approved V8 reference to preserve exact casting, wardrobe, creature design, architecture, props and left-right continuity. Depict the start of future motion, not its payoff. No captions, subtitles, logos, watermark or random writing baked in; typography will be added in post. Preserve a calm high-contrast region for later captions without obscuring or shrinking essential action. No extra characters or giant decorative props. Bright wide. Same monster holds roof with both hands, knees bent, exact S-neck pose. Stocky silver-buzzcut foreman in olive jacket and yellow gloves rolls still-short red jack to outside position BEFORE extending. Monster glances toward exit. Same ear height, roof angle, column and building. Nobody under load.\nREFERENCE 1 is the NEW authoritative monster/porch/removed column/lighting image. Preserve its EXACT red puppet face, yellow eyes, tiny black pupils, red semicircular ear, rubber seams and flaking paint, thick arms, square torso, huge feet, DEEPLY bent knees and the entire long S-shaped folded neck. Reference2 supplies the stocky foreman's face, olive jacket, black work pants, yellow gloves and small wheeled red jack only. NEW single wide 16:9 still. Update monster's hands from the victory hover in ref1: BOTH hands now press and grip separate points on porch FRONT underside, taking roof weight; fingers firmly in contact, roof stable but subtly lower at unsupported front-left. Same monster has not shrunk and not straightened: originally8m upright, currently head4.5m and small ear4.2m, neck's complete length folded in large S across chest. It glances toward left escape path, wary of being stuck. Detached pale front-left column still horizontal on LEFT pavement. Separate approximately5m-high porch in front of intact12m gym, front-right column and back columns unchanged. Never add a new support or repaired column. On RIGHT FOREGROUND OUTSIDE porch, the stocky broad-jawed Korean man in his50s with silver buzzcut and facial wrinkles pushes the low red jack by its angled handle, still moving and BEFORE stopping/raising it. Jack telescoping screw is mostly RETRACTED, its top is lower than his knee; emphatically NOT tall enough to reach roof. FM stays outside falling-roof footprint. Bright day practical miniature tokusatsu, intentionally visible rubber puppet and miniature paint imperfections, no realistic animal anatomy. Wet reflective paving, same building and foliage as reference1. No earcup, cable, ladder, other people, text, logos, or watermark. Lower paving margin available for later captions, keep faces, hands, jack visible.",
+      "referenced_image_paths": [
+        "\\\\wsl.localhost\\Ubuntu-24.04\\home\\wooseok\\wsy\\samsung_related\\slide\\AI실행결과발표대회_디자인3종\\storyboards\\2026-10-23_v9-caption-first\\images\\C05\\S03.png",
+        "\\\\wsl.localhost\\Ubuntu-24.04\\home\\wooseok\\wsy\\samsung_related\\slide\\AI실행결과발표대회_디자인3종\\storyboards\\2026-10-19_tone-polish-v8\\images\\C05\\S04_v2.png"
+      ],
+      "next_motion": "FM이 잭을 끝까지 올려 짧음을 확인하고 놓지 말라는 두 손을 듦. 그 뒤 부탁 자막. 괴수는 나갈 길을 흘겨보지만 지지 유지.",
+      "camera_notes": "고정 와이드. 거대한 인형·짧은 잭·주름 있는 반장의 크기 대비. 포치 아래로 FM이 들어가지 않음.",
+      "sha256": "C4683B5F87E1EE60A1EF6E094718CD9AABBD40C59A206226B955F9A51D86F014",
+      "source_sha256": "C4683B5F87E1EE60A1EF6E094718CD9AABBD40C59A206226B955F9A51D86F014",
+      "dimensions": [
+        1672,
+        941
+      ],
+      "artist_review": {
+        "opened_actual_image": true,
+        "status": "candidate",
+        "notes": [
+          "실제 생성 및 저장 PNG 열람. 새 S03와 같은 노란 눈/빨간 고무 외피/긴 S자 목/접힌 무릎/체격 유지.",
+          "양손이 지붕 앞 하면에 접촉해 지지하는 상태. 분리 기둥은 왼쪽 바닥, 다른 기둥과 본체 유지.",
+          "반장은 포치 바깥 오른쪽에서 손잡이를 밀고 있으며 잭 나사는 거의 내려간 짧은 시작 상태. 이어컵·사다리·글자 없음. 원본/복사본 SHA256 일치."
+        ]
+      },
+      "attempts": []
+    },
+    {
+      "id": "C05_K05",
+      "concept_id": "C05",
+      "scene_id": "S05",
+      "linked_cut": "K05",
+      "image_path": "images/C05/S05.png",
+      "source_generated_path": "C:\\Users\\wseok\\.codex\\generated_images\\01a16462-c046-7f73-8e87-d3114dbd42a8\\exec-f2cdb626-5f89-4036-a121-b8d1d9566652.png",
+      "generation_tool": "image_gen",
+      "prompt": "Create one newly rendered 16:9 cinematic first-frame image, not a collage or storyboard page. Use the supplied approved V8 reference to preserve exact casting, wardrobe, creature design, architecture, props and left-right continuity. Depict the start of future motion, not its payoff. No captions, subtitles, logos, watermark or random writing baked in; typography will be added in post. Preserve a calm high-contrast region for later captions without obscuring or shrinking essential action. No extra characters or giant decorative props. Fixed medium of supporting monster head, BOTH hands and porch edge; open gym entrance right. Unchanged S-neck and bent knees. Eyes about to turn toward entrance, head not tilted yet. Roof stable. Clear caption region near entrance; do not add a giant sign.\nREFERENCE1 is authoritative NEW support posture, monster face, exact long S-neck/body size, roof angle, building, daylight. Reference2 reinforces monster identity/scale. Reference3 supplies only the medium camera composition. NEW 16:9 single cinematic miniature shot, fixed medium view from outside. Show both chunky RED hands firmly supporting the same porch front underside at two separated points; no hand released, no waving, no thumb gesture. The long RED neck keeps its entire S-curve folded across chest and down to square torso, no shortening or straightening. Deeply bent knees may be partly in bottom frame. SAME puppet yellow round eyes and small black pupils, horizontal mouth slit, visibly handmade chipped rubber, little red semicircular ear at back of head. Head remains level and oriented as in reference1, not tilted or cocked toward sound yet; only the tiny pupils are beginning to glance toward the OPEN gym doorway on screen-right. Correct scale: same8m upright creature now crouched with head4.5m/ear4.2m beneath5m porch, do not enlarge or shrink body. Include the open glass gym entrance clearly at right with warm interior light; keep its surrounding lower-right region uncluttered for caption overlay. Roof stable in its existing slight sag, intact front-right column and building, removed column can partly appear low-left. The single red jack remains very short outside porch at lower-right, now screw extended to its short maximum yet nowhere near roof. FM is outside this tighter crop, no new characters. No headset, earcup, cable, ladder, giant sign, text, labels, UI, logos or watermark. Preserve same wet miniature paving and sunlight warmth; intentional low-budget tokusatsu prop textures, NOT living animal realism.",
+      "referenced_image_paths": [
+        "\\\\wsl.localhost\\Ubuntu-24.04\\home\\wooseok\\wsy\\samsung_related\\slide\\AI실행결과발표대회_디자인3종\\storyboards\\2026-10-23_v9-caption-first\\images\\C05\\S04.png",
+        "\\\\wsl.localhost\\Ubuntu-24.04\\home\\wooseok\\wsy\\samsung_related\\slide\\AI실행결과발표대회_디자인3종\\storyboards\\2026-10-23_v9-caption-first\\images\\C05\\S03.png",
+        "\\\\wsl.localhost\\Ubuntu-24.04\\home\\wooseok\\wsy\\samsung_related\\slide\\AI실행결과발표대회_디자인3종\\storyboards\\2026-10-19_tone-polish-v8\\images\\C05\\S05_v2.png"
+      ],
+      "next_motion": "앞 3.6초는 양손 지지 유지하며 발표 예고 자막. 뒤 2.4초 눈·귀를 문으로 기울임→지붕이 조금 움직임→즉시 되돌림. 안내 음성 필수 아님.",
+      "camera_notes": "괴수 머리·양손·지붕 앞 가장자리와 오른쪽 열린 체육관 문을 보는 고정 미디엄.",
+      "sha256": "4912C348325A9F7F4478824CC4802E2ADA40548913AE7E0DE43DFA7122764C86",
+      "source_sha256": "4912C348325A9F7F4478824CC4802E2ADA40548913AE7E0DE43DFA7122764C86",
+      "dimensions": [
+        1672,
+        941
+      ],
+      "artist_review": {
+        "opened_actual_image": true,
+        "status": "candidate",
+        "notes": [
+          "실제 생성 및 저장 PNG 열람. 머리/양손/긴 S자 목/굽힌 무릎과 오른쪽 열린 출입문이 동시에 보임.",
+          "두 손은 지붕에 고정, 머리는 아직 귀 기울임 전의 수평 자세. 눈길 이동은 후속 움직임에서 강조 필요.",
+          "같은 붉은 특촬 외피·노란 눈·반원 귀 및 지붕/기둥 축 유지. 짧은 잭은 오른쪽 바깥, 이어컵·사다리·글 없음. 원본/복사본 SHA256 일치."
+        ]
+      },
+      "attempts": []
+    },
+    {
+      "id": "C05_K06",
+      "concept_id": "C05",
+      "scene_id": "S06",
+      "linked_cut": "K06",
+      "image_path": "images/C05/S06_v2.png",
+      "source_generated_path": "C:\\Users\\wseok\\.codex\\generated_images\\01a16462-c046-7f73-8e87-d3114dbd42a8\\exec-ab02f9f5-bd5f-4db6-aa86-64c1c43326e6.png",
+      "generation_tool": "image_gen",
+      "prompt": "Use case: precise-object-edit. Edit image1 surgically, preserve EVERYTHING except one small prop detail. Image1 is the edit target. Image2 is the supporting continuity reference for the RED JACK ONLY. The single small red wheeled screw jack in image1 at lower-right beside the foreman currently has its screw too retracted. Raise ONLY its exposed black threaded screw and circular red top plate until it matches the fully extended SHORT screw state in image2 (approximately double the exposed screw length currently in image1). The jack's overall maximum height is still about the foreman's knee, nowhere near the porch roof. Keep its same red base, four little wheels, angled handle and exact ground position. DO NOT enlarge the entire jack. Keep the rest of image1 unchanged: exact 16:9 framing, long already-extended ladder and wheeled base, silver-haired white-bearded elderly technician in navy overalls and orange gloves left, silver-buzzcut stocky foreman in olive jacket and yellow gloves right, monster's identical red rubber face, round yellow eyes, tiny red ear, complete long folded S-shaped neck, bent knees, both hands supporting roof, stable roof angle, removed column on left, building and warm wet-pavement lighting. Keep earcup, strap and cable completely invisible. No added text or logo. No other modifications. Single frame, no collage.",
+      "referenced_image_paths": [
+        "\\\\wsl.localhost\\Ubuntu-24.04\\home\\wooseok\\wsy\\samsung_related\\slide\\AI실행결과발표대회_디자인3종\\storyboards\\2026-10-23_v9-caption-first\\images\\C05\\S06.png",
+        "\\\\wsl.localhost\\Ubuntu-24.04\\home\\wooseok\\wsy\\samsung_related\\slide\\AI실행결과발표대회_디자인3종\\storyboards\\2026-10-23_v9-caption-first\\images\\C05\\S05.png"
+      ],
+      "next_motion": "이미 펴진 사다리의 하부를 TE가 바깥 지면에서 밀어 위치를 맞추고 지지대·바퀴 브레이크를 고정한다. 귀 높이는 그대로, 사다리 연장·조립 없음. 괴수는 목을 펴지 않고 눈만 따라간다.",
+      "camera_notes": "사다리 하부에서 위로 향하는 와이드. TE·바퀴형 지지대·긴 사다리·괴수 양손이 보임. 이어폰이 달린 상부 장비는 이 구도에서 가림.",
+      "sha256": "C6E9A89093CFD0B03D0B2AD93F9850A4ED61B3C0B1FD247FA604C4F38373E7AF",
+      "source_sha256": "C6E9A89093CFD0B03D0B2AD93F9850A4ED61B3C0B1FD247FA604C4F38373E7AF",
+      "dimensions": [
+        1672,
+        940
+      ],
+      "artist_review": {
+        "opened_actual_image": true,
+        "status": "candidate",
+        "notes": [
+          "실제 수정 PNG 열람. 잭의 나사 노출 길이가 앞 S05처럼 늘어난 상태로 연결되고 여전히 지붕에 한참 못 미침.",
+          "이미 펼쳐진 긴 이동 사다리, 자유 바퀴·들린 지지대, 지면에서 밀기 직전인 흰수염 TE와 주황 장갑 확인. 상부 장비와 이어컵/전선 노출 없음.",
+          "괴수의 긴 S자 목/접힌 무릎/양손 지지/귀 높이 관계 및 반장/열린 출입문/분리 기둥 유지. 원본과 복사 SHA256 일치.",
+          "사다리 상부는 프레임 밖으로 이어지며 실제 길이/귀 접속은 후속 영상에서 별도 연속 검증 필요. 정지화면 검수만 수행."
+        ]
+      },
+      "attempts": [
+        {
+          "id": "C05_K06",
+          "concept_id": "C05",
+          "scene_id": "S06",
+          "linked_cut": "K06",
+          "image_path": "images/C05/S06.png",
+          "source_generated_path": "C:\\Users\\wseok\\.codex\\generated_images\\01a16462-c046-7f73-8e87-d3114dbd42a8\\exec-3b77681f-bdf7-47fc-ba6b-475941cb397c.png",
+          "generation_tool": "image_gen",
+          "prompt": "Create one newly rendered 16:9 cinematic first-frame image, not a collage or storyboard page. Use the supplied approved V8 reference to preserve exact casting, wardrobe, creature design, architecture, props and left-right continuity. Depict the start of future motion, not its payoff. No captions, subtitles, logos, watermark or random writing baked in; typography will be added in post. Preserve a calm high-contrast region for later captions without obscuring or shrinking essential action. No extra characters or giant decorative props. Low-to-high wide. Slender white-bearded technician in navy overalls and orange gloves positions base of ALREADY fully extended5.5m mobile ladder outside porch. Wheels/stabilizers not locked yet. Same crouched monster, supporting hands and4.2m far ear. Hide earcup equipment from this angle to preserve rescue expectation. No ladder extension.\nREFERENCE1 is current monster, proportions, porch geometry and FM identity. Reference2 establishes OPEN right gym entrance and support pose. Reference3 supplies ladder arrangement and elderly technician. Render NEW single 16:9 cinematic practical miniature still, low-to-high wide. Exact same red puppet: yellow eyes, red ear, chipped rubber and stitched seams, square torso and huge feet; SAME entire long neck folded into big S, knees deeply bent, head about4.5m and far ear4.2m, do not let it stand or shrink. BOTH red hands firmly press the porch front underside; make both supporting hands visibly identifiable around ladder. Removed front-left pale column remains lying on LEFT pavement, intact main gym12m/porch5m and other columns unchanged; same slight porch sag. At LEFT FOREGROUND outside roof footprint, very slender elderly Korean technician age60 with short silver hair and distinctly long thin WHITE BEARD, narrow shoulders, navy work OVERALLS over gray work shirt, ORANGE work gloves, pushes wheeled base of very long aluminum mobile ladder. The ONE ladder is ALREADY FULLY EXTENDED, total5.5m: THREE times his height, no folded or extending sections, its rigid rails angle upward toward the far ear. Wide four-caster base, wheels still free and stabilizer feet still lifted off paving before locking. Technician's hands hold a lower rail and posture shows ready-to-position base, not climbing yet. Uppermost ladder/equipment may extend just beyond top frame; HIDE ALL EARPIECE EQUIPMENT, no black earcup, strap or cable visible, to retain rescue expectation. Keep face and yellow eyes unobstructed. Stocky silver-buzzcut foreman in olive jacket, black trousers and YELLOW gloves stands on RIGHT outside porch beside the still-short single red screw jack, extended short maximum but far below roof. No person underneath load. Clear foreground pavement for later caption without covering wheels/feet. Warm bright daylight matching reference1, deliberately handmade tokusatsu miniature textures, no text/logos/watermark or new props.",
+          "referenced_image_paths": [
+            "\\\\wsl.localhost\\Ubuntu-24.04\\home\\wooseok\\wsy\\samsung_related\\slide\\AI실행결과발표대회_디자인3종\\storyboards\\2026-10-23_v9-caption-first\\images\\C05\\S04.png",
+            "\\\\wsl.localhost\\Ubuntu-24.04\\home\\wooseok\\wsy\\samsung_related\\slide\\AI실행결과발표대회_디자인3종\\storyboards\\2026-10-23_v9-caption-first\\images\\C05\\S05.png",
+            "\\\\wsl.localhost\\Ubuntu-24.04\\home\\wooseok\\wsy\\samsung_related\\slide\\AI실행결과발표대회_디자인3종\\storyboards\\2026-10-19_tone-polish-v8\\images\\C05\\S06.png"
+          ],
+          "next_motion": "이미 펴진 사다리의 하부를 TE가 바깥 지면에서 밀어 위치를 맞추고 지지대·바퀴 브레이크를 고정한다. 귀 높이는 그대로, 사다리 연장·조립 없음. 괴수는 목을 펴지 않고 눈만 따라간다.",
+          "camera_notes": "사다리 하부에서 위로 향하는 와이드. TE·바퀴형 지지대·긴 사다리·괴수 양손이 보임. 이어폰이 달린 상부 장비는 이 구도에서 가림.",
+          "sha256": "BB972F683367DBF5780668ADCFF7AC3A2874DE52E95AC66C67F61EAAD796B548",
+          "source_sha256": "BB972F683367DBF5780668ADCFF7AC3A2874DE52E95AC66C67F61EAAD796B548",
+          "dimensions": [
+            1672,
+            940
+          ],
+          "artist_review": {
+            "opened_actual_image": true,
+            "status": "needs_revision",
+            "notes": [
+              "실제 PNG 열람. 길게 펼쳐진 이동 사다리/바퀴 지지대/지면의 TE/양손 지지 괴수/이어컵 비노출 확인.",
+              "새 S03/S04와 괴수 S자 목/귀/무릎/체격·반장 캐스팅 유지. 첫 결과의 잭 나사가 앞 S05보다 내려간 연속성 오류 발견하여 수정 예정."
+            ]
+          },
+          "attempts": []
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "id": "C04_K05",
+  "source_generated_path": "C:\\Users\\wseok\\.codex\\generated_images\\01a13daf-3732-7b90-99a8-92c605090d35\\exec-acb71848-db6e-49be-b0db-c50a6e4e7271.png",
+  "prompt": "Create a new single cinematic 16:9 START FRAME of the human verification shot. Use reference1 for action and shot direction and reference2 for exact guard/clerk/horse continuity. Elderly short bald Korean clerk left foreground in black round glasses, white sleeve/mustard vest; broad late-50s Korean woman guard on right, gray curls, green padded vest, copper shoulder armor, black gloves. Clerk ALREADY holds two unfolded original papers for her inspection: broad white declaration sheet and broad warm-beige meal request sheet, both COMPLETELY BLANK with no letters, numbers or writing. Purple crescent envelope behind/below those sheets; same crescent clearly visible on the CLOSED wooden horse behind. Guard's gaze is on the two pages, just BEFORE glancing to compare crescent marks with horse. Her hands are low and empty, not pointing yet. Keep each person's exactly two anatomically natural hands. Closed food trolley remains partly visible lower right. No bowls, spoons, open hatch, food or steam. Preserve left-facing horse and three CLOSED side hatches, no split screen. Widen the camera slightly and leave a quiet strip of courtyard wall above heads for later short question caption; papers and faces still large. Serious realistic acting and warm film-quality period daylight. No subtitles, titles, logos or watermark. Do not show unfolded-paper motion completed anew: papers are already open at the starting state.",
+  "referenced_image_paths": [
+    "\\\\wsl.localhost\\Ubuntu-24.04\\home\\wooseok\\wsy\\samsung_related\\slide\\AI실행결과발표대회_디자인3종\\storyboards\\2026-10-19_tone-polish-v8\\images\\C04\\S05.png",
+    "\\\\wsl.localhost\\Ubuntu-24.04\\home\\wooseok\\wsy\\samsung_related\\slide\\AI실행결과발표대회_디자인3종\\storyboards\\2026-10-23_v9-caption-first\\images\\C04\\S03.png"
+  ],
+  "observations": [
+    "실제 결과: 펼쳐진 흰 신고서·베이지 요청서와 초승달 봉투, 같은 목마의 초승달이 한 화면에 있음.",
+    "기록담당 2손/수비대장 2장갑손, 수레 닫힘. 수비대장은 원문 확인 중.",
+    "상단 여백이 늘어 질문 자막을 얼굴·문서 위에 겹치지 않게 배치 가능. 글 합성 필요."
+  ]
+}

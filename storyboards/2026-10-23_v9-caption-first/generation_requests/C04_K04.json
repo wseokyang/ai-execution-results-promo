@@ -1,0 +1,14 @@
+{
+  "id": "C04_K04",
+  "source_generated_path": "C:\\Users\\wseok\\.codex\\generated_images\\01a13daf-3732-7b90-99a8-92c605090d35\\exec-e29ae093-b980-4579-9eea-2b81793526d7.png",
+  "prompt": "Produce a newly rendered single 16:9 cinematic START FRAME for the tablet comparison shot, preserving reference1 camera composition and reference2 exact Korean commander/clerk/horse identity, costumes and warm courtyard. Over the elderly bald clerk's right shoulder, tablet dominates foreground. His left hand supports tablet at edge, right index finger is BELOW screen hovering before pointing, clearly only two hands. Purple-cloaked pointed-beard commander at left studies tablet before glancing at horse. Wooden horse behind faces left with exactly three CLOSED side windows; no food or bowl or spoon. Tablet screen is a clean luminous neutral-white UI TEMPLATE for later exact text compositing: narrow left column of small colored geometric document icons; two large separate, completely BLANK pale panels side by side, left white, right warm ivory; empty title region above. No words, letters, numbers, faux lines of writing, verdict or occupant count anywhere. The broad documents on desk are blank with purple crescent, red triangle, blue square marks only. Keep screen plane clear and all four screen corners usable for later perspective tracking. Filmic depth, face on left still readable, tablet sharp. No subtitles, captions, logo, watermark, borders or collage. This first frame must be before the finger points or the commander turns his gaze.",
+  "referenced_image_paths": [
+    "\\\\wsl.localhost\\Ubuntu-24.04\\home\\wooseok\\wsy\\samsung_related\\slide\\AI실행결과발표대회_디자인3종\\storyboards\\2026-10-19_tone-polish-v8\\images\\C04\\S04.png",
+    "\\\\wsl.localhost\\Ubuntu-24.04\\home\\wooseok\\wsy\\samsung_related\\slide\\AI실행결과발표대회_디자인3종\\storyboards\\2026-10-23_v9-caption-first\\images\\C04\\S03.png"
+  ],
+  "observations": [
+    "실제 결과: 같은 지휘관과 기록담당, 태블릿 두 빈 패널과 문서 목록. 읽을 문구는 후편집용으로 제거.",
+    "지지 손 하나/화면 아래 가리키기 전 손 하나. 주요 화면 면을 손이 가리지 않음.",
+    "배경 목마 닫힌 상태. 문서 모순 글/AI 라벨 합성은 이후 작업."
+  ]
+}

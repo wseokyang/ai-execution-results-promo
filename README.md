@@ -1,28 +1,20 @@
-# AI 실행 결과 발표 대회 · 영상 기획
+# Q-AI Fair · 홍보영상
 
-최신 제작 상태: [새 3번 「환경까지 가져왔습니다」 **44.75초 편집 v03**](storyboards/2026-10-20_C03-edit-v03/C03_review_edit_v03_45s.mp4). 전화 장면을 질문→청취→파일 집기로 정리하고 1초 단축했습니다. [편집·검수 안내](storyboards/2026-10-20_C03-edit-v03/) · [새 원본2개·실제 입력/생성 기록](storyboards/2026-10-20_C03-flow-run09/) · [이전 v02](storyboards/2026-10-20_C03-edit-v02/). 추가20 사용/잔액0. 새 질문 음성은 확보하지 못해 기존 원음과 새1초 청취 화면을 사용했습니다. 3인 실제 표본 검수 완료, 실제 청취·연속 재생이 남은 검토본입니다.
+최신 콘티는 **화면+자막 V9**입니다. 소음이 있는 상영 환경에 맞춰 승인된 5안의 핵심 정보가 음성 없이 전달되도록 보완하고 **시작 이미지44장(9·9·8·9·9)을 새로 생성·검수**했습니다. 이전 완성 영상과 원본은 보존했습니다.
 
-## [전체 이미지 콘티 바로보기 →](콘티_바로보기.md)
-
-최신 **V8**입니다. 위 링크에서 **43장의 이미지와 대사**를 함께 읽을 수 있습니다.
-1·3·5번은 유지했고, 2·4번은 대사·호흡과 인물의 체면을 지키는 행동을 보완했습니다.
-
-다섯 안 모두 사용자 수용 후, [Flow 제작 전 최종 점검·작품별 영상 수](storyboards/2026-10-19_v8-flow-preflight/FLOW_PREFLIGHT.md)를 추가했습니다. 화면용 **44개(9·9·8·9·9)**, 별도 음성용 예비3개를 계획합니다. 기존 V8 이미지·이야기는 보존하며, 실제 첫 상태와 맞지 않던 동작·화자·음향 지시는 이 제작 점검표를 우선합니다.
-
-![최신 5안 개요](storyboards/2026-10-19_tone-polish-v8/overview.png)
+## [전체 44장 이미지 콘티 바로보기 →](콘티_바로보기.md)
 
 | 찾는 자료 | 바로가기 |
-| --- | --- |
-| 이미지와 대사를 한 화면에서 보기 | [전체 이미지 콘티](콘티_바로보기.md) |
-| Flow 제작 전 첫 상태·대사·음성·음악 점검과 영상 수 | [제작 점검표](storyboards/2026-10-19_v8-flow-preflight/FLOW_PREFLIGHT.md) |
-| 화면용 44개 제작 프롬프트 초안 | [제작용 프롬프트](storyboards/2026-10-19_v8-flow-preflight/prompts/) |
-| 이전에 전달한 형태의 HTML 원본 | [V8 index.html](storyboards/2026-10-19_tone-polish-v8/index.html) |
-| PNG 원본·HTML·프롬프트 전체 | [V8 폴더](storyboards/2026-10-19_tone-polish-v8/) |
-| 시간·자막·음향까지 포함한 컷 표 | [전체 컷 표](storyboards/2026-10-19_tone-polish-v8/STORYBOARDS.md) |
-| 바로 이전 V7 HTML | [V7 index.html](storyboards/2026-10-19_keep135-rebuild-v7/index.html) |
-| 이전에 완성한 1번 영상 | [36초 최종본 MP4](storyboards/2026-10-17_C01-voicefix-v07/C01_recut_v07_36s.mp4) |
-| 이전 버전과 원자료 안내 | [이전 README 기록](README_before_v8.md) |
+|---|---|
+| 모든 이미지와 자막·다음 동작 | [V9 전체 이미지](storyboards/2026-10-23_v9-caption-first/ALL_IMAGES.md) |
+| 시간·대사 방침·음악·전환 전체 컷 표 | [V9 컷 표](storyboards/2026-10-23_v9-caption-first/STORYBOARDS.md) |
+| 자막 배치 버튼이 있는 HTML | [V9 HTML](storyboards/2026-10-23_v9-caption-first/index.html) |
+| 실제44개 PNG와 정확한 생성 기록 | [씬 매핑](storyboards/2026-10-23_v9-caption-first/scene_manifest.json) · [이미지 폴더](storyboards/2026-10-23_v9-caption-first/images/) |
+| 검수·후속 합성 항목 | [3인 검수](storyboards/2026-10-23_v9-caption-first/image_review.json) · [제작 메모](storyboards/2026-10-23_v9-caption-first/PRODUCTION_NOTES.md) |
+| 보존한 기존 C03 44.75초 검토 편집 | [C03 v03 MP4](storyboards/2026-10-20_C03-edit-v03/C03_review_edit_v03_45s.mp4) |
+| 이전에 완성한 1번 영상 | [C01 36초 최종 MP4](storyboards/2026-10-17_C01-voicefix-v07/C01_recut_v07_36s.mp4) |
+| 이전 기획과 작업 이력 | [V8 전체 이미지](콘티_바로보기_V8.md) · [이전 README](README_before_v9.md) |
 
-HTML은 원본 파일로 보관합니다. 브라우저에서 열 때는 해당 버전의 폴더를 이미지 폴더와 함께 내려받아 index.html을 여세요. 저장소 안에서 바로 읽으려면 맨 위 **전체 이미지 콘티 바로보기**를 이용하세요.
+V9은 시작 이미지와 콘티 납품입니다. Flow 업로드·영상 생성·크레딧 사용은0입니다. 기존 C03 영상은 재사용을 우선 검토하고, 새 C03 이미지8장을 영상8컷 재생성 요청으로 보지 않습니다. C05 K02A/B를 분리해 43개 편집컷·44개 시작 상태입니다.
 
-비공개 저장소를 유지합니다. V8 기획·사전점검 단계에서는 Flow를 실행하지 않았으며, 이후 승인된 C03 생성 시도와 실패 상태는 맨 위 최신 작업 기록에 구분해 보관합니다.
+HTML은 이미지 폴더와 함께 내려받아 열면 자막 배치를 볼 수 있습니다. GitHub에서 바로 읽으려면 **전체 이미지 콘티** 링크를 이용하세요. 이 저장소는 비공개로 유지합니다. 정확한 행사 일정·장소·신청 방법은 미확인입니다.

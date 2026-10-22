@@ -29,7 +29,7 @@ concept_mix = "참석 독려 2 / 행사 소개 2 / 혼합 1, 선정 근거에 �
 
 [event]
 status = "사용자 2026-10-14 대회 실제 개최 확정. 행사명에서 (안) 제거. 세부 일정 등은 기존 자료의 계획값으로 별도 관리."
-name = "2026년 품질팀 AI 실행 결과 발표 대회"
+name = "Q-AI Fair"
 source_document_date = "2026-10-13"
 purpose = "AI 우수 과제와 AI 활용 역량 향상 사례를 공유해 품질팀 AI 실천 문화를 확산"
 core_message = "AI를 학습하는 단계에서, 활용하고 성과 내는 AI로"
@@ -191,3 +191,15 @@ path = "storyboards/2026-10-20_C03-edit-v03"
 generation_run = "storyboards/2026-10-20_C03-flow-run09"
 edit = "44.75초/1074프레임.기존질문J컷→새1초청취→기존집기,후반1초당김.3인독립/교차실제표본검수.실청취/연속재생미검증."
 scope = "원본재인코딩없음/v01v02/legacyC01/V8보존.무음반환OFF복구.구매·계정전환·예약재개·공개게시없음."
+
+
+[caption_first_2026_10_23]
+event_name = "Q-AI Fair"
+user_requirement = "시끄러운 상영 환경. 화면+자막으로 전체 이야기와 행사 정보를 전달하며 BGM·효과음만 선택적으로 보조. 음성 청취에 필수 정보를 맡기지 않는다."
+active_scope = "승인된 5안의 콘티를 무음 이해 기준으로 보완하고 제작 단위별 시작 이미지 44장 전체를 내장 image_gen으로 새로 생성·검수·보고. Flow 실행 및 크레딧 사용 없음."
+run = "storyboards/2026-10-23_v9-caption-first"
+status = "완료: 새 시작 이미지44장, 텍스트/실제이미지3인독립·교차·수정재확인. Flow0. 후속영상의움직임/자막합성은별도검수."
+image_count_by_concept = [9,9,8,9,9]
+future_budget = "사용자 5계정·25컷 예상. 실제 계정 잔액·모델 요금 이번에는 확인 안 함. 이미지 개수 제한이 아님."
+prior_audio_reserve = "음성 전용 예비 3개는 이번 화면+자막 제작의 필수 큐에서 제외. BGM·효과음은 보조."
+preserve = "V8 원본, 기존 완성 C01, C03 v03 및 생성 원본. C03 이미지 재생성이 영상 8컷의 재생성 지시를 뜻하지 않음."

@@ -1,0 +1,14 @@
+{
+  "id": "C04_K03",
+  "source_generated_path": "C:\\Users\\wseok\\.codex\\generated_images\\01a13daf-3732-7b90-99a8-92c605090d35\\exec-3c49d459-374c-46ca-82cd-7841619d029a.png",
+  "prompt": "New cinematic 16:9 START FRAME for the same serious Korean historical absurdist commercial, not a collage. Use reference1 for composition/cast/horse/cart; reference2 for exact commander and clerk identities and crescent horse design. Same broad older Korean woman guard captain with short gray curls, dark green padded vest, copper shoulder guards, black work gloves; same tall thin black-bearded commander in purple cloak; same round elderly bald bespectacled clerk in mustard vest. In the castle courtyard, guard on LEFT holds handles of a completely CLOSED stainless food cart. Commander center-right is JUST BEFORE blocking her path, his denying hand still low beside his hip and not touching cart. Clerk at RIGHT holds modern black tablet toward his OWN chest, its back faces viewer and its contents are hidden; other hand has purple-crescent envelope. Trojan horse behind faces left, exactly three square side panels ALL fully closed, purple crescent below them. Nothing protrudes. No bowl, spoon, ladle, steam, or food. Take one small step back with camera to show cart wheels and some empty pavement at bottom for later caption; do not shrink principal faces excessively. Reserve lower 14 percent as quiet stone pavement. Film-realistic warm daylight, expensive war-drama cinematography, all actors solemn. No letters, captions, logos, watermarks, titles or generated user interface text. Freeze before the blocking gesture and tablet presentation.",
+  "referenced_image_paths": [
+    "\\\\wsl.localhost\\Ubuntu-24.04\\home\\wooseok\\wsy\\samsung_related\\slide\\AI실행결과발표대회_디자인3종\\storyboards\\2026-10-19_tone-polish-v8\\images\\C04\\S03_v2.png",
+    "\\\\wsl.localhost\\Ubuntu-24.04\\home\\wooseok\\wsy\\samsung_related\\slide\\AI실행결과발표대회_디자인3종\\storyboards\\2026-10-23_v9-caption-first\\images\\C04\\S02.png"
+  ],
+  "observations": [
+    "실제 결과: GU 왼쪽 수레, CM 중앙, RC 오른쪽 태블릿 뒷면. 같은 외형·의상 유지.",
+    "수레 뚜껑과 목마 세 창 모두 닫힘. 막는 손은 허리 옆의 낮은 시작 상태.",
+    "카메라를 넓혀 바닥과 바퀴 포함. 하단 자막은 발/바퀴 위를 피해서 최종 조정 필요."
+  ]
+}

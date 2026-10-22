@@ -1,0 +1,14 @@
+{
+  "id": "C04_K07",
+  "source_generated_path": "C:\\Users\\wseok\\.codex\\generated_images\\01a13daf-3732-7b90-99a8-92c605090d35\\exec-439762da-be5a-4012-a1e8-464b88b58a1a.png",
+  "prompt": "Render a new 16:9 cinematic single START FRAME, same expensive historical film and dead-serious Korean actors. Reference1 supplies close camera composition; reference2 controls exact costume, props and current horse/cart continuity. Broad older gray-curly-haired woman guard fills LEFT foreground, her right BLACK-GLOVED hand now securely grips the handle of the completely CLOSED shiny stainless cart lid; left glove holds cart rail. Freeze BEFORE lifting: lid flush on tray, no crack, steam or food. Purple-cloaked thin commander mid-right has the same raised denying palm from previous action, still solemnly looking at the guard/closed horse direction, NOT yet sniffing or smiling. Bald elderly clerk partially at far right holding tablet back and crescent envelope, as reference. Behind them all THREE wood horse side panels are CLOSED, same left-facing horse, purple crescent, stone courtyard. No personal bowls, spoons, ladles, eating utensils or soldier limbs. Keep natural exact hands, strong grip silhouette and metallic lid geometry. Warm detailed light, real textured costume and skin. No captions, typography, letters, title, logo, watermark or collage. The future motion will lift this lid and reveal steam; do not show that future result in this still.",
+  "referenced_image_paths": [
+    "\\\\wsl.localhost\\Ubuntu-24.04\\home\\wooseok\\wsy\\samsung_related\\slide\\AI실행결과발표대회_디자인3종\\storyboards\\2026-10-19_tone-polish-v8\\images\\C04\\S07.png",
+    "\\\\wsl.localhost\\Ubuntu-24.04\\home\\wooseok\\wsy\\samsung_related\\slide\\AI실행결과발표대회_디자인3종\\storyboards\\2026-10-23_v9-caption-first\\images\\C04\\S06.png"
+  ],
+  "observations": [
+    "실제 결과: GU 오른 장갑이 닫힌 뚜껑 손잡이를 잡고 있으며 손잡이와 손이 연결됨.",
+    "세 목마 창과 음식 뚜껑 모두 닫힘. 김·그릇·수저 없음. 이전 낮은 부인 손에서 CM 손이 올라온 상태.",
+    "미래 뚜껑 열기/김 공개는 아직 미검증."
+  ]
+}

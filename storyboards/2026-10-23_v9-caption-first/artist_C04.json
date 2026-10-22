@@ -1,0 +1,284 @@
+{
+  "concept_id": "C04",
+  "expected_images": 9,
+  "images": [
+    {
+      "id": "C04_K01",
+      "concept_id": "C04",
+      "scene_id": "S01",
+      "linked_cut": "K01",
+      "image_path": "images/C04/S01.png",
+      "source_generated_path": "C:\\Users\\wseok\\.codex\\generated_images\\01a13daf-3732-7b90-99a8-92c605090d35\\exec-edb1e584-8673-47ba-b90c-e838b2e22c48.png",
+      "generation_tool": "image_gen",
+      "prompt": "Create a newly rendered single cinematic 16:9 widescreen START FRAME for an absurdly serious Korean historical comedy commercial. Use this reference for the exact three faces, ages, hairstyles, armor, sleeve colors, timber construction, light, and purple crescent envelope. Fresh frame, no collage. Inside the cramped Trojan horse: left older Korean woman with gray side braid and olive sleeves; center thin young Korean man with short black hair, dark-blue sleeves; right round middle-aged Korean man with curly brown hair and ochre sleeves. Precisely three soldiers. Their conspiracy is played with intense realism, not smiles. The right ochre man's free hand is hovering just above his own belly BEFORE clutching it; his other hand holds a small blank meal-request slip. The other two have alert tense eyes and are beginning to notice him. Envelope with a simple purple crescent is open at knee height, no slips inserted yet. No bowls, spoons, plates, food or weapons. Each person has exactly two natural hands, connected to correct arms. Compose slightly wider than reference so a dark quiet upper timber area has space for later captions without covering faces, belly hand, slips or crescent envelope. Maintain warm slatted light and rich dark wood, film texture, authentic costumes. Do not add any captions, letters, logos, titles, watermark, border or panel divisions. The scene must be BEFORE the belly clutch and before the note is placed into the envelope.",
+      "referenced_image_paths": [
+        "\\\\wsl.localhost\\Ubuntu-24.04\\home\\wooseok\\wsy\\samsung_related\\slide\\AI실행결과발표대회_디자인3종\\storyboards\\2026-10-19_tone-polish-v8\\images\\C04\\S01_v2.png"
+      ],
+      "next_motion": "한 병사가 배를 누르고 나머지 둘이 그를 쳐다본다. 꼬르륵 자막 뒤 급식 메모를 봉투에 넣음. 5초에서 복잡하면 마지막 메모 한 장 넣기만 보여 나머지는 이미 든 상태로 생략. 그릇·숟가락 비공개.",
+      "camera_notes": "좁은 목마 내부 압축 미디엄 와이드. 몸을 구겨 숨은 세 병사의 얼굴·목재 갈비뼈·눈치가 우선. 메모와 봉투는 그 앞의 작은 행동. 그릇·숟가락은 어디에도 없음.",
+      "sha256": "31af6559e83b200f5b4b49e601cd500a8976ab0a666c0a8e641b7368f94e4b92",
+      "dimensions": [
+        1672,
+        941
+      ],
+      "artist_review": {
+        "opened_actual_image": true,
+        "status": "candidate",
+        "notes": [
+          "실제 생성 결과 확인: 병사 셋과 올리브/남색/황토 소매, 종이·보라 초승달 봉투 유지.",
+          "황토 병사의 빈손이 배 앞에 있고 그릇·수저 미노출. 위쪽 어두운 목재 여백 확보.",
+          "정지 프레임이며 이후 배 누르기/메모 투입 동작 성공은 미검증."
+        ]
+      },
+      "attempts": []
+    },
+    {
+      "id": "C04_K02",
+      "concept_id": "C04",
+      "scene_id": "S02",
+      "linked_cut": "K02",
+      "image_path": "images/C04/S02.png",
+      "source_generated_path": "C:\\Users\\wseok\\.codex\\generated_images\\01a13daf-3732-7b90-99a8-92c605090d35\\exec-fc6096cd-d1f1-433b-899b-e8348ffe44bb.png",
+      "generation_tool": "image_gen",
+      "prompt": "New single 16:9 cinematic opening frame for the next shot of this Korean historical absurdist commercial. Preserve the reference's exact commander face, tied long black hair, pointed black beard, purple cloak, brown armor; preserve the elderly short round bald clerk with black round glasses, white moustache, mustard vest and white sleeves. Same stone gate, wooden Trojan horse facing LEFT behind them, exactly THREE square CLOSED side hatches and purple crescent emblem. Commander on left holds a crescent envelope and one broad white declaration sheet immediately BEFORE handing it to clerk on right. Clerk's two open hands wait with a visible gap, no contact yet. All hands anatomically clear. Foreground reception desk with stacks of other delivery envelopes marked simple colored geometric symbols and a modern flatbed scanner. Exact document text will be composited later: keep the entire broad white declaration sheet BLANK and planar, no letters anywhere. No readable writing, no caption, watermark, logo, title or collage. Rich realistic period light and filmic detail, solemn believable acting. Leave an uncrowded dark patch near the upper stone wall for later subtitle, while keeping face, hands, envelope, three hatches and horse emblem unobstructed. Horse hatches fully closed, no bowl, spoon, food, interior soldier or steam. This is the start before the paper transfer, not the completed handover.",
+      "referenced_image_paths": [
+        "\\\\wsl.localhost\\Ubuntu-24.04\\home\\wooseok\\wsy\\samsung_related\\slide\\AI실행결과발표대회_디자인3종\\storyboards\\2026-10-19_tone-polish-v8\\images\\C04\\S02.png"
+      ],
+      "next_motion": "CM이 봉투를 주고 RC가 원문을 책상에 두어 스캔 입력한다. 원본은 버리지 않는다.",
+      "camera_notes": "밝은 외부 미디엄 와이드. 성문 사무실 책상·CM·RC·여러 문서·뒤 목마의 표식.",
+      "sha256": "17a995d35765c0d278c71eed3613945e90982c855d2641aad309a5123d479bf3",
+      "dimensions": [
+        1672,
+        941
+      ],
+      "artist_review": {
+        "opened_actual_image": true,
+        "status": "candidate",
+        "notes": [
+          "실제 결과: 지휘관·기록담당 외형/의상 유지. 열린 두 손과 문서 사이 간격이 있는 전달 전 상태.",
+          "목마 옆창 세 개 닫힘, 보라 초승달 일치, 음식·그릇 미노출.",
+          "신고서 글을 제거해 후편집용 넓은 흰 면 확보. 후속 문구 합성 필요."
+        ]
+      },
+      "attempts": []
+    },
+    {
+      "id": "C04_K03",
+      "concept_id": "C04",
+      "scene_id": "S03",
+      "linked_cut": "K03",
+      "image_path": "images/C04/S03.png",
+      "source_generated_path": "C:\\Users\\wseok\\.codex\\generated_images\\01a13daf-3732-7b90-99a8-92c605090d35\\exec-3c49d459-374c-46ca-82cd-7841619d029a.png",
+      "generation_tool": "image_gen",
+      "prompt": "New cinematic 16:9 START FRAME for the same serious Korean historical absurdist commercial, not a collage. Use reference1 for composition/cast/horse/cart; reference2 for exact commander and clerk identities and crescent horse design. Same broad older Korean woman guard captain with short gray curls, dark green padded vest, copper shoulder guards, black work gloves; same tall thin black-bearded commander in purple cloak; same round elderly bald bespectacled clerk in mustard vest. In the castle courtyard, guard on LEFT holds handles of a completely CLOSED stainless food cart. Commander center-right is JUST BEFORE blocking her path, his denying hand still low beside his hip and not touching cart. Clerk at RIGHT holds modern black tablet toward his OWN chest, its back faces viewer and its contents are hidden; other hand has purple-crescent envelope. Trojan horse behind faces left, exactly three square side panels ALL fully closed, purple crescent below them. Nothing protrudes. No bowl, spoon, ladle, steam, or food. Take one small step back with camera to show cart wheels and some empty pavement at bottom for later caption; do not shrink principal faces excessively. Reserve lower 14 percent as quiet stone pavement. Film-realistic warm daylight, expensive war-drama cinematography, all actors solemn. No letters, captions, logos, watermarks, titles or generated user interface text. Freeze before the blocking gesture and tablet presentation.",
+      "referenced_image_paths": [
+        "\\\\wsl.localhost\\Ubuntu-24.04\\home\\wooseok\\wsy\\samsung_related\\slide\\AI실행결과발표대회_디자인3종\\storyboards\\2026-10-19_tone-polish-v8\\images\\C04\\S03_v2.png",
+        "\\\\wsl.localhost\\Ubuntu-24.04\\home\\wooseok\\wsy\\samsung_related\\slide\\AI실행결과발표대회_디자인3종\\storyboards\\2026-10-23_v9-caption-first\\images\\C04\\S02.png"
+      ],
+      "next_motion": "CM이 수레 앞을 막고 근거를 요구하는 표정. RC가 태블릿을 돌린다. 한 줄 자막, 발화 없음.",
+      "camera_notes": "성문 밖 고정 미디엄 와이드. 닫힌 목마 패널3개·수레 뚜껑·GU·CM·RC. 아직 그릇 없음.",
+      "sha256": "196faea40ecf4329a7d95f8ddb61aa7ec5c2132c8725a0a3ab4d0109313b8376",
+      "dimensions": [
+        1672,
+        941
+      ],
+      "artist_review": {
+        "opened_actual_image": true,
+        "status": "candidate",
+        "notes": [
+          "실제 결과: GU 왼쪽 수레, CM 중앙, RC 오른쪽 태블릿 뒷면. 같은 외형·의상 유지.",
+          "수레 뚜껑과 목마 세 창 모두 닫힘. 막는 손은 허리 옆의 낮은 시작 상태.",
+          "카메라를 넓혀 바닥과 바퀴 포함. 하단 자막은 발/바퀴 위를 피해서 최종 조정 필요."
+        ]
+      },
+      "attempts": []
+    },
+    {
+      "id": "C04_K04",
+      "concept_id": "C04",
+      "scene_id": "S04",
+      "linked_cut": "K04",
+      "image_path": "images/C04/S04.png",
+      "source_generated_path": "C:\\Users\\wseok\\.codex\\generated_images\\01a13daf-3732-7b90-99a8-92c605090d35\\exec-e29ae093-b980-4579-9eea-2b81793526d7.png",
+      "generation_tool": "image_gen",
+      "prompt": "Produce a newly rendered single 16:9 cinematic START FRAME for the tablet comparison shot, preserving reference1 camera composition and reference2 exact Korean commander/clerk/horse identity, costumes and warm courtyard. Over the elderly bald clerk's right shoulder, tablet dominates foreground. His left hand supports tablet at edge, right index finger is BELOW screen hovering before pointing, clearly only two hands. Purple-cloaked pointed-beard commander at left studies tablet before glancing at horse. Wooden horse behind faces left with exactly three CLOSED side windows; no food or bowl or spoon. Tablet screen is a clean luminous neutral-white UI TEMPLATE for later exact text compositing: narrow left column of small colored geometric document icons; two large separate, completely BLANK pale panels side by side, left white, right warm ivory; empty title region above. No words, letters, numbers, faux lines of writing, verdict or occupant count anywhere. The broad documents on desk are blank with purple crescent, red triangle, blue square marks only. Keep screen plane clear and all four screen corners usable for later perspective tracking. Filmic depth, face on left still readable, tablet sharp. No subtitles, captions, logo, watermark, borders or collage. This first frame must be before the finger points or the commander turns his gaze.",
+      "referenced_image_paths": [
+        "\\\\wsl.localhost\\Ubuntu-24.04\\home\\wooseok\\wsy\\samsung_related\\slide\\AI실행결과발표대회_디자인3종\\storyboards\\2026-10-19_tone-polish-v8\\images\\C04\\S04.png",
+        "\\\\wsl.localhost\\Ubuntu-24.04\\home\\wooseok\\wsy\\samsung_related\\slide\\AI실행결과발표대회_디자인3종\\storyboards\\2026-10-23_v9-caption-first\\images\\C04\\S03.png"
+      ],
+      "next_motion": "RC가 대조 후보를 보여주고 신고와 첨부 요청을 차례로 짚음. 문구는 단계별 후편집. CM은 목마로 시선을 돌림. 발화 없음.",
+      "camera_notes": "RC 손과 태블릿 중심 미디엄. 주변에 원문3장이 놓여 화면과 종이의 출처 관계를 보임. 긴 보고서 읽기 없음.",
+      "sha256": "8c499e17b5ea377512c0384ea7b02da85bd35c21cc5b6e9ab2546a0863127600",
+      "dimensions": [
+        1672,
+        941
+      ],
+      "artist_review": {
+        "opened_actual_image": true,
+        "status": "candidate",
+        "notes": [
+          "실제 결과: 같은 지휘관과 기록담당, 태블릿 두 빈 패널과 문서 목록. 읽을 문구는 후편집용으로 제거.",
+          "지지 손 하나/화면 아래 가리키기 전 손 하나. 주요 화면 면을 손이 가리지 않음.",
+          "배경 목마 닫힌 상태. 문서 모순 글/AI 라벨 합성은 이후 작업."
+        ]
+      },
+      "attempts": []
+    },
+    {
+      "id": "C04_K05",
+      "concept_id": "C04",
+      "scene_id": "S05",
+      "linked_cut": "K05",
+      "image_path": "images/C04/S05.png",
+      "source_generated_path": "C:\\Users\\wseok\\.codex\\generated_images\\01a13daf-3732-7b90-99a8-92c605090d35\\exec-acb71848-db6e-49be-b0db-c50a6e4e7271.png",
+      "generation_tool": "image_gen",
+      "prompt": "Create a new single cinematic 16:9 START FRAME of the human verification shot. Use reference1 for action and shot direction and reference2 for exact guard/clerk/horse continuity. Elderly short bald Korean clerk left foreground in black round glasses, white sleeve/mustard vest; broad late-50s Korean woman guard on right, gray curls, green padded vest, copper shoulder armor, black gloves. Clerk ALREADY holds two unfolded original papers for her inspection: broad white declaration sheet and broad warm-beige meal request sheet, both COMPLETELY BLANK with no letters, numbers or writing. Purple crescent envelope behind/below those sheets; same crescent clearly visible on the CLOSED wooden horse behind. Guard's gaze is on the two pages, just BEFORE glancing to compare crescent marks with horse. Her hands are low and empty, not pointing yet. Keep each person's exactly two anatomically natural hands. Closed food trolley remains partly visible lower right. No bowls, spoons, open hatch, food or steam. Preserve left-facing horse and three CLOSED side hatches, no split screen. Widen the camera slightly and leave a quiet strip of courtyard wall above heads for later short question caption; papers and faces still large. Serious realistic acting and warm film-quality period daylight. No subtitles, titles, logos or watermark. Do not show unfolded-paper motion completed anew: papers are already open at the starting state.",
+      "referenced_image_paths": [
+        "\\\\wsl.localhost\\Ubuntu-24.04\\home\\wooseok\\wsy\\samsung_related\\slide\\AI실행결과발표대회_디자인3종\\storyboards\\2026-10-19_tone-polish-v8\\images\\C04\\S05.png",
+        "\\\\wsl.localhost\\Ubuntu-24.04\\home\\wooseok\\wsy\\samsung_related\\slide\\AI실행결과발표대회_디자인3종\\storyboards\\2026-10-23_v9-caption-first\\images\\C04\\S03.png"
+      ],
+      "next_motion": "이미 펼친 원문 두 장 유지. GU가 원문과 초승달을 확인한 뒤 수레를 봄. 다시 펼치거나 말하지 않음.",
+      "camera_notes": "원문·봉투·GU 손과 후경 목마 초승달을 함께 보는 미디엄.",
+      "sha256": "2a977a1685f6483f429196ed78d6d00e70bb53f9615a876a818237c2dbbc2736",
+      "dimensions": [
+        1672,
+        941
+      ],
+      "artist_review": {
+        "opened_actual_image": true,
+        "status": "candidate",
+        "notes": [
+          "실제 결과: 펼쳐진 흰 신고서·베이지 요청서와 초승달 봉투, 같은 목마의 초승달이 한 화면에 있음.",
+          "기록담당 2손/수비대장 2장갑손, 수레 닫힘. 수비대장은 원문 확인 중.",
+          "상단 여백이 늘어 질문 자막을 얼굴·문서 위에 겹치지 않게 배치 가능. 글 합성 필요."
+        ]
+      },
+      "attempts": []
+    },
+    {
+      "id": "C04_K06",
+      "concept_id": "C04",
+      "scene_id": "S06",
+      "linked_cut": "K06",
+      "image_path": "images/C04/S06.png",
+      "source_generated_path": "C:\\Users\\wseok\\.codex\\generated_images\\01a13daf-3732-7b90-99a8-92c605090d35\\exec-d283966a-a8ea-48de-b768-e199d34b0ed3.png",
+      "generation_tool": "image_gen",
+      "prompt": "Newly rendered single 16:9 cinematic START FRAME. Same Trojan-horse courtyard, characters and props from references. Keep reference1 staging, and reference2 exact cast/wardrobe/cart/horse design. Broad older gray-curly Korean woman guard on LEFT behind the CLOSED stainless food cart, her right black-gloved hand is hovering a few centimeters ABOVE but NOT touching its lid handle; other gloved hand stays on cart rail. Thin Korean commander in purple cloak center-right watches her, his denying RIGHT palm is still LOW near his own waist, before he lifts it to stop her. Left hand relaxed, no spoon. Elderly bald bespectacled clerk far right holds tablet facing himself and crescent envelope. Horse behind faces left, exactly THREE square side hatches completely CLOSED. Purple crescent emblem stays the same. No arms, bowls, spoons, food or steam visible anywhere. Give hand-to-handle gap clear silhouette. Slightly wider framing with quiet lower pavement for a short later caption, preserving expressive serious faces and readable hatches. Warm high-quality historical film lighting, absolutely sincere acting. No letters, numbers, captions, title, logo, watermark or collage. The lid has not opened and the commander's stopping gesture has not begun.",
+      "referenced_image_paths": [
+        "\\\\wsl.localhost\\Ubuntu-24.04\\home\\wooseok\\wsy\\samsung_related\\slide\\AI실행결과발표대회_디자인3종\\storyboards\\2026-10-19_tone-polish-v8\\images\\C04\\S06.png",
+        "\\\\wsl.localhost\\Ubuntu-24.04\\home\\wooseok\\wsy\\samsung_related\\slide\\AI실행결과발표대회_디자인3종\\storyboards\\2026-10-23_v9-caption-first\\images\\C04\\S03.png"
+      ],
+      "next_motion": "CM이 손바닥으로 막으며 고개를 젓는다. 부인 자막을 읽힌 뒤 GU가 뚜껑 손잡이를 잡음. 패널은 닫힘.",
+      "camera_notes": "목마 옆구리와 닫힌 수레가 큰 고정 와이드. 패널3개는 끝까지 닫히고 병사 손·그릇 비공개.",
+      "sha256": "eccf1cbd12c02cc04aa3ef53d812d5ffe9376abfcf76e02cf65392934142db2f",
+      "dimensions": [
+        1672,
+        941
+      ],
+      "artist_review": {
+        "opened_actual_image": true,
+        "status": "candidate",
+        "notes": [
+          "실제 결과: 수레 뚜껑 완전 닫힘, GU 손이 손잡이 바로 위, CM 부인 손은 허리 높이.",
+          "목마 세 창 닫힘·초승달 유지, RC 태블릿 뒷면/봉투 유지. 음식·그릇·수저 미노출.",
+          "CM 손은 낮게 펴져 있어 시작 상태에서 부인 제스처를 더 올릴 여지. 실제 동작은 미검증."
+        ]
+      },
+      "attempts": []
+    },
+    {
+      "id": "C04_K07",
+      "concept_id": "C04",
+      "scene_id": "S07",
+      "linked_cut": "K07",
+      "image_path": "images/C04/S07.png",
+      "source_generated_path": "C:\\Users\\wseok\\.codex\\generated_images\\01a13daf-3732-7b90-99a8-92c605090d35\\exec-439762da-be5a-4012-a1e8-464b88b58a1a.png",
+      "generation_tool": "image_gen",
+      "prompt": "Render a new 16:9 cinematic single START FRAME, same expensive historical film and dead-serious Korean actors. Reference1 supplies close camera composition; reference2 controls exact costume, props and current horse/cart continuity. Broad older gray-curly-haired woman guard fills LEFT foreground, her right BLACK-GLOVED hand now securely grips the handle of the completely CLOSED shiny stainless cart lid; left glove holds cart rail. Freeze BEFORE lifting: lid flush on tray, no crack, steam or food. Purple-cloaked thin commander mid-right has the same raised denying palm from previous action, still solemnly looking at the guard/closed horse direction, NOT yet sniffing or smiling. Bald elderly clerk partially at far right holding tablet back and crescent envelope, as reference. Behind them all THREE wood horse side panels are CLOSED, same left-facing horse, purple crescent, stone courtyard. No personal bowls, spoons, ladles, eating utensils or soldier limbs. Keep natural exact hands, strong grip silhouette and metallic lid geometry. Warm detailed light, real textured costume and skin. No captions, typography, letters, title, logo, watermark or collage. The future motion will lift this lid and reveal steam; do not show that future result in this still.",
+      "referenced_image_paths": [
+        "\\\\wsl.localhost\\Ubuntu-24.04\\home\\wooseok\\wsy\\samsung_related\\slide\\AI실행결과발표대회_디자인3종\\storyboards\\2026-10-19_tone-polish-v8\\images\\C04\\S07.png",
+        "\\\\wsl.localhost\\Ubuntu-24.04\\home\\wooseok\\wsy\\samsung_related\\slide\\AI실행결과발표대회_디자인3종\\storyboards\\2026-10-23_v9-caption-first\\images\\C04\\S06.png"
+      ],
+      "next_motion": "GU가 뚜껑을 열어 김이 난다. CM 코가 미세하게 움직이고 목마 안의 숨소리가 겹친다.",
+      "camera_notes": "수레와 GU 장갑의 미디엄. 후경 목마 패널3개는 아직 닫혀 있다. 음식 냄비만 보이고 개인 그릇·숟가락은 없음.",
+      "sha256": "009758ccb1b72cbedfc8b60b255aabcbe6502599b34641332edb08579269adf7",
+      "dimensions": [
+        1672,
+        941
+      ],
+      "artist_review": {
+        "opened_actual_image": true,
+        "status": "candidate",
+        "notes": [
+          "실제 결과: GU 오른 장갑이 닫힌 뚜껑 손잡이를 잡고 있으며 손잡이와 손이 연결됨.",
+          "세 목마 창과 음식 뚜껑 모두 닫힘. 김·그릇·수저 없음. 이전 낮은 부인 손에서 CM 손이 올라온 상태.",
+          "미래 뚜껑 열기/김 공개는 아직 미검증."
+        ]
+      },
+      "attempts": []
+    },
+    {
+      "id": "C04_K08",
+      "concept_id": "C04",
+      "scene_id": "S08",
+      "linked_cut": "K08",
+      "image_path": "images/C04/S08.png",
+      "source_generated_path": "C:\\Users\\wseok\\.codex\\generated_images\\01a13daf-3732-7b90-99a8-92c605090d35\\exec-581cd104-af4b-463d-9a6c-ee5badb25d31.png",
+      "generation_tool": "image_gen",
+      "prompt": "Create a new cinematic 16:9 START FRAME of the impending Trojan-horse food reveal. Same historical Korean absurdist commercial. Reference1 for wide shot and already-open food cart, reference2 for exact guard, commander, clerk, cart, horse faces/costumes/architecture. Entire left-facing wooden horse visible behind, EXACTLY THREE side hatches FULLY CLOSED in this starting frame, purple crescent underneath and small document slot. No hands, bowls or spoons outside hatches yet. Left foreground broad gray-curly woman in dark green armor and black gloves has ALREADY lifted food-cart lid and holds it vertical by its black handle with one gloved hand; other hand on rail. A single metal tray of steaming food is now exposed for first time. Thin long black-bearded commander purple cloak stands center beside cart, raised denying palm frozen at chest height, looking toward horse in a tiny change of worry. Elderly bald clerk mustard vest at right with tablet back and crescent envelope. No additional foreground actors. Realistic detailed skin and war-drama light; serious performances despite absurd situation. All three closed hatch panels readable and large, with clear room for later six arms carrying three bowls and three spoons to emerge. No letters, subtitles, titles, logo, watermark, collage. Do NOT render the future hatch opening, bowls or soldier arms; this is strictly before that reveal.",
+      "referenced_image_paths": [
+        "\\\\wsl.localhost\\Ubuntu-24.04\\home\\wooseok\\wsy\\samsung_related\\slide\\AI실행결과발표대회_디자인3종\\storyboards\\2026-10-19_tone-polish-v8\\images\\C04\\S08.png",
+        "\\\\wsl.localhost\\Ubuntu-24.04\\home\\wooseok\\wsy\\samsung_related\\slide\\AI실행결과발표대회_디자인3종\\storyboards\\2026-10-23_v9-caption-first\\images\\C04\\S06.png"
+      ],
+      "next_motion": "정확히 창3개가 열리고 병사3명 각각 두 팔로 그릇1개·숟가락1개를 내민다. 총6팔·3그릇·3숟가락. 추가 사람/손 없음. CM은 부인하던 손을 못 내린다. 첫 그릇이 창 경계 밖으로 나오는 때가 음악 중단점이다.",
+      "camera_notes": "성문·목마 전신·수레를 살리는 큰 와이드. 세 창과 팔6개·그릇3개·숟가락3개가 겹치지 않게 좌우 간격 확보.",
+      "sha256": "ba62402bdece11468dcd9da82c5c1fa15be64f33d63c8fcf4121f6e6fc5519e5",
+      "dimensions": [
+        1672,
+        941
+      ],
+      "artist_review": {
+        "opened_actual_image": true,
+        "status": "candidate",
+        "notes": [
+          "실제 결과: 열린 음식 수레와 김이 보이되 목마 창 세 개는 완전히 닫힘.",
+          "세 외부 인물 동일, CM 부인 손 고정. 병사 팔·그릇·수저 조기 등장 없음.",
+          "실제 창 열기와 6팔/3그릇/3수저 동작은 향후 영상에서 확인할 사항."
+        ]
+      },
+      "attempts": []
+    },
+    {
+      "id": "C04_K09",
+      "concept_id": "C04",
+      "scene_id": "S09",
+      "linked_cut": "K09",
+      "image_path": "images/C04/S09.png",
+      "source_generated_path": "C:\\Users\\wseok\\.codex\\generated_images\\01a13daf-3732-7b90-99a8-92c605090d35\\exec-5d14c7b0-c25b-49e7-8304-645f770e446c.png",
+      "generation_tool": "image_gen",
+      "prompt": "New single 16:9 cinematic START FRAME for final authority-saving gag of the Trojan-horse Korean commercial. Reference1 provides final camera direction/positions; reference2 exact exterior cast, cart, horse; reference3 exact three hidden soldier faces and sleeve colors. Purple-cloaked thin pointed-black-beard commander large in LEFT foreground, chin level, looking authoritatively at gray-curly broad older woman guard on right. His right hand is still INSIDE his cloak at waist BEFORE he reveals his own spoon. Other hand natural at side. Do not show commander's spoon yet. Behind, same left-facing wooden horse now has EXACTLY THREE OPEN serving windows: left gray-braided older woman olive sleeves; middle thin young man dark-blue sleeves; right round curly man ochre sleeves. Each soldier has exactly two arms emerging from own window, one natural hand holding ONE silver bowl and other holding ONE wooden spoon: TOTAL six arms, three bowls, three spoons. Their faces match reference3. No additional soldier hands. The same open steaming food cart is foreground right, lid vertical, guard by rail with serving ladle lowered/hanging at cart. Elderly bald clerk far right, tablet back/envelope. Serious film-quality acting/light, no smiles for audience. Frame a bit wider and reserve the UPPER-RIGHT SKY / QUIET WALL roughly top quarter as unoccupied space for later event title, so three windows and utensils remain readable below it. No captions, letters, logo, watermark or collage. Show state AFTER soldiers revealed but BEFORE commander removes his separate spoon.",
+      "referenced_image_paths": [
+        "\\\\wsl.localhost\\Ubuntu-24.04\\home\\wooseok\\wsy\\samsung_related\\slide\\AI실행결과발표대회_디자인3종\\storyboards\\2026-10-19_tone-polish-v8\\images\\C04\\S09_v8.png",
+        "\\\\wsl.localhost\\Ubuntu-24.04\\home\\wooseok\\wsy\\samsung_related\\slide\\AI실행결과발표대회_디자인3종\\storyboards\\2026-10-23_v9-caption-first\\images\\C04\\S08.png",
+        "\\\\wsl.localhost\\Ubuntu-24.04\\home\\wooseok\\wsy\\samsung_related\\slide\\AI실행결과발표대회_디자인3종\\storyboards\\2026-10-23_v9-caption-first\\images\\C04\\S01.png"
+      ],
+      "next_motion": "CM이 자기 숟가락을 망토에서 꺼내 턱을 듦. 공개 뒤 지휘관부터 자막. GU는 국자를 드는 시작만. 뒤 4.8초 행사명·시작 문구, 인물 무언.",
+      "camera_notes": "CM의 얼굴·망토 손을 전경에 두고 목마의 세 배식창을 후경에 유지하는 미디엄 와이드. 작은 나무 숟가락이 밝은 수레 앞에서 읽힐 크기. 행사명은 실제 복합 배경의 우상단에 대비 패널로 배치.",
+      "sha256": "61585dc5414e87a54e4ce8efd05df92c154604609b38a0228af20f7b5c0cf9c0",
+      "dimensions": [
+        1672,
+        940
+      ],
+      "artist_review": {
+        "opened_actual_image": true,
+        "status": "candidate",
+        "notes": [
+          "실제 결과: 열린 세 창에 올리브·남색·황토 병사, 각2팔/1은그릇/1나무수저. 총6팔3그릇3수저 확인.",
+          "CM 자기 수저는 아직 망토 안, 손을 꺼내기 전. GU 수레/내려둔 국자, RC 태블릿·봉투 유지.",
+          "오른쪽 위 하늘 여백 확보. 행사명은 후편집이며 실제 다음 수저 공개/무음 타이밍은 향후 확인."
+        ]
+      },
+      "attempts": []
+    }
+  ]
+}

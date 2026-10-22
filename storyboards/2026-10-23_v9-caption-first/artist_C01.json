@@ -1,0 +1,302 @@
+{
+  "concept_id": "C01",
+  "expected_images": 9,
+  "images": [
+    {
+      "id": "C01_K04",
+      "concept_id": "C01",
+      "scene_id": "S04",
+      "linked_cut": "K04",
+      "image_path": "images/C01/S04.png",
+      "source_generated_path": "C:\\Users\\wseok\\.codex\\generated_images\\01a16462-c046-7f73-8e87-d3114dbd42a8\\exec-fe7952bf-f2fd-4828-8c63-c474f067f837.png",
+      "generation_tool": "image_gen",
+      "prompt": "Create one newly rendered 16:9 cinematic first-frame image, not a collage or storyboard page. Use the supplied approved V8 reference to preserve exact casting, wardrobe, creature design, architecture, props and left-right continuity. Depict the start of future motion, not its payoff. No captions, subtitles, logos, watermark or random writing baked in; typography will be added in post. Preserve a calm high-contrast region for later captions without obscuring or shrinking essential action. No extra characters or giant decorative props. Generate ONLY the full-frame source footage to be composited into the gym monitor later, not a monitor photograph. Show the reference monitor's blue-shirt man head-to-toe in exactly the tilted-torso and raised-right-hand pose from the wall portrait. Pelvis is STILL on the edge of the low black rolling chair. All wheels and thick gray mat visible, clear room for the chair to roll sideways. He has NOT landed. Simple neutral indoor exercise corner, fixed wide camera. No observers, no poster, no screen bezel, no split-screen. Preserve the exact face, shirt, hand direction and chair from the reference monitor.\nReference image 1 defines the man within the RIGHT monitor and his exact gesture, clothes, low chair, thick gray mat, and neutral gray-beige studio wall. Reference image 2 supplies his standing face and blue-shirt casting identity. Render a NEW single full-frame movie source, NOT the reference's gym or display setup. Use only ONE Korean man age 30, same angular face, dark side-parted black hair, light sky-blue rolled-sleeve shirt, dark gray trousers, white running shoes. His RIGHT arm extends diagonally toward screen-left with five naturally splayed fingers; torso leans back toward screen-right approximately 25 degrees. His left arm extends slightly behind to screen-right. His pelvis remains visibly in contact with the front-left edge of the chair seat; the two feet rest on the gray mat ahead, knees slightly bent. Chair has black padded low backrest, black seat and five-spoke caster base. Do not show him suspended in midair. Keep entire body, chair casters and all edges of gray thick mat visible with space all around, 16:9 landscape. Realistic cinematic photography, dignified intent concentration rather than fear or pain, fine facial detail, soft neutral warm side-light. No poster, no monitor frame, no text, no UI, no symbols, no logos, no other person. This full-frame actor identity will be reused for the wall portrait in later images.",
+      "referenced_image_paths": [
+        "\\\\wsl.localhost\\Ubuntu-24.04\\home\\wooseok\\wsy\\samsung_related\\slide\\AI실행결과발표대회_디자인3종\\storyboards\\2026-10-19_tone-polish-v8\\images\\C01\\S04_v2.png",
+        "\\\\wsl.localhost\\Ubuntu-24.04\\home\\wooseok\\wsy\\samsung_related\\slide\\AI실행결과발표대회_디자인3종\\storyboards\\2026-10-19_tone-polish-v8\\images\\C01\\S03.png"
+      ],
+      "next_motion": "사진과 같은 자세로 시작한 P의 의자가 옆으로 밀려, 두꺼운 매트에 낮게 풀썩한다. 움직임은 모니터 내부에만 합성한다. 착지 후 설명 자막 없이 반응을 읽히며 정지 박자를 둔다.",
+      "camera_notes": "모니터 내부용 원본만 전신 고정 와이드. 교실 비교 판은 V8 기준 후편집 합성.",
+      "sha256": "17B9D996696B212097666ACFD90D8566E1E2A6034DE79EF02747CF95D552D9C7",
+      "source_sha256": "17B9D996696B212097666ACFD90D8566E1E2A6034DE79EF02747CF95D552D9C7",
+      "dimensions": [
+        1672,
+        941
+      ],
+      "artist_review": {
+        "opened_actual_image": true,
+        "status": "candidate",
+        "notes": [
+          "내장 결과 및 저장 PNG를 실제 열었음. 독립 원본으로 모니터 테두리·관람자·포스터 없음.",
+          "P의 하늘색 셔츠·회색 바지·흰 운동화와 오른손 방향 유지. 골반은 의자 끝에 접촉하며 아직 착지 전. 손 2개와 신발 2개, 바퀴 의자 확인.",
+          "원본과 프로젝트 복사본 SHA256 일치. 도구 네이티브 1672×941은 약 16:9이며 재인코딩하지 않음."
+        ]
+      },
+      "attempts": []
+    },
+    {
+      "id": "C01_K01",
+      "concept_id": "C01",
+      "scene_id": "S01",
+      "linked_cut": "K01",
+      "image_path": "images/C01/S01.png",
+      "source_generated_path": "C:\\Users\\wseok\\.codex\\generated_images\\01a16462-c046-7f73-8e87-d3114dbd42a8\\exec-12b6812f-4874-4b02-b399-9668e33b46d0.png",
+      "generation_tool": "image_gen",
+      "prompt": "Create one newly rendered 16:9 cinematic first-frame image, not a collage or storyboard page. Use the supplied approved V8 reference to preserve exact casting, wardrobe, creature design, architecture, props and left-right continuity. Depict the start of future motion, not its payoff. No captions, subtitles, logos, watermark or random writing baked in; typography will be added in post. Preserve a calm high-contrast region for later captions without obscuring or shrinking essential action. No extra characters or giant decorative props. Wide premium gym. Lemon-clad female trainee L1 leans back on the edge of a low black rolling chair on a thick gray mat. Her right fingers are slightly bent; the burgundy female coach's fingers hover just before correcting them. Huge wall portrait shows only the matching blue-shirt man's tilted torso and raised right hand, cropped above the waist: no chair, legs or floor in the photograph. Preserve the teal male trainee, gray-polo photographer, left exit and right monitor cart.\nREFERENCE ROLES: image 1 is the gym set, character casting and composition reference. Image 2 is the authoritative exact P identity and matching photographic moment: use this same angular Korean man's face, same hair, shirt, torso slope, raised right hand and finger arrangement INSIDE the large wall photo. The wall photo must be a tightly cropped view of image 2 from above the waist: absolutely no pants, chair, mat or floor in it. New render, not a copied old frame. The actual trainee L1, a bob-haired Korean woman about 30 in a lemon-yellow tracksuit, sits at the FRONT edge of the black rolling chair. Her torso leans backward toward screen-right; her own RIGHT arm reaches up toward screen-left in the same pose as the poster. Her right fingers are slightly bent, still before correction. Coach T is the same 40-year-old Korean woman on screen-left, bun and burgundy headband, burgundy tracksuit with piping and small silver whistle; her two fingers hover 2 cm from the trainee fingers without yet touching. L2 with curly hair and teal tracksuit and gray-polo photographer stand at screen-right, serious and attentive, with a black camera. Left wooden doorway open; dark monitor on black wheeled cart at far right; dark-teal walls, warm sconces and wood floor, thick gray mat in foreground. Preserve all faces and costumes. Show trainee's whole body, chair casters, coach and the 2 male observers, no additional living people; the poster is the only blue-shirt person in this shot. Caption space along lower front mat without covering hands or faces. Widescreen 16:9, cinematic realistic advertising still, no text, logos or watermark.",
+      "referenced_image_paths": [
+        "\\\\wsl.localhost\\Ubuntu-24.04\\home\\wooseok\\wsy\\samsung_related\\slide\\AI실행결과발표대회_디자인3종\\storyboards\\2026-10-19_tone-polish-v8\\images\\C01\\S01.png",
+        "\\\\wsl.localhost\\Ubuntu-24.04\\home\\wooseok\\wsy\\samsung_related\\slide\\AI실행결과발표대회_디자인3종\\storyboards\\2026-10-23_v9-caption-first\\images\\C01\\S04.png"
+      ],
+      "next_motion": "T가 손가락만 2cm 펴 준다. L1은 숨을 참고 자세를 유지한다. 카메라는 움직이지 않는다.",
+      "camera_notes": "눈높이 고정 와이드. 왼쪽 출입문, 중앙 포스터·의자, 오른쪽 모니터 카트가 한 화면.",
+      "sha256": "15E02488BC84CB789D25F3F4F4C5E39BF26B05FC8564BDE2381C383B5850284A",
+      "source_sha256": "15E02488BC84CB789D25F3F4F4C5E39BF26B05FC8564BDE2381C383B5850284A",
+      "dimensions": [
+        1672,
+        941
+      ],
+      "artist_review": {
+        "opened_actual_image": true,
+        "status": "candidate",
+        "notes": [
+          "생성 결과 및 프로젝트 PNG 실제 열람. 코치 두 손가락과 L1 손끝 사이 간격이 남은 교정 전 상태.",
+          "L1 골반은 낮은 의자 위, 포스터는 P의 상체/오른손만 보여 의자·다리·바닥을 숨김. 좌측 문/우측 카트·L2·조수 배치 유지.",
+          "신규 S04의 P와 포스터 얼굴/머리/하늘색 셔츠 방향 일치. 행사 글·워터마크 없음. 네이티브 약16:9 원본 보존 및 SHA256 일치."
+        ]
+      },
+      "attempts": []
+    },
+    {
+      "id": "C01_K02",
+      "concept_id": "C01",
+      "scene_id": "S02",
+      "linked_cut": "K02",
+      "image_path": "images/C01/S02.png",
+      "source_generated_path": "C:\\Users\\wseok\\.codex\\generated_images\\01a16462-c046-7f73-8e87-d3114dbd42a8\\exec-24e90708-e857-41c8-9d92-70479979c60f.png",
+      "generation_tool": "image_gen",
+      "prompt": "Create one newly rendered 16:9 cinematic first-frame image, not a collage or storyboard page. Use the supplied approved V8 reference to preserve exact casting, wardrobe, creature design, architecture, props and left-right continuity. Depict the start of future motion, not its payoff. No captions, subtitles, logos, watermark or random writing baked in; typography will be added in post. Preserve a calm high-contrast region for later captions without obscuring or shrinking essential action. No extra characters or giant decorative props. Waist-up view aligning the lemon-clad trainee and huge cropped portrait at the same leaning angle. Coach's palm hovers beside the trainee's shoulder before correction. Portrait shows only the blue-shirt man's upper body and hand. Preserve gym, faces, costumes and screen axis.\nNew cinematic 16:9 single-frame rendering. Image1 defines the medium composition, image2 the exact current coach and trainee faces and costumes, image3 the authoritative P for the wall portrait. Match the same burgundy headband/rolled hair bun, burgundy tracksuit and silver whistle coach at screen-left; same bob-haired woman in yellow tracksuit leaning backward toward screen-right, own RIGHT arm extended to screen-left. The coach's open palm hovers about 3cm beside the trainee's shoulder, clearly no contact yet. The trainee's torso and P's portrait torso lean along matching diagonals. Portrait is the EXACT blue-shirt man and right hand gesture of image3, cropped above waist, no pants, chair, mat or floor. Keep the blue-shirt man's face true to image3 rather than invent a new face. Frame from waist up so the physical trainee and the photograph's upper body are comparably prominent side by side, faces and fingertips all inside image. Maintain dark teal wall and warm sconces, open wooden door left, no extra people. Serious concentration, no pain or melodrama. Keep plain lower corner of dark wall useful for later captions. No visible lettering, brands, logos, UI, symbols or watermark. No text on clothing.",
+      "referenced_image_paths": [
+        "\\\\wsl.localhost\\Ubuntu-24.04\\home\\wooseok\\wsy\\samsung_related\\slide\\AI실행결과발표대회_디자인3종\\storyboards\\2026-10-19_tone-polish-v8\\images\\C01\\S02_v2.png",
+        "\\\\wsl.localhost\\Ubuntu-24.04\\home\\wooseok\\wsy\\samsung_related\\slide\\AI실행결과발표대회_디자인3종\\storyboards\\2026-10-23_v9-caption-first\\images\\C01\\S01.png",
+        "\\\\wsl.localhost\\Ubuntu-24.04\\home\\wooseok\\wsy\\samsung_related\\slide\\AI실행결과발표대회_디자인3종\\storyboards\\2026-10-23_v9-caption-first\\images\\C01\\S04.png"
+      ],
+      "next_motion": "L1이 상체 각도를 조금 더 기울이고 손끝을 편다. T가 엄숙히 한 번 고개를 끄덕인다.",
+      "camera_notes": "고정 허리 위 미디엄. 벽 사진의 상체와 실제 L1의 상체가 비슷한 크기로 나란히 보임.",
+      "sha256": "AA6111EE9DFC8EF577F92D331BB153C461A535D3CD083FB3A57766AEC9084AB1",
+      "source_sha256": "AA6111EE9DFC8EF577F92D331BB153C461A535D3CD083FB3A57766AEC9084AB1",
+      "dimensions": [
+        1672,
+        941
+      ],
+      "artist_review": {
+        "opened_actual_image": true,
+        "status": "candidate",
+        "notes": [
+          "실제 새 PNG 열람. 코치 손바닥은 L1 어깨 옆에서 아직 닿기 전이며 두 상체의 기울기와 오른손 방향이 대응.",
+          "캐스팅·복장·청록벽·왼쪽 문 축 유지. 포스터는 허리 위 크롭이며 의자나 매트 노출 없음.",
+          "하단 중앙 청록 여백에 후편집 자막 배치 가능. 자막·브랜드·워터마크 없음. 원본/복사본 SHA256 일치."
+        ]
+      },
+      "attempts": []
+    },
+    {
+      "id": "C01_K03",
+      "concept_id": "C01",
+      "scene_id": "S03",
+      "linked_cut": "K03",
+      "image_path": "images/C01/S03.png",
+      "source_generated_path": "C:\\Users\\wseok\\.codex\\generated_images\\01a16462-c046-7f73-8e87-d3114dbd42a8\\exec-74d7900d-3ffe-413e-a663-a355626423a2.png",
+      "generation_tool": "image_gen",
+      "prompt": "Create one newly rendered 16:9 cinematic first-frame image, not a collage or storyboard page. Use the supplied approved V8 reference to preserve exact casting, wardrobe, creature design, architecture, props and left-right continuity. Depict the start of future motion, not its payoff. No captions, subtitles, logos, watermark or random writing baked in; typography will be added in post. Preserve a calm high-contrast region for later captions without obscuring or shrinking essential action. No extra characters or giant decorative props. The real blue-shirt man stands at the right laptop cart with fingers above the play key. Monitor holds the same tilted upper-body pose as the wall photograph. His face matches the portrait. Paused image, no interface text. Coach watches him. No chair slip yet.\nReference1 is shot composition and laptop cart reference. Reference2 is exact coach, room, large portrait and wardrobe continuation. Reference3 is the AUTHORITATIVE blue-shirt man P: same facial features, hair, shirt, trousers, shoes in all 3 appearances here. Render him as the real man standing beside the cart, plus the same person in wall portrait and monitor. Do not make the standing man a different model or hairstyle. Medium-wide fixed movie frame, coach at left looking skeptically toward P, arms folded; real P at center-right stands naturally with one hand's fingertips resting just above laptop play key BEFORE pressing, his other arm relaxed. Large monitor on the right shows ONLY an upper-body crop of reference3: torso leaning screen-right, right arm reaching screen-left, spread fingers. Left wall poster shows the EXACT same crop, same face, same direction and same first moment. Cropped image must not reveal chair, trousers, feet or floor. No playback button, UI, writing or symbols. Preserve dark-teal walls, warm sconces, wood floor, black cart with neatly managed cables and small open laptop, burgundy coach with headband and whistle. P has light blue rolled sleeves, dark gray trousers and white sneakers, angular clean-shaven Korean face and same short dark side-swept hair as reference3. Eye line from P toward coach, neutral and matter-of-fact. Leave lower foreground wood floor for captions. 16:9 cinematic realistic new frame, no caption, logo or watermark.",
+      "referenced_image_paths": [
+        "\\\\wsl.localhost\\Ubuntu-24.04\\home\\wooseok\\wsy\\samsung_related\\slide\\AI실행결과발표대회_디자인3종\\storyboards\\2026-10-19_tone-polish-v8\\images\\C01\\S03.png",
+        "\\\\wsl.localhost\\Ubuntu-24.04\\home\\wooseok\\wsy\\samsung_related\\slide\\AI실행결과발표대회_디자인3종\\storyboards\\2026-10-23_v9-caption-first\\images\\C01\\S01.png",
+        "\\\\wsl.localhost\\Ubuntu-24.04\\home\\wooseok\\wsy\\samsung_related\\slide\\AI실행결과발표대회_디자인3종\\storyboards\\2026-10-23_v9-caption-first\\images\\C01\\S04.png"
+      ],
+      "next_motion": "P가 재생 키를 한 번 누른다. 모니터는 편집용 정지 상태 유지. K04 독립 원본을 후편집 합성. 발화 없음.",
+      "camera_notes": "고정 미디엄 와이드. P와 모니터를 함께 두고 벽 포스터 일부를 왼쪽에 포함.",
+      "sha256": "5BDD496A2196FD603FAFBD884D539D20970E724C3AEEE81A7519E4D12193542C",
+      "source_sha256": "5BDD496A2196FD603FAFBD884D539D20970E724C3AEEE81A7519E4D12193542C",
+      "dimensions": [
+        1672,
+        941
+      ],
+      "artist_review": {
+        "opened_actual_image": true,
+        "status": "candidate",
+        "notes": [
+          "실제 새 PNG 열람. P는 카트 옆에 서 있고 노트북 키 위에 손을 올린 재생 전 상태. 코치는 P를 바라봄.",
+          "포스터·모니터에서 같은 오른손/기울어진 상체 사진 유지, 의자·바닥 없는 상반신 크롭. P의 현장 복장·얼굴과 표시된 인물 대응.",
+          "카트·노트북·monitor의 화면축 유지, 하단 바닥 자막 여백. 텍스트/UI/워터마크 없음. 원본/복사본 SHA256 일치."
+        ]
+      },
+      "attempts": []
+    },
+    {
+      "id": "C01_K05",
+      "concept_id": "C01",
+      "scene_id": "S05",
+      "linked_cut": "K05",
+      "image_path": "images/C01/S05.png",
+      "source_generated_path": "C:\\Users\\wseok\\.codex\\generated_images\\01a16462-c046-7f73-8e87-d3114dbd42a8\\exec-c5e05d49-a9aa-4760-86ac-5cb881143134.png",
+      "generation_tool": "image_gen",
+      "prompt": "Create one newly rendered 16:9 cinematic first-frame image, not a collage or storyboard page. Use the supplied approved V8 reference to preserve exact casting, wardrobe, creature design, architecture, props and left-right continuity. Depict the start of future motion, not its payoff. No captions, subtitles, logos, watermark or random writing baked in; typography will be added in post. Preserve a calm high-contrast region for later captions without obscuring or shrinking essential action. No extra characters or giant decorative props. Wide gym. Lemon-clad trainee is already standing and looking at the blue-shirt man; he opens a hand toward the left exit. Coach looks at the empty chair before pulling it. Teal trainee and photographer stay right. Monitor shows the low seated aftermath without injury.\nUse reference1 for staging only, new reference2 and reference3 for matching exact cast and room, reference4 for blue-shirt P's identity and office chair. New 16:9 cinematic single wide shot. Five actual people: from left to right P, yellow L1, burgundy coach T, teal L2, gray-polo photographer A. P already stands by left exit extending an open hand toward the open wooden doorway. Bob-haired L1 in lemon tracksuit is ALREADY fully standing and looks up at P with interest; no sitting or getting up action. Coach stands center, face looking down at the same EMPTY low black chair, hand hovering above its backrest before drawing it toward mat center. Teal curly-haired man and gray-polo camera assistant remain on right. P in blue shirt has the SAME angular face and side-swept short black hair as reference4 and poster; not a replacement actor. Huge wall poster matches reference2, depicting P only from above waist with right arm raised screen-left and torso tilted screen-right. Large monitor at far right now depicts P seated LOW on gray mat in mild aftermath with the black chair pushed aside, same face, blue shirt, gray trousers, white shoes, no injury or UI. This is only a small screen image, not a second physical person. Preserve dark-teal wall, warm sconces, wood floor, thick gray mat, black cart; only the 5 cast members physically present. No text or logos anywhere. Full bodies not cut off, feet and rolling chair wheels clear, clear lower floor region for post captions.",
+      "referenced_image_paths": [
+        "\\\\wsl.localhost\\Ubuntu-24.04\\home\\wooseok\\wsy\\samsung_related\\slide\\AI실행결과발표대회_디자인3종\\storyboards\\2026-10-19_tone-polish-v8\\images\\C01\\S05.png",
+        "\\\\wsl.localhost\\Ubuntu-24.04\\home\\wooseok\\wsy\\samsung_related\\slide\\AI실행결과발표대회_디자인3종\\storyboards\\2026-10-23_v9-caption-first\\images\\C01\\S01.png",
+        "\\\\wsl.localhost\\Ubuntu-24.04\\home\\wooseok\\wsy\\samsung_related\\slide\\AI실행결과발표대회_디자인3종\\storyboards\\2026-10-23_v9-caption-first\\images\\C01\\S03.png",
+        "\\\\wsl.localhost\\Ubuntu-24.04\\home\\wooseok\\wsy\\samsung_related\\slide\\AI실행결과발표대회_디자인3종\\storyboards\\2026-10-23_v9-caption-first\\images\\C01\\S04.png"
+      ],
+      "next_motion": "이미 서 있는 L1이 P에게 작업 방법을 묻는 태도. 자막을 읽은 뒤 둘이 왼쪽 문으로 두 걸음. T는 같은 의자를 매트 중앙으로 당긴다. 발화 없음.",
+      "camera_notes": "고정 와이드. 왼쪽 문으로 향하는 P·L1, 중앙 T·의자, 오른쪽에 남은 L2·A.",
+      "sha256": "ACB9C11E5ABE00B47A12701F4D94BEE144570F367ADEE8FBA4420DDE3F2EE2F3",
+      "source_sha256": "ACB9C11E5ABE00B47A12701F4D94BEE144570F367ADEE8FBA4420DDE3F2EE2F3",
+      "dimensions": [
+        1672,
+        941
+      ],
+      "artist_review": {
+        "opened_actual_image": true,
+        "status": "candidate",
+        "notes": [
+          "실제 새 PNG 열람. L1은 이미 두 발로 서서 P를 바라보고 P의 열린 손은 왼쪽 출입문을 가리킴.",
+          "중앙 코치는 빈 의자를 내려다보며 잡기 직전, L2와 조수는 오른쪽에 유지. 모니터 내부 P는 낮게 매트에 앉은 후상태.",
+          "물리 인물은 지정된 5명, 포스터/모니터는 사진 속 동일 P. 복장/매트/의자/좌우 축 유지. 후편집 하단 여백 및 원본/복사본 SHA256 일치."
+        ]
+      },
+      "attempts": []
+    },
+    {
+      "id": "C01_K06",
+      "concept_id": "C01",
+      "scene_id": "S06",
+      "linked_cut": "K06",
+      "image_path": "images/C01/S06.png",
+      "source_generated_path": "C:\\Users\\wseok\\.codex\\generated_images\\01a16462-c046-7f73-8e87-d3114dbd42a8\\exec-a63fbfe0-a29a-438e-a468-eaa58e05331d.png",
+      "generation_tool": "image_gen",
+      "prompt": "Create one newly rendered 16:9 cinematic first-frame image, not a collage or storyboard page. Use the supplied approved V8 reference to preserve exact casting, wardrobe, creature design, architecture, props and left-right continuity. Depict the start of future motion, not its payoff. No captions, subtitles, logos, watermark or random writing baked in; typography will be added in post. Preserve a calm high-contrast region for later captions without obscuring or shrinking essential action. No extra characters or giant decorative props. Full-body wide. Burgundy coach still sits on the edge of the same low rolling chair, raised right hand imitating the portrait. Feet, wheels and thick mat fully visible. Clear lateral rolling space. BEFORE the low tumble, not after. No injury or pain.\nReference1 defines seated pose, reference2 exact current gym and coach casting, reference3 continuation of monitor aftermath and the now-empty central chair. Generate a NEW 16:9 full-body cinematic still. Only 3 physical people: burgundy female coach T seated center on the SAME low black rolling chair's front edge, curly-haired teal male trainee L2 standing right, gray-polo camera assistant A standing farther right. P and L1 have left, do not include them in the room. Coach's pelvis is visibly STILL on chair seat, torso leans backward screen-right, her own RIGHT arm extends up toward screen-left with same spread fingers as poster. Her other hand can touch seat edge naturally. Both white sneakers are on gray mat, knees bent, feet and five-spoke casters fully visible. Chair remains low and upright with lateral room to slip later. Coach looks pridefully determined, no injury, no falling or airborne posture. Same woman age40, bun, burgundy headband, burgundy tracksuit with gold piping, little silver whistle. Keep large cropped blue-shirt P portrait behind, same face and gesture as ref2; only upper body in poster. At right, monitor contains P now seated LOW on mat beside rolled-aside black chair as in ref3. Dark-teal gym wall, warm amber sconces, left exit remains open, wood floor, gray mat. Intent seriously presented absurd posture practice. Keep clear lower mat margin for captions added after landing in future motion. No text, no logos, no random marks, no watermark.",
+      "referenced_image_paths": [
+        "\\\\wsl.localhost\\Ubuntu-24.04\\home\\wooseok\\wsy\\samsung_related\\slide\\AI실행결과발표대회_디자인3종\\storyboards\\2026-10-19_tone-polish-v8\\images\\C01\\S06_v2.png",
+        "\\\\wsl.localhost\\Ubuntu-24.04\\home\\wooseok\\wsy\\samsung_related\\slide\\AI실행결과발표대회_디자인3종\\storyboards\\2026-10-23_v9-caption-first\\images\\C01\\S01.png",
+        "\\\\wsl.localhost\\Ubuntu-24.04\\home\\wooseok\\wsy\\samsung_related\\slide\\AI실행결과발표대회_디자인3종\\storyboards\\2026-10-23_v9-caption-first\\images\\C01\\S05.png"
+      ],
+      "next_motion": "의자가 옆으로 빠짐→T가 낮은 매트에 풀썩→오른팔·굽힌 무릎을 굳혀 권위를 유지. 착지 후 자막. 큰 부상 연기·발화 없음.",
+      "camera_notes": "고정 전신 미디엄 와이드. T의 발·매트·바퀴가 잘리지 않음.",
+      "sha256": "2EB21C214E41FCC29FAE8CFA200CE56326A63FF1017E69E1B5C94EA592439E27",
+      "source_sha256": "2EB21C214E41FCC29FAE8CFA200CE56326A63FF1017E69E1B5C94EA592439E27",
+      "dimensions": [
+        1672,
+        941
+      ],
+      "artist_review": {
+        "opened_actual_image": true,
+        "status": "candidate",
+        "notes": [
+          "실제 새 PNG 열람. 코치 골반은 의자 위에 있고 오른팔은 사진 방향으로 들어 올린 착지 전 상태. 양발/캐스터/매트가 모두 보임.",
+          "P·L1 현장 퇴장 후 L2·조수만 오른쪽에 남음. 포스터/모니터 후상태·복장·세트 축 연속.",
+          "한 손은 의자 끝, 오른손은 위로 분리되어 형태 오류 없음. 하단 여백 및 원본/복사본 SHA256 일치."
+        ]
+      },
+      "attempts": []
+    },
+    {
+      "id": "C01_K07",
+      "concept_id": "C01",
+      "scene_id": "S07",
+      "linked_cut": "K07",
+      "image_path": "images/C01/S07.png",
+      "source_generated_path": "C:\\Users\\wseok\\.codex\\generated_images\\01a16462-c046-7f73-8e87-d3114dbd42a8\\exec-c4823e43-2675-4832-ae45-7a2c6ee74170.png",
+      "generation_tool": "image_gen",
+      "prompt": "Create one newly rendered 16:9 cinematic first-frame image, not a collage or storyboard page. Use the supplied approved V8 reference to preserve exact casting, wardrobe, creature design, architecture, props and left-right continuity. Depict the start of future motion, not its payoff. No captions, subtitles, logos, watermark or random writing baked in; typography will be added in post. Preserve a calm high-contrast region for later captions without obscuring or shrinking essential action. No extra characters or giant decorative props. Low wide. Coach already lies on her back on the mat, one bent knee and right arm rigidly raised, dignified face. Photographer kneels with camera ready before shutter press. Teal trainee still stands, studying the knee pose.\nReference1 defines exact floor pose and camera-side composition. References2 and3 are current cast/room/portrait continuity. New 16:9 realistic cinematic frame, fixed low medium-wide. After low harmless landing, burgundy woman coach lies fully on her BACK upon the same thick gray mat, head toward screen-right and white sneakers toward screen-left. Her LEFT leg lies straight along the mat; her RIGHT knee bent and lifted at roughly ninety degrees, right shoe suspended safely above the mat. Her RIGHT arm remains rigidly lifted diagonally toward screen-left with palm and spread fingers copying the poster. Her LEFT arm lies naturally on mat. Two arms and two legs only. Her head and shoulders lightly lifted, determined proud face, no pain/injury. SAME bun, burgundy headband, tracksuit with fine gold piping, silver whistle and white shoes. Gray-polo photographer A kneels in left foreground with black camera held near face, finger poised before shutter, documenting seriously. Teal curly-haired trainee L2 STILL STANDS at right, thoughtfully looking down at the coach's bent knee; not yet kneeling or lying. Empty black rolling chair has moved behind coach toward screen-right. Preserve giant cropped P portrait, same blue-shirt face and extended right hand. Right screen still shows P seated low on mat beside chair, no UI. Left door stays open; wood floor, dark-teal wall and warm amber sconces. Keep coach's entire body, raised hand and shoe inside image, no overlap hiding knee. Clear narrow lower mat border for short post caption. No text/logos/watermark, no additional people.",
+      "referenced_image_paths": [
+        "\\\\wsl.localhost\\Ubuntu-24.04\\home\\wooseok\\wsy\\samsung_related\\slide\\AI실행결과발표대회_디자인3종\\storyboards\\2026-10-19_tone-polish-v8\\images\\C01\\S07_v2.png",
+        "\\\\wsl.localhost\\Ubuntu-24.04\\home\\wooseok\\wsy\\samsung_related\\slide\\AI실행결과발표대회_디자인3종\\storyboards\\2026-10-23_v9-caption-first\\images\\C01\\S06.png",
+        "\\\\wsl.localhost\\Ubuntu-24.04\\home\\wooseok\\wsy\\samsung_related\\slide\\AI실행결과발표대회_디자인3종\\storyboards\\2026-10-23_v9-caption-first\\images\\C01\\S01.png"
+      ],
+      "next_motion": "A가 셔터를 누른다. T는 자세를 더 굳히고 L2가 그 옆 매트로 몸을 낮추기 시작한다.",
+      "camera_notes": "고정 낮은 미디엄 와이드. 뒤집힌 코치의 온몸과 카메라, 서 있는 L2의 비교 시선을 함께.",
+      "sha256": "5C3410956C0F2490EE4CD31BC5452D32E0F4F4529B0A65BBC407B47A0BBEDD7B",
+      "source_sha256": "5C3410956C0F2490EE4CD31BC5452D32E0F4F4529B0A65BBC407B47A0BBEDD7B",
+      "dimensions": [
+        1672,
+        941
+      ],
+      "artist_review": {
+        "opened_actual_image": true,
+        "status": "candidate",
+        "notes": [
+          "실제 새 PNG 열람. 코치 등은 매트 위, 오른팔·굽힌 무릎이 올라가 있고 다른 팔·다리는 매트 방향으로 유지.",
+          "조수는 왼쪽에서 무릎을 꿇고 카메라를 대며 셔터 직전. L2는 오른쪽에 아직 서서 코치 무릎을 관찰.",
+          "등받이 의자가 뒤쪽으로 이동한 상태, 포스터/모니터/문/소품 연속. 무릎과 손 형태 뚜렷하며 통증 연기 없음. SHA256 일치."
+        ]
+      },
+      "attempts": []
+    },
+    {
+      "id": "C01_K08",
+      "concept_id": "C01",
+      "scene_id": "S08",
+      "linked_cut": "K08",
+      "image_path": "images/C01/S08.png",
+      "source_generated_path": "C:\\Users\\wseok\\.codex\\generated_images\\01a16462-c046-7f73-8e87-d3114dbd42a8\\exec-7acf4bd4-78b8-4b34-9881-6056a8b8bfc9.png",
+      "generation_tool": "image_gen",
+      "prompt": "Create one newly rendered 16:9 cinematic first-frame image, not a collage or storyboard page. Use the supplied approved V8 reference to preserve exact casting, wardrobe, creature design, architecture, props and left-right continuity. Depict the start of future motion, not its payoff. No captions, subtitles, logos, watermark or random writing baked in; typography will be added in post. Preserve a calm high-contrast region for later captions without obscuring or shrinking essential action. No extra characters or giant decorative props. Coach and teal male trainee already lie side-by-side on their backs, right arms and one bent knee raised in matching absurd poses. Only trainee's toe angle differs. Photographer frames both full bodies. No cropped limbs.\nReference1 defines side-by-side copied floor positions, new reference2 is exact current coach/photographer/room continuity, reference3 exact teal L2 face and wardrobe. NEW single movie frame, no collage. Fixed front medium-wide 16:9, entire bodies from shoes at screen-left to heads at screen-right. Burgundy coach lies on back on near side of thick gray mat; teal curly-haired trainee lies parallel behind her on same mat. BOTH already have right arms rigidly raised diagonally up toward screen-left, with spread fingers, and one bent right knee held up. Both LEFT legs extended flat toward screen-left and both left arms on mat. Exactly two hands and two feet per person, no fused limbs. Coach's raised foot ankle is bent with toe pointing upward-left; trainee's raised foot ankle is still slightly extended, toes aim more toward screen-left horizontally, a clear SMALL difference before he adjusts. Keep their same full-body scale and distinct white sneakers. Both serious and dedicated, not pained. Gray-polo photographer kneels at far left with black camera framing both complete bodies, finger poised before click. Empty low black rolling chair behind them at screen-right. Preserve cropped blue-shirt P portrait on teal wall overhead, same P face/gesture; far right monitor still displays P low-seated on mat beside chair. Left doorway, warm sconces, wood floor. No P or yellow trainee physically present. Keep top/bottom breathing room without cropping raised hands, knees, shoes or heads. No lettering, logos, watermarks or UI. Intent: visually absurd slavish copying of a fallen posture.",
+      "referenced_image_paths": [
+        "\\\\wsl.localhost\\Ubuntu-24.04\\home\\wooseok\\wsy\\samsung_related\\slide\\AI실행결과발표대회_디자인3종\\storyboards\\2026-10-19_tone-polish-v8\\images\\C01\\S08_v2.png",
+        "\\\\wsl.localhost\\Ubuntu-24.04\\home\\wooseok\\wsy\\samsung_related\\slide\\AI실행결과발표대회_디자인3종\\storyboards\\2026-10-23_v9-caption-first\\images\\C01\\S07.png",
+        "\\\\wsl.localhost\\Ubuntu-24.04\\home\\wooseok\\wsy\\samsung_related\\slide\\AI실행결과발표대회_디자인3종\\storyboards\\2026-10-23_v9-caption-first\\images\\C01\\S01.png"
+      ],
+      "next_motion": "L2가 발끝을 T와 같은 방향으로 꺾는다. T가 눈으로 만족을 표시하고 A의 셔터가 한 번 울린다.",
+      "camera_notes": "고정 정면 전신 투 샷. 벽 포스터의 상반신이 위에 겹쳐 보임.",
+      "sha256": "52F81DDDCB246BF9FB7A31ECE2FFBFCE9BD351C849A6D4CA13F7BEF4AD4BC291",
+      "source_sha256": "52F81DDDCB246BF9FB7A31ECE2FFBFCE9BD351C849A6D4CA13F7BEF4AD4BC291",
+      "dimensions": [
+        1672,
+        941
+      ],
+      "artist_review": {
+        "opened_actual_image": true,
+        "status": "candidate",
+        "notes": [
+          "실제 새 PNG 열람. T와 L2가 나란히 등을 매트에 댄 채 같은 오른팔·한쪽 굽힌 무릎을 듦.",
+          "L2의 올라간 신발 발끝은 수평 쪽, 코치 발끝은 위쪽으로 남아 조정 전 차이가 보임. 조수는 왼쪽에서 두 전신 촬영.",
+          "네 손/네 발의 귀속과 얼굴 식별 가능. 의자·포스터·monitor·문 및 복장 유지. 과장 자세의 웃음 읽힘. 원본/복사본 SHA256 일치."
+        ]
+      },
+      "attempts": []
+    },
+    {
+      "id": "C01_K09",
+      "concept_id": "C01",
+      "scene_id": "S09",
+      "linked_cut": "K09",
+      "image_path": "images/C01/S09.png",
+      "source_generated_path": "C:\\Users\\wseok\\.codex\\generated_images\\01a16462-c046-7f73-8e87-d3114dbd42a8\\exec-78b37375-a5b6-49f0-b74f-b08d5f945543.png",
+      "generation_tool": "image_gen",
+      "prompt": "Create one newly rendered 16:9 cinematic first-frame image, not a collage or storyboard page. Use the supplied approved V8 reference to preserve exact casting, wardrobe, creature design, architecture, props and left-right continuity. Depict the start of future motion, not its payoff. No captions, subtitles, logos, watermark or random writing baked in; typography will be added in post. Preserve a calm high-contrast region for later captions without obscuring or shrinking essential action. No extra characters or giant decorative props. Wide ending. Two people retain the rigid floor poses in lower right; photographer ready for another photo. Left exit slightly open. Large unobstructed dark-teal upper-left wall for later typography. Preserve portrait and all costumes.\nReference1 supplies the wider ending composition and blank teal wall. New reference2 supplies precise CURRENT faces, matching body positions, props and continuity. New reference3 anchors gym. Render a NEW 16:9 single realistic cinematic full wide shot. Lower-right half contains burgundy female coach on near side and teal male trainee behind her, both lying on backs parallel, heads at right, feet at left. Both right arms raised diagonally toward screen-left; both right knees bent at90degrees, both left legs flat and left arms relaxed on mat. NOW both raised shoes match: ankle flexed, toe pointed upward-left, since trainee corrected the toe in preceding shot. Same dignified intense faces, coach bun/headband/whistle and burgundy piping, trainee curly hair and teal stripes. Gray-polo photographer kneels just left of their feet, holds camera aimed at both, about to take one MORE photograph. No extra living people; yellow trainee and blue-shirt P have departed. Preserve black chair pushed behind heads, black monitor/laptop cart at far right with P's low-seated aftermath. Huge upper-body P portrait hangs upper-right as in wide reference1. Left door is SLIGHTLY OPEN before slowly closing later; do not close it yet. Upper-left dark teal wall must be a large EMPTY quiet rectangle for later Q-AI Fair typography, but do not generate ANY typography now. Leave at least left 45 percent of upper half free of poster, faces, hands, lamps or decorative props. Same warm amber lighting and wood floor. Whole body limbs and mat visible, high detail, 16:9, no text, logos, symbols, watermark or UI.",
+      "referenced_image_paths": [
+        "\\\\wsl.localhost\\Ubuntu-24.04\\home\\wooseok\\wsy\\samsung_related\\slide\\AI실행결과발표대회_디자인3종\\storyboards\\2026-10-19_tone-polish-v8\\images\\C01\\S09.png",
+        "\\\\wsl.localhost\\Ubuntu-24.04\\home\\wooseok\\wsy\\samsung_related\\slide\\AI실행결과발표대회_디자인3종\\storyboards\\2026-10-23_v9-caption-first\\images\\C01\\S08.png",
+        "\\\\wsl.localhost\\Ubuntu-24.04\\home\\wooseok\\wsy\\samsung_related\\slide\\AI실행결과발표대회_디자인3종\\storyboards\\2026-10-23_v9-caption-first\\images\\C01\\S01.png"
+      ],
+      "next_motion": "A가 한 장 더 찍고 T·L2는 자세를 유지한다. 왼쪽 문만 천천히 닫힌다. 카메라 고정.",
+      "camera_notes": "고정 와이드. 웃음의 인물은 하단 오른쪽, 좌상단은 후편집 자막용 빈 벽.",
+      "sha256": "356EFC94D9C54CDD518F0617D7F064815E807A1DAA39ED6CCF4804DD24508486",
+      "source_sha256": "356EFC94D9C54CDD518F0617D7F064815E807A1DAA39ED6CCF4804DD24508486",
+      "dimensions": [
+        1672,
+        941
+      ],
+      "artist_review": {
+        "opened_actual_image": true,
+        "status": "candidate",
+        "notes": [
+          "실제 새 PNG 열람. 두 인물의 등/오른팔/한 무릎/발끝 자세 일치, 조수는 다음 촬영 준비. 오른쪽 하단에 웃음의 전신 배치.",
+          "왼쪽 출입문은 열린 상태이며 좌상단 청록벽의 넓은 빈 면이 행사명/초대문구용으로 확보됨.",
+          "포스터와 monitor/의자/매트/복장 연속. 글자 없이 납품, 원본/복사본 SHA256 일치. 실제 문닫힘/셔터 등 동작 성공은 이번 정지이미지 검수 범위 밖."
+        ]
+      },
+      "attempts": []
+    }
+  ]
+}

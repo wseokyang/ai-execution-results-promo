@@ -1,0 +1,14 @@
+{
+  "id": "C04_K06",
+  "source_generated_path": "C:\\Users\\wseok\\.codex\\generated_images\\01a13daf-3732-7b90-99a8-92c605090d35\\exec-d283966a-a8ea-48de-b768-e199d34b0ed3.png",
+  "prompt": "Newly rendered single 16:9 cinematic START FRAME. Same Trojan-horse courtyard, characters and props from references. Keep reference1 staging, and reference2 exact cast/wardrobe/cart/horse design. Broad older gray-curly Korean woman guard on LEFT behind the CLOSED stainless food cart, her right black-gloved hand is hovering a few centimeters ABOVE but NOT touching its lid handle; other gloved hand stays on cart rail. Thin Korean commander in purple cloak center-right watches her, his denying RIGHT palm is still LOW near his own waist, before he lifts it to stop her. Left hand relaxed, no spoon. Elderly bald bespectacled clerk far right holds tablet facing himself and crescent envelope. Horse behind faces left, exactly THREE square side hatches completely CLOSED. Purple crescent emblem stays the same. No arms, bowls, spoons, food or steam visible anywhere. Give hand-to-handle gap clear silhouette. Slightly wider framing with quiet lower pavement for a short later caption, preserving expressive serious faces and readable hatches. Warm high-quality historical film lighting, absolutely sincere acting. No letters, numbers, captions, title, logo, watermark or collage. The lid has not opened and the commander's stopping gesture has not begun.",
+  "referenced_image_paths": [
+    "\\\\wsl.localhost\\Ubuntu-24.04\\home\\wooseok\\wsy\\samsung_related\\slide\\AI실행결과발표대회_디자인3종\\storyboards\\2026-10-19_tone-polish-v8\\images\\C04\\S06.png",
+    "\\\\wsl.localhost\\Ubuntu-24.04\\home\\wooseok\\wsy\\samsung_related\\slide\\AI실행결과발표대회_디자인3종\\storyboards\\2026-10-23_v9-caption-first\\images\\C04\\S03.png"
+  ],
+  "observations": [
+    "실제 결과: 수레 뚜껑 완전 닫힘, GU 손이 손잡이 바로 위, CM 부인 손은 허리 높이.",
+    "목마 세 창 닫힘·초승달 유지, RC 태블릿 뒷면/봉투 유지. 음식·그릇·수저 미노출.",
+    "CM 손은 낮게 펴져 있어 시작 상태에서 부인 제스처를 더 올릴 여지. 실제 동작은 미검증."
+  ]
+}

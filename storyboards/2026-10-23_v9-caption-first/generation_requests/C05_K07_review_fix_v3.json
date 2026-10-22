@@ -1,0 +1,9 @@
+{
+  "id": "C05_K07",
+  "image_path": "images/C05/S07_v3.png",
+  "prompt": "Precise local correction of this single film still. Keep the exact creature, LEFT-pointing muzzle, visible ear on the RIGHT of its head, S-folded neck, both hands supporting roof, lighting, building and camera unchanged. The black earcup is currently incorrectly in front of the nose. Move ONLY the technician's extended right arm, orange-gloved hand and the black earcup farther right so the earcup is poised approximately 10cm directly next to the visible round RED EAR at screen-right of the head, behind the eye. His right elbow should be naturally straightened and his torso may lean slightly forward from the ladder to reach; make a physically natural arm length, do not stretch the limb unnaturally. His left hand keeps gripping the ladder. If needed translate the technician and ladder slightly toward the creature's shoulder without reversing orientation so he can reach the ear. Black earcup NOT touching yet, loose strap and one cable falling outside ladder. Do not put the cup in front of the eye or mouth. Keep face and eye legible above the reaching forearm. One technician, two normal human arms and hands only. Monster's eyes, ear position, head direction and supporting hands unchanged. No captions, logos or text. Same 16:9 single cinematic practical rubber puppet frame.",
+  "referenced_image_paths": [
+    "\\\\wsl.localhost\\Ubuntu-24.04\\home\\wooseok\\wsy\\samsung_related\\slide\\AI실행결과발표대회_디자인3종\\storyboards\\2026-10-23_v9-caption-first\\images\\C05\\S07_v2.png"
+  ],
+  "source_generated_path": "C:/Users/wseok/.codex/generated_images/01a13daf-3732-7b90-99a8-92c605090d35/exec-845f1f22-ed5f-4df8-9073-90f50064e832.png"
+}
