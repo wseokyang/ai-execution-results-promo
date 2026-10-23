@@ -1,0 +1,38 @@
+{
+  "version": "V11 generated source review 2026-10-23",
+  "reviewers": ["/root/final_review_a", "/root/v10_review_b", "/root/v10_review_c"],
+  "scope": "Independent and cross review of actual 0.25-second frame samples/contact sheets and selected full-resolution PNGs. Not continuous playback or audio listening. Final subtitle/composite/edit review pending.",
+  "final_repair_cross_review": "COMPLETE: A, B and C each acknowledged the final PD trim/ellipsis decisions. No new mandatory generation defect reported. Final edit/compositing review remains pending.",
+  "repair_review_evidence": {
+    "A": "5 contact sheets/160 samples + 22 individual PNGs; K03/K04/K05 improved, B and C06 K05 partial action with editorial ellipsis",
+    "B": "5 contact sheets/160 samples + 20 individual PNGs; no new mandatory generation; K04 plea caption needs more reading time",
+    "C": "5 contact sheets/160 samples + 27 individual PNGs; no new mandatory generation; K04 0-2.25 + 4.5-7.25 proposed",
+    "cross_findings": ["K04 pause should be compressed to preserve caption time after pleading gesture", "B to K03 chipped-versus-intact porch edge still needs edit validation", "C06 K05 is right frame exit, not left doorway passage", "K06 ladder positioning is not verified brake locking"]
+  },
+  "pd_decisions": [
+    "No further speculative generation; preserve 20 credits. All 18 units have at least a partial source candidate.",
+    "Do not call C05 K02B complete under-porch entry or C06 K05 a left-door exit.",
+    "Keep original bytes and all takes. Captions, event title and precise screens are added later.",
+    "C06 K09 and C05 K08 need action completion before separate readable end titles. Overall film must remain below 60 seconds."
+  ],
+  "decisions": [
+    {"unit_id":"C06_K01","selected_take":1,"status":"SOURCE_CANDIDATE","range_candidate":"0–5; 대안 0.75–5.75","note":"서류철이 손목/소매에 매달리는 차이를 수용. 손 분리와 업무 복귀 확보."},
+    {"unit_id":"C06_K02","selected_take":1,"status":"EDIT_CONDITIONAL","range_candidate":"1–2.5 + 4.25–7.75","note":"공격→서류 정리의 인과를 편집·자막으로 확인해야 함. 감사 자막은 종이를 내려놓은 뒤."},
+    {"unit_id":"C06_K03","selected_take":1,"status":"POST_COMPOSITE_REQUIRED","range_candidate":"1.5–5.5","note":"화면 보기→수첩 기록. AI 제안·원문 대조 화면과 정확한 행사명 후합성 필요."},
+    {"unit_id":"C06_K04","selected_take":1,"status":"POST_COMPOSITE_REQUIRED","range_candidate":"0–2 + 4.75–7.75; 대안 1–7.5","note":"확인 표시는 후반에 발생. 쿠션 연기 차이 수용, 문서의 정확한 표식 후합성 필요."},
+    {"unit_id":"C06_K05","selected_take":2,"status":"EDIT_ELLIPSIS_CONDITIONAL","range_candidate":"0.75–5.75","note":"직원이 오른쪽 화면 밖으로 나가고 유령이 남음. 왼쪽 문 통과 미확보. 공간 생략과 노트북 생성 상표 후처리 필요."},
+    {"unit_id":"C06_K06","selected_take":1,"status":"SOURCE_CANDIDATE","range_candidate":"0–4; 대안 0.5–4.5","note":"명료한 공중부양 대신 의자에 기대는 휴식 동작 수용."},
+    {"unit_id":"C06_K07","selected_take":1,"status":"EDIT_CONDITIONAL","range_candidate":"전후 자세에 맞춰 시작점 선택","note":"방문 유령 둘·접힌 의자 유지. 열린 노트북 수용, 다음 컷 이전 닫힘 생략. 생성 상표 모양 후처리 정리."},
+    {"unit_id":"C06_K08","selected_take":1,"status":"POST_COMPOSITE_REQUIRED","range_candidate":"1.5–5.5","note":"팻말 놓기→손 분리→손모음. 팻말 안정 뒤 정확한 문구 후합성."},
+    {"unit_id":"C06_K09","selected_take":1,"status":"TRIM_AND_ENDCARD_REQUIRED","range_candidate":"0–5.5 또는 0–6 + 별도 엔딩 4.8초","note":"착석은 약4.25초. 7초 이후 환영처럼 보이는 미소 제외. 제목은 착석·반응 뒤."},
+    {"unit_id":"C05_K01","selected_take":1,"status":"TRIM_REQUIRED","range_candidate":"0–3.25; 최대3.5 이전","note":"과시·손 뻗기 사용. 이후 지붕 잡기·전체 들어올리기 제외."},
+    {"unit_id":"C05_K02A","selected_take":1,"status":"SOURCE_CANDIDATE","range_candidate":"기둥 제거와 끝 직립 상태가 연결되도록 재편집","note":"7.750초 실제 프레임을 B 입력으로 사용. 기둥 왼쪽 바닥·손 분리·직립·지붕 수평 확인. 파손 모서리/잔해 유지."},
+    {"unit_id":"C05_K02B","selected_take":2,"status":"PARTIAL_ACTION_EDIT_CONDITIONAL","range_candidate":"0.5–4.5 → K03","note":"완전한 처마 아래 진입과 같은 S목 종료 상태는 미확보. 진입 생략과 K03 모서리 파손 차이를 실제 연결 편집에서 확인. 같은 결함 추가 반복 금지."},
+    {"unit_id":"C05_K03","selected_take":2,"status":"SOURCE_CANDIDATE","range_candidate":"0–4","note":"짧은 손 접촉과 지붕 지지. take01의 괴수 변형·지붕 붕괴 대신 같은 S목과 지붕 유지."},
+    {"unit_id":"C05_K04","selected_take":2,"status":"SOURCE_CANDIDATE","range_candidate":"0–2.25 + 4.5–7.25","note":"추가 괴수 출현 해소. 짧은 잭 실패→부탁 손짓 후 자막 시간을 확보하도록 중간 대기 압축."},
+    {"unit_id":"C05_K05","selected_take":2,"status":"EDIT_CONDITIONAL","range_candidate":"0.5–6.5","note":"S목과 짧은 잭 유지 개선. 입구 관심→복귀 사용, 7초 이후 큰 입 동작 제외. 자막은 컷 처음부터 읽기 확보."},
+    {"unit_id":"C05_K06","selected_take":1,"status":"TRIM_REQUIRED","range_candidate":"0–3; 최대3.75 이전","note":"사다리 이동만 사용. 후반 자동 지지발 전개·잭 변화 제외. 고정·등반은 K07 사이 생략."},
+    {"unit_id":"C05_K07","selected_take":1,"status":"TRIM_REQUIRED","range_candidate":"5.5–7.75","note":"중반 입마개처럼 보이는 배치 제외. 귀 장착→손 분리 확보. 들리세요?는 장착 후 약1.8초, 가독성 확인."},
+    {"unit_id":"C05_K08","selected_take":1,"status":"TRIM_AND_ENDCARD_REQUIRED","range_candidate":"0.75–2.25 + 4.5–5.5; 대안0.5–5.5 + 엔딩4.8초","note":"엄지 답신→지붕 하강→재지지 뒤 제목. 6초 이후 기립·지붕 상승 제외. 내부 점프 자연스러움 편집 비교."}
+  ]
+}
