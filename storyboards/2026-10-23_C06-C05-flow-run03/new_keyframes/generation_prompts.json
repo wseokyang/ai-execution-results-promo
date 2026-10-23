@@ -1,0 +1,22 @@
+{
+  "generation_tool": "image_gen__imagegen",
+  "model": "not exposed by built-in tool",
+  "images": [
+    {
+      "id": "C06_K09_reaction",
+      "prompt": "Use case: identity-preserve. Create ONE photorealistic cinematic 16:9 first-frame image for a reaction insert, using the supplied film frame as the exact identity and set reference. Reframe closer to the SAME long straight black-haired East Asian MALE ghost wearing the SAME ivory-white patterned traditional robe, standing behind the same dark wooden office desk at night. Preserve his facial structure, eye shape, nose, age, hairstyle, hair swept from forehead, robe texture, and natural skin; do not substitute a different actor or feminize the face. Chest-up medium close shot, camera at his eye level from the established visitor side of the desk. He looks slightly down and toward the existing seated visitor off screen-left, shoulders relaxed, hands naturally low below the crop. His expression is a very small courteous closed-mouth smile, ready to help; NOT a broad grin, grimace or already frozen dismayed expression. This is the START frame before his smile slowly freezes and becomes uncertain in the later video. Keep the same blue nighttime office window/city glow, blinds, and warm desk-lamp lighting direction. Keep a little of the same seated older visitor's blurred braid/shoulder at the far lower-left edge only if it helps continuity; no new person, no chair opening or sitting action. Cinematic photographic detail and realistic imperfect skin, not beauty-retouching. Compose with some breathing room above his head, uncluttered darker lower edge for optional later captions. Do not insert text, captions, logos, readable labels or a watermark. Only one image, not a collage. Output exactly a wide 16:9 frame.",
+      "referenced_image_paths": [
+        "storyboards/2026-10-23_C06-C05-flow-run01/frames/C06_K09_take01/18_4.500s.png"
+      ],
+      "transparent_background": false
+    },
+    {
+      "id": "C06_K04_check",
+      "prompt": "Use case: identity-preserve and precise-object-edit. Create ONE photorealistic cinematic 16:9 close insert shot, faithfully based on the supplied film frame. This is the SAME nighttime blue-lit office and SAME dark wood desk. The same employee wears the mustard-yellow long-sleeved shirt; preserve the recognizable cropped salt-and-pepper hair and thin rectangular glasses if a little profile is visible. Reframe to a medium close insert of this employee's right hand, a single original white paper lying flat on the desk, and the SAME desktop monitor screen on the right. The monitor occupies the upper-right third and remains clearly visible: two large plain light-gray rectangular panels on a pale background, no readable words or numbers. The single original sheet occupies lower center, largely unprinted and clean, with one light-gray rectangular blank source region for later typography/compositing, no checkmark yet. The employee's RIGHT hand naturally holds the SAME slim pale pen, with anatomically correct fingers, the pen tip hovering about 1 cm ABOVE that blank source region, not touching yet. Left hand can rest flat at the edge of the sheet, clearly separate and not crossing the right hand. This is the exact START before one brief verification mark and then lifting the hand away. Keep the real scale of hand, paper and monitor; paper rests on the same desk, not floating. Preserve the source office's warm desk light against blue window light, small plant and dark laptop behind/left of the monitor if visible, with simple shallow focus while the hand/paper/monitor remain legible. The existing white-robed ghost with dark cushion may appear ONLY as a small soft cropped background portion on upper-left if composition requires it; no new person and no new props. The central purpose is the clear hand-to-paper-to-screen relationship, not a face portrait. Do not add captions, readable text, logos, software branding, watermarks or patterned fake writing. One image only, exactly wide 16:9, no collage. Do not start with a completed checkmark or hand already touching the document.",
+      "referenced_image_paths": [
+        "storyboards/2026-10-23_C06-C05-flow-run01/frames/C06_K04_take01/19_4.750s.png"
+      ],
+      "transparent_background": false
+    }
+  ]
+}

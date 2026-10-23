@@ -1,0 +1,99 @@
+{
+  "run_id": "2026-10-23_C06-C05-flow-run03",
+  "three_reviewer_cross_review_complete": true,
+  "review_method": "Three distinct reviewers independently opened actual contact sheets and full-resolution selected PNGs. First opinions were collected before sharing for cross-review. PD also opened all eight contact sheets. Findings concern extracted visual samples, not uninterrupted playback or actual listening.",
+  "reviewer_scope": {
+    "A": {"C05_contact_samples": 160, "C05_individual_pngs": 12, "C06_contact_samples": 96, "C06_individual_pngs": 14},
+    "B": {"C05_contact_samples": 160, "C05_individual_pngs": 12, "C06_contact_samples": 96, "C06_individual_pngs": 12},
+    "C": {"C05_contact_samples": 160, "C05_individual_pngs": 16, "C06_contact_samples": 96, "C06_individual_pngs": 12, "additional_run01_comparison_contact_sheets": 2}
+  },
+  "clips": [
+    {
+      "file": "C05_K01_take02.mp4",
+      "status": "USABLE_TRIM_CANDIDATE",
+      "candidate_trim_seconds": [0, 4],
+      "finding": "Four-second threat is sustained without premature roof grabbing/lifting. Neck, building and distant observers remain coherent in inspected samples.",
+      "conditions": ["Exclude later leaning/reaching.", "Verify hook caption reading time in the final composite."]
+    },
+    {
+      "file": "C05_K07_take02.mp4",
+      "status": "USABLE_TRIM_CANDIDATE",
+      "candidate_trim_seconds": [1, 6],
+      "finding": "Earcup remains beside the ear; hand separates around 3 seconds. Previous muzzle-cover appearance is improved. S-neck and both supporting hands remain.",
+      "conditions": ["Treat the start as final adjustment, not a complete from-scratch installation.", "Place the question caption after the hand leaves, allowing about two seconds."]
+    },
+    {
+      "file": "C05_K08_take02.mp4",
+      "status": "USABLE_WITH_JOIN_AND_TITLE_CHECK",
+      "finding": "Two-hand support resumes around 1.5 seconds and persists without the previous late stand-up/roof lift.",
+      "conditions": ["Join to the previous thumb response without duplicating the thumb action.", "Final trim is not locked; inspect palm position and posture at the join.", "A 4.8-second end-title interval may use the stable later section, subject to composition/readability verification."]
+    },
+    {
+      "file": "C05_K06_take02.mp4",
+      "status": "PARTIAL_MOVEMENT_ONLY_BRAKE_UNRESOLVED",
+      "candidate_trim_seconds": [0.5, 3.75],
+      "finding": "Automatic stabilizer/jack deformation not found in inspected samples, but the technician rests a foot on the lower frame and the ladder moves again near the end. Manual brake press-release-park is not established.",
+      "issues": ["VA-018", "B-R3-001"],
+      "conditions": ["Use movement only; do not label it successful locking.", "Retain time ellipsis before climbing/earcup installation."]
+    },
+    {
+      "file": "C05_K02B_reverse_take01.mp4",
+      "status": "HOLD_REVERSE_EXPERIMENT_ONLY",
+      "candidate_source_interval_seconds": [0.75, 3.5],
+      "finding": "A small outward step retains one porch and S-neck in the early section. Later knees straighten and hands approach the face. The original file plays in normal direction.",
+      "issues": ["B-R3-002"],
+      "conditions": ["No reverse derivative was made in this run.", "Before use, test reversed foot contact, weight shift and K02A/K03 continuity.", "This does not establish complete entry beneath the porch; retain existing time ellipsis until verified."]
+    },
+    {
+      "file": "C06_K02_take02.mp4",
+      "status": "PARTIAL_SORTING_ONLY_CAUSALITY_UNRESOLVED",
+      "candidate_trim_seconds": [1.5, 4.5],
+      "finding": "Ghost raises/drops a brown file around 1–1.25 seconds instead of simply jolting the desk. Employee paper sorting is faster and coherent, ending around 2.5–3 seconds.",
+      "issues": ["VA002", "B-R3-003"],
+      "conditions": ["Keep the existing K02 structure as default; the new sorting section is an alternate only.", "If joined to the older attack, inspect file/pad presence, paper position and hand continuity.", "Place the thanks caption after sorting; do not claim desk-jolt action or its causal relationship has been fixed."]
+    },
+    {
+      "file": "C06_K04_check_take02.mp4",
+      "status": "USABLE_CHECK_INSERT_WITH_COMPOSITING",
+      "candidate_trim_seconds": [1.25, 4.75],
+      "finding": "Pen contact, short mark and hand withdrawal reveal the check area. Clear monitor glance occurs after checking, not before. No major hand/pen/paper breakup found in inspected samples. Original has no audio stream.",
+      "issues": ["VA004", "B-R3-004"],
+      "conditions": ["Present the comparison in the existing preceding shot before this check insert.", "Composite matching original-record/AI-proposal information on monitor and paper.", "Replace or integrate the generated small mark without a duplicate check; mask the pen/hand correctly.", "Keep explanatory captions clear of the paper and check action."]
+    },
+    {
+      "file": "C06_K09_reaction_take01.mp4",
+      "status": "USABLE_REACTION_TRIM_CANDIDATE",
+      "candidate_trim_seconds": [1.5, 4.25],
+      "finding": "Initial smile briefly broadens; later mouth corners fall and face becomes clearly dismayed. Face, hair, robe and foreground visitor fragment remain coherent in inspected samples.",
+      "conditions": ["Exclude early broad smile/head dip.", "Place after the existing seated wide shot and verify eyeline/posture at the join.", "Reserve a separate 4.8-second readable ending; do not obscure the reaction with title typography."]
+    }
+  ],
+  "independent_review_differences": {
+    "C05": {
+      "A": "K01 0–4; K07 0–5; K08 old0.5–1.75 plus new0–6.75 candidate; K06 0–3 movement only; reverse0.75–3.5 experiment only.",
+      "B": "K01 0–4; K07 0.75–5.25; K08 short regrip plus separate title; K06 0.5–3.75; initially suggested reverse7.25–0.75.",
+      "C": "K01 0–4; K07 1–6; K08 old0.75–1.5 plus new0–7.25/title later section; K06 1–5 optional step-up; reverse3.5–0.5 experiment."
+    },
+    "C06": {
+      "A": "K02 1.5–4.5 sorting only; K04 1.25–4.75 with prior comparison; K09 1.25–4.25 and separate ending.",
+      "B": "K02 older attack1–2.5 plus new1.5–5 candidate; K04 1–4; K09 1.5–3.75, all with join/composite conditions.",
+      "C": "K02 1.5–5.5 alternate only; K04 1–4.5; K09 1.25–4.25; warns generated/composited check duplication."
+    }
+  },
+  "cross_review": {
+    "C05": {
+      "A": "Agrees with PD. Rejects long reverse interval because later knees/hands change. New K08 can support the title but actual join and4.8-second readability remain to verify.",
+      "B": "Accepts shorter reverse0.75–3.5 and conservative K06 movement-only interval. Agrees K08 needs join/title verification, not a guaranteed separate ending.",
+      "C": "Agrees with VA-018/B-R3-001 and B-R3-002. Keeps optional step-up as a suggestion only, accepts shorter reverse and K07 1–6.",
+      "pd_resolution": "K01 0–4 and K07 1–6 candidates; K08 join not yet locked; K06 0.5–3.75 movement only; reverse experiment restricted to0.75–3.5. No further generation required by this review."
+    },
+    "C06": {
+      "A": "Agrees with B/C and PD. K02 causal issue remains; K04 check must be integrated rather than duplicated; K09 1.5–4.25 is suitable. No new required issue.",
+      "B": "Agrees with A/C and PD. K04 needs hand masking and check deduplication; K09 beginning1.5 avoids the broader smile. No new required issue.",
+      "C": "Agrees with A/B and PD. Check file/pad presence at K02 join, K04 ordering/masking, K09 trim. No new required issue.",
+      "pd_resolution": "Keep K02 existing structure with new1.5–4.5 sorting alternate; use K04 1.25–4.75 after existing comparison and precise composite; K09 1.5–4.25 reaction plus4.8-second ending. Actual edit still required."
+    }
+  },
+  "outcome": "Eight original source clips preserved and reviewed; three limited-action cases remain explicitly constrained. This is not approval of complete finished films.",
+  "remaining_work": ["Actual joins and continuous playback rhythm", "Accurate screen/paper composites and object masking", "All captions and Q-AI Fair end titles", "BGM/SFX and actual audio check where used", "Final silent-viewing readability check"]
+}

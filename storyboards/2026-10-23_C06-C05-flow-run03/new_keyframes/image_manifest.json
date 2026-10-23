@@ -1,0 +1,110 @@
+{
+  "run_id": "2026-10-23_C06-C05-flow-run03",
+  "created_on": "2026-10-23",
+  "scope": "Two close insert starting images requested by PD for C06 corrective footage. No Flow execution, video, sound, or external upload by this artist.",
+  "completed_images": 2,
+  "requested_images": 2,
+  "prompt_record": "generation_prompts.json",
+  "images": [
+    {
+      "concept_id": "C06",
+      "generation_tool": "image_gen__imagegen",
+      "built_in_tool": true,
+      "model": "not exposed by built-in tool",
+      "model_path": null,
+      "transparent_background": false,
+      "requested_aspect_ratio": "16:9",
+      "actual_dimensions": [
+        1672,
+        941
+      ],
+      "aspect_ratio_note": "Built-in tool returned 1672x941, approximately 16:9. Output copied byte-for-byte; not resized or cropped.",
+      "review_status": "PASS_THREE_INDEPENDENT_AND_CROSS_REVIEW",
+      "caption_policy": "No in-image captions, readable words, or logos; typography composed later.",
+      "inspection_method": "Source PNG and saved output PNG opened with view_image. Still-image inspection only.",
+      "id": "C06_K09_reaction",
+      "scene_id": "S09_reaction_insert",
+      "linked_cuts": [
+        "C06_K09"
+      ],
+      "actual_image_path": "storyboards/2026-10-23_C06-C05-flow-run03/new_keyframes/C06_K09_reaction.png",
+      "generated_output_path": "C:/Users/wseok/.codex/generated_images/01a166e7-c45c-74c0-bc2e-6dd147b65888/exec-b13fd3a2-1877-4a7e-9a58-4e0918f656e9.png",
+      "sha256": "f2b4e7ce1ee5d4f499bb09352f99d9d2e11754e95c8ff625e08baf80ea8ab3ec",
+      "bytes": 1889600,
+      "reference_images": [
+        {
+          "path": "storyboards/2026-10-23_C06-C05-flow-run01/frames/C06_K09_take01/18_4.500s.png",
+          "role": "exact identity, costume, lighting and office reference",
+          "sha256": "2c8523845427308b8c65e0a0a0c62fff8790073ecaed570f0623bceda31552f9",
+          "opened_with_view_image": true
+        }
+      ],
+      "final_prompt": "Use case: identity-preserve. Create ONE photorealistic cinematic 16:9 first-frame image for a reaction insert, using the supplied film frame as the exact identity and set reference. Reframe closer to the SAME long straight black-haired East Asian MALE ghost wearing the SAME ivory-white patterned traditional robe, standing behind the same dark wooden office desk at night. Preserve his facial structure, eye shape, nose, age, hairstyle, hair swept from forehead, robe texture, and natural skin; do not substitute a different actor or feminize the face. Chest-up medium close shot, camera at his eye level from the established visitor side of the desk. He looks slightly down and toward the existing seated visitor off screen-left, shoulders relaxed, hands naturally low below the crop. His expression is a very small courteous closed-mouth smile, ready to help; NOT a broad grin, grimace or already frozen dismayed expression. This is the START frame before his smile slowly freezes and becomes uncertain in the later video. Keep the same blue nighttime office window/city glow, blinds, and warm desk-lamp lighting direction. Keep a little of the same seated older visitor's blurred braid/shoulder at the far lower-left edge only if it helps continuity; no new person, no chair opening or sitting action. Cinematic photographic detail and realistic imperfect skin, not beauty-retouching. Compose with some breathing room above his head, uncluttered darker lower edge for optional later captions. Do not insert text, captions, logos, readable labels or a watermark. Only one image, not a collage. Output exactly a wide 16:9 frame.",
+      "follow_up_motion_camera_notes": "Locked medium close frame. GH starts with a small polite closed-mouth smile toward the existing visitor; smile slowly freezes and turns uncertain. Keep identity, hair, robe, lighting and visitor shoulder stable. No chair opening, sitting, extra person or large camera motion.",
+      "artist_findings": [
+        "Same masculine face, long black hair and ivory robe are recognizable relative to source.",
+        "Existing older visitor appears only as blurred braid/shoulder at left foreground; no new person.",
+        "Small courteous smile with slightly pinched brows is present; use this as the starting courteous state, not an already completed comic reaction.",
+        "Blue office window and warm lamp maintained, no visible text or watermark."
+      ],
+      "remaining_limits": [
+        "Exact actor match remains perceptual; three-reviewer check pending.",
+        "Smile-to-uncertainty motion and cut matching are untested before Flow generation."
+      ],
+      "artist_review_status_at_creation": "artist_inspected_pending_three_reviewer_cross_review",
+      "pd_review_record": "../keyframe_review.json",
+      "motion_review_record": "../review_summary.json"
+    },
+    {
+      "concept_id": "C06",
+      "generation_tool": "image_gen__imagegen",
+      "built_in_tool": true,
+      "model": "not exposed by built-in tool",
+      "model_path": null,
+      "transparent_background": false,
+      "requested_aspect_ratio": "16:9",
+      "actual_dimensions": [
+        1672,
+        941
+      ],
+      "aspect_ratio_note": "Built-in tool returned 1672x941, approximately 16:9. Output copied byte-for-byte; not resized or cropped.",
+      "review_status": "PASS_THREE_INDEPENDENT_AND_CROSS_REVIEW",
+      "caption_policy": "No in-image captions, readable words, or logos; typography composed later.",
+      "inspection_method": "Source PNG and saved output PNG opened with view_image. Still-image inspection only.",
+      "id": "C06_K04_check",
+      "scene_id": "S04_verification_insert",
+      "linked_cuts": [
+        "C06_K04"
+      ],
+      "actual_image_path": "storyboards/2026-10-23_C06-C05-flow-run03/new_keyframes/C06_K04_check.png",
+      "generated_output_path": "C:/Users/wseok/.codex/generated_images/01a166e7-c45c-74c0-bc2e-6dd147b65888/exec-3cdb160f-6aca-491d-9b8e-080ed20072fe.png",
+      "sha256": "4a263a9ce4e2e517cd493687c51f439b775a2c5f8912ab43622b4216b1d753cf",
+      "bytes": 1805060,
+      "reference_images": [
+        {
+          "path": "storyboards/2026-10-23_C06-C05-flow-run01/frames/C06_K04_take01/19_4.750s.png",
+          "role": "exact employee, desk, hand/pen, monitor and lighting reference",
+          "sha256": "edf5487b70ae1663a4128d191f46c81e5cb3f1ff39d4053e32f266537a1ce3c5",
+          "opened_with_view_image": true
+        }
+      ],
+      "final_prompt": "Use case: identity-preserve and precise-object-edit. Create ONE photorealistic cinematic 16:9 close insert shot, faithfully based on the supplied film frame. This is the SAME nighttime blue-lit office and SAME dark wood desk. The same employee wears the mustard-yellow long-sleeved shirt; preserve the recognizable cropped salt-and-pepper hair and thin rectangular glasses if a little profile is visible. Reframe to a medium close insert of this employee's right hand, a single original white paper lying flat on the desk, and the SAME desktop monitor screen on the right. The monitor occupies the upper-right third and remains clearly visible: two large plain light-gray rectangular panels on a pale background, no readable words or numbers. The single original sheet occupies lower center, largely unprinted and clean, with one light-gray rectangular blank source region for later typography/compositing, no checkmark yet. The employee's RIGHT hand naturally holds the SAME slim pale pen, with anatomically correct fingers, the pen tip hovering about 1 cm ABOVE that blank source region, not touching yet. Left hand can rest flat at the edge of the sheet, clearly separate and not crossing the right hand. This is the exact START before one brief verification mark and then lifting the hand away. Keep the real scale of hand, paper and monitor; paper rests on the same desk, not floating. Preserve the source office's warm desk light against blue window light, small plant and dark laptop behind/left of the monitor if visible, with simple shallow focus while the hand/paper/monitor remain legible. The existing white-robed ghost with dark cushion may appear ONLY as a small soft cropped background portion on upper-left if composition requires it; no new person and no new props. The central purpose is the clear hand-to-paper-to-screen relationship, not a face portrait. Do not add captions, readable text, logos, software branding, watermarks or patterned fake writing. One image only, exactly wide 16:9, no collage. Do not start with a completed checkmark or hand already touching the document.",
+      "follow_up_motion_camera_notes": "Locked close insert. Right hand holds pale pen just above one blank document region. Make one brief verification stroke, then lift hand/pen away to leave visible separation. Preserve paper outline and both monitor panels for later compositing. No new UI or readable lettering; no repeated scribbling.",
+      "direction_interpretation": "PD requested a hand poised above a document. Source visibly held a pale pen; source pen preserved so the later single verification mark is physically motivated. Communicated to PD before delivery.",
+      "artist_findings": [
+        "Original mustard shirt, short salt-and-pepper hair and glasses visible.",
+        "Right hand/pen and separate left hand read plausibly; pen tip appears slightly above the blank region, not a completed checkmark.",
+        "Single paper has a plain gray compositing region, monitor has two clear gray panels.",
+        "No readable fake text or visible logo; existing ghost is cropped and blurred behind, same office blue/warm light."
+      ],
+      "remaining_limits": [
+        "Pen tip is close to paper; maintain a visible short hover at video start if required.",
+        "Full monitor and paper typography still require post compositing.",
+        "Finger articulation during the generated motion is untested."
+      ],
+      "artist_review_status_at_creation": "artist_inspected_pending_three_reviewer_cross_review",
+      "pd_review_record": "../keyframe_review.json",
+      "motion_review_record": "../review_summary.json"
+    }
+  ]
+}

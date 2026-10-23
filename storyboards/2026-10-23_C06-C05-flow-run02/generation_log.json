@@ -1,0 +1,182 @@
+{
+  "run_id": "2026-10-23_C06-C05-flow-run02",
+  "source_version": "V11 plus run01 existing frame extracts",
+  "user_authorization": "User explicitly requested spending the remaining 20 credits on deficiencies, superseding prior hold/take03 limit for these two corrective requests only. No additional purchase.",
+  "prior_run": "../2026-10-23_C06-C05-flow-run01",
+  "queue": [
+    {
+      "unit_id": "C06_K05",
+      "source_image": "storyboards\\2026-10-23_C06-C05-flow-run02\\inputs\\C06_exit_start.png",
+      "sha256": "303b162ac2a5c1d11c1c4c8fd383de83a44bab4cb33af6d6433604b01fef2aa3",
+      "end_image": "storyboards\\2026-10-23_C06-C05-flow-run02\\inputs\\C06_exit_end_5p25.png",
+      "end_sha256": "28a1d6c892d6c2efc3747457d03003bcbaa3f6783136dadfa97a11f7eb7c96ab",
+      "planned_prompt": "submitted_prompts/C06_K05_planned.txt",
+      "status": "COMPLETED_ORIGINAL_PRESERVED"
+    },
+    {
+      "unit_id": "C05_K02B",
+      "source_image": "storyboards\\2026-10-23_C06-C05-flow-run02\\inputs\\C05_entry_start_4p25.png",
+      "sha256": "f43c06b2200883e862c0f72b34227ee7031ed512d1aee04aff8601f4a82add6b",
+      "end_image": "storyboards\\2026-10-23_C06-C05-flow-run02\\inputs\\C05_entry_end.png",
+      "end_sha256": "d9c0ca77902783240b7f9eb6c34ca02b6ca0f68f3fe8cc83807075071ad1f40f",
+      "planned_prompt": "submitted_prompts/C05_K02B_planned.txt",
+      "status": "COMPLETED_ORIGINAL_PRESERVED"
+    }
+  ],
+  "requests": [
+    {
+      "unit_id": "C06_K05",
+      "take": 3,
+      "account_alias": "current_u3",
+      "project_url": "https://flow.google.com/u/3/project/d2ca5c63-827b-459f-87e5-8bd9bc0f47cd",
+      "recorded_at_utc": "2026-10-23T03:43:51.653834+00:00",
+      "status": "COMPLETED_ORIGINAL_PRESERVED",
+      "ui_title": "Employee exiting office through …",
+      "prompt_file": "submitted_prompts/C06_K05_take03.txt",
+      "prompt": "One continuous eight-second shot connecting the supplied start and end frames. Keep the exact same two characters and the same office. The short-gray-haired employee wearing glasses and a mustard shirt closes the laptop, then immediately turns toward the OPEN DOOR AT THE FAR LEFT EDGE OF THE IMAGE. The employee walks LEFT behind the gray chair, passes just behind the long-haired white-robed person, crosses the doorway at the far LEFT, and completely exits THROUGH THAT DOOR by second five. Show the employee physically pass through the open doorway; do not merely hide the employee behind the monitor. The white-robed long-haired person stays INSIDE the office holding the same cushion, steps slightly right only to let the employee pass, then closes that left door and quietly relaxes alone, matching the supplied end frame. Hold the last two seconds. Nobody walks toward the window or exits screen right. Keep the laptop closed on the desk, all furniture and document stacks fixed. No new person, no face or costume changes, no teleporting or dissolving. Very gentle continuous reframing toward the supplied ending composition, natural walking, restrained acting. No speech, lip sync, subtitles or new writing. 16:9, 720p, eight seconds. C06 K05 take03: an actual left-door exit.",
+      "input_image": "storyboards\\2026-10-23_C06-C05-flow-run02\\inputs\\C06_exit_start.png",
+      "input_sha256": "303b162ac2a5c1d11c1c4c8fd383de83a44bab4cb33af6d6433604b01fef2aa3",
+      "model": "Veo 3.1 - Lite",
+      "requested_duration_seconds": 8,
+      "requested_resolution": "720p",
+      "aspect_ratio": "16:9",
+      "outputs": 1,
+      "quoted_cost": 10,
+      "start_balance": 20,
+      "after_submission_balance": 40,
+      "observed_debit": null,
+      "refund": 0,
+      "generation_id": null,
+      "original_file": "C06_K05_take03.mp4",
+      "review_status": "See review_summary.json for visual sample review and edit conditions.",
+      "regeneration_reason": "사용자 남은20사용 새승인. 시작과 종료프레임을 함께 지정하고 직원 왼쪽 문 통과로 동선을 제한. 이전 오른쪽 프레임아웃 보완.",
+      "input_mode": "Frames start and end",
+      "end_image": "storyboards\\2026-10-23_C06-C05-flow-run02\\inputs\\C06_exit_end_5p25.png",
+      "end_sha256": "28a1d6c892d6c2efc3747457d03003bcbaa3f6783136dadfa97a11f7eb7c96ab",
+      "net_balance_change": 20,
+      "billing_note": "UI balance observations were 20 before preparation and 40 after successful generation. Daily renewal notice showed 11:21. The quoted fee immediately before submission was 10. Renewal or refreshed balance is inferred; exact replenishment and debit were not separately observed.",
+      "quoted_generation_cost": 10,
+      "asset_id": "02ff9b4e-4491-438a-a328-e5c96c567ebc",
+      "download_source_path": "C:\\Users\\wseok\\Downloads\\Employee_exiting_office_through_…_20261023124540.mp4",
+      "original_sha256": "bbb74edba29d002a2f2e19c3a7fb05d0db5b1a390400a715711d075e30795bcc",
+      "original_bytes": 2144047,
+      "technical_inspection": {
+        "file": "C06_K05_take03.mp4",
+        "bytes": 2144047,
+        "sha256": "bbb74edba29d002a2f2e19c3a7fb05d0db5b1a390400a715711d075e30795bcc",
+        "duration_seconds": 8.0,
+        "streams": [
+          {
+            "type": "video",
+            "codec": "h264",
+            "width": 1280,
+            "height": 720,
+            "frame_rate": "24/1"
+          },
+          {
+            "type": "audio",
+            "codec": "aac"
+          }
+        ],
+        "decoded_video_frames": 192,
+        "full_video_decode_pass": true,
+        "audio_track_present": true,
+        "file_kind": "downloaded_original",
+        "inspection_reencodes_file": false,
+        "limitation": "Technical decoding and extracted frames; not actual listening or continuous visual playback."
+      },
+      "asset_id_basis": "Observed Flow editor URL /edit/<asset_id>",
+      "generation_id_note": "Internal generation job ID not exposed; visible asset_id and editor URL recorded instead.",
+      "asset_url": "https://flow.google.com/u/3/project/d2ca5c63-827b-459f-87e5-8bd9bc0f47cd/edit/02ff9b4e-4491-438a-a328-e5c96c567ebc",
+      "original_preservation": "Download, repository and preview copy SHA-256 identical. No re-encoding.",
+      "balance_increase_observed": true,
+      "renewal_inferred_not_ledger_verified": true
+    },
+    {
+      "unit_id": "C05_K02B",
+      "take": 3,
+      "account_alias": "current_u3",
+      "project_url": "https://flow.google.com/u/3/project/d2ca5c63-827b-459f-87e5-8bd9bc0f47cd",
+      "recorded_at_utc": "2026-10-23T03:45:14.546771+00:00",
+      "status": "COMPLETED_ORIGINAL_PRESERVED",
+      "ui_title": "Red puppet walking beneath porch",
+      "prompt_file": "submitted_prompts/C05_K02B_take03.txt",
+      "prompt": "One continuous eight-second practical creature shot joining the supplied start and end images. The SAME red fabric puppet starts already deeply crouched with its very long flexible neck folded against its body. Do not stand up or shorten the neck. During seconds zero to five, the puppet takes three small low steps to its RIGHT, moving its feet and entire body physically into the open space underneath the porch. Show real leg steps and the whole torso translating across the ground. The porch front edge passes ABOVE the head as the puppet goes UNDER it. It is not enough to bend in place or approach the outside edge. Its head, shoulders and both feet finish underneath the roof. While staying in the squat, it faces slightly toward camera and settles its long neck into the large S fold shown in the ending image, then raises its two open hands just below the roof without lifting it. Hold the final pose for two seconds. The camera makes a gentle forward-right dolly to the closer ending composition while the puppet walks; do not substitute camera motion for walking. Keep the same rectangular muzzle, yellow eyes, red costume seams, body scale and anatomy. The concrete building stays rigid, the detached column stays on the ground at left. No roof lifting, collapse, new rubble, extra creature, teleportation, dissolve or cuts. No speech, lip sync or text. 16:9, 720p, eight seconds. C05 K02B take03: finish the crouched entry beneath the porch.",
+      "input_image": "storyboards\\2026-10-23_C06-C05-flow-run02\\inputs\\C05_entry_start_4p25.png",
+      "input_sha256": "f43c06b2200883e862c0f72b34227ee7031ed512d1aee04aff8601f4a82add6b",
+      "model": "Veo 3.1 - Lite",
+      "requested_duration_seconds": 8,
+      "requested_resolution": "720p",
+      "aspect_ratio": "16:9",
+      "outputs": 1,
+      "quoted_cost": 10,
+      "start_balance": 40,
+      "after_submission_balance": 30,
+      "observed_debit": 10,
+      "refund": 0,
+      "generation_id": null,
+      "original_file": "C05_K02B_take03.mp4",
+      "review_status": "See review_summary.json for visual sample review and edit conditions.",
+      "regeneration_reason": "사용자 추가20사용승인. 이미 굽혀 접근한 실제4.25초프레임에서 시작하고 S03종료프레임으로 포치아래 도착 자세를 지정. 완만한 재구도와 실제 보행 분리.",
+      "input_mode": "Frames start and end",
+      "end_image": "storyboards\\2026-10-23_C06-C05-flow-run02\\inputs\\C05_entry_end.png",
+      "end_sha256": "d9c0ca77902783240b7f9eb6c34ca02b6ca0f68f3fe8cc83807075071ad1f40f",
+      "asset_id": "a7c7f4f3-61f7-4773-8cef-2a4bbb5854b5",
+      "download_source_path": "C:\\Users\\wseok\\Downloads\\Red_puppet_walking_beneath_porch_20261023124611.mp4",
+      "original_sha256": "331ede454e3a5d94c75f2a682fe5cedc4f1abb9a17b53c300fa21953f7ebf4ea",
+      "original_bytes": 6172397,
+      "technical_inspection": {
+        "file": "C05_K02B_take03.mp4",
+        "bytes": 6172397,
+        "sha256": "331ede454e3a5d94c75f2a682fe5cedc4f1abb9a17b53c300fa21953f7ebf4ea",
+        "duration_seconds": 8.0,
+        "streams": [
+          {
+            "type": "video",
+            "codec": "h264",
+            "width": 1280,
+            "height": 720,
+            "frame_rate": "24/1"
+          },
+          {
+            "type": "audio",
+            "codec": "aac"
+          }
+        ],
+        "decoded_video_frames": 192,
+        "full_video_decode_pass": true,
+        "audio_track_present": true,
+        "file_kind": "downloaded_original",
+        "inspection_reencodes_file": false,
+        "limitation": "Technical decoding and extracted frames; not actual listening or continuous visual playback."
+      },
+      "asset_id_basis": "Observed Flow editor URL /edit/<asset_id>",
+      "generation_id_note": "Internal generation job ID not exposed; visible asset_id and editor URL recorded instead.",
+      "asset_url": "https://flow.google.com/u/3/project/d2ca5c63-827b-459f-87e5-8bd9bc0f47cd/edit/a7c7f4f3-61f7-4773-8cef-2a4bbb5854b5",
+      "original_preservation": "Download, repository and preview copy SHA-256 identical. No re-encoding."
+    }
+  ],
+  "flow_requests": 2,
+  "downloaded_originals": 2,
+  "status": "COMPLETED_TWO_REQUESTS_NO_MORE_SUBMISSIONS",
+  "starting_balance": 20,
+  "budget": 20,
+  "budget_used_by_quoted_successful_requests": 20,
+  "ending_balance_observed": 30,
+  "balance_observations": [
+    20,
+    40,
+    30
+  ],
+  "actual_total_ledger_debit": null,
+  "billing_summary": "Two successful requests quoted 10 each, totaling the authorized 20. First request overlaps a balance increase; second request observed 40 to 30. This historical ending balance was subsequently spent under explicit all-remaining-credits authorization in run03.",
+  "pending_requests": 0,
+  "refunds_observed": 0,
+  "cumulative_originals_with_run01": {
+    "total": 25,
+    "C06": 11,
+    "C05": 14
+  },
+  "final_films_created": 0,
+  "verification": "Both files: 8 seconds, 1280x720, 24fps, 192 decoded video frames, H264 and AAC. Visual sample review only; no actual audio listening or continuous playback claimed."
+}

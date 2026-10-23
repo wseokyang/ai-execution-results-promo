@@ -1,0 +1,25 @@
+{
+  "file": "C05_K06_take02.mp4",
+  "bytes": 2653029,
+  "sha256": "a608c3f881597faab81313c43a7fd5c43ad4cdc8fb161e1994aaefcf9d9f2882",
+  "duration_seconds": 8.0,
+  "streams": [
+    {
+      "type": "video",
+      "codec": "h264",
+      "width": 1280,
+      "height": 720,
+      "frame_rate": "24/1"
+    },
+    {
+      "type": "audio",
+      "codec": "aac"
+    }
+  ],
+  "decoded_video_frames": 192,
+  "full_video_decode_pass": true,
+  "audio_track_present": true,
+  "file_kind": "downloaded_original",
+  "inspection_reencodes_file": false,
+  "limitation": "Technical decoding and extracted frames; not actual listening or continuous visual playback."
+}

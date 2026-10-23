@@ -1,0 +1,25 @@
+{
+  "file": "C06_K09_reaction_take01.mp4",
+  "bytes": 1588744,
+  "sha256": "29ecf77ceca124cb8daa322ea95f06e01f013e23d88d528245197b22ee8604c7",
+  "duration_seconds": 8.0,
+  "streams": [
+    {
+      "type": "video",
+      "codec": "h264",
+      "width": 1280,
+      "height": 720,
+      "frame_rate": "24/1"
+    },
+    {
+      "type": "audio",
+      "codec": "aac"
+    }
+  ],
+  "decoded_video_frames": 192,
+  "full_video_decode_pass": true,
+  "audio_track_present": true,
+  "file_kind": "downloaded_original",
+  "inspection_reencodes_file": false,
+  "limitation": "Technical decoding and extracted frames; not actual listening or continuous visual playback."
+}

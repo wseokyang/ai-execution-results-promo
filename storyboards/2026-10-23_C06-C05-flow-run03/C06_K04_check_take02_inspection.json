@@ -1,0 +1,21 @@
+{
+  "file": "C06_K04_check_take02.mp4",
+  "bytes": 1562153,
+  "sha256": "f79419dab2d59a6d34f6fb2d750d0f3aa517766511cb46ebe628f70702a1e391",
+  "duration_seconds": 8.0,
+  "streams": [
+    {
+      "type": "video",
+      "codec": "h264",
+      "width": 1280,
+      "height": 720,
+      "frame_rate": "24/1"
+    }
+  ],
+  "decoded_video_frames": 192,
+  "full_video_decode_pass": true,
+  "audio_track_present": false,
+  "file_kind": "downloaded_original",
+  "inspection_reencodes_file": false,
+  "limitation": "Technical decoding and extracted frames; not actual listening or continuous visual playback."
+}

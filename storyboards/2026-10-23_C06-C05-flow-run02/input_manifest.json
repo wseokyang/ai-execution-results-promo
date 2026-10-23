@@ -1,0 +1,51 @@
+[
+  {
+    "file": "C05_entry_start.png",
+    "source": "storyboards\\2026-10-23_C06-C05-flow-run01\\frames\\C05_K02B_take02\\11_2.750s.png",
+    "sha256": "01d455a2e6ee932666ce3ab769995a5489cfae1187b33baad716f5f657581eda",
+    "transformation": "None; exact existing PNG bytes",
+    "used_in_submitted_request": false
+  },
+  {
+    "file": "C05_entry_start_clean.png",
+    "source": "storyboards\\2026-10-23_v11-production-lock\\images\\C05\\S02B_v3.png",
+    "sha256": "da125117ccf99fd7cc66527d89664b1ede963563803bc73ab8165b1adff58937",
+    "transformation": "None; exact existing PNG bytes",
+    "used_in_submitted_request": false
+  },
+  {
+    "file": "C05_entry_end.png",
+    "source": "storyboards\\2026-10-23_v11-production-lock\\images\\C05\\S03.png",
+    "sha256": "d9c0ca77902783240b7f9eb6c34ca02b6ca0f68f3fe8cc83807075071ad1f40f",
+    "transformation": "None; exact existing PNG bytes",
+    "used_in_submitted_request": true
+  },
+  {
+    "file": "C06_exit_start.png",
+    "source": "storyboards\\2026-10-23_v11-production-lock\\images\\C06\\S05.png",
+    "sha256": "303b162ac2a5c1d11c1c4c8fd383de83a44bab4cb33af6d6433604b01fef2aa3",
+    "transformation": "None; exact existing PNG bytes",
+    "used_in_submitted_request": true
+  },
+  {
+    "file": "C06_exit_end.png",
+    "source": "storyboards\\2026-10-23_C06-C05-flow-run01\\frames\\C06_K05_take02\\24_6.000s.png",
+    "sha256": "d02bf7f643a6fa73e4b455eec7634f6b1bf670628b7374d287554a814a4155d2",
+    "transformation": "None; exact existing PNG bytes",
+    "used_in_submitted_request": false
+  },
+  {
+    "file": "C06_exit_end_5p25.png",
+    "source": "storyboards\\2026-10-23_C06-C05-flow-run01\\frames\\C06_K05_take02\\21_5.250s.png",
+    "sha256": "28a1d6c892d6c2efc3747457d03003bcbaa3f6783136dadfa97a11f7eb7c96ab",
+    "transformation": "None; exact previously extracted PNG bytes",
+    "used_in_submitted_request": true
+  },
+  {
+    "file": "C05_entry_start_4p25.png",
+    "source": "storyboards\\2026-10-23_C06-C05-flow-run01\\frames\\C05_K02B_take02\\17_4.250s.png",
+    "sha256": "f43c06b2200883e862c0f72b34227ee7031ed512d1aee04aff8601f4a82add6b",
+    "transformation": "None; exact previously extracted PNG bytes",
+    "used_in_submitted_request": true
+  }
+]

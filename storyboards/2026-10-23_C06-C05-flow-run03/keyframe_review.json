@@ -1,0 +1,16 @@
+{
+  "reviewers": [
+    "/root/final_review_a",
+    "/root/v10_review_b",
+    "/root/v10_review_c"
+  ],
+  "independent_complete": true,
+  "cross_complete": true,
+  "all_reviewers_opened_both_new_images_and_both_sources": true,
+  "status": "PASS_INPUT_STILLS_ONLY",
+  "findings": {
+    "C06_K09_reaction": "Same face, long hair, robe and night-office lighting. Small polite smile suitable as start. Visitor shoulder/hair partly visible; hands and full third-person continuity not verified.",
+    "C06_K04_check": "Same worker, mustard shirt, glasses, document and two monitor panels. Pen tip above paper and hand plausible. Exact document/UI to be composited later."
+  },
+  "cross_note": "All three agreed to PD clarification on partial visible visitor shoulder only. No new mandatory still-image issue. Actual motion remains unverified."
+}

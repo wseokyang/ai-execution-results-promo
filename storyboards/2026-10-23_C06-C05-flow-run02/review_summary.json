@@ -1,0 +1,32 @@
+{
+  "run_id": "2026-10-23_C06-C05-flow-run02",
+  "three_reviewer_cross_review_complete": true,
+  "method": "Three independent reviewers opened both 32-sample contact sheets and selected full-resolution PNGs; their first opinions were collected before cross-review. PD integrated the findings.",
+  "reviewer_scope": {
+    "A": {"contact_sheets": 2, "contact_samples": 64, "individual_pngs": 12},
+    "B": {"contact_sheets": 2, "contact_samples": 64, "individual_pngs": 8},
+    "C": {"contact_sheets": 2, "contact_samples": 64, "individual_pngs": 9}
+  },
+  "clips": [
+    {
+      "file": "C06_K05_take03.mp4",
+      "status": "USABLE_WITH_EDIT_CONDITIONS",
+      "finding": "Employee visibly crosses the intended left doorway. The employee closes the door; the ghost does not. PD accepts this action variation.",
+      "candidate_trim_seconds": [1, 6],
+      "conditions": ["Check the K06 connection in the actual edit.", "Clean up the laptop mark in post if included in the trim."]
+    },
+    {
+      "file": "C05_K02B_take03.mp4",
+      "status": "HOLD_CONTINUOUS_ENTRY",
+      "finding": "An additional porch appears while the old structure remains; a dissolve-like overlap occurs around 4.25–5.25 seconds and neck geometry changes.",
+      "conditions": ["Do not claim continuous entry or stable S-neck was achieved.", "The 7–7.75 second destination pose is only an isolated state candidate.", "Keep the existing time-ellipsis fallback: run01 K02B take02 0.5–4.5 seconds then K03 take02 0–4 seconds, subject to edit verification."]
+    }
+  ],
+  "cross_review": {
+    "A": "Agrees with left-door correction and entry hold; accepts employee door closure as PD variation.",
+    "B": "Agrees; 0.75–5.75 seconds is an alternate exit trim. End pose alone does not establish continuous entry.",
+    "C": "Agrees; preserve time ellipsis and distinguish source success from action success.",
+    "pd": "Use the exit candidate; keep full entry on hold. No original file changes. Later run03 is separately reviewed."
+  },
+  "limits": ["No continuous playback or actual listening claimed.", "Final subtitles, compositing, cut timing and the complete film remain unverified."]
+}
