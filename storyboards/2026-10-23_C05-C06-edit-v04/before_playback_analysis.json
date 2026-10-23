@@ -1,0 +1,23 @@
+{
+  "C05": {
+    "audio_samples": 1848320,
+    "video_frames": 924,
+    "expected_fps": 24,
+    "maximum_pts_step": 0.041666666666671404,
+    "minimum_pts_step": 0.0416666666666643,
+    "zero_or_negative_pts_steps": 0,
+    "silent_100ms_blocks": 125,
+    "duration": 38.5
+  },
+  "C06": {
+    "audio_samples": 2400256,
+    "video_frames": 1200,
+    "expected_fps": 24,
+    "maximum_pts_step": 0.041666666666671404,
+    "minimum_pts_step": 0.0416666666666643,
+    "zero_or_negative_pts_steps": 0,
+    "silent_100ms_blocks": 145,
+    "duration": 50.0
+  },
+  "scope": "Codec/PTS and waveform analysis only; not real-time UI playback or listening"
+}

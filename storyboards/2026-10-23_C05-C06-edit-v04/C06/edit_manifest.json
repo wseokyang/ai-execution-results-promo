@@ -1,0 +1,90 @@
+{
+  "film": "C06",
+  "duration_seconds": 48.75,
+  "source_edited_file": "storyboards\\2026-10-23_C05-C06-edit-v03\\C06\\C06_Q-AI_Fair_edit_v03.mp4",
+  "source_edited_sha256": "018843b2b6833180f9290f34d2f40d3791902624f0776c6c04f3d85ff0c5fbe3",
+  "keep_old_time_intervals": [
+    [
+      0,
+      37.75
+    ],
+    [
+      38.5,
+      42.5
+    ],
+    [
+      43,
+      50
+    ]
+  ],
+  "captions": [
+    {
+      "start": 0.3,
+      "end": 2.4,
+      "text": "제발 퇴근 좀 해.",
+      "position": "top_left",
+      "font_px": 42
+    },
+    {
+      "start": 7.75,
+      "end": 9.55,
+      "text": "고마워요.",
+      "position": "bottom",
+      "font_px": 42
+    },
+    {
+      "start": 9.88,
+      "end": 14,
+      "text": "AI로 기록을 정리한 과정",
+      "position": "bottom",
+      "font_px": 42
+    },
+    {
+      "start": 14.45,
+      "end": 20.45,
+      "text": "이 한 건만 확인하면 끝.",
+      "position": "bottom",
+      "font_px": 42
+    },
+    {
+      "start": 20.91,
+      "end": 23.47,
+      "text": "오늘 남은 일, 끝.",
+      "position": "bottom",
+      "font_px": 42
+    },
+    {
+      "start": 26,
+      "end": 28.1,
+      "text": "드디어, 내 시간.",
+      "position": "top",
+      "font_px": 42
+    },
+    {
+      "start": 29.75,
+      "end": 33,
+      "text": "방금 나간 사람,\n어떻게 내보냈어요?",
+      "position": "top",
+      "font_px": 42
+    },
+    {
+      "start": 34.5,
+      "end": 37.5,
+      "text": "질문은 Q-AI Fair에서.",
+      "position": "bottom",
+      "font_px": 42
+    },
+    {
+      "start": 44.0,
+      "end": 48.75,
+      "text": "Q-AI Fair\n직접 해본 방법을 함께 봐요.",
+      "position": "ending"
+    }
+  ],
+  "flow_credits_used": 0,
+  "source_audio": "Muted",
+  "action_stills_inserted": false,
+  "continuous_playback_verified": false,
+  "actual_listening_verified": false,
+  "status": "시각·효과음 배치 3인 재확인 및 기술 검증 완료. 실청취/실시간 플레이어 재생 미검증."
+}

@@ -1,0 +1,38 @@
+{
+  "request": "두 영상의 재생과 어색한 효과음 수정",
+  "status": "수정 렌더와 3인 시각·큐 타이밍 재검수 완료. 실제 청취 및 실시간 플레이어 재생은 미검증.",
+  "scope": ["실제 MP4 추출 프레임", "편집 구간 및 자막 재매핑", "음원 파형과 배치 코드", "전체 디코딩과 A/V PTS 연속성"],
+  "initial_independent_reviews": [
+    {"reviewer":"A","agent":"/root/c05_c06_edit_review_a","issues":["AP-A001 문 24.6초가 빠름; 25.33~25.5 권장","AP-A002 지붕음을 손 분리 31.375초에 연결 권장","AP-A003 잭 이중 클릭 삭제","AP-A004 의자 펼침과 착석 소리 구분","AP-A005 사다리 종이음 대신 바퀴음","AP-A006 펜 체크에 필기 마찰"],"evidence":"양편 기록·8fps/부분24fps 실제 표본. K08은 명백한 반복이 아니며 손 이탈 원인 유지 권장.","listened":false},
+    {"reviewer":"B","agent":"/root/v10_review_b","issues":["AP-B001 지붕음 32.3→31.25 필수 제안","AP-B002 문 24.6→25.333 필수","AP-B003 의자 40.8→39.75 필수","AP-B004 잭 클릭 삭제 권장","AP-B005 사다리 바퀴음 교체","AP-B006 종이음 3.2→3.458"],"evidence":"기존 연락판13장 및 실제 MP4에서60프레임, 추가 연락판8장/개별PNG7장.","listened":false},
+    {"reviewer":"C","agent":"/root/v10_review_c","issues":["AP-C001 문 24.6→25.292~25.333 필수","AP-C002 의자 40.8→39.875 필수","AP-C003 잭 이중 클릭 삭제","AP-C004 지붕음 손 이탈로 이동","AP-C005 사다리 이동음","AP-C006 기둥 전체 착지 8.083 부근","AP-C007 긴 디지털 무음 구간 연결 권장","AP-C008 팻말 접촉 시점 이견"],"evidence":"연락판14장, 새66프레임 연락판8장/개별PNG13장, 최종 PCM 수치.","listened":false}
+  ],
+  "cross_review": {
+    "A": "B002 동의. B001은 이동에 동의하되 필수 분류/실제 지붕 하강 단정에는 이견. B003은 의자 펼침 종점으로 조건부 동의. B004~006 동의. 세 소폭 트림 수용.",
+    "B": "A의 K08 원인 보존 동의. C 문/의자 시점이 제시 범위와 일치. 무음 그 자체는 오류가 아니며 반전의 조용함 유지 권장. 세 소폭 트림 수용.",
+    "C": "B001~006 처리 동의. K08 간결화도 가능하나 A의 원인 보존과 PD 두 소스 유지 결정 수용. 세 소폭 트림 수용."
+  },
+  "pd_decisions": [
+    {"ids":["AP-A001","AP-B002","AP-C001"],"action":"문 효과음 25.333초로 이동","status":"resolved"},
+    {"ids":["AP-A002","AP-B001","AP-C004"],"action":"구31.25→신30.5초 시작,0.42초 완만한 하중음. 앞 손 이탈 컷 유지. 필수 등급 이견은 남기고 명료한 인과로 수정.","status":"resolved"},
+    {"ids":["AP-A004","AP-B003","AP-C002"],"action":"의자 펼침에 구39.792→신39.042초. 작은 금속 힌지음으로 교체.","status":"resolved"},
+    {"ids":["AP-A003","AP-B004","AP-C003"],"action":"잭 이중 클릭 삭제,12.95~14.10 바퀴 이동음","status":"resolved"},
+    {"ids":["AP-A005","AP-B005","AP-C005"],"action":"사다리 종이음 삭제,신22.75~24.75 바퀴 이동음. 브레이크 체결음 없음.","status":"resolved"},
+    {"ids":["AP-A006"],"action":"펜 체크에18.0~18.4 필기 마찰","status":"resolved"},
+    {"ids":["AP-B006"],"action":"손놓기 종이음3.458초","status":"resolved"},
+    {"ids":["AP-C006"],"action":"기둥 전체 착지8.0초에 약한 저역 충격음","status":"resolved"},
+    {"ids":["AP-C007"],"action":"긴 디지털0 구간에 낮은 합성 배경기류. 질문·반전의 조용함은 유지.","status":"accepted"},
+    {"ids":["AP-C008"],"action":"팻말 접촉 정확시점 이견과 불필요 클릭을 함께 없애기 위해 삭제","status":"resolved"}
+  ],
+  "edits": {"C05":{"removed_old_intervals":[[22.5,23.25]],"duration":37.75,"ending_seconds":5},"C06":{"removed_old_intervals":[[37.75,38.5],[42.5,43]],"duration":48.75,"ending_seconds":4.75}},
+  "final_reconfirmation": [
+    {"reviewer":"A","result":"변경 지적 해결. 트림과 자막·엔딩 수용. 새 필수 시각·큐 문제 없음.","seen":"C05 연락판04~06,C06 05/07/08,변경PNG30.625/25.333/37.625/37.750/39.042/18.125초","final_audio_hash_checked_by_reviewer":false},
+    {"reviewer":"B","result":"AP-B001~006 해결. 접합22.5/37.75/41.75,엔딩5.0/4.75초 수용. 새 필수 시각·큐 문제 없음.","seen":"C05 연락판01~06,C06 01~08,양편 기록/코드","final_audio_hash_checked_by_reviewer":false},
+    {"reviewer":"C","result":"AP-C001~008 처리 및B001~003 해결. 세 트림 수용. 새 필수 시각·큐 문제 없음.","seen":"연락판14장,핵심PNG12장,양편 기록/코드","final_audio_hash_checked_by_reviewer":false}
+  ],
+  "remaining_required_visual_cue_issues": 0,
+  "final_audio_only_fix": "v04 중간 렌더의 dynamic loudnorm/limiter 조합에서 55ms 오디오 PTS 간격이 발견되어 고정 게인과 연속 샘플 PTS로 교체. 기존 전달본 v03에는 그 간격이 없었음. 최종 화면 패킷은 검수된 렌더와 불변. 총괄이 최종 길이·해시·PCM·PTS 확인.",
+  "limits": {"actual_listening":false,"continuous_player_playback":false,"venue_test":false,"audience_reaction":false,"user_final_approval":false},
+  "ui_attempt": "Browser Use는 file: URL 관찰을 보안 정책으로 차단하여 우회하지 않음. 로컬 Windows Media Player는 최초 개인정보/기본 프로그램 설정 화면이라 변경하지 않고 닫음. UI 재생 성공으로 기록하지 않음.",
+  "flow_credits_used": 0
+}

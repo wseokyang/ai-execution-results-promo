@@ -1,0 +1,58 @@
+{
+  "film": "C05",
+  "duration_seconds": 37.75,
+  "source_edited_file": "storyboards\\2026-10-23_C05-C06-edit-v03\\C05\\C05_Q-AI_Fair_edit_v02.mp4",
+  "source_edited_sha256": "6600be1556c352ed8f83e6bb16492e3db912a86e64c70f0552bcd9e851eec689",
+  "keep_old_time_intervals": [
+    [
+      0,
+      22.5
+    ],
+    [
+      23.25,
+      38.5
+    ]
+  ],
+  "captions": [
+    {
+      "start": 0.6,
+      "end": 3.7,
+      "text": "이 입구는 내가 접수한다.",
+      "position": "bottom",
+      "font_px": 42
+    },
+    {
+      "start": 15.25,
+      "end": 17.55,
+      "text": "조금만 더 잡아주세요.",
+      "position": "bottom",
+      "font_px": 42
+    },
+    {
+      "start": 17.95,
+      "end": 21.35,
+      "text": "잠시 후, AI 실행 사례 공개",
+      "position": "bottom",
+      "font_px": 42
+    },
+    {
+      "start": 27.85,
+      "end": 29.85,
+      "text": "들리세요?",
+      "position": "bottom",
+      "font_px": 42
+    },
+    {
+      "start": 32.75,
+      "end": 37.75,
+      "text": "Q-AI Fair\nAI 실행 사례, 지금 시작합니다.",
+      "position": "ending"
+    }
+  ],
+  "flow_credits_used": 0,
+  "source_audio": "Muted",
+  "action_stills_inserted": false,
+  "continuous_playback_verified": false,
+  "actual_listening_verified": false,
+  "status": "시각·효과음 배치 3인 재확인 및 기술 검증 완료. 실청취/실시간 플레이어 재생 미검증."
+}

@@ -1,0 +1,12 @@
+{
+  "C05": {
+    "audio_pts_gaps": [],
+    "decoded_samples": 1848000,
+    "end_seconds": 38.5
+  },
+  "C06": {
+    "audio_pts_gaps": [],
+    "decoded_samples": 2400000,
+    "end_seconds": 50.0
+  }
+}

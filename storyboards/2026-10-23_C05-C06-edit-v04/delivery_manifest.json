@@ -1,0 +1,19 @@
+{
+  "files": [
+    {
+      "film": "C05",
+      "repo_path": "storyboards\\2026-10-23_C05-C06-edit-v04\\C05\\C05_Q-AI_Fair_edit_v04.mp4",
+      "local_path": "C:\\Users\\wseok\\.cache\\codex-flow\\Q-AI-Fair-C05-C06-edits-2026-10-23\\C05_Q-AI_Fair_edit_v04.mp4",
+      "duration_seconds": 37.75,
+      "sha256": "16ddc3ae89be00443d286d0aaa0ef5e332a97253065191c9eb15ebd20ffe8f81"
+    },
+    {
+      "film": "C06",
+      "repo_path": "storyboards\\2026-10-23_C05-C06-edit-v04\\C06\\C06_Q-AI_Fair_edit_v04.mp4",
+      "local_path": "C:\\Users\\wseok\\.cache\\codex-flow\\Q-AI-Fair-C05-C06-edits-2026-10-23\\C06_Q-AI_Fair_edit_v04.mp4",
+      "duration_seconds": 48.75,
+      "sha256": "a3f66c76cc6a732508d8ad2be76af2650bcd4a8bf99b9094e0976115330c9cb9"
+    }
+  ],
+  "viewer": "C:\\Users\\wseok\\.cache\\codex-flow\\Q-AI-Fair-C05-C06-edits-2026-10-23\\index.html"
+}

@@ -1,0 +1,98 @@
+{
+  "music": "Unchanged composition, cut at same video edits, 45ms seam fades",
+  "source_score_sha256": "fc47635e3bbc0e55c7820cacedc09d6a37200ec75abc6c5189dd03b61713b5d6",
+  "original_recipe": "storyboards\\2026-10-23_C05-C06-edit-v03\\C05\\audio_recipe.json",
+  "effects": [
+    {
+      "old_at": 4.6,
+      "at": 4.6,
+      "duration": 0.85,
+      "kind": "stone_scrape",
+      "pre_mix_peak_dbfs": -31,
+      "pan": 0,
+      "visible_cause": "pillar pulled away; dust begins",
+      "boundary_samples": [
+        0.0,
+        0.0
+      ],
+      "actual_listening_verified": false
+    },
+    {
+      "old_at": 8.0,
+      "at": 8.0,
+      "duration": 0.38,
+      "kind": "stone_land",
+      "pre_mix_peak_dbfs": -26,
+      "pan": -0.15,
+      "visible_cause": "pillar settles onto ground",
+      "boundary_samples": [
+        0.0,
+        0.0
+      ],
+      "actual_listening_verified": false
+    },
+    {
+      "old_at": 9.78,
+      "at": 9.78,
+      "duration": 0.52,
+      "kind": "structural_stress",
+      "pre_mix_peak_dbfs": -33,
+      "pan": 0,
+      "visible_cause": "roof catch at cut; no invented collapse",
+      "boundary_samples": [
+        0.0,
+        0.0
+      ],
+      "actual_listening_verified": false
+    },
+    {
+      "old_at": 12.95,
+      "at": 12.95,
+      "duration": 1.15,
+      "kind": "wheels",
+      "pre_mix_peak_dbfs": -37,
+      "pan": 0.3,
+      "visible_cause": "jack rolls; no invisible pump clicks",
+      "boundary_samples": [
+        0.0,
+        0.0
+      ],
+      "actual_listening_verified": false
+    },
+    {
+      "old_at": 23.5,
+      "at": 22.75,
+      "duration": 2.0,
+      "kind": "wheels",
+      "pre_mix_peak_dbfs": -36,
+      "pan": -0.3,
+      "visible_cause": "ladder rolls; no brake latch shown",
+      "boundary_samples": [
+        0.0,
+        0.0
+      ],
+      "actual_listening_verified": false
+    },
+    {
+      "old_at": 31.25,
+      "at": 30.5,
+      "duration": 0.42,
+      "kind": "structural_stress",
+      "pre_mix_peak_dbfs": -32,
+      "pan": 0,
+      "visible_cause": "slow attack peaks as supporting hand leaves roof",
+      "boundary_samples": [
+        0.0,
+        0.0
+      ],
+      "actual_listening_verified": false
+    }
+  ],
+  "old_effects_removed": true,
+  "ambience": "Local synthesized low broad noise, -57dBFS RMS before mix gain; not field recording",
+  "target_lufs": -21,
+  "static_gain_db": 14.829999999999998,
+  "peak_headroom_db": 2.3,
+  "normalization": "One fixed measured gain; no dynamic loudnorm or lookahead limiter",
+  "actual_listening_verified": false
+}

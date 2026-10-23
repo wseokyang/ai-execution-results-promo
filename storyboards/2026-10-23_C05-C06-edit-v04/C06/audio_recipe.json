@@ -1,0 +1,98 @@
+{
+  "music": "Unchanged composition, cut at same video edits, 45ms seam fades",
+  "source_score_sha256": "a304568251f0afe2225b43240949d690a60cf957faa95966aa700b3317448fa5",
+  "original_recipe": "storyboards\\2026-10-23_C05-C06-edit-v03\\C06\\audio_recipe.json",
+  "effects": [
+    {
+      "old_at": 3.458,
+      "at": 3.458,
+      "duration": 0.25,
+      "kind": "paper",
+      "pre_mix_peak_dbfs": -36,
+      "pan": 0,
+      "visible_cause": "worker releases folder into ghost hand",
+      "boundary_samples": [
+        0.0,
+        0.0
+      ],
+      "actual_listening_verified": false
+    },
+    {
+      "old_at": 5.55,
+      "at": 5.55,
+      "duration": 0.24,
+      "kind": "desk",
+      "pre_mix_peak_dbfs": -31,
+      "pan": 0,
+      "visible_cause": "hands contact desk",
+      "boundary_samples": [
+        0.0,
+        0.0
+      ],
+      "actual_listening_verified": false
+    },
+    {
+      "old_at": 7.9,
+      "at": 7.9,
+      "duration": 0.36,
+      "kind": "paper",
+      "pre_mix_peak_dbfs": -35,
+      "pan": -0.1,
+      "visible_cause": "paper stack placed",
+      "boundary_samples": [
+        0.0,
+        0.0
+      ],
+      "actual_listening_verified": false
+    },
+    {
+      "old_at": 18.0,
+      "at": 18.0,
+      "duration": 0.4,
+      "kind": "pencil",
+      "pre_mix_peak_dbfs": -39,
+      "pan": 0.15,
+      "visible_cause": "pen checking original document",
+      "boundary_samples": [
+        0.0,
+        0.0
+      ],
+      "actual_listening_verified": false
+    },
+    {
+      "old_at": 25.333,
+      "at": 25.333,
+      "duration": 0.22,
+      "kind": "door",
+      "pre_mix_peak_dbfs": -31,
+      "pan": -0.35,
+      "visible_cause": "door reaches near-closed position",
+      "boundary_samples": [
+        0.0,
+        0.0
+      ],
+      "actual_listening_verified": false
+    },
+    {
+      "old_at": 39.792,
+      "at": 39.042,
+      "duration": 0.15,
+      "kind": "hinge",
+      "pre_mix_peak_dbfs": -37,
+      "pan": -0.25,
+      "visible_cause": "folding chair reaches open position",
+      "boundary_samples": [
+        0.0,
+        0.0
+      ],
+      "actual_listening_verified": false
+    }
+  ],
+  "old_effects_removed": true,
+  "ambience": "Local synthesized low broad noise, -57dBFS RMS before mix gain; not field recording",
+  "target_lufs": -21,
+  "static_gain_db": 14.5,
+  "peak_headroom_db": 2.3,
+  "normalization": "One fixed measured gain; no dynamic loudnorm or lookahead limiter",
+  "actual_listening_verified": false
+}
