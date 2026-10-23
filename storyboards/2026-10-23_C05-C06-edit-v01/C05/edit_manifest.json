@@ -1,0 +1,152 @@
+{
+  "film": "C05",
+  "duration_seconds": 39.0,
+  "fps": 24,
+  "resolution": [
+    1280,
+    720
+  ],
+  "segments": [
+    {
+      "cut": "K01",
+      "source": "2026-10-23_C06-C05-flow-run03/C05_K01_take02.mp4",
+      "source_in": 0,
+      "source_out": 4,
+      "start": 0,
+      "end": 4
+    },
+    {
+      "cut": "K02A",
+      "source": "2026-10-23_C06-C05-flow-run01/C05_K02A_take01.mp4",
+      "source_in": 1.25,
+      "source_out": 5.75,
+      "start": 4,
+      "end": 8.5
+    },
+    {
+      "cut": "K02B",
+      "source": "2026-10-23_C06-C05-flow-run01/C05_K02B_take02.mp4",
+      "source_in": 0.5,
+      "source_out": 1.75,
+      "start": 8.5,
+      "end": 9.75
+    },
+    {
+      "cut": "K03",
+      "source": "2026-10-23_C06-C05-flow-run01/C05_K03_take02.mp4",
+      "source_in": 0,
+      "source_out": 3,
+      "start": 9.75,
+      "end": 12.75
+    },
+    {
+      "cut": "K04_jack",
+      "source": "2026-10-23_C06-C05-flow-run01/C05_K04_take02.mp4",
+      "source_in": 1,
+      "source_out": 3.25,
+      "start": 12.75,
+      "end": 15.0
+    },
+    {
+      "cut": "K04_plead",
+      "source": "2026-10-23_C06-C05-flow-run01/C05_K04_take02.mp4",
+      "source_in": 4.5,
+      "source_out": 7.25,
+      "start": 15.0,
+      "end": 17.75
+    },
+    {
+      "cut": "K05",
+      "source": "2026-10-23_C06-C05-flow-run01/C05_K05_take02.mp4",
+      "source_in": 0.5,
+      "source_out": 6.5,
+      "start": 17.75,
+      "end": 23.75
+    },
+    {
+      "cut": "K06",
+      "source": "2026-10-23_C06-C05-flow-run03/C05_K06_take02.mp4",
+      "source_in": 0.5,
+      "source_out": 3.5,
+      "start": 23.75,
+      "end": 26.75
+    },
+    {
+      "cut": "K07",
+      "source": "2026-10-23_C06-C05-flow-run03/C05_K07_take02.mp4",
+      "source_in": 1,
+      "source_out": 5.5,
+      "start": 26.75,
+      "end": 31.25
+    },
+    {
+      "cut": "K08_thumb",
+      "source": "2026-10-23_C06-C05-flow-run01/C05_K08_take01.mp4",
+      "source_in": 0.5,
+      "source_out": 1.5,
+      "start": 31.25,
+      "end": 32.25
+    },
+    {
+      "cut": "K08_return",
+      "source": "2026-10-23_C06-C05-flow-run03/C05_K08_take02.mp4",
+      "source_in": 0,
+      "source_out": 6.75,
+      "start": 32.25,
+      "end": 39.0
+    }
+  ],
+  "captions": [
+    {
+      "start": 0.6,
+      "end": 3.7,
+      "text": "이 입구는 내가 접수한다.",
+      "position": "bottom",
+      "font_px": 42
+    },
+    {
+      "start": 15.25,
+      "end": 17.55,
+      "text": "조금만 더 잡아주세요.",
+      "position": "bottom",
+      "font_px": 42
+    },
+    {
+      "start": 17.95,
+      "end": 21.35,
+      "text": "잠시 후, AI 실행 사례 공개",
+      "position": "bottom",
+      "font_px": 42
+    },
+    {
+      "start": 29.1,
+      "end": 31.1,
+      "text": "들리세요?",
+      "position": "bottom",
+      "font_px": 42
+    },
+    {
+      "start": 34,
+      "end": 39.0,
+      "text": "Q-AI Fair\nAI 실행 사례, 지금 시작합니다.",
+      "position": "ending"
+    }
+  ],
+  "source_sha256": {
+    "2026-10-23_C06-C05-flow-run01/C05_K02A_take01.mp4": "ba15feb55d3c51dfc07d4aa3f17b36d37715e58cdf726a5adefc05b3948ddc9d",
+    "2026-10-23_C06-C05-flow-run01/C05_K04_take02.mp4": "6f646d261a44a4de661171b0c22f87b46eb99ec9b2da6ba2cebe2ea4383f5ced",
+    "2026-10-23_C06-C05-flow-run03/C05_K07_take02.mp4": "00a29dc6bd51cbd66edfb3a72a8001ec56924a1cf4951882662993cb63b8ded7",
+    "2026-10-23_C06-C05-flow-run01/C05_K05_take02.mp4": "c68de7d193acbf91b0bc28d622f0fbc44b870aa45d2ee11d4f5ea43ca2dfcea8",
+    "2026-10-23_C06-C05-flow-run03/C05_K06_take02.mp4": "a608c3f881597faab81313c43a7fd5c43ad4cdc8fb161e1994aaefcf9d9f2882",
+    "2026-10-23_C06-C05-flow-run01/C05_K08_take01.mp4": "a82ab7aa031d7506b5a6cc408a873f17cf185063b4f34846a3f5a2b5efec5652",
+    "2026-10-23_C06-C05-flow-run03/C05_K01_take02.mp4": "cdf95f0d1478cb0fb3d87c8e3d17e153645e9fcebdc65b679e64c45012b48cb0",
+    "2026-10-23_C06-C05-flow-run01/C05_K02B_take02.mp4": "712ede5cc4175875d4d3a62b607c367629335e17ad67ce275462bc655adab796",
+    "2026-10-23_C06-C05-flow-run03/C05_K08_take02.mp4": "6ffd1ceb002b7236a4df544410500baa53657958b01ea114ce8d78af36752e75",
+    "2026-10-23_C06-C05-flow-run01/C05_K03_take02.mp4": "660270e6fc51eb56d0e2cb50bc4fb0d40d3bcf30ca0effdba61a376408d0413c"
+  },
+  "flow_credits_used": 0,
+  "source_audio": "muted",
+  "generated_action_replaced_with_stills": false,
+  "end_card": false,
+  "status": "render awaiting independent review"
+}

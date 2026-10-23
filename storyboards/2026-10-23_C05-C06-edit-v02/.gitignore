@@ -1,0 +1,8 @@
+**/review_frames/
+composite_previews/
+**/*_picture.mp4
+**/*_mix.wav
+**/*_score.wav
+**/render_stderr.txt
+drafts/
+**/*.mp4

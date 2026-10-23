@@ -1,0 +1,198 @@
+{
+  "film": "C06",
+  "duration_seconds": 50.0,
+  "fps": 24,
+  "resolution": [
+    1280,
+    720
+  ],
+  "segments": [
+    {
+      "cut": "K01",
+      "source": "2026-10-23_C06-C05-flow-run01/C06_K01_take01.mp4",
+      "source_in": 0,
+      "source_out": 5,
+      "start": 0,
+      "end": 5
+    },
+    {
+      "cut": "K02_attack",
+      "source": "2026-10-23_C06-C05-flow-run01/C06_K02_take01.mp4",
+      "source_in": 1,
+      "source_out": 2.5,
+      "start": 5,
+      "end": 6.5
+    },
+    {
+      "cut": "K02_sort",
+      "source": "2026-10-23_C06-C05-flow-run01/C06_K02_take01.mp4",
+      "source_in": 4.25,
+      "source_out": 7.5,
+      "start": 6.5,
+      "end": 9.75
+    },
+    {
+      "cut": "K03",
+      "source": "2026-10-23_C06-C05-flow-run01/C06_K03_take01.mp4",
+      "source_in": 1.25,
+      "source_out": 5.75,
+      "start": 9.75,
+      "end": 14.25
+    },
+    {
+      "cut": "K04_wide",
+      "source": "2026-10-23_C06-C05-flow-run01/C06_K04_take01.mp4",
+      "source_in": 0.5,
+      "source_out": 3.5,
+      "start": 14.25,
+      "end": 17.25
+    },
+    {
+      "cut": "K04_check",
+      "source": "2026-10-23_C06-C05-flow-run03/C06_K04_check_take02.mp4",
+      "source_in": 1.25,
+      "source_out": 4.75,
+      "start": 17.25,
+      "end": 20.75
+    },
+    {
+      "cut": "K05",
+      "source": "2026-10-23_C06-C05-flow-run02/C06_K05_take03.mp4",
+      "source_in": 1,
+      "source_out": 6,
+      "start": 20.75,
+      "end": 25.75
+    },
+    {
+      "cut": "K06",
+      "source": "2026-10-23_C06-C05-flow-run01/C06_K06_take01.mp4",
+      "source_in": 0.75,
+      "source_out": 3.75,
+      "start": 25.75,
+      "end": 28.75
+    },
+    {
+      "cut": "K07",
+      "source": "2026-10-23_C06-C05-flow-run01/C06_K07_take01.mp4",
+      "source_in": 0,
+      "source_out": 4.5,
+      "start": 28.75,
+      "end": 33.25
+    },
+    {
+      "cut": "K08",
+      "source": "2026-10-23_C06-C05-flow-run01/C06_K08_take01.mp4",
+      "source_in": 1.25,
+      "source_out": 5.75,
+      "start": 33.25,
+      "end": 37.75
+    },
+    {
+      "cut": "K09_seat",
+      "source": "2026-10-23_C06-C05-flow-run01/C06_K09_take01.mp4",
+      "source_in": 0,
+      "source_out": 4.75,
+      "start": 37.75,
+      "end": 42.5
+    },
+    {
+      "cut": "K09_reaction",
+      "source": "2026-10-23_C06-C05-flow-run03/C06_K09_reaction_take01.mp4",
+      "source_in": 1.5,
+      "source_out": 4.25,
+      "start": 42.5,
+      "end": 45.25
+    },
+    {
+      "cut": "END",
+      "source": null,
+      "source_in": 0,
+      "source_out": 4.75,
+      "start": 45.25,
+      "end": 50.0
+    }
+  ],
+  "captions": [
+    {
+      "start": 0.3,
+      "end": 2.4,
+      "text": "제발 퇴근 좀 해.",
+      "position": "top_left",
+      "font_px": 42
+    },
+    {
+      "start": 7.75,
+      "end": 9.55,
+      "text": "고마워요.",
+      "position": "bottom",
+      "font_px": 42
+    },
+    {
+      "start": 9.88,
+      "end": 14,
+      "text": "AI로 기록을 정리한 과정",
+      "position": "bottom",
+      "font_px": 42
+    },
+    {
+      "start": 14.45,
+      "end": 20.45,
+      "text": "이 한 건만 확인하면 끝.",
+      "position": "bottom",
+      "font_px": 42
+    },
+    {
+      "start": 20.91,
+      "end": 23.47,
+      "text": "오늘 남은 일, 끝.",
+      "position": "bottom",
+      "font_px": 42
+    },
+    {
+      "start": 26,
+      "end": 28.1,
+      "text": "드디어, 내 시간.",
+      "position": "top",
+      "font_px": 42
+    },
+    {
+      "start": 29.75,
+      "end": 33,
+      "text": "방금 나간 사람,\n어떻게 내보냈어요?",
+      "position": "top",
+      "font_px": 42
+    },
+    {
+      "start": 34.5,
+      "end": 37.5,
+      "text": "질문은 Q-AI Fair에서.",
+      "position": "bottom",
+      "font_px": 42
+    },
+    {
+      "start": 45.25,
+      "end": 50.0,
+      "text": "Q-AI Fair\n직접 해본 방법을 함께 봐요.",
+      "position": "ending"
+    }
+  ],
+  "source_sha256": {
+    "2026-10-23_C06-C05-flow-run01/C06_K07_take01.mp4": "3cc54acdcf7044b3463f792faf5d3e33641ccb10a71608074641ea3d809ecee4",
+    "2026-10-23_C06-C05-flow-run01/C06_K01_take01.mp4": "bfb7d860769ed064a8be286bb5c60a386dc683aa8aba2ca05f6989e48e43bf0e",
+    "2026-10-23_C06-C05-flow-run03/C06_K04_check_take02.mp4": "f79419dab2d59a6d34f6fb2d750d0f3aa517766511cb46ebe628f70702a1e391",
+    "2026-10-23_C06-C05-flow-run02/C06_K05_take03.mp4": "bbb74edba29d002a2f2e19c3a7fb05d0db5b1a390400a715711d075e30795bcc",
+    "2026-10-23_C06-C05-flow-run01/C06_K04_take01.mp4": "74fa1c8d32a1712809024312a8afd473e2867d49746ab740a742c10beb91573a",
+    "2026-10-23_C06-C05-flow-run01/C06_K03_take01.mp4": "4b689cc220394420503946b340961baeed435344ef202511224cb82c96cd0cc9",
+    "2026-10-23_C06-C05-flow-run01/C06_K02_take01.mp4": "3635af8794c84bcb1c5b6778a425528ac7b206bde551df19467913903a100f6e",
+    "2026-10-23_C06-C05-flow-run01/C06_K09_take01.mp4": "ef7a2ccc51e4fd24ea8ce330ea1d53f09675622a92207ebab7c0df90906953e1",
+    "2026-10-23_C06-C05-flow-run01/C06_K06_take01.mp4": "75a8384ccf7dba84c1be725f1b0994de513c203e9d38f6c57fb077836280daa2",
+    "2026-10-23_C06-C05-flow-run01/C06_K08_take01.mp4": "5892fe54842826bc9be524739e91cdca05e155406e5fb78316ca281d7da6afce",
+    "2026-10-23_C06-C05-flow-run03/C06_K09_reaction_take01.mp4": "29ecf77ceca124cb8daa322ea95f06e01f013e23d88d528245197b22ee8604c7"
+  },
+  "flow_credits_used": 0,
+  "source_audio": "muted",
+  "generated_action_replaced_with_stills": false,
+  "end_card": true,
+  "status": "Edited delivery; three independent and cross visual sample reviews completed. Not user final approval.",
+  "continuous_playback_or_listening_verified": false
+}

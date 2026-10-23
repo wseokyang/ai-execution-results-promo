@@ -1,0 +1,29 @@
+{
+  "file": "C06_Q-AI_Fair_edit_v01.mp4",
+  "duration_seconds": 50.0,
+  "frames": 1200,
+  "resolution": [
+    1280,
+    720
+  ],
+  "fps": 24,
+  "full_av_decode": "PASS",
+  "originals_unchanged": true,
+  "sha256": "7b82a0d23da2b1b2c07a3328b5466fc258052ffa7dbebe1d2ec518bc51c98712",
+  "bytes": 15378526,
+  "audio_pcm_peak": 0.8525053858757019,
+  "final_loudness": {
+    "input_i": "-18.16",
+    "input_tp": "-1.39",
+    "input_lra": "11.20",
+    "input_thresh": "-29.13",
+    "output_i": "-17.70",
+    "output_tp": "-1.50",
+    "output_lra": "9.30",
+    "output_thresh": "-28.65",
+    "normalization_type": "dynamic",
+    "target_offset": "-0.30"
+  },
+  "actual_continuous_playback_verified": false,
+  "actual_listening_verified": false
+}

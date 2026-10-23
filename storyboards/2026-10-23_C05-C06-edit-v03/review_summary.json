@@ -1,0 +1,189 @@
+{
+  "run": "2026-10-23_C05-C06-edit-v03",
+  "scope": [
+    "C05",
+    "C06"
+  ],
+  "workflow": [
+    "director EDL",
+    "three independent rendered sample reviews",
+    "cross review",
+    "local fixes",
+    "final changed-sample reconfirmation completed by A, B and C"
+  ],
+  "source_media_preserved": true,
+  "independent": [
+    {
+      "reviewer": "A",
+      "agent": "/root/c05_c06_edit_review_a",
+      "observed": "C05 contact01–06, C06 contact01–07 and 10 full resolution PNGs; manifests/code",
+      "findings": [
+        {
+          "id": "E-A001",
+          "severity": "suggestion",
+          "film": "C05",
+          "time": "21.35–23.75",
+          "issue": "Reaction hold can be .5–1s tighter"
+        },
+        {
+          "id": "E-A002",
+          "severity": "suggestion",
+          "film": "C06",
+          "time": "0.3–2.4",
+          "issue": "First caption may read as employee speaking; use 제발 퇴근 좀 해."
+        }
+      ]
+    },
+    {
+      "reviewer": "B",
+      "agent": "/root/v10_review_b",
+      "observed": "C05 6 contacts/107 frames, C06 7 contacts/135 frames; 12 full resolution PNGs; manifests/code",
+      "findings": [
+        {
+          "id": "E-B001",
+          "severity": "required",
+          "film": "C06",
+          "time": "20.75–25.75",
+          "issue": "Completed monitor resets to blank gray source panels"
+        },
+        {
+          "id": "E-B002",
+          "severity": "required",
+          "film": "C06",
+          "time": "K05/K07",
+          "issue": "Previously planned neutral-prop cleanup leaves generated laptop brands"
+        },
+        {
+          "id": "E-B003",
+          "severity": "suggestion",
+          "film": "C05",
+          "time": "9.708→9.75",
+          "issue": "Canopy damage/debris continuity differs across time ellipsis"
+        }
+      ]
+    },
+    {
+      "reviewer": "C",
+      "agent": "/root/v10_review_c",
+      "observed": "All 13 contact sheets and 19 full-resolution PNGs; manifests/code",
+      "findings": [
+        {
+          "id": "E-C001",
+          "severity": "required",
+          "film": "C06",
+          "time": "20.75–25.75",
+          "issue": "Same monitor continuity defect as E-B001"
+        },
+        {
+          "id": "E-C002",
+          "severity": "suggestion",
+          "film": "C06",
+          "time": "29.75–33.25",
+          "issue": "Both visitor laptop brands visible"
+        }
+      ]
+    }
+  ],
+  "cross_reviews": [
+    {
+      "reviewer": "A",
+      "decisions": "Agrees B001/C001; acknowledges own initial miss. Agrees B002; prior source acceptance condition makes cleanup required. B003 accepted limitation. Accepts A001/A002 changes. No new required defect."
+    },
+    {
+      "reviewer": "B",
+      "decisions": "Agrees A001/A002, C001, C002. Brand cleanup required as prior planned work, not a legal assertion. Accepts B003 limitation. No new required defect."
+    },
+    {
+      "reviewer": "C",
+      "decisions": "Agrees A001/A002 and B001. Escalates C002 to required prior planned cleanup, includes employee laptop. Accepts B003 limitation. No new required defect."
+    }
+  ],
+  "pd_actions": [
+    {
+      "ids": [
+        "E-A001"
+      ],
+      "action": "Shorten C05 K05 source out6.5→6, shift subsequent captions/score/SFX/ending -.5s. Final38.5s; title5s."
+    },
+    {
+      "ids": [
+        "E-A002"
+      ],
+      "action": "Change C06 first caption to 제발 퇴근 좀 해. Same2.1s interval."
+    },
+    {
+      "ids": [
+        "E-B001",
+        "E-C001"
+      ],
+      "action": "Composite consistent completed monitor through C06 K05."
+    },
+    {
+      "ids": [
+        "E-B002",
+        "E-C002"
+      ],
+      "action": "Track small product-mark cleanup on employee and both visitor laptops. Preserve source Veo watermark. Fit surrounding surface gradient for dark marks."
+    },
+    {
+      "ids": [
+        "E-B003"
+      ],
+      "action": "Accept canopy debris difference across ellipsis; no new generation. Meaning and central action remain clear."
+    },
+    {
+      "ids": [
+        "PD-AUDIO"
+      ],
+      "action": "Lower encoded audio true peak to below -1.5dBTP, target integrated level about -18LUFS."
+    }
+  ],
+  "first_reconfirmation": {
+    "C06_sha256": "1bced617acc6085713d1695e8f70c61af12b245222d59b8f72233a3dbab8ef1d",
+    "reviewers": [
+      "A",
+      "B",
+      "C"
+    ],
+    "resolved": [
+      "E-A001",
+      "E-A002",
+      "E-B001",
+      "E-C001"
+    ],
+    "partial": [
+      "E-B002",
+      "E-C002"
+    ],
+    "remaining": "C06 29.500s early rotating visitor laptop still showed light mark. All three independently found it.",
+    "action": "Move cleanup start earlier, update early position/colour detection; inspect every frame29.25–30.05. Re-render C06 only."
+  },
+  "final_reconfirmation": [
+    {
+      "reviewer": "A",
+      "status": "all required issues resolved on rendered samples",
+      "frames": "C06 29.333,29.417,29.500,29.583,29.667,29.750; first-round other resolved changes retained",
+      "sha256": "018843b2b6833180f9290f34d2f40d3791902624f0776c6c04f3d85ff0c5fbe3"
+    },
+    {
+      "reviewer": "B",
+      "status": "all required issues resolved on rendered samples",
+      "frames": "C06 29.250,29.417,29.500,29.583,29.750; first-round other resolved changes retained",
+      "not_seen": "30.042 file absent; no claim of checking it",
+      "sha256": "018843b2b6833180f9290f34d2f40d3791902624f0776c6c04f3d85ff0c5fbe3"
+    },
+    {
+      "reviewer": "C",
+      "status": "all required issues resolved on rendered samples",
+      "frames": "C06 29.333,29.458,29.500,29.542,29.750; first-round other resolved changes retained",
+      "sha256": "018843b2b6833180f9290f34d2f40d3791902624f0776c6c04f3d85ff0c5fbe3"
+    }
+  ],
+  "remaining_required_visual_sample_issues": 0,
+  "limits": [
+    "Actual final videos decoded in full; reviewers visually checked extracted samples, not continuous playback.",
+    "Actual listening/BGM-SFX subjective quality not verified; no source speech or essential voice remains.",
+    "No venue projector/ambient noise test and no audience reaction test.",
+    "C05 full canopy entry and ladder brake lock are omitted through time ellipsis, not claimed as generated."
+  ]
+}

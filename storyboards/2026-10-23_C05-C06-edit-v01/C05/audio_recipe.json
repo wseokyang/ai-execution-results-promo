@@ -1,0 +1,389 @@
+{
+  "source_audio": "Muted; no essential spoken narration",
+  "music": "Original local composition",
+  "soundfont": "C:\\Users\\wseok\\.cache\\codex-media-tools\\soundfonts\\GeneralUser-GS-2.0.3\\GeneralUser-GS.sf2",
+  "soundfont_sha256": "9575028c7a1f589f5770fccc8cff2734566af40cd26ed836944e9a5152688cfe",
+  "programs": {
+    "0": 61,
+    "1": 48,
+    "2": 45,
+    "3": 70,
+    "4": 11
+  },
+  "notes": [
+    {
+      "start": 0,
+      "duration": 3.3,
+      "pitch": 33,
+      "velocity": 41,
+      "channel": 1
+    },
+    {
+      "start": 0,
+      "duration": 3.3,
+      "pitch": 40,
+      "velocity": 41,
+      "channel": 1
+    },
+    {
+      "start": 0,
+      "duration": 3.3,
+      "pitch": 45,
+      "velocity": 41,
+      "channel": 1
+    },
+    {
+      "start": 4,
+      "duration": 4.3,
+      "pitch": 33,
+      "velocity": 39,
+      "channel": 1
+    },
+    {
+      "start": 4,
+      "duration": 4.3,
+      "pitch": 40,
+      "velocity": 39,
+      "channel": 1
+    },
+    {
+      "start": 4,
+      "duration": 4.3,
+      "pitch": 48,
+      "velocity": 39,
+      "channel": 1
+    },
+    {
+      "start": 0.6,
+      "duration": 0.24,
+      "pitch": 45,
+      "velocity": 48,
+      "channel": 0
+    },
+    {
+      "start": 1.22,
+      "duration": 0.24,
+      "pitch": 45,
+      "velocity": 48,
+      "channel": 0
+    },
+    {
+      "start": 1.8399999999999999,
+      "duration": 0.24,
+      "pitch": 52,
+      "velocity": 48,
+      "channel": 0
+    },
+    {
+      "start": 2.46,
+      "duration": 0.24,
+      "pitch": 48,
+      "velocity": 48,
+      "channel": 0
+    },
+    {
+      "start": 3.08,
+      "duration": 0.24,
+      "pitch": 47,
+      "velocity": 48,
+      "channel": 0
+    },
+    {
+      "start": 3.7,
+      "duration": 0.24,
+      "pitch": 45,
+      "velocity": 48,
+      "channel": 0
+    },
+    {
+      "start": 4.319999999999999,
+      "duration": 0.24,
+      "pitch": 40,
+      "velocity": 48,
+      "channel": 0
+    },
+    {
+      "start": 4.9399999999999995,
+      "duration": 0.24,
+      "pitch": 43,
+      "velocity": 48,
+      "channel": 0
+    },
+    {
+      "start": 5.56,
+      "duration": 0.24,
+      "pitch": 45,
+      "velocity": 48,
+      "channel": 0
+    },
+    {
+      "start": 6.18,
+      "duration": 0.24,
+      "pitch": 52,
+      "velocity": 48,
+      "channel": 0
+    },
+    {
+      "start": 6.8,
+      "duration": 0.24,
+      "pitch": 48,
+      "velocity": 48,
+      "channel": 0
+    },
+    {
+      "start": 7.42,
+      "duration": 0.24,
+      "pitch": 47,
+      "velocity": 48,
+      "channel": 0
+    },
+    {
+      "start": 8.5,
+      "duration": 0.8,
+      "pitch": 40,
+      "velocity": 54,
+      "channel": 0
+    },
+    {
+      "start": 8.5,
+      "duration": 0.8,
+      "pitch": 47,
+      "velocity": 54,
+      "channel": 0
+    },
+    {
+      "start": 8.5,
+      "duration": 0.8,
+      "pitch": 52,
+      "velocity": 54,
+      "channel": 0
+    },
+    {
+      "start": 12.9,
+      "duration": 0.18,
+      "pitch": 48,
+      "velocity": 46,
+      "channel": 3
+    },
+    {
+      "start": 13.48,
+      "duration": 0.18,
+      "pitch": 55,
+      "velocity": 46,
+      "channel": 3
+    },
+    {
+      "start": 14.06,
+      "duration": 0.18,
+      "pitch": 51,
+      "velocity": 46,
+      "channel": 3
+    },
+    {
+      "start": 14.64,
+      "duration": 0.18,
+      "pitch": 55,
+      "velocity": 46,
+      "channel": 3
+    },
+    {
+      "start": 15.22,
+      "duration": 0.18,
+      "pitch": 46,
+      "velocity": 46,
+      "channel": 3
+    },
+    {
+      "start": 15.8,
+      "duration": 0.18,
+      "pitch": 53,
+      "velocity": 46,
+      "channel": 3
+    },
+    {
+      "start": 16.38,
+      "duration": 0.18,
+      "pitch": 48,
+      "velocity": 46,
+      "channel": 3
+    },
+    {
+      "start": 16.96,
+      "duration": 0.18,
+      "pitch": 55,
+      "velocity": 46,
+      "channel": 3
+    },
+    {
+      "start": 18.0,
+      "duration": 0.28,
+      "pitch": 48,
+      "velocity": 42,
+      "channel": 2
+    },
+    {
+      "start": 18.68,
+      "duration": 0.28,
+      "pitch": 52,
+      "velocity": 42,
+      "channel": 2
+    },
+    {
+      "start": 19.36,
+      "duration": 0.28,
+      "pitch": 55,
+      "velocity": 42,
+      "channel": 2
+    },
+    {
+      "start": 20.04,
+      "duration": 0.28,
+      "pitch": 59,
+      "velocity": 42,
+      "channel": 2
+    },
+    {
+      "start": 20.72,
+      "duration": 0.28,
+      "pitch": 55,
+      "velocity": 42,
+      "channel": 2
+    },
+    {
+      "start": 21.4,
+      "duration": 0.28,
+      "pitch": 52,
+      "velocity": 42,
+      "channel": 2
+    },
+    {
+      "start": 23.9,
+      "duration": 0.42,
+      "pitch": 45,
+      "velocity": 48,
+      "channel": 0
+    },
+    {
+      "start": 24.5,
+      "duration": 0.42,
+      "pitch": 48,
+      "velocity": 48,
+      "channel": 0
+    },
+    {
+      "start": 25.1,
+      "duration": 0.42,
+      "pitch": 52,
+      "velocity": 48,
+      "channel": 0
+    },
+    {
+      "start": 25.7,
+      "duration": 0.42,
+      "pitch": 57,
+      "velocity": 48,
+      "channel": 0
+    },
+    {
+      "start": 34.15,
+      "duration": 2.1,
+      "pitch": 48,
+      "velocity": 40,
+      "channel": 4
+    },
+    {
+      "start": 34.15,
+      "duration": 2.1,
+      "pitch": 55,
+      "velocity": 40,
+      "channel": 4
+    },
+    {
+      "start": 34.15,
+      "duration": 2.1,
+      "pitch": 60,
+      "velocity": 40,
+      "channel": 4
+    },
+    {
+      "start": 34.15,
+      "duration": 2.1,
+      "pitch": 64,
+      "velocity": 40,
+      "channel": 4
+    },
+    {
+      "start": 36.1,
+      "duration": 2.2,
+      "pitch": 48,
+      "velocity": 35,
+      "channel": 1
+    },
+    {
+      "start": 36.1,
+      "duration": 2.2,
+      "pitch": 55,
+      "velocity": 35,
+      "channel": 1
+    },
+    {
+      "start": 36.1,
+      "duration": 2.2,
+      "pitch": 60,
+      "velocity": 35,
+      "channel": 1
+    },
+    {
+      "start": 36.1,
+      "duration": 2.2,
+      "pitch": 67,
+      "velocity": 35,
+      "channel": 1
+    }
+  ],
+  "effects": [
+    {
+      "at": 4.6,
+      "duration": 0.4,
+      "kind": "creak",
+      "gain": 0.08
+    },
+    {
+      "at": 7.8,
+      "duration": 0.36,
+      "kind": "thud",
+      "gain": 0.2
+    },
+    {
+      "at": 9.78,
+      "duration": 0.45,
+      "kind": "creak",
+      "gain": 0.14
+    },
+    {
+      "at": 13.3,
+      "duration": 0.1,
+      "kind": "click",
+      "gain": 0.09
+    },
+    {
+      "at": 14.1,
+      "duration": 0.1,
+      "kind": "click",
+      "gain": 0.08
+    },
+    {
+      "at": 24.2,
+      "duration": 0.5,
+      "kind": "paper",
+      "gain": 0.05
+    },
+    {
+      "at": 32.8,
+      "duration": 0.5,
+      "kind": "creak",
+      "gain": 0.12
+    }
+  ],
+  "actual_listening_verified": false
+}
