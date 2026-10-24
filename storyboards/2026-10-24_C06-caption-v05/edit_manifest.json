@@ -1,0 +1,113 @@
+{
+  "film": "C06",
+  "duration_seconds": 48.75,
+  "source_edited_file": "storyboards\\2026-10-23_C05-C06-edit-v03\\C06\\C06_Q-AI_Fair_edit_v03.mp4",
+  "source_edited_sha256": "018843b2b6833180f9290f34d2f40d3791902624f0776c6c04f3d85ff0c5fbe3",
+  "keep_old_time_intervals": [
+    [
+      0,
+      37.75
+    ],
+    [
+      38.5,
+      42.5
+    ],
+    [
+      43,
+      50
+    ]
+  ],
+  "captions": [
+    {
+      "start": 0.3,
+      "end": 2.4,
+      "text": "제발 퇴근 좀 해.",
+      "position": "top_left",
+      "font_px": 42
+    },
+    {
+      "start": 7.75,
+      "end": 9.55,
+      "text": "고마워요.",
+      "position": "bottom",
+      "font_px": 42
+    },
+    {
+      "start": 9.88,
+      "end": 14,
+      "text": "퇴근시키려면,\n일을 끝내줘야겠네.",
+      "position": "bottom",
+      "font_px": 42
+    },
+    {
+      "start": 14.45,
+      "end": 20.45,
+      "text": "이 한 건만 확인하면 끝.",
+      "position": "bottom",
+      "font_px": 42
+    },
+    {
+      "start": 20.91,
+      "end": 23.47,
+      "text": "오늘 남은 일, 끝.",
+      "position": "bottom",
+      "font_px": 42
+    },
+    {
+      "start": 26,
+      "end": 28.1,
+      "text": "드디어, 내 시간.",
+      "position": "top",
+      "font_px": 42
+    },
+    {
+      "start": 29.75,
+      "end": 33,
+      "text": "방금 나간 사람,\n어떻게 내보냈어요?",
+      "position": "top",
+      "font_px": 42
+    },
+    {
+      "start": 34.5,
+      "end": 37.5,
+      "text": "질문은 Q-AI Fair에서.",
+      "position": "bottom",
+      "font_px": 42
+    },
+    {
+      "start": 44.0,
+      "end": 48.75,
+      "text": "Q-AI Fair\n직접 해본 방법을 함께 봐요.",
+      "position": "ending"
+    }
+  ],
+  "flow_credits_used": 0,
+  "source_audio": "Muted",
+  "action_stills_inserted": false,
+  "continuous_playback_verified": false,
+  "actual_listening_verified": false,
+  "status": "Rendered; actual extracted-frame inspection completed separately in README",
+  "file": "C06_Q-AI_Fair_edit_v05.mp4",
+  "fps": 24,
+  "resolution": [
+    1280,
+    720
+  ],
+  "source_edit": "2026-10-23_C05-C06-edit-v04\\C06\\C06_Q-AI_Fair_edit_v04.mp4",
+  "source_sha256": {
+    "2026-10-23_C05-C06-edit-v04\\C06\\C06_Q-AI_Fair_edit_v04.mp4": "a3f66c76cc6a732508d8ad2be76af2650bcd4a8bf99b9094e0976115330c9cb9",
+    "2026-10-23_C06-C05-flow-run01\\C06_K03_take01.mp4": "4b689cc220394420503946b340961baeed435344ef202511224cb82c96cd0cc9",
+    "2026-10-23_C05-C06-edit-v03\\graphics\\C06_projector.png": "1024ce552f6c44c8fa8f7aee102c8cea473076dbf3c5da013855e1942840dacf"
+  },
+  "changed_interval_seconds": [
+    9.88,
+    14.0
+  ],
+  "changed_frame_indices_inclusive": [
+    238,
+    335
+  ],
+  "replacement_method": "Decode original C06_K03_take01 frames; apply exact v03 projector composite and fresh caption. No covering patch over old caption.",
+  "audio": "All v04 AAC payloads and packet PTS preserved byte-for-byte",
+  "generated_action_replaced_with_stills": false
+}

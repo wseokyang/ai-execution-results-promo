@@ -1,0 +1,256 @@
+{
+  "schema_version": "1.0",
+  "concept_id": "C07",
+  "revision": "rig_v3",
+  "status": "SIX_LOCAL_EDITS_COMPLETE_TEN_SCENES_VIEWED_AWAITING_THREE_REVIEWERS",
+  "builtin_tool_used": true,
+  "tool_calls": 6,
+  "total_scenes": 10,
+  "edited_scenes": 6,
+  "unchanged_scenes": 4,
+  "source_manifest": "artist_C07_manifest.json",
+  "scope": "독립검수A의 문틀에서 레일이 끊기는 문제. PD지시대로 수평레일과 벽브래킷을 제거하고 두 수직케이블을 기존발장구부터 상단화면밖으로 연속시킴. 원본/원manifest보존.",
+  "motion_guidance": "상부호이스트/이동리그는 항상프레임밖. 두케이블은 발장구에 연결된상태를유지하며 인물과함께이동. 기존받침대당기기/문틀밀기동작 유지. 영상은 아직 생성·검수하지않음.",
+  "images": [
+    {
+      "concept_id": "C07",
+      "scene_id": "S01",
+      "linked_cuts": [
+        "K01"
+      ],
+      "original_image_path": "images/C07/S01_v2.png",
+      "original_generated_source": "C:\\Users\\wseok\\.codex\\generated_images\\01a16e2f-6574-7781-9b5c-95d6256f27b6\\exec-03b210d3-c653-4073-912f-c0bb4debd971.png",
+      "selected_image_path": "images/C07/S01_rig_v3.png",
+      "action": "EDIT_COMPLETE",
+      "review_status": "ARTIST_VIEWED_AWAITING_CROSS_RECHECK",
+      "artist_visual_observation": "근경·문너머 수평 레일과 브래킷 제거 확인. 두 케이블이 발 장구부터 상단 밖으로 연결. 인물/손간격/샘플/가방/문 유지.",
+      "generated_source": "C:\\Users\\wseok\\.codex\\generated_images\\01a16e2f-8261-7843-a298-3844285bae92\\exec-ee229dc6-07a5-4a88-9d06-e45c998a55a1.png",
+      "exact_submitted_prompt": "Use case: precise-object-edit. Surgical continuity correction of this exact cinematic film still. REMOVE every visible horizontal metal suspension RAIL, wheeled trolley, mechanical wall mounting BRACKET and their rail-shaped shadows in BOTH the near room and the room visible through the open doorway. Reconstruct only the unobstructed original wall/ceiling texture behind those removed mechanical parts. KEEP the architectural door lintel, door jambs, doorframe and room architecture untouched.\nReplace the exposed rig with exactly TWO slender taut straight VERTICAL BLACK SUSPENSION CABLES, one firmly attached to each of the woman's existing ankle cuffs. Each cable must continue uninterrupted UPWARD ALL THE WAY THROUGH THE TOP EDGE OF THE IMAGE. No visible upper endpoint: hoist and support are outside the frame. No horizontal cable, no floating short rope, no visible attachment to a wall or doorframe. Preserve her existing ankle cuffs and boots absolutely unchanged. The support arrangement is a theatrical offscreen overhead rig, not floating.\nPreserve absolutely all other pixels/details: exact inverted woman identity, hairstyle, face, body posture, every limb and hand, outfit, torso harness, badge status, sample ownership and count, board content/orientation, pedestal/table, bag and contents, other person if present, camera, framing, color, lighting. Do not move or rotate the woman or change the door. Do not advance the action. No added objects, letters, caption or watermark. 16:9 landscape. This is a local equipment removal/edit, NOT a new composition.\nSpecific S01 invariant: woman's reaching hand stays empty above teal sample on pedestal; other hand empty. Satchel open. Remove the far warm-room rail too. Exactly same small air gap above sample.",
+      "actual_reference_image_paths": [
+        "C:\\Users\\wseok\\.codex\\generated_images\\01a16e2f-6574-7781-9b5c-95d6256f27b6\\exec-03b210d3-c653-4073-912f-c0bb4debd971.png"
+      ],
+      "dimensions": [
+        1672,
+        941
+      ],
+      "sha256": "a7575ba02bc8a98bc7e3a0ae2c4436384857ff639c8ec55fc082b6de44908a55",
+      "file_bytes": 1680434,
+      "original_sha256_unchanged": true,
+      "copy_matches_generated_source": true
+    },
+    {
+      "concept_id": "C07",
+      "scene_id": "S02",
+      "linked_cuts": [
+        "K02"
+      ],
+      "original_image_path": "images/C07/S02.png",
+      "original_generated_source": "C:\\Users\\wseok\\.codex\\generated_images\\01a16e2f-6574-7781-9b5c-95d6256f27b6\\exec-60a90a4f-2059-4e2c-8430-f004092be1cb.png",
+      "selected_image_path": "images/C07/S02.png",
+      "action": "KEEP_NO_VISIBLE_RAIL",
+      "review_status": "VIEWED_NO_VISIBLE_RAIL_OR_CEILING_ANCHOR",
+      "artist_visual_observation": "상부가 잘린 근접구도이며 노출 레일·벽 브래킷 없음. 원본 유지.",
+      "dimensions": [
+        1672,
+        941
+      ],
+      "sha256": "292cea1a2fe02c571f91d0d10a650e6b595e53945b6b1746208bcbac80f179e9",
+      "file_bytes": 1765578,
+      "original_sha256_unchanged": true
+    },
+    {
+      "concept_id": "C07",
+      "scene_id": "S03",
+      "linked_cuts": [
+        "K03"
+      ],
+      "original_image_path": "images/C07/S03.png",
+      "original_generated_source": "C:\\Users\\wseok\\.codex\\generated_images\\01a16e2f-6574-7781-9b5c-95d6256f27b6\\exec-488c5067-21b8-463b-98a5-e94b65ecda93.png",
+      "selected_image_path": "images/C07/S03_rig_v3.png",
+      "action": "EDIT_COMPLETE",
+      "review_status": "ARTIST_VIEWED_AWAITING_CROSS_RECHECK",
+      "artist_visual_observation": "근경·문너머 레일 제거. 두 수직케이블 상단 밖 연결. 한 손 샘플·반대손 받침대 모서리·빈 상판/가방/문 유지.",
+      "generated_source": "C:\\Users\\wseok\\.codex\\generated_images\\01a16e2f-8261-7843-a298-3844285bae92\\exec-57acc06a-3803-4be1-9795-4c024d41c3b5.png",
+      "exact_submitted_prompt": "Use case: precise-object-edit. Surgical continuity correction of this exact cinematic film still. REMOVE every visible horizontal metal suspension RAIL, wheeled trolley, mechanical wall mounting BRACKET and their rail-shaped shadows in BOTH the near room and the room visible through the open doorway. Reconstruct only the unobstructed original wall/ceiling texture behind those removed mechanical parts. KEEP the architectural door lintel, door jambs, doorframe and room architecture untouched.\nReplace the exposed rig with exactly TWO slender taut straight VERTICAL BLACK SUSPENSION CABLES, one firmly attached to each of the woman's existing ankle cuffs. Each cable must continue uninterrupted UPWARD ALL THE WAY THROUGH THE TOP EDGE OF THE IMAGE. No visible upper endpoint: hoist and support are outside the frame. No horizontal cable, no floating short rope, no visible attachment to a wall or doorframe. Preserve her existing ankle cuffs and boots absolutely unchanged. The support arrangement is a theatrical offscreen overhead rig, not floating.\nPreserve absolutely all other pixels/details: exact inverted woman identity, hairstyle, face, body posture, every limb and hand, outfit, torso harness, badge status, sample ownership and count, board content/orientation, pedestal/table, bag and contents, other person if present, camera, framing, color, lighting. Do not move or rotate the woman or change the door. Do not advance the action. No added objects, letters, caption or watermark. 16:9 landscape. This is a local equipment removal/edit, NOT a new composition.\nSpecific S03 invariant: woman's right hand continues holding ONE teal disk, other hand still on pedestal's left upper edge, pedestal EMPTY; no badge. Do NOT change this grip or action state. Remove rail from far warm room too.",
+      "actual_reference_image_paths": [
+        "C:\\Users\\wseok\\.codex\\generated_images\\01a16e2f-6574-7781-9b5c-95d6256f27b6\\exec-488c5067-21b8-463b-98a5-e94b65ecda93.png"
+      ],
+      "dimensions": [
+        1672,
+        941
+      ],
+      "sha256": "360d18e0b892873517d28fd6e555fd915d73ef4c82da065a452ae64226144417",
+      "file_bytes": 1704717,
+      "original_sha256_unchanged": true,
+      "copy_matches_generated_source": true
+    },
+    {
+      "concept_id": "C07",
+      "scene_id": "S04",
+      "linked_cuts": [
+        "K04"
+      ],
+      "original_image_path": "images/C07/S04.png",
+      "original_generated_source": "C:\\Users\\wseok\\.codex\\generated_images\\01a16e2f-6574-7781-9b5c-95d6256f27b6\\exec-66c9b959-d5e2-4d6e-bd74-85252c05feec.png",
+      "selected_image_path": "images/C07/S04_rig_v3.png",
+      "action": "EDIT_COMPLETE",
+      "review_status": "ARTIST_VIEWED_AWAITING_CROSS_RECHECK",
+      "artist_visual_observation": "근경천장/왼쪽문속 별도레일 모두 제거. 케이블 두 개 끝이 상단밖으로 연속. 손샘플1개+테이블샘플1개/인물2명/명찰없음/문·가방 유지.",
+      "generated_source": "C:\\Users\\wseok\\.codex\\generated_images\\01a16e2f-8261-7843-a298-3844285bae92\\exec-0b5749c0-0534-4c71-87ed-3c39b6d34365.png",
+      "exact_submitted_prompt": "Use case: precise-object-edit. Surgical continuity correction of this exact cinematic film still. REMOVE every visible horizontal metal suspension RAIL, wheeled trolley, mechanical wall mounting BRACKET and their rail-shaped shadows in BOTH the near room and the room visible through the open doorway. Reconstruct only the unobstructed original wall/ceiling texture behind those removed mechanical parts. KEEP the architectural door lintel, door jambs, doorframe and room architecture untouched.\nReplace the exposed rig with exactly TWO slender taut straight VERTICAL BLACK SUSPENSION CABLES, one firmly attached to each of the woman's existing ankle cuffs. Each cable must continue uninterrupted UPWARD ALL THE WAY THROUGH THE TOP EDGE OF THE IMAGE. No visible upper endpoint: hoist and support are outside the frame. No horizontal cable, no floating short rope, no visible attachment to a wall or doorframe. Preserve her existing ankle cuffs and boots absolutely unchanged. The support arrangement is a theatrical offscreen overhead rig, not floating.\nPreserve absolutely all other pixels/details: exact inverted woman identity, hairstyle, face, body posture, every limb and hand, outfit, torso harness, badge status, sample ownership and count, board content/orientation, pedestal/table, bag and contents, other person if present, camera, framing, color, lighting. Do not move or rotate the woman or change the door. Do not advance the action. No added objects, letters, caption or watermark. 16:9 landscape. This is a local equipment removal/edit, NOT a new composition.\nSpecific S04 invariant: woman just inside warm room at LEFT, single teal disk still in her hand, exactly one matching teal disk on table; no badge attached. Host at right hands down. Single screen unchanged. Crucially remove the near overhead rail AND the separate horizontal rail visible inside cool doorway at far left. The door lintel remains normal architectural trim.",
+      "actual_reference_image_paths": [
+        "C:\\Users\\wseok\\.codex\\generated_images\\01a16e2f-6574-7781-9b5c-95d6256f27b6\\exec-66c9b959-d5e2-4d6e-bd74-85252c05feec.png"
+      ],
+      "dimensions": [
+        1672,
+        941
+      ],
+      "sha256": "94c5cab41cd962818b3eb03c3a1ed35a3f869d3c90c333d5bfc823e462bb8aab",
+      "file_bytes": 1818040,
+      "original_sha256_unchanged": true,
+      "copy_matches_generated_source": true
+    },
+    {
+      "concept_id": "C07",
+      "scene_id": "S05",
+      "linked_cuts": [
+        "K05"
+      ],
+      "original_image_path": "images/C07/S05.png",
+      "original_generated_source": "C:\\Users\\wseok\\.codex\\generated_images\\01a16e2f-6574-7781-9b5c-95d6256f27b6\\exec-24f7cac1-56dc-4ce7-bbf8-d0d8eb32d386.png",
+      "selected_image_path": "images/C07/S05.png",
+      "action": "KEEP_NO_VISIBLE_RAIL",
+      "review_status": "VIEWED_NO_VISIBLE_RAIL_OR_CEILING_ANCHOR",
+      "artist_visual_observation": "상부가 잘린 근접구도이며 노출 레일·벽 브래킷 없음. 원본 유지.",
+      "dimensions": [
+        1672,
+        941
+      ],
+      "sha256": "4b9752cded3e7e609bfd488dc0bc530797859c1aed6febdcbb76879937c9d0fe",
+      "file_bytes": 1980322,
+      "original_sha256_unchanged": true
+    },
+    {
+      "concept_id": "C07",
+      "scene_id": "S06",
+      "linked_cuts": [
+        "K06"
+      ],
+      "original_image_path": "images/C07/S06.png",
+      "original_generated_source": "C:\\Users\\wseok\\.codex\\generated_images\\01a16e2f-6574-7781-9b5c-95d6256f27b6\\exec-b5a7e12c-931f-4d70-98b3-981e29da4821.png",
+      "selected_image_path": "images/C07/S06_rig_v3.png",
+      "action": "EDIT_COMPLETE",
+      "review_status": "ARTIST_VIEWED_AWAITING_CROSS_RECHECK",
+      "artist_visual_observation": "근경천장/왼쪽문속 별도레일 제거, 두 수직케이블 상단밖 연결. 한손 샘플/테이블 하나/명찰 부착·인물 자세 유지.",
+      "generated_source": "C:\\Users\\wseok\\.codex\\generated_images\\01a16e2f-8261-7843-a298-3844285bae92\\exec-dd77e322-e6c7-4289-a2fe-6874e281c103.png",
+      "exact_submitted_prompt": "Use case: precise-object-edit. Surgical continuity correction of this exact cinematic film still. REMOVE every visible horizontal metal suspension RAIL, wheeled trolley, mechanical wall mounting BRACKET and their rail-shaped shadows in BOTH the near room and the room visible through the open doorway. Reconstruct only the unobstructed original wall/ceiling texture behind those removed mechanical parts. KEEP the architectural door lintel, door jambs, doorframe and room architecture untouched.\nReplace the exposed rig with exactly TWO slender taut straight VERTICAL BLACK SUSPENSION CABLES, one firmly attached to each of the woman's existing ankle cuffs. Each cable must continue uninterrupted UPWARD ALL THE WAY THROUGH THE TOP EDGE OF THE IMAGE. No visible upper endpoint: hoist and support are outside the frame. No horizontal cable, no floating short rope, no visible attachment to a wall or doorframe. Preserve her existing ankle cuffs and boots absolutely unchanged. The support arrangement is a theatrical offscreen overhead rig, not floating.\nPreserve absolutely all other pixels/details: exact inverted woman identity, hairstyle, face, body posture, every limb and hand, outfit, torso harness, badge status, sample ownership and count, board content/orientation, pedestal/table, bag and contents, other person if present, camera, framing, color, lighting. Do not move or rotate the woman or change the door. Do not advance the action. No added objects, letters, caption or watermark. 16:9 landscape. This is a local equipment removal/edit, NOT a new composition.\nSpecific S06 invariant: woman's one hand still holds teal disk hovering above EMPTY RIGHT half of table, other matching disk remains on LEFT table. Name badge is already clipped to her torso harness and must remain at exact same position. Host hands down. Remove rail from cool anteroom seen through left doorway as well as overhead near rail.",
+      "actual_reference_image_paths": [
+        "C:\\Users\\wseok\\.codex\\generated_images\\01a16e2f-6574-7781-9b5c-95d6256f27b6\\exec-b5a7e12c-931f-4d70-98b3-981e29da4821.png"
+      ],
+      "dimensions": [
+        1672,
+        941
+      ],
+      "sha256": "05c523fcdf89ae66d0599e5df4f65be31a31fec6ac7426730ffd6f5f9d27fee7",
+      "file_bytes": 1802819,
+      "original_sha256_unchanged": true,
+      "copy_matches_generated_source": true
+    },
+    {
+      "concept_id": "C07",
+      "scene_id": "S07",
+      "linked_cuts": [
+        "K07"
+      ],
+      "original_image_path": "images/C07/S07.png",
+      "original_generated_source": "C:\\Users\\wseok\\.codex\\generated_images\\01a16e2f-6574-7781-9b5c-95d6256f27b6\\exec-aea19fcf-6f50-4b4c-bda1-768f5fd50dd4.png",
+      "selected_image_path": "images/C07/S07_rig_v3.png",
+      "action": "EDIT_COMPLETE",
+      "review_status": "ARTIST_VIEWED_AWAITING_CROSS_RECHECK",
+      "artist_visual_observation": "앞·문너머 레일 및 벽고정브래킷 제거. 두 케이블 상단밖 연속. 문틀짚은손/가방속판테두리/반대빈손/명찰 상태 유지.",
+      "generated_source": "C:\\Users\\wseok\\.codex\\generated_images\\01a16e2f-8261-7843-a298-3844285bae92\\exec-2c7ff177-44c5-4e66-9a94-3c1a3045b5aa.png",
+      "exact_submitted_prompt": "Use case: precise-object-edit. Surgical continuity correction of this exact cinematic film still. REMOVE every visible horizontal metal suspension RAIL, wheeled trolley, mechanical wall mounting BRACKET and their rail-shaped shadows in BOTH the near room and the room visible through the open doorway. Reconstruct only the unobstructed original wall/ceiling texture behind those removed mechanical parts. KEEP the architectural door lintel, door jambs, doorframe and room architecture untouched.\nReplace the exposed rig with exactly TWO slender taut straight VERTICAL BLACK SUSPENSION CABLES, one firmly attached to each of the woman's existing ankle cuffs. Each cable must continue uninterrupted UPWARD ALL THE WAY THROUGH THE TOP EDGE OF THE IMAGE. No visible upper endpoint: hoist and support are outside the frame. No horizontal cable, no floating short rope, no visible attachment to a wall or doorframe. Preserve her existing ankle cuffs and boots absolutely unchanged. The support arrangement is a theatrical offscreen overhead rig, not floating.\nPreserve absolutely all other pixels/details: exact inverted woman identity, hairstyle, face, body posture, every limb and hand, outfit, torso harness, badge status, sample ownership and count, board content/orientation, pedestal/table, bag and contents, other person if present, camera, framing, color, lighting. Do not move or rotate the woman or change the door. Do not advance the action. No added objects, letters, caption or watermark. 16:9 landscape. This is a local equipment removal/edit, NOT a new composition.\nSpecific S07 invariant: the woman is angled beside the doorway, one empty palm braced on the jamb, the other hand EMPTY above open satchel. A small orange board edge stays just INSIDE bag, not in her hand. Badge remains attached. Preserve this entire body angle and ankle position; just extend two vertical cables upward from the same ankle support into top border. Remove rail in both cool room and warm room.",
+      "actual_reference_image_paths": [
+        "C:\\Users\\wseok\\.codex\\generated_images\\01a16e2f-6574-7781-9b5c-95d6256f27b6\\exec-aea19fcf-6f50-4b4c-bda1-768f5fd50dd4.png"
+      ],
+      "dimensions": [
+        1672,
+        941
+      ],
+      "sha256": "6386a621b0fd6a02873cd2094a0102b43b6f557801f4a5b82bc8d48f1c0baf9d",
+      "file_bytes": 1669269,
+      "original_sha256_unchanged": true,
+      "copy_matches_generated_source": true
+    },
+    {
+      "concept_id": "C07",
+      "scene_id": "S08",
+      "linked_cuts": [
+        "K08"
+      ],
+      "original_image_path": "images/C07/S08_v2.png",
+      "original_generated_source": "C:\\Users\\wseok\\.codex\\generated_images\\01a16e2f-6574-7781-9b5c-95d6256f27b6\\exec-6206e2c7-365d-4a9b-9cbd-a9c7f4642229.png",
+      "selected_image_path": "images/C07/S08_rig_v3.png",
+      "action": "EDIT_COMPLETE",
+      "review_status": "ARTIST_VIEWED_AWAITING_CROSS_RECHECK",
+      "artist_visual_observation": "문 위 노출 레일·브래킷 제거. 양 발케이블이 상단밖으로 연속. 문틀손/판보유손/아래삼각형/두 테이블샘플/빈 가방/명찰 모두 유지.",
+      "generated_source": "C:\\Users\\wseok\\.codex\\generated_images\\01a16e2f-8261-7843-a298-3844285bae92\\exec-8cacb109-eff5-426d-b286-807453155377.png",
+      "exact_submitted_prompt": "Use case: precise-object-edit. Surgical continuity correction of this exact cinematic film still. REMOVE every visible horizontal metal suspension RAIL, wheeled trolley, mechanical wall mounting BRACKET and their rail-shaped shadows in BOTH the near room and the room visible through the open doorway. Reconstruct only the unobstructed original wall/ceiling texture behind those removed mechanical parts. KEEP the architectural door lintel, door jambs, doorframe and room architecture untouched.\nReplace the exposed rig with exactly TWO slender taut straight VERTICAL BLACK SUSPENSION CABLES, one firmly attached to each of the woman's existing ankle cuffs. Each cable must continue uninterrupted UPWARD ALL THE WAY THROUGH THE TOP EDGE OF THE IMAGE. No visible upper endpoint: hoist and support are outside the frame. No horizontal cable, no floating short rope, no visible attachment to a wall or doorframe. Preserve her existing ankle cuffs and boots absolutely unchanged. The support arrangement is a theatrical offscreen overhead rig, not floating.\nPreserve absolutely all other pixels/details: exact inverted woman identity, hairstyle, face, body posture, every limb and hand, outfit, torso harness, badge status, sample ownership and count, board content/orientation, pedestal/table, bag and contents, other person if present, camera, framing, color, lighting. Do not move or rotate the woman or change the door. Do not advance the action. No added objects, letters, caption or watermark. 16:9 landscape. This is a local equipment removal/edit, NOT a new composition.\nSpecific S08 invariant: same woman on left with palm against LEFT door jamb, opposite hand holding ONE orange-bordered board whose red triangle is at BOTTOM. Keep board's two photos completely unchanged. Bag at far left stays EMPTY. TWO matching teal samples remain on table. Host hands down. Name badge remains same place. This frame has rail across doorway, remove it and mounting brackets while leaving door lintel unchanged; two ankle cables run up through top border.",
+      "actual_reference_image_paths": [
+        "C:\\Users\\wseok\\.codex\\generated_images\\01a16e2f-6574-7781-9b5c-95d6256f27b6\\exec-6206e2c7-365d-4a9b-9cbd-a9c7f4642229.png"
+      ],
+      "dimensions": [
+        1672,
+        941
+      ],
+      "sha256": "8abdc0dba0e60cc78898ceec4eb29b6e6b744b5c3a6db1493d69ed2f5a02307b",
+      "file_bytes": 1807591,
+      "original_sha256_unchanged": true,
+      "copy_matches_generated_source": true
+    },
+    {
+      "concept_id": "C07",
+      "scene_id": "S09",
+      "linked_cuts": [
+        "K09"
+      ],
+      "original_image_path": "images/C07/S09.png",
+      "original_generated_source": "C:\\Users\\wseok\\.codex\\generated_images\\01a16e2f-6574-7781-9b5c-95d6256f27b6\\exec-fcc6070a-8425-4d1a-9234-f6146050626b.png",
+      "selected_image_path": "images/C07/S09.png",
+      "action": "KEEP_NO_VISIBLE_RAIL",
+      "review_status": "VIEWED_NO_VISIBLE_RAIL_OR_CEILING_ANCHOR",
+      "artist_visual_observation": "상부가 잘린 근접구도이며 노출 레일·벽 브래킷 없음. 원본 유지.",
+      "dimensions": [
+        1672,
+        941
+      ],
+      "sha256": "f4afe5265e45420bf66a047abc2451aaba799ac04640a8cd1e04fdc2539e2f7f",
+      "file_bytes": 1830324,
+      "original_sha256_unchanged": true
+    },
+    {
+      "concept_id": "C07",
+      "scene_id": "S10",
+      "linked_cuts": [
+        "K10"
+      ],
+      "original_image_path": "images/C07/S10.png",
+      "original_generated_source": "C:\\Users\\wseok\\.codex\\generated_images\\01a16e2f-6574-7781-9b5c-95d6256f27b6\\exec-5776cd77-7986-4436-bf8d-2111f790ce9d.png",
+      "selected_image_path": "images/C07/S10.png",
+      "action": "KEEP_NO_VISIBLE_RAIL",
+      "review_status": "VIEWED_NO_VISIBLE_RAIL_OR_CEILING_ANCHOR",
+      "artist_visual_observation": "상부가 잘린 근접구도이며 노출 레일·벽 브래킷 없음. 원본 유지.",
+      "dimensions": [
+        1672,
+        941
+      ],
+      "sha256": "cd127859ba52767439b3aed79f44f812e2a31499014cd15bd57a0564bf62d38e",
+      "file_bytes": 1754123,
+      "original_sha256_unchanged": true
+    }
+  ],
+  "remaining_issues": [
+    "검수자3명 실제 수정이미지 재확인대기",
+    "정지이미지에서 상부장치를숨긴구도이며 실제 문통과/케이블이동 동작은 향후영상에서검수해야함"
+  ]
+}

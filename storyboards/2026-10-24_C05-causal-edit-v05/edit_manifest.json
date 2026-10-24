@@ -1,0 +1,224 @@
+{
+  "film": "C05",
+  "version": 5,
+  "duration_seconds": 51.25,
+  "fps": 24,
+  "resolution": [
+    1280,
+    720
+  ],
+  "segments": [
+    {
+      "cut": "K01",
+      "source": "2026-10-23_C06-C05-flow-run03/C05_K01_take02.mp4",
+      "source_in": 0,
+      "source_out": 4,
+      "start": 0,
+      "end": 4,
+      "crop": null
+    },
+    {
+      "cut": "K02A",
+      "source": "2026-10-23_C06-C05-flow-run01/C05_K02A_take01.mp4",
+      "source_in": 1.25,
+      "source_out": 5.75,
+      "start": 4,
+      "end": 8.5,
+      "crop": null
+    },
+    {
+      "cut": "K02B",
+      "source": "2026-10-23_C06-C05-flow-run01/C05_K02B_take02.mp4",
+      "source_in": 0.5,
+      "source_out": 4.25,
+      "start": 8.5,
+      "end": 12.25,
+      "crop": null
+    },
+    {
+      "cut": "N01_entry",
+      "source": "2026-10-24_C05-first-flow-run01/C05_N01_take01.mp4",
+      "source_in": 0.5,
+      "source_out": 4.5,
+      "start": 12.25,
+      "end": 16.25,
+      "crop": null
+    },
+    {
+      "cut": "N02_hands_grip_front_edge",
+      "source": "2026-10-24_C05-first-flow-run01/C05_N02_take02.mp4",
+      "source_in": 1.5,
+      "source_out": 4.5,
+      "start": 16.25,
+      "end": 19.25,
+      "crop": null
+    },
+    {
+      "cut": "N03_neck_withdraws",
+      "source": "2026-10-24_C05-first-flow-run01/C05_N03_take01.mp4",
+      "source_in": 2,
+      "source_out": 7.5,
+      "start": 19.25,
+      "end": 24.75,
+      "crop": null
+    },
+    {
+      "cut": "N04_partial_turn",
+      "source": "2026-10-24_C05-first-flow-run01/C05_N04_take01.mp4",
+      "source_in": 0.5,
+      "source_out": 2,
+      "start": 24.75,
+      "end": 26.25,
+      "crop": null
+    },
+    {
+      "cut": "K04_worker_jack_insert",
+      "source": "2026-10-23_C06-C05-flow-run01/C05_K04_take02.mp4",
+      "source_in": 1,
+      "source_out": 2.5,
+      "start": 26.25,
+      "end": 27.75,
+      "crop": [
+        896,
+        396,
+        384,
+        216
+      ]
+    },
+    {
+      "cut": "K04_wide",
+      "source": "2026-10-23_C06-C05-flow-run01/C05_K04_take02.mp4",
+      "source_in": 2.5,
+      "source_out": 3.25,
+      "start": 27.75,
+      "end": 28.5,
+      "crop": null
+    },
+    {
+      "cut": "K04_plead",
+      "source": "2026-10-23_C06-C05-flow-run01/C05_K04_take02.mp4",
+      "source_in": 4.5,
+      "source_out": 7.25,
+      "start": 28.5,
+      "end": 31.25,
+      "crop": null
+    },
+    {
+      "cut": "K05",
+      "source": "2026-10-23_C06-C05-flow-run01/C05_K05_take02.mp4",
+      "source_in": 0.5,
+      "source_out": 5.25,
+      "start": 31.25,
+      "end": 36.0,
+      "crop": null
+    },
+    {
+      "cut": "K06",
+      "source": "2026-10-23_C06-C05-flow-run03/C05_K06_take02.mp4",
+      "source_in": 0.5,
+      "source_out": 3.5,
+      "start": 36.0,
+      "end": 39.0,
+      "crop": null
+    },
+    {
+      "cut": "K07",
+      "source": "2026-10-23_C06-C05-flow-run03/C05_K07_take02.mp4",
+      "source_in": 1,
+      "source_out": 5.5,
+      "start": 39.0,
+      "end": 43.5,
+      "crop": null
+    },
+    {
+      "cut": "K08_thumb",
+      "source": "2026-10-23_C06-C05-flow-run01/C05_K08_take01.mp4",
+      "source_in": 0.5,
+      "source_out": 1.5,
+      "start": 43.5,
+      "end": 44.5,
+      "crop": null
+    },
+    {
+      "cut": "K08_return",
+      "source": "2026-10-23_C06-C05-flow-run03/C05_K08_take02.mp4",
+      "source_in": 0,
+      "source_out": 6.75,
+      "start": 44.5,
+      "end": 51.25,
+      "crop": null
+    }
+  ],
+  "captions": [
+    {
+      "start": 0.6,
+      "end": 3.7,
+      "text": "이 입구는 내가 접수한다.",
+      "position": "bottom",
+      "font_px": 42
+    },
+    {
+      "start": 15.25,
+      "end": 16.25,
+      "text": "어…?",
+      "position": "bottom",
+      "font_px": 42
+    },
+    {
+      "start": 28.75,
+      "end": 31.05,
+      "text": "조금만 더 잡아주세요.",
+      "position": "bottom",
+      "font_px": 42
+    },
+    {
+      "start": 31.45,
+      "end": 34.85,
+      "text": "잠시 후, AI 실행 사례 공개",
+      "position": "bottom",
+      "font_px": 42
+    },
+    {
+      "start": 41.35,
+      "end": 43.35,
+      "text": "들리세요?",
+      "position": "bottom",
+      "font_px": 42
+    },
+    {
+      "start": 46.25,
+      "end": 51.25,
+      "text": "Q-AI Fair\nAI 실행 사례, 지금 시작합니다.",
+      "position": "ending"
+    }
+  ],
+  "source_sha256": {
+    "2026-10-23_C06-C05-flow-run03/C05_K01_take02.mp4": "cdf95f0d1478cb0fb3d87c8e3d17e153645e9fcebdc65b679e64c45012b48cb0",
+    "2026-10-23_C06-C05-flow-run01/C05_K02A_take01.mp4": "ba15feb55d3c51dfc07d4aa3f17b36d37715e58cdf726a5adefc05b3948ddc9d",
+    "2026-10-23_C06-C05-flow-run01/C05_K02B_take02.mp4": "712ede5cc4175875d4d3a62b607c367629335e17ad67ce275462bc655adab796",
+    "2026-10-24_C05-first-flow-run01/C05_N01_take01.mp4": "89b0b1cded9973d8230b30caaa9be4b985e1f1f347bc1525fb9614912464c10b",
+    "2026-10-24_C05-first-flow-run01/C05_N02_take02.mp4": "3d7c40c93eee18d8ae8b0d9fd772b7239531cb43d6edeb725aae8e5c05dfdc45",
+    "2026-10-24_C05-first-flow-run01/C05_N03_take01.mp4": "a4bffe33f967f6abbefc2b1db0f10c0fc3e1b08c3acec8db81a7ef08d7e362c7",
+    "2026-10-24_C05-first-flow-run01/C05_N04_take01.mp4": "f40958c3cb1ec1f1a03435fdb7045677cf16845f4735d304b79517867ba8c0b3",
+    "2026-10-23_C06-C05-flow-run01/C05_K04_take02.mp4": "6f646d261a44a4de661171b0c22f87b46eb99ec9b2da6ba2cebe2ea4383f5ced",
+    "2026-10-23_C06-C05-flow-run01/C05_K05_take02.mp4": "c68de7d193acbf91b0bc28d622f0fbc44b870aa45d2ee11d4f5ea43ca2dfcea8",
+    "2026-10-23_C06-C05-flow-run03/C05_K06_take02.mp4": "a608c3f881597faab81313c43a7fd5c43ad4cdc8fb161e1994aaefcf9d9f2882",
+    "2026-10-23_C06-C05-flow-run03/C05_K07_take02.mp4": "00a29dc6bd51cbd66edfb3a72a8001ec56924a1cf4951882662993cb63b8ded7",
+    "2026-10-23_C06-C05-flow-run01/C05_K08_take01.mp4": "a82ab7aa031d7506b5a6cc408a873f17cf185063b4f34846a3f5a2b5efec5652",
+    "2026-10-23_C06-C05-flow-run03/C05_K08_take02.mp4": "6ffd1ceb002b7236a4df544410500baa53657958b01ea114ce8d78af36752e75"
+  },
+  "flow_credits_for_edit": 0,
+  "source_audio": "muted",
+  "action_stills_inserted": false,
+  "source_of_picture": "Original Flow MP4s only; no baked-caption video reused",
+  "causal_design": "pillar removal → attempted entrance → neck caught → hands grip front edge → neck withdraws → partial outward turn → worker jack insert → front view",
+  "limitations": [
+    "N04 only 0.5–2.0s used; no full outward body turn proven",
+    "Hands grip front fascia, not verified underside weight transfer",
+    "Worker cutaway covers a remaining posture/hand-grip ellipsis; do not claim a fully continuous action",
+    "Worker crop is 384×216 enlarged to 1280×720, softer than surrounding shots"
+  ],
+  "status": "Rendered; editor sample inspection and technical checks passed; independent A/B/C judgement pending",
+  "actual_realtime_playback_verified": false,
+  "actual_listening_verified": false
+}

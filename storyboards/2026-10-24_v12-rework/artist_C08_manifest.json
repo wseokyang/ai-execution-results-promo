@@ -1,0 +1,595 @@
+{
+  "schema_version": "1.0",
+  "concept_id": "C08",
+  "title": "해동하자마자 발표",
+  "status": "10_SCENES_GENERATED_ARTIST_REVIEWED_AWAITING_CROSS_REVIEW",
+  "generated_scene_count": 10,
+  "total_scenes": 10,
+  "builtin_tool_used": true,
+  "flow_executed": false,
+  "scope": "실제 시작 이미지 제작만. 동작 성공·립싱크·음성 검증 없음.",
+  "pd_adjustments": [
+    {
+      "item": "pointing_target",
+      "decision": "PD_ACCEPTED",
+      "note": "검지 목표는 왼쪽 사진 상단으로 통일. S01~02 서리뒤동일포즈, S03가시화, S06동작시같은점."
+    },
+    {
+      "item": "blower_location",
+      "decision": "PD_ACCEPTED",
+      "note": "S04부터 열풍기는 RL 발밑 화면왼쪽. S09 동일위치 회수. 오른쪽 바닥 낡은지시 업데이트 필요."
+    },
+    {
+      "item": "PR_step",
+      "decision": "PD_ACCEPTED",
+      "note": "S04~S05 사이 PR은 작업등쪽 한 걸음 이동하고 오른팔을 가슴앞으로 가로질러 등 접근. 왼손 판 유지."
+    },
+    {
+      "item": "RL_move_hand",
+      "decision": "PD_ACCEPTED",
+      "note": "S07 넓히며 RL은 작업등쪽 두 걸음 이동. S08 실제 시작영상의 조작손은 왼손. 판은 계속 PR왼손; RL빈손."
+    },
+    {
+      "item": "RA_retrieval",
+      "decision": "MOTION_NOTE",
+      "note": "S09 왼쪽바닥에서 열풍기 잡고 RL쪽으로 걸어가는 연결을4.5초동작에 포함. 필요시 영상생성8초후편집으로호흡확보."
+    }
+  ],
+  "entries": [
+    {
+      "scene_id": "S01",
+      "linked_cuts": [
+        "K01"
+      ],
+      "path": "images/C08/S01_v2.png",
+      "source": "C:\\Users\\wseok\\.codex\\generated_images\\01a16e2f-8261-7843-a298-3844285bae92\\exec-960831dc-0dd4-4ec8-b4da-3452e27e7002.png",
+      "prompt": "Use case: precise-object-edit. Edit this exact film frame. Preserve foreground three actors' identity, body and hand pose, clothing, all equipment, camera, framing and blue cinematic lighting. Change ONLY frost visibility: (1) thicken irregular opaque frost over the white rectangle in the central orange presenter's hands, especially its perimeter, so it reads as vague frost not an obvious presentation board. Keep his outstretched right hand silhouette visible. This is a mystery opening before thaw. (2) Make the two rear-right panels fully frosted, so rear people and boards are only vague indistinct shadows, with no recognizable faces, clothes or held boards. Their physical positions stay fixed. No new objects, no text. The foreground face and orange silhouette still faintly visible; frost is translucent around face. 16:9.",
+      "references": [
+        "images/C08/S01.png"
+      ],
+      "initial_prompt": "Use case: ads-marketing. Create a cinematic photoreal live-action commercial film frame, not an illustration. Dramatic cold blue-white studio, believable theatrical translucent ice with frost, expressive sincere actors. 16:9 landscape.\nCharacter identity guide only; show only people explicitly visible in this scene. PR: a tall long-limbed Black man in his late thirties, short rounded afro, thin rectangular glasses, vivid orange insulated coverall, short burgundy scarf, black winter boots. RL: a short sturdy Korean woman in her late fifties, straight black-and-grey bob, cobalt blue padded jacket, grey snow trousers, white earmuffs. RA: a slim Korean man in his twenties with a black buzzcut, plum padded jacket, black trousers, grey gloves. F1: a South Asian woman in her forties with a long single black braid and lilac insulated coat, holding a white case board, behind the second translucent ice panel. F2: a round-built East Asian man in his sixties, bald, navy insulated coat, holding a green case board, behind the third translucent ice panel. Cold artificial studio, low-angle medium-wide. PR holds a rigid white comparison board in his LEFT hand angled forward at chest height behind the front ice panel. His extended RIGHT index points five centimeters from a specific spot in the board's upper-right photo area. Dense frost hides the BOARD and target while the reaching hand silhouette is visible. Both hands and board must stay in this exact pose through thaw. A fixed four-centimeter ivory tab hangs from its lower-right edge behind frost. RL holds powered-off blower in right hand; RA prepares blanket. Existing two rear panel edges and bench remain. Single cinematic still, landscape 16:9, a real start frame BEFORE the specified action, never its completed outcome. No captions, no legible lettering, no numbers, no logo, no watermark, no collage, no extra people or limbs. Keep specified caption area quiet. Only depict characters explicitly present in the scene; identity guide is not a request to add cast.\nSpace lock: one front vertical ice panel centered, two rear vertical panels behind to camera-right with only edges visible. A low grey sturdy rescue bench in front center, an upright black adjustable work lamp at camera-right pointing toward the presenter's face, closed grey equipment chest camera-left. Main presenter behind front ice at center; rescue leader to camera-left, assistant to camera-right. Yellow compact handheld heat blower. Ivory wool rescue blanket folded in assistant's arms. Frost should hide the board's contents and pointed target, not completely hide the presenter's vivid orange silhouette. No injured or frightened person; his apparent urgency is intent concentration. Keep lower eighteen percent calm floor, full width composition. The white board, hidden behind frost, is landscape, two side-by-side unlettered photos of the same red triangular solid and two blank condition rectangles, small ivory fabric tab at viewer's lower-right.",
+      "initial_source": "C:\\Users\\wseok\\.codex\\generated_images\\01a16e2f-8261-7843-a298-3844285bae92\\exec-f6654438-a790-43ca-a14f-ed177abcc5d0.png",
+      "review": "직접 열어 확인. 후방 인물 조기 공개를 서리로 가림. 상판/좌우 인물/의상/흰 판 왼손 유지. 판 윤곽은 희미하나 내용과 목표점 가림. 동작은 아직 미검증.",
+      "concept_id": "C08",
+      "actual_image_path": "storyboards/2026-10-24_v12-rework/images/C08/S01_v2.png",
+      "reference_image_paths": [
+        "storyboards/2026-10-24_v12-rework/images/C08/S01.png"
+      ],
+      "next_motion_camera": "RL이 열풍기를 내린 채 왼손으로 앞 얼음에 닿는다. PR 두 손·판·목표점은 움직이지 않는다.3.5초 안에 해동 컷으로 진입. / 35mm 낮은 각도. 손만 보이고 왼손 판·목표점은 서리로 가림. 해동 후 매치를 위해 카메라와 몸 위치 고정.",
+      "review_status": "ARTIST_VISUAL_CHECK_COMPLETE_AWAITING_3_REVIEWER",
+      "builtin_tool_used": true,
+      "aspect_ratio": "16:9",
+      "sha256": "80391cfb38e7e39bf0b11ba0a57723b733242ffe2690e350d6f064fd6563b9d0",
+      "width": 1672,
+      "height": 941,
+      "image_format": "PNG",
+      "actual_reference_image_paths": [
+        "C:\\Users\\wseok\\.codex\\generated_images\\01a16e2f-8261-7843-a298-3844285bae92\\exec-f6654438-a790-43ca-a14f-ed177abcc5d0.png"
+      ],
+      "final_prompt": "Use case: precise-object-edit. Edit this exact film frame. Preserve foreground three actors' identity, body and hand pose, clothing, all equipment, camera, framing and blue cinematic lighting. Change ONLY frost visibility: (1) thicken irregular opaque frost over the white rectangle in the central orange presenter's hands, especially its perimeter, so it reads as vague frost not an obvious presentation board. Keep his outstretched right hand silhouette visible. This is a mystery opening before thaw. (2) Make the two rear-right panels fully frosted, so rear people and boards are only vague indistinct shadows, with no recognizable faces, clothes or held boards. Their physical positions stay fixed. No new objects, no text. The foreground face and orange silhouette still faintly visible; frost is translucent around face. 16:9."
+    },
+    {
+      "scene_id": "S02",
+      "linked_cuts": [
+        "K02"
+      ],
+      "path": "images/C08/S02.png",
+      "source": "C:\\Users\\wseok\\.codex\\generated_images\\01a16e2f-8261-7843-a298-3844285bae92\\exec-1054cca0-2986-4ec4-b531-f5ec6ad57115.png",
+      "prompt": "Use case: precise-object-edit. Use the supplied exact S01 frame as continuity reference. Create next start frame S02 just BEFORE any thaw. Preserve camera and foreground presenter's body, head, right pointing hand, left-held hidden board, frost density and ALL environment and lights exactly. His right index target remains unchanged. Change only: leader on left slightly leans forward holding the yellow powered-off blower in her right hand, its nozzle positioned 30cm from bottom edge of central ice. The assistant on right now holds the same ivory blanket unfolded between both hands ready to drape, not yet touching presenter. Rear two ice panels remain opaque frosted vague silhouettes only. Central ice still fully intact, board still obscured. Front rescue bench completely bare. No letters or watermarks. 16:9.",
+      "references": [
+        "images/C08/S01_v2.png"
+      ],
+      "review": "직접 확인. 해동 전, 발표자의 포즈·표적 동일, 조수 담요 전개 전단계와 열풍기 접근만 변경. 후방은 여전히 서리.",
+      "concept_id": "C08",
+      "actual_image_path": "storyboards/2026-10-24_v12-rework/images/C08/S02.png",
+      "reference_image_paths": [
+        "storyboards/2026-10-24_v12-rework/images/C08/S01_v2.png"
+      ],
+      "next_motion_camera": "3.5~6.8초 서리가 걷히며 왼손 자료판과 그 판을 가리키던 같은 목표점이 드러난다. PR의 팔·판을 움직이지 않는다. 끝1.2초 RA가 담요를 어깨에 걸치며 더 감싸려 한다. / S01 동일 높이·렌즈·몸 크기. 서리만 사라져 처음부터 있던 목표가 읽히는4.5초.",
+      "review_status": "ARTIST_VISUAL_CHECK_COMPLETE_AWAITING_3_REVIEWER",
+      "builtin_tool_used": true,
+      "aspect_ratio": "16:9",
+      "sha256": "b72e527696a215beb50e972d89a09224d801cc2a64fdfe408bbd004b11d5c463",
+      "width": 1672,
+      "height": 941,
+      "image_format": "PNG",
+      "actual_reference_image_paths": [
+        "C:\\Users\\wseok\\.codex\\generated_images\\01a16e2f-8261-7843-a298-3844285bae92\\exec-960831dc-0dd4-4ec8-b4da-3452e27e7002.png"
+      ],
+      "final_prompt": "Use case: precise-object-edit. Use the supplied exact S01 frame as continuity reference. Create next start frame S02 just BEFORE any thaw. Preserve camera and foreground presenter's body, head, right pointing hand, left-held hidden board, frost density and ALL environment and lights exactly. His right index target remains unchanged. Change only: leader on left slightly leans forward holding the yellow powered-off blower in her right hand, its nozzle positioned 30cm from bottom edge of central ice. The assistant on right now holds the same ivory blanket unfolded between both hands ready to drape, not yet touching presenter. Rear two ice panels remain opaque frosted vague silhouettes only. Central ice still fully intact, board still obscured. Front rescue bench completely bare. No letters or watermarks. 16:9."
+    },
+    {
+      "scene_id": "S03",
+      "linked_cuts": [
+        "K03"
+      ],
+      "path": "images/C08/S03_v2.png",
+      "source": "C:\\Users\\wseok\\.codex\\generated_images\\01a16e2f-8261-7843-a298-3844285bae92\\exec-64454fc7-aca2-4e3e-b33b-9544f2a28b0d.png",
+      "prompt": "Use case: precise-object-edit. Edit only background of first reference image (the thawed-presenter image). Keep foreground trio, exact poses/board/blanket/bench/lamp and framing unchanged. Remove the tall ice slab that is directly behind the central orange man's LEFT shoulder (viewer left). Place the SAME TWO rear ice panels side by side toward camera-right behind the assistant, as in second reference image: one panel behind assistant near right-middle, the third panel near far-right lamp. Two vague people hidden under opaque frost, not yet revealed. No extra ice panels. A plain blue-grey studio wall must be visible behind left side of presenter. Keep same photoreal cinematic light and 16:9. Do not change any hand, blanket, white board, photo or yellow blower.",
+      "references": [
+        "images/C08/S03.png",
+        "images/C08/S02.png"
+      ],
+      "review": "직접 확인. 후방 두 얼음은 다시 오른쪽으로 고정. 담요/빈 상판/흰 판/천 탭 유지. PD는 검지 목표 왼쪽 사진 상단 통일 수용.",
+      "initial_prompt": "Use case: identity-preserve. Same cinematic actors, set and equipment as reference. New S03 START frame after thaw but BEFORE blanket becomes tablecloth. Camera 50mm medium, slightly closer but same axis. Remove front ice only (a few droplets, no shattered blocks); retain opaque rear two ice panels with vague silhouettes. Presenter center tall Black man orange coverall burgundy scarf afro glasses. LEFT hand holds SAME landscape white board in exactly same orientation at chest, RIGHT index still at the same point near upper-right photograph. Reveal TWO large side-by-side photo areas of the SAME small red triangular metal prism under differing lighting; two empty narrow rectangles under photos, no lettering. Small 4cm ivory fabric tab fixed to board lower-right. Same ivory blanket now loosely on his shoulders, plum jacket assistant immediately behind his right shoulder holding BOTH blanket corners, about to wrap his torso. Blanket is NOT on bench yet. Bare grey rescue bench in foreground. Blue jacket older woman leader at left holds inactive yellow blower low and begins crouching, tool not yet released. Black upright work lamp at right still shines toward presenter's face. Eyes and expressions serious, presenter deeply absorbed in demonstration rather than distressed. No caption, logo or watermark. 16:9. Bare right hand points, left hand grips board edge, no extra fingers.",
+      "concept_id": "C08",
+      "actual_image_path": "storyboards/2026-10-24_v12-rework/images/C08/S03_v2.png",
+      "reference_image_paths": [
+        "storyboards/2026-10-24_v12-rework/images/C08/S03.png",
+        "storyboards/2026-10-24_v12-rework/images/C08/S02.png"
+      ],
+      "next_motion_camera": "RA가 담요를 몸 쪽으로 감싸려는 순간 PR이 오른손을 판에서 떼어 앞 모서리를 구조판 쪽으로 당긴다. 담요가 펴지고 RA는 몸을 감싸려던 빈 팔 자세로0.5초 남는다. RL은 꺼진 열풍기를 오른쪽 바닥에 둔다. / 50mm 같은 담요를 서로 다른 방향으로 당기는 순간→RA 빈 팔 반응까지3초. 큰 실랑이 없음.",
+      "review_status": "ARTIST_VISUAL_CHECK_COMPLETE_AWAITING_3_REVIEWER",
+      "builtin_tool_used": true,
+      "aspect_ratio": "16:9",
+      "sha256": "53cb38880d2c1c0a0c7a75260b952ae3756e4ab189875336449f53b00a7be981",
+      "width": 1672,
+      "height": 941,
+      "image_format": "PNG",
+      "actual_reference_image_paths": [
+        "C:\\Users\\wseok\\.codex\\generated_images\\01a16e2f-8261-7843-a298-3844285bae92\\exec-a461aa16-1e33-45bd-b7fc-696e6f0e8ece.png",
+        "C:\\Users\\wseok\\.codex\\generated_images\\01a16e2f-8261-7843-a298-3844285bae92\\exec-1054cca0-2986-4ec4-b531-f5ec6ad57115.png"
+      ],
+      "final_prompt": "Use case: precise-object-edit. Edit only background of first reference image (the thawed-presenter image). Keep foreground trio, exact poses/board/blanket/bench/lamp and framing unchanged. Remove the tall ice slab that is directly behind the central orange man's LEFT shoulder (viewer left). Place the SAME TWO rear ice panels side by side toward camera-right behind the assistant, as in second reference image: one panel behind assistant near right-middle, the third panel near far-right lamp. Two vague people hidden under opaque frost, not yet revealed. No extra ice panels. A plain blue-grey studio wall must be visible behind left side of presenter. Keep same photoreal cinematic light and 16:9. Do not change any hand, blanket, white board, photo or yellow blower.",
+      "continuity_motion_addendum": "RL은 열풍기를 화면왼쪽 자기 발밑에 내려놓는다. 담요를 어깨에서 당겨 같은 상판에 펴는 동작을 보여준다."
+    },
+    {
+      "scene_id": "S04",
+      "linked_cuts": [
+        "K04"
+      ],
+      "path": "images/C08/S04.png",
+      "source": "C:\\Users\\wseok\\.codex\\generated_images\\01a16e2f-8261-7843-a298-3844285bae92\\exec-fda61c17-7550-42e4-94fc-ef3b29bb930d.png",
+      "prompt": "Use case: identity-preserve. Create next S04 start frame in exact same cold studio and actor identities as reference. Preserve actor placement, faces, wardrobe, grey bench, black lamp high right, two rear frosted panels at right. Now SAME ivory blanket lies flat across bench, removed entirely from shoulders. Bench surface on blanket is COMPLETELY EMPTY. Presenter LEFT hand continues holding exact same white landscape board (same two photo panels showing red triangular metal prism, blank strips underneath and tiny fixed ivory fabric tab lower-right). Presenter RIGHT hand is EMPTY and hovers just above his orange chest pocket, poised to reach inside; sample is hidden inside pocket, not yet extracted. Assistant behind to right lowers his now empty arms with puzzled expression. Leader to left watches, both hands now empty; same yellow blower rests on ground beside right front bench leg. Main presenter looks purposefully toward bench. Cold blue cinematic light, work lamp still aimed toward his face. Medium framing with chest pocket and bare blanket both clearly visible. Do not put sample on bench yet. No text or watermark, 16:9.",
+      "references": [
+        "images/C08/S03_v2.png"
+      ],
+      "review": "직접 확인. 빈 담요 상판/가슴 주머니 앞 빈 오른손/왼손 판/천 탭. 열풍기는 생성 결과 RL 발밑 화면왼쪽 바닥. 이후 회수는 이 위치로 유지 필요.",
+      "concept_id": "C08",
+      "actual_image_path": "storyboards/2026-10-24_v12-rework/images/C08/S04.png",
+      "reference_image_paths": [
+        "storyboards/2026-10-24_v12-rework/images/C08/S03_v2.png"
+      ],
+      "next_motion_camera": "PR이 빨간 삼각 샘플을 주머니에서 꺼내 담요 중앙에 바로 놓는다. RA가 눕는 곳으로 안내하려던 손을 멈춘다.2.5초에 추출·접촉 완료. / 65mm 주머니→빈 담요 중앙을 같은 화면. 손이 샘플을 가리지 않는 측면.",
+      "review_status": "ARTIST_VISUAL_CHECK_COMPLETE_AWAITING_3_REVIEWER",
+      "builtin_tool_used": true,
+      "aspect_ratio": "16:9",
+      "sha256": "2f128d3544c8054a2b926bcd31e6f12c73ce8c0895980116c0aca1d11cc84157",
+      "width": 1672,
+      "height": 941,
+      "image_format": "PNG",
+      "actual_reference_image_paths": [
+        "C:\\Users\\wseok\\.codex\\generated_images\\01a16e2f-8261-7843-a298-3844285bae92\\exec-64454fc7-aca2-4e3e-b33b-9544f2a28b0d.png"
+      ],
+      "final_prompt": "Use case: identity-preserve. Create next S04 start frame in exact same cold studio and actor identities as reference. Preserve actor placement, faces, wardrobe, grey bench, black lamp high right, two rear frosted panels at right. Now SAME ivory blanket lies flat across bench, removed entirely from shoulders. Bench surface on blanket is COMPLETELY EMPTY. Presenter LEFT hand continues holding exact same white landscape board (same two photo panels showing red triangular metal prism, blank strips underneath and tiny fixed ivory fabric tab lower-right). Presenter RIGHT hand is EMPTY and hovers just above his orange chest pocket, poised to reach inside; sample is hidden inside pocket, not yet extracted. Assistant behind to right lowers his now empty arms with puzzled expression. Leader to left watches, both hands now empty; same yellow blower rests on ground beside right front bench leg. Main presenter looks purposefully toward bench. Cold blue cinematic light, work lamp still aimed toward his face. Medium framing with chest pocket and bare blanket both clearly visible. Do not put sample on bench yet. No text or watermark, 16:9.",
+      "continuity_motion_addendum": "주머니에서 빨간 삼각 샘플을 꺼내 중앙에 놓고, PR은 등 방향 한 걸음 이동한다. 판은 계속 왼손. 새 샘플·판 생성 금지."
+    },
+    {
+      "scene_id": "S05",
+      "linked_cuts": [
+        "K05"
+      ],
+      "path": "images/C08/S05_v2.png",
+      "source": "C:\\Users\\wseok\\.codex\\generated_images\\01a16e2f-8261-7843-a298-3844285bae92\\exec-7cbf4f36-7ee7-47bb-8f19-a3a293a40ff7.png",
+      "prompt": "Use case: precise-object-edit. Correct only the orange presenter's arm assignment in this exact image, keep camera, actors, faces, clothing, board contents, lamp, sample, blanket and environment unchanged. His LEFT hand (arm attached to shoulder on VIEWER RIGHT) must hold the board's viewer-right lower edge, as it did in earlier scenes. His RIGHT arm (attached to shoulder on VIEWER LEFT) reaches ACROSS his upper chest toward the black lamp at viewer right; show the crossing forearm horizontally ABOVE the board, then bent hand hovering just below lamp's handle. This is a clearly crossed-body reach. Do not swap hands. Only two arms total. Right wrist and palm are empty; left hand grips same white board and original lower-right fabric tab still visible. His torso rotates slightly toward lamp to allow natural crossed reach. He has not touched or tilted lamp. 16:9 cinematic photo; no text.",
+      "initial_prompt": "Use case: identity-preserve. Same actors, clothing and cold studio from reference. S05 start frame before lamp tilt. Change camera to a 50mm right-side three-quarter view to clearly show the lamp, bench and right arm, without crossing actor identities. The same small RED TRIANGULAR METAL PRISM depicted in two board photos now rests at center of the ivory blanket on grey bench. It is in shadow. The main Black presenter in orange LEFT hand holds same white landscape two-photo board and tiny lower-right ivory tab, lowered to waist height. His RIGHT empty hand reaches and HOVERS 10cm from the black work lamp's side handle, not touching. He has taken a small step to lamp at camera-right; right arm anatomically distinct from left holding board. Lamp head at his face height, still horizontal and casting light onto his FACE, NOT on tabletop. The lamp is on same black tripod and is ready to rotate down one hinge. Older blue jacket leader stays by left end of bench and plum-jacket assistant watches his lit face. Two rear frosted panels in right background, people still vague silhouettes only. Yellow blower stays on floor at leader's left end of bench. The comparison board photos show same red prism under two lighting conditions with blank strips beneath, no text. Moody cinematic shadows, serious expressive faces, 16:9 no captions or watermark. Clear pre-action lamp angle.",
+      "references": [
+        "images/C08/S05.png"
+      ],
+      "initial_references": [
+        "images/C08/S04.png"
+      ],
+      "review": "직접 확인. 초기 좌우손 반전 수정. 왼손은 판 오른쪽 모서리, 오른팔은 가슴 앞을 가로질러 등쪽에 접근. 등은 얼굴 방향. 실제 동작 영상에서 PR 한 걸음 우측 이동과 오른손잡이 접촉을 포함해야 함.",
+      "concept_id": "C08",
+      "actual_image_path": "storyboards/2026-10-24_v12-rework/images/C08/S05_v2.png",
+      "reference_image_paths": [
+        "storyboards/2026-10-24_v12-rework/images/C08/S05.png"
+      ],
+      "next_motion_camera": "PR이 등 머리를 아래 한 축으로 기울여 샘플을 정면 하향 조명한다. RA가 어두워진 얼굴 대신 샘플 쪽으로 고개를 따라 내린다.2.5초. / 50mm 옆 미디엄. 얼굴빛→샘플빛 이동과 RA 반응 한 화면.",
+      "review_status": "ARTIST_VISUAL_CHECK_COMPLETE_AWAITING_3_REVIEWER",
+      "builtin_tool_used": true,
+      "aspect_ratio": "16:9",
+      "sha256": "bf2bfa5a285258faa47cd6f4cbb6d134c083000a6571bcadae70e077bc817fec",
+      "width": 1672,
+      "height": 941,
+      "image_format": "PNG",
+      "actual_reference_image_paths": [
+        "C:\\Users\\wseok\\.codex\\generated_images\\01a16e2f-8261-7843-a298-3844285bae92\\exec-9413e790-1aad-436d-86e1-1bd663ddebec.png"
+      ],
+      "final_prompt": "Use case: precise-object-edit. Correct only the orange presenter's arm assignment in this exact image, keep camera, actors, faces, clothing, board contents, lamp, sample, blanket and environment unchanged. His LEFT hand (arm attached to shoulder on VIEWER RIGHT) must hold the board's viewer-right lower edge, as it did in earlier scenes. His RIGHT arm (attached to shoulder on VIEWER LEFT) reaches ACROSS his upper chest toward the black lamp at viewer right; show the crossing forearm horizontally ABOVE the board, then bent hand hovering just below lamp's handle. This is a clearly crossed-body reach. Do not swap hands. Only two arms total. Right wrist and palm are empty; left hand grips same white board and original lower-right fabric tab still visible. His torso rotates slightly toward lamp to allow natural crossed reach. He has not touched or tilted lamp. 16:9 cinematic photo; no text.",
+      "continuity_motion_addendum": "PR 왼손 판 유지, 오른팔을 가슴 앞으로 가로질러 같은 등 손잡이에 닿고 아래로 기울인다. 손 바꿈 금지."
+    },
+    {
+      "scene_id": "S06",
+      "linked_cuts": [
+        "K06"
+      ],
+      "path": "images/C08/S06.png",
+      "source": "C:\\Users\\wseok\\.codex\\generated_images\\01a16e2f-8261-7843-a298-3844285bae92\\exec-59984cb4-cd3c-4447-becb-77d8fdbe3dcc.png",
+      "prompt": "Use case: identity-preserve. Create S06 start frame from exact reference set and characters, after lamp tilt but BEFORE presenter points again. Keep positions, costumes, same board, same sample, same blanket and all background. The black lamp head is NOW tilted downward toward the red triangular prism, casting a strong frontal glossy reflection on sample; lamp still mounted same tripod at right. Orange presenter's LEFT hand grips same white comparison board viewer-right edge, original 4cm ivory tab still hanging lower-right; RIGHT arm is relaxed near his body, NOT pointing yet. The board has SAME two unlabeled photos of same red triangular metal prism under different light, left image warm/flat and right image cool. Leader in cobalt blue looks thoughtfully at sample reflection, assistant plum looks from board to sample. No fake glowing AI effects or scores. Two rear-right ice panels remain frosted with indistinct silhouettes, not clearly revealed yet. Yellow blower remains on ground at leader's feet screen-left. Low-angle 35mm medium-wide with both board and sample visible, quiet lower 18% for captions later. No letters, watermark or caption. 16:9.",
+      "references": [
+        "images/C08/S05_v2.png"
+      ],
+      "review": "직접 확인. 등 하향/실물 반사, 흰 판 왼손/오른손 몸 가까이. 다음 검지는 PD 수용된 왼쪽 사진 상단. 두 후방은 아직 가림.",
+      "concept_id": "C08",
+      "actual_image_path": "storyboards/2026-10-24_v12-rework/images/C08/S06.png",
+      "reference_image_paths": [
+        "storyboards/2026-10-24_v12-rework/images/C08/S05_v2.png"
+      ],
+      "next_motion_camera": "PR이 첫 장면의 같은 판 목표점과 실물 반사를 차례로 짚는다. 처음 조건/바꾼 조건 사진을 보여 시행착오를 나눈다. RL이 실물 반사에서 작업등 손잡이로 시선을 옮긴다. / S01 같은 낮은 높이.5초 동안 판 목표점→실물 반사→RL 시선. 완벽한 성공 효과 없음.",
+      "review_status": "ARTIST_VISUAL_CHECK_COMPLETE_AWAITING_3_REVIEWER",
+      "builtin_tool_used": true,
+      "aspect_ratio": "16:9",
+      "sha256": "0984da70a401bf2a070891e578f7c692ef8505c89e1257f8eb0ceb41640c752b",
+      "width": 1672,
+      "height": 941,
+      "image_format": "PNG",
+      "actual_reference_image_paths": [
+        "C:\\Users\\wseok\\.codex\\generated_images\\01a16e2f-8261-7843-a298-3844285bae92\\exec-7cbf4f36-7ee7-47bb-8f19-a3a293a40ff7.png"
+      ],
+      "final_prompt": "Use case: identity-preserve. Create S06 start frame from exact reference set and characters, after lamp tilt but BEFORE presenter points again. Keep positions, costumes, same board, same sample, same blanket and all background. The black lamp head is NOW tilted downward toward the red triangular prism, casting a strong frontal glossy reflection on sample; lamp still mounted same tripod at right. Orange presenter's LEFT hand grips same white comparison board viewer-right edge, original 4cm ivory tab still hanging lower-right; RIGHT arm is relaxed near his body, NOT pointing yet. The board has SAME two unlabeled photos of same red triangular metal prism under different light, left image warm/flat and right image cool. Leader in cobalt blue looks thoughtfully at sample reflection, assistant plum looks from board to sample. No fake glowing AI effects or scores. Two rear-right ice panels remain frosted with indistinct silhouettes, not clearly revealed yet. Yellow blower remains on ground at leader's feet screen-left. Low-angle 35mm medium-wide with both board and sample visible, quiet lower 18% for captions later. No letters, watermark or caption. 16:9.",
+      "continuity_motion_addendum": "PR 오른손은 S01과 같은 왼쪽 사진 상단 점을 다시 가리킨다. 판은 왼손."
+    },
+    {
+      "scene_id": "S07",
+      "linked_cuts": [
+        "K07"
+      ],
+      "path": "images/C08/S07.png",
+      "source": "C:\\Users\\wseok\\.codex\\generated_images\\01a16e2f-8261-7843-a298-3844285bae92\\exec-071c4051-66e9-4204-881a-7981826ac470.png",
+      "prompt": "Use case: identity-preserve. Create S07 START frame before camera pulls back to reveal the remaining frozen presenters. Preserve supplied S06 actors and fixed set, clothing, exact white comparison board, two photos, tiny lower-right fabric tab, sample, bench, tilted lamp and floor blower. Use a slightly TIGHTER medium framing around central demonstration: orange presenter holding board with LEFT hand; empty RIGHT hand now near board after pointing. Blue-jacket leader begins turning her gaze toward camera-right/rear, both hands empty. Plum-jacket assistant glances that way. Both rear ice panels must remain mostly outside the RIGHT edge of crop: only a narrow strip of each frosty edge and faint silhouettes, no recognizable rear faces or boards yet. This is the START before the reveal dolly-out, do not show its outcome. Main foreground trio faces all visible, bench/red sample visible. Blank no text signage or captions, cinematic cold blue light, 16:9.",
+      "references": [
+        "images/C08/S06.png"
+      ],
+      "review": "직접 확인. 후방 공개 전 좁은 시작구도. 주연3인/판/샘플/등 동일. 그림 하단 담요는 후처리 자막 위치 확보에 유의. 후속 넓히면서 RL은 등 쪽으로 이동 필요.",
+      "concept_id": "C08",
+      "actual_image_path": "storyboards/2026-10-24_v12-rework/images/C08/S07.png",
+      "reference_image_paths": [
+        "storyboards/2026-10-24_v12-rework/images/C08/S06.png"
+      ],
+      "next_motion_camera": "4.5초에 카메라가 넓어져 기존 F1·F2를 공개한다. 각자 자료판을 든 고정 자세. RL은 다시 PR의 실물과 작업등을 본다. 자기 상자·자료는 찾지 않는다. / 28mm 짧은 달리 아웃·우측 팬. 후방 두 사람은 고정.",
+      "review_status": "ARTIST_VISUAL_CHECK_COMPLETE_AWAITING_3_REVIEWER",
+      "builtin_tool_used": true,
+      "aspect_ratio": "16:9",
+      "sha256": "22f917c37c82dc8ed7af9a26342d0b9264365a0c3c71d42c37e8f80690f2bd74",
+      "width": 1672,
+      "height": 941,
+      "image_format": "PNG",
+      "actual_reference_image_paths": [
+        "C:\\Users\\wseok\\.codex\\generated_images\\01a16e2f-8261-7843-a298-3844285bae92\\exec-59984cb4-cd3c-4447-becb-77d8fdbe3dcc.png"
+      ],
+      "final_prompt": "Use case: identity-preserve. Create S07 START frame before camera pulls back to reveal the remaining frozen presenters. Preserve supplied S06 actors and fixed set, clothing, exact white comparison board, two photos, tiny lower-right fabric tab, sample, bench, tilted lamp and floor blower. Use a slightly TIGHTER medium framing around central demonstration: orange presenter holding board with LEFT hand; empty RIGHT hand now near board after pointing. Blue-jacket leader begins turning her gaze toward camera-right/rear, both hands empty. Plum-jacket assistant glances that way. Both rear ice panels must remain mostly outside the RIGHT edge of crop: only a narrow strip of each frosty edge and faint silhouettes, no recognizable rear faces or boards yet. This is the START before the reveal dolly-out, do not show its outcome. Main foreground trio faces all visible, bench/red sample visible. Blank no text signage or captions, cinematic cold blue light, 16:9.",
+      "continuity_motion_addendum": "카메라가 넓어지며 뒤 두 얼음 안 인물을 공개하고 RL은 같은 작업등 쪽으로 두 걸음 이동한다. RL 양손은 빈손."
+    },
+    {
+      "scene_id": "S08",
+      "linked_cuts": [
+        "K08"
+      ],
+      "path": "images/C08/S08.png",
+      "source": "C:\\Users\\wseok\\.codex\\generated_images\\01a16e2f-8261-7843-a298-3844285bae92\\exec-250b31ef-6d7d-4ccc-ba7b-3f3cf583c23b.png",
+      "prompt": "Use case: identity-preserve. S08 START frame BEFORE leader changes lighting or receives board. First reference preserves foreground identities and props; second reference only establishes identities and clothes of two frozen rear people. 35mm cinematic medium-wide in exact same icy artificial studio. Same grey bench ivory blanket red triangular metal prism at center. Orange presenter near right end bench holds SAME white two-photo condition board in his LEFT hand, same small lower-right ivory tab, his RIGHT hand empty at side. Plum jacket assistant remains just left of presenter. Cobalt blue older woman leader has walked around back of bench to the LAMP at camera-right: her EMPTY RIGHT hand hovers 10cm from lamp side handle, LEFT hand empty lowered. The black lamp is still downward facing sample FRONTALLY, not yet rotated sideways. Two existing rear ice panels now seen clearly beyond right end of bench: F1 South Asian woman forties long single black braid lilac insulated coat holding a WHITE board; F2 bald round older East Asian man navy coat holding GREEN board. Each is frozen behind their OWN translucent ice panel, not standing outside. No extra people, exactly FIVE total. Yellow blower still on floor at original left end of bench, where leader stood before. Camera shows board ownership clearly: ONLY orange man has two-photo board, leader no board. No new objects, no legible letters, caption or watermark. Quiet bottom18% floor. 16:9.",
+      "references": [
+        "images/C08/S07.png",
+        "images/C08/S01.png"
+      ],
+      "review": "직접 확인. 5명/후방 두 사람 공개. 판은 PR 왼손. RL은 왼손으로 등 접근 전(명세 조정 제안), 양손 빈 상태라 소품 이동 없음.",
+      "concept_id": "C08",
+      "actual_image_path": "storyboards/2026-10-24_v12-rework/images/C08/S08.png",
+      "reference_image_paths": [
+        "storyboards/2026-10-24_v12-rework/images/C08/S07.png",
+        "storyboards/2026-10-24_v12-rework/images/C08/S01.png"
+      ],
+      "next_motion_camera": "25.5~27.5초 RL이 등 머리를 옆30도로 돌려 같은 샘플의 조명 조건을 바꾼다.27.5~29초 둘이 실물 반사와 같은 판 사진을 비교한다.29~30.5초 PR이 같은 흰 판을 RL 양손에 건넨다.30.5~32.5초 RL이 한 걸음 뒤 공유 줄에 합류한다. 새 판 없음. / 35mm 작은 팬. 등→같은 판 비교→판 전달→줄까지7초. 줄까지 한 걸음.",
+      "review_status": "ARTIST_VISUAL_CHECK_COMPLETE_AWAITING_3_REVIEWER",
+      "builtin_tool_used": true,
+      "aspect_ratio": "16:9",
+      "sha256": "27644460e73679da9bd9fed686d9f8398fe408746a2367bedd183f90bc15be36",
+      "width": 1672,
+      "height": 941,
+      "image_format": "PNG",
+      "actual_reference_image_paths": [
+        "C:\\Users\\wseok\\.codex\\generated_images\\01a16e2f-8261-7843-a298-3844285bae92\\exec-071c4051-66e9-4204-881a-7981826ac470.png",
+        "C:\\Users\\wseok\\.codex\\generated_images\\01a16e2f-8261-7843-a298-3844285bae92\\exec-f6654438-a790-43ca-a14f-ed177abcc5d0.png"
+      ],
+      "final_prompt": "Use case: identity-preserve. S08 START frame BEFORE leader changes lighting or receives board. First reference preserves foreground identities and props; second reference only establishes identities and clothes of two frozen rear people. 35mm cinematic medium-wide in exact same icy artificial studio. Same grey bench ivory blanket red triangular metal prism at center. Orange presenter near right end bench holds SAME white two-photo condition board in his LEFT hand, same small lower-right ivory tab, his RIGHT hand empty at side. Plum jacket assistant remains just left of presenter. Cobalt blue older woman leader has walked around back of bench to the LAMP at camera-right: her EMPTY RIGHT hand hovers 10cm from lamp side handle, LEFT hand empty lowered. The black lamp is still downward facing sample FRONTALLY, not yet rotated sideways. Two existing rear ice panels now seen clearly beyond right end of bench: F1 South Asian woman forties long single black braid lilac insulated coat holding a WHITE board; F2 bald round older East Asian man navy coat holding GREEN board. Each is frozen behind their OWN translucent ice panel, not standing outside. No extra people, exactly FIVE total. Yellow blower still on floor at original left end of bench, where leader stood before. Camera shows board ownership clearly: ONLY orange man has two-photo board, leader no board. No new objects, no legible letters, caption or watermark. Quiet bottom18% floor. 16:9.",
+      "continuity_motion_addendum": "RL 왼손으로 같은 등 방향30도변경. PR왼손 흰판을 RL의두손에 실제건네는 동작을 보여준다. 판의 두사진/천탭 유지. PR손은 건넨후 빈손. RL한걸음뒤."
+    },
+    {
+      "scene_id": "S09",
+      "linked_cuts": [
+        "K09"
+      ],
+      "path": "images/C08/S09.png",
+      "source": "C:\\Users\\wseok\\.codex\\generated_images\\01a16e2f-8261-7843-a298-3844285bae92\\exec-aa212b27-b5e7-4b77-baa3-469b42903896.png",
+      "prompt": "Use case: identity-preserve. S09 START frame in exact same icy studio and same five people from reference. AFTER shared lighting comparison and board handoff, BEFORE assistant lifts blower. Main orange presenter now EMPTY-HANDED at center by same bench and small red triangular metal sample. BOTH hands clearly empty. The SAME white landscape comparison board with two red-prism photos, same blank condition rectangles and original small 4cm ivory cloth tab lower-right has transferred into older blue-coated leader's TWO hands. She stands one step back near right-side frozen queue, holds board chest high facing forward, original tab hangs still, her body is outside ice. NO new board or yellow board. The plum-jacket young assistant has moved to left end of bench and crouches beside SAME yellow heat blower resting on ground there; his RIGHT empty hand is just ABOVE handle before grasp, not already holding it. Keep yellow tool fully visible on floor. Black lamp remains right of bench but its head now rotated 30 degrees toward SIDE of sample. Two rear frozen presenters, same South Asian woman lilac coat white board and bald older man navy coat green board, remain inside their two ice panels at right. Wide clear composition showing source and destination of upcoming blower carry. Serious puzzled performance, no speech. No new objects or extra people, no letters or watermark. 16:9, quiet floor below.",
+      "references": [
+        "images/C08/S08.png"
+      ],
+      "review": "직접 확인. 같은 비교판과 탭은 RL 양손, PR 빈손, RA는 왼쪽바닥 열풍기 손잡이 잡기 직전. 후방 인물/자료판 유지. RA 회수 후 RL쪽 이동을 후속 동작에 포함.",
+      "concept_id": "C08",
+      "actual_image_path": "storyboards/2026-10-24_v12-rework/images/C08/S09.png",
+      "reference_image_paths": [
+        "storyboards/2026-10-24_v12-rework/images/C08/S08.png"
+      ],
+      "next_motion_camera": "RA가 열풍기를 들어 판 아래 천 탭을 향한다. 탭만 가볍게 펄럭인다. RL이 얼음 없는 자기 판 아래를 보고 RA에게 고개를 돌린다.4.5초. / 50mm RA·RL 투샷. 바람은 몸이 아닌 탭 아래 허공. 탭 뿌리가 판에 고정된 것이 보임.",
+      "review_status": "ARTIST_VISUAL_CHECK_COMPLETE_AWAITING_3_REVIEWER",
+      "builtin_tool_used": true,
+      "aspect_ratio": "16:9",
+      "sha256": "da20db74beba01fb8a9f79221bf06c64c5971794c57f10a0a3ccddddbe553e73",
+      "width": 1672,
+      "height": 941,
+      "image_format": "PNG",
+      "actual_reference_image_paths": [
+        "C:\\Users\\wseok\\.codex\\generated_images\\01a16e2f-8261-7843-a298-3844285bae92\\exec-250b31ef-6d7d-4ccc-ba7b-3f3cf583c23b.png"
+      ],
+      "final_prompt": "Use case: identity-preserve. S09 START frame in exact same icy studio and same five people from reference. AFTER shared lighting comparison and board handoff, BEFORE assistant lifts blower. Main orange presenter now EMPTY-HANDED at center by same bench and small red triangular metal sample. BOTH hands clearly empty. The SAME white landscape comparison board with two red-prism photos, same blank condition rectangles and original small 4cm ivory cloth tab lower-right has transferred into older blue-coated leader's TWO hands. She stands one step back near right-side frozen queue, holds board chest high facing forward, original tab hangs still, her body is outside ice. NO new board or yellow board. The plum-jacket young assistant has moved to left end of bench and crouches beside SAME yellow heat blower resting on ground there; his RIGHT empty hand is just ABOVE handle before grasp, not already holding it. Keep yellow tool fully visible on floor. Black lamp remains right of bench but its head now rotated 30 degrees toward SIDE of sample. Two rear frozen presenters, same South Asian woman lilac coat white board and bald older man navy coat green board, remain inside their two ice panels at right. Wide clear composition showing source and destination of upcoming blower carry. Serious puzzled performance, no speech. No new objects or extra people, no letters or watermark. 16:9, quiet floor below.",
+      "continuity_motion_addendum": "RA 오른손이 화면왼쪽바닥의열풍기손잡이를잡고 들어 같은공간을 걸어RL옆으로 이동한뒤 판아래천탭을 송풍. 이동 누락금지, 생성8초에서 실제동작 확인후 적정부분트림."
+    },
+    {
+      "scene_id": "S10",
+      "linked_cuts": [
+        "K10"
+      ],
+      "path": "images/C08/S10_v2.png",
+      "source": "C:\\Users\\wseok\\.codex\\generated_images\\01a16e2f-8261-7843-a298-3844285bae92\\exec-75ef6052-75ad-4067-9696-80fbfb870e1b.png",
+      "prompt": "Use case: precise-object-edit. Edit only BACKGROUND two frozen figures and their ice panels to restore continuity. Preserve foreground THREE actors, poses, exact board, cloth tab, blower, bench, sample, lamp, floor and camera absolutely unchanged. Remove the ice panel with lilac woman currently LEFT of orange presenter; that left background is plain blue wall. Place BOTH existing rear panels behind the RIGHT side of the foreground group. First panel containing SAME lilac-coated South Asian braided woman and white board should be in gap just behind orange man's right side and blue woman's left side (near image center-right). Second panel containing SAME bald older East Asian man navy coat green board should be farther right behind crouched assistant. He may be partly occluded but his head, upper green board, ice panel edges must be visible. Exactly two rear panels and two frozen people, keep order woman-left/man-right. No new cast. Do not move any foreground person or object. No text or caption, 16:9.",
+      "initial_prompt": "Use case: identity-preserve. S10 final start frame for same commercial. Wide 28mm composition with exact SAME five actors, set, clothing, two rear ice panels, bench, same small red triangular sample, same white comparison board with two photos and lower-right tiny ivory fabric tab. Main orange presenter EMPTY-HANDED stands left of board holder by sample. Older cobalt-blue leader at right holds SAME board in both hands. The plum-coated assistant has now walked from left around back of bench to leader; he crouches immediately beside her, holding SAME yellow blower low in his RIGHT hand so nozzle points into EMPTY AIR BELOW the board's original fabric tab. He is NOT pointing at a person's face or body. Tab lightly extends in breeze, still attached. Leader looks sideways DOWN at the unnecessarily helpful assistant, eyebrow raised; presenter notices with a bemused restrained smile. Assistant sincere, not mocking anyone. Rear F1 lilac coat white board and F2 navy coat green board remain frozen in their separate translucent panels. Lamp stays side angled onto sample. This is before assistant lowers blower and leader tilts board back toward presenter. EXACTLY FIVE people. Pull camera back to give clear EMPTY blue icy FLOOR in LOWER 25 percent for title later; keep actors, table and action in upper 75 percent. No typography or logo or watermark. 16:9 cinematic photoreal.",
+      "references": [
+        "images/C08/S10.png",
+        "images/C08/S09.png"
+      ],
+      "initial_references": [
+        "images/C08/S09.png"
+      ],
+      "review": "직접 확인. 초기 후방 두 얼음 좌측 이동을 v2에서 오른쪽으로 복원. 5명/PR 빈손/RL 동일판/RA 열풍기/같은 샘플 유지. 제목 여백 확보. 서리/소품 미세변화는 실제 동영상 매치 검수 대상.",
+      "concept_id": "C08",
+      "actual_image_path": "storyboards/2026-10-24_v12-rework/images/C08/S10_v2.png",
+      "reference_image_paths": [
+        "storyboards/2026-10-24_v12-rework/images/C08/S10.png",
+        "storyboards/2026-10-24_v12-rework/images/C08/S09.png"
+      ],
+      "next_motion_camera": "RA가 열풍기를 조금 내리고 RL이 판을 PR 쪽으로 살짝 기울여 둘이 같은 자료를 다시 본다.37초부터 행사 정보5초. 새 물건 없음. / 28mm 고정 와이드, 시연·공동 판·뒤 두 인물 상단72%.",
+      "review_status": "ARTIST_VISUAL_CHECK_COMPLETE_AWAITING_3_REVIEWER",
+      "builtin_tool_used": true,
+      "aspect_ratio": "16:9",
+      "sha256": "2ffc97953af50631620df6dde451216685774558842e7eaf802b79d15eb33352",
+      "width": 1672,
+      "height": 941,
+      "image_format": "PNG",
+      "actual_reference_image_paths": [
+        "C:\\Users\\wseok\\.codex\\generated_images\\01a16e2f-8261-7843-a298-3844285bae92\\exec-5a958a83-0085-4a19-bc78-30dc01cd0072.png",
+        "C:\\Users\\wseok\\.codex\\generated_images\\01a16e2f-8261-7843-a298-3844285bae92\\exec-aa212b27-b5e7-4b77-baa3-469b42903896.png"
+      ],
+      "final_prompt": "Use case: precise-object-edit. Edit only BACKGROUND two frozen figures and their ice panels to restore continuity. Preserve foreground THREE actors, poses, exact board, cloth tab, blower, bench, sample, lamp, floor and camera absolutely unchanged. Remove the ice panel with lilac woman currently LEFT of orange presenter; that left background is plain blue wall. Place BOTH existing rear panels behind the RIGHT side of the foreground group. First panel containing SAME lilac-coated South Asian braided woman and white board should be in gap just behind orange man's right side and blue woman's left side (near image center-right). Second panel containing SAME bald older East Asian man navy coat green board should be farther right behind crouched assistant. He may be partly occluded but his head, upper green board, ice panel edges must be visible. Exactly two rear panels and two frozen people, keep order woman-left/man-right. No new cast. Do not move any foreground person or object. No text or caption, 16:9.",
+      "continuity_motion_addendum": "RA가 같은열풍기를 낮추고 RL은 같은흰판을 PR에게약간기울여공동비교. 판은RL두손 유지."
+    }
+  ],
+  "remaining_issues": [
+    "3명 실제이미지 독립/교차 검수 대기",
+    "정지이미지는 동작성공 증거 아님. 해동·담요이동·등조절·판전달·열풍기회수 및 걷기 실제생성 검수 필요",
+    "자막과 조건칸 및 행사명 후편집 필요"
+  ],
+  "generation_history": [
+    {
+      "file": "images/C08/S01.png",
+      "generated_source": "C:\\Users\\wseok\\.codex\\generated_images\\01a16e2f-8261-7843-a298-3844285bae92\\exec-f6654438-a790-43ca-a14f-ed177abcc5d0.png",
+      "exact_submitted_prompt": "Use case: ads-marketing. Create a cinematic photoreal live-action commercial film frame, not an illustration. Dramatic cold blue-white studio, believable theatrical translucent ice with frost, expressive sincere actors. 16:9 landscape.\nCharacter identity guide only; show only people explicitly visible in this scene. PR: a tall long-limbed Black man in his late thirties, short rounded afro, thin rectangular glasses, vivid orange insulated coverall, short burgundy scarf, black winter boots. RL: a short sturdy Korean woman in her late fifties, straight black-and-grey bob, cobalt blue padded jacket, grey snow trousers, white earmuffs. RA: a slim Korean man in his twenties with a black buzzcut, plum padded jacket, black trousers, grey gloves. F1: a South Asian woman in her forties with a long single black braid and lilac insulated coat, holding a white case board, behind the second translucent ice panel. F2: a round-built East Asian man in his sixties, bald, navy insulated coat, holding a green case board, behind the third translucent ice panel. Cold artificial studio, low-angle medium-wide. PR holds a rigid white comparison board in his LEFT hand angled forward at chest height behind the front ice panel. His extended RIGHT index points five centimeters from a specific spot in the board's upper-right photo area. Dense frost hides the BOARD and target while the reaching hand silhouette is visible. Both hands and board must stay in this exact pose through thaw. A fixed four-centimeter ivory tab hangs from its lower-right edge behind frost. RL holds powered-off blower in right hand; RA prepares blanket. Existing two rear panel edges and bench remain. Single cinematic still, landscape 16:9, a real start frame BEFORE the specified action, never its completed outcome. No captions, no legible lettering, no numbers, no logo, no watermark, no collage, no extra people or limbs. Keep specified caption area quiet. Only depict characters explicitly present in the scene; identity guide is not a request to add cast.\nSpace lock: one front vertical ice panel centered, two rear vertical panels behind to camera-right with only edges visible. A low grey sturdy rescue bench in front center, an upright black adjustable work lamp at camera-right pointing toward the presenter's face, closed grey equipment chest camera-left. Main presenter behind front ice at center; rescue leader to camera-left, assistant to camera-right. Yellow compact handheld heat blower. Ivory wool rescue blanket folded in assistant's arms. Frost should hide the board's contents and pointed target, not completely hide the presenter's vivid orange silhouette. No injured or frightened person; his apparent urgency is intent concentration. Keep lower eighteen percent calm floor, full width composition. The white board, hidden behind frost, is landscape, two side-by-side unlettered photos of the same red triangular solid and two blank condition rectangles, small ivory fabric tab at viewer's lower-right.",
+      "actual_reference_image_paths": [],
+      "tool": "image_gen__imagegen",
+      "transparent_background": false,
+      "selected": false,
+      "sha256": "0482bca54cb1c9788dbcf47cb6901014426f27b2edbdef063d9f86244ab1c7e9",
+      "width": 1672,
+      "height": 941,
+      "original_preservation_verified": true
+    },
+    {
+      "file": "images/C08/S01_v2.png",
+      "generated_source": "C:\\Users\\wseok\\.codex\\generated_images\\01a16e2f-8261-7843-a298-3844285bae92\\exec-960831dc-0dd4-4ec8-b4da-3452e27e7002.png",
+      "exact_submitted_prompt": "Use case: precise-object-edit. Edit this exact film frame. Preserve foreground three actors' identity, body and hand pose, clothing, all equipment, camera, framing and blue cinematic lighting. Change ONLY frost visibility: (1) thicken irregular opaque frost over the white rectangle in the central orange presenter's hands, especially its perimeter, so it reads as vague frost not an obvious presentation board. Keep his outstretched right hand silhouette visible. This is a mystery opening before thaw. (2) Make the two rear-right panels fully frosted, so rear people and boards are only vague indistinct shadows, with no recognizable faces, clothes or held boards. Their physical positions stay fixed. No new objects, no text. The foreground face and orange silhouette still faintly visible; frost is translucent around face. 16:9.",
+      "actual_reference_image_paths": [
+        "C:\\Users\\wseok\\.codex\\generated_images\\01a16e2f-8261-7843-a298-3844285bae92\\exec-f6654438-a790-43ca-a14f-ed177abcc5d0.png"
+      ],
+      "tool": "image_gen__imagegen",
+      "transparent_background": false,
+      "selected": true,
+      "sha256": "80391cfb38e7e39bf0b11ba0a57723b733242ffe2690e350d6f064fd6563b9d0",
+      "width": 1672,
+      "height": 941,
+      "original_preservation_verified": true
+    },
+    {
+      "file": "images/C08/S02.png",
+      "generated_source": "C:\\Users\\wseok\\.codex\\generated_images\\01a16e2f-8261-7843-a298-3844285bae92\\exec-1054cca0-2986-4ec4-b531-f5ec6ad57115.png",
+      "exact_submitted_prompt": "Use case: precise-object-edit. Use the supplied exact S01 frame as continuity reference. Create next start frame S02 just BEFORE any thaw. Preserve camera and foreground presenter's body, head, right pointing hand, left-held hidden board, frost density and ALL environment and lights exactly. His right index target remains unchanged. Change only: leader on left slightly leans forward holding the yellow powered-off blower in her right hand, its nozzle positioned 30cm from bottom edge of central ice. The assistant on right now holds the same ivory blanket unfolded between both hands ready to drape, not yet touching presenter. Rear two ice panels remain opaque frosted vague silhouettes only. Central ice still fully intact, board still obscured. Front rescue bench completely bare. No letters or watermarks. 16:9.",
+      "actual_reference_image_paths": [
+        "C:\\Users\\wseok\\.codex\\generated_images\\01a16e2f-8261-7843-a298-3844285bae92\\exec-960831dc-0dd4-4ec8-b4da-3452e27e7002.png"
+      ],
+      "tool": "image_gen__imagegen",
+      "transparent_background": false,
+      "selected": true,
+      "sha256": "b72e527696a215beb50e972d89a09224d801cc2a64fdfe408bbd004b11d5c463",
+      "width": 1672,
+      "height": 941,
+      "original_preservation_verified": true
+    },
+    {
+      "file": "images/C08/S03.png",
+      "generated_source": "C:\\Users\\wseok\\.codex\\generated_images\\01a16e2f-8261-7843-a298-3844285bae92\\exec-a461aa16-1e33-45bd-b7fc-696e6f0e8ece.png",
+      "exact_submitted_prompt": "Use case: identity-preserve. Same cinematic actors, set and equipment as reference. New S03 START frame after thaw but BEFORE blanket becomes tablecloth. Camera 50mm medium, slightly closer but same axis. Remove front ice only (a few droplets, no shattered blocks); retain opaque rear two ice panels with vague silhouettes. Presenter center tall Black man orange coverall burgundy scarf afro glasses. LEFT hand holds SAME landscape white board in exactly same orientation at chest, RIGHT index still at the same point near upper-right photograph. Reveal TWO large side-by-side photo areas of the SAME small red triangular metal prism under differing lighting; two empty narrow rectangles under photos, no lettering. Small 4cm ivory fabric tab fixed to board lower-right. Same ivory blanket now loosely on his shoulders, plum jacket assistant immediately behind his right shoulder holding BOTH blanket corners, about to wrap his torso. Blanket is NOT on bench yet. Bare grey rescue bench in foreground. Blue jacket older woman leader at left holds inactive yellow blower low and begins crouching, tool not yet released. Black upright work lamp at right still shines toward presenter's face. Eyes and expressions serious, presenter deeply absorbed in demonstration rather than distressed. No caption, logo or watermark. 16:9. Bare right hand points, left hand grips board edge, no extra fingers.",
+      "actual_reference_image_paths": [
+        "C:\\Users\\wseok\\.codex\\generated_images\\01a16e2f-8261-7843-a298-3844285bae92\\exec-1054cca0-2986-4ec4-b531-f5ec6ad57115.png"
+      ],
+      "tool": "image_gen__imagegen",
+      "transparent_background": false,
+      "selected": false,
+      "sha256": "5bd2bf8c6a74de285bd9f72eb6c30137db8a57a18a95dec464cfccaac8da7cc7",
+      "width": 1672,
+      "height": 941,
+      "original_preservation_verified": true
+    },
+    {
+      "file": "images/C08/S03_v2.png",
+      "generated_source": "C:\\Users\\wseok\\.codex\\generated_images\\01a16e2f-8261-7843-a298-3844285bae92\\exec-64454fc7-aca2-4e3e-b33b-9544f2a28b0d.png",
+      "exact_submitted_prompt": "Use case: precise-object-edit. Edit only background of first reference image (the thawed-presenter image). Keep foreground trio, exact poses/board/blanket/bench/lamp and framing unchanged. Remove the tall ice slab that is directly behind the central orange man's LEFT shoulder (viewer left). Place the SAME TWO rear ice panels side by side toward camera-right behind the assistant, as in second reference image: one panel behind assistant near right-middle, the third panel near far-right lamp. Two vague people hidden under opaque frost, not yet revealed. No extra ice panels. A plain blue-grey studio wall must be visible behind left side of presenter. Keep same photoreal cinematic light and 16:9. Do not change any hand, blanket, white board, photo or yellow blower.",
+      "actual_reference_image_paths": [
+        "C:\\Users\\wseok\\.codex\\generated_images\\01a16e2f-8261-7843-a298-3844285bae92\\exec-a461aa16-1e33-45bd-b7fc-696e6f0e8ece.png",
+        "C:\\Users\\wseok\\.codex\\generated_images\\01a16e2f-8261-7843-a298-3844285bae92\\exec-1054cca0-2986-4ec4-b531-f5ec6ad57115.png"
+      ],
+      "tool": "image_gen__imagegen",
+      "transparent_background": false,
+      "selected": true,
+      "sha256": "53cb38880d2c1c0a0c7a75260b952ae3756e4ab189875336449f53b00a7be981",
+      "width": 1672,
+      "height": 941,
+      "original_preservation_verified": true
+    },
+    {
+      "file": "images/C08/S04.png",
+      "generated_source": "C:\\Users\\wseok\\.codex\\generated_images\\01a16e2f-8261-7843-a298-3844285bae92\\exec-fda61c17-7550-42e4-94fc-ef3b29bb930d.png",
+      "exact_submitted_prompt": "Use case: identity-preserve. Create next S04 start frame in exact same cold studio and actor identities as reference. Preserve actor placement, faces, wardrobe, grey bench, black lamp high right, two rear frosted panels at right. Now SAME ivory blanket lies flat across bench, removed entirely from shoulders. Bench surface on blanket is COMPLETELY EMPTY. Presenter LEFT hand continues holding exact same white landscape board (same two photo panels showing red triangular metal prism, blank strips underneath and tiny fixed ivory fabric tab lower-right). Presenter RIGHT hand is EMPTY and hovers just above his orange chest pocket, poised to reach inside; sample is hidden inside pocket, not yet extracted. Assistant behind to right lowers his now empty arms with puzzled expression. Leader to left watches, both hands now empty; same yellow blower rests on ground beside right front bench leg. Main presenter looks purposefully toward bench. Cold blue cinematic light, work lamp still aimed toward his face. Medium framing with chest pocket and bare blanket both clearly visible. Do not put sample on bench yet. No text or watermark, 16:9.",
+      "actual_reference_image_paths": [
+        "C:\\Users\\wseok\\.codex\\generated_images\\01a16e2f-8261-7843-a298-3844285bae92\\exec-64454fc7-aca2-4e3e-b33b-9544f2a28b0d.png"
+      ],
+      "tool": "image_gen__imagegen",
+      "transparent_background": false,
+      "selected": true,
+      "sha256": "2f128d3544c8054a2b926bcd31e6f12c73ce8c0895980116c0aca1d11cc84157",
+      "width": 1672,
+      "height": 941,
+      "original_preservation_verified": true
+    },
+    {
+      "file": "images/C08/S05.png",
+      "generated_source": "C:\\Users\\wseok\\.codex\\generated_images\\01a16e2f-8261-7843-a298-3844285bae92\\exec-9413e790-1aad-436d-86e1-1bd663ddebec.png",
+      "exact_submitted_prompt": "Use case: identity-preserve. Same actors, clothing and cold studio from reference. S05 start frame before lamp tilt. Change camera to a 50mm right-side three-quarter view to clearly show the lamp, bench and right arm, without crossing actor identities. The same small RED TRIANGULAR METAL PRISM depicted in two board photos now rests at center of the ivory blanket on grey bench. It is in shadow. The main Black presenter in orange LEFT hand holds same white landscape two-photo board and tiny lower-right ivory tab, lowered to waist height. His RIGHT empty hand reaches and HOVERS 10cm from the black work lamp's side handle, not touching. He has taken a small step to lamp at camera-right; right arm anatomically distinct from left holding board. Lamp head at his face height, still horizontal and casting light onto his FACE, NOT on tabletop. The lamp is on same black tripod and is ready to rotate down one hinge. Older blue jacket leader stays by left end of bench and plum-jacket assistant watches his lit face. Two rear frosted panels in right background, people still vague silhouettes only. Yellow blower stays on floor at leader's left end of bench. The comparison board photos show same red prism under two lighting conditions with blank strips beneath, no text. Moody cinematic shadows, serious expressive faces, 16:9 no captions or watermark. Clear pre-action lamp angle.",
+      "actual_reference_image_paths": [
+        "C:\\Users\\wseok\\.codex\\generated_images\\01a16e2f-8261-7843-a298-3844285bae92\\exec-fda61c17-7550-42e4-94fc-ef3b29bb930d.png"
+      ],
+      "tool": "image_gen__imagegen",
+      "transparent_background": false,
+      "selected": false,
+      "sha256": "cf3aead460d62f3135fa7429ea16c4cd0e2cd8293361f56fab7676ad7be93aba",
+      "width": 1672,
+      "height": 941,
+      "original_preservation_verified": true
+    },
+    {
+      "file": "images/C08/S05_v2.png",
+      "generated_source": "C:\\Users\\wseok\\.codex\\generated_images\\01a16e2f-8261-7843-a298-3844285bae92\\exec-7cbf4f36-7ee7-47bb-8f19-a3a293a40ff7.png",
+      "exact_submitted_prompt": "Use case: precise-object-edit. Correct only the orange presenter's arm assignment in this exact image, keep camera, actors, faces, clothing, board contents, lamp, sample, blanket and environment unchanged. His LEFT hand (arm attached to shoulder on VIEWER RIGHT) must hold the board's viewer-right lower edge, as it did in earlier scenes. His RIGHT arm (attached to shoulder on VIEWER LEFT) reaches ACROSS his upper chest toward the black lamp at viewer right; show the crossing forearm horizontally ABOVE the board, then bent hand hovering just below lamp's handle. This is a clearly crossed-body reach. Do not swap hands. Only two arms total. Right wrist and palm are empty; left hand grips same white board and original lower-right fabric tab still visible. His torso rotates slightly toward lamp to allow natural crossed reach. He has not touched or tilted lamp. 16:9 cinematic photo; no text.",
+      "actual_reference_image_paths": [
+        "C:\\Users\\wseok\\.codex\\generated_images\\01a16e2f-8261-7843-a298-3844285bae92\\exec-9413e790-1aad-436d-86e1-1bd663ddebec.png"
+      ],
+      "tool": "image_gen__imagegen",
+      "transparent_background": false,
+      "selected": true,
+      "sha256": "bf2bfa5a285258faa47cd6f4cbb6d134c083000a6571bcadae70e077bc817fec",
+      "width": 1672,
+      "height": 941,
+      "original_preservation_verified": true
+    },
+    {
+      "file": "images/C08/S06.png",
+      "generated_source": "C:\\Users\\wseok\\.codex\\generated_images\\01a16e2f-8261-7843-a298-3844285bae92\\exec-59984cb4-cd3c-4447-becb-77d8fdbe3dcc.png",
+      "exact_submitted_prompt": "Use case: identity-preserve. Create S06 start frame from exact reference set and characters, after lamp tilt but BEFORE presenter points again. Keep positions, costumes, same board, same sample, same blanket and all background. The black lamp head is NOW tilted downward toward the red triangular prism, casting a strong frontal glossy reflection on sample; lamp still mounted same tripod at right. Orange presenter's LEFT hand grips same white comparison board viewer-right edge, original 4cm ivory tab still hanging lower-right; RIGHT arm is relaxed near his body, NOT pointing yet. The board has SAME two unlabeled photos of same red triangular metal prism under different light, left image warm/flat and right image cool. Leader in cobalt blue looks thoughtfully at sample reflection, assistant plum looks from board to sample. No fake glowing AI effects or scores. Two rear-right ice panels remain frosted with indistinct silhouettes, not clearly revealed yet. Yellow blower remains on ground at leader's feet screen-left. Low-angle 35mm medium-wide with both board and sample visible, quiet lower 18% for captions later. No letters, watermark or caption. 16:9.",
+      "actual_reference_image_paths": [
+        "C:\\Users\\wseok\\.codex\\generated_images\\01a16e2f-8261-7843-a298-3844285bae92\\exec-7cbf4f36-7ee7-47bb-8f19-a3a293a40ff7.png"
+      ],
+      "tool": "image_gen__imagegen",
+      "transparent_background": false,
+      "selected": true,
+      "sha256": "0984da70a401bf2a070891e578f7c692ef8505c89e1257f8eb0ceb41640c752b",
+      "width": 1672,
+      "height": 941,
+      "original_preservation_verified": true
+    },
+    {
+      "file": "images/C08/S07.png",
+      "generated_source": "C:\\Users\\wseok\\.codex\\generated_images\\01a16e2f-8261-7843-a298-3844285bae92\\exec-071c4051-66e9-4204-881a-7981826ac470.png",
+      "exact_submitted_prompt": "Use case: identity-preserve. Create S07 START frame before camera pulls back to reveal the remaining frozen presenters. Preserve supplied S06 actors and fixed set, clothing, exact white comparison board, two photos, tiny lower-right fabric tab, sample, bench, tilted lamp and floor blower. Use a slightly TIGHTER medium framing around central demonstration: orange presenter holding board with LEFT hand; empty RIGHT hand now near board after pointing. Blue-jacket leader begins turning her gaze toward camera-right/rear, both hands empty. Plum-jacket assistant glances that way. Both rear ice panels must remain mostly outside the RIGHT edge of crop: only a narrow strip of each frosty edge and faint silhouettes, no recognizable rear faces or boards yet. This is the START before the reveal dolly-out, do not show its outcome. Main foreground trio faces all visible, bench/red sample visible. Blank no text signage or captions, cinematic cold blue light, 16:9.",
+      "actual_reference_image_paths": [
+        "C:\\Users\\wseok\\.codex\\generated_images\\01a16e2f-8261-7843-a298-3844285bae92\\exec-59984cb4-cd3c-4447-becb-77d8fdbe3dcc.png"
+      ],
+      "tool": "image_gen__imagegen",
+      "transparent_background": false,
+      "selected": true,
+      "sha256": "22f917c37c82dc8ed7af9a26342d0b9264365a0c3c71d42c37e8f80690f2bd74",
+      "width": 1672,
+      "height": 941,
+      "original_preservation_verified": true
+    },
+    {
+      "file": "images/C08/S08.png",
+      "generated_source": "C:\\Users\\wseok\\.codex\\generated_images\\01a16e2f-8261-7843-a298-3844285bae92\\exec-250b31ef-6d7d-4ccc-ba7b-3f3cf583c23b.png",
+      "exact_submitted_prompt": "Use case: identity-preserve. S08 START frame BEFORE leader changes lighting or receives board. First reference preserves foreground identities and props; second reference only establishes identities and clothes of two frozen rear people. 35mm cinematic medium-wide in exact same icy artificial studio. Same grey bench ivory blanket red triangular metal prism at center. Orange presenter near right end bench holds SAME white two-photo condition board in his LEFT hand, same small lower-right ivory tab, his RIGHT hand empty at side. Plum jacket assistant remains just left of presenter. Cobalt blue older woman leader has walked around back of bench to the LAMP at camera-right: her EMPTY RIGHT hand hovers 10cm from lamp side handle, LEFT hand empty lowered. The black lamp is still downward facing sample FRONTALLY, not yet rotated sideways. Two existing rear ice panels now seen clearly beyond right end of bench: F1 South Asian woman forties long single black braid lilac insulated coat holding a WHITE board; F2 bald round older East Asian man navy coat holding GREEN board. Each is frozen behind their OWN translucent ice panel, not standing outside. No extra people, exactly FIVE total. Yellow blower still on floor at original left end of bench, where leader stood before. Camera shows board ownership clearly: ONLY orange man has two-photo board, leader no board. No new objects, no legible letters, caption or watermark. Quiet bottom18% floor. 16:9.",
+      "actual_reference_image_paths": [
+        "C:\\Users\\wseok\\.codex\\generated_images\\01a16e2f-8261-7843-a298-3844285bae92\\exec-071c4051-66e9-4204-881a-7981826ac470.png",
+        "C:\\Users\\wseok\\.codex\\generated_images\\01a16e2f-8261-7843-a298-3844285bae92\\exec-f6654438-a790-43ca-a14f-ed177abcc5d0.png"
+      ],
+      "tool": "image_gen__imagegen",
+      "transparent_background": false,
+      "selected": true,
+      "sha256": "27644460e73679da9bd9fed686d9f8398fe408746a2367bedd183f90bc15be36",
+      "width": 1672,
+      "height": 941,
+      "original_preservation_verified": true
+    },
+    {
+      "file": "images/C08/S09.png",
+      "generated_source": "C:\\Users\\wseok\\.codex\\generated_images\\01a16e2f-8261-7843-a298-3844285bae92\\exec-aa212b27-b5e7-4b77-baa3-469b42903896.png",
+      "exact_submitted_prompt": "Use case: identity-preserve. S09 START frame in exact same icy studio and same five people from reference. AFTER shared lighting comparison and board handoff, BEFORE assistant lifts blower. Main orange presenter now EMPTY-HANDED at center by same bench and small red triangular metal sample. BOTH hands clearly empty. The SAME white landscape comparison board with two red-prism photos, same blank condition rectangles and original small 4cm ivory cloth tab lower-right has transferred into older blue-coated leader's TWO hands. She stands one step back near right-side frozen queue, holds board chest high facing forward, original tab hangs still, her body is outside ice. NO new board or yellow board. The plum-jacket young assistant has moved to left end of bench and crouches beside SAME yellow heat blower resting on ground there; his RIGHT empty hand is just ABOVE handle before grasp, not already holding it. Keep yellow tool fully visible on floor. Black lamp remains right of bench but its head now rotated 30 degrees toward SIDE of sample. Two rear frozen presenters, same South Asian woman lilac coat white board and bald older man navy coat green board, remain inside their two ice panels at right. Wide clear composition showing source and destination of upcoming blower carry. Serious puzzled performance, no speech. No new objects or extra people, no letters or watermark. 16:9, quiet floor below.",
+      "actual_reference_image_paths": [
+        "C:\\Users\\wseok\\.codex\\generated_images\\01a16e2f-8261-7843-a298-3844285bae92\\exec-250b31ef-6d7d-4ccc-ba7b-3f3cf583c23b.png"
+      ],
+      "tool": "image_gen__imagegen",
+      "transparent_background": false,
+      "selected": true,
+      "sha256": "da20db74beba01fb8a9f79221bf06c64c5971794c57f10a0a3ccddddbe553e73",
+      "width": 1672,
+      "height": 941,
+      "original_preservation_verified": true
+    },
+    {
+      "file": "images/C08/S10.png",
+      "generated_source": "C:\\Users\\wseok\\.codex\\generated_images\\01a16e2f-8261-7843-a298-3844285bae92\\exec-5a958a83-0085-4a19-bc78-30dc01cd0072.png",
+      "exact_submitted_prompt": "Use case: identity-preserve. S10 final start frame for same commercial. Wide 28mm composition with exact SAME five actors, set, clothing, two rear ice panels, bench, same small red triangular sample, same white comparison board with two photos and lower-right tiny ivory fabric tab. Main orange presenter EMPTY-HANDED stands left of board holder by sample. Older cobalt-blue leader at right holds SAME board in both hands. The plum-coated assistant has now walked from left around back of bench to leader; he crouches immediately beside her, holding SAME yellow blower low in his RIGHT hand so nozzle points into EMPTY AIR BELOW the board's original fabric tab. He is NOT pointing at a person's face or body. Tab lightly extends in breeze, still attached. Leader looks sideways DOWN at the unnecessarily helpful assistant, eyebrow raised; presenter notices with a bemused restrained smile. Assistant sincere, not mocking anyone. Rear F1 lilac coat white board and F2 navy coat green board remain frozen in their separate translucent panels. Lamp stays side angled onto sample. This is before assistant lowers blower and leader tilts board back toward presenter. EXACTLY FIVE people. Pull camera back to give clear EMPTY blue icy FLOOR in LOWER 25 percent for title later; keep actors, table and action in upper 75 percent. No typography or logo or watermark. 16:9 cinematic photoreal.",
+      "actual_reference_image_paths": [
+        "C:\\Users\\wseok\\.codex\\generated_images\\01a16e2f-8261-7843-a298-3844285bae92\\exec-aa212b27-b5e7-4b77-baa3-469b42903896.png"
+      ],
+      "tool": "image_gen__imagegen",
+      "transparent_background": false,
+      "selected": false,
+      "sha256": "59c8a4e8d751d8da9cad2cc63cdc9e7193c0b44d6ec3eb0cfb44702d15f293fe",
+      "width": 1672,
+      "height": 941,
+      "original_preservation_verified": true
+    },
+    {
+      "file": "images/C08/S10_v2.png",
+      "generated_source": "C:\\Users\\wseok\\.codex\\generated_images\\01a16e2f-8261-7843-a298-3844285bae92\\exec-75ef6052-75ad-4067-9696-80fbfb870e1b.png",
+      "exact_submitted_prompt": "Use case: precise-object-edit. Edit only BACKGROUND two frozen figures and their ice panels to restore continuity. Preserve foreground THREE actors, poses, exact board, cloth tab, blower, bench, sample, lamp, floor and camera absolutely unchanged. Remove the ice panel with lilac woman currently LEFT of orange presenter; that left background is plain blue wall. Place BOTH existing rear panels behind the RIGHT side of the foreground group. First panel containing SAME lilac-coated South Asian braided woman and white board should be in gap just behind orange man's right side and blue woman's left side (near image center-right). Second panel containing SAME bald older East Asian man navy coat green board should be farther right behind crouched assistant. He may be partly occluded but his head, upper green board, ice panel edges must be visible. Exactly two rear panels and two frozen people, keep order woman-left/man-right. No new cast. Do not move any foreground person or object. No text or caption, 16:9.",
+      "actual_reference_image_paths": [
+        "C:\\Users\\wseok\\.codex\\generated_images\\01a16e2f-8261-7843-a298-3844285bae92\\exec-5a958a83-0085-4a19-bc78-30dc01cd0072.png",
+        "C:\\Users\\wseok\\.codex\\generated_images\\01a16e2f-8261-7843-a298-3844285bae92\\exec-aa212b27-b5e7-4b77-baa3-469b42903896.png"
+      ],
+      "tool": "image_gen__imagegen",
+      "transparent_background": false,
+      "selected": true,
+      "sha256": "2ffc97953af50631620df6dde451216685774558842e7eaf802b79d15eb33352",
+      "width": 1672,
+      "height": 941,
+      "original_preservation_verified": true
+    }
+  ],
+  "completed_artist_checks": [
+    "선정10장 모두 view_image 직접 열기",
+    "후방 인물 조기노출 수정",
+    "S03/S10 후방 얼음 위치이동 수정",
+    "S05 좌우손 반전 수정",
+    "동일 판/천탭/샘플 연속성 확인",
+    "모든원본sha256대조",
+    "2열10씬contact sheet 실제열기"
+  ]
+}

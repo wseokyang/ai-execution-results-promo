@@ -1,0 +1,34 @@
+{
+  "status": "PASS_FOR_IMAGE_PRODUCTION",
+  "A": "A-N01~05/B-N01/B-N07 resolved. No new causal/state mismatch.",
+  "B": "B-N01~07/A-N02 resolved. Inputs actions synchronized.",
+  "C": "C-N01~06/A-N02/B-N01/B-N07 resolved.",
+  "durations": [
+    39,
+    42,
+    38,
+    41
+  ],
+  "scene_counts": [
+    10,
+    10,
+    10,
+    10
+  ],
+  "ending_seconds": 5,
+  "scope": "Text/first-frame specifications only. Actual images reviewed next.",
+  "pd_image_stage_changes": [
+    {
+      "concept": "C07",
+      "change": "8-slot teal samples accepted instead of6, same countshape across both samples. Notessentialtohumor."
+    },
+    {
+      "concept": "C07",
+      "change": "badge clipped to torso harness atwaist accepted, S05 targetandlaterframesmustmatch."
+    },
+    {
+      "concept": "C08",
+      "change": "same pointing target upperpartofleftphoto instead ofright accepted, beginningandlatermustmatch. Cloth tabremainslower-right."
+    }
+  ]
+}

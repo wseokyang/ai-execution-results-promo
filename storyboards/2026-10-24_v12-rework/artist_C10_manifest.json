@@ -1,0 +1,511 @@
+{
+  "concept_id": "C10",
+  "title": "청혼은 없었습니다",
+  "source_storyboard": "storyboards_draft.json / C10",
+  "run_id": "2026-10-24_v12-rework",
+  "created_date": "2026-10-24",
+  "author": "/root/v12_artist_c07",
+  "scope": "C10 first-frame images only; no Flow, video, audio, uploads or source storyboard edits.",
+  "generated_scene_count": 10,
+  "total_scene_count": 10,
+  "imagegen_tool_calls": 18,
+  "built_in_tool": "image_gen.imagegen",
+  "status": "10_SCENES_ARTIST_CHECKED_PENDING_INDEPENDENT_CROSS_REVIEW",
+  "originals_preserved": true,
+  "generated_files_reencoded": false,
+  "character_identity_reference": "images/C10/S01_v2.png",
+  "exact_prompt_and_reference_log": "Every selected and superseded entry below contains exact submitted prompt and actual local reference paths.",
+  "pd_changes": [
+    {
+      "id": "C10-PD-S09-CAMERA",
+      "status": "ACCEPTED_BY_ROOT",
+      "change": "S09 uses lower 50mm medium rather than full wide. Heads and lamp head may be outside frame; low coupling, single straight upper-pole direction, hands and ring/L sample are prioritized.",
+      "reason": "Repeated wide geometry edits produced an upper bend or changed the L specimen into a cup. Full rig is already established in S07 and shown restored in S10."
+    }
+  ],
+  "remaining_review_notes": [
+    "Three independent image reviewers have not yet returned PASS for C10.",
+    "Stills are not validation of Flow motion. Low-coupling slip/whole-pole tilt, hand routing, light pool movement and support continuity must be checked in actual generated videos.",
+    "Small engineering dimensions and exact hand clearances are visual approximations, not measured CAD values.",
+    "S08 close-up retains more of coupling than initial plan; artist judged causal readability more useful than concealment, pending PD/image reviewers.",
+    "No captions, event title, logo or AI UI were rendered; all typography is postproduction."
+  ],
+  "entries": [
+    {
+      "concept_id": "C10",
+      "scene_id": "S01",
+      "linked_cuts": [
+        "K01"
+      ],
+      "image_path": "images/C10/S01_v2.png",
+      "selected_file": "S01_v2.png",
+      "generated_source": "C:\\Users\\wseok\\.codex\\generated_images\\01a16e2f-6574-7781-9b5c-95d6256f27b6\\exec-3056764b-f9ac-4f38-a809-b1aaec92e0e0.png",
+      "final_prompt": "Precise two-prop edit of this photograph. Preserve all FIVE people, exact faces, clothes, poses, box CLOSED in man's hands, garden, camera, black lamp and its low pivot, chairs and lighting. (1) Replace the tiny cup/bowl stack on the main table with ONE plain white FLAT ceramic saucer about 16 cm across, entirely empty and with NO cup or bowl on it. The black lamp must illuminate its center. (2) Inside the open brown sample case on the left chair, replace the long zigzag/U-shaped white piece with ONE SMALL solid ivory L-shaped industrial test piece, just 6 cm across: exactly TWO short straight arms of equal width meeting at one 90-degree corner, like the letter L but no printed letter. It rests loosely in a matching open foam recess; it will fit easily beside a 28 mm ring on the 16 cm saucer. Keep case itself same size and place. No extra sample, no captions or writing, no changes elsewhere. 16:9.",
+      "referenced_image_paths": [
+        "C:\\Users\\wseok\\.codex\\generated_images\\01a16e2f-6574-7781-9b5c-95d6256f27b6\\exec-3fad4599-12f9-4764-ade8-47d947195484.png"
+      ],
+      "reference_project_paths": [
+        "images/C10/S01.png"
+      ],
+      "next_motion_camera": "MN이 한쪽 무릎을 바닥에 대고 닫힌 상자를 WM에게 올린다. WM이 두 손을 가슴으로 모은다.3초, 자세를 잡은 뒤 긴 대기 없음. / 50mm 로맨틱 투샷, 후경 둘과 열린 케이스는 초점 밖. 낮은 조명 연결부를 자연스럽게 포함.",
+      "caption_space": "첫 3컷은 대사/제목 자막 없음. 이후 하단18% 여백. 고리·손·폰 화면·마지막 클램프의 이동 경로는 가리지 않음.",
+      "scene_start": 0,
+      "scene_end": 3,
+      "duration": 3,
+      "artist_actual_view": true,
+      "artist_notes": "Closed box before kneeling; all five established. S01_v2 corrects initial oversized non-L sample and unwanted cup to flat empty saucer + ivory L in case. Lamp upright, phone on table.",
+      "review_status": "ARTIST_VISUAL_CHECKED_PENDING_THREE_REVIEWERS",
+      "flow_motion_verified": false,
+      "sha256": "0f4db566e0091e2eb00f0df1a6ab76c68adb7bdb23a093b576c49b0aa8ca5997",
+      "byte_count": 2258080,
+      "generated_source_sha256": "0f4db566e0091e2eb00f0df1a6ab76c68adb7bdb23a093b576c49b0aa8ca5997",
+      "source_bytes_preserved": true,
+      "width": 1672,
+      "height": 941
+    },
+    {
+      "concept_id": "C10",
+      "scene_id": "S02",
+      "linked_cuts": [
+        "K02"
+      ],
+      "image_path": "images/C10/S02.png",
+      "selected_file": "S02.png",
+      "generated_source": "C:\\Users\\wseok\\.codex\\generated_images\\01a16e2f-6574-7781-9b5c-95d6256f27b6\\exec-ae11585e-5f2e-4be0-b36b-4b1518ad97d0.png",
+      "final_prompt": "Character identity guide only; show only people explicitly visible in this scene. MN: a tall slim Korean man in his mid-thirties, shoulder-length long black wavy hair, clean-shaven, ivory linen double-breasted suit over an open-collar black shirt. WM: a sturdy Korean woman in her forties, short dark-auburn red pixie haircut, light freckles, dark emerald velvet dinner suit, black loafers. WT: a short East Asian waiter in his sixties, bald with a full white moustache, white shirt, black waistcoat and long black apron. BG1: a Black woman in her forties wearing a silver-grey head scarf and a mustard long dress, at the established rear-left low table. BG2: an East Asian man in his thirties with short black curls and a navy suit, at the established rear-left low table. MN kneels, LEFT supports CLOSED box, RIGHT fingertips at lid before opening. WM hands near chest. Same low table and VERTICAL lamp with rigid head, low clamp present. Open brown sample case remains on left chair. Ring not outside box. Single cinematic still, landscape 16:9, a real start frame BEFORE the specified action, never its completed outcome. No captions, no legible lettering, no numbers, no logo, no watermark, no collage, no extra people or limbs. Keep specified caption area quiet. Only depict characters explicitly present in the scene; identity guide is not a request to add cast.\nUse reference image for exact identities, costumes and garden arrangement. Camera moves closer to a romantic 85mm medium close shot: man on LEFT now kneeling on one knee, looking sincerely at seated woman on RIGHT. His LEFT palm supports the small CLOSED burgundy velvet box from below; his RIGHT fingertips just touch the front lid edge, ready to open it, but there is no gap in the lid and no ring visible. Woman raises both empty hands near her chest in hopeful anticipation. Keep the floor lamp upright and the plain empty saucer and flat black phone on the low table; these may be partly cropped but must not move. Rear pair and waiter remain softly defocused if visible, no new person. No proposal already accepted, no handholding, no text. Box and hand detail clear, faces partly visible, widescreen16:9.",
+      "referenced_image_paths": [
+        "C:\\Users\\wseok\\.codex\\generated_images\\01a16e2f-6574-7781-9b5c-95d6256f27b6\\exec-3056764b-f9ac-4f38-a809-b1aaec92e0e0.png"
+      ],
+      "reference_project_paths": [
+        "images/C10/S01_v2.png"
+      ],
+      "next_motion_camera": "MN이 상자를 열어 은색 고리를 보여준다. WM 왼손이 고리로 향하고 오른손은 무릎으로 내린다.3.5초, 준비 합6.5초. / 85mm 상자·얼굴 일부. 보석 없는 고리, 뚜껑 뒤로.",
+      "caption_space": "첫 3컷은 대사/제목 자막 없음. 이후 하단18% 여백. 고리·손·폰 화면·마지막 클램프의 이동 경로는 가리지 않음.",
+      "scene_start": 3,
+      "scene_end": 6.5,
+      "duration": 3.5,
+      "artist_actual_view": true,
+      "artist_notes": "Kneeling man holds closed box. Woman's anticipation pose. First frame before opening.",
+      "review_status": "ARTIST_VISUAL_CHECKED_PENDING_THREE_REVIEWERS",
+      "flow_motion_verified": false,
+      "sha256": "7a51030d375557eaa2e308a034b75b4e62be5e4995776525b0c496dc957052bd",
+      "byte_count": 1990167,
+      "generated_source_sha256": "7a51030d375557eaa2e308a034b75b4e62be5e4995776525b0c496dc957052bd",
+      "source_bytes_preserved": true,
+      "width": 1672,
+      "height": 941
+    },
+    {
+      "concept_id": "C10",
+      "scene_id": "S03",
+      "linked_cuts": [
+        "K03"
+      ],
+      "image_path": "images/C10/S03.png",
+      "selected_file": "S03.png",
+      "generated_source": "C:\\Users\\wseok\\.codex\\generated_images\\01a16e2f-6574-7781-9b5c-95d6256f27b6\\exec-285184f1-057f-4de3-8519-8c12a132c06b.png",
+      "final_prompt": "Character identity guide only; show only people explicitly visible in this scene. MN: a tall slim Korean man in his mid-thirties, shoulder-length long black wavy hair, clean-shaven, ivory linen double-breasted suit over an open-collar black shirt. WM: a sturdy Korean woman in her forties, short dark-auburn red pixie haircut, light freckles, dark emerald velvet dinner suit, black loafers. WT: a short East Asian waiter in his sixties, bald with a full white moustache, white shirt, black waistcoat and long black apron. BG1: a Black woman in her forties wearing a silver-grey head scarf and a mustard long dress, at the established rear-left low table. BG2: an East Asian man in his thirties with short black curls and a navy suit, at the established rear-left low table. Open box in MN hands, silver ring STILL inside. WM LEFT fingers about to pick it up, RIGHT on lap. White saucer and lamp pool at center-right. Lamp upper pole remains VERTICAL; low clamp not yet slipped. Open brown case on left chair. Before ring pickup. Single cinematic still, landscape 16:9, a real start frame BEFORE the specified action, never its completed outcome. No captions, no legible lettering, no numbers, no logo, no watermark, no collage, no extra people or limbs. Keep specified caption area quiet. Only depict characters explicitly present in the scene; identity guide is not a request to add cast.\nStrict scene continuity from reference: same MN kneeling LEFT, WM sitting RIGHT, same lamp and table. The burgundy velvet box is now OPEN in MN's hands; he supports its base, lid opens backward. Inside black foam sits exactly ONE plain silver circular machined ring, 28 mm across, no gem or diamond. WM's anatomical LEFT thumb and index finger approach it with a clear 2 cm air gap, not touching or holding it yet. Her RIGHT hand is relaxed on her lap, not holding another ring. She leans forward with excited curiosity, looking at the object, not offering her ring finger. MN watches warmly. The white saucer remains EMPTY under the upright lamp and black phone is still flat on table. Open brown sample case on empty left chair, small ivory L still in foam. No extra sample, no duplicate box, no cup. Show ring in box clearly and a visible path from box to light/saucer. Warm cinematic 65mm same-axis 16:9 shot.",
+      "referenced_image_paths": [
+        "C:\\Users\\wseok\\.codex\\generated_images\\01a16e2f-6574-7781-9b5c-95d6256f27b6\\exec-ae11585e-5f2e-4be0-b36b-4b1518ad97d0.png"
+      ],
+      "reference_project_paths": [
+        "images/C10/S02.png"
+      ],
+      "next_motion_camera": "WM이 고리를 집어 손가락 대신 등 아래로 옮겨 한 번 돌려 본다. MN은 빈 상자를 테이블 왼쪽에 내려놓는다.4.5초. / 65mm 측면, 고리 이동과 빈 상자 접촉을 같은 화면.",
+      "caption_space": "첫 3컷은 대사/제목 자막 없음. 이후 하단18% 여백. 고리·손·폰 화면·마지막 클램프의 이동 경로는 가리지 않음.",
+      "scene_start": 6.5,
+      "scene_end": 11,
+      "duration": 4.5,
+      "artist_actual_view": true,
+      "artist_notes": "Open box contains plain ring. Woman's fingers approach before ring pickup. Right-hand/left-hand choreography must be checked in generated motion.",
+      "review_status": "ARTIST_VISUAL_CHECKED_PENDING_THREE_REVIEWERS",
+      "flow_motion_verified": false,
+      "sha256": "fbf00f89d79e69c6dbb3c0f852f41fe27330ff8b70f4e4a11bfcbde4585e010c",
+      "byte_count": 1971849,
+      "generated_source_sha256": "fbf00f89d79e69c6dbb3c0f852f41fe27330ff8b70f4e4a11bfcbde4585e010c",
+      "source_bytes_preserved": true,
+      "width": 1672,
+      "height": 941
+    },
+    {
+      "concept_id": "C10",
+      "scene_id": "S04",
+      "linked_cuts": [
+        "K04"
+      ],
+      "image_path": "images/C10/S04.png",
+      "selected_file": "S04.png",
+      "generated_source": "C:\\Users\\wseok\\.codex\\generated_images\\01a16e2f-6574-7781-9b5c-95d6256f27b6\\exec-2f385d28-1432-4e4f-8166-4b375bc96d17.png",
+      "final_prompt": "Character identity guide only; show only people explicitly visible in this scene. MN: a tall slim Korean man in his mid-thirties, shoulder-length long black wavy hair, clean-shaven, ivory linen double-breasted suit over an open-collar black shirt. WM: a sturdy Korean woman in her forties, short dark-auburn red pixie haircut, light freckles, dark emerald velvet dinner suit, black loafers. WT: a short East Asian waiter in his sixties, bald with a full white moustache, white shirt, black waistcoat and long black apron. BG1: a Black woman in her forties wearing a silver-grey head scarf and a mustard long dress, at the established rear-left low table. BG2: an East Asian man in his thirties with short black curls and a navy suit, at the established rear-left low table. WM LEFT holds ring just above EMPTY saucer; RIGHT hand near phone still on tabletop. MN empty-handed looks down. Lamp pole VERTICAL, low clamp unchanged. Open velvet box table-left. Start before placement or phone lift. Single cinematic still, landscape 16:9, a real start frame BEFORE the specified action, never its completed outcome. No captions, no legible lettering, no numbers, no logo, no watermark, no collage, no extra people or limbs. Keep specified caption area quiet. Only depict characters explicitly present in the scene; identity guide is not a request to add cast.\nUse reference for exact actors, positions and all objects. Same 65mm angle a little lower, focus on hands/table with faces visible above. WM at RIGHT holds the plain silver ring between LEFT thumb and index finger about 5 cm ABOVE the EMPTY white saucer, no contact yet. The ring has already left the velvet box; it is NOT on her ring finger. Her RIGHT hand is empty, hovering beside the same black phone still lying flat on the table, before lifting it. MN remains kneeling at LEFT, now both hands empty near his thighs, eyes slightly lowered as if disappointed. The open burgundy velvet box is now on the LEFT of the tabletop and visibly EMPTY. The single small 6 cm ivory L remains inside open brown case on left chair, not on plate. The black lamp pole stays VERTICAL with its rigid upper head unchanged, illuminated pool on empty saucer. Preserve established waiter standing with tray rear-right and background couple rear-left, out of focus, no extra people. No diagnostic text or graphics yet. 16:9, quieter lower eighteen percent.",
+      "referenced_image_paths": [
+        "C:\\Users\\wseok\\.codex\\generated_images\\01a16e2f-6574-7781-9b5c-95d6256f27b6\\exec-285184f1-057f-4de3-8519-8c12a132c06b.png"
+      ],
+      "reference_project_paths": [
+        "images/C10/S03.png"
+      ],
+      "next_motion_camera": "WM이 고리를 접시에 놓고 폰을 들어 맞춘다. 후보 표시 후합성 화면과 실물 같은 부분을 왼손으로 비교한다.4초. / 65mm 놓기1초·폰 들기1초·비교2초. 필수 정보는 큰 후처리 자막.",
+      "caption_space": "첫 3컷은 대사/제목 자막 없음. 이후 하단18% 여백. 고리·손·폰 화면·마지막 클램프의 이동 경로는 가리지 않음.",
+      "scene_start": 11,
+      "scene_end": 15,
+      "duration": 4,
+      "artist_actual_view": true,
+      "artist_notes": "Ring held above empty saucer, phone still table, empty box left. First frame before placing ring and lifting phone.",
+      "review_status": "ARTIST_VISUAL_CHECKED_PENDING_THREE_REVIEWERS",
+      "flow_motion_verified": false,
+      "sha256": "2ece60260813b9ea98c88c4fd8c9542249cfbb8912ad35b5b84b4af71bf27693",
+      "byte_count": 1952834,
+      "generated_source_sha256": "2ece60260813b9ea98c88c4fd8c9542249cfbb8912ad35b5b84b4af71bf27693",
+      "source_bytes_preserved": true,
+      "width": 1672,
+      "height": 941
+    },
+    {
+      "concept_id": "C10",
+      "scene_id": "S05",
+      "linked_cuts": [
+        "K05"
+      ],
+      "image_path": "images/C10/S05.png",
+      "selected_file": "S05.png",
+      "generated_source": "C:\\Users\\wseok\\.codex\\generated_images\\01a16e2f-6574-7781-9b5c-95d6256f27b6\\exec-1e02f785-1d23-4365-802c-cd115babbf49.png",
+      "final_prompt": "Character identity guide only; show only people explicitly visible in this scene. MN: a tall slim Korean man in his mid-thirties, shoulder-length long black wavy hair, clean-shaven, ivory linen double-breasted suit over an open-collar black shirt. WM: a sturdy Korean woman in her forties, short dark-auburn red pixie haircut, light freckles, dark emerald velvet dinner suit, black loafers. WT: a short East Asian waiter in his sixties, bald with a full white moustache, white shirt, black waistcoat and long black apron. BG1: a Black woman in her forties wearing a silver-grey head scarf and a mustard long dress, at the established rear-left low table. BG2: an East Asian man in his thirties with short black curls and a navy suit, at the established rear-left low table. MN kneels LEFT with eyes lowered, RIGHT empty hand hovering above ivory L-shaped sample STILL resting in OPEN brown case on original left chair. LEFT hand relaxed. White saucer has ONLY silver ring. WM holds phone aimed at it. WT begins lowering tray in background. No lifted folio, no sample already on saucer. Lamp vertical. Single cinematic still, landscape 16:9, a real start frame BEFORE the specified action, never its completed outcome. No captions, no legible lettering, no numbers, no logo, no watermark, no collage, no extra people or limbs. Keep specified caption area quiet. Only depict characters explicitly present in the scene; identity guide is not a request to add cast.\nReference 1 is the room and current continuity; reference 2 gives full view of left chair with open sample case. Camera widens slightly to 50mm so the man's actual reach into the LEFT chair case is visible. MN remains kneeling at LEFT, looking down toward that case, his RIGHT hand EMPTY and hovering 3 cm above the single SMALL 6 cm ivory L-shaped piece still in its foam recess. His left hand is relaxed on thigh, no object. He has not grasped or lifted the L piece. WM at RIGHT now holds ONE black smartphone in her RIGHT hand angled down toward the white saucer, which contains ONLY the plain silver ring; her left hand empty by saucer. Screen can be dark/simple, no text or invented interface. Open empty burgundy box remains table left. Same upright black lamp and low clamp unchanged. Waiter rear-right begins lowering his tray with folded mini tripod, not yet kneeling; the rear-left pair remain. No second L piece, no sample on saucer yet, no duplicate phone. Calm sincere commercial photography, 16:9.",
+      "referenced_image_paths": [
+        "C:\\Users\\wseok\\.codex\\generated_images\\01a16e2f-6574-7781-9b5c-95d6256f27b6\\exec-2f385d28-1432-4e4f-8166-4b375bc96d17.png",
+        "C:\\Users\\wseok\\.codex\\generated_images\\01a16e2f-6574-7781-9b5c-95d6256f27b6\\exec-3056764b-f9ac-4f38-a809-b1aaec92e0e0.png"
+      ],
+      "reference_project_paths": [
+        "images/C10/S04.png",
+        "images/C10/S01_v2.png"
+      ],
+      "next_motion_camera": "MN이 흰 L형 샘플을 바로 집어 같은 접시의 고리 옆에 보탠다. WM이 폰 구도를 조금 넓히자 MN 표정이 밝아진다. 말이나 사례판 펼침 없음. WT는 배경에서 쟁반을 내려두며 무릎을 낮춘다.4초. / 50mm MN의 시선→실물 집기→접시 추가를 한 동선. 열린 케이스는 의자에 그대로.",
+      "caption_space": "첫 3컷은 대사/제목 자막 없음. 이후 하단18% 여백. 고리·손·폰 화면·마지막 클램프의 이동 경로는 가리지 않음.",
+      "scene_start": 15,
+      "scene_end": 19,
+      "duration": 4,
+      "artist_actual_view": true,
+      "artist_notes": "Man's hand reaches over L still in open case; saucer has ring only. First frame before placing second sample.",
+      "review_status": "ARTIST_VISUAL_CHECKED_PENDING_THREE_REVIEWERS",
+      "flow_motion_verified": false,
+      "sha256": "63da3c0db32197ef09841b25e36110746c679c138f21cf99f00a5b1f5fcb6b97",
+      "byte_count": 2290579,
+      "generated_source_sha256": "63da3c0db32197ef09841b25e36110746c679c138f21cf99f00a5b1f5fcb6b97",
+      "source_bytes_preserved": true,
+      "width": 1672,
+      "height": 941
+    },
+    {
+      "concept_id": "C10",
+      "scene_id": "S06",
+      "linked_cuts": [
+        "K06"
+      ],
+      "image_path": "images/C10/S06_v2.png",
+      "selected_file": "S06_v2.png",
+      "generated_source": "C:\\Users\\wseok\\.codex\\generated_images\\01a16e2f-6574-7781-9b5c-95d6256f27b6\\exec-3b0ca7e5-421b-4aa6-85b9-1c0465a11c08.png",
+      "final_prompt": "Make a minimal localized continuity edit to REFERENCE 1, the same 16:9 cinematic garden image. Keep every person, expression, pose, hands, folded tripod on the waiter's tray, the woman's handheld phone, ring box, empty open case, lamp geometry, lighting and camera exactly unchanged. ONLY correct the small white object on the saucer at center-right of table. It is the same FLAT IVORY L-SHAPED TEST COUPON shown in reference 2 beside the silver ring: a small solid 6cm letter-L silhouette with two equal rectangular arms at right angles, cut from a 4mm thick flat sheet. Place it LYING FLAT on the saucer beside the unchanged silver ring, not upright. Its broad flat L-shaped face must be visible from the camera. The current vertical white post is wrong and must be entirely removed/replaced by that low flat L. It is not a cup, candle, cylinder, food or bracket bent out of plane. Copy the flat L specimen shape from reference 2. The dish still holds exactly two industrial test pieces, a plain silver ring on left and flat ivory L on right. Do not change other pixels or scene actions. No lettering.",
+      "referenced_image_paths": [
+        "C:\\Users\\wseok\\.codex\\generated_images\\01a16e2f-6574-7781-9b5c-95d6256f27b6\\exec-bc11bb81-adee-454e-938e-4bf997148eb5.png",
+        "C:\\Users\\wseok\\.codex\\generated_images\\01a16e2f-6574-7781-9b5c-95d6256f27b6\\exec-b6f09fc1-8b31-48dc-b6aa-dd987c11ea9a.png"
+      ],
+      "reference_project_paths": [
+        "images/C10/S06.png",
+        "images/C10/S09_v5.png"
+      ],
+      "next_motion_camera": "WT가 접힌 미니삼각대를 들어 한 번에 다리를 펴 테이블 앞오른쪽에 놓는다.2.5초. 폰 장착은 다음 컷. / 65mm 손·삼각대·진지한 얼굴. 한번 펴기만, 조절 반복 없음.",
+      "caption_space": "첫 3컷은 대사/제목 자막 없음. 이후 하단18% 여백. 고리·손·폰 화면·마지막 클램프의 이동 경로는 가리지 않음.",
+      "scene_start": 19,
+      "scene_end": 21.5,
+      "duration": 2.5,
+      "artist_actual_view": true,
+      "artist_notes": "Folded tripod on waiter's tray and hands poised before lifting. Phone still handheld. S06_v2 lays the L flat to prevent shape/orientation drift at S08–S10.",
+      "review_status": "ARTIST_VISUAL_CHECKED_PENDING_THREE_REVIEWERS",
+      "flow_motion_verified": false,
+      "sha256": "c6365bbd90c92ebd92ceb370d08f88505920656b14fb6c3a04935e6539926003",
+      "byte_count": 2212427,
+      "generated_source_sha256": "c6365bbd90c92ebd92ceb370d08f88505920656b14fb6c3a04935e6539926003",
+      "source_bytes_preserved": true,
+      "width": 1672,
+      "height": 941
+    },
+    {
+      "concept_id": "C10",
+      "scene_id": "S07",
+      "linked_cuts": [
+        "K07"
+      ],
+      "image_path": "images/C10/S07_v2.png",
+      "selected_file": "S07_v2.png",
+      "generated_source": "C:\\Users\\wseok\\.codex\\generated_images\\01a16e2f-6574-7781-9b5c-95d6256f27b6\\exec-fc5a69e3-384e-41fc-9e49-4ab3234045fd.png",
+      "final_prompt": "Minimal localized prop continuity correction to REFERENCE 1, the garden scene with woman holding a landscape phone just ABOVE an empty mini tripod clamp. Preserve that BEFORE-MOUNTING phone action exactly: phone suspended in her right hand, empty clamp below, not already mounted. Preserve all five people, hands, expressions, chair/case/tray, pole and coupling, lighting, composition and camera. ONLY replace the current small upright white post on the white saucer with the EXACT flat ivory L-shaped test coupon on that same saucer in REFERENCE 2. It lies FLAT, its two rectangular arms at a right angle visible as a flat letter L, solid 4mm-thick sheet, 6cm overall. Same ring lies unchanged to its left. No standing piece, no cup, no hollow cylinder, no candle. The flat L from reference 2 must be at precisely the same position and orientation on the saucer in reference 1. Keep every other object/action unchanged. No text, logos or new objects.",
+      "referenced_image_paths": [
+        "C:\\Users\\wseok\\.codex\\generated_images\\01a16e2f-6574-7781-9b5c-95d6256f27b6\\exec-75e1c045-f1a1-4980-8161-8e30bd5c1326.png",
+        "C:\\Users\\wseok\\.codex\\generated_images\\01a16e2f-6574-7781-9b5c-95d6256f27b6\\exec-3b0ca7e5-421b-4aa6-85b9-1c0465a11c08.png"
+      ],
+      "reference_project_paths": [
+        "images/C10/S07.png",
+        "images/C10/S06_v2.png"
+      ],
+      "next_motion_camera": "21.5~22.5초 WM이 폰을 클립에 고정한다.22.5~23.5초 화면이 넓어져 기존 후경의 샘플 촬영을 공개한다. WM이 손을 빼고 자세를 낮추며 낮은 조명 기둥을 가볍게 스친다.23.5~24.5초 덜 잠긴 낮은 클램프가 미끄러져 상부 기둥 전체가 왼쪽8도 기울고 빛이 접시를 벗어난다.24.5~25.5초 둘의 시선이 빛에서 같은 낮은 결합부로 동시에 내려간다. / 28mm 짧은 달리 아웃. 낮은 조인트·기둥 전체·접시 빛 이탈을 같은 프레임. 위쪽 램프 관절은 고정. 총4초.",
+      "caption_space": "첫 3컷은 대사/제목 자막 없음. 이후 하단18% 여백. 고리·손·폰 화면·마지막 클램프의 이동 경로는 가리지 않음.",
+      "scene_start": 21.5,
+      "scene_end": 25.5,
+      "duration": 4,
+      "artist_actual_view": true,
+      "artist_notes": "Phone held above empty tripod clamp before mounting. Lamp upright. Exactly five people. S07_v2 corrects L to same flat orientation as S06_v2, S08, S09, S10.",
+      "review_status": "ARTIST_VISUAL_CHECKED_PENDING_THREE_REVIEWERS",
+      "flow_motion_verified": false,
+      "sha256": "df116f2cbe0a4e320ad170e4875218063adaf87275ff858d85469667ed5e5cb2",
+      "byte_count": 2275879,
+      "generated_source_sha256": "df116f2cbe0a4e320ad170e4875218063adaf87275ff858d85469667ed5e5cb2",
+      "source_bytes_preserved": true,
+      "width": 1671,
+      "height": 941
+    },
+    {
+      "concept_id": "C10",
+      "scene_id": "S08",
+      "linked_cuts": [
+        "K08"
+      ],
+      "image_path": "images/C10/S08_v2.png",
+      "selected_file": "S08_v2.png",
+      "generated_source": "C:\\Users\\wseok\\.codex\\generated_images\\01a16e2f-6574-7781-9b5c-95d6256f27b6\\exec-d87c1876-1895-4b29-b8a4-ea8534337e83.png",
+      "final_prompt": "Edit this exact 16:9 cinematic close-up, retaining the warm sunset garden, tabletop, ring box, ring and flat solid ivory L-shaped test plate on white saucer, landscape phone on mini tripod, low lamp coupling at the lower center and single perfectly straight black upper pole tilted left. Correct ONLY the positions of the two hands. This is the beginning of a reach, both hands are still well away from the pole, and neither hand touches anything. Move the man's entire ivory-sleeved right hand at least 220 pixels LEFT from its current location, leaving at least 15 centimeters of clearly visible empty air from the nearest fingertip to the black pole. Move the woman's entire emerald-sleeved left hand at least 270 pixels RIGHT, leaving at least 15 centimeters of clearly visible empty air from her nearest fingertip to the side knob and pole. The woman's index finger MUST NOT rest on the knob, no fingertip may touch any metal. Two separate gently outstretched hands approaching each other from opposite side edges, long clear gap at center with the isolated pole and knob. Her hand occupies far right third; his hand occupies far left third. Preserve anatomical five fingers, sleeves, all object positions, pole geometry and light patch on bare table LEFT of saucer. This first frame must precede reaching or grasping. No text or overlay. Do not change props or crop.",
+      "referenced_image_paths": [
+        "C:\\Users\\wseok\\.codex\\generated_images\\01a16e2f-6574-7781-9b5c-95d6256f27b6\\exec-868633c9-1104-4fe2-abec-399c2dc9bb71.png"
+      ],
+      "reference_project_paths": [
+        "images/C10/S08.png"
+      ],
+      "next_motion_camera": "두 사람이 같은 낮은 연결부로 손을 내민다. MN 오른손은 조인트 바로 위 상부 기둥, WM 왼손은 바로 아래 고정부를 향한다. 손이2cm 남은 지점에서 넓은 구도로 컷.3초. / 85mm 따뜻한 손 근접. 기둥의 기울어진 가장자리를 남겨 직전 원인을 유지. 손을 서로 잡게 하지 않음.",
+      "caption_space": "첫 3컷은 대사/제목 자막 없음. 이후 하단18% 여백. 고리·손·폰 화면·마지막 클램프의 이동 경로는 가리지 않음.",
+      "scene_start": 25.5,
+      "scene_end": 28.5,
+      "duration": 3,
+      "artist_actual_view": true,
+      "artist_notes": "S08_v2 removes premature woman's fingertip/knob contact and pulls both hands apart with clearly visible air gaps. Pole is tilted, light patch on bare table left of samples. Low coupling remains visible in close-up; exact 15cm is approximate, not measured.",
+      "review_status": "ARTIST_VISUAL_CHECKED_PENDING_THREE_REVIEWERS",
+      "flow_motion_verified": false,
+      "sha256": "b5f6a1a1a02500c7e1cc25066f2e48c9179fecceb73754492e89f795902090fe",
+      "byte_count": 1780051,
+      "generated_source_sha256": "b5f6a1a1a02500c7e1cc25066f2e48c9179fecceb73754492e89f795902090fe",
+      "source_bytes_preserved": true,
+      "width": 1672,
+      "height": 941
+    },
+    {
+      "concept_id": "C10",
+      "scene_id": "S09",
+      "linked_cuts": [
+        "K09"
+      ],
+      "image_path": "images/C10/S09_v5.png",
+      "selected_file": "S09_v5.png",
+      "generated_source": "C:\\Users\\wseok\\.codex\\generated_images\\01a16e2f-6574-7781-9b5c-95d6256f27b6\\exec-b6f09fc1-8b31-48dc-b6aa-dd987c11ea9a.png",
+      "final_prompt": "Create a NEW CAMERA SHOT of the same moment in image 1, a lower 50mm medium view centered on the LOW lamp coupling, the two approaching hands, and the sample saucer. Use image 1 as scene/state/identity reference and image 2 ONLY for the ivory L-shaped piece resting in the left-chair case. Crop actors at shoulders or chest; the lamp head may be OUT OF FRAME above. This is still BEFORE repair. Foreground center: same weighted base and vertical lower stem, same round side-knob coupling at 35 cm, below the 45 cm tabletop. From that coupling the ONE straight upper pole tilts LEFT eight degrees and exits the upper edge, with no second hinge or bend. From LEFT an ivory suit sleeve ends in MN's open RIGHT hand, fingers 2 cm away from upper pole just above coupling. From RIGHT an emerald velvet sleeve ends in WM's open LEFT hand, fingers 2 cm away from lower fixed stem just below coupling. Neither hand touches yet. Two hands ONLY near lamp. On the tabletop behind and to right, show clearly ONE flat white saucer with EXACTLY TWO SMALL SOLID test pieces: a thin plain SILVER RING and an ivory FLAT L-SHAPED plate laid flat, two straight square-ended rectangular arms joined at 90 degrees with an open inner corner. The ivory L is visibly a little carpenter-square shape, NOT a cup, cylinder, spool or upright object. Its outline must be clearly L-shaped from this elevated-enough view. A distinct warm oval of lamp light falls on BARE tabletop LEFT of the saucer, missing the two objects. Black phone stays mounted landscape in mini tripod on table right. Open empty burgundy box table left, empty brown case on left chair can be edge-cropped. Keep sunset romantic lighting but no new items or letters. 16:9. This is a closer revealing angle, not a repaired/end state.",
+      "referenced_image_paths": [
+        "C:\\Users\\wseok\\.codex\\generated_images\\01a16e2f-6574-7781-9b5c-95d6256f27b6\\exec-2039a4ed-7d9e-4be3-a41e-f0f6b80eadcb.png",
+        "C:\\Users\\wseok\\.codex\\generated_images\\01a16e2f-6574-7781-9b5c-95d6256f27b6\\exec-3056764b-f9ac-4f38-a809-b1aaec92e0e0.png"
+      ],
+      "reference_project_paths": [
+        "images/C10/S09_v3.png",
+        "images/C10/S01_v2.png"
+      ],
+      "next_motion_camera": "두 손이 서로 대신 같은 낮은 결합부의 위·아래를 잡는다. WM이 하부를 지지하고 MN이 상부 기둥 전체를 수직으로 되돌려 두 손이 함께 유지한다(첫3초). 조명 머리의 각도 변경 없이 빛이 접시의 두 샘플로 돌아온다(다음1초). WT가 폰 화면과 실물을 비교하고 둘이 웃는다(마지막3.5초). 풀린 관절을 두 손이 계속 지지한다. / 50mm 낮은 조인트·전체 기둥 방향·샘플 빛을 한 구도. 그립→수직 복구→빛 복귀를7.5초. 제3의 손이나 위 경첩 조절 없음. PD: use approved low 50mm medium; heads/top lamp may be out of frame. Preserve single straight pole, low coupling, support hands, specimens and light return.",
+      "caption_space": "첫 3컷은 대사/제목 자막 없음. 이후 하단18% 여백. 고리·손·폰 화면·마지막 클램프의 이동 경로는 가리지 않음.",
+      "scene_start": 28.5,
+      "scene_end": 36,
+      "duration": 7.5,
+      "artist_actual_view": true,
+      "artist_notes": "PD-approved low 50mm medium, heads and lamp head outside top frame; low coupling, straight left-tilted upper pole, separated hands, ring + flat L, mounted phone visible. Two hands still not gripping. Use S07/S10 as full-rig references; no second upper joint bend. Specified 2cm gap approximate. Rebuild selected after four superseded geometry/prop attempts.",
+      "review_status": "ARTIST_VISUAL_CHECKED_PENDING_THREE_REVIEWERS",
+      "flow_motion_verified": false,
+      "sha256": "84de54942c3ca591648fb193f3fb54896a779c4b32dcb57c49d929869cbaa467",
+      "byte_count": 2027977,
+      "generated_source_sha256": "84de54942c3ca591648fb193f3fb54896a779c4b32dcb57c49d929869cbaa467",
+      "source_bytes_preserved": true,
+      "width": 1672,
+      "height": 941
+    },
+    {
+      "concept_id": "C10",
+      "scene_id": "S10",
+      "linked_cuts": [
+        "K10"
+      ],
+      "image_path": "images/C10/S10.png",
+      "selected_file": "S10.png",
+      "generated_source": "C:\\Users\\wseok\\.codex\\generated_images\\01a16e2f-6574-7781-9b5c-95d6256f27b6\\exec-a520befe-eb91-4bee-9f9d-26a11c2e9874.png",
+      "final_prompt": "Character identity guide only; show only people explicitly visible in this scene. MN: a tall slim Korean man in his mid-thirties, shoulder-length long black wavy hair, clean-shaven, ivory linen double-breasted suit over an open-collar black shirt. WM: a sturdy Korean woman in her forties, short dark-auburn red pixie haircut, light freckles, dark emerald velvet dinner suit, black loafers. WT: a short East Asian waiter in his sixties, bald with a full white moustache, white shirt, black waistcoat and long black apron. BG1: a Black woman in her forties wearing a silver-grey head scarf and a mustard long dress, at the established rear-left low table. BG2: an East Asian man in his thirties with short black curls and a navy suit, at the established rear-left low table. Stable final-start wide of same garden, exactly five people. MN RIGHT hand supports upper-pole section just ABOVE low coupling and WM LEFT supports fixed section just BELOW, holding the formerly loose joint so pole is VERTICAL. Rigid lamp head illuminates BOTH silver ring and ivory L sample on saucer. Phone mounted, open brown case remains on chair. WT by phone, rear couple at original table with blue sample. Hands must keep supporting, no clasp. Story top seventy-two percent, clean lower title area. Single cinematic still, landscape 16:9, a real start frame BEFORE the specified action, never its completed outcome. No captions, no legible lettering, no numbers, no logo, no watermark, no collage, no extra people or limbs. Keep specified caption area quiet. Only depict characters explicitly present in the scene; identity guide is not a request to add cast.\nUse reference 1 for the exact five actors, clothing, garden layout, furniture, full-size vertical lamp and sunset. Use reference 2 for the correct flat ivory L-shaped solid sample and ring, mounted landscape phone, empty burgundy box, and the low coupling with side knob. Make a new wider final first frame, NOT a crop of reference 2. MN is still kneeling left and WM seated on right low chair, both leaning down to the same LOW joint at the table's front edge. His RIGHT hand wraps the straight black pole immediately ABOVE the low coupling; her LEFT hand wraps the lower pole immediately BELOW it. Both clearly support the LOW joint below tabletop height. Hands are vertically separated by the black coupling; they do NOT hold each other's hands. The lamp is now perfectly straight VERTICAL from weighted floor base to top. No tilt, no upper bending hinge; rigid top arm and head remain fixed. A concentrated warm pool of inspection light shines directly onto BOTH specimens on the saucer (silver plain circular ring and flat solid ivory L shape with two 90-degree rectangular arms, like an L cut from a 4mm sheet). Show the L LYING FLAT on the saucer, visibly an L from the camera: NOT standing, NOT a cup, NOT a cylinder, NO hollow objects. Landscape phone is now fully mounted in the tripod clip. Main couple look earnestly at their sample; waiter kneels at right, empty wooden tray on ground. Rear existing couple inspect a blue square sample at their original table. Only five people total. Frame slightly higher with ample quiet dark ground at lower 23% for later event title overlay, without obscuring either support hand or the pole base. No text. Cinematic romantic sincere atmosphere makes the anticlimax funny, not exaggerated smiling. 35mm locked wide, 16:9. Preserve identities exactly.",
+      "referenced_image_paths": [
+        "C:\\Users\\wseok\\.codex\\generated_images\\01a16e2f-6574-7781-9b5c-95d6256f27b6\\exec-75e1c045-f1a1-4980-8161-8e30bd5c1326.png",
+        "C:\\Users\\wseok\\.codex\\generated_images\\01a16e2f-6574-7781-9b5c-95d6256f27b6\\exec-b6f09fc1-8b31-48dc-b6aa-dd987c11ea9a.png"
+      ],
+      "reference_project_paths": [
+        "images/C10/S07.png",
+        "images/C10/S09_v5.png"
+      ],
+      "next_motion_camera": "둘은 조인트를 계속 받친 채 눈을 한 번 맞추고 같은 샘플을 본다.36초부터 행사 정보5초 고정. 손을 놓아 고장 해결이 취소되지 않음. / 35mm 고정 와이드. 지지손·수직 기둥·조명된 샘플을 상단72%, 하단 제목판.",
+      "caption_space": "첫 3컷은 대사/제목 자막 없음. 이후 하단18% 여백. 고리·손·폰 화면·마지막 클램프의 이동 경로는 가리지 않음.",
+      "scene_start": 36,
+      "scene_end": 41,
+      "duration": 5,
+      "artist_actual_view": true,
+      "artist_notes": "Full five-person final wide, straight vertical column, man hand above and woman hand below same low coupling holding support. Lamp light back on both samples, phone mounted, empty case/tray. Lower event title is postproduction and must not cover supporting hands. Continuous support must remain in motion.",
+      "review_status": "ARTIST_VISUAL_CHECKED_PENDING_THREE_REVIEWERS",
+      "flow_motion_verified": false,
+      "sha256": "bee8b14b1a315881cfee5dfa84cb841715af4081b04cddec5f82d1799e3cb395",
+      "byte_count": 2517882,
+      "generated_source_sha256": "bee8b14b1a315881cfee5dfa84cb841715af4081b04cddec5f82d1799e3cb395",
+      "source_bytes_preserved": true,
+      "width": 1672,
+      "height": 941
+    }
+  ],
+  "extra_versions": [
+    {
+      "concept_id": "C10",
+      "scene_id": "S01",
+      "image_path": "images/C10/S01.png",
+      "generated_source": "C:\\Users\\wseok\\.codex\\generated_images\\01a16e2f-6574-7781-9b5c-95d6256f27b6\\exec-3fad4599-12f9-4764-ade8-47d947195484.png",
+      "final_prompt": "Character identity guide only; show only people explicitly visible in this scene. MN: a tall slim Korean man in his mid-thirties, shoulder-length long black wavy hair, clean-shaven, ivory linen double-breasted suit over an open-collar black shirt. WM: a sturdy Korean woman in her forties, short dark-auburn red pixie haircut, light freckles, dark emerald velvet dinner suit, black loafers. WT: a short East Asian waiter in his sixties, bald with a full white moustache, white shirt, black waistcoat and long black apron. BG1: a Black woman in her forties wearing a silver-grey head scarf and a mustard long dress, at the established rear-left low table. BG2: an East Asian man in his thirties with short black curls and a navy suit, at the established rear-left low table. Dusk garden, low table forty-five centimeters. MN LEFT just beginning to bend knees holding CLOSED burgundy box; WM seated RIGHT. An OPEN brown folio-style sample case on MN's empty low chair contains one ivory L-shaped sample resting in an open foam recess, not clipped. Black lamp at front center stands VERTICAL, visible low angle-clamp at thirty-five centimeters joining lower base and upper pole; upper head joints locked rigid. BG1/BG2 already kneel facing each other at same rear-left low table, softly defocused. WT tray with folded mini tripod. Before kneel. Single cinematic still, landscape 16:9, a real start frame BEFORE the specified action, never its completed outcome. No captions, no legible lettering, no numbers, no logo, no watermark, no collage, no extra people or limbs. Keep specified caption area quiet. Only depict characters explicitly present in the scene; identity guide is not a request to add cast.\nProduction design: premium cinematic romantic commercial at blue-hour dusk in a small lush garden terrace, warm fairy-light bokeh and a few candle lanterns; serious sincere emotion. Exactly FIVE people: main couple closest, waiter standing softly defocused behind right, one established couple kneeling at a separate low table at rear left. No other diners. Main round wooden table is LOW, 45 cm tall; the woman sits on a low chair at screen right. Tall long-haired ivory-suited man at screen left holds a CLOSED small burgundy velvet box with both hands at waist level, knees only beginning to bend, neither knee touching floor yet. No ring visible. To his left a second empty low chair holds an OPEN brown folio sample case with one white L-shaped industrial piece lying in its foam recess. On main tabletop: ONE empty white saucer and ONE black smartphone lying flat. A compact black floor inspection lamp is at FRONT CENTER between the viewer and table: weighted round floor base, 35 cm vertical lower stem, clearly visible single round adjustable pivot clamp at that low height, then a straight vertical upper stem, a short RIGID fixed top arm and a small down-facing lamp head aimed at saucer. Upper arm/head have NO loose joint, no gooseneck. Lamp total height about 100 cm. Pole vertical before the future slip. The low pivot must be visible below tabletop height. Waiter's tray contains one folded black mini phone tripod. Keep actual surfaces tactile and faces distinct from previous concepts. Single coherent 16:9 wide photograph, no text.",
+      "referenced_image_paths": [],
+      "review_status": "SUPERSEDED_NOT_FOR_FLOW",
+      "reason": "Incorrect oversized/bent sample and cup; replaced with S01_v2.",
+      "sha256": "a922ec9695cf2f29b9cec3a90789cb84097cb4dfc16793d11b9176b78e26a251",
+      "byte_count": 2394336,
+      "generated_source_sha256": "a922ec9695cf2f29b9cec3a90789cb84097cb4dfc16793d11b9176b78e26a251",
+      "source_bytes_preserved": true,
+      "width": 1672,
+      "height": 940
+    },
+    {
+      "concept_id": "C10",
+      "scene_id": "S06",
+      "image_path": "images/C10/S06.png",
+      "generated_source": "C:\\Users\\wseok\\.codex\\generated_images\\01a16e2f-6574-7781-9b5c-95d6256f27b6\\exec-bc11bb81-adee-454e-938e-4bf997148eb5.png",
+      "final_prompt": "Character identity guide only; show only people explicitly visible in this scene. MN: a tall slim Korean man in his mid-thirties, shoulder-length long black wavy hair, clean-shaven, ivory linen double-breasted suit over an open-collar black shirt. WM: a sturdy Korean woman in her forties, short dark-auburn red pixie haircut, light freckles, dark emerald velvet dinner suit, black loafers. WT: a short East Asian waiter in his sixties, bald with a full white moustache, white shirt, black waistcoat and long black apron. BG1: a Black woman in her forties wearing a silver-grey head scarf and a mustard long dress, at the established rear-left low table. BG2: an East Asian man in his thirties with short black curls and a navy suit, at the established rear-left low table. WT low beside table, BOTH hands poised at folded mini tripod resting on tray, before grasping. No tripod on main table yet. WM holds phone. Ring and ivory L-shaped sample already lie on same saucer; open brown case stays on empty chair. Lamp VERTICAL. Rear couple remains in established low kneeling pose. Single cinematic still, landscape 16:9, a real start frame BEFORE the specified action, never its completed outcome. No captions, no legible lettering, no numbers, no logo, no watermark, no collage, no extra people or limbs. Keep specified caption area quiet. Only depict characters explicitly present in the scene; identity guide is not a request to add cast.\nReference fixes all five character identities, clothes, garden and exact lamp/table/case. Shift camera slightly toward the right to make the SAME bald white-moustached waiter the foreground focus; do not invent another waiter. He now kneels beside the table at front-right. His wooden tray rests flat on the ground beside his knee, with one FOLDED black MINI tripod lying horizontally on it. Both his bare hands hover 2 cm above the folded tripod, ready to pick it up but not yet touching. Its legs are folded together, empty phone clamp at top; no phone attached. No tripod anywhere else. In clear background/context WM holds her black phone in RIGHT hand, MN hands free. On the original white saucer now lie TWO objects only: same plain 28 mm silver ring and the small 6 cm ivory L-shaped piece. On empty left chair the brown sample case remains OPEN but its foam recess is now EMPTY. Open velvet box stays table-left. Lamp pole remains absolutely vertical, top arm/head rigid, low clamp unchanged. Couple and established rear pair can be partly cropped; no extras. Professional serious expression as if preparing ceremonial equipment. 65mm 16:9 shot, hands/tripod clear, lower caption-safe margin.",
+      "referenced_image_paths": [
+        "C:\\Users\\wseok\\.codex\\generated_images\\01a16e2f-6574-7781-9b5c-95d6256f27b6\\exec-1e02f785-1d23-4365-802c-cd115babbf49.png"
+      ],
+      "review_status": "SUPERSEDED_NOT_FOR_FLOW",
+      "reason": "L sample upright; corrected to flat L by S06_v2.",
+      "sha256": "65da0ca1a41cad501bba56f53d153531d1ee9ae298713c818f5a7d6b5b7c442d",
+      "byte_count": 2354838,
+      "generated_source_sha256": "65da0ca1a41cad501bba56f53d153531d1ee9ae298713c818f5a7d6b5b7c442d",
+      "source_bytes_preserved": true,
+      "width": 1672,
+      "height": 941
+    },
+    {
+      "concept_id": "C10",
+      "scene_id": "S07",
+      "image_path": "images/C10/S07.png",
+      "generated_source": "C:\\Users\\wseok\\.codex\\generated_images\\01a16e2f-6574-7781-9b5c-95d6256f27b6\\exec-75e1c045-f1a1-4980-8161-8e30bd5c1326.png",
+      "final_prompt": "Character identity guide only; show only people explicitly visible in this scene. MN: a tall slim Korean man in his mid-thirties, shoulder-length long black wavy hair, clean-shaven, ivory linen double-breasted suit over an open-collar black shirt. WM: a sturdy Korean woman in her forties, short dark-auburn red pixie haircut, light freckles, dark emerald velvet dinner suit, black loafers. WT: a short East Asian waiter in his sixties, bald with a full white moustache, white shirt, black waistcoat and long black apron. BG1: a Black woman in her forties wearing a silver-grey head scarf and a mustard long dress, at the established rear-left low table. BG2: an East Asian man in his thirties with short black curls and a navy suit, at the established rear-left low table. WM RIGHT holds phone five centimeters above EMPTY tripod clip, before mounting. Lamp upper pole still VERTICAL with its LOW angle-clamp at thirty-five centimeters intact-looking but not fully tightened; all upper lamp-head joints locked rigid. Light currently falls on BOTH ring and L sample on saucer. Her forearm is clear of pole before the later light brush. Main couple has not noticed a problem yet. Existing rear couple already kneels at same table, partly cropped. Before clamp slip, no leaning lamp or displaced light yet. Single cinematic still, landscape 16:9, a real start frame BEFORE the specified action, never its completed outcome. No captions, no legible lettering, no numbers, no logo, no watermark, no collage, no extra people or limbs. Keep specified caption area quiet. Only depict characters explicitly present in the scene; identity guide is not a request to add cast.\nUse reference for exact five people, garden, positions, lamp design, table, two samples and empty case. Main couple same sides, waiter kneeling right. The mini tripod has now been unfolded and stands with THREE legs on the FRONT-RIGHT quadrant of the main tabletop, its EMPTY phone clamp about 20 cm above the tabletop, camera mount angled down toward saucer. WM holds the ONE black smartphone with her RIGHT hand FIVE centimeters above the empty clamp, ready to mount, not installed yet. The phone is landscape orientation; clear air gap between phone and clamp. Her LEFT hand is empty on her lap. Lamp's continuous upper pole is VERTICAL above the low round angle-lock clamp at 35 cm from ground. The lower post and weighted base are fixed. The short top arm and head are rigidly locked, no sagging. The pool of lamp light currently centers BOTH silver ring and small ivory L on the ONE saucer. No contact with lamp yet. MN hands free, hopeful interest in samples; WT empty hands relaxed after setting tripod down, tray on ground now empty. Rear-left same two people kneel at original table, blue square sample and a second phone faintly visible, no new diners. 28mm slightly wider shot, lower joint and hands have clear future space, bottom margin quiet, no text.",
+      "referenced_image_paths": [
+        "C:\\Users\\wseok\\.codex\\generated_images\\01a16e2f-6574-7781-9b5c-95d6256f27b6\\exec-bc11bb81-adee-454e-938e-4bf997148eb5.png"
+      ],
+      "review_status": "SUPERSEDED_NOT_FOR_FLOW",
+      "reason": "L sample upright; corrected to flat L by S07_v2.",
+      "sha256": "5a496a5b002657c867fa47adcddd3c670eaa9c83a769fded2003e1dad42e1f37",
+      "byte_count": 2353220,
+      "generated_source_sha256": "5a496a5b002657c867fa47adcddd3c670eaa9c83a769fded2003e1dad42e1f37",
+      "source_bytes_preserved": true,
+      "width": 1672,
+      "height": 941
+    },
+    {
+      "concept_id": "C10",
+      "scene_id": "S08",
+      "image_path": "images/C10/S08.png",
+      "generated_source": "C:\\Users\\wseok\\.codex\\generated_images\\01a16e2f-6574-7781-9b5c-95d6256f27b6\\exec-868633c9-1104-4fe2-abec-399c2dc9bb71.png",
+      "final_prompt": "Character identity guide only; show only people explicitly visible in this scene. MN: a tall slim Korean man in his mid-thirties, shoulder-length long black wavy hair, clean-shaven, ivory linen double-breasted suit over an open-collar black shirt. WM: a sturdy Korean woman in her forties, short dark-auburn red pixie haircut, light freckles, dark emerald velvet dinner suit, black loafers. WT: a short East Asian waiter in his sixties, bald with a full white moustache, white shirt, black waistcoat and long black apron. BG1: a Black woman in her forties wearing a silver-grey head scarf and a mustard long dress, at the established rear-left low table. BG2: an East Asian man in his thirties with short black curls and a navy suit, at the established rear-left low table. Tight warm closeup after established clamp failure. Black upper pole edge is visibly angled LEFT eight degrees; light remains off samples. MN RIGHT hand enters from left and WM LEFT from right, both still fifteen centimeters from the SAME LOW coupling, before reaching. His target is upper-pole section just above coupling, hers fixed lower section just below. Clamp mostly below crop, tilted pole edge remains visible. No clasped hands, no restored vertical lamp. Single cinematic still, landscape 16:9, a real start frame BEFORE the specified action, never its completed outcome. No captions, no legible lettering, no numbers, no logo, no watermark, no collage, no extra people or limbs. Keep specified caption area quiet. Only depict characters explicitly present in the scene; identity guide is not a request to add cast.\nUse reference for exact low clamp and sleeve/hand identities, tilted upper pole, table and two samples. This is an EARLIER moment in the hand approach, with hands still FARTHER APART. Romantic 85mm tight close-up: only MN's ivory-sleeved RIGHT hand entering from LEFT and WM's emerald-sleeved LEFT hand entering from RIGHT, both reaching toward the SAME low coupling but still FIFTEEN centimeters away from their intended grip. The man targets the upper pole just above coupling, woman targets vertical lower post just below coupling. Both palms open, neither metal contact nor hand-holding. The black upper pole is still tilted LEFT, not repaired. Frame the two hands and the angled pole edge warmly; most of the bulky low coupling is partly hidden at the bottom crop edge so the approaching hands momentarily suggest romance. Keep at least the tilted pole edge visible as causal clue. In the blurred background a warm oval light patch misses the plate to LEFT; one ring and the same FLAT white L plate remain on saucer to RIGHT. Phone remains mounted but may be cropped. No new body, no extra hand, no letters. Single 16:9 film still, NOT completed hand contact.",
+      "referenced_image_paths": [
+        "C:\\Users\\wseok\\.codex\\generated_images\\01a16e2f-6574-7781-9b5c-95d6256f27b6\\exec-b6f09fc1-8b31-48dc-b6aa-dd987c11ea9a.png"
+      ],
+      "review_status": "SUPERSEDED_NOT_FOR_FLOW",
+      "reason": "Woman fingertip contacts side knob too early and hands too close; corrected S08_v2.",
+      "sha256": "e60ee3487dd373bc19d36ff3e15c7c8ca815791d93c15dbae260b16e894be22d",
+      "byte_count": 1797735,
+      "generated_source_sha256": "e60ee3487dd373bc19d36ff3e15c7c8ca815791d93c15dbae260b16e894be22d",
+      "source_bytes_preserved": true,
+      "width": 1672,
+      "height": 941
+    },
+    {
+      "concept_id": "C10",
+      "scene_id": "S09",
+      "image_path": "images/C10/S09.png",
+      "generated_source": "C:\\Users\\wseok\\.codex\\generated_images\\01a16e2f-6574-7781-9b5c-95d6256f27b6\\exec-223031c8-5e55-461f-a679-5606f5a935a1.png",
+      "final_prompt": "Character identity guide only; show only people explicitly visible in this scene. MN: a tall slim Korean man in his mid-thirties, shoulder-length long black wavy hair, clean-shaven, ivory linen double-breasted suit over an open-collar black shirt. WM: a sturdy Korean woman in her forties, short dark-auburn red pixie haircut, light freckles, dark emerald velvet dinner suit, black loafers. WT: a short East Asian waiter in his sixties, bald with a full white moustache, white shirt, black waistcoat and long black apron. BG1: a Black woman in her forties wearing a silver-grey head scarf and a mustard long dress, at the established rear-left low table. BG2: an East Asian man in his thirties with short black curls and a navy suit, at the established rear-left low table. Medium same-axis reveal BEFORE the fix. Entire upper lamp pole leans LEFT eight degrees from LOW coupling; top lamp head joints rigid, not sagging. MN RIGHT hand hovers two centimeters above coupling around upper-pole section; WM LEFT hovers two centimeters below around fixed lower section. Not gripping yet. Light pool misses the two samples on saucer. Phone already mounted, brown case stays on chair, all other hands free. No third hand, no restored light. Single cinematic still, landscape 16:9, a real start frame BEFORE the specified action, never its completed outcome. No captions, no legible lettering, no numbers, no logo, no watermark, no collage, no extra people or limbs. Keep specified caption area quiet. Only depict characters explicitly present in the scene; identity guide is not a request to add cast.\nContinuity reference is the earlier scene BEFORE the low clamp slipped. This NEW start image is AFTER that slip but BEFORE repair. Preserve EXACT five people, garden, table, chair, empty case, tray and lamp parts. The same LOW pivot joint at 35 cm near table-rim level has loosened. The LOWER stem and floor base remain vertical and stationary. The ENTIRE upper straight pole ABOVE that low joint tilts LEFT about eight degrees as one rigid assembly, carrying the locked top arm and lamp head with it; the upper head does not droop independently. Make this small angle clearly visible: upper pole top sits about 10 cm left of low joint. Lamp light now makes a distinct warm oval on bare tabletop LEFT of the saucer, visibly missing both ring and ivory L; samples remain in ambient shade. Phone is now mounted in landscape orientation in mini tripod, hands no longer touch phone. MN at left and WM at right both lean low toward the SAME loosened joint. MN RIGHT hand is open 2 cm from pole JUST ABOVE the low joint, WM LEFT hand open 2 cm from fixed stem JUST BELOW it. Neither hand grips yet; no clasped hands. Other two hands away. They look at the joint, concern replacing romance. Waiter remains kneeling at right with empty hands, not touching lamp. Full pole from base through top head, both hands, saucer and shifted light patch must be visible together. Medium-wide same axis 16:9, NO repaired vertical pole, NO head hinge sagging, NO bent pole material or detached pieces.",
+      "referenced_image_paths": [
+        "C:\\Users\\wseok\\.codex\\generated_images\\01a16e2f-6574-7781-9b5c-95d6256f27b6\\exec-75e1c045-f1a1-4980-8161-8e30bd5c1326.png"
+      ],
+      "review_status": "SUPERSEDED_NOT_FOR_FLOW",
+      "reason": "Coupling moved too high above tabletop; replaced.",
+      "sha256": "00f4cdfc00bf4241fddedb0234eec8593416ad5b3f548cc2ae77a6ca4ac9ff04",
+      "byte_count": 2328925,
+      "generated_source_sha256": "00f4cdfc00bf4241fddedb0234eec8593416ad5b3f548cc2ae77a6ca4ac9ff04",
+      "source_bytes_preserved": true,
+      "width": 1672,
+      "height": 941
+    },
+    {
+      "concept_id": "C10",
+      "scene_id": "S09",
+      "image_path": "images/C10/S09_v2.png",
+      "generated_source": "C:\\Users\\wseok\\.codex\\generated_images\\01a16e2f-6574-7781-9b5c-95d6256f27b6\\exec-949d1542-c87a-4517-a77e-3d108c23be1f.png",
+      "final_prompt": "Edit image 1 precisely, using image 2 only to restore the ORIGINAL LOCATION AND SHAPE of the low lamp clamp. Preserve all five people, faces, clothing, garden, table, sample plate, shifted light patch on bare table left, mounted phone, base position, and upper lamp head's rigid geometry. Problem: in image 1 the pivot was accidentally moved UP above the table surface. Correct it to the ORIGINAL LOWER position in image 2: 35 cm above ground, at the lower part of the table's FRONT RIM, visibly BELOW the tabletop plane. Restore its round side locking knob facing viewer-right, same part as image2. The lower post runs VERTICALLY from weighted base to this original low clamp. The upper straight pole begins at that SAME low clamp and leans LEFT eight degrees all the way to the fixed head. There must be NO separate pivot or collar above the tabletop, no bent pole halfway. This is one rigid upper assembly tilted from one LOW joint. Move MN's open right hand down so fingers hover 2 cm from upper pole immediately above that low clamp. Move WM's open left hand down so fingers hover 2 cm from fixed lower post immediately below that SAME clamp. Neither hand touches the metal yet and hands do not touch one another. Their other hands stay relaxed. Keep light missing saucer and no repair yet. Do not add text. 16:9.",
+      "referenced_image_paths": [
+        "C:\\Users\\wseok\\.codex\\generated_images\\01a16e2f-6574-7781-9b5c-95d6256f27b6\\exec-223031c8-5e55-461f-a679-5606f5a935a1.png",
+        "C:\\Users\\wseok\\.codex\\generated_images\\01a16e2f-6574-7781-9b5c-95d6256f27b6\\exec-75e1c045-f1a1-4980-8161-8e30bd5c1326.png"
+      ],
+      "review_status": "SUPERSEDED_NOT_FOR_FLOW",
+      "reason": "Extra upper bend/geometry remained; replaced.",
+      "sha256": "84d3d48b8f4aa536f3881cc774822c2a094f9a914a8e731f78c11f1a2a91b28a",
+      "byte_count": 2308371,
+      "generated_source_sha256": "84d3d48b8f4aa536f3881cc774822c2a094f9a914a8e731f78c11f1a2a91b28a",
+      "source_bytes_preserved": true,
+      "width": 1672,
+      "height": 941
+    },
+    {
+      "concept_id": "C10",
+      "scene_id": "S09",
+      "image_path": "images/C10/S09_v3.png",
+      "generated_source": "C:\\Users\\wseok\\.codex\\generated_images\\01a16e2f-6574-7781-9b5c-95d6256f27b6\\exec-2039a4ed-7d9e-4be3-a41e-f0f6b80eadcb.png",
+      "final_prompt": "Correct only the lamp pole geometry and the woman's reaching hand in this photograph. Keep all other pixels/people/poses/props/light unchanged. There is ONE legitimate low joint: the black knob at image coordinate approximately x=750,y=675, in front of the table's thick lower rim. Keep that knob. The upper pole must be ONE perfectly STRAIGHT DIAGONAL segment from that low knob at (750,675) to its top at approximately (650,120). At present there is an extra elbow/collar around (735,600) and a wrongly vertical short segment between y600 and y675. REMOVE that entire extra elbow and vertical segment. Replace it with the continuation of the same STRAIGHT DIAGONAL black upper pole, all the way down into the low knob at y675. No kink, collar, vertical piece or second joint anywhere ABOVE the low knob. Below the low knob the lower stem stays vertical to the floor base. This makes a simple angle at the single low joint only. Move the woman's reaching empty LEFT hand DOWN below the knob, fingers 2 cm from the vertical lower stem around y710; her hand must not touch yet. The man's empty right hand can remain poised above the low knob near upper pole. Do not move lamp light pool back to plate. No repairs yet. Same 16:9 photo, no visible markings, coordinates or text.",
+      "referenced_image_paths": [
+        "C:\\Users\\wseok\\.codex\\generated_images\\01a16e2f-6574-7781-9b5c-95d6256f27b6\\exec-949d1542-c87a-4517-a77e-3d108c23be1f.png"
+      ],
+      "review_status": "SUPERSEDED_NOT_FOR_FLOW",
+      "reason": "Pole geometry recovered but flat L became cup/cylinder; replaced.",
+      "sha256": "ad491d4819c9f457cfe09e59e6eb5424cc59e4978271b15d0e6f22e279b9ddee",
+      "byte_count": 2255530,
+      "generated_source_sha256": "ad491d4819c9f457cfe09e59e6eb5424cc59e4978271b15d0e6f22e279b9ddee",
+      "source_bytes_preserved": true,
+      "width": 1672,
+      "height": 941
+    },
+    {
+      "concept_id": "C10",
+      "scene_id": "S09",
+      "image_path": "images/C10/S09_v4.png",
+      "generated_source": "C:\\Users\\wseok\\.codex\\generated_images\\01a16e2f-6574-7781-9b5c-95d6256f27b6\\exec-542088b8-2a97-43f2-898a-eaf2899ef5b3.png",
+      "final_prompt": "Make ONE tiny precise object correction in image 1. Preserve the lamp geometry exactly: its straight upper pole leans left from the low knob, lower stem vertical; preserve people, hands, phone, light pool off the plate, everything else. On the white saucer behind the woman's reaching arm, there is an accidental little white cup/cylinder. REMOVE ONLY that cup-like object. In its place lay the SMALL IVORY L-SHAPED TEST PIECE from image 2's open sample case, FLAT on the saucer: a 6 cm solid flat plate shaped like a carpenter's square, two short equal-width arms meeting at one right angle, no hollow bowl, no cylinder, no handle. The same thin SILVER RING remains next to it on the saucer. Exactly two sample pieces total. Do not move the saucer or brighten it. Image2 is only a shape reference for the L-shaped piece, not a scene replacement. Keep 16:9, no text.",
+      "referenced_image_paths": [
+        "C:\\Users\\wseok\\.codex\\generated_images\\01a16e2f-6574-7781-9b5c-95d6256f27b6\\exec-2039a4ed-7d9e-4be3-a41e-f0f6b80eadcb.png",
+        "C:\\Users\\wseok\\.codex\\generated_images\\01a16e2f-6574-7781-9b5c-95d6256f27b6\\exec-3056764b-f9ac-4f38-a809-b1aaec92e0e0.png"
+      ],
+      "review_status": "SUPERSEDED_NOT_FOR_FLOW",
+      "reason": "Prop-only fix did not resolve cup/cylinder; replaced by low-medium S09_v5.",
+      "sha256": "404cc8d32b1ad63a939d0aaa7fd87333a7d691add30906e3f7fb1bdd337a9c38",
+      "byte_count": 2240786,
+      "generated_source_sha256": "404cc8d32b1ad63a939d0aaa7fd87333a7d691add30906e3f7fb1bdd337a9c38",
+      "source_bytes_preserved": true,
+      "width": 1672,
+      "height": 941
+    }
+  ]
+}

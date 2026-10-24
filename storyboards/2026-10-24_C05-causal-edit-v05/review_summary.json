@@ -1,0 +1,17 @@
+{
+  "status": "CAUSAL_REPAIR_ACCEPTED_WITH_EDIT_ELLIPSIS",
+  "scope": "Actual contact sheets and selected individual PNGs, storyboard/provenance records; not continuous playback, listening, venue test or measured audience response.",
+  "independent": {
+    "A": "C05 A-E06 causal repair accepted; worker insert is time ellipsis, not complete rotation/load transfer.",
+    "B": "C05 B-V01–03 cause and time ellipsis accepted, softer crop/sky/fascia optional.",
+    "C": "C05 C-V01 causal repair/time ellipsis accepted; C-V02 softness/fascia optional."
+  },
+  "cross": {
+    "A": "Agrees other two: entry/catch/grip/neck withdrawal establish cause; worker insert permits time ellipsis. No full rotation/load-transfer claim.",
+    "B": "Agrees other two: entry/catch/grip/neck withdrawal establish cause; worker insert permits time ellipsis. No full rotation/load-transfer claim.",
+    "C": "Agrees other two: entry/catch/grip/neck withdrawal establish cause; worker insert permits time ellipsis. No full rotation/load-transfer claim."
+  },
+  "pd": "Current51.25s cut accepted for user review; optional softer worker insert and long neck-release pacing retained. No additional source required.",
+  "file": "C05_Q-AI_Fair_causal_edit_v05.mp4",
+  "sha256": "1a9e0d29d30e71cc9e726d4c1c78e348f63f44e829ec86467ca71b5ed1d0d94d"
+}

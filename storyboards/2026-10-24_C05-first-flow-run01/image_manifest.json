@@ -1,0 +1,17 @@
+{
+  "images": [
+    {
+      "id": "C05_N02_angle_v2",
+      "tool": "builtin image_gen",
+      "file": "inputs/C05_N02_angle_v2.png",
+      "prompt": "submitted_prompts/C05_N02_angle_v2_imagegen.txt",
+      "references": [
+        "inputs/C05_N02.png",
+        "../2026-10-23_v11-production-lock/images/C05/S03.png"
+      ],
+      "purpose": "new camera angle of pre-hand-contact pose, no action completion fabricated",
+      "review": "A/B/C actual independent and cross: conditional PASS as precontact start; new angle changes minor details but no causal fatal issue. Support motion still to verify",
+      "generated_source": "C:/Users/wseok/.codex/generated_images/01a13daf-3732-7b90-99a8-92c605090d35/exec-958ed191-6c7f-4f06-afb2-8974c0eb9245.png"
+    }
+  ]
+}

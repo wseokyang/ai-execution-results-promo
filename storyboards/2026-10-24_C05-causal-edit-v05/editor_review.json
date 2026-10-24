@@ -1,0 +1,53 @@
+{
+  "reviewer": "v12_c05_editor (execution editor; not independent A/B/C)",
+  "scope": "Actual saved PNG/JPEG inspection; no real-time playback or listening",
+  "opened_files": [
+    "preflight_N04.jpg",
+    "preflight_jack.jpg",
+    "worker_crop_all_frames_01.jpg",
+    "join_contact_01.jpg",
+    "join_contact_02.jpg",
+    "join_contact_03.jpg",
+    "review_contact_01.jpg",
+    "review_contact_02.jpg",
+    "review_contact_03.jpg",
+    "review_contact_04.jpg",
+    "review_contact_05.jpg",
+    "review_contact_06.jpg",
+    "review_contact_07.jpg",
+    "review_frames/16.250s.png",
+    "review_frames/24.750s.png",
+    "review_frames/26.208s.png",
+    "review_frames/27.750s.png"
+  ],
+  "checked": {
+    "worker_crop": "All 36 cropped action frames inspected in the full-frame contact sheet; jack, wheels, gloved hands remain in crop. Head intentionally outside insert framing.",
+    "joins": "Every segment boundary sampled at preceding, first and next frame. Critical 16.25/19.25/24.75/26.25/27.75 examined.",
+    "captions": "All six overlays inspected at samples; no clipping, event title held 5s.",
+    "chain": "Entrance and roof-edge grasp now shown. Complete outward rotation remains an ellipsis covered by worker cutaway."
+  },
+  "issues": [
+    {
+      "id": "EDIT-01",
+      "severity": "creative limitation",
+      "finding": "N04 partial turn and later front view differ in neck silhouette and grip orientation. No complete turn claim.",
+      "status": "Documented for independent reviewers; not marked physically continuous"
+    },
+    {
+      "id": "EDIT-02",
+      "severity": "quality tradeoff",
+      "finding": "1.5s jack insert scales a 384×216 crop; softer than wide source.",
+      "status": "Accepted for draft, all action remains visible"
+    },
+    {
+      "id": "EDIT-03",
+      "severity": "verification limit",
+      "finding": "No real-time playback or subjective sound check performed.",
+      "status": "Pending user/parent workflow"
+    }
+  ],
+  "verdict": "Conditional causal-repair review candidate; render complete, final independent approval not claimed",
+  "originals_unchanged": true,
+  "actual_realtime_playback_verified": false,
+  "actual_listening_verified": false
+}

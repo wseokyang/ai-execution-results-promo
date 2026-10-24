@@ -1,0 +1,61 @@
+{
+  "date": "2026-10-24",
+  "event": "Q-AI Fair",
+  "latest_user_direction": "품질팀 AI 성과 교류회 성격의 관련 홍보. 참석독려 의무 없음. 음성대사 없이 화면과 후처리 자막으로 웃음과 내용 전달.",
+  "flow_priority": [
+    "C05 repair",
+    "C06 existing sources first",
+    "C02",
+    "C04",
+    "C03 existing sources first",
+    "C01"
+  ],
+  "preserve_concepts": [
+    "C01",
+    "C02",
+    "C03",
+    "C04",
+    "C05",
+    "C06"
+  ],
+  "rewrite_concepts": [
+    "C07",
+    "C08",
+    "C09",
+    "C10"
+  ],
+  "image_policy": "수정이 필요한 1~6 이미지 및 새7~10 모든씬 첫이미지. 기존7~10의부분수정은새기획으로대체. 내장imagegen.",
+  "audio_policy": "대사/내레이션정보없음, 후편집자막필수, BGM/SFX선택",
+  "status": "REQUESTED_SOURCE_GENERATION_AND_NEW4_STORYBOARDS_DELIVERED_WITH_EDIT_CONDITIONS",
+  "unverified": [
+    "정확일시/장소/참석방법/성과수치",
+    "새7~10 실제영상",
+    "1/2/4 최종합성·자막·편집",
+    "연속재생·실청취·현장검증"
+  ],
+  "source_version": "2026-10-23_v11-production-lock",
+  "audit": "00_장면연결_재검토.md",
+  "flow_observation": {
+    "current_u0": {
+      "start": 250,
+      "end": 0
+    },
+    "current_u1": {
+      "start": 50,
+      "end": 0
+    },
+    "current_u2": {
+      "start": 50,
+      "end": 10,
+      "reset_ui": "매일 오전10:43"
+    },
+    "other_signed_in_accounts": "NOT_CHECKED"
+  },
+  "progress": {
+    "C05": "causal edit v05,51.25s reviewed",
+    "C06": "caption v05,48.75s reviewed",
+    "C03": "caption v04,44.75s reviewed",
+    "C02_C04_C01": "27units generated;29originals, selection/trim/crop conditions recorded",
+    "C07_C10": "4 rewritten stories,40selected images,3independent/cross/recheck complete;Flow0"
+  }
+}

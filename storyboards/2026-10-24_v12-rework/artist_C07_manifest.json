@@ -1,0 +1,326 @@
+{
+  "schema_version": 1,
+  "run_id": "2026-10-24_v12-rework",
+  "concept_id": "C07",
+  "title": "훔칠 필요가 없었다",
+  "scope": "C07 10 scenes first frames only",
+  "image_count": 10,
+  "total_scenes": 10,
+  "tool": "builtin image_gen__imagegen",
+  "tool_calls": 12,
+  "style": "cinematic serious spy-genre physical comedy",
+  "created_date": "2026-10-24",
+  "status": "COMPLETE_ARTIST_CHECK_PENDING_INDEPENDENT_CROSS_REVIEW",
+  "preservation": "All generated source originals and earlier project variants retained; no video/audio/Flow work.",
+  "pd_changes": [
+    {
+      "issue": "6-slot sample rendered consistently 8-slot",
+      "decision": "PD accepted 8-slot teal sample; matching two objects is required."
+    },
+    {
+      "issue": "Badge on waist-side torso harness",
+      "decision": "PD accepted torso-harness clip position, S05 motion target must use same position."
+    },
+    {
+      "issue": "S03 palm position means push would move away from right doorway",
+      "decision": "PD accepted pulling the fixed pedestal upper-left edge toward body, making trolley accelerate toward pedestal/right doorway, then release and coast through door."
+    },
+    {
+      "issue": "S10 pointer uses the arm that held the board",
+      "decision": "PD acceptance pending; visual continuity supports released hand pointing, other hand remains empty."
+    }
+  ],
+  "remaining_notes": [
+    "Motion has not been generated or verified. Physical centimeter distances are approximate image intent, not measurable confirmation.",
+    "S09 host hands approach near right edge; actual rotation needs natural regrip and no extra fingers."
+  ],
+  "images": [
+    {
+      "concept_id": "C07",
+      "scene_id": "S01",
+      "linked_cuts": [
+        "K01"
+      ],
+      "image_path": "images/C07/S01_v2.png",
+      "generated_source": "C:\\Users\\wseok\\.codex\\generated_images\\01a16e2f-6574-7781-9b5c-95d6256f27b6\\exec-03b210d3-c653-4073-912f-c0bb4debd971.png",
+      "prompt": "Edit this cinematic still, preserve the exact woman identity, costume, inverted full body, room, camera, pedestal and single teal six-slot sample. Three precise corrections for a pre-action start frame: (1) bend only her reaching RIGHT elbow more so the lowest fingertip is clearly FIFTEEN centimeters above the teal sample, a vertical gap about 1.25 times the 12 cm sample diameter. Currently the gap is too short. Her hand is absolutely empty and not touching. (2) her two ankle cuffs hang from two short visible 20 cm black cables from the same trolley system, so later she can be lowered 10 cm. (3) the black satchel beside the door has its upper flap open, ready to contain a rigid flat board, although no board or colored edge is yet visible. Keep the already-open warm doorway, same rail direction, all other positions and photoreal spy-thriller lighting. Do not add people, labels, text, arrows, logos, new objects. 16:9.",
+      "referenced_image_paths": [
+        "C:\\Users\\wseok\\.codex\\generated_images\\01a16e2f-6574-7781-9b5c-95d6256f27b6\\exec-74536682-40a5-48b9-a2c5-1eafef484930.png"
+      ],
+      "next_motion_camera": "와이어가 TH를 정확히 10cm 천천히 내린다. 빈 오른손은 샘플 위 15cm→5cm에서 멈추며 끝까지 접촉하지 않는다. 3초 안에 동작을 완료하고 손 근접으로 넘긴다. / 50mm 측면 미디엄. 열린 문을 배경 오른쪽에 남겨 두고 10cm 정도만 전진.",
+      "caption_space": "대체로 하단 18% 여백. 손·샘플·얼굴은 중단. 마지막에는 인물과 사례판을 화면 상단 72%에 둔다.",
+      "review_status": "ARTIST_VISUAL_CHECKED_PENDING_THREE_REVIEWERS",
+      "artist_actual_view": true,
+      "artist_notes": "빈손·샘플 비접촉·완전 역상 하체·하강 가능한 짧은 케이블·열린 문·가방 개방 확인. 실제 15 cm는 이미지에서 계측 보장하지 않음. 초기 S01보다 간격을 넓힌 v2 채택.",
+      "flow_motion_verified": false,
+      "sha256": "b3550cda03e1380ffbe2f2852b4ac4af6377ecd42bb838ea9d5de196eb6d0332",
+      "dimensions": [
+        1672,
+        941
+      ],
+      "file_bytes": 1739724,
+      "source_sha256": "b3550cda03e1380ffbe2f2852b4ac4af6377ecd42bb838ea9d5de196eb6d0332"
+    },
+    {
+      "concept_id": "C07",
+      "scene_id": "S02",
+      "linked_cuts": [
+        "K02"
+      ],
+      "image_path": "images/C07/S02.png",
+      "generated_source": "C:\\Users\\wseok\\.codex\\generated_images\\01a16e2f-6574-7781-9b5c-95d6256f27b6\\exec-60a90a4f-2059-4e2c-8430-f004092be1cb.png",
+      "prompt": "Character identity guide only; show only people explicitly visible in this scene. TH: a lean Korean woman in her fifties with a short silver pixie haircut and angular face, charcoal fitted long-sleeve jumpsuit, black boots, matte grey waist-and-ankle theatrical suspension rig, bare hands, no mask or eyewear. HO: a broad-built Korean man in his thirties, short black curls, round glasses, mustard knitted vest over an ivory shirt, dark brown trousers, warm composed demeanor. Tight view of the same upside-down TH and the same teal six-slot sample still resting on the pedestal. Her empty right fingertips are exactly FIVE centimeters ABOVE the sample, not yet touching its sides, not holding or lifting it; her left hand hovers near the pedestal side. Show her intense inverted face and the pedestal surface. No security enclosure, lasers or locks. Quiet lower margin. Single cinematic still, landscape 16:9, a real start frame before the specified action, never its completed outcome. No captions, no legible lettering, no numbers, no logo, no watermark, no collage, no duplicated people or extra limbs. Leave the specified caption area visually quiet. Do not render arrows or diagnostic rectangles except simple nontext printed graphic shapes explicitly described.\nUse image 1 as strict identity, clothing, teal sample design, lighting and grey pedestal reference. This is the next closer shot after her suspension cables have lowered her by ten centimeters. Crop to her suspended upside-down shoulders, face, arms and the pedestal top; legs can be offscreen. Keep the same near-camera reaching arm as in the reference (TH's RIGHT hand). The empty fingertips have a small FIVE centimeter clear air gap above the disk, not touching; her other hand is off the pedestal side, also not touching. Preserve the sample shape, exactly six slots, no additional sample. A serious thriller, skin texture and focused expression. Do not reverse or mirror the room. Wide 16:9.",
+      "referenced_image_paths": [
+        "C:\\Users\\wseok\\.codex\\generated_images\\01a16e2f-6574-7781-9b5c-95d6256f27b6\\exec-03b210d3-c653-4073-912f-c0bb4debd971.png"
+      ],
+      "next_motion_camera": "오른손을 남은5cm 내려 샘플 양옆을 잡아10cm 들어 올린다. 왼손은 받침대 옆면에 얹는다. 접근3초+집기3초, 첫6초 안에 완료한다. / 85mm 손·뒤집힌 얼굴 근접. 샘플 6슬롯과 빈 받침대가 동시에 보이는 각도.",
+      "caption_space": "대체로 하단 18% 여백. 손·샘플·얼굴은 중단. 마지막에는 인물과 사례판을 화면 상단 72%에 둔다.",
+      "review_status": "ARTIST_VISUAL_CHECKED_PENDING_THREE_REVIEWERS",
+      "artist_actual_view": true,
+      "artist_notes": "같은 인물·샘플·받침대, 오른손과 샘플 작은 공기 간격 확인. 샘플이 아직 받침대에 있음. 5 cm 정확 계측은 아님.",
+      "flow_motion_verified": false,
+      "sha256": "292cea1a2fe02c571f91d0d10a650e6b595e53945b6b1746208bcbac80f179e9",
+      "dimensions": [
+        1672,
+        941
+      ],
+      "file_bytes": 1765578,
+      "source_sha256": "292cea1a2fe02c571f91d0d10a650e6b595e53945b6b1746208bcbac80f179e9"
+    },
+    {
+      "concept_id": "C07",
+      "scene_id": "S03",
+      "linked_cuts": [
+        "K03"
+      ],
+      "image_path": "images/C07/S03.png",
+      "generated_source": "C:\\Users\\wseok\\.codex\\generated_images\\01a16e2f-6574-7781-9b5c-95d6256f27b6\\exec-488c5067-21b8-463b-98a5-e94b65ecda93.png",
+      "prompt": "Character identity guide only; show only people explicitly visible in this scene. TH: a lean Korean woman in her fifties with a short silver pixie haircut and angular face, charcoal fitted long-sleeve jumpsuit, black boots, matte grey waist-and-ankle theatrical suspension rig, bare hands, no mask or eyewear. HO: a broad-built Korean man in his thirties, short black curls, round glasses, mustard knitted vest over an ivory shirt, dark brown trousers, warm composed demeanor. Side wide tracking-start composition in the same anteroom. TH is upside down, teal sample firmly in her right hand. Her left palm touches the pedestal side, elbow bent, ready to push but has not pushed. Both her body and ceiling trolley remain on the anteroom side of the visibly open doorway to screen right. The straight rail and small trolley wheels are visible. Do not place her inside the demonstration room yet. Quiet lower margin. Single cinematic still, landscape 16:9, a real start frame before the specified action, never its completed outcome. No captions, no legible lettering, no numbers, no logo, no watermark, no collage, no duplicated people or extra limbs. Leave the specified caption area visually quiet. Do not render arrows or diagnostic rectangles except simple nontext printed graphic shapes explicitly described.\nReference 1 fixes the room, character, suspension cables, pedestal, satchel and already-open door. Reference 2 fixes face and sample. Return to the wider camera of reference 1; do not move the architecture. The inverted woman's body stays LEFT of the doorway. Her anatomical RIGHT hand (the same reaching arm seen at screen right in the first image) now grips the same teal disk by its sides about 10 cm above the now EMPTY pedestal. Her other anatomical LEFT hand presses on the LEFT side face of the grey pedestal with elbow bent. This palm has not yet pushed: future motion will propel her suspended body toward the open doorway at screen right. The trolley has short visible suspension cables, not a rope around her neck. Serious concentrated expression, no smile. No completed slide or doorway crossing. Single coherent anatomy. Preserve teal disk design from reference.",
+      "referenced_image_paths": [
+        "C:\\Users\\wseok\\.codex\\generated_images\\01a16e2f-6574-7781-9b5c-95d6256f27b6\\exec-03b210d3-c653-4073-912f-c0bb4debd971.png",
+        "C:\\Users\\wseok\\.codex\\generated_images\\01a16e2f-6574-7781-9b5c-95d6256f27b6\\exec-60a90a4f-2059-4e2c-8430-f004092be1cb.png"
+      ],
+      "next_motion_camera": "고정 받침대의 왼쪽 상단 모서리를 몸쪽으로 당겨 몸과 천장 트롤리가 받침대/오른쪽 문 쪽으로 잘못 가속한다. 손을 놓아 관성으로 열린 문을 통과. 받침대는 움직이지 않음. / 35mm 측면 추적.",
+      "caption_space": "대체로 하단 18% 여백. 손·샘플·얼굴은 중단. 마지막에는 인물과 사례판을 화면 상단 72%에 둔다.",
+      "review_status": "ARTIST_VISUAL_CHECKED_PENDING_THREE_REVIEWERS",
+      "artist_actual_view": true,
+      "artist_notes": "샘플 한 개 손에 있음·받침대 비었음·반대손이 왼쪽 모서리에 닿음·문 통과 이전. PD 동작 변경: 모서리를 당겨 오른쪽으로 잘못 가속, 받침대 고정.",
+      "flow_motion_verified": false,
+      "sha256": "78c15e34195ee694f9fba428904be3cf5bee1d1e80b732a204a6cf69734b1a45",
+      "dimensions": [
+        1672,
+        941
+      ],
+      "file_bytes": 1773848,
+      "source_sha256": "78c15e34195ee694f9fba428904be3cf5bee1d1e80b732a204a6cf69734b1a45"
+    },
+    {
+      "concept_id": "C07",
+      "scene_id": "S04",
+      "linked_cuts": [
+        "K04"
+      ],
+      "image_path": "images/C07/S04.png",
+      "generated_source": "C:\\Users\\wseok\\.codex\\generated_images\\01a16e2f-6574-7781-9b5c-95d6256f27b6\\exec-66c9b959-d5e2-4d6e-bd74-85252c05feec.png",
+      "prompt": "Character identity guide only; show only people explicitly visible in this scene. TH: a lean Korean woman in her fifties with a short silver pixie haircut and angular face, charcoal fitted long-sleeve jumpsuit, black boots, matte grey waist-and-ankle theatrical suspension rig, bare hands, no mask or eyewear. HO: a broad-built Korean man in his thirties, short black curls, round glasses, mustard knitted vest over an ivory shirt, dark brown trousers, warm composed demeanor. Warm white demonstration room immediately beyond the same open doorway at screen left. Upside-down TH has only just crossed the threshold, holding the teal eight-slot sample in her right hand. HO stands by a waist-high table, his pointing hand still lowered. One identical teal eight-slot sample rests on the LEFT half of that table. A single screen behind shows only a simple unlettered photograph-like circle diagram, reserved for later compositing. Both samples are clearly visible. No crowd. Before the host points or greets. Quiet lower caption band. Single cinematic still, landscape 16:9, a real start frame before the specified action, never its completed outcome. No captions, no legible lettering, no numbers, no logo, no watermark, no collage, no duplicated people or extra limbs. Leave the specified caption area visually quiet. Do not render arrows or diagnostic rectangles except simple nontext printed graphic shapes explicitly described.\nUse image 1 for exact inverted woman, costume, open doorway and architecture; image 2 for the sample already held in her anatomical RIGHT hand. The camera is now INSIDE the warm room, a broad 28mm composition: same open doorway at LEFT; TH has barely crossed it, inverted with boots up near the trolley rail, head down and arm holding the sample toward frame center. At RIGHT introduce HO exactly as described, an upright broad-built Korean man in mustard vest. He is not touching TH. A plain waist-high wooden demo table is in the middle-right; one duplicate eight-slot teal disk lies at its LEFT half and the right half is visibly empty. A single modest monitor on the wall behind the table shows just a teal disk photo, no interface letters. This is a practical AI case-sharing room in the same building, not an exhibition full of unrelated statues. The black bag remains outside in the cool left anteroom beside the door. The two teal disks must match shape and color exactly. No name badge attached to TH yet. Calm ordinary host contrasted with theatrically inverted thief. Realistic film still, 16:9, bottom eighteen percent quiet.",
+      "referenced_image_paths": [
+        "C:\\Users\\wseok\\.codex\\generated_images\\01a16e2f-6574-7781-9b5c-95d6256f27b6\\exec-03b210d3-c653-4073-912f-c0bb4debd971.png",
+        "C:\\Users\\wseok\\.codex\\generated_images\\01a16e2f-6574-7781-9b5c-95d6256f27b6\\exec-488c5067-21b8-463b-98a5-e94b65ecda93.png"
+      ],
+      "next_motion_camera": "TH가 천천히 들어와 멈춘다. HO가 화면의 샘플 사진 후보 위치를 짚고 실제 테이블 샘플을 나란히 가리킨다. TH는 손의 샘플과 공개된 샘플을 번갈아 본다. / 28mm B 와이드. 오른손 샘플과 테이블 샘플을 같은 화면에 충분히 크게 둔다. 화면 도해는 후합성.",
+      "caption_space": "대체로 하단 18% 여백. 손·샘플·얼굴은 중단. 마지막에는 인물과 사례판을 화면 상단 72%에 둔다.",
+      "review_status": "ARTIST_VISUAL_CHECKED_PENDING_THREE_REVIEWERS",
+      "artist_actual_view": true,
+      "artist_notes": "문턱 진입 직후 역상 TH와 정립 HO, 손 샘플 1개/테이블 기존 샘플 1개 확인. 화면 이미지 추가 물건으로 세지 않음. HO 아직 손 아래.",
+      "flow_motion_verified": false,
+      "sha256": "3bcad97c023ec7fed5080ee6005a4bd8ee5d3eabb7b6d94442116686e53b3885",
+      "dimensions": [
+        1672,
+        941
+      ],
+      "file_bytes": 1913181,
+      "source_sha256": "3bcad97c023ec7fed5080ee6005a4bd8ee5d3eabb7b6d94442116686e53b3885"
+    },
+    {
+      "concept_id": "C07",
+      "scene_id": "S05",
+      "linked_cuts": [
+        "K05"
+      ],
+      "image_path": "images/C07/S05.png",
+      "generated_source": "C:\\Users\\wseok\\.codex\\generated_images\\01a16e2f-6574-7781-9b5c-95d6256f27b6\\exec-24f7cac1-56dc-4ce7-bbf8-d0d8eb32d386.png",
+      "prompt": "Character identity guide only; show only people explicitly visible in this scene. TH: a lean Korean woman in her fifties with a short silver pixie haircut and angular face, charcoal fitted long-sleeve jumpsuit, black boots, matte grey waist-and-ankle theatrical suspension rig, bare hands, no mask or eyewear. HO: a broad-built Korean man in his thirties, short black curls, round glasses, mustard knitted vest over an ivory shirt, dark brown trousers, warm composed demeanor. Medium two-shot of upside-down TH and upright HO in the warm demo room. HO holds one transparent clip badge ten centimeters from TH's chest harness, not attached yet. TH visibly holds the same sample in her right hand and watches him with wary wide eyes. Keep the existing teal duplicate on the table left and the right half empty. No writing on badge, no cuffs. Before the clipping action. Quiet lower margin. Single cinematic still, landscape 16:9, a real start frame before the specified action, never its completed outcome. No captions, no legible lettering, no numbers, no logo, no watermark, no collage, no duplicated people or extra limbs. Leave the specified caption area visually quiet. Do not render arrows or diagnostic rectangles except simple nontext printed graphic shapes explicitly described.\nUse image 1 as strict identity and room reference for both actors. Move to a closer 50mm two-shot without reversing their positions: suspended inverted TH at left, upright HO now standing nearby at right. TH's boots can crop above frame, but her torso descending from the top and inverted suspension posture remain clear. HO's right hand holds a small transparent plastic clip badge with a blank white insert, ten centimeters clear of TH's grey chest harness. The badge is not attached yet; there is no badge anywhere on her body. TH's RIGHT hand still grips the same teal EIGHT-slot disk, conspicuously in front of her face, wary wide eyes at host. Her other hand is empty. HO's left hand relaxed at his side. Behind them the same table's left half has one identical disk, its right half is empty. Keep monitor understated in background. No neck lanyard, no text, no extra hands. Quiet lower caption band. 16:9.",
+      "referenced_image_paths": [
+        "C:\\Users\\wseok\\.codex\\generated_images\\01a16e2f-6574-7781-9b5c-95d6256f27b6\\exec-66c9b959-d5e2-4d6e-bd74-85252c05feec.png"
+      ],
+      "next_motion_camera": "HO가 명찰을 TH 몸통 하네스의 허리 쪽 클립 위치에 부착한 뒤 빈 테이블 오른쪽을 안내. / 50mm 투샷.",
+      "caption_space": "대체로 하단 18% 여백. 손·샘플·얼굴은 중단. 마지막에는 인물과 사례판을 화면 상단 72%에 둔다.",
+      "review_status": "ARTIST_VISUAL_CHECKED_PENDING_THREE_REVIEWERS",
+      "artist_actual_view": true,
+      "artist_notes": "명찰은 HO 손에 있고 미부착, TH 손 샘플과 테이블 샘플 유지. 후속 부착 목표는 PD 변경한 허리 쪽 몸통 하네스.",
+      "flow_motion_verified": false,
+      "sha256": "4b9752cded3e7e609bfd488dc0bc530797859c1aed6febdcbb76879937c9d0fe",
+      "dimensions": [
+        1672,
+        941
+      ],
+      "file_bytes": 1980322,
+      "source_sha256": "4b9752cded3e7e609bfd488dc0bc530797859c1aed6febdcbb76879937c9d0fe"
+    },
+    {
+      "concept_id": "C07",
+      "scene_id": "S06",
+      "linked_cuts": [
+        "K06"
+      ],
+      "image_path": "images/C07/S06.png",
+      "generated_source": "C:\\Users\\wseok\\.codex\\generated_images\\01a16e2f-6574-7781-9b5c-95d6256f27b6\\exec-b5a7e12c-931f-4d70-98b3-981e29da4821.png",
+      "prompt": "Character identity guide only; show only people explicitly visible in this scene. TH: a lean Korean woman in her fifties with a short silver pixie haircut and angular face, charcoal fitted long-sleeve jumpsuit, black boots, matte grey waist-and-ankle theatrical suspension rig, bare hands, no mask or eyewear. HO: a broad-built Korean man in his thirties, short black curls, round glasses, mustard knitted vest over an ivory shirt, dark brown trousers, warm composed demeanor. Side medium-wide in the warm demo room. Upside-down TH holds her original teal sample ten centimeters above the EMPTY RIGHT half of the table; the duplicate remains on the LEFT. She has not placed the sample yet. Her left hand is lifted near, but not touching, the table edge. Badge is already clipped to her harness. The same open doorway to the anteroom is screen left. HO watches calmly. Reserve lower band. Single cinematic still, landscape 16:9, a real start frame before the specified action, never its completed outcome. No captions, no legible lettering, no numbers, no logo, no watermark, no collage, no duplicated people or extra limbs. Leave the specified caption area visually quiet. Do not render arrows or diagnostic rectangles except simple nontext printed graphic shapes explicitly described.\nReference 1 is the exact wide room/architecture/table/suspension. Reference 2 is both faces, badge and the eight-slot teal disk. Medium-wide start frame before placing her sample down. TH is still suspended upside down, now a little further into the room directly above the near half of the demo table; DO NOT make her upright or standing. Her right hand carefully holds the same teal eight-slot disk 10 cm clear above the EMPTY RIGHT half of the tabletop, close enough to set it down next; the matching existing disk lies still on the LEFT half. There are exactly two physical disks, one held and one resting. Her LEFT empty palm hovers just beside the nearest table edge, not touching yet. The blank clip badge is now attached to the grey chest harness, not to the neck. HO stands at frame right with both hands relaxed clear of her arms. The open doorway to teal room at LEFT stays visible and reachable. Short visible cables connect the ankle cuffs to overhead trolley. Keep fingers, samples and table contact area well separated and clear. Bottom caption-safe margin, no text, 16:9.",
+      "referenced_image_paths": [
+        "C:\\Users\\wseok\\.codex\\generated_images\\01a16e2f-6574-7781-9b5c-95d6256f27b6\\exec-66c9b959-d5e2-4d6e-bd74-85252c05feec.png",
+        "C:\\Users\\wseok\\.codex\\generated_images\\01a16e2f-6574-7781-9b5c-95d6256f27b6\\exec-24f7cac1-56dc-4ce7-bbf8-d0d8eb32d386.png"
+      ],
+      "next_motion_camera": "첫1초에 오른손 샘플을 B 테이블 오른쪽에 내려놓는다. 왼손으로 가장자리를 가볍게 밀어 열린 문 쪽 A로 즉시 이동한다. 불필요한 빈손 확인 포즈 없이3초. / 35mm 측면. 반환 접촉1초를 보인 뒤 같은 축으로 왼쪽 이동2초. B 테이블-문 거리는70cm 정도.",
+      "caption_space": "대체로 하단 18% 여백. 손·샘플·얼굴은 중단. 마지막에는 인물과 사례판을 화면 상단 72%에 둔다.",
+      "review_status": "ARTIST_VISUAL_CHECKED_PENDING_THREE_REVIEWERS",
+      "artist_actual_view": true,
+      "artist_notes": "손에 든 샘플은 테이블 오른쪽 위 공중, 왼쪽 샘플은 테이블 위. 명찰 몸통 하네스 허리 쪽 유지. 빈 왼손 테이블 비접촉. 정확 10 cm 계측 아님.",
+      "flow_motion_verified": false,
+      "sha256": "66e06226f9e983f5778ee36c3ef886e30492ea283c9bab80ffe21dd3bf995da0",
+      "dimensions": [
+        1672,
+        941
+      ],
+      "file_bytes": 1855641,
+      "source_sha256": "66e06226f9e983f5778ee36c3ef886e30492ea283c9bab80ffe21dd3bf995da0"
+    },
+    {
+      "concept_id": "C07",
+      "scene_id": "S07",
+      "linked_cuts": [
+        "K07"
+      ],
+      "image_path": "images/C07/S07.png",
+      "generated_source": "C:\\Users\\wseok\\.codex\\generated_images\\01a16e2f-6574-7781-9b5c-95d6256f27b6\\exec-aea19fcf-6f50-4b4c-bda1-768f5fd50dd4.png",
+      "prompt": "Character identity guide only; show only people explicitly visible in this scene. TH: a lean Korean woman in her fifties with a short silver pixie haircut and angular face, charcoal fitted long-sleeve jumpsuit, black boots, matte grey waist-and-ankle theatrical suspension rig, bare hands, no mask or eyewear. HO: a broad-built Korean man in his thirties, short black curls, round glasses, mustard knitted vest over an ivory shirt, dark brown trousers, warm composed demeanor. Anteroom-side medium shot. Same inverted TH braces her RIGHT palm on the same door jamb, stationary. Her LEFT empty hand is poised above the black satchel hanging from its original wall hook. Only the upper orange edge of a single rigid white presentation board is visible inside the satchel; the board has not been extracted. Her badge remains attached. No teal sample in either hand. Quiet lower band. Single cinematic still, landscape 16:9, a real start frame before the specified action, never its completed outcome. No captions, no legible lettering, no numbers, no logo, no watermark, no collage, no duplicated people or extra limbs. Leave the specified caption area visually quiet. Do not render arrows or diagnostic rectangles except simple nontext printed graphic shapes explicitly described.\nUse image 1 for exact cool anteroom, open doorway at screen right and black open satchel hooked immediately left of it. Use image 2 for woman identity and costume, badge now attached. Medium view of TH returned to the anteroom, her inverted body and head just LEFT of the doorway and beside the satchel. Her RIGHT empty palm braces the door jamb at screen right, stopping her trolley. Her LEFT bare hand floats just above the mouth of the satchel, not gripping anything yet. A single rigid white 45x35 cm board is inside the satchel with only two centimeters of ORANGE border visible at its mouth, no board already in her hands. Her two hands are empty, she has returned the teal disk. The blank badge clips to her CHEST harness near the upper chest/shoulder strap, adjacent to her head rather than waist. No host in this close anteroom shot. Keep inverted body supported by ankle cables from overhead rail. Cool teal light with warm doorway spill, serious determination. No duplicate bag, no floating board, no lettering. 16:9.",
+      "referenced_image_paths": [
+        "C:\\Users\\wseok\\.codex\\generated_images\\01a16e2f-6574-7781-9b5c-95d6256f27b6\\exec-03b210d3-c653-4073-912f-c0bb4debd971.png",
+        "C:\\Users\\wseok\\.codex\\generated_images\\01a16e2f-6574-7781-9b5c-95d6256f27b6\\exec-b5a7e12c-931f-4d70-98b3-981e29da4821.png"
+      ],
+      "next_motion_camera": "TH가 오른손으로 문틀을 짚어 멈춘 상태에서 왼손으로 가방의 단판을 바로 꺼낸다. 판을 B 쪽으로 돌려 들기까지3초. 비장한 표정 대기 삭제. / 50mm A 쪽 미디엄. 가방과 판의 실제 추출을 잘라내지 않는다.",
+      "caption_space": "대체로 하단 18% 여백. 손·샘플·얼굴은 중단. 마지막에는 인물과 사례판을 화면 상단 72%에 둔다.",
+      "review_status": "ARTIST_VISUAL_CHECKED_PENDING_THREE_REVIEWERS",
+      "artist_actual_view": true,
+      "artist_notes": "A 공간 귀환, 한 손 문틀 지지/반대 빈손 가방 입구 직전. 가방 속 사례판 주황색 윗부분만 노출, 아직 추출되지 않음. 명찰 유지.",
+      "flow_motion_verified": false,
+      "sha256": "b9ec297c73dda292201e90a3dd517b14841db6da0b6a47a692f226d53ff54ca2",
+      "dimensions": [
+        1672,
+        941
+      ],
+      "file_bytes": 1741746,
+      "source_sha256": "b9ec297c73dda292201e90a3dd517b14841db6da0b6a47a692f226d53ff54ca2"
+    },
+    {
+      "concept_id": "C07",
+      "scene_id": "S08",
+      "linked_cuts": [
+        "K08"
+      ],
+      "image_path": "images/C07/S08_v2.png",
+      "generated_source": "C:\\Users\\wseok\\.codex\\generated_images\\01a16e2f-6574-7781-9b5c-95d6256f27b6\\exec-6206e2c7-365d-4a9b-9cbd-a9c7f4642229.png",
+      "prompt": "Precisely edit only the small contents inside the open BLACK SATCHEL at the far left of this photograph. The orange-and-white strip protruding from the bag is a duplicate board edge and must disappear. Make the visible bag interior completely empty, plain black lining, because the woman has already extracted her ONLY orange-bordered presentation board and is holding it in her hand. Preserve the board held in her hand exactly with its two sample photos and bottom red triangle. Preserve every person, pose, facial expression, all hands, the two table disks, doorway, cables, lighting, composition and 16:9 aspect. Do not change any other part. No lettering.",
+      "referenced_image_paths": [
+        "C:\\Users\\wseok\\.codex\\generated_images\\01a16e2f-6574-7781-9b5c-95d6256f27b6\\exec-8dde916e-f48e-4d7f-9ffd-d49127962c8e.png"
+      ],
+      "next_motion_camera": "TH가 오른손으로 문틀을 한 번 밀어 B로70cm 되돌아오며 왼손의 자기 판을 HO에게 내민다.3초. 반환→회수→재입장 합9초. / 35mm 고정. 왼쪽→오른쪽70cm 이동, 판은 같은 손. 펼치기·추가 멈춤 없음.",
+      "caption_space": "대체로 하단 18% 여백. 손·샘플·얼굴은 중단. 마지막에는 인물과 사례판을 화면 상단 72%에 둔다.",
+      "review_status": "ARTIST_VISUAL_CHECKED_PENDING_THREE_REVIEWERS",
+      "artist_actual_view": true,
+      "artist_notes": "문 A 쪽에서 추출된 판 보유, 문틀 지지, 테이블에 두 샘플. 삼각형 아래. 초기안 가방 속에 남은 두 번째 판 조각을 v2에서 제거.",
+      "flow_motion_verified": false,
+      "sha256": "6b6cca1c3ee608a9e7ddb2e8322a09fcae2f6abc8ddeaf93df5ee3abb29a2d70",
+      "dimensions": [
+        1672,
+        941
+      ],
+      "file_bytes": 1850159,
+      "source_sha256": "6b6cca1c3ee608a9e7ddb2e8322a09fcae2f6abc8ddeaf93df5ee3abb29a2d70"
+    },
+    {
+      "concept_id": "C07",
+      "scene_id": "S09",
+      "linked_cuts": [
+        "K09"
+      ],
+      "image_path": "images/C07/S09.png",
+      "generated_source": "C:\\Users\\wseok\\.codex\\generated_images\\01a16e2f-6574-7781-9b5c-95d6256f27b6\\exec-fcc6070a-8425-4d1a-9234-f6146050626b.png",
+      "prompt": "Character identity guide only; show only people explicitly visible in this scene. TH: a lean Korean woman in her fifties with a short silver pixie haircut and angular face, charcoal fitted long-sleeve jumpsuit, black boots, matte grey waist-and-ankle theatrical suspension rig, bare hands, no mask or eyewear. HO: a broad-built Korean man in his thirties, short black curls, round glasses, mustard knitted vest over an ivory shirt, dark brown trousers, warm composed demeanor. Medium shot centered on the still UPSIDE-DOWN orange-bordered board. Its red triangle is at the bottom. TH, also upside down, supports the board with her LEFT hand; HO's two hands are about to grasp opposite side edges, not yet rotating. TH's RIGHT hand is empty and relaxed. Two teal samples stay visible on the table behind. Leave room for later diagnostic graphic overlays but render no text or completed rotation. Quiet lower margin. Single cinematic still, landscape 16:9, a real start frame before the specified action, never its completed outcome. No captions, no legible lettering, no numbers, no logo, no watermark, no collage, no duplicated people or extra limbs. Leave the specified caption area visually quiet. Do not render arrows or diagnostic rectangles except simple nontext printed graphic shapes explicitly described.\nUse image 1 to preserve exact two identities, costume, suspended inverted posture, harness badge, orange-bordered board with its two sample-photo panels and RED DOWNWARD TRIANGLE AT BOTTOM CENTER. She has now entered the warm room 70 cm from the doorway and proudly presents this SAME UPSIDE-DOWN board to HO. Medium 50mm two-shot framed around the board in the center, inverted TH at left with her torso descending from the upper edge, upright HO at right. TH's LEFT hand still supports the board from its lower-left edge. TH's right hand is empty and relaxed, completely clear of the board. HO raises BOTH empty hands toward the two side edges of the board, fingers poised 2 cm away, not touching yet. Board is still level, has NOT rotated and has NOT been transferred. Preserve its triangle at bottom, two photos exactly as reference. Both matching teal eight-slot disks are on the table at bottom/background. Include part of open cool doorway at far left; empty satchel can be out of crop. No labels, no additional board, no extra arms or people. 16:9, quiet lower band.",
+      "referenced_image_paths": [
+        "C:\\Users\\wseok\\.codex\\generated_images\\01a16e2f-6574-7781-9b5c-95d6256f27b6\\exec-6206e2c7-365d-4a9b-9cbd-a9c7f4642229.png"
+      ],
+      "next_motion_camera": "TH가 판에서 손을 놓으면 HO가 판만180도 돌려 빨간 삼각형을 위로 보낸다. 몸은 계속 거꾸로인 TH가 설명하려던 손을 뻗었다가, 돌아간 판 위치를 찾아 검지를 옮긴다. HO는 표정 없이 판을 받친다. 사례 설명 자막을 반복하지 않고6초를 회전과 손의 작은 수정에 쓴다. / 50mm 판 중심 미디엄. 2초 전달/회전,2초 TH 검지의 방향 수정,2초 거꾸로 몸·바른 판의 대비.",
+      "caption_space": "대체로 하단 18% 여백. 손·샘플·얼굴은 중단. 마지막에는 인물과 사례판을 화면 상단 72%에 둔다.",
+      "review_status": "ARTIST_VISUAL_CHECKED_PENDING_THREE_REVIEWERS",
+      "artist_actual_view": true,
+      "artist_notes": "역상 TH, 아직 거꾸로 된 판/아래 삼각형. HO의 두 손이 판 가장자리로 접근 중이고 아직 잡지 않음. 두 샘플 유지. 두 손의 접근은 우측 가장자리 주변으로 모여 있어 후속 회전 때 반대쪽 재그립 검수 필요.",
+      "flow_motion_verified": false,
+      "sha256": "f4afe5265e45420bf66a047abc2451aaba799ac04640a8cd1e04fdc2539e2f7f",
+      "dimensions": [
+        1672,
+        941
+      ],
+      "file_bytes": 1830324,
+      "source_sha256": "f4afe5265e45420bf66a047abc2451aaba799ac04640a8cd1e04fdc2539e2f7f"
+    },
+    {
+      "concept_id": "C07",
+      "scene_id": "S10",
+      "linked_cuts": [
+        "K10"
+      ],
+      "image_path": "images/C07/S10.png",
+      "generated_source": "C:\\Users\\wseok\\.codex\\generated_images\\01a16e2f-6574-7781-9b5c-95d6256f27b6\\exec-5776cd77-7986-4436-bf8d-2111f790ce9d.png",
+      "prompt": "Character identity guide only; show only people explicitly visible in this scene. TH: a lean Korean woman in her fifties with a short silver pixie haircut and angular face, charcoal fitted long-sleeve jumpsuit, black boots, matte grey waist-and-ankle theatrical suspension rig, bare hands, no mask or eyewear. HO: a broad-built Korean man in his thirties, short black curls, round glasses, mustard knitted vest over an ivory shirt, dark brown trousers, warm composed demeanor. Stable medium-wide final-start composition, same warm demo room and open doorway. HO holds the orange-bordered board upright with the red triangle at its TOP. TH remains upside down beside him, her right index finger poised next to a schematic image, not yet pointing. Both teal samples sit on the same table. The badge remains attached. All narrative objects fit in the top seventy-two percent, broad quiet lower caption area, absolutely no rendered event lettering. Single cinematic still, landscape 16:9, a real start frame before the specified action, never its completed outcome. No captions, no legible lettering, no numbers, no logo, no watermark, no collage, no duplicated people or extra limbs. Leave the specified caption area visually quiet. Do not render arrows or diagnostic rectangles except simple nontext printed graphic shapes explicitly described.\nUse the reference as exact two-person identity, posture, costume, badge, warm room, and orange bordered board artwork. This shot begins AFTER THE BOARD, AND ONLY THE BOARD, HAS ROTATED 180 DEGREES IN THE PICTURE PLANE. The orange board is now held securely with BOTH hands by upright HO at right. The red triangle is at the TOP CENTER and points UP. The two photos have rotated with the actual rigid board: the GREY sample photo is now on the LEFT, rotated 180 degrees relative to reference; the TEAL sample photo is now on the RIGHT, likewise rotated 180 degrees. Do not simply move the red triangle while leaving photos unchanged. TH remains suspended upside down at left, boots and waist above her head; no human body rotation. Her LEFT hand has completely released the board and is empty. Her RIGHT index finger is poised 3 cm from the newly upright board, not touching yet, as if correcting where she was going to point. Two identical teal eight-slot samples remain on the table. Her blank badge stays on the same torso harness near the waist. Pull camera back slightly and raise the table/sample/board composition so all story objects are in upper 72 percent; broad quiet lower 23 percent for later title overlay, NO event words rendered. Cinematic 40mm two-shot, 16:9.",
+      "referenced_image_paths": [
+        "C:\\Users\\wseok\\.codex\\generated_images\\01a16e2f-6574-7781-9b5c-95d6256f27b6\\exec-fcc6070a-8425-4d1a-9234-f6146050626b.png"
+      ],
+      "next_motion_camera": "TH가 한 지점만 작게 짚고 HO가 끄덕인다.34초부터 행사 정보를5초 고정한다. 새 사건을 추가하지 않는다. / 40mm 안정된 투샷. 인물·판·샘플을 상단 72%에 모으고 하단 제목판 여백.",
+      "caption_space": "대체로 하단 18% 여백. 손·샘플·얼굴은 중단. 마지막에는 인물과 사례판을 화면 상단 72%에 둔다.",
+      "review_status": "ARTIST_VISUAL_CHECKED_PENDING_THREE_REVIEWERS",
+      "artist_actual_view": true,
+      "artist_notes": "판만 180도 회전: 삼각형 위, 회색 사진 왼쪽/청록 사진 오른쪽으로 뒤집힘. HO 두 손으로 판 보유. TH 계속 역상, 판을 잡던 팔로 검지 접근, 다른 팔 비었음. 두 샘플·명찰 유지. 하단 제목 합성 공간 확보.",
+      "flow_motion_verified": false,
+      "sha256": "cd127859ba52767439b3aed79f44f812e2a31499014cd15bd57a0564bf62d38e",
+      "dimensions": [
+        1672,
+        941
+      ],
+      "file_bytes": 1754123,
+      "source_sha256": "cd127859ba52767439b3aed79f44f812e2a31499014cd15bd57a0564bf62d38e"
+    }
+  ],
+  "extra_versions": [
+    {
+      "image_path": "images/C07/S01.png",
+      "prompt": "Character identity guide only; show only people explicitly visible in this scene. TH: a lean Korean woman in her fifties with a short silver pixie haircut and angular face, charcoal fitted long-sleeve jumpsuit, black boots, matte grey waist-and-ankle theatrical suspension rig, bare hands, no mask or eyewear. HO: a broad-built Korean man in his thirties, short black curls, round glasses, mustard knitted vest over an ivory shirt, dark brown trousers, warm composed demeanor. Dim teal-lit anteroom, side medium shot. TH hangs completely upside down above an open unprotected pedestal. Her empty right fingertips stop FIFTEEN centimeters above one palm-sized teal circular test sample with exactly six radial slots. The wide doorway at screen right is already open, a straight ceiling trolley rail visibly passes through it; her black open satchel hangs beside the doorway. The duplicate demonstration sample in the far room is not yet prominent. Before contact, no sample in hand. Quiet lower margin. Single cinematic still, landscape 16:9, a real start frame before the specified action, never its completed outcome. No captions, no legible lettering, no numbers, no logo, no watermark, no collage, no duplicated people or extra limbs. Leave the specified caption area visually quiet. Do not render arrows or diagnostic rectangles except simple nontext printed graphic shapes explicitly described.\nPhysical layout guide: one theatrical ceiling rail travels horizontally left to right above the inverted woman's boots and passes through the lintel of the open right doorway. Her head is below her hips; she is truly inverted, not merely bending over. Show her full suspended body with a visible trolley, ankle straps and believable safety support. A waist-high rectangular grey pedestal is below and just to the right of her head; the single teal disk is 12 cm across, with six narrow radial slots and a solid center. Her anatomical right hand reaches downward with fingertips one disk diameter plus a small gap above the sample. Only TH is visible in this first shot. Premium cinematic spy-thriller photography played absolutely seriously, tactile real room, subtle teal practical light and warm light through the already-open right door. The satchel is black and large enough for a 45 by 35 cm board, hung at reachable height immediately left of the doorway. Landscape 16:9, 1536x864 composition.",
+      "referenced_image_paths": [],
+      "status": "SUPERSEDED_BY_S01_v2",
+      "generated_source": "C:\\Users\\wseok\\.codex\\generated_images\\01a16e2f-6574-7781-9b5c-95d6256f27b6\\exec-74536682-40a5-48b9-a2c5-1eafef484930.png",
+      "reason": "Closed bag and overly short fingertip gap; v2 opens bag/adds cables and enlarges gap.",
+      "sha256": "12d12c6ce691fe34360401bf57d0b5aa0d269aaf136246dedb09a16ba51b3740"
+    },
+    {
+      "image_path": "images/C07/S08.png",
+      "prompt": "Character identity guide only; show only people explicitly visible in this scene. TH: a lean Korean woman in her fifties with a short silver pixie haircut and angular face, charcoal fitted long-sleeve jumpsuit, black boots, matte grey waist-and-ankle theatrical suspension rig, bare hands, no mask or eyewear. HO: a broad-built Korean man in his thirties, short black curls, round glasses, mustard knitted vest over an ivory shirt, dark brown trousers, warm composed demeanor. Warm room view toward the open doorway. TH is still on the anteroom side ready to return, inverted, her right palm braced on the jamb before pushing. Her left hand holds her own orange-bordered rigid board, fully extracted, front facing HO. A red triangular orientation mark is at the BOTTOM from the viewer's perspective; two simple unlabeled schematic image blocks are inverted. HO waits inside, hands lowered. Both teal samples remain on the demo table. Quiet lower band. Single cinematic still, landscape 16:9, a real start frame before the specified action, never its completed outcome. No captions, no legible lettering, no numbers, no logo, no watermark, no collage, no duplicated people or extra limbs. Leave the specified caption area visually quiet. Do not render arrows or diagnostic rectangles except simple nontext printed graphic shapes explicitly described.\nReference 1 fixes TH, her right hand on the door jamb, left hand near her satchel, badge and the cool anteroom. Reference 2 fixes the warm room, host and table. Camera now inside the warm room looking left at the open doorway. TH remains suspended upside down on the COOL ANTEROOM SIDE of this doorway; the hand on the jamb has not pushed yet. Her LEFT hand now holds a single fully extracted white rigid landscape board, 45 by 35 cm, with a thin vivid orange border. On its front are only two simple small photographic sample panels, no words; a small RED TRIANGLE is at the BOTTOM CENTER (this board is upside down to the viewer). Her right palm stays braced on the same jamb. The large black open satchel hangs emptied behind her. At frame right HO calmly waits, hands lowered and not touching board. On the existing wooden table there are now TWO identical teal eight-slot disks, one at left and one at right, because the earlier sample was returned. TH holds no sample. Her badge stays attached at same torso harness position. Keep both rooms connected by the visibly open door, single ceiling trolley rail, no duplicate people. Broad 16:9 frame with quiet lower band.",
+      "referenced_image_paths": [
+        "C:\\Users\\wseok\\.codex\\generated_images\\01a16e2f-6574-7781-9b5c-95d6256f27b6\\exec-aea19fcf-6f50-4b4c-bda1-768f5fd50dd4.png",
+        "C:\\Users\\wseok\\.codex\\generated_images\\01a16e2f-6574-7781-9b5c-95d6256f27b6\\exec-66c9b959-d5e2-4d6e-bd74-85252c05feec.png"
+      ],
+      "status": "SUPERSEDED_BY_S08_v2",
+      "generated_source": "C:\\Users\\wseok\\.codex\\generated_images\\01a16e2f-6574-7781-9b5c-95d6256f27b6\\exec-8dde916e-f48e-4d7f-9ffd-d49127962c8e.png",
+      "reason": "Duplicate board edge remained inside satchel; v2 clears it.",
+      "sha256": "a2f18f1b70b0e165f14bbb75f6e8eae6553291301a21cda5cf8f5af27b13ab8e"
+    }
+  ]
+}

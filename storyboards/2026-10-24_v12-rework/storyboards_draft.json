@@ -1,0 +1,2200 @@
+{
+  "schema_version": "v12.storyboard.draft.1",
+  "run_id": "2026-10-24_v12-rework",
+  "status": "PD_REVISED_FOR_THREE_REVIEWER_RECHECK",
+  "scope": "C07~C10 신규 기획 네 안. 기존 C01~C06 및 원자료는 수정하지 않음.",
+  "event": {
+    "name": "Q-AI Fair",
+    "purpose": "품질팀 AI 성과·활용 경험 교류 관련 홍보",
+    "verified_basis": "현재 사용자 지시 및 PD brief.json",
+    "unverified": [
+      "정확한 일시·장소",
+      "참석·신청 방법",
+      "실제 과제명·발표자·성과 수치",
+      "후속 영상 동작 생성 품질"
+    ]
+  },
+  "common_rules": {
+    "aspect_ratio": "16:9 (제작 가정)",
+    "max_total_seconds": 60,
+    "speech": "none",
+    "captions": "모든 한글·행사명·AI 후보 표시·도해 라벨은 후처리. 생성 이미지에 정확한 문자를 요구하지 않는다.",
+    "caption_timing": "caption_cues의 start/end는 안별 타임라인 절대 초. end는 다음 큐와 겹치지 않는 배타적 끝점.",
+    "caption_layout": "일반 자막은 한 번에 1~2줄, 글자 높이 화면 가로의 약 3%. title 약 4.5%. placement에 지정한 여백을 사용하며 실제 영상 동작 검수 후 위치 확정.",
+    "music": "BGM·효과음은 선택 보조. 무음에서도 원인·반전·행사 정보를 이해하도록 설계. 가사·대사·내레이션 없음.",
+    "first_frame": "씬별 이미지에는 해당 컷이 시작되기 전의 상태만. 결과/반전 완료 프레임을 시작 이미지로 대체하지 않는다.",
+    "fiction": "인물·장소·샘플·AI 도해는 창작 광고극/가상 활용 예시. 실제 품질팀 결과, 보안 절차, 발표 운영 규칙으로 주장하지 않는다.",
+    "production": "기획과 프롬프트만 작성. 이미지·Flow·영상·음원·렌더링 실행 없음. 성공 보장 없음.",
+    "ending": "마지막 5초에 행사명과 성격을 동시에 고정 노출. 참석·신청 행동을 임의로 추가하지 않는다."
+  },
+  "sources_read": [
+    {
+      "path": "AGENTS.md",
+      "scope": "프로젝트 운영·연출·검수·이미지 계약"
+    },
+    {
+      "path": "team/brief.toml",
+      "scope": "행사 목적·이력·caption_first 및 최신 제작 전 검토 항목"
+    },
+    {
+      "path": "storyboards/2026-10-24_v12-rework/brief.json",
+      "scope": "현재 사용자 방향 및 재작성 범위"
+    },
+    {
+      "path": "storyboards/2026-10-24_v12-rework/selected_concepts.json",
+      "scope": "PD 선정 네 카드와 강제 조건"
+    },
+    {
+      "path": "storyboards/2026-10-23_v11-production-lock/storyboards.json",
+      "scope": "C07 구조 예시 및 상위 키 참고. 과거 콘셉트는 재사용하지 않음"
+    }
+  ],
+  "verification_scope": "이 연출 담당은 위 텍스트를 읽었다. 원본 PPT/PNG·qrew 전체 영상·음원은 이번 위임에서 직접 검토하지 않았다. 새 이미지 및 실제 영상도 아직 존재하지 않으며 관객 반응 미측정.",
+  "concepts": [
+    {
+      "id": "C07",
+      "title": "훔칠 필요가 없었다",
+      "purpose": "공개 교류의 가치를 잠입 장르 반전으로 전달",
+      "format": "정교한 잠입 액션을 유지한 채 공유회로 미끄러지는 광고극",
+      "duration_seconds": 39,
+      "aspect_ratio": "16:9 (가정)",
+      "comedy_intensity": 4,
+      "production_difficulty": "높음",
+      "one_line": "공개 시연 샘플을 훔치듯 집은 도둑이 열린 문을 지나 교류회에 도착하고, 샘플을 돌려준 뒤 자기 사례까지 거꾸로 공유한다.",
+      "core_message": "AI를 활용하며 얻은 경험은 꺼내 놓을수록 서로에게 도움이 된다.",
+      "cast_count": 2,
+      "char_visual_bible": [
+        {
+          "id": "TH",
+          "appearance": "50대 한국인 여성, 날렵한 체형, 은색 짧은 픽시 커트, 각진 얼굴, 맨얼굴",
+          "wardrobe": "먹색 긴팔 점프슈트, 검정 부츠, 무광 회색 허리·발목 와이어 장비, 손은 맨손",
+          "performance": "초반 숨을 참는 과도한 집중 → 들킨 당황 → 자기 사례를 보여주려는 자부심. 전 구간 거꾸로 유지.",
+          "prompt_en": "TH: a lean Korean woman in her fifties with a short silver pixie haircut and angular face, charcoal fitted long-sleeve jumpsuit, black boots, matte grey waist-and-ankle theatrical suspension rig, bare hands, no mask or eyewear."
+        },
+        {
+          "id": "HO",
+          "appearance": "30대 한국인 남성, 넓은 체격, 짧은 검정 곱슬머리, 둥근 안경",
+          "wardrobe": "겨자색 니트 조끼, 아이보리 셔츠, 짙은 갈색 바지",
+          "performance": "손님을 평범하게 맞이하는 침착함. 몸이 거꾸로여도 공유 내용에 먼저 관심.",
+          "prompt_en": "HO: a broad-built Korean man in his thirties, short black curls, round glasses, mustard knitted vest over an ivory shirt, dark brown trousers, warm composed demeanor."
+        }
+      ],
+      "visual_bible": {
+        "palette": "A 전실은 청록·먹색 스파이 조명, B 시연실은 같은 건축의 따뜻한 백색. 문을 넘으며 자연광색 변화.",
+        "space": "직선 천장 레일 하나가 A 전실→항상 열린 폭넓은 문→B 시연실로 연결된다. 화면 이동은 입장 오른쪽/퇴장 왼쪽. 첫 컷부터 열린 문과 레일이 보인다.",
+        "props": "A 받침대의 청록색 6슬롯 원형 검사 샘플 1개. B 테이블에는 같은 형상 1개가 처음부터 존재. TH의 검정 열린 가방은 A 문 왼쪽 벽 고리에 고정. 자기 사례판은 주황 테두리 45×35cm 단판, 방향 표식 빨간 삼각형. B 화면은 한 장만.",
+        "continuity": "샘플은 A→TH 오른손→B 테이블로 반환. B의 원래 샘플은 왼쪽, 반환품은 오른쪽에 남는다. 빈손으로 돌아가 자기 판만 가져온다. 명찰은 S05 이후 가슴 장비에 고정.",
+        "caption_safe_area": "대체로 하단 18% 여백. 손·샘플·얼굴은 중단. 마지막에는 인물과 사례판을 화면 상단 72%에 둔다."
+      },
+      "hook": "거꾸로 매달린 도둑의 빈 오른손이 작은 샘플 위 15cm에 있다. 10cm만 내려도 손은 5cm 위에 남는다. 처음부터 열린 통로를 두고 굳이 잠입한다.",
+      "reversals": [
+        {
+          "at": 10,
+          "description": "같은 열린 문을 지나자 동일 샘플의 공개 시연. 첫 설명은 이때 한 번만."
+        },
+        {
+          "at": 22,
+          "description": "퇴장하는 줄 알았던 TH가 자기 판을 꺼내3초 만에 귀환."
+        },
+        {
+          "at": 28,
+          "description": "진지한 공유 직전 판만180도 돌아간다. TH의 몸은 계속 거꾸로."
+        }
+      ],
+      "ending_connection": "원샘플을 반환하고 본인 사례를 공개하는 선택이 행사 목적과 연결된다. 명찰을 받는 장면만으로 끝내지 않는다.",
+      "production_notes": {
+        "difficulty_reason": "동일 인물의 역상 신체·와이어·문 통과, 샘플 동일성, 판의 180도 회전 연속성이 어렵다.",
+        "alternative": "천장 장비 전체 변형 대신 고정된 장비·좁은 이동·옆 추적으로 설계. 문 통과가 불안정하면 문틀이 몸을 가리는 지점에서 연결 편집하되 S03 출발과 S04 도착 방향을 보존. 판 회전은 손·판 근접 한 동작으로 분리할 수 있다.",
+        "avoid": "보안 장치 파괴, 잠긴 문, 기밀 문서, 실제 조직 로고, 도난품으로 얻은 성과 주장 없음.",
+        "timing": "0~6초 접근·집기,19~28초 반환·자료 회수·재입장9초,34~39초 엔딩. 각 원인 행동은 남기고 반응 대기만 제거."
+      },
+      "shots": [
+        {
+          "scene_id": "S01",
+          "cut_id": "K01",
+          "start": 0,
+          "end": 3,
+          "duration": 3,
+          "frame_start_description": "A 전실. TH가 거꾸로 매달려 오른손을 샘플 위 15cm에 멈춘다. 샘플은 받침대에 온전히 놓여 있다. 오른쪽 열린 문과 관통 레일, 문 옆 검정 가방이 함께 보인다.",
+          "action": "와이어가 TH를 정확히 10cm 천천히 내린다. 빈 오른손은 샘플 위 15cm→5cm에서 멈추며 끝까지 접촉하지 않는다. 3초 안에 동작을 완료하고 손 근접으로 넘긴다.",
+          "camera": "50mm 측면 미디엄. 열린 문을 배경 오른쪽에 남겨 두고 10cm 정도만 전진.",
+          "caption_cues": [],
+          "speech": "none",
+          "sound": "낮은 현악 펄스와 얇은 와이어 마찰음 선택. 음성 없음.",
+          "transition": "닿기 직전 오른손으로 컷.",
+          "comedy_intent": "비밀작전처럼 과잉 집중하는 인물과 이미 열린 통로의 불균형. 첫 이미지에서 샘플을 쥐면 안 된다.",
+          "continuity_in": "초기: TH 빈 오른손/샘플 사이15cm. A 샘플1/B 동일 샘플1, 명찰 없음, 개인 판 가방 안.",
+          "continuity_out": "10cm 하강 완료. 빈 오른손은 샘플 위5cm, 샘플은 받침대 위."
+        },
+        {
+          "scene_id": "S02",
+          "cut_id": "K02",
+          "start": 3,
+          "end": 6,
+          "duration": 3,
+          "frame_start_description": "TH의 빈 오른손이 A 청록 샘플 위5cm. 왼손은 받침대 옆면에 아직 닿지 않았다.",
+          "action": "오른손을 남은5cm 내려 샘플 양옆을 잡아10cm 들어 올린다. 왼손은 받침대 옆면에 얹는다. 접근3초+집기3초, 첫6초 안에 완료한다.",
+          "camera": "85mm 손·뒤집힌 얼굴 근접. 샘플 6슬롯과 빈 받침대가 동시에 보이는 각도.",
+          "caption_cues": [],
+          "speech": "none",
+          "sound": "들어 올리는 순간 가느다란 금속음. 음악 긴장은 계속.",
+          "transition": "왼손이 받침대에 닿은 상태로 연결.",
+          "comedy_intent": "거대한 작전의 목표가 손바닥 크기라는 대비. 절도 성공의 보상이 아니라 다음 오해의 준비.",
+          "continuity_in": "S01 끝: 빈 오른손은 샘플 위5cm, 몸/레일 같은 위치.",
+          "continuity_out": "샘플은 TH 오른손, A 받침대는 비었다. 왼손은 옆면에 닿아 있다."
+        },
+        {
+          "scene_id": "S03",
+          "cut_id": "K03",
+          "start": 6,
+          "end": 10,
+          "duration": 4,
+          "frame_start_description": "TH는 샘플을 오른손에 쥐고 왼손바닥으로 A 받침대 옆면을 짚고 있다. 몸은 열린 문 앞 A 쪽이며 문을 아직 넘지 않았다.",
+          "action": "도망치듯 몸을 빼려 왼손으로 받침대를 민다. 바퀴 달린 천장 캐리지가 오른쪽으로 미끄러지며 몸이 같은 열린 문을 통과한다. TH의 표정만 계획 밖 이동에 놀란다.",
+          "camera": "35mm 측면 추적. 밀기→바퀴→같은 문턱을4초에 연결. 이동은1m 이내, 출발 방향 유지.",
+          "caption_cues": [],
+          "speech": "none",
+          "sound": "선택 바퀴 굴러감, 음악에 급한 타악 한 번. 필수 효과 없음.",
+          "transition": "문틀이 몸 일부를 가릴 때 B 쪽 카메라로 매치.",
+          "comedy_intent": "우아한 잠입이 통제되지 않은 이동으로 바뀐다. 문 통과 원인이 손바닥의 밀기임을 보존.",
+          "continuity_in": "샘플은 오른손, 왼손은 받침대. 문은 계속 열린 상태.",
+          "continuity_out": "TH가 오른쪽 B로 넘어가며 왼손은 빈손. A 가방은 뒤쪽 같은 위치."
+        },
+        {
+          "scene_id": "S04",
+          "cut_id": "K04",
+          "start": 10,
+          "end": 16,
+          "duration": 6,
+          "frame_start_description": "B 시연실에서 본 열린 문. TH가 문턱 바로 안쪽에 반쯤 들어왔고, HO는 B 테이블 옆에서 화면을 가리키기 직전. 테이블 왼쪽에 TH 손과 동일한 청록 6슬롯 샘플이 놓여 있다.",
+          "action": "TH가 천천히 들어와 멈춘다. HO가 화면의 샘플 사진 후보 위치를 짚고 실제 테이블 샘플을 나란히 가리킨다. TH는 손의 샘플과 공개된 샘플을 번갈아 본다.",
+          "camera": "28mm B 와이드. 오른손 샘플과 테이블 샘플을 같은 화면에 충분히 크게 둔다. 화면 도해는 후합성.",
+          "caption_cues": [
+            {
+              "start": 11.5,
+              "end": 15.8,
+              "text": "AI가 표시한 후보\n원물로 함께 확인",
+              "kind": "example",
+              "placement": "하단18% 여백. 이 안의 유일한 AI 설명 큐."
+            }
+          ],
+          "speech": "none",
+          "sound": "도착 시 액션 음악을 가벼운 리듬으로 전환. 두 샘플 비교 순간 마지막0.5초만 음악·효과를 비운다. 음성 없음.",
+          "transition": "HO가 TH 쪽으로 고개를 돌리며 컷.",
+          "comedy_intent": "첫 반전. 얻으려던 정보가 같은 자리에서 이미 공개되고 있음을 물건 일치와 사람의 설명 행동으로 전달.",
+          "continuity_in": "TH의 샘플 1개, 테이블 기존 샘플 1개. 새 방문자·문 추가 없음.",
+          "continuity_out": "TH는 B 안, 샘플 여전히 오른손. HO는 TH를 발견하고 환영할 준비."
+        },
+        {
+          "scene_id": "S05",
+          "cut_id": "K05",
+          "start": 16,
+          "end": 19,
+          "duration": 3,
+          "frame_start_description": "HO의 오른손에 투명 클립 명찰이 들려 있고 TH 가슴 장비 앞 10cm에 있다. TH는 오른손의 샘플을 배 뒤로 숨기지 않고 눈앞에 들고 있다.",
+          "action": "HO가 명찰 클립을 TH 가슴 장비에 한 번 달고, 바로 빈 테이블 오른쪽 자리를 손바닥으로 안내한다. TH 눈이 커지는 반응까지3초.",
+          "camera": "50mm 역상 얼굴과 HO 얼굴이 함께 잡히는 투샷. 명찰 문자 생성 없이 후편집도 이름 불필요.",
+          "caption_cues": [],
+          "speech": "none",
+          "sound": "클립 딸깍 선택. 가벼운 리듬이 멈추지 않고 이어짐.",
+          "transition": "안내받은 테이블 오른쪽 빈자리로 시선 연결.",
+          "comedy_intent": "행사에 연결되는 인간적인 환영 비트. 이 컷 자체가 공유 메시지의 결말은 아니다.",
+          "continuity_in": "TH 명찰 없음→부착 직전, 샘플 오른손. B 왼쪽 기존 샘플 유지.",
+          "continuity_out": "명찰 가슴에 고정, HO가 안내한 B 오른쪽 자리는 비어 있음."
+        },
+        {
+          "scene_id": "S06",
+          "cut_id": "K06",
+          "start": 19,
+          "end": 22,
+          "duration": 3,
+          "frame_start_description": "TH의 오른손 샘플이 B 테이블 오른쪽 빈자리 위 10cm에 있다. 왼손은 테이블 가장자리에 아직 닿지 않았다. HO는 손을 거둔 상태.",
+          "action": "첫1초에 오른손 샘플을 B 테이블 오른쪽에 내려놓는다. 왼손으로 가장자리를 가볍게 밀어 열린 문 쪽 A로 즉시 이동한다. 불필요한 빈손 확인 포즈 없이3초.",
+          "camera": "35mm 측면. 반환 접촉1초를 보인 뒤 같은 축으로 왼쪽 이동2초. B 테이블-문 거리는70cm 정도.",
+          "caption_cues": [],
+          "speech": "none",
+          "sound": "선택 샘플 탁1회 후 짧은 바퀴 굴림. 음악은 끊지 않고 왕복을 이어준다.",
+          "transition": "TH가 문틀 뒤로 이동하는 방향을 유지해 A로 컷.",
+          "comedy_intent": "들켜서 빈손으로 달아나는 것처럼 보이는 오해. 반환이라는 윤리·물리적 원인을 화면에서 완료한다.",
+          "continuity_in": "TH 샘플 오른손/B 왼쪽 기존 샘플. 명찰 고정.",
+          "continuity_out": "B 테이블에 동일 샘플 두 개가 좌우로 남음. TH 두 손 비고 A 문 안쪽에 도착."
+        },
+        {
+          "scene_id": "S07",
+          "cut_id": "K07",
+          "start": 22,
+          "end": 25,
+          "duration": 3,
+          "frame_start_description": "A 문 옆에 돌아온 TH가 오른손으로 문틀을 짚고 멈췄다. 왼손은 처음부터 걸려 있던 검정 가방 입구 위. 주황 테두리 사례판의 윗부분만 가방에서 보인다.",
+          "action": "TH가 오른손으로 문틀을 짚어 멈춘 상태에서 왼손으로 가방의 단판을 바로 꺼낸다. 판을 B 쪽으로 돌려 들기까지3초. 비장한 표정 대기 삭제.",
+          "camera": "50mm A 쪽 미디엄. 가방과 판의 실제 추출을 잘라내지 않는다.",
+          "caption_cues": [
+            {
+              "start": 23,
+              "end": 24.9,
+              "text": "제 것도 있습니다.",
+              "kind": "character_caption",
+              "placement": "하단 여백, 판/가방 입구를 비움."
+            }
+          ],
+          "speech": "none",
+          "sound": "가방 스침 소리, 비장한 현악 한 마디 선택.",
+          "transition": "TH가 판을 B 쪽으로 돌려 든 시선 방향으로 컷.",
+          "comedy_intent": "두 번째 반전의 원인. 도망이 아니라 자기 자료를 가져오려던 행동임을 보인다.",
+          "continuity_in": "검정 가방 고정, TH 빈손, B 샘플 두 개 반환 완료.",
+          "continuity_out": "TH 왼손에 자기 사례판, 오른손은 문틀. 판은 TH 몸 기준 위가 되어 관객에게 거꾸로."
+        },
+        {
+          "scene_id": "S08",
+          "cut_id": "K08",
+          "start": 25,
+          "end": 28,
+          "duration": 3,
+          "frame_start_description": "TH가 열린 문 A 쪽에서 왼손에 주황 사례판을 완전히 꺼내 들었다. 판 앞면의 빨간 삼각형 표식이 관객 기준 아래에 있다. 오른손은 문틀에 붙어 있고 아직 밀지 않았다.",
+          "action": "TH가 오른손으로 문틀을 한 번 밀어 B로70cm 되돌아오며 왼손의 자기 판을 HO에게 내민다.3초. 반환→회수→재입장 합9초.",
+          "camera": "35mm 고정. 왼쪽→오른쪽70cm 이동, 판은 같은 손. 펼치기·추가 멈춤 없음.",
+          "caption_cues": [],
+          "speech": "none",
+          "sound": "와이어 굴러감과 진지한 광고 음악 재개. 음성 없음.",
+          "transition": "HO가 판 가장자리에 두 손을 대기 직전 근접 컷.",
+          "comedy_intent": "스파이의 재침입이 자발적 발표가 된다. 노트북 개방 대신 몸 전체의 귀환이 웃음의 행동.",
+          "continuity_in": "자기 판 왼손, 명찰 고정, 두 샘플 B에 유지.",
+          "continuity_out": "TH·HO가 판을 사이에 둔다. 판 방향은 아직 거꾸로."
+        },
+        {
+          "scene_id": "S09",
+          "cut_id": "K09",
+          "start": 28,
+          "end": 34,
+          "duration": 6,
+          "frame_start_description": "HO가 거꾸로 된 사례판 좌우 가장자리에 손을 대기 직전. TH는 왼손으로 판 아래쪽을 받친다. 빨간 삼각형은 관객 기준 아래, TH의 오른손은 비어 있다.",
+          "action": "TH가 판에서 손을 놓으면 HO가 판만180도 돌려 빨간 삼각형을 위로 보낸다. 몸은 계속 거꾸로인 TH가 설명하려던 손을 뻗었다가, 돌아간 판 위치를 찾아 검지를 옮긴다. HO는 표정 없이 판을 받친다. 사례 설명 자막을 반복하지 않고6초를 회전과 손의 작은 수정에 쓴다.",
+          "camera": "50mm 판 중심 미디엄. 2초 전달/회전,2초 TH 검지의 방향 수정,2초 거꾸로 몸·바른 판의 대비.",
+          "caption_cues": [],
+          "speech": "none",
+          "sound": "선택 판 스침. 회전 직후0.5초 음악·효과 정적, 이후 가벼운 리듬. AI 설명 음성 없음.",
+          "transition": "거꾸로 인물/똑바른 판 구도를 유지한 채 조금 넓혀 마지막 컷.",
+          "comedy_intent": "세 번째 시각 펀치라인. 수정되는 것은 사람의 자세가 아니라 자료의 방향. AI 사례의 내용도 공유됨을 보여준다.",
+          "continuity_in": "판은 거꾸로, TH가 받침. HO는 두 손 비어 있음.",
+          "continuity_out": "HO가 바로 선 판 보유. TH 빈손 검지는 바로 선 판을 따라 위치 수정. 반환품은 테이블 오른쪽."
+        },
+        {
+          "scene_id": "S10",
+          "cut_id": "K10",
+          "start": 34,
+          "end": 39,
+          "duration": 5,
+          "frame_start_description": "HO는 바로 세운 판을 들고, 거꾸로 TH는 오른손 검지가 판 옆에 머문다. 테이블 두 샘플·명찰·열린 문이 그대로 보인다.",
+          "action": "TH가 한 지점만 작게 짚고 HO가 끄덕인다.34초부터 행사 정보를5초 고정한다. 새 사건을 추가하지 않는다.",
+          "camera": "40mm 안정된 투샷. 인물·판·샘플을 상단 72%에 모으고 하단 제목판 여백.",
+          "caption_cues": [
+            {
+              "start": 34,
+              "end": 39,
+              "text": "Q-AI Fair\n품질팀 AI 성과·활용 경험 교류",
+              "kind": "event",
+              "placement": "하단 23%의 정돈된 2줄 제목판. 5초 고정."
+            }
+          ],
+          "speech": "none",
+          "sound": "선택 음악을 부드럽게 끝냄. 로고 보이스·내레이션 없음.",
+          "transition": "39초 종료 또는 다음 화면으로 단순 컷.",
+          "comedy_intent": "비밀 입수로 시작해 공개 경험 교류로 끝난다. 후반 5초는 읽는 시간.",
+          "continuity_in": "HO가 바로 선 판, TH 거꾸로, 반환품 포함 샘플 2개.",
+          "continuity_out": "동일 상태로 종료."
+        }
+      ],
+      "scene_list": [
+        {
+          "concept_id": "C07",
+          "scene_id": "S01",
+          "linked_cuts": [
+            "K01"
+          ],
+          "representative_frame": "A 전실. TH가 거꾸로 매달려 오른손을 샘플 위 15cm에 멈춘다. 샘플은 받침대에 온전히 놓여 있다. 오른쪽 열린 문과 관통 레일, 문 옆 검정 가방이 함께 보인다.",
+          "aspect_ratio": "16:9",
+          "continuity_requirements": "초기: TH 빈 오른손/샘플 사이15cm. A 샘플1/B 동일 샘플1, 명찰 없음, 개인 판 가방 안. / 10cm 하강 완료. 빈 오른손은 샘플 위5cm, 샘플은 받침대 위.",
+          "caption_space": "대체로 하단 18% 여백. 손·샘플·얼굴은 중단. 마지막에는 인물과 사례판을 화면 상단 72%에 둔다.",
+          "next_motion_camera": "와이어가 TH를 정확히 10cm 천천히 내린다. 빈 오른손은 샘플 위 15cm→5cm에서 멈추며 끝까지 접촉하지 않는다. 3초 안에 동작을 완료하고 손 근접으로 넘긴다. / 50mm 측면 미디엄. 열린 문을 배경 오른쪽에 남겨 두고 10cm 정도만 전진.",
+          "image_prompt_en": "Character identity guide only; show only people explicitly visible in this scene. TH: a lean Korean woman in her fifties with a short silver pixie haircut and angular face, charcoal fitted long-sleeve jumpsuit, black boots, matte grey waist-and-ankle theatrical suspension rig, bare hands, no mask or eyewear. HO: a broad-built Korean man in his thirties, short black curls, round glasses, mustard knitted vest over an ivory shirt, dark brown trousers, warm composed demeanor. Dim teal-lit anteroom, side medium shot. TH hangs completely upside down above an open unprotected pedestal. Her empty right fingertips stop FIFTEEN centimeters above one palm-sized teal circular test sample with exactly six radial slots. The wide doorway at screen right is already open, a straight ceiling trolley rail visibly passes through it; her black open satchel hangs beside the doorway. The duplicate demonstration sample in the far room is not yet prominent. Before contact, no sample in hand. Quiet lower margin. Single cinematic still, landscape 16:9, a real start frame before the specified action, never its completed outcome. No captions, no legible lettering, no numbers, no logo, no watermark, no collage, no duplicated people or extra limbs. Leave the specified caption area visually quiet. Do not render arrows or diagnostic rectangles except simple nontext printed graphic shapes explicitly described.",
+          "image_status": "NOT_GENERATED",
+          "planned_image_path": "images/C07/S01.png",
+          "duration": 3,
+          "start": 0,
+          "end": 3,
+          "review_status": "PD_REVISED_PENDING_RECHECK"
+        },
+        {
+          "concept_id": "C07",
+          "scene_id": "S02",
+          "linked_cuts": [
+            "K02"
+          ],
+          "representative_frame": "TH의 빈 오른손이 A 청록 샘플 위5cm. 왼손은 받침대 옆면에 아직 닿지 않았다.",
+          "aspect_ratio": "16:9",
+          "continuity_requirements": "S01 끝: 빈 오른손은 샘플 위5cm, 몸/레일 같은 위치. / 샘플은 TH 오른손, A 받침대는 비었다. 왼손은 옆면에 닿아 있다.",
+          "caption_space": "대체로 하단 18% 여백. 손·샘플·얼굴은 중단. 마지막에는 인물과 사례판을 화면 상단 72%에 둔다.",
+          "next_motion_camera": "오른손을 남은5cm 내려 샘플 양옆을 잡아10cm 들어 올린다. 왼손은 받침대 옆면에 얹는다. 접근3초+집기3초, 첫6초 안에 완료한다. / 85mm 손·뒤집힌 얼굴 근접. 샘플 6슬롯과 빈 받침대가 동시에 보이는 각도.",
+          "image_prompt_en": "Character identity guide only; show only people explicitly visible in this scene. TH: a lean Korean woman in her fifties with a short silver pixie haircut and angular face, charcoal fitted long-sleeve jumpsuit, black boots, matte grey waist-and-ankle theatrical suspension rig, bare hands, no mask or eyewear. HO: a broad-built Korean man in his thirties, short black curls, round glasses, mustard knitted vest over an ivory shirt, dark brown trousers, warm composed demeanor. Tight view of the same upside-down TH and the same teal six-slot sample still resting on the pedestal. Her empty right fingertips are exactly FIVE centimeters ABOVE the sample, not yet touching its sides, not holding or lifting it; her left hand hovers near the pedestal side. Show her intense inverted face and the pedestal surface. No security enclosure, lasers or locks. Quiet lower margin. Single cinematic still, landscape 16:9, a real start frame before the specified action, never its completed outcome. No captions, no legible lettering, no numbers, no logo, no watermark, no collage, no duplicated people or extra limbs. Leave the specified caption area visually quiet. Do not render arrows or diagnostic rectangles except simple nontext printed graphic shapes explicitly described.",
+          "image_status": "NOT_GENERATED",
+          "planned_image_path": "images/C07/S02.png",
+          "duration": 3,
+          "start": 3,
+          "end": 6,
+          "review_status": "PD_REVISED_PENDING_RECHECK"
+        },
+        {
+          "concept_id": "C07",
+          "scene_id": "S03",
+          "linked_cuts": [
+            "K03"
+          ],
+          "representative_frame": "TH는 샘플을 오른손에 쥐고 왼손바닥으로 A 받침대 옆면을 짚고 있다. 몸은 열린 문 앞 A 쪽이며 문을 아직 넘지 않았다.",
+          "aspect_ratio": "16:9",
+          "continuity_requirements": "샘플은 오른손, 왼손은 받침대. 문은 계속 열린 상태. / TH가 오른쪽 B로 넘어가며 왼손은 빈손. A 가방은 뒤쪽 같은 위치.",
+          "caption_space": "대체로 하단 18% 여백. 손·샘플·얼굴은 중단. 마지막에는 인물과 사례판을 화면 상단 72%에 둔다.",
+          "next_motion_camera": "도망치듯 몸을 빼려 왼손으로 받침대를 민다. 바퀴 달린 천장 캐리지가 오른쪽으로 미끄러지며 몸이 같은 열린 문을 통과한다. TH의 표정만 계획 밖 이동에 놀란다. / 35mm 측면 추적. 밀기→바퀴→같은 문턱을4초에 연결. 이동은1m 이내, 출발 방향 유지.",
+          "image_prompt_en": "Character identity guide only; show only people explicitly visible in this scene. TH: a lean Korean woman in her fifties with a short silver pixie haircut and angular face, charcoal fitted long-sleeve jumpsuit, black boots, matte grey waist-and-ankle theatrical suspension rig, bare hands, no mask or eyewear. HO: a broad-built Korean man in his thirties, short black curls, round glasses, mustard knitted vest over an ivory shirt, dark brown trousers, warm composed demeanor. Side wide tracking-start composition in the same anteroom. TH is upside down, teal sample firmly in her right hand. Her left palm touches the pedestal side, elbow bent, ready to push but has not pushed. Both her body and ceiling trolley remain on the anteroom side of the visibly open doorway to screen right. The straight rail and small trolley wheels are visible. Do not place her inside the demonstration room yet. Quiet lower margin. Single cinematic still, landscape 16:9, a real start frame before the specified action, never its completed outcome. No captions, no legible lettering, no numbers, no logo, no watermark, no collage, no duplicated people or extra limbs. Leave the specified caption area visually quiet. Do not render arrows or diagnostic rectangles except simple nontext printed graphic shapes explicitly described.",
+          "image_status": "NOT_GENERATED",
+          "planned_image_path": "images/C07/S03.png",
+          "duration": 4,
+          "start": 6,
+          "end": 10,
+          "review_status": "PD_REVISED_PENDING_RECHECK"
+        },
+        {
+          "concept_id": "C07",
+          "scene_id": "S04",
+          "linked_cuts": [
+            "K04"
+          ],
+          "representative_frame": "B 시연실에서 본 열린 문. TH가 문턱 바로 안쪽에 반쯤 들어왔고, HO는 B 테이블 옆에서 화면을 가리키기 직전. 테이블 왼쪽에 TH 손과 동일한 청록 6슬롯 샘플이 놓여 있다.",
+          "aspect_ratio": "16:9",
+          "continuity_requirements": "TH의 샘플 1개, 테이블 기존 샘플 1개. 새 방문자·문 추가 없음. / TH는 B 안, 샘플 여전히 오른손. HO는 TH를 발견하고 환영할 준비.",
+          "caption_space": "대체로 하단 18% 여백. 손·샘플·얼굴은 중단. 마지막에는 인물과 사례판을 화면 상단 72%에 둔다.",
+          "next_motion_camera": "TH가 천천히 들어와 멈춘다. HO가 화면의 샘플 사진 후보 위치를 짚고 실제 테이블 샘플을 나란히 가리킨다. TH는 손의 샘플과 공개된 샘플을 번갈아 본다. / 28mm B 와이드. 오른손 샘플과 테이블 샘플을 같은 화면에 충분히 크게 둔다. 화면 도해는 후합성.",
+          "image_prompt_en": "Character identity guide only; show only people explicitly visible in this scene. TH: a lean Korean woman in her fifties with a short silver pixie haircut and angular face, charcoal fitted long-sleeve jumpsuit, black boots, matte grey waist-and-ankle theatrical suspension rig, bare hands, no mask or eyewear. HO: a broad-built Korean man in his thirties, short black curls, round glasses, mustard knitted vest over an ivory shirt, dark brown trousers, warm composed demeanor. Warm white demonstration room immediately beyond the same open doorway at screen left. Upside-down TH has only just crossed the threshold, holding the teal six-slot sample in her right hand. HO stands by a waist-high table, his pointing hand still lowered. One identical teal six-slot sample rests on the LEFT half of that table. A single screen behind shows only a simple unlettered photograph-like circle diagram, reserved for later compositing. Both samples are clearly visible. No crowd. Before the host points or greets. Quiet lower caption band. Single cinematic still, landscape 16:9, a real start frame before the specified action, never its completed outcome. No captions, no legible lettering, no numbers, no logo, no watermark, no collage, no duplicated people or extra limbs. Leave the specified caption area visually quiet. Do not render arrows or diagnostic rectangles except simple nontext printed graphic shapes explicitly described.",
+          "image_status": "NOT_GENERATED",
+          "planned_image_path": "images/C07/S04.png",
+          "duration": 6,
+          "start": 10,
+          "end": 16,
+          "review_status": "PD_REVISED_PENDING_RECHECK"
+        },
+        {
+          "concept_id": "C07",
+          "scene_id": "S05",
+          "linked_cuts": [
+            "K05"
+          ],
+          "representative_frame": "HO의 오른손에 투명 클립 명찰이 들려 있고 TH 가슴 장비 앞 10cm에 있다. TH는 오른손의 샘플을 배 뒤로 숨기지 않고 눈앞에 들고 있다.",
+          "aspect_ratio": "16:9",
+          "continuity_requirements": "TH 명찰 없음→부착 직전, 샘플 오른손. B 왼쪽 기존 샘플 유지. / 명찰 가슴에 고정, HO가 안내한 B 오른쪽 자리는 비어 있음.",
+          "caption_space": "대체로 하단 18% 여백. 손·샘플·얼굴은 중단. 마지막에는 인물과 사례판을 화면 상단 72%에 둔다.",
+          "next_motion_camera": "HO가 명찰 클립을 TH 가슴 장비에 한 번 달고, 바로 빈 테이블 오른쪽 자리를 손바닥으로 안내한다. TH 눈이 커지는 반응까지3초. / 50mm 역상 얼굴과 HO 얼굴이 함께 잡히는 투샷. 명찰 문자 생성 없이 후편집도 이름 불필요.",
+          "image_prompt_en": "Character identity guide only; show only people explicitly visible in this scene. TH: a lean Korean woman in her fifties with a short silver pixie haircut and angular face, charcoal fitted long-sleeve jumpsuit, black boots, matte grey waist-and-ankle theatrical suspension rig, bare hands, no mask or eyewear. HO: a broad-built Korean man in his thirties, short black curls, round glasses, mustard knitted vest over an ivory shirt, dark brown trousers, warm composed demeanor. Medium two-shot of upside-down TH and upright HO in the warm demo room. HO holds one transparent clip badge ten centimeters from TH's chest harness, not attached yet. TH visibly holds the same sample in her right hand and watches him with wary wide eyes. Keep the existing teal duplicate on the table left and the right half empty. No writing on badge, no cuffs. Before the clipping action. Quiet lower margin. Single cinematic still, landscape 16:9, a real start frame before the specified action, never its completed outcome. No captions, no legible lettering, no numbers, no logo, no watermark, no collage, no duplicated people or extra limbs. Leave the specified caption area visually quiet. Do not render arrows or diagnostic rectangles except simple nontext printed graphic shapes explicitly described.",
+          "image_status": "NOT_GENERATED",
+          "planned_image_path": "images/C07/S05.png",
+          "duration": 3,
+          "start": 16,
+          "end": 19,
+          "review_status": "PD_REVISED_PENDING_RECHECK"
+        },
+        {
+          "concept_id": "C07",
+          "scene_id": "S06",
+          "linked_cuts": [
+            "K06"
+          ],
+          "representative_frame": "TH의 오른손 샘플이 B 테이블 오른쪽 빈자리 위 10cm에 있다. 왼손은 테이블 가장자리에 아직 닿지 않았다. HO는 손을 거둔 상태.",
+          "aspect_ratio": "16:9",
+          "continuity_requirements": "TH 샘플 오른손/B 왼쪽 기존 샘플. 명찰 고정. / B 테이블에 동일 샘플 두 개가 좌우로 남음. TH 두 손 비고 A 문 안쪽에 도착.",
+          "caption_space": "대체로 하단 18% 여백. 손·샘플·얼굴은 중단. 마지막에는 인물과 사례판을 화면 상단 72%에 둔다.",
+          "next_motion_camera": "첫1초에 오른손 샘플을 B 테이블 오른쪽에 내려놓는다. 왼손으로 가장자리를 가볍게 밀어 열린 문 쪽 A로 즉시 이동한다. 불필요한 빈손 확인 포즈 없이3초. / 35mm 측면. 반환 접촉1초를 보인 뒤 같은 축으로 왼쪽 이동2초. B 테이블-문 거리는70cm 정도.",
+          "image_prompt_en": "Character identity guide only; show only people explicitly visible in this scene. TH: a lean Korean woman in her fifties with a short silver pixie haircut and angular face, charcoal fitted long-sleeve jumpsuit, black boots, matte grey waist-and-ankle theatrical suspension rig, bare hands, no mask or eyewear. HO: a broad-built Korean man in his thirties, short black curls, round glasses, mustard knitted vest over an ivory shirt, dark brown trousers, warm composed demeanor. Side medium-wide in the warm demo room. Upside-down TH holds her original teal sample ten centimeters above the EMPTY RIGHT half of the table; the duplicate remains on the LEFT. She has not placed the sample yet. Her left hand is lifted near, but not touching, the table edge. Badge is already clipped to her harness. The same open doorway to the anteroom is screen left. HO watches calmly. Reserve lower band. Single cinematic still, landscape 16:9, a real start frame before the specified action, never its completed outcome. No captions, no legible lettering, no numbers, no logo, no watermark, no collage, no duplicated people or extra limbs. Leave the specified caption area visually quiet. Do not render arrows or diagnostic rectangles except simple nontext printed graphic shapes explicitly described.",
+          "image_status": "NOT_GENERATED",
+          "planned_image_path": "images/C07/S06.png",
+          "duration": 3,
+          "start": 19,
+          "end": 22,
+          "review_status": "PD_REVISED_PENDING_RECHECK"
+        },
+        {
+          "concept_id": "C07",
+          "scene_id": "S07",
+          "linked_cuts": [
+            "K07"
+          ],
+          "representative_frame": "A 문 옆에 돌아온 TH가 오른손으로 문틀을 짚고 멈췄다. 왼손은 처음부터 걸려 있던 검정 가방 입구 위. 주황 테두리 사례판의 윗부분만 가방에서 보인다.",
+          "aspect_ratio": "16:9",
+          "continuity_requirements": "검정 가방 고정, TH 빈손, B 샘플 두 개 반환 완료. / TH 왼손에 자기 사례판, 오른손은 문틀. 판은 TH 몸 기준 위가 되어 관객에게 거꾸로.",
+          "caption_space": "대체로 하단 18% 여백. 손·샘플·얼굴은 중단. 마지막에는 인물과 사례판을 화면 상단 72%에 둔다.",
+          "next_motion_camera": "TH가 오른손으로 문틀을 짚어 멈춘 상태에서 왼손으로 가방의 단판을 바로 꺼낸다. 판을 B 쪽으로 돌려 들기까지3초. 비장한 표정 대기 삭제. / 50mm A 쪽 미디엄. 가방과 판의 실제 추출을 잘라내지 않는다.",
+          "image_prompt_en": "Character identity guide only; show only people explicitly visible in this scene. TH: a lean Korean woman in her fifties with a short silver pixie haircut and angular face, charcoal fitted long-sleeve jumpsuit, black boots, matte grey waist-and-ankle theatrical suspension rig, bare hands, no mask or eyewear. HO: a broad-built Korean man in his thirties, short black curls, round glasses, mustard knitted vest over an ivory shirt, dark brown trousers, warm composed demeanor. Anteroom-side medium shot. Same inverted TH braces her RIGHT palm on the same door jamb, stationary. Her LEFT empty hand is poised above the black satchel hanging from its original wall hook. Only the upper orange edge of a single rigid white presentation board is visible inside the satchel; the board has not been extracted. Her badge remains attached. No teal sample in either hand. Quiet lower band. Single cinematic still, landscape 16:9, a real start frame before the specified action, never its completed outcome. No captions, no legible lettering, no numbers, no logo, no watermark, no collage, no duplicated people or extra limbs. Leave the specified caption area visually quiet. Do not render arrows or diagnostic rectangles except simple nontext printed graphic shapes explicitly described.",
+          "image_status": "NOT_GENERATED",
+          "planned_image_path": "images/C07/S07.png",
+          "duration": 3,
+          "start": 22,
+          "end": 25,
+          "review_status": "PD_REVISED_PENDING_RECHECK"
+        },
+        {
+          "concept_id": "C07",
+          "scene_id": "S08",
+          "linked_cuts": [
+            "K08"
+          ],
+          "representative_frame": "TH가 열린 문 A 쪽에서 왼손에 주황 사례판을 완전히 꺼내 들었다. 판 앞면의 빨간 삼각형 표식이 관객 기준 아래에 있다. 오른손은 문틀에 붙어 있고 아직 밀지 않았다.",
+          "aspect_ratio": "16:9",
+          "continuity_requirements": "자기 판 왼손, 명찰 고정, 두 샘플 B에 유지. / TH·HO가 판을 사이에 둔다. 판 방향은 아직 거꾸로.",
+          "caption_space": "대체로 하단 18% 여백. 손·샘플·얼굴은 중단. 마지막에는 인물과 사례판을 화면 상단 72%에 둔다.",
+          "next_motion_camera": "TH가 오른손으로 문틀을 한 번 밀어 B로70cm 되돌아오며 왼손의 자기 판을 HO에게 내민다.3초. 반환→회수→재입장 합9초. / 35mm 고정. 왼쪽→오른쪽70cm 이동, 판은 같은 손. 펼치기·추가 멈춤 없음.",
+          "image_prompt_en": "Character identity guide only; show only people explicitly visible in this scene. TH: a lean Korean woman in her fifties with a short silver pixie haircut and angular face, charcoal fitted long-sleeve jumpsuit, black boots, matte grey waist-and-ankle theatrical suspension rig, bare hands, no mask or eyewear. HO: a broad-built Korean man in his thirties, short black curls, round glasses, mustard knitted vest over an ivory shirt, dark brown trousers, warm composed demeanor. Warm room view toward the open doorway. TH is still on the anteroom side ready to return, inverted, her right palm braced on the jamb before pushing. Her left hand holds her own orange-bordered rigid board, fully extracted, front facing HO. A red triangular orientation mark is at the BOTTOM from the viewer's perspective; two simple unlabeled schematic image blocks are inverted. HO waits inside, hands lowered. Both teal samples remain on the demo table. Quiet lower band. Single cinematic still, landscape 16:9, a real start frame before the specified action, never its completed outcome. No captions, no legible lettering, no numbers, no logo, no watermark, no collage, no duplicated people or extra limbs. Leave the specified caption area visually quiet. Do not render arrows or diagnostic rectangles except simple nontext printed graphic shapes explicitly described.",
+          "image_status": "NOT_GENERATED",
+          "planned_image_path": "images/C07/S08.png",
+          "duration": 3,
+          "start": 25,
+          "end": 28,
+          "review_status": "PD_REVISED_PENDING_RECHECK"
+        },
+        {
+          "concept_id": "C07",
+          "scene_id": "S09",
+          "linked_cuts": [
+            "K09"
+          ],
+          "representative_frame": "HO가 거꾸로 된 사례판 좌우 가장자리에 손을 대기 직전. TH는 왼손으로 판 아래쪽을 받친다. 빨간 삼각형은 관객 기준 아래, TH의 오른손은 비어 있다.",
+          "aspect_ratio": "16:9",
+          "continuity_requirements": "판은 거꾸로, TH가 받침. HO는 두 손 비어 있음. / HO가 바로 선 판 보유. TH 빈손 검지는 바로 선 판을 따라 위치 수정. 반환품은 테이블 오른쪽.",
+          "caption_space": "대체로 하단 18% 여백. 손·샘플·얼굴은 중단. 마지막에는 인물과 사례판을 화면 상단 72%에 둔다.",
+          "next_motion_camera": "TH가 판에서 손을 놓으면 HO가 판만180도 돌려 빨간 삼각형을 위로 보낸다. 몸은 계속 거꾸로인 TH가 설명하려던 손을 뻗었다가, 돌아간 판 위치를 찾아 검지를 옮긴다. HO는 표정 없이 판을 받친다. 사례 설명 자막을 반복하지 않고6초를 회전과 손의 작은 수정에 쓴다. / 50mm 판 중심 미디엄. 2초 전달/회전,2초 TH 검지의 방향 수정,2초 거꾸로 몸·바른 판의 대비.",
+          "image_prompt_en": "Character identity guide only; show only people explicitly visible in this scene. TH: a lean Korean woman in her fifties with a short silver pixie haircut and angular face, charcoal fitted long-sleeve jumpsuit, black boots, matte grey waist-and-ankle theatrical suspension rig, bare hands, no mask or eyewear. HO: a broad-built Korean man in his thirties, short black curls, round glasses, mustard knitted vest over an ivory shirt, dark brown trousers, warm composed demeanor. Medium shot centered on the still UPSIDE-DOWN orange-bordered board. Its red triangle is at the bottom. TH, also upside down, supports the board with her LEFT hand; HO's two hands are about to grasp opposite side edges, not yet rotating. TH's RIGHT hand is empty and relaxed. Two teal samples stay visible on the table behind. Leave room for later diagnostic graphic overlays but render no text or completed rotation. Quiet lower margin. Single cinematic still, landscape 16:9, a real start frame before the specified action, never its completed outcome. No captions, no legible lettering, no numbers, no logo, no watermark, no collage, no duplicated people or extra limbs. Leave the specified caption area visually quiet. Do not render arrows or diagnostic rectangles except simple nontext printed graphic shapes explicitly described.",
+          "image_status": "NOT_GENERATED",
+          "planned_image_path": "images/C07/S09.png",
+          "duration": 6,
+          "start": 28,
+          "end": 34,
+          "review_status": "PD_REVISED_PENDING_RECHECK"
+        },
+        {
+          "concept_id": "C07",
+          "scene_id": "S10",
+          "linked_cuts": [
+            "K10"
+          ],
+          "representative_frame": "HO는 바로 세운 판을 들고, 거꾸로 TH는 오른손 검지가 판 옆에 머문다. 테이블 두 샘플·명찰·열린 문이 그대로 보인다.",
+          "aspect_ratio": "16:9",
+          "continuity_requirements": "HO가 바로 선 판, TH 거꾸로, 반환품 포함 샘플 2개. / 동일 상태로 종료.",
+          "caption_space": "대체로 하단 18% 여백. 손·샘플·얼굴은 중단. 마지막에는 인물과 사례판을 화면 상단 72%에 둔다.",
+          "next_motion_camera": "TH가 한 지점만 작게 짚고 HO가 끄덕인다.34초부터 행사 정보를5초 고정한다. 새 사건을 추가하지 않는다. / 40mm 안정된 투샷. 인물·판·샘플을 상단 72%에 모으고 하단 제목판 여백.",
+          "image_prompt_en": "Character identity guide only; show only people explicitly visible in this scene. TH: a lean Korean woman in her fifties with a short silver pixie haircut and angular face, charcoal fitted long-sleeve jumpsuit, black boots, matte grey waist-and-ankle theatrical suspension rig, bare hands, no mask or eyewear. HO: a broad-built Korean man in his thirties, short black curls, round glasses, mustard knitted vest over an ivory shirt, dark brown trousers, warm composed demeanor. Stable medium-wide final-start composition, same warm demo room and open doorway. HO holds the orange-bordered board upright with the red triangle at its TOP. TH remains upside down beside him, her right index finger poised next to a schematic image, not yet pointing. Both teal samples sit on the same table. The badge remains attached. All narrative objects fit in the top seventy-two percent, broad quiet lower caption area, absolutely no rendered event lettering. Single cinematic still, landscape 16:9, a real start frame before the specified action, never its completed outcome. No captions, no legible lettering, no numbers, no logo, no watermark, no collage, no duplicated people or extra limbs. Leave the specified caption area visually quiet. Do not render arrows or diagnostic rectangles except simple nontext printed graphic shapes explicitly described.",
+          "image_status": "NOT_GENERATED",
+          "planned_image_path": "images/C07/S10.png",
+          "duration": 5,
+          "start": 34,
+          "end": 39,
+          "review_status": "PD_REVISED_PENDING_RECHECK"
+        }
+      ],
+      "caption_assets": {
+        "source_of_truth": "shots[].caption_cues",
+        "compositing": "생성 이미지에는 글자 없음. 해당 가상 시연의 동일 샘플 사진/후보 사각형/원물 확인 도해를 후편집으로 합성한다. 기존 직원·과제·실적의 화면으로 오인시키지 않는 무명 예시.",
+        "event_title": "Q-AI Fair",
+        "event_subtitle": "품질팀 AI 성과·활용 경험 교류"
+      },
+      "review_status": {
+        "text": "PD_REVISED_AWAITING_THREE_REVIEWER_RECHECK",
+        "image": "NOT_GENERATED",
+        "motion": "NOT_GENERATED",
+        "audience_response": "NOT_MEASURED"
+      }
+    },
+    {
+      "id": "C08",
+      "title": "해동하자마자 발표",
+      "purpose": "AI 활용 경험을 나누려는 열의를 구조극의 도구 전환으로 전달",
+      "format": "차가운 재난 영화 미술과 과장된 발표 열의가 만나는 광고극",
+      "duration_seconds": 42,
+      "aspect_ratio": "16:9 (가정)",
+      "comedy_intensity": 5,
+      "production_difficulty": "높음",
+      "one_line": "얼음 속에서 자료를 가리키던 발표자가 구조 장비를 시연 도구로 바꾸자, 구조대장이 같은 자료의 조건을 바꿔 함께 비교하고 공유 줄에 합류한다.",
+      "core_message": "꺼내 놓을 활용 경험이 있다면 누구나 서로의 발표자가 된다.",
+      "cast_count": 5,
+      "char_visual_bible": [
+        {
+          "id": "PR",
+          "appearance": "30대 후반 흑인 남성, 키 크고 긴 팔다리, 둥근 짧은 아프로, 네모난 얇은 안경",
+          "wardrobe": "선명한 주황색 보온 작업복, 버건디 짧은 목도리, 검정 방한화",
+          "performance": "얼음 속 왼손 자료판과 오른손 검지의 목표 위치를 해동까지 고정. 절박해 보이는 표정은 설명에 몰입한 표정. 이후 도구 전용에 집중.",
+          "prompt_en": "PR: a tall long-limbed Black man in his late thirties, short rounded afro, thin rectangular glasses, vivid orange insulated coverall, short burgundy scarf, black winter boots."
+        },
+        {
+          "id": "RL",
+          "appearance": "50대 후반 한국인 여성, 작고 단단한 체격, 회색이 섞인 검정 일자 단발",
+          "wardrobe": "코발트 파랑 패딩 재킷, 회색 방한 바지, 흰색 귀마개",
+          "performance": "구조 전문가→같은 샘플의 다른 조명 조건을 직접 제안하는 공동 실험자→같은 비교판을 들고 공유 줄에 합류.",
+          "prompt_en": "RL: a short sturdy Korean woman in her late fifties, straight black-and-grey bob, cobalt blue padded jacket, grey snow trousers, white earmuffs."
+        },
+        {
+          "id": "RA",
+          "appearance": "20대 한국인 남성, 마른 체격, 검정 버즈컷",
+          "wardrobe": "자두색 패딩 재킷, 검정 바지, 회색 장갑",
+          "performance": "성실하게 도우려다 도구가 전용되는 광경에 당황. 마지막까지 구조 업무의 논리로 반응.",
+          "prompt_en": "RA: a slim Korean man in his twenties with a black buzzcut, plum padded jacket, black trousers, grey gloves."
+        },
+        {
+          "id": "F1",
+          "appearance": "40대 남아시아 여성, 긴 한 갈래 검정 땋은 머리",
+          "wardrobe": "라일락 보온 코트",
+          "performance": "뒤 얼음 판 안에서 자기 흰 자료판을 양손으로 든 포즈를 유지.",
+          "prompt_en": "F1: a South Asian woman in her forties with a long single black braid and lilac insulated coat, holding a white case board, behind the second translucent ice panel."
+        },
+        {
+          "id": "F2",
+          "appearance": "60대 동아시아 남성, 대머리, 둥근 체형",
+          "wardrobe": "짙은 남색 보온 코트",
+          "performance": "뒤 얼음 판 안에서 자기 초록 자료판을 옆으로 든 포즈를 유지.",
+          "prompt_en": "F2: a round-built East Asian man in his sixties, bald, navy insulated coat, holding a green case board, behind the third translucent ice panel."
+        }
+      ],
+      "visual_bible": {
+        "palette": "청백색 냉동 스튜디오, 주황 발표자와 파랑·자두 구조복의 선명한 대비. 후반에도 같은 차가운 공간.",
+        "space": "앞 얼음 판 1개, 뒤 오른쪽으로 나란한 얼음 판 2개. S01부터 뒷 판의 양 가장자리가 프레임에 보인다. 중앙 앞 낮은 고정 구조판, 오른쪽 세로 작업등, 좌측 회색 구조 상자. 열풍기는 시작 시 RL 오른손, S03 이후 오른쪽 바닥. 실재 빙하·고대 유적이 아니다.",
+        "props": "PR의 흰 단판 사례판은 처음부터 왼손에 있다. 같은 빨간 삼각 샘플을 서로 다른 조명에서 찍은 두 사진 영역과 고정 조건칸2개. 판 아래오른쪽에 길이4cm 아이보리 천 탭이 처음부터 고정. PR 오른손은 시작부터 그 판 오른쪽 상단 사진의 한 점을 가리킴. 실제 빨간 삼각 샘플은 가슴 주머니. 아이보리 담요1장/고정 구조판1개/검정 작업등1개/노란 열풍기1개. RL의 별도 자료판은 없다.",
+        "continuity": "S01~02 PR 왼손 판 위치/오른손 검지 목표점 동일, 서리만 걷혀 목표가 보임. 담요 어깨→구조판, 샘플 주머니→담요. 작업등 얼굴→정면 하향→RL이 옆30도로 돌려 다른 조명 조건. 흰 판 PR 왼손→S08 RL 양손, 아래 천 탭도 같은 것. 열풍기 RL 오른손→S03 바닥→S09 RA. 새 자료판 없음.",
+        "caption_safe_area": "하단 18%에 여백. 손·샘플·등의 회전은 중단에서 읽힌다. 뒤 두 사람을 작은 글자로 설명하지 않음."
+      },
+      "hook": "서리 뒤 앞으로 뻗은 손이 구조 요청처럼 보이지만, 왼손에 비스듬히 든 자료판과 같은 목표점을 가리키던 오른손은 해동 전후 바뀌지 않는다.",
+      "reversals": [
+        {
+          "at": 3.5,
+          "description": "서리가 걷히자 손의 목표가 처음부터 왼손에 든 자료판이었다."
+        },
+        {
+          "at": 8,
+          "description": "조수가 몸을 덮으려던 담요를 탁자 배경으로 가로챔. 준비3컷8초."
+        },
+        {
+          "at": 25.5,
+          "description": "대장이 같은 샘플의 조명 조건을 바꿔 함께 비교하고 같은 판을 들고 줄 합류."
+        },
+        {
+          "at": 32.5,
+          "description": "조수가 얼지도 않은 대장의 자료판 천 탭을 송풍."
+        }
+      ],
+      "ending_connection": "새 자기 사례를 경쟁적으로 내미는 대신 같은 자료·실물을 다른 조건으로 함께 비교하는 행동을 활용 경험 교류에 연결.",
+      "production_notes": {
+        "difficulty_reason": "얼음 해동과 의상 연속성, 다섯 인물·세 얼음 판의 고정 위치, 담요 이동이 어렵다.",
+        "alternative": "해동은 전면 얼음의 투명도·물방울 효과와 짧은 백색 빛 연결로 처리할 수 있다. 복잡한 실제 파괴나 유체 시뮬레이션을 필수로 삼지 않는다. 후방 2인은 움직이지 않는 정적 포즈, 발표자/구조원 3인만 움직인다.",
+        "avoid": "고대인이 AI를 썼다는 설정, 실제 구조 절차 재현, 고통·위협 연기, 갑자기 생기는 추가 얼음 판 없음.",
+        "timing": "K03~05 준비는 기존 순수15초에서8초로 압축(해동시간과 구분). K08 공동 조건 비교7초는 새 사건으로 보존. 최종42초."
+      },
+      "shots": [
+        {
+          "scene_id": "S01",
+          "cut_id": "K01",
+          "start": 0,
+          "end": 3.5,
+          "duration": 3.5,
+          "frame_start_description": "앞 얼음 판 뒤 PR은 흰 판을 왼손으로 가슴 앞에서 카메라 쪽으로 비스듬히 고정한다. 오른팔 검지는 판 오른쪽 상단 사진 위치의5cm 앞을 가리킨다. 서리가 판과 목표점을 가려 구조 손짓처럼 보인다. 판 아래오른쪽 고정 천 탭4cm도 서리 뒤. RL 오른손 열풍기, RA 담요 준비.",
+          "action": "RL이 열풍기를 내린 채 왼손으로 앞 얼음에 닿는다. PR 두 손·판·목표점은 움직이지 않는다.3.5초 안에 해동 컷으로 진입.",
+          "camera": "35mm 낮은 각도. 손만 보이고 왼손 판·목표점은 서리로 가림. 해동 후 매치를 위해 카메라와 몸 위치 고정.",
+          "caption_cues": [],
+          "speech": "none",
+          "sound": "선택 차가운 저음·바람. 음성 없음.",
+          "transition": "RL의 시선에서 노란 열풍기로 연결.",
+          "comedy_intent": "서리로 가려진 목표를 오해하게 하되 해동 뒤 손동작을 바꿔 반전을 조작하지 않음.",
+          "continuity_in": "PR 왼손 흰 판/오른손 특정 사진점 지시. 고정 천 탭 초기 존재. RL 오른손 꺼진 열풍기.",
+          "continuity_out": "PR 두 손·판·목표점 그대로. RL 해동 준비."
+        },
+        {
+          "scene_id": "S02",
+          "cut_id": "K02",
+          "start": 3.5,
+          "end": 8,
+          "duration": 4.5,
+          "frame_start_description": "PR은 S01과 정확히 같은 왼손 판·오른손 검지·목표점 위치로 얼음 뒤에 있다. RL 열풍기는 하단30cm 앞, 켜기 직전. RA 담요 양손.",
+          "action": "3.5~6.8초 서리가 걷히며 왼손 자료판과 그 판을 가리키던 같은 목표점이 드러난다. PR의 팔·판을 움직이지 않는다. 끝1.2초 RA가 담요를 어깨에 걸치며 더 감싸려 한다.",
+          "camera": "S01 동일 높이·렌즈·몸 크기. 서리만 사라져 처음부터 있던 목표가 읽히는4.5초.",
+          "caption_cues": [],
+          "speech": "none",
+          "sound": "선택 송풍. 표적 공개 마지막0.4초 음악 비우기 가능.",
+          "transition": "담요 어깨에 닿는 지점에서 다음 미디엄.",
+          "comedy_intent": "구조 신호처럼 보인 손의 원래 목표를 공개.",
+          "continuity_in": "서리 뒤 동일 포즈·판. 열풍기 RL/담요 RA.",
+          "continuity_out": "동일 포즈·목표 공개. 담요 어깨에 느슨함. RL 열풍기 끔. 천 탭 공개."
+        },
+        {
+          "scene_id": "S03",
+          "cut_id": "K03",
+          "start": 8,
+          "end": 11,
+          "duration": 3,
+          "frame_start_description": "해동한 PR 왼손은 같은 흰 판, 오른손은 여전히 같은 목표점. 담요는 어깨에 걸쳐 있고 RA가 양끝을 들어 몸을 감싸기 직전. 구조판 상면 비어 있음.",
+          "action": "RA가 담요를 몸 쪽으로 감싸려는 순간 PR이 오른손을 판에서 떼어 앞 모서리를 구조판 쪽으로 당긴다. 담요가 펴지고 RA는 몸을 감싸려던 빈 팔 자세로0.5초 남는다. RL은 꺼진 열풍기를 오른쪽 바닥에 둔다.",
+          "camera": "50mm 같은 담요를 서로 다른 방향으로 당기는 순간→RA 빈 팔 반응까지3초. 큰 실랑이 없음.",
+          "caption_cues": [],
+          "speech": "none",
+          "sound": "천 휙 선택. 준비3컷 음악 연속.",
+          "transition": "담요가 펴진 구조판 중앙으로 시선 연결.",
+          "comedy_intent": "준비를 압축하면서도 조수와 발표자의 목적 충돌·반응을 유지.",
+          "continuity_in": "판 PR 왼손/오른손 기존 목표점. 담요 어깨·RA 두끝.",
+          "continuity_out": "담요 상판/PR 오른손 자유·왼손 판. RA 빈 팔, 열풍기 바닥."
+        },
+        {
+          "scene_id": "S04",
+          "cut_id": "K04",
+          "start": 11,
+          "end": 13.5,
+          "duration": 2.5,
+          "frame_start_description": "담요만 깔린 구조판. PR 오른손은 가슴 주머니 입구 위, 샘플은 안. 왼손 판과 고정 천 탭, RA는 빈 팔을 내리려 한다.",
+          "action": "PR이 빨간 삼각 샘플을 주머니에서 꺼내 담요 중앙에 바로 놓는다. RA가 눕는 곳으로 안내하려던 손을 멈춘다.2.5초에 추출·접촉 완료.",
+          "camera": "65mm 주머니→빈 담요 중앙을 같은 화면. 손이 샘플을 가리지 않는 측면.",
+          "caption_cues": [],
+          "speech": "none",
+          "sound": "놓는 작은 탁·연속 음악 선택.",
+          "transition": "작업등의 강한 얼굴 빛으로 연결.",
+          "comedy_intent": "사람용 구조판이 실물 비교 테이블이 되는 핵심 동작만 남김.",
+          "continuity_in": "샘플 주머니/담요 상판/판 왼손.",
+          "continuity_out": "샘플 중앙/오른손 빈손/판 왼손."
+        },
+        {
+          "scene_id": "S05",
+          "cut_id": "K05",
+          "start": 13.5,
+          "end": 16,
+          "duration": 2.5,
+          "frame_start_description": "작업등은 얼굴 방향, 샘플은 어둡다. PR 오른손은 등 손잡이10cm 앞. 흰 판은 왼손.",
+          "action": "PR이 등 머리를 아래 한 축으로 기울여 샘플을 정면 하향 조명한다. RA가 어두워진 얼굴 대신 샘플 쪽으로 고개를 따라 내린다.2.5초.",
+          "camera": "50mm 옆 미디엄. 얼굴빛→샘플빛 이동과 RA 반응 한 화면.",
+          "caption_cues": [],
+          "speech": "none",
+          "sound": "힌지 한번·연속 음악 선택.",
+          "transition": "샘플에 생긴 빛에서 처음과 같은 팔 자세로 매치.",
+          "comedy_intent": "준비 합8초, 구조원의 관심까지 샘플로 전환.",
+          "continuity_in": "등 얼굴 방향/판 왼손/샘플 중앙.",
+          "continuity_out": "등 정면 하향, 샘플 강한 반사. PR 오른손 등에서 떨어짐."
+        },
+        {
+          "scene_id": "S06",
+          "cut_id": "K06",
+          "start": 16,
+          "end": 21,
+          "duration": 5,
+          "frame_start_description": "PR 왼손 같은 흰 비교판, 오른손은 몸 가까이. 판의 두 사진은 같은 삼각 샘플의 다른 조명 조건. 실물은 정면광으로 반사가 강함.",
+          "action": "PR이 첫 장면의 같은 판 목표점과 실물 반사를 차례로 짚는다. 처음 조건/바꾼 조건 사진을 보여 시행착오를 나눈다. RL이 실물 반사에서 작업등 손잡이로 시선을 옮긴다.",
+          "camera": "S01 같은 낮은 높이.5초 동안 판 목표점→실물 반사→RL 시선. 완벽한 성공 효과 없음.",
+          "caption_cues": [
+            {
+              "start": 17,
+              "end": 20.8,
+              "text": "AI 활용 시행착오도 공유.",
+              "kind": "example",
+              "placement": "하단 여백. 판에는 '처음 조건'/'바꾼 조건'을 크게 후합성."
+            }
+          ],
+          "speech": "none",
+          "sound": "밝아진 음악 선택, 음성 없음.",
+          "transition": "오른쪽 후방으로 RL 시선이 움직이며 넓은 구도로.",
+          "comedy_intent": "AI 적용 중 바꿔 본 조건·시행착오 공유. 검출후보 확인 공식 반복 제거.",
+          "continuity_in": "판 PR 왼손/천 탭 고정/샘플 정면광.",
+          "continuity_out": "같은 자료·실물. RL에게 조명 조건을 바꿔 볼 동기 형성."
+        },
+        {
+          "scene_id": "S07",
+          "cut_id": "K07",
+          "start": 21,
+          "end": 25.5,
+          "duration": 4.5,
+          "frame_start_description": "PR·테이블 중간 구도. 오른쪽에 기존 뒤 얼음2개 일부. 판은 PR 왼손, RL은 뒤쪽을 보기 시작.",
+          "action": "4.5초에 카메라가 넓어져 기존 F1·F2를 공개한다. 각자 자료판을 든 고정 자세. RL은 다시 PR의 실물과 작업등을 본다. 자기 상자·자료는 찾지 않는다.",
+          "camera": "28mm 짧은 달리 아웃·우측 팬. 후방 두 사람은 고정.",
+          "caption_cues": [],
+          "speech": "none",
+          "sound": "짧은 장엄한 음악 확대 선택.",
+          "transition": "RL의 시선이 도착한 작업등으로 컷.",
+          "comedy_intent": "이미 있던 공유 욕구를 확대하되 대장은 공동 조건 비교로 향함.",
+          "continuity_in": "기존3판, 앞만 해동. PR 흰 비교판.",
+          "continuity_out": "다섯 인물 위치 공개. RL 양손 비고 시선 작업등."
+        },
+        {
+          "scene_id": "S08",
+          "cut_id": "K08",
+          "start": 25.5,
+          "end": 32.5,
+          "duration": 7,
+          "frame_start_description": "RL 오른손은 작업등 손잡이10cm 앞. 등은 정면 하향. PR 흰 판은 왼손, RL 양손 빈손. 원래 천 탭은 판 아래에 고정.",
+          "action": "25.5~27.5초 RL이 등 머리를 옆30도로 돌려 같은 샘플의 조명 조건을 바꾼다.27.5~29초 둘이 실물 반사와 같은 판 사진을 비교한다.29~30.5초 PR이 같은 흰 판을 RL 양손에 건넨다.30.5~32.5초 RL이 한 걸음 뒤 공유 줄에 합류한다. 새 판 없음.",
+          "camera": "35mm 작은 팬. 등→같은 판 비교→판 전달→줄까지7초. 줄까지 한 걸음.",
+          "caption_cues": [
+            {
+              "start": 27,
+              "end": 30,
+              "text": "이 조건으로도 봅시다.",
+              "kind": "character_caption",
+              "placement": "하단 여백. 등과 공유 판을 비움."
+            }
+          ],
+          "speech": "none",
+          "sound": "힌지·천 스침·밝은 음악 선택.",
+          "transition": "같은 흰 판을 든 RL과 바닥 열풍기가 보이는 다음 컷.",
+          "comedy_intent": "대장이 같은 조건을 바꿔보는 공동 기여자가 된다. 새 사례 꺼내기 반복 제거.",
+          "continuity_in": "등 정면광/판 PR 왼손/천 탭 고정/RL 빈손.",
+          "continuity_out": "등 옆30도/샘플 중앙. 같은 흰 판·천 탭 RL 양손. PR 빈손. RL 줄 끝."
+        },
+        {
+          "scene_id": "S09",
+          "cut_id": "K09",
+          "start": 32.5,
+          "end": 37,
+          "duration": 4.5,
+          "frame_start_description": "RL은 얼음 밖 줄 끝에서 PR에게 받은 같은 흰 판을 양손에 든다. 원래 천 탭은 판 아래오른쪽에 정지. RA 손은 바닥 열풍기 손잡이 앞.",
+          "action": "RA가 열풍기를 들어 판 아래 천 탭을 향한다. 탭만 가볍게 펄럭인다. RL이 얼음 없는 자기 판 아래를 보고 RA에게 고개를 돌린다.4.5초.",
+          "camera": "50mm RA·RL 투샷. 바람은 몸이 아닌 탭 아래 허공. 탭 뿌리가 판에 고정된 것이 보임.",
+          "caption_cues": [],
+          "speech": "none",
+          "sound": "약한 송풍 선택, 마지막0.5초 완전 정적.",
+          "transition": "두 사람의 어긋난 시선이 풀릴 때 전체 구도로.",
+          "comedy_intent": "얼지도 않은 공동 실험자의 자료를 해동하려는 조수의 성실한 후폭풍.",
+          "continuity_in": "같은 흰 판 RL/고정 탭/열풍기 바닥/PR 빈손.",
+          "continuity_out": "RA 열풍기 판 아래, 탭 흔들림. RL 고개 돌림."
+        },
+        {
+          "scene_id": "S10",
+          "cut_id": "K10",
+          "start": 37,
+          "end": 42,
+          "duration": 5,
+          "frame_start_description": "PR은 실물 옆 빈손, RL은 같은 흰 비교판·천 탭을 들고 RA를 본다. RA 열풍기는 판 아래. 뒤 F1/F2·얼음 그대로.",
+          "action": "RA가 열풍기를 조금 내리고 RL이 판을 PR 쪽으로 살짝 기울여 둘이 같은 자료를 다시 본다.37초부터 행사 정보5초. 새 물건 없음.",
+          "camera": "28mm 고정 와이드, 시연·공동 판·뒤 두 인물 상단72%.",
+          "caption_cues": [
+            {
+              "start": 37,
+              "end": 42,
+              "text": "Q-AI Fair\n품질팀 AI 성과·활용 경험 교류",
+              "kind": "event",
+              "placement": "하단 23%의 정돈된 2줄 제목판. 5초 고정."
+            }
+          ],
+          "speech": "none",
+          "sound": "밝은 마침 음악 선택, 음성 없음.",
+          "transition": "42초 종료 또는 다음 화면으로 단순 컷.",
+          "comedy_intent": "혼자 내미는 사례에서 함께 조건을 바꾸는 교류로 연결.",
+          "continuity_in": "PR 빈손/샘플 중앙/판 RL/열풍기 RA.",
+          "continuity_out": "공동 조건 비교 구도 그대로 종료."
+        }
+      ],
+      "scene_list": [
+        {
+          "concept_id": "C08",
+          "scene_id": "S01",
+          "linked_cuts": [
+            "K01"
+          ],
+          "representative_frame": "앞 얼음 판 뒤 PR은 흰 판을 왼손으로 가슴 앞에서 카메라 쪽으로 비스듬히 고정한다. 오른팔 검지는 판 오른쪽 상단 사진 위치의5cm 앞을 가리킨다. 서리가 판과 목표점을 가려 구조 손짓처럼 보인다. 판 아래오른쪽 고정 천 탭4cm도 서리 뒤. RL 오른손 열풍기, RA 담요 준비.",
+          "aspect_ratio": "16:9",
+          "continuity_requirements": "PR 왼손 흰 판/오른손 특정 사진점 지시. 고정 천 탭 초기 존재. RL 오른손 꺼진 열풍기. / PR 두 손·판·목표점 그대로. RL 해동 준비.",
+          "caption_space": "하단 18%에 여백. 손·샘플·등의 회전은 중단에서 읽힌다. 뒤 두 사람을 작은 글자로 설명하지 않음.",
+          "next_motion_camera": "RL이 열풍기를 내린 채 왼손으로 앞 얼음에 닿는다. PR 두 손·판·목표점은 움직이지 않는다.3.5초 안에 해동 컷으로 진입. / 35mm 낮은 각도. 손만 보이고 왼손 판·목표점은 서리로 가림. 해동 후 매치를 위해 카메라와 몸 위치 고정.",
+          "image_prompt_en": "Character identity guide only; show only people explicitly visible in this scene. PR: a tall long-limbed Black man in his late thirties, short rounded afro, thin rectangular glasses, vivid orange insulated coverall, short burgundy scarf, black winter boots. RL: a short sturdy Korean woman in her late fifties, straight black-and-grey bob, cobalt blue padded jacket, grey snow trousers, white earmuffs. RA: a slim Korean man in his twenties with a black buzzcut, plum padded jacket, black trousers, grey gloves. F1: a South Asian woman in her forties with a long single black braid and lilac insulated coat, holding a white case board, behind the second translucent ice panel. F2: a round-built East Asian man in his sixties, bald, navy insulated coat, holding a green case board, behind the third translucent ice panel. Cold artificial studio, low-angle medium-wide. PR holds a rigid white comparison board in his LEFT hand angled forward at chest height behind the front ice panel. His extended RIGHT index points five centimeters from a specific spot in the board's upper-right photo area. Dense frost hides the BOARD and target while the reaching hand silhouette is visible. Both hands and board must stay in this exact pose through thaw. A fixed four-centimeter ivory tab hangs from its lower-right edge behind frost. RL holds powered-off blower in right hand; RA prepares blanket. Existing two rear panel edges and bench remain. Single cinematic still, landscape 16:9, a real start frame BEFORE the specified action, never its completed outcome. No captions, no legible lettering, no numbers, no logo, no watermark, no collage, no extra people or limbs. Keep specified caption area quiet. Only depict characters explicitly present in the scene; identity guide is not a request to add cast.",
+          "image_status": "NOT_GENERATED",
+          "planned_image_path": "images/C08/S01.png",
+          "duration": 3.5,
+          "start": 0,
+          "end": 3.5,
+          "review_status": "PD_REVISED_PENDING_RECHECK"
+        },
+        {
+          "concept_id": "C08",
+          "scene_id": "S02",
+          "linked_cuts": [
+            "K02"
+          ],
+          "representative_frame": "PR은 S01과 정확히 같은 왼손 판·오른손 검지·목표점 위치로 얼음 뒤에 있다. RL 열풍기는 하단30cm 앞, 켜기 직전. RA 담요 양손.",
+          "aspect_ratio": "16:9",
+          "continuity_requirements": "서리 뒤 동일 포즈·판. 열풍기 RL/담요 RA. / 동일 포즈·목표 공개. 담요 어깨에 느슨함. RL 열풍기 끔. 천 탭 공개.",
+          "caption_space": "하단 18%에 여백. 손·샘플·등의 회전은 중단에서 읽힌다. 뒤 두 사람을 작은 글자로 설명하지 않음.",
+          "next_motion_camera": "3.5~6.8초 서리가 걷히며 왼손 자료판과 그 판을 가리키던 같은 목표점이 드러난다. PR의 팔·판을 움직이지 않는다. 끝1.2초 RA가 담요를 어깨에 걸치며 더 감싸려 한다. / S01 동일 높이·렌즈·몸 크기. 서리만 사라져 처음부터 있던 목표가 읽히는4.5초.",
+          "image_prompt_en": "Character identity guide only; show only people explicitly visible in this scene. PR: a tall long-limbed Black man in his late thirties, short rounded afro, thin rectangular glasses, vivid orange insulated coverall, short burgundy scarf, black winter boots. RL: a short sturdy Korean woman in her late fifties, straight black-and-grey bob, cobalt blue padded jacket, grey snow trousers, white earmuffs. RA: a slim Korean man in his twenties with a black buzzcut, plum padded jacket, black trousers, grey gloves. F1: a South Asian woman in her forties with a long single black braid and lilac insulated coat, holding a white case board, behind the second translucent ice panel. F2: a round-built East Asian man in his sixties, bald, navy insulated coat, holding a green case board, behind the third translucent ice panel. Exact same camera and PR pose, still before thaw. White board in LEFT hand angled forward, RIGHT index at the SAME upper-right target five centimeters away. Board and target obscured by frost. Do not move his arm to a new gesture. RL's blower off thirty centimeters from base; RA holds blanket not draped yet. Original fixed tab remains. No thawed outcome. Single cinematic still, landscape 16:9, a real start frame BEFORE the specified action, never its completed outcome. No captions, no legible lettering, no numbers, no logo, no watermark, no collage, no extra people or limbs. Keep specified caption area quiet. Only depict characters explicitly present in the scene; identity guide is not a request to add cast.",
+          "image_status": "NOT_GENERATED",
+          "planned_image_path": "images/C08/S02.png",
+          "duration": 4.5,
+          "start": 3.5,
+          "end": 8,
+          "review_status": "PD_REVISED_PENDING_RECHECK"
+        },
+        {
+          "concept_id": "C08",
+          "scene_id": "S03",
+          "linked_cuts": [
+            "K03"
+          ],
+          "representative_frame": "해동한 PR 왼손은 같은 흰 판, 오른손은 여전히 같은 목표점. 담요는 어깨에 걸쳐 있고 RA가 양끝을 들어 몸을 감싸기 직전. 구조판 상면 비어 있음.",
+          "aspect_ratio": "16:9",
+          "continuity_requirements": "판 PR 왼손/오른손 기존 목표점. 담요 어깨·RA 두끝. / 담요 상판/PR 오른손 자유·왼손 판. RA 빈 팔, 열풍기 바닥.",
+          "caption_space": "하단 18%에 여백. 손·샘플·등의 회전은 중단에서 읽힌다. 뒤 두 사람을 작은 글자로 설명하지 않음.",
+          "next_motion_camera": "RA가 담요를 몸 쪽으로 감싸려는 순간 PR이 오른손을 판에서 떼어 앞 모서리를 구조판 쪽으로 당긴다. 담요가 펴지고 RA는 몸을 감싸려던 빈 팔 자세로0.5초 남는다. RL은 꺼진 열풍기를 오른쪽 바닥에 둔다. / 50mm 같은 담요를 서로 다른 방향으로 당기는 순간→RA 빈 팔 반응까지3초. 큰 실랑이 없음.",
+          "image_prompt_en": "Character identity guide only; show only people explicitly visible in this scene. PR: a tall long-limbed Black man in his late thirties, short rounded afro, thin rectangular glasses, vivid orange insulated coverall, short burgundy scarf, black winter boots. RL: a short sturdy Korean woman in her late fifties, straight black-and-grey bob, cobalt blue padded jacket, grey snow trousers, white earmuffs. RA: a slim Korean man in his twenties with a black buzzcut, plum padded jacket, black trousers, grey gloves. F1: a South Asian woman in her forties with a long single black braid and lilac insulated coat, holding a white case board, behind the second translucent ice panel. F2: a round-built East Asian man in his sixties, bald, navy insulated coat, holding a green case board, behind the third translucent ice panel. Newly thawed PR holds SAME board in LEFT hand, RIGHT index still at previous target before moving. Ivory blanket lies loose over shoulders; RA holds BOTH corners raised toward PR's torso, about to wrap. Bench is still bare. PR has not pulled blanket away. RL holds powered-off blower near right floor. Fixed ivory board tab visible. Single cinematic still, landscape 16:9, a real start frame BEFORE the specified action, never its completed outcome. No captions, no legible lettering, no numbers, no logo, no watermark, no collage, no extra people or limbs. Keep specified caption area quiet. Only depict characters explicitly present in the scene; identity guide is not a request to add cast.",
+          "image_status": "NOT_GENERATED",
+          "planned_image_path": "images/C08/S03.png",
+          "duration": 3,
+          "start": 8,
+          "end": 11,
+          "review_status": "PD_REVISED_PENDING_RECHECK"
+        },
+        {
+          "concept_id": "C08",
+          "scene_id": "S04",
+          "linked_cuts": [
+            "K04"
+          ],
+          "representative_frame": "담요만 깔린 구조판. PR 오른손은 가슴 주머니 입구 위, 샘플은 안. 왼손 판과 고정 천 탭, RA는 빈 팔을 내리려 한다.",
+          "aspect_ratio": "16:9",
+          "continuity_requirements": "샘플 주머니/담요 상판/판 왼손. / 샘플 중앙/오른손 빈손/판 왼손.",
+          "caption_space": "하단 18%에 여백. 손·샘플·등의 회전은 중단에서 읽힌다. 뒤 두 사람을 작은 글자로 설명하지 않음.",
+          "next_motion_camera": "PR이 빨간 삼각 샘플을 주머니에서 꺼내 담요 중앙에 바로 놓는다. RA가 눕는 곳으로 안내하려던 손을 멈춘다.2.5초에 추출·접촉 완료. / 65mm 주머니→빈 담요 중앙을 같은 화면. 손이 샘플을 가리지 않는 측면.",
+          "image_prompt_en": "Character identity guide only; show only people explicitly visible in this scene. PR: a tall long-limbed Black man in his late thirties, short rounded afro, thin rectangular glasses, vivid orange insulated coverall, short burgundy scarf, black winter boots. RL: a short sturdy Korean woman in her late fifties, straight black-and-grey bob, cobalt blue padded jacket, grey snow trousers, white earmuffs. RA: a slim Korean man in his twenties with a black buzzcut, plum padded jacket, black trousers, grey gloves. F1: a South Asian woman in her forties with a long single black braid and lilac insulated coat, holding a white case board, behind the second translucent ice panel. F2: a round-built East Asian man in his sixties, bald, navy insulated coat, holding a green case board, behind the third translucent ice panel. PR holds same white board with ivory tab in LEFT hand. RIGHT empty hand poised above orange chest pocket; red triangular sample still inside. Ivory-covered bench center EMPTY. RA lowers arms after failed wrapping. Blower on floor. Before extraction. Single cinematic still, landscape 16:9, a real start frame BEFORE the specified action, never its completed outcome. No captions, no legible lettering, no numbers, no logo, no watermark, no collage, no extra people or limbs. Keep specified caption area quiet. Only depict characters explicitly present in the scene; identity guide is not a request to add cast.",
+          "image_status": "NOT_GENERATED",
+          "planned_image_path": "images/C08/S04.png",
+          "duration": 2.5,
+          "start": 11,
+          "end": 13.5,
+          "review_status": "PD_REVISED_PENDING_RECHECK"
+        },
+        {
+          "concept_id": "C08",
+          "scene_id": "S05",
+          "linked_cuts": [
+            "K05"
+          ],
+          "representative_frame": "작업등은 얼굴 방향, 샘플은 어둡다. PR 오른손은 등 손잡이10cm 앞. 흰 판은 왼손.",
+          "aspect_ratio": "16:9",
+          "continuity_requirements": "등 얼굴 방향/판 왼손/샘플 중앙. / 등 정면 하향, 샘플 강한 반사. PR 오른손 등에서 떨어짐.",
+          "caption_space": "하단 18%에 여백. 손·샘플·등의 회전은 중단에서 읽힌다. 뒤 두 사람을 작은 글자로 설명하지 않음.",
+          "next_motion_camera": "PR이 등 머리를 아래 한 축으로 기울여 샘플을 정면 하향 조명한다. RA가 어두워진 얼굴 대신 샘플 쪽으로 고개를 따라 내린다.2.5초. / 50mm 옆 미디엄. 얼굴빛→샘플빛 이동과 RA 반응 한 화면.",
+          "image_prompt_en": "Character identity guide only; show only people explicitly visible in this scene. PR: a tall long-limbed Black man in his late thirties, short rounded afro, thin rectangular glasses, vivid orange insulated coverall, short burgundy scarf, black winter boots. RL: a short sturdy Korean woman in her late fifties, straight black-and-grey bob, cobalt blue padded jacket, grey snow trousers, white earmuffs. RA: a slim Korean man in his twenties with a black buzzcut, plum padded jacket, black trousers, grey gloves. F1: a South Asian woman in her forties with a long single black braid and lilac insulated coat, holding a white case board, behind the second translucent ice panel. F2: a round-built East Asian man in his sixties, bald, navy insulated coat, holding a green case board, behind the third translucent ice panel. Work lamp STILL aimed at PR face. Red sample on blanket in shadow. PR RIGHT hand hovers ten centimeters from lamp handle; LEFT holds same condition board and fixed tab. RA looks at his face. Before tilt. Single cinematic still, landscape 16:9, a real start frame BEFORE the specified action, never its completed outcome. No captions, no legible lettering, no numbers, no logo, no watermark, no collage, no extra people or limbs. Keep specified caption area quiet. Only depict characters explicitly present in the scene; identity guide is not a request to add cast.",
+          "image_status": "NOT_GENERATED",
+          "planned_image_path": "images/C08/S05.png",
+          "duration": 2.5,
+          "start": 13.5,
+          "end": 16,
+          "review_status": "PD_REVISED_PENDING_RECHECK"
+        },
+        {
+          "concept_id": "C08",
+          "scene_id": "S06",
+          "linked_cuts": [
+            "K06"
+          ],
+          "representative_frame": "PR 왼손 같은 흰 비교판, 오른손은 몸 가까이. 판의 두 사진은 같은 삼각 샘플의 다른 조명 조건. 실물은 정면광으로 반사가 강함.",
+          "aspect_ratio": "16:9",
+          "continuity_requirements": "판 PR 왼손/천 탭 고정/샘플 정면광. / 같은 자료·실물. RL에게 조명 조건을 바꿔 볼 동기 형성.",
+          "caption_space": "하단 18%에 여백. 손·샘플·등의 회전은 중단에서 읽힌다. 뒤 두 사람을 작은 글자로 설명하지 않음.",
+          "next_motion_camera": "PR이 첫 장면의 같은 판 목표점과 실물 반사를 차례로 짚는다. 처음 조건/바꾼 조건 사진을 보여 시행착오를 나눈다. RL이 실물 반사에서 작업등 손잡이로 시선을 옮긴다. / S01 같은 낮은 높이.5초 동안 판 목표점→실물 반사→RL 시선. 완벽한 성공 효과 없음.",
+          "image_prompt_en": "Character identity guide only; show only people explicitly visible in this scene. PR: a tall long-limbed Black man in his late thirties, short rounded afro, thin rectangular glasses, vivid orange insulated coverall, short burgundy scarf, black winter boots. RL: a short sturdy Korean woman in her late fifties, straight black-and-grey bob, cobalt blue padded jacket, grey snow trousers, white earmuffs. RA: a slim Korean man in his twenties with a black buzzcut, plum padded jacket, black trousers, grey gloves. F1: a South Asian woman in her forties with a long single black braid and lilac insulated coat, holding a white case board, behind the second translucent ice panel. F2: a round-built East Asian man in his sixties, bald, navy insulated coat, holding a green case board, behind the third translucent ice panel. PR LEFT hand holds same white board; RIGHT arm relaxed before pointing. TWO large unlabeled photographs show SAME red triangle under different lighting, no diagnostic rectangles or scores. Fixed ivory tab lower-right. Actual sample under strong frontal glare. RL examines it thoughtfully. Before pointing. Single cinematic still, landscape 16:9, a real start frame BEFORE the specified action, never its completed outcome. No captions, no legible lettering, no numbers, no logo, no watermark, no collage, no extra people or limbs. Keep specified caption area quiet. Only depict characters explicitly present in the scene; identity guide is not a request to add cast.",
+          "image_status": "NOT_GENERATED",
+          "planned_image_path": "images/C08/S06.png",
+          "duration": 5,
+          "start": 16,
+          "end": 21,
+          "review_status": "PD_REVISED_PENDING_RECHECK"
+        },
+        {
+          "concept_id": "C08",
+          "scene_id": "S07",
+          "linked_cuts": [
+            "K07"
+          ],
+          "representative_frame": "PR·테이블 중간 구도. 오른쪽에 기존 뒤 얼음2개 일부. 판은 PR 왼손, RL은 뒤쪽을 보기 시작.",
+          "aspect_ratio": "16:9",
+          "continuity_requirements": "기존3판, 앞만 해동. PR 흰 비교판. / 다섯 인물 위치 공개. RL 양손 비고 시선 작업등.",
+          "caption_space": "하단 18%에 여백. 손·샘플·등의 회전은 중단에서 읽힌다. 뒤 두 사람을 작은 글자로 설명하지 않음.",
+          "next_motion_camera": "4.5초에 카메라가 넓어져 기존 F1·F2를 공개한다. 각자 자료판을 든 고정 자세. RL은 다시 PR의 실물과 작업등을 본다. 자기 상자·자료는 찾지 않는다. / 28mm 짧은 달리 아웃·우측 팬. 후방 두 사람은 고정.",
+          "image_prompt_en": "Character identity guide only; show only people explicitly visible in this scene. PR: a tall long-limbed Black man in his late thirties, short rounded afro, thin rectangular glasses, vivid orange insulated coverall, short burgundy scarf, black winter boots. RL: a short sturdy Korean woman in her late fifties, straight black-and-grey bob, cobalt blue padded jacket, grey snow trousers, white earmuffs. RA: a slim Korean man in his twenties with a black buzzcut, plum padded jacket, black trousers, grey gloves. F1: a South Asian woman in her forties with a long single black braid and lilac insulated coat, holding a white case board, behind the second translucent ice panel. F2: a round-built East Asian man in his sixties, bald, navy insulated coat, holding a green case board, behind the third translucent ice panel. Starting crop on PR, bench, lamp, RL and RA. Partial strips of SAME rear two ice panels at right edge with faint existing silhouettes. PR still holds white board and fixed tab. RL glances right, empty hands. Grey equipment box stays closed, no separate RL board. Single cinematic still, landscape 16:9, a real start frame BEFORE the specified action, never its completed outcome. No captions, no legible lettering, no numbers, no logo, no watermark, no collage, no extra people or limbs. Keep specified caption area quiet. Only depict characters explicitly present in the scene; identity guide is not a request to add cast.",
+          "image_status": "NOT_GENERATED",
+          "planned_image_path": "images/C08/S07.png",
+          "duration": 4.5,
+          "start": 21,
+          "end": 25.5,
+          "review_status": "PD_REVISED_PENDING_RECHECK"
+        },
+        {
+          "concept_id": "C08",
+          "scene_id": "S08",
+          "linked_cuts": [
+            "K08"
+          ],
+          "representative_frame": "RL 오른손은 작업등 손잡이10cm 앞. 등은 정면 하향. PR 흰 판은 왼손, RL 양손 빈손. 원래 천 탭은 판 아래에 고정.",
+          "aspect_ratio": "16:9",
+          "continuity_requirements": "등 정면광/판 PR 왼손/천 탭 고정/RL 빈손. / 등 옆30도/샘플 중앙. 같은 흰 판·천 탭 RL 양손. PR 빈손. RL 줄 끝.",
+          "caption_space": "하단 18%에 여백. 손·샘플·등의 회전은 중단에서 읽힌다. 뒤 두 사람을 작은 글자로 설명하지 않음.",
+          "next_motion_camera": "25.5~27.5초 RL이 등 머리를 옆30도로 돌려 같은 샘플의 조명 조건을 바꾼다.27.5~29초 둘이 실물 반사와 같은 판 사진을 비교한다.29~30.5초 PR이 같은 흰 판을 RL 양손에 건넨다.30.5~32.5초 RL이 한 걸음 뒤 공유 줄에 합류한다. 새 판 없음. / 35mm 작은 팬. 등→같은 판 비교→판 전달→줄까지7초. 줄까지 한 걸음.",
+          "image_prompt_en": "Character identity guide only; show only people explicitly visible in this scene. PR: a tall long-limbed Black man in his late thirties, short rounded afro, thin rectangular glasses, vivid orange insulated coverall, short burgundy scarf, black winter boots. RL: a short sturdy Korean woman in her late fifties, straight black-and-grey bob, cobalt blue padded jacket, grey snow trousers, white earmuffs. RA: a slim Korean man in his twenties with a black buzzcut, plum padded jacket, black trousers, grey gloves. F1: a South Asian woman in her forties with a long single black braid and lilac insulated coat, holding a white case board, behind the second translucent ice panel. F2: a round-built East Asian man in his sixties, bald, navy insulated coat, holding a green case board, behind the third translucent ice panel. RL empty RIGHT hand ten centimeters from black lamp handle before adjusting it. Lamp still frontal on red sample. PR holds SAME white two-condition comparison board in LEFT hand; original ivory tab visible. RL has NO separate board. Existing frozen presenters' line is one step away. Before any lighting change, comparison, or handoff. Single cinematic still, landscape 16:9, a real start frame BEFORE the specified action, never its completed outcome. No captions, no legible lettering, no numbers, no logo, no watermark, no collage, no extra people or limbs. Keep specified caption area quiet. Only depict characters explicitly present in the scene; identity guide is not a request to add cast.",
+          "image_status": "NOT_GENERATED",
+          "planned_image_path": "images/C08/S08.png",
+          "duration": 7,
+          "start": 25.5,
+          "end": 32.5,
+          "review_status": "PD_REVISED_PENDING_RECHECK"
+        },
+        {
+          "concept_id": "C08",
+          "scene_id": "S09",
+          "linked_cuts": [
+            "K09"
+          ],
+          "representative_frame": "RL은 얼음 밖 줄 끝에서 PR에게 받은 같은 흰 판을 양손에 든다. 원래 천 탭은 판 아래오른쪽에 정지. RA 손은 바닥 열풍기 손잡이 앞.",
+          "aspect_ratio": "16:9",
+          "continuity_requirements": "같은 흰 판 RL/고정 탭/열풍기 바닥/PR 빈손. / RA 열풍기 판 아래, 탭 흔들림. RL 고개 돌림.",
+          "caption_space": "하단 18%에 여백. 손·샘플·등의 회전은 중단에서 읽힌다. 뒤 두 사람을 작은 글자로 설명하지 않음.",
+          "next_motion_camera": "RA가 열풍기를 들어 판 아래 천 탭을 향한다. 탭만 가볍게 펄럭인다. RL이 얼음 없는 자기 판 아래를 보고 RA에게 고개를 돌린다.4.5초. / 50mm RA·RL 투샷. 바람은 몸이 아닌 탭 아래 허공. 탭 뿌리가 판에 고정된 것이 보임.",
+          "image_prompt_en": "Character identity guide only; show only people explicitly visible in this scene. PR: a tall long-limbed Black man in his late thirties, short rounded afro, thin rectangular glasses, vivid orange insulated coverall, short burgundy scarf, black winter boots. RL: a short sturdy Korean woman in her late fifties, straight black-and-grey bob, cobalt blue padded jacket, grey snow trousers, white earmuffs. RA: a slim Korean man in his twenties with a black buzzcut, plum padded jacket, black trousers, grey gloves. F1: a South Asian woman in her forties with a long single black braid and lilac insulated coat, holding a white case board, behind the second translucent ice panel. F2: a round-built East Asian man in his sixties, bald, navy insulated coat, holding a green case board, behind the third translucent ice panel. RL stands outside ice holding SAME WHITE board received from PR, never a new yellow board. Original four-centimeter ivory tab hangs STILL from lower-right. RA hand about to grasp blower on floor, not raised. PR empty-handed by sample. Before airflow. Single cinematic still, landscape 16:9, a real start frame BEFORE the specified action, never its completed outcome. No captions, no legible lettering, no numbers, no logo, no watermark, no collage, no extra people or limbs. Keep specified caption area quiet. Only depict characters explicitly present in the scene; identity guide is not a request to add cast.",
+          "image_status": "NOT_GENERATED",
+          "planned_image_path": "images/C08/S09.png",
+          "duration": 4.5,
+          "start": 32.5,
+          "end": 37,
+          "review_status": "PD_REVISED_PENDING_RECHECK"
+        },
+        {
+          "concept_id": "C08",
+          "scene_id": "S10",
+          "linked_cuts": [
+            "K10"
+          ],
+          "representative_frame": "PR은 실물 옆 빈손, RL은 같은 흰 비교판·천 탭을 들고 RA를 본다. RA 열풍기는 판 아래. 뒤 F1/F2·얼음 그대로.",
+          "aspect_ratio": "16:9",
+          "continuity_requirements": "PR 빈손/샘플 중앙/판 RL/열풍기 RA. / 공동 조건 비교 구도 그대로 종료.",
+          "caption_space": "하단 18%에 여백. 손·샘플·등의 회전은 중단에서 읽힌다. 뒤 두 사람을 작은 글자로 설명하지 않음.",
+          "next_motion_camera": "RA가 열풍기를 조금 내리고 RL이 판을 PR 쪽으로 살짝 기울여 둘이 같은 자료를 다시 본다.37초부터 행사 정보5초. 새 물건 없음. / 28mm 고정 와이드, 시연·공동 판·뒤 두 인물 상단72%.",
+          "image_prompt_en": "Character identity guide only; show only people explicitly visible in this scene. PR: a tall long-limbed Black man in his late thirties, short rounded afro, thin rectangular glasses, vivid orange insulated coverall, short burgundy scarf, black winter boots. RL: a short sturdy Korean woman in her late fifties, straight black-and-grey bob, cobalt blue padded jacket, grey snow trousers, white earmuffs. RA: a slim Korean man in his twenties with a black buzzcut, plum padded jacket, black trousers, grey gloves. F1: a South Asian woman in her forties with a long single black braid and lilac insulated coat, holding a white case board, behind the second translucent ice panel. F2: a round-built East Asian man in his sixties, bald, navy insulated coat, holding a green case board, behind the third translucent ice panel. Final-start wide, exactly five people. PR EMPTY-HANDED by same red sample under side-angled lamp. RL holds SAME WHITE two-condition board and original ivory tab, glancing at RA holding blower below it before lowering. F1/F2 behind same panels. No extra board. Story top seventy-two percent, clean lower title area. Single cinematic still, landscape 16:9, a real start frame BEFORE the specified action, never its completed outcome. No captions, no legible lettering, no numbers, no logo, no watermark, no collage, no extra people or limbs. Keep specified caption area quiet. Only depict characters explicitly present in the scene; identity guide is not a request to add cast.",
+          "image_status": "NOT_GENERATED",
+          "planned_image_path": "images/C08/S10.png",
+          "duration": 5,
+          "start": 37,
+          "end": 42,
+          "review_status": "PD_REVISED_PENDING_RECHECK"
+        }
+      ],
+      "caption_assets": {
+        "source_of_truth": "shots[].caption_cues",
+        "compositing": "가상 AI 활용 시행착오 예시. 같은 삼각 샘플의 두 조명 사진과 '처음 조건'/'바꾼 조건'을 비교판에 후합성. 성공률·개선 수치·정답 도장 없음.",
+        "event_title": "Q-AI Fair",
+        "event_subtitle": "품질팀 AI 성과·활용 경험 교류"
+      },
+      "review_status": {
+        "text": "PD_REVISED_AWAITING_THREE_REVIEWER_RECHECK",
+        "image": "NOT_GENERATED",
+        "motion": "NOT_GENERATED",
+        "audience_response": "NOT_MEASURED"
+      }
+    },
+    {
+      "id": "C09",
+      "title": "낙찰받으신 분이 공개합니다",
+      "purpose": "소유 경쟁을 경험 공유 경쟁으로 뒤집어 Q-AI Fair 성격 소개",
+      "format": "고급 경매장 패러디·세 번의 시각적 과장·권위자 콜백",
+      "duration_seconds": 38,
+      "aspect_ratio": "16:9 (가정)",
+      "comedy_intensity": 5,
+      "production_difficulty": "보통~높음",
+      "one_line": "빈 진열대를 두고 자기 사례를 점점 크게 내미는 사람들. 낙찰자는 물건을 가져가는 대신 자기 샘플을 올리고, 경매사도 발표하고 싶어 한다.",
+      "core_message": "가져갈 물건보다 가져와 나눌 경험이 주인공이다.",
+      "cast_count": 4,
+      "char_visual_bible": [
+        {
+          "id": "AU",
+          "appearance": "40대 중반 동아시아 남성, 매우 크고 마른 키, 민머리, 가는 콧수염",
+          "wardrobe": "검붉은 턱시도, 금색 보타이, 흰 셔츠",
+          "performance": "첫 장면은 과도하게 품위 있는 경매사. 후반에는 자기 차례를 놓치기 싫어 애쓰는 참가자.",
+          "prompt_en": "AU: a very tall slender East Asian man in his mid-forties, bald head, thin moustache, dark burgundy tuxedo, gold bow tie, white shirt."
+        },
+        {
+          "id": "B1",
+          "appearance": "30대 남아시아 남성, 탄탄하고 작은 체격, 짧은 검정머리·정돈된 짧은 수염",
+          "wardrobe": "황토색 정장, 검정 터틀넥",
+          "performance": "작은 판을 높이 내미는 절박한 눈빛. 계속 품위를 지키려 함.",
+          "prompt_en": "B1: a compact sturdy South Asian man in his thirties, neat short black hair and short beard, ochre suit over a black turtleneck."
+        },
+        {
+          "id": "B2",
+          "appearance": "20대 후반 동아시아 여성, 큰 키, 오른쪽 언더컷·왼쪽 긴 검정 단발",
+          "wardrobe": "구리색 벨벳 팬츠 수트, 검정 셔츠",
+          "performance": "접이식 판을 양날개처럼 펼치는 확신. 옆사람보다 더 크게 보여주려는 행동.",
+          "prompt_en": "B2: a tall East Asian woman in her late twenties, asymmetric black haircut with a right undercut and long left bob, copper velvet pantsuit, black shirt."
+        },
+        {
+          "id": "BW",
+          "appearance": "60대 백인 여성, 작은 키, 긴 백발 한 갈래 땋은 머리, 검정 원형 큰 안경",
+          "wardrobe": "바다녹색 실크 팬츠 수트, 진주색 조끼",
+          "performance": "절제된 승부욕. 자기 원물을 공개할 때만 눈이 반짝이고, 경매사에게도 침착하게 기다리라는 몸짓.",
+          "prompt_en": "BW: a petite white woman in her sixties, long white hair in one braid, oversized round black glasses, sea-green silk pantsuit with a pearl-white waistcoat."
+        }
+      ],
+      "visual_bible": {
+        "palette": "호두나무·검정 대리석·금빛 스포트. 진지한 최고급 경매 촬영, 소품과 인물 행동만 황당.",
+        "space": "중앙 검정 진열대·왼쪽 경매대. 세 관객 의자는 컴팩트한 대각선 배열: B1 앞왼쪽/B2 중간오른쪽/BW 뒤오른쪽. 경매대 옆에서 BW 빈 의자까지 두 걸음. BW 카트는 진열대에서 한 걸음. 추가 객석 없음.",
+        "props": "진열대 붉은 벨벳 덮개, 작은 경매봉, B1 회색 A5 단판, B2 초록 3면 접이판, BW 아이보리 천 덮인 카트·보라색 지름33cm 경량 플라스틱 8톱니 가상 샘플·카트 고정 비교판. AU 노랑 작은 사례책은 경매대 아래 선반. 가격/돈/번호 없음.",
+        "continuity": "덮개는 K01 이후 진열대 뒤왼쪽 바닥. 카트 덮개는 K04 이후 카트 왼쪽 손잡이. 샘플은 카트→BW 두 손→빈 진열대. 마지막 빈 의자는 처음 BW 자리. 게시판 글씨·AI 표시는 전부 후합성. 카트 비교판은 여러 검토자료를 정리한 AI 요약 도해와 실물 근거의 관계를 후합성한다. 후보 검출 사각형은 쓰지 않음.",
+        "caption_safe_area": "하단 18% 또는 빈 검정 벽. 샘플을 옮기는 손과 진열대 상면에는 자막 금지."
+      },
+      "hook": "경매사가 눈빛까지 진지하게 덮개를 벗기는데 진열대 위에 아무것도 없다.",
+      "reversals": [
+        {
+          "at": 4,
+          "description": "빈 진열대를 놓고 작은 판→날개판→시연 카트의 세 방식으로 경쟁."
+        },
+        {
+          "at": 20.5,
+          "description": "낙찰자가 자기 샘플을 내려놓아 공유 방향을 역전."
+        },
+        {
+          "at": 24.5,
+          "description": "경매사도 자료를 내밀다가 기존 마지막 빈 의자로 안내."
+        }
+      ],
+      "ending_connection": "먼저 공유하고 싶었던 네 사람과 채워진 진열대가 행사 정보의 배경이다. 실제 행사의 경매/발표 순번 규정으로 제안하지 않는다.",
+      "production_notes": {
+        "difficulty_reason": "네 인물의 고정 위치, 3면판 힌지, 큰 샘플의 두 손 운반이 주요 부담. 군중은 네 명으로 제한.",
+        "alternative": "접이판은 좌우 두 날개만 한 번 펴며 반복 접기 없음. 카트 이동은 40cm 직선. 샘플 운반과 올려놓기를 별도 컷으로 확보. 후반 경매사는 빈 의자까지 짧게 이동하는 한 동작만.",
+        "avoid": "가격·입찰액·낙찰 금액·수상 특전·행사 발표 운영 규칙을 문자로 제시하지 않음.",
+        "timing": "낙찰 지목2초/한 걸음 운반2.5초/놓기·데모4초/착석4초. 원인 구간을 삭제하지 않고 반복 반응을 줄여38초."
+      },
+      "shots": [
+        {
+          "scene_id": "S01",
+          "cut_id": "K01",
+          "start": 0,
+          "end": 4,
+          "duration": 4,
+          "frame_start_description": "AU가 중앙 진열대의 붉은 벨벳 덮개 끝을 오른손으로 잡고 아직 당기지 않았다. B1·B2·BW는 자기 의자에 앉아 있다. BW 카트는 덮여 있고 B1의 작은 단판은 무릎 위에 납작하게, B2의 3면판은 무릎 위에 접혀 있다. BW의 두 손은 비어 있다.",
+          "action": "AU가 비장하게 붉은 덮개를 한 번 벗긴다. 검정 진열대 상면은 비어 있다. 끝0.7초 AU가 빈 상면 옆에 손바닥을 펴고 멈춘다.4초.",
+          "camera": "28mm 정면 와이드. 덮인 진열대·세 자리·카트·경매대 위치를 첫 프레임에 정립. 마지막 1초 빈 상면을 충분히 보임.",
+          "caption_cues": [],
+          "speech": "none",
+          "sound": "선택 현악·천 스침. 마지막0.4초 음악·효과 정적.",
+          "transition": "빈 진열대를 보는 B1의 눈으로 컷.",
+          "comedy_intent": "보여줄 것이 있을 것이라는 첫 기대를 깨되 경매사의 과도한 권위를 유지한다.",
+          "continuity_in": "진열대 덮임, 세 관객 착석, 카트 덮임, 경매봉은 경매대 위.",
+          "continuity_out": "진열대 비었음이 공개, 붉은 천은 뒤왼쪽 바닥."
+        },
+        {
+          "scene_id": "S02",
+          "cut_id": "K02",
+          "start": 4,
+          "end": 8,
+          "duration": 4,
+          "frame_start_description": "B1의 회색 A5 사례판은 아직 무릎 위. 양손이 판 양옆을 잡고 있고 몸이 의자에서 약간 앞으로 기운다. 뒤쪽 AU는 손을 경매대에 둔 채 기다린다.",
+          "action": "B1이 작은 판을 머리 위로 번쩍 들고 팔꿈치를 끝까지 편다. AU는 눈을 가늘게 뜬다.4초, 같은 자세 반복 없음.",
+          "camera": "65mm B1 미디엄. AU의 가늘어진 눈을 배경 안에 두되 판을 가리지 않는다.",
+          "caption_cues": [],
+          "speech": "none",
+          "sound": "선택 빠른 현악 한 마디. 판 흔드는 바람 소리 1회만.",
+          "transition": "판이 최고 높이에 오른 상태에서 옆 B2로 컷.",
+          "comedy_intent": "첫 과장: 작고 정갈한 사례를 몸 길이로 보충하는 절박함. 글씨가 아니라 동작으로 경쟁을 읽힌다.",
+          "continuity_in": "B1 A5 판 무릎, B2 닫힌 판, BW 카트 덮임.",
+          "continuity_out": "B1 작은 판 머리 위. AU 눈이 좁아짐."
+        },
+        {
+          "scene_id": "S03",
+          "cut_id": "K03",
+          "start": 8,
+          "end": 12,
+          "duration": 4,
+          "frame_start_description": "B2의 초록 3면판은 무릎 위에 책처럼 접혀 있다. 양손은 좌우 날개 끝을 잡기 직전. 왼쪽 가장자리 B1은 작은 판을 높이 들고 있다.",
+          "action": "B2가 판 좌우 날개를 한 번 펼친다. 시야를 가린 B1이 고개만 옆으로 내민다.4초.",
+          "camera": "50mm 두 관객 미디엄. 펼친 판의 좌우 경계를 프레임 안에 남김. 날개는 사람을 치지 않음.",
+          "caption_cues": [],
+          "speech": "none",
+          "sound": "선택 경첩 탁탁 두 음. 음악은 더 웅장해짐.",
+          "transition": "B2의 자신만만한 눈에서 뒤 BW로 컷.",
+          "comedy_intent": "두 번째 과장: 단순 높이 경쟁이 넓이 경쟁으로 바뀌고 앞 관객의 체면이 가려진다.",
+          "continuity_in": "B1 판 위, B2 판 접힘.",
+          "continuity_out": "B2 판은 양날개 완전 펼침. B1 옆으로 고개 내민 상태."
+        },
+        {
+          "scene_id": "S04",
+          "cut_id": "K04",
+          "start": 12,
+          "end": 16,
+          "duration": 4,
+          "frame_start_description": "BW는 뒤 의자에서 일어나 카트 왼쪽 손잡이를 잡고 있다. 오른손은 아이보리 카트 덮개의 모서리에 닿아 있지만 덮개는 그대로. 카트는 자기 의자 옆 원위치다.",
+          "action": "BW가 덮개를 벗겨 손잡이에 걸고, 공개한 카트를 통로로40cm 민다.4초. B1/B2는 판을 든 채 눈만 돌아본다.",
+          "camera": "35mm 낮은 미디엄 와이드. 카트 전체와 BW 상반신. 복잡한 바퀴 회전 대신 짧은 직진.",
+          "caption_cues": [],
+          "speech": "none",
+          "sound": "선택 천 휙·바퀴 짧은 드르륵. 음악 최고조.",
+          "transition": "AU가 BW를 보며 경매봉을 드는 컷으로.",
+          "comedy_intent": "세 번째 과장: 종이 크기 경쟁에 실제 시연물 전체로 들어온다. 서로 다른 행동 3회를 보존.",
+          "continuity_in": "카트 덮임/샘플 카트 위/BW 손잡이. B1·B2 자료 펼침 유지.",
+          "continuity_out": "카트 40cm 전진, 아이보리 천 손잡이, 보라 샘플 카트 위 그대로."
+        },
+        {
+          "scene_id": "S05",
+          "cut_id": "K05",
+          "start": 16,
+          "end": 18,
+          "duration": 2,
+          "frame_start_description": "AU가 경매대 위 작은 경매봉을 들어 올리기 직전. BW는 공개한 카트 뒤에서 기다린다. 중앙 진열대는 여전히 완전히 비어 있다.",
+          "action": "AU가 봉을 한 번 두드리고 곧바로 BW를 지목한다. BW의 짧은 끄덕임까지만2초. 관객의 추가 실망 반응은 생략.",
+          "camera": "50mm AU·빈 진열대·BW를 한 화면. 봉 동작과 지목을2초에 연결.",
+          "caption_cues": [],
+          "speech": "none",
+          "sound": "선택 봉 탁 1회. 소리를 꺼도 손짓과 반응으로 선정이 보임.",
+          "transition": "BW의 손이 샘플로 향하는 방향으로 컷.",
+          "comedy_intent": "낙찰된 사람이 무엇을 가져갈지 기대를 다시 세운다. 가격이나 실제 운영 규칙은 없다.",
+          "continuity_in": "경매봉 경매대, 샘플 카트, 진열대 비어 있음.",
+          "continuity_out": "AU가 BW를 지목, BW 이동 준비. 경매봉 다시 경매대 위."
+        },
+        {
+          "scene_id": "S06",
+          "cut_id": "K06",
+          "start": 18,
+          "end": 20.5,
+          "duration": 2.5,
+          "frame_start_description": "BW가 카트 옆에 서서 보라색 샘플의 좌우에 두 손을 대기 직전. 샘플 밑면은 아직 카트 받침에 놓여 있다. 빈 진열대까지 한 걸음 거리.",
+          "action": "BW가 경량 샘플을 두 손으로 들어 가슴 높이에서 지지하고 진열대 앞으로 한 걸음 이동한다.2.5초. 내려놓지는 않는다.",
+          "camera": "50mm 측면. 카트→진열대 한 걸음만, 이동 전 손 접촉과 끝 운반 상태를 모두 보임.",
+          "caption_cues": [],
+          "speech": "none",
+          "sound": "선택 샘플 들어 올리는 부드러운 마찰·한 걸음. 음악은 궁금증을 유지.",
+          "transition": "샘플이 빈 상면 위로 오는 다음 컷에 매치.",
+          "comedy_intent": "소유 방향을 뒤집을 준비. 카트에서 가져온 물건임을 출발부터 보여준다.",
+          "continuity_in": "샘플 카트, BW 두 손 비어 있음. 빈 진열대 그대로.",
+          "continuity_out": "BW 두 손에 샘플, 진열대 앞. 카트 받침은 비었음."
+        },
+        {
+          "scene_id": "S07",
+          "cut_id": "K07",
+          "start": 20.5,
+          "end": 24.5,
+          "duration": 4,
+          "frame_start_description": "BW가 보라색 샘플을 양손으로 빈 진열대 상면 위 10cm에서 잡고 있다. 샘플은 아직 상면에 닿지 않았다. AU·B1·B2가 바라본다.",
+          "action": "첫1초에 BW가 자기 샘플을 빈 진열대에 내려놓는다. 다음3초에 카트 비교판의 AI 요약 한 항목과 실물의 대응 부분을 차례로 가리킨다. 관객은 추가 과장 반응 없이 앞으로 기울여 본다.",
+          "camera": "50mm 상면 접촉→카트의 요약 비교판→자기 실물을4초에 연결. 비교판은 여러 무명 검토자료의 요약을 후합성, 새 벽 화면 없음.",
+          "caption_cues": [
+            {
+              "start": 21.3,
+              "end": 24.5,
+              "text": "AI 요약 + 실물 근거",
+              "kind": "example",
+              "placement": "하단 여백. 비교판에는 여러 문서→요약 항목→실물 사진 도해를 크게 후합성."
+            }
+          ],
+          "speech": "none",
+          "sound": "선택 놓는 탁 이후 음악이 부드럽게 반전. 음성 없음.",
+          "transition": "AU의 감탄하는 표정으로 연결.",
+          "comedy_intent": "낙찰받은 사람이 가져가는 대신 근거까지 가져와 공유. AI의 역할은 검출이 아닌 여러 자료의 요약·비교.",
+          "continuity_in": "샘플 BW 두 손/진열대 비어 있음.",
+          "continuity_out": "샘플 진열대 고정, BW 설명. B1·B2 자료를 무릎에 낮추고 시연 관람."
+        },
+        {
+          "scene_id": "S08",
+          "cut_id": "K08",
+          "start": 24.5,
+          "end": 29,
+          "duration": 4.5,
+          "frame_start_description": "AU가 자기 경매대 아래 선반을 내려다본다. 오른손은 선반 입구에 닿기 직전. 노랑 작은 사례책 모서리만 보인다. BW는 샘플 옆에서 설명 중.",
+          "action": "AU가 아래 선반의 노랑 사례책을 꺼내 펼치고 BW 옆으로 반 걸음 들어온다.4.5초. 추가 감탄 반응은 짧은 눈빛만.",
+          "camera": "65mm AU 미디엄. 책의 추출→펼침 한 동선을 보이며 몸 이동은 반 걸음뿐.",
+          "caption_cues": [
+            {
+              "start": 25.7,
+              "end": 28.7,
+              "text": "제 사례도 잠깐만…",
+              "kind": "character_caption",
+              "placement": "하단 여백. 사례책을 비움."
+            }
+          ],
+          "speech": "none",
+          "sound": "선택 책 펼침 파락. 음악이 잠깐 기대를 부풀림.",
+          "transition": "BW의 기다리라는 손바닥이 들어오는 방향으로 컷.",
+          "comedy_intent": "세 번째 반전. 권위를 가진 진행자도 나누고 싶은 경험을 숨겨두고 있었다.",
+          "continuity_in": "AU 자료는 선반 안, 경매봉 위. BW 샘플 진열대.",
+          "continuity_out": "AU 열린 노랑 책 가슴 앞. BW 옆 반 걸음. 빈 BW 의자가 뒤오른쪽에 남음."
+        },
+        {
+          "scene_id": "S09",
+          "cut_id": "K09",
+          "start": 29,
+          "end": 33,
+          "duration": 4,
+          "frame_start_description": "AU는 열린 노랑 사례책을 들고 BW 옆에 서 있다. BW의 왼손은 아직 몸 옆. 뒤오른쪽 BW가 비운 의자가 보인다.",
+          "action": "BW가 잠깐 기다리라는 손바닥을 들어 뒤 빈 의자를 바로 가리킨다(1초). AU가 책을 가슴에 안고 두 걸음 뒤 의자에 앉는다(3초). 앉은 뒤 반응 대기 없음.",
+          "camera": "35mm 고정 와이드, 의자까지 두 걸음. 안내1초·이동/착석3초. 총4초.",
+          "caption_cues": [],
+          "speech": "none",
+          "sound": "선택 짧은 발걸음·의자 삐걱. 착석 직전 음악을0.3초 비우고 엔딩으로.",
+          "transition": "AU가 앉은 뒤 BW의 설명을 보는 전체 구도로.",
+          "comedy_intent": "진행자도 같은 공유 욕구를 가진 참가자. 마지막 빈자리로 이동하는 실제 행동이 권위의 콜백을 끝낸다.",
+          "continuity_in": "AU 책 보유/BW 왼손 자유/뒤 의자 빈자리.",
+          "continuity_out": "AU가 기존 BW 의자에 착석. BW는 진열대 옆. B1/B2 자기 자리 유지."
+        },
+        {
+          "scene_id": "S10",
+          "cut_id": "K10",
+          "start": 33,
+          "end": 38,
+          "duration": 5,
+          "frame_start_description": "BW가 진열대 옆에, B1·B2·AU는 기존 세 의자에 앉아 있다. AU는 노랑 책을 무릎에 펼친 채 몸을 꼿꼿이 세운다. 샘플은 진열대 위.",
+          "action": "BW가 자기 샘플을 작게 가리킨다. AU는 무릎의 사례책을 보며 듣는다.33초부터 행사 정보5초 고정.",
+          "camera": "35mm 안정된 전체 구도. 진열대와 네 사람은 상단 72%, 하단 제목판.",
+          "caption_cues": [
+            {
+              "start": 33,
+              "end": 38,
+              "text": "Q-AI Fair\n품질팀 AI 성과·활용 경험 교류",
+              "kind": "event",
+              "placement": "하단 23%의 정돈된 2줄 제목판. 5초 고정."
+            }
+          ],
+          "speech": "none",
+          "sound": "선택 고급스러운 현악 마침. 음성 없음.",
+          "transition": "38초 종료 또는 다음 화면으로 단순 컷.",
+          "comedy_intent": "빈 진열대를 서로의 경험으로 채웠다는 결말. 엔딩은 정보 읽는 5초를 확보한다.",
+          "continuity_in": "샘플 진열대, AU 뒤 의자, B1/B2 각 자료 무릎.",
+          "continuity_out": "동일 상태 종료."
+        }
+      ],
+      "scene_list": [
+        {
+          "concept_id": "C09",
+          "scene_id": "S01",
+          "linked_cuts": [
+            "K01"
+          ],
+          "representative_frame": "AU가 중앙 진열대의 붉은 벨벳 덮개 끝을 오른손으로 잡고 아직 당기지 않았다. B1·B2·BW는 자기 의자에 앉아 있다. BW 카트는 덮여 있고 B1의 작은 단판은 무릎 위에 납작하게, B2의 3면판은 무릎 위에 접혀 있다. BW의 두 손은 비어 있다.",
+          "aspect_ratio": "16:9",
+          "continuity_requirements": "진열대 덮임, 세 관객 착석, 카트 덮임, 경매봉은 경매대 위. / 진열대 비었음이 공개, 붉은 천은 뒤왼쪽 바닥.",
+          "caption_space": "하단 18% 또는 빈 검정 벽. 샘플을 옮기는 손과 진열대 상면에는 자막 금지.",
+          "next_motion_camera": "AU가 비장하게 붉은 덮개를 한 번 벗긴다. 검정 진열대 상면은 비어 있다. 끝0.7초 AU가 빈 상면 옆에 손바닥을 펴고 멈춘다.4초. / 28mm 정면 와이드. 덮인 진열대·세 자리·카트·경매대 위치를 첫 프레임에 정립. 마지막 1초 빈 상면을 충분히 보임.",
+          "image_prompt_en": "Character identity guide only; show only people explicitly visible in this scene. AU: a very tall slender East Asian man in his mid-forties, bald head, thin moustache, dark burgundy tuxedo, gold bow tie, white shirt. B1: a compact sturdy South Asian man in his thirties, neat short black hair and short beard, ochre suit over a black turtleneck. B2: a tall East Asian woman in her late twenties, asymmetric black haircut with a right undercut and long left bob, copper velvet pantsuit, black shirt. BW: a petite white woman in her sixties, long white hair in one braid, oversized round black glasses, sea-green silk pantsuit with a pearl-white waistcoat. Luxury small auction room, warm walnut and black stone, exactly four people. AU stands beside a central black display plinth fully draped with crimson velvet, holding one cloth corner but not pulling. Three fixed chairs are staggered behind: B1 front-left, B2 middle-right, BW rear-right. B1's grey A5 rigid board lies flat on his lap; B2's green trifold is folded closed on her lap; BW has empty hands and her small demo cart is covered by ivory fabric. Separate auction lectern at left. No currency, prices or numbered paddles. Quiet lower band. Single cinematic still, landscape 16:9, a real start frame before the specified action, never its completed outcome. No captions, no legible lettering, no numbers, no logo, no watermark, no collage, no duplicated people or extra limbs. Leave the specified caption area visually quiet. Do not render arrows or diagnostic rectangles except simple nontext printed graphic shapes explicitly described.",
+          "image_status": "NOT_GENERATED",
+          "planned_image_path": "images/C09/S01.png",
+          "duration": 4,
+          "start": 0,
+          "end": 4,
+          "review_status": "PD_REVISED_PENDING_RECHECK"
+        },
+        {
+          "concept_id": "C09",
+          "scene_id": "S02",
+          "linked_cuts": [
+            "K02"
+          ],
+          "representative_frame": "B1의 회색 A5 사례판은 아직 무릎 위. 양손이 판 양옆을 잡고 있고 몸이 의자에서 약간 앞으로 기운다. 뒤쪽 AU는 손을 경매대에 둔 채 기다린다.",
+          "aspect_ratio": "16:9",
+          "continuity_requirements": "B1 A5 판 무릎, B2 닫힌 판, BW 카트 덮임. / B1 작은 판 머리 위. AU 눈이 좁아짐.",
+          "caption_space": "하단 18% 또는 빈 검정 벽. 샘플을 옮기는 손과 진열대 상면에는 자막 금지.",
+          "next_motion_camera": "B1이 작은 판을 머리 위로 번쩍 들고 팔꿈치를 끝까지 편다. AU는 눈을 가늘게 뜬다.4초, 같은 자세 반복 없음. / 65mm B1 미디엄. AU의 가늘어진 눈을 배경 안에 두되 판을 가리지 않는다.",
+          "image_prompt_en": "Character identity guide only; show only people explicitly visible in this scene. AU: a very tall slender East Asian man in his mid-forties, bald head, thin moustache, dark burgundy tuxedo, gold bow tie, white shirt. B1: a compact sturdy South Asian man in his thirties, neat short black hair and short beard, ochre suit over a black turtleneck. B2: a tall East Asian woman in her late twenties, asymmetric black haircut with a right undercut and long left bob, copper velvet pantsuit, black shirt. BW: a petite white woman in her sixties, long white hair in one braid, oversized round black glasses, sea-green silk pantsuit with a pearl-white waistcoat. Medium shot of B1 seated in his established front-left chair. His small grey A5 case board is STILL on his lap, both hands on its side edges, body leaning forward before raising it. AU waits at his lectern in background. Empty plinth remains visible at one side. The board has only two simple unlabeled image blocks, no lettering. No raised board yet. Quiet lower margin. Single cinematic still, landscape 16:9, a real start frame before the specified action, never its completed outcome. No captions, no legible lettering, no numbers, no logo, no watermark, no collage, no duplicated people or extra limbs. Leave the specified caption area visually quiet. Do not render arrows or diagnostic rectangles except simple nontext printed graphic shapes explicitly described.",
+          "image_status": "NOT_GENERATED",
+          "planned_image_path": "images/C09/S02.png",
+          "duration": 4,
+          "start": 4,
+          "end": 8,
+          "review_status": "PD_REVISED_PENDING_RECHECK"
+        },
+        {
+          "concept_id": "C09",
+          "scene_id": "S03",
+          "linked_cuts": [
+            "K03"
+          ],
+          "representative_frame": "B2의 초록 3면판은 무릎 위에 책처럼 접혀 있다. 양손은 좌우 날개 끝을 잡기 직전. 왼쪽 가장자리 B1은 작은 판을 높이 들고 있다.",
+          "aspect_ratio": "16:9",
+          "continuity_requirements": "B1 판 위, B2 판 접힘. / B2 판은 양날개 완전 펼침. B1 옆으로 고개 내민 상태.",
+          "caption_space": "하단 18% 또는 빈 검정 벽. 샘플을 옮기는 손과 진열대 상면에는 자막 금지.",
+          "next_motion_camera": "B2가 판 좌우 날개를 한 번 펼친다. 시야를 가린 B1이 고개만 옆으로 내민다.4초. / 50mm 두 관객 미디엄. 펼친 판의 좌우 경계를 프레임 안에 남김. 날개는 사람을 치지 않음.",
+          "image_prompt_en": "Character identity guide only; show only people explicitly visible in this scene. AU: a very tall slender East Asian man in his mid-forties, bald head, thin moustache, dark burgundy tuxedo, gold bow tie, white shirt. B1: a compact sturdy South Asian man in his thirties, neat short black hair and short beard, ochre suit over a black turtleneck. B2: a tall East Asian woman in her late twenties, asymmetric black haircut with a right undercut and long left bob, copper velvet pantsuit, black shirt. BW: a petite white woman in her sixties, long white hair in one braid, oversized round black glasses, sea-green silk pantsuit with a pearl-white waistcoat. B2 seated in her established middle-right chair with a green three-panel case board folded closed on her lap. Her hands are poised at the outer leaves, BEFORE opening them. At frame left B1 already holds his tiny grey board overhead. Leave horizontal space for B2's board to open later. No open wings in this start frame. Blank photo placeholders only. Quiet lower band. Single cinematic still, landscape 16:9, a real start frame before the specified action, never its completed outcome. No captions, no legible lettering, no numbers, no logo, no watermark, no collage, no duplicated people or extra limbs. Leave the specified caption area visually quiet. Do not render arrows or diagnostic rectangles except simple nontext printed graphic shapes explicitly described.",
+          "image_status": "NOT_GENERATED",
+          "planned_image_path": "images/C09/S03.png",
+          "duration": 4,
+          "start": 8,
+          "end": 12,
+          "review_status": "PD_REVISED_PENDING_RECHECK"
+        },
+        {
+          "concept_id": "C09",
+          "scene_id": "S04",
+          "linked_cuts": [
+            "K04"
+          ],
+          "representative_frame": "BW는 뒤 의자에서 일어나 카트 왼쪽 손잡이를 잡고 있다. 오른손은 아이보리 카트 덮개의 모서리에 닿아 있지만 덮개는 그대로. 카트는 자기 의자 옆 원위치다.",
+          "aspect_ratio": "16:9",
+          "continuity_requirements": "카트 덮임/샘플 카트 위/BW 손잡이. B1·B2 자료 펼침 유지. / 카트 40cm 전진, 아이보리 천 손잡이, 보라 샘플 카트 위 그대로.",
+          "caption_space": "하단 18% 또는 빈 검정 벽. 샘플을 옮기는 손과 진열대 상면에는 자막 금지.",
+          "next_motion_camera": "BW가 덮개를 벗겨 손잡이에 걸고, 공개한 카트를 통로로40cm 민다.4초. B1/B2는 판을 든 채 눈만 돌아본다. / 35mm 낮은 미디엄 와이드. 카트 전체와 BW 상반신. 복잡한 바퀴 회전 대신 짧은 직진.",
+          "image_prompt_en": "Character identity guide only; show only people explicitly visible in this scene. AU: a very tall slender East Asian man in his mid-forties, bald head, thin moustache, dark burgundy tuxedo, gold bow tie, white shirt. B1: a compact sturdy South Asian man in his thirties, neat short black hair and short beard, ochre suit over a black turtleneck. B2: a tall East Asian woman in her late twenties, asymmetric black haircut with a right undercut and long left bob, copper velvet pantsuit, black shirt. BW: a petite white woman in her sixties, long white hair in one braid, oversized round black glasses, sea-green silk pantsuit with a pearl-white waistcoat. BW has just risen beside her original small demo cart at the rear-right chair. Her left hand holds the cart handle; her right hand touches the corner of the ivory cover, which STILL fully covers the equipment. Cart has not moved into the aisle. B1's small board is raised and B2's green board is open in background. Start BEFORE the cart reveal or motion. No additional bidders. Quiet lower band. Single cinematic still, landscape 16:9, a real start frame before the specified action, never its completed outcome. No captions, no legible lettering, no numbers, no logo, no watermark, no collage, no duplicated people or extra limbs. Leave the specified caption area visually quiet. Do not render arrows or diagnostic rectangles except simple nontext printed graphic shapes explicitly described.",
+          "image_status": "NOT_GENERATED",
+          "planned_image_path": "images/C09/S04.png",
+          "duration": 4,
+          "start": 12,
+          "end": 16,
+          "review_status": "PD_REVISED_PENDING_RECHECK"
+        },
+        {
+          "concept_id": "C09",
+          "scene_id": "S05",
+          "linked_cuts": [
+            "K05"
+          ],
+          "representative_frame": "AU가 경매대 위 작은 경매봉을 들어 올리기 직전. BW는 공개한 카트 뒤에서 기다린다. 중앙 진열대는 여전히 완전히 비어 있다.",
+          "aspect_ratio": "16:9",
+          "continuity_requirements": "경매봉 경매대, 샘플 카트, 진열대 비어 있음. / AU가 BW를 지목, BW 이동 준비. 경매봉 다시 경매대 위.",
+          "caption_space": "하단 18% 또는 빈 검정 벽. 샘플을 옮기는 손과 진열대 상면에는 자막 금지.",
+          "next_motion_camera": "AU가 봉을 한 번 두드리고 곧바로 BW를 지목한다. BW의 짧은 끄덕임까지만2초. 관객의 추가 실망 반응은 생략. / 50mm AU·빈 진열대·BW를 한 화면. 봉 동작과 지목을2초에 연결.",
+          "image_prompt_en": "Character identity guide only; show only people explicitly visible in this scene. AU: a very tall slender East Asian man in his mid-forties, bald head, thin moustache, dark burgundy tuxedo, gold bow tie, white shirt. B1: a compact sturdy South Asian man in his thirties, neat short black hair and short beard, ochre suit over a black turtleneck. B2: a tall East Asian woman in her late twenties, asymmetric black haircut with a right undercut and long left bob, copper velvet pantsuit, black shirt. BW: a petite white woman in her sixties, long white hair in one braid, oversized round black glasses, sea-green silk pantsuit with a pearl-white waistcoat. AU at the lectern, one hand hovering just above the small auction mallet resting on its pad, before tapping it. The central black plinth is clearly empty. BW waits behind her now uncovered cart; a violet circular sample with exactly eight chunky teeth rests upright on a simple support and a blank comparison panel is behind it. B1 and B2 still hold their boards. No award text or numbers. Quiet lower band. Single cinematic still, landscape 16:9, a real start frame before the specified action, never its completed outcome. No captions, no legible lettering, no numbers, no logo, no watermark, no collage, no duplicated people or extra limbs. Leave the specified caption area visually quiet. Do not render arrows or diagnostic rectangles except simple nontext printed graphic shapes explicitly described.",
+          "image_status": "NOT_GENERATED",
+          "planned_image_path": "images/C09/S05.png",
+          "duration": 2,
+          "start": 16,
+          "end": 18,
+          "review_status": "PD_REVISED_PENDING_RECHECK"
+        },
+        {
+          "concept_id": "C09",
+          "scene_id": "S06",
+          "linked_cuts": [
+            "K06"
+          ],
+          "representative_frame": "BW가 카트 옆에 서서 보라색 샘플의 좌우에 두 손을 대기 직전. 샘플 밑면은 아직 카트 받침에 놓여 있다. 빈 진열대까지 한 걸음 거리.",
+          "aspect_ratio": "16:9",
+          "continuity_requirements": "샘플 카트, BW 두 손 비어 있음. 빈 진열대 그대로. / BW 두 손에 샘플, 진열대 앞. 카트 받침은 비었음.",
+          "caption_space": "하단 18% 또는 빈 검정 벽. 샘플을 옮기는 손과 진열대 상면에는 자막 금지.",
+          "next_motion_camera": "BW가 경량 샘플을 두 손으로 들어 가슴 높이에서 지지하고 진열대 앞으로 한 걸음 이동한다.2.5초. 내려놓지는 않는다. / 50mm 측면. 카트→진열대 한 걸음만, 이동 전 손 접촉과 끝 운반 상태를 모두 보임.",
+          "image_prompt_en": "Character identity guide only; show only people explicitly visible in this scene. AU: a very tall slender East Asian man in his mid-forties, bald head, thin moustache, dark burgundy tuxedo, gold bow tie, white shirt. B1: a compact sturdy South Asian man in his thirties, neat short black hair and short beard, ochre suit over a black turtleneck. B2: a tall East Asian woman in her late twenties, asymmetric black haircut with a right undercut and long left bob, copper velvet pantsuit, black shirt. BW: a petite white woman in her sixties, long white hair in one braid, oversized round black glasses, sea-green silk pantsuit with a pearl-white waistcoat. Side medium view. BW stands beside the uncovered cart, both empty hands about to grasp the LEFT and RIGHT sides of the violet eight-tooth circular test sample. The sample still rests on its original support on the cart, not lifted. The EMPTY black plinth is one step ahead toward screen center. Cloth remains on cart handle. Before lifting or carrying. Quiet lower band. Single cinematic still, landscape 16:9, a real start frame before the specified action, never its completed outcome. No captions, no legible lettering, no numbers, no logo, no watermark, no collage, no duplicated people or extra limbs. Leave the specified caption area visually quiet. Do not render arrows or diagnostic rectangles except simple nontext printed graphic shapes explicitly described.",
+          "image_status": "NOT_GENERATED",
+          "planned_image_path": "images/C09/S06.png",
+          "duration": 2.5,
+          "start": 18,
+          "end": 20.5,
+          "review_status": "PD_REVISED_PENDING_RECHECK"
+        },
+        {
+          "concept_id": "C09",
+          "scene_id": "S07",
+          "linked_cuts": [
+            "K07"
+          ],
+          "representative_frame": "BW가 보라색 샘플을 양손으로 빈 진열대 상면 위 10cm에서 잡고 있다. 샘플은 아직 상면에 닿지 않았다. AU·B1·B2가 바라본다.",
+          "aspect_ratio": "16:9",
+          "continuity_requirements": "샘플 BW 두 손/진열대 비어 있음. / 샘플 진열대 고정, BW 설명. B1·B2 자료를 무릎에 낮추고 시연 관람.",
+          "caption_space": "하단 18% 또는 빈 검정 벽. 샘플을 옮기는 손과 진열대 상면에는 자막 금지.",
+          "next_motion_camera": "첫1초에 BW가 자기 샘플을 빈 진열대에 내려놓는다. 다음3초에 카트 비교판의 AI 요약 한 항목과 실물의 대응 부분을 차례로 가리킨다. 관객은 추가 과장 반응 없이 앞으로 기울여 본다. / 50mm 상면 접촉→카트의 요약 비교판→자기 실물을4초에 연결. 비교판은 여러 무명 검토자료의 요약을 후합성, 새 벽 화면 없음.",
+          "image_prompt_en": "Character identity guide only; show only people explicitly visible in this scene. AU: a very tall slender East Asian man in his mid-forties, bald head, thin moustache, dark burgundy tuxedo, gold bow tie, white shirt. B1: a compact sturdy South Asian man in his thirties, neat short black hair and short beard, ochre suit over a black turtleneck. B2: a tall East Asian woman in her late twenties, asymmetric black haircut with a right undercut and long left bob, copper velvet pantsuit, black shirt. BW: a petite white woman in her sixties, long white hair in one braid, oversized round black glasses, sea-green silk pantsuit with a pearl-white waistcoat. Medium shot of the EMPTY black plinth and BW. She holds the same violet eight-tooth sample with both hands ten centimeters ABOVE the empty surface, not touching it yet. AU, B1 and B2 watch from their established positions. Behind to the right, the established CART-MOUNTED comparison board is reserved for three small unlettered document shapes feeding one large unlabeled comparison summary and a sample photograph, reserved for later compositing. No candidate-detection rectangles; do not add a wall screen. The carrying origin is the now empty cart support off to the right. Before placement, not an already completed display. Quiet lower band. Single cinematic still, landscape 16:9, a real start frame before the specified action, never its completed outcome. No captions, no legible lettering, no numbers, no logo, no watermark, no collage, no duplicated people or extra limbs. Leave the specified caption area visually quiet. Do not render arrows or diagnostic rectangles except simple nontext printed graphic shapes explicitly described.",
+          "image_status": "NOT_GENERATED",
+          "planned_image_path": "images/C09/S07.png",
+          "duration": 4,
+          "start": 20.5,
+          "end": 24.5,
+          "review_status": "PD_REVISED_PENDING_RECHECK"
+        },
+        {
+          "concept_id": "C09",
+          "scene_id": "S08",
+          "linked_cuts": [
+            "K08"
+          ],
+          "representative_frame": "AU가 자기 경매대 아래 선반을 내려다본다. 오른손은 선반 입구에 닿기 직전. 노랑 작은 사례책 모서리만 보인다. BW는 샘플 옆에서 설명 중.",
+          "aspect_ratio": "16:9",
+          "continuity_requirements": "AU 자료는 선반 안, 경매봉 위. BW 샘플 진열대. / AU 열린 노랑 책 가슴 앞. BW 옆 반 걸음. 빈 BW 의자가 뒤오른쪽에 남음.",
+          "caption_space": "하단 18% 또는 빈 검정 벽. 샘플을 옮기는 손과 진열대 상면에는 자막 금지.",
+          "next_motion_camera": "AU가 아래 선반의 노랑 사례책을 꺼내 펼치고 BW 옆으로 반 걸음 들어온다.4.5초. 추가 감탄 반응은 짧은 눈빛만. / 65mm AU 미디엄. 책의 추출→펼침 한 동선을 보이며 몸 이동은 반 걸음뿐.",
+          "image_prompt_en": "Character identity guide only; show only people explicitly visible in this scene. AU: a very tall slender East Asian man in his mid-forties, bald head, thin moustache, dark burgundy tuxedo, gold bow tie, white shirt. B1: a compact sturdy South Asian man in his thirties, neat short black hair and short beard, ochre suit over a black turtleneck. B2: a tall East Asian woman in her late twenties, asymmetric black haircut with a right undercut and long left bob, copper velvet pantsuit, black shirt. BW: a petite white woman in her sixties, long white hair in one braid, oversized round black glasses, sea-green silk pantsuit with a pearl-white waistcoat. Medium view of AU at the same lectern. His right hand hovers at the lower shelf opening where only the yellow corner of a small case notebook is visible. Notebook has not been pulled out. Mallet stays on top. BW is in the background presenting the violet sample already on the central plinth; B1 and B2 watch. Before AU reveals his own case. Quiet lower margin. Single cinematic still, landscape 16:9, a real start frame before the specified action, never its completed outcome. No captions, no legible lettering, no numbers, no logo, no watermark, no collage, no duplicated people or extra limbs. Leave the specified caption area visually quiet. Do not render arrows or diagnostic rectangles except simple nontext printed graphic shapes explicitly described.",
+          "image_status": "NOT_GENERATED",
+          "planned_image_path": "images/C09/S08.png",
+          "duration": 4.5,
+          "start": 24.5,
+          "end": 29,
+          "review_status": "PD_REVISED_PENDING_RECHECK"
+        },
+        {
+          "concept_id": "C09",
+          "scene_id": "S09",
+          "linked_cuts": [
+            "K09"
+          ],
+          "representative_frame": "AU는 열린 노랑 사례책을 들고 BW 옆에 서 있다. BW의 왼손은 아직 몸 옆. 뒤오른쪽 BW가 비운 의자가 보인다.",
+          "aspect_ratio": "16:9",
+          "continuity_requirements": "AU 책 보유/BW 왼손 자유/뒤 의자 빈자리. / AU가 기존 BW 의자에 착석. BW는 진열대 옆. B1/B2 자기 자리 유지.",
+          "caption_space": "하단 18% 또는 빈 검정 벽. 샘플을 옮기는 손과 진열대 상면에는 자막 금지.",
+          "next_motion_camera": "BW가 잠깐 기다리라는 손바닥을 들어 뒤 빈 의자를 바로 가리킨다(1초). AU가 책을 가슴에 안고 두 걸음 뒤 의자에 앉는다(3초). 앉은 뒤 반응 대기 없음. / 35mm 고정 와이드, 의자까지 두 걸음. 안내1초·이동/착석3초. 총4초.",
+          "image_prompt_en": "Character identity guide only; show only people explicitly visible in this scene. AU: a very tall slender East Asian man in his mid-forties, bald head, thin moustache, dark burgundy tuxedo, gold bow tie, white shirt. B1: a compact sturdy South Asian man in his thirties, neat short black hair and short beard, ochre suit over a black turtleneck. B2: a tall East Asian woman in her late twenties, asymmetric black haircut with a right undercut and long left bob, copper velvet pantsuit, black shirt. BW: a petite white woman in her sixties, long white hair in one braid, oversized round black glasses, sea-green silk pantsuit with a pearl-white waistcoat. Wide shot before the final redirect. AU stands beside BW holding his opened yellow case notebook; BW's LEFT hand is still relaxed at her side, not signaling yet. Violet sample remains on plinth. The third chair at rear-right, originally BW's, is clearly EMPTY. B1 and B2 occupy their original chairs. Exactly four people and three chairs. Do not place AU in the chair yet. Keep the path to it clear. Quiet lower band. Single cinematic still, landscape 16:9, a real start frame before the specified action, never its completed outcome. No captions, no legible lettering, no numbers, no logo, no watermark, no collage, no duplicated people or extra limbs. Leave the specified caption area visually quiet. Do not render arrows or diagnostic rectangles except simple nontext printed graphic shapes explicitly described.",
+          "image_status": "NOT_GENERATED",
+          "planned_image_path": "images/C09/S09.png",
+          "duration": 4,
+          "start": 29,
+          "end": 33,
+          "review_status": "PD_REVISED_PENDING_RECHECK"
+        },
+        {
+          "concept_id": "C09",
+          "scene_id": "S10",
+          "linked_cuts": [
+            "K10"
+          ],
+          "representative_frame": "BW가 진열대 옆에, B1·B2·AU는 기존 세 의자에 앉아 있다. AU는 노랑 책을 무릎에 펼친 채 몸을 꼿꼿이 세운다. 샘플은 진열대 위.",
+          "aspect_ratio": "16:9",
+          "continuity_requirements": "샘플 진열대, AU 뒤 의자, B1/B2 각 자료 무릎. / 동일 상태 종료.",
+          "caption_space": "하단 18% 또는 빈 검정 벽. 샘플을 옮기는 손과 진열대 상면에는 자막 금지.",
+          "next_motion_camera": "BW가 자기 샘플을 작게 가리킨다. AU는 무릎의 사례책을 보며 듣는다.33초부터 행사 정보5초 고정. / 35mm 안정된 전체 구도. 진열대와 네 사람은 상단 72%, 하단 제목판.",
+          "image_prompt_en": "Character identity guide only; show only people explicitly visible in this scene. AU: a very tall slender East Asian man in his mid-forties, bald head, thin moustache, dark burgundy tuxedo, gold bow tie, white shirt. B1: a compact sturdy South Asian man in his thirties, neat short black hair and short beard, ochre suit over a black turtleneck. B2: a tall East Asian woman in her late twenties, asymmetric black haircut with a right undercut and long left bob, copper velvet pantsuit, black shirt. BW: a petite white woman in her sixties, long white hair in one braid, oversized round black glasses, sea-green silk pantsuit with a pearl-white waistcoat. Stable final-start wide shot of the same luxury auction room. BW stands by the violet sample on the central black plinth. B1 and B2 sit in their original seats; AU now sits very upright in BW's former rear-right chair with his yellow notebook open on his lap, just before a small eager lift. Crimson cloth stays on floor, ivory cloth on cart handle. Exactly four people. Put story objects in top seventy-two percent and leave a clean lower title area. Single cinematic still, landscape 16:9, a real start frame before the specified action, never its completed outcome. No captions, no legible lettering, no numbers, no logo, no watermark, no collage, no duplicated people or extra limbs. Leave the specified caption area visually quiet. Do not render arrows or diagnostic rectangles except simple nontext printed graphic shapes explicitly described.",
+          "image_status": "NOT_GENERATED",
+          "planned_image_path": "images/C09/S10.png",
+          "duration": 5,
+          "start": 33,
+          "end": 38,
+          "review_status": "PD_REVISED_PENDING_RECHECK"
+        }
+      ],
+      "caption_assets": {
+        "source_of_truth": "shots[].caption_cues",
+        "compositing": "여러 무명 검토 문서→AI 요약 비교판→발표자가 가져온 실물 근거의 가상 도해. 실제 문서·성과 수치 없음. 검출후보 사각형 반복 금지.",
+        "event_title": "Q-AI Fair",
+        "event_subtitle": "품질팀 AI 성과·활용 경험 교류"
+      },
+      "review_status": {
+        "text": "PD_REVISED_AWAITING_THREE_REVIEWER_RECHECK",
+        "image": "NOT_GENERATED",
+        "motion": "NOT_GENERATED",
+        "audience_response": "NOT_MEASURED"
+      }
+    },
+    {
+      "id": "C10",
+      "title": "청혼은 없었습니다",
+      "purpose": "서로의 AI 활용 경험이 통하는 순간을 로맨스 오해로 홍보",
+      "format": "정원 로맨스 광고·행동의 의미 연쇄 전환·마지막 손 클로즈업 반전",
+      "duration_seconds": 41,
+      "aspect_ratio": "16:9 (가정)",
+      "comedy_intensity": 4,
+      "production_difficulty": "보통~높음",
+      "one_line": "청혼처럼 내민 고리를 상대가 촬영하자 남성도 다른 샘플을 바로 보탠다. 마지막 가까워지는 두 손은 풀려 기울어진 조명 기둥을 함께 받친다.",
+      "core_message": "직접 활용해 본 경험을 펼치면 서로의 이야기가 이어진다.",
+      "cast_count": 5,
+      "char_visual_bible": [
+        {
+          "id": "MN",
+          "appearance": "30대 중반 한국인 남성, 어깨까지 오는 긴 검정 웨이브 머리, 키 크고 유연한 체형, 수염 없음",
+          "wardrobe": "아이보리 리넨 더블 재킷·바지, 검정 오픈칼라 셔츠",
+          "performance": "청혼처럼 긴장→상심한 듯 시선 하강→자기 다른 샘플을 말없이 바로 보태는 열의. 별도 사례판 발표 선언 없음.",
+          "prompt_en": "MN: a tall slim Korean man in his mid-thirties, shoulder-length long black wavy hair, clean-shaven, ivory linen double-breasted suit over an open-collar black shirt."
+        },
+        {
+          "id": "WM",
+          "appearance": "40대 한국인 여성, 짧은 진한 붉은 픽시 커트, 주근깨, 단단한 체격",
+          "wardrobe": "짙은 에메랄드 벨벳 디너 수트, 검정 로퍼",
+          "performance": "감격한 듯 눈빛이 빛남 → 물건을 관찰할 때 더 큰 호기심 → 동료의 경험에 활짝 웃음. 두 사람 기술적 관심이 동등.",
+          "prompt_en": "WM: a sturdy Korean woman in her forties, short dark-auburn red pixie haircut, light freckles, dark emerald velvet dinner suit, black loafers."
+        },
+        {
+          "id": "WT",
+          "appearance": "60대 동아시아 남성, 민머리·풍성한 흰 콧수염, 작은 키",
+          "wardrobe": "흰 셔츠, 검정 조끼, 검정 긴 앞치마",
+          "performance": "로맨스를 돕는 웨이터처럼 극도로 공손하게 무릎을 꿇었다가 촬영 높이를 맞추는 전문가의 진지함.",
+          "prompt_en": "WT: a short East Asian waiter in his sixties, bald with a full white moustache, white shirt, black waistcoat and long black apron."
+        },
+        {
+          "id": "BG1",
+          "appearance": "40대 흑인 여성, 은회색 머리 스카프",
+          "wardrobe": "겨자색 긴 드레스",
+          "performance": "후방 자기 테이블에서 폰 촬영 높이를 맞춘다.",
+          "prompt_en": "BG1: a Black woman in her forties wearing a silver-grey head scarf and a mustard long dress, at the established rear-left low table."
+        },
+        {
+          "id": "BG2",
+          "appearance": "30대 동아시아 남성, 짧은 검정 곱슬머리",
+          "wardrobe": "짙은 남색 정장",
+          "performance": "BG1과 같은 낮은 테이블에서 샘플을 받쳐 든다.",
+          "prompt_en": "BG2: an East Asian man in his thirties with short black curls and a navy suit, at the established rear-left low table."
+        }
+      ],
+      "visual_bible": {
+        "palette": "해 질 녘 정원, 따뜻한 전구와 촛불, 부드러운 피사계 심도. 기술 시연으로 바뀌어도 로맨틱한 미술과 성실한 감정은 유지.",
+        "space": "메인 낮은 테이블45cm/낮은 의자25cm, MN 왼쪽/WM 오른쪽. 검정 플로어등 기둥은 테이블 앞 중앙. 바닥35cm 높이의 낮은 각도고정 클램프가 하부 지지대와 상부 기둥을 연결한다. 램프 머리·위쪽 연결부는 잠겨 고정. 낮은 클램프가 풀리면 상부 기둥 전체가 기울도록 설계. 후방왼쪽 기존 테이블에서 BG1/BG2는 첫 컷부터 낮은 무릎 자세로 마주함.",
+        "props": "버건디 상자1/은색 고리28mm/검정 폰/흰 접시. MN 왼쪽 빈 의자에는 처음부터 열린 갈색 폴리오형 샘플 케이스: 흰 L형 샘플이 열린 폼 홈에 놓임(클립 없음), 비교 도해는 배경용. WT 쟁반의 접힌 미니삼각대. 낮은 조명 클램프 조임이 덜 된 상태지만 S01~06 기둥은 수직. S07 가벼운 스침으로 낮은 결합부가 미끄러져 기둥 전체가 기울고 빛이 접시를 벗어남. 위쪽 힌지 처짐 아님.",
+        "continuity": "고리 상자→WM 왼손→접시. 빈 상자 테이블 왼쪽. 폰 테이블→WM 오른손→미니삼각대. L형 샘플 열린 케이스→MN 오른손→고리 옆 접시. 케이스는 의자에 남음. S07 낮은 클램프 풀림→둘의 시선→S08 손 접근→S09 MN 오른손은 연결부 위 상부 기둥, WM 왼손은 아래 고정부를 받쳐 수직 복구. 최종 두 손이 그대로 지지.",
+        "caption_safe_area": "첫 3컷은 대사/제목 자막 없음. 이후 하단18% 여백. 고리·손·폰 화면·마지막 클램프의 이동 경로는 가리지 않음."
+      },
+      "hook": "6.5초 안에 무릎을 꿇고 상자를 여는 청혼 기대를 완성한다. 후방 둘도 낮은 자세로 마주하지만 도구는 초점 밖.",
+      "reversals": [
+        {
+          "at": 6.5,
+          "description": "고리를 끼는 대신 빛 아래 관찰."
+        },
+        {
+          "at": 15,
+          "description": "상심한 듯 내려간 시선의 목표는 자기 샘플. 남성은 선언 없이 다른 샘플을 접시에 보탬."
+        },
+        {
+          "at": 19,
+          "description": "무릎 꿇은 웨이터가 미니삼각대를 폄. 후방의 같은 자세도 촬영 높이."
+        },
+        {
+          "at": 25.5,
+          "description": "빛이 이탈한 문제를 본 두 사람이 손을 내밀어, 서로 대신 같은 낮은 조명 연결부를 받침."
+        }
+      ],
+      "ending_connection": "두 샘플을 한 촬영 조건에서 함께 보고, 실제 불안정해진 낮은 조명 연결부도 함께 받쳐 복구하는 교류를 행사 정보로 묶는다.",
+      "production_notes": {
+        "difficulty_reason": "작은 샘플·폰 손 이동과 낮은 조명 결합부의 풀림/지지 연속성이 중요. 상부 힌지 고장은 사용하지 않는다.",
+        "alternative": "S07의 기둥 기울기는 낮은 조인트를 중심으로 약8도만. 한 프레임에 기둥과 접시의 빛 이탈을 보여 복잡한 파손 없이 원인 전달. S09는 두 손으로 같은 결합부 위/아래를 받쳐 기둥을 세우는 한 동작. 후경2인은 처음부터 존재하는 고정 낮은 자세.",
+        "avoid": "여성은 기술을 모른다는 전제, 외모·성별 조롱, 다이아몬드/보석 판매광고, 갑자기 생기는 손님·테이블 없음.",
+        "timing": "청혼 준비6.5초/삼각대2.5초/폰 고정·후경 공개·빛 이탈4초. 손 접근3초 뒤 실제 복구7.5초. 최종41초."
+      },
+      "shots": [
+        {
+          "scene_id": "S01",
+          "cut_id": "K01",
+          "start": 0,
+          "end": 3,
+          "duration": 3,
+          "frame_start_description": "MN은 왼쪽에서 닫힌 벨벳 상자를 양손에 들고 무릎을 굽히기 직전. WM 오른쪽 낮은 의자. 열린 갈색 샘플 케이스는 MN 의자 위, 흰 L형 샘플이 홈에 있다. 후방 BG1/BG2는 처음부터 무릎 자세로 마주함. 조명 기둥 수직, 낮은 연결부 존재.",
+          "action": "MN이 한쪽 무릎을 바닥에 대고 닫힌 상자를 WM에게 올린다. WM이 두 손을 가슴으로 모은다.3초, 자세를 잡은 뒤 긴 대기 없음.",
+          "camera": "50mm 로맨틱 투샷, 후경 둘과 열린 케이스는 초점 밖. 낮은 조명 연결부를 자연스럽게 포함.",
+          "caption_cues": [],
+          "speech": "none",
+          "sound": "서정적 피아노 선택, 음성 없음.",
+          "transition": "닫힌 벨벳 상자로 근접.",
+          "comedy_intent": "청혼 기대를 짧고 진심으로 세움.",
+          "continuity_in": "고리 상자/폰 테이블/L형 열린 케이스/기둥 수직.",
+          "continuity_out": "MN 무릎 바닥·닫힌 상자. WM 기대."
+        },
+        {
+          "scene_id": "S02",
+          "cut_id": "K02",
+          "start": 3,
+          "end": 6.5,
+          "duration": 3.5,
+          "frame_start_description": "MN 한쪽 무릎, 닫힌 상자 밑을 왼손으로 받치고 오른손 뚜껑 끝. WM 양손 가슴, 조명 기둥 수직.",
+          "action": "MN이 상자를 열어 은색 고리를 보여준다. WM 왼손이 고리로 향하고 오른손은 무릎으로 내린다.3.5초, 준비 합6.5초.",
+          "camera": "85mm 상자·얼굴 일부. 보석 없는 고리, 뚜껑 뒤로.",
+          "caption_cues": [],
+          "speech": "none",
+          "sound": "현악 기대감 선택.",
+          "transition": "WM 왼손이 고리에 닿기 직전 이어서 컷.",
+          "comedy_intent": "기술 자막 없이 청혼 기대를 완성.",
+          "continuity_in": "고리 닫힌 상자/기둥 수직.",
+          "continuity_out": "상자 열림, 고리 안. WM 왼손 접근·오른손 무릎."
+        },
+        {
+          "scene_id": "S03",
+          "cut_id": "K03",
+          "start": 6.5,
+          "end": 11,
+          "duration": 4.5,
+          "frame_start_description": "열린 상자 안 고리, WM 왼손 엄지·검지 접촉 직전. 오른손 무릎. 조명은 접시 중앙오른쪽을 비춤.",
+          "action": "WM이 고리를 집어 손가락 대신 등 아래로 옮겨 한 번 돌려 본다. MN은 빈 상자를 테이블 왼쪽에 내려놓는다.4.5초.",
+          "camera": "65mm 측면, 고리 이동과 빈 상자 접촉을 같은 화면.",
+          "caption_cues": [],
+          "speech": "none",
+          "sound": "로맨스 음악 유지 선택.",
+          "transition": "WM 시선이 폰으로 향할 때 컷.",
+          "comedy_intent": "첫 반전은 물건을 쓰는 방향으로 전달.",
+          "continuity_in": "고리 상자/빈 접시/기둥 수직.",
+          "continuity_out": "고리 WM 왼손 등 아래/빈 상자 왼쪽/남성 빈손."
+        },
+        {
+          "scene_id": "S04",
+          "cut_id": "K04",
+          "start": 11,
+          "end": 15,
+          "duration": 4,
+          "frame_start_description": "WM 왼손 고리는 빈 접시 위, 오른손은 테이블 폰 옆. MN은 빈손으로 내려다본다. 기둥 수직.",
+          "action": "WM이 고리를 접시에 놓고 폰을 들어 맞춘다. 후보 표시 후합성 화면과 실물 같은 부분을 왼손으로 비교한다.4초.",
+          "camera": "65mm 놓기1초·폰 들기1초·비교2초. 필수 정보는 큰 후처리 자막.",
+          "caption_cues": [
+            {
+              "start": 12,
+              "end": 14.9,
+              "text": "AI 검출 후보 · 원물 확인",
+              "kind": "example",
+              "placement": "하단 여백, 폰·샘플 손 이동을 비움."
+            }
+          ],
+          "speech": "none",
+          "sound": "셔터1회 선택, 피아노 유지.",
+          "transition": "MN의 잠깐 내려간 눈으로 컷.",
+          "comedy_intent": "고리 관찰의 AI 맥락 확정. 후속 다른 샘플을 보탤 여지.",
+          "continuity_in": "고리 왼손/폰 테이블/접시 비어 있음.",
+          "continuity_out": "고리 접시/폰 오른손/왼손 자유. MN 시선 왼쪽 케이스."
+        },
+        {
+          "scene_id": "S05",
+          "cut_id": "K05",
+          "start": 15,
+          "end": 19,
+          "duration": 4,
+          "frame_start_description": "MN이 시선을 내리깔고 오른손을 왼쪽 의자의 열린 갈색 케이스 안 흰 L형 샘플 위에 둔다. 샘플은 아직 폼 홈에 있다. 접시에는 고리만. WM 폰은 오른손.",
+          "action": "MN이 흰 L형 샘플을 바로 집어 같은 접시의 고리 옆에 보탠다. WM이 폰 구도를 조금 넓히자 MN 표정이 밝아진다. 말이나 사례판 펼침 없음. WT는 배경에서 쟁반을 내려두며 무릎을 낮춘다.4초.",
+          "camera": "50mm MN의 시선→실물 집기→접시 추가를 한 동선. 열린 케이스는 의자에 그대로.",
+          "caption_cues": [],
+          "speech": "none",
+          "sound": "샘플 탁·밝아진 피아노 선택, 음성 없음.",
+          "transition": "배경에서 무릎을 낮춘 WT와 접힌 미니삼각대로 컷.",
+          "comedy_intent": "상심한 줄 알았는데 관찰에 보탤 다른 샘플을 찾던 것. '나도 사례' 선언 반복 제거.",
+          "continuity_in": "L형 케이스/접시 고리1/폰 WM/WT 서 있음.",
+          "continuity_out": "접시 고리+L형2개, 케이스 의자에 남음. MN 양손 자유. WT 낮은 자세·쟁반 옆."
+        },
+        {
+          "scene_id": "S06",
+          "cut_id": "K06",
+          "start": 19,
+          "end": 21.5,
+          "duration": 2.5,
+          "frame_start_description": "WT 낮은 자세, 접힌 미니삼각대가 쟁반 위. 두 손이 삼각대 양옆에 닿기 직전. 폰은 WM 오른손, 접시에는 두 샘플.",
+          "action": "WT가 접힌 미니삼각대를 들어 한 번에 다리를 펴 테이블 앞오른쪽에 놓는다.2.5초. 폰 장착은 다음 컷.",
+          "camera": "65mm 손·삼각대·진지한 얼굴. 한번 펴기만, 조절 반복 없음.",
+          "caption_cues": [],
+          "speech": "none",
+          "sound": "삼각대 탁1회 선택.",
+          "transition": "빈 폰 클립에서 WM 폰으로 연결.",
+          "comedy_intent": "무릎 자세의 뜻이 촬영 높이였음을 짧게 공개.",
+          "continuity_in": "삼각대 쟁반 접힘/폰 WM 손/두 샘플 접시.",
+          "continuity_out": "삼각대 테이블 열린 상태, 클립 빈 상태. 기둥 여전히 수직."
+        },
+        {
+          "scene_id": "S07",
+          "cut_id": "K07",
+          "start": 21.5,
+          "end": 25.5,
+          "duration": 4,
+          "frame_start_description": "WM 오른손 폰은 빈 클립 위5cm, 낮은 의자에서 자세를 낮추기 직전. 기둥은 수직이며 낮은 클램프 조임이 덜 된 상태. 빛은 접시의 두 샘플에 있음. 후경 기존 둘은 이미 낮은 자세.",
+          "action": "21.5~22.5초 WM이 폰을 클립에 고정한다.22.5~23.5초 화면이 넓어져 기존 후경의 샘플 촬영을 공개한다. WM이 손을 빼고 자세를 낮추며 낮은 조명 기둥을 가볍게 스친다.23.5~24.5초 덜 잠긴 낮은 클램프가 미끄러져 상부 기둥 전체가 왼쪽8도 기울고 빛이 접시를 벗어난다.24.5~25.5초 둘의 시선이 빛에서 같은 낮은 결합부로 동시에 내려간다.",
+          "camera": "28mm 짧은 달리 아웃. 낮은 조인트·기둥 전체·접시 빛 이탈을 같은 프레임. 위쪽 램프 관절은 고정. 총4초.",
+          "caption_cues": [],
+          "speech": "none",
+          "sound": "선택 작은 덜컥. 사고를 소리만으로 전달하지 않음.",
+          "transition": "둘의 시선이 낮은 연결부에 도착한 뒤 같은 지점을 향하는 손으로 컷.",
+          "comedy_intent": "동료의 촬영을 돕는 손 접근에 실제 원인 제공. 위 힌지 처짐을 아래에서 잡는 오류 제거.",
+          "continuity_in": "폰 WM 손/클립 비어 있음/기둥 수직/빛 샘플/후경2인 기존.",
+          "continuity_out": "폰 고정. 낮은 연결부 풀림, 상부 기둥 전체왼쪽8도. 빛 접시 밖. 둘의 시선 같은 낮은 조인트."
+        },
+        {
+          "scene_id": "S08",
+          "cut_id": "K08",
+          "start": 25.5,
+          "end": 28.5,
+          "duration": 3,
+          "frame_start_description": "조명은 낮은 결합부에서 왼쪽8도 기울고 빛이 접시를 벗어난 상태. MN 오른손과 WM 왼손은 같은 낮은 연결부 양쪽15cm 거리. 좁은 구도 아래에 클램프 대부분이 가려지며 기울어진 기둥 가장자리만 보임.",
+          "action": "두 사람이 같은 낮은 연결부로 손을 내민다. MN 오른손은 조인트 바로 위 상부 기둥, WM 왼손은 바로 아래 고정부를 향한다. 손이2cm 남은 지점에서 넓은 구도로 컷.3초.",
+          "camera": "85mm 따뜻한 손 근접. 기둥의 기울어진 가장자리를 남겨 직전 원인을 유지. 손을 서로 잡게 하지 않음.",
+          "caption_cues": [],
+          "speech": "none",
+          "sound": "현악이 로맨틱하게 상승 선택. 접촉 효과 없음.",
+          "transition": "손이 같은 낮은 연결부에2cm 남은 위치에서 넓은 동일 축으로.",
+          "comedy_intent": "문제를 같이 보았으므로 손이 가까워지는 이유가 성립. 로맨스 기대는 구도로만 잠깐 되살림.",
+          "continuity_in": "빛 이탈/기둥8도/양손 자유/둘이 같은 결합부를 본 상태.",
+          "continuity_out": "각 손이 같은 조인트 위·아래2cm 앞. 아직 접촉 없음."
+        },
+        {
+          "scene_id": "S09",
+          "cut_id": "K09",
+          "start": 28.5,
+          "end": 36,
+          "duration": 7.5,
+          "frame_start_description": "넓은 같은 축. MN 오른손은 풀린 낮은 조인트 바로 위 기둥2cm 앞, WM 왼손은 바로 아래 고정부2cm 앞. 상부 기둥 전체왼쪽8도, 조명 머리 관절은 잠겨 있고 빛은 접시 밖. 폰 고정·샘플2개 접시.",
+          "action": "두 손이 서로 대신 같은 낮은 결합부의 위·아래를 잡는다. WM이 하부를 지지하고 MN이 상부 기둥 전체를 수직으로 되돌려 두 손이 함께 유지한다(첫3초). 조명 머리의 각도 변경 없이 빛이 접시의 두 샘플로 돌아온다(다음1초). WT가 폰 화면과 실물을 비교하고 둘이 웃는다(마지막3.5초). 풀린 관절을 두 손이 계속 지지한다.",
+          "camera": "50mm 낮은 조인트·전체 기둥 방향·샘플 빛을 한 구도. 그립→수직 복구→빛 복귀를7.5초. 제3의 손이나 위 경첩 조절 없음.",
+          "caption_cues": [],
+          "speech": "none",
+          "sound": "빛 복귀 직후0.5초 음악·효과 정적 선택, 따뜻한 음악 재개. 음성 없음.",
+          "transition": "기둥 수직·빛 복귀 후 같은 지지손을 유지하며 마지막 와이드.",
+          "comedy_intent": "실제 문제가 있던 같은 관절을 함께 받쳐 해결. 손잡기 기대를 공동 시연 지원으로 뒤집는다.",
+          "continuity_in": "낮은 조인트 풀림/상부8도/손2cm 앞/빛 이탈.",
+          "continuity_out": "두 손이 같은 낮은 결합부 위·아래 지지. 상부 수직·빛 두 샘플 복귀. 손은 끝까지 유지."
+        },
+        {
+          "scene_id": "S10",
+          "cut_id": "K10",
+          "start": 36,
+          "end": 41,
+          "duration": 5,
+          "frame_start_description": "MN 오른손·WM 왼손이 같은 낮은 조인트 위·아래를 지지해 기둥 수직을 유지한다. 빛이 접시의 고리·L형 샘플에 돌아와 있다. 폰 고정, 케이스 의자. 후경 기존 사각 샘플.",
+          "action": "둘은 조인트를 계속 받친 채 눈을 한 번 맞추고 같은 샘플을 본다.36초부터 행사 정보5초 고정. 손을 놓아 고장 해결이 취소되지 않음.",
+          "camera": "35mm 고정 와이드. 지지손·수직 기둥·조명된 샘플을 상단72%, 하단 제목판.",
+          "caption_cues": [
+            {
+              "start": 36,
+              "end": 41,
+              "text": "Q-AI Fair\n품질팀 AI 성과·활용 경험 교류",
+              "kind": "event",
+              "placement": "하단 23%의 정돈된 2줄 제목판. 5초 고정."
+            }
+          ],
+          "speech": "none",
+          "sound": "따뜻한 피아노 마침 선택, 음성 없음.",
+          "transition": "41초 종료 또는 다음 화면으로 단순 컷.",
+          "comedy_intent": "샘플도 관찰 조건도 서로 보태는 경험 교류로 연결.",
+          "continuity_in": "두 손 낮은 조인트 지지/기둥 수직/빛 복구/폰 고정.",
+          "continuity_out": "같이 지지하고 관찰하는 상태로 종료."
+        }
+      ],
+      "scene_list": [
+        {
+          "concept_id": "C10",
+          "scene_id": "S01",
+          "linked_cuts": [
+            "K01"
+          ],
+          "representative_frame": "MN은 왼쪽에서 닫힌 벨벳 상자를 양손에 들고 무릎을 굽히기 직전. WM 오른쪽 낮은 의자. 열린 갈색 샘플 케이스는 MN 의자 위, 흰 L형 샘플이 홈에 있다. 후방 BG1/BG2는 처음부터 무릎 자세로 마주함. 조명 기둥 수직, 낮은 연결부 존재.",
+          "aspect_ratio": "16:9",
+          "continuity_requirements": "고리 상자/폰 테이블/L형 열린 케이스/기둥 수직. / MN 무릎 바닥·닫힌 상자. WM 기대.",
+          "caption_space": "첫 3컷은 대사/제목 자막 없음. 이후 하단18% 여백. 고리·손·폰 화면·마지막 클램프의 이동 경로는 가리지 않음.",
+          "next_motion_camera": "MN이 한쪽 무릎을 바닥에 대고 닫힌 상자를 WM에게 올린다. WM이 두 손을 가슴으로 모은다.3초, 자세를 잡은 뒤 긴 대기 없음. / 50mm 로맨틱 투샷, 후경 둘과 열린 케이스는 초점 밖. 낮은 조명 연결부를 자연스럽게 포함.",
+          "image_prompt_en": "Character identity guide only; show only people explicitly visible in this scene. MN: a tall slim Korean man in his mid-thirties, shoulder-length long black wavy hair, clean-shaven, ivory linen double-breasted suit over an open-collar black shirt. WM: a sturdy Korean woman in her forties, short dark-auburn red pixie haircut, light freckles, dark emerald velvet dinner suit, black loafers. WT: a short East Asian waiter in his sixties, bald with a full white moustache, white shirt, black waistcoat and long black apron. BG1: a Black woman in her forties wearing a silver-grey head scarf and a mustard long dress, at the established rear-left low table. BG2: an East Asian man in his thirties with short black curls and a navy suit, at the established rear-left low table. Dusk garden, low table forty-five centimeters. MN LEFT just beginning to bend knees holding CLOSED burgundy box; WM seated RIGHT. An OPEN brown folio-style sample case on MN's empty low chair contains one ivory L-shaped sample resting in an open foam recess, not clipped. Black lamp at front center stands VERTICAL, visible low angle-clamp at thirty-five centimeters joining lower base and upper pole; upper head joints locked rigid. BG1/BG2 already kneel facing each other at same rear-left low table, softly defocused. WT tray with folded mini tripod. Before kneel. Single cinematic still, landscape 16:9, a real start frame BEFORE the specified action, never its completed outcome. No captions, no legible lettering, no numbers, no logo, no watermark, no collage, no extra people or limbs. Keep specified caption area quiet. Only depict characters explicitly present in the scene; identity guide is not a request to add cast.",
+          "image_status": "NOT_GENERATED",
+          "planned_image_path": "images/C10/S01.png",
+          "duration": 3,
+          "start": 0,
+          "end": 3,
+          "review_status": "PD_REVISED_PENDING_RECHECK"
+        },
+        {
+          "concept_id": "C10",
+          "scene_id": "S02",
+          "linked_cuts": [
+            "K02"
+          ],
+          "representative_frame": "MN 한쪽 무릎, 닫힌 상자 밑을 왼손으로 받치고 오른손 뚜껑 끝. WM 양손 가슴, 조명 기둥 수직.",
+          "aspect_ratio": "16:9",
+          "continuity_requirements": "고리 닫힌 상자/기둥 수직. / 상자 열림, 고리 안. WM 왼손 접근·오른손 무릎.",
+          "caption_space": "첫 3컷은 대사/제목 자막 없음. 이후 하단18% 여백. 고리·손·폰 화면·마지막 클램프의 이동 경로는 가리지 않음.",
+          "next_motion_camera": "MN이 상자를 열어 은색 고리를 보여준다. WM 왼손이 고리로 향하고 오른손은 무릎으로 내린다.3.5초, 준비 합6.5초. / 85mm 상자·얼굴 일부. 보석 없는 고리, 뚜껑 뒤로.",
+          "image_prompt_en": "Character identity guide only; show only people explicitly visible in this scene. MN: a tall slim Korean man in his mid-thirties, shoulder-length long black wavy hair, clean-shaven, ivory linen double-breasted suit over an open-collar black shirt. WM: a sturdy Korean woman in her forties, short dark-auburn red pixie haircut, light freckles, dark emerald velvet dinner suit, black loafers. WT: a short East Asian waiter in his sixties, bald with a full white moustache, white shirt, black waistcoat and long black apron. BG1: a Black woman in her forties wearing a silver-grey head scarf and a mustard long dress, at the established rear-left low table. BG2: an East Asian man in his thirties with short black curls and a navy suit, at the established rear-left low table. MN kneels, LEFT supports CLOSED box, RIGHT fingertips at lid before opening. WM hands near chest. Same low table and VERTICAL lamp with rigid head, low clamp present. Open brown sample case remains on left chair. Ring not outside box. Single cinematic still, landscape 16:9, a real start frame BEFORE the specified action, never its completed outcome. No captions, no legible lettering, no numbers, no logo, no watermark, no collage, no extra people or limbs. Keep specified caption area quiet. Only depict characters explicitly present in the scene; identity guide is not a request to add cast.",
+          "image_status": "NOT_GENERATED",
+          "planned_image_path": "images/C10/S02.png",
+          "duration": 3.5,
+          "start": 3,
+          "end": 6.5,
+          "review_status": "PD_REVISED_PENDING_RECHECK"
+        },
+        {
+          "concept_id": "C10",
+          "scene_id": "S03",
+          "linked_cuts": [
+            "K03"
+          ],
+          "representative_frame": "열린 상자 안 고리, WM 왼손 엄지·검지 접촉 직전. 오른손 무릎. 조명은 접시 중앙오른쪽을 비춤.",
+          "aspect_ratio": "16:9",
+          "continuity_requirements": "고리 상자/빈 접시/기둥 수직. / 고리 WM 왼손 등 아래/빈 상자 왼쪽/남성 빈손.",
+          "caption_space": "첫 3컷은 대사/제목 자막 없음. 이후 하단18% 여백. 고리·손·폰 화면·마지막 클램프의 이동 경로는 가리지 않음.",
+          "next_motion_camera": "WM이 고리를 집어 손가락 대신 등 아래로 옮겨 한 번 돌려 본다. MN은 빈 상자를 테이블 왼쪽에 내려놓는다.4.5초. / 65mm 측면, 고리 이동과 빈 상자 접촉을 같은 화면.",
+          "image_prompt_en": "Character identity guide only; show only people explicitly visible in this scene. MN: a tall slim Korean man in his mid-thirties, shoulder-length long black wavy hair, clean-shaven, ivory linen double-breasted suit over an open-collar black shirt. WM: a sturdy Korean woman in her forties, short dark-auburn red pixie haircut, light freckles, dark emerald velvet dinner suit, black loafers. WT: a short East Asian waiter in his sixties, bald with a full white moustache, white shirt, black waistcoat and long black apron. BG1: a Black woman in her forties wearing a silver-grey head scarf and a mustard long dress, at the established rear-left low table. BG2: an East Asian man in his thirties with short black curls and a navy suit, at the established rear-left low table. Open box in MN hands, silver ring STILL inside. WM LEFT fingers about to pick it up, RIGHT on lap. White saucer and lamp pool at center-right. Lamp upper pole remains VERTICAL; low clamp not yet slipped. Open brown case on left chair. Before ring pickup. Single cinematic still, landscape 16:9, a real start frame BEFORE the specified action, never its completed outcome. No captions, no legible lettering, no numbers, no logo, no watermark, no collage, no extra people or limbs. Keep specified caption area quiet. Only depict characters explicitly present in the scene; identity guide is not a request to add cast.",
+          "image_status": "NOT_GENERATED",
+          "planned_image_path": "images/C10/S03.png",
+          "duration": 4.5,
+          "start": 6.5,
+          "end": 11,
+          "review_status": "PD_REVISED_PENDING_RECHECK"
+        },
+        {
+          "concept_id": "C10",
+          "scene_id": "S04",
+          "linked_cuts": [
+            "K04"
+          ],
+          "representative_frame": "WM 왼손 고리는 빈 접시 위, 오른손은 테이블 폰 옆. MN은 빈손으로 내려다본다. 기둥 수직.",
+          "aspect_ratio": "16:9",
+          "continuity_requirements": "고리 왼손/폰 테이블/접시 비어 있음. / 고리 접시/폰 오른손/왼손 자유. MN 시선 왼쪽 케이스.",
+          "caption_space": "첫 3컷은 대사/제목 자막 없음. 이후 하단18% 여백. 고리·손·폰 화면·마지막 클램프의 이동 경로는 가리지 않음.",
+          "next_motion_camera": "WM이 고리를 접시에 놓고 폰을 들어 맞춘다. 후보 표시 후합성 화면과 실물 같은 부분을 왼손으로 비교한다.4초. / 65mm 놓기1초·폰 들기1초·비교2초. 필수 정보는 큰 후처리 자막.",
+          "image_prompt_en": "Character identity guide only; show only people explicitly visible in this scene. MN: a tall slim Korean man in his mid-thirties, shoulder-length long black wavy hair, clean-shaven, ivory linen double-breasted suit over an open-collar black shirt. WM: a sturdy Korean woman in her forties, short dark-auburn red pixie haircut, light freckles, dark emerald velvet dinner suit, black loafers. WT: a short East Asian waiter in his sixties, bald with a full white moustache, white shirt, black waistcoat and long black apron. BG1: a Black woman in her forties wearing a silver-grey head scarf and a mustard long dress, at the established rear-left low table. BG2: an East Asian man in his thirties with short black curls and a navy suit, at the established rear-left low table. WM LEFT holds ring just above EMPTY saucer; RIGHT hand near phone still on tabletop. MN empty-handed looks down. Lamp pole VERTICAL, low clamp unchanged. Open velvet box table-left. Start before placement or phone lift. Single cinematic still, landscape 16:9, a real start frame BEFORE the specified action, never its completed outcome. No captions, no legible lettering, no numbers, no logo, no watermark, no collage, no extra people or limbs. Keep specified caption area quiet. Only depict characters explicitly present in the scene; identity guide is not a request to add cast.",
+          "image_status": "NOT_GENERATED",
+          "planned_image_path": "images/C10/S04.png",
+          "duration": 4,
+          "start": 11,
+          "end": 15,
+          "review_status": "PD_REVISED_PENDING_RECHECK"
+        },
+        {
+          "concept_id": "C10",
+          "scene_id": "S05",
+          "linked_cuts": [
+            "K05"
+          ],
+          "representative_frame": "MN이 시선을 내리깔고 오른손을 왼쪽 의자의 열린 갈색 케이스 안 흰 L형 샘플 위에 둔다. 샘플은 아직 폼 홈에 있다. 접시에는 고리만. WM 폰은 오른손.",
+          "aspect_ratio": "16:9",
+          "continuity_requirements": "L형 케이스/접시 고리1/폰 WM/WT 서 있음. / 접시 고리+L형2개, 케이스 의자에 남음. MN 양손 자유. WT 낮은 자세·쟁반 옆.",
+          "caption_space": "첫 3컷은 대사/제목 자막 없음. 이후 하단18% 여백. 고리·손·폰 화면·마지막 클램프의 이동 경로는 가리지 않음.",
+          "next_motion_camera": "MN이 흰 L형 샘플을 바로 집어 같은 접시의 고리 옆에 보탠다. WM이 폰 구도를 조금 넓히자 MN 표정이 밝아진다. 말이나 사례판 펼침 없음. WT는 배경에서 쟁반을 내려두며 무릎을 낮춘다.4초. / 50mm MN의 시선→실물 집기→접시 추가를 한 동선. 열린 케이스는 의자에 그대로.",
+          "image_prompt_en": "Character identity guide only; show only people explicitly visible in this scene. MN: a tall slim Korean man in his mid-thirties, shoulder-length long black wavy hair, clean-shaven, ivory linen double-breasted suit over an open-collar black shirt. WM: a sturdy Korean woman in her forties, short dark-auburn red pixie haircut, light freckles, dark emerald velvet dinner suit, black loafers. WT: a short East Asian waiter in his sixties, bald with a full white moustache, white shirt, black waistcoat and long black apron. BG1: a Black woman in her forties wearing a silver-grey head scarf and a mustard long dress, at the established rear-left low table. BG2: an East Asian man in his thirties with short black curls and a navy suit, at the established rear-left low table. MN kneels LEFT with eyes lowered, RIGHT empty hand hovering above ivory L-shaped sample STILL resting in OPEN brown case on original left chair. LEFT hand relaxed. White saucer has ONLY silver ring. WM holds phone aimed at it. WT begins lowering tray in background. No lifted folio, no sample already on saucer. Lamp vertical. Single cinematic still, landscape 16:9, a real start frame BEFORE the specified action, never its completed outcome. No captions, no legible lettering, no numbers, no logo, no watermark, no collage, no extra people or limbs. Keep specified caption area quiet. Only depict characters explicitly present in the scene; identity guide is not a request to add cast.",
+          "image_status": "NOT_GENERATED",
+          "planned_image_path": "images/C10/S05.png",
+          "duration": 4,
+          "start": 15,
+          "end": 19,
+          "review_status": "PD_REVISED_PENDING_RECHECK"
+        },
+        {
+          "concept_id": "C10",
+          "scene_id": "S06",
+          "linked_cuts": [
+            "K06"
+          ],
+          "representative_frame": "WT 낮은 자세, 접힌 미니삼각대가 쟁반 위. 두 손이 삼각대 양옆에 닿기 직전. 폰은 WM 오른손, 접시에는 두 샘플.",
+          "aspect_ratio": "16:9",
+          "continuity_requirements": "삼각대 쟁반 접힘/폰 WM 손/두 샘플 접시. / 삼각대 테이블 열린 상태, 클립 빈 상태. 기둥 여전히 수직.",
+          "caption_space": "첫 3컷은 대사/제목 자막 없음. 이후 하단18% 여백. 고리·손·폰 화면·마지막 클램프의 이동 경로는 가리지 않음.",
+          "next_motion_camera": "WT가 접힌 미니삼각대를 들어 한 번에 다리를 펴 테이블 앞오른쪽에 놓는다.2.5초. 폰 장착은 다음 컷. / 65mm 손·삼각대·진지한 얼굴. 한번 펴기만, 조절 반복 없음.",
+          "image_prompt_en": "Character identity guide only; show only people explicitly visible in this scene. MN: a tall slim Korean man in his mid-thirties, shoulder-length long black wavy hair, clean-shaven, ivory linen double-breasted suit over an open-collar black shirt. WM: a sturdy Korean woman in her forties, short dark-auburn red pixie haircut, light freckles, dark emerald velvet dinner suit, black loafers. WT: a short East Asian waiter in his sixties, bald with a full white moustache, white shirt, black waistcoat and long black apron. BG1: a Black woman in her forties wearing a silver-grey head scarf and a mustard long dress, at the established rear-left low table. BG2: an East Asian man in his thirties with short black curls and a navy suit, at the established rear-left low table. WT low beside table, BOTH hands poised at folded mini tripod resting on tray, before grasping. No tripod on main table yet. WM holds phone. Ring and ivory L-shaped sample already lie on same saucer; open brown case stays on empty chair. Lamp VERTICAL. Rear couple remains in established low kneeling pose. Single cinematic still, landscape 16:9, a real start frame BEFORE the specified action, never its completed outcome. No captions, no legible lettering, no numbers, no logo, no watermark, no collage, no extra people or limbs. Keep specified caption area quiet. Only depict characters explicitly present in the scene; identity guide is not a request to add cast.",
+          "image_status": "NOT_GENERATED",
+          "planned_image_path": "images/C10/S06.png",
+          "duration": 2.5,
+          "start": 19,
+          "end": 21.5,
+          "review_status": "PD_REVISED_PENDING_RECHECK"
+        },
+        {
+          "concept_id": "C10",
+          "scene_id": "S07",
+          "linked_cuts": [
+            "K07"
+          ],
+          "representative_frame": "WM 오른손 폰은 빈 클립 위5cm, 낮은 의자에서 자세를 낮추기 직전. 기둥은 수직이며 낮은 클램프 조임이 덜 된 상태. 빛은 접시의 두 샘플에 있음. 후경 기존 둘은 이미 낮은 자세.",
+          "aspect_ratio": "16:9",
+          "continuity_requirements": "폰 WM 손/클립 비어 있음/기둥 수직/빛 샘플/후경2인 기존. / 폰 고정. 낮은 연결부 풀림, 상부 기둥 전체왼쪽8도. 빛 접시 밖. 둘의 시선 같은 낮은 조인트.",
+          "caption_space": "첫 3컷은 대사/제목 자막 없음. 이후 하단18% 여백. 고리·손·폰 화면·마지막 클램프의 이동 경로는 가리지 않음.",
+          "next_motion_camera": "21.5~22.5초 WM이 폰을 클립에 고정한다.22.5~23.5초 화면이 넓어져 기존 후경의 샘플 촬영을 공개한다. WM이 손을 빼고 자세를 낮추며 낮은 조명 기둥을 가볍게 스친다.23.5~24.5초 덜 잠긴 낮은 클램프가 미끄러져 상부 기둥 전체가 왼쪽8도 기울고 빛이 접시를 벗어난다.24.5~25.5초 둘의 시선이 빛에서 같은 낮은 결합부로 동시에 내려간다. / 28mm 짧은 달리 아웃. 낮은 조인트·기둥 전체·접시 빛 이탈을 같은 프레임. 위쪽 램프 관절은 고정. 총4초.",
+          "image_prompt_en": "Character identity guide only; show only people explicitly visible in this scene. MN: a tall slim Korean man in his mid-thirties, shoulder-length long black wavy hair, clean-shaven, ivory linen double-breasted suit over an open-collar black shirt. WM: a sturdy Korean woman in her forties, short dark-auburn red pixie haircut, light freckles, dark emerald velvet dinner suit, black loafers. WT: a short East Asian waiter in his sixties, bald with a full white moustache, white shirt, black waistcoat and long black apron. BG1: a Black woman in her forties wearing a silver-grey head scarf and a mustard long dress, at the established rear-left low table. BG2: an East Asian man in his thirties with short black curls and a navy suit, at the established rear-left low table. WM RIGHT holds phone five centimeters above EMPTY tripod clip, before mounting. Lamp upper pole still VERTICAL with its LOW angle-clamp at thirty-five centimeters intact-looking but not fully tightened; all upper lamp-head joints locked rigid. Light currently falls on BOTH ring and L sample on saucer. Her forearm is clear of pole before the later light brush. Main couple has not noticed a problem yet. Existing rear couple already kneels at same table, partly cropped. Before clamp slip, no leaning lamp or displaced light yet. Single cinematic still, landscape 16:9, a real start frame BEFORE the specified action, never its completed outcome. No captions, no legible lettering, no numbers, no logo, no watermark, no collage, no extra people or limbs. Keep specified caption area quiet. Only depict characters explicitly present in the scene; identity guide is not a request to add cast.",
+          "image_status": "NOT_GENERATED",
+          "planned_image_path": "images/C10/S07.png",
+          "duration": 4,
+          "start": 21.5,
+          "end": 25.5,
+          "review_status": "PD_REVISED_PENDING_RECHECK"
+        },
+        {
+          "concept_id": "C10",
+          "scene_id": "S08",
+          "linked_cuts": [
+            "K08"
+          ],
+          "representative_frame": "조명은 낮은 결합부에서 왼쪽8도 기울고 빛이 접시를 벗어난 상태. MN 오른손과 WM 왼손은 같은 낮은 연결부 양쪽15cm 거리. 좁은 구도 아래에 클램프 대부분이 가려지며 기울어진 기둥 가장자리만 보임.",
+          "aspect_ratio": "16:9",
+          "continuity_requirements": "빛 이탈/기둥8도/양손 자유/둘이 같은 결합부를 본 상태. / 각 손이 같은 조인트 위·아래2cm 앞. 아직 접촉 없음.",
+          "caption_space": "첫 3컷은 대사/제목 자막 없음. 이후 하단18% 여백. 고리·손·폰 화면·마지막 클램프의 이동 경로는 가리지 않음.",
+          "next_motion_camera": "두 사람이 같은 낮은 연결부로 손을 내민다. MN 오른손은 조인트 바로 위 상부 기둥, WM 왼손은 바로 아래 고정부를 향한다. 손이2cm 남은 지점에서 넓은 구도로 컷.3초. / 85mm 따뜻한 손 근접. 기둥의 기울어진 가장자리를 남겨 직전 원인을 유지. 손을 서로 잡게 하지 않음.",
+          "image_prompt_en": "Character identity guide only; show only people explicitly visible in this scene. MN: a tall slim Korean man in his mid-thirties, shoulder-length long black wavy hair, clean-shaven, ivory linen double-breasted suit over an open-collar black shirt. WM: a sturdy Korean woman in her forties, short dark-auburn red pixie haircut, light freckles, dark emerald velvet dinner suit, black loafers. WT: a short East Asian waiter in his sixties, bald with a full white moustache, white shirt, black waistcoat and long black apron. BG1: a Black woman in her forties wearing a silver-grey head scarf and a mustard long dress, at the established rear-left low table. BG2: an East Asian man in his thirties with short black curls and a navy suit, at the established rear-left low table. Tight warm closeup after established clamp failure. Black upper pole edge is visibly angled LEFT eight degrees; light remains off samples. MN RIGHT hand enters from left and WM LEFT from right, both still fifteen centimeters from the SAME LOW coupling, before reaching. His target is upper-pole section just above coupling, hers fixed lower section just below. Clamp mostly below crop, tilted pole edge remains visible. No clasped hands, no restored vertical lamp. Single cinematic still, landscape 16:9, a real start frame BEFORE the specified action, never its completed outcome. No captions, no legible lettering, no numbers, no logo, no watermark, no collage, no extra people or limbs. Keep specified caption area quiet. Only depict characters explicitly present in the scene; identity guide is not a request to add cast.",
+          "image_status": "NOT_GENERATED",
+          "planned_image_path": "images/C10/S08.png",
+          "duration": 3,
+          "start": 25.5,
+          "end": 28.5,
+          "review_status": "PD_REVISED_PENDING_RECHECK"
+        },
+        {
+          "concept_id": "C10",
+          "scene_id": "S09",
+          "linked_cuts": [
+            "K09"
+          ],
+          "representative_frame": "넓은 같은 축. MN 오른손은 풀린 낮은 조인트 바로 위 기둥2cm 앞, WM 왼손은 바로 아래 고정부2cm 앞. 상부 기둥 전체왼쪽8도, 조명 머리 관절은 잠겨 있고 빛은 접시 밖. 폰 고정·샘플2개 접시.",
+          "aspect_ratio": "16:9",
+          "continuity_requirements": "낮은 조인트 풀림/상부8도/손2cm 앞/빛 이탈. / 두 손이 같은 낮은 결합부 위·아래 지지. 상부 수직·빛 두 샘플 복귀. 손은 끝까지 유지.",
+          "caption_space": "첫 3컷은 대사/제목 자막 없음. 이후 하단18% 여백. 고리·손·폰 화면·마지막 클램프의 이동 경로는 가리지 않음.",
+          "next_motion_camera": "두 손이 서로 대신 같은 낮은 결합부의 위·아래를 잡는다. WM이 하부를 지지하고 MN이 상부 기둥 전체를 수직으로 되돌려 두 손이 함께 유지한다(첫3초). 조명 머리의 각도 변경 없이 빛이 접시의 두 샘플로 돌아온다(다음1초). WT가 폰 화면과 실물을 비교하고 둘이 웃는다(마지막3.5초). 풀린 관절을 두 손이 계속 지지한다. / 50mm 낮은 조인트·전체 기둥 방향·샘플 빛을 한 구도. 그립→수직 복구→빛 복귀를7.5초. 제3의 손이나 위 경첩 조절 없음.",
+          "image_prompt_en": "Character identity guide only; show only people explicitly visible in this scene. MN: a tall slim Korean man in his mid-thirties, shoulder-length long black wavy hair, clean-shaven, ivory linen double-breasted suit over an open-collar black shirt. WM: a sturdy Korean woman in her forties, short dark-auburn red pixie haircut, light freckles, dark emerald velvet dinner suit, black loafers. WT: a short East Asian waiter in his sixties, bald with a full white moustache, white shirt, black waistcoat and long black apron. BG1: a Black woman in her forties wearing a silver-grey head scarf and a mustard long dress, at the established rear-left low table. BG2: an East Asian man in his thirties with short black curls and a navy suit, at the established rear-left low table. Medium same-axis reveal BEFORE the fix. Entire upper lamp pole leans LEFT eight degrees from LOW coupling; top lamp head joints rigid, not sagging. MN RIGHT hand hovers two centimeters above coupling around upper-pole section; WM LEFT hovers two centimeters below around fixed lower section. Not gripping yet. Light pool misses the two samples on saucer. Phone already mounted, brown case stays on chair, all other hands free. No third hand, no restored light. Single cinematic still, landscape 16:9, a real start frame BEFORE the specified action, never its completed outcome. No captions, no legible lettering, no numbers, no logo, no watermark, no collage, no extra people or limbs. Keep specified caption area quiet. Only depict characters explicitly present in the scene; identity guide is not a request to add cast.",
+          "image_status": "NOT_GENERATED",
+          "planned_image_path": "images/C10/S09.png",
+          "duration": 7.5,
+          "start": 28.5,
+          "end": 36,
+          "review_status": "PD_REVISED_PENDING_RECHECK"
+        },
+        {
+          "concept_id": "C10",
+          "scene_id": "S10",
+          "linked_cuts": [
+            "K10"
+          ],
+          "representative_frame": "MN 오른손·WM 왼손이 같은 낮은 조인트 위·아래를 지지해 기둥 수직을 유지한다. 빛이 접시의 고리·L형 샘플에 돌아와 있다. 폰 고정, 케이스 의자. 후경 기존 사각 샘플.",
+          "aspect_ratio": "16:9",
+          "continuity_requirements": "두 손 낮은 조인트 지지/기둥 수직/빛 복구/폰 고정. / 같이 지지하고 관찰하는 상태로 종료.",
+          "caption_space": "첫 3컷은 대사/제목 자막 없음. 이후 하단18% 여백. 고리·손·폰 화면·마지막 클램프의 이동 경로는 가리지 않음.",
+          "next_motion_camera": "둘은 조인트를 계속 받친 채 눈을 한 번 맞추고 같은 샘플을 본다.36초부터 행사 정보5초 고정. 손을 놓아 고장 해결이 취소되지 않음. / 35mm 고정 와이드. 지지손·수직 기둥·조명된 샘플을 상단72%, 하단 제목판.",
+          "image_prompt_en": "Character identity guide only; show only people explicitly visible in this scene. MN: a tall slim Korean man in his mid-thirties, shoulder-length long black wavy hair, clean-shaven, ivory linen double-breasted suit over an open-collar black shirt. WM: a sturdy Korean woman in her forties, short dark-auburn red pixie haircut, light freckles, dark emerald velvet dinner suit, black loafers. WT: a short East Asian waiter in his sixties, bald with a full white moustache, white shirt, black waistcoat and long black apron. BG1: a Black woman in her forties wearing a silver-grey head scarf and a mustard long dress, at the established rear-left low table. BG2: an East Asian man in his thirties with short black curls and a navy suit, at the established rear-left low table. Stable final-start wide of same garden, exactly five people. MN RIGHT hand supports upper-pole section just ABOVE low coupling and WM LEFT supports fixed section just BELOW, holding the formerly loose joint so pole is VERTICAL. Rigid lamp head illuminates BOTH silver ring and ivory L sample on saucer. Phone mounted, open brown case remains on chair. WT by phone, rear couple at original table with blue sample. Hands must keep supporting, no clasp. Story top seventy-two percent, clean lower title area. Single cinematic still, landscape 16:9, a real start frame BEFORE the specified action, never its completed outcome. No captions, no legible lettering, no numbers, no logo, no watermark, no collage, no extra people or limbs. Keep specified caption area quiet. Only depict characters explicitly present in the scene; identity guide is not a request to add cast.",
+          "image_status": "NOT_GENERATED",
+          "planned_image_path": "images/C10/S10.png",
+          "duration": 5,
+          "start": 36,
+          "end": 41,
+          "review_status": "PD_REVISED_PENDING_RECHECK"
+        }
+      ],
+      "caption_assets": {
+        "source_of_truth": "shots[].caption_cues",
+        "compositing": "생성 이미지에는 글자 없음. 해당 가상 시연의 동일 샘플 사진/후보 사각형/원물 확인 도해를 후편집으로 합성한다. 기존 직원·과제·실적의 화면으로 오인시키지 않는 무명 예시.",
+        "event_title": "Q-AI Fair",
+        "event_subtitle": "품질팀 AI 성과·활용 경험 교류"
+      },
+      "review_status": {
+        "text": "PD_REVISED_AWAITING_THREE_REVIEWER_RECHECK",
+        "image": "NOT_GENERATED",
+        "motion": "NOT_GENERATED",
+        "audience_response": "NOT_MEASURED"
+      }
+    }
+  ],
+  "validation": {
+    "checked": "수정 후 타임라인·합계·자막 구간·speech none·씬 동기화·10씬 유지·38~44초·엔딩5초 자체 검산",
+    "errors": [],
+    "totals": [
+      {
+        "id": "C07",
+        "shots": 10,
+        "scenes": 10,
+        "seconds": 39,
+        "event_hold_seconds": 5
+      },
+      {
+        "id": "C08",
+        "shots": 10,
+        "scenes": 10,
+        "seconds": 42,
+        "event_hold_seconds": 5
+      },
+      {
+        "id": "C09",
+        "shots": 10,
+        "scenes": 10,
+        "seconds": 38,
+        "event_hold_seconds": 5
+      },
+      {
+        "id": "C10",
+        "shots": 10,
+        "scenes": 10,
+        "seconds": 41,
+        "event_hold_seconds": 5
+      }
+    ],
+    "total_shots": 40,
+    "total_first_frame_specs": 40,
+    "independent_review": "PD_REVISED_PENDING_THREE_REVIEWER_RECHECK",
+    "review_issue_count": 18
+  },
+  "revision": {
+    "round": 2,
+    "scope": "독립·교차 검수 뒤 PD 지시 반영. 기존 장르·캐스트·10씬씩 유지, 준비/운반 압축, 인과·AI 역할 차별화.",
+    "review_basis": "총괄이 메시지로 전달한 A-N01~05/B-N01~07/C-N01~06 요약 및 PD 판정. 검수 원문 보고서는 총괄 별도 보존 예정.",
+    "image_generation": "재검수 전 생성 금지. 이번 수정에서도 이미지/Flow 실행 없음."
+  },
+  "review_resolution": [
+    {
+      "issue_id": "A-N01",
+      "status": "IMPLEMENTED_PENDING_RECHECK",
+      "concept_ids": [
+        "C07",
+        "C08",
+        "C09",
+        "C10"
+      ],
+      "shots": "각 안 K01~K10",
+      "issue": "네 안 준비·운반 압축",
+      "resolution": "54/55/54/54초→39/42/38/41초. 원인 행동과10씬 유지, 엔딩5초 확보.",
+      "verification": "콘티·씬 첫 상태·영문 프롬프트·연속성 동기화 및 시간 자체 검산. 실제 영상/이미지 미검증."
+    },
+    {
+      "issue_id": "A-N02",
+      "status": "IMPLEMENTED_PENDING_RECHECK",
+      "concept_ids": [
+        "C08"
+      ],
+      "shots": "K01~K02,K06",
+      "issue": "초기 같은 자료판·목표",
+      "resolution": "PR 왼손 판·오른손 검지의 사진 목표점을 해동 전후 고정. 서리만 사라져 원래 목표가 공개됨.",
+      "verification": "콘티·씬 첫 상태·영문 프롬프트·연속성 동기화 및 시간 자체 검산. 실제 영상/이미지 미검증."
+    },
+    {
+      "issue_id": "A-N03",
+      "status": "IMPLEMENTED_PENDING_RECHECK",
+      "concept_ids": [
+        "C10"
+      ],
+      "shots": "K07~K10",
+      "issue": "지지부 실제 불안정 원인",
+      "resolution": "낮은35cm 조인트가 미끄러져 상부 기둥 전체8도 기울고 빛 이탈. 같은 조인트 위·아래를 받쳐 수직·빛 복구. 위 힌지 처짐 제거.",
+      "verification": "콘티·씬 첫 상태·영문 프롬프트·연속성 동기화 및 시간 자체 검산. 실제 영상/이미지 미검증."
+    },
+    {
+      "issue_id": "A-N04",
+      "status": "IMPLEMENTED_PENDING_RECHECK",
+      "concept_ids": [
+        "C07",
+        "C08",
+        "C09",
+        "C10"
+      ],
+      "shots": "C07 K04/K09; C08 K06/K08; C09 K07; C10 K04/K05",
+      "issue": "AI 사례 다양화",
+      "resolution": "C07 후보/원물은1회·K09 회전개그, C08 조건별 시행착오 비교, C09 여러 검토자료 AI 요약+실물근거, C10 다른 샘플을 같은 촬영에 보탬.",
+      "verification": "콘티·씬 첫 상태·영문 프롬프트·연속성 동기화 및 시간 자체 검산. 실제 영상/이미지 미검증."
+    },
+    {
+      "issue_id": "A-N05",
+      "status": "IMPLEMENTED_PENDING_RECHECK",
+      "concept_ids": [
+        "C08",
+        "C10"
+      ],
+      "shots": "C08 K08; C10 K05",
+      "issue": "나도 사례 꺼내기 반복",
+      "resolution": "C08 새 판 제거, 같은 조명 조건을 바꿔 공유판을 인계받음. C10 별도 발표 선언/판 펼침을 없애고 흰 L형 실물만 바로 보탬.",
+      "verification": "콘티·씬 첫 상태·영문 프롬프트·연속성 동기화 및 시간 자체 검산. 실제 영상/이미지 미검증."
+    },
+    {
+      "issue_id": "B-N01",
+      "status": "IMPLEMENTED_PENDING_RECHECK",
+      "concept_ids": [
+        "C07"
+      ],
+      "shots": "K01~K02",
+      "issue": "손5cm 위에서10cm 하강 충돌",
+      "resolution": "첫손15cm→몸10cm 하강→손5cm 비접촉. K02 남은5cm 접근 후 집기. 프롬프트/연속성 모두 수정.",
+      "verification": "콘티·씬 첫 상태·영문 프롬프트·연속성 동기화 및 시간 자체 검산. 실제 영상/이미지 미검증."
+    },
+    {
+      "issue_id": "B-N02",
+      "status": "IMPLEMENTED_PENDING_RECHECK",
+      "concept_ids": [
+        "C10"
+      ],
+      "shots": "K07~K09",
+      "issue": "손 접근 원인",
+      "resolution": "기둥 전체 기울기→샘플 빛 이탈→둘의 시선→같은 조인트 손 접근을 시간순으로 확보.",
+      "verification": "콘티·씬 첫 상태·영문 프롬프트·연속성 동기화 및 시간 자체 검산. 실제 영상/이미지 미검증."
+    },
+    {
+      "issue_id": "B-N03",
+      "status": "IMPLEMENTED_PENDING_RECHECK",
+      "concept_ids": [
+        "C08"
+      ],
+      "shots": "K03~K05",
+      "issue": "준비 압축",
+      "resolution": "담요3초+샘플2.5초+조명2.5초=8초. 해동을 제외한 기존 순수15초에서 감축.",
+      "verification": "콘티·씬 첫 상태·영문 프롬프트·연속성 동기화 및 시간 자체 검산. 실제 영상/이미지 미검증."
+    },
+    {
+      "issue_id": "B-N04",
+      "status": "IMPLEMENTED_PENDING_RECHECK",
+      "concept_ids": [
+        "C09"
+      ],
+      "shots": "K05~K07",
+      "issue": "낙찰·운반 압축",
+      "resolution": "지목2초, 한 걸음 운반2.5초, 실제 놓기/공유4초로 분리 보존.",
+      "verification": "콘티·씬 첫 상태·영문 프롬프트·연속성 동기화 및 시간 자체 검산. 실제 영상/이미지 미검증."
+    },
+    {
+      "issue_id": "B-N05",
+      "status": "IMPLEMENTED_PENDING_RECHECK",
+      "concept_ids": [
+        "C07",
+        "C08",
+        "C09",
+        "C10"
+      ],
+      "shots": "안별 AI 시연 구간",
+      "issue": "AI 역할 반복",
+      "resolution": "후보 확인/조건 시행착오/자료 요약/같은 촬영에 다른 샘플 기여로 구분. 모든 예시는 후합성·무명 가상 자료.",
+      "verification": "콘티·씬 첫 상태·영문 프롬프트·연속성 동기화 및 시간 자체 검산. 실제 영상/이미지 미검증."
+    },
+    {
+      "issue_id": "B-N06",
+      "status": "IMPLEMENTED_PENDING_RECHECK",
+      "concept_ids": [
+        "C07"
+      ],
+      "shots": "K01~K02",
+      "issue": "첫10초 단축",
+      "resolution": "접근3초+집기3초=6초. 첫 공개 반전은10초 시작.",
+      "verification": "콘티·씬 첫 상태·영문 프롬프트·연속성 동기화 및 시간 자체 검산. 실제 영상/이미지 미검증."
+    },
+    {
+      "issue_id": "B-N07",
+      "status": "IMPLEMENTED_PENDING_RECHECK",
+      "concept_ids": [
+        "C08"
+      ],
+      "shots": "K01~K10",
+      "issue": "천 탭 소품 선등록",
+      "resolution": "처음 PR의 흰 판 아래오른쪽4cm 아이보리 탭 등록. 같은 판이 RL에게 전달된 후 같은 탭만 송풍. 별도 노랑 판 삭제.",
+      "verification": "콘티·씬 첫 상태·영문 프롬프트·연속성 동기화 및 시간 자체 검산. 실제 영상/이미지 미검증."
+    },
+    {
+      "issue_id": "C-N01",
+      "status": "IMPLEMENTED_PENDING_RECHECK",
+      "concept_ids": [
+        "C07"
+      ],
+      "shots": "K01~K04,K06~K08",
+      "issue": "첫 반전·왕복 압축",
+      "resolution": "접근/집기6초, 공개10초 시작. 반환3+회수3+재입장3=9초. 샘플 반환과 열린 같은 문 통과 유지.",
+      "verification": "콘티·씬 첫 상태·영문 프롬프트·연속성 동기화 및 시간 자체 검산. 실제 영상/이미지 미검증."
+    },
+    {
+      "issue_id": "C-N02",
+      "status": "IMPLEMENTED_PENDING_RECHECK",
+      "concept_ids": [
+        "C09"
+      ],
+      "shots": "K05~K09",
+      "issue": "운반·착석 압축",
+      "resolution": "지목2/운반2.5/놓기·데모4/착석4초. 의자 거리는두걸음·카트는한걸음으로 미술 고정.",
+      "verification": "콘티·씬 첫 상태·영문 프롬프트·연속성 동기화 및 시간 자체 검산. 실제 영상/이미지 미검증."
+    },
+    {
+      "issue_id": "C-N03",
+      "status": "IMPLEMENTED_PENDING_RECHECK",
+      "concept_ids": [
+        "C10"
+      ],
+      "shots": "K07~K10",
+      "issue": "조명 문제→시선→손→복구",
+      "resolution": "낮은 연결부 풀림을 실제 문제로 지정. 상부 전체8도 기울기·빛 이탈 후 둘이 응시, 손 접근, 같은 관절 위/아래 지지로 수직 복구. 엔딩까지 지지 지속.",
+      "verification": "콘티·씬 첫 상태·영문 프롬프트·연속성 동기화 및 시간 자체 검산. 실제 영상/이미지 미검증."
+    },
+    {
+      "issue_id": "C-N04",
+      "status": "IMPLEMENTED_PENDING_RECHECK",
+      "concept_ids": [
+        "C07",
+        "C08",
+        "C09",
+        "C10"
+      ],
+      "shots": "안별 시연 구간",
+      "issue": "AI 반복",
+      "resolution": "C07 반복 설명 제거, C08 조건 변화·공동 비교, C09 요약된 검토자료와 실물근거, C10 시연에 실제 다른 샘플 추가.",
+      "verification": "콘티·씬 첫 상태·영문 프롬프트·연속성 동기화 및 시간 자체 검산. 실제 영상/이미지 미검증."
+    },
+    {
+      "issue_id": "C-N05",
+      "status": "IMPLEMENTED_PENDING_RECHECK",
+      "concept_ids": [
+        "C08"
+      ],
+      "shots": "K03",
+      "issue": "준비 중 충돌·반응 유지",
+      "resolution": "조수는 담요로 몸을 감싸려 하고 PR은 같은 담요를 테이블 쪽으로 전용.3초 안에 RA가 빈 팔로 남는0.5초 반응 보존.",
+      "verification": "콘티·씬 첫 상태·영문 프롬프트·연속성 동기화 및 시간 자체 검산. 실제 영상/이미지 미검증."
+    },
+    {
+      "issue_id": "C-N06",
+      "status": "IMPLEMENTED_PENDING_RECHECK",
+      "concept_ids": [
+        "C10"
+      ],
+      "shots": "K01~K02,K06~K07",
+      "issue": "삼각대 설치 압축",
+      "resolution": "청혼 준비6.5초, 삼각대 한 번 펼치기2.5초, 폰 장착·기존 후경 공개·조명 문제4초.",
+      "verification": "콘티·씬 첫 상태·영문 프롬프트·연속성 동기화 및 시간 자체 검산. 실제 영상/이미지 미검증."
+    }
+  ]
+}

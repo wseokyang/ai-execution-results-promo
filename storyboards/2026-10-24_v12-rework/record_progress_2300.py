@@ -1,0 +1,8 @@
+from pathlib import Path
+import json
+p=Path('storyboards/2026-10-24_v12-C02-C04-C01-flow/generation_log.json');d=json.loads(p.read_text(encoding='utf-8-sig'))
+e=next(x for x in d['entries'] if x['unit_id']=='C02_K07' and x['take']==1)
+e.update({'status':'NO_RESULT_REFUND_OBSERVED','balance_after_submission_observed':130,'refund_observed':10,'refund_evidence':'AfterK09 expected110, refreshedC02accountUI120; projectfilter17total=9uploadedimages+8successfulvideos, onlyK07 missing, no pendingK07 card. Specific failure cause not shown.','actual_failure_reason':'UNKNOWN_NOT_DISPLAYED','original':None,'retry_policy':'One retrytake02 after outcome and refund check; no security bypass'})
+p.write_text(json.dumps(d,ensure_ascii=False,indent=2),encoding='utf-8')
+p=Path('storyboards/2026-10-24_v12-rework/reviews/plan_recheck.json')
+p.write_text(json.dumps({'status':'PASS_FOR_IMAGE_PRODUCTION','A':'A-N01~05/B-N01/B-N07 resolved. No new causal/state mismatch.','B':'B-N01~07/A-N02 resolved. Inputs actions synchronized.','C':'C-N01~06/A-N02/B-N01/B-N07 resolved.','durations':[39,42,38,41],'scene_counts':[10,10,10,10],'ending_seconds':5,'scope':'Text/first-frame specifications only. Actual images reviewed next.','pd_image_stage_changes':[{'concept':'C07','change':'8-slot teal samples accepted instead of6, same countshape across both samples. Notessentialtohumor.'},{'concept':'C07','change':'badge clipped to torso harness atwaist accepted, S05 targetandlaterframesmustmatch.'},{'concept':'C08','change':'same pointing target upperpartofleftphoto instead ofright accepted, beginningandlatermustmatch. Cloth tabremainslower-right.'}]},ensure_ascii=False,indent=2),encoding='utf-8')

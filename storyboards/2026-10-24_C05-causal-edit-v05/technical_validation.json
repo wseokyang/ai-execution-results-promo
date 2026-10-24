@@ -1,0 +1,37 @@
+{
+  "file": "C05_Q-AI_Fair_causal_edit_v05.mp4",
+  "sha256": "1a9e0d29d30e71cc9e726d4c1c78e348f63f44e829ec86467ca71b5ed1d0d94d",
+  "bytes": 25881136,
+  "duration_seconds": 51.25,
+  "video_frames": 1230,
+  "fps": 24,
+  "resolution": [
+    1280,
+    720
+  ],
+  "full_decode": "PASS",
+  "video_pts_steps": "constant 1/24 second",
+  "audio_samples": 2460672,
+  "audio_decoded_timeline_samples": 2460000,
+  "audio_end_seconds": 51.25,
+  "max_audio_pts_gap_seconds": 7.105427357601002e-15,
+  "audio_peak": 0.7670800089836121,
+  "loudness": {
+    "input_i": "-21.73",
+    "input_tp": "-2.30",
+    "input_lra": "20.50",
+    "input_thresh": "-34.77",
+    "output_i": "-19.82",
+    "output_tp": "-1.50",
+    "output_lra": "15.00",
+    "output_thresh": "-30.99",
+    "normalization_type": "dynamic",
+    "target_offset": "0.82"
+  },
+  "originals_unchanged": true,
+  "all_sfx_boundary_samples_zero": true,
+  "actual_realtime_playback_verified": false,
+  "actual_listening_verified": false,
+  "audio_padding_note": "ffmpeg raw decode includes 672 trailing AAC decoder-padding samples; MP4 presentation/decode timestamps contain 2,460,000 samples and end at exactly 51.25s.",
+  "loudness_report_note": "loudness.input_* are measured delivered-file values. output_*/normalization_type are analysis-filter simulation, NOT processing applied to the final. Final mix uses fixed gain only."
+}

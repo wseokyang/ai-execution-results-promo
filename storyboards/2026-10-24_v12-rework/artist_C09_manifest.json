@@ -1,0 +1,411 @@
+{
+  "schema_version": "1.0",
+  "run_id": "2026-10-24_v12-rework",
+  "concept_id": "C09",
+  "title": "낙찰받으신 분이 공개합니다",
+  "tool": "builtin image_gen",
+  "status": "ARTIST_COMPLETE_PENDING_THREE_REVIEWER_IMAGE_CROSS_REVIEW",
+  "total_scenes": 10,
+  "generated_scenes": 10,
+  "generation_calls": 14,
+  "scene_to_cut_mapping": [
+    {
+      "concept_id": "C09",
+      "scene_id": "S01",
+      "linked_cuts": [
+        "K01"
+      ],
+      "actual_image_path": "images/C09/S01.png",
+      "final_prompt": "Character identity guide only; show only people explicitly visible in this scene. AU: a very tall slender East Asian man in his mid-forties, bald head, thin moustache, dark burgundy tuxedo, gold bow tie, white shirt. B1: a compact sturdy South Asian man in his thirties, neat short black hair and short beard, ochre suit over a black turtleneck. B2: a tall East Asian woman in her late twenties, asymmetric black haircut with a right undercut and long left bob, copper velvet pantsuit, black shirt. BW: a petite white woman in her sixties, long white hair in one braid, oversized round black glasses, sea-green silk pantsuit with a pearl-white waistcoat. Luxury small auction room, warm walnut and black stone, exactly four people. AU stands beside a central black display plinth fully draped with crimson velvet, holding one cloth corner but not pulling. Three fixed chairs are staggered behind: B1 front-left, B2 middle-right, BW rear-right. B1's grey A5 rigid board lies flat on his lap; B2's green trifold is folded closed on her lap; BW has empty hands and her small demo cart is covered by ivory fabric. Separate auction lectern at left. No currency, prices or numbered paddles. Quiet lower band. Single cinematic still, landscape 16:9, a real start frame before the specified action, never its completed outcome. No captions, no legible lettering, no numbers, no logo, no watermark, no collage, no duplicated people or extra limbs. Leave the specified caption area visually quiet. Do not render arrows or diagnostic rectangles except simple nontext printed graphic shapes explicitly described.\nVisual direction: cinematic live-action luxury auction parody, warm golden spotlights, dark walnut paneled room, black marble floor, earnest aristocratic tension. Exactly THREE chairs in a compact diagonal arrangement, no audience extras. Display plinth is waist-height 60cm-wide square, completely covered by a flat draped crimson velvet with NOTHING sitting on it. AU left of central plinth, lectern further left. Wide enough to show whole cart to right and all bodies. Lower 18% is clear floor. True widescreen 16:9.",
+      "actual_reference_image_paths": [],
+      "next_motion_camera": "AU가 비장하게 붉은 덮개를 한 번 벗긴다. 검정 진열대 상면은 비어 있다. 끝0.7초 AU가 빈 상면 옆에 손바닥을 펴고 멈춘다.4초. / 28mm 정면 와이드. 덮인 진열대·세 자리·카트·경매대 위치를 첫 프레임에 정립. 마지막 1초 빈 상면을 충분히 보임.",
+      "artist_visual_review": "Four distinct characters, three seated in slight diagonal, cloth still covers empty plinth, both boards lowered, cart covered. Artist visually inspected original. AU grips cloth with anatomical left hand instead of storyboard right; non-causal handedness departure documented. Cart right edge slightly cropped but visible.",
+      "review_status": "ARTIST_VIEWED_PENDING_INDEPENDENT_CROSS_REVIEW",
+      "sha256": "f95081435987168a2eb3b89c1f5a6bf20590615d0dfcc9ddc8baa2b380b7e05d",
+      "pixel_dimensions": [
+        1672,
+        941
+      ],
+      "actual_format": "PNG"
+    },
+    {
+      "concept_id": "C09",
+      "scene_id": "S02",
+      "linked_cuts": [
+        "K02"
+      ],
+      "actual_image_path": "images/C09/S02.png",
+      "final_prompt": "Character identity guide only; show only people explicitly visible in this scene. AU: a very tall slender East Asian man in his mid-forties, bald head, thin moustache, dark burgundy tuxedo, gold bow tie, white shirt. B1: a compact sturdy South Asian man in his thirties, neat short black hair and short beard, ochre suit over a black turtleneck. B2: a tall East Asian woman in her late twenties, asymmetric black haircut with a right undercut and long left bob, copper velvet pantsuit, black shirt. BW: a petite white woman in her sixties, long white hair in one braid, oversized round black glasses, sea-green silk pantsuit with a pearl-white waistcoat. Medium shot of B1 seated in his established front-left chair. His small grey A5 case board is STILL on his lap, both hands on its side edges, body leaning forward before raising it. AU waits at his lectern in background. Empty plinth remains visible at one side. The board has only two simple unlabeled image blocks, no lettering. No raised board yet. Quiet lower margin. Single cinematic still, landscape 16:9, a real start frame before the specified action, never its completed outcome. No captions, no legible lettering, no numbers, no logo, no watermark, no collage, no duplicated people or extra limbs. Leave the specified caption area visually quiet. Do not render arrows or diagnostic rectangles except simple nontext printed graphic shapes explicitly described.\nReference image 1 fixes ALL actor faces, clothes, room and props. Reframe to 65mm medium of B1, same leftmost audience chair now near camera; AU farther left at the existing lectern. Crimson cloth now on the floor BEHIND the plinth, no longer covering it. B1 grasps tiny A5 board flat against his thighs at the start. Do not raise it. Other seated women may be out of frame; do not move chairs to a new room. True 16:9 cinematic warm gold lighting.",
+      "actual_reference_image_paths": [
+        "\\\\wsl.localhost\\Ubuntu-24.04\\home\\wooseok\\wsy\\samsung_related\\slide\\AI실행결과발표대회_디자인3종\\storyboards\\2026-10-24_v12-rework\\images\\C09\\S01.png"
+      ],
+      "next_motion_camera": "B1이 작은 판을 머리 위로 번쩍 들고 팔꿈치를 끝까지 편다. AU는 눈을 가늘게 뜬다.4초, 같은 자세 반복 없음. / 65mm B1 미디엄. AU의 가늘어진 눈을 배경 안에 두되 판을 가리지 않는다.",
+      "artist_visual_review": "Artist inspected generated image: B1 board still at lap, hands on side edges, AU at lectern, empty black plinth and removed crimson cloth visible. Board tilted upright at lap rather than fully horizontal; remains pre-raise state.",
+      "review_status": "ARTIST_VIEWED_PENDING_INDEPENDENT_CROSS_REVIEW",
+      "sha256": "e46ca88e7b9f41d4304de166563ae7cf0799ccc39a60afc1eb9f38e9e572fd26",
+      "pixel_dimensions": [
+        1672,
+        941
+      ],
+      "actual_format": "PNG"
+    },
+    {
+      "concept_id": "C09",
+      "scene_id": "S03",
+      "linked_cuts": [
+        "K03"
+      ],
+      "actual_image_path": "images/C09/S03_v2.png",
+      "final_prompt": "Edit ONLY the green object in the seated copper-suit woman's lap and her grip if necessary. Replace that open-looking book with a CLOSED three-panel display board, whose three rigid leaves are stacked directly atop each other. The visible face is ONE SINGLE portrait rectangle 30cm wide and 45cm tall, plain forest green, rising from her lap to sternum. No central crease visible on the front, no spread wings, no open pages, no text. Thin stacked layers are visible at the side edge, making it clear this will unfold later. Her two hands lightly hold the two outer side edges, before spreading the wings. Keep both actor identities, costumes, seated poses, the man's overhead grey board, chair positions, lighting, framing and the exact rest of this photograph unchanged. Cinematic16:9. No new objects or people.",
+      "actual_reference_image_paths": [
+        "\\\\wsl.localhost\\Ubuntu-24.04\\home\\wooseok\\wsy\\samsung_related\\slide\\AI실행결과발표대회_디자인3종\\storyboards\\2026-10-24_v12-rework\\images\\C09\\S03.png"
+      ],
+      "next_motion_camera": "B2가 판 좌우 날개를 한 번 펼친다. 시야를 가린 B1이 고개만 옆으로 내민다.4초. / 50mm 두 관객 미디엄. 펼친 판의 좌우 경계를 프레임 안에 남김. 날개는 사람을 치지 않음.",
+      "artist_visual_review": "Artist direct visual inspection PASS: single green rectangle folded on lap, hands on sides, B1 overhead prop unchanged. This is chosen S03 first frame; S03 original kept rejected.",
+      "review_status": "ARTIST_VIEWED_PENDING_INDEPENDENT_CROSS_REVIEW",
+      "sha256": "8b2b6f6eb7ffb386810a238e131bee9717a2f9e754dbb21c3dd077c8f553c0f1",
+      "pixel_dimensions": [
+        1672,
+        941
+      ],
+      "actual_format": "PNG"
+    },
+    {
+      "concept_id": "C09",
+      "scene_id": "S04",
+      "linked_cuts": [
+        "K04"
+      ],
+      "actual_image_path": "images/C09/S04_v2.png",
+      "final_prompt": "Edit this single film still for continuity. ONE: remove the crimson cloth completely from the central black marble plinth so the bare flat EMPTY top is fully exposed, with NO OBJECT on top. Put the crumpled crimson cloth on the FLOOR behind-left of this plinth. Auctioneer must NOT hold that cloth anymore; lower his cloth-holding arm beside his body, natural relaxed hand. TWO: enlarge the seated copper-suit woman's opened forest-green three-leaf display to 90cm TOTAL width and 45cm height, three equal vertical leaves. The blank open wings extend well past her shoulders, one partly across the man's shoulder at left. Her head stays visible above it. Exactly three hinged leaves, not pages. Keep her hands on outer lower side edges. Preserve everyone else exactly: older woman's still-covered cart, older woman's hands before uncovering, three chairs including empty right chair, actor identities, costume, man holding tiny board overhead, set and lighting. Photorealistic cinematic16:9, no text.",
+      "actual_reference_image_paths": [
+        "\\\\wsl.localhost\\Ubuntu-24.04\\home\\wooseok\\wsy\\samsung_related\\slide\\AI실행결과발표대회_디자인3종\\storyboards\\2026-10-24_v12-rework\\images\\C09\\S04.png"
+      ],
+      "next_motion_camera": "BW가 덮개를 벗겨 손잡이에 걸고, 공개한 카트를 통로로40cm 민다.4초. B1/B2는 판을 든 채 눈만 돌아본다. / 35mm 낮은 미디엄 와이드. 카트 전체와 BW 상반신. 복잡한 바퀴 회전 대신 짧은 직진.",
+      "artist_visual_review": "Artist direct inspection PASS: central plinth bare and empty; crimson floor cloth; big three-leaf green board; BW has risen beside still-covered cart and original empty chair. Hands unobstructed. Chosen S04.",
+      "review_status": "ARTIST_VIEWED_PENDING_INDEPENDENT_CROSS_REVIEW",
+      "sha256": "fb9ffd91fdae6f7c8a74ce57b4dbcb34f08cbb96464a74bddb6eb6d1c3774131",
+      "pixel_dimensions": [
+        1672,
+        941
+      ],
+      "actual_format": "PNG"
+    },
+    {
+      "concept_id": "C09",
+      "scene_id": "S05",
+      "linked_cuts": [
+        "K05"
+      ],
+      "actual_image_path": "images/C09/S05_v2.png",
+      "final_prompt": "Edit ONLY the small violet gear sample on the right-side cart. Keep its 33cm diameter, circular center hole, upright orientation, violet plastic material and small black cradle. Give it EXACTLY EIGHT broad evenly spaced rectangular teeth: one pointing straight UP, one upper-right at45degrees, one RIGHT, one lower-right, one DOWN, one lower-left, one LEFT, one upper-left. Eight teeth total, with deep clearly separated curved gaps between them. Make this a simple bold toy-like quality demo sample, not a finely toothed machine gear. Leave every other pixel/actor/prop/camera/lighting as unchanged as possible. Empty plinth remains EMPTY, no text.",
+      "actual_reference_image_paths": [
+        "\\\\wsl.localhost\\Ubuntu-24.04\\home\\wooseok\\wsy\\samsung_related\\slide\\AI실행결과발표대회_디자인3종\\storyboards\\2026-10-24_v12-rework\\images\\C09\\S05.png"
+      ],
+      "next_motion_camera": "AU가 봉을 한 번 두드리고 곧바로 BW를 지목한다. BW의 짧은 끄덕임까지만2초. 관객의 추가 실망 반응은 생략. / 50mm AU·빈 진열대·BW를 한 화면. 봉 동작과 지목을2초에 연결.",
+      "artist_visual_review": "Artist direct inspection PASS: eight broad gear teeth with lower tooth partly in cradle. Empty plinth and pre-mallet scene preserved. Chosen S05.",
+      "review_status": "ARTIST_VIEWED_PENDING_INDEPENDENT_CROSS_REVIEW",
+      "sha256": "7e67c3a21cfce50ebc0041e819f78952477c980d461390187e361d4a3008e913",
+      "pixel_dimensions": [
+        1672,
+        941
+      ],
+      "actual_format": "PNG"
+    },
+    {
+      "concept_id": "C09",
+      "scene_id": "S06",
+      "linked_cuts": [
+        "K06"
+      ],
+      "actual_image_path": "images/C09/S06_v2.png",
+      "final_prompt": "Precise continuity correction in image1 ONLY for the two seated BACKGROUND spectators. In same positions, ochre-suit man at left holds his tiny grey A5 board raised above his head with both hands; copper-suit woman beside him holds her wide forest-green THREE-panel opened display at chest level. Copy the board designs and holding states from image2. They must remain seated and out of focus as background. Preserve image1 foreground exactly: older white-braid woman with two hands poised beside purple eight-tooth gear, gear STILL in its cradle ON CART, bare empty black plinth at left, ivory fabric on cart handle, empty third chair, room and all framing. No new people, no text.",
+      "actual_reference_image_paths": [
+        "\\\\wsl.localhost\\Ubuntu-24.04\\home\\wooseok\\wsy\\samsung_related\\slide\\AI실행결과발표대회_디자인3종\\storyboards\\2026-10-24_v12-rework\\images\\C09\\S06.png",
+        "\\\\wsl.localhost\\Ubuntu-24.04\\home\\wooseok\\wsy\\samsung_related\\slide\\AI실행결과발표대회_디자인3종\\storyboards\\2026-10-24_v12-rework\\images\\C09\\S05_v2.png"
+      ],
+      "next_motion_camera": "BW가 경량 샘플을 두 손으로 들어 가슴 높이에서 지지하고 진열대 앞으로 한 걸음 이동한다.2.5초. 내려놓지는 않는다. / 50mm 측면. 카트→진열대 한 걸음만, 이동 전 손 접촉과 끝 운반 상태를 모두 보임.",
+      "artist_visual_review": "Artist direct inspection PASS: background boards restored, foreground two-hand pre-grasp and empty destination retained. Chosen S06.",
+      "review_status": "ARTIST_VIEWED_PENDING_INDEPENDENT_CROSS_REVIEW",
+      "sha256": "1354a12ff6755d102f08b1bc85b70c2665e796962466010057ce6a185dda43dd",
+      "pixel_dimensions": [
+        1672,
+        941
+      ],
+      "actual_format": "PNG"
+    },
+    {
+      "concept_id": "C09",
+      "scene_id": "S07",
+      "linked_cuts": [
+        "K07"
+      ],
+      "actual_image_path": "images/C09/S07.png",
+      "final_prompt": "Character identity guide only; show only people explicitly visible in this scene. AU: a very tall slender East Asian man in his mid-forties, bald head, thin moustache, dark burgundy tuxedo, gold bow tie, white shirt. B1: a compact sturdy South Asian man in his thirties, neat short black hair and short beard, ochre suit over a black turtleneck. B2: a tall East Asian woman in her late twenties, asymmetric black haircut with a right undercut and long left bob, copper velvet pantsuit, black shirt. BW: a petite white woman in her sixties, long white hair in one braid, oversized round black glasses, sea-green silk pantsuit with a pearl-white waistcoat. Medium shot of the EMPTY black plinth and BW. She holds the same violet eight-tooth sample with both hands ten centimeters ABOVE the empty surface, not touching it yet. AU, B1 and B2 watch from their established positions. Behind to the right, the established CART-MOUNTED comparison board is reserved for three small unlettered document shapes feeding one large unlabeled comparison summary and a sample photograph, reserved for later compositing. No candidate-detection rectangles; do not add a wall screen. The carrying origin is the now empty cart support off to the right. Before placement, not an already completed display. Quiet lower band. Single cinematic still, landscape 16:9, a real start frame before the specified action, never its completed outcome. No captions, no legible lettering, no numbers, no logo, no watermark, no collage, no duplicated people or extra limbs. Leave the specified caption area visually quiet. Do not render arrows or diagnostic rectangles except simple nontext printed graphic shapes explicitly described.\nUse reference1 for last state and exact BW/gear/cart identity, reference2 for full actor/room layout. BW has now lifted ONLY the violet plastic gear OUT of the black cradle and walked one short step left to the empty central plinth. She holds the gear with two hands at its left and right edges just TEN CENTIMETERS ABOVE the plinth. The gear is now tilted toward horizontal, face angled upward toward camera, ready to be laid FLAT safely on the marble. Its underside must NOT TOUCH the top yet. Show a clear air gap, no floating without hands. The black cradle stays EMPTY ON THE CART behind her to right; no new stand on plinth. The cart-mounted white comparison panel has very faint simple blank document-shaped blocks reserved for later overlay. B1 and B2 keep their two boards as in previous state, still in their hands, seated watching; AU at lectern left watching. No extra people, no duplicates of sample. Crimson cloth on floor, ivory cloth on cart handle. Warm luxury film still16:9, action clear above caption band.",
+      "actual_reference_image_paths": [
+        "\\\\wsl.localhost\\Ubuntu-24.04\\home\\wooseok\\wsy\\samsung_related\\slide\\AI실행결과발표대회_디자인3종\\storyboards\\2026-10-24_v12-rework\\images\\C09\\S06_v2.png",
+        "\\\\wsl.localhost\\Ubuntu-24.04\\home\\wooseok\\wsy\\samsung_related\\slide\\AI실행결과발표대회_디자인3종\\storyboards\\2026-10-24_v12-rework\\images\\C09\\S05_v2.png"
+      ],
+      "next_motion_camera": "첫1초에 BW가 자기 샘플을 빈 진열대에 내려놓는다. 다음3초에 카트 비교판의 AI 요약 한 항목과 실물의 대응 부분을 차례로 가리킨다. 관객은 추가 과장 반응 없이 앞으로 기울여 본다. / 50mm 상면 접촉→카트의 요약 비교판→자기 실물을4초에 연결. 비교판은 여러 무명 검토자료의 요약을 후합성, 새 벽 화면 없음.",
+      "artist_visual_review": "Artist inspected: both hands carry purple sample above empty plinth with air gap; empty cradle stays on cart, AU/B1/B2 backgrounds retained. Proposed general staging detail: gear placed flat, not unsupported upright. Comparison board placeholder landscape is NOT final AI evidence and must be replaced in post. Gear tooth silhouette appears less exact in tilted view, needs cross review.",
+      "review_status": "ARTIST_VIEWED_PENDING_INDEPENDENT_CROSS_REVIEW",
+      "sha256": "2543fe4c4a1fc10b876a41c2463c4f38c93ef419196cf2825818223fb6dc859d",
+      "pixel_dimensions": [
+        1672,
+        941
+      ],
+      "actual_format": "PNG"
+    },
+    {
+      "concept_id": "C09",
+      "scene_id": "S08",
+      "linked_cuts": [
+        "K08"
+      ],
+      "actual_image_path": "images/C09/S08.png",
+      "final_prompt": "Character identity guide only; show only people explicitly visible in this scene. AU: a very tall slender East Asian man in his mid-forties, bald head, thin moustache, dark burgundy tuxedo, gold bow tie, white shirt. B1: a compact sturdy South Asian man in his thirties, neat short black hair and short beard, ochre suit over a black turtleneck. B2: a tall East Asian woman in her late twenties, asymmetric black haircut with a right undercut and long left bob, copper velvet pantsuit, black shirt. BW: a petite white woman in her sixties, long white hair in one braid, oversized round black glasses, sea-green silk pantsuit with a pearl-white waistcoat. Medium view of AU at the same lectern. His right hand hovers at the lower shelf opening where only the yellow corner of a small case notebook is visible. Notebook has not been pulled out. Mallet stays on top. BW is in the background presenting the violet sample already on the central plinth; B1 and B2 watch. Before AU reveals his own case. Quiet lower margin. Single cinematic still, landscape 16:9, a real start frame before the specified action, never its completed outcome. No captions, no legible lettering, no numbers, no logo, no watermark, no collage, no duplicated people or extra limbs. Leave the specified caption area visually quiet. Do not render arrows or diagnostic rectangles except simple nontext printed graphic shapes explicitly described.\nReference1 fixes immediately preceding state, actor identities and room; reference2 AUface/lectern. Reframe to a65mm medium from the RIGHT SIDE of the lectern so its open BACK shelf is naturally visible. AU is beside that lectern leaning down with right hand HOVERING at the lower shelf opening, NOT holding a book yet. Only a small YELLOW NOTEBOOK corner protrudes from shelf. Gavel remains ON TOP of lectern; no book in either hand. Behind-right BW stands at central plinth where the violet eight-toothed sample now lies FLAT on its circular face, not upright and no new stand on plinth. Her hands point gently toward it. Cart still has empty black cradle and fixed comparison board. B1's grey board has lowered to his lap, B2's large unfolded green board has lowered onto her lap but remains visible. Three chairs, BW third seat empty. Crimson cloth floor and ivory cloth cart handle retained. Golden luxury cinematography16:9, quiet lower margin. No words anywhere.",
+      "actual_reference_image_paths": [
+        "\\\\wsl.localhost\\Ubuntu-24.04\\home\\wooseok\\wsy\\samsung_related\\slide\\AI실행결과발표대회_디자인3종\\storyboards\\2026-10-24_v12-rework\\images\\C09\\S07.png",
+        "\\\\wsl.localhost\\Ubuntu-24.04\\home\\wooseok\\wsy\\samsung_related\\slide\\AI실행결과발표대회_디자인3종\\storyboards\\2026-10-24_v12-rework\\images\\C09\\S05_v2.png"
+      ],
+      "next_motion_camera": "AU가 아래 선반의 노랑 사례책을 꺼내 펼치고 BW 옆으로 반 걸음 들어온다.4.5초. 추가 감탄 반응은 짧은 눈빛만. / 65mm AU 미디엄. 책의 추출→펼침 한 동선을 보이며 몸 이동은 반 걸음뿐.",
+      "artist_visual_review": "Artist inspected: notebook still shelf corner, AU hand before extraction, sample flat on plinth and cradle still on cart, B1/B2 boards on laps. AU uses anatomical left hand rather than specified right; this non-causal staging departure noted for PD. Cart panel placeholder requires post replacement. Gear silhouette now visibly8.",
+      "review_status": "ARTIST_VIEWED_PENDING_INDEPENDENT_CROSS_REVIEW",
+      "sha256": "e0d72edb7d8a1f85df816be32e66068ef859b659f3fe026c01a7230f83b2e966",
+      "pixel_dimensions": [
+        1672,
+        941
+      ],
+      "actual_format": "PNG"
+    },
+    {
+      "concept_id": "C09",
+      "scene_id": "S09",
+      "linked_cuts": [
+        "K09"
+      ],
+      "actual_image_path": "images/C09/S09.png",
+      "final_prompt": "Character identity guide only; show only people explicitly visible in this scene. AU: a very tall slender East Asian man in his mid-forties, bald head, thin moustache, dark burgundy tuxedo, gold bow tie, white shirt. B1: a compact sturdy South Asian man in his thirties, neat short black hair and short beard, ochre suit over a black turtleneck. B2: a tall East Asian woman in her late twenties, asymmetric black haircut with a right undercut and long left bob, copper velvet pantsuit, black shirt. BW: a petite white woman in her sixties, long white hair in one braid, oversized round black glasses, sea-green silk pantsuit with a pearl-white waistcoat. Wide shot before the final redirect. AU stands beside BW holding his opened yellow case notebook; BW's LEFT hand is still relaxed at her side, not signaling yet. Violet sample remains on plinth. The third chair at rear-right, originally BW's, is clearly EMPTY. B1 and B2 occupy their original chairs. Exactly four people and three chairs. Do not place AU in the chair yet. Keep the path to it clear. Quiet lower band. Single cinematic still, landscape 16:9, a real start frame before the specified action, never its completed outcome. No captions, no legible lettering, no numbers, no logo, no watermark, no collage, no duplicated people or extra limbs. Leave the specified caption area visually quiet. Do not render arrows or diagnostic rectangles except simple nontext printed graphic shapes explicitly described.\nReference1 is previous scene and fixes sample now lying FLAT ON TOP of plinth, faces, clothes and all props. Reference2 fixes the THREE-seat row including vacant rear-right BW chair. Camera35mm wide with entire scene, no hidden chair. AU has just left lectern and stands immediately LEFT of BW near plinth holding an OPEN small yellow notebook against chest, pages blank. BW stands at plinth RIGHT; her LEFT hand hangs naturally at her side, not signaling yet, right hand relaxed near sample. Behind them THREE original chairs must be visible: ochre-suit B1 seated left with grey board ON LAP; copper-suit B2 seated middle with green trifold ON LAP; BW's original right chair visibly EMPTY. AU standing NOT seated. Clear two-step walking gap to empty chair, no chairs added. The cart with EMPTY cradle stays further right, panel reserved for post and ivory cloth on handle; crimson cloth floor at left. Plinth remains center. No text, no logo, no outcome pose. Cinematic16:9, warm gold luxury, quiet floor lower18%.",
+      "actual_reference_image_paths": [
+        "\\\\wsl.localhost\\Ubuntu-24.04\\home\\wooseok\\wsy\\samsung_related\\slide\\AI실행결과발표대회_디자인3종\\storyboards\\2026-10-24_v12-rework\\images\\C09\\S08.png",
+        "\\\\wsl.localhost\\Ubuntu-24.04\\home\\wooseok\\wsy\\samsung_related\\slide\\AI실행결과발표대회_디자인3종\\storyboards\\2026-10-24_v12-rework\\images\\C09\\S04_v2.png"
+      ],
+      "next_motion_camera": "BW가 잠깐 기다리라는 손바닥을 들어 뒤 빈 의자를 바로 가리킨다(1초). AU가 책을 가슴에 안고 두 걸음 뒤 의자에 앉는다(3초). 앉은 뒤 반응 대기 없음. / 35mm 고정 와이드, 의자까지 두 걸음. 안내1초·이동/착석3초. 총4초.",
+      "artist_visual_review": "Artist inspection PASS: AU standing with opened yellow notebook, BW left hand down before signal, three chairs exactly with original BW chair empty, clear short path, sample flat, cart cradle empty, all actors distinct.",
+      "review_status": "ARTIST_VIEWED_PENDING_INDEPENDENT_CROSS_REVIEW",
+      "sha256": "aba7275332be6bba3fe9083e285b8aa0ecd5fa9d52d0b950ac3851c4a6c6b1b5",
+      "pixel_dimensions": [
+        1672,
+        941
+      ],
+      "actual_format": "PNG"
+    },
+    {
+      "concept_id": "C09",
+      "scene_id": "S10",
+      "linked_cuts": [
+        "K10"
+      ],
+      "actual_image_path": "images/C09/S10.png",
+      "final_prompt": "Character identity guide only; show only people explicitly visible in this scene. AU: a very tall slender East Asian man in his mid-forties, bald head, thin moustache, dark burgundy tuxedo, gold bow tie, white shirt. B1: a compact sturdy South Asian man in his thirties, neat short black hair and short beard, ochre suit over a black turtleneck. B2: a tall East Asian woman in her late twenties, asymmetric black haircut with a right undercut and long left bob, copper velvet pantsuit, black shirt. BW: a petite white woman in her sixties, long white hair in one braid, oversized round black glasses, sea-green silk pantsuit with a pearl-white waistcoat. Stable final-start wide shot of the same luxury auction room. BW stands by the violet sample on the central black plinth. B1 and B2 sit in their original seats; AU now sits very upright in BW's former rear-right chair with his yellow notebook open on his lap, just before a small eager lift. Crimson cloth stays on floor, ivory cloth on cart handle. Exactly four people. Put story objects in top seventy-two percent and leave a clean lower title area. Single cinematic still, landscape 16:9, a real start frame before the specified action, never its completed outcome. No captions, no legible lettering, no numbers, no logo, no watermark, no collage, no duplicated people or extra limbs. Leave the specified caption area visually quiet. Do not render arrows or diagnostic rectangles except simple nontext printed graphic shapes explicitly described.\nUse this reference as the exact immediately preceding layout. Change action state: auctioneer in burgundy tuxedo is NOW SEATED UPRIGHT on the SAME currently-empty THIRD chair at the right end of the three-seat row, with open yellow notebook resting on lap, attentive. Do not create another chair; do not keep standing copy. B1 and B2 stay in their original first and second seats holding grey/green boards ON LAPS. BW alone stands beside central plinth, her hands relaxed just before lightly pointing to her violet sample lying FLAT on plinth. Cart retains EMPTY cradle, comparison panel placeholder and ivory cloth. Crimson cloth remains floor at left. Exactly FOUR people total. Pull camera back and tilt slightly down to leave lower23% as clean dark marble FLOOR for later event caption; all faces, board/sample and hand actions within upper72%. Do not generate title or letter anything. Cinematic golden luxury auction room, true16:9, stable long final shot, no major action in first frame.",
+      "actual_reference_image_paths": [
+        "\\\\wsl.localhost\\Ubuntu-24.04\\home\\wooseok\\wsy\\samsung_related\\slide\\AI실행결과발표대회_디자인3종\\storyboards\\2026-10-24_v12-rework\\images\\C09\\S09.png"
+      ],
+      "next_motion_camera": "BW가 자기 샘플을 작게 가리킨다. AU는 무릎의 사례책을 보며 듣는다.33초부터 행사 정보5초 고정. / 35mm 안정된 전체 구도. 진열대와 네 사람은 상단 72%, 하단 제목판.",
+      "artist_visual_review": "Artist inspected: AU in the previously empty third chair, no duplicate AU, BW alone standing, original four cast, three chairs and all props retained, lower title area usable. B1/B2 eye lines still toward former lectern rather than BW; subsequent motion should redirect gaze to presenter.",
+      "review_status": "ARTIST_VIEWED_PENDING_INDEPENDENT_CROSS_REVIEW",
+      "sha256": "9bd31f6dddd8071da6ad1530821bae71bc81d90b3478ee7c7aba15e159e7ee23",
+      "pixel_dimensions": [
+        1672,
+        941
+      ],
+      "actual_format": "PNG"
+    }
+  ],
+  "generation_history": [
+    {
+      "scene_id": "S01",
+      "file": "S01.png",
+      "prompt": "Character identity guide only; show only people explicitly visible in this scene. AU: a very tall slender East Asian man in his mid-forties, bald head, thin moustache, dark burgundy tuxedo, gold bow tie, white shirt. B1: a compact sturdy South Asian man in his thirties, neat short black hair and short beard, ochre suit over a black turtleneck. B2: a tall East Asian woman in her late twenties, asymmetric black haircut with a right undercut and long left bob, copper velvet pantsuit, black shirt. BW: a petite white woman in her sixties, long white hair in one braid, oversized round black glasses, sea-green silk pantsuit with a pearl-white waistcoat. Luxury small auction room, warm walnut and black stone, exactly four people. AU stands beside a central black display plinth fully draped with crimson velvet, holding one cloth corner but not pulling. Three fixed chairs are staggered behind: B1 front-left, B2 middle-right, BW rear-right. B1's grey A5 rigid board lies flat on his lap; B2's green trifold is folded closed on her lap; BW has empty hands and her small demo cart is covered by ivory fabric. Separate auction lectern at left. No currency, prices or numbered paddles. Quiet lower band. Single cinematic still, landscape 16:9, a real start frame before the specified action, never its completed outcome. No captions, no legible lettering, no numbers, no logo, no watermark, no collage, no duplicated people or extra limbs. Leave the specified caption area visually quiet. Do not render arrows or diagnostic rectangles except simple nontext printed graphic shapes explicitly described.\nVisual direction: cinematic live-action luxury auction parody, warm golden spotlights, dark walnut paneled room, black marble floor, earnest aristocratic tension. Exactly THREE chairs in a compact diagonal arrangement, no audience extras. Display plinth is waist-height 60cm-wide square, completely covered by a flat draped crimson velvet with NOTHING sitting on it. AU left of central plinth, lectern further left. Wide enough to show whole cart to right and all bodies. Lower 18% is clear floor. True widescreen 16:9.",
+      "refs": [],
+      "source": "C:/Users/wseok/.codex/generated_images/01a16e2f-a3cd-78e0-b08f-47f048840ea5/exec-e9af48c7-4892-4f55-abc0-13a63c68eadf.png",
+      "visual_review": "Four distinct characters, three seated in slight diagonal, cloth still covers empty plinth, both boards lowered, cart covered. Artist visually inspected original. AU grips cloth with anatomical left hand instead of storyboard right; non-causal handedness departure documented. Cart right edge slightly cropped but visible.",
+      "sha256": "f95081435987168a2eb3b89c1f5a6bf20590615d0dfcc9ddc8baa2b380b7e05d",
+      "source_sha256": "f95081435987168a2eb3b89c1f5a6bf20590615d0dfcc9ddc8baa2b380b7e05d"
+    },
+    {
+      "scene_id": "S02",
+      "file": "S02.png",
+      "prompt": "Character identity guide only; show only people explicitly visible in this scene. AU: a very tall slender East Asian man in his mid-forties, bald head, thin moustache, dark burgundy tuxedo, gold bow tie, white shirt. B1: a compact sturdy South Asian man in his thirties, neat short black hair and short beard, ochre suit over a black turtleneck. B2: a tall East Asian woman in her late twenties, asymmetric black haircut with a right undercut and long left bob, copper velvet pantsuit, black shirt. BW: a petite white woman in her sixties, long white hair in one braid, oversized round black glasses, sea-green silk pantsuit with a pearl-white waistcoat. Medium shot of B1 seated in his established front-left chair. His small grey A5 case board is STILL on his lap, both hands on its side edges, body leaning forward before raising it. AU waits at his lectern in background. Empty plinth remains visible at one side. The board has only two simple unlabeled image blocks, no lettering. No raised board yet. Quiet lower margin. Single cinematic still, landscape 16:9, a real start frame before the specified action, never its completed outcome. No captions, no legible lettering, no numbers, no logo, no watermark, no collage, no duplicated people or extra limbs. Leave the specified caption area visually quiet. Do not render arrows or diagnostic rectangles except simple nontext printed graphic shapes explicitly described.\nReference image 1 fixes ALL actor faces, clothes, room and props. Reframe to 65mm medium of B1, same leftmost audience chair now near camera; AU farther left at the existing lectern. Crimson cloth now on the floor BEHIND the plinth, no longer covering it. B1 grasps tiny A5 board flat against his thighs at the start. Do not raise it. Other seated women may be out of frame; do not move chairs to a new room. True 16:9 cinematic warm gold lighting.",
+      "refs": [
+        "\\\\wsl.localhost\\Ubuntu-24.04\\home\\wooseok\\wsy\\samsung_related\\slide\\AI실행결과발표대회_디자인3종\\storyboards\\2026-10-24_v12-rework\\images\\C09\\S01.png"
+      ],
+      "source": "C:\\Users\\wseok\\.codex\\generated_images\\01a16e2f-a3cd-78e0-b08f-47f048840ea5\\exec-3afab8ea-2557-4b01-98f7-ae1c8d09835a.png",
+      "visual_review": "Artist inspected generated image: B1 board still at lap, hands on side edges, AU at lectern, empty black plinth and removed crimson cloth visible. Board tilted upright at lap rather than fully horizontal; remains pre-raise state.",
+      "sha256": "e46ca88e7b9f41d4304de166563ae7cf0799ccc39a60afc1eb9f38e9e572fd26",
+      "source_sha256": "e46ca88e7b9f41d4304de166563ae7cf0799ccc39a60afc1eb9f38e9e572fd26"
+    },
+    {
+      "scene_id": "S03",
+      "file": "S03.png",
+      "prompt": "Character identity guide only; show only people explicitly visible in this scene. AU: a very tall slender East Asian man in his mid-forties, bald head, thin moustache, dark burgundy tuxedo, gold bow tie, white shirt. B1: a compact sturdy South Asian man in his thirties, neat short black hair and short beard, ochre suit over a black turtleneck. B2: a tall East Asian woman in her late twenties, asymmetric black haircut with a right undercut and long left bob, copper velvet pantsuit, black shirt. BW: a petite white woman in her sixties, long white hair in one braid, oversized round black glasses, sea-green silk pantsuit with a pearl-white waistcoat. B2 seated in her established middle-right chair with a green three-panel case board folded closed on her lap. Her hands are poised at the outer leaves, BEFORE opening them. At frame left B1 already holds his tiny grey board overhead. Leave horizontal space for B2's board to open later. No open wings in this start frame. Blank photo placeholders only. Quiet lower band. Single cinematic still, landscape 16:9, a real start frame before the specified action, never its completed outcome. No captions, no legible lettering, no numbers, no logo, no watermark, no collage, no duplicated people or extra limbs. Leave the specified caption area visually quiet. Do not render arrows or diagnostic rectangles except simple nontext printed graphic shapes explicitly described.\nReferences: image1 fixes room, seat adjacency, B2 face/copper velvet suit, and folded green board; image2 fixes B1 face and tiny grey A5 board. Camera now medium two-shot of adjacent seated B1 at LEFT and B2 at RIGHT. B1's board is just above his head with both arms straight upward, B2's own green board still CLOSED like a 45cm-tall narrow hinged portfolio resting on her lap and her hands gripping its outer edges. Leave room at both sides of B2 so two wings can later unfold. Do NOT unfold now. Warm golden serious luxury auction, 16:9, no extra people. Lower margin clear, hands/board above margin.",
+      "refs": [
+        "\\\\wsl.localhost\\Ubuntu-24.04\\home\\wooseok\\wsy\\samsung_related\\slide\\AI실행결과발표대회_디자인3종\\storyboards\\2026-10-24_v12-rework\\images\\C09\\S01.png",
+        "\\\\wsl.localhost\\Ubuntu-24.04\\home\\wooseok\\wsy\\samsung_related\\slide\\AI실행결과발표대회_디자인3종\\storyboards\\2026-10-24_v12-rework\\images\\C09\\S02.png"
+      ],
+      "source": "C:\\Users\\wseok\\.codex\\generated_images\\01a16e2f-a3cd-78e0-b08f-47f048840ea5\\exec-b86033c3-8aab-408e-9584-eef05c30fde9.png",
+      "visual_review": "HOLD: green prop reads as an opened two-leaf book, not folded closed trifold. Correcting prop alone to closed vertical folded panel.",
+      "sha256": "39eb03015542ff7d2f0c7699cef419ca3466ef672e89e23b813f4f2bf1ebe8f9",
+      "source_sha256": "39eb03015542ff7d2f0c7699cef419ca3466ef672e89e23b813f4f2bf1ebe8f9"
+    },
+    {
+      "scene_id": "S03",
+      "file": "S03_v2.png",
+      "prompt": "Edit ONLY the green object in the seated copper-suit woman's lap and her grip if necessary. Replace that open-looking book with a CLOSED three-panel display board, whose three rigid leaves are stacked directly atop each other. The visible face is ONE SINGLE portrait rectangle 30cm wide and 45cm tall, plain forest green, rising from her lap to sternum. No central crease visible on the front, no spread wings, no open pages, no text. Thin stacked layers are visible at the side edge, making it clear this will unfold later. Her two hands lightly hold the two outer side edges, before spreading the wings. Keep both actor identities, costumes, seated poses, the man's overhead grey board, chair positions, lighting, framing and the exact rest of this photograph unchanged. Cinematic16:9. No new objects or people.",
+      "refs": [
+        "\\\\wsl.localhost\\Ubuntu-24.04\\home\\wooseok\\wsy\\samsung_related\\slide\\AI실행결과발표대회_디자인3종\\storyboards\\2026-10-24_v12-rework\\images\\C09\\S03.png"
+      ],
+      "source": "C:\\Users\\wseok\\.codex\\generated_images\\01a16e2f-a3cd-78e0-b08f-47f048840ea5\\exec-3105fbcf-0607-47a9-ab79-391f4501f269.png",
+      "visual_review": "Artist direct visual inspection PASS: single green rectangle folded on lap, hands on sides, B1 overhead prop unchanged. This is chosen S03 first frame; S03 original kept rejected.",
+      "sha256": "8b2b6f6eb7ffb386810a238e131bee9717a2f9e754dbb21c3dd077c8f553c0f1",
+      "source_sha256": "8b2b6f6eb7ffb386810a238e131bee9717a2f9e754dbb21c3dd077c8f553c0f1"
+    },
+    {
+      "scene_id": "S04",
+      "file": "S04.png",
+      "prompt": "Character identity guide only; show only people explicitly visible in this scene. AU: a very tall slender East Asian man in his mid-forties, bald head, thin moustache, dark burgundy tuxedo, gold bow tie, white shirt. B1: a compact sturdy South Asian man in his thirties, neat short black hair and short beard, ochre suit over a black turtleneck. B2: a tall East Asian woman in her late twenties, asymmetric black haircut with a right undercut and long left bob, copper velvet pantsuit, black shirt. BW: a petite white woman in her sixties, long white hair in one braid, oversized round black glasses, sea-green silk pantsuit with a pearl-white waistcoat. BW has just risen beside her original small demo cart at the rear-right chair. Her left hand holds the cart handle; her right hand touches the corner of the ivory cover, which STILL fully covers the equipment. Cart has not moved into the aisle. B1's small board is raised and B2's green board is open in background. Start BEFORE the cart reveal or motion. No additional bidders. Quiet lower band. Single cinematic still, landscape 16:9, a real start frame before the specified action, never its completed outcome. No captions, no legible lettering, no numbers, no logo, no watermark, no collage, no duplicated people or extra limbs. Leave the specified caption area visually quiet. Do not render arrows or diagnostic rectangles except simple nontext printed graphic shapes explicitly described.\nReference1 is the MASTER room layout and all actor identities. Reference2 supplies B1/B2 appearances and board construction only. Camera medium-wide from same room front, framing BW foreground RIGHT, her original empty chair behind her, the same fully ivory-covered wheeled brass cart at her right. BW has risen and touches fabric corner with her right hand, left hand grasps cart handle. Both hands anatomically distinct and fully visible. The ivory cover conceals the whole violet sample and upright comparison board. B1 and B2 remain LEFT in their original seats; B1 small grey board overhead, B2's now OPEN green trifold has THREE tall rectangle leaves, one center and two side wings unfolded as one long blank display, each leaf same 30x45cm size as closed reference. Keep the cart completely in frame, wheels visible. Golden luxury auction film, true16:9, no text.",
+      "refs": [
+        "\\\\wsl.localhost\\Ubuntu-24.04\\home\\wooseok\\wsy\\samsung_related\\slide\\AI실행결과발표대회_디자인3종\\storyboards\\2026-10-24_v12-rework\\images\\C09\\S01.png",
+        "\\\\wsl.localhost\\Ubuntu-24.04\\home\\wooseok\\wsy\\samsung_related\\slide\\AI실행결과발표대회_디자인3종\\storyboards\\2026-10-24_v12-rework\\images\\C09\\S03_v2.png"
+      ],
+      "source": "C:\\Users\\wseok\\.codex\\generated_images\\01a16e2f-a3cd-78e0-b08f-47f048840ea5\\exec-81b6c33a-ce2d-4822-9bb6-3a64511978b8.png",
+      "visual_review": "HOLD: master-reference crimson cloth incorrectly restored to plinth; needs removal. Open green panel too small for escalation, enlarge.",
+      "sha256": "cfa0e506ac96c997fb8b69bcdba781dc483fa109f6e0407921f4457804a3799c",
+      "source_sha256": "cfa0e506ac96c997fb8b69bcdba781dc483fa109f6e0407921f4457804a3799c"
+    },
+    {
+      "scene_id": "S04",
+      "file": "S04_v2.png",
+      "prompt": "Edit this single film still for continuity. ONE: remove the crimson cloth completely from the central black marble plinth so the bare flat EMPTY top is fully exposed, with NO OBJECT on top. Put the crumpled crimson cloth on the FLOOR behind-left of this plinth. Auctioneer must NOT hold that cloth anymore; lower his cloth-holding arm beside his body, natural relaxed hand. TWO: enlarge the seated copper-suit woman's opened forest-green three-leaf display to 90cm TOTAL width and 45cm height, three equal vertical leaves. The blank open wings extend well past her shoulders, one partly across the man's shoulder at left. Her head stays visible above it. Exactly three hinged leaves, not pages. Keep her hands on outer lower side edges. Preserve everyone else exactly: older woman's still-covered cart, older woman's hands before uncovering, three chairs including empty right chair, actor identities, costume, man holding tiny board overhead, set and lighting. Photorealistic cinematic16:9, no text.",
+      "refs": [
+        "\\\\wsl.localhost\\Ubuntu-24.04\\home\\wooseok\\wsy\\samsung_related\\slide\\AI실행결과발표대회_디자인3종\\storyboards\\2026-10-24_v12-rework\\images\\C09\\S04.png"
+      ],
+      "source": "C:\\Users\\wseok\\.codex\\generated_images\\01a16e2f-a3cd-78e0-b08f-47f048840ea5\\exec-0fc3df11-feac-4746-bcf2-8eeee78f9f38.png",
+      "visual_review": "Artist direct inspection PASS: central plinth bare and empty; crimson floor cloth; big three-leaf green board; BW has risen beside still-covered cart and original empty chair. Hands unobstructed. Chosen S04.",
+      "sha256": "fb9ffd91fdae6f7c8a74ce57b4dbcb34f08cbb96464a74bddb6eb6d1c3774131",
+      "source_sha256": "fb9ffd91fdae6f7c8a74ce57b4dbcb34f08cbb96464a74bddb6eb6d1c3774131"
+    },
+    {
+      "scene_id": "S05",
+      "file": "S05.png",
+      "prompt": "Character identity guide only; show only people explicitly visible in this scene. AU: a very tall slender East Asian man in his mid-forties, bald head, thin moustache, dark burgundy tuxedo, gold bow tie, white shirt. B1: a compact sturdy South Asian man in his thirties, neat short black hair and short beard, ochre suit over a black turtleneck. B2: a tall East Asian woman in her late twenties, asymmetric black haircut with a right undercut and long left bob, copper velvet pantsuit, black shirt. BW: a petite white woman in her sixties, long white hair in one braid, oversized round black glasses, sea-green silk pantsuit with a pearl-white waistcoat. AU at the lectern, one hand hovering just above the small auction mallet resting on its pad, before tapping it. The central black plinth is clearly empty. BW waits behind her now uncovered cart; a violet circular sample with exactly eight chunky teeth rests upright on a simple support and a blank comparison panel is behind it. B1 and B2 still hold their boards. No award text or numbers. Quiet lower band. Single cinematic still, landscape 16:9, a real start frame before the specified action, never its completed outcome. No captions, no legible lettering, no numbers, no logo, no watermark, no collage, no duplicated people or extra limbs. Leave the specified caption area visually quiet. Do not render arrows or diagnostic rectangles except simple nontext printed graphic shapes explicitly described.\nReference is the immediately preceding room state and fixes actor and prop identities. Move camera to slightly left diagonal so AU at his auction lectern fills left third, EMPTY central black marble plinth is clearly visible center, BW and uncovered cart at right. Show AU's natural right hand hovering 2cm above a small WOODEN mallet resting on lectern's top pad; no pointing yet. Maintain B1 seated with small board raised, B2 seated with large open green three-leaf board; three chairs total including BW's empty one. Crimson cloth stays on floor. Cart moved just40cm toward plinth, now within one step of it. Ivory cover is gathered on cart's left handle, no longer covering equipment. Cart now carries exactly ONE lightweight 33cm violet eight-toothed plastic gear, upright in a small low display cradle, and a fixed plain rectangular comparison panel behind. This is a modest hand-carry sample, NOT machinery or a huge gear. Blank panel for post graphics, no writing. Before mallet hit, before sample pick-up. Warm serious luxury cinematography16:9.",
+      "refs": [
+        "\\\\wsl.localhost\\Ubuntu-24.04\\home\\wooseok\\wsy\\samsung_related\\slide\\AI실행결과발표대회_디자인3종\\storyboards\\2026-10-24_v12-rework\\images\\C09\\S04_v2.png"
+      ],
+      "source": "C:\\Users\\wseok\\.codex\\generated_images\\01a16e2f-a3cd-78e0-b08f-47f048840ea5\\exec-d4c42340-813f-4925-b7f2-c701b089a2d5.png",
+      "visual_review": "Artist inspected: empty plinth, uncovering already done, small sample on cart, mallet pre-action, four people/three chairs correct. Gear tooth count not eight; correct prop only.",
+      "sha256": "ab1520831d2af7b5c7360057abc0be1b8e89f33daf288f5c4eed253bd447cc27",
+      "source_sha256": "ab1520831d2af7b5c7360057abc0be1b8e89f33daf288f5c4eed253bd447cc27"
+    },
+    {
+      "scene_id": "S05",
+      "file": "S05_v2.png",
+      "prompt": "Edit ONLY the small violet gear sample on the right-side cart. Keep its 33cm diameter, circular center hole, upright orientation, violet plastic material and small black cradle. Give it EXACTLY EIGHT broad evenly spaced rectangular teeth: one pointing straight UP, one upper-right at45degrees, one RIGHT, one lower-right, one DOWN, one lower-left, one LEFT, one upper-left. Eight teeth total, with deep clearly separated curved gaps between them. Make this a simple bold toy-like quality demo sample, not a finely toothed machine gear. Leave every other pixel/actor/prop/camera/lighting as unchanged as possible. Empty plinth remains EMPTY, no text.",
+      "refs": [
+        "\\\\wsl.localhost\\Ubuntu-24.04\\home\\wooseok\\wsy\\samsung_related\\slide\\AI실행결과발표대회_디자인3종\\storyboards\\2026-10-24_v12-rework\\images\\C09\\S05.png"
+      ],
+      "source": "C:\\Users\\wseok\\.codex\\generated_images\\01a16e2f-a3cd-78e0-b08f-47f048840ea5\\exec-5ffb8df8-9320-49b1-ae94-4973adb86a1e.png",
+      "visual_review": "Artist direct inspection PASS: eight broad gear teeth with lower tooth partly in cradle. Empty plinth and pre-mallet scene preserved. Chosen S05.",
+      "sha256": "7e67c3a21cfce50ebc0041e819f78952477c980d461390187e361d4a3008e913",
+      "source_sha256": "7e67c3a21cfce50ebc0041e819f78952477c980d461390187e361d4a3008e913"
+    },
+    {
+      "scene_id": "S06",
+      "file": "S06.png",
+      "prompt": "Character identity guide only; show only people explicitly visible in this scene. AU: a very tall slender East Asian man in his mid-forties, bald head, thin moustache, dark burgundy tuxedo, gold bow tie, white shirt. B1: a compact sturdy South Asian man in his thirties, neat short black hair and short beard, ochre suit over a black turtleneck. B2: a tall East Asian woman in her late twenties, asymmetric black haircut with a right undercut and long left bob, copper velvet pantsuit, black shirt. BW: a petite white woman in her sixties, long white hair in one braid, oversized round black glasses, sea-green silk pantsuit with a pearl-white waistcoat. Side medium view. BW stands beside the uncovered cart, both empty hands about to grasp the LEFT and RIGHT sides of the violet eight-tooth circular test sample. The sample still rests on its original support on the cart, not lifted. The EMPTY black plinth is one step ahead toward screen center. Cloth remains on cart handle. Before lifting or carrying. Quiet lower band. Single cinematic still, landscape 16:9, a real start frame before the specified action, never its completed outcome. No captions, no legible lettering, no numbers, no logo, no watermark, no collage, no duplicated people or extra limbs. Leave the specified caption area visually quiet. Do not render arrows or diagnostic rectangles except simple nontext printed graphic shapes explicitly described.\nUse reference for exactly the same older woman, same sea-green suit, same white braid, same small violet EIGHT broad tooth gear with circular central hole, same cart/brass frame/black low cradle. Reframe close side three-quarter so BW and cart occupy right two-thirds and empty plinth at left, just one short step apart. BW leans slightly forward with BOTH hands hovering one centimeter from left and right SIDE EDGES of gear, but it is STILL FIRMLY SEATED in its black cradle on the cart. No hand inside center hole, no fingers interpenetrating prop, no extra hand. The fixed blank comparison panel is behind sample on cart, ivory cloth still on handle. Plinth is completely bare and empty with crimson cloth on floor behind. No lifting yet, no sample already on plinth. Other people can be out of focus/cropped according to camera, preserve room continuity. Cinematic16:9, action in upper82%.",
+      "refs": [
+        "\\\\wsl.localhost\\Ubuntu-24.04\\home\\wooseok\\wsy\\samsung_related\\slide\\AI실행결과발표대회_디자인3종\\storyboards\\2026-10-24_v12-rework\\images\\C09\\S05_v2.png"
+      ],
+      "source": "C:\\Users\\wseok\\.codex\\generated_images\\01a16e2f-a3cd-78e0-b08f-47f048840ea5\\exec-0b96f3c8-431e-4eaa-84a1-b795ac2660a5.png",
+      "visual_review": "Foreground PASS: both hands near same eight-tooth sample still in cradle, plinth empty, carry gap clear. HOLD background: B1 and B2 boards disappeared; restoring.",
+      "sha256": "b171b52df8f1f8ebba476eb8f841d344896f7542b77d3174bdbcab1e47b68133",
+      "source_sha256": "b171b52df8f1f8ebba476eb8f841d344896f7542b77d3174bdbcab1e47b68133"
+    },
+    {
+      "scene_id": "S06",
+      "file": "S06_v2.png",
+      "prompt": "Precise continuity correction in image1 ONLY for the two seated BACKGROUND spectators. In same positions, ochre-suit man at left holds his tiny grey A5 board raised above his head with both hands; copper-suit woman beside him holds her wide forest-green THREE-panel opened display at chest level. Copy the board designs and holding states from image2. They must remain seated and out of focus as background. Preserve image1 foreground exactly: older white-braid woman with two hands poised beside purple eight-tooth gear, gear STILL in its cradle ON CART, bare empty black plinth at left, ivory fabric on cart handle, empty third chair, room and all framing. No new people, no text.",
+      "refs": [
+        "\\\\wsl.localhost\\Ubuntu-24.04\\home\\wooseok\\wsy\\samsung_related\\slide\\AI실행결과발표대회_디자인3종\\storyboards\\2026-10-24_v12-rework\\images\\C09\\S06.png",
+        "\\\\wsl.localhost\\Ubuntu-24.04\\home\\wooseok\\wsy\\samsung_related\\slide\\AI실행결과발표대회_디자인3종\\storyboards\\2026-10-24_v12-rework\\images\\C09\\S05_v2.png"
+      ],
+      "source": "C:\\Users\\wseok\\.codex\\generated_images\\01a16e2f-a3cd-78e0-b08f-47f048840ea5\\exec-f5063991-464d-47bf-912f-33a3e2cdc858.png",
+      "visual_review": "Artist direct inspection PASS: background boards restored, foreground two-hand pre-grasp and empty destination retained. Chosen S06.",
+      "sha256": "1354a12ff6755d102f08b1bc85b70c2665e796962466010057ce6a185dda43dd",
+      "source_sha256": "1354a12ff6755d102f08b1bc85b70c2665e796962466010057ce6a185dda43dd"
+    },
+    {
+      "scene_id": "S07",
+      "file": "S07.png",
+      "prompt": "Character identity guide only; show only people explicitly visible in this scene. AU: a very tall slender East Asian man in his mid-forties, bald head, thin moustache, dark burgundy tuxedo, gold bow tie, white shirt. B1: a compact sturdy South Asian man in his thirties, neat short black hair and short beard, ochre suit over a black turtleneck. B2: a tall East Asian woman in her late twenties, asymmetric black haircut with a right undercut and long left bob, copper velvet pantsuit, black shirt. BW: a petite white woman in her sixties, long white hair in one braid, oversized round black glasses, sea-green silk pantsuit with a pearl-white waistcoat. Medium shot of the EMPTY black plinth and BW. She holds the same violet eight-tooth sample with both hands ten centimeters ABOVE the empty surface, not touching it yet. AU, B1 and B2 watch from their established positions. Behind to the right, the established CART-MOUNTED comparison board is reserved for three small unlettered document shapes feeding one large unlabeled comparison summary and a sample photograph, reserved for later compositing. No candidate-detection rectangles; do not add a wall screen. The carrying origin is the now empty cart support off to the right. Before placement, not an already completed display. Quiet lower band. Single cinematic still, landscape 16:9, a real start frame before the specified action, never its completed outcome. No captions, no legible lettering, no numbers, no logo, no watermark, no collage, no duplicated people or extra limbs. Leave the specified caption area visually quiet. Do not render arrows or diagnostic rectangles except simple nontext printed graphic shapes explicitly described.\nUse reference1 for last state and exact BW/gear/cart identity, reference2 for full actor/room layout. BW has now lifted ONLY the violet plastic gear OUT of the black cradle and walked one short step left to the empty central plinth. She holds the gear with two hands at its left and right edges just TEN CENTIMETERS ABOVE the plinth. The gear is now tilted toward horizontal, face angled upward toward camera, ready to be laid FLAT safely on the marble. Its underside must NOT TOUCH the top yet. Show a clear air gap, no floating without hands. The black cradle stays EMPTY ON THE CART behind her to right; no new stand on plinth. The cart-mounted white comparison panel has very faint simple blank document-shaped blocks reserved for later overlay. B1 and B2 keep their two boards as in previous state, still in their hands, seated watching; AU at lectern left watching. No extra people, no duplicates of sample. Crimson cloth on floor, ivory cloth on cart handle. Warm luxury film still16:9, action clear above caption band.",
+      "refs": [
+        "\\\\wsl.localhost\\Ubuntu-24.04\\home\\wooseok\\wsy\\samsung_related\\slide\\AI실행결과발표대회_디자인3종\\storyboards\\2026-10-24_v12-rework\\images\\C09\\S06_v2.png",
+        "\\\\wsl.localhost\\Ubuntu-24.04\\home\\wooseok\\wsy\\samsung_related\\slide\\AI실행결과발표대회_디자인3종\\storyboards\\2026-10-24_v12-rework\\images\\C09\\S05_v2.png"
+      ],
+      "source": "C:\\Users\\wseok\\.codex\\generated_images\\01a16e2f-a3cd-78e0-b08f-47f048840ea5\\exec-2b6411c5-4822-4c67-a9e5-86bdd3d837a4.png",
+      "visual_review": "Artist inspected: both hands carry purple sample above empty plinth with air gap; empty cradle stays on cart, AU/B1/B2 backgrounds retained. Proposed general staging detail: gear placed flat, not unsupported upright. Comparison board placeholder landscape is NOT final AI evidence and must be replaced in post. Gear tooth silhouette appears less exact in tilted view, needs cross review.",
+      "sha256": "2543fe4c4a1fc10b876a41c2463c4f38c93ef419196cf2825818223fb6dc859d",
+      "source_sha256": "2543fe4c4a1fc10b876a41c2463c4f38c93ef419196cf2825818223fb6dc859d"
+    },
+    {
+      "scene_id": "S08",
+      "file": "S08.png",
+      "prompt": "Character identity guide only; show only people explicitly visible in this scene. AU: a very tall slender East Asian man in his mid-forties, bald head, thin moustache, dark burgundy tuxedo, gold bow tie, white shirt. B1: a compact sturdy South Asian man in his thirties, neat short black hair and short beard, ochre suit over a black turtleneck. B2: a tall East Asian woman in her late twenties, asymmetric black haircut with a right undercut and long left bob, copper velvet pantsuit, black shirt. BW: a petite white woman in her sixties, long white hair in one braid, oversized round black glasses, sea-green silk pantsuit with a pearl-white waistcoat. Medium view of AU at the same lectern. His right hand hovers at the lower shelf opening where only the yellow corner of a small case notebook is visible. Notebook has not been pulled out. Mallet stays on top. BW is in the background presenting the violet sample already on the central plinth; B1 and B2 watch. Before AU reveals his own case. Quiet lower margin. Single cinematic still, landscape 16:9, a real start frame before the specified action, never its completed outcome. No captions, no legible lettering, no numbers, no logo, no watermark, no collage, no duplicated people or extra limbs. Leave the specified caption area visually quiet. Do not render arrows or diagnostic rectangles except simple nontext printed graphic shapes explicitly described.\nReference1 fixes immediately preceding state, actor identities and room; reference2 AUface/lectern. Reframe to a65mm medium from the RIGHT SIDE of the lectern so its open BACK shelf is naturally visible. AU is beside that lectern leaning down with right hand HOVERING at the lower shelf opening, NOT holding a book yet. Only a small YELLOW NOTEBOOK corner protrudes from shelf. Gavel remains ON TOP of lectern; no book in either hand. Behind-right BW stands at central plinth where the violet eight-toothed sample now lies FLAT on its circular face, not upright and no new stand on plinth. Her hands point gently toward it. Cart still has empty black cradle and fixed comparison board. B1's grey board has lowered to his lap, B2's large unfolded green board has lowered onto her lap but remains visible. Three chairs, BW third seat empty. Crimson cloth floor and ivory cloth cart handle retained. Golden luxury cinematography16:9, quiet lower margin. No words anywhere.",
+      "refs": [
+        "\\\\wsl.localhost\\Ubuntu-24.04\\home\\wooseok\\wsy\\samsung_related\\slide\\AI실행결과발표대회_디자인3종\\storyboards\\2026-10-24_v12-rework\\images\\C09\\S07.png",
+        "\\\\wsl.localhost\\Ubuntu-24.04\\home\\wooseok\\wsy\\samsung_related\\slide\\AI실행결과발표대회_디자인3종\\storyboards\\2026-10-24_v12-rework\\images\\C09\\S05_v2.png"
+      ],
+      "source": "C:\\Users\\wseok\\.codex\\generated_images\\01a16e2f-a3cd-78e0-b08f-47f048840ea5\\exec-748c4a9e-f42b-43d5-9612-235b42fc8773.png",
+      "visual_review": "Artist inspected: notebook still shelf corner, AU hand before extraction, sample flat on plinth and cradle still on cart, B1/B2 boards on laps. AU uses anatomical left hand rather than specified right; this non-causal staging departure noted for PD. Cart panel placeholder requires post replacement. Gear silhouette now visibly8.",
+      "sha256": "e0d72edb7d8a1f85df816be32e66068ef859b659f3fe026c01a7230f83b2e966",
+      "source_sha256": "e0d72edb7d8a1f85df816be32e66068ef859b659f3fe026c01a7230f83b2e966"
+    },
+    {
+      "scene_id": "S09",
+      "file": "S09.png",
+      "prompt": "Character identity guide only; show only people explicitly visible in this scene. AU: a very tall slender East Asian man in his mid-forties, bald head, thin moustache, dark burgundy tuxedo, gold bow tie, white shirt. B1: a compact sturdy South Asian man in his thirties, neat short black hair and short beard, ochre suit over a black turtleneck. B2: a tall East Asian woman in her late twenties, asymmetric black haircut with a right undercut and long left bob, copper velvet pantsuit, black shirt. BW: a petite white woman in her sixties, long white hair in one braid, oversized round black glasses, sea-green silk pantsuit with a pearl-white waistcoat. Wide shot before the final redirect. AU stands beside BW holding his opened yellow case notebook; BW's LEFT hand is still relaxed at her side, not signaling yet. Violet sample remains on plinth. The third chair at rear-right, originally BW's, is clearly EMPTY. B1 and B2 occupy their original chairs. Exactly four people and three chairs. Do not place AU in the chair yet. Keep the path to it clear. Quiet lower band. Single cinematic still, landscape 16:9, a real start frame before the specified action, never its completed outcome. No captions, no legible lettering, no numbers, no logo, no watermark, no collage, no duplicated people or extra limbs. Leave the specified caption area visually quiet. Do not render arrows or diagnostic rectangles except simple nontext printed graphic shapes explicitly described.\nReference1 is previous scene and fixes sample now lying FLAT ON TOP of plinth, faces, clothes and all props. Reference2 fixes the THREE-seat row including vacant rear-right BW chair. Camera35mm wide with entire scene, no hidden chair. AU has just left lectern and stands immediately LEFT of BW near plinth holding an OPEN small yellow notebook against chest, pages blank. BW stands at plinth RIGHT; her LEFT hand hangs naturally at her side, not signaling yet, right hand relaxed near sample. Behind them THREE original chairs must be visible: ochre-suit B1 seated left with grey board ON LAP; copper-suit B2 seated middle with green trifold ON LAP; BW's original right chair visibly EMPTY. AU standing NOT seated. Clear two-step walking gap to empty chair, no chairs added. The cart with EMPTY cradle stays further right, panel reserved for post and ivory cloth on handle; crimson cloth floor at left. Plinth remains center. No text, no logo, no outcome pose. Cinematic16:9, warm gold luxury, quiet floor lower18%.",
+      "refs": [
+        "\\\\wsl.localhost\\Ubuntu-24.04\\home\\wooseok\\wsy\\samsung_related\\slide\\AI실행결과발표대회_디자인3종\\storyboards\\2026-10-24_v12-rework\\images\\C09\\S08.png",
+        "\\\\wsl.localhost\\Ubuntu-24.04\\home\\wooseok\\wsy\\samsung_related\\slide\\AI실행결과발표대회_디자인3종\\storyboards\\2026-10-24_v12-rework\\images\\C09\\S04_v2.png"
+      ],
+      "source": "C:\\Users\\wseok\\.codex\\generated_images\\01a16e2f-a3cd-78e0-b08f-47f048840ea5\\exec-38d37270-7808-4a25-aed7-3695c7ddd36b.png",
+      "visual_review": "Artist inspection PASS: AU standing with opened yellow notebook, BW left hand down before signal, three chairs exactly with original BW chair empty, clear short path, sample flat, cart cradle empty, all actors distinct.",
+      "sha256": "aba7275332be6bba3fe9083e285b8aa0ecd5fa9d52d0b950ac3851c4a6c6b1b5",
+      "source_sha256": "aba7275332be6bba3fe9083e285b8aa0ecd5fa9d52d0b950ac3851c4a6c6b1b5"
+    },
+    {
+      "scene_id": "S10",
+      "file": "S10.png",
+      "prompt": "Character identity guide only; show only people explicitly visible in this scene. AU: a very tall slender East Asian man in his mid-forties, bald head, thin moustache, dark burgundy tuxedo, gold bow tie, white shirt. B1: a compact sturdy South Asian man in his thirties, neat short black hair and short beard, ochre suit over a black turtleneck. B2: a tall East Asian woman in her late twenties, asymmetric black haircut with a right undercut and long left bob, copper velvet pantsuit, black shirt. BW: a petite white woman in her sixties, long white hair in one braid, oversized round black glasses, sea-green silk pantsuit with a pearl-white waistcoat. Stable final-start wide shot of the same luxury auction room. BW stands by the violet sample on the central black plinth. B1 and B2 sit in their original seats; AU now sits very upright in BW's former rear-right chair with his yellow notebook open on his lap, just before a small eager lift. Crimson cloth stays on floor, ivory cloth on cart handle. Exactly four people. Put story objects in top seventy-two percent and leave a clean lower title area. Single cinematic still, landscape 16:9, a real start frame before the specified action, never its completed outcome. No captions, no legible lettering, no numbers, no logo, no watermark, no collage, no duplicated people or extra limbs. Leave the specified caption area visually quiet. Do not render arrows or diagnostic rectangles except simple nontext printed graphic shapes explicitly described.\nUse this reference as the exact immediately preceding layout. Change action state: auctioneer in burgundy tuxedo is NOW SEATED UPRIGHT on the SAME currently-empty THIRD chair at the right end of the three-seat row, with open yellow notebook resting on lap, attentive. Do not create another chair; do not keep standing copy. B1 and B2 stay in their original first and second seats holding grey/green boards ON LAPS. BW alone stands beside central plinth, her hands relaxed just before lightly pointing to her violet sample lying FLAT on plinth. Cart retains EMPTY cradle, comparison panel placeholder and ivory cloth. Crimson cloth remains floor at left. Exactly FOUR people total. Pull camera back and tilt slightly down to leave lower23% as clean dark marble FLOOR for later event caption; all faces, board/sample and hand actions within upper72%. Do not generate title or letter anything. Cinematic golden luxury auction room, true16:9, stable long final shot, no major action in first frame.",
+      "refs": [
+        "\\\\wsl.localhost\\Ubuntu-24.04\\home\\wooseok\\wsy\\samsung_related\\slide\\AI실행결과발표대회_디자인3종\\storyboards\\2026-10-24_v12-rework\\images\\C09\\S09.png"
+      ],
+      "source": "C:\\Users\\wseok\\.codex\\generated_images\\01a16e2f-a3cd-78e0-b08f-47f048840ea5\\exec-b6cb16fd-280f-42df-9634-d6b03b66795d.png",
+      "visual_review": "Artist inspected: AU in the previously empty third chair, no duplicate AU, BW alone standing, original four cast, three chairs and all props retained, lower title area usable. B1/B2 eye lines still toward former lectern rather than BW; subsequent motion should redirect gaze to presenter.",
+      "sha256": "9bd31f6dddd8071da6ad1530821bae71bc81d90b3478ee7c7aba15e159e7ee23",
+      "source_sha256": "9bd31f6dddd8071da6ad1530821bae71bc81d90b3478ee7c7aba15e159e7ee23"
+    }
+  ],
+  "staging_proposals": [
+    "S01 AU cloth hand and S08 shelf-extraction hand are anatomical left in images, versus written right; harmless hand choice if PD updates motion notes consistently.",
+    "Purple sample goes from upright cart cradle to both-hand carry then is laid flat on bare plinth. No stand appears on the plinth; this orientation is an explicit general staging proposal.",
+    "S07-S10 cart comparison-panel images are compositing placeholders, not evidence or final AI diagram. Replace entire panel with approved AI summary + physical evidence diagram in edit.",
+    "Background B1/B2 should redirect eyelines toward BW during S07 and final hold; first frames retain some earlier lectern eyeline."
+  ],
+  "not_verified": [
+    "Actual Flow motion continuity",
+    "Audience response",
+    "Final captions/compositing"
+  ],
+  "created_local": "2026-10-24"
+}

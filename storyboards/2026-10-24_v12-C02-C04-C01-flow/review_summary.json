@@ -1,0 +1,91 @@
+{
+  "date": "2026-10-24",
+  "status": "STILLS_AND_SELECTED_SOURCE_INTERVALS_ACCEPTED_WITH_POSTPRODUCTION_REQUIREMENTS",
+  "scope": "Actual contact sheets and selected individual PNGs, storyboard/provenance records; not continuous playback, listening, venue test or measured audience response.",
+  "reviewers": [
+    "/root/causal_review_a",
+    "/root/causal_review_b",
+    "/root/causal_review_c"
+  ],
+  "independent": {
+    "A": [
+      "C05 A-E06 causal repair accepted; worker insert is time ellipsis, not complete rotation/load transfer.",
+      "C02 A-V01–03 probes accepted; monitor composite and revised palm/photo ending mandatory.",
+      "C04 A-V04 envelope late re-extraction, A-V05 already-open K06, A-V06 duplicated spoons, A-V07 three-window crop.",
+      "C01 A-V08 ghosting, A-V09 exact pose drift, A-V10 return into room: selected intervals only.",
+      "C07 A-I01 exposed rail fixed in six rig_v3 edits; A-I02 actual still/action alignment; C09 A-I03 cart diagram throughout; C10 A-I04 right-hand ring alignment."
+    ],
+    "B": [
+      "C05 B-V01–03 cause and time ellipsis accepted, softer crop/sky/fascia optional.",
+      "C02 B-V04 cuff morph excluded by probe; B-V07 monitor composite still required.",
+      "C04 B-V05 early-open K06 excluded, B-V06 fourth figure excluded by three-window crop.",
+      "C07 B-V08 manifest alignment; C09 B-V09 same diagram from uncover; C10 B-V10 face reaction moved to next wide.",
+      "C01 B-V11 third arm at5–6s, B-V12 ghosting after6s, B-V13 floating door, B-V14 no actual exit, B-V15 changing pose."
+    ],
+    "C": [
+      "C05 C-V01 causal repair/time ellipsis accepted; C-V02 softness/fascia optional.",
+      "C04 C-V03 fourth person/crop late shutter morph, C-V04 lid chronology.",
+      "C01 C-V05 late ghosting, C-V06 detached door.",
+      "C02 C-V07 monitor composite mandatory, C-V08 revised ending alignment.",
+      "C09 C-I01 small board graphic continuity; C10 C-I02 right-hand ring; C08 C-I03 move screen-right/back; C09 C-I04 gaze toward new speaker."
+    ]
+  },
+  "cross": {
+    "A": {
+      "agrees": [
+        "C05 time ellipsis",
+        "C02 three probes",
+        "C04 K06 exclusion/short window crop",
+        "C07–10 selected40 no mandatory regeneration"
+      ],
+      "corrections": [
+        "Withdrew suggestion to use C01 K06 5–6s after seeing third arm.",
+        "Withdrew description of K09 as ordinary door opening after detached-door PNG evidence."
+      ],
+      "preference": "Prefers K07 first1.2s, but accepts source join story with posture-reset ellipsis."
+    },
+    "B": {
+      "agrees": [
+        "C05 A/C cause and time ellipsis",
+        "C04 K01 late re-extraction exclude",
+        "C04 K09 use6s onward, not claim extraction action",
+        "C04 short crop",
+        "40stills/action alignment"
+      ],
+      "disagreement": "K07 first1.2s is not mandatory. Existing3.5s keeps observer decision to crouch; posture-reset ellipsis accepted."
+    },
+    "C": {
+      "agrees": [
+        "C05 A/B causal acceptance",
+        "C02 selected probes and composite requirement",
+        "C04 short crop and K06 exclusion",
+        "C01 actual join probe"
+      ],
+      "missed_then_confirmed": [
+        "Third arm C01 K06 5.5s",
+        "C04 K01 late re-extraction",
+        "C04 K09 two spoons"
+      ]
+    }
+  },
+  "final_recheck": {
+    "A": "C01 K09take02 door solid at2/5/7.5s, three people maintained;0–7s acceptable with slight arm-angle drift. C10 right-hand transition and C08 direction verified.",
+    "B": "K09take02 door restored at0/6/7.5s; matching floor-pose meaning persists. C04 short crop and C01 join actual probes accepted. C10/C08 final text verified.",
+    "C": "K09take02 contact and0/3.5/7.5s show door attached, no extra arms/ghosting in samples. C10/C08 last text issues resolved."
+  },
+  "pd_decisions": [
+    "Preserve all originals and earlier storyboards. Select source intervals; do not pass whole flawed raw videos.",
+    "C01 K07 up to3.5s accepted for observer crouch; exact-pose gag can be emphasized in K08first1s. K09take02 chosen for title hold; slight angle drift accepted.",
+    "C04 K06 omitted; use K07closed start for denial caption then actual opening. K08take02 only cropped1–3.25s. K09use6–8s after spoon duplication.",
+    "C02 final photo action becomes palm/turn and caption 이 사례는 직접 설명하시죠.",
+    "C05 complete causal repair edit accepted subject to time-ellipsis and playback/listening limitations.",
+    "NewC07–10 images/action plan accepted; do not launch Flow until requested."
+  ],
+  "remaining": [
+    "C01 portrait/monitor matching K04, final captions and edit",
+    "C02 monitor/photo comparisons and final captions/edit",
+    "C04 document/tablet/captions and final edit",
+    "NewC07–10 actual motion and precise graphic composites",
+    "Final playback/listening/venue readability and user approval"
+  ]
+}

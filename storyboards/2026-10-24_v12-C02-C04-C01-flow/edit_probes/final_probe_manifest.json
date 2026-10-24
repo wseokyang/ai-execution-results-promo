@@ -1,0 +1,75 @@
+[
+  {
+    "name": "C01_fall_photo_imitation_join",
+    "source_segments": [
+      [
+        "C01_K06_take01.mp4",
+        1.5,
+        4.25,
+        null
+      ],
+      [
+        "C01_K07_take01.mp4",
+        0,
+        3.5,
+        null
+      ],
+      [
+        "C01_K08_take01.mp4",
+        0,
+        3,
+        null
+      ]
+    ],
+    "frames": 222,
+    "duration": 9.25,
+    "decode": "PASS",
+    "audio": "none",
+    "originals_reencoded": false,
+    "status": "REVIEW_PENDING"
+  },
+  {
+    "name": "C01_K09_no_door_crop",
+    "source_segments": [
+      [
+        "C01_K09_take01.mp4",
+        0,
+        8,
+        [
+          288,
+          80,
+          1280,
+          638
+        ]
+      ]
+    ],
+    "frames": 192,
+    "duration": 8.0,
+    "decode": "PASS",
+    "audio": "none",
+    "originals_reencoded": false,
+    "status": "REVIEW_PENDING"
+  },
+  {
+    "name": "C04_K08_selected_windows",
+    "source_segments": [
+      [
+        "C04_K08_take02.mp4",
+        1,
+        3.25,
+        [
+          600,
+          20,
+          1112,
+          308
+        ]
+      ]
+    ],
+    "frames": 54,
+    "duration": 2.25,
+    "decode": "PASS",
+    "audio": "none",
+    "originals_reencoded": false,
+    "status": "REVIEW_PENDING"
+  }
+]

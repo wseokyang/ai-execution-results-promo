@@ -1,0 +1,737 @@
+{
+  "run_id": "2026-10-24_v12-rework",
+  "scenes": [
+    {
+      "concept_id": "C07",
+      "scene_id": "S01",
+      "linked_cuts": [
+        "K01"
+      ],
+      "actual_image_path": "images/C07/S01_rig_v3.png",
+      "sha256": "a7575ba02bc8a98bc7e3a0ae2c4436384857ff639c8ec55fc082b6de44908a55",
+      "prompt": "Use case: precise-object-edit. Surgical continuity correction of this exact cinematic film still. REMOVE every visible horizontal metal suspension RAIL, wheeled trolley, mechanical wall mounting BRACKET and their rail-shaped shadows in BOTH the near room and the room visible through the open doorway. Reconstruct only the unobstructed original wall/ceiling texture behind those removed mechanical parts. KEEP the architectural door lintel, door jambs, doorframe and room architecture untouched.\nReplace the exposed rig with exactly TWO slender taut straight VERTICAL BLACK SUSPENSION CABLES, one firmly attached to each of the woman's existing ankle cuffs. Each cable must continue uninterrupted UPWARD ALL THE WAY THROUGH THE TOP EDGE OF THE IMAGE. No visible upper endpoint: hoist and support are outside the frame. No horizontal cable, no floating short rope, no visible attachment to a wall or doorframe. Preserve her existing ankle cuffs and boots absolutely unchanged. The support arrangement is a theatrical offscreen overhead rig, not floating.\nPreserve absolutely all other pixels/details: exact inverted woman identity, hairstyle, face, body posture, every limb and hand, outfit, torso harness, badge status, sample ownership and count, board content/orientation, pedestal/table, bag and contents, other person if present, camera, framing, color, lighting. Do not move or rotate the woman or change the door. Do not advance the action. No added objects, letters, caption or watermark. 16:9 landscape. This is a local equipment removal/edit, NOT a new composition.\nSpecific S01 invariant: woman's reaching hand stays empty above teal sample on pedestal; other hand empty. Satchel open. Remove the far warm-room rail too. Exactly same small air gap above sample.",
+      "references": [
+        "C:\\Users\\wseok\\.codex\\generated_images\\01a16e2f-6574-7781-9b5c-95d6256f27b6\\exec-03b210d3-c653-4073-912f-c0bb4debd971.png"
+      ],
+      "next_motion_camera": "와이어가 TH를 정확히 10cm 천천히 내린다. 빈 오른손은 샘플 위 15cm→5cm에서 멈추며 끝까지 접촉하지 않는다. 3초 안에 동작을 완료하고 손 근접으로 넘긴다. / 50mm 측면 미디엄. 열린 문을 배경 오른쪽에 남겨 두고 10cm 정도만 전진.",
+      "review_status": "THREE_REVIEWERS_RECHECKED_STILL_ONLY",
+      "motion_verified": false,
+      "source_manifest": "artist_C07_manifest.json",
+      "revision_manifest": "artist_C07_rig_revision.json"
+    },
+    {
+      "concept_id": "C07",
+      "scene_id": "S02",
+      "linked_cuts": [
+        "K02"
+      ],
+      "actual_image_path": "images/C07/S02.png",
+      "sha256": "292cea1a2fe02c571f91d0d10a650e6b595e53945b6b1746208bcbac80f179e9",
+      "prompt": "Character identity guide only; show only people explicitly visible in this scene. TH: a lean Korean woman in her fifties with a short silver pixie haircut and angular face, charcoal fitted long-sleeve jumpsuit, black boots, matte grey waist-and-ankle theatrical suspension rig, bare hands, no mask or eyewear. HO: a broad-built Korean man in his thirties, short black curls, round glasses, mustard knitted vest over an ivory shirt, dark brown trousers, warm composed demeanor. Tight view of the same upside-down TH and the same teal six-slot sample still resting on the pedestal. Her empty right fingertips are exactly FIVE centimeters ABOVE the sample, not yet touching its sides, not holding or lifting it; her left hand hovers near the pedestal side. Show her intense inverted face and the pedestal surface. No security enclosure, lasers or locks. Quiet lower margin. Single cinematic still, landscape 16:9, a real start frame before the specified action, never its completed outcome. No captions, no legible lettering, no numbers, no logo, no watermark, no collage, no duplicated people or extra limbs. Leave the specified caption area visually quiet. Do not render arrows or diagnostic rectangles except simple nontext printed graphic shapes explicitly described.\nUse image 1 as strict identity, clothing, teal sample design, lighting and grey pedestal reference. This is the next closer shot after her suspension cables have lowered her by ten centimeters. Crop to her suspended upside-down shoulders, face, arms and the pedestal top; legs can be offscreen. Keep the same near-camera reaching arm as in the reference (TH's RIGHT hand). The empty fingertips have a small FIVE centimeter clear air gap above the disk, not touching; her other hand is off the pedestal side, also not touching. Preserve the sample shape, exactly six slots, no additional sample. A serious thriller, skin texture and focused expression. Do not reverse or mirror the room. Wide 16:9.",
+      "references": [
+        "C:\\Users\\wseok\\.codex\\generated_images\\01a16e2f-6574-7781-9b5c-95d6256f27b6\\exec-03b210d3-c653-4073-912f-c0bb4debd971.png"
+      ],
+      "next_motion_camera": "오른손을 남은5cm 내려 샘플 양옆을 잡아10cm 들어 올린다. 왼손은 받침대 옆면에 얹는다. 접근3초+집기3초, 첫6초 안에 완료한다. / 85mm 손·뒤집힌 얼굴 근접. 샘플 8슬롯과 빈 받침대가 동시에 보이는 각도.",
+      "review_status": "THREE_REVIEWERS_RECHECKED_STILL_ONLY",
+      "motion_verified": false,
+      "source_manifest": "artist_C07_manifest.json",
+      "revision_manifest": "artist_C07_rig_revision.json"
+    },
+    {
+      "concept_id": "C07",
+      "scene_id": "S03",
+      "linked_cuts": [
+        "K03"
+      ],
+      "actual_image_path": "images/C07/S03_rig_v3.png",
+      "sha256": "360d18e0b892873517d28fd6e555fd915d73ef4c82da065a452ae64226144417",
+      "prompt": "Use case: precise-object-edit. Surgical continuity correction of this exact cinematic film still. REMOVE every visible horizontal metal suspension RAIL, wheeled trolley, mechanical wall mounting BRACKET and their rail-shaped shadows in BOTH the near room and the room visible through the open doorway. Reconstruct only the unobstructed original wall/ceiling texture behind those removed mechanical parts. KEEP the architectural door lintel, door jambs, doorframe and room architecture untouched.\nReplace the exposed rig with exactly TWO slender taut straight VERTICAL BLACK SUSPENSION CABLES, one firmly attached to each of the woman's existing ankle cuffs. Each cable must continue uninterrupted UPWARD ALL THE WAY THROUGH THE TOP EDGE OF THE IMAGE. No visible upper endpoint: hoist and support are outside the frame. No horizontal cable, no floating short rope, no visible attachment to a wall or doorframe. Preserve her existing ankle cuffs and boots absolutely unchanged. The support arrangement is a theatrical offscreen overhead rig, not floating.\nPreserve absolutely all other pixels/details: exact inverted woman identity, hairstyle, face, body posture, every limb and hand, outfit, torso harness, badge status, sample ownership and count, board content/orientation, pedestal/table, bag and contents, other person if present, camera, framing, color, lighting. Do not move or rotate the woman or change the door. Do not advance the action. No added objects, letters, caption or watermark. 16:9 landscape. This is a local equipment removal/edit, NOT a new composition.\nSpecific S03 invariant: woman's right hand continues holding ONE teal disk, other hand still on pedestal's left upper edge, pedestal EMPTY; no badge. Do NOT change this grip or action state. Remove rail from far warm room too.",
+      "references": [
+        "C:\\Users\\wseok\\.codex\\generated_images\\01a16e2f-6574-7781-9b5c-95d6256f27b6\\exec-488c5067-21b8-463b-98a5-e94b65ecda93.png"
+      ],
+      "next_motion_camera": "TH가 왼손으로 고정 받침대 모서리를 자기 몸 쪽으로 당겨 몸을 열린 문 방향으로 이동시킨 뒤 손을 놓는다. 받침대는 움직이지 않고 인물과 두 수직 케이블이 함께 오른쪽으로 이동한다. TH만 계획 밖 이동에 놀란다. 밀기 동작으로 바꾸지 않는다. / 35mm 측면 추적. 당김→손 놓기→같은 열린 문 통과를4초에 연결. 이동은1m 이내. 상부 리그와 문틀 충돌은 화면에 만들지 않는다.",
+      "review_status": "THREE_REVIEWERS_RECHECKED_STILL_ONLY",
+      "motion_verified": false,
+      "source_manifest": "artist_C07_manifest.json",
+      "revision_manifest": "artist_C07_rig_revision.json"
+    },
+    {
+      "concept_id": "C07",
+      "scene_id": "S04",
+      "linked_cuts": [
+        "K04"
+      ],
+      "actual_image_path": "images/C07/S04_rig_v3.png",
+      "sha256": "94c5cab41cd962818b3eb03c3a1ed35a3f869d3c90c333d5bfc823e462bb8aab",
+      "prompt": "Use case: precise-object-edit. Surgical continuity correction of this exact cinematic film still. REMOVE every visible horizontal metal suspension RAIL, wheeled trolley, mechanical wall mounting BRACKET and their rail-shaped shadows in BOTH the near room and the room visible through the open doorway. Reconstruct only the unobstructed original wall/ceiling texture behind those removed mechanical parts. KEEP the architectural door lintel, door jambs, doorframe and room architecture untouched.\nReplace the exposed rig with exactly TWO slender taut straight VERTICAL BLACK SUSPENSION CABLES, one firmly attached to each of the woman's existing ankle cuffs. Each cable must continue uninterrupted UPWARD ALL THE WAY THROUGH THE TOP EDGE OF THE IMAGE. No visible upper endpoint: hoist and support are outside the frame. No horizontal cable, no floating short rope, no visible attachment to a wall or doorframe. Preserve her existing ankle cuffs and boots absolutely unchanged. The support arrangement is a theatrical offscreen overhead rig, not floating.\nPreserve absolutely all other pixels/details: exact inverted woman identity, hairstyle, face, body posture, every limb and hand, outfit, torso harness, badge status, sample ownership and count, board content/orientation, pedestal/table, bag and contents, other person if present, camera, framing, color, lighting. Do not move or rotate the woman or change the door. Do not advance the action. No added objects, letters, caption or watermark. 16:9 landscape. This is a local equipment removal/edit, NOT a new composition.\nSpecific S04 invariant: woman just inside warm room at LEFT, single teal disk still in her hand, exactly one matching teal disk on table; no badge attached. Host at right hands down. Single screen unchanged. Crucially remove the near overhead rail AND the separate horizontal rail visible inside cool doorway at far left. The door lintel remains normal architectural trim.",
+      "references": [
+        "C:\\Users\\wseok\\.codex\\generated_images\\01a16e2f-6574-7781-9b5c-95d6256f27b6\\exec-66c9b959-d5e2-4d6e-bd74-85252c05feec.png"
+      ],
+      "next_motion_camera": "TH가 천천히 들어와 멈춘다. HO가 화면의 샘플 사진 후보 위치를 짚고 실제 테이블 샘플을 나란히 가리킨다. TH는 손의 샘플과 공개된 샘플을 번갈아 본다. / 28mm B 와이드. 오른손 샘플과 테이블 샘플을 같은 화면에 충분히 크게 둔다. 화면 도해는 후합성.",
+      "review_status": "THREE_REVIEWERS_RECHECKED_STILL_ONLY",
+      "motion_verified": false,
+      "source_manifest": "artist_C07_manifest.json",
+      "revision_manifest": "artist_C07_rig_revision.json"
+    },
+    {
+      "concept_id": "C07",
+      "scene_id": "S05",
+      "linked_cuts": [
+        "K05"
+      ],
+      "actual_image_path": "images/C07/S05.png",
+      "sha256": "4b9752cded3e7e609bfd488dc0bc530797859c1aed6febdcbb76879937c9d0fe",
+      "prompt": "Character identity guide only; show only people explicitly visible in this scene. TH: a lean Korean woman in her fifties with a short silver pixie haircut and angular face, charcoal fitted long-sleeve jumpsuit, black boots, matte grey waist-and-ankle theatrical suspension rig, bare hands, no mask or eyewear. HO: a broad-built Korean man in his thirties, short black curls, round glasses, mustard knitted vest over an ivory shirt, dark brown trousers, warm composed demeanor. Medium two-shot of upside-down TH and upright HO in the warm demo room. HO holds one transparent clip badge ten centimeters from TH's chest harness, not attached yet. TH visibly holds the same sample in her right hand and watches him with wary wide eyes. Keep the existing teal duplicate on the table left and the right half empty. No writing on badge, no cuffs. Before the clipping action. Quiet lower margin. Single cinematic still, landscape 16:9, a real start frame before the specified action, never its completed outcome. No captions, no legible lettering, no numbers, no logo, no watermark, no collage, no duplicated people or extra limbs. Leave the specified caption area visually quiet. Do not render arrows or diagnostic rectangles except simple nontext printed graphic shapes explicitly described.\nUse image 1 as strict identity and room reference for both actors. Move to a closer 50mm two-shot without reversing their positions: suspended inverted TH at left, upright HO now standing nearby at right. TH's boots can crop above frame, but her torso descending from the top and inverted suspension posture remain clear. HO's right hand holds a small transparent plastic clip badge with a blank white insert, ten centimeters clear of TH's grey chest harness. The badge is not attached yet; there is no badge anywhere on her body. TH's RIGHT hand still grips the same teal EIGHT-slot disk, conspicuously in front of her face, wary wide eyes at host. Her other hand is empty. HO's left hand relaxed at his side. Behind them the same table's left half has one identical disk, its right half is empty. Keep monitor understated in background. No neck lanyard, no text, no extra hands. Quiet lower caption band. 16:9.",
+      "references": [
+        "C:\\Users\\wseok\\.codex\\generated_images\\01a16e2f-6574-7781-9b5c-95d6256f27b6\\exec-66c9b959-d5e2-4d6e-bd74-85252c05feec.png"
+      ],
+      "next_motion_camera": "HO가 명찰 클립을 TH 허리 하네스에 한 번 달고, 바로 빈 테이블 오른쪽 자리를 손바닥으로 안내한다. TH 눈이 커지는 반응까지3초. / 50mm 역상 얼굴과 HO 얼굴이 함께 잡히는 투샷. 명찰 문자 생성 없이 후편집도 이름 불필요.",
+      "review_status": "THREE_REVIEWERS_RECHECKED_STILL_ONLY",
+      "motion_verified": false,
+      "source_manifest": "artist_C07_manifest.json",
+      "revision_manifest": "artist_C07_rig_revision.json"
+    },
+    {
+      "concept_id": "C07",
+      "scene_id": "S06",
+      "linked_cuts": [
+        "K06"
+      ],
+      "actual_image_path": "images/C07/S06_rig_v3.png",
+      "sha256": "05c523fcdf89ae66d0599e5df4f65be31a31fec6ac7426730ffd6f5f9d27fee7",
+      "prompt": "Use case: precise-object-edit. Surgical continuity correction of this exact cinematic film still. REMOVE every visible horizontal metal suspension RAIL, wheeled trolley, mechanical wall mounting BRACKET and their rail-shaped shadows in BOTH the near room and the room visible through the open doorway. Reconstruct only the unobstructed original wall/ceiling texture behind those removed mechanical parts. KEEP the architectural door lintel, door jambs, doorframe and room architecture untouched.\nReplace the exposed rig with exactly TWO slender taut straight VERTICAL BLACK SUSPENSION CABLES, one firmly attached to each of the woman's existing ankle cuffs. Each cable must continue uninterrupted UPWARD ALL THE WAY THROUGH THE TOP EDGE OF THE IMAGE. No visible upper endpoint: hoist and support are outside the frame. No horizontal cable, no floating short rope, no visible attachment to a wall or doorframe. Preserve her existing ankle cuffs and boots absolutely unchanged. The support arrangement is a theatrical offscreen overhead rig, not floating.\nPreserve absolutely all other pixels/details: exact inverted woman identity, hairstyle, face, body posture, every limb and hand, outfit, torso harness, badge status, sample ownership and count, board content/orientation, pedestal/table, bag and contents, other person if present, camera, framing, color, lighting. Do not move or rotate the woman or change the door. Do not advance the action. No added objects, letters, caption or watermark. 16:9 landscape. This is a local equipment removal/edit, NOT a new composition.\nSpecific S06 invariant: woman's one hand still holds teal disk hovering above EMPTY RIGHT half of table, other matching disk remains on LEFT table. Name badge is already clipped to her torso harness and must remain at exact same position. Host hands down. Remove rail from cool anteroom seen through left doorway as well as overhead near rail.",
+      "references": [
+        "C:\\Users\\wseok\\.codex\\generated_images\\01a16e2f-6574-7781-9b5c-95d6256f27b6\\exec-b5a7e12c-931f-4d70-98b3-981e29da4821.png"
+      ],
+      "next_motion_camera": "첫1초에 오른손 샘플을 B 테이블 오른쪽에 내려놓는다. 왼손으로 가장자리를 가볍게 밀어 열린 문 쪽 A로 즉시 이동한다. 불필요한 빈손 확인 포즈 없이3초. / 35mm 측면. 반환 접촉1초를 보인 뒤 같은 축으로 왼쪽 이동2초. B 테이블-문 거리는70cm 정도.",
+      "review_status": "THREE_REVIEWERS_RECHECKED_STILL_ONLY",
+      "motion_verified": false,
+      "source_manifest": "artist_C07_manifest.json",
+      "revision_manifest": "artist_C07_rig_revision.json"
+    },
+    {
+      "concept_id": "C07",
+      "scene_id": "S07",
+      "linked_cuts": [
+        "K07"
+      ],
+      "actual_image_path": "images/C07/S07_rig_v3.png",
+      "sha256": "6386a621b0fd6a02873cd2094a0102b43b6f557801f4a5b82bc8d48f1c0baf9d",
+      "prompt": "Use case: precise-object-edit. Surgical continuity correction of this exact cinematic film still. REMOVE every visible horizontal metal suspension RAIL, wheeled trolley, mechanical wall mounting BRACKET and their rail-shaped shadows in BOTH the near room and the room visible through the open doorway. Reconstruct only the unobstructed original wall/ceiling texture behind those removed mechanical parts. KEEP the architectural door lintel, door jambs, doorframe and room architecture untouched.\nReplace the exposed rig with exactly TWO slender taut straight VERTICAL BLACK SUSPENSION CABLES, one firmly attached to each of the woman's existing ankle cuffs. Each cable must continue uninterrupted UPWARD ALL THE WAY THROUGH THE TOP EDGE OF THE IMAGE. No visible upper endpoint: hoist and support are outside the frame. No horizontal cable, no floating short rope, no visible attachment to a wall or doorframe. Preserve her existing ankle cuffs and boots absolutely unchanged. The support arrangement is a theatrical offscreen overhead rig, not floating.\nPreserve absolutely all other pixels/details: exact inverted woman identity, hairstyle, face, body posture, every limb and hand, outfit, torso harness, badge status, sample ownership and count, board content/orientation, pedestal/table, bag and contents, other person if present, camera, framing, color, lighting. Do not move or rotate the woman or change the door. Do not advance the action. No added objects, letters, caption or watermark. 16:9 landscape. This is a local equipment removal/edit, NOT a new composition.\nSpecific S07 invariant: the woman is angled beside the doorway, one empty palm braced on the jamb, the other hand EMPTY above open satchel. A small orange board edge stays just INSIDE bag, not in her hand. Badge remains attached. Preserve this entire body angle and ankle position; just extend two vertical cables upward from the same ankle support into top border. Remove rail in both cool room and warm room.",
+      "references": [
+        "C:\\Users\\wseok\\.codex\\generated_images\\01a16e2f-6574-7781-9b5c-95d6256f27b6\\exec-aea19fcf-6f50-4b4c-bda1-768f5fd50dd4.png"
+      ],
+      "next_motion_camera": "TH가 오른손으로 문틀을 짚어 멈춘 상태에서 왼손으로 가방의 단판을 바로 꺼낸다. 판을 B 쪽으로 돌려 들기까지3초. 비장한 표정 대기 삭제. / 50mm A 쪽 미디엄. 가방과 판의 실제 추출을 잘라내지 않는다.",
+      "review_status": "THREE_REVIEWERS_RECHECKED_STILL_ONLY",
+      "motion_verified": false,
+      "source_manifest": "artist_C07_manifest.json",
+      "revision_manifest": "artist_C07_rig_revision.json"
+    },
+    {
+      "concept_id": "C07",
+      "scene_id": "S08",
+      "linked_cuts": [
+        "K08"
+      ],
+      "actual_image_path": "images/C07/S08_rig_v3.png",
+      "sha256": "8abdc0dba0e60cc78898ceec4eb29b6e6b744b5c3a6db1493d69ed2f5a02307b",
+      "prompt": "Use case: precise-object-edit. Surgical continuity correction of this exact cinematic film still. REMOVE every visible horizontal metal suspension RAIL, wheeled trolley, mechanical wall mounting BRACKET and their rail-shaped shadows in BOTH the near room and the room visible through the open doorway. Reconstruct only the unobstructed original wall/ceiling texture behind those removed mechanical parts. KEEP the architectural door lintel, door jambs, doorframe and room architecture untouched.\nReplace the exposed rig with exactly TWO slender taut straight VERTICAL BLACK SUSPENSION CABLES, one firmly attached to each of the woman's existing ankle cuffs. Each cable must continue uninterrupted UPWARD ALL THE WAY THROUGH THE TOP EDGE OF THE IMAGE. No visible upper endpoint: hoist and support are outside the frame. No horizontal cable, no floating short rope, no visible attachment to a wall or doorframe. Preserve her existing ankle cuffs and boots absolutely unchanged. The support arrangement is a theatrical offscreen overhead rig, not floating.\nPreserve absolutely all other pixels/details: exact inverted woman identity, hairstyle, face, body posture, every limb and hand, outfit, torso harness, badge status, sample ownership and count, board content/orientation, pedestal/table, bag and contents, other person if present, camera, framing, color, lighting. Do not move or rotate the woman or change the door. Do not advance the action. No added objects, letters, caption or watermark. 16:9 landscape. This is a local equipment removal/edit, NOT a new composition.\nSpecific S08 invariant: same woman on left with palm against LEFT door jamb, opposite hand holding ONE orange-bordered board whose red triangle is at BOTTOM. Keep board's two photos completely unchanged. Bag at far left stays EMPTY. TWO matching teal samples remain on table. Host hands down. Name badge remains same place. This frame has rail across doorway, remove it and mounting brackets while leaving door lintel unchanged; two ankle cables run up through top border.",
+      "references": [
+        "C:\\Users\\wseok\\.codex\\generated_images\\01a16e2f-6574-7781-9b5c-95d6256f27b6\\exec-6206e2c7-365d-4a9b-9cbd-a9c7f4642229.png"
+      ],
+      "next_motion_camera": "TH가 오른손으로 문틀을 한 번 밀어 B로70cm 되돌아오며 왼손의 자기 판을 HO에게 내민다.3초. 반환→회수→재입장 합9초. / 35mm 고정. 왼쪽→오른쪽70cm 이동, 판은 같은 손. 펼치기·추가 멈춤 없음.",
+      "review_status": "THREE_REVIEWERS_RECHECKED_STILL_ONLY",
+      "motion_verified": false,
+      "source_manifest": "artist_C07_manifest.json",
+      "revision_manifest": "artist_C07_rig_revision.json"
+    },
+    {
+      "concept_id": "C07",
+      "scene_id": "S09",
+      "linked_cuts": [
+        "K09"
+      ],
+      "actual_image_path": "images/C07/S09.png",
+      "sha256": "f4afe5265e45420bf66a047abc2451aaba799ac04640a8cd1e04fdc2539e2f7f",
+      "prompt": "Character identity guide only; show only people explicitly visible in this scene. TH: a lean Korean woman in her fifties with a short silver pixie haircut and angular face, charcoal fitted long-sleeve jumpsuit, black boots, matte grey waist-and-ankle theatrical suspension rig, bare hands, no mask or eyewear. HO: a broad-built Korean man in his thirties, short black curls, round glasses, mustard knitted vest over an ivory shirt, dark brown trousers, warm composed demeanor. Medium shot centered on the still UPSIDE-DOWN orange-bordered board. Its red triangle is at the bottom. TH, also upside down, supports the board with her LEFT hand; HO's two hands are about to grasp opposite side edges, not yet rotating. TH's RIGHT hand is empty and relaxed. Two teal samples stay visible on the table behind. Leave room for later diagnostic graphic overlays but render no text or completed rotation. Quiet lower margin. Single cinematic still, landscape 16:9, a real start frame before the specified action, never its completed outcome. No captions, no legible lettering, no numbers, no logo, no watermark, no collage, no duplicated people or extra limbs. Leave the specified caption area visually quiet. Do not render arrows or diagnostic rectangles except simple nontext printed graphic shapes explicitly described.\nUse image 1 to preserve exact two identities, costume, suspended inverted posture, harness badge, orange-bordered board with its two sample-photo panels and RED DOWNWARD TRIANGLE AT BOTTOM CENTER. She has now entered the warm room 70 cm from the doorway and proudly presents this SAME UPSIDE-DOWN board to HO. Medium 50mm two-shot framed around the board in the center, inverted TH at left with her torso descending from the upper edge, upright HO at right. TH's LEFT hand still supports the board from its lower-left edge. TH's right hand is empty and relaxed, completely clear of the board. HO raises BOTH empty hands toward the two side edges of the board, fingers poised 2 cm away, not touching yet. Board is still level, has NOT rotated and has NOT been transferred. Preserve its triangle at bottom, two photos exactly as reference. Both matching teal eight-slot disks are on the table at bottom/background. Include part of open cool doorway at far left; empty satchel can be out of crop. No labels, no additional board, no extra arms or people. 16:9, quiet lower band.",
+      "references": [
+        "C:\\Users\\wseok\\.codex\\generated_images\\01a16e2f-6574-7781-9b5c-95d6256f27b6\\exec-6206e2c7-365d-4a9b-9cbd-a9c7f4642229.png"
+      ],
+      "next_motion_camera": "TH가 사례판에서 손을 놓으면 HO가 반대쪽 가장자리로 손을 다시 잡은 뒤 판만180도 돌려 빨간 삼각형을 위로 보낸다. TH는 방금 판을 놓은 같은 손으로 돌아간 판의 지점을 찾아 검지를 옮긴다. TH 몸은 계속 거꾸로, HO는 진지하게 판을 받친다. / 50mm 판 중심 미디엄. 전달과 반대쪽 재그립2초, 회전2초, 같은 손의 방향 수정과 역상 몸/바른 판 대비2초.",
+      "review_status": "THREE_REVIEWERS_RECHECKED_STILL_ONLY",
+      "motion_verified": false,
+      "source_manifest": "artist_C07_manifest.json",
+      "revision_manifest": "artist_C07_rig_revision.json"
+    },
+    {
+      "concept_id": "C07",
+      "scene_id": "S10",
+      "linked_cuts": [
+        "K10"
+      ],
+      "actual_image_path": "images/C07/S10.png",
+      "sha256": "cd127859ba52767439b3aed79f44f812e2a31499014cd15bd57a0564bf62d38e",
+      "prompt": "Character identity guide only; show only people explicitly visible in this scene. TH: a lean Korean woman in her fifties with a short silver pixie haircut and angular face, charcoal fitted long-sleeve jumpsuit, black boots, matte grey waist-and-ankle theatrical suspension rig, bare hands, no mask or eyewear. HO: a broad-built Korean man in his thirties, short black curls, round glasses, mustard knitted vest over an ivory shirt, dark brown trousers, warm composed demeanor. Stable medium-wide final-start composition, same warm demo room and open doorway. HO holds the orange-bordered board upright with the red triangle at its TOP. TH remains upside down beside him, her right index finger poised next to a schematic image, not yet pointing. Both teal samples sit on the same table. The badge remains attached. All narrative objects fit in the top seventy-two percent, broad quiet lower caption area, absolutely no rendered event lettering. Single cinematic still, landscape 16:9, a real start frame before the specified action, never its completed outcome. No captions, no legible lettering, no numbers, no logo, no watermark, no collage, no duplicated people or extra limbs. Leave the specified caption area visually quiet. Do not render arrows or diagnostic rectangles except simple nontext printed graphic shapes explicitly described.\nUse the reference as exact two-person identity, posture, costume, badge, warm room, and orange bordered board artwork. This shot begins AFTER THE BOARD, AND ONLY THE BOARD, HAS ROTATED 180 DEGREES IN THE PICTURE PLANE. The orange board is now held securely with BOTH hands by upright HO at right. The red triangle is at the TOP CENTER and points UP. The two photos have rotated with the actual rigid board: the GREY sample photo is now on the LEFT, rotated 180 degrees relative to reference; the TEAL sample photo is now on the RIGHT, likewise rotated 180 degrees. Do not simply move the red triangle while leaving photos unchanged. TH remains suspended upside down at left, boots and waist above her head; no human body rotation. Her LEFT hand has completely released the board and is empty. Her RIGHT index finger is poised 3 cm from the newly upright board, not touching yet, as if correcting where she was going to point. Two identical teal eight-slot samples remain on the table. Her blank badge stays on the same torso harness near the waist. Pull camera back slightly and raise the table/sample/board composition so all story objects are in upper 72 percent; broad quiet lower 23 percent for later title overlay, NO event words rendered. Cinematic 40mm two-shot, 16:9.",
+      "references": [
+        "C:\\Users\\wseok\\.codex\\generated_images\\01a16e2f-6574-7781-9b5c-95d6256f27b6\\exec-fcc6070a-8425-4d1a-9234-f6146050626b.png"
+      ],
+      "next_motion_camera": "TH가 한 지점만 작게 짚고 HO가 끄덕인다.34초부터 행사 정보를5초 고정한다. 새 사건을 추가하지 않는다. / 40mm 안정된 투샷. 인물·판·샘플을 상단 72%에 모으고 하단 제목판 여백.",
+      "review_status": "THREE_REVIEWERS_RECHECKED_STILL_ONLY",
+      "motion_verified": false,
+      "source_manifest": "artist_C07_manifest.json",
+      "revision_manifest": "artist_C07_rig_revision.json"
+    },
+    {
+      "concept_id": "C08",
+      "scene_id": "S01",
+      "linked_cuts": [
+        "K01"
+      ],
+      "actual_image_path": "images/C08/S01_v2.png",
+      "sha256": "80391cfb38e7e39bf0b11ba0a57723b733242ffe2690e350d6f064fd6563b9d0",
+      "prompt": "Use case: precise-object-edit. Edit this exact film frame. Preserve foreground three actors' identity, body and hand pose, clothing, all equipment, camera, framing and blue cinematic lighting. Change ONLY frost visibility: (1) thicken irregular opaque frost over the white rectangle in the central orange presenter's hands, especially its perimeter, so it reads as vague frost not an obvious presentation board. Keep his outstretched right hand silhouette visible. This is a mystery opening before thaw. (2) Make the two rear-right panels fully frosted, so rear people and boards are only vague indistinct shadows, with no recognizable faces, clothes or held boards. Their physical positions stay fixed. No new objects, no text. The foreground face and orange silhouette still faintly visible; frost is translucent around face. 16:9.",
+      "references": [
+        "C:\\Users\\wseok\\.codex\\generated_images\\01a16e2f-8261-7843-a298-3844285bae92\\exec-f6654438-a790-43ca-a14f-ed177abcc5d0.png"
+      ],
+      "next_motion_camera": "RL이 열풍기를 내린 채 왼손으로 앞 얼음에 닿는다. PR 두 손·판·목표점은 움직이지 않는다.3.5초 안에 해동 컷으로 진입. / 35mm 낮은 각도. 손만 보이고 왼손 판·목표점은 서리로 가림. 해동 후 매치를 위해 카메라와 몸 위치 고정.",
+      "review_status": "THREE_REVIEWERS_RECHECKED_STILL_ONLY",
+      "motion_verified": false,
+      "source_manifest": "artist_C08_manifest.json",
+      "revision_manifest": null
+    },
+    {
+      "concept_id": "C08",
+      "scene_id": "S02",
+      "linked_cuts": [
+        "K02"
+      ],
+      "actual_image_path": "images/C08/S02.png",
+      "sha256": "b72e527696a215beb50e972d89a09224d801cc2a64fdfe408bbd004b11d5c463",
+      "prompt": "Use case: precise-object-edit. Use the supplied exact S01 frame as continuity reference. Create next start frame S02 just BEFORE any thaw. Preserve camera and foreground presenter's body, head, right pointing hand, left-held hidden board, frost density and ALL environment and lights exactly. His right index target remains unchanged. Change only: leader on left slightly leans forward holding the yellow powered-off blower in her right hand, its nozzle positioned 30cm from bottom edge of central ice. The assistant on right now holds the same ivory blanket unfolded between both hands ready to drape, not yet touching presenter. Rear two ice panels remain opaque frosted vague silhouettes only. Central ice still fully intact, board still obscured. Front rescue bench completely bare. No letters or watermarks. 16:9.",
+      "references": [
+        "C:\\Users\\wseok\\.codex\\generated_images\\01a16e2f-8261-7843-a298-3844285bae92\\exec-960831dc-0dd4-4ec8-b4da-3452e27e7002.png"
+      ],
+      "next_motion_camera": "3.5~6.8초 서리가 걷히며 왼손 자료판과 그 판을 가리키던 같은 목표점이 드러난다. PR의 팔·판을 움직이지 않는다. 끝1.2초 RA가 담요를 어깨에 걸치며 더 감싸려 한다. / S01 동일 높이·렌즈·몸 크기. 서리만 사라져 처음부터 있던 목표가 읽히는4.5초.",
+      "review_status": "THREE_REVIEWERS_RECHECKED_STILL_ONLY",
+      "motion_verified": false,
+      "source_manifest": "artist_C08_manifest.json",
+      "revision_manifest": null
+    },
+    {
+      "concept_id": "C08",
+      "scene_id": "S03",
+      "linked_cuts": [
+        "K03"
+      ],
+      "actual_image_path": "images/C08/S03_v2.png",
+      "sha256": "53cb38880d2c1c0a0c7a75260b952ae3756e4ab189875336449f53b00a7be981",
+      "prompt": "Use case: precise-object-edit. Edit only background of first reference image (the thawed-presenter image). Keep foreground trio, exact poses/board/blanket/bench/lamp and framing unchanged. Remove the tall ice slab that is directly behind the central orange man's LEFT shoulder (viewer left). Place the SAME TWO rear ice panels side by side toward camera-right behind the assistant, as in second reference image: one panel behind assistant near right-middle, the third panel near far-right lamp. Two vague people hidden under opaque frost, not yet revealed. No extra ice panels. A plain blue-grey studio wall must be visible behind left side of presenter. Keep same photoreal cinematic light and 16:9. Do not change any hand, blanket, white board, photo or yellow blower.",
+      "references": [
+        "C:\\Users\\wseok\\.codex\\generated_images\\01a16e2f-8261-7843-a298-3844285bae92\\exec-a461aa16-1e33-45bd-b7fc-696e6f0e8ece.png",
+        "C:\\Users\\wseok\\.codex\\generated_images\\01a16e2f-8261-7843-a298-3844285bae92\\exec-1054cca0-2986-4ec4-b531-f5ec6ad57115.png"
+      ],
+      "next_motion_camera": "RA가 담요를 몸 쪽으로 감싸려는 순간 PR이 오른손을 판에서 떼어 앞 모서리를 구조판 쪽으로 당긴다. 담요가 펴지고 RA는 몸을 감싸려던 빈 팔 자세로0.5초 남는다. RL은 꺼진 열풍기를 화면 왼쪽 RL 발 근처 바닥에 둔다. / 50mm 같은 담요를 서로 다른 방향으로 당기는 순간→RA 빈 팔 반응까지3초. 큰 실랑이 없음.",
+      "review_status": "THREE_REVIEWERS_RECHECKED_STILL_ONLY",
+      "motion_verified": false,
+      "source_manifest": "artist_C08_manifest.json",
+      "revision_manifest": null
+    },
+    {
+      "concept_id": "C08",
+      "scene_id": "S04",
+      "linked_cuts": [
+        "K04"
+      ],
+      "actual_image_path": "images/C08/S04.png",
+      "sha256": "2f128d3544c8054a2b926bcd31e6f12c73ce8c0895980116c0aca1d11cc84157",
+      "prompt": "Use case: identity-preserve. Create next S04 start frame in exact same cold studio and actor identities as reference. Preserve actor placement, faces, wardrobe, grey bench, black lamp high right, two rear frosted panels at right. Now SAME ivory blanket lies flat across bench, removed entirely from shoulders. Bench surface on blanket is COMPLETELY EMPTY. Presenter LEFT hand continues holding exact same white landscape board (same two photo panels showing red triangular metal prism, blank strips underneath and tiny fixed ivory fabric tab lower-right). Presenter RIGHT hand is EMPTY and hovers just above his orange chest pocket, poised to reach inside; sample is hidden inside pocket, not yet extracted. Assistant behind to right lowers his now empty arms with puzzled expression. Leader to left watches, both hands now empty; same yellow blower rests on ground beside right front bench leg. Main presenter looks purposefully toward bench. Cold blue cinematic light, work lamp still aimed toward his face. Medium framing with chest pocket and bare blanket both clearly visible. Do not put sample on bench yet. No text or watermark, 16:9.",
+      "references": [
+        "C:\\Users\\wseok\\.codex\\generated_images\\01a16e2f-8261-7843-a298-3844285bae92\\exec-64454fc7-aca2-4e3e-b33b-9544f2a28b0d.png"
+      ],
+      "next_motion_camera": "PR이 빨간 삼각 샘플을 주머니에서 꺼내 담요 중앙에 바로 놓는다. RA가 눕는 곳으로 안내하려던 손을 멈춘다.2.5초에 추출·접촉 완료. 샘플을 놓은 뒤 PR은 등 쪽인 화면 오른쪽 뒤로 한 걸음 물러나 오른팔을 앞으로 뻗을 준비를 한다. / 65mm 주머니→빈 담요 중앙을 같은 화면. 손이 샘플을 가리지 않는 측면.",
+      "review_status": "THREE_REVIEWERS_RECHECKED_STILL_ONLY",
+      "motion_verified": false,
+      "source_manifest": "artist_C08_manifest.json",
+      "revision_manifest": null
+    },
+    {
+      "concept_id": "C08",
+      "scene_id": "S05",
+      "linked_cuts": [
+        "K05"
+      ],
+      "actual_image_path": "images/C08/S05_v2.png",
+      "sha256": "bf2bfa5a285258faa47cd6f4cbb6d134c083000a6571bcadae70e077bc817fec",
+      "prompt": "Use case: precise-object-edit. Correct only the orange presenter's arm assignment in this exact image, keep camera, actors, faces, clothing, board contents, lamp, sample, blanket and environment unchanged. His LEFT hand (arm attached to shoulder on VIEWER RIGHT) must hold the board's viewer-right lower edge, as it did in earlier scenes. His RIGHT arm (attached to shoulder on VIEWER LEFT) reaches ACROSS his upper chest toward the black lamp at viewer right; show the crossing forearm horizontally ABOVE the board, then bent hand hovering just below lamp's handle. This is a clearly crossed-body reach. Do not swap hands. Only two arms total. Right wrist and palm are empty; left hand grips same white board and original lower-right fabric tab still visible. His torso rotates slightly toward lamp to allow natural crossed reach. He has not touched or tilted lamp. 16:9 cinematic photo; no text.",
+      "references": [
+        "C:\\Users\\wseok\\.codex\\generated_images\\01a16e2f-8261-7843-a298-3844285bae92\\exec-9413e790-1aad-436d-86e1-1bd663ddebec.png"
+      ],
+      "next_motion_camera": "PR이 등 머리를 아래 한 축으로 기울여 샘플을 정면 하향 조명한다. RA가 어두워진 얼굴 대신 샘플 쪽으로 고개를 따라 내린다.2.5초. / 50mm 옆 미디엄. 얼굴빛→샘플빛 이동과 RA 반응 한 화면.",
+      "review_status": "THREE_REVIEWERS_RECHECKED_STILL_ONLY",
+      "motion_verified": false,
+      "source_manifest": "artist_C08_manifest.json",
+      "revision_manifest": null
+    },
+    {
+      "concept_id": "C08",
+      "scene_id": "S06",
+      "linked_cuts": [
+        "K06"
+      ],
+      "actual_image_path": "images/C08/S06.png",
+      "sha256": "0984da70a401bf2a070891e578f7c692ef8505c89e1257f8eb0ceb41640c752b",
+      "prompt": "Use case: identity-preserve. Create S06 start frame from exact reference set and characters, after lamp tilt but BEFORE presenter points again. Keep positions, costumes, same board, same sample, same blanket and all background. The black lamp head is NOW tilted downward toward the red triangular prism, casting a strong frontal glossy reflection on sample; lamp still mounted same tripod at right. Orange presenter's LEFT hand grips same white comparison board viewer-right edge, original 4cm ivory tab still hanging lower-right; RIGHT arm is relaxed near his body, NOT pointing yet. The board has SAME two unlabeled photos of same red triangular metal prism under different light, left image warm/flat and right image cool. Leader in cobalt blue looks thoughtfully at sample reflection, assistant plum looks from board to sample. No fake glowing AI effects or scores. Two rear-right ice panels remain frosted with indistinct silhouettes, not clearly revealed yet. Yellow blower remains on ground at leader's feet screen-left. Low-angle 35mm medium-wide with both board and sample visible, quiet lower 18% for captions later. No letters, watermark or caption. 16:9.",
+      "references": [
+        "C:\\Users\\wseok\\.codex\\generated_images\\01a16e2f-8261-7843-a298-3844285bae92\\exec-7cbf4f36-7ee7-47bb-8f19-a3a293a40ff7.png"
+      ],
+      "next_motion_camera": "PR이 첫 장면의 같은 판 목표점과 실물 반사를 차례로 짚는다. 처음 조건/바꾼 조건 사진을 보여 시행착오를 나눈다. RL이 실물 반사에서 작업등 손잡이로 시선을 옮긴다. / S01 같은 낮은 높이.5초 동안 판 목표점→실물 반사→RL 시선. 완벽한 성공 효과 없음.",
+      "review_status": "THREE_REVIEWERS_RECHECKED_STILL_ONLY",
+      "motion_verified": false,
+      "source_manifest": "artist_C08_manifest.json",
+      "revision_manifest": null
+    },
+    {
+      "concept_id": "C08",
+      "scene_id": "S07",
+      "linked_cuts": [
+        "K07"
+      ],
+      "actual_image_path": "images/C08/S07.png",
+      "sha256": "22f917c37c82dc8ed7af9a26342d0b9264365a0c3c71d42c37e8f80690f2bd74",
+      "prompt": "Use case: identity-preserve. Create S07 START frame before camera pulls back to reveal the remaining frozen presenters. Preserve supplied S06 actors and fixed set, clothing, exact white comparison board, two photos, tiny lower-right fabric tab, sample, bench, tilted lamp and floor blower. Use a slightly TIGHTER medium framing around central demonstration: orange presenter holding board with LEFT hand; empty RIGHT hand now near board after pointing. Blue-jacket leader begins turning her gaze toward camera-right/rear, both hands empty. Plum-jacket assistant glances that way. Both rear ice panels must remain mostly outside the RIGHT edge of crop: only a narrow strip of each frosty edge and faint silhouettes, no recognizable rear faces or boards yet. This is the START before the reveal dolly-out, do not show its outcome. Main foreground trio faces all visible, bench/red sample visible. Blank no text signage or captions, cinematic cold blue light, 16:9.",
+      "references": [
+        "C:\\Users\\wseok\\.codex\\generated_images\\01a16e2f-8261-7843-a298-3844285bae92\\exec-59984cb4-cd3c-4447-becb-77d8fdbe3dcc.png"
+      ],
+      "next_motion_camera": "4.5초에 카메라가 넓어져 기존 F1·F2를 공개한다. 각자 자료판을 든 고정 자세. RL은 다시 PR의 실물과 작업등을 본다. 자기 상자·자료는 찾지 않는다. RL이 작업등에 닿을 수 있도록 화면 오른쪽으로 두 걸음 이동한다. / 28mm 짧은 달리 아웃·우측 팬. 후방 두 사람은 고정.",
+      "review_status": "THREE_REVIEWERS_RECHECKED_STILL_ONLY",
+      "motion_verified": false,
+      "source_manifest": "artist_C08_manifest.json",
+      "revision_manifest": null
+    },
+    {
+      "concept_id": "C08",
+      "scene_id": "S08",
+      "linked_cuts": [
+        "K08"
+      ],
+      "actual_image_path": "images/C08/S08.png",
+      "sha256": "27644460e73679da9bd9fed686d9f8398fe408746a2367bedd183f90bc15be36",
+      "prompt": "Use case: identity-preserve. S08 START frame BEFORE leader changes lighting or receives board. First reference preserves foreground identities and props; second reference only establishes identities and clothes of two frozen rear people. 35mm cinematic medium-wide in exact same icy artificial studio. Same grey bench ivory blanket red triangular metal prism at center. Orange presenter near right end bench holds SAME white two-photo condition board in his LEFT hand, same small lower-right ivory tab, his RIGHT hand empty at side. Plum jacket assistant remains just left of presenter. Cobalt blue older woman leader has walked around back of bench to the LAMP at camera-right: her EMPTY RIGHT hand hovers 10cm from lamp side handle, LEFT hand empty lowered. The black lamp is still downward facing sample FRONTALLY, not yet rotated sideways. Two existing rear ice panels now seen clearly beyond right end of bench: F1 South Asian woman forties long single black braid lilac insulated coat holding a WHITE board; F2 bald round older East Asian man navy coat holding GREEN board. Each is frozen behind their OWN translucent ice panel, not standing outside. No extra people, exactly FIVE total. Yellow blower still on floor at original left end of bench, where leader stood before. Camera shows board ownership clearly: ONLY orange man has two-photo board, leader no board. No new objects, no legible letters, caption or watermark. Quiet bottom18% floor. 16:9.",
+      "references": [
+        "C:\\Users\\wseok\\.codex\\generated_images\\01a16e2f-8261-7843-a298-3844285bae92\\exec-071c4051-66e9-4204-881a-7981826ac470.png",
+        "C:\\Users\\wseok\\.codex\\generated_images\\01a16e2f-8261-7843-a298-3844285bae92\\exec-f6654438-a790-43ca-a14f-ed177abcc5d0.png"
+      ],
+      "next_motion_camera": "25.5~27.5초 RL이 왼손으로 등 머리를 옆30도로 돌려 같은 샘플의 조명 조건을 바꾼다.27.5~29초 둘이 실물 반사와 같은 판 사진을 비교한다.29~30.5초 PR이 같은 흰 판을 RL 양손에 건넨다.30.5~32.5초 RL이 한 걸음 뒤 공유 줄에 합류한다. 새 판 없음. / 35mm 작은 팬. 등→같은 판 비교→판 전달→줄까지7초. 줄까지 한 걸음.",
+      "review_status": "THREE_REVIEWERS_RECHECKED_STILL_ONLY",
+      "motion_verified": false,
+      "source_manifest": "artist_C08_manifest.json",
+      "revision_manifest": null
+    },
+    {
+      "concept_id": "C08",
+      "scene_id": "S09",
+      "linked_cuts": [
+        "K09"
+      ],
+      "actual_image_path": "images/C08/S09.png",
+      "sha256": "da20db74beba01fb8a9f79221bf06c64c5971794c57f10a0a3ccddddbe553e73",
+      "prompt": "Use case: identity-preserve. S09 START frame in exact same icy studio and same five people from reference. AFTER shared lighting comparison and board handoff, BEFORE assistant lifts blower. Main orange presenter now EMPTY-HANDED at center by same bench and small red triangular metal sample. BOTH hands clearly empty. The SAME white landscape comparison board with two red-prism photos, same blank condition rectangles and original small 4cm ivory cloth tab lower-right has transferred into older blue-coated leader's TWO hands. She stands one step back near right-side frozen queue, holds board chest high facing forward, original tab hangs still, her body is outside ice. NO new board or yellow board. The plum-jacket young assistant has moved to left end of bench and crouches beside SAME yellow heat blower resting on ground there; his RIGHT empty hand is just ABOVE handle before grasp, not already holding it. Keep yellow tool fully visible on floor. Black lamp remains right of bench but its head now rotated 30 degrees toward SIDE of sample. Two rear frozen presenters, same South Asian woman lilac coat white board and bald older man navy coat green board, remain inside their two ice panels at right. Wide clear composition showing source and destination of upcoming blower carry. Serious puzzled performance, no speech. No new objects or extra people, no letters or watermark. 16:9, quiet floor below.",
+      "references": [
+        "C:\\Users\\wseok\\.codex\\generated_images\\01a16e2f-8261-7843-a298-3844285bae92\\exec-250b31ef-6d7d-4ccc-ba7b-3f3cf583c23b.png"
+      ],
+      "next_motion_camera": "RA가 바닥의 열풍기를 집어 들고 화면 오른쪽 RL의 자료판 쪽으로 이동해 천 탭 아래를 향한다. 탭만 가볍게 펄럭인다. RL이 얼음 없는 자기 판 아래를 보고 RA에게 고개를 돌린다.4.5초. 열풍기가 순간이동하거나 천 탭 위치가 바뀌지 않는다. / 50mm RA·RL 투샷. 바람은 몸이 아닌 탭 아래 허공. 탭 뿌리가 판에 고정된 것이 보임.",
+      "review_status": "THREE_REVIEWERS_RECHECKED_STILL_ONLY",
+      "motion_verified": false,
+      "source_manifest": "artist_C08_manifest.json",
+      "revision_manifest": null
+    },
+    {
+      "concept_id": "C08",
+      "scene_id": "S10",
+      "linked_cuts": [
+        "K10"
+      ],
+      "actual_image_path": "images/C08/S10_v2.png",
+      "sha256": "2ffc97953af50631620df6dde451216685774558842e7eaf802b79d15eb33352",
+      "prompt": "Use case: precise-object-edit. Edit only BACKGROUND two frozen figures and their ice panels to restore continuity. Preserve foreground THREE actors, poses, exact board, cloth tab, blower, bench, sample, lamp, floor and camera absolutely unchanged. Remove the ice panel with lilac woman currently LEFT of orange presenter; that left background is plain blue wall. Place BOTH existing rear panels behind the RIGHT side of the foreground group. First panel containing SAME lilac-coated South Asian braided woman and white board should be in gap just behind orange man's right side and blue woman's left side (near image center-right). Second panel containing SAME bald older East Asian man navy coat green board should be farther right behind crouched assistant. He may be partly occluded but his head, upper green board, ice panel edges must be visible. Exactly two rear panels and two frozen people, keep order woman-left/man-right. No new cast. Do not move any foreground person or object. No text or caption, 16:9.",
+      "references": [
+        "C:\\Users\\wseok\\.codex\\generated_images\\01a16e2f-8261-7843-a298-3844285bae92\\exec-5a958a83-0085-4a19-bc78-30dc01cd0072.png",
+        "C:\\Users\\wseok\\.codex\\generated_images\\01a16e2f-8261-7843-a298-3844285bae92\\exec-aa212b27-b5e7-4b77-baa3-469b42903896.png"
+      ],
+      "next_motion_camera": "RA가 열풍기를 조금 내리고 RL이 판을 PR 쪽으로 살짝 기울여 둘이 같은 자료를 다시 본다.37초부터 행사 정보5초. 새 물건 없음. / 28mm 고정 와이드, 시연·공동 판·뒤 두 인물 상단72%.",
+      "review_status": "THREE_REVIEWERS_RECHECKED_STILL_ONLY",
+      "motion_verified": false,
+      "source_manifest": "artist_C08_manifest.json",
+      "revision_manifest": null
+    },
+    {
+      "concept_id": "C09",
+      "scene_id": "S01",
+      "linked_cuts": [
+        "K01"
+      ],
+      "actual_image_path": "images/C09/S01.png",
+      "sha256": "f95081435987168a2eb3b89c1f5a6bf20590615d0dfcc9ddc8baa2b380b7e05d",
+      "prompt": "Character identity guide only; show only people explicitly visible in this scene. AU: a very tall slender East Asian man in his mid-forties, bald head, thin moustache, dark burgundy tuxedo, gold bow tie, white shirt. B1: a compact sturdy South Asian man in his thirties, neat short black hair and short beard, ochre suit over a black turtleneck. B2: a tall East Asian woman in her late twenties, asymmetric black haircut with a right undercut and long left bob, copper velvet pantsuit, black shirt. BW: a petite white woman in her sixties, long white hair in one braid, oversized round black glasses, sea-green silk pantsuit with a pearl-white waistcoat. Luxury small auction room, warm walnut and black stone, exactly four people. AU stands beside a central black display plinth fully draped with crimson velvet, holding one cloth corner but not pulling. Three fixed chairs are staggered behind: B1 front-left, B2 middle-right, BW rear-right. B1's grey A5 rigid board lies flat on his lap; B2's green trifold is folded closed on her lap; BW has empty hands and her small demo cart is covered by ivory fabric. Separate auction lectern at left. No currency, prices or numbered paddles. Quiet lower band. Single cinematic still, landscape 16:9, a real start frame before the specified action, never its completed outcome. No captions, no legible lettering, no numbers, no logo, no watermark, no collage, no duplicated people or extra limbs. Leave the specified caption area visually quiet. Do not render arrows or diagnostic rectangles except simple nontext printed graphic shapes explicitly described.\nVisual direction: cinematic live-action luxury auction parody, warm golden spotlights, dark walnut paneled room, black marble floor, earnest aristocratic tension. Exactly THREE chairs in a compact diagonal arrangement, no audience extras. Display plinth is waist-height 60cm-wide square, completely covered by a flat draped crimson velvet with NOTHING sitting on it. AU left of central plinth, lectern further left. Wide enough to show whole cart to right and all bodies. Lower 18% is clear floor. True widescreen 16:9.",
+      "references": [],
+      "next_motion_camera": "AU가 비장하게 붉은 덮개를 한 번 벗긴다. 검정 진열대 상면은 비어 있다. 끝0.7초 AU가 빈 상면 옆에 손바닥을 펴고 멈춘다.4초. / 28mm 정면 와이드. 덮인 진열대·세 자리·카트·경매대 위치를 첫 프레임에 정립. 마지막 1초 빈 상면을 충분히 보임.",
+      "review_status": "THREE_REVIEWERS_RECHECKED_STILL_ONLY",
+      "motion_verified": false,
+      "source_manifest": "artist_C09_manifest.json",
+      "revision_manifest": null
+    },
+    {
+      "concept_id": "C09",
+      "scene_id": "S02",
+      "linked_cuts": [
+        "K02"
+      ],
+      "actual_image_path": "images/C09/S02.png",
+      "sha256": "e46ca88e7b9f41d4304de166563ae7cf0799ccc39a60afc1eb9f38e9e572fd26",
+      "prompt": "Character identity guide only; show only people explicitly visible in this scene. AU: a very tall slender East Asian man in his mid-forties, bald head, thin moustache, dark burgundy tuxedo, gold bow tie, white shirt. B1: a compact sturdy South Asian man in his thirties, neat short black hair and short beard, ochre suit over a black turtleneck. B2: a tall East Asian woman in her late twenties, asymmetric black haircut with a right undercut and long left bob, copper velvet pantsuit, black shirt. BW: a petite white woman in her sixties, long white hair in one braid, oversized round black glasses, sea-green silk pantsuit with a pearl-white waistcoat. Medium shot of B1 seated in his established front-left chair. His small grey A5 case board is STILL on his lap, both hands on its side edges, body leaning forward before raising it. AU waits at his lectern in background. Empty plinth remains visible at one side. The board has only two simple unlabeled image blocks, no lettering. No raised board yet. Quiet lower margin. Single cinematic still, landscape 16:9, a real start frame before the specified action, never its completed outcome. No captions, no legible lettering, no numbers, no logo, no watermark, no collage, no duplicated people or extra limbs. Leave the specified caption area visually quiet. Do not render arrows or diagnostic rectangles except simple nontext printed graphic shapes explicitly described.\nReference image 1 fixes ALL actor faces, clothes, room and props. Reframe to 65mm medium of B1, same leftmost audience chair now near camera; AU farther left at the existing lectern. Crimson cloth now on the floor BEHIND the plinth, no longer covering it. B1 grasps tiny A5 board flat against his thighs at the start. Do not raise it. Other seated women may be out of frame; do not move chairs to a new room. True 16:9 cinematic warm gold lighting.",
+      "references": [
+        "\\\\wsl.localhost\\Ubuntu-24.04\\home\\wooseok\\wsy\\samsung_related\\slide\\AI실행결과발표대회_디자인3종\\storyboards\\2026-10-24_v12-rework\\images\\C09\\S01.png"
+      ],
+      "next_motion_camera": "B1이 작은 판을 머리 위로 번쩍 들고 팔꿈치를 끝까지 편다. AU는 눈을 가늘게 뜬다.4초, 같은 자세 반복 없음. / 65mm B1 미디엄. AU의 가늘어진 눈을 배경 안에 두되 판을 가리지 않는다.",
+      "review_status": "THREE_REVIEWERS_RECHECKED_STILL_ONLY",
+      "motion_verified": false,
+      "source_manifest": "artist_C09_manifest.json",
+      "revision_manifest": null
+    },
+    {
+      "concept_id": "C09",
+      "scene_id": "S03",
+      "linked_cuts": [
+        "K03"
+      ],
+      "actual_image_path": "images/C09/S03_v2.png",
+      "sha256": "8b2b6f6eb7ffb386810a238e131bee9717a2f9e754dbb21c3dd077c8f553c0f1",
+      "prompt": "Edit ONLY the green object in the seated copper-suit woman's lap and her grip if necessary. Replace that open-looking book with a CLOSED three-panel display board, whose three rigid leaves are stacked directly atop each other. The visible face is ONE SINGLE portrait rectangle 30cm wide and 45cm tall, plain forest green, rising from her lap to sternum. No central crease visible on the front, no spread wings, no open pages, no text. Thin stacked layers are visible at the side edge, making it clear this will unfold later. Her two hands lightly hold the two outer side edges, before spreading the wings. Keep both actor identities, costumes, seated poses, the man's overhead grey board, chair positions, lighting, framing and the exact rest of this photograph unchanged. Cinematic16:9. No new objects or people.",
+      "references": [
+        "\\\\wsl.localhost\\Ubuntu-24.04\\home\\wooseok\\wsy\\samsung_related\\slide\\AI실행결과발표대회_디자인3종\\storyboards\\2026-10-24_v12-rework\\images\\C09\\S03.png"
+      ],
+      "next_motion_camera": "B2가 판 좌우 날개를 한 번 펼친다. 시야를 가린 B1이 고개만 옆으로 내민다.4초. / 50mm 두 관객 미디엄. 펼친 판의 좌우 경계를 프레임 안에 남김. 날개는 사람을 치지 않음.",
+      "review_status": "THREE_REVIEWERS_RECHECKED_STILL_ONLY",
+      "motion_verified": false,
+      "source_manifest": "artist_C09_manifest.json",
+      "revision_manifest": null
+    },
+    {
+      "concept_id": "C09",
+      "scene_id": "S04",
+      "linked_cuts": [
+        "K04"
+      ],
+      "actual_image_path": "images/C09/S04_v2.png",
+      "sha256": "fb9ffd91fdae6f7c8a74ce57b4dbcb34f08cbb96464a74bddb6eb6d1c3774131",
+      "prompt": "Edit this single film still for continuity. ONE: remove the crimson cloth completely from the central black marble plinth so the bare flat EMPTY top is fully exposed, with NO OBJECT on top. Put the crumpled crimson cloth on the FLOOR behind-left of this plinth. Auctioneer must NOT hold that cloth anymore; lower his cloth-holding arm beside his body, natural relaxed hand. TWO: enlarge the seated copper-suit woman's opened forest-green three-leaf display to 90cm TOTAL width and 45cm height, three equal vertical leaves. The blank open wings extend well past her shoulders, one partly across the man's shoulder at left. Her head stays visible above it. Exactly three hinged leaves, not pages. Keep her hands on outer lower side edges. Preserve everyone else exactly: older woman's still-covered cart, older woman's hands before uncovering, three chairs including empty right chair, actor identities, costume, man holding tiny board overhead, set and lighting. Photorealistic cinematic16:9, no text.",
+      "references": [
+        "\\\\wsl.localhost\\Ubuntu-24.04\\home\\wooseok\\wsy\\samsung_related\\slide\\AI실행결과발표대회_디자인3종\\storyboards\\2026-10-24_v12-rework\\images\\C09\\S04.png"
+      ],
+      "next_motion_camera": "BW가 덮개를 벗겨 손잡이에 걸고, 공개한 카트를 통로로40cm 민다.4초. B1/B2는 판을 든 채 눈만 돌아본다. 카트가 공개되는 끝부터 동일한 비교판 도해를 후합성한다. / 35mm 낮은 미디엄 와이드. 카트 전체와 BW 상반신. 복잡한 바퀴 회전 대신 짧은 직진.",
+      "review_status": "THREE_REVIEWERS_RECHECKED_STILL_ONLY",
+      "motion_verified": false,
+      "source_manifest": "artist_C09_manifest.json",
+      "revision_manifest": null
+    },
+    {
+      "concept_id": "C09",
+      "scene_id": "S05",
+      "linked_cuts": [
+        "K05"
+      ],
+      "actual_image_path": "images/C09/S05_v2.png",
+      "sha256": "7e67c3a21cfce50ebc0041e819f78952477c980d461390187e361d4a3008e913",
+      "prompt": "Edit ONLY the small violet gear sample on the right-side cart. Keep its 33cm diameter, circular center hole, upright orientation, violet plastic material and small black cradle. Give it EXACTLY EIGHT broad evenly spaced rectangular teeth: one pointing straight UP, one upper-right at45degrees, one RIGHT, one lower-right, one DOWN, one lower-left, one LEFT, one upper-left. Eight teeth total, with deep clearly separated curved gaps between them. Make this a simple bold toy-like quality demo sample, not a finely toothed machine gear. Leave every other pixel/actor/prop/camera/lighting as unchanged as possible. Empty plinth remains EMPTY, no text.",
+      "references": [
+        "\\\\wsl.localhost\\Ubuntu-24.04\\home\\wooseok\\wsy\\samsung_related\\slide\\AI실행결과발표대회_디자인3종\\storyboards\\2026-10-24_v12-rework\\images\\C09\\S05.png"
+      ],
+      "next_motion_camera": "AU가 봉을 한 번 두드리고 곧바로 BW를 지목한다. BW의 짧은 끄덕임까지만2초. 관객의 추가 실망 반응은 생략. / 50mm AU·빈 진열대·BW를 한 화면. 봉 동작과 지목을2초에 연결.",
+      "review_status": "THREE_REVIEWERS_RECHECKED_STILL_ONLY",
+      "motion_verified": false,
+      "source_manifest": "artist_C09_manifest.json",
+      "revision_manifest": null
+    },
+    {
+      "concept_id": "C09",
+      "scene_id": "S06",
+      "linked_cuts": [
+        "K06"
+      ],
+      "actual_image_path": "images/C09/S06_v2.png",
+      "sha256": "1354a12ff6755d102f08b1bc85b70c2665e796962466010057ce6a185dda43dd",
+      "prompt": "Precise continuity correction in image1 ONLY for the two seated BACKGROUND spectators. In same positions, ochre-suit man at left holds his tiny grey A5 board raised above his head with both hands; copper-suit woman beside him holds her wide forest-green THREE-panel opened display at chest level. Copy the board designs and holding states from image2. They must remain seated and out of focus as background. Preserve image1 foreground exactly: older white-braid woman with two hands poised beside purple eight-tooth gear, gear STILL in its cradle ON CART, bare empty black plinth at left, ivory fabric on cart handle, empty third chair, room and all framing. No new people, no text.",
+      "references": [
+        "\\\\wsl.localhost\\Ubuntu-24.04\\home\\wooseok\\wsy\\samsung_related\\slide\\AI실행결과발표대회_디자인3종\\storyboards\\2026-10-24_v12-rework\\images\\C09\\S06.png",
+        "\\\\wsl.localhost\\Ubuntu-24.04\\home\\wooseok\\wsy\\samsung_related\\slide\\AI실행결과발표대회_디자인3종\\storyboards\\2026-10-24_v12-rework\\images\\C09\\S05_v2.png"
+      ],
+      "next_motion_camera": "BW가 경량 샘플을 두 손으로 들어 가슴 높이에서 지지하고 진열대 앞으로 한 걸음 이동한다.2.5초. 내려놓지는 않는다. / 50mm 측면. 카트→진열대 한 걸음만, 이동 전 손 접촉과 끝 운반 상태를 모두 보임.",
+      "review_status": "THREE_REVIEWERS_RECHECKED_STILL_ONLY",
+      "motion_verified": false,
+      "source_manifest": "artist_C09_manifest.json",
+      "revision_manifest": null
+    },
+    {
+      "concept_id": "C09",
+      "scene_id": "S07",
+      "linked_cuts": [
+        "K07"
+      ],
+      "actual_image_path": "images/C09/S07.png",
+      "sha256": "2543fe4c4a1fc10b876a41c2463c4f38c93ef419196cf2825818223fb6dc859d",
+      "prompt": "Character identity guide only; show only people explicitly visible in this scene. AU: a very tall slender East Asian man in his mid-forties, bald head, thin moustache, dark burgundy tuxedo, gold bow tie, white shirt. B1: a compact sturdy South Asian man in his thirties, neat short black hair and short beard, ochre suit over a black turtleneck. B2: a tall East Asian woman in her late twenties, asymmetric black haircut with a right undercut and long left bob, copper velvet pantsuit, black shirt. BW: a petite white woman in her sixties, long white hair in one braid, oversized round black glasses, sea-green silk pantsuit with a pearl-white waistcoat. Medium shot of the EMPTY black plinth and BW. She holds the same violet eight-tooth sample with both hands ten centimeters ABOVE the empty surface, not touching it yet. AU, B1 and B2 watch from their established positions. Behind to the right, the established CART-MOUNTED comparison board is reserved for three small unlettered document shapes feeding one large unlabeled comparison summary and a sample photograph, reserved for later compositing. No candidate-detection rectangles; do not add a wall screen. The carrying origin is the now empty cart support off to the right. Before placement, not an already completed display. Quiet lower band. Single cinematic still, landscape 16:9, a real start frame before the specified action, never its completed outcome. No captions, no legible lettering, no numbers, no logo, no watermark, no collage, no duplicated people or extra limbs. Leave the specified caption area visually quiet. Do not render arrows or diagnostic rectangles except simple nontext printed graphic shapes explicitly described.\nUse reference1 for last state and exact BW/gear/cart identity, reference2 for full actor/room layout. BW has now lifted ONLY the violet plastic gear OUT of the black cradle and walked one short step left to the empty central plinth. She holds the gear with two hands at its left and right edges just TEN CENTIMETERS ABOVE the plinth. The gear is now tilted toward horizontal, face angled upward toward camera, ready to be laid FLAT safely on the marble. Its underside must NOT TOUCH the top yet. Show a clear air gap, no floating without hands. The black cradle stays EMPTY ON THE CART behind her to right; no new stand on plinth. The cart-mounted white comparison panel has very faint simple blank document-shaped blocks reserved for later overlay. B1 and B2 keep their two boards as in previous state, still in their hands, seated watching; AU at lectern left watching. No extra people, no duplicates of sample. Crimson cloth on floor, ivory cloth on cart handle. Warm luxury film still16:9, action clear above caption band.",
+      "references": [
+        "\\\\wsl.localhost\\Ubuntu-24.04\\home\\wooseok\\wsy\\samsung_related\\slide\\AI실행결과발표대회_디자인3종\\storyboards\\2026-10-24_v12-rework\\images\\C09\\S06_v2.png",
+        "\\\\wsl.localhost\\Ubuntu-24.04\\home\\wooseok\\wsy\\samsung_related\\slide\\AI실행결과발표대회_디자인3종\\storyboards\\2026-10-24_v12-rework\\images\\C09\\S05_v2.png"
+      ],
+      "next_motion_camera": "첫1초에 BW가 자기 샘플을 빈 진열대에 평평하게 내려놓는다. 다음3초에 카트 비교판의 AI 요약 한 항목과 실물의 대응 부분을 차례로 가리킨다. 관객은 추가 과장 반응 없이 앞으로 기울여 본다. B1과 B2는 새 발표자인 BW 쪽으로 시선을 돌린다. 새 받침대는 생기지 않는다. / 50mm 상면 접촉→카트의 요약 비교판→자기 실물을4초에 연결. 비교판은 여러 무명 검토자료의 요약을 후합성, 새 벽 화면 없음.",
+      "review_status": "THREE_REVIEWERS_RECHECKED_STILL_ONLY",
+      "motion_verified": false,
+      "source_manifest": "artist_C09_manifest.json",
+      "revision_manifest": null
+    },
+    {
+      "concept_id": "C09",
+      "scene_id": "S08",
+      "linked_cuts": [
+        "K08"
+      ],
+      "actual_image_path": "images/C09/S08.png",
+      "sha256": "e0d72edb7d8a1f85df816be32e66068ef859b659f3fe026c01a7230f83b2e966",
+      "prompt": "Character identity guide only; show only people explicitly visible in this scene. AU: a very tall slender East Asian man in his mid-forties, bald head, thin moustache, dark burgundy tuxedo, gold bow tie, white shirt. B1: a compact sturdy South Asian man in his thirties, neat short black hair and short beard, ochre suit over a black turtleneck. B2: a tall East Asian woman in her late twenties, asymmetric black haircut with a right undercut and long left bob, copper velvet pantsuit, black shirt. BW: a petite white woman in her sixties, long white hair in one braid, oversized round black glasses, sea-green silk pantsuit with a pearl-white waistcoat. Medium view of AU at the same lectern. His right hand hovers at the lower shelf opening where only the yellow corner of a small case notebook is visible. Notebook has not been pulled out. Mallet stays on top. BW is in the background presenting the violet sample already on the central plinth; B1 and B2 watch. Before AU reveals his own case. Quiet lower margin. Single cinematic still, landscape 16:9, a real start frame before the specified action, never its completed outcome. No captions, no legible lettering, no numbers, no logo, no watermark, no collage, no duplicated people or extra limbs. Leave the specified caption area visually quiet. Do not render arrows or diagnostic rectangles except simple nontext printed graphic shapes explicitly described.\nReference1 fixes immediately preceding state, actor identities and room; reference2 AUface/lectern. Reframe to a65mm medium from the RIGHT SIDE of the lectern so its open BACK shelf is naturally visible. AU is beside that lectern leaning down with right hand HOVERING at the lower shelf opening, NOT holding a book yet. Only a small YELLOW NOTEBOOK corner protrudes from shelf. Gavel remains ON TOP of lectern; no book in either hand. Behind-right BW stands at central plinth where the violet eight-toothed sample now lies FLAT on its circular face, not upright and no new stand on plinth. Her hands point gently toward it. Cart still has empty black cradle and fixed comparison board. B1's grey board has lowered to his lap, B2's large unfolded green board has lowered onto her lap but remains visible. Three chairs, BW third seat empty. Crimson cloth floor and ivory cloth cart handle retained. Golden luxury cinematography16:9, quiet lower margin. No words anywhere.",
+      "references": [
+        "\\\\wsl.localhost\\Ubuntu-24.04\\home\\wooseok\\wsy\\samsung_related\\slide\\AI실행결과발표대회_디자인3종\\storyboards\\2026-10-24_v12-rework\\images\\C09\\S07.png",
+        "\\\\wsl.localhost\\Ubuntu-24.04\\home\\wooseok\\wsy\\samsung_related\\slide\\AI실행결과발표대회_디자인3종\\storyboards\\2026-10-24_v12-rework\\images\\C09\\S05_v2.png"
+      ],
+      "next_motion_camera": "AU가 아래 선반의 노랑 사례책을 꺼내 펼치고 BW 옆으로 반 걸음 들어온다.4.5초. 추가 감탄 반응은 짧은 눈빛만. / 65mm AU 미디엄. 책의 추출→펼침 한 동선을 보이며 몸 이동은 반 걸음뿐.",
+      "review_status": "THREE_REVIEWERS_RECHECKED_STILL_ONLY",
+      "motion_verified": false,
+      "source_manifest": "artist_C09_manifest.json",
+      "revision_manifest": null
+    },
+    {
+      "concept_id": "C09",
+      "scene_id": "S09",
+      "linked_cuts": [
+        "K09"
+      ],
+      "actual_image_path": "images/C09/S09.png",
+      "sha256": "aba7275332be6bba3fe9083e285b8aa0ecd5fa9d52d0b950ac3851c4a6c6b1b5",
+      "prompt": "Character identity guide only; show only people explicitly visible in this scene. AU: a very tall slender East Asian man in his mid-forties, bald head, thin moustache, dark burgundy tuxedo, gold bow tie, white shirt. B1: a compact sturdy South Asian man in his thirties, neat short black hair and short beard, ochre suit over a black turtleneck. B2: a tall East Asian woman in her late twenties, asymmetric black haircut with a right undercut and long left bob, copper velvet pantsuit, black shirt. BW: a petite white woman in her sixties, long white hair in one braid, oversized round black glasses, sea-green silk pantsuit with a pearl-white waistcoat. Wide shot before the final redirect. AU stands beside BW holding his opened yellow case notebook; BW's LEFT hand is still relaxed at her side, not signaling yet. Violet sample remains on plinth. The third chair at rear-right, originally BW's, is clearly EMPTY. B1 and B2 occupy their original chairs. Exactly four people and three chairs. Do not place AU in the chair yet. Keep the path to it clear. Quiet lower band. Single cinematic still, landscape 16:9, a real start frame before the specified action, never its completed outcome. No captions, no legible lettering, no numbers, no logo, no watermark, no collage, no duplicated people or extra limbs. Leave the specified caption area visually quiet. Do not render arrows or diagnostic rectangles except simple nontext printed graphic shapes explicitly described.\nReference1 is previous scene and fixes sample now lying FLAT ON TOP of plinth, faces, clothes and all props. Reference2 fixes the THREE-seat row including vacant rear-right BW chair. Camera35mm wide with entire scene, no hidden chair. AU has just left lectern and stands immediately LEFT of BW near plinth holding an OPEN small yellow notebook against chest, pages blank. BW stands at plinth RIGHT; her LEFT hand hangs naturally at her side, not signaling yet, right hand relaxed near sample. Behind them THREE original chairs must be visible: ochre-suit B1 seated left with grey board ON LAP; copper-suit B2 seated middle with green trifold ON LAP; BW's original right chair visibly EMPTY. AU standing NOT seated. Clear two-step walking gap to empty chair, no chairs added. The cart with EMPTY cradle stays further right, panel reserved for post and ivory cloth on handle; crimson cloth floor at left. Plinth remains center. No text, no logo, no outcome pose. Cinematic16:9, warm gold luxury, quiet floor lower18%.",
+      "references": [
+        "\\\\wsl.localhost\\Ubuntu-24.04\\home\\wooseok\\wsy\\samsung_related\\slide\\AI실행결과발표대회_디자인3종\\storyboards\\2026-10-24_v12-rework\\images\\C09\\S08.png",
+        "\\\\wsl.localhost\\Ubuntu-24.04\\home\\wooseok\\wsy\\samsung_related\\slide\\AI실행결과발표대회_디자인3종\\storyboards\\2026-10-24_v12-rework\\images\\C09\\S04_v2.png"
+      ],
+      "next_motion_camera": "BW가 잠깐 기다리라는 손바닥을 들어 뒤 빈 의자를 바로 가리킨다(1초). AU가 책을 가슴에 안고 두 걸음 뒤 의자에 앉는다(3초). 앉은 뒤 반응 대기 없음. / 35mm 고정 와이드, 의자까지 두 걸음. 안내1초·이동/착석3초. 총4초.",
+      "review_status": "THREE_REVIEWERS_RECHECKED_STILL_ONLY",
+      "motion_verified": false,
+      "source_manifest": "artist_C09_manifest.json",
+      "revision_manifest": null
+    },
+    {
+      "concept_id": "C09",
+      "scene_id": "S10",
+      "linked_cuts": [
+        "K10"
+      ],
+      "actual_image_path": "images/C09/S10.png",
+      "sha256": "9bd31f6dddd8071da6ad1530821bae71bc81d90b3478ee7c7aba15e159e7ee23",
+      "prompt": "Character identity guide only; show only people explicitly visible in this scene. AU: a very tall slender East Asian man in his mid-forties, bald head, thin moustache, dark burgundy tuxedo, gold bow tie, white shirt. B1: a compact sturdy South Asian man in his thirties, neat short black hair and short beard, ochre suit over a black turtleneck. B2: a tall East Asian woman in her late twenties, asymmetric black haircut with a right undercut and long left bob, copper velvet pantsuit, black shirt. BW: a petite white woman in her sixties, long white hair in one braid, oversized round black glasses, sea-green silk pantsuit with a pearl-white waistcoat. Stable final-start wide shot of the same luxury auction room. BW stands by the violet sample on the central black plinth. B1 and B2 sit in their original seats; AU now sits very upright in BW's former rear-right chair with his yellow notebook open on his lap, just before a small eager lift. Crimson cloth stays on floor, ivory cloth on cart handle. Exactly four people. Put story objects in top seventy-two percent and leave a clean lower title area. Single cinematic still, landscape 16:9, a real start frame before the specified action, never its completed outcome. No captions, no legible lettering, no numbers, no logo, no watermark, no collage, no duplicated people or extra limbs. Leave the specified caption area visually quiet. Do not render arrows or diagnostic rectangles except simple nontext printed graphic shapes explicitly described.\nUse this reference as the exact immediately preceding layout. Change action state: auctioneer in burgundy tuxedo is NOW SEATED UPRIGHT on the SAME currently-empty THIRD chair at the right end of the three-seat row, with open yellow notebook resting on lap, attentive. Do not create another chair; do not keep standing copy. B1 and B2 stay in their original first and second seats holding grey/green boards ON LAPS. BW alone stands beside central plinth, her hands relaxed just before lightly pointing to her violet sample lying FLAT on plinth. Cart retains EMPTY cradle, comparison panel placeholder and ivory cloth. Crimson cloth remains floor at left. Exactly FOUR people total. Pull camera back and tilt slightly down to leave lower23% as clean dark marble FLOOR for later event caption; all faces, board/sample and hand actions within upper72%. Do not generate title or letter anything. Cinematic golden luxury auction room, true16:9, stable long final shot, no major action in first frame.",
+      "references": [
+        "\\\\wsl.localhost\\Ubuntu-24.04\\home\\wooseok\\wsy\\samsung_related\\slide\\AI실행결과발표대회_디자인3종\\storyboards\\2026-10-24_v12-rework\\images\\C09\\S09.png"
+      ],
+      "next_motion_camera": "BW가 자기 샘플을 작게 가리킨다. AU는 무릎의 사례책을 보며 듣는다.33초부터 행사 정보5초 고정. / 35mm 안정된 전체 구도. 진열대와 네 사람은 상단 72%, 하단 제목판.",
+      "review_status": "THREE_REVIEWERS_RECHECKED_STILL_ONLY",
+      "motion_verified": false,
+      "source_manifest": "artist_C09_manifest.json",
+      "revision_manifest": null
+    },
+    {
+      "concept_id": "C10",
+      "scene_id": "S01",
+      "linked_cuts": [
+        "K01"
+      ],
+      "actual_image_path": "images/C10/S01_v2.png",
+      "sha256": "0f4db566e0091e2eb00f0df1a6ab76c68adb7bdb23a093b576c49b0aa8ca5997",
+      "prompt": "Precise two-prop edit of this photograph. Preserve all FIVE people, exact faces, clothes, poses, box CLOSED in man's hands, garden, camera, black lamp and its low pivot, chairs and lighting. (1) Replace the tiny cup/bowl stack on the main table with ONE plain white FLAT ceramic saucer about 16 cm across, entirely empty and with NO cup or bowl on it. The black lamp must illuminate its center. (2) Inside the open brown sample case on the left chair, replace the long zigzag/U-shaped white piece with ONE SMALL solid ivory L-shaped industrial test piece, just 6 cm across: exactly TWO short straight arms of equal width meeting at one 90-degree corner, like the letter L but no printed letter. It rests loosely in a matching open foam recess; it will fit easily beside a 28 mm ring on the 16 cm saucer. Keep case itself same size and place. No extra sample, no captions or writing, no changes elsewhere. 16:9.",
+      "references": [
+        "C:\\Users\\wseok\\.codex\\generated_images\\01a16e2f-6574-7781-9b5c-95d6256f27b6\\exec-3fad4599-12f9-4764-ade8-47d947195484.png"
+      ],
+      "next_motion_camera": "MN이 한쪽 무릎을 바닥에 대고 닫힌 상자를 WM에게 올린다. WM이 두 손을 가슴으로 모은다.3초, 자세를 잡은 뒤 긴 대기 없음. / 50mm 로맨틱 투샷, 후경 둘과 열린 케이스는 초점 밖. 낮은 조명 연결부를 자연스럽게 포함.",
+      "review_status": "THREE_REVIEWERS_RECHECKED_STILL_ONLY",
+      "motion_verified": false,
+      "source_manifest": "artist_C10_manifest.json",
+      "revision_manifest": null
+    },
+    {
+      "concept_id": "C10",
+      "scene_id": "S02",
+      "linked_cuts": [
+        "K02"
+      ],
+      "actual_image_path": "images/C10/S02.png",
+      "sha256": "7a51030d375557eaa2e308a034b75b4e62be5e4995776525b0c496dc957052bd",
+      "prompt": "Character identity guide only; show only people explicitly visible in this scene. MN: a tall slim Korean man in his mid-thirties, shoulder-length long black wavy hair, clean-shaven, ivory linen double-breasted suit over an open-collar black shirt. WM: a sturdy Korean woman in her forties, short dark-auburn red pixie haircut, light freckles, dark emerald velvet dinner suit, black loafers. WT: a short East Asian waiter in his sixties, bald with a full white moustache, white shirt, black waistcoat and long black apron. BG1: a Black woman in her forties wearing a silver-grey head scarf and a mustard long dress, at the established rear-left low table. BG2: an East Asian man in his thirties with short black curls and a navy suit, at the established rear-left low table. MN kneels, LEFT supports CLOSED box, RIGHT fingertips at lid before opening. WM hands near chest. Same low table and VERTICAL lamp with rigid head, low clamp present. Open brown sample case remains on left chair. Ring not outside box. Single cinematic still, landscape 16:9, a real start frame BEFORE the specified action, never its completed outcome. No captions, no legible lettering, no numbers, no logo, no watermark, no collage, no extra people or limbs. Keep specified caption area quiet. Only depict characters explicitly present in the scene; identity guide is not a request to add cast.\nUse reference image for exact identities, costumes and garden arrangement. Camera moves closer to a romantic 85mm medium close shot: man on LEFT now kneeling on one knee, looking sincerely at seated woman on RIGHT. His LEFT palm supports the small CLOSED burgundy velvet box from below; his RIGHT fingertips just touch the front lid edge, ready to open it, but there is no gap in the lid and no ring visible. Woman raises both empty hands near her chest in hopeful anticipation. Keep the floor lamp upright and the plain empty saucer and flat black phone on the low table; these may be partly cropped but must not move. Rear pair and waiter remain softly defocused if visible, no new person. No proposal already accepted, no handholding, no text. Box and hand detail clear, faces partly visible, widescreen16:9.",
+      "references": [
+        "C:\\Users\\wseok\\.codex\\generated_images\\01a16e2f-6574-7781-9b5c-95d6256f27b6\\exec-3056764b-f9ac-4f38-a809-b1aaec92e0e0.png"
+      ],
+      "next_motion_camera": "MN이 상자를 열어 은색 고리를 보여준다. WM 오른손이 고리로 향하고 왼손은 무릎으로 내린다.3.5초, 준비 합6.5초. / 85mm 상자·얼굴 일부. 보석 없는 고리, 뚜껑 뒤로.",
+      "review_status": "THREE_REVIEWERS_RECHECKED_STILL_ONLY",
+      "motion_verified": false,
+      "source_manifest": "artist_C10_manifest.json",
+      "revision_manifest": null
+    },
+    {
+      "concept_id": "C10",
+      "scene_id": "S03",
+      "linked_cuts": [
+        "K03"
+      ],
+      "actual_image_path": "images/C10/S03.png",
+      "sha256": "fbf00f89d79e69c6dbb3c0f852f41fe27330ff8b70f4e4a11bfcbde4585e010c",
+      "prompt": "Character identity guide only; show only people explicitly visible in this scene. MN: a tall slim Korean man in his mid-thirties, shoulder-length long black wavy hair, clean-shaven, ivory linen double-breasted suit over an open-collar black shirt. WM: a sturdy Korean woman in her forties, short dark-auburn red pixie haircut, light freckles, dark emerald velvet dinner suit, black loafers. WT: a short East Asian waiter in his sixties, bald with a full white moustache, white shirt, black waistcoat and long black apron. BG1: a Black woman in her forties wearing a silver-grey head scarf and a mustard long dress, at the established rear-left low table. BG2: an East Asian man in his thirties with short black curls and a navy suit, at the established rear-left low table. Open box in MN hands, silver ring STILL inside. WM LEFT fingers about to pick it up, RIGHT on lap. White saucer and lamp pool at center-right. Lamp upper pole remains VERTICAL; low clamp not yet slipped. Open brown case on left chair. Before ring pickup. Single cinematic still, landscape 16:9, a real start frame BEFORE the specified action, never its completed outcome. No captions, no legible lettering, no numbers, no logo, no watermark, no collage, no extra people or limbs. Keep specified caption area quiet. Only depict characters explicitly present in the scene; identity guide is not a request to add cast.\nStrict scene continuity from reference: same MN kneeling LEFT, WM sitting RIGHT, same lamp and table. The burgundy velvet box is now OPEN in MN's hands; he supports its base, lid opens backward. Inside black foam sits exactly ONE plain silver circular machined ring, 28 mm across, no gem or diamond. WM's anatomical LEFT thumb and index finger approach it with a clear 2 cm air gap, not touching or holding it yet. Her RIGHT hand is relaxed on her lap, not holding another ring. She leans forward with excited curiosity, looking at the object, not offering her ring finger. MN watches warmly. The white saucer remains EMPTY under the upright lamp and black phone is still flat on table. Open brown sample case on empty left chair, small ivory L still in foam. No extra sample, no duplicate box, no cup. Show ring in box clearly and a visible path from box to light/saucer. Warm cinematic 65mm same-axis 16:9 shot.",
+      "references": [
+        "C:\\Users\\wseok\\.codex\\generated_images\\01a16e2f-6574-7781-9b5c-95d6256f27b6\\exec-ae11585e-5f2e-4be0-b36b-4b1518ad97d0.png"
+      ],
+      "next_motion_camera": "WM이 고리를 집어 손가락 대신 등 아래로 옮겨 한 번 돌려 본다. MN은 빈 상자를 테이블 왼쪽에 내려놓는다.4.5초. / 65mm 측면, 고리 이동과 빈 상자 접촉을 같은 화면.",
+      "review_status": "THREE_REVIEWERS_RECHECKED_STILL_ONLY",
+      "motion_verified": false,
+      "source_manifest": "artist_C10_manifest.json",
+      "revision_manifest": null
+    },
+    {
+      "concept_id": "C10",
+      "scene_id": "S04",
+      "linked_cuts": [
+        "K04"
+      ],
+      "actual_image_path": "images/C10/S04.png",
+      "sha256": "2ece60260813b9ea98c88c4fd8c9542249cfbb8912ad35b5b84b4af71bf27693",
+      "prompt": "Character identity guide only; show only people explicitly visible in this scene. MN: a tall slim Korean man in his mid-thirties, shoulder-length long black wavy hair, clean-shaven, ivory linen double-breasted suit over an open-collar black shirt. WM: a sturdy Korean woman in her forties, short dark-auburn red pixie haircut, light freckles, dark emerald velvet dinner suit, black loafers. WT: a short East Asian waiter in his sixties, bald with a full white moustache, white shirt, black waistcoat and long black apron. BG1: a Black woman in her forties wearing a silver-grey head scarf and a mustard long dress, at the established rear-left low table. BG2: an East Asian man in his thirties with short black curls and a navy suit, at the established rear-left low table. WM LEFT holds ring just above EMPTY saucer; RIGHT hand near phone still on tabletop. MN empty-handed looks down. Lamp pole VERTICAL, low clamp unchanged. Open velvet box table-left. Start before placement or phone lift. Single cinematic still, landscape 16:9, a real start frame BEFORE the specified action, never its completed outcome. No captions, no legible lettering, no numbers, no logo, no watermark, no collage, no extra people or limbs. Keep specified caption area quiet. Only depict characters explicitly present in the scene; identity guide is not a request to add cast.\nUse reference for exact actors, positions and all objects. Same 65mm angle a little lower, focus on hands/table with faces visible above. WM at RIGHT holds the plain silver ring between LEFT thumb and index finger about 5 cm ABOVE the EMPTY white saucer, no contact yet. The ring has already left the velvet box; it is NOT on her ring finger. Her RIGHT hand is empty, hovering beside the same black phone still lying flat on the table, before lifting it. MN remains kneeling at LEFT, now both hands empty near his thighs, eyes slightly lowered as if disappointed. The open burgundy velvet box is now on the LEFT of the tabletop and visibly EMPTY. The single small 6 cm ivory L remains inside open brown case on left chair, not on plate. The black lamp pole stays VERTICAL with its rigid upper head unchanged, illuminated pool on empty saucer. Preserve established waiter standing with tray rear-right and background couple rear-left, out of focus, no extra people. No diagnostic text or graphics yet. 16:9, quieter lower eighteen percent.",
+      "references": [
+        "C:\\Users\\wseok\\.codex\\generated_images\\01a16e2f-6574-7781-9b5c-95d6256f27b6\\exec-285184f1-057f-4de3-8519-8c12a132c06b.png"
+      ],
+      "next_motion_camera": "WM이 오른손의 고리를 접시에 놓고 같은 오른손으로 폰을 들어 맞춘다. 빈 왼손으로 후보 표시 후합성 화면과 실물의 같은 부분을 비교한다.4초. 손 사이에 고리를 전달하지 않는다. / 65mm 놓기1초·폰 들기1초·비교2초. 필수 정보는 큰 후처리 자막.",
+      "review_status": "THREE_REVIEWERS_RECHECKED_STILL_ONLY",
+      "motion_verified": false,
+      "source_manifest": "artist_C10_manifest.json",
+      "revision_manifest": null
+    },
+    {
+      "concept_id": "C10",
+      "scene_id": "S05",
+      "linked_cuts": [
+        "K05"
+      ],
+      "actual_image_path": "images/C10/S05.png",
+      "sha256": "63da3c0db32197ef09841b25e36110746c679c138f21cf99f00a5b1f5fcb6b97",
+      "prompt": "Character identity guide only; show only people explicitly visible in this scene. MN: a tall slim Korean man in his mid-thirties, shoulder-length long black wavy hair, clean-shaven, ivory linen double-breasted suit over an open-collar black shirt. WM: a sturdy Korean woman in her forties, short dark-auburn red pixie haircut, light freckles, dark emerald velvet dinner suit, black loafers. WT: a short East Asian waiter in his sixties, bald with a full white moustache, white shirt, black waistcoat and long black apron. BG1: a Black woman in her forties wearing a silver-grey head scarf and a mustard long dress, at the established rear-left low table. BG2: an East Asian man in his thirties with short black curls and a navy suit, at the established rear-left low table. MN kneels LEFT with eyes lowered, RIGHT empty hand hovering above ivory L-shaped sample STILL resting in OPEN brown case on original left chair. LEFT hand relaxed. White saucer has ONLY silver ring. WM holds phone aimed at it. WT begins lowering tray in background. No lifted folio, no sample already on saucer. Lamp vertical. Single cinematic still, landscape 16:9, a real start frame BEFORE the specified action, never its completed outcome. No captions, no legible lettering, no numbers, no logo, no watermark, no collage, no extra people or limbs. Keep specified caption area quiet. Only depict characters explicitly present in the scene; identity guide is not a request to add cast.\nReference 1 is the room and current continuity; reference 2 gives full view of left chair with open sample case. Camera widens slightly to 50mm so the man's actual reach into the LEFT chair case is visible. MN remains kneeling at LEFT, looking down toward that case, his RIGHT hand EMPTY and hovering 3 cm above the single SMALL 6 cm ivory L-shaped piece still in its foam recess. His left hand is relaxed on thigh, no object. He has not grasped or lifted the L piece. WM at RIGHT now holds ONE black smartphone in her RIGHT hand angled down toward the white saucer, which contains ONLY the plain silver ring; her left hand empty by saucer. Screen can be dark/simple, no text or invented interface. Open empty burgundy box remains table left. Same upright black lamp and low clamp unchanged. Waiter rear-right begins lowering his tray with folded mini tripod, not yet kneeling; the rear-left pair remain. No second L piece, no sample on saucer yet, no duplicate phone. Calm sincere commercial photography, 16:9.",
+      "references": [
+        "C:\\Users\\wseok\\.codex\\generated_images\\01a16e2f-6574-7781-9b5c-95d6256f27b6\\exec-2f385d28-1432-4e4f-8166-4b375bc96d17.png",
+        "C:\\Users\\wseok\\.codex\\generated_images\\01a16e2f-6574-7781-9b5c-95d6256f27b6\\exec-3056764b-f9ac-4f38-a809-b1aaec92e0e0.png"
+      ],
+      "next_motion_camera": "MN이 흰 L형 샘플을 바로 집어 같은 접시의 고리 옆에 보탠다. WM이 폰 구도를 조금 넓히자 MN 표정이 밝아진다. 말이나 사례판 펼침 없음. WT는 배경에서 쟁반을 내려두며 무릎을 낮춘다.4초. / 50mm MN의 시선→실물 집기→접시 추가를 한 동선. 열린 케이스는 의자에 그대로.",
+      "review_status": "THREE_REVIEWERS_RECHECKED_STILL_ONLY",
+      "motion_verified": false,
+      "source_manifest": "artist_C10_manifest.json",
+      "revision_manifest": null
+    },
+    {
+      "concept_id": "C10",
+      "scene_id": "S06",
+      "linked_cuts": [
+        "K06"
+      ],
+      "actual_image_path": "images/C10/S06_v2.png",
+      "sha256": "c6365bbd90c92ebd92ceb370d08f88505920656b14fb6c3a04935e6539926003",
+      "prompt": "Make a minimal localized continuity edit to REFERENCE 1, the same 16:9 cinematic garden image. Keep every person, expression, pose, hands, folded tripod on the waiter's tray, the woman's handheld phone, ring box, empty open case, lamp geometry, lighting and camera exactly unchanged. ONLY correct the small white object on the saucer at center-right of table. It is the same FLAT IVORY L-SHAPED TEST COUPON shown in reference 2 beside the silver ring: a small solid 6cm letter-L silhouette with two equal rectangular arms at right angles, cut from a 4mm thick flat sheet. Place it LYING FLAT on the saucer beside the unchanged silver ring, not upright. Its broad flat L-shaped face must be visible from the camera. The current vertical white post is wrong and must be entirely removed/replaced by that low flat L. It is not a cup, candle, cylinder, food or bracket bent out of plane. Copy the flat L specimen shape from reference 2. The dish still holds exactly two industrial test pieces, a plain silver ring on left and flat ivory L on right. Do not change other pixels or scene actions. No lettering.",
+      "references": [
+        "C:\\Users\\wseok\\.codex\\generated_images\\01a16e2f-6574-7781-9b5c-95d6256f27b6\\exec-bc11bb81-adee-454e-938e-4bf997148eb5.png",
+        "C:\\Users\\wseok\\.codex\\generated_images\\01a16e2f-6574-7781-9b5c-95d6256f27b6\\exec-b6f09fc1-8b31-48dc-b6aa-dd987c11ea9a.png"
+      ],
+      "next_motion_camera": "WT가 접힌 미니삼각대를 들어 한 번에 다리를 펴 테이블 앞오른쪽에 놓는다.2.5초. 폰 장착은 다음 컷. / 65mm 손·삼각대·진지한 얼굴. 한번 펴기만, 조절 반복 없음.",
+      "review_status": "THREE_REVIEWERS_RECHECKED_STILL_ONLY",
+      "motion_verified": false,
+      "source_manifest": "artist_C10_manifest.json",
+      "revision_manifest": null
+    },
+    {
+      "concept_id": "C10",
+      "scene_id": "S07",
+      "linked_cuts": [
+        "K07"
+      ],
+      "actual_image_path": "images/C10/S07_v2.png",
+      "sha256": "df116f2cbe0a4e320ad170e4875218063adaf87275ff858d85469667ed5e5cb2",
+      "prompt": "Minimal localized prop continuity correction to REFERENCE 1, the garden scene with woman holding a landscape phone just ABOVE an empty mini tripod clamp. Preserve that BEFORE-MOUNTING phone action exactly: phone suspended in her right hand, empty clamp below, not already mounted. Preserve all five people, hands, expressions, chair/case/tray, pole and coupling, lighting, composition and camera. ONLY replace the current small upright white post on the white saucer with the EXACT flat ivory L-shaped test coupon on that same saucer in REFERENCE 2. It lies FLAT, its two rectangular arms at a right angle visible as a flat letter L, solid 4mm-thick sheet, 6cm overall. Same ring lies unchanged to its left. No standing piece, no cup, no hollow cylinder, no candle. The flat L from reference 2 must be at precisely the same position and orientation on the saucer in reference 1. Keep every other object/action unchanged. No text, logos or new objects.",
+      "references": [
+        "C:\\Users\\wseok\\.codex\\generated_images\\01a16e2f-6574-7781-9b5c-95d6256f27b6\\exec-75e1c045-f1a1-4980-8161-8e30bd5c1326.png",
+        "C:\\Users\\wseok\\.codex\\generated_images\\01a16e2f-6574-7781-9b5c-95d6256f27b6\\exec-3b0ca7e5-421b-4aa6-85b9-1c0465a11c08.png"
+      ],
+      "next_motion_camera": "21.5~22.5초 WM이 폰을 클립에 고정한다.22.5~23.5초 화면이 넓어져 기존 후경의 샘플 촬영을 공개한다. WM이 손을 빼고 자세를 낮추며 낮은 조명 기둥을 가볍게 스친다.23.5~24.5초 덜 잠긴 낮은 클램프가 미끄러져 상부 기둥 전체가 왼쪽8도 기울고 빛이 접시를 벗어난다.24.5~25.5초 둘의 시선이 빛에서 같은 낮은 결합부로 동시에 내려간다. / 28mm 짧은 달리 아웃. 낮은 조인트·기둥 전체·접시 빛 이탈을 같은 프레임. 위쪽 램프 관절은 고정. 총4초.",
+      "review_status": "THREE_REVIEWERS_RECHECKED_STILL_ONLY",
+      "motion_verified": false,
+      "source_manifest": "artist_C10_manifest.json",
+      "revision_manifest": null
+    },
+    {
+      "concept_id": "C10",
+      "scene_id": "S08",
+      "linked_cuts": [
+        "K08"
+      ],
+      "actual_image_path": "images/C10/S08_v2.png",
+      "sha256": "b5f6a1a1a02500c7e1cc25066f2e48c9179fecceb73754492e89f795902090fe",
+      "prompt": "Edit this exact 16:9 cinematic close-up, retaining the warm sunset garden, tabletop, ring box, ring and flat solid ivory L-shaped test plate on white saucer, landscape phone on mini tripod, low lamp coupling at the lower center and single perfectly straight black upper pole tilted left. Correct ONLY the positions of the two hands. This is the beginning of a reach, both hands are still well away from the pole, and neither hand touches anything. Move the man's entire ivory-sleeved right hand at least 220 pixels LEFT from its current location, leaving at least 15 centimeters of clearly visible empty air from the nearest fingertip to the black pole. Move the woman's entire emerald-sleeved left hand at least 270 pixels RIGHT, leaving at least 15 centimeters of clearly visible empty air from her nearest fingertip to the side knob and pole. The woman's index finger MUST NOT rest on the knob, no fingertip may touch any metal. Two separate gently outstretched hands approaching each other from opposite side edges, long clear gap at center with the isolated pole and knob. Her hand occupies far right third; his hand occupies far left third. Preserve anatomical five fingers, sleeves, all object positions, pole geometry and light patch on bare table LEFT of saucer. This first frame must precede reaching or grasping. No text or overlay. Do not change props or crop.",
+      "references": [
+        "C:\\Users\\wseok\\.codex\\generated_images\\01a16e2f-6574-7781-9b5c-95d6256f27b6\\exec-868633c9-1104-4fe2-abec-399c2dc9bb71.png"
+      ],
+      "next_motion_camera": "두 사람이 같은 낮은 연결부로 손을 내민다. MN 오른손은 조인트 바로 위 상부 기둥, WM 왼손은 바로 아래 고정부를 향한다. 손이2cm 남은 지점에서 낮은 미디엄 구도로 컷.3초. / 85mm 따뜻한 손 근접. 기둥의 기울어진 가장자리를 남겨 직전 원인을 유지. 손을 서로 잡게 하지 않음.",
+      "review_status": "THREE_REVIEWERS_RECHECKED_STILL_ONLY",
+      "motion_verified": false,
+      "source_manifest": "artist_C10_manifest.json",
+      "revision_manifest": null
+    },
+    {
+      "concept_id": "C10",
+      "scene_id": "S09",
+      "linked_cuts": [
+        "K09"
+      ],
+      "actual_image_path": "images/C10/S09_v5.png",
+      "sha256": "84de54942c3ca591648fb193f3fb54896a779c4b32dcb57c49d929869cbaa467",
+      "prompt": "Create a NEW CAMERA SHOT of the same moment in image 1, a lower 50mm medium view centered on the LOW lamp coupling, the two approaching hands, and the sample saucer. Use image 1 as scene/state/identity reference and image 2 ONLY for the ivory L-shaped piece resting in the left-chair case. Crop actors at shoulders or chest; the lamp head may be OUT OF FRAME above. This is still BEFORE repair. Foreground center: same weighted base and vertical lower stem, same round side-knob coupling at 35 cm, below the 45 cm tabletop. From that coupling the ONE straight upper pole tilts LEFT eight degrees and exits the upper edge, with no second hinge or bend. From LEFT an ivory suit sleeve ends in MN's open RIGHT hand, fingers 2 cm away from upper pole just above coupling. From RIGHT an emerald velvet sleeve ends in WM's open LEFT hand, fingers 2 cm away from lower fixed stem just below coupling. Neither hand touches yet. Two hands ONLY near lamp. On the tabletop behind and to right, show clearly ONE flat white saucer with EXACTLY TWO SMALL SOLID test pieces: a thin plain SILVER RING and an ivory FLAT L-SHAPED plate laid flat, two straight square-ended rectangular arms joined at 90 degrees with an open inner corner. The ivory L is visibly a little carpenter-square shape, NOT a cup, cylinder, spool or upright object. Its outline must be clearly L-shaped from this elevated-enough view. A distinct warm oval of lamp light falls on BARE tabletop LEFT of the saucer, missing the two objects. Black phone stays mounted landscape in mini tripod on table right. Open empty burgundy box table left, empty brown case on left chair can be edge-cropped. Keep sunset romantic lighting but no new items or letters. 16:9. This is a closer revealing angle, not a repaired/end state.",
+      "references": [
+        "C:\\Users\\wseok\\.codex\\generated_images\\01a16e2f-6574-7781-9b5c-95d6256f27b6\\exec-2039a4ed-7d9e-4be3-a41e-f0f6b80eadcb.png",
+        "C:\\Users\\wseok\\.codex\\generated_images\\01a16e2f-6574-7781-9b5c-95d6256f27b6\\exec-3056764b-f9ac-4f38-a809-b1aaec92e0e0.png"
+      ],
+      "next_motion_camera": "두 손이 서로 대신 같은 낮은 결합부 위·아래를 잡는다. WM이 하부를 지지하고 MN이 상부의 직선 기둥 전체를 수직으로 되돌린다(첫3초). 빛이 접시의 두 샘플로 돌아온다(다음1초). 남은3.5초 두 손이 고정부를 계속 지지하고 샘플의 안정된 빛을 보여준다. 얼굴 반응은 다음 와이드로 넘긴다. / 승인된50mm 낮은 미디엄. 낮은 조인트·직선 기둥 방향·두 손·샘플의 빛에 집중. 머리/등 머리/웨이터 표정 동시 노출은 요구하지 않는다.",
+      "review_status": "THREE_REVIEWERS_RECHECKED_STILL_ONLY",
+      "motion_verified": false,
+      "source_manifest": "artist_C10_manifest.json",
+      "revision_manifest": null
+    },
+    {
+      "concept_id": "C10",
+      "scene_id": "S10",
+      "linked_cuts": [
+        "K10"
+      ],
+      "actual_image_path": "images/C10/S10.png",
+      "sha256": "bee8b14b1a315881cfee5dfa84cb841715af4081b04cddec5f82d1799e3cb395",
+      "prompt": "Character identity guide only; show only people explicitly visible in this scene. MN: a tall slim Korean man in his mid-thirties, shoulder-length long black wavy hair, clean-shaven, ivory linen double-breasted suit over an open-collar black shirt. WM: a sturdy Korean woman in her forties, short dark-auburn red pixie haircut, light freckles, dark emerald velvet dinner suit, black loafers. WT: a short East Asian waiter in his sixties, bald with a full white moustache, white shirt, black waistcoat and long black apron. BG1: a Black woman in her forties wearing a silver-grey head scarf and a mustard long dress, at the established rear-left low table. BG2: an East Asian man in his thirties with short black curls and a navy suit, at the established rear-left low table. Stable final-start wide of same garden, exactly five people. MN RIGHT hand supports upper-pole section just ABOVE low coupling and WM LEFT supports fixed section just BELOW, holding the formerly loose joint so pole is VERTICAL. Rigid lamp head illuminates BOTH silver ring and ivory L sample on saucer. Phone mounted, open brown case remains on chair. WT by phone, rear couple at original table with blue sample. Hands must keep supporting, no clasp. Story top seventy-two percent, clean lower title area. Single cinematic still, landscape 16:9, a real start frame BEFORE the specified action, never its completed outcome. No captions, no legible lettering, no numbers, no logo, no watermark, no collage, no extra people or limbs. Keep specified caption area quiet. Only depict characters explicitly present in the scene; identity guide is not a request to add cast.\nUse reference 1 for the exact five actors, clothing, garden layout, furniture, full-size vertical lamp and sunset. Use reference 2 for the correct flat ivory L-shaped solid sample and ring, mounted landscape phone, empty burgundy box, and the low coupling with side knob. Make a new wider final first frame, NOT a crop of reference 2. MN is still kneeling left and WM seated on right low chair, both leaning down to the same LOW joint at the table's front edge. His RIGHT hand wraps the straight black pole immediately ABOVE the low coupling; her LEFT hand wraps the lower pole immediately BELOW it. Both clearly support the LOW joint below tabletop height. Hands are vertically separated by the black coupling; they do NOT hold each other's hands. The lamp is now perfectly straight VERTICAL from weighted floor base to top. No tilt, no upper bending hinge; rigid top arm and head remain fixed. A concentrated warm pool of inspection light shines directly onto BOTH specimens on the saucer (silver plain circular ring and flat solid ivory L shape with two 90-degree rectangular arms, like an L cut from a 4mm sheet). Show the L LYING FLAT on the saucer, visibly an L from the camera: NOT standing, NOT a cup, NOT a cylinder, NO hollow objects. Landscape phone is now fully mounted in the tripod clip. Main couple look earnestly at their sample; waiter kneels at right, empty wooden tray on ground. Rear existing couple inspect a blue square sample at their original table. Only five people total. Frame slightly higher with ample quiet dark ground at lower 23% for later event title overlay, without obscuring either support hand or the pole base. No text. Cinematic romantic sincere atmosphere makes the anticlimax funny, not exaggerated smiling. 35mm locked wide, 16:9. Preserve identities exactly.",
+      "references": [
+        "C:\\Users\\wseok\\.codex\\generated_images\\01a16e2f-6574-7781-9b5c-95d6256f27b6\\exec-75e1c045-f1a1-4980-8161-8e30bd5c1326.png",
+        "C:\\Users\\wseok\\.codex\\generated_images\\01a16e2f-6574-7781-9b5c-95d6256f27b6\\exec-b6f09fc1-8b31-48dc-b6aa-dd987c11ea9a.png"
+      ],
+      "next_motion_camera": "두 사람은 조인트를 계속 받친 채 눈을 한번 맞추고 작게 웃는다. WT가 폰 화면과 실물을 비교한다.36초부터 행사 정보5초 고정. 지지손은 놓지 않는다. / 35mm 고정 와이드. 지지손·수직 기둥·조명된 샘플을 상단72%, 하단 제목판.",
+      "review_status": "THREE_REVIEWERS_RECHECKED_STILL_ONLY",
+      "motion_verified": false,
+      "source_manifest": "artist_C10_manifest.json",
+      "revision_manifest": null
+    }
+  ],
+  "scene_count": 40,
+  "flow_executed": false
+}

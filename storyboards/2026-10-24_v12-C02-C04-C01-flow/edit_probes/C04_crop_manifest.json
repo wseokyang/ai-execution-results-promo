@@ -1,0 +1,15 @@
+{
+  "source": "C04_K08_take02.mp4",
+  "crop_xywh": [
+    600,
+    20,
+    512,
+    288
+  ],
+  "output": "C04_K08_three_windows_crop.mp4",
+  "duration": 8,
+  "frames": 192,
+  "audio": "none",
+  "purpose": "Editorial insert of three front windows. Exclude unintended fourth side figure. Original preserved. Full 8s probe, not final edit selection.",
+  "status": "REVIEW_PENDING"
+}

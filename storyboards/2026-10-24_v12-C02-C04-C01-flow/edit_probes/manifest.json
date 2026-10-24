@@ -1,0 +1,57 @@
+[
+  {
+    "name": "C02_K05_K06_join",
+    "source_segments": [
+      [
+        "C02_K05_take01.mp4",
+        0,
+        3
+      ],
+      [
+        "C02_K06_take01.mp4",
+        0,
+        2
+      ]
+    ],
+    "frames": 120,
+    "duration": 5.0,
+    "audio": "none",
+    "status": "EDIT_PROBE_REVIEW_PENDING",
+    "note": "Real generated source intervals only; no image animation, interpolation, reverse or speed change."
+  },
+  {
+    "name": "C02_K04_clean_button",
+    "source_segments": [
+      [
+        "C02_K04_take01.mp4",
+        1,
+        2.5
+      ],
+      [
+        "C02_K04_take01.mp4",
+        4.5,
+        6
+      ]
+    ],
+    "frames": 72,
+    "duration": 3.0,
+    "audio": "none",
+    "status": "EDIT_PROBE_REVIEW_PENDING",
+    "note": "Real generated source intervals only; no image animation, interpolation, reverse or speed change."
+  },
+  {
+    "name": "C02_K09_revised_ending",
+    "source_segments": [
+      [
+        "C02_K09_take01.mp4",
+        4,
+        6.5
+      ]
+    ],
+    "frames": 60,
+    "duration": 2.5,
+    "audio": "none",
+    "status": "EDIT_PROBE_REVIEW_PENDING",
+    "note": "Real generated source intervals only; no image animation, interpolation, reverse or speed change."
+  }
+]

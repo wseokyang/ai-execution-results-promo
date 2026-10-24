@@ -1,0 +1,940 @@
+{
+  "schema_version": 1,
+  "run_id": "2026-10-24_v12-C02-C04-C01-flow",
+  "prepared_on": "2026-10-24",
+  "purpose": "User-approved C02, C04 and C01 motion prompts; no generation performed by this preparation step.",
+  "settings": {
+    "model": "Lite",
+    "duration_seconds": 8,
+    "aspect_ratio": "16:9",
+    "outputs_per_request": 1,
+    "dialogue": false,
+    "voiceover": false,
+    "lip_sync": false,
+    "delivery_requires_audio": false,
+    "exact_typography": "postproduction_only"
+  },
+  "scope": {
+    "concept_order": [
+      "C02",
+      "C04",
+      "C01"
+    ],
+    "unit_count": 27,
+    "units_per_concept": 9,
+    "edited_durations_seconds": {
+      "C02": 39,
+      "C04": 37,
+      "C01": 37.5
+    },
+    "prompt_language": "English",
+    "prompt_word_range": [
+      128,
+      148
+    ],
+    "changed_files": [
+      "storyboards/2026-10-24_v12-C02-C04-C01-flow/flow_prompt_pack.json"
+    ]
+  },
+  "sources_read": [
+    "AGENTS.md",
+    "team/brief.toml",
+    "00_장면연결_재검토.md",
+    "storyboards/2026-10-23_v11-production-lock/storyboards.json",
+    "storyboards/2026-10-23_v11-production-lock/production_units.tsv",
+    "storyboards/2026-10-23_v11-production-lock/flow_prompts/C01_K01.txt through C01_K09.txt",
+    "storyboards/2026-10-23_v11-production-lock/flow_prompts/C02_K01.txt through C02_K09.txt",
+    "storyboards/2026-10-23_v11-production-lock/flow_prompts/C04_K01.txt through C04_K09.txt",
+    "storyboards/2026-10-24_v12-C02-C04-C01-flow/queue.json"
+  ],
+  "visual_reference_review": {
+    "method": "Opened the three actual V11 all-starts contact sheets; no generated motion reviewed.",
+    "paths": [
+      "storyboards/2026-10-23_v11-production-lock/contact_sheets/C02_all_starts.jpg",
+      "storyboards/2026-10-23_v11-production-lock/contact_sheets/C04_all_starts.jpg",
+      "storyboards/2026-10-23_v11-production-lock/contact_sheets/C01_all_starts.jpg"
+    ]
+  },
+  "policy_notes": [
+    "선정 전 제출 금지라는 옛 원문 문장은 실행 프롬프트에서 제거. 사용자의 현재 C02·C04·C01 생성 승인 범위에 맞춘 준비 자료.",
+    "정확한 모니터·태블릿·문서·전화 화면·출력 사진·행사명·숫자·자막은 후합성. prompt에는 문자 생성 지시 없음.",
+    "8초는 생성 원본 길이이며 전체 콘티는 기존 편집 길이로 트림. 핵심 인과 동작이 트림으로 사라지면 채택하지 않음.",
+    "K04·K06의 실제 의자 미끄러짐, C02 청소/재촬영과 수갑 광로, C04 음식 공개 후 창 개방은 결과만 붙여 해결 처리하지 않음.",
+    "기존 이미지·원안 컷 수·내용·queue·제출 텍스트를 수정하지 않음. 이 파일 작성 단계의 Flow·업로드·이미지 생성·Git 실행 없음."
+  ],
+  "risks": [
+    {
+      "units": [
+        "C02_K04",
+        "C02_K05",
+        "C02_K06"
+      ],
+      "risk": "촬영창·고정 헤드·시편·지그가 움직이거나 수갑이 창 옆에만 걸리면 원인이 불성립.",
+      "acceptance": "같은 시편/조명 유지, 천의 보호창 접촉 및 이탈, 수갑 한쪽이 실제 광로를 가리는 연속 동작. 합성 결과 전환은 촬영 버튼 이후."
+    },
+    {
+      "units": [
+        "C02_K07",
+        "C02_K08",
+        "C02_K09"
+      ],
+      "risk": "전화/출력 사진 내용이 다른 순간을 보여주거나 사진이 떨어지면 증거 연결과 마지막 손동작 반전 약화.",
+      "acceptance": "채택 K07 현장 프레임을 전화와 중앙 출력 사진에 맞춤. K09 사진은 붙인 채 손가락만 펴서 가장자리 정돈."
+    },
+    {
+      "units": [
+        "C04_K07",
+        "C04_K08",
+        "C04_K09"
+      ],
+      "risk": "음식 공개 전 창 열림, 즉시 군중/손 생성, 팔·그릇·숟가락 증식 가능.",
+      "acceptance": "K07 내내 창 닫힘. K08 기존 세 셔터가 열린 다음 기존 세 병사가 자기 창으로 식기를 냄. K09 기존 병사 식기 유지 + 지휘관 별도 숟가락 하나."
+    },
+    {
+      "units": [
+        "C01_K04",
+        "C01_K06"
+      ],
+      "risk": "의자 이탈 없이 눕는 동작이나 착지 결과로 점프하면 핵심 반전 미구현.",
+      "acceptance": "바퀴 이동→좌석과 골반 분리→짧은 실제 하강→매트 접촉이 한 연속 화면에서 보임. K04 원본 동작에 포스터/모니터 첫 자세를 맞추고 K06 착지 종점은 K07과 연결."
+    },
+    {
+      "units": [
+        "C01_K05",
+        "C01_K07"
+      ],
+      "risk": "같은 컷의 주행동과 작은 후속 준비 행동이 8초에서 합쳐지거나 누락될 수 있음.",
+      "acceptance": "K05 두 인물의 왼쪽 두 걸음과 코치 의자 당김, K07 촬영과 L2 낮아지기 시작을 유지. 컷 삭제·사건 대체로 해결하지 않음."
+    }
+  ],
+  "entries": [
+    {
+      "unit": "C02_K01",
+      "prompt": "Create one continuous 8-second 16:9 shot from the supplied starting image. Preserve its cast, clothing, objects, lighting, and screen direction. In the fixed low-angle medium view, the detective touches one blurry mark on a product photograph, then draws the loose red string toward another existing photograph. Treat this as an absurdly solemn discovery: concentrated eyes, complete confidence, no smile or wink. Preserve the wall's varied product photographs, existing string routes, and empty central area. Other photographs stay attached and stationary; the detective neither rearranges the evidence nor uncovers the camera fault. Finish with the connecting string held in place and his attention still on the products. No speech, voice-over, lip sync, generated writing, numbers, logos, or watermarks. Convey the action visually; exact graphics and captions belong in post.",
+      "source_prompt": "storyboards/2026-10-23_v11-production-lock/flow_prompts/C02_K01.txt",
+      "input_image": "storyboards/2026-10-24_v12-C02-C04-C01-flow/inputs/C02_K01.png",
+      "source_image": "storyboards/2026-10-23_v11-production-lock/images/C02/S01_v2.png",
+      "essential_action": "형사가 흐린 흔적을 짚고 붉은 실을 다른 기존 사진으로 당긴다.",
+      "postproduction": {
+        "notes": "수사벽 사진·실 배치는 원본 유지. 제품 사진의 정확한 비교 흔적은 필요시 기존 이미지에 맞춰 후합성.",
+        "caption_cues": [
+          {
+            "start": 0.4,
+            "end": 3.8,
+            "text": "제품은 다른데,\n흔적은 같다.",
+            "kind": "setup",
+            "placement": "얼굴·손·핵심 소품을 피한 하단 안전 여백",
+            "box": {
+              "left_pct": 7,
+              "width_pct": 86,
+              "bottom_pct": 6
+            }
+          }
+        ],
+        "editorial_timing": {
+          "start": 0,
+          "end": 4,
+          "duration": 4
+        },
+        "audio_required": false
+      },
+      "change_note": "장황한 외형·장르 설명을 제거하고 사진 지목→붉은 실 연결 한 행동으로 압축."
+    },
+    {
+      "unit": "C02_K02",
+      "prompt": "Create one continuous 8-second 16:9 shot from the supplied starting image. Preserve its cast, clothing, objects, lighting, and screen direction. Keep the fixed side view of the inspection bench. As the technician stops his tray, the detective steps across its path and holds an excessively formal blocking pose. The inspector points toward the existing monitor. Without moving his blocking torso or clearing the tray, the detective turns only his head to look at her indication. Keep the inspection head on the left and the same white specimen in its fixed jig on the right. The orange-edged window stays unobstructed; the handcuffs remain concealed. End with this ridiculous blockade still intact. No speech, voice-over, lip sync, generated writing, numbers, logos, or watermarks. Convey the action visually; exact graphics and captions belong in post.",
+      "source_prompt": "storyboards/2026-10-23_v11-production-lock/flow_prompts/C02_K02.txt",
+      "input_image": "storyboards/2026-10-24_v12-C02-C04-C01-flow/inputs/C02_K02.png",
+      "source_image": "storyboards/2026-10-23_v11-production-lock/images/C02/S02.png",
+      "essential_action": "트레이 반출을 몸으로 막은 형사가 몸은 고정한 채 모니터로 고개만 돌린다.",
+      "postproduction": {
+        "notes": "모니터 내용은 기존 상태를 유지하며 정확한 검사용 화면과 자막을 후합성.",
+        "caption_cues": [
+          {
+            "start": 4.3,
+            "end": 6.8,
+            "text": "사진부터 보시죠.",
+            "kind": "character",
+            "placement": "얼굴·손·핵심 소품을 피한 하단 안전 여백",
+            "box": {
+              "left_pct": 7,
+              "width_pct": 86,
+              "bottom_pct": 6
+            }
+          }
+        ],
+        "editorial_timing": {
+          "start": 4,
+          "end": 7,
+          "duration": 3
+        },
+        "audio_required": false
+      },
+      "change_note": "제품 반출 차단이 주행동. 트레이 멈춤·손가락 지시·시선 전환만 연결."
+    },
+    {
+      "unit": "C02_K03",
+      "prompt": "Create one continuous 8-second 16:9 shot from the supplied starting image. Preserve its cast, clothing, objects, lighting, and screen direction. Frame the inspector's gloved hand, profile, mouse, and monitor as in the reference. She makes one deliberate mouse drag to compare the already selected images, then points at the corresponding position on the monitor. The detective follows her finger and redirects his gaze toward the inspection equipment. Keep the existing screen layout stable as a compositing plate; do not invent changing interface panels or diagnoses. Her physical input and precise pointing must read as a person checking evidence, not a machine identifying a culprit. Hold the final pointing position with the monitor corners visible. No speech, voice-over, lip sync, generated writing, numbers, logos, or watermarks. Convey the action visually; exact graphics and captions belong in post.",
+      "source_prompt": "storyboards/2026-10-23_v11-production-lock/flow_prompts/C02_K03.txt",
+      "input_image": "storyboards/2026-10-24_v12-C02-C04-C01-flow/inputs/C02_K03.png",
+      "source_image": "storyboards/2026-10-23_v11-production-lock/images/C02/S03.png",
+      "essential_action": "검사 담당자가 이미 모인 후보를 마우스로 겹쳐 비교하고 같은 위치를 짚는다.",
+      "postproduction": {
+        "notes": "모니터: 서로 다른 제품 후보 3장의 겹침과 동일 위치의 부드러운 가림을 후합성. AI는 후보 묶기, 원인·범인 판정 없음. 손/마우스 시점에 합성 맞춤.",
+        "caption_cues": [
+          {
+            "start": 7.2,
+            "end": 9.8,
+            "text": "AI가 모은 후보 3장",
+            "kind": "evidence",
+            "placement": "얼굴·손·핵심 소품을 피한 하단 안전 여백",
+            "box": {
+              "left_pct": 7,
+              "width_pct": 86,
+              "bottom_pct": 6
+            }
+          },
+          {
+            "start": 10,
+            "end": 12.8,
+            "text": "겹치니, 전부 같은 자리.",
+            "kind": "evidence",
+            "placement": "얼굴·손·핵심 소품을 피한 하단 안전 여백",
+            "box": {
+              "left_pct": 7,
+              "width_pct": 86,
+              "bottom_pct": 6
+            }
+          }
+        ],
+        "editorial_timing": {
+          "start": 7,
+          "end": 13,
+          "duration": 6
+        },
+        "audio_required": false
+      },
+      "change_note": "디지털 비교 동작은 후합성으로 분리하고 실제 마우스 입력·지목만 생성."
+    },
+    {
+      "unit": "C02_K04",
+      "prompt": "Create one continuous 8-second 16:9 shot from the supplied starting image. Preserve its cast, clothing, objects, lighting, and screen direction. In the locked side view, the inspector presses the cloth against the orange-edged protective window and wipes its cloudy smear away in one clear pass. She withdraws the cloth completely, then presses the existing capture control once. Keep the same white specimen, black jig, camera head, bracket, and lighting absolutely stationary throughout. The cleaned window must visibly remain in the optical path between camera and specimen; do not clean or exchange the specimen. Keep the monitor stable for the matched before-and-after insert. The detective gives one restrained nod after the capture, and the clean window remains unobstructed. No speech, voice-over, lip sync, generated writing, numbers, logos, or watermarks. Convey the action visually; exact graphics and captions belong in post.",
+      "source_prompt": "storyboards/2026-10-23_v11-production-lock/flow_prompts/C02_K04.txt",
+      "input_image": "storyboards/2026-10-24_v12-C02-C04-C01-flow/inputs/C02_K04.png",
+      "source_image": "storyboards/2026-10-23_v11-production-lock/images/C02/S04.png",
+      "essential_action": "같은 제품·촬영 조건을 유지하며 보호창을 닦고 천을 치운 뒤 재촬영한다.",
+      "postproduction": {
+        "notes": "같은 흰 시편의 청소 전 가림→청소 후 가림 없는 영상으로 모니터 후합성. 촬영 버튼 이후에만 결과 전환. 원래 흔적은 흐린 가림, 선명한 먼지 점 아님.",
+        "caption_cues": [
+          {
+            "start": 14.5,
+            "end": 16.9,
+            "text": "닦고 다시 찍으니… 사라졌다.",
+            "kind": "reveal",
+            "placement": "얼굴·손·핵심 소품을 피한 하단 안전 여백",
+            "box": {
+              "left_pct": 7,
+              "width_pct": 86,
+              "bottom_pct": 6
+            }
+          }
+        ],
+        "editorial_timing": {
+          "start": 13,
+          "end": 17,
+          "duration": 4
+        },
+        "audio_required": false
+      },
+      "change_note": "보호창 직접 접촉·청소·천 이탈·재촬영을 한 인과 행동으로 명확화. 제품 교체로 결과를 만들지 않음."
+    },
+    {
+      "unit": "C02_K05",
+      "prompt": "Create one continuous 8-second 16:9 shot from the supplied starting image. Preserve its cast, clothing, objects, lighting, and screen direction. Keep the close side view of the fixed camera head, its upper black bracket, orange-edged window, and the specimen beyond. The detective closes one open handcuff around the upper bracket, then releases the other cuff from his hand. The connected free cuff drops a short distance on its chain and settles immediately in front of the orange-edged window, crossing the camera's view toward the white specimen. Its ring lies approximately parallel to the window. Show fastening, release, and obstruction continuously. Neither camera nor specimen moves. Finish with his solemn satisfaction and a brief still hold on the obstructing cuff. No speech, voice-over, lip sync, generated writing, numbers, logos, or watermarks. Convey the action visually; exact graphics and captions belong in post.",
+      "source_prompt": "storyboards/2026-10-23_v11-production-lock/flow_prompts/C02_K05.txt",
+      "input_image": "storyboards/2026-10-24_v12-C02-C04-C01-flow/inputs/C02_K05.png",
+      "source_image": "storyboards/2026-10-23_v11-production-lock/images/C02/S05.png",
+      "essential_action": "수갑 한쪽을 고정 브래킷에 잠그고 놓아 다른 고리가 촬영창 바로 앞 광로를 가린다.",
+      "postproduction": {
+        "notes": "금속 잠금 효과음은 선택. 결과 모니터는 이 컷에서 갱신하지 않음. 수갑이 실제 광로에 들어오는 프레임을 다음 컷과 연결.",
+        "caption_cues": [
+          {
+            "start": 17.3,
+            "end": 19.5,
+            "text": "이제 못 움직여.",
+            "kind": "character",
+            "placement": "얼굴·손·핵심 소품을 피한 하단 안전 여백",
+            "box": {
+              "left_pct": 7,
+              "width_pct": 86,
+              "bottom_pct": 6
+            }
+          }
+        ],
+        "editorial_timing": {
+          "start": 17,
+          "end": 21,
+          "duration": 4
+        },
+        "audio_required": false
+      },
+      "change_note": "수갑이 나타난 결과만 남기지 않도록 잠금→손 놓기→고리 낙하·광로 가림을 명시."
+    },
+    {
+      "unit": "C02_K06",
+      "prompt": "Create one continuous 8-second 16:9 shot from the supplied starting image. Preserve its cast, clothing, objects, lighting, and screen direction. Use the same locked inspection-bench axis. Begin with the cuff already suspended directly in front of the orange-edged protective window and the inspector's finger poised at the capture control. She presses once, waits a short beat while looking at the monitor, then looks directly at the physical cuff and exchanges a restrained glance with the technician. Keep the cuff, window, white specimen, and monitor visible together. The cuff must continue blocking the real camera-to-specimen path without shifting the camera head. Preserve the monitor as a stable insert surface; the new blurred obstruction will be composited after her button press. No speech, voice-over, lip sync, generated writing, numbers, logos, or watermarks. Convey the action visually; exact graphics and captions belong in post.",
+      "source_prompt": "storyboards/2026-10-23_v11-production-lock/flow_prompts/C02_K06.txt",
+      "input_image": "storyboards/2026-10-24_v12-C02-C04-C01-flow/inputs/C02_K06.png",
+      "source_image": "storyboards/2026-10-23_v11-production-lock/images/C02/S06.png",
+      "essential_action": "수갑이 광로를 막은 상태로 재촬영한 뒤 담당자가 실물 고리와 동료를 본다.",
+      "postproduction": {
+        "notes": "K04의 깨끗한 같은 시편 화면에서 촬영 뒤 부드러운 고리형 가림으로 후합성. 실물 수갑 위치와 시간 일치. 선명한 범죄 표식·얼굴인식 UI 없음.",
+        "caption_cues": [],
+        "editorial_timing": {
+          "start": 21,
+          "end": 24,
+          "duration": 3
+        },
+        "audio_required": false
+      },
+      "change_note": "재촬영 1회와 시선 연결로 압축. 실제 수갑 가림과 모니터 결과의 인과를 유지."
+    },
+    {
+      "unit": "C02_K07",
+      "prompt": "Create one continuous 8-second 16:9 shot from the supplied starting image. Preserve its cast, clothing, objects, lighting, and screen direction. From the technician's shoulder, show him raising the same phone from chest height to photograph the detective beside the cuffed inspection camera. He holds the phone steady and presses its capture control once. The inspector indicates the hanging cuff with one small pointing gesture. The detective notices the phone a moment late and turns his face toward it, retaining his self-satisfied posture. Preserve the cuff's attachment and its position across the window. Keep the actual people and equipment visible beyond the phone, with no facial recognition animation. Finish on a steady photographed arrangement usable as the next shot's printed evidence. No speech, voice-over, lip sync, generated writing, numbers, logos, or watermarks. Convey the action visually; exact graphics and captions belong in post.",
+      "source_prompt": "storyboards/2026-10-23_v11-production-lock/flow_prompts/C02_K07.txt",
+      "input_image": "storyboards/2026-10-24_v12-C02-C04-C01-flow/inputs/C02_K07.png",
+      "source_image": "storyboards/2026-10-23_v11-production-lock/images/C02/S07_v2.png",
+      "essential_action": "기사가 수갑·장비·형사를 휴대전화로 직접 한 번 촬영한다.",
+      "postproduction": {
+        "notes": "전화 화면과 K08 출력 사진에 같은 현장 프레임 후합성. 사진 출력 시간은 컷 사이 생략 가능. AI 얼굴 판정 없음.",
+        "caption_cues": [
+          {
+            "start": 24.6,
+            "end": 26.9,
+            "text": "새로운 사례 확보.",
+            "kind": "escalation",
+            "placement": "얼굴·손·핵심 소품을 피한 하단 안전 여백",
+            "box": {
+              "left_pct": 7,
+              "width_pct": 86,
+              "bottom_pct": 6
+            }
+          }
+        ],
+        "editorial_timing": {
+          "start": 24,
+          "end": 27,
+          "duration": 3
+        },
+        "audio_required": false
+      },
+      "change_note": "휴대전화 촬영을 주행동으로 고정하고 인물 자동판정 연출 제거."
+    },
+    {
+      "unit": "C02_K08",
+      "prompt": "Create one continuous 8-second 16:9 shot from the supplied starting image. Preserve its cast, clothing, objects, lighting, and screen direction. Keep the front-facing medium-wide view of the evidence wall. Starting with the inspector holding the new print just away from the empty center, she brings it forward and presses it flat onto that same central place. The detective looks at the image, recognizes himself, and becomes still. He does not reach toward it yet. Preserve the existing product pictures and red-string layout around the new print. Keep the printed surface stable and unobscured once attached so the exact preceding phone photograph can be matched in post. End with the print firmly attached and the detective's frozen recognition visible beside it. No speech, voice-over, lip sync, generated writing, numbers, logos, or watermarks. Convey the action visually; exact graphics and captions belong in post.",
+      "source_prompt": "storyboards/2026-10-23_v11-production-lock/flow_prompts/C02_K08.txt",
+      "input_image": "storyboards/2026-10-24_v12-C02-C04-C01-flow/inputs/C02_K08.png",
+      "source_image": "storyboards/2026-10-23_v11-production-lock/images/C02/S08_v2.png",
+      "essential_action": "검사 담당자가 앞 컷 현장 사진을 수사벽 빈 중앙에 붙인다.",
+      "postproduction": {
+        "notes": "출력 사진 내용은 K07 실제 채택 프레임에 맞춰 후합성. 사진 위치·기울기 고정, 수갑은 실제 장비에도 계속 남음.",
+        "caption_cues": [],
+        "editorial_timing": {
+          "start": 27,
+          "end": 31,
+          "duration": 4
+        },
+        "audio_required": false
+      },
+      "change_note": "사진 붙이기와 형사의 정지 반응만 남겨 K09 손 행동을 앞당기지 않음."
+    },
+    {
+      "unit": "C02_K09",
+      "prompt": "Create one continuous 8-second 16:9 shot from the supplied starting image. Preserve its cast, clothing, objects, lighting, and screen direction. Use the fixed medium-wide ending composition. The detective's fingertips approach the edge of his already attached photograph as though he wants to remove it. Before he lifts any edge, the inspector raises her pointer and touches that same photograph. He immediately flattens his fingers and smooths the edge once instead, pretending this was his intention. Keep the photograph attached in exactly the same position. Hold his hand against it and his composed expression for the remaining time. Do not add a collar adjustment, crossed arms, or a second gesture. Preserve the upper wall space and all surrounding evidence. No speech, voice-over, lip sync, generated writing, numbers, logos, or watermarks. Convey the action visually; exact graphics and captions belong in post.",
+      "source_prompt": "storyboards/2026-10-23_v11-production-lock/flow_prompts/C02_K09.txt",
+      "input_image": "storyboards/2026-10-24_v12-C02-C04-C01-flow/inputs/C02_K09.png",
+      "source_image": "storyboards/2026-10-23_v11-production-lock/images/C02/S09_v2.png",
+      "essential_action": "사진을 떼려던 형사가 포인터를 보자 가장자리만 반듯하게 누르는 척한다.",
+      "postproduction": {
+        "notes": "상단 자막 두 큐를 순서대로 합성: 인물 문구 뒤 행사명. 중앙 사진·손·포인터를 가리지 않음. 기존 K07 현장 사진 유지.",
+        "caption_cues": [
+          {
+            "start": 31.2,
+            "end": 33.8,
+            "text": "이 사례는 직접 설명하시죠.",
+            "kind": "character",
+            "placement": "상단 빈 벽, 중앙 사진·손 비움",
+            "box": {
+              "left_pct": 25,
+              "width_pct": 50,
+              "top_pct": 1.5,
+              "font_cqw": 3
+            }
+          },
+          {
+            "start": 34,
+            "end": 38.8,
+            "text": "Q-AI Fair\nAI 실행의 과정까지, 함께 봐요.",
+            "kind": "event",
+            "placement": "상단 빈 벽, 중앙 사진·손 비움",
+            "box": {
+              "left_pct": 25,
+              "width_pct": 50,
+              "top_pct": 1.5,
+              "font_cqw": 3
+            }
+          }
+        ],
+        "editorial_timing": {
+          "start": 31,
+          "end": 39,
+          "duration": 8
+        },
+        "audio_required": false
+      },
+      "change_note": "단일 손동작 반전과 엔딩 정지로 압축. 추가 제스처 제거, 사진은 떼지 않음."
+    },
+    {
+      "unit": "C04_K01",
+      "prompt": "Create one continuous 8-second 16:9 shot from the supplied starting image. Preserve its cast, clothing, objects, lighting, and screen direction. Inside the cramped wooden horse, keep the three existing soldiers in their established positions. One presses a hand against their stomach with anxious restraint; the other two glance toward that movement. After this small betrayed-hunger beat, the middle soldier slides the final loose request sheet fully into the existing crescent-marked envelope at knee height. Keep the paper insertion visible from edge to disappearance inside the envelope. Their faces remain serious about staying hidden. Preserve olive, dark blue, and ochre sleeves, wooden ribs, and the envelope mark. No serving bowls, spoons, or food are revealed in this shot. No speech, voice-over, lip sync, generated writing, numbers, logos, or watermarks. Convey the action visually; exact graphics and captions belong in post.",
+      "source_prompt": "storyboards/2026-10-23_v11-production-lock/flow_prompts/C04_K01.txt",
+      "input_image": "storyboards/2026-10-24_v12-C02-C04-C01-flow/inputs/C04_K01.png",
+      "source_image": "storyboards/2026-10-23_v11-production-lock/images/C04/S01.png",
+      "essential_action": "숨은 병사의 허기 반응 뒤 마지막 급식 메모 한 장이 초승달 봉투에 실제 들어간다.",
+      "postproduction": {
+        "notes": "숨소리 지시·꼬르륵 자막을 후합성. 급식 메모의 정확한 내용은 후합성용. 식기·음식 선공개 금지.",
+        "caption_cues": [
+          {
+            "start": 0.2,
+            "end": 2,
+            "text": "숨소리도 내지 마라.",
+            "kind": "character",
+            "placement": "상단 빈 목재. 아래 손·배·식사 쪽지를 비움.",
+            "box": {
+              "left_pct": 7,
+              "width_pct": 86,
+              "top_pct": 4
+            }
+          },
+          {
+            "start": 2.6,
+            "end": 4.7,
+            "text": "꼬르륵…",
+            "kind": "visible_effect",
+            "placement": "상단 빈 목재. 아래 손·배·식사 쪽지를 비움.",
+            "box": {
+              "left_pct": 7,
+              "width_pct": 86,
+              "top_pct": 4
+            }
+          }
+        ],
+        "editorial_timing": {
+          "start": 0,
+          "end": 5,
+          "duration": 5
+        },
+        "audio_required": false
+      },
+      "change_note": "여러 쪽지 삽입 대신 원안 허용 범위인 마지막 한 장 삽입만 명시."
+    },
+    {
+      "unit": "C04_K02",
+      "prompt": "Create one continuous 8-second 16:9 shot from the supplied starting image. Preserve its cast, clothing, objects, lighting, and screen direction. Hold the exterior medium-wide view of the reception desk. The commander hands the existing declaration and crescent-marked envelope to the seated recorder. The recorder receives them together, places the source papers on the scanner surface, and keeps the envelope beside them instead of discarding it. This is one clear document handoff for intake, without sorting through a new pile. Preserve the other already visible files and the matching crescent mark on the stationary wooden horse behind them. Its three side shutters stay fully closed. Leave the document faces steady for later inserts, and finish with the original paperwork retained on the desk. No speech, voice-over, lip sync, generated writing, numbers, logos, or watermarks. Convey the action visually; exact graphics and captions belong in post.",
+      "source_prompt": "storyboards/2026-10-23_v11-production-lock/flow_prompts/C04_K02.txt",
+      "input_image": "storyboards/2026-10-24_v12-C02-C04-C01-flow/inputs/C04_K02.png",
+      "source_image": "storyboards/2026-10-23_v11-production-lock/images/C04/S02.png",
+      "essential_action": "지휘관이 신고서·봉투를 넘기고 기록담당이 원문을 스캔 위치에 보존한다.",
+      "postproduction": {
+        "notes": "신고서의 내부 탑승자 없음 및 첨부 요청은 후합성. 다른 반입물 문서도 유지. 분석 경과 시간은 K02→K03 생략.",
+        "caption_cues": [
+          {
+            "start": 5.2,
+            "end": 7.8,
+            "text": "신고: 내부 탑승자 없음",
+            "kind": "evidence",
+            "placement": "얼굴·손·핵심 소품을 피한 하단 안전 여백",
+            "box": {
+              "left_pct": 7,
+              "width_pct": 86,
+              "bottom_pct": 6
+            }
+          }
+        ],
+        "editorial_timing": {
+          "start": 5,
+          "end": 8,
+          "duration": 3
+        },
+        "audio_required": false
+      },
+      "change_note": "서류 전달과 접수 한 행동으로 압축. 원본 폐기·자동 판정·새 문자 생성 없음."
+    },
+    {
+      "unit": "C04_K03",
+      "prompt": "Create one continuous 8-second 16:9 shot from the supplied starting image. Preserve its cast, clothing, objects, lighting, and screen direction. In the locked exterior medium-wide view, the commander moves into the serving trolley's path and holds an authoritative blocking posture, visibly questioning why it is there. The guard keeps both trolley and lid still. The recorder responds by rotating the existing tablet outward toward the commander, stopping at a clear readable angle for a later screen insert. Do not open the trolley or the horse. All three horse shutters remain closed, and no hands or dishes protrude. Keep the established background guards in place rather than adding a crowd. Finish on the blocked trolley and the tablet being offered as evidence. No speech, voice-over, lip sync, generated writing, numbers, logos, or watermarks. Convey the action visually; exact graphics and captions belong in post.",
+      "source_prompt": "storyboards/2026-10-23_v11-production-lock/flow_prompts/C04_K03.txt",
+      "input_image": "storyboards/2026-10-24_v12-C02-C04-C01-flow/inputs/C04_K03.png",
+      "source_image": "storyboards/2026-10-23_v11-production-lock/images/C04/S03.png",
+      "essential_action": "지휘관이 배식 수레를 막고 기록담당이 근거 태블릿을 돌려 보인다.",
+      "postproduction": {
+        "notes": "한 줄 질문 자막 후합성. 태블릿은 이미 처리한 문서 대조 결과를 다음 컷에서 보여줌.",
+        "caption_cues": [
+          {
+            "start": 8.3,
+            "end": 10.8,
+            "text": "아무도 없는데, 웬 배식?",
+            "kind": "character",
+            "placement": "얼굴·손·핵심 소품을 피한 하단 안전 여백",
+            "box": {
+              "left_pct": 7,
+              "width_pct": 86,
+              "bottom_pct": 6
+            }
+          }
+        ],
+        "editorial_timing": {
+          "start": 8,
+          "end": 11,
+          "duration": 3
+        },
+        "audio_required": false
+      },
+      "change_note": "수레 차단→태블릿 공개만 유지. 음식·병사 선공개와 배경 군중 증식 금지."
+    },
+    {
+      "unit": "C04_K04",
+      "prompt": "Create one continuous 8-second 16:9 shot from the supplied starting image. Preserve its cast, clothing, objects, lighting, and screen direction. Frame the recorder's hands and tablet closely, retaining the existing source papers below and commander behind. With one controlled pointing motion, the recorder indicates the left comparison panel and then the right panel, pausing at each. Keep both panels stable and clean for the exact document comparison to be inserted later. The commander gives a small sideways glance toward the wooden horse, without leaving his position. Keep the tablet's edges visible and its angle nearly constant; no scrolling, alert animation, or newly generated interface. This is a human showing a contradiction that still needs checking, not announcing hidden occupants as proven. No speech, voice-over, lip sync, generated writing, numbers, logos, or watermarks. Convey the action visually; exact graphics and captions belong in post.",
+      "source_prompt": "storyboards/2026-10-23_v11-production-lock/flow_prompts/C04_K04.txt",
+      "input_image": "storyboards/2026-10-24_v12-C02-C04-C01-flow/inputs/C04_K04.png",
+      "source_image": "storyboards/2026-10-23_v11-production-lock/images/C04/S04.png",
+      "essential_action": "기록담당이 신고·첨부의 서로 모순된 두 부분을 차례로 짚는다.",
+      "postproduction": {
+        "notes": "태블릿 네 모서리 추적 합성: AI 대조·확인 필요 / 탑승자 없음 ↔ 수저 요청. 원문 3장과 연결. 인원 수·범죄 의도 판정 금지.",
+        "caption_cues": [
+          {
+            "start": 11.2,
+            "end": 15.8,
+            "text": "탑승자 없음\n↔ 수저 요청",
+            "kind": "evidence",
+            "placement": "태블릿 안 빈 화면을 활용한 후편집 정보판. HTML은 평면 위치 확인이며 실제 영상에서는 네 모서리 추적·원근 합성.",
+            "box": {
+              "left_pct": 31,
+              "width_pct": 38,
+              "top_pct": 40,
+              "font_cqw": 3,
+              "padding_pct": 0.6
+            },
+            "eyebrow": "AI 대조 · 확인 필요"
+          }
+        ],
+        "editorial_timing": {
+          "start": 11,
+          "end": 16,
+          "duration": 5
+        },
+        "audio_required": false
+      },
+      "change_note": "문구·UI 생성은 후처리로 이동. 지목 두 번과 지휘관 곁눈질만 유지."
+    },
+    {
+      "unit": "C04_K05",
+      "prompt": "Create one continuous 8-second 16:9 shot from the supplied starting image. Preserve its cast, clothing, objects, lighting, and screen direction. Use the medium view containing the already opened source sheets, crescent envelope, guard, and matching mark on the horse. The guard examines the two displayed sheets, then shifts her gaze to the horse's crescent, and finally toward the closed serving trolley. Make this a single measured verification, with small head movements and an increasingly practical expression. The recorder continues holding the same papers open without refolding, replacing, or producing any additional sheet. Keep their surfaces unobscured for later writing. The wooden horse does not move, and all three shutters stay shut. End with the guard's attention settled on the trolley. No speech, voice-over, lip sync, generated writing, numbers, logos, or watermarks. Convey the action visually; exact graphics and captions belong in post.",
+      "source_prompt": "storyboards/2026-10-23_v11-production-lock/flow_prompts/C04_K05.txt",
+      "input_image": "storyboards/2026-10-24_v12-C02-C04-C01-flow/inputs/C04_K05.png",
+      "source_image": "storyboards/2026-10-23_v11-production-lock/images/C04/S05.png",
+      "essential_action": "수비대장이 이미 펼쳐진 원문·실물 초승달 표식을 대조하고 수레를 본다.",
+      "postproduction": {
+        "notes": "원문의 정확한 문구 및 질문 자막은 후합성. AI 후보 확인 뒤 사람의 원문·현장 확인이라는 역할 유지.",
+        "caption_cues": [
+          {
+            "start": 16.2,
+            "end": 18.8,
+            "text": "이 말, 수저를 씁니까?",
+            "kind": "character",
+            "placement": "원문·손·초승달 표식을 가리지 않는 상단 여백",
+            "box": {
+              "left_pct": 7,
+              "width_pct": 86,
+              "top_pct": 6
+            }
+          }
+        ],
+        "editorial_timing": {
+          "start": 16,
+          "end": 19,
+          "duration": 3
+        },
+        "audio_required": false
+      },
+      "change_note": "다시 서류 펼치기 삭제. 원문→실물→검증 수레의 한 시선 행동으로 명료화."
+    },
+    {
+      "unit": "C04_K06",
+      "prompt": "Create one continuous 8-second 16:9 shot from the supplied starting image. Preserve its cast, clothing, objects, lighting, and screen direction. Hold the wide composition of the closed trolley beside the wooden horse. The commander raises one stopping palm and shakes his head once with confident denial. After a distinct beat, the guard calmly reaches for the existing trolley lid handle and closes her gloved hand around it. She does not lift the lid yet. Keep the commander's palm suspended after his denial so it can carry into the reveal. All three horse shutters remain completely closed throughout. Preserve the current people, crescent mark, and trolley placement, with no new soldiers entering the courtyard and no early glimpse of dishes or food. No speech, voice-over, lip sync, generated writing, numbers, logos, or watermarks. Convey the action visually; exact graphics and captions belong in post.",
+      "source_prompt": "storyboards/2026-10-23_v11-production-lock/flow_prompts/C04_K06.txt",
+      "input_image": "storyboards/2026-10-24_v12-C02-C04-C01-flow/inputs/C04_K06.png",
+      "source_image": "storyboards/2026-10-23_v11-production-lock/images/C04/S06.png",
+      "essential_action": "지휘관이 손바닥과 고개로 부인한 뒤 수비대장이 닫힌 뚜껑 손잡이를 잡는다.",
+      "postproduction": {
+        "notes": "부인 자막이 읽힌 뒤 손잡이 잡기. 음식 공개·뚜껑 열기는 다음 K07에만 배치.",
+        "caption_cues": [
+          {
+            "start": 19.1,
+            "end": 21.8,
+            "text": "안에는 아무도 없습니다.",
+            "kind": "character",
+            "placement": "얼굴·손·핵심 소품을 피한 하단 안전 여백",
+            "box": {
+              "left_pct": 7,
+              "width_pct": 86,
+              "bottom_pct": 6
+            }
+          }
+        ],
+        "editorial_timing": {
+          "start": 19,
+          "end": 22,
+          "duration": 3
+        },
+        "audio_required": false
+      },
+      "change_note": "부인→검증 준비의 두 박자를 고정하고 창·식기의 선공개 차단."
+    },
+    {
+      "unit": "C04_K07",
+      "prompt": "Create one continuous 8-second 16:9 shot from the supplied starting image. Preserve its cast, clothing, objects, lighting, and screen direction. In the fixed medium view, the guard lifts the trolley's existing lid by its handle in one continuous motion, revealing the serving pan and a gentle plume of steam. Keep the lid physically attached or supported as shown in the reference rather than vanishing. The commander notices the food, with a subtle involuntary movement of his nose and eyes while trying to retain authority. The horse stays stationary behind them, and all three shutters remain completely closed for the entire shot. No individual bowls, spoons, soldier hands, or faces appear yet. End with the food exposed and steam rising toward the horse. No speech, voice-over, lip sync, generated writing, numbers, logos, or watermarks. Convey the action visually; exact graphics and captions belong in post.",
+      "source_prompt": "storyboards/2026-10-23_v11-production-lock/flow_prompts/C04_K07.txt",
+      "input_image": "storyboards/2026-10-24_v12-C02-C04-C01-flow/inputs/C04_K07.png",
+      "source_image": "storyboards/2026-10-23_v11-production-lock/images/C04/S07.png",
+      "essential_action": "닫힌 수레 뚜껑을 실제로 열어 음식·김을 처음 공개한다.",
+      "postproduction": {
+        "notes": "이 컷은 필수 자막 없음. 냄새 반응은 표정으로 전달하며 숨소리 없이도 원인 파악 가능해야 함.",
+        "caption_cues": [],
+        "editorial_timing": {
+          "start": 22,
+          "end": 25,
+          "duration": 3
+        },
+        "audio_required": false
+      },
+      "change_note": "음식 공개가 창 개방보다 먼저라는 순서를 명시. 숨소리에 핵심 정보를 맡기지 않음."
+    },
+    {
+      "unit": "C04_K08",
+      "prompt": "Create one continuous 8-second 16:9 shot from the supplied starting image. Preserve its cast, clothing, objects, lighting, and screen direction. Hold the wide view with the steaming open trolley and exactly three closed shutters on the horse. In response to the already exposed food, those three existing shutters swing open together. Only after the openings clear, the three hidden soldiers lean forward through their own windows and extend their dishes. Preserve left-to-right olive, dark blue, and ochre sleeves. Each soldier has two attached arms, one bowl, and one spoon: six arms, three bowls, three spoons total. The commander keeps his denying palm frozen. No new courtyard crowd appears. Keep the horse still and finish with all three waiting for a serving. No speech, voice-over, lip sync, generated writing, numbers, logos, or watermarks. Convey the action visually; exact graphics and captions belong in post.",
+      "source_prompt": "storyboards/2026-10-23_v11-production-lock/flow_prompts/C04_K08.txt",
+      "input_image": "storyboards/2026-10-24_v12-C02-C04-C01-flow/inputs/C04_K08.png",
+      "source_image": "storyboards/2026-10-23_v11-production-lock/images/C04/S08.png",
+      "essential_action": "음식 공개 이후 기존 세 창이 열리고 각 병사가 자기 창으로 그릇·숟가락을 내민다.",
+      "postproduction": {
+        "notes": "첫 그릇이 창 경계 밖으로 나오는 순간 음악 중단 선택. AI 인원 숫자 자막 없음. 팔 연결·식기 수·창 배치 실제 프레임 검수 필수.",
+        "caption_cues": [],
+        "editorial_timing": {
+          "start": 25,
+          "end": 29,
+          "duration": 4
+        },
+        "audio_required": false
+      },
+      "change_note": "음식→닫힌 셔터 개방→기존 병사·팔·식기 등장 순서를 명료화. 동시에 열린다는 원안 유지."
+    },
+    {
+      "unit": "C04_K09",
+      "prompt": "Create one continuous 8-second 16:9 shot from the supplied starting image. Preserve its cast, clothing, objects, lighting, and screen direction. Keep the commander in the foreground and the three already open serving windows behind him. The soldiers hold their existing bowls and spoons in place. Looking toward the guard, the commander slowly draws his own small wooden spoon from beneath his cape and raises his chin with undiminished rank-conscious dignity. This is his separate spoon, not one taken from a soldier; do not give him a bowl. The guard only begins to lift her existing ladle. Complete the spoon reveal early, then hold the ridiculous dignified tableau for the ending. Preserve the upper-right area without moving the horse or multiplying the waiting soldiers. No speech, voice-over, lip sync, generated writing, numbers, logos, or watermarks. Convey the action visually; exact graphics and captions belong in post.",
+      "source_prompt": "storyboards/2026-10-23_v11-production-lock/flow_prompts/C04_K09.txt",
+      "input_image": "storyboards/2026-10-24_v12-C02-C04-C01-flow/inputs/C04_K09.png",
+      "source_image": "storyboards/2026-10-23_v11-production-lock/images/C04/S09.png",
+      "essential_action": "지휘관이 망토에서 자기 숟가락을 꺼내며 우선 배식받을 듯 턱을 든다.",
+      "postproduction": {
+        "notes": "숟가락 공개 뒤 지휘관부터, 이어 Q-AI Fair 시작 문구를 우상단 대비 패널로 합성. 마지막 4.8초 이상 가독성 확보.",
+        "caption_cues": [
+          {
+            "start": 29.8,
+            "end": 31.8,
+            "text": "지휘관부터.",
+            "kind": "reversal",
+            "placement": "우상단 대비 패널, 세 창·숟가락 비움",
+            "box": {
+              "left_pct": 35,
+              "width_pct": 60,
+              "top_pct": 3,
+              "font_cqw": 3
+            }
+          },
+          {
+            "start": 32,
+            "end": 36.8,
+            "text": "Q-AI Fair\nAI 실행 사례, 지금 시작합니다.",
+            "kind": "event",
+            "placement": "우상단 대비 패널, 세 창·숟가락 비움",
+            "box": {
+              "left_pct": 35,
+              "width_pct": 60,
+              "top_pct": 3,
+              "font_cqw": 3
+            }
+          }
+        ],
+        "editorial_timing": {
+          "start": 29,
+          "end": 37,
+          "duration": 8
+        },
+        "audio_required": false
+      },
+      "change_note": "지휘관 숟가락 1개와 국자 들기 시작만 유지. 기존 병사의 식기·팔을 가져오거나 추가하지 않음."
+    },
+    {
+      "unit": "C01_K01",
+      "prompt": "Create one continuous 8-second 16:9 shot from the supplied starting image. Preserve its cast, clothing, objects, lighting, and screen direction. Keep the locked eye-level wide shot. The coach solemnly uses two fingertips to straighten the yellow-clad trainee's raised fingers by a tiny amount, as though correcting an elite athletic technique. The trainee holds her awkward leaning posture, concentrating hard and keeping her seat and feet fixed. Preserve the large cropped wall portrait with the matching torso and right-hand pose; do not reveal a chair or floor inside that photograph. The teal-clad observer and photographer remain where they started. Keep the low rolling chair, mat, left door, and right monitor cart still. Finish on the meticulously corrected hand and unwavering seriousness. No speech, voice-over, lip sync, generated writing, numbers, logos, or watermarks. Convey the action visually; exact graphics and captions belong in post.",
+      "source_prompt": "storyboards/2026-10-23_v11-production-lock/flow_prompts/C01_K01.txt",
+      "input_image": "storyboards/2026-10-24_v12-C02-C04-C01-flow/inputs/C01_K01.png",
+      "source_image": "storyboards/2026-10-23_v11-production-lock/images/C01/S01.png",
+      "essential_action": "코치가 수강생의 손가락 각도를 아주 조금 고쳐 거창한 성공 자세를 만든다.",
+      "postproduction": {
+        "notes": "하단 설정 자막 후합성. 벽 포스터는 상체 크롭 유지. 이후 K04 채택 움직임 첫 자세에 필요시 포스터 이미지를 맞춤.",
+        "caption_cues": [
+          {
+            "start": 0.3,
+            "end": 3.8,
+            "text": "AI 잘 쓰는 사람은\n자세부터 다릅니다.",
+            "kind": "setup",
+            "placement": "얼굴·손·핵심 소품을 피한 하단 안전 여백",
+            "box": {
+              "left_pct": 7,
+              "width_pct": 86,
+              "bottom_pct": 6
+            }
+          }
+        ],
+        "editorial_timing": {
+          "start": 0,
+          "end": 4,
+          "duration": 4
+        },
+        "audio_required": false
+      },
+      "change_note": "인물 외형 반복을 삭제하고 작은 손끝 교정 하나에 집중."
+    },
+    {
+      "unit": "C01_K02",
+      "prompt": "Create one continuous 8-second 16:9 shot from the supplied starting image. Preserve its cast, clothing, objects, lighting, and screen direction. In the fixed waist-up medium framing, the yellow-clad trainee carefully leans her upper body a little farther and extends her raised fingers to match the enormous portrait beside her. The coach guides the angle with her hovering hand, then gives one solemn approving nod. Hold the resulting visual match so the audience registers the similarity before anything else happens. Preserve the portrait's exact crop and direction: only the tilted torso and raised hand are shown, with no chair, legs, or floor revealed. The trainee remains seated in the established position; do not turn this adjustment into a fall or introduce a new movement. No speech, voice-over, lip sync, generated writing, numbers, logos, or watermarks. Convey the action visually; exact graphics and captions belong in post.",
+      "source_prompt": "storyboards/2026-10-23_v11-production-lock/flow_prompts/C01_K02.txt",
+      "input_image": "storyboards/2026-10-24_v12-C02-C04-C01-flow/inputs/C01_K02.png",
+      "source_image": "storyboards/2026-10-23_v11-production-lock/images/C01/S02.png",
+      "essential_action": "수강생이 포스터와 같은 상체·손끝 각도를 만들고 코치가 승인한다.",
+      "postproduction": {
+        "notes": "무자막 비교 컷. 포스터와 수강생의 방향·상체 크기·손 방향을 유지하고 K04 원본 동작 첫 상태와 맞춤.",
+        "caption_cues": [],
+        "editorial_timing": {
+          "start": 4,
+          "end": 6.5,
+          "duration": 2.5
+        },
+        "audio_required": false
+      },
+      "change_note": "자세 일치와 승인 1회만 강조. 실제 미끄러짐은 K04·K06에 남김."
+    },
+    {
+      "unit": "C01_K03",
+      "prompt": "Create one continuous 8-second 16:9 shot from the supplied starting image. Preserve its cast, clothing, objects, lighting, and screen direction. Keep the blue-shirted man beside the laptop and large monitor in the fixed medium-wide view. He presses the existing laptop playback key once, then leaves his hand resting nearby while looking toward the screen. The coach watches without performing a new gesture. Preserve the portrait and the monitor image as static insert surfaces; do not animate the person inside either display or reveal the landing within this shot. Keep the monitor edges, stand, and laptop visible for an accurate later composite. The real man remains beside the cart throughout. End after the button press with a clear, expectant pause toward the monitor. No speech, voice-over, lip sync, generated writing, numbers, logos, or watermarks. Convey the action visually; exact graphics and captions belong in post.",
+      "source_prompt": "storyboards/2026-10-23_v11-production-lock/flow_prompts/C01_K03.txt",
+      "input_image": "storyboards/2026-10-24_v12-C02-C04-C01-flow/inputs/C01_K03.png",
+      "source_image": "storyboards/2026-10-23_v11-production-lock/images/C01/S03.png",
+      "essential_action": "사진 당사자가 재생 키를 한 번 눌러 원본 공개를 시작한다.",
+      "postproduction": {
+        "notes": "K04 독립 원본 움직임을 모니터 안에 후합성. 사진과 같은 첫 자세→낮은 착지의 전체 맥락 연결. 화면 밖 실물 P는 카트 옆 고정.",
+        "caption_cues": [
+          {
+            "start": 6.8,
+            "end": 9.3,
+            "text": "그 사진의 원본",
+            "kind": "evidence",
+            "placement": "얼굴·손·핵심 소품을 피한 하단 안전 여백",
+            "box": {
+              "left_pct": 7,
+              "width_pct": 86,
+              "bottom_pct": 6
+            }
+          }
+        ],
+        "editorial_timing": {
+          "start": 6.5,
+          "end": 9.5,
+          "duration": 3
+        },
+        "audio_required": false
+      },
+      "change_note": "모니터 내부 인물 동시 생성 제거. 재생 키 동작과 후합성용 고정 화면만 확보."
+    },
+    {
+      "unit": "C01_K04",
+      "prompt": "Create one continuous 8-second 16:9 shot from the supplied starting image. Preserve its cast, clothing, objects, lighting, and screen direction. Use the supplied standalone full-body source view, without adding a monitor frame or gym spectators. Begin with the man's pelvis still supported at the edge of the low rolling chair, torso leaning and right hand raised exactly as shown. The chair visibly rolls sideways out from under him. As support leaves, his body continuously descends the short distance onto the thick mat, landing seated in a soft low plop. Show wheels moving, seat separating from his hips, and contact with the mat in the same uninterrupted view. Keep the entire body and chair visible. Hold his dignified reaction after landing; no jump cut or injury performance. No speech, voice-over, lip sync, generated writing, numbers, logos, or watermarks. Convey the action visually; exact graphics and captions belong in post.",
+      "source_prompt": "storyboards/2026-10-23_v11-production-lock/flow_prompts/C01_K04.txt",
+      "input_image": "storyboards/2026-10-24_v12-C02-C04-C01-flow/inputs/C01_K04.png",
+      "source_image": "storyboards/2026-10-23_v11-production-lock/images/C01/S04.png",
+      "essential_action": "사진과 같은 자세에서 의자가 옆으로 밀려 골반 지지가 사라지고 남성이 매트로 낮게 착지한다.",
+      "postproduction": {
+        "notes": "실제 성공한 K04 움직임 첫 자세와 K01·K03 포스터/모니터를 맞춤. 모니터 내부 합성 원본. 두 정지 상태만 연결해 실제 미끄러짐 대체 금지.",
+        "caption_cues": [],
+        "editorial_timing": {
+          "start": 9.5,
+          "end": 14.5,
+          "duration": 5
+        },
+        "audio_required": false
+      },
+      "change_note": "최신 연결 검토 필수 반영: 바퀴 이동·의자 이탈·하강·매트 접촉을 끊기지 않는 실제 동작으로 명시."
+    },
+    {
+      "unit": "C01_K05",
+      "prompt": "Create one continuous 8-second 16:9 shot from the supplied starting image. Preserve its cast, clothing, objects, lighting, and screen direction. Use the fixed wide gym composition. The yellow-clad trainee is already standing beside the blue-shirted man; she looks at him with practical curiosity rather than copying the poster. He indicates the left doorway, and they take two measured steps toward it together. As they move away, the coach draws the same empty rolling chair into the center of the mat for her own demonstration. Keep this secondary chair movement small and readable, without sitting down yet. The teal-clad observer and photographer remain on the right. Preserve the monitor's static post-landing plate, doorway, portrait, and all character identities throughout. No speech, voice-over, lip sync, generated writing, numbers, logos, or watermarks. Convey the action visually; exact graphics and captions belong in post.",
+      "source_prompt": "storyboards/2026-10-23_v11-production-lock/flow_prompts/C01_K05.txt",
+      "input_image": "storyboards/2026-10-24_v12-C02-C04-C01-flow/inputs/C01_K05.png",
+      "source_image": "storyboards/2026-10-23_v11-production-lock/images/C01/S05.png",
+      "essential_action": "첫 수강생·당사자가 실제 작업 이야기를 나누러 왼쪽으로 이동하고 코치는 같은 의자를 잡는다.",
+      "postproduction": {
+        "notes": "자세 말고 어떻게 일했는지요 자막 후합성. 모니터 정지 장면은 실제 K04 착지 상태와 맞춤. T 앉는 준비 시간만 다음 컷 전 생략.",
+        "caption_cues": [
+          {
+            "start": 14.7,
+            "end": 18.2,
+            "text": "자세 말고,\n어떻게 일했는지요.",
+            "kind": "choice",
+            "placement": "얼굴·손·핵심 소품을 피한 하단 안전 여백",
+            "box": {
+              "left_pct": 7,
+              "width_pct": 86,
+              "bottom_pct": 6
+            }
+          }
+        ],
+        "editorial_timing": {
+          "start": 14.5,
+          "end": 18.5,
+          "duration": 4
+        },
+        "audio_required": false
+      },
+      "change_note": "일어서기 반복 제거. 두 걸음 퇴장과 작은 의자 당김만 남겨 원안 사건 연결 보존."
+    },
+    {
+      "unit": "C01_K06",
+      "prompt": "Create one continuous 8-second 16:9 shot from the supplied starting image. Preserve its cast, clothing, objects, lighting, and screen direction. Keep the coach's whole body, chair wheels, and mat visible in the fixed medium-wide view. She starts seated at the chair's edge with her right arm raised, displaying absolute confidence. The low chair visibly rolls sideways away from her hips; her body drops the short distance onto the thick mat and settles onto her back. Only after this continuous descent and contact does she stiffen her raised right arm and one bent knee into a supposedly deliberate demonstration pose. Hold her authoritative face and final pose. Do not skip from seated to lying, hide the moving chair, or replace the fall with a voluntary stretch. No speech, voice-over, lip sync, generated writing, numbers, logos, or watermarks. Convey the action visually; exact graphics and captions belong in post.",
+      "source_prompt": "storyboards/2026-10-23_v11-production-lock/flow_prompts/C01_K06.txt",
+      "input_image": "storyboards/2026-10-24_v12-C02-C04-C01-flow/inputs/C01_K06.png",
+      "source_image": "storyboards/2026-10-23_v11-production-lock/images/C01/S06.png",
+      "essential_action": "코치의 의자가 실제 옆으로 빠지고 매트에 낮게 착지한 뒤 사고 자세를 비법인 듯 고정한다.",
+      "postproduction": {
+        "notes": "착지 이후에만 착지까지가 비법입니다 자막. K07·K08의 팔·굽힌 무릎·발 방향과 착지 종점 맞춤. 실낙하를 정지 이미지 전후로 대체 금지.",
+        "caption_cues": [
+          {
+            "start": 21.3,
+            "end": 23.4,
+            "text": "착지까지가 비법입니다.",
+            "kind": "character",
+            "placement": "상단 벽. 아래 착지 자세·손·다리 비움.",
+            "box": {
+              "left_pct": 7,
+              "width_pct": 86,
+              "top_pct": 5
+            }
+          }
+        ],
+        "editorial_timing": {
+          "start": 18.5,
+          "end": 23.5,
+          "duration": 5
+        },
+        "audio_required": false
+      },
+      "change_note": "두 번째 실제 미끄러짐을 필수화. 낙하 원인·몸의 이동·착지 후 허세를 단계 구분."
+    },
+    {
+      "unit": "C01_K07",
+      "prompt": "Create one continuous 8-second 16:9 shot from the supplied starting image. Preserve its cast, clothing, objects, lighting, and screen direction. Hold the fixed low medium-wide shot. The coach is already lying on her back, with her raised right arm and bent knee held in the exact post-landing position. The kneeling photographer carefully frames her and presses the shutter once, treating this absurd pose as an important new instructional photograph. She slightly firms the pose without getting up. Watching her bent knee, the teal-clad trainee starts lowering himself toward the adjacent clear part of the mat. Do not complete his matching floor pose yet or invent another chair fall. Keep the original displaced chair in place and preserve the portrait and monitor as static surfaces. No speech, voice-over, lip sync, generated writing, numbers, logos, or watermarks. Convey the action visually; exact graphics and captions belong in post.",
+      "source_prompt": "storyboards/2026-10-23_v11-production-lock/flow_prompts/C01_K07.txt",
+      "input_image": "storyboards/2026-10-24_v12-C02-C04-C01-flow/inputs/C01_K07.png",
+      "source_image": "storyboards/2026-10-23_v11-production-lock/images/C01/S07.png",
+      "essential_action": "조수가 코치의 사고 자세를 교본처럼 촬영하고 남은 수강생이 따라 낮아지기 시작한다.",
+      "postproduction": {
+        "notes": "새 교본 촬영 자막 후합성. 의자·코치 착지 자세는 K06 채택 종점 유지. L2가 완전히 눕는 준비 시간은 K08 전 생략.",
+        "caption_cues": [
+          {
+            "start": 23.9,
+            "end": 26.3,
+            "text": "새 교본 촬영",
+            "kind": "escalation",
+            "placement": "상단 벽. 아래 착지 자세·손·다리 비움.",
+            "box": {
+              "left_pct": 7,
+              "width_pct": 86,
+              "top_pct": 5
+            }
+          }
+        ],
+        "editorial_timing": {
+          "start": 23.5,
+          "end": 26.5,
+          "duration": 3
+        },
+        "audio_required": false
+      },
+      "change_note": "촬영 1회가 주행동. 다음 수강생은 낮아지기 시작만 보여 후속 자세 복제와 연결."
+    },
+    {
+      "unit": "C01_K08",
+      "prompt": "Create one continuous 8-second 16:9 shot from the supplied starting image. Preserve its cast, clothing, objects, lighting, and screen direction. Use the fixed frontal full-body two-person composition. Both coach and teal-clad trainee already lie side by side on the mat with matching raised right arms and bent knees. The trainee makes one tiny correction, turning his foot to the same angle as the coach's foot. She responds only with satisfied eyes, keeping her supposedly expert pose unchanged. The photographer presses the shutter once while remaining in his established position. Hold the newly perfect and ridiculous match. Preserve the displaced chair and the cropped portrait overhead, with no new fall, change of limbs, or standing up. Keep both sets of hands and feet fully visible. No speech, voice-over, lip sync, generated writing, numbers, logos, or watermarks. Convey the action visually; exact graphics and captions belong in post.",
+      "source_prompt": "storyboards/2026-10-23_v11-production-lock/flow_prompts/C01_K08.txt",
+      "input_image": "storyboards/2026-10-24_v12-C02-C04-C01-flow/inputs/C01_K08.png",
+      "source_image": "storyboards/2026-10-23_v11-production-lock/images/C01/S08.png",
+      "essential_action": "누운 수강생이 발끝까지 코치와 똑같이 맞추며 사고 자세를 완벽히 복제한다.",
+      "postproduction": {
+        "notes": "무자막 펀치라인 유지. 팔·무릎·발의 좌우 방향과 신체 수 검수. 모니터 원본 착지 정지는 후합성.",
+        "caption_cues": [],
+        "editorial_timing": {
+          "start": 26.5,
+          "end": 30.5,
+          "duration": 4
+        },
+        "audio_required": false
+      },
+      "change_note": "이미 누운 시작 상태 유지. 발끝 1회 수정으로 화면 개그를 집중."
+    },
+    {
+      "unit": "C01_K09",
+      "prompt": "Create one continuous 8-second 16:9 shot from the supplied starting image. Preserve its cast, clothing, objects, lighting, and screen direction. Keep the locked wide ending shot with the coach and teal-clad trainee holding their matching floor poses at lower right. The photographer takes one final picture, then remains poised behind the camera. The left door slowly swings toward closed after the departing pair, without either person re-entering. Apart from that gentle door movement, preserve a sustained solemn tableau: raised right arms, bent knees, matching feet, and unchanged faces. Keep the empty upper-left wall area clear for the ending overlay. Do not add celebrations, gestures, new props, camera moves, or animation inside the wall portrait and monitor. Maintain the hold through the end. No speech, voice-over, lip sync, generated writing, numbers, logos, or watermarks. Convey the action visually; exact graphics and captions belong in post.",
+      "source_prompt": "storyboards/2026-10-23_v11-production-lock/flow_prompts/C01_K09.txt",
+      "input_image": "storyboards/2026-10-24_v12-C02-C04-C01-flow/inputs/C01_K09.png",
+      "source_image": "storyboards/2026-10-23_v11-production-lock/images/C01/S09.png",
+      "essential_action": "조수가 한 장 더 찍고 두 인물은 바닥 자세를 고집하며 왼쪽 문이 천천히 닫힌다.",
+      "postproduction": {
+        "notes": "좌상단 Q-AI Fair·초대 문구를 6.3초 이상 후합성. 최종 7초 편집 목표. 자세·손·발 가리지 않음.",
+        "caption_cues": [
+          {
+            "start": 31,
+            "end": 37.3,
+            "text": "Q-AI Fair\nAI 실행 경험을 함께 나눠요.",
+            "kind": "event",
+            "placement": "좌상단 빈 청록 벽",
+            "box": {
+              "left_pct": 7,
+              "width_pct": 49,
+              "top_pct": 7
+            }
+          }
+        ],
+        "editorial_timing": {
+          "start": 30.5,
+          "end": 37.5,
+          "duration": 7
+        },
+        "audio_required": false
+      },
+      "change_note": "엔딩 행동을 사진 1회와 문 닫힘만으로 압축하고 긴 읽기 홀드 확보."
+    }
+  ]
+}
