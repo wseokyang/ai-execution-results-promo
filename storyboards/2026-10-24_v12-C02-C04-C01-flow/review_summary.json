@@ -87,5 +87,8 @@
     "C04 document/tablet/captions and final edit",
     "NewC07–10 actual motion and precise graphic composites",
     "Final playback/listening/venue readability and user approval"
-  ]
+  ],
+  "final_position_correction": {
+    "C07_S03": "PD found copied text said body right of pedestal; all three reviewers reopened selected PNG and agreed body is upper-left of pedestal. PD synchronized frame_start_description, continuity_in, scene representative_frame and root storyboard to 왼쪽 위. Pull stationary left edge→rightward movement→release remains. No image regeneration."
+  }
 }
