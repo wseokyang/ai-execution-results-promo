@@ -1,0 +1,13 @@
+{
+  "originals": 11,
+  "selected": 5,
+  "held": 6,
+  "credits": 110,
+  "accounts_verified_zero": 5,
+  "exact_motion_prompts_match_queue": true,
+  "original_sha_verified": true,
+  "windows_copies_sha_verified": true,
+  "local_markdown_links_verified": true,
+  "final_edits_sha_verified": true,
+  "scope": "Technical and file checks, not listening/realtime/venue review"
+}

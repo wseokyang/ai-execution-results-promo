@@ -1,0 +1,139 @@
+{
+  "entries": [
+    {
+      "unit": "C04_K08_detail",
+      "file": "inputs/C04_K08_detail.png",
+      "sha256": "2147fed693fcc49a6e783ed0c29051f572b714b571f90008f68c38dc8fcf6b55",
+      "source": "builtin image_gen",
+      "generated_file": "exec-81cd912f-d140-4eec-9cd4-d2b8544527ce.png",
+      "reference": "Existing C04_K08.png",
+      "generation_spec": "Close view of three closed side-hinged shutters. One left vertical hinge per shutter, no people visible; retain horse wood and purple crescent.",
+      "prompt_record_note": "Image requirements reconstructed from production notes; exact original image tool payload not retained. Exact submitted motion prompt is saved separately.",
+      "motion_prompt": "submitted_prompts/C04_K08_detail_take01.txt",
+      "input_review": "A/B/C actual image samples accepted before use; this is not motion success"
+    },
+    {
+      "unit": "C01_K07",
+      "file": "inputs/C01_K07.png",
+      "sha256": "5c3410956c0f2490ee4cd31bc5452d32e0f4f4529b0a65bbc407b47a0bbedd7b",
+      "source": "existing input/frame reused",
+      "generated_file": null,
+      "reference": "See preparation scripts",
+      "generation_spec": null,
+      "prompt_record_note": "Image requirements reconstructed from production notes; exact original image tool payload not retained. Exact submitted motion prompt is saved separately.",
+      "motion_prompt": "submitted_prompts/C01_K07_take02.txt",
+      "input_review": "A/B/C actual image samples accepted before use; this is not motion success"
+    },
+    {
+      "unit": "C04_K09",
+      "file": "inputs/C04_K09.png",
+      "sha256": "61585dc5414e87a54e4ce8efd05df92c154604609b38a0228af20f7b5c0cf9c0",
+      "source": "existing input/frame reused",
+      "generated_file": null,
+      "reference": "See preparation scripts",
+      "generation_spec": null,
+      "prompt_record_note": "Image requirements reconstructed from production notes; exact original image tool payload not retained. Exact submitted motion prompt is saved separately.",
+      "motion_prompt": "submitted_prompts/C04_K09_take02.txt",
+      "input_review": "A/B/C actual image samples accepted before use; this is not motion success"
+    },
+    {
+      "unit": "C01_K06_pose",
+      "file": "inputs/C01_K06_pose.png",
+      "sha256": "759309de8c5fe8fedf082624fdeae32632f3bf3b828024b189a618ee7e45246d",
+      "source": "existing input/frame reused",
+      "generated_file": null,
+      "reference": "See preparation scripts",
+      "generation_spec": null,
+      "prompt_record_note": "Image requirements reconstructed from production notes; exact original image tool payload not retained. Exact submitted motion prompt is saved separately.",
+      "motion_prompt": "submitted_prompts/C01_K06_pose_take01.txt",
+      "input_review": "A/B/C actual image samples accepted before use; this is not motion success"
+    },
+    {
+      "unit": "C01_K05",
+      "file": "inputs/C01_K05.png",
+      "sha256": "acb9c11e5abe00b47a12701f4d94bee144570f367adee8fba4420dde3f2ee2f3",
+      "source": "existing input/frame reused",
+      "generated_file": null,
+      "reference": "See preparation scripts",
+      "generation_spec": null,
+      "prompt_record_note": "Image requirements reconstructed from production notes; exact original image tool payload not retained. Exact submitted motion prompt is saved separately.",
+      "motion_prompt": "submitted_prompts/C01_K05_take03.txt",
+      "input_review": "A/B/C actual image samples accepted before use; this is not motion success"
+    },
+    {
+      "unit": "C04_K01_insert",
+      "file": "inputs/C04_K01_insert.png",
+      "sha256": "31af6559e83b200f5b4b49e601cd500a8976ab0a666c0a8e641b7368f94e4b92",
+      "source": "existing input/frame reused",
+      "generated_file": null,
+      "reference": "See preparation scripts",
+      "generation_spec": null,
+      "prompt_record_note": "Image requirements reconstructed from production notes; exact original image tool payload not retained. Exact submitted motion prompt is saved separately.",
+      "motion_prompt": "submitted_prompts/C04_K01_insert_take01.txt",
+      "input_review": "A/B/C actual image samples accepted before use; this is not motion success"
+    },
+    {
+      "unit": "C02_K05_release",
+      "file": "inputs/C02_K05_release.png",
+      "sha256": "dccba6a7568b767377d322b9744e1223cf76a302ad4db903a0ff2bf6c61abae5",
+      "source": "builtin image_gen",
+      "generated_file": "exec-565655f3-3513-403c-aead-ceff1b9fdde0.png",
+      "reference": "Existing C02_K06.png",
+      "generation_spec": "Upper cuff fixed to black handle; detective supports lower ring beside orange window. Exactly two rings and one chain; preserve cast/workbench.",
+      "prompt_record_note": "Image requirements reconstructed from production notes; exact original image tool payload not retained. Exact submitted motion prompt is saved separately.",
+      "motion_prompt": "submitted_prompts/C02_K05_release_take01.txt",
+      "input_review": "A/B/C actual image samples accepted before use; this is not motion success"
+    },
+    {
+      "unit": "C05_K04_jack_detail",
+      "file": "inputs/C05_K04_jack_detail.png",
+      "sha256": "7130d60560afbbb07fd8a36b5a73156ed65e1cb17125ecc05dde52ab0430d1df",
+      "source": "builtin image_gen",
+      "generated_file": "exec-a9e495a1-410a-469f-9a8e-9c44541b3540.png",
+      "reference": "C05_K04_take02 frame0",
+      "generation_spec": "Sharp close view of older worker holding low red wheeled jack with both gloved hands. Space to move left, wet pavement and building unchanged.",
+      "prompt_record_note": "Image requirements reconstructed from production notes; exact original image tool payload not retained. Exact submitted motion prompt is saved separately.",
+      "motion_prompt": "submitted_prompts/C05_K04_jack_detail_take01.txt",
+      "input_review": "A/B/C actual image samples accepted before use; this is not motion success"
+    },
+    {
+      "unit": "C04_K08_three_visible",
+      "file": "inputs/C04_K08_three_visible.png",
+      "sha256": "298448c2c1f5f2cb40c813235de02644195a9aa235a81ec098763b9f0c16a1f2",
+      "source": "builtin image_gen",
+      "generated_file": "exec-0cc6ca50-eab3-4d9c-b11c-9c6581a17408.png",
+      "reference": "New C04_K08_detail + existing C04_K09",
+      "generation_spec": "Three opened windows, exactly one older gray-haired woman left, slim young man center, curly stocky man right. One bowl and spoon each. Ready to lean forward.",
+      "prompt_record_note": "Image requirements reconstructed from production notes; exact original image tool payload not retained. Exact submitted motion prompt is saved separately.",
+      "motion_prompt": "submitted_prompts/C04_K08_three_visible_take01.txt",
+      "input_review": "A/B/C actual image samples accepted before use; this is not motion success"
+    },
+    {
+      "unit": "C01_K07_recline",
+      "file": "inputs/C01_K07_recline.png",
+      "sha256": "a6cbde49cc93a4487ada10d444ebab8a159b064f4bd7d4e000b50886c3aba1fe",
+      "source": "builtin image_gen",
+      "generated_file": "exec-b74bb30a-d410-4026-9d26-aeda4ce0fcee.png",
+      "reference": "Rejected preparation exec-0005da74-b694-476b-a4ef-66a9aca270ad.png, prior C01 setup",
+      "generation_spec": "Teal trainee half reclining on elbows behind motionless coach, separate parallel bodies head right feet left; room to lower shoulders. Photographer stays crouched.",
+      "prompt_record_note": "Image requirements reconstructed from production notes; exact original image tool payload not retained. Exact submitted motion prompt is saved separately.",
+      "motion_prompt": "submitted_prompts/C01_K07_recline_take01.txt",
+      "input_review": "A/B/C actual image samples accepted before use; this is not motion success"
+    },
+    {
+      "unit": "C06_K02_impact",
+      "file": "inputs/C06_K02_impact.png",
+      "sha256": "54e07e87c097a24c7ec0121df7fcf69830c51cbfaf8f1aed4636b6a75e891bb9",
+      "source": "builtin image_gen",
+      "generated_file": "exec-5dda4d86-c8cd-4529-bc07-a4ef5cbcdd70.png",
+      "reference": "C06_K02_take01 frame0",
+      "generation_spec": "Angry ghost both hands raised before one desk strike, seated employee indifferent. Keep empty impact area, desk and papers; no added writing.",
+      "prompt_record_note": "Image requirements reconstructed from production notes; exact original image tool payload not retained. Exact submitted motion prompt is saved separately.",
+      "motion_prompt": "submitted_prompts/C06_K02_impact_take01.txt",
+      "input_review": "A/B/C actual image samples accepted before use; this is not motion success"
+    }
+  ],
+  "rejected_preparation_variant": "exec-0005da74-b694-476b-a4ef-66a9aca270ad.png: insufficient lie-down space; not uploaded",
+  "image_count_generated_and_used": 6,
+  "all_existing_inputs_preserved": true
+}

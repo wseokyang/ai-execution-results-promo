@@ -1,0 +1,16 @@
+from pathlib import Path
+import json,shutil,hashlib
+OUT=Path(__file__).resolve().parent
+p=OUT/'queue.json'; q=json.loads(p.read_text(encoding='utf-8'))
+j=next(x for x in q if x['unit']=='C01_K06_pose')
+j['prompt']=j['prompt'].replace('She slowly raises ONLY her existing right arm diagonally toward the ceiling and bends ONLY her right knee to lift the right foot. Her left arm stays flat alongside her body on the mat and her left leg stays extended.', 'Both knees are bent initially. She keeps her right knee bent and raises the right foot, while sliding her LEFT heel along the mat to straighten her LEFT leg. She slowly raises her existing RIGHT arm diagonally toward the ceiling. Her LEFT arm stays flat alongside her body. Keep all four limbs continuously visible and attached.')
+(OUT/'submitted_prompts/C01_K06_pose_take01.txt').write_bytes((j['prompt']+'\n').encode('utf-8'))
+q.append(dict(unit='C02_K05_release',take=1,input='inputs/C02_K05_release.png',reason='Show release of exactly two-ring handcuff into optical path',status='PREPARED_NOT_SUBMITTED',prompt='The detective is supporting the LOWER ring of a single pair of handcuffs with his right hand. The UPPER ring is already closed around the fixed black camera handle. His ONLY action is to open his fingers and withdraw his right hand downward and away. Gravity swings the lower ring a short distance to the RIGHT until it hangs freely immediately in front of the orange camera window. The upper ring, single short chain and lower ring remain connected. Exactly TWO steel rings in total, no third ring. Once released, the lower ring settles after one small swing, visibly interrupting the view between lens and white sample. The woman remains still watching, both gloved hands away from the cuffs. Camera, specimen, light and monitor do not move or change. Hold the settled obstruction for the final four seconds. One continuous fixed-camera 8-second 16:9 shot, no cuts or dissolves. No dialogue, narration, lip sync, generated lettering or music. Silent output acceptable.'))
+(OUT/'submitted_prompts/C02_K05_release_take01.txt').write_bytes((q[-1]['prompt']+'\n').encode('utf-8'))
+p.write_bytes((json.dumps(q,ensure_ascii=False,indent=2)+'\n').encode('utf-8'))
+shutil.copy2(OUT/'inputs/C02_K05_release.png',Path('C:/Users/wseok/.cache/codex-flow/Q-AI-Fair-repair110-2026-10-24/C02_K05_release.png'))
+b=OUT/'budget_ledger.json'; d=json.loads(b.read_text(encoding='utf-8'))
+d['requests']=[{'unit':'C04_K08_detail','attempt':'security_failure','cost_displayed':10,'before':50,'after':50,'net_spend':0,'refund_observed':0,'status':'FAILED_ABNORMAL_ACTIVITY','account':'current_u3','recovery':'User explicitly refreshed; one subsequent request accepted'}, {'unit':'C04_K08_detail','take':1,'before':50,'after':40,'net_spend':10,'status':'ORIGINAL_SAVED','account':'current_u3'}, {'unit':'C01_K07','take':2,'before':10,'after':0,'net_spend':10,'status':'ORIGINAL_SAVED','account':'current_u2'}, {'unit':'C04_K09','take':2,'before':40,'after':30,'net_spend':10,'status':'FLOW_SUCCESS_DOWNLOAD_PENDING','account':'current_u3'}, {'unit':'C01_K05','take':3,'before':30,'cost_displayed':10,'status':'SUBMITTED','account':'current_u3'}]
+d['confirmed_net_spend']=30
+b.write_bytes((json.dumps(d,ensure_ascii=False,indent=2)+'\n').encode('utf-8'))
+print('Updated preparation and ledger; no browser request')

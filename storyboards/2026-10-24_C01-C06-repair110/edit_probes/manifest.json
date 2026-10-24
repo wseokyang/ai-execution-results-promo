@@ -1,0 +1,72 @@
+{
+  "C01_exit_to_fall": {
+    "duration": 7.5,
+    "segments": [
+      {
+        "source": "2026-10-24_C01-C06-repair110\\C01_K05_take03.mp4",
+        "source_in": 2.5,
+        "source_out": 7.25,
+        "start": 0,
+        "end": 4.75
+      },
+      {
+        "source": "2026-10-24_v12-C02-C04-C01-flow\\C01_K06_take01.mp4",
+        "source_in": 1.5,
+        "source_out": 4.25,
+        "start": 4.75,
+        "end": 7.5
+      }
+    ],
+    "audio": "muted",
+    "status": "join review pending; not final caption edit"
+  },
+  "C04_windows_to_spoon": {
+    "duration": 7.0,
+    "segments": [
+      {
+        "source": "2026-10-24_C01-C06-repair110\\C04_K08_three_visible_take01.mp4",
+        "source_in": 2,
+        "source_out": 3.5,
+        "start": 0,
+        "end": 1.5
+      },
+      {
+        "source": "2026-10-24_C01-C06-repair110\\C04_K09_take02.mp4",
+        "source_in": 0.5,
+        "source_out": 6,
+        "start": 1.5,
+        "end": 7.0
+      }
+    ],
+    "audio": "muted",
+    "status": "join review pending; not final caption edit"
+  },
+  "C06_impact_to_sort": {
+    "duration": 5.75,
+    "segments": [
+      {
+        "source": "2026-10-24_C06-caption-v05\\C06_Q-AI_Fair_edit_v05.mp4",
+        "source_in": 4,
+        "source_out": 5,
+        "start": 0,
+        "end": 1
+      },
+      {
+        "source": "2026-10-24_C01-C06-repair110\\C06_K02_impact_take01.mp4",
+        "source_in": 0.75,
+        "source_out": 2.25,
+        "start": 1,
+        "end": 2.5
+      },
+      {
+        "source": "2026-10-24_C06-caption-v05\\C06_Q-AI_Fair_edit_v05.mp4",
+        "source_in": 6.5,
+        "source_out": 9.75,
+        "start": 2.5,
+        "end": 5.75
+      }
+    ],
+    "audio": "muted",
+    "status": "join review pending; not final caption edit"
+  }
+}

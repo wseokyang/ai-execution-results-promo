@@ -1,0 +1,101 @@
+[
+  {
+    "unit": "C04_K08_detail",
+    "take": 1,
+    "input": "inputs/C04_K08_detail.png",
+    "reason": "Three-window reveal without fourth occupant or closing panels",
+    "prompt": "One continuous 8-second 16:9 fixed close shot, starting exactly from the supplied image. All THREE closed wooden shutters rotate OUTWARD around their visible LEFT VERTICAL hinges, like normal side-hinged doors, until approximately 90 degrees open. They remain open and stationary for the rest of the shot. After the panels clear, exactly THREE adults lean forward, one per opening: LEFT an older East Asian WOMAN with shoulder-length GREY hair and olive sleeves; CENTER a young slim East Asian MAN with short straight BLACK hair and dark blue sleeves; RIGHT a stocky East Asian MAN with thick CURLY hair and ochre sleeves. Each holds just ONE small metal bowl with the left hand and ONE thin wooden spoon with the right hand. Exactly three bowls and three spoons total. Their hungry expectant faces and utensils stay visible together for the final four seconds. Nobody eats or exits the horse. Preserve the horse wall, all three openings, wood, iron hardware and purple crescent. No other opening or person appears anywhere. Locked camera, no zoom, cuts, morphing or reset. No speech, voice-over, lip sync, generated text or music. Silent output acceptable.",
+    "status": "ORIGINAL_PRESERVED_REVIEWED",
+    "asset_id": "415882bc-4ccf-4d08-8781-1c4cfb02d24b"
+  },
+  {
+    "unit": "C01_K07",
+    "take": 2,
+    "input": "inputs/C01_K07.png",
+    "reason": "Show trainee actually lowering himself to imitate coach",
+    "prompt": "The woman in burgundy is already lying on the mat with one arm raised and one knee bent. She maintains EXACTLY this pose without lowering it throughout. The photographer remains crouched at screen left with his camera. ONLY the teal tracksuit man moves: he steps toward the clear space beside the woman, bends his knees, sits carefully, then lowers his back onto the mat beside her and raises the same arm and bent knee to copy her pose. Both bodies remain separate with clear space between them. He finishes parallel to her, head on the same side as her head, feet on the same side as her feet. Hold the two matching poses for the last two seconds. The coach never disappears, gets up or changes pose. The photographer never moves into their space. Keep the rolling chair stationary. One continuous 8-second 16:9 shot with a locked camera. Preserve all identities, clothing, set geometry, lighting and object counts. No dialogue, voice-over, lip sync, generated text or music. Silent output acceptable. No cuts, fades, reset, disappearance or extra limbs.",
+    "status": "ORIGINAL_PRESERVED_REVIEWED",
+    "asset_id": "37ca8205-828a-4781-8ecd-f9853efb30ba"
+  },
+  {
+    "unit": "C04_K09",
+    "take": 2,
+    "input": "inputs/C04_K09.png",
+    "reason": "One spoon extraction rather than two spoons",
+    "prompt": "The armored commander in the foreground looks toward the open food trolley. His right hand reaches inside his own cloak at his chest, then withdraws ONE short wooden eating spoon. He holds this single spoon visibly near his chest, glancing expectantly toward the food. His left hand stays EMPTY and still at his side for the whole shot. Only one spoon belongs to the commander. Do not give him a bowl or second utensil. The three hungry occupants already at the horse windows each continue holding their own one bowl and one spoon without moving the shutters. The elderly guard and recorder remain in place. The food lid stays open. No eating, serving or walking. One continuous 8-second 16:9 shot with a locked camera. Preserve all identities, clothing, set geometry, lighting and object counts. No dialogue, voice-over, lip sync, generated text or music. Silent output acceptable. No cuts, fades, reset, disappearance or extra limbs.",
+    "status": "ORIGINAL_PRESERVED_REVIEWED",
+    "asset_id": "00a179c1-d5d4-4915-b1ec-affa33953830"
+  },
+  {
+    "unit": "C01_K06_pose",
+    "take": 1,
+    "input": "inputs/C01_K06_pose.png",
+    "reason": "Clean two-arm pose formation after accepted landing",
+    "prompt": "The burgundy tracksuit woman has already landed on her back on the mat. She remains lying down. Both knees are bent initially. She keeps her right knee bent and raises the right foot, while sliding her LEFT heel along the mat to straighten her LEFT leg. She slowly raises her existing RIGHT arm diagonally toward the ceiling. Her LEFT arm stays flat alongside her body. Keep all four limbs continuously visible and attached. There are exactly two arms and two legs, each continuously attached to her body. She confidently holds this ridiculous presentation pose for the final four seconds. No second fall, sitting up, rolling, extra limb or changing chair. The two standing observers stay still at the right, looking at her. The rolling chair remains fixed where it is. One continuous 8-second 16:9 shot with a locked camera. Preserve all identities, clothing, set geometry, lighting and object counts. No dialogue, voice-over, lip sync, generated text or music. Silent output acceptable. No cuts, fades, reset, disappearance or extra limbs.",
+    "status": "ORIGINAL_PRESERVED_REVIEWED",
+    "asset_id": "1f2912a0-a7dc-400e-a952-926783035391"
+  },
+  {
+    "unit": "C01_K05",
+    "take": 3,
+    "input": "inputs/C01_K05.png",
+    "reason": "Both outgoing people cross actual left doorway",
+    "prompt": "The blue shirt man and yellow tracksuit woman leave together through the already OPEN doorway at far screen left. They turn toward that doorway, walk through the opening one after the other, and both fully disappear naturally behind the LEFT door jamb into the corridor by second five. They remain outside for the final three seconds. They never walk behind the teal observer or return to the room. The burgundy coach, teal observer and gray-shirt photographer remain in their original places and look toward the departing pair. No other person moves. The chair stays stationary and the coach does not sit yet. The doorway and door leaf remain fixed and fully open. One continuous 8-second 16:9 shot with a locked camera. Preserve all identities, clothing, set geometry, lighting and object counts. No dialogue, voice-over, lip sync, generated text or music. Silent output acceptable. No cuts, fades, reset, disappearance or extra limbs.",
+    "status": "ORIGINAL_PRESERVED_REVIEWED",
+    "asset_id": "f07ade44-9a34-48f9-8dce-7a3841817979"
+  },
+  {
+    "unit": "C04_K01_insert",
+    "take": 1,
+    "input": "inputs/C04_K01_insert.png",
+    "reason": "Single request inserted and hand withdrawn empty",
+    "prompt": "Focus on the stocky curly-haired man at the RIGHT. He takes ONLY his own small paper request and inserts that single paper fully into the already open large envelope with the purple crescent. His other hand holds the envelope steady. Once the paper has gone inside, he withdraws the inserting hand EMPTY and holds it beside the envelope. Nothing is pulled out. The older gray-haired woman at left and young dark-haired man in center keep holding their own papers; they do not simultaneously insert or remove anything. Exactly one paper enters the envelope. Keep the same three characters, their hungry expressions, the confined wooden interior, envelope and crescent. One continuous 8-second 16:9 shot with a locked camera. Preserve all identities, clothing, set geometry, lighting and object counts. No dialogue, voice-over, lip sync, generated text or music. Silent output acceptable. No cuts, fades, reset, disappearance or extra limbs.",
+    "status": "ORIGINAL_PRESERVED_REVIEWED",
+    "asset_id": "63ab55d5-57dc-40f0-8800-ad2f6596044b"
+  },
+  {
+    "unit": "C02_K05_release",
+    "take": 1,
+    "input": "inputs/C02_K05_release.png",
+    "reason": "Show release of exactly two-ring handcuff into optical path",
+    "status": "ORIGINAL_PRESERVED_REVIEWED",
+    "prompt": "The detective is supporting the LOWER ring of a single pair of handcuffs with his right hand. The UPPER ring is already closed around the fixed black camera handle. His ONLY action is to open his fingers and withdraw his right hand downward and away. Gravity swings the lower ring a short distance to the RIGHT until it hangs freely immediately in front of the orange camera window. The upper ring, single short chain and lower ring remain connected. Exactly TWO steel rings in total, no third ring. Once released, the lower ring settles after one small swing, visibly interrupting the view between lens and white sample. The woman remains still watching, both gloved hands away from the cuffs. Camera, specimen, light and monitor do not move or change. Hold the settled obstruction for the final four seconds. One continuous fixed-camera 8-second 16:9 shot, no cuts or dissolves. No dialogue, narration, lip sync, generated lettering or music. Silent output acceptable.",
+    "asset_id": "aa52457c-4b1e-45bb-8a1f-0fde9a8d3a5c"
+  },
+  {
+    "unit": "C05_K04_jack_detail",
+    "take": 1,
+    "input": "inputs/C05_K04_jack_detail.png",
+    "reason": "Replace soft 384x216 insert with sharp real jack movement",
+    "prompt": "The gray-haired maintenance worker uses BOTH existing gloved hands on the same handle to PUSH the low red wheeled jack a short distance toward SCREEN LEFT. Its black wheels visibly rotate on the wet paving as the entire jack rolls about half its own length, and the worker takes one small step with it. Then he stops and holds still. The lifting plate stays LOW at exactly the same height; this is TRANSPORT, not pumping or lifting. Handle angle remains approximately unchanged. Do not add a support, move the building, raise the jack, show any monster or change the tool. Keep all movement slow and physically grounded. One continuous locked-camera 8-second 16:9 shot. Keep identities, wardrobe, lighting and fixed set geometry. No dialogue, narration, lip sync, generated writing or music. Silent output acceptable. No cuts, fades, morphs or extra people.",
+    "status": "ORIGINAL_PRESERVED_REVIEWED",
+    "asset_id": "8f1468b0-da66-47e7-ae6b-f10e9f7aea75"
+  },
+  {
+    "unit": "C04_K08_three_visible",
+    "take": 1,
+    "input": "inputs/C04_K08_three_visible.png",
+    "reason": "Fix extra occupant by beginning with all three identities visible",
+    "prompt": "Exactly the THREE existing hungry adults stay in their own three windows. Each leans forward a little and extends their own SINGLE metal bowl forward over the sill with the hand already holding it. Their other hand keeps its existing single wooden spoon. They wait impatiently but silently with extended bowls for the final four seconds. Preserve the older gray-haired woman at left, slim young dark-haired man at center, and curly stocky man at right. The center opening contains ONLY ONE person throughout. Exactly three people, three bowls and three spoons. The already-open shutters remain entirely stationary. Nobody emerges from anywhere else, swaps position, climbs out or eats. No opening or closing of shutters. One continuous locked-camera 8-second 16:9 shot. Keep identities, wardrobe, lighting and fixed set geometry. No dialogue, narration, lip sync, generated writing or music. Silent output acceptable. No cuts, fades, morphs or extra people.",
+    "status": "ORIGINAL_PRESERVED_REVIEWED",
+    "asset_id": "2bc177df-6c2f-4969-9f61-7ee3b9fdc2b9"
+  },
+  {
+    "unit": "C01_K07_recline",
+    "take": 1,
+    "input": "inputs/C01_K07_recline.png",
+    "reason": "Finish copying from half-reclined position rather than standing",
+    "prompt": "The teal tracksuit man is already half lying on his elbows behind the burgundy woman. His ONLY action is to lower his shoulders and back gently onto the mat, then raise his right forearm and bend his right knee to imitate her existing pose. His left leg stays straight along the mat and his left arm rests at his side. His head remains at screen right and his feet at screen left. The burgundy woman remains completely motionless in her original raised-arm and bent-leg pose from first to last frame. The photographer remains crouched, looking through the camera. The two bodies stay separate and parallel; nobody touches or rolls onto anyone. No sitting up, kneeling, standing or moving the chair. Hold the two matching poses for the final three seconds. One continuous locked-camera 8-second 16:9 shot. Keep identities, wardrobe, lighting and fixed set geometry. No dialogue, narration, lip sync, generated writing or music. Silent output acceptable. No cuts, fades, morphs or extra people.",
+    "status": "ORIGINAL_PRESERVED_REVIEWED",
+    "asset_id": "fa7b2984-73e3-4903-8598-93e548c55a09"
+  },
+  {
+    "unit": "C06_K02_impact",
+    "take": 1,
+    "input": "inputs/C06_K02_impact.png",
+    "reason": "Clear cause: palms contact desk before small vibration; employee remains unimpressed",
+    "prompt": "The angry ghost has both existing hands raised above the desk. He brings BOTH palms down onto the EMPTY desktop ONCE, in one emphatic downward motion. The palms visibly contact the desk before a small desk vibration and a slight tremble of the nearby paper stack. The papers remain on the desk in the same general place. The ghost then keeps his hands on the desktop and stares at the employee with frustrated disbelief. The employee remains seated, calmly looking at the paperwork, with no startled reaction. The ghost never touches, lifts, flips or sorts any document. No second hit. Preserve all people, their hands, desk and objects. One continuous locked-camera 8-second 16:9 shot starting exactly from the supplied frame. No speech, voice-over, lip sync, generated text or music. Silent output acceptable. No cuts, dissolves, floating objects, morphs or extra limbs.",
+    "status": "ORIGINAL_PRESERVED_REVIEWED",
+    "asset_id": "ab64e923-50a2-4cbf-afc5-2fca75af203e"
+  }
+]

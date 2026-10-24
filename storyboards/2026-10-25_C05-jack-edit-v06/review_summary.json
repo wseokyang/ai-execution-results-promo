@@ -1,0 +1,12 @@
+{
+  "reviewers": [
+    "A",
+    "B",
+    "C"
+  ],
+  "scope": "Actual rendered frame samples and join boundaries; no continuous playback, listening or venue test",
+  "result": "VISUAL_SAMPLE_ACCEPTED",
+  "change": "26.25–27.75초의 흐릿한 확대를 실제1280×720 잭 운반으로 교체. 길이·자막·기존AAC패킷 불변.",
+  "source_review": "../2026-10-24_C01-C06-repair110/review_summary.json",
+  "audio_listening_verified": false
+}

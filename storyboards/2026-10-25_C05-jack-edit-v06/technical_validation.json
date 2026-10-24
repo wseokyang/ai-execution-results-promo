@@ -1,0 +1,10 @@
+{
+  "file": "C05_Q-AI_Fair_causal_edit_v06.mp4",
+  "sha256": "04d91a8e31108b80548564c8bf59bba64fd6b284d07369155a9a47630656e5a3",
+  "video_frames": 1230,
+  "duration_seconds": 51.25,
+  "full_decode": "PASS",
+  "constant_video_pts": true,
+  "aac_packet_payloads_and_timestamps_identical": true,
+  "originals_unchanged": true
+}

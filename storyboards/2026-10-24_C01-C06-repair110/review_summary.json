@@ -1,0 +1,115 @@
+{
+  "scope": "Three distinct reviewers independently inspected actual contacts and selected PNGs, then exchanged findings and rechecked join probes; continuous viewing, audio listening and venue testing not verified.",
+  "reviewers": [
+    "/root/causal_review_a",
+    "/root/causal_review_b",
+    "/root/causal_review_c"
+  ],
+  "all_six_review": {
+    "C01": "Actual exit and pose matching reviewed; select exit, retain accepted existing pose ellipsis. Monitor/portrait composites and final caption edit remain.",
+    "C02": "Cuff release candidate does not improve current join; retain previous source intervals. Exact monitor/sample/photo composites and final captions remain.",
+    "C03": "Current caption-v04 retained; no high-value generation repair identified.",
+    "C04": "Replace cropped three-person view and spoon extraction; retain old paper/first-opening intervals. Document/tablet and final captions remain.",
+    "C05": "Replace 384x216 enlarged crop with sharp original jack movement in full v06 edit.",
+    "C06": "Replace weak threat with first actual palm contact in full v06; retime existing desk effect to 6.125s."
+  },
+  "selected": {
+    "C01_K05": {
+      "interval": [
+        2.5,
+        7.25
+      ],
+      "reason": "두 사람이 실제 왼쪽 문으로 퇴장. 다음 착석·낙하는 시간 생략.",
+      "artifact": "edit_probes/C01_exit_to_fall.mp4"
+    },
+    "C04_K09": {
+      "interval": [
+        0.5,
+        6
+      ],
+      "reason": "장군이 숟가락 한 개를 꺼냄. 왼손이 같은 숟가락에 닿는 동작은 수용.",
+      "artifact": "edit_probes/C04_windows_to_spoon.mp4"
+    },
+    "C05_K04_jack_detail": {
+      "interval": [
+        1.5,
+        3
+      ],
+      "reason": "선명한 잭의 왼쪽 운반. 정지·상승·하중 이전은 아님.",
+      "artifact": "../2026-10-25_C05-jack-edit-v06/C05_Q-AI_Fair_causal_edit_v06.mp4"
+    },
+    "C04_K08_three_visible": {
+      "interval": [
+        2,
+        3.5
+      ],
+      "reason": "세 사람·그릇 세 개·숟가락 세 개 유지. 식사 유사 동작 제외. 창은 처음부터 열려 있음.",
+      "artifact": "edit_probes/C04_windows_to_spoon.mp4"
+    },
+    "C06_K02_impact": {
+      "interval": [
+        0.75,
+        2.25
+      ],
+      "reason": "첫 책상 접촉만 사용, 두 번째 타격 제외. 진동·종이 튐 미확보.",
+      "artifact": "../2026-10-25_C06-impact-edit-v06/C06_Q-AI_Fair_edit_v06.mp4"
+    }
+  },
+  "held": {
+    "C04_K08_detail": "중앙 창에 두 명, 총 네 인물과 그릇. 전체 공개 구간 미채택.",
+    "C01_K07": "수강생이 무릎만 꿇고 눕지 않음. 코치 자세도 달라짐.",
+    "C01_K06_pose": "누운 자세를 유지하지 않고 일어나 무릎 꿇음.",
+    "C02_K05_release": "두 고리·손 놓기는 확보했으나 아래 고리가 렌즈 아래로 내려감. 기존 K06과 사슬 길이·고리 위치 불일치.",
+    "C04_K01_insert": "자기 종이는 왼손에 남고, 빈 오른손이 봉투에서 다른 종이를 꺼냄. 투입 미확보.",
+    "C01_K07_recline": "등을 내리지 않고 팔꿈치로 기대며 코치도 자세를 풂. 정확 모방 완성 미확보."
+  },
+  "cross": [
+    {
+      "issue": "C06 second hit",
+      "A_initial": "0.75–3.5 candidate",
+      "B_and_C": "Hands rise again at2.5 and contact at3; exclude",
+      "PD": "0.75–2.25 only; A rechecked and accepted first-hit-only probe"
+    },
+    {
+      "issue": "C01 recline",
+      "A": "1.5–2.5 partial-gesture insertion may be tried",
+      "B_and_C": "No benefit over existing K07→K08",
+      "PD": "Do not add; exact matching pose not achieved"
+    },
+    {
+      "issue": "C04 three visible",
+      "A_and_C": "2–4",
+      "B": "2–3.5",
+      "PD": "Use common safe 2–3.5, exclude eating/retraction"
+    },
+    {
+      "issue": "C02 release",
+      "all": "Two rings and release exist, but optical obstruction and chain continuity fail",
+      "PD": "Keep previous selected source; new raw retained HOLD"
+    }
+  ],
+  "final_probe_recheck": {
+    "A": "C01 exit→fall, C04 bowls→spoon, C06 first contact→sorting and C05v06 jack joins visually accepted with time ellipses; no newly identified mandatory visual defect.",
+    "B": "C01 exit→fall, C04 bowls→spoon, C06 first contact→sorting and C05v06 jack joins visually accepted with time ellipses; no newly identified mandatory visual defect.",
+    "C": "C01 exit→fall, C04 bowls→spoon, C06 first contact→sorting and C05v06 jack joins visually accepted with time ellipses; no newly identified mandatory visual defect."
+  },
+  "C06_final_render_recheck": {
+    "A": "Actual render/contact and caption samples accepted. Cue record6.125s agrees with contact. Listening and realtime playback not verified. Inherited v05 metadata moved into previous_version_v05_change.",
+    "B": "Actual render/contact and caption samples accepted. Cue record6.125s agrees with contact. Listening and realtime playback not verified. Inherited v05 metadata moved into previous_version_v05_change.",
+    "C": "Actual render/contact and caption samples accepted. Cue record6.125s agrees with contact. Listening and realtime playback not verified. Inherited v05 metadata moved into previous_version_v05_change."
+  },
+  "actual_audio_listening": false,
+  "measured_audience_response": false,
+  "remaining": [
+    "C01/C02/C04 final exact composites, captions and edit",
+    "Original audio not used for meaning",
+    "Full realtime playback, listening and venue readability test",
+    "C01 matching-action, C02 cuff exact continuity and C04 paper insertion not solved by new takes; accepted earlier interval/ellipsis retained"
+  ],
+  "metadata_correction": "All3 identified inherited v05 changed_interval/replacement_method. PD moved them into explicit previous-version history and set current5–6.5s/frames120–155.",
+  "metadata_recheck": {
+    "A": "Actual corrected manifest reread; issue resolved, visual judgement unchanged.",
+    "B": "Actual corrected manifest reread; issue resolved, visual judgement unchanged.",
+    "C": "Actual corrected manifest reread; issue resolved, visual judgement unchanged."
+  }
+}

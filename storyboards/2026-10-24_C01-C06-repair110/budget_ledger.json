@@ -1,0 +1,181 @@
+{
+  "authorized_total": 110,
+  "require_all_spent": true,
+  "started_local": "2026-10-24T23:57:00+09:00",
+  "start_observed": {
+    "current_u2": 10,
+    "current_u3": 50,
+    "current_u4": 50
+  },
+  "requests": [
+    {
+      "unit": "C04_K08_detail",
+      "status": "FAILED_ABNORMAL_ACTIVITY_RECAPTCHA",
+      "account": "current_u3",
+      "before": 50,
+      "after": 50,
+      "net_spend": 0,
+      "refund_observed": 0,
+      "recovery": "User explicitly refreshed; one normal subsequent request accepted. No bypass."
+    },
+    {
+      "unit": "C04_K08_detail",
+      "take": 1,
+      "asset_id": "415882bc-4ccf-4d08-8781-1c4cfb02d24b",
+      "account": "current_u3",
+      "before": 50,
+      "after": 40,
+      "net_spend": 10,
+      "cost_displayed": 10,
+      "refund_observed": 0,
+      "status": "ORIGINAL_SAVED"
+    },
+    {
+      "unit": "C01_K07",
+      "take": 2,
+      "asset_id": "37ca8205-828a-4781-8ecd-f9853efb30ba",
+      "account": "current_u2",
+      "before": 10,
+      "after": 0,
+      "net_spend": 10,
+      "cost_displayed": 10,
+      "refund_observed": 0,
+      "status": "ORIGINAL_SAVED"
+    },
+    {
+      "unit": "C04_K09",
+      "take": 2,
+      "asset_id": "00a179c1-d5d4-4915-b1ec-affa33953830",
+      "account": "current_u3",
+      "before": 40,
+      "after": 30,
+      "net_spend": 10,
+      "cost_displayed": 10,
+      "refund_observed": 0,
+      "status": "ORIGINAL_SAVED"
+    },
+    {
+      "unit": "C01_K05",
+      "take": 3,
+      "asset_id": "f07ade44-9a34-48f9-8dce-7a3841817979",
+      "account": "current_u3",
+      "before": 30,
+      "after": 20,
+      "net_spend": 10,
+      "cost_displayed": 10,
+      "refund_observed": 0,
+      "status": "ORIGINAL_SAVED"
+    },
+    {
+      "unit": "C01_K06_pose",
+      "take": 1,
+      "asset_id": "1f2912a0-a7dc-400e-a952-926783035391",
+      "account": "current_u3",
+      "before": 20,
+      "after": 10,
+      "net_spend": 10,
+      "cost_displayed": 10,
+      "refund_observed": 0,
+      "status": "ORIGINAL_SAVED"
+    },
+    {
+      "unit": "C04_K01_insert",
+      "take": 1,
+      "asset_id": "63ab55d5-57dc-40f0-8800-ad2f6596044b",
+      "account": "current_u3",
+      "before": 10,
+      "after": 0,
+      "net_spend": 10,
+      "cost_displayed": 10,
+      "refund_observed": 0,
+      "status": "ORIGINAL_SAVED"
+    },
+    {
+      "unit": "C02_K05_release",
+      "take": 1,
+      "asset_id": "aa52457c-4b1e-45bb-8a1f-0fde9a8d3a5c",
+      "account": "current_u4",
+      "before": 50,
+      "after": 40,
+      "net_spend": 10,
+      "cost_displayed": 10,
+      "refund_observed": 0,
+      "status": "ORIGINAL_SAVED"
+    },
+    {
+      "unit": "C05_K04_jack_detail",
+      "status": "FAILED_ABNORMAL_ACTIVITY_RECAPTCHA",
+      "account": "current_u4",
+      "before": 40,
+      "after": 40,
+      "net_spend": 0,
+      "refund_observed": 0,
+      "recovery": "User explicitly refreshed; one normal subsequent request accepted. No bypass."
+    },
+    {
+      "unit": "C05_K04_jack_detail",
+      "take": 1,
+      "asset_id": "8f1468b0-da66-47e7-ae6b-f10e9f7aea75",
+      "account": "current_u4",
+      "before": 40,
+      "after": 30,
+      "net_spend": 10,
+      "cost_displayed": 10,
+      "refund_observed": 0,
+      "status": "ORIGINAL_SAVED"
+    },
+    {
+      "unit": "C04_K08_three_visible",
+      "take": 1,
+      "asset_id": "2bc177df-6c2f-4969-9f61-7ee3b9fdc2b9",
+      "account": "current_u4",
+      "before": 30,
+      "after": 20,
+      "net_spend": 10,
+      "cost_displayed": 10,
+      "refund_observed": 0,
+      "status": "ORIGINAL_SAVED"
+    },
+    {
+      "unit": "C01_K07_recline",
+      "take": 1,
+      "asset_id": "fa7b2984-73e3-4903-8598-93e548c55a09",
+      "account": "current_u4",
+      "before": 20,
+      "after": 10,
+      "net_spend": 10,
+      "cost_displayed": 10,
+      "refund_observed": 0,
+      "status": "ORIGINAL_SAVED"
+    },
+    {
+      "unit": "C06_K02_impact",
+      "take": 1,
+      "asset_id": "ab64e923-50a2-4cbf-afc5-2fca75af203e",
+      "account": "current_u4",
+      "before": 10,
+      "after": 0,
+      "net_spend": 10,
+      "cost_displayed": 10,
+      "refund_observed": 0,
+      "status": "ORIGINAL_SAVED"
+    }
+  ],
+  "confirmed_net_spend": 110,
+  "security_failures_without_charge": 2,
+  "final_balance_observed": {
+    "current_u0": 0,
+    "current_u1": 0,
+    "current_u2": 0,
+    "current_u3": 0,
+    "current_u4": 0
+  },
+  "final_balance_observation_local": "2026-10-25 00:27–00:30 Asia/Seoul",
+  "final_verification": "Actual account panels, not historical balance inference",
+  "renewal_notes": "u4 daily 10:01 observed. Do not assume midnight reset or that spending all is a reset condition.",
+  "purchases": 0,
+  "subscription_changes": 0,
+  "paid_upscales": 0,
+  "external_paid_apis": 0,
+  "automation": "PAUSED unchanged"
+}

@@ -1,0 +1,35 @@
+{
+  "film": "C05",
+  "version": 6,
+  "duration_seconds": 51.25,
+  "fps": 24,
+  "resolution": [
+    1280,
+    720
+  ],
+  "base_edit": "2026-10-24_C05-causal-edit-v05\\C05_Q-AI_Fair_causal_edit_v05.mp4",
+  "base_edl": "2026-10-24_C05-causal-edit-v05/edit_manifest.json",
+  "replacement": {
+    "source": "2026-10-24_C01-C06-repair110\\C05_K04_jack_detail_take01.mp4",
+    "source_in": 1.5,
+    "source_out": 3.0,
+    "timeline_in": 26.25,
+    "timeline_out": 27.75,
+    "crop": null
+  },
+  "source_sha256": {
+    "2026-10-24_C05-causal-edit-v05\\C05_Q-AI_Fair_causal_edit_v05.mp4": "1a9e0d29d30e71cc9e726d4c1c78e348f63f44e829ec86467ca71b5ed1d0d94d",
+    "2026-10-24_C01-C06-repair110\\C05_K04_jack_detail_take01.mp4": "1da5e0a37006765e96f9b78ab506adf8d5a9acf524b64e036d35a52990a50bef"
+  },
+  "caption_changes": null,
+  "audio": "All base AAC packets, PTS and payloads preserved",
+  "purpose": "Replace soft enlarged 384x216 insert with sharp original 1280x720 real jack movement",
+  "limitations": [
+    "Transport only; full stop, lifting and weight transfer not demonstrated",
+    "Existing partial turn/time ellipsis remains"
+  ],
+  "flow_credits_for_edit": 0,
+  "originals_unchanged": true,
+  "review": "A/B/C final join samples accepted; source limitations retained",
+  "actual_listening_verified": false
+}

@@ -1,0 +1,12 @@
+{
+  "reviewers": [
+    "A",
+    "B",
+    "C"
+  ],
+  "scope": "Actual rendered frame samples and join boundaries; no continuous playback, listening or venue test",
+  "result": "VISUAL_SAMPLE_ACCEPTED",
+  "change": "5–6.5초에 실제 첫 타격을 교체하고 기존 책상 효과음만5.55→6.125초 이동. 전체길이·자막 유지.",
+  "source_review": "../2026-10-24_C01-C06-repair110/review_summary.json",
+  "audio_listening_verified": false
+}

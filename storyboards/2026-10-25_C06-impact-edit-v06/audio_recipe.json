@@ -1,0 +1,77 @@
+{
+  "music": "Existing v04 score unchanged",
+  "source_score": "2026-10-23_C05-C06-edit-v04/C06/C06_score.wav",
+  "effects": [
+    {
+      "kind": "paper",
+      "at": 3.458,
+      "duration": 0.25,
+      "old_at": 3.458,
+      "peak_dbfs_before_mix": -36,
+      "boundary_samples": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "kind": "desk",
+      "at": 6.125,
+      "duration": 0.24,
+      "old_at": 5.55,
+      "peak_dbfs_before_mix": -31,
+      "boundary_samples": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "kind": "paper",
+      "at": 7.9,
+      "duration": 0.36,
+      "old_at": 7.9,
+      "peak_dbfs_before_mix": -35,
+      "boundary_samples": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "kind": "pencil",
+      "at": 18.0,
+      "duration": 0.4,
+      "old_at": 18.0,
+      "peak_dbfs_before_mix": -39,
+      "boundary_samples": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "kind": "door",
+      "at": 25.333,
+      "duration": 0.22,
+      "old_at": 25.333,
+      "peak_dbfs_before_mix": -31,
+      "boundary_samples": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "kind": "hinge",
+      "at": 39.042,
+      "duration": 0.15,
+      "old_at": 39.792,
+      "peak_dbfs_before_mix": -37,
+      "boundary_samples": [
+        0.0,
+        0.0
+      ]
+    }
+  ],
+  "static_gain_db": 14.5,
+  "contact_source_frame": 45,
+  "contact_source_time": 1.875,
+  "contact_timeline_time": 6.125,
+  "actual_listening_verified": false
+}

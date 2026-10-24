@@ -1,0 +1,17 @@
+from pathlib import Path
+import json,shutil
+O=Path(__file__).resolve().parent;R=O.parents[1];C=Path('C:/Users/wseok/.cache/codex-flow/Q-AI-Fair-repair110-2026-10-24')
+q=json.loads((O/'queue.json').read_text(encoding='utf-8'))
+shutil.copy2(Path('C:/Users/wseok/.codex/generated_images/01a13daf-3732-7b90-99a8-92c605090d35/exec-b74bb30a-d410-4026-9d26-aeda4ce0fcee.png'),O/'inputs/C01_K07_recline.png')
+common=' One continuous locked-camera 8-second 16:9 shot. Keep identities, wardrobe, lighting and fixed set geometry. No dialogue, narration, lip sync, generated writing or music. Silent output acceptable. No cuts, fades, morphs or extra people.'
+new=[
+('C05_K04_jack_detail','Replace soft 384x216 insert with sharp real jack movement','The gray-haired maintenance worker uses BOTH existing gloved hands on the same handle to PUSH the low red wheeled jack a short distance toward SCREEN LEFT. Its black wheels visibly rotate on the wet paving as the entire jack rolls about half its own length, and the worker takes one small step with it. Then he stops and holds still. The lifting plate stays LOW at exactly the same height; this is TRANSPORT, not pumping or lifting. Handle angle remains approximately unchanged. Do not add a support, move the building, raise the jack, show any monster or change the tool. Keep all movement slow and physically grounded.'+common),
+('C04_K08_three_visible','Fix extra occupant by beginning with all three identities visible','Exactly the THREE existing hungry adults stay in their own three windows. Each leans forward a little and extends their own SINGLE metal bowl forward over the sill with the hand already holding it. Their other hand keeps its existing single wooden spoon. They wait impatiently but silently with extended bowls for the final four seconds. Preserve the older gray-haired woman at left, slim young dark-haired man at center, and curly stocky man at right. The center opening contains ONLY ONE person throughout. Exactly three people, three bowls and three spoons. The already-open shutters remain entirely stationary. Nobody emerges from anywhere else, swaps position, climbs out or eats. No opening or closing of shutters.'+common),
+('C01_K07_recline','Finish copying from half-reclined position rather than standing','The teal tracksuit man is already half lying on his elbows behind the burgundy woman. His ONLY action is to lower his shoulders and back gently onto the mat, then raise his right forearm and bend his right knee to imitate her existing pose. His left leg stays straight along the mat and his left arm rests at his side. His head remains at screen right and his feet at screen left. The burgundy woman remains completely motionless in her original raised-arm and bent-leg pose from first to last frame. The photographer remains crouched, looking through the camera. The two bodies stay separate and parallel; nobody touches or rolls onto anyone. No sitting up, kneeling, standing or moving the chair. Hold the two matching poses for the final three seconds.'+common),
+]
+for u,reason,prompt in new:
+    j=dict(unit=u,take=1,input=f'inputs/{u}.png',reason=reason,prompt=prompt,status='PREPARED_NOT_SUBMITTED')
+    q.append(j);(O/'submitted_prompts'/f'{u}_take01.txt').write_bytes((prompt+'\n').encode('utf-8'))
+    shutil.copy2(O/'inputs'/f'{u}.png',C/f'{u}.png')
+(O/'queue.json').write_bytes((json.dumps(q,ensure_ascii=False,indent=2)+'\n').encode('utf-8'))
+print('Prepared sharp jack, visible three, half-reclined copy')
