@@ -1,0 +1,35 @@
+{
+  "file": "C05_Q-AI_Fair_final_v13.mp4",
+  "sha256": "854bced363d817ff54e3da4bb59485659c5cf468f1f9cd3fa2a11ad2dea3a77c",
+  "bytes": 24100785,
+  "duration_seconds": 46.75,
+  "video_frames": 1122,
+  "fps": 24,
+  "resolution": [
+    1280,
+    720
+  ],
+  "full_decode": "PASS",
+  "video_pts_steps": "constant 1/24 second",
+  "audio_samples": 2244608,
+  "audio_decoded_timeline_samples": 2244000,
+  "audio_end_seconds": 46.75,
+  "max_audio_pts_gap_seconds": 7.105427357601002e-15,
+  "audio_peak": 0.7670078873634338,
+  "loudness": {
+    "input_i": "-21.85",
+    "input_tp": "-2.30",
+    "input_lra": "22.40",
+    "input_thresh": "-34.54",
+    "output_i": "-19.55",
+    "output_tp": "-1.50",
+    "output_lra": "15.70",
+    "output_thresh": "-30.69",
+    "normalization_type": "dynamic",
+    "target_offset": "0.55"
+  },
+  "originals_unchanged": true,
+  "all_sfx_boundary_samples_zero": true,
+  "actual_realtime_playback_verified": false,
+  "actual_listening_verified": false
+}

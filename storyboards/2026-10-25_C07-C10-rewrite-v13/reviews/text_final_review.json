@@ -1,0 +1,182 @@
+{
+  "scope": "PD digest of completed three-agent independent/cross/reconfirmation text review before image production. Not audience testing.",
+  "source_draft_version": "V13_TEXT_REV03_BAR",
+  "reviewers": [
+    "/root/causal_review_a",
+    "/root/causal_review_b",
+    "/root/v13_review_c"
+  ],
+  "independent_digest": "independent_text_digest.json",
+  "dispositions": [
+    {
+      "issue_id": "A-01",
+      "scope": "C07 K01/02",
+      "treatment": "도자기 유약 목·손·접합선과 표면 균열 UI를 명시. 실제 사람의 신원/능력 판정으로 읽히지 않게 함.",
+      "status": "TEXT_RECONFIRMED; MOTION_REMAINS_TO_BE_GENERATED"
+    },
+    {
+      "issue_id": "B-02",
+      "scope": "C07 K01/02",
+      "treatment": "도자기 유약 목·손·접합선과 표면 균열 UI를 명시. 실제 사람의 신원/능력 판정으로 읽히지 않게 함.",
+      "status": "TEXT_RECONFIRMED; MOTION_REMAINS_TO_BE_GENERATED"
+    },
+    {
+      "issue_id": "C-001",
+      "scope": "C07 K01/02",
+      "treatment": "도자기 유약 목·손·접합선과 표면 균열 UI를 명시. 실제 사람의 신원/능력 판정으로 읽히지 않게 함.",
+      "status": "TEXT_RECONFIRMED; MOTION_REMAINS_TO_BE_GENERATED"
+    },
+    {
+      "issue_id": "A-02",
+      "scope": "C07 K07–10",
+      "treatment": "라벨 절차 삭제. 열린 상자에서 접힌 무릎과 발의 위치를 보인 뒤 K08 정지 상태의 한 번 일어서기 실패를 추가. 그 다음에만 K09 밀기.",
+      "status": "TEXT_RECONFIRMED; MOTION_REMAINS_TO_BE_GENERATED"
+    },
+    {
+      "issue_id": "B-01",
+      "scope": "C07 K07–10",
+      "treatment": "라벨 절차 삭제. 열린 상자에서 접힌 무릎과 발의 위치를 보인 뒤 K08 정지 상태의 한 번 일어서기 실패를 추가. 그 다음에만 K09 밀기.",
+      "status": "TEXT_RECONFIRMED; MOTION_REMAINS_TO_BE_GENERATED"
+    },
+    {
+      "issue_id": "C-002",
+      "scope": "C07 K07–10",
+      "treatment": "라벨 절차 삭제. 열린 상자에서 접힌 무릎과 발의 위치를 보인 뒤 K08 정지 상태의 한 번 일어서기 실패를 추가. 그 다음에만 K09 밀기.",
+      "status": "TEXT_RECONFIRMED; MOTION_REMAINS_TO_BE_GENERATED"
+    },
+    {
+      "issue_id": "A-03",
+      "scope": "C08 K03/04",
+      "treatment": "공유 양식이 열린 시작→자기 P 문서 적용→동일 청록 탭/검은 별표 직접 확인. 3+2.5=5.5초로 압축.",
+      "status": "TEXT_RECONFIRMED; MOTION_REMAINS_TO_BE_GENERATED"
+    },
+    {
+      "issue_id": "B-03",
+      "scope": "C08 K03/04",
+      "treatment": "공유 양식이 열린 시작→자기 P 문서 적용→동일 청록 탭/검은 별표 직접 확인. 3+2.5=5.5초로 압축.",
+      "status": "TEXT_RECONFIRMED; MOTION_REMAINS_TO_BE_GENERATED"
+    },
+    {
+      "issue_id": "C-006",
+      "scope": "C08 K03/04",
+      "treatment": "공유 양식이 열린 시작→자기 P 문서 적용→동일 청록 탭/검은 별표 직접 확인. 3+2.5=5.5초로 압축.",
+      "status": "TEXT_RECONFIRMED; MOTION_REMAINS_TO_BE_GENERATED"
+    },
+    {
+      "issue_id": "A-04",
+      "scope": "C09 K01–08",
+      "treatment": "복선1.25초, 과잉 작별3.5초. 승차3/전화2.5/하차3초, 충전기 회수는18~21.5초. 검정폰 왼손→왼주머니, 오른손 가방 자립 후 오른주머니 충전기.",
+      "status": "TEXT_RECONFIRMED; MOTION_REMAINS_TO_BE_GENERATED"
+    },
+    {
+      "issue_id": "C-005",
+      "scope": "C09 K01–08",
+      "treatment": "복선1.25초, 과잉 작별3.5초. 승차3/전화2.5/하차3초, 충전기 회수는18~21.5초. 검정폰 왼손→왼주머니, 오른손 가방 자립 후 오른주머니 충전기.",
+      "status": "TEXT_RECONFIRMED; MOTION_REMAINS_TO_BE_GENERATED"
+    },
+    {
+      "issue_id": "B-09",
+      "scope": "C09 K01–08",
+      "treatment": "복선1.25초, 과잉 작별3.5초. 승차3/전화2.5/하차3초, 충전기 회수는18~21.5초. 검정폰 왼손→왼주머니, 오른손 가방 자립 후 오른주머니 충전기.",
+      "status": "TEXT_RECONFIRMED; MOTION_REMAINS_TO_BE_GENERATED"
+    },
+    {
+      "issue_id": "A-05",
+      "scope": "C09 K07",
+      "treatment": "W는 자기 분홍폰만 보여줌. 주머니 지목을 삭제하고 M이 스스로 오른주머니를 더듬어 찾음.",
+      "status": "TEXT_RECONFIRMED; MOTION_REMAINS_TO_BE_GENERATED"
+    },
+    {
+      "issue_id": "C-003",
+      "scope": "C09 K03/04",
+      "treatment": "공유해주신 AI 방법, 제가 해보고 확인했어요. 한 자막과 폰 체크 한 개. 휴가 인사는 K04 승차로 이동.",
+      "status": "TEXT_RECONFIRMED; MOTION_REMAINS_TO_BE_GENERATED"
+    },
+    {
+      "issue_id": "A-06",
+      "scope": "C10 K01–06/09",
+      "treatment": "초기 교환0.838m로 수정. PR이 K03 실제로 원 밖 이동, K05 정지 후 실제 보행으로 작업대 오른쪽 진입. WORK는0.35m 앞. MG·FX·기록·실크 선반·스위치 동기 좌표.",
+      "status": "TEXT_RECONFIRMED; MOTION_REMAINS_TO_BE_GENERATED"
+    },
+    {
+      "issue_id": "B-04",
+      "scope": "C10 K01–06/09",
+      "treatment": "초기 교환0.838m로 수정. PR이 K03 실제로 원 밖 이동, K05 정지 후 실제 보행으로 작업대 오른쪽 진입. WORK는0.35m 앞. MG·FX·기록·실크 선반·스위치 동기 좌표.",
+      "status": "TEXT_RECONFIRMED; MOTION_REMAINS_TO_BE_GENERATED"
+    },
+    {
+      "issue_id": "C-004",
+      "scope": "C10 K01–06/09",
+      "treatment": "초기 교환0.838m로 수정. PR이 K03 실제로 원 밖 이동, K05 정지 후 실제 보행으로 작업대 오른쪽 진입. WORK는0.35m 앞. MG·FX·기록·실크 선반·스위치 동기 좌표.",
+      "status": "TEXT_RECONFIRMED; MOTION_REMAINS_TO_BE_GENERATED"
+    },
+    {
+      "issue_id": "A-07",
+      "scope": "C10 K06–10",
+      "treatment": "폭1.2m, 상단1.50m 고정, 자유로운 하단 두 모서리.1.12m에서0.78m로 낮춰 상판0.95m 뒤 밝은 틈을 가림. 얼굴·발·손 노출, 흰 틈의 원인도 기존 진열대 뒷면으로 명시.",
+      "status": "TEXT_RECONFIRMED; MOTION_REMAINS_TO_BE_GENERATED"
+    },
+    {
+      "issue_id": "B-05",
+      "scope": "C10 K06–10",
+      "treatment": "폭1.2m, 상단1.50m 고정, 자유로운 하단 두 모서리.1.12m에서0.78m로 낮춰 상판0.95m 뒤 밝은 틈을 가림. 얼굴·발·손 노출, 흰 틈의 원인도 기존 진열대 뒷면으로 명시.",
+      "status": "TEXT_RECONFIRMED; MOTION_REMAINS_TO_BE_GENERATED"
+    },
+    {
+      "issue_id": "B-06",
+      "scope": "C07 K10/C08 K10",
+      "treatment": "C07 새 손 스캐너 삭제, 원래 고정 카메라 복귀. C08 흙손은 K08부터 끝까지 바닥, 마지막 H 두 손 비움.",
+      "status": "TEXT_RECONFIRMED; MOTION_REMAINS_TO_BE_GENERATED"
+    },
+    {
+      "issue_id": "A-08",
+      "scope": "C07/C08/C10",
+      "treatment": "중복 절차·라벨 삭제, 도움 버튼2초/FX2초/WORK2초. 핵심 입출입·회전·실패 동작은 실제 시간을 남김.",
+      "status": "TEXT_RECONFIRMED; MOTION_REMAINS_TO_BE_GENERATED"
+    },
+    {
+      "issue_id": "B-07",
+      "scope": "C07/C08/C10",
+      "treatment": "중복 절차·라벨 삭제, 도움 버튼2초/FX2초/WORK2초. 핵심 입출입·회전·실패 동작은 실제 시간을 남김.",
+      "status": "TEXT_RECONFIRMED; MOTION_REMAINS_TO_BE_GENERATED"
+    },
+    {
+      "issue_id": "A-09",
+      "scope": "ALL",
+      "treatment": "C07 공유된 놓친 조건, C08 정리 양식 재사용, C09 동료에게 이어지는 AI 방법, C10 실패한 촬영 조건/수정 기록 공개로 역할 차별화.",
+      "status": "TEXT_RECONFIRMED; MOTION_REMAINS_TO_BE_GENERATED"
+    },
+    {
+      "issue_id": "B-08",
+      "scope": "ALL",
+      "treatment": "C07 공유된 놓친 조건, C08 정리 양식 재사용, C09 동료에게 이어지는 AI 방법, C10 실패한 촬영 조건/수정 기록 공개로 역할 차별화.",
+      "status": "TEXT_RECONFIRMED; MOTION_REMAINS_TO_BE_GENERATED"
+    },
+    {
+      "issue_id": "A-10",
+      "scope": "C07 cast/C08 K10",
+      "treatment": "C07 IA를 마른 중년 여성·짧은 검정 곱슬로 변경. C08 근육질 은발 여성 유지. 마지막 흙손 연속성 별도 반영.",
+      "status": "TEXT_RECONFIRMED; MOTION_REMAINS_TO_BE_GENERATED"
+    },
+    {
+      "issue_id": "C-007",
+      "scope": "C10 K01",
+      "treatment": "작은 링 세 개에 길이4m 은색 실크를 장엄하게 걷는 스케일 불균형. 전체 실크의 종점을 앞 선반으로 고정, 검정 장막과 구별.",
+      "status": "TEXT_RECONFIRMED; MOTION_REMAINS_TO_BE_GENERATED"
+    },
+    {
+      "issue_id": "C-008",
+      "scope": "C10 K03/04",
+      "treatment": "K03 0→5도, K04 시작5도에서 남은175도, 총180도.185도 오류 제거. 회전하는 모든 소품/인물에 동일 변환.",
+      "status": "TEXT_RECONFIRMED; MOTION_REMAINS_TO_BE_GENERATED"
+    }
+  ],
+  "final_changes": "REV03_BAR rigid lower hem and subsequent external caller badge/title placement confirmed. All three reviewers reconfirmed no required unresolved text issue; actual motion is separate.",
+  "result": "Text reviewed and cleared for image production. Actual-image review is separate and may cause local corrections.",
+  "C09_image_stage_change": "S05 caller name is external editorial badge, not UI on phone back; does not change plot.",
+  "final_reconfirmation": {
+    "/root/causal_review_a": "No unresolved required text finding in existing independent/cross/recheck scope.",
+    "/root/causal_review_b": "No unresolved required text finding in existing independent/cross/recheck scope.",
+    "/root/v13_review_c": "No unresolved required text finding in existing independent/cross/recheck scope."
+  }
+}

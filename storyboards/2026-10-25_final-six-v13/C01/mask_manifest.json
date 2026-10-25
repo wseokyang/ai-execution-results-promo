@@ -1,0 +1,2288 @@
+{
+  "method": "Local MobileSAM vit_t segmentation of original actual foreground only. Connected components restricted to manually inspected actor seed positions; thin feather.",
+  "action_synthesis": false,
+  "files": [
+    {
+      "path": "foreground_masks/K01/0000.png",
+      "sha256": "b72638e74e8d0f60817582f4d7636235cb5f6111a055c6788c7b26ee9b4d6ce9"
+    },
+    {
+      "path": "foreground_masks/K01/0001.png",
+      "sha256": "d79b724808a327daf01a7daf335c1ff43e2f420a142cfd29546cff2ad2e6b11f"
+    },
+    {
+      "path": "foreground_masks/K01/0002.png",
+      "sha256": "9215eb8c33988116b6c5548dc603f781a4f2bb2f4fcdc6e3286d2add066a686a"
+    },
+    {
+      "path": "foreground_masks/K01/0003.png",
+      "sha256": "9839c5ace70366c67a41c6b9ec1a2799a718989a15005c4be5f953d2777652a3"
+    },
+    {
+      "path": "foreground_masks/K01/0004.png",
+      "sha256": "2496265211920c6be11982b864a9d93e122f7462a0f50c7bf3bf33160abbf058"
+    },
+    {
+      "path": "foreground_masks/K01/0005.png",
+      "sha256": "98c9d631290c180e7c1b24a990050a5a2d76d13e2c4f0c50b63cafa00558cce2"
+    },
+    {
+      "path": "foreground_masks/K01/0006.png",
+      "sha256": "2fcc0645958b82b0fc526c65f18b0b7856169b9444f52c9f66d106cd6eac6958"
+    },
+    {
+      "path": "foreground_masks/K01/0007.png",
+      "sha256": "2b96b98a2614fc946c82154be8885c33580e378e07317a2fc04642b493cd3028"
+    },
+    {
+      "path": "foreground_masks/K01/0008.png",
+      "sha256": "ffd77c0b8b58489de14fcb8140e24eca67851befc0e15f213c40bf0bdedcf43c"
+    },
+    {
+      "path": "foreground_masks/K01/0009.png",
+      "sha256": "2b50449e2e3624598dbea07a4b069ae05e96edf544e478ac3dba17b2c841a289"
+    },
+    {
+      "path": "foreground_masks/K01/0010.png",
+      "sha256": "92d921f51cc695ab8e182bba7541289ee1c809db3507460c1cd20275d5a00cb3"
+    },
+    {
+      "path": "foreground_masks/K01/0011.png",
+      "sha256": "bd85f62f85c1f124e141bc2621876febcd2204c0739874bc0baf47464e0505ef"
+    },
+    {
+      "path": "foreground_masks/K01/0012.png",
+      "sha256": "9666f3bf3614b1681cbe3231198e80f8d75b19f638f390b49cf98629423bced0"
+    },
+    {
+      "path": "foreground_masks/K01/0013.png",
+      "sha256": "83174c67ab1682ca326b9e6acf1bd78ffc8cfe89a2ef0c003494bc800eb529b9"
+    },
+    {
+      "path": "foreground_masks/K01/0014.png",
+      "sha256": "41556baa034574c78b25ee7179900dfbe0bd3f0fe8e91490d1634fd0383fcc51"
+    },
+    {
+      "path": "foreground_masks/K01/0015.png",
+      "sha256": "7ad8fbd3dca3a67d57eb84c174de457a62be6ca0f799dbcb0ac570f9212c081d"
+    },
+    {
+      "path": "foreground_masks/K01/0016.png",
+      "sha256": "c42b3255876f5fcdeafa98de87a89627c28c9b6e11b3a5a1b2f3d3686ed653dc"
+    },
+    {
+      "path": "foreground_masks/K01/0017.png",
+      "sha256": "70d767f705c59bae93eaa0a3c5fa77ba7e55f4edf23a2366806fc7b8ab196f83"
+    },
+    {
+      "path": "foreground_masks/K01/0018.png",
+      "sha256": "9580aa0e04da344db4979d11e7858703c5e79b2f4af9060031bdbe23532b73b9"
+    },
+    {
+      "path": "foreground_masks/K01/0019.png",
+      "sha256": "ecf8505c177dce76f771b435d79c257318be866b78574718a50a1b5cce6ece4b"
+    },
+    {
+      "path": "foreground_masks/K01/0020.png",
+      "sha256": "8f3f6a16900dde23902e654091eee664412bc5f0124e770a9e84dfdd1429c2b3"
+    },
+    {
+      "path": "foreground_masks/K01/0021.png",
+      "sha256": "65919b24361f8fe21d5d080f335153207ee5fa0559e7edb65d1ef92a7835463e"
+    },
+    {
+      "path": "foreground_masks/K01/0022.png",
+      "sha256": "1422b189d89446f10ca6011e7aca4b4248d1d7019602772cba9e209887278edd"
+    },
+    {
+      "path": "foreground_masks/K01/0023.png",
+      "sha256": "55636dbe6f8a8db4020015458391d1561afbdee44fd5c7b776db67819eaba17c"
+    },
+    {
+      "path": "foreground_masks/K01/0024.png",
+      "sha256": "fdca02ee3060c1fbf0a2fe1d8771015e040ecf2667a5956ffd6b89a80e61d4d6"
+    },
+    {
+      "path": "foreground_masks/K01/0025.png",
+      "sha256": "a5abfbf68aa4cbb60db5586ab054b5a4a60b24f3fb2c8696d527afef965d5958"
+    },
+    {
+      "path": "foreground_masks/K01/0026.png",
+      "sha256": "7332f44e4452d5e60cda8e7a9072df7f4b85b76c3397dc09f007669b46fd0236"
+    },
+    {
+      "path": "foreground_masks/K01/0027.png",
+      "sha256": "c339f2c8ce7b12a3939b1cfde7f164b895c33792ffc6564b0423bbc65253a670"
+    },
+    {
+      "path": "foreground_masks/K01/0028.png",
+      "sha256": "8e37f8c16fbb644044268030cd76e87e3b27c23f719e028cb7657ccee2bfac58"
+    },
+    {
+      "path": "foreground_masks/K01/0029.png",
+      "sha256": "2fc24f6cf542e9afb08f309b3b1823787c108aaac714533630d4c4ff0fc97253"
+    },
+    {
+      "path": "foreground_masks/K01/0030.png",
+      "sha256": "162f66b236d97e4eeab32e73cae519a4da5eb1847b08be0cb8c992811320a427"
+    },
+    {
+      "path": "foreground_masks/K01/0031.png",
+      "sha256": "cc62146b3a326df0d68f1250d91b92ed069d38717108c76f28295657dcdee8cc"
+    },
+    {
+      "path": "foreground_masks/K01/0032.png",
+      "sha256": "1788c1a3878c243c5f017bb803d726a6a0fea227fbe60fef48f32f1668e19a75"
+    },
+    {
+      "path": "foreground_masks/K01/0033.png",
+      "sha256": "7e93e90ec497a2d8e624356d46cef28f3e3737c441cbbda10bbec6abc96f7dcf"
+    },
+    {
+      "path": "foreground_masks/K01/0034.png",
+      "sha256": "e687a3534e93b8eeb6d8889d3c2d78c4fdd71fe9e7f283fe8cb20bbdcf5f007b"
+    },
+    {
+      "path": "foreground_masks/K01/0035.png",
+      "sha256": "9ed458d0f12f396f92a38e8cc1950a6987e91a37137a026ba022cb9915a4b6c1"
+    },
+    {
+      "path": "foreground_masks/K01/0036.png",
+      "sha256": "81a8f5cedc347b07fe953a8444f842683a370ffb1083a94edee8d4076dcce669"
+    },
+    {
+      "path": "foreground_masks/K01/0037.png",
+      "sha256": "a5fd797644b7271399fd7bd0750a7ae6ec2f38c772a7713d3b006527db78c6ce"
+    },
+    {
+      "path": "foreground_masks/K01/0038.png",
+      "sha256": "c67e73abbe6cfa3331340091b23062b919d662a0fa9bb435ef5dbc1e318d7c5c"
+    },
+    {
+      "path": "foreground_masks/K01/0039.png",
+      "sha256": "6c70a5d7361ea68e682b8fa36de71842a17a46a48f6e9b0060206ea1f5b9044d"
+    },
+    {
+      "path": "foreground_masks/K01/0040.png",
+      "sha256": "abf01913209d0b7515173909199a001bd104fcd2b66661b343238543a79845be"
+    },
+    {
+      "path": "foreground_masks/K01/0041.png",
+      "sha256": "9e225d98489c6309e0363a25e8d5e89defb4649d870c8a6c002ae3c81ae54f80"
+    },
+    {
+      "path": "foreground_masks/K01/0042.png",
+      "sha256": "57cb16e692fb4af1150d58bdbac8caba289ac58cb58918f31d4980722939e9b4"
+    },
+    {
+      "path": "foreground_masks/K01/0043.png",
+      "sha256": "11c4281f78de81c308128ba8943e82d2f2c652fcc5b4e68011611efd1ffdade8"
+    },
+    {
+      "path": "foreground_masks/K01/0044.png",
+      "sha256": "2b0797fff93f3ed6d68a076cbd4b7388d33597da8c2055d7c21fefa0b68540f8"
+    },
+    {
+      "path": "foreground_masks/K01/0045.png",
+      "sha256": "51e6d420cd8cf959558726d71c077d061e8ab486775cd03b637619b56555289f"
+    },
+    {
+      "path": "foreground_masks/K01/0046.png",
+      "sha256": "1659d24c3101fd8942076f3d1661774e5b326bd96f5bca17ce8976cec1886885"
+    },
+    {
+      "path": "foreground_masks/K01/0047.png",
+      "sha256": "dc7909db4e1ebf8b1e366c17a00cd31501f6a9de8fff43c17f338e754066eed6"
+    },
+    {
+      "path": "foreground_masks/K01/0048.png",
+      "sha256": "f8cc5e0ac0a23d73963c0019ad92fed2f675b7d9b40df3f280148be853c05302"
+    },
+    {
+      "path": "foreground_masks/K01/0049.png",
+      "sha256": "17985f24fe837a704edd208309972e166dcc09282fe18453a4986a7efd69bb68"
+    },
+    {
+      "path": "foreground_masks/K01/0050.png",
+      "sha256": "853a588053e600ccf69dba4651672fc4244d18966cd4a82d65078cf78cf0ccf2"
+    },
+    {
+      "path": "foreground_masks/K01/0051.png",
+      "sha256": "d73a56413ab1b48966b1d3f5ef3493a7ef9bb341c350f21542272045e8024f41"
+    },
+    {
+      "path": "foreground_masks/K01/0052.png",
+      "sha256": "5e714fb558640abfa1524c02d6c351f33d84c184b8120a04081b403990f0631b"
+    },
+    {
+      "path": "foreground_masks/K01/0053.png",
+      "sha256": "a860e8388df380256e7a7a3eb55be017af2066b2ac50dad528d97186e0430bf0"
+    },
+    {
+      "path": "foreground_masks/K01/0054.png",
+      "sha256": "862a101b379b2d807840aa49375f5d609858844ac96faa0807e1454e30597d5c"
+    },
+    {
+      "path": "foreground_masks/K01/0055.png",
+      "sha256": "e911771bd4a53cdb666b1073ed71f15ea4c5c384eb70a109ecb6fdbf6a893dc8"
+    },
+    {
+      "path": "foreground_masks/K01/0056.png",
+      "sha256": "9a7cf81f922887d28ca2e5f7ae3622726f190bb421b9c6586f9e38b39faddbb1"
+    },
+    {
+      "path": "foreground_masks/K01/0057.png",
+      "sha256": "bd87a0d8e6962feb6f36f9c11cb384953792bea3de3498ee244483cfc083b81d"
+    },
+    {
+      "path": "foreground_masks/K01/0058.png",
+      "sha256": "9bde516589030bb428f6a46c17b3ad0b1cd73df4b8167317e8fc2d0af009dd50"
+    },
+    {
+      "path": "foreground_masks/K01/0059.png",
+      "sha256": "79d44e12a898d1ea0401ee139c01f40a1b302e5abe89e1dfe79f9d453ea0fd1d"
+    },
+    {
+      "path": "foreground_masks/K01/0060.png",
+      "sha256": "f9f286aac4b2e6e462b9d00ce6870260186529ed60e958ff1dfab2d0d88d211d"
+    },
+    {
+      "path": "foreground_masks/K01/0061.png",
+      "sha256": "f4a29e2e71fb38cd071d43100732d8b76490e47055cda7dba35efcd1ed76edaf"
+    },
+    {
+      "path": "foreground_masks/K01/0062.png",
+      "sha256": "153c195522f6cfd4e4df9c7818c833f1779d6d2b3f00012859dca933af56fd20"
+    },
+    {
+      "path": "foreground_masks/K01/0063.png",
+      "sha256": "7eadb5d39f9418d9096c5bd35d9ba4b54c460d3ce049bba6f57169f99e7f75e2"
+    },
+    {
+      "path": "foreground_masks/K01/0064.png",
+      "sha256": "419c8296774f704e47925de00011826ab1a5a4e08a9fe61388e327488b2a68a4"
+    },
+    {
+      "path": "foreground_masks/K01/0065.png",
+      "sha256": "688b8b62f211eceb7a51003d22b664737f2e85aa79d52de12544fc6fd3e0b506"
+    },
+    {
+      "path": "foreground_masks/K01/0066.png",
+      "sha256": "f2810a903a52ed418cdee6f820010df1b3c176f9b6c3ead79370092fa63e95a0"
+    },
+    {
+      "path": "foreground_masks/K01/0067.png",
+      "sha256": "390646ce07242e8d0b4ec3882375d539d3a054e7fa551d07f8d87f2e2521085d"
+    },
+    {
+      "path": "foreground_masks/K01/0068.png",
+      "sha256": "f23893e527f287fa1db63d45dedc310de60b0596232e3919768a98750667a9f4"
+    },
+    {
+      "path": "foreground_masks/K01/0069.png",
+      "sha256": "4f9881f377ea17fa439e817460da80d8af144487a70f717e4299f837b0c12d8a"
+    },
+    {
+      "path": "foreground_masks/K01/0070.png",
+      "sha256": "5e95be3a820bccf9861df048cb5d08c0b88371bc150d990d03304943b0c96ca5"
+    },
+    {
+      "path": "foreground_masks/K01/0071.png",
+      "sha256": "6ab227f97ae87e2cabe3e8ef8f7332d7253f9fbf7c731b44e8d3038b0d71a70d"
+    },
+    {
+      "path": "foreground_masks/K01/0072.png",
+      "sha256": "8fafebc79b94f8f0f5b3a2b8992da89309607037f18f7d428f66ba258d7ebf3c"
+    },
+    {
+      "path": "foreground_masks/K01/0073.png",
+      "sha256": "c338c7e89347e447742e1c0f9a0a7b46d2fedfdc0fcc290b489511082fa513bb"
+    },
+    {
+      "path": "foreground_masks/K01/0074.png",
+      "sha256": "5cbb7d4a2fc4fce33b4aa696eea24371fb77d35b51291d779a7eb105f8cbfa04"
+    },
+    {
+      "path": "foreground_masks/K01/0075.png",
+      "sha256": "c7e62cdd016730bd377870c96024f9a343684121e25eb2777188d270e010d43b"
+    },
+    {
+      "path": "foreground_masks/K01/0076.png",
+      "sha256": "451c648eb4d6a8fe6d08dc49c848b97fde7625241ee1560a5a58eb4c1cbde041"
+    },
+    {
+      "path": "foreground_masks/K01/0077.png",
+      "sha256": "b1800cab3b8f9e2f8044d873c00935220768d4cb311f6c47184b28f4385537fa"
+    },
+    {
+      "path": "foreground_masks/K01/0078.png",
+      "sha256": "aabdaef56bd516cb8b0ab1ced0ab8825bcec13bbce7e985651f9b4b6949c453a"
+    },
+    {
+      "path": "foreground_masks/K01/0079.png",
+      "sha256": "4d7f19de96fdd2a39da121ed13bf7bcd5292dfe881ec51897fe65b99cde744f6"
+    },
+    {
+      "path": "foreground_masks/K01/0080.png",
+      "sha256": "755bff6ddc4c4e49d6454a0d0fb6a1435489fe79ca3e49cf5d72957bf7870df1"
+    },
+    {
+      "path": "foreground_masks/K01/0081.png",
+      "sha256": "443d32b5cc09e7b4895be6849c387c363f593393fa4c8c012daba4feba320067"
+    },
+    {
+      "path": "foreground_masks/K01/0082.png",
+      "sha256": "633bbbf367efbc6fc6b8b14fbf61ccc0dbb2010d1eeba3c0dd07c29f304683cd"
+    },
+    {
+      "path": "foreground_masks/K01/0083.png",
+      "sha256": "9d325c0b7115bcf2f366057cba9371cdc9645cf0fc32d9823a03b674ed246001"
+    },
+    {
+      "path": "foreground_masks/K01/0084.png",
+      "sha256": "965c13acdea9a02fe09f42866bfb5c2fb2cbaa4bf1ea31993a2a3a63fbcd6fe5"
+    },
+    {
+      "path": "foreground_masks/K01/0085.png",
+      "sha256": "678410491ae1e72ee41b88bbfd551fa4862de4a129159780fa3040b51c7ae797"
+    },
+    {
+      "path": "foreground_masks/K01/0086.png",
+      "sha256": "efe71179388060396397b000cf35c49cfc2ee4b968b5fc512d5ac321e1e92563"
+    },
+    {
+      "path": "foreground_masks/K01/0087.png",
+      "sha256": "450453c14c1ace26384effac22a3c810abb0e8e96a6f3386154fb905d78f6280"
+    },
+    {
+      "path": "foreground_masks/K01/0088.png",
+      "sha256": "eedbfb3eebc2fe79672a1b6709120f58ef2754320c229a93b6d9793e8f7ffe41"
+    },
+    {
+      "path": "foreground_masks/K01/0089.png",
+      "sha256": "106ed064497dd28f9243fb1555482534a05b1d8334ab132f6a5cb52bab67b1fc"
+    },
+    {
+      "path": "foreground_masks/K02/0000.png",
+      "sha256": "b05f30beedd3f88250e16ae1b2b4df101208edc90e683e41b2db54ad983792fa"
+    },
+    {
+      "path": "foreground_masks/K02/0001.png",
+      "sha256": "7d4322afcfdb3bfb222f0ff568c6b492fcb6a806a5253247aeced6fd0567aae3"
+    },
+    {
+      "path": "foreground_masks/K02/0002.png",
+      "sha256": "9b0c6d7e9a79d3e8bb2bfd1e4501f156be96b940f015c7a3ce7ba62c97431802"
+    },
+    {
+      "path": "foreground_masks/K02/0003.png",
+      "sha256": "e7680280343dffa6b8b6a6e389634ef00df613e84994c77c607fb37b4094dba6"
+    },
+    {
+      "path": "foreground_masks/K02/0004.png",
+      "sha256": "349cbc6ae671a4b29f9dca269c31986f50068d5ff85bcdaf5079675b75ef5d66"
+    },
+    {
+      "path": "foreground_masks/K02/0005.png",
+      "sha256": "89076a1a81e0ade21c35370aabe02a0e0fe4c547ac60281b9d2c64ec17035cc3"
+    },
+    {
+      "path": "foreground_masks/K02/0006.png",
+      "sha256": "248c5c0fc7747df33ff92772231fb524c32d35bf99d9d61100512d25d283fdc4"
+    },
+    {
+      "path": "foreground_masks/K02/0007.png",
+      "sha256": "d387169864928cb066d01eda0e9909bbb7649b282965eb387c3ee016b003cc72"
+    },
+    {
+      "path": "foreground_masks/K02/0008.png",
+      "sha256": "af747c594c7db4265ea2f841c174349c66934d76573b634357705e946b69c2b9"
+    },
+    {
+      "path": "foreground_masks/K02/0009.png",
+      "sha256": "f89a690808ae24e55d275cc021f8638cafaa4a4d1929b990052c00e1c900b61f"
+    },
+    {
+      "path": "foreground_masks/K02/0010.png",
+      "sha256": "b0ff59a1e0bec4a4e263b5b765aae49b6126a8aa0a2a339f4ae3e66786aebec8"
+    },
+    {
+      "path": "foreground_masks/K02/0011.png",
+      "sha256": "1199111065fe3e5224a83a2ac61858a1bbbcafa7dd5723c92ce051fe63253b2e"
+    },
+    {
+      "path": "foreground_masks/K02/0012.png",
+      "sha256": "58ba8a98f883ce06fabb9ffb7a526372a389cba6a1b312911d220b3e746b33b0"
+    },
+    {
+      "path": "foreground_masks/K02/0013.png",
+      "sha256": "272e66362722a085307433c161b28712a0410a820e4c71bfbf686183d5751d7a"
+    },
+    {
+      "path": "foreground_masks/K02/0014.png",
+      "sha256": "869cc867311a63e03cae20e565eca7f76ab783127483c2124996b5de1b6091c2"
+    },
+    {
+      "path": "foreground_masks/K02/0015.png",
+      "sha256": "a458a5686f322633756f364a995d5c42a4d093bcecabd388325f162c99a61ed4"
+    },
+    {
+      "path": "foreground_masks/K02/0016.png",
+      "sha256": "c6a606a4be2e2dba7ffd9e98bd4c37d9ae3d91202e92a310e0416ae1c40eaa34"
+    },
+    {
+      "path": "foreground_masks/K02/0017.png",
+      "sha256": "aceb03a63a065a34812b136f52ebba6ddbde9fe4de126268a79f094bfec9c590"
+    },
+    {
+      "path": "foreground_masks/K02/0018.png",
+      "sha256": "06ba00af482e0f57d8c6bf15be3b221c7ef3ef268e111e5c15f2b157dfe6fbd4"
+    },
+    {
+      "path": "foreground_masks/K02/0019.png",
+      "sha256": "563812a001a304d625af69343f83953632b458ae179e4109338bf1569e494eb3"
+    },
+    {
+      "path": "foreground_masks/K02/0020.png",
+      "sha256": "85bd037d6696002ec1a5f70203c2c729af797ebfc483208012c97ba55f9bbf0e"
+    },
+    {
+      "path": "foreground_masks/K02/0021.png",
+      "sha256": "36bf5814fc8b88a8af80091ca8d01453ea82974f3a1e1d6d31561d927843a358"
+    },
+    {
+      "path": "foreground_masks/K02/0022.png",
+      "sha256": "b6bc26dc8703598378dc21bd85f1a6489c3c137356471c1e809590b1cd8cf09f"
+    },
+    {
+      "path": "foreground_masks/K02/0023.png",
+      "sha256": "0fefb409148d00810b3c63f71b72821e0b5f4e22f728dcae1945e43fb1fb37ff"
+    },
+    {
+      "path": "foreground_masks/K02/0024.png",
+      "sha256": "8a8d09d9d0d4a32ccc2a632697b6c4434807f9e38e3ca14cede9fc59aef38952"
+    },
+    {
+      "path": "foreground_masks/K02/0025.png",
+      "sha256": "22a5f6225aa274f55293d33b71878b138f58bb6bda32830905822cac26f1c2ec"
+    },
+    {
+      "path": "foreground_masks/K02/0026.png",
+      "sha256": "875f6c9b098e989818b5fb79e453887972c1c3637cf3fe89c454ff97a474e362"
+    },
+    {
+      "path": "foreground_masks/K02/0027.png",
+      "sha256": "432f8a7eff6f4959dac9a8b58412a90f9b0a30aac8b5524b72cf089569247551"
+    },
+    {
+      "path": "foreground_masks/K02/0028.png",
+      "sha256": "39d6683d17230d1499f7b72d6806e2d1b5fa5dbfc17ad2c2221cb14d19b1c84c"
+    },
+    {
+      "path": "foreground_masks/K02/0029.png",
+      "sha256": "a7670780fd45830a3345bee13f103bddb336a4a3b3eec6a9ae6a8b2ba5df8eb7"
+    },
+    {
+      "path": "foreground_masks/K02/0030.png",
+      "sha256": "cfdab0989ac57775dd34bae0a8a24462f75e7af3ed90621e455118f5d315741c"
+    },
+    {
+      "path": "foreground_masks/K02/0031.png",
+      "sha256": "9b2010e03e20dcb33e34420215a31832ae429d9739da883b8eb111e660450f2b"
+    },
+    {
+      "path": "foreground_masks/K02/0032.png",
+      "sha256": "09f805a88886d3c4b2c0ba610316ddfc4c5926315376a9e5e441f07dbb797aad"
+    },
+    {
+      "path": "foreground_masks/K02/0033.png",
+      "sha256": "61798b3288fbef46a029cbb6a36c89a3cb1a53f8f3fb0e68f12d2e06342dbb7f"
+    },
+    {
+      "path": "foreground_masks/K02/0034.png",
+      "sha256": "e9194897e5843ce070e23c9e8769904888ad5f701c254793adbcb370826ae26d"
+    },
+    {
+      "path": "foreground_masks/K02/0035.png",
+      "sha256": "7419198fba38b7644f716bdcd7b1fb041e8c319689ae52be33d4e2304ce54635"
+    },
+    {
+      "path": "foreground_masks/K02/0036.png",
+      "sha256": "367eb5eb240e5abee3c575fd11be383ac2f1d62b53ad22d220f6db695a77c87a"
+    },
+    {
+      "path": "foreground_masks/K02/0037.png",
+      "sha256": "6ae4d57f3eb3abddf5774be6e09e670fac8dd66c7d596484876233edf6c54753"
+    },
+    {
+      "path": "foreground_masks/K02/0038.png",
+      "sha256": "4a80ae929bcf034253ad7af5efb91d28c68f1a2bd248d5daf7df29d3644138ca"
+    },
+    {
+      "path": "foreground_masks/K02/0039.png",
+      "sha256": "a4a5f6d08ef690229dc2ed28104f6645365712ea74f1220b6903ca8c688c78ac"
+    },
+    {
+      "path": "foreground_masks/K02/0040.png",
+      "sha256": "7a0be68e750b8dfc6d18e5c9b92c7d0fdd8c4cc277c918f67b99b5dbc22b4de5"
+    },
+    {
+      "path": "foreground_masks/K02/0041.png",
+      "sha256": "a6b4fb50d2ba059c81cfbaec0ddd70b43189915d96595d9f3e0ceefabe518af9"
+    },
+    {
+      "path": "foreground_masks/K02/0042.png",
+      "sha256": "1660fcbc16fe10e25bb727864ea384e0a5820efcb8f779f9f48ab0ca3299d040"
+    },
+    {
+      "path": "foreground_masks/K02/0043.png",
+      "sha256": "fdd06d1268ea622c55e6f5e4edf81bb75bcd6605b005e76d6be162faa1e37716"
+    },
+    {
+      "path": "foreground_masks/K02/0044.png",
+      "sha256": "2f98686a208dc5797c789a44e48e271bf44579d1732eb7780cdd8823f2209dd2"
+    },
+    {
+      "path": "foreground_masks/K02/0045.png",
+      "sha256": "195d2334e1797b1e2f1021ffa1e3fb76e6ed872652e3356a0dc694fadd19995a"
+    },
+    {
+      "path": "foreground_masks/K02/0046.png",
+      "sha256": "f95c1ca4328ed1a531c283cefa05d51ac98ca1fd907ae4e14199cc60d73b7662"
+    },
+    {
+      "path": "foreground_masks/K02/0047.png",
+      "sha256": "cc771eb1f8c1528bd67d19ba859e698ccfda75f358ab2276fb6c809c00d1968e"
+    },
+    {
+      "path": "foreground_masks/K02/0048.png",
+      "sha256": "51853d3ce64e92f8385e6b6ce966611d5803ea18638c6663e9212827303121e1"
+    },
+    {
+      "path": "foreground_masks/K02/0049.png",
+      "sha256": "40bd4996cc341eecee2cbe256d7291194b81a9a0b2ab0083ac004288ddd9c339"
+    },
+    {
+      "path": "foreground_masks/K02/0050.png",
+      "sha256": "ca5ec692b542d88fec0630a6f831a5dd342c316f42bf8d136c1b267132913003"
+    },
+    {
+      "path": "foreground_masks/K02/0051.png",
+      "sha256": "e6cb83b2e901327d91466919a4c2909116337721be904766430b69538f5133ac"
+    },
+    {
+      "path": "foreground_masks/K02/0052.png",
+      "sha256": "1ee5169382ceb7ef086ba33dc3c38c3429317e12b6a6eb876116e83b9d6dae6f"
+    },
+    {
+      "path": "foreground_masks/K02/0053.png",
+      "sha256": "b2d4b14cf322e6d02e4ac70119889a34f6145f854b45d4cd589f341d02570a22"
+    },
+    {
+      "path": "foreground_masks/K03/0024.png",
+      "sha256": "eec773e005e2301fcb89581f9734d04ffc593ee39c1f3882ba56d28df1848c56"
+    },
+    {
+      "path": "foreground_masks/K03/0025.png",
+      "sha256": "6c35b671ee4d422bc0d078f29feaa6f51781fe222d15c1c700b41eb426db6a56"
+    },
+    {
+      "path": "foreground_masks/K03/0026.png",
+      "sha256": "c92ca04922c690ffec22ee7d6cecf00ce5d30e7e4b844899d2edf3fa398778e3"
+    },
+    {
+      "path": "foreground_masks/K03/0027.png",
+      "sha256": "5eb395fee21f0effd4c75666739c65feaa6dd9464ebca79a8babb36a1ca4f58d"
+    },
+    {
+      "path": "foreground_masks/K03/0028.png",
+      "sha256": "6845f61d01708e384aecff1c4bb0306206059aef10bdb2fbf37a5d32e2144105"
+    },
+    {
+      "path": "foreground_masks/K03/0029.png",
+      "sha256": "6dc7b3c0374d789d2d00e002d5ac1b7e9be94584f9e3bbd2f0a414514b07c439"
+    },
+    {
+      "path": "foreground_masks/K03/0030.png",
+      "sha256": "10a2878f230369f63a2cf17fb32cb3ca8fb2150072823fbf2b8ea64bace45bb0"
+    },
+    {
+      "path": "foreground_masks/K03/0031.png",
+      "sha256": "0ec352d38861a710761e42ee41b4664898ec75ad38cdffcd583c17175f01b965"
+    },
+    {
+      "path": "foreground_masks/K03/0032.png",
+      "sha256": "06089b09362762a5c2757b522a51d800a9e0b93713c1239eae83437225593626"
+    },
+    {
+      "path": "foreground_masks/K03/0033.png",
+      "sha256": "a21d2280b4fd00c19030558bb51755fb8f4f58e307e9e9c45673a038175780af"
+    },
+    {
+      "path": "foreground_masks/K03/0034.png",
+      "sha256": "20a9bcae771f980d8fa1be70537149d2f4333cf315d4ba6e1204424316ddc02c"
+    },
+    {
+      "path": "foreground_masks/K03/0035.png",
+      "sha256": "54a260c1fff40389803d1ff1272b214d4f1971a0a1690f4dd35aaedebeda07ec"
+    },
+    {
+      "path": "foreground_masks/K03/0036.png",
+      "sha256": "d427de628e0b1255b477ba8d51184f65162724e788c3952c68e514c5b5fbe7e2"
+    },
+    {
+      "path": "foreground_masks/K03/0037.png",
+      "sha256": "3ed4e5bed570cfe43f6a868668616b3765fa0a0721027181c075f09adee33a2a"
+    },
+    {
+      "path": "foreground_masks/K03/0038.png",
+      "sha256": "3b72ce27174bc78f58a75e061ee4d3a1913b583076e94409b5170da057d6e544"
+    },
+    {
+      "path": "foreground_masks/K03/0039.png",
+      "sha256": "57eee29bfdc2c6174770bb9984c3b0fea24d233b69f4e04e956c20d59a763d9b"
+    },
+    {
+      "path": "foreground_masks/K03/0040.png",
+      "sha256": "9bb073c7351a3ff84d3da6d28b0e0484e17686e19a958fb5ff3ae98b53a3bc6f"
+    },
+    {
+      "path": "foreground_masks/K03/0041.png",
+      "sha256": "63fbfa68f286be056cd0c246f7c823c958ce82201aa98d1234eb1d557c709455"
+    },
+    {
+      "path": "foreground_masks/K03/0042.png",
+      "sha256": "281ac37c9633e3c2a4428d913dd58461dfc3049dd29fc1bf746e79aca6fbec04"
+    },
+    {
+      "path": "foreground_masks/K03/0043.png",
+      "sha256": "1669eb51e3817d25b26e31dd960b645dc70feef4b2034c799fb126b428799dd2"
+    },
+    {
+      "path": "foreground_masks/K03/0044.png",
+      "sha256": "e91a9d597dc6c60c08db3a9fd83d430f30cffcb17cb677b761b0674f2be643d6"
+    },
+    {
+      "path": "foreground_masks/K03/0045.png",
+      "sha256": "3048d85ead15d299ba2c65eff2bdea9263775f03c4e8ea0f65aeea2947ca5936"
+    },
+    {
+      "path": "foreground_masks/K03/0046.png",
+      "sha256": "6636629cdbd52d3de0b5e19be3e5464609905f2571155ac337aca5482aa2d42e"
+    },
+    {
+      "path": "foreground_masks/K03/0047.png",
+      "sha256": "759fc1fc51e70fea2e18a0d348ec7a215821da73e7dc4a01556232424edd35aa"
+    },
+    {
+      "path": "foreground_masks/K03/0048.png",
+      "sha256": "1b7e50d4bf3a9d8a66d28f93c937d32c194ce69b14ba6e172422354a36d2edb0"
+    },
+    {
+      "path": "foreground_masks/K03/0049.png",
+      "sha256": "c53c866c1f0ddc26b9cdf4a71aaef8f3bfce4688ea5fd2221cd840d40c7338e5"
+    },
+    {
+      "path": "foreground_masks/K03/0050.png",
+      "sha256": "aa61b4a1db24e9593d0a55bd4cf55241466e53be4db58ce9c7896bda6e906184"
+    },
+    {
+      "path": "foreground_masks/K03/0051.png",
+      "sha256": "9fce02d62344836b9fc3d967756659f6dc07a8174d94224271014efaa28cf715"
+    },
+    {
+      "path": "foreground_masks/K03/0052.png",
+      "sha256": "852c3ce56b61d7402a06bc2e9f178aad1cff0ed9dc853a7652fa24a36d74146a"
+    },
+    {
+      "path": "foreground_masks/K03/0053.png",
+      "sha256": "d0da0974b414e0e4f320931c224fc13500cb924b9cd8cc24d390c98d6fb9b205"
+    },
+    {
+      "path": "foreground_masks/K03/0054.png",
+      "sha256": "cb04e03312bc1533233073b6c5002f809ce3e3654e0472629fae4becf7083206"
+    },
+    {
+      "path": "foreground_masks/K03/0055.png",
+      "sha256": "c412308b6be416f040fbcafbe10126528a6cc7b00d2b8ffc48e52c443f6d972f"
+    },
+    {
+      "path": "foreground_masks/K03/0056.png",
+      "sha256": "4d3a05602702eb047e5c5215d4ed8e716cf9be220ea74d934eff0cf43df20bd6"
+    },
+    {
+      "path": "foreground_masks/K03/0057.png",
+      "sha256": "e5f7f60d41ad42ea34e99502fcf7235e0636ab8afdf467197442b3195afeae26"
+    },
+    {
+      "path": "foreground_masks/K03/0058.png",
+      "sha256": "b96c5c535f81377cfe3ec48f02740cb6ed295baf39166b74d0025a95a3b10794"
+    },
+    {
+      "path": "foreground_masks/K03/0059.png",
+      "sha256": "1ed929592601689a527a922646fce8631e8cb125afe30b354e3886a9cfed7a4f"
+    },
+    {
+      "path": "foreground_masks/K03/0060.png",
+      "sha256": "ed33af5d92b923f84d0181a89dc0f8bc11e0958cf9564220858ca97a4710cf52"
+    },
+    {
+      "path": "foreground_masks/K03/0061.png",
+      "sha256": "5ee016c5ba6c78330f0a7efb5eb93d054041f1d2887aabcb76d620c1dbaad081"
+    },
+    {
+      "path": "foreground_masks/K03/0062.png",
+      "sha256": "f2adcda165e1eb772afb81090fde86db8e6f1e19c8f014b7d7b46d88b06d2b3c"
+    },
+    {
+      "path": "foreground_masks/K03/0063.png",
+      "sha256": "f1fdd393a2585c52c527e3b3eeb63a307abefaf19fe3aab817f520218c92f499"
+    },
+    {
+      "path": "foreground_masks/K03/0064.png",
+      "sha256": "2375af001ad4fca9cafea0c1c982aca4a10ebf78f8ffa6a8008fd7b0a09d8790"
+    },
+    {
+      "path": "foreground_masks/K03/0065.png",
+      "sha256": "c5ea7fc1280489afedd7607f658f5ad5374be5ce2bd0d4e9eb4e5bfa76d147a1"
+    },
+    {
+      "path": "foreground_masks/K03/0066.png",
+      "sha256": "f2b4be30a0799978b36b2a5081ef26d7c1d7ee2a390f6535510595afe2e6d4a4"
+    },
+    {
+      "path": "foreground_masks/K03/0067.png",
+      "sha256": "0303923067c4bdadce32997d1c1e456889dc32297997fdf08e99336d67501eb9"
+    },
+    {
+      "path": "foreground_masks/K03/0068.png",
+      "sha256": "0aa02d3be1ff3b9e6ea89a04896b484075160a7babb8fb20780cea7bb63178c5"
+    },
+    {
+      "path": "foreground_masks/K03/0069.png",
+      "sha256": "9eb33767826b1cc88b0158453303160a2e9a3259fa12052177baca8bb8a43bcd"
+    },
+    {
+      "path": "foreground_masks/K03/0070.png",
+      "sha256": "c405ab2b022139411e6910e41acf24300b715ef2f4474336be01583c672d031b"
+    },
+    {
+      "path": "foreground_masks/K03/0071.png",
+      "sha256": "f410741d1a9a15d25f0f4595f30b840cdba0b9ee2f8a1ac3f5b907c14978f640"
+    },
+    {
+      "path": "foreground_masks/K03/0072.png",
+      "sha256": "a25e72fda1e0bb6f92b0438dce95a11e07f188b9e2b069036bf5260356cfec57"
+    },
+    {
+      "path": "foreground_masks/K03/0073.png",
+      "sha256": "3fa73c8e403eb25232bdc1b84505d84b4b5815e3125657b3b05dc1ccd5d5bf71"
+    },
+    {
+      "path": "foreground_masks/K03/0074.png",
+      "sha256": "107ca30cd449ca1cc9ccc3bcc53c7ad12d12472e85b7f8818040e359e7d1512c"
+    },
+    {
+      "path": "foreground_masks/K03/0075.png",
+      "sha256": "1d767f972f48aa92ceee16a5ed42effb5439f0cd3c9daa42c6bbd62b7b6dab52"
+    },
+    {
+      "path": "foreground_masks/K03/0076.png",
+      "sha256": "229937bd8aee0e551b23bc9e534d7f938dd54e3824459ac4a186f489e835c13d"
+    },
+    {
+      "path": "foreground_masks/K03/0077.png",
+      "sha256": "a80f792a76a86d7421c603e3f9399470ba67956993d47831ec695c5c8edbe011"
+    },
+    {
+      "path": "foreground_masks/K03/0078.png",
+      "sha256": "c050d5a75e403b6ac043067477f626d7196330c30b4f6d2d2194ad8983bc9339"
+    },
+    {
+      "path": "foreground_masks/K03/0079.png",
+      "sha256": "105556675453875e128ad243d241786ff2bd2351da4ab2c5d4b9bbc19d0f665a"
+    },
+    {
+      "path": "foreground_masks/K03/0080.png",
+      "sha256": "2a8af5b62b4e4acc6aedefc4f95fbdfdfdb4106faf43eaa71f28a48fd252cbd5"
+    },
+    {
+      "path": "foreground_masks/K03/0081.png",
+      "sha256": "e4f9ac4bccc4e3a418a3b0014c50bcc53809fe0eae96f0411d3349f451afdd40"
+    },
+    {
+      "path": "foreground_masks/K03/0082.png",
+      "sha256": "95818aeb27bd89468ce7d87316d7753d72110ff3807da71594633ff8253cbe18"
+    },
+    {
+      "path": "foreground_masks/K03/0083.png",
+      "sha256": "6f7e23cf83969bc9154c494f76f4fc08f3d5b52f26cd1d30b8fd92a53f203f2c"
+    },
+    {
+      "path": "foreground_masks/K05/0060.png",
+      "sha256": "61cacbbd59fbc549e0ec1a3ac19e9c24574d12c84b00e8eda90ee4fd943f80ee"
+    },
+    {
+      "path": "foreground_masks/K05/0061.png",
+      "sha256": "a750294304f27b0681e43f54715714b459c1a38e31f50356c98ba8754a4bd53b"
+    },
+    {
+      "path": "foreground_masks/K05/0062.png",
+      "sha256": "4935a41a07f343d73b091da4d5d2eadf401895e89421e23be103e4e748badfb9"
+    },
+    {
+      "path": "foreground_masks/K05/0063.png",
+      "sha256": "6e885cd5de861d8f745e626dfda33ba66cc275d3cfc81e1dae2b47afc0eaf642"
+    },
+    {
+      "path": "foreground_masks/K05/0064.png",
+      "sha256": "bd8bc14a076d31484b77410e3c382de28a824bef3806c8d3bd644e3d528531da"
+    },
+    {
+      "path": "foreground_masks/K05/0065.png",
+      "sha256": "96e46a9964002d028397ac43e24830dd51ce5760c6884addcd162b1d90d6307f"
+    },
+    {
+      "path": "foreground_masks/K05/0066.png",
+      "sha256": "bf95af8341aca83e8f6005536e363c6c11276cda266220e61a15d982fc8fe4ea"
+    },
+    {
+      "path": "foreground_masks/K05/0067.png",
+      "sha256": "49faf65ae97cca0d947e34ff39858f5eb917702250fb02d69818cfe3f3335cf1"
+    },
+    {
+      "path": "foreground_masks/K05/0068.png",
+      "sha256": "6a7ce61b96120e997d2a2588712ae0f61409688fd2cfb2bda98d07727feb8088"
+    },
+    {
+      "path": "foreground_masks/K05/0069.png",
+      "sha256": "6e01e022f1e37db681ff14750a8cf8fd25e6c1b3625f7629d0a5c7a3c3190196"
+    },
+    {
+      "path": "foreground_masks/K05/0070.png",
+      "sha256": "4abe2116ebd24183711002f3d0572289e91101e8c0c044d8b73d7e9e30b33dba"
+    },
+    {
+      "path": "foreground_masks/K05/0071.png",
+      "sha256": "f4df9b221e0d9ee00aa4bbcb741b9b6df7be8416aab564f4a248fead780cffb9"
+    },
+    {
+      "path": "foreground_masks/K05/0072.png",
+      "sha256": "11a1701d5afc7c893571d717462be916e853961e437ab99cc9d82b4b7cb2bb95"
+    },
+    {
+      "path": "foreground_masks/K05/0073.png",
+      "sha256": "fe67feb48fba8f161ed83ec71faad1639633cfe4cb1714a32b047d574f0838e2"
+    },
+    {
+      "path": "foreground_masks/K05/0074.png",
+      "sha256": "de7c46a601ec0dd68b5c7ec969d98b8cd03cc67c8542a6ac45c00a3838b2af58"
+    },
+    {
+      "path": "foreground_masks/K05/0075.png",
+      "sha256": "d3cc02436149ce0f0ca6534d0895fe51ca46498c0ac8004abe64935b0da12535"
+    },
+    {
+      "path": "foreground_masks/K05/0076.png",
+      "sha256": "d871b6e3d4ef5ac40238a63f0194ab5aee68b50899413c454c72372afaba7cdf"
+    },
+    {
+      "path": "foreground_masks/K05/0077.png",
+      "sha256": "a6250cf937abc46e1fe06c227d66c4cb941b498db2dc07b69aa45333d730ed8b"
+    },
+    {
+      "path": "foreground_masks/K05/0078.png",
+      "sha256": "f3a60b085264064de7416ce35668415eb6e45fd35774b5441a3c3ac38875b606"
+    },
+    {
+      "path": "foreground_masks/K05/0079.png",
+      "sha256": "84cb9b6b45e3a944a19135e4b23f7479a8978197923508723e9b9a0d3a51146d"
+    },
+    {
+      "path": "foreground_masks/K05/0080.png",
+      "sha256": "bc164f390186d8d63dc93fc855a3929a0031091f47f3c07ec5fd972d75584f64"
+    },
+    {
+      "path": "foreground_masks/K05/0081.png",
+      "sha256": "2be8006f3a049c7bfff37e338e4bba8d0e9618af38bd7b1c7cbff0a4679ea54c"
+    },
+    {
+      "path": "foreground_masks/K05/0082.png",
+      "sha256": "5f1198646bba84a851099ac708ce4c0b2bbe5fcd8572dbec0a3c9dd4958b93f7"
+    },
+    {
+      "path": "foreground_masks/K05/0083.png",
+      "sha256": "a966902b984a73428e031ecc1792904698ad741ca2a167f164d780b5a260dcdf"
+    },
+    {
+      "path": "foreground_masks/K05/0084.png",
+      "sha256": "b947fe781eabd0c0dc3f8a1f26b4a0a58981ba506cb00337e40a1a0bc9126427"
+    },
+    {
+      "path": "foreground_masks/K05/0085.png",
+      "sha256": "12ca62ece2829cd15f68f1461ea63932e238be0ab8869a4680b0e8dddafaa295"
+    },
+    {
+      "path": "foreground_masks/K05/0086.png",
+      "sha256": "a7263fad61f57aa9a115a2b214408944dfc6c10d55348d2f6a1c578bf6d14748"
+    },
+    {
+      "path": "foreground_masks/K05/0087.png",
+      "sha256": "4d998fa4fc71333593290aa0fda84c841a6e83d8ac827a5c85bd04001d59d6e4"
+    },
+    {
+      "path": "foreground_masks/K05/0088.png",
+      "sha256": "9821039750492068eb967894e22f4b4bdd899405655ce5c6baf1fb7db00a370c"
+    },
+    {
+      "path": "foreground_masks/K05/0089.png",
+      "sha256": "007afd43ede96de301eee8c33f87f6823faed0fb6f2f99ef7f9ae30eb0bcbbb2"
+    },
+    {
+      "path": "foreground_masks/K05/0090.png",
+      "sha256": "a599d28bdcc1ec26b8a437a281634bd0ecbb93ba9e7f3c85f2882664937dc510"
+    },
+    {
+      "path": "foreground_masks/K05/0091.png",
+      "sha256": "9a9d488981e0e85d5478c60404a08062f6e9ec43cb576291216fa0ef2ca4e4d7"
+    },
+    {
+      "path": "foreground_masks/K05/0092.png",
+      "sha256": "b97643333e3bd0b9c0f4ab74124e788a3470d2ea1186cea65b23ca585a830dc1"
+    },
+    {
+      "path": "foreground_masks/K05/0093.png",
+      "sha256": "32a659d3c3bc05bb6a7970056435545d3630f1ec6c820d60510d2f39c2a24153"
+    },
+    {
+      "path": "foreground_masks/K05/0094.png",
+      "sha256": "eaaf7d5c98b23d9cf8da5eca98326ddaeeaf9d9b65316b22e7d97a833aa64e31"
+    },
+    {
+      "path": "foreground_masks/K05/0095.png",
+      "sha256": "f0958c0b048f1b546f57ebefaac9892005c413f4190b06c8cb96c802a25ef1b1"
+    },
+    {
+      "path": "foreground_masks/K05/0096.png",
+      "sha256": "965dc44e5b23856dddfcf7ade36fc80fb0d563572006111be5697f6775b2d324"
+    },
+    {
+      "path": "foreground_masks/K05/0097.png",
+      "sha256": "a3ceff91d6e0f97298bfb68cef3cbb75e3b3aa8882948c0b37094cc81954c0a7"
+    },
+    {
+      "path": "foreground_masks/K05/0098.png",
+      "sha256": "f48e90c0359f7d59cbb5e6dd89f1129fe855e560f1b2eb095a35ed831dfe0938"
+    },
+    {
+      "path": "foreground_masks/K05/0099.png",
+      "sha256": "1fde89c6880739f71d297505ee4f8436e5399ca7547647e9560dff44759e48dc"
+    },
+    {
+      "path": "foreground_masks/K05/0100.png",
+      "sha256": "9ffdbd418ff3e536d80cdebc4d57347122b89c360ecacac2d7b42b28f72b5cfc"
+    },
+    {
+      "path": "foreground_masks/K05/0101.png",
+      "sha256": "70260194506f67182f60c9d4be7e9e25262f935c7a3f088e3c5693fad6f8e07b"
+    },
+    {
+      "path": "foreground_masks/K05/0102.png",
+      "sha256": "eb6095240b0219c6ca8a2cb8404bedf7c2d4ebd41f3e9a9aac920efea125efa8"
+    },
+    {
+      "path": "foreground_masks/K05/0103.png",
+      "sha256": "2330e12235e5527ae08b4adac4877e645fd5e1031dff03b2d7d90224b7b9307b"
+    },
+    {
+      "path": "foreground_masks/K05/0104.png",
+      "sha256": "56c08862f63184d554aa658eb9cb63096791c1e6b92a49129fc3367364fa891f"
+    },
+    {
+      "path": "foreground_masks/K05/0105.png",
+      "sha256": "301227c3ddad9e88e30c0e0f488f8ef02f080067c03cc6e92b3415cdc2ff447b"
+    },
+    {
+      "path": "foreground_masks/K05/0106.png",
+      "sha256": "f4d3c885b1928b4662163442715f12568cb92dfc82327c9b0abbb7cc9d3975b6"
+    },
+    {
+      "path": "foreground_masks/K05/0107.png",
+      "sha256": "23b86480a0921f6d4815de0182f8c418615c1fa6ec18630281391c5e55006f6e"
+    },
+    {
+      "path": "foreground_masks/K05/0108.png",
+      "sha256": "e9da2635cb785dde3af999b06d3624de4106def2899e630f76eaecc858ec5975"
+    },
+    {
+      "path": "foreground_masks/K05/0109.png",
+      "sha256": "7d8a0f053c2d1f6aee5a7279cb9977f293ab1113eeeca9341f8757b4b981e57e"
+    },
+    {
+      "path": "foreground_masks/K05/0110.png",
+      "sha256": "a1e93c72ab5e730b9a2b92c17951dff093aec53ae2afb0401e66ae7eabc3ddd9"
+    },
+    {
+      "path": "foreground_masks/K05/0111.png",
+      "sha256": "ce5075c50eb9b38539f3fc92b44123670c2c09c7dae130e9305c34192d8e970e"
+    },
+    {
+      "path": "foreground_masks/K05/0112.png",
+      "sha256": "147035f94c04ea12ad7cf73185a2ee122070e2e4e11470c2040860d4a837992d"
+    },
+    {
+      "path": "foreground_masks/K05/0113.png",
+      "sha256": "b3bb5294052cf5ce8862448b28e7b7649ffdae82f527a4b1b1a77fe96fee415d"
+    },
+    {
+      "path": "foreground_masks/K05/0114.png",
+      "sha256": "d04339a513560416dc227ee4d65762ed258d4fb42317bff232c4ab58e6098a84"
+    },
+    {
+      "path": "foreground_masks/K05/0115.png",
+      "sha256": "e68c43b7d87198f93db0175a8d70fe23e140606883e381d50a7d5a7d97572501"
+    },
+    {
+      "path": "foreground_masks/K05/0116.png",
+      "sha256": "f60956421d44f0a771596f515b58a80c1c2b06723627b15aceae3f93507160b4"
+    },
+    {
+      "path": "foreground_masks/K05/0117.png",
+      "sha256": "e58fe59efe4b55152aedfa8f12dccd3f46b17bb80f62b3a4d3442c765fd6380d"
+    },
+    {
+      "path": "foreground_masks/K05/0118.png",
+      "sha256": "48e7456e9fbab7a20642cffb0e22c8670d717e84560b809cd09a60db9cbd048f"
+    },
+    {
+      "path": "foreground_masks/K05/0119.png",
+      "sha256": "ca1f387feef20e785d1ddc7671c1f2279c9c04dddfa03f58b5c8ecd2920c38cb"
+    },
+    {
+      "path": "foreground_masks/K05/0120.png",
+      "sha256": "437ac539ce13c205b8876a86f717d462ceb13d3106a1baa726d9bf9217858ac3"
+    },
+    {
+      "path": "foreground_masks/K05/0121.png",
+      "sha256": "29eb016676327b6717714b533ec055fc0bd866d292393758f0beaaced13bf4a6"
+    },
+    {
+      "path": "foreground_masks/K05/0122.png",
+      "sha256": "b7d941481eb5a51dc5cc2be572d9d4b46f3d3f25de0ab682d699da2f75851ded"
+    },
+    {
+      "path": "foreground_masks/K05/0123.png",
+      "sha256": "ec6e81499df22ecd7a1a79ac2b84b076ea3fc1346d70b50315978faeedd3bc01"
+    },
+    {
+      "path": "foreground_masks/K05/0124.png",
+      "sha256": "31aed4d665a91b4ae0acd3da7dd92ef21af157c43c4068471086673dd3680dcc"
+    },
+    {
+      "path": "foreground_masks/K05/0125.png",
+      "sha256": "cd5b8848392d21f82e0baf173256799ed87f86223889cc8b0490d4b6ad5bd91b"
+    },
+    {
+      "path": "foreground_masks/K05/0126.png",
+      "sha256": "2fa787daed653448ee8e44eefc99717e1ae8b07eae5a58ebbc3d33a2d0ce9157"
+    },
+    {
+      "path": "foreground_masks/K05/0127.png",
+      "sha256": "db6a64c3acacb90f9c0c7b73d01893400a2fea6ebd579bdc14194514d201fcd9"
+    },
+    {
+      "path": "foreground_masks/K05/0128.png",
+      "sha256": "5c01ce270bdb5c3c41137b2853fe5b2ae43d3d97cece4013ddb16cf13ff1f55b"
+    },
+    {
+      "path": "foreground_masks/K05/0129.png",
+      "sha256": "a4123e50992b5f8736d91f4c59e0d0bc4ae1a2488a9c3696920128340859cf37"
+    },
+    {
+      "path": "foreground_masks/K05/0130.png",
+      "sha256": "d6d6d3c2160c09e8dcd2441cfacd1f64b611f1e0e81e7f766c4c32a8039e2699"
+    },
+    {
+      "path": "foreground_masks/K05/0131.png",
+      "sha256": "3978e5307c526e7a29c7da68ec7d4fadaf6c284f17055a683d6dae0c74eaaa0d"
+    },
+    {
+      "path": "foreground_masks/K05/0132.png",
+      "sha256": "2c5c9578d5402321b801ff0b21bc6eca4bd096392c576933e5f5877f9b854e48"
+    },
+    {
+      "path": "foreground_masks/K05/0133.png",
+      "sha256": "42d1a9995a5099a30ddadefa4cee1daa788fe9c077d229b20207a49f1874386b"
+    },
+    {
+      "path": "foreground_masks/K05/0134.png",
+      "sha256": "06deac3717e09a679afff4240bf1b7f36af343d39168e90aba6875c519e930fc"
+    },
+    {
+      "path": "foreground_masks/K05/0135.png",
+      "sha256": "c51c706ed4998d495bfb1f35ba8f1ada047f019ef6fc83608d55e24bba87dda3"
+    },
+    {
+      "path": "foreground_masks/K05/0136.png",
+      "sha256": "cf1fcedbe70bf71bc8bef1fa301bcc490bcb4b405a463075674592d787735906"
+    },
+    {
+      "path": "foreground_masks/K05/0137.png",
+      "sha256": "bdce831d4e120a9eec484e162d7a525ed97aabd4d6c435176573d5f404e2f2bc"
+    },
+    {
+      "path": "foreground_masks/K05/0138.png",
+      "sha256": "be5bbf4f0dadf43671ba28d5d8ba10358730eb968d1af2df42318bdecda0c24a"
+    },
+    {
+      "path": "foreground_masks/K05/0139.png",
+      "sha256": "1ad415f301fdd126dc35869d2a4795da3ab58bf9b275449124c8732d7200ffb9"
+    },
+    {
+      "path": "foreground_masks/K05/0140.png",
+      "sha256": "286ddb4e58a37081bfdd6a30ed967b6a1f22af435fe32973323df7a490c84338"
+    },
+    {
+      "path": "foreground_masks/K05/0141.png",
+      "sha256": "dafb0d5d250dd2a5b599033831ac5903c4dd37cdb9e16d71d72692e6f64bc28e"
+    },
+    {
+      "path": "foreground_masks/K05/0142.png",
+      "sha256": "72713de8eba0d9e6135b0090464544625fa1e3825033ceb397fcacce725595c7"
+    },
+    {
+      "path": "foreground_masks/K05/0143.png",
+      "sha256": "793adc333dd033f5d16fe82fa2c0d8cff2b9db23c81f60fe0ce96e1b321ca123"
+    },
+    {
+      "path": "foreground_masks/K05/0144.png",
+      "sha256": "8ab582473cccc468c6f0dd7d5f2beeec71e4aeef0e202ceb2d2bc4a8ae3b8dd5"
+    },
+    {
+      "path": "foreground_masks/K05/0145.png",
+      "sha256": "b562adc975389ea0a81e60d16c9773ec44c90df3ad665ebd734a4f2f6cd04a8a"
+    },
+    {
+      "path": "foreground_masks/K05/0146.png",
+      "sha256": "ac82acd2afb43889058ce1518d1e04deb8fe2d1b296ed0b99c48e9106616c5e1"
+    },
+    {
+      "path": "foreground_masks/K05/0147.png",
+      "sha256": "b4217fa919921cfed18d54663e8a1b406274ba2440d64b62dd841f6f9ea2b626"
+    },
+    {
+      "path": "foreground_masks/K05/0148.png",
+      "sha256": "79f855a700f0d4bf88fcc45e9bb53a2e8fa84adf2a0eb4860a6dc5925d72c04b"
+    },
+    {
+      "path": "foreground_masks/K05/0149.png",
+      "sha256": "20eb855618445853f2940a8aeadfac51065f224b2dbaa103a7f560a5a5a82574"
+    },
+    {
+      "path": "foreground_masks/K05/0150.png",
+      "sha256": "6cf7819fd13b91f02d3e1b8bde07609f6d32e5b6c5eb3ffc367a55d095c7968d"
+    },
+    {
+      "path": "foreground_masks/K05/0151.png",
+      "sha256": "496659ab0a4010460f387b9176d1cc675953d4d2d4d236e333b27ce8f8e607c1"
+    },
+    {
+      "path": "foreground_masks/K05/0152.png",
+      "sha256": "a3ad2c74486d29bae663ace351745f6a039ed2af4e4c15a41f4686246b8a8004"
+    },
+    {
+      "path": "foreground_masks/K05/0153.png",
+      "sha256": "a114eeef459a9027a51710bd8385cfa53cc6f8e997c5496f71311b1124689e49"
+    },
+    {
+      "path": "foreground_masks/K05/0154.png",
+      "sha256": "99254a88682df751fe7f225c52edfedfda9768adf87f84d11addb06043faf666"
+    },
+    {
+      "path": "foreground_masks/K05/0155.png",
+      "sha256": "a65a560e9f524286904495a0ff26530ac9ba520e7be576908d551122b191ad1c"
+    },
+    {
+      "path": "foreground_masks/K05/0156.png",
+      "sha256": "7526ab8b14aa0f89b2542730068d6c63e22d34fb80d7d33053f0ee6c45153d6a"
+    },
+    {
+      "path": "foreground_masks/K05/0157.png",
+      "sha256": "3d5e3d392e0f23825b8c789c3413d26c9d8122babb781be843157f9a5ab95379"
+    },
+    {
+      "path": "foreground_masks/K05/0158.png",
+      "sha256": "6479081c34b108122c0b30ef84203299980117b5fa6798da771ce34bbe2a7a00"
+    },
+    {
+      "path": "foreground_masks/K05/0159.png",
+      "sha256": "d1461a4d6e96547b8d5fa217851d463393ae60552f8e5899de3c677097d48e5e"
+    },
+    {
+      "path": "foreground_masks/K05/0160.png",
+      "sha256": "e21f9e34f7112d90e9b73b89025ffa8ec3ceee7df1b03c31b9a3f28d1b3b177d"
+    },
+    {
+      "path": "foreground_masks/K05/0161.png",
+      "sha256": "be33ef97aead6a46a785664a754c8f6780279a042572b78b47204cfc4770d407"
+    },
+    {
+      "path": "foreground_masks/K05/0162.png",
+      "sha256": "37158bcf042c2bf90a0f477fbbb2eb4a1793fbecbd9fecfe78c5730d2f932a8b"
+    },
+    {
+      "path": "foreground_masks/K05/0163.png",
+      "sha256": "4295c77c83ed63338aafaef34fdd0f755c6af604ed4cc206d5f523156b0ffcdc"
+    },
+    {
+      "path": "foreground_masks/K05/0164.png",
+      "sha256": "ad745565c5aaa8cddfc5a81b73f366e9b503fc5b6fe9b3d430c97047fbf6d21d"
+    },
+    {
+      "path": "foreground_masks/K05/0165.png",
+      "sha256": "666b5cd070318e4f5b35c8303eb9a335a24b8bbb052d6aed20da609f4b18ebe8"
+    },
+    {
+      "path": "foreground_masks/K05/0166.png",
+      "sha256": "dfb819cab2c2e43f36b19a1942e276b886ceabc89c357750658213cb93c84834"
+    },
+    {
+      "path": "foreground_masks/K05/0167.png",
+      "sha256": "8c8c3535ed5dce233428e21d75e972efa2b06c2952223204201f7bc4251c8229"
+    },
+    {
+      "path": "foreground_masks/K05/0168.png",
+      "sha256": "014b0dad303d251a3fd83df98b47dfcc75bb8e3c1638045d848dcc2a9f05643e"
+    },
+    {
+      "path": "foreground_masks/K05/0169.png",
+      "sha256": "7c3708c8368faa9025c44bbede4503ea47f5b1c0a91d67f12f224345fc4205f8"
+    },
+    {
+      "path": "foreground_masks/K05/0170.png",
+      "sha256": "5840b4242bfe2b2bb463951f0d89f155ef2faefe723ba265a0dd67ec7373f7ef"
+    },
+    {
+      "path": "foreground_masks/K05/0171.png",
+      "sha256": "7d3a79d53c3cd9779a31bc007ff5ef9896e0ad5a55a3fcb60fd6bd6c86b1fe7d"
+    },
+    {
+      "path": "foreground_masks/K05/0172.png",
+      "sha256": "18630b662ce0a5da8a468cd7bcfd084dff0eda3b11aaf19e24d0bd32340adfc1"
+    },
+    {
+      "path": "foreground_masks/K05/0173.png",
+      "sha256": "499fb7ab19abe2f50b54349526f8111c1392de2800f911acdf7cdd446d37674b"
+    },
+    {
+      "path": "foreground_masks/K06/0036.png",
+      "sha256": "aded934328c100ddca092118d133ec8e659bec94ae014687c1ab017aa2701b4f"
+    },
+    {
+      "path": "foreground_masks/K06/0037.png",
+      "sha256": "584dad1c37d51c80d44155c42542e2871af4424635afd7c38a51af22ffd7cf84"
+    },
+    {
+      "path": "foreground_masks/K06/0038.png",
+      "sha256": "0caa2ff828c03b8ed14277693a45412b9115f6e568d1696c4c4e585e5bffa2d8"
+    },
+    {
+      "path": "foreground_masks/K06/0039.png",
+      "sha256": "c0bbb3b827871e7a52a8e5f1b55019832eb9307613deb26f7ad34aaebf4c3c75"
+    },
+    {
+      "path": "foreground_masks/K06/0040.png",
+      "sha256": "a7af71b172b16001dce3f4ec1ecaddd20a99411099b03f49b0ff95839dda3005"
+    },
+    {
+      "path": "foreground_masks/K06/0041.png",
+      "sha256": "d8e409ea7c7dd5700ab5359190a3106315a443387a6e37028d3a0799d45cb908"
+    },
+    {
+      "path": "foreground_masks/K06/0042.png",
+      "sha256": "dfa5c0359e811d7c1034ae4c4e3791cf4045c902e94df095201083e9e133334b"
+    },
+    {
+      "path": "foreground_masks/K06/0043.png",
+      "sha256": "891028d2431260dbf075222d9beedfb9c410d272e7436933e7978ba5b5457148"
+    },
+    {
+      "path": "foreground_masks/K06/0044.png",
+      "sha256": "a4f32651c62c9f07ba22f3d74ab5df42b6a1c2be3986eddba4f75ef5b45320fe"
+    },
+    {
+      "path": "foreground_masks/K06/0045.png",
+      "sha256": "30e94b7bb2a8de0343d18cf5d31761db98d074cdd8c8cb869669460a26c50dbd"
+    },
+    {
+      "path": "foreground_masks/K06/0046.png",
+      "sha256": "a5f50822fc9c8e2e23c73f2f0b70d44b6b5761df246ae270d9b93e7bca594127"
+    },
+    {
+      "path": "foreground_masks/K06/0047.png",
+      "sha256": "c1e9a79f09ccceb24d3728401fea597851bfdeab9c11a728e6b893cc71a2d5dd"
+    },
+    {
+      "path": "foreground_masks/K06/0048.png",
+      "sha256": "87eb412b600fb98940995a619ad78b0768706417798f81d7b0a94d432dbcd819"
+    },
+    {
+      "path": "foreground_masks/K06/0049.png",
+      "sha256": "fa3a903b7b6740e0c558b9b793e422a773da94ed0cec846411726eee10d67fd3"
+    },
+    {
+      "path": "foreground_masks/K06/0050.png",
+      "sha256": "17b02db4edcc478eb081fdb15d52acb374198e630c3243d38003d182e7933541"
+    },
+    {
+      "path": "foreground_masks/K06/0051.png",
+      "sha256": "7287b3ce906a181e0d3294928e02ebb12204a24dd65fd61c95407c193a199c7b"
+    },
+    {
+      "path": "foreground_masks/K06/0052.png",
+      "sha256": "3a2513b599f739d39034a72978844ce67404e15a0366ea9f4159d25ff37c11c9"
+    },
+    {
+      "path": "foreground_masks/K06/0053.png",
+      "sha256": "bf8f7d25818458292e60bbffa2873c6373135510ea9cce2c81d7153acb03478e"
+    },
+    {
+      "path": "foreground_masks/K06/0054.png",
+      "sha256": "9c3fa7888df3ce507f1f912309a00807660640ea9d6c205c6c632e5fb4533935"
+    },
+    {
+      "path": "foreground_masks/K06/0055.png",
+      "sha256": "16ad57b7812add60e408586c936c3232adabc5a69cc6bec26f5cd5c6f7f0683a"
+    },
+    {
+      "path": "foreground_masks/K06/0056.png",
+      "sha256": "97cb14641e8141c9e59aa96f5ec417fb3da62d7f2f8bbb4c77b7287b673083d1"
+    },
+    {
+      "path": "foreground_masks/K06/0057.png",
+      "sha256": "13d6c48f8a5666f066a4bdc310ba0963c555921b26e666e79afad8c1a6fbbed0"
+    },
+    {
+      "path": "foreground_masks/K06/0058.png",
+      "sha256": "833ddca7ff5a3e28fb232f2c90f52aa27d95991cfeb76ba90f4f5eb27400c8cc"
+    },
+    {
+      "path": "foreground_masks/K06/0059.png",
+      "sha256": "4d18454e65429b67fb11d9073ccd79b9ad255ba845f9de4d9d323b501bdd4c3b"
+    },
+    {
+      "path": "foreground_masks/K06/0060.png",
+      "sha256": "0d496ff768d64f091f4c4a90ae642e2c48ba2af5b85e9e7a263922bef6276f2a"
+    },
+    {
+      "path": "foreground_masks/K06/0061.png",
+      "sha256": "23b8ab0800e6a32afeac38f2e97a2b9d83924c315a9ca15893b0086288a22d2c"
+    },
+    {
+      "path": "foreground_masks/K06/0062.png",
+      "sha256": "371043d064fb2ac0757a48186b6b5629750d9b706ef8946f7cf463031e3a7201"
+    },
+    {
+      "path": "foreground_masks/K06/0063.png",
+      "sha256": "74d0983640e105217dbda5ca34b3ee6abbc4f42b63672be7b59712f007910adb"
+    },
+    {
+      "path": "foreground_masks/K06/0064.png",
+      "sha256": "abe68713433c1df0cbb9f40d6aafbaaababe7c48f6ef932d30c34c3b7447b158"
+    },
+    {
+      "path": "foreground_masks/K06/0065.png",
+      "sha256": "8b07a0a33bb0731c5d0b4f3f9e07de4d30cdb59b23aea548bc5e7e57af607542"
+    },
+    {
+      "path": "foreground_masks/K06/0066.png",
+      "sha256": "61751b1f427e3c807e398af07dce1607932ac1917880a5c4d5245af365a23fbe"
+    },
+    {
+      "path": "foreground_masks/K06/0067.png",
+      "sha256": "6723335408eb72e70f89aafea8c4acbc2e8e2a4f99d5b86ce6d9c8ca6988d022"
+    },
+    {
+      "path": "foreground_masks/K06/0068.png",
+      "sha256": "7b527c674253f13c2ddd64f67472e30d941c2a556dde9b3cbf50615b56f3ea97"
+    },
+    {
+      "path": "foreground_masks/K06/0069.png",
+      "sha256": "e34d1690d71f41c2c7c804169497e2852ef579e174a46df6098853f5943e2738"
+    },
+    {
+      "path": "foreground_masks/K06/0070.png",
+      "sha256": "0daa0555ffb4e888d85e2ad717913c9fe3dee5d236eff43f626f2c0c36974270"
+    },
+    {
+      "path": "foreground_masks/K06/0071.png",
+      "sha256": "f1af7f78af4274658cba1f3955f00b1dad025c2ed7ec3afb128c5036ce5318b9"
+    },
+    {
+      "path": "foreground_masks/K06/0072.png",
+      "sha256": "ea8687124b44d3b46d273abfd55adfcbad1b59a75ee02adfcf57c86aa0191948"
+    },
+    {
+      "path": "foreground_masks/K06/0073.png",
+      "sha256": "1c38ecce534dafbcb6ec22ab3322b93dd9f8cef1581f62b2b5f660adca0f9ee8"
+    },
+    {
+      "path": "foreground_masks/K06/0074.png",
+      "sha256": "d8f17585f16f6a6d2e20bc54f1d0fe9926924f1f858dddd2e9bf9f3d372f9b7b"
+    },
+    {
+      "path": "foreground_masks/K06/0075.png",
+      "sha256": "71bf538ecb664b02a974f7f9a6abc82073379a41f8ed710a2c78e7935bed8719"
+    },
+    {
+      "path": "foreground_masks/K06/0076.png",
+      "sha256": "24923f3a130f029fa6ba25af06a73d0f73656121da563c68c8ec9470bd1f16a7"
+    },
+    {
+      "path": "foreground_masks/K06/0077.png",
+      "sha256": "30f8104362c2e6d11c49a94725dae7e4db0647214457bc89a4b40e2d102201b9"
+    },
+    {
+      "path": "foreground_masks/K06/0078.png",
+      "sha256": "f96ed528a9030eaa2b0157818efc69f481c694bb537b4b17593aa293bcbd5882"
+    },
+    {
+      "path": "foreground_masks/K06/0079.png",
+      "sha256": "6309eecdb2b131f3428ee7d692eb28b7d06f0cea8bf0e1d2243f5a3d5cda04d7"
+    },
+    {
+      "path": "foreground_masks/K06/0080.png",
+      "sha256": "97dc890e60244e877c69d2b0cab7fe4901a9aaa8433ef61ab846d15966cdbbd5"
+    },
+    {
+      "path": "foreground_masks/K06/0081.png",
+      "sha256": "8b3b19bf0fc9b1b8a20aeb5137a681b6b7edccce0796a5e977daee2c91c3e0b8"
+    },
+    {
+      "path": "foreground_masks/K06/0082.png",
+      "sha256": "b38f8920b863aeb3e041916d4bbd6fc9e1fc6dea59d7ca038f7af08a05192c00"
+    },
+    {
+      "path": "foreground_masks/K06/0083.png",
+      "sha256": "880a44952e2bdd3b90da9dc4d824bf34eff9bd1b4566010cf7f0af62790032bf"
+    },
+    {
+      "path": "foreground_masks/K06/0084.png",
+      "sha256": "a3e6ffbc03ed4d60f90d11bab6a5ce4ddc72d04430492d777ccc5e178416b104"
+    },
+    {
+      "path": "foreground_masks/K06/0085.png",
+      "sha256": "0048dc10f9581bd383b03010b17138ce0b10a6f5841d8b9a9ae07f65e9c7de91"
+    },
+    {
+      "path": "foreground_masks/K06/0086.png",
+      "sha256": "66a0d9def5ba73190c0684ec04a20348e4d7f89743bdc3dbed9b3d8efd01014c"
+    },
+    {
+      "path": "foreground_masks/K06/0087.png",
+      "sha256": "d4aa065c141493a6eba66a4ec68dfee64c33c4aea46e7230898d31ebb8d80e3f"
+    },
+    {
+      "path": "foreground_masks/K06/0088.png",
+      "sha256": "89a7629dbaaf30912a02e851608b3ad135f5a2543ead33313f70634b226f4d67"
+    },
+    {
+      "path": "foreground_masks/K06/0089.png",
+      "sha256": "16e86f84b0169b6554b92fd1a4ed1eb8264671d8cf52e596441b53d5d0768862"
+    },
+    {
+      "path": "foreground_masks/K06/0090.png",
+      "sha256": "7f80ed52d328daa49391816332347f8442c8a6435dc6ae2c4f30c1a7eb428dac"
+    },
+    {
+      "path": "foreground_masks/K06/0091.png",
+      "sha256": "29297a34f9a09ea75340ef87815aea0d73392da38e517cb8f9018a51d3b4eefa"
+    },
+    {
+      "path": "foreground_masks/K06/0092.png",
+      "sha256": "754d2d6020f0f26d06a6f44b428d589b3356e0701bf655404b8f61f5354363e2"
+    },
+    {
+      "path": "foreground_masks/K06/0093.png",
+      "sha256": "12ad53a404501313349b61b93430744b8acfdfb805454bd332efb0ead0c8b84e"
+    },
+    {
+      "path": "foreground_masks/K06/0094.png",
+      "sha256": "e30e5680e59ef6a1795fbbb433aa74f6a4fff397d70b76a3c38e7786a533eef1"
+    },
+    {
+      "path": "foreground_masks/K06/0095.png",
+      "sha256": "dfb1a1d2519d8e1e50a9f65346011aeaea6ed3c8fb2f1108aa292a00edc03e01"
+    },
+    {
+      "path": "foreground_masks/MIRROR/0024.png",
+      "sha256": "c62a889f96164937964b99a386c1982a67ccc1731d3e65b487b7a53c7089f9fc"
+    },
+    {
+      "path": "foreground_masks/MIRROR/0025.png",
+      "sha256": "c35eb9b2cf601239fc2961d30fda215e72fc900d630312fcb36740dbffc303db"
+    },
+    {
+      "path": "foreground_masks/MIRROR/0026.png",
+      "sha256": "969e104e66f15a776d072d4386a219ed3e2076219f9359711b5fdd211d41084d"
+    },
+    {
+      "path": "foreground_masks/MIRROR/0027.png",
+      "sha256": "074bbde8e8092d6ad719d0383f82a7fe363da3cfa3301ff0a71a08287418609b"
+    },
+    {
+      "path": "foreground_masks/MIRROR/0028.png",
+      "sha256": "4a7f7bff21146e667f77b48d3d010f4eb890e3287def91a0cd0effe9cb78c2ef"
+    },
+    {
+      "path": "foreground_masks/MIRROR/0029.png",
+      "sha256": "e5cccb9dbd15739f12df81ee6f02395ab537bccba7fc7408a5d086a8ea09d7a6"
+    },
+    {
+      "path": "foreground_masks/MIRROR/0030.png",
+      "sha256": "e6f1ec48f3ca429d935524a21fd2778155fbcacd8655350c522eda149b750fb8"
+    },
+    {
+      "path": "foreground_masks/MIRROR/0031.png",
+      "sha256": "31005db6dc40c11429ef33610f2dc93cf311e2aa05520196712a66d62a7b9728"
+    },
+    {
+      "path": "foreground_masks/MIRROR/0032.png",
+      "sha256": "d51107527bb0f8013551eaf0dec9329a45f56c646d4246d306b507028b9ee4d2"
+    },
+    {
+      "path": "foreground_masks/MIRROR/0033.png",
+      "sha256": "1fd55ea4e9562a48affbc89ac8f8bcc80d95d7e75741f7aa67de31e070b2ce14"
+    },
+    {
+      "path": "foreground_masks/MIRROR/0034.png",
+      "sha256": "92a5c947485934c9d1c1cc1a19a3756df3820530d7eb9e2fd143ab449737401f"
+    },
+    {
+      "path": "foreground_masks/MIRROR/0035.png",
+      "sha256": "3c4269eaff35029f29296e9dba0dfe8244324cd4846606f3ef3e8ad469626b7e"
+    },
+    {
+      "path": "foreground_masks/MIRROR/0036.png",
+      "sha256": "f62bed8013ab0c98e36e8b04163f171d0a3dc5f4903cd63c7511c747f5a9feca"
+    },
+    {
+      "path": "foreground_masks/MIRROR/0037.png",
+      "sha256": "9bdbb4bae02044b2b8061e40e7f7668a222df4938ecf20af24abeab937e66e04"
+    },
+    {
+      "path": "foreground_masks/MIRROR/0038.png",
+      "sha256": "e1f4a597087172f5390ba446b0327f731c3c17cb158d96fc840befae5ba8aca7"
+    },
+    {
+      "path": "foreground_masks/MIRROR/0039.png",
+      "sha256": "eb2d0b9c933dc34fbe3b60412e22a7a8e13a40957961323d6f6acea683ae2b6f"
+    },
+    {
+      "path": "foreground_masks/MIRROR/0040.png",
+      "sha256": "9145829f4ce26a76681a779646aaf9125efe820ff8d38c3963ef6028e382aa33"
+    },
+    {
+      "path": "foreground_masks/MIRROR/0041.png",
+      "sha256": "fff0db8f888ba31260f66ad765cdee6bab9d8d78d5cc9ab5a7ef418135fcae9e"
+    },
+    {
+      "path": "foreground_masks/MIRROR/0042.png",
+      "sha256": "ce226f99180251ca096f8c4953a661f9178437e0eb375e22f9f8d9c1d21f902e"
+    },
+    {
+      "path": "foreground_masks/MIRROR/0043.png",
+      "sha256": "a2257c6eb2d612c81979b4549beb640206096cdc6e95bc0730c2904c0543b067"
+    },
+    {
+      "path": "foreground_masks/MIRROR/0044.png",
+      "sha256": "4ca6ad0e444b3fb897e2863ac0877a884b770881e192d3cdc6659c34e061029e"
+    },
+    {
+      "path": "foreground_masks/MIRROR/0045.png",
+      "sha256": "d0d35a042b0b208db2593455bd3b70ca38b7af9f264907ef33f5e3c4fdabb233"
+    },
+    {
+      "path": "foreground_masks/MIRROR/0046.png",
+      "sha256": "d3d7a9bdddd3575c83df579165b9cac72ab0ccfa6e7c65f9775d6c5837e083bd"
+    },
+    {
+      "path": "foreground_masks/MIRROR/0047.png",
+      "sha256": "e3cd49a52cdf7533264da82084922d214f2bfe1fb18fd6ef63238db2e325b37c"
+    },
+    {
+      "path": "foreground_masks/MIRROR/0048.png",
+      "sha256": "b559820bfaf2f816753842b41faa023c5938171c5afa233cff3eb5d3dd742e73"
+    },
+    {
+      "path": "foreground_masks/MIRROR/0049.png",
+      "sha256": "0f50d6551fbc957ad2489f6759a9b414ab7216c441fed11c84aad64beb29e105"
+    },
+    {
+      "path": "foreground_masks/MIRROR/0050.png",
+      "sha256": "dadaceda18e5f10ab3b8a7c64f092cd9abd6f7961c835a6872f72b6ec4bcabb2"
+    },
+    {
+      "path": "foreground_masks/MIRROR/0051.png",
+      "sha256": "bb89feadbb2dab69ab8bc425f5d59fb5119caf3e0338511136236f699f63da66"
+    },
+    {
+      "path": "foreground_masks/MIRROR/0052.png",
+      "sha256": "ae04e05289dafaed39bd9c2072e6dacf633c009ab7bf11d8eefcce53126dd7ea"
+    },
+    {
+      "path": "foreground_masks/MIRROR/0053.png",
+      "sha256": "fd00b7062a17d585aaa5fae1a9aac2eb1a8508aa86aeea96aa63abe74ce378b6"
+    },
+    {
+      "path": "foreground_masks/MIRROR/0054.png",
+      "sha256": "72d918f3e7fd44e802b50724f59d75261f0c2ab83351faf3233ca066e280728a"
+    },
+    {
+      "path": "foreground_masks/MIRROR/0055.png",
+      "sha256": "3d182f5fe65af3420e93d10321306fe67f43f37312e3b9ff158b3355e4f0bbca"
+    },
+    {
+      "path": "foreground_masks/MIRROR/0056.png",
+      "sha256": "24f0d484635121177018526d7a057e31a44ae17fe612682282b99988a670bf7b"
+    },
+    {
+      "path": "foreground_masks/MIRROR/0057.png",
+      "sha256": "a02189f720299dc4695440733cb55d039139dd557ab11e045f692dd5449d73ca"
+    },
+    {
+      "path": "foreground_masks/MIRROR/0058.png",
+      "sha256": "ad68e1f216fa8a9e46f8de66f391bbce46dddbf333c916885467539b50b40dfe"
+    },
+    {
+      "path": "foreground_masks/MIRROR/0059.png",
+      "sha256": "48ab5aeee216d319059236b70e7b08562f9e52dda15a39d40f0ddaaefbf1934d"
+    },
+    {
+      "path": "foreground_masks/MIRROR/0060.png",
+      "sha256": "95abe2d36a1f5ff6e7e355a6bd6f68ca41173e243b586d1b886980f67cbbaaf0"
+    },
+    {
+      "path": "foreground_masks/MIRROR/0061.png",
+      "sha256": "6ffa725ec4a0eaa4775ca0b5c3564a2af33ee1b128f701e581036a653ee3c2a1"
+    },
+    {
+      "path": "foreground_masks/MIRROR/0062.png",
+      "sha256": "c241a756d8de823bcb7e3a0bc32d1915b4f8ba969230daa6b7896f92a4a34f5f"
+    },
+    {
+      "path": "foreground_masks/MIRROR/0063.png",
+      "sha256": "97baae0459b966c956abf8826dc07caf6f1260bba12a303fa3e48d7b978b22a0"
+    },
+    {
+      "path": "foreground_masks/MIRROR/0064.png",
+      "sha256": "e1ed36ad38311f0294355f8ed1a284036124a912f3261cde72b81e82d7a5ccf9"
+    },
+    {
+      "path": "foreground_masks/MIRROR/0065.png",
+      "sha256": "a2da492649cbaadce7d64b48f39e50531deaf8ea659ac47a5a121b850860ae8e"
+    },
+    {
+      "path": "foreground_masks/MIRROR/0066.png",
+      "sha256": "51354e04dd028487f072f025c4ad8843ad9992138b8957032d7143b42cf3d123"
+    },
+    {
+      "path": "foreground_masks/MIRROR/0067.png",
+      "sha256": "f7d33225f654c6f1436c39e0db04eabdf5cc19359e2fc8e1832e9c124ee8c48b"
+    },
+    {
+      "path": "foreground_masks/MIRROR/0068.png",
+      "sha256": "eaea16327a45f97e66632428e30e4a2b96711b277164b2d95d87e37b50c551e6"
+    },
+    {
+      "path": "foreground_masks/MIRROR/0069.png",
+      "sha256": "882d86c4216b301d90afc9664d81c491f65f3b1b7e3665bca9735f97ea915c88"
+    },
+    {
+      "path": "foreground_masks/MIRROR/0070.png",
+      "sha256": "d70b633e8607e3289b3270f4733258b8cc2b1ef2c68f0c75bb2f9df94efdf570"
+    },
+    {
+      "path": "foreground_masks/MIRROR/0071.png",
+      "sha256": "3d9a3e7b4e7454527ed5ed621c7b24526eac6491eda291a333a266132e49781a"
+    },
+    {
+      "path": "foreground_masks/MIRROR/0072.png",
+      "sha256": "2d5d246744f1081fa3e242645dd5547d7d132db63b409853ccf0cfe7e3babb92"
+    },
+    {
+      "path": "foreground_masks/MIRROR/0073.png",
+      "sha256": "265e0634ff447c6b202bb6a9500796ca3692dd2330ff1cff92295c406311e844"
+    },
+    {
+      "path": "foreground_masks/MIRROR/0074.png",
+      "sha256": "e12f53e0d730f9cfd462d35a487820c37f7e3edf263e1591a622982c715743fc"
+    },
+    {
+      "path": "foreground_masks/MIRROR/0075.png",
+      "sha256": "0e3a0d7cbc1437446a972a98b071c237d3efcc28a65ccf5fdbd25e858dd81161"
+    },
+    {
+      "path": "foreground_masks/MIRROR/0076.png",
+      "sha256": "1d6903d78e86b0b759c6043402b993ce707a700b729f0f2caa1615d00855d92d"
+    },
+    {
+      "path": "foreground_masks/MIRROR/0077.png",
+      "sha256": "02d1abfe4837e17b1d46bc2345996829b3bc5dc995aca59d11522fc18f1da6b2"
+    },
+    {
+      "path": "foreground_masks/MIRROR/0078.png",
+      "sha256": "75f4c6f46a7bf44731e219b36243e71135bddc4c937b85bdbe871453f30d7fd9"
+    },
+    {
+      "path": "foreground_masks/MIRROR/0079.png",
+      "sha256": "4f61e7a3659e15bd4838a06fce3678f0fa40865935d897077a8777a833e700b9"
+    },
+    {
+      "path": "foreground_masks/MIRROR/0080.png",
+      "sha256": "3b981877563c967edb2138b486727a7ef6963cdf6ce4e7831930f9e9af8c2033"
+    },
+    {
+      "path": "foreground_masks/MIRROR/0081.png",
+      "sha256": "1bb6c739e6c1bcd0f12df914157faf471584225549e6e7d9bcab1e7d4df4d89e"
+    },
+    {
+      "path": "foreground_masks/MIRROR/0082.png",
+      "sha256": "27630af8be7ec845c5dc32e54fa31c024d2fd1d2dad6fb09381914289cacf857"
+    },
+    {
+      "path": "foreground_masks/MIRROR/0083.png",
+      "sha256": "85e4f4b8a018f83526b99c99119d8eba2de12642edbda3b3f33d6791b97959be"
+    },
+    {
+      "path": "foreground_masks/MIRROR/0084.png",
+      "sha256": "bce68015ce03edfffe0cd4fdb3e03df70025b2a020fcdf5ecda262134003e2cf"
+    },
+    {
+      "path": "foreground_masks/MIRROR/0085.png",
+      "sha256": "453fc3a7565e17e798aa540f587744547c5d07dfb3842b17d241a934a5554d37"
+    },
+    {
+      "path": "foreground_masks/MIRROR/0086.png",
+      "sha256": "002ae8c9fc77430acdabaac34a01dd23e6857b772412227a8d5e4a12f50f944e"
+    },
+    {
+      "path": "foreground_masks/MIRROR/0087.png",
+      "sha256": "3d134c876685aa29c81b44d49ab358a0fd26ab65b14eea67e26f51085e7836f1"
+    },
+    {
+      "path": "foreground_masks/MIRROR/0088.png",
+      "sha256": "8c8990ea0e09e5e505a493f336c7c029c15eb2e80cf8498ccf2ce0b97bb35e2e"
+    },
+    {
+      "path": "foreground_masks/MIRROR/0089.png",
+      "sha256": "3ed0405fa6d2b1d43483c8fbb045878d46f70f22f1b4fb6d850a742a01195ece"
+    },
+    {
+      "path": "foreground_masks/MIRROR/0090.png",
+      "sha256": "67aabcfa83b75c918e30e2ff3d6a35d683be82b02f3146e8b1dfd09b6f542602"
+    },
+    {
+      "path": "foreground_masks/MIRROR/0091.png",
+      "sha256": "2b9071ef1ff0ba73920a0d789ff0a4c0d7b7348faec8c48afc7ae20a76660845"
+    },
+    {
+      "path": "foreground_masks/MIRROR/0092.png",
+      "sha256": "ff50f7dc99056253c95dd43bbb343a118f5090b03429df6297d998d02410ba56"
+    },
+    {
+      "path": "foreground_masks/MIRROR/0093.png",
+      "sha256": "171ed46ddaef6bfa5fd7124aa87420bed140d94930821b4ee83148eebcad9271"
+    },
+    {
+      "path": "foreground_masks/MIRROR/0094.png",
+      "sha256": "086899cea40696561cc5679aefc87718e67049e5eda3f40cc08c53bb648b619a"
+    },
+    {
+      "path": "foreground_masks/MIRROR/0095.png",
+      "sha256": "f428b6323fbad76aa7fcd6213e8da6ea917f4f4deb4bd0431361ec7b9387e590"
+    },
+    {
+      "path": "foreground_masks/MIRROR/0096.png",
+      "sha256": "aa083bbc4310b6885fe6bd32922f2216989bdcfef08fd73ad8aa794cd8025976"
+    },
+    {
+      "path": "foreground_masks/MIRROR/0097.png",
+      "sha256": "2870bf1a160e5b57535ced488e10bd9ee468955c29afc8f6e1050a50a7a9c59e"
+    },
+    {
+      "path": "foreground_masks/MIRROR/0098.png",
+      "sha256": "31b0df85eeb73ebcb64c54f2dd4fb05d6ce9eba0a6eeabd632f45e515bd835d0"
+    },
+    {
+      "path": "foreground_masks/MIRROR/0099.png",
+      "sha256": "87cdafe7d92af79f26394843c945a39ff66eec8011074d9d5e36928a2168f4c4"
+    },
+    {
+      "path": "foreground_masks/MIRROR/0100.png",
+      "sha256": "ebfe073a01e28c1e21bae05331a20ceb29f946d1795a14b37709c89c405fc9c0"
+    },
+    {
+      "path": "foreground_masks/MIRROR/0101.png",
+      "sha256": "b38a6437067194d7fd6dbe28ec05957814d364553baef0145ff3f160cb2610f1"
+    },
+    {
+      "path": "foreground_masks/MIRROR/0102.png",
+      "sha256": "f0ee3354cc46a9e039c61c8ce926a02e0cc8db0d92f8a78bcc2866522bd07e91"
+    },
+    {
+      "path": "foreground_masks/MIRROR/0103.png",
+      "sha256": "a758607c20221fa64d8425f8f54e9b607e5ed21fe7ad0dc605599fadd928956d"
+    },
+    {
+      "path": "foreground_masks/MIRROR/0104.png",
+      "sha256": "b0c019f0ef0547310f5cc8c028ccb855a4d01570821a380137b072d88f0269b8"
+    },
+    {
+      "path": "foreground_masks/MIRROR/0105.png",
+      "sha256": "f6d9fe1975e08aa78f7d511a1c860f0dcc26a893672d76ba89f2d558f18f0df6"
+    },
+    {
+      "path": "foreground_masks/MIRROR/0106.png",
+      "sha256": "d761398f2140f793991f682399777871e8afb95c55ecea6bf744957b3ca6731c"
+    },
+    {
+      "path": "foreground_masks/MIRROR/0107.png",
+      "sha256": "191ca04f5480eda424c28b212c4850e212f83b90f5c75d741fbacc2900779f42"
+    },
+    {
+      "path": "foreground_masks/MIRROR/0108.png",
+      "sha256": "ed0c00554df4b92c1f592342df9b8ac5d31ffc5874c91def3d2b60e843d6b1b5"
+    },
+    {
+      "path": "foreground_masks/MIRROR/0109.png",
+      "sha256": "9134266c1839167792bb31ccdba1d091298b6625785ef5f77beeb7f92f9e0e55"
+    },
+    {
+      "path": "foreground_masks/MIRROR/0110.png",
+      "sha256": "6b519341f285459cf920247887abe373cdc9e119cadf1c40bcea0f9800eb16a5"
+    },
+    {
+      "path": "foreground_masks/MIRROR/0111.png",
+      "sha256": "f5940dc5bd90696ddde1ec540d4c0c1256982b0bf8d4a47a23c912707904a376"
+    },
+    {
+      "path": "foreground_masks/MIRROR/0112.png",
+      "sha256": "912d06bfd6c117f4fc0aef298d70ae8052bf0aaa26d776a243b4b9c78debae79"
+    },
+    {
+      "path": "foreground_masks/MIRROR/0113.png",
+      "sha256": "1bd0a44a77caa1fe6463a1799f635c77eedcf333983e06959425b9ac0e01b96c"
+    },
+    {
+      "path": "foreground_masks/MIRROR/0114.png",
+      "sha256": "e1d9c8963b88fc308fa4eee7520950b4062be3d74c3e7955cbbf5431639f687e"
+    },
+    {
+      "path": "foreground_masks/MIRROR/0115.png",
+      "sha256": "79a500709840fde103a1f5df1b0427644324f17d6104b5dc8ce9cb7bf0d8e4f0"
+    },
+    {
+      "path": "foreground_masks/MIRROR/0116.png",
+      "sha256": "f172049fc1e3b934531bcba4846e78e2f03c733c822628c79889b1c98c53ad51"
+    },
+    {
+      "path": "foreground_masks/MIRROR/0117.png",
+      "sha256": "f7a195a8e49bd4504fcd812a2157c1541d6b0e8dde48b550f8bd0b4de6473d45"
+    },
+    {
+      "path": "foreground_masks/MIRROR/0118.png",
+      "sha256": "5030fb6fe945d6e7dcbc0bc07a30d18cede6f0f9c19f1ae78dfef7bc05e28282"
+    },
+    {
+      "path": "foreground_masks/MIRROR/0119.png",
+      "sha256": "fd024fe8335b0dad016860655ab8f58aaa620efd6275aef2cd4924ce20c1ef90"
+    },
+    {
+      "path": "foreground_masks/MIRROR/0120.png",
+      "sha256": "d2a398d3d75db384d5e1c274201f29a31d830f470f452b26abee1fed3d96b4d9"
+    },
+    {
+      "path": "foreground_masks/MIRROR/0121.png",
+      "sha256": "49b4395406b836eda3e5d37cfbc31eb99c9059170b5aefe89df23867bacb0c9a"
+    },
+    {
+      "path": "foreground_masks/MIRROR/0122.png",
+      "sha256": "4ec421a1c5b1bfa8f8518d988e4a712af8822006c5ec1693af73c562a70b5ec4"
+    },
+    {
+      "path": "foreground_masks/MIRROR/0123.png",
+      "sha256": "9d200fda0b4d95ab0980dca87a56112c939d21fb65fe02e59a470f003fa54cc1"
+    },
+    {
+      "path": "foreground_masks/MIRROR/0124.png",
+      "sha256": "ecc755c341dce77748052f66e61c1812c86d00fa01aed882094df6fe7be8458c"
+    },
+    {
+      "path": "foreground_masks/MIRROR/0125.png",
+      "sha256": "5e29e93dc5a9f64373ebd6cc65c1733e05b2044d3c7bec86b5ec74ef9b0b20c3"
+    },
+    {
+      "path": "foreground_masks/MIRROR/0126.png",
+      "sha256": "7ea91c5ce8bdc2ca1d5ed358979ce5eed8b9d629113d67bf2f9ace1ba442e493"
+    },
+    {
+      "path": "foreground_masks/MIRROR/0127.png",
+      "sha256": "9ffb7b8be96f4f819ee15b87822124cee4acbd90159b347abb4868870e3316df"
+    },
+    {
+      "path": "foreground_masks/MIRROR/0128.png",
+      "sha256": "5675b994f778e2a69cc46af4b51df40e2f17a9bdc057ca0b2a9218a2d03a74cc"
+    },
+    {
+      "path": "foreground_masks/MIRROR/0129.png",
+      "sha256": "cf2b39126d41d5e9cfc5a84f528dc8a6c0ab7206a8b0b0103f4da1947f8bd8b7"
+    },
+    {
+      "path": "foreground_masks/MIRROR/0130.png",
+      "sha256": "1e96bb3853e482062c0a6695e0b3a85a2d1bccacc83017f1f1e1d19a3d93fff6"
+    },
+    {
+      "path": "foreground_masks/MIRROR/0131.png",
+      "sha256": "02a9419ddc503e365d747f5b7941b976206135a0165292aafb7e72ece7766ece"
+    },
+    {
+      "path": "foreground_masks/POSE/0012.png",
+      "sha256": "a2be6fd3a21dfec952f2b3a635d7e7d1380806171477b78ccfdd84df75f649f5"
+    },
+    {
+      "path": "foreground_masks/POSE/0013.png",
+      "sha256": "4c969cac68f6013a5962cc77fe5b1c3580d028a1210cdfe61aba30e65b0f7610"
+    },
+    {
+      "path": "foreground_masks/POSE/0014.png",
+      "sha256": "125e7916f612c9417ab6882e9cc86370cabb97340035aa6f778b38f07bc30b51"
+    },
+    {
+      "path": "foreground_masks/POSE/0015.png",
+      "sha256": "72462015083f018d29142207e22a1a7d026ca0a2bad2c393e2b39a9837e82c2e"
+    },
+    {
+      "path": "foreground_masks/POSE/0016.png",
+      "sha256": "d317dd1e4ae15a1aaf5e74a210d3cf8572506f096ce5e9a18ae210156c303955"
+    },
+    {
+      "path": "foreground_masks/POSE/0017.png",
+      "sha256": "5aa9624fc81222e1b28a3cbd579ac070c72f2c8bc7278737a5b9d1b490a1e83d"
+    },
+    {
+      "path": "foreground_masks/POSE/0018.png",
+      "sha256": "3b040b60ca3a30f8ead18b7cde8eba2c27eabe989d17b30f706ae62193c12f16"
+    },
+    {
+      "path": "foreground_masks/POSE/0019.png",
+      "sha256": "2881388f57f3978e34a58e34eebb65b07d7736626d0478bc56dcbb826fa64893"
+    },
+    {
+      "path": "foreground_masks/POSE/0020.png",
+      "sha256": "eb91b94bb00bf2c78c1eddbd12e74d00065b67ed6f737b26637e021a28606aed"
+    },
+    {
+      "path": "foreground_masks/POSE/0021.png",
+      "sha256": "edfb6858dcd90c715d5256f3e417b0f98381a2bc1672cf8b889e51669e4e4f3b"
+    },
+    {
+      "path": "foreground_masks/POSE/0022.png",
+      "sha256": "15f5372936f79cb7debb607d3fcb1b6e0d4162e91f638bae6a30af28cb49b2ea"
+    },
+    {
+      "path": "foreground_masks/POSE/0023.png",
+      "sha256": "29e1792020f0ad1e9c7f2428a9a845fa34ff91246934697ea269f9f578381e95"
+    },
+    {
+      "path": "foreground_masks/POSE/0024.png",
+      "sha256": "d518f9e0f89d84c36e87ae4ef1e58fe3a7f5eec8e404e7e00a1b69229332e64b"
+    },
+    {
+      "path": "foreground_masks/POSE/0025.png",
+      "sha256": "b2c9986bcf3a2866fc4698aac288caf7036df98a953d25f5220d5891104a0348"
+    },
+    {
+      "path": "foreground_masks/POSE/0026.png",
+      "sha256": "b9ab77968c42e7f14393bb45c3296091a1ab32b09dc5e67ed04b49b9d16a0d0c"
+    },
+    {
+      "path": "foreground_masks/POSE/0027.png",
+      "sha256": "2817b400fab6ee0904d85697e0b4cb7b491b0aac21bdfe77e0ad37449245583a"
+    },
+    {
+      "path": "foreground_masks/POSE/0028.png",
+      "sha256": "7e0db23f8783060416e929eef7dda713a943544c7f9d3e61133fd410c1fce50a"
+    },
+    {
+      "path": "foreground_masks/POSE/0029.png",
+      "sha256": "7f9230454a40c053f85f099ccb8b8294fd3920d8106adcd22ef8cbe89cf85b37"
+    },
+    {
+      "path": "foreground_masks/POSE/0030.png",
+      "sha256": "5601b6cfff671246733537722b669fa05276b0771b96ac2a8507ca365cec0ff7"
+    },
+    {
+      "path": "foreground_masks/POSE/0031.png",
+      "sha256": "99ba01f6a88df16f10c4f70f56609d19a33c437e19e24d996fc3cbed9b80880f"
+    },
+    {
+      "path": "foreground_masks/POSE/0032.png",
+      "sha256": "e76e4706d98dbdace36922acda43fa7cf390127b0feb2cba0cdf1379c5704047"
+    },
+    {
+      "path": "foreground_masks/POSE/0033.png",
+      "sha256": "1507c2910c6c0d8cf10b5658bb476ac58589c5be8eec0ebb3f8406bd4969de8d"
+    },
+    {
+      "path": "foreground_masks/POSE/0034.png",
+      "sha256": "0c39c8d5491735f84ac218546f71cf26b43bf1715fab64f614212970aef7d912"
+    },
+    {
+      "path": "foreground_masks/POSE/0035.png",
+      "sha256": "e0bdf38309acb2ed5d1e975ae6dd735bc8bbdf5699746bdaa3ca67c37f628c04"
+    },
+    {
+      "path": "foreground_masks/POSE/0036.png",
+      "sha256": "7efa6ac3df1a1ed70feeeebaf843e608f20264c17fcf14917ae8ac86b185b33d"
+    },
+    {
+      "path": "foreground_masks/POSE/0037.png",
+      "sha256": "96293d8d58c6008331faba0d456f01da7c9a01161364963df3e597a716269d37"
+    },
+    {
+      "path": "foreground_masks/POSE/0038.png",
+      "sha256": "939bcfbdc357145015544865113304fa8dacd15986062ca21e497f69de77d199"
+    },
+    {
+      "path": "foreground_masks/POSE/0039.png",
+      "sha256": "b9139ca7bc070c5cdec1dbc49aa21f577db385c3e275821886816d7bdf334c21"
+    },
+    {
+      "path": "foreground_masks/POSE/0040.png",
+      "sha256": "1ed047a7329c33f0b24336ddbbf8a081215f785ee54e438b6b70b9a231052c2f"
+    },
+    {
+      "path": "foreground_masks/POSE/0041.png",
+      "sha256": "3971c430381820b8a0414f7a017c1a83360516000bbf5a379f43160a6154215c"
+    },
+    {
+      "path": "foreground_masks/POSE/0042.png",
+      "sha256": "df81c16ed0899e9be2844a82fe274a954de5c60276071060d3bb0844b47b60d0"
+    },
+    {
+      "path": "foreground_masks/POSE/0043.png",
+      "sha256": "248fec6e0d0225529b621d330114bcb39818d5b30441178768e447c88d127273"
+    },
+    {
+      "path": "foreground_masks/POSE/0044.png",
+      "sha256": "1c7a031f1b59806b02781eb769a25325c0a9876f29745c6f4d720533ae0575c5"
+    },
+    {
+      "path": "foreground_masks/POSE/0045.png",
+      "sha256": "d91fc4349be40d5acf3f39813deda3502c66b9b752ade51e78e675b63de18afd"
+    },
+    {
+      "path": "foreground_masks/POSE/0046.png",
+      "sha256": "4687aa9887e36feb1fa5f79e6abd93d82ddbd3b3a9801de74af0d9bcdb1d3634"
+    },
+    {
+      "path": "foreground_masks/POSE/0047.png",
+      "sha256": "b8e28ef30dc8a3caa54bd8fb8b8f4eacd3a54907d4419e149a93ebe59a5859ae"
+    },
+    {
+      "path": "foreground_masks/POSE/0048.png",
+      "sha256": "e509b88b0e9b31d681382225199c0525e3f7ac41b836438918cc3bb06143506e"
+    },
+    {
+      "path": "foreground_masks/POSE/0049.png",
+      "sha256": "60da5205c0b19ee9ed37abfd13b35790f7269121774e4a0557437e4546b67615"
+    },
+    {
+      "path": "foreground_masks/POSE/0050.png",
+      "sha256": "5876726da1a6d35e9618343899e5f181fdfaa52311f82dd3b56e40c14514be31"
+    },
+    {
+      "path": "foreground_masks/POSE/0051.png",
+      "sha256": "a92109679e7b4e40f4b35a957560ca24b831e18836df081cf6d7e675385df70e"
+    },
+    {
+      "path": "foreground_masks/POSE/0052.png",
+      "sha256": "dcfffefbbbd7e227f904b603fe0bdddf984b5610081a18941353e7e7d96bd388"
+    },
+    {
+      "path": "foreground_masks/POSE/0053.png",
+      "sha256": "a56e910fe2936e005e2f798af2acc708b6c29d9248a75c29c04dd1c841e99ef5"
+    },
+    {
+      "path": "foreground_masks/POSE/0054.png",
+      "sha256": "2ecc904a07acd1f0178f3201e416e51ab06ff7141509f93ca32dc5aae9ad53ae"
+    },
+    {
+      "path": "foreground_masks/POSE/0055.png",
+      "sha256": "84440d7bdbc695d5e0233d360bc1c0608400bbda8161a35e725655656863bdc5"
+    },
+    {
+      "path": "foreground_masks/POSE/0056.png",
+      "sha256": "7abab8591e8b7aeefe44402cf65f540823cb452e012e5f87b4eb38454b1321d5"
+    },
+    {
+      "path": "foreground_masks/POSE/0057.png",
+      "sha256": "d5a5e2f69c73b657ce5b82e41ab702129886d9bd1ccda344c91c12749d0d8aac"
+    },
+    {
+      "path": "foreground_masks/POSE/0058.png",
+      "sha256": "f8656542b122e4823a41d356f2b71aa18715b0c0278f917b9925bae05561509f"
+    },
+    {
+      "path": "foreground_masks/POSE/0059.png",
+      "sha256": "08341717ba3e41bf0d97ce8838c9cd73abe8a8268365fad0f7747684fb40b8e1"
+    },
+    {
+      "path": "foreground_masks/POSE/0060.png",
+      "sha256": "4d55c2bc334f30e17b31146aec80b2d993354ce64139dd01c684fce712a37914"
+    },
+    {
+      "path": "foreground_masks/POSE/0061.png",
+      "sha256": "14c6a3385fcc3ba5bd90d81b6e6f146291fa57a6b70bf196f03bf5473379eefe"
+    },
+    {
+      "path": "foreground_masks/POSE/0062.png",
+      "sha256": "47f3f45e1fab340e9adb42fecd452d6c9e5c70378d820212ac9bfd6d7b212b5a"
+    },
+    {
+      "path": "foreground_masks/POSE/0063.png",
+      "sha256": "e243a1da8932b749604c96710535292b5221377f190f19a21cfdad74fd99137f"
+    },
+    {
+      "path": "foreground_masks/POSE/0064.png",
+      "sha256": "fe23c6c60e36342cdbf5167415c378e65283ee53575f3f52f467a2c36b218f2d"
+    },
+    {
+      "path": "foreground_masks/POSE/0065.png",
+      "sha256": "bbd435458269be74f35c538e06be8bb22c2d3dd41d957d5044169cf4d8a11de6"
+    },
+    {
+      "path": "foreground_masks/POSE/0066.png",
+      "sha256": "2a5e31a37fcc581d03b6f641b89d8e72c493783fe3cb613d5834c104a5bf7f5e"
+    },
+    {
+      "path": "foreground_masks/POSE/0067.png",
+      "sha256": "51baae094864bea9059744555b56da69ffdae3bf8bd6c61c1f96464a88ec8c4b"
+    },
+    {
+      "path": "foreground_masks/POSE/0068.png",
+      "sha256": "4baa4f64775e494fc0f081071f7ce5b7f10fc9787a1da1b50d6f54f2fdbabe80"
+    },
+    {
+      "path": "foreground_masks/POSE/0069.png",
+      "sha256": "1993f2a6a651f8b45de54b7fbc3ea8feafac5001d7735e00fedf1e12a1eca151"
+    },
+    {
+      "path": "foreground_masks/POSE/0070.png",
+      "sha256": "04e149f7bacc2b83e0c9ba415d639effbd4926682727c9f5c9ab50bc5f608777"
+    },
+    {
+      "path": "foreground_masks/POSE/0071.png",
+      "sha256": "1c8da478624a2e548260735594781a77605b300bd531596751d09033c12a91f6"
+    },
+    {
+      "path": "foreground_masks/POSE/0072.png",
+      "sha256": "1d058521f81a086f2053fc702ed0639ff74e52fe1596120d8856765f227a1e7f"
+    },
+    {
+      "path": "foreground_masks/POSE/0073.png",
+      "sha256": "ac9c26f69823e977b67c4b0964f0efd50a986e7991eaa63eaeb525f245307013"
+    },
+    {
+      "path": "foreground_masks/POSE/0074.png",
+      "sha256": "f971cd9f7a8455293da2429ad86e6951233526410d39b11a2b0695118b8c7f3c"
+    },
+    {
+      "path": "foreground_masks/POSE/0075.png",
+      "sha256": "3e228ea43b5fe9826dfa644375cea57886051e0711f8a620b846c486ad8b90fb"
+    },
+    {
+      "path": "foreground_masks/POSE/0076.png",
+      "sha256": "81b255ef97e75074b37203a1598498375bdd0c46cdb01fab2c6633a89dce5b88"
+    },
+    {
+      "path": "foreground_masks/POSE/0077.png",
+      "sha256": "dc33b19a4c9aa123c1feb3c91d701878cb73fd9a2f9b7cc94565fc94401f3b21"
+    },
+    {
+      "path": "foreground_masks/POSE/0078.png",
+      "sha256": "6597cd08c9ba4d08e4c920ee46975dc178605dd6b95c275dc6428d225ef3dd29"
+    },
+    {
+      "path": "foreground_masks/POSE/0079.png",
+      "sha256": "263345ad58ae49c64f09569461049c020f86d41f9fd8eda8e025b22501bc5fa2"
+    },
+    {
+      "path": "foreground_masks/POSE/0080.png",
+      "sha256": "9a1121aff14ea6e09497852897d1d123101311a34bdf9e7d4627f86e4b582447"
+    },
+    {
+      "path": "foreground_masks/POSE/0081.png",
+      "sha256": "9893a3ace35b7676a74fb28159cd7f1589ed4102e0cffb7d21e3a7300d022f19"
+    },
+    {
+      "path": "foreground_masks/POSE/0082.png",
+      "sha256": "639d66fa178a532aa7c34ec91f55c587d950469f661fd80cda6c923d3c076333"
+    },
+    {
+      "path": "foreground_masks/POSE/0083.png",
+      "sha256": "7726a92ffa7bb8b8182f29f60a89286c48e3a668bcd7cec83c765d2361508321"
+    },
+    {
+      "path": "foreground_masks/POSE/0084.png",
+      "sha256": "9d6229a2375ae12d278ac853e15c8003815232d20cdbdf5d098f90ca5bca9b1b"
+    },
+    {
+      "path": "foreground_masks/POSE/0085.png",
+      "sha256": "f422025491cf45bf0905ab91a571fe2665cb2cf7e0e73a0bf314f374a68f51ae"
+    },
+    {
+      "path": "foreground_masks/POSE/0086.png",
+      "sha256": "a55e70c774fbf1051a8eedd5632e65992207277490d0a18cea4397334bfe9cdc"
+    },
+    {
+      "path": "foreground_masks/POSE/0087.png",
+      "sha256": "d75c12beab3c93b814f0e92e9abfe6a84507e92254696ff6f658f64ecd19c8fb"
+    },
+    {
+      "path": "foreground_masks/POSE/0088.png",
+      "sha256": "a7a96cc73854131e8bc7731534c3b4bafa6cfcc03c10821d937f5c1560505510"
+    },
+    {
+      "path": "foreground_masks/POSE/0089.png",
+      "sha256": "ab6629bb79d30c8d0cc4ceadbb5d06631930887cdee5b79d02fd7b00f8c8d41b"
+    },
+    {
+      "path": "foreground_masks/POSE/0090.png",
+      "sha256": "99a17cead7ba2d5910a4a0584f3bb0702ab43bc79d472de576ca7e58296de512"
+    },
+    {
+      "path": "foreground_masks/POSE/0091.png",
+      "sha256": "2f63848974596c12aa4e15d28abc30fcca0792272440c10707189db6e114f74b"
+    },
+    {
+      "path": "foreground_masks/POSE/0092.png",
+      "sha256": "89af2a1daf5f0bd5d746ea74e127048650b6845157e938860ee4ce2971b47f49"
+    },
+    {
+      "path": "foreground_masks/POSE/0093.png",
+      "sha256": "150a97adb83e9d31a4f81f9434745b388b0c01eb6803eeb77c1a97d3c86034c7"
+    },
+    {
+      "path": "foreground_masks/POSE/0094.png",
+      "sha256": "7ecfa7933f7d0880c76bff16e0e8ee2709b4f92d9327b982d557e02ebe43d54c"
+    },
+    {
+      "path": "foreground_masks/POSE/0095.png",
+      "sha256": "0f776be569d0e3f1e78ee4bd974bc951ef6460408de8f11bd121ad4be0cc1979"
+    }
+  ],
+  "archive": "foreground_masks.zip",
+  "archive_sha256": "5e74a0b3569ae3a57c52a7bde12e699f85c70d4389c3f5c3371e8318d9b86aaa"
+}

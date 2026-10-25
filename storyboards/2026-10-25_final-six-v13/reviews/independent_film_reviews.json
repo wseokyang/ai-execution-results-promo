@@ -1,0 +1,115 @@
+{
+  "scope": "PD faithful digest of three separate independent agents' actual frame/technical review responses. Full replies retained in task conversation. Not a verbatim transcript.",
+  "independent_reviews": [
+    {
+      "reviewer": "A",
+      "agent": "/root/causal_review_a",
+      "actual_scope": "All43 initial final-film contact sheets, C04details, C05joins and selected direct MP4 extracts.",
+      "issues": [
+        {
+          "id": "VFA-001",
+          "film": "C05",
+          "severity": "required",
+          "issue": "N05–N07 short-neck muscular predator appearance differs from original long-neck puppet."
+        },
+        {
+          "id": "VFA-002",
+          "film": "C05",
+          "severity": "required_story",
+          "issue": "N07 loses roof support, weakening need-to-hold story."
+        },
+        {
+          "id": "VFA-003",
+          "film": "C02",
+          "severity": "optional",
+          "issue": "Cuff installation uses time ellipsis; readable."
+        },
+        {
+          "id": "VFA-004",
+          "film": "C04",
+          "severity": "optional",
+          "issue": "Note hand hold could be shorter."
+        },
+        {
+          "id": "VFA-005",
+          "film": "C06",
+          "severity": "optional",
+          "issue": "Thank-you relation to alignment can be stronger."
+        }
+      ],
+      "other_films": "C01/C02/C03/C04/C06 no required issue"
+    },
+    {
+      "reviewer": "B",
+      "agent": "/root/causal_review_b",
+      "actual_scope": "All43 initial contacts, C04details and C05direct extracts/joins.",
+      "issues": [
+        {
+          "id": "VFB-001",
+          "film": "C05",
+          "severity": "required",
+          "issue": "Creature identity changes."
+        },
+        {
+          "id": "VFB-002",
+          "film": "C05",
+          "severity": "optional",
+          "issue": "Support release weakens setup, but remaining columns mean physical collapse is not necessary."
+        }
+      ],
+      "other_films": "C01/C02/C03/C04/C06 no required issue"
+    },
+    {
+      "reviewer": "C",
+      "agent": "/root/v13_review_c",
+      "actual_scope": "All43 initial contacts, details and all6 full decode/SHA. N05 1.5/2.5/3/3.5/4/4.5/4.958s direct enlarged extracts; N08 .75/1/1.25/1.5/1.75/2s etc.",
+      "issues": [
+        {
+          "id": "VFC-001",
+          "film": "C05",
+          "severity": "required",
+          "issue": "Long-neck versus muscular short-neck identity mismatch, including visible N05 head."
+        },
+        {
+          "id": "VFC-002",
+          "film": "C05",
+          "severity": "required",
+          "issue": "N08 additional small arms, support loss and dissolve. No safe interval selected."
+        }
+      ],
+      "other_films": "C01/C02/C03/C04/C06 no required issue"
+    }
+  ],
+  "PD_actions": [
+    {
+      "ids": [
+        "VFA-001",
+        "VFB-001",
+        "VFC-001",
+        "VFC-002"
+      ],
+      "action": "Exclude all N05–N08 from final C05_r3; retain originals as HOLD. Use N03 original long-neck side → real jack transport cutaway → original long-neck frontal support. No claim of complete continuous turning/hand/load transfer."
+    },
+    {
+      "ids": [
+        "VFA-002",
+        "VFB-002"
+      ],
+      "action": "Phenomenon accepted; construction-impossibility claim not made. Shot excluded anyway, removing concern."
+    },
+    {
+      "ids": [
+        "VFA-003",
+        "VFA-004",
+        "VFA-005"
+      ],
+      "action": "Optional improvements recorded, not required to deliver; current timings/actions retained."
+    }
+  ],
+  "limitations": {
+    "actual_listening_verified": false,
+    "actual_realtime_playback_verified": false,
+    "venue_test": false,
+    "audience_comedy_test": false
+  }
+}

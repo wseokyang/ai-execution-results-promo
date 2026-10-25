@@ -1,0 +1,22 @@
+{
+  "file": "C01_Q-AI_Fair_final_v13.mp4",
+  "sha256": "da6c9578c4f9216b131c5905856e1e4e1746ce3fc29eeec56421f33a7b3b9dd5",
+  "bytes": 9441972,
+  "duration_seconds": 35.625,
+  "frames": 855,
+  "dimensions": [
+    1280,
+    720
+  ],
+  "fps": 24,
+  "full_decode": "PASS",
+  "source_sha256_unchanged": true,
+  "video_pts": "constant1/24s",
+  "audio_streams": 1,
+  "continuous_full_playback_verified": false,
+  "audio_peak": 0.6955938339233398,
+  "audio_end": 35.625,
+  "audio_timeline_samples": 1710000,
+  "max_audio_pts_gap_seconds": 7.105427357601002e-15,
+  "actual_listening_verified": false
+}

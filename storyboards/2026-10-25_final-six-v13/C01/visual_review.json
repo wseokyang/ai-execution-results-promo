@@ -1,0 +1,38 @@
+{
+  "film": "C01",
+  "render_sha256": "da6c9578c4f9216b131c5905856e1e4e1746ce3fc29eeec56421f33a7b3b9dd5",
+  "reviewer": "v13_c01_compositor",
+  "scope": "All 0.25-second visual samples plus each join immediately before, at, and after (1 frame); selected full-resolution images. Not continuous playback or actual audio listening.",
+  "status": "COMPOSITOR_SAMPLE_VISUAL_PASS_PENDING_INDEPENDENT_REVIEW",
+  "visual_evidence": [
+    "review_contact_01.jpg",
+    "review_contact_02.jpg",
+    "review_contact_03.jpg",
+    "review_contact_04.jpg",
+    "review_contact_05.jpg",
+    "review_contact_06.jpg",
+    "review_contact_07.jpg",
+    "review_contact_08.jpg",
+    "review_contact_09.jpg"
+  ],
+  "specific_checks": [
+    "All visible wall posters use the exact K04 frame0 portrait crop, not a different generated portrait.",
+    "K03 monitor shows identical portrait before source2.625; actual K04 source0-0.875 plays before match-cut to full K04 source0.875.",
+    "Original foreground actors, fingers and shoes preserved by per-frame segmentation over poster/monitor planes; earlier K05 blue-actor and K06 torso defects repaired.",
+    "K04 and K06 selected actual falls complete with visible mat contact.",
+    "New POSE actual arm/leg raise, CLOSE actual lowering back/head, and MIRROR actual matching limb raise replace rejected older poses. No missing movement replaced with animated stills.",
+    "Final photographer raises camera, but no uncertain shutter sound added.",
+    "All original generated voice tracks muted. Captions + event title communicate essential story.",
+    "Five-second ending graphic has readable Q-AI Fair and quality-team AI achievements exchange description."
+  ],
+  "accepted_editorial_changes": [
+    "Standard cut from standing trainee reaction in wide to seated trainee close-up; close-up then preserves lowering action fully.",
+    "Coach slightly lowers leg to meet the trainee in MIRROR; no body disappearance or multiplication in reviewed samples."
+  ],
+  "mandatory_visual_findings_remaining": [],
+  "unverified": [
+    "Continuous real-time full playback",
+    "Subjective audible music/effects balance, actual listening",
+    "Independent three-reviewer approval"
+  ]
+}

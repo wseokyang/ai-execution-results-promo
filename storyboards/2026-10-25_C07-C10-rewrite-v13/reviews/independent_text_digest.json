@@ -1,0 +1,154 @@
+{
+  "scope": "Three distinct agents independently reviewed all four concepts and all 40 shots; text only. Full responses retained in conversation. This is a PD faithful issue digest for cross-review.",
+  "A": {
+    "assess": "Maintain concepts; C07 causal return, C08 application, C09 pacing, C10 physical layout need fixes.",
+    "required": [
+      [
+        "A-01",
+        "C07 K01/02",
+        "Make defect personification visible: porcelain glaze/joints on neck/hands and surface-crack UI."
+      ],
+      [
+        "A-02",
+        "C07 K07-10",
+        "Open box allows escape: show own folded legs preventing standing then momentum makes sit. Shorten label beat."
+      ],
+      [
+        "A-03",
+        "C08 K03",
+        "Start with shared method open, visibly apply it to own currently selected document; same marker carries into K04."
+      ],
+      [
+        "A-04",
+        "C09 K01/K04-08",
+        "Charger is shown4s and revealed27s; reduce plant to~1s and boarding/call/alighting to2-3s, reveal around20s."
+      ],
+      [
+        "A-05",
+        "C09 K07",
+        "W cannot know exact pocket; W shows own pink phone, M independently searches his pocket."
+      ],
+      [
+        "A-06",
+        "C10 K04-06",
+        "PR fixed outside turntable cannot reach center workbench; actual step in after stop required."
+      ],
+      [
+        "A-07",
+        "C10 K06-10",
+        "Specify curtain top-fixed, free LOWER corners, manageable width; too high leaves bright gap, lower corners to fill."
+      ]
+    ],
+    "suggestions": [
+      [
+        "A-08",
+        "C07/08/10",
+        "Shorten procedural steps, preserve evidence."
+      ],
+      [
+        "A-09",
+        "ALL",
+        "Avoid all4repeating candidate-human-check: C08 reuse worksheet; C10 reveal failed settings/revision logs."
+      ],
+      [
+        "A-10",
+        "C07/C08",
+        "Differentiate silver-haired muscular women; C08 final hands empty not magically trowel."
+      ]
+    ]
+  },
+  "B": {
+    "assess": "Maintain4; C09 no major causal omission; C10 weakest physical completion.",
+    "required": [
+      [
+        "B-01",
+        "C07 K07-09",
+        "Openbox lacks failedescape; add folded-knees stand failure before pushing."
+      ],
+      [
+        "B-02",
+        "C07 K02",
+        "UI crack defect and porcelain neck/hands, not employee judgement."
+      ],
+      [
+        "B-03",
+        "C08 K03/04",
+        "Visible own document enters shared method, own matching line highlighted then humancheck."
+      ],
+      [
+        "B-04",
+        "C10 K02/04-06/09",
+        "MG and PR 3.52m apart cannot exchange record; closer initial positions and actual movement after turn."
+      ],
+      [
+        "B-05",
+        "C10 K06-10",
+        "Curtain width/top/freecorners and magician face/feet visibility; brightgap physically fixed at end."
+      ],
+      [
+        "B-06",
+        "C07 K10/C08 K10",
+        "No new handheld scanner; return same fixed camera. No trowel spontaneously appears in final hands."
+      ]
+    ],
+    "suggestions": [
+      [
+        "B-07",
+        "ALL",
+        "Preparatory timings too long; compress controls to1-2s/boarding3s."
+      ],
+      [
+        "B-08",
+        "ALL",
+        "Differentiate AI connections: handover reuse / failedsettings logs."
+      ],
+      [
+        "B-09",
+        "C09",
+        "Chargerplant1-1.5s, captionpriority and blackphoneleft/bagright; pocketphonebeforecharger."
+      ]
+    ]
+  },
+  "C": {
+    "assess": "C08 clearest physical aftermath, C10 best eventconnection. Maintain4 with fixes.",
+    "required": [
+      [
+        "C-001",
+        "C07 K01/02",
+        "Defectpersonification visible with porcelain sample correspondence or crackdefectUI."
+      ],
+      [
+        "C-002",
+        "C07 K09",
+        "Show foldedknees/elbows preventgettingout; chosenhidingplace causesreturn."
+      ],
+      [
+        "C-003",
+        "C09 K03",
+        "Shared method AI connection hiddeninphone and2captions overload5s. One caption Shared AI method verified, onecheckphone; farewell movedboarding."
+      ],
+      [
+        "C-004",
+        "C10 K02/04-06",
+        "Correct 3.5mexchange/reach; realwalkafterrotation; curtainwidth and visiblefacehands."
+      ]
+    ],
+    "suggestions": [
+      [
+        "C-005",
+        "C09 K01/02",
+        "Shortchargerplant andmelodramaticgoodbyeunder3s; currentironypossiblebutweakhook."
+      ],
+      [
+        "C-006",
+        "C08 K03/04",
+        "Preserveverificationbutshorten9sorintercuthhero."
+      ],
+      [
+        "C-007",
+        "C10 K01",
+        "Tinyresultlargegesture/oversizedlongsilkclothhook; avoidnewunrelatedprops."
+      ]
+    ]
+  }
+}

@@ -1,0 +1,2401 @@
+{
+  "run": "2026-10-25_C07-C10-rewrite-v13",
+  "version": "V13_DIRECTOR_DRAFT_01",
+  "status": "TEXT_DRAFT_FOR_THREE_INDEPENDENT_REVIEWERS; images not yet generated",
+  "event": "Q-AI Fair",
+  "brief": {
+    "event": "Q-AI Fair",
+    "purpose": "품질팀 AI 성과와 실제 활용 경험 교류",
+    "essential_dialogue": false,
+    "caption_method": "postproduction",
+    "max_duration": 60,
+    "flow_generation_authorized": false,
+    "actual_first_frames_required": true,
+    "unknown": "일시·장소·상금·성과수치 미창작"
+  },
+  "source_of_selection": "selected_concepts.json",
+  "reference_scope": "Researcher read primary official descriptions; actual local Canon/qrew reference contact sheets opened. No complete ad playback or listening in this run.",
+  "author_scope": "기획만 수행. 지정된 이 JSON 한 파일만 저장. Flow·이미지·영상·음원 생성·렌더·업로드 없음. 다른 에이전트 생성 없음.",
+  "common_rules": [
+    "음성 대사·내레이션 0. 모든 필수 정보는 보이는 행동과 후처리 자막으로 전달. BGM/SFX는 선택 보조.",
+    "자막·Q-AI Fair·문서·휴대전화·모니터의 정확 문구는 후합성. 첫 이미지에 생성하지 않음.",
+    "등장인물은 허구. 업무 실수·외모를 실제 직원 능력 비하로 해석하지 않게 행위와 허세를 웃음 대상으로 삼음.",
+    "한 장면에는 한 가지 주동작. 장면 시작은 행동 전, 끝 상태는 다음 장면에서 승계. 같은 공간의 카메라 축을 무단 반전하지 않음.",
+    "이 문서의 시간은 편집 설계. 향후 원본 동작 완료 시간과 실제 가독성으로 조정하되 전체60초 이하.",
+    "군중/실제 브랜드/행사 날짜·장소·참가 방법·상금·성과 수치는 만들지 않음. 현장 사례를 빌린 허구 코미디이며 검증된 실제 업무 성과처럼 표시하지 않음."
+  ],
+  "concepts": [
+    {
+      "id": "C07",
+      "title": "불량도 이직합니다",
+      "purpose": "Q-AI Fair 사례·검증 경험 공유 홍보",
+      "one_line": "검출을 피해 다른 팀으로 달아난 불량이, 자신보다 먼저 도착한 공유 사례 때문에 스스로 들어간 은신 상자째 원래 검사대로 돌아온다.",
+      "core_message": "성공한 검출 방법뿐 아니라 못 봤던 조건도 함께 나누면 다음 팀의 확인이 달라진다.",
+      "aspect_ratio": "16:9",
+      "aspect_status": "기존 제작 기준 유지",
+      "expected_duration_seconds": 44,
+      "essential_dialogue": false,
+      "cast": [
+        {
+          "id": "D",
+          "appearance": "실제 직원이 아닌 불량의 의인화. 30대처럼 보이는 마른 장신 남성, 붉은 옆가르마, 길고 각진 얼굴. 피부는 도자기 같은 연한 아이보리 분장. 왼쪽 관자놀이에서 볼로 가는 얇은 회색 지그재그 균열 한 줄. 상처·피·혐오표현 없음.",
+          "costume": "잘 맞는 자주색 양복, 검정 얇은 타이, 광택 검정 구두. 작은 검정 바퀴 여행가방. 자신을 능숙한 탈주 영화 주인공으로 여김."
+        },
+        {
+          "id": "IA",
+          "appearance": "50대 후반 건장한 중년 여성, 짧고 곧은 은발, 넓은 턱, 짙은 눈썹. 침착한 검사자.",
+          "costume": "흰 작업재킷, 청록 앞치마, 회색 검사 장갑. 팀A 주황 작업대."
+        },
+        {
+          "id": "IB",
+          "appearance": "40대 중반 남성, 굵은 검정 눈썹, 뒤로 짧게 묶은 검정 머리, 넓은 어깨. IA와 다른 얼굴·머리·실루엣.",
+          "costume": "베이지 작업 셔츠, 짙은 남색 조끼, 회색 장갑. 팀B 푸른 작업대."
+        }
+      ],
+      "space_axis": "긴 검사동 복도. A는 화면 왼쪽/주황, B는 오른쪽/청록. 도주 A→B는 항상 왼쪽에서 오른쪽. 반송 B→A는 오른쪽에서 왼쪽. 두 검사대와 직선 저속 롤러 레인은 같은 공간이며 팀 표기는 후합성.",
+      "props": [
+        "D-가방: 검정 하드케이스, 노란 손잡이띠. K02에서 A 옆에 남고 K10까지 그 자리에 유지.",
+        "B-상자: 허리높이 갈색 합판 상자, 검정 금속모서리, 뒤쪽 단일경첩 뚜껑. 저속 롤러레인 위. 성인이 웅크릴 수 있는 폭이며 잠금장치로 사람을 가두지 않음.",
+        "각 팀 고정 산업카메라 한 대, 태블릿 한 대. 균열 사진은 동일 D 실물에서 합성."
+      ],
+      "first_hook": "우아한 출국/도주 영화처럼 낮은 앵글에서 광택 구두와 여행가방을 따라간다. 균열은 처음부터 보이지만 의미는 다음 검사 컷에서 드러남.",
+      "reversal": "다른 팀에서도 자신이 알려져 있는 데서 끝나지 않고, AI가 보지 못하는 불투명 상자를 선택한 그의 다음 계략을 사람이 공유된 확인 경험으로 푼다.",
+      "ending_connection": "스스로 고른 은신 상자가 반송 운송수단이 되고 처음 남긴 여행가방 앞에 돌아온다. 이동하는 것은 불량이고 먼저 이동한 것은 확인 경험.",
+      "production_difficulty": {
+        "level": "높음",
+        "reason": "동일 균열 얼굴·상자·복도 좌우 축 유지, 상자 숨기와 개봉 동작이 핵심. 군중은 필요 없음.",
+        "fallback": "은신 동작은 상자 안에 한쪽 발을 넣은 중간 자세부터 1회. 원본이 못 따라가면 들어가는 동작/뚜껑 닫기를 두 제작 단위로 분리. 반송은 수동 저속 롤러로 단순화하며 순간이동 컷으로 대체하지 않음."
+      },
+      "shots": [
+        {
+          "id": "C07_K01",
+          "scene_id": "S01",
+          "start": 0,
+          "end": 4,
+          "duration": 4,
+          "frame_start_description": "D가 A 검사대 앞에 도착하기 한 걸음 전. 여행가방 바퀴가 전경, 주황 검사대와 IA는 후경. D 왼쪽 얼굴 균열이 보임.",
+          "visual_action": "D가 가방을 끌며 검사 위치로 자신 있게 한 걸음 들어온다.",
+          "frame_end_description": "D가 카메라 앞에 섰고 가방은 왼쪽 A대 옆.",
+          "composition": "낮은 미디엄 트래킹, 마지막1초 고정. 신발→상체가 자연스럽게 포함.",
+          "caption_cues": [
+            {
+              "start": 0.4,
+              "end": 3.7,
+              "text": "더 넓은 곳으로.",
+              "placement": "하단 중앙, 가방 손잡이/얼굴 회피"
+            }
+          ],
+          "dialogue": "없음",
+          "narration": "없음",
+          "music_sfx_silence": "선택: 묵직한 도주극 베이스, 가방 바퀴. 소리로 균열 의미를 알리지 않음.",
+          "transition": "동일 공간 축을 유지한 하드 컷",
+          "intent": "영화적인 자신감으로 출발시키고 검사실이라는 목적지를 뒤늦게 보여줌.",
+          "continuity": [
+            "A 주황은 좌측, 이동방향→. 균열은 왼쪽 볼 한 줄. 가방 노란 띠 유지."
+          ],
+          "post_composites": [],
+          "main_motion_count": 1
+        },
+        {
+          "id": "C07_K02",
+          "scene_id": "S02",
+          "start": 4,
+          "end": 8,
+          "duration": 4,
+          "frame_start_description": "카메라 렌즈 옆으로 D 얼굴, 반대쪽 모니터에는 같은 얼굴의 정지 비교 영역. IA 손은 확인 버튼 위에 멈춤.",
+          "visual_action": "IA가 모니터의 균열 후보와 D 실물을 번갈아 보고 확인 표시를 한 번 누른다.",
+          "frame_end_description": "같은 균열이 표시된 사진. D는 굳어 있고 가방은 A 옆에 남음.",
+          "composition": "D와 IA·모니터를 함께 잡는 미디엄. 얼굴을 판정하는 실존 인식 시스템처럼 긴 UI를 만들지 않음.",
+          "caption_cues": [
+            {
+              "start": 4.5,
+              "end": 7.7,
+              "text": "잡혔다.",
+              "placement": "D 어깨 아래 빈 영역"
+            }
+          ],
+          "dialogue": "없음",
+          "narration": "없음",
+          "music_sfx_silence": "베이스 순간 끊김0.4초 후 짧은 경보 한 번. 필수정보는 모니터 표시/표정.",
+          "transition": "동일 공간 축을 유지한 하드 컷",
+          "intent": "출국의 당당함이 불량 도주였음을 공개. 사람의 실물 확인이 마지막 단계.",
+          "continuity": [
+            "D 균열 위치 고정. IA는 실제사람 외모를 조롱하는 표정 없음."
+          ],
+          "post_composites": [
+            "화면 큰 머리말: AI 확인 후보. D 동일 얼굴·균열 영역 표시→IA 확인 후 작은 확인 완료. 성능수치/신원정보 없음."
+          ],
+          "main_motion_count": 1
+        },
+        {
+          "id": "C07_K03",
+          "scene_id": "S03",
+          "start": 8,
+          "end": 12,
+          "duration": 4,
+          "frame_start_description": "D가 A대를 등지고 오른쪽 복도 쪽으로 몸을 틀기 직전. 가방은 A 다리 옆에 세워져 있고 IA는 추격하지 않음.",
+          "visual_action": "D만 오른쪽 B대 방향으로 서둘러 빠져나간다.",
+          "frame_end_description": "D가 B대 앞에 도착하기 직전. A와 가방은 멀리 왼쪽 후경.",
+          "composition": "같은 복도 축을 지킨 옆 와이드. 별도 외부 장소로 바꾸지 않음.",
+          "caption_cues": [
+            {
+              "start": 8.4,
+              "end": 11.7,
+              "text": "다른 팀이면 모르겠지.",
+              "placement": "상단 복도 벽"
+            }
+          ],
+          "dialogue": "없음",
+          "narration": "없음",
+          "music_sfx_silence": "추격 비트가 다시 시작되나 뒤쫓는 사람은 없음.",
+          "transition": "동일 공간 축을 유지한 하드 컷",
+          "intent": "인물의 다음 전략을 한 줄로 심고 그 전략을 다음 컷에서 무너뜨림.",
+          "continuity": [
+            "D는 가방을 다시 가져오지 않음. A→B 방향→."
+          ],
+          "post_composites": [],
+          "main_motion_count": 1
+        },
+        {
+          "id": "C07_K04",
+          "scene_id": "S04",
+          "start": 12,
+          "end": 16,
+          "duration": 4,
+          "frame_start_description": "B대 IB가 태블릿을 이미 들고 있다. D는 태블릿 뒷면 쪽에서 접근하여 아직 화면을 못 봄.",
+          "visual_action": "IB가 D에게 태블릿을 돌려 이미 공유된 같은 균열 사진을 보여준다.",
+          "frame_end_description": "D가 자기 사진을 확인하고 옆 불투명 상자 쪽으로 눈만 돌림.",
+          "composition": "고정 투샷. D 얼굴·태블릿·빈 상자를 같은 시선선 위에 배치.",
+          "caption_cues": [
+            {
+              "start": 12.5,
+              "end": 15.7,
+              "text": "사례가 먼저 도착했다.",
+              "placement": "상단 빈 벽"
+            }
+          ],
+          "dialogue": "없음",
+          "narration": "없음",
+          "music_sfx_silence": "추격음악은 계속되되 화면 인물은 느긋함. 작은 태블릿 클릭.",
+          "transition": "동일 공간 축을 유지한 하드 컷",
+          "intent": "추격자가 아니라 공유된 경험이 더 빨랐다는 반전. 새 은신처를 화면 안에 미리 심음.",
+          "continuity": [
+            "B 태블릿 사진은 K02의 실제 D 프레임. 상자는 B 왼쪽 롤러레인 위, 뚜껑 열림."
+          ],
+          "post_composites": [
+            "태블릿: Q-AI Fair / 공유 사례, 큰 D 균열 사진. 아래 짧은 메모 한 줄: 가려진 면은 열어서 확인. 긴 절차표 금지."
+          ],
+          "main_motion_count": 1
+        },
+        {
+          "id": "C07_K05",
+          "scene_id": "S05",
+          "start": 16,
+          "end": 21,
+          "duration": 5,
+          "frame_start_description": "D가 열린 상자에 한 발을 넣었고 다른 발은 바닥. 뚜껑은 뒤 경첩으로 열려 있다. IB는 B대에 그대로 있음.",
+          "visual_action": "D가 나머지 다리를 접어 상자 안으로 숨고 손으로 뚜껑을 닫는다.",
+          "frame_end_description": "불투명 상자가 완전히 닫힘. 외부에 몸/손/발이 남지 않음.",
+          "composition": "측면 고정 미디엄. 상자 전체와 바닥 접점을 보이며 안으로 들어가는 경로를 숨기지 않음.",
+          "caption_cues": [],
+          "dialogue": "없음",
+          "narration": "없음",
+          "music_sfx_silence": "음악 최고조→나무 뚜껑 닫힘에 고음만 제거.",
+          "transition": "같은 상자와 카메라를 보이는 다음 정면 검사 컷",
+          "intent": "기계의 시야를 막는 새 전략. 자신의 선택이 결말의 반송수단을 만듦.",
+          "continuity": [
+            "뚜껑 단일경첩 위치 유지. 들어간 몸이 상자 크기에 맞게 접힘. 뚜껑에 사람을 잠그는 장치 사용 안 함."
+          ],
+          "post_composites": [],
+          "main_motion_count": 1
+        },
+        {
+          "id": "C07_K06",
+          "scene_id": "S06",
+          "start": 21,
+          "end": 25,
+          "duration": 4,
+          "frame_start_description": "닫힌 상자가 카메라 정면. 모니터에는 불투명한 상자 외관만 보이고 내부 실루엣은 전혀 없음.",
+          "visual_action": "IB가 시야 가림 표시를 확인하고 태블릿을 내려놓은 뒤 상자 손잡이를 잡는다.",
+          "frame_end_description": "IB 손이 뚜껑 손잡이를 잡았지만 아직 열리지 않음.",
+          "composition": "카메라·닫힌 상자·모니터·IB 손을 한 미디엄 안에. 개봉 전 결과를 보여주지 않음.",
+          "caption_cues": [
+            {
+              "start": 21.3,
+              "end": 24.7,
+              "text": "안 보이면, 열어서 확인.",
+              "placement": "상단 빈 벽"
+            }
+          ],
+          "dialogue": "없음",
+          "narration": "없음",
+          "music_sfx_silence": "경보 없음. 아주 작은 장갑 마찰, 음악 낮춤.",
+          "transition": "동일 공간 축을 유지한 하드 컷",
+          "intent": "AI 투시가 아니라 공유받은 검증 조건을 사람이 실행하게 함. 읽기 세 단계가 아닌 손의 선택.",
+          "continuity": [
+            "상자 내부 형체/균열을 화면에 표시하지 않음. IB는 이미 K04에서 같은 메모를 봄."
+          ],
+          "post_composites": [
+            "모니터 큰 상태: 시야 가림 / 확인 필요. 내용은 상자 외관 그대로."
+          ],
+          "main_motion_count": 1
+        },
+        {
+          "id": "C07_K07",
+          "scene_id": "S07",
+          "start": 25,
+          "end": 29,
+          "duration": 4,
+          "frame_start_description": "IB가 뚜껑 손잡이를 잡고 닫힌 상자 앞에 서 있다.",
+          "visual_action": "IB가 뚜껑을 한 번 열어 웅크린 D를 드러낸다.",
+          "frame_end_description": "D가 웅크려 태연한 여행객 미소를 짓지만 균열이 그대로 보임. 뚜껑은 열린 채.",
+          "composition": "상자 정면 고정. IB 손·뚜껑 상승·D 얼굴 드러남이 한 화면에서 완료.",
+          "caption_cues": [],
+          "dialogue": "없음",
+          "narration": "없음",
+          "music_sfx_silence": "뚜껑 열림 뒤0.6초 무음, D 손가락이 기내 손님처럼 가볍게 인사해도 소리 의존 없음.",
+          "transition": "동일 공간 축을 유지한 하드 컷",
+          "intent": "새 전략의 실패를 설명 문장 없이 얼굴로 공개. 검사자보다 도망자의 감정만 과장.",
+          "continuity": [
+            "D 의상·균열·접힌 무릎 유지. 추가 사람/분신 없음."
+          ],
+          "post_composites": [],
+          "main_motion_count": 1
+        },
+        {
+          "id": "C07_K08",
+          "scene_id": "S08",
+          "start": 29,
+          "end": 33,
+          "duration": 4,
+          "frame_start_description": "상자 앞면은 비어 있고 D는 상자 안에서 상단 모서리를 붙잡고 있다. IB 손에는 주황 반송 라벨.",
+          "visual_action": "IB가 상자 앞면에 재확인 라벨을 붙인다.",
+          "frame_end_description": "주황 라벨이 붙고 D는 상자째 발송될 것을 뒤늦게 알아챔.",
+          "composition": "상자 앞면과 D 얼굴을 함께 둔 미디엄. 주황 라벨은 손보다 큰 크기.",
+          "caption_cues": [
+            {
+              "start": 30.2,
+              "end": 32.7,
+              "text": "본인이 고른 포장입니다.",
+              "placement": "상단 벽, 얼굴 위 여백"
+            }
+          ],
+          "dialogue": "없음",
+          "narration": "없음",
+          "music_sfx_silence": "스티커 찹, 작게 물류 알림. 음악은 지나치게 우아한 출국풍으로 복귀.",
+          "transition": "동일 공간 축을 유지한 하드 컷",
+          "intent": "은신처가 포장으로 전환되는 권력반전. D의 시선이 아래 라벨로 내려가는 것을 유지.",
+          "continuity": [
+            "열린 뚜껑 유지, 팔을 묶거나 못 나가게 잠그지 않음."
+          ],
+          "post_composites": [
+            "상자 라벨 재확인 / 팀 A. D가 옮겨야 할 실제 직원이 아니라 불량 의인화라는 맥락 유지."
+          ],
+          "main_motion_count": 1
+        },
+        {
+          "id": "C07_K09",
+          "scene_id": "S09",
+          "start": 33,
+          "end": 38,
+          "duration": 5,
+          "frame_start_description": "상자가 B대 옆 직선 저속 롤러레인에 있고 IB 두 손이 뒤 모서리에 닿기 직전. D는 상자 안에서 뚜껑 양옆을 잡고 앉아 있음.",
+          "visual_action": "IB가 상자를 왼쪽 A 방향으로 밀어 보낸다.",
+          "frame_end_description": "상자가 A로 천천히 이동하고 D는 상자 밖으로 도망치지 못한 채 여행객처럼 실려 감.",
+          "composition": "동일 복도 옆 와이드, 실제→반대방향 이동을 길게 보여준다.",
+          "caption_cues": [],
+          "dialogue": "없음",
+          "narration": "없음",
+          "music_sfx_silence": "출국풍 음악과 삐걱거리는 롤러 리듬. 위험한 고속운송 없음.",
+          "transition": "동일 공간 축을 유지한 하드 컷",
+          "intent": "달아난 방향을 상자에 실려 그대로 되돌아오는 시각적 후폭풍.",
+          "continuity": [
+            "반송 방향←. B는 오른쪽, A는 왼쪽. 사람 몸을 상자에 고정하지 않음."
+          ],
+          "post_composites": [],
+          "main_motion_count": 1
+        },
+        {
+          "id": "C07_K10",
+          "scene_id": "S10",
+          "start": 38,
+          "end": 44,
+          "duration": 6,
+          "frame_start_description": "A대 앞에 상자가 멈추기 직전. IA와 K02에 남긴 검정 가방이 보인다. D는 가방을 아직 못 봄.",
+          "visual_action": "상자가 멈추자 D가 자기 여행가방을 보고 천천히 고개를 들어 처음의 IA와 눈을 맞춘다.",
+          "frame_end_description": "D는 상자 안, 가방은 밖. IA는 처음과 똑같이 확인용 스캐너를 내민 상태.",
+          "composition": "처음 검사대와 같은 정면 구도. 짧은 충격 과장 대신 여행이 원점으로 끝났음을 한 프레임에.",
+          "caption_cues": [
+            {
+              "start": 38.7,
+              "end": 44,
+              "text": "잘된 방법도. 놓쳤던 조건도.\nQ-AI Fair",
+              "placement": "좌상단 빈 벽, 인물·상자 회피"
+            }
+          ],
+          "dialogue": "없음",
+          "narration": "없음",
+          "music_sfx_silence": "우아한 여행음악 한 박자 길게 끝남. 대사 없음. 엔딩5.3초 읽기.",
+          "transition": "동일 공간 축을 유지한 하드 컷",
+          "intent": "처음 장면의 같은 검사자·같은 가방으로 돌아오는 완결. 행사명은 경험이 먼저 전달된 사건의 출처.",
+          "continuity": [
+            "라벨 재확인/팀A는 유지. 최초 가방 재등장. 실제 새 행사 일정/행동요청 없음."
+          ],
+          "post_composites": [],
+          "main_motion_count": 1
+        }
+      ],
+      "scenes": [
+        {
+          "concept_id": "C07",
+          "scene_id": "S01",
+          "linked_cuts": [
+            "C07_K01"
+          ],
+          "representative_frame": "D가 A 검사대 앞에 도착하기 한 걸음 전. 여행가방 바퀴가 전경, 주황 검사대와 IA는 후경. D 왼쪽 얼굴 균열이 보임.",
+          "characters_costumes_props_continuity": [
+            "A 주황은 좌측, 이동방향→. 균열은 왼쪽 볼 한 줄. 가방 노란 띠 유지."
+          ],
+          "space_axis": "긴 검사동 복도. A는 화면 왼쪽/주황, B는 오른쪽/청록. 도주 A→B는 항상 왼쪽에서 오른쪽. 반송 B→A는 오른쪽에서 왼쪽. 두 검사대와 직선 저속 롤러 레인은 같은 공간이며 팀 표기는 후합성.",
+          "ratio": "16:9",
+          "camera": "낮은 미디엄 트래킹, 마지막1초 고정. 신발→상체가 자연스럽게 포함.",
+          "subsequent_motion": "D가 가방을 끌며 검사 위치로 자신 있게 한 걸음 들어온다.",
+          "required_end_state": "D가 카메라 앞에 섰고 가방은 왼쪽 A대 옆.",
+          "caption_safe_area": [
+            "하단 중앙, 가방 손잡이/얼굴 회피"
+          ],
+          "post_composites": [],
+          "suggested_output": "images/C07/S01.png",
+          "image_status": "NOT_GENERATED; 실제 이미지 생성 및 교차검수 필요",
+          "image_instruction": "선택된 캐릭터 기준 이미지 참조. 완성된 행동이 아니라 위 시작 상태를 생성. 정확 자막·로고·UI 글자는 비워 후처리. 콜라주 금지."
+        },
+        {
+          "concept_id": "C07",
+          "scene_id": "S02",
+          "linked_cuts": [
+            "C07_K02"
+          ],
+          "representative_frame": "카메라 렌즈 옆으로 D 얼굴, 반대쪽 모니터에는 같은 얼굴의 정지 비교 영역. IA 손은 확인 버튼 위에 멈춤.",
+          "characters_costumes_props_continuity": [
+            "D 균열 위치 고정. IA는 실제사람 외모를 조롱하는 표정 없음."
+          ],
+          "space_axis": "긴 검사동 복도. A는 화면 왼쪽/주황, B는 오른쪽/청록. 도주 A→B는 항상 왼쪽에서 오른쪽. 반송 B→A는 오른쪽에서 왼쪽. 두 검사대와 직선 저속 롤러 레인은 같은 공간이며 팀 표기는 후합성.",
+          "ratio": "16:9",
+          "camera": "D와 IA·모니터를 함께 잡는 미디엄. 얼굴을 판정하는 실존 인식 시스템처럼 긴 UI를 만들지 않음.",
+          "subsequent_motion": "IA가 모니터의 균열 후보와 D 실물을 번갈아 보고 확인 표시를 한 번 누른다.",
+          "required_end_state": "같은 균열이 표시된 사진. D는 굳어 있고 가방은 A 옆에 남음.",
+          "caption_safe_area": [
+            "D 어깨 아래 빈 영역"
+          ],
+          "post_composites": [
+            "화면 큰 머리말: AI 확인 후보. D 동일 얼굴·균열 영역 표시→IA 확인 후 작은 확인 완료. 성능수치/신원정보 없음."
+          ],
+          "suggested_output": "images/C07/S02.png",
+          "image_status": "NOT_GENERATED; 실제 이미지 생성 및 교차검수 필요",
+          "image_instruction": "선택된 캐릭터 기준 이미지 참조. 완성된 행동이 아니라 위 시작 상태를 생성. 정확 자막·로고·UI 글자는 비워 후처리. 콜라주 금지."
+        },
+        {
+          "concept_id": "C07",
+          "scene_id": "S03",
+          "linked_cuts": [
+            "C07_K03"
+          ],
+          "representative_frame": "D가 A대를 등지고 오른쪽 복도 쪽으로 몸을 틀기 직전. 가방은 A 다리 옆에 세워져 있고 IA는 추격하지 않음.",
+          "characters_costumes_props_continuity": [
+            "D는 가방을 다시 가져오지 않음. A→B 방향→."
+          ],
+          "space_axis": "긴 검사동 복도. A는 화면 왼쪽/주황, B는 오른쪽/청록. 도주 A→B는 항상 왼쪽에서 오른쪽. 반송 B→A는 오른쪽에서 왼쪽. 두 검사대와 직선 저속 롤러 레인은 같은 공간이며 팀 표기는 후합성.",
+          "ratio": "16:9",
+          "camera": "같은 복도 축을 지킨 옆 와이드. 별도 외부 장소로 바꾸지 않음.",
+          "subsequent_motion": "D만 오른쪽 B대 방향으로 서둘러 빠져나간다.",
+          "required_end_state": "D가 B대 앞에 도착하기 직전. A와 가방은 멀리 왼쪽 후경.",
+          "caption_safe_area": [
+            "상단 복도 벽"
+          ],
+          "post_composites": [],
+          "suggested_output": "images/C07/S03.png",
+          "image_status": "NOT_GENERATED; 실제 이미지 생성 및 교차검수 필요",
+          "image_instruction": "선택된 캐릭터 기준 이미지 참조. 완성된 행동이 아니라 위 시작 상태를 생성. 정확 자막·로고·UI 글자는 비워 후처리. 콜라주 금지."
+        },
+        {
+          "concept_id": "C07",
+          "scene_id": "S04",
+          "linked_cuts": [
+            "C07_K04"
+          ],
+          "representative_frame": "B대 IB가 태블릿을 이미 들고 있다. D는 태블릿 뒷면 쪽에서 접근하여 아직 화면을 못 봄.",
+          "characters_costumes_props_continuity": [
+            "B 태블릿 사진은 K02의 실제 D 프레임. 상자는 B 왼쪽 롤러레인 위, 뚜껑 열림."
+          ],
+          "space_axis": "긴 검사동 복도. A는 화면 왼쪽/주황, B는 오른쪽/청록. 도주 A→B는 항상 왼쪽에서 오른쪽. 반송 B→A는 오른쪽에서 왼쪽. 두 검사대와 직선 저속 롤러 레인은 같은 공간이며 팀 표기는 후합성.",
+          "ratio": "16:9",
+          "camera": "고정 투샷. D 얼굴·태블릿·빈 상자를 같은 시선선 위에 배치.",
+          "subsequent_motion": "IB가 D에게 태블릿을 돌려 이미 공유된 같은 균열 사진을 보여준다.",
+          "required_end_state": "D가 자기 사진을 확인하고 옆 불투명 상자 쪽으로 눈만 돌림.",
+          "caption_safe_area": [
+            "상단 빈 벽"
+          ],
+          "post_composites": [
+            "태블릿: Q-AI Fair / 공유 사례, 큰 D 균열 사진. 아래 짧은 메모 한 줄: 가려진 면은 열어서 확인. 긴 절차표 금지."
+          ],
+          "suggested_output": "images/C07/S04.png",
+          "image_status": "NOT_GENERATED; 실제 이미지 생성 및 교차검수 필요",
+          "image_instruction": "선택된 캐릭터 기준 이미지 참조. 완성된 행동이 아니라 위 시작 상태를 생성. 정확 자막·로고·UI 글자는 비워 후처리. 콜라주 금지."
+        },
+        {
+          "concept_id": "C07",
+          "scene_id": "S05",
+          "linked_cuts": [
+            "C07_K05"
+          ],
+          "representative_frame": "D가 열린 상자에 한 발을 넣었고 다른 발은 바닥. 뚜껑은 뒤 경첩으로 열려 있다. IB는 B대에 그대로 있음.",
+          "characters_costumes_props_continuity": [
+            "뚜껑 단일경첩 위치 유지. 들어간 몸이 상자 크기에 맞게 접힘. 뚜껑에 사람을 잠그는 장치 사용 안 함."
+          ],
+          "space_axis": "긴 검사동 복도. A는 화면 왼쪽/주황, B는 오른쪽/청록. 도주 A→B는 항상 왼쪽에서 오른쪽. 반송 B→A는 오른쪽에서 왼쪽. 두 검사대와 직선 저속 롤러 레인은 같은 공간이며 팀 표기는 후합성.",
+          "ratio": "16:9",
+          "camera": "측면 고정 미디엄. 상자 전체와 바닥 접점을 보이며 안으로 들어가는 경로를 숨기지 않음.",
+          "subsequent_motion": "D가 나머지 다리를 접어 상자 안으로 숨고 손으로 뚜껑을 닫는다.",
+          "required_end_state": "불투명 상자가 완전히 닫힘. 외부에 몸/손/발이 남지 않음.",
+          "caption_safe_area": [],
+          "post_composites": [],
+          "suggested_output": "images/C07/S05.png",
+          "image_status": "NOT_GENERATED; 실제 이미지 생성 및 교차검수 필요",
+          "image_instruction": "선택된 캐릭터 기준 이미지 참조. 완성된 행동이 아니라 위 시작 상태를 생성. 정확 자막·로고·UI 글자는 비워 후처리. 콜라주 금지."
+        },
+        {
+          "concept_id": "C07",
+          "scene_id": "S06",
+          "linked_cuts": [
+            "C07_K06"
+          ],
+          "representative_frame": "닫힌 상자가 카메라 정면. 모니터에는 불투명한 상자 외관만 보이고 내부 실루엣은 전혀 없음.",
+          "characters_costumes_props_continuity": [
+            "상자 내부 형체/균열을 화면에 표시하지 않음. IB는 이미 K04에서 같은 메모를 봄."
+          ],
+          "space_axis": "긴 검사동 복도. A는 화면 왼쪽/주황, B는 오른쪽/청록. 도주 A→B는 항상 왼쪽에서 오른쪽. 반송 B→A는 오른쪽에서 왼쪽. 두 검사대와 직선 저속 롤러 레인은 같은 공간이며 팀 표기는 후합성.",
+          "ratio": "16:9",
+          "camera": "카메라·닫힌 상자·모니터·IB 손을 한 미디엄 안에. 개봉 전 결과를 보여주지 않음.",
+          "subsequent_motion": "IB가 시야 가림 표시를 확인하고 태블릿을 내려놓은 뒤 상자 손잡이를 잡는다.",
+          "required_end_state": "IB 손이 뚜껑 손잡이를 잡았지만 아직 열리지 않음.",
+          "caption_safe_area": [
+            "상단 빈 벽"
+          ],
+          "post_composites": [
+            "모니터 큰 상태: 시야 가림 / 확인 필요. 내용은 상자 외관 그대로."
+          ],
+          "suggested_output": "images/C07/S06.png",
+          "image_status": "NOT_GENERATED; 실제 이미지 생성 및 교차검수 필요",
+          "image_instruction": "선택된 캐릭터 기준 이미지 참조. 완성된 행동이 아니라 위 시작 상태를 생성. 정확 자막·로고·UI 글자는 비워 후처리. 콜라주 금지."
+        },
+        {
+          "concept_id": "C07",
+          "scene_id": "S07",
+          "linked_cuts": [
+            "C07_K07"
+          ],
+          "representative_frame": "IB가 뚜껑 손잡이를 잡고 닫힌 상자 앞에 서 있다.",
+          "characters_costumes_props_continuity": [
+            "D 의상·균열·접힌 무릎 유지. 추가 사람/분신 없음."
+          ],
+          "space_axis": "긴 검사동 복도. A는 화면 왼쪽/주황, B는 오른쪽/청록. 도주 A→B는 항상 왼쪽에서 오른쪽. 반송 B→A는 오른쪽에서 왼쪽. 두 검사대와 직선 저속 롤러 레인은 같은 공간이며 팀 표기는 후합성.",
+          "ratio": "16:9",
+          "camera": "상자 정면 고정. IB 손·뚜껑 상승·D 얼굴 드러남이 한 화면에서 완료.",
+          "subsequent_motion": "IB가 뚜껑을 한 번 열어 웅크린 D를 드러낸다.",
+          "required_end_state": "D가 웅크려 태연한 여행객 미소를 짓지만 균열이 그대로 보임. 뚜껑은 열린 채.",
+          "caption_safe_area": [],
+          "post_composites": [],
+          "suggested_output": "images/C07/S07.png",
+          "image_status": "NOT_GENERATED; 실제 이미지 생성 및 교차검수 필요",
+          "image_instruction": "선택된 캐릭터 기준 이미지 참조. 완성된 행동이 아니라 위 시작 상태를 생성. 정확 자막·로고·UI 글자는 비워 후처리. 콜라주 금지."
+        },
+        {
+          "concept_id": "C07",
+          "scene_id": "S08",
+          "linked_cuts": [
+            "C07_K08"
+          ],
+          "representative_frame": "상자 앞면은 비어 있고 D는 상자 안에서 상단 모서리를 붙잡고 있다. IB 손에는 주황 반송 라벨.",
+          "characters_costumes_props_continuity": [
+            "열린 뚜껑 유지, 팔을 묶거나 못 나가게 잠그지 않음."
+          ],
+          "space_axis": "긴 검사동 복도. A는 화면 왼쪽/주황, B는 오른쪽/청록. 도주 A→B는 항상 왼쪽에서 오른쪽. 반송 B→A는 오른쪽에서 왼쪽. 두 검사대와 직선 저속 롤러 레인은 같은 공간이며 팀 표기는 후합성.",
+          "ratio": "16:9",
+          "camera": "상자 앞면과 D 얼굴을 함께 둔 미디엄. 주황 라벨은 손보다 큰 크기.",
+          "subsequent_motion": "IB가 상자 앞면에 재확인 라벨을 붙인다.",
+          "required_end_state": "주황 라벨이 붙고 D는 상자째 발송될 것을 뒤늦게 알아챔.",
+          "caption_safe_area": [
+            "상단 벽, 얼굴 위 여백"
+          ],
+          "post_composites": [
+            "상자 라벨 재확인 / 팀 A. D가 옮겨야 할 실제 직원이 아니라 불량 의인화라는 맥락 유지."
+          ],
+          "suggested_output": "images/C07/S08.png",
+          "image_status": "NOT_GENERATED; 실제 이미지 생성 및 교차검수 필요",
+          "image_instruction": "선택된 캐릭터 기준 이미지 참조. 완성된 행동이 아니라 위 시작 상태를 생성. 정확 자막·로고·UI 글자는 비워 후처리. 콜라주 금지."
+        },
+        {
+          "concept_id": "C07",
+          "scene_id": "S09",
+          "linked_cuts": [
+            "C07_K09"
+          ],
+          "representative_frame": "상자가 B대 옆 직선 저속 롤러레인에 있고 IB 두 손이 뒤 모서리에 닿기 직전. D는 상자 안에서 뚜껑 양옆을 잡고 앉아 있음.",
+          "characters_costumes_props_continuity": [
+            "반송 방향←. B는 오른쪽, A는 왼쪽. 사람 몸을 상자에 고정하지 않음."
+          ],
+          "space_axis": "긴 검사동 복도. A는 화면 왼쪽/주황, B는 오른쪽/청록. 도주 A→B는 항상 왼쪽에서 오른쪽. 반송 B→A는 오른쪽에서 왼쪽. 두 검사대와 직선 저속 롤러 레인은 같은 공간이며 팀 표기는 후합성.",
+          "ratio": "16:9",
+          "camera": "동일 복도 옆 와이드, 실제→반대방향 이동을 길게 보여준다.",
+          "subsequent_motion": "IB가 상자를 왼쪽 A 방향으로 밀어 보낸다.",
+          "required_end_state": "상자가 A로 천천히 이동하고 D는 상자 밖으로 도망치지 못한 채 여행객처럼 실려 감.",
+          "caption_safe_area": [],
+          "post_composites": [],
+          "suggested_output": "images/C07/S09.png",
+          "image_status": "NOT_GENERATED; 실제 이미지 생성 및 교차검수 필요",
+          "image_instruction": "선택된 캐릭터 기준 이미지 참조. 완성된 행동이 아니라 위 시작 상태를 생성. 정확 자막·로고·UI 글자는 비워 후처리. 콜라주 금지."
+        },
+        {
+          "concept_id": "C07",
+          "scene_id": "S10",
+          "linked_cuts": [
+            "C07_K10"
+          ],
+          "representative_frame": "A대 앞에 상자가 멈추기 직전. IA와 K02에 남긴 검정 가방이 보인다. D는 가방을 아직 못 봄.",
+          "characters_costumes_props_continuity": [
+            "라벨 재확인/팀A는 유지. 최초 가방 재등장. 실제 새 행사 일정/행동요청 없음."
+          ],
+          "space_axis": "긴 검사동 복도. A는 화면 왼쪽/주황, B는 오른쪽/청록. 도주 A→B는 항상 왼쪽에서 오른쪽. 반송 B→A는 오른쪽에서 왼쪽. 두 검사대와 직선 저속 롤러 레인은 같은 공간이며 팀 표기는 후합성.",
+          "ratio": "16:9",
+          "camera": "처음 검사대와 같은 정면 구도. 짧은 충격 과장 대신 여행이 원점으로 끝났음을 한 프레임에.",
+          "subsequent_motion": "상자가 멈추자 D가 자기 여행가방을 보고 천천히 고개를 들어 처음의 IA와 눈을 맞춘다.",
+          "required_end_state": "D는 상자 안, 가방은 밖. IA는 처음과 똑같이 확인용 스캐너를 내민 상태.",
+          "caption_safe_area": [
+            "좌상단 빈 벽, 인물·상자 회피"
+          ],
+          "post_composites": [],
+          "suggested_output": "images/C07/S10.png",
+          "image_status": "NOT_GENERATED; 실제 이미지 생성 및 교차검수 필요",
+          "image_instruction": "선택된 캐릭터 기준 이미지 참조. 완성된 행동이 아니라 위 시작 상태를 생성. 정확 자막·로고·UI 글자는 비워 후처리. 콜라주 금지."
+        }
+      ],
+      "post_graphics": [],
+      "continuity_requirements": [
+        "태블릿의 균열 사진/카메라 실제 D/마지막 D는 동일한 왼쪽 균열.",
+        "K02 가방 방치→K03 도주→K10 같은 가방 회수 그림을 반드시 연결.",
+        "K05상자 닫힘→K06 카메라 가림→K07실제 개봉 순서를 바꾸지 않음.",
+        "K08부터 상자 앞면 라벨이 계속 보임. K09 저속반송은 실제 움직임으로 확보."
+      ],
+      "review_questions": [
+        "행사명과 음성을 가려도 자신이 고른 상자에 실려 되돌아온다는 후폭풍이 읽히는가?",
+        "AI가 내부를 투시하거나 사람의 외모를 불량으로 판단하는 현실 시스템처럼 오해하지 않는가?",
+        "K06 문구는 한 줄 행동 동기인가, 절차 강의로 길어졌는가?"
+      ]
+    },
+    {
+      "id": "C08",
+      "title": "구조는 끝났습니다",
+      "purpose": "Q-AI Fair 실제 활용 방법 공유 홍보",
+      "one_line": "거대한 출동을 준비한 해결사가 벽을 뚫고 도착하지만 직원은 공유받은 AI 활용 방법으로 일을 끝냈고, 해결사 자신이 만든 벽 결함을 다시 고치게 된다.",
+      "core_message": "누군가 직접 해본 방법의 공유가 다음 사람의 일을 실질적으로 돕는다.",
+      "aspect_ratio": "16:9",
+      "aspect_status": "기존 제작 기준 유지",
+      "expected_duration_seconds": 46,
+      "essential_dialogue": false,
+      "cast": [
+        {
+          "id": "H",
+          "appearance": "50대 근육질 중년 여성, 아주 짧은 은발, 사각턱, 진한 눈썹, 낮은 중심의 당당한 자세.",
+          "costume": "짙은 청록 전술 점프수트, 주황 짧은 망토, 검정 작업화. 유명 영웅·군부대 로고 없음. 표정은 끝까지 대작 액션."
+        },
+        {
+          "id": "E",
+          "appearance": "20대 후반 마른 남성, 둥근 안경, 길고 매끈한 검정 앞머리, 좁은 어깨.",
+          "costume": "연노랑 셔츠, 짙은 회색 바지. 따뜻하지만 현실적인 태도. 해결사를 비웃거나 꾸짖지 않음."
+        }
+      ],
+      "space_axis": "초반 H의 지하 출동실과 E의 밝은 사무실 교차. 사무실은 직원 책상/도시락 왼쪽, 출입벽 오른쪽. H는 항상 오른쪽 벽에서 왼쪽으로 등장. 수리는 같은 오른쪽 벽 안쪽. 창문·책상·망토 색 고정.",
+      "props": [
+        "E 책상: 종이검토서, 노트북, 닫힌 민트색 도시락, 검정젓가락.",
+        "긴급 도움 버튼/기기는 AI 처리 버튼이 아니라 도움 요청 연락장치.",
+        "파손벽: 낮은 외곽 벽돌 세트. 구멍은 폭 약1.2m·높이1.8m의 한 사람 통로. 흩어진 붉은 벽돌 수는 후속수리와 일치.",
+        "수리도구: 회색 흙손, 작은 모르타르 통, 노란 수평계. 마지막 벽돌은 오른쪽 상단 한 장."
+      ],
+      "first_hook": "사소한 도움 요청에 지하 격납고의 압도적 준비를 교차시켜 액션영화 기대를 진지하게 건다.",
+      "reversal": "외부의 구원자가 필요 없어졌고, 구원자의 과잉 등장이 유일하게 남은 문제를 만든다.",
+      "ending_connection": "거대한 출동의 주인공이 마지막에는 벽돌 한 장을 다시 맞추는 사람이 된다. 공유방법은 직원이 쉬게 했고, H는 자기 행동을 직접 끝낸다.",
+      "production_difficulty": {
+        "level": "높음",
+        "reason": "안전한 벽 돌파와 동일규모 수리, 날아온 벽돌의 손상/동선, 마지막 비뚤어진 벽돌을 정확히 유지해야 함.",
+        "fallback": "실제 사람/구조체 없는 분리된 경량벽 세트로 설계. 돌파가 불안정하면 벽 파편이 먼저 살짝 벌어짐→H 한 걸음 진입을 두 단위로 나누되 멀쩡한 벽에서 열린 구멍으로 순간전환 금지."
+      },
+      "shots": [
+        {
+          "id": "C08_K01",
+          "scene_id": "S01",
+          "start": 0,
+          "end": 4,
+          "duration": 4,
+          "frame_start_description": "E가 책상 앞에서 미해결 검토서 한 장을 보고 있다. 도시락은 닫혔고 오른손은 도움 요청 기기 위에 닿기 전.",
+          "visual_action": "E가 도움 요청 버튼을 한 번 누른다.",
+          "frame_end_description": "요청 전송 표시. 직원은 아직 일하는 중이며 책상/도시락 그대로.",
+          "composition": "검토서·직원 표정·도움 버튼을 함께 잡는 미디엄.",
+          "caption_cues": [
+            {
+              "start": 0.3,
+              "end": 3.6,
+              "text": "누가 좀 도와줘요.",
+              "placement": "상단 빈 사무실 벽"
+            }
+          ],
+          "dialogue": "없음",
+          "narration": "없음",
+          "music_sfx_silence": "선택: 조용한 사무실→버튼과 동시에 압도적 액션 리듬 진입.",
+          "transition": "동일 공간 축을 유지한 하드 컷",
+          "intent": "업무 과잉이 아니라 한 건의 막힘을 도움 요청으로 시작해 과도한 출동과 대비.",
+          "continuity": [
+            "도시락 아직닫힘. 도움버튼은AI완료버튼아님."
+          ],
+          "post_composites": [],
+          "main_motion_count": 1
+        },
+        {
+          "id": "C08_K02",
+          "scene_id": "S02",
+          "start": 4,
+          "end": 8,
+          "duration": 4,
+          "frame_start_description": "지하 출동실 H가 거대한 금속문 앞에서 양손을 대고 있다. 주황 망토는 뒤로, 문은 닫힘.",
+          "visual_action": "H가 무거운 출동실 문을 양옆으로 밀어 연다.",
+          "frame_end_description": "문이 열리고 바깥빛이 들어온다. H는 출동 직전의 전신 자세.",
+          "composition": "낮은 대칭 와이드. 금속문 높이는 H의2배; 군중/차량추가없음.",
+          "caption_cues": [],
+          "dialogue": "없음",
+          "narration": "없음",
+          "music_sfx_silence": "장대한 저음 금관/문 유압음. 실제로 없어도 화면 스케일로 전달.",
+          "transition": "사무실로 즉시 교차",
+          "intent": "실제보다 엄청나게 큰 해결의 기대를 만든다. H는 스스로를 진지한 구원자로 여김.",
+          "continuity": [
+            "H 짧은주황망토/청록점프수트/은발유지."
+          ],
+          "post_composites": [],
+          "main_motion_count": 1
+        },
+        {
+          "id": "C08_K03",
+          "scene_id": "S03",
+          "start": 8,
+          "end": 13,
+          "duration": 5,
+          "frame_start_description": "E 노트북에 동료가 공유한 Q-AI Fair 사례 카드 알림. E는 아직 카드를 열기 전. 검토서와 닫힌 도시락은 그대로.",
+          "visual_action": "E가 공유된 사례 카드를 열고 자기 검토서 옆으로 화면을 돌려 적용할 항목을 찾는다.",
+          "frame_end_description": "화면에 AI가 좁힌 확인 후보 한 건, 종이에 같은 항목이 보인다. 아직 완료 체크 없음.",
+          "composition": "E 손·큰 화면·원문이 함께 보이는 어깨너머 미디엄.",
+          "caption_cues": [
+            {
+              "start": 8.4,
+              "end": 12.7,
+              "text": "어제 공유된 그 방법.",
+              "placement": "상단/얼굴 위 여백"
+            }
+          ],
+          "dialogue": "없음",
+          "narration": "없음",
+          "music_sfx_silence": "출동음악은 계속, 마우스 클릭만 담담함.",
+          "transition": "공유자료에서 실제확인 손의 근접으로 컷",
+          "intent": "구원자를 기다리는 동안 스스로 공유 방법을 발견한 원인을 짧게 보여준다.",
+          "continuity": [
+            "샘플 검토항목은 허구. 동일 행/기호를 다음 종이에서 확인. 긴프롬프트입력/교육화면없음."
+          ],
+          "post_composites": [
+            "노트북 헤더 Q-AI Fair / 공유한 업무 방법. 다음 큰 카드 AI 확인 후보, 한 줄 원문 확인 필요. 완료/정확도%/숫자성과 없음."
+          ],
+          "main_motion_count": 1
+        },
+        {
+          "id": "C08_K04",
+          "scene_id": "S04",
+          "start": 13,
+          "end": 17,
+          "duration": 4,
+          "frame_start_description": "원문 종이에 한 곳만 표시되고 E의 펜이 아직 체크하지 않았다. 옆 모니터의 후보 위치가 같은 줄.",
+          "visual_action": "E가 원문을 대조해 체크 한 번을 적고 종이를 완료 트레이로 밀어 둔다.",
+          "frame_end_description": "실제 사람이 확인한 체크/완료 트레이. E의 시선은 도시락 쪽으로 이동.",
+          "composition": "책상 위 손·원문·후보를 함께, 글자 읽기보다 같은 항목과 체크를 크게.",
+          "caption_cues": [
+            {
+              "start": 13.3,
+              "end": 16.7,
+              "text": "마지막 확인까지, 끝.",
+              "placement": "상단 빈 부분"
+            }
+          ],
+          "dialogue": "없음",
+          "narration": "없음",
+          "music_sfx_silence": "음악 계속 고조. 펜소리·트레이 마찰은 작게.",
+          "transition": "바로오른쪽벽을보이는와이드",
+          "intent": "AI 만능 자동완료가 아니라 사람이 확인해 일을 끝냈음을 한 행동으로 표시.",
+          "continuity": [
+            "K03같은표시가있는문서. 체크는한번. 완료트레이는재확인컷에서유지."
+          ],
+          "post_composites": [
+            "원문 표제 검토 원문. 의미 없는 긴 글자 대신 동일 기호 3개와 확인한 한 줄만 정확 후합성."
+          ],
+          "main_motion_count": 1
+        },
+        {
+          "id": "C08_K05",
+          "scene_id": "S05",
+          "start": 17,
+          "end": 23,
+          "duration": 6,
+          "frame_start_description": "E는 왼쪽 책상에서 이미 도시락 뚜껑을 열고 있다. 오른쪽 경량벽은 멀쩡하고 그 앞 공간은 비어 있음.",
+          "visual_action": "오른쪽 벽 중앙이 벌어지며 H가 한 걸음 뚫고 들어와 장대한 착지 자세로 멈춘다.",
+          "frame_end_description": "한 사람 크기 구멍, 바닥 붉은 벽돌, H의 주황 망토. E와 책상에는 파편이 닿지 않음.",
+          "composition": "사무실 고정 와이드. 사람·책상과 충돌하지 않는 오른쪽 파손영역 전체를 보임.",
+          "caption_cues": [],
+          "dialogue": "없음",
+          "narration": "없음",
+          "music_sfx_silence": "액션최고조+세트파손. H착지직후음악끊음0.7초. 비명/고통소리없음.",
+          "transition": "동일 공간 축을 유지한 하드 컷",
+          "intent": "진짜 도착을 보여준 뒤 다음 컷에서 이미끝난업무와 충돌. 파손은 후속수리 원인.",
+          "continuity": [
+            "오른쪽 벽만폭1.2m높이1.8m파손. 천장/창/건물붕괴없음. E도시락/완료트레이그대로."
+          ],
+          "post_composites": [],
+          "main_motion_count": 1
+        },
+        {
+          "id": "C08_K06",
+          "scene_id": "S06",
+          "start": 23,
+          "end": 26,
+          "duration": 3,
+          "frame_start_description": "H가 영웅 자세로 멈춘 전경, E는 후경에서 도시락 젓가락을 들고 있다. 완료 트레이가 E 옆에 보임.",
+          "visual_action": "E가 H에게 완료 트레이를 가볍게 가리킨다.",
+          "frame_end_description": "H가 서서히 E의 도시락과 완료 트레이를 본다.",
+          "composition": "H측면/E정면 투샷. 파손구멍은오른쪽후경으로유지.",
+          "caption_cues": [
+            {
+              "start": 23.25,
+              "end": 25.9,
+              "text": "끝났는데요.",
+              "placement": "E 어깨 위 빈 벽"
+            }
+          ],
+          "dialogue": "없음",
+          "narration": "없음",
+          "music_sfx_silence": "젓가락 작은 클릭,0.5초정적뒤H망토펄럭임만.",
+          "transition": "동일 공간 축을 유지한 하드 컷",
+          "intent": "영화적 도착의 쓸모가 사라지는 즉각적 반전. E는 비웃지 않음.",
+          "continuity": [
+            "도시락 내용단순, 실제음식광고연출아님."
+          ],
+          "post_composites": [],
+          "main_motion_count": 1
+        },
+        {
+          "id": "C08_K07",
+          "scene_id": "S07",
+          "start": 26,
+          "end": 30,
+          "duration": 4,
+          "frame_start_description": "E가 수리 흙손을 손잡이부터 내밀기 직전. H는 빈손, 뒤에는 자기가 뚫은 구멍.",
+          "visual_action": "E가 흙손을 건네고 H가 받아 오른쪽 파손벽을 돌아본다.",
+          "frame_end_description": "H 손에 흙손, E는 도시락으로 복귀할 준비.",
+          "composition": "흙손·두표정·벽구멍을한화면에. 교환방향왼쪽E→오른쪽H.",
+          "caption_cues": [
+            {
+              "start": 26.5,
+              "end": 29.8,
+              "text": "여기는 아직이네요.",
+              "placement": "상단 빈 벽"
+            }
+          ],
+          "dialogue": "없음",
+          "narration": "없음",
+          "music_sfx_silence": "작은 흙손금속음. 액션음악을아주작은타악리듬으로축소.",
+          "transition": "동일 공간 축을 유지한 하드 컷",
+          "intent": "문제해결자가 문제의 소유자가 되는 두번째 전환.",
+          "continuity": [
+            "흙손처음등장. 구멍크기/파편수 바꾸지않음."
+          ],
+          "post_composites": [],
+          "main_motion_count": 1
+        },
+        {
+          "id": "C08_K08",
+          "scene_id": "S08",
+          "start": 30,
+          "end": 35,
+          "duration": 5,
+          "frame_start_description": "명확한 수리 시간 생략 후. 같은 구멍 대부분이 메워졌고 오른쪽 상단 마지막 한 칸만 비어 있다. H는 망토를 허리에 묶고 한 벽돌을 들고 있음.",
+          "visual_action": "H가 마지막 벽돌 한 장을 너무 자신 있게 눌러 놓는다.",
+          "frame_end_description": "그 벽돌만 오른쪽끝이조금높아기울어짐. 나머지줄은수평.",
+          "composition": "오른쪽수리벽미디엄. 바닥에동일흙손·모르타르통; 직원도시락은좌측후경.",
+          "caption_cues": [
+            {
+              "start": 30.2,
+              "end": 31.7,
+              "text": "잠시 후",
+              "placement": "좌상단 작은 시간전환 표시"
+            }
+          ],
+          "dialogue": "없음",
+          "narration": "없음",
+          "music_sfx_silence": "아주비장한한박금관+벽돌툭. 음악은다시엄숙해짐.",
+          "transition": "직원의수평계근접으로하드컷",
+          "intent": "큰 동작에 대한 과잉 확신을 아주 작은 결함으로 되돌린다. 수리전체가순간완료된척하지않음.",
+          "continuity": [
+            "망토허리매듭은수리시간생략에서형성. 마지막벽돌의오른끝높음이다음에서같아야함."
+          ],
+          "post_composites": [],
+          "main_motion_count": 1
+        },
+        {
+          "id": "C08_K09",
+          "scene_id": "S09",
+          "start": 35,
+          "end": 40,
+          "duration": 5,
+          "frame_start_description": "E가 노란 수평계를 마지막 벽돌 위에 놓기 직전. H는 자랑스럽게 보고 있다.",
+          "visual_action": "E가 수평계를 놓아 기울어진 기포를 확인하고 손가락으로 그 벽돌 한 장만 가리킨다.",
+          "frame_end_description": "수평계기포가중앙밖, E손끝은마지막벽돌. H의표정이작아짐.",
+          "composition": "수평계·벽돌·H얼굴이읽히는고정미디엄. 수평계수치가아니라기포위치로전달.",
+          "caption_cues": [
+            {
+              "start": 36.2,
+              "end": 39.8,
+              "text": "이 한 장만, 다시요.",
+              "placement": "상단 벽돌빈영역"
+            }
+          ],
+          "dialogue": "없음",
+          "narration": "없음",
+          "music_sfx_silence": "음악한박늦게멈춤. 수평계플라스틱툭. 소리꺼도기울기와지적이읽힘.",
+          "transition": "동일 공간 축을 유지한 하드 컷",
+          "intent": "AI도구의만능설명이아닌확인의태도, 큰해결사는마지막한장앞에서멈춤.",
+          "continuity": [
+            "기포가오른쪽또는왼쪽중원리맞는방향으로벗어남; 기울기방향후합성검수."
+          ],
+          "post_composites": [],
+          "main_motion_count": 1
+        },
+        {
+          "id": "C08_K10",
+          "scene_id": "S10",
+          "start": 40,
+          "end": 46,
+          "duration": 6,
+          "frame_start_description": "마지막 벽돌이 한 칸에서반쯤들려있고 H가 두손으로잡았다. E는 수평계를 들고 기다린다.",
+          "visual_action": "H가 전쟁영화같은집중표정으로벽돌을몇밀리미터바로놓는다.",
+          "frame_end_description": "벽돌이수평으로맞고E는고개를작게끄덕임.H는흙손든보조수리자모습.",
+          "composition": "K08와같은오른쪽벽구도. 왼쪽넓은완성벽에제목공간. 얼굴과정밀손동작을가리지않음.",
+          "caption_cues": [
+            {
+              "start": 40.6,
+              "end": 46,
+              "text": "한 사람의 방법이,\n여러 사람의 실력이 되는 곳.\nQ-AI Fair",
+              "placement": "좌측 빈 벽, 충분한 대비 패널"
+            }
+          ],
+          "dialogue": "없음",
+          "narration": "없음",
+          "music_sfx_silence": "장대한음악을작은실내악한음으로마침. 새음성없음.",
+          "transition": "동일 공간 축을 유지한 하드 컷",
+          "intent": "거대한구조에서한장의수리로크기와지위가뒤집힌마지막행동. 직원은공유방법덕분에여유를찾음.",
+          "continuity": [
+            "H무표정강요아님: 패배감보다과장된진지함. E따뜻한태도."
+          ],
+          "post_composites": [],
+          "main_motion_count": 1
+        }
+      ],
+      "scenes": [
+        {
+          "concept_id": "C08",
+          "scene_id": "S01",
+          "linked_cuts": [
+            "C08_K01"
+          ],
+          "representative_frame": "E가 책상 앞에서 미해결 검토서 한 장을 보고 있다. 도시락은 닫혔고 오른손은 도움 요청 기기 위에 닿기 전.",
+          "characters_costumes_props_continuity": [
+            "도시락 아직닫힘. 도움버튼은AI완료버튼아님."
+          ],
+          "space_axis": "초반 H의 지하 출동실과 E의 밝은 사무실 교차. 사무실은 직원 책상/도시락 왼쪽, 출입벽 오른쪽. H는 항상 오른쪽 벽에서 왼쪽으로 등장. 수리는 같은 오른쪽 벽 안쪽. 창문·책상·망토 색 고정.",
+          "ratio": "16:9",
+          "camera": "검토서·직원 표정·도움 버튼을 함께 잡는 미디엄.",
+          "subsequent_motion": "E가 도움 요청 버튼을 한 번 누른다.",
+          "required_end_state": "요청 전송 표시. 직원은 아직 일하는 중이며 책상/도시락 그대로.",
+          "caption_safe_area": [
+            "상단 빈 사무실 벽"
+          ],
+          "post_composites": [],
+          "suggested_output": "images/C08/S01.png",
+          "image_status": "NOT_GENERATED; 실제 이미지 생성 및 교차검수 필요",
+          "image_instruction": "선택된 캐릭터 기준 이미지 참조. 완성된 행동이 아니라 위 시작 상태를 생성. 정확 자막·로고·UI 글자는 비워 후처리. 콜라주 금지."
+        },
+        {
+          "concept_id": "C08",
+          "scene_id": "S02",
+          "linked_cuts": [
+            "C08_K02"
+          ],
+          "representative_frame": "지하 출동실 H가 거대한 금속문 앞에서 양손을 대고 있다. 주황 망토는 뒤로, 문은 닫힘.",
+          "characters_costumes_props_continuity": [
+            "H 짧은주황망토/청록점프수트/은발유지."
+          ],
+          "space_axis": "초반 H의 지하 출동실과 E의 밝은 사무실 교차. 사무실은 직원 책상/도시락 왼쪽, 출입벽 오른쪽. H는 항상 오른쪽 벽에서 왼쪽으로 등장. 수리는 같은 오른쪽 벽 안쪽. 창문·책상·망토 색 고정.",
+          "ratio": "16:9",
+          "camera": "낮은 대칭 와이드. 금속문 높이는 H의2배; 군중/차량추가없음.",
+          "subsequent_motion": "H가 무거운 출동실 문을 양옆으로 밀어 연다.",
+          "required_end_state": "문이 열리고 바깥빛이 들어온다. H는 출동 직전의 전신 자세.",
+          "caption_safe_area": [],
+          "post_composites": [],
+          "suggested_output": "images/C08/S02.png",
+          "image_status": "NOT_GENERATED; 실제 이미지 생성 및 교차검수 필요",
+          "image_instruction": "선택된 캐릭터 기준 이미지 참조. 완성된 행동이 아니라 위 시작 상태를 생성. 정확 자막·로고·UI 글자는 비워 후처리. 콜라주 금지."
+        },
+        {
+          "concept_id": "C08",
+          "scene_id": "S03",
+          "linked_cuts": [
+            "C08_K03"
+          ],
+          "representative_frame": "E 노트북에 동료가 공유한 Q-AI Fair 사례 카드 알림. E는 아직 카드를 열기 전. 검토서와 닫힌 도시락은 그대로.",
+          "characters_costumes_props_continuity": [
+            "샘플 검토항목은 허구. 동일 행/기호를 다음 종이에서 확인. 긴프롬프트입력/교육화면없음."
+          ],
+          "space_axis": "초반 H의 지하 출동실과 E의 밝은 사무실 교차. 사무실은 직원 책상/도시락 왼쪽, 출입벽 오른쪽. H는 항상 오른쪽 벽에서 왼쪽으로 등장. 수리는 같은 오른쪽 벽 안쪽. 창문·책상·망토 색 고정.",
+          "ratio": "16:9",
+          "camera": "E 손·큰 화면·원문이 함께 보이는 어깨너머 미디엄.",
+          "subsequent_motion": "E가 공유된 사례 카드를 열고 자기 검토서 옆으로 화면을 돌려 적용할 항목을 찾는다.",
+          "required_end_state": "화면에 AI가 좁힌 확인 후보 한 건, 종이에 같은 항목이 보인다. 아직 완료 체크 없음.",
+          "caption_safe_area": [
+            "상단/얼굴 위 여백"
+          ],
+          "post_composites": [
+            "노트북 헤더 Q-AI Fair / 공유한 업무 방법. 다음 큰 카드 AI 확인 후보, 한 줄 원문 확인 필요. 완료/정확도%/숫자성과 없음."
+          ],
+          "suggested_output": "images/C08/S03.png",
+          "image_status": "NOT_GENERATED; 실제 이미지 생성 및 교차검수 필요",
+          "image_instruction": "선택된 캐릭터 기준 이미지 참조. 완성된 행동이 아니라 위 시작 상태를 생성. 정확 자막·로고·UI 글자는 비워 후처리. 콜라주 금지."
+        },
+        {
+          "concept_id": "C08",
+          "scene_id": "S04",
+          "linked_cuts": [
+            "C08_K04"
+          ],
+          "representative_frame": "원문 종이에 한 곳만 표시되고 E의 펜이 아직 체크하지 않았다. 옆 모니터의 후보 위치가 같은 줄.",
+          "characters_costumes_props_continuity": [
+            "K03같은표시가있는문서. 체크는한번. 완료트레이는재확인컷에서유지."
+          ],
+          "space_axis": "초반 H의 지하 출동실과 E의 밝은 사무실 교차. 사무실은 직원 책상/도시락 왼쪽, 출입벽 오른쪽. H는 항상 오른쪽 벽에서 왼쪽으로 등장. 수리는 같은 오른쪽 벽 안쪽. 창문·책상·망토 색 고정.",
+          "ratio": "16:9",
+          "camera": "책상 위 손·원문·후보를 함께, 글자 읽기보다 같은 항목과 체크를 크게.",
+          "subsequent_motion": "E가 원문을 대조해 체크 한 번을 적고 종이를 완료 트레이로 밀어 둔다.",
+          "required_end_state": "실제 사람이 확인한 체크/완료 트레이. E의 시선은 도시락 쪽으로 이동.",
+          "caption_safe_area": [
+            "상단 빈 부분"
+          ],
+          "post_composites": [
+            "원문 표제 검토 원문. 의미 없는 긴 글자 대신 동일 기호 3개와 확인한 한 줄만 정확 후합성."
+          ],
+          "suggested_output": "images/C08/S04.png",
+          "image_status": "NOT_GENERATED; 실제 이미지 생성 및 교차검수 필요",
+          "image_instruction": "선택된 캐릭터 기준 이미지 참조. 완성된 행동이 아니라 위 시작 상태를 생성. 정확 자막·로고·UI 글자는 비워 후처리. 콜라주 금지."
+        },
+        {
+          "concept_id": "C08",
+          "scene_id": "S05",
+          "linked_cuts": [
+            "C08_K05"
+          ],
+          "representative_frame": "E는 왼쪽 책상에서 이미 도시락 뚜껑을 열고 있다. 오른쪽 경량벽은 멀쩡하고 그 앞 공간은 비어 있음.",
+          "characters_costumes_props_continuity": [
+            "오른쪽 벽만폭1.2m높이1.8m파손. 천장/창/건물붕괴없음. E도시락/완료트레이그대로."
+          ],
+          "space_axis": "초반 H의 지하 출동실과 E의 밝은 사무실 교차. 사무실은 직원 책상/도시락 왼쪽, 출입벽 오른쪽. H는 항상 오른쪽 벽에서 왼쪽으로 등장. 수리는 같은 오른쪽 벽 안쪽. 창문·책상·망토 색 고정.",
+          "ratio": "16:9",
+          "camera": "사무실 고정 와이드. 사람·책상과 충돌하지 않는 오른쪽 파손영역 전체를 보임.",
+          "subsequent_motion": "오른쪽 벽 중앙이 벌어지며 H가 한 걸음 뚫고 들어와 장대한 착지 자세로 멈춘다.",
+          "required_end_state": "한 사람 크기 구멍, 바닥 붉은 벽돌, H의 주황 망토. E와 책상에는 파편이 닿지 않음.",
+          "caption_safe_area": [],
+          "post_composites": [],
+          "suggested_output": "images/C08/S05.png",
+          "image_status": "NOT_GENERATED; 실제 이미지 생성 및 교차검수 필요",
+          "image_instruction": "선택된 캐릭터 기준 이미지 참조. 완성된 행동이 아니라 위 시작 상태를 생성. 정확 자막·로고·UI 글자는 비워 후처리. 콜라주 금지."
+        },
+        {
+          "concept_id": "C08",
+          "scene_id": "S06",
+          "linked_cuts": [
+            "C08_K06"
+          ],
+          "representative_frame": "H가 영웅 자세로 멈춘 전경, E는 후경에서 도시락 젓가락을 들고 있다. 완료 트레이가 E 옆에 보임.",
+          "characters_costumes_props_continuity": [
+            "도시락 내용단순, 실제음식광고연출아님."
+          ],
+          "space_axis": "초반 H의 지하 출동실과 E의 밝은 사무실 교차. 사무실은 직원 책상/도시락 왼쪽, 출입벽 오른쪽. H는 항상 오른쪽 벽에서 왼쪽으로 등장. 수리는 같은 오른쪽 벽 안쪽. 창문·책상·망토 색 고정.",
+          "ratio": "16:9",
+          "camera": "H측면/E정면 투샷. 파손구멍은오른쪽후경으로유지.",
+          "subsequent_motion": "E가 H에게 완료 트레이를 가볍게 가리킨다.",
+          "required_end_state": "H가 서서히 E의 도시락과 완료 트레이를 본다.",
+          "caption_safe_area": [
+            "E 어깨 위 빈 벽"
+          ],
+          "post_composites": [],
+          "suggested_output": "images/C08/S06.png",
+          "image_status": "NOT_GENERATED; 실제 이미지 생성 및 교차검수 필요",
+          "image_instruction": "선택된 캐릭터 기준 이미지 참조. 완성된 행동이 아니라 위 시작 상태를 생성. 정확 자막·로고·UI 글자는 비워 후처리. 콜라주 금지."
+        },
+        {
+          "concept_id": "C08",
+          "scene_id": "S07",
+          "linked_cuts": [
+            "C08_K07"
+          ],
+          "representative_frame": "E가 수리 흙손을 손잡이부터 내밀기 직전. H는 빈손, 뒤에는 자기가 뚫은 구멍.",
+          "characters_costumes_props_continuity": [
+            "흙손처음등장. 구멍크기/파편수 바꾸지않음."
+          ],
+          "space_axis": "초반 H의 지하 출동실과 E의 밝은 사무실 교차. 사무실은 직원 책상/도시락 왼쪽, 출입벽 오른쪽. H는 항상 오른쪽 벽에서 왼쪽으로 등장. 수리는 같은 오른쪽 벽 안쪽. 창문·책상·망토 색 고정.",
+          "ratio": "16:9",
+          "camera": "흙손·두표정·벽구멍을한화면에. 교환방향왼쪽E→오른쪽H.",
+          "subsequent_motion": "E가 흙손을 건네고 H가 받아 오른쪽 파손벽을 돌아본다.",
+          "required_end_state": "H 손에 흙손, E는 도시락으로 복귀할 준비.",
+          "caption_safe_area": [
+            "상단 빈 벽"
+          ],
+          "post_composites": [],
+          "suggested_output": "images/C08/S07.png",
+          "image_status": "NOT_GENERATED; 실제 이미지 생성 및 교차검수 필요",
+          "image_instruction": "선택된 캐릭터 기준 이미지 참조. 완성된 행동이 아니라 위 시작 상태를 생성. 정확 자막·로고·UI 글자는 비워 후처리. 콜라주 금지."
+        },
+        {
+          "concept_id": "C08",
+          "scene_id": "S08",
+          "linked_cuts": [
+            "C08_K08"
+          ],
+          "representative_frame": "명확한 수리 시간 생략 후. 같은 구멍 대부분이 메워졌고 오른쪽 상단 마지막 한 칸만 비어 있다. H는 망토를 허리에 묶고 한 벽돌을 들고 있음.",
+          "characters_costumes_props_continuity": [
+            "망토허리매듭은수리시간생략에서형성. 마지막벽돌의오른끝높음이다음에서같아야함."
+          ],
+          "space_axis": "초반 H의 지하 출동실과 E의 밝은 사무실 교차. 사무실은 직원 책상/도시락 왼쪽, 출입벽 오른쪽. H는 항상 오른쪽 벽에서 왼쪽으로 등장. 수리는 같은 오른쪽 벽 안쪽. 창문·책상·망토 색 고정.",
+          "ratio": "16:9",
+          "camera": "오른쪽수리벽미디엄. 바닥에동일흙손·모르타르통; 직원도시락은좌측후경.",
+          "subsequent_motion": "H가 마지막 벽돌 한 장을 너무 자신 있게 눌러 놓는다.",
+          "required_end_state": "그 벽돌만 오른쪽끝이조금높아기울어짐. 나머지줄은수평.",
+          "caption_safe_area": [
+            "좌상단 작은 시간전환 표시"
+          ],
+          "post_composites": [],
+          "suggested_output": "images/C08/S08.png",
+          "image_status": "NOT_GENERATED; 실제 이미지 생성 및 교차검수 필요",
+          "image_instruction": "선택된 캐릭터 기준 이미지 참조. 완성된 행동이 아니라 위 시작 상태를 생성. 정확 자막·로고·UI 글자는 비워 후처리. 콜라주 금지."
+        },
+        {
+          "concept_id": "C08",
+          "scene_id": "S09",
+          "linked_cuts": [
+            "C08_K09"
+          ],
+          "representative_frame": "E가 노란 수평계를 마지막 벽돌 위에 놓기 직전. H는 자랑스럽게 보고 있다.",
+          "characters_costumes_props_continuity": [
+            "기포가오른쪽또는왼쪽중원리맞는방향으로벗어남; 기울기방향후합성검수."
+          ],
+          "space_axis": "초반 H의 지하 출동실과 E의 밝은 사무실 교차. 사무실은 직원 책상/도시락 왼쪽, 출입벽 오른쪽. H는 항상 오른쪽 벽에서 왼쪽으로 등장. 수리는 같은 오른쪽 벽 안쪽. 창문·책상·망토 색 고정.",
+          "ratio": "16:9",
+          "camera": "수평계·벽돌·H얼굴이읽히는고정미디엄. 수평계수치가아니라기포위치로전달.",
+          "subsequent_motion": "E가 수평계를 놓아 기울어진 기포를 확인하고 손가락으로 그 벽돌 한 장만 가리킨다.",
+          "required_end_state": "수평계기포가중앙밖, E손끝은마지막벽돌. H의표정이작아짐.",
+          "caption_safe_area": [
+            "상단 벽돌빈영역"
+          ],
+          "post_composites": [],
+          "suggested_output": "images/C08/S09.png",
+          "image_status": "NOT_GENERATED; 실제 이미지 생성 및 교차검수 필요",
+          "image_instruction": "선택된 캐릭터 기준 이미지 참조. 완성된 행동이 아니라 위 시작 상태를 생성. 정확 자막·로고·UI 글자는 비워 후처리. 콜라주 금지."
+        },
+        {
+          "concept_id": "C08",
+          "scene_id": "S10",
+          "linked_cuts": [
+            "C08_K10"
+          ],
+          "representative_frame": "마지막 벽돌이 한 칸에서반쯤들려있고 H가 두손으로잡았다. E는 수평계를 들고 기다린다.",
+          "characters_costumes_props_continuity": [
+            "H무표정강요아님: 패배감보다과장된진지함. E따뜻한태도."
+          ],
+          "space_axis": "초반 H의 지하 출동실과 E의 밝은 사무실 교차. 사무실은 직원 책상/도시락 왼쪽, 출입벽 오른쪽. H는 항상 오른쪽 벽에서 왼쪽으로 등장. 수리는 같은 오른쪽 벽 안쪽. 창문·책상·망토 색 고정.",
+          "ratio": "16:9",
+          "camera": "K08와같은오른쪽벽구도. 왼쪽넓은완성벽에제목공간. 얼굴과정밀손동작을가리지않음.",
+          "subsequent_motion": "H가 전쟁영화같은집중표정으로벽돌을몇밀리미터바로놓는다.",
+          "required_end_state": "벽돌이수평으로맞고E는고개를작게끄덕임.H는흙손든보조수리자모습.",
+          "caption_safe_area": [
+            "좌측 빈 벽, 충분한 대비 패널"
+          ],
+          "post_composites": [],
+          "suggested_output": "images/C08/S10.png",
+          "image_status": "NOT_GENERATED; 실제 이미지 생성 및 교차검수 필요",
+          "image_instruction": "선택된 캐릭터 기준 이미지 참조. 완성된 행동이 아니라 위 시작 상태를 생성. 정확 자막·로고·UI 글자는 비워 후처리. 콜라주 금지."
+        }
+      ],
+      "post_graphics": [],
+      "continuity_requirements": [
+        "도움 요청→출동 준비 중 공유자료 발견→AI후보를 사람 대조 완료→도시락→H도착 순서.",
+        "벽은전부붕괴하지않고한사람구멍. 수리로새벽전체를만들지않음.",
+        "마지막한벽돌의높은쪽과수평계기포가물리적으로같은결함을가리킴.",
+        "시간생략은K08에만명시; 핵심돌파/벽돌다시맞춤을정지이미지로대체하지않음."
+      ],
+      "review_questions": [
+        "도움이필요했던직원이왜도착전에끝냈는지가보이는가?",
+        "해결사비하가아니라과잉출동과과잉확신의후폭풍으로읽히는가?",
+        "벽크기와수리량, 마지막결함원인이연결되는가?"
+      ]
+    },
+    {
+      "id": "C09",
+      "title": "나 없이도 괜찮겠어요?",
+      "purpose": "Q-AI Fair 업무 방법·실행 경험 공유 홍보",
+      "one_line": "휴가를 떠나며 붙잡히길 바랐던 남자가 동료의 전화에 가방까지 들고 버스에서 내리지만, 돌아온 이유는 잘못 챙긴 충전기 한 개뿐이다.",
+      "core_message": "경험을 나누면 동료는 이어서 일하고 본인은 마음 놓고 쉴 수 있다.",
+      "aspect_ratio": "16:9",
+      "aspect_status": "기존 제작 기준 유지",
+      "expected_duration_seconds": 46,
+      "essential_dialogue": false,
+      "cast": [
+        {
+          "id": "M",
+          "appearance": "50대 후반 남성, 풍성한 짧은 흰 곱슬머리, 둥근 코, 부드러운 이중턱, 감정이 큰 눈. 앞안의날렵한도주자와구분.",
+          "costume": "밝은 주황 레인코트, 짙은남색셔츠,갈색구두. 회색소형롤링가방과검정스마트폰. 자기만과잉이별멜로."
+        },
+        {
+          "id": "W",
+          "appearance": "30대 초반 작은 체구 여성, 귀위로짧게자른검정머리,긴직선눈썹,단정한타원형얼굴.",
+          "costume": "청록색방수재킷,검정바지. 분홍케이스스마트폰. 휴가를진심으로축하하며차갑게버리지않음."
+        },
+        {
+          "id": "DR",
+          "appearance": "버스운전자는필요한경우옆얼굴/실루엣만,주연추가하지않음.",
+          "costume": "로고없는회색셔츠."
+        }
+      ],
+      "space_axis": "준비책상→같은사옥앞지붕있는버스정류장. 버스전면은화면오른쪽, 문은중앙오른쪽. 정차상태에서만승하차. 출발방향→. 여성은화면왼쪽정류장쪽. 큰가방은남자와함께타고내리며버스에두고가지않음.",
+      "props": [
+        "분홍 짧은 케이블띠가 묶인 흰 충전기 C: W 소유. 준비책상에서 분홍폰 바로옆에 있음. M이주황코트오른주머니에잘못챙김. K07에서같은주머니.",
+        "M 회색롤링가방: 노란작은리본, 전씬동일. 잃어버리지않음.",
+        "버스: 무상표크림색단일저상차량, 파란좌석, 중앙오른쪽문/낮은승강대. 빗물약하게, 안전하게서있는정류장."
+      ],
+      "first_hook": "비장한휴가준비와빗속작별을진짜이별멜로처럼찍는다. 초반충전기오소지는관객에게짧게보이되아직농담해설을하지않음.",
+      "reversal": "공유한방법덕분에동료는그를놓아줄수있지만, 그는업무구원요청을기대하고전화한통을과대해석한다.",
+      "ending_connection": "동료는충전기만돌려받고진심으로휴가를응원하며복귀. 버스를놓친이유는회사의호출이아니라자기해석. 큰가방도본인곁에남겨불필요한손실을만들지않음.",
+      "production_difficulty": {
+        "level": "보통~높음",
+        "reason": "충전기소지·주머니·손이동·버스문과가방의연속성. 감정온도차를보여야하며슬픔을조롱하지않음.",
+        "fallback": "버스는한대/운전자는실루엣. 승하차는완전정차확인후각한번. 실제차량이동은와이드한컷으로별도생성. 전화UI는후합성."
+      },
+      "shots": [
+        {
+          "id": "C09_K01",
+          "scene_id": "S01",
+          "start": 0,
+          "end": 4,
+          "duration": 4,
+          "frame_start_description": "사무실준비책상. 분홍폰옆에분홍띠흰충전기가놓임. M의오른손은그충전기위, 열린주황코트오른주머니가보임. W는뒤에서업무화면을보고있음.",
+          "visual_action": "M이분홍띠충전기를자기것으로착각해오른코트주머니에넣는다.",
+          "frame_end_description": "충전기는완전히오른주머니. 분홍폰은W책상에그대로.",
+          "composition": "손·충전기·주머니·분홍폰이한프레임에보이는미디엄근접. 소유복선만명확히.",
+          "caption_cues": [],
+          "dialogue": "없음",
+          "narration": "없음",
+          "music_sfx_silence": "따뜻한이별피아노시작. 충전기접촉소리강조하지않음.",
+          "transition": "동일 공간 축을 유지한 하드 컷",
+          "intent": "마지막반전의물리적원인을미리심는다. 도둑질연기가아닌짐을챙기는무심한동작.",
+          "continuity": [
+            "C분홍띠흰충전기하나만. 검정폰M/분홍폰W."
+          ],
+          "post_composites": [],
+          "main_motion_count": 1
+        },
+        {
+          "id": "C09_K02",
+          "scene_id": "S02",
+          "start": 4,
+          "end": 8,
+          "duration": 4,
+          "frame_start_description": "사옥앞버스정류장. M이W한손을두손으로애절하게잡고있다. 회색가방은M발옆, 버스는문열고정차.",
+          "visual_action": "M의손을W가따뜻하게한번감싼뒤조심스럽게풀어준다.",
+          "frame_end_description": "서로손이분리됐고W는미소.M만아직드라마속표정.",
+          "composition": "빗방울배경의미디엄투샷. 버스문과멈춘바퀴가후경.",
+          "caption_cues": [
+            {
+              "start": 4.35,
+              "end": 7.8,
+              "text": "저 없이 괜찮겠어요?",
+              "placement": "하단 안전영역"
+            }
+          ],
+          "dialogue": "없음",
+          "narration": "없음",
+          "music_sfx_silence": "멜로현악과비소리. 대사0.",
+          "transition": "동일 공간 축을 유지한 하드 컷",
+          "intent": "남자의숨은욕망은휴가가아니라필요한사람이라는확인. 동료를차갑게연출하지않음.",
+          "continuity": [
+            "정차버스문열림. M주머니충전기/가방곁."
+          ],
+          "post_composites": [],
+          "main_motion_count": 1
+        },
+        {
+          "id": "C09_K03",
+          "scene_id": "S03",
+          "start": 8,
+          "end": 13,
+          "duration": 5,
+          "frame_start_description": "W가분홍폰을가슴높이에서M에게돌리기전. M손은이미풀렸음.",
+          "visual_action": "W가M이공유한방법으로직접확인한작업화면을짧게보여준다.",
+          "frame_end_description": "M은자기방법이잘이어진것을보고고개를작게끄덕인다.W는밝게응원.",
+          "composition": "폰내용과두표정이보이는어깨너머미디엄. 폰확대가교육슬라이드전체화면이되지않게.",
+          "caption_cues": [
+            {
+              "start": 8.3,
+              "end": 11.0,
+              "text": "알려주신 방법대로,\n제가 확인했어요.",
+              "placement": "하단"
+            },
+            {
+              "start": 11.1,
+              "end": 13,
+              "text": "편히 쉬고 오세요.",
+              "placement": "하단"
+            }
+          ],
+          "dialogue": "없음",
+          "narration": "없음",
+          "music_sfx_silence": "멜로음악은과하게진심을유지. 전화효과음아직없음.",
+          "transition": "동일 공간 축을 유지한 하드 컷",
+          "intent": "사람이불필요해진것이아니라공유덕분에안심하고쉴수있다는정서기반.",
+          "continuity": [
+            "C충전기복선과같은분홍폰. W는작업완료를자동AI성과로자랑하지않음."
+          ],
+          "post_composites": [
+            "폰큰머리말 Q-AI Fair / 공유받은 작업 방법. 원문확인완료의수기체크하나와동일작업항목. 금액/성과수치/실제사원정보없음."
+          ],
+          "main_motion_count": 1
+        },
+        {
+          "id": "C09_K04",
+          "scene_id": "S04",
+          "start": 13,
+          "end": 18,
+          "duration": 5,
+          "frame_start_description": "버스문열림,낮은승강대. W가회색가방손잡이를M에게건네며바퀴를승강대앞에놓았고M은첫발을올리기전.",
+          "visual_action": "W가가방을조금밀어돕고M이손잡이를받아가방과함께버스에오른다.",
+          "frame_end_description": "M과가방둘다버스안.W는정류장에남아손을흔듦.",
+          "composition": "버스문측면와이드,발과바퀴를자르지않음. 비에미끄러짐연출없음.",
+          "caption_cues": [],
+          "dialogue": "없음",
+          "narration": "없음",
+          "music_sfx_silence": "이별멜로최고조지만위험한비극효과없음.",
+          "transition": "동일 공간 축을 유지한 하드 컷",
+          "intent": "작별이진짜로이루어짐. 동료는붙잡는대신짐을실어주는행동을선택.",
+          "continuity": [
+            "버스완전정차. 가방노란리본/충전기오른주머니. W는버스에타지않음."
+          ],
+          "post_composites": [],
+          "main_motion_count": 1
+        },
+        {
+          "id": "C09_K05",
+          "scene_id": "S05",
+          "start": 18,
+          "end": 22,
+          "duration": 4,
+          "frame_start_description": "M이버스앞좌석옆에가방을세우고앉기직전. 창밖정류장W가보이며문은열려있다. 검정폰화면꺼짐.",
+          "visual_action": "검정폰에동료전화가뜨자M이기다렸다는듯얼굴을환하게편다.",
+          "frame_end_description": "M은전화받기직전일어서있음. 가방손잡이는손닿는곳.",
+          "composition": "버스안미디엄. 폰·M얼굴·열린문중하나는후경에유지.",
+          "caption_cues": [
+            {
+              "start": 19.1,
+              "end": 21.8,
+              "text": "역시.",
+              "placement": "상단 좌측 빈좌석영역"
+            }
+          ],
+          "dialogue": "없음",
+          "narration": "없음",
+          "music_sfx_silence": "선택벨소리한번. 멜로음악이희망적으로상승. 무음에서도폰발신자와표정으로전달.",
+          "transition": "동일 공간 축을 유지한 하드 컷",
+          "intent": "관객이업무호출을예상하도록남자의자기해석을드러냄.",
+          "continuity": [
+            "전화는정차중. W가호출했다고회사강제복귀문구넣지않음."
+          ],
+          "post_composites": [
+            "검정폰전화화면 발신자 동료. 상단전화아이콘. 실제번호없음."
+          ],
+          "main_motion_count": 1
+        },
+        {
+          "id": "C09_K06",
+          "scene_id": "S06",
+          "start": 22,
+          "end": 27,
+          "duration": 5,
+          "frame_start_description": "M이열린버스문안쪽에서회색가방손잡이를잡고있다. W는왼쪽정류장에서분홍폰을귀에대고있음.",
+          "visual_action": "M이가방까지끌고바삐버스에서내려W쪽으로온다.",
+          "frame_end_description": "M과가방은정류장.W와마주섬. 버스는아직멈춰있음.",
+          "composition": "K04와같은문/승강대축. 승차장면역재생금지,실제하차동작.",
+          "caption_cues": [],
+          "dialogue": "없음",
+          "narration": "없음",
+          "music_sfx_silence": "희망적멜로계속. 바퀴내려오는툭한번. 무전/명령음없음.",
+          "transition": "동일 공간 축을 유지한 하드 컷",
+          "intent": "그의과잉확신이휴가취소까지혼자결정하게함. 뒤에가방이남는손실을피함.",
+          "continuity": [
+            "가방반드시M과동시에하차. 버스출발은반환이후K09."
+          ],
+          "post_composites": [],
+          "main_motion_count": 1
+        },
+        {
+          "id": "C09_K07",
+          "scene_id": "S07",
+          "start": 27,
+          "end": 31,
+          "duration": 4,
+          "frame_start_description": "W가분홍폰의충전단자쪽을보이며빈손을내밀기직전. M은의욕적으로서있음.",
+          "visual_action": "W가분홍폰과M의오른주머니를가리키자M이분홍띠충전기를꺼낸다.",
+          "frame_end_description": "M손에K01과동일충전기.W의손은받기전.",
+          "composition": "두사람상반신과오른주머니가보이는미디엄. 빨간경고/업무자료추가없음.",
+          "caption_cues": [
+            {
+              "start": 27.3,
+              "end": 30.8,
+              "text": "제 충전기가 그쪽에…",
+              "placement": "하단"
+            }
+          ],
+          "dialogue": "없음",
+          "narration": "없음",
+          "music_sfx_silence": "M이충전기를보는순간멜로정지0.8초. 빗소리만남음.",
+          "transition": "동일 공간 축을 유지한 하드 컷",
+          "intent": "호출의진짜이유를앞복선과한번에연결. 업무가돌아온게아님.",
+          "continuity": [
+            "분홍띠/흰충전기/오른주머니그대로. 다른USB선으로변형금지."
+          ],
+          "post_composites": [],
+          "main_motion_count": 1
+        },
+        {
+          "id": "C09_K08",
+          "scene_id": "S08",
+          "start": 31,
+          "end": 35,
+          "duration": 4,
+          "frame_start_description": "M손이충전기를들고W빈손앞에있다. 버스문열림과가방은뒤에서보임.",
+          "visual_action": "M이충전기를W에게돌려주고손을놓는다.",
+          "frame_end_description": "충전기는W손.M손은빈상태,회색가방은M곁.",
+          "composition": "손교환근접에서두표정도조금포함. 원테이크로소유이전완료.",
+          "caption_cues": [
+            {
+              "start": 31.6,
+              "end": 34.8,
+              "text": "고마워요. 푹 쉬세요.",
+              "placement": "상단 빈배경"
+            }
+          ],
+          "dialogue": "없음",
+          "narration": "없음",
+          "music_sfx_silence": "충전기작은플라스틱음. 따뜻한음악한음만복귀.",
+          "transition": "동일 공간 축을 유지한 하드 컷",
+          "intent": "동료의따뜻함을유지하면서그의과잉멜로만공중에남김.",
+          "continuity": [
+            "반환완료전버스이동금지. 충전기를여러개복제하지않음."
+          ],
+          "post_composites": [],
+          "main_motion_count": 1
+        },
+        {
+          "id": "C09_K09",
+          "scene_id": "S09",
+          "start": 35,
+          "end": 40,
+          "duration": 5,
+          "frame_start_description": "M/W는정류장앞에서서로보고있고가방은M곁. 배경버스는문닫기직전,바퀴정지.",
+          "visual_action": "버스문이닫히고버스가천천히오른쪽으로출발한다.",
+          "frame_end_description": "버스가화면오른쪽으로빠져나간다.M은뒤늦게고개를돌림.W는충전기소지.",
+          "composition": "정류장고정와이드. 버스와사람사이안전거리,출발행동전체를보임.",
+          "caption_cues": [],
+          "dialogue": "없음",
+          "narration": "없음",
+          "music_sfx_silence": "문닫힘·저속차량음,과장경적없음. 멜로가다시조용히등장.",
+          "transition": "동일 공간 축을 유지한 하드 컷",
+          "intent": "반환완료후떠나는버스를실제움직임으로보여인과의마지막고리를닫음.",
+          "continuity": [
+            "M가방이함께보임. 버스문닫힘→이동의기계적순서. 뛰어드는행동없음."
+          ],
+          "post_composites": [],
+          "main_motion_count": 1
+        },
+        {
+          "id": "C09_K10",
+          "scene_id": "S10",
+          "start": 40,
+          "end": 46,
+          "duration": 6,
+          "frame_start_description": "버스가사라진정류장. W는사옥방향으로돌아서기전,M은가방과혼자서서떠난쪽을봄.",
+          "visual_action": "W가 충전기를 든 채 사옥으로 걸어간다. M은 가방 손잡이를 잡은 채 멜로 영화의 마지막 인물처럼 정류장에 그대로 남는다.",
+          "frame_end_description": "M은 가방과 다음 차를 기다리며 서 있고, W는 충전기를 들고 사옥 쪽으로 돌아간다.",
+          "composition": "처음작별장면과같은넓은구도. M벤치아래빗물/안전한지붕. 새시간표수치없음.",
+          "caption_cues": [
+            {
+              "start": 40.5,
+              "end": 46,
+              "text": "내가 없어도 이어지는 방법.\nQ-AI Fair에서 나눕니다.",
+              "placement": "상단 빈정류장벽/반투명대비패널"
+            }
+          ],
+          "dialogue": "없음",
+          "narration": "없음",
+          "music_sfx_silence": "처음멜로테마를일상의소규모악기로마무리. 대사없음.",
+          "transition": "동일 공간 축을 유지한 하드 컷",
+          "intent": "휴가를막는조직이아니라자기과잉해석의작은대가. 업무가그없이이어지는것은좋은결과로남김.",
+          "continuity": [
+            "M우는오열/벌받는표정이아니라허탈한진지함. W끝까지따뜻. 실제버스시간/행사일정미표기."
+          ],
+          "post_composites": [],
+          "main_motion_count": 1
+        }
+      ],
+      "scenes": [
+        {
+          "concept_id": "C09",
+          "scene_id": "S01",
+          "linked_cuts": [
+            "C09_K01"
+          ],
+          "representative_frame": "사무실준비책상. 분홍폰옆에분홍띠흰충전기가놓임. M의오른손은그충전기위, 열린주황코트오른주머니가보임. W는뒤에서업무화면을보고있음.",
+          "characters_costumes_props_continuity": [
+            "C분홍띠흰충전기하나만. 검정폰M/분홍폰W."
+          ],
+          "space_axis": "준비책상→같은사옥앞지붕있는버스정류장. 버스전면은화면오른쪽, 문은중앙오른쪽. 정차상태에서만승하차. 출발방향→. 여성은화면왼쪽정류장쪽. 큰가방은남자와함께타고내리며버스에두고가지않음.",
+          "ratio": "16:9",
+          "camera": "손·충전기·주머니·분홍폰이한프레임에보이는미디엄근접. 소유복선만명확히.",
+          "subsequent_motion": "M이분홍띠충전기를자기것으로착각해오른코트주머니에넣는다.",
+          "required_end_state": "충전기는완전히오른주머니. 분홍폰은W책상에그대로.",
+          "caption_safe_area": [],
+          "post_composites": [],
+          "suggested_output": "images/C09/S01.png",
+          "image_status": "NOT_GENERATED; 실제 이미지 생성 및 교차검수 필요",
+          "image_instruction": "선택된 캐릭터 기준 이미지 참조. 완성된 행동이 아니라 위 시작 상태를 생성. 정확 자막·로고·UI 글자는 비워 후처리. 콜라주 금지."
+        },
+        {
+          "concept_id": "C09",
+          "scene_id": "S02",
+          "linked_cuts": [
+            "C09_K02"
+          ],
+          "representative_frame": "사옥앞버스정류장. M이W한손을두손으로애절하게잡고있다. 회색가방은M발옆, 버스는문열고정차.",
+          "characters_costumes_props_continuity": [
+            "정차버스문열림. M주머니충전기/가방곁."
+          ],
+          "space_axis": "준비책상→같은사옥앞지붕있는버스정류장. 버스전면은화면오른쪽, 문은중앙오른쪽. 정차상태에서만승하차. 출발방향→. 여성은화면왼쪽정류장쪽. 큰가방은남자와함께타고내리며버스에두고가지않음.",
+          "ratio": "16:9",
+          "camera": "빗방울배경의미디엄투샷. 버스문과멈춘바퀴가후경.",
+          "subsequent_motion": "M의손을W가따뜻하게한번감싼뒤조심스럽게풀어준다.",
+          "required_end_state": "서로손이분리됐고W는미소.M만아직드라마속표정.",
+          "caption_safe_area": [
+            "하단 안전영역"
+          ],
+          "post_composites": [],
+          "suggested_output": "images/C09/S02.png",
+          "image_status": "NOT_GENERATED; 실제 이미지 생성 및 교차검수 필요",
+          "image_instruction": "선택된 캐릭터 기준 이미지 참조. 완성된 행동이 아니라 위 시작 상태를 생성. 정확 자막·로고·UI 글자는 비워 후처리. 콜라주 금지."
+        },
+        {
+          "concept_id": "C09",
+          "scene_id": "S03",
+          "linked_cuts": [
+            "C09_K03"
+          ],
+          "representative_frame": "W가분홍폰을가슴높이에서M에게돌리기전. M손은이미풀렸음.",
+          "characters_costumes_props_continuity": [
+            "C충전기복선과같은분홍폰. W는작업완료를자동AI성과로자랑하지않음."
+          ],
+          "space_axis": "준비책상→같은사옥앞지붕있는버스정류장. 버스전면은화면오른쪽, 문은중앙오른쪽. 정차상태에서만승하차. 출발방향→. 여성은화면왼쪽정류장쪽. 큰가방은남자와함께타고내리며버스에두고가지않음.",
+          "ratio": "16:9",
+          "camera": "폰내용과두표정이보이는어깨너머미디엄. 폰확대가교육슬라이드전체화면이되지않게.",
+          "subsequent_motion": "W가M이공유한방법으로직접확인한작업화면을짧게보여준다.",
+          "required_end_state": "M은자기방법이잘이어진것을보고고개를작게끄덕인다.W는밝게응원.",
+          "caption_safe_area": [
+            "하단",
+            "하단"
+          ],
+          "post_composites": [
+            "폰큰머리말 Q-AI Fair / 공유받은 작업 방법. 원문확인완료의수기체크하나와동일작업항목. 금액/성과수치/실제사원정보없음."
+          ],
+          "suggested_output": "images/C09/S03.png",
+          "image_status": "NOT_GENERATED; 실제 이미지 생성 및 교차검수 필요",
+          "image_instruction": "선택된 캐릭터 기준 이미지 참조. 완성된 행동이 아니라 위 시작 상태를 생성. 정확 자막·로고·UI 글자는 비워 후처리. 콜라주 금지."
+        },
+        {
+          "concept_id": "C09",
+          "scene_id": "S04",
+          "linked_cuts": [
+            "C09_K04"
+          ],
+          "representative_frame": "버스문열림,낮은승강대. W가회색가방손잡이를M에게건네며바퀴를승강대앞에놓았고M은첫발을올리기전.",
+          "characters_costumes_props_continuity": [
+            "버스완전정차. 가방노란리본/충전기오른주머니. W는버스에타지않음."
+          ],
+          "space_axis": "준비책상→같은사옥앞지붕있는버스정류장. 버스전면은화면오른쪽, 문은중앙오른쪽. 정차상태에서만승하차. 출발방향→. 여성은화면왼쪽정류장쪽. 큰가방은남자와함께타고내리며버스에두고가지않음.",
+          "ratio": "16:9",
+          "camera": "버스문측면와이드,발과바퀴를자르지않음. 비에미끄러짐연출없음.",
+          "subsequent_motion": "W가가방을조금밀어돕고M이손잡이를받아가방과함께버스에오른다.",
+          "required_end_state": "M과가방둘다버스안.W는정류장에남아손을흔듦.",
+          "caption_safe_area": [],
+          "post_composites": [],
+          "suggested_output": "images/C09/S04.png",
+          "image_status": "NOT_GENERATED; 실제 이미지 생성 및 교차검수 필요",
+          "image_instruction": "선택된 캐릭터 기준 이미지 참조. 완성된 행동이 아니라 위 시작 상태를 생성. 정확 자막·로고·UI 글자는 비워 후처리. 콜라주 금지."
+        },
+        {
+          "concept_id": "C09",
+          "scene_id": "S05",
+          "linked_cuts": [
+            "C09_K05"
+          ],
+          "representative_frame": "M이버스앞좌석옆에가방을세우고앉기직전. 창밖정류장W가보이며문은열려있다. 검정폰화면꺼짐.",
+          "characters_costumes_props_continuity": [
+            "전화는정차중. W가호출했다고회사강제복귀문구넣지않음."
+          ],
+          "space_axis": "준비책상→같은사옥앞지붕있는버스정류장. 버스전면은화면오른쪽, 문은중앙오른쪽. 정차상태에서만승하차. 출발방향→. 여성은화면왼쪽정류장쪽. 큰가방은남자와함께타고내리며버스에두고가지않음.",
+          "ratio": "16:9",
+          "camera": "버스안미디엄. 폰·M얼굴·열린문중하나는후경에유지.",
+          "subsequent_motion": "검정폰에동료전화가뜨자M이기다렸다는듯얼굴을환하게편다.",
+          "required_end_state": "M은전화받기직전일어서있음. 가방손잡이는손닿는곳.",
+          "caption_safe_area": [
+            "상단 좌측 빈좌석영역"
+          ],
+          "post_composites": [
+            "검정폰전화화면 발신자 동료. 상단전화아이콘. 실제번호없음."
+          ],
+          "suggested_output": "images/C09/S05.png",
+          "image_status": "NOT_GENERATED; 실제 이미지 생성 및 교차검수 필요",
+          "image_instruction": "선택된 캐릭터 기준 이미지 참조. 완성된 행동이 아니라 위 시작 상태를 생성. 정확 자막·로고·UI 글자는 비워 후처리. 콜라주 금지."
+        },
+        {
+          "concept_id": "C09",
+          "scene_id": "S06",
+          "linked_cuts": [
+            "C09_K06"
+          ],
+          "representative_frame": "M이열린버스문안쪽에서회색가방손잡이를잡고있다. W는왼쪽정류장에서분홍폰을귀에대고있음.",
+          "characters_costumes_props_continuity": [
+            "가방반드시M과동시에하차. 버스출발은반환이후K09."
+          ],
+          "space_axis": "준비책상→같은사옥앞지붕있는버스정류장. 버스전면은화면오른쪽, 문은중앙오른쪽. 정차상태에서만승하차. 출발방향→. 여성은화면왼쪽정류장쪽. 큰가방은남자와함께타고내리며버스에두고가지않음.",
+          "ratio": "16:9",
+          "camera": "K04와같은문/승강대축. 승차장면역재생금지,실제하차동작.",
+          "subsequent_motion": "M이가방까지끌고바삐버스에서내려W쪽으로온다.",
+          "required_end_state": "M과가방은정류장.W와마주섬. 버스는아직멈춰있음.",
+          "caption_safe_area": [],
+          "post_composites": [],
+          "suggested_output": "images/C09/S06.png",
+          "image_status": "NOT_GENERATED; 실제 이미지 생성 및 교차검수 필요",
+          "image_instruction": "선택된 캐릭터 기준 이미지 참조. 완성된 행동이 아니라 위 시작 상태를 생성. 정확 자막·로고·UI 글자는 비워 후처리. 콜라주 금지."
+        },
+        {
+          "concept_id": "C09",
+          "scene_id": "S07",
+          "linked_cuts": [
+            "C09_K07"
+          ],
+          "representative_frame": "W가분홍폰의충전단자쪽을보이며빈손을내밀기직전. M은의욕적으로서있음.",
+          "characters_costumes_props_continuity": [
+            "분홍띠/흰충전기/오른주머니그대로. 다른USB선으로변형금지."
+          ],
+          "space_axis": "준비책상→같은사옥앞지붕있는버스정류장. 버스전면은화면오른쪽, 문은중앙오른쪽. 정차상태에서만승하차. 출발방향→. 여성은화면왼쪽정류장쪽. 큰가방은남자와함께타고내리며버스에두고가지않음.",
+          "ratio": "16:9",
+          "camera": "두사람상반신과오른주머니가보이는미디엄. 빨간경고/업무자료추가없음.",
+          "subsequent_motion": "W가분홍폰과M의오른주머니를가리키자M이분홍띠충전기를꺼낸다.",
+          "required_end_state": "M손에K01과동일충전기.W의손은받기전.",
+          "caption_safe_area": [
+            "하단"
+          ],
+          "post_composites": [],
+          "suggested_output": "images/C09/S07.png",
+          "image_status": "NOT_GENERATED; 실제 이미지 생성 및 교차검수 필요",
+          "image_instruction": "선택된 캐릭터 기준 이미지 참조. 완성된 행동이 아니라 위 시작 상태를 생성. 정확 자막·로고·UI 글자는 비워 후처리. 콜라주 금지."
+        },
+        {
+          "concept_id": "C09",
+          "scene_id": "S08",
+          "linked_cuts": [
+            "C09_K08"
+          ],
+          "representative_frame": "M손이충전기를들고W빈손앞에있다. 버스문열림과가방은뒤에서보임.",
+          "characters_costumes_props_continuity": [
+            "반환완료전버스이동금지. 충전기를여러개복제하지않음."
+          ],
+          "space_axis": "준비책상→같은사옥앞지붕있는버스정류장. 버스전면은화면오른쪽, 문은중앙오른쪽. 정차상태에서만승하차. 출발방향→. 여성은화면왼쪽정류장쪽. 큰가방은남자와함께타고내리며버스에두고가지않음.",
+          "ratio": "16:9",
+          "camera": "손교환근접에서두표정도조금포함. 원테이크로소유이전완료.",
+          "subsequent_motion": "M이충전기를W에게돌려주고손을놓는다.",
+          "required_end_state": "충전기는W손.M손은빈상태,회색가방은M곁.",
+          "caption_safe_area": [
+            "상단 빈배경"
+          ],
+          "post_composites": [],
+          "suggested_output": "images/C09/S08.png",
+          "image_status": "NOT_GENERATED; 실제 이미지 생성 및 교차검수 필요",
+          "image_instruction": "선택된 캐릭터 기준 이미지 참조. 완성된 행동이 아니라 위 시작 상태를 생성. 정확 자막·로고·UI 글자는 비워 후처리. 콜라주 금지."
+        },
+        {
+          "concept_id": "C09",
+          "scene_id": "S09",
+          "linked_cuts": [
+            "C09_K09"
+          ],
+          "representative_frame": "M/W는정류장앞에서서로보고있고가방은M곁. 배경버스는문닫기직전,바퀴정지.",
+          "characters_costumes_props_continuity": [
+            "M가방이함께보임. 버스문닫힘→이동의기계적순서. 뛰어드는행동없음."
+          ],
+          "space_axis": "준비책상→같은사옥앞지붕있는버스정류장. 버스전면은화면오른쪽, 문은중앙오른쪽. 정차상태에서만승하차. 출발방향→. 여성은화면왼쪽정류장쪽. 큰가방은남자와함께타고내리며버스에두고가지않음.",
+          "ratio": "16:9",
+          "camera": "정류장고정와이드. 버스와사람사이안전거리,출발행동전체를보임.",
+          "subsequent_motion": "버스문이닫히고버스가천천히오른쪽으로출발한다.",
+          "required_end_state": "버스가화면오른쪽으로빠져나간다.M은뒤늦게고개를돌림.W는충전기소지.",
+          "caption_safe_area": [],
+          "post_composites": [],
+          "suggested_output": "images/C09/S09.png",
+          "image_status": "NOT_GENERATED; 실제 이미지 생성 및 교차검수 필요",
+          "image_instruction": "선택된 캐릭터 기준 이미지 참조. 완성된 행동이 아니라 위 시작 상태를 생성. 정확 자막·로고·UI 글자는 비워 후처리. 콜라주 금지."
+        },
+        {
+          "concept_id": "C09",
+          "scene_id": "S10",
+          "linked_cuts": [
+            "C09_K10"
+          ],
+          "representative_frame": "버스가사라진정류장. W는사옥방향으로돌아서기전,M은가방과혼자서서떠난쪽을봄.",
+          "characters_costumes_props_continuity": [
+            "M우는오열/벌받는표정이아니라허탈한진지함. W끝까지따뜻. 실제버스시간/행사일정미표기."
+          ],
+          "space_axis": "준비책상→같은사옥앞지붕있는버스정류장. 버스전면은화면오른쪽, 문은중앙오른쪽. 정차상태에서만승하차. 출발방향→. 여성은화면왼쪽정류장쪽. 큰가방은남자와함께타고내리며버스에두고가지않음.",
+          "ratio": "16:9",
+          "camera": "처음작별장면과같은넓은구도. M벤치아래빗물/안전한지붕. 새시간표수치없음.",
+          "subsequent_motion": "W가 충전기를 든 채 사옥으로 걸어간다. M은 가방 손잡이를 잡은 채 멜로 영화의 마지막 인물처럼 정류장에 그대로 남는다.",
+          "required_end_state": "M은 가방과 다음 차를 기다리며 서 있고, W는 충전기를 들고 사옥 쪽으로 돌아간다.",
+          "caption_safe_area": [
+            "상단 빈정류장벽/반투명대비패널"
+          ],
+          "post_composites": [],
+          "suggested_output": "images/C09/S10.png",
+          "image_status": "NOT_GENERATED; 실제 이미지 생성 및 교차검수 필요",
+          "image_instruction": "선택된 캐릭터 기준 이미지 참조. 완성된 행동이 아니라 위 시작 상태를 생성. 정확 자막·로고·UI 글자는 비워 후처리. 콜라주 금지."
+        }
+      ],
+      "post_graphics": [],
+      "continuity_requirements": [
+        "흰충전기+분홍띠: 준비책상→M오른주머니→K07M손→K08W손→K10W복귀까지소유추적.",
+        "검정폰은M,분홍폰은W. 전화화면이서로바뀌지않음.",
+        "가방승차→가방동반하차→버스떠날때도M곁.",
+        "정차승하차/반환완료/문닫힘/출발순서필수.",
+        "AI경험공유가휴가를가능하게한것이며동료는거절/모욕/업무소환하지않음."
+      ],
+      "review_questions": [
+        "충전기복선이관객에게보이되너무일찍결말을해설하지않는가?",
+        "전화→가방동반하차→반환→출발순서에누락이없는가?",
+        "동료의진심과주인공의과잉멜로온도차가음성없이읽히는가?"
+      ]
+    },
+    {
+      "id": "C10",
+      "title": "비법 공개 금지",
+      "purpose": "Q-AI Fair 실행 과정·재현 가능한 방법 교류 홍보",
+      "one_line": "결과만 마술처럼 보이게 하려는 스타의 회전무대를 실무자가 돌려 작업 과정을 드러내고, 스타는 자신이 만든 장막을 들어 주는 조명 보조로 남는다.",
+      "core_message": "결과를 신기하게 보는 데서 멈추지 않고 다른 사람이 써볼 수 있는 방법까지 나눈다.",
+      "aspect_ratio": "16:9",
+      "aspect_status": "기존 제작 기준 유지",
+      "expected_duration_seconds": 45,
+      "essential_dialogue": false,
+      "cast": [
+        {
+          "id": "MG",
+          "appearance": "50대 마른 장신 남성, 어깨아래로곧게내린긴은색머리,긴코,가는턱수염,호리호리한손. C07붉은단발과완전히구분.",
+          "costume": "자주색연미복,은색베스트,검정바지. 별모양장식한개. 실제마술사/배우인물모사없음. 화려한자기연출에집착."
+        },
+        {
+          "id": "PR",
+          "appearance": "40대짙은갈색피부의큰체구여성,짧고촘촘한검정곱슬머리,넓은어깨,부드러운둥근얼굴. 인종/체형을개그대상으로삼지않음.",
+          "costume": "코발트작업점프수트,갈색도구벨트. 침착하고유능하며공개할과정과시연목적을가짐."
+        }
+      ],
+      "space_axis": "검정박스극장 고정객석카메라. 지름4m 원형회전무대. 앞(객석쪽)에 결과진열대, 중앙에 검정벨벳장막, 뒤에 실제작업대(카메라/노트북/기록/샘플). 세세트모두회전무대에단단히고정. MG는중앙장막객석쪽에서한쪽모서리를잡고서며무대와함께회전. PR은원밖왼쪽고정바닥에서조작. 180도회전뒤작업대가앞,진열대가뒤,검정장막은작업대뒤배경,MG는뒤쪽조명보조위치. 축/위치도는후속제작시반드시참조.",
+      "props": [
+        "검정벨벳큰장막B: 중앙고정가로대에상단이걸리고한쪽자유모서리는MG가잡음. 돌아간후 PR가반대자유모서리도MG에게쥐여줘두손이보조로묶이는상황(신체결박아님).",
+        "작은은색결과덮개S: 앞진열대만덮는별도천. K01에서제거후앞진열대선반에놓고재등장안함. 큰검정장막B와절대혼동금지.",
+        "실제작업대: 고정카메라한대,로고없는노트북한대,실물금속링3개,수정흔적있는검토기록한권,흰작업등한대. 결과진열대의동일링3개와혼동되지않게배열좌→우고정.",
+        "무대제어: 원밖왼쪽회전발판(반원화살표). 별도효과발판FX는무대MG쪽바닥. 고정작업대오른쪽에SHOW/WORK모드스위치. 과장효과는색조명+얇은무대연무,불/폭발없음."
+      ],
+      "first_hook": "진짜마술쇼의광택과품위로결과를신비화한다. 실무자의평범한기록이그신비를불편하게함.",
+      "reversal": "단순히비밀장비를폭로하는것이아니라, 무대가실제로돌면서보여줄가치의중심과인물의위치가바뀜. 스타의장막은실무자의배경도구가됨.",
+      "ending_connection": "스타가특수효과로주도권을되찾으려해도실무자가WORK조명으로돌려놓고, 스타는자신의장막높이를맞추는보조를계속한다.",
+      "production_difficulty": {
+        "level": "높음",
+        "reason": "회전대앞뒤배치·장막소유·인물의물리적위치변환·다른두천구분. 하나의마스터와이드기준이필수.",
+        "fallback": "180도회전을앞/중간90도/끝의세실제동작단위로분리해동일회전방향으로이어감. 턴테이블이통째로형태변형하면작업대만도는더작은회전세트로PD승인하에단순화하되장치순간출현이나인물순간이동으로대체하지않음."
+      },
+      "shots": [
+        {
+          "id": "C10_K01",
+          "scene_id": "S01",
+          "start": 0,
+          "end": 4,
+          "duration": 4,
+          "frame_start_description": "MG가앞진열대의작은은색덮개S를양손으로잡기직전. 뒤중앙검정장막B가실제작업대를가림. PR은원밖왼쪽에기록을들고있음.",
+          "visual_action": "MG가작은은색덮개를걷어반듯하게정리된샘플링3개를공개한다.",
+          "frame_end_description": "은색덮개는앞진열대하단선반. 링3개는한줄. 검정장막은뒤쪽작업대를계속가림.",
+          "composition": "객석정면대칭와이드. 원형무대테두리가전부보임.",
+          "caption_cues": [
+            {
+              "start": 0.4,
+              "end": 3.7,
+              "text": "이것이, 비법입니다.",
+              "placement": "상단 어두운배경"
+            }
+          ],
+          "dialogue": "없음",
+          "narration": "없음",
+          "music_sfx_silence": "선택금관팡파르/작은무대효과. 관객박수없어도공개몸짓으로읽힘.",
+          "transition": "동일 공간 축을 유지한 하드 컷",
+          "intent": "실제장르의권위와비밀주의를진지하게세움. 결과만보여주는행동이목표.",
+          "continuity": [
+            "작은S은색/큰B검정구분. 무대회전전앞뒤배치고정."
+          ],
+          "post_composites": [],
+          "main_motion_count": 1
+        },
+        {
+          "id": "C10_K02",
+          "scene_id": "S02",
+          "start": 4,
+          "end": 8,
+          "duration": 4,
+          "frame_start_description": "PR이수정기록을MG에게펼쳐보이려한다. MG는중앙검정장막B자유모서리를한손으로들고있음.",
+          "visual_action": "MG가PR의펼친기록을검정장막뒤로슬쩍밀어감춘다.",
+          "frame_end_description": "기록은뒤작업대위에놓임.PR은MG를보고아래회전발판으로시선을옮김.",
+          "composition": "측면미디엄. 기록이천뒤로가는손경로와뒤작업대모서리가잠깐보임.",
+          "caption_cues": [
+            {
+              "start": 4.5,
+              "end": 7.7,
+              "text": "과정은 비공개입니다.",
+              "placement": "상단 배경"
+            }
+          ],
+          "dialogue": "없음",
+          "narration": "없음",
+          "music_sfx_silence": "팡파르여운. 종이쓱소리하나.",
+          "transition": "PR발판쪽시선에맞춰컷",
+          "intent": "사라지는기록으로스타의욕망을보여주고실무자의반격동기를만듦.",
+          "continuity": [
+            "기록한권은뒤작업대에실제로놓임. MG가종이를없애는마법아님."
+          ],
+          "post_composites": [],
+          "main_motion_count": 1
+        },
+        {
+          "id": "C10_K03",
+          "scene_id": "S03",
+          "start": 8,
+          "end": 12,
+          "duration": 4,
+          "frame_start_description": "PR발이원밖왼쪽회전발판위에아직닿기전. 원형무대테두리의전방표식과바닥화살표가보임.",
+          "visual_action": "PR이회전발판을한번밟는다.",
+          "frame_end_description": "무대테두리가같은방향으로움직이기시작. PR은원밖고정바닥.",
+          "composition": "낮은근접에서발판과원형테두리를함께. 원의회전시작으로제어인과를보임.",
+          "caption_cues": [],
+          "dialogue": "없음",
+          "narration": "없음",
+          "music_sfx_silence": "작은클릭→무대모터. 말로회전설명안함.",
+          "transition": "동일 공간 축을 유지한 하드 컷",
+          "intent": "비밀공개가저절로일어나는것이아니라실무자가주도권을선택함.",
+          "continuity": [
+            "회전발판과FX발판구분. PR을움직이는원위에올려놓지않음."
+          ],
+          "post_composites": [
+            "발판 위반원화살표아이콘만정확후합성. 텍스트절차없음."
+          ],
+          "main_motion_count": 1
+        },
+        {
+          "id": "C10_K04",
+          "scene_id": "S04",
+          "start": 12,
+          "end": 18,
+          "duration": 6,
+          "frame_start_description": "무대가약5도움직인상태. 앞진열대·중앙검정장막·뒤작업대·MG가모두제위치. PR은왼쪽원밖.",
+          "visual_action": "원형무대가같은방향으로180도돌아뒤작업대를객석앞으로보낸다. MG는장막모서리를놓지않아무대뒤로함께옮겨간다.",
+          "frame_end_description": "작업대앞/검정장막뒤/진열대더뒤. MG는뒤에서장막한쪽을들고있고PR은앞작업대가장자리에섬.",
+          "composition": "처음과같은고정와이드. 회전중카메라축을바꾸지않아앞뒤이동을관객이추적.",
+          "caption_cues": [],
+          "dialogue": "없음",
+          "narration": "없음",
+          "music_sfx_silence": "모터와길게버티는팡파르가우스운대비. 끝에서음악뚝0.5초.",
+          "transition": "동일 공간 축을 유지한 하드 컷",
+          "intent": "결과를가리던장막이작업대의배경이되는물리반전. 스타는장치가움직인만큼주연자리에서밀려남.",
+          "continuity": [
+            "천이공중으로날거나몸을감지않음. 모두같은원위에서강체회전. 장비순간추가금지."
+          ],
+          "post_composites": [],
+          "main_motion_count": 1
+        },
+        {
+          "id": "C10_K05",
+          "scene_id": "S05",
+          "start": 18,
+          "end": 23,
+          "duration": 5,
+          "frame_start_description": "앞에드러난작업대. PR손은펼쳐진수정기록위에서멈춤. 노트북에AI확인후보, 카메라앞실물링과기록의고친표시가같이보임.MG는후경.",
+          "visual_action": "PR이실물링하나를카메라앞에대고수정기록의같은확인항목을짚는다.",
+          "frame_end_description": "한실물·한후보·한사람확인이같은구도에남음. MG는자기결과진열대보다작아짐.",
+          "composition": "작업대미디엄. 후보UI를전체교육슬라이드로키우지않고손/실물을주인공으로.",
+          "caption_cues": [
+            {
+              "start": 18.4,
+              "end": 22.7,
+              "text": "이건, 같이 써보시죠.",
+              "placement": "상단 빈검정배경"
+            }
+          ],
+          "dialogue": "없음",
+          "narration": "없음",
+          "music_sfx_silence": "조용한작업등버즈/링금속음. 새설명음성없음.",
+          "transition": "동일 공간 축을 유지한 하드 컷",
+          "intent": "폭로해서끝나는게아니라남이쓸수있는작업을현장에서보여주기시작.",
+          "continuity": [
+            "K02기록은같은책. 샘플링배열과검사항목일치."
+          ],
+          "post_composites": [
+            "노트북 AI 확인 후보 / 원문·실물 확인 필요. 기록은수정전표시하나와수정후체크하나; 성과숫자/초인식완료버튼없음."
+          ],
+          "main_motion_count": 1
+        },
+        {
+          "id": "C10_K06",
+          "scene_id": "S06",
+          "start": 23,
+          "end": 27,
+          "duration": 4,
+          "frame_start_description": "MG가장막B자유모서리한쪽만들고앞으로나오려는자세. PR손에는반대자유모서리, 아직MG에게건네기전.",
+          "visual_action": "PR이반대모서리까지MG의빈손에쥐여줘검정배경을반듯하게펴달라는몸짓을한다.",
+          "frame_end_description": "MG는두손으로장막양모서리를들고작업대뒤에고정. PR은앞에서검사를계속할수있음.",
+          "composition": "작업대옆미디엄. 천두모서리와손교환경로를보여주며목/몸감김없음.",
+          "caption_cues": [
+            {
+              "start": 23.6,
+              "end": 26.8,
+              "text": "그대로 잡아주세요.",
+              "placement": "상단 검정장막의얼굴없는부분"
+            }
+          ],
+          "dialogue": "없음",
+          "narration": "없음",
+          "music_sfx_silence": "장막천마찰. 아주작은조명보조콜같은리듬. 음성0.",
+          "transition": "동일 공간 축을 유지한 하드 컷",
+          "intent": "스타의자기은폐도구가남의작업보조가되고손을빼고다시스타가될수없음.",
+          "continuity": [
+            "MG두손은이후장막고정. 사람이천으로묶인게아님."
+          ],
+          "post_composites": [],
+          "main_motion_count": 1
+        },
+        {
+          "id": "C10_K07",
+          "scene_id": "S07",
+          "start": 27,
+          "end": 31,
+          "duration": 4,
+          "frame_start_description": "MG는장막두모서리를들고PR뒤에있다. 발끝바로앞FX발판, 아직눌리지않음. PR은작은실물확인중.",
+          "visual_action": "MG가손을놓지않은채발끝으로FX발판을한번밟는다.",
+          "frame_end_description": "FX발판눌림, 무대색조명이켜지기직전. MG얼굴에주도권되찾을기대.",
+          "composition": "낮은전신미디엄. 장막든두손·발끝·FX발판을같이보임.",
+          "caption_cues": [],
+          "dialogue": "없음",
+          "narration": "없음",
+          "music_sfx_silence": "FX발판딸깍, 다음컷에과잉효과예고.",
+          "transition": "발판눌림에효과켜짐매치컷",
+          "intent": "노골적인악역이아니라끝까지쇼를포기못하는성격. 두손이보조가돼발로권력을되찾음.",
+          "continuity": [
+            "회전발판과다른FX발판이며회전은끝난상태. 장비다시회전금지."
+          ],
+          "post_composites": [
+            "발판 작은FX아이콘."
+          ],
+          "main_motion_count": 1
+        },
+        {
+          "id": "C10_K08",
+          "scene_id": "S08",
+          "start": 31,
+          "end": 35,
+          "duration": 4,
+          "frame_start_description": "작업대와링한개를보는PR, 장막드는MG. 색조명과연무는아직약하게시작.",
+          "visual_action": "작은샘플하나를위해분홍·보라조명과얇은무대연무가과도하게켜진다.",
+          "frame_end_description": "PR의평범한확인행동에비해무대만과장됨.PR은고개를잠깐멈추고모드스위치를봄.",
+          "composition": "처음와이드보다살짝가까운정면. 불꽃/폭발/무대붕괴없음. 샘플과사람이가려질정도로연무를채우지않음.",
+          "caption_cues": [],
+          "dialogue": "없음",
+          "narration": "없음",
+          "music_sfx_silence": "다시거대한팡파르4초. 정보는몸크기/효과크기의불균형으로전달.",
+          "transition": "동일 공간 축을 유지한 하드 컷",
+          "intent": "반전뒤에도같은허세가새형태로재발. 과장효과가검사에도움안되는그림이웃음.",
+          "continuity": [
+            "샘플링한개동작은정지유지; 효과때문에형상변형안됨."
+          ],
+          "post_composites": [],
+          "main_motion_count": 1
+        },
+        {
+          "id": "C10_K09",
+          "scene_id": "S09",
+          "start": 35,
+          "end": 39,
+          "duration": 4,
+          "frame_start_description": "PR손이작업대오른쪽SHOW/WORK스위치의WORK쪽에닿기전. 현재색조명ON/흰작업등OFF.",
+          "visual_action": "PR이WORK모드를한번누른다.",
+          "frame_end_description": "색조명·연무출력이꺼지고작은흰작업등이켜져실물확인이가능해짐.MG의기대만꺼짐.",
+          "composition": "스위치·작업등·작은실물을한프레임에. 유선무대조명제어로명확히.",
+          "caption_cues": [],
+          "dialogue": "없음",
+          "narration": "없음",
+          "music_sfx_silence": "팡파르즉시컷→작업등클릭. 정적0.8초.",
+          "transition": "차분해진작업와이드로전환",
+          "intent": "권력은가장큰효과가아니라무엇을보이게할지정하는사람에게있음.",
+          "continuity": [
+            "전선/전원뽑기위험동작없음. 한모드전환의연결결과로조명변경."
+          ],
+          "post_composites": [
+            "물리패널SHOW/WORK두상태, 현재WORK만작게점등. AI판정버튼처럼표현하지않음."
+          ],
+          "main_motion_count": 1
+        },
+        {
+          "id": "C10_K10",
+          "scene_id": "S10",
+          "start": 39,
+          "end": 45,
+          "duration": 6,
+          "frame_start_description": "차분한작업등아래PR이샘플을보며검정배경높이를한손으로가리킨다.MG는장막을조금높게들어샘플뒤가비는상태.",
+          "visual_action": "MG가자신의키를낮춰장막높이를맞추고두손으로계속들어준다. PR은샘플을정확히볼수있는배경을얻는다.",
+          "frame_end_description": "스타는반쯤무릎굽힌조명보조, 실무자가앞에서시연. 결과진열대는먼뒤에남음.",
+          "composition": "전체인물과작은작업등이읽히는정면와이드. 제목은상단빈검정공간, 장막든손가리지않음.",
+          "caption_cues": [
+            {
+              "start": 39.7,
+              "end": 45,
+              "text": "신기한 결과에서,\n써볼 수 있는 방법으로.\nQ-AI Fair",
+              "placement": "상단 빈검정배경"
+            }
+          ],
+          "dialogue": "없음",
+          "narration": "없음",
+          "music_sfx_silence": "작은실내악한음과작업장의정적. 더큰효과재반복없음.",
+          "transition": "동일 공간 축을 유지한 하드 컷",
+          "intent": "스타의마지막몸동작이주목받기위한포즈가아닌남을돕는높이조정이됨. 행사목적과권력반전이같은화면에서끝남.",
+          "continuity": [
+            "MG외모비하아님, 역할전환의자세. PR시연주체유지. 새관객행렬/발표자소개로끝내지않음."
+          ],
+          "post_composites": [],
+          "main_motion_count": 1
+        }
+      ],
+      "scenes": [
+        {
+          "concept_id": "C10",
+          "scene_id": "S01",
+          "linked_cuts": [
+            "C10_K01"
+          ],
+          "representative_frame": "MG가앞진열대의작은은색덮개S를양손으로잡기직전. 뒤중앙검정장막B가실제작업대를가림. PR은원밖왼쪽에기록을들고있음.",
+          "characters_costumes_props_continuity": [
+            "작은S은색/큰B검정구분. 무대회전전앞뒤배치고정."
+          ],
+          "space_axis": "검정박스극장 고정객석카메라. 지름4m 원형회전무대. 앞(객석쪽)에 결과진열대, 중앙에 검정벨벳장막, 뒤에 실제작업대(카메라/노트북/기록/샘플). 세세트모두회전무대에단단히고정. MG는중앙장막객석쪽에서한쪽모서리를잡고서며무대와함께회전. PR은원밖왼쪽고정바닥에서조작. 180도회전뒤작업대가앞,진열대가뒤,검정장막은작업대뒤배경,MG는뒤쪽조명보조위치. 축/위치도는후속제작시반드시참조.",
+          "ratio": "16:9",
+          "camera": "객석정면대칭와이드. 원형무대테두리가전부보임.",
+          "subsequent_motion": "MG가작은은색덮개를걷어반듯하게정리된샘플링3개를공개한다.",
+          "required_end_state": "은색덮개는앞진열대하단선반. 링3개는한줄. 검정장막은뒤쪽작업대를계속가림.",
+          "caption_safe_area": [
+            "상단 어두운배경"
+          ],
+          "post_composites": [],
+          "suggested_output": "images/C10/S01.png",
+          "image_status": "NOT_GENERATED; 실제 이미지 생성 및 교차검수 필요",
+          "image_instruction": "선택된 캐릭터 기준 이미지 참조. 완성된 행동이 아니라 위 시작 상태를 생성. 정확 자막·로고·UI 글자는 비워 후처리. 콜라주 금지."
+        },
+        {
+          "concept_id": "C10",
+          "scene_id": "S02",
+          "linked_cuts": [
+            "C10_K02"
+          ],
+          "representative_frame": "PR이수정기록을MG에게펼쳐보이려한다. MG는중앙검정장막B자유모서리를한손으로들고있음.",
+          "characters_costumes_props_continuity": [
+            "기록한권은뒤작업대에실제로놓임. MG가종이를없애는마법아님."
+          ],
+          "space_axis": "검정박스극장 고정객석카메라. 지름4m 원형회전무대. 앞(객석쪽)에 결과진열대, 중앙에 검정벨벳장막, 뒤에 실제작업대(카메라/노트북/기록/샘플). 세세트모두회전무대에단단히고정. MG는중앙장막객석쪽에서한쪽모서리를잡고서며무대와함께회전. PR은원밖왼쪽고정바닥에서조작. 180도회전뒤작업대가앞,진열대가뒤,검정장막은작업대뒤배경,MG는뒤쪽조명보조위치. 축/위치도는후속제작시반드시참조.",
+          "ratio": "16:9",
+          "camera": "측면미디엄. 기록이천뒤로가는손경로와뒤작업대모서리가잠깐보임.",
+          "subsequent_motion": "MG가PR의펼친기록을검정장막뒤로슬쩍밀어감춘다.",
+          "required_end_state": "기록은뒤작업대위에놓임.PR은MG를보고아래회전발판으로시선을옮김.",
+          "caption_safe_area": [
+            "상단 배경"
+          ],
+          "post_composites": [],
+          "suggested_output": "images/C10/S02.png",
+          "image_status": "NOT_GENERATED; 실제 이미지 생성 및 교차검수 필요",
+          "image_instruction": "선택된 캐릭터 기준 이미지 참조. 완성된 행동이 아니라 위 시작 상태를 생성. 정확 자막·로고·UI 글자는 비워 후처리. 콜라주 금지."
+        },
+        {
+          "concept_id": "C10",
+          "scene_id": "S03",
+          "linked_cuts": [
+            "C10_K03"
+          ],
+          "representative_frame": "PR발이원밖왼쪽회전발판위에아직닿기전. 원형무대테두리의전방표식과바닥화살표가보임.",
+          "characters_costumes_props_continuity": [
+            "회전발판과FX발판구분. PR을움직이는원위에올려놓지않음."
+          ],
+          "space_axis": "검정박스극장 고정객석카메라. 지름4m 원형회전무대. 앞(객석쪽)에 결과진열대, 중앙에 검정벨벳장막, 뒤에 실제작업대(카메라/노트북/기록/샘플). 세세트모두회전무대에단단히고정. MG는중앙장막객석쪽에서한쪽모서리를잡고서며무대와함께회전. PR은원밖왼쪽고정바닥에서조작. 180도회전뒤작업대가앞,진열대가뒤,검정장막은작업대뒤배경,MG는뒤쪽조명보조위치. 축/위치도는후속제작시반드시참조.",
+          "ratio": "16:9",
+          "camera": "낮은근접에서발판과원형테두리를함께. 원의회전시작으로제어인과를보임.",
+          "subsequent_motion": "PR이회전발판을한번밟는다.",
+          "required_end_state": "무대테두리가같은방향으로움직이기시작. PR은원밖고정바닥.",
+          "caption_safe_area": [],
+          "post_composites": [
+            "발판 위반원화살표아이콘만정확후합성. 텍스트절차없음."
+          ],
+          "suggested_output": "images/C10/S03.png",
+          "image_status": "NOT_GENERATED; 실제 이미지 생성 및 교차검수 필요",
+          "image_instruction": "선택된 캐릭터 기준 이미지 참조. 완성된 행동이 아니라 위 시작 상태를 생성. 정확 자막·로고·UI 글자는 비워 후처리. 콜라주 금지."
+        },
+        {
+          "concept_id": "C10",
+          "scene_id": "S04",
+          "linked_cuts": [
+            "C10_K04"
+          ],
+          "representative_frame": "무대가약5도움직인상태. 앞진열대·중앙검정장막·뒤작업대·MG가모두제위치. PR은왼쪽원밖.",
+          "characters_costumes_props_continuity": [
+            "천이공중으로날거나몸을감지않음. 모두같은원위에서강체회전. 장비순간추가금지."
+          ],
+          "space_axis": "검정박스극장 고정객석카메라. 지름4m 원형회전무대. 앞(객석쪽)에 결과진열대, 중앙에 검정벨벳장막, 뒤에 실제작업대(카메라/노트북/기록/샘플). 세세트모두회전무대에단단히고정. MG는중앙장막객석쪽에서한쪽모서리를잡고서며무대와함께회전. PR은원밖왼쪽고정바닥에서조작. 180도회전뒤작업대가앞,진열대가뒤,검정장막은작업대뒤배경,MG는뒤쪽조명보조위치. 축/위치도는후속제작시반드시참조.",
+          "ratio": "16:9",
+          "camera": "처음과같은고정와이드. 회전중카메라축을바꾸지않아앞뒤이동을관객이추적.",
+          "subsequent_motion": "원형무대가같은방향으로180도돌아뒤작업대를객석앞으로보낸다. MG는장막모서리를놓지않아무대뒤로함께옮겨간다.",
+          "required_end_state": "작업대앞/검정장막뒤/진열대더뒤. MG는뒤에서장막한쪽을들고있고PR은앞작업대가장자리에섬.",
+          "caption_safe_area": [],
+          "post_composites": [],
+          "suggested_output": "images/C10/S04.png",
+          "image_status": "NOT_GENERATED; 실제 이미지 생성 및 교차검수 필요",
+          "image_instruction": "선택된 캐릭터 기준 이미지 참조. 완성된 행동이 아니라 위 시작 상태를 생성. 정확 자막·로고·UI 글자는 비워 후처리. 콜라주 금지."
+        },
+        {
+          "concept_id": "C10",
+          "scene_id": "S05",
+          "linked_cuts": [
+            "C10_K05"
+          ],
+          "representative_frame": "앞에드러난작업대. PR손은펼쳐진수정기록위에서멈춤. 노트북에AI확인후보, 카메라앞실물링과기록의고친표시가같이보임.MG는후경.",
+          "characters_costumes_props_continuity": [
+            "K02기록은같은책. 샘플링배열과검사항목일치."
+          ],
+          "space_axis": "검정박스극장 고정객석카메라. 지름4m 원형회전무대. 앞(객석쪽)에 결과진열대, 중앙에 검정벨벳장막, 뒤에 실제작업대(카메라/노트북/기록/샘플). 세세트모두회전무대에단단히고정. MG는중앙장막객석쪽에서한쪽모서리를잡고서며무대와함께회전. PR은원밖왼쪽고정바닥에서조작. 180도회전뒤작업대가앞,진열대가뒤,검정장막은작업대뒤배경,MG는뒤쪽조명보조위치. 축/위치도는후속제작시반드시참조.",
+          "ratio": "16:9",
+          "camera": "작업대미디엄. 후보UI를전체교육슬라이드로키우지않고손/실물을주인공으로.",
+          "subsequent_motion": "PR이실물링하나를카메라앞에대고수정기록의같은확인항목을짚는다.",
+          "required_end_state": "한실물·한후보·한사람확인이같은구도에남음. MG는자기결과진열대보다작아짐.",
+          "caption_safe_area": [
+            "상단 빈검정배경"
+          ],
+          "post_composites": [
+            "노트북 AI 확인 후보 / 원문·실물 확인 필요. 기록은수정전표시하나와수정후체크하나; 성과숫자/초인식완료버튼없음."
+          ],
+          "suggested_output": "images/C10/S05.png",
+          "image_status": "NOT_GENERATED; 실제 이미지 생성 및 교차검수 필요",
+          "image_instruction": "선택된 캐릭터 기준 이미지 참조. 완성된 행동이 아니라 위 시작 상태를 생성. 정확 자막·로고·UI 글자는 비워 후처리. 콜라주 금지."
+        },
+        {
+          "concept_id": "C10",
+          "scene_id": "S06",
+          "linked_cuts": [
+            "C10_K06"
+          ],
+          "representative_frame": "MG가장막B자유모서리한쪽만들고앞으로나오려는자세. PR손에는반대자유모서리, 아직MG에게건네기전.",
+          "characters_costumes_props_continuity": [
+            "MG두손은이후장막고정. 사람이천으로묶인게아님."
+          ],
+          "space_axis": "검정박스극장 고정객석카메라. 지름4m 원형회전무대. 앞(객석쪽)에 결과진열대, 중앙에 검정벨벳장막, 뒤에 실제작업대(카메라/노트북/기록/샘플). 세세트모두회전무대에단단히고정. MG는중앙장막객석쪽에서한쪽모서리를잡고서며무대와함께회전. PR은원밖왼쪽고정바닥에서조작. 180도회전뒤작업대가앞,진열대가뒤,검정장막은작업대뒤배경,MG는뒤쪽조명보조위치. 축/위치도는후속제작시반드시참조.",
+          "ratio": "16:9",
+          "camera": "작업대옆미디엄. 천두모서리와손교환경로를보여주며목/몸감김없음.",
+          "subsequent_motion": "PR이반대모서리까지MG의빈손에쥐여줘검정배경을반듯하게펴달라는몸짓을한다.",
+          "required_end_state": "MG는두손으로장막양모서리를들고작업대뒤에고정. PR은앞에서검사를계속할수있음.",
+          "caption_safe_area": [
+            "상단 검정장막의얼굴없는부분"
+          ],
+          "post_composites": [],
+          "suggested_output": "images/C10/S06.png",
+          "image_status": "NOT_GENERATED; 실제 이미지 생성 및 교차검수 필요",
+          "image_instruction": "선택된 캐릭터 기준 이미지 참조. 완성된 행동이 아니라 위 시작 상태를 생성. 정확 자막·로고·UI 글자는 비워 후처리. 콜라주 금지."
+        },
+        {
+          "concept_id": "C10",
+          "scene_id": "S07",
+          "linked_cuts": [
+            "C10_K07"
+          ],
+          "representative_frame": "MG는장막두모서리를들고PR뒤에있다. 발끝바로앞FX발판, 아직눌리지않음. PR은작은실물확인중.",
+          "characters_costumes_props_continuity": [
+            "회전발판과다른FX발판이며회전은끝난상태. 장비다시회전금지."
+          ],
+          "space_axis": "검정박스극장 고정객석카메라. 지름4m 원형회전무대. 앞(객석쪽)에 결과진열대, 중앙에 검정벨벳장막, 뒤에 실제작업대(카메라/노트북/기록/샘플). 세세트모두회전무대에단단히고정. MG는중앙장막객석쪽에서한쪽모서리를잡고서며무대와함께회전. PR은원밖왼쪽고정바닥에서조작. 180도회전뒤작업대가앞,진열대가뒤,검정장막은작업대뒤배경,MG는뒤쪽조명보조위치. 축/위치도는후속제작시반드시참조.",
+          "ratio": "16:9",
+          "camera": "낮은전신미디엄. 장막든두손·발끝·FX발판을같이보임.",
+          "subsequent_motion": "MG가손을놓지않은채발끝으로FX발판을한번밟는다.",
+          "required_end_state": "FX발판눌림, 무대색조명이켜지기직전. MG얼굴에주도권되찾을기대.",
+          "caption_safe_area": [],
+          "post_composites": [
+            "발판 작은FX아이콘."
+          ],
+          "suggested_output": "images/C10/S07.png",
+          "image_status": "NOT_GENERATED; 실제 이미지 생성 및 교차검수 필요",
+          "image_instruction": "선택된 캐릭터 기준 이미지 참조. 완성된 행동이 아니라 위 시작 상태를 생성. 정확 자막·로고·UI 글자는 비워 후처리. 콜라주 금지."
+        },
+        {
+          "concept_id": "C10",
+          "scene_id": "S08",
+          "linked_cuts": [
+            "C10_K08"
+          ],
+          "representative_frame": "작업대와링한개를보는PR, 장막드는MG. 색조명과연무는아직약하게시작.",
+          "characters_costumes_props_continuity": [
+            "샘플링한개동작은정지유지; 효과때문에형상변형안됨."
+          ],
+          "space_axis": "검정박스극장 고정객석카메라. 지름4m 원형회전무대. 앞(객석쪽)에 결과진열대, 중앙에 검정벨벳장막, 뒤에 실제작업대(카메라/노트북/기록/샘플). 세세트모두회전무대에단단히고정. MG는중앙장막객석쪽에서한쪽모서리를잡고서며무대와함께회전. PR은원밖왼쪽고정바닥에서조작. 180도회전뒤작업대가앞,진열대가뒤,검정장막은작업대뒤배경,MG는뒤쪽조명보조위치. 축/위치도는후속제작시반드시참조.",
+          "ratio": "16:9",
+          "camera": "처음와이드보다살짝가까운정면. 불꽃/폭발/무대붕괴없음. 샘플과사람이가려질정도로연무를채우지않음.",
+          "subsequent_motion": "작은샘플하나를위해분홍·보라조명과얇은무대연무가과도하게켜진다.",
+          "required_end_state": "PR의평범한확인행동에비해무대만과장됨.PR은고개를잠깐멈추고모드스위치를봄.",
+          "caption_safe_area": [],
+          "post_composites": [],
+          "suggested_output": "images/C10/S08.png",
+          "image_status": "NOT_GENERATED; 실제 이미지 생성 및 교차검수 필요",
+          "image_instruction": "선택된 캐릭터 기준 이미지 참조. 완성된 행동이 아니라 위 시작 상태를 생성. 정확 자막·로고·UI 글자는 비워 후처리. 콜라주 금지."
+        },
+        {
+          "concept_id": "C10",
+          "scene_id": "S09",
+          "linked_cuts": [
+            "C10_K09"
+          ],
+          "representative_frame": "PR손이작업대오른쪽SHOW/WORK스위치의WORK쪽에닿기전. 현재색조명ON/흰작업등OFF.",
+          "characters_costumes_props_continuity": [
+            "전선/전원뽑기위험동작없음. 한모드전환의연결결과로조명변경."
+          ],
+          "space_axis": "검정박스극장 고정객석카메라. 지름4m 원형회전무대. 앞(객석쪽)에 결과진열대, 중앙에 검정벨벳장막, 뒤에 실제작업대(카메라/노트북/기록/샘플). 세세트모두회전무대에단단히고정. MG는중앙장막객석쪽에서한쪽모서리를잡고서며무대와함께회전. PR은원밖왼쪽고정바닥에서조작. 180도회전뒤작업대가앞,진열대가뒤,검정장막은작업대뒤배경,MG는뒤쪽조명보조위치. 축/위치도는후속제작시반드시참조.",
+          "ratio": "16:9",
+          "camera": "스위치·작업등·작은실물을한프레임에. 유선무대조명제어로명확히.",
+          "subsequent_motion": "PR이WORK모드를한번누른다.",
+          "required_end_state": "색조명·연무출력이꺼지고작은흰작업등이켜져실물확인이가능해짐.MG의기대만꺼짐.",
+          "caption_safe_area": [],
+          "post_composites": [
+            "물리패널SHOW/WORK두상태, 현재WORK만작게점등. AI판정버튼처럼표현하지않음."
+          ],
+          "suggested_output": "images/C10/S09.png",
+          "image_status": "NOT_GENERATED; 실제 이미지 생성 및 교차검수 필요",
+          "image_instruction": "선택된 캐릭터 기준 이미지 참조. 완성된 행동이 아니라 위 시작 상태를 생성. 정확 자막·로고·UI 글자는 비워 후처리. 콜라주 금지."
+        },
+        {
+          "concept_id": "C10",
+          "scene_id": "S10",
+          "linked_cuts": [
+            "C10_K10"
+          ],
+          "representative_frame": "차분한작업등아래PR이샘플을보며검정배경높이를한손으로가리킨다.MG는장막을조금높게들어샘플뒤가비는상태.",
+          "characters_costumes_props_continuity": [
+            "MG외모비하아님, 역할전환의자세. PR시연주체유지. 새관객행렬/발표자소개로끝내지않음."
+          ],
+          "space_axis": "검정박스극장 고정객석카메라. 지름4m 원형회전무대. 앞(객석쪽)에 결과진열대, 중앙에 검정벨벳장막, 뒤에 실제작업대(카메라/노트북/기록/샘플). 세세트모두회전무대에단단히고정. MG는중앙장막객석쪽에서한쪽모서리를잡고서며무대와함께회전. PR은원밖왼쪽고정바닥에서조작. 180도회전뒤작업대가앞,진열대가뒤,검정장막은작업대뒤배경,MG는뒤쪽조명보조위치. 축/위치도는후속제작시반드시참조.",
+          "ratio": "16:9",
+          "camera": "전체인물과작은작업등이읽히는정면와이드. 제목은상단빈검정공간, 장막든손가리지않음.",
+          "subsequent_motion": "MG가자신의키를낮춰장막높이를맞추고두손으로계속들어준다. PR은샘플을정확히볼수있는배경을얻는다.",
+          "required_end_state": "스타는반쯤무릎굽힌조명보조, 실무자가앞에서시연. 결과진열대는먼뒤에남음.",
+          "caption_safe_area": [
+            "상단 빈검정배경"
+          ],
+          "post_composites": [],
+          "suggested_output": "images/C10/S10.png",
+          "image_status": "NOT_GENERATED; 실제 이미지 생성 및 교차검수 필요",
+          "image_instruction": "선택된 캐릭터 기준 이미지 참조. 완성된 행동이 아니라 위 시작 상태를 생성. 정확 자막·로고·UI 글자는 비워 후처리. 콜라주 금지."
+        }
+      ],
+      "post_graphics": [],
+      "continuity_requirements": [
+        "첫마스터와이드에서앞진열대/중앙검정장막/뒤작업대의동일원형무대위치확정.",
+        "작은은색덮개S와큰검정장막B는별개. S는K01뒤선반, B만권력반전소품.",
+        "회전발판눌림→같은방향180도회전→작업대앞/스타뒤. 무대가돌때PR은원밖고정.",
+        "검정장막은회전후작업대뒤배경이며앞에서검사를가리는천으로갑자기변하지않음.",
+        "MG가양모서리를받아두손이비어있지않기때문에FX는발끝으로작동.",
+        "SHOW→WORK한번전환으로거대효과OFF/작업등ON. 이후권력은PR에게남음."
+      ],
+      "review_questions": [
+        "장막/장치/사람이왜앞뒤로바뀌었는지무대회전하나로추적되는가?",
+        "뒤공개만으로끝나지않고스타가실무자의배경·조명보조가된후폭풍이보이는가?",
+        "AI성과를마술사기라고비난하는게아니라결과신비화와실행공유의차이를풍자하는가?"
+      ],
+      "layout_plan": {
+        "coordinates": "개념적 평면좌표(m). 객석은 y=-방향, 원형무대 중심(0,0), 반지름2. PR은 고정바닥 왼쪽(x<-2). 평면값은 설계기준이며 실제이미지투영좌표가 아님.",
+        "before_rotation": {
+          "display_plinth": [
+            0,
+            -1.1
+          ],
+          "black_curtain_bar": [
+            0,
+            0
+          ],
+          "workbench": [
+            0,
+            1.0
+          ],
+          "magician": [
+            1.0,
+            -0.1
+          ],
+          "practitioner": [
+            -2.5,
+            -0.5
+          ]
+        },
+        "after_clockwise_180": {
+          "display_plinth": [
+            0,
+            1.1
+          ],
+          "black_curtain_bar": [
+            0,
+            0
+          ],
+          "workbench": [
+            0,
+            -1.0
+          ],
+          "magician": [
+            -1.0,
+            0.1
+          ],
+          "practitioner": [
+            -2.5,
+            -0.5
+          ]
+        },
+        "visibility": "검정장막은 처음엔 뒤 작업대를 가리고, 회전후에는 앞 작업대 뒤 배경이 된다. MG는 중앙측면에서 처음부터45도 프로필로서며 회전후 반대프로필; 얼굴을객석에맞추려제자리이동시키지않는다. PR은회전완료후원밖에서앞작업대에팔만뻗는다.",
+        "rig": "무대에 고정된 중앙 가로대와 검정 천, 앞 진열대, 뒤 작업대는 서로 상대위치 불변. MG가 잡는 것은 가로대 아래 자유모서리. 180도 전후 같은 천임을 봉제선/작은은색매듭으로 표시."
+      }
+    }
+  ],
+  "comparison": [
+    {
+      "id": "C07",
+      "title": "불량도 이직합니다",
+      "purpose": "Q-AI Fair 사례·검증 경험 공유 홍보",
+      "duration": 44,
+      "scenes": 10,
+      "genre": "도주극",
+      "comedy_mechanism": "추격의방향전복·선택한은신처가반송수단",
+      "absurdity_1_to_5": 4,
+      "production_difficulty": "높음"
+    },
+    {
+      "id": "C08",
+      "title": "구조는 끝났습니다",
+      "purpose": "Q-AI Fair 실제 활용 방법 공유 홍보",
+      "duration": 46,
+      "scenes": 10,
+      "genre": "과잉 액션",
+      "comedy_mechanism": "구원자불필요·자기가만든문제수리·큰액션이작은재작업으로축소",
+      "absurdity_1_to_5": 5,
+      "production_difficulty": "높음"
+    },
+    {
+      "id": "C09",
+      "title": "나 없이도 괜찮겠어요?",
+      "purpose": "Q-AI Fair 업무 방법·실행 경험 공유 홍보",
+      "duration": 46,
+      "scenes": 10,
+      "genre": "과잉 이별 멜로드라마",
+      "comedy_mechanism": "한사람만과잉멜로·호출의목적오인·초반소품복선회수",
+      "absurdity_1_to_5": 3,
+      "production_difficulty": "보통~높음"
+    },
+    {
+      "id": "C10",
+      "title": "비법 공개 금지",
+      "purpose": "Q-AI Fair 실행 과정·재현 가능한 방법 교류 홍보",
+      "duration": 45,
+      "scenes": 10,
+      "genre": "마술 쇼·주도권 역전",
+      "comedy_mechanism": "물리적무대전환·스타가보조로·거대효과를작업등으로꺼버림",
+      "absurdity_1_to_5": 4,
+      "production_difficulty": "높음"
+    }
+  ],
+  "recommendations": {
+    "strong_visual_hook": "C08: 거대한출동과자기벽수리로축소되는후폭풍이자막없이도강하다.",
+    "event_purpose": "C10: 실무자가결과보다실행과정을공개하는선택자체가Q-AI Fair의교류목적.",
+    "character_emotion": "C09: 가장따뜻하고감정차로웃긴다. 필수정보를음성에맡기지않는다.",
+    "series_distinction": "C07도주/ C08액션 / C09멜로 / C10쇼를같은정적·발표판공식으로편집하지않는다."
+  },
+  "production_notes": [
+    "첫프레임총40장: 각10씬. 모두실제생성해야완료이며현재0장. 새ID C07~C10은사용자최신10안범위에맞춰기존기본C01~C05계약확장.",
+    "한씬당후속Flow8초원본을가정한설계이나현재Flow실행허용아님. 실제비용/모델/기능성공보장없음.",
+    "C07K05숨기기, C08K05벽돌파, C09K04승차/K06하차, C10K04회전은필수인과동작. 생성이못따라가면제작단위추가로분리하고후상태이미지로성공인척하지않음.",
+    "장면연결은후처리자막으로누락을설명하기보다필수행동이먼저있어야함.",
+    "자막기본720p에서40~44px이상/최대2줄, 엔딩행사명64~72px. 마지막3줄은본문40px+행사명64px계층으로5초이상. 실제이미지생성뒤행동/얼굴가림재검수.",
+    "정확UI는후합성: 번호/개인정보/성과수치/미확정일정없음. 가짜AI가불투명상자를투시하거나버튼한번에검증완료한다고연출하지않음.",
+    "전개중설명단계표를세번읽게하지않음. 공유된경험의한증거와사람의한선택만큼만시각화.",
+    "검수자는A/B/C모두4안전체동일종합기준으로독립→교차→수정재확인. 이초안자체를재미검증완료/이미지완료로표시하지않음."
+  ],
+  "validation": {
+    "chronology": "Every shot continuous; each caption inside its shot; total<=60. All checked programmatically.",
+    "actual_images_generated": 0,
+    "flow_requests": 0,
+    "voices_generated": 0,
+    "renders": 0,
+    "unconfirmed_event_facts": [
+      "일시",
+      "장소",
+      "참석방법",
+      "성과수치",
+      "상금"
+    ],
+    "creative_assumptions": [
+      "16:9",
+      "품질팀내부소음있는상영환경",
+      "허구의인물·장소·업무사례",
+      "UI속팀A/B와검토사례는극중장치이며실제팀성과아님"
+    ]
+  },
+  "self_review_changes": [
+    "C09 엔딩에서 여성복귀와남성착석을동시주동작으로요구하지않도록여성복귀한동작으로정리. M은정류장에그대로남는다.",
+    "C10 회전대 평면좌표/고정자와이동자/장막의앞뒤가림관계를추가.",
+    "C08 폭 약1.2m 표기오타수정. 실제폭약사용연출없음."
+  ]
+}

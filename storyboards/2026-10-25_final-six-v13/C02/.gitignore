@@ -1,0 +1,17 @@
+.deps/
+_work/
+*.wav
+__pycache__/
+qa_hand_*.jpg
+make_hand_grid.py
+actual_phone_capture_2.500s.png
+review_frames/*
+!review_frames/01.000s.png
+!review_frames/09.500s.png
+!review_frames/14.500s.png
+!review_frames/18.750s.png
+!review_frames/21.000s.png
+!review_frames/24.500s.png
+!review_frames/26.500s.png
+!review_frames/29.500s.png
+!review_frames/31.500s.png

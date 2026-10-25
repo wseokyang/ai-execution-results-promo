@@ -1,0 +1,176 @@
+{
+  "concept": "C04 목마는 식사 중입니다",
+  "file": "C04_Q-AI_Fair_final_v13.mp4",
+  "duration_seconds": 44.5,
+  "fps": 24,
+  "resolution": [
+    1280,
+    720
+  ],
+  "timeline": [
+    {
+      "cut": "K01",
+      "source": "2026-10-24_v12-C02-C04-C01-flow\\C04_K01_take01.mp4",
+      "source_in": 0,
+      "source_out": 3,
+      "start": 0,
+      "end": 3
+    },
+    {
+      "cut": "NOTE",
+      "source": "2026-10-25_final-six-v13\\C04_K01_note_push_take01.mp4",
+      "source_in": 0.5,
+      "source_out": 5.5,
+      "start": 3,
+      "end": 8.0
+    },
+    {
+      "cut": "K02",
+      "source": "2026-10-24_v12-C02-C04-C01-flow\\C04_K02_take01.mp4",
+      "source_in": 0.5,
+      "source_out": 4.5,
+      "start": 8.0,
+      "end": 12.0
+    },
+    {
+      "cut": "K03",
+      "source": "2026-10-24_v12-C02-C04-C01-flow\\C04_K03_take01.mp4",
+      "source_in": 0,
+      "source_out": 3,
+      "start": 12.0,
+      "end": 15.0
+    },
+    {
+      "cut": "K04",
+      "source": "2026-10-24_v12-C02-C04-C01-flow\\C04_K04_take01.mp4",
+      "source_in": 0.5,
+      "source_out": 5.5,
+      "start": 15.0,
+      "end": 20.0
+    },
+    {
+      "cut": "K05",
+      "source": "2026-10-24_v12-C02-C04-C01-flow\\C04_K05_take01.mp4",
+      "source_in": 0.5,
+      "source_out": 4.5,
+      "start": 20.0,
+      "end": 24.0
+    },
+    {
+      "cut": "K07",
+      "source": "2026-10-24_v12-C02-C04-C01-flow\\C04_K07_take01.mp4",
+      "source_in": 0,
+      "source_out": 5,
+      "start": 24.0,
+      "end": 29.0
+    },
+    {
+      "cut": "WINDOWS",
+      "source": "2026-10-25_final-six-v13\\C04_K08_hinges_take01.mp4",
+      "source_in": 1,
+      "source_out": 4,
+      "start": 29.0,
+      "end": 32.0
+    },
+    {
+      "cut": "BOWLS",
+      "source": "2026-10-24_C01-C06-repair110\\C04_K08_three_visible_take01.mp4",
+      "source_in": 2,
+      "source_out": 4.25,
+      "start": 32.0,
+      "end": 34.25
+    },
+    {
+      "cut": "SPOON",
+      "source": "2026-10-24_C01-C06-repair110\\C04_K09_take02.mp4",
+      "source_in": 0.5,
+      "source_out": 6,
+      "start": 34.25,
+      "end": 39.75
+    },
+    {
+      "cut": "END",
+      "source": null,
+      "source_in": 0,
+      "source_out": 4.75,
+      "start": 39.75,
+      "end": 44.5
+    }
+  ],
+  "captions": [
+    {
+      "start": 0.2,
+      "end": 1.8,
+      "text": "숨소리도 내지 마라.",
+      "position": "top"
+    },
+    {
+      "start": 1.9,
+      "end": 3,
+      "text": "꼬르륵…",
+      "position": "top"
+    },
+    {
+      "start": 3.2,
+      "end": 6.8,
+      "text": "식사 · 물 · 수저 요청",
+      "position": "bottom"
+    },
+    {
+      "start": 8.25,
+      "end": 11.8,
+      "text": "신고: 내부 탑승자 없음",
+      "position": "bottom"
+    },
+    {
+      "start": 12.2,
+      "end": 14.8,
+      "text": "아무도 없는데, 웬 배식?",
+      "position": "bottom"
+    },
+    {
+      "start": 20.2,
+      "end": 23.8,
+      "text": "이 말, 수저를 씁니까?",
+      "position": "top"
+    },
+    {
+      "start": 24.1,
+      "end": 26,
+      "text": "안에는 아무도 없습니다.",
+      "position": "bottom"
+    },
+    {
+      "start": 37.05,
+      "end": 39.5,
+      "text": "지휘관부터.",
+      "position": "top_right"
+    },
+    {
+      "start": 39.75,
+      "end": 44.5,
+      "text": "Q-AI Fair\nAI 실행 사례, 지금 시작합니다.",
+      "position": "ending"
+    }
+  ],
+  "source_sha256": {
+    "2026-10-24_v12-C02-C04-C01-flow\\C04_K04_take01.mp4": "ca15602e4e90a8935bc4d4a7c22a2c10c6670e78ee9481a358a0a540c7e0f7c5",
+    "2026-10-25_final-six-v13\\C04_K01_note_push_take01.mp4": "e4f442dfa251b43cb28f5a0b8a95d6df779674b5a07d1791b4435c67ca8ae3b5",
+    "2026-10-24_v12-C02-C04-C01-flow\\C04_K07_take01.mp4": "6afed0f8ed8ddd68e4110cd911b1a3ba70d0b10744453a9407abf17aaef523c2",
+    "2026-10-24_C01-C06-repair110\\C04_K08_three_visible_take01.mp4": "5d06777a0941800c1f1c72370ac52528d70f7414d40c8deccdfcd1db6ba2132b",
+    "2026-10-25_final-six-v13\\C04_K08_hinges_take01.mp4": "63ab3b0d0b550dc70cadcf1cfd0bb3a3191b9eff6bb065771f74ed9d16e4eb3f",
+    "2026-10-24_v12-C02-C04-C01-flow\\C04_K01_take01.mp4": "6108a7b0f7425df89a2da642bae632dd0889ba5fa4a67c154860a25c487ff533",
+    "2026-10-24_v12-C02-C04-C01-flow\\C04_K03_take01.mp4": "b6bd0d77b5dd090b752909b7d1901ea7617234474490f0e4a5f81b8600825e2a",
+    "2026-10-24_v12-C02-C04-C01-flow\\C04_K05_take01.mp4": "a80858b859c826a4717621653d9a60ad866008e3ac6bf4a30de3d16b57377226",
+    "2026-10-24_C01-C06-repair110\\C04_K09_take02.mp4": "7886e5e8d62bf60406196d1dac47e0fe32d594bd193197382c248d5f85bf706d",
+    "2026-10-24_v12-C02-C04-C01-flow\\C04_K02_take01.mp4": "ca63fabe8cd17d1f2a4267c755f1734b0c53cdaf49f5631c45013fecfb03b19f"
+  },
+  "source_audio": "muted",
+  "source_files_unchanged": true,
+  "action_stills_inserted": false,
+  "actual_continuous_playback_verified": false,
+  "actual_listening_verified": false,
+  "status": "FINAL_EDIT_SAMPLE_QA_PASS",
+  "final_sha256": "9a71a53f07ea1cd678fcdcef654dbfa2821ffad14b1649afaea48e367b81c8f6",
+  "final_review_record": "../reviews/final_film_review.json"
+}

@@ -1,0 +1,367 @@
+{
+  "concept_id": "C10",
+  "source_storyboards": "storyboards/2026-10-25_C07-C10-rewrite-v13/storyboards_draft.json",
+  "source_version": "V13_TEXT_REV03_BAR",
+  "tool": "built-in image_gen.imagegen",
+  "scene_count": 10,
+  "total_scenes": 10,
+  "all_images_opened_with_view_image": true,
+  "external_upload": false,
+  "flow_executed": false,
+  "review_status": "THREE_INDEPENDENT_CROSS_FINAL_IMAGE_REVIEW_PASS",
+  "known_limitations": [
+    "Actual rotation, free-bar handoff, and lowering while retaining face/covering gap must be verified in future generated videos.",
+    "Caption proof is post-production placement, not a first frame."
+  ],
+  "scenes": [
+    {
+      "concept_id": "C10",
+      "scene_id": "S01",
+      "linked_cuts": [
+        "C10_K01"
+      ],
+      "actual_path": "\\\\wsl.localhost\\Ubuntu-24.04\\home\\wooseok\\wsy\\samsung_related\\slide\\AI실행결과발표대회_디자인3종\\storyboards\\2026-10-25_C07-C10-rewrite-v13\\images\\C10\\S01.png",
+      "prompt": "Edit this stage image into the final first frame. Preserve exact faces, costumes, silver scarf, black plinth, studio light and circular platform. IMPORTANT move the woman bodily to the LEFT SIDE OF THE IMAGE, screen-left of the magician, close within arm's reach. Nobody on his screen-right. She holds the same open notebook. Magician remains center. Keep the metal camera and laptop concealed behind central curtain. Make the curtain narrower: EXACTLY 1.2m wide compared with 1.95m tall magician. Raise its FIXED TOP bar to his upper chest about1.50m, and its STRAIGHT rigid lower bar to his knee height about0.50m, curtain1m tall. Keep bottom visible below all objects, top fixed between two thin poles. Curtain black and distinct from silver scarf foreground. Move magician's scarf hand so fingers poised just above folded scarf on top of plinth rather than already lifting it high. Silver scarf remains many folds on top covering all3 tiny rings, continuous tail down into FRONT shelf. No rings visible yet. Keep round small pedal at magician foot and rectangular pedal outside far screen-left. Maintain audience frontal wide16:9, full bodies/all feet, black upper caption space. No written words.",
+      "reference_images": [
+        "C:/Users/wseok/.codex/generated_images/01a1719d-8025-70b0-a734-29b1cc33aa00/exec-8246669a-86f3-494c-a361-7fbe138950ac.png"
+      ],
+      "initial_prompt": "Use case: ads-marketing. A single photoreal cinematic black-comedy commercial FIRST FRAME, landscape 16:9, no text, no letters, no subtitles, no logos. Not a collage. Locked frontal audience camera, full-body medium-wide shot, 35mm, slight elevation so floor geometry readable. Modest theatrical black studio, circular charcoal turntable platform 4 metres diameter, clear thin circular rim, plenty of empty black space above heads for later captions. Warm white spotlight faces, restrained purple side light, tactile handmade stage props.\nCast EXACTLY TWO: at center a very tall very thin 50s male magician, straight long silver hair below shoulders, long nose, small pointed goatee, purple tailcoat, silver waistcoat, black trousers, one small star brooch. Grandiose self-serious expression. At his close left a large broad-shouldered dark-brown-skinned 40s woman, short tight black curly hair, cobalt mechanic jumpsuit, brown tool belt; calm practical expression, holding one open blank work notebook. They stand less than an arm's length apart.\nRigid stage geometry from audience to back: small rectangular BLACK DISPLAY PLINTH in foreground, magician immediately behind it, then 1.2m wide BLACK VELVET CURTAIN on narrow metal stand fixed to turntable center, its TOP horizontal bar only 1.50m high (below magician face), curtain goes down to 0.50m, bottom hem has a straight thin rigid black 1.2m bar; then concealed workbench behind curtain (same width) with laptop/camera barely peeking at sides. Curtain is NOT a towering backdrop, NOT silver.\nSTART ACTION: display plinth's three tiny metal rings are entirely covered by an excessive long narrow metallic SILVER SILK scarf, width .35m length4m, folded in many layers on its top; one continuous end cascades to a receiving shelf visibly attached at FRONT of plinth, to catch all scarf after reveal. Magician hand poised just above scarf tip, not pulling yet. His other hand dramatic, empty. Distinguish small shiny long scarf foreground from black short curtain behind. Rings still hidden, not exposed. Plain black plinth no decorations. On floor outside stage far left a small rectangular rotation foot pedal, on stage beside magician a different smaller round pedal. No other people. Real human hands, coherent objects, deliberate grandiose stage performance for absurdly tiny result. Bottom floor and all feet visible.",
+      "review_status": "THREE_REVIEWERS_FINAL_SELECTED_FIRST_FRAME_PASS",
+      "review_notes": "여성 화면왼쪽/장막폭·하단봉 수정. 두천 구별, 은색천 아직 링 가림. 손은 천끝 가까운 시작.",
+      "sha256": "3c32cf44cdd180a45b58a96ffb4f939cc95c2de340dd65449b95054d46cad8f4",
+      "dimensions": [
+        1672,
+        941
+      ],
+      "subsequent_motion": "MG가 장엄한 손짓으로 긴 은색 실크를 계속 걷어 앞 하단 선반 쪽으로 흘려 보내 손바닥만 한 링 세 개를 공개한다.",
+      "camera_notes": "처음1초 손과 길게 흐르는 실크, 이어 작은 링 세 개와 거대한 MG 제스처를 함께 읽는 고정 정면 미디엄 와이드. 원형 바닥 가장자리와 두 천을 구분.",
+      "required_end_state": "실크 전체가 앞 하단 선반에 은색 더미로 놓이고 MG의 두 손은 비어 있음. 작은 링 세 개만 진열대 한 줄. 검정 장막 B는 뒤 작업대를 계속 가림.",
+      "source_generated_image": "C:/Users/wseok/.codex/generated_images/01a1719d-8025-70b0-a734-29b1cc33aa00/exec-07c3151a-06ca-416a-8161-d46d98946b5b.png"
+    },
+    {
+      "concept_id": "C10",
+      "scene_id": "S02",
+      "linked_cuts": [
+        "C10_K02"
+      ],
+      "actual_path": "\\\\wsl.localhost\\Ubuntu-24.04\\home\\wooseok\\wsy\\samsung_related\\slide\\AI실행결과발표대회_디자인3종\\storyboards\\2026-10-25_C07-C10-rewrite-v13\\images\\C10\\S02_v4.png",
+      "prompt": "Local prop edit of this EXACT first frame. Keep ALL people, faces, poses, hand positions, every piece of furniture, notebook state, camera/laptop, all stage feet inside round platform, lighting and camera IDENTICAL. Correct ONLY the BLACK CURTAIN FABRIC. The thin diagonal rod held by the man from LOW viewer-LEFT to HIGH viewer-RIGHT must be the TRUE BOTTOM HEM of this curtain, not a separate rod in front of a full curtain. DELETE ALL VERTICALLY PLEATED BLACK FABRIC BELOW that diagonal rod, including the vertical folds visible behind the man and behind/above the workbench notebook. Also REMOVE the long dangling strip on viewer-RIGHT of the high gripping hand: the cloth's right edge must taper inward from top-right crossbar to that hand/rod endpoint; below hand height nothing may hang to the right of his hand. All space below the diagonal hem must be smooth plain BLACK STUDIO BACKGROUND, existing clothes and existing desk/objects with no pleats. Keep curtain only in the polygon ABOVE the diagonal bottom hem, pleated/gathered upward. The high hand stays separated from vertical support pole by the existing black gap. Do NOT move the rod/hand, do NOT add arms, do NOT change stage furniture positions or bench feet. A single curtain with its lower edge attached along the diagonal rod, no extra fabric below. Do not remove human purple coat tails. No words or text, preserve full16:9 image.",
+      "reference_images": [
+        "\\\\wsl.localhost\\Ubuntu-24.04\\home\\wooseok\\wsy\\samsung_related\\slide\\AI실행결과발표대회_디자인3종\\storyboards\\2026-10-25_C07-C10-rewrite-v13\\images\\C10\\S02_v3.png"
+      ],
+      "initial_prompt": "Use the reference for EXACT SAME two identities, costumes, miniature black stage set and lighting. Create single new cinematic16:9 first frame, not panels, no writing. Slight audience-left three-quarter medium-wide camera so near backside workbench lip can be glimpsed; all limbs clear. Same turntable still at ZERO rotation.\nCHANGED STATE: Entire long silver scarf now pooled ONLY on the front lower receiving shelf of the small black plinth, not on its top. EXACTLY THREE small metal rings exposed in one row on plinth top. Black curtain stays fixed centrally behind magician; same top bar at1.5m, straight rigid bottom hem bar. Magician center holding the screen-RIGHT END of this BOTTOM hem bar with his screen-right hand, lifted to around1.1m, making bottom bar diagonal while opposite end remains low. His head above fixed top, body remains in front of curtain. Do not hold top bar. His free other hand hovers near an open black notebook being offered by woman at his close SCREEN-LEFT, less than arm length. She has both hands on offered notebook; notebook contains simple photo placeholders and unlettered diagrams, no text. He has not yet taken it. Through gap underneath tilted bottom bar a narrow wood workbench edge immediately behind curtain visible as actual destination. Camera/laptop on same concealed bench, no new desk in foreground. This is BEFORE he secretly slides notebook underneath curtain. Proud dismissive magician vs composed determined woman. Silver scarf remains separate. Foreground plinth can partially occlude their thighs but hands, actual tilted lower rod and book path clear. Caption space top. No duplicates, no extra people, no floating book or stretched arms.",
+      "initial_reference": [
+        "C:/Users/wseok/.codex/generated_images/01a1719d-8025-70b0-a734-29b1cc33aa00/exec-07c3151a-06ca-416a-8161-d46d98946b5b.png"
+      ],
+      "review_status": "THREE_REVIEWERS_FINAL_SELECTED_FIRST_FRAME_PASS",
+      "review_notes": "작업대전체를회전판안으로이동/후방테두리를발뒤로이동/그립을수직지주와분리.",
+      "sha256": "a8ac5a16f35396b87bbefb3e5519244a9f5f3a31ad32e42796deee35729d708e",
+      "dimensions": [
+        1672,
+        941
+      ],
+      "subsequent_motion": "MG가 기록 책을 받아 검정 천 하단을 책으로 조금 밀어 올리며 바로 뒤 상판 가장자리(-0.25,+0.10)에 밀어 넣어 감춘다.",
+      "camera_notes": "가까운 두 사람과 책이 천 하단을 통과해 뒤 상판에 닿는 경로를 보이는 약한 측면 미디엄. 손만3m 늘어나거나 천 속으로 책이 소멸하지 않음.",
+      "required_end_state": "같은 기록 책이 실제 뒤 상판에 열린 채 놓임. MG 한손은 하단 가로봉 끝, 다른 손은 비어 있음. PR 손이 비고 왼쪽 원 밖 페달을 봄.",
+      "source_generated_image": "C:\\Users\\wseok\\.codex\\generated_images\\01a13daf-3732-7b90-99a8-92c605090d35\\exec-059459f6-d9ee-4796-8439-8664a339bf4f.png",
+      "previous_selected": [
+        {
+          "path": "\\\\wsl.localhost\\Ubuntu-24.04\\home\\wooseok\\wsy\\samsung_related\\slide\\AI실행결과발표대회_디자인3종\\storyboards\\2026-10-25_C07-C10-rewrite-v13\\images\\C10\\S02_v2.png",
+          "sha256": "d960560bbf93739786a4fffab5c034804e037da44921be468ee8d08906a228dc",
+          "prompt": "Edit to immediately EARLIER first frame, preserving EXACT physical set, camera, two actors and straight diagonal curtain rod, all geometry unchanged. Move the single open black notebook FROM the rear wood workbench INTO the woman's two hands: she now offers this open notebook across the short gap toward the magician. Notebook pages show an unlettered metal washer photograph and lamp-direction sketch, no faces or text. The magician's empty screen-left hand reaches toward notebook but has NOT touched it. His screen-right hand stays precisely at high RIGHT END of lower curtain rod, no other change. Woman looks at magician instead of pedal. No duplicate notebook on bench. ALL THREE rings on plinth top, all silver scarf in front shelf unchanged. Black curtain top fixed, bottom straight tilted, no folds forming V. Warm spotlight, landscape16:9. This is before magician hides notebook under curtain.",
+          "reference_images": [
+            "C:/Users/wseok/.codex/generated_images/01a1719d-8025-70b0-a734-29b1cc33aa00/exec-7918b9b1-f630-4089-89dc-574357870956.png"
+          ]
+        },
+        {
+          "actual_path": "\\\\wsl.localhost\\Ubuntu-24.04\\home\\wooseok\\wsy\\samsung_related\\slide\\AI실행결과발표대회_디자인3종\\storyboards\\2026-10-25_C07-C10-rewrite-v13\\images\\C10\\S02_v3.png",
+          "sha256": "0f64feb846a4e36d022398efc8a29615920635940bf77533aed94fb991e33efe",
+          "prompt": "Tiny precise correction to this exact scene, preserving the corrected platform and workbench, identities, posture, faces and all other objects. Only change the magician's HIGH hand on viewer-RIGHT and the raised end of the diagonal black lower curtain rod: the hand must grip the FREE BLACK LOWER ROD END itself, NOT the tall silver vertical stand pole. Move that raised rod end and gripping hand together INWARD about8cm (toward image left) and slightly toward camera, leaving a clearly visible black-background GAP of at least5cm between the magician's knuckles/rod tip and the silver vertical pole. Keep a natural connected forearm; do not add an arm. The diagonal rod runs from the low left free end up to his hand; it is not attached to either vertical pole. Black curtain fabric ends exactly at that diagonal rod, no second fabric below it. Top crossbar and two vertical silver poles remain fixed and unheld. No change to workbench location, platform rim, woman, book state, front display, lights, camera or objects. No text.",
+          "reference_images": [
+            "C:\\Users\\wseok\\.codex\\generated_images\\01a13daf-3732-7b90-99a8-92c605090d35\\exec-ad923981-f46e-4c10-a6fd-fd0b5b989beb.png"
+          ]
+        }
+      ],
+      "relative_image_path": "images/C10/S02_v4.png"
+    },
+    {
+      "concept_id": "C10",
+      "scene_id": "S03",
+      "linked_cuts": [
+        "C10_K03"
+      ],
+      "actual_path": "\\\\wsl.localhost\\Ubuntu-24.04\\home\\wooseok\\wsy\\samsung_related\\slide\\AI실행결과발표대회_디자인3종\\storyboards\\2026-10-25_C07-C10-rewrite-v13\\images\\C10\\S03_v3.png",
+      "prompt": "Local prop edit of this EXACT first frame. Keep ALL people, faces, poses, hand positions, every piece of furniture, notebook state, camera/laptop, all stage feet inside round platform, lighting and camera IDENTICAL. Correct ONLY the BLACK CURTAIN FABRIC. The thin diagonal rod held by the man from LOW viewer-LEFT to HIGH viewer-RIGHT must be the TRUE BOTTOM HEM of this curtain, not a separate rod in front of a full curtain. DELETE ALL VERTICALLY PLEATED BLACK FABRIC BELOW that diagonal rod, including the vertical folds visible behind the man and behind/above the workbench notebook. Also REMOVE the long dangling strip on viewer-RIGHT of the high gripping hand: the cloth's right edge must taper inward from top-right crossbar to that hand/rod endpoint; below hand height nothing may hang to the right of his hand. All space below the diagonal hem must be smooth plain BLACK STUDIO BACKGROUND, existing clothes and existing desk/objects with no pleats. Keep curtain only in the polygon ABOVE the diagonal bottom hem, pleated/gathered upward. The high hand stays separated from vertical support pole by the existing black gap. Do NOT move the rod/hand, do NOT add arms, do NOT change stage furniture positions or bench feet. A single curtain with its lower edge attached along the diagonal rod, no extra fabric below. Do not remove human purple coat tails. No words or text, preserve full16:9 image.",
+      "reference_images": [
+        "\\\\wsl.localhost\\Ubuntu-24.04\\home\\wooseok\\wsy\\samsung_related\\slide\\AI실행결과발표대회_디자인3종\\storyboards\\2026-10-25_C07-C10-rewrite-v13\\images\\C10\\S03_v2.png"
+      ],
+      "initial_prompt": "Use exact actors, costume, stage objects from image1 and frontal camera composition from image2. New FIRST FRAME of next scene, single cinematic16:9 photograph. No text. Zero rotation same positions, stage not moving. Woman still standing ON the circular platform just SCREEN-LEFT beside magician, both hands now EMPTY down by her waist. She turns eyes and one shoulder toward the rectangular foot pedal on fixed ground OUTSIDE far screen-left. She has NOT walked yet, NOT pressed pedal. Magician stays center in front of black curtain, grips only the far screen-RIGHT END of its thin black lower hem rod at waist height, opposite hem end near knee. Make his hand actually at rod endpoint with no rod extending beyond his fingers. Curtain top fixed chest height, separate upper crossbar. He looks possessive toward woman. Open black notebook now on wood workbench directly behind lifted curtain gap, visibly resting on actual surface. Front black plinth three small metal rings, ALL silver scarf in front lower shelf, continuous same setup. Laptop/camera still rear bench. Frontal FULL WIDE from audience, rim and rectangular pedal completely in frame with clear unobstructed 1.4m walking path from woman's feet leftward across rim. Two pedals: small round beside magician, rectangle outside far left. No extras. Top black caption margin. No giant curtain or top bar above shoulders. Preserve genuine raised platform, shallow pedestal stage.",
+      "initial_reference": [
+        "C:/Users/wseok/.codex/generated_images/01a1719d-8025-70b0-a734-29b1cc33aa00/exec-299e133a-2bf0-47e4-96ec-6bf28ae3a4a1.png",
+        "C:/Users/wseok/.codex/generated_images/01a1719d-8025-70b0-a734-29b1cc33aa00/exec-07c3151a-06ca-416a-8161-d46d98946b5b.png"
+      ],
+      "review_status": "THREE_REVIEWERS_FINAL_SELECTED_FIRST_FRAME_PASS",
+      "review_notes": "작업대전체를회전판안으로이동/후방테두리를발뒤로이동/그립을수직지주와분리.",
+      "sha256": "98209a6482e3304a7313fcf77c7db679fb8721cf7f96ccfdadaa0bae2af4560f",
+      "dimensions": [
+        1672,
+        941
+      ],
+      "subsequent_motion": "PR이 왼쪽으로 실제 두 걸음 걸어 회전대 밖 고정 바닥으로 나간 뒤 페달을 한 번 누른다.",
+      "camera_notes": "발만 클로즈업하지 않고 PR의 원 안 시작점→테두리 통과→원 밖 페달을 한 낮은 와이드에서 보여줌.",
+      "required_end_state": "PR의 두 발은 원 밖. 무대만 시계방향으로5도 움직인 상태. MG·FX·세트는 그5도만큼 함께 이동.",
+      "source_generated_image": "C:\\Users\\wseok\\.codex\\generated_images\\01a13daf-3732-7b90-99a8-92c605090d35\\exec-3f20177c-7174-4a98-a193-4b3bbd5314c4.png",
+      "previous_selected": [
+        {
+          "path": "\\\\wsl.localhost\\Ubuntu-24.04\\home\\wooseok\\wsy\\samsung_related\\slide\\AI실행결과발표대회_디자인3종\\storyboards\\2026-10-25_C07-C10-rewrite-v13\\images\\C10\\S03.png",
+          "sha256": "ac180900dd7395646b54ef0f0816a8afa9fc104743ec2db13a658fbf3d2d239f",
+          "prompt": "Precise mechanical edit, keep all else unchanged. Black curtain must END at the magician's gripping right hand on screen, NOT extend further to the right. Move the curtain's RIGHT VERTICAL POLE left until it is just to the right of the magician's gripping hand. Shorten top crossbar accordingly. Trim the excess black curtain fabric and lower rod segment that currently continue from his hand down to far right. The remaining lower hem is ONE perfectly STRAIGHT diagonal rigid rod from the LOW LEFT endpoint near his knee to the HIGH RIGHT endpoint IN HIS HAND. No inverted V, no crease in bar, no cloth or bar past this hand. Lower rod is not attached to either vertical pole. Upper horizontal bar attached to poles stays fixed at upper chest height. His hand grips endpoint. This creates one small trapezoidal curtain,1.2mwide, leaving same wood bench with notebook, camera, laptop visible. All rest including woman,3rings,silk and stage unchanged. No text.",
+          "reference_images": [
+            "C:/Users/wseok/.codex/generated_images/01a1719d-8025-70b0-a734-29b1cc33aa00/exec-34a4be6a-98c7-4ea5-8167-4a46006fa36f.png"
+          ]
+        },
+        {
+          "actual_path": "\\\\wsl.localhost\\Ubuntu-24.04\\home\\wooseok\\wsy\\samsung_related\\slide\\AI실행결과발표대회_디자인3종\\storyboards\\2026-10-25_C07-C10-rewrite-v13\\images\\C10\\S03_v2.png",
+          "sha256": "727b2166f9cb96c37c6b09b33270641e4f92437351fa1181f994e30a99e8c257",
+          "prompt": "Tiny precise correction to this exact scene, preserving the corrected platform and workbench, identities, posture, faces and all other objects. Only change the magician's HIGH hand on viewer-RIGHT and the raised end of the diagonal black lower curtain rod: the hand must grip the FREE BLACK LOWER ROD END itself, NOT the tall silver vertical stand pole. Move that raised rod end and gripping hand together INWARD about8cm (toward image left) and slightly toward camera, leaving a clearly visible black-background GAP of at least5cm between the magician's knuckles/rod tip and the silver vertical pole. Keep a natural connected forearm; do not add an arm. The diagonal rod runs from the low left free end up to his hand; it is not attached to either vertical pole. Black curtain fabric ends exactly at that diagonal rod, no second fabric below it. Top crossbar and two vertical silver poles remain fixed and unheld. No change to workbench location, platform rim, woman, book state, front display, lights, camera or objects. No text.",
+          "reference_images": [
+            "C:\\Users\\wseok\\.codex\\generated_images\\01a13daf-3732-7b90-99a8-92c605090d35\\exec-d5de3ad6-5ce1-4902-bbb8-2b7211d950c1.png"
+          ]
+        }
+      ],
+      "relative_image_path": "images/C10/S03_v3.png"
+    },
+    {
+      "concept_id": "C10",
+      "scene_id": "S04",
+      "linked_cuts": [
+        "C10_K04"
+      ],
+      "actual_path": "\\\\wsl.localhost\\Ubuntu-24.04\\home\\wooseok\\wsy\\samsung_related\\slide\\AI실행결과발표대회_디자인3종\\storyboards\\2026-10-25_C07-C10-rewrite-v13\\images\\C10\\S04_v3.png",
+      "prompt": "Local prop edit of this EXACT first frame. Keep ALL people, faces, poses, hand positions, every piece of furniture, notebook state, camera/laptop, all stage feet inside round platform, lighting and camera IDENTICAL. Correct ONLY the BLACK CURTAIN FABRIC. The thin diagonal rod held by the man from LOW viewer-LEFT to HIGH viewer-RIGHT must be the TRUE BOTTOM HEM of this curtain, not a separate rod in front of a full curtain. DELETE ALL VERTICALLY PLEATED BLACK FABRIC BELOW that diagonal rod, including the vertical folds visible behind the man and behind/above the workbench notebook. Also REMOVE the long dangling strip on viewer-RIGHT of the high gripping hand: the cloth's right edge must taper inward from top-right crossbar to that hand/rod endpoint; below hand height nothing may hang to the right of his hand. All space below the diagonal hem must be smooth plain BLACK STUDIO BACKGROUND, existing clothes and existing desk/objects with no pleats. Keep curtain only in the polygon ABOVE the diagonal bottom hem, pleated/gathered upward. The high hand stays separated from vertical support pole by the existing black gap. Do NOT move the rod/hand, do NOT add arms, do NOT change stage furniture positions or bench feet. A single curtain with its lower edge attached along the diagonal rod, no extra fabric below. Do not remove human purple coat tails. No words or text, preserve full16:9 image.",
+      "reference_images": [
+        "\\\\wsl.localhost\\Ubuntu-24.04\\home\\wooseok\\wsy\\samsung_related\\slide\\AI실행결과발표대회_디자인3종\\storyboards\\2026-10-25_C07-C10-rewrite-v13\\images\\C10\\S04_v2.png"
+      ],
+      "review_status": "THREE_REVIEWERS_FINAL_SELECTED_FIRST_FRAME_PASS",
+      "review_notes": "작업대전체를회전판안으로이동/후방테두리를발뒤로이동/그립을수직지주와분리.",
+      "sha256": "e51e1400b25a7c4bf658c5fd74d3296b43f7359f29c67bc522a9768d782261f6",
+      "dimensions": [
+        1672,
+        941
+      ],
+      "subsequent_motion": "원형무대가 같은 시계방향으로 남은175도를 연속 회전해 총180도에서 완전히 멈춘다. MG는 모서리와 함께 뒤로 돌아간다.",
+      "camera_notes": "처음과같은고정와이드. 회전중카메라축을바꾸지않아앞뒤이동을관객이추적.",
+      "required_end_state": "작업대 중심(0,-0.65)이 앞, 장막(0,0), MG(0,+0.4), 진열대(0,+1.0)가 뒤. FX(+0.30,+0.50), WORK(+0.55,-0.45). PR은 아직 원 밖(-2.2,-0.65), 손을 작업대에 대지 않음.",
+      "source_generated_image": "C:\\Users\\wseok\\.codex\\generated_images\\01a13daf-3732-7b90-99a8-92c605090d35\\exec-dbc51c31-1954-4dd2-b539-6449276b0b8d.png",
+      "previous_selected": [
+        {
+          "path": "\\\\wsl.localhost\\Ubuntu-24.04\\home\\wooseok\\wsy\\samsung_related\\slide\\AI실행결과발표대회_디자인3종\\storyboards\\2026-10-25_C07-C10-rewrite-v13\\images\\C10\\S04.png",
+          "sha256": "f5627c0bb01ce0ad01d2126ef75b13d2bd5e2c9b1f046b308507a8da111a5ec5",
+          "prompt": "Single16:9 photoreal commercial FIRST FRAME of stage-turn scene. Use reference for exact same cast, props, stage, materials and lighting. Camera locked frontal audience view, but widen framing enough to fully show fixed floor left of circular stage. Magician and ALL set objects on circular turntable have rotated together a VERY SMALL FIVE DEGREES clockwise from overhead; NOT90or180degrees. Plinth still in foreground, black curtain center behind man, wood bench still at rear. Show slight oblique angle of plinth and curtain, not full reverse. Curtain fixed top at chest, free lower rod straight diagonal with HIGH endpoint gripped by magician's right hand, no V bend. All silver scarf in same FRONT shelf,3ringsonplinth. Single open notebook rests on rear wood bench. The cobalt jumpsuit woman has completed exiting to FAR SCREEN-LEFT OUTSIDE THE CIRCLE, BOTH FEET clearly on lower stationary ground, beside rectangular rotation pedal. She looks at stage as motor just starts, hands empty. She is not riding turntable, not near magician, not touching bench. Small round pedal remains with magician ON stage and rotates with him. Preserve actual footprint and front-back object order. Empty upper dark area for captions. No text, no motionblur, no extra people. This firstframe is five degrees only; later video will rotate remaining175degrees.",
+          "reference_images": [
+            "C:/Users/wseok/.codex/generated_images/01a1719d-8025-70b0-a734-29b1cc33aa00/exec-7918b9b1-f630-4089-89dc-574357870956.png"
+          ]
+        },
+        {
+          "actual_path": "\\\\wsl.localhost\\Ubuntu-24.04\\home\\wooseok\\wsy\\samsung_related\\slide\\AI실행결과발표대회_디자인3종\\storyboards\\2026-10-25_C07-C10-rewrite-v13\\images\\C10\\S04_v2.png",
+          "sha256": "37b9b0ca0733344593f1de61b1b3d532b41c7f101def55b229cdbdc3b3135ca3",
+          "prompt": "Tiny precise correction to this exact scene, preserving the corrected platform and workbench, identities, posture, faces and all other objects. Only change the magician's HIGH hand on viewer-RIGHT and the raised end of the diagonal black lower curtain rod: the hand must grip the FREE BLACK LOWER ROD END itself, NOT the tall silver vertical stand pole. Move that raised rod end and gripping hand together INWARD about8cm (toward image left) and slightly toward camera, leaving a clearly visible black-background GAP of at least5cm between the magician's knuckles/rod tip and the silver vertical pole. Keep a natural connected forearm; do not add an arm. The diagonal rod runs from the low left free end up to his hand; it is not attached to either vertical pole. Black curtain fabric ends exactly at that diagonal rod, no second fabric below it. Top crossbar and two vertical silver poles remain fixed and unheld. No change to workbench location, platform rim, woman, book state, front display, lights, camera or objects. No text.",
+          "reference_images": [
+            "C:\\Users\\wseok\\.codex\\generated_images\\01a13daf-3732-7b90-99a8-92c605090d35\\exec-adfe43f2-f4e9-4335-9fe6-d8cc3885b096.png"
+          ]
+        }
+      ],
+      "relative_image_path": "images/C10/S04_v3.png"
+    },
+    {
+      "concept_id": "C10",
+      "scene_id": "S05",
+      "linked_cuts": [
+        "C10_K05"
+      ],
+      "actual_path": "\\\\wsl.localhost\\Ubuntu-24.04\\home\\wooseok\\wsy\\samsung_related\\slide\\AI실행결과발표대회_디자인3종\\storyboards\\2026-10-25_C07-C10-rewrite-v13\\images\\C10\\S05_v2.png",
+      "prompt": "Precise local prop correction to this fully clothed theater comedy first frame. Preserve exact two adults, faces/head directions, full costumes, all furniture and small objects, camera, lighting and platform. Correct ONLY the black curtain and its lower grip.\nThe tilted straight diagonal rod is the BOTTOM EDGE of the one black cloth. REMOVE EVERY PIECE OF BLACK HANGING FABRIC BELOW this diagonal rod, especially the vertically pleated dark area between the screen-left support pole and the man's legs. Below the diagonal edge there must be empty black studio space, the man's existing black trousers and shoes, and the existing white-backed display plinth. No second cloth or pleats below it; no cutout hole in a full curtain. Keep all black cloth ABOVE the diagonal rod, folded between that rod and fixed upper bar.\nHis one visible hand must grip the HIGH SCREEN-LEFT END of the FREE diagonal rod, not the vertical support pole. Place that hand/rod endpoint a small distance INSIDE the left support so a clear black air gap separates hand from upright. Lower rod remains straight to its low right endpoint and is not bolted to either upright. Upper bar stays fixed. No new hands or other changes. White rear panel stays original size/location. Woman remains outside circle at far left, hands empty, before walking. Landscape16:9, no letters.",
+      "reference_images": [
+        "\\\\wsl.localhost\\Ubuntu-24.04\\home\\wooseok\\wsy\\samsung_related\\slide\\AI실행결과발표대회_디자인3종\\storyboards\\2026-10-25_C07-C10-rewrite-v13\\images\\C10\\S05.png"
+      ],
+      "initial_prompt": "A new FIRST FRAME after a HALF TURN of the EXACT same physical theatrical setup. Reference is identity/material guide only for this180degree changed geometry. Camera still audience-frontal wide, black studio, warm spotlight,16:9singlephotograph,no words. Circular4mturntable has finished rotating exactly180degrees and stopped. The woman is STILL FAR SCREEN-LEFT OUTSIDE platform on fixed floor next to same rectangular rotation pedal; empty hands; she has not walked back in.\nReverse rigid front/back order: NOW a low wooden WORKBENCH is FRONT AND CENTER on platform, TOP at0.95m, width1.2m. On it: small fixed camera on mini tripod SCREEN-LEFT aimed across three tiny test metal rings in center, one laptop with plain gray screen center-left, one open black notebook with ring-photo/lamp-sketch SCREEN-RIGHT. Small white desk lamp and small blank two-state switch at table screen-right. All are small proportional real props; no text. Behind workbench is same central black curtain stand, width1.2m TOP fixed1.5m, bottom thin straight free rod angled HIGH LEFT to LOW RIGHT. Behind curtain is same tall magician, now BACK/REAR THREE QUARTER to audience because stage rotated him; long silver hair/tailcoat and shoes still visible above/below, gripping high SCREEN-LEFT endpoint of bottom hem rod with one hand. No front-facing teleport. His other hand empty. Further BEHIND him is original black display plinth, three display rings and silver scarf tray now on FAR side away from camera. Only plinth's BACK is visible: a WHITE rectangular back panel0.8mwide by0.6mhigh around0.7–1.3mheight. This white backside is glimpsed under tilted black curtain, not a new light fixture.\nAll tabletop, curtain stand, magician, rearplinth feet fully sit ON circular turntable; stage circle extends behind every foot, not floating bench outside rim. Woman outsideleft as before. Round small FXpedal behind curtain nextto magician's screen-right shoe. Actual clear walking path around FRONT of table across stage to table right. Leaveblacktopcaptionarea. Twopeopleonly, no collage.",
+      "initial_reference": [
+        "C:/Users/wseok/.codex/generated_images/01a1719d-8025-70b0-a734-29b1cc33aa00/exec-7b351754-6c4f-4f8a-8892-9ddd8bebbc58.png"
+      ],
+      "review_status": "THREE_REVIEWERS_FINAL_SELECTED_FIRST_FRAME_PASS",
+      "review_notes": [
+        "대각 하단봉 아래 왼쪽 검정 세로주름 제거; 매끈한 검정 배경/기존 흰판/바지 노출.",
+        "손은 수직지주 오른쪽 안쪽의 자유로운 하단봉 끝을 쥠. 지주와 손 사이 얇은 검정 틈 확인.",
+        "PR 원 밖 시작 위치, MG 뒷머리 방향, 세 링/책/노트북/카메라/조명 유지."
+      ],
+      "sha256": "4f1c7659f400b66fe01e0f39e8706c6a73b91700840d0ce1ecc0aea8540b8772",
+      "dimensions": [
+        1672,
+        941
+      ],
+      "subsequent_motion": "PR이 정지한 무대의 앞 통로를 실제로 돌아 작업대 오른쪽(+0.9,-0.45)에 걸어 들어와 공개할 기록 앞에 선다.",
+      "camera_notes": "처음3.5~4초 객석 고정 와이드로 PR의 실제 보행 경로를 전부 보임. 도착 뒤 같은 장면의 기록 근접 편집 인서트 약3초: 이미 펼쳐진 실패 사진과 광원 방향 수정 스케치, 새 행동 생성 필요 없음.",
+      "required_end_state": "PR이 작업대 오른쪽에 안정적으로 서고 오른손은 기록 가까운 테두리에 놓임. 열린 기록과 노트북에 실패 촬영 조건/수정 기록이 보임. MG는 같은 뒤 좌표에서 이를 지켜봄.",
+      "source_generated_image": "C:/Users/wseok/.codex/generated_images/01a1719d-8025-70b0-a734-29b1cc33aa00/exec-a11f181c-eb0e-43bc-abb5-b9819a5965b7.png",
+      "previous_selected": [
+        {
+          "actual_path": "\\\\wsl.localhost\\Ubuntu-24.04\\home\\wooseok\\wsy\\samsung_related\\slide\\AI실행결과발표대회_디자인3종\\storyboards\\2026-10-25_C07-C10-rewrite-v13\\images\\C10\\S05.png",
+          "sha256": "e8b1dd1fd29dd10665ed8fe6e046b5eb305299a230ad8913b2caf1781c5233dc",
+          "prompt": "Correct staging in this image. Keep exact woman OUTSIDE LEFT, same front worktable with same small objects, same circle and camera. The magician MUST stand BEHIND the black curtain at CENTER. His long silver hair and head are seen above the curtain, BACK of his head facing camera. His legs/shoes show BELOW it. The OPAQUE curtain physically OCCLUDES his entire torso/tailcoat, not behind his torso. His one hand wraps around curtain LEFT EDGE to grip the endpoint of its LOWER hem bar at waist height. His other empty hand relaxed behind cloth. REMOVE the diagonal magic wand he currently holds near the top entirely.\nMake curtain frame LOW: upper fixed horizontal rail is chest level of the tall man, leaving whole head/neck above. Lower hem has ONE straight black diagonal bar, high SCREEN-LEFT at1.12m to LOW SCREEN-RIGHT at0.5m. This thin rod is sewn along BOTTOM EDGE of black cloth and BOTH ENDS FREE from stand; magician grips ONLY its left endpoint. Black fabric spans BETWEEN chest-height top and this tilted hem, no other rod. Worktable top .95m. Rear white rectangular panel is still attached to rear black plinth, partly visible through gap under raised LEFT hem, not floating. Top rail not above man's head. Framewidth1.2m. Tablewidth1.2m too, slightly narrower than current if needed. Actual2peopleonly. No text. This is same set reversed180degrees, curtain hides magicianbody.",
+          "reference_images": [
+            "C:/Users/wseok/.codex/generated_images/01a1719d-8025-70b0-a734-29b1cc33aa00/exec-fee29129-6895-4dcb-9fc0-aa470dc83c6f.png"
+          ]
+        }
+      ],
+      "relative_image_path": "images/C10/S05_v2.png"
+    },
+    {
+      "concept_id": "C10",
+      "scene_id": "S06",
+      "linked_cuts": [
+        "C10_K06"
+      ],
+      "actual_path": "\\\\wsl.localhost\\Ubuntu-24.04\\home\\wooseok\\wsy\\samsung_related\\slide\\AI실행결과발표대회_디자인3종\\storyboards\\2026-10-25_C07-C10-rewrite-v13\\images\\C10\\S06_v2.png",
+      "prompt": "Make ONE small mechanical correction to image1. Keep everything else exactly unchanged, especially smooth empty black area BELOW diagonal hem (no pleats, no cloth), people's positions and expressions, white panel, workbench objects. The man's visible screen-left hand currently wraps around the VERTICAL SILVER UPRIGHT. That is wrong. Reposition ONLY that hand and the very left END of the diagonal bottom rod about8centimetres to the RIGHT, inside the frame. His fingers must curl around the endpoint of the DIAGONAL thin rod, with a CLEAR BLACK AIR GAP between his entire hand and the upright. The upright must be visible uninterrupted as a straight silver line beside the empty air gap, without any fingers touching it. Shorten the diagonal rod at its high-left end if needed, keeping low-right endpoint beside woman's waiting hand unchanged. Keep black cloth attached above diagonal rod, trim tiny corner to follow new endpoint, no fabric hanging underneath. Image2 shows the desired detached lower-end grip. Hands holding lower rod, not stand. Fully clothed ordinary stage comedy. No other edits,no text,16:9.",
+      "reference_images": [
+        "C:/Users/wseok/.codex/generated_images/01a1719d-8025-70b0-a734-29b1cc33aa00/exec-beb00eab-4a86-4db9-bf1e-b963f686bce9.png",
+        "C:/Users/wseok/.codex/generated_images/01a1719d-8025-70b0-a734-29b1cc33aa00/exec-a11f181c-eb0e-43bc-abb5-b9819a5965b7.png"
+      ],
+      "review_status": "THREE_REVIEWERS_FINAL_SELECTED_FIRST_FRAME_PASS",
+      "review_notes": [
+        "대각 하단봉 아래 세로천 전량 제거. 바지/기존 흰판/매끈한 배경 노출.",
+        "두번째수정으로 손이 지주에서 분리되고 자유로운 대각봉 왼쪽끝을 쥠. 손과 수직지주 사이 검정 공백 확인.",
+        "PR 오른쪽 전달전 손, MG 옆얼굴/장소/소품 유지. 핸드오프완료상태 아님."
+      ],
+      "sha256": "ef4aa41040ae2a05e7c29cf6e91890f913965f197e7047515927e8b2b51da3ac",
+      "dimensions": [
+        1672,
+        941
+      ],
+      "subsequent_motion": "PR이 가까운 오른쪽 아래 가로봉 끝를 MG의 빈손으로 직접 넘긴다. MG는 같은 자리에서 몸통을 관객 쪽으로 돌려 받으며 하단 가로봉 양끝를1.12m 높이로 들게 된다.",
+      "camera_notes": "옆 미디엄 와이드로 실제 모서리 이동·MG 제자리 몸통 회전·얼굴/손/발을 함께. 목이나 팔을 천으로 묶지 않음.",
+      "required_end_state": "MG 두 손에 좌우 하단 가로봉 끝. 상단1.50m는 고정, 하단1.12m여서 상판0.95m 뒤로 흰 진열대 뒷면의 틈이 약0.17m 보임. 얼굴은 상단 위, 두 발은 하단 아래. PR은 손을 놓고 같은 작업대 오른쪽. 하단 가로봉 전체가 수평1.12m이며 천의 중간도 같은 높이로 접혀 흰 틈을 가리지 않는다.",
+      "source_generated_image": "C:/Users/wseok/.codex/generated_images/01a1719d-8025-70b0-a734-29b1cc33aa00/exec-32aa9997-0b41-4aec-aee1-2cffc0058fa3.png",
+      "previous_selected": [
+        {
+          "actual_path": "\\\\wsl.localhost\\Ubuntu-24.04\\home\\wooseok\\wsy\\samsung_related\\slide\\AI실행결과발표대회_디자인3종\\storyboards\\2026-10-25_C07-C10-rewrite-v13\\images\\C10\\S06.png",
+          "sha256": "f347142c98b58ac6e8a908b0938bae79ae419b022f9b3ea36f01b94464d60d63",
+          "prompt": "Single new cinematic16:9 FIRST FRAME of physical handoff. Use exact same two people, rotated180degree set from reference image1; image2 provides magician FACE identity ONLY. Stage now stationary. Change woman's position: she has finished walking and now stands at the RIGHT SIDE of front wooden workbench, very close to screen-right edge of central curtain. She is on the circular platform, NOT outside left. Her RIGHT hand is poised just beside the FREE LOW SCREEN-RIGHT END of curtain's bottom hem rod (not yet transferring); other hand relaxed. Only1woman. She can reach rod within normal forearm reach, no giant stretch.\nMagician still BEHIND curtain at same center, rear three-quarter head turning just a little toward woman, preparing to turn torso toward audience. His one hand holds HIGH SCREEN-LEFT END of same bottom rod. Other hand at his right side, ready to receive. Do NOT yet show him holding both ends. Fixed top rail at upper CHEST height, full head above. Thin rigid bottom rod slopes perfectly STRAIGHT down from his high left grip to LOW right endpoint near woman's knee/low thigh. Black cloth opaque covering his body. TWO separate horizontal/tilted rails, lower rod not fastened to poles.\nMild audience-right threequarter medium-wide camera reveals woman's upcoming hand-to-hand path, man's head, shoes and hands. Workbench in front remains camera left/laptop/3test rings/openbookright/lamp/switch. Rear plinth's white backside glimpsed under angled cloth. Small ROUND foot pedal beside magician's screen-right shoe visible; rectangular rotationpedal staysfarleftfloor mostlyoutofframe. Warm white practical lighting, no text, no effects smoke, silver scarf remainsbehindsetnotnewforeground. No addition of extra people,hands,cloth.",
+          "reference_images": [
+            "C:/Users/wseok/.codex/generated_images/01a1719d-8025-70b0-a734-29b1cc33aa00/exec-92b24f63-0533-49a9-9ae9-7e9feca5047c.png",
+            "C:/Users/wseok/.codex/generated_images/01a1719d-8025-70b0-a734-29b1cc33aa00/exec-07c3151a-06ca-416a-8161-d46d98946b5b.png"
+          ]
+        }
+      ],
+      "relative_image_path": "images/C10/S06_v2.png"
+    },
+    {
+      "concept_id": "C10",
+      "scene_id": "S07",
+      "linked_cuts": [
+        "C10_K07"
+      ],
+      "actual_path": "\\\\wsl.localhost\\Ubuntu-24.04\\home\\wooseok\\wsy\\samsung_related\\slide\\AI실행결과발표대회_디자인3종\\storyboards\\2026-10-25_C07-C10-rewrite-v13\\images\\C10\\S07.png",
+      "prompt": "Fix one crucial cloth error. Keep exact image camera, faces, hands gripping horizontal LOWER ROD, upper fixed rod, table, props and feet. DELETE ALL hanging black curtain fabric BELOW the rod held in magician's hands. That held rod is the BOTTOM EDGE, so there is absolutely NO fabric below it, no second layer continuing down. Below the held rod show his trouser waist and two legs naturally, and the existing rear display plinth behind him. Its white back panel appears behind samples above front table, partly occluded by magician's legs; enlarge that rear white panel to about two-thirds curtain width (0.8m vs1.2m), with its top immediately BELOW held rod and bottom hidden by fronttable. Only a NARROW bright strip should remain directly behind three sample rings above tabletop. No added new panel, light or whitecloth. No fabric under hands except his clothes. The only curtain is small BLACK rectangle between upper fixed bar and lower bar in his hands. This is physically essential; lowering this bottom bar later extends black fabric downward to cover white strip.16:9noletters.",
+      "reference_images": [
+        "C:/Users/wseok/.codex/generated_images/01a1719d-8025-70b0-a734-29b1cc33aa00/exec-c6493a48-6a3a-4ac0-873f-4ad88f4c9d84.png"
+      ],
+      "initial_prompt": "Use exact same people, costumes and stationary stage AFTER180degree rotation as reference1, face of magician from reference2. Single16:9 photoreal FIRST FRAME. Magician has now turned his torso in place to FACE THE CAMERA, still BEHIND center black curtain. His tall head and neck completely visible ABOVE fixed top rail, body hidden by curtain, both legs and shoes visible below. He holds BOTH ENDS of the FREE straight lower black hem rod, now perfectly HORIZONTAL at upper waist1.12m, one hand sticking out beyond each edge. The curtain fabric folds UP between this held lower rod and the fixed top rail at1.5m. Not a huge curtain; small rectangular opaque panel, upper rail fixed, no sagging center. No extra hands, never grip vertical supports. Woman has released lower rod, stands same screen-right workbench position hands relaxed, focused on samples.\nForeground workbench same small camera left/laptopleft/3metalringscenter/openbookright/lamp+switchright. Behind samples and beneath raised curtain lower edge, a narrow strip of rear plinth's WHITE BACK PANEL visible, straight bright gap, NOT glowing neon. Tabletop0.95m, rod1.12m. All feet clear. Magician's right FOOT poised NEXT TO small ROUND black pedal beside his screen-right shoe, NOT pressed yet; ankle preparing to nudge it. Slight side-angle fullbody view to reveal foot/roundpedal beneath table without hiding face/hand contacts. Fixed normal warm white work-light on, no smoke or pink light yet. Mild resentful but grandiose expression. Keep blank dark top area for later captions. No text.",
+      "initial_reference": [
+        "C:/Users/wseok/.codex/generated_images/01a1719d-8025-70b0-a734-29b1cc33aa00/exec-6093dc7c-b375-4a42-8fa7-262b1d9d67c4.png",
+        "C:/Users/wseok/.codex/generated_images/01a1719d-8025-70b0-a734-29b1cc33aa00/exec-07c3151a-06ca-416a-8161-d46d98946b5b.png"
+      ],
+      "intermediate_prompt": "Adjust camera and lower curtain grip in same exact stage setup for visual causality. Photoreal16:9 no text. Camera LOWER to eyeheight JUST ABOVE THE WORKBENCH TOP, about1.05m, frontal, not looking down steeply. This puts workbench tabletop and curtain bottom close together on screen. Curtain fixed UPPER rail remains at magician upper chest, face fully above. Magician holds free LOWER rod horizontally at his upper waist; rod is SEPARATE from poles. MOVE two vertical support poles each10cm OUTWARD from curtain edges, with visible small air gap between both gripping hands and poles. His hands grip the lower rod ENDS, not vertical poles. Keep lower rod absolutely straight and level. Black cloth folds upward above lower rod. Rear white plinth panel should appear as a clear NARROW WHITE HORIZONTAL STRIP directly behind the THREE RINGS, BETWEEN wooden tabletop and raised black cloth bottom: only about17cm high, just tall enough to spoil dark sample background. White strip is existing rear plinth backside, not light or fabric. Magician legs still show below cloth/table. Woman same right, camera/laptop/book/three rings/lamp/switch same positions. Foot round pedal visibly beside magician's screen-right shoe and not pressed. Entire stage same. No extra objects, no additional backdrop touching floor, no broad white patch between legs. The comedy is tiny white gap behind samples because magician holds curtain too high.",
+      "review_status": "THREE_REVIEWERS_FINAL_SELECTED_FIRST_FRAME_PASS",
+      "review_notes": "수평봉양끝그립/봉아래중복천제거/기존흰판과틈/발판누르기전 확인. 화면상밝은틈은17cm설계와정확계량일치미보증.",
+      "sha256": "617d5d189c93da46b437cf35862a56e5cf635e5e5043b123eb74a3cc86ce5ce5",
+      "dimensions": [
+        1672,
+        941
+      ],
+      "subsequent_motion": "MG가 손을 놓지 않고 발끝으로 바로 옆 FX를 한 번 누른다.",
+      "camera_notes": "얼굴·하단 양손·아래 드러난 발끝·FX가 읽히는 약한 측면 전신. 장막이 발을 가리지 않게 하단 높이 유지.",
+      "required_end_state": "FX가 눌림. MG 발은 제자리, 두 손은 천 하단 가로봉 끝 유지. 쇼 조명이 켜지기 시작.",
+      "source_generated_image": "C:/Users/wseok/.codex/generated_images/01a1719d-8025-70b0-a734-29b1cc33aa00/exec-83ea10ee-d571-443b-ac7b-afa5f2eb2d9f.png"
+    },
+    {
+      "concept_id": "C10",
+      "scene_id": "S08",
+      "linked_cuts": [
+        "C10_K08"
+      ],
+      "actual_path": "\\\\wsl.localhost\\Ubuntu-24.04\\home\\wooseok\\wsy\\samsung_related\\slide\\AI실행결과발표대회_디자인3종\\storyboards\\2026-10-25_C07-C10-rewrite-v13\\images\\C10\\S08.png",
+      "prompt": "Precisely preserve actors, all prop positions, curtain TWO separate rods and hands and workbench from reference. Generate NEXT scene's FIRST FRAME, a single cinematic16:9 no words. The magician remains facing front behind small curtain, BOTH hands gripping free lower horizontal rod at upper waist. No fabric whatsoever below the rod. Tall fixed top bar remains. Same white rear-plinth panel remains visible below hem behind sample rings, not glowing light. Magician has just pushed the round foot pedal with toe of his SCREEN-RIGHT shoe (toe contacts pedal once), seeking to regain showmanship. His expression suddenly satisfied, proud, slightly absurd. Pink and violet stage color LIGHTS are JUST BEGINNING to come on, weak purple rays at back and thin wisps of theatrical haze at sides, faces and hands fully unobscured. White desk task lamp is dimming/off. Woman at same right position looks calmly down toward tiny rings, hands relaxed, not yet touching switch. The humorous mismatch: tinythree metal rings and overblown show starting. Nofire,sparks,explosion,confetti,crowd,no body changes. Camera same frontal medium-wide, same stage stationary after180degrees.",
+      "reference_images": [
+        "C:/Users/wseok/.codex/generated_images/01a1719d-8025-70b0-a734-29b1cc33aa00/exec-83ea10ee-d571-443b-ac7b-afa5f2eb2d9f.png"
+      ],
+      "review_status": "THREE_REVIEWERS_FINAL_SELECTED_FIRST_FRAME_PASS",
+      "review_notes": "FX발끝접촉·양손하단봉유지·작업등소등·인물비가림없는보라연무. 첫시작으로색조명이이미선명하나후속강화여유.",
+      "sha256": "542a1d2040dc2eefdc3ae9ef96ea48f2dc9d615ff9764bd39f46724dca51a907",
+      "dimensions": [
+        1672,
+        941
+      ],
+      "subsequent_motion": "작은샘플하나를위해분홍·보라조명과얇은무대연무가과도하게켜진다.",
+      "camera_notes": "처음와이드보다살짝가까운정면. 불꽃/폭발/무대붕괴없음. 샘플과사람이가려질정도로연무를채우지않음.",
+      "required_end_state": "작은 링에 비해 무대 조명만 터무니없이 크다. PR은 바로 앞 오른쪽(+0.55,-0.45)의 WORK 스위치를 보고 손을 옮길 준비. 발 위치는(+0.9,-0.45) 그대로.",
+      "source_generated_image": "C:/Users/wseok/.codex/generated_images/01a1719d-8025-70b0-a734-29b1cc33aa00/exec-64fcd888-8e76-4d08-a36d-308096862111.png"
+    },
+    {
+      "concept_id": "C10",
+      "scene_id": "S09",
+      "linked_cuts": [
+        "C10_K09"
+      ],
+      "actual_path": "\\\\wsl.localhost\\Ubuntu-24.04\\home\\wooseok\\wsy\\samsung_related\\slide\\AI실행결과발표대회_디자인3종\\storyboards\\2026-10-25_C07-C10-rewrite-v13\\images\\C10\\S09.png",
+      "prompt": "A new frame in the same ordinary fully clothed stage comedy. Keep these two adult performers, their modest full-length costumes and all the set exactly as reference. Landscape16:9 single photograph, no text. Only change the woman's right arm: she raises her hand above the small two-button control switch next to the desk lamp, ready to press it. Her fingertip has not yet touched the button. She looks calmly at the control. Keep her blue work jumpsuit and brown tool belt. Keep the magician in his purple formal tailcoat and black trousers behind the small curtain, holding its lower rod with both hands. The dark cloth remains only above the horizontal rod. All three small sample rings, camera, laptop and notebook stay on the same workbench. Purple stage lighting and light mist remain on, small desk lamp still off. Same framing with faces, table and hands visible; no additions, no other pose changes.",
+      "reference_images": [
+        "C:/Users/wseok/.codex/generated_images/01a1719d-8025-70b0-a734-29b1cc33aa00/exec-64fcd888-8e76-4d08-a36d-308096862111.png"
+      ],
+      "failed_attempt": {
+        "prompt": "Use exact reference stage/actors/props unchanged. Single new16:9 cinematic FIRST FRAME of switch operation, no text. Slightly tighter mediumwide but include woman's head and right hand, same small two-button physical switch, white desk lamp, three metal rings, magician's head and curtain behind. Keep all geometry positions, magician's both hands maintain held lower horizontal rod. Black cloth exists ONLY above lower rod; white panel remains below behindsamples. Violet/pink stage lights ON and very thin purple haze; task desk lamp OFF. The woman now brings her anatomical RIGHT HAND (arm closest to table) over the TWO BUTTON switch beside desk lamp at rightedge of table. Index fingertip hovering ONE CENTIMETER ABOVE the nearer WHITE rectangular switch, NOT yet pressed. Natural bent elbow, distance about35cm frombody; no long arm, no new remote controller. She calmly looks at switch with purposeful half-smile. Left hand at hip. Magician still dignified smug pose watching performance, no positionalchange. The physical switch has plain blank button caps for later SHOW/WORK overlays, do NOT generate anyletters. Same tablecamera, laptopblank, ringdiagramnotebook. No jewelrymorphing, no new tables, no additional arms. This is before she turns off spectacle.",
+        "reason": "imagegen output moderation false-positive reported sexual; no image returned",
+        "request_id": "cc08718c-74e2-4720-adac-c6f37531a069"
+      },
+      "review_status": "THREE_REVIEWERS_FINAL_SELECTED_FIRST_FRAME_PASS",
+      "review_notes": "손끝스위치위누르기전/쇼조명ON작업등OFF/양손봉유지. 첫요청출력차단후정상작업복묘사재요청성공.",
+      "sha256": "3394a225f1762a4d17df72cbb06c2962a6e2cc17b7588089083a910d36e7ff89",
+      "dimensions": [
+        1672,
+        941
+      ],
+      "subsequent_motion": "PR이 손 닿는 WORK 스위치를 한 번 누른다.",
+      "camera_notes": "PR 손·물리 스위치·작업등·링을 한 프레임. 먼 곳 스위치를 누르는 공간 압축 없음.",
+      "required_end_state": "색조명과 연무 출력 OFF, 흰 작업등 ON. 남은 옅은 연무는 자연스럽게 잦아들고, 높은 장막 하단과 상판 사이로 기존 진열대의 흰 뒷면이 드러남.",
+      "source_generated_image": "C:/Users/wseok/.codex/generated_images/01a1719d-8025-70b0-a734-29b1cc33aa00/exec-6c75ea04-edba-4b0a-8c33-58bd64c76907.png"
+    },
+    {
+      "concept_id": "C10",
+      "scene_id": "S10",
+      "linked_cuts": [
+        "C10_K10"
+      ],
+      "actual_path": "\\\\wsl.localhost\\Ubuntu-24.04\\home\\wooseok\\wsy\\samsung_related\\slide\\AI실행결과발표대회_디자인3종\\storyboards\\2026-10-25_C07-C10-rewrite-v13\\images\\C10\\S10.png",
+      "prompt": "Generate next ordinary theater comedy storyboard photograph. Same two fully clothed adult performers, same blue work jumpsuit and formal purple tailcoat with full black trousers, same stage furniture. All objects and the magician's two hands stay exactly as pictured. Turn off the purple theatrical spotlights and turn on the small white desk lamp again, with natural warm white lighting. Woman changes her pointing direction from switch to the white rectangle behind the metal sample rings, looking at magician with an encouraging practical expression. Magician looks mildly resigned, still holding the lower curtain rail at same height. The white rectangle remains visible; curtain has not been lowered yet. Do not change curtain shape or any limb positions except woman's pointing arm. Slightly wider framing with empty dark area over heads for later event title. Landscape16:9, no text, no logos.",
+      "reference_images": [
+        "C:/Users/wseok/.codex/generated_images/01a1719d-8025-70b0-a734-29b1cc33aa00/exec-6c75ea04-edba-4b0a-8c33-58bd64c76907.png"
+      ],
+      "failed_attempt": {
+        "prompt": "Create the NEXT SCENE'S FIRST FRAME using exact cast and same stationary physical set in reference. Single cinematic16:9 image, no words or logos. The woman has just turned OFF the colorful stage spectacle. Purple/pink spotlights OFF; plain warm-white work light ON, desk lamp white luminous again; only faint residual wisps of haze at far sides, mostly clear black background. All table objects unchanged. Magician still holds the FREE lower horizontal curtain rod HIGH at upper-waist level with both hands, he has NOT lowered it yet. Fixed top rail at chest remains. Cloth ONLY above held rod; nothing dangling below. Exact same white BACK of rear display plinth stays visible behind samples BELOW held rod, the unwanted white background gap not fixed yet. His face now looks patiently irritated and resigned, not sad.\nWoman at SAME right workbench position points with her right index finger toward the bright WHITE GAP behind three tiny metal ring samples, preparing to gesture downward. Other hand relaxed, calm practical face looks toward magician. Her arm reaches normally over near side of book, doesn't cross entire table. This starts the final action: in later video she will gesture down and he will lower this bottom rod, extending black cloth to hide that whitegap. Do NOT generate the completed lowering here. He remains standing tall with hands high. All legs/feet visible. Frame a little wider and place all figures lower to reserve EMPTY BLACK UPPER FIFTH of image for later3lineeventcaption, above heads not over faces. Same frontal audience camera direction, same modest theater texture. Noextraactors,poles,curtainlayers or panels.",
+        "reason": "Output moderation reported sexual; ordinary fully clothed workplace/theater scene requested, no image returned",
+        "request_id": "136f9b2b-e419-4fb0-b1b3-e3a85ab528dc"
+      },
+      "review_status": "THREE_REVIEWERS_FINAL_SELECTED_FIRST_FRAME_PASS",
+      "review_notes": "작업등ON/화려조명OFF/흰틈노출/하단봉내리기전/여성가리킴. 최종자막상단공백은부족하여후합성레이아웃보완필요. 보라연무잔여매우약함.",
+      "sha256": "56aeb5cca238884039ab44cbca477322bc62dc2390fbbc1e3542dc4933e3e21c",
+      "dimensions": [
+        1672,
+        941
+      ],
+      "subsequent_motion": "MG가 무릎을 굽히며 하단 가로봉 양끝을 함께1.12m에서0.78m로 낮춘다. 가로봉은 수평을 유지해 흰 틈 전체를 검정 천으로 덮고 그 자세를 유지한다.",
+      "camera_notes": "정면 미디엄 와이드. 낮추기 전 밝은 틈→하단 하강→같은 부분이 검정으로 막히는 변화를 한 프레임에서 보임. 행사명은 별도 상단 빈 검정 배경, 얼굴/손 가리지 않음.",
+      "required_end_state": "상단은1.50m 그대로, 접힌 천 하단만0.78m. 샘플 뒤 흰 틈이 사라져 검정 배경이 된다. MG 얼굴은 상단 위, 손은 좌우 밖, 발은 하단 아래. PR이 앞에서 실패 조건을 고친 시연을 계속할 수 있는 상태.",
+      "source_generated_image": "C:/Users/wseok/.codex/generated_images/01a1719d-8025-70b0-a734-29b1cc33aa00/exec-251b488b-4081-44dd-bd6e-b904884034e6.png"
+    }
+  ]
+}

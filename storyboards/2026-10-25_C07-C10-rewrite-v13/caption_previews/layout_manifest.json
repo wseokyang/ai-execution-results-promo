@@ -1,0 +1,31 @@
+{
+  "source": "images/C10/S10.png",
+  "proof": "caption_previews/C10_S10_caption_layout_v2.png",
+  "text": [
+    "신기한 결과에서,",
+    "써볼 수 있는 방법으로.",
+    "Q-AI Fair"
+  ],
+  "font": "Malgun Gothic Bold",
+  "sizes": [
+    36,
+    36,
+    50
+  ],
+  "positions": [
+    [
+      84,
+      50
+    ],
+    [
+      84,
+      100
+    ],
+    [
+      84,
+      153
+    ]
+  ],
+  "flow_start_frame": false,
+  "purpose": "Post-production subtitle placement proof, IB006 hyphen restored"
+}

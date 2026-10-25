@@ -1,0 +1,111 @@
+{
+  "scope": "Root corrections to C10S02–S04 following independent image review",
+  "attempts": [
+    {
+      "concept_id": "C10",
+      "scene_id": "S02",
+      "file": "images/C10/S02_layout1.png",
+      "generated_source": "C:\\Users\\wseok\\.codex\\generated_images\\01a13daf-3732-7b90-99a8-92c605090d35\\exec-5f855505-ba97-4f90-9d50-a91bbf75d5bf.png",
+      "prompt": "Edit ONLY the FIRST attached scene. Preserve exact people/face/posture/hands/costumes, the purple magician, woman on the platform, notebook hand state, plinth/three rings/silver scarf/curtain and lighting. Correct the rear wooden workbench physical location to MATCH the second attached corrected stage reference: workbench is forward and centered immediately BEHIND black curtain ON the back half of circular raised turntable. All table legs contact patterned turntable surface with contact shadows; rear circular rim is behind the table feet. NOT on the rear studio floor. Keep objects belonging to this first frame: Woman still holds the open notebook, so NO extra notebook/book on the workbench. Workbench has its blank laptop/camera only. Keep woman on stage as in first frame, don't copy outside-stage stance from second reference. Do not change any other object, person, or camera. No text.16:9.",
+      "selected": false,
+      "reference_images": [
+        "images/C10/S02_v2.png",
+        "C:\\Users\\wseok\\.codex\\generated_images\\01a13daf-3732-7b90-99a8-92c605090d35\\exec-adfe43f2-f4e9-4335-9fe6-d8cc3885b096.png"
+      ],
+      "review_status": "PD_VIEWED, THREE_RECONFIRM_PENDING",
+      "sha256": "4a82f0c2164b6ac160139b17acc5c21126d98c023fbdb752ce986204eeba494d"
+    },
+    {
+      "concept_id": "C10",
+      "scene_id": "S02",
+      "file": "images/C10/S02_layout2.png",
+      "generated_source": "C:\\Users\\wseok\\.codex\\generated_images\\01a13daf-3732-7b90-99a8-92c605090d35\\exec-ad923981-f46e-4c10-a6fd-fd0b5b989beb.png",
+      "prompt": "Very precise local set correction to this exact frame. Keep all people, table, props, legs, camera and lights absolutely unchanged. ONLY enlarge the REAR portion of the raised circular platform: the rear gold boundary currently runs IN FRONT OF the workbench feet, making the bench sit off-stage. Move that REAR GOLD ARC upward in the image until it runs visibly BEHIND ALL FOUR wooden workbench feet. Fill the area between former rear arc and new arc with the SAME raised patterned bronze platform surface. The backmost edge should pass roughly at image y=500-520 (image941pxheight), behind table feet aroundy570, so a 30–60pixel strip of patterned raised stage is visible behind the bench feet. All wooden feet sit on the SAME continuous raised stage as magician. Remove the OLD rear boundary line entirely. Keep FRONT edge and the whole woman's stance unchanged. This is not an extra platform: one enlarged single turntable, no steps, no separate islands, no duplicated table. The black studio floor begins only beyond NEW rear gold arc. Real contact shadows under bench feet. No other change, no text.",
+      "selected": false,
+      "reference_images": [
+        "C:\\Users\\wseok\\.codex\\generated_images\\01a13daf-3732-7b90-99a8-92c605090d35\\exec-5f855505-ba97-4f90-9d50-a91bbf75d5bf.png"
+      ],
+      "review_status": "PD_VIEWED, THREE_RECONFIRM_PENDING",
+      "sha256": "e3c990bbb515bdf93b6b3d9d50f17979c714a2035aeda9e50d58d737cce91170"
+    },
+    {
+      "concept_id": "C10",
+      "scene_id": "S02",
+      "file": "images/C10/S02_v3.png",
+      "generated_source": "C:\\Users\\wseok\\.codex\\generated_images\\01a13daf-3732-7b90-99a8-92c605090d35\\exec-adee6cbd-0f9e-4d98-8f13-d9b75a036aa1.png",
+      "prompt": "Tiny precise correction to this exact scene, preserving the corrected platform and workbench, identities, posture, faces and all other objects. Only change the magician's HIGH hand on viewer-RIGHT and the raised end of the diagonal black lower curtain rod: the hand must grip the FREE BLACK LOWER ROD END itself, NOT the tall silver vertical stand pole. Move that raised rod end and gripping hand together INWARD about8cm (toward image left) and slightly toward camera, leaving a clearly visible black-background GAP of at least5cm between the magician's knuckles/rod tip and the silver vertical pole. Keep a natural connected forearm; do not add an arm. The diagonal rod runs from the low left free end up to his hand; it is not attached to either vertical pole. Black curtain fabric ends exactly at that diagonal rod, no second fabric below it. Top crossbar and two vertical silver poles remain fixed and unheld. No change to workbench location, platform rim, woman, book state, front display, lights, camera or objects. No text.",
+      "selected": true,
+      "reference_images": [
+        "C:\\Users\\wseok\\.codex\\generated_images\\01a13daf-3732-7b90-99a8-92c605090d35\\exec-ad923981-f46e-4c10-a6fd-fd0b5b989beb.png"
+      ],
+      "review_status": "PD_VIEWED, THREE_RECONFIRM_PENDING",
+      "sha256": "0f64feb846a4e36d022398efc8a29615920635940bf77533aed94fb991e33efe"
+    },
+    {
+      "concept_id": "C10",
+      "scene_id": "S03",
+      "file": "images/C10/S03_layout1.png",
+      "generated_source": "C:\\Users\\wseok\\.codex\\generated_images\\01a13daf-3732-7b90-99a8-92c605090d35\\exec-b36c3bfb-6aac-46b8-bf02-00fc0c9bf6a3.png",
+      "prompt": "Edit ONLY the FIRST attached scene. Preserve exact people/face/posture/hands/costumes, the purple magician, woman on the platform, notebook hand state, plinth/three rings/silver scarf/curtain and lighting. Correct the rear wooden workbench physical location to MATCH the second attached corrected stage reference: workbench is forward and centered immediately BEHIND black curtain ON the back half of circular raised turntable. All table legs contact patterned turntable surface with contact shadows; rear circular rim is behind the table feet. NOT on the rear studio floor. Keep objects belonging to this first frame: Notebook already removed from woman's hand lies on workbench behind curtain, only black cover visible, not readable secret. Keep woman on stage as in first frame, don't copy outside-stage stance from second reference. Do not change any other object, person, or camera. No text.16:9.",
+      "selected": false,
+      "reference_images": [
+        "images/C10/S03.png",
+        "C:\\Users\\wseok\\.codex\\generated_images\\01a13daf-3732-7b90-99a8-92c605090d35\\exec-adfe43f2-f4e9-4335-9fe6-d8cc3885b096.png"
+      ],
+      "review_status": "PD_VIEWED, THREE_RECONFIRM_PENDING",
+      "sha256": "8bfaa1f9b33dabb07dfd0a9a8974eeac184f74ba8c614aad547e84ce19b04ea0"
+    },
+    {
+      "concept_id": "C10",
+      "scene_id": "S03",
+      "file": "images/C10/S03_layout2.png",
+      "generated_source": "C:\\Users\\wseok\\.codex\\generated_images\\01a13daf-3732-7b90-99a8-92c605090d35\\exec-d5de3ad6-5ce1-4902-bbb8-2b7211d950c1.png",
+      "prompt": "Very precise local set correction to this exact frame. Keep all people, table, props, legs, camera and lights absolutely unchanged. ONLY enlarge the REAR portion of the raised circular platform: the rear gold boundary currently runs IN FRONT OF the workbench feet, making the bench sit off-stage. Move that REAR GOLD ARC upward in the image until it runs visibly BEHIND ALL FOUR wooden workbench feet. Fill the area between former rear arc and new arc with the SAME raised patterned bronze platform surface. The backmost edge should pass roughly at image y=500-520 (image941pxheight), behind table feet aroundy570, so a 30–60pixel strip of patterned raised stage is visible behind the bench feet. All wooden feet sit on the SAME continuous raised stage as magician. Remove the OLD rear boundary line entirely. Keep FRONT edge and the whole woman's stance unchanged. This is not an extra platform: one enlarged single turntable, no steps, no separate islands, no duplicated table. The black studio floor begins only beyond NEW rear gold arc. Real contact shadows under bench feet. No other change, no text.",
+      "selected": false,
+      "reference_images": [
+        "C:\\Users\\wseok\\.codex\\generated_images\\01a13daf-3732-7b90-99a8-92c605090d35\\exec-b36c3bfb-6aac-46b8-bf02-00fc0c9bf6a3.png"
+      ],
+      "review_status": "PD_VIEWED, THREE_RECONFIRM_PENDING",
+      "sha256": "82cacf324f193a495838aaed40eebe52666f7b69c019493cc07d50d3457d133f"
+    },
+    {
+      "concept_id": "C10",
+      "scene_id": "S03",
+      "file": "images/C10/S03_v2.png",
+      "generated_source": "C:\\Users\\wseok\\.codex\\generated_images\\01a13daf-3732-7b90-99a8-92c605090d35\\exec-b0134122-513e-4740-ab3b-deb4500313a7.png",
+      "prompt": "Tiny precise correction to this exact scene, preserving the corrected platform and workbench, identities, posture, faces and all other objects. Only change the magician's HIGH hand on viewer-RIGHT and the raised end of the diagonal black lower curtain rod: the hand must grip the FREE BLACK LOWER ROD END itself, NOT the tall silver vertical stand pole. Move that raised rod end and gripping hand together INWARD about8cm (toward image left) and slightly toward camera, leaving a clearly visible black-background GAP of at least5cm between the magician's knuckles/rod tip and the silver vertical pole. Keep a natural connected forearm; do not add an arm. The diagonal rod runs from the low left free end up to his hand; it is not attached to either vertical pole. Black curtain fabric ends exactly at that diagonal rod, no second fabric below it. Top crossbar and two vertical silver poles remain fixed and unheld. No change to workbench location, platform rim, woman, book state, front display, lights, camera or objects. No text.",
+      "selected": true,
+      "reference_images": [
+        "C:\\Users\\wseok\\.codex\\generated_images\\01a13daf-3732-7b90-99a8-92c605090d35\\exec-d5de3ad6-5ce1-4902-bbb8-2b7211d950c1.png"
+      ],
+      "review_status": "PD_VIEWED, THREE_RECONFIRM_PENDING",
+      "sha256": "727b2166f9cb96c37c6b09b33270641e4f92437351fa1181f994e30a99e8c257"
+    },
+    {
+      "concept_id": "C10",
+      "scene_id": "S04",
+      "file": "images/C10/S04_layout1.png",
+      "generated_source": "C:\\Users\\wseok\\.codex\\generated_images\\01a13daf-3732-7b90-99a8-92c605090d35\\exec-adfe43f2-f4e9-4335-9fe6-d8cc3885b096.png",
+      "prompt": "Edit this exact photographic frame to correct the physical set, leaving BOTH people, their faces/clothes/hands/positions, the curtain, pole assembly, front plinth, silver silk, rings, foot pedals, lighting and camera unchanged. The wooden workbench currently sits on the floor behind the circular turntable. MOVE that entire SAME wooden workbench and all objects on it FORWARD onto the BACK HALF OF THE CIRCULAR TURNTABLE, immediately behind the black curtain. Its legs must all stand on the raised patterned platform top, with CLEAR VISIBLE contact shadows and a strip of platform surface behind every foot. Move the table also slightly LEFT to be centered behind the curtain, not offset far right. Do not leave a second table on the rear floor. The workbench must rotate together with the curtain/plinth/magician in the subsequent shot. Keep table height realistic, about 0.75m and width1.2m. All table objects stay on same table, blank laptop screen. If necessary modestly deepen the platform's rear half so rear rim visibly passes BEHIND the table feet, but keep the woman and outside rectangular pedal clearly OFF the turntable. No writing, no collage. 16:9.",
+      "selected": false,
+      "reference_images": [
+        "images/C10/S04.png"
+      ],
+      "review_status": "PD_VIEWED, THREE_RECONFIRM_PENDING",
+      "sha256": "84cb6e9c29fa76b1ca29e04cc59e27a52b262eb7af884b8e521c2052c00b3db9"
+    },
+    {
+      "concept_id": "C10",
+      "scene_id": "S04",
+      "file": "images/C10/S04_v2.png",
+      "generated_source": "C:\\Users\\wseok\\.codex\\generated_images\\01a13daf-3732-7b90-99a8-92c605090d35\\exec-ab919b06-dc07-438a-951a-68b1d37b54ee.png",
+      "prompt": "Tiny precise correction to this exact scene, preserving the corrected platform and workbench, identities, posture, faces and all other objects. Only change the magician's HIGH hand on viewer-RIGHT and the raised end of the diagonal black lower curtain rod: the hand must grip the FREE BLACK LOWER ROD END itself, NOT the tall silver vertical stand pole. Move that raised rod end and gripping hand together INWARD about8cm (toward image left) and slightly toward camera, leaving a clearly visible black-background GAP of at least5cm between the magician's knuckles/rod tip and the silver vertical pole. Keep a natural connected forearm; do not add an arm. The diagonal rod runs from the low left free end up to his hand; it is not attached to either vertical pole. Black curtain fabric ends exactly at that diagonal rod, no second fabric below it. Top crossbar and two vertical silver poles remain fixed and unheld. No change to workbench location, platform rim, woman, book state, front display, lights, camera or objects. No text.",
+      "selected": true,
+      "reference_images": [
+        "C:\\Users\\wseok\\.codex\\generated_images\\01a13daf-3732-7b90-99a8-92c605090d35\\exec-adfe43f2-f4e9-4335-9fe6-d8cc3885b096.png"
+      ],
+      "review_status": "PD_VIEWED, THREE_RECONFIRM_PENDING",
+      "sha256": "37b9b0ca0733344593f1de61b1b3d532b41c7f101def55b229cdbdc3b3135ca3"
+    }
+  ]
+}

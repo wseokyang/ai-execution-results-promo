@@ -1,0 +1,1905 @@
+{
+  "version": "V13_DIRECTOR_DRAFT",
+  "prepared_on": "2026-10-25",
+  "status": "Planning only; no Flow/image/audio generation, render or upload performed by this agent",
+  "owner": "/root/v13_six_edit_director",
+  "scope": "C01–C06 final edit planning. Sources preserved. New source slots are planning targets, not actual generated footage.",
+  "frame_rate": 24,
+  "ratio": "16:9",
+  "resolution": [
+    1280,
+    720
+  ],
+  "source_path_base": "storyboards/",
+  "essential_dialogue": false,
+  "source_audio": "mute all generated speech; optional separately reviewed BGM/SFX only",
+  "review_scope": {
+    "read": [
+      "AGENTS.md",
+      "team/brief.toml",
+      "RESUME_CODEX.txt top latest history",
+      "root01/02/04 storyboards",
+      "v11storyboards.json",
+      "F/R reviews and probe records",
+      "C03v04/C05v06/C06v06 edit manifests"
+    ],
+    "viewed": "Actual0.5s contact sheets for C01K01/02/03/04/06/07/08/09, C02K03/04/05/06/07/08/09, C04K01/02/04/05/07/08 andRinputs; actualfullPNGanchors. C03overview, C05jackjoin+N03/N04contacts, C06impactjoin.",
+    "not_done": [
+      "Continuous full playback",
+      "Audio listening",
+      "Final subtitle tracked render verification",
+      "Venue visibility or audience test"
+    ]
+  },
+  "films": [
+    {
+      "id": "C01",
+      "title": "성공 자세 교정원",
+      "duration": 35.875,
+      "timeline": [
+        {
+          "cut": "K01",
+          "source": "2026-10-24_v12-C02-C04-C01-flow/C01_K01_take02.mp4",
+          "source_in": 0,
+          "source_out": 3.75,
+          "duration": 3.75,
+          "action": "Finger correction with solemn authority",
+          "post": [
+            "same K04 frame in portrait"
+          ],
+          "transition": "hard cut; preserve direction, prop state and complete required action",
+          "source_status": "existing",
+          "start": 0,
+          "end": 3.75
+        },
+        {
+          "cut": "K02",
+          "source": "2026-10-24_v12-C02-C04-C01-flow/C01_K02_take02.mp4",
+          "source_in": 0,
+          "source_out": 2.25,
+          "duration": 2.25,
+          "action": "Pose beside the portrait",
+          "post": [
+            "same K04 frame in portrait"
+          ],
+          "transition": "hard cut; preserve direction, prop state and complete required action",
+          "source_status": "existing",
+          "start": 3.75,
+          "end": 6.0
+        },
+        {
+          "cut": "K03",
+          "source": "2026-10-24_v12-C02-C04-C01-flow/C01_K03_take01.mp4",
+          "source_in": 1,
+          "source_out": 3.5,
+          "duration": 2.5,
+          "action": "Press laptop; monitor displays exact source",
+          "post": [
+            "monitor composite: K04 source0 to0.875 in last0.875s; verify button sync"
+          ],
+          "transition": "hard cut; preserve direction, prop state and complete required action",
+          "source_status": "existing",
+          "start": 6.0,
+          "end": 8.5
+        },
+        {
+          "cut": "K04",
+          "source": "2026-10-24_v12-C02-C04-C01-flow/C01_K04_take01.mp4",
+          "source_in": 0.875,
+          "source_out": 4.5,
+          "duration": 3.625,
+          "action": "Expand to same source: chair moves and man lands low. Keep first still-pose and landing, exclude later meditative sitting.",
+          "post": [],
+          "transition": "hard cut; preserve direction, prop state and complete required action",
+          "source_status": "existing",
+          "start": 8.5,
+          "end": 12.125
+        },
+        {
+          "cut": "K05",
+          "source": "2026-10-24_C01-C06-repair110/C01_K05_take03.mp4",
+          "source_in": 2.5,
+          "source_out": 7.25,
+          "duration": 4.75,
+          "action": "Blue and yellow actually leave through left door",
+          "post": [],
+          "transition": "hard cut; preserve direction, prop state and complete required action",
+          "source_status": "existing",
+          "start": 12.125,
+          "end": 16.875
+        },
+        {
+          "cut": "K06_fall",
+          "source": "2026-10-24_v12-C02-C04-C01-flow/C01_K06_take01.mp4",
+          "source_in": 1.5,
+          "source_out": 4.25,
+          "duration": 2.75,
+          "action": "Coach slides from chair and reaches floor; exclude extra-arm section after5s",
+          "post": [],
+          "transition": "hard cut; preserve direction, prop state and complete required action",
+          "source_status": "existing",
+          "start": 16.875,
+          "end": 19.625
+        },
+        {
+          "cut": "N01_coach_pose",
+          "source": null,
+          "source_in": null,
+          "source_out": null,
+          "duration": 3,
+          "action": "Already supine coach lifts only one arm and one bent knee; torso stays on mat",
+          "post": [],
+          "transition": "hard cut; preserve direction, prop state and complete required action",
+          "source_status": "NOT_GENERATED_PENDING_ACTUAL_ACTION_REVIEW",
+          "generation_priority_id": "G01",
+          "planned_duration": 3,
+          "start": 19.625,
+          "end": 22.625
+        },
+        {
+          "cut": "K07_photo",
+          "source": "2026-10-24_v12-C02-C04-C01-flow/C01_K07_take01.mp4",
+          "source_in": 0,
+          "source_out": 1.25,
+          "duration": 1.25,
+          "action": "Assistant photographs fixed coach; learner observes",
+          "post": [],
+          "transition": "hard cut; preserve direction, prop state and complete required action",
+          "source_status": "existing",
+          "start": 22.625,
+          "end": 23.875
+        },
+        {
+          "cut": "N02_learner_lie",
+          "source": null,
+          "source_in": null,
+          "source_out": null,
+          "duration": 2,
+          "action": "Learner seated beside fixed coach lowers shoulders/back to mat. No arm pose yet.",
+          "post": [],
+          "transition": "hard cut; preserve direction, prop state and complete required action",
+          "source_status": "NOT_GENERATED_PENDING_ACTUAL_ACTION_REVIEW",
+          "generation_priority_id": "G02A",
+          "planned_duration": 2,
+          "start": 23.875,
+          "end": 25.875
+        },
+        {
+          "cut": "N03_learner_copy",
+          "source": null,
+          "source_in": null,
+          "source_out": null,
+          "duration": 2,
+          "action": "Already supine learner raises one arm/knee to match coach; both hold",
+          "post": [],
+          "transition": "hard cut; preserve direction, prop state and complete required action",
+          "source_status": "NOT_GENERATED_PENDING_ACTUAL_ACTION_REVIEW",
+          "generation_priority_id": "G02B",
+          "planned_duration": 2,
+          "start": 25.875,
+          "end": 27.875
+        },
+        {
+          "cut": "K08_match",
+          "source": "2026-10-24_v12-C02-C04-C01-flow/C01_K08_take01.mp4",
+          "source_in": 0,
+          "source_out": 1,
+          "duration": 1,
+          "action": "Two matching poses, before subsequent drift",
+          "post": [],
+          "transition": "hard cut; preserve direction, prop state and complete required action",
+          "source_status": "existing",
+          "start": 27.875,
+          "end": 28.875
+        },
+        {
+          "cut": "K09_end",
+          "source": "2026-10-24_v12-C02-C04-C01-flow/C01_K09_take02.mp4",
+          "source_in": 0,
+          "source_out": 7,
+          "duration": 7,
+          "action": "Wide keeps photographer, two poses and attached door; title over vacant left wall",
+          "post": [],
+          "transition": "hard cut; preserve direction, prop state and complete required action",
+          "source_status": "existing",
+          "start": 28.875,
+          "end": 35.875
+        }
+      ],
+      "captions": [
+        {
+          "start": 0.25,
+          "end": 3.65,
+          "text": "AI 잘 쓰는 사람은\n자세부터 다릅니다.",
+          "position": "bottom"
+        },
+        {
+          "start": 6.25,
+          "end": 8.3,
+          "text": "그 사진의 원본",
+          "position": "bottom"
+        },
+        {
+          "start": 12.325,
+          "end": 16.65,
+          "text": "자세 말고,\n어떻게 일했는지요.",
+          "position": "bottom"
+        },
+        {
+          "start": 19.85,
+          "end": 22.5,
+          "text": "착지까지가 비법입니다.",
+          "position": "top"
+        },
+        {
+          "start": 22.8,
+          "end": 25.5,
+          "text": "새 교본 촬영",
+          "position": "top"
+        },
+        {
+          "start": 29.275,
+          "end": 35.875,
+          "text": "Q-AI Fair\nAI 실행 경험을 함께 나눠요.",
+          "position": "top_left"
+        }
+      ],
+      "sfx": [
+        {
+          "at": 11.0,
+          "event": "low mat landing; locate actual landing frame before mix"
+        },
+        {
+          "at": 18.9,
+          "event": "second low mat landing; no injury scream"
+        },
+        {
+          "at": 23,
+          "event": "one camera shutter after stance established"
+        }
+      ],
+      "music": "Restrained premium sports-training rhythm. 0.7s musical silence after first landing; resumes slightly too ceremonious at coach imitation.",
+      "must_fix": [
+        "G01/G02 actual joining pose; no claim bridge exists until new originals reviewed",
+        "Portrait and K03 monitor depict exact K04 first pose",
+        "No repeated pose/action through loops, no frozen action replacement"
+      ],
+      "fallback": "If generation fails, retain source ellipsis only as explicitly provisional; do not call completely smooth final."
+    },
+    {
+      "id": "C02",
+      "title": "검은 점을 잡아라",
+      "duration": 35.75,
+      "timeline": [
+        {
+          "cut": "K01",
+          "source": "2026-10-24_v12-C02-C04-C01-flow/C02_K01_take01.mp4",
+          "source_in": 0,
+          "source_out": 3.5,
+          "duration": 3.5,
+          "action": "Detective joins photographs with red thread",
+          "post": [],
+          "transition": "hard cut; preserve direction, prop state and complete required action",
+          "source_status": "existing",
+          "start": 0,
+          "end": 3.5
+        },
+        {
+          "cut": "K02",
+          "source": "2026-10-24_v12-C02-C04-C01-flow/C02_K02_take01.mp4",
+          "source_in": 0,
+          "source_out": 2.75,
+          "duration": 2.75,
+          "action": "Inspector redirects detective toward monitor",
+          "post": [],
+          "transition": "hard cut; preserve direction, prop state and complete required action",
+          "source_status": "existing",
+          "start": 3.5,
+          "end": 6.25
+        },
+        {
+          "cut": "K03",
+          "source": "2026-10-24_v12-C02-C04-C01-flow/C02_K03_take01.mp4",
+          "source_in": 1.5,
+          "source_out": 7.5,
+          "duration": 6.0,
+          "action": "Inspector points to three candidate photographs",
+          "post": [
+            "track actual display; compare spot coordinate within identical normalized panels"
+          ],
+          "transition": "hard cut; preserve direction, prop state and complete required action",
+          "source_status": "existing",
+          "start": 6.25,
+          "end": 12.25
+        },
+        {
+          "cut": "K04_wipe",
+          "source": "2026-10-24_v12-C02-C04-C01-flow/C02_K04_take01.mp4",
+          "source_in": 1,
+          "source_out": 2.5,
+          "duration": 1.5,
+          "action": "Wipe orange lens window; cut before cloth touches specimen",
+          "post": [
+            "monitor remains SAME marked specimen image"
+          ],
+          "transition": "hard cut; preserve direction, prop state and complete required action",
+          "source_status": "existing",
+          "start": 12.25,
+          "end": 13.75
+        },
+        {
+          "cut": "K04_button",
+          "source": "2026-10-24_v12-C02-C04-C01-flow/C02_K04_take01.mp4",
+          "source_in": 4.5,
+          "source_out": 6,
+          "duration": 1.5,
+          "action": "Detective finger presses camera control; use real actor action, not claim inspector pressed",
+          "post": [
+            "dirty→clean same specimen only after button contact"
+          ],
+          "transition": "hard cut; preserve direction, prop state and complete required action",
+          "source_status": "existing",
+          "start": 13.75,
+          "end": 15.25
+        },
+        {
+          "cut": "K04_result",
+          "source": "2026-10-24_v12-C02-C04-C01-flow/C02_K04_take01.mp4",
+          "source_in": 6,
+          "source_out": 7,
+          "duration": 1,
+          "action": "Clean sample comparison can be read",
+          "post": [
+            "same specimen without spot; do not replace with blank unrelated white sheet"
+          ],
+          "transition": "hard cut; preserve direction, prop state and complete required action",
+          "source_status": "existing",
+          "start": 15.25,
+          "end": 16.25
+        },
+        {
+          "cut": "K05_install",
+          "source": "2026-10-24_v12-C02-C04-C01-flow/C02_K05_take01.mp4",
+          "source_in": 0,
+          "source_out": 2.5,
+          "duration": 2.5,
+          "action": "Detective places first cuff on top handle; terminate before long-chain release",
+          "post": [],
+          "transition": "hard cut; preserve direction, prop state and complete required action",
+          "source_status": "existing",
+          "start": 16.25,
+          "end": 18.75
+        },
+        {
+          "cut": "N04_release",
+          "source": null,
+          "source_in": null,
+          "source_out": null,
+          "duration": 2,
+          "action": "Hand holds lower cuff exactly in K06 lens-front position; withdraw hand only, short chain stays",
+          "post": [],
+          "transition": "hard cut; preserve direction, prop state and complete required action",
+          "source_status": "NOT_GENERATED_PENDING_ACTUAL_ACTION_REVIEW",
+          "generation_priority_id": "G03",
+          "planned_duration": 2,
+          "start": 18.75,
+          "end": 20.75
+        },
+        {
+          "cut": "K06_new_mark",
+          "source": "2026-10-24_v12-C02-C04-C01-flow/C02_K06_take01.mp4",
+          "source_in": 0.5,
+          "source_out": 2,
+          "duration": 1.5,
+          "action": "Inspector points toward display with new cuff obstruction",
+          "post": [
+            "show dark ring obstruction over same sample; NEVER unmotivated whole-screen blur"
+          ],
+          "transition": "hard cut; preserve direction, prop state and complete required action",
+          "source_status": "existing",
+          "start": 20.75,
+          "end": 22.25
+        },
+        {
+          "cut": "K07_record",
+          "source": "2026-10-24_v12-C02-C04-C01-flow/C02_K07_take02.mp4",
+          "source_in": 1.5,
+          "source_out": 4.25,
+          "duration": 2.75,
+          "action": "Technician photographs culprit and new obstruction",
+          "post": [
+            "phone display matches real K07 frame; use selected moment as physical photograph"
+          ],
+          "transition": "hard cut; preserve direction, prop state and complete required action",
+          "source_status": "existing",
+          "start": 22.25,
+          "end": 25.0
+        },
+        {
+          "cut": "K08_photo",
+          "source": "2026-10-24_v12-C02-C04-C01-flow/C02_K08_take01.mp4",
+          "source_in": 0.25,
+          "source_out": 3.75,
+          "duration": 3.5,
+          "action": "Inspector places the actual photograph onto investigation board",
+          "post": [
+            "exact K07 scene printed; mask hands"
+          ],
+          "transition": "hard cut; preserve direction, prop state and complete required action",
+          "source_status": "existing",
+          "start": 25.0,
+          "end": 28.5
+        },
+        {
+          "cut": "K09_palm",
+          "source": "2026-10-24_v12-C02-C04-C01-flow/C02_K09_take01.mp4",
+          "source_in": 4,
+          "source_out": 6.5,
+          "duration": 2.5,
+          "action": "Detective flattens photograph with open palm. This is NOT a tear attempt.",
+          "post": [
+            "same K07 photograph; preserve foreground hand"
+          ],
+          "transition": "hard cut; preserve direction, prop state and complete required action",
+          "source_status": "existing",
+          "start": 28.5,
+          "end": 31.0
+        },
+        {
+          "cut": "END_GRAPHIC",
+          "source": null,
+          "source_in": 0,
+          "source_out": 4.75,
+          "duration": 4.75,
+          "action": "Original graphic event card, not an action substitute",
+          "post": [
+            "Q-AI Fair\nAI 실행의 과정까지, 함께 봐요."
+          ],
+          "transition": "hard cut; preserve direction, prop state and complete required action",
+          "source_status": "postproduction_graphic",
+          "start": 31.0,
+          "end": 35.75
+        }
+      ],
+      "captions": [
+        {
+          "start": 0.3,
+          "end": 3.3,
+          "text": "제품은 다른데,\n흔적은 같다.",
+          "position": "bottom"
+        },
+        {
+          "start": 3.75,
+          "end": 6,
+          "text": "사진부터 보시죠.",
+          "position": "bottom"
+        },
+        {
+          "start": 6.5,
+          "end": 9,
+          "text": "AI가 모은 후보 3장",
+          "position": "bottom"
+        },
+        {
+          "start": 9.25,
+          "end": 12,
+          "text": "겹치니, 전부 같은 자리.",
+          "position": "bottom"
+        },
+        {
+          "start": 14.25,
+          "end": 16.1,
+          "text": "닦고 다시 찍으니… 사라졌다.",
+          "position": "bottom"
+        },
+        {
+          "start": 16.5,
+          "end": 19,
+          "text": "이제 못 움직여.",
+          "position": "bottom"
+        },
+        {
+          "start": 22.6,
+          "end": 24.9,
+          "text": "새로운 사례 확보.",
+          "position": "bottom"
+        },
+        {
+          "start": 28.6,
+          "end": 30.9,
+          "text": "이 사례는 직접 설명하시죠.",
+          "position": "top"
+        },
+        {
+          "start": 31.0,
+          "end": 35.75,
+          "text": "Q-AI Fair\nAI 실행의 과정까지, 함께 봐요.",
+          "position": "ending"
+        }
+      ],
+      "music": "Noir investigation pulse; confidence hit on cuff closure, then0.6s silence as new obstruction appears.",
+      "sfx": [
+        {
+          "event": "one cuff click",
+          "at": "actual closure in N04 or K05"
+        },
+        {
+          "event": "camera shutter",
+          "at": "K07 photo frame"
+        }
+      ],
+      "must_fix": [
+        "G03 short chain/lens height",
+        "Same sample before and after cleaning; new ring mark only after cuff blocking",
+        "Exact photo identity K07→K08→K09"
+      ],
+      "fallback": "Graphic ending card is legitimate event information, not a replacement for missing action."
+    },
+    {
+      "id": "C03",
+      "title": "환경까지 가져왔습니다",
+      "duration": 43.0,
+      "timeline": [
+        {
+          "cut": "K01",
+          "source": "2026-10-20_C03-flow-run08/C03_K01_take02.mp4",
+          "source_in": 0,
+          "source_out": 6,
+          "start": 0,
+          "end": 6,
+          "duration": 6,
+          "source_status": "existing",
+          "action": "Preserve established action and exact tracked composites"
+        },
+        {
+          "cut": "K02",
+          "source": "2026-10-19_C03-flow-run01/C03_K02_take01.mp4",
+          "source_in": 0,
+          "source_out": 4,
+          "start": 6,
+          "end": 10,
+          "duration": 4,
+          "source_status": "existing",
+          "action": "Preserve established action and exact tracked composites"
+        },
+        {
+          "cut": "K03",
+          "source": "2026-10-19_C03-flow-run01/C03_K03_take01.mp4",
+          "source_in": 0,
+          "source_out": 2.5,
+          "start": 10,
+          "end": 12.5,
+          "duration": 2.5,
+          "source_status": "existing",
+          "action": "Preserve established action and exact tracked composites"
+        },
+        {
+          "cut": "K03_done",
+          "source": "2026-10-20_C03-flow-run05/C03_K03_insert_take02.mp4",
+          "source_in": 6,
+          "source_out": 7,
+          "start": 12.5,
+          "end": 13.5,
+          "duration": 1,
+          "source_status": "existing",
+          "action": "Preserve established action and exact tracked composites"
+        },
+        {
+          "cut": "K04",
+          "source": "2026-10-20_C03-flow-run03/C03_K04_take02.mp4",
+          "source_in": 0,
+          "source_out": 3.5,
+          "start": 13.5,
+          "end": 17.0,
+          "duration": 3.5,
+          "source_status": "existing",
+          "action": "Preserve established action and exact tracked composites"
+        },
+        {
+          "cut": "K04_cuff",
+          "source": "2026-10-20_C03-flow-run06/C03_K04_insert_take05.mp4",
+          "source_in": 3.75,
+          "source_out": 5.5,
+          "start": 17.0,
+          "end": 18.75,
+          "duration": 1.75,
+          "source_status": "existing",
+          "action": "Preserve established action and exact tracked composites"
+        },
+        {
+          "cut": "K05_listen",
+          "source": "2026-10-20_C03-flow-run09/C03_K05_question_take05.mp4",
+          "source_in": 0,
+          "source_out": 1,
+          "start": 18.75,
+          "end": 19.75,
+          "duration": 1,
+          "source_status": "existing",
+          "action": "Preserve established action and exact tracked composites"
+        },
+        {
+          "cut": "K05",
+          "source": "2026-10-20_C03-flow-run03/C03_K05_take03.mp4",
+          "source_in": 1.25,
+          "source_out": 4.75,
+          "start": 19.75,
+          "end": 23.25,
+          "duration": 3.5,
+          "source_status": "existing",
+          "action": "Preserve established action and exact tracked composites"
+        },
+        {
+          "cut": "K06_before",
+          "source": "2026-10-19_C03-flow-run02/C03_K06_take01.mp4",
+          "source_in": 0,
+          "source_out": 1.25,
+          "start": 23.25,
+          "end": 24.5,
+          "duration": 1.25,
+          "source_status": "existing",
+          "action": "Preserve established action and exact tracked composites"
+        },
+        {
+          "cut": "K06_records",
+          "source": "2026-10-20_C03-flow-run08/C03_K06_insert_take01.mp4",
+          "source_in": 0,
+          "source_out": 2,
+          "start": 24.5,
+          "end": 26.5,
+          "duration": 2,
+          "source_status": "existing",
+          "action": "Preserve established action and exact tracked composites"
+        },
+        {
+          "cut": "K06_after",
+          "source": "2026-10-19_C03-flow-run02/C03_K06_take01.mp4",
+          "source_in": 3.25,
+          "source_out": 5.75,
+          "start": 26.5,
+          "end": 29.0,
+          "duration": 2.5,
+          "source_status": "existing",
+          "action": "Preserve established action and exact tracked composites"
+        },
+        {
+          "cut": "K07",
+          "source": "2026-10-20_C03-flow-run03/C03_K07_take02.mp4",
+          "source_in": 0,
+          "source_out": 6,
+          "start": 29.0,
+          "end": 35.0,
+          "duration": 6,
+          "source_status": "existing",
+          "action": "Preserve established action and exact tracked composites"
+        },
+        {
+          "cut": "K08",
+          "source": "2026-10-20_C03-flow-run03/C03_K08_take02.mp4",
+          "source_in": 0,
+          "source_out": 8,
+          "start": 35.0,
+          "end": 43.0,
+          "duration": 8,
+          "source_status": "existing",
+          "action": "Preserve established action and exact tracked composites"
+        }
+      ],
+      "captions": [
+        {
+          "start": 0.2,
+          "end": 3.8,
+          "text": "결과와 과정,\n빠짐없이 보내주세요.",
+          "kind": "setup",
+          "placement": "얼굴·손·핵심 소품을 피한 하단 안전 여백",
+          "box": {
+            "left_pct": 7,
+            "width_pct": 86,
+            "bottom_pct": 6
+          },
+          "cut": "K01"
+        },
+        {
+          "start": 6.3,
+          "end": 9.8,
+          "text": "잘됐던 작업 환경까지 도착.",
+          "kind": "reveal",
+          "placement": "얼굴·손·핵심 소품을 피한 하단 안전 여백",
+          "box": {
+            "left_pct": 7,
+            "width_pct": 86,
+            "bottom_pct": 6
+          },
+          "cut": "K02"
+        },
+        {
+          "start": 10.2,
+          "end": 12.4,
+          "text": "이번 결과도 같네.",
+          "kind": "evidence",
+          "placement": "얼굴·손·핵심 소품을 피한 하단 안전 여백",
+          "box": {
+            "left_pct": 7,
+            "width_pct": 86,
+            "bottom_pct": 6
+          },
+          "cut": "K03"
+        },
+        {
+          "start": 14.1,
+          "end": 17,
+          "text": "안 됐던 작업 환경도 도착.",
+          "kind": "escalation",
+          "placement": "얼굴·손·핵심 소품을 피한 하단 안전 여백",
+          "box": {
+            "left_pct": 7,
+            "width_pct": 86,
+            "bottom_pct": 6
+          },
+          "cut": "K04"
+        },
+        {
+          "start": 19.05,
+          "end": 23.05,
+          "text": "보낸 동료: “안 됐던 과정도\n빠짐없이 달라면서요.”",
+          "kind": "message",
+          "placement": "얼굴·손·핵심 소품을 피한 하단 안전 여백",
+          "box": {
+            "left_pct": 7,
+            "width_pct": 86,
+            "bottom_pct": 6
+          },
+          "cut": "K05"
+        },
+        {
+          "start": 26.25,
+          "end": 28.85,
+          "text": "안 된 과정에도\n단서가 있네?",
+          "kind": "discovery",
+          "placement": "상단 왼쪽 x3~29%, y4%. 두 파일과 R 얼굴을 비움.",
+          "box": {
+            "left_pct": 3,
+            "width_pct": 26,
+            "top_pct": 4,
+            "font_cqw": 3.1
+          },
+          "cut": "K06"
+        },
+        {
+          "start": 29.2,
+          "end": 31.799999999999997,
+          "text": "해본 사람에게\n물어봐야겠네요.",
+          "kind": "choice",
+          "placement": "얼굴·손·핵심 소품을 피한 하단 안전 여백",
+          "box": {
+            "left_pct": 7,
+            "width_pct": 86,
+            "bottom_pct": 6
+          },
+          "cut": "K07"
+        },
+        {
+          "start": 32.1,
+          "end": 34.8,
+          "text": "이번엔 제가 가겠습니다.",
+          "kind": "reversal",
+          "placement": "얼굴·손·핵심 소품을 피한 하단 안전 여백",
+          "box": {
+            "left_pct": 7,
+            "width_pct": 86,
+            "bottom_pct": 6
+          },
+          "cut": "K07"
+        },
+        {
+          "start": 37.0,
+          "end": 43.0,
+          "text": "Q-AI Fair\nAI 실행의 과정까지, 함께 봐요.",
+          "kind": "event",
+          "placement": "상단 빈 하늘",
+          "box": {
+            "left_pct": 7,
+            "width_pct": 86,
+            "top_pct": 6
+          },
+          "cut": "K08"
+        }
+      ],
+      "base": "2026-10-24_C03-caption-v04/edit_manifest.json",
+      "composites": "Reuse exact page_success/page_trial/laptop_diagram/records_diagram_overlay and tracking from caption-v04; not regenerate graphics/footage.",
+      "music": "Optional light documentary pulse/industrial ambience, no source speech. Current silent delivery is valid for noisy venue.",
+      "must_fix": [
+        "Caption 이번 결과도 같네 ends12.4 before glove insert, eliminating0.3s overhang",
+        "Cuff trim1.75s preserves finishing movement/release; verify actual final moving cut",
+        "End title6s maintained after retime"
+      ],
+      "generation": "No mandatory new scene identified in actual overview/records; do not repeat failed full glove extraction."
+    },
+    {
+      "id": "C04",
+      "title": "목마는 식사 중입니다",
+      "duration": 40.75,
+      "timeline": [
+        {
+          "cut": "K01_hunger",
+          "source": "2026-10-24_v12-C02-C04-C01-flow/C04_K01_take01.mp4",
+          "source_in": 0,
+          "source_out": 3,
+          "duration": 3,
+          "action": "Three hidden soldiers, belly squeeze and glances; no paper extraction",
+          "post": [],
+          "transition": "hard cut; preserve direction, prop state and complete required action",
+          "source_status": "existing",
+          "start": 0,
+          "end": 3
+        },
+        {
+          "cut": "N05_note",
+          "source": null,
+          "source_in": null,
+          "source_out": null,
+          "duration": 2,
+          "action": "One paper already one-third inside moon envelope is pushed fully in; hand withdraws empty",
+          "post": [],
+          "transition": "hard cut; preserve direction, prop state and complete required action",
+          "source_status": "NOT_GENERATED_PENDING_ACTUAL_ACTION_REVIEW",
+          "generation_priority_id": "G04",
+          "planned_duration": 2,
+          "start": 3,
+          "end": 5
+        },
+        {
+          "cut": "K02_delivery",
+          "source": "2026-10-24_v12-C02-C04-C01-flow/C04_K02_take01.mp4",
+          "source_in": 0.5,
+          "source_out": 4.5,
+          "duration": 4.0,
+          "action": "Commander hands envelope, clerk receives and lays on scan device",
+          "post": [
+            "exact 신고: 내부 탑승자 없음 on exposed declaration"
+          ],
+          "transition": "hard cut; preserve direction, prop state and complete required action",
+          "source_status": "existing",
+          "start": 5,
+          "end": 9.0
+        },
+        {
+          "cut": "K03_cart",
+          "source": "2026-10-24_v12-C02-C04-C01-flow/C04_K03_take01.mp4",
+          "source_in": 0,
+          "source_out": 3,
+          "duration": 3,
+          "action": "Commander blocks meal cart while clerk turns tablet",
+          "post": [],
+          "transition": "hard cut; preserve direction, prop state and complete required action",
+          "source_status": "existing",
+          "start": 9.0,
+          "end": 12.0
+        },
+        {
+          "cut": "K04_tablet",
+          "source": "2026-10-24_v12-C02-C04-C01-flow/C04_K04_take01.mp4",
+          "source_in": 0.5,
+          "source_out": 5.5,
+          "duration": 5.0,
+          "action": "Compare declaration versus meal memo; finger points in sequence",
+          "post": [
+            "exact two cards and AI 대조·확인 필요; mask pointing fingers"
+          ],
+          "transition": "hard cut; preserve direction, prop state and complete required action",
+          "source_status": "existing",
+          "start": 12.0,
+          "end": 17.0
+        },
+        {
+          "cut": "K05_verify",
+          "source": "2026-10-24_v12-C02-C04-C01-flow/C04_K05_take01.mp4",
+          "source_in": 0.5,
+          "source_out": 4.5,
+          "duration": 4.0,
+          "action": "Guard checks two originals, looks to matching crescent/cart",
+          "post": [
+            "same two document labels; no invented attendance number"
+          ],
+          "transition": "hard cut; preserve direction, prop state and complete required action",
+          "source_status": "existing",
+          "start": 17.0,
+          "end": 21.0
+        },
+        {
+          "cut": "K07_deny_open",
+          "source": "2026-10-24_v12-C02-C04-C01-flow/C04_K07_take01.mp4",
+          "source_in": 0,
+          "source_out": 5,
+          "duration": 5,
+          "action": "Closed lid remains at first; denial then first actual opening and steam. Omit K06 entirely.",
+          "post": [],
+          "transition": "hard cut; preserve direction, prop state and complete required action",
+          "source_status": "existing",
+          "start": 21.0,
+          "end": 26.0
+        },
+        {
+          "cut": "N06_windows",
+          "source": null,
+          "source_in": null,
+          "source_out": null,
+          "duration": 3,
+          "action": "Three closed shutters swing aside; exactly one face each, then HOLD. No bowl movement yet.",
+          "post": [],
+          "transition": "hard cut; preserve direction, prop state and complete required action",
+          "source_status": "NOT_GENERATED_PENDING_ACTUAL_ACTION_REVIEW",
+          "generation_priority_id": "G05",
+          "planned_duration": 3,
+          "start": 26.0,
+          "end": 29.0
+        },
+        {
+          "cut": "K08_bowls",
+          "source": "2026-10-24_C01-C06-repair110/C04_K08_three_visible_take01.mp4",
+          "source_in": 2,
+          "source_out": 3.5,
+          "duration": 1.5,
+          "action": "Exactly three people extend three bowls/spoons. No eating loop.",
+          "post": [],
+          "transition": "hard cut; preserve direction, prop state and complete required action",
+          "source_status": "existing",
+          "start": 29.0,
+          "end": 30.5
+        },
+        {
+          "cut": "K09_spoon",
+          "source": "2026-10-24_C01-C06-repair110/C04_K09_take02.mp4",
+          "source_in": 0.5,
+          "source_out": 6,
+          "duration": 5.5,
+          "action": "Commander extracts only one spoon; post-caption after it is visible",
+          "post": [],
+          "transition": "hard cut; preserve direction, prop state and complete required action",
+          "source_status": "existing",
+          "start": 30.5,
+          "end": 36.0
+        },
+        {
+          "cut": "END_GRAPHIC",
+          "source": null,
+          "source_in": 0,
+          "source_out": 4.75,
+          "duration": 4.75,
+          "action": "Original graphic event card, not an action substitute",
+          "post": [
+            "Q-AI Fair\nAI 실행 사례, 지금 시작합니다."
+          ],
+          "transition": "hard cut; preserve direction, prop state and complete required action",
+          "source_status": "postproduction_graphic",
+          "start": 36.0,
+          "end": 40.75
+        }
+      ],
+      "captions": [
+        {
+          "start": 0.2,
+          "end": 1.8,
+          "text": "숨소리도 내지 마라.",
+          "position": "top"
+        },
+        {
+          "start": 1.9,
+          "end": 3.0,
+          "text": "꼬르륵…",
+          "position": "top"
+        },
+        {
+          "start": 5.25,
+          "end": 8.8,
+          "text": "신고: 내부 탑승자 없음",
+          "position": "bottom"
+        },
+        {
+          "start": 9.2,
+          "end": 11.8,
+          "text": "아무도 없는데, 웬 배식?",
+          "position": "bottom"
+        },
+        {
+          "start": 12.2,
+          "end": 16.8,
+          "text": "AI 대조 · 확인 필요\n탑승자 없음 ↔ 수저 요청",
+          "position": "tablet_composite"
+        },
+        {
+          "start": 17.2,
+          "end": 20.8,
+          "text": "이 말, 수저를 씁니까?",
+          "position": "top"
+        },
+        {
+          "start": 21.1,
+          "end": 23.0,
+          "text": "안에는 아무도 없습니다.",
+          "position": "bottom"
+        },
+        {
+          "start": 33.3,
+          "end": 35.8,
+          "text": "지휘관부터.",
+          "position": "top_right"
+        },
+        {
+          "start": 36.0,
+          "end": 40.75,
+          "text": "Q-AI Fair\nAI 실행 사례, 지금 시작합니다.",
+          "position": "ending"
+        }
+      ],
+      "music": "Military tension stays serious until first bowl crosses window; hard musical cut at that physical frame, brief bowl rattle, then sparse pompous sting for commander.",
+      "must_fix": [
+        "G04 same paper actually enters envelope",
+        "G05 actual shutters open without panel morph/additional fourth person",
+        "End card only after spoon joke; no spoon duplication"
+      ],
+      "notes": "R three_visible starts open; must not falsely present it as opening action. K06 old begins open then closes and is excluded."
+    },
+    {
+      "id": "C05",
+      "title": "괴수는 퇴근할 수 없다",
+      "duration": 54.75,
+      "timeline": [
+        {
+          "cut": "K01",
+          "source": "2026-10-23_C06-C05-flow-run03/C05_K01_take02.mp4",
+          "source_in": 0,
+          "source_out": 4,
+          "start": 0,
+          "end": 4,
+          "crop": null,
+          "duration": 4,
+          "source_status": "existing",
+          "action": "K01"
+        },
+        {
+          "cut": "K02A",
+          "source": "2026-10-23_C06-C05-flow-run01/C05_K02A_take01.mp4",
+          "source_in": 1.25,
+          "source_out": 5.75,
+          "start": 4,
+          "end": 8.5,
+          "crop": null,
+          "duration": 4.5,
+          "source_status": "existing",
+          "action": "K02A"
+        },
+        {
+          "cut": "K02B",
+          "source": "2026-10-23_C06-C05-flow-run01/C05_K02B_take02.mp4",
+          "source_in": 0.5,
+          "source_out": 4.25,
+          "start": 8.5,
+          "end": 12.25,
+          "crop": null,
+          "duration": 3.75,
+          "source_status": "existing",
+          "action": "K02B"
+        },
+        {
+          "cut": "N01_entry",
+          "source": "2026-10-24_C05-first-flow-run01/C05_N01_take01.mp4",
+          "source_in": 0.5,
+          "source_out": 4.5,
+          "start": 12.25,
+          "end": 16.25,
+          "crop": null,
+          "duration": 4.0,
+          "source_status": "existing",
+          "action": "N01_entry"
+        },
+        {
+          "cut": "N02_hands_grip_front_edge",
+          "source": "2026-10-24_C05-first-flow-run01/C05_N02_take02.mp4",
+          "source_in": 1.5,
+          "source_out": 4.5,
+          "start": 16.25,
+          "end": 19.25,
+          "crop": null,
+          "duration": 3.0,
+          "source_status": "existing",
+          "action": "N02_hands_grip_front_edge"
+        },
+        {
+          "cut": "N03_neck_withdraws",
+          "source": "2026-10-24_C05-first-flow-run01/C05_N03_take01.mp4",
+          "source_in": 2,
+          "source_out": 7.5,
+          "start": 19.25,
+          "end": 24.75,
+          "crop": null,
+          "duration": 5.5,
+          "source_status": "existing",
+          "action": "N03_neck_withdraws"
+        },
+        {
+          "cut": "N07_one_palm_under",
+          "source": null,
+          "source_in": null,
+          "source_out": null,
+          "duration": 2.5,
+          "action": "From withdrawn neck/back-facing pose: near palm moves from front fascia to underside, far hand remains supporting",
+          "post": [],
+          "transition": "hard cut; preserve direction, prop state and complete required action",
+          "source_status": "NOT_GENERATED_PENDING_ACTUAL_ACTION_REVIEW",
+          "generation_priority_id": "G06A",
+          "planned_duration": 2.5,
+          "start": 24.75,
+          "end": 27.25
+        },
+        {
+          "cut": "N08_turn_finish",
+          "source": null,
+          "source_in": null,
+          "source_out": null,
+          "duration": 2.5,
+          "action": "Near palm supports underside; turn body outward and transfer far palm underneath, end in front-support K04 pose",
+          "post": [],
+          "transition": "hard cut; preserve direction, prop state and complete required action",
+          "source_status": "NOT_GENERATED_PENDING_ACTUAL_ACTION_REVIEW",
+          "generation_priority_id": "G06B",
+          "planned_duration": 2.5,
+          "start": 27.25,
+          "end": 29.75
+        },
+        {
+          "cut": "K04_worker_jack_insert",
+          "source": "2026-10-24_C01-C06-repair110/C05_K04_jack_detail_take01.mp4",
+          "source_in": 1.5,
+          "source_out": 3,
+          "start": 29.75,
+          "end": 31.25,
+          "crop": null,
+          "duration": 1.5,
+          "source_status": "existing",
+          "action": "K04_worker_jack_insert"
+        },
+        {
+          "cut": "K04_wide",
+          "source": "2026-10-23_C06-C05-flow-run01/C05_K04_take02.mp4",
+          "source_in": 2.5,
+          "source_out": 3.25,
+          "start": 31.25,
+          "end": 32.0,
+          "crop": null,
+          "duration": 0.75,
+          "source_status": "existing",
+          "action": "K04_wide"
+        },
+        {
+          "cut": "K04_plead",
+          "source": "2026-10-23_C06-C05-flow-run01/C05_K04_take02.mp4",
+          "source_in": 4.5,
+          "source_out": 7.25,
+          "start": 32.0,
+          "end": 34.75,
+          "crop": null,
+          "duration": 2.75,
+          "source_status": "existing",
+          "action": "K04_plead"
+        },
+        {
+          "cut": "K05",
+          "source": "2026-10-23_C06-C05-flow-run01/C05_K05_take02.mp4",
+          "source_in": 0.5,
+          "source_out": 5.25,
+          "start": 34.75,
+          "end": 39.5,
+          "crop": null,
+          "duration": 4.75,
+          "source_status": "existing",
+          "action": "K05"
+        },
+        {
+          "cut": "K06",
+          "source": "2026-10-23_C06-C05-flow-run03/C05_K06_take02.mp4",
+          "source_in": 0.5,
+          "source_out": 3.5,
+          "start": 39.5,
+          "end": 42.5,
+          "crop": null,
+          "duration": 3.0,
+          "source_status": "existing",
+          "action": "K06"
+        },
+        {
+          "cut": "K07",
+          "source": "2026-10-23_C06-C05-flow-run03/C05_K07_take02.mp4",
+          "source_in": 1,
+          "source_out": 5.5,
+          "start": 42.5,
+          "end": 47.0,
+          "crop": null,
+          "duration": 4.5,
+          "source_status": "existing",
+          "action": "K07"
+        },
+        {
+          "cut": "K08_thumb",
+          "source": "2026-10-23_C06-C05-flow-run01/C05_K08_take01.mp4",
+          "source_in": 0.5,
+          "source_out": 1.5,
+          "start": 47.0,
+          "end": 48.0,
+          "crop": null,
+          "duration": 1.0,
+          "source_status": "existing",
+          "action": "K08_thumb"
+        },
+        {
+          "cut": "K08_return",
+          "source": "2026-10-23_C06-C05-flow-run03/C05_K08_take02.mp4",
+          "source_in": 0,
+          "source_out": 6.75,
+          "start": 48.0,
+          "end": 54.75,
+          "crop": null,
+          "duration": 6.75,
+          "source_status": "existing",
+          "action": "K08_return"
+        }
+      ],
+      "captions": [
+        {
+          "start": 0.6,
+          "end": 3.7,
+          "text": "이 입구는 내가 접수한다.",
+          "position": "bottom",
+          "font_px": 42
+        },
+        {
+          "start": 15.25,
+          "end": 16.25,
+          "text": "어…?",
+          "position": "bottom",
+          "font_px": 42
+        },
+        {
+          "start": 32.25,
+          "end": 34.55,
+          "text": "조금만 더 잡아주세요.",
+          "position": "bottom",
+          "font_px": 42
+        },
+        {
+          "start": 34.95,
+          "end": 38.35,
+          "text": "잠시 후, AI 실행 사례 공개",
+          "position": "bottom",
+          "font_px": 42
+        },
+        {
+          "start": 44.85,
+          "end": 46.85,
+          "text": "들리세요?",
+          "position": "bottom",
+          "font_px": 42
+        },
+        {
+          "start": 49.75,
+          "end": 54.75,
+          "text": "Q-AI Fair\nAI 실행 사례, 지금 시작합니다.",
+          "position": "ending"
+        }
+      ],
+      "base": "2026-10-25_C05-jack-edit-v06/edit_manifest.json",
+      "music": "Preserve established score/effects design but retime downstream+3.5s. Do not stretch/mangle music under new transfers; recompose transition bar/ambience.",
+      "must_fix": [
+        "G06A/B prove hand placement and body turn; no roof collapse, extra creature, teleported support",
+        "Workers jack transport is not a lifting event; do not add lifting SFX or claim load transfer",
+        "Old N04 excluded after replacement"
+      ],
+      "fallback": "If new two transfers fail, currentv06 remains a version with explicitly acknowledged action ellipsis, not a seamless final."
+    },
+    {
+      "id": "C06",
+      "title": "퇴근 좀 해주세요",
+      "duration": 48.75,
+      "timeline": [
+        {
+          "cut": "K01",
+          "source": "2026-10-23_C06-C05-flow-run01/C06_K01_take01.mp4",
+          "source_in": 0,
+          "source_out": 5,
+          "start": 0,
+          "end": 5,
+          "duration": 5,
+          "source_status": "existing",
+          "action": "K01"
+        },
+        {
+          "cut": "K02_attack",
+          "source": "2026-10-24_C01-C06-repair110/C06_K02_impact_take01.mp4",
+          "source_in": 0.75,
+          "source_out": 2.25,
+          "start": 5,
+          "end": 6.5,
+          "duration": 1.5,
+          "source_status": "existing",
+          "action": "K02_attack"
+        },
+        {
+          "cut": "K02_sort",
+          "source": "2026-10-23_C06-C05-flow-run01/C06_K02_take01.mp4",
+          "source_in": 4.25,
+          "source_out": 7.5,
+          "start": 6.5,
+          "end": 9.75,
+          "duration": 3.25,
+          "source_status": "existing",
+          "action": "K02_sort"
+        },
+        {
+          "cut": "K03",
+          "source": "2026-10-23_C06-C05-flow-run01/C06_K03_take01.mp4",
+          "source_in": 1.25,
+          "source_out": 5.75,
+          "start": 9.75,
+          "end": 14.25,
+          "duration": 4.5,
+          "source_status": "existing",
+          "action": "K03"
+        },
+        {
+          "cut": "K04_wide",
+          "source": "2026-10-23_C06-C05-flow-run01/C06_K04_take01.mp4",
+          "source_in": 0.5,
+          "source_out": 3.5,
+          "start": 14.25,
+          "end": 17.25,
+          "duration": 3.0,
+          "source_status": "existing",
+          "action": "K04_wide"
+        },
+        {
+          "cut": "K04_check",
+          "source": "2026-10-23_C06-C05-flow-run03/C06_K04_check_take02.mp4",
+          "source_in": 1.25,
+          "source_out": 4.75,
+          "start": 17.25,
+          "end": 20.75,
+          "duration": 3.5,
+          "source_status": "existing",
+          "action": "K04_check"
+        },
+        {
+          "cut": "K05",
+          "source": "2026-10-23_C06-C05-flow-run02/C06_K05_take03.mp4",
+          "source_in": 1,
+          "source_out": 6,
+          "start": 20.75,
+          "end": 25.75,
+          "duration": 5,
+          "source_status": "existing",
+          "action": "K05"
+        },
+        {
+          "cut": "K06",
+          "source": "2026-10-23_C06-C05-flow-run01/C06_K06_take01.mp4",
+          "source_in": 0.75,
+          "source_out": 3.75,
+          "start": 25.75,
+          "end": 28.75,
+          "duration": 3.0,
+          "source_status": "existing",
+          "action": "K06"
+        },
+        {
+          "cut": "K07",
+          "source": "2026-10-23_C06-C05-flow-run01/C06_K07_take01.mp4",
+          "source_in": 0,
+          "source_out": 4.5,
+          "start": 28.75,
+          "end": 33.25,
+          "duration": 4.5,
+          "source_status": "existing",
+          "action": "K07"
+        },
+        {
+          "cut": "K08",
+          "source": "2026-10-23_C06-C05-flow-run01/C06_K08_take01.mp4",
+          "source_in": 1.25,
+          "source_out": 5.75,
+          "start": 33.25,
+          "end": 37.75,
+          "duration": 4.5,
+          "source_status": "existing",
+          "action": "K08"
+        },
+        {
+          "cut": "K09_seat",
+          "source": "2026-10-23_C06-C05-flow-run01/C06_K09_take01.mp4",
+          "source_in": 0.75,
+          "source_out": 4.75,
+          "start": 37.75,
+          "end": 41.75,
+          "duration": 4.0,
+          "source_status": "existing",
+          "action": "K09_seat"
+        },
+        {
+          "cut": "K09_reaction",
+          "source": "2026-10-23_C06-C05-flow-run03/C06_K09_reaction_take01.mp4",
+          "source_in": 2,
+          "source_out": 4.25,
+          "start": 41.75,
+          "end": 44.0,
+          "duration": 2.25,
+          "source_status": "existing",
+          "action": "K09_reaction"
+        },
+        {
+          "cut": "END",
+          "source": null,
+          "source_in": 0,
+          "source_out": 4.75,
+          "start": 44.0,
+          "end": 48.75,
+          "duration": 4.75,
+          "source_status": "postproduction_graphic",
+          "action": "END"
+        }
+      ],
+      "captions": [
+        {
+          "start": 0.3,
+          "end": 2.4,
+          "text": "제발 퇴근 좀 해.",
+          "position": "top_left",
+          "font_px": 42
+        },
+        {
+          "start": 7.75,
+          "end": 9.55,
+          "text": "고마워요.",
+          "position": "bottom",
+          "font_px": 42
+        },
+        {
+          "start": 9.88,
+          "end": 14,
+          "text": "퇴근시키려면,\n일을 끝내줘야겠네.",
+          "position": "bottom",
+          "font_px": 42
+        },
+        {
+          "start": 14.45,
+          "end": 20.45,
+          "text": "이 한 건만 확인하면 끝.",
+          "position": "bottom",
+          "font_px": 42
+        },
+        {
+          "start": 20.91,
+          "end": 23.47,
+          "text": "오늘 남은 일, 끝.",
+          "position": "bottom",
+          "font_px": 42
+        },
+        {
+          "start": 26,
+          "end": 28.1,
+          "text": "드디어, 내 시간.",
+          "position": "top",
+          "font_px": 42
+        },
+        {
+          "start": 29.75,
+          "end": 33,
+          "text": "방금 나간 사람,\n어떻게 내보냈어요?",
+          "position": "top",
+          "font_px": 42
+        },
+        {
+          "start": 34.5,
+          "end": 37.5,
+          "text": "질문은 Q-AI Fair에서.",
+          "position": "bottom",
+          "font_px": 42
+        },
+        {
+          "start": 44.0,
+          "end": 48.75,
+          "text": "Q-AI Fair\n직접 해본 방법을 함께 봐요.",
+          "position": "ending"
+        }
+      ],
+      "base": "2026-10-25_C06-impact-edit-v06/edit_manifest.json",
+      "composites": "Reuse exact projector diagram and currentcaption wording; source audio muted.",
+      "music": "Reuse current mix with first palm-contact desk cue at6.125s. Check transient is single not double, music low enough for room noise.",
+      "must_fix": [
+        "Actual full playback/listening final QA; no sample-only full-pass claim"
+      ],
+      "generation": "No mandatory new motion identified from impact join. Optional G07 makes accidental-help/thank-you visibly motivated, if full playback finds the current transition unclear."
+    }
+  ],
+  "generation_priorities": [
+    {
+      "id": "G01",
+      "rank": 1,
+      "concept": "C01",
+      "purpose": "Bridge coach landing→raised teaching pose",
+      "first_frame": "2026-10-24_v12-C02-C04-C01-flow/frames/C01_K06_take01/08_4.000s.png",
+      "first_edit": "Keep supine coach, back and shoulders touching mat; remove no people; preserve standing learner/photographer.",
+      "end_state": "Coach still supine, near-ground left arm stays down, one right arm raised and one knee bent as K07 first frame.",
+      "model_suggestion": "Fast if20; observed body coordination difficulty; actual cost verify",
+      "required_seconds": 3,
+      "do_not": "Coach sits/kneels/stands, third arm, camera reposition"
+    },
+    {
+      "id": "G02A",
+      "rank": 2,
+      "concept": "C01",
+      "purpose": "Learner seated→back on mat",
+      "first_frame": "2026-10-24_C01-C06-repair110/inputs/C01_K07_recline.png",
+      "first_edit": "Create seated learner with feet forward and hands braced; fixed coach cropped to lower foreground if needed. Avoid already-elbow-supported half recline.",
+      "end_state": "Learner fully supine with arms down. Coach never rises.",
+      "model_suggestion": "Fast if20; simplify to one moving subject",
+      "required_seconds": 2
+    },
+    {
+      "id": "G02B",
+      "rank": 3,
+      "concept": "C01",
+      "purpose": "Copy one arm/knee while already supine",
+      "first_frame": "SELECTED_G02A_ACTUAL_END_FRAME",
+      "first_edit": "Use actual successful end; no new unrelated room angle.",
+      "end_state": "Both people match K08first1s, hold2s; photographer remains still.",
+      "model_suggestion": "Lite if10 for simple single actor adjustment",
+      "required_seconds": 2
+    },
+    {
+      "id": "G04",
+      "rank": 4,
+      "concept": "C04",
+      "purpose": "Actual note insertion",
+      "first_frame": "2026-10-24_C01-C06-repair110/inputs/C04_K01_insert.png",
+      "first_edit": "New tight close-up of brown-sleeved hand already holding paper one-third inside same crescent envelope. Other hand steadying envelope; no other papers/faces needed.",
+      "end_state": "Same paper disappears fully into envelope, hand withdraws empty; envelope stays.",
+      "model_suggestion": "Lite if10",
+      "required_seconds": 2
+    },
+    {
+      "id": "G03",
+      "rank": 5,
+      "concept": "C02",
+      "purpose": "Short chain lens-front release",
+      "first_frame": "2026-10-24_v12-C02-C04-C01-flow/frames/C02_K06_take01/00_0.000s.png",
+      "first_edit": "Add detective fingertips holding bottom cuff at this EXACT position; same short chain and orange lens frame. Do not use long-chain repair110 input.",
+      "end_state": "Fingers leave; lower ring still covers lens plane and does not fall below camera.",
+      "model_suggestion": "Lite if10; one hand action",
+      "required_seconds": 2
+    },
+    {
+      "id": "G06A",
+      "rank": 6,
+      "concept": "C05",
+      "purpose": "Front fascia grip→one palm underneath",
+      "first_frame": "2026-10-24_C05-first-flow-run01/frames/C05_N03_take01/14_7.000s.png",
+      "first_edit": "Use existing intact creature/roof after neck withdrawal; no new objects.",
+      "end_state": "Near palm presses underside; far hand maintains fascia hold; torso only partly turned.",
+      "model_suggestion": "Fast if20; complex creature contact",
+      "required_seconds": 2.5
+    },
+    {
+      "id": "G06B",
+      "rank": 7,
+      "concept": "C05",
+      "purpose": "Complete outward turn and other palm transfer",
+      "first_frame": "SELECTED_G06A_ACTUAL_END_FRAME",
+      "first_edit": "Actual end frame only. Need target same front-support pose as existing K04.",
+      "end_state": "Both palms underside at roof corners; front-facing neck/body; no worker/jack required in this shot.",
+      "model_suggestion": "Fast if20",
+      "required_seconds": 2.5
+    },
+    {
+      "id": "G05",
+      "rank": 8,
+      "concept": "C04",
+      "purpose": "Closed windows→three faces without panel morph",
+      "first_frame": "2026-10-24_C01-C06-repair110/inputs/C04_K08_detail.png",
+      "first_edit": "Make each of three side-hinged shutters consistent with later open-frame Rthree_visible. Remove ambiguous top/lateral double hinges.",
+      "end_state": "Three shutters open sideways; exactly one soldier behind each window, no bowls move yet.",
+      "model_suggestion": "Fast if20 if multi-object stability needed; alternatively Lite10 one shutter opening insert then wide already-open consequence",
+      "required_seconds": 3
+    },
+    {
+      "id": "G07",
+      "rank": 9,
+      "concept": "C06",
+      "purpose": "Optional visible reason for thank-you after failed scare",
+      "first_frame": "SELECTED_CURRENT_IMPACT_2.125s",
+      "first_edit": "Desk hands still down, employee slides one untidy stack against ghost palm.",
+      "end_state": "Paper stack becomes aligned against palm; employee takes aligned stack, ghost remains baffled.",
+      "model_suggestion": "Lite if10",
+      "required_seconds": 1.5,
+      "optional": true,
+      "reason": "Current thank-you uses employee own sorting, so accidental assistance may not read. Must confirm in whole playback before spending."
+    }
+  ],
+  "composite_design": [
+    {
+      "id": "C01_PORTRAIT",
+      "source": "2026-10-24_v12-C02-C04-C01-flow/frames/C01_K04_take01/00_0.000s.png",
+      "crop_xywh": [
+        425,
+        35,
+        440,
+        275
+      ],
+      "purpose": "Exact hand/face/pose, no chair/floor spoiler",
+      "initial_anchors_1280x720": [
+        {
+          "shot": "C01_K01_take02",
+          "time": 0,
+          "quad_tl_tr_br_bl": [
+            [
+              339,
+              0
+            ],
+            [
+              876,
+              10
+            ],
+            [
+              875,
+              323
+            ],
+            [
+              337,
+              322
+            ]
+          ]
+        },
+        {
+          "shot": "C01_K02_take02",
+          "time": 0,
+          "quad_tl_tr_br_bl": [
+            [
+              416,
+              0
+            ],
+            [
+              1124,
+              0
+            ],
+            [
+              1125,
+              466
+            ],
+            [
+              415,
+              463
+            ]
+          ]
+        }
+      ],
+      "mask": "All real foreground heads/arms/hands must occlude replacement. Do not paint over actor when mask unavailable. Anchors approximate visual seeds, not solved tracking."
+    },
+    {
+      "id": "C01_MONITOR",
+      "shot": "C01_K03_take01",
+      "time": 2,
+      "quad_tl_tr_br_bl": [
+        [
+          798,
+          78
+        ],
+        [
+          1193,
+          27
+        ],
+        [
+          1198,
+          299
+        ],
+        [
+          799,
+          306
+        ]
+      ],
+      "content": "K04 exactsource frame0 still, thenK04first0.875s animation, then hardcut sameK04source0.875 fullframe",
+      "mask": "Man head intersects left edge ~800px and must remain foreground. Final monitor timing sync to actual keypress, not estimated cue."
+    },
+    {
+      "id": "C02_COMPARE",
+      "shot": "C02_K03_take01",
+      "time": 0,
+      "quad_tl_tr_br_bl": [
+        [
+          468,
+          120
+        ],
+        [
+          1243,
+          53
+        ],
+        [
+          1225,
+          530
+        ],
+        [
+          461,
+          476
+        ]
+      ],
+      "content": "Same16 thumbnails; three enlarged objects each dark spot at normalized samex/y. After second cue, soft comparison guides or translucent three-panel alignment only, no invented numeric claim.",
+      "mask": "Gloved finger originalforeground; allscreenedges track."
+    },
+    {
+      "id": "C02_DIRTY_CLEAN_RING",
+      "shot": "C02_K04_take01",
+      "time": 2,
+      "quad_tl_tr_br_bl": [
+        [
+          930,
+          192
+        ],
+        [
+          1222,
+          168
+        ],
+        [
+          1207,
+          423
+        ],
+        [
+          916,
+          401
+        ]
+      ],
+      "content": "Use same white specimen texture as original monitor. StageA diffuse darkspot upperright; StageB sameimage spotremoved only after button; StageC dark defocused ring occlusion aftercuff. Keep sample shape/textureidentical.",
+      "mask": "No need paint over physical specimen or lens. K06 equivalentquad ~[[924,184],[1221,163],[1207,420],[910,394]] must track independently."
+    },
+    {
+      "id": "C02_PRINT",
+      "shot": "C02_K08_take01",
+      "time": 2,
+      "quad_tl_tr_br_bl": [
+        [
+          535,
+          268
+        ],
+        [
+          790,
+          273
+        ],
+        [
+          789,
+          443
+        ],
+        [
+          523,
+          423
+        ]
+      ],
+      "content": "Selected C02K07actualmoment(around3.5s) with exactcomposited monitor; perspectivecrop excluding phoneoperator foreground to emulate phoneview. The printedphoto must showsamecuffshape,pointingposeandringdisplay.",
+      "mask": "Hand boundaries and paper thickness; no global flat overlay. NeedK09separatetrack."
+    },
+    {
+      "id": "C02_PRINT_END",
+      "shot": "C02_K09_take01",
+      "time": 4,
+      "quad_tl_tr_br_bl": [
+        [
+          541,
+          305
+        ],
+        [
+          758,
+          307
+        ],
+        [
+          755,
+          444
+        ],
+        [
+          531,
+          437
+        ]
+      ],
+      "content": "samephysicalK07still asK08",
+      "mask": "Large detectivepalm/inspectorwhiteglove in front; handmaskmandatory. This is flattensphoto nottears."
+    },
+    {
+      "id": "C04_TABLET",
+      "shot": "C04_K04_take01",
+      "time": 0,
+      "quad_tl_tr_br_bl": [
+        [
+          394,
+          229
+        ],
+        [
+          912,
+          211
+        ],
+        [
+          963,
+          524
+        ],
+        [
+          420,
+          567
+        ]
+      ],
+      "content": "Keeplefticons/crescent selection; headerAI대조·확인필요; leftcard탑승자없음; rightcard수저요청. No resultconfidenceorheadcount. One line percardlargerthanbody.",
+      "mask": "Finger enteringcenterfrom1s; maskandtrackallframes. Directtabletcontent supersedes large duplicate subtitle."
+    },
+    {
+      "id": "C04_DOCUMENTS",
+      "shot": "C04_K05_take01",
+      "time": 0.5,
+      "white_quad": [
+        [
+          402,
+          357
+        ],
+        [
+          561,
+          390
+        ],
+        [
+          526,
+          491
+        ],
+        [
+          358,
+          456
+        ]
+      ],
+      "cream_quad": [
+        [
+          551,
+          417
+        ],
+        [
+          681,
+          450
+        ],
+        [
+          645,
+          569
+        ],
+        [
+          508,
+          532
+        ]
+      ],
+      "content": "white신고/내부탑승자없음; cream요청/식사·물·수저. Samebasiclabelsinthetablet/sourceenvelope, crescentpreserved.",
+      "mask": "Fingers/edges muststayforeground. Exactvaluesunconfirmednotinvented."
+    },
+    {
+      "id": "C03_REUSE",
+      "content": "Captionv04 same matchedresult andtwofile diagrams alreadytracked; use existingcode/assets. Only retimecaptionaftercufftrim."
+    },
+    {
+      "id": "C05_REUSE",
+      "content": "Existingeventplacard andearcup/headphone state fromv06 remain; newbridge needsnoonframegeneratedtext."
+    },
+    {
+      "id": "C06_REUSE",
+      "content": "CurrentexactprojectorAI기록분류→원문대조 andcomparison-sheet checkuseexistingcomposite recipe."
+    }
+  ],
+  "budget": {
+    "user_authorized_ceiling": 250,
+    "estimated_first_pass_if_fast20_lite10": 140,
+    "calculation": "G01 20 + G02A20 + G02B10 + G04 10 + G03 10 + G06A20 + G06B20 + G05 20 + optionalG07 10 =140",
+    "reserve": 110,
+    "note": "Do not spend all250 merely to exhaust; actual visible balances/modelcost verified by main. Retry only on concrete diagnosed defect; newbudgetdoesnotguaranteesuccess."
+  },
+  "final_qc": [
+    "Each action shown has an actual completed source; nofalseclaimoffullhand/bodytransfer",
+    "At everycut inspectlast0.5s/first0.5s character count, gazeaxis,heldpropsandcontactpositions",
+    "Captionreadabilityat720p and50%viewer: minimumroughly40px formain; title64px orlarger; actionareasnotcovered",
+    "One importantaction per shot, no looped/heldaction tofillduration; graphicendcardsexplicit",
+    "FullcontinuousvisualviewandactualBGM/SFXlistening distinguished fromsampling/ASR",
+    "OriginalMP4bytehashpreserved; editedderivatives separateversion; audiopeaks/frametimes/totaldurationchecked",
+    "Do not state final complete until pendingnewsource/composites and finalrenderQA actually done"
+  ]
+}

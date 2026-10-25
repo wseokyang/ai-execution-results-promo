@@ -1,0 +1,22 @@
+{
+  "file": "C01_front_review.mp4",
+  "sha256": "1ed258ac2c71cbe194a233d5ad0e30c49c702be85335bf080b89668386d0a83f",
+  "bytes": 7124166,
+  "duration_seconds": 22.875,
+  "frames": 549,
+  "dimensions": [
+    1280,
+    720
+  ],
+  "fps": 24,
+  "full_decode": "PASS",
+  "source_sha256_unchanged": true,
+  "video_pts": "constant1/24s",
+  "audio_streams": 1,
+  "continuous_full_playback_verified": false,
+  "audio_peak": 0.5823736190795898,
+  "audio_end": 22.875,
+  "audio_timeline_samples": 1098000,
+  "max_audio_pts_gap_seconds": 3.552713678800501e-15,
+  "actual_listening_verified": false
+}

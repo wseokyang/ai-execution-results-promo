@@ -1,0 +1,22 @@
+from pathlib import Path
+import re
+V=Path(__file__).resolve().parent
+out=V/'C05';out.mkdir(exist_ok=True)
+s=(V.parent/'2026-10-24_C05-causal-edit-v05/render_causal_edit.py').read_text(encoding='utf-8')
+s=s.replace('SB=OUT.parent','SB=OUT.parent.parent')
+s=s.replace("N='2026-10-24_C05-first-flow-run01'","N='2026-10-24_C05-first-flow-run01';V='2026-10-25_final-six-v13';R='2026-10-24_C01-C06-repair110'")
+s=s.replace("('K01',R3,'C05_K01_take02',0,4,None)","('K01',R3,'C05_K01_take02',0,3.25,None)")
+s=s.replace("('K02A',R1,'C05_K02A_take01',1.25,5.75,None)","('K02A',R1,'C05_K02A_take01',1.75,5.75,None)")
+s=s.replace("('K02B',R1,'C05_K02B_take02',.5,4.25,None)","('K02B',R1,'C05_K02B_take02',.5,3.5,None)")
+s=s.replace("('N03_neck_withdraws',N,'C05_N03_take01',2,7.5,None)","('N03_neck_withdraws',N,'C05_N03_take01',3,7.5,None)")
+s=s.replace("('N04_partial_turn',N,'C05_N04_take01',.5,2,None)","('N05_hand_transfer',V,'C05_N05_hand_transfer_take01',1.5,5,None),\n ('N06_pivot',V,'C05_N06_pivot_take01',1,5.5,None),\n ('N07_both_palms',V,'C05_N07_both_palms_take01',.5,5.25,None)")
+s=s.replace("('K04_worker_jack_insert',R1,'C05_K04_take02',1,2.5,[896,396,384,216])","('K04_worker_jack_insert',R,'C05_K04_jack_detail_take01',1.5,3,None)")
+s=re.sub(r'CAPTIONS=\[.*?\]\nCUES=\[.*?\]\n',"CAPTIONS=[(.6,3.15,'이 입구는 내가 접수한다.'),(13.25,14.25,'어…?'),(37,39.3,'조금만 더 잡아주세요.'),(39.7,43.1,'잠시 후, AI 실행 사례 공개'),(49.6,51.6,'들리세요?')]\nCUES=[(3.85,.85,'stone_scrape',-31,0,'pillar pulled away with visible dust'),(7,.38,'stone_land',-26,-.15,'pillar settles before empty-hand shot'),(13.25,.52,'structural_stress',-33,0,'neck caught under roof'),(34.7,1.15,'wheels',-37,.3,'sharp original of worker rolling jack'),(44.5,2,'wheels',-36,-.3,'ladder rolls'),(52.25,.42,'structural_stress',-32,0,'supporting hand leaves roof')]\n",s,flags=re.S)
+s=s.replace('26.25','34.5').replace('51.25','59.5').replace('46.25','54.5').replace('expected=1230','expected=1428')
+s=s.replace('version=5','version=13').replace('C05_Q-AI_Fair_causal_edit_v05.mp4','C05_Q-AI_Fair_final_v13.mp4')
+s=s.replace("'pillar removal → attempted entrance → neck caught → hands grip front edge → neck withdraws → partial outward turn → worker jack insert → front view'","'pillar removal → attempted entrance → neck caught → front grip → neck withdrawal → one hand under roof → outward pivot → both palms raised under roof → worker jack insert → front view'")
+s=re.sub(r"limitations=\[.*?\],status=", "limitations=['Separate Flow shots have small appearance/framing changes; final joins require independent review','N07 briefly lowers one hand before raising both: roof stays supported by the remaining columns','Jack shot establishes transport only, not a verified stop/lift action','All source speech removed; actual listening not verified'],status=",s)
+s=s.replace('The short outward turn is partial, not a full turn.','New three-shot hand/pivot/palms sequence replaces the incomplete partial turn.')
+(out/'render_c05.py').write_text(s,encoding='utf-8')
+(out/'.gitignore').write_text('review_frames/\nC05_picture.mp4\n*.wav\n__pycache__/\n',encoding='utf-8')
+print(out/'render_c05.py')

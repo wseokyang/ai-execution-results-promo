@@ -1,0 +1,25 @@
+{
+  "scope": "All three reviewers received the other two independent findings, cross-checked them and confirmed C05_r3.",
+  "A": {
+    "identity": "Agree, resolved by N05–N08 exclusion.",
+    "support": "Accept B/C caveat: remaining pillars do not prove collapse. Story concern removed by exclusion.",
+    "optional": "Retained as preferences.",
+    "r3_actual_confirmation": "7 full contacts,3joins,direct boundaries21.708/21.750/23.208/23.250; SHA854bced363d817ff54e3da4bb59485659c5cf468f1f9cd3fa2a11ad2dea3a77c; no new required problem.",
+    "status": "PASS_SAMPLE_REVIEW"
+  },
+  "C": {
+    "identity": "Agree mandatory. N05 head visible, exclude too.",
+    "support": "Agree phenomenon, partly disagree mandatory structural severity; excluded shot solves.",
+    "optional": "Agree optional, other5 no required issue.",
+    "r3_actual_confirmation": "All7full contacts,3joins,full MP4 decode,actual boundary/ending frames. 46.75s1122f1280x720, SHA854bced363d817ff54e3da4bb59485659c5cf468f1f9cd3fa2a11ad2dea3a77c. All required issues resolved, temporal ellipsis accepted.",
+    "status": "PASS_SAMPLE_REVIEW"
+  },
+  "B": {
+    "status": "PASS_SAMPLE_REVIEW",
+    "identity": "Agree mandatory; all N05–N08 excluded in r3.",
+    "support": "Agree phenomenon/story concern; retains optional grade because remaining columns do not prove collapse; excluded anyway.",
+    "optional": "Agree A003/004/005 are preferences, not blockers.",
+    "r3_actual_confirmation": "All7contacts,3joins,2boundary PNGs plus SHA; 21.708 side→21.75–23.25 jack→23.25 front. No new required issue."
+  },
+  "limitations": "No actual listening/realtime continuous playback."
+}

@@ -1,0 +1,199 @@
+{
+  "concept": "C02 검은 점을 잡아라",
+  "file": "C02_Q-AI_Fair_final_v13.mp4",
+  "duration_seconds": 36.25,
+  "fps": 24,
+  "resolution": [
+    1280,
+    720
+  ],
+  "timeline": [
+    {
+      "cut": "K01",
+      "source": "2026-10-24_v12-C02-C04-C01-flow\\C02_K01_take01.mp4",
+      "source_in": 0,
+      "source_out": 3.5,
+      "start": 0,
+      "end": 3.5
+    },
+    {
+      "cut": "K02",
+      "source": "2026-10-24_v12-C02-C04-C01-flow\\C02_K02_take01.mp4",
+      "source_in": 0,
+      "source_out": 2.75,
+      "start": 3.5,
+      "end": 6.25
+    },
+    {
+      "cut": "K03",
+      "source": "2026-10-24_v12-C02-C04-C01-flow\\C02_K03_take01.mp4",
+      "source_in": 1.5,
+      "source_out": 7.5,
+      "start": 6.25,
+      "end": 12.25
+    },
+    {
+      "cut": "K04",
+      "source": "2026-10-24_v12-C02-C04-C01-flow\\C02_K04_take01.mp4",
+      "source_in": 1,
+      "source_out": 2.5,
+      "start": 12.25,
+      "end": 13.75
+    },
+    {
+      "cut": "K04",
+      "source": "2026-10-24_v12-C02-C04-C01-flow\\C02_K04_take01.mp4",
+      "source_in": 4.5,
+      "source_out": 7,
+      "start": 13.75,
+      "end": 16.25
+    },
+    {
+      "cut": "K05",
+      "source": "2026-10-24_v12-C02-C04-C01-flow\\C02_K05_take01.mp4",
+      "source_in": 0,
+      "source_out": 2.5,
+      "start": 16.25,
+      "end": 18.75
+    },
+    {
+      "cut": "NEW",
+      "source": "2026-10-25_final-six-v13\\C02_K05_shortchain_take02.mp4",
+      "source_in": 0.5,
+      "source_out": 2.5,
+      "start": 18.75,
+      "end": 20.75
+    },
+    {
+      "cut": "NEW_REACT",
+      "source": "2026-10-25_final-six-v13\\C02_K05_shortchain_take02.mp4",
+      "source_in": 2.5,
+      "source_out": 5.0,
+      "start": 20.75,
+      "end": 23.25
+    },
+    {
+      "cut": "K07",
+      "source": "2026-10-24_v12-C02-C04-C01-flow\\C02_K07_take02.mp4",
+      "source_in": 1.5,
+      "source_out": 4.25,
+      "start": 23.25,
+      "end": 26.0
+    },
+    {
+      "cut": "K08",
+      "source": "2026-10-24_v12-C02-C04-C01-flow\\C02_K08_take01.mp4",
+      "source_in": 0.5,
+      "source_out": 3.5,
+      "start": 26.0,
+      "end": 29.0
+    },
+    {
+      "cut": "K09",
+      "source": "2026-10-24_v12-C02-C04-C01-flow\\C02_K09_take01.mp4",
+      "source_in": 4,
+      "source_out": 6.5,
+      "start": 29.0,
+      "end": 31.5
+    },
+    {
+      "cut": "END",
+      "source": null,
+      "source_in": 0,
+      "source_out": 4.75,
+      "start": 31.5,
+      "end": 36.25
+    }
+  ],
+  "captions": [
+    {
+      "start": 0.3,
+      "end": 3.3,
+      "text": "어딜 봐도, 같은 흔적.",
+      "position": "bottom"
+    },
+    {
+      "start": 3.75,
+      "end": 6,
+      "text": "사진부터 보시죠.",
+      "position": "bottom"
+    },
+    {
+      "start": 6.5,
+      "end": 9,
+      "text": "AI가 모은 후보 3장",
+      "position": "bottom"
+    },
+    {
+      "start": 9.25,
+      "end": 12,
+      "text": "서로 다른 사진, 같은 자리.",
+      "position": "bottom"
+    },
+    {
+      "start": 12.4,
+      "end": 14.15,
+      "text": "촬영창을 닦고…",
+      "position": "bottom"
+    },
+    {
+      "start": 14.3,
+      "end": 16.1,
+      "text": "점이 사라졌다.",
+      "position": "bottom"
+    },
+    {
+      "start": 16.5,
+      "end": 20.6,
+      "text": "이제 못 움직여.",
+      "position": "bottom"
+    },
+    {
+      "start": 20.85,
+      "end": 22.15,
+      "text": "이번엔 수갑이…",
+      "position": "bottom"
+    },
+    {
+      "start": 23.55,
+      "end": 25.85,
+      "text": "새로운 사례 확보.",
+      "position": "bottom"
+    },
+    {
+      "start": 29.1,
+      "end": 31.4,
+      "text": "이 사례는 직접 설명하시죠.",
+      "position": "top"
+    },
+    {
+      "start": 31.5,
+      "end": 36.25,
+      "text": "Q-AI Fair\nAI 실행의 과정까지, 함께 봐요."
+    }
+  ],
+  "source_sha256": {
+    "2026-10-24_v12-C02-C04-C01-flow\\C02_K07_take02.mp4": "8c74a173b596b1a448b6c18c2243aa05a90c2b3f2b08864b5cc1edc42148d619",
+    "2026-10-24_v12-C02-C04-C01-flow\\C02_K02_take01.mp4": "096917ae8068272bb76cfe3d6b47c43833f694e34e8a7531e2335f7357ef70ad",
+    "2026-10-24_v12-C02-C04-C01-flow\\C02_K01_take01.mp4": "a2ced67aaa2688e3380d0b1ea2b08c9e2f44c0f3c3f7d1aafe25d1162d75f602",
+    "2026-10-24_v12-C02-C04-C01-flow\\C02_K08_take01.mp4": "646e1226eb37b9ba09d2a9a530dccb9d83d4ca9a8cf5d814eb93efd3dd0455fe",
+    "2026-10-24_v12-C02-C04-C01-flow\\C02_K09_take01.mp4": "46fbf2bbeecf8594c79e0c3b378a12648da9616e89d9e3fcf28f48d1e6b54205",
+    "2026-10-24_v12-C02-C04-C01-flow\\C02_K03_take01.mp4": "7c0807b6eb01c3d89a060b81fd9693c3d6ab04a0609014669af50906d4fa8623",
+    "2026-10-24_v12-C02-C04-C01-flow\\C02_K05_take01.mp4": "2507867f46c8d31f5ed31676e28f63551bfb3b4d539484ecaada61070bb46bb9",
+    "2026-10-24_v12-C02-C04-C01-flow\\C02_K04_take01.mp4": "9ef801339f213c3ac754d1d0fa80a4a198ed186501ee4025b782bb19a915a81c",
+    "2026-10-25_final-six-v13\\C02_K05_shortchain_take02.mp4": "29a098b33792f077de407d29dd424b98c21969aee6c2f3a89f26bea42b2a1a48"
+  },
+  "source_audio": "muted",
+  "source_files_unchanged": true,
+  "action_stills_inserted": false,
+  "phone_photo": "PD-approved continuity composite: one source K08 sharp photograph is shared on K07 phone, K08 print, K09 print; native3s shutter blink retained.",
+  "actual_continuous_playback_verified": false,
+  "actual_listening_verified": false,
+  "status": "FINAL_EDIT_SAMPLE_QA_PASS",
+  "limitations": [
+    "Full continuous playback has not been verified by this agent.",
+    "Actual listening has not been performed; music and effects were checked by PCM/loudness/PTS analysis.",
+    "K05 installation to release is an editorial action ellipsis, not one continuous camera take."
+  ],
+  "final_review_record": "../reviews/final_film_review.json"
+}

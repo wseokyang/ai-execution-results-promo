@@ -1,0 +1,1027 @@
+{
+  "run_id": "2026-10-25_C07-C10-rewrite-v13",
+  "artist": "v13_artist_07_08",
+  "tool": "builtin image_gen",
+  "scope": [
+    "C07",
+    "C08"
+  ],
+  "required_scene_count": 20,
+  "generated_scene_count": 20,
+  "status": "20 images generated and directly viewed by artist; independent cross-review pending",
+  "draft_source": "storyboards_draft.json",
+  "no_flow_executed": true,
+  "scenes": [
+    {
+      "concept_id": "C07",
+      "scene_id": "S01",
+      "linked_cuts": [
+        "C07_K01"
+      ],
+      "actual_image_path": "\\\\wsl.localhost\\Ubuntu-24.04\\home\\wooseok\\wsy\\samsung_related\\slide\\AI실행결과발표대회_디자인3종\\storyboards\\2026-10-25_C07-C10-rewrite-v13\\images\\C07\\S01_v2.png",
+      "generated_source": "C:\\Users\\wseok\\.codex\\generated_images\\01a17198-e6d8-7b52-ac8d-e155cc595ff4\\exec-558cb0ea-a594-4d84-aa11-f24043c660d4.png",
+      "prompt": "Edit this single 16:9 cinematic frame very precisely. Keep the same porcelain man, his face, red side-part hair, left-side zigzag crack, purple suit, posture, inspector, lighting, factory, fixed camera and framing. Add a neat NARROW BLACK NECKTIE under his white shirt collar. The small yellow ribbon should instead be a plain yellow fabric loop wrapped around the suitcase's extended black grip beside his porcelain hand, not a decorative bow on the suitcase body. Remove the bow on the case. No other change. No text, no logo.",
+      "initial_prompt": "Use case: ads-marketing. Create one independent photoreal cinematic 16:9 widescreen first frame for an absurd escape-thriller commercial, C07 S01, not a collage. A tall thin adult male personification of a defective porcelain object approaches an inspection station with swagger, one step before arrival, moving left to right. Angular face, neat copper-red side-parted hair, well-fitted plum-purple suit, white shirt and narrow black tie. ALL exposed face, neck and hands are unmistakably polished ivory glazed porcelain with delicate joint seams at neck and finger knuckles; exactly one thin gray zigzag crack from his anatomical LEFT temple down left cheek. No wounds, no blood. His porcelain right hand holds extended handle of a small black hard-shell rolling suitcase with a bright yellow fabric band around handle. Frame includes face, porcelain neck, hand and suitcase, low medium-wide 35mm view. Behind him to screen LEFT is an orange inspection bench, a fixed industrial camera on a short post pointing horizontally at inspection position, blank dark monitor; beside it a thin 55-year-old Korean woman with narrow shoulders, long oval face, short tight BLACK curly hair, white work jacket, teal apron and gray gloves, calm. Same long industrial inspection corridor continues horizontally toward screen RIGHT to a distant blue-teal bench. Warm side keylight on porcelain, cool industrial ambient, convincing thriller atmosphere against mundane factory. Mildly grandiose expression, not everyone deadpan. Clean upper wall and lower-center safe area for later captions. No letters, no logos, no watermarks, no UI text, no subtitles. Start of motion, not already running or detected.",
+      "reference_images": [
+        "\\\\wsl.localhost\\Ubuntu-24.04\\home\\wooseok\\wsy\\samsung_related\\slide\\AI실행결과발표대회_디자인3종\\storyboards\\2026-10-25_C07-C10-rewrite-v13\\images\\C07\\S01.png"
+      ],
+      "review_status": "THREE_REVIEWERS_FINAL_SELECTED_FIRST_FRAME_PASS",
+      "review_notes": "검정 타이 누락 수정. 도자기 재질/좌측 균열/손 관절/노란 손잡이띠/검사자 구별 확인. 기본 이미지 v1 보존.",
+      "relative_image_path": "images/C07/S01_v2.png",
+      "sha256": "b317eff8622730666a8bb441de4e043b493d6ffc2ee213f06036529c1e0b7ba8",
+      "actual_format": "PNG",
+      "actual_dimensions": [
+        1672,
+        941
+      ],
+      "subsequent_motion": "D가 가방을 끌며 검사 위치로 자신 있게 한 걸음 들어온다.",
+      "camera": "손·목·얼굴까지 포함한 낮은 미디엄 트래킹. 마지막0.7초 고정. 구두만 오래 보이지 않음.",
+      "required_end_state": "D가 카메라 앞에 섰고 가방은 왼쪽 A대 옆.",
+      "caption_safe_area": [
+        "하단 중앙, 가방 손잡이/얼굴 회피"
+      ],
+      "post_composites": [],
+      "planned_start_state": "D가 A 검사대 앞에 도착하기 한 걸음 전. 검정 여행가방의 노란 손잡이띠를 잡은 도자기 손의 유약 광택·마디 접합선, 셔츠 위 도자기 목의 접합선과 왼쪽 볼의 균열이 함께 보임. 후경 IA는 마른 체형·짧은 검정 곱슬머리, 주황 작업대 옆.",
+      "artist_viewed_actual_file": true
+    },
+    {
+      "concept_id": "C08",
+      "scene_id": "S01",
+      "linked_cuts": [
+        "C08_K01"
+      ],
+      "actual_image_path": "\\\\wsl.localhost\\Ubuntu-24.04\\home\\wooseok\\wsy\\samsung_related\\slide\\AI실행결과발표대회_디자인3종\\storyboards\\2026-10-25_C07-C10-rewrite-v13\\images\\C08\\S01.png",
+      "generated_source": "C:\\Users\\wseok\\.codex\\generated_images\\01a17198-e6d8-7b52-ac8d-e155cc595ff4\\exec-37f2c1b8-593e-407b-bfe2-a066738605e4.png",
+      "prompt": "Use case ads-marketing. One cinematic photoreal 16:9 first frame C08 S01 for an original absurd action comedy. Bright modest Korean quality-team office, restrained natural daylight, desk on screen LEFT and intact pale plaster-covered brick wall on screen RIGHT, a window behind desk. Slim 28-year-old Korean male employee, narrow shoulders, straight smooth black long fringe and ROUND wire glasses, pale yellow shirt, dark gray trousers; sincere worried expression, not caricature. At his simple wood desk he looks at one unresolved blank review document, his right index finger hovering a few centimeters over a small physical assistance-call device with one red push-button, NOT touching yet. On desk same silver laptop screen blank neutral gray for later graphics, white document with a teal triangular physical corner tab (no words or symbols), empty thin black completion tray, mint-green closed rectangular lunchbox and black chopsticks beside it. All important objects visible, no stacks of unrelated paper. Medium 40mm shot includes his hand, worried face, call button, laptop and closed lunchbox, some empty wall above for captions. Future hero does not appear here. No text, numbers, symbols, brands, captions, watermark. This is start of motion before pressing; no action-complete UI.",
+      "reference_images": [],
+      "review_status": "THREE_REVIEWERS_FINAL_SELECTED_FIRST_FRAME_PASS",
+      "review_notes": "요청 버튼 누르기 전 손, 닫힌 도시락, 빈 완료 트레이, 직원/사무실 기준 확인.",
+      "relative_image_path": "images/C08/S01.png",
+      "sha256": "ebd64b1a6b62d8f54250fdf868506e8353a4d310840e2f991145265abf6fa34f",
+      "actual_format": "PNG",
+      "actual_dimensions": [
+        1672,
+        941
+      ],
+      "subsequent_motion": "E가 도움 요청 버튼을 한 번 누른다.",
+      "camera": "검토서·직원 표정·도움 버튼을 함께 잡는 미디엄.",
+      "required_end_state": "요청 전송 표시. 직원은 아직 일하는 중이며 책상/도시락 그대로.",
+      "caption_safe_area": [
+        "상단 빈 사무실 벽"
+      ],
+      "post_composites": [],
+      "planned_start_state": "E가 책상 앞에서 미해결 검토서 한 장을 보고 있다. 도시락은 닫혔고 오른손은 도움 요청 기기 위에 닿기 전.",
+      "artist_viewed_actual_file": true
+    },
+    {
+      "concept_id": "C07",
+      "scene_id": "S02",
+      "linked_cuts": [
+        "C07_K02"
+      ],
+      "actual_image_path": "\\\\wsl.localhost\\Ubuntu-24.04\\home\\wooseok\\wsy\\samsung_related\\slide\\AI실행결과발표대회_디자인3종\\storyboards\\2026-10-25_C07-C10-rewrite-v13\\images\\C07\\S02.png",
+      "generated_source": "C:\\Users\\wseok\\.codex\\generated_images\\01a17198-e6d8-7b52-ac8d-e155cc595ff4\\exec-c18168cb-f213-4909-8f0d-11c40f8047a4.png",
+      "prompt": "Use reference 1 as exact character, porcelain crack, clothing, factory and fixed industrial camera continuity. Make an independent cinematic 16:9 first frame C07 S02, slightly closer two-person medium shot at the same orange inspection bench. Same porcelain red-haired tall man in purple suit and narrow black tie stands in fixed camera's inspection position at screen right, still right hand on suitcase handle beside bench. His glossy ivory cheek crack and neck joint remain obvious. Same slender middle-aged black-curly-haired woman inspector at screen left, teal apron white jacket gray gloves, her right index finger hovers over a single small confirmation button but has NOT pressed. She compares him to a monitor in central foreground. Monitor is plain flat neutral dark gray with NO rendered UI, photo or words: it will receive exact crack closeup in post. Camera stays bolted to same pole and points at man's porcelain cheek. Contrasting smug man and calm inspector. Preserve orange bench, warm thriller light and distant blue bench. All hands anatomically sound. No text, symbols, logos, captions; clean space below shoulders for captions. No chase or detection-result glow yet.",
+      "reference_images": [
+        "\\\\wsl.localhost\\Ubuntu-24.04\\home\\wooseok\\wsy\\samsung_related\\slide\\AI실행결과발표대회_디자인3종\\storyboards\\2026-10-25_C07-C10-rewrite-v13\\images\\C07\\S01_v2.png"
+      ],
+      "review_status": "THREE_REVIEWERS_FINAL_SELECTED_FIRST_FRAME_PASS",
+      "review_notes": "동일 고정 카메라/의상·목 균열/버튼 누르기 전/후합성 빈 화면 확인.",
+      "relative_image_path": "images/C07/S02.png",
+      "sha256": "78afc0186c3c9f7dc329cb8f77a4f313a7ab5c8a9b7ca82e655f7aefc8f4ebd6",
+      "actual_format": "PNG",
+      "actual_dimensions": [
+        1672,
+        941
+      ],
+      "subsequent_motion": "IA가 도자기 표면 균열 표시와 D의 같은 균열을 대조해 확인 버튼을 한 번 누른다.",
+      "camera": "D와 IA·모니터를 함께 잡는 미디엄. 얼굴을 판정하는 실존 인식 시스템처럼 긴 UI를 만들지 않음.",
+      "required_end_state": "도자기 표면 균열 확대에 확인 표시. D가 도자기 손으로 남겨 둔 가방 손잡이를 놓고 굳는다. IA는 쫓지 않음.",
+      "caption_safe_area": [
+        "D 어깨 아래 빈 영역"
+      ],
+      "post_composites": [
+        "모니터 정확 문구: 도자기 표면 검사 / AI 균열 후보. 동일 왼쪽 균열 부위만 확대 표시; IA 버튼 뒤 확인 완료 아이콘 한 개. 얼굴 신원·직원 능력·불량 직원 같은 문구, 성능 수치 없음."
+      ],
+      "planned_start_state": "D의 도자기 목·손·볼 균열이 고정 산업카메라 옆에 보인다. 모니터는 같은 도자기 표면의 균열 확대와 실물 비교 영역. IA 손은 확인 버튼 위.",
+      "artist_viewed_actual_file": true
+    },
+    {
+      "concept_id": "C07",
+      "scene_id": "S03",
+      "linked_cuts": [
+        "C07_K03"
+      ],
+      "actual_image_path": "\\\\wsl.localhost\\Ubuntu-24.04\\home\\wooseok\\wsy\\samsung_related\\slide\\AI실행결과발표대회_디자인3종\\storyboards\\2026-10-25_C07-C10-rewrite-v13\\images\\C07\\S03_v2.png",
+      "generated_source": "C:\\Users\\wseok\\.codex\\generated_images\\01a17198-e6d8-7b52-ac8d-e155cc595ff4\\exec-0191a3b4-9692-4476-aa5e-92b216f2d83b.png",
+      "prompt": "Edit image1 as a strict continuity repair, image2 is the exact face reference. Preserve image1's full-body wide shot, person body, stance, empty hands, suit/tie, factory, other people, suitcase and lighting. Change ONLY porcelain man's head orientation and crack: have him turn his head back toward screen LEFT, looking nervously at the orange inspector before escaping to the RIGHT. Match image2's copper hairstyle, exact face and SINGLE gray zigzag on his anatomical LEFT temple/cheek and neck. No crack on anatomical right cheek. Do not mirror image2. No additional change, text or logos. 16:9.",
+      "reference_images": [
+        "\\\\wsl.localhost\\Ubuntu-24.04\\home\\wooseok\\wsy\\samsung_related\\slide\\AI실행결과발표대회_디자인3종\\storyboards\\2026-10-25_C07-C10-rewrite-v13\\images\\C07\\S03.png",
+        "\\\\wsl.localhost\\Ubuntu-24.04\\home\\wooseok\\wsy\\samsung_related\\slide\\AI실행결과발표대회_디자인3종\\storyboards\\2026-10-25_C07-C10-rewrite-v13\\images\\C07\\S01_v2.png"
+      ],
+      "review_status": "THREE_REVIEWERS_FINAL_SELECTED_FIRST_FRAME_PASS",
+      "review_notes": "머리를 출발지 쪽으로 돌아보는 시작으로 수정, 동일 좌측 균열 유지. 몸은 오른쪽 도주 직전, 가방은 A에 남음.",
+      "relative_image_path": "images/C07/S03_v2.png",
+      "sha256": "6492198cd4e5ad04ea074c59dfa2ef83b361a87aa1e61f846ecb40eb07ead2a1",
+      "actual_format": "PNG",
+      "actual_dimensions": [
+        1672,
+        941
+      ],
+      "subsequent_motion": "D만 오른쪽 B대 방향으로 서둘러 빠져나간다.",
+      "camera": "같은 복도 축을 지킨 옆 와이드. 별도 외부 장소로 바꾸지 않음.",
+      "required_end_state": "D가 B대 앞에 도착하기 직전. A와 가방은 멀리 왼쪽 후경.",
+      "caption_safe_area": [
+        "상단 복도 벽"
+      ],
+      "post_composites": [],
+      "planned_start_state": "D가 A대를 등지고 오른쪽 복도 쪽으로 몸을 틀기 직전. 가방은 A 다리 옆에 세워져 있고 IA는 추격하지 않음.",
+      "artist_viewed_actual_file": true
+    },
+    {
+      "concept_id": "C07",
+      "scene_id": "S04",
+      "linked_cuts": [
+        "C07_K04"
+      ],
+      "actual_image_path": "\\\\wsl.localhost\\Ubuntu-24.04\\home\\wooseok\\wsy\\samsung_related\\slide\\AI실행결과발표대회_디자인3종\\storyboards\\2026-10-25_C07-C10-rewrite-v13\\images\\C07\\S04.png",
+      "generated_source": "C:\\Users\\wseok\\.codex\\generated_images\\01a17198-e6d8-7b52-ac8d-e155cc595ff4\\exec-be60ed0c-218c-46b9-9ab9-b19d2a1e134f.png",
+      "prompt": "Independent 16:9 cinematic first frame C07 S04 in SAME factory. Reference1 fixes porcelain man's face/copper hair/plum suit/black tie and warm industrial lighting. Reference2 fixes male inspector IB and factory spatial axis. Medium two-shot at BLUE-TEAL bench: porcelain man D approaches from screen left, now near center with body turned toward inspector but face angled toward camera enough that his anatomical LEFT cheek crack remains on viewer-right side of his nearly frontal face. Same glossy porcelain neck/hand seams; do not mirror his face. Broad-shouldered middle-aged East Asian male IB at screen right, thick eyebrows, black small ponytail, beige shirt navy waistcoat gray gloves, calmly holds a black tablet toward HIMSELF; the tablet back faces D, he has NOT rotated it to reveal screen yet. Adjacent to bench at screen left foreground sits OPEN brown plywood crate, dark metal corner protectors, one hinged lid swung up at BACK, no locks or labels, approximately 60cm wide/65cm deep/72cm tall, on low straight roller lane linking to orange bench offscreen left. Clear empty crate interior. Tablet, porcelain face, crate all visible. Empty upper wall for post captions. No suitcase near D, no text or logos or UI photos. Thriller man looks confident again, inspector unimpressed.",
+      "reference_images": [
+        "\\\\wsl.localhost\\Ubuntu-24.04\\home\\wooseok\\wsy\\samsung_related\\slide\\AI실행결과발표대회_디자인3종\\storyboards\\2026-10-25_C07-C10-rewrite-v13\\images\\C07\\S01_v2.png",
+        "\\\\wsl.localhost\\Ubuntu-24.04\\home\\wooseok\\wsy\\samsung_related\\slide\\AI실행결과발표대회_디자인3종\\storyboards\\2026-10-25_C07-C10-rewrite-v13\\images\\C07\\S03_v2.png"
+      ],
+      "review_status": "THREE_REVIEWERS_FINAL_SELECTED_FIRST_FRAME_PASS",
+      "review_notes": "IB 외형/태블릿 뒷면 시작/상자 뒤 경첩·금속모서리·롤러/균열 방향 확인.",
+      "relative_image_path": "images/C07/S04.png",
+      "sha256": "6852c5a509654de32ee22dfd8874d461ef727d8b33247f2baf9c34508ca2bdd7",
+      "actual_format": "PNG",
+      "actual_dimensions": [
+        1672,
+        941
+      ],
+      "subsequent_motion": "IB가 D에게 태블릿을 돌려 이미 공유된 같은 균열 사진을 보여준다.",
+      "camera": "고정 투샷. D 얼굴·태블릿·빈 상자를 같은 시선선 위에 배치.",
+      "required_end_state": "D가 자기 사진을 확인하고 옆 불투명 상자 쪽으로 눈만 돌림.",
+      "caption_safe_area": [
+        "상단 빈 벽"
+      ],
+      "post_composites": [
+        "태블릿: Q-AI Fair / 공유 사례. 같은 도자기 표면 균열 사진, 보조 메모 가려진 면은 열어서 확인. 사진과 메모는 다음 개봉 행동의 동기이며 긴 절차표 없음."
+      ],
+      "planned_start_state": "B대 IB가 태블릿을 이미 들고 있다. D는 태블릿 뒷면 쪽에서 접근하여 아직 화면을 못 봄.",
+      "artist_viewed_actual_file": true
+    },
+    {
+      "concept_id": "C07",
+      "scene_id": "S05",
+      "linked_cuts": [
+        "C07_K05"
+      ],
+      "actual_image_path": "\\\\wsl.localhost\\Ubuntu-24.04\\home\\wooseok\\wsy\\samsung_related\\slide\\AI실행결과발표대회_디자인3종\\storyboards\\2026-10-25_C07-C10-rewrite-v13\\images\\C07\\S05.png",
+      "generated_source": "C:\\Users\\wseok\\.codex\\generated_images\\01a17198-e6d8-7b52-ac8d-e155cc595ff4\\exec-61d2f4e5-315e-4c13-9874-09aa7c39b8bc.png",
+      "prompt": "Independent cinematic 16:9 first frame C07 S05. Reference1 exact porcelain man face/crack/copper hair/purple suit black tie. Reference2 exact plywood crate, hinged lid, roller and navy-vest inspector at blue bench. Slight side-front medium wide, show entire crate and man's feet. Same tall thin porcelain man is beginning to climb into the OPEN plywood crate on roller: his LEFT leg bent with left shoe already placed on bottom INSIDE crate, his RIGHT shoe still firmly on factory floor immediately beside crate; he grips near rim with two porcelain jointed hands preparing to fold remaining leg in. Show physically credible entry not standing through solid plywood; raised thigh/knee visible above rim, no limbs penetrating walls. Camera slightly elevated enough to see inside. Hinged lid remains fully open at BACK away from his body. He looks down with conspiratorial determination, anatomical LEFT cheek crack maintained, never a right-cheek mirror. Inspector stays at blue bench in screen right background with tablet, not touching him. Same environment and orange bench distant left. No travel case here. No text, no label, no closure lock, no other person. BEFORE hiding fully and BEFORE lid closes.",
+      "reference_images": [
+        "\\\\wsl.localhost\\Ubuntu-24.04\\home\\wooseok\\wsy\\samsung_related\\slide\\AI실행결과발표대회_디자인3종\\storyboards\\2026-10-25_C07-C10-rewrite-v13\\images\\C07\\S01_v2.png",
+        "\\\\wsl.localhost\\Ubuntu-24.04\\home\\wooseok\\wsy\\samsung_related\\slide\\AI실행결과발표대회_디자인3종\\storyboards\\2026-10-25_C07-C10-rewrite-v13\\images\\C07\\S04.png"
+      ],
+      "review_status": "THREE_REVIEWERS_FINAL_SELECTED_FIRST_FRAME_PASS",
+      "review_notes": "한 발 진입/다른 발 바닥 지지, 열린 뒤 경첩, 체형·옷·균열·검사자 위치 확인. 상자 안으로 내려가는 시작 순간.",
+      "relative_image_path": "images/C07/S05.png",
+      "sha256": "60dc0799aeea04172e9c40c6a25cabdc903286cdcdf5e9b80df94ff078beb322",
+      "actual_format": "PNG",
+      "actual_dimensions": [
+        1672,
+        941
+      ],
+      "subsequent_motion": "D가 나머지 다리를 접어 상자 안으로 숨고 손으로 뚜껑을 닫는다.",
+      "camera": "측면 고정 미디엄. 상자 전체와 바닥 접점을 보이며 안으로 들어가는 경로를 숨기지 않음.",
+      "required_end_state": "불투명 상자가 완전히 닫힘. 외부에 몸/손/발이 남지 않음.",
+      "caption_safe_area": [],
+      "post_composites": [],
+      "planned_start_state": "D가 열린 상자에 한 발을 넣었고 다른 발은 바닥. 뚜껑은 뒤 경첩으로 열려 있다. IB는 B대에 그대로 있음.",
+      "artist_viewed_actual_file": true
+    },
+    {
+      "concept_id": "C07",
+      "scene_id": "S06",
+      "linked_cuts": [
+        "C07_K06"
+      ],
+      "actual_image_path": "\\\\wsl.localhost\\Ubuntu-24.04\\home\\wooseok\\wsy\\samsung_related\\slide\\AI실행결과발표대회_디자인3종\\storyboards\\2026-10-25_C07-C10-rewrite-v13\\images\\C07\\S06.png",
+      "generated_source": "C:\\Users\\wseok\\.codex\\generated_images\\01a17198-e6d8-7b52-ac8d-e155cc595ff4\\exec-e6fdbec3-4729-4af0-a062-970f380017df.png",
+      "prompt": "Create independent 16:9 first frame C07 S06, same cinematic factory, not collage. Reference1 fixes porcelain story style/factory. Reference2 fixes SAME crate, lid, black metal corners, roller and inspector. Now crate is FULLY CLOSED on SAME straight roller lane by blue bench. Porcelain man is completely hidden INSIDE, absolutely NO visible human silhouette, shoe, face or hand and NO X-ray. At screen right same broad-shouldered middle-aged male inspector with black tied-back hair, beige shirt, navy waistcoat and gray gloves still holds black tablet, both hands, just about to set it into a small empty tablet stand immediately beside crate on blue bench. His gaze on blank neutral dark gray monitor at screen left, ready for post overlay of external box-only camera view. Same fixed industrial camera on short bolted pole points at crate, not a handheld scanner. Place closed crate, fixed camera, monitor, empty stand and inspector in one readable medium-wide shot. Small lifting handle on lid, NO locks/latches/straps. Clean upper wall for caption. No text/UI/icons/logos or safety markings. Warm sidelight consistent. BEFORE tablet lowered and BEFORE inspector grabs lid.",
+      "reference_images": [
+        "\\\\wsl.localhost\\Ubuntu-24.04\\home\\wooseok\\wsy\\samsung_related\\slide\\AI실행결과발표대회_디자인3종\\storyboards\\2026-10-25_C07-C10-rewrite-v13\\images\\C07\\S01_v2.png",
+        "\\\\wsl.localhost\\Ubuntu-24.04\\home\\wooseok\\wsy\\samsung_related\\slide\\AI실행결과발표대회_디자인3종\\storyboards\\2026-10-25_C07-C10-rewrite-v13\\images\\C07\\S05.png"
+      ],
+      "review_status": "THREE_REVIEWERS_FINAL_SELECTED_FIRST_FRAME_PASS",
+      "review_notes": "닫힌 불투명 상자/인물 완전 가림/태블릿 들고 있는 시작/빈 받침·모니터·고정 카메라 확인.",
+      "relative_image_path": "images/C07/S06.png",
+      "sha256": "6f1e9e6eea771011613c78c09aac4983c5e4fccfe9529320cf976d529799320b",
+      "actual_format": "PNG",
+      "actual_dimensions": [
+        1672,
+        941
+      ],
+      "subsequent_motion": "IB가 시야 가림 표시를 보고 들고 있던 태블릿을 바로 옆 받침에 내려놓으며 뚜껑 손잡이로 손을 옮긴다.",
+      "camera": "카메라·닫힌 상자·모니터·IB 손을 한 미디엄 안에. 개봉 전 결과를 보여주지 않음.",
+      "required_end_state": "IB 손이 뚜껑 손잡이를 잡았지만 아직 열리지 않음.",
+      "caption_safe_area": [
+        "상단 빈 벽"
+      ],
+      "post_composites": [
+        "모니터 큰 상태: 시야 가림 / 확인 필요. 내용은 상자 외관 그대로."
+      ],
+      "planned_start_state": "닫힌 상자가 카메라 정면. 모니터에는 불투명한 상자 외관만 보이고 내부 실루엣은 전혀 없음.",
+      "artist_viewed_actual_file": true
+    },
+    {
+      "concept_id": "C07",
+      "scene_id": "S07",
+      "linked_cuts": [
+        "C07_K07"
+      ],
+      "actual_image_path": "\\\\wsl.localhost\\Ubuntu-24.04\\home\\wooseok\\wsy\\samsung_related\\slide\\AI실행결과발표대회_디자인3종\\storyboards\\2026-10-25_C07-C10-rewrite-v13\\images\\C07\\S07.png",
+      "generated_source": "C:\\Users\\wseok\\.codex\\generated_images\\01a17198-e6d8-7b52-ac8d-e155cc595ff4\\exec-ae3c236d-84fc-49a6-8993-f0927081c0ba.png",
+      "prompt": "Strict scene-continuation edit using image1 as actual current set; image2 provides color/character identity only. One 16:9 cinematic first frame C07 S07. Keep same closed plywood crate, rear lid hinge, lifting handle, roller, camera post and navy-vest male inspector. Move camera a little higher for a front medium-wide view able to see folded body AFTER later opening, but the image itself must still show lid FULLY CLOSED. Inspector at screen right now has placed the same black tablet in its existing stand on right blue bench; both his gloved hands are free, his right glove grips top lid's central handle firmly in preparation to lift, left hand rests at his own side, not locking down the box. His head is calm, looking at handle. No porcelain person or internal silhouette visible. Crate remains stationary in identical position. Leave clear room for lid to swing backward. No additional people, no text/UI/logo, no locks. This is BEFORE lid is lifted, never depict the revealed man in this start frame.",
+      "reference_images": [
+        "\\\\wsl.localhost\\Ubuntu-24.04\\home\\wooseok\\wsy\\samsung_related\\slide\\AI실행결과발표대회_디자인3종\\storyboards\\2026-10-25_C07-C10-rewrite-v13\\images\\C07\\S06.png",
+        "\\\\wsl.localhost\\Ubuntu-24.04\\home\\wooseok\\wsy\\samsung_related\\slide\\AI실행결과발표대회_디자인3종\\storyboards\\2026-10-25_C07-C10-rewrite-v13\\images\\C07\\S01_v2.png"
+      ],
+      "review_status": "THREE_REVIEWERS_FINAL_SELECTED_FIRST_FRAME_PASS",
+      "review_notes": "뚜껑 닫힌 시작, 한 손 손잡이/태블릿 받침 배치/다른 손 자유/투시 없음 확인.",
+      "relative_image_path": "images/C07/S07.png",
+      "sha256": "15fc59c14115e45e6d3a6a0ce296fb84cfcf474e785e7b8247d6d1d49e6bff9c",
+      "actual_format": "PNG",
+      "actual_dimensions": [
+        1672,
+        941
+      ],
+      "subsequent_motion": "IB가 뚜껑을 한 번 열어 웅크린 D를 드러낸다.",
+      "camera": "살짝 높은 정면 미디엄. 뚜껑 상승뿐 아니라 접힌 무릎·발·상자 가장자리의 위치를 보여 다음 실패의 원인을 미리 읽게 함.",
+      "required_end_state": "뚜껑이 완전히 열린 상자 속에 D의 무릎이 가슴 앞에 접혀 있고 두 발은 몸 아래가 아니라 앞벽 쪽에 포개져 있다. D는 태연한 여행객 미소. IB는 손을 뚜껑에서 놓고 한 발 물러남.",
+      "caption_safe_area": [],
+      "post_composites": [],
+      "planned_start_state": "IB가 뚜껑 손잡이를 잡고 닫힌 상자 앞에 서 있다.",
+      "artist_viewed_actual_file": true
+    },
+    {
+      "concept_id": "C07",
+      "scene_id": "S08",
+      "linked_cuts": [
+        "C07_K08"
+      ],
+      "actual_image_path": "\\\\wsl.localhost\\Ubuntu-24.04\\home\\wooseok\\wsy\\samsung_related\\slide\\AI실행결과발표대회_디자인3종\\storyboards\\2026-10-25_C07-C10-rewrite-v13\\images\\C07\\S08.png",
+      "generated_source": "C:\\Users\\wseok\\.codex\\generated_images\\01a17198-e6d8-7b52-ac8d-e155cc595ff4\\exec-fb87fc3d-8435-47e1-9196-e8d0c2c62409.png",
+      "prompt": "Create one independent photoreal cinematic 16:9 start frame C07 S08. Reference1 exact purple-suit porcelain man with copper side-part hair, black tie, single LEFT cheek crack, neck/hand porcelain joint seams. Reference2 exact closed crate/roller/inspector layout, now OPEN same lid fully swung toward back on its SAME rear hinge, no detached panel. Camera slightly HIGH frontal medium shot showing interior arrangement clearly. Inside same snug plywood box the tall man is comically folded: butt seated on bottom, BOTH knees tucked tightly to chest, BOTH black shoes stacked together against inside FRONT wall rather than under his butt. Knees and shoes visible above/within opening from high angle, intact natural body, exactly two legs and two arms. BOTH porcelain hands grasp opposite top side rims ready to push himself upward; he has NOT risen yet, a wildly optimistic escape expression. Box remains still. Inspector stands at screen right with both gloved hands CLEAR AWAY from crate, not restraining or moving anything; tablet rests in stand. No lock or restraint. The mechanical reason he cannot easily stand is leg folding and lack of room, not magic. Same fixed camera and plain gray monitor. No text, signs or captions, no other people.",
+      "reference_images": [
+        "\\\\wsl.localhost\\Ubuntu-24.04\\home\\wooseok\\wsy\\samsung_related\\slide\\AI실행결과발표대회_디자인3종\\storyboards\\2026-10-25_C07-C10-rewrite-v13\\images\\C07\\S01_v2.png",
+        "\\\\wsl.localhost\\Ubuntu-24.04\\home\\wooseok\\wsy\\samsung_related\\slide\\AI실행결과발표대회_디자인3종\\storyboards\\2026-10-25_C07-C10-rewrite-v13\\images\\C07\\S07.png"
+      ],
+      "review_status": "THREE_REVIEWERS_FINAL_SELECTED_FIRST_FRAME_PASS",
+      "review_notes": "상자 개봉 상태/접힌 무릎·앞벽 쪽 두 발·윗변 잡은 두 손/검사자 미접촉 확인. 손과 다리 수 정상.",
+      "relative_image_path": "images/C07/S08.png",
+      "sha256": "ba147bae51d9c5b3e03a81b8e28d0979dcb6f207e0a07d91d82deed5e087f718",
+      "actual_format": "PNG",
+      "actual_dimensions": [
+        1672,
+        941
+      ],
+      "subsequent_motion": "D가 상자 윗변을 짚고 한 번 일어서려 하지만 접힌 무릎 때문에 발을 중심 아래로 놓지 못해 상체만 들썩였다가 그대로 엉덩방아를 찧고 앉는다.",
+      "camera": "K07과 같은 약한 하이앵글 미디엄, 얼굴·무릎·손·상자 전체가 한 프레임. 발이 바닥으로 순간이동하거나 상자가 저절로 움직이는 컷 금지.",
+      "required_end_state": "D가 같은 웅크린 자세로 주저앉아 한숨 대신 무표정한 체념을 보임. 두 손은 상자 윗변, 뚜껑은 열린 채. 상자는 아직 움직이지 않음.",
+      "caption_safe_area": [],
+      "post_composites": [],
+      "planned_start_state": "상자는 정지해 있고 뚜껑은 뒤로 열림. D는 가슴 앞에 두 무릎을 접은 채 상자 윗변에 도자기 두 손을 얹었다. 발을 몸 아래로 옮기지 못한 상태. IB의 두 손은 상자에서 떨어져 있다.",
+      "artist_viewed_actual_file": true
+    },
+    {
+      "concept_id": "C07",
+      "scene_id": "S09",
+      "linked_cuts": [
+        "C07_K09"
+      ],
+      "actual_image_path": "\\\\wsl.localhost\\Ubuntu-24.04\\home\\wooseok\\wsy\\samsung_related\\slide\\AI실행결과발표대회_디자인3종\\storyboards\\2026-10-25_C07-C10-rewrite-v13\\images\\C07\\S09.png",
+      "generated_source": "C:\\Users\\wseok\\.codex\\generated_images\\01a17198-e6d8-7b52-ac8d-e155cc595ff4\\exec-9046e041-8f53-47ff-8211-411ce62a55cf.png",
+      "prompt": "Independent 16:9 cinematic first frame C07 S09. Image1 exact porcelain man and industrial world. Image2 exact open crate, seated folded legs and inspector. Side wide framing now makes travel axis absolutely clear: orange inspection station and slender black-curly-haired female inspector are distant SCREEN LEFT; blue station and navy-vest male inspector SCREEN RIGHT. Straight horizontal low-speed roller between them, open plywood crate sits near right before being pushed left. Lid hinged at REAR edge away from viewer, stays upright/slanted open, NOT on travel-left side. Porcelain purple-suit man slumps with comic resignation inside after one failed stand, same knees high folded to chest, feet still inside front, two hands on rim; same left cheek crack, copper hair, black tie. Male inspector is on right outside crate, both gray-gloved palms hovering 2cm from RIGHT exterior corner, just before pushing it LEFT. No grabbing or restraining man. Suitcase with yellow handle band stays at LEFT orange bench far away. Fixed orange camera visible. Whole crate on rollers and both inspectors visible, no perspective axis reversal. No text, subtitles, logos, blur or already-moving motion trails. Upper wall blank for later title.",
+      "reference_images": [
+        "\\\\wsl.localhost\\Ubuntu-24.04\\home\\wooseok\\wsy\\samsung_related\\slide\\AI실행결과발표대회_디자인3종\\storyboards\\2026-10-25_C07-C10-rewrite-v13\\images\\C07\\S01_v2.png",
+        "\\\\wsl.localhost\\Ubuntu-24.04\\home\\wooseok\\wsy\\samsung_related\\slide\\AI실행결과발표대회_디자인3종\\storyboards\\2026-10-25_C07-C10-rewrite-v13\\images\\C07\\S08.png"
+      ],
+      "review_status": "THREE_REVIEWERS_FINAL_SELECTED_FIRST_FRAME_PASS",
+      "review_notes": "A 좌/B 우/왼쪽으로 미는 손 시작·직선 롤러·가방 위치·상자 열린 뒤뚜껑 확인.",
+      "relative_image_path": "images/C07/S09.png",
+      "sha256": "cebd7ff4869544ba1ca37ef35eef938df2d0fd0225e6900fb343abcafcdcca29",
+      "actual_format": "PNG",
+      "actual_dimensions": [
+        1672,
+        941
+      ],
+      "subsequent_motion": "IB가 상자를 왼쪽 A 방향으로 밀어 보낸다.",
+      "camera": "동일 복도 옆 와이드. B→A의 오른쪽에서 왼쪽 이동을 실제로 보여줌.",
+      "required_end_state": "상자가 A 쪽으로 천천히 이동. D는 다시 일어서려 하지 않고 자신이 고른 상자 안에 여행객처럼 실려 간다.",
+      "caption_safe_area": [],
+      "post_composites": [],
+      "planned_start_state": "K08 실패 직후. D는 접힌 무릎 위로 몸을 낮춰 두 손으로 열린 상자 윗변을 잡고 있다. IB 두 손이 이제 상자 뒤 모서리에 닿기 직전. 직선 롤러는 A 방향으로 이어짐.",
+      "artist_viewed_actual_file": true
+    },
+    {
+      "concept_id": "C07",
+      "scene_id": "S10",
+      "linked_cuts": [
+        "C07_K10"
+      ],
+      "actual_image_path": "\\\\wsl.localhost\\Ubuntu-24.04\\home\\wooseok\\wsy\\samsung_related\\slide\\AI실행결과발표대회_디자인3종\\storyboards\\2026-10-25_C07-C10-rewrite-v13\\images\\C07\\S10.png",
+      "generated_source": "C:\\Users\\wseok\\.codex\\generated_images\\01a17198-e6d8-7b52-ac8d-e155cc595ff4\\exec-27f5fec2-e64a-41d1-8d73-39e59b79de64.png",
+      "prompt": "Independent cinematic photoreal 16:9 first frame C07 S10, return to original station. Reference1 exact original orange bench, fixed industrial camera, inspector IA and yellow-band black suitcase. Reference2 exact open crate, seated porcelain man and leftward return axis. Medium-wide front angle of ORANGE station, same slender black-curly-haired woman in white jacket teal apron and gray gloves at screen LEFT, same original FIXED pole camera to her right, neutral gray monitor. Black suitcase with yellow band on extended handle stands on FLOOR beside orange bench at screen left. Open crate on SAME blue roller arrives from screen RIGHT and is still a short distance BEFORE camera inspection spot. Man is curled inside with knees up, feet at front and both hands on rim; red-haired ivory porcelain with same LEFT crack, purple suit and black tie. He is looking straight ahead resigned, has NOT yet noticed suitcase or met inspector's eyes. Lid open to back. Inspector stationary calm with empty hands, NO new scanner. Male inspector remains offscreen behind at B; do not introduce another one. Room left/top for final post caption; no text/logo/UI. Warm same industrial light, dry cinematic anticlimax.",
+      "reference_images": [
+        "\\\\wsl.localhost\\Ubuntu-24.04\\home\\wooseok\\wsy\\samsung_related\\slide\\AI실행결과발표대회_디자인3종\\storyboards\\2026-10-25_C07-C10-rewrite-v13\\images\\C07\\S01_v2.png",
+        "\\\\wsl.localhost\\Ubuntu-24.04\\home\\wooseok\\wsy\\samsung_related\\slide\\AI실행결과발표대회_디자인3종\\storyboards\\2026-10-25_C07-C10-rewrite-v13\\images\\C07\\S09.png"
+      ],
+      "review_status": "THREE_REVIEWERS_FINAL_SELECTED_FIRST_FRAME_PASS",
+      "review_notes": "처음 검사자·고정카메라·가방 재등장, 상자 도착 직전. D의 시선은 위쪽으로 두어 가방 발견 동작 여지 확보.",
+      "relative_image_path": "images/C07/S10.png",
+      "sha256": "cdc8c8337e8cd7e8b1995ee8f120d2412cfd7c7353ef4c0fbcc3aea7aa03fa32",
+      "actual_format": "PNG",
+      "actual_dimensions": [
+        1672,
+        941
+      ],
+      "subsequent_motion": "상자가 멈추자 D가 자기 여행가방을 보고 천천히 고개를 들어 처음의 IA와 눈을 맞춘다.",
+      "camera": "처음 검사대와 같은 정면 구도. 짧은 충격 과장 대신 여행이 원점으로 끝났음을 한 프레임에.",
+      "required_end_state": "D는 열린 상자 안에서 처음의 고정 카메라 정면을 바라본다. 가방은 A대 왼쪽 바닥, IA는 처음과 똑같이 고정 카메라 옆에 서 있다. 손에는 새 장비 없음.",
+      "caption_safe_area": [
+        "좌상단 빈 벽, 인물·상자 회피"
+      ],
+      "post_composites": [],
+      "planned_start_state": "상자가 A대 앞의 처음 검사 위치로 천천히 들어오는 마지막 거리. 짧은 검정 곱슬머리 IA, K02의 같은 고정 산업카메라와 노란 띠 검정 가방이 원래 자리에 보임. D는 아직 가방을 못 봄.",
+      "artist_viewed_actual_file": true
+    },
+    {
+      "concept_id": "C08",
+      "scene_id": "S02",
+      "linked_cuts": [
+        "C08_K02"
+      ],
+      "actual_image_path": "\\\\wsl.localhost\\Ubuntu-24.04\\home\\wooseok\\wsy\\samsung_related\\slide\\AI실행결과발표대회_디자인3종\\storyboards\\2026-10-25_C07-C10-rewrite-v13\\images\\C08\\S02.png",
+      "generated_source": "C:\\Users\\wseok\\.codex\\generated_images\\01a17198-e6d8-7b52-ac8d-e155cc595ff4\\exec-5e4e2b17-8f3d-4513-94ca-45d99b79212d.png",
+      "prompt": "Use case ads-marketing, independent 16:9 cinematic first frame C08 S02, humorous disproportionate superhero dispatch. Reference1 is SAME film's daylight office employee; do NOT include or copy that employee in this scene. Create a clearly different protagonist: 50s muscular broad-shouldered Korean WOMAN, very short cropped SILVER hair, square jaw, strong eyebrows, confident serious blockbuster face, DARK TEAL practical tactical jumpsuit with no emblem, short vivid ORANGE cape to waist, black work boots. Underground dispatch bunker with a pair of enormous closed metallic doors twice her height. Low symmetrical 24mm wide shot shows her full body centered, standing in front of CLOSED doors, feet braced. Both palms pressed against separate left/right door panels near central seam, preparing to push them outward but doors have NOT OPENED at all. Serious premium action-movie blue shadows and thin amber rim lights, tangible brushed steel and concrete. No vehicles/crowd/weapons/known superhero references. No words, logos or symbols, no speech bubbles. This frame establishes hero identity for all later shots; heroic energy and deliberately oversized door, not generic office woman.",
+      "reference_images": [
+        "\\\\wsl.localhost\\Ubuntu-24.04\\home\\wooseok\\wsy\\samsung_related\\slide\\AI실행결과발표대회_디자인3종\\storyboards\\2026-10-25_C07-C10-rewrite-v13\\images\\C08\\S01.png"
+      ],
+      "review_status": "THREE_REVIEWERS_FINAL_SELECTED_FIRST_FRAME_PASS",
+      "review_notes": "새 영웅: 근육질 은발 중년 여성/청록 점프수트/주황 짧은 망토, 닫힌 대형 금속문 양손 시작 확인.",
+      "relative_image_path": "images/C08/S02.png",
+      "sha256": "dffeaca477d53a67afe3f47aaa686bf2a4cbbe940cc1fc059f32cbf27da008b5",
+      "actual_format": "PNG",
+      "actual_dimensions": [
+        1672,
+        941
+      ],
+      "subsequent_motion": "H가 무거운 출동실 문을 양옆으로 밀어 연다.",
+      "camera": "낮은 대칭 와이드. 금속문 높이는 H의2배; 군중/차량추가없음.",
+      "required_end_state": "문이 열리고 바깥빛이 들어온다. H는 출동 직전의 전신 자세.",
+      "caption_safe_area": [],
+      "post_composites": [],
+      "planned_start_state": "지하 출동실 H가 거대한 금속문 앞에서 양손을 대고 있다. 주황 망토는 뒤로, 문은 닫힘.",
+      "artist_viewed_actual_file": true
+    },
+    {
+      "concept_id": "C08",
+      "scene_id": "S03",
+      "linked_cuts": [
+        "C08_K03"
+      ],
+      "actual_image_path": "\\\\wsl.localhost\\Ubuntu-24.04\\home\\wooseok\\wsy\\samsung_related\\slide\\AI실행결과발표대회_디자인3종\\storyboards\\2026-10-25_C07-C10-rewrite-v13\\images\\C08\\S03.png",
+      "generated_source": "C:\\Users\\wseok\\.codex\\generated_images\\01a17198-e6d8-7b52-ac8d-e155cc595ff4\\exec-9ebcdf54-9ae2-4575-a7b0-f2c7f7cc19fe.png",
+      "prompt": "Use reference1 as exact office employee, outfit, document, props and daylight office continuity. Create independent photoreal 16:9 first frame C08 S03. Over his RIGHT shoulder medium view sees laptop screen large and unobstructed plus right hand resting on trackpad ready to drag a file, and same single blank white review document with teal triangular physical corner tab beside laptop. Same slim young man round glasses pale yellow shirt, his black hair profile visible. Laptop screen must be a flat neutral LIGHT GRAY plane with only a faint nonspecific rectangular layout, NO readable words, NO icons, NO ticks, NO letter P: all source/result/file-card/AI template graphics are later composited accurately. Same mint CLOSED lunchbox and black chopsticks on desk right, empty black completion tray nearby. Assistance device same red button on right. The document has NO marks or fake sentences except natural blank paper texture and the same corner tab. This is BEFORE applying his own file and BEFORE any success indication. Bright mundane office vs heroic cutaway contrast. Keep empty top strip for caption. No superhero, no text/logos/subtitles, no extra papers or hands.",
+      "reference_images": [
+        "\\\\wsl.localhost\\Ubuntu-24.04\\home\\wooseok\\wsy\\samsung_related\\slide\\AI실행결과발표대회_디자인3종\\storyboards\\2026-10-25_C07-C10-rewrite-v13\\images\\C08\\S01.png"
+      ],
+      "review_status": "THREE_REVIEWERS_FINAL_SELECTED_FIRST_FRAME_PASS",
+      "review_notes": "동일 직원·닫힌 도시락·원문 청록탭, 노트북 후합성용 빈 화면, 적용 전 손 시작 확인.",
+      "relative_image_path": "images/C08/S03.png",
+      "sha256": "075320615d6723c38ced0d3e47961181cc3772fc701952d7c2b3309fdfb5ab28",
+      "actual_format": "PNG",
+      "actual_dimensions": [
+        1672,
+        941
+      ],
+      "subsequent_motion": "E가 자기 원문 P 파일을 이미 열린 공유 정리 양식의 입력 칸으로 한 번 옮겨 적용한다.",
+      "camera": "손과 화면·P 원문을 함께 보는 어깨너머 미디엄. 원문 카드 이동과 결과의 같은 표시를 크게. 알림 열기 단계를 추가하지 않음.",
+      "required_end_state": "자기 P가 입력 칸에 들어가고 오른쪽 결과에 같은 청록 탭·같은 두 번째 행 별표가 정리되어 나타남. 확인 체크는 아직 없음.",
+      "caption_safe_area": [
+        "상단 빈 여백"
+      ],
+      "post_composites": [
+        "노트북 정적 헤더 Q-AI Fair · 공유 AI 정리 양식. 왼쪽 P 원문 카드→오른쪽 빈 적용 칸으로 이동 후 같은 행을 정리한 결과 1개. 헤더·카드·별표·탭은 후합성. 자동 검증 완료/정확도 수치 없음."
+      ],
+      "planned_start_state": "노트북에 동료가 공유한 AI 정리 양식이 이미 열려 있다. 왼쪽 원문 파일 카드 P에는 청록 삼각 탭과 두 번째 행 검은 별표. 아직 양식 오른쪽의 빈 입력 칸에 들어가지 않았다. 책상에 같은 P 원문과 닫힌 도시락.",
+      "artist_viewed_actual_file": true
+    },
+    {
+      "concept_id": "C08",
+      "scene_id": "S04",
+      "linked_cuts": [
+        "C08_K04"
+      ],
+      "actual_image_path": "\\\\wsl.localhost\\Ubuntu-24.04\\home\\wooseok\\wsy\\samsung_related\\slide\\AI실행결과발표대회_디자인3종\\storyboards\\2026-10-25_C07-C10-rewrite-v13\\images\\C08\\S04.png",
+      "generated_source": "C:\\Users\\wseok\\.codex\\generated_images\\01a17198-e6d8-7b52-ac8d-e155cc595ff4\\exec-b6130267-3898-4db7-8cc2-cbd36f1f06ef.png",
+      "prompt": "Independent 16:9 first frame C08 S04. Image1 exact employee identity/office, image2 exact desk, laptop, paper, mint CLOSED lunchbox and tray positions. Slightly higher close-medium angle over same shoulder, looking down at employee's hands and document beside laptop while partial glasses/profile stays visible. His right hand now holds one plain black pen hovering just ABOVE blank confirmation area on SAME one white document with teal triangle corner tab. Left hand lightly steadies paper edge without covering central area. Pen NOT touching yet, no checkmark yet. Laptop screen flat pale gray blank with neutral panels only for later matching original/result graphics. Empty black completion tray immediately reachable at side, not already containing paper. Same closed lunchbox, black chopsticks and red assistance device in background. Exact file's black star/row marks and human verification tick are intentionally NOT rendered, reserved for later accurate postcompositing. Paper and monitor both well lit and readable planar surfaces. No text, logos, letters, numbers, duplicate papers, extra hands or hero. Start BEFORE comparing and signing, not a completed check.",
+      "reference_images": [
+        "\\\\wsl.localhost\\Ubuntu-24.04\\home\\wooseok\\wsy\\samsung_related\\slide\\AI실행결과발표대회_디자인3종\\storyboards\\2026-10-25_C07-C10-rewrite-v13\\images\\C08\\S01.png",
+        "\\\\wsl.localhost\\Ubuntu-24.04\\home\\wooseok\\wsy\\samsung_related\\slide\\AI실행결과발표대회_디자인3종\\storyboards\\2026-10-25_C07-C10-rewrite-v13\\images\\C08\\S03.png"
+      ],
+      "review_status": "THREE_REVIEWERS_FINAL_SELECTED_FIRST_FRAME_PASS",
+      "review_notes": "원문 탭·빈 완료 트레이·펜 닿기 전·왼손 종이 지지 확인. 문서/화면 표시는 후합성 필요.",
+      "relative_image_path": "images/C08/S04.png",
+      "sha256": "ee2b96c9a152ee6c216a9c062969b34cba2418e193b072112fed479a3a83fc11",
+      "actual_format": "PNG",
+      "actual_dimensions": [
+        1672,
+        941
+      ],
+      "subsequent_motion": "E가 원문과 정리 결과의 같은 표시를 직접 대조해 확인 체크 한 번을 적고 문서를 바로 옆 완료 트레이로 민다.",
+      "camera": "책상 위 손·원문·후보를 함께, 글자 읽기보다 같은 항목과 체크를 크게.",
+      "required_end_state": "자기 P가 체크된 채 완료 트레이에 있음. E의 손은 도시락 쪽으로 이동할 수 있게 비어 있다.",
+      "caption_safe_area": [
+        "상단 빈 부분"
+      ],
+      "post_composites": [
+        "같은 P 원문/정리 결과의 검은 별표 한 개·청록 탭 한 개. 원문에 작은 확인 체크. 길고 읽을 수 없는 가짜 문장 금지."
+      ],
+      "planned_start_state": "K03의 청록 탭 P 원문과 노트북 정리 결과가 같은 두 번째 행의 검은 별표를 보여준다. E의 펜은 원문 확인 칸에 닿기 전.",
+      "artist_viewed_actual_file": true
+    },
+    {
+      "concept_id": "C08",
+      "scene_id": "S05",
+      "linked_cuts": [
+        "C08_K05"
+      ],
+      "actual_image_path": "\\\\wsl.localhost\\Ubuntu-24.04\\home\\wooseok\\wsy\\samsung_related\\slide\\AI실행결과발표대회_디자인3종\\storyboards\\2026-10-25_C07-C10-rewrite-v13\\images\\C08\\S05.png",
+      "generated_source": "C:\\Users\\wseok\\.codex\\generated_images\\01a17198-e6d8-7b52-ac8d-e155cc595ff4\\exec-c0e63388-17b3-44a5-be31-7ea0083903b0.png",
+      "prompt": "Independent cinematic photoreal 16:9 start frame C08 S05. Use reference as EXACT employee identity, office wood desk, window, pale plastered brick wall, silver laptop, mint lunchbox and black tray. Wider locked-off office shot establishing action space: employee and desk occupy screen LEFT third. Broad intact off-white painted brick wall occupies RIGHT half with clear empty floor in front, at least 2 meters from employee. Same slim young Korean man with round glasses, black fringe, pale yellow shirt sits safely at desk and is JUST lifting the mint lunchbox lid with both hands to begin opening it. Single white document with teal corner tab is now IN black completion tray; postprinted checking details not visible. Laptop open neutral blank screen, assistance button stays on desk. Right wall must be completely intact, NO crack, hole, dust, flying pieces, hero or cape visible yet: future hero will break through there during later motion. No people hiding anywhere. Ordinary warm daylight and matter-of-fact lunch vs future epic entrance. Clearly show floor and wall for matching future damage. No text, title, symbols or logos.",
+      "reference_images": [
+        "\\\\wsl.localhost\\Ubuntu-24.04\\home\\wooseok\\wsy\\samsung_related\\slide\\AI실행결과발표대회_디자인3종\\storyboards\\2026-10-25_C07-C10-rewrite-v13\\images\\C08\\S01.png"
+      ],
+      "review_status": "THREE_REVIEWERS_FINAL_SELECTED_FIRST_FRAME_PASS",
+      "review_notes": "오른쪽 벽 온전/파편·영웅 미등장/직원 왼쪽 도시락 여는 시작/완료 트레이 원문 확인.",
+      "relative_image_path": "images/C08/S05.png",
+      "sha256": "0f7bebbe281ab7bf9a4a4e36bb2d1c08c1739600091b332b6272d14c4300b33e",
+      "actual_format": "PNG",
+      "actual_dimensions": [
+        1672,
+        941
+      ],
+      "subsequent_motion": "오른쪽 벽 중앙이 벌어지며 H가 한 걸음 뚫고 들어와 장대한 착지 자세로 멈춘다.",
+      "camera": "사무실 고정 와이드. 사람·책상과 충돌하지 않는 오른쪽 파손영역 전체를 보임.",
+      "required_end_state": "한 사람 크기 구멍, 바닥 붉은 벽돌, H의 주황 망토. E와 책상에는 파편이 닿지 않음.",
+      "caption_safe_area": [],
+      "post_composites": [],
+      "planned_start_state": "E는 왼쪽 책상에서 이미 도시락 뚜껑을 열고 있다. 오른쪽 경량벽은 멀쩡하고 그 앞 공간은 비어 있음.",
+      "artist_viewed_actual_file": true
+    },
+    {
+      "concept_id": "C08",
+      "scene_id": "S06",
+      "linked_cuts": [
+        "C08_K06"
+      ],
+      "actual_image_path": "\\\\wsl.localhost\\Ubuntu-24.04\\home\\wooseok\\wsy\\samsung_related\\slide\\AI실행결과발표대회_디자인3종\\storyboards\\2026-10-25_C07-C10-rewrite-v13\\images\\C08\\S06.png",
+      "generated_source": "C:\\Users\\wseok\\.codex\\generated_images\\01a17198-e6d8-7b52-ac8d-e155cc595ff4\\exec-d2090799-9600-47b4-ae21-6c4ecceab587.png",
+      "prompt": "Independent cinematic photoreal 16:9 first frame C08 S06. Image1 exact employee identity and office props. Image2 exact silver-haired MUSCULAR MIDDLE-AGED WOMAN hero, dark teal jumpsuit orange short cape black boots. Image3 exact wide office layout: desk and employee LEFT, wall RIGHT. Continue after hero has actually burst through one part of right wall. Right wall now has ONE roughly person-sized ragged hole about1.2m wide1.8m high, bounded on all sides, same white-painted brick wall. Red lightweight brick pieces and white plaster scattered ONLY near hole, never desk or employee. Hole is not whole room collapse. Hero in right foreground just held a grandiose low landing pose, one knee bent and torso proud upright, orange cape behind; serious action-movie expression aimed forward, not yet noticed finished work. Employee left background calmly holds BLACK chopsticks above open MINT lunchbox, other hand resting near completion tray, NOT pointing yet. Same one tabbed paper in black tray, laptop and red call device stay. Two-person composition shows her side profile, his frontal face, hole behind right, blank wall above employee for later caption. No text, logos, sparks, injuries, flames or other people. This is before employee gestures to tray.",
+      "reference_images": [
+        "\\\\wsl.localhost\\Ubuntu-24.04\\home\\wooseok\\wsy\\samsung_related\\slide\\AI실행결과발표대회_디자인3종\\storyboards\\2026-10-25_C07-C10-rewrite-v13\\images\\C08\\S01.png",
+        "\\\\wsl.localhost\\Ubuntu-24.04\\home\\wooseok\\wsy\\samsung_related\\slide\\AI실행결과발표대회_디자인3종\\storyboards\\2026-10-25_C07-C10-rewrite-v13\\images\\C08\\S02.png",
+        "\\\\wsl.localhost\\Ubuntu-24.04\\home\\wooseok\\wsy\\samsung_related\\slide\\AI실행결과발표대회_디자인3종\\storyboards\\2026-10-25_C07-C10-rewrite-v13\\images\\C08\\S05.png"
+      ],
+      "review_status": "THREE_REVIEWERS_FINAL_SELECTED_FIRST_FRAME_PASS",
+      "review_notes": "왼쪽 직원 도시락/완료문서, 오른쪽 은발 영웅 착지 후와 동일벽 국소 파손 확인. 직원 가리키기 전.",
+      "relative_image_path": "images/C08/S06.png",
+      "sha256": "e3e84d457dd83cd8ded14a5db310d4363ad19be09f519f69d8148d595a26823c",
+      "actual_format": "PNG",
+      "actual_dimensions": [
+        1672,
+        941
+      ],
+      "subsequent_motion": "E가 H에게 완료 트레이를 가볍게 가리킨다.",
+      "camera": "H측면/E정면 투샷. 파손구멍은오른쪽후경으로유지.",
+      "required_end_state": "H가 서서히 E의 도시락과 완료 트레이를 본다.",
+      "caption_safe_area": [
+        "E 어깨 위 빈 벽"
+      ],
+      "post_composites": [],
+      "planned_start_state": "H가 영웅 자세로 멈춘 전경, E는 후경에서 도시락 젓가락을 들고 있다. 완료 트레이가 E 옆에 보임.",
+      "artist_viewed_actual_file": true
+    },
+    {
+      "concept_id": "C08",
+      "scene_id": "S07",
+      "linked_cuts": [
+        "C08_K07"
+      ],
+      "actual_image_path": "\\\\wsl.localhost\\Ubuntu-24.04\\home\\wooseok\\wsy\\samsung_related\\slide\\AI실행결과발표대회_디자인3종\\storyboards\\2026-10-25_C07-C10-rewrite-v13\\images\\C08\\S07.png",
+      "generated_source": "C:\\Users\\wseok\\.codex\\generated_images\\01a17198-e6d8-7b52-ac8d-e155cc595ff4\\exec-fa222b5c-37bd-4d7b-a70b-f138abc8a91c.png",
+      "prompt": "Independent cinematic photoreal 16:9 first frame C08 S07. Use image1 exact employee and original office; image2 exact muscular silver-haired heroine jumpsuit/cape; image3 exact freshly broken right wall hole and debris. Same two people now face each other near desk edge. Slim yellow-shirt employee at screen LEFT half-risen beside his chair holds a small gray masonry trowel close to his own torso: blade safely cradled in his left palm, wooden handle pointing to screen RIGHT toward heroine, his right hand supporting near handle base. He has NOT extended or handed it over yet. His expression kind matter-of-fact, not mocking. Hero at screen RIGHT has risen from landing, stands upright with BOTH HANDS EMPTY at sides, still grand serious but slightly puzzled, same orange short cape. She is a half-step away within comfortable arm reach. Same ragged person-sized right-wall hole/debris visible behind her; intact wall and window/desk on left. Open mint lunchbox and black chopsticks laid beside it, black tray with same teal-tab white paper, laptop, red button all remain. Show both faces, empty hero hands, trowel and hole in one medium-wide. No new damage, no ladder, no words, captions or logos.",
+      "reference_images": [
+        "\\\\wsl.localhost\\Ubuntu-24.04\\home\\wooseok\\wsy\\samsung_related\\slide\\AI실행결과발표대회_디자인3종\\storyboards\\2026-10-25_C07-C10-rewrite-v13\\images\\C08\\S01.png",
+        "\\\\wsl.localhost\\Ubuntu-24.04\\home\\wooseok\\wsy\\samsung_related\\slide\\AI실행결과발표대회_디자인3종\\storyboards\\2026-10-25_C07-C10-rewrite-v13\\images\\C08\\S02.png",
+        "\\\\wsl.localhost\\Ubuntu-24.04\\home\\wooseok\\wsy\\samsung_related\\slide\\AI실행결과발표대회_디자인3종\\storyboards\\2026-10-25_C07-C10-rewrite-v13\\images\\C08\\S06.png"
+      ],
+      "review_status": "THREE_REVIEWERS_FINAL_SELECTED_FIRST_FRAME_PASS",
+      "review_notes": "흙손 전달 전 E 손/영웅 빈손/같은 파손벽·도시락·트레이/근거리 인계 가능 확인.",
+      "relative_image_path": "images/C08/S07.png",
+      "sha256": "91ecd06fd3efaffbba7e524e4de3576f258e7be31a5aad115938b22dc53c803e",
+      "actual_format": "PNG",
+      "actual_dimensions": [
+        1672,
+        941
+      ],
+      "subsequent_motion": "E가 흙손을 건네고 H가 받아 오른쪽 파손벽을 돌아본다.",
+      "camera": "흙손·두표정·벽구멍을한화면에. 교환방향왼쪽E→오른쪽H.",
+      "required_end_state": "H 손에 흙손, E는 도시락으로 복귀할 준비.",
+      "caption_safe_area": [
+        "상단 빈 벽"
+      ],
+      "post_composites": [],
+      "planned_start_state": "E가 수리 흙손을 손잡이부터 내밀기 직전. H는 빈손, 뒤에는 자기가 뚫은 구멍.",
+      "artist_viewed_actual_file": true
+    },
+    {
+      "concept_id": "C08",
+      "scene_id": "S08",
+      "linked_cuts": [
+        "C08_K08"
+      ],
+      "actual_image_path": "\\\\wsl.localhost\\Ubuntu-24.04\\home\\wooseok\\wsy\\samsung_related\\slide\\AI실행결과발표대회_디자인3종\\storyboards\\2026-10-25_C07-C10-rewrite-v13\\images\\C08\\S08.png",
+      "generated_source": "C:\\Users\\wseok\\.codex\\generated_images\\01a17198-e6d8-7b52-ac8d-e155cc595ff4\\exec-3b9d62e9-0ec3-4412-b950-c814f253c2de.png",
+      "prompt": "Independent cinematic photoreal 16:9 first frame C08 S08 after a clearly planned editorial time skip, no written captions in image. Image1 exact office/employee, image2 exact silver-haired muscular heroine identity teal jumpsuit, image3 exact same right-wall broken perimeter and gray wooden-handled trowel. The SAME person-sized hole in RIGHT wall has been repaired with ordinary exposed reddish bricks and gray mortar inside its original ragged white plaster outline; NOT a new giant wall, no change to window/desk. Only ONE brick-sized horizontal slot at UPPER RIGHT of patch remains empty, easy to reach at heroine shoulder height. Heroine faces wall three-quarter side, both hands holding ONE final red brick horizontally just BEFORE placing it into empty slot. Her ORANGE cape has been taken off shoulders and neatly TIED AROUND WAIST so it does not obstruct work; teal suit, silver hair, muscular arms same. The SAME gray trowel with wood handle rests on FLOOR directly beside small gray mortar bucket below repair and stays there. Most loose debris cleaned into small nearby pile. Employee left background at same desk/lunch, smaller but recognizable. Medium-wide includes last slot, both hands, heroine face, bucket/trowel on floor and enough left wall for later 'later' caption. No text, signs, duplicates, floating bricks; brick NOT already inserted.",
+      "reference_images": [
+        "\\\\wsl.localhost\\Ubuntu-24.04\\home\\wooseok\\wsy\\samsung_related\\slide\\AI실행결과발표대회_디자인3종\\storyboards\\2026-10-25_C07-C10-rewrite-v13\\images\\C08\\S01.png",
+        "\\\\wsl.localhost\\Ubuntu-24.04\\home\\wooseok\\wsy\\samsung_related\\slide\\AI실행결과발표대회_디자인3종\\storyboards\\2026-10-25_C07-C10-rewrite-v13\\images\\C08\\S02.png",
+        "\\\\wsl.localhost\\Ubuntu-24.04\\home\\wooseok\\wsy\\samsung_related\\slide\\AI실행결과발표대회_디자인3종\\storyboards\\2026-10-25_C07-C10-rewrite-v13\\images\\C08\\S07.png"
+      ],
+      "review_status": "THREE_REVIEWERS_FINAL_SELECTED_FIRST_FRAME_PASS",
+      "review_notes": "같은 국소 구멍 수리 후 마지막 빈 칸/벽돌 양손/망토 허리/흙손·통 바닥 확인. 마지막 벽돌은 넣기 전.",
+      "relative_image_path": "images/C08/S08.png",
+      "sha256": "1edda9e3cb8394483f48c74454a1926f9b40712ec0632726c5c31e1708068f24",
+      "actual_format": "PNG",
+      "actual_dimensions": [
+        1672,
+        941
+      ],
+      "subsequent_motion": "H가 마지막 벽돌을 양손으로 놓지만 오른쪽 끝을 조금 높게 얹는다.",
+      "camera": "오른쪽수리벽미디엄. 바닥에동일흙손·모르타르통; 직원도시락은좌측후경.",
+      "required_end_state": "마지막 벽돌 오른쪽 끝이 약간 높은 채 H 두 손은 떨어짐. 흙손은 계속 바닥. 벽 구멍은 이제 완전히 막힘.",
+      "caption_safe_area": [
+        "좌상단 작은 시간전환 표시"
+      ],
+      "post_composites": [
+        "초반 1.2초 작은 잠시 후. K05의 동일 구멍 윤곽과 수리 영역 유지."
+      ],
+      "planned_start_state": "시간 생략 뒤 같은 벽 구멍이 거의 메워졌고 오른쪽 상단 마지막 한 칸만 비어 있다. H의 망토는 허리에 묶음. 양손에 마지막 벽돌. 흙손은 모르타르 통 옆 바닥에 놓여 있음.",
+      "artist_viewed_actual_file": true
+    },
+    {
+      "concept_id": "C08",
+      "scene_id": "S09",
+      "linked_cuts": [
+        "C08_K09"
+      ],
+      "actual_image_path": "\\\\wsl.localhost\\Ubuntu-24.04\\home\\wooseok\\wsy\\samsung_related\\slide\\AI실행결과발표대회_디자인3종\\storyboards\\2026-10-25_C07-C10-rewrite-v13\\images\\C08\\S09_v3.png",
+      "generated_source": "C:\\Users\\wseok\\.codex\\generated_images\\01a17198-e6d8-7b52-ac8d-e155cc595ff4\\exec-6451bd33-5c2a-49b1-aaed-f14bf4b7ff23.png",
+      "prompt": "Precise edit of this image, preserve everything except the employee's raised arms/level and one brick. The target final brick is the TOP-RIGHT brick directly under the ragged upper white plaster at the right edge of the red repair patch. It is the brick at image x about 1400 y about160, NOT the neighboring brick at x1270. Rotate ONLY this target brick a little so its screen-right end is 3cm HIGHER, visibly less level than ALL neighboring horizontal bricks, and it protrudes 4cm toward camera. Move the employee's yellow level AND both hands/forearms to the RIGHT so the yellow level is centered directly above THIS TOP-RIGHT target brick at x1400. He extends both arms naturally toward wall. Yellow level must be above target brick's full width, not over neighboring left brick. Leave a 2cm gap under level, start before contact. Keep all holes completely filled. Heroine's hands empty and down, same face/body, same office, bucket/trowel, cape. Do not add text or extra tools. 16:9.",
+      "reference_images": [
+        "\\\\wsl.localhost\\Ubuntu-24.04\\home\\wooseok\\wsy\\samsung_related\\slide\\AI실행결과발표대회_디자인3종\\storyboards\\2026-10-25_C07-C10-rewrite-v13\\images\\C08\\S09_v2.png"
+      ],
+      "review_status": "THREE_REVIEWERS_FINAL_SELECTED_FIRST_FRAME_PASS",
+      "review_notes": "마지막 우상단 벽돌로 수평계/양팔 정렬 수정. 벽돌 오른쪽 끝 높음, 수평계 접촉 전 간격·빈손·바닥도구 확인.",
+      "relative_image_path": "images/C08/S09_v3.png",
+      "sha256": "5d8fa570aac3d3a3dd4651ac5a9c8cf8bd13cd61f1bfc47f58789c644c72de89",
+      "actual_format": "PNG",
+      "actual_dimensions": [
+        1672,
+        941
+      ],
+      "subsequent_motion": "E가 수평계를 같은 벽돌 윗면에 놓아 오른쪽으로 치우친 기포를 보고 그 한 장만 가리킨다.",
+      "camera": "수평계·벽돌·H얼굴이읽히는고정미디엄. 수평계수치가아니라기포위치로전달.",
+      "required_end_state": "수평계 기포는 오른쪽 높은 쪽. E가 수평계를 들어 옆 빈손으로 옮겨 벽돌 윗면을 비워 준 상태. H는 마지막 벽돌에 다시 손을 대기 직전.",
+      "caption_safe_area": [
+        "상단 벽돌빈영역"
+      ],
+      "post_composites": [],
+      "planned_start_state": "E가 노란 수평계를 마지막 벽돌 위에 얹기 직전. 오른쪽 끝이 높은 같은 벽돌. H 두 손은 비어 있고 흙손은 바닥.",
+      "artist_viewed_actual_file": true
+    },
+    {
+      "concept_id": "C08",
+      "scene_id": "S10",
+      "linked_cuts": [
+        "C08_K10"
+      ],
+      "actual_image_path": "\\\\wsl.localhost\\Ubuntu-24.04\\home\\wooseok\\wsy\\samsung_related\\slide\\AI실행결과발표대회_디자인3종\\storyboards\\2026-10-25_C07-C10-rewrite-v13\\images\\C08\\S10.png",
+      "generated_source": "C:\\Users\\wseok\\.codex\\generated_images\\01a17198-e6d8-7b52-ac8d-e155cc595ff4\\exec-af0d81a1-07c2-46f4-9613-f0df812debeb.png",
+      "prompt": "Independent cinematic photoreal 16:9 first frame C08 S10. Reference1 exact employee/office. Reference2 exact heroine at repair wall, orange cape tied around WAIST and trowel/bucket floor. Reference3 exact completed patch and last TOP-RIGHT brick whose right end is too high. Same wall and SAME one tilted upper-right brick, still visibly tilted, NOT corrected yet. Medium-wide camera slightly to left: heroine now closest to wall at screen RIGHT, solemn concentrated face, her two EMPTY hands raised just a few centimeters from left/right ends of that target brick, preparing to grip and adjust. She has no trowel in her hands. Young yellow-shirt man stands just LEFT beside her and has removed yellow spirit level from brick; he holds it DOWN at his side clear of her arm path. Keep physical distance natural; no reaching through him or level. Bucket and same trowel remain on floor immediately below at same position as reference2. Same repaired patch perimeter, window and desk/lunch far left. Leave generous empty upper-LEFT wall/window area for later end-title panel; no baked text. Hands must not already lift brick and brick stays tilted. No other tools, extra faces or debris changes. Serious precise handwork is the absurd tiny final task for oversized hero.",
+      "reference_images": [
+        "\\\\wsl.localhost\\Ubuntu-24.04\\home\\wooseok\\wsy\\samsung_related\\slide\\AI실행결과발표대회_디자인3종\\storyboards\\2026-10-25_C07-C10-rewrite-v13\\images\\C08\\S01.png",
+        "\\\\wsl.localhost\\Ubuntu-24.04\\home\\wooseok\\wsy\\samsung_related\\slide\\AI실행결과발표대회_디자인3종\\storyboards\\2026-10-25_C07-C10-rewrite-v13\\images\\C08\\S08.png",
+        "\\\\wsl.localhost\\Ubuntu-24.04\\home\\wooseok\\wsy\\samsung_related\\slide\\AI실행결과발표대회_디자인3종\\storyboards\\2026-10-25_C07-C10-rewrite-v13\\images\\C08\\S09_v3.png"
+      ],
+      "review_status": "THREE_REVIEWERS_FINAL_SELECTED_FIRST_FRAME_PASS",
+      "review_notes": "같은 우상단 비뚤어진 벽돌 재작업 전/수평계 직원 옆으로 내림/영웅 양손 접근/흙손 바닥 확인.",
+      "relative_image_path": "images/C08/S10.png",
+      "sha256": "1cf6e3387bda9fc5af22dbcf7f0d2e879919f9a9c14b2e71eb8d7c6d7719dd17",
+      "actual_format": "PNG",
+      "actual_dimensions": [
+        1672,
+        941
+      ],
+      "subsequent_motion": "H가 양손으로 그 한 장을 살짝 들어 오른쪽 끝을 낮춰 수평으로 다시 놓고 두 손을 뗀다.",
+      "camera": "K08와같은오른쪽벽구도. 왼쪽넓은완성벽에제목공간. 얼굴과정밀손동작을가리지않음.",
+      "required_end_state": "벽돌이 수평으로 놓였고 H의 두 손은 빈 채 몸 옆으로 내려옴. E는 고개 한 번으로 수용. 흙손은 처음 놓은 바닥 위치, 새 도구를 손에 쥐지 않음.",
+      "caption_safe_area": [
+        "좌측 빈 벽, 충분한 대비 패널"
+      ],
+      "post_composites": [],
+      "planned_start_state": "수평계는 E가 옆으로 들어 두었고 H 두 손이 오른쪽 상단 벽돌을 잡기 직전. 비뚤어진 벽돌은 그대로, 흙손은 바닥 모르타르 통 옆.",
+      "artist_viewed_actual_file": true
+    }
+  ],
+  "attempt_history": [
+    {
+      "concept_id": "C07",
+      "scene_id": "S01",
+      "linked_cuts": [
+        "C07_K01"
+      ],
+      "actual_image_path": "\\\\wsl.localhost\\Ubuntu-24.04\\home\\wooseok\\wsy\\samsung_related\\slide\\AI실행결과발표대회_디자인3종\\storyboards\\2026-10-25_C07-C10-rewrite-v13\\images\\C07\\S01_v2.png",
+      "generated_source": "C:\\Users\\wseok\\.codex\\generated_images\\01a17198-e6d8-7b52-ac8d-e155cc595ff4\\exec-558cb0ea-a594-4d84-aa11-f24043c660d4.png",
+      "prompt": "Edit this single 16:9 cinematic frame very precisely. Keep the same porcelain man, his face, red side-part hair, left-side zigzag crack, purple suit, posture, inspector, lighting, factory, fixed camera and framing. Add a neat NARROW BLACK NECKTIE under his white shirt collar. The small yellow ribbon should instead be a plain yellow fabric loop wrapped around the suitcase's extended black grip beside his porcelain hand, not a decorative bow on the suitcase body. Remove the bow on the case. No other change. No text, no logo.",
+      "initial_prompt": "Use case: ads-marketing. Create one independent photoreal cinematic 16:9 widescreen first frame for an absurd escape-thriller commercial, C07 S01, not a collage. A tall thin adult male personification of a defective porcelain object approaches an inspection station with swagger, one step before arrival, moving left to right. Angular face, neat copper-red side-parted hair, well-fitted plum-purple suit, white shirt and narrow black tie. ALL exposed face, neck and hands are unmistakably polished ivory glazed porcelain with delicate joint seams at neck and finger knuckles; exactly one thin gray zigzag crack from his anatomical LEFT temple down left cheek. No wounds, no blood. His porcelain right hand holds extended handle of a small black hard-shell rolling suitcase with a bright yellow fabric band around handle. Frame includes face, porcelain neck, hand and suitcase, low medium-wide 35mm view. Behind him to screen LEFT is an orange inspection bench, a fixed industrial camera on a short post pointing horizontally at inspection position, blank dark monitor; beside it a thin 55-year-old Korean woman with narrow shoulders, long oval face, short tight BLACK curly hair, white work jacket, teal apron and gray gloves, calm. Same long industrial inspection corridor continues horizontally toward screen RIGHT to a distant blue-teal bench. Warm side keylight on porcelain, cool industrial ambient, convincing thriller atmosphere against mundane factory. Mildly grandiose expression, not everyone deadpan. Clean upper wall and lower-center safe area for later captions. No letters, no logos, no watermarks, no UI text, no subtitles. Start of motion, not already running or detected.",
+      "reference_images": [
+        "\\\\wsl.localhost\\Ubuntu-24.04\\home\\wooseok\\wsy\\samsung_related\\slide\\AI실행결과발표대회_디자인3종\\storyboards\\2026-10-25_C07-C10-rewrite-v13\\images\\C07\\S01.png"
+      ],
+      "review_status": "ARTIST_PASS; independent review pending",
+      "review_notes": "검정 타이 누락 수정. 도자기 재질/좌측 균열/손 관절/노란 손잡이띠/검사자 구별 확인. 기본 이미지 v1 보존."
+    },
+    {
+      "concept_id": "C08",
+      "scene_id": "S01",
+      "linked_cuts": [
+        "C08_K01"
+      ],
+      "actual_image_path": "\\\\wsl.localhost\\Ubuntu-24.04\\home\\wooseok\\wsy\\samsung_related\\slide\\AI실행결과발표대회_디자인3종\\storyboards\\2026-10-25_C07-C10-rewrite-v13\\images\\C08\\S01.png",
+      "generated_source": "C:\\Users\\wseok\\.codex\\generated_images\\01a17198-e6d8-7b52-ac8d-e155cc595ff4\\exec-37f2c1b8-593e-407b-bfe2-a066738605e4.png",
+      "prompt": "Use case ads-marketing. One cinematic photoreal 16:9 first frame C08 S01 for an original absurd action comedy. Bright modest Korean quality-team office, restrained natural daylight, desk on screen LEFT and intact pale plaster-covered brick wall on screen RIGHT, a window behind desk. Slim 28-year-old Korean male employee, narrow shoulders, straight smooth black long fringe and ROUND wire glasses, pale yellow shirt, dark gray trousers; sincere worried expression, not caricature. At his simple wood desk he looks at one unresolved blank review document, his right index finger hovering a few centimeters over a small physical assistance-call device with one red push-button, NOT touching yet. On desk same silver laptop screen blank neutral gray for later graphics, white document with a teal triangular physical corner tab (no words or symbols), empty thin black completion tray, mint-green closed rectangular lunchbox and black chopsticks beside it. All important objects visible, no stacks of unrelated paper. Medium 40mm shot includes his hand, worried face, call button, laptop and closed lunchbox, some empty wall above for captions. Future hero does not appear here. No text, numbers, symbols, brands, captions, watermark. This is start of motion before pressing; no action-complete UI.",
+      "reference_images": [],
+      "review_status": "ARTIST_PASS; independent review pending",
+      "review_notes": "요청 버튼 누르기 전 손, 닫힌 도시락, 빈 완료 트레이, 직원/사무실 기준 확인."
+    },
+    {
+      "concept_id": "C07",
+      "scene_id": "S02",
+      "linked_cuts": [
+        "C07_K02"
+      ],
+      "actual_image_path": "\\\\wsl.localhost\\Ubuntu-24.04\\home\\wooseok\\wsy\\samsung_related\\slide\\AI실행결과발표대회_디자인3종\\storyboards\\2026-10-25_C07-C10-rewrite-v13\\images\\C07\\S02.png",
+      "generated_source": "C:\\Users\\wseok\\.codex\\generated_images\\01a17198-e6d8-7b52-ac8d-e155cc595ff4\\exec-c18168cb-f213-4909-8f0d-11c40f8047a4.png",
+      "prompt": "Use reference 1 as exact character, porcelain crack, clothing, factory and fixed industrial camera continuity. Make an independent cinematic 16:9 first frame C07 S02, slightly closer two-person medium shot at the same orange inspection bench. Same porcelain red-haired tall man in purple suit and narrow black tie stands in fixed camera's inspection position at screen right, still right hand on suitcase handle beside bench. His glossy ivory cheek crack and neck joint remain obvious. Same slender middle-aged black-curly-haired woman inspector at screen left, teal apron white jacket gray gloves, her right index finger hovers over a single small confirmation button but has NOT pressed. She compares him to a monitor in central foreground. Monitor is plain flat neutral dark gray with NO rendered UI, photo or words: it will receive exact crack closeup in post. Camera stays bolted to same pole and points at man's porcelain cheek. Contrasting smug man and calm inspector. Preserve orange bench, warm thriller light and distant blue bench. All hands anatomically sound. No text, symbols, logos, captions; clean space below shoulders for captions. No chase or detection-result glow yet.",
+      "reference_images": [
+        "\\\\wsl.localhost\\Ubuntu-24.04\\home\\wooseok\\wsy\\samsung_related\\slide\\AI실행결과발표대회_디자인3종\\storyboards\\2026-10-25_C07-C10-rewrite-v13\\images\\C07\\S01_v2.png"
+      ],
+      "review_status": "ARTIST_PASS; independent review pending",
+      "review_notes": "동일 고정 카메라/의상·목 균열/버튼 누르기 전/후합성 빈 화면 확인."
+    },
+    {
+      "concept_id": "C07",
+      "scene_id": "S03",
+      "linked_cuts": [
+        "C07_K03"
+      ],
+      "actual_image_path": "\\\\wsl.localhost\\Ubuntu-24.04\\home\\wooseok\\wsy\\samsung_related\\slide\\AI실행결과발표대회_디자인3종\\storyboards\\2026-10-25_C07-C10-rewrite-v13\\images\\C07\\S03.png",
+      "generated_source": "C:\\Users\\wseok\\.codex\\generated_images\\01a17198-e6d8-7b52-ac8d-e155cc595ff4\\exec-841d3099-2880-4134-ade0-f23d4a5f8a9d.png",
+      "prompt": "Use reference as exact cast, porcelain material/crack, costumes, luggage and factory lighting. Independent 16:9 cinematic frame C07 S03. Wider side-on view of SAME long inspection hall: orange bench at screen LEFT, blue-teal inspection bench toward screen RIGHT, continuous straight roller lane connecting them. Same tall purple-suited red-haired porcelain man, black tie, ivory jointed neck and hands, is just about to pivot away from orange station toward screen RIGHT: feet still planted, torso beginning to angle right, a nervous but self-important glance. His hands are EMPTY. His black rolling suitcase with yellow band on extended handle has been left standing at the foot of orange bench on screen LEFT. Same slender black-curly-haired older woman with teal apron stays behind orange bench, calmly NOT pursuing. At far right blue bench, introduce broad-shouldered 45-year-old East Asian male inspector with thick black eyebrows, short tied-back black hair, beige work shirt, dark navy waistcoat, gray gloves. No other people. Frame shows spatial route and room for a left-to-right escape. Empty upper wall for later caption. No words, logos, UI, arrows, ghosted motion or motion-complete running pose.",
+      "reference_images": [
+        "\\\\wsl.localhost\\Ubuntu-24.04\\home\\wooseok\\wsy\\samsung_related\\slide\\AI실행결과발표대회_디자인3종\\storyboards\\2026-10-25_C07-C10-rewrite-v13\\images\\C07\\S01_v2.png"
+      ],
+      "review_status": "ARTIST_PASS; independent review pending",
+      "review_notes": "가방 두고 방향 전환 전. 얼굴 균열 좌우 드리프트 있어 수정 예정."
+    },
+    {
+      "concept_id": "C07",
+      "scene_id": "S03",
+      "linked_cuts": [
+        "C07_K03"
+      ],
+      "actual_image_path": "\\\\wsl.localhost\\Ubuntu-24.04\\home\\wooseok\\wsy\\samsung_related\\slide\\AI실행결과발표대회_디자인3종\\storyboards\\2026-10-25_C07-C10-rewrite-v13\\images\\C07\\S03_v2.png",
+      "generated_source": "C:\\Users\\wseok\\.codex\\generated_images\\01a17198-e6d8-7b52-ac8d-e155cc595ff4\\exec-0191a3b4-9692-4476-aa5e-92b216f2d83b.png",
+      "prompt": "Edit image1 as a strict continuity repair, image2 is the exact face reference. Preserve image1's full-body wide shot, person body, stance, empty hands, suit/tie, factory, other people, suitcase and lighting. Change ONLY porcelain man's head orientation and crack: have him turn his head back toward screen LEFT, looking nervously at the orange inspector before escaping to the RIGHT. Match image2's copper hairstyle, exact face and SINGLE gray zigzag on his anatomical LEFT temple/cheek and neck. No crack on anatomical right cheek. Do not mirror image2. No additional change, text or logos. 16:9.",
+      "reference_images": [
+        "\\\\wsl.localhost\\Ubuntu-24.04\\home\\wooseok\\wsy\\samsung_related\\slide\\AI실행결과발표대회_디자인3종\\storyboards\\2026-10-25_C07-C10-rewrite-v13\\images\\C07\\S03.png",
+        "\\\\wsl.localhost\\Ubuntu-24.04\\home\\wooseok\\wsy\\samsung_related\\slide\\AI실행결과발표대회_디자인3종\\storyboards\\2026-10-25_C07-C10-rewrite-v13\\images\\C07\\S01_v2.png"
+      ],
+      "review_status": "ARTIST_PASS; independent review pending",
+      "review_notes": "머리를 출발지 쪽으로 돌아보는 시작으로 수정, 동일 좌측 균열 유지. 몸은 오른쪽 도주 직전, 가방은 A에 남음."
+    },
+    {
+      "concept_id": "C07",
+      "scene_id": "S04",
+      "linked_cuts": [
+        "C07_K04"
+      ],
+      "actual_image_path": "\\\\wsl.localhost\\Ubuntu-24.04\\home\\wooseok\\wsy\\samsung_related\\slide\\AI실행결과발표대회_디자인3종\\storyboards\\2026-10-25_C07-C10-rewrite-v13\\images\\C07\\S04.png",
+      "generated_source": "C:\\Users\\wseok\\.codex\\generated_images\\01a17198-e6d8-7b52-ac8d-e155cc595ff4\\exec-be60ed0c-218c-46b9-9ab9-b19d2a1e134f.png",
+      "prompt": "Independent 16:9 cinematic first frame C07 S04 in SAME factory. Reference1 fixes porcelain man's face/copper hair/plum suit/black tie and warm industrial lighting. Reference2 fixes male inspector IB and factory spatial axis. Medium two-shot at BLUE-TEAL bench: porcelain man D approaches from screen left, now near center with body turned toward inspector but face angled toward camera enough that his anatomical LEFT cheek crack remains on viewer-right side of his nearly frontal face. Same glossy porcelain neck/hand seams; do not mirror his face. Broad-shouldered middle-aged East Asian male IB at screen right, thick eyebrows, black small ponytail, beige shirt navy waistcoat gray gloves, calmly holds a black tablet toward HIMSELF; the tablet back faces D, he has NOT rotated it to reveal screen yet. Adjacent to bench at screen left foreground sits OPEN brown plywood crate, dark metal corner protectors, one hinged lid swung up at BACK, no locks or labels, approximately 60cm wide/65cm deep/72cm tall, on low straight roller lane linking to orange bench offscreen left. Clear empty crate interior. Tablet, porcelain face, crate all visible. Empty upper wall for post captions. No suitcase near D, no text or logos or UI photos. Thriller man looks confident again, inspector unimpressed.",
+      "reference_images": [
+        "\\\\wsl.localhost\\Ubuntu-24.04\\home\\wooseok\\wsy\\samsung_related\\slide\\AI실행결과발표대회_디자인3종\\storyboards\\2026-10-25_C07-C10-rewrite-v13\\images\\C07\\S01_v2.png",
+        "\\\\wsl.localhost\\Ubuntu-24.04\\home\\wooseok\\wsy\\samsung_related\\slide\\AI실행결과발표대회_디자인3종\\storyboards\\2026-10-25_C07-C10-rewrite-v13\\images\\C07\\S03_v2.png"
+      ],
+      "review_status": "ARTIST_PASS; independent review pending",
+      "review_notes": "IB 외형/태블릿 뒷면 시작/상자 뒤 경첩·금속모서리·롤러/균열 방향 확인."
+    },
+    {
+      "concept_id": "C07",
+      "scene_id": "S05",
+      "linked_cuts": [
+        "C07_K05"
+      ],
+      "actual_image_path": "\\\\wsl.localhost\\Ubuntu-24.04\\home\\wooseok\\wsy\\samsung_related\\slide\\AI실행결과발표대회_디자인3종\\storyboards\\2026-10-25_C07-C10-rewrite-v13\\images\\C07\\S05.png",
+      "generated_source": "C:\\Users\\wseok\\.codex\\generated_images\\01a17198-e6d8-7b52-ac8d-e155cc595ff4\\exec-61d2f4e5-315e-4c13-9874-09aa7c39b8bc.png",
+      "prompt": "Independent cinematic 16:9 first frame C07 S05. Reference1 exact porcelain man face/crack/copper hair/purple suit black tie. Reference2 exact plywood crate, hinged lid, roller and navy-vest inspector at blue bench. Slight side-front medium wide, show entire crate and man's feet. Same tall thin porcelain man is beginning to climb into the OPEN plywood crate on roller: his LEFT leg bent with left shoe already placed on bottom INSIDE crate, his RIGHT shoe still firmly on factory floor immediately beside crate; he grips near rim with two porcelain jointed hands preparing to fold remaining leg in. Show physically credible entry not standing through solid plywood; raised thigh/knee visible above rim, no limbs penetrating walls. Camera slightly elevated enough to see inside. Hinged lid remains fully open at BACK away from his body. He looks down with conspiratorial determination, anatomical LEFT cheek crack maintained, never a right-cheek mirror. Inspector stays at blue bench in screen right background with tablet, not touching him. Same environment and orange bench distant left. No travel case here. No text, no label, no closure lock, no other person. BEFORE hiding fully and BEFORE lid closes.",
+      "reference_images": [
+        "\\\\wsl.localhost\\Ubuntu-24.04\\home\\wooseok\\wsy\\samsung_related\\slide\\AI실행결과발표대회_디자인3종\\storyboards\\2026-10-25_C07-C10-rewrite-v13\\images\\C07\\S01_v2.png",
+        "\\\\wsl.localhost\\Ubuntu-24.04\\home\\wooseok\\wsy\\samsung_related\\slide\\AI실행결과발표대회_디자인3종\\storyboards\\2026-10-25_C07-C10-rewrite-v13\\images\\C07\\S04.png"
+      ],
+      "review_status": "ARTIST_PASS; independent review pending",
+      "review_notes": "한 발 진입/다른 발 바닥 지지, 열린 뒤 경첩, 체형·옷·균열·검사자 위치 확인. 상자 안으로 내려가는 시작 순간."
+    },
+    {
+      "concept_id": "C07",
+      "scene_id": "S06",
+      "linked_cuts": [
+        "C07_K06"
+      ],
+      "actual_image_path": "\\\\wsl.localhost\\Ubuntu-24.04\\home\\wooseok\\wsy\\samsung_related\\slide\\AI실행결과발표대회_디자인3종\\storyboards\\2026-10-25_C07-C10-rewrite-v13\\images\\C07\\S06.png",
+      "generated_source": "C:\\Users\\wseok\\.codex\\generated_images\\01a17198-e6d8-7b52-ac8d-e155cc595ff4\\exec-e6fdbec3-4729-4af0-a062-970f380017df.png",
+      "prompt": "Create independent 16:9 first frame C07 S06, same cinematic factory, not collage. Reference1 fixes porcelain story style/factory. Reference2 fixes SAME crate, lid, black metal corners, roller and inspector. Now crate is FULLY CLOSED on SAME straight roller lane by blue bench. Porcelain man is completely hidden INSIDE, absolutely NO visible human silhouette, shoe, face or hand and NO X-ray. At screen right same broad-shouldered middle-aged male inspector with black tied-back hair, beige shirt, navy waistcoat and gray gloves still holds black tablet, both hands, just about to set it into a small empty tablet stand immediately beside crate on blue bench. His gaze on blank neutral dark gray monitor at screen left, ready for post overlay of external box-only camera view. Same fixed industrial camera on short bolted pole points at crate, not a handheld scanner. Place closed crate, fixed camera, monitor, empty stand and inspector in one readable medium-wide shot. Small lifting handle on lid, NO locks/latches/straps. Clean upper wall for caption. No text/UI/icons/logos or safety markings. Warm sidelight consistent. BEFORE tablet lowered and BEFORE inspector grabs lid.",
+      "reference_images": [
+        "\\\\wsl.localhost\\Ubuntu-24.04\\home\\wooseok\\wsy\\samsung_related\\slide\\AI실행결과발표대회_디자인3종\\storyboards\\2026-10-25_C07-C10-rewrite-v13\\images\\C07\\S01_v2.png",
+        "\\\\wsl.localhost\\Ubuntu-24.04\\home\\wooseok\\wsy\\samsung_related\\slide\\AI실행결과발표대회_디자인3종\\storyboards\\2026-10-25_C07-C10-rewrite-v13\\images\\C07\\S05.png"
+      ],
+      "review_status": "ARTIST_PASS; independent review pending",
+      "review_notes": "닫힌 불투명 상자/인물 완전 가림/태블릿 들고 있는 시작/빈 받침·모니터·고정 카메라 확인."
+    },
+    {
+      "concept_id": "C07",
+      "scene_id": "S07",
+      "linked_cuts": [
+        "C07_K07"
+      ],
+      "actual_image_path": "\\\\wsl.localhost\\Ubuntu-24.04\\home\\wooseok\\wsy\\samsung_related\\slide\\AI실행결과발표대회_디자인3종\\storyboards\\2026-10-25_C07-C10-rewrite-v13\\images\\C07\\S07.png",
+      "generated_source": "C:\\Users\\wseok\\.codex\\generated_images\\01a17198-e6d8-7b52-ac8d-e155cc595ff4\\exec-ae3c236d-84fc-49a6-8993-f0927081c0ba.png",
+      "prompt": "Strict scene-continuation edit using image1 as actual current set; image2 provides color/character identity only. One 16:9 cinematic first frame C07 S07. Keep same closed plywood crate, rear lid hinge, lifting handle, roller, camera post and navy-vest male inspector. Move camera a little higher for a front medium-wide view able to see folded body AFTER later opening, but the image itself must still show lid FULLY CLOSED. Inspector at screen right now has placed the same black tablet in its existing stand on right blue bench; both his gloved hands are free, his right glove grips top lid's central handle firmly in preparation to lift, left hand rests at his own side, not locking down the box. His head is calm, looking at handle. No porcelain person or internal silhouette visible. Crate remains stationary in identical position. Leave clear room for lid to swing backward. No additional people, no text/UI/logo, no locks. This is BEFORE lid is lifted, never depict the revealed man in this start frame.",
+      "reference_images": [
+        "\\\\wsl.localhost\\Ubuntu-24.04\\home\\wooseok\\wsy\\samsung_related\\slide\\AI실행결과발표대회_디자인3종\\storyboards\\2026-10-25_C07-C10-rewrite-v13\\images\\C07\\S06.png",
+        "\\\\wsl.localhost\\Ubuntu-24.04\\home\\wooseok\\wsy\\samsung_related\\slide\\AI실행결과발표대회_디자인3종\\storyboards\\2026-10-25_C07-C10-rewrite-v13\\images\\C07\\S01_v2.png"
+      ],
+      "review_status": "ARTIST_PASS; independent review pending",
+      "review_notes": "뚜껑 닫힌 시작, 한 손 손잡이/태블릿 받침 배치/다른 손 자유/투시 없음 확인."
+    },
+    {
+      "concept_id": "C07",
+      "scene_id": "S08",
+      "linked_cuts": [
+        "C07_K08"
+      ],
+      "actual_image_path": "\\\\wsl.localhost\\Ubuntu-24.04\\home\\wooseok\\wsy\\samsung_related\\slide\\AI실행결과발표대회_디자인3종\\storyboards\\2026-10-25_C07-C10-rewrite-v13\\images\\C07\\S08.png",
+      "generated_source": "C:\\Users\\wseok\\.codex\\generated_images\\01a17198-e6d8-7b52-ac8d-e155cc595ff4\\exec-fb87fc3d-8435-47e1-9196-e8d0c2c62409.png",
+      "prompt": "Create one independent photoreal cinematic 16:9 start frame C07 S08. Reference1 exact purple-suit porcelain man with copper side-part hair, black tie, single LEFT cheek crack, neck/hand porcelain joint seams. Reference2 exact closed crate/roller/inspector layout, now OPEN same lid fully swung toward back on its SAME rear hinge, no detached panel. Camera slightly HIGH frontal medium shot showing interior arrangement clearly. Inside same snug plywood box the tall man is comically folded: butt seated on bottom, BOTH knees tucked tightly to chest, BOTH black shoes stacked together against inside FRONT wall rather than under his butt. Knees and shoes visible above/within opening from high angle, intact natural body, exactly two legs and two arms. BOTH porcelain hands grasp opposite top side rims ready to push himself upward; he has NOT risen yet, a wildly optimistic escape expression. Box remains still. Inspector stands at screen right with both gloved hands CLEAR AWAY from crate, not restraining or moving anything; tablet rests in stand. No lock or restraint. The mechanical reason he cannot easily stand is leg folding and lack of room, not magic. Same fixed camera and plain gray monitor. No text, signs or captions, no other people.",
+      "reference_images": [
+        "\\\\wsl.localhost\\Ubuntu-24.04\\home\\wooseok\\wsy\\samsung_related\\slide\\AI실행결과발표대회_디자인3종\\storyboards\\2026-10-25_C07-C10-rewrite-v13\\images\\C07\\S01_v2.png",
+        "\\\\wsl.localhost\\Ubuntu-24.04\\home\\wooseok\\wsy\\samsung_related\\slide\\AI실행결과발표대회_디자인3종\\storyboards\\2026-10-25_C07-C10-rewrite-v13\\images\\C07\\S07.png"
+      ],
+      "review_status": "ARTIST_PASS; independent review pending",
+      "review_notes": "상자 개봉 상태/접힌 무릎·앞벽 쪽 두 발·윗변 잡은 두 손/검사자 미접촉 확인. 손과 다리 수 정상."
+    },
+    {
+      "concept_id": "C07",
+      "scene_id": "S09",
+      "linked_cuts": [
+        "C07_K09"
+      ],
+      "actual_image_path": "\\\\wsl.localhost\\Ubuntu-24.04\\home\\wooseok\\wsy\\samsung_related\\slide\\AI실행결과발표대회_디자인3종\\storyboards\\2026-10-25_C07-C10-rewrite-v13\\images\\C07\\S09.png",
+      "generated_source": "C:\\Users\\wseok\\.codex\\generated_images\\01a17198-e6d8-7b52-ac8d-e155cc595ff4\\exec-9046e041-8f53-47ff-8211-411ce62a55cf.png",
+      "prompt": "Independent 16:9 cinematic first frame C07 S09. Image1 exact porcelain man and industrial world. Image2 exact open crate, seated folded legs and inspector. Side wide framing now makes travel axis absolutely clear: orange inspection station and slender black-curly-haired female inspector are distant SCREEN LEFT; blue station and navy-vest male inspector SCREEN RIGHT. Straight horizontal low-speed roller between them, open plywood crate sits near right before being pushed left. Lid hinged at REAR edge away from viewer, stays upright/slanted open, NOT on travel-left side. Porcelain purple-suit man slumps with comic resignation inside after one failed stand, same knees high folded to chest, feet still inside front, two hands on rim; same left cheek crack, copper hair, black tie. Male inspector is on right outside crate, both gray-gloved palms hovering 2cm from RIGHT exterior corner, just before pushing it LEFT. No grabbing or restraining man. Suitcase with yellow handle band stays at LEFT orange bench far away. Fixed orange camera visible. Whole crate on rollers and both inspectors visible, no perspective axis reversal. No text, subtitles, logos, blur or already-moving motion trails. Upper wall blank for later title.",
+      "reference_images": [
+        "\\\\wsl.localhost\\Ubuntu-24.04\\home\\wooseok\\wsy\\samsung_related\\slide\\AI실행결과발표대회_디자인3종\\storyboards\\2026-10-25_C07-C10-rewrite-v13\\images\\C07\\S01_v2.png",
+        "\\\\wsl.localhost\\Ubuntu-24.04\\home\\wooseok\\wsy\\samsung_related\\slide\\AI실행결과발표대회_디자인3종\\storyboards\\2026-10-25_C07-C10-rewrite-v13\\images\\C07\\S08.png"
+      ],
+      "review_status": "ARTIST_PASS; independent review pending",
+      "review_notes": "A 좌/B 우/왼쪽으로 미는 손 시작·직선 롤러·가방 위치·상자 열린 뒤뚜껑 확인."
+    },
+    {
+      "concept_id": "C07",
+      "scene_id": "S10",
+      "linked_cuts": [
+        "C07_K10"
+      ],
+      "actual_image_path": "\\\\wsl.localhost\\Ubuntu-24.04\\home\\wooseok\\wsy\\samsung_related\\slide\\AI실행결과발표대회_디자인3종\\storyboards\\2026-10-25_C07-C10-rewrite-v13\\images\\C07\\S10.png",
+      "generated_source": "C:\\Users\\wseok\\.codex\\generated_images\\01a17198-e6d8-7b52-ac8d-e155cc595ff4\\exec-27f5fec2-e64a-41d1-8d73-39e59b79de64.png",
+      "prompt": "Independent cinematic photoreal 16:9 first frame C07 S10, return to original station. Reference1 exact original orange bench, fixed industrial camera, inspector IA and yellow-band black suitcase. Reference2 exact open crate, seated porcelain man and leftward return axis. Medium-wide front angle of ORANGE station, same slender black-curly-haired woman in white jacket teal apron and gray gloves at screen LEFT, same original FIXED pole camera to her right, neutral gray monitor. Black suitcase with yellow band on extended handle stands on FLOOR beside orange bench at screen left. Open crate on SAME blue roller arrives from screen RIGHT and is still a short distance BEFORE camera inspection spot. Man is curled inside with knees up, feet at front and both hands on rim; red-haired ivory porcelain with same LEFT crack, purple suit and black tie. He is looking straight ahead resigned, has NOT yet noticed suitcase or met inspector's eyes. Lid open to back. Inspector stationary calm with empty hands, NO new scanner. Male inspector remains offscreen behind at B; do not introduce another one. Room left/top for final post caption; no text/logo/UI. Warm same industrial light, dry cinematic anticlimax.",
+      "reference_images": [
+        "\\\\wsl.localhost\\Ubuntu-24.04\\home\\wooseok\\wsy\\samsung_related\\slide\\AI실행결과발표대회_디자인3종\\storyboards\\2026-10-25_C07-C10-rewrite-v13\\images\\C07\\S01_v2.png",
+        "\\\\wsl.localhost\\Ubuntu-24.04\\home\\wooseok\\wsy\\samsung_related\\slide\\AI실행결과발표대회_디자인3종\\storyboards\\2026-10-25_C07-C10-rewrite-v13\\images\\C07\\S09.png"
+      ],
+      "review_status": "ARTIST_PASS; independent review pending",
+      "review_notes": "처음 검사자·고정카메라·가방 재등장, 상자 도착 직전. D의 시선은 위쪽으로 두어 가방 발견 동작 여지 확보."
+    },
+    {
+      "concept_id": "C08",
+      "scene_id": "S02",
+      "linked_cuts": [
+        "C08_K02"
+      ],
+      "actual_image_path": "\\\\wsl.localhost\\Ubuntu-24.04\\home\\wooseok\\wsy\\samsung_related\\slide\\AI실행결과발표대회_디자인3종\\storyboards\\2026-10-25_C07-C10-rewrite-v13\\images\\C08\\S02.png",
+      "generated_source": "C:\\Users\\wseok\\.codex\\generated_images\\01a17198-e6d8-7b52-ac8d-e155cc595ff4\\exec-5e4e2b17-8f3d-4513-94ca-45d99b79212d.png",
+      "prompt": "Use case ads-marketing, independent 16:9 cinematic first frame C08 S02, humorous disproportionate superhero dispatch. Reference1 is SAME film's daylight office employee; do NOT include or copy that employee in this scene. Create a clearly different protagonist: 50s muscular broad-shouldered Korean WOMAN, very short cropped SILVER hair, square jaw, strong eyebrows, confident serious blockbuster face, DARK TEAL practical tactical jumpsuit with no emblem, short vivid ORANGE cape to waist, black work boots. Underground dispatch bunker with a pair of enormous closed metallic doors twice her height. Low symmetrical 24mm wide shot shows her full body centered, standing in front of CLOSED doors, feet braced. Both palms pressed against separate left/right door panels near central seam, preparing to push them outward but doors have NOT OPENED at all. Serious premium action-movie blue shadows and thin amber rim lights, tangible brushed steel and concrete. No vehicles/crowd/weapons/known superhero references. No words, logos or symbols, no speech bubbles. This frame establishes hero identity for all later shots; heroic energy and deliberately oversized door, not generic office woman.",
+      "reference_images": [
+        "\\\\wsl.localhost\\Ubuntu-24.04\\home\\wooseok\\wsy\\samsung_related\\slide\\AI실행결과발표대회_디자인3종\\storyboards\\2026-10-25_C07-C10-rewrite-v13\\images\\C08\\S01.png"
+      ],
+      "review_status": "ARTIST_PASS; independent review pending",
+      "review_notes": "새 영웅: 근육질 은발 중년 여성/청록 점프수트/주황 짧은 망토, 닫힌 대형 금속문 양손 시작 확인."
+    },
+    {
+      "concept_id": "C08",
+      "scene_id": "S03",
+      "linked_cuts": [
+        "C08_K03"
+      ],
+      "actual_image_path": "\\\\wsl.localhost\\Ubuntu-24.04\\home\\wooseok\\wsy\\samsung_related\\slide\\AI실행결과발표대회_디자인3종\\storyboards\\2026-10-25_C07-C10-rewrite-v13\\images\\C08\\S03.png",
+      "generated_source": "C:\\Users\\wseok\\.codex\\generated_images\\01a17198-e6d8-7b52-ac8d-e155cc595ff4\\exec-9ebcdf54-9ae2-4575-a7b0-f2c7f7cc19fe.png",
+      "prompt": "Use reference1 as exact office employee, outfit, document, props and daylight office continuity. Create independent photoreal 16:9 first frame C08 S03. Over his RIGHT shoulder medium view sees laptop screen large and unobstructed plus right hand resting on trackpad ready to drag a file, and same single blank white review document with teal triangular physical corner tab beside laptop. Same slim young man round glasses pale yellow shirt, his black hair profile visible. Laptop screen must be a flat neutral LIGHT GRAY plane with only a faint nonspecific rectangular layout, NO readable words, NO icons, NO ticks, NO letter P: all source/result/file-card/AI template graphics are later composited accurately. Same mint CLOSED lunchbox and black chopsticks on desk right, empty black completion tray nearby. Assistance device same red button on right. The document has NO marks or fake sentences except natural blank paper texture and the same corner tab. This is BEFORE applying his own file and BEFORE any success indication. Bright mundane office vs heroic cutaway contrast. Keep empty top strip for caption. No superhero, no text/logos/subtitles, no extra papers or hands.",
+      "reference_images": [
+        "\\\\wsl.localhost\\Ubuntu-24.04\\home\\wooseok\\wsy\\samsung_related\\slide\\AI실행결과발표대회_디자인3종\\storyboards\\2026-10-25_C07-C10-rewrite-v13\\images\\C08\\S01.png"
+      ],
+      "review_status": "ARTIST_PASS; independent review pending",
+      "review_notes": "동일 직원·닫힌 도시락·원문 청록탭, 노트북 후합성용 빈 화면, 적용 전 손 시작 확인."
+    },
+    {
+      "concept_id": "C08",
+      "scene_id": "S04",
+      "linked_cuts": [
+        "C08_K04"
+      ],
+      "actual_image_path": "\\\\wsl.localhost\\Ubuntu-24.04\\home\\wooseok\\wsy\\samsung_related\\slide\\AI실행결과발표대회_디자인3종\\storyboards\\2026-10-25_C07-C10-rewrite-v13\\images\\C08\\S04.png",
+      "generated_source": "C:\\Users\\wseok\\.codex\\generated_images\\01a17198-e6d8-7b52-ac8d-e155cc595ff4\\exec-b6130267-3898-4db7-8cc2-cbd36f1f06ef.png",
+      "prompt": "Independent 16:9 first frame C08 S04. Image1 exact employee identity/office, image2 exact desk, laptop, paper, mint CLOSED lunchbox and tray positions. Slightly higher close-medium angle over same shoulder, looking down at employee's hands and document beside laptop while partial glasses/profile stays visible. His right hand now holds one plain black pen hovering just ABOVE blank confirmation area on SAME one white document with teal triangle corner tab. Left hand lightly steadies paper edge without covering central area. Pen NOT touching yet, no checkmark yet. Laptop screen flat pale gray blank with neutral panels only for later matching original/result graphics. Empty black completion tray immediately reachable at side, not already containing paper. Same closed lunchbox, black chopsticks and red assistance device in background. Exact file's black star/row marks and human verification tick are intentionally NOT rendered, reserved for later accurate postcompositing. Paper and monitor both well lit and readable planar surfaces. No text, logos, letters, numbers, duplicate papers, extra hands or hero. Start BEFORE comparing and signing, not a completed check.",
+      "reference_images": [
+        "\\\\wsl.localhost\\Ubuntu-24.04\\home\\wooseok\\wsy\\samsung_related\\slide\\AI실행결과발표대회_디자인3종\\storyboards\\2026-10-25_C07-C10-rewrite-v13\\images\\C08\\S01.png",
+        "\\\\wsl.localhost\\Ubuntu-24.04\\home\\wooseok\\wsy\\samsung_related\\slide\\AI실행결과발표대회_디자인3종\\storyboards\\2026-10-25_C07-C10-rewrite-v13\\images\\C08\\S03.png"
+      ],
+      "review_status": "ARTIST_PASS; independent review pending",
+      "review_notes": "원문 탭·빈 완료 트레이·펜 닿기 전·왼손 종이 지지 확인. 문서/화면 표시는 후합성 필요."
+    },
+    {
+      "concept_id": "C08",
+      "scene_id": "S05",
+      "linked_cuts": [
+        "C08_K05"
+      ],
+      "actual_image_path": "\\\\wsl.localhost\\Ubuntu-24.04\\home\\wooseok\\wsy\\samsung_related\\slide\\AI실행결과발표대회_디자인3종\\storyboards\\2026-10-25_C07-C10-rewrite-v13\\images\\C08\\S05.png",
+      "generated_source": "C:\\Users\\wseok\\.codex\\generated_images\\01a17198-e6d8-7b52-ac8d-e155cc595ff4\\exec-c0e63388-17b3-44a5-be31-7ea0083903b0.png",
+      "prompt": "Independent cinematic photoreal 16:9 start frame C08 S05. Use reference as EXACT employee identity, office wood desk, window, pale plastered brick wall, silver laptop, mint lunchbox and black tray. Wider locked-off office shot establishing action space: employee and desk occupy screen LEFT third. Broad intact off-white painted brick wall occupies RIGHT half with clear empty floor in front, at least 2 meters from employee. Same slim young Korean man with round glasses, black fringe, pale yellow shirt sits safely at desk and is JUST lifting the mint lunchbox lid with both hands to begin opening it. Single white document with teal corner tab is now IN black completion tray; postprinted checking details not visible. Laptop open neutral blank screen, assistance button stays on desk. Right wall must be completely intact, NO crack, hole, dust, flying pieces, hero or cape visible yet: future hero will break through there during later motion. No people hiding anywhere. Ordinary warm daylight and matter-of-fact lunch vs future epic entrance. Clearly show floor and wall for matching future damage. No text, title, symbols or logos.",
+      "reference_images": [
+        "\\\\wsl.localhost\\Ubuntu-24.04\\home\\wooseok\\wsy\\samsung_related\\slide\\AI실행결과발표대회_디자인3종\\storyboards\\2026-10-25_C07-C10-rewrite-v13\\images\\C08\\S01.png"
+      ],
+      "review_status": "ARTIST_PASS; independent review pending",
+      "review_notes": "오른쪽 벽 온전/파편·영웅 미등장/직원 왼쪽 도시락 여는 시작/완료 트레이 원문 확인."
+    },
+    {
+      "concept_id": "C08",
+      "scene_id": "S06",
+      "linked_cuts": [
+        "C08_K06"
+      ],
+      "actual_image_path": "\\\\wsl.localhost\\Ubuntu-24.04\\home\\wooseok\\wsy\\samsung_related\\slide\\AI실행결과발표대회_디자인3종\\storyboards\\2026-10-25_C07-C10-rewrite-v13\\images\\C08\\S06.png",
+      "generated_source": "C:\\Users\\wseok\\.codex\\generated_images\\01a17198-e6d8-7b52-ac8d-e155cc595ff4\\exec-d2090799-9600-47b4-ae21-6c4ecceab587.png",
+      "prompt": "Independent cinematic photoreal 16:9 first frame C08 S06. Image1 exact employee identity and office props. Image2 exact silver-haired MUSCULAR MIDDLE-AGED WOMAN hero, dark teal jumpsuit orange short cape black boots. Image3 exact wide office layout: desk and employee LEFT, wall RIGHT. Continue after hero has actually burst through one part of right wall. Right wall now has ONE roughly person-sized ragged hole about1.2m wide1.8m high, bounded on all sides, same white-painted brick wall. Red lightweight brick pieces and white plaster scattered ONLY near hole, never desk or employee. Hole is not whole room collapse. Hero in right foreground just held a grandiose low landing pose, one knee bent and torso proud upright, orange cape behind; serious action-movie expression aimed forward, not yet noticed finished work. Employee left background calmly holds BLACK chopsticks above open MINT lunchbox, other hand resting near completion tray, NOT pointing yet. Same one tabbed paper in black tray, laptop and red call device stay. Two-person composition shows her side profile, his frontal face, hole behind right, blank wall above employee for later caption. No text, logos, sparks, injuries, flames or other people. This is before employee gestures to tray.",
+      "reference_images": [
+        "\\\\wsl.localhost\\Ubuntu-24.04\\home\\wooseok\\wsy\\samsung_related\\slide\\AI실행결과발표대회_디자인3종\\storyboards\\2026-10-25_C07-C10-rewrite-v13\\images\\C08\\S01.png",
+        "\\\\wsl.localhost\\Ubuntu-24.04\\home\\wooseok\\wsy\\samsung_related\\slide\\AI실행결과발표대회_디자인3종\\storyboards\\2026-10-25_C07-C10-rewrite-v13\\images\\C08\\S02.png",
+        "\\\\wsl.localhost\\Ubuntu-24.04\\home\\wooseok\\wsy\\samsung_related\\slide\\AI실행결과발표대회_디자인3종\\storyboards\\2026-10-25_C07-C10-rewrite-v13\\images\\C08\\S05.png"
+      ],
+      "review_status": "ARTIST_PASS; independent review pending",
+      "review_notes": "왼쪽 직원 도시락/완료문서, 오른쪽 은발 영웅 착지 후와 동일벽 국소 파손 확인. 직원 가리키기 전."
+    },
+    {
+      "concept_id": "C08",
+      "scene_id": "S07",
+      "linked_cuts": [
+        "C08_K07"
+      ],
+      "actual_image_path": "\\\\wsl.localhost\\Ubuntu-24.04\\home\\wooseok\\wsy\\samsung_related\\slide\\AI실행결과발표대회_디자인3종\\storyboards\\2026-10-25_C07-C10-rewrite-v13\\images\\C08\\S07.png",
+      "generated_source": "C:\\Users\\wseok\\.codex\\generated_images\\01a17198-e6d8-7b52-ac8d-e155cc595ff4\\exec-fa222b5c-37bd-4d7b-a70b-f138abc8a91c.png",
+      "prompt": "Independent cinematic photoreal 16:9 first frame C08 S07. Use image1 exact employee and original office; image2 exact muscular silver-haired heroine jumpsuit/cape; image3 exact freshly broken right wall hole and debris. Same two people now face each other near desk edge. Slim yellow-shirt employee at screen LEFT half-risen beside his chair holds a small gray masonry trowel close to his own torso: blade safely cradled in his left palm, wooden handle pointing to screen RIGHT toward heroine, his right hand supporting near handle base. He has NOT extended or handed it over yet. His expression kind matter-of-fact, not mocking. Hero at screen RIGHT has risen from landing, stands upright with BOTH HANDS EMPTY at sides, still grand serious but slightly puzzled, same orange short cape. She is a half-step away within comfortable arm reach. Same ragged person-sized right-wall hole/debris visible behind her; intact wall and window/desk on left. Open mint lunchbox and black chopsticks laid beside it, black tray with same teal-tab white paper, laptop, red button all remain. Show both faces, empty hero hands, trowel and hole in one medium-wide. No new damage, no ladder, no words, captions or logos.",
+      "reference_images": [
+        "\\\\wsl.localhost\\Ubuntu-24.04\\home\\wooseok\\wsy\\samsung_related\\slide\\AI실행결과발표대회_디자인3종\\storyboards\\2026-10-25_C07-C10-rewrite-v13\\images\\C08\\S01.png",
+        "\\\\wsl.localhost\\Ubuntu-24.04\\home\\wooseok\\wsy\\samsung_related\\slide\\AI실행결과발표대회_디자인3종\\storyboards\\2026-10-25_C07-C10-rewrite-v13\\images\\C08\\S02.png",
+        "\\\\wsl.localhost\\Ubuntu-24.04\\home\\wooseok\\wsy\\samsung_related\\slide\\AI실행결과발표대회_디자인3종\\storyboards\\2026-10-25_C07-C10-rewrite-v13\\images\\C08\\S06.png"
+      ],
+      "review_status": "ARTIST_PASS; independent review pending",
+      "review_notes": "흙손 전달 전 E 손/영웅 빈손/같은 파손벽·도시락·트레이/근거리 인계 가능 확인."
+    },
+    {
+      "concept_id": "C08",
+      "scene_id": "S08",
+      "linked_cuts": [
+        "C08_K08"
+      ],
+      "actual_image_path": "\\\\wsl.localhost\\Ubuntu-24.04\\home\\wooseok\\wsy\\samsung_related\\slide\\AI실행결과발표대회_디자인3종\\storyboards\\2026-10-25_C07-C10-rewrite-v13\\images\\C08\\S08.png",
+      "generated_source": "C:\\Users\\wseok\\.codex\\generated_images\\01a17198-e6d8-7b52-ac8d-e155cc595ff4\\exec-3b9d62e9-0ec3-4412-b950-c814f253c2de.png",
+      "prompt": "Independent cinematic photoreal 16:9 first frame C08 S08 after a clearly planned editorial time skip, no written captions in image. Image1 exact office/employee, image2 exact silver-haired muscular heroine identity teal jumpsuit, image3 exact same right-wall broken perimeter and gray wooden-handled trowel. The SAME person-sized hole in RIGHT wall has been repaired with ordinary exposed reddish bricks and gray mortar inside its original ragged white plaster outline; NOT a new giant wall, no change to window/desk. Only ONE brick-sized horizontal slot at UPPER RIGHT of patch remains empty, easy to reach at heroine shoulder height. Heroine faces wall three-quarter side, both hands holding ONE final red brick horizontally just BEFORE placing it into empty slot. Her ORANGE cape has been taken off shoulders and neatly TIED AROUND WAIST so it does not obstruct work; teal suit, silver hair, muscular arms same. The SAME gray trowel with wood handle rests on FLOOR directly beside small gray mortar bucket below repair and stays there. Most loose debris cleaned into small nearby pile. Employee left background at same desk/lunch, smaller but recognizable. Medium-wide includes last slot, both hands, heroine face, bucket/trowel on floor and enough left wall for later 'later' caption. No text, signs, duplicates, floating bricks; brick NOT already inserted.",
+      "reference_images": [
+        "\\\\wsl.localhost\\Ubuntu-24.04\\home\\wooseok\\wsy\\samsung_related\\slide\\AI실행결과발표대회_디자인3종\\storyboards\\2026-10-25_C07-C10-rewrite-v13\\images\\C08\\S01.png",
+        "\\\\wsl.localhost\\Ubuntu-24.04\\home\\wooseok\\wsy\\samsung_related\\slide\\AI실행결과발표대회_디자인3종\\storyboards\\2026-10-25_C07-C10-rewrite-v13\\images\\C08\\S02.png",
+        "\\\\wsl.localhost\\Ubuntu-24.04\\home\\wooseok\\wsy\\samsung_related\\slide\\AI실행결과발표대회_디자인3종\\storyboards\\2026-10-25_C07-C10-rewrite-v13\\images\\C08\\S07.png"
+      ],
+      "review_status": "ARTIST_PASS; independent review pending",
+      "review_notes": "같은 국소 구멍 수리 후 마지막 빈 칸/벽돌 양손/망토 허리/흙손·통 바닥 확인. 마지막 벽돌은 넣기 전."
+    },
+    {
+      "concept_id": "C08",
+      "scene_id": "S09",
+      "linked_cuts": [
+        "C08_K09"
+      ],
+      "actual_image_path": "\\\\wsl.localhost\\Ubuntu-24.04\\home\\wooseok\\wsy\\samsung_related\\slide\\AI실행결과발표대회_디자인3종\\storyboards\\2026-10-25_C07-C10-rewrite-v13\\images\\C08\\S09.png",
+      "generated_source": "C:\\Users\\wseok\\.codex\\generated_images\\01a17198-e6d8-7b52-ac8d-e155cc595ff4\\exec-461f2483-cc52-403d-a394-ccba0809a277.png",
+      "prompt": "Independent photoreal cinematic 16:9 first frame C08 S09. Reference1 exact employee/office, reference2 exact nearly repaired wall, last slot, cape tied at waist, heroine, trowel and bucket floor positions. Now the SINGLE final red brick is placed into that SAME upper-right slot, but its RIGHT END is visibly about 2cm HIGHER than its left end. Make the brick protrude just 4cm forward from wall surface so its narrow TOP edge is physically accessible for a small level before final seating; no floating brick and no new slot elsewhere. The upper mortar joint has enough clearance for a THIN small spirit level, no solid wall intersection. Young slim glasses employee stands immediately LEFT of heroine, holding one compact yellow spirit level 20cm long in both hands 3cm ABOVE the tilted brick's top edge, not touching yet. Heroine stands immediately beside/right of him, hands BOTH EMPTY lowered, looking overly serious at the tiny defect. Same silver short hair teal suit orange waist cape. Camera medium shot at slight angle lets see both faces, level, tilted brick, repaired patch and floor bucket/trowel. Office desk/lunch in left background. No readable scale numbers, no text/letters/logos/subtitles. No finished level correction, brick still tilted and level NOT placed yet.",
+      "reference_images": [
+        "\\\\wsl.localhost\\Ubuntu-24.04\\home\\wooseok\\wsy\\samsung_related\\slide\\AI실행결과발표대회_디자인3종\\storyboards\\2026-10-25_C07-C10-rewrite-v13\\images\\C08\\S01.png",
+        "\\\\wsl.localhost\\Ubuntu-24.04\\home\\wooseok\\wsy\\samsung_related\\slide\\AI실행결과발표대회_디자인3종\\storyboards\\2026-10-25_C07-C10-rewrite-v13\\images\\C08\\S08.png"
+      ],
+      "review_status": "ARTIST_PASS; independent review pending",
+      "review_notes": "수평계 접촉 전/빈 손/흙손 바닥 확인. 마지막 벽돌이 빈칸을 못 메워 국소 수정 필요."
+    },
+    {
+      "concept_id": "C08",
+      "scene_id": "S09",
+      "linked_cuts": [
+        "C08_K09"
+      ],
+      "actual_image_path": "\\\\wsl.localhost\\Ubuntu-24.04\\home\\wooseok\\wsy\\samsung_related\\slide\\AI실행결과발표대회_디자인3종\\storyboards\\2026-10-25_C07-C10-rewrite-v13\\images\\C08\\S09_v2.png",
+      "generated_source": "C:\\Users\\wseok\\.codex\\generated_images\\01a17198-e6d8-7b52-ac8d-e155cc595ff4\\exec-374b36e9-a961-40c5-99fd-67c033d35142.png",
+      "prompt": "Precise continuity edit of this frame. Preserve both exact characters, faces, costumes, body positions, hands, tools, lighting, window and desk. Fix ONLY last-brick geometry and corresponding small level position. The repaired wall must be FULLY FILLED with red bricks, with NO EMPTY rectangular cavity left. Place the final top-right red brick IN the existing vacant top-right cavity, resting solidly on mortar and occupying that entire cavity. Its RIGHT end sits 2cm higher than its left end (a slight counterclockwise tilt in image). It protrudes 4cm toward camera so a narrow top ledge is available for measuring; the brick is NOT floating and NOT pasted across another brick. Fill the formerly wrong position at left of the cavity as normal surrounding masonry. Shift the man's small yellow spirit level right with his hands as little as necessary so it hovers just ABOVE this actual tilted final brick; don't touch it yet. Keep natural reaching distance, no fused tools/wall. No other changes or text. Single16:9.",
+      "reference_images": [
+        "\\\\wsl.localhost\\Ubuntu-24.04\\home\\wooseok\\wsy\\samsung_related\\slide\\AI실행결과발표대회_디자인3종\\storyboards\\2026-10-25_C07-C10-rewrite-v13\\images\\C08\\S09.png"
+      ],
+      "review_status": "ARTIST_PASS; independent review pending",
+      "review_notes": "빈 슬롯은 막힘. 수평계가 목표 벽돌보다 왼쪽에 있어 손 위치 재조정 필요."
+    },
+    {
+      "concept_id": "C08",
+      "scene_id": "S09",
+      "linked_cuts": [
+        "C08_K09"
+      ],
+      "actual_image_path": "\\\\wsl.localhost\\Ubuntu-24.04\\home\\wooseok\\wsy\\samsung_related\\slide\\AI실행결과발표대회_디자인3종\\storyboards\\2026-10-25_C07-C10-rewrite-v13\\images\\C08\\S09_v3.png",
+      "generated_source": "C:\\Users\\wseok\\.codex\\generated_images\\01a17198-e6d8-7b52-ac8d-e155cc595ff4\\exec-6451bd33-5c2a-49b1-aaed-f14bf4b7ff23.png",
+      "prompt": "Precise edit of this image, preserve everything except the employee's raised arms/level and one brick. The target final brick is the TOP-RIGHT brick directly under the ragged upper white plaster at the right edge of the red repair patch. It is the brick at image x about 1400 y about160, NOT the neighboring brick at x1270. Rotate ONLY this target brick a little so its screen-right end is 3cm HIGHER, visibly less level than ALL neighboring horizontal bricks, and it protrudes 4cm toward camera. Move the employee's yellow level AND both hands/forearms to the RIGHT so the yellow level is centered directly above THIS TOP-RIGHT target brick at x1400. He extends both arms naturally toward wall. Yellow level must be above target brick's full width, not over neighboring left brick. Leave a 2cm gap under level, start before contact. Keep all holes completely filled. Heroine's hands empty and down, same face/body, same office, bucket/trowel, cape. Do not add text or extra tools. 16:9.",
+      "reference_images": [
+        "\\\\wsl.localhost\\Ubuntu-24.04\\home\\wooseok\\wsy\\samsung_related\\slide\\AI실행결과발표대회_디자인3종\\storyboards\\2026-10-25_C07-C10-rewrite-v13\\images\\C08\\S09_v2.png"
+      ],
+      "review_status": "ARTIST_PASS; independent review pending",
+      "review_notes": "마지막 우상단 벽돌로 수평계/양팔 정렬 수정. 벽돌 오른쪽 끝 높음, 수평계 접촉 전 간격·빈손·바닥도구 확인."
+    },
+    {
+      "concept_id": "C08",
+      "scene_id": "S10",
+      "linked_cuts": [
+        "C08_K10"
+      ],
+      "actual_image_path": "\\\\wsl.localhost\\Ubuntu-24.04\\home\\wooseok\\wsy\\samsung_related\\slide\\AI실행결과발표대회_디자인3종\\storyboards\\2026-10-25_C07-C10-rewrite-v13\\images\\C08\\S10.png",
+      "generated_source": "C:\\Users\\wseok\\.codex\\generated_images\\01a17198-e6d8-7b52-ac8d-e155cc595ff4\\exec-af0d81a1-07c2-46f4-9613-f0df812debeb.png",
+      "prompt": "Independent cinematic photoreal 16:9 first frame C08 S10. Reference1 exact employee/office. Reference2 exact heroine at repair wall, orange cape tied around WAIST and trowel/bucket floor. Reference3 exact completed patch and last TOP-RIGHT brick whose right end is too high. Same wall and SAME one tilted upper-right brick, still visibly tilted, NOT corrected yet. Medium-wide camera slightly to left: heroine now closest to wall at screen RIGHT, solemn concentrated face, her two EMPTY hands raised just a few centimeters from left/right ends of that target brick, preparing to grip and adjust. She has no trowel in her hands. Young yellow-shirt man stands just LEFT beside her and has removed yellow spirit level from brick; he holds it DOWN at his side clear of her arm path. Keep physical distance natural; no reaching through him or level. Bucket and same trowel remain on floor immediately below at same position as reference2. Same repaired patch perimeter, window and desk/lunch far left. Leave generous empty upper-LEFT wall/window area for later end-title panel; no baked text. Hands must not already lift brick and brick stays tilted. No other tools, extra faces or debris changes. Serious precise handwork is the absurd tiny final task for oversized hero.",
+      "reference_images": [
+        "\\\\wsl.localhost\\Ubuntu-24.04\\home\\wooseok\\wsy\\samsung_related\\slide\\AI실행결과발표대회_디자인3종\\storyboards\\2026-10-25_C07-C10-rewrite-v13\\images\\C08\\S01.png",
+        "\\\\wsl.localhost\\Ubuntu-24.04\\home\\wooseok\\wsy\\samsung_related\\slide\\AI실행결과발표대회_디자인3종\\storyboards\\2026-10-25_C07-C10-rewrite-v13\\images\\C08\\S08.png",
+        "\\\\wsl.localhost\\Ubuntu-24.04\\home\\wooseok\\wsy\\samsung_related\\slide\\AI실행결과발표대회_디자인3종\\storyboards\\2026-10-25_C07-C10-rewrite-v13\\images\\C08\\S09_v3.png"
+      ],
+      "review_status": "ARTIST_PASS; independent review pending",
+      "review_notes": "같은 우상단 비뚤어진 벽돌 재작업 전/수평계 직원 옆으로 내림/영웅 양손 접근/흙손 바닥 확인."
+    }
+  ],
+  "notes": [
+    "모든 씬 독립 생성. 정확 자막/화면/문서 글자는 후합성 예정으로 생성하지 않음.",
+    "C07 S01_v2는 타이/띠 보정, S03_v2는 균열 좌우 연속성 보정.",
+    "C08 S09_v3는 빈 슬롯 제거 및 목표 벽돌 위 수평계 위치 보정.",
+    "C08 마지막 벽돌은 작은 수평계가 놓일 상단 공간을 위해 벽면보다 약간 돌출된 시작 연출. 정렬/최종 안착은 후속 동작."
+  ],
+  "contact_sheets": [
+    "contact_C07.jpg",
+    "contact_C08.jpg"
+  ],
+  "review_status": "THREE_INDEPENDENT_CROSS_FINAL_IMAGE_REVIEW_PASS"
+}

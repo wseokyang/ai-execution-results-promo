@@ -1,0 +1,52 @@
+[
+  {
+    "cut": "CLOSE",
+    "source": "C01_K07_close_recline_take01.mp4",
+    "source_in": 1,
+    "source_out": 4.25,
+    "note": "actual seated-to-back-and-head-flat action; no source voices"
+  },
+  {
+    "cut": "MIRROR",
+    "source": "C01_K08_mirror_take01.mp4",
+    "source_in": 1,
+    "source_out": 5.5,
+    "poster_quad": [
+      [
+        339,
+        0
+      ],
+      [
+        875,
+        10
+      ],
+      [
+        875,
+        323
+      ],
+      [
+        338,
+        320
+      ]
+    ],
+    "monitor_quad": [
+      [
+        1174,
+        90
+      ],
+      [
+        1322,
+        54
+      ],
+      [
+        1321,
+        293
+      ],
+      [
+        1174,
+        294
+      ]
+    ],
+    "note": "trainee genuinely raises limbs after lying down, photographer raises camera; no unsupported shutter cue"
+  }
+]

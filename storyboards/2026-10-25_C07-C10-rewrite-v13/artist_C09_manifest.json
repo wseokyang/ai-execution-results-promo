@@ -1,0 +1,135 @@
+{
+  "entries": [
+    {
+      "concept_id": "C09",
+      "scene_id": "S01",
+      "file": "images/C09/S01.png",
+      "generated_source": "C:\\Users\\wseok\\.codex\\generated_images\\01a13daf-3732-7b90-99a8-92c605090d35\\exec-2ca979f2-3af3-4438-a947-0b27a6541870.png",
+      "prompt": "Match orange raincoat and man's identity from reference, but NEW close insert at an office packing desk before departure. Frame only orange-coated man's torso and his ANATOMICAL RIGHT hand approaching but NOT TOUCHING one WHITE small USB charger with a short cable tied by a PINK band on the desk. A PINK-case smartphone lies beside charger and stays on desk. His open RIGHT coat pocket immediately next to desk within tiny movement distance. Left hand fully out of frame. No suitcase needed. Cold office light with warm edge. This is the START before picking up charger. Sharp ordinary practical prop, no theft menace. Landscape16:9 live-action, no words/text/logo/collage.",
+      "reference_images": [
+        "images/C09/S02.png"
+      ],
+      "review_status": "THREE_REVIEWERS_FINAL_SELECTED_FIRST_FRAME_PASS",
+      "notes": "Charger is physically a single adapter with attached cable; pink phone remains on desk.",
+      "sha256": "95f75b7e48b25ed8bef62d6ac2d4269483110b37349f228ffe65b1bd3fbdee45"
+    },
+    {
+      "concept_id": "C09",
+      "scene_id": "S02",
+      "file": "images/C09/S02.png",
+      "generated_source": "C:\\Users\\wseok\\.codex\\generated_images\\01a13daf-3732-7b90-99a8-92c605090d35\\exec-681f23b9-0318-47f5-b75e-7f3f8ce27bbd.png",
+      "prompt": "Edit this exact scene, keep all identities, bus, light, camera, rain and every object. Correct ONLY the orange-coat man's arms and suitcase placement. Anatomical hand assignment: his RIGHT hand, on the viewer's LEFT side of his body, must hold the suitcase handle low at his right hip. Move suitcase to viewer-left beside his right foot. His LEFT arm from the viewer-right shoulder reaches ACROSS THE FRONT OF HIS CHEST toward the woman's empty left hand, palm open, not touching yet. The awkward over-serious crossed-arm farewell is intentional. Do not add hands. Exactly two arms. Woman unchanged, her anatomical right hand holds pink phone. Upper arms, elbows and hands must be visibly connected and realistic. No text.",
+      "reference_images": [
+        "C:/Users/wseok/.codex/generated_images/01a13daf-3732-7b90-99a8-92c605090d35/exec-fb9a6267-4fc2-4f26-8ffc-ba4cf788f9bc.png"
+      ],
+      "review_status": "THREE_REVIEWERS_FINAL_SELECTED_FIRST_FRAME_PASS",
+      "notes": "Corrected initial wrong man hand: right holds suitcase, left crosses chest to empty woman left.",
+      "sha256": "f8b85f0e937425d1a6a31555d431311757f38a080679662b7e592029e94f4b35"
+    },
+    {
+      "concept_id": "C09",
+      "scene_id": "S03",
+      "file": "images/C09/S03.png",
+      "generated_source": "C:\\Users\\wseok\\.codex\\generated_images\\01a13daf-3732-7b90-99a8-92c605090d35\\exec-59d7c741-8a4b-4148-bd6f-f699d1645ac1.png",
+      "prompt": "Use SAME woman LEFT/manCENTER/stoppedcreamBUS RIGHT, same rain shelter/wardrobe/cast/suitcase with yellow ribbon. First frame before woman's phone reveal: woman holds pink-case smartphone in ANATOMICAL RIGHT hand (on viewerleft) at mid-chest angled toward man, screen near-black BLANK for later compositing; empty left hand relaxed. Man has BOTH feet planted, ANATOMICAL RIGHT hand (viewer-left) low holding grey suitcase beside his right foot, LEFT hand EMPTY relaxed at side, sad proud expression. Medium two-shot faces and phone visible, keep upper background caption space. No touch/no otherphone/no charger visible.16:9 photographic cinematic rain, exact familiar faces, no text.",
+      "reference_images": [
+        "images/C09/S02.png"
+      ],
+      "review_status": "THREE_REVIEWERS_FINAL_SELECTED_FIRST_FRAME_PASS",
+      "notes": "",
+      "sha256": "15eddc6da256cba35a2de35f2ab486d8730a6d8496cfa6d6291a82a76132c87b"
+    },
+    {
+      "concept_id": "C09",
+      "scene_id": "S04",
+      "file": "images/C09/S04.png",
+      "generated_source": "C:\\Users\\wseok\\.codex\\generated_images\\01a13daf-3732-7b90-99a8-92c605090d35\\exec-bf9266c6-e0b5-48ff-85d3-854d4551dc81.png",
+      "prompt": "Same raincoat man/tealjacket woman, creamunbrandedbus with blue seats and open center-right door from reference. Wide SIDE view before boarding, showfeet lowcurb busdoor andcase. BusfullystationaryfronttowardRIGHT. Orange man on pavement directly beside LOW SINGLE STEP, facing RIGHT towardbusdoor, ANATOMICAL RIGHT hand holds grey rolling case with yellow ribbon on his right side. Both manfeet and ALL casewheels still on pavement, NOT yet stepping. Woman remains outsideLEFT behind him, pinkphone in RIGHT hand, EMPTY LEFT hand reaching toward case to help notyetcontact. Natural meaningful safe distances, no impossible stretchedarms. No charger or blackphone visible. Rainycinematic backlight,16:9 firstframe no text orcollage.",
+      "reference_images": [
+        "images/C09/S02.png"
+      ],
+      "review_status": "THREE_REVIEWERS_FINAL_SELECTED_FIRST_FRAME_PASS",
+      "notes": "",
+      "sha256": "afb7f78ee135b3ca0a1af0887316eebcb146358b55b4856ab86daa72c6a85a48"
+    },
+    {
+      "concept_id": "C09",
+      "scene_id": "S05",
+      "file": "images/C09/S05.png",
+      "generated_source": "C:\\Users\\wseok\\.codex\\generated_images\\01a13daf-3732-7b90-99a8-92c605090d35\\exec-abc12d8a-af59-46ad-8e81-11f92076a3a1.png",
+      "prompt": "Same orange-raincoat late50s white-curly-haired man and cream bus from reference. Medium shot INSIDE the stopped cream bus just past its OPEN doorway, blue upholstered seats, warm ceiling lamps, rainy shelter visible outside. He stands safely inside, all suitcase wheels on bus floor. ANATOMICAL RIGHT hand holds extended grey suitcase handle with yellow ribbon at his right hip. His LEFT hand holds a BLACK smartphone at chest height, screen dark blank for caller overlay, he is JUST noticing call and starting an overjoyed 'I knew they needed me' expression, notyetphoneatear. No pinkphone in his hands. Maintain face,clothes,case. One visible man, woman notneeded. 16:9photographic cinematic firstframe, no captions/text/logos.",
+      "reference_images": [
+        "images/C09/S02.png"
+      ],
+      "review_status": "THREE_REVIEWERS_FINAL_SELECTED_FIRST_FRAME_PASS",
+      "notes": "Phone back visible. Caller name must be external editorial badge, never composited onto phone back.",
+      "sha256": "42a96b64e7b97fd79945dbaa1742719c45e78f805a3484db6241810dd67fa373"
+    },
+    {
+      "concept_id": "C09",
+      "scene_id": "S06",
+      "file": "images/C09/S06.png",
+      "generated_source": "C:\\Users\\wseok\\.codex\\generated_images\\01a13daf-3732-7b90-99a8-92c605090d35\\exec-1e168c22-0593-4006-a212-b9628e062f0b.png",
+      "prompt": "Use exact same man woman bus shelter and rollingcase. Wide SIDE shot facing the OPEN door of the STATIONARY cream bus, fronttowardRIGHT, blue seats. Man inorange coat stands JUST INSIDE low SINGLE-STEP threshold, both feet still on bus floor, about to alight. LEFT hand holds BLACK phone against LEFT ear; RIGHT hand grips grey rolling suitcase with yellow ribbon, case still INSIDE bus at hisright side. Woman stands on pavement LEFT of door, her RIGHT hand holds PINK phone to RIGHT ear, leftempty. Fullfeet,wheels,lowstep visible; safe gap. START before stepping off, NOT alreadyonpavement. Exactsameoldercurlywhitehairandpixiecutfaces. Rainy dramaticbacklight16:9 no words orcollage.",
+      "reference_images": [
+        "images/C09/S02.png"
+      ],
+      "review_status": "THREE_REVIEWERS_FINAL_SELECTED_FIRST_FRAME_PASS",
+      "notes": "",
+      "sha256": "e60bc41ab249988214310d620dedcff0f9241119344059c2f7283c258c7ef5eb"
+    },
+    {
+      "concept_id": "C09",
+      "scene_id": "S07",
+      "file": "images/C09/S07_v2.png",
+      "generated_source": "C:\\Users\\wseok\\.codex\\generated_images\\01a13daf-3732-7b90-99a8-92c605090d35\\exec-f67a6b03-de92-440b-b353-f33839fa75cc.png",
+      "prompt": "Edit this exact frame ONLY to restore a small vivid YELLOW cloth ribbon tied to the grey suitcase's top carry-handle, just below the telescoping handle. Keep every person, face, hand, posture, suitcase geometry, phone, bus, camera and lighting exactly unchanged. Do not alter anything except adding this yellow ribbon, which is the continuity marker of this same suitcase. Real cloth short loose ends, no writing or additional objects. Preserve landscape image.",
+      "reference_images": [
+        "C:\\Users\\wseok\\.codex\\generated_images\\01a13daf-3732-7b90-99a8-92c605090d35\\exec-651521ec-7656-421c-9337-364c18ee61c8.png"
+      ],
+      "review_status": "THREE_REVIEWERS_FINAL_SELECTED_FIRST_FRAME_PASS",
+      "notes": "Yellow ribbon restored on case handle; phone in man's left pocket.",
+      "sha256": "e87c77df3962c1521da1758435b719b453a2afb93931063c99e0382b7698b8b4"
+    },
+    {
+      "concept_id": "C09",
+      "scene_id": "S08",
+      "file": "images/C09/S08.png",
+      "generated_source": "C:\\Users\\wseok\\.codex\\generated_images\\01a13daf-3732-7b90-99a8-92c605090d35\\exec-5a940402-0d0e-4bb7-b538-db0501c1da81.png",
+      "prompt": "Exact same olderwhitecurlyhairedorange man right, pixiehairedteal womanleft, rainbusstopandopenstoppedbus. FIRSTFRAME beforereturningcharger. Medium closehand-exchange image withfacesinupperhalf. Man ANATOMICAL RIGHT hand(viewerleft) holdsONEwhitechargeradapter+shortwhitecable tiedpinkband, reachingtowardwoman butNOT touchingher EMPTY LEFT palm(screenrightofherbody), 10cmgap. WomanRIGHThandholdsPINKphone lowbyherhip. Man LEFT hand isEMPTYrelaxed; blackphonefullyINSIDEleftcoatpocket invisible. Grey caseuprightwithyellowribbon besidehisrightleg, nogrip. Faces:hecrestfallen,shewarmgrateful. Samewhiteadapterwithcable as firstinsert, no extraadapter,no split cable. No text,landscape16:9 premiumcinematicphotography.",
+      "reference_images": [
+        "images/C09/S02.png"
+      ],
+      "review_status": "THREE_REVIEWERS_FINAL_SELECTED_FIRST_FRAME_PASS",
+      "notes": "",
+      "sha256": "b78a5adac2d49c65ac045715ec993d63c8ba0306360abc9fd5f45b9cfa8f2d4a"
+    },
+    {
+      "concept_id": "C09",
+      "scene_id": "S09",
+      "file": "images/C09/S09.png",
+      "generated_source": "C:\\Users\\wseok\\.codex\\generated_images\\01a13daf-3732-7b90-99a8-92c605090d35\\exec-d908cb91-d579-41a5-a346-c4e0f76b0079.png",
+      "prompt": "Same rainy shelter, woman LEFT orange manCENTER, identical cream stoppedbus RIGHT facingright. Wide FIRSTFRAME justbeforebusdoorcloses andleaves. Bus doorOPEN andallwheelsstopped. AFTER completedchargerreturn: Woman ANATOMICAL LEFT hand holdsWHITEadapterwithshortcablepinkband atwaist; RIGHT hand PINKphone downnearhip. ManRIGHT hand holdsGREYrollingcasehandle at RIGHTside(viewerleft) withtinyYELLOWribbon, LEFTempty, BLACKphoneinsideLEFTpocket. He stilllookingwarmlytowoman notyetturnedafterbus. Keepvisiblefeet,busdoor,safetygap. No extra charger, no objecthandoffnow. Identicalfaceswardrobeandscene. Bigemptyupperleftwallforlatercaption.16:9no text.",
+      "reference_images": [
+        "images/C09/S02.png"
+      ],
+      "review_status": "THREE_REVIEWERS_FINAL_SELECTED_FIRST_FRAME_PASS",
+      "notes": "",
+      "sha256": "92f2e904e473bbd3531eae0a8369d5ede38e95820a555f36627c3482ffe78677"
+    },
+    {
+      "concept_id": "C09",
+      "scene_id": "S10",
+      "file": "images/C09/S10.png",
+      "generated_source": "C:\\Users\\wseok\\.codex\\generated_images\\01a13daf-3732-7b90-99a8-92c605090d35\\exec-2100e312-f7b7-46d5-882a-be751160cabd.png",
+      "prompt": "Matchexactreferencecastandrainyshelterbut BUS IS COMPLETELY GONE to the RIGHT, leaveemptyroad. FIRSTFRAMEofendingbeforewomanwalksbackoffice. Widecinematic fullbody: olderwhitecurlyhairedorange man remainsCENTERunderroof, RIGHT hand holdingGREYcasehandle(YELLOWribbon) onhisRIGHT(viewerleft),emptyLEFT hand, lookingtowardemptyroadRIGHTwithquietlydeflatedgrandromanceexpression. WomanLEFT stillstanding justabouttoturn towardoffice inbackgroundLEFT, LEFT hand WHITEchargerwithshortcablepinkband, RIGHT handPINKphone, warmnotcruel. Woman'sobjectsvisiblyretained. Rain outsidecanopy,anddramaticreflections. 16:9 originalscene no words/captions/logos, leaveupperleftshelterwallclearforpostcaption.",
+      "reference_images": [
+        "images/C09/S02.png"
+      ],
+      "review_status": "THREE_REVIEWERS_FINAL_SELECTED_FIRST_FRAME_PASS",
+      "notes": "",
+      "sha256": "2efa880ec9cce65025e961b0c5e30b7de84ac52c30f6006b5ef21dd19029517c"
+    }
+  ],
+  "review_status": "THREE_INDEPENDENT_CROSS_FINAL_IMAGE_REVIEW_PASS"
+}

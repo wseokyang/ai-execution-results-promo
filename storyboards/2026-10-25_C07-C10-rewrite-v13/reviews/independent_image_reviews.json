@@ -1,0 +1,110 @@
+{
+  "scope": "PD digest of actual independent image reviews; not verbatim transcripts, audience testing, or video-motion verification.",
+  "reviewers": [
+    {
+      "id": "A",
+      "agent": "/root/causal_review_a",
+      "opened_individual_images": 40,
+      "opened_contact_sheets": 4,
+      "issues": [
+        [
+          "IA001",
+          "required",
+          "C10 S02-S04 workbench feet outside turntable"
+        ],
+        [
+          "IA002",
+          "required",
+          "C10 S05-S06 cloth below diagonal lower hem and pole-like grip"
+        ],
+        [
+          "IA003",
+          "required_post_layout",
+          "C10 S10 upper-left three-line title avoids face/hands/white gap"
+        ],
+        [
+          "IA004",
+          "optional",
+          "C09 S07/S08 yellow ribbon attachment position"
+        ],
+        [
+          "IA005",
+          "required_recheck_finding",
+          "C10 S02-S04 residual cloth below/free end of diagonal bar"
+        ]
+      ]
+    },
+    {
+      "id": "B",
+      "agent": "/root/causal_review_b",
+      "opened_individual_images": 40,
+      "opened_contact_sheets": 4,
+      "issues": [
+        [
+          "IB001",
+          "required",
+          "C10 S02-S04 workbench/platform contact"
+        ],
+        [
+          "IB002",
+          "required",
+          "C10 free lower-bar grip; cross review added residual curtain below rod including front views"
+        ],
+        [
+          "IB003",
+          "future_motion",
+          "C10 K10 face remains above fixed top while lower hem covers white gap"
+        ],
+        [
+          "IB004",
+          "optional",
+          "C09 yellow ribbon continuity"
+        ],
+        [
+          "IB005",
+          "required_post_layout",
+          "C10 S10 upper-left title layout"
+        ],
+        [
+          "IB006",
+          "required_post_layout",
+          "Restore exact hyphenated Q-AI Fair in caption proof"
+        ]
+      ]
+    },
+    {
+      "id": "C",
+      "agent": "/root/v13_review_c",
+      "opened_individual_images": 40,
+      "opened_contact_sheets": 4,
+      "issues": [
+        [
+          "IC001",
+          "required",
+          "C10 workbench must be on turntable before rotation"
+        ],
+        [
+          "IC002",
+          "required",
+          "C10 S05-S06 remove cloth below rod and detach hand grip from pole"
+        ],
+        [
+          "IC003",
+          "post_layout",
+          "C10 S10 title should be actually composited upper-left"
+        ],
+        [
+          "IC004",
+          "required_recheck_finding",
+          "C10 front S02-S04 residual cloth below rod and beyond high end"
+        ]
+      ]
+    }
+  ],
+  "other_concepts": "C07-C09 no remaining required first-frame defect reported. C09 ribbon discrepancy documented as optional.",
+  "limits": [
+    "Still images only; subsequent generated action is unverified",
+    "Caption proof is a post-production placement sample, not a Flow first frame",
+    "Audience laughter and venue readability untested"
+  ]
+}

@@ -1,0 +1,44 @@
+{
+  "scope": "Compositor self QA, not independent review or audience testing",
+  "render": "C02_Q-AI_Fair_final_v13.mp4",
+  "sha256": "6f37b59968dcc32982f817e0c7d54ba4742913754c6a5f9d912fee23daa8f243",
+  "result": "PASS_FOR_INDEPENDENT_REVIEW",
+  "actually_viewed": [
+    "Original K03/K04/K05/K07/K08/K09 selected frames",
+    "New shortchain take02 full0.5s contact and original0/3/5s full frames",
+    "Tail0.25s contacts: K07 phone blink, K08 print tracking, K09 hand-over-photo",
+    "Final full-duration0.5s contact sheets01-06 with every join -1/0/+1frame",
+    "Final21.000s new cuff and29.500s hand-over-photo at1280x720"
+  ],
+  "confirmed": [
+    "K03 original three different products with spots in equivalent upper-right positions preserved; no glove matte replacement",
+    "K04 same specimen texture, spot removed only after source5s button press",
+    "New take02 has exactly two cuff rings and visible hand withdrawal; old K06 excluded",
+    "New cuff already blocks optical window at cut-in, therefore display obstruction begins immediately; explanatory caption delayed until after release",
+    "Shared photo on phone and both physical-print shots; native3s shutter blink retained",
+    "K08/K09 foreground hands remain visible in inspected0.25s samples",
+    "Caption contrast,42px body and85px ending title; no main gesture blocked",
+    "36.25s; ending title4.75s; no invented date/venue/prize/metrics",
+    "Original voices entirely removed; captions carry causal information",
+    "870 frames constant1/24PTS, completevideo/audio decode, audio ends36.25s without gaps",
+    "Source hashes unchanged"
+  ],
+  "not_verified": [
+    "Full continuous real-time playback",
+    "Actual listening, subjective timbre or venue loudness",
+    "Independent three-reviewer signoff",
+    "Audience humor response"
+  ],
+  "music_measurement": {
+    "integrated_lufs": -23.01,
+    "true_peak_dbfs": -6.96,
+    "static_gain_db": 13.04,
+    "actual_listening": false
+  },
+  "pd_changes": [
+    "Retain K03 original comparison rather than replacing different products with identical specimen",
+    "Use sharp extracted K08 photograph on K07 phone as well as both paper shots instead of severely blurred native120x80preview",
+    "Use NEW take02 reaction instead of long-chain oldK06"
+  ],
+  "next": "Independent final film review by parent team; do not equate this record with full subjective approval."
+}

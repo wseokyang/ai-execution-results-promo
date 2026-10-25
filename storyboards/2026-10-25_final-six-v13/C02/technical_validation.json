@@ -1,0 +1,26 @@
+{
+  "file": "C02_Q-AI_Fair_final_v13.mp4",
+  "sha256": "6f37b59968dcc32982f817e0c7d54ba4742913754c6a5f9d912fee23daa8f243",
+  "bytes": 15101398,
+  "video_frames": 870,
+  "duration_seconds": 36.25,
+  "full_decode": "PASS",
+  "video_pts_step_seconds": 0.041666666666666664,
+  "audio_peak": 0.44887715578079224,
+  "audio_nonfinite": 0,
+  "audio_decode_frames": 1700,
+  "audio_end_seconds": 36.25,
+  "max_audio_pts_gap_seconds": 7.105427357601002e-15,
+  "source_sha256_unchanged": true,
+  "actual_continuous_playback_verified": false,
+  "actual_listening_verified": false,
+  "loudness_after_static_gain": {
+    "input_i": "-23.01",
+    "input_tp": "-6.96",
+    "input_lra": "5.90",
+    "input_thresh": "-34.00",
+    "method": "Analysis only; final audio uses fixed gain, no dynamic loudnorm."
+  },
+  "audio_remux_only": true,
+  "video_frame_count_reverified": 870
+}

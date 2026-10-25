@@ -1,0 +1,257 @@
+{
+  "run_id": "2026-10-25_final-six-v13",
+  "status": "IN_PROGRESS",
+  "credit_budget": 250,
+  "purchases_authorized": false,
+  "known_balance_at_start": {
+    "current_u0": 50,
+    "current_u1": 0,
+    "current_u2": 50,
+    "current_u3": 50,
+    "current_u4": 50
+  },
+  "requests": [
+    {
+      "unit_id": "C01_K06_pose_bridge",
+      "take": 1,
+      "asset_id": "be0092c5-adaa-47f6-ab7d-6308f3c8fe34",
+      "project_url": "https://flow.google.com/u/3/project/00ae5400-eace-48fc-b009-72afe0df7bb6",
+      "model": "Veo 3.1 Fast",
+      "cost_displayed": 20,
+      "balance_before": 50,
+      "balance_after": 30,
+      "status": "ORIGINAL_PRESERVED_SELECTED"
+    },
+    {
+      "unit_id": "C04_K01_note_push",
+      "take": 1,
+      "asset_id": "5a899242-0f1b-43d1-b27b-8145eb98f3de",
+      "project_url": "https://flow.google.com/u/3/project/00ae5400-eace-48fc-b009-72afe0df7bb6",
+      "model": "Veo 3.1 Lite",
+      "cost_displayed": 10,
+      "balance_before": 30,
+      "balance_after": 20,
+      "status": "ORIGINAL_PRESERVED_SELECTED"
+    },
+    {
+      "unit_id": "C05_N05_hand_transfer",
+      "take": 1,
+      "asset_id": "ae8094c3-2877-4ca7-bd50-3ff7e4012a54",
+      "project_url": "https://flow.google.com/u/3/project/00ae5400-eace-48fc-b009-72afe0df7bb6",
+      "model": "Veo 3.1 Fast",
+      "cost_displayed": 20,
+      "balance_before": 20,
+      "balance_after": 0,
+      "status": "ORIGINAL_PRESERVED_HOLD"
+    },
+    {
+      "unit_id": "C01_K07_lower_back",
+      "take": 1,
+      "asset_id": "1251cbb0-87fb-46ce-b930-e0a7a34240c1",
+      "project_url": "https://flow.google.com/u/4/project/e1673e59-da85-4882-8d33-b0e83f51ea9f",
+      "model": "Veo 3.1 Fast",
+      "cost_displayed": 20,
+      "balance_before": 50,
+      "balance_after": 30,
+      "status": "ORIGINAL_PRESERVED_HOLD"
+    },
+    {
+      "unit_id": "C02_K05_shortchain",
+      "take": 1,
+      "asset_id": "46351e00-2fdb-429c-8402-2f8815913bc4",
+      "project_url": "https://flow.google.com/u/4/project/e1673e59-da85-4882-8d33-b0e83f51ea9f",
+      "model": "Veo 3.1 Lite",
+      "cost_displayed": 10,
+      "balance_before": 30,
+      "balance_after": 20,
+      "status": "ORIGINAL_PRESERVED_HOLD"
+    },
+    {
+      "unit_id": "C05_N06_pivot",
+      "take": 1,
+      "asset_id": "28d0f329-3957-4cae-8d1d-f6ad3ce4c721",
+      "project_url": "https://flow.google.com/u/4/project/e1673e59-da85-4882-8d33-b0e83f51ea9f",
+      "model": "Veo 3.1 Fast",
+      "cost_displayed": 20,
+      "balance_before": 20,
+      "balance_after": 0,
+      "status": "ORIGINAL_PRESERVED_HOLD"
+    },
+    {
+      "unit_id": "C02_K05_shortchain",
+      "take": 2,
+      "asset_id": "fd07a3b3-0009-4367-bc16-f27436001424",
+      "project_url": "https://flow.google.com/u/2/project/7cf17466-28f6-47c7-927d-63e1597f4eab",
+      "model": "Veo 3.1 Fast",
+      "cost_displayed": 20,
+      "balance_before": 50,
+      "balance_after": 30,
+      "status": "ORIGINAL_PRESERVED_SELECTED"
+    },
+    {
+      "unit_id": "C04_K08_hinges",
+      "take": 1,
+      "asset_id": "4ca77f12-c6d7-4c0e-8843-fba208541dc8",
+      "project_url": "https://flow.google.com/u/2/project/7cf17466-28f6-47c7-927d-63e1597f4eab",
+      "model": "Veo 3.1 Fast",
+      "cost_displayed": 20,
+      "balance_before": 30,
+      "balance_after": 10,
+      "status": "ORIGINAL_PRESERVED_SELECTED"
+    },
+    {
+      "unit_id": "C01_K07_close_recline",
+      "take": 1,
+      "asset_id": "b561cff7-7dc2-4b78-93c1-52a14897557d",
+      "project_url": "https://flow.google.com/u/2/project/7cf17466-28f6-47c7-927d-63e1597f4eab",
+      "model": "Veo 3.1 Lite",
+      "cost_displayed": 10,
+      "balance_before": 10,
+      "balance_after": 0,
+      "status": "ORIGINAL_PRESERVED_SELECTED"
+    },
+    {
+      "unit_id": "C01_K08_mirror",
+      "take": 1,
+      "asset_id": "4ea918cc-47b0-40af-b69b-ce4fc7c50e2b",
+      "project_url": "https://flow.google.com/project/976826fe-a9a3-436f-8ba7-6a6cf262e3a4",
+      "model": "Veo 3.1 Fast",
+      "cost_displayed": 20,
+      "balance_before": 50,
+      "balance_after": 30,
+      "status": "ORIGINAL_PRESERVED_SELECTED"
+    },
+    {
+      "unit_id": "C05_N07_both_palms",
+      "take": 1,
+      "asset_id": "4b2e7708-5769-432c-a45c-1ad4905c03d1",
+      "project_url": "https://flow.google.com/project/976826fe-a9a3-436f-8ba7-6a6cf262e3a4",
+      "model": "Veo 3.1 Fast",
+      "cost_displayed": 20,
+      "balance_before": 30,
+      "balance_after": 10,
+      "status": "ORIGINAL_PRESERVED_HOLD"
+    },
+    {
+      "unit_id": "C05_N08_longneck",
+      "take": 1,
+      "asset_id": "a2b79b09-f918-4d11-8bbc-2bbbe6a064ec",
+      "project_url": "https://flow.google.com/project/976826fe-a9a3-436f-8ba7-6a6cf262e3a4",
+      "model": "Veo 3.1 Lite",
+      "cost_displayed": 10,
+      "balance_before": 10,
+      "balance_after": 0,
+      "status": "ORIGINAL_PRESERVED_HOLD"
+    }
+  ],
+  "final_films_completed": [],
+  "preserved_originals": [
+    {
+      "original": "C01_K06_pose_bridge_take01.mp4",
+      "asset_id": "be0092c5-adaa-47f6-ab7d-6308f3c8fe34",
+      "sha256": "b17c35ac0196e653894107f191178ad8dc36858748c559e001d729a285631aef",
+      "status": "ORIGINAL_PRESERVED_SELECTED"
+    },
+    {
+      "original": "C04_K01_note_push_take01.mp4",
+      "asset_id": "5a899242-0f1b-43d1-b27b-8145eb98f3de",
+      "sha256": "e4f442dfa251b43cb28f5a0b8a95d6df779674b5a07d1791b4435c67ca8ae3b5",
+      "status": "ORIGINAL_PRESERVED_SELECTED"
+    },
+    {
+      "original": "C05_N05_hand_transfer_take01.mp4",
+      "asset_id": "ae8094c3-2877-4ca7-bd50-3ff7e4012a54",
+      "sha256": "feff3283b632d92495ce15d33f61ee1c820cda1f015f13a1ad0ce3ace16d2b94",
+      "status": "ORIGINAL_PRESERVED_HOLD"
+    },
+    {
+      "original": "C01_K07_lower_back_take01.mp4",
+      "asset_id": "1251cbb0-87fb-46ce-b930-e0a7a34240c1",
+      "sha256": "3cf05dab9cb4e7acc77acbddd7dbbe951e355e78ed3ced7e61bf164d19cc1f1a",
+      "status": "ORIGINAL_PRESERVED_HOLD"
+    },
+    {
+      "original": "C02_K05_shortchain_take01.mp4",
+      "asset_id": "46351e00-2fdb-429c-8402-2f8815913bc4",
+      "sha256": "61a731cb6c7140f8e411145ff1fdb6dbf9cfa70ba3fe0e1f338f95291ab13af1",
+      "status": "ORIGINAL_PRESERVED_HOLD"
+    },
+    {
+      "original": "C05_N06_pivot_take01.mp4",
+      "asset_id": "28d0f329-3957-4cae-8d1d-f6ad3ce4c721",
+      "sha256": "eb0a51755a51246920f80ec88d8587b6bb1e98604a8800be92d55c51f79faca0",
+      "status": "ORIGINAL_PRESERVED_HOLD"
+    },
+    {
+      "original": "C02_K05_shortchain_take02.mp4",
+      "asset_id": "fd07a3b3-0009-4367-bc16-f27436001424",
+      "sha256": "29a098b33792f077de407d29dd424b98c21969aee6c2f3a89f26bea42b2a1a48",
+      "status": "ORIGINAL_PRESERVED_SELECTED"
+    },
+    {
+      "original": "C04_K08_hinges_take01.mp4",
+      "asset_id": "4ca77f12-c6d7-4c0e-8843-fba208541dc8",
+      "sha256": "63ab3b0d0b550dc70cadcf1cfd0bb3a3191b9eff6bb065771f74ed9d16e4eb3f",
+      "status": "ORIGINAL_PRESERVED_SELECTED"
+    },
+    {
+      "original": "C01_K07_close_recline_take01.mp4",
+      "asset_id": "b561cff7-7dc2-4b78-93c1-52a14897557d",
+      "sha256": "2113c7f9ffa61f68d68d13e5ed4597e6e0ada6f8b72fadb57181f57ed9ee862b",
+      "status": "ORIGINAL_PRESERVED_SELECTED"
+    },
+    {
+      "original": "C01_K08_mirror_take01.mp4",
+      "asset_id": "4ea918cc-47b0-40af-b69b-ce4fc7c50e2b",
+      "sha256": "a6e97d819704e4e7f19d88f1423a49e7e74c70d623b634070b4220cbf1c382c2",
+      "status": "ORIGINAL_PRESERVED_SELECTED"
+    },
+    {
+      "original": "C05_N07_both_palms_take01.mp4",
+      "asset_id": "4b2e7708-5769-432c-a45c-1ad4905c03d1",
+      "sha256": "6e384a01a0b11d6f967f2a829aeaac11d5cf065cd405ae80201df034c40a7d6e",
+      "status": "ORIGINAL_PRESERVED_HOLD"
+    },
+    {
+      "original": "C05_N08_longneck_take01.mp4",
+      "asset_id": "a2b79b09-f918-4d11-8bbc-2bbbe6a064ec",
+      "sha256": "01bdf6dc30c2730320e3d4cf8a92ce049bea933698dc492d3b1b2fb158625468",
+      "status": "ORIGINAL_PRESERVED_HOLD"
+    }
+  ],
+  "observed_success_net_credits": 200,
+  "updated_at": "2026-10-25T06:06:01.456011+00:00",
+  "last_verified_account_balances": {
+    "current_u3": 0,
+    "current_u4": 0,
+    "current_u2": 0
+  },
+  "unverified_accounts": [
+    "current_u0",
+    "current_u1"
+  ],
+  "user_stated_credits": 250,
+  "observed_start_total": 200,
+  "latest_observed_balances": {
+    "current_u0": 0,
+    "current_u1": 0,
+    "current_u2": 0,
+    "current_u3": 0,
+    "current_u4": 0
+  },
+  "balance_discrepancy_note": "사용자250과 실제5계정최초관측합계200의50차이는 미해명. 250사용 또는 남은50으로 표시하지 않는다.",
+  "pending_generation_requests": 0,
+  "selected_new_originals": 6,
+  "held_new_originals": 6,
+  "final_u0_observation": "계정 패널 Google Flow 크레딧 0개 직접 관측. flow_completed_u0_final.png.",
+  "final_edit_candidates": {
+    "C01": "C01/C01_Q-AI_Fair_final_v13.mp4",
+    "C02": "C02/C02_Q-AI_Fair_final_v13.mp4",
+    "C03": "C03/C03_Q-AI_Fair_final_v13.mp4",
+    "C04": "C04/C04_Q-AI_Fair_final_v13.mp4",
+    "C05": "C05_r3/C05_Q-AI_Fair_final_v13.mp4",
+    "C06": "C06/C06_Q-AI_Fair_final_v13.mp4"
+  },
+  "final_review_status": "All six final MP4s passed three independent/cross/final frame-sample reviews. No required unresolved finding; listening/realtime/venue unverified.",
+  "new_concepts_status": "C07-C10 text and all40 actual first frames reviewed; no Flow generation."
+}

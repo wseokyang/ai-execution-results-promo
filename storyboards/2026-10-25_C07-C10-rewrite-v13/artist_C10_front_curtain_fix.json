@@ -1,0 +1,40 @@
+{
+  "issues": [
+    "IA005",
+    "IB002-front",
+    "IC004"
+  ],
+  "tool": "built-in image_gen.imagegen",
+  "entries": [
+    {
+      "scene_id": "S02",
+      "file": "images/C10/S02_v4.png",
+      "prompt": "Local prop edit of this EXACT first frame. Keep ALL people, faces, poses, hand positions, every piece of furniture, notebook state, camera/laptop, all stage feet inside round platform, lighting and camera IDENTICAL. Correct ONLY the BLACK CURTAIN FABRIC. The thin diagonal rod held by the man from LOW viewer-LEFT to HIGH viewer-RIGHT must be the TRUE BOTTOM HEM of this curtain, not a separate rod in front of a full curtain. DELETE ALL VERTICALLY PLEATED BLACK FABRIC BELOW that diagonal rod, including the vertical folds visible behind the man and behind/above the workbench notebook. Also REMOVE the long dangling strip on viewer-RIGHT of the high gripping hand: the cloth's right edge must taper inward from top-right crossbar to that hand/rod endpoint; below hand height nothing may hang to the right of his hand. All space below the diagonal hem must be smooth plain BLACK STUDIO BACKGROUND, existing clothes and existing desk/objects with no pleats. Keep curtain only in the polygon ABOVE the diagonal bottom hem, pleated/gathered upward. The high hand stays separated from vertical support pole by the existing black gap. Do NOT move the rod/hand, do NOT add arms, do NOT change stage furniture positions or bench feet. A single curtain with its lower edge attached along the diagonal rod, no extra fabric below. Do not remove human purple coat tails. No words or text, preserve full16:9 image.",
+      "reference_images": [
+        "\\\\wsl.localhost\\Ubuntu-24.04\\home\\wooseok\\wsy\\samsung_related\\slide\\AI실행결과발표대회_디자인3종\\storyboards\\2026-10-25_C07-C10-rewrite-v13\\images\\C10\\S02_v3.png"
+      ],
+      "source_generated_image": "C:\\Users\\wseok\\.codex\\generated_images\\01a13daf-3732-7b90-99a8-92c605090d35\\exec-059459f6-d9ee-4796-8439-8664a339bf4f.png",
+      "sha256": "a8ac5a16f35396b87bbefb3e5519244a9f5f3a31ad32e42796deee35729d708e"
+    },
+    {
+      "scene_id": "S03",
+      "file": "images/C10/S03_v3.png",
+      "prompt": "Local prop edit of this EXACT first frame. Keep ALL people, faces, poses, hand positions, every piece of furniture, notebook state, camera/laptop, all stage feet inside round platform, lighting and camera IDENTICAL. Correct ONLY the BLACK CURTAIN FABRIC. The thin diagonal rod held by the man from LOW viewer-LEFT to HIGH viewer-RIGHT must be the TRUE BOTTOM HEM of this curtain, not a separate rod in front of a full curtain. DELETE ALL VERTICALLY PLEATED BLACK FABRIC BELOW that diagonal rod, including the vertical folds visible behind the man and behind/above the workbench notebook. Also REMOVE the long dangling strip on viewer-RIGHT of the high gripping hand: the cloth's right edge must taper inward from top-right crossbar to that hand/rod endpoint; below hand height nothing may hang to the right of his hand. All space below the diagonal hem must be smooth plain BLACK STUDIO BACKGROUND, existing clothes and existing desk/objects with no pleats. Keep curtain only in the polygon ABOVE the diagonal bottom hem, pleated/gathered upward. The high hand stays separated from vertical support pole by the existing black gap. Do NOT move the rod/hand, do NOT add arms, do NOT change stage furniture positions or bench feet. A single curtain with its lower edge attached along the diagonal rod, no extra fabric below. Do not remove human purple coat tails. No words or text, preserve full16:9 image.",
+      "reference_images": [
+        "\\\\wsl.localhost\\Ubuntu-24.04\\home\\wooseok\\wsy\\samsung_related\\slide\\AI실행결과발표대회_디자인3종\\storyboards\\2026-10-25_C07-C10-rewrite-v13\\images\\C10\\S03_v2.png"
+      ],
+      "source_generated_image": "C:\\Users\\wseok\\.codex\\generated_images\\01a13daf-3732-7b90-99a8-92c605090d35\\exec-3f20177c-7174-4a98-a193-4b3bbd5314c4.png",
+      "sha256": "98209a6482e3304a7313fcf77c7db679fb8721cf7f96ccfdadaa0bae2af4560f"
+    },
+    {
+      "scene_id": "S04",
+      "file": "images/C10/S04_v3.png",
+      "prompt": "Local prop edit of this EXACT first frame. Keep ALL people, faces, poses, hand positions, every piece of furniture, notebook state, camera/laptop, all stage feet inside round platform, lighting and camera IDENTICAL. Correct ONLY the BLACK CURTAIN FABRIC. The thin diagonal rod held by the man from LOW viewer-LEFT to HIGH viewer-RIGHT must be the TRUE BOTTOM HEM of this curtain, not a separate rod in front of a full curtain. DELETE ALL VERTICALLY PLEATED BLACK FABRIC BELOW that diagonal rod, including the vertical folds visible behind the man and behind/above the workbench notebook. Also REMOVE the long dangling strip on viewer-RIGHT of the high gripping hand: the cloth's right edge must taper inward from top-right crossbar to that hand/rod endpoint; below hand height nothing may hang to the right of his hand. All space below the diagonal hem must be smooth plain BLACK STUDIO BACKGROUND, existing clothes and existing desk/objects with no pleats. Keep curtain only in the polygon ABOVE the diagonal bottom hem, pleated/gathered upward. The high hand stays separated from vertical support pole by the existing black gap. Do NOT move the rod/hand, do NOT add arms, do NOT change stage furniture positions or bench feet. A single curtain with its lower edge attached along the diagonal rod, no extra fabric below. Do not remove human purple coat tails. No words or text, preserve full16:9 image.",
+      "reference_images": [
+        "\\\\wsl.localhost\\Ubuntu-24.04\\home\\wooseok\\wsy\\samsung_related\\slide\\AI실행결과발표대회_디자인3종\\storyboards\\2026-10-25_C07-C10-rewrite-v13\\images\\C10\\S04_v2.png"
+      ],
+      "source_generated_image": "C:\\Users\\wseok\\.codex\\generated_images\\01a13daf-3732-7b90-99a8-92c605090d35\\exec-dbc51c31-1954-4dd2-b539-6449276b0b8d.png",
+      "sha256": "e51e1400b25a7c4bf658c5fd74d3296b43f7359f29c67bc522a9768d782261f6"
+    }
+  ]
+}

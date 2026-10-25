@@ -1,0 +1,93 @@
+{
+  "final_files": [
+    {
+      "concept_id": "C01",
+      "title": "성공 자세 교정원",
+      "file": "C01/C01_Q-AI_Fair_final_v13.mp4",
+      "preview_copy": "C:\\Users\\wseok\\.cache\\codex-flow\\Q-AI-Fair-final-six-v13-2026-10-25\\C01_Q-AI_Fair_final_v13.mp4",
+      "duration_seconds": 35.625,
+      "sha256": "da6c9578c4f9216b131c5905856e1e4e1746ce3fc29eeec56421f33a7b3b9dd5",
+      "note": "모니터·포스터에 같은 실영상 인물을 합성. 실제 퇴장→눕기→따라 하는 포즈로 연결.",
+      "review_status": "THREE_INDEPENDENT_AND_CROSS_SAMPLE_REVIEW_PASS",
+      "audio_listening_verified": false
+    },
+    {
+      "concept_id": "C02",
+      "title": "검은 점을 잡아라",
+      "file": "C02/C02_Q-AI_Fair_final_v13.mp4",
+      "preview_copy": "C:\\Users\\wseok\\.cache\\codex-flow\\Q-AI-Fair-final-six-v13-2026-10-25\\C02_Q-AI_Fair_final_v13.mp4",
+      "duration_seconds": 36.25,
+      "sha256": "6f37b59968dcc32982f817e0c7d54ba4742913754c6a5f9d912fee23daa8f243",
+      "note": "제품 사진의 같은 검은 점·청소 전후와 두 수갑의 짧은 사슬, 촬영 사진을 맞춤.",
+      "review_status": "THREE_INDEPENDENT_AND_CROSS_SAMPLE_REVIEW_PASS",
+      "audio_listening_verified": false
+    },
+    {
+      "concept_id": "C03",
+      "title": "환경까지 가져왔습니다",
+      "file": "C03/C03_Q-AI_Fair_final_v13.mp4",
+      "preview_copy": "C:\\Users\\wseok\\.cache\\codex-flow\\Q-AI-Fair-final-six-v13-2026-10-25\\C03_Q-AI_Fair_final_v13.mp4",
+      "duration_seconds": 43.0,
+      "sha256": "f78ebf4381b819a005b407b7af3bb6f1e40fa7e88a51d2bf8f85720aac4650e5",
+      "note": "장갑 확인 구간을 줄이고 겹치던 자막을 정리. 무음 영상.",
+      "review_status": "THREE_INDEPENDENT_AND_CROSS_SAMPLE_REVIEW_PASS",
+      "audio_listening_verified": false
+    },
+    {
+      "concept_id": "C04",
+      "title": "목마는 식사 중입니다",
+      "file": "C04/C04_Q-AI_Fair_final_v13.mp4",
+      "preview_copy": "C:\\Users\\wseok\\.cache\\codex-flow\\Q-AI-Fair-final-six-v13-2026-10-25\\C04_Q-AI_Fair_final_v13.mp4",
+      "duration_seconds": 44.5,
+      "sha256": "9a71a53f07ea1cd678fcdcef654dbfa2821ffad14b1649afaea48e367b81c8f6",
+      "note": "쪽지 완전 투입·문서 합성·세 창문 열림·한 숟가락 추출 연결.",
+      "review_status": "THREE_INDEPENDENT_AND_CROSS_SAMPLE_REVIEW_PASS",
+      "audio_listening_verified": false
+    },
+    {
+      "concept_id": "C05",
+      "title": "괴수는 퇴근할 수 없다",
+      "file": "C05_r3/C05_Q-AI_Fair_final_v13.mp4",
+      "preview_copy": "C:\\Users\\wseok\\.cache\\codex-flow\\Q-AI-Fair-final-six-v13-2026-10-25\\C05_Q-AI_Fair_final_v13.mp4",
+      "duration_seconds": 46.75,
+      "sha256": "854bced363d817ff54e3da4bb59485659c5cf468f1f9cd3fa2a11ad2dea3a77c",
+      "note": "목 걸림→목 빼기→잭 운반→받침. 괴수 변형 테이크는 제외. 회전·손 이동은 컷어웨이 동안 시간 생략이며 연속 동작 촬영은 아님.",
+      "review_status": "THREE_INDEPENDENT_AND_CROSS_SAMPLE_REVIEW_PASS",
+      "audio_listening_verified": false
+    },
+    {
+      "concept_id": "C06",
+      "title": "퇴근 좀 해주세요",
+      "file": "C06/C06_Q-AI_Fair_final_v13.mp4",
+      "preview_copy": "C:\\Users\\wseok\\.cache\\codex-flow\\Q-AI-Fair-final-six-v13-2026-10-25\\C06_Q-AI_Fair_final_v13.mp4",
+      "duration_seconds": 48.75,
+      "sha256": "ed6febc4f1bb754f177931bf8705c2e4fd99e66938994ec2d89973c088de1673",
+      "note": "책상 첫 타격만 사용하고 효과음 시점을 손 접촉에 맞춤.",
+      "review_status": "THREE_INDEPENDENT_AND_CROSS_SAMPLE_REVIEW_PASS",
+      "audio_listening_verified": false
+    }
+  ],
+  "independent_reviewers": [
+    "/root/causal_review_a",
+    "/root/causal_review_b",
+    "/root/v13_review_c"
+  ],
+  "independent_then_cross": true,
+  "all_six_final_sample_review": "PASS",
+  "unresolved_required_findings": [],
+  "C05_final_folder": "C05_r3",
+  "C05_known_edit_ellipsis": "N03 neck withdrawal→real jack transport→original long-neck frontal support. No continuous turn/hand/load transfer claim.",
+  "verification_scope": [
+    "Actual final PNG contact sheets and selected direct MP4 extracts",
+    "Scene-boundary samples and captions",
+    "Full decoding, frame counts, PTS and source/final hashes",
+    "Audio numerical peaks/continuity only"
+  ],
+  "not_verified": [
+    "Actual human listening",
+    "Realtime uninterrupted playback perception",
+    "Venue display/acoustics",
+    "Audience laughter",
+    "User final acceptance"
+  ]
+}

@@ -1,0 +1,106 @@
+{
+  "status": "PASS_WITH_DOCUMENTED_FUTURE_VIDEO_CHECKS",
+  "scope": "PD digest of completed actual three-agent image independent review, cross review, local corrections, and final reconfirmation. Not verbatim transcript.",
+  "reviewers": [
+    "/root/causal_review_a",
+    "/root/causal_review_b",
+    "/root/v13_review_c"
+  ],
+  "independent_image_count_per_reviewer": 40,
+  "independent_contact_count_per_reviewer": 4,
+  "cross_review_completed": true,
+  "final_reconfirmation": {
+    "/root/causal_review_a": "PASS: final front-curtain corrections and exact Q-AI Fair caption proof opened; previous 40-image decisions retained.",
+    "/root/causal_review_b": "PASS: final front-curtain corrections and exact Q-AI Fair caption proof opened; previous 40-image decisions retained.",
+    "/root/v13_review_c": "PASS: final front-curtain corrections and exact Q-AI Fair caption proof opened; previous 40-image decisions retained."
+  },
+  "fixed_files": [
+    {
+      "file": "images/C10/S02_v4.png",
+      "sha256": "a8ac5a16f35396b87bbefb3e5519244a9f5f3a31ad32e42796deee35729d708e"
+    },
+    {
+      "file": "images/C10/S03_v3.png",
+      "sha256": "98209a6482e3304a7313fcf77c7db679fb8721cf7f96ccfdadaa0bae2af4560f"
+    },
+    {
+      "file": "images/C10/S04_v3.png",
+      "sha256": "e51e1400b25a7c4bf658c5fd74d3296b43f7359f29c67bc522a9768d782261f6"
+    },
+    {
+      "file": "images/C10/S05_v2.png",
+      "sha256": "4f1c7659f400b66fe01e0f39e8706c6a73b91700840d0ce1ecc0aea8540b8772"
+    },
+    {
+      "file": "images/C10/S06_v2.png",
+      "sha256": "ef4aa41040ae2a05e7c29cf6e91890f913965f197e7047515927e8b2b51da3ac"
+    },
+    {
+      "file": "caption_previews/C10_S10_caption_layout_v2.png",
+      "sha256": "75e984a433c00ba83dd791066c04628f6bd7670bc92a51311befddbf1db27347"
+    }
+  ],
+  "dispositions": [
+    {
+      "issues": [
+        "IA001",
+        "IB001",
+        "IC001"
+      ],
+      "status": "RESOLVED",
+      "treatment": "S02-S04 all workbench feet placed inside turntable with rear rim behind."
+    },
+    {
+      "issues": [
+        "IA002",
+        "IB002",
+        "IC002"
+      ],
+      "status": "RESOLVED",
+      "treatment": "S05-S06 remove curtain below lower bar and separate free-bar grip from vertical pole."
+    },
+    {
+      "issues": [
+        "IA005",
+        "IB002-front",
+        "IC004"
+      ],
+      "status": "RESOLVED",
+      "treatment": "S02_v4/S03_v3/S04_v3 remove all pleated fabric below diagonal bar and beyond high hand."
+    },
+    {
+      "issues": [
+        "IA003",
+        "IB005",
+        "IC003",
+        "IB006"
+      ],
+      "status": "RESOLVED_POST_LAYOUT",
+      "treatment": "Actual upper-left three-line caption proof v2 with exact Q-AI Fair; no face/hand/white-gap overlap."
+    },
+    {
+      "issues": [
+        "IA004",
+        "IB004"
+      ],
+      "status": "OPTIONAL_ACCEPTED_BY_PD",
+      "treatment": "C09 ribbon changes attachment near handle; same grey suitcase/yellow identifier and charger payoff remain readable."
+    },
+    {
+      "issues": [
+        "IB003"
+      ],
+      "status": "FUTURE_VIDEO_CHECK",
+      "treatment": "C10 actual knee bend/arm lowering must retain face above fixed top while fully covering white gap. Not verified by stills."
+    }
+  ],
+  "unresolved_required_image_findings": [],
+  "flow_executed_for_C07_C10": false,
+  "not_verified": [
+    "Actual turning/hand-off/lowering motion",
+    "Final video compositing and realtime playback",
+    "Human listening and venue readability",
+    "Audience laughter/user acceptance"
+  ],
+  "timestamp_utc": "2026-10-25T06:31:49.633155+00:00"
+}

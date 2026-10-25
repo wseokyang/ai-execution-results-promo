@@ -1,0 +1,11 @@
+{
+  "date_utc": "2026-10-25T06:32:10.933036+00:00",
+  "films": 6,
+  "preserved_raws": 12,
+  "selected_first_frames": 40,
+  "new_storyboards": 4,
+  "local_links_checked": 385,
+  "errors": [],
+  "checks": "Six final/cache SHA; twelve raw/cache SHA;40 first-frame/cache SHA and prompts; shot time coverage; root Markdown and static HTML links. Earlier full media decoding/PTS validation retained.",
+  "not_checked": "Browser render (file URL policy block), realtime playback, actual listening, venue display."
+}

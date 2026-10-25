@@ -1,0 +1,13 @@
+from pathlib import Path
+p=Path('storyboards/2026-10-25_final-six-v13/C01/segment_foreground.py');s=p.read_text(encoding='utf-8-sig')
+s=s.replace("if t<3.75:","if t<4.75:")
+s=s.replace("[2.5,3,3.5,3.75],[382,355,321,305]","[2.5,3,3.5,4,4.5],[382,378,365,320,295]")
+s=s.replace("[[hc[0]-12,hc[1]+33],[hc[0]+8,hc[1]-25]],[])]","[[hc[0]-12,hc[1]+33],[hc[0]+8,hc[1]-25]],[[hc[0]-35,hc[1]-55]]),([hc[0]-105,hc[1]+40,hc[0]+115,min(715,hc[1]+280)],[[hc[0]+8,min(700,hc[1]+95)]],[])]")
+s=s.replace("for key,a,b in TIMELINE:\n if key=='K04':continue","for key,a,b in TIMELINE:\n if key=='K04':continue\n if '--repair' in sys.argv and key not in ['K05','K06']:continue")
+p.write_text(s,encoding='utf-8')
+p=Path('storyboards/2026-10-25_final-six-v13/C01/render_c01.py');s=p.read_text(encoding='utf-8')
+s=s.replace("tracks={};n=0","tracks={};n=0\n cachepath=OUT/'composite_tracking.json'\n oldtracks=json.loads(cachepath.read_text(encoding='utf-8')) if cachepath.exists() else {}\n def tracked(key,kind,plane,rgb,i,a,b):\n  q=oldtracks.get(key,{}).get(kind,[])\n  if len(q)==round((b-a)*FPS):\n   entry=q[i-round(a*FPS)];plane.stats.append(entry);return np.float32(entry['quad'])\n  return plane.track(rgb)")
+s=s.replace('pm.track(original),actor_mask(original,key,st)','tracked(key,"poster",pm,original,i,a,b),actor_mask(original,key,st)')
+s=s.replace('mm.track(original),actor_mask(original,key,st)','tracked(key,"monitor",mm,original,i,a,b),actor_mask(original,key,st)')
+s=s.replace("dump(OUT/'composite_tracking.json',tracks)","dump(OUT/('composite_tracking_preview.json' if preview else 'composite_tracking.json'),tracks)")
+p.write_text(s,encoding='utf-8')

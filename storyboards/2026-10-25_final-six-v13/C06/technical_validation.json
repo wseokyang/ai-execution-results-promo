@@ -1,0 +1,20 @@
+{
+  "file": "C06_Q-AI_Fair_final_v13.mp4",
+  "sha256": "ed6febc4f1bb754f177931bf8705c2e4fd99e66938994ec2d89973c088de1673",
+  "bytes": 14846324,
+  "duration": 48.75,
+  "frames": 1170,
+  "fps": 24,
+  "resolution": [
+    1280,
+    720
+  ],
+  "full_video_audio_decode": "PASS",
+  "audio_frames": 2286,
+  "audio_pts_gaps": "NONE",
+  "source": "2026-10-25_C06-impact-edit-v06\\C06_Q-AI_Fair_edit_v06.mp4",
+  "byte_identical_to_previous_v06": true,
+  "change": "No new C06 motion needed. Previously repaired impact and synchronized effect preserved. Repackaged without re-encoding.",
+  "review_scope": "Technical decode and new0.5scontact sheets; fresh independent final review pending",
+  "actual_listening": false
+}

@@ -1,0 +1,144 @@
+{
+  "title": "성공 자세 교정원",
+  "film": "C01",
+  "duration_seconds": 35.625,
+  "fps": 24,
+  "resolution": [
+    1280,
+    720
+  ],
+  "timeline": [
+    {
+      "cut": "K01",
+      "source": "2026-10-24_v12-C02-C04-C01-flow\\C01_K01_take02.mp4",
+      "source_in": 0,
+      "source_out": 3.75,
+      "start": 0,
+      "end": 3.75
+    },
+    {
+      "cut": "K02",
+      "source": "2026-10-24_v12-C02-C04-C01-flow\\C01_K02_take02.mp4",
+      "source_in": 0,
+      "source_out": 2.25,
+      "start": 3.75,
+      "end": 6.0
+    },
+    {
+      "cut": "K03",
+      "source": "2026-10-24_v12-C02-C04-C01-flow\\C01_K03_take01.mp4",
+      "source_in": 1,
+      "source_out": 3.5,
+      "start": 6.0,
+      "end": 8.5
+    },
+    {
+      "cut": "K04",
+      "source": "2026-10-24_v12-C02-C04-C01-flow\\C01_K04_take01.mp4",
+      "source_in": 0.875,
+      "source_out": 4.5,
+      "start": 8.5,
+      "end": 12.125
+    },
+    {
+      "cut": "K05",
+      "source": "2026-10-24_C01-C06-repair110\\C01_K05_take03.mp4",
+      "source_in": 2.5,
+      "source_out": 7.25,
+      "start": 12.125,
+      "end": 16.875
+    },
+    {
+      "cut": "K06",
+      "source": "2026-10-24_v12-C02-C04-C01-flow\\C01_K06_take01.mp4",
+      "source_in": 1.5,
+      "source_out": 4,
+      "start": 16.875,
+      "end": 19.375
+    },
+    {
+      "cut": "POSE",
+      "source": "2026-10-25_final-six-v13\\C01_K06_pose_bridge_take01.mp4",
+      "source_in": 0.5,
+      "source_out": 4,
+      "start": 19.375,
+      "end": 22.875
+    },
+    {
+      "cut": "CLOSE",
+      "source": "2026-10-25_final-six-v13\\C01_K07_close_recline_take01.mp4",
+      "source_in": 1,
+      "source_out": 4.25,
+      "start": 22.875,
+      "end": 26.125
+    },
+    {
+      "cut": "MIRROR",
+      "source": "2026-10-25_final-six-v13\\C01_K08_mirror_take01.mp4",
+      "source_in": 1,
+      "source_out": 5.5,
+      "start": 26.125,
+      "end": 30.625
+    },
+    {
+      "cut": "END",
+      "source": null,
+      "source_in": 0,
+      "source_out": 5,
+      "start": 30.625,
+      "end": 35.625
+    }
+  ],
+  "captions": [
+    {
+      "start": 0.25,
+      "end": 3.65,
+      "text": "AI 잘 쓰는 사람은\n자세부터 다릅니다.",
+      "position": "bottom"
+    },
+    {
+      "start": 6.25,
+      "end": 8.3,
+      "text": "그 사진의 원본",
+      "position": "bottom"
+    },
+    {
+      "start": 12.325,
+      "end": 16.65,
+      "text": "자세 말고,\n어떻게 일했는지요.",
+      "position": "bottom"
+    },
+    {
+      "start": 19.65,
+      "end": 22.75,
+      "text": "착지까지가 비법입니다.",
+      "position": "top"
+    }
+  ],
+  "source_sha256": {
+    "2026-10-24_v12-C02-C04-C01-flow\\C01_K01_take02.mp4": "b988922ea64600a5cc6694bebd5325632310db342dd1218800b75b0e11aac660",
+    "2026-10-24_v12-C02-C04-C01-flow\\C01_K02_take02.mp4": "6da9249ea6c9f80399df68d13998f1281d39b30737e542fe498f90b62f7921a4",
+    "2026-10-24_v12-C02-C04-C01-flow\\C01_K03_take01.mp4": "17ac877f23a65f2d5140b91e800b9bc620948eb63f9d38cac8b11d090a1c25d8",
+    "2026-10-24_v12-C02-C04-C01-flow\\C01_K04_take01.mp4": "3d3e9cfd5e2463023af3757a094c95687eecbaa9772669af824be54e25251191",
+    "2026-10-24_C01-C06-repair110\\C01_K05_take03.mp4": "8667a562f8725fc3a1b536d8105d44c8005dea454ec69cb071cd3228bc0b4047",
+    "2026-10-24_v12-C02-C04-C01-flow\\C01_K06_take01.mp4": "087d1ca26b0f058846a4db2d2dd1c422220e5c84bb785f3b7800af67b256f3ae",
+    "2026-10-25_final-six-v13\\C01_K06_pose_bridge_take01.mp4": "b17c35ac0196e653894107f191178ad8dc36858748c559e001d729a285631aef",
+    "2026-10-25_final-six-v13\\C01_K07_close_recline_take01.mp4": "2113c7f9ffa61f68d68d13e5ed4597e6e0ada6f8b72fadb57181f57ed9ee862b",
+    "2026-10-25_final-six-v13\\C01_K08_mirror_take01.mp4": "a6e97d819704e4e7f19d88f1423a49e7e74c70d623b634070b4220cbf1c382c2"
+  },
+  "source_audio": "muted",
+  "poster_reference": "K04 exact first frame crop_xywh [425,35,440,275]",
+  "status": "FINAL_EDIT_SAMPLE_QA_PASS",
+  "limitations": [
+    "Sample review only, no continuous playback claim",
+    "Audio has not been listened to"
+  ],
+  "action_stills_inserted": false,
+  "ending_graphic_seconds": 5,
+  "ending_text": [
+    "자세 말고, 일하는 방법을 나눕니다.",
+    "Q-AI Fair",
+    "품질팀 AI 성과 교류회"
+  ],
+  "final_review_record": "../reviews/final_film_review.json"
+}

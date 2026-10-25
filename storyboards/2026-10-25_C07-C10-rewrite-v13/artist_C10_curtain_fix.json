@@ -1,0 +1,68 @@
+{
+  "concept_id": "C10",
+  "issue_ids": [
+    "IA002",
+    "B free lower-bar grip"
+  ],
+  "tool": "built-in image_gen.imagegen",
+  "scope": "S05/S06 only; original files preserved",
+  "status": "ARTIST_FIX_VERIFIED; INDEPENDENT_RECHECK_PENDING",
+  "generated_scene_count": 2,
+  "total_requested_scenes": 2,
+  "scenes": [
+    {
+      "scene_id": "S05",
+      "linked_cuts": [
+        "C10_K05"
+      ],
+      "actual_path": "\\\\wsl.localhost\\Ubuntu-24.04\\home\\wooseok\\wsy\\samsung_related\\slide\\AI실행결과발표대회_디자인3종\\storyboards\\2026-10-25_C07-C10-rewrite-v13\\images\\C10\\S05_v2.png",
+      "source_generated_image": "C:/Users/wseok/.codex/generated_images/01a1719d-8025-70b0-a734-29b1cc33aa00/exec-a11f181c-eb0e-43bc-abb5-b9819a5965b7.png",
+      "sha256": "4f1c7659f400b66fe01e0f39e8706c6a73b91700840d0ce1ecc0aea8540b8772",
+      "final_prompt": "Precise local prop correction to this fully clothed theater comedy first frame. Preserve exact two adults, faces/head directions, full costumes, all furniture and small objects, camera, lighting and platform. Correct ONLY the black curtain and its lower grip.\nThe tilted straight diagonal rod is the BOTTOM EDGE of the one black cloth. REMOVE EVERY PIECE OF BLACK HANGING FABRIC BELOW this diagonal rod, especially the vertically pleated dark area between the screen-left support pole and the man's legs. Below the diagonal edge there must be empty black studio space, the man's existing black trousers and shoes, and the existing white-backed display plinth. No second cloth or pleats below it; no cutout hole in a full curtain. Keep all black cloth ABOVE the diagonal rod, folded between that rod and fixed upper bar.\nHis one visible hand must grip the HIGH SCREEN-LEFT END of the FREE diagonal rod, not the vertical support pole. Place that hand/rod endpoint a small distance INSIDE the left support so a clear black air gap separates hand from upright. Lower rod remains straight to its low right endpoint and is not bolted to either upright. Upper bar stays fixed. No new hands or other changes. White rear panel stays original size/location. Woman remains outside circle at far left, hands empty, before walking. Landscape16:9, no letters.",
+      "reference_images": [
+        "\\\\wsl.localhost\\Ubuntu-24.04\\home\\wooseok\\wsy\\samsung_related\\slide\\AI실행결과발표대회_디자인3종\\storyboards\\2026-10-25_C07-C10-rewrite-v13\\images\\C10\\S05.png"
+      ],
+      "actual_view_image_checked": true,
+      "review_notes": [
+        "대각 하단봉 아래 왼쪽 검정 세로주름 제거; 매끈한 검정 배경/기존 흰판/바지 노출.",
+        "손은 수직지주 오른쪽 안쪽의 자유로운 하단봉 끝을 쥠. 지주와 손 사이 얇은 검정 틈 확인.",
+        "PR 원 밖 시작 위치, MG 뒷머리 방향, 세 링/책/노트북/카메라/조명 유지."
+      ],
+      "motion_note": "무대180도정지후 PR이 원밖왼쪽에서 작업대오른쪽으로 실제걸어들어옴. MG는 한끝그립 유지."
+    },
+    {
+      "scene_id": "S06",
+      "linked_cuts": [
+        "C10_K06"
+      ],
+      "actual_path": "\\\\wsl.localhost\\Ubuntu-24.04\\home\\wooseok\\wsy\\samsung_related\\slide\\AI실행결과발표대회_디자인3종\\storyboards\\2026-10-25_C07-C10-rewrite-v13\\images\\C10\\S06_v2.png",
+      "source_generated_image": "C:/Users/wseok/.codex/generated_images/01a1719d-8025-70b0-a734-29b1cc33aa00/exec-32aa9997-0b41-4aec-aee1-2cffc0058fa3.png",
+      "sha256": "ef4aa41040ae2a05e7c29cf6e91890f913965f197e7047515927e8b2b51da3ac",
+      "initial_prompt": "Precise local prop correction to this fully clothed theater comedy first frame. Preserve both exact adults, expressions/head directions, blue work jumpsuit, purple formal costume and black trousers, all table props, circular platform, camera and lighting. Modify only curtain below diagonal bottom rod and its high hand grip.\nThe straight diagonal rod from HIGH SCREEN-LEFT to LOW SCREEN-RIGHT is the BOTTOM HEM of the ONLY black curtain. Erase ALL remaining hanging black pleated fabric BELOW that diagonal rod, especially the black vertical pleats immediately right of the left pole and left of the man's legs. This area must show empty plain dark studio background, the existing white-backed rear display plinth, and the man's existing fully clothed legs. Keep curtain ONLY ABOVE rod, no second dangling layer, no window cut through a full curtain. The hand at high left must wrap around the FREE rod's END, separated from vertical support pole by a clear small air gap; never grip the upright. Low right end stays free, just beside woman's poised hand before she passes it. Do not make handoff complete. All table camera/laptop/three metal rings/open notebook/lamp/switch unchanged. Woman same right position and reaching hand; magician head still side-facing. Rod perfectly straight. Top crossbar fixed unchanged. No writing,16:9.",
+      "initial_reference_images": [
+        "\\\\wsl.localhost\\Ubuntu-24.04\\home\\wooseok\\wsy\\samsung_related\\slide\\AI실행결과발표대회_디자인3종\\storyboards\\2026-10-25_C07-C10-rewrite-v13\\images\\C10\\S06.png"
+      ],
+      "intermediate_generated_image": "C:/Users/wseok/.codex/generated_images/01a1719d-8025-70b0-a734-29b1cc33aa00/exec-beb00eab-4a86-4db9-bf1e-b963f686bce9.png",
+      "intermediate_review": "봉아래세로천제거성공, 수직지주그립잔류하여국소재수정.",
+      "final_prompt": "Make ONE small mechanical correction to image1. Keep everything else exactly unchanged, especially smooth empty black area BELOW diagonal hem (no pleats, no cloth), people's positions and expressions, white panel, workbench objects. The man's visible screen-left hand currently wraps around the VERTICAL SILVER UPRIGHT. That is wrong. Reposition ONLY that hand and the very left END of the diagonal bottom rod about8centimetres to the RIGHT, inside the frame. His fingers must curl around the endpoint of the DIAGONAL thin rod, with a CLEAR BLACK AIR GAP between his entire hand and the upright. The upright must be visible uninterrupted as a straight silver line beside the empty air gap, without any fingers touching it. Shorten the diagonal rod at its high-left end if needed, keeping low-right endpoint beside woman's waiting hand unchanged. Keep black cloth attached above diagonal rod, trim tiny corner to follow new endpoint, no fabric hanging underneath. Image2 shows the desired detached lower-end grip. Hands holding lower rod, not stand. Fully clothed ordinary stage comedy. No other edits,no text,16:9.",
+      "reference_images": [
+        "C:/Users/wseok/.codex/generated_images/01a1719d-8025-70b0-a734-29b1cc33aa00/exec-beb00eab-4a86-4db9-bf1e-b963f686bce9.png",
+        "C:/Users/wseok/.codex/generated_images/01a1719d-8025-70b0-a734-29b1cc33aa00/exec-a11f181c-eb0e-43bc-abb5-b9819a5965b7.png"
+      ],
+      "actual_view_image_checked": true,
+      "review_notes": [
+        "대각 하단봉 아래 세로천 전량 제거. 바지/기존 흰판/매끈한 배경 노출.",
+        "두번째수정으로 손이 지주에서 분리되고 자유로운 대각봉 왼쪽끝을 쥠. 손과 수직지주 사이 검정 공백 확인.",
+        "PR 오른쪽 전달전 손, MG 옆얼굴/장소/소품 유지. 핸드오프완료상태 아님."
+      ],
+      "motion_note": "PR가 낮은 오른쪽하단봉 끝을 MG빈손에 넘김, MG제자리몸통회전후양끝을수평으로듦."
+    }
+  ],
+  "remaining_notes": [
+    "설계숫자높이의 정밀계량검증은 하지 않음. 손끝 위치 국소수정으로 대각각도에 약간 변화.",
+    "S02~04 및 S10, 공유manifest/contact는 수정하지 않음.",
+    "3인 독립 재확인 필요; 통과를 선결하지 않음."
+  ],
+  "flow_executed": false,
+  "external_upload": false
+}

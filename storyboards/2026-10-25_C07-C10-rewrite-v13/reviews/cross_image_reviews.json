@@ -1,0 +1,37 @@
+{
+  "scope": "PD digest of three completed cross reviews after independent submissions.",
+  "reviewers": [
+    {
+      "id": "A",
+      "agrees_required": [
+        "IB001",
+        "IC001",
+        "IB002",
+        "IC002"
+      ],
+      "notes": "Workbench and curtain geometry require actual image fixes. Upper-left caption proof resolves IA003/IB005/IC003 without regenerating scene. Ribbon optional; IB003 is future motion condition."
+    },
+    {
+      "id": "B",
+      "agrees_required": [
+        "IA001",
+        "IC001",
+        "IA002",
+        "IC002"
+      ],
+      "missed_issue_added": "Reopened S05/S06 and accepted cloth below diagonal hem as part of IB002, in addition to grip.",
+      "notes": "Upper-left title proof needed, ribbon optional. Later final recheck extended cloth fix to front views and found missing hyphen."
+    },
+    {
+      "id": "C",
+      "agrees_required": [
+        "IA001",
+        "IB001",
+        "IA002",
+        "IB002"
+      ],
+      "notes": "Actual platform contact and free lower hem required; no extra requirement for exact centimeter values. Caption placement is required post-composition, not scene regeneration. Ribbon optional; face/gap outcome remains future motion check."
+    }
+  ],
+  "pd_decision": "Apply platform/cloth/grip fixes; keep optional C09 ribbon position; verify exact Q-AI Fair title via authored caption proof; retain future actual-motion checks."
+}

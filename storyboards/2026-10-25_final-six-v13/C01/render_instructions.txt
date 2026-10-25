@@ -1,0 +1,7 @@
+C01 reproduction: run render_c01.py, audio_c01.py, validate_c01.py, package_c01.py in that order with bundled Python.
+The exact foreground mask archive auto-restores when foreground_masks/ is absent. It contains segmentation of original pixels, not synthesized movement.
+To rebuild masks, segment_foreground.py uses local MobileSAM vit_t under the existing qwen-tts-env CUDA runtime. This is not required when supplied masks are present.
+Dependencies are explicitly listed at script heads. Source file intervals and SHA-256 are in edit_manifest.json; source videos remain outside C01/ at their original paths.
+GeneralUser GS SoundFont used by audio_c01.py remains in local tool cache; no Flow or paid API call is made by these scripts.
+Final video is C01_Q-AI_Fair_final_v13.mp4; C01_picture.mp4 and front review videos are intermediate work, not deliverables.
+Technical decode does not imply actual auditory review.
