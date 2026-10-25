@@ -1,0 +1,231 @@
+{
+  "date": "2026-10-25",
+  "source": "V13 actual final MP4s, fresh decoded sequence and boundary frames",
+  "independent_first_round": true,
+  "reviewers": [
+    {
+      "role": "A",
+      "agent": "causal_review_a",
+      "sequence_pages": 47,
+      "boundary_pages": 67,
+      "additional_full_resolution_pngs": 20,
+      "required_findings": 0,
+      "issues": [
+        "A-V14-001",
+        "A-V14-002",
+        "A-V14-003",
+        "A-V14-004"
+      ]
+    },
+    {
+      "role": "B",
+      "agent": "causal_review_b",
+      "sequence_pages": 47,
+      "boundary_pages": 67,
+      "additional_full_resolution_pngs": 19,
+      "required_findings": 0,
+      "issues": [
+        "VWB-001",
+        "VWB-002",
+        "VWB-003",
+        "VWB-004"
+      ]
+    },
+    {
+      "role": "C",
+      "agent": "v13_review_c",
+      "sequence_pages": 47,
+      "boundary_pages": 67,
+      "additional_full_resolution_pngs": 12,
+      "required_findings": 0,
+      "new_full_decode_frames": 6117,
+      "new_full_decode_pts_gaps": 0,
+      "issues": [
+        "V14C-001",
+        "V14C-002",
+        "V14C-003"
+      ]
+    }
+  ],
+  "issues": [
+    {
+      "ids": [
+        "A-V14-001",
+        "VWB-002",
+        "V14C-001"
+      ],
+      "film": "C04",
+      "time_v13": [
+        4.5,
+        6.5
+      ],
+      "severity": "optional_pacing",
+      "finding": "Paper is already inside but hand remains in envelope with little new information.",
+      "pd": "Adopt. Entire NOTE3-8s becomes3-7s at1.25x; full insertion and empty-hand withdrawal retained. Whole film43.5s, request caption2.88s.",
+      "cross": {
+        "A": "agree",
+        "B": "agree",
+        "C": "agree"
+      },
+      "c04_actual_recheck": {
+        "A": "PASS",
+        "B": "PASS",
+        "C": "PASS"
+      }
+    },
+    {
+      "ids": [
+        "A-V14-004",
+        "VWB-003",
+        "V14C-002"
+      ],
+      "film": "C06",
+      "time_v13": [
+        7.75,
+        9.55
+      ],
+      "severity": "optional_action_caption_alignment",
+      "finding": "Employee sorts papers while ghost stands still, so the reason for thanks is weak.",
+      "pd": "Adopt B/C alternative: move thanks to bag handoff3.25-4.75s. Restore same raw sorting source to remove old burned caption; no change to event order or timing.",
+      "cross": {
+        "A": "agree; preserves existing joke better than deletion",
+        "B": "agree; moving is preferable to dropping it",
+        "C": "agree; ties response to visible file handoff"
+      },
+      "c06_actual_recheck": {
+        "A": "PASS",
+        "B": "PASS",
+        "C": "PASS"
+      }
+    },
+    {
+      "ids": [
+        "A-V14-002"
+      ],
+      "film": "C03",
+      "time_v13": [
+        12.5,
+        18.75
+      ],
+      "severity": "optional_pacing",
+      "finding": "Glove inserts have a weaker comic payoff than environment arrivals.",
+      "pd": "Keep. Taking off and putting on gloves shows the second delivery interrupts the worker's apparent finish.",
+      "cross": {
+        "B": "agree with weakness but keep is valid",
+        "C": "partial agreement; first insert is already1s and action setup remains useful"
+      }
+    },
+    {
+      "ids": [
+        "A-V14-003"
+      ],
+      "film": "C06",
+      "time_v13": [
+        6.458,
+        6.5
+      ],
+      "severity": "optional_continuity",
+      "finding": "Ghost jumps from leaning over desk to upright in same framing.",
+      "pd": "Keep short time ellipsis. Cropping risks weakening hands/documents/two-person spatial relation. New generation not required.",
+      "cross": {
+        "B": "agree with observation, no mandatory crop",
+        "C": "agree with observation, retain original composition"
+      }
+    },
+    {
+      "ids": [
+        "VWB-001"
+      ],
+      "film": "C02",
+      "time_v13": [
+        18.75,
+        18.75
+      ],
+      "severity": "optional_continuity",
+      "finding": "Handcuff installation jumps from work in progress to attached state in same framing.",
+      "pd": "Keep. Two rings and the new optical obstruction are readable; a new crop is not necessary to understand cause.",
+      "cross": {
+        "A": "agree, optional",
+        "C": "agree with state jump, crop optional"
+      }
+    },
+    {
+      "ids": [
+        "VWB-004"
+      ],
+      "film": "C05",
+      "time_v13": [
+        21,
+        21.75
+      ],
+      "severity": "optional_pacing",
+      "finding": "Could shorten last support hold by about0.5s after neck clears canopy.",
+      "pd": "Keep. The end state of support needs confirmation before jack cutaway/time ellipsis.",
+      "cross": {
+        "A": "optional, keep accepted",
+        "C": "optional, helps viewer register physical end state"
+      }
+    },
+    {
+      "ids": [
+        "V14C-003"
+      ],
+      "film": "C01",
+      "time_v13": [
+        28.75,
+        30.625
+      ],
+      "severity": "optional_pacing",
+      "finding": "Mirrored pose and photographer hold could lose0.75-1s.",
+      "pd": "Keep. The audience needs time to notice the second person copying the absurd pose and the photographer recording it.",
+      "cross": {
+        "A": "subjective timing choice, keep accepted",
+        "B": "both pose recognition and photography have useful reading time"
+      }
+    }
+  ],
+  "remaining_limits": [
+    "C05 21.75-23.25s jack transport is a time ellipsis. Weather, body posture and roof damage vary between shots. Continuous rotation, hand relocation and load transfer are not shown in full.",
+    "C02 handcuff installation and C06 impact-to-standing transitions retain small pose/state jumps.",
+    "Actual realtime continuous playback, listening, venue projection and audience laughter were not verified."
+  ],
+  "scope": "All six reviewed by each reviewer with same criteria: hook, humor, event relevance, differentiation, corporate suitability, timing, captions, causal/prop/body continuity, ending and production feasibility.",
+  "flow_requests": 0,
+  "credits_spent": 0,
+  "final_rechecks": {
+    "C04": {
+      "reviewers": [
+        "A",
+        "B",
+        "C"
+      ],
+      "all_opened": [
+        "sequence8pages",
+        "note_detail2pages",
+        "J11files10uniquejoins"
+      ],
+      "status": "PASS",
+      "sha256": "6b8f287ae0ead5525e960547ba7b0595530c8bff14c2552d86cf785e53fc99cb"
+    },
+    "C06": {
+      "reviewers": [
+        "A",
+        "B",
+        "C"
+      ],
+      "all_opened": [
+        "sequence9pages",
+        "caption_detail3pages",
+        "J16files"
+      ],
+      "additional_full_resolution_pngs": {
+        "A": 3,
+        "B": 2,
+        "C": 2
+      },
+      "status": "PASS",
+      "sha256": "9f92483e60e79bae283f6f0f5fba625f4da43274a36392a7997797bf8a0f2c08"
+    }
+  },
+  "status": "FRESH_THREE_INDEPENDENT_CROSS_REVIEW_AND_TWO_EDIT_RECHECKS_COMPLETE"
+}

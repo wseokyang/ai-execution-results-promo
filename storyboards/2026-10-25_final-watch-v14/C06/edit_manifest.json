@@ -1,0 +1,205 @@
+{
+  "film": "C06",
+  "file": "C06_Q-AI_Fair_final_v14.mp4",
+  "duration_seconds": 48.75,
+  "fps": 24,
+  "resolution": [
+    1280,
+    720
+  ],
+  "timeline": [
+    {
+      "cut": "K01",
+      "source": "2026-10-23_C06-C05-flow-run01/C06_K01_take01.mp4",
+      "source_in": 0,
+      "source_out": 5,
+      "start": 0,
+      "end": 5
+    },
+    {
+      "cut": "K02_attack",
+      "source": "2026-10-24_C01-C06-repair110\\C06_K02_impact_take01.mp4",
+      "source_in": 0.75,
+      "source_out": 2.25,
+      "start": 5,
+      "end": 6.5
+    },
+    {
+      "cut": "K02_sort",
+      "source": "2026-10-23_C06-C05-flow-run01/C06_K02_take01.mp4",
+      "source_in": 4.25,
+      "source_out": 7.5,
+      "start": 6.5,
+      "end": 9.75
+    },
+    {
+      "cut": "K03",
+      "source": "2026-10-23_C06-C05-flow-run01/C06_K03_take01.mp4",
+      "source_in": 1.25,
+      "source_out": 5.75,
+      "start": 9.75,
+      "end": 14.25
+    },
+    {
+      "cut": "K04_wide",
+      "source": "2026-10-23_C06-C05-flow-run01/C06_K04_take01.mp4",
+      "source_in": 0.5,
+      "source_out": 3.5,
+      "start": 14.25,
+      "end": 17.25
+    },
+    {
+      "cut": "K04_check",
+      "source": "2026-10-23_C06-C05-flow-run03/C06_K04_check_take02.mp4",
+      "source_in": 1.25,
+      "source_out": 4.75,
+      "start": 17.25,
+      "end": 20.75
+    },
+    {
+      "cut": "K05",
+      "source": "2026-10-23_C06-C05-flow-run02/C06_K05_take03.mp4",
+      "source_in": 1.0,
+      "source_out": 6.0,
+      "start": 20.75,
+      "end": 25.75
+    },
+    {
+      "cut": "K06",
+      "source": "2026-10-23_C06-C05-flow-run01/C06_K06_take01.mp4",
+      "source_in": 0.75,
+      "source_out": 3.75,
+      "start": 25.75,
+      "end": 28.75
+    },
+    {
+      "cut": "K07",
+      "source": "2026-10-23_C06-C05-flow-run01/C06_K07_take01.mp4",
+      "source_in": 0.0,
+      "source_out": 4.5,
+      "start": 28.75,
+      "end": 33.25
+    },
+    {
+      "cut": "K08",
+      "source": "2026-10-23_C06-C05-flow-run01/C06_K08_take01.mp4",
+      "source_in": 1.25,
+      "source_out": 5.75,
+      "start": 33.25,
+      "end": 37.75
+    },
+    {
+      "cut": "K09_seat",
+      "source": "2026-10-23_C06-C05-flow-run01/C06_K09_take01.mp4",
+      "source_in": 0.75,
+      "source_out": 4.75,
+      "start": 37.75,
+      "end": 41.75
+    },
+    {
+      "cut": "K09_reaction",
+      "source": "2026-10-23_C06-C05-flow-run03/C06_K09_reaction_take01.mp4",
+      "source_in": 2.0,
+      "source_out": 4.25,
+      "start": 41.75,
+      "end": 44.0
+    },
+    {
+      "cut": "END",
+      "source": null,
+      "source_in": 0.0,
+      "source_out": 4.75,
+      "start": 44.0,
+      "end": 48.75
+    }
+  ],
+  "captions": [
+    {
+      "start": 0.3,
+      "end": 2.4,
+      "text": "제발 퇴근 좀 해.",
+      "position": "top_left",
+      "font_px": 42
+    },
+    {
+      "start": 3.25,
+      "end": 4.75,
+      "text": "고마워요.",
+      "position": "bottom",
+      "font_px": 42,
+      "old_start": 7.75,
+      "old_end": 9.55
+    },
+    {
+      "start": 9.88,
+      "end": 14,
+      "text": "퇴근시키려면,\n일을 끝내줘야겠네.",
+      "position": "bottom",
+      "font_px": 42
+    },
+    {
+      "start": 14.45,
+      "end": 20.45,
+      "text": "이 한 건만 확인하면 끝.",
+      "position": "bottom",
+      "font_px": 42
+    },
+    {
+      "start": 20.91,
+      "end": 23.47,
+      "text": "오늘 남은 일, 끝.",
+      "position": "bottom",
+      "font_px": 42
+    },
+    {
+      "start": 26,
+      "end": 28.1,
+      "text": "드디어, 내 시간.",
+      "position": "top",
+      "font_px": 42
+    },
+    {
+      "start": 29.75,
+      "end": 33,
+      "text": "방금 나간 사람,\n어떻게 내보냈어요?",
+      "position": "top",
+      "font_px": 42
+    },
+    {
+      "start": 34.5,
+      "end": 37.5,
+      "text": "질문은 Q-AI Fair에서.",
+      "position": "bottom",
+      "font_px": 42
+    },
+    {
+      "start": 44.0,
+      "end": 48.75,
+      "text": "Q-AI Fair\n직접 해본 방법을 함께 봐요.",
+      "position": "ending"
+    }
+  ],
+  "source_audio": "removed; established local BGM/SFX, contact cue6.125s",
+  "version13_operation": "Byte-identical copy of approved v06. Timeline reconstructed from stored source manifests; no new render.",
+  "sha256": "ed6febc4f1bb754f177931bf8705c2e4fd99e66938994ec2d89973c088de1673",
+  "status": "THREE_REVIEWER_FRESH_SAMPLE_RECHECK_PASS",
+  "source_manifest_chain": [
+    "2026-10-23_C05-C06-edit-v03/C06/edit_manifest.json",
+    "2026-10-25_C06-impact-edit-v06/edit_manifest.json"
+  ],
+  "limitations": [
+    "Only first desk contact used; second hit excluded",
+    "Paper bounce and desk vibration are not verified",
+    "Held sheet changes at join to sorting: short time ellipsis, not a seamless physical match"
+  ],
+  "actual_listening_verified": false,
+  "actual_realtime_playback_verified": false,
+  "final_sha256": "9f92483e60e79bae283f6f0f5fba625f4da43274a36392a7997797bf8a0f2c08",
+  "parent_version": "\\\\wsl.localhost\\Ubuntu-24.04\\home\\wooseok\\wsy\\samsung_related\\slide\\AI실행결과발표대회_디자인3종\\storyboards\\2026-10-25_final-six-v13\\C06\\C06_Q-AI_Fair_final_v13.mp4",
+  "parent_sha256": "ed6febc4f1bb754f177931bf8705c2e4fd99e66938994ec2d89973c088de1673",
+  "change": "Only the postproduction thank-you caption moves7.75-9.55s to3.25-4.75s, beside bag handoff. Sorting source remains RAW4.25-7.5s, same framing and timing; no crop.",
+  "audio_change": "V13 AAC stream copied without encoding; BGM and effects timing unchanged; no source speech.",
+  "source_alignment_mean_abs_rgb_delta": 2.6773900462962965,
+  "actual_continuous_playback_verified": false,
+  "final_review_record": "../independent_and_cross_review.json"
+}

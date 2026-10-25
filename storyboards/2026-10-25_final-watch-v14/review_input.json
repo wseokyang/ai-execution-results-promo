@@ -1,0 +1,1244 @@
+{
+  "source_version": "V13 final MP4s",
+  "method": "Every0.5s final decoded video frame, and each edit boundary at -2,-1,0,+1,+2 frames. Actual PNGs and sequential contact sheets. Not realtime viewing or listening.",
+  "films": [
+    {
+      "concept_id": "C01",
+      "title": "성공 자세 교정원",
+      "file": "C01/C01_Q-AI_Fair_final_v13.mp4",
+      "preview_copy": "C:\\Users\\wseok\\.cache\\codex-flow\\Q-AI-Fair-final-six-v13-2026-10-25\\C01_Q-AI_Fair_final_v13.mp4",
+      "duration_seconds": 35.625,
+      "sha256": "da6c9578c4f9216b131c5905856e1e4e1746ce3fc29eeec56421f33a7b3b9dd5",
+      "note": "모니터·포스터에 같은 실영상 인물을 합성. 실제 퇴장→눕기→따라 하는 포즈로 연결.",
+      "audio_listening_verified": false,
+      "source_absolute": "\\\\wsl.localhost\\Ubuntu-24.04\\home\\wooseok\\wsy\\samsung_related\\slide\\AI실행결과발표대회_디자인3종\\storyboards\\2026-10-25_final-six-v13\\C01\\C01_Q-AI_Fair_final_v13.mp4",
+      "frame_count": 855,
+      "last_pts": null,
+      "pts_gaps": null,
+      "metrics_note": "None means reused complete PNG extraction from this run; earlier V13 full decoding/PTS record retained.",
+      "sequence_pages": [
+        "contacts\\C01\\sequence_01.jpg",
+        "contacts\\C01\\sequence_02.jpg",
+        "contacts\\C01\\sequence_03.jpg",
+        "contacts\\C01\\sequence_04.jpg",
+        "contacts\\C01\\sequence_05.jpg",
+        "contacts\\C01\\sequence_06.jpg",
+        "contacts\\C01\\sequence_07.jpg"
+      ],
+      "boundary_pages": [
+        "contacts\\C01\\J01_03.750.jpg",
+        "contacts\\C01\\J02_06.000.jpg",
+        "contacts\\C01\\J03_08.500.jpg",
+        "contacts\\C01\\J04_12.125.jpg",
+        "contacts\\C01\\J05_16.875.jpg",
+        "contacts\\C01\\J06_19.375.jpg",
+        "contacts\\C01\\J07_22.875.jpg",
+        "contacts\\C01\\J08_26.125.jpg",
+        "contacts\\C01\\J09_30.625.jpg"
+      ],
+      "individual_frames": "frames\\C01",
+      "timeline": [
+        {
+          "cut": "K01",
+          "source": "2026-10-24_v12-C02-C04-C01-flow\\C01_K01_take02.mp4",
+          "source_in": 0,
+          "source_out": 3.75,
+          "start": 0,
+          "end": 3.75
+        },
+        {
+          "cut": "K02",
+          "source": "2026-10-24_v12-C02-C04-C01-flow\\C01_K02_take02.mp4",
+          "source_in": 0,
+          "source_out": 2.25,
+          "start": 3.75,
+          "end": 6.0
+        },
+        {
+          "cut": "K03",
+          "source": "2026-10-24_v12-C02-C04-C01-flow\\C01_K03_take01.mp4",
+          "source_in": 1,
+          "source_out": 3.5,
+          "start": 6.0,
+          "end": 8.5
+        },
+        {
+          "cut": "K04",
+          "source": "2026-10-24_v12-C02-C04-C01-flow\\C01_K04_take01.mp4",
+          "source_in": 0.875,
+          "source_out": 4.5,
+          "start": 8.5,
+          "end": 12.125
+        },
+        {
+          "cut": "K05",
+          "source": "2026-10-24_C01-C06-repair110\\C01_K05_take03.mp4",
+          "source_in": 2.5,
+          "source_out": 7.25,
+          "start": 12.125,
+          "end": 16.875
+        },
+        {
+          "cut": "K06",
+          "source": "2026-10-24_v12-C02-C04-C01-flow\\C01_K06_take01.mp4",
+          "source_in": 1.5,
+          "source_out": 4,
+          "start": 16.875,
+          "end": 19.375
+        },
+        {
+          "cut": "POSE",
+          "source": "2026-10-25_final-six-v13\\C01_K06_pose_bridge_take01.mp4",
+          "source_in": 0.5,
+          "source_out": 4,
+          "start": 19.375,
+          "end": 22.875
+        },
+        {
+          "cut": "CLOSE",
+          "source": "2026-10-25_final-six-v13\\C01_K07_close_recline_take01.mp4",
+          "source_in": 1,
+          "source_out": 4.25,
+          "start": 22.875,
+          "end": 26.125
+        },
+        {
+          "cut": "MIRROR",
+          "source": "2026-10-25_final-six-v13\\C01_K08_mirror_take01.mp4",
+          "source_in": 1,
+          "source_out": 5.5,
+          "start": 26.125,
+          "end": 30.625
+        },
+        {
+          "cut": "END",
+          "source": null,
+          "source_in": 0,
+          "source_out": 5,
+          "start": 30.625,
+          "end": 35.625
+        }
+      ],
+      "captions": [
+        {
+          "start": 0.25,
+          "end": 3.65,
+          "text": "AI 잘 쓰는 사람은\n자세부터 다릅니다.",
+          "position": "bottom"
+        },
+        {
+          "start": 6.25,
+          "end": 8.3,
+          "text": "그 사진의 원본",
+          "position": "bottom"
+        },
+        {
+          "start": 12.325,
+          "end": 16.65,
+          "text": "자세 말고,\n어떻게 일했는지요.",
+          "position": "bottom"
+        },
+        {
+          "start": 19.65,
+          "end": 22.75,
+          "text": "착지까지가 비법입니다.",
+          "position": "top"
+        }
+      ],
+      "mean_visual_delta": null,
+      "observed_identical_frame_pairs": null,
+      "previous_review_status": "THREE_INDEPENDENT_AND_CROSS_SAMPLE_REVIEW_PASS"
+    },
+    {
+      "concept_id": "C02",
+      "title": "검은 점을 잡아라",
+      "file": "C02/C02_Q-AI_Fair_final_v13.mp4",
+      "preview_copy": "C:\\Users\\wseok\\.cache\\codex-flow\\Q-AI-Fair-final-six-v13-2026-10-25\\C02_Q-AI_Fair_final_v13.mp4",
+      "duration_seconds": 36.25,
+      "sha256": "6f37b59968dcc32982f817e0c7d54ba4742913754c6a5f9d912fee23daa8f243",
+      "note": "제품 사진의 같은 검은 점·청소 전후와 두 수갑의 짧은 사슬, 촬영 사진을 맞춤.",
+      "audio_listening_verified": false,
+      "source_absolute": "\\\\wsl.localhost\\Ubuntu-24.04\\home\\wooseok\\wsy\\samsung_related\\slide\\AI실행결과발표대회_디자인3종\\storyboards\\2026-10-25_final-six-v13\\C02\\C02_Q-AI_Fair_final_v13.mp4",
+      "frame_count": 870,
+      "last_pts": null,
+      "pts_gaps": null,
+      "metrics_note": "None means reused complete PNG extraction from this run; earlier V13 full decoding/PTS record retained.",
+      "sequence_pages": [
+        "contacts\\C02\\sequence_01.jpg",
+        "contacts\\C02\\sequence_02.jpg",
+        "contacts\\C02\\sequence_03.jpg",
+        "contacts\\C02\\sequence_04.jpg",
+        "contacts\\C02\\sequence_05.jpg",
+        "contacts\\C02\\sequence_06.jpg",
+        "contacts\\C02\\sequence_07.jpg"
+      ],
+      "boundary_pages": [
+        "contacts\\C02\\J01_03.500.jpg",
+        "contacts\\C02\\J02_06.250.jpg",
+        "contacts\\C02\\J03_12.250.jpg",
+        "contacts\\C02\\J04_13.750.jpg",
+        "contacts\\C02\\J05_16.250.jpg",
+        "contacts\\C02\\J06_18.750.jpg",
+        "contacts\\C02\\J07_20.750.jpg",
+        "contacts\\C02\\J08_23.250.jpg",
+        "contacts\\C02\\J09_26.000.jpg",
+        "contacts\\C02\\J10_29.000.jpg",
+        "contacts\\C02\\J11_31.500.jpg"
+      ],
+      "individual_frames": "frames\\C02",
+      "timeline": [
+        {
+          "cut": "K01",
+          "source": "2026-10-24_v12-C02-C04-C01-flow\\C02_K01_take01.mp4",
+          "source_in": 0,
+          "source_out": 3.5,
+          "start": 0,
+          "end": 3.5
+        },
+        {
+          "cut": "K02",
+          "source": "2026-10-24_v12-C02-C04-C01-flow\\C02_K02_take01.mp4",
+          "source_in": 0,
+          "source_out": 2.75,
+          "start": 3.5,
+          "end": 6.25
+        },
+        {
+          "cut": "K03",
+          "source": "2026-10-24_v12-C02-C04-C01-flow\\C02_K03_take01.mp4",
+          "source_in": 1.5,
+          "source_out": 7.5,
+          "start": 6.25,
+          "end": 12.25
+        },
+        {
+          "cut": "K04",
+          "source": "2026-10-24_v12-C02-C04-C01-flow\\C02_K04_take01.mp4",
+          "source_in": 1,
+          "source_out": 2.5,
+          "start": 12.25,
+          "end": 13.75
+        },
+        {
+          "cut": "K04",
+          "source": "2026-10-24_v12-C02-C04-C01-flow\\C02_K04_take01.mp4",
+          "source_in": 4.5,
+          "source_out": 7,
+          "start": 13.75,
+          "end": 16.25
+        },
+        {
+          "cut": "K05",
+          "source": "2026-10-24_v12-C02-C04-C01-flow\\C02_K05_take01.mp4",
+          "source_in": 0,
+          "source_out": 2.5,
+          "start": 16.25,
+          "end": 18.75
+        },
+        {
+          "cut": "NEW",
+          "source": "2026-10-25_final-six-v13\\C02_K05_shortchain_take02.mp4",
+          "source_in": 0.5,
+          "source_out": 2.5,
+          "start": 18.75,
+          "end": 20.75
+        },
+        {
+          "cut": "NEW_REACT",
+          "source": "2026-10-25_final-six-v13\\C02_K05_shortchain_take02.mp4",
+          "source_in": 2.5,
+          "source_out": 5.0,
+          "start": 20.75,
+          "end": 23.25
+        },
+        {
+          "cut": "K07",
+          "source": "2026-10-24_v12-C02-C04-C01-flow\\C02_K07_take02.mp4",
+          "source_in": 1.5,
+          "source_out": 4.25,
+          "start": 23.25,
+          "end": 26.0
+        },
+        {
+          "cut": "K08",
+          "source": "2026-10-24_v12-C02-C04-C01-flow\\C02_K08_take01.mp4",
+          "source_in": 0.5,
+          "source_out": 3.5,
+          "start": 26.0,
+          "end": 29.0
+        },
+        {
+          "cut": "K09",
+          "source": "2026-10-24_v12-C02-C04-C01-flow\\C02_K09_take01.mp4",
+          "source_in": 4,
+          "source_out": 6.5,
+          "start": 29.0,
+          "end": 31.5
+        },
+        {
+          "cut": "END",
+          "source": null,
+          "source_in": 0,
+          "source_out": 4.75,
+          "start": 31.5,
+          "end": 36.25
+        }
+      ],
+      "captions": [
+        {
+          "start": 0.3,
+          "end": 3.3,
+          "text": "어딜 봐도, 같은 흔적.",
+          "position": "bottom"
+        },
+        {
+          "start": 3.75,
+          "end": 6,
+          "text": "사진부터 보시죠.",
+          "position": "bottom"
+        },
+        {
+          "start": 6.5,
+          "end": 9,
+          "text": "AI가 모은 후보 3장",
+          "position": "bottom"
+        },
+        {
+          "start": 9.25,
+          "end": 12,
+          "text": "서로 다른 사진, 같은 자리.",
+          "position": "bottom"
+        },
+        {
+          "start": 12.4,
+          "end": 14.15,
+          "text": "촬영창을 닦고…",
+          "position": "bottom"
+        },
+        {
+          "start": 14.3,
+          "end": 16.1,
+          "text": "점이 사라졌다.",
+          "position": "bottom"
+        },
+        {
+          "start": 16.5,
+          "end": 20.6,
+          "text": "이제 못 움직여.",
+          "position": "bottom"
+        },
+        {
+          "start": 20.85,
+          "end": 22.15,
+          "text": "이번엔 수갑이…",
+          "position": "bottom"
+        },
+        {
+          "start": 23.55,
+          "end": 25.85,
+          "text": "새로운 사례 확보.",
+          "position": "bottom"
+        },
+        {
+          "start": 29.1,
+          "end": 31.4,
+          "text": "이 사례는 직접 설명하시죠.",
+          "position": "top"
+        },
+        {
+          "start": 31.5,
+          "end": 36.25,
+          "text": "Q-AI Fair\nAI 실행의 과정까지, 함께 봐요."
+        }
+      ],
+      "mean_visual_delta": null,
+      "observed_identical_frame_pairs": null,
+      "previous_review_status": "THREE_INDEPENDENT_AND_CROSS_SAMPLE_REVIEW_PASS"
+    },
+    {
+      "concept_id": "C03",
+      "title": "환경까지 가져왔습니다",
+      "file": "C03/C03_Q-AI_Fair_final_v13.mp4",
+      "preview_copy": "C:\\Users\\wseok\\.cache\\codex-flow\\Q-AI-Fair-final-six-v13-2026-10-25\\C03_Q-AI_Fair_final_v13.mp4",
+      "duration_seconds": 43.0,
+      "sha256": "f78ebf4381b819a005b407b7af3bb6f1e40fa7e88a51d2bf8f85720aac4650e5",
+      "note": "장갑 확인 구간을 줄이고 겹치던 자막을 정리. 무음 영상.",
+      "audio_listening_verified": false,
+      "source_absolute": "\\\\wsl.localhost\\Ubuntu-24.04\\home\\wooseok\\wsy\\samsung_related\\slide\\AI실행결과발표대회_디자인3종\\storyboards\\2026-10-25_final-six-v13\\C03\\C03_Q-AI_Fair_final_v13.mp4",
+      "frame_count": 1032,
+      "last_pts": null,
+      "pts_gaps": null,
+      "metrics_note": "None means reused complete PNG extraction from this run; earlier V13 full decoding/PTS record retained.",
+      "sequence_pages": [
+        "contacts\\C03\\sequence_01.jpg",
+        "contacts\\C03\\sequence_02.jpg",
+        "contacts\\C03\\sequence_03.jpg",
+        "contacts\\C03\\sequence_04.jpg",
+        "contacts\\C03\\sequence_05.jpg",
+        "contacts\\C03\\sequence_06.jpg",
+        "contacts\\C03\\sequence_07.jpg",
+        "contacts\\C03\\sequence_08.jpg"
+      ],
+      "boundary_pages": [
+        "contacts\\C03\\J01_06.000.jpg",
+        "contacts\\C03\\J02_10.000.jpg",
+        "contacts\\C03\\J03_12.500.jpg",
+        "contacts\\C03\\J04_13.500.jpg",
+        "contacts\\C03\\J05_17.000.jpg",
+        "contacts\\C03\\J06_18.750.jpg",
+        "contacts\\C03\\J07_19.750.jpg",
+        "contacts\\C03\\J08_23.250.jpg",
+        "contacts\\C03\\J09_24.500.jpg",
+        "contacts\\C03\\J10_26.500.jpg",
+        "contacts\\C03\\J11_29.000.jpg",
+        "contacts\\C03\\J12_35.000.jpg"
+      ],
+      "individual_frames": "frames\\C03",
+      "timeline": [
+        {
+          "cut": "K01",
+          "source": "2026-10-20_C03-flow-run08/C03_K01_take02.mp4",
+          "source_in": 0,
+          "source_out": 6,
+          "start": 0,
+          "end": 6
+        },
+        {
+          "cut": "K02",
+          "source": "2026-10-19_C03-flow-run01/C03_K02_take01.mp4",
+          "source_in": 0,
+          "source_out": 4,
+          "start": 6,
+          "end": 10
+        },
+        {
+          "cut": "K03",
+          "source": "2026-10-19_C03-flow-run01/C03_K03_take01.mp4",
+          "source_in": 0,
+          "source_out": 2.5,
+          "start": 10,
+          "end": 12.5
+        },
+        {
+          "cut": "K03_done",
+          "source": "2026-10-20_C03-flow-run05/C03_K03_insert_take02.mp4",
+          "source_in": 6,
+          "source_out": 7,
+          "start": 12.5,
+          "end": 13.5
+        },
+        {
+          "cut": "K04",
+          "source": "2026-10-20_C03-flow-run03/C03_K04_take02.mp4",
+          "source_in": 0,
+          "source_out": 3.5,
+          "start": 13.5,
+          "end": 17.0
+        },
+        {
+          "cut": "K04_cuff",
+          "source": "2026-10-20_C03-flow-run06/C03_K04_insert_take05.mp4",
+          "source_in": 3.75,
+          "source_out": 5.5,
+          "start": 17.0,
+          "end": 18.75
+        },
+        {
+          "cut": "K05_listen",
+          "source": "2026-10-20_C03-flow-run09/C03_K05_question_take05.mp4",
+          "source_in": 0,
+          "source_out": 1,
+          "start": 18.75,
+          "end": 19.75
+        },
+        {
+          "cut": "K05",
+          "source": "2026-10-20_C03-flow-run03/C03_K05_take03.mp4",
+          "source_in": 1.25,
+          "source_out": 4.75,
+          "start": 19.75,
+          "end": 23.25
+        },
+        {
+          "cut": "K06_before",
+          "source": "2026-10-19_C03-flow-run02/C03_K06_take01.mp4",
+          "source_in": 0,
+          "source_out": 1.25,
+          "start": 23.25,
+          "end": 24.5
+        },
+        {
+          "cut": "K06_records",
+          "source": "2026-10-20_C03-flow-run08/C03_K06_insert_take01.mp4",
+          "source_in": 0,
+          "source_out": 2,
+          "start": 24.5,
+          "end": 26.5
+        },
+        {
+          "cut": "K06_after",
+          "source": "2026-10-19_C03-flow-run02/C03_K06_take01.mp4",
+          "source_in": 3.25,
+          "source_out": 5.75,
+          "start": 26.5,
+          "end": 29.0
+        },
+        {
+          "cut": "K07",
+          "source": "2026-10-20_C03-flow-run03/C03_K07_take02.mp4",
+          "source_in": 0,
+          "source_out": 6,
+          "start": 29.0,
+          "end": 35.0
+        },
+        {
+          "cut": "K08",
+          "source": "2026-10-20_C03-flow-run03/C03_K08_take02.mp4",
+          "source_in": 0,
+          "source_out": 8,
+          "start": 35.0,
+          "end": 43.0
+        }
+      ],
+      "captions": [
+        {
+          "start": 0.2,
+          "end": 3.8,
+          "text": "결과와 과정,\n빠짐없이 보내주세요.",
+          "kind": "setup",
+          "placement": "얼굴·손·핵심 소품을 피한 하단 안전 여백",
+          "box": {
+            "left_pct": 7,
+            "width_pct": 86,
+            "bottom_pct": 6
+          },
+          "cut": "K01"
+        },
+        {
+          "start": 6.3,
+          "end": 9.8,
+          "text": "잘됐던 작업 환경까지 도착.",
+          "kind": "reveal",
+          "placement": "얼굴·손·핵심 소품을 피한 하단 안전 여백",
+          "box": {
+            "left_pct": 7,
+            "width_pct": 86,
+            "bottom_pct": 6
+          },
+          "cut": "K02"
+        },
+        {
+          "start": 10.2,
+          "end": 12.4,
+          "text": "이번 결과도 같네.",
+          "kind": "evidence",
+          "placement": "얼굴·손·핵심 소품을 피한 하단 안전 여백",
+          "box": {
+            "left_pct": 7,
+            "width_pct": 86,
+            "bottom_pct": 6
+          },
+          "cut": "K03"
+        },
+        {
+          "start": 14.1,
+          "end": 17,
+          "text": "안 됐던 작업 환경도 도착.",
+          "kind": "escalation",
+          "placement": "얼굴·손·핵심 소품을 피한 하단 안전 여백",
+          "box": {
+            "left_pct": 7,
+            "width_pct": 86,
+            "bottom_pct": 6
+          },
+          "cut": "K04"
+        },
+        {
+          "start": 19.05,
+          "end": 23.05,
+          "text": "보낸 동료: “안 됐던 과정도\n빠짐없이 달라면서요.”",
+          "kind": "message",
+          "placement": "얼굴·손·핵심 소품을 피한 하단 안전 여백",
+          "box": {
+            "left_pct": 7,
+            "width_pct": 86,
+            "bottom_pct": 6
+          },
+          "cut": "K05"
+        },
+        {
+          "start": 26.25,
+          "end": 28.85,
+          "text": "안 된 과정에도\n단서가 있네?",
+          "kind": "discovery",
+          "placement": "상단 왼쪽 x3~29%, y4%. 두 파일과 R 얼굴을 비움.",
+          "box": {
+            "left_pct": 3,
+            "width_pct": 26,
+            "top_pct": 4,
+            "font_cqw": 3.1
+          },
+          "cut": "K06"
+        },
+        {
+          "start": 29.2,
+          "end": 31.799999999999997,
+          "text": "해본 사람에게\n물어봐야겠네요.",
+          "kind": "choice",
+          "placement": "얼굴·손·핵심 소품을 피한 하단 안전 여백",
+          "box": {
+            "left_pct": 7,
+            "width_pct": 86,
+            "bottom_pct": 6
+          },
+          "cut": "K07"
+        },
+        {
+          "start": 32.1,
+          "end": 34.8,
+          "text": "이번엔 제가 가겠습니다.",
+          "kind": "reversal",
+          "placement": "얼굴·손·핵심 소품을 피한 하단 안전 여백",
+          "box": {
+            "left_pct": 7,
+            "width_pct": 86,
+            "bottom_pct": 6
+          },
+          "cut": "K07"
+        },
+        {
+          "start": 37.0,
+          "end": 43.0,
+          "text": "Q-AI Fair\nAI 실행의 과정까지, 함께 봐요.",
+          "kind": "event",
+          "placement": "상단 빈 하늘",
+          "box": {
+            "left_pct": 7,
+            "width_pct": 86,
+            "top_pct": 6
+          },
+          "cut": "K08"
+        }
+      ],
+      "mean_visual_delta": null,
+      "observed_identical_frame_pairs": null,
+      "previous_review_status": "THREE_INDEPENDENT_AND_CROSS_SAMPLE_REVIEW_PASS"
+    },
+    {
+      "concept_id": "C04",
+      "title": "목마는 식사 중입니다",
+      "file": "C04/C04_Q-AI_Fair_final_v13.mp4",
+      "preview_copy": "C:\\Users\\wseok\\.cache\\codex-flow\\Q-AI-Fair-final-six-v13-2026-10-25\\C04_Q-AI_Fair_final_v13.mp4",
+      "duration_seconds": 44.5,
+      "sha256": "9a71a53f07ea1cd678fcdcef654dbfa2821ffad14b1649afaea48e367b81c8f6",
+      "note": "쪽지 완전 투입·문서 합성·세 창문 열림·한 숟가락 추출 연결.",
+      "audio_listening_verified": false,
+      "source_absolute": "\\\\wsl.localhost\\Ubuntu-24.04\\home\\wooseok\\wsy\\samsung_related\\slide\\AI실행결과발표대회_디자인3종\\storyboards\\2026-10-25_final-six-v13\\C04\\C04_Q-AI_Fair_final_v13.mp4",
+      "frame_count": 1068,
+      "last_pts": null,
+      "pts_gaps": null,
+      "metrics_note": "None means reused complete PNG extraction from this run; earlier V13 full decoding/PTS record retained.",
+      "sequence_pages": [
+        "contacts\\C04\\sequence_01.jpg",
+        "contacts\\C04\\sequence_02.jpg",
+        "contacts\\C04\\sequence_03.jpg",
+        "contacts\\C04\\sequence_04.jpg",
+        "contacts\\C04\\sequence_05.jpg",
+        "contacts\\C04\\sequence_06.jpg",
+        "contacts\\C04\\sequence_07.jpg",
+        "contacts\\C04\\sequence_08.jpg"
+      ],
+      "boundary_pages": [
+        "contacts\\C04\\J01_03.000.jpg",
+        "contacts\\C04\\J02_08.000.jpg",
+        "contacts\\C04\\J03_12.000.jpg",
+        "contacts\\C04\\J04_15.000.jpg",
+        "contacts\\C04\\J05_20.000.jpg",
+        "contacts\\C04\\J06_24.000.jpg",
+        "contacts\\C04\\J07_29.000.jpg",
+        "contacts\\C04\\J08_32.000.jpg",
+        "contacts\\C04\\J09_34.250.jpg",
+        "contacts\\C04\\J10_39.750.jpg"
+      ],
+      "individual_frames": "frames\\C04",
+      "timeline": [
+        {
+          "cut": "K01",
+          "source": "2026-10-24_v12-C02-C04-C01-flow\\C04_K01_take01.mp4",
+          "source_in": 0,
+          "source_out": 3,
+          "start": 0,
+          "end": 3
+        },
+        {
+          "cut": "NOTE",
+          "source": "2026-10-25_final-six-v13\\C04_K01_note_push_take01.mp4",
+          "source_in": 0.5,
+          "source_out": 5.5,
+          "start": 3,
+          "end": 8.0
+        },
+        {
+          "cut": "K02",
+          "source": "2026-10-24_v12-C02-C04-C01-flow\\C04_K02_take01.mp4",
+          "source_in": 0.5,
+          "source_out": 4.5,
+          "start": 8.0,
+          "end": 12.0
+        },
+        {
+          "cut": "K03",
+          "source": "2026-10-24_v12-C02-C04-C01-flow\\C04_K03_take01.mp4",
+          "source_in": 0,
+          "source_out": 3,
+          "start": 12.0,
+          "end": 15.0
+        },
+        {
+          "cut": "K04",
+          "source": "2026-10-24_v12-C02-C04-C01-flow\\C04_K04_take01.mp4",
+          "source_in": 0.5,
+          "source_out": 5.5,
+          "start": 15.0,
+          "end": 20.0
+        },
+        {
+          "cut": "K05",
+          "source": "2026-10-24_v12-C02-C04-C01-flow\\C04_K05_take01.mp4",
+          "source_in": 0.5,
+          "source_out": 4.5,
+          "start": 20.0,
+          "end": 24.0
+        },
+        {
+          "cut": "K07",
+          "source": "2026-10-24_v12-C02-C04-C01-flow\\C04_K07_take01.mp4",
+          "source_in": 0,
+          "source_out": 5,
+          "start": 24.0,
+          "end": 29.0
+        },
+        {
+          "cut": "WINDOWS",
+          "source": "2026-10-25_final-six-v13\\C04_K08_hinges_take01.mp4",
+          "source_in": 1,
+          "source_out": 4,
+          "start": 29.0,
+          "end": 32.0
+        },
+        {
+          "cut": "BOWLS",
+          "source": "2026-10-24_C01-C06-repair110\\C04_K08_three_visible_take01.mp4",
+          "source_in": 2,
+          "source_out": 4.25,
+          "start": 32.0,
+          "end": 34.25
+        },
+        {
+          "cut": "SPOON",
+          "source": "2026-10-24_C01-C06-repair110\\C04_K09_take02.mp4",
+          "source_in": 0.5,
+          "source_out": 6,
+          "start": 34.25,
+          "end": 39.75
+        },
+        {
+          "cut": "END",
+          "source": null,
+          "source_in": 0,
+          "source_out": 4.75,
+          "start": 39.75,
+          "end": 44.5
+        }
+      ],
+      "captions": [
+        {
+          "start": 0.2,
+          "end": 1.8,
+          "text": "숨소리도 내지 마라.",
+          "position": "top"
+        },
+        {
+          "start": 1.9,
+          "end": 3,
+          "text": "꼬르륵…",
+          "position": "top"
+        },
+        {
+          "start": 3.2,
+          "end": 6.8,
+          "text": "식사 · 물 · 수저 요청",
+          "position": "bottom"
+        },
+        {
+          "start": 8.25,
+          "end": 11.8,
+          "text": "신고: 내부 탑승자 없음",
+          "position": "bottom"
+        },
+        {
+          "start": 12.2,
+          "end": 14.8,
+          "text": "아무도 없는데, 웬 배식?",
+          "position": "bottom"
+        },
+        {
+          "start": 20.2,
+          "end": 23.8,
+          "text": "이 말, 수저를 씁니까?",
+          "position": "top"
+        },
+        {
+          "start": 24.1,
+          "end": 26,
+          "text": "안에는 아무도 없습니다.",
+          "position": "bottom"
+        },
+        {
+          "start": 37.05,
+          "end": 39.5,
+          "text": "지휘관부터.",
+          "position": "top_right"
+        },
+        {
+          "start": 39.75,
+          "end": 44.5,
+          "text": "Q-AI Fair\nAI 실행 사례, 지금 시작합니다.",
+          "position": "ending"
+        }
+      ],
+      "mean_visual_delta": null,
+      "observed_identical_frame_pairs": null,
+      "previous_review_status": "THREE_INDEPENDENT_AND_CROSS_SAMPLE_REVIEW_PASS"
+    },
+    {
+      "concept_id": "C05",
+      "title": "괴수는 퇴근할 수 없다",
+      "file": "C05_r3/C05_Q-AI_Fair_final_v13.mp4",
+      "preview_copy": "C:\\Users\\wseok\\.cache\\codex-flow\\Q-AI-Fair-final-six-v13-2026-10-25\\C05_Q-AI_Fair_final_v13.mp4",
+      "duration_seconds": 46.75,
+      "sha256": "854bced363d817ff54e3da4bb59485659c5cf468f1f9cd3fa2a11ad2dea3a77c",
+      "note": "목 걸림→목 빼기→잭 운반→받침. 괴수 변형 테이크는 제외. 회전·손 이동은 컷어웨이 동안 시간 생략이며 연속 동작 촬영은 아님.",
+      "audio_listening_verified": false,
+      "source_absolute": "\\\\wsl.localhost\\Ubuntu-24.04\\home\\wooseok\\wsy\\samsung_related\\slide\\AI실행결과발표대회_디자인3종\\storyboards\\2026-10-25_final-six-v13\\C05_r3\\C05_Q-AI_Fair_final_v13.mp4",
+      "frame_count": 1122,
+      "last_pts": 46.708333333333336,
+      "pts_gaps": 0,
+      "metrics_note": "None means reused complete PNG extraction from this run; earlier V13 full decoding/PTS record retained.",
+      "sequence_pages": [
+        "contacts\\C05\\sequence_01.jpg",
+        "contacts\\C05\\sequence_02.jpg",
+        "contacts\\C05\\sequence_03.jpg",
+        "contacts\\C05\\sequence_04.jpg",
+        "contacts\\C05\\sequence_05.jpg",
+        "contacts\\C05\\sequence_06.jpg",
+        "contacts\\C05\\sequence_07.jpg",
+        "contacts\\C05\\sequence_08.jpg"
+      ],
+      "boundary_pages": [
+        "contacts\\C05\\J01_03.250.jpg",
+        "contacts\\C05\\J02_07.250.jpg",
+        "contacts\\C05\\J03_10.250.jpg",
+        "contacts\\C05\\J04_14.250.jpg",
+        "contacts\\C05\\J05_17.250.jpg",
+        "contacts\\C05\\J06_21.750.jpg",
+        "contacts\\C05\\J07_23.250.jpg",
+        "contacts\\C05\\J08_24.000.jpg",
+        "contacts\\C05\\J09_26.750.jpg",
+        "contacts\\C05\\J10_31.500.jpg",
+        "contacts\\C05\\J11_34.500.jpg",
+        "contacts\\C05\\J12_39.000.jpg",
+        "contacts\\C05\\J13_40.000.jpg"
+      ],
+      "individual_frames": "frames\\C05",
+      "timeline": [
+        {
+          "cut": "K01",
+          "source": "2026-10-23_C06-C05-flow-run03/C05_K01_take02.mp4",
+          "source_in": 0,
+          "source_out": 3.25,
+          "start": 0,
+          "end": 3.25,
+          "crop": null
+        },
+        {
+          "cut": "K02A",
+          "source": "2026-10-23_C06-C05-flow-run01/C05_K02A_take01.mp4",
+          "source_in": 1.75,
+          "source_out": 5.75,
+          "start": 3.25,
+          "end": 7.25,
+          "crop": null
+        },
+        {
+          "cut": "K02B",
+          "source": "2026-10-23_C06-C05-flow-run01/C05_K02B_take02.mp4",
+          "source_in": 0.5,
+          "source_out": 3.5,
+          "start": 7.25,
+          "end": 10.25,
+          "crop": null
+        },
+        {
+          "cut": "N01_entry",
+          "source": "2026-10-24_C05-first-flow-run01/C05_N01_take01.mp4",
+          "source_in": 0.5,
+          "source_out": 4.5,
+          "start": 10.25,
+          "end": 14.25,
+          "crop": null
+        },
+        {
+          "cut": "N02_hands_grip_front_edge",
+          "source": "2026-10-24_C05-first-flow-run01/C05_N02_take02.mp4",
+          "source_in": 1.5,
+          "source_out": 4.5,
+          "start": 14.25,
+          "end": 17.25,
+          "crop": null
+        },
+        {
+          "cut": "N03_neck_withdraws",
+          "source": "2026-10-24_C05-first-flow-run01/C05_N03_take01.mp4",
+          "source_in": 3,
+          "source_out": 7.5,
+          "start": 17.25,
+          "end": 21.75,
+          "crop": null
+        },
+        {
+          "cut": "K04_worker_jack_insert",
+          "source": "2026-10-24_C01-C06-repair110/C05_K04_jack_detail_take01.mp4",
+          "source_in": 1.5,
+          "source_out": 3,
+          "start": 21.75,
+          "end": 23.25,
+          "crop": null
+        },
+        {
+          "cut": "K04_wide",
+          "source": "2026-10-23_C06-C05-flow-run01/C05_K04_take02.mp4",
+          "source_in": 2.5,
+          "source_out": 3.25,
+          "start": 23.25,
+          "end": 24.0,
+          "crop": null
+        },
+        {
+          "cut": "K04_plead",
+          "source": "2026-10-23_C06-C05-flow-run01/C05_K04_take02.mp4",
+          "source_in": 4.5,
+          "source_out": 7.25,
+          "start": 24.0,
+          "end": 26.75,
+          "crop": null
+        },
+        {
+          "cut": "K05",
+          "source": "2026-10-23_C06-C05-flow-run01/C05_K05_take02.mp4",
+          "source_in": 0.5,
+          "source_out": 5.25,
+          "start": 26.75,
+          "end": 31.5,
+          "crop": null
+        },
+        {
+          "cut": "K06",
+          "source": "2026-10-23_C06-C05-flow-run03/C05_K06_take02.mp4",
+          "source_in": 0.5,
+          "source_out": 3.5,
+          "start": 31.5,
+          "end": 34.5,
+          "crop": null
+        },
+        {
+          "cut": "K07",
+          "source": "2026-10-23_C06-C05-flow-run03/C05_K07_take02.mp4",
+          "source_in": 1,
+          "source_out": 5.5,
+          "start": 34.5,
+          "end": 39.0,
+          "crop": null
+        },
+        {
+          "cut": "K08_thumb",
+          "source": "2026-10-23_C06-C05-flow-run01/C05_K08_take01.mp4",
+          "source_in": 0.5,
+          "source_out": 1.5,
+          "start": 39.0,
+          "end": 40.0,
+          "crop": null
+        },
+        {
+          "cut": "K08_return",
+          "source": "2026-10-23_C06-C05-flow-run03/C05_K08_take02.mp4",
+          "source_in": 0,
+          "source_out": 6.75,
+          "start": 40.0,
+          "end": 46.75,
+          "crop": null
+        }
+      ],
+      "captions": [
+        {
+          "start": 0.6,
+          "end": 3.15,
+          "text": "이 입구는 내가 접수한다.",
+          "position": "bottom",
+          "font_px": 42
+        },
+        {
+          "start": 13.25,
+          "end": 14.25,
+          "text": "어…?",
+          "position": "bottom",
+          "font_px": 42
+        },
+        {
+          "start": 24.25,
+          "end": 26.55,
+          "text": "조금만 더 잡아주세요.",
+          "position": "bottom",
+          "font_px": 42
+        },
+        {
+          "start": 26.95,
+          "end": 30.35,
+          "text": "잠시 후, AI 실행 사례 공개",
+          "position": "bottom",
+          "font_px": 42
+        },
+        {
+          "start": 36.85,
+          "end": 38.85,
+          "text": "들리세요?",
+          "position": "bottom",
+          "font_px": 42
+        },
+        {
+          "start": 41.75,
+          "end": 46.75,
+          "text": "Q-AI Fair\nAI 실행 사례, 지금 시작합니다.",
+          "position": "ending"
+        }
+      ],
+      "mean_visual_delta": 1.1755040968711798,
+      "observed_identical_frame_pairs": 0,
+      "previous_review_status": "THREE_INDEPENDENT_AND_CROSS_SAMPLE_REVIEW_PASS"
+    },
+    {
+      "concept_id": "C06",
+      "title": "퇴근 좀 해주세요",
+      "file": "C06/C06_Q-AI_Fair_final_v13.mp4",
+      "preview_copy": "C:\\Users\\wseok\\.cache\\codex-flow\\Q-AI-Fair-final-six-v13-2026-10-25\\C06_Q-AI_Fair_final_v13.mp4",
+      "duration_seconds": 48.75,
+      "sha256": "ed6febc4f1bb754f177931bf8705c2e4fd99e66938994ec2d89973c088de1673",
+      "note": "책상 첫 타격만 사용하고 효과음 시점을 손 접촉에 맞춤.",
+      "audio_listening_verified": false,
+      "source_absolute": "\\\\wsl.localhost\\Ubuntu-24.04\\home\\wooseok\\wsy\\samsung_related\\slide\\AI실행결과발표대회_디자인3종\\storyboards\\2026-10-25_final-six-v13\\C06\\C06_Q-AI_Fair_final_v13.mp4",
+      "frame_count": 1170,
+      "last_pts": 48.708333,
+      "pts_gaps": 0,
+      "metrics_note": "None means reused complete PNG extraction from this run; earlier V13 full decoding/PTS record retained.",
+      "sequence_pages": [
+        "contacts\\C06\\sequence_01.jpg",
+        "contacts\\C06\\sequence_02.jpg",
+        "contacts\\C06\\sequence_03.jpg",
+        "contacts\\C06\\sequence_04.jpg",
+        "contacts\\C06\\sequence_05.jpg",
+        "contacts\\C06\\sequence_06.jpg",
+        "contacts\\C06\\sequence_07.jpg",
+        "contacts\\C06\\sequence_08.jpg",
+        "contacts\\C06\\sequence_09.jpg"
+      ],
+      "boundary_pages": [
+        "contacts\\C06\\J01_05.000.jpg",
+        "contacts\\C06\\J02_06.500.jpg",
+        "contacts\\C06\\J03_09.750.jpg",
+        "contacts\\C06\\J04_14.250.jpg",
+        "contacts\\C06\\J05_17.250.jpg",
+        "contacts\\C06\\J06_20.750.jpg",
+        "contacts\\C06\\J07_25.750.jpg",
+        "contacts\\C06\\J08_28.750.jpg",
+        "contacts\\C06\\J09_33.250.jpg",
+        "contacts\\C06\\J10_37.750.jpg",
+        "contacts\\C06\\J11_41.750.jpg",
+        "contacts\\C06\\J12_44.000.jpg"
+      ],
+      "individual_frames": "frames\\C06",
+      "timeline": [
+        {
+          "cut": "K01",
+          "source": "2026-10-23_C06-C05-flow-run01/C06_K01_take01.mp4",
+          "source_in": 0,
+          "source_out": 5,
+          "start": 0,
+          "end": 5
+        },
+        {
+          "cut": "K02_attack",
+          "source": "2026-10-24_C01-C06-repair110\\C06_K02_impact_take01.mp4",
+          "source_in": 0.75,
+          "source_out": 2.25,
+          "start": 5,
+          "end": 6.5
+        },
+        {
+          "cut": "K02_sort",
+          "source": "2026-10-23_C06-C05-flow-run01/C06_K02_take01.mp4",
+          "source_in": 4.25,
+          "source_out": 7.5,
+          "start": 6.5,
+          "end": 9.75
+        },
+        {
+          "cut": "K03",
+          "source": "2026-10-23_C06-C05-flow-run01/C06_K03_take01.mp4",
+          "source_in": 1.25,
+          "source_out": 5.75,
+          "start": 9.75,
+          "end": 14.25
+        },
+        {
+          "cut": "K04_wide",
+          "source": "2026-10-23_C06-C05-flow-run01/C06_K04_take01.mp4",
+          "source_in": 0.5,
+          "source_out": 3.5,
+          "start": 14.25,
+          "end": 17.25
+        },
+        {
+          "cut": "K04_check",
+          "source": "2026-10-23_C06-C05-flow-run03/C06_K04_check_take02.mp4",
+          "source_in": 1.25,
+          "source_out": 4.75,
+          "start": 17.25,
+          "end": 20.75
+        },
+        {
+          "cut": "K05",
+          "source": "2026-10-23_C06-C05-flow-run02/C06_K05_take03.mp4",
+          "source_in": 1.0,
+          "source_out": 6.0,
+          "start": 20.75,
+          "end": 25.75
+        },
+        {
+          "cut": "K06",
+          "source": "2026-10-23_C06-C05-flow-run01/C06_K06_take01.mp4",
+          "source_in": 0.75,
+          "source_out": 3.75,
+          "start": 25.75,
+          "end": 28.75
+        },
+        {
+          "cut": "K07",
+          "source": "2026-10-23_C06-C05-flow-run01/C06_K07_take01.mp4",
+          "source_in": 0.0,
+          "source_out": 4.5,
+          "start": 28.75,
+          "end": 33.25
+        },
+        {
+          "cut": "K08",
+          "source": "2026-10-23_C06-C05-flow-run01/C06_K08_take01.mp4",
+          "source_in": 1.25,
+          "source_out": 5.75,
+          "start": 33.25,
+          "end": 37.75
+        },
+        {
+          "cut": "K09_seat",
+          "source": "2026-10-23_C06-C05-flow-run01/C06_K09_take01.mp4",
+          "source_in": 0.75,
+          "source_out": 4.75,
+          "start": 37.75,
+          "end": 41.75
+        },
+        {
+          "cut": "K09_reaction",
+          "source": "2026-10-23_C06-C05-flow-run03/C06_K09_reaction_take01.mp4",
+          "source_in": 2.0,
+          "source_out": 4.25,
+          "start": 41.75,
+          "end": 44.0
+        },
+        {
+          "cut": "END",
+          "source": null,
+          "source_in": 0.0,
+          "source_out": 4.75,
+          "start": 44.0,
+          "end": 48.75
+        }
+      ],
+      "captions": [
+        {
+          "start": 0.3,
+          "end": 2.4,
+          "text": "제발 퇴근 좀 해.",
+          "position": "top_left",
+          "font_px": 42
+        },
+        {
+          "start": 7.75,
+          "end": 9.55,
+          "text": "고마워요.",
+          "position": "bottom",
+          "font_px": 42
+        },
+        {
+          "start": 9.88,
+          "end": 14,
+          "text": "퇴근시키려면,\n일을 끝내줘야겠네.",
+          "position": "bottom",
+          "font_px": 42
+        },
+        {
+          "start": 14.45,
+          "end": 20.45,
+          "text": "이 한 건만 확인하면 끝.",
+          "position": "bottom",
+          "font_px": 42
+        },
+        {
+          "start": 20.91,
+          "end": 23.47,
+          "text": "오늘 남은 일, 끝.",
+          "position": "bottom",
+          "font_px": 42
+        },
+        {
+          "start": 26,
+          "end": 28.1,
+          "text": "드디어, 내 시간.",
+          "position": "top",
+          "font_px": 42
+        },
+        {
+          "start": 29.75,
+          "end": 33,
+          "text": "방금 나간 사람,\n어떻게 내보냈어요?",
+          "position": "top",
+          "font_px": 42
+        },
+        {
+          "start": 34.5,
+          "end": 37.5,
+          "text": "질문은 Q-AI Fair에서.",
+          "position": "bottom",
+          "font_px": 42
+        },
+        {
+          "start": 44.0,
+          "end": 48.75,
+          "text": "Q-AI Fair\n직접 해본 방법을 함께 봐요.",
+          "position": "ending"
+        }
+      ],
+      "mean_visual_delta": 1.1117427842727243,
+      "observed_identical_frame_pairs": 75,
+      "previous_review_status": "THREE_INDEPENDENT_AND_CROSS_SAMPLE_REVIEW_PASS"
+    }
+  ]
+}

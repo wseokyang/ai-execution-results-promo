@@ -1,0 +1,30 @@
+{
+  "file": "\\\\wsl.localhost\\Ubuntu-24.04\\home\\wooseok\\wsy\\samsung_related\\slide\\AI실행결과발표대회_디자인3종\\storyboards\\2026-10-25_final-watch-v14\\C06\\C06_Q-AI_Fair_final_v14.mp4",
+  "sha256": "9f92483e60e79bae283f6f0f5fba625f4da43274a36392a7997797bf8a0f2c08",
+  "frames": 1170,
+  "duration_seconds": 48.75,
+  "resolution": [
+    1280,
+    720
+  ],
+  "fps": 24,
+  "pts_gaps": 0,
+  "full_decode": "PASS",
+  "audio_packets_identical_to_v13": {
+    "sha256": "5dcba4a1c7f3f300b2e1cc13cca9788b3c22b1f16c7b54eb7711f2852f8affd1",
+    "packets": 2287
+  },
+  "audio_peak": 0.7460713982582092,
+  "max_audio_pts_gap_seconds": 7.105427357601002e-15,
+  "audio_listening_verified": false,
+  "actual_continuous_playback_verified": false,
+  "method": "Fresh final decoded frames every0.5s,changed caption sequence every0.25s,joins -2 through+2frames",
+  "caption_moved": [
+    3.25,
+    4.75
+  ],
+  "old_caption_removed": [
+    7.75,
+    9.55
+  ]
+}

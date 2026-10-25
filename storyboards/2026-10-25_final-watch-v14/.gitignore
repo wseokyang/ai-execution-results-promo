@@ -1,0 +1,5 @@
+frames/
+**/__pycache__/
+**/*.wav
+**/*.log
+previous_root_docs/
