@@ -27,4 +27,3 @@ for i,e in enumerate(m['entries']):
 im.save(P/'contact_C09.jpg',quality=90)
 (P/'artist_C09_manifest.json').write_text(json.dumps(m,ensure_ascii=False,indent=2)+'\n',encoding='utf-8')
 print('C09 10 PNG saved, contact generated, caller badge spec synced')
-

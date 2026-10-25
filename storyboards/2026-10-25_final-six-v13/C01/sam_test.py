@@ -15,4 +15,3 @@ for box,points in [([0,85,826,720],[[327,238],[491,382],[295,451]]),([368,200,12
  a,s,l=predictor.predict(point_coords=np.array(points),point_labels=np.ones(len(points)),box=np.array(box),multimask_output=False);mask|=a[0];print(s,time.time()-t,flush=True)
 Image.fromarray(np.uint8(mask)*255).save(p/'sam_testmask.png')
 im[~mask]=(im[~mask]*.3).astype(np.uint8);Image.fromarray(im).save(p/'sam_test.jpg')
-

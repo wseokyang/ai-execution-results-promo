@@ -15,4 +15,3 @@ src=src.replace(old,new).replace('C03_Q-AI_Fair_edit_v04.mp4','C03_Q-AI_Fair_fin
 src=src.replace("'Q-AI Fair ending 38.75–44.75; last cue extended by0.2s to avoid tail flash'","'V13 cuff hold trimmed1.75s; all later captions retimed. Q-AI Fair ending37.0–43.0; evidence caption ends12.4 before insert'")
 (out/'render_c03.py').write_text(src,encoding='utf-8')
 print(out/'render_c03.py')
-

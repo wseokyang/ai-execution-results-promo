@@ -86,4 +86,3 @@ for key,a,b in TIMELINE:
     show=rgb.copy();show[out<128]=(show[out<128]*.25).astype(np.uint8);Image.fromarray(show).save(OUT/f'sam_{key}_{i/FPS:.3f}.jpg')
  print(key,'masks',len(ids),'seconds',round(time.time()-t0,2),flush=True)
 (OUT/'segmentation_validation.json').write_text(json.dumps({'method':'MobileSAM local CUDA prompted real foreground only; connected components restricted to actor seeds; 1px dilation,0.55px feather','model':'official vit_t mobile_sam.pt','action_generated':False,'preview_only':preview,'records':records},indent=2),encoding='utf-8')
-

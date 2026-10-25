@@ -36,4 +36,3 @@ d['final_edit_candidates']={f'C{i:02}':f'C{i:02}'+('_r3' if i==5 else '')+f'/C{i
 d['final_review_status']='6편 실제 추출 프레임 독립3인·교차·최종재확인 완료. 필수 미해결0. 실청취·현장상영 미검증.'
 write(P/'task_status.json',d)
 print('Preserved',len(g['entries']),'selected6/hold6, credits200, remaining0')
-

@@ -28,4 +28,3 @@ rec={'file':dst.name,'sha256':hashlib.sha256(dst.read_bytes()).hexdigest(),'byte
 for n in ['edit_manifest.json','C06_captions.srt']:
  if (old/n).exists():shutil.copyfile(old/n,out/('source_'+n))
 print(rec)
-

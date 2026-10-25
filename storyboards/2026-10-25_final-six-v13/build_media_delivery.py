@@ -36,4 +36,3 @@ for e in g['entries']:
  rawitems.append(f'<article><h2>{html.escape(e["original"])}</h2><p>{e["status"]} · {e["model"]} · {e["cost_displayed"]}크레딧</p><video controls preload="none" src="originals/{src.name}"></video><p>{html.escape(note)}</p><a download href="originals/{src.name}">재인코딩하지 않은 원본 MP4</a></article>')
 (CACHE/'originals.html').write_text('<!doctype html><html lang="ko"><meta charset="utf-8"><title>Flow 원본 12개</title><style>'+css+'</style><main><h1>Flow 추가 생성 원본 12개</h1><p><a href="index.html">6편 편집본으로</a> · 채택6 / 보류6 · 200크레딧 사용</p><p>보류 원본은 최종본에 사용하지 않았습니다. 원본 음성은 청취 검증하지 않았으며 최종편집에서 제거했습니다.</p>'+''.join(rawitems)+'</main></html>',encoding='utf-8')
 print('Copied6finals+12unchangedoriginals. Cache:',CACHE)
-

@@ -28,4 +28,3 @@ s['requests']=[{'unit':e['unit_id'],'take':e['take'],'model':e['model'],'cost_di
 s['last_verified_account_balances']={'current_u3':0,'current_u4':0,'current_u2':0}
 s['unverified_accounts']=['current_u0','current_u1']
 (P/'task_status.json').write_text(json.dumps(s,ensure_ascii=False,indent=2)+'\n',encoding='utf-8')
-
