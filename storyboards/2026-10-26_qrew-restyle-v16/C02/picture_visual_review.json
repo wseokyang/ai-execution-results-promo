@@ -1,0 +1,21 @@
+{
+  "film": "C02",
+  "reviewer": "v16_render_a",
+  "scope": "Actual extracted-image inspection of silent V16 picture; no continuous playback or listening claim",
+  "actual_images_opened": [
+    "contact_01.jpg", "contact_05.jpg", "contact_09.jpg",
+    "review_frames/12.500s.png", "review_frames/29.500s.png", "review_frames/32.000s.png"
+  ],
+  "findings": [
+    "Full 1280x720 action preserved with no matte or scaling.",
+    "White lower-center subtitles have a visible black outline and remain legible over bright metal bench at 12.5s.",
+    "29.5s former top-position narrative cue now appears at the same lower-center baseline, without the previous box or duplicate text.",
+    "Specimen cleaning, cuff gag and photograph scene composites retain their approved original placement; sampled hands and faces are not covered by the subtitle.",
+    "Full-frame Q-AI Fair ending and quality-team exchange description are retained."
+  ],
+  "new_mandatory_visual_defects": [],
+  "status": "PASS_SAMPLED_PICTURE_RESTYLE",
+  "actual_continuous_playback_verified": false,
+  "actual_listening_verified": false,
+  "audio_status": "Picture is intentionally silent; parent will compose and mux new music."
+}

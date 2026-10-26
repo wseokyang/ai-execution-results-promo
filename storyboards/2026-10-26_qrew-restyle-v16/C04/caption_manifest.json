@@ -1,0 +1,177 @@
+[
+  {
+    "start": 0.2,
+    "end": 1.8,
+    "text": "숨소리도 내지 마라.",
+    "kind": "subtitle",
+    "position": "bottom_center",
+    "previous_caption_metadata": {
+      "start": 0.2,
+      "end": 1.8,
+      "text": "숨소리도 내지 마라.",
+      "position": "top",
+      "v13_start": 0.2,
+      "v13_end": 1.8
+    },
+    "pos": "bottom_center",
+    "x": 640,
+    "y": 684,
+    "font_px": 38,
+    "style": "qrew_full_frame_lower_center"
+  },
+  {
+    "start": 1.9,
+    "end": 3,
+    "text": "꼬르륵…",
+    "kind": "subtitle",
+    "position": "bottom_center",
+    "previous_caption_metadata": {
+      "start": 1.9,
+      "end": 3,
+      "text": "꼬르륵…",
+      "position": "top",
+      "v13_start": 1.9,
+      "v13_end": 3
+    },
+    "pos": "bottom_center",
+    "x": 640,
+    "y": 684,
+    "font_px": 38,
+    "style": "qrew_full_frame_lower_center"
+  },
+  {
+    "start": 3.16,
+    "end": 6.04,
+    "text": "식사 · 물 · 수저 요청",
+    "kind": "subtitle",
+    "position": "bottom_center",
+    "previous_caption_metadata": {
+      "start": 3.16,
+      "end": 6.04,
+      "text": "식사 · 물 · 수저 요청",
+      "position": "bottom",
+      "v13_start": 3.2,
+      "v13_end": 6.8
+    },
+    "pos": "bottom_center",
+    "x": 640,
+    "y": 684,
+    "font_px": 38,
+    "style": "qrew_full_frame_lower_center"
+  },
+  {
+    "start": 7.25,
+    "end": 10.8,
+    "text": "신고: 내부 탑승자 없음",
+    "kind": "subtitle",
+    "position": "bottom_center",
+    "previous_caption_metadata": {
+      "start": 7.25,
+      "end": 10.8,
+      "text": "신고: 내부 탑승자 없음",
+      "position": "bottom",
+      "v13_start": 8.25,
+      "v13_end": 11.8
+    },
+    "pos": "bottom_center",
+    "x": 640,
+    "y": 684,
+    "font_px": 38,
+    "style": "qrew_full_frame_lower_center"
+  },
+  {
+    "start": 11.2,
+    "end": 13.8,
+    "text": "아무도 없는데, 웬 배식?",
+    "kind": "subtitle",
+    "position": "bottom_center",
+    "previous_caption_metadata": {
+      "start": 11.2,
+      "end": 13.8,
+      "text": "아무도 없는데, 웬 배식?",
+      "position": "bottom",
+      "v13_start": 12.2,
+      "v13_end": 14.8
+    },
+    "pos": "bottom_center",
+    "x": 640,
+    "y": 684,
+    "font_px": 38,
+    "style": "qrew_full_frame_lower_center"
+  },
+  {
+    "start": 19.2,
+    "end": 22.8,
+    "text": "이 말, 수저를 씁니까?",
+    "kind": "subtitle",
+    "position": "bottom_center",
+    "previous_caption_metadata": {
+      "start": 19.2,
+      "end": 22.8,
+      "text": "이 말, 수저를 씁니까?",
+      "position": "top",
+      "v13_start": 20.2,
+      "v13_end": 23.8
+    },
+    "pos": "bottom_center",
+    "x": 640,
+    "y": 684,
+    "font_px": 38,
+    "style": "qrew_full_frame_lower_center"
+  },
+  {
+    "start": 23.1,
+    "end": 25,
+    "text": "안에는 아무도 없습니다.",
+    "kind": "subtitle",
+    "position": "bottom_center",
+    "previous_caption_metadata": {
+      "start": 23.1,
+      "end": 25,
+      "text": "안에는 아무도 없습니다.",
+      "position": "bottom",
+      "v13_start": 24.1,
+      "v13_end": 26
+    },
+    "pos": "bottom_center",
+    "x": 640,
+    "y": 684,
+    "font_px": 38,
+    "style": "qrew_full_frame_lower_center"
+  },
+  {
+    "start": 36.05,
+    "end": 38.5,
+    "text": "지휘관부터.",
+    "kind": "subtitle",
+    "position": "bottom_center",
+    "previous_caption_metadata": {
+      "start": 36.05,
+      "end": 38.5,
+      "text": "지휘관부터.",
+      "position": "top_right",
+      "v13_start": 37.05,
+      "v13_end": 39.5
+    },
+    "pos": "bottom_center",
+    "x": 640,
+    "y": 684,
+    "font_px": 38,
+    "style": "qrew_full_frame_lower_center"
+  },
+  {
+    "start": 38.75,
+    "end": 43.5,
+    "text": "Q-AI Fair\nAI 실행 사례, 지금 시작합니다.\n품질팀 AI 성과 교류회",
+    "kind": "endcard",
+    "position": "existing_full_frame_ending",
+    "previous_caption_metadata": {
+      "start": 38.75,
+      "end": 43.5,
+      "text": "Q-AI Fair\nAI 실행 사례, 지금 시작합니다.\n품질팀 AI 성과 교류회",
+      "position": "ending",
+      "v13_start": 39.75,
+      "v13_end": 44.5
+    }
+  }
+]

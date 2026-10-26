@@ -1,0 +1,7 @@
+{
+  "original_compositor": "2026-10-23_C05-C06-edit-v03\\render_films.py",
+  "original_sha256": "67cb025d63de05caad815b41cbef885ea932e9f8644e0416678a1f8a0c4068d9",
+  "isolated_copy": "ui_compositor.py",
+  "isolated_sha256": "367e50c71895e75303a58a5bb1ab9455e654ef23999a1359681c6f5eda396d3c",
+  "treatment": "UI function bodies retained; output paths isolated; no original import executed."
+}

@@ -1,0 +1,22 @@
+{
+  "authoritative_audio": "audio/Cxx/score_manifest.json + create_scores.py",
+  "planning_document": "music_cue_plan.json is the direction-stage plan; actual implementation differences below.",
+  "changes": [
+    {
+      "concept_id": "C07",
+      "planned": "6.3–11 sparse piano",
+      "implemented": "Formal waltz continues through11, with full gate4.8–6.3.",
+      "reason": "Maintain the serious tasting ceremony before the records receive grander treatment; no unverified Foley."
+    },
+    {
+      "concept_id": "C04",
+      "planned": "Progressive transition into dining waltz",
+      "implemented": "Full dining waltz begins31 after complete silence28–31.",
+      "reason": "A decisive genre reversal matches the bowl reveal."
+    }
+  ],
+  "metadata_corrections": [
+    "C02 cue14.9–20.75 and C03cue19.5–23.25 added; audio unchanged."
+  ],
+  "actual_listening_performed": false
+}

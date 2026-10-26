@@ -1,0 +1,19 @@
+{
+  "film": "C09",
+  "reviewer": "v16_render_b",
+  "scope": "Actual opening of encoded picture contact sheets and full-resolution extracted PNG; not realtime playback or listening",
+  "opened": ["contact_sheet_01.jpg", "contact_sheet_02.jpg", "contact_sheet_03.jpg", "review_frames/008.500s.png", "review_frames/018.000s.png", "review_frames/030.250s.png"],
+  "status": "CHANGED_CAPTION_AND_HANDOFF_BOUNDARY_SAMPLE_PASS",
+  "findings": [
+    "All editorial captions, including the external '전화 · 동료' badge, are lower-center and remain separate from the phone surface.",
+    "The two-line shared-method caption stays readable over reflective pavement without blocking faces or the phone.",
+    "The charger question still begins at 26.25 seconds, before the reveal; handoff remains the approved 1.5–3.25-second actual moving insert with crop [330,215,810,485].",
+    "K04 take02, K07 late trim, K09 late departure trim, and 39–44-second event ending remain unchanged."
+  ],
+  "unchanged_limitations": [
+    "The documented wrong-pocket retrieval, receiver-hand continuity and initial bus-departure defects are omitted by the existing approved trims, not repaired by this subtitle restyle.",
+    "Only selected encoded frames were visually inspected. No claim of realtime continuous playback or actual audio listening."
+  ],
+  "actual_realtime_playback_verified": false,
+  "actual_listening_verified": false
+}

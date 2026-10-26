@@ -1,0 +1,348 @@
+{
+  "film": "C05",
+  "version": 16,
+  "file": "C05_picture_v16.mp4",
+  "picture_file": "C05_picture_v16.mp4",
+  "duration_seconds": 46.75,
+  "fps": 24,
+  "resolution": [
+    1280,
+    720
+  ],
+  "timeline": [
+    {
+      "cut": "K01",
+      "source": "2026-10-23_C06-C05-flow-run03/C05_K01_take02.mp4",
+      "source_in": 0,
+      "source_out": 3.25,
+      "start": 0,
+      "end": 3.25,
+      "crop": null
+    },
+    {
+      "cut": "K02A",
+      "source": "2026-10-23_C06-C05-flow-run01/C05_K02A_take01.mp4",
+      "source_in": 1.75,
+      "source_out": 5.75,
+      "start": 3.25,
+      "end": 7.25,
+      "crop": null
+    },
+    {
+      "cut": "K02B",
+      "source": "2026-10-23_C06-C05-flow-run01/C05_K02B_take02.mp4",
+      "source_in": 0.5,
+      "source_out": 3.5,
+      "start": 7.25,
+      "end": 10.25,
+      "crop": null
+    },
+    {
+      "cut": "N01_entry",
+      "source": "2026-10-24_C05-first-flow-run01/C05_N01_take01.mp4",
+      "source_in": 0.5,
+      "source_out": 4.5,
+      "start": 10.25,
+      "end": 14.25,
+      "crop": null
+    },
+    {
+      "cut": "N02_hands_grip_front_edge",
+      "source": "2026-10-24_C05-first-flow-run01/C05_N02_take02.mp4",
+      "source_in": 1.5,
+      "source_out": 4.5,
+      "start": 14.25,
+      "end": 17.25,
+      "crop": null
+    },
+    {
+      "cut": "N03_neck_withdraws",
+      "source": "2026-10-24_C05-first-flow-run01/C05_N03_take01.mp4",
+      "source_in": 3,
+      "source_out": 7.5,
+      "start": 17.25,
+      "end": 21.75,
+      "crop": null
+    },
+    {
+      "cut": "K04_worker_jack_insert",
+      "source": "2026-10-24_C01-C06-repair110/C05_K04_jack_detail_take01.mp4",
+      "source_in": 1.5,
+      "source_out": 3,
+      "start": 21.75,
+      "end": 23.25,
+      "crop": null
+    },
+    {
+      "cut": "K04_wide",
+      "source": "2026-10-23_C06-C05-flow-run01/C05_K04_take02.mp4",
+      "source_in": 2.5,
+      "source_out": 3.25,
+      "start": 23.25,
+      "end": 24.0,
+      "crop": null
+    },
+    {
+      "cut": "K04_plead",
+      "source": "2026-10-23_C06-C05-flow-run01/C05_K04_take02.mp4",
+      "source_in": 4.5,
+      "source_out": 7.25,
+      "start": 24.0,
+      "end": 26.75,
+      "crop": null
+    },
+    {
+      "cut": "K05",
+      "source": "2026-10-23_C06-C05-flow-run01/C05_K05_take02.mp4",
+      "source_in": 0.5,
+      "source_out": 5.25,
+      "start": 26.75,
+      "end": 31.5,
+      "crop": null
+    },
+    {
+      "cut": "K06",
+      "source": "2026-10-23_C06-C05-flow-run03/C05_K06_take02.mp4",
+      "source_in": 0.5,
+      "source_out": 3.5,
+      "start": 31.5,
+      "end": 34.5,
+      "crop": null
+    },
+    {
+      "cut": "K07",
+      "source": "2026-10-23_C06-C05-flow-run03/C05_K07_take02.mp4",
+      "source_in": 1,
+      "source_out": 5.5,
+      "start": 34.5,
+      "end": 39.0,
+      "crop": null
+    },
+    {
+      "cut": "K08_thumb",
+      "source": "2026-10-23_C06-C05-flow-run01/C05_K08_take01.mp4",
+      "source_in": 0.5,
+      "source_out": 1.5,
+      "start": 39.0,
+      "end": 40.0,
+      "crop": null
+    },
+    {
+      "cut": "K08_return",
+      "source": "2026-10-23_C06-C05-flow-run03/C05_K08_take02.mp4",
+      "source_in": 0,
+      "source_out": 6.75,
+      "start": 40.0,
+      "end": 46.75,
+      "crop": null
+    }
+  ],
+  "captions": [
+    {
+      "start": 0.6,
+      "end": 3.15,
+      "text": "이 입구는 내가 접수한다.",
+      "kind": "subtitle",
+      "pos": "bottom_center",
+      "x": 640,
+      "y": 684,
+      "font_px": 38,
+      "style": "qrew_full_frame_lower_center"
+    },
+    {
+      "start": 13.25,
+      "end": 14.25,
+      "text": "어…?",
+      "kind": "subtitle",
+      "pos": "bottom_center",
+      "x": 640,
+      "y": 684,
+      "font_px": 38,
+      "style": "qrew_full_frame_lower_center"
+    },
+    {
+      "start": 24.25,
+      "end": 26.55,
+      "text": "조금만 더 잡아주세요.",
+      "kind": "subtitle",
+      "pos": "bottom_center",
+      "x": 640,
+      "y": 684,
+      "font_px": 38,
+      "style": "qrew_full_frame_lower_center"
+    },
+    {
+      "start": 26.95,
+      "end": 30.35,
+      "text": "잠시 후, AI 실행 사례 공개",
+      "kind": "subtitle",
+      "pos": "bottom_center",
+      "x": 640,
+      "y": 684,
+      "font_px": 38,
+      "style": "qrew_full_frame_lower_center"
+    },
+    {
+      "start": 36.85,
+      "end": 38.85,
+      "text": "들리세요?",
+      "kind": "subtitle",
+      "pos": "bottom_center",
+      "x": 640,
+      "y": 684,
+      "font_px": 38,
+      "style": "qrew_full_frame_lower_center"
+    },
+    {
+      "start": 41.75,
+      "end": 46.75,
+      "text": "Q-AI Fair\nAI 실행의 과정까지, 함께 봐요.\n품질팀 AI 성과 교류회",
+      "kind": "endcard"
+    }
+  ],
+  "caption_style": {
+    "name": "QREW latest full-frame lower-center, adapted for lowest safe placement",
+    "resolution": [
+      1280,
+      720
+    ],
+    "full_frame_preserved": true,
+    "black_matte": false,
+    "font": "Pretendard SemiBold",
+    "font_size_px": 38,
+    "center_x": 640,
+    "one_line_baseline_y": 684,
+    "two_line_baselines_y": [
+      641,
+      684
+    ],
+    "stroke_width_px": 3,
+    "stroke_color": "#000000",
+    "text_color": "#FAFAFA",
+    "shadow_offset_px": [
+      0,
+      2
+    ],
+    "shadow_blur_px": 8,
+    "maximum_text_width_px": 1100,
+    "individual_background_box": false,
+    "maximum_lines": 2,
+    "ending_card_policy": "Keep existing full-frame event end cards; do not restyle them as dialogue.",
+    "source": "QREW latest Journey/Expert/Interrogation filmCaption, 57px at1080p; explicit user asks lower placement."
+  },
+  "source_sha256": {
+    "2026-10-23_C06-C05-flow-run03/C05_K01_take02.mp4": "cdf95f0d1478cb0fb3d87c8e3d17e153645e9fcebdc65b679e64c45012b48cb0",
+    "2026-10-23_C06-C05-flow-run01/C05_K02A_take01.mp4": "ba15feb55d3c51dfc07d4aa3f17b36d37715e58cdf726a5adefc05b3948ddc9d",
+    "2026-10-23_C06-C05-flow-run01/C05_K02B_take02.mp4": "712ede5cc4175875d4d3a62b607c367629335e17ad67ce275462bc655adab796",
+    "2026-10-24_C05-first-flow-run01/C05_N01_take01.mp4": "89b0b1cded9973d8230b30caaa9be4b985e1f1f347bc1525fb9614912464c10b",
+    "2026-10-24_C05-first-flow-run01/C05_N02_take02.mp4": "3d7c40c93eee18d8ae8b0d9fd772b7239531cb43d6edeb725aae8e5c05dfdc45",
+    "2026-10-24_C05-first-flow-run01/C05_N03_take01.mp4": "a4bffe33f967f6abbefc2b1db0f10c0fc3e1b08c3acec8db81a7ef08d7e362c7",
+    "2026-10-24_C01-C06-repair110/C05_K04_jack_detail_take01.mp4": "1da5e0a37006765e96f9b78ab506adf8d5a9acf524b64e036d35a52990a50bef",
+    "2026-10-23_C06-C05-flow-run01/C05_K04_take02.mp4": "6f646d261a44a4de661171b0c22f87b46eb99ec9b2da6ba2cebe2ea4383f5ced",
+    "2026-10-23_C06-C05-flow-run01/C05_K05_take02.mp4": "c68de7d193acbf91b0bc28d622f0fbc44b870aa45d2ee11d4f5ea43ca2dfcea8",
+    "2026-10-23_C06-C05-flow-run03/C05_K06_take02.mp4": "a608c3f881597faab81313c43a7fd5c43ad4cdc8fb161e1994aaefcf9d9f2882",
+    "2026-10-23_C06-C05-flow-run03/C05_K07_take02.mp4": "00a29dc6bd51cbd66edfb3a72a8001ec56924a1cf4951882662993cb63b8ded7",
+    "2026-10-23_C06-C05-flow-run01/C05_K08_take01.mp4": "a82ab7aa031d7506b5a6cc408a873f17cf185063b4f34846a3f5a2b5efec5652",
+    "2026-10-23_C06-C05-flow-run03/C05_K08_take02.mp4": "6ffd1ceb002b7236a4df544410500baa53657958b01ea114ce8d78af36752e75"
+  },
+  "source_of_picture": "Original Flow MP4s with preserved scene UI; no baked-caption picture reused",
+  "original_files_unchanged": true,
+  "source_audio": "ALL EXCLUDED; new score owned by parent task",
+  "action_stills_inserted": false,
+  "flow_credits_used": 0,
+  "base_manifest": "2026-10-26_screening-style-v15\\C05\\edit_manifest.json",
+  "base_manifest_sha256": "260f35d3bee8cae59f67fdf3d76774c58d833a82f760eb3dc39ef51ca5c05349",
+  "ending": {
+    "file": "ending_art_v16.png",
+    "source": "2026-10-26_screening-style-v15\\C05\\ending_art_v15.png",
+    "sha256": "b6e13414cc16dade5885e169b776458fae32473905745e6dc4cb56b424d6d969",
+    "start": 41.75,
+    "end": 46.75,
+    "live_action_background": true
+  },
+  "ui_provenance": null,
+  "picture_qa": {
+    "file": "C05_picture_v16.mp4",
+    "sha256": "9218ca41ab736dcc652b88e3068b555bee31920968f97162561134db99891d32",
+    "bytes": 22462813,
+    "frames": 1122,
+    "duration_seconds": 46.75,
+    "fps": "24/1",
+    "resolution": [
+      1280,
+      720
+    ],
+    "audio_streams": 0,
+    "full_decode": "PASS",
+    "first_pts": 0.0,
+    "last_pts": 46.708333333333336,
+    "max_pts_step_error": 4.739264536368637e-15,
+    "actual_realtime_playback_verified": false,
+    "actual_listening_verified": false,
+    "extracted_review_frames": [
+      "review_frames\\000.000s.png",
+      "review_frames\\001.875s.png",
+      "review_frames\\003.208s.png",
+      "review_frames\\003.250s.png",
+      "review_frames\\007.208s.png",
+      "review_frames\\007.250s.png",
+      "review_frames\\010.208s.png",
+      "review_frames\\010.250s.png",
+      "review_frames\\013.500s.png",
+      "review_frames\\013.750s.png",
+      "review_frames\\014.208s.png",
+      "review_frames\\014.250s.png",
+      "review_frames\\017.000s.png",
+      "review_frames\\017.208s.png",
+      "review_frames\\017.250s.png",
+      "review_frames\\021.500s.png",
+      "review_frames\\021.708s.png",
+      "review_frames\\021.750s.png",
+      "review_frames\\022.500s.png",
+      "review_frames\\023.208s.png",
+      "review_frames\\023.250s.png",
+      "review_frames\\023.500s.png",
+      "review_frames\\023.958s.png",
+      "review_frames\\024.000s.png",
+      "review_frames\\024.500s.png",
+      "review_frames\\025.417s.png",
+      "review_frames\\026.708s.png",
+      "review_frames\\026.750s.png",
+      "review_frames\\027.500s.png",
+      "review_frames\\028.667s.png",
+      "review_frames\\031.458s.png",
+      "review_frames\\031.500s.png",
+      "review_frames\\034.458s.png",
+      "review_frames\\034.500s.png",
+      "review_frames\\037.500s.png",
+      "review_frames\\037.833s.png",
+      "review_frames\\038.958s.png",
+      "review_frames\\039.000s.png",
+      "review_frames\\039.958s.png",
+      "review_frames\\040.000s.png",
+      "review_frames\\041.750s.png",
+      "review_frames\\043.000s.png",
+      "review_frames\\044.250s.png",
+      "review_frames\\046.708s.png"
+    ],
+    "contact_sheets": [
+      "contact_sheet_01.jpg",
+      "contact_sheet_02.jpg",
+      "contact_sheet_03.jpg"
+    ],
+    "visual_review": "EXTRACTED_PENDING_ACTUAL_OPEN"
+  },
+  "status": "PICTURE_COMPLETE_AUDIO_PENDING",
+  "actual_realtime_playback_verified": false,
+  "actual_continuous_playback_verified": false,
+  "actual_listening_verified": false,
+  "limitations": [
+    "Full outward turn and continuous hand transfer NOT captured. N03 neck withdrawal is followed by an actual worker jack cutaway, then the original long-neck front support. This is a temporal ellipsis, not a continuous action.",
+    "N05–N08 variants excluded entirely for character/anatomy/support/dissolve defects.",
+    "Jack shot establishes transport only, not a verified stop/lift action.",
+    "All source speech removed; actual listening not verified.",
+    "V15 is not realtime playback or actual listening certified; numerical tests and inspected frame samples only."
+  ],
+  "causal_design": "pillar removal → attempted entrance → neck caught → front grip → neck withdrawal → worker jack cutaway covering a clear temporal ellipsis → original long-neck front support → front view",
+  "revision_scope": "Editorial captions moved to lower center; same latest approved motion timing, source trims, UI and endings."
+}

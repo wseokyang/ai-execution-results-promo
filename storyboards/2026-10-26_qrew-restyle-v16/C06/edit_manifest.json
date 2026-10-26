@@ -1,0 +1,366 @@
+{
+  "film": "C06",
+  "version": 16,
+  "file": "C06_picture_v16.mp4",
+  "picture_file": "C06_picture_v16.mp4",
+  "duration_seconds": 48.75,
+  "fps": 24,
+  "resolution": [
+    1280,
+    720
+  ],
+  "timeline": [
+    {
+      "cut": "K01",
+      "source": "2026-10-23_C06-C05-flow-run01/C06_K01_take01.mp4",
+      "source_in": 0,
+      "source_out": 5,
+      "start": 0,
+      "end": 5
+    },
+    {
+      "cut": "K02_attack",
+      "source": "2026-10-24_C01-C06-repair110/C06_K02_impact_take01.mp4",
+      "source_in": 0.75,
+      "source_out": 2.25,
+      "start": 5,
+      "end": 6.5
+    },
+    {
+      "cut": "K02_sort",
+      "source": "2026-10-23_C06-C05-flow-run01/C06_K02_take01.mp4",
+      "source_in": 4.25,
+      "source_out": 7.5,
+      "start": 6.5,
+      "end": 9.75
+    },
+    {
+      "cut": "K03",
+      "source": "2026-10-23_C06-C05-flow-run01/C06_K03_take01.mp4",
+      "source_in": 1.25,
+      "source_out": 5.75,
+      "start": 9.75,
+      "end": 14.25
+    },
+    {
+      "cut": "K04_wide",
+      "source": "2026-10-23_C06-C05-flow-run01/C06_K04_take01.mp4",
+      "source_in": 0.5,
+      "source_out": 3.5,
+      "start": 14.25,
+      "end": 17.25
+    },
+    {
+      "cut": "K04_check",
+      "source": "2026-10-23_C06-C05-flow-run03/C06_K04_check_take02.mp4",
+      "source_in": 1.25,
+      "source_out": 4.75,
+      "start": 17.25,
+      "end": 20.75
+    },
+    {
+      "cut": "K05",
+      "source": "2026-10-23_C06-C05-flow-run02/C06_K05_take03.mp4",
+      "source_in": 1.0,
+      "source_out": 6.0,
+      "start": 20.75,
+      "end": 25.75
+    },
+    {
+      "cut": "K06",
+      "source": "2026-10-23_C06-C05-flow-run01/C06_K06_take01.mp4",
+      "source_in": 0.75,
+      "source_out": 3.75,
+      "start": 25.75,
+      "end": 28.75
+    },
+    {
+      "cut": "K07",
+      "source": "2026-10-23_C06-C05-flow-run01/C06_K07_take01.mp4",
+      "source_in": 0.0,
+      "source_out": 4.5,
+      "start": 28.75,
+      "end": 33.25
+    },
+    {
+      "cut": "K08",
+      "source": "2026-10-23_C06-C05-flow-run01/C06_K08_take01.mp4",
+      "source_in": 1.25,
+      "source_out": 5.75,
+      "start": 33.25,
+      "end": 37.75
+    },
+    {
+      "cut": "K09_seat",
+      "source": "2026-10-23_C06-C05-flow-run01/C06_K09_take01.mp4",
+      "source_in": 0.75,
+      "source_out": 4.75,
+      "start": 37.75,
+      "end": 41.75
+    },
+    {
+      "cut": "K09_reaction",
+      "source": "2026-10-23_C06-C05-flow-run03/C06_K09_reaction_take01.mp4",
+      "source_in": 2.0,
+      "source_out": 4.25,
+      "start": 41.75,
+      "end": 44.0
+    },
+    {
+      "cut": "END",
+      "source": null,
+      "source_in": 0.0,
+      "source_out": 4.75,
+      "start": 44.0,
+      "end": 48.75
+    }
+  ],
+  "captions": [
+    {
+      "start": 0.3,
+      "end": 2.4,
+      "text": "제발 퇴근 좀 해.",
+      "kind": "subtitle",
+      "pos": "bottom_center",
+      "x": 640,
+      "y": 684,
+      "font_px": 38,
+      "style": "qrew_full_frame_lower_center"
+    },
+    {
+      "start": 3.25,
+      "end": 4.75,
+      "text": "고마워요.",
+      "kind": "subtitle",
+      "pos": "bottom_center",
+      "x": 640,
+      "y": 684,
+      "font_px": 38,
+      "style": "qrew_full_frame_lower_center"
+    },
+    {
+      "start": 9.88,
+      "end": 14,
+      "text": "퇴근시키려면,\n일을 끝내줘야겠네.",
+      "kind": "subtitle",
+      "pos": "bottom_center",
+      "x": 640,
+      "y": 684,
+      "font_px": 38,
+      "style": "qrew_full_frame_lower_center"
+    },
+    {
+      "start": 14.45,
+      "end": 20.45,
+      "text": "이 한 건만 확인하면 끝.",
+      "kind": "subtitle",
+      "pos": "bottom_center",
+      "x": 640,
+      "y": 684,
+      "font_px": 38,
+      "style": "qrew_full_frame_lower_center"
+    },
+    {
+      "start": 20.91,
+      "end": 23.47,
+      "text": "오늘 남은 일, 끝.",
+      "kind": "subtitle",
+      "pos": "bottom_center",
+      "x": 640,
+      "y": 684,
+      "font_px": 38,
+      "style": "qrew_full_frame_lower_center"
+    },
+    {
+      "start": 26,
+      "end": 28.1,
+      "text": "드디어, 내 시간.",
+      "kind": "subtitle",
+      "pos": "bottom_center",
+      "x": 640,
+      "y": 684,
+      "font_px": 38,
+      "style": "qrew_full_frame_lower_center"
+    },
+    {
+      "start": 29.75,
+      "end": 33,
+      "text": "방금 나간 사람,\n어떻게 내보냈어요?",
+      "kind": "subtitle",
+      "pos": "bottom_center",
+      "x": 640,
+      "y": 684,
+      "font_px": 38,
+      "style": "qrew_full_frame_lower_center"
+    },
+    {
+      "start": 34.5,
+      "end": 37.5,
+      "text": "질문은 Q-AI Fair에서.",
+      "kind": "subtitle",
+      "pos": "bottom_center",
+      "x": 640,
+      "y": 684,
+      "font_px": 38,
+      "style": "qrew_full_frame_lower_center"
+    },
+    {
+      "start": 44.0,
+      "end": 48.75,
+      "text": "Q-AI Fair\n직접 해본 방법을 함께 봐요.\n품질팀 AI 성과 교류회",
+      "kind": "endcard"
+    }
+  ],
+  "caption_style": {
+    "name": "QREW latest full-frame lower-center, adapted for lowest safe placement",
+    "resolution": [
+      1280,
+      720
+    ],
+    "full_frame_preserved": true,
+    "black_matte": false,
+    "font": "Pretendard SemiBold",
+    "font_size_px": 38,
+    "center_x": 640,
+    "one_line_baseline_y": 684,
+    "two_line_baselines_y": [
+      641,
+      684
+    ],
+    "stroke_width_px": 3,
+    "stroke_color": "#000000",
+    "text_color": "#FAFAFA",
+    "shadow_offset_px": [
+      0,
+      2
+    ],
+    "shadow_blur_px": 8,
+    "maximum_text_width_px": 1100,
+    "individual_background_box": false,
+    "maximum_lines": 2,
+    "ending_card_policy": "Keep existing full-frame event end cards; do not restyle them as dialogue.",
+    "source": "QREW latest Journey/Expert/Interrogation filmCaption, 57px at1080p; explicit user asks lower placement."
+  },
+  "source_sha256": {
+    "2026-10-23_C06-C05-flow-run01/C06_K01_take01.mp4": "bfb7d860769ed064a8be286bb5c60a386dc683aa8aba2ca05f6989e48e43bf0e",
+    "2026-10-24_C01-C06-repair110/C06_K02_impact_take01.mp4": "7a3d2712427485635cd1f53023c3ec2ce90eaddffdb18ddab4eec6f949642000",
+    "2026-10-23_C06-C05-flow-run01/C06_K02_take01.mp4": "3635af8794c84bcb1c5b6778a425528ac7b206bde551df19467913903a100f6e",
+    "2026-10-23_C06-C05-flow-run01/C06_K03_take01.mp4": "4b689cc220394420503946b340961baeed435344ef202511224cb82c96cd0cc9",
+    "2026-10-23_C06-C05-flow-run01/C06_K04_take01.mp4": "74fa1c8d32a1712809024312a8afd473e2867d49746ab740a742c10beb91573a",
+    "2026-10-23_C06-C05-flow-run03/C06_K04_check_take02.mp4": "f79419dab2d59a6d34f6fb2d750d0f3aa517766511cb46ebe628f70702a1e391",
+    "2026-10-23_C06-C05-flow-run02/C06_K05_take03.mp4": "bbb74edba29d002a2f2e19c3a7fb05d0db5b1a390400a715711d075e30795bcc",
+    "2026-10-23_C06-C05-flow-run01/C06_K06_take01.mp4": "75a8384ccf7dba84c1be725f1b0994de513c203e9d38f6c57fb077836280daa2",
+    "2026-10-23_C06-C05-flow-run01/C06_K07_take01.mp4": "3cc54acdcf7044b3463f792faf5d3e33641ccb10a71608074641ea3d809ecee4",
+    "2026-10-23_C06-C05-flow-run01/C06_K08_take01.mp4": "5892fe54842826bc9be524739e91cdca05e155406e5fb78316ca281d7da6afce",
+    "2026-10-23_C06-C05-flow-run01/C06_K09_take01.mp4": "ef7a2ccc51e4fd24ea8ce330ea1d53f09675622a92207ebab7c0df90906953e1",
+    "2026-10-23_C06-C05-flow-run03/C06_K09_reaction_take01.mp4": "29ecf77ceca124cb8daa322ea95f06e01f013e23d88d528245197b22ee8604c7"
+  },
+  "source_of_picture": "Original Flow MP4s with preserved scene UI; no baked-caption picture reused",
+  "original_files_unchanged": true,
+  "source_audio": "ALL EXCLUDED; new score owned by parent task",
+  "action_stills_inserted": false,
+  "flow_credits_used": 0,
+  "base_manifest": "2026-10-26_screening-style-v15\\C06\\edit_manifest.json",
+  "base_manifest_sha256": "4ffe03bb8656d4b5d24a85f429665a7d6e580ff4c06238895f09cf4ea7b6cc1e",
+  "ending": {
+    "file": "ending_art_v16.png",
+    "source": "2026-10-26_screening-style-v15\\C06\\ending_art_v15.png",
+    "sha256": "2491fd7ba6e63d54b6978fa05c2fa9c44878b0cccfb64c5f321cccf77d12a63f",
+    "start": 44.0,
+    "end": 48.75,
+    "live_action_background": false
+  },
+  "ui_provenance": {
+    "original_compositor": "2026-10-23_C05-C06-edit-v03\\render_films.py",
+    "original_sha256": "67cb025d63de05caad815b41cbef885ea932e9f8644e0416678a1f8a0c4068d9",
+    "isolated_copy": "ui_compositor.py",
+    "isolated_sha256": "367e50c71895e75303a58a5bb1ab9455e654ef23999a1359681c6f5eda396d3c",
+    "treatment": "UI function bodies retained; output paths isolated; no original import executed."
+  },
+  "picture_qa": {
+    "file": "C06_picture_v16.mp4",
+    "sha256": "c3b5916d82a62d833aefd7d64207ee84dafc8f08da968c0099464d797c6e32a3",
+    "bytes": 14090762,
+    "frames": 1170,
+    "duration_seconds": 48.75,
+    "fps": "24/1",
+    "resolution": [
+      1280,
+      720
+    ],
+    "audio_streams": 0,
+    "full_decode": "PASS",
+    "first_pts": 0.0,
+    "last_pts": 48.708333333333336,
+    "max_pts_step_error": 4.739264536368637e-15,
+    "actual_realtime_playback_verified": false,
+    "actual_listening_verified": false,
+    "extracted_review_frames": [
+      "review_frames\\000.000s.png",
+      "review_frames\\001.333s.png",
+      "review_frames\\003.500s.png",
+      "review_frames\\004.000s.png",
+      "review_frames\\004.958s.png",
+      "review_frames\\005.000s.png",
+      "review_frames\\005.500s.png",
+      "review_frames\\006.458s.png",
+      "review_frames\\006.500s.png",
+      "review_frames\\009.708s.png",
+      "review_frames\\009.750s.png",
+      "review_frames\\010.500s.png",
+      "review_frames\\011.958s.png",
+      "review_frames\\014.208s.png",
+      "review_frames\\014.250s.png",
+      "review_frames\\014.750s.png",
+      "review_frames\\017.208s.png",
+      "review_frames\\017.250s.png",
+      "review_frames\\017.458s.png",
+      "review_frames\\018.250s.png",
+      "review_frames\\019.250s.png",
+      "review_frames\\020.708s.png",
+      "review_frames\\020.750s.png",
+      "review_frames\\022.000s.png",
+      "review_frames\\022.208s.png",
+      "review_frames\\025.708s.png",
+      "review_frames\\025.750s.png",
+      "review_frames\\027.042s.png",
+      "review_frames\\028.708s.png",
+      "review_frames\\028.750s.png",
+      "review_frames\\030.500s.png",
+      "review_frames\\031.375s.png",
+      "review_frames\\033.208s.png",
+      "review_frames\\033.250s.png",
+      "review_frames\\034.000s.png",
+      "review_frames\\035.250s.png",
+      "review_frames\\036.000s.png",
+      "review_frames\\037.000s.png",
+      "review_frames\\037.708s.png",
+      "review_frames\\037.750s.png",
+      "review_frames\\039.250s.png",
+      "review_frames\\041.708s.png",
+      "review_frames\\041.750s.png",
+      "review_frames\\042.500s.png",
+      "review_frames\\043.958s.png",
+      "review_frames\\044.000s.png",
+      "review_frames\\046.375s.png",
+      "review_frames\\048.708s.png"
+    ],
+    "contact_sheets": [
+      "contact_sheet_01.jpg",
+      "contact_sheet_02.jpg",
+      "contact_sheet_03.jpg"
+    ],
+    "visual_review": "EXTRACTED_PENDING_ACTUAL_OPEN"
+  },
+  "status": "PICTURE_COMPLETE_AUDIO_PENDING",
+  "actual_realtime_playback_verified": false,
+  "actual_continuous_playback_verified": false,
+  "actual_listening_verified": false,
+  "limitations": [
+    "Only first desk contact used; second hit excluded",
+    "Paper bounce and desk vibration are not verified",
+    "Held sheet changes at join to sorting: short time ellipsis, not a seamless physical match",
+    "V15 is not realtime playback or actual listening certified; numerical tests and inspected frame samples only."
+  ],
+  "revision_scope": "Editorial captions moved to lower center; same latest approved motion timing, source trims, UI and endings."
+}

@@ -1,0 +1,19 @@
+{
+  "film": "C05",
+  "reviewer": "v16_render_b",
+  "scope": "Actual opening of encoded picture contact sheets and full-resolution extracted PNG; not realtime playback or listening",
+  "opened": ["contact_sheet_01.jpg", "contact_sheet_02.jpg", "contact_sheet_03.jpg", "review_frames/027.500s.png"],
+  "status": "CHANGED_CAPTION_AND_EDL_BOUNDARY_SAMPLE_PASS",
+  "findings": [
+    "Editorial captions are centered near the bottom, white with black outline/shadow, with no box or matte. Full original composition remains visible.",
+    "Caption at 27.5 seconds remains readable over bright reflective ground and does not cover the monster's face or hands.",
+    "Worker jack insert remains 21.75–23.25 seconds; the original approved front support follows without rejected N05–N08 shots.",
+    "41.75-second ending retains the V15 event panel over actual changing source frames through the final frame."
+  ],
+  "unchanged_limitations": [
+    "The existing dark-sky to bright-front-shot lighting transition and temporal ellipsis remain. This restyle does not establish a newly continuous outward turn or hand transfer.",
+    "Only selected encoded frames were visually inspected. No claim of realtime continuous playback or actual audio listening."
+  ],
+  "actual_realtime_playback_verified": false,
+  "actual_listening_verified": false
+}

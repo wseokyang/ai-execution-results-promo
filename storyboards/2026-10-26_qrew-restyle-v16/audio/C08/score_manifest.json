@@ -1,0 +1,3463 @@
+{
+  "concept_id": "C08",
+  "duration_seconds": 53,
+  "description": "104 BPM practical office music; first heroic120 BPM brass arrives at15.5s, dies at23.1s, then104 BPM manual repair groove.",
+  "scope": "new music for existing video",
+  "original_new_composition": true,
+  "source_music_reused": false,
+  "voice_or_lyrics": false,
+  "dsp_basis": "See ../../dsp_provenance.json; instrument functions only.",
+  "cues": [
+    {
+      "start": 0,
+      "end": 15.5,
+      "description": "Practical office score, no hero brass while AI template and human check are shown."
+    },
+    {
+      "start": 15.5,
+      "end": 23.1,
+      "description": "First heroic brass at actual entrance, serious cinematic gesture held through landing."
+    },
+    {
+      "start": 23.1,
+      "end": 26.75,
+      "description": "Already finished caption: complete heroic music and reverb stop."
+    },
+    {
+      "start": 26.75,
+      "end": 48,
+      "description": "Manual repair groove; level-check caption37.75 receives a second dry stop."
+    },
+    {
+      "start": 48,
+      "end": 53,
+      "description": "Office theme resolves, not a second heroic fanfare."
+    }
+  ],
+  "events": [
+    {
+      "instrument": "drone",
+      "start": 0.0,
+      "duration": 2.75,
+      "pitch": 45,
+      "gain": 0.05196152422706632,
+      "pan": -0.48,
+      "reverb_send": 0.45,
+      "role": "music"
+    },
+    {
+      "instrument": "drone",
+      "start": 0.0,
+      "duration": 2.75,
+      "pitch": 52,
+      "gain": 0.05196152422706632,
+      "pan": 0.0,
+      "reverb_send": 0.45,
+      "role": "music"
+    },
+    {
+      "instrument": "drone",
+      "start": 0.0,
+      "duration": 2.75,
+      "pitch": 59,
+      "gain": 0.05196152422706632,
+      "pan": 0.48,
+      "reverb_send": 0.45,
+      "role": "music"
+    },
+    {
+      "instrument": "bass",
+      "start": 2.75,
+      "duration": 0.32,
+      "pitch": 45,
+      "gain": 0.108,
+      "pan": 0,
+      "reverb_send": 0.035,
+      "role": "music"
+    },
+    {
+      "instrument": "bass",
+      "start": 3.47115,
+      "duration": 0.22,
+      "pitch": 52,
+      "gain": 0.108,
+      "pan": 0,
+      "reverb_send": 0.035,
+      "role": "music"
+    },
+    {
+      "instrument": "bass",
+      "start": 4.19231,
+      "duration": 0.3,
+      "pitch": 49,
+      "gain": 0.108,
+      "pan": 0,
+      "reverb_send": 0.035,
+      "role": "music"
+    },
+    {
+      "instrument": "bass",
+      "start": 4.76923,
+      "duration": 0.18,
+      "pitch": 47,
+      "gain": 0.108,
+      "pan": 0,
+      "reverb_send": 0.035,
+      "role": "music"
+    },
+    {
+      "instrument": "kick",
+      "start": 2.75,
+      "duration": 0.22,
+      "pitch": 60,
+      "gain": 0.108,
+      "pan": 0,
+      "reverb_send": 0.01,
+      "role": "music"
+    },
+    {
+      "instrument": "kick",
+      "start": 3.90385,
+      "duration": 0.22,
+      "pitch": 60,
+      "gain": 0.108,
+      "pan": 0,
+      "reverb_send": 0.01,
+      "role": "music"
+    },
+    {
+      "instrument": "rim",
+      "start": 3.32692,
+      "duration": 0.13,
+      "pitch": 60,
+      "gain": 0.054,
+      "pan": -0.12,
+      "reverb_send": 0.025,
+      "role": "music"
+    },
+    {
+      "instrument": "rim",
+      "start": 4.48077,
+      "duration": 0.13,
+      "pitch": 60,
+      "gain": 0.054,
+      "pan": -0.12,
+      "reverb_send": 0.025,
+      "role": "music"
+    },
+    {
+      "instrument": "ep",
+      "start": 3.18269,
+      "duration": 0.32,
+      "pitch": 64,
+      "gain": 0.03377499074759311,
+      "pan": -0.48,
+      "reverb_send": 0.12,
+      "role": "music"
+    },
+    {
+      "instrument": "ep",
+      "start": 3.18269,
+      "duration": 0.32,
+      "pitch": 72,
+      "gain": 0.03377499074759311,
+      "pan": 0.0,
+      "reverb_send": 0.12,
+      "role": "music"
+    },
+    {
+      "instrument": "ep",
+      "start": 3.18269,
+      "duration": 0.32,
+      "pitch": 76,
+      "gain": 0.03377499074759311,
+      "pan": 0.48,
+      "reverb_send": 0.12,
+      "role": "music"
+    },
+    {
+      "instrument": "ep",
+      "start": 4.33654,
+      "duration": 0.32,
+      "pitch": 64,
+      "gain": 0.03377499074759311,
+      "pan": -0.48,
+      "reverb_send": 0.12,
+      "role": "music"
+    },
+    {
+      "instrument": "ep",
+      "start": 4.33654,
+      "duration": 0.32,
+      "pitch": 72,
+      "gain": 0.03377499074759311,
+      "pan": 0.0,
+      "reverb_send": 0.12,
+      "role": "music"
+    },
+    {
+      "instrument": "ep",
+      "start": 4.33654,
+      "duration": 0.32,
+      "pitch": 76,
+      "gain": 0.03377499074759311,
+      "pan": 0.48,
+      "reverb_send": 0.12,
+      "role": "music"
+    },
+    {
+      "instrument": "bass",
+      "start": 5.05769,
+      "duration": 0.32,
+      "pitch": 41,
+      "gain": 0.108,
+      "pan": 0,
+      "reverb_send": 0.035,
+      "role": "music"
+    },
+    {
+      "instrument": "bass",
+      "start": 5.77885,
+      "duration": 0.22,
+      "pitch": 48,
+      "gain": 0.108,
+      "pan": 0,
+      "reverb_send": 0.035,
+      "role": "music"
+    },
+    {
+      "instrument": "bass",
+      "start": 6.5,
+      "duration": 0.25,
+      "pitch": 45,
+      "gain": 0.108,
+      "pan": 0,
+      "reverb_send": 0.035,
+      "role": "music"
+    },
+    {
+      "instrument": "kick",
+      "start": 5.05769,
+      "duration": 0.22,
+      "pitch": 60,
+      "gain": 0.108,
+      "pan": 0,
+      "reverb_send": 0.01,
+      "role": "music"
+    },
+    {
+      "instrument": "kick",
+      "start": 6.21154,
+      "duration": 0.22,
+      "pitch": 60,
+      "gain": 0.108,
+      "pan": 0,
+      "reverb_send": 0.01,
+      "role": "music"
+    },
+    {
+      "instrument": "rim",
+      "start": 5.63462,
+      "duration": 0.13,
+      "pitch": 60,
+      "gain": 0.054,
+      "pan": -0.12,
+      "reverb_send": 0.025,
+      "role": "music"
+    },
+    {
+      "instrument": "ep",
+      "start": 5.92308,
+      "duration": 0.32,
+      "pitch": 60,
+      "gain": 0.03377499074759311,
+      "pan": -0.48,
+      "reverb_send": 0.12,
+      "role": "music"
+    },
+    {
+      "instrument": "ep",
+      "start": 5.92308,
+      "duration": 0.32,
+      "pitch": 69,
+      "gain": 0.03377499074759311,
+      "pan": 0.0,
+      "reverb_send": 0.12,
+      "role": "music"
+    },
+    {
+      "instrument": "ep",
+      "start": 5.92308,
+      "duration": 0.32,
+      "pitch": 72,
+      "gain": 0.03377499074759311,
+      "pan": 0.48,
+      "reverb_send": 0.12,
+      "role": "music"
+    },
+    {
+      "instrument": "bass",
+      "start": 6.75,
+      "duration": 0.32,
+      "pitch": 45,
+      "gain": 0.16799999999999998,
+      "pan": 0,
+      "reverb_send": 0.035,
+      "role": "music"
+    },
+    {
+      "instrument": "bass",
+      "start": 7.47115,
+      "duration": 0.22,
+      "pitch": 52,
+      "gain": 0.16799999999999998,
+      "pan": 0,
+      "reverb_send": 0.035,
+      "role": "music"
+    },
+    {
+      "instrument": "bass",
+      "start": 8.19231,
+      "duration": 0.3,
+      "pitch": 49,
+      "gain": 0.16799999999999998,
+      "pan": 0,
+      "reverb_send": 0.035,
+      "role": "music"
+    },
+    {
+      "instrument": "bass",
+      "start": 8.76923,
+      "duration": 0.18,
+      "pitch": 47,
+      "gain": 0.16799999999999998,
+      "pan": 0,
+      "reverb_send": 0.035,
+      "role": "music"
+    },
+    {
+      "instrument": "kick",
+      "start": 6.75,
+      "duration": 0.22,
+      "pitch": 60,
+      "gain": 0.16799999999999998,
+      "pan": 0,
+      "reverb_send": 0.01,
+      "role": "music"
+    },
+    {
+      "instrument": "kick",
+      "start": 7.90385,
+      "duration": 0.22,
+      "pitch": 60,
+      "gain": 0.16799999999999998,
+      "pan": 0,
+      "reverb_send": 0.01,
+      "role": "music"
+    },
+    {
+      "instrument": "rim",
+      "start": 7.32692,
+      "duration": 0.13,
+      "pitch": 60,
+      "gain": 0.08399999999999999,
+      "pan": -0.12,
+      "reverb_send": 0.025,
+      "role": "music"
+    },
+    {
+      "instrument": "rim",
+      "start": 8.48077,
+      "duration": 0.13,
+      "pitch": 60,
+      "gain": 0.08399999999999999,
+      "pan": -0.12,
+      "reverb_send": 0.025,
+      "role": "music"
+    },
+    {
+      "instrument": "hat",
+      "start": 6.75,
+      "duration": 0.065,
+      "pitch": 60,
+      "gain": 0.0294,
+      "pan": 0.35,
+      "reverb_send": 0,
+      "role": "music"
+    },
+    {
+      "instrument": "hat",
+      "start": 7.03846,
+      "duration": 0.065,
+      "pitch": 60,
+      "gain": 0.0196,
+      "pan": 0.35,
+      "reverb_send": 0,
+      "role": "music"
+    },
+    {
+      "instrument": "hat",
+      "start": 7.32692,
+      "duration": 0.065,
+      "pitch": 60,
+      "gain": 0.0294,
+      "pan": 0.35,
+      "reverb_send": 0,
+      "role": "music"
+    },
+    {
+      "instrument": "hat",
+      "start": 7.61538,
+      "duration": 0.065,
+      "pitch": 60,
+      "gain": 0.0196,
+      "pan": 0.35,
+      "reverb_send": 0,
+      "role": "music"
+    },
+    {
+      "instrument": "hat",
+      "start": 7.90385,
+      "duration": 0.065,
+      "pitch": 60,
+      "gain": 0.0294,
+      "pan": 0.35,
+      "reverb_send": 0,
+      "role": "music"
+    },
+    {
+      "instrument": "hat",
+      "start": 8.19231,
+      "duration": 0.065,
+      "pitch": 60,
+      "gain": 0.0196,
+      "pan": 0.35,
+      "reverb_send": 0,
+      "role": "music"
+    },
+    {
+      "instrument": "hat",
+      "start": 8.48077,
+      "duration": 0.065,
+      "pitch": 60,
+      "gain": 0.0294,
+      "pan": 0.35,
+      "reverb_send": 0,
+      "role": "music"
+    },
+    {
+      "instrument": "hat",
+      "start": 8.76923,
+      "duration": 0.065,
+      "pitch": 60,
+      "gain": 0.0196,
+      "pan": 0.35,
+      "reverb_send": 0,
+      "role": "music"
+    },
+    {
+      "instrument": "ep",
+      "start": 7.18269,
+      "duration": 0.32,
+      "pitch": 64,
+      "gain": 0.052538874496255945,
+      "pan": -0.48,
+      "reverb_send": 0.12,
+      "role": "music"
+    },
+    {
+      "instrument": "ep",
+      "start": 7.18269,
+      "duration": 0.32,
+      "pitch": 72,
+      "gain": 0.052538874496255945,
+      "pan": 0.0,
+      "reverb_send": 0.12,
+      "role": "music"
+    },
+    {
+      "instrument": "ep",
+      "start": 7.18269,
+      "duration": 0.32,
+      "pitch": 76,
+      "gain": 0.052538874496255945,
+      "pan": 0.48,
+      "reverb_send": 0.12,
+      "role": "music"
+    },
+    {
+      "instrument": "ep",
+      "start": 8.33654,
+      "duration": 0.32,
+      "pitch": 64,
+      "gain": 0.052538874496255945,
+      "pan": -0.48,
+      "reverb_send": 0.12,
+      "role": "music"
+    },
+    {
+      "instrument": "ep",
+      "start": 8.33654,
+      "duration": 0.32,
+      "pitch": 72,
+      "gain": 0.052538874496255945,
+      "pan": 0.0,
+      "reverb_send": 0.12,
+      "role": "music"
+    },
+    {
+      "instrument": "ep",
+      "start": 8.33654,
+      "duration": 0.32,
+      "pitch": 76,
+      "gain": 0.052538874496255945,
+      "pan": 0.48,
+      "reverb_send": 0.12,
+      "role": "music"
+    },
+    {
+      "instrument": "ep",
+      "start": 7.32692,
+      "duration": 0.4,
+      "pitch": 69,
+      "gain": 0.091,
+      "pan": -0.25,
+      "reverb_send": 0.18,
+      "role": "music"
+    },
+    {
+      "instrument": "ep",
+      "start": 7.70192,
+      "duration": 0.4,
+      "pitch": 72,
+      "gain": 0.091,
+      "pan": 0.0,
+      "reverb_send": 0.18,
+      "role": "music"
+    },
+    {
+      "instrument": "ep",
+      "start": 8.07692,
+      "duration": 0.4,
+      "pitch": 76,
+      "gain": 0.091,
+      "pan": 0.25,
+      "reverb_send": 0.18,
+      "role": "music"
+    },
+    {
+      "instrument": "bass",
+      "start": 9.05769,
+      "duration": 0.32,
+      "pitch": 41,
+      "gain": 0.16799999999999998,
+      "pan": 0,
+      "reverb_send": 0.035,
+      "role": "music"
+    },
+    {
+      "instrument": "bass",
+      "start": 9.77885,
+      "duration": 0.22,
+      "pitch": 48,
+      "gain": 0.16799999999999998,
+      "pan": 0,
+      "reverb_send": 0.035,
+      "role": "music"
+    },
+    {
+      "instrument": "bass",
+      "start": 10.5,
+      "duration": 0.3,
+      "pitch": 45,
+      "gain": 0.16799999999999998,
+      "pan": 0,
+      "reverb_send": 0.035,
+      "role": "music"
+    },
+    {
+      "instrument": "bass",
+      "start": 11.07692,
+      "duration": 0.18,
+      "pitch": 43,
+      "gain": 0.16799999999999998,
+      "pan": 0,
+      "reverb_send": 0.035,
+      "role": "music"
+    },
+    {
+      "instrument": "kick",
+      "start": 9.05769,
+      "duration": 0.22,
+      "pitch": 60,
+      "gain": 0.16799999999999998,
+      "pan": 0,
+      "reverb_send": 0.01,
+      "role": "music"
+    },
+    {
+      "instrument": "kick",
+      "start": 10.21154,
+      "duration": 0.22,
+      "pitch": 60,
+      "gain": 0.16799999999999998,
+      "pan": 0,
+      "reverb_send": 0.01,
+      "role": "music"
+    },
+    {
+      "instrument": "rim",
+      "start": 9.63462,
+      "duration": 0.13,
+      "pitch": 60,
+      "gain": 0.08399999999999999,
+      "pan": -0.12,
+      "reverb_send": 0.025,
+      "role": "music"
+    },
+    {
+      "instrument": "rim",
+      "start": 10.78846,
+      "duration": 0.13,
+      "pitch": 60,
+      "gain": 0.08399999999999999,
+      "pan": -0.12,
+      "reverb_send": 0.025,
+      "role": "music"
+    },
+    {
+      "instrument": "hat",
+      "start": 9.05769,
+      "duration": 0.065,
+      "pitch": 60,
+      "gain": 0.0294,
+      "pan": 0.35,
+      "reverb_send": 0,
+      "role": "music"
+    },
+    {
+      "instrument": "hat",
+      "start": 9.34615,
+      "duration": 0.065,
+      "pitch": 60,
+      "gain": 0.0196,
+      "pan": 0.35,
+      "reverb_send": 0,
+      "role": "music"
+    },
+    {
+      "instrument": "hat",
+      "start": 9.63462,
+      "duration": 0.065,
+      "pitch": 60,
+      "gain": 0.0294,
+      "pan": 0.35,
+      "reverb_send": 0,
+      "role": "music"
+    },
+    {
+      "instrument": "hat",
+      "start": 9.92308,
+      "duration": 0.065,
+      "pitch": 60,
+      "gain": 0.0196,
+      "pan": 0.35,
+      "reverb_send": 0,
+      "role": "music"
+    },
+    {
+      "instrument": "hat",
+      "start": 10.21154,
+      "duration": 0.065,
+      "pitch": 60,
+      "gain": 0.0294,
+      "pan": 0.35,
+      "reverb_send": 0,
+      "role": "music"
+    },
+    {
+      "instrument": "hat",
+      "start": 10.5,
+      "duration": 0.065,
+      "pitch": 60,
+      "gain": 0.0196,
+      "pan": 0.35,
+      "reverb_send": 0,
+      "role": "music"
+    },
+    {
+      "instrument": "hat",
+      "start": 10.78846,
+      "duration": 0.065,
+      "pitch": 60,
+      "gain": 0.0294,
+      "pan": 0.35,
+      "reverb_send": 0,
+      "role": "music"
+    },
+    {
+      "instrument": "hat",
+      "start": 11.07692,
+      "duration": 0.065,
+      "pitch": 60,
+      "gain": 0.0196,
+      "pan": 0.35,
+      "reverb_send": 0,
+      "role": "music"
+    },
+    {
+      "instrument": "ep",
+      "start": 9.92308,
+      "duration": 0.32,
+      "pitch": 60,
+      "gain": 0.052538874496255945,
+      "pan": -0.48,
+      "reverb_send": 0.12,
+      "role": "music"
+    },
+    {
+      "instrument": "ep",
+      "start": 9.92308,
+      "duration": 0.32,
+      "pitch": 69,
+      "gain": 0.052538874496255945,
+      "pan": 0.0,
+      "reverb_send": 0.12,
+      "role": "music"
+    },
+    {
+      "instrument": "ep",
+      "start": 9.92308,
+      "duration": 0.32,
+      "pitch": 72,
+      "gain": 0.052538874496255945,
+      "pan": 0.48,
+      "reverb_send": 0.12,
+      "role": "music"
+    },
+    {
+      "instrument": "ep",
+      "start": 10.93269,
+      "duration": 0.32,
+      "pitch": 60,
+      "gain": 0.052538874496255945,
+      "pan": -0.48,
+      "reverb_send": 0.12,
+      "role": "music"
+    },
+    {
+      "instrument": "ep",
+      "start": 10.93269,
+      "duration": 0.32,
+      "pitch": 69,
+      "gain": 0.052538874496255945,
+      "pan": 0.0,
+      "reverb_send": 0.12,
+      "role": "music"
+    },
+    {
+      "instrument": "ep",
+      "start": 10.93269,
+      "duration": 0.32,
+      "pitch": 72,
+      "gain": 0.052538874496255945,
+      "pan": 0.48,
+      "reverb_send": 0.12,
+      "role": "music"
+    },
+    {
+      "instrument": "bass",
+      "start": 11.36538,
+      "duration": 0.32,
+      "pitch": 48,
+      "gain": 0.16799999999999998,
+      "pan": 0,
+      "reverb_send": 0.035,
+      "role": "music"
+    },
+    {
+      "instrument": "bass",
+      "start": 12.08654,
+      "duration": 0.22,
+      "pitch": 55,
+      "gain": 0.16799999999999998,
+      "pan": 0,
+      "reverb_send": 0.035,
+      "role": "music"
+    },
+    {
+      "instrument": "bass",
+      "start": 12.80769,
+      "duration": 0.3,
+      "pitch": 52,
+      "gain": 0.16799999999999998,
+      "pan": 0,
+      "reverb_send": 0.035,
+      "role": "music"
+    },
+    {
+      "instrument": "bass",
+      "start": 13.38462,
+      "duration": 0.18,
+      "pitch": 50,
+      "gain": 0.16799999999999998,
+      "pan": 0,
+      "reverb_send": 0.035,
+      "role": "music"
+    },
+    {
+      "instrument": "kick",
+      "start": 11.36538,
+      "duration": 0.22,
+      "pitch": 60,
+      "gain": 0.16799999999999998,
+      "pan": 0,
+      "reverb_send": 0.01,
+      "role": "music"
+    },
+    {
+      "instrument": "kick",
+      "start": 12.51923,
+      "duration": 0.22,
+      "pitch": 60,
+      "gain": 0.16799999999999998,
+      "pan": 0,
+      "reverb_send": 0.01,
+      "role": "music"
+    },
+    {
+      "instrument": "rim",
+      "start": 11.94231,
+      "duration": 0.13,
+      "pitch": 60,
+      "gain": 0.08399999999999999,
+      "pan": -0.12,
+      "reverb_send": 0.025,
+      "role": "music"
+    },
+    {
+      "instrument": "rim",
+      "start": 13.09615,
+      "duration": 0.13,
+      "pitch": 60,
+      "gain": 0.08399999999999999,
+      "pan": -0.12,
+      "reverb_send": 0.025,
+      "role": "music"
+    },
+    {
+      "instrument": "hat",
+      "start": 11.36538,
+      "duration": 0.065,
+      "pitch": 60,
+      "gain": 0.0294,
+      "pan": 0.35,
+      "reverb_send": 0,
+      "role": "music"
+    },
+    {
+      "instrument": "hat",
+      "start": 11.65385,
+      "duration": 0.065,
+      "pitch": 60,
+      "gain": 0.0196,
+      "pan": 0.35,
+      "reverb_send": 0,
+      "role": "music"
+    },
+    {
+      "instrument": "hat",
+      "start": 11.94231,
+      "duration": 0.065,
+      "pitch": 60,
+      "gain": 0.0294,
+      "pan": 0.35,
+      "reverb_send": 0,
+      "role": "music"
+    },
+    {
+      "instrument": "hat",
+      "start": 12.23077,
+      "duration": 0.065,
+      "pitch": 60,
+      "gain": 0.0196,
+      "pan": 0.35,
+      "reverb_send": 0,
+      "role": "music"
+    },
+    {
+      "instrument": "hat",
+      "start": 12.51923,
+      "duration": 0.065,
+      "pitch": 60,
+      "gain": 0.0294,
+      "pan": 0.35,
+      "reverb_send": 0,
+      "role": "music"
+    },
+    {
+      "instrument": "hat",
+      "start": 12.80769,
+      "duration": 0.065,
+      "pitch": 60,
+      "gain": 0.0196,
+      "pan": 0.35,
+      "reverb_send": 0,
+      "role": "music"
+    },
+    {
+      "instrument": "hat",
+      "start": 13.09615,
+      "duration": 0.065,
+      "pitch": 60,
+      "gain": 0.0294,
+      "pan": 0.35,
+      "reverb_send": 0,
+      "role": "music"
+    },
+    {
+      "instrument": "hat",
+      "start": 13.38462,
+      "duration": 0.065,
+      "pitch": 60,
+      "gain": 0.0196,
+      "pan": 0.35,
+      "reverb_send": 0,
+      "role": "music"
+    },
+    {
+      "instrument": "ep",
+      "start": 11.79808,
+      "duration": 0.32,
+      "pitch": 67,
+      "gain": 0.052538874496255945,
+      "pan": -0.48,
+      "reverb_send": 0.12,
+      "role": "music"
+    },
+    {
+      "instrument": "ep",
+      "start": 11.79808,
+      "duration": 0.32,
+      "pitch": 72,
+      "gain": 0.052538874496255945,
+      "pan": 0.0,
+      "reverb_send": 0.12,
+      "role": "music"
+    },
+    {
+      "instrument": "ep",
+      "start": 11.79808,
+      "duration": 0.32,
+      "pitch": 76,
+      "gain": 0.052538874496255945,
+      "pan": 0.48,
+      "reverb_send": 0.12,
+      "role": "music"
+    },
+    {
+      "instrument": "ep",
+      "start": 12.95192,
+      "duration": 0.32,
+      "pitch": 67,
+      "gain": 0.052538874496255945,
+      "pan": -0.48,
+      "reverb_send": 0.12,
+      "role": "music"
+    },
+    {
+      "instrument": "ep",
+      "start": 12.95192,
+      "duration": 0.32,
+      "pitch": 72,
+      "gain": 0.052538874496255945,
+      "pan": 0.0,
+      "reverb_send": 0.12,
+      "role": "music"
+    },
+    {
+      "instrument": "ep",
+      "start": 12.95192,
+      "duration": 0.32,
+      "pitch": 76,
+      "gain": 0.052538874496255945,
+      "pan": 0.48,
+      "reverb_send": 0.12,
+      "role": "music"
+    },
+    {
+      "instrument": "ep",
+      "start": 11.94231,
+      "duration": 0.4,
+      "pitch": 69,
+      "gain": 0.091,
+      "pan": -0.25,
+      "reverb_send": 0.18,
+      "role": "music"
+    },
+    {
+      "instrument": "ep",
+      "start": 12.31731,
+      "duration": 0.4,
+      "pitch": 72,
+      "gain": 0.091,
+      "pan": 0.0,
+      "reverb_send": 0.18,
+      "role": "music"
+    },
+    {
+      "instrument": "ep",
+      "start": 12.69231,
+      "duration": 0.4,
+      "pitch": 76,
+      "gain": 0.091,
+      "pan": 0.25,
+      "reverb_send": 0.18,
+      "role": "music"
+    },
+    {
+      "instrument": "bass",
+      "start": 13.67308,
+      "duration": 0.32,
+      "pitch": 43,
+      "gain": 0.16799999999999998,
+      "pan": 0,
+      "reverb_send": 0.035,
+      "role": "music"
+    },
+    {
+      "instrument": "bass",
+      "start": 14.39423,
+      "duration": 0.22,
+      "pitch": 50,
+      "gain": 0.16799999999999998,
+      "pan": 0,
+      "reverb_send": 0.035,
+      "role": "music"
+    },
+    {
+      "instrument": "bass",
+      "start": 15.11538,
+      "duration": 0.3,
+      "pitch": 47,
+      "gain": 0.16799999999999998,
+      "pan": 0,
+      "reverb_send": 0.035,
+      "role": "music"
+    },
+    {
+      "instrument": "kick",
+      "start": 13.67308,
+      "duration": 0.22,
+      "pitch": 60,
+      "gain": 0.16799999999999998,
+      "pan": 0,
+      "reverb_send": 0.01,
+      "role": "music"
+    },
+    {
+      "instrument": "kick",
+      "start": 14.82692,
+      "duration": 0.22,
+      "pitch": 60,
+      "gain": 0.16799999999999998,
+      "pan": 0,
+      "reverb_send": 0.01,
+      "role": "music"
+    },
+    {
+      "instrument": "rim",
+      "start": 14.25,
+      "duration": 0.13,
+      "pitch": 60,
+      "gain": 0.08399999999999999,
+      "pan": -0.12,
+      "reverb_send": 0.025,
+      "role": "music"
+    },
+    {
+      "instrument": "rim",
+      "start": 15.40385,
+      "duration": 0.09615,
+      "pitch": 60,
+      "gain": 0.08399999999999999,
+      "pan": -0.12,
+      "reverb_send": 0.025,
+      "role": "music"
+    },
+    {
+      "instrument": "hat",
+      "start": 13.67308,
+      "duration": 0.065,
+      "pitch": 60,
+      "gain": 0.0294,
+      "pan": 0.35,
+      "reverb_send": 0,
+      "role": "music"
+    },
+    {
+      "instrument": "hat",
+      "start": 13.96154,
+      "duration": 0.065,
+      "pitch": 60,
+      "gain": 0.0196,
+      "pan": 0.35,
+      "reverb_send": 0,
+      "role": "music"
+    },
+    {
+      "instrument": "hat",
+      "start": 14.25,
+      "duration": 0.065,
+      "pitch": 60,
+      "gain": 0.0294,
+      "pan": 0.35,
+      "reverb_send": 0,
+      "role": "music"
+    },
+    {
+      "instrument": "hat",
+      "start": 14.53846,
+      "duration": 0.065,
+      "pitch": 60,
+      "gain": 0.0196,
+      "pan": 0.35,
+      "reverb_send": 0,
+      "role": "music"
+    },
+    {
+      "instrument": "hat",
+      "start": 14.82692,
+      "duration": 0.065,
+      "pitch": 60,
+      "gain": 0.0294,
+      "pan": 0.35,
+      "reverb_send": 0,
+      "role": "music"
+    },
+    {
+      "instrument": "hat",
+      "start": 15.11538,
+      "duration": 0.065,
+      "pitch": 60,
+      "gain": 0.0196,
+      "pan": 0.35,
+      "reverb_send": 0,
+      "role": "music"
+    },
+    {
+      "instrument": "hat",
+      "start": 15.40385,
+      "duration": 0.065,
+      "pitch": 60,
+      "gain": 0.0294,
+      "pan": 0.35,
+      "reverb_send": 0,
+      "role": "music"
+    },
+    {
+      "instrument": "ep",
+      "start": 14.53846,
+      "duration": 0.32,
+      "pitch": 62,
+      "gain": 0.052538874496255945,
+      "pan": -0.48,
+      "reverb_send": 0.12,
+      "role": "music"
+    },
+    {
+      "instrument": "ep",
+      "start": 14.53846,
+      "duration": 0.32,
+      "pitch": 71,
+      "gain": 0.052538874496255945,
+      "pan": 0.0,
+      "reverb_send": 0.12,
+      "role": "music"
+    },
+    {
+      "instrument": "ep",
+      "start": 14.53846,
+      "duration": 0.32,
+      "pitch": 74,
+      "gain": 0.052538874496255945,
+      "pan": 0.48,
+      "reverb_send": 0.12,
+      "role": "music"
+    },
+    {
+      "instrument": "strings",
+      "start": 15.5,
+      "duration": 3.92,
+      "pitch": 38,
+      "gain": 0.15,
+      "pan": -0.48,
+      "reverb_send": 0.45,
+      "role": "music"
+    },
+    {
+      "instrument": "strings",
+      "start": 15.5,
+      "duration": 3.92,
+      "pitch": 45,
+      "gain": 0.15,
+      "pan": -0.15999999999999998,
+      "reverb_send": 0.45,
+      "role": "music"
+    },
+    {
+      "instrument": "strings",
+      "start": 15.5,
+      "duration": 3.92,
+      "pitch": 54,
+      "gain": 0.15,
+      "pan": 0.16000000000000003,
+      "reverb_send": 0.45,
+      "role": "music"
+    },
+    {
+      "instrument": "strings",
+      "start": 15.5,
+      "duration": 3.92,
+      "pitch": 57,
+      "gain": 0.15,
+      "pan": 0.48,
+      "reverb_send": 0.45,
+      "role": "music"
+    },
+    {
+      "instrument": "strings",
+      "start": 19.3,
+      "duration": 3.8,
+      "pitch": 43,
+      "gain": 0.15,
+      "pan": -0.48,
+      "reverb_send": 0.45,
+      "role": "music"
+    },
+    {
+      "instrument": "strings",
+      "start": 19.3,
+      "duration": 3.8,
+      "pitch": 50,
+      "gain": 0.15,
+      "pan": -0.15999999999999998,
+      "reverb_send": 0.45,
+      "role": "music"
+    },
+    {
+      "instrument": "strings",
+      "start": 19.3,
+      "duration": 3.8,
+      "pitch": 59,
+      "gain": 0.15,
+      "pan": 0.16000000000000003,
+      "reverb_send": 0.45,
+      "role": "music"
+    },
+    {
+      "instrument": "strings",
+      "start": 19.3,
+      "duration": 3.8,
+      "pitch": 62,
+      "gain": 0.15,
+      "pan": 0.48,
+      "reverb_send": 0.45,
+      "role": "music"
+    },
+    {
+      "instrument": "brass",
+      "start": 15.5,
+      "duration": 0.7,
+      "pitch": [
+        62,
+        66,
+        69
+      ],
+      "gain": 0.38,
+      "pan": 0,
+      "reverb_send": 0.4,
+      "role": "music"
+    },
+    {
+      "instrument": "kick",
+      "start": 15.5,
+      "duration": 0.25,
+      "pitch": 60,
+      "gain": 0.4,
+      "pan": 0,
+      "reverb_send": 0.1,
+      "role": "music"
+    },
+    {
+      "instrument": "brass",
+      "start": 16.5,
+      "duration": 0.7,
+      "pitch": [
+        64,
+        67,
+        71
+      ],
+      "gain": 0.38,
+      "pan": 0,
+      "reverb_send": 0.4,
+      "role": "music"
+    },
+    {
+      "instrument": "kick",
+      "start": 16.5,
+      "duration": 0.25,
+      "pitch": 60,
+      "gain": 0.4,
+      "pan": 0,
+      "reverb_send": 0.1,
+      "role": "music"
+    },
+    {
+      "instrument": "brass",
+      "start": 17.75,
+      "duration": 0.7,
+      "pitch": [
+        66,
+        69,
+        74
+      ],
+      "gain": 0.38,
+      "pan": 0,
+      "reverb_send": 0.4,
+      "role": "music"
+    },
+    {
+      "instrument": "kick",
+      "start": 17.75,
+      "duration": 0.25,
+      "pitch": 60,
+      "gain": 0.4,
+      "pan": 0,
+      "reverb_send": 0.1,
+      "role": "music"
+    },
+    {
+      "instrument": "brass",
+      "start": 19.0,
+      "duration": 0.7,
+      "pitch": [
+        62,
+        66,
+        69
+      ],
+      "gain": 0.38,
+      "pan": 0,
+      "reverb_send": 0.4,
+      "role": "music"
+    },
+    {
+      "instrument": "kick",
+      "start": 19.0,
+      "duration": 0.25,
+      "pitch": 60,
+      "gain": 0.4,
+      "pan": 0,
+      "reverb_send": 0.1,
+      "role": "music"
+    },
+    {
+      "instrument": "brass",
+      "start": 20.75,
+      "duration": 0.7,
+      "pitch": [
+        64,
+        67,
+        71
+      ],
+      "gain": 0.38,
+      "pan": 0,
+      "reverb_send": 0.4,
+      "role": "music"
+    },
+    {
+      "instrument": "kick",
+      "start": 20.75,
+      "duration": 0.25,
+      "pitch": 60,
+      "gain": 0.4,
+      "pan": 0,
+      "reverb_send": 0.1,
+      "role": "music"
+    },
+    {
+      "instrument": "brass",
+      "start": 22.0,
+      "duration": 0.7,
+      "pitch": [
+        66,
+        69,
+        74
+      ],
+      "gain": 0.38,
+      "pan": 0,
+      "reverb_send": 0.4,
+      "role": "music"
+    },
+    {
+      "instrument": "kick",
+      "start": 22.0,
+      "duration": 0.25,
+      "pitch": 60,
+      "gain": 0.4,
+      "pan": 0,
+      "reverb_send": 0.1,
+      "role": "music"
+    },
+    {
+      "instrument": "bass",
+      "start": 26.75,
+      "duration": 0.25,
+      "pitch": 45,
+      "gain": 0.18,
+      "pan": 0,
+      "reverb_send": 0.035,
+      "role": "music"
+    },
+    {
+      "instrument": "bass",
+      "start": 27.18269,
+      "duration": 0.16,
+      "pitch": 52,
+      "gain": 0.18,
+      "pan": 0,
+      "reverb_send": 0.035,
+      "role": "music"
+    },
+    {
+      "instrument": "bass",
+      "start": 27.90385,
+      "duration": 0.22,
+      "pitch": 48,
+      "gain": 0.18,
+      "pan": 0,
+      "reverb_send": 0.035,
+      "role": "music"
+    },
+    {
+      "instrument": "bass",
+      "start": 28.76923,
+      "duration": 0.18,
+      "pitch": 52,
+      "gain": 0.18,
+      "pan": 0,
+      "reverb_send": 0.035,
+      "role": "music"
+    },
+    {
+      "instrument": "kick",
+      "start": 26.75,
+      "duration": 0.22,
+      "pitch": 60,
+      "gain": 0.18,
+      "pan": 0,
+      "reverb_send": 0.01,
+      "role": "music"
+    },
+    {
+      "instrument": "kick",
+      "start": 28.19231,
+      "duration": 0.22,
+      "pitch": 60,
+      "gain": 0.18,
+      "pan": 0,
+      "reverb_send": 0.01,
+      "role": "music"
+    },
+    {
+      "instrument": "rim",
+      "start": 27.32692,
+      "duration": 0.13,
+      "pitch": 60,
+      "gain": 0.09,
+      "pan": -0.12,
+      "reverb_send": 0.025,
+      "role": "music"
+    },
+    {
+      "instrument": "rim",
+      "start": 28.48077,
+      "duration": 0.13,
+      "pitch": 60,
+      "gain": 0.09,
+      "pan": -0.12,
+      "reverb_send": 0.025,
+      "role": "music"
+    },
+    {
+      "instrument": "hat",
+      "start": 26.75,
+      "duration": 0.065,
+      "pitch": 60,
+      "gain": 0.0315,
+      "pan": 0.35,
+      "reverb_send": 0,
+      "role": "music"
+    },
+    {
+      "instrument": "hat",
+      "start": 27.03846,
+      "duration": 0.065,
+      "pitch": 60,
+      "gain": 0.021,
+      "pan": 0.35,
+      "reverb_send": 0,
+      "role": "music"
+    },
+    {
+      "instrument": "hat",
+      "start": 27.32692,
+      "duration": 0.065,
+      "pitch": 60,
+      "gain": 0.0315,
+      "pan": 0.35,
+      "reverb_send": 0,
+      "role": "music"
+    },
+    {
+      "instrument": "hat",
+      "start": 27.61538,
+      "duration": 0.065,
+      "pitch": 60,
+      "gain": 0.021,
+      "pan": 0.35,
+      "reverb_send": 0,
+      "role": "music"
+    },
+    {
+      "instrument": "hat",
+      "start": 27.90385,
+      "duration": 0.065,
+      "pitch": 60,
+      "gain": 0.0315,
+      "pan": 0.35,
+      "reverb_send": 0,
+      "role": "music"
+    },
+    {
+      "instrument": "hat",
+      "start": 28.19231,
+      "duration": 0.065,
+      "pitch": 60,
+      "gain": 0.021,
+      "pan": 0.35,
+      "reverb_send": 0,
+      "role": "music"
+    },
+    {
+      "instrument": "hat",
+      "start": 28.48077,
+      "duration": 0.065,
+      "pitch": 60,
+      "gain": 0.0315,
+      "pan": 0.35,
+      "reverb_send": 0,
+      "role": "music"
+    },
+    {
+      "instrument": "hat",
+      "start": 28.76923,
+      "duration": 0.065,
+      "pitch": 60,
+      "gain": 0.021,
+      "pan": 0.35,
+      "reverb_send": 0,
+      "role": "music"
+    },
+    {
+      "instrument": "clav",
+      "start": 27.18269,
+      "duration": 0.32,
+      "pitch": 64,
+      "gain": 0.05629165124598852,
+      "pan": -0.48,
+      "reverb_send": 0.12,
+      "role": "music"
+    },
+    {
+      "instrument": "clav",
+      "start": 27.18269,
+      "duration": 0.32,
+      "pitch": 72,
+      "gain": 0.05629165124598852,
+      "pan": 0.0,
+      "reverb_send": 0.12,
+      "role": "music"
+    },
+    {
+      "instrument": "clav",
+      "start": 27.18269,
+      "duration": 0.32,
+      "pitch": 76,
+      "gain": 0.05629165124598852,
+      "pan": 0.48,
+      "reverb_send": 0.12,
+      "role": "music"
+    },
+    {
+      "instrument": "clav",
+      "start": 28.33654,
+      "duration": 0.32,
+      "pitch": 64,
+      "gain": 0.05629165124598852,
+      "pan": -0.48,
+      "reverb_send": 0.12,
+      "role": "music"
+    },
+    {
+      "instrument": "clav",
+      "start": 28.33654,
+      "duration": 0.32,
+      "pitch": 72,
+      "gain": 0.05629165124598852,
+      "pan": 0.0,
+      "reverb_send": 0.12,
+      "role": "music"
+    },
+    {
+      "instrument": "clav",
+      "start": 28.33654,
+      "duration": 0.32,
+      "pitch": 76,
+      "gain": 0.05629165124598852,
+      "pan": 0.48,
+      "reverb_send": 0.12,
+      "role": "music"
+    },
+    {
+      "instrument": "bass",
+      "start": 29.05769,
+      "duration": 0.25,
+      "pitch": 41,
+      "gain": 0.18,
+      "pan": 0,
+      "reverb_send": 0.035,
+      "role": "music"
+    },
+    {
+      "instrument": "bass",
+      "start": 29.49038,
+      "duration": 0.16,
+      "pitch": 48,
+      "gain": 0.18,
+      "pan": 0,
+      "reverb_send": 0.035,
+      "role": "music"
+    },
+    {
+      "instrument": "bass",
+      "start": 30.21154,
+      "duration": 0.22,
+      "pitch": 44,
+      "gain": 0.18,
+      "pan": 0,
+      "reverb_send": 0.035,
+      "role": "music"
+    },
+    {
+      "instrument": "bass",
+      "start": 31.07692,
+      "duration": 0.18,
+      "pitch": 48,
+      "gain": 0.18,
+      "pan": 0,
+      "reverb_send": 0.035,
+      "role": "music"
+    },
+    {
+      "instrument": "kick",
+      "start": 29.05769,
+      "duration": 0.22,
+      "pitch": 60,
+      "gain": 0.18,
+      "pan": 0,
+      "reverb_send": 0.01,
+      "role": "music"
+    },
+    {
+      "instrument": "kick",
+      "start": 30.5,
+      "duration": 0.22,
+      "pitch": 60,
+      "gain": 0.18,
+      "pan": 0,
+      "reverb_send": 0.01,
+      "role": "music"
+    },
+    {
+      "instrument": "rim",
+      "start": 29.63462,
+      "duration": 0.13,
+      "pitch": 60,
+      "gain": 0.09,
+      "pan": -0.12,
+      "reverb_send": 0.025,
+      "role": "music"
+    },
+    {
+      "instrument": "rim",
+      "start": 30.78846,
+      "duration": 0.13,
+      "pitch": 60,
+      "gain": 0.09,
+      "pan": -0.12,
+      "reverb_send": 0.025,
+      "role": "music"
+    },
+    {
+      "instrument": "hat",
+      "start": 29.05769,
+      "duration": 0.065,
+      "pitch": 60,
+      "gain": 0.0315,
+      "pan": 0.35,
+      "reverb_send": 0,
+      "role": "music"
+    },
+    {
+      "instrument": "hat",
+      "start": 29.34615,
+      "duration": 0.065,
+      "pitch": 60,
+      "gain": 0.021,
+      "pan": 0.35,
+      "reverb_send": 0,
+      "role": "music"
+    },
+    {
+      "instrument": "hat",
+      "start": 29.63462,
+      "duration": 0.065,
+      "pitch": 60,
+      "gain": 0.0315,
+      "pan": 0.35,
+      "reverb_send": 0,
+      "role": "music"
+    },
+    {
+      "instrument": "hat",
+      "start": 29.92308,
+      "duration": 0.065,
+      "pitch": 60,
+      "gain": 0.021,
+      "pan": 0.35,
+      "reverb_send": 0,
+      "role": "music"
+    },
+    {
+      "instrument": "hat",
+      "start": 30.21154,
+      "duration": 0.065,
+      "pitch": 60,
+      "gain": 0.0315,
+      "pan": 0.35,
+      "reverb_send": 0,
+      "role": "music"
+    },
+    {
+      "instrument": "hat",
+      "start": 30.5,
+      "duration": 0.065,
+      "pitch": 60,
+      "gain": 0.021,
+      "pan": 0.35,
+      "reverb_send": 0,
+      "role": "music"
+    },
+    {
+      "instrument": "hat",
+      "start": 30.78846,
+      "duration": 0.065,
+      "pitch": 60,
+      "gain": 0.0315,
+      "pan": 0.35,
+      "reverb_send": 0,
+      "role": "music"
+    },
+    {
+      "instrument": "hat",
+      "start": 31.07692,
+      "duration": 0.065,
+      "pitch": 60,
+      "gain": 0.021,
+      "pan": 0.35,
+      "reverb_send": 0,
+      "role": "music"
+    },
+    {
+      "instrument": "clav",
+      "start": 29.92308,
+      "duration": 0.32,
+      "pitch": 60,
+      "gain": 0.05629165124598852,
+      "pan": -0.48,
+      "reverb_send": 0.12,
+      "role": "music"
+    },
+    {
+      "instrument": "clav",
+      "start": 29.92308,
+      "duration": 0.32,
+      "pitch": 69,
+      "gain": 0.05629165124598852,
+      "pan": 0.0,
+      "reverb_send": 0.12,
+      "role": "music"
+    },
+    {
+      "instrument": "clav",
+      "start": 29.92308,
+      "duration": 0.32,
+      "pitch": 72,
+      "gain": 0.05629165124598852,
+      "pan": 0.48,
+      "reverb_send": 0.12,
+      "role": "music"
+    },
+    {
+      "instrument": "clav",
+      "start": 30.93269,
+      "duration": 0.32,
+      "pitch": 60,
+      "gain": 0.05629165124598852,
+      "pan": -0.48,
+      "reverb_send": 0.12,
+      "role": "music"
+    },
+    {
+      "instrument": "clav",
+      "start": 30.93269,
+      "duration": 0.32,
+      "pitch": 69,
+      "gain": 0.05629165124598852,
+      "pan": 0.0,
+      "reverb_send": 0.12,
+      "role": "music"
+    },
+    {
+      "instrument": "clav",
+      "start": 30.93269,
+      "duration": 0.32,
+      "pitch": 72,
+      "gain": 0.05629165124598852,
+      "pan": 0.48,
+      "reverb_send": 0.12,
+      "role": "music"
+    },
+    {
+      "instrument": "bass",
+      "start": 31.36538,
+      "duration": 0.25,
+      "pitch": 48,
+      "gain": 0.18,
+      "pan": 0,
+      "reverb_send": 0.035,
+      "role": "music"
+    },
+    {
+      "instrument": "bass",
+      "start": 31.79808,
+      "duration": 0.16,
+      "pitch": 55,
+      "gain": 0.18,
+      "pan": 0,
+      "reverb_send": 0.035,
+      "role": "music"
+    },
+    {
+      "instrument": "bass",
+      "start": 32.51923,
+      "duration": 0.22,
+      "pitch": 51,
+      "gain": 0.18,
+      "pan": 0,
+      "reverb_send": 0.035,
+      "role": "music"
+    },
+    {
+      "instrument": "bass",
+      "start": 33.38462,
+      "duration": 0.18,
+      "pitch": 55,
+      "gain": 0.18,
+      "pan": 0,
+      "reverb_send": 0.035,
+      "role": "music"
+    },
+    {
+      "instrument": "kick",
+      "start": 31.36538,
+      "duration": 0.22,
+      "pitch": 60,
+      "gain": 0.18,
+      "pan": 0,
+      "reverb_send": 0.01,
+      "role": "music"
+    },
+    {
+      "instrument": "kick",
+      "start": 32.80769,
+      "duration": 0.22,
+      "pitch": 60,
+      "gain": 0.18,
+      "pan": 0,
+      "reverb_send": 0.01,
+      "role": "music"
+    },
+    {
+      "instrument": "rim",
+      "start": 31.94231,
+      "duration": 0.13,
+      "pitch": 60,
+      "gain": 0.09,
+      "pan": -0.12,
+      "reverb_send": 0.025,
+      "role": "music"
+    },
+    {
+      "instrument": "rim",
+      "start": 33.09615,
+      "duration": 0.13,
+      "pitch": 60,
+      "gain": 0.09,
+      "pan": -0.12,
+      "reverb_send": 0.025,
+      "role": "music"
+    },
+    {
+      "instrument": "hat",
+      "start": 31.36538,
+      "duration": 0.065,
+      "pitch": 60,
+      "gain": 0.0315,
+      "pan": 0.35,
+      "reverb_send": 0,
+      "role": "music"
+    },
+    {
+      "instrument": "hat",
+      "start": 31.65385,
+      "duration": 0.065,
+      "pitch": 60,
+      "gain": 0.021,
+      "pan": 0.35,
+      "reverb_send": 0,
+      "role": "music"
+    },
+    {
+      "instrument": "hat",
+      "start": 31.94231,
+      "duration": 0.065,
+      "pitch": 60,
+      "gain": 0.0315,
+      "pan": 0.35,
+      "reverb_send": 0,
+      "role": "music"
+    },
+    {
+      "instrument": "hat",
+      "start": 32.23077,
+      "duration": 0.065,
+      "pitch": 60,
+      "gain": 0.021,
+      "pan": 0.35,
+      "reverb_send": 0,
+      "role": "music"
+    },
+    {
+      "instrument": "hat",
+      "start": 32.51923,
+      "duration": 0.065,
+      "pitch": 60,
+      "gain": 0.0315,
+      "pan": 0.35,
+      "reverb_send": 0,
+      "role": "music"
+    },
+    {
+      "instrument": "hat",
+      "start": 32.80769,
+      "duration": 0.065,
+      "pitch": 60,
+      "gain": 0.021,
+      "pan": 0.35,
+      "reverb_send": 0,
+      "role": "music"
+    },
+    {
+      "instrument": "hat",
+      "start": 33.09615,
+      "duration": 0.065,
+      "pitch": 60,
+      "gain": 0.0315,
+      "pan": 0.35,
+      "reverb_send": 0,
+      "role": "music"
+    },
+    {
+      "instrument": "hat",
+      "start": 33.38462,
+      "duration": 0.065,
+      "pitch": 60,
+      "gain": 0.021,
+      "pan": 0.35,
+      "reverb_send": 0,
+      "role": "music"
+    },
+    {
+      "instrument": "clav",
+      "start": 31.79808,
+      "duration": 0.32,
+      "pitch": 67,
+      "gain": 0.05629165124598852,
+      "pan": -0.48,
+      "reverb_send": 0.12,
+      "role": "music"
+    },
+    {
+      "instrument": "clav",
+      "start": 31.79808,
+      "duration": 0.32,
+      "pitch": 72,
+      "gain": 0.05629165124598852,
+      "pan": 0.0,
+      "reverb_send": 0.12,
+      "role": "music"
+    },
+    {
+      "instrument": "clav",
+      "start": 31.79808,
+      "duration": 0.32,
+      "pitch": 76,
+      "gain": 0.05629165124598852,
+      "pan": 0.48,
+      "reverb_send": 0.12,
+      "role": "music"
+    },
+    {
+      "instrument": "clav",
+      "start": 32.95192,
+      "duration": 0.32,
+      "pitch": 67,
+      "gain": 0.05629165124598852,
+      "pan": -0.48,
+      "reverb_send": 0.12,
+      "role": "music"
+    },
+    {
+      "instrument": "clav",
+      "start": 32.95192,
+      "duration": 0.32,
+      "pitch": 72,
+      "gain": 0.05629165124598852,
+      "pan": 0.0,
+      "reverb_send": 0.12,
+      "role": "music"
+    },
+    {
+      "instrument": "clav",
+      "start": 32.95192,
+      "duration": 0.32,
+      "pitch": 76,
+      "gain": 0.05629165124598852,
+      "pan": 0.48,
+      "reverb_send": 0.12,
+      "role": "music"
+    },
+    {
+      "instrument": "bass",
+      "start": 33.67308,
+      "duration": 0.25,
+      "pitch": 43,
+      "gain": 0.18,
+      "pan": 0,
+      "reverb_send": 0.035,
+      "role": "music"
+    },
+    {
+      "instrument": "bass",
+      "start": 34.10577,
+      "duration": 0.16,
+      "pitch": 50,
+      "gain": 0.18,
+      "pan": 0,
+      "reverb_send": 0.035,
+      "role": "music"
+    },
+    {
+      "instrument": "bass",
+      "start": 34.82692,
+      "duration": 0.22,
+      "pitch": 46,
+      "gain": 0.18,
+      "pan": 0,
+      "reverb_send": 0.035,
+      "role": "music"
+    },
+    {
+      "instrument": "bass",
+      "start": 35.69231,
+      "duration": 0.18,
+      "pitch": 50,
+      "gain": 0.18,
+      "pan": 0,
+      "reverb_send": 0.035,
+      "role": "music"
+    },
+    {
+      "instrument": "kick",
+      "start": 33.67308,
+      "duration": 0.22,
+      "pitch": 60,
+      "gain": 0.18,
+      "pan": 0,
+      "reverb_send": 0.01,
+      "role": "music"
+    },
+    {
+      "instrument": "kick",
+      "start": 35.11538,
+      "duration": 0.22,
+      "pitch": 60,
+      "gain": 0.18,
+      "pan": 0,
+      "reverb_send": 0.01,
+      "role": "music"
+    },
+    {
+      "instrument": "rim",
+      "start": 34.25,
+      "duration": 0.13,
+      "pitch": 60,
+      "gain": 0.09,
+      "pan": -0.12,
+      "reverb_send": 0.025,
+      "role": "music"
+    },
+    {
+      "instrument": "rim",
+      "start": 35.40385,
+      "duration": 0.13,
+      "pitch": 60,
+      "gain": 0.09,
+      "pan": -0.12,
+      "reverb_send": 0.025,
+      "role": "music"
+    },
+    {
+      "instrument": "hat",
+      "start": 33.67308,
+      "duration": 0.065,
+      "pitch": 60,
+      "gain": 0.0315,
+      "pan": 0.35,
+      "reverb_send": 0,
+      "role": "music"
+    },
+    {
+      "instrument": "hat",
+      "start": 33.96154,
+      "duration": 0.065,
+      "pitch": 60,
+      "gain": 0.021,
+      "pan": 0.35,
+      "reverb_send": 0,
+      "role": "music"
+    },
+    {
+      "instrument": "hat",
+      "start": 34.25,
+      "duration": 0.065,
+      "pitch": 60,
+      "gain": 0.0315,
+      "pan": 0.35,
+      "reverb_send": 0,
+      "role": "music"
+    },
+    {
+      "instrument": "hat",
+      "start": 34.53846,
+      "duration": 0.065,
+      "pitch": 60,
+      "gain": 0.021,
+      "pan": 0.35,
+      "reverb_send": 0,
+      "role": "music"
+    },
+    {
+      "instrument": "hat",
+      "start": 34.82692,
+      "duration": 0.065,
+      "pitch": 60,
+      "gain": 0.0315,
+      "pan": 0.35,
+      "reverb_send": 0,
+      "role": "music"
+    },
+    {
+      "instrument": "hat",
+      "start": 35.11538,
+      "duration": 0.065,
+      "pitch": 60,
+      "gain": 0.021,
+      "pan": 0.35,
+      "reverb_send": 0,
+      "role": "music"
+    },
+    {
+      "instrument": "hat",
+      "start": 35.40385,
+      "duration": 0.065,
+      "pitch": 60,
+      "gain": 0.0315,
+      "pan": 0.35,
+      "reverb_send": 0,
+      "role": "music"
+    },
+    {
+      "instrument": "hat",
+      "start": 35.69231,
+      "duration": 0.065,
+      "pitch": 60,
+      "gain": 0.021,
+      "pan": 0.35,
+      "reverb_send": 0,
+      "role": "music"
+    },
+    {
+      "instrument": "clav",
+      "start": 34.53846,
+      "duration": 0.32,
+      "pitch": 62,
+      "gain": 0.05629165124598852,
+      "pan": -0.48,
+      "reverb_send": 0.12,
+      "role": "music"
+    },
+    {
+      "instrument": "clav",
+      "start": 34.53846,
+      "duration": 0.32,
+      "pitch": 71,
+      "gain": 0.05629165124598852,
+      "pan": 0.0,
+      "reverb_send": 0.12,
+      "role": "music"
+    },
+    {
+      "instrument": "clav",
+      "start": 34.53846,
+      "duration": 0.32,
+      "pitch": 74,
+      "gain": 0.05629165124598852,
+      "pan": 0.48,
+      "reverb_send": 0.12,
+      "role": "music"
+    },
+    {
+      "instrument": "clav",
+      "start": 35.54808,
+      "duration": 0.32,
+      "pitch": 62,
+      "gain": 0.05629165124598852,
+      "pan": -0.48,
+      "reverb_send": 0.12,
+      "role": "music"
+    },
+    {
+      "instrument": "clav",
+      "start": 35.54808,
+      "duration": 0.32,
+      "pitch": 71,
+      "gain": 0.05629165124598852,
+      "pan": 0.0,
+      "reverb_send": 0.12,
+      "role": "music"
+    },
+    {
+      "instrument": "clav",
+      "start": 35.54808,
+      "duration": 0.32,
+      "pitch": 74,
+      "gain": 0.05629165124598852,
+      "pan": 0.48,
+      "reverb_send": 0.12,
+      "role": "music"
+    },
+    {
+      "instrument": "bass",
+      "start": 35.98077,
+      "duration": 0.25,
+      "pitch": 45,
+      "gain": 0.18,
+      "pan": 0,
+      "reverb_send": 0.035,
+      "role": "music"
+    },
+    {
+      "instrument": "kick",
+      "start": 35.98077,
+      "duration": 0.22,
+      "pitch": 60,
+      "gain": 0.18,
+      "pan": 0,
+      "reverb_send": 0.01,
+      "role": "music"
+    },
+    {
+      "instrument": "hat",
+      "start": 35.98077,
+      "duration": 0.065,
+      "pitch": 60,
+      "gain": 0.0315,
+      "pan": 0.35,
+      "reverb_send": 0,
+      "role": "music"
+    },
+    {
+      "instrument": "bass",
+      "start": 36.25,
+      "duration": 0.25,
+      "pitch": 45,
+      "gain": 0.06720000000000001,
+      "pan": 0,
+      "reverb_send": 0.035,
+      "role": "music"
+    },
+    {
+      "instrument": "bass",
+      "start": 36.68269,
+      "duration": 0.16,
+      "pitch": 52,
+      "gain": 0.06720000000000001,
+      "pan": 0,
+      "reverb_send": 0.035,
+      "role": "music"
+    },
+    {
+      "instrument": "bass",
+      "start": 37.40385,
+      "duration": 0.22,
+      "pitch": 48,
+      "gain": 0.06720000000000001,
+      "pan": 0,
+      "reverb_send": 0.035,
+      "role": "music"
+    },
+    {
+      "instrument": "kick",
+      "start": 36.25,
+      "duration": 0.22,
+      "pitch": 60,
+      "gain": 0.06720000000000001,
+      "pan": 0,
+      "reverb_send": 0.01,
+      "role": "music"
+    },
+    {
+      "instrument": "kick",
+      "start": 37.69231,
+      "duration": 0.05769,
+      "pitch": 60,
+      "gain": 0.06720000000000001,
+      "pan": 0,
+      "reverb_send": 0.01,
+      "role": "music"
+    },
+    {
+      "instrument": "rim",
+      "start": 36.82692,
+      "duration": 0.13,
+      "pitch": 60,
+      "gain": 0.033600000000000005,
+      "pan": -0.12,
+      "reverb_send": 0.025,
+      "role": "music"
+    },
+    {
+      "instrument": "clav",
+      "start": 36.68269,
+      "duration": 0.32,
+      "pitch": 64,
+      "gain": 0.02101554979850238,
+      "pan": -0.48,
+      "reverb_send": 0.12,
+      "role": "music"
+    },
+    {
+      "instrument": "clav",
+      "start": 36.68269,
+      "duration": 0.32,
+      "pitch": 72,
+      "gain": 0.02101554979850238,
+      "pan": 0.0,
+      "reverb_send": 0.12,
+      "role": "music"
+    },
+    {
+      "instrument": "clav",
+      "start": 36.68269,
+      "duration": 0.32,
+      "pitch": 76,
+      "gain": 0.02101554979850238,
+      "pan": 0.48,
+      "reverb_send": 0.12,
+      "role": "music"
+    },
+    {
+      "instrument": "bass",
+      "start": 38.55,
+      "duration": 0.25,
+      "pitch": 45,
+      "gain": 0.132,
+      "pan": 0,
+      "reverb_send": 0.035,
+      "role": "music"
+    },
+    {
+      "instrument": "bass",
+      "start": 38.98269,
+      "duration": 0.16,
+      "pitch": 52,
+      "gain": 0.132,
+      "pan": 0,
+      "reverb_send": 0.035,
+      "role": "music"
+    },
+    {
+      "instrument": "bass",
+      "start": 39.70385,
+      "duration": 0.22,
+      "pitch": 48,
+      "gain": 0.132,
+      "pan": 0,
+      "reverb_send": 0.035,
+      "role": "music"
+    },
+    {
+      "instrument": "bass",
+      "start": 40.56923,
+      "duration": 0.18,
+      "pitch": 52,
+      "gain": 0.132,
+      "pan": 0,
+      "reverb_send": 0.035,
+      "role": "music"
+    },
+    {
+      "instrument": "kick",
+      "start": 38.55,
+      "duration": 0.22,
+      "pitch": 60,
+      "gain": 0.132,
+      "pan": 0,
+      "reverb_send": 0.01,
+      "role": "music"
+    },
+    {
+      "instrument": "kick",
+      "start": 39.99231,
+      "duration": 0.22,
+      "pitch": 60,
+      "gain": 0.132,
+      "pan": 0,
+      "reverb_send": 0.01,
+      "role": "music"
+    },
+    {
+      "instrument": "rim",
+      "start": 39.12692,
+      "duration": 0.13,
+      "pitch": 60,
+      "gain": 0.066,
+      "pan": -0.12,
+      "reverb_send": 0.025,
+      "role": "music"
+    },
+    {
+      "instrument": "rim",
+      "start": 40.28077,
+      "duration": 0.13,
+      "pitch": 60,
+      "gain": 0.066,
+      "pan": -0.12,
+      "reverb_send": 0.025,
+      "role": "music"
+    },
+    {
+      "instrument": "hat",
+      "start": 38.55,
+      "duration": 0.065,
+      "pitch": 60,
+      "gain": 0.023100000000000002,
+      "pan": 0.35,
+      "reverb_send": 0,
+      "role": "music"
+    },
+    {
+      "instrument": "hat",
+      "start": 38.83846,
+      "duration": 0.065,
+      "pitch": 60,
+      "gain": 0.015400000000000002,
+      "pan": 0.35,
+      "reverb_send": 0,
+      "role": "music"
+    },
+    {
+      "instrument": "hat",
+      "start": 39.12692,
+      "duration": 0.065,
+      "pitch": 60,
+      "gain": 0.023100000000000002,
+      "pan": 0.35,
+      "reverb_send": 0,
+      "role": "music"
+    },
+    {
+      "instrument": "hat",
+      "start": 39.41538,
+      "duration": 0.065,
+      "pitch": 60,
+      "gain": 0.015400000000000002,
+      "pan": 0.35,
+      "reverb_send": 0,
+      "role": "music"
+    },
+    {
+      "instrument": "hat",
+      "start": 39.70385,
+      "duration": 0.065,
+      "pitch": 60,
+      "gain": 0.023100000000000002,
+      "pan": 0.35,
+      "reverb_send": 0,
+      "role": "music"
+    },
+    {
+      "instrument": "hat",
+      "start": 39.99231,
+      "duration": 0.065,
+      "pitch": 60,
+      "gain": 0.015400000000000002,
+      "pan": 0.35,
+      "reverb_send": 0,
+      "role": "music"
+    },
+    {
+      "instrument": "hat",
+      "start": 40.28077,
+      "duration": 0.065,
+      "pitch": 60,
+      "gain": 0.023100000000000002,
+      "pan": 0.35,
+      "reverb_send": 0,
+      "role": "music"
+    },
+    {
+      "instrument": "hat",
+      "start": 40.56923,
+      "duration": 0.065,
+      "pitch": 60,
+      "gain": 0.015400000000000002,
+      "pan": 0.35,
+      "reverb_send": 0,
+      "role": "music"
+    },
+    {
+      "instrument": "clav",
+      "start": 38.98269,
+      "duration": 0.32,
+      "pitch": 64,
+      "gain": 0.04128054424705825,
+      "pan": -0.48,
+      "reverb_send": 0.12,
+      "role": "music"
+    },
+    {
+      "instrument": "clav",
+      "start": 38.98269,
+      "duration": 0.32,
+      "pitch": 72,
+      "gain": 0.04128054424705825,
+      "pan": 0.0,
+      "reverb_send": 0.12,
+      "role": "music"
+    },
+    {
+      "instrument": "clav",
+      "start": 38.98269,
+      "duration": 0.32,
+      "pitch": 76,
+      "gain": 0.04128054424705825,
+      "pan": 0.48,
+      "reverb_send": 0.12,
+      "role": "music"
+    },
+    {
+      "instrument": "clav",
+      "start": 40.13654,
+      "duration": 0.32,
+      "pitch": 64,
+      "gain": 0.04128054424705825,
+      "pan": -0.48,
+      "reverb_send": 0.12,
+      "role": "music"
+    },
+    {
+      "instrument": "clav",
+      "start": 40.13654,
+      "duration": 0.32,
+      "pitch": 72,
+      "gain": 0.04128054424705825,
+      "pan": 0.0,
+      "reverb_send": 0.12,
+      "role": "music"
+    },
+    {
+      "instrument": "clav",
+      "start": 40.13654,
+      "duration": 0.32,
+      "pitch": 76,
+      "gain": 0.04128054424705825,
+      "pan": 0.48,
+      "reverb_send": 0.12,
+      "role": "music"
+    },
+    {
+      "instrument": "bass",
+      "start": 40.85769,
+      "duration": 0.25,
+      "pitch": 41,
+      "gain": 0.132,
+      "pan": 0,
+      "reverb_send": 0.035,
+      "role": "music"
+    },
+    {
+      "instrument": "bass",
+      "start": 41.29038,
+      "duration": 0.16,
+      "pitch": 48,
+      "gain": 0.132,
+      "pan": 0,
+      "reverb_send": 0.035,
+      "role": "music"
+    },
+    {
+      "instrument": "bass",
+      "start": 42.01154,
+      "duration": 0.22,
+      "pitch": 44,
+      "gain": 0.132,
+      "pan": 0,
+      "reverb_send": 0.035,
+      "role": "music"
+    },
+    {
+      "instrument": "bass",
+      "start": 42.87692,
+      "duration": 0.18,
+      "pitch": 48,
+      "gain": 0.132,
+      "pan": 0,
+      "reverb_send": 0.035,
+      "role": "music"
+    },
+    {
+      "instrument": "kick",
+      "start": 40.85769,
+      "duration": 0.22,
+      "pitch": 60,
+      "gain": 0.132,
+      "pan": 0,
+      "reverb_send": 0.01,
+      "role": "music"
+    },
+    {
+      "instrument": "kick",
+      "start": 42.3,
+      "duration": 0.22,
+      "pitch": 60,
+      "gain": 0.132,
+      "pan": 0,
+      "reverb_send": 0.01,
+      "role": "music"
+    },
+    {
+      "instrument": "rim",
+      "start": 41.43462,
+      "duration": 0.13,
+      "pitch": 60,
+      "gain": 0.066,
+      "pan": -0.12,
+      "reverb_send": 0.025,
+      "role": "music"
+    },
+    {
+      "instrument": "rim",
+      "start": 42.58846,
+      "duration": 0.13,
+      "pitch": 60,
+      "gain": 0.066,
+      "pan": -0.12,
+      "reverb_send": 0.025,
+      "role": "music"
+    },
+    {
+      "instrument": "hat",
+      "start": 40.85769,
+      "duration": 0.065,
+      "pitch": 60,
+      "gain": 0.023100000000000002,
+      "pan": 0.35,
+      "reverb_send": 0,
+      "role": "music"
+    },
+    {
+      "instrument": "hat",
+      "start": 41.14615,
+      "duration": 0.065,
+      "pitch": 60,
+      "gain": 0.015400000000000002,
+      "pan": 0.35,
+      "reverb_send": 0,
+      "role": "music"
+    },
+    {
+      "instrument": "hat",
+      "start": 41.43462,
+      "duration": 0.065,
+      "pitch": 60,
+      "gain": 0.023100000000000002,
+      "pan": 0.35,
+      "reverb_send": 0,
+      "role": "music"
+    },
+    {
+      "instrument": "hat",
+      "start": 41.72308,
+      "duration": 0.065,
+      "pitch": 60,
+      "gain": 0.015400000000000002,
+      "pan": 0.35,
+      "reverb_send": 0,
+      "role": "music"
+    },
+    {
+      "instrument": "hat",
+      "start": 42.01154,
+      "duration": 0.065,
+      "pitch": 60,
+      "gain": 0.023100000000000002,
+      "pan": 0.35,
+      "reverb_send": 0,
+      "role": "music"
+    },
+    {
+      "instrument": "hat",
+      "start": 42.3,
+      "duration": 0.065,
+      "pitch": 60,
+      "gain": 0.015400000000000002,
+      "pan": 0.35,
+      "reverb_send": 0,
+      "role": "music"
+    },
+    {
+      "instrument": "hat",
+      "start": 42.58846,
+      "duration": 0.065,
+      "pitch": 60,
+      "gain": 0.023100000000000002,
+      "pan": 0.35,
+      "reverb_send": 0,
+      "role": "music"
+    },
+    {
+      "instrument": "hat",
+      "start": 42.87692,
+      "duration": 0.065,
+      "pitch": 60,
+      "gain": 0.015400000000000002,
+      "pan": 0.35,
+      "reverb_send": 0,
+      "role": "music"
+    },
+    {
+      "instrument": "clav",
+      "start": 41.72308,
+      "duration": 0.32,
+      "pitch": 60,
+      "gain": 0.04128054424705825,
+      "pan": -0.48,
+      "reverb_send": 0.12,
+      "role": "music"
+    },
+    {
+      "instrument": "clav",
+      "start": 41.72308,
+      "duration": 0.32,
+      "pitch": 69,
+      "gain": 0.04128054424705825,
+      "pan": 0.0,
+      "reverb_send": 0.12,
+      "role": "music"
+    },
+    {
+      "instrument": "clav",
+      "start": 41.72308,
+      "duration": 0.32,
+      "pitch": 72,
+      "gain": 0.04128054424705825,
+      "pan": 0.48,
+      "reverb_send": 0.12,
+      "role": "music"
+    },
+    {
+      "instrument": "clav",
+      "start": 42.73269,
+      "duration": 0.32,
+      "pitch": 60,
+      "gain": 0.04128054424705825,
+      "pan": -0.48,
+      "reverb_send": 0.12,
+      "role": "music"
+    },
+    {
+      "instrument": "clav",
+      "start": 42.73269,
+      "duration": 0.32,
+      "pitch": 69,
+      "gain": 0.04128054424705825,
+      "pan": 0.0,
+      "reverb_send": 0.12,
+      "role": "music"
+    },
+    {
+      "instrument": "clav",
+      "start": 42.73269,
+      "duration": 0.32,
+      "pitch": 72,
+      "gain": 0.04128054424705825,
+      "pan": 0.48,
+      "reverb_send": 0.12,
+      "role": "music"
+    },
+    {
+      "instrument": "bass",
+      "start": 43.16538,
+      "duration": 0.25,
+      "pitch": 48,
+      "gain": 0.132,
+      "pan": 0,
+      "reverb_send": 0.035,
+      "role": "music"
+    },
+    {
+      "instrument": "bass",
+      "start": 43.59808,
+      "duration": 0.16,
+      "pitch": 55,
+      "gain": 0.132,
+      "pan": 0,
+      "reverb_send": 0.035,
+      "role": "music"
+    },
+    {
+      "instrument": "bass",
+      "start": 44.31923,
+      "duration": 0.22,
+      "pitch": 51,
+      "gain": 0.132,
+      "pan": 0,
+      "reverb_send": 0.035,
+      "role": "music"
+    },
+    {
+      "instrument": "bass",
+      "start": 45.18462,
+      "duration": 0.18,
+      "pitch": 55,
+      "gain": 0.132,
+      "pan": 0,
+      "reverb_send": 0.035,
+      "role": "music"
+    },
+    {
+      "instrument": "kick",
+      "start": 43.16538,
+      "duration": 0.22,
+      "pitch": 60,
+      "gain": 0.132,
+      "pan": 0,
+      "reverb_send": 0.01,
+      "role": "music"
+    },
+    {
+      "instrument": "kick",
+      "start": 44.60769,
+      "duration": 0.22,
+      "pitch": 60,
+      "gain": 0.132,
+      "pan": 0,
+      "reverb_send": 0.01,
+      "role": "music"
+    },
+    {
+      "instrument": "rim",
+      "start": 43.74231,
+      "duration": 0.13,
+      "pitch": 60,
+      "gain": 0.066,
+      "pan": -0.12,
+      "reverb_send": 0.025,
+      "role": "music"
+    },
+    {
+      "instrument": "rim",
+      "start": 44.89615,
+      "duration": 0.13,
+      "pitch": 60,
+      "gain": 0.066,
+      "pan": -0.12,
+      "reverb_send": 0.025,
+      "role": "music"
+    },
+    {
+      "instrument": "hat",
+      "start": 43.16538,
+      "duration": 0.065,
+      "pitch": 60,
+      "gain": 0.023100000000000002,
+      "pan": 0.35,
+      "reverb_send": 0,
+      "role": "music"
+    },
+    {
+      "instrument": "hat",
+      "start": 43.45385,
+      "duration": 0.065,
+      "pitch": 60,
+      "gain": 0.015400000000000002,
+      "pan": 0.35,
+      "reverb_send": 0,
+      "role": "music"
+    },
+    {
+      "instrument": "hat",
+      "start": 43.74231,
+      "duration": 0.065,
+      "pitch": 60,
+      "gain": 0.023100000000000002,
+      "pan": 0.35,
+      "reverb_send": 0,
+      "role": "music"
+    },
+    {
+      "instrument": "hat",
+      "start": 44.03077,
+      "duration": 0.065,
+      "pitch": 60,
+      "gain": 0.015400000000000002,
+      "pan": 0.35,
+      "reverb_send": 0,
+      "role": "music"
+    },
+    {
+      "instrument": "hat",
+      "start": 44.31923,
+      "duration": 0.065,
+      "pitch": 60,
+      "gain": 0.023100000000000002,
+      "pan": 0.35,
+      "reverb_send": 0,
+      "role": "music"
+    },
+    {
+      "instrument": "hat",
+      "start": 44.60769,
+      "duration": 0.065,
+      "pitch": 60,
+      "gain": 0.015400000000000002,
+      "pan": 0.35,
+      "reverb_send": 0,
+      "role": "music"
+    },
+    {
+      "instrument": "hat",
+      "start": 44.89615,
+      "duration": 0.065,
+      "pitch": 60,
+      "gain": 0.023100000000000002,
+      "pan": 0.35,
+      "reverb_send": 0,
+      "role": "music"
+    },
+    {
+      "instrument": "hat",
+      "start": 45.18462,
+      "duration": 0.065,
+      "pitch": 60,
+      "gain": 0.015400000000000002,
+      "pan": 0.35,
+      "reverb_send": 0,
+      "role": "music"
+    },
+    {
+      "instrument": "clav",
+      "start": 43.59808,
+      "duration": 0.32,
+      "pitch": 67,
+      "gain": 0.04128054424705825,
+      "pan": -0.48,
+      "reverb_send": 0.12,
+      "role": "music"
+    },
+    {
+      "instrument": "clav",
+      "start": 43.59808,
+      "duration": 0.32,
+      "pitch": 72,
+      "gain": 0.04128054424705825,
+      "pan": 0.0,
+      "reverb_send": 0.12,
+      "role": "music"
+    },
+    {
+      "instrument": "clav",
+      "start": 43.59808,
+      "duration": 0.32,
+      "pitch": 76,
+      "gain": 0.04128054424705825,
+      "pan": 0.48,
+      "reverb_send": 0.12,
+      "role": "music"
+    },
+    {
+      "instrument": "clav",
+      "start": 44.75192,
+      "duration": 0.32,
+      "pitch": 67,
+      "gain": 0.04128054424705825,
+      "pan": -0.48,
+      "reverb_send": 0.12,
+      "role": "music"
+    },
+    {
+      "instrument": "clav",
+      "start": 44.75192,
+      "duration": 0.32,
+      "pitch": 72,
+      "gain": 0.04128054424705825,
+      "pan": 0.0,
+      "reverb_send": 0.12,
+      "role": "music"
+    },
+    {
+      "instrument": "clav",
+      "start": 44.75192,
+      "duration": 0.32,
+      "pitch": 76,
+      "gain": 0.04128054424705825,
+      "pan": 0.48,
+      "reverb_send": 0.12,
+      "role": "music"
+    },
+    {
+      "instrument": "bass",
+      "start": 45.47308,
+      "duration": 0.25,
+      "pitch": 43,
+      "gain": 0.132,
+      "pan": 0,
+      "reverb_send": 0.035,
+      "role": "music"
+    },
+    {
+      "instrument": "bass",
+      "start": 45.90577,
+      "duration": 0.16,
+      "pitch": 50,
+      "gain": 0.132,
+      "pan": 0,
+      "reverb_send": 0.035,
+      "role": "music"
+    },
+    {
+      "instrument": "bass",
+      "start": 46.62692,
+      "duration": 0.22,
+      "pitch": 46,
+      "gain": 0.132,
+      "pan": 0,
+      "reverb_send": 0.035,
+      "role": "music"
+    },
+    {
+      "instrument": "bass",
+      "start": 47.49231,
+      "duration": 0.18,
+      "pitch": 50,
+      "gain": 0.132,
+      "pan": 0,
+      "reverb_send": 0.035,
+      "role": "music"
+    },
+    {
+      "instrument": "kick",
+      "start": 45.47308,
+      "duration": 0.22,
+      "pitch": 60,
+      "gain": 0.132,
+      "pan": 0,
+      "reverb_send": 0.01,
+      "role": "music"
+    },
+    {
+      "instrument": "kick",
+      "start": 46.91538,
+      "duration": 0.22,
+      "pitch": 60,
+      "gain": 0.132,
+      "pan": 0,
+      "reverb_send": 0.01,
+      "role": "music"
+    },
+    {
+      "instrument": "rim",
+      "start": 46.05,
+      "duration": 0.13,
+      "pitch": 60,
+      "gain": 0.066,
+      "pan": -0.12,
+      "reverb_send": 0.025,
+      "role": "music"
+    },
+    {
+      "instrument": "rim",
+      "start": 47.20385,
+      "duration": 0.13,
+      "pitch": 60,
+      "gain": 0.066,
+      "pan": -0.12,
+      "reverb_send": 0.025,
+      "role": "music"
+    },
+    {
+      "instrument": "hat",
+      "start": 45.47308,
+      "duration": 0.065,
+      "pitch": 60,
+      "gain": 0.023100000000000002,
+      "pan": 0.35,
+      "reverb_send": 0,
+      "role": "music"
+    },
+    {
+      "instrument": "hat",
+      "start": 45.76154,
+      "duration": 0.065,
+      "pitch": 60,
+      "gain": 0.015400000000000002,
+      "pan": 0.35,
+      "reverb_send": 0,
+      "role": "music"
+    },
+    {
+      "instrument": "hat",
+      "start": 46.05,
+      "duration": 0.065,
+      "pitch": 60,
+      "gain": 0.023100000000000002,
+      "pan": 0.35,
+      "reverb_send": 0,
+      "role": "music"
+    },
+    {
+      "instrument": "hat",
+      "start": 46.33846,
+      "duration": 0.065,
+      "pitch": 60,
+      "gain": 0.015400000000000002,
+      "pan": 0.35,
+      "reverb_send": 0,
+      "role": "music"
+    },
+    {
+      "instrument": "hat",
+      "start": 46.62692,
+      "duration": 0.065,
+      "pitch": 60,
+      "gain": 0.023100000000000002,
+      "pan": 0.35,
+      "reverb_send": 0,
+      "role": "music"
+    },
+    {
+      "instrument": "hat",
+      "start": 46.91538,
+      "duration": 0.065,
+      "pitch": 60,
+      "gain": 0.015400000000000002,
+      "pan": 0.35,
+      "reverb_send": 0,
+      "role": "music"
+    },
+    {
+      "instrument": "hat",
+      "start": 47.20385,
+      "duration": 0.065,
+      "pitch": 60,
+      "gain": 0.023100000000000002,
+      "pan": 0.35,
+      "reverb_send": 0,
+      "role": "music"
+    },
+    {
+      "instrument": "hat",
+      "start": 47.49231,
+      "duration": 0.065,
+      "pitch": 60,
+      "gain": 0.015400000000000002,
+      "pan": 0.35,
+      "reverb_send": 0,
+      "role": "music"
+    },
+    {
+      "instrument": "clav",
+      "start": 46.33846,
+      "duration": 0.32,
+      "pitch": 62,
+      "gain": 0.04128054424705825,
+      "pan": -0.48,
+      "reverb_send": 0.12,
+      "role": "music"
+    },
+    {
+      "instrument": "clav",
+      "start": 46.33846,
+      "duration": 0.32,
+      "pitch": 71,
+      "gain": 0.04128054424705825,
+      "pan": 0.0,
+      "reverb_send": 0.12,
+      "role": "music"
+    },
+    {
+      "instrument": "clav",
+      "start": 46.33846,
+      "duration": 0.32,
+      "pitch": 74,
+      "gain": 0.04128054424705825,
+      "pan": 0.48,
+      "reverb_send": 0.12,
+      "role": "music"
+    },
+    {
+      "instrument": "clav",
+      "start": 47.34808,
+      "duration": 0.32,
+      "pitch": 62,
+      "gain": 0.04128054424705825,
+      "pan": -0.48,
+      "reverb_send": 0.12,
+      "role": "music"
+    },
+    {
+      "instrument": "clav",
+      "start": 47.34808,
+      "duration": 0.32,
+      "pitch": 71,
+      "gain": 0.04128054424705825,
+      "pan": 0.0,
+      "reverb_send": 0.12,
+      "role": "music"
+    },
+    {
+      "instrument": "clav",
+      "start": 47.34808,
+      "duration": 0.32,
+      "pitch": 74,
+      "gain": 0.04128054424705825,
+      "pan": 0.48,
+      "reverb_send": 0.12,
+      "role": "music"
+    },
+    {
+      "instrument": "bass",
+      "start": 47.78077,
+      "duration": 0.21923,
+      "pitch": 45,
+      "gain": 0.132,
+      "pan": 0,
+      "reverb_send": 0.035,
+      "role": "music"
+    },
+    {
+      "instrument": "kick",
+      "start": 47.78077,
+      "duration": 0.21923,
+      "pitch": 60,
+      "gain": 0.132,
+      "pan": 0,
+      "reverb_send": 0.01,
+      "role": "music"
+    },
+    {
+      "instrument": "hat",
+      "start": 47.78077,
+      "duration": 0.065,
+      "pitch": 60,
+      "gain": 0.023100000000000002,
+      "pan": 0.35,
+      "reverb_send": 0,
+      "role": "music"
+    },
+    {
+      "instrument": "ep",
+      "start": 48,
+      "duration": 2.1,
+      "pitch": 45,
+      "gain": 0.125,
+      "pan": -0.48,
+      "reverb_send": 0.2,
+      "role": "music"
+    },
+    {
+      "instrument": "ep",
+      "start": 48,
+      "duration": 2.1,
+      "pitch": 52,
+      "gain": 0.125,
+      "pan": -0.15999999999999998,
+      "reverb_send": 0.2,
+      "role": "music"
+    },
+    {
+      "instrument": "ep",
+      "start": 48,
+      "duration": 2.1,
+      "pitch": 61,
+      "gain": 0.125,
+      "pan": 0.16000000000000003,
+      "reverb_send": 0.2,
+      "role": "music"
+    },
+    {
+      "instrument": "ep",
+      "start": 48,
+      "duration": 2.1,
+      "pitch": 64,
+      "gain": 0.125,
+      "pan": 0.48,
+      "reverb_send": 0.2,
+      "role": "music"
+    },
+    {
+      "instrument": "clav",
+      "start": 48.2,
+      "duration": 0.49038,
+      "pitch": 69,
+      "gain": 0.1218,
+      "pan": 0.14,
+      "reverb_send": 0.22,
+      "role": "music"
+    },
+    {
+      "instrument": "clav",
+      "start": 48.77692,
+      "duration": 0.49038,
+      "pitch": 73,
+      "gain": 0.13090000000000002,
+      "pan": -0.18,
+      "reverb_send": 0.22,
+      "role": "music"
+    },
+    {
+      "instrument": "clav",
+      "start": 49.35385,
+      "duration": 0.49038,
+      "pitch": 76,
+      "gain": 0.14,
+      "pan": 0.14,
+      "reverb_send": 0.22,
+      "role": "music"
+    },
+    {
+      "instrument": "clav",
+      "start": 49.93077,
+      "duration": 0.75,
+      "pitch": 69,
+      "gain": 0.1218,
+      "pan": -0.18,
+      "reverb_send": 0.22,
+      "role": "music"
+    },
+    {
+      "instrument": "clav",
+      "start": 50.79615,
+      "duration": 0.49038,
+      "pitch": 69,
+      "gain": 0.13090000000000002,
+      "pan": 0.14,
+      "reverb_send": 0.22,
+      "role": "music"
+    },
+    {
+      "instrument": "clav",
+      "start": 51.37308,
+      "duration": 0.49038,
+      "pitch": 73,
+      "gain": 0.14,
+      "pan": -0.18,
+      "reverb_send": 0.22,
+      "role": "music"
+    },
+    {
+      "instrument": "clav",
+      "start": 51.95,
+      "duration": 0.45,
+      "pitch": 76,
+      "gain": 0.1218,
+      "pan": 0.14,
+      "reverb_send": 0.22,
+      "role": "music"
+    }
+  ],
+  "silence_windows": [
+    [
+      23.1,
+      26.75
+    ],
+    [
+      37.75,
+      38.55
+    ]
+  ],
+  "mastering": {
+    "fixed_gain_db": 8.219999999999999,
+    "limiter_ceiling": 0.7,
+    "raw_loudness": {
+      "input_i": -26.72,
+      "input_tp": -6.26,
+      "input_lra": 9.4,
+      "input_thresh": -37.23
+    },
+    "final_wav_loudness": {
+      "input_i": -18.9,
+      "input_tp": -3.09,
+      "input_lra": 8.8,
+      "input_thresh": -29.4
+    }
+  },
+  "file": "C08_score_v16.wav",
+  "sha256": "799f910b303973cb1ea6a80118e217f4f50f5aebdb13efcaf890dd1245fff417",
+  "actual_listening_verified": false,
+  "subjective_naturalness_verified": false
+}

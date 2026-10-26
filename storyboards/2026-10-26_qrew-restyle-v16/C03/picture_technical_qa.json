@@ -1,0 +1,18 @@
+{
+  "file": "C03_picture_v16.mp4",
+  "sha256": "1f5a21f4bd4d9310c1e82831002f76e7087341cefef71ed4bb4b4c57e22d1353",
+  "duration_seconds": 43.0,
+  "video_frames": 1032,
+  "fps": 24,
+  "resolution": [
+    1280,
+    720
+  ],
+  "full_video_decode": "PASS",
+  "audio_streams": 0,
+  "video_pts_step_seconds": 0.041666666666666664,
+  "actual_continuous_playback_verified": false,
+  "actual_listening_verified": false,
+  "visual_review": "PASS_SAMPLED_PICTURE_RESTYLE",
+  "visual_review_file": "picture_visual_review.json"
+}

@@ -1,0 +1,100 @@
+[
+  {
+    "cut": "K01",
+    "output_frame_start": 0,
+    "output_frames": 78,
+    "first_source_pts": 0.0,
+    "last_source_pts": 3.2083333333333335
+  },
+  {
+    "cut": "K02A",
+    "output_frame_start": 78,
+    "output_frames": 96,
+    "first_source_pts": 1.75,
+    "last_source_pts": 5.708333333333333
+  },
+  {
+    "cut": "K02B",
+    "output_frame_start": 174,
+    "output_frames": 72,
+    "first_source_pts": 0.5,
+    "last_source_pts": 3.4583333333333335
+  },
+  {
+    "cut": "N01_entry",
+    "output_frame_start": 246,
+    "output_frames": 96,
+    "first_source_pts": 0.5,
+    "last_source_pts": 4.458333333333333
+  },
+  {
+    "cut": "N02_hands_grip_front_edge",
+    "output_frame_start": 342,
+    "output_frames": 72,
+    "first_source_pts": 1.5,
+    "last_source_pts": 4.458333333333333
+  },
+  {
+    "cut": "N03_neck_withdraws",
+    "output_frame_start": 414,
+    "output_frames": 108,
+    "first_source_pts": 3.0,
+    "last_source_pts": 7.458333333333333
+  },
+  {
+    "cut": "K04_worker_jack_insert",
+    "output_frame_start": 522,
+    "output_frames": 36,
+    "first_source_pts": 1.5,
+    "last_source_pts": 2.9583333333333335
+  },
+  {
+    "cut": "K04_wide",
+    "output_frame_start": 558,
+    "output_frames": 18,
+    "first_source_pts": 2.5,
+    "last_source_pts": 3.2083333333333335
+  },
+  {
+    "cut": "K04_plead",
+    "output_frame_start": 576,
+    "output_frames": 66,
+    "first_source_pts": 4.5,
+    "last_source_pts": 7.208333333333333
+  },
+  {
+    "cut": "K05",
+    "output_frame_start": 642,
+    "output_frames": 114,
+    "first_source_pts": 0.5,
+    "last_source_pts": 5.208333333333333
+  },
+  {
+    "cut": "K06",
+    "output_frame_start": 756,
+    "output_frames": 72,
+    "first_source_pts": 0.5,
+    "last_source_pts": 3.4583333333333335
+  },
+  {
+    "cut": "K07",
+    "output_frame_start": 828,
+    "output_frames": 108,
+    "first_source_pts": 1.0,
+    "last_source_pts": 5.458333333333333
+  },
+  {
+    "cut": "K08_thumb",
+    "output_frame_start": 936,
+    "output_frames": 24,
+    "first_source_pts": 0.5,
+    "last_source_pts": 1.4583333333333333
+  },
+  {
+    "cut": "K08_return",
+    "output_frame_start": 960,
+    "output_frames": 162,
+    "first_source_pts": 0.0,
+    "last_source_pts": 6.708333333333333
+  }
+]

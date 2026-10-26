@@ -1,0 +1,388 @@
+{
+  "film": "C03",
+  "duration_seconds": 43.0,
+  "timeline": [
+    {
+      "cut": "K01",
+      "source": "2026-10-20_C03-flow-run08/C03_K01_take02.mp4",
+      "source_in": 0,
+      "source_out": 6,
+      "start": 0,
+      "end": 6
+    },
+    {
+      "cut": "K02",
+      "source": "2026-10-19_C03-flow-run01/C03_K02_take01.mp4",
+      "source_in": 0,
+      "source_out": 4,
+      "start": 6,
+      "end": 10
+    },
+    {
+      "cut": "K03",
+      "source": "2026-10-19_C03-flow-run01/C03_K03_take01.mp4",
+      "source_in": 0,
+      "source_out": 2.5,
+      "start": 10,
+      "end": 12.5
+    },
+    {
+      "cut": "K03_done",
+      "source": "2026-10-20_C03-flow-run05/C03_K03_insert_take02.mp4",
+      "source_in": 6,
+      "source_out": 7,
+      "start": 12.5,
+      "end": 13.5
+    },
+    {
+      "cut": "K04",
+      "source": "2026-10-20_C03-flow-run03/C03_K04_take02.mp4",
+      "source_in": 0,
+      "source_out": 3.5,
+      "start": 13.5,
+      "end": 17.0
+    },
+    {
+      "cut": "K04_cuff",
+      "source": "2026-10-20_C03-flow-run06/C03_K04_insert_take05.mp4",
+      "source_in": 3.75,
+      "source_out": 5.5,
+      "start": 17.0,
+      "end": 18.75
+    },
+    {
+      "cut": "K05_listen",
+      "source": "2026-10-20_C03-flow-run09/C03_K05_question_take05.mp4",
+      "source_in": 0,
+      "source_out": 1,
+      "start": 18.75,
+      "end": 19.75
+    },
+    {
+      "cut": "K05",
+      "source": "2026-10-20_C03-flow-run03/C03_K05_take03.mp4",
+      "source_in": 1.25,
+      "source_out": 4.75,
+      "start": 19.75,
+      "end": 23.25
+    },
+    {
+      "cut": "K06_before",
+      "source": "2026-10-19_C03-flow-run02/C03_K06_take01.mp4",
+      "source_in": 0,
+      "source_out": 1.25,
+      "start": 23.25,
+      "end": 24.5
+    },
+    {
+      "cut": "K06_records",
+      "source": "2026-10-20_C03-flow-run08/C03_K06_insert_take01.mp4",
+      "source_in": 0,
+      "source_out": 2,
+      "start": 24.5,
+      "end": 26.5
+    },
+    {
+      "cut": "K06_after",
+      "source": "2026-10-19_C03-flow-run02/C03_K06_take01.mp4",
+      "source_in": 3.25,
+      "source_out": 5.75,
+      "start": 26.5,
+      "end": 29.0
+    },
+    {
+      "cut": "K07",
+      "source": "2026-10-20_C03-flow-run03/C03_K07_take02.mp4",
+      "source_in": 0,
+      "source_out": 6,
+      "start": 29.0,
+      "end": 35.0
+    },
+    {
+      "cut": "K08",
+      "source": "2026-10-20_C03-flow-run03/C03_K08_take02.mp4",
+      "source_in": 0,
+      "source_out": 8,
+      "start": 35.0,
+      "end": 43.0
+    }
+  ],
+  "captions": [
+    {
+      "start": 0.2,
+      "end": 3.8,
+      "text": "결과와 과정,\n빠짐없이 보내주세요.",
+      "kind": "setup",
+      "position": "bottom_center",
+      "previous_caption_metadata": {
+        "start": 0.2,
+        "end": 3.8,
+        "text": "결과와 과정,\n빠짐없이 보내주세요.",
+        "kind": "setup",
+        "placement": "얼굴·손·핵심 소품을 피한 하단 안전 여백",
+        "box": {
+          "left_pct": 7,
+          "width_pct": 86,
+          "bottom_pct": 6
+        },
+        "cut": "K01"
+      },
+      "pos": "bottom_center",
+      "x": 640,
+      "y": 684,
+      "font_px": 38,
+      "style": "qrew_full_frame_lower_center"
+    },
+    {
+      "start": 6.3,
+      "end": 9.8,
+      "text": "잘됐던 작업 환경까지 도착.",
+      "kind": "reveal",
+      "position": "bottom_center",
+      "previous_caption_metadata": {
+        "start": 6.3,
+        "end": 9.8,
+        "text": "잘됐던 작업 환경까지 도착.",
+        "kind": "reveal",
+        "placement": "얼굴·손·핵심 소품을 피한 하단 안전 여백",
+        "box": {
+          "left_pct": 7,
+          "width_pct": 86,
+          "bottom_pct": 6
+        },
+        "cut": "K02"
+      },
+      "pos": "bottom_center",
+      "x": 640,
+      "y": 684,
+      "font_px": 38,
+      "style": "qrew_full_frame_lower_center"
+    },
+    {
+      "start": 10.2,
+      "end": 12.4,
+      "text": "이번 결과도 같네.",
+      "kind": "evidence",
+      "position": "bottom_center",
+      "previous_caption_metadata": {
+        "start": 10.2,
+        "end": 12.4,
+        "text": "이번 결과도 같네.",
+        "kind": "evidence",
+        "placement": "얼굴·손·핵심 소품을 피한 하단 안전 여백",
+        "box": {
+          "left_pct": 7,
+          "width_pct": 86,
+          "bottom_pct": 6
+        },
+        "cut": "K03"
+      },
+      "pos": "bottom_center",
+      "x": 640,
+      "y": 684,
+      "font_px": 38,
+      "style": "qrew_full_frame_lower_center"
+    },
+    {
+      "start": 14.1,
+      "end": 17,
+      "text": "안 됐던 작업 환경도 도착.",
+      "kind": "escalation",
+      "position": "bottom_center",
+      "previous_caption_metadata": {
+        "start": 14.1,
+        "end": 17,
+        "text": "안 됐던 작업 환경도 도착.",
+        "kind": "escalation",
+        "placement": "얼굴·손·핵심 소품을 피한 하단 안전 여백",
+        "box": {
+          "left_pct": 7,
+          "width_pct": 86,
+          "bottom_pct": 6
+        },
+        "cut": "K04"
+      },
+      "pos": "bottom_center",
+      "x": 640,
+      "y": 684,
+      "font_px": 38,
+      "style": "qrew_full_frame_lower_center"
+    },
+    {
+      "start": 19.05,
+      "end": 23.05,
+      "text": "보낸 동료: “안 됐던 과정도\n빠짐없이 달라면서요.”",
+      "kind": "message",
+      "position": "bottom_center",
+      "previous_caption_metadata": {
+        "start": 19.05,
+        "end": 23.05,
+        "text": "보낸 동료: “안 됐던 과정도\n빠짐없이 달라면서요.”",
+        "kind": "message",
+        "placement": "얼굴·손·핵심 소품을 피한 하단 안전 여백",
+        "box": {
+          "left_pct": 7,
+          "width_pct": 86,
+          "bottom_pct": 6
+        },
+        "cut": "K05"
+      },
+      "pos": "bottom_center",
+      "x": 640,
+      "y": 684,
+      "font_px": 38,
+      "style": "qrew_full_frame_lower_center"
+    },
+    {
+      "start": 26.25,
+      "end": 28.85,
+      "text": "안 된 과정에도\n단서가 있네?",
+      "kind": "discovery",
+      "position": "bottom_center",
+      "previous_caption_metadata": {
+        "start": 26.25,
+        "end": 28.85,
+        "text": "안 된 과정에도\n단서가 있네?",
+        "kind": "discovery",
+        "placement": "상단 왼쪽: 글자 시작 x64px, 배경박스 왼쪽 x47px, 박스 위 y43px. 두 파일과 R 얼굴을 비움.",
+        "box": {
+          "text_left_px": 64,
+          "box_left_px": 47,
+          "top_px": 43
+        },
+        "cut": "K06",
+        "font_px": 42
+      },
+      "pos": "bottom_center",
+      "x": 640,
+      "y": 684,
+      "font_px": 38,
+      "style": "qrew_full_frame_lower_center"
+    },
+    {
+      "start": 29.2,
+      "end": 31.799999999999997,
+      "text": "해본 사람에게\n물어봐야겠네요.",
+      "kind": "choice",
+      "position": "bottom_center",
+      "previous_caption_metadata": {
+        "start": 29.2,
+        "end": 31.799999999999997,
+        "text": "해본 사람에게\n물어봐야겠네요.",
+        "kind": "choice",
+        "placement": "얼굴·손·핵심 소품을 피한 하단 안전 여백",
+        "box": {
+          "left_pct": 7,
+          "width_pct": 86,
+          "bottom_pct": 6
+        },
+        "cut": "K07"
+      },
+      "pos": "bottom_center",
+      "x": 640,
+      "y": 684,
+      "font_px": 38,
+      "style": "qrew_full_frame_lower_center"
+    },
+    {
+      "start": 32.1,
+      "end": 34.8,
+      "text": "이번엔 제가 가겠습니다.",
+      "kind": "reversal",
+      "position": "bottom_center",
+      "previous_caption_metadata": {
+        "start": 32.1,
+        "end": 34.8,
+        "text": "이번엔 제가 가겠습니다.",
+        "kind": "reversal",
+        "placement": "얼굴·손·핵심 소품을 피한 하단 안전 여백",
+        "box": {
+          "left_pct": 7,
+          "width_pct": 86,
+          "bottom_pct": 6
+        },
+        "cut": "K07"
+      },
+      "pos": "bottom_center",
+      "x": 640,
+      "y": 684,
+      "font_px": 38,
+      "style": "qrew_full_frame_lower_center"
+    },
+    {
+      "start": 37.0,
+      "end": 43.0,
+      "text": "Q-AI Fair\nAI 실행의 과정까지, 함께 봐요.\n품질팀 AI 성과 교류회",
+      "kind": "endcard",
+      "position": "existing_full_frame_ending",
+      "previous_caption_metadata": {
+        "start": 37.0,
+        "end": 43.0,
+        "text": "Q-AI Fair\nAI 실행의 과정까지, 함께 봐요.\n품질팀 AI 성과 교류회",
+        "kind": "event",
+        "placement": "상단 빈 하늘",
+        "box": {
+          "left_pct": 7,
+          "width_pct": 86,
+          "top_pct": 6
+        },
+        "cut": "K08"
+      }
+    }
+  ],
+  "source_sha256": {
+    "2026-10-19_C03-flow-run01/C03_K02_take01.mp4": "7cd2ebd0524cd928786594c9e2a357a232ecd8e7eaae4f0959f1bee893cf75d5",
+    "2026-10-19_C03-flow-run01/C03_K03_take01.mp4": "8e2f2621ef49587d1734f0332647d6fc86f0fb9416ef443326f2f35d309a8b93",
+    "2026-10-19_C03-flow-run02/C03_K06_take01.mp4": "2f3cfc06a9579d3aca160150b39fefccc83775750c1109387fb3f948c046a6c3",
+    "2026-10-20_C03-flow-run03/C03_K04_take02.mp4": "9b5bfe6df63a530b7545eb269ace505b8719f89f89a8e502ab5607fbd8dae8cf",
+    "2026-10-20_C03-flow-run03/C03_K05_take03.mp4": "d635759eeeb38c7de2f051e8928e7039c27e51569e682d0e594d8c3c6baa0036",
+    "2026-10-20_C03-flow-run03/C03_K07_take02.mp4": "f683f80eb7122213bdb918c3e0ce88b352ba4509daf7a474272a8ef95ab03d67",
+    "2026-10-20_C03-flow-run03/C03_K08_take02.mp4": "d95349e114ec385f21054df106892f9fdfd6cd56ee5bccc9fbfa6b7c44000450",
+    "2026-10-20_C03-flow-run05/C03_K03_insert_take02.mp4": "1c19dda3cdd6a1a1c5f0a9e27eebb7b7a92d380998e0fa9c4cbd0fa7c3e404ee",
+    "2026-10-20_C03-flow-run06/C03_K04_insert_take05.mp4": "d6c31fdef71a05c75bcc07c63ad64f0d18fb201b3e4b88fce4c96414af33f0cc",
+    "2026-10-20_C03-flow-run08/C03_K01_take02.mp4": "4b34416b828e344d1694b76b7f07c30e2c434b9267000c28df88601912dbb545",
+    "2026-10-20_C03-flow-run08/C03_K06_insert_take01.mp4": "0e97c8258f1cb2ace5080840b87c9b0a7641e3cdfb8e500035a4fa98e0ef848c",
+    "2026-10-20_C03-flow-run09/C03_K05_question_take05.mp4": "2d683a5a89286f40b35c35f4c5ad5cb0d757a063abd27bdaf0aa37a0db0a6d89"
+  },
+  "compositor_provenance": {
+    "source_script": "storyboards/2026-10-26_screening-style-v15/C03/render_c03_picture_v15.py",
+    "source_sha256": "2be4c2b32f554a69196977b1aeb26954b73d2bda41373bf5209ab33578d2a77c",
+    "loaded_prefix_sha256": "5b44a761c8f61357cf7cb45ee33376faeda5219cf2562b6d1961da93ccc5057a",
+    "output_redirected_to": "storyboards/2026-10-26_qrew-restyle-v16/C03/compositor_assets",
+    "original_script_executed_whole": false
+  },
+  "original_reference_sha256": {
+    "storyboards\\2026-10-26_screening-style-v15\\C03\\edit_manifest.json": "9828b1b6001a16e1a8a80528b33c12d36a0f2621bec1ee17187da481a008b705",
+    "storyboards\\2026-10-26_screening-style-v15\\C03\\ending_title.png": "fd3646c184c11e427865d96d0a2ad2d0fbe0242b845c4acd46de1a2d5f6a24d7"
+  },
+  "source_audio": "ALL EXCLUDED",
+  "action_stills_inserted": false,
+  "existing_picture_mp4_used_as_source": false,
+  "file": "C03_picture_v16.mp4",
+  "picture_sha256": "1f5a21f4bd4d9310c1e82831002f76e7087341cefef71ed4bb4b4c57e22d1353",
+  "picture_technical_qa": {
+    "file": "C03_picture_v16.mp4",
+    "sha256": "1f5a21f4bd4d9310c1e82831002f76e7087341cefef71ed4bb4b4c57e22d1353",
+    "duration_seconds": 43.0,
+    "video_frames": 1032,
+    "fps": 24,
+    "resolution": [
+      1280,
+      720
+    ],
+    "full_video_decode": "PASS",
+    "audio_streams": 0,
+    "video_pts_step_seconds": 0.041666666666666664,
+    "actual_continuous_playback_verified": false,
+    "actual_listening_verified": false,
+    "visual_review": "PASS_SAMPLED_PICTURE_RESTYLE",
+    "visual_review_file": "picture_visual_review.json"
+  },
+  "version": "V16",
+  "status": "PICTURE_RENDERED_TECHNICAL_AND_SAMPLED_VISUAL_PASS",
+  "source_files_unchanged": true,
+  "speed_frame_selection": [],
+  "subtitle_style_module_sha256": "028e3bfd12e901e3ef11057ae4dd70f228322830c9892988424718b79c9dc223",
+  "actual_continuous_playback_verified": false,
+  "actual_listening_verified": false
+}

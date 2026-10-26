@@ -1,0 +1,7 @@
+{
+  "original_compositor": "2026-10-26_C08-C09-edit-v15\\C08\\render_c08_v15.py",
+  "original_sha256": "0bf93a14821439814c9c98a391ea05e1e722aa74cac7e65168016e449c05cb86",
+  "isolated_copy": "ui_compositor.py",
+  "isolated_sha256": "99bc8abc2d2a1d21e3f51d00c37b2c0e8716844605347eedcdb6939dc2f7bfdd",
+  "treatment": "UI function bodies retained; output paths isolated; no original import executed."
+}

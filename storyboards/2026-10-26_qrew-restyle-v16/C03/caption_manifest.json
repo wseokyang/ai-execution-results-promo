@@ -1,0 +1,223 @@
+[
+  {
+    "start": 0.2,
+    "end": 3.8,
+    "text": "결과와 과정,\n빠짐없이 보내주세요.",
+    "kind": "setup",
+    "position": "bottom_center",
+    "previous_caption_metadata": {
+      "start": 0.2,
+      "end": 3.8,
+      "text": "결과와 과정,\n빠짐없이 보내주세요.",
+      "kind": "setup",
+      "placement": "얼굴·손·핵심 소품을 피한 하단 안전 여백",
+      "box": {
+        "left_pct": 7,
+        "width_pct": 86,
+        "bottom_pct": 6
+      },
+      "cut": "K01"
+    },
+    "pos": "bottom_center",
+    "x": 640,
+    "y": 684,
+    "font_px": 38,
+    "style": "qrew_full_frame_lower_center"
+  },
+  {
+    "start": 6.3,
+    "end": 9.8,
+    "text": "잘됐던 작업 환경까지 도착.",
+    "kind": "reveal",
+    "position": "bottom_center",
+    "previous_caption_metadata": {
+      "start": 6.3,
+      "end": 9.8,
+      "text": "잘됐던 작업 환경까지 도착.",
+      "kind": "reveal",
+      "placement": "얼굴·손·핵심 소품을 피한 하단 안전 여백",
+      "box": {
+        "left_pct": 7,
+        "width_pct": 86,
+        "bottom_pct": 6
+      },
+      "cut": "K02"
+    },
+    "pos": "bottom_center",
+    "x": 640,
+    "y": 684,
+    "font_px": 38,
+    "style": "qrew_full_frame_lower_center"
+  },
+  {
+    "start": 10.2,
+    "end": 12.4,
+    "text": "이번 결과도 같네.",
+    "kind": "evidence",
+    "position": "bottom_center",
+    "previous_caption_metadata": {
+      "start": 10.2,
+      "end": 12.4,
+      "text": "이번 결과도 같네.",
+      "kind": "evidence",
+      "placement": "얼굴·손·핵심 소품을 피한 하단 안전 여백",
+      "box": {
+        "left_pct": 7,
+        "width_pct": 86,
+        "bottom_pct": 6
+      },
+      "cut": "K03"
+    },
+    "pos": "bottom_center",
+    "x": 640,
+    "y": 684,
+    "font_px": 38,
+    "style": "qrew_full_frame_lower_center"
+  },
+  {
+    "start": 14.1,
+    "end": 17,
+    "text": "안 됐던 작업 환경도 도착.",
+    "kind": "escalation",
+    "position": "bottom_center",
+    "previous_caption_metadata": {
+      "start": 14.1,
+      "end": 17,
+      "text": "안 됐던 작업 환경도 도착.",
+      "kind": "escalation",
+      "placement": "얼굴·손·핵심 소품을 피한 하단 안전 여백",
+      "box": {
+        "left_pct": 7,
+        "width_pct": 86,
+        "bottom_pct": 6
+      },
+      "cut": "K04"
+    },
+    "pos": "bottom_center",
+    "x": 640,
+    "y": 684,
+    "font_px": 38,
+    "style": "qrew_full_frame_lower_center"
+  },
+  {
+    "start": 19.05,
+    "end": 23.05,
+    "text": "보낸 동료: “안 됐던 과정도\n빠짐없이 달라면서요.”",
+    "kind": "message",
+    "position": "bottom_center",
+    "previous_caption_metadata": {
+      "start": 19.05,
+      "end": 23.05,
+      "text": "보낸 동료: “안 됐던 과정도\n빠짐없이 달라면서요.”",
+      "kind": "message",
+      "placement": "얼굴·손·핵심 소품을 피한 하단 안전 여백",
+      "box": {
+        "left_pct": 7,
+        "width_pct": 86,
+        "bottom_pct": 6
+      },
+      "cut": "K05"
+    },
+    "pos": "bottom_center",
+    "x": 640,
+    "y": 684,
+    "font_px": 38,
+    "style": "qrew_full_frame_lower_center"
+  },
+  {
+    "start": 26.25,
+    "end": 28.85,
+    "text": "안 된 과정에도\n단서가 있네?",
+    "kind": "discovery",
+    "position": "bottom_center",
+    "previous_caption_metadata": {
+      "start": 26.25,
+      "end": 28.85,
+      "text": "안 된 과정에도\n단서가 있네?",
+      "kind": "discovery",
+      "placement": "상단 왼쪽: 글자 시작 x64px, 배경박스 왼쪽 x47px, 박스 위 y43px. 두 파일과 R 얼굴을 비움.",
+      "box": {
+        "text_left_px": 64,
+        "box_left_px": 47,
+        "top_px": 43
+      },
+      "cut": "K06",
+      "font_px": 42
+    },
+    "pos": "bottom_center",
+    "x": 640,
+    "y": 684,
+    "font_px": 38,
+    "style": "qrew_full_frame_lower_center"
+  },
+  {
+    "start": 29.2,
+    "end": 31.799999999999997,
+    "text": "해본 사람에게\n물어봐야겠네요.",
+    "kind": "choice",
+    "position": "bottom_center",
+    "previous_caption_metadata": {
+      "start": 29.2,
+      "end": 31.799999999999997,
+      "text": "해본 사람에게\n물어봐야겠네요.",
+      "kind": "choice",
+      "placement": "얼굴·손·핵심 소품을 피한 하단 안전 여백",
+      "box": {
+        "left_pct": 7,
+        "width_pct": 86,
+        "bottom_pct": 6
+      },
+      "cut": "K07"
+    },
+    "pos": "bottom_center",
+    "x": 640,
+    "y": 684,
+    "font_px": 38,
+    "style": "qrew_full_frame_lower_center"
+  },
+  {
+    "start": 32.1,
+    "end": 34.8,
+    "text": "이번엔 제가 가겠습니다.",
+    "kind": "reversal",
+    "position": "bottom_center",
+    "previous_caption_metadata": {
+      "start": 32.1,
+      "end": 34.8,
+      "text": "이번엔 제가 가겠습니다.",
+      "kind": "reversal",
+      "placement": "얼굴·손·핵심 소품을 피한 하단 안전 여백",
+      "box": {
+        "left_pct": 7,
+        "width_pct": 86,
+        "bottom_pct": 6
+      },
+      "cut": "K07"
+    },
+    "pos": "bottom_center",
+    "x": 640,
+    "y": 684,
+    "font_px": 38,
+    "style": "qrew_full_frame_lower_center"
+  },
+  {
+    "start": 37.0,
+    "end": 43.0,
+    "text": "Q-AI Fair\nAI 실행의 과정까지, 함께 봐요.\n품질팀 AI 성과 교류회",
+    "kind": "endcard",
+    "position": "existing_full_frame_ending",
+    "previous_caption_metadata": {
+      "start": 37.0,
+      "end": 43.0,
+      "text": "Q-AI Fair\nAI 실행의 과정까지, 함께 봐요.\n품질팀 AI 성과 교류회",
+      "kind": "event",
+      "placement": "상단 빈 하늘",
+      "box": {
+        "left_pct": 7,
+        "width_pct": 86,
+        "top_pct": 6
+      },
+      "cut": "K08"
+    }
+  }
+]

@@ -1,0 +1,29 @@
+{
+  "loudness": {
+    "input_i": -18.5,
+    "input_tp": -5.2,
+    "input_lra": 5.0,
+    "input_thresh": -28.66
+  },
+  "samples": 1564800,
+  "peak_sample": 0.5497463941574097,
+  "non_finite_samples": 0,
+  "silence_windows": [
+    {
+      "start": 4.8,
+      "end": 6.3,
+      "core_rms_dbfs": -240.0,
+      "pass": true
+    },
+    {
+      "start": 22.3,
+      "end": 27.6,
+      "core_rms_dbfs": -240.0,
+      "pass": true
+    }
+  ],
+  "loudness_pass": true,
+  "true_peak_pass": true,
+  "duration_pass": true,
+  "actual_listening_performed": false
+}

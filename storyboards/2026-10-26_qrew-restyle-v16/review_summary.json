@@ -1,0 +1,47 @@
+{
+  "scope": "C02,C03,C04,C05,C06,C08,C09 picture captions and new scores; C07 storyboard/audio demo only",
+  "independent_reviewers": [
+    "v16_review_a",
+    "v16_review_b",
+    "v16_review_c"
+  ],
+  "workflow": [
+    "independent inspection",
+    "cross review",
+    "metadata corrections",
+    "three independent rechecks"
+  ],
+  "unresolved_mandatory_findings": [],
+  "resolved_findings": {
+    "A-001/B-001/C-002": "C02/C03 missing cue descriptions added; no missing audio",
+    "A-002/B-002": "C07 bottom-center captions override and prop labels/endcard separated",
+    "C-001": "C07 K07 transition corrected to24.2",
+    "B-003": "C04/C07 actual arrangements vs preliminary plan documented"
+  },
+  "retained_observations": {
+    "A-003": "C05 weather/axis transition and C09 hand/crop source limitations retained",
+    "C-003": "C03 27s caption covers some records, but preceding24.5s close-up supplies that information"
+  },
+  "evidence": {
+    "A": "21 contact sheets,8 full frames,4 C07 source images",
+    "B": "7 contact sheets,7 subtitle fullframes,7 endframes; additional C03 24.5/27 comparison",
+    "C": "21 contact sheets,7 fullframes,4C07 source images"
+  },
+  "technical_qa": {
+    "C02": true,
+    "C03": true,
+    "C04": true,
+    "C05": true,
+    "C06": true,
+    "C08": true,
+    "C09": true
+  },
+  "verification_limits": {
+    "actual_listening": false,
+    "realtime_continuous_playback": false,
+    "onsite_screening": false,
+    "audience_response": false
+  },
+  "new_flow_credits": 0,
+  "external_paid_api_calls": 0
+}

@@ -1,0 +1,18 @@
+{
+  "film": "C06",
+  "reviewer": "v16_render_b",
+  "scope": "Actual opening of encoded picture contact sheets and full-resolution extracted PNG; not realtime playback or listening",
+  "opened": ["contact_sheet_01.jpg", "contact_sheet_02.jpg", "contact_sheet_03.jpg", "review_frames/010.500s.png", "review_frames/019.250s.png", "review_frames/035.250s.png"],
+  "status": "CHANGED_CAPTION_AND_SCENE_UI_SAMPLE_PASS",
+  "findings": [
+    "All regular captions, including former upper-left and upper-center lines, use the common lower-center style. The two-line 10.5-second caption is readable and not clipped.",
+    "Projector, monitor comparison, checked state, foreground pen/paper and physical desk sign retain their scene placements. Their content is not moved to the subtitle region.",
+    "The gratitude cue is at 3.25–4.75 seconds; impact source .75–2.25 and seat/reaction boundaries remain the V15 values.",
+    "The static full-frame event ending begins at 44 seconds and remains present through the final frame."
+  ],
+  "unchanged_limitations": [
+    "Review covers sampled final encoded frames, not realtime continuous playback or actual audio listening."
+  ],
+  "actual_realtime_playback_verified": false,
+  "actual_listening_verified": false
+}

@@ -1,0 +1,1 @@
+C03 V15 UI compositor source snapshot, preserved byte-for-byte. The V16 group renderer reads only its safe prefix and redirects all output paths. Do not execute this historical helper as a standalone render.

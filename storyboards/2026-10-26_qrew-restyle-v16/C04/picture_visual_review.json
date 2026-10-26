@@ -1,0 +1,22 @@
+{
+  "film": "C04",
+  "reviewer": "v16_render_a",
+  "scope": "Actual extracted-image inspection of silent V16 picture; no continuous playback or listening claim",
+  "actual_images_opened": [
+    "review_frames/03.500s.png", "review_frames/06.000s.png", "review_frames/16.000s.png", "review_frames/20.000s.png", "review_frames/37.000s.png", "review_frames/39.000s.png",
+    "contact_03.jpg", "contact_05.jpg"
+  ],
+  "findings": [
+    "Full-frame action preserved with no matte or scale-down; white captions are consistently centered on the lowest safe baseline.",
+    "NOTE scene retains the original hand, envelope foreground and tracked note graphic. The 1.25x segment is exactly 96 frames from 120 raw frames, using FFmpeg fps-filter frame selection and original source timestamps for tracking.",
+    "Note-caption samples at 3.5s and 6s remain outside the hand/action area and readable over the dark wooden wall.",
+    "Tablet AI-comparison UI retains its original position and hand foreground at 16s.",
+    "Paper evidence labels remain visible above the subtitle at 20s; the former top-position punchline is now lower-center at 37s without an old box or duplicate text.",
+    "Bright outdoor-background subtitle samples and the full-frame Q-AI Fair ending remain readable and within the frame."
+  ],
+  "new_mandatory_visual_defects": [],
+  "status": "PASS_SAMPLED_PICTURE_RESTYLE",
+  "actual_continuous_playback_verified": false,
+  "actual_listening_verified": false,
+  "audio_status": "Picture is intentionally silent; parent will compose and mux new music."
+}

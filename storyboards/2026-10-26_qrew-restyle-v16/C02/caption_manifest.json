@@ -1,0 +1,194 @@
+[
+  {
+    "start": 0.3,
+    "end": 3.3,
+    "text": "어딜 봐도, 같은 흔적.",
+    "kind": "subtitle",
+    "position": "bottom_center",
+    "previous_caption_metadata": {
+      "start": 0.3,
+      "end": 3.3,
+      "text": "어딜 봐도, 같은 흔적.",
+      "position": "bottom"
+    },
+    "pos": "bottom_center",
+    "x": 640,
+    "y": 684,
+    "font_px": 38,
+    "style": "qrew_full_frame_lower_center"
+  },
+  {
+    "start": 3.75,
+    "end": 6,
+    "text": "사진부터 보시죠.",
+    "kind": "subtitle",
+    "position": "bottom_center",
+    "previous_caption_metadata": {
+      "start": 3.75,
+      "end": 6,
+      "text": "사진부터 보시죠.",
+      "position": "bottom"
+    },
+    "pos": "bottom_center",
+    "x": 640,
+    "y": 684,
+    "font_px": 38,
+    "style": "qrew_full_frame_lower_center"
+  },
+  {
+    "start": 6.5,
+    "end": 9,
+    "text": "AI가 모은 후보 3장",
+    "kind": "subtitle",
+    "position": "bottom_center",
+    "previous_caption_metadata": {
+      "start": 6.5,
+      "end": 9,
+      "text": "AI가 모은 후보 3장",
+      "position": "bottom"
+    },
+    "pos": "bottom_center",
+    "x": 640,
+    "y": 684,
+    "font_px": 38,
+    "style": "qrew_full_frame_lower_center"
+  },
+  {
+    "start": 9.25,
+    "end": 12,
+    "text": "서로 다른 사진, 같은 자리.",
+    "kind": "subtitle",
+    "position": "bottom_center",
+    "previous_caption_metadata": {
+      "start": 9.25,
+      "end": 12,
+      "text": "서로 다른 사진, 같은 자리.",
+      "position": "bottom"
+    },
+    "pos": "bottom_center",
+    "x": 640,
+    "y": 684,
+    "font_px": 38,
+    "style": "qrew_full_frame_lower_center"
+  },
+  {
+    "start": 12.4,
+    "end": 14.15,
+    "text": "촬영창을 닦고…",
+    "kind": "subtitle",
+    "position": "bottom_center",
+    "previous_caption_metadata": {
+      "start": 12.4,
+      "end": 14.15,
+      "text": "촬영창을 닦고…",
+      "position": "bottom"
+    },
+    "pos": "bottom_center",
+    "x": 640,
+    "y": 684,
+    "font_px": 38,
+    "style": "qrew_full_frame_lower_center"
+  },
+  {
+    "start": 14.3,
+    "end": 16.1,
+    "text": "점이 사라졌다.",
+    "kind": "subtitle",
+    "position": "bottom_center",
+    "previous_caption_metadata": {
+      "start": 14.3,
+      "end": 16.1,
+      "text": "점이 사라졌다.",
+      "position": "bottom"
+    },
+    "pos": "bottom_center",
+    "x": 640,
+    "y": 684,
+    "font_px": 38,
+    "style": "qrew_full_frame_lower_center"
+  },
+  {
+    "start": 16.5,
+    "end": 20.6,
+    "text": "이제 못 움직여.",
+    "kind": "subtitle",
+    "position": "bottom_center",
+    "previous_caption_metadata": {
+      "start": 16.5,
+      "end": 20.6,
+      "text": "이제 못 움직여.",
+      "position": "bottom"
+    },
+    "pos": "bottom_center",
+    "x": 640,
+    "y": 684,
+    "font_px": 38,
+    "style": "qrew_full_frame_lower_center"
+  },
+  {
+    "start": 20.85,
+    "end": 22.15,
+    "text": "이번엔 수갑이…",
+    "kind": "subtitle",
+    "position": "bottom_center",
+    "previous_caption_metadata": {
+      "start": 20.85,
+      "end": 22.15,
+      "text": "이번엔 수갑이…",
+      "position": "bottom"
+    },
+    "pos": "bottom_center",
+    "x": 640,
+    "y": 684,
+    "font_px": 38,
+    "style": "qrew_full_frame_lower_center"
+  },
+  {
+    "start": 23.55,
+    "end": 25.85,
+    "text": "새로운 사례 확보.",
+    "kind": "subtitle",
+    "position": "bottom_center",
+    "previous_caption_metadata": {
+      "start": 23.55,
+      "end": 25.85,
+      "text": "새로운 사례 확보.",
+      "position": "bottom"
+    },
+    "pos": "bottom_center",
+    "x": 640,
+    "y": 684,
+    "font_px": 38,
+    "style": "qrew_full_frame_lower_center"
+  },
+  {
+    "start": 29.1,
+    "end": 31.4,
+    "text": "이 사례는 직접 설명하시죠.",
+    "kind": "subtitle",
+    "position": "bottom_center",
+    "previous_caption_metadata": {
+      "start": 29.1,
+      "end": 31.4,
+      "text": "이 사례는 직접 설명하시죠.",
+      "position": "top"
+    },
+    "pos": "bottom_center",
+    "x": 640,
+    "y": 684,
+    "font_px": 38,
+    "style": "qrew_full_frame_lower_center"
+  },
+  {
+    "start": 31.5,
+    "end": 36.25,
+    "text": "Q-AI Fair\nAI 실행의 과정까지, 함께 봐요.\n품질팀 AI 성과 교류회",
+    "kind": "endcard",
+    "position": "existing_full_frame_ending",
+    "previous_caption_metadata": {
+      "start": 31.5,
+      "end": 36.25,
+      "text": "Q-AI Fair\nAI 실행의 과정까지, 함께 봐요.\n품질팀 AI 성과 교류회"
+    }
+  }
+]

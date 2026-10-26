@@ -1,0 +1,44 @@
+[
+  {
+    "source": "\\\\wsl.localhost\\Ubuntu-24.04\\home\\wooseok\\wsy\\motion\\qrew_old\\v8-recut\\create_audio.py",
+    "sha256": "d8009bf7a856e7b0acef078c9d0e948caabce08f8a7c8a7dee967bdcb1d41010",
+    "functions": [
+      "axis",
+      "hz",
+      "fade",
+      "noise",
+      "kick",
+      "snare",
+      "hat",
+      "rim",
+      "conga",
+      "funk_bass",
+      "clav",
+      "electric_key",
+      "brass_stab"
+    ],
+    "scope": "instrument DSP definitions only; no existing musical events or audio"
+  },
+  {
+    "source": "\\\\wsl.localhost\\Ubuntu-24.04\\home\\wooseok\\wsy\\motion\\qrew_old\\v5-fullvideo\\create_audio.py",
+    "sha256": "e378f360acf7bf311fc44705f2302e1c7f4d88bcc355155d51afc6f43dce6a13",
+    "functions": [
+      "strings",
+      "low_blast",
+      "kettle",
+      "pluck",
+      "chime"
+    ],
+    "scope": "instrument DSP definitions only; no existing musical events or audio"
+  },
+  {
+    "source": "\\\\wsl.localhost\\Ubuntu-24.04\\home\\wooseok\\wsy\\motion\\qrew_old\\v6\\create_audio.py",
+    "sha256": "9f8eb9137e7381112109aad276336fdeb94ce62e7a65bfb05bd55fe1aab60b40",
+    "functions": [
+      "submarine",
+      "suspended_tone",
+      "depth_pulse"
+    ],
+    "scope": "instrument DSP definitions only; no existing musical events or audio"
+  }
+]

@@ -1,0 +1,1165 @@
+{
+  "schema_version": "1.0",
+  "run_id": "2026-10-26_qrew-restyle-v16",
+  "created_date": "2026-10-26",
+  "author_role": "promo_storyboard_director_music_direction",
+  "event_name": "Q-AI Fair",
+  "scope": "C02~C09 8항목. 기존 영상 7편 재음악 설계와 C07 32.6초 별도 음원 데모 설계. 실제 음원 제작은 총괄 담당.",
+  "real_time_listening_verified": false,
+  "audio_heard": false,
+  "review_basis": {
+    "method": "최신 EDL/편집 매니페스트, 기존 오디오 레시피와 생성 코드, 아래에 명시한 실제 접촉 시트 이미지를 확인한 편집/연출 설계 검토.",
+    "limits": "원본 또는 새 음악의 실시간 연속 재생/실청취는 수행하지 않았다. 코드상 구조와 장면 적합성 판단이며 실제 청취 합격이나 최종 믹스 검증이 아니다.",
+    "sources": [
+      "AGENTS.md",
+      "team/brief.toml",
+      "storyboards/2026-10-26_screening-style-v15/*/edit_manifest.json",
+      "storyboards/2026-10-26_C08-C09-edit-v15/C08/edit_manifest.json",
+      "storyboards/2026-10-26_C08-C09-edit-v15/C09/edit_manifest.json",
+      "storyboards/2026-10-26_C08-C09-edit-v15/render_c08_v15.py",
+      "storyboards/2026-10-26_C08-C09-edit-v15/render_c09_v15.py",
+      "storyboards/2026-10-26_C08-C09-edit-v15/media_common.py",
+      "storyboards/2026-10-26_C01-C07-C10-rewrite-v15/storyboards.json",
+      "../../../motion/qrew_old/v8-recut/create_audio.py",
+      "../../../motion/qrew_old/v7-recut/",
+      "../../../motion/qrew_old/v5-fullvideo/",
+      "../../../motion/qrew_old/v6/"
+    ],
+    "qrew_reference_use": "이벤트 확대에 따라 편성층이 늘어남, 반전에 음악/잔향 동시 중단, 짧고 다른 응답 구절이라는 구조만 참고. 원곡/음열/샘플/128 BPM 고정 복사 없음.",
+    "timeline_basis": "시간은 기존 편집본/새 C07 콘티의 시작부터 초 단위. 장면 타이밍을 유지하는 음악 큐 제안이며 실제 렌더 검증 때 접촉 시점을 미세 조정한다."
+  },
+  "global_rules": [
+    "7편마다 새 3~5음의 서로 다른 동기를 작곡한다. 기존 공통 8음열 [38,38,45,41,38,43,41,36]을 재사용하지 않는다.",
+    "같은 음열을 악기만 바꿔 모든 작품에 넣지 않는다. 4마디 단위 질문/답/쉼/편성 변화로 전개한다.",
+    "한 작품에서는 같은 동기의 변형으로 이야기 단계를 잇고 컷마다 임의의 새 곡을 넣지 않는다.",
+    "모든 silence_windows에서 음악 본음과 리버브를 함께 비운다. 클릭 방지용 4~8ms 경계 램프는 허용한다.",
+    "필수 음성대사/나레이션/가사/사람 목소리 샘플 없음. 내용은 화면+후처리 하단 중앙 자막으로 전달한다.",
+    "물리 효과음은 화면의 확인된 접촉에만 맞춘다. 웃음 지시용 보잉/실패 경보/임의 충격음으로 장면을 덮지 않는다.",
+    "C07은 아직 영상이 없으므로 음악 데모만 분리하며 완성 영상으로 표시하지 않는다.",
+    "음원 실청취와 영상 연속 재생을 수행한 주체만 그 검증을 완료로 표시한다."
+  ],
+  "mix_starting_point": {
+    "integrated_lufs": -18,
+    "true_peak_dbtp_max": -2,
+    "status": "제작 시작 제안값, 실청취 합격 판정 아님",
+    "reason": "기존 -23 LUFS 근처보다 음악 질감을 들을 수 있게 하되 반전의 정적과 장면별 대비를 보존. 소음 환경에서도 자막이 정보의 주체."
+  },
+  "available_local_resources": {
+    "soundfont_engine": "C:/Users/wseok/.cache/codex-media-tools/tinysoundfont",
+    "soundfont": "C:/Users/wseok/.cache/codex-media-tools/soundfonts/GeneralUser-GS-2.0.3/GeneralUser-GS.sf2",
+    "music_model_cached": false,
+    "model_cache_checked": "C:/Users/wseok/.cache/codex-media-tools/models",
+    "generation_suggestion": "총괄이 새 동기와 편성을 작곡해 SoundFont와 로컬 DSP 타격/베이스/건반 레이어를 조합. 기존 qrew DSP는 질감 구성 방식만 읽기 전용 참고하고 원곡 음열은 복사하지 않는다."
+  },
+  "films": [
+    {
+      "id": "C02",
+      "duration": 36.25,
+      "status": "existing_video_restyle",
+      "genre": "탐정 누아르 그루브",
+      "bpm": 100,
+      "motif_intent": "세 음의 짧은 질문 동기를 베이스와 클라비가 주고받는다. AI 활용이 풀어낸 문제와 새로 나타난 작은 문제를 같은 동기의 확신/머뭇거림으로 구별한다.",
+      "sections": [
+        {
+          "start": 0,
+          "end": 6.25,
+          "mood": "의심을 품은 수사 시작",
+          "instruments": [
+            "둥근 저음 베이스",
+            "브러시",
+            "낮은 전기피아노"
+          ],
+          "reason": "세 음 질문 동기를 드문 간격으로 제시해 첫 단서를 바라보게 한다."
+        },
+        {
+          "start": 6.25,
+          "end": 12.25,
+          "mood": "단서를 붙잡은 자신감",
+          "instruments": [
+            "베이스",
+            "짧은 클라비",
+            "닫힌 하이햇"
+          ],
+          "reason": "AI 사진 근거와 실제 확인에 맞춰 리듬의 정보량을 한 층 늘린다."
+        },
+        {
+          "start": 12.25,
+          "end": 14.3,
+          "mood": "작은 동작에 집중",
+          "instruments": [
+            "짧은 베이스",
+            "브러시"
+          ],
+          "reason": "닦는 손과 표면 변화를 읽을 수 있게 고음 선율을 뺀다."
+        },
+        {
+          "start": 14.3,
+          "end": 14.9,
+          "mood": "사라진 점을 확인하는 정적",
+          "instruments": [],
+          "reason": "점이 없어진 결과를 관객이 먼저 알아볼 0.6초."
+        },
+        {
+          "start": 14.9,
+          "end": 20.75,
+          "mood": "해결했다고 믿는 안정",
+          "instruments": [
+            "베이스",
+            "클라비",
+            "림",
+            "전기피아노"
+          ],
+          "reason": "처음 동기를 완결형으로 답하며 자신감을 만든다."
+        },
+        {
+          "start": 20.75,
+          "end": 21.65,
+          "mood": "소매가 새 문제로 바뀌는 정적",
+          "instruments": [],
+          "reason": "새 결함의 공개에 음악과 잔향을 동시에 끊는다."
+        },
+        {
+          "start": 21.65,
+          "end": 31.5,
+          "mood": "담담한 사건 재개",
+          "instruments": [
+            "간결한 베이스",
+            "짧은 클라비",
+            "브러시"
+          ],
+          "reason": "반전 뒤 과장된 실패음 대신 수사 기록을 이어가는 같은 테마의 축소판."
+        },
+        {
+          "start": 31.5,
+          "end": 36.25,
+          "mood": "작은 해결과 행사 연결",
+          "instruments": [
+            "전기피아노",
+            "부드러운 베이스"
+          ],
+          "reason": "승리 팡파르 없이 질문 동기를 짧게 해결하고 카드 가독성을 남긴다."
+        }
+      ],
+      "silence_windows": [
+        {
+          "start": 14.3,
+          "end": 14.9,
+          "scope": "music_and_reverb",
+          "reason": "표면 점 소거 확인"
+        },
+        {
+          "start": 20.75,
+          "end": 21.65,
+          "scope": "music_and_reverb",
+          "reason": "소매의 새 결함 반전"
+        }
+      ],
+      "known_old_problems": [
+        "C04와 베이스 음열 [38,38,45,41,38,43,41,36] 및 약 0.8초 간격이 동일하여 서로 다른 장르가 희석됨.",
+        "작은 피치카토/짧은 음표 반복만으로 모든 상황의 웃음을 예고하면 수사물의 진지함이 약해짐."
+      ],
+      "source_manifest": "storyboards/2026-10-26_screening-style-v15/C02/edit_manifest.json",
+      "reviewed_contact_images": [
+        "storyboards/2026-10-26_screening-style-v15/C02/contact_04.jpg"
+      ],
+      "review_basis": {
+        "audio_heard": false,
+        "real_time_continuous_playback_verified": false,
+        "method": "최신 EDL/기존 음악 코드/열람한 접촉 시트의 장면 기능 비교.",
+        "image_review_scope": "명시한 접촉 시트만 실제 열람. 전체 연속 영상 시청을 의미하지 않음."
+      }
+    },
+    {
+      "id": "C03",
+      "duration": 43,
+      "status": "existing_video_restyle",
+      "genre": "산업 드라마와 거대한 운송 행진",
+      "bpm": 108,
+      "motif_intent": "낮은 아날로그 펄스를 중심으로 환경이 하나씩 늘 때 리듬 층도 늘린다. 우스운 악기보다 과도하게 진지한 물류 규모가 장면의 부조리를 뒷받침한다.",
+      "sections": [
+        {
+          "start": 0,
+          "end": 6,
+          "mood": "산업 현장의 조용한 긴장",
+          "instruments": [
+            "낮은 아날로그 펄스",
+            "절제된 서스펜디드 패드"
+          ],
+          "reason": "환경을 가져온다는 설정에 규모를 먼저 부여한다."
+        },
+        {
+          "start": 6,
+          "end": 12.5,
+          "mood": "첫 환경의 운송",
+          "instruments": [
+            "저음 펄스",
+            "마른 킥",
+            "금속성 짧은 건반"
+          ],
+          "reason": "물리적 이동의 진지함을 리듬으로 받친다."
+        },
+        {
+          "start": 12.5,
+          "end": 13.5,
+          "mood": "장갑 디테일 집중",
+          "instruments": [
+            "낮은 패드"
+          ],
+          "reason": "손의 상태와 연결을 볼 수 있게 타격음을 줄인다."
+        },
+        {
+          "start": 13.5,
+          "end": 18.75,
+          "mood": "두 번째 환경까지 확대",
+          "instruments": [
+            "더 넓은 베이스",
+            "8분음 리듬",
+            "짧은 금속 건반"
+          ],
+          "reason": "첫 단계보다 한 겹 커지되 새로운 곡으로 갈아타지 않는다."
+        },
+        {
+          "start": 18.75,
+          "end": 19.5,
+          "mood": "답변 앞의 정지",
+          "instruments": [],
+          "reason": "동료의 자막 반응 직전에 기대를 멈춘다."
+        },
+        {
+          "start": 19.5,
+          "end": 23.25,
+          "mood": "조건을 읽는 시간",
+          "instruments": [
+            "아주 낮은 펄스"
+          ],
+          "reason": "긴 자막을 읽는 동안 선율의 주장을 줄인다."
+        },
+        {
+          "start": 23.25,
+          "end": 29,
+          "mood": "비교와 발견",
+          "instruments": [
+            "명료한 건반",
+            "펄스",
+            "얇은 패드"
+          ],
+          "reason": "문서 비교의 전개를 따라 26.25초 발견 지점에서 화성을 연다."
+        },
+        {
+          "start": 29,
+          "end": 35,
+          "mood": "확인한 뒤의 결정",
+          "instruments": [
+            "베이스",
+            "마른 킥",
+            "건반 동기"
+          ],
+          "reason": "검토를 거친 행동이 이어짐을 전진 리듬으로 표시한다."
+        },
+        {
+          "start": 35,
+          "end": 37,
+          "mood": "마지막 큰 움직임",
+          "instruments": [
+            "넓은 베이스",
+            "짧은 드럼 필",
+            "패드"
+          ],
+          "reason": "실제 큰 이동이 있을 때만 규모를 다시 키운다."
+        },
+        {
+          "start": 37,
+          "end": 43,
+          "mood": "명료한 행사 연결",
+          "instruments": [
+            "밝아진 건반",
+            "부드러운 베이스"
+          ],
+          "reason": "수사적 긴장을 짧게 풀고 카드에는 잔향을 절제한다."
+        }
+      ],
+      "silence_windows": [
+        {
+          "start": 18.75,
+          "end": 19.5,
+          "scope": "music_and_reverb",
+          "reason": "동료 답변 전 기대 중단"
+        }
+      ],
+      "known_old_problems": [
+        "기존 피치카토/바순 질감은 다른 작품, 특히 C08 후반과 차별성이 부족함.",
+        "환경 운송의 규모와 확인 과정의 대비를 음악 편성 변화로 충분히 구분하지 못함."
+      ],
+      "source_manifest": "storyboards/2026-10-26_screening-style-v15/C03/edit_manifest.json",
+      "reviewed_contact_images": [
+        "storyboards/2026-10-26_screening-style-v15/C03/contact_03.jpg"
+      ],
+      "review_basis": {
+        "audio_heard": false,
+        "real_time_continuous_playback_verified": false,
+        "method": "최신 EDL/기존 음악 코드/열람한 접촉 시트의 장면 기능 비교.",
+        "image_review_scope": "명시한 접촉 시트만 실제 열람. 전체 연속 영상 시청을 의미하지 않음."
+      }
+    },
+    {
+      "id": "C04",
+      "duration": 43.5,
+      "status": "existing_video_restyle",
+      "genre": "엄숙한 잠입 행진에서 정중한 식사 왈츠로",
+      "bpm": 72,
+      "motif_intent": "군사물처럼 진지한 짧은 목관 선율을 유지하다가 식사 도구가 드러날 때 같은 동기를 3박자 건반으로 옮긴다. 초반부터 코미디 악기로 정답을 알려주지 않는다.",
+      "sections": [
+        {
+          "start": 0,
+          "end": 3,
+          "mood": "침투 전의 낮은 긴장",
+          "instruments": [
+            "5도 드론",
+            "먼 저음 북"
+          ],
+          "reason": "목마와 공간을 읽을 시간을 확보한다."
+        },
+        {
+          "start": 3,
+          "end": 11,
+          "mood": "조심스러운 잠입 행진",
+          "instruments": [
+            "낮은 북",
+            "짧은 목관",
+            "드론"
+          ],
+          "reason": "두 박의 걸음과 보고를 절도 있게 지원한다."
+        },
+        {
+          "start": 11,
+          "end": 19,
+          "mood": "의혹이 쌓이는 보고",
+          "instruments": [
+            "목관 질문 동기",
+            "작은 저음 북"
+          ],
+          "reason": "단서가 추가될 때 선율이 짧게 답한다."
+        },
+        {
+          "start": 19,
+          "end": 23,
+          "mood": "이상한 질문을 붙드는 긴장",
+          "instruments": [
+            "목관 한 음",
+            "낮은 드론"
+          ],
+          "reason": "수저를 쓰느냐는 자막에 마지막 질문음을 남긴다."
+        },
+        {
+          "start": 23,
+          "end": 28,
+          "mood": "부인과 의심",
+          "instruments": [
+            "베이스"
+          ],
+          "reason": "대답을 읽도록 편성을 줄이고 해답은 미리 설명하지 않는다."
+        },
+        {
+          "start": 28,
+          "end": 31,
+          "mood": "창문에서 드러난 정체",
+          "instruments": [],
+          "reason": "군사물 음악을 끊고 창문 속 모습을 직접 보게 한다."
+        },
+        {
+          "start": 31,
+          "end": 33.25,
+          "mood": "식사 분위기의 첫 신호",
+          "instruments": [
+            "둥근 건반 두 음",
+            "부드러운 베이스"
+          ],
+          "reason": "그릇이 보인 다음에야 정중한 식사 리듬을 시작한다."
+        },
+        {
+          "start": 33.25,
+          "end": 36.05,
+          "mood": "너무 품위 있는 식사",
+          "instruments": [
+            "전기피아노 3박자",
+            "베이스"
+          ],
+          "reason": "수저 동작과 의전의 불균형을 만든다."
+        },
+        {
+          "start": 36.05,
+          "end": 36.8,
+          "mood": "지휘관부터라는 반전",
+          "instruments": [],
+          "reason": "지휘관 자막에 정지하여 새로운 웃음의 박자를 준다."
+        },
+        {
+          "start": 36.8,
+          "end": 43.5,
+          "mood": "격식을 지킨 마무리",
+          "instruments": [
+            "3박자 건반",
+            "부드러운 베이스",
+            "얇은 현악"
+          ],
+          "reason": "처음 질문 동기를 품위 있게 해결해 행사 카드로 연결한다."
+        }
+      ],
+      "silence_windows": [
+        {
+          "start": 28,
+          "end": 31,
+          "scope": "music_and_reverb",
+          "reason": "창문 공개로 장르 전환"
+        },
+        {
+          "start": 36.05,
+          "end": 36.8,
+          "scope": "music_and_reverb",
+          "reason": "지휘관부터 자막"
+        }
+      ],
+      "known_old_problems": [
+        "C02와 같은 베이스 음열 [38,38,45,41,38,43,41,36]을 사용해 잠입물의 고유한 리듬이 사라짐.",
+        "전환 전부터 작은 우스꽝스러운 리듬을 강조하면 창문 공개의 의미가 약해짐."
+      ],
+      "source_manifest": "storyboards/2026-10-26_screening-style-v15/C04/edit_manifest.json",
+      "reviewed_contact_images": [
+        "storyboards/2026-10-26_screening-style-v15/C04/contact_06.jpg"
+      ],
+      "review_basis": {
+        "audio_heard": false,
+        "real_time_continuous_playback_verified": false,
+        "method": "최신 EDL/기존 음악 코드/열람한 접촉 시트의 장면 기능 비교.",
+        "image_review_scope": "명시한 접촉 시트만 실제 열람. 전체 연속 영상 시청을 의미하지 않음."
+      }
+    },
+    {
+      "id": "C05",
+      "duration": 46.75,
+      "status": "existing_video_restyle",
+      "genre": "괴수 재난극에서 담담한 현장 근무 그루브로",
+      "bpm": {
+        "opening": 80,
+        "workplace": 100
+      },
+      "motif_intent": "괴수의 느린 세 음 위협 동기를 사람들의 일상적인 근무 리듬 속 베이스로 바꾼다. 같은 괴수가 재난의 주인공에서 지붕을 받치는 인력으로 바뀌는 상황을 음악도 따른다.",
+      "sections": [
+        {
+          "start": 0,
+          "end": 7.25,
+          "mood": "거대한 위협",
+          "instruments": [
+            "저음 드론",
+            "느린 브라스",
+            "큰 북"
+          ],
+          "reason": "괴수의 존재를 진짜 재난처럼 제시한다."
+        },
+        {
+          "start": 7.25,
+          "end": 10.25,
+          "mood": "등장 직전의 기대",
+          "instruments": [
+            "저음 동기",
+            "단계적인 드럼"
+          ],
+          "reason": "진입 전까지 상승을 억제한다."
+        },
+        {
+          "start": 10.25,
+          "end": 13.25,
+          "mood": "실제 진입의 절정",
+          "instruments": [
+            "브라스",
+            "큰 북",
+            "저음 드론"
+          ],
+          "reason": "괴수가 들어오는 한 번의 사건에 한 번만 크게 상승한다."
+        },
+        {
+          "start": 13.25,
+          "end": 14.25,
+          "mood": "예상 밖 상황의 정적",
+          "instruments": [],
+          "reason": "어…? 반응에서 재난 음악을 완전히 끊는다."
+        },
+        {
+          "start": 14.25,
+          "end": 21.75,
+          "mood": "목을 빼는 불편한 대기",
+          "instruments": [
+            "낮게 지속되는 한 음",
+            "얇은 긴장 패드"
+          ],
+          "reason": "컷마다 충돌음을 새로 넣지 않고 하나의 미완료 상황으로 잇는다."
+        },
+        {
+          "start": 21.75,
+          "end": 24.25,
+          "mood": "근무 현장으로 시선 전환",
+          "instruments": [
+            "뮤트 베이스",
+            "림",
+            "짧은 건반"
+          ],
+          "reason": "실제 작업자 컷이 나온 뒤에만 업무 그루브를 시작한다."
+        },
+        {
+          "start": 24.25,
+          "end": 31.5,
+          "mood": "부탁과 기다림",
+          "instruments": [
+            "담담한 베이스",
+            "림",
+            "절제된 건반"
+          ],
+          "reason": "괴수의 고충을 음악이 먼저 희화화하지 않는다."
+        },
+        {
+          "start": 31.5,
+          "end": 36.85,
+          "mood": "사람들은 가고 괴수만 남음",
+          "instruments": [
+            "단계적으로 줄어드는 베이스와 림"
+          ],
+          "reason": "사람이 떠날 때마다 밀도를 줄여 혼자 남은 상태를 드러낸다."
+        },
+        {
+          "start": 36.85,
+          "end": 39,
+          "mood": "응답 없는 확인",
+          "instruments": [
+            "첫 베이스 한 음 후 음악 없음"
+          ],
+          "reason": "들리세요?에 강한 효과음을 얹지 않고 빈 공간으로 답한다."
+        },
+        {
+          "start": 39,
+          "end": 41.75,
+          "mood": "놓았다 다시 받치는 작은 동작",
+          "instruments": [
+            "괴수 동기의 세 음 베이스"
+          ],
+          "reason": "손의 동작만 읽히게 드럼 없이 초반 동기를 작게 돌려준다."
+        },
+        {
+          "start": 41.75,
+          "end": 46.75,
+          "mood": "행사로의 짧은 해결",
+          "instruments": [
+            "밝은 건반",
+            "부드러운 베이스"
+          ],
+          "reason": "괴수의 상황을 뒤덮는 긴 승리 음악 없이 카드로 마무리한다."
+        }
+      ],
+      "silence_windows": [
+        {
+          "start": 13.25,
+          "end": 14.25,
+          "scope": "music_and_reverb",
+          "reason": "어…? 반전"
+        },
+        {
+          "start": 37.35,
+          "end": 39,
+          "scope": "music_and_reverb",
+          "reason": "첫 저음의 꼬리를 마친 뒤 응답 없는 공간"
+        }
+      ],
+      "known_old_problems": [
+        "구성 변경 이전의 8.5–21.75초 지속 현악 브리지를 재사용하여 현재 46.75초 영상의 진입/퇴각/작업자 전환에 음악이 정확히 맞지 않음.",
+        "반복되는 컷 경계마다 음악 타격이 생기면 하나의 지붕 지지 상황이 여러 독립 사건처럼 들릴 우려."
+      ],
+      "source_manifest": "storyboards/2026-10-26_screening-style-v15/C05/edit_manifest.json",
+      "reviewed_contact_images": [
+        "storyboards/2026-10-26_screening-style-v15/C05/contact_05.jpg"
+      ],
+      "review_basis": {
+        "audio_heard": false,
+        "real_time_continuous_playback_verified": false,
+        "method": "최신 EDL/기존 음악 코드/열람한 접촉 시트의 장면 기능 비교.",
+        "image_review_scope": "명시한 접촉 시트만 실제 열람. 전체 연속 영상 시청을 의미하지 않음."
+      }
+    },
+    {
+      "id": "C06",
+      "duration": 48.75,
+      "status": "existing_video_restyle",
+      "genre": "고딕 전자음에서 심야 라운지와 되돌아온 업무 리듬으로",
+      "bpm": 96,
+      "motif_intent": "작업 리듬을 귀신의 성격처럼 유지한다. 해방 직후 잠깐 쉬는 라운지를 제공하고 새 질문이 오면 익숙한 업무 리듬이 되돌아오는 콜백으로 끝낸다.",
+      "sections": [
+        {
+          "start": 0,
+          "end": 5,
+          "mood": "고요한 괴담",
+          "instruments": [
+            "단음 전자음",
+            "저음 패드"
+          ],
+          "reason": "과장된 웃음 없이 귀신의 정체를 먼저 보여준다."
+        },
+        {
+          "start": 5,
+          "end": 6.5,
+          "mood": "실제 접촉의 악센트",
+          "instruments": [
+            "짧은 저음 타격",
+            "패드"
+          ],
+          "reason": "책상과 손의 확인된 접촉 시점에만 한 번 강조한다."
+        },
+        {
+          "start": 6.5,
+          "end": 14.25,
+          "mood": "귀신도 일하는 리듬",
+          "instruments": [
+            "전기피아노",
+            "짧은 베이스",
+            "마른 킥"
+          ],
+          "reason": "업무 진행에 따라 고딕 질감에 규칙적인 일상 박자를 더한다."
+        },
+        {
+          "start": 14.25,
+          "end": 20.75,
+          "mood": "확인 과정",
+          "instruments": [
+            "안정된 건반 화성",
+            "조용한 베이스"
+          ],
+          "reason": "문서와 자막 읽기를 방해하지 않게 채운 리듬을 유지한다."
+        },
+        {
+          "start": 20.75,
+          "end": 25.75,
+          "mood": "끝났다는 해방감",
+          "instruments": [
+            "층이 차례로 빠지는 건반과 베이스"
+          ],
+          "reason": "완료와 퇴장에 맞춰 노동의 리듬을 해체한다."
+        },
+        {
+          "start": 25.75,
+          "end": 28.75,
+          "mood": "짧은 심야 휴식",
+          "instruments": [
+            "느긋한 전기피아노",
+            "부드러운 베이스",
+            "브러시"
+          ],
+          "reason": "완료 이후의 해방을 1마디 라운지로 느끼게 한다."
+        },
+        {
+          "start": 28.75,
+          "end": 29.5,
+          "mood": "새 방문자의 등장",
+          "instruments": [],
+          "reason": "음악을 끊어 다음 질문의 침입을 드러낸다."
+        },
+        {
+          "start": 29.5,
+          "end": 33.25,
+          "mood": "질문을 읽는 기다림",
+          "instruments": [
+            "얇은 저음 한 음"
+          ],
+          "reason": "자막이 전달하는 질문이 중심이 되도록 둔다."
+        },
+        {
+          "start": 33.25,
+          "end": 37.75,
+          "mood": "교류회 안내",
+          "instruments": [
+            "질서 있는 전기피아노",
+            "낮은 베이스"
+          ],
+          "reason": "Q-AI Fair 정보에 불필요한 공포를 남기지 않는다."
+        },
+        {
+          "start": 37.75,
+          "end": 41.75,
+          "mood": "다시 시작되는 일",
+          "instruments": [
+            "초반 업무 리듬",
+            "작은 킥",
+            "베이스"
+          ],
+          "reason": "방문자가 앉으면서 이전 업무 동기를 조용히 재현한다."
+        },
+        {
+          "start": 41.75,
+          "end": 42.5,
+          "mood": "귀신의 반응",
+          "instruments": [],
+          "reason": "정면 반응에 음악의 설명을 빼고 화면의 웃음을 둔다."
+        },
+        {
+          "start": 42.5,
+          "end": 48.75,
+          "mood": "담담한 콜백 해결",
+          "instruments": [
+            "전기피아노",
+            "베이스"
+          ],
+          "reason": "새 곡이 아니라 돌아온 업무 동기를 작게 마무리한다."
+        }
+      ],
+      "silence_windows": [
+        {
+          "start": 28.75,
+          "end": 29.5,
+          "scope": "music_and_reverb",
+          "reason": "새 방문자 출현"
+        },
+        {
+          "start": 41.75,
+          "end": 42.5,
+          "scope": "music_and_reverb",
+          "reason": "귀신 반응"
+        }
+      ],
+      "known_old_problems": [
+        "장면 기능이 공포/완료/휴식/새 업무로 바뀌는데 동일한 짧은 음표 질감만 이어지면 반전이 평평해짐.",
+        "책상 충격 등 효과음은 실제 화면 접촉에만 맞춰야 하며 음악으로 임의의 추가 충돌을 만들지 않음."
+      ],
+      "source_manifest": "storyboards/2026-10-26_screening-style-v15/C06/edit_manifest.json",
+      "reviewed_contact_images": [
+        "storyboards/2026-10-26_screening-style-v15/C06/contact_06.jpg"
+      ],
+      "review_basis": {
+        "audio_heard": false,
+        "real_time_continuous_playback_verified": false,
+        "method": "최신 EDL/기존 음악 코드/열람한 접촉 시트의 장면 기능 비교.",
+        "image_review_scope": "명시한 접촉 시트만 실제 열람. 전체 연속 영상 시청을 의미하지 않음."
+      }
+    },
+    {
+      "id": "C07",
+      "duration": 32.6,
+      "status": "audio_demo_only",
+      "genre": "고급 미식 심사실의 과하게 진지한 실내악 왈츠",
+      "bpm": 90,
+      "motif_intent": "완성작 서빙 테마를 수정 초안 통에 더 진지하게 재현한다. 의자 이동에서는 음악을 빼고 동작의 경쟁심이 화면으로 보이게 한다. 아직 영상은 없으므로 32.6초 음악 예시만 별도 제작한다.",
+      "sections": [
+        {
+          "start": 0,
+          "end": 4,
+          "mood": "정중한 완성작 서빙",
+          "instruments": [
+            "피아노",
+            "레가토 현악",
+            "낮은 현 베이스"
+          ],
+          "reason": "실제 미식 심사처럼 진지한 3박자 테마를 제시한다."
+        },
+        {
+          "start": 4,
+          "end": 4.8,
+          "mood": "레시피를 읽는 기대",
+          "instruments": [
+            "짧은 현악 한 음"
+          ],
+          "reason": "한 줄뿐인 카드의 빈약함을 드러내기 직전 선율을 멈춘다."
+        },
+        {
+          "start": 4.8,
+          "end": 6.3,
+          "mood": "한 줄 레시피의 정적",
+          "instruments": [],
+          "reason": "기존 콘티의 5.5초 정지보다 0.7초 당겨 빈 레시피 반전을 강조하는 제안."
+        },
+        {
+          "start": 6.3,
+          "end": 8,
+          "mood": "굳은 표정",
+          "instruments": [
+            "아주 작은 피아노 한 음"
+          ],
+          "reason": "웃기는 효과음 없이 정중함을 간신히 유지한다."
+        },
+        {
+          "start": 8,
+          "end": 11,
+          "mood": "기록통으로 향하는 시선",
+          "instruments": [
+            "희박한 피아노"
+          ],
+          "reason": "수정 초안을 폐기물로 암시하는 소리 없이 관심의 이동만 받친다."
+        },
+        {
+          "start": 11,
+          "end": 15,
+          "mood": "귀한 것을 발견한 듯한 과장",
+          "instruments": [
+            "상승하는 현악",
+            "낮은 베이스",
+            "작은 맑은 종"
+          ],
+          "reason": "수정 기록통을 올릴 때 지나치게 고귀한 한 마디로 취급한다."
+        },
+        {
+          "start": 15,
+          "end": 19,
+          "mood": "정식 서빙의 재현",
+          "instruments": [
+            "더 진지한 피아노 왈츠",
+            "레가토 현악"
+          ],
+          "reason": "처음 서빙 동기를 다시 쓰되 더 정중하게 만든다."
+        },
+        {
+          "start": 19,
+          "end": 22.3,
+          "mood": "수정 과정의 공개",
+          "instruments": [
+            "현악 스웰",
+            "피아노"
+          ],
+          "reason": "통 공개를 완성작보다 중요한 일처럼 확대한다."
+        },
+        {
+          "start": 22.3,
+          "end": 27.6,
+          "mood": "의자 세 번과 마지막 시선",
+          "instruments": [],
+          "reason": "23–24.2/24.2–25.4/25.4–27.6초의 이동과 마지막 비교 반응을 음악 없이 남긴다. 실제 의자 SFX는 영상 생성 후 접촉 확인에 맞춘다."
+        },
+        {
+          "start": 27.6,
+          "end": 32.6,
+          "mood": "격식을 지킨 행사 카드",
+          "instruments": [
+            "피아노 두 음",
+            "얇은 현악"
+          ],
+          "reason": "처음 동기를 두 음으로 정리하고 32.1–32.6초에 페이드한다."
+        }
+      ],
+      "silence_windows": [
+        {
+          "start": 4.8,
+          "end": 6.3,
+          "scope": "music_and_reverb",
+          "reason": "빈 레시피 카드"
+        },
+        {
+          "start": 22.3,
+          "end": 27.6,
+          "scope": "music_and_reverb",
+          "reason": "의자 이동과 시선 반응"
+        }
+      ],
+      "known_old_problems": [
+        "완성 영상과 기존 BGM이 없으므로 청취 불만족을 판정한 항목이 아님. 사용자 2~9 검토 범위에 포함되는 새 음악 설계/샘플 대상.",
+        "수정 초안 통은 깨끗한 문서 기록통이며 쓰레기통·폐기 효과음으로 표현하면 핵심 메시지가 손상됨."
+      ],
+      "source_manifest": "storyboards/2026-10-26_C01-C07-C10-rewrite-v15/storyboards.json",
+      "reviewed_contact_images": [],
+      "video_exists": false,
+      "review_basis": {
+        "audio_heard": false,
+        "real_time_continuous_playback_verified": false,
+        "method": "콘티 시간표/음악 큐를 읽은 계획 검토. 실제 영상 없음.",
+        "image_review_scope": "이 음악 설계 단계에서는 실제 이미지 청취/영상 재생 없음."
+      }
+    },
+    {
+      "id": "C08",
+      "duration": 53,
+      "status": "existing_video_restyle",
+      "genre": "평범한 업무에서 진짜 영웅 액션을 거쳐 수리 노동으로",
+      "bpm": {
+        "work": 104,
+        "hero": 120,
+        "repair": 104
+      },
+      "motif_intent": "처음 업무 테마와 마지막 수리 테마를 연결하고 영웅만 별도의 거대한 브라스 동기를 갖는다. 구하러 왔지만 일이 이미 끝난 순간 영웅의 음악도 자리 잃는다.",
+      "sections": [
+        {
+          "start": 0,
+          "end": 2.75,
+          "mood": "짧은 위급함",
+          "instruments": [
+            "낮은 펄스",
+            "짧은 긴장 패드"
+          ],
+          "reason": "긴급 상황의 시작을 알리되 아직 영웅 음악을 사용하지 않는다."
+        },
+        {
+          "start": 2.75,
+          "end": 6.75,
+          "mood": "평범한 동료의 진입",
+          "instruments": [
+            "마른 킥",
+            "작은 베이스",
+            "건반"
+          ],
+          "reason": "동료의 일상적인 행동과 초현실 영웅의 등장을 구별한다."
+        },
+        {
+          "start": 6.75,
+          "end": 15.5,
+          "mood": "이미 해결되고 확인되는 일",
+          "instruments": [
+            "정돈된 업무 그루브",
+            "뮤트 기타",
+            "베이스"
+          ],
+          "reason": "AI 적용과 사람 확인을 완성된 업무 리듬으로 보여준다."
+        },
+        {
+          "start": 15.5,
+          "end": 19.55,
+          "mood": "뒤늦게 온 진짜 영웅",
+          "instruments": [
+            "넓은 액션 브라스",
+            "큰 킥",
+            "저음 베이스"
+          ],
+          "reason": "실제 벽 진입부터 처음으로 영웅 테마를 전면에 올린다."
+        },
+        {
+          "start": 19.55,
+          "end": 23.1,
+          "mood": "착지 뒤 영웅적 기대",
+          "instruments": [
+            "영웅 테마 마지막 긴 음",
+            "절제된 저음"
+          ],
+          "reason": "도착한 영웅의 자부심을 마지막 순간까지 진지하게 유지한다."
+        },
+        {
+          "start": 23.1,
+          "end": 24.3,
+          "mood": "끝났는데요의 정적",
+          "instruments": [],
+          "reason": "자막 시작과 동시에 음악 및 모든 잔향을 끊는다."
+        },
+        {
+          "start": 24.3,
+          "end": 26.75,
+          "mood": "머쓱한 방 안",
+          "instruments": [],
+          "reason": "영웅 반응을 웃기는 효과음으로 덮지 않는다."
+        },
+        {
+          "start": 26.75,
+          "end": 36.25,
+          "mood": "여기는 아직이라는 수리 노동",
+          "instruments": [
+            "뮤트 기타",
+            "림",
+            "둥근 베이스"
+          ],
+          "reason": "벽 수리라는 실제 남은 일에 일상 업무 리듬을 돌려준다."
+        },
+        {
+          "start": 36.25,
+          "end": 37.75,
+          "mood": "수평 확인",
+          "instruments": [
+            "줄인 베이스와 기타"
+          ],
+          "reason": "수평계 확인을 읽을 수 있게 악기층을 덜어낸다."
+        },
+        {
+          "start": 37.75,
+          "end": 38.55,
+          "mood": "다시요의 정적",
+          "instruments": [],
+          "reason": "수리 결과가 한 번 더 뒤집힐 때 분명한 쉼을 준다."
+        },
+        {
+          "start": 38.55,
+          "end": 48,
+          "mood": "조금 더 작아진 수리 반복",
+          "instruments": [
+            "조용한 업무 그루브",
+            "뮤트 기타",
+            "작은 베이스"
+          ],
+          "reason": "손을 완전히 놓는 마무리까지 일의 리듬을 유지한다."
+        },
+        {
+          "start": 48,
+          "end": 53,
+          "mood": "일을 끝낸 쪽의 마무리",
+          "instruments": [
+            "업무 테마 건반",
+            "부드러운 베이스"
+          ],
+          "reason": "영웅 승리 팡파르가 아니라 실제 업무 테마를 해결한다."
+        }
+      ],
+      "silence_windows": [
+        {
+          "start": 23.1,
+          "end": 26.75,
+          "scope": "music_and_reverb",
+          "reason": "끝났는데요 자막부터 머쓱한 반응까지"
+        },
+        {
+          "start": 37.75,
+          "end": 38.55,
+          "scope": "music_and_reverb",
+          "reason": "다시요 자막"
+        }
+      ],
+      "known_old_problems": [
+        "기존 영웅 브라스가 2.75초부터 시작하여 실제 영웅 등장 15.5초보다 12.75초 빠르고 AI 업무 확인 구간까지 덮음.",
+        "기존 후반 바순/피치카토 질감은 C03과 겹침.",
+        "23.1초 반전은 음악 본음뿐 아니라 리버브 꼬리도 동시에 중지해야 함."
+      ],
+      "source_manifest": "storyboards/2026-10-26_C08-C09-edit-v15/C08/edit_manifest.json",
+      "reviewed_contact_images": [
+        "storyboards/2026-10-26_C08-C09-edit-v15/C08/contact_04.jpg",
+        "storyboards/2026-10-26_C08-C09-edit-v15/C08/contact_09.jpg"
+      ],
+      "review_basis": {
+        "audio_heard": false,
+        "real_time_continuous_playback_verified": false,
+        "method": "최신 EDL/기존 음악 코드/열람한 접촉 시트의 장면 기능 비교.",
+        "image_review_scope": "명시한 접촉 시트만 실제 열람. 전체 연속 영상 시청을 의미하지 않음."
+      }
+    },
+    {
+      "id": "C09",
+      "duration": 44,
+      "status": "existing_video_restyle",
+      "genre": "진심 어린 이별 멜로드라마와 끝내 해결되지 않는 여운",
+      "bpm": 76,
+      "motif_intent": "독창적인 피아노 선율을 작별과 귀환에 반복해 감정적 기대를 실제로 쌓는다. 충전기 자막 전까지 코미디를 예고하지 않으며, 버스를 놓친 뒤에는 같은 선율의 끝을 해결하지 않는다.",
+      "sections": [
+        {
+          "start": 0,
+          "end": 2.5,
+          "mood": "작은 복선",
+          "instruments": [
+            "피아노"
+          ],
+          "reason": "충전기 복선에는 단순한 첫 구절만 배치하고 장난스런 소리를 쓰지 않는다."
+        },
+        {
+          "start": 2.5,
+          "end": 11.75,
+          "mood": "진심 어린 작별",
+          "instruments": [
+            "피아노",
+            "절제된 레가토 현악",
+            "부드러운 베이스"
+          ],
+          "reason": "인사와 AI 경험 공유를 4마디 선율로 정성스럽게 받친다."
+        },
+        {
+          "start": 11.75,
+          "end": 17.25,
+          "mood": "승차와 감정 상승",
+          "instruments": [
+            "피아노",
+            "현악 스웰",
+            "낮은 베이스"
+          ],
+          "reason": "빽빽한 드럼 없이 헤어짐의 감정만 높인다."
+        },
+        {
+          "start": 17.25,
+          "end": 18.95,
+          "mood": "휴대전화 표시에 잠시 멈춤",
+          "instruments": [],
+          "reason": "새 정보를 읽는 동안 과도한 감정 유도를 멈춘다."
+        },
+        {
+          "start": 18.95,
+          "end": 26.25,
+          "mood": "돌아오는 사람에 대한 기대",
+          "instruments": [
+            "더 넓은 피아노 선율",
+            "현악",
+            "베이스"
+          ],
+          "reason": "역시라는 자막과 귀환에서 처음 선율을 더 크게 재현한다."
+        },
+        {
+          "start": 26.25,
+          "end": 29.5,
+          "mood": "충전기였다는 정적",
+          "instruments": [],
+          "reason": "혹시 제 충전기… 자막 첫 프레임 26.25초에 음악과 잔향을 모두 끊는다."
+        },
+        {
+          "start": 29.5,
+          "end": 31.25,
+          "mood": "담담한 물건 전달",
+          "instruments": [
+            "작은 피아노 두 음"
+          ],
+          "reason": "물건 전달 자체를 우스운 효과음으로 평가하지 않는다."
+        },
+        {
+          "start": 31.25,
+          "end": 34.25,
+          "mood": "버스가 가는 빈자리",
+          "instruments": [],
+          "reason": "차량 출발과 남은 사람의 대비를 과잉 음악 없이 둔다."
+        },
+        {
+          "start": 34.25,
+          "end": 39,
+          "mood": "풀리지 않은 이별",
+          "instruments": [
+            "해결음을 생략한 피아노 동기"
+          ],
+          "reason": "남겨진 사람이 있으므로 감정 선율도 짧게 미완성으로 둔다."
+        },
+        {
+          "start": 39,
+          "end": 44,
+          "mood": "따뜻하고 절제된 행사 연결",
+          "instruments": [
+            "피아노",
+            "아주 얇은 현악"
+          ],
+          "reason": "과한 감동 결론 없이 경험을 나누는 의미로 정리한다."
+        }
+      ],
+      "silence_windows": [
+        {
+          "start": 17.25,
+          "end": 18.95,
+          "scope": "music_and_reverb",
+          "reason": "휴대전화 표시"
+        },
+        {
+          "start": 26.25,
+          "end": 29.5,
+          "scope": "music_and_reverb",
+          "reason": "충전기 자막 반전"
+        },
+        {
+          "start": 31.25,
+          "end": 34.25,
+          "scope": "music_and_reverb",
+          "reason": "버스 출발과 남은 사람"
+        }
+      ],
+      "known_old_problems": [
+        "기존 음악 정지는 27.5초였으나 충전기 자막은 26.25초에 시작하여 반전보다 1.25초 늦음.",
+        "감상적인 음악이 반전 자막 뒤까지 남으면 자막이 만든 현실적인 단절이 약해짐."
+      ],
+      "source_manifest": "storyboards/2026-10-26_C08-C09-edit-v15/C09/edit_manifest.json",
+      "reviewed_contact_images": [
+        "storyboards/2026-10-26_C08-C09-edit-v15/C09/contact_06.jpg",
+        "storyboards/2026-10-26_C08-C09-edit-v15/C09/contact_08.jpg"
+      ],
+      "review_basis": {
+        "audio_heard": false,
+        "real_time_continuous_playback_verified": false,
+        "method": "최신 EDL/기존 음악 코드/열람한 접촉 시트의 장면 기능 비교.",
+        "image_review_scope": "명시한 접촉 시트만 실제 열람. 전체 연속 영상 시청을 의미하지 않음."
+      }
+    }
+  ]
+}

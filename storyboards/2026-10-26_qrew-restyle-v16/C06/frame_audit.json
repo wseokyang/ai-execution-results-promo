@@ -1,0 +1,93 @@
+[
+  {
+    "cut": "K01",
+    "output_frame_start": 0,
+    "output_frames": 120,
+    "first_source_pts": 0.0,
+    "last_source_pts": 4.958333333333333
+  },
+  {
+    "cut": "K02_attack",
+    "output_frame_start": 120,
+    "output_frames": 36,
+    "first_source_pts": 0.75,
+    "last_source_pts": 2.2083333333333335
+  },
+  {
+    "cut": "K02_sort",
+    "output_frame_start": 156,
+    "output_frames": 78,
+    "first_source_pts": 4.25,
+    "last_source_pts": 7.458333333333333
+  },
+  {
+    "cut": "K03",
+    "output_frame_start": 234,
+    "output_frames": 108,
+    "first_source_pts": 1.25,
+    "last_source_pts": 5.708333333333333
+  },
+  {
+    "cut": "K04_wide",
+    "output_frame_start": 342,
+    "output_frames": 72,
+    "first_source_pts": 0.5,
+    "last_source_pts": 3.4583333333333335
+  },
+  {
+    "cut": "K04_check",
+    "output_frame_start": 414,
+    "output_frames": 84,
+    "first_source_pts": 1.25,
+    "last_source_pts": 4.708333333333333
+  },
+  {
+    "cut": "K05",
+    "output_frame_start": 498,
+    "output_frames": 120,
+    "first_source_pts": 1.0,
+    "last_source_pts": 5.958333333333333
+  },
+  {
+    "cut": "K06",
+    "output_frame_start": 618,
+    "output_frames": 72,
+    "first_source_pts": 0.75,
+    "last_source_pts": 3.7083333333333335
+  },
+  {
+    "cut": "K07",
+    "output_frame_start": 690,
+    "output_frames": 108,
+    "first_source_pts": 0.0,
+    "last_source_pts": 4.458333333333333
+  },
+  {
+    "cut": "K08",
+    "output_frame_start": 798,
+    "output_frames": 108,
+    "first_source_pts": 1.25,
+    "last_source_pts": 5.708333333333333
+  },
+  {
+    "cut": "K09_seat",
+    "output_frame_start": 906,
+    "output_frames": 96,
+    "first_source_pts": 0.75,
+    "last_source_pts": 4.708333333333333
+  },
+  {
+    "cut": "K09_reaction",
+    "output_frame_start": 1002,
+    "output_frames": 54,
+    "first_source_pts": 2.0,
+    "last_source_pts": 4.208333333333333
+  },
+  {
+    "cut": "END",
+    "output_frame_start": 1056,
+    "output_frames": 114,
+    "first_source_pts": null,
+    "last_source_pts": null
+  }
+]

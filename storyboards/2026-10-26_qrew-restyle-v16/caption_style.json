@@ -1,0 +1,30 @@
+{
+  "name": "QREW latest full-frame lower-center, adapted for lowest safe placement",
+  "resolution": [
+    1280,
+    720
+  ],
+  "full_frame_preserved": true,
+  "black_matte": false,
+  "font": "Pretendard SemiBold",
+  "font_size_px": 38,
+  "center_x": 640,
+  "one_line_baseline_y": 684,
+  "two_line_baselines_y": [
+    641,
+    684
+  ],
+  "stroke_width_px": 3,
+  "stroke_color": "#000000",
+  "text_color": "#FAFAFA",
+  "shadow_offset_px": [
+    0,
+    2
+  ],
+  "shadow_blur_px": 8,
+  "maximum_text_width_px": 1100,
+  "individual_background_box": false,
+  "maximum_lines": 2,
+  "ending_card_policy": "Keep existing full-frame event end cards; do not restyle them as dialogue.",
+  "source": "QREW latest Journey/Expert/Interrogation filmCaption, 57px at1080p; explicit user asks lower placement."
+}

@@ -1,0 +1,55 @@
+{
+  "concept_id": "C09",
+  "file": "C09_Q-AI_Fair_qrew_v16.mp4",
+  "sha256": "10566279cb1ddd5fe0c3fcc04dc7e251720e51cfe76982cb528c7347cc89d8b5",
+  "picture_sha256": "c1df484004f93dea54b8aa1aa44b17134b4ce1ab740f549fbe8615defe8aa8c3",
+  "score_sha256": "5b72e846c9ef9126362ed17e64d3a3a8e7df762e176f38788ae029c307f04508",
+  "duration": 44,
+  "frames": 1056,
+  "size": [
+    1280,
+    720
+  ],
+  "fps": 24,
+  "full_video_decode_pass": true,
+  "pts_contiguous_pass": true,
+  "video_packets_identical_to_picture": true,
+  "audio": {
+    "loudness": {
+      "input_i": -18.51,
+      "input_tp": -5.73,
+      "input_lra": 12.5,
+      "input_thresh": -28.89
+    },
+    "samples": 2112512,
+    "peak_sample": 0.5168833136558533,
+    "non_finite_samples": 0,
+    "silence_windows": [
+      {
+        "start": 17.25,
+        "end": 18.95,
+        "core_rms_dbfs": -240.0,
+        "pass": true
+      },
+      {
+        "start": 26.25,
+        "end": 29.5,
+        "core_rms_dbfs": -240.0,
+        "pass": true
+      },
+      {
+        "start": 31.25,
+        "end": 34.25,
+        "core_rms_dbfs": -240.0,
+        "pass": true
+      }
+    ],
+    "loudness_pass": true,
+    "true_peak_pass": true,
+    "duration_pass": true,
+    "actual_listening_performed": false
+  },
+  "realtime_continuous_playback_performed": false,
+  "actual_listening_performed": false,
+  "pass": true
+}

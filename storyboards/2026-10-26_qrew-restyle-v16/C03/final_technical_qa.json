@@ -1,0 +1,43 @@
+{
+  "concept_id": "C03",
+  "file": "C03_Q-AI_Fair_qrew_v16.mp4",
+  "sha256": "4a61eba7f959183c71fd7935946d5932616e76b96af1daa6fa75b03176f753f2",
+  "picture_sha256": "1f5a21f4bd4d9310c1e82831002f76e7087341cefef71ed4bb4b4c57e22d1353",
+  "score_sha256": "b22bd958cc7487b680a1cb1fbb05712c903a4dcf272849b740f656c6b5bc1cf0",
+  "duration": 43,
+  "frames": 1032,
+  "size": [
+    1280,
+    720
+  ],
+  "fps": 24,
+  "full_video_decode_pass": true,
+  "pts_contiguous_pass": true,
+  "video_packets_identical_to_picture": true,
+  "audio": {
+    "loudness": {
+      "input_i": -18.56,
+      "input_tp": -3.0,
+      "input_lra": 5.8,
+      "input_thresh": -28.95
+    },
+    "samples": 2064384,
+    "peak_sample": 0.7073855996131897,
+    "non_finite_samples": 0,
+    "silence_windows": [
+      {
+        "start": 18.75,
+        "end": 19.5,
+        "core_rms_dbfs": -240.0,
+        "pass": true
+      }
+    ],
+    "loudness_pass": true,
+    "true_peak_pass": true,
+    "duration_pass": true,
+    "actual_listening_performed": false
+  },
+  "realtime_continuous_playback_performed": false,
+  "actual_listening_performed": false,
+  "pass": true
+}

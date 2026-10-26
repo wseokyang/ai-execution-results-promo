@@ -1,0 +1,96 @@
+[
+  {
+    "start": 0.3,
+    "end": 2.4,
+    "text": "제발 퇴근 좀 해.",
+    "kind": "subtitle",
+    "pos": "bottom_center",
+    "x": 640,
+    "y": 684,
+    "font_px": 38,
+    "style": "qrew_full_frame_lower_center"
+  },
+  {
+    "start": 3.25,
+    "end": 4.75,
+    "text": "고마워요.",
+    "kind": "subtitle",
+    "pos": "bottom_center",
+    "x": 640,
+    "y": 684,
+    "font_px": 38,
+    "style": "qrew_full_frame_lower_center"
+  },
+  {
+    "start": 9.88,
+    "end": 14,
+    "text": "퇴근시키려면,\n일을 끝내줘야겠네.",
+    "kind": "subtitle",
+    "pos": "bottom_center",
+    "x": 640,
+    "y": 684,
+    "font_px": 38,
+    "style": "qrew_full_frame_lower_center"
+  },
+  {
+    "start": 14.45,
+    "end": 20.45,
+    "text": "이 한 건만 확인하면 끝.",
+    "kind": "subtitle",
+    "pos": "bottom_center",
+    "x": 640,
+    "y": 684,
+    "font_px": 38,
+    "style": "qrew_full_frame_lower_center"
+  },
+  {
+    "start": 20.91,
+    "end": 23.47,
+    "text": "오늘 남은 일, 끝.",
+    "kind": "subtitle",
+    "pos": "bottom_center",
+    "x": 640,
+    "y": 684,
+    "font_px": 38,
+    "style": "qrew_full_frame_lower_center"
+  },
+  {
+    "start": 26,
+    "end": 28.1,
+    "text": "드디어, 내 시간.",
+    "kind": "subtitle",
+    "pos": "bottom_center",
+    "x": 640,
+    "y": 684,
+    "font_px": 38,
+    "style": "qrew_full_frame_lower_center"
+  },
+  {
+    "start": 29.75,
+    "end": 33,
+    "text": "방금 나간 사람,\n어떻게 내보냈어요?",
+    "kind": "subtitle",
+    "pos": "bottom_center",
+    "x": 640,
+    "y": 684,
+    "font_px": 38,
+    "style": "qrew_full_frame_lower_center"
+  },
+  {
+    "start": 34.5,
+    "end": 37.5,
+    "text": "질문은 Q-AI Fair에서.",
+    "kind": "subtitle",
+    "pos": "bottom_center",
+    "x": 640,
+    "y": 684,
+    "font_px": 38,
+    "style": "qrew_full_frame_lower_center"
+  },
+  {
+    "start": 44.0,
+    "end": 48.75,
+    "text": "Q-AI Fair\n직접 해본 방법을 함께 봐요.\n품질팀 AI 성과 교류회",
+    "kind": "endcard"
+  }
+]

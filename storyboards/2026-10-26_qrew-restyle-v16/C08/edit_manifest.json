@@ -1,0 +1,399 @@
+{
+  "film": "C08",
+  "version": 16,
+  "file": "C08_picture_v16.mp4",
+  "picture_file": "C08_picture_v16.mp4",
+  "duration_seconds": 53.0,
+  "fps": 24,
+  "resolution": [
+    1280,
+    720
+  ],
+  "timeline": [
+    {
+      "cut": "K01",
+      "file": "C08_K01_take01.mp4",
+      "source_in": 0,
+      "source_out": 2.75,
+      "start": 0,
+      "end": 2.75,
+      "approved_for_final": true,
+      "source": "2026-10-26_C08-C09-flow-v15/C08_K01_take01.mp4"
+    },
+    {
+      "cut": "K02",
+      "file": "C08_K02_take01.mp4",
+      "source_in": 0.5,
+      "source_out": 4.5,
+      "start": 2.75,
+      "end": 6.75,
+      "approved_for_final": true,
+      "source": "2026-10-26_C08-C09-flow-v15/C08_K02_take01.mp4"
+    },
+    {
+      "cut": "K03",
+      "file": "C08_K03_take01.mp4",
+      "source_in": 0.5,
+      "source_out": 4,
+      "start": 6.75,
+      "end": 10.25,
+      "approved_for_final": true,
+      "source": "2026-10-26_C08-C09-flow-v15/C08_K03_take01.mp4"
+    },
+    {
+      "cut": "K04",
+      "file": "C08_K04_take01.mp4",
+      "source_in": 0,
+      "source_out": 5.25,
+      "start": 10.25,
+      "end": 15.5,
+      "approved_for_final": true,
+      "source": "2026-10-26_C08-C09-flow-v15/C08_K04_take01.mp4"
+    },
+    {
+      "cut": "K05",
+      "file": "C08_K05_take01.mp4",
+      "source_in": 0,
+      "source_out": 7.5,
+      "start": 15.5,
+      "end": 23.0,
+      "approved_for_final": true,
+      "source": "2026-10-26_C08-C09-flow-v15/C08_K05_take01.mp4"
+    },
+    {
+      "cut": "K06",
+      "file": "C08_K06_take01.mp4",
+      "source_in": 0.5,
+      "source_out": 4.25,
+      "start": 23.0,
+      "end": 26.75,
+      "approved_for_final": true,
+      "source": "2026-10-26_C08-C09-flow-v15/C08_K06_take01.mp4"
+    },
+    {
+      "cut": "K07",
+      "file": "C08_K07_take01.mp4",
+      "source_in": 0.5,
+      "source_out": 4.5,
+      "start": 26.75,
+      "end": 30.75,
+      "approved_for_final": true,
+      "source": "2026-10-26_C08-C09-flow-v15/C08_K07_take01.mp4"
+    },
+    {
+      "cut": "K08",
+      "file": "C08_K08_take02.mp4",
+      "source_in": 0,
+      "source_out": 5.5,
+      "start": 30.75,
+      "end": 36.25,
+      "approved_for_final": true,
+      "review": "Root actual0.5s sampled frames: fills last gray slot, releases empty hands by5s; no overlap.",
+      "source": "2026-10-26_C08-C09-flow-v15/C08_K08_take02.mp4"
+    },
+    {
+      "cut": "K09",
+      "file": "C08_K09_take01.mp4",
+      "source_in": 0,
+      "source_out": 5.75,
+      "start": 36.25,
+      "end": 42.0,
+      "approved_for_final": true,
+      "source": "2026-10-26_C08-C09-flow-v15/C08_K09_take01.mp4"
+    },
+    {
+      "cut": "K10",
+      "file": "C08_K10_take02.mp4",
+      "source_in": 0,
+      "source_out": 6,
+      "start": 42.0,
+      "end": 48.0,
+      "approved_for_final": true,
+      "review": "Root actual0.5s frames: same brick remains installed, tiny adjustment then empty arms lowered; no extraction or duplicate.",
+      "source": "2026-10-26_C08-C09-flow-v15/C08_K10_take02.mp4"
+    },
+    {
+      "cut": "END",
+      "source": null,
+      "source_in": 0,
+      "source_out": 5,
+      "start": 48.0,
+      "end": 53.0
+    }
+  ],
+  "captions": [
+    {
+      "start": 0.2,
+      "end": 2.55,
+      "text": "누가 좀 도와줘요.",
+      "kind": "subtitle",
+      "pos": "bottom_center",
+      "x": 640,
+      "y": 684,
+      "font_px": 38,
+      "style": "qrew_full_frame_lower_center"
+    },
+    {
+      "start": 6.85,
+      "end": 10.15,
+      "text": "공유 사례 → 내 업무에 적용",
+      "kind": "subtitle",
+      "pos": "bottom_center",
+      "x": 640,
+      "y": 684,
+      "font_px": 38,
+      "style": "qrew_full_frame_lower_center"
+    },
+    {
+      "start": 10.35,
+      "end": 12.25,
+      "text": "원본과 대조해 직접 확인.",
+      "kind": "subtitle",
+      "pos": "bottom_center",
+      "x": 640,
+      "y": 684,
+      "font_px": 38,
+      "style": "qrew_full_frame_lower_center"
+    },
+    {
+      "start": 12.75,
+      "end": 15.35,
+      "text": "확인한 문서는 완료 트레이로.",
+      "kind": "subtitle",
+      "pos": "bottom_center",
+      "x": 640,
+      "y": 684,
+      "font_px": 38,
+      "style": "qrew_full_frame_lower_center"
+    },
+    {
+      "start": 23.1,
+      "end": 26.4,
+      "text": "끝났는데요.",
+      "kind": "subtitle",
+      "pos": "bottom_center",
+      "x": 640,
+      "y": 684,
+      "font_px": 38,
+      "style": "qrew_full_frame_lower_center"
+    },
+    {
+      "start": 26.85,
+      "end": 30.45,
+      "text": "여기는\n아직이네요.",
+      "kind": "subtitle",
+      "pos": "bottom_center",
+      "x": 640,
+      "y": 684,
+      "font_px": 38,
+      "style": "qrew_full_frame_lower_center"
+    },
+    {
+      "start": 30.95,
+      "end": 32.45,
+      "text": "잠시 후",
+      "kind": "subtitle",
+      "pos": "bottom_center",
+      "x": 640,
+      "y": 684,
+      "font_px": 38,
+      "style": "qrew_full_frame_lower_center"
+    },
+    {
+      "start": 37.75,
+      "end": 40.75,
+      "text": "이 한 장만, 다시요.",
+      "kind": "subtitle",
+      "pos": "bottom_center",
+      "x": 640,
+      "y": 684,
+      "font_px": 38,
+      "style": "qrew_full_frame_lower_center"
+    },
+    {
+      "start": 48.0,
+      "end": 53.0,
+      "text": "Q-AI Fair\n한 사람의 방법을, 함께 쓰는 실력으로.\n품질팀 AI 성과 교류회",
+      "kind": "endcard"
+    }
+  ],
+  "caption_style": {
+    "name": "QREW latest full-frame lower-center, adapted for lowest safe placement",
+    "resolution": [
+      1280,
+      720
+    ],
+    "full_frame_preserved": true,
+    "black_matte": false,
+    "font": "Pretendard SemiBold",
+    "font_size_px": 38,
+    "center_x": 640,
+    "one_line_baseline_y": 684,
+    "two_line_baselines_y": [
+      641,
+      684
+    ],
+    "stroke_width_px": 3,
+    "stroke_color": "#000000",
+    "text_color": "#FAFAFA",
+    "shadow_offset_px": [
+      0,
+      2
+    ],
+    "shadow_blur_px": 8,
+    "maximum_text_width_px": 1100,
+    "individual_background_box": false,
+    "maximum_lines": 2,
+    "ending_card_policy": "Keep existing full-frame event end cards; do not restyle them as dialogue.",
+    "source": "QREW latest Journey/Expert/Interrogation filmCaption, 57px at1080p; explicit user asks lower placement."
+  },
+  "source_sha256": {
+    "2026-10-26_C08-C09-flow-v15/C08_K01_take01.mp4": "8dac937840b675039ab39854ff95f17a68a3b0cafc3ce93c06eb4b736051707a",
+    "2026-10-26_C08-C09-flow-v15/C08_K02_take01.mp4": "75e777d828eea13bf5372e4e40923448a6b460a579eafedbf3ee1d693fe31fa3",
+    "2026-10-26_C08-C09-flow-v15/C08_K03_take01.mp4": "8ee3bfc4eba9ae88ffdd5419241068a957906e1898cf5b9f8be97af0dba45e84",
+    "2026-10-26_C08-C09-flow-v15/C08_K04_take01.mp4": "9bd8f9bb71e9da5b3775aa2ee32aff8dbe490340c60d49b67c600adb88322ded",
+    "2026-10-26_C08-C09-flow-v15/C08_K05_take01.mp4": "45de3cbce772af022ce56ac6f9276152cb603e008383abfdd180168e230d5344",
+    "2026-10-26_C08-C09-flow-v15/C08_K06_take01.mp4": "e957a8d4164b0ebf0702491eeba7e1eb043f4addd8c2a7323e1618fc296748d1",
+    "2026-10-26_C08-C09-flow-v15/C08_K07_take01.mp4": "13623c0036231f923bea8ee89861b2a1a6706b0b0741959553bf6f06b76fcede",
+    "2026-10-26_C08-C09-flow-v15/C08_K08_take02.mp4": "2d5f2040d57f164360ca5030276974cb8467ec35ba4a8ed0851a73ef6318f233",
+    "2026-10-26_C08-C09-flow-v15/C08_K09_take01.mp4": "e1b3a86facb6285573fdcc5a266f73f6c0377c32c2d5d96a1f410e27b557dc8f",
+    "2026-10-26_C08-C09-flow-v15/C08_K10_take02.mp4": "35be4502ffbbb5f8b0c710d009973de80a77227dc4a66035d7ad85298841791b"
+  },
+  "source_of_picture": "Original Flow MP4s with preserved scene UI; no baked-caption picture reused",
+  "original_files_unchanged": true,
+  "source_audio": "ALL EXCLUDED; new score owned by parent task",
+  "action_stills_inserted": false,
+  "flow_credits_used": 0,
+  "base_manifest": "2026-10-26_C08-C09-edit-v15\\C08\\edit_manifest.json",
+  "base_manifest_sha256": "70cd81f2c5b93c675500af0709c4d4bcd913a6bd71e303d7aa9f670b73a2e9d9",
+  "ending": {
+    "file": "ending_art_v16.png",
+    "source": "2026-10-26_C08-C09-edit-v15\\C08\\ending_v15.png",
+    "sha256": "fdefc17d9fc554a437b908d6b0cf6f255fb7b97ce495d83bdb9d18da0014d8d8",
+    "start": 48.0,
+    "end": 53.0,
+    "live_action_background": false
+  },
+  "ui_provenance": {
+    "original_compositor": "2026-10-26_C08-C09-edit-v15\\C08\\render_c08_v15.py",
+    "original_sha256": "0bf93a14821439814c9c98a391ea05e1e722aa74cac7e65168016e449c05cb86",
+    "isolated_copy": "ui_compositor.py",
+    "isolated_sha256": "99bc8abc2d2a1d21e3f51d00c37b2c0e8716844605347eedcdb6939dc2f7bfdd",
+    "treatment": "UI function bodies retained; output paths isolated; no original import executed."
+  },
+  "picture_qa": {
+    "file": "C08_picture_v16.mp4",
+    "sha256": "62f79a88d30bc7d75e7ba825a01636a2b0d3ba5ecdf3e4292dc31a63565810a2",
+    "bytes": 19510436,
+    "frames": 1272,
+    "duration_seconds": 53.0,
+    "fps": "24/1",
+    "resolution": [
+      1280,
+      720
+    ],
+    "audio_streams": 0,
+    "full_decode": "PASS",
+    "first_pts": 0.0,
+    "last_pts": 52.958333333333336,
+    "max_pts_step_error": 4.739264536368637e-15,
+    "actual_realtime_playback_verified": false,
+    "actual_listening_verified": false,
+    "extracted_review_frames": [
+      "review_frames\\000.000s.png",
+      "review_frames\\001.375s.png",
+      "review_frames\\002.708s.png",
+      "review_frames\\002.750s.png",
+      "review_frames\\006.500s.png",
+      "review_frames\\006.708s.png",
+      "review_frames\\006.750s.png",
+      "review_frames\\008.000s.png",
+      "review_frames\\008.500s.png",
+      "review_frames\\010.208s.png",
+      "review_frames\\010.250s.png",
+      "review_frames\\010.500s.png",
+      "review_frames\\011.292s.png",
+      "review_frames\\011.500s.png",
+      "review_frames\\012.500s.png",
+      "review_frames\\013.000s.png",
+      "review_frames\\014.000s.png",
+      "review_frames\\014.042s.png",
+      "review_frames\\015.458s.png",
+      "review_frames\\015.500s.png",
+      "review_frames\\022.958s.png",
+      "review_frames\\023.000s.png",
+      "review_frames\\023.500s.png",
+      "review_frames\\024.750s.png",
+      "review_frames\\026.708s.png",
+      "review_frames\\026.750s.png",
+      "review_frames\\027.500s.png",
+      "review_frames\\028.667s.png",
+      "review_frames\\030.708s.png",
+      "review_frames\\030.750s.png",
+      "review_frames\\031.500s.png",
+      "review_frames\\031.708s.png",
+      "review_frames\\036.208s.png",
+      "review_frames\\036.250s.png",
+      "review_frames\\038.500s.png",
+      "review_frames\\039.250s.png",
+      "review_frames\\041.958s.png",
+      "review_frames\\042.000s.png",
+      "review_frames\\043.500s.png",
+      "review_frames\\047.958s.png",
+      "review_frames\\048.000s.png",
+      "review_frames\\050.500s.png",
+      "review_frames\\052.958s.png"
+    ],
+    "contact_sheets": [
+      "contact_sheet_01.jpg",
+      "contact_sheet_02.jpg",
+      "contact_sheet_03.jpg"
+    ],
+    "visual_review": "EXTRACTED_PENDING_ACTUAL_OPEN"
+  },
+  "status": "PICTURE_COMPLETE_AUDIO_PENDING",
+  "actual_realtime_playback_verified": false,
+  "actual_continuous_playback_verified": false,
+  "actual_listening_verified": false,
+  "ui": "One shared-template UI; current paper is applied to own work, no automatic verification check",
+  "screen_plane_quads": {
+    "K03": [
+      [
+        365,
+        216
+      ],
+      [
+        693,
+        200
+      ],
+      [
+        719,
+        404
+      ],
+      [
+        393,
+        440
+      ]
+    ],
+    "K04": [
+      [
+        315,
+        103
+      ],
+      [
+        638,
+        58
+      ],
+      [
+        669,
+        259
+      ],
+      [
+        358,
+        325
+      ]
+    ]
+  },
+  "ui_foreground": "Keyed foreground paper + skin mask over fixed screen plane; actual selected UI frames opened by three reviewers, no observed foreground inversion.",
+  "revision_scope": "Editorial captions moved to lower center; same latest approved motion timing, source trims, UI and endings."
+}

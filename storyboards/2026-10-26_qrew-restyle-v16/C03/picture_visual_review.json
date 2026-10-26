@@ -1,0 +1,22 @@
+{
+  "film": "C03",
+  "reviewer": "v16_render_a",
+  "scope": "Actual extracted-image inspection of silent V16 picture; no continuous playback or listening claim",
+  "actual_images_opened": [
+    "review_frames/00.500s.png", "review_frames/19.500s.png", "review_frames/24.500s.png", "review_frames/27.000s.png", "review_frames/38.000s.png",
+    "contact_08.jpg", "contact_11.jpg", "contact_14.jpg"
+  ],
+  "findings": [
+    "Full-frame action preserved, without a matte or scale-down.",
+    "Two-line captions at 0.5s, 19.5s and 27s are within the raster, centered at the same baselines and legible over bright outdoor/worktable backgrounds.",
+    "19.5s subtitle is below the hand and orange-folder interaction rather than covering the hand.",
+    "24.5s close-up retains both records labels and diagrams with hand foreground; the record contents are readable before the next wide-shot subtitle appears.",
+    "Former top-left boxed discovery cue at 27s is now bottom-center, without duplicate boxed text. Its lower placement overlaps the near edge of the table rather than faces or the orange-folder gesture.",
+    "End-title overlay retains the existing moving source and full event description; 38s and 42s samples show different action states beneath the retained title."
+  ],
+  "new_mandatory_visual_defects": [],
+  "status": "PASS_SAMPLED_PICTURE_RESTYLE",
+  "actual_continuous_playback_verified": false,
+  "actual_listening_verified": false,
+  "audio_status": "Picture is intentionally silent; parent will compose and mux new music."
+}

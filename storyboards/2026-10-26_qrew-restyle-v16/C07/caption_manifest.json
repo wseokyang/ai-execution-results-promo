@@ -1,0 +1,57 @@
+[
+  {
+    "start": 0.4,
+    "end": 3.8,
+    "text": "오늘의 완성작입니다.",
+    "placement": "하단 중앙, 1280×720 기준 x640 / 기준선684, 38px 흰색·검정 외곽선3px; 박스 없음",
+    "kind": "subtitle",
+    "pos": "bottom_center",
+    "x": 640,
+    "y": 684,
+    "font_px": 38,
+    "style": "qrew_full_frame_lower_center"
+  },
+  {
+    "start": 4.5,
+    "end": 7.8,
+    "text": "그래서… 어떻게요?",
+    "placement": "하단 중앙, 1280×720 기준 x640 / 기준선684, 38px 흰색·검정 외곽선3px; 박스 없음",
+    "kind": "subtitle",
+    "pos": "bottom_center",
+    "x": 640,
+    "y": 684,
+    "font_px": 38,
+    "style": "qrew_full_frame_lower_center"
+  },
+  {
+    "start": 11.3,
+    "end": 14.8,
+    "text": "셰프님. 이것도 주세요.",
+    "placement": "하단 중앙, 1280×720 기준 x640 / 기준선684, 38px 흰색·검정 외곽선3px; 박스 없음",
+    "kind": "subtitle",
+    "pos": "bottom_center",
+    "x": 640,
+    "y": 684,
+    "font_px": 38,
+    "style": "qrew_full_frame_lower_center"
+  },
+  {
+    "start": 15.2,
+    "end": 16.7,
+    "text": "잠시 후",
+    "placement": "하단 중앙, 1280×720 기준 x640 / 기준선684, 38px 흰색·검정 외곽선3px; 박스 없음",
+    "kind": "subtitle",
+    "pos": "bottom_center",
+    "x": 640,
+    "y": 684,
+    "font_px": 38,
+    "style": "qrew_full_frame_lower_center"
+  },
+  {
+    "start": 27.6,
+    "end": 32.6,
+    "text": "결과만큼 궁금한, 그 과정.\nQ-AI Fair\n품질팀 AI 성과 교류회",
+    "placement": "기존 별도 전체 화면 엔딩 카드",
+    "kind": "endcard"
+  }
+]

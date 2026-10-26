@@ -1,0 +1,79 @@
+{
+  "version": "V16",
+  "films": [
+    {
+      "concept_id": "C02",
+      "path": "C02/C02_Q-AI_Fair_qrew_v16.mp4",
+      "seconds": 36.25,
+      "sha256": "8c51083696aff8d1eb2ebf65cf75aaf2c214cc51e72aabffb1ef0bcbe8368380",
+      "qa": "PASS",
+      "title": "검은 점을 잡아라",
+      "music_direction": "100 BPM 누아르 수사극. 증거가 뒤집히는 두 순간에 음악 정지.",
+      "local_review_copy": "C:\\Users\\wseok\\.cache\\codex-flow\\Q-AI-Fair-V16-delivery-2026-10-26\\C02_Q-AI_Fair_qrew_v16.mp4"
+    },
+    {
+      "concept_id": "C03",
+      "path": "C03/C03_Q-AI_Fair_qrew_v16.mp4",
+      "seconds": 43,
+      "sha256": "4a61eba7f959183c71fd7935946d5932616e76b96af1daa6fa75b03176f753f2",
+      "qa": "PASS",
+      "title": "환경까지 가져왔습니다",
+      "music_direction": "108 BPM 산업 리듬. 배송과 함께 층을 쌓고 발견 이후 화성을 전환.",
+      "local_review_copy": "C:\\Users\\wseok\\.cache\\codex-flow\\Q-AI-Fair-V16-delivery-2026-10-26\\C03_Q-AI_Fair_qrew_v16.mp4"
+    },
+    {
+      "concept_id": "C04",
+      "path": "C04/C04_Q-AI_Fair_qrew_v16.mp4",
+      "seconds": 43.5,
+      "sha256": "6c2ce0ea93a4fa852f5f50745999deea9f7ed6f315b64df2f06b65e4be02a929",
+      "qa": "PASS",
+      "title": "목마는 식사 중입니다",
+      "music_direction": "72 BPM 군사 잠입 → 28초 정적 → 31초부터 90 BPM 식당 왈츠.",
+      "local_review_copy": "C:\\Users\\wseok\\.cache\\codex-flow\\Q-AI-Fair-V16-delivery-2026-10-26\\C04_Q-AI_Fair_qrew_v16.mp4"
+    },
+    {
+      "concept_id": "C05",
+      "path": "C05/C05_Q-AI_Fair_qrew_v16.mp4",
+      "seconds": 46.75,
+      "sha256": "421e531753cc4859412ca5affa35140fb986146e5b88e79870d171a5d52364d4",
+      "qa": "PASS",
+      "title": "괴수는 퇴근할 수 없다",
+      "music_direction": "80 BPM 괴수 영화 → 작업자가 나타나는 21.75초부터 100 BPM 정비 리듬.",
+      "local_review_copy": "C:\\Users\\wseok\\.cache\\codex-flow\\Q-AI-Fair-V16-delivery-2026-10-26\\C05_Q-AI_Fair_qrew_v16.mp4"
+    },
+    {
+      "concept_id": "C06",
+      "path": "C06/C06_Q-AI_Fair_qrew_v16.mp4",
+      "seconds": 48.75,
+      "sha256": "f0880c22337c4d419bbe81153c589d7c2ee05e22cd1013b99c67f71715b5526e",
+      "qa": "PASS",
+      "title": "퇴근 좀 해주세요",
+      "music_direction": "96 BPM 고딕 업무 리듬 → 잠깐의 라운지 → 질문자가 오면 음악 정지.",
+      "local_review_copy": "C:\\Users\\wseok\\.cache\\codex-flow\\Q-AI-Fair-V16-delivery-2026-10-26\\C06_Q-AI_Fair_qrew_v16.mp4"
+    },
+    {
+      "concept_id": "C08",
+      "path": "C08/C08_Q-AI_Fair_qrew_v16.mp4",
+      "seconds": 53,
+      "sha256": "2e57fa52821e681dd4f07b8c3c6405926b62b4cea3338d4c0f0157f67377af0a",
+      "qa": "PASS",
+      "title": "구조는 끝났습니다",
+      "music_direction": "업무 음악 → 15.5초 영웅 등장 음악 → 23.1초 정지 → 수리 리듬.",
+      "local_review_copy": "C:\\Users\\wseok\\.cache\\codex-flow\\Q-AI-Fair-V16-delivery-2026-10-26\\C08_Q-AI_Fair_qrew_v16.mp4"
+    },
+    {
+      "concept_id": "C09",
+      "path": "C09/C09_Q-AI_Fair_qrew_v16.mp4",
+      "seconds": 44,
+      "sha256": "10566279cb1ddd5fe0c3fcc04dc7e251720e51cfe76982cb528c7347cc89d8b5",
+      "qa": "PASS",
+      "title": "나 없이도 괜찮겠어요?",
+      "music_direction": "76 BPM 진지한 이별 피아노. 충전기 질문 26.25초에 음악 정지.",
+      "local_review_copy": "C:\\Users\\wseok\\.cache\\codex-flow\\Q-AI-Fair-V16-delivery-2026-10-26\\C09_Q-AI_Fair_qrew_v16.mp4"
+    }
+  ],
+  "C07": "storyboard and audio demo only; no new video",
+  "flow_credits_spent": 0,
+  "paid_external_api_calls": 0,
+  "verification_scope": "Full decode, timestamps, video-packet identity, audio measurements, selected rendered frames; not realtime playback or listening."
+}

@@ -1,0 +1,18 @@
+{
+  "film": "C08",
+  "reviewer": "v16_render_b",
+  "scope": "Actual opening of encoded picture contact sheets and full-resolution extracted PNG; not realtime playback or listening",
+  "opened": ["contact_sheet_01.jpg", "contact_sheet_02.jpg", "contact_sheet_03.jpg", "review_frames/008.000s.png", "review_frames/013.000s.png", "review_frames/027.500s.png"],
+  "status": "CHANGED_CAPTION_AND_UI_OCCLUSION_SAMPLE_PASS",
+  "findings": [
+    "Former top captions now occupy the common lower center. Text remains readable over the bright desk and rubble without a box or matte.",
+    "The laptop UI retains its screen plane and foreground finger/paper masks. At 13 seconds the lifted sheet correctly occludes the screen overlay.",
+    "The two-line '여기는 / 아직이네요.' cue remains below faces and the trowel handoff.",
+    "Approved K08/K10 take02 sources and the 48–53-second full-frame event ending remain intact."
+  ],
+  "unchanged_limitations": [
+    "Sampled image inspection is not continuous motion verification or actual listening. No new claim is made about underlying generated hand anatomy between samples."
+  ],
+  "actual_realtime_playback_verified": false,
+  "actual_listening_verified": false
+}

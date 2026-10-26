@@ -1,0 +1,96 @@
+[
+  {
+    "start": 0.2,
+    "end": 2.55,
+    "text": "누가 좀 도와줘요.",
+    "kind": "subtitle",
+    "pos": "bottom_center",
+    "x": 640,
+    "y": 684,
+    "font_px": 38,
+    "style": "qrew_full_frame_lower_center"
+  },
+  {
+    "start": 6.85,
+    "end": 10.15,
+    "text": "공유 사례 → 내 업무에 적용",
+    "kind": "subtitle",
+    "pos": "bottom_center",
+    "x": 640,
+    "y": 684,
+    "font_px": 38,
+    "style": "qrew_full_frame_lower_center"
+  },
+  {
+    "start": 10.35,
+    "end": 12.25,
+    "text": "원본과 대조해 직접 확인.",
+    "kind": "subtitle",
+    "pos": "bottom_center",
+    "x": 640,
+    "y": 684,
+    "font_px": 38,
+    "style": "qrew_full_frame_lower_center"
+  },
+  {
+    "start": 12.75,
+    "end": 15.35,
+    "text": "확인한 문서는 완료 트레이로.",
+    "kind": "subtitle",
+    "pos": "bottom_center",
+    "x": 640,
+    "y": 684,
+    "font_px": 38,
+    "style": "qrew_full_frame_lower_center"
+  },
+  {
+    "start": 23.1,
+    "end": 26.4,
+    "text": "끝났는데요.",
+    "kind": "subtitle",
+    "pos": "bottom_center",
+    "x": 640,
+    "y": 684,
+    "font_px": 38,
+    "style": "qrew_full_frame_lower_center"
+  },
+  {
+    "start": 26.85,
+    "end": 30.45,
+    "text": "여기는\n아직이네요.",
+    "kind": "subtitle",
+    "pos": "bottom_center",
+    "x": 640,
+    "y": 684,
+    "font_px": 38,
+    "style": "qrew_full_frame_lower_center"
+  },
+  {
+    "start": 30.95,
+    "end": 32.45,
+    "text": "잠시 후",
+    "kind": "subtitle",
+    "pos": "bottom_center",
+    "x": 640,
+    "y": 684,
+    "font_px": 38,
+    "style": "qrew_full_frame_lower_center"
+  },
+  {
+    "start": 37.75,
+    "end": 40.75,
+    "text": "이 한 장만, 다시요.",
+    "kind": "subtitle",
+    "pos": "bottom_center",
+    "x": 640,
+    "y": 684,
+    "font_px": 38,
+    "style": "qrew_full_frame_lower_center"
+  },
+  {
+    "start": 48.0,
+    "end": 53.0,
+    "text": "Q-AI Fair\n한 사람의 방법을, 함께 쓰는 실력으로.\n품질팀 AI 성과 교류회",
+    "kind": "endcard"
+  }
+]

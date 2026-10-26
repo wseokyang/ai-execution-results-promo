@@ -1,0 +1,49 @@
+{
+  "concept_id": "C05",
+  "file": "C05_Q-AI_Fair_qrew_v16.mp4",
+  "sha256": "421e531753cc4859412ca5affa35140fb986146e5b88e79870d171a5d52364d4",
+  "picture_sha256": "9218ca41ab736dcc652b88e3068b555bee31920968f97162561134db99891d32",
+  "score_sha256": "f168a875792fb664444092ac2b9288859f52d1bea8cffe5c55a7a34442bca988",
+  "duration": 46.75,
+  "frames": 1122,
+  "size": [
+    1280,
+    720
+  ],
+  "fps": 24,
+  "full_video_decode_pass": true,
+  "pts_contiguous_pass": true,
+  "video_packets_identical_to_picture": true,
+  "audio": {
+    "loudness": {
+      "input_i": -18.58,
+      "input_tp": -3.06,
+      "input_lra": 8.9,
+      "input_thresh": -29.12
+    },
+    "samples": 2244608,
+    "peak_sample": 0.7030416131019592,
+    "non_finite_samples": 0,
+    "silence_windows": [
+      {
+        "start": 13.25,
+        "end": 14.25,
+        "core_rms_dbfs": -240.0,
+        "pass": true
+      },
+      {
+        "start": 37.25,
+        "end": 39,
+        "core_rms_dbfs": -240.0,
+        "pass": true
+      }
+    ],
+    "loudness_pass": true,
+    "true_peak_pass": true,
+    "duration_pass": true,
+    "actual_listening_performed": false
+  },
+  "realtime_continuous_playback_performed": false,
+  "actual_listening_performed": false,
+  "pass": true
+}

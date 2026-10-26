@@ -1,3 +1,12 @@
+[2026-10-26 V16 최신 — QREW형 하단중앙 자막·새음악 수정 완료]
+최신요청: 2~9 음악/자막 전면 재검토. 실제영상 C02/C03/C04/C05/C06/C08/C09 7편을 원본Flow부터재합성, 기존컷시간/UI/엔딩보존. C07은 실제영상없으므로 콘티자막지시/음악데모만, 새Flow없음. 예약PAUSED유지. 기존V15/원본불변. Flow0/크레딧0/외부유료API0. 현재잔액재조회없음.
+V=storyboards/2026-10-26_qrew-restyle-v16. 각Cxx/Cxx_Q-AI_Fair_qrew_v16.mp4 최신. 길이 C02=36.25,C03=43,C04=43.5,C05=46.75,C06=48.75,C08=53,C09=44. 720p24fps. delivery_manifest.json 파일/해시,각final_technical_qa.json PASS. Windows동일사본 C:/Users/wseok/.cache/codex-flow/Q-AI-Fair-V16-delivery-2026-10-26/index.html.
+실제QREW최종5편qrew-v3-video와motion/ad/shared/filmic.js확인. 검은띠는구버전, 이번fullframe흰색outline38px/x640/기준선684(2줄641,684). 원전기준선956/1080보다사용자맨하단요청으로더내림. 박스/상단badge없음,UI오브젝트/별도endcard유지. style_api.py공통.
+음악8개새작곡/수학적악기합성. QREW악기함수만AST선별재사용,dsp_provenance.json출처; 기존멜로디/음원재사용없음. audio/Cxx/*score_v16.wav PCM24,mp3미리듣기. 음악생성모델로만들었다고주장금지. C08hero15.5/stop23.1,C09stop26.25. 최종7편-18.51~-18.90LUFS,TP최대-2.97. 정적핵심RMS/영상전체디코드/PTS/picture패킷동일성PASS. 원본음성없음.
+3인독립→교차→기록수정→3인재확인. 필수미해결0. 실제이미지/큐/코드/측정검수이며 실청취/실시간연속재생/현장상영/관객반응은미검증. 새음악음색/취향합격주장금지. C05날씨축/C09수령손/crop한계여전,음악자막으로해결한척금지.
+C07/V16 storyboard_v16.json/caption_manifest.json/prop_labels.json우선. 일반자막4하단,수정초안물체표찰,엔딩전체카드. K07→K08전환24.2(구25.5오타정정). 음악demo32.6,의자/dome/paperFoley는실제영상후. V15첫이미지그대로. 기존1/10콘티변경없음.
+최신진입README→00_완성_영상/00_V16_자막_음악_검토. 이전루트안내archive/v15-root-before-v16. Git상태는원격SHA확인후별도보고. 이번파일만stage,기존10/24~25untracked중간파일건드리지않음.
+
 [2026-10-26 V15 최신 — C08/C09 Flow·편집, 7편 스타일 정리, 새 C01/C07/C10 콘티·27이미지 완료]
 최신 사용자 범위: C08/C09 영상 제작, C01/C07/C10은 기존 안을 버리고 콘티부터 재작성. 최종 상영 세트 C02/C03/C04/C05/C06/C08/C09. 새 C01/C07/C10 Flow는 실행하지 않음. 기존 원본·편집본 보존. 자동 예약 PAUSED 유지, 구매/구독변경/유료업스케일/외부유료API/공개게시 없음.
 최신 진입점: README.md → 00_완성_영상.md / 00_새1-7-10_콘티.md / 콘티_바로보기.md / 00_V15_제작_검수.md. 구 1/7/10 문서는 새 콘티 안내로 바꾸고 원문을 archive/v14-root-before-v15에 보존. 기존 8/9 콘티 상단에 최신 MP4/실제 편집 기록 연결.

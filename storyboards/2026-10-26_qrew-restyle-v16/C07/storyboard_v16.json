@@ -1,0 +1,959 @@
+{
+  "id": "C07",
+  "title": "셰프님, 그것도 주세요",
+  "purpose": "완성된 AI 결과와 함께 실패·수정·확인 과정을 공유하는 Q-AI Fair 소개",
+  "format": "고급 미식 심사 장르 패러디",
+  "duration_seconds": 32.6,
+  "aspect_ratio": "16:9",
+  "one_line": "완벽하게 차려 낸 AI 결과보다 심사위원들이 탐내는 것은 셰프가 방금 정리한 수정 초안이다. 기록통까지 최고급 서비스로 대접하자 의자들이 앞으로 달려온다.",
+  "core_message": "결과만큼 궁금한, 그 과정.",
+  "comedy_intensity": 4,
+  "production_difficulty": "보통",
+  "hook": "비단 장갑과 은색 클로슈, 엄숙한 심사위원. 음식이 나올 줄 알았는데 완성된 AI 결과 한 장이 접시에 놓여 있다.",
+  "reversals": [
+    "완성작은 호화롭지만 레시피는 'AI 활용' 한 줄뿐이라 심사위원들의 표정이 얼어붙는다.",
+    "주목받지 않던 수정 초안 기록통에 가장 진지한 관심이 쏠린다.",
+    "기록통을 최고급 카트로 다시 서빙하니 격식을 지키던 심사위원이 한 명씩 의자를 끌어당긴다."
+  ],
+  "ending_connection": "결과보다 과정에 몰리는 몸의 방향 자체가 행사 메시지. 마지막을 필기나 박수로 끝내지 않고 의자 소리/움직임 3연타로 닫는다.",
+  "cast": [
+    {
+      "id": "CH",
+      "appearance": "30대 후반 동아시아 남성, 작고 다부진 체형, 넓고 둥근 얼굴, 짧은 적갈색 옆가르마, 턱수염 없음.",
+      "costume": "눈처럼 흰 더블브레스트 셰프복, 낮고 각진 흰 조리모, 라벤더 긴 앞치마, 흰 장갑.",
+      "performance": "완성도 높은 서비스에 자부심. 레시피 한 줄이면 충분할 줄 알았지만 손님이 과정을 원한다는 것을 깨닫고 진심으로 서비스."
+    },
+    {
+      "id": "JA",
+      "appearance": "50대 흑인 남성, 큰 체격과 아주 넓은 어깨, 매끈한 민머리, 둥근 얼굴, 턱 아래만 짧은 회색 수염. 안경 없음.",
+      "costume": "와인색 벨벳 디너 재킷, 검정 셔츠, 검정 나비넥타이.",
+      "performance": "중앙 수석 심사위원. 처음에는 매우 절제, 수정 기록을 보자 음식을 놓친 사람처럼 주의를 빼앗김."
+    },
+    {
+      "id": "JB",
+      "appearance": "20대 후반 동아시아 여성, 짧고 통통한 체형, 둥근 볼과 또렷한 눈, 긴 흰 금발 생머리를 낮게 단정히 묶음.",
+      "costume": "검정 새틴 턱시도, 흰 넓은 셔츠 칼라, 짙은 보라색 작은 브로치.",
+      "performance": "왼쪽 심사위원. 실무 과정에 호기심이 생기면 얼굴보다 몸이 먼저 앞으로 움직임."
+    },
+    {
+      "id": "JC",
+      "appearance": "60대 유럽계 여성, 매우 크고 가는 체형, 긴 코와 좁은 얼굴, 짙은 밤색 머리에 흰 한 가닥이 있는 매끈한 높은 시뇽, 가는 금색 반무테 안경.",
+      "costume": "짙은 남색 정장 드레스와 은회색 좁은 실크 스카프.",
+      "performance": "오른쪽 심사위원. 가장 점잖다가 마지막 의자 이동 폭이 가장 큼. 나이·체형을 조롱하지 않고 과잉 호기심이 웃음."
+    }
+  ],
+  "space_axis": "밤의 고급 레스토랑 심사실. K01~K04는 긴 흰 테이블 뒤에서 관객 기준 JB 왼쪽/JA 중앙/JC 오른쪽. K05의 명시적 잠시 후 전환에서 세 의자는 테이블 옆 열린 바닥의 같은 후방 출발선으로 옮겨져 있다. 카트는 세 의자 앞이며 긴 테이블은 옆으로 비켜 통로를 가로막지 않는다. K05~K09는 이 공간 기준과 인물 순서를 유지한다. 카트 오른쪽 서빙영역 기록통, 왼쪽 돔 받침. 인양된 초안통과 돔은 준비 시간 생략을 통해 카트로 이동한다.",
+  "props": [
+    {
+      "id": "FINAL",
+      "description": "완성 AI 결과 흰 A4 한 장을 접지 않고 은색 받침/흰 접시에 얹음. 자주색 상단 탭. 정량 성과 수치 없음. 결과 접시 지름 약40cm, 덮개 내부 유효지름40cm 이상. A4 대각36.4cm를 작은34cm돔에 억지로 넣지 않음."
+    },
+    {
+      "id": "RECIPE",
+      "description": "작은 아이보리 레시피 카드. 'AI 활용' 한 줄 외 설명이 비어 있음. 내용은 후합성."
+    },
+    {
+      "id": "BIN",
+      "description": "무광 흰 낮은 원통형 '수정 초안' 기록통, 구멍 없는 깨끗한 문서 전용. 여러 흰 초안에 빨간 수정 표시/컬러 탭. 음식물·오염 없음. 시각 기준 지름 약24cm/높이13cm, 반접은 수정 페이지가 위로 조금 보이는 크기."
+    },
+    {
+      "id": "CART",
+      "description": "로고 없는 은색 서비스 카트. 상판 약100cm×60cm, 오른쪽 서빙 자리와 왼쪽 돔 내려놓는 자리가 각각최소45cm×45cm로 분리. 외형44cm 돔이 내려가도 통/손/바퀴에 걸리지 않음. 카트 앞 의자 이동 통로 비움."
+    },
+    {
+      "id": "DOME",
+      "description": "동일 은색 돔 하나. 내부 유효 지름40cm 이상/외형 약44cm, 내부 높이22cm 이상. A4 대각 약36.4cm를 실제 수용하고 지름24cm·높이13cm 기록통도 수용. 처음 결과 접시→왼쪽 받침→기록통 덮기→왼쪽 받침. 크기 변형 없음."
+    }
+  ],
+  "cut_count_reason": "9개 동작컷+5초 카드. 의자1.2초/1.2초/2.2초로 압축하고 마지막은 비교 와이드로 실제로 더 앞선 위치와 다른 두 명의 시선을 보여줌. 총32.6초.",
+  "shots": [
+    {
+      "id": "C07_K01",
+      "start": 0,
+      "end": 4,
+      "visible": [
+        "CH",
+        "JA",
+        "JB",
+        "JC"
+      ],
+      "frame_start": "은색 클로슈가 접시를 덮은 심사 테이블 전경. CH 양손이 돔 손잡이에 닿기 전. 뒤 JB/JA/JC 엄숙히 앉음.",
+      "action": "CH가 돔을 수직으로 들어 완성된 AI 결과 한 장을 공개하고 왼쪽 빈 받침에 내려놓는다.",
+      "frame_end": "자주색 탭 AI 결과 접시 위 공개, 돔 왼쪽 받침, CH 양손 비움.",
+      "composition": "낮은 접시 중심 미디엄 와이드. 관객이 식사를 예상할 조명, 종이의 정체는 명확.",
+      "caption_cues": [
+        {
+          "start": 0.4,
+          "end": 3.8,
+          "text": "오늘의 완성작입니다.",
+          "placement": "하단 중앙, 1280×720 기준 x640 / 기준선684, 38px 흰색·검정 외곽선3px; 박스 없음",
+          "kind": "subtitle"
+        }
+      ],
+      "post_composites": [
+        "결과 페이지 큰 제목 'AI 실행 결과'. 상세 성과/수치는 비워 두고 작은 구조도 형태만."
+      ],
+      "transition": "결과 옆 레시피 카드 근접으로 컷.",
+      "intent": "진짜 미식 심사라고 믿게 한 뒤 음식 대신 종이 결과를 공개하는 시각적 설정.",
+      "continuity": [
+        "좌 JB/중 JA/우 JC 좌석 고정",
+        "돔 하나, 왼쪽 받침에 놓인 끝상태 실제로 보임"
+      ],
+      "scene_id": "S01",
+      "duration": 4,
+      "interval": "0–4초",
+      "dialogue": "없음",
+      "narration": "없음",
+      "music_sfx_silence": "V16 music_direction 및 audio/C07/score_manifest.json을 적용. 실제 접촉 효과음은 영상 생성 후 관측된 접점에만 배치.",
+      "screen_action": "CH가 돔을 수직으로 들어 완성된 AI 결과 한 장을 공개하고 왼쪽 빈 받침에 내려놓는다.",
+      "frame_start_description": "은색 클로슈가 접시를 덮은 심사 테이블 전경. CH 양손이 돔 손잡이에 닿기 전. 뒤 JB/JA/JC 엄숙히 앉음.",
+      "frame_end_description": "자주색 탭 AI 결과 접시 위 공개, 돔 왼쪽 받침, CH 양손 비움.",
+      "main_motion_count": 1,
+      "image_generation_required": true,
+      "video_generation_required": false,
+      "first_frame_prompt_en": "Use case: ads-marketing. A photorealistic cinematic commercial still. Output 16:9 landscape, preferably 1536x864. Create one cinematic 16:9 horizontal first-frame key image for a later live-action commercial comedy video. This is the exact BEFORE-action frame, not a collage or a completed action. Preserve realistic anatomy, natural contact with surfaces, and a clean readable hierarchy. No subtitles, readable interface text, dates, venue information, logos or watermark-like graphics; specified text will be composited afterward.  Visible cast only: The chef is a short, sturdy East Asian man in his late 30s with a broad round clean-shaven face and short auburn side-parted hair. White double-breasted chef jacket, low square white chef cap, lavender long apron and white gloves. | The central chief judge is a very broad-shouldered, heavy-built Black man in his 50s with a smooth bald head, round face and a short gray beard only below his chin, no glasses. Wine-red velvet dinner jacket, black shirt and black bow tie. | The left judge is a short, stocky East Asian woman in her late 20s with round cheeks, clear attentive eyes and long straight platinum-blonde hair tied neatly low. Black satin tuxedo, wide white shirt collar and small deep-purple brooch. | The right judge is a very tall, thin European woman in her 60s with a long narrow face and nose, smooth high dark-brown chignon with one white streak, thin gold half-rim glasses. Dark-navy formal dress and a narrow silver-gray silk scarf. Scene: Luxurious restaurant judging room at night, cinematic warm spotlights and a dark burgundy background. A white-clothed table spans the frame. At the front-center a modest silver cloche completely covers a flat plate; the chef's two gloved hands hover just before lifting its top handle. Behind the table sit three solemn judges, the platinum-haired woman at screen-left, the broad bald man at center, the tall chignon-haired older woman at screen-right. Leave an empty flat rest on the left for the lid. No food or result page is visible yet. Physical scale lock: the same silver cloche has a clear inner diameter of at least 40 cm and an outer diameter of about 44 cm, large enough for a flat A4 sheet. Every lid rest is at least 45 by 45 cm; the service cart top is about 100 by 60 cm with separate serving and lid-rest zones. Keep all chair travel lanes free of cart wheels, tools and loose fabric. Important: single clean rectangular long dining table, not multiple merged tables. Four cast members only. Chef stands offset left, without blocking any judge's face. Keep the silver dome CLOSED and both gloved hands hovering a few centimeters ABOVE the handle, NOT touching yet. Polished theatrical restaurant photography with deep burgundy curtains, warm amber practical lights and black wood floor. Natural human faces. No extra people. Clear top dark-wall area.",
+      "future_motion_notes": {
+        "camera": "낮은 접시 중심 미디엄 와이드. 관객이 식사를 예상할 조명, 종이의 정체는 명확.",
+        "start": "은색 클로슈가 접시를 덮은 심사 테이블 전경. CH 양손이 돔 손잡이에 닿기 전. 뒤 JB/JA/JC 엄숙히 앉음.",
+        "main": "CH가 돔을 수직으로 들어 완성된 AI 결과 한 장을 공개하고 왼쪽 빈 받침에 내려놓는다.",
+        "end": "자주색 탭 AI 결과 접시 위 공개, 돔 왼쪽 받침, CH 양손 비움.",
+        "frame_holds": "시작과 끝에 편집 여유 확보. 영상 전체8초를 자동 본편 사용하지 않음.",
+        "audio": "음성대사/생성 자막/생성 음악 없음. BGM/SFX 후편집.",
+        "acceptance": "시작→행동→완료, 손·소품·바닥 접점 확인. 상세 프롬프트가 성공을 보장하지 않음."
+      },
+      "selected_first_frame": "storyboards/2026-10-26_C01-C07-C10-rewrite-v15/images/C07/S01.png",
+      "status": "기존 첫 프레임 보존. 이번 작업은 자막·음악 계획 검토, Flow 영상 생성 없음."
+    },
+    {
+      "id": "C07_K02",
+      "start": 4,
+      "end": 8,
+      "visible": [
+        "JA"
+      ],
+      "frame_start": "JA가 작은 레시피 카드를 양손에 들고 뒤집기 전, 앞에는 공개된 결과 접시. 문서 글자 후합성 영역.",
+      "action": "JA가 카드를 읽는 방향으로 돌려 'AI 활용' 한 줄뿐임을 확인하고 그대로 굳는다. 마지막에 카드를 테이블 위에 내려놓는다.",
+      "frame_end": "한 줄뿐인 레시피 카드가 테이블 위로 내려오고 JA 두 손 비움. 시선은 왼쪽 조리대 쪽으로 향할 수 있음.",
+      "composition": "카드와 얼굴을 함께 보는 고정 미디엄. 빈 카드 면적을 크게 보여 부족한 과정 설명을 시각화.",
+      "caption_cues": [
+        {
+          "start": 4.5,
+          "end": 7.8,
+          "text": "그래서… 어떻게요?",
+          "placement": "하단 중앙, 1280×720 기준 x640 / 기준선684, 38px 흰색·검정 외곽선3px; 박스 없음",
+          "kind": "subtitle"
+        }
+      ],
+      "post_composites": [
+        "카드 상단 '레시피', 아래 'AI 활용' 단 한 줄. 나머지 여백. 한 줄이 등장하는 타이밍은 카드 앞면이 드러난 뒤."
+      ],
+      "transition": "카드의 넓은 빈 여백에서 셰프의 촘촘한 수정 초안으로 대비 컷.",
+      "intent": "화려한 결과와 너무 짧은 설명의 불균형. AI 사용 자체를 비웃는 것이 아니라 재현할 수 없는 설명이 문제.",
+      "continuity": [
+        "결과 페이지는 테이블에 남음",
+        "JA 카드를 던지거나 사람을 꾸짖지 않음"
+      ],
+      "scene_id": "S02",
+      "duration": 4,
+      "interval": "4–8초",
+      "dialogue": "없음",
+      "narration": "없음",
+      "music_sfx_silence": "V16 music_direction 및 audio/C07/score_manifest.json을 적용. 실제 접촉 효과음은 영상 생성 후 관측된 접점에만 배치.",
+      "screen_action": "JA가 카드를 읽는 방향으로 돌려 'AI 활용' 한 줄뿐임을 확인하고 그대로 굳는다. 마지막에 카드를 테이블 위에 내려놓는다.",
+      "frame_start_description": "JA가 작은 레시피 카드를 양손에 들고 뒤집기 전, 앞에는 공개된 결과 접시. 문서 글자 후합성 영역.",
+      "frame_end_description": "한 줄뿐인 레시피 카드가 테이블 위로 내려오고 JA 두 손 비움. 시선은 왼쪽 조리대 쪽으로 향할 수 있음.",
+      "main_motion_count": 1,
+      "image_generation_required": true,
+      "video_generation_required": false,
+      "first_frame_prompt_en": "Use case: ads-marketing. Create the next camera setup in the exact same restaurant using image 1 as identity, costume and lighting reference. Output 16:9. Create one cinematic 16:9 horizontal first-frame key image for a later live-action commercial comedy video. This is the exact BEFORE-action frame, not a collage or a completed action. Preserve realistic anatomy, natural contact with surfaces, and a clean readable hierarchy. No subtitles, readable interface text, dates, venue information, logos or watermark-like graphics; specified text will be composited afterward.  Visible cast only: The central chief judge is a very broad-shouldered, heavy-built Black man in his 50s with a smooth bald head, round face and a short gray beard only below his chin, no glasses. Wine-red velvet dinner jacket, black shirt and black bow tie. Scene: Fixed medium close shot of the broad bald male judge in a wine velvet dinner jacket. He holds a small ivory recipe card with both hands, just before rotating its front toward himself and partly toward the camera. The card's large face is clean and blank for post-composited writing. The polished final-result sheet remains on its plate at the lower edge. His face is formally expectant, not already angry. Keep the upper dark wall clear for captions. Physical scale lock: the same silver cloche has a clear inner diameter of at least 40 cm and an outer diameter of about 44 cm, large enough for a flat A4 sheet. Every lid rest is at least 45 by 45 cm; the service cart top is about 100 by 60 cm with separate serving and lid-rest zones. Keep all chair travel lanes free of cart wheels, tools and loose fabric. Match image1 chief judge's exact face, heavy body, burgundy velvet jacket and gray chin beard. Only this judge visible in the tighter framing. At the bottom edge, a flat white A4 sheet with one purple tab rests on a LARGE white serving plate; no readable text on paper. Recipe card is a SMALL clean ivory rectangle approx 15 by 10 cm, naturally held at its lower corners. Calm, expectant, not already disappointed. The silver dome has been removed and is out of this shot to the left; do not place a dome over the revealed paper. Keep same dark burgundy room and warm light.",
+      "future_motion_notes": {
+        "camera": "카드와 얼굴을 함께 보는 고정 미디엄. 빈 카드 면적을 크게 보여 부족한 과정 설명을 시각화.",
+        "start": "JA가 작은 레시피 카드를 양손에 들고 뒤집기 전, 앞에는 공개된 결과 접시. 문서 글자 후합성 영역.",
+        "main": "JA가 카드를 읽는 방향으로 돌려 'AI 활용' 한 줄뿐임을 확인하고 그대로 굳는다. 마지막에 카드를 테이블 위에 내려놓는다.",
+        "end": "한 줄뿐인 레시피 카드가 테이블 위로 내려오고 JA 두 손 비움. 시선은 왼쪽 조리대 쪽으로 향할 수 있음.",
+        "frame_holds": "시작과 끝에 편집 여유 확보. 영상 전체8초를 자동 본편 사용하지 않음.",
+        "audio": "음성대사/생성 자막/생성 음악 없음. BGM/SFX 후편집.",
+        "acceptance": "시작→행동→완료, 손·소품·바닥 접점 확인. 상세 프롬프트가 성공을 보장하지 않음."
+      },
+      "selected_first_frame": "storyboards/2026-10-26_C01-C07-C10-rewrite-v15/images/C07/S02.png",
+      "status": "기존 첫 프레임 보존. 이번 작업은 자막·음악 계획 검토, Flow 영상 생성 없음."
+    },
+    {
+      "id": "C07_K03",
+      "start": 8,
+      "end": 11,
+      "visible": [
+        "CH"
+      ],
+      "frame_start": "왼쪽 조리대 앞 CH 오른손에 빨간 수정 흔적 초안 한 장, 왼손은 비움. 작은 흰 기록통은 옆 낮은 받침 위 열림, 다른 초안 이미 담김.",
+      "action": "CH가 마지막 수정 초안을 그 기록통 안에 반듯하게 넣는다.",
+      "frame_end": "초안은 통 안에 들어가고 CH 오른손 비움. 통은 깨끗한 종이 기록만 담음.",
+      "composition": "손·붉은 수정 흔적·기록통을 크게. 휴지통의 더러움보다 기록 양이 보이게.",
+      "caption_cues": [
+        {
+          "start": 8.2,
+          "end": 10.8,
+          "text": "수정 초안",
+          "placement": "기록통에 붙는 표찰. 일반 자막과 분리하여 물체에 추적 합성.",
+          "kind": "prop_label"
+        }
+      ],
+      "post_composites": [
+        "통 표찰 '수정 초안'. 종이에는 작은 빨간 삭제선/조건 메모 구조만, 민감한 실데이터 없음."
+      ],
+      "transition": "통을 보는 JA로 시선 매치 컷.",
+      "intent": "정리하던 중간 기록을 다음 주인공으로 바꾸는 씨앗. 오염된 쓰레기를 먹는 개그 아님.",
+      "continuity": [
+        "흰 통은 실제 문서 보관용, 음식물/찢긴쓰레기 금지",
+        "CH는 초안을 없애거나 삭제하지 않음"
+      ],
+      "scene_id": "S03",
+      "duration": 3,
+      "interval": "8–11초",
+      "dialogue": "없음",
+      "narration": "없음",
+      "music_sfx_silence": "V16 music_direction 및 audio/C07/score_manifest.json을 적용. 실제 접촉 효과음은 영상 생성 후 관측된 접점에만 배치.",
+      "screen_action": "CH가 마지막 수정 초안을 그 기록통 안에 반듯하게 넣는다.",
+      "frame_start_description": "왼쪽 조리대 앞 CH 오른손에 빨간 수정 흔적 초안 한 장, 왼손은 비움. 작은 흰 기록통은 옆 낮은 받침 위 열림, 다른 초안 이미 담김.",
+      "frame_end_description": "초안은 통 안에 들어가고 CH 오른손 비움. 통은 깨끗한 종이 기록만 담음.",
+      "main_motion_count": 1,
+      "image_generation_required": true,
+      "video_generation_required": false,
+      "first_frame_prompt_en": "Use case: precise-object-edit. Correct ONLY the chef's arm/hand ownership and remove the unwanted dome from this existing photograph. Keep exact chef identity, head, body, clothes, apron, lighting, document container size, papers and room. The chef's anatomical RIGHT arm, which starts at the shoulder on the VIEWER'S LEFT, must bend across his torso and reach to the paper above the container. That RIGHT gloved hand is now the only hand holding the single red-marked paper. The anatomical LEFT arm, shoulder on VIEWER'S RIGHT, must hang down empty beside his LEFT hip, NOT hold any paper. Show the two arms clearly traceable from shoulder to hand; no extra arms or hands. The paper remains suspended just above the container before dropping. Remove the entire silver cloche/dome on the counter at the far right, leaving that counter empty; the one dome is elsewhere in the story. Do not alter any other part. 16:9 photorealistic frame, no text.",
+      "future_motion_notes": {
+        "camera": "손·붉은 수정 흔적·기록통을 크게. 휴지통의 더러움보다 기록 양이 보이게.",
+        "start": "왼쪽 조리대 앞 CH 오른손에 빨간 수정 흔적 초안 한 장, 왼손은 비움. 작은 흰 기록통은 옆 낮은 받침 위 열림, 다른 초안 이미 담김.",
+        "main": "CH가 마지막 수정 초안을 그 기록통 안에 반듯하게 넣는다.",
+        "end": "초안은 통 안에 들어가고 CH 오른손 비움. 통은 깨끗한 종이 기록만 담음.",
+        "frame_holds": "시작과 끝에 편집 여유 확보. 영상 전체8초를 자동 본편 사용하지 않음.",
+        "audio": "음성대사/생성 자막/생성 음악 없음. BGM/SFX 후편집.",
+        "acceptance": "시작→행동→완료, 손·소품·바닥 접점 확인. 상세 프롬프트가 성공을 보장하지 않음."
+      },
+      "selected_first_frame": "storyboards/2026-10-26_C01-C07-C10-rewrite-v15/images/C07/S03.png",
+      "status": "기존 첫 프레임 보존. 이번 작업은 자막·음악 계획 검토, Flow 영상 생성 없음."
+    },
+    {
+      "id": "C07_K04",
+      "start": 11,
+      "end": 15,
+      "visible": [
+        "JA",
+        "CH",
+        "JB",
+        "JC"
+      ],
+      "frame_start": "JA는 중앙 좌석에 앉아 왼쪽 기록통을 본다. 레시피 카드는 테이블에 놓였고 양손 비움. CH는 왼쪽 통 옆, JB/JC는 자기 자리.",
+      "action": "JA가 자리에서 일어나 왼쪽 두 걸음 거리의 기록통으로 가서 두 손으로 조심스럽게 들어 자기 가슴 가까이 가져온다. 다른 두 심사위원은 앉은 채 시선만 따라간다.",
+      "frame_end": "JA 통 옆에 서서 양손 기록통 소유. CH는 과정을 궁금해한다는 사실을 알아차림. JB/JC 자리에서 몸을 약간 기울임.",
+      "composition": "통과 JA 표정 전경, 뒤 두 심사위원은 각 한 번 시선만 따라옴. 4인 동시 복잡한 이동 없음.",
+      "caption_cues": [
+        {
+          "start": 11.3,
+          "end": 14.8,
+          "text": "셰프님. 이것도 주세요.",
+          "placement": "하단 중앙, 1280×720 기준 x640 / 기준선684, 38px 흰색·검정 외곽선3px; 박스 없음",
+          "kind": "subtitle"
+        }
+      ],
+      "post_composites": [],
+      "transition": "시간 생략 후 같은 통을 정식 서빙하는 카트로 컷. 좌석 복귀/준비는 '잠시 후' 표지.",
+      "intent": "버린다고 생각한 과정이 완성작보다 중요한 대접을 받는 반전. 통을 훔치거나 추격하지 않음.",
+      "continuity": [
+        "K02 끝에 레시피 카드를 실제로 내려놓아 JA 양손 비움",
+        "K04 안에서 자리 이탈→통 접근→들기를 보여 통 소유가 순간 바뀌지 않음",
+        "JB/JC는 일어나 달려들지 않고 시선/기울기만"
+      ],
+      "production_caution": "이동+인양 한 사건을 8초 원본에서 확보. 실제 4초 편집으로 접점이 안 보이면 1초 늘리고 앞 서빙 정지를 재배분; 첫 프레임을 이미 통 옆으로 바꾸어 접근이 완료된 것처럼 만들지 않음.",
+      "scene_id": "S04",
+      "duration": 4,
+      "interval": "11–15초",
+      "dialogue": "없음",
+      "narration": "없음",
+      "music_sfx_silence": "V16 music_direction 및 audio/C07/score_manifest.json을 적용. 실제 접촉 효과음은 영상 생성 후 관측된 접점에만 배치.",
+      "screen_action": "JA가 자리에서 일어나 왼쪽 두 걸음 거리의 기록통으로 가서 두 손으로 조심스럽게 들어 자기 가슴 가까이 가져온다. 다른 두 심사위원은 앉은 채 시선만 따라간다.",
+      "frame_start_description": "JA는 중앙 좌석에 앉아 왼쪽 기록통을 본다. 레시피 카드는 테이블에 놓였고 양손 비움. CH는 왼쪽 통 옆, JB/JC는 자기 자리.",
+      "frame_end_description": "JA 통 옆에 서서 양손 기록통 소유. CH는 과정을 궁금해한다는 사실을 알아차림. JB/JC 자리에서 몸을 약간 기울임.",
+      "main_motion_count": 1,
+      "image_generation_required": true,
+      "video_generation_required": false,
+      "first_frame_prompt_en": "Use case: ads-marketing. Image1 is exact cast/room/wardrobe reference; image2 is exact clean shallow white document container and paper reference. Generate one new wide first frame in the SAME ROOM, 16:9. Create one cinematic 16:9 horizontal first-frame key image for a later live-action commercial comedy video. This is the exact BEFORE-action frame, not a collage or a completed action. Preserve realistic anatomy, natural contact with surfaces, and a clean readable hierarchy. No subtitles, readable interface text, dates, venue information, logos or watermark-like graphics; specified text will be composited afterward.  Visible cast only: The central chief judge is a very broad-shouldered, heavy-built Black man in his 50s with a smooth bald head, round face and a short gray beard only below his chin, no glasses. Wine-red velvet dinner jacket, black shirt and black bow tie. | The chef is a short, sturdy East Asian man in his late 30s with a broad round clean-shaven face and short auburn side-parted hair. White double-breasted chef jacket, low square white chef cap, lavender long apron and white gloves. | The left judge is a short, stocky East Asian woman in her late 20s with round cheeks, clear attentive eyes and long straight platinum-blonde hair tied neatly low. Black satin tuxedo, wide white shirt collar and small deep-purple brooch. | The right judge is a very tall, thin European woman in her 60s with a long narrow face and nose, smooth high dark-brown chignon with one white streak, thin gold half-rim glasses. Dark-navy formal dress and a narrow silver-gray silk scarf. Scene: Medium-wide restaurant view with the broad bald judge still in his CENTRAL chair, empty hands near the table edge, looking toward the clean white revision container two short steps to screen-left. The ivory recipe card lies visibly on the table in front of him. The chef stands next to the container at the side station. The platinum-haired woman remains seated left and the older chignon-haired woman right, both with empty relaxed hands. Show the short unobstructed route from the central chair to the container, before any person stands or lifts it. Physical scale lock: the same silver cloche has a clear inner diameter of at least 40 cm and an outer diameter of about 44 cm, large enough for a flat A4 sheet. Every lid rest is at least 45 by 45 cm; the service cart top is about 100 by 60 cm with separate serving and lid-rest zones. Keep all chair travel lanes free of cart wheels, tools and loose fabric. The serving table is a single rectangle and the chef's clean side stand is just beyond its SCREEN-LEFT end; the same white document container sits on that stand full of neatly half-folded drafts with abstract red marks. Chef's two hands are EMPTY and relaxed. Central judge remains fully SEATED, not standing and not holding the container yet. Show enough polished floor and space BEHIND the judges' chairs for the central judge to step back and walk around the left judge, never through a table or another person. Keep identities recognizably identical to reference. Final white A4 with purple tab remains on its large plate in front, small ivory recipe card lies beside it. The one silver dome rests on the far-left empty plate/rest on the dining table. No food, no new people, no written labels, no rearranged seating.",
+      "future_motion_notes": {
+        "camera": "통과 JA 표정 전경, 뒤 두 심사위원은 각 한 번 시선만 따라옴. 4인 동시 복잡한 이동 없음.",
+        "start": "JA는 중앙 좌석에 앉아 왼쪽 기록통을 본다. 레시피 카드는 테이블에 놓였고 양손 비움. CH는 왼쪽 통 옆, JB/JC는 자기 자리.",
+        "main": "JA가 자리에서 일어나 왼쪽 두 걸음 거리의 기록통으로 가서 두 손으로 조심스럽게 들어 자기 가슴 가까이 가져온다. 다른 두 심사위원은 앉은 채 시선만 따라간다.",
+        "end": "JA 통 옆에 서서 양손 기록통 소유. CH는 과정을 궁금해한다는 사실을 알아차림. JB/JC 자리에서 몸을 약간 기울임.",
+        "frame_holds": "시작과 끝에 편집 여유 확보. 영상 전체8초를 자동 본편 사용하지 않음.",
+        "audio": "음성대사/생성 자막/생성 음악 없음. BGM/SFX 후편집.",
+        "acceptance": "시작→행동→완료, 손·소품·바닥 접점 확인. 상세 프롬프트가 성공을 보장하지 않음."
+      },
+      "selected_first_frame": "storyboards/2026-10-26_C01-C07-C10-rewrite-v15/images/C07/S04.png",
+      "status": "기존 첫 프레임 보존. 이번 작업은 자막·음악 계획 검토, Flow 영상 생성 없음."
+    },
+    {
+      "id": "C07_K05",
+      "start": 15,
+      "end": 19,
+      "visible": [
+        "CH",
+        "JA",
+        "JB",
+        "JC"
+      ],
+      "frame_start": "잠시 후. 세 심사위원의 의자는 긴 심사 테이블 옆 열린 바닥으로 이미 옮겨져 같은 후방 출발선에 있다. 테이블은 옆으로 비켜 있고 의자와 카트 사이를 가로막지 않는다. CH는 카트 뒤 양손 손잡이. 카트 오른쪽 서빙영역은 같은 흰 기록통을 닫힌 돔으로 덮고, 왼쪽은 빈 돔 받침이다.",
+      "action": "CH가 열린 바닥의 세 심사위원을 향해 카트를 짧게 밀어 정중히 멈춘다. 카트·테이블·의자의 상대 방향은 이후 S09까지 유지한다.",
+      "frame_end": "카트가 열린 바닥의 심사위원 앞에서 정지. 의자는 같은 후방 출발선, 긴 테이블은 통로 옆. 오른쪽 돔 닫힘/왼쪽 돔받침 비어 있음.",
+      "composition": "정면 대칭 와이드. 첫 서빙의 위엄을 기록통에 그대로 적용.",
+      "caption_cues": [
+        {
+          "start": 15.2,
+          "end": 16.7,
+          "text": "잠시 후",
+          "placement": "하단 중앙, 1280×720 기준 x640 / 기준선684, 38px 흰색·검정 외곽선3px; 박스 없음",
+          "kind": "subtitle"
+        }
+      ],
+      "post_composites": [],
+      "transition": "같은 돔의 손잡이로 조금 좁게 컷.",
+      "intent": "통을 손에 든 채 끝내지 않고 정식 메뉴로 격상하는 두 번째 전환.",
+      "continuity": [
+        "JA가 통을 CH에게 넘기고 돔으로 덮어 카트에 둔 준비 시간은 명시적 시간 생략",
+        "통/돔 크기상 실제 덮일 수 있게; 큰 통이 갑자기 작아지지 않음",
+        "세 심사위원 좌석 JB/JA/JC 복귀",
+        "카트 자체=화면 중앙. 기록통/덮은44cm돔=카트 상판 오른쪽 서빙영역. 왼쪽45×45cm빈 받침=돔을 내려놓을 별도 영역."
+      ],
+      "scene_id": "S05",
+      "duration": 4,
+      "interval": "15–19초",
+      "dialogue": "없음",
+      "narration": "없음",
+      "music_sfx_silence": "V16 music_direction 및 audio/C07/score_manifest.json을 적용. 실제 접촉 효과음은 영상 생성 후 관측된 접점에만 배치.",
+      "screen_action": "CH가 열린 바닥의 세 심사위원을 향해 카트를 짧게 밀어 정중히 멈춘다. 카트·테이블·의자의 상대 방향은 이후 S09까지 유지한다.",
+      "frame_start_description": "잠시 후. 세 심사위원의 의자는 긴 심사 테이블 옆 열린 바닥으로 이미 옮겨져 같은 후방 출발선에 있다. 테이블은 옆으로 비켜 있고 의자와 카트 사이를 가로막지 않는다. CH는 카트 뒤 양손 손잡이. 카트 오른쪽 서빙영역은 같은 흰 기록통을 닫힌 돔으로 덮고, 왼쪽은 빈 돔 받침이다.",
+      "frame_end_description": "카트가 열린 바닥의 심사위원 앞에서 정지. 의자는 같은 후방 출발선, 긴 테이블은 통로 옆. 오른쪽 돔 닫힘/왼쪽 돔받침 비어 있음.",
+      "main_motion_count": 1,
+      "image_generation_required": true,
+      "video_generation_required": false,
+      "first_frame_prompt_en": "Use case: precise-object-edit. Preserve this exact open-floor staging, cast, faces, clothes, positions, room, lighting and before-action poses. Make only these physical-space corrections: enlarge the EMPTY silver lid-rest on LEFT half of cart until its outside diameter is at least the SAME as the closed dome's outside diameter on RIGHT, with a small clear gap between them; the dome must later fit fully on that rest. Keep dome and concealed container unchanged. Place the entire cart and chef a little farther to screen-right, widening the EMPTY WOOD FLOOR gap from the older woman's shoes/forward chair lane to the nearest cart wheel, so her45cm forward scoot cannot hit the cart. If needed slightly widen camera framing to retain full cart and chef; do not change judge order or put a table in front of them. Cart is alongside the right side of the chair movement lanes, not crossing them. Keep chef both gloved hands on right push bar, all judges hands relaxed, closed dome RIGHT, empty rest LEFT. No text or new items. 16:9.",
+      "future_motion_notes": {
+        "camera": "정면 대칭 와이드. 첫 서빙의 위엄을 기록통에 그대로 적용.",
+        "start": "잠시 후. 세 심사위원의 의자는 긴 심사 테이블 옆 열린 바닥으로 이미 옮겨져 같은 후방 출발선에 있다. 테이블은 옆으로 비켜 있고 의자와 카트 사이를 가로막지 않는다. CH는 카트 뒤 양손 손잡이. 카트 오른쪽 서빙영역은 같은 흰 기록통을 닫힌 돔으로 덮고, 왼쪽은 빈 돔 받침이다.",
+        "main": "CH가 열린 바닥의 세 심사위원을 향해 카트를 짧게 밀어 정중히 멈춘다. 카트·테이블·의자의 상대 방향은 이후 S09까지 유지한다.",
+        "end": "카트가 열린 바닥의 심사위원 앞에서 정지. 의자는 같은 후방 출발선, 긴 테이블은 통로 옆. 오른쪽 돔 닫힘/왼쪽 돔받침 비어 있음.",
+        "frame_holds": "시작과 끝에 편집 여유 확보. 영상 전체8초를 자동 본편 사용하지 않음.",
+        "audio": "음성대사/생성 자막/생성 음악 없음. BGM/SFX 후편집.",
+        "acceptance": "시작→행동→완료, 손·소품·바닥 접점 확인. 상세 프롬프트가 성공을 보장하지 않음."
+      },
+      "selected_first_frame": "storyboards/2026-10-26_C01-C07-C10-rewrite-v15/images/C07/S05_v2.png",
+      "status": "기존 첫 프레임 보존. 이번 작업은 자막·음악 계획 검토, Flow 영상 생성 없음."
+    },
+    {
+      "id": "C07_K06",
+      "start": 19,
+      "end": 23,
+      "visible": [
+        "CH",
+        "JA",
+        "JB",
+        "JC"
+      ],
+      "frame_start": "화면 중앙에 정지한 카트의 상판 오른쪽 서빙영역 돔, CH 양손이 돔 손잡이를 잡기 직전. 뒤 심사위원들 아직 차분히 앉음.",
+      "action": "CH가 돔을 수직으로 들어 통의 수정 초안들을 다시 공개하고 왼쪽 받침에 내려놓는다.",
+      "frame_end": "수정 초안 통이 최고급 카트 상판 오른쪽 서빙영역에 공개, 돔 왼쪽 받침. CH 양손 비움.",
+      "composition": "첫 K01과 동일한 낮은 서빙 구도. 접시의 완성작이 작은 통으로 바뀐 시각적 라임. S05 이후 같은 열린 바닥 배치. 긴 심사 테이블은 옆으로 비켜 있고 의자→카트 이동 통로에 없다. 카메라가 바뀌어도 누구도 테이블 뒤로 돌아가지 않는다.",
+      "caption_cues": [],
+      "post_composites": [
+        "통에 '수정 초안' 표찰을 후합성하되 손과 초안 위를 가리지 않음."
+      ],
+      "transition": "심사위원 한 명씩의 하체/얼굴이 보이는 짧은 리액션 연타 시작.",
+      "intent": "정리해 둔 수정 기록을 완성작과 동등하게 정식 대접하는 모습을 말 없이 확정.",
+      "continuity": [
+        "같은 돔/같은 통/같은 빨간 수정 초안",
+        "돔 내려놓기 끝까지 보여 CH 손에 도구가 남지 않음",
+        "카트 자체=화면 중앙. 기록통/덮은44cm돔=카트 상판 오른쪽 서빙영역. 왼쪽45×45cm빈 받침=돔을 내려놓을 별도 영역."
+      ],
+      "scene_id": "S06",
+      "duration": 4,
+      "interval": "19–23초",
+      "dialogue": "없음",
+      "narration": "없음",
+      "music_sfx_silence": "V16 music_direction 및 audio/C07/score_manifest.json을 적용. 실제 접촉 효과음은 영상 생성 후 관측된 접점에만 배치.",
+      "screen_action": "CH가 돔을 수직으로 들어 통의 수정 초안들을 다시 공개하고 왼쪽 받침에 내려놓는다.",
+      "frame_start_description": "화면 중앙에 정지한 카트의 상판 오른쪽 서빙영역 돔, CH 양손이 돔 손잡이를 잡기 직전. 뒤 심사위원들 아직 차분히 앉음.",
+      "frame_end_description": "수정 초안 통이 최고급 카트 상판 오른쪽 서빙영역에 공개, 돔 왼쪽 받침. CH 양손 비움.",
+      "main_motion_count": 1,
+      "image_generation_required": true,
+      "video_generation_required": false,
+      "first_frame_prompt_en": "Use case: precise-object-edit / identity-preserve. Create a separate16:9 FIRST FRAME for the next action from this exact photo. Keep the precise ROOM GEOMETRY, three chairs, all judges' poses and original aligned rear positions, empty floor, cart and its wheels, warm light, faces and costumes UNCHANGED. The cart is now parked at this same front-right spot. Change only the chef's action preparation: he takes one small half-step inward from the push bar and bends naturally toward the RIGHT closed dome. Both his white-gloved hands now hover a few centimeters above the dome's top handle, just BEFORE touching/lifting it. No stretched arms. Hands are no longer on the pushbar. Keep the dome COMPLETELY CLOSED on cart RIGHT; EMPTY equally large lid rest on cart LEFT. White shallow revision-paper container remains concealed, no paper exposed. Keep ALL three judges sitting in the OPEN FLOOR area left of cart, never put them behind a dining table. No table or fabric between chairs and cart. All feet/wheels grounded, no object swap, no new items, no text, no duplicate hand. Preserve original wide composition so clear travel floor is visible.",
+      "future_motion_notes": {
+        "camera": "첫 K01과 동일한 낮은 서빙 구도. 접시의 완성작이 작은 통으로 바뀐 시각적 라임. S05 이후 같은 열린 바닥 배치. 긴 심사 테이블은 옆으로 비켜 있고 의자→카트 이동 통로에 없다. 카메라가 바뀌어도 누구도 테이블 뒤로 돌아가지 않는다.",
+        "start": "화면 중앙에 정지한 카트의 상판 오른쪽 서빙영역 돔, CH 양손이 돔 손잡이를 잡기 직전. 뒤 심사위원들 아직 차분히 앉음.",
+        "main": "CH가 돔을 수직으로 들어 통의 수정 초안들을 다시 공개하고 왼쪽 받침에 내려놓는다.",
+        "end": "수정 초안 통이 최고급 카트 상판 오른쪽 서빙영역에 공개, 돔 왼쪽 받침. CH 양손 비움.",
+        "frame_holds": "시작과 끝에 편집 여유 확보. 영상 전체8초를 자동 본편 사용하지 않음.",
+        "audio": "음성대사/생성 자막/생성 음악 없음. BGM/SFX 후편집.",
+        "acceptance": "시작→행동→완료, 손·소품·바닥 접점 확인. 상세 프롬프트가 성공을 보장하지 않음."
+      },
+      "selected_first_frame": "storyboards/2026-10-26_C01-C07-C10-rewrite-v15/images/C07/S06_v2.png",
+      "status": "기존 첫 프레임 보존. 이번 작업은 자막·음악 계획 검토, Flow 영상 생성 없음."
+    },
+    {
+      "id": "C07_K07",
+      "start": 23,
+      "end": 24.2,
+      "visible": [
+        "JA"
+      ],
+      "frame_start": "중앙 JA 의자는 S05에서 정한 열린 바닥의 출발선. 양손 좌판 양옆, 발은 바닥. 뒤의 JB·JC도 같은 출발선에 정지. 공개된 기록통은 앞 카트 오른쪽, 돔은 카트 왼쪽 받침.",
+      "action": "JA가 의자를 한 번 짧게 약20cm 앞으로 끈다. 1.2초 안에 완료되는 명확한 한 번의 빠른 이동.",
+      "frame_end": "JA 의자 약20cm 앞으로, 엄숙한 표정. 이동 완료·바닥 접촉.",
+      "composition": "측면 3/4 미디엄, 얼굴·좌판·의자 다리·발 접점까지 보임. S05 이후 같은 열린 바닥 배치. 긴 심사 테이블은 옆으로 비켜 있고 의자→카트 이동 통로에 없다. 카메라가 바뀌어도 누구도 테이블 뒤로 돌아가지 않는다.",
+      "caption_cues": [],
+      "post_composites": [],
+      "transition": "같은 행동의 JB 컷으로 24.2초 하드 컷.",
+      "intent": "완벽한 예절이 몸의 호기심을 이기지 못하는 첫 박.",
+      "continuity": [
+        "JA만 움직임, 의자 다리 바닥 접촉 유지",
+        "통은 카트 정지, 누가 먼저 가져가지 않음"
+      ],
+      "scene_id": "S07",
+      "duration": 1.2,
+      "interval": "23–24.2초",
+      "dialogue": "없음",
+      "narration": "없음",
+      "music_sfx_silence": "V16 music_direction 및 audio/C07/score_manifest.json을 적용. 실제 접촉 효과음은 영상 생성 후 관측된 접점에만 배치.",
+      "screen_action": "JA가 의자를 한 번 짧게 약20cm 앞으로 끈다. 1.2초 안에 완료되는 명확한 한 번의 빠른 이동.",
+      "frame_start_description": "중앙 JA 의자는 S05에서 정한 열린 바닥의 출발선. 양손 좌판 양옆, 발은 바닥. 뒤의 JB·JC도 같은 출발선에 정지. 공개된 기록통은 앞 카트 오른쪽, 돔은 카트 왼쪽 받침.",
+      "frame_end_description": "JA 의자 약20cm 앞으로, 엄숙한 표정. 이동 완료·바닥 접촉.",
+      "main_motion_count": 1,
+      "image_generation_required": true,
+      "video_generation_required": false,
+      "first_frame_prompt_en": "Use case: precise-object-edit. IMAGE1 is target; IMAGE2 shows the corrected SMALL white document-container real-world scale relative to silver dome. Preserve every person, pose, chair, empty floor, cart, dome, camera, light and background from IMAGE1. Change only white container and its papers at the cart RIGHT: reduce them together to about70percent of current width and height, keeping its base in contact with the same right serving zone. The cylinder is24cm diameter13cm high; the44cm dome beside it must be able to cover it and all folded papers. Contained half-folded red-marked drafts protrude only a little above the rim; no paper top taller than the dome cap excluding knob. Match the compact container-to-dome ratio in IMAGE2, not a large bucket. Keep same white matte cylinder and generic red correction marks/tabs. One container, one dome resting LEFT; no text or extra item. No geometry/pose changes,16:9.",
+      "future_motion_notes": {
+        "camera": "측면 3/4 미디엄, 얼굴·좌판·의자 다리·발 접점까지 보임. S05 이후 같은 열린 바닥 배치. 긴 심사 테이블은 옆으로 비켜 있고 의자→카트 이동 통로에 없다. 카메라가 바뀌어도 누구도 테이블 뒤로 돌아가지 않는다.",
+        "start": "중앙 JA 의자는 S05에서 정한 열린 바닥의 출발선. 양손 좌판 양옆, 발은 바닥. 뒤의 JB·JC도 같은 출발선에 정지. 공개된 기록통은 앞 카트 오른쪽, 돔은 카트 왼쪽 받침.",
+        "main": "JA가 의자를 한 번 짧게 약20cm 앞으로 끈다. 1.2초 안에 완료되는 명확한 한 번의 빠른 이동.",
+        "end": "JA 의자 약20cm 앞으로, 엄숙한 표정. 이동 완료·바닥 접촉.",
+        "frame_holds": "시작과 끝에 편집 여유 확보. 영상 전체8초를 자동 본편 사용하지 않음.",
+        "audio": "음성대사/생성 자막/생성 음악 없음. BGM/SFX 후편집.",
+        "acceptance": "시작→행동→완료, 손·소품·바닥 접점 확인. 상세 프롬프트가 성공을 보장하지 않음."
+      },
+      "selected_first_frame": "storyboards/2026-10-26_C01-C07-C10-rewrite-v15/images/C07/S07_v3.png",
+      "status": "기존 첫 프레임 보존. 이번 작업은 자막·음악 계획 검토, Flow 영상 생성 없음."
+    },
+    {
+      "id": "C07_K08",
+      "start": 24.2,
+      "end": 25.4,
+      "visible": [
+        "JB",
+        "JA"
+      ],
+      "frame_start": "왼쪽 JB 의자는 아직 뒤. JB 양손 좌판, 발 바닥. 흐린 뒤 중앙 JA는 이미 한 칸 가까워진 자세로 정지.",
+      "action": "JB가 의자를 한 번 약20cm 앞으로 끌어 JA와 비슷한 선에 맞춘다. 1.2초의 두 번째 박.",
+      "frame_end": "JB도 앞으로, 두 사람 같은 줄. JC는 아직 뒤.",
+      "composition": "JB 측면 미디엄. JA는 배경 고정, 동시 이동 없음. S05 이후 같은 열린 바닥 배치. 긴 심사 테이블은 옆으로 비켜 있고 의자→카트 이동 통로에 없다. 카메라가 바뀌어도 누구도 테이블 뒤로 돌아가지 않는다.",
+      "caption_cues": [],
+      "post_composites": [],
+      "transition": "마지막 JC로 하드 컷.",
+      "intent": "우연한 자세 변화가 아닌 모두가 참지 못하는 기대라는 두 번째 박.",
+      "continuity": [
+        "좌석 위치 JB왼쪽 유지",
+        "JA는 이미 앞으로 온 상태에서 다시 움직이지 않음"
+      ],
+      "scene_id": "S08",
+      "duration": 1.2,
+      "interval": "24.2–25.4초",
+      "dialogue": "없음",
+      "narration": "없음",
+      "music_sfx_silence": "V16 music_direction 및 audio/C07/score_manifest.json을 적용. 실제 접촉 효과음은 영상 생성 후 관측된 접점에만 배치.",
+      "screen_action": "JB가 의자를 한 번 약20cm 앞으로 끌어 JA와 비슷한 선에 맞춘다. 1.2초의 두 번째 박.",
+      "frame_start_description": "왼쪽 JB 의자는 아직 뒤. JB 양손 좌판, 발 바닥. 흐린 뒤 중앙 JA는 이미 한 칸 가까워진 자세로 정지.",
+      "frame_end_description": "JB도 앞으로, 두 사람 같은 줄. JC는 아직 뒤.",
+      "main_motion_count": 1,
+      "image_generation_required": true,
+      "video_generation_required": false,
+      "first_frame_prompt_en": "Use case: precise-object-edit. Change ONLY the physical size of the white document container AND its contained papers on the cart RIGHT. Keep every pixel outside that object region the same: people, chairs, floor, cart, dome on LEFT, camera, lighting. The white container is a SMALL shallow24cm diameter x13cm high cylinder. The silver dome beside it is44cm wide, so the container must be approximately HALF THE DOME'S WIDTH, not equal width. Reduce the current container width to about58percent and reduce height/paper bundle proportionately, staying centered in the RIGHT serving zone with base still touching cart top. Papers are HALF-FOLDED marked drafts, compact, with only a little protruding above rim; their top is LOWER than the dome's top excluding its knob so dome could physically cover them. Preserve white cylinder design, red abstract revision marks and small colored tabs. There is still one open container, one dome, no additional objects. Do NOT enlarge dome or move cart/chairs. Photorealistic16:9.",
+      "future_motion_notes": {
+        "camera": "JB 측면 미디엄. JA는 배경 고정, 동시 이동 없음. S05 이후 같은 열린 바닥 배치. 긴 심사 테이블은 옆으로 비켜 있고 의자→카트 이동 통로에 없다. 카메라가 바뀌어도 누구도 테이블 뒤로 돌아가지 않는다.",
+        "start": "왼쪽 JB 의자는 아직 뒤. JB 양손 좌판, 발 바닥. 흐린 뒤 중앙 JA는 이미 한 칸 가까워진 자세로 정지.",
+        "main": "JB가 의자를 한 번 약20cm 앞으로 끌어 JA와 비슷한 선에 맞춘다. 1.2초의 두 번째 박.",
+        "end": "JB도 앞으로, 두 사람 같은 줄. JC는 아직 뒤.",
+        "frame_holds": "시작과 끝에 편집 여유 확보. 영상 전체8초를 자동 본편 사용하지 않음.",
+        "audio": "음성대사/생성 자막/생성 음악 없음. BGM/SFX 후편집.",
+        "acceptance": "시작→행동→완료, 손·소품·바닥 접점 확인. 상세 프롬프트가 성공을 보장하지 않음."
+      },
+      "selected_first_frame": "storyboards/2026-10-26_C01-C07-C10-rewrite-v15/images/C07/S08_v2.png",
+      "status": "기존 첫 프레임 보존. 이번 작업은 자막·음악 계획 검토, Flow 영상 생성 없음."
+    },
+    {
+      "id": "C07_K09",
+      "start": 25.4,
+      "end": 27.6,
+      "visible": [
+        "JC",
+        "JA",
+        "JB"
+      ],
+      "frame_start": "JA/JB 의자가 이미 약20cm 앞으로 나온 상태, JC만 원래 뒤. 셋 모두 통을 보고 있다. JC 앞에는 약60cm 빈 통로, 양손 좌판/발 바닥.",
+      "action": "JC가 의자를 한 번 약45cm 앞으로 끌어 앞선 두 명보다 확실히 앞서 멈춘다. 멈춘 직후 JA/JB가 JC 쪽으로 시선만 옮긴다.",
+      "frame_end": "JC가 다른 두 명보다 약25cm 앞에 나와 같은 통을 엄숙히 봄. JA/JB는 JC를 쳐다봐 비교가 명확. 아무도 넘어지거나 부딪히지 않음.",
+      "composition": "비교 가능한 정면에 가까운 3/4 와이드. 세 의자 다리와 JC의 빈 이동 통로가 보임. 카트는 옆으로 충분히 비켜 있어 충돌/발 걸림 없음. S05 이후 같은 열린 바닥 배치. 긴 심사 테이블은 옆으로 비켜 있고 의자→카트 이동 통로에 없다. 카메라가 바뀌어도 누구도 테이블 뒤로 돌아가지 않는다.",
+      "caption_cues": [],
+      "post_composites": [],
+      "transition": "27.6초 별도 전체 화면 엔딩 카드.",
+      "intent": "동작 크기와 위치가 실제로 커지는 세 번째 박. 마지막 비교 와이드의 두 시선이 먼저 온 사람들까지 놀라게 한 과잉 열의를 드러냄.",
+      "continuity": [
+        "단 한 번의 의자 이동, 테이블에 몸 충돌하지 않음",
+        "인물들 외모 대신 행동과 격식의 불균형이 웃음"
+      ],
+      "scene_id": "S09",
+      "duration": 2.2,
+      "interval": "25.4–27.6초",
+      "dialogue": "없음",
+      "narration": "없음",
+      "music_sfx_silence": "V16 music_direction 및 audio/C07/score_manifest.json을 적용. 실제 접촉 효과음은 영상 생성 후 관측된 접점에만 배치.",
+      "screen_action": "JC가 의자를 한 번 약45cm 앞으로 끌어 앞선 두 명보다 확실히 앞서 멈춘다. 멈춘 직후 JA/JB가 JC 쪽으로 시선만 옮긴다.",
+      "frame_start_description": "JA/JB 의자가 이미 약20cm 앞으로 나온 상태, JC만 원래 뒤. 셋 모두 통을 보고 있다. JC 앞에는 약60cm 빈 통로, 양손 좌판/발 바닥.",
+      "frame_end_description": "JC가 다른 두 명보다 약25cm 앞에 나와 같은 통을 엄숙히 봄. JA/JB는 JC를 쳐다봐 비교가 명확. 아무도 넘어지거나 부딪히지 않음.",
+      "main_motion_count": 1,
+      "image_generation_required": true,
+      "video_generation_required": false,
+      "first_frame_prompt_en": "Use case: precise-object-edit. Keep the exact THREE judge identities, costumes, chairs, lighting, luxury room and ordering of this photo. Correct spatial layout for safe chair motion. Reframe slightly WIDER to show all shoes and all three full chairs. Move the ENTIRE dining table AND the entire service cart farther to SCREEN-RIGHT and slightly forward, mostly toward the right edge of frame. This must reveal a clearly visible, completely EMPTY rectangle of polished floor at least60cm deep directly IN FRONT of the older woman's chair and shoes on the RIGHT. Her shoes and chair front legs may not disappear behind white linen. Keep her chair at the rear original position; do NOT advance her yet. The blonde and bald man's chairs are already about20cm ahead of her line and stay fixed. The older woman grips both seat edges, and all three look toward the document container. The cart may be partially cropped far-right but must still show one shallow white paper container on cart's RIGHT and the one silver dome resting on the cart's LEFT bare metal top, NOT on white dining-table linen. No cart wheels, table leg or cloth in front of her chair travel path. No text, no new people or furniture. Their forward movement would approach the table with comfortable clearance, not collide or cross through it. Still photorealistic16:9.",
+      "future_motion_notes": {
+        "camera": "비교 가능한 정면에 가까운 3/4 와이드. 세 의자 다리와 JC의 빈 이동 통로가 보임. 카트는 옆으로 충분히 비켜 있어 충돌/발 걸림 없음. S05 이후 같은 열린 바닥 배치. 긴 심사 테이블은 옆으로 비켜 있고 의자→카트 이동 통로에 없다. 카메라가 바뀌어도 누구도 테이블 뒤로 돌아가지 않는다.",
+        "start": "JA/JB 의자가 이미 약20cm 앞으로 나온 상태, JC만 원래 뒤. 셋 모두 통을 보고 있다. JC 앞에는 약60cm 빈 통로, 양손 좌판/발 바닥.",
+        "main": "JC가 의자를 한 번 약45cm 앞으로 끌어 앞선 두 명보다 확실히 앞서 멈춘다. 멈춘 직후 JA/JB가 JC 쪽으로 시선만 옮긴다.",
+        "end": "JC가 다른 두 명보다 약25cm 앞에 나와 같은 통을 엄숙히 봄. JA/JB는 JC를 쳐다봐 비교가 명확. 아무도 넘어지거나 부딪히지 않음.",
+        "frame_holds": "시작과 끝에 편집 여유 확보. 영상 전체8초를 자동 본편 사용하지 않음.",
+        "audio": "음성대사/생성 자막/생성 음악 없음. BGM/SFX 후편집.",
+        "acceptance": "시작→행동→완료, 손·소품·바닥 접점 확인. 상세 프롬프트가 성공을 보장하지 않음."
+      },
+      "selected_first_frame": "storyboards/2026-10-26_C01-C07-C10-rewrite-v15/images/C07/S09.png",
+      "status": "기존 첫 프레임 보존. 이번 작업은 자막·음악 계획 검토, Flow 영상 생성 없음."
+    },
+    {
+      "id": "C07_K10",
+      "start": 27.6,
+      "end": 32.6,
+      "visible": [],
+      "frame_start": "별도 깊은 버건디 엔딩 카드, 아이보리 활자.",
+      "action": "고정 카드5초.",
+      "frame_end": "문구와 행사명 동일.",
+      "composition": "충분한 상하 여백. 카피→행사명→행사 성격.",
+      "caption_cues": [
+        {
+          "start": 27.6,
+          "end": 32.6,
+          "text": "결과만큼 궁금한, 그 과정.\nQ-AI Fair\n품질팀 AI 성과 교류회",
+          "placement": "기존 별도 전체 화면 엔딩 카드",
+          "kind": "endcard"
+        }
+      ],
+      "post_composites": [
+        "모든 문자 후편집."
+      ],
+      "transition": "끝.",
+      "intent": "시청자가 이미 본 수정 초안의 귀한 대접을 행사 가치로 묶음.",
+      "continuity": [
+        "실제 식사/레시피 행사로 오인하지 않게 Q-AI Fair와 품질팀 AI 성과 교류회 5초"
+      ],
+      "is_card": true,
+      "scene_id": "S10",
+      "duration": 5,
+      "interval": "27.6–32.6초",
+      "dialogue": "없음",
+      "narration": "없음",
+      "music_sfx_silence": "V16 music_direction 및 audio/C07/score_manifest.json을 적용. 실제 접촉 효과음은 영상 생성 후 관측된 접점에만 배치.",
+      "screen_action": "고정 카드5초.",
+      "frame_start_description": "별도 깊은 버건디 엔딩 카드, 아이보리 활자.",
+      "frame_end_description": "문구와 행사명 동일.",
+      "main_motion_count": 0,
+      "image_generation_required": false,
+      "video_generation_required": false,
+      "first_frame_prompt_en": null,
+      "future_motion_notes": {
+        "camera": "충분한 상하 여백. 카피→행사명→행사 성격.",
+        "start": "별도 깊은 버건디 엔딩 카드, 아이보리 활자.",
+        "main": "고정 카드5초.",
+        "end": "문구와 행사명 동일.",
+        "frame_holds": "시작과 끝에 편집 여유 확보. 영상 전체8초를 자동 본편 사용하지 않음.",
+        "audio": "음성대사/생성 자막/생성 음악 없음. BGM/SFX 후편집.",
+        "acceptance": "시작→행동→완료, 손·소품·바닥 접점 확인. 상세 프롬프트가 성공을 보장하지 않음."
+      },
+      "status": "기존 첫 프레임 보존. 이번 작업은 자막·음악 계획 검토, Flow 영상 생성 없음."
+    }
+  ],
+  "assumptions": [
+    "비율 16:9, 향후 동작 원본 기본8초를 가정하되 현재는 기획만",
+    "행사명 Q-AI Fair/품질팀 AI 성과 교류회 외 일정·장소·신청 방식은 미확정",
+    "서류·UI·단위 예시는 설명용 허구이며 실제 성과 수치나 품질 보증이 아님"
+  ],
+  "source_basis": [
+    "AGENTS.md",
+    "team/brief.toml",
+    "storyboards/2026-10-26_C01-C07-C10-rewrite-v15/common_brief.json",
+    "2026-10-26 총괄 PD 선정 카드와 후속 C10 축소 지시",
+    "기존 C02~C06 v11 characters와 C08/C09 v13 cast 비교"
+  ],
+  "status": "V16 자막·음악 검토본; 실제 영상 미생성",
+  "dialogue_policy": "대사·내레이션·필수 음성 0. 자막/몸짓/소품 이동만으로 완결.",
+  "music_direction": "V16 90 BPM 3박자 새 기악곡 데모. 0–11초 격식 있는 왈츠(4.8–6.3초 완전 정적),11–15초 현악 발견,15–22.3초 확대 재현,22.3–27.6초 음악 없음,27.6–32.6초 마무리. 실제 효과음은 영상 확보 후 접점에 맞춰 추가. 현재 음악 데모에는 의자 드르륵/돔/종이 접촉음을 넣지 않음.",
+  "caption_style": "V16 공통 하단 중앙. 소품 표찰과 별도 엔딩 제외. caption_manifest.json 우선.",
+  "scene_list": [
+    {
+      "concept_id": "C07",
+      "scene_id": "S01",
+      "linked_cuts": [
+        "C07_K01"
+      ],
+      "generation_kind": "generated_first_frame_then_motion",
+      "representative_frame": "은색 클로슈가 접시를 덮은 심사 테이블 전경. CH 양손이 돔 손잡이에 닿기 전. 뒤 JB/JA/JC 엄숙히 앉음.",
+      "characters": [
+        "CH",
+        "JA",
+        "JB",
+        "JC"
+      ],
+      "first_frame_prompt_ref": "concepts[1].shots[0].first_frame_prompt_en",
+      "planned_image_path": "storyboards/2026-10-26_C01-C07-C10-rewrite-v15/images/C07/S01.png",
+      "actual_file": "storyboards/2026-10-26_C01-C07-C10-rewrite-v15/images/C07/S01.png",
+      "image_status": "GENERATED_AND_THREE_REVIEWER_CROSS_CHECKED",
+      "aspect_ratio": "16:9",
+      "continuity": [
+        "좌 JB/중 JA/우 JC 좌석 고정",
+        "돔 하나, 왼쪽 받침에 놓인 끝상태 실제로 보임"
+      ],
+      "motion_camera_notes": {
+        "camera": "낮은 접시 중심 미디엄 와이드. 관객이 식사를 예상할 조명, 종이의 정체는 명확.",
+        "start": "은색 클로슈가 접시를 덮은 심사 테이블 전경. CH 양손이 돔 손잡이에 닿기 전. 뒤 JB/JA/JC 엄숙히 앉음.",
+        "main": "CH가 돔을 수직으로 들어 완성된 AI 결과 한 장을 공개하고 왼쪽 빈 받침에 내려놓는다.",
+        "end": "자주색 탭 AI 결과 접시 위 공개, 돔 왼쪽 받침, CH 양손 비움.",
+        "frame_holds": "시작과 끝에 편집 여유 확보. 영상 전체8초를 자동 본편 사용하지 않음.",
+        "audio": "음성대사/생성 자막/생성 음악 없음. BGM/SFX 후편집.",
+        "acceptance": "시작→행동→완료, 손·소품·바닥 접점 확인. 상세 프롬프트가 성공을 보장하지 않음."
+      }
+    },
+    {
+      "concept_id": "C07",
+      "scene_id": "S02",
+      "linked_cuts": [
+        "C07_K02"
+      ],
+      "generation_kind": "generated_first_frame_then_motion",
+      "representative_frame": "JA가 작은 레시피 카드를 양손에 들고 뒤집기 전, 앞에는 공개된 결과 접시. 문서 글자 후합성 영역.",
+      "characters": [
+        "JA"
+      ],
+      "first_frame_prompt_ref": "concepts[1].shots[1].first_frame_prompt_en",
+      "planned_image_path": "storyboards/2026-10-26_C01-C07-C10-rewrite-v15/images/C07/S02.png",
+      "actual_file": "storyboards/2026-10-26_C01-C07-C10-rewrite-v15/images/C07/S02.png",
+      "image_status": "GENERATED_AND_THREE_REVIEWER_CROSS_CHECKED",
+      "aspect_ratio": "16:9",
+      "continuity": [
+        "결과 페이지는 테이블에 남음",
+        "JA 카드를 던지거나 사람을 꾸짖지 않음"
+      ],
+      "motion_camera_notes": {
+        "camera": "카드와 얼굴을 함께 보는 고정 미디엄. 빈 카드 면적을 크게 보여 부족한 과정 설명을 시각화.",
+        "start": "JA가 작은 레시피 카드를 양손에 들고 뒤집기 전, 앞에는 공개된 결과 접시. 문서 글자 후합성 영역.",
+        "main": "JA가 카드를 읽는 방향으로 돌려 'AI 활용' 한 줄뿐임을 확인하고 그대로 굳는다. 마지막에 카드를 테이블 위에 내려놓는다.",
+        "end": "한 줄뿐인 레시피 카드가 테이블 위로 내려오고 JA 두 손 비움. 시선은 왼쪽 조리대 쪽으로 향할 수 있음.",
+        "frame_holds": "시작과 끝에 편집 여유 확보. 영상 전체8초를 자동 본편 사용하지 않음.",
+        "audio": "음성대사/생성 자막/생성 음악 없음. BGM/SFX 후편집.",
+        "acceptance": "시작→행동→완료, 손·소품·바닥 접점 확인. 상세 프롬프트가 성공을 보장하지 않음."
+      }
+    },
+    {
+      "concept_id": "C07",
+      "scene_id": "S03",
+      "linked_cuts": [
+        "C07_K03"
+      ],
+      "generation_kind": "generated_first_frame_then_motion",
+      "representative_frame": "왼쪽 조리대 앞 CH 오른손에 빨간 수정 흔적 초안 한 장, 왼손은 비움. 작은 흰 기록통은 옆 낮은 받침 위 열림, 다른 초안 이미 담김.",
+      "characters": [
+        "CH"
+      ],
+      "first_frame_prompt_ref": "concepts[1].shots[2].first_frame_prompt_en",
+      "planned_image_path": "storyboards/2026-10-26_C01-C07-C10-rewrite-v15/images/C07/S03.png",
+      "actual_file": "storyboards/2026-10-26_C01-C07-C10-rewrite-v15/images/C07/S03.png",
+      "image_status": "GENERATED_AND_THREE_REVIEWER_CROSS_CHECKED",
+      "aspect_ratio": "16:9",
+      "continuity": [
+        "흰 통은 실제 문서 보관용, 음식물/찢긴쓰레기 금지",
+        "CH는 초안을 없애거나 삭제하지 않음"
+      ],
+      "motion_camera_notes": {
+        "camera": "손·붉은 수정 흔적·기록통을 크게. 휴지통의 더러움보다 기록 양이 보이게.",
+        "start": "왼쪽 조리대 앞 CH 오른손에 빨간 수정 흔적 초안 한 장, 왼손은 비움. 작은 흰 기록통은 옆 낮은 받침 위 열림, 다른 초안 이미 담김.",
+        "main": "CH가 마지막 수정 초안을 그 기록통 안에 반듯하게 넣는다.",
+        "end": "초안은 통 안에 들어가고 CH 오른손 비움. 통은 깨끗한 종이 기록만 담음.",
+        "frame_holds": "시작과 끝에 편집 여유 확보. 영상 전체8초를 자동 본편 사용하지 않음.",
+        "audio": "음성대사/생성 자막/생성 음악 없음. BGM/SFX 후편집.",
+        "acceptance": "시작→행동→완료, 손·소품·바닥 접점 확인. 상세 프롬프트가 성공을 보장하지 않음."
+      }
+    },
+    {
+      "concept_id": "C07",
+      "scene_id": "S04",
+      "linked_cuts": [
+        "C07_K04"
+      ],
+      "generation_kind": "generated_first_frame_then_motion",
+      "representative_frame": "JA는 중앙 좌석에 앉아 왼쪽 기록통을 본다. 레시피 카드는 테이블에 놓였고 양손 비움. CH는 왼쪽 통 옆, JB/JC는 자기 자리.",
+      "characters": [
+        "JA",
+        "CH",
+        "JB",
+        "JC"
+      ],
+      "first_frame_prompt_ref": "concepts[1].shots[3].first_frame_prompt_en",
+      "planned_image_path": "storyboards/2026-10-26_C01-C07-C10-rewrite-v15/images/C07/S04.png",
+      "actual_file": "storyboards/2026-10-26_C01-C07-C10-rewrite-v15/images/C07/S04.png",
+      "image_status": "GENERATED_AND_THREE_REVIEWER_CROSS_CHECKED",
+      "aspect_ratio": "16:9",
+      "continuity": [
+        "K02 끝에 레시피 카드를 실제로 내려놓아 JA 양손 비움",
+        "K04 안에서 자리 이탈→통 접근→들기를 보여 통 소유가 순간 바뀌지 않음",
+        "JB/JC는 일어나 달려들지 않고 시선/기울기만"
+      ],
+      "motion_camera_notes": {
+        "camera": "통과 JA 표정 전경, 뒤 두 심사위원은 각 한 번 시선만 따라옴. 4인 동시 복잡한 이동 없음.",
+        "start": "JA는 중앙 좌석에 앉아 왼쪽 기록통을 본다. 레시피 카드는 테이블에 놓였고 양손 비움. CH는 왼쪽 통 옆, JB/JC는 자기 자리.",
+        "main": "JA가 자리에서 일어나 왼쪽 두 걸음 거리의 기록통으로 가서 두 손으로 조심스럽게 들어 자기 가슴 가까이 가져온다. 다른 두 심사위원은 앉은 채 시선만 따라간다.",
+        "end": "JA 통 옆에 서서 양손 기록통 소유. CH는 과정을 궁금해한다는 사실을 알아차림. JB/JC 자리에서 몸을 약간 기울임.",
+        "frame_holds": "시작과 끝에 편집 여유 확보. 영상 전체8초를 자동 본편 사용하지 않음.",
+        "audio": "음성대사/생성 자막/생성 음악 없음. BGM/SFX 후편집.",
+        "acceptance": "시작→행동→완료, 손·소품·바닥 접점 확인. 상세 프롬프트가 성공을 보장하지 않음."
+      }
+    },
+    {
+      "concept_id": "C07",
+      "scene_id": "S05",
+      "linked_cuts": [
+        "C07_K05"
+      ],
+      "generation_kind": "generated_first_frame_then_motion",
+      "representative_frame": "잠시 후. 세 심사위원의 의자는 긴 심사 테이블 옆 열린 바닥으로 이미 옮겨져 같은 후방 출발선에 있다. 테이블은 옆으로 비켜 있고 의자와 카트 사이를 가로막지 않는다. CH는 카트 뒤 양손 손잡이. 카트 오른쪽 서빙영역은 같은 흰 기록통을 닫힌 돔으로 덮고, 왼쪽은 빈 돔 받침이다.",
+      "characters": [
+        "CH",
+        "JA",
+        "JB",
+        "JC"
+      ],
+      "first_frame_prompt_ref": "concepts[1].shots[4].first_frame_prompt_en",
+      "planned_image_path": "storyboards/2026-10-26_C01-C07-C10-rewrite-v15/images/C07/S05.png",
+      "actual_file": "storyboards/2026-10-26_C01-C07-C10-rewrite-v15/images/C07/S05_v2.png",
+      "image_status": "GENERATED_AND_THREE_REVIEWER_CROSS_CHECKED",
+      "aspect_ratio": "16:9",
+      "continuity": [
+        "JA가 통을 CH에게 넘기고 돔으로 덮어 카트에 둔 준비 시간은 명시적 시간 생략",
+        "통/돔 크기상 실제 덮일 수 있게; 큰 통이 갑자기 작아지지 않음",
+        "세 심사위원 좌석 JB/JA/JC 복귀",
+        "카트 자체=화면 중앙. 기록통/덮은44cm돔=카트 상판 오른쪽 서빙영역. 왼쪽45×45cm빈 받침=돔을 내려놓을 별도 영역."
+      ],
+      "motion_camera_notes": {
+        "camera": "정면 대칭 와이드. 첫 서빙의 위엄을 기록통에 그대로 적용.",
+        "start": "잠시 후. 세 심사위원의 의자는 긴 심사 테이블 옆 열린 바닥으로 이미 옮겨져 같은 후방 출발선에 있다. 테이블은 옆으로 비켜 있고 의자와 카트 사이를 가로막지 않는다. CH는 카트 뒤 양손 손잡이. 카트 오른쪽 서빙영역은 같은 흰 기록통을 닫힌 돔으로 덮고, 왼쪽은 빈 돔 받침이다.",
+        "main": "CH가 열린 바닥의 세 심사위원을 향해 카트를 짧게 밀어 정중히 멈춘다. 카트·테이블·의자의 상대 방향은 이후 S09까지 유지한다.",
+        "end": "카트가 열린 바닥의 심사위원 앞에서 정지. 의자는 같은 후방 출발선, 긴 테이블은 통로 옆. 오른쪽 돔 닫힘/왼쪽 돔받침 비어 있음.",
+        "frame_holds": "시작과 끝에 편집 여유 확보. 영상 전체8초를 자동 본편 사용하지 않음.",
+        "audio": "음성대사/생성 자막/생성 음악 없음. BGM/SFX 후편집.",
+        "acceptance": "시작→행동→완료, 손·소품·바닥 접점 확인. 상세 프롬프트가 성공을 보장하지 않음."
+      }
+    },
+    {
+      "concept_id": "C07",
+      "scene_id": "S06",
+      "linked_cuts": [
+        "C07_K06"
+      ],
+      "generation_kind": "generated_first_frame_then_motion",
+      "representative_frame": "화면 중앙에 정지한 카트의 상판 오른쪽 서빙영역 돔, CH 양손이 돔 손잡이를 잡기 직전. 뒤 심사위원들 아직 차분히 앉음.",
+      "characters": [
+        "CH",
+        "JA",
+        "JB",
+        "JC"
+      ],
+      "first_frame_prompt_ref": "concepts[1].shots[5].first_frame_prompt_en",
+      "planned_image_path": "storyboards/2026-10-26_C01-C07-C10-rewrite-v15/images/C07/S06.png",
+      "actual_file": "storyboards/2026-10-26_C01-C07-C10-rewrite-v15/images/C07/S06_v2.png",
+      "image_status": "GENERATED_AND_THREE_REVIEWER_CROSS_CHECKED",
+      "aspect_ratio": "16:9",
+      "continuity": [
+        "같은 돔/같은 통/같은 빨간 수정 초안",
+        "돔 내려놓기 끝까지 보여 CH 손에 도구가 남지 않음",
+        "카트 자체=화면 중앙. 기록통/덮은44cm돔=카트 상판 오른쪽 서빙영역. 왼쪽45×45cm빈 받침=돔을 내려놓을 별도 영역."
+      ],
+      "motion_camera_notes": {
+        "camera": "첫 K01과 동일한 낮은 서빙 구도. 접시의 완성작이 작은 통으로 바뀐 시각적 라임. S05 이후 같은 열린 바닥 배치. 긴 심사 테이블은 옆으로 비켜 있고 의자→카트 이동 통로에 없다. 카메라가 바뀌어도 누구도 테이블 뒤로 돌아가지 않는다.",
+        "start": "화면 중앙에 정지한 카트의 상판 오른쪽 서빙영역 돔, CH 양손이 돔 손잡이를 잡기 직전. 뒤 심사위원들 아직 차분히 앉음.",
+        "main": "CH가 돔을 수직으로 들어 통의 수정 초안들을 다시 공개하고 왼쪽 받침에 내려놓는다.",
+        "end": "수정 초안 통이 최고급 카트 상판 오른쪽 서빙영역에 공개, 돔 왼쪽 받침. CH 양손 비움.",
+        "frame_holds": "시작과 끝에 편집 여유 확보. 영상 전체8초를 자동 본편 사용하지 않음.",
+        "audio": "음성대사/생성 자막/생성 음악 없음. BGM/SFX 후편집.",
+        "acceptance": "시작→행동→완료, 손·소품·바닥 접점 확인. 상세 프롬프트가 성공을 보장하지 않음."
+      }
+    },
+    {
+      "concept_id": "C07",
+      "scene_id": "S07",
+      "linked_cuts": [
+        "C07_K07"
+      ],
+      "generation_kind": "generated_first_frame_then_motion",
+      "representative_frame": "중앙 JA 의자는 S05에서 정한 열린 바닥의 출발선. 양손 좌판 양옆, 발은 바닥. 뒤의 JB·JC도 같은 출발선에 정지. 공개된 기록통은 앞 카트 오른쪽, 돔은 카트 왼쪽 받침.",
+      "characters": [
+        "JA"
+      ],
+      "first_frame_prompt_ref": "concepts[1].shots[6].first_frame_prompt_en",
+      "planned_image_path": "storyboards/2026-10-26_C01-C07-C10-rewrite-v15/images/C07/S07.png",
+      "actual_file": "storyboards/2026-10-26_C01-C07-C10-rewrite-v15/images/C07/S07_v3.png",
+      "image_status": "GENERATED_AND_THREE_REVIEWER_CROSS_CHECKED",
+      "aspect_ratio": "16:9",
+      "continuity": [
+        "JA만 움직임, 의자 다리 바닥 접촉 유지",
+        "통은 카트 정지, 누가 먼저 가져가지 않음"
+      ],
+      "motion_camera_notes": {
+        "camera": "측면 3/4 미디엄, 얼굴·좌판·의자 다리·발 접점까지 보임. S05 이후 같은 열린 바닥 배치. 긴 심사 테이블은 옆으로 비켜 있고 의자→카트 이동 통로에 없다. 카메라가 바뀌어도 누구도 테이블 뒤로 돌아가지 않는다.",
+        "start": "중앙 JA 의자는 S05에서 정한 열린 바닥의 출발선. 양손 좌판 양옆, 발은 바닥. 뒤의 JB·JC도 같은 출발선에 정지. 공개된 기록통은 앞 카트 오른쪽, 돔은 카트 왼쪽 받침.",
+        "main": "JA가 의자를 한 번 짧게 약20cm 앞으로 끈다. 1.2초 안에 완료되는 명확한 한 번의 빠른 이동.",
+        "end": "JA 의자 약20cm 앞으로, 엄숙한 표정. 이동 완료·바닥 접촉.",
+        "frame_holds": "시작과 끝에 편집 여유 확보. 영상 전체8초를 자동 본편 사용하지 않음.",
+        "audio": "음성대사/생성 자막/생성 음악 없음. BGM/SFX 후편집.",
+        "acceptance": "시작→행동→완료, 손·소품·바닥 접점 확인. 상세 프롬프트가 성공을 보장하지 않음."
+      }
+    },
+    {
+      "concept_id": "C07",
+      "scene_id": "S08",
+      "linked_cuts": [
+        "C07_K08"
+      ],
+      "generation_kind": "generated_first_frame_then_motion",
+      "representative_frame": "왼쪽 JB 의자는 아직 뒤. JB 양손 좌판, 발 바닥. 흐린 뒤 중앙 JA는 이미 한 칸 가까워진 자세로 정지.",
+      "characters": [
+        "JB",
+        "JA"
+      ],
+      "first_frame_prompt_ref": "concepts[1].shots[7].first_frame_prompt_en",
+      "planned_image_path": "storyboards/2026-10-26_C01-C07-C10-rewrite-v15/images/C07/S08.png",
+      "actual_file": "storyboards/2026-10-26_C01-C07-C10-rewrite-v15/images/C07/S08_v2.png",
+      "image_status": "GENERATED_AND_THREE_REVIEWER_CROSS_CHECKED",
+      "aspect_ratio": "16:9",
+      "continuity": [
+        "좌석 위치 JB왼쪽 유지",
+        "JA는 이미 앞으로 온 상태에서 다시 움직이지 않음"
+      ],
+      "motion_camera_notes": {
+        "camera": "JB 측면 미디엄. JA는 배경 고정, 동시 이동 없음. S05 이후 같은 열린 바닥 배치. 긴 심사 테이블은 옆으로 비켜 있고 의자→카트 이동 통로에 없다. 카메라가 바뀌어도 누구도 테이블 뒤로 돌아가지 않는다.",
+        "start": "왼쪽 JB 의자는 아직 뒤. JB 양손 좌판, 발 바닥. 흐린 뒤 중앙 JA는 이미 한 칸 가까워진 자세로 정지.",
+        "main": "JB가 의자를 한 번 약20cm 앞으로 끌어 JA와 비슷한 선에 맞춘다. 1.2초의 두 번째 박.",
+        "end": "JB도 앞으로, 두 사람 같은 줄. JC는 아직 뒤.",
+        "frame_holds": "시작과 끝에 편집 여유 확보. 영상 전체8초를 자동 본편 사용하지 않음.",
+        "audio": "음성대사/생성 자막/생성 음악 없음. BGM/SFX 후편집.",
+        "acceptance": "시작→행동→완료, 손·소품·바닥 접점 확인. 상세 프롬프트가 성공을 보장하지 않음."
+      }
+    },
+    {
+      "concept_id": "C07",
+      "scene_id": "S09",
+      "linked_cuts": [
+        "C07_K09"
+      ],
+      "generation_kind": "generated_first_frame_then_motion",
+      "representative_frame": "JA/JB 의자가 이미 약20cm 앞으로 나온 상태, JC만 원래 뒤. 셋 모두 통을 보고 있다. JC 앞에는 약60cm 빈 통로, 양손 좌판/발 바닥.",
+      "characters": [
+        "JC",
+        "JA",
+        "JB"
+      ],
+      "first_frame_prompt_ref": "concepts[1].shots[8].first_frame_prompt_en",
+      "planned_image_path": "storyboards/2026-10-26_C01-C07-C10-rewrite-v15/images/C07/S09.png",
+      "actual_file": "storyboards/2026-10-26_C01-C07-C10-rewrite-v15/images/C07/S09.png",
+      "image_status": "GENERATED_AND_THREE_REVIEWER_CROSS_CHECKED",
+      "aspect_ratio": "16:9",
+      "continuity": [
+        "단 한 번의 의자 이동, 테이블에 몸 충돌하지 않음",
+        "인물들 외모 대신 행동과 격식의 불균형이 웃음"
+      ],
+      "motion_camera_notes": {
+        "camera": "비교 가능한 정면에 가까운 3/4 와이드. 세 의자 다리와 JC의 빈 이동 통로가 보임. 카트는 옆으로 충분히 비켜 있어 충돌/발 걸림 없음. S05 이후 같은 열린 바닥 배치. 긴 심사 테이블은 옆으로 비켜 있고 의자→카트 이동 통로에 없다. 카메라가 바뀌어도 누구도 테이블 뒤로 돌아가지 않는다.",
+        "start": "JA/JB 의자가 이미 약20cm 앞으로 나온 상태, JC만 원래 뒤. 셋 모두 통을 보고 있다. JC 앞에는 약60cm 빈 통로, 양손 좌판/발 바닥.",
+        "main": "JC가 의자를 한 번 약45cm 앞으로 끌어 앞선 두 명보다 확실히 앞서 멈춘다. 멈춘 직후 JA/JB가 JC 쪽으로 시선만 옮긴다.",
+        "end": "JC가 다른 두 명보다 약25cm 앞에 나와 같은 통을 엄숙히 봄. JA/JB는 JC를 쳐다봐 비교가 명확. 아무도 넘어지거나 부딪히지 않음.",
+        "frame_holds": "시작과 끝에 편집 여유 확보. 영상 전체8초를 자동 본편 사용하지 않음.",
+        "audio": "음성대사/생성 자막/생성 음악 없음. BGM/SFX 후편집.",
+        "acceptance": "시작→행동→완료, 손·소품·바닥 접점 확인. 상세 프롬프트가 성공을 보장하지 않음."
+      }
+    },
+    {
+      "concept_id": "C07",
+      "scene_id": "S10",
+      "linked_cuts": [
+        "C07_K10"
+      ],
+      "generation_kind": "postproduction_title_card",
+      "representative_frame": "별도 깊은 버건디 엔딩 카드, 아이보리 활자.",
+      "characters": [],
+      "first_frame_prompt_ref": "concepts[1].shots[9].first_frame_prompt_en",
+      "planned_image_path": null,
+      "actual_file": null,
+      "image_status": "NOT_GENERATED",
+      "aspect_ratio": "16:9",
+      "continuity": [
+        "실제 식사/레시피 행사로 오인하지 않게 Q-AI Fair와 품질팀 AI 성과 교류회 5초"
+      ],
+      "motion_camera_notes": {
+        "camera": "충분한 상하 여백. 카피→행사명→행사 성격.",
+        "start": "별도 깊은 버건디 엔딩 카드, 아이보리 활자.",
+        "main": "고정 카드5초.",
+        "end": "문구와 행사명 동일.",
+        "frame_holds": "시작과 끝에 편집 여유 확보. 영상 전체8초를 자동 본편 사용하지 않음.",
+        "audio": "음성대사/생성 자막/생성 음악 없음. BGM/SFX 후편집.",
+        "acceptance": "시작→행동→완료, 손·소품·바닥 접점 확인. 상세 프롬프트가 성공을 보장하지 않음."
+      }
+    }
+  ],
+  "ending_hold_seconds": 5,
+  "motion_clip_count": 9,
+  "continuity_table": [
+    {
+      "prop": "돔",
+      "from": "K01 결과 접시 덮음",
+      "transition": "K01 왼 받침→K05 명시적 준비 시간 생략 후 작은 기록통 덮음",
+      "to": "K06 카트 왼 받침",
+      "forbidden": "돔/통의 크기 변형"
+    },
+    {
+      "prop": "레시피 카드",
+      "from": "K02 JA 양손",
+      "transition": "K02 끝 테이블에 내려놓음",
+      "to": "K04부터 테이블에 그대로",
+      "forbidden": "JA가 카드 든 채 양손으로 통을 들기"
+    },
+    {
+      "prop": "수정 초안 통",
+      "from": "K03 왼 조리대 낮은 받침",
+      "transition": "CH 마지막 초안 넣음→JA 자리에서 가서 양손 인양→잠시 후 정식 카트 준비",
+      "to": "K06 카트 상판 오른쪽 서빙영역 공개 후 K09까지 정지",
+      "forbidden": "음식물/오염쓰레기, 통을 비우거나 수정기록 폐기"
+    },
+    {
+      "prop": "의자",
+      "from": "K01~K04 심사 테이블 뒤→K05 잠시 후에 테이블 옆 열린 바닥 같은 출발선(JB왼/JA중앙/JC오른)",
+      "transition": "K07 JA만1.2초/약20cm→K08 JB만1.2초/약20cm→K09 JC만2.2초/약45cm, 뒤 두 명이 끝에 시선",
+      "to": "JC가 약25cm 더 앞, 다른 둘이 JC를 바라보는 비교 와이드",
+      "forbidden": "동시 군중 이동·필기 결말·의자 부유·K05 이후 테이블 뒤로 순간 이동"
+    }
+  ],
+  "production_conditions": [
+    "실제 선택 이미지에서 동작을 시작하고 완료 상태까지 생성한 뒤 손·소품·접지 검수. 생성 성공은 아직 미확인.",
+    "빈 화면·문서의 지정 내용은 후합성. 생성 이미지에 쓰인 글자로 행사 정보를 대신하지 않음.",
+    "화면+후처리 자막으로 이해되어야 함. 생성 음성대사는 사용하지 않음."
+  ],
+  "source_storyboard": "storyboards/2026-10-26_C01-C07-C10-rewrite-v15/storyboards.json",
+  "audio_demo": "storyboards/2026-10-26_qrew-restyle-v16/audio/C07/C07_music_preview_v16.mp3"
+}
