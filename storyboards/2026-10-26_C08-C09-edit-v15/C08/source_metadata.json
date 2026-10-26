@@ -1,0 +1,112 @@
+[
+  {
+    "cut": "K01",
+    "source": "2026-10-26_C08-C09-flow-v15\\C08_K01_take01.mp4",
+    "sha256": "8dac937840b675039ab39854ff95f17a68a3b0cafc3ce93c06eb4b736051707a",
+    "frames": 192,
+    "duration": 8,
+    "video_decode": "PASS",
+    "audio_streams": 1,
+    "source_audio_use": "excluded",
+    "visual_status": "EDITABLE_SAMPLE_REVIEW"
+  },
+  {
+    "cut": "K02",
+    "source": "2026-10-26_C08-C09-flow-v15\\C08_K02_take01.mp4",
+    "sha256": "75e777d828eea13bf5372e4e40923448a6b460a579eafedbf3ee1d693fe31fa3",
+    "frames": 192,
+    "duration": 8,
+    "video_decode": "PASS",
+    "audio_streams": 1,
+    "source_audio_use": "excluded",
+    "visual_status": "EDITABLE_SAMPLE_REVIEW"
+  },
+  {
+    "cut": "K03",
+    "source": "2026-10-26_C08-C09-flow-v15\\C08_K03_take01.mp4",
+    "sha256": "8ee3bfc4eba9ae88ffdd5419241068a957906e1898cf5b9f8be97af0dba45e84",
+    "frames": 192,
+    "duration": 8,
+    "video_decode": "PASS",
+    "audio_streams": 1,
+    "source_audio_use": "excluded",
+    "visual_status": "EDITABLE_SAMPLE_REVIEW"
+  },
+  {
+    "cut": "K04",
+    "source": "2026-10-26_C08-C09-flow-v15\\C08_K04_take01.mp4",
+    "sha256": "9bd8f9bb71e9da5b3775aa2ee32aff8dbe490340c60d49b67c600adb88322ded",
+    "frames": 192,
+    "duration": 8,
+    "video_decode": "PASS",
+    "audio_streams": 1,
+    "source_audio_use": "excluded",
+    "visual_status": "EDITABLE_SAMPLE_REVIEW"
+  },
+  {
+    "cut": "K05",
+    "source": "2026-10-26_C08-C09-flow-v15\\C08_K05_take01.mp4",
+    "sha256": "45de3cbce772af022ce56ac6f9276152cb603e008383abfdd180168e230d5344",
+    "frames": 192,
+    "duration": 8,
+    "video_decode": "PASS",
+    "audio_streams": 1,
+    "source_audio_use": "excluded",
+    "visual_status": "EDITABLE_SAMPLE_REVIEW"
+  },
+  {
+    "cut": "K06",
+    "source": "2026-10-26_C08-C09-flow-v15\\C08_K06_take01.mp4",
+    "sha256": "e957a8d4164b0ebf0702491eeba7e1eb043f4addd8c2a7323e1618fc296748d1",
+    "frames": 192,
+    "duration": 8,
+    "video_decode": "PASS",
+    "audio_streams": 0,
+    "source_audio_use": "excluded",
+    "visual_status": "EDITABLE_SAMPLE_REVIEW"
+  },
+  {
+    "cut": "K07",
+    "source": "2026-10-26_C08-C09-flow-v15\\C08_K07_take01.mp4",
+    "sha256": "13623c0036231f923bea8ee89861b2a1a6706b0b0741959553bf6f06b76fcede",
+    "frames": 192,
+    "duration": 8,
+    "video_decode": "PASS",
+    "audio_streams": 1,
+    "source_audio_use": "excluded",
+    "visual_status": "EDITABLE_SAMPLE_REVIEW"
+  },
+  {
+    "cut": "K08",
+    "source": "2026-10-26_C08-C09-flow-v15\\C08_K08_take01.mp4",
+    "sha256": "3ebba90adc186c9f1648d9491ac320f7a34cd9695911b244de2cff96d738729f",
+    "frames": 192,
+    "duration": 8,
+    "video_decode": "PASS",
+    "audio_streams": 1,
+    "source_audio_use": "excluded",
+    "visual_status": "REPLACEMENT_REQUIRED"
+  },
+  {
+    "cut": "K09",
+    "source": "2026-10-26_C08-C09-flow-v15\\C08_K09_take01.mp4",
+    "sha256": "e1b3a86facb6285573fdcc5a266f73f6c0377c32c2d5d96a1f410e27b557dc8f",
+    "frames": 192,
+    "duration": 8,
+    "video_decode": "PASS",
+    "audio_streams": 0,
+    "source_audio_use": "excluded",
+    "visual_status": "EDITABLE_SAMPLE_REVIEW"
+  },
+  {
+    "cut": "K10",
+    "source": "2026-10-26_C08-C09-flow-v15\\C08_K10_take01.mp4",
+    "sha256": "3445b9de53650b4fe5a09ae5d44450fb422fc12a769c4fdc1d9b47a845f4882d",
+    "frames": 192,
+    "duration": 8,
+    "video_decode": "PASS",
+    "audio_streams": 0,
+    "source_audio_use": "excluded",
+    "visual_status": "REPLACEMENT_REQUIRED"
+  }
+]

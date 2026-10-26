@@ -1,0 +1,266 @@
+{
+  "concept_id": "C08",
+  "file": "C08_Q-AI_Fair_screening_v15.mp4",
+  "duration_seconds": 53.0,
+  "timeline": [
+    {
+      "cut": "K01",
+      "file": "C08_K01_take01.mp4",
+      "source_in": 0,
+      "source_out": 2.75,
+      "start": 0,
+      "end": 2.75,
+      "approved_for_final": true
+    },
+    {
+      "cut": "K02",
+      "file": "C08_K02_take01.mp4",
+      "source_in": 0.5,
+      "source_out": 4.5,
+      "start": 2.75,
+      "end": 6.75,
+      "approved_for_final": true
+    },
+    {
+      "cut": "K03",
+      "file": "C08_K03_take01.mp4",
+      "source_in": 0.5,
+      "source_out": 4,
+      "start": 6.75,
+      "end": 10.25,
+      "approved_for_final": true
+    },
+    {
+      "cut": "K04",
+      "file": "C08_K04_take01.mp4",
+      "source_in": 0,
+      "source_out": 5.25,
+      "start": 10.25,
+      "end": 15.5,
+      "approved_for_final": true
+    },
+    {
+      "cut": "K05",
+      "file": "C08_K05_take01.mp4",
+      "source_in": 0,
+      "source_out": 7.5,
+      "start": 15.5,
+      "end": 23.0,
+      "approved_for_final": true
+    },
+    {
+      "cut": "K06",
+      "file": "C08_K06_take01.mp4",
+      "source_in": 0.5,
+      "source_out": 4.25,
+      "start": 23.0,
+      "end": 26.75,
+      "approved_for_final": true
+    },
+    {
+      "cut": "K07",
+      "file": "C08_K07_take01.mp4",
+      "source_in": 0.5,
+      "source_out": 4.5,
+      "start": 26.75,
+      "end": 30.75,
+      "approved_for_final": true
+    },
+    {
+      "cut": "K08",
+      "file": "C08_K08_take02.mp4",
+      "source_in": 0,
+      "source_out": 5.5,
+      "start": 30.75,
+      "end": 36.25,
+      "approved_for_final": true,
+      "review": "Root actual0.5s sampled frames: fills last gray slot, releases empty hands by5s; no overlap."
+    },
+    {
+      "cut": "K09",
+      "file": "C08_K09_take01.mp4",
+      "source_in": 0,
+      "source_out": 5.75,
+      "start": 36.25,
+      "end": 42.0,
+      "approved_for_final": true
+    },
+    {
+      "cut": "K10",
+      "file": "C08_K10_take02.mp4",
+      "source_in": 0,
+      "source_out": 6,
+      "start": 42.0,
+      "end": 48.0,
+      "approved_for_final": true,
+      "review": "Root actual0.5s frames: same brick remains installed, tiny adjustment then empty arms lowered; no extraction or duplicate."
+    }
+  ],
+  "captions": [
+    {
+      "start": 0.2,
+      "end": 2.55,
+      "text": "누가 좀 도와줘요.",
+      "pos": "top",
+      "x": 690,
+      "y": 43,
+      "font_px": 42
+    },
+    {
+      "start": 6.85,
+      "end": 10.15,
+      "text": "공유 사례 → 내 업무에 적용",
+      "pos": "top",
+      "x": 64,
+      "y": 43,
+      "font_px": 42
+    },
+    {
+      "start": 10.35,
+      "end": 12.25,
+      "text": "원본과 대조해 직접 확인.",
+      "pos": "bottom",
+      "x": null,
+      "y": null,
+      "font_px": 42
+    },
+    {
+      "start": 12.75,
+      "end": 15.35,
+      "text": "확인한 문서는 완료 트레이로.",
+      "pos": "bottom",
+      "x": null,
+      "y": null,
+      "font_px": 42
+    },
+    {
+      "start": 23.1,
+      "end": 26.4,
+      "text": "끝났는데요.",
+      "pos": "top",
+      "x": null,
+      "y": null,
+      "font_px": 42
+    },
+    {
+      "start": 26.85,
+      "end": 30.45,
+      "text": "여기는\n아직이네요.",
+      "pos": "top",
+      "x": 520,
+      "y": 43,
+      "font_px": 42
+    },
+    {
+      "start": 30.95,
+      "end": 32.45,
+      "text": "잠시 후",
+      "pos": "top",
+      "x": 64,
+      "y": 43,
+      "font_px": 42
+    },
+    {
+      "start": 37.75,
+      "end": 40.75,
+      "text": "이 한 장만, 다시요.",
+      "pos": "bottom",
+      "x": null,
+      "y": null,
+      "font_px": 42
+    },
+    {
+      "start": 48.0,
+      "end": 53.0,
+      "text": "Q-AI Fair\n한 사람의 방법을, 함께 쓰는 실력으로.\n품질팀 AI 성과 교류회"
+    }
+  ],
+  "source_sha256": {
+    "C08_K01_take01.mp4": "8dac937840b675039ab39854ff95f17a68a3b0cafc3ce93c06eb4b736051707a",
+    "C08_K02_take01.mp4": "75e777d828eea13bf5372e4e40923448a6b460a579eafedbf3ee1d693fe31fa3",
+    "C08_K03_take01.mp4": "8ee3bfc4eba9ae88ffdd5419241068a957906e1898cf5b9f8be97af0dba45e84",
+    "C08_K04_take01.mp4": "9bd8f9bb71e9da5b3775aa2ee32aff8dbe490340c60d49b67c600adb88322ded",
+    "C08_K05_take01.mp4": "45de3cbce772af022ce56ac6f9276152cb603e008383abfdd180168e230d5344",
+    "C08_K06_take01.mp4": "e957a8d4164b0ebf0702491eeba7e1eb043f4addd8c2a7323e1618fc296748d1",
+    "C08_K07_take01.mp4": "13623c0036231f923bea8ee89861b2a1a6706b0b0741959553bf6f06b76fcede",
+    "C08_K08_take02.mp4": "2d5f2040d57f164360ca5030276974cb8467ec35ba4a8ed0851a73ef6318f233",
+    "C08_K09_take01.mp4": "e1b3a86facb6285573fdcc5a266f73f6c0377c32c2d5d96a1f410e27b557dc8f",
+    "C08_K10_take02.mp4": "35be4502ffbbb5f8b0c710d009973de80a77227dc4a66035d7ad85298841791b"
+  },
+  "source_audio": "ALL EXCLUDED",
+  "original_files_unchanged": true,
+  "action_stills_inserted": false,
+  "end_card_seconds": 5,
+  "ui": "One shared-template UI; current paper is applied to own work, no automatic verification check",
+  "screen_plane_quads": {
+    "K03": [
+      [
+        365,
+        216
+      ],
+      [
+        693,
+        200
+      ],
+      [
+        719,
+        404
+      ],
+      [
+        393,
+        440
+      ]
+    ],
+    "K04": [
+      [
+        315,
+        103
+      ],
+      [
+        638,
+        58
+      ],
+      [
+        669,
+        259
+      ],
+      [
+        358,
+        325
+      ]
+    ]
+  },
+  "ui_foreground": "Keyed foreground paper + skin mask over fixed screen plane; actual selected UI frames opened by three reviewers, no observed foreground inversion.",
+  "status": "RENDERED_TECHNICAL_AND_THREE_REVIEWER_VISUAL_CROSS_REVIEW_PASS_WITH_DOCUMENTED_LIMITATIONS",
+  "pending_required_fixes": [],
+  "actual_listening_verified": false,
+  "actual_continuous_playback_verified": false,
+  "technical_qa": {
+    "file": "C08_Q-AI_Fair_screening_v15.mp4",
+    "sha256": "c550dd099b7d70739b5957cd87a7b43d01c1962d9372a42c9e4838fb568948c9",
+    "bytes": 20387086,
+    "duration_seconds": 53.0,
+    "frames": 1272,
+    "fps": 24,
+    "resolution": [
+      1280,
+      720
+    ],
+    "audio_rate": 48000,
+    "audio_channels": 2,
+    "full_decode": "PASS",
+    "audio_peak": 0.41099032759666443,
+    "audio_end": 53.0,
+    "max_audio_pts_gap": 7.105427357601002e-15,
+    "loudness": {
+      "input_i": -23.03,
+      "input_tp": -7.62,
+      "input_lra": 9.4,
+      "input_thresh": -33.79
+    },
+    "actual_listening_verified": false,
+    "actual_continuous_playback_verified": false,
+    "visual_review": "THREE_REVIEWER_SAMPLED_VISUAL_CROSS_REVIEW_PASS_WITH_DOCUMENTED_LIMITATIONS"
+  },
+  "cross_review_record": "../cross_review.json"
+}

@@ -1,0 +1,377 @@
+[
+  {
+    "file": "C08_K01_take01.mp4",
+    "sha256": "8dac937840b675039ab39854ff95f17a68a3b0cafc3ce93c06eb4b736051707a",
+    "frames": 192,
+    "duration_seconds": 8.0,
+    "fps": 24.0,
+    "resolution": [
+      1280,
+      720
+    ],
+    "audio_streams": 1,
+    "full_video_decode": "PASS",
+    "actual_listening_verified": false,
+    "continuous_playback_verified": false
+  },
+  {
+    "file": "C08_K02_take01.mp4",
+    "sha256": "75e777d828eea13bf5372e4e40923448a6b460a579eafedbf3ee1d693fe31fa3",
+    "frames": 192,
+    "duration_seconds": 8.0,
+    "fps": 24.0,
+    "resolution": [
+      1280,
+      720
+    ],
+    "audio_streams": 1,
+    "full_video_decode": "PASS",
+    "actual_listening_verified": false,
+    "continuous_playback_verified": false
+  },
+  {
+    "file": "C08_K03_take01.mp4",
+    "sha256": "8ee3bfc4eba9ae88ffdd5419241068a957906e1898cf5b9f8be97af0dba45e84",
+    "frames": 192,
+    "duration_seconds": 8.0,
+    "fps": 24.0,
+    "resolution": [
+      1280,
+      720
+    ],
+    "audio_streams": 1,
+    "full_video_decode": "PASS",
+    "actual_listening_verified": false,
+    "continuous_playback_verified": false
+  },
+  {
+    "file": "C08_K04_take01.mp4",
+    "sha256": "9bd8f9bb71e9da5b3775aa2ee32aff8dbe490340c60d49b67c600adb88322ded",
+    "frames": 192,
+    "duration_seconds": 8.0,
+    "fps": 24.0,
+    "resolution": [
+      1280,
+      720
+    ],
+    "audio_streams": 1,
+    "full_video_decode": "PASS",
+    "actual_listening_verified": false,
+    "continuous_playback_verified": false
+  },
+  {
+    "file": "C08_K05_take01.mp4",
+    "sha256": "45de3cbce772af022ce56ac6f9276152cb603e008383abfdd180168e230d5344",
+    "frames": 192,
+    "duration_seconds": 8.0,
+    "fps": 24.0,
+    "resolution": [
+      1280,
+      720
+    ],
+    "audio_streams": 1,
+    "full_video_decode": "PASS",
+    "actual_listening_verified": false,
+    "continuous_playback_verified": false
+  },
+  {
+    "file": "C08_K06_take01.mp4",
+    "sha256": "e957a8d4164b0ebf0702491eeba7e1eb043f4addd8c2a7323e1618fc296748d1",
+    "frames": 192,
+    "duration_seconds": 8.0,
+    "fps": 24.0,
+    "resolution": [
+      1280,
+      720
+    ],
+    "audio_streams": 0,
+    "full_video_decode": "PASS",
+    "actual_listening_verified": false,
+    "continuous_playback_verified": false
+  },
+  {
+    "file": "C08_K07_take01.mp4",
+    "sha256": "13623c0036231f923bea8ee89861b2a1a6706b0b0741959553bf6f06b76fcede",
+    "frames": 192,
+    "duration_seconds": 8.0,
+    "fps": 24.0,
+    "resolution": [
+      1280,
+      720
+    ],
+    "audio_streams": 1,
+    "full_video_decode": "PASS",
+    "actual_listening_verified": false,
+    "continuous_playback_verified": false
+  },
+  {
+    "file": "C08_K08_take01.mp4",
+    "sha256": "3ebba90adc186c9f1648d9491ac320f7a34cd9695911b244de2cff96d738729f",
+    "frames": 192,
+    "duration_seconds": 8.0,
+    "fps": 24.0,
+    "resolution": [
+      1280,
+      720
+    ],
+    "audio_streams": 1,
+    "full_video_decode": "PASS",
+    "actual_listening_verified": false,
+    "continuous_playback_verified": false
+  },
+  {
+    "file": "C08_K08_take02.mp4",
+    "sha256": "2d5f2040d57f164360ca5030276974cb8467ec35ba4a8ed0851a73ef6318f233",
+    "frames": 192,
+    "duration_seconds": 8.0,
+    "fps": 24.0,
+    "resolution": [
+      1280,
+      720
+    ],
+    "audio_streams": 1,
+    "full_video_decode": "PASS",
+    "actual_listening_verified": false,
+    "continuous_playback_verified": false
+  },
+  {
+    "file": "C08_K09_take01.mp4",
+    "sha256": "e1b3a86facb6285573fdcc5a266f73f6c0377c32c2d5d96a1f410e27b557dc8f",
+    "frames": 192,
+    "duration_seconds": 8.0,
+    "fps": 24.0,
+    "resolution": [
+      1280,
+      720
+    ],
+    "audio_streams": 0,
+    "full_video_decode": "PASS",
+    "actual_listening_verified": false,
+    "continuous_playback_verified": false
+  },
+  {
+    "file": "C08_K10_take01.mp4",
+    "sha256": "3445b9de53650b4fe5a09ae5d44450fb422fc12a769c4fdc1d9b47a845f4882d",
+    "frames": 192,
+    "duration_seconds": 8.0,
+    "fps": 24.0,
+    "resolution": [
+      1280,
+      720
+    ],
+    "audio_streams": 0,
+    "full_video_decode": "PASS",
+    "actual_listening_verified": false,
+    "continuous_playback_verified": false
+  },
+  {
+    "file": "C08_K10_take02.mp4",
+    "sha256": "35be4502ffbbb5f8b0c710d009973de80a77227dc4a66035d7ad85298841791b",
+    "frames": 192,
+    "duration_seconds": 8.0,
+    "fps": 24.0,
+    "resolution": [
+      1280,
+      720
+    ],
+    "audio_streams": 1,
+    "full_video_decode": "PASS",
+    "actual_listening_verified": false,
+    "continuous_playback_verified": false
+  },
+  {
+    "file": "C09_K01_take01.mp4",
+    "sha256": "a28110a4d9485eb8706b7cd7d01ae66ea274aa4c6d6259799b86556f9be49788",
+    "frames": 192,
+    "duration_seconds": 8.0,
+    "fps": 24.0,
+    "resolution": [
+      1280,
+      720
+    ],
+    "audio_streams": 1,
+    "full_video_decode": "PASS",
+    "actual_listening_verified": false,
+    "continuous_playback_verified": false
+  },
+  {
+    "file": "C09_K02_take01.mp4",
+    "sha256": "cb6c092e1e69f2afa7528a4543debf13b63d52965e2db46948919da8c3c6cd84",
+    "frames": 192,
+    "duration_seconds": 8.0,
+    "fps": 24.0,
+    "resolution": [
+      1280,
+      720
+    ],
+    "audio_streams": 1,
+    "full_video_decode": "PASS",
+    "actual_listening_verified": false,
+    "continuous_playback_verified": false
+  },
+  {
+    "file": "C09_K03_take01.mp4",
+    "sha256": "593117218018712934273521c584ca5a21ea1c5e2961e8e8df665dc876a9598e",
+    "frames": 192,
+    "duration_seconds": 8.0,
+    "fps": 24.0,
+    "resolution": [
+      1280,
+      720
+    ],
+    "audio_streams": 1,
+    "full_video_decode": "PASS",
+    "actual_listening_verified": false,
+    "continuous_playback_verified": false
+  },
+  {
+    "file": "C09_K04_take01.mp4",
+    "sha256": "dc25fcccd5302cb1c472ade7aa32be20d006bc9537610a77d98f56c27fb07edb",
+    "frames": 192,
+    "duration_seconds": 8.0,
+    "fps": 24.0,
+    "resolution": [
+      1280,
+      720
+    ],
+    "audio_streams": 1,
+    "full_video_decode": "PASS",
+    "actual_listening_verified": false,
+    "continuous_playback_verified": false
+  },
+  {
+    "file": "C09_K04_take02.mp4",
+    "sha256": "2fc60a96f181b513a25b1ffbefa093a8547b7e3384b475f9ac4f72465db4f04a",
+    "frames": 192,
+    "duration_seconds": 8.0,
+    "fps": 24.0,
+    "resolution": [
+      1280,
+      720
+    ],
+    "audio_streams": 1,
+    "full_video_decode": "PASS",
+    "actual_listening_verified": false,
+    "continuous_playback_verified": false
+  },
+  {
+    "file": "C09_K05_take01.mp4",
+    "sha256": "23baf67b15151c3c84feee7aae9952d59468d42ceb80f59189965eb8740fcfdb",
+    "frames": 192,
+    "duration_seconds": 8.0,
+    "fps": 24.0,
+    "resolution": [
+      1280,
+      720
+    ],
+    "audio_streams": 1,
+    "full_video_decode": "PASS",
+    "actual_listening_verified": false,
+    "continuous_playback_verified": false
+  },
+  {
+    "file": "C09_K06_take01.mp4",
+    "sha256": "d3d52cb33a4369332813a3b8afbe6f6a1e30dea3767433fad22ecd537e10b4fc",
+    "frames": 192,
+    "duration_seconds": 8.0,
+    "fps": 24.0,
+    "resolution": [
+      1280,
+      720
+    ],
+    "audio_streams": 1,
+    "full_video_decode": "PASS",
+    "actual_listening_verified": false,
+    "continuous_playback_verified": false
+  },
+  {
+    "file": "C09_K07_take01.mp4",
+    "sha256": "4033e5da12b98a478e0a606ff0313ed38615a052d391b4797d487309029a0036",
+    "frames": 192,
+    "duration_seconds": 8.0,
+    "fps": 24.0,
+    "resolution": [
+      1280,
+      720
+    ],
+    "audio_streams": 1,
+    "full_video_decode": "PASS",
+    "actual_listening_verified": false,
+    "continuous_playback_verified": false
+  },
+  {
+    "file": "C09_K07_take02.mp4",
+    "sha256": "5032f7d08f3ca27e780ca87315e6bd72ce785f05e8b054b4513e44139e9bf436",
+    "frames": 192,
+    "duration_seconds": 8.0,
+    "fps": 24.0,
+    "resolution": [
+      1280,
+      720
+    ],
+    "audio_streams": 1,
+    "full_video_decode": "PASS",
+    "actual_listening_verified": false,
+    "continuous_playback_verified": false
+  },
+  {
+    "file": "C09_K08_take01.mp4",
+    "sha256": "5c1de974582ba2e2cdaa2c30a97833b4ebf36c8188591113d8fcb2fa66f81204",
+    "frames": 192,
+    "duration_seconds": 8.0,
+    "fps": 24.0,
+    "resolution": [
+      1280,
+      720
+    ],
+    "audio_streams": 1,
+    "full_video_decode": "PASS",
+    "actual_listening_verified": false,
+    "continuous_playback_verified": false
+  },
+  {
+    "file": "C09_K09_take01.mp4",
+    "sha256": "b323c2fa6ac721cdf8d3b2c6744fe0dfd9038a35cf52d70074910936a5369700",
+    "frames": 192,
+    "duration_seconds": 8.0,
+    "fps": 24.0,
+    "resolution": [
+      1280,
+      720
+    ],
+    "audio_streams": 1,
+    "full_video_decode": "PASS",
+    "actual_listening_verified": false,
+    "continuous_playback_verified": false
+  },
+  {
+    "file": "C09_K09_take02.mp4",
+    "sha256": "b8bdda5752d2b4cffd9ae3e6ef20e70f333c6838d58590c7c8a2fc4f33862a99",
+    "frames": 192,
+    "duration_seconds": 8.0,
+    "fps": 24.0,
+    "resolution": [
+      1280,
+      720
+    ],
+    "audio_streams": 1,
+    "full_video_decode": "PASS",
+    "actual_listening_verified": false,
+    "continuous_playback_verified": false
+  },
+  {
+    "file": "C09_K10_take01.mp4",
+    "sha256": "c4ec72b47b12af22fb0cddda1ca09517f74401af2236181e4c97a7f3609374aa",
+    "frames": 192,
+    "duration_seconds": 8.0,
+    "fps": 24.0,
+    "resolution": [
+      1280,
+      720
+    ],
+    "audio_streams": 1,
+    "full_video_decode": "PASS",
+    "actual_listening_verified": false,
+    "continuous_playback_verified": false
+  }
+]

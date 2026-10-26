@@ -1,0 +1,16 @@
+{
+  "concept_id": "C09",
+  "scene_id": "S04_end",
+  "linked_cuts": [
+    "C09_K04_take02"
+  ],
+  "image_path": "storyboards/2026-10-26_C08-C09-flow-v15/correction_frames/C09_K04_end.png",
+  "prompt": "Use case: precise-object-edit. Edit this exact 16:9 rainy bus-stop photograph into the END state of a completed bus boarding shot. KEEP the exact locked exterior side-wide camera, framing, cream bus parked at screen-right, fully open glass bus doorway and steps, rainy night reflections, shelter, street, lighting and woman. The older stocky East Asian man with white curly hair and orange raincoat has now finished boarding: move ONLY this same man and his same gray wheeled suitcase with yellow ribbon from the pavement into the bus interior past the doorway threshold. He is clearly visible through the open doorway, but his entire body, BOTH shoes and the ENTIRE upright gray suitcase with all wheels are inside on the bus interior floor, beyond the top step. He faces into the bus, away from the pavement, seen in side/back three-quarter view; he is not exiting or looking back. His RIGHT hand holds the suitcase telescoping handle, his LEFT hand is empty. The doorway steps and outside pavement are empty, no foot or suitcase wheel hanging over the threshold. The young woman in teal rain jacket and black backpack stays in her original position outside at screen-left, both feet on the wet pavement. Her LEFT arm has lowered after helping; her RIGHT hand keeps the same pink phone beside her right thigh. No one else boards, no duplicate person or suitcase, no driver added. Bus remains stationary, door stays fully open. Preserve the original bus architecture, seats, yellow rails, window frames, woman's face/clothes, and environmental details. Do not change to an interior shot, pan, zoom, relocate the camera, close the door, move the bus, put the man on the step, or leave him outside. No captions, text, logos or watermark. This is a physically completed boarding endpoint for image-to-video.",
+  "reference_images": [
+    "storyboards/2026-10-25_C07-C10-rewrite-v13/images/C09/S04.png"
+  ],
+  "generated_source": "C:/Users/wseok/.codex/generated_images/01a177dd-9729-7611-853e-07272f0f60db/exec-56b8c146-8625-4372-a617-db31c3b2fc28.png",
+  "cache_path": "C:/Users/wseok/.cache/codex-flow/C08-C09-v15-2026-10-26/C09_K04_end.png",
+  "motion_camera_notes": "Fixed exterior side-wide view. Man and whole bag board one direction; both feet and bag rest on interior floor, clear of steps/threshold. Woman stays outside. No bus motion or door closure.",
+  "review_status": "Artist actual-image check: man faces interior, both shoes and suitcase wheels inside, open steps empty. Woman outside, pink phone in her right hand, left arm down. Cross-review pending."
+}

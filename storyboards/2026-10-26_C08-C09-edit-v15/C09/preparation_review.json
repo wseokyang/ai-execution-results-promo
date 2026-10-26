@@ -1,0 +1,72 @@
+{
+  "status": "PREPARED_NOT_FINAL",
+  "concept_id": "C09",
+  "source_reviewed": [
+    "C09_K01_take01.mp4",
+    "C09_K02_take01.mp4",
+    "C09_K03_take01.mp4",
+    "C09_K04_take01.mp4",
+    "C09_K05_take01.mp4"
+  ],
+  "inspection_method": "Actual extracted frames at 0.5-second intervals, full video decode, selected caption compositing samples.",
+  "actual_continuous_playback_verified": false,
+  "actual_listening_verified": false,
+  "findings": [
+    {
+      "id": "C09-E01",
+      "severity": "REQUIRED",
+      "cut": "K04",
+      "finding": "Man places one foot into the bus around 2.5-3.5 seconds, then steps back onto pavement by 5.5 seconds. At 6-7.5 seconds man and suitcase remain outside. No completed boarding exists.",
+      "disposition": "Parent notified; replacement take required before final render. Do not conceal with still or assume success."
+    },
+    {
+      "id": "C09-E02",
+      "severity": "EDIT",
+      "cut": "K01",
+      "finding": "Charger is completely inside the right pocket only around 2 seconds.",
+      "disposition": "Use source 0.25-2.75 seconds instead of too-short original 1.25-second plan."
+    },
+    {
+      "id": "C09-E03",
+      "severity": "EDIT",
+      "cut": "K02",
+      "finding": "Handshake release completes about 4 seconds.",
+      "disposition": "Use source 0.5-4.75 seconds. Move caption over empty upper-right bus area to avoid man's hair/head."
+    },
+    {
+      "id": "C09-E04",
+      "severity": "EDIT",
+      "cut": "K03",
+      "finding": "Phone screen is small, blank and shown to man. Display and emotional response are present.",
+      "disposition": "Use readable post caption specifying shared AI method applied and checked by coworker. Do not generate dense UI text."
+    },
+    {
+      "id": "C09-E05",
+      "severity": "EDIT",
+      "cut": "K05",
+      "finding": "Black phone is lifted to left ear; phone back initially faces camera.",
+      "disposition": "External call badge in empty top-right area; never paint call interface on phone back. Put '역시.' clear of face."
+    }
+  ],
+  "prepared_assets": [
+    "render_c09_v15.py",
+    "edit_plan.json",
+    "C09_original_score_v15.wav",
+    "audio_recipe.json",
+    "C09_captions_v15.srt",
+    "caption_manifest.json",
+    "ending_v15.png",
+    "composite_previews/"
+  ],
+  "provisional_duration_seconds": 54.0,
+  "ending_seconds": 5.0,
+  "remaining": [
+    "Receive and inspect K06-K10 actual originals",
+    "Inspect corrected K04 complete boarding",
+    "Adjust trims, reveal musical break and caption placement to actual action",
+    "Render final only after every source segment is approved",
+    "Full decode/audio numerical QA and final-frame review; distinguish from actual listening and real-time viewing"
+  ],
+  "historical_stage_record": true,
+  "superseded_for_current_status_by": "edit_manifest.json and ../cross_review.json"
+}

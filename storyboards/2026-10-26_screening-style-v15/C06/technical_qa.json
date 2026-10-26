@@ -1,0 +1,51 @@
+{
+  "file": "C06_Q-AI_Fair_screening_v15.mp4",
+  "sha256": "26af747235a7f0644b79015cf706e864564d0a1b1e828a5b855edaef38a2ccf9",
+  "bytes": 14025239,
+  "duration_seconds": 48.75,
+  "video_frames": 1170,
+  "video_fps": 24,
+  "resolution": [
+    1280,
+    720
+  ],
+  "audio_streams": 1,
+  "audio_rate": 48000,
+  "audio_channels": 2,
+  "full_decode": "PASS",
+  "max_audio_gap_seconds": 7.105427357601002e-15,
+  "audio_end_seconds": 48.75,
+  "audio_peak_linear": 0.5932562351226807,
+  "nonfinite_samples": 0,
+  "loudness": {
+    "input_i": -23.01,
+    "input_tp": -4.53,
+    "input_lra": 13.5,
+    "input_thresh": -35.21
+  },
+  "original_base_hash_unchanged": true,
+  "original_audio_packets_identical": null,
+  "actual_continuous_playback_verified": false,
+  "actual_listening_verified": false,
+  "visual_sample_review": "SINGLE_AGENT_CHANGED_FRAMES_PASS",
+  "source_asset_hashes_verified": true,
+  "action_frame_sample_comparison": {
+    "0.0": 1.0874837239583333,
+    "12.0": 1.3588002748842594,
+    "24.0": 1.3393764467592593,
+    "36.0": 1.3896643518518519,
+    "3.0": 1.2874768518518518,
+    "15.0": 1.2680475983796295,
+    "21.0": 1.2089601417824074,
+    "27.0": 1.1418836805555554,
+    "39.0": 1.3395511429398148,
+    "6.0": 1.2975589554398148,
+    "18.0": 1.4293891059027777,
+    "30.0": 1.3292248987268518,
+    "33.0": 1.4706058304398149,
+    "9.0": 1.4788921440972222
+  },
+  "visually_opened_frames": [
+    "review_frames/44.500s.png"
+  ]
+}

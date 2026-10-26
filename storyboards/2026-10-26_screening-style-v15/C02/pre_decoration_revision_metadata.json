@@ -1,0 +1,658 @@
+{
+  "C02/technical_qa.json": {
+    "file": "C02_Q-AI_Fair_screening_v15.mp4",
+    "sha256": "e0e80a4e77263d2e26ce1d02a639042032fe04ee7494dca7c57632139fa39475",
+    "bytes": 14399775,
+    "duration_seconds": 36.25,
+    "video_frames": 870,
+    "video_fps": 24,
+    "resolution": [
+      1280,
+      720
+    ],
+    "audio_streams": 1,
+    "audio_rate": 48000,
+    "audio_channels": 2,
+    "full_decode": "PASS",
+    "max_audio_gap_seconds": 7.105427357601002e-15,
+    "audio_end_seconds": 36.25,
+    "audio_peak_linear": 0.44887715578079224,
+    "nonfinite_samples": 0,
+    "loudness": {
+      "input_i": -23.01,
+      "input_tp": -6.96,
+      "input_lra": 5.9,
+      "input_thresh": -34.0
+    },
+    "original_base_hash_unchanged": true,
+    "original_audio_packets_identical": true,
+    "actual_continuous_playback_verified": false,
+    "actual_listening_verified": false,
+    "visual_sample_review": "SINGLE_AGENT_CHANGED_FRAMES_PASS",
+    "source_asset_hashes_verified": true,
+    "action_frame_sample_comparison": {
+      "0.0": 1.2387503616898148,
+      "12.0": 1.5478233506944445,
+      "24.0": 1.470960648148148,
+      "3.0": 1.6339536313657408,
+      "15.0": 1.5700086805555555,
+      "21.0": 1.5256318721064814,
+      "27.0": 1.536451099537037,
+      "6.0": 1.9600343605324073,
+      "18.0": 1.5079593460648149,
+      "9.0": 1.4598564091435184
+    },
+    "visually_opened_frames": [
+      "review_frames/32.000s.png"
+    ]
+  },
+  "C02/edit_manifest.json": {
+    "concept": "C02 검은 점을 잡아라",
+    "file": "C02_Q-AI_Fair_screening_v15.mp4",
+    "duration_seconds": 36.25,
+    "fps": 24,
+    "resolution": [
+      1280,
+      720
+    ],
+    "timeline": [
+      {
+        "cut": "K01",
+        "source": "2026-10-24_v12-C02-C04-C01-flow\\C02_K01_take01.mp4",
+        "source_in": 0,
+        "source_out": 3.5,
+        "start": 0,
+        "end": 3.5
+      },
+      {
+        "cut": "K02",
+        "source": "2026-10-24_v12-C02-C04-C01-flow\\C02_K02_take01.mp4",
+        "source_in": 0,
+        "source_out": 2.75,
+        "start": 3.5,
+        "end": 6.25
+      },
+      {
+        "cut": "K03",
+        "source": "2026-10-24_v12-C02-C04-C01-flow\\C02_K03_take01.mp4",
+        "source_in": 1.5,
+        "source_out": 7.5,
+        "start": 6.25,
+        "end": 12.25
+      },
+      {
+        "cut": "K04",
+        "source": "2026-10-24_v12-C02-C04-C01-flow\\C02_K04_take01.mp4",
+        "source_in": 1,
+        "source_out": 2.5,
+        "start": 12.25,
+        "end": 13.75
+      },
+      {
+        "cut": "K04",
+        "source": "2026-10-24_v12-C02-C04-C01-flow\\C02_K04_take01.mp4",
+        "source_in": 4.5,
+        "source_out": 7,
+        "start": 13.75,
+        "end": 16.25
+      },
+      {
+        "cut": "K05",
+        "source": "2026-10-24_v12-C02-C04-C01-flow\\C02_K05_take01.mp4",
+        "source_in": 0,
+        "source_out": 2.5,
+        "start": 16.25,
+        "end": 18.75
+      },
+      {
+        "cut": "NEW",
+        "source": "2026-10-25_final-six-v13\\C02_K05_shortchain_take02.mp4",
+        "source_in": 0.5,
+        "source_out": 2.5,
+        "start": 18.75,
+        "end": 20.75
+      },
+      {
+        "cut": "NEW_REACT",
+        "source": "2026-10-25_final-six-v13\\C02_K05_shortchain_take02.mp4",
+        "source_in": 2.5,
+        "source_out": 5.0,
+        "start": 20.75,
+        "end": 23.25
+      },
+      {
+        "cut": "K07",
+        "source": "2026-10-24_v12-C02-C04-C01-flow\\C02_K07_take02.mp4",
+        "source_in": 1.5,
+        "source_out": 4.25,
+        "start": 23.25,
+        "end": 26.0
+      },
+      {
+        "cut": "K08",
+        "source": "2026-10-24_v12-C02-C04-C01-flow\\C02_K08_take01.mp4",
+        "source_in": 0.5,
+        "source_out": 3.5,
+        "start": 26.0,
+        "end": 29.0
+      },
+      {
+        "cut": "K09",
+        "source": "2026-10-24_v12-C02-C04-C01-flow\\C02_K09_take01.mp4",
+        "source_in": 4,
+        "source_out": 6.5,
+        "start": 29.0,
+        "end": 31.5
+      },
+      {
+        "cut": "END",
+        "source": null,
+        "source_in": 0,
+        "source_out": 4.75,
+        "start": 31.5,
+        "end": 36.25
+      }
+    ],
+    "captions": [
+      {
+        "start": 0.3,
+        "end": 3.3,
+        "text": "어딜 봐도, 같은 흔적.",
+        "position": "bottom"
+      },
+      {
+        "start": 3.75,
+        "end": 6,
+        "text": "사진부터 보시죠.",
+        "position": "bottom"
+      },
+      {
+        "start": 6.5,
+        "end": 9,
+        "text": "AI가 모은 후보 3장",
+        "position": "bottom"
+      },
+      {
+        "start": 9.25,
+        "end": 12,
+        "text": "서로 다른 사진, 같은 자리.",
+        "position": "bottom"
+      },
+      {
+        "start": 12.4,
+        "end": 14.15,
+        "text": "촬영창을 닦고…",
+        "position": "bottom"
+      },
+      {
+        "start": 14.3,
+        "end": 16.1,
+        "text": "점이 사라졌다.",
+        "position": "bottom"
+      },
+      {
+        "start": 16.5,
+        "end": 20.6,
+        "text": "이제 못 움직여.",
+        "position": "bottom"
+      },
+      {
+        "start": 20.85,
+        "end": 22.15,
+        "text": "이번엔 수갑이…",
+        "position": "bottom"
+      },
+      {
+        "start": 23.55,
+        "end": 25.85,
+        "text": "새로운 사례 확보.",
+        "position": "bottom"
+      },
+      {
+        "start": 29.1,
+        "end": 31.4,
+        "text": "이 사례는 직접 설명하시죠.",
+        "position": "top"
+      },
+      {
+        "start": 31.5,
+        "end": 36.25,
+        "text": "Q-AI Fair\nAI 실행의 과정까지, 함께 봐요.\n품질팀 AI 성과 교류회"
+      }
+    ],
+    "source_sha256": {
+      "2026-10-24_v12-C02-C04-C01-flow\\C02_K07_take02.mp4": "8c74a173b596b1a448b6c18c2243aa05a90c2b3f2b08864b5cc1edc42148d619",
+      "2026-10-24_v12-C02-C04-C01-flow\\C02_K02_take01.mp4": "096917ae8068272bb76cfe3d6b47c43833f694e34e8a7531e2335f7357ef70ad",
+      "2026-10-24_v12-C02-C04-C01-flow\\C02_K01_take01.mp4": "a2ced67aaa2688e3380d0b1ea2b08c9e2f44c0f3c3f7d1aafe25d1162d75f602",
+      "2026-10-24_v12-C02-C04-C01-flow\\C02_K08_take01.mp4": "646e1226eb37b9ba09d2a9a530dccb9d83d4ca9a8cf5d814eb93efd3dd0455fe",
+      "2026-10-24_v12-C02-C04-C01-flow\\C02_K09_take01.mp4": "46fbf2bbeecf8594c79e0c3b378a12648da9616e89d9e3fcf28f48d1e6b54205",
+      "2026-10-24_v12-C02-C04-C01-flow\\C02_K03_take01.mp4": "7c0807b6eb01c3d89a060b81fd9693c3d6ab04a0609014669af50906d4fa8623",
+      "2026-10-24_v12-C02-C04-C01-flow\\C02_K05_take01.mp4": "2507867f46c8d31f5ed31676e28f63551bfb3b4d539484ecaada61070bb46bb9",
+      "2026-10-24_v12-C02-C04-C01-flow\\C02_K04_take01.mp4": "9ef801339f213c3ac754d1d0fa80a4a198ed186501ee4025b782bb19a915a81c",
+      "2026-10-25_final-six-v13\\C02_K05_shortchain_take02.mp4": "29a098b33792f077de407d29dd424b98c21969aee6c2f3a89f26bea42b2a1a48"
+    },
+    "source_audio": "muted",
+    "source_files_unchanged": true,
+    "action_stills_inserted": false,
+    "phone_photo": "PD-approved continuity composite: one source K08 sharp photograph is shared on K07 phone, K08 print, K09 print; native3s shutter blink retained.",
+    "actual_continuous_playback_verified": false,
+    "actual_listening_verified": false,
+    "status": "V15_TECHNICAL_AND_CHANGED_FRAME_SAMPLE_PASS",
+    "limitations": [
+      "Full continuous playback has not been verified by this agent.",
+      "Actual listening has not been performed; music and effects were checked by PCM/loudness/PTS analysis.",
+      "K05 installation to release is an editorial action ellipsis, not one continuous camera take.",
+      "V15 is not realtime playback or actual listening certified; numerical tests and inspected frame samples only."
+    ],
+    "final_review_record": "../reviews/final_film_review.json",
+    "version": 15,
+    "base_file": "storyboards\\2026-10-25_final-six-v13\\C02\\C02_Q-AI_Fair_final_v13.mp4",
+    "base_sha256": "6f37b59968dcc32982f817e0c7d54ba4742913754c6a5f9d912fee23daa8f243",
+    "flow_credits_used": 0,
+    "new_style": {
+      "font": "Malgun Gothic Bold",
+      "body_px": 42,
+      "end_title_px": 72,
+      "event_definition_px": 36,
+      "event_name": "Q-AI Fair",
+      "event_definition": "품질팀 AI 성과 교류회"
+    },
+    "audio_change": {
+      "source_audio_policy": "All original spoken audio remains excluded",
+      "gain_db": 0.0,
+      "bgm": "existing genre-specific BGM and effects retained",
+      "actual_listening_verified": false
+    },
+    "v15_changes": [
+      "Common event definition and larger readable final typography",
+      "Original action sequence, source timings and total duration retained"
+    ],
+    "visual_review_scope": [
+      "review_frames/32.000s.png"
+    ]
+  },
+  "delivery_manifest.json": {
+    "version": "V15",
+    "films": [
+      {
+        "concept_id": "C02",
+        "title": "검은 점을 잡아라",
+        "file": "storyboards\\2026-10-26_screening-style-v15\\C02\\C02_Q-AI_Fair_screening_v15.mp4",
+        "duration_seconds": 36.25,
+        "sha256": "e0e80a4e77263d2e26ce1d02a639042032fe04ee7494dca7c57632139fa39475",
+        "actual_listening_verified": false,
+        "actual_continuous_playback_verified": false,
+        "technical_qa": "storyboards\\2026-10-26_screening-style-v15\\C02\\technical_qa.json"
+      },
+      {
+        "concept_id": "C03",
+        "title": "환경까지 가져왔습니다",
+        "file": "storyboards\\2026-10-26_screening-style-v15\\C03\\C03_Q-AI_Fair_screening_v15.mp4",
+        "duration_seconds": 43.0,
+        "sha256": "7152d5fc07c13fdb5add663ea8536b134e70932975b8e435d0c6730185c65844",
+        "actual_listening_verified": false,
+        "actual_continuous_playback_verified": false,
+        "technical_qa": "storyboards\\2026-10-26_screening-style-v15\\C03\\technical_qa.json"
+      },
+      {
+        "concept_id": "C04",
+        "title": "목마는 식사 중입니다",
+        "file": "storyboards\\2026-10-26_screening-style-v15\\C04\\C04_Q-AI_Fair_screening_v15.mp4",
+        "duration_seconds": 43.5,
+        "sha256": "7092179a5e2a3d9ec6f1ac5d5e74c97ea541ea69dbb2d79d17fefc16f12996b2",
+        "actual_listening_verified": false,
+        "actual_continuous_playback_verified": false,
+        "technical_qa": "storyboards\\2026-10-26_screening-style-v15\\C04\\technical_qa.json"
+      },
+      {
+        "concept_id": "C05",
+        "title": "괴수는 퇴근할 수 없다",
+        "file": "storyboards\\2026-10-26_screening-style-v15\\C05\\C05_Q-AI_Fair_screening_v15.mp4",
+        "duration_seconds": 46.75,
+        "sha256": "fabac6cce4e19c0b89562cb881894273e1abadfcc3c69f47fa8cab922bf914d9",
+        "actual_listening_verified": false,
+        "actual_continuous_playback_verified": false,
+        "technical_qa": "storyboards\\2026-10-26_screening-style-v15\\C05\\technical_qa.json"
+      },
+      {
+        "concept_id": "C06",
+        "title": "퇴근 좀 해주세요",
+        "file": "storyboards\\2026-10-26_screening-style-v15\\C06\\C06_Q-AI_Fair_screening_v15.mp4",
+        "duration_seconds": 48.75,
+        "sha256": "26af747235a7f0644b79015cf706e864564d0a1b1e828a5b855edaef38a2ccf9",
+        "actual_listening_verified": false,
+        "actual_continuous_playback_verified": false,
+        "technical_qa": "storyboards\\2026-10-26_screening-style-v15\\C06\\technical_qa.json"
+      }
+    ],
+    "qa": [
+      {
+        "file": "C02_Q-AI_Fair_screening_v15.mp4",
+        "sha256": "e0e80a4e77263d2e26ce1d02a639042032fe04ee7494dca7c57632139fa39475",
+        "bytes": 14399775,
+        "duration_seconds": 36.25,
+        "video_frames": 870,
+        "video_fps": 24,
+        "resolution": [
+          1280,
+          720
+        ],
+        "audio_streams": 1,
+        "audio_rate": 48000,
+        "audio_channels": 2,
+        "full_decode": "PASS",
+        "max_audio_gap_seconds": 7.105427357601002e-15,
+        "audio_end_seconds": 36.25,
+        "audio_peak_linear": 0.44887715578079224,
+        "nonfinite_samples": 0,
+        "loudness": {
+          "input_i": -23.01,
+          "input_tp": -6.96,
+          "input_lra": 5.9,
+          "input_thresh": -34.0
+        },
+        "original_base_hash_unchanged": true,
+        "original_audio_packets_identical": true,
+        "actual_continuous_playback_verified": false,
+        "actual_listening_verified": false,
+        "visual_sample_review": "SINGLE_AGENT_CHANGED_FRAMES_PASS",
+        "source_asset_hashes_verified": true,
+        "action_frame_sample_comparison": {
+          "0.0": 1.2387503616898148,
+          "12.0": 1.5478233506944445,
+          "24.0": 1.470960648148148,
+          "3.0": 1.6339536313657408,
+          "15.0": 1.5700086805555555,
+          "21.0": 1.5256318721064814,
+          "27.0": 1.536451099537037,
+          "6.0": 1.9600343605324073,
+          "18.0": 1.5079593460648149,
+          "9.0": 1.4598564091435184
+        },
+        "visually_opened_frames": [
+          "review_frames/32.000s.png"
+        ]
+      },
+      {
+        "file": "C03_Q-AI_Fair_screening_v15.mp4",
+        "sha256": "7152d5fc07c13fdb5add663ea8536b134e70932975b8e435d0c6730185c65844",
+        "bytes": 17340785,
+        "duration_seconds": 43.0,
+        "video_frames": 1032,
+        "video_fps": 24,
+        "resolution": [
+          1280,
+          720
+        ],
+        "audio_streams": 1,
+        "audio_rate": 48000,
+        "audio_channels": 2,
+        "full_decode": "PASS",
+        "max_audio_gap_seconds": 7.105427357601002e-15,
+        "audio_end_seconds": 43.0,
+        "audio_peak_linear": 0.40376320481300354,
+        "nonfinite_samples": 0,
+        "loudness": {
+          "input_i": -23.03,
+          "input_tp": -7.87,
+          "input_lra": 6.8,
+          "input_thresh": -33.76
+        },
+        "original_base_hash_unchanged": true,
+        "original_audio_packets_identical": null,
+        "actual_continuous_playback_verified": false,
+        "actual_listening_verified": false,
+        "visual_sample_review": "SINGLE_AGENT_CHANGED_FRAMES_PASS",
+        "source_asset_hashes_verified": true,
+        "action_frame_sample_comparison": {
+          "0.0": 0.0,
+          "12.0": 0.0,
+          "24.0": 0.0,
+          "36.0": 0.2093189380787037,
+          "3.0": 0.0,
+          "15.0": 0.0,
+          "21.0": 0.0,
+          "27.0": 1.0052734375,
+          "6.0": 0.0,
+          "18.0": 0.0,
+          "30.0": 0.0,
+          "33.0": 0.0,
+          "9.0": 0.0
+        },
+        "visually_opened_frames": [
+          "review_frames/26.500s.png",
+          "review_frames/37.500s.png"
+        ]
+      },
+      {
+        "file": "C04_Q-AI_Fair_screening_v15.mp4",
+        "sha256": "7092179a5e2a3d9ec6f1ac5d5e74c97ea541ea69dbb2d79d17fefc16f12996b2",
+        "bytes": 18826337,
+        "duration_seconds": 43.5,
+        "video_frames": 1044,
+        "video_fps": 24,
+        "resolution": [
+          1280,
+          720
+        ],
+        "audio_streams": 1,
+        "audio_rate": 48000,
+        "audio_channels": 2,
+        "full_decode": "PASS",
+        "max_audio_gap_seconds": 7.105427357601002e-15,
+        "audio_end_seconds": 43.5,
+        "audio_peak_linear": 0.31586530804634094,
+        "nonfinite_samples": 0,
+        "loudness": {
+          "input_i": -23.05,
+          "input_tp": -10.01,
+          "input_lra": 11.2,
+          "input_thresh": -33.66
+        },
+        "original_base_hash_unchanged": true,
+        "original_audio_packets_identical": true,
+        "actual_continuous_playback_verified": false,
+        "actual_listening_verified": false,
+        "visual_sample_review": "SINGLE_AGENT_CHANGED_FRAMES_PASS",
+        "source_asset_hashes_verified": true,
+        "action_frame_sample_comparison": {
+          "0.0": 1.3845062934027779,
+          "12.0": 1.9832845052083334,
+          "24.0": 1.6552275028935186,
+          "36.0": 1.7902640335648148,
+          "3.0": 1.2928121383101852,
+          "15.0": 1.525185546875,
+          "21.0": 1.7035441984953703,
+          "27.0": 1.8333293547453704,
+          "6.0": 1.536091579861111,
+          "18.0": 1.5958246527777777,
+          "30.0": 1.6510456452546296,
+          "33.0": 2.013402416087963,
+          "9.0": 1.9226030815972222
+        },
+        "visually_opened_frames": [
+          "review_frames/39.000s.png"
+        ]
+      },
+      {
+        "file": "C05_Q-AI_Fair_screening_v15.mp4",
+        "sha256": "fabac6cce4e19c0b89562cb881894273e1abadfcc3c69f47fa8cab922bf914d9",
+        "bytes": 22639980,
+        "duration_seconds": 46.75,
+        "video_frames": 1122,
+        "video_fps": 24,
+        "resolution": [
+          1280,
+          720
+        ],
+        "audio_streams": 1,
+        "audio_rate": 48000,
+        "audio_channels": 2,
+        "full_decode": "PASS",
+        "max_audio_gap_seconds": 7.105427357601002e-15,
+        "audio_end_seconds": 46.75,
+        "audio_peak_linear": 0.671312153339386,
+        "nonfinite_samples": 0,
+        "loudness": {
+          "input_i": -23.03,
+          "input_tp": -3.46,
+          "input_lra": 22.4,
+          "input_thresh": -35.72
+        },
+        "original_base_hash_unchanged": true,
+        "original_audio_packets_identical": null,
+        "actual_continuous_playback_verified": false,
+        "actual_listening_verified": false,
+        "visual_sample_review": "SINGLE_AGENT_CHANGED_FRAMES_PASS",
+        "source_asset_hashes_verified": true,
+        "action_frame_sample_comparison": {
+          "0.0": 1.2659429253472223,
+          "12.0": 1.7483423755787038,
+          "24.0": 1.4408973524305555,
+          "36.0": 1.5979774305555556,
+          "3.0": 1.5444950810185185,
+          "15.0": 1.4767107928240741,
+          "21.0": 2.0354691116898147,
+          "27.0": 1.3529311342592591,
+          "39.0": 1.3054390914351852,
+          "6.0": 1.6510062210648149,
+          "18.0": 1.8687351707175925,
+          "30.0": 1.8553215422453704,
+          "33.0": 1.6015675636574074,
+          "9.0": 1.6338917824074075
+        },
+        "visually_opened_frames": [
+          "review_frames/42.000s.png"
+        ]
+      },
+      {
+        "file": "C06_Q-AI_Fair_screening_v15.mp4",
+        "sha256": "26af747235a7f0644b79015cf706e864564d0a1b1e828a5b855edaef38a2ccf9",
+        "bytes": 14025239,
+        "duration_seconds": 48.75,
+        "video_frames": 1170,
+        "video_fps": 24,
+        "resolution": [
+          1280,
+          720
+        ],
+        "audio_streams": 1,
+        "audio_rate": 48000,
+        "audio_channels": 2,
+        "full_decode": "PASS",
+        "max_audio_gap_seconds": 7.105427357601002e-15,
+        "audio_end_seconds": 48.75,
+        "audio_peak_linear": 0.5932562351226807,
+        "nonfinite_samples": 0,
+        "loudness": {
+          "input_i": -23.01,
+          "input_tp": -4.53,
+          "input_lra": 13.5,
+          "input_thresh": -35.21
+        },
+        "original_base_hash_unchanged": true,
+        "original_audio_packets_identical": null,
+        "actual_continuous_playback_verified": false,
+        "actual_listening_verified": false,
+        "visual_sample_review": "SINGLE_AGENT_CHANGED_FRAMES_PASS",
+        "source_asset_hashes_verified": true,
+        "action_frame_sample_comparison": {
+          "0.0": 1.0874837239583333,
+          "12.0": 1.3588002748842594,
+          "24.0": 1.3393764467592593,
+          "36.0": 1.3896643518518519,
+          "3.0": 1.2874768518518518,
+          "15.0": 1.2680475983796295,
+          "21.0": 1.2089601417824074,
+          "27.0": 1.1418836805555554,
+          "39.0": 1.3395511429398148,
+          "6.0": 1.2975589554398148,
+          "18.0": 1.4293891059027777,
+          "30.0": 1.3292248987268518,
+          "33.0": 1.4706058304398149,
+          "9.0": 1.4788921440972222
+        },
+        "visually_opened_frames": [
+          "review_frames/44.500s.png"
+        ]
+      }
+    ],
+    "flow_requests": 0,
+    "credits_spent": 0,
+    "originals_preserved": true,
+    "review_status": "TECHNICAL_PASS_AND_SINGLE_AGENT_CHANGED_FRAME_SAMPLE_PASS"
+  },
+  "visual_review.json": {
+    "reviewer": "v15_style_audit",
+    "records": [
+      {
+        "concept_id": "C02",
+        "opened_actual_frames": [
+          "review_frames/32.000s.png"
+        ],
+        "result": "PASS for changed subtitle/end-card readability and action visibility",
+        "not_verified": [
+          "Actual listening",
+          "Realtime continuous playback",
+          "Audience response"
+        ]
+      },
+      {
+        "concept_id": "C03",
+        "opened_actual_frames": [
+          "review_frames/26.500s.png",
+          "review_frames/37.500s.png"
+        ],
+        "result": "PASS for changed subtitle/end-card readability and action visibility",
+        "not_verified": [
+          "Actual listening",
+          "Realtime continuous playback",
+          "Audience response"
+        ]
+      },
+      {
+        "concept_id": "C04",
+        "opened_actual_frames": [
+          "review_frames/39.000s.png"
+        ],
+        "result": "PASS for changed subtitle/end-card readability and action visibility",
+        "not_verified": [
+          "Actual listening",
+          "Realtime continuous playback",
+          "Audience response"
+        ]
+      },
+      {
+        "concept_id": "C05",
+        "opened_actual_frames": [
+          "review_frames/42.000s.png"
+        ],
+        "result": "PASS for changed subtitle/end-card readability and action visibility",
+        "not_verified": [
+          "Actual listening",
+          "Realtime continuous playback",
+          "Audience response"
+        ]
+      },
+      {
+        "concept_id": "C06",
+        "opened_actual_frames": [
+          "review_frames/44.500s.png"
+        ],
+        "result": "PASS for changed subtitle/end-card readability and action visibility",
+        "not_verified": [
+          "Actual listening",
+          "Realtime continuous playback",
+          "Audience response"
+        ]
+      }
+    ],
+    "resolved_issue": {
+      "id": "STYLE-C03-01",
+      "initial": "New third ending line too low contrast against bright sky",
+      "fix": "Rebuilt original motion with190alpha header through250px and fadeout to340px; reviewed37.5sec frame again",
+      "status": "RESOLVED"
+    },
+    "limitations": "Only explicitly listed frames opened. Contact sheets are generated, not claimed fully watched. All listening/continuous-playback flags remain false."
+  }
+}

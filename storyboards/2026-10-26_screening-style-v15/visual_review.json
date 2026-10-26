@@ -1,0 +1,82 @@
+{
+  "reviewer": "v15_style_audit",
+  "records": [
+    {
+      "concept_id": "C02",
+      "opened_actual_frames": [
+        "review_frames/32.000s.png"
+      ],
+      "result": "PASS for changed subtitle/end-card readability and action visibility",
+      "not_verified": [
+        "Actual listening",
+        "Realtime continuous playback",
+        "Audience response"
+      ]
+    },
+    {
+      "concept_id": "C03",
+      "opened_actual_frames": [
+        "review_frames/26.500s.png",
+        "review_frames/37.500s.png"
+      ],
+      "result": "PASS for changed subtitle/end-card readability and action visibility",
+      "not_verified": [
+        "Actual listening",
+        "Realtime continuous playback",
+        "Audience response"
+      ]
+    },
+    {
+      "concept_id": "C04",
+      "opened_actual_frames": [
+        "review_frames/39.000s.png"
+      ],
+      "result": "PASS for changed subtitle/end-card readability and action visibility",
+      "not_verified": [
+        "Actual listening",
+        "Realtime continuous playback",
+        "Audience response"
+      ]
+    },
+    {
+      "concept_id": "C05",
+      "opened_actual_frames": [
+        "review_frames/42.000s.png"
+      ],
+      "result": "PASS for changed subtitle/end-card readability and action visibility",
+      "not_verified": [
+        "Actual listening",
+        "Realtime continuous playback",
+        "Audience response"
+      ]
+    },
+    {
+      "concept_id": "C06",
+      "opened_actual_frames": [
+        "review_frames/44.500s.png"
+      ],
+      "result": "PASS for changed subtitle/end-card readability and action visibility",
+      "not_verified": [
+        "Actual listening",
+        "Realtime continuous playback",
+        "Audience response"
+      ]
+    }
+  ],
+  "resolved_issue": {
+    "id": "STYLE-C03-01",
+    "initial": "New third ending line too low contrast against bright sky",
+    "fix": "Rebuilt original motion with190alpha header through250px and fadeout to340px; reviewed37.5sec frame again",
+    "status": "RESOLVED"
+  },
+  "limitations": "Only explicitly listed frames opened. Contact sheets are generated, not claimed fully watched. All listening/continuous-playback flags remain false.",
+  "c02_decoration_followup": {
+    "issue": "B/C: diagonal red line crosses end-card text",
+    "fix": "Peripheral closed line, rgb62/37/40 at1px; former central diagonal removed",
+    "actual_frame_opened": "C02/review_frames/32.000s.png",
+    "result": "PASS",
+    "sha256": "9f37efa165ee693b9c31547a0a4037f31bca68b11b3aa9eb4d8cf682d2cb1ae9",
+    "continuous_playback": false,
+    "actual_listening": false
+  }
+}

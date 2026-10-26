@@ -1,0 +1,524 @@
+{
+  "concept_id": "C07",
+  "title": "셰프님, 그것도 주세요",
+  "tool": "built-in image_gen",
+  "images": [
+    {
+      "concept_id": "C07",
+      "scene_id": "S01",
+      "linked_cuts": [
+        "C07_K01"
+      ],
+      "image_path": "storyboards/2026-10-26_C01-C07-C10-rewrite-v15/images/C07/S01.png",
+      "generated_source": "C:/Users/wseok/.codex/generated_images/01a177f8-67d0-7781-b020-16f01b1ddc12/exec-612e2a01-6de6-490c-8168-73089e2c81bb.png",
+      "prompt": "Use case: ads-marketing. A photorealistic cinematic commercial still. Output 16:9 landscape, preferably 1536x864. Create one cinematic 16:9 horizontal first-frame key image for a later live-action commercial comedy video. This is the exact BEFORE-action frame, not a collage or a completed action. Preserve realistic anatomy, natural contact with surfaces, and a clean readable hierarchy. No subtitles, readable interface text, dates, venue information, logos or watermark-like graphics; specified text will be composited afterward.  Visible cast only: The chef is a short, sturdy East Asian man in his late 30s with a broad round clean-shaven face and short auburn side-parted hair. White double-breasted chef jacket, low square white chef cap, lavender long apron and white gloves. | The central chief judge is a very broad-shouldered, heavy-built Black man in his 50s with a smooth bald head, round face and a short gray beard only below his chin, no glasses. Wine-red velvet dinner jacket, black shirt and black bow tie. | The left judge is a short, stocky East Asian woman in her late 20s with round cheeks, clear attentive eyes and long straight platinum-blonde hair tied neatly low. Black satin tuxedo, wide white shirt collar and small deep-purple brooch. | The right judge is a very tall, thin European woman in her 60s with a long narrow face and nose, smooth high dark-brown chignon with one white streak, thin gold half-rim glasses. Dark-navy formal dress and a narrow silver-gray silk scarf. Scene: Luxurious restaurant judging room at night, cinematic warm spotlights and a dark burgundy background. A white-clothed table spans the frame. At the front-center a modest silver cloche completely covers a flat plate; the chef's two gloved hands hover just before lifting its top handle. Behind the table sit three solemn judges, the platinum-haired woman at screen-left, the broad bald man at center, the tall chignon-haired older woman at screen-right. Leave an empty flat rest on the left for the lid. No food or result page is visible yet. Physical scale lock: the same silver cloche has a clear inner diameter of at least 40 cm and an outer diameter of about 44 cm, large enough for a flat A4 sheet. Every lid rest is at least 45 by 45 cm; the service cart top is about 100 by 60 cm with separate serving and lid-rest zones. Keep all chair travel lanes free of cart wheels, tools and loose fabric. Important: single clean rectangular long dining table, not multiple merged tables. Four cast members only. Chef stands offset left, without blocking any judge's face. Keep the silver dome CLOSED and both gloved hands hovering a few centimeters ABOVE the handle, NOT touching yet. Polished theatrical restaurant photography with deep burgundy curtains, warm amber practical lights and black wood floor. Natural human faces. No extra people. Clear top dark-wall area.",
+      "reference_images": [],
+      "motion_camera_notes": {
+        "camera": "낮은 접시 중심 미디엄 와이드. 관객이 식사를 예상할 조명, 종이의 정체는 명확.",
+        "start": "은색 클로슈가 접시를 덮은 심사 테이블 전경. CH 양손이 돔 손잡이에 닿기 전. 뒤 JB/JA/JC 엄숙히 앉음.",
+        "main": "CH가 돔을 수직으로 들어 완성된 AI 결과 한 장을 공개하고 왼쪽 빈 받침에 내려놓는다.",
+        "end": "자주색 탭 AI 결과 접시 위 공개, 돔 왼쪽 받침, CH 양손 비움.",
+        "frame_holds": "시작과 끝에 편집 여유 확보. 영상 전체8초를 자동 본편 사용하지 않음.",
+        "audio": "음성대사/생성 자막/생성 음악 없음. BGM/SFX 후편집.",
+        "acceptance": "시작→행동→완료, 손·소품·바닥 접점 확인. 상세 프롬프트가 성공을 보장하지 않음."
+      },
+      "review_status": "three_independent_reviews_cross_checked_and_required_fixes_rechecked",
+      "artist_findings": "Four cast identities and left/center/right judges present; chef gloves hover before touching closed dome; lid rest screen-left; no generated text; first state retained.",
+      "sha256": "240dc98b15f55425181044003b47e173e351ea0c7fd0e35da9c1c0f5cfc1e43b",
+      "actual_dimensions_px": [
+        1672,
+        941
+      ],
+      "requested_aspect_ratio": "16:9",
+      "image_is_before_action": true
+    },
+    {
+      "concept_id": "C07",
+      "scene_id": "S02",
+      "linked_cuts": [
+        "C07_K02"
+      ],
+      "image_path": "storyboards/2026-10-26_C01-C07-C10-rewrite-v15/images/C07/S02.png",
+      "generated_source": "C:/Users/wseok/.codex/generated_images/01a177f8-67d0-7781-b020-16f01b1ddc12/exec-b5df0b36-e49c-407f-9331-30343b0bf311.png",
+      "prompt": "Use case: ads-marketing. Create the next camera setup in the exact same restaurant using image 1 as identity, costume and lighting reference. Output 16:9. Create one cinematic 16:9 horizontal first-frame key image for a later live-action commercial comedy video. This is the exact BEFORE-action frame, not a collage or a completed action. Preserve realistic anatomy, natural contact with surfaces, and a clean readable hierarchy. No subtitles, readable interface text, dates, venue information, logos or watermark-like graphics; specified text will be composited afterward.  Visible cast only: The central chief judge is a very broad-shouldered, heavy-built Black man in his 50s with a smooth bald head, round face and a short gray beard only below his chin, no glasses. Wine-red velvet dinner jacket, black shirt and black bow tie. Scene: Fixed medium close shot of the broad bald male judge in a wine velvet dinner jacket. He holds a small ivory recipe card with both hands, just before rotating its front toward himself and partly toward the camera. The card's large face is clean and blank for post-composited writing. The polished final-result sheet remains on its plate at the lower edge. His face is formally expectant, not already angry. Keep the upper dark wall clear for captions. Physical scale lock: the same silver cloche has a clear inner diameter of at least 40 cm and an outer diameter of about 44 cm, large enough for a flat A4 sheet. Every lid rest is at least 45 by 45 cm; the service cart top is about 100 by 60 cm with separate serving and lid-rest zones. Keep all chair travel lanes free of cart wheels, tools and loose fabric. Match image1 chief judge's exact face, heavy body, burgundy velvet jacket and gray chin beard. Only this judge visible in the tighter framing. At the bottom edge, a flat white A4 sheet with one purple tab rests on a LARGE white serving plate; no readable text on paper. Recipe card is a SMALL clean ivory rectangle approx 15 by 10 cm, naturally held at its lower corners. Calm, expectant, not already disappointed. The silver dome has been removed and is out of this shot to the left; do not place a dome over the revealed paper. Keep same dark burgundy room and warm light.",
+      "reference_images": [
+        "C:/Users/wseok/.codex/generated_images/01a177f8-67d0-7781-b020-16f01b1ddc12/exec-612e2a01-6de6-490c-8168-73089e2c81bb.png"
+      ],
+      "motion_camera_notes": {
+        "camera": "카드와 얼굴을 함께 보는 고정 미디엄. 빈 카드 면적을 크게 보여 부족한 과정 설명을 시각화.",
+        "start": "JA가 작은 레시피 카드를 양손에 들고 뒤집기 전, 앞에는 공개된 결과 접시. 문서 글자 후합성 영역.",
+        "main": "JA가 카드를 읽는 방향으로 돌려 'AI 활용' 한 줄뿐임을 확인하고 그대로 굳는다. 마지막에 카드를 테이블 위에 내려놓는다.",
+        "end": "한 줄뿐인 레시피 카드가 테이블 위로 내려오고 JA 두 손 비움. 시선은 왼쪽 조리대 쪽으로 향할 수 있음.",
+        "frame_holds": "시작과 끝에 편집 여유 확보. 영상 전체8초를 자동 본편 사용하지 않음.",
+        "audio": "음성대사/생성 자막/생성 음악 없음. BGM/SFX 후편집.",
+        "acceptance": "시작→행동→완료, 손·소품·바닥 접점 확인. 상세 프롬프트가 성공을 보장하지 않음."
+      },
+      "review_status": "three_independent_reviews_cross_checked_and_required_fixes_rechecked",
+      "artist_findings": "Same central judge; both hands on small blank ivory card; revealed A4 with purple tab remains on plate; dome absent as required; no generated writing.",
+      "sha256": "482c2cfdc685517f3df01bc15690a29e9b8704b8037362addff597b05616abcc",
+      "actual_dimensions_px": [
+        1672,
+        941
+      ],
+      "requested_aspect_ratio": "16:9",
+      "image_is_before_action": true
+    },
+    {
+      "concept_id": "C07",
+      "scene_id": "S03",
+      "linked_cuts": [
+        "C07_K03"
+      ],
+      "image_path": "storyboards/2026-10-26_C01-C07-C10-rewrite-v15/images/C07/S03.png",
+      "generated_source": "C:/Users/wseok/.codex/generated_images/01a177f8-67d0-7781-b020-16f01b1ddc12/exec-659f05f0-3403-466b-b6ea-4acdbb930300.png",
+      "prompt": "Use case: precise-object-edit. Correct ONLY the chef's arm/hand ownership and remove the unwanted dome from this existing photograph. Keep exact chef identity, head, body, clothes, apron, lighting, document container size, papers and room. The chef's anatomical RIGHT arm, which starts at the shoulder on the VIEWER'S LEFT, must bend across his torso and reach to the paper above the container. That RIGHT gloved hand is now the only hand holding the single red-marked paper. The anatomical LEFT arm, shoulder on VIEWER'S RIGHT, must hang down empty beside his LEFT hip, NOT hold any paper. Show the two arms clearly traceable from shoulder to hand; no extra arms or hands. The paper remains suspended just above the container before dropping. Remove the entire silver cloche/dome on the counter at the far right, leaving that counter empty; the one dome is elsewhere in the story. Do not alter any other part. 16:9 photorealistic frame, no text.",
+      "reference_images": [
+        "C:/Users/wseok/.codex/generated_images/01a177f8-67d0-7781-b020-16f01b1ddc12/exec-0e444967-8190-4ae4-bb10-dffb7a271fe0.png"
+      ],
+      "initial_prompt": "Use case: ads-marketing. Use image1 as exact CHEF identity, costume, room and lighting reference. Make a new single first-frame shot, not a collage. Output 16:9 landscape. Create one cinematic 16:9 horizontal first-frame key image for a later live-action commercial comedy video. This is the exact BEFORE-action frame, not a collage or a completed action. Preserve realistic anatomy, natural contact with surfaces, and a clean readable hierarchy. No subtitles, readable interface text, dates, venue information, logos or watermark-like graphics; specified text will be composited afterward.  Visible cast only: The chef is a short, sturdy East Asian man in his late 30s with a broad round clean-shaven face and short auburn side-parted hair. White double-breasted chef jacket, low square white chef cap, lavender long apron and white gloves. Scene: Medium close side view of the chef at a clean side station. His RIGHT gloved hand holds one white draft with visible generic red revision strokes just above a small open matte-white document container on a low stand; his LEFT hand is empty. Several similar marked drafts already sit neatly inside. No food scraps, stains or dirt. Reserve a clean little plaque area next to the container. The last sheet has not been released yet. Physical scale lock: the same silver cloche has a clear inner diameter of at least 40 cm and an outer diameter of about 44 cm, large enough for a flat A4 sheet. Every lid rest is at least 45 by 45 cm; the service cart top is about 100 by 60 cm with separate serving and lid-rest zones. Keep all chair travel lanes free of cart wheels, tools and loose fabric. Crucial framing: same short sturdy auburn-haired chef, his face visible and hands/white document container large enough to read. A clean low matte-white ROUND cylinder container exactly around 24 cm wide and 13 cm tall, not a tall trash can. Several HALF-FOLDED A4 drafts rest orderly inside with abstract small red correction marks and colored tabs, but NO legible writing. Chef's anatomical RIGHT gloved hand holds the top edge of the last half-folded marked draft just ABOVE the open container; his anatomical LEFT gloved hand rests empty at his side, clearly separate. Paper not released yet. Container on a clean lower side stand next to preparation counter. Burgundy curtains, warm amber light, same physical restaurant. No judges in this camera crop, no food, bins, garbage or dirty paper, no printed label.",
+      "initial_reference_images": [
+        "C:/Users/wseok/.codex/generated_images/01a177f8-67d0-7781-b020-16f01b1ddc12/exec-612e2a01-6de6-490c-8168-73089e2c81bb.png"
+      ],
+      "rejected_candidate": {
+        "source": "C:/Users/wseok/.codex/generated_images/01a177f8-67d0-7781-b020-16f01b1ddc12/exec-0e444967-8190-4ae4-bb10-dffb7a271fe0.png",
+        "reason": "Wrong anatomical hand and dome added on counter"
+      },
+      "motion_camera_notes": {
+        "camera": "손·붉은 수정 흔적·기록통을 크게. 휴지통의 더러움보다 기록 양이 보이게.",
+        "start": "왼쪽 조리대 앞 CH 오른손에 빨간 수정 흔적 초안 한 장, 왼손은 비움. 작은 흰 기록통은 옆 낮은 받침 위 열림, 다른 초안 이미 담김.",
+        "main": "CH가 마지막 수정 초안을 그 기록통 안에 반듯하게 넣는다.",
+        "end": "초안은 통 안에 들어가고 CH 오른손 비움. 통은 깨끗한 종이 기록만 담음.",
+        "frame_holds": "시작과 끝에 편집 여유 확보. 영상 전체8초를 자동 본편 사용하지 않음.",
+        "audio": "음성대사/생성 자막/생성 음악 없음. BGM/SFX 후편집.",
+        "acceptance": "시작→행동→완료, 손·소품·바닥 접점 확인. 상세 프롬프트가 성공을 보장하지 않음."
+      },
+      "review_status": "three_independent_reviews_cross_checked_and_required_fixes_rechecked",
+      "artist_findings": "Corrected anatomical right hand holds draft before drop; left hand visibly empty; accidental dome removed; clean shallow document container and folded marked papers match story.",
+      "sha256": "2d4936c634702ddad4f0d4d55a24cdd3071bf5b17e9b77dc0b0b9bac0d91e132",
+      "actual_dimensions_px": [
+        1672,
+        941
+      ],
+      "requested_aspect_ratio": "16:9",
+      "image_is_before_action": true
+    },
+    {
+      "concept_id": "C07",
+      "scene_id": "S04",
+      "linked_cuts": [
+        "C07_K04"
+      ],
+      "image_path": "storyboards/2026-10-26_C01-C07-C10-rewrite-v15/images/C07/S04.png",
+      "generated_source": "C:/Users/wseok/.codex/generated_images/01a177f8-67d0-7781-b020-16f01b1ddc12/exec-5a9fe7df-62d1-4d1b-8029-ca997348d5c4.png",
+      "prompt": "Use case: ads-marketing. Image1 is exact cast/room/wardrobe reference; image2 is exact clean shallow white document container and paper reference. Generate one new wide first frame in the SAME ROOM, 16:9. Create one cinematic 16:9 horizontal first-frame key image for a later live-action commercial comedy video. This is the exact BEFORE-action frame, not a collage or a completed action. Preserve realistic anatomy, natural contact with surfaces, and a clean readable hierarchy. No subtitles, readable interface text, dates, venue information, logos or watermark-like graphics; specified text will be composited afterward.  Visible cast only: The central chief judge is a very broad-shouldered, heavy-built Black man in his 50s with a smooth bald head, round face and a short gray beard only below his chin, no glasses. Wine-red velvet dinner jacket, black shirt and black bow tie. | The chef is a short, sturdy East Asian man in his late 30s with a broad round clean-shaven face and short auburn side-parted hair. White double-breasted chef jacket, low square white chef cap, lavender long apron and white gloves. | The left judge is a short, stocky East Asian woman in her late 20s with round cheeks, clear attentive eyes and long straight platinum-blonde hair tied neatly low. Black satin tuxedo, wide white shirt collar and small deep-purple brooch. | The right judge is a very tall, thin European woman in her 60s with a long narrow face and nose, smooth high dark-brown chignon with one white streak, thin gold half-rim glasses. Dark-navy formal dress and a narrow silver-gray silk scarf. Scene: Medium-wide restaurant view with the broad bald judge still in his CENTRAL chair, empty hands near the table edge, looking toward the clean white revision container two short steps to screen-left. The ivory recipe card lies visibly on the table in front of him. The chef stands next to the container at the side station. The platinum-haired woman remains seated left and the older chignon-haired woman right, both with empty relaxed hands. Show the short unobstructed route from the central chair to the container, before any person stands or lifts it. Physical scale lock: the same silver cloche has a clear inner diameter of at least 40 cm and an outer diameter of about 44 cm, large enough for a flat A4 sheet. Every lid rest is at least 45 by 45 cm; the service cart top is about 100 by 60 cm with separate serving and lid-rest zones. Keep all chair travel lanes free of cart wheels, tools and loose fabric. The serving table is a single rectangle and the chef's clean side stand is just beyond its SCREEN-LEFT end; the same white document container sits on that stand full of neatly half-folded drafts with abstract red marks. Chef's two hands are EMPTY and relaxed. Central judge remains fully SEATED, not standing and not holding the container yet. Show enough polished floor and space BEHIND the judges' chairs for the central judge to step back and walk around the left judge, never through a table or another person. Keep identities recognizably identical to reference. Final white A4 with purple tab remains on its large plate in front, small ivory recipe card lies beside it. The one silver dome rests on the far-left empty plate/rest on the dining table. No food, no new people, no written labels, no rearranged seating.",
+      "reference_images": [
+        "C:/Users/wseok/.codex/generated_images/01a177f8-67d0-7781-b020-16f01b1ddc12/exec-612e2a01-6de6-490c-8168-73089e2c81bb.png",
+        "C:/Users/wseok/.codex/generated_images/01a177f8-67d0-7781-b020-16f01b1ddc12/exec-659f05f0-3403-466b-b6ea-4acdbb930300.png"
+      ],
+      "motion_camera_notes": {
+        "camera": "통과 JA 표정 전경, 뒤 두 심사위원은 각 한 번 시선만 따라옴. 4인 동시 복잡한 이동 없음.",
+        "start": "JA는 중앙 좌석에 앉아 왼쪽 기록통을 본다. 레시피 카드는 테이블에 놓였고 양손 비움. CH는 왼쪽 통 옆, JB/JC는 자기 자리.",
+        "main": "JA가 자리에서 일어나 왼쪽 두 걸음 거리의 기록통으로 가서 두 손으로 조심스럽게 들어 자기 가슴 가까이 가져온다. 다른 두 심사위원은 앉은 채 시선만 따라간다.",
+        "end": "JA 통 옆에 서서 양손 기록통 소유. CH는 과정을 궁금해한다는 사실을 알아차림. JB/JC 자리에서 몸을 약간 기울임.",
+        "frame_holds": "시작과 끝에 편집 여유 확보. 영상 전체8초를 자동 본편 사용하지 않음.",
+        "audio": "음성대사/생성 자막/생성 음악 없음. BGM/SFX 후편집.",
+        "acceptance": "시작→행동→완료, 손·소품·바닥 접점 확인. 상세 프롬프트가 성공을 보장하지 않음."
+      },
+      "review_status": "three_independent_reviews_cross_checked_and_required_fixes_rechecked",
+      "artist_findings": "All four identities/seat axis maintained, chief judge fully seated with empty hands; chef at document stand, recipe card on table; same single dome rests left; route toward stand must go around chair/table rather than through them.",
+      "sha256": "a5b06293c8b29a56888069f4266ff32a47782cf762c123e8d021d9bbe9adccca",
+      "actual_dimensions_px": [
+        1671,
+        941
+      ],
+      "requested_aspect_ratio": "16:9",
+      "image_is_before_action": true
+    },
+    {
+      "concept_id": "C07",
+      "scene_id": "S05",
+      "linked_cuts": [
+        "C07_K05"
+      ],
+      "image_path": "storyboards/2026-10-26_C01-C07-C10-rewrite-v15/images/C07/S05_v2.png",
+      "generated_source": "C:/Users/wseok/.codex/generated_images/01a177f8-67d0-7781-b020-16f01b1ddc12/exec-47357f2e-a076-4ee3-b0a6-53c74030084b.png",
+      "prompt": "Use case: precise-object-edit. Preserve this exact open-floor staging, cast, faces, clothes, positions, room, lighting and before-action poses. Make only these physical-space corrections: enlarge the EMPTY silver lid-rest on LEFT half of cart until its outside diameter is at least the SAME as the closed dome's outside diameter on RIGHT, with a small clear gap between them; the dome must later fit fully on that rest. Keep dome and concealed container unchanged. Place the entire cart and chef a little farther to screen-right, widening the EMPTY WOOD FLOOR gap from the older woman's shoes/forward chair lane to the nearest cart wheel, so her45cm forward scoot cannot hit the cart. If needed slightly widen camera framing to retain full cart and chef; do not change judge order or put a table in front of them. Cart is alongside the right side of the chair movement lanes, not crossing them. Keep chef both gloved hands on right push bar, all judges hands relaxed, closed dome RIGHT, empty rest LEFT. No text or new items. 16:9.",
+      "reference_images": [
+        "C:/Users/wseok/.codex/generated_images/01a177f8-67d0-7781-b020-16f01b1ddc12/exec-bb594f22-c56d-49b1-bd75-78ed3d8ee5ca.png"
+      ],
+      "initial_prompt": "Use case: compositing / identity-preserve. Make one photorealistic16:9 commercial storyboard FIRST FRAME, no collage. IMAGE1 is the authoritative ROOM GEOMETRY: three judges sit on individual burgundy chairs on OPEN WOOD FLOOR, BESIDE the dining table, with NO table between their chairs and the service cart. IMAGE2 supplies ONLY exact chef identity/clothes and exact silver cart/closed-dome design; DO NOT copy image2's table-behind-seated-judges arrangement. Reframe image1 slightly wider/rightward to show the full cart and chef. Preserve all cast faces, the blonde woman left / broad bald wine-jacket man middle / tall older navy-dressed woman right. This is the EARLIER setup after 'a moment later': all three chairs are back in their original aligned row, before any scoot, hands resting calmly in laps. Their legs, shoes and chair-floor contact are fully visible. The single white-linen dining table remains FAR SCREEN-RIGHT outside all chair travel lanes, NEVER across their knees. The same silver two-tier cart stands front-right of the row with at least80cm of empty floor between chairs and cart. Chef in white coat, low white cap, lavender apron and white gloves stands to the RIGHT side of cart with BOTH hands on its push bar, poised to move it a short distance, not touching dome. Keep every judge face unblocked. Cart top has the CLOSED silver44cm dome on its SCREEN-RIGHT serving half; the equally wide EMPTY lid rest is on SCREEN-LEFT half. Only one dome, white document container concealed beneath it except very thin bottom rim. No revealed papers on cart yet. No food, text, captions, extra furniture, extra person or extra hands. Warm restaurant lighting/deep burgundy background exactly as refs. The central gag's future chair movement takes place entirely in the open floor, not through or under a table.",
+      "initial_reference_images": [
+        "C:/Users/wseok/.codex/generated_images/01a177f8-67d0-7781-b020-16f01b1ddc12/exec-b7592c0f-ded7-454b-ad5f-0a28d18be038.png",
+        "C:/Users/wseok/.codex/generated_images/01a177f8-67d0-7781-b020-16f01b1ddc12/exec-f1fa266c-4307-45c6-a167-e96067deaf08.png"
+      ],
+      "rejected_candidate": {
+        "source": "C:/Users/wseok/.codex/generated_images/01a177f8-67d0-7781-b020-16f01b1ddc12/exec-bb594f22-c56d-49b1-bd75-78ed3d8ee5ca.png",
+        "reason": "Lid-rest scale and chair/cart clearance improved with targeted edit"
+      },
+      "motion_camera_notes": {
+        "camera": "정면 대칭 와이드. 첫 서빙의 위엄을 기록통에 그대로 적용.",
+        "start": "잠시 후. 세 심사위원의 의자는 긴 심사 테이블 옆 열린 바닥으로 이미 옮겨져 같은 후방 출발선에 있다. 테이블은 옆으로 비켜 있고 의자와 카트 사이를 가로막지 않는다. CH는 카트 뒤 양손 손잡이. 카트 오른쪽 서빙영역은 같은 흰 기록통을 닫힌 돔으로 덮고, 왼쪽은 빈 돔 받침이다.",
+        "main": "CH가 열린 바닥의 세 심사위원을 향해 카트를 짧게 밀어 정중히 멈춘다. 카트·테이블·의자의 상대 방향은 이후 S09까지 유지한다.",
+        "end": "카트가 열린 바닥의 심사위원 앞에서 정지. 의자는 같은 후방 출발선, 긴 테이블은 통로 옆. 오른쪽 돔 닫힘/왼쪽 돔받침 비어 있음.",
+        "frame_holds": "시작과 끝에 편집 여유 확보. 영상 전체8초를 자동 본편 사용하지 않음.",
+        "audio": "음성대사/생성 자막/생성 음악 없음. BGM/SFX 후편집.",
+        "acceptance": "시작→행동→완료, 손·소품·바닥 접점 확인. 상세 프롬프트가 성공을 보장하지 않음."
+      },
+      "review_status": "three_independent_reviews_cross_checked_and_required_fixes_rechecked",
+      "artist_findings": "All judges seated on open wood floor in original row; no table between them and cart. Cart clear to right, closed dome RIGHT and empty rest LEFT, chef both hands on pushbar, all foot/wheel contacts visible.",
+      "requested_aspect_ratio": "16:9",
+      "image_is_before_action": true,
+      "superseded_versions": [
+        {
+          "concept_id": "C07",
+          "scene_id": "S05",
+          "linked_cuts": [
+            "C07_K05"
+          ],
+          "image_path": "storyboards/2026-10-26_C01-C07-C10-rewrite-v15/images/C07/S05.png",
+          "generated_source": "C:/Users/wseok/.codex/generated_images/01a177f8-67d0-7781-b020-16f01b1ddc12/exec-f1fa266c-4307-45c6-a167-e96067deaf08.png",
+          "prompt": "Use case: precise-object-edit. Keep this exact photograph, all people/poses/identities/lighting/camera/cart/dome unchanged. Correct only THREE prop details. 1) On the dining table behind the cart, ONLY the central bald male judge has one flat white A4 final-result sheet with one small purple tab lying on his large plate, plus ONE small ivory recipe card lying FLAT next to that plate. Remove purple documents and upright ivory cards from both outer judges' place settings; those two side plates must be empty. There are no upright tent cards anywhere. 2) The empty silver lid-rest on the cart's LEFT must be large enough for the whole 44cm dome: enlarge that empty rest to at least the same outside diameter as the dome on the right, staying entirely in the LEFT half, without overlap. 3) The silver dome remains CLOSED at the RIGHT, one dome only. Do not add any new objects. No readable text. Photorealistic 16:9.",
+          "reference_images": [
+            "C:/Users/wseok/.codex/generated_images/01a177f8-67d0-7781-b020-16f01b1ddc12/exec-a5c559ce-e5d5-4e82-a4a0-a1273c88d044.png"
+          ],
+          "initial_prompt": "Use case: ads-marketing. Image1 locks all FOUR cast identities, wardrobe and room. Image2 locks clean document container shape and half-folded paper stock. Create a new single BEFORE-motion shot 16:9. Create one cinematic 16:9 horizontal first-frame key image for a later live-action commercial comedy video. This is the exact BEFORE-action frame, not a collage or a completed action. Preserve realistic anatomy, natural contact with surfaces, and a clean readable hierarchy. No subtitles, readable interface text, dates, venue information, logos or watermark-like graphics; specified text will be composited afterward.  Visible cast only: The chef is a short, sturdy East Asian man in his late 30s with a broad round clean-shaven face and short auburn side-parted hair. White double-breasted chef jacket, low square white chef cap, lavender long apron and white gloves. | The central chief judge is a very broad-shouldered, heavy-built Black man in his 50s with a smooth bald head, round face and a short gray beard only below his chin, no glasses. Wine-red velvet dinner jacket, black shirt and black bow tie. | The left judge is a short, stocky East Asian woman in her late 20s with round cheeks, clear attentive eyes and long straight platinum-blonde hair tied neatly low. Black satin tuxedo, wide white shirt collar and small deep-purple brooch. | The right judge is a very tall, thin European woman in her 60s with a long narrow face and nose, smooth high dark-brown chignon with one white streak, thin gold half-rim glasses. Dark-navy formal dress and a narrow silver-gray silk scarf. Scene: Symmetrical wide view of the same luxurious judging room after a short preparation interval. The three judges sit formally back in their original seats: platinum-haired woman left, broad bald man center, tall chignon-haired woman right. The chef stands behind a modest silver two-tier service cart, both gloved hands on its push bar. On its RIGHT-hand serving zone, the SAME silver cloche covers the SAME small white draft container; the CART ITSELF is centered in the image; a narrow white lower rim is visible. A flat empty lid rest is at the cart's left. The cart is just short of its final centered position, wheels aligned toward the table. Physical scale lock: the same silver cloche has a clear inner diameter of at least 40 cm and an outer diameter of about 44 cm, large enough for a flat A4 sheet. Every lid rest is at least 45 by 45 cm; the service cart top is about 100 by 60 cm with separate serving and lid-rest zones. Keep all chair travel lanes free of cart wheels, tools and loose fabric. Layout lock: the cart itself is centered in the camera frame. Its RIGHT serving zone holds the container and the 44cm cloche; its LEFT, separate, unobstructed 45x45cm rest is reserved for setting down that cloche. These two zones never overlap. Wide full-room composition including cart wheels and polished wood floor. The cart is in foreground and judges behind dining table. Keep chef slightly to screen-left behind cart's push bar so the central judge's face is NOT occluded. Chef has both gloved hands on push bar, not touching the dome. Service cart has plain silver metal two-tier open frame, top 100x60 cm, clearly separated LEFT empty flat 45 cm lid rest and RIGHT 44 cm CLOSED dome. The white container is completely concealed beneath dome except subtle white bottom rim. The dome has been moved off dining table: there is ONLY ONE dome in the entire image, on cart RIGHT. Dining table keeps large plate with flat A4 purple tab and small blank ivory card. All three judges reset to original aligned seated positions, JB left, JA center, JC right, calm eyes on cart. Leave empty travel lanes between cart and chairs. No text, no signage, no extra people, no food.",
+          "initial_reference_images": [
+            "C:/Users/wseok/.codex/generated_images/01a177f8-67d0-7781-b020-16f01b1ddc12/exec-612e2a01-6de6-490c-8168-73089e2c81bb.png",
+            "C:/Users/wseok/.codex/generated_images/01a177f8-67d0-7781-b020-16f01b1ddc12/exec-659f05f0-3403-466b-b6ea-4acdbb930300.png"
+          ],
+          "rejected_candidate": {
+            "source": "C:/Users/wseok/.codex/generated_images/01a177f8-67d0-7781-b020-16f01b1ddc12/exec-a5c559ce-e5d5-4e82-a4a0-a1273c88d044.png",
+            "reason": "Unwanted duplicate papers/cards at both outer place settings; lid rest undersized"
+          },
+          "motion_camera_notes": {
+            "camera": "기본 고정. 정면 대칭 와이드. 첫 서빙의 위엄을 기록통에 그대로 적용.",
+            "start": "첫 프레임의 동작 전 상태에서 시작",
+            "main": "CH가 카트를 테이블 앞 중앙으로 짧게 밀어 정중히 멈춘다.",
+            "end": "카트 자체는 화면 중앙에 정지, 돔 덮인 통은 카트 상판 오른쪽 서빙영역. 세 사람은 같은 격식 자세로 기다림.",
+            "frame_holds": "시작과 끝에 편집 여유 확보. 영상 전체8초를 자동 본편 사용하지 않음.",
+            "audio": "음성대사/생성 자막/생성 음악 없음. BGM/SFX 후편집.",
+            "acceptance": "시작→행동→완료, 손·소품·바닥 접점 확인. 상세 프롬프트가 성공을 보장하지 않음."
+          },
+          "review_status": "artist_actual_image_checked; pending_independent_review",
+          "artist_findings": "Cart center, closed dome in RIGHT zone, matching empty rest LEFT, chef hands on push bar; table paper/card only at central judge after correction; all wheels grounded; three judges reset.",
+          "sha256": "1634b2dae71000ae28e4cf4da150058a1d109e3844be6efd292c726dfa91fc99",
+          "actual_dimensions_px": [
+            1672,
+            941
+          ],
+          "requested_aspect_ratio": "16:9",
+          "image_is_before_action": true
+        }
+      ],
+      "revision_reason": "B-I001/A-C cross: change S05 onward to consistent open-floor seating beside dining table",
+      "sha256": "cbebd32c4e2b28e5638ac0b90ebdba56d4b8eb6a76fb1929b3a34338b23814ad",
+      "actual_dimensions_px": [
+        1672,
+        941
+      ]
+    },
+    {
+      "concept_id": "C07",
+      "scene_id": "S06",
+      "linked_cuts": [
+        "C07_K06"
+      ],
+      "image_path": "storyboards/2026-10-26_C01-C07-C10-rewrite-v15/images/C07/S06_v2.png",
+      "generated_source": "C:/Users/wseok/.codex/generated_images/01a177f8-67d0-7781-b020-16f01b1ddc12/exec-a7690b68-0950-42cc-b31f-bebb71f1cbec.png",
+      "prompt": "Use case: precise-object-edit / identity-preserve. Create a separate16:9 FIRST FRAME for the next action from this exact photo. Keep the precise ROOM GEOMETRY, three chairs, all judges' poses and original aligned rear positions, empty floor, cart and its wheels, warm light, faces and costumes UNCHANGED. The cart is now parked at this same front-right spot. Change only the chef's action preparation: he takes one small half-step inward from the push bar and bends naturally toward the RIGHT closed dome. Both his white-gloved hands now hover a few centimeters above the dome's top handle, just BEFORE touching/lifting it. No stretched arms. Hands are no longer on the pushbar. Keep the dome COMPLETELY CLOSED on cart RIGHT; EMPTY equally large lid rest on cart LEFT. White shallow revision-paper container remains concealed, no paper exposed. Keep ALL three judges sitting in the OPEN FLOOR area left of cart, never put them behind a dining table. No table or fabric between chairs and cart. All feet/wheels grounded, no object swap, no new items, no text, no duplicate hand. Preserve original wide composition so clear travel floor is visible.",
+      "reference_images": [
+        "C:/Users/wseok/.codex/generated_images/01a177f8-67d0-7781-b020-16f01b1ddc12/exec-47357f2e-a076-4ee3-b0a6-53c74030084b.png"
+      ],
+      "motion_camera_notes": {
+        "camera": "첫 K01과 동일한 낮은 서빙 구도. 접시의 완성작이 작은 통으로 바뀐 시각적 라임. S05 이후 같은 열린 바닥 배치. 긴 심사 테이블은 옆으로 비켜 있고 의자→카트 이동 통로에 없다. 카메라가 바뀌어도 누구도 테이블 뒤로 돌아가지 않는다.",
+        "start": "화면 중앙에 정지한 카트의 상판 오른쪽 서빙영역 돔, CH 양손이 돔 손잡이를 잡기 직전. 뒤 심사위원들 아직 차분히 앉음.",
+        "main": "CH가 돔을 수직으로 들어 통의 수정 초안들을 다시 공개하고 왼쪽 받침에 내려놓는다.",
+        "end": "수정 초안 통이 최고급 카트 상판 오른쪽 서빙영역에 공개, 돔 왼쪽 받침. CH 양손 비움.",
+        "frame_holds": "시작과 끝에 편집 여유 확보. 영상 전체8초를 자동 본편 사용하지 않음.",
+        "audio": "음성대사/생성 자막/생성 음악 없음. BGM/SFX 후편집.",
+        "acceptance": "시작→행동→완료, 손·소품·바닥 접점 확인. 상세 프롬프트가 성공을 보장하지 않음."
+      },
+      "review_status": "three_independent_reviews_cross_checked_and_required_fixes_rechecked",
+      "artist_findings": "Same open-floor chairs/cart locations as S05_v2; no table between. Chef hands now approach top handle without lifting closed dome; rest still empty LEFT, domeRIGHT. All cast and floor contacts maintained.",
+      "requested_aspect_ratio": "16:9",
+      "image_is_before_action": true,
+      "superseded_versions": [
+        {
+          "concept_id": "C07",
+          "scene_id": "S06",
+          "linked_cuts": [
+            "C07_K06"
+          ],
+          "image_path": "storyboards/2026-10-26_C01-C07-C10-rewrite-v15/images/C07/S06.png",
+          "generated_source": "C:/Users/wseok/.codex/generated_images/01a177f8-67d0-7781-b020-16f01b1ddc12/exec-64839814-d9d3-4273-8bb4-2e4b091d983d.png",
+          "prompt": "Use case: ads-marketing, identity-preserve continuity frame. Use image1 as exact locked cart, props, cast, room and seating reference. Make the NEXT first-frame camera setup, 16:9, slightly lower and closer medium-wide framing, with cart top and all faces visible. Create one cinematic 16:9 horizontal first-frame key image for a later live-action commercial comedy video. This is the exact BEFORE-action frame, not a collage or a completed action. Preserve realistic anatomy, natural contact with surfaces, and a clean readable hierarchy. No subtitles, readable interface text, dates, venue information, logos or watermark-like graphics; specified text will be composited afterward.  Visible cast only: The chef is a short, sturdy East Asian man in his late 30s with a broad round clean-shaven face and short auburn side-parted hair. White double-breasted chef jacket, low square white chef cap, lavender long apron and white gloves. | The central chief judge is a very broad-shouldered, heavy-built Black man in his 50s with a smooth bald head, round face and a short gray beard only below his chin, no glasses. Wine-red velvet dinner jacket, black shirt and black bow tie. | The left judge is a short, stocky East Asian woman in her late 20s with round cheeks, clear attentive eyes and long straight platinum-blonde hair tied neatly low. Black satin tuxedo, wide white shirt collar and small deep-purple brooch. | The right judge is a very tall, thin European woman in her 60s with a long narrow face and nose, smooth high dark-brown chignon with one white streak, thin gold half-rim glasses. Dark-navy formal dress and a narrow silver-gray silk scarf. Scene: Low medium-wide view matching the first serving angle. The service cart is stationary with the silver cloche covering the small white draft container in the cart top's RIGHT-hand serving zone; the CART ITSELF is centered in the image. The chef's two gloved hands are just approaching the cloche handle, before lifting. The lid rest on the cart's left is empty. Behind it the three formally seated judges watch in still anticipation. Keep the top and sides of the dome and the lower white rim clearly visible; no handwritten notes or new food props. Physical scale lock: the same silver cloche has a clear inner diameter of at least 40 cm and an outer diameter of about 44 cm, large enough for a flat A4 sheet. Every lid rest is at least 45 by 45 cm; the service cart top is about 100 by 60 cm with separate serving and lid-rest zones. Keep all chair travel lanes free of cart wheels, tools and loose fabric. Layout lock: the cart itself is centered in the camera frame. Its RIGHT serving zone holds the container and the 44cm cloche; its LEFT, separate, unobstructed 45x45cm rest is reserved for setting down that cloche. These two zones never overlap. The cart has now parked; its wheels do not move. Chef is still left of cart but has taken a small step closer to the dome so his two white-gloved hands can comfortably hover 2–3cm above its TOP HANDLE, not touching or lifting yet. Lean naturally, no stretched arms. Keep dome CLOSED on RIGHT and empty equally large lid-rest LEFT, never swap these sides. The same white shallow document container is hidden entirely under dome except subtle lower white rim, no pages visible yet. Chef face should not cover central judge's face. Keep side plates empty and only central judge's flat A4 with tiny purple tab plus flat small ivory card. No new papers or objects, no writing, no fake labels, no captions.",
+          "reference_images": [
+            "C:/Users/wseok/.codex/generated_images/01a177f8-67d0-7781-b020-16f01b1ddc12/exec-f1fa266c-4307-45c6-a167-e96067deaf08.png"
+          ],
+          "motion_camera_notes": {
+            "camera": "기본 고정. 첫 K01과 동일한 낮은 서빙 구도. 접시의 완성작이 작은 통으로 바뀐 시각적 라임.",
+            "start": "첫 프레임의 동작 전 상태에서 시작",
+            "main": "CH가 돔을 수직으로 들어 통의 수정 초안들을 다시 공개하고 왼쪽 받침에 내려놓는다.",
+            "end": "수정 초안 통이 최고급 카트 상판 오른쪽 서빙영역에 공개, 돔 왼쪽 받침. CH 양손 비움.",
+            "frame_holds": "시작과 끝에 편집 여유 확보. 영상 전체8초를 자동 본편 사용하지 않음.",
+            "audio": "음성대사/생성 자막/생성 음악 없음. BGM/SFX 후편집.",
+            "acceptance": "시작→행동→완료, 손·소품·바닥 접점 확인. 상세 프롬프트가 성공을 보장하지 않음."
+          },
+          "review_status": "artist_actual_image_checked; pending_independent_review",
+          "artist_findings": "Parked same cart, both gloves approaching handle without lifting, dome RIGHT/lid rest LEFT and single central result paper maintained. Chef took small inward step from push bar; judging faces visible.",
+          "sha256": "b037412df1fddc4aedfab2865a8f21d8fceb52eda52707f7c66229aa30955459",
+          "actual_dimensions_px": [
+            1672,
+            940
+          ],
+          "requested_aspect_ratio": "16:9",
+          "image_is_before_action": true
+        }
+      ],
+      "revision_reason": "B-I001/A-C cross: lock same open-floor seating as S05_v2",
+      "sha256": "4ef04af4dc9928dadd2d560cd71075a0161be028b40459faddbef9b8ec6e19b3",
+      "actual_dimensions_px": [
+        1672,
+        941
+      ]
+    },
+    {
+      "concept_id": "C07",
+      "scene_id": "S07",
+      "linked_cuts": [
+        "C07_K07"
+      ],
+      "image_path": "storyboards/2026-10-26_C01-C07-C10-rewrite-v15/images/C07/S07_v3.png",
+      "generated_source": "C:/Users/wseok/.codex/generated_images/01a177f8-67d0-7781-b020-16f01b1ddc12/exec-1e808e1b-742e-413a-8247-225ea812c1fd.png",
+      "prompt": "Use case: precise-object-edit. IMAGE1 is target; IMAGE2 shows the corrected SMALL white document-container real-world scale relative to silver dome. Preserve every person, pose, chair, empty floor, cart, dome, camera, light and background from IMAGE1. Change only white container and its papers at the cart RIGHT: reduce them together to about70percent of current width and height, keeping its base in contact with the same right serving zone. The cylinder is24cm diameter13cm high; the44cm dome beside it must be able to cover it and all folded papers. Contained half-folded red-marked drafts protrude only a little above the rim; no paper top taller than the dome cap excluding knob. Match the compact container-to-dome ratio in IMAGE2, not a large bucket. Keep same white matte cylinder and generic red correction marks/tabs. One container, one dome resting LEFT; no text or extra item. No geometry/pose changes,16:9.",
+      "reference_images": [
+        "C:/Users/wseok/.codex/generated_images/01a177f8-67d0-7781-b020-16f01b1ddc12/exec-37c025f3-88e7-4e71-87bf-303f0956e7e8.png",
+        "C:/Users/wseok/.codex/generated_images/01a177f8-67d0-7781-b020-16f01b1ddc12/exec-9b662520-1c1c-4142-b43f-0d50f0a749ee.png"
+      ],
+      "motion_camera_notes": {
+        "camera": "측면 3/4 미디엄, 얼굴·좌판·의자 다리·발 접점까지 보임. S05 이후 같은 열린 바닥 배치. 긴 심사 테이블은 옆으로 비켜 있고 의자→카트 이동 통로에 없다. 카메라가 바뀌어도 누구도 테이블 뒤로 돌아가지 않는다.",
+        "start": "중앙 JA 의자는 S05에서 정한 열린 바닥의 출발선. 양손 좌판 양옆, 발은 바닥. 뒤의 JB·JC도 같은 출발선에 정지. 공개된 기록통은 앞 카트 오른쪽, 돔은 카트 왼쪽 받침.",
+        "main": "JA가 의자를 한 번 짧게 약20cm 앞으로 끈다. 1.2초 안에 완료되는 명확한 한 번의 빠른 이동.",
+        "end": "JA 의자 약20cm 앞으로, 엄숙한 표정. 이동 완료·바닥 접촉.",
+        "frame_holds": "시작과 끝에 편집 여유 확보. 영상 전체8초를 자동 본편 사용하지 않음.",
+        "audio": "음성대사/생성 자막/생성 음악 없음. BGM/SFX 후편집.",
+        "acceptance": "시작→행동→완료, 손·소품·바닥 접점 확인. 상세 프롬프트가 성공을 보장하지 않음."
+      },
+      "review_status": "three_independent_reviews_cross_checked_and_required_fixes_rechecked",
+      "artist_findings": "Actual final image opened: chief still seated before first scoot, near hand seat grip visible, far hand body-occluded; feet/chair grounded and open floor to cart. Removed dome LEFT, compact open white document container RIGHT; reduced container/papers make coverage by dome visually plausible. Exact physical centimetres cannot be measured from this image.",
+      "requested_aspect_ratio": "16:9",
+      "image_is_before_action": true,
+      "superseded_versions": [
+        {
+          "concept_id": "C07",
+          "scene_id": "S07",
+          "linked_cuts": [
+            "C07_K07"
+          ],
+          "image_path": "storyboards/2026-10-26_C01-C07-C10-rewrite-v15/images/C07/S07_v2.png",
+          "generated_source": "C:/Users/wseok/.codex/generated_images/01a177f8-67d0-7781-b020-16f01b1ddc12/exec-37c025f3-88e7-4e71-87bf-303f0956e7e8.png",
+          "prompt": "Use case: ads-marketing / identity-preserve. Generate one16:9 FIRST FRAME of the central judge's upcoming chair scoot. IMAGE1 is authoritative world geometry and judge identity: chairs on OPEN WOOD FLOOR beside dining table, silver cart to their front-right, NEVER a dining table between chair and cart. IMAGE2 supplies ONLY the small shallow matte-white document container and folded red-marked drafts, not its counter/chef. Camera cuts to a closer three-quarter view of the bald heavy Black male chief judge, wine velvet jacket/black shirt/bow tie/gray chin beard, showing his full chair, both shoes and floor gap. He is still in the ORIGINAL BACK POSITION, has not scooted yet. Both hands visibly grip the left and right edges of his burgundy padded chair SEAT, one on each side; both feet planted. Respectful intense gaze at the records. The two women and chef are OUTSIDE this tighter crop, not extra background figures. In foreground-right show the SAME STATIONARY silver cart corner at same world location; white paper container now OPEN on cart RIGHT and single removed silver dome rests on cart LEFT. Keep the cart entirely to right of his clear forward floor lane. No dining table or white linen anywhere between him and the cart or behind his knees; dining table is elsewhere farther RIGHT, may stay out of frame. Do not move chair into a different place or rotate it to face a new direction. Preserve wood floor, burgundy curtains and warm light. No text, no food, no new chairs, no body distortion, no floating feet.",
+          "reference_images": [
+            "C:/Users/wseok/.codex/generated_images/01a177f8-67d0-7781-b020-16f01b1ddc12/exec-47357f2e-a076-4ee3-b0a6-53c74030084b.png",
+            "C:/Users/wseok/.codex/generated_images/01a177f8-67d0-7781-b020-16f01b1ddc12/exec-659f05f0-3403-466b-b6ea-4acdbb930300.png"
+          ],
+          "motion_camera_notes": {
+            "camera": "기본 고정. 측면 3/4 미디엄, 얼굴·좌판·의자 다리·발 접점까지 보임.",
+            "start": "첫 프레임의 동작 전 상태에서 시작",
+            "main": "JA가 의자를 한 번 짧게 약20cm 앞으로 끈다. 1.2초 안에 완료되는 명확한 한 번의 빠른 이동.",
+            "end": "JA 의자 약20cm 앞으로, 엄숙한 표정. 이동 완료·바닥 접촉.",
+            "frame_holds": "시작과 끝에 편집 여유 확보. 영상 전체8초를 자동 본편 사용하지 않음.",
+            "audio": "음성대사/생성 자막/생성 음악 없음. BGM/SFX 후편집.",
+            "acceptance": "시작→행동→완료, 손·소품·바닥 접점 확인. 상세 프롬프트가 성공을 보장하지 않음."
+          },
+          "review_status": "artist_actual_image_checked; pending_independent_recheck",
+          "artist_findings": "Chief seated before first scoot on open wood floor, grounded shoes and chair legs; clear floor to stationary cart at right. Open records RIGHT and removed domeLEFT. Near seat grip visible; far hand partly occluded by body, not claimed fully observed.",
+          "requested_aspect_ratio": "16:9",
+          "image_is_before_action": true,
+          "superseded_versions": [
+            {
+              "concept_id": "C07",
+              "scene_id": "S07",
+              "linked_cuts": [
+                "C07_K07"
+              ],
+              "image_path": "storyboards/2026-10-26_C01-C07-C10-rewrite-v15/images/C07/S07.png",
+              "generated_source": "C:/Users/wseok/.codex/generated_images/01a177f8-67d0-7781-b020-16f01b1ddc12/exec-26e323b0-5865-4cd7-a951-350f48f2fb8c.png",
+              "prompt": "Use case: ads-marketing. Image1 is exact central judge's face, body, wine velvet costume and restaurant reference. Image2 is exact shallow white revision-paper container reference. Image3 is exact silver cart reference. Make a NEW camera setup, not collage; 16:9 landscape. Create one cinematic 16:9 horizontal first-frame key image for a later live-action commercial comedy video. This is the exact BEFORE-action frame, not a collage or a completed action. Preserve realistic anatomy, natural contact with surfaces, and a clean readable hierarchy. No subtitles, readable interface text, dates, venue information, logos or watermark-like graphics; specified text will be composited afterward.  Visible cast only: The central chief judge is a very broad-shouldered, heavy-built Black man in his 50s with a smooth bald head, round face and a short gray beard only below his chin, no glasses. Wine-red velvet dinner jacket, black shirt and black bow tie. Scene: Three-quarter side medium shot of the broad bald judge alone as the active subject. He sits upright on a simple padded dining chair a modest distance from the table, both hands gripping the sides of the seat, feet planted on the floor, before any forward scoot. The open white draft container on the stationary cart is partly visible ahead. Show chair legs, shoes and face together. His expression is intensely respectful. No pen, notebook, eating utensil or body distortion. Physical scale lock: the same silver cloche has a clear inner diameter of at least 40 cm and an outer diameter of about 44 cm, large enough for a flat A4 sheet. Every lid rest is at least 45 by 45 cm; the service cart top is about 100 by 60 cm with separate serving and lid-rest zones. Keep all chair travel lanes free of cart wheels, tools and loose fabric. Three-quarter side view, show the entire seated man and his chair, all four chair legs and shoes contacting polished floor. Chair is dark wood with burgundy padded seat/back matching upscale dining room. He is still 60cm behind the dining table edge before moving, both hands grip the left and right edges of the SEAT, not armrests. Knees clear of table. The table with white linen continues diagonally at screen-right; the stationary cart and OPEN shallow white container full of red-marked drafts appear at far foreground-right, out of the man's forward travel path. The single removed dome rests on the cart LEFT zone (can be partially cropped), container stays RIGHT. Only man in this crop; chef and women out of shot, not erased from room. No text, no giant bin, no added chair, no seated body floating, no tablecloth blocking the floor.",
+              "reference_images": [
+                "C:/Users/wseok/.codex/generated_images/01a177f8-67d0-7781-b020-16f01b1ddc12/exec-612e2a01-6de6-490c-8168-73089e2c81bb.png",
+                "C:/Users/wseok/.codex/generated_images/01a177f8-67d0-7781-b020-16f01b1ddc12/exec-659f05f0-3403-466b-b6ea-4acdbb930300.png",
+                "C:/Users/wseok/.codex/generated_images/01a177f8-67d0-7781-b020-16f01b1ddc12/exec-f1fa266c-4307-45c6-a167-e96067deaf08.png"
+              ],
+              "motion_camera_notes": {
+                "camera": "기본 고정. 측면 3/4 미디엄, 얼굴·좌판·의자 다리·발 접점까지 보임.",
+                "start": "첫 프레임의 동작 전 상태에서 시작",
+                "main": "JA가 의자를 한 번 짧게 약20cm 앞으로 끈다. 1.2초 안에 완료되는 명확한 한 번의 빠른 이동.",
+                "end": "JA 의자 약20cm 앞으로, 엄숙한 표정. 이동 완료·바닥 접촉.",
+                "frame_holds": "시작과 끝에 편집 여유 확보. 영상 전체8초를 자동 본편 사용하지 않음.",
+                "audio": "음성대사/생성 자막/생성 음악 없음. BGM/SFX 후편집.",
+                "acceptance": "시작→행동→완료, 손·소품·바닥 접점 확인. 상세 프롬프트가 성공을 보장하지 않음."
+              },
+              "review_status": "artist_actual_image_checked; pending_independent_review",
+              "artist_findings": "Chief judge seated before scoot, near hand visibly on seat/far hand partly occluded; grounded chair legs and shoes, clear short forward gap. Open document container cart RIGHT, removed dome LEFT. No added written text.",
+              "sha256": "665dadfc5c8faf1260d598ab417c39a432241b5b9e3915b74bc3e9f17fd13cf5",
+              "actual_dimensions_px": [
+                1672,
+                941
+              ],
+              "requested_aspect_ratio": "16:9",
+              "image_is_before_action": true
+            }
+          ],
+          "revision_reason": "B-I001/A-C cross: keep chief judge in same open-floor row and cart location; remove intervening table"
+        }
+      ],
+      "revision_reason": "B-I001 shared open-floor staging; subsequent local self-check reduced oversized container and papers while keeping geometry and pose.",
+      "sha256": "6b0d47370d165f968b2d2d86cdeace403e517f0df0ce17eafa467efff933e264",
+      "actual_dimensions_px": [
+        1672,
+        941
+      ]
+    },
+    {
+      "concept_id": "C07",
+      "scene_id": "S08",
+      "linked_cuts": [
+        "C07_K08"
+      ],
+      "image_path": "storyboards/2026-10-26_C01-C07-C10-rewrite-v15/images/C07/S08_v2.png",
+      "generated_source": "C:/Users/wseok/.codex/generated_images/01a177f8-67d0-7781-b020-16f01b1ddc12/exec-9b662520-1c1c-4142-b43f-0d50f0a749ee.png",
+      "prompt": "Use case: precise-object-edit. Change ONLY the physical size of the white document container AND its contained papers on the cart RIGHT. Keep every pixel outside that object region the same: people, chairs, floor, cart, dome on LEFT, camera, lighting. The white container is a SMALL shallow24cm diameter x13cm high cylinder. The silver dome beside it is44cm wide, so the container must be approximately HALF THE DOME'S WIDTH, not equal width. Reduce the current container width to about58percent and reduce height/paper bundle proportionately, staying centered in the RIGHT serving zone with base still touching cart top. Papers are HALF-FOLDED marked drafts, compact, with only a little protruding above rim; their top is LOWER than the dome's top excluding its knob so dome could physically cover them. Preserve white cylinder design, red abstract revision marks and small colored tabs. There is still one open container, one dome, no additional objects. Do NOT enlarge dome or move cart/chairs. Photorealistic16:9.",
+      "reference_images": [
+        "C:/Users/wseok/.codex/generated_images/01a177f8-67d0-7781-b020-16f01b1ddc12/exec-05b7248d-5898-4f3f-ac15-56733d54036f.png"
+      ],
+      "motion_camera_notes": {
+        "camera": "JB 측면 미디엄. JA는 배경 고정, 동시 이동 없음. S05 이후 같은 열린 바닥 배치. 긴 심사 테이블은 옆으로 비켜 있고 의자→카트 이동 통로에 없다. 카메라가 바뀌어도 누구도 테이블 뒤로 돌아가지 않는다.",
+        "start": "왼쪽 JB 의자는 아직 뒤. JB 양손 좌판, 발 바닥. 흐린 뒤 중앙 JA는 이미 한 칸 가까워진 자세로 정지.",
+        "main": "JB가 의자를 한 번 약20cm 앞으로 끌어 JA와 비슷한 선에 맞춘다. 1.2초의 두 번째 박.",
+        "end": "JB도 앞으로, 두 사람 같은 줄. JC는 아직 뒤.",
+        "frame_holds": "시작과 끝에 편집 여유 확보. 영상 전체8초를 자동 본편 사용하지 않음.",
+        "audio": "음성대사/생성 자막/생성 음악 없음. BGM/SFX 후편집.",
+        "acceptance": "시작→행동→완료, 손·소품·바닥 접점 확인. 상세 프롬프트가 성공을 보장하지 않음."
+      },
+      "review_status": "three_independent_reviews_cross_checked_and_required_fixes_rechecked",
+      "artist_findings": "Actual final image opened: both judges on open wood floor with no dining table between chair and cart. JB foreground left still at back position before scoot, near hand on seat; JA already ahead and hands clasped. Both chairs/shoes grounded. Single removed dome LEFT and open compact white document container RIGHT, paper red marks generic with no readable caption. Exact20cm displacement not physically measured.",
+      "requested_aspect_ratio": "16:9",
+      "image_is_before_action": true,
+      "superseded_versions": [
+        {
+          "concept_id": "C07",
+          "scene_id": "S08",
+          "linked_cuts": [
+            "C07_K08"
+          ],
+          "image_path": "storyboards/2026-10-26_C01-C07-C10-rewrite-v15/images/C07/S08.png",
+          "generated_source": "C:/Users/wseok/.codex/generated_images/01a177f8-67d0-7781-b020-16f01b1ddc12/exec-18fae931-c00a-48c9-8a82-13c73c073c77.png",
+          "prompt": "Use case: ads-marketing. Image1 locks platinum-haired left judge identity/wardrobe and central judge identity. Image2 locks chair design, floor, cart and spatial camera direction. Make next camera angle in same room, single16:9 before-action image. Create one cinematic 16:9 horizontal first-frame key image for a later live-action commercial comedy video. This is the exact BEFORE-action frame, not a collage or a completed action. Preserve realistic anatomy, natural contact with surfaces, and a clean readable hierarchy. No subtitles, readable interface text, dates, venue information, logos or watermark-like graphics; specified text will be composited afterward.  Visible cast only: The left judge is a short, stocky East Asian woman in her late 20s with round cheeks, clear attentive eyes and long straight platinum-blonde hair tied neatly low. Black satin tuxedo, wide white shirt collar and small deep-purple brooch. | The central chief judge is a very broad-shouldered, heavy-built Black man in his 50s with a smooth bald head, round face and a short gray beard only below his chin, no glasses. Wine-red velvet dinner jacket, black shirt and black bow tie. Scene: Three-quarter side medium shot of the platinum-haired young female judge in a black satin tuxedo. She still sits at her original rear chair position, both hands on the seat sides, feet planted, poised to scoot once toward the open draft container. In soft background the broad bald judge has ALREADY moved his chair closer and remains perfectly still. Keep the container stationary, chair legs visible, and the woman's expression earnest rather than caricatured. No writing tools. Physical scale lock: the same silver cloche has a clear inner diameter of at least 40 cm and an outer diameter of about 44 cm, large enough for a flat A4 sheet. Every lid rest is at least 45 by 45 cm; the service cart top is about 100 by 60 cm with separate serving and lid-rest zones. Keep all chair travel lanes free of cart wheels, tools and loose fabric. The young stocky East Asian blonde judge is foreground LEFT, seated upright on matching burgundy padded dark-wood chair, both empty hands visibly grip the seat sides, feet planted, still at ORIGINAL rear position before moving. The broad bald chief judge appears softly in background RIGHT, already 20 cm closer toward the table/container than her chair, fully stationary. Their chairs remain a single row across the judging table, not randomly facing each other. Camera is on the LEFT end of the table looking diagonally along the row, thus her chair nearest camera and male chair farther right. Show both her shoes and all visible chair legs. Same white linen table and stationary cart edge with white revision container are ahead to screen-right, leaving clear floor gap and no intersecting wheels. Chef and older woman outside crop. Calm intent expressions, no text, no pen, no extra limbs, no paper duplicates.",
+          "reference_images": [
+            "C:/Users/wseok/.codex/generated_images/01a177f8-67d0-7781-b020-16f01b1ddc12/exec-612e2a01-6de6-490c-8168-73089e2c81bb.png",
+            "C:/Users/wseok/.codex/generated_images/01a177f8-67d0-7781-b020-16f01b1ddc12/exec-26e323b0-5865-4cd7-a951-350f48f2fb8c.png"
+          ],
+          "motion_camera_notes": {
+            "camera": "기본 고정. JB 측면 미디엄. JA는 배경 고정, 동시 이동 없음.",
+            "start": "첫 프레임의 동작 전 상태에서 시작",
+            "main": "JB가 의자를 한 번 약20cm 앞으로 끌어 JA와 비슷한 선에 맞춘다. 1.2초의 두 번째 박.",
+            "end": "JB도 앞으로, 두 사람 같은 줄. JC는 아직 뒤.",
+            "frame_holds": "시작과 끝에 편집 여유 확보. 영상 전체8초를 자동 본편 사용하지 않음.",
+            "audio": "음성대사/생성 자막/생성 음악 없음. BGM/SFX 후편집.",
+            "acceptance": "시작→행동→완료, 손·소품·바닥 접점 확인. 상세 프롬프트가 성공을 보장하지 않음."
+          },
+          "review_status": "artist_actual_image_checked; pending_independent_review",
+          "artist_findings": "Left judge before scoot, central judge already forward in background; near hand seat grip clearly visible, far hand partly occluded; grounded shoes/chair legs, same cart and opened document container.",
+          "sha256": "6981c922e932138de179f25686d9c1827de0b122f70481084a2eb97ffdded83b",
+          "actual_dimensions_px": [
+            1672,
+            941
+          ],
+          "requested_aspect_ratio": "16:9",
+          "image_is_before_action": true
+        }
+      ],
+      "generation_chain": [
+        {
+          "prompt": "Use case: ads-marketing / identity-preserve. Create one new16:9 FIRST FRAME for the second chair scoot, same world and same room. IMAGE1 provides exact platinum-blonde female left judge identity and the OPEN-FLOOR chair row. IMAGE2 provides exact stationary cart with OPEN white paper container on RIGHT and removed single dome on LEFT, chief judge and chair design. Composition: three-quarter medium-wide from left end of the row, show the blonde judge in foreground-left and bald wine-jacket chief judge farther center-right, both on the SAME completely OPEN WOOD FLOOR. The blonde woman's chair is still at its ORIGINAL BACK position, before moving, BOTH hands grip her seat sides and both feet are planted. The chief judge has JUST ALREADY moved his own chair20cm forward toward the records and sits still, his hands now relaxed/clasped rather than preparing another move. His chair is visibly slightly ahead of hers in their common forward direction. Both face the stationary cart on front-right. The other older woman and chef remain outside this tighter crop. Keep the table entirely outside the chair/cart path; absolutely NO white-linen table behind either person's knees and NO dining table between them and cart. Show chair legs, both sets of shoes, and empty floor gap; cart stays safely off their motion lanes at screen-right. Retain exact faces, dark burgundy chairs, blonde woman's black satin tuxedo/white collar/purple brooch, chief's velvet coat and chin beard. No extra furniture, new objects, text, speech, food or duplicated people. The shot is before the blonde moves, not the final reaction.",
+          "reference_images": [
+            "C:/Users/wseok/.codex/generated_images/01a177f8-67d0-7781-b020-16f01b1ddc12/exec-47357f2e-a076-4ee3-b0a6-53c74030084b.png",
+            "C:/Users/wseok/.codex/generated_images/01a177f8-67d0-7781-b020-16f01b1ddc12/exec-37c025f3-88e7-4e71-87bf-303f0956e7e8.png"
+          ],
+          "generated_source": "C:/Users/wseok/.codex/generated_images/01a177f8-67d0-7781-b020-16f01b1ddc12/exec-b5ba9158-8a72-4e9d-b497-c711f0e953b1.png",
+          "self_review": "Open-floor staging resolved, but dome missing; not selected."
+        },
+        {
+          "prompt": "Use case: precise-object-edit. IMAGE1 is the edit target. Preserve its exact people, poses, open-floor world geometry, chair positions, room and lighting. Restore the one missing silver serving dome to the cart's LEFT empty lid rest, exactly the dome design and arrangement seen in IMAGE2. The small shallow white paper container stays on the cart RIGHT and remains OPEN; do not cover it. Dome rests down independently on the LEFT, not floating or overlapping the container. The cart is a100cm wide top with two separate45cm zones, so reveal enough left part of its top to accommodate the dome naturally; keep it safely outside chair motion lanes. If necessary slightly widen the frame on the RIGHT to show both props, without moving the chairs or changing the people's sizes. There must be exactly one silver dome and one white container, both supported by cart top. Keep image1's chief already forward and blonde still back before moving. No dining table or white linen may be added anywhere between chairs/cart. No text or new objects.16:9.",
+          "reference_images": [
+            "C:/Users/wseok/.codex/generated_images/01a177f8-67d0-7781-b020-16f01b1ddc12/exec-b5ba9158-8a72-4e9d-b497-c711f0e953b1.png",
+            "C:/Users/wseok/.codex/generated_images/01a177f8-67d0-7781-b020-16f01b1ddc12/exec-37c025f3-88e7-4e71-87bf-303f0956e7e8.png"
+          ],
+          "generated_source": "C:/Users/wseok/.codex/generated_images/01a177f8-67d0-7781-b020-16f01b1ddc12/exec-05b7248d-5898-4f3f-ac15-56733d54036f.png",
+          "self_review": "Dome restored on left; document container too large relative to dome; not selected."
+        },
+        {
+          "prompt": "Use case: precise-object-edit. Change ONLY the physical size of the white document container AND its contained papers on the cart RIGHT. Keep every pixel outside that object region the same: people, chairs, floor, cart, dome on LEFT, camera, lighting. The white container is a SMALL shallow24cm diameter x13cm high cylinder. The silver dome beside it is44cm wide, so the container must be approximately HALF THE DOME'S WIDTH, not equal width. Reduce the current container width to about58percent and reduce height/paper bundle proportionately, staying centered in the RIGHT serving zone with base still touching cart top. Papers are HALF-FOLDED marked drafts, compact, with only a little protruding above rim; their top is LOWER than the dome's top excluding its knob so dome could physically cover them. Preserve white cylinder design, red abstract revision marks and small colored tabs. There is still one open container, one dome, no additional objects. Do NOT enlarge dome or move cart/chairs. Photorealistic16:9.",
+          "reference_images": [
+            "C:/Users/wseok/.codex/generated_images/01a177f8-67d0-7781-b020-16f01b1ddc12/exec-05b7248d-5898-4f3f-ac15-56733d54036f.png"
+          ],
+          "generated_source": "C:/Users/wseok/.codex/generated_images/01a177f8-67d0-7781-b020-16f01b1ddc12/exec-9b662520-1c1c-4142-b43f-0d50f0a749ee.png",
+          "self_review": "Selected: compact container on right, dome left, unchanged clear floor and before-action poses."
+        }
+      ],
+      "revision_reason": "B-I001/A-C cross: remove table obstruction and unify S05–S09 open-floor world. Preserve second sequential chair-scoot first state. Dome omission and oversized-container candidates repaired.",
+      "sha256": "293fd295c03106377c51c36ffaff59570527120b89a8052abb1bc9f87b659d0a",
+      "actual_dimensions_px": [
+        1672,
+        941
+      ]
+    },
+    {
+      "concept_id": "C07",
+      "scene_id": "S09",
+      "linked_cuts": [
+        "C07_K09"
+      ],
+      "image_path": "storyboards/2026-10-26_C01-C07-C10-rewrite-v15/images/C07/S09.png",
+      "generated_source": "C:/Users/wseok/.codex/generated_images/01a177f8-67d0-7781-b020-16f01b1ddc12/exec-b7592c0f-ded7-454b-ad5f-0a28d18be038.png",
+      "prompt": "Use case: precise-object-edit. Keep the exact THREE judge identities, costumes, chairs, lighting, luxury room and ordering of this photo. Correct spatial layout for safe chair motion. Reframe slightly WIDER to show all shoes and all three full chairs. Move the ENTIRE dining table AND the entire service cart farther to SCREEN-RIGHT and slightly forward, mostly toward the right edge of frame. This must reveal a clearly visible, completely EMPTY rectangle of polished floor at least60cm deep directly IN FRONT of the older woman's chair and shoes on the RIGHT. Her shoes and chair front legs may not disappear behind white linen. Keep her chair at the rear original position; do NOT advance her yet. The blonde and bald man's chairs are already about20cm ahead of her line and stay fixed. The older woman grips both seat edges, and all three look toward the document container. The cart may be partially cropped far-right but must still show one shallow white paper container on cart's RIGHT and the one silver dome resting on the cart's LEFT bare metal top, NOT on white dining-table linen. No cart wheels, table leg or cloth in front of her chair travel path. No text, no new people or furniture. Their forward movement would approach the table with comfortable clearance, not collide or cross through it. Still photorealistic16:9.",
+      "reference_images": [
+        "C:/Users/wseok/.codex/generated_images/01a177f8-67d0-7781-b020-16f01b1ddc12/exec-e60bd52c-f9a9-4402-93ba-627e47c90260.png"
+      ],
+      "initial_prompt": "Use case: ads-marketing. Image1 locks all THREE judge identities and wardrobe, image2 locks chair design, lit floor, cart and camera orientation. Make one realistic 16:9 comparison WIDE first frame. Create one cinematic 16:9 horizontal first-frame key image for a later live-action commercial comedy video. This is the exact BEFORE-action frame, not a collage or a completed action. Preserve realistic anatomy, natural contact with surfaces, and a clean readable hierarchy. No subtitles, readable interface text, dates, venue information, logos or watermark-like graphics; specified text will be composited afterward.  Visible cast only: The right judge is a very tall, thin European woman in her 60s with a long narrow face and nose, smooth high dark-brown chignon with one white streak, thin gold half-rim glasses. Dark-navy formal dress and a narrow silver-gray silk scarf. | The central chief judge is a very broad-shouldered, heavy-built Black man in his 50s with a smooth bald head, round face and a short gray beard only below his chin, no glasses. Wine-red velvet dinner jacket, black shirt and black bow tie. | The left judge is a short, stocky East Asian woman in her late 20s with round cheeks, clear attentive eyes and long straight platinum-blonde hair tied neatly low. Black satin tuxedo, wide white shirt collar and small deep-purple brooch. Scene: Near-frontal three-quarter comparison WIDE of all THREE judges and their full chairs. The broad bald man at center and platinum-haired woman at left have ALREADY drawn their chairs about 20 cm forward and remain still looking at the record container. The tall chignon-haired woman at right is still in her original rear position, hands on seat sides, feet planted before her move. There is a clearly unobstructed 60 cm lane in front of her chair so a single approximately 45 cm scoot can put her visibly about 25 cm ahead of the other two. Keep the cart and its wheels safely outside this lane and show the other two judges' faces for their later glance. No notebook, pen, crowd or simultaneous chair movement. Physical scale: cloche outer diameter44cm, lid rest45cm square and cart top100x60cm. Camera at the LEFT end of the long dining table, looking diagonally across the row, wide enough to see all three full chairs and shoes. The table is foreshortened along the RIGHT edge of the shot so the camera can see clear floor BETWEEN chair front legs and table rather than hiding legs behind a white cloth. The judges sit in the original row: blonde woman LEFT foreground, bald wine-jacket man CENTER, tall older navy-dressed woman RIGHT. All face toward the same table and record container ahead, no one faces away. Blonde and man have advanced just20cm; older woman is still20cm behind their current line, gripping both sides of her chair seat. A visible unobstructed strip of floor at least60cm remains between HER CHAIR and the table, allowing a45cm move without collision; she has not moved yet. The other two are still, hands empty and watch the record container, NOT already watching the older woman. Matching dark wood burgundy padded chairs for all. Only three people in frame. Cart is safely to far-right side of movement lanes, white shallow red-marked-paper container on cartRIGHT and removed dome onLEFT. Keep object scale normal. No front-position winner yet, no text, no labels, no food, no added furniture, no floating chair.",
+      "initial_reference_images": [
+        "C:/Users/wseok/.codex/generated_images/01a177f8-67d0-7781-b020-16f01b1ddc12/exec-612e2a01-6de6-490c-8168-73089e2c81bb.png",
+        "C:/Users/wseok/.codex/generated_images/01a177f8-67d0-7781-b020-16f01b1ddc12/exec-18fae931-c00a-48c9-8a82-13c73c073c77.png"
+      ],
+      "rejected_candidate": {
+        "source": "C:/Users/wseok/.codex/generated_images/01a177f8-67d0-7781-b020-16f01b1ddc12/exec-e60bd52c-f9a9-4402-93ba-627e47c90260.png",
+        "reason": "Right judge shoe/front travel lane occluded by table edge"
+      },
+      "motion_camera_notes": {
+        "camera": "비교 가능한 정면에 가까운 3/4 와이드. 세 의자 다리와 JC의 빈 이동 통로가 보임. 카트는 옆으로 충분히 비켜 있어 충돌/발 걸림 없음. S05 이후 같은 열린 바닥 배치. 긴 심사 테이블은 옆으로 비켜 있고 의자→카트 이동 통로에 없다. 카메라가 바뀌어도 누구도 테이블 뒤로 돌아가지 않는다.",
+        "start": "JA/JB 의자가 이미 약20cm 앞으로 나온 상태, JC만 원래 뒤. 셋 모두 통을 보고 있다. JC 앞에는 약60cm 빈 통로, 양손 좌판/발 바닥.",
+        "main": "JC가 의자를 한 번 약45cm 앞으로 끌어 앞선 두 명보다 확실히 앞서 멈춘다. 멈춘 직후 JA/JB가 JC 쪽으로 시선만 옮긴다.",
+        "end": "JC가 다른 두 명보다 약25cm 앞에 나와 같은 통을 엄숙히 봄. JA/JB는 JC를 쳐다봐 비교가 명확. 아무도 넘어지거나 부딪히지 않음.",
+        "frame_holds": "시작과 끝에 편집 여유 확보. 영상 전체8초를 자동 본편 사용하지 않음.",
+        "audio": "음성대사/생성 자막/생성 음악 없음. BGM/SFX 후편집.",
+        "acceptance": "시작→행동→완료, 손·소품·바닥 접점 확인. 상세 프롬프트가 성공을 보장하지 않음."
+      },
+      "review_status": "three_independent_reviews_cross_checked_and_required_fixes_rechecked",
+      "artist_findings": "Three judges and all chair/shoe contact shown; right older judge remains rear before motion, both seat-gripping hands visible and front floor clear. Blonde/man already forward. Partially cropped cart/props at right; exact 45cm travel remains later video QA, not measured from still.",
+      "sha256": "48a04afc58e6c19d42428aa72e769ede7e3cd5ec0f4b983bfedb9fb4707fbf38",
+      "actual_dimensions_px": [
+        1672,
+        941
+      ],
+      "requested_aspect_ratio": "16:9",
+      "image_is_before_action": true
+    }
+  ],
+  "generated_count": 9,
+  "required_count": 9,
+  "independent_review_status": "COMPLETE_THREE_REVIEWERS_INDEPENDENT_CROSS_AND_CORRECTION_RECHECK",
+  "generation_calls": 20,
+  "self_review_status": "9/9 actual images reviewed; S05/S06/S07/S08 replacements also opened; no video movement verification",
+  "review_status": "ACTUAL_SELECTED_IMAGES_CROSS_REVIEWED_FUTURE_FLOW_MOTION_NOT_VERIFIED"
+}

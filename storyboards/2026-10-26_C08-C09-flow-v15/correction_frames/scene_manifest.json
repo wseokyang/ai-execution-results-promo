@@ -1,0 +1,63 @@
+{
+  "created_date": "2026-10-26",
+  "generation_mode": "built-in image_gen",
+  "scope": "C08 K08/K10 and C09 K04 correction ending frames",
+  "images": [
+    {
+      "concept_id": "C08",
+      "scene_id": "S08_end",
+      "linked_cuts": [
+        "C08_K08_take02"
+      ],
+      "image_path": "storyboards/2026-10-26_C08-C09-flow-v15/correction_frames/C08_K08_end.png",
+      "prompt": "Use case: precise-object-edit. Create one photorealistic 16:9 ending frame by editing the supplied office image. Keep the exact camera, crop, lighting, all faces, bodies, clothes, desk, seated man, lunchbox, laptop, bucket, trowel, rubble and plaster outline. Change only the final brick and the woman's hands/forearms. The woman's one loose brick must now be installed in the LAST EMPTY RECTANGULAR GRAY SLOT immediately to the screen-right of where she was holding it, near the top of the red brick patch. That previously empty rectangular gray opening is now completely filled by this one red brick; no dark empty slot remains anywhere. Do not place a second brick on top of existing bricks. Preserve every surrounding brick and mortar course. The newly installed upper-right brick is very slightly imperfect: its right end is about one centimeter higher than its left. The woman has just released it: both empty hands have withdrawn about ten centimeters down and away from the wall, visibly not touching any brick, no brick in her hands. Her feet, body position and gaze remain the same. The young man remains seated at the far-left desk exactly as in the input. Natural unchanged cinematic commercial photo. No writing, subtitle, watermark, logo, additional objects, extra people, new tools, camera movement, enlarged patch, or redesigned bricks.",
+      "reference_images": [
+        "storyboards/2026-10-25_C07-C10-rewrite-v13/images/C08/S08.png"
+      ],
+      "generated_source": "C:/Users/wseok/.codex/generated_images/01a177dd-9729-7611-853e-07272f0f60db/exec-e50e2406-4f6b-461f-bbba-fc127f623e96.png",
+      "cache_path": "C:/Users/wseok/.cache/codex-flow/C08-C09-v15-2026-10-26/C08_K08_end.png",
+      "motion_camera_notes": "Same fixed camera. Single brick travels into the one remaining slot, hands release empty. End frame is intended as first-and-last image-to-video reference, not proof of successful motion.",
+      "review_status": "ACTUAL_STATIC_END_FRAME_THREE_REVIEWER_CHECK_COMPLETE_BEFORE_FLOW",
+      "sha256": "e550b960175e8b4b2c74ede97e03c75a6254e8bc30cf4de7b2b605ec9402b375",
+      "artist_review_at_creation": "Artist opened actual generated image: last gray slot filled, hands empty, seated man and same office preserved. Slight tilt is subtle; cross-review pending."
+    },
+    {
+      "concept_id": "C08",
+      "scene_id": "S10_end",
+      "linked_cuts": [
+        "C08_K10_take02"
+      ],
+      "image_path": "storyboards/2026-10-26_C08-C09-flow-v15/correction_frames/C08_K10_end.png",
+      "prompt": "Use case: precise-object-edit. Edit the supplied image into a single 16:9 photorealistic end frame for the SAME uninterrupted shot. Keep the exact camera, crop, daylight, wall patch outline, brick pattern, office, desk, props, bucket, floor, faces, identities, clothes and positions of the two people. Change ONLY the woman's arms/hands and the orientation of the ONE upper-right red brick that her fingers currently touch. The brick remains in exactly the same row, slot, height and horizontal location and is now properly level, flush with the wall and mortared in place, with no open hole. The woman has only pressed its raised right end down about one centimeter; do not remove, lower, carry, duplicate or relocate any brick. Her two empty hands are now released from that brick and both arms rest naturally down beside her thighs, hands visibly empty. She remains in the exact same stance and looks at the completed wall, quietly satisfied. The young man behind her to screen-left remains standing in exactly the same place, with his right hand holding the single yellow spirit level down beside his right thigh and his left hand empty. Preserve every surrounding brick and mortar line. No new objects, no text, no logo, no camera movement, no brick in either hand, no other masonry changes. An ending frame that matches the starting image except for the small completed correction and the woman's lowered empty arms.",
+      "reference_images": [
+        "storyboards/2026-10-25_C07-C10-rewrite-v13/images/C08/S10.png"
+      ],
+      "generated_source": "C:/Users/wseok/.codex/generated_images/01a177dd-9729-7611-853e-07272f0f60db/exec-a95173c9-1a96-4f04-bb85-64352ee95ea5.png",
+      "cache_path": "C:/Users/wseok/.cache/codex-flow/C08-C09-v15-2026-10-26/C08_K10_end.png",
+      "motion_camera_notes": "Same camera. Brick never removed from slot. Push raised end down, then lower empty hands. Man retains level beside right thigh.",
+      "review_status": "ACTUAL_STATIC_END_FRAME_THREE_REVIEWER_CHECK_COMPLETE_BEFORE_FLOW",
+      "sha256": "f4d8eb29d597eaf613167e60a94d5442bcdd3a275e73a9faef95fbd227675a52",
+      "artist_review_at_creation": "Artist opened actual generated image: brick remains in upper-right same slot, no carried/duplicated brick, empty arms down, man/level stable. Cross-review pending."
+    },
+    {
+      "concept_id": "C09",
+      "scene_id": "S04_end",
+      "linked_cuts": [
+        "C09_K04_take02"
+      ],
+      "image_path": "storyboards/2026-10-26_C08-C09-flow-v15/correction_frames/C09_K04_end.png",
+      "prompt": "Use case: precise-object-edit. Edit this exact 16:9 rainy bus-stop photograph into the END state of a completed bus boarding shot. KEEP the exact locked exterior side-wide camera, framing, cream bus parked at screen-right, fully open glass bus doorway and steps, rainy night reflections, shelter, street, lighting and woman. The older stocky East Asian man with white curly hair and orange raincoat has now finished boarding: move ONLY this same man and his same gray wheeled suitcase with yellow ribbon from the pavement into the bus interior past the doorway threshold. He is clearly visible through the open doorway, but his entire body, BOTH shoes and the ENTIRE upright gray suitcase with all wheels are inside on the bus interior floor, beyond the top step. He faces into the bus, away from the pavement, seen in side/back three-quarter view; he is not exiting or looking back. His RIGHT hand holds the suitcase telescoping handle, his LEFT hand is empty. The doorway steps and outside pavement are empty, no foot or suitcase wheel hanging over the threshold. The young woman in teal rain jacket and black backpack stays in her original position outside at screen-left, both feet on the wet pavement. Her LEFT arm has lowered after helping; her RIGHT hand keeps the same pink phone beside her right thigh. No one else boards, no duplicate person or suitcase, no driver added. Bus remains stationary, door stays fully open. Preserve the original bus architecture, seats, yellow rails, window frames, woman's face/clothes, and environmental details. Do not change to an interior shot, pan, zoom, relocate the camera, close the door, move the bus, put the man on the step, or leave him outside. No captions, text, logos or watermark. This is a physically completed boarding endpoint for image-to-video.",
+      "reference_images": [
+        "storyboards/2026-10-25_C07-C10-rewrite-v13/images/C09/S04.png"
+      ],
+      "generated_source": "C:/Users/wseok/.codex/generated_images/01a177dd-9729-7611-853e-07272f0f60db/exec-56b8c146-8625-4372-a617-db31c3b2fc28.png",
+      "cache_path": "C:/Users/wseok/.cache/codex-flow/C08-C09-v15-2026-10-26/C09_K04_end.png",
+      "motion_camera_notes": "Fixed exterior side-wide view. Man and whole bag board one direction; both feet and bag rest on interior floor, clear of steps/threshold. Woman stays outside. No bus motion or door closure.",
+      "review_status": "ACTUAL_STATIC_END_FRAME_THREE_REVIEWER_CHECK_COMPLETE_BEFORE_FLOW",
+      "sha256": "12ca69ab7055089e3172d153b437c38c27e6b48446d5e962cc1be7816a88113d",
+      "artist_review_at_creation": "Artist actual-image check: man faces interior, both shoes and suitcase wheels inside, open steps empty. Woman outside, pink phone in her right hand, left arm down. Cross-review pending."
+    }
+  ],
+  "video_generated_by_this_agent": false,
+  "final_motion_review": "Each generated result separately inspected; end-frame stills alone do not prove motion success. See ../generation_log.json and ../../2026-10-26_C08-C09-edit-v15/cross_review.json."
+}

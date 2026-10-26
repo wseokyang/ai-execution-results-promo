@@ -1,0 +1,2886 @@
+{
+  "schema_version": "1.0",
+  "run_id": "2026-10-26_C01-C07-C10-rewrite-v15",
+  "date": "2026-10-26",
+  "scope": "PD가 선정한 C01/C07/C10 3안의 상세 스토리보드 초안만. 이미지·Flow·영상·음원 생성 및 업로드 없음.",
+  "event_name": "Q-AI Fair",
+  "event_descriptor": "품질팀 AI 성과 교류회",
+  "selected_ids": [
+    "C01",
+    "C07",
+    "C10"
+  ],
+  "source_brief": "storyboards/2026-10-26_C01-C07-C10-rewrite-v15/common_brief.json",
+  "review_status": "A/B/C 독립·교차 검토 후 PD 확정 지시 반영 완료, 세 검수자 재확인 대기. 실제 이미지/영상 생성 전.",
+  "comparison": [
+    {
+      "id": "C01",
+      "title": "감독님, 아직인데요",
+      "purpose": "AI 결과만큼 적용 조건과 직접 확인 과정도 나누는 Q-AI Fair 소개",
+      "format": "광고 촬영 현장 메타 코미디",
+      "core_message": "축하는 크게. 사례는 정확하게.",
+      "duration_seconds": 37.5,
+      "comedy_intensity": 4,
+      "production_difficulty": "보통~높음",
+      "motion_clip_count": 10,
+      "ending_hold_seconds": 5
+    },
+    {
+      "id": "C07",
+      "title": "셰프님, 그것도 주세요",
+      "purpose": "완성된 AI 결과와 함께 실패·수정·확인 과정을 공유하는 Q-AI Fair 소개",
+      "format": "고급 미식 심사 장르 패러디",
+      "core_message": "결과만큼 궁금한, 그 과정.",
+      "duration_seconds": 32.6,
+      "comedy_intensity": 4,
+      "production_difficulty": "보통",
+      "motion_clip_count": 9,
+      "ending_hold_seconds": 5
+    },
+    {
+      "id": "C10",
+      "title": "지구 대표, 질문 있습니다",
+      "purpose": "해본 사람끼리 실패 지점과 수정 방법을 나누는 Q-AI Fair 소개",
+      "format": "야간 외계 첫접촉 SF의 규모를 한 줄 질문으로 뒤집는 짧은 코미디",
+      "core_message": "해본 사람끼리, 통하는 이야기.",
+      "duration_seconds": 38,
+      "comedy_intensity": 4,
+      "production_difficulty": "높음",
+      "motion_clip_count": 8,
+      "ending_hold_seconds": 5
+    }
+  ],
+  "concepts": [
+    {
+      "id": "C01",
+      "title": "감독님, 아직인데요",
+      "purpose": "AI 결과만큼 적용 조건과 직접 확인 과정도 나누는 Q-AI Fair 소개",
+      "format": "광고 촬영 현장 메타 코미디",
+      "duration_seconds": 37.5,
+      "aspect_ratio": "16:9",
+      "one_line": "AI 결과가 뜨자 감독은 축포부터 터뜨린다. 확인을 마친 뒤 다시 축하하려니 축포는 비었고, 재활용 꽃가루는 감독에게만 돌아온다.",
+      "core_message": "축하는 크게. 사례는 정확하게.",
+      "comedy_intensity": 4,
+      "production_difficulty": "보통~높음",
+      "hook": "실제 광고 촬영처럼 조명과 슬레이트가 갖춰진 사무실. 감독의 축포는 확인보다 먼저 준비돼 있다.",
+      "reversals": [
+        "AI 결과 표시를 완료로 오해해 요란하게 축하하지만 담당자의 손바닥 하나에 촬영이 멎는다.",
+        "정작 확인을 마친 순간 축포는 이미 비어 있다.",
+        "모아 놓은 종이꽃가루를 송풍으로 재활용하다 감독만 축하의 표적이 된다."
+      ],
+      "ending_connection": "종이꽃가루에 덮인 감독 뒤로, 담당자는 결과와 적용·확인 과정을 나란히 내민다. 눈에 띄는 축하와 공유할 만한 사례를 구별하는 결말.",
+      "cast": [
+        {
+          "id": "D",
+          "appearance": "30대 후반 지중해계 여성, 키가 크고 매우 마른 체형, 올리브색 피부, 턱선에서 V자로 끝나는 새까만 정교한 보브컷, 길고 날카로운 눈썹. 노란 틴트의 날개형 안경.",
+          "costume": "라임색 넓은 어깨 팬츠수트, 자홍색 터틀넥, 흰 운동화. 로고 없음.",
+          "performance": "한 번의 결과를 대작 광고로 만들고 싶은 조급함. 손짓은 크고 과잉 확신, 실패 후 짧게 체면을 수습. 외형은 웃음의 대상이 아님."
+        },
+        {
+          "id": "Q",
+          "appearance": "40대 초반 남아시아계 남성, 키는 중간이고 넓고 단단한 체형, 깊은 갈색 피부, 둥근 민머리, 짧고 풍성한 검정 전체 수염, 안경 없음.",
+          "costume": "버건디 카디건, 옅은 하늘색 셔츠, 짙은 베이지 바지. 목줄·기관 로고 없음.",
+          "performance": "신경질 없이 확인을 끝까지 하는 따뜻한 실무자. 큰 축포에도 결과 원문을 놓지 않음."
+        },
+        {
+          "id": "S",
+          "appearance": "20대 동아시아인 스태프, 매우 큰 키와 가는 팔다리, 한쪽 어깨 아래로 길게 내린 구리색 땋은 머리, 작은 삼각 턱. 성별 연기는 중성적.",
+          "costume": "차콜 작업 점프수트, 흰 오버이어 헤드셋, 흰 밑창 작업화.",
+          "performance": "촬영을 살리려는 실용적인 임기응변. 감독을 고의로 골탕 먹이지 않음."
+        }
+      ],
+      "space_axis": "밝은 광고용 사무실 세트. 책상/담당자 Q는 화면 왼쪽, 감독 D의 바닥 T마크는 오른쪽, 스태프 S와 정리 카트는 오른쪽 뒤. 카메라/조명스탠드는 가장자리 고정. 창밖·장소 이동 없음. 송풍은 오른쪽 뒤에서 T마크 방향이며 책상/담당자는 바람축 밖.",
+      "props": [
+        {
+          "id": "P",
+          "description": "청색 상단 탭이 달린 흰 원문 한 장. 큰 동그라미 표식이 대조 항목. Q 소유."
+        },
+        {
+          "id": "R",
+          "description": "같은 P 원문을 바탕으로 만든 기존 노트북의 AI 정리 결과. 초기에 선택 범위가 달라 삼각형, 조건 수정 뒤 원문과 같은 동그라미. K10도 이 노트북 화면을 그대로 사용하며 새 결과 문서를 만들지 않음. 연출용 설명 예시."
+        },
+        {
+          "id": "C",
+          "description": "금색 1회용 종이 축포 한 개. D 오른손/왼손으로 고정. K02에서 전량 소진하며 교체하지 않음."
+        },
+        {
+          "id": "PAN",
+          "description": "넓은 검정 쓰레받기와 노란 빗자루. 수거한 큰 종이꽃가루만 담으며 일반 쓰레기·먼지 없음."
+        },
+        {
+          "id": "BLOW",
+          "description": "송풍 기능이 있는 작은 청소 장비와 뒤쪽 송풍구에 이미 연결된 검정 호스. 수거통을 역분사하지 않음. K08에 받기 뒤에서 종이를 밀어낼 방향만 잡는다. 바닥에 유선 발판 스위치가 있어 S가 두 손으로 호스를 잡고 오른발로 켜고 끌 수 있다."
+        },
+        {
+          "id": "PEN",
+          "description": "검정펜 한 자루는 처음부터 책상 오른쪽 낮은 펜받침에 있다. K06에서 오른손으로 집어 확인 표시. 이후 펜받침에 내려놓고 문서 제시."
+        }
+      ],
+      "cut_count_reason": "10개 동작컷+5초 카드. K05 입력 조건 수정과 K06 직접 재확인을 합계6초로 압축하고, 송풍 준비는 손/장비 중심1.5초로 줄여37.5초. 불일치→조건 수정→일치 확인3상태는 모두 유지.",
+      "shots": [
+        {
+          "id": "C01_K01",
+          "start": 0,
+          "end": 3,
+          "visible": [
+            "D",
+            "Q"
+          ],
+          "frame_start": "광고 세트 와이드. Q는 왼쪽 책상 노트북 앞, 원문을 왼손에 들고 오른손은 트랙패드 위. D는 오른쪽 T마크에서 금색 축포를 양손으로 잡고 아직 작동하지 않았다. 결과 UI는 빈 후합성 영역.",
+          "action": "노트북에 AI 정리 결과가 나타나자 D의 눈과 축포 든 팔이 동시에 기대감으로 올라간다. 아직 발사하지 않음.",
+          "frame_end": "AI 결과는 떴지만 확인 표시는 없음. D 축포를 위로 들고 준비, Q 원문 들고 화면을 봄.",
+          "composition": "눈높이 28mm 와이드. 왼쪽 화면 평면과 오른쪽 과장된 촬영 준비를 함께. 조명 스탠드는 가장자리.",
+          "caption_cues": [
+            {
+              "start": 0.3,
+              "end": 2.8,
+              "text": "AI 결과 나왔습니다.",
+              "placement": "상단 빈 세트 배경"
+            }
+          ],
+          "post_composites": [
+            "노트북: AI 정리 결과 / 선택 범위: 전체 / 큰 삼각형 1개. 성공·검증 완료 체크는 없음."
+          ],
+          "transition": "D의 준비된 축포로 하드 컷. 동일 좌우 축.",
+          "intent": "확인보다 축하 준비가 더 빠른 현장이라는 욕망을 바로 보임.",
+          "continuity": [
+            "P 원문 Q 왼손, D 축포 아직 가득",
+            "노트북 결과 등장만으로 실제 성공을 주장하지 않음"
+          ],
+          "scene_id": "S01",
+          "duration": 3,
+          "interval": "0–3초",
+          "dialogue": "없음",
+          "narration": "없음",
+          "music_sfx_silence": "0–3초 과장된 광고 브라스·드럼 도입. 말소리 없음.",
+          "screen_action": "노트북에 AI 정리 결과가 나타나자 D의 눈과 축포 든 팔이 동시에 기대감으로 올라간다. 아직 발사하지 않음.",
+          "frame_start_description": "광고 세트 와이드. Q는 왼쪽 책상 노트북 앞, 원문을 왼손에 들고 오른손은 트랙패드 위. D는 오른쪽 T마크에서 금색 축포를 양손으로 잡고 아직 작동하지 않았다. 결과 UI는 빈 후합성 영역.",
+          "frame_end_description": "AI 결과는 떴지만 확인 표시는 없음. D 축포를 위로 들고 준비, Q 원문 들고 화면을 봄.",
+          "main_motion_count": 1,
+          "image_generation_required": true,
+          "video_generation_required": true,
+          "first_frame_prompt_en": "Create one cinematic 16:9 horizontal first-frame key image for a later live-action commercial comedy video. This is the exact BEFORE-action frame, not a collage or a completed action. Preserve realistic anatomy, natural contact with surfaces, and a clean readable hierarchy. No subtitles, readable interface text, dates, venue information, logos or watermark-like graphics; specified text will be composited afterward.  Visible cast only: The director is a very tall, very slim Mediterranean woman in her late 30s with olive skin, a precise jet-black V-shaped chin-length bob, long sharp brows and yellow-tinted wing-shaped glasses. Lime-green broad-shouldered pantsuit, magenta turtleneck, white sneakers. | The quality specialist is a broad, solidly built South Asian man in his early 40s, medium height, deep brown skin, round shaved head, short full black beard and no glasses. Burgundy cardigan, pale-blue shirt, dark beige trousers. Scene: Eye-level wide shot of a bright office arranged as a glossy commercial film set. At screen-left the broad bearded quality specialist sits at a desk, holding one white source sheet with a blue top tab in his LEFT hand; his RIGHT hand rests beside the laptop trackpad. The laptop has a plain neutral screen reserved for compositing. At screen-right the lime-suited director stands on a small T-shaped floor mark, holding one un-fired gold confetti tube with both hands at chest height. Film lights at the outer edges only. She is eager; he is attentive. No confetti in the room yet. Leave uncluttered upper wall space.",
+          "future_motion_notes": {
+            "camera": "기본 고정. 눈높이 28mm 와이드. 왼쪽 화면 평면과 오른쪽 과장된 촬영 준비를 함께. 조명 스탠드는 가장자리.",
+            "start": "첫 프레임의 동작 전 상태에서 시작",
+            "main": "노트북에 AI 정리 결과가 나타나자 D의 눈과 축포 든 팔이 동시에 기대감으로 올라간다. 아직 발사하지 않음.",
+            "end": "AI 결과는 떴지만 확인 표시는 없음. D 축포를 위로 들고 준비, Q 원문 들고 화면을 봄.",
+            "frame_holds": "시작과 끝에 편집 여유 확보. 영상 전체8초를 자동 본편 사용하지 않음.",
+            "audio": "음성대사/생성 자막/생성 음악 없음. BGM/SFX 후편집.",
+            "acceptance": "시작→행동→완료, 손·소품·바닥 접점 확인. 상세 프롬프트가 성공을 보장하지 않음."
+          }
+        },
+        {
+          "id": "C01_K02",
+          "start": 3,
+          "end": 6,
+          "visible": [
+            "D",
+            "Q"
+          ],
+          "frame_start": "D가 오른쪽 T마크에서 금색 축포를 비스듬히 위로 향하게 든다. 종이꽃가루 아직 공중에 없음. Q는 왼쪽 후경 원문.",
+          "action": "D가 축포를 한 번 발사한다. 큰 색종이 조각이 오른쪽 촬영 공간에만 터지고 가라앉는다.",
+          "frame_end": "D 손에는 빈 축포. 바닥 오른쪽에 종이꽃가루가 쌓임. Q와 책상에는 거의 닿지 않음.",
+          "composition": "D 중심 미디엄 와이드, 축포 입구와 발사 경로를 위쪽 여백에. 얼굴 직접 조준 금지.",
+          "caption_cues": [],
+          "post_composites": [],
+          "transition": "꽃가루가 아직 떨어지는 사이 원문 확인 근접으로 전환.",
+          "intent": "관객이 결과의 성공보다 감독의 조급한 축하를 먼저 기억하도록 물리적으로 크게 터뜨림.",
+          "continuity": [
+            "금색 축포 단 하나를 여기서 전량 소진",
+            "큰 종이 조각만, 화약 불꽃/연기/얼굴 충격 없음"
+          ],
+          "scene_id": "S02",
+          "duration": 3,
+          "interval": "3–6초",
+          "dialogue": "없음",
+          "narration": "없음",
+          "music_sfx_silence": "3초 축하 브라스 히트/가벼운 종이 팝,6초까지 들뜬 음악.",
+          "screen_action": "D가 축포를 한 번 발사한다. 큰 색종이 조각이 오른쪽 촬영 공간에만 터지고 가라앉는다.",
+          "frame_start_description": "D가 오른쪽 T마크에서 금색 축포를 비스듬히 위로 향하게 든다. 종이꽃가루 아직 공중에 없음. Q는 왼쪽 후경 원문.",
+          "frame_end_description": "D 손에는 빈 축포. 바닥 오른쪽에 종이꽃가루가 쌓임. Q와 책상에는 거의 닿지 않음.",
+          "main_motion_count": 1,
+          "image_generation_required": true,
+          "video_generation_required": true,
+          "first_frame_prompt_en": "Create one cinematic 16:9 horizontal first-frame key image for a later live-action commercial comedy video. This is the exact BEFORE-action frame, not a collage or a completed action. Preserve realistic anatomy, natural contact with surfaces, and a clean readable hierarchy. No subtitles, readable interface text, dates, venue information, logos or watermark-like graphics; specified text will be composited afterward.  Visible cast only: The director is a very tall, very slim Mediterranean woman in her late 30s with olive skin, a precise jet-black V-shaped chin-length bob, long sharp brows and yellow-tinted wing-shaped glasses. Lime-green broad-shouldered pantsuit, magenta turtleneck, white sneakers. | The quality specialist is a broad, solidly built South Asian man in his early 40s, medium height, deep brown skin, round shaved head, short full black beard and no glasses. Burgundy cardigan, pale-blue shirt, dark beige trousers. Scene: Medium-wide commercial-set shot of the lime-suited director on the RIGHT T-mark, both hands holding the same intact gold confetti cannon angled safely upward toward empty air on her right. Her finger is poised to trigger it, not yet pressed. No paper is airborne. The bearded quality specialist is visible far LEFT at his desk with the blue-tabbed source page. Keep the desk outside the launch path and keep the tube opening visible.",
+          "future_motion_notes": {
+            "camera": "기본 고정. D 중심 미디엄 와이드, 축포 입구와 발사 경로를 위쪽 여백에. 얼굴 직접 조준 금지.",
+            "start": "첫 프레임의 동작 전 상태에서 시작",
+            "main": "D가 축포를 한 번 발사한다. 큰 색종이 조각이 오른쪽 촬영 공간에만 터지고 가라앉는다.",
+            "end": "D 손에는 빈 축포. 바닥 오른쪽에 종이꽃가루가 쌓임. Q와 책상에는 거의 닿지 않음.",
+            "frame_holds": "시작과 끝에 편집 여유 확보. 영상 전체8초를 자동 본편 사용하지 않음.",
+            "audio": "음성대사/생성 자막/생성 음악 없음. BGM/SFX 후편집.",
+            "acceptance": "시작→행동→완료, 손·소품·바닥 접점 확인. 상세 프롬프트가 성공을 보장하지 않음."
+          }
+        },
+        {
+          "id": "C01_K03",
+          "start": 6,
+          "end": 10,
+          "visible": [
+            "Q",
+            "D"
+          ],
+          "frame_start": "Q 근접. 왼손 원문 큰 동그라미, 노트북 결과 큰 삼각형을 대조할 수 있는 구도. 오른손은 화면 아래 비어 있음. D 후경 축포를 내려 든 채.",
+          "action": "Q가 원문과 결과를 한 번 번갈아 본 뒤 빈 오른손 손바닥을 D 쪽으로 들어 멈춘다.",
+          "frame_end": "Q 오른손 중단 손바닥, 왼손 원문. D 축하 동작 중지. 꽃가루 바닥.",
+          "composition": "원문·노트북·Q 얼굴과 중단 손을 함께 보는 미디엄. 작은 글자를 읽지 않아도 두 도형 불일치.",
+          "caption_cues": [
+            {
+              "start": 6.4,
+              "end": 9.8,
+              "text": "잠깐. 아직 확인 중.",
+              "placement": "상단 빈 배경, 손 회피"
+            }
+          ],
+          "post_composites": [
+            "원문 동그라미 / 결과 삼각형을 같은 크기로 후합성. 실제 AI 오류 기록인 것처럼 제시하지 않는 연출용 예시."
+          ],
+          "transition": "들뜬 음악을 끊고 꽃가루 바닥으로 컷.",
+          "intent": "작고 차분한 손바닥이 거대한 촬영 축하를 정지시키는 첫 반전.",
+          "continuity": [
+            "Q는 아직 결과 완료를 승인하지 않음",
+            "D 빈 축포 유지, 손에서 사라지지 않음"
+          ],
+          "scene_id": "S03",
+          "duration": 4,
+          "interval": "6–10초",
+          "dialogue": "없음",
+          "narration": "없음",
+          "music_sfx_silence": "6초부터0.6초 브레이크,6.6–7.4초0.8초 정적 뒤 사무실 공기음.",
+          "screen_action": "Q가 원문과 결과를 한 번 번갈아 본 뒤 빈 오른손 손바닥을 D 쪽으로 들어 멈춘다.",
+          "frame_start_description": "Q 근접. 왼손 원문 큰 동그라미, 노트북 결과 큰 삼각형을 대조할 수 있는 구도. 오른손은 화면 아래 비어 있음. D 후경 축포를 내려 든 채.",
+          "frame_end_description": "Q 오른손 중단 손바닥, 왼손 원문. D 축하 동작 중지. 꽃가루 바닥.",
+          "main_motion_count": 1,
+          "image_generation_required": true,
+          "video_generation_required": true,
+          "first_frame_prompt_en": "Create one cinematic 16:9 horizontal first-frame key image for a later live-action commercial comedy video. This is the exact BEFORE-action frame, not a collage or a completed action. Preserve realistic anatomy, natural contact with surfaces, and a clean readable hierarchy. No subtitles, readable interface text, dates, venue information, logos or watermark-like graphics; specified text will be composited afterward.  Visible cast only: The quality specialist is a broad, solidly built South Asian man in his early 40s, medium height, deep brown skin, round shaved head, short full black beard and no glasses. Burgundy cardigan, pale-blue shirt, dark beige trousers. | The director is a very tall, very slim Mediterranean woman in her late 30s with olive skin, a precise jet-black V-shaped chin-length bob, long sharp brows and yellow-tinted wing-shaped glasses. Lime-green broad-shouldered pantsuit, magenta turtleneck, white sneakers. Scene: Medium close view over the office desk, showing the bearded quality specialist's face, laptop and source page together. He holds the white blue-tabbed source sheet in his LEFT hand; his RIGHT hand is empty and lowered, before any stop gesture. On paper and laptop reserve large clean areas for one contrasting symbol each, no readable words. In the soft RIGHT background the lime-suited director holds the spent gold tube lowered, with colored paper on the floor. Keep space above the desk for captions and do not obscure his hands.",
+          "future_motion_notes": {
+            "camera": "기본 고정. 원문·노트북·Q 얼굴과 중단 손을 함께 보는 미디엄. 작은 글자를 읽지 않아도 두 도형 불일치.",
+            "start": "첫 프레임의 동작 전 상태에서 시작",
+            "main": "Q가 원문과 결과를 한 번 번갈아 본 뒤 빈 오른손 손바닥을 D 쪽으로 들어 멈춘다.",
+            "end": "Q 오른손 중단 손바닥, 왼손 원문. D 축하 동작 중지. 꽃가루 바닥.",
+            "frame_holds": "시작과 끝에 편집 여유 확보. 영상 전체8초를 자동 본편 사용하지 않음.",
+            "audio": "음성대사/생성 자막/생성 음악 없음. BGM/SFX 후편집.",
+            "acceptance": "시작→행동→완료, 손·소품·바닥 접점 확인. 상세 프롬프트가 성공을 보장하지 않음."
+          }
+        },
+        {
+          "id": "C01_K04",
+          "start": 10,
+          "end": 13,
+          "visible": [
+            "S",
+            "D"
+          ],
+          "frame_start": "스태프 S가 오른쪽 바닥 색종이 앞에 무릎을 약간 굽힘. 왼손 쓰레받기 손잡이로 바닥 고정, 오른손 빗자루. D T마크 뒤에서 빈 축포를 들고 기다림.",
+          "action": "S가 큰 종이꽃가루를 빗자루로 한 번 길게 밀어 넓은 쓰레받기에 모은다.",
+          "frame_end": "색종이가 쓰레받기에 모였고 받기는 오른쪽 T마크 앞 바닥에 놓임. 빗자루는 S 오른손, 받기에서 왼손 뗌.",
+          "composition": "바닥과 두 손, 감독의 기다리는 다리까지. 받기와 T마크 위치를 같이 보여 다음 송풍 인과 고정.",
+          "caption_cues": [],
+          "post_composites": [],
+          "transition": "바닥 정리에서 실제 입력 수정 손으로 하드 컷.",
+          "intent": "섣부른 축하가 남긴 부대 작업을 짧게 보여 주고 마지막 개그 소품을 확보.",
+          "continuity": [
+            "수거한 종이는 버리지 않고 받기에 남음",
+            "받기는 D 앞 바닥 같은 위치 K08까지 고정",
+            "흡입 청소로 수거통에 넣었다가 역분사하는 설정 아님"
+          ],
+          "scene_id": "S04",
+          "duration": 3,
+          "interval": "10–13초",
+          "dialogue": "없음",
+          "narration": "없음",
+          "music_sfx_silence": "10–13초 작은 빗자루 마찰만. 축하 음악 없음.",
+          "screen_action": "S가 큰 종이꽃가루를 빗자루로 한 번 길게 밀어 넓은 쓰레받기에 모은다.",
+          "frame_start_description": "스태프 S가 오른쪽 바닥 색종이 앞에 무릎을 약간 굽힘. 왼손 쓰레받기 손잡이로 바닥 고정, 오른손 빗자루. D T마크 뒤에서 빈 축포를 들고 기다림.",
+          "frame_end_description": "색종이가 쓰레받기에 모였고 받기는 오른쪽 T마크 앞 바닥에 놓임. 빗자루는 S 오른손, 받기에서 왼손 뗌.",
+          "main_motion_count": 1,
+          "image_generation_required": true,
+          "video_generation_required": true,
+          "first_frame_prompt_en": "Create one cinematic 16:9 horizontal first-frame key image for a later live-action commercial comedy video. This is the exact BEFORE-action frame, not a collage or a completed action. Preserve realistic anatomy, natural contact with surfaces, and a clean readable hierarchy. No subtitles, readable interface text, dates, venue information, logos or watermark-like graphics; specified text will be composited afterward.  Visible cast only: The stagehand is a very tall, slender East Asian adult in their 20s with long copper-colored braided hair over one shoulder and a small triangular chin, an androgynous appearance. Charcoal work jumpsuit, white over-ear headset, white-soled work shoes. | The director is a very tall, very slim Mediterranean woman in her late 30s with olive skin, a precise jet-black V-shaped chin-length bob, long sharp brows and yellow-tinted wing-shaped glasses. Lime-green broad-shouldered pantsuit, magenta turtleneck, white sneakers. Scene: Low medium shot of the RIGHT side of the office film set. The tall copper-braided stagehand steadies a wide black dustpan flat on the floor with the LEFT hand and holds a yellow broom in the RIGHT hand, poised before one sweeping stroke. A loose pile of large colored paper confetti lies just in front of the dustpan. The director's lime trouser legs and the T-shaped floor mark are visible behind the dustpan. The gold tube is visibly spent in the director's hands. No dust cloud or mixed rubbish.",
+          "future_motion_notes": {
+            "camera": "기본 고정. 바닥과 두 손, 감독의 기다리는 다리까지. 받기와 T마크 위치를 같이 보여 다음 송풍 인과 고정.",
+            "start": "첫 프레임의 동작 전 상태에서 시작",
+            "main": "S가 큰 종이꽃가루를 빗자루로 한 번 길게 밀어 넓은 쓰레받기에 모은다.",
+            "end": "색종이가 쓰레받기에 모였고 받기는 오른쪽 T마크 앞 바닥에 놓임. 빗자루는 S 오른손, 받기에서 왼손 뗌.",
+            "frame_holds": "시작과 끝에 편집 여유 확보. 영상 전체8초를 자동 본편 사용하지 않음.",
+            "audio": "음성대사/생성 자막/생성 음악 없음. BGM/SFX 후편집.",
+            "acceptance": "시작→행동→완료, 손·소품·바닥 접점 확인. 상세 프롬프트가 성공을 보장하지 않음."
+          }
+        },
+        {
+          "id": "C01_K05",
+          "start": 13,
+          "end": 16,
+          "visible": [
+            "Q"
+          ],
+          "frame_start": "Q 어깨너머, P 원문은 왼쪽 책상에 펼쳐져 청색 탭 보임. 노트북 입력 조건 펼침. Q 오른 검지가 트랙패드 위, 왼손 원문 옆.",
+          "action": "Q가 공유할 정리 양식의 적용 범위를 '전체'에서 원문에 맞는 '대상 항목'으로 한 번 바꾸고 재적용한다.",
+          "frame_end": "노트북 결과가 원문과 같은 큰 동그라미로 바뀌지만 아직 사람 확인 체크 없음.",
+          "composition": "고정 어깨너머. 원문과 UI를 동시에 크게; 여러 옵션·타이핑 없음.",
+          "caption_cues": [
+            {
+              "start": 13.15,
+              "end": 15.85,
+              "text": "조건을 맞춰, 다시 적용.",
+              "placement": "상단 빈 여백"
+            }
+          ],
+          "post_composites": [
+            "UI 선택 범위: 전체 → 대상 항목. 결과 삼각형 → 동그라미. 모든 UI·도형은 후처리. 인공지능 정확도/성과 수치 표기 없음."
+          ],
+          "transition": "같은 원문의 확인 행으로 조금 좁게 컷.",
+          "intent": "막연히 AI가 틀렸다고 끝내지 않고 공유할 과정인 조건 수정 동작을 실제 보여 줌.",
+          "continuity": [
+            "P 원문은 Q가 K03 후 책상에 내려놓은 일반 작업 전환, 청색 탭 유지",
+            "수정 대상은 입력 조건 한 개, 원문 자체를 결과에 맞춰 고치지 않음"
+          ],
+          "scene_id": "S05",
+          "duration": 3,
+          "interval": "13–16초",
+          "dialogue": "없음",
+          "narration": "없음",
+          "music_sfx_silence": "13–16초 마른 피치카토와 작은 킥. 조건 수정 1회에 짧은 클릭.",
+          "screen_action": "Q가 공유할 정리 양식의 적용 범위를 '전체'에서 원문에 맞는 '대상 항목'으로 한 번 바꾸고 재적용한다.",
+          "frame_start_description": "Q 어깨너머, P 원문은 왼쪽 책상에 펼쳐져 청색 탭 보임. 노트북 입력 조건 펼침. Q 오른 검지가 트랙패드 위, 왼손 원문 옆.",
+          "frame_end_description": "노트북 결과가 원문과 같은 큰 동그라미로 바뀌지만 아직 사람 확인 체크 없음.",
+          "main_motion_count": 1,
+          "image_generation_required": true,
+          "video_generation_required": true,
+          "first_frame_prompt_en": "Create one cinematic 16:9 horizontal first-frame key image for a later live-action commercial comedy video. This is the exact BEFORE-action frame, not a collage or a completed action. Preserve realistic anatomy, natural contact with surfaces, and a clean readable hierarchy. No subtitles, readable interface text, dates, venue information, logos or watermark-like graphics; specified text will be composited afterward.  Visible cast only: The quality specialist is a broad, solidly built South Asian man in his early 40s, medium height, deep brown skin, round shaved head, short full black beard and no glasses. Burgundy cardigan, pale-blue shirt, dark beige trousers. Scene: Locked over-the-shoulder desk view of the broad bearded specialist in burgundy cardigan. The blue-tabbed source sheet lies flat to the LEFT of the laptop, visible beside the screen. His RIGHT index finger is poised over the trackpad and his LEFT hand rests beside, not on top of, the source symbol. Keep the laptop screen a clean pale panel for a simple one-setting interface to be added later. No success check, charts, extra paper piles or confetti on the laptop.",
+          "future_motion_notes": {
+            "camera": "기본 고정. 고정 어깨너머. 원문과 UI를 동시에 크게; 여러 옵션·타이핑 없음.",
+            "start": "첫 프레임의 동작 전 상태에서 시작",
+            "main": "Q가 공유할 정리 양식의 적용 범위를 '전체'에서 원문에 맞는 '대상 항목'으로 한 번 바꾸고 재적용한다.",
+            "end": "노트북 결과가 원문과 같은 큰 동그라미로 바뀌지만 아직 사람 확인 체크 없음.",
+            "frame_holds": "시작과 끝에 편집 여유 확보. 영상 전체8초를 자동 본편 사용하지 않음.",
+            "audio": "음성대사/생성 자막/생성 음악 없음. BGM/SFX 후편집.",
+            "acceptance": "시작→행동→완료, 손·소품·바닥 접점 확인. 상세 프롬프트가 성공을 보장하지 않음."
+          }
+        },
+        {
+          "id": "C01_K06",
+          "start": 16,
+          "end": 19,
+          "visible": [
+            "Q"
+          ],
+          "frame_start": "원문과 재적용 결과의 큰 동그라미가 나란히 후합성될 안정 화면. 검정펜은 원문 오른쪽 낮은 펜받침에 놓여 있고 Q 오른손이 잡기 직전, 왼손 종이 고정.",
+          "action": "Q가 오른손으로 펜받침의 검정펜을 집어 같은 항목을 다시 대조하고 원문 확인칸에 작은 체크 하나를 한다.",
+          "frame_end": "사람 확인 체크 1개. 펜은 오른손에 들려 종이에서 떨어짐, Q가 감독 쪽을 보는 작은 고개 끄덕임.",
+          "composition": "손·원문·화면을 함께 잡고 마지막 얼굴 시선까지; 정확한 체크는 후합성 가능.",
+          "caption_cues": [
+            {
+              "start": 16.225,
+              "end": 18.85,
+              "text": "이번 결과, 확인 끝.",
+              "placement": "상단 빈 벽"
+            }
+          ],
+          "post_composites": [
+            "원문/결과 같은 동그라미, 원문의 사람 확인 체크 한 개. 적용 조건과 비교 흔적은 보존."
+          ],
+          "transition": "작은 고개 신호를 받은 감독의 빈 축포로 매치 반응 컷.",
+          "intent": "축하할 수 있는 시점을 사람의 직접 확인 뒤로 되돌림.",
+          "continuity": [
+            "체크는 자동생성 아님; 펜 접촉 뒤에만 나타남",
+            "원문 조건을 결과에 맞춰 변조하지 않음",
+            "펜 획득을 컷 안에서 보여 준다. K10 문서 제시 전 펜은 책상 받침에 되돌려 놓인 상태로 명시."
+          ],
+          "scene_id": "S06",
+          "duration": 3,
+          "interval": "16–19초",
+          "dialogue": "없음",
+          "narration": "없음",
+          "music_sfx_silence": "16–19초 펜 접촉과 작은 따뜻한 종소리1회. 큰 축하음악 없음.",
+          "screen_action": "Q가 오른손으로 펜받침의 검정펜을 집어 같은 항목을 다시 대조하고 원문 확인칸에 작은 체크 하나를 한다.",
+          "frame_start_description": "원문과 재적용 결과의 큰 동그라미가 나란히 후합성될 안정 화면. 검정펜은 원문 오른쪽 낮은 펜받침에 놓여 있고 Q 오른손이 잡기 직전, 왼손 종이 고정.",
+          "frame_end_description": "사람 확인 체크 1개. 펜은 오른손에 들려 종이에서 떨어짐, Q가 감독 쪽을 보는 작은 고개 끄덕임.",
+          "main_motion_count": 1,
+          "image_generation_required": true,
+          "video_generation_required": true,
+          "first_frame_prompt_en": "Create one cinematic 16:9 horizontal first-frame key image for a later live-action commercial comedy video. This is the exact BEFORE-action frame, not a collage or a completed action. Preserve realistic anatomy, natural contact with surfaces, and a clean readable hierarchy. No subtitles, readable interface text, dates, venue information, logos or watermark-like graphics; specified text will be composited afterward.  Visible cast only: The quality specialist is a broad, solidly built South Asian man in his early 40s, medium height, deep brown skin, round shaved head, short full black beard and no glasses. Burgundy cardigan, pale-blue shirt, dark beige trousers. Scene: Close fixed desk shot showing the specialist's burgundy sleeves, a single black pen lying in a shallow rest immediately to the RIGHT of the blue-tabbed source sheet, and his RIGHT hand hovering just before picking it up. His LEFT hand lightly steadies the page. The laptop behind it is a stable clean compositing panel. Both page and screen have clean space for matching single circle symbols. No check has been made yet. Show pen, paper edge and source comparison area without covering any hand.",
+          "future_motion_notes": {
+            "camera": "기본 고정. 손·원문·화면을 함께 잡고 마지막 얼굴 시선까지; 정확한 체크는 후합성 가능.",
+            "start": "첫 프레임의 동작 전 상태에서 시작",
+            "main": "Q가 오른손으로 펜받침의 검정펜을 집어 같은 항목을 다시 대조하고 원문 확인칸에 작은 체크 하나를 한다.",
+            "end": "사람 확인 체크 1개. 펜은 오른손에 들려 종이에서 떨어짐, Q가 감독 쪽을 보는 작은 고개 끄덕임.",
+            "frame_holds": "시작과 끝에 편집 여유 확보. 영상 전체8초를 자동 본편 사용하지 않음.",
+            "audio": "음성대사/생성 자막/생성 음악 없음. BGM/SFX 후편집.",
+            "acceptance": "시작→행동→완료, 손·소품·바닥 접점 확인. 상세 프롬프트가 성공을 보장하지 않음."
+          }
+        },
+        {
+          "id": "C01_K07",
+          "start": 19,
+          "end": 22,
+          "visible": [
+            "D",
+            "S"
+          ],
+          "frame_start": "D 같은 T마크에서 빈 금색 축포를 다시 양손에 들어 작동 전. S 옆에서 기다림. 꽃가루 담긴 받기는 D 앞 바닥에 보임.",
+          "action": "D가 빈 축포를 한 번 더 눌러 보지만 아무것도 나오지 않는다. 입구를 살짝 내려다본다.",
+          "frame_end": "같은 빈 축포, D의 과장된 자부심이 짧게 멎음. S는 바닥의 받기를 본다.",
+          "composition": "D 상반신과 화면 아래 받기 둘 다 보임. 꽃가루 새로 생성 금지.",
+          "caption_cues": [],
+          "post_composites": [],
+          "transition": "S가 본 받기와 호스 방향으로 컷.",
+          "intent": "정작 축하할 때 남은 것이 없는 두 번째 반전. 같은 소모품을 재활용해 인과를 기억시킴.",
+          "continuity": [
+            "금색 축포는 K02 동일 물건, 재장전·두 번째 축포 없음",
+            "받기 속 종이꽃가루 그대로"
+          ],
+          "scene_id": "S07",
+          "duration": 3,
+          "interval": "19–22초",
+          "dialogue": "없음",
+          "narration": "없음",
+          "music_sfx_silence": "19초 브라스가 들어오려다 빈 플라스틱 클릭.20.5–21.2초0.7초 정적.",
+          "screen_action": "D가 빈 축포를 한 번 더 눌러 보지만 아무것도 나오지 않는다. 입구를 살짝 내려다본다.",
+          "frame_start_description": "D 같은 T마크에서 빈 금색 축포를 다시 양손에 들어 작동 전. S 옆에서 기다림. 꽃가루 담긴 받기는 D 앞 바닥에 보임.",
+          "frame_end_description": "같은 빈 축포, D의 과장된 자부심이 짧게 멎음. S는 바닥의 받기를 본다.",
+          "main_motion_count": 1,
+          "image_generation_required": true,
+          "video_generation_required": true,
+          "first_frame_prompt_en": "Create one cinematic 16:9 horizontal first-frame key image for a later live-action commercial comedy video. This is the exact BEFORE-action frame, not a collage or a completed action. Preserve realistic anatomy, natural contact with surfaces, and a clean readable hierarchy. No subtitles, readable interface text, dates, venue information, logos or watermark-like graphics; specified text will be composited afterward.  Visible cast only: The director is a very tall, very slim Mediterranean woman in her late 30s with olive skin, a precise jet-black V-shaped chin-length bob, long sharp brows and yellow-tinted wing-shaped glasses. Lime-green broad-shouldered pantsuit, magenta turtleneck, white sneakers. | The stagehand is a very tall, slender East Asian adult in their 20s with long copper-colored braided hair over one shoulder and a small triangular chin, an androgynous appearance. Charcoal work jumpsuit, white over-ear headset, white-soled work shoes. Scene: Medium shot of the lime-suited director on the same floor T-mark, now holding the visibly spent gold confetti tube in both hands before trying it again. The copper-braided stagehand stands beside and behind her. At the lower edge show the black dustpan containing the recovered colored paper on the floor in front of the T-mark. Nothing is airborne. Preserve one tube only and the director's expectant face.",
+          "future_motion_notes": {
+            "camera": "기본 고정. D 상반신과 화면 아래 받기 둘 다 보임. 꽃가루 새로 생성 금지.",
+            "start": "첫 프레임의 동작 전 상태에서 시작",
+            "main": "D가 빈 축포를 한 번 더 눌러 보지만 아무것도 나오지 않는다. 입구를 살짝 내려다본다.",
+            "end": "같은 빈 축포, D의 과장된 자부심이 짧게 멎음. S는 바닥의 받기를 본다.",
+            "frame_holds": "시작과 끝에 편집 여유 확보. 영상 전체8초를 자동 본편 사용하지 않음.",
+            "audio": "음성대사/생성 자막/생성 음악 없음. BGM/SFX 후편집.",
+            "acceptance": "시작→행동→완료, 손·소품·바닥 접점 확인. 상세 프롬프트가 성공을 보장하지 않음."
+          }
+        },
+        {
+          "id": "C01_K08",
+          "start": 22,
+          "end": 23.5,
+          "visible": [
+            "S"
+          ],
+          "frame_start": "받기와 호스 입구만 크게 보이는 낮은 근접. S 양손 호스, 이미 뒤 송풍구에 연결된 상태. 받은 종이꽃가루 정지, 장비 OFF. 감독은 프레임 밖, T마크 끝만 가장자리에.",
+          "action": "S가 연결된 호스 입구를 받기 뒤쪽으로 짧게 낮춰 위치를 잡는다. 조립하거나 방향을 설명하지 않는다.",
+          "frame_end": "노즐이 받기 바로 뒤에서 종이를 날릴 준비, 아직 OFF. 감독 도착점은 보여주지 않음.",
+          "composition": "손·호스·받기 위주 고정 근접. 감독 얼굴/몸을 보여 마지막 결과를 미리 설명하지 않음.",
+          "caption_cues": [
+            {
+              "start": 22.15,
+              "end": 23.4,
+              "text": "있는 걸로 갑니다.",
+              "placement": "상단 빈 세트 배경"
+            }
+          ],
+          "post_composites": [],
+          "transition": "같은 방향의 넓은 전경으로 컷해 실행 원인 보존.",
+          "intent": "이미 수거한 종이를 재활용할 준비만1.5초에 전달하고 감독에게 맞을 결과의 예고를 줄임.",
+          "continuity": [
+            "호스 송풍구 연결 완료·발판 스위치 OFF, 두 손은 노즐",
+            "바깥 받기에 모은 종이를 송풍하는 구조. 흡입통 역분사 아님",
+            "감독은 K07의 T마크에 그대로 있으나 이 준비컷에는 프레임 밖"
+          ],
+          "scene_id": "S08",
+          "duration": 1.5,
+          "interval": "22–23.5초",
+          "dialogue": "없음",
+          "narration": "없음",
+          "music_sfx_silence": "22–23.5초 짧고 작은 드럼롤. 기계 작동음은 아직 없음.",
+          "screen_action": "S가 연결된 호스 입구를 받기 뒤쪽으로 짧게 낮춰 위치를 잡는다. 조립하거나 방향을 설명하지 않는다.",
+          "frame_start_description": "받기와 호스 입구만 크게 보이는 낮은 근접. S 양손 호스, 이미 뒤 송풍구에 연결된 상태. 받은 종이꽃가루 정지, 장비 OFF. 감독은 프레임 밖, T마크 끝만 가장자리에.",
+          "frame_end_description": "노즐이 받기 바로 뒤에서 종이를 날릴 준비, 아직 OFF. 감독 도착점은 보여주지 않음.",
+          "main_motion_count": 1,
+          "image_generation_required": true,
+          "video_generation_required": true,
+          "first_frame_prompt_en": "Create one cinematic 16:9 horizontal first-frame key image for a later live-action commercial comedy video. This is the exact BEFORE-action frame, not a collage or a completed action. Preserve realistic anatomy, natural contact with surfaces, and a clean readable hierarchy. No subtitles, readable interface text, dates, venue information, logos or watermark-like graphics; specified text will be composited afterward.  Visible cast only: The tall slender East Asian stagehand in a charcoal work jumpsuit, with long copper-colored braid and white headset; only the relevant hands, sleeves and one shoe need be visible. Scene: Tight low shot of the stagehand's two hands holding the end of the already-connected black blower hose just above and behind the black dustpan filled with large colored paper confetti. The machine is OFF and the small wired floor pedal is unpressed near the stagehand's right shoe. The nozzle has not yet been lowered into its final working position. The director is entirely outside this frame; only a tiny end of the floor T-mark may appear at the edge. No assembly, airborne paper, broad explanatory composition or view of the future impact target.",
+          "future_motion_notes": {
+            "camera": "기본 고정. 손·호스·받기 위주 고정 근접. 감독 얼굴/몸을 보여 마지막 결과를 미리 설명하지 않음.",
+            "start": "첫 프레임의 동작 전 상태에서 시작",
+            "main": "S가 연결된 호스 입구를 받기 뒤쪽으로 짧게 낮춰 위치를 잡는다. 조립하거나 방향을 설명하지 않는다.",
+            "end": "노즐이 받기 바로 뒤에서 종이를 날릴 준비, 아직 OFF. 감독 도착점은 보여주지 않음.",
+            "frame_holds": "시작과 끝에 편집 여유 확보. 영상 전체8초를 자동 본편 사용하지 않음.",
+            "audio": "음성대사/생성 자막/생성 음악 없음. BGM/SFX 후편집.",
+            "acceptance": "시작→행동→완료, 손·소품·바닥 접점 확인. 상세 프롬프트가 성공을 보장하지 않음."
+          }
+        },
+        {
+          "id": "C01_K09",
+          "start": 23.5,
+          "end": 28.5,
+          "visible": [
+            "D",
+            "S",
+            "Q"
+          ],
+          "frame_start": "같은 축 넓은 샷. S 호스 받기 뒤, 종이 받기에 모임, D 앞에 서서 빈 축포 들고 축하 기대. Q 왼쪽 책상 안전.",
+          "action": "S가 오른발로 바닥 발판 스위치를 눌러 송풍을 켜자 받기 위 종이가 바람을 타고 D에게만 날아가 머리·수트에 달라붙는다. 같은 발로 끄고 종이가 가라앉는다.",
+          "frame_end": "D는 종이꽃가루를 뒤집어쓴 채 빈 축포를 들고 멈춤. 호스 OFF, 받기 거의 비움. Q와 원문은 깨끗함.",
+          "composition": "고정 와이드, 종이 이동 경로와 세 인물 감정 대비. 노즐 사람에 직접 닿지 않으며 종이 조각은 가볍고 큰 형태.",
+          "caption_cues": [],
+          "post_composites": [],
+          "transition": "꽃가루 맞은 D를 배경에 남기고 Q의 서류 제시로 컷.",
+          "intent": "같은 종이꽃가루를 또 쓰는 절약이 감독만 축하하는 행사로 뒤집힘. 담당자는 사내 조롱의 대상이 아님.",
+          "continuity": [
+            "바람은 S→받기→D, 벽/창/책상 손상 없음",
+            "종이에서 새 물건이 생기거나 폭발하지 않음",
+            "D 손 빈 축포 유지"
+          ],
+          "scene_id": "S09",
+          "duration": 5,
+          "interval": "23.5–28.5초",
+          "dialogue": "없음",
+          "narration": "없음",
+          "music_sfx_silence": "23.5초 송풍음+브라스1마디,26초 발판OFF와 음악 절단.26–27초1초정적 뒤 종이 사각거림.",
+          "screen_action": "S가 오른발로 바닥 발판 스위치를 눌러 송풍을 켜자 받기 위 종이가 바람을 타고 D에게만 날아가 머리·수트에 달라붙는다. 같은 발로 끄고 종이가 가라앉는다.",
+          "frame_start_description": "같은 축 넓은 샷. S 호스 받기 뒤, 종이 받기에 모임, D 앞에 서서 빈 축포 들고 축하 기대. Q 왼쪽 책상 안전.",
+          "frame_end_description": "D는 종이꽃가루를 뒤집어쓴 채 빈 축포를 들고 멈춤. 호스 OFF, 받기 거의 비움. Q와 원문은 깨끗함.",
+          "main_motion_count": 1,
+          "image_generation_required": true,
+          "video_generation_required": true,
+          "first_frame_prompt_en": "Create one cinematic 16:9 horizontal first-frame key image for a later live-action commercial comedy video. This is the exact BEFORE-action frame, not a collage or a completed action. Preserve realistic anatomy, natural contact with surfaces, and a clean readable hierarchy. No subtitles, readable interface text, dates, venue information, logos or watermark-like graphics; specified text will be composited afterward.  Visible cast only: The director is a very tall, very slim Mediterranean woman in her late 30s with olive skin, a precise jet-black V-shaped chin-length bob, long sharp brows and yellow-tinted wing-shaped glasses. Lime-green broad-shouldered pantsuit, magenta turtleneck, white sneakers. | The stagehand is a very tall, slender East Asian adult in their 20s with long copper-colored braided hair over one shoulder and a small triangular chin, an androgynous appearance. Charcoal work jumpsuit, white over-ear headset, white-soled work shoes. | The quality specialist is a broad, solidly built South Asian man in his early 40s, medium height, deep brown skin, round shaved head, short full black beard and no glasses. Burgundy cardigan, pale-blue shirt, dark beige trousers. Scene: Locked wide office-set shot from the same side as the setup. The stagehand holds the OFF blower nozzle behind the dustpan full of paper. The lime-suited director stands in its paper path holding the spent gold confetti tube, smiling in anticipation. On the far LEFT the bearded quality specialist and his clean desk remain well outside the airflow. No paper is airborne in this first frame. Show nozzle, dustpan, director's whole upper body and enough empty air for the paper arc. A small wired foot switch lies just under the stagehand's RIGHT shoe, not yet pressed, so both hands can remain on the hose.",
+          "future_motion_notes": {
+            "camera": "기본 고정. 고정 와이드, 종이 이동 경로와 세 인물 감정 대비. 노즐 사람에 직접 닿지 않으며 종이 조각은 가볍고 큰 형태.",
+            "start": "첫 프레임의 동작 전 상태에서 시작",
+            "main": "S가 오른발로 바닥 발판 스위치를 눌러 송풍을 켜자 받기 위 종이가 바람을 타고 D에게만 날아가 머리·수트에 달라붙는다. 같은 발로 끄고 종이가 가라앉는다.",
+            "end": "D는 종이꽃가루를 뒤집어쓴 채 빈 축포를 들고 멈춤. 호스 OFF, 받기 거의 비움. Q와 원문은 깨끗함.",
+            "frame_holds": "시작과 끝에 편집 여유 확보. 영상 전체8초를 자동 본편 사용하지 않음.",
+            "audio": "음성대사/생성 자막/생성 음악 없음. BGM/SFX 후편집.",
+            "acceptance": "시작→행동→완료, 손·소품·바닥 접점 확인. 상세 프롬프트가 성공을 보장하지 않음."
+          }
+        },
+        {
+          "id": "C01_K10",
+          "start": 28.5,
+          "end": 32.5,
+          "visible": [
+            "Q",
+            "D"
+          ],
+          "frame_start": "Q 앞에 K05~K06의 기존 노트북과 같은 청색 탭 확인 원문 P가 그대로 있다. 펜은 오른쪽 펜받침에 내려놓여 있고 Q 오른손 비움. 왼손은 책상 원문을 들어 보이기 직전. D 뒤오른쪽은 꽃가루/빈축포 유지.",
+          "action": "Q가 왼손으로 같은 확인 원문 P를 들어 기존 노트북 결과 바로 옆에 나란히 보이도록 각도만 맞춘다.",
+          "frame_end": "기존 노트북의 수정 조건·동그라미 결과와 같은 원문의 동그라미·사람 확인 체크가 함께 보임. 새 문서나 기록 묶음 없음. 펜 받침, 오른손 비움.",
+          "composition": "노트북과 같은 원문을 전경에, Q 얼굴 중경, 종이 덮인 D 후경. 새로운 정리 패킷/보고서를 갑자기 제시하지 않음.",
+          "caption_cues": [
+            {
+              "start": 28.8,
+              "end": 32.3,
+              "text": "결과와, 확인한 근거.",
+              "placement": "상단 빈 벽"
+            }
+          ],
+          "post_composites": [
+            "기존 노트북의 '선택 범위: 대상 항목'과 동그라미 결과, 같은 P 원문의 동그라미/작은 사람 확인 체크를 유지. 새 결과/과정 표지 문서 생성 없음."
+          ],
+          "transition": "32.5초 별도 전체 화면 엔딩 카드.",
+          "intent": "새로 준비된 문서로 건너뛰지 않고 실제 확인에 쓴 원문과 결과 자체를 제시해 행사 메시지로 연결.",
+          "continuity": [
+            "P와 노트북은 K05~K06과 동일, 새 문서 출처 문제 제거",
+            "확인 뒤 컷 전환 동안 펜은 원래 오른쪽 펜받침에 내려놓음; 시작 프레임에 받침과 펜이 보임",
+            "Q 왼손 원문, 오른손 빈 채 책상. D 축포/머리종이 유지"
+          ],
+          "scene_id": "S10",
+          "duration": 4,
+          "interval": "28.5–32.5초",
+          "dialogue": "없음",
+          "narration": "없음",
+          "music_sfx_silence": "28.5–32.5초 작은 베이스/브러시로 정상 업무 리듬. 과장된 브라스 없음.",
+          "screen_action": "Q가 왼손으로 같은 확인 원문 P를 들어 기존 노트북 결과 바로 옆에 나란히 보이도록 각도만 맞춘다.",
+          "frame_start_description": "Q 앞에 K05~K06의 기존 노트북과 같은 청색 탭 확인 원문 P가 그대로 있다. 펜은 오른쪽 펜받침에 내려놓여 있고 Q 오른손 비움. 왼손은 책상 원문을 들어 보이기 직전. D 뒤오른쪽은 꽃가루/빈축포 유지.",
+          "frame_end_description": "기존 노트북의 수정 조건·동그라미 결과와 같은 원문의 동그라미·사람 확인 체크가 함께 보임. 새 문서나 기록 묶음 없음. 펜 받침, 오른손 비움.",
+          "main_motion_count": 1,
+          "image_generation_required": true,
+          "video_generation_required": true,
+          "first_frame_prompt_en": "Create one cinematic 16:9 horizontal first-frame key image for a later live-action commercial comedy video. This is the exact BEFORE-action frame, not a collage or a completed action. Preserve realistic anatomy, natural contact with surfaces, and a clean readable hierarchy. No subtitles, readable interface text, dates, venue information, logos or watermark-like graphics; specified text will be composited afterward.  Visible cast only: The quality specialist is a broad, solidly built South Asian man in his early 40s, medium height, deep brown skin, round shaved head, short full black beard and no glasses. Burgundy cardigan, pale-blue shirt, dark beige trousers. | The director is a very tall, very slim Mediterranean woman in her late 30s with olive skin, a precise jet-black V-shaped chin-length bob, long sharp brows and yellow-tinted wing-shaped glasses. Lime-green broad-shouldered pantsuit, magenta turtleneck, white sneakers. Scene: Medium desk view of the bearded quality specialist in burgundy cardigan. The SAME existing laptop remains angled toward camera beside the SAME blue-tabbed source sheet used in verification. No new report or second paper packet is present. The black pen has been put back into its shallow rest at screen-right and is clearly visible; his RIGHT hand is empty on the desk, while his LEFT hand hovers at the source sheet's edge before lifting that one sheet alongside the laptop. Leave clean compositing regions on laptop and paper for their matching circle and one verification check. In the RIGHT background the lime-suited director remains covered in confetti and holds the empty gold tube.",
+          "future_motion_notes": {
+            "camera": "기본 고정. 노트북과 같은 원문을 전경에, Q 얼굴 중경, 종이 덮인 D 후경. 새로운 정리 패킷/보고서를 갑자기 제시하지 않음.",
+            "start": "첫 프레임의 동작 전 상태에서 시작",
+            "main": "Q가 왼손으로 같은 확인 원문 P를 들어 기존 노트북 결과 바로 옆에 나란히 보이도록 각도만 맞춘다.",
+            "end": "기존 노트북의 수정 조건·동그라미 결과와 같은 원문의 동그라미·사람 확인 체크가 함께 보임. 새 문서나 기록 묶음 없음. 펜 받침, 오른손 비움.",
+            "frame_holds": "시작과 끝에 편집 여유 확보. 영상 전체8초를 자동 본편 사용하지 않음.",
+            "audio": "음성대사/생성 자막/생성 음악 없음. BGM/SFX 후편집.",
+            "acceptance": "시작→행동→완료, 손·소품·바닥 접점 확인. 상세 프롬프트가 성공을 보장하지 않음."
+          }
+        },
+        {
+          "id": "C01_K11",
+          "start": 32.5,
+          "end": 37.5,
+          "visible": [],
+          "frame_start": "별도 무광 밝은 아이보리 엔딩 카드. 영상 소품·얼굴 없음.",
+          "action": "고정 타이포 카드 5초 유지.",
+          "frame_end": "행사명/성격/카피 그대로 읽을 수 있음.",
+          "composition": "안전 여백 8%, 상단 카피, 중앙 Q-AI Fair, 하단 품질팀 AI 성과 교류회.",
+          "caption_cues": [
+            {
+              "start": 32.5,
+              "end": 37.5,
+              "text": "축하는 크게. 사례는 정확하게.\nQ-AI Fair\n품질팀 AI 성과 교류회",
+              "placement": "별도 전체 화면 카드"
+            }
+          ],
+          "post_composites": [
+            "타이포그래피 후편집, 생성 모델로 글자 제작하지 않음."
+          ],
+          "transition": "끝. 행사 일시/장소/신청 링크 없음.",
+          "intent": "광고의 축하와 사례의 정확성을 한 문장으로 회수하고 행사명 5초 확보.",
+          "continuity": [
+            "정확한 일시/상금/성과수치 추가 금지"
+          ],
+          "is_card": true,
+          "scene_id": "S11",
+          "duration": 5,
+          "interval": "32.5–37.5초",
+          "dialogue": "없음",
+          "narration": "없음",
+          "music_sfx_silence": "32.5초 따뜻한 짧은 마무리 화음.37–37.5초0.5초 페이드.",
+          "screen_action": "고정 타이포 카드 5초 유지.",
+          "frame_start_description": "별도 무광 밝은 아이보리 엔딩 카드. 영상 소품·얼굴 없음.",
+          "frame_end_description": "행사명/성격/카피 그대로 읽을 수 있음.",
+          "main_motion_count": 0,
+          "image_generation_required": false,
+          "video_generation_required": false,
+          "first_frame_prompt_en": null,
+          "future_motion_notes": {
+            "camera": "기본 고정. 안전 여백 8%, 상단 카피, 중앙 Q-AI Fair, 하단 품질팀 AI 성과 교류회.",
+            "start": "첫 프레임의 동작 전 상태에서 시작",
+            "main": "고정 타이포 카드 5초 유지.",
+            "end": "행사명/성격/카피 그대로 읽을 수 있음.",
+            "frame_holds": "시작과 끝에 편집 여유 확보. 영상 전체8초를 자동 본편 사용하지 않음.",
+            "audio": "음성대사/생성 자막/생성 음악 없음. BGM/SFX 후편집.",
+            "acceptance": "시작→행동→완료, 손·소품·바닥 접점 확인. 상세 프롬프트가 성공을 보장하지 않음."
+          }
+        }
+      ],
+      "assumptions": [
+        "비율 16:9, 향후 동작 원본 기본8초를 가정하되 현재는 기획만",
+        "행사명 Q-AI Fair/품질팀 AI 성과 교류회 외 일정·장소·신청 방식은 미확정",
+        "서류·UI·단위 예시는 설명용 허구이며 실제 성과 수치나 품질 보증이 아님"
+      ],
+      "source_basis": [
+        "AGENTS.md",
+        "team/brief.toml",
+        "storyboards/2026-10-26_C01-C07-C10-rewrite-v15/common_brief.json",
+        "2026-10-26 총괄 PD 선정 카드와 후속 C10 축소 지시",
+        "기존 C02~C06 v11 characters와 C08/C09 v13 cast 비교"
+      ],
+      "status": "REVISED_AFTER_THREE_REVIEWERS_PENDING_RECHECK",
+      "dialogue_policy": "대사·내레이션·필수 음성 0. 자막/몸짓/소품 이동만으로 완결.",
+      "music_direction": {
+        "generation": "후속 단계에서 장르에 맞춘 오리지널 BGM 작곡 후 편집. 현재 음원 생성 없음.",
+        "role": "정보를 대신하지 않고 긴장/박자/정적만 보조. 무음 완주 검수 필수.",
+        "copyright": "qrew·레퍼런스 원음악 복사 금지.",
+        "cue_source": "각 shots[].music_sfx_silence (수정된 절대 타임라인에 동기화)"
+      },
+      "caption_style": {
+        "basis": "기존 상영본 공통 스타일과 최종 통합 시 맞춤",
+        "body": "1080p 기준64~72px 전후 굵은 산세리프, 기본최대2줄, 안전여백8%, 밝은글자/어두운대비 패널. 얼굴·손·접점 회피.",
+        "ending": "별도5초 카드3줄. Q-AI Fair 최대 크기, 품질팀 AI 성과 교류회는 최소 본문 크기. 행사명 읽을 시간 우선.",
+        "timing": "각 자막 큐는 전체 작품 절대시간. 편집 길이 변경 시 전체큐 재산정."
+      },
+      "scene_list": [
+        {
+          "concept_id": "C01",
+          "scene_id": "S01",
+          "linked_cuts": [
+            "C01_K01"
+          ],
+          "generation_kind": "generated_first_frame_then_motion",
+          "representative_frame": "광고 세트 와이드. Q는 왼쪽 책상 노트북 앞, 원문을 왼손에 들고 오른손은 트랙패드 위. D는 오른쪽 T마크에서 금색 축포를 양손으로 잡고 아직 작동하지 않았다. 결과 UI는 빈 후합성 영역.",
+          "characters": [
+            "D",
+            "Q"
+          ],
+          "first_frame_prompt_ref": "concepts[0].shots[0].first_frame_prompt_en",
+          "planned_image_path": "storyboards/2026-10-26_C01-C07-C10-rewrite-v15/images/C01/S01.png",
+          "actual_file": null,
+          "image_status": "NOT_GENERATED",
+          "aspect_ratio": "16:9",
+          "continuity": [
+            "P 원문 Q 왼손, D 축포 아직 가득",
+            "노트북 결과 등장만으로 실제 성공을 주장하지 않음"
+          ],
+          "motion_camera_notes": {
+            "camera": "기본 고정. 눈높이 28mm 와이드. 왼쪽 화면 평면과 오른쪽 과장된 촬영 준비를 함께. 조명 스탠드는 가장자리.",
+            "start": "첫 프레임의 동작 전 상태에서 시작",
+            "main": "노트북에 AI 정리 결과가 나타나자 D의 눈과 축포 든 팔이 동시에 기대감으로 올라간다. 아직 발사하지 않음.",
+            "end": "AI 결과는 떴지만 확인 표시는 없음. D 축포를 위로 들고 준비, Q 원문 들고 화면을 봄.",
+            "frame_holds": "시작과 끝에 편집 여유 확보. 영상 전체8초를 자동 본편 사용하지 않음.",
+            "audio": "음성대사/생성 자막/생성 음악 없음. BGM/SFX 후편집.",
+            "acceptance": "시작→행동→완료, 손·소품·바닥 접점 확인. 상세 프롬프트가 성공을 보장하지 않음."
+          }
+        },
+        {
+          "concept_id": "C01",
+          "scene_id": "S02",
+          "linked_cuts": [
+            "C01_K02"
+          ],
+          "generation_kind": "generated_first_frame_then_motion",
+          "representative_frame": "D가 오른쪽 T마크에서 금색 축포를 비스듬히 위로 향하게 든다. 종이꽃가루 아직 공중에 없음. Q는 왼쪽 후경 원문.",
+          "characters": [
+            "D",
+            "Q"
+          ],
+          "first_frame_prompt_ref": "concepts[0].shots[1].first_frame_prompt_en",
+          "planned_image_path": "storyboards/2026-10-26_C01-C07-C10-rewrite-v15/images/C01/S02.png",
+          "actual_file": null,
+          "image_status": "NOT_GENERATED",
+          "aspect_ratio": "16:9",
+          "continuity": [
+            "금색 축포 단 하나를 여기서 전량 소진",
+            "큰 종이 조각만, 화약 불꽃/연기/얼굴 충격 없음"
+          ],
+          "motion_camera_notes": {
+            "camera": "기본 고정. D 중심 미디엄 와이드, 축포 입구와 발사 경로를 위쪽 여백에. 얼굴 직접 조준 금지.",
+            "start": "첫 프레임의 동작 전 상태에서 시작",
+            "main": "D가 축포를 한 번 발사한다. 큰 색종이 조각이 오른쪽 촬영 공간에만 터지고 가라앉는다.",
+            "end": "D 손에는 빈 축포. 바닥 오른쪽에 종이꽃가루가 쌓임. Q와 책상에는 거의 닿지 않음.",
+            "frame_holds": "시작과 끝에 편집 여유 확보. 영상 전체8초를 자동 본편 사용하지 않음.",
+            "audio": "음성대사/생성 자막/생성 음악 없음. BGM/SFX 후편집.",
+            "acceptance": "시작→행동→완료, 손·소품·바닥 접점 확인. 상세 프롬프트가 성공을 보장하지 않음."
+          }
+        },
+        {
+          "concept_id": "C01",
+          "scene_id": "S03",
+          "linked_cuts": [
+            "C01_K03"
+          ],
+          "generation_kind": "generated_first_frame_then_motion",
+          "representative_frame": "Q 근접. 왼손 원문 큰 동그라미, 노트북 결과 큰 삼각형을 대조할 수 있는 구도. 오른손은 화면 아래 비어 있음. D 후경 축포를 내려 든 채.",
+          "characters": [
+            "Q",
+            "D"
+          ],
+          "first_frame_prompt_ref": "concepts[0].shots[2].first_frame_prompt_en",
+          "planned_image_path": "storyboards/2026-10-26_C01-C07-C10-rewrite-v15/images/C01/S03.png",
+          "actual_file": null,
+          "image_status": "NOT_GENERATED",
+          "aspect_ratio": "16:9",
+          "continuity": [
+            "Q는 아직 결과 완료를 승인하지 않음",
+            "D 빈 축포 유지, 손에서 사라지지 않음"
+          ],
+          "motion_camera_notes": {
+            "camera": "기본 고정. 원문·노트북·Q 얼굴과 중단 손을 함께 보는 미디엄. 작은 글자를 읽지 않아도 두 도형 불일치.",
+            "start": "첫 프레임의 동작 전 상태에서 시작",
+            "main": "Q가 원문과 결과를 한 번 번갈아 본 뒤 빈 오른손 손바닥을 D 쪽으로 들어 멈춘다.",
+            "end": "Q 오른손 중단 손바닥, 왼손 원문. D 축하 동작 중지. 꽃가루 바닥.",
+            "frame_holds": "시작과 끝에 편집 여유 확보. 영상 전체8초를 자동 본편 사용하지 않음.",
+            "audio": "음성대사/생성 자막/생성 음악 없음. BGM/SFX 후편집.",
+            "acceptance": "시작→행동→완료, 손·소품·바닥 접점 확인. 상세 프롬프트가 성공을 보장하지 않음."
+          }
+        },
+        {
+          "concept_id": "C01",
+          "scene_id": "S04",
+          "linked_cuts": [
+            "C01_K04"
+          ],
+          "generation_kind": "generated_first_frame_then_motion",
+          "representative_frame": "스태프 S가 오른쪽 바닥 색종이 앞에 무릎을 약간 굽힘. 왼손 쓰레받기 손잡이로 바닥 고정, 오른손 빗자루. D T마크 뒤에서 빈 축포를 들고 기다림.",
+          "characters": [
+            "S",
+            "D"
+          ],
+          "first_frame_prompt_ref": "concepts[0].shots[3].first_frame_prompt_en",
+          "planned_image_path": "storyboards/2026-10-26_C01-C07-C10-rewrite-v15/images/C01/S04.png",
+          "actual_file": null,
+          "image_status": "NOT_GENERATED",
+          "aspect_ratio": "16:9",
+          "continuity": [
+            "수거한 종이는 버리지 않고 받기에 남음",
+            "받기는 D 앞 바닥 같은 위치 K08까지 고정",
+            "흡입 청소로 수거통에 넣었다가 역분사하는 설정 아님"
+          ],
+          "motion_camera_notes": {
+            "camera": "기본 고정. 바닥과 두 손, 감독의 기다리는 다리까지. 받기와 T마크 위치를 같이 보여 다음 송풍 인과 고정.",
+            "start": "첫 프레임의 동작 전 상태에서 시작",
+            "main": "S가 큰 종이꽃가루를 빗자루로 한 번 길게 밀어 넓은 쓰레받기에 모은다.",
+            "end": "색종이가 쓰레받기에 모였고 받기는 오른쪽 T마크 앞 바닥에 놓임. 빗자루는 S 오른손, 받기에서 왼손 뗌.",
+            "frame_holds": "시작과 끝에 편집 여유 확보. 영상 전체8초를 자동 본편 사용하지 않음.",
+            "audio": "음성대사/생성 자막/생성 음악 없음. BGM/SFX 후편집.",
+            "acceptance": "시작→행동→완료, 손·소품·바닥 접점 확인. 상세 프롬프트가 성공을 보장하지 않음."
+          }
+        },
+        {
+          "concept_id": "C01",
+          "scene_id": "S05",
+          "linked_cuts": [
+            "C01_K05"
+          ],
+          "generation_kind": "generated_first_frame_then_motion",
+          "representative_frame": "Q 어깨너머, P 원문은 왼쪽 책상에 펼쳐져 청색 탭 보임. 노트북 입력 조건 펼침. Q 오른 검지가 트랙패드 위, 왼손 원문 옆.",
+          "characters": [
+            "Q"
+          ],
+          "first_frame_prompt_ref": "concepts[0].shots[4].first_frame_prompt_en",
+          "planned_image_path": "storyboards/2026-10-26_C01-C07-C10-rewrite-v15/images/C01/S05.png",
+          "actual_file": null,
+          "image_status": "NOT_GENERATED",
+          "aspect_ratio": "16:9",
+          "continuity": [
+            "P 원문은 Q가 K03 후 책상에 내려놓은 일반 작업 전환, 청색 탭 유지",
+            "수정 대상은 입력 조건 한 개, 원문 자체를 결과에 맞춰 고치지 않음"
+          ],
+          "motion_camera_notes": {
+            "camera": "기본 고정. 고정 어깨너머. 원문과 UI를 동시에 크게; 여러 옵션·타이핑 없음.",
+            "start": "첫 프레임의 동작 전 상태에서 시작",
+            "main": "Q가 공유할 정리 양식의 적용 범위를 '전체'에서 원문에 맞는 '대상 항목'으로 한 번 바꾸고 재적용한다.",
+            "end": "노트북 결과가 원문과 같은 큰 동그라미로 바뀌지만 아직 사람 확인 체크 없음.",
+            "frame_holds": "시작과 끝에 편집 여유 확보. 영상 전체8초를 자동 본편 사용하지 않음.",
+            "audio": "음성대사/생성 자막/생성 음악 없음. BGM/SFX 후편집.",
+            "acceptance": "시작→행동→완료, 손·소품·바닥 접점 확인. 상세 프롬프트가 성공을 보장하지 않음."
+          }
+        },
+        {
+          "concept_id": "C01",
+          "scene_id": "S06",
+          "linked_cuts": [
+            "C01_K06"
+          ],
+          "generation_kind": "generated_first_frame_then_motion",
+          "representative_frame": "원문과 재적용 결과의 큰 동그라미가 나란히 후합성될 안정 화면. 검정펜은 원문 오른쪽 낮은 펜받침에 놓여 있고 Q 오른손이 잡기 직전, 왼손 종이 고정.",
+          "characters": [
+            "Q"
+          ],
+          "first_frame_prompt_ref": "concepts[0].shots[5].first_frame_prompt_en",
+          "planned_image_path": "storyboards/2026-10-26_C01-C07-C10-rewrite-v15/images/C01/S06.png",
+          "actual_file": null,
+          "image_status": "NOT_GENERATED",
+          "aspect_ratio": "16:9",
+          "continuity": [
+            "체크는 자동생성 아님; 펜 접촉 뒤에만 나타남",
+            "원문 조건을 결과에 맞춰 변조하지 않음",
+            "펜 획득을 컷 안에서 보여 준다. K10 문서 제시 전 펜은 책상 받침에 되돌려 놓인 상태로 명시."
+          ],
+          "motion_camera_notes": {
+            "camera": "기본 고정. 손·원문·화면을 함께 잡고 마지막 얼굴 시선까지; 정확한 체크는 후합성 가능.",
+            "start": "첫 프레임의 동작 전 상태에서 시작",
+            "main": "Q가 오른손으로 펜받침의 검정펜을 집어 같은 항목을 다시 대조하고 원문 확인칸에 작은 체크 하나를 한다.",
+            "end": "사람 확인 체크 1개. 펜은 오른손에 들려 종이에서 떨어짐, Q가 감독 쪽을 보는 작은 고개 끄덕임.",
+            "frame_holds": "시작과 끝에 편집 여유 확보. 영상 전체8초를 자동 본편 사용하지 않음.",
+            "audio": "음성대사/생성 자막/생성 음악 없음. BGM/SFX 후편집.",
+            "acceptance": "시작→행동→완료, 손·소품·바닥 접점 확인. 상세 프롬프트가 성공을 보장하지 않음."
+          }
+        },
+        {
+          "concept_id": "C01",
+          "scene_id": "S07",
+          "linked_cuts": [
+            "C01_K07"
+          ],
+          "generation_kind": "generated_first_frame_then_motion",
+          "representative_frame": "D 같은 T마크에서 빈 금색 축포를 다시 양손에 들어 작동 전. S 옆에서 기다림. 꽃가루 담긴 받기는 D 앞 바닥에 보임.",
+          "characters": [
+            "D",
+            "S"
+          ],
+          "first_frame_prompt_ref": "concepts[0].shots[6].first_frame_prompt_en",
+          "planned_image_path": "storyboards/2026-10-26_C01-C07-C10-rewrite-v15/images/C01/S07.png",
+          "actual_file": null,
+          "image_status": "NOT_GENERATED",
+          "aspect_ratio": "16:9",
+          "continuity": [
+            "금색 축포는 K02 동일 물건, 재장전·두 번째 축포 없음",
+            "받기 속 종이꽃가루 그대로"
+          ],
+          "motion_camera_notes": {
+            "camera": "기본 고정. D 상반신과 화면 아래 받기 둘 다 보임. 꽃가루 새로 생성 금지.",
+            "start": "첫 프레임의 동작 전 상태에서 시작",
+            "main": "D가 빈 축포를 한 번 더 눌러 보지만 아무것도 나오지 않는다. 입구를 살짝 내려다본다.",
+            "end": "같은 빈 축포, D의 과장된 자부심이 짧게 멎음. S는 바닥의 받기를 본다.",
+            "frame_holds": "시작과 끝에 편집 여유 확보. 영상 전체8초를 자동 본편 사용하지 않음.",
+            "audio": "음성대사/생성 자막/생성 음악 없음. BGM/SFX 후편집.",
+            "acceptance": "시작→행동→완료, 손·소품·바닥 접점 확인. 상세 프롬프트가 성공을 보장하지 않음."
+          }
+        },
+        {
+          "concept_id": "C01",
+          "scene_id": "S08",
+          "linked_cuts": [
+            "C01_K08"
+          ],
+          "generation_kind": "generated_first_frame_then_motion",
+          "representative_frame": "받기와 호스 입구만 크게 보이는 낮은 근접. S 양손 호스, 이미 뒤 송풍구에 연결된 상태. 받은 종이꽃가루 정지, 장비 OFF. 감독은 프레임 밖, T마크 끝만 가장자리에.",
+          "characters": [
+            "S"
+          ],
+          "first_frame_prompt_ref": "concepts[0].shots[7].first_frame_prompt_en",
+          "planned_image_path": "storyboards/2026-10-26_C01-C07-C10-rewrite-v15/images/C01/S08.png",
+          "actual_file": null,
+          "image_status": "NOT_GENERATED",
+          "aspect_ratio": "16:9",
+          "continuity": [
+            "호스 송풍구 연결 완료·발판 스위치 OFF, 두 손은 노즐",
+            "바깥 받기에 모은 종이를 송풍하는 구조. 흡입통 역분사 아님",
+            "감독은 K07의 T마크에 그대로 있으나 이 준비컷에는 프레임 밖"
+          ],
+          "motion_camera_notes": {
+            "camera": "기본 고정. 손·호스·받기 위주 고정 근접. 감독 얼굴/몸을 보여 마지막 결과를 미리 설명하지 않음.",
+            "start": "첫 프레임의 동작 전 상태에서 시작",
+            "main": "S가 연결된 호스 입구를 받기 뒤쪽으로 짧게 낮춰 위치를 잡는다. 조립하거나 방향을 설명하지 않는다.",
+            "end": "노즐이 받기 바로 뒤에서 종이를 날릴 준비, 아직 OFF. 감독 도착점은 보여주지 않음.",
+            "frame_holds": "시작과 끝에 편집 여유 확보. 영상 전체8초를 자동 본편 사용하지 않음.",
+            "audio": "음성대사/생성 자막/생성 음악 없음. BGM/SFX 후편집.",
+            "acceptance": "시작→행동→완료, 손·소품·바닥 접점 확인. 상세 프롬프트가 성공을 보장하지 않음."
+          }
+        },
+        {
+          "concept_id": "C01",
+          "scene_id": "S09",
+          "linked_cuts": [
+            "C01_K09"
+          ],
+          "generation_kind": "generated_first_frame_then_motion",
+          "representative_frame": "같은 축 넓은 샷. S 호스 받기 뒤, 종이 받기에 모임, D 앞에 서서 빈 축포 들고 축하 기대. Q 왼쪽 책상 안전.",
+          "characters": [
+            "D",
+            "S",
+            "Q"
+          ],
+          "first_frame_prompt_ref": "concepts[0].shots[8].first_frame_prompt_en",
+          "planned_image_path": "storyboards/2026-10-26_C01-C07-C10-rewrite-v15/images/C01/S09.png",
+          "actual_file": null,
+          "image_status": "NOT_GENERATED",
+          "aspect_ratio": "16:9",
+          "continuity": [
+            "바람은 S→받기→D, 벽/창/책상 손상 없음",
+            "종이에서 새 물건이 생기거나 폭발하지 않음",
+            "D 손 빈 축포 유지"
+          ],
+          "motion_camera_notes": {
+            "camera": "기본 고정. 고정 와이드, 종이 이동 경로와 세 인물 감정 대비. 노즐 사람에 직접 닿지 않으며 종이 조각은 가볍고 큰 형태.",
+            "start": "첫 프레임의 동작 전 상태에서 시작",
+            "main": "S가 오른발로 바닥 발판 스위치를 눌러 송풍을 켜자 받기 위 종이가 바람을 타고 D에게만 날아가 머리·수트에 달라붙는다. 같은 발로 끄고 종이가 가라앉는다.",
+            "end": "D는 종이꽃가루를 뒤집어쓴 채 빈 축포를 들고 멈춤. 호스 OFF, 받기 거의 비움. Q와 원문은 깨끗함.",
+            "frame_holds": "시작과 끝에 편집 여유 확보. 영상 전체8초를 자동 본편 사용하지 않음.",
+            "audio": "음성대사/생성 자막/생성 음악 없음. BGM/SFX 후편집.",
+            "acceptance": "시작→행동→완료, 손·소품·바닥 접점 확인. 상세 프롬프트가 성공을 보장하지 않음."
+          }
+        },
+        {
+          "concept_id": "C01",
+          "scene_id": "S10",
+          "linked_cuts": [
+            "C01_K10"
+          ],
+          "generation_kind": "generated_first_frame_then_motion",
+          "representative_frame": "Q 앞에 K05~K06의 기존 노트북과 같은 청색 탭 확인 원문 P가 그대로 있다. 펜은 오른쪽 펜받침에 내려놓여 있고 Q 오른손 비움. 왼손은 책상 원문을 들어 보이기 직전. D 뒤오른쪽은 꽃가루/빈축포 유지.",
+          "characters": [
+            "Q",
+            "D"
+          ],
+          "first_frame_prompt_ref": "concepts[0].shots[9].first_frame_prompt_en",
+          "planned_image_path": "storyboards/2026-10-26_C01-C07-C10-rewrite-v15/images/C01/S10.png",
+          "actual_file": null,
+          "image_status": "NOT_GENERATED",
+          "aspect_ratio": "16:9",
+          "continuity": [
+            "P와 노트북은 K05~K06과 동일, 새 문서 출처 문제 제거",
+            "확인 뒤 컷 전환 동안 펜은 원래 오른쪽 펜받침에 내려놓음; 시작 프레임에 받침과 펜이 보임",
+            "Q 왼손 원문, 오른손 빈 채 책상. D 축포/머리종이 유지"
+          ],
+          "motion_camera_notes": {
+            "camera": "기본 고정. 노트북과 같은 원문을 전경에, Q 얼굴 중경, 종이 덮인 D 후경. 새로운 정리 패킷/보고서를 갑자기 제시하지 않음.",
+            "start": "첫 프레임의 동작 전 상태에서 시작",
+            "main": "Q가 왼손으로 같은 확인 원문 P를 들어 기존 노트북 결과 바로 옆에 나란히 보이도록 각도만 맞춘다.",
+            "end": "기존 노트북의 수정 조건·동그라미 결과와 같은 원문의 동그라미·사람 확인 체크가 함께 보임. 새 문서나 기록 묶음 없음. 펜 받침, 오른손 비움.",
+            "frame_holds": "시작과 끝에 편집 여유 확보. 영상 전체8초를 자동 본편 사용하지 않음.",
+            "audio": "음성대사/생성 자막/생성 음악 없음. BGM/SFX 후편집.",
+            "acceptance": "시작→행동→완료, 손·소품·바닥 접점 확인. 상세 프롬프트가 성공을 보장하지 않음."
+          }
+        },
+        {
+          "concept_id": "C01",
+          "scene_id": "S11",
+          "linked_cuts": [
+            "C01_K11"
+          ],
+          "generation_kind": "postproduction_title_card",
+          "representative_frame": "별도 무광 밝은 아이보리 엔딩 카드. 영상 소품·얼굴 없음.",
+          "characters": [],
+          "first_frame_prompt_ref": "concepts[0].shots[10].first_frame_prompt_en",
+          "planned_image_path": null,
+          "actual_file": null,
+          "image_status": "NOT_GENERATED",
+          "aspect_ratio": "16:9",
+          "continuity": [
+            "정확한 일시/상금/성과수치 추가 금지"
+          ],
+          "motion_camera_notes": {
+            "camera": "기본 고정. 안전 여백 8%, 상단 카피, 중앙 Q-AI Fair, 하단 품질팀 AI 성과 교류회.",
+            "start": "첫 프레임의 동작 전 상태에서 시작",
+            "main": "고정 타이포 카드 5초 유지.",
+            "end": "행사명/성격/카피 그대로 읽을 수 있음.",
+            "frame_holds": "시작과 끝에 편집 여유 확보. 영상 전체8초를 자동 본편 사용하지 않음.",
+            "audio": "음성대사/생성 자막/생성 음악 없음. BGM/SFX 후편집.",
+            "acceptance": "시작→행동→완료, 손·소품·바닥 접점 확인. 상세 프롬프트가 성공을 보장하지 않음."
+          }
+        }
+      ],
+      "ending_hold_seconds": 5,
+      "motion_clip_count": 10,
+      "continuity_table": [
+        {
+          "prop": "금색 축포",
+          "from": "D 양손 K01",
+          "transition": "K02 전량 발사→K07 동일 빈 축포 재시도",
+          "to": "K09/K10 꽃가루 맞은 D 손에 계속",
+          "forbidden": "교체·재장전·두 번째 축포"
+        },
+        {
+          "prop": "같은 원문 P/기존 노트북 결과",
+          "from": "Q 원문 왼손 K01~K03",
+          "transition": "K05 같은 원문 책상/노트북 조건 수정→K06 같은 항목 직접 체크→펜 원래 받침",
+          "to": "K10 왼손 같은 원문을 기존 노트북 옆에 제시",
+          "forbidden": "새 결과/과정 문서 순간 등장, 원문 변조, 자동 완료"
+        },
+        {
+          "prop": "꽃가루",
+          "from": "K02 공중→오른쪽 바닥",
+          "transition": "K04 빗자루로 받기에 모음→K08 같은 받기 뒤 송풍 준비",
+          "to": "K09 받기→D 머리/수트, 받기는 거의 빔",
+          "forbidden": "흡입통 역분사, 종이 순간 생성, Q 서류 오염"
+        },
+        {
+          "prop": "스태프 손/발",
+          "from": "K04 왼손 받기/오른손 빗자루",
+          "transition": "빗자루는 뒤카트에 기대 보관, K08 양손 호스",
+          "to": "K09 양손 호스 유지·오른발 발판 ON/OFF",
+          "forbidden": "세 번째 손으로 스위치 누르기"
+        }
+      ]
+    },
+    {
+      "id": "C07",
+      "title": "셰프님, 그것도 주세요",
+      "purpose": "완성된 AI 결과와 함께 실패·수정·확인 과정을 공유하는 Q-AI Fair 소개",
+      "format": "고급 미식 심사 장르 패러디",
+      "duration_seconds": 32.6,
+      "aspect_ratio": "16:9",
+      "one_line": "완벽하게 차려 낸 AI 결과보다 심사위원들이 탐내는 것은 셰프가 방금 정리한 수정 초안이다. 기록통까지 최고급 서비스로 대접하자 의자들이 앞으로 달려온다.",
+      "core_message": "결과만큼 궁금한, 그 과정.",
+      "comedy_intensity": 4,
+      "production_difficulty": "보통",
+      "hook": "비단 장갑과 은색 클로슈, 엄숙한 심사위원. 음식이 나올 줄 알았는데 완성된 AI 결과 한 장이 접시에 놓여 있다.",
+      "reversals": [
+        "완성작은 호화롭지만 레시피는 'AI 활용' 한 줄뿐이라 심사위원들의 표정이 얼어붙는다.",
+        "주목받지 않던 수정 초안 기록통에 가장 진지한 관심이 쏠린다.",
+        "기록통을 최고급 카트로 다시 서빙하니 격식을 지키던 심사위원이 한 명씩 의자를 끌어당긴다."
+      ],
+      "ending_connection": "결과보다 과정에 몰리는 몸의 방향 자체가 행사 메시지. 마지막을 필기나 박수로 끝내지 않고 의자 소리/움직임 3연타로 닫는다.",
+      "cast": [
+        {
+          "id": "CH",
+          "appearance": "30대 후반 동아시아 남성, 작고 다부진 체형, 넓고 둥근 얼굴, 짧은 적갈색 옆가르마, 턱수염 없음.",
+          "costume": "눈처럼 흰 더블브레스트 셰프복, 낮고 각진 흰 조리모, 라벤더 긴 앞치마, 흰 장갑.",
+          "performance": "완성도 높은 서비스에 자부심. 레시피 한 줄이면 충분할 줄 알았지만 손님이 과정을 원한다는 것을 깨닫고 진심으로 서비스."
+        },
+        {
+          "id": "JA",
+          "appearance": "50대 흑인 남성, 큰 체격과 아주 넓은 어깨, 매끈한 민머리, 둥근 얼굴, 턱 아래만 짧은 회색 수염. 안경 없음.",
+          "costume": "와인색 벨벳 디너 재킷, 검정 셔츠, 검정 나비넥타이.",
+          "performance": "중앙 수석 심사위원. 처음에는 매우 절제, 수정 기록을 보자 음식을 놓친 사람처럼 주의를 빼앗김."
+        },
+        {
+          "id": "JB",
+          "appearance": "20대 후반 동아시아 여성, 짧고 통통한 체형, 둥근 볼과 또렷한 눈, 긴 흰 금발 생머리를 낮게 단정히 묶음.",
+          "costume": "검정 새틴 턱시도, 흰 넓은 셔츠 칼라, 짙은 보라색 작은 브로치.",
+          "performance": "왼쪽 심사위원. 실무 과정에 호기심이 생기면 얼굴보다 몸이 먼저 앞으로 움직임."
+        },
+        {
+          "id": "JC",
+          "appearance": "60대 유럽계 여성, 매우 크고 가는 체형, 긴 코와 좁은 얼굴, 짙은 밤색 머리에 흰 한 가닥이 있는 매끈한 높은 시뇽, 가는 금색 반무테 안경.",
+          "costume": "짙은 남색 정장 드레스와 은회색 좁은 실크 스카프.",
+          "performance": "오른쪽 심사위원. 가장 점잖다가 마지막 의자 이동 폭이 가장 큼. 나이·체형을 조롱하지 않고 과잉 호기심이 웃음."
+        }
+      ],
+      "space_axis": "밤의 고급 레스토랑 심사실. 긴 흰 테이블 뒤에서 관객 기준 JB 왼쪽/JA 중앙/JC 오른쪽. 셰프는 화면 왼쪽 조리대와 중앙 서빙 카트를 오간다. 깨끗한 수정 초안 통은 왼쪽 조리대 옆 낮은 받침. 카트는 테이블 앞 중앙, 테이블/의자의 방향 유지.",
+      "props": [
+        {
+          "id": "FINAL",
+          "description": "완성 AI 결과 흰 A4 한 장을 접지 않고 은색 받침/흰 접시에 얹음. 자주색 상단 탭. 정량 성과 수치 없음. 결과 접시 지름 약40cm, 덮개 내부 유효지름40cm 이상. A4 대각36.4cm를 작은34cm돔에 억지로 넣지 않음."
+        },
+        {
+          "id": "RECIPE",
+          "description": "작은 아이보리 레시피 카드. 'AI 활용' 한 줄 외 설명이 비어 있음. 내용은 후합성."
+        },
+        {
+          "id": "BIN",
+          "description": "무광 흰 낮은 원통형 '수정 초안' 기록통, 구멍 없는 깨끗한 문서 전용. 여러 흰 초안에 빨간 수정 표시/컬러 탭. 음식물·오염 없음. 시각 기준 지름 약24cm/높이13cm, 반접은 수정 페이지가 위로 조금 보이는 크기."
+        },
+        {
+          "id": "CART",
+          "description": "로고 없는 은색 서비스 카트. 상판 약100cm×60cm, 오른쪽 서빙 자리와 왼쪽 돔 내려놓는 자리가 각각최소45cm×45cm로 분리. 외형44cm 돔이 내려가도 통/손/바퀴에 걸리지 않음. 카트 앞 의자 이동 통로 비움."
+        },
+        {
+          "id": "DOME",
+          "description": "동일 은색 돔 하나. 내부 유효 지름40cm 이상/외형 약44cm, 내부 높이22cm 이상. A4 대각 약36.4cm를 실제 수용하고 지름24cm·높이13cm 기록통도 수용. 처음 결과 접시→왼쪽 받침→기록통 덮기→왼쪽 받침. 크기 변형 없음."
+        }
+      ],
+      "cut_count_reason": "9개 동작컷+5초 카드. 의자1.2초/1.2초/2.2초로 압축하고 마지막은 비교 와이드로 실제로 더 앞선 위치와 다른 두 명의 시선을 보여줌. 총32.6초.",
+      "shots": [
+        {
+          "id": "C07_K01",
+          "start": 0,
+          "end": 4,
+          "visible": [
+            "CH",
+            "JA",
+            "JB",
+            "JC"
+          ],
+          "frame_start": "은색 클로슈가 접시를 덮은 심사 테이블 전경. CH 양손이 돔 손잡이에 닿기 전. 뒤 JB/JA/JC 엄숙히 앉음.",
+          "action": "CH가 돔을 수직으로 들어 완성된 AI 결과 한 장을 공개하고 왼쪽 빈 받침에 내려놓는다.",
+          "frame_end": "자주색 탭 AI 결과 접시 위 공개, 돔 왼쪽 받침, CH 양손 비움.",
+          "composition": "낮은 접시 중심 미디엄 와이드. 관객이 식사를 예상할 조명, 종이의 정체는 명확.",
+          "caption_cues": [
+            {
+              "start": 0.4,
+              "end": 3.8,
+              "text": "오늘의 완성작입니다.",
+              "placement": "상단 어두운 벽"
+            }
+          ],
+          "post_composites": [
+            "결과 페이지 큰 제목 'AI 실행 결과'. 상세 성과/수치는 비워 두고 작은 구조도 형태만."
+          ],
+          "transition": "결과 옆 레시피 카드 근접으로 컷.",
+          "intent": "진짜 미식 심사라고 믿게 한 뒤 음식 대신 종이 결과를 공개하는 시각적 설정.",
+          "continuity": [
+            "좌 JB/중 JA/우 JC 좌석 고정",
+            "돔 하나, 왼쪽 받침에 놓인 끝상태 실제로 보임"
+          ],
+          "scene_id": "S01",
+          "duration": 4,
+          "interval": "0–4초",
+          "dialogue": "없음",
+          "narration": "없음",
+          "music_sfx_silence": "고급 레스토랑 현악·피아노 3박자, 0–4초 진지한 디너 서빙. 돔 금속 소리 아주 작게.",
+          "screen_action": "CH가 돔을 수직으로 들어 완성된 AI 결과 한 장을 공개하고 왼쪽 빈 받침에 내려놓는다.",
+          "frame_start_description": "은색 클로슈가 접시를 덮은 심사 테이블 전경. CH 양손이 돔 손잡이에 닿기 전. 뒤 JB/JA/JC 엄숙히 앉음.",
+          "frame_end_description": "자주색 탭 AI 결과 접시 위 공개, 돔 왼쪽 받침, CH 양손 비움.",
+          "main_motion_count": 1,
+          "image_generation_required": true,
+          "video_generation_required": true,
+          "first_frame_prompt_en": "Create one cinematic 16:9 horizontal first-frame key image for a later live-action commercial comedy video. This is the exact BEFORE-action frame, not a collage or a completed action. Preserve realistic anatomy, natural contact with surfaces, and a clean readable hierarchy. No subtitles, readable interface text, dates, venue information, logos or watermark-like graphics; specified text will be composited afterward.  Visible cast only: The chef is a short, sturdy East Asian man in his late 30s with a broad round clean-shaven face and short auburn side-parted hair. White double-breasted chef jacket, low square white chef cap, lavender long apron and white gloves. | The central chief judge is a very broad-shouldered, heavy-built Black man in his 50s with a smooth bald head, round face and a short gray beard only below his chin, no glasses. Wine-red velvet dinner jacket, black shirt and black bow tie. | The left judge is a short, stocky East Asian woman in her late 20s with round cheeks, clear attentive eyes and long straight platinum-blonde hair tied neatly low. Black satin tuxedo, wide white shirt collar and small deep-purple brooch. | The right judge is a very tall, thin European woman in her 60s with a long narrow face and nose, smooth high dark-brown chignon with one white streak, thin gold half-rim glasses. Dark-navy formal dress and a narrow silver-gray silk scarf. Scene: Luxurious restaurant judging room at night, cinematic warm spotlights and a dark burgundy background. A white-clothed table spans the frame. At the front-center a modest silver cloche completely covers a flat plate; the chef's two gloved hands hover just before lifting its top handle. Behind the table sit three solemn judges, the platinum-haired woman at screen-left, the broad bald man at center, the tall chignon-haired older woman at screen-right. Leave an empty flat rest on the left for the lid. No food or result page is visible yet. Physical scale lock: the same silver cloche has a clear inner diameter of at least 40 cm and an outer diameter of about 44 cm, large enough for a flat A4 sheet. Every lid rest is at least 45 by 45 cm; the service cart top is about 100 by 60 cm with separate serving and lid-rest zones. Keep all chair travel lanes free of cart wheels, tools and loose fabric.",
+          "future_motion_notes": {
+            "camera": "기본 고정. 낮은 접시 중심 미디엄 와이드. 관객이 식사를 예상할 조명, 종이의 정체는 명확.",
+            "start": "첫 프레임의 동작 전 상태에서 시작",
+            "main": "CH가 돔을 수직으로 들어 완성된 AI 결과 한 장을 공개하고 왼쪽 빈 받침에 내려놓는다.",
+            "end": "자주색 탭 AI 결과 접시 위 공개, 돔 왼쪽 받침, CH 양손 비움.",
+            "frame_holds": "시작과 끝에 편집 여유 확보. 영상 전체8초를 자동 본편 사용하지 않음.",
+            "audio": "음성대사/생성 자막/생성 음악 없음. BGM/SFX 후편집.",
+            "acceptance": "시작→행동→완료, 손·소품·바닥 접점 확인. 상세 프롬프트가 성공을 보장하지 않음."
+          }
+        },
+        {
+          "id": "C07_K02",
+          "start": 4,
+          "end": 8,
+          "visible": [
+            "JA"
+          ],
+          "frame_start": "JA가 작은 레시피 카드를 양손에 들고 뒤집기 전, 앞에는 공개된 결과 접시. 문서 글자 후합성 영역.",
+          "action": "JA가 카드를 읽는 방향으로 돌려 'AI 활용' 한 줄뿐임을 확인하고 그대로 굳는다. 마지막에 카드를 테이블 위에 내려놓는다.",
+          "frame_end": "한 줄뿐인 레시피 카드가 테이블 위로 내려오고 JA 두 손 비움. 시선은 왼쪽 조리대 쪽으로 향할 수 있음.",
+          "composition": "카드와 얼굴을 함께 보는 고정 미디엄. 빈 카드 면적을 크게 보여 부족한 과정 설명을 시각화.",
+          "caption_cues": [
+            {
+              "start": 4.5,
+              "end": 7.8,
+              "text": "그래서… 어떻게요?",
+              "placement": "카드 바깥 상단"
+            }
+          ],
+          "post_composites": [
+            "카드 상단 '레시피', 아래 'AI 활용' 단 한 줄. 나머지 여백. 한 줄이 등장하는 타이밍은 카드 앞면이 드러난 뒤."
+          ],
+          "transition": "카드의 넓은 빈 여백에서 셰프의 촘촘한 수정 초안으로 대비 컷.",
+          "intent": "화려한 결과와 너무 짧은 설명의 불균형. AI 사용 자체를 비웃는 것이 아니라 재현할 수 없는 설명이 문제.",
+          "continuity": [
+            "결과 페이지는 테이블에 남음",
+            "JA 카드를 던지거나 사람을 꾸짖지 않음"
+          ],
+          "scene_id": "S02",
+          "duration": 4,
+          "interval": "4–8초",
+          "dialogue": "없음",
+          "narration": "없음",
+          "music_sfx_silence": "4.8초 현악 한 음이 길게 남다가 5.5–6.3초 0.8초 정적. 종이 미세한 소리.",
+          "screen_action": "JA가 카드를 읽는 방향으로 돌려 'AI 활용' 한 줄뿐임을 확인하고 그대로 굳는다. 마지막에 카드를 테이블 위에 내려놓는다.",
+          "frame_start_description": "JA가 작은 레시피 카드를 양손에 들고 뒤집기 전, 앞에는 공개된 결과 접시. 문서 글자 후합성 영역.",
+          "frame_end_description": "한 줄뿐인 레시피 카드가 테이블 위로 내려오고 JA 두 손 비움. 시선은 왼쪽 조리대 쪽으로 향할 수 있음.",
+          "main_motion_count": 1,
+          "image_generation_required": true,
+          "video_generation_required": true,
+          "first_frame_prompt_en": "Create one cinematic 16:9 horizontal first-frame key image for a later live-action commercial comedy video. This is the exact BEFORE-action frame, not a collage or a completed action. Preserve realistic anatomy, natural contact with surfaces, and a clean readable hierarchy. No subtitles, readable interface text, dates, venue information, logos or watermark-like graphics; specified text will be composited afterward.  Visible cast only: The central chief judge is a very broad-shouldered, heavy-built Black man in his 50s with a smooth bald head, round face and a short gray beard only below his chin, no glasses. Wine-red velvet dinner jacket, black shirt and black bow tie. Scene: Fixed medium close shot of the broad bald male judge in a wine velvet dinner jacket. He holds a small ivory recipe card with both hands, just before rotating its front toward himself and partly toward the camera. The card's large face is clean and blank for post-composited writing. The polished final-result sheet remains on its plate at the lower edge. His face is formally expectant, not already angry. Keep the upper dark wall clear for captions. Physical scale lock: the same silver cloche has a clear inner diameter of at least 40 cm and an outer diameter of about 44 cm, large enough for a flat A4 sheet. Every lid rest is at least 45 by 45 cm; the service cart top is about 100 by 60 cm with separate serving and lid-rest zones. Keep all chair travel lanes free of cart wheels, tools and loose fabric.",
+          "future_motion_notes": {
+            "camera": "기본 고정. 카드와 얼굴을 함께 보는 고정 미디엄. 빈 카드 면적을 크게 보여 부족한 과정 설명을 시각화.",
+            "start": "첫 프레임의 동작 전 상태에서 시작",
+            "main": "JA가 카드를 읽는 방향으로 돌려 'AI 활용' 한 줄뿐임을 확인하고 그대로 굳는다. 마지막에 카드를 테이블 위에 내려놓는다.",
+            "end": "한 줄뿐인 레시피 카드가 테이블 위로 내려오고 JA 두 손 비움. 시선은 왼쪽 조리대 쪽으로 향할 수 있음.",
+            "frame_holds": "시작과 끝에 편집 여유 확보. 영상 전체8초를 자동 본편 사용하지 않음.",
+            "audio": "음성대사/생성 자막/생성 음악 없음. BGM/SFX 후편집.",
+            "acceptance": "시작→행동→완료, 손·소품·바닥 접점 확인. 상세 프롬프트가 성공을 보장하지 않음."
+          }
+        },
+        {
+          "id": "C07_K03",
+          "start": 8,
+          "end": 11,
+          "visible": [
+            "CH"
+          ],
+          "frame_start": "왼쪽 조리대 앞 CH 오른손에 빨간 수정 흔적 초안 한 장, 왼손은 비움. 작은 흰 기록통은 옆 낮은 받침 위 열림, 다른 초안 이미 담김.",
+          "action": "CH가 마지막 수정 초안을 그 기록통 안에 반듯하게 넣는다.",
+          "frame_end": "초안은 통 안에 들어가고 CH 오른손 비움. 통은 깨끗한 종이 기록만 담음.",
+          "composition": "손·붉은 수정 흔적·기록통을 크게. 휴지통의 더러움보다 기록 양이 보이게.",
+          "caption_cues": [
+            {
+              "start": 8.2,
+              "end": 10.8,
+              "text": "수정 초안",
+              "placement": "기록통 옆 작은 후합성 표찰"
+            }
+          ],
+          "post_composites": [
+            "통 표찰 '수정 초안'. 종이에는 작은 빨간 삭제선/조건 메모 구조만, 민감한 실데이터 없음."
+          ],
+          "transition": "통을 보는 JA로 시선 매치 컷.",
+          "intent": "정리하던 중간 기록을 다음 주인공으로 바꾸는 씨앗. 오염된 쓰레기를 먹는 개그 아님.",
+          "continuity": [
+            "흰 통은 실제 문서 보관용, 음식물/찢긴쓰레기 금지",
+            "CH는 초안을 없애거나 삭제하지 않음"
+          ],
+          "scene_id": "S03",
+          "duration": 3,
+          "interval": "8–11초",
+          "dialogue": "없음",
+          "narration": "없음",
+          "music_sfx_silence": "피아노 한 음과 종이 내려놓는 소리. 처분/폐기 경보음 없음.",
+          "screen_action": "CH가 마지막 수정 초안을 그 기록통 안에 반듯하게 넣는다.",
+          "frame_start_description": "왼쪽 조리대 앞 CH 오른손에 빨간 수정 흔적 초안 한 장, 왼손은 비움. 작은 흰 기록통은 옆 낮은 받침 위 열림, 다른 초안 이미 담김.",
+          "frame_end_description": "초안은 통 안에 들어가고 CH 오른손 비움. 통은 깨끗한 종이 기록만 담음.",
+          "main_motion_count": 1,
+          "image_generation_required": true,
+          "video_generation_required": true,
+          "first_frame_prompt_en": "Create one cinematic 16:9 horizontal first-frame key image for a later live-action commercial comedy video. This is the exact BEFORE-action frame, not a collage or a completed action. Preserve realistic anatomy, natural contact with surfaces, and a clean readable hierarchy. No subtitles, readable interface text, dates, venue information, logos or watermark-like graphics; specified text will be composited afterward.  Visible cast only: The chef is a short, sturdy East Asian man in his late 30s with a broad round clean-shaven face and short auburn side-parted hair. White double-breasted chef jacket, low square white chef cap, lavender long apron and white gloves. Scene: Medium close side view of the chef at a clean side station. His RIGHT gloved hand holds one white draft with visible generic red revision strokes just above a small open matte-white document container on a low stand; his LEFT hand is empty. Several similar marked drafts already sit neatly inside. No food scraps, stains or dirt. Reserve a clean little plaque area next to the container. The last sheet has not been released yet. Physical scale lock: the same silver cloche has a clear inner diameter of at least 40 cm and an outer diameter of about 44 cm, large enough for a flat A4 sheet. Every lid rest is at least 45 by 45 cm; the service cart top is about 100 by 60 cm with separate serving and lid-rest zones. Keep all chair travel lanes free of cart wheels, tools and loose fabric.",
+          "future_motion_notes": {
+            "camera": "기본 고정. 손·붉은 수정 흔적·기록통을 크게. 휴지통의 더러움보다 기록 양이 보이게.",
+            "start": "첫 프레임의 동작 전 상태에서 시작",
+            "main": "CH가 마지막 수정 초안을 그 기록통 안에 반듯하게 넣는다.",
+            "end": "초안은 통 안에 들어가고 CH 오른손 비움. 통은 깨끗한 종이 기록만 담음.",
+            "frame_holds": "시작과 끝에 편집 여유 확보. 영상 전체8초를 자동 본편 사용하지 않음.",
+            "audio": "음성대사/생성 자막/생성 음악 없음. BGM/SFX 후편집.",
+            "acceptance": "시작→행동→완료, 손·소품·바닥 접점 확인. 상세 프롬프트가 성공을 보장하지 않음."
+          }
+        },
+        {
+          "id": "C07_K04",
+          "start": 11,
+          "end": 15,
+          "visible": [
+            "JA",
+            "CH",
+            "JB",
+            "JC"
+          ],
+          "frame_start": "JA는 중앙 좌석에 앉아 왼쪽 기록통을 본다. 레시피 카드는 테이블에 놓였고 양손 비움. CH는 왼쪽 통 옆, JB/JC는 자기 자리.",
+          "action": "JA가 자리에서 일어나 왼쪽 두 걸음 거리의 기록통으로 가서 두 손으로 조심스럽게 들어 자기 가슴 가까이 가져온다. 다른 두 심사위원은 앉은 채 시선만 따라간다.",
+          "frame_end": "JA 통 옆에 서서 양손 기록통 소유. CH는 과정을 궁금해한다는 사실을 알아차림. JB/JC 자리에서 몸을 약간 기울임.",
+          "composition": "통과 JA 표정 전경, 뒤 두 심사위원은 각 한 번 시선만 따라옴. 4인 동시 복잡한 이동 없음.",
+          "caption_cues": [
+            {
+              "start": 11.3,
+              "end": 14.8,
+              "text": "셰프님. 이것도 주세요.",
+              "placement": "상단 빈 배경"
+            }
+          ],
+          "post_composites": [],
+          "transition": "시간 생략 후 같은 통을 정식 서빙하는 카트로 컷. 좌석 복귀/준비는 '잠시 후' 표지.",
+          "intent": "버린다고 생각한 과정이 완성작보다 중요한 대접을 받는 반전. 통을 훔치거나 추격하지 않음.",
+          "continuity": [
+            "K02 끝에 레시피 카드를 실제로 내려놓아 JA 양손 비움",
+            "K04 안에서 자리 이탈→통 접근→들기를 보여 통 소유가 순간 바뀌지 않음",
+            "JB/JC는 일어나 달려들지 않고 시선/기울기만"
+          ],
+          "production_caution": "이동+인양 한 사건을 8초 원본에서 확보. 실제 4초 편집으로 접점이 안 보이면 1초 늘리고 앞 서빙 정지를 재배분; 첫 프레임을 이미 통 옆으로 바꾸어 접근이 완료된 것처럼 만들지 않음.",
+          "scene_id": "S04",
+          "duration": 4,
+          "interval": "11–15초",
+          "dialogue": "없음",
+          "narration": "없음",
+          "music_sfx_silence": "11초부터 과하게 귀한 것을 발견한 현악 상승 1마디. 통 들릴 때 작은 종소리.",
+          "screen_action": "JA가 자리에서 일어나 왼쪽 두 걸음 거리의 기록통으로 가서 두 손으로 조심스럽게 들어 자기 가슴 가까이 가져온다. 다른 두 심사위원은 앉은 채 시선만 따라간다.",
+          "frame_start_description": "JA는 중앙 좌석에 앉아 왼쪽 기록통을 본다. 레시피 카드는 테이블에 놓였고 양손 비움. CH는 왼쪽 통 옆, JB/JC는 자기 자리.",
+          "frame_end_description": "JA 통 옆에 서서 양손 기록통 소유. CH는 과정을 궁금해한다는 사실을 알아차림. JB/JC 자리에서 몸을 약간 기울임.",
+          "main_motion_count": 1,
+          "image_generation_required": true,
+          "video_generation_required": true,
+          "first_frame_prompt_en": "Create one cinematic 16:9 horizontal first-frame key image for a later live-action commercial comedy video. This is the exact BEFORE-action frame, not a collage or a completed action. Preserve realistic anatomy, natural contact with surfaces, and a clean readable hierarchy. No subtitles, readable interface text, dates, venue information, logos or watermark-like graphics; specified text will be composited afterward.  Visible cast only: The central chief judge is a very broad-shouldered, heavy-built Black man in his 50s with a smooth bald head, round face and a short gray beard only below his chin, no glasses. Wine-red velvet dinner jacket, black shirt and black bow tie. | The chef is a short, sturdy East Asian man in his late 30s with a broad round clean-shaven face and short auburn side-parted hair. White double-breasted chef jacket, low square white chef cap, lavender long apron and white gloves. | The left judge is a short, stocky East Asian woman in her late 20s with round cheeks, clear attentive eyes and long straight platinum-blonde hair tied neatly low. Black satin tuxedo, wide white shirt collar and small deep-purple brooch. | The right judge is a very tall, thin European woman in her 60s with a long narrow face and nose, smooth high dark-brown chignon with one white streak, thin gold half-rim glasses. Dark-navy formal dress and a narrow silver-gray silk scarf. Scene: Medium-wide restaurant view with the broad bald judge still in his CENTRAL chair, empty hands near the table edge, looking toward the clean white revision container two short steps to screen-left. The ivory recipe card lies visibly on the table in front of him. The chef stands next to the container at the side station. The platinum-haired woman remains seated left and the older chignon-haired woman right, both with empty relaxed hands. Show the short unobstructed route from the central chair to the container, before any person stands or lifts it. Physical scale lock: the same silver cloche has a clear inner diameter of at least 40 cm and an outer diameter of about 44 cm, large enough for a flat A4 sheet. Every lid rest is at least 45 by 45 cm; the service cart top is about 100 by 60 cm with separate serving and lid-rest zones. Keep all chair travel lanes free of cart wheels, tools and loose fabric.",
+          "future_motion_notes": {
+            "camera": "기본 고정. 통과 JA 표정 전경, 뒤 두 심사위원은 각 한 번 시선만 따라옴. 4인 동시 복잡한 이동 없음.",
+            "start": "첫 프레임의 동작 전 상태에서 시작",
+            "main": "JA가 자리에서 일어나 왼쪽 두 걸음 거리의 기록통으로 가서 두 손으로 조심스럽게 들어 자기 가슴 가까이 가져온다. 다른 두 심사위원은 앉은 채 시선만 따라간다.",
+            "end": "JA 통 옆에 서서 양손 기록통 소유. CH는 과정을 궁금해한다는 사실을 알아차림. JB/JC 자리에서 몸을 약간 기울임.",
+            "frame_holds": "시작과 끝에 편집 여유 확보. 영상 전체8초를 자동 본편 사용하지 않음.",
+            "audio": "음성대사/생성 자막/생성 음악 없음. BGM/SFX 후편집.",
+            "acceptance": "시작→행동→완료, 손·소품·바닥 접점 확인. 상세 프롬프트가 성공을 보장하지 않음."
+          }
+        },
+        {
+          "id": "C07_K05",
+          "start": 15,
+          "end": 19,
+          "visible": [
+            "CH",
+            "JA",
+            "JB",
+            "JC"
+          ],
+          "frame_start": "잠시 후. 세 심사위원 원래 좌석에 바르게 재착석. CH가 은색 카트 뒤 양손 손잡이. 같은 흰 기록통은 카트 상판 오른쪽 서빙영역에 같은 은색 돔으로 덮여 있고 흰 통 아래 가장자리만 살짝 보임.",
+          "action": "CH가 카트를 테이블 앞 중앙으로 짧게 밀어 정중히 멈춘다.",
+          "frame_end": "카트 자체는 화면 중앙에 정지, 돔 덮인 통은 카트 상판 오른쪽 서빙영역. 세 사람은 같은 격식 자세로 기다림.",
+          "composition": "정면 대칭 와이드. 첫 서빙의 위엄을 기록통에 그대로 적용.",
+          "caption_cues": [
+            {
+              "start": 15.2,
+              "end": 16.7,
+              "text": "잠시 후",
+              "placement": "좌상단 작은 표지"
+            }
+          ],
+          "post_composites": [],
+          "transition": "같은 돔의 손잡이로 조금 좁게 컷.",
+          "intent": "통을 손에 든 채 끝내지 않고 정식 메뉴로 격상하는 두 번째 전환.",
+          "continuity": [
+            "JA가 통을 CH에게 넘기고 돔으로 덮어 카트에 둔 준비 시간은 명시적 시간 생략",
+            "통/돔 크기상 실제 덮일 수 있게; 큰 통이 갑자기 작아지지 않음",
+            "세 심사위원 좌석 JB/JA/JC 복귀",
+            "카트 자체=화면 중앙. 기록통/덮은44cm돔=카트 상판 오른쪽 서빙영역. 왼쪽45×45cm빈 받침=돔을 내려놓을 별도 영역."
+          ],
+          "scene_id": "S05",
+          "duration": 4,
+          "interval": "15–19초",
+          "dialogue": "없음",
+          "narration": "없음",
+          "music_sfx_silence": "15초 처음의 고급 서빙 3박자 테마를 더 진지하게 재현. 카트 바퀴 소리 작게.",
+          "screen_action": "CH가 카트를 테이블 앞 중앙으로 짧게 밀어 정중히 멈춘다.",
+          "frame_start_description": "잠시 후. 세 심사위원 원래 좌석에 바르게 재착석. CH가 은색 카트 뒤 양손 손잡이. 같은 흰 기록통은 카트 상판 오른쪽 서빙영역에 같은 은색 돔으로 덮여 있고 흰 통 아래 가장자리만 살짝 보임.",
+          "frame_end_description": "카트 자체는 화면 중앙에 정지, 돔 덮인 통은 카트 상판 오른쪽 서빙영역. 세 사람은 같은 격식 자세로 기다림.",
+          "main_motion_count": 1,
+          "image_generation_required": true,
+          "video_generation_required": true,
+          "first_frame_prompt_en": "Create one cinematic 16:9 horizontal first-frame key image for a later live-action commercial comedy video. This is the exact BEFORE-action frame, not a collage or a completed action. Preserve realistic anatomy, natural contact with surfaces, and a clean readable hierarchy. No subtitles, readable interface text, dates, venue information, logos or watermark-like graphics; specified text will be composited afterward.  Visible cast only: The chef is a short, sturdy East Asian man in his late 30s with a broad round clean-shaven face and short auburn side-parted hair. White double-breasted chef jacket, low square white chef cap, lavender long apron and white gloves. | The central chief judge is a very broad-shouldered, heavy-built Black man in his 50s with a smooth bald head, round face and a short gray beard only below his chin, no glasses. Wine-red velvet dinner jacket, black shirt and black bow tie. | The left judge is a short, stocky East Asian woman in her late 20s with round cheeks, clear attentive eyes and long straight platinum-blonde hair tied neatly low. Black satin tuxedo, wide white shirt collar and small deep-purple brooch. | The right judge is a very tall, thin European woman in her 60s with a long narrow face and nose, smooth high dark-brown chignon with one white streak, thin gold half-rim glasses. Dark-navy formal dress and a narrow silver-gray silk scarf. Scene: Symmetrical wide view of the same luxurious judging room after a short preparation interval. The three judges sit formally back in their original seats: platinum-haired woman left, broad bald man center, tall chignon-haired woman right. The chef stands behind a modest silver two-tier service cart, both gloved hands on its push bar. On its RIGHT-hand serving zone, the SAME silver cloche covers the SAME small white draft container; the CART ITSELF is centered in the image; a narrow white lower rim is visible. A flat empty lid rest is at the cart's left. The cart is just short of its final centered position, wheels aligned toward the table. Physical scale lock: the same silver cloche has a clear inner diameter of at least 40 cm and an outer diameter of about 44 cm, large enough for a flat A4 sheet. Every lid rest is at least 45 by 45 cm; the service cart top is about 100 by 60 cm with separate serving and lid-rest zones. Keep all chair travel lanes free of cart wheels, tools and loose fabric. Layout lock: the cart itself is centered in the camera frame. Its RIGHT serving zone holds the container and the 44cm cloche; its LEFT, separate, unobstructed 45x45cm rest is reserved for setting down that cloche. These two zones never overlap.",
+          "future_motion_notes": {
+            "camera": "기본 고정. 정면 대칭 와이드. 첫 서빙의 위엄을 기록통에 그대로 적용.",
+            "start": "첫 프레임의 동작 전 상태에서 시작",
+            "main": "CH가 카트를 테이블 앞 중앙으로 짧게 밀어 정중히 멈춘다.",
+            "end": "카트 자체는 화면 중앙에 정지, 돔 덮인 통은 카트 상판 오른쪽 서빙영역. 세 사람은 같은 격식 자세로 기다림.",
+            "frame_holds": "시작과 끝에 편집 여유 확보. 영상 전체8초를 자동 본편 사용하지 않음.",
+            "audio": "음성대사/생성 자막/생성 음악 없음. BGM/SFX 후편집.",
+            "acceptance": "시작→행동→완료, 손·소품·바닥 접점 확인. 상세 프롬프트가 성공을 보장하지 않음."
+          }
+        },
+        {
+          "id": "C07_K06",
+          "start": 19,
+          "end": 23,
+          "visible": [
+            "CH",
+            "JA",
+            "JB",
+            "JC"
+          ],
+          "frame_start": "화면 중앙에 정지한 카트의 상판 오른쪽 서빙영역 돔, CH 양손이 돔 손잡이를 잡기 직전. 뒤 심사위원들 아직 차분히 앉음.",
+          "action": "CH가 돔을 수직으로 들어 통의 수정 초안들을 다시 공개하고 왼쪽 받침에 내려놓는다.",
+          "frame_end": "수정 초안 통이 최고급 카트 상판 오른쪽 서빙영역에 공개, 돔 왼쪽 받침. CH 양손 비움.",
+          "composition": "첫 K01과 동일한 낮은 서빙 구도. 접시의 완성작이 작은 통으로 바뀐 시각적 라임.",
+          "caption_cues": [],
+          "post_composites": [
+            "통에 '수정 초안' 표찰을 후합성하되 손과 초안 위를 가리지 않음."
+          ],
+          "transition": "심사위원 한 명씩의 하체/얼굴이 보이는 짧은 리액션 연타 시작.",
+          "intent": "정리해 둔 수정 기록을 완성작과 동등하게 정식 대접하는 모습을 말 없이 확정.",
+          "continuity": [
+            "같은 돔/같은 통/같은 빨간 수정 초안",
+            "돔 내려놓기 끝까지 보여 CH 손에 도구가 남지 않음",
+            "카트 자체=화면 중앙. 기록통/덮은44cm돔=카트 상판 오른쪽 서빙영역. 왼쪽45×45cm빈 받침=돔을 내려놓을 별도 영역."
+          ],
+          "scene_id": "S06",
+          "duration": 4,
+          "interval": "19–23초",
+          "dialogue": "없음",
+          "narration": "없음",
+          "music_sfx_silence": "19–22초 미식 다큐 같은 진지한 스웰. 22.3–23초 짧게 음악 비움, 다음 의자 소리를 위한 공간.",
+          "screen_action": "CH가 돔을 수직으로 들어 통의 수정 초안들을 다시 공개하고 왼쪽 받침에 내려놓는다.",
+          "frame_start_description": "화면 중앙에 정지한 카트의 상판 오른쪽 서빙영역 돔, CH 양손이 돔 손잡이를 잡기 직전. 뒤 심사위원들 아직 차분히 앉음.",
+          "frame_end_description": "수정 초안 통이 최고급 카트 상판 오른쪽 서빙영역에 공개, 돔 왼쪽 받침. CH 양손 비움.",
+          "main_motion_count": 1,
+          "image_generation_required": true,
+          "video_generation_required": true,
+          "first_frame_prompt_en": "Create one cinematic 16:9 horizontal first-frame key image for a later live-action commercial comedy video. This is the exact BEFORE-action frame, not a collage or a completed action. Preserve realistic anatomy, natural contact with surfaces, and a clean readable hierarchy. No subtitles, readable interface text, dates, venue information, logos or watermark-like graphics; specified text will be composited afterward.  Visible cast only: The chef is a short, sturdy East Asian man in his late 30s with a broad round clean-shaven face and short auburn side-parted hair. White double-breasted chef jacket, low square white chef cap, lavender long apron and white gloves. | The central chief judge is a very broad-shouldered, heavy-built Black man in his 50s with a smooth bald head, round face and a short gray beard only below his chin, no glasses. Wine-red velvet dinner jacket, black shirt and black bow tie. | The left judge is a short, stocky East Asian woman in her late 20s with round cheeks, clear attentive eyes and long straight platinum-blonde hair tied neatly low. Black satin tuxedo, wide white shirt collar and small deep-purple brooch. | The right judge is a very tall, thin European woman in her 60s with a long narrow face and nose, smooth high dark-brown chignon with one white streak, thin gold half-rim glasses. Dark-navy formal dress and a narrow silver-gray silk scarf. Scene: Low medium-wide view matching the first serving angle. The service cart is stationary with the silver cloche covering the small white draft container in the cart top's RIGHT-hand serving zone; the CART ITSELF is centered in the image. The chef's two gloved hands are just approaching the cloche handle, before lifting. The lid rest on the cart's left is empty. Behind it the three formally seated judges watch in still anticipation. Keep the top and sides of the dome and the lower white rim clearly visible; no handwritten notes or new food props. Physical scale lock: the same silver cloche has a clear inner diameter of at least 40 cm and an outer diameter of about 44 cm, large enough for a flat A4 sheet. Every lid rest is at least 45 by 45 cm; the service cart top is about 100 by 60 cm with separate serving and lid-rest zones. Keep all chair travel lanes free of cart wheels, tools and loose fabric. Layout lock: the cart itself is centered in the camera frame. Its RIGHT serving zone holds the container and the 44cm cloche; its LEFT, separate, unobstructed 45x45cm rest is reserved for setting down that cloche. These two zones never overlap.",
+          "future_motion_notes": {
+            "camera": "기본 고정. 첫 K01과 동일한 낮은 서빙 구도. 접시의 완성작이 작은 통으로 바뀐 시각적 라임.",
+            "start": "첫 프레임의 동작 전 상태에서 시작",
+            "main": "CH가 돔을 수직으로 들어 통의 수정 초안들을 다시 공개하고 왼쪽 받침에 내려놓는다.",
+            "end": "수정 초안 통이 최고급 카트 상판 오른쪽 서빙영역에 공개, 돔 왼쪽 받침. CH 양손 비움.",
+            "frame_holds": "시작과 끝에 편집 여유 확보. 영상 전체8초를 자동 본편 사용하지 않음.",
+            "audio": "음성대사/생성 자막/생성 음악 없음. BGM/SFX 후편집.",
+            "acceptance": "시작→행동→완료, 손·소품·바닥 접점 확인. 상세 프롬프트가 성공을 보장하지 않음."
+          }
+        },
+        {
+          "id": "C07_K07",
+          "start": 23,
+          "end": 24.2,
+          "visible": [
+            "JA"
+          ],
+          "frame_start": "중앙 JA 의자는 테이블에서 여유 있게 뒤로. 양손 좌판 양옆, 발 바닥. 공개된 통이 전경 오른쪽 일부.",
+          "action": "JA가 의자를 한 번 짧게 약20cm 앞으로 끈다. 1.2초 안에 완료되는 명확한 한 번의 빠른 이동.",
+          "frame_end": "JA 의자 약20cm 앞으로, 엄숙한 표정. 이동 완료·바닥 접촉.",
+          "composition": "측면 3/4 미디엄, 얼굴·좌판·의자 다리·발 접점까지 보임.",
+          "caption_cues": [],
+          "post_composites": [],
+          "transition": "같은 행동의 JB 컷으로 25.5초 하드 컷.",
+          "intent": "완벽한 예절이 몸의 호기심을 이기지 못하는 첫 박.",
+          "continuity": [
+            "JA만 움직임, 의자 다리 바닥 접촉 유지",
+            "통은 카트 정지, 누가 먼저 가져가지 않음"
+          ],
+          "scene_id": "S07",
+          "duration": 1.2,
+          "interval": "23–24.2초",
+          "dialogue": "없음",
+          "narration": "없음",
+          "music_sfx_silence": "23.2초 의자 드르륵1회, 24.2초 다음컷까지 음악비움.",
+          "screen_action": "JA가 의자를 한 번 짧게 약20cm 앞으로 끈다. 1.2초 안에 완료되는 명확한 한 번의 빠른 이동.",
+          "frame_start_description": "중앙 JA 의자는 테이블에서 여유 있게 뒤로. 양손 좌판 양옆, 발 바닥. 공개된 통이 전경 오른쪽 일부.",
+          "frame_end_description": "JA 의자 약20cm 앞으로, 엄숙한 표정. 이동 완료·바닥 접촉.",
+          "main_motion_count": 1,
+          "image_generation_required": true,
+          "video_generation_required": true,
+          "first_frame_prompt_en": "Create one cinematic 16:9 horizontal first-frame key image for a later live-action commercial comedy video. This is the exact BEFORE-action frame, not a collage or a completed action. Preserve realistic anatomy, natural contact with surfaces, and a clean readable hierarchy. No subtitles, readable interface text, dates, venue information, logos or watermark-like graphics; specified text will be composited afterward.  Visible cast only: The central chief judge is a very broad-shouldered, heavy-built Black man in his 50s with a smooth bald head, round face and a short gray beard only below his chin, no glasses. Wine-red velvet dinner jacket, black shirt and black bow tie. Scene: Three-quarter side medium shot of the broad bald judge alone as the active subject. He sits upright on a simple padded dining chair a modest distance from the table, both hands gripping the sides of the seat, feet planted on the floor, before any forward scoot. The open white draft container on the stationary cart is partly visible ahead. Show chair legs, shoes and face together. His expression is intensely respectful. No pen, notebook, eating utensil or body distortion. Physical scale lock: the same silver cloche has a clear inner diameter of at least 40 cm and an outer diameter of about 44 cm, large enough for a flat A4 sheet. Every lid rest is at least 45 by 45 cm; the service cart top is about 100 by 60 cm with separate serving and lid-rest zones. Keep all chair travel lanes free of cart wheels, tools and loose fabric.",
+          "future_motion_notes": {
+            "camera": "기본 고정. 측면 3/4 미디엄, 얼굴·좌판·의자 다리·발 접점까지 보임.",
+            "start": "첫 프레임의 동작 전 상태에서 시작",
+            "main": "JA가 의자를 한 번 짧게 약20cm 앞으로 끈다. 1.2초 안에 완료되는 명확한 한 번의 빠른 이동.",
+            "end": "JA 의자 약20cm 앞으로, 엄숙한 표정. 이동 완료·바닥 접촉.",
+            "frame_holds": "시작과 끝에 편집 여유 확보. 영상 전체8초를 자동 본편 사용하지 않음.",
+            "audio": "음성대사/생성 자막/생성 음악 없음. BGM/SFX 후편집.",
+            "acceptance": "시작→행동→완료, 손·소품·바닥 접점 확인. 상세 프롬프트가 성공을 보장하지 않음."
+          }
+        },
+        {
+          "id": "C07_K08",
+          "start": 24.2,
+          "end": 25.4,
+          "visible": [
+            "JB",
+            "JA"
+          ],
+          "frame_start": "왼쪽 JB 의자는 아직 뒤. JB 양손 좌판, 발 바닥. 흐린 뒤 중앙 JA는 이미 한 칸 가까워진 자세로 정지.",
+          "action": "JB가 의자를 한 번 약20cm 앞으로 끌어 JA와 비슷한 선에 맞춘다. 1.2초의 두 번째 박.",
+          "frame_end": "JB도 앞으로, 두 사람 같은 줄. JC는 아직 뒤.",
+          "composition": "JB 측면 미디엄. JA는 배경 고정, 동시 이동 없음.",
+          "caption_cues": [],
+          "post_composites": [],
+          "transition": "마지막 JC로 하드 컷.",
+          "intent": "우연한 자세 변화가 아닌 모두가 참지 못하는 기대라는 두 번째 박.",
+          "continuity": [
+            "좌석 위치 JB왼쪽 유지",
+            "JA는 이미 앞으로 온 상태에서 다시 움직이지 않음"
+          ],
+          "scene_id": "S08",
+          "duration": 1.2,
+          "interval": "24.2–25.4초",
+          "dialogue": "없음",
+          "narration": "없음",
+          "music_sfx_silence": "24.4초 의자 드르륵1회.25.4초 다음컷까지 짧은 정적.",
+          "screen_action": "JB가 의자를 한 번 약20cm 앞으로 끌어 JA와 비슷한 선에 맞춘다. 1.2초의 두 번째 박.",
+          "frame_start_description": "왼쪽 JB 의자는 아직 뒤. JB 양손 좌판, 발 바닥. 흐린 뒤 중앙 JA는 이미 한 칸 가까워진 자세로 정지.",
+          "frame_end_description": "JB도 앞으로, 두 사람 같은 줄. JC는 아직 뒤.",
+          "main_motion_count": 1,
+          "image_generation_required": true,
+          "video_generation_required": true,
+          "first_frame_prompt_en": "Create one cinematic 16:9 horizontal first-frame key image for a later live-action commercial comedy video. This is the exact BEFORE-action frame, not a collage or a completed action. Preserve realistic anatomy, natural contact with surfaces, and a clean readable hierarchy. No subtitles, readable interface text, dates, venue information, logos or watermark-like graphics; specified text will be composited afterward.  Visible cast only: The left judge is a short, stocky East Asian woman in her late 20s with round cheeks, clear attentive eyes and long straight platinum-blonde hair tied neatly low. Black satin tuxedo, wide white shirt collar and small deep-purple brooch. | The central chief judge is a very broad-shouldered, heavy-built Black man in his 50s with a smooth bald head, round face and a short gray beard only below his chin, no glasses. Wine-red velvet dinner jacket, black shirt and black bow tie. Scene: Three-quarter side medium shot of the platinum-haired young female judge in a black satin tuxedo. She still sits at her original rear chair position, both hands on the seat sides, feet planted, poised to scoot once toward the open draft container. In soft background the broad bald judge has ALREADY moved his chair closer and remains perfectly still. Keep the container stationary, chair legs visible, and the woman's expression earnest rather than caricatured. No writing tools. Physical scale lock: the same silver cloche has a clear inner diameter of at least 40 cm and an outer diameter of about 44 cm, large enough for a flat A4 sheet. Every lid rest is at least 45 by 45 cm; the service cart top is about 100 by 60 cm with separate serving and lid-rest zones. Keep all chair travel lanes free of cart wheels, tools and loose fabric.",
+          "future_motion_notes": {
+            "camera": "기본 고정. JB 측면 미디엄. JA는 배경 고정, 동시 이동 없음.",
+            "start": "첫 프레임의 동작 전 상태에서 시작",
+            "main": "JB가 의자를 한 번 약20cm 앞으로 끌어 JA와 비슷한 선에 맞춘다. 1.2초의 두 번째 박.",
+            "end": "JB도 앞으로, 두 사람 같은 줄. JC는 아직 뒤.",
+            "frame_holds": "시작과 끝에 편집 여유 확보. 영상 전체8초를 자동 본편 사용하지 않음.",
+            "audio": "음성대사/생성 자막/생성 음악 없음. BGM/SFX 후편집.",
+            "acceptance": "시작→행동→완료, 손·소품·바닥 접점 확인. 상세 프롬프트가 성공을 보장하지 않음."
+          }
+        },
+        {
+          "id": "C07_K09",
+          "start": 25.4,
+          "end": 27.6,
+          "visible": [
+            "JC",
+            "JA",
+            "JB"
+          ],
+          "frame_start": "JA/JB 의자가 이미 약20cm 앞으로 나온 상태, JC만 원래 뒤. 셋 모두 통을 보고 있다. JC 앞에는 약60cm 빈 통로, 양손 좌판/발 바닥.",
+          "action": "JC가 의자를 한 번 약45cm 앞으로 끌어 앞선 두 명보다 확실히 앞서 멈춘다. 멈춘 직후 JA/JB가 JC 쪽으로 시선만 옮긴다.",
+          "frame_end": "JC가 다른 두 명보다 약25cm 앞에 나와 같은 통을 엄숙히 봄. JA/JB는 JC를 쳐다봐 비교가 명확. 아무도 넘어지거나 부딪히지 않음.",
+          "composition": "비교 가능한 정면에 가까운 3/4 와이드. 세 의자 다리와 JC의 빈 이동 통로가 보임. 카트는 옆으로 충분히 비켜 있어 충돌/발 걸림 없음.",
+          "caption_cues": [],
+          "post_composites": [],
+          "transition": "27.6초 별도 전체 화면 엔딩 카드.",
+          "intent": "동작 크기와 위치가 실제로 커지는 세 번째 박. 마지막 비교 와이드의 두 시선이 먼저 온 사람들까지 놀라게 한 과잉 열의를 드러냄.",
+          "continuity": [
+            "단 한 번의 의자 이동, 테이블에 몸 충돌하지 않음",
+            "인물들 외모 대신 행동과 격식의 불균형이 웃음"
+          ],
+          "scene_id": "S09",
+          "duration": 2.2,
+          "interval": "25.4–27.6초",
+          "dialogue": "없음",
+          "narration": "없음",
+          "music_sfx_silence": "25.7초 가장 긴 의자 드르륵,26.3초 멈춤.26.6–27.6초1초 정적에 두 시선 반응.",
+          "screen_action": "JC가 의자를 한 번 약45cm 앞으로 끌어 앞선 두 명보다 확실히 앞서 멈춘다. 멈춘 직후 JA/JB가 JC 쪽으로 시선만 옮긴다.",
+          "frame_start_description": "JA/JB 의자가 이미 약20cm 앞으로 나온 상태, JC만 원래 뒤. 셋 모두 통을 보고 있다. JC 앞에는 약60cm 빈 통로, 양손 좌판/발 바닥.",
+          "frame_end_description": "JC가 다른 두 명보다 약25cm 앞에 나와 같은 통을 엄숙히 봄. JA/JB는 JC를 쳐다봐 비교가 명확. 아무도 넘어지거나 부딪히지 않음.",
+          "main_motion_count": 1,
+          "image_generation_required": true,
+          "video_generation_required": true,
+          "first_frame_prompt_en": "Create one cinematic 16:9 horizontal first-frame key image for a later live-action commercial comedy video. This is the exact BEFORE-action frame, not a collage or a completed action. Preserve realistic anatomy, natural contact with surfaces, and a clean readable hierarchy. No subtitles, readable interface text, dates, venue information, logos or watermark-like graphics; specified text will be composited afterward.  Visible cast only: The right judge is a very tall, thin European woman in her 60s with a long narrow face and nose, smooth high dark-brown chignon with one white streak, thin gold half-rim glasses. Dark-navy formal dress and a narrow silver-gray silk scarf. | The central chief judge is a very broad-shouldered, heavy-built Black man in his 50s with a smooth bald head, round face and a short gray beard only below his chin, no glasses. Wine-red velvet dinner jacket, black shirt and black bow tie. | The left judge is a short, stocky East Asian woman in her late 20s with round cheeks, clear attentive eyes and long straight platinum-blonde hair tied neatly low. Black satin tuxedo, wide white shirt collar and small deep-purple brooch. Scene: Near-frontal three-quarter comparison WIDE of all THREE judges and their full chairs. The broad bald man at center and platinum-haired woman at left have ALREADY drawn their chairs about 20 cm forward and remain still looking at the record container. The tall chignon-haired woman at right is still in her original rear position, hands on seat sides, feet planted before her move. There is a clearly unobstructed 60 cm lane in front of her chair so a single approximately 45 cm scoot can put her visibly about 25 cm ahead of the other two. Keep the cart and its wheels safely outside this lane and show the other two judges' faces for their later glance. No notebook, pen, crowd or simultaneous chair movement. Physical scale: cloche outer diameter44cm, lid rest45cm square and cart top100x60cm.",
+          "future_motion_notes": {
+            "camera": "기본 고정. 비교 가능한 정면에 가까운 3/4 와이드. 세 의자 다리와 JC의 빈 이동 통로가 보임. 카트는 옆으로 충분히 비켜 있어 충돌/발 걸림 없음.",
+            "start": "첫 프레임의 동작 전 상태에서 시작",
+            "main": "JC가 의자를 한 번 약45cm 앞으로 끌어 앞선 두 명보다 확실히 앞서 멈춘다. 멈춘 직후 JA/JB가 JC 쪽으로 시선만 옮긴다.",
+            "end": "JC가 다른 두 명보다 약25cm 앞에 나와 같은 통을 엄숙히 봄. JA/JB는 JC를 쳐다봐 비교가 명확. 아무도 넘어지거나 부딪히지 않음.",
+            "frame_holds": "시작과 끝에 편집 여유 확보. 영상 전체8초를 자동 본편 사용하지 않음.",
+            "audio": "음성대사/생성 자막/생성 음악 없음. BGM/SFX 후편집.",
+            "acceptance": "시작→행동→완료, 손·소품·바닥 접점 확인. 상세 프롬프트가 성공을 보장하지 않음."
+          }
+        },
+        {
+          "id": "C07_K10",
+          "start": 27.6,
+          "end": 32.6,
+          "visible": [],
+          "frame_start": "별도 깊은 버건디 엔딩 카드, 아이보리 활자.",
+          "action": "고정 카드5초.",
+          "frame_end": "문구와 행사명 동일.",
+          "composition": "충분한 상하 여백. 카피→행사명→행사 성격.",
+          "caption_cues": [
+            {
+              "start": 27.6,
+              "end": 32.6,
+              "text": "결과만큼 궁금한, 그 과정.\nQ-AI Fair\n품질팀 AI 성과 교류회",
+              "placement": "별도 전체 화면 카드"
+            }
+          ],
+          "post_composites": [
+            "모든 문자 후편집."
+          ],
+          "transition": "끝.",
+          "intent": "시청자가 이미 본 수정 초안의 귀한 대접을 행사 가치로 묶음.",
+          "continuity": [
+            "실제 식사/레시피 행사로 오인하지 않게 Q-AI Fair와 품질팀 AI 성과 교류회 5초"
+          ],
+          "is_card": true,
+          "scene_id": "S10",
+          "duration": 5,
+          "interval": "27.6–32.6초",
+          "dialogue": "없음",
+          "narration": "없음",
+          "music_sfx_silence": "27.6초 미식테마두음으로 정중한마무리.32.1–32.6초0.5초페이드.",
+          "screen_action": "고정 카드5초.",
+          "frame_start_description": "별도 깊은 버건디 엔딩 카드, 아이보리 활자.",
+          "frame_end_description": "문구와 행사명 동일.",
+          "main_motion_count": 0,
+          "image_generation_required": false,
+          "video_generation_required": false,
+          "first_frame_prompt_en": null,
+          "future_motion_notes": {
+            "camera": "기본 고정. 충분한 상하 여백. 카피→행사명→행사 성격.",
+            "start": "첫 프레임의 동작 전 상태에서 시작",
+            "main": "고정 카드5초.",
+            "end": "문구와 행사명 동일.",
+            "frame_holds": "시작과 끝에 편집 여유 확보. 영상 전체8초를 자동 본편 사용하지 않음.",
+            "audio": "음성대사/생성 자막/생성 음악 없음. BGM/SFX 후편집.",
+            "acceptance": "시작→행동→완료, 손·소품·바닥 접점 확인. 상세 프롬프트가 성공을 보장하지 않음."
+          }
+        }
+      ],
+      "assumptions": [
+        "비율 16:9, 향후 동작 원본 기본8초를 가정하되 현재는 기획만",
+        "행사명 Q-AI Fair/품질팀 AI 성과 교류회 외 일정·장소·신청 방식은 미확정",
+        "서류·UI·단위 예시는 설명용 허구이며 실제 성과 수치나 품질 보증이 아님"
+      ],
+      "source_basis": [
+        "AGENTS.md",
+        "team/brief.toml",
+        "storyboards/2026-10-26_C01-C07-C10-rewrite-v15/common_brief.json",
+        "2026-10-26 총괄 PD 선정 카드와 후속 C10 축소 지시",
+        "기존 C02~C06 v11 characters와 C08/C09 v13 cast 비교"
+      ],
+      "status": "REVISED_AFTER_THREE_REVIEWERS_PENDING_RECHECK",
+      "dialogue_policy": "대사·내레이션·필수 음성 0. 자막/몸짓/소품 이동만으로 완결.",
+      "music_direction": {
+        "generation": "후속 단계에서 장르에 맞춘 오리지널 BGM 작곡 후 편집. 현재 음원 생성 없음.",
+        "role": "정보를 대신하지 않고 긴장/박자/정적만 보조. 무음 완주 검수 필수.",
+        "copyright": "qrew·레퍼런스 원음악 복사 금지.",
+        "cue_source": "각 shots[].music_sfx_silence (수정된 절대 타임라인에 동기화)"
+      },
+      "caption_style": {
+        "basis": "기존 상영본 공통 스타일과 최종 통합 시 맞춤",
+        "body": "1080p 기준64~72px 전후 굵은 산세리프, 기본최대2줄, 안전여백8%, 밝은글자/어두운대비 패널. 얼굴·손·접점 회피.",
+        "ending": "별도5초 카드3줄. Q-AI Fair 최대 크기, 품질팀 AI 성과 교류회는 최소 본문 크기. 행사명 읽을 시간 우선.",
+        "timing": "각 자막 큐는 전체 작품 절대시간. 편집 길이 변경 시 전체큐 재산정."
+      },
+      "scene_list": [
+        {
+          "concept_id": "C07",
+          "scene_id": "S01",
+          "linked_cuts": [
+            "C07_K01"
+          ],
+          "generation_kind": "generated_first_frame_then_motion",
+          "representative_frame": "은색 클로슈가 접시를 덮은 심사 테이블 전경. CH 양손이 돔 손잡이에 닿기 전. 뒤 JB/JA/JC 엄숙히 앉음.",
+          "characters": [
+            "CH",
+            "JA",
+            "JB",
+            "JC"
+          ],
+          "first_frame_prompt_ref": "concepts[1].shots[0].first_frame_prompt_en",
+          "planned_image_path": "storyboards/2026-10-26_C01-C07-C10-rewrite-v15/images/C07/S01.png",
+          "actual_file": null,
+          "image_status": "NOT_GENERATED",
+          "aspect_ratio": "16:9",
+          "continuity": [
+            "좌 JB/중 JA/우 JC 좌석 고정",
+            "돔 하나, 왼쪽 받침에 놓인 끝상태 실제로 보임"
+          ],
+          "motion_camera_notes": {
+            "camera": "기본 고정. 낮은 접시 중심 미디엄 와이드. 관객이 식사를 예상할 조명, 종이의 정체는 명확.",
+            "start": "첫 프레임의 동작 전 상태에서 시작",
+            "main": "CH가 돔을 수직으로 들어 완성된 AI 결과 한 장을 공개하고 왼쪽 빈 받침에 내려놓는다.",
+            "end": "자주색 탭 AI 결과 접시 위 공개, 돔 왼쪽 받침, CH 양손 비움.",
+            "frame_holds": "시작과 끝에 편집 여유 확보. 영상 전체8초를 자동 본편 사용하지 않음.",
+            "audio": "음성대사/생성 자막/생성 음악 없음. BGM/SFX 후편집.",
+            "acceptance": "시작→행동→완료, 손·소품·바닥 접점 확인. 상세 프롬프트가 성공을 보장하지 않음."
+          }
+        },
+        {
+          "concept_id": "C07",
+          "scene_id": "S02",
+          "linked_cuts": [
+            "C07_K02"
+          ],
+          "generation_kind": "generated_first_frame_then_motion",
+          "representative_frame": "JA가 작은 레시피 카드를 양손에 들고 뒤집기 전, 앞에는 공개된 결과 접시. 문서 글자 후합성 영역.",
+          "characters": [
+            "JA"
+          ],
+          "first_frame_prompt_ref": "concepts[1].shots[1].first_frame_prompt_en",
+          "planned_image_path": "storyboards/2026-10-26_C01-C07-C10-rewrite-v15/images/C07/S02.png",
+          "actual_file": null,
+          "image_status": "NOT_GENERATED",
+          "aspect_ratio": "16:9",
+          "continuity": [
+            "결과 페이지는 테이블에 남음",
+            "JA 카드를 던지거나 사람을 꾸짖지 않음"
+          ],
+          "motion_camera_notes": {
+            "camera": "기본 고정. 카드와 얼굴을 함께 보는 고정 미디엄. 빈 카드 면적을 크게 보여 부족한 과정 설명을 시각화.",
+            "start": "첫 프레임의 동작 전 상태에서 시작",
+            "main": "JA가 카드를 읽는 방향으로 돌려 'AI 활용' 한 줄뿐임을 확인하고 그대로 굳는다. 마지막에 카드를 테이블 위에 내려놓는다.",
+            "end": "한 줄뿐인 레시피 카드가 테이블 위로 내려오고 JA 두 손 비움. 시선은 왼쪽 조리대 쪽으로 향할 수 있음.",
+            "frame_holds": "시작과 끝에 편집 여유 확보. 영상 전체8초를 자동 본편 사용하지 않음.",
+            "audio": "음성대사/생성 자막/생성 음악 없음. BGM/SFX 후편집.",
+            "acceptance": "시작→행동→완료, 손·소품·바닥 접점 확인. 상세 프롬프트가 성공을 보장하지 않음."
+          }
+        },
+        {
+          "concept_id": "C07",
+          "scene_id": "S03",
+          "linked_cuts": [
+            "C07_K03"
+          ],
+          "generation_kind": "generated_first_frame_then_motion",
+          "representative_frame": "왼쪽 조리대 앞 CH 오른손에 빨간 수정 흔적 초안 한 장, 왼손은 비움. 작은 흰 기록통은 옆 낮은 받침 위 열림, 다른 초안 이미 담김.",
+          "characters": [
+            "CH"
+          ],
+          "first_frame_prompt_ref": "concepts[1].shots[2].first_frame_prompt_en",
+          "planned_image_path": "storyboards/2026-10-26_C01-C07-C10-rewrite-v15/images/C07/S03.png",
+          "actual_file": null,
+          "image_status": "NOT_GENERATED",
+          "aspect_ratio": "16:9",
+          "continuity": [
+            "흰 통은 실제 문서 보관용, 음식물/찢긴쓰레기 금지",
+            "CH는 초안을 없애거나 삭제하지 않음"
+          ],
+          "motion_camera_notes": {
+            "camera": "기본 고정. 손·붉은 수정 흔적·기록통을 크게. 휴지통의 더러움보다 기록 양이 보이게.",
+            "start": "첫 프레임의 동작 전 상태에서 시작",
+            "main": "CH가 마지막 수정 초안을 그 기록통 안에 반듯하게 넣는다.",
+            "end": "초안은 통 안에 들어가고 CH 오른손 비움. 통은 깨끗한 종이 기록만 담음.",
+            "frame_holds": "시작과 끝에 편집 여유 확보. 영상 전체8초를 자동 본편 사용하지 않음.",
+            "audio": "음성대사/생성 자막/생성 음악 없음. BGM/SFX 후편집.",
+            "acceptance": "시작→행동→완료, 손·소품·바닥 접점 확인. 상세 프롬프트가 성공을 보장하지 않음."
+          }
+        },
+        {
+          "concept_id": "C07",
+          "scene_id": "S04",
+          "linked_cuts": [
+            "C07_K04"
+          ],
+          "generation_kind": "generated_first_frame_then_motion",
+          "representative_frame": "JA는 중앙 좌석에 앉아 왼쪽 기록통을 본다. 레시피 카드는 테이블에 놓였고 양손 비움. CH는 왼쪽 통 옆, JB/JC는 자기 자리.",
+          "characters": [
+            "JA",
+            "CH",
+            "JB",
+            "JC"
+          ],
+          "first_frame_prompt_ref": "concepts[1].shots[3].first_frame_prompt_en",
+          "planned_image_path": "storyboards/2026-10-26_C01-C07-C10-rewrite-v15/images/C07/S04.png",
+          "actual_file": null,
+          "image_status": "NOT_GENERATED",
+          "aspect_ratio": "16:9",
+          "continuity": [
+            "K02 끝에 레시피 카드를 실제로 내려놓아 JA 양손 비움",
+            "K04 안에서 자리 이탈→통 접근→들기를 보여 통 소유가 순간 바뀌지 않음",
+            "JB/JC는 일어나 달려들지 않고 시선/기울기만"
+          ],
+          "motion_camera_notes": {
+            "camera": "기본 고정. 통과 JA 표정 전경, 뒤 두 심사위원은 각 한 번 시선만 따라옴. 4인 동시 복잡한 이동 없음.",
+            "start": "첫 프레임의 동작 전 상태에서 시작",
+            "main": "JA가 자리에서 일어나 왼쪽 두 걸음 거리의 기록통으로 가서 두 손으로 조심스럽게 들어 자기 가슴 가까이 가져온다. 다른 두 심사위원은 앉은 채 시선만 따라간다.",
+            "end": "JA 통 옆에 서서 양손 기록통 소유. CH는 과정을 궁금해한다는 사실을 알아차림. JB/JC 자리에서 몸을 약간 기울임.",
+            "frame_holds": "시작과 끝에 편집 여유 확보. 영상 전체8초를 자동 본편 사용하지 않음.",
+            "audio": "음성대사/생성 자막/생성 음악 없음. BGM/SFX 후편집.",
+            "acceptance": "시작→행동→완료, 손·소품·바닥 접점 확인. 상세 프롬프트가 성공을 보장하지 않음."
+          }
+        },
+        {
+          "concept_id": "C07",
+          "scene_id": "S05",
+          "linked_cuts": [
+            "C07_K05"
+          ],
+          "generation_kind": "generated_first_frame_then_motion",
+          "representative_frame": "잠시 후. 세 심사위원 원래 좌석에 바르게 재착석. CH가 은색 카트 뒤 양손 손잡이. 같은 흰 기록통은 카트 상판 오른쪽 서빙영역에 같은 은색 돔으로 덮여 있고 흰 통 아래 가장자리만 살짝 보임.",
+          "characters": [
+            "CH",
+            "JA",
+            "JB",
+            "JC"
+          ],
+          "first_frame_prompt_ref": "concepts[1].shots[4].first_frame_prompt_en",
+          "planned_image_path": "storyboards/2026-10-26_C01-C07-C10-rewrite-v15/images/C07/S05.png",
+          "actual_file": null,
+          "image_status": "NOT_GENERATED",
+          "aspect_ratio": "16:9",
+          "continuity": [
+            "JA가 통을 CH에게 넘기고 돔으로 덮어 카트에 둔 준비 시간은 명시적 시간 생략",
+            "통/돔 크기상 실제 덮일 수 있게; 큰 통이 갑자기 작아지지 않음",
+            "세 심사위원 좌석 JB/JA/JC 복귀",
+            "카트 자체=화면 중앙. 기록통/덮은44cm돔=카트 상판 오른쪽 서빙영역. 왼쪽45×45cm빈 받침=돔을 내려놓을 별도 영역."
+          ],
+          "motion_camera_notes": {
+            "camera": "기본 고정. 정면 대칭 와이드. 첫 서빙의 위엄을 기록통에 그대로 적용.",
+            "start": "첫 프레임의 동작 전 상태에서 시작",
+            "main": "CH가 카트를 테이블 앞 중앙으로 짧게 밀어 정중히 멈춘다.",
+            "end": "카트 자체는 화면 중앙에 정지, 돔 덮인 통은 카트 상판 오른쪽 서빙영역. 세 사람은 같은 격식 자세로 기다림.",
+            "frame_holds": "시작과 끝에 편집 여유 확보. 영상 전체8초를 자동 본편 사용하지 않음.",
+            "audio": "음성대사/생성 자막/생성 음악 없음. BGM/SFX 후편집.",
+            "acceptance": "시작→행동→완료, 손·소품·바닥 접점 확인. 상세 프롬프트가 성공을 보장하지 않음."
+          }
+        },
+        {
+          "concept_id": "C07",
+          "scene_id": "S06",
+          "linked_cuts": [
+            "C07_K06"
+          ],
+          "generation_kind": "generated_first_frame_then_motion",
+          "representative_frame": "화면 중앙에 정지한 카트의 상판 오른쪽 서빙영역 돔, CH 양손이 돔 손잡이를 잡기 직전. 뒤 심사위원들 아직 차분히 앉음.",
+          "characters": [
+            "CH",
+            "JA",
+            "JB",
+            "JC"
+          ],
+          "first_frame_prompt_ref": "concepts[1].shots[5].first_frame_prompt_en",
+          "planned_image_path": "storyboards/2026-10-26_C01-C07-C10-rewrite-v15/images/C07/S06.png",
+          "actual_file": null,
+          "image_status": "NOT_GENERATED",
+          "aspect_ratio": "16:9",
+          "continuity": [
+            "같은 돔/같은 통/같은 빨간 수정 초안",
+            "돔 내려놓기 끝까지 보여 CH 손에 도구가 남지 않음",
+            "카트 자체=화면 중앙. 기록통/덮은44cm돔=카트 상판 오른쪽 서빙영역. 왼쪽45×45cm빈 받침=돔을 내려놓을 별도 영역."
+          ],
+          "motion_camera_notes": {
+            "camera": "기본 고정. 첫 K01과 동일한 낮은 서빙 구도. 접시의 완성작이 작은 통으로 바뀐 시각적 라임.",
+            "start": "첫 프레임의 동작 전 상태에서 시작",
+            "main": "CH가 돔을 수직으로 들어 통의 수정 초안들을 다시 공개하고 왼쪽 받침에 내려놓는다.",
+            "end": "수정 초안 통이 최고급 카트 상판 오른쪽 서빙영역에 공개, 돔 왼쪽 받침. CH 양손 비움.",
+            "frame_holds": "시작과 끝에 편집 여유 확보. 영상 전체8초를 자동 본편 사용하지 않음.",
+            "audio": "음성대사/생성 자막/생성 음악 없음. BGM/SFX 후편집.",
+            "acceptance": "시작→행동→완료, 손·소품·바닥 접점 확인. 상세 프롬프트가 성공을 보장하지 않음."
+          }
+        },
+        {
+          "concept_id": "C07",
+          "scene_id": "S07",
+          "linked_cuts": [
+            "C07_K07"
+          ],
+          "generation_kind": "generated_first_frame_then_motion",
+          "representative_frame": "중앙 JA 의자는 테이블에서 여유 있게 뒤로. 양손 좌판 양옆, 발 바닥. 공개된 통이 전경 오른쪽 일부.",
+          "characters": [
+            "JA"
+          ],
+          "first_frame_prompt_ref": "concepts[1].shots[6].first_frame_prompt_en",
+          "planned_image_path": "storyboards/2026-10-26_C01-C07-C10-rewrite-v15/images/C07/S07.png",
+          "actual_file": null,
+          "image_status": "NOT_GENERATED",
+          "aspect_ratio": "16:9",
+          "continuity": [
+            "JA만 움직임, 의자 다리 바닥 접촉 유지",
+            "통은 카트 정지, 누가 먼저 가져가지 않음"
+          ],
+          "motion_camera_notes": {
+            "camera": "기본 고정. 측면 3/4 미디엄, 얼굴·좌판·의자 다리·발 접점까지 보임.",
+            "start": "첫 프레임의 동작 전 상태에서 시작",
+            "main": "JA가 의자를 한 번 짧게 약20cm 앞으로 끈다. 1.2초 안에 완료되는 명확한 한 번의 빠른 이동.",
+            "end": "JA 의자 약20cm 앞으로, 엄숙한 표정. 이동 완료·바닥 접촉.",
+            "frame_holds": "시작과 끝에 편집 여유 확보. 영상 전체8초를 자동 본편 사용하지 않음.",
+            "audio": "음성대사/생성 자막/생성 음악 없음. BGM/SFX 후편집.",
+            "acceptance": "시작→행동→완료, 손·소품·바닥 접점 확인. 상세 프롬프트가 성공을 보장하지 않음."
+          }
+        },
+        {
+          "concept_id": "C07",
+          "scene_id": "S08",
+          "linked_cuts": [
+            "C07_K08"
+          ],
+          "generation_kind": "generated_first_frame_then_motion",
+          "representative_frame": "왼쪽 JB 의자는 아직 뒤. JB 양손 좌판, 발 바닥. 흐린 뒤 중앙 JA는 이미 한 칸 가까워진 자세로 정지.",
+          "characters": [
+            "JB",
+            "JA"
+          ],
+          "first_frame_prompt_ref": "concepts[1].shots[7].first_frame_prompt_en",
+          "planned_image_path": "storyboards/2026-10-26_C01-C07-C10-rewrite-v15/images/C07/S08.png",
+          "actual_file": null,
+          "image_status": "NOT_GENERATED",
+          "aspect_ratio": "16:9",
+          "continuity": [
+            "좌석 위치 JB왼쪽 유지",
+            "JA는 이미 앞으로 온 상태에서 다시 움직이지 않음"
+          ],
+          "motion_camera_notes": {
+            "camera": "기본 고정. JB 측면 미디엄. JA는 배경 고정, 동시 이동 없음.",
+            "start": "첫 프레임의 동작 전 상태에서 시작",
+            "main": "JB가 의자를 한 번 약20cm 앞으로 끌어 JA와 비슷한 선에 맞춘다. 1.2초의 두 번째 박.",
+            "end": "JB도 앞으로, 두 사람 같은 줄. JC는 아직 뒤.",
+            "frame_holds": "시작과 끝에 편집 여유 확보. 영상 전체8초를 자동 본편 사용하지 않음.",
+            "audio": "음성대사/생성 자막/생성 음악 없음. BGM/SFX 후편집.",
+            "acceptance": "시작→행동→완료, 손·소품·바닥 접점 확인. 상세 프롬프트가 성공을 보장하지 않음."
+          }
+        },
+        {
+          "concept_id": "C07",
+          "scene_id": "S09",
+          "linked_cuts": [
+            "C07_K09"
+          ],
+          "generation_kind": "generated_first_frame_then_motion",
+          "representative_frame": "JA/JB 의자가 이미 약20cm 앞으로 나온 상태, JC만 원래 뒤. 셋 모두 통을 보고 있다. JC 앞에는 약60cm 빈 통로, 양손 좌판/발 바닥.",
+          "characters": [
+            "JC",
+            "JA",
+            "JB"
+          ],
+          "first_frame_prompt_ref": "concepts[1].shots[8].first_frame_prompt_en",
+          "planned_image_path": "storyboards/2026-10-26_C01-C07-C10-rewrite-v15/images/C07/S09.png",
+          "actual_file": null,
+          "image_status": "NOT_GENERATED",
+          "aspect_ratio": "16:9",
+          "continuity": [
+            "단 한 번의 의자 이동, 테이블에 몸 충돌하지 않음",
+            "인물들 외모 대신 행동과 격식의 불균형이 웃음"
+          ],
+          "motion_camera_notes": {
+            "camera": "기본 고정. 비교 가능한 정면에 가까운 3/4 와이드. 세 의자 다리와 JC의 빈 이동 통로가 보임. 카트는 옆으로 충분히 비켜 있어 충돌/발 걸림 없음.",
+            "start": "첫 프레임의 동작 전 상태에서 시작",
+            "main": "JC가 의자를 한 번 약45cm 앞으로 끌어 앞선 두 명보다 확실히 앞서 멈춘다. 멈춘 직후 JA/JB가 JC 쪽으로 시선만 옮긴다.",
+            "end": "JC가 다른 두 명보다 약25cm 앞에 나와 같은 통을 엄숙히 봄. JA/JB는 JC를 쳐다봐 비교가 명확. 아무도 넘어지거나 부딪히지 않음.",
+            "frame_holds": "시작과 끝에 편집 여유 확보. 영상 전체8초를 자동 본편 사용하지 않음.",
+            "audio": "음성대사/생성 자막/생성 음악 없음. BGM/SFX 후편집.",
+            "acceptance": "시작→행동→완료, 손·소품·바닥 접점 확인. 상세 프롬프트가 성공을 보장하지 않음."
+          }
+        },
+        {
+          "concept_id": "C07",
+          "scene_id": "S10",
+          "linked_cuts": [
+            "C07_K10"
+          ],
+          "generation_kind": "postproduction_title_card",
+          "representative_frame": "별도 깊은 버건디 엔딩 카드, 아이보리 활자.",
+          "characters": [],
+          "first_frame_prompt_ref": "concepts[1].shots[9].first_frame_prompt_en",
+          "planned_image_path": null,
+          "actual_file": null,
+          "image_status": "NOT_GENERATED",
+          "aspect_ratio": "16:9",
+          "continuity": [
+            "실제 식사/레시피 행사로 오인하지 않게 Q-AI Fair와 품질팀 AI 성과 교류회 5초"
+          ],
+          "motion_camera_notes": {
+            "camera": "기본 고정. 충분한 상하 여백. 카피→행사명→행사 성격.",
+            "start": "첫 프레임의 동작 전 상태에서 시작",
+            "main": "고정 카드5초.",
+            "end": "문구와 행사명 동일.",
+            "frame_holds": "시작과 끝에 편집 여유 확보. 영상 전체8초를 자동 본편 사용하지 않음.",
+            "audio": "음성대사/생성 자막/생성 음악 없음. BGM/SFX 후편집.",
+            "acceptance": "시작→행동→완료, 손·소품·바닥 접점 확인. 상세 프롬프트가 성공을 보장하지 않음."
+          }
+        }
+      ],
+      "ending_hold_seconds": 5,
+      "motion_clip_count": 9,
+      "continuity_table": [
+        {
+          "prop": "돔",
+          "from": "K01 결과 접시 덮음",
+          "transition": "K01 왼 받침→K05 명시적 준비 시간 생략 후 작은 기록통 덮음",
+          "to": "K06 카트 왼 받침",
+          "forbidden": "돔/통의 크기 변형"
+        },
+        {
+          "prop": "레시피 카드",
+          "from": "K02 JA 양손",
+          "transition": "K02 끝 테이블에 내려놓음",
+          "to": "K04부터 테이블에 그대로",
+          "forbidden": "JA가 카드 든 채 양손으로 통을 들기"
+        },
+        {
+          "prop": "수정 초안 통",
+          "from": "K03 왼 조리대 낮은 받침",
+          "transition": "CH 마지막 초안 넣음→JA 자리에서 가서 양손 인양→잠시 후 정식 카트 준비",
+          "to": "K06 카트 상판 오른쪽 서빙영역 공개 후 K09까지 정지",
+          "forbidden": "음식물/오염쓰레기, 통을 비우거나 수정기록 폐기"
+        },
+        {
+          "prop": "의자",
+          "from": "JB왼/JA중앙/JC오른 원래 자리",
+          "transition": "K07 JA만1.2초/약20cm→K08 JB만1.2초/약20cm→K09 JC만2.2초/약45cm, 뒤 두 명이 끝에 시선",
+          "to": "JC가 약25cm 더 앞, 다른 둘이 JC를 바라보는 비교 와이드",
+          "forbidden": "동시 군중 이동·필기 결말·의자 부유"
+        }
+      ]
+    },
+    {
+      "id": "C10",
+      "title": "지구 대표, 질문 있습니다",
+      "purpose": "해본 사람끼리 실패 지점과 수정 방법을 나누는 Q-AI Fair 소개",
+      "format": "야간 외계 첫접촉 SF의 규모를 한 줄 질문으로 뒤집는 짧은 코미디",
+      "duration_seconds": 38,
+      "aspect_ratio": "16:9",
+      "one_line": "외계인의 무기 같은 원통에서 오답 기록이 쏟아지고, 질문은 첫 줄부터다. 지구 대표가 자기 기록을 보여주려 폴리오를 열자 더 큰 수정 기록 더미가 쏟아진다. 두 사람은 서로의 첫 페이지를 돌려 보여 준다.",
+      "core_message": "해본 사람끼리, 통하는 이야기.",
+      "comedy_intensity": 4,
+      "production_difficulty": "높음",
+      "hook": "차가운 야간 착륙장, 정적인 거대한 우주선과 두 대표. 외계인의 긴 원통이 무기처럼 보이지만, 인간은 기술 결과를 진지하게 내민다.",
+      "reversals": [
+        "거대한 원통은 무기가 아니라 유한한 오답 기록을 보관한 문서통이다.",
+        "어려운 마지막 줄이 아니라 첫 줄부터 묻고 싶다.",
+        "지구 대표의 깔끔한 성공 페이지 뒤에는 외계인보다 훨씬 많은 수정 기록이 있었다. 도움을 주는 일방적 전문가가 아니라 서로 해본 기록을 가진 동료가 된다."
+      ],
+      "ending_connection": "외계인보다 큰 인간의 수정 기록 더미가 새로운 사건과 규모 반전을 만들고, 표정 역전 뒤 서로 다른 사례의 기록을 실제로 돌려 보여 주는 행동으로 행사 의미를 닫음.",
+      "cast": [
+        {
+          "id": "HU",
+          "appearance": "50대 중반 흑인 여성, 작고 단단한 체형, 둥글고 넓은 얼굴, 아주 짧은 구리색 천연 곱슬머리, 깊고 집중한 눈. 안경 없음.",
+          "costume": "먼지빛 보라색 두꺼운 기술자 점프수트, 흰색 파이핑, 회색 평평한 작업화. 헬멧·기관 로고 없음.",
+          "performance": "처음엔 인류를 대표하는 듯 진지하지만 상대의 막힘을 알아보고 자기 수정 기록을 편안하게 꺼냄. 위아래 서열보다 동료의 태도."
+        },
+        {
+          "id": "AL",
+          "appearance": "키 약2.2m의 독창적인 비인간 외계인. 넓은 둥근 원통형 몸통, 목 없이 이어지는 작은 납작한 타원 머리, 진주색 단단한 얼굴면과 가로로 긴 호박색 눈창 하나. 인간 입·코 없음. 양손 각각 두꺼운 손가락 세 개.",
+          "costume": "무광 아이보리-차콜 일체형 탐사복, 허리에 넓은 가로 띠, 단순한 넓은 부츠. 기존 유명 외계인/로봇/우주복과 닮지 않음.",
+          "performance": "모든 행동이 외교 의전처럼 엄숙하다. 기술과 지위에 비해 질문은 아주 기초적이라는 대비. 위협·공격·웃음소리 없음."
+        }
+      ],
+      "space_axis": "야간 평평한 건조 착륙장. HU왼쪽/AL오른쪽. 정적인 타원형 우주선 뒤 중앙~오른쪽, 문 닫힘. AL 문서통 바로 아래 작은 종이 더미, HU 문서케이스 바로 아래 넓고 훨씬 큰 붉은 수정 기록 더미. 바람 없이 종이는 중력으로 짧게 낙하하고 옆으로5~6m를 기어가지 않음. 두 발앞 낙하지점은 겹치지 않고 보행 통로 비움.",
+      "props": [
+        {
+          "id": "FOLIO",
+          "description": "HU의 검정 폴리오형 단단한 문서케이스. 외형 약38×30×14cm, 깊이와 옆 틈의 붉은 탭 기록이 K01부터 보임. 왼팔로 바닥/뒤판을 받침. 앞쪽 아래 힌지의 닫힌 덮개 바깥면에 깔끔한 성공 페이지가 고정돼 있어 닫히면 낙하 방지턱 역할. 내부에는 유한한 접힌 수정기록이 빽빽하게 들어 있음. 앞 덮개를 내리고 케이스가 조금 앞으로 기울면 기록이 아래로 미끄러짐. 빈 공간에서 새 종이가 생성되지 않음."
+        },
+        {
+          "id": "HU_RECORDS",
+          "description": "처음부터 케이스에 수납된 여러 묶음의 반접은 흰 수정기록. 빨간 취소선/수정 표시와 붉은 탭. 떨어진 뒤 바닥 면적은 AL의 작은 더미보다2~3배쯤 넓어 보이되 수납량을 초과하지 않음. 뒤판 포켓에 끼워 고정된 첫 수정 페이지 한 장은 케이스에 남아 마지막 공유에 사용."
+        },
+        {
+          "id": "TUBE",
+          "description": "AL 긴 차콜 문서통. 옆 힌지 덮개가 본체에 붙어 있고 처음 페이지 상단은 작은 고정턱에 남음. 처음에는 양손, 개방 후 왼팔로 받치며 오른손은 지시 가능. 사람을 향해 겨누지 않음."
+        },
+        {
+          "id": "AL_RECORDS",
+          "description": "원통 안의 유한한 아코디언 접힘 오답 기록. 덮개가 열리면 원통 바로 아래에 작은 접힘 더미로 내려앉음. 첫 페이지는 고정턱에 남고 아래 연결지만 바닥 더미로 이어짐. 강풍·자동 전개·무한 프린트·수평 장거리 펼침 없음. HU와 다른 사례이며 표시 체계는 주황색."
+        }
+      ],
+      "cut_count_reason": "8개 동작컷+5초 카드, 총38초. 원통의 유한한 종이 낙하와 더 깊은 인간 폴리오의 유한한 기록 쏟아짐을 따로 보여 물리적 원인과 규모 반전 확보. 단위 수정·태블릿·클립·남은 종이 응시 결말 삭제.",
+      "shots": [
+        {
+          "id": "C10_K01",
+          "start": 0,
+          "end": 4,
+          "visible": [
+            "HU",
+            "AL"
+          ],
+          "frame_start": "정지 우주선 앞. HU 왼팔에 깊이14cm 문서케이스를 받쳐 첫 성공 페이지 제시 직전. 옆 틈으로 붉은 수정 기록의 충분한 수납량이 보임. AL 오른쪽 양손 원통.",
+          "action": "HU가 케이스 앞면의 깔끔한 성공 페이지를 AL 쪽으로 들어 보여 준다. 케이스 앞 덮개는 아직 닫혀 수납 기록을 지지한다.",
+          "frame_end": "성공 페이지와 깊은 케이스가 같이 보임. 내부 기록은 아직 모두 수납. AL 원통 닫힘.",
+          "composition": "로우 와이드, 두 인물과 정지 우주선. HU 케이스를 얇은 A4폴더처럼 숨기지 않고 두께/붉은 탭을 관객이 볼 수 있게.",
+          "caption_cues": [
+            {
+              "start": 0.6,
+              "end": 3.8,
+              "text": "지구의 AI 활용 사례입니다.",
+              "placement": "상단 어두운 하늘"
+            }
+          ],
+          "post_composites": [
+            "성공 페이지 큰 제목 'AI 실행 결과', 단순한 결과 도식. 수치·정확도·기관명 없음."
+          ],
+          "transition": "AL의 원통으로 하드 컷.",
+          "intent": "성공을 들고 등장한 지구 대표와 거대한 외계 문명. 두꺼운 케이스가 나중 물량 반전의 정직한 복선.",
+          "continuity": [
+            "HU 왼팔 케이스 바닥/뒤판, 오른손 윗모서리",
+            "깊이와 실제 수납량이 첫 프레임부터 보임",
+            "인물2명·우주선정지/문닫힘",
+            "성공 페이지는 닫힌 앞 덮개 바깥면 고정. K01 닫힌 상태에서도 읽히며 K05에 같은 덮개를 아래로 열 때도 붙어 있음."
+          ],
+          "scene_id": "S01",
+          "duration": 4,
+          "interval": "0–4초",
+          "dialogue": "없음",
+          "narration": "없음",
+          "music_sfx_silence": "0–4초 낮은 신시사이저와 절제된 호른. 진짜 첫접촉의 긴장, 음성0.",
+          "screen_action": "HU가 케이스 앞면의 깔끔한 성공 페이지를 AL 쪽으로 들어 보여 준다. 케이스 앞 덮개는 아직 닫혀 수납 기록을 지지한다.",
+          "frame_start_description": "정지 우주선 앞. HU 왼팔에 깊이14cm 문서케이스를 받쳐 첫 성공 페이지 제시 직전. 옆 틈으로 붉은 수정 기록의 충분한 수납량이 보임. AL 오른쪽 양손 원통.",
+          "frame_end_description": "성공 페이지와 깊은 케이스가 같이 보임. 내부 기록은 아직 모두 수납. AL 원통 닫힘.",
+          "main_motion_count": 1,
+          "image_generation_required": true,
+          "video_generation_required": true,
+          "first_frame_prompt_en": "Create one cinematic 16:9 horizontal first-frame key image for a later live-action commercial comedy video. This is the exact BEFORE-action frame, not a collage or a completed action. Preserve realistic anatomy, natural contact with surfaces, and a clean readable hierarchy. No subtitles, readable interface text, dates, venue information, logos or watermark-like graphics; specified text will be composited afterward.  Visible cast only: The human technician is a compact, strong Black woman in her mid-50s with a broad round face, very short copper-colored natural curls and focused eyes, no glasses. Dusty-violet insulated technician jumpsuit with white piping, flat gray work shoes, no helmet or institutional logos. | The original nonhuman alien stands about 2.2 meters tall, with a broad round cylindrical torso and a small flat oval head merging into the body without a neck. A rigid pearl-colored faceplate has one horizontal amber eye visor and no human nose or mouth. Each hand has exactly three thick fingers. Matte ivory-and-charcoal integral exploration suit, wide horizontal waist band and simple broad boots; no resemblance to a known franchise character. Scene: Low wide cinematic night shot with one huge STATIC oval spacecraft behind two figures, door closed, lights steady. The compact Black woman in a dusty-violet jumpsuit stands LEFT, supporting a rigid BLACK DOCUMENT FOLIO-CASE approximately38x30x14cm on her LEFT forearm. Its substantial depth and tightly packed red-tabbed draft edges are clearly visible through the side gap from the start. Its closed front retaining flap carries one clean result sheet; her RIGHT hand rests on the upper edge before presenting it. The ivory-and-charcoal alien stands RIGHT with a long closed document cylinder in both hands, angled downward away from the human. Dry clear ground below both; no paper has fallen. Physical page placement lock: the clean success sheet is fixed to the OUTSIDE face of the front retaining flap, so it is visible while the flap is closed. The same sheet stays attached to that outside face when the flap opens downward; revision records are inside the case, not the success sheet.",
+          "future_motion_notes": {
+            "camera": "기본 고정. 로우 와이드, 두 인물과 정지 우주선. HU 케이스를 얇은 A4폴더처럼 숨기지 않고 두께/붉은 탭을 관객이 볼 수 있게.",
+            "start": "첫 프레임의 동작 전 상태에서 시작",
+            "main": "HU가 케이스 앞면의 깔끔한 성공 페이지를 AL 쪽으로 들어 보여 준다. 케이스 앞 덮개는 아직 닫혀 수납 기록을 지지한다.",
+            "end": "성공 페이지와 깊은 케이스가 같이 보임. 내부 기록은 아직 모두 수납. AL 원통 닫힘.",
+            "frame_holds": "시작과 끝에 편집 여유 확보. 영상 전체8초를 자동 본편 사용하지 않음.",
+            "audio": "음성대사/생성 자막/생성 음악 없음. BGM/SFX 후편집.",
+            "acceptance": "시작→행동→완료, 손·소품·바닥 접점 확인. 상세 프롬프트가 성공을 보장하지 않음."
+          }
+        },
+        {
+          "id": "C10_K02",
+          "start": 4,
+          "end": 10,
+          "visible": [
+            "AL",
+            "HU"
+          ],
+          "frame_start": "AL 양손 닫힌 원통, 바로 아래 바닥 비어 있음. HU 깊은 문서케이스는 닫힘/수납량 유지.",
+          "action": "AL이 힌지 덮개를 열자 안에 접힌 유한한 오답 기록이 중력으로 바로 아래에 짧게 떨어져 작은 접힘 더미를 만든다.",
+          "frame_end": "첫 페이지 상단은 고정턱에 남고 연결된 뒤 부분은 원통 바로 아래 더미. AL왼팔 원통지지, 오른손 비움. HU 기록은 아직 케이스 안.",
+          "composition": "원통 입구부터 바로 아래 바닥까지 잡는 고정 미디엄 와이드. 종이가 바닥을 따라 스스로 멀리 펼쳐지지 않음.",
+          "caption_cues": [],
+          "post_composites": [
+            "주황 불일치/수정 표식과 회색행, 첫페이지 상단 '시도 기록'. 정확한 단위/같은 업무 데이터 없음."
+          ],
+          "transition": "길게 펼쳐진 종이와 HU를 함께 잡는 시선 컷.",
+          "intent": "위협적인 장치를 자기 오답 기록통으로 바꾸는 첫 반전. 수평 장거리 자동 전개 물리 제거.",
+          "continuity": [
+            "덮개 본체에 붙음",
+            "첫페이지 고정턱/연결지/바닥더미의 연속성",
+            "총량은 원통에 보관 가능한 유한량, 더미작음",
+            "원통 바로 아래만 낙하, 바람/폭발 없음"
+          ],
+          "scene_id": "S02",
+          "duration": 6,
+          "interval": "4–10초",
+          "dialogue": "없음",
+          "narration": "없음",
+          "music_sfx_silence": "4초 금속 힌지,4.8–8초 유한한 종이 사각거림. 장대한음악은7초 한음만 남기며 민망하게 잦아듦.",
+          "screen_action": "AL이 힌지 덮개를 열자 안에 접힌 유한한 오답 기록이 중력으로 바로 아래에 짧게 떨어져 작은 접힘 더미를 만든다.",
+          "frame_start_description": "AL 양손 닫힌 원통, 바로 아래 바닥 비어 있음. HU 깊은 문서케이스는 닫힘/수납량 유지.",
+          "frame_end_description": "첫 페이지 상단은 고정턱에 남고 연결된 뒤 부분은 원통 바로 아래 더미. AL왼팔 원통지지, 오른손 비움. HU 기록은 아직 케이스 안.",
+          "main_motion_count": 1,
+          "image_generation_required": true,
+          "video_generation_required": true,
+          "first_frame_prompt_en": "Create one cinematic 16:9 horizontal first-frame key image for a later live-action commercial comedy video. This is the exact BEFORE-action frame, not a collage or a completed action. Preserve realistic anatomy, natural contact with surfaces, and a clean readable hierarchy. No subtitles, readable interface text, dates, venue information, logos or watermark-like graphics; specified text will be composited afterward.  Visible cast only: The original nonhuman alien stands about 2.2 meters tall, with a broad round cylindrical torso and a small flat oval head merging into the body without a neck. A rigid pearl-colored faceplate has one horizontal amber eye visor and no human nose or mouth. Each hand has exactly three thick fingers. Matte ivory-and-charcoal integral exploration suit, wide horizontal waist band and simple broad boots; no resemblance to a known franchise character. | The human technician is a compact, strong Black woman in her mid-50s with a broad round face, very short copper-colored natural curls and focused eyes, no glasses. Dusty-violet insulated technician jumpsuit with white piping, flat gray work shoes, no helmet or institutional logos. Scene: Fixed medium-wide shot of the alien's closed charcoal document cylinder, its attached hinged side panel and both hands, with EMPTY dry pavement immediately below. LEFT forearm supports it; RIGHT fingers wait at the latch before opening. The case contains a finite accordion-fold record; none has emerged yet. The human remains at LEFT with her clearly deep, still-closed red-tabbed folio-case. Frame the short gravity path from cylinder to ground, not a long horizontal runway. No blowing wind, loose cap, printer effect or extra person. Physical page placement lock: the clean success sheet is fixed to the OUTSIDE face of the front retaining flap, so it is visible while the flap is closed. The same sheet stays attached to that outside face when the flap opens downward; revision records are inside the case, not the success sheet.",
+          "future_motion_notes": {
+            "camera": "기본 고정. 원통 입구부터 바로 아래 바닥까지 잡는 고정 미디엄 와이드. 종이가 바닥을 따라 스스로 멀리 펼쳐지지 않음.",
+            "start": "첫 프레임의 동작 전 상태에서 시작",
+            "main": "AL이 힌지 덮개를 열자 안에 접힌 유한한 오답 기록이 중력으로 바로 아래에 짧게 떨어져 작은 접힘 더미를 만든다.",
+            "end": "첫 페이지 상단은 고정턱에 남고 연결된 뒤 부분은 원통 바로 아래 더미. AL왼팔 원통지지, 오른손 비움. HU 기록은 아직 케이스 안.",
+            "frame_holds": "시작과 끝에 편집 여유 확보. 영상 전체8초를 자동 본편 사용하지 않음.",
+            "audio": "음성대사/생성 자막/생성 음악 없음. BGM/SFX 후편집.",
+            "acceptance": "시작→행동→완료, 손·소품·바닥 접점 확인. 상세 프롬프트가 성공을 보장하지 않음."
+          }
+        },
+        {
+          "id": "C10_K03",
+          "start": 10,
+          "end": 13,
+          "visible": [
+            "HU",
+            "AL"
+          ],
+          "frame_start": "AL 문서통 아래 작은 접힘 기록 더미, 첫페이지 입구고정. HU 왼팔 깊은 케이스, 오른손 비움.",
+          "action": "HU가 원통 첫 페이지와 아래의 작은 기록 더미를 본 뒤 오른손을 펴 어느 부분인지 묻는다.",
+          "frame_end": "HU질문손, AL첫페이지 맨위를 봄. 두 기록의 소유는 분리.",
+          "composition": "두인물 미디엄, AL작은더미 전경과 아직닫힌HU케이스의 두께 같이.",
+          "caption_cues": [
+            {
+              "start": 10.3,
+              "end": 12.8,
+              "text": "어느 부분이…?",
+              "placement": "상단 어두운 여백"
+            }
+          ],
+          "post_composites": [],
+          "transition": "AL의 손끝과 출력지 맨 위를 근접 컷.",
+          "intent": "상대가 어려운 지점까지 도달했을 것이라는 기대를 먼저 만들기.",
+          "continuity": [
+            "HU 기록은 여전히 케이스 안, 손가락 하나로 보이지 않는 태블릿 조작 금지",
+            "AL종이는 아래작은더미로만 남음"
+          ],
+          "scene_id": "S03",
+          "duration": 3,
+          "interval": "10–13초",
+          "dialogue": "없음",
+          "narration": "없음",
+          "music_sfx_silence": "10.8–11.8초1초정적, 차가운공기음만.",
+          "screen_action": "HU가 원통 첫 페이지와 아래의 작은 기록 더미를 본 뒤 오른손을 펴 어느 부분인지 묻는다.",
+          "frame_start_description": "AL 문서통 아래 작은 접힘 기록 더미, 첫페이지 입구고정. HU 왼팔 깊은 케이스, 오른손 비움.",
+          "frame_end_description": "HU질문손, AL첫페이지 맨위를 봄. 두 기록의 소유는 분리.",
+          "main_motion_count": 1,
+          "image_generation_required": true,
+          "video_generation_required": true,
+          "first_frame_prompt_en": "Create one cinematic 16:9 horizontal first-frame key image for a later live-action commercial comedy video. This is the exact BEFORE-action frame, not a collage or a completed action. Preserve realistic anatomy, natural contact with surfaces, and a clean readable hierarchy. No subtitles, readable interface text, dates, venue information, logos or watermark-like graphics; specified text will be composited afterward.  Visible cast only: The human technician is a compact, strong Black woman in her mid-50s with a broad round face, very short copper-colored natural curls and focused eyes, no glasses. Dusty-violet insulated technician jumpsuit with white piping, flat gray work shoes, no helmet or institutional logos. | The original nonhuman alien stands about 2.2 meters tall, with a broad round cylindrical torso and a small flat oval head merging into the body without a neck. A rigid pearl-colored faceplate has one horizontal amber eye visor and no human nose or mouth. Each hand has exactly three thick fingers. Matte ivory-and-charcoal integral exploration suit, wide horizontal waist band and simple broad boots; no resemblance to a known franchise character. Scene: Medium two-shot. A SMALL finite accordion-paper pile now rests directly below the alien's open cylinder, with the first page retained at the case mouth. The human supports her thick closed folio-case on her LEFT forearm; red draft edges are still visibly packed inside. Her empty RIGHT hand is lowered before a questioning gesture. The alien cradles the cylinder with its LEFT arm and keeps its RIGHT hand near the first page. Show both the small alien pile and the deep human case. The ship remains static. Physical page placement lock: the clean success sheet is fixed to the OUTSIDE face of the front retaining flap, so it is visible while the flap is closed. The same sheet stays attached to that outside face when the flap opens downward; revision records are inside the case, not the success sheet.",
+          "future_motion_notes": {
+            "camera": "기본 고정. 두인물 미디엄, AL작은더미 전경과 아직닫힌HU케이스의 두께 같이.",
+            "start": "첫 프레임의 동작 전 상태에서 시작",
+            "main": "HU가 원통 첫 페이지와 아래의 작은 기록 더미를 본 뒤 오른손을 펴 어느 부분인지 묻는다.",
+            "end": "HU질문손, AL첫페이지 맨위를 봄. 두 기록의 소유는 분리.",
+            "frame_holds": "시작과 끝에 편집 여유 확보. 영상 전체8초를 자동 본편 사용하지 않음.",
+            "audio": "음성대사/생성 자막/생성 음악 없음. BGM/SFX 후편집.",
+            "acceptance": "시작→행동→완료, 손·소품·바닥 접점 확인. 상세 프롬프트가 성공을 보장하지 않음."
+          }
+        },
+        {
+          "id": "C10_K04",
+          "start": 13,
+          "end": 16,
+          "visible": [
+            "AL",
+            "HU"
+          ],
+          "frame_start": "AL 원통 첫페이지/맨첫행, 오른손 한 손가락이 닿기 전. HU케이스 닫힌 채 옆.",
+          "action": "AL이 자기 시도 기록의 첫 줄만 오른손으로 정확히 짚는다.",
+          "frame_end": "첫줄 지시, 뒤 접힘은 아래 작은더미. HU는 잠깐 말문 막힌 듯 보임.",
+          "composition": "한손가락/첫행 큰 근접, 숫자나 긴 문장 없이 위치로 의미전달.",
+          "caption_cues": [
+            {
+              "start": 13.25,
+              "end": 15.85,
+              "text": "첫 줄부터요.",
+              "placement": "상단 빈 어둠"
+            }
+          ],
+          "post_composites": [
+            "첫행 주황 수정 흔적. '입력 단위:mm' 삭제. HU사례와 다른 문서 구조."
+          ],
+          "transition": "HU의 성공 페이지 아래로 컷.",
+          "intent": "큰 외교 장치가 첫 줄에서 막혔다는 두 번째박. 단위 정답을 묻는 줄거리 아님.",
+          "continuity": [
+            "AL오른손 첫줄지시/왼팔원통",
+            "고정된첫페이지와 작은더미 연결 유지",
+            "동일문제를 HU가 대신풀어주는 설정 없음"
+          ],
+          "scene_id": "S04",
+          "duration": 3,
+          "interval": "13–16초",
+          "dialogue": "없음",
+          "narration": "없음",
+          "music_sfx_silence": "13.5초 낮은목관한음,14–15초1초정적.",
+          "screen_action": "AL이 자기 시도 기록의 첫 줄만 오른손으로 정확히 짚는다.",
+          "frame_start_description": "AL 원통 첫페이지/맨첫행, 오른손 한 손가락이 닿기 전. HU케이스 닫힌 채 옆.",
+          "frame_end_description": "첫줄 지시, 뒤 접힘은 아래 작은더미. HU는 잠깐 말문 막힌 듯 보임.",
+          "main_motion_count": 1,
+          "image_generation_required": true,
+          "video_generation_required": true,
+          "first_frame_prompt_en": "Create one cinematic 16:9 horizontal first-frame key image for a later live-action commercial comedy video. This is the exact BEFORE-action frame, not a collage or a completed action. Preserve realistic anatomy, natural contact with surfaces, and a clean readable hierarchy. No subtitles, readable interface text, dates, venue information, logos or watermark-like graphics; specified text will be composited afterward.  Visible cast only: The original nonhuman alien stands about 2.2 meters tall, with a broad round cylindrical torso and a small flat oval head merging into the body without a neck. A rigid pearl-colored faceplate has one horizontal amber eye visor and no human nose or mouth. Each hand has exactly three thick fingers. Matte ivory-and-charcoal integral exploration suit, wide horizontal waist band and simple broad boots; no resemblance to a known franchise character. | The human technician is a compact, strong Black woman in her mid-50s with a broad round face, very short copper-colored natural curls and focused eyes, no glasses. Dusty-violet insulated technician jumpsuit with white piping, flat gray work shoes, no helmet or institutional logos. Scene: Close shot of the open alien document case and its FIRST page retained by a small fixed lip. The connected finite paper descends into a small pile directly below. The alien's RIGHT three-fingered hand has one index-like finger hovering just above the very FIRST ROW, not yet touching it; its LEFT arm supports the case. Reserve that first row for a simple orange revision mark, no measurement-unit values. A small portion of the human's attentive face can remain at the side. No tablet, blue clip or document transformation. Physical page placement lock: the clean success sheet is fixed to the OUTSIDE face of the front retaining flap, so it is visible while the flap is closed. The same sheet stays attached to that outside face when the flap opens downward; revision records are inside the case, not the success sheet.",
+          "future_motion_notes": {
+            "camera": "기본 고정. 한손가락/첫행 큰 근접, 숫자나 긴 문장 없이 위치로 의미전달.",
+            "start": "첫 프레임의 동작 전 상태에서 시작",
+            "main": "AL이 자기 시도 기록의 첫 줄만 오른손으로 정확히 짚는다.",
+            "end": "첫줄 지시, 뒤 접힘은 아래 작은더미. HU는 잠깐 말문 막힌 듯 보임.",
+            "frame_holds": "시작과 끝에 편집 여유 확보. 영상 전체8초를 자동 본편 사용하지 않음.",
+            "audio": "음성대사/생성 자막/생성 음악 없음. BGM/SFX 후편집.",
+            "acceptance": "시작→행동→완료, 손·소품·바닥 접점 확인. 상세 프롬프트가 성공을 보장하지 않음."
+          }
+        },
+        {
+          "id": "C10_K05",
+          "start": 16,
+          "end": 20,
+          "visible": [
+            "HU",
+            "AL"
+          ],
+          "frame_start": "HU의 깊은 문서케이스 근접. 닫힌 앞 덮개 바깥면에 성공 페이지, 옆틈으로 붉은수정기록양 명확. 왼팔바닥/뒤판지지, 오른손전면덮개윗모서리.",
+          "action": "HU가 성공 페이지가 붙은 전면덮개를 바깥쪽 아래로 열어 자기 수정 기록을 보여주려 한다. 케이스가 조금 앞으로 기울며 내부 종이들이 입구까지 밀리기 시작한다.",
+          "frame_end": "덮개 열려 아래쪽, 빨간수정기록여러묶음이 드러나 앞쪽입구에 걸림. 아직 본격낙하 전. 뒷판첫수정페이지는 고정포켓에 남음.",
+          "composition": "깊이와 실제수납량이 보이는3/4근접. 종이갑작스런새생성 없이닫힌면이열림.",
+          "caption_cues": [
+            {
+              "start": 16.2,
+              "end": 19.8,
+              "text": "저도 거기서 시작했어요.",
+              "placement": "상단 어둠"
+            }
+          ],
+          "post_composites": [
+            "성공페이지와 그뒤붉은취소선/수정표식. 단위값·태블릿 UI 없음."
+          ],
+          "transition": "같은 케이스 전면이 열린 동작을 이어 받아 종이 낙하로 매치 컷.",
+          "intent": "경험을 공유하려는 자신감에서 더 큰 기록량의 반전으로 연결하는 실제 원인.",
+          "continuity": [
+            "깊이14cm케이스/가시수납량K01부터고정",
+            "성공페이지는덮개에붙어있어사라지지않음",
+            "왼팔케이스지지/오른손덮개열기,한손추가없음",
+            "HU기록은AL과다른사례"
+          ],
+          "scene_id": "S05",
+          "duration": 4,
+          "interval": "16–20초",
+          "dialogue": "없음",
+          "narration": "없음",
+          "music_sfx_silence": "16초 따뜻한피아노두음,덮개열림19초부터종이마찰이수상하게커짐.",
+          "screen_action": "HU가 성공 페이지가 붙은 전면덮개를 바깥쪽 아래로 열어 자기 수정 기록을 보여주려 한다. 케이스가 조금 앞으로 기울며 내부 종이들이 입구까지 밀리기 시작한다.",
+          "frame_start_description": "HU의 깊은 문서케이스 근접. 닫힌 앞 덮개 바깥면에 성공 페이지, 옆틈으로 붉은수정기록양 명확. 왼팔바닥/뒤판지지, 오른손전면덮개윗모서리.",
+          "frame_end_description": "덮개 열려 아래쪽, 빨간수정기록여러묶음이 드러나 앞쪽입구에 걸림. 아직 본격낙하 전. 뒷판첫수정페이지는 고정포켓에 남음.",
+          "main_motion_count": 1,
+          "image_generation_required": true,
+          "video_generation_required": true,
+          "first_frame_prompt_en": "Create one cinematic 16:9 horizontal first-frame key image for a later live-action commercial comedy video. This is the exact BEFORE-action frame, not a collage or a completed action. Preserve realistic anatomy, natural contact with surfaces, and a clean readable hierarchy. No subtitles, readable interface text, dates, venue information, logos or watermark-like graphics; specified text will be composited afterward.  Visible cast only: The human technician is a compact, strong Black woman in her mid-50s with a broad round face, very short copper-colored natural curls and focused eyes, no glasses. Dusty-violet insulated technician jumpsuit with white piping, flat gray work shoes, no helmet or institutional logos. | The original nonhuman alien stands about 2.2 meters tall, with a broad round cylindrical torso and a small flat oval head merging into the body without a neck. A rigid pearl-colored faceplate has one horizontal amber eye visor and no human nose or mouth. Each hand has exactly three thick fingers. Matte ivory-and-charcoal integral exploration suit, wide horizontal waist band and simple broad boots; no resemblance to a known franchise character. Scene: Three-quarter close view of the SAME deep black folio-case on the human's LEFT forearm. Its substantial 14cm depth and finite packed red-tabbed revision papers match the initial shot. The RIGHT hand rests on the top edge of the rigid FRONT RETAINING FLAP that carries the clean success page, before opening the flap downward. The records are tightly visible behind it, with a first marked reference page held separately in the back-panel pocket. No paper is airborne or on the ground beneath the human yet. No tablet or detachable new folder. Physical page placement lock: the clean success sheet is fixed to the OUTSIDE face of the front retaining flap, so it is visible while the flap is closed. The same sheet stays attached to that outside face when the flap opens downward; revision records are inside the case, not the success sheet.",
+          "future_motion_notes": {
+            "camera": "기본 고정. 깊이와 실제수납량이 보이는3/4근접. 종이갑작스런새생성 없이닫힌면이열림.",
+            "start": "첫 프레임의 동작 전 상태에서 시작",
+            "main": "HU가 성공 페이지가 붙은 전면덮개를 바깥쪽 아래로 열어 자기 수정 기록을 보여주려 한다. 케이스가 조금 앞으로 기울며 내부 종이들이 입구까지 밀리기 시작한다.",
+            "end": "덮개 열려 아래쪽, 빨간수정기록여러묶음이 드러나 앞쪽입구에 걸림. 아직 본격낙하 전. 뒷판첫수정페이지는 고정포켓에 남음.",
+            "frame_holds": "시작과 끝에 편집 여유 확보. 영상 전체8초를 자동 본편 사용하지 않음.",
+            "audio": "음성대사/생성 자막/생성 음악 없음. BGM/SFX 후편집.",
+            "acceptance": "시작→행동→완료, 손·소품·바닥 접점 확인. 상세 프롬프트가 성공을 보장하지 않음."
+          }
+        },
+        {
+          "id": "C10_K06",
+          "start": 20,
+          "end": 25,
+          "visible": [
+            "HU",
+            "AL"
+          ],
+          "frame_start": "동일HU케이스전면덮개가아래로열려 있고 살짝앞으로기울어져 수납기록맨앞끝이튀어나옴. HU아래바닥비움,AL아래작은더미는오른쪽.",
+          "action": "케이스 속 유한한 붉은수정기록들이 몇 차례의 묶음으로 중력에 따라 HU 바로 아래에 쏟아져, AL의 더미보다 눈에 띄게 넓고 큰 더미를 만든다.",
+          "frame_end": "HU케이스안의 느슨한종이는거의비고 뒷판에고정된첫수정페이지한장만남음. 전면덮개/성공페이지붙어있음. HU아래더미 AL보다크지만수납량초과없음.",
+          "composition": "두캐릭터허리부터바닥까지보이는고정와이드,왼큰더미/오른작은더미를비교. 얼굴반응은다음컷.",
+          "caption_cues": [],
+          "post_composites": [
+            "HU기록붉은수정표식,AL기록주황표식으로 다른사례 구분."
+          ],
+          "transition": "큰 더미/작은 더미가 보이는 표정 비교 컷.",
+          "intent": "인간이 상대를가르치는구도를뒤집는실제새사건. 말로'나도실패했다'고설명하는대신수정기록물량이몸앞으로드러남.",
+          "continuity": [
+            "종이는K01부터보인수납물만,무한생성/허공분출없음",
+            "HU더미는바로아래짧은낙하;사람얼굴로날리지않음",
+            "AL작은더미/첫페이지소유그대로",
+            "우주선정적·추가인물없음"
+          ],
+          "scene_id": "S06",
+          "duration": 5,
+          "interval": "20–25초",
+          "dialogue": "없음",
+          "narration": "없음",
+          "music_sfx_silence": "20–23.5초 종이와종이부딪힘,음악의작은상승이물량에눌림.23.5초음악정지,마지막종이떨어지는소리만.",
+          "screen_action": "케이스 속 유한한 붉은수정기록들이 몇 차례의 묶음으로 중력에 따라 HU 바로 아래에 쏟아져, AL의 더미보다 눈에 띄게 넓고 큰 더미를 만든다.",
+          "frame_start_description": "동일HU케이스전면덮개가아래로열려 있고 살짝앞으로기울어져 수납기록맨앞끝이튀어나옴. HU아래바닥비움,AL아래작은더미는오른쪽.",
+          "frame_end_description": "HU케이스안의 느슨한종이는거의비고 뒷판에고정된첫수정페이지한장만남음. 전면덮개/성공페이지붙어있음. HU아래더미 AL보다크지만수납량초과없음.",
+          "main_motion_count": 1,
+          "image_generation_required": true,
+          "video_generation_required": true,
+          "first_frame_prompt_en": "Create one cinematic 16:9 horizontal first-frame key image for a later live-action commercial comedy video. This is the exact BEFORE-action frame, not a collage or a completed action. Preserve realistic anatomy, natural contact with surfaces, and a clean readable hierarchy. No subtitles, readable interface text, dates, venue information, logos or watermark-like graphics; specified text will be composited afterward.  Visible cast only: The human technician is a compact, strong Black woman in her mid-50s with a broad round face, very short copper-colored natural curls and focused eyes, no glasses. Dusty-violet insulated technician jumpsuit with white piping, flat gray work shoes, no helmet or institutional logos. | The original nonhuman alien stands about 2.2 meters tall, with a broad round cylindrical torso and a small flat oval head merging into the body without a neck. A rigid pearl-colored faceplate has one horizontal amber eye visor and no human nose or mouth. Each hand has exactly three thick fingers. Matte ivory-and-charcoal integral exploration suit, wide horizontal waist band and simple broad boots; no resemblance to a known franchise character. Scene: Fixed comparison wide from waist height down to both subjects' feet. The human at LEFT supports the same deep folio-case, now tilted slightly forward with its attached success-page front flap open downward. The visibly finite red-marked papers are still INSIDE but their leading edges protrude at the opening, immediately before slipping out. The pavement beneath the human is still empty. At RIGHT the alien's much smaller finite accordion-paper pile already lies directly below its open cylinder. Show both short gravity paths and enough clear floor for the human's packed records to form a broader pile. No airborne cloud, sideways runway or infinite paper supply. Physical page placement lock: the clean success sheet is fixed to the OUTSIDE face of the front retaining flap, so it is visible while the flap is closed. The same sheet stays attached to that outside face when the flap opens downward; revision records are inside the case, not the success sheet.",
+          "future_motion_notes": {
+            "camera": "기본 고정. 두캐릭터허리부터바닥까지보이는고정와이드,왼큰더미/오른작은더미를비교. 얼굴반응은다음컷.",
+            "start": "첫 프레임의 동작 전 상태에서 시작",
+            "main": "케이스 속 유한한 붉은수정기록들이 몇 차례의 묶음으로 중력에 따라 HU 바로 아래에 쏟아져, AL의 더미보다 눈에 띄게 넓고 큰 더미를 만든다.",
+            "end": "HU케이스안의 느슨한종이는거의비고 뒷판에고정된첫수정페이지한장만남음. 전면덮개/성공페이지붙어있음. HU아래더미 AL보다크지만수납량초과없음.",
+            "frame_holds": "시작과 끝에 편집 여유 확보. 영상 전체8초를 자동 본편 사용하지 않음.",
+            "audio": "음성대사/생성 자막/생성 음악 없음. BGM/SFX 후편집.",
+            "acceptance": "시작→행동→완료, 손·소품·바닥 접점 확인. 상세 프롬프트가 성공을 보장하지 않음."
+          }
+        },
+        {
+          "id": "C10_K07",
+          "start": 25,
+          "end": 28,
+          "visible": [
+            "HU",
+            "AL"
+          ],
+          "frame_start": "왼HU큰붉은더미/오른AL작은주황더미가비교되는미디엄와이드. HU열린케이스지지,AL왼팔원통/오른손비움.",
+          "action": "AL이 자기 작은 더미와 HU의 큰 더미를 번갈아 본 뒤 HU에게 전보다 훨씬 공손하게 몸을 조금 기울인다. HU는 작게 어깨를 으쓱한다.",
+          "frame_end": "AL 엄숙한우월감이사라지고 HU 경험에경청하는자세. HU는부끄러운패배자가아닌함께해본동료의작은미소.",
+          "composition": "두표정/상체와두더미비교동시에. 추가공격·절·넘어짐없음.",
+          "caption_cues": [],
+          "post_composites": [],
+          "transition": "서로의 기록 면이 보이는 대화 각도로 컷.",
+          "intent": "물량반전의감정결과. 거대문명과인간의지식서열을가볍게뒤집되두사람모두존중.",
+          "continuity": [
+            "고정손지지유지,HU케이스뒷판첫페이지남음",
+            "AL고개/상체만작게,새종이떨어짐반복없음",
+            "두기록은서로다른사례"
+          ],
+          "scene_id": "S07",
+          "duration": 3,
+          "interval": "25–28초",
+          "dialogue": "없음",
+          "narration": "없음",
+          "music_sfx_silence": "25–26초1초정적.26초이후 작은피아노한음. 승리팡파르/웃음소리없음.",
+          "screen_action": "AL이 자기 작은 더미와 HU의 큰 더미를 번갈아 본 뒤 HU에게 전보다 훨씬 공손하게 몸을 조금 기울인다. HU는 작게 어깨를 으쓱한다.",
+          "frame_start_description": "왼HU큰붉은더미/오른AL작은주황더미가비교되는미디엄와이드. HU열린케이스지지,AL왼팔원통/오른손비움.",
+          "frame_end_description": "AL 엄숙한우월감이사라지고 HU 경험에경청하는자세. HU는부끄러운패배자가아닌함께해본동료의작은미소.",
+          "main_motion_count": 1,
+          "image_generation_required": true,
+          "video_generation_required": true,
+          "first_frame_prompt_en": "Create one cinematic 16:9 horizontal first-frame key image for a later live-action commercial comedy video. This is the exact BEFORE-action frame, not a collage or a completed action. Preserve realistic anatomy, natural contact with surfaces, and a clean readable hierarchy. No subtitles, readable interface text, dates, venue information, logos or watermark-like graphics; specified text will be composited afterward.  Visible cast only: The human technician is a compact, strong Black woman in her mid-50s with a broad round face, very short copper-colored natural curls and focused eyes, no glasses. Dusty-violet insulated technician jumpsuit with white piping, flat gray work shoes, no helmet or institutional logos. | The original nonhuman alien stands about 2.2 meters tall, with a broad round cylindrical torso and a small flat oval head merging into the body without a neck. A rigid pearl-colored faceplate has one horizontal amber eye visor and no human nose or mouth. Each hand has exactly three thick fingers. Matte ivory-and-charcoal integral exploration suit, wide horizontal waist band and simple broad boots; no resemblance to a known franchise character. Scene: Medium-wide reaction two-shot with both piles visible along the bottom. The human's broad RED-marked revision pile at LEFT is clearly larger than the alien's small ORANGE-marked accordion pile at RIGHT. The human supports her now mostly empty open case on her LEFT arm; its attached success cover and retained first revision page are still present. The alien supports its open cylinder on the LEFT arm with its RIGHT hand free. Both begin by looking down at the unexpected size difference, before the alien changes posture or the human shrugs. Keep the mood respectful and the spacecraft still. Physical page placement lock: the clean success sheet is fixed to the OUTSIDE face of the front retaining flap, so it is visible while the flap is closed. The same sheet stays attached to that outside face when the flap opens downward; revision records are inside the case, not the success sheet.",
+          "future_motion_notes": {
+            "camera": "기본 고정. 두표정/상체와두더미비교동시에. 추가공격·절·넘어짐없음.",
+            "start": "첫 프레임의 동작 전 상태에서 시작",
+            "main": "AL이 자기 작은 더미와 HU의 큰 더미를 번갈아 본 뒤 HU에게 전보다 훨씬 공손하게 몸을 조금 기울인다. HU는 작게 어깨를 으쓱한다.",
+            "end": "AL 엄숙한우월감이사라지고 HU 경험에경청하는자세. HU는부끄러운패배자가아닌함께해본동료의작은미소.",
+            "frame_holds": "시작과 끝에 편집 여유 확보. 영상 전체8초를 자동 본편 사용하지 않음.",
+            "audio": "음성대사/생성 자막/생성 음악 없음. BGM/SFX 후편집.",
+            "acceptance": "시작→행동→완료, 손·소품·바닥 접점 확인. 상세 프롬프트가 성공을 보장하지 않음."
+          }
+        },
+        {
+          "id": "C10_K08",
+          "start": 28,
+          "end": 33,
+          "visible": [
+            "HU",
+            "AL"
+          ],
+          "frame_start": "HU왼팔열린케이스뒷판의첫수정페이지,AL왼팔원통첫페이지. 둘다서로에게돌리기직전,오른손비움. 서로다른문서색/구조.",
+          "action": "HU가 자기 첫수정페이지를 AL이 읽을 수 있게 돌려 오른손으로 자신의 수정 지점을 가리킨다. 이어 AL도 자기 첫페이지를 HU에게 돌려 자기 막힌 지점을 짚는다.",
+          "frame_end": "두사람이관객을향해전시하지않고 서로의다른기록을볼수있는각도. 각자의오른손각자기록지시,두더미그대로. 정답통일/검증완료없음.",
+          "composition": "두인물사이3/4미디엄,서로에게열린페이지면과손가락. 관객도일부보지만정면상품전시구도아님.",
+          "caption_cues": [
+            {
+              "start": 28.4,
+              "end": 32.8,
+              "text": "그럼, 서로 첫 장부터.",
+              "placement": "상단 어두운 여백"
+            }
+          ],
+          "post_composites": [
+            "HU '제 사례·수정 기록' 붉은메모 / AL '제 시도 기록' 주황메모, 서로다른문서구조. 단위정답맞춤·완료체크·동일성공화면없음."
+          ],
+          "transition": "33초 별도 전체 화면 엔딩 카드.",
+          "intent": "기록을보여주는것이행사의공유행동으로실제완결. 모여공부·필기엔딩과구분.",
+          "continuity": [
+            "HU/AL각자원래소유한첫페이지유지,종이교환없음",
+            "각자왼팔지지/오른손자기기록지시",
+            "같은문제를같은정답으로고친것아님",
+            "클립이동/태블릿조작삭제"
+          ],
+          "scene_id": "S08",
+          "duration": 5,
+          "interval": "28–33초",
+          "dialogue": "없음",
+          "narration": "없음",
+          "music_sfx_silence": "28초부터따뜻하고작은현악/피아노대화형두음. 새음성/외계어없음.",
+          "screen_action": "HU가 자기 첫수정페이지를 AL이 읽을 수 있게 돌려 오른손으로 자신의 수정 지점을 가리킨다. 이어 AL도 자기 첫페이지를 HU에게 돌려 자기 막힌 지점을 짚는다.",
+          "frame_start_description": "HU왼팔열린케이스뒷판의첫수정페이지,AL왼팔원통첫페이지. 둘다서로에게돌리기직전,오른손비움. 서로다른문서색/구조.",
+          "frame_end_description": "두사람이관객을향해전시하지않고 서로의다른기록을볼수있는각도. 각자의오른손각자기록지시,두더미그대로. 정답통일/검증완료없음.",
+          "main_motion_count": 1,
+          "image_generation_required": true,
+          "video_generation_required": true,
+          "first_frame_prompt_en": "Create one cinematic 16:9 horizontal first-frame key image for a later live-action commercial comedy video. This is the exact BEFORE-action frame, not a collage or a completed action. Preserve realistic anatomy, natural contact with surfaces, and a clean readable hierarchy. No subtitles, readable interface text, dates, venue information, logos or watermark-like graphics; specified text will be composited afterward.  Visible cast only: The human technician is a compact, strong Black woman in her mid-50s with a broad round face, very short copper-colored natural curls and focused eyes, no glasses. Dusty-violet insulated technician jumpsuit with white piping, flat gray work shoes, no helmet or institutional logos. | The original nonhuman alien stands about 2.2 meters tall, with a broad round cylindrical torso and a small flat oval head merging into the body without a neck. A rigid pearl-colored faceplate has one horizontal amber eye visor and no human nose or mouth. Each hand has exactly three thick fingers. Matte ivory-and-charcoal integral exploration suit, wide horizontal waist band and simple broad boots; no resemblance to a known franchise character. Scene: Three-quarter medium two-shot from between the two figures, not a frontal presentation to the audience. The human supports the open deep folio-case on her LEFT forearm; its RETAINED first revision page with red generic marks is still angled toward herself, before turning it toward the alien. The alien supports its own open cylinder with its LEFT arm, first page with DIFFERENT orange generic marks retained at the opening and still angled toward itself. Both RIGHT hands are empty and lowered before pointing. Their distinct finite paper piles remain on the ground. Leave room for each to turn its OWN record toward the OTHER person and indicate its OWN revision point. No shared answer screen, tablet, blue clip, new paper or success effect. Physical page placement lock: the clean success sheet is fixed to the OUTSIDE face of the front retaining flap, so it is visible while the flap is closed. The same sheet stays attached to that outside face when the flap opens downward; revision records are inside the case, not the success sheet.",
+          "future_motion_notes": {
+            "camera": "기본 고정. 두인물사이3/4미디엄,서로에게열린페이지면과손가락. 관객도일부보지만정면상품전시구도아님.",
+            "start": "첫 프레임의 동작 전 상태에서 시작",
+            "main": "HU가 자기 첫수정페이지를 AL이 읽을 수 있게 돌려 오른손으로 자신의 수정 지점을 가리킨다. 이어 AL도 자기 첫페이지를 HU에게 돌려 자기 막힌 지점을 짚는다.",
+            "end": "두사람이관객을향해전시하지않고 서로의다른기록을볼수있는각도. 각자의오른손각자기록지시,두더미그대로. 정답통일/검증완료없음.",
+            "frame_holds": "시작과 끝에 편집 여유 확보. 영상 전체8초를 자동 본편 사용하지 않음.",
+            "audio": "음성대사/생성 자막/생성 음악 없음. BGM/SFX 후편집.",
+            "acceptance": "시작→행동→완료, 손·소품·바닥 접점 확인. 상세 프롬프트가 성공을 보장하지 않음."
+          }
+        },
+        {
+          "id": "C10_K09",
+          "start": 33,
+          "end": 38,
+          "visible": [],
+          "frame_start": "별도차콜-남보라엔딩카드.",
+          "action": "고정카드5초.",
+          "frame_end": "행사명/성격/카피유지.",
+          "composition": "상하안전여백8%,3줄후처리활자.",
+          "caption_cues": [
+            {
+              "start": 33,
+              "end": 38,
+              "text": "해본 사람끼리, 통하는 이야기.\nQ-AI Fair\n품질팀 AI 성과 교류회",
+              "placement": "별도 전체 화면 카드"
+            }
+          ],
+          "post_composites": [
+            "타이포후편집."
+          ],
+          "transition": "끝.",
+          "intent": "성공결과와막힌기록모두를가진사람끼리이야기하는행사라는메시지5초.",
+          "continuity": [
+            "정확일시/장소/신청/성과수치없음"
+          ],
+          "is_card": true,
+          "scene_id": "S09",
+          "duration": 5,
+          "interval": "33–38초",
+          "dialogue": "없음",
+          "narration": "없음",
+          "music_sfx_silence": "33초 웅장한저음위작은피아노한음.37.5–38초페이드.",
+          "screen_action": "고정카드5초.",
+          "frame_start_description": "별도차콜-남보라엔딩카드.",
+          "frame_end_description": "행사명/성격/카피유지.",
+          "main_motion_count": 0,
+          "image_generation_required": false,
+          "video_generation_required": false,
+          "first_frame_prompt_en": null,
+          "future_motion_notes": {
+            "camera": "기본 고정. 상하안전여백8%,3줄후처리활자.",
+            "start": "첫 프레임의 동작 전 상태에서 시작",
+            "main": "고정카드5초.",
+            "end": "행사명/성격/카피유지.",
+            "frame_holds": "시작과 끝에 편집 여유 확보. 영상 전체8초를 자동 본편 사용하지 않음.",
+            "audio": "음성대사/생성 자막/생성 음악 없음. BGM/SFX 후편집.",
+            "acceptance": "시작→행동→완료, 손·소품·바닥 접점 확인. 상세 프롬프트가 성공을 보장하지 않음."
+          }
+        }
+      ],
+      "assumptions": [
+        "비율 16:9, 향후 동작 원본 기본8초를 가정하되 현재는 기획만",
+        "행사명 Q-AI Fair/품질팀 AI 성과 교류회 외 일정·장소·신청 방식은 미확정",
+        "서류의 수정 표시는 연출용 허구이며 실제 성과 수치나 품질 보증이 아님"
+      ],
+      "source_basis": [
+        "AGENTS.md",
+        "team/brief.toml",
+        "storyboards/2026-10-26_C01-C07-C10-rewrite-v15/common_brief.json",
+        "2026-10-26 총괄 PD 선정 카드와 후속 C10 축소 지시",
+        "기존 C02~C06 v11 characters와 C08/C09 v13 cast 비교"
+      ],
+      "status": "REVISED_AFTER_THREE_REVIEWERS_PENDING_RECHECK",
+      "dialogue_policy": "대사·내레이션·필수 음성 0. 자막/몸짓/소품 이동만으로 완결.",
+      "music_direction": {
+        "generation": "후속 단계에서 장르에 맞춘 오리지널 BGM 작곡 후 편집. 현재 음원 생성 없음.",
+        "role": "정보를 대신하지 않고 긴장/박자/정적만 보조. 무음 완주 검수 필수.",
+        "copyright": "qrew·레퍼런스 원음악 복사 금지.",
+        "cue_source": "각 shots[].music_sfx_silence (수정된 절대 타임라인에 동기화)"
+      },
+      "caption_style": {
+        "basis": "기존 상영본 공통 스타일과 최종 통합 시 맞춤",
+        "body": "1080p 기준64~72px 전후 굵은 산세리프, 기본최대2줄, 안전여백8%, 밝은글자/어두운대비 패널. 얼굴·손·접점 회피.",
+        "ending": "별도5초 카드3줄. Q-AI Fair 최대 크기, 품질팀 AI 성과 교류회는 최소 본문 크기. 행사명 읽을 시간 우선.",
+        "timing": "각 자막 큐는 전체 작품 절대시간. 편집 길이 변경 시 전체큐 재산정."
+      },
+      "scene_list": [
+        {
+          "concept_id": "C10",
+          "scene_id": "S01",
+          "linked_cuts": [
+            "C10_K01"
+          ],
+          "generation_kind": "generated_first_frame_then_motion",
+          "representative_frame": "정지 우주선 앞. HU 왼팔에 깊이14cm 문서케이스를 받쳐 첫 성공 페이지 제시 직전. 옆 틈으로 붉은 수정 기록의 충분한 수납량이 보임. AL 오른쪽 양손 원통.",
+          "characters": [
+            "HU",
+            "AL"
+          ],
+          "first_frame_prompt_ref": "concepts[2].shots[0].first_frame_prompt_en",
+          "planned_image_path": "storyboards/2026-10-26_C01-C07-C10-rewrite-v15/images/C10/S01.png",
+          "actual_file": null,
+          "image_status": "NOT_GENERATED",
+          "aspect_ratio": "16:9",
+          "continuity": [
+            "HU 왼팔 케이스 바닥/뒤판, 오른손 윗모서리",
+            "깊이와 실제 수납량이 첫 프레임부터 보임",
+            "인물2명·우주선정지/문닫힘",
+            "성공 페이지는 닫힌 앞 덮개 바깥면 고정. K01 닫힌 상태에서도 읽히며 K05에 같은 덮개를 아래로 열 때도 붙어 있음."
+          ],
+          "motion_camera_notes": {
+            "camera": "기본 고정. 로우 와이드, 두 인물과 정지 우주선. HU 케이스를 얇은 A4폴더처럼 숨기지 않고 두께/붉은 탭을 관객이 볼 수 있게.",
+            "start": "첫 프레임의 동작 전 상태에서 시작",
+            "main": "HU가 케이스 앞면의 깔끔한 성공 페이지를 AL 쪽으로 들어 보여 준다. 케이스 앞 덮개는 아직 닫혀 수납 기록을 지지한다.",
+            "end": "성공 페이지와 깊은 케이스가 같이 보임. 내부 기록은 아직 모두 수납. AL 원통 닫힘.",
+            "frame_holds": "시작과 끝에 편집 여유 확보. 영상 전체8초를 자동 본편 사용하지 않음.",
+            "audio": "음성대사/생성 자막/생성 음악 없음. BGM/SFX 후편집.",
+            "acceptance": "시작→행동→완료, 손·소품·바닥 접점 확인. 상세 프롬프트가 성공을 보장하지 않음."
+          }
+        },
+        {
+          "concept_id": "C10",
+          "scene_id": "S02",
+          "linked_cuts": [
+            "C10_K02"
+          ],
+          "generation_kind": "generated_first_frame_then_motion",
+          "representative_frame": "AL 양손 닫힌 원통, 바로 아래 바닥 비어 있음. HU 깊은 문서케이스는 닫힘/수납량 유지.",
+          "characters": [
+            "AL",
+            "HU"
+          ],
+          "first_frame_prompt_ref": "concepts[2].shots[1].first_frame_prompt_en",
+          "planned_image_path": "storyboards/2026-10-26_C01-C07-C10-rewrite-v15/images/C10/S02.png",
+          "actual_file": null,
+          "image_status": "NOT_GENERATED",
+          "aspect_ratio": "16:9",
+          "continuity": [
+            "덮개 본체에 붙음",
+            "첫페이지 고정턱/연결지/바닥더미의 연속성",
+            "총량은 원통에 보관 가능한 유한량, 더미작음",
+            "원통 바로 아래만 낙하, 바람/폭발 없음"
+          ],
+          "motion_camera_notes": {
+            "camera": "기본 고정. 원통 입구부터 바로 아래 바닥까지 잡는 고정 미디엄 와이드. 종이가 바닥을 따라 스스로 멀리 펼쳐지지 않음.",
+            "start": "첫 프레임의 동작 전 상태에서 시작",
+            "main": "AL이 힌지 덮개를 열자 안에 접힌 유한한 오답 기록이 중력으로 바로 아래에 짧게 떨어져 작은 접힘 더미를 만든다.",
+            "end": "첫 페이지 상단은 고정턱에 남고 연결된 뒤 부분은 원통 바로 아래 더미. AL왼팔 원통지지, 오른손 비움. HU 기록은 아직 케이스 안.",
+            "frame_holds": "시작과 끝에 편집 여유 확보. 영상 전체8초를 자동 본편 사용하지 않음.",
+            "audio": "음성대사/생성 자막/생성 음악 없음. BGM/SFX 후편집.",
+            "acceptance": "시작→행동→완료, 손·소품·바닥 접점 확인. 상세 프롬프트가 성공을 보장하지 않음."
+          }
+        },
+        {
+          "concept_id": "C10",
+          "scene_id": "S03",
+          "linked_cuts": [
+            "C10_K03"
+          ],
+          "generation_kind": "generated_first_frame_then_motion",
+          "representative_frame": "AL 문서통 아래 작은 접힘 기록 더미, 첫페이지 입구고정. HU 왼팔 깊은 케이스, 오른손 비움.",
+          "characters": [
+            "HU",
+            "AL"
+          ],
+          "first_frame_prompt_ref": "concepts[2].shots[2].first_frame_prompt_en",
+          "planned_image_path": "storyboards/2026-10-26_C01-C07-C10-rewrite-v15/images/C10/S03.png",
+          "actual_file": null,
+          "image_status": "NOT_GENERATED",
+          "aspect_ratio": "16:9",
+          "continuity": [
+            "HU 기록은 여전히 케이스 안, 손가락 하나로 보이지 않는 태블릿 조작 금지",
+            "AL종이는 아래작은더미로만 남음"
+          ],
+          "motion_camera_notes": {
+            "camera": "기본 고정. 두인물 미디엄, AL작은더미 전경과 아직닫힌HU케이스의 두께 같이.",
+            "start": "첫 프레임의 동작 전 상태에서 시작",
+            "main": "HU가 원통 첫 페이지와 아래의 작은 기록 더미를 본 뒤 오른손을 펴 어느 부분인지 묻는다.",
+            "end": "HU질문손, AL첫페이지 맨위를 봄. 두 기록의 소유는 분리.",
+            "frame_holds": "시작과 끝에 편집 여유 확보. 영상 전체8초를 자동 본편 사용하지 않음.",
+            "audio": "음성대사/생성 자막/생성 음악 없음. BGM/SFX 후편집.",
+            "acceptance": "시작→행동→완료, 손·소품·바닥 접점 확인. 상세 프롬프트가 성공을 보장하지 않음."
+          }
+        },
+        {
+          "concept_id": "C10",
+          "scene_id": "S04",
+          "linked_cuts": [
+            "C10_K04"
+          ],
+          "generation_kind": "generated_first_frame_then_motion",
+          "representative_frame": "AL 원통 첫페이지/맨첫행, 오른손 한 손가락이 닿기 전. HU케이스 닫힌 채 옆.",
+          "characters": [
+            "AL",
+            "HU"
+          ],
+          "first_frame_prompt_ref": "concepts[2].shots[3].first_frame_prompt_en",
+          "planned_image_path": "storyboards/2026-10-26_C01-C07-C10-rewrite-v15/images/C10/S04.png",
+          "actual_file": null,
+          "image_status": "NOT_GENERATED",
+          "aspect_ratio": "16:9",
+          "continuity": [
+            "AL오른손 첫줄지시/왼팔원통",
+            "고정된첫페이지와 작은더미 연결 유지",
+            "동일문제를 HU가 대신풀어주는 설정 없음"
+          ],
+          "motion_camera_notes": {
+            "camera": "기본 고정. 한손가락/첫행 큰 근접, 숫자나 긴 문장 없이 위치로 의미전달.",
+            "start": "첫 프레임의 동작 전 상태에서 시작",
+            "main": "AL이 자기 시도 기록의 첫 줄만 오른손으로 정확히 짚는다.",
+            "end": "첫줄 지시, 뒤 접힘은 아래 작은더미. HU는 잠깐 말문 막힌 듯 보임.",
+            "frame_holds": "시작과 끝에 편집 여유 확보. 영상 전체8초를 자동 본편 사용하지 않음.",
+            "audio": "음성대사/생성 자막/생성 음악 없음. BGM/SFX 후편집.",
+            "acceptance": "시작→행동→완료, 손·소품·바닥 접점 확인. 상세 프롬프트가 성공을 보장하지 않음."
+          }
+        },
+        {
+          "concept_id": "C10",
+          "scene_id": "S05",
+          "linked_cuts": [
+            "C10_K05"
+          ],
+          "generation_kind": "generated_first_frame_then_motion",
+          "representative_frame": "HU의 깊은 문서케이스 근접. 닫힌 앞 덮개 바깥면에 성공 페이지, 옆틈으로 붉은수정기록양 명확. 왼팔바닥/뒤판지지, 오른손전면덮개윗모서리.",
+          "characters": [
+            "HU",
+            "AL"
+          ],
+          "first_frame_prompt_ref": "concepts[2].shots[4].first_frame_prompt_en",
+          "planned_image_path": "storyboards/2026-10-26_C01-C07-C10-rewrite-v15/images/C10/S05.png",
+          "actual_file": null,
+          "image_status": "NOT_GENERATED",
+          "aspect_ratio": "16:9",
+          "continuity": [
+            "깊이14cm케이스/가시수납량K01부터고정",
+            "성공페이지는덮개에붙어있어사라지지않음",
+            "왼팔케이스지지/오른손덮개열기,한손추가없음",
+            "HU기록은AL과다른사례"
+          ],
+          "motion_camera_notes": {
+            "camera": "기본 고정. 깊이와 실제수납량이 보이는3/4근접. 종이갑작스런새생성 없이닫힌면이열림.",
+            "start": "첫 프레임의 동작 전 상태에서 시작",
+            "main": "HU가 성공 페이지가 붙은 전면덮개를 바깥쪽 아래로 열어 자기 수정 기록을 보여주려 한다. 케이스가 조금 앞으로 기울며 내부 종이들이 입구까지 밀리기 시작한다.",
+            "end": "덮개 열려 아래쪽, 빨간수정기록여러묶음이 드러나 앞쪽입구에 걸림. 아직 본격낙하 전. 뒷판첫수정페이지는 고정포켓에 남음.",
+            "frame_holds": "시작과 끝에 편집 여유 확보. 영상 전체8초를 자동 본편 사용하지 않음.",
+            "audio": "음성대사/생성 자막/생성 음악 없음. BGM/SFX 후편집.",
+            "acceptance": "시작→행동→완료, 손·소품·바닥 접점 확인. 상세 프롬프트가 성공을 보장하지 않음."
+          }
+        },
+        {
+          "concept_id": "C10",
+          "scene_id": "S06",
+          "linked_cuts": [
+            "C10_K06"
+          ],
+          "generation_kind": "generated_first_frame_then_motion",
+          "representative_frame": "동일HU케이스전면덮개가아래로열려 있고 살짝앞으로기울어져 수납기록맨앞끝이튀어나옴. HU아래바닥비움,AL아래작은더미는오른쪽.",
+          "characters": [
+            "HU",
+            "AL"
+          ],
+          "first_frame_prompt_ref": "concepts[2].shots[5].first_frame_prompt_en",
+          "planned_image_path": "storyboards/2026-10-26_C01-C07-C10-rewrite-v15/images/C10/S06.png",
+          "actual_file": null,
+          "image_status": "NOT_GENERATED",
+          "aspect_ratio": "16:9",
+          "continuity": [
+            "종이는K01부터보인수납물만,무한생성/허공분출없음",
+            "HU더미는바로아래짧은낙하;사람얼굴로날리지않음",
+            "AL작은더미/첫페이지소유그대로",
+            "우주선정적·추가인물없음"
+          ],
+          "motion_camera_notes": {
+            "camera": "기본 고정. 두캐릭터허리부터바닥까지보이는고정와이드,왼큰더미/오른작은더미를비교. 얼굴반응은다음컷.",
+            "start": "첫 프레임의 동작 전 상태에서 시작",
+            "main": "케이스 속 유한한 붉은수정기록들이 몇 차례의 묶음으로 중력에 따라 HU 바로 아래에 쏟아져, AL의 더미보다 눈에 띄게 넓고 큰 더미를 만든다.",
+            "end": "HU케이스안의 느슨한종이는거의비고 뒷판에고정된첫수정페이지한장만남음. 전면덮개/성공페이지붙어있음. HU아래더미 AL보다크지만수납량초과없음.",
+            "frame_holds": "시작과 끝에 편집 여유 확보. 영상 전체8초를 자동 본편 사용하지 않음.",
+            "audio": "음성대사/생성 자막/생성 음악 없음. BGM/SFX 후편집.",
+            "acceptance": "시작→행동→완료, 손·소품·바닥 접점 확인. 상세 프롬프트가 성공을 보장하지 않음."
+          }
+        },
+        {
+          "concept_id": "C10",
+          "scene_id": "S07",
+          "linked_cuts": [
+            "C10_K07"
+          ],
+          "generation_kind": "generated_first_frame_then_motion",
+          "representative_frame": "왼HU큰붉은더미/오른AL작은주황더미가비교되는미디엄와이드. HU열린케이스지지,AL왼팔원통/오른손비움.",
+          "characters": [
+            "HU",
+            "AL"
+          ],
+          "first_frame_prompt_ref": "concepts[2].shots[6].first_frame_prompt_en",
+          "planned_image_path": "storyboards/2026-10-26_C01-C07-C10-rewrite-v15/images/C10/S07.png",
+          "actual_file": null,
+          "image_status": "NOT_GENERATED",
+          "aspect_ratio": "16:9",
+          "continuity": [
+            "고정손지지유지,HU케이스뒷판첫페이지남음",
+            "AL고개/상체만작게,새종이떨어짐반복없음",
+            "두기록은서로다른사례"
+          ],
+          "motion_camera_notes": {
+            "camera": "기본 고정. 두표정/상체와두더미비교동시에. 추가공격·절·넘어짐없음.",
+            "start": "첫 프레임의 동작 전 상태에서 시작",
+            "main": "AL이 자기 작은 더미와 HU의 큰 더미를 번갈아 본 뒤 HU에게 전보다 훨씬 공손하게 몸을 조금 기울인다. HU는 작게 어깨를 으쓱한다.",
+            "end": "AL 엄숙한우월감이사라지고 HU 경험에경청하는자세. HU는부끄러운패배자가아닌함께해본동료의작은미소.",
+            "frame_holds": "시작과 끝에 편집 여유 확보. 영상 전체8초를 자동 본편 사용하지 않음.",
+            "audio": "음성대사/생성 자막/생성 음악 없음. BGM/SFX 후편집.",
+            "acceptance": "시작→행동→완료, 손·소품·바닥 접점 확인. 상세 프롬프트가 성공을 보장하지 않음."
+          }
+        },
+        {
+          "concept_id": "C10",
+          "scene_id": "S08",
+          "linked_cuts": [
+            "C10_K08"
+          ],
+          "generation_kind": "generated_first_frame_then_motion",
+          "representative_frame": "HU왼팔열린케이스뒷판의첫수정페이지,AL왼팔원통첫페이지. 둘다서로에게돌리기직전,오른손비움. 서로다른문서색/구조.",
+          "characters": [
+            "HU",
+            "AL"
+          ],
+          "first_frame_prompt_ref": "concepts[2].shots[7].first_frame_prompt_en",
+          "planned_image_path": "storyboards/2026-10-26_C01-C07-C10-rewrite-v15/images/C10/S08.png",
+          "actual_file": null,
+          "image_status": "NOT_GENERATED",
+          "aspect_ratio": "16:9",
+          "continuity": [
+            "HU/AL각자원래소유한첫페이지유지,종이교환없음",
+            "각자왼팔지지/오른손자기기록지시",
+            "같은문제를같은정답으로고친것아님",
+            "클립이동/태블릿조작삭제"
+          ],
+          "motion_camera_notes": {
+            "camera": "기본 고정. 두인물사이3/4미디엄,서로에게열린페이지면과손가락. 관객도일부보지만정면상품전시구도아님.",
+            "start": "첫 프레임의 동작 전 상태에서 시작",
+            "main": "HU가 자기 첫수정페이지를 AL이 읽을 수 있게 돌려 오른손으로 자신의 수정 지점을 가리킨다. 이어 AL도 자기 첫페이지를 HU에게 돌려 자기 막힌 지점을 짚는다.",
+            "end": "두사람이관객을향해전시하지않고 서로의다른기록을볼수있는각도. 각자의오른손각자기록지시,두더미그대로. 정답통일/검증완료없음.",
+            "frame_holds": "시작과 끝에 편집 여유 확보. 영상 전체8초를 자동 본편 사용하지 않음.",
+            "audio": "음성대사/생성 자막/생성 음악 없음. BGM/SFX 후편집.",
+            "acceptance": "시작→행동→완료, 손·소품·바닥 접점 확인. 상세 프롬프트가 성공을 보장하지 않음."
+          }
+        },
+        {
+          "concept_id": "C10",
+          "scene_id": "S09",
+          "linked_cuts": [
+            "C10_K09"
+          ],
+          "generation_kind": "postproduction_title_card",
+          "representative_frame": "별도차콜-남보라엔딩카드.",
+          "characters": [],
+          "first_frame_prompt_ref": "concepts[2].shots[8].first_frame_prompt_en",
+          "planned_image_path": null,
+          "actual_file": null,
+          "image_status": "NOT_GENERATED",
+          "aspect_ratio": "16:9",
+          "continuity": [
+            "정확일시/장소/신청/성과수치없음"
+          ],
+          "motion_camera_notes": {
+            "camera": "기본 고정. 상하안전여백8%,3줄후처리활자.",
+            "start": "첫 프레임의 동작 전 상태에서 시작",
+            "main": "고정카드5초.",
+            "end": "행사명/성격/카피유지.",
+            "frame_holds": "시작과 끝에 편집 여유 확보. 영상 전체8초를 자동 본편 사용하지 않음.",
+            "audio": "음성대사/생성 자막/생성 음악 없음. BGM/SFX 후편집.",
+            "acceptance": "시작→행동→완료, 손·소품·바닥 접점 확인. 상세 프롬프트가 성공을 보장하지 않음."
+          }
+        }
+      ],
+      "ending_hold_seconds": 5,
+      "motion_clip_count": 8,
+      "continuity_table": [
+        {
+          "prop": "HU 문서케이스",
+          "from": "K01부터깊이14cm/붉은수정기록수납량가시,왼팔지지",
+          "transition": "K05성공페이지붙은전면덮개열기→K06케이스기울기에따라유한한기록낙하",
+          "to": "K08뒷판포켓의기존첫수정페이지를AL에게돌려보임",
+          "forbidden": "얇은폴더에서무한종이생성,새노트북/태블릿"
+        },
+        {
+          "prop": "AL 원통/기록",
+          "from": "K01닫힘양손",
+          "transition": "K02힌지개방→연결지는바로아래작은더미,첫페이지고정턱",
+          "to": "K08왼팔원통/오른손자기첫기록지시",
+          "forbidden": "수평5~6m자동전개·무한프린트·기관총종이"
+        },
+        {
+          "prop": "두 바닥 더미",
+          "from": "K02오른쪽AL작은주황더미",
+          "transition": "K06왼쪽HU붉은더미가더크게형성",
+          "to": "K07비교/K08각자사례기록그대로보존",
+          "forbidden": "더미합쳐같은사례로처리,전체오류해결녹색"
+        },
+        {
+          "prop": "서로의 기록 공유",
+          "from": "HU성공페이지/AL첫줄질문",
+          "transition": "HU수정기록물량공개→서열대비표정역전",
+          "to": "서로에게자기기록돌리고각자의수정지점지시",
+          "forbidden": "관객정면으로문서만전시,같은단위정답맞춤,검증완료,앉아필기"
+        }
+      ]
+    }
+  ],
+  "production_totals": {
+    "concepts": 3,
+    "motion_clips": 27,
+    "first_frame_images_required": 27,
+    "title_cards": 3,
+    "images_actually_generated": 0,
+    "flow_requests_submitted": 0
+  },
+  "factual_limits": [
+    "정확한 일시·장소·신청·상금·실제 성과 수치 미확정이므로 미기재",
+    "AI 결과 도형/수정 표시는 연출용 예시, 실제 사례의 검증 증거가 아님",
+    "어떤 AI 결과도 사람 확인 없이 자동 최종정답으로 표현하지 않음"
+  ],
+  "pd_changes_applied": [
+    "C01 새 문서 패킷 출처 삭제: K10 기존 노트북 결과와 같은 확인원문 P만 나란히 제시, 펜 원래받침/오른손비움 명시.",
+    "C01 K05/K06 합계6초, 송풍 준비K08 1.5초 손/장비근접으로 압축. 불일치→조건수정→일치직접확인 세 상태 보존.",
+    "C01 송풍은 받기에 모은종이를 날림. 수거통 역분사 아님, S양손호스/오른발발판.",
+    "C07 제목 '셰프님, 그것도 주세요'. 돔 내부유효40cm/외형44cm, 받침45cm정사각/카트상판100×60cm로 실제 A4와 기록통 수용.",
+    "C07 의자1.2/1.2/2.2초. 마지막비교와이드에서JC가25cm정도앞서고JA/JB시선반응,이동통로비움.",
+    "C10 수평5~6m자동종이전개 삭제. 원통의유한접힘종이바로아래낙하.",
+    "C10 깊이/수납량K01부터보이는HU케이스→성공페이지덮개개방→AL보다큰유한한빨간수정기록더미낙하→표정역전.",
+    "C10 서로다른사례의기록을서로에게돌려각자의수정지점을가리킴. 단위수정/태블릿/클립/남은종이응시결말 삭제.",
+    "세안 모두필수음성0,행사명/품질팀AI성과교류회엔딩5초. 씬매핑/프롬프트/자막/BGM큐재동기화.",
+    "A/C 재확인: C10 성공 페이지를 닫힌 덮개 바깥면 고정으로 전필드 통일. C07 카트자체 화면중앙/오른쪽서빙영역/왼쪽45cm돔받침 분리 통일."
+  ],
+  "review_focus": [
+    "C01 기존노트북/같은확인원문만제시되는지, 불일치→입력조건수정→일치확인이각3초내가독한지, 송풍준비1.5초가결과를미리과설명하지않는지.",
+    "C0744cm외형돔과40cm내부유효면적/카트받침실제크기, 기록통깨끗함, 의자3연타속도차와마지막비교와이드/빈통로.",
+    "C10처음부터케이스깊이와수납량이보이는지,두유한종이더미의물량차가납득되는지,서로다른사례를같은정답으로고치는오해없이서로기록을보여주는지."
+  ],
+  "assumptions": [
+    "현재 새 C01/C07/C10은 콘티 재작성 범위이며 C08/C09 제작 큐와 별개",
+    "각 컷 향후8초 원본 확보를 가정하나 실제 편집 길이는 짧게 트림하며 각 작품60초 미만",
+    "제작 난이도는 일반적 판단이며 Flow 성공/프롬프트 일회 성공 보장 아님"
+  ],
+  "revision": "v2.1_after_review_recheck_consistency",
+  "preserved_previous_draft": "storyboards/2026-10-26_C01-C07-C10-rewrite-v15/storyboards_draft_v1_preserved.json"
+}

@@ -1,0 +1,44 @@
+{
+  "concept_id": "C09",
+  "file": "C09_Q-AI_Fair_screening_v15.mp4",
+  "status": "PASS_SELECTED_INTERVALS_WITH_DOCUMENTED_EDITORIAL_OMISSIONS",
+  "duration_seconds": 44.0,
+  "review_scope": {
+    "final_render": "Opened all ten contact sheets: every 0.5-second sample, first/last frames, cut boundary minus one/current/plus one frames.",
+    "additional": "Opened original K08 retained handoff interval's all 42 frames; K09 retained departure interval at 0.125-second spacing; full-resolution caption/action frames at 13.5, 27.5, 29.5 and 31.5 seconds.",
+    "actual_continuous_playback_verified": false,
+    "actual_listening_verified": false,
+    "technical_full_decode": true
+  },
+  "checks": {
+    "all_ten_shots_use_real_generated_motion": true,
+    "no_freeze_frame_or_action_still_substitute": true,
+    "source_files_unchanged": true,
+    "all_generated_audio_removed": true,
+    "original_local_instrumental_score": true,
+    "essential_spoken_information": 0,
+    "readable_high_contrast_captions": true,
+    "essential_hand_phone_charger_actions_not_covered_by_captions": true,
+    "gratitude_caption_seconds": 3.15,
+    "end_card_seconds": 5.0,
+    "end_title": "Q-AI Fair",
+    "end_descriptor": "품질팀 AI 성과 교류회"
+  },
+  "story_and_edits": [
+    "0-2.5 seconds: one charger picked up and put into right pocket, pink phone stays on desk.",
+    "2.5-11.75: sentimental farewell contrasted with colleague's applied and personally checked shared AI method. Post text carries the meaning; tiny blank phone screen is not presented as readable UI.",
+    "11.75-17.25: repaired K04 take02 completes boarding with suitcase, no return to pavement.",
+    "17.25-22.25: external incoming-call badge avoids false UI on phone back; man lifts phone to ear and looks toward door.",
+    "22.25-27.5: actual disembarkation completes; black phone is stowed before next cut. Question appears 1.25 seconds before charger reveal.",
+    "27.5-29.5: K07 take02 begins after charger is already held in right hand. Wrong-side pocket retrieval is omitted with PD approval.",
+    "29.5-31.25: real moving handoff insert from K08 take01 source1.5-3.25, crop330/215/810/485. All42frames show receipt and giver release; earlier phone disappearance excluded.",
+    "31.25-34.25: K09 take02 source3.5-6.5 shows already departing bus rear receding into the street, followed by empty road. Initial open-door movement and axis instability omitted.",
+    "34.25-39: colleague leaves, man remains with suitcase; 39-44 five-second event card."
+  ],
+  "known_limitations": [
+    "K07 pocket retrieval and K09 door closing/departure start are not proven successful actions; they are intentionally omitted through cuts.",
+    "K08 right-hand receipt differs from planned left-hand continuity; the close-up implies intervening offscreen phone handling. This is an editorial compromise, not a claim of physically corrected source.",
+    "K08 enlarged crop is softer than surrounding wide footage; charger bundle arrangement also varies slightly between takes.",
+    "Actual real-time continuous playback and subjective listening were not verified. Numerical audio QA is not listening."
+  ]
+}

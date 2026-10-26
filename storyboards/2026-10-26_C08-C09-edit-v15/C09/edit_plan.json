@@ -1,0 +1,144 @@
+{
+  "concept_id": "C09",
+  "title": "나 없이도 괜찮겠어요?",
+  "status": "RENDERED_TECHNICAL_AND_THREE_REVIEWER_VISUAL_CROSS_REVIEW_PASS_WITH_DOCUMENTED_LIMITATIONS",
+  "principle": "Screen plus post captions. All generated voices/music are removed. No action is replaced with a still.",
+  "pending_required_fixes": [],
+  "timeline": [
+    {
+      "cut": "K01",
+      "file": "C09_K01_take01.mp4",
+      "source_in": 0.25,
+      "source_out": 2.75,
+      "start": 0,
+      "end": 2.5,
+      "approved_for_final": true,
+      "review": "Charger and bundled pink cable visibly enter right pocket by 2 seconds; phone stays on desk."
+    },
+    {
+      "cut": "K02",
+      "file": "C09_K02_take01.mp4",
+      "source_in": 0.5,
+      "source_out": 4.75,
+      "start": 2.5,
+      "end": 6.75,
+      "approved_for_final": true,
+      "review": "Farewell handshake and release visible; pink phone remains in woman's other hand."
+    },
+    {
+      "cut": "K03",
+      "file": "C09_K03_take01.mp4",
+      "source_in": 0.5,
+      "source_out": 5.5,
+      "start": 6.75,
+      "end": 11.75,
+      "approved_for_final": true,
+      "review": "Phone turns outward, coworker displays result, man wipes emotion. Post captions explicitly identify applied shared AI method and human checking."
+    },
+    {
+      "cut": "K04",
+      "file": "C09_K04_take02.mp4",
+      "source_in": 0.5,
+      "source_out": 6.0,
+      "start": 11.75,
+      "end": 17.25,
+      "approved_for_final": true,
+      "review": "Take02 completes one-way boarding: both man and suitcase inside by 5.5 seconds. Keep through 6 seconds, no return to pavement."
+    },
+    {
+      "cut": "K05",
+      "file": "C09_K05_take01.mp4",
+      "source_in": 0.5,
+      "source_out": 5.5,
+      "start": 17.25,
+      "end": 22.25,
+      "approved_for_final": true,
+      "review": "Black phone goes to left ear and man glances toward open bus door. Incoming-call indicator is external post graphic, never painted on phone back."
+    },
+    {
+      "cut": "K06",
+      "file": "C09_K06_take01.mp4",
+      "source_in": 0.5,
+      "source_out": 5.75,
+      "start": 22.25,
+      "end": 27.5,
+      "approved_for_final": true,
+      "review": "0.5-second actual frames: suitcase reaches pavement by 3 seconds, both feet by 4 seconds. Phone begins entering left pocket around 5 seconds. Cut before unrelated later jacket gestures."
+    },
+    {
+      "cut": "K07",
+      "file": "C09_K07_take02.mp4",
+      "source_in": 4.5,
+      "source_out": 6.5,
+      "start": 27.5,
+      "end": 29.5,
+      "approved_for_final": true,
+      "review": "Only already-held charger in right hand and offering gesture retained. Incorrect cross-body pocket retrieval at earlier times is excluded; PD approved editorial omission, not a repaired retrieval claim."
+    },
+    {
+      "cut": "K08",
+      "file": "C09_K08_take01.mp4",
+      "source_in": 1.5,
+      "source_out": 3.25,
+      "start": 29.5,
+      "end": 31.25,
+      "approved_for_final": true,
+      "review": "Use only actual moving close-up handoff insert. Phone disappearance occurs before retained range and is excluded. Receiver secures charger and giver visibly releases. Right-hand receipt remains a documented editorial compromise; no claim of corrected original physics.",
+      "crop": [
+        330,
+        215,
+        810,
+        485
+      ]
+    },
+    {
+      "cut": "K09",
+      "file": "C09_K09_take02.mp4",
+      "source_in": 3.5,
+      "source_out": 6.5,
+      "start": 31.25,
+      "end": 34.25,
+      "approved_for_final": true,
+      "review": "Use only rear-facing bus receding continuously into street depth and clearing frame. Initial open-door movement/axis instability excluded. Door closing and initial departure are editorially omitted, not claimed verified."
+    },
+    {
+      "cut": "K10",
+      "file": "C09_K10_take01.mp4",
+      "source_in": 0.75,
+      "source_out": 5.5,
+      "start": 34.25,
+      "end": 39.0,
+      "approved_for_final": true,
+      "review": "Woman walks behind man and exits left by about 4.5 seconds; man stays with suitcase, bus absent."
+    }
+  ],
+  "ending": {
+    "duration_seconds": 5.0,
+    "title": "Q-AI Fair",
+    "tagline": "내가 없어도 이어지는 방법.",
+    "descriptor": "품질팀 AI 성과 교류회"
+  },
+  "review_scope": {
+    "sample_frame_interval_seconds": 0.5,
+    "actual_listening_verified": false,
+    "actual_continuous_playback_verified": false
+  },
+  "known_editorial_compromises": [
+    {
+      "cut": "K08",
+      "issue": "Take01 phone disappears before retained interval; charger received by different hand from planned continuity.",
+      "treatment": "Actual moving hand insert 1.50-3.25 seconds, crop [330,215,810,485], then wide shot. This omits defective interval; it does not repair the original file. Final boundary review required."
+    },
+    {
+      "cut": "K07",
+      "issue": "Take02 still extracts charger cross-body from wrong side before retained interval.",
+      "treatment": "Retain source4.5-6.5, charger already held in right hand. Question begins1.25seconds before this cut. Pocket retrieval omitted with PD approval."
+    },
+    {
+      "cut": "K09",
+      "issue": "Take02 opens with unclosed door movement/axis ambiguity.",
+      "treatment": "Retain source3.5-6.5, bus rear already receding. Departure start/door closing omitted with PD approval."
+    }
+  ],
+  "cross_review_record": "../cross_review.json"
+}

@@ -1,0 +1,83 @@
+{
+  "scope": "C08 53초 / C09 44초 실제 최종 렌더",
+  "reviewers": [
+    "v15_review_a",
+    "v15_review_b",
+    "v15_review_c"
+  ],
+  "independent_reviews_collected_before_cross_review": true,
+  "all_reviewers_opened_actual_render_images": true,
+  "independent_reviews": {
+    "A": {
+      "opened": "C08 contact01~12, C09 contact01~10, UI 9.0/13.5초·엔딩·C09 핸드오프 42프레임",
+      "result": "새 필수 시각 결함 없음. 손/종이가 UI 위에 보이고 벽돌 삽입·손떼기·동일벽돌교정 읽힘. C09 귀환/반환/버스/혼자남음 이해 가능.",
+      "issues": [
+        "A-V001 인출/문닫힘/초기출발은 생략",
+        "A-V002 K08 실제 1.75초 크롭, 오른손 수령 및 해상도 한계",
+        "A-V003 실제청취/연속재생 미검증"
+      ]
+    },
+    "B": {
+      "opened": "C08 contact01~12, C09 contact01~10, K08 42프레임, C08 UI13.5/14.0초, 두엔딩원해상도",
+      "result": "새 필수 렌더 오류 없음. 두 실제 MP4 오디오 전체디코딩·비영신호/길이 확인. BGM 정적이 합성 코드의 마스킹으로 구현됨 확인.",
+      "issues": [
+        "B-V001 29.5초 앞 여성 오른손 폰/왼손 내밈→삽입 오른손 수령 차이 남음",
+        "B-V002 청감/실시간 재생 미검증",
+        "B-V003 C08 착지후포즈/K10 각0.5~1초압축은 취향제안"
+      ]
+    },
+    "C": {
+      "opened": "C08 contact01~12, C09 contact01~10, C08 13.0초, C09 29.542초, 두끝카드",
+      "result": "새 필수 시각 수정 없음. 두MP4전체디코딩·SHA직접확인. 영상1272/1056프레임 및 오디오 비정상/포화0 확인.",
+      "issues": [
+        "C-V001 인출 생략/왼손 내밈→오른손 수령은 느슨한 연결이나 반환 사건 명확",
+        "C-V002 실제 청취·연속재생 미검증"
+      ]
+    }
+  },
+  "pd_decisions": [
+    {
+      "ids": [
+        "A-V001",
+        "A-V002",
+        "B-V001",
+        "C-V001"
+      ],
+      "decision": "구체적 시간 생략과 실제 전달 크롭을 수용. 원본 결함 수정 성공으로 확대하지 않고 EDL·원본log·사용자 검수보고서에 명시."
+    },
+    {
+      "ids": [
+        "B-V003"
+      ],
+      "decision": "필수 아닌 호흡 취향 제안. 현재53초에서 착지 완료/손떼기/교정완료 읽힘을 유지. 추가트림 보류."
+    },
+    {
+      "ids": [
+        "A-V003",
+        "B-V002",
+        "C-V002"
+      ],
+      "decision": "실제 청취·실시간 연속재생 미검증을 최종 안내까지 유지."
+    }
+  ],
+  "cross_responses": {
+    "A": "B-V001/C-V001 실제29.458/29.500초 재대조 동의. B-V003은 선택제안으로 현재53초유지 동의. 실제청취/연속재생 미검증 유지, 새필수누락없음.",
+    "B": "A-V001/2,C-V001 동의. K07/K09 생략과 K08 수령손변화는 남아있으나 현재편집수용동의. B-V003취향제안종결. 추가필수없음.",
+    "C": "B-V001,A-V001/2 동의. K08반환명료/원본동작수정성공구분, C08손떼기완료위해53초유지동의. 검증한계동일/추가필수없음."
+  },
+  "mandatory_visual_issues_remaining": 0,
+  "files": {
+    "C08": {
+      "duration": 53,
+      "sha256": "c550dd099b7d70739b5957cd87a7b43d01c1962d9372a42c9e4838fb568948c9"
+    },
+    "C09": {
+      "duration": 44,
+      "sha256": "6710e7d08d6b481ae6d624112998165c06c8fbccc0c8032b46515f15b96aa0c2"
+    }
+  },
+  "actual_listening_verified": false,
+  "continuous_playback_verified": false,
+  "audience_response_measured": false,
+  "status": "THREE_INDEPENDENT_AND_CROSS_REVIEWS_COMPLETE_WITH_DOCUMENTED_LIMITATIONS"
+}

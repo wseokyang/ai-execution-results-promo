@@ -1,0 +1,40 @@
+{
+  "status": "CANDIDATE_EDIT_PENDING_REPLACEMENTS",
+  "reviewed": [
+    "K06 take01",
+    "K07 take01",
+    "K08 take01",
+    "K09 take01",
+    "K10 take01"
+  ],
+  "accepted": [
+    "K06 take01",
+    "K10 take01"
+  ],
+  "rejected": [
+    "K07 take01 wrong pocket/hand",
+    "K09 take01 reverse/open-door departure"
+  ],
+  "K08": {
+    "source_interval": [
+      1.5,
+      3.25
+    ],
+    "crop": [
+      330,
+      215,
+      810,
+      485
+    ],
+    "frames": 42,
+    "actual_action": "Charger transfer and giver release",
+    "phone_disappearance_interval_excluded": true,
+    "hand_continuity_perfect": false,
+    "assumption": "Brief close-up omits intervening phone handling; does not repair original physics",
+    "loss": "Enlarged crop is visibly softer than wide source; no frozen frames or interpolation"
+  },
+  "actual_continuous_playback_verified": false,
+  "actual_listening_verified": false,
+  "historical_stage_record": true,
+  "superseded_for_current_status_by": "edit_manifest.json and ../cross_review.json"
+}

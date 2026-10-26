@@ -1,0 +1,397 @@
+{
+  "concept_id": "C10",
+  "title": "지구 대표, 질문 있습니다",
+  "method": "built-in image_gen",
+  "required_scene_count": 8,
+  "images": [
+    {
+      "concept_id": "C10",
+      "scene_id": "S01",
+      "linked_cuts": [
+        "C10_K01"
+      ],
+      "image_path": "storyboards/2026-10-26_C01-C07-C10-rewrite-v15/images/C10/S01.png",
+      "generated_source": "C:\\Users\\wseok\\.codex\\generated_images\\01a177f8-aac2-7f51-ae1d-f6313c796a39\\exec-f9494b4a-fd8b-4f17-9982-c6440a922a32.png",
+      "prompt": "Create one cinematic 16:9 horizontal first-frame key image for a later live-action commercial comedy video. This is the exact BEFORE-action frame, not a collage or a completed action. Preserve realistic anatomy, natural contact with surfaces, and a clean readable hierarchy. No subtitles, readable interface text, dates, venue information, logos or watermark-like graphics; specified text will be composited afterward.  Visible cast only: The human technician is a compact, strong Black woman in her mid-50s with a broad round face, very short copper-colored natural curls and focused eyes, no glasses. Dusty-violet insulated technician jumpsuit with white piping, flat gray work shoes, no helmet or institutional logos. | The original nonhuman alien stands about 2.2 meters tall, with a broad round cylindrical torso and a small flat oval head merging into the body without a neck. A rigid pearl-colored faceplate has one horizontal amber eye visor and no human nose or mouth. Each hand has exactly three thick fingers. Matte ivory-and-charcoal integral exploration suit, wide horizontal waist band and simple broad boots; no resemblance to a known franchise character. Scene: Low wide cinematic night shot with one huge STATIC oval spacecraft behind two figures, door closed, lights steady. The compact Black woman in a dusty-violet jumpsuit stands LEFT, supporting a rigid BLACK DOCUMENT FOLIO-CASE approximately38x30x14cm on her LEFT forearm. Its substantial depth and tightly packed red-tabbed draft edges are clearly visible through the side gap from the start. Its closed front retaining flap carries one clean result sheet; her RIGHT hand rests on the upper edge before presenting it. The ivory-and-charcoal alien stands RIGHT with a long closed document cylinder in both hands, angled downward away from the human. Dry clear ground below both; no paper has fallen. Physical page placement lock: the clean success sheet is fixed to the OUTSIDE face of the front retaining flap, so it is visible while the flap is closed. The same sheet stays attached to that outside face when the flap opens downward; revision records are inside the case, not the success sheet.\nUse case: ads-marketing. This is an original science-fiction commercial scene with expensive theatrical night lighting, cool steel-blue environment and faint warm amber spacecraft light, physical practical textures. Frame is 16:9, 1536x864. Establish identities and props clearly for following shots. No existing franchise designs. No glowing weapons.",
+      "reference_images": [],
+      "review_status": "three_independent_reviews_cross_checked_and_required_fixes_rechecked",
+      "artist_notes": "Establishing frame. Two original characters, deep folio/red tabs and outside success sheet, closed cylinder, no fallen paper.",
+      "sha256": "2c5112e6ad7ba3b3c8b70c041bae265b8c6f0da559e835c234d424a72f5320d5",
+      "motion_camera_notes": {
+        "camera": "로우 와이드, 두 인물과 정지 우주선. HU 케이스를 얇은 A4폴더처럼 숨기지 않고 두께/붉은 탭을 관객이 볼 수 있게.",
+        "start": "정지 우주선 앞. HU 왼팔에 깊이14cm 문서케이스를 받쳐 첫 성공 페이지 제시 직전. 옆 틈으로 붉은 수정 기록의 충분한 수납량이 보임. AL 오른쪽 양손 원통.",
+        "main": "HU가 케이스 앞면의 깔끔한 성공 페이지를 AL 쪽으로 들어 보여 준다. 케이스 앞 덮개는 아직 닫혀 수납 기록을 지지한다.",
+        "end": "성공 페이지와 깊은 케이스가 같이 보임. 내부 기록은 아직 모두 수납. AL 원통 닫힘.",
+        "frame_holds": "시작과 끝에 편집 여유 확보. 영상 전체8초를 자동 본편 사용하지 않음.",
+        "audio": "음성대사/생성 자막/생성 음악 없음. BGM/SFX 후편집.",
+        "acceptance": "시작→행동→완료, 손·소품·바닥 접점 확인. 상세 프롬프트가 성공을 보장하지 않음."
+      },
+      "dimensions": [
+        1672,
+        941
+      ],
+      "format": "PNG",
+      "artist_actually_opened": true
+    },
+    {
+      "concept_id": "C10",
+      "scene_id": "S02",
+      "linked_cuts": [
+        "C10_K02"
+      ],
+      "image_path": "storyboards/2026-10-26_C01-C07-C10-rewrite-v15/images/C10/S02.png",
+      "generated_source": "C:\\Users\\wseok\\.codex\\generated_images\\01a177f8-aac2-7f51-ae1d-f6313c796a39\\exec-e1dbc727-8ffe-42a0-b4a2-67c6df44318f.png",
+      "prompt": "Use case: ads-marketing. Create one 16:9 photorealistic cinematic first frame. Reference image is a visual continuity reference for the two original science-fiction characters, their clothes, document containers and night landing site. This scene depicts friendly professional document sharing. Move the camera closer and lower: medium-wide framing, from the tall ivory character's shoulders down to the clear pavement. The tall ivory-and-charcoal character on screen-right has three thick fingers on each hand. Its LEFT forearm supports the same long charcoal CYLINDRICAL DOCUMENT CASE across its waist, tilted gently downward. A hinged side panel is fully CLOSED. Its right fingers rest lightly at the small panel latch before opening. No paper outside this cylinder yet; clear empty pavement directly below. On screen-left the same compact middle-aged Black woman with copper short curls and violet jumpsuit remains visible, supporting her deep black folio on her left forearm and resting her right hand at the top; its blank cream success page is clipped onto the OUTSIDE of the still-closed front flap, packed red-tabbed pages visible through the folio's side gap. The oval spacecraft behind them stays closed and stationary. Cool blue night and warm amber accents. Ordinary realistic contact and physical props. Empty space below for a later gravity-driven document unroll. No captions, logos, diagrams, legible text or extra characters. This is the BEFORE-opening state.",
+      "reference_images": [
+        "storyboards/2026-10-26_C01-C07-C10-rewrite-v15/images/C10/S01.png"
+      ],
+      "review_status": "three_independent_reviews_cross_checked_and_required_fixes_rechecked",
+      "artist_notes": "Closed cylinder, hand on latch, empty floor; identity consistent. First request failed output safety filter; second benign document-case description succeeded.",
+      "sha256": "fefcfee0412990b95dd832074e9c61121379eb414a8406545f27736b0537dcfb",
+      "motion_camera_notes": {
+        "camera": "원통 입구부터 바로 아래 바닥까지 잡는 고정 미디엄 와이드. 종이가 바닥을 따라 스스로 멀리 펼쳐지지 않음.",
+        "start": "AL 양손 닫힌 원통, 바로 아래 바닥 비어 있음. HU 깊은 문서케이스는 닫힘/수납량 유지.",
+        "main": "AL이 힌지 덮개를 열자 안에 접힌 유한한 오답 기록이 중력으로 바로 아래에 짧게 떨어져 작은 접힘 더미를 만든다.",
+        "end": "첫 페이지 상단은 고정턱에 남고 연결된 뒤 부분은 원통 바로 아래 더미. AL왼팔 원통지지, 오른손 비움. HU 기록은 아직 케이스 안.",
+        "frame_holds": "시작과 끝에 편집 여유 확보. 영상 전체8초를 자동 본편 사용하지 않음.",
+        "audio": "음성대사/생성 자막/생성 음악 없음. BGM/SFX 후편집.",
+        "acceptance": "시작→행동→완료, 손·소품·바닥 접점 확인. 상세 프롬프트가 성공을 보장하지 않음."
+      },
+      "dimensions": [
+        1672,
+        941
+      ],
+      "format": "PNG",
+      "artist_actually_opened": true
+    },
+    {
+      "concept_id": "C10",
+      "scene_id": "S03",
+      "linked_cuts": [
+        "C10_K03"
+      ],
+      "image_path": "storyboards/2026-10-26_C01-C07-C10-rewrite-v15/images/C10/S03.png",
+      "generated_source": "C:\\Users\\wseok\\.codex\\generated_images\\01a177f8-aac2-7f51-ae1d-f6313c796a39\\exec-6286f3dc-3aa4-46ba-8e23-9580f706a74b.png",
+      "prompt": "Use case: precise-object-edit. Edit this exact cinematic image. Change ONLY the human woman's arm and hand poses. Keep her face, body position, purple suit, deep black folio, outside cream page, red tabs, alien, open cylinder, orange connected paper and small floor pile, spacecraft, camera and lighting unchanged. Her anatomical LEFT arm (on the viewer's RIGHT side of her body) must wrap under the folio: left elbow bent, left forearm passes horizontally beneath the black case and the left palm supports the underside at its viewer-right bottom corner. Her anatomical RIGHT arm (on viewer LEFT) must be lowered relaxed beside her right thigh, hand EMPTY with gently relaxed fingers, not gripping the folio and not yet asking a question. This is the exact start pose before she later lifts her RIGHT hand. Do not swap the prop or add arms. The case remains at the same place in front of her torso. 16:9. No other changes.",
+      "reference_images": [
+        "storyboards/2026-10-26_C01-C07-C10-rewrite-v15/images/C10/references/S03_before_pose_fix.png"
+      ],
+      "review_status": "three_independent_reviews_cross_checked_and_required_fixes_rechecked",
+      "artist_notes": "Corrected HU case support to anatomical LEFT hand, RIGHT hand lowered before questioning. Alien paper finite directly below case.",
+      "sha256": "821f1e76a26db42fe330b1bc166a01fe6d23d123bf7f0dc759e5fd89f3703c99",
+      "motion_camera_notes": {
+        "camera": "두인물 미디엄, AL작은더미 전경과 아직닫힌HU케이스의 두께 같이.",
+        "start": "AL 문서통 아래 작은 접힘 기록 더미, 첫페이지 입구고정. HU 왼팔 깊은 케이스, 오른손 비움.",
+        "main": "HU가 원통 첫 페이지와 아래의 작은 기록 더미를 본 뒤 오른손을 펴 어느 부분인지 묻는다.",
+        "end": "HU질문손, AL첫페이지 맨위를 봄. 두 기록의 소유는 분리.",
+        "frame_holds": "시작과 끝에 편집 여유 확보. 영상 전체8초를 자동 본편 사용하지 않음.",
+        "audio": "음성대사/생성 자막/생성 음악 없음. BGM/SFX 후편집.",
+        "acceptance": "시작→행동→완료, 손·소품·바닥 접점 확인. 상세 프롬프트가 성공을 보장하지 않음."
+      },
+      "dimensions": [
+        1672,
+        941
+      ],
+      "format": "PNG",
+      "artist_actually_opened": true
+    },
+    {
+      "concept_id": "C10",
+      "scene_id": "S04",
+      "linked_cuts": [
+        "C10_K04"
+      ],
+      "image_path": "storyboards/2026-10-26_C01-C07-C10-rewrite-v15/images/C10/S04.png",
+      "generated_source": "C:\\Users\\wseok\\.codex\\generated_images\\01a177f8-aac2-7f51-ae1d-f6313c796a39\\exec-a29a4107-3321-4e00-88f0-7225ea11265f.png",
+      "prompt": "Use case: ads-marketing. New 16:9 cinematic close-up of the exact open charcoal document cylinder and orange-marked accordion paper in reference image 1. Keep the same original ivory-and-charcoal three-fingered alien. Tight framing from its chest to its upper legs, with the first cream page dominating center and a short section of connected folded paper continuing DOWN out of the bottom edge to the existing floor pile. The left arm supports the cylinder in the same orientation as reference. The alien's anatomical RIGHT hand comes from viewer-left: one thick finger hovers 2cm above the FIRST horizontal orange row near the top of this retained page, before contact; the other two digits curl normally. The first page is held by a physical lip on the open cylinder, not floating. The right hand must not already point to the bottom row. Show a tiny cropped portion of the woman's purple shoulder at far-left only if convenient; do not introduce any human hand, tablet or clip. Cool blue night, amber accents, fixed camera. Orange marks are simple decorative lines/circles only, no legible text, numeric values or captions. No event text. Exact BEFORE-pointing state, one connected physical paper strip.",
+      "reference_images": [
+        "storyboards/2026-10-26_C01-C07-C10-rewrite-v15/images/C10/S03.png"
+      ],
+      "review_status": "three_independent_reviews_cross_checked_and_required_fixes_rechecked",
+      "artist_notes": "First-page close-up, right fingers poised above the first section; exact first-row touch remains future motion.",
+      "sha256": "e2744aeba05570affd535cfb3fe2455fc8ed61a27fba705199c3914ef80dfe02",
+      "motion_camera_notes": {
+        "camera": "한손가락/첫행 큰 근접, 숫자나 긴 문장 없이 위치로 의미전달.",
+        "start": "AL 원통 첫페이지/맨첫행, 오른손 한 손가락이 닿기 전. HU케이스 닫힌 채 옆.",
+        "main": "AL이 자기 시도 기록의 첫 줄만 오른손으로 정확히 짚는다.",
+        "end": "첫줄 지시, 뒤 접힘은 아래 작은더미. HU는 잠깐 말문 막힌 듯 보임.",
+        "frame_holds": "시작과 끝에 편집 여유 확보. 영상 전체8초를 자동 본편 사용하지 않음.",
+        "audio": "음성대사/생성 자막/생성 음악 없음. BGM/SFX 후편집.",
+        "acceptance": "시작→행동→완료, 손·소품·바닥 접점 확인. 상세 프롬프트가 성공을 보장하지 않음."
+      },
+      "dimensions": [
+        1672,
+        941
+      ],
+      "format": "PNG",
+      "artist_actually_opened": true
+    },
+    {
+      "concept_id": "C10",
+      "scene_id": "S05",
+      "linked_cuts": [
+        "C10_K05"
+      ],
+      "image_path": "storyboards/2026-10-26_C01-C07-C10-rewrite-v15/images/C10/S05.png",
+      "generated_source": "C:\\Users\\wseok\\.codex\\generated_images\\01a177f8-aac2-7f51-ae1d-f6313c796a39\\exec-51780303-834d-4391-9ab8-5a0fcd9b3101.png",
+      "prompt": "Use case: ads-marketing. Create a new 16:9 cinematic CLOSE-UP from the reference image. Identity and prop continuity are essential. Camera tightly frames only the purple-suited woman's torso, forearms and deep black folio, from collarbone to hips; do NOT show the alien or any alien document cylinder. The same original middle-aged Black woman with copper cropped curls is mostly outside the top edge; her LEFT forearm supports the case underneath, her RIGHT hand rests on the top edge of the black front flap, ready to pull that flap down on its bottom hinge. The closed rigid front flap with a plain cream success sheet clipped onto its OUTSIDE faces the camera at a 3/4 angle. Show its 14cm side depth and plentiful folded white revision records with red tabs packed INSIDE, visible through the small side gap. The case is exactly the same black battered rectangular object as the reference, not a new folder or tablet. The side gap must demonstrate physical paper storage; the front flap is still closed, no loose papers yet. A retained first revision page sits behind the stack in an internal back pocket, still hidden by the front. Night landing pad, cool blue and warm amber practical lighting softly blurred behind. No readable text, graphics, subtitles or logos. Exact before-opening pose, fingers anatomically normal and clearly separated.",
+      "reference_images": [
+        "storyboards/2026-10-26_C01-C07-C10-rewrite-v15/images/C10/S01.png"
+      ],
+      "review_status": "three_independent_reviews_cross_checked_and_required_fixes_rechecked",
+      "artist_notes": "Corrected to tight folio/hand close-up; excludes alien to avoid closed-cylinder discontinuity.",
+      "sha256": "281891a6827084d507e7cbc9bad6aed0fb9d3d046e3c393725d13f197d23e3c3",
+      "motion_camera_notes": {
+        "camera": "깊이와 실제수납량이 보이는3/4근접. 종이갑작스런새생성 없이닫힌면이열림.",
+        "start": "HU의 깊은 문서케이스 근접. 닫힌 앞 덮개 바깥면에 성공 페이지, 옆틈으로 붉은수정기록양 명확. 왼팔바닥/뒤판지지, 오른손전면덮개윗모서리.",
+        "main": "HU가 성공 페이지가 붙은 전면덮개를 바깥쪽 아래로 열어 자기 수정 기록을 보여주려 한다. 케이스가 조금 앞으로 기울며 내부 종이들이 입구까지 밀리기 시작한다.",
+        "end": "덮개 열려 아래쪽, 빨간수정기록여러묶음이 드러나 앞쪽입구에 걸림. 아직 본격낙하 전. 뒷판첫수정페이지는 고정포켓에 남음.",
+        "frame_holds": "시작과 끝에 편집 여유 확보. 영상 전체8초를 자동 본편 사용하지 않음.",
+        "audio": "음성대사/생성 자막/생성 음악 없음. BGM/SFX 후편집.",
+        "acceptance": "시작→행동→완료, 손·소품·바닥 접점 확인. 상세 프롬프트가 성공을 보장하지 않음."
+      },
+      "dimensions": [
+        1672,
+        941
+      ],
+      "format": "PNG",
+      "artist_actually_opened": true
+    },
+    {
+      "concept_id": "C10",
+      "scene_id": "S06",
+      "linked_cuts": [
+        "C10_K06"
+      ],
+      "image_path": "storyboards/2026-10-26_C01-C07-C10-rewrite-v15/images/C10/S06.png",
+      "generated_source": "C:\\Users\\wseok\\.codex\\generated_images\\01a177f8-aac2-7f51-ae1d-f6313c796a39\\exec-b464e4db-e030-476a-9118-7f1fa72c8bbc.png",
+      "prompt": "Use case: precise-object-edit. Change only ONE face of the human woman's open black document case. This exact image is otherwise locked. The bottom-hinged black front flap hangs downward below the paper compartment. In this image we are looking at the INSIDE face of that flap. Remove the large cream sheet and silver clip from this visible inside face: this visible inside face must be plain matte black. The success sheet has NOT disappeared; it remains attached on the OPPOSITE OUTER/UNDERSIDE of the same flap, facing away from the camera and down toward the floor, so at most a tiny thin cream edge peeks around its lower edge. Do not move the hinge, flap, hands, packed red-tabbed records, alien, orange accordion record, floor pile, people, camera, lighting or spaceship. The inside record compartment stays packed and floor under human remains empty. No text. Maintain 16:9.",
+      "reference_images": [
+        "storyboards/2026-10-26_C01-C07-C10-rewrite-v15/images/C10/references/S06_before_flap_fix.png"
+      ],
+      "review_status": "three_independent_reviews_cross_checked_and_required_fixes_rechecked",
+      "artist_notes": "Open human case still packed, floor below empty. Corrected flap visible INNER face to black; outside success sheet is now facing away/down, not claimed visible.",
+      "sha256": "d2797691c6afa60dfe876bcdb3d266863122807021dcb1a1d032e770a63dd587",
+      "motion_camera_notes": {
+        "camera": "두캐릭터허리부터바닥까지보이는고정와이드,왼큰더미/오른작은더미를비교. 얼굴반응은다음컷.",
+        "start": "동일HU케이스전면덮개가아래로열려 있고 살짝앞으로기울어져 수납기록맨앞끝이튀어나옴. HU아래바닥비움,AL아래작은더미는오른쪽.",
+        "main": "케이스 속 유한한 붉은수정기록들이 몇 차례의 묶음으로 중력에 따라 HU 바로 아래에 쏟아져, AL의 더미보다 눈에 띄게 넓고 큰 더미를 만든다.",
+        "end": "HU케이스안의 느슨한종이는거의비고 뒷판에고정된첫수정페이지한장만남음. 전면덮개/성공페이지붙어있음. HU아래더미 AL보다크지만수납량초과없음.",
+        "frame_holds": "시작과 끝에 편집 여유 확보. 영상 전체8초를 자동 본편 사용하지 않음.",
+        "audio": "음성대사/생성 자막/생성 음악 없음. BGM/SFX 후편집.",
+        "acceptance": "시작→행동→완료, 손·소품·바닥 접점 확인. 상세 프롬프트가 성공을 보장하지 않음."
+      },
+      "dimensions": [
+        1672,
+        941
+      ],
+      "format": "PNG",
+      "artist_actually_opened": true
+    },
+    {
+      "concept_id": "C10",
+      "scene_id": "S07",
+      "linked_cuts": [
+        "C10_K07"
+      ],
+      "image_path": "storyboards/2026-10-26_C01-C07-C10-rewrite-v15/images/C10/S07.png",
+      "generated_source": "C:\\Users\\wseok\\.codex\\generated_images\\01a177f8-aac2-7f51-ae1d-f6313c796a39\\exec-54650259-7e82-4f73-a026-4cf9064f0cf3.png",
+      "prompt": "Use case: ads-marketing. Create a 16:9 cinematic medium-wide BEFORE-reaction frame, using reference 1 for exact two characters, costumes, containers, night lighting, landing pad and spacecraft. Same human LEFT and alien RIGHT, both entire heads and feet visible. The finite red-tabbed revision records that were packed inside the woman's deep folio have now fallen straight down: a broad untidy pile of white folded papers with RED correction strokes lies directly below her, about 2 to 3 times the floor area of the alien's SMALL ORANGE accordion stack. Keep this human pile plausibly within the volume of her 38x30x14cm case, roughly 60x40cm footprint, not a giant mountain or floor-covering sea. The human's black folio is now nearly EMPTY, with exactly ONE original red-marked revision page retained in a back pocket inside. Her anatomical LEFT forearm supports it. Its attached bottom-hinged front flap hangs down, visible INNER face black, outside success sheet on the reverse face away/down. Her anatomical RIGHT hand is empty and relaxed beside the case. The alien cradles its unchanged open charcoal cylinder with its LEFT arm; original first orange page retained and accordion paper connected down to the SAME small floor pile. Its RIGHT hand is empty and close to the cylinder, before any new gesture. BOTH subjects are looking DOWN at the unequal piles, BEFORE the alien leans courteously or human shrugs. No gestures already completed. Respectful serious expressions, no tears or shaming. The ship and lighting unchanged. No fresh paper falling, no text, subtitles, legible numbers, extra characters or props.",
+      "reference_images": [
+        "storyboards/2026-10-26_C01-C07-C10-rewrite-v15/images/C10/S06.png"
+      ],
+      "review_status": "three_independent_reviews_cross_checked_and_required_fixes_rechecked",
+      "artist_notes": "Finite red pile versus small orange pile; retained red first page in near-empty folio. Both looking down before posture reaction.",
+      "sha256": "fd67c730994a9156d0648cf3bc86ce775aefe34509630776599313e837405142",
+      "motion_camera_notes": {
+        "camera": "두표정/상체와두더미비교동시에. 추가공격·절·넘어짐없음.",
+        "start": "왼HU큰붉은더미/오른AL작은주황더미가비교되는미디엄와이드. HU열린케이스지지,AL왼팔원통/오른손비움.",
+        "main": "AL이 자기 작은 더미와 HU의 큰 더미를 번갈아 본 뒤 HU에게 전보다 훨씬 공손하게 몸을 조금 기울인다. HU는 작게 어깨를 으쓱한다.",
+        "end": "AL 엄숙한우월감이사라지고 HU 경험에경청하는자세. HU는부끄러운패배자가아닌함께해본동료의작은미소.",
+        "frame_holds": "시작과 끝에 편집 여유 확보. 영상 전체8초를 자동 본편 사용하지 않음.",
+        "audio": "음성대사/생성 자막/생성 음악 없음. BGM/SFX 후편집.",
+        "acceptance": "시작→행동→완료, 손·소품·바닥 접점 확인. 상세 프롬프트가 성공을 보장하지 않음."
+      },
+      "dimensions": [
+        1672,
+        941
+      ],
+      "format": "PNG",
+      "artist_actually_opened": true
+    },
+    {
+      "concept_id": "C10",
+      "scene_id": "S08",
+      "linked_cuts": [
+        "C10_K08"
+      ],
+      "image_path": "storyboards/2026-10-26_C01-C07-C10-rewrite-v15/images/C10/S08_v2.png",
+      "generated_source": "C:\\Users\\wseok\\.codex\\generated_images\\01a177f8-aac2-7f51-ae1d-f6313c796a39\\exec-04fd4208-ee99-4b68-bb87-b67705a0fae8.png",
+      "prompt": "Use case: ads-marketing. Create a corrected 16:9 first-frame scene with two visual references. Reference 1 (wide view) is the authoritative reference for the human's LEFT ARM supporting her open black folio and EMPTY RIGHT HAND. Reference 2 (side view) is the desired close conversation composition, lighting, alien stance, orange paper connection and paper piles. Preserve all identities, clothing, props and record ownership.\nRecompose ONLY the human upper-body angle enough to make correct hand ownership unambiguous: the woman stays on screen-left and looks toward the alien on screen-right, but turns her torso slightly toward the CAMERA, so we see the FRONT of her violet jumpsuit and both her arms in a clear three-quarter view, not her back. Her anatomical LEFT arm appears on the viewer's RIGHT side of her body: LEFT elbow bent, LEFT forearm crosses beneath the open folio, LEFT palm supporting the underside, as in reference1. Her anatomical RIGHT arm is on the viewer's LEFT side of her body: RIGHT arm hangs free down her side, RIGHT hand EMPTY, with clear space between that hand and the case. Only her left arm carries the folio; it is braced against her torso. The right hand is ready to point later but does NOT point yet.\nThe same black deep folio stays open, its single first RED-marked page retained in the back pocket, bottom-hinged flap hanging with plain black inside visible. Angle this open case slightly toward HERSELF, not as a frontal display to viewers; the next motion is turning it toward the alien. Keep the alien exactly as reference2: left forearm cradling original open cylinder and first ORANGE page, empty right hand lowered, continuous accordion paper descending to the existing small pile. Human larger red pile unchanged. Both engaged with each other, no paper exchange or new props, no captions/readable text. Same night blue/amber lighting and static spacecraft.",
+      "reference_images": [
+        "storyboards/2026-10-26_C01-C07-C10-rewrite-v15/images/C10/S07.png",
+        "storyboards/2026-10-26_C01-C07-C10-rewrite-v15/images/C10/S08.png"
+      ],
+      "review_status": "three_independent_reviews_cross_checked_and_required_fixes_rechecked",
+      "artist_notes": "PD approved minimal torso-angle change after two exact arm edits failed. HU now front three-quarter, anatomical LEFT arm supports case at viewer-right; anatomical RIGHT arm hangs empty at viewer-left. Alien's left-arm cylinder support, empty right hand, connected orange paper, two piles and pre-sharing state retained. Original S08 preserved, not horizontally mirrored.",
+      "sha256": "5577370d8b3d8f9631404f4235311684ed02fd4aa3b381d17f212fdd398e1087",
+      "motion_camera_notes": {
+        "camera": "HU 상체 앞 3/4와 AL을 함께 보는 미디엄. HU 해부학적 왼팔이 열린 케이스를 지지하고 오른손은 비워 아래로 내려 동작 시작 전임이 분명하다. AL도 왼팔 원통 지지/빈 오른손. 각자 자기 문서를 상대에게 돌리기 전, 서로를 바라본다.",
+        "start": "HU왼팔열린케이스뒷판의첫수정페이지,AL왼팔원통첫페이지. 둘다서로에게돌리기직전,오른손비움. 서로다른문서색/구조.",
+        "main": "HU가 자기 첫수정페이지를 AL이 읽을 수 있게 돌려 오른손으로 자신의 수정 지점을 가리킨다. 이어 AL도 자기 첫페이지를 HU에게 돌려 자기 막힌 지점을 짚는다.",
+        "end": "두사람이관객을향해전시하지않고 서로의다른기록을볼수있는각도. 각자의오른손각자기록지시,두더미그대로. 정답통일/검증완료없음.",
+        "frame_holds": "시작과 끝에 편집 여유 확보. 영상 전체8초를 자동 본편 사용하지 않음.",
+        "audio": "음성대사/생성 자막/생성 음악 없음. BGM/SFX 후편집.",
+        "acceptance": "시작→행동→완료, 손·소품·바닥 접점 확인. 상세 프롬프트가 성공을 보장하지 않음."
+      },
+      "dimensions": [
+        1672,
+        941
+      ],
+      "format": "PNG",
+      "artist_actually_opened": true,
+      "failed_arm_edit_attempts": [
+        {
+          "prompt": "Use case: precise-object-edit. Correct ONLY the human woman's arm poses in this exact image. Preserve the camera, side-angle/back view, her face/hair/body/clothes, case, all pages, the alien and all its hands/cylinder/paper, spaceship, lighting and floor. No horizontal mirror.\nIMPORTANT ANATOMY: we see the woman's BACK. The arm currently hanging straight at the LEFT side of the picture is her anatomical LEFT arm. Bend THAT LEFT arm forward around her waist, reaching beneath the SAME black open folio case. Her left forearm and left palm must carry the underside of the case. This supporting left hand may naturally be partly hidden by the case, but the left shoulder-to-bent-elbow-to-supporting-forearm chain must be believable.\nThe prominent arm currently bent in front of her body on the RIGHT side of the picture is her anatomical RIGHT arm. Release THAT right hand from the case and lower that entire right forearm naturally beside her RIGHT thigh. Show her RIGHT hand EMPTY and relaxed in the gap toward the alien, ready to gesture later. Only TWO arms and TWO hands. Do not show the right hand touching or supporting the case. Her left arm alone supports it, with the case braced naturally against her torso. Keep the folio open with its red first revision page and its hanging bottom flap unchanged. Tiny adjustment of folio position toward her torso is allowed only if needed for physical support. Keep every other element unchanged, especially alien left-arm support and connected orange paper to its floor stack. No new writing or captions. 16:9.",
+          "generated_source": "C:\\Users\\wseok\\.codex\\generated_images\\01a177f8-aac2-7f51-ae1d-f6313c796a39\\exec-3496de59-1107-4537-8dce-55d9fe0868d8.png",
+          "reason": "Tool retained the incorrect original right-arm support. Not selected."
+        },
+        {
+          "prompt": "Edit the woman's two arm poses. The current bent arm on the RIGHT of the picture MUST become straight and EMPTY. The current straight hanging arm on the LEFT of the picture MUST become bent and support the case. This is a required visible change; do not reproduce the existing pose.\nKeep her back, body, head, camera and all other objects fixed. On image-right, replace the bent purple sleeve/elbow/forearm that hugs the black folio with a natural straight purple sleeve descending along the woman's right side. Her bare right hand hangs visibly at her right thigh in front of the hanging lower case flap, relaxed and EMPTY, several centimeters clear of the case. On image-left, bend the previously hanging purple sleeve forward at the elbow so the LEFT forearm wraps around her left waist toward the underside of the black folio. Its left supporting palm is visible just beneath the case on the far side; natural torso occlusion is allowed. The case can shift a few centimeters LEFT toward her body so this support is physically feasible, but it is the same open folio with the same single red page and hinged lower flap. No third arm or hand. Do not mirror. Do not change the alien, its hands, orange paper, floor piles, clothing, lighting, background or composition. Cinematic realistic anatomy, 16:9.",
+          "generated_source": "C:\\Users\\wseok\\.codex\\generated_images\\01a177f8-aac2-7f51-ae1d-f6313c796a39\\exec-a3acef09-4f0d-448f-94f3-9081f161d127.png",
+          "reason": "Tool retained the incorrect original right-arm support. Not selected."
+        }
+      ]
+    }
+  ],
+  "review_status": "ACTUAL_SELECTED_IMAGES_CROSS_REVIEWED_FUTURE_FLOW_MOTION_NOT_VERIFIED",
+  "generation_failures": [
+    {
+      "scene_id": "S02",
+      "attempt": 1,
+      "reason": "image tool output safety filter; no image produced",
+      "resolved_by": "neutral document-case preparation prompt produced usable S02"
+    }
+  ],
+  "rejected_variants": [
+    {
+      "scene_id": "S05",
+      "generated_source": "C:/Users/wseok/.codex/generated_images/01a177f8-aac2-7f51-ae1d-f6313c796a39/exec-2be62a69-dbc8-4925-9d2a-9b57c6d608bb.png",
+      "reason": "too wide, alien cylinder erroneously closed at this story stage; replaced by tight HU folio close-up"
+    },
+    {
+      "scene_id": "S03",
+      "generated_source": "C:/Users/wseok/.codex/generated_images/01a177f8-aac2-7f51-ae1d-f6313c796a39/exec-15bd2d96-be74-46fa-8422-ca3a459620bb.png",
+      "reason": "Human hand support swapped and questioning hand already extended. Edited before-action hand poses."
+    },
+    {
+      "scene_id": "S06",
+      "generated_source": "C:/Users/wseok/.codex/generated_images/01a177f8-aac2-7f51-ae1d-f6313c796a39/exec-0971b85f-c538-4dd1-afce-8422da48a4eb.png",
+      "reason": "Success sheet incorrectly appeared on inner face of opened flap; fixed visible inside to black."
+    }
+  ],
+  "prompt_history": [
+    {
+      "scene_id": "S03",
+      "prompt": "Create one cinematic 16:9 horizontal first-frame key image for a later live-action commercial comedy video. This is the exact BEFORE-action frame, not a collage or a completed action. Preserve realistic anatomy, natural contact with surfaces, and a clean readable hierarchy. No subtitles, readable interface text, dates, venue information, logos or watermark-like graphics; specified text will be composited afterward.  Visible cast only: The human technician is a compact, strong Black woman in her mid-50s with a broad round face, very short copper-colored natural curls and focused eyes, no glasses. Dusty-violet insulated technician jumpsuit with white piping, flat gray work shoes, no helmet or institutional logos. | The original nonhuman alien stands about 2.2 meters tall, with a broad round cylindrical torso and a small flat oval head merging into the body without a neck. A rigid pearl-colored faceplate has one horizontal amber eye visor and no human nose or mouth. Each hand has exactly three thick fingers. Matte ivory-and-charcoal integral exploration suit, wide horizontal waist band and simple broad boots; no resemblance to a known franchise character. Scene: Medium two-shot. A SMALL finite accordion-paper pile now rests directly below the alien's open cylinder, with the first page retained at the case mouth. The human supports her thick closed folio-case on her LEFT forearm; red draft edges are still visibly packed inside. Her empty RIGHT hand is lowered before a questioning gesture. The alien cradles the cylinder with its LEFT arm and keeps its RIGHT hand near the first page. Show both the small alien pile and the deep human case. The ship remains static. Physical page placement lock: the clean success sheet is fixed to the OUTSIDE face of the front retaining flap, so it is visible while the flap is closed. The same sheet stays attached to that outside face when the flap opens downward; revision records are inside the case, not the success sheet.\nUse case: ads-marketing. Reference1 establishes exact character identities, spacecraft, clothing and two document containers. Change only pose/composition and the alien document case opening/papers as specified. The alien's long charcoal cylinder has an attached longitudinal hinged side panel opened outward. A cream page with simple orange marks is retained visibly in a shallow lip along the opening; attached accordion paper descends vertically under gravity into ONE SMALL compact pile directly at its boots. No paper underneath the human. The human still supports her CLOSED deep black folio with red tabs. Her RIGHT arm is relaxed before lifting to ask a question. Same night blue/amber lighting, 16:9, no text. Frame both heads and the small pile.",
+      "references": [
+        "storyboards/2026-10-26_C01-C07-C10-rewrite-v15/images/C10/S01.png"
+      ],
+      "output": "storyboards/2026-10-26_C01-C07-C10-rewrite-v15/images/C10/references/S03_before_pose_fix.png"
+    },
+    {
+      "scene_id": "S06",
+      "prompt": "Use case: ads-marketing. New 16:9 comparison wide shot, reference1 gives exact characters/world and the alien's already-open document cylinder/small orange floor pile; reference2 gives exact human black folio construction and packed red-tabbed paper supply. Frame from shoulders to both characters' feet with ample floor. Human LEFT, alien RIGHT, same scale/clothes/cool blue and amber lighting, static spaceship. The human's anatomical LEFT forearm supports her same 14cm-deep black folio. Its original bottom-hinged FRONT FLAP is now fully swung DOWN beneath the case, still physically attached by its bottom hinge. The clean cream success sheet remains clipped to the OUTSIDE of this downturned flap, partly facing down/out, not inside the case. Her RIGHT hand holds the top outer corner of the opened flap, controlling it. The open case is tilted slightly forward. It is still PACKED with a finite thick stack of white folded revision records with bold red generic correction lines and red tabs; only their leading corners protrude by a few centimeters, all still supported INSIDE the case. A single first revision page is retained in the back pocket behind the stack. No human papers have fallen yet; EMPTY floor beneath her. Alien maintains its LEFT arm support of open cylinder, right hand relaxed beside it. The same small orange accordion floor pile remains at its boots, connected to the retained first orange page. This is the moment immediately BEFORE the human paper supply slips out under gravity. No floating papers, no new props, no readable writing, no captions/logos. Natural fingers and firm contact. Keep the two distinct paper colors, containers and owners unambiguous.",
+      "references": [
+        "storyboards/2026-10-26_C01-C07-C10-rewrite-v15/images/C10/S03.png",
+        "storyboards/2026-10-26_C01-C07-C10-rewrite-v15/images/C10/S05.png"
+      ],
+      "output": "storyboards/2026-10-26_C01-C07-C10-rewrite-v15/images/C10/references/S06_before_flap_fix.png"
+    },
+    {
+      "scene_id": "S08",
+      "prompt": "Use case: ads-marketing. Create one new 16:9 cinematic medium TWO-SHOT from a three-quarter side angle, using reference image for exact character identities, clothes, original spacecraft, lighting, open cases and physical paper continuity. This is a BEFORE-action keyframe for later turning their own documents toward one another. Human on LEFT, alien RIGHT, both have now pivoted their bodies slightly toward EACH OTHER, clearly engaged as colleagues. They are not posing frontally toward the audience. The compact Black woman's LEFT forearm supports her same open deep black folio; its only remaining first red-marked revision page is retained in its back pocket, the page face angled slightly toward HERSELF, ready to rotate toward the alien. Bottom-hinged front flap hangs down with its black INNER face visible; original outside cream success sheet is on the reverse facing down/away. Her RIGHT hand is EMPTY, naturally lowered just below her own retained page, not pointing yet. The tall original ivory-and-charcoal alien cradles its own open cylinder with its LEFT arm; retained first ORANGE-marked page is angled toward ITSELF before rotating to her. The connected folded paper still descends to the small original pile, partially visible at bottom. The alien's RIGHT three-fingered hand is EMPTY and lowered beside its own document, not pointing yet. Human's wider red-marked paper pile remains at her feet, partially visible at lower-left. Both look toward each other warmly but seriously, ready to share DIFFERENT experiences. Keep camera close enough for page faces, hands, heads and attitudes; the folio and cylinder remain distinct physical props. No paper transfer, no shared answer sheet, no new object, no audience-facing document presentation. No captions, readable writing, logos or numbers. Blue night and amber light continuous.",
+      "references": [
+        "storyboards/2026-10-26_C01-C07-C10-rewrite-v15/images/C10/S07.png"
+      ],
+      "output": "storyboards/2026-10-26_C01-C07-C10-rewrite-v15/images/C10/references/S08_before_side_reframe.png"
+    },
+    {
+      "scene_id": "S08",
+      "prompt": "Use case: ads-marketing. Recompose this science-fiction commercial moment into a genuinely SIDE-ANGLE two-shot. Use the attached reference for exact identities, clothes, night lighting and document props. The camera now stands to the human's back-left, looking diagonally BETWEEN the two characters. Human remains left foreground, seen in three-quarter profile/back, alien stands right beyond her and faces her. They are engaged with EACH OTHER. Keep both heads visible. CRUCIAL: neither document is being displayed to the audience. The human's open black folio is supported from beneath by her anatomical LEFT forearm, its inner red first-page face angled TOWARD HER own chest, so the camera mostly sees the case's thick side and dark backside/edge, with only a narrow glimpse of red-marked paper. Its same front flap hangs down physically attached, original blank cream success sheet on the outer reverse. The alien's same open charcoal document cylinder rests on its LEFT forearm and its first orange page is similarly angled TOWARD THE ALIEN'S torso, mostly viewed obliquely, not face-on to camera. Both RIGHT hands are EMPTY and lowered, ready to later turn their OWN records toward the OTHER person and point. This is BEFORE that sharing action. The human's larger finite red-record pile and alien's small orange accordion pile stay at their feet, partly visible. Do not create new props, swap hands, detach papers, show a shared answer, or make either look at camera. Clear physical three-dimensional perspective, no captions or readable text. 16:9.",
+      "references": [
+        "storyboards/2026-10-26_C01-C07-C10-rewrite-v15/images/C10/references/S08_before_side_reframe.png"
+      ],
+      "output": "storyboards/2026-10-26_C01-C07-C10-rewrite-v15/images/C10/references/S08_side_before_strip.png"
+    }
+  ],
+  "reference_preservation": [
+    {
+      "path": "storyboards/2026-10-26_C01-C07-C10-rewrite-v15/images/C10/references/S03_before_pose_fix.png",
+      "generated_source": "C:/Users/wseok/.codex/generated_images/01a177f8-aac2-7f51-ae1d-f6313c796a39/exec-15bd2d96-be74-46fa-8422-ca3a459620bb.png",
+      "not_a_delivery_scene": true,
+      "sha256": "216e4853dc6c89b891de9abd7ad85522ee387ad06df019a339b3a389e4a9c11d"
+    },
+    {
+      "path": "storyboards/2026-10-26_C01-C07-C10-rewrite-v15/images/C10/references/S06_before_flap_fix.png",
+      "generated_source": "C:/Users/wseok/.codex/generated_images/01a177f8-aac2-7f51-ae1d-f6313c796a39/exec-0971b85f-c538-4dd1-afce-8422da48a4eb.png",
+      "not_a_delivery_scene": true,
+      "sha256": "fbab4b24a0f987a59c1c23e8682f911c5cea90657d7a0a70cbda2c3da7db55b4"
+    },
+    {
+      "path": "storyboards/2026-10-26_C01-C07-C10-rewrite-v15/images/C10/references/S08_before_side_reframe.png",
+      "generated_source": "C:/Users/wseok/.codex/generated_images/01a177f8-aac2-7f51-ae1d-f6313c796a39/exec-62a24add-d7be-4b65-88e5-85aab8952848.png",
+      "not_a_delivery_scene": true,
+      "sha256": "bd1e74ee690c2920ad984d0eff9d747cff0f3b0bcd8a8f0fede9cae045638f65"
+    },
+    {
+      "path": "storyboards/2026-10-26_C01-C07-C10-rewrite-v15/images/C10/references/S08_side_before_strip.png",
+      "generated_source": "C:/Users/wseok/.codex/generated_images/01a177f8-aac2-7f51-ae1d-f6313c796a39/exec-a7ca2d4d-8b5b-4790-ae56-30b2ad1f5667.png",
+      "not_a_delivery_scene": true,
+      "sha256": "2ea536f2bff3cdc1cbe35abe7cf142662137c030ae10b8ed4c509049578991e0"
+    }
+  ],
+  "completed_scene_count": 8,
+  "no_flow_or_video_generation": true,
+  "known_limits": [
+    "Static first-frame quality is not proof of later generated motion.",
+    "S01-S08 pavement has glossy reflections, visually closer to damp than the draft's dry ground; same ground continuity retained throughout.",
+    "Opened front flap's outside success sheet is on the reverse face, occluded in S06-S08; not claimed visibly verified in those angles.",
+    "S08 paper strip is naturally partly occluded by alien's supporting forearm."
+  ],
+  "superseded_scene_versions": [
+    {
+      "concept_id": "C10",
+      "scene_id": "S08",
+      "linked_cuts": [
+        "C10_K08"
+      ],
+      "image_path": "storyboards/2026-10-26_C01-C07-C10-rewrite-v15/images/C10/S08.png",
+      "generated_source": "C:\\Users\\wseok\\.codex\\generated_images\\01a177f8-aac2-7f51-ae1d-f6313c796a39\\exec-4f06c576-c65b-46e6-9f75-435ed295b759.png",
+      "prompt": "Use case: precise-object-edit. Keep this exact side-angle two-shot unchanged: both original characters, faces, every hand/arm, cases, purple outfit, ivory alien, spaceship, lighting, human red pile. Add ONLY the missing continuous paper connection for the alien's existing orange document. Its retained first orange page at the open cylinder must remain connected to the small orange accordion pile at the lower RIGHT of the frame by one narrow cream accordion-fold strip. Route this connected strip visibly downward from the bottom edge of the retained page, behind the alien's LEFT supporting forearm, then emerging below that forearm along the OUTSIDE screen-right side of the alien's body, hanging under gravity beside its left hip and left thigh to the top of the existing small orange pile. Portions hidden by the supporting forearm are naturally occluded; the visible lower strip must clearly meet the original pile. Use the same cream paper width and simple sparse orange lines; no text. Do not add a second pile, new loose sheet or horizontal flying ribbon. Do not move either person's pose, camera or props. 16:9.",
+      "reference_images": [
+        "storyboards/2026-10-26_C01-C07-C10-rewrite-v15/images/C10/references/S08_side_before_strip.png"
+      ],
+      "review_status": "artist visually reviewed; three independent reviewers pending",
+      "artist_notes": "Changed from frontal display to side-angle conversation. Right hands empty, own pages ready to turn. Restored continuous orange accordion paper to existing floor pile; overlap behind supporting arm naturally occluded.",
+      "sha256": "fa5c7c80f22cded8f018b6d943bf8474b0b82f33f6a5092f7c3615869ec5f3a3",
+      "motion_camera_notes": {
+        "camera": "기본 고정. 두인물사이3/4미디엄,서로에게열린페이지면과손가락. 관객도일부보지만정면상품전시구도아님.",
+        "start": "첫 프레임의 동작 전 상태에서 시작",
+        "main": "HU가 자기 첫수정페이지를 AL이 읽을 수 있게 돌려 오른손으로 자신의 수정 지점을 가리킨다. 이어 AL도 자기 첫페이지를 HU에게 돌려 자기 막힌 지점을 짚는다.",
+        "end": "두사람이관객을향해전시하지않고 서로의다른기록을볼수있는각도. 각자의오른손각자기록지시,두더미그대로. 정답통일/검증완료없음.",
+        "frame_holds": "시작과 끝에 편집 여유 확보. 영상 전체8초를 자동 본편 사용하지 않음.",
+        "audio": "음성대사/생성 자막/생성 음악 없음. BGM/SFX 후편집.",
+        "acceptance": "시작→행동→완료, 손·소품·바닥 접점 확인. 상세 프롬프트가 성공을 보장하지 않음."
+      },
+      "dimensions": [
+        1670,
+        941
+      ],
+      "format": "PNG",
+      "artist_actually_opened": true,
+      "rejection_reason": "A/B/C image review found HU anatomical right arm supporting case and left hand down; requires left-arm support continuity."
+    }
+  ],
+  "independent_review_status": "COMPLETE_THREE_REVIEWERS_INDEPENDENT_CROSS_AND_CORRECTION_RECHECK"
+}

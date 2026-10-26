@@ -1,0 +1,313 @@
+{
+  "version": "V15",
+  "films": [
+    {
+      "concept_id": "C02",
+      "title": "검은 점을 잡아라",
+      "file": "storyboards\\2026-10-26_screening-style-v15\\C02\\C02_Q-AI_Fair_screening_v15.mp4",
+      "duration_seconds": 36.25,
+      "sha256": "9f37efa165ee693b9c31547a0a4037f31bca68b11b3aa9eb4d8cf682d2cb1ae9",
+      "actual_listening_verified": false,
+      "actual_continuous_playback_verified": false,
+      "technical_qa": "storyboards\\2026-10-26_screening-style-v15\\C02\\technical_qa.json",
+      "revision_note": "End-card decorative lines moved outside text after independent review"
+    },
+    {
+      "concept_id": "C03",
+      "title": "환경까지 가져왔습니다",
+      "file": "storyboards\\2026-10-26_screening-style-v15\\C03\\C03_Q-AI_Fair_screening_v15.mp4",
+      "duration_seconds": 43.0,
+      "sha256": "7152d5fc07c13fdb5add663ea8536b134e70932975b8e435d0c6730185c65844",
+      "actual_listening_verified": false,
+      "actual_continuous_playback_verified": false,
+      "technical_qa": "storyboards\\2026-10-26_screening-style-v15\\C03\\technical_qa.json"
+    },
+    {
+      "concept_id": "C04",
+      "title": "목마는 식사 중입니다",
+      "file": "storyboards\\2026-10-26_screening-style-v15\\C04\\C04_Q-AI_Fair_screening_v15.mp4",
+      "duration_seconds": 43.5,
+      "sha256": "7092179a5e2a3d9ec6f1ac5d5e74c97ea541ea69dbb2d79d17fefc16f12996b2",
+      "actual_listening_verified": false,
+      "actual_continuous_playback_verified": false,
+      "technical_qa": "storyboards\\2026-10-26_screening-style-v15\\C04\\technical_qa.json"
+    },
+    {
+      "concept_id": "C05",
+      "title": "괴수는 퇴근할 수 없다",
+      "file": "storyboards\\2026-10-26_screening-style-v15\\C05\\C05_Q-AI_Fair_screening_v15.mp4",
+      "duration_seconds": 46.75,
+      "sha256": "fabac6cce4e19c0b89562cb881894273e1abadfcc3c69f47fa8cab922bf914d9",
+      "actual_listening_verified": false,
+      "actual_continuous_playback_verified": false,
+      "technical_qa": "storyboards\\2026-10-26_screening-style-v15\\C05\\technical_qa.json"
+    },
+    {
+      "concept_id": "C06",
+      "title": "퇴근 좀 해주세요",
+      "file": "storyboards\\2026-10-26_screening-style-v15\\C06\\C06_Q-AI_Fair_screening_v15.mp4",
+      "duration_seconds": 48.75,
+      "sha256": "26af747235a7f0644b79015cf706e864564d0a1b1e828a5b855edaef38a2ccf9",
+      "actual_listening_verified": false,
+      "actual_continuous_playback_verified": false,
+      "technical_qa": "storyboards\\2026-10-26_screening-style-v15\\C06\\technical_qa.json"
+    }
+  ],
+  "qa": [
+    {
+      "file": "C02_Q-AI_Fair_screening_v15.mp4",
+      "sha256": "9f37efa165ee693b9c31547a0a4037f31bca68b11b3aa9eb4d8cf682d2cb1ae9",
+      "bytes": 14393296,
+      "duration_seconds": 36.25,
+      "video_frames": 870,
+      "video_fps": 24,
+      "resolution": [
+        1280,
+        720
+      ],
+      "audio_streams": 1,
+      "audio_rate": 48000,
+      "audio_channels": 2,
+      "full_decode": "PASS",
+      "max_audio_gap_seconds": 7.105427357601002e-15,
+      "audio_end_seconds": 36.25,
+      "audio_peak_linear": 0.44887715578079224,
+      "nonfinite_samples": 0,
+      "loudness": {
+        "input_i": -23.01,
+        "input_tp": -6.96,
+        "input_lra": 5.9,
+        "input_thresh": -34.0
+      },
+      "original_base_hash_unchanged": true,
+      "original_audio_packets_identical": true,
+      "actual_continuous_playback_verified": false,
+      "actual_listening_verified": false,
+      "visual_sample_review": "C02_END_CARD_DECORATION_REVISION_FRAME_PASS",
+      "source_asset_hashes_verified": true,
+      "action_frame_sample_comparison": {
+        "0.0": 1.2387503616898148,
+        "12.0": 1.5478233506944445,
+        "24.0": 1.470960648148148,
+        "3.0": 1.6339536313657408,
+        "15.0": 1.5700086805555555,
+        "21.0": 1.5256318721064814,
+        "27.0": 1.536451099537037,
+        "6.0": 1.9600343605324073,
+        "18.0": 1.5079593460648149,
+        "9.0": 1.4598564091435184
+      },
+      "visually_opened_frames": [
+        "review_frames/32.000s.png"
+      ],
+      "decoration_revision": "Red connection lines relocated entirely to the outer perimeter and dimmed. No line crosses any text."
+    },
+    {
+      "file": "C03_Q-AI_Fair_screening_v15.mp4",
+      "sha256": "7152d5fc07c13fdb5add663ea8536b134e70932975b8e435d0c6730185c65844",
+      "bytes": 17340785,
+      "duration_seconds": 43.0,
+      "video_frames": 1032,
+      "video_fps": 24,
+      "resolution": [
+        1280,
+        720
+      ],
+      "audio_streams": 1,
+      "audio_rate": 48000,
+      "audio_channels": 2,
+      "full_decode": "PASS",
+      "max_audio_gap_seconds": 7.105427357601002e-15,
+      "audio_end_seconds": 43.0,
+      "audio_peak_linear": 0.40376320481300354,
+      "nonfinite_samples": 0,
+      "loudness": {
+        "input_i": -23.03,
+        "input_tp": -7.87,
+        "input_lra": 6.8,
+        "input_thresh": -33.76
+      },
+      "original_base_hash_unchanged": true,
+      "original_audio_packets_identical": null,
+      "actual_continuous_playback_verified": false,
+      "actual_listening_verified": false,
+      "visual_sample_review": "SINGLE_AGENT_CHANGED_FRAMES_PASS",
+      "source_asset_hashes_verified": true,
+      "action_frame_sample_comparison": {
+        "0.0": 0.0,
+        "12.0": 0.0,
+        "24.0": 0.0,
+        "36.0": 0.2093189380787037,
+        "3.0": 0.0,
+        "15.0": 0.0,
+        "21.0": 0.0,
+        "27.0": 1.0052734375,
+        "6.0": 0.0,
+        "18.0": 0.0,
+        "30.0": 0.0,
+        "33.0": 0.0,
+        "9.0": 0.0
+      },
+      "visually_opened_frames": [
+        "review_frames/26.500s.png",
+        "review_frames/37.500s.png"
+      ]
+    },
+    {
+      "file": "C04_Q-AI_Fair_screening_v15.mp4",
+      "sha256": "7092179a5e2a3d9ec6f1ac5d5e74c97ea541ea69dbb2d79d17fefc16f12996b2",
+      "bytes": 18826337,
+      "duration_seconds": 43.5,
+      "video_frames": 1044,
+      "video_fps": 24,
+      "resolution": [
+        1280,
+        720
+      ],
+      "audio_streams": 1,
+      "audio_rate": 48000,
+      "audio_channels": 2,
+      "full_decode": "PASS",
+      "max_audio_gap_seconds": 7.105427357601002e-15,
+      "audio_end_seconds": 43.5,
+      "audio_peak_linear": 0.31586530804634094,
+      "nonfinite_samples": 0,
+      "loudness": {
+        "input_i": -23.05,
+        "input_tp": -10.01,
+        "input_lra": 11.2,
+        "input_thresh": -33.66
+      },
+      "original_base_hash_unchanged": true,
+      "original_audio_packets_identical": true,
+      "actual_continuous_playback_verified": false,
+      "actual_listening_verified": false,
+      "visual_sample_review": "SINGLE_AGENT_CHANGED_FRAMES_PASS",
+      "source_asset_hashes_verified": true,
+      "action_frame_sample_comparison": {
+        "0.0": 1.3845062934027779,
+        "12.0": 1.9832845052083334,
+        "24.0": 1.6552275028935186,
+        "36.0": 1.7902640335648148,
+        "3.0": 1.2928121383101852,
+        "15.0": 1.525185546875,
+        "21.0": 1.7035441984953703,
+        "27.0": 1.8333293547453704,
+        "6.0": 1.536091579861111,
+        "18.0": 1.5958246527777777,
+        "30.0": 1.6510456452546296,
+        "33.0": 2.013402416087963,
+        "9.0": 1.9226030815972222
+      },
+      "visually_opened_frames": [
+        "review_frames/39.000s.png"
+      ]
+    },
+    {
+      "file": "C05_Q-AI_Fair_screening_v15.mp4",
+      "sha256": "fabac6cce4e19c0b89562cb881894273e1abadfcc3c69f47fa8cab922bf914d9",
+      "bytes": 22639980,
+      "duration_seconds": 46.75,
+      "video_frames": 1122,
+      "video_fps": 24,
+      "resolution": [
+        1280,
+        720
+      ],
+      "audio_streams": 1,
+      "audio_rate": 48000,
+      "audio_channels": 2,
+      "full_decode": "PASS",
+      "max_audio_gap_seconds": 7.105427357601002e-15,
+      "audio_end_seconds": 46.75,
+      "audio_peak_linear": 0.671312153339386,
+      "nonfinite_samples": 0,
+      "loudness": {
+        "input_i": -23.03,
+        "input_tp": -3.46,
+        "input_lra": 22.4,
+        "input_thresh": -35.72
+      },
+      "original_base_hash_unchanged": true,
+      "original_audio_packets_identical": null,
+      "actual_continuous_playback_verified": false,
+      "actual_listening_verified": false,
+      "visual_sample_review": "SINGLE_AGENT_CHANGED_FRAMES_PASS",
+      "source_asset_hashes_verified": true,
+      "action_frame_sample_comparison": {
+        "0.0": 1.2659429253472223,
+        "12.0": 1.7483423755787038,
+        "24.0": 1.4408973524305555,
+        "36.0": 1.5979774305555556,
+        "3.0": 1.5444950810185185,
+        "15.0": 1.4767107928240741,
+        "21.0": 2.0354691116898147,
+        "27.0": 1.3529311342592591,
+        "39.0": 1.3054390914351852,
+        "6.0": 1.6510062210648149,
+        "18.0": 1.8687351707175925,
+        "30.0": 1.8553215422453704,
+        "33.0": 1.6015675636574074,
+        "9.0": 1.6338917824074075
+      },
+      "visually_opened_frames": [
+        "review_frames/42.000s.png"
+      ]
+    },
+    {
+      "file": "C06_Q-AI_Fair_screening_v15.mp4",
+      "sha256": "26af747235a7f0644b79015cf706e864564d0a1b1e828a5b855edaef38a2ccf9",
+      "bytes": 14025239,
+      "duration_seconds": 48.75,
+      "video_frames": 1170,
+      "video_fps": 24,
+      "resolution": [
+        1280,
+        720
+      ],
+      "audio_streams": 1,
+      "audio_rate": 48000,
+      "audio_channels": 2,
+      "full_decode": "PASS",
+      "max_audio_gap_seconds": 7.105427357601002e-15,
+      "audio_end_seconds": 48.75,
+      "audio_peak_linear": 0.5932562351226807,
+      "nonfinite_samples": 0,
+      "loudness": {
+        "input_i": -23.01,
+        "input_tp": -4.53,
+        "input_lra": 13.5,
+        "input_thresh": -35.21
+      },
+      "original_base_hash_unchanged": true,
+      "original_audio_packets_identical": null,
+      "actual_continuous_playback_verified": false,
+      "actual_listening_verified": false,
+      "visual_sample_review": "SINGLE_AGENT_CHANGED_FRAMES_PASS",
+      "source_asset_hashes_verified": true,
+      "action_frame_sample_comparison": {
+        "0.0": 1.0874837239583333,
+        "12.0": 1.3588002748842594,
+        "24.0": 1.3393764467592593,
+        "36.0": 1.3896643518518519,
+        "3.0": 1.2874768518518518,
+        "15.0": 1.2680475983796295,
+        "21.0": 1.2089601417824074,
+        "27.0": 1.1418836805555554,
+        "39.0": 1.3395511429398148,
+        "6.0": 1.2975589554398148,
+        "18.0": 1.4293891059027777,
+        "30.0": 1.3292248987268518,
+        "33.0": 1.4706058304398149,
+        "9.0": 1.4788921440972222
+      },
+      "visually_opened_frames": [
+        "review_frames/44.500s.png"
+      ]
+    }
+  ],
+  "flow_requests": 0,
+  "credits_spent": 0,
+  "originals_preserved": true,
+  "review_status": "TECHNICAL_PASS_AND_SINGLE_AGENT_CHANGED_FRAME_SAMPLE_PASS"
+}

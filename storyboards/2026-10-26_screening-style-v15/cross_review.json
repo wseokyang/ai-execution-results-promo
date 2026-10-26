@@ -1,0 +1,16 @@
+{
+  "scope": "C02,C03,C04,C05,C06 v15 자막·끝카드·BGM 변경분",
+  "reviewers": ["v15_review_a", "v15_review_b", "v15_review_c"],
+  "independent_reviews_collected_before_cross_review": true,
+  "all_reviewers_opened_actual_output_images": true,
+  "mandatory_new_visual_issues": 0,
+  "issues": [
+    {"ids":["A-001","C-002"],"cut":"C03 26.25–28.85s","issue":"발견 자막 위치 설명과 실제 코드 불일치","resolution":"메타 및 재현 코드: text_left_px=64, box_left_px=47, top_px=43. 영상 재렌더 불필요.","cross":"A/B/C 동의. B가 글자 좌표와 박스 좌표의 구분을 추가 지적하여 반영."},
+    {"ids":["B-001","C-001"],"cut":"C02 31.5–36.25s","issue":"빨간 장식선이 끝카드 글자를 가로지름","resolution":"테두리로 이동하고 약화. C02만 재렌더, AAC 패킷 동일 유지.","cross":"A/B/C 모두 실제 32초 수정 프레임과 새 MP4 해시 확인. 해결."},
+    {"ids":["B-002","C-003"],"issue":"실제 청취·실시간 연속 재생 미검증","resolution":"검수 한계로 명시하며 통과 주장하지 않음.","cross":"A/B/C 동의. 디코딩·음량 수치·시각 표본 검수와 구분."}
+  ],
+  "C02_sha256_after_polish":"9f37efa165ee693b9c31547a0a4037f31bca68b11b3aa9eb4d8cf682d2cb1ae9",
+  "actual_listening_verified":false,
+  "continuous_playback_verified":false,
+  "status":"시각·스타일 수정 검수 완료. 청취·실시간 연속 재생 미검증."
+}

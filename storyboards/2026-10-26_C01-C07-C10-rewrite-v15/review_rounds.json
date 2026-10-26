@@ -1,0 +1,114 @@
+{
+  "round": "3인 독립·교차 및 수정본재확인 완료",
+  "reviewers": [
+    "v15_review_a",
+    "v15_review_b",
+    "v15_review_c"
+  ],
+  "all_reviewed_full_three_concepts_before_sharing": true,
+  "issues": [
+    {
+      "id": "A-N001",
+      "cut": "C10 K05-K08",
+      "severity": "필수 창작 보완",
+      "finding": "첫 줄 반전 이후 설명 반복으로 사건이 멎음",
+      "cross": "B/C 관찰 동의. 필수 정도에는 창작 판단이 포함됨",
+      "pd": "인간의 더 큰 수정 기록 더미가 쏟아지는 두 번째 반전 후 서로 기록 공유"
+    },
+    {
+      "id": "A-N002",
+      "cut": "C10 K02",
+      "severity": "필수 물리",
+      "finding": "고정 원통에서 종이가 바닥 5~6m로 스스로 펼쳐짐",
+      "cross": "B 동의. C는 총 종이길이와 바닥 점유길이 혼재를 구분할 것을 보완",
+      "pd": "유한한 접힘 기록지가 바로 발앞 더미로 낙하"
+    },
+    {
+      "id": "A-N003 / B-N003",
+      "cut": "C01 K10",
+      "severity": "연속성",
+      "finding": "앞서 없던 인쇄 최종결과·과정 묶음 등장",
+      "cross": "3명 동의",
+      "pd": "기존 노트북 결과와 확인한 원문 한 장 제시"
+    },
+    {
+      "id": "A-N004 / B-N002 / C-N002",
+      "cut": "C07 K07-K09",
+      "severity": "개선",
+      "finding": "의자 이동 같은 반응을7.5초 반복",
+      "cross": "3명 동의",
+      "pd": "1.2/1.2/2.2초, 셋째가 명확히 앞서 둘의 시선까지 끌어 비교 와이드로 마감"
+    },
+    {
+      "id": "A-N005",
+      "cut": "C01 K04-K06",
+      "severity": "개선",
+      "finding": "첫 축포 이후 청소·설명 구간 늘어짐",
+      "cross": "3명 동의",
+      "pd": "불일치→조건수정→일치확인 유지하며 수정·확인 합계6초"
+    },
+    {
+      "id": "B-N001",
+      "cut": "C07 K01,K05,K06",
+      "severity": "필수 물리",
+      "finding": "A4 대각36.4cm가 지름34cm 돔 안에 평평하게 들어갈 수 없음",
+      "cross": "3명 동의",
+      "pd": "돔 내부유효40cm/외형44cm, 카트와 받침 공간도 확대"
+    },
+    {
+      "id": "B-N004",
+      "cut": "C01 K08-K09",
+      "severity": "취향 개선",
+      "finding": "분사 도착점까지3초 예고",
+      "cross": "3명 동의, 필수결함으로 확대하지 않음",
+      "pd": "장비 준비1.5초, 감독에게 몰리는 결과는 실행 와이드에서 공개"
+    },
+    {
+      "id": "B-N005 / C-N003",
+      "cut": "C10 K06-K08",
+      "severity": "개선",
+      "finding": "단위·클립·응시 같은 첫 항목 설명 반복",
+      "cross": "3명 동의",
+      "pd": "해당 절차 삭제, 두 번째 기록더미 반전으로 교체"
+    },
+    {
+      "id": "C-N001",
+      "cut": "C10 K05-K06",
+      "severity": "필수 논리",
+      "finding": "사람 원문으로 외계인 결과조건을 바꿀 동일사례 근거 없음",
+      "cross": "3명 동의",
+      "pd": "단위변경 삭제, 서로 다른 사례의 수정 경험을 공유"
+    },
+    {
+      "id": "C-N004",
+      "cut": "C07 제목",
+      "severity": "개선",
+      "finding": "깨끗한 기록 보관인데 버리신 표현",
+      "cross": "3명 동의",
+      "pd": "셰프님, 그것도 주세요"
+    }
+  ],
+  "C08_correction_frames": {
+    "reviewers_each_opened_both_originals_and_both_new_images": true,
+    "K08": "슬롯 채움·여성 빈손·남성 착석 유지, 정적 목표 통과",
+    "K10": "같은 상단 행 수평·여성 손 내림·남성 오른손 수평계 유지, 정적 목표 통과",
+    "cross": "A/B/C 서로 결과에 동의. 실제 중간 삽입·교정 움직임은 영상 생성 후 검수 필요."
+  },
+  "new_storyboard_images_actually_reviewed": false,
+  "audience_response_measured": false,
+  "actual_listening_verified": false,
+  "C09_K04_end_correction": {
+    "each_reviewer_opened_original_and_ending_image": true,
+    "static_goal": "both feet and complete suitcase inside, woman outside clear of doorway, door open",
+    "A": "pass static goal, actual boarding pending",
+    "B": "pass, left hand partly occluded not verified empty",
+    "C": "pass static goal, intermediate path pending",
+    "cross": "all agree; actual motion must still be reviewed"
+  },
+  "final_text_recheck": {
+    "A": "all resolved including outer cover and cart right serving area",
+    "B": "all resolved including both wording corrections",
+    "C": "all resolved including both wording corrections",
+    "mandatory_open": 0
+  }
+}

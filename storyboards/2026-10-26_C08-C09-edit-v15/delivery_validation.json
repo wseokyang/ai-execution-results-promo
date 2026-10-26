@@ -1,0 +1,46 @@
+{
+  "seven_films_hash_duration_verified": [
+    {
+      "file": "storyboards/2026-10-26_screening-style-v15/C02/C02_Q-AI_Fair_screening_v15.mp4",
+      "sha256": "9f37efa165ee693b9c31547a0a4037f31bca68b11b3aa9eb4d8cf682d2cb1ae9",
+      "duration_seconds": 36.25
+    },
+    {
+      "file": "storyboards/2026-10-26_screening-style-v15/C03/C03_Q-AI_Fair_screening_v15.mp4",
+      "sha256": "7152d5fc07c13fdb5add663ea8536b134e70932975b8e435d0c6730185c65844",
+      "duration_seconds": 43.0
+    },
+    {
+      "file": "storyboards/2026-10-26_screening-style-v15/C04/C04_Q-AI_Fair_screening_v15.mp4",
+      "sha256": "7092179a5e2a3d9ec6f1ac5d5e74c97ea541ea69dbb2d79d17fefc16f12996b2",
+      "duration_seconds": 43.5
+    },
+    {
+      "file": "storyboards/2026-10-26_screening-style-v15/C05/C05_Q-AI_Fair_screening_v15.mp4",
+      "sha256": "fabac6cce4e19c0b89562cb881894273e1abadfcc3c69f47fa8cab922bf914d9",
+      "duration_seconds": 46.75
+    },
+    {
+      "file": "storyboards/2026-10-26_screening-style-v15/C06/C06_Q-AI_Fair_screening_v15.mp4",
+      "sha256": "26af747235a7f0644b79015cf706e864564d0a1b1e828a5b855edaef38a2ccf9",
+      "duration_seconds": 48.75
+    },
+    {
+      "file": "storyboards/2026-10-26_C08-C09-edit-v15/C08/C08_Q-AI_Fair_screening_v15.mp4",
+      "sha256": "c550dd099b7d70739b5957cd87a7b43d01c1962d9372a42c9e4838fb568948c9",
+      "duration_seconds": 53.0
+    },
+    {
+      "file": "storyboards/2026-10-26_C08-C09-edit-v15/C09/C09_Q-AI_Fair_screening_v15.mp4",
+      "sha256": "6710e7d08d6b481ae6d624112998165c06c8fbccc0c8032b46515f15b96aa0c2",
+      "duration_seconds": 44.0
+    }
+  ],
+  "selected_images_hash_verified": 27,
+  "new_storyboard_timelines_contiguous": true,
+  "C08_C09_edit_and_caption_timings_verified": true,
+  "local_markdown_links_checked": 189,
+  "missing_links": [],
+  "actual_listening_verified": false,
+  "continuous_playback_verified": false
+}

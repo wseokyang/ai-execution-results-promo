@@ -1,0 +1,28 @@
+{
+  "file": "C09_Q-AI_Fair_screening_v15.mp4",
+  "sha256": "6710e7d08d6b481ae6d624112998165c06c8fbccc0c8032b46515f15b96aa0c2",
+  "bytes": 34619109,
+  "duration_seconds": 44.0,
+  "frames": 1056,
+  "fps": 24,
+  "resolution": [
+    1280,
+    720
+  ],
+  "audio_rate": 48000,
+  "audio_channels": 2,
+  "full_decode": "PASS",
+  "audio_peak": 0.3201351761817932,
+  "audio_end": 44.0,
+  "max_audio_pts_gap": 7.105427357601002e-15,
+  "loudness": {
+    "input_i": -23.01,
+    "input_tp": -9.89,
+    "input_lra": 11.4,
+    "input_thresh": -33.36
+  },
+  "actual_listening_verified": false,
+  "actual_continuous_playback_verified": false,
+  "visual_review": "THREE_REVIEWER_SAMPLED_VISUAL_CROSS_REVIEW_PASS_WITH_DOCUMENTED_LIMITATIONS",
+  "cross_review_record": "../cross_review.json"
+}

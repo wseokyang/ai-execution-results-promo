@@ -1,0 +1,48 @@
+{
+  "file": "C02_Q-AI_Fair_screening_v15.mp4",
+  "sha256": "9f37efa165ee693b9c31547a0a4037f31bca68b11b3aa9eb4d8cf682d2cb1ae9",
+  "bytes": 14393296,
+  "duration_seconds": 36.25,
+  "video_frames": 870,
+  "video_fps": 24,
+  "resolution": [
+    1280,
+    720
+  ],
+  "audio_streams": 1,
+  "audio_rate": 48000,
+  "audio_channels": 2,
+  "full_decode": "PASS",
+  "max_audio_gap_seconds": 7.105427357601002e-15,
+  "audio_end_seconds": 36.25,
+  "audio_peak_linear": 0.44887715578079224,
+  "nonfinite_samples": 0,
+  "loudness": {
+    "input_i": -23.01,
+    "input_tp": -6.96,
+    "input_lra": 5.9,
+    "input_thresh": -34.0
+  },
+  "original_base_hash_unchanged": true,
+  "original_audio_packets_identical": true,
+  "actual_continuous_playback_verified": false,
+  "actual_listening_verified": false,
+  "visual_sample_review": "C02_END_CARD_DECORATION_REVISION_FRAME_PASS",
+  "source_asset_hashes_verified": true,
+  "action_frame_sample_comparison": {
+    "0.0": 1.2387503616898148,
+    "12.0": 1.5478233506944445,
+    "24.0": 1.470960648148148,
+    "3.0": 1.6339536313657408,
+    "15.0": 1.5700086805555555,
+    "21.0": 1.5256318721064814,
+    "27.0": 1.536451099537037,
+    "6.0": 1.9600343605324073,
+    "18.0": 1.5079593460648149,
+    "9.0": 1.4598564091435184
+  },
+  "visually_opened_frames": [
+    "review_frames/32.000s.png"
+  ],
+  "decoration_revision": "Red connection lines relocated entirely to the outer perimeter and dimmed. No line crosses any text."
+}

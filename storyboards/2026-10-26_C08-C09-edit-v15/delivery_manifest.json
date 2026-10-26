@@ -1,0 +1,84 @@
+{
+  "version": "V15",
+  "date": "2026-10-26",
+  "films": [
+    {
+      "concept_id": "C02",
+      "title": "검은 점을 잡아라",
+      "file": "storyboards/2026-10-26_screening-style-v15/C02/C02_Q-AI_Fair_screening_v15.mp4",
+      "duration_seconds": 36.25,
+      "sha256": "9f37efa165ee693b9c31547a0a4037f31bca68b11b3aa9eb4d8cf682d2cb1ae9",
+      "actual_listening_verified": false,
+      "actual_continuous_playback_verified": false,
+      "technical_qa": "storyboards/2026-10-26_screening-style-v15/C02/technical_qa.json",
+      "revision_note": "End-card decorative lines moved outside text after independent review"
+    },
+    {
+      "concept_id": "C03",
+      "title": "환경까지 가져왔습니다",
+      "file": "storyboards/2026-10-26_screening-style-v15/C03/C03_Q-AI_Fair_screening_v15.mp4",
+      "duration_seconds": 43.0,
+      "sha256": "7152d5fc07c13fdb5add663ea8536b134e70932975b8e435d0c6730185c65844",
+      "actual_listening_verified": false,
+      "actual_continuous_playback_verified": false,
+      "technical_qa": "storyboards/2026-10-26_screening-style-v15/C03/technical_qa.json"
+    },
+    {
+      "concept_id": "C04",
+      "title": "목마는 식사 중입니다",
+      "file": "storyboards/2026-10-26_screening-style-v15/C04/C04_Q-AI_Fair_screening_v15.mp4",
+      "duration_seconds": 43.5,
+      "sha256": "7092179a5e2a3d9ec6f1ac5d5e74c97ea541ea69dbb2d79d17fefc16f12996b2",
+      "actual_listening_verified": false,
+      "actual_continuous_playback_verified": false,
+      "technical_qa": "storyboards/2026-10-26_screening-style-v15/C04/technical_qa.json"
+    },
+    {
+      "concept_id": "C05",
+      "title": "괴수는 퇴근할 수 없다",
+      "file": "storyboards/2026-10-26_screening-style-v15/C05/C05_Q-AI_Fair_screening_v15.mp4",
+      "duration_seconds": 46.75,
+      "sha256": "fabac6cce4e19c0b89562cb881894273e1abadfcc3c69f47fa8cab922bf914d9",
+      "actual_listening_verified": false,
+      "actual_continuous_playback_verified": false,
+      "technical_qa": "storyboards/2026-10-26_screening-style-v15/C05/technical_qa.json"
+    },
+    {
+      "concept_id": "C06",
+      "title": "퇴근 좀 해주세요",
+      "file": "storyboards/2026-10-26_screening-style-v15/C06/C06_Q-AI_Fair_screening_v15.mp4",
+      "duration_seconds": 48.75,
+      "sha256": "26af747235a7f0644b79015cf706e864564d0a1b1e828a5b855edaef38a2ccf9",
+      "actual_listening_verified": false,
+      "actual_continuous_playback_verified": false,
+      "technical_qa": "storyboards/2026-10-26_screening-style-v15/C06/technical_qa.json"
+    },
+    {
+      "concept_id": "C08",
+      "title": "구조는 끝났습니다",
+      "file": "storyboards/2026-10-26_C08-C09-edit-v15/C08/C08_Q-AI_Fair_screening_v15.mp4",
+      "duration_seconds": 53.0,
+      "sha256": "c550dd099b7d70739b5957cd87a7b43d01c1962d9372a42c9e4838fb568948c9",
+      "technical_qa": "storyboards/2026-10-26_C08-C09-edit-v15/C08/technical_qa.json",
+      "actual_listening_verified": false,
+      "actual_continuous_playback_verified": false
+    },
+    {
+      "concept_id": "C09",
+      "title": "나 없이도 괜찮겠어요?",
+      "file": "storyboards/2026-10-26_C08-C09-edit-v15/C09/C09_Q-AI_Fair_screening_v15.mp4",
+      "duration_seconds": 44.0,
+      "sha256": "6710e7d08d6b481ae6d624112998165c06c8fbccc0c8032b46515f15b96aa0c2",
+      "technical_qa": "storyboards/2026-10-26_C08-C09-edit-v15/C09/technical_qa.json",
+      "actual_listening_verified": false,
+      "actual_continuous_playback_verified": false
+    }
+  ],
+  "screening_basis": "화면과 후처리 자막. 생성 음성 제외, BGM/효과음은 보조.",
+  "review_records": [
+    "storyboards/2026-10-26_screening-style-v15/cross_review.json",
+    "storyboards/2026-10-26_C08-C09-edit-v15/cross_review.json"
+  ],
+  "actual_listening_verified": false,
+  "actual_continuous_playback_verified": false
+}

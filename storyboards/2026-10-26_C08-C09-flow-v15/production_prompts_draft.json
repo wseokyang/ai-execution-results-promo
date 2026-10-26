@@ -1,0 +1,1640 @@
+{
+  "schema_version": "1.0",
+  "created_date": "2026-10-26",
+  "author_role": "promo_storyboard_director",
+  "scope": "승인 C08/C09 20컷 Flow 입력 초안; 생성·업로드·렌더 실행 없음",
+  "event_name": "Q-AI Fair",
+  "source_storyboards": "storyboards/2026-10-25_C07-C10-rewrite-v13/storyboards.json",
+  "source_scene_manifest": "storyboards/2026-10-25_C07-C10-rewrite-v13/scene_manifest.json",
+  "image_review_scope": "실제 개별 PNG 20장 모두 view_image로 확인. C08 S09_v3 및 C09 S07_v2 사용. 기존 이야기와 PNG 수정 없음.",
+  "base_queue": {
+    "C08": 10,
+    "C09": 10,
+    "total": 20,
+    "additional_split_shots_queued": 0
+  },
+  "production_contract": {
+    "audio": "음성대사 없음. 소음 환경에서 화면+후합성 자막만으로 모든 정보 전달. BGM/SFX는 의미 보조.",
+    "captions": "Flow에 한국어 자막/행사 로고 생성 지시 없음. 후합성. 얼굴·손·소품·물리 접점 가림 금지.",
+    "start_end": "대부분 0–1초 시작상태, 1–6.5초 단일 핵심 사건과 필요한 순서, 6.5–8초 안정 끝상태. 짧은 인서트/전달컷은 개별 action_plan에 따라 조정.",
+    "timing": "각8초는 원본 길이이고 완성편집 길이가 아님. 원안 C08 40.5초, C09 34초. 실제 동작을 확인해 큐/카드 포함 재산정, 전체 각60초 이내.",
+    "success": "상세 프롬프트는 동일인물/물리/문자/동작 성공을 보장하지 않음. 실제 생성물 검수 필요.",
+    "no_regeneration": "기존 승인 이야기/PNG 재생성 금지. 실패시 같은 입력 맹목적 반복 대신 구체적 오류 기록, 필요한 분할은 PD 판단.",
+    "continuity_ellipses": [
+      "C08 K02→K05 영웅의 이동은 사무실 교차편집으로 생략.",
+      "C08 K06 무릎/앉음→K07 둘 다 서 있음은 기립·흙손 준비를 생략한 일반 하드컷. 매치액션 아님.",
+      "C08 K07→K08 수리 경과/망토 허리 착용은 '잠시 후'로 명시.",
+      "C08 K09→K10 동일 벽 앞 작업 위치 양보로 인물 전후 위치 바뀜. 공간 축은 유지.",
+      "C09 K01 책상→K02 정류장은 이동과 짐 정리의 일반 장면 전환; 충전기 오른주머니는 유지."
+    ],
+    "ending_cards": "실제 C08 S10에 왼쪽 빈 벽, C09 S10에 상단 빈 정류장 벽이 없음을 확인. 해당 배치를 사용하지 않고 별도 3초 전후 후처리 카드로 PD 타임라인 재배분."
+  },
+  "global_qa": [
+    "첫 프레임 일치 및 인물 외형/복장/색",
+    "핵심 동작 시작·과정·완료가 실제로 모두 존재",
+    "손·폰·도구 소유와 접촉 순서",
+    "벽/문/버스/가방 공간 축과 상태",
+    "자막과 UI는 후합성 예정이라 텍스트 빈칸을 생성 실패와 혼동하지 않음",
+    "생성된 오디오가 있다면 실제 청취 전 검증했다고 쓰지 않음",
+    "실시간 연속재생과 청취는 이 프롬프트 작업에서 수행되지 않음"
+  ],
+  "shots": [
+    {
+      "queue_index": 1,
+      "concept_id": "C08",
+      "concept_title": "구조는 끝났습니다",
+      "scene_id": "S01",
+      "id": "C08_K01",
+      "summary_ko": "오른손 검지로 도움 요청 버튼을 한 번 누르고 노트북을 본다. 업무 완료 동작은 아니다.",
+      "prompt_en": "Create one continuous 8-second, 16:9 cinematic live-action image-to-video shot using the uploaded image as the exact first frame. Preserve the visible identities, clothing, prop sizes, lighting, screen axis and camera framing. Keep natural real-time human motion; no cuts, transitions, slow motion or time-lapse. The slim young East Asian man has wavy black hair, round wire glasses and a pale-yellow rolled-sleeve shirt. His right index finger is poised above the single red help button on its silver square base. Hold for 0–0.5 seconds. From 0.5–2 seconds he presses that red button exactly once, lets it spring back, then withdraws his right hand a few centimeters. From 2–3 seconds he looks back toward the laptop with a small expectant expression. Hold the resulting pose naturally to 8 seconds. Keep the mint lunchbox closed, the teal-tabbed white paper flat on the desk, and the black document tray empty. This is a request for help: pressing this button does not complete the work. Keep the original daylight office and all furniture fixed. No additional person, repeated pressing, duplicated finger, moving paper or completed document appearing in the tray. No dialogue, narration, lip-synced speech, subtitles, written graphics, logos or generated music. Quiet nonverbal location sound is optional; all narrative captions, interface graphics, music and sound cues will be added in postproduction. End with a physically stable pose, with only natural breathing, blinking and environmental motion.",
+      "start_state": "E 오른손 검지 버튼 위; 흰 문서 P 책상, 트레이 비움, 도시락 닫힘.",
+      "end_state": "버튼 한 번 눌렀다 복귀, 오른손 물러남, E 노트북을 기대하며 봄. 문서·트레이·도시락 상태 불변.",
+      "action_plan": [
+        [
+          "0–0.5",
+          "첫 프레임 자세 유지"
+        ],
+        [
+          "0.5–2",
+          "오른 검지 버튼 한 번 누르고 떼기"
+        ],
+        [
+          "2–3",
+          "노트북으로 시선 이동"
+        ],
+        [
+          "3–8",
+          "안정된 끝상태"
+        ]
+      ],
+      "qa_acceptance": [
+        "누름 1회와 손 뗌이 실제 연속으로 보임",
+        "도시락 닫힘·트레이 비움 유지",
+        "버튼이 AI 완료 버튼처럼 작동하지 않음"
+      ],
+      "risks": [
+        "낮음: 빨간 버튼 누름이 여러 번 반복되거나 손가락이 버튼을 관통할 수 있음."
+      ],
+      "first_frame": "storyboards/2026-10-25_C07-C10-rewrite-v13/images/C08/S01.png",
+      "first_frame_absolute": "//wsl.localhost/Ubuntu-24.04/home/wooseok/wsy/samsung_related/slide/AI실행결과발표대회_디자인3종/storyboards/2026-10-25_C07-C10-rewrite-v13/images/C08/S01.png",
+      "first_frame_sha256": "ebd64b1a6b62d8f54250fdf868506e8353a4d310840e2f991145265abf6fa34f",
+      "first_frame_review": {
+        "actually_opened": true,
+        "method": "view_image actual individual PNG",
+        "status": "visually checked for motion planning; not a video QA pass"
+      },
+      "generation_spec": {
+        "duration_seconds": 8,
+        "aspect_ratio": "16:9",
+        "resolution": "720p",
+        "output_count": 1,
+        "input_mode": "first_frame_only",
+        "model": "Veo 3.1 Lite - parent observed actual UI; recheck before submission",
+        "submission_by_this_agent": false
+      },
+      "source_board_timing": {
+        "start": 0,
+        "end": 2,
+        "duration": 2
+      },
+      "postproduction": {
+        "dialogue": "없음",
+        "narration": "없음",
+        "caption_cues_source": [
+          {
+            "start": 0.2,
+            "end": 1.95,
+            "text": "누가 좀 도와줘요.",
+            "placement": "상단 빈 사무실 벽"
+          }
+        ],
+        "composites": [],
+        "music_sfx_silence_source": "선택: 조용한 사무실→버튼과 동시에 압도적 액션 리듬 진입.",
+        "editing": "실제 누름 시작~시선 복귀의 자연스러운 약 2초를 사용. 긴 시작/끝 정지를 모두 본편에 넣지 않음.",
+        "retiming": "생성물의 실제 동작 완료 지점으로 트림을 정한 뒤 자막/BGM/SFX 큐를 함께 재산정. 원본 8초 전부를 자동 사용하지 않음. 화면+자막만으로 검수."
+      },
+      "source_frame_start": "E가 책상 앞에서 미해결 검토서 한 장을 보고 있다. 도시락은 닫혔고 오른손은 도움 요청 기기 위에 닿기 전.",
+      "source_frame_end": "요청 전송 표시. 직원은 아직 일하는 중이며 책상/도시락 그대로."
+    },
+    {
+      "queue_index": 2,
+      "concept_id": "C08",
+      "concept_title": "구조는 끝났습니다",
+      "scene_id": "S02",
+      "id": "C08_K02",
+      "summary_ko": "금속 출동문 양쪽 패널을 밀어 열며 거창한 구조의 기대를 만든다.",
+      "prompt_en": "Create one continuous 8-second, 16:9 cinematic live-action image-to-video shot using the uploaded image as the exact first frame. Preserve the visible identities, clothing, prop sizes, lighting, screen axis and camera framing. Keep natural real-time human motion; no cuts, transitions, slow motion or time-lapse. A muscular middle-aged East Asian woman with short swept silver hair, square jaw and strong eyebrows stands facing the camera in the foreground of the enormous closed double metal doors. Preserve her dark teal tactical jumpsuit, black belt and boots, and short orange cape attached at the shoulders. Her palms already touch the two door leaves behind and beside her. Use a locked low, symmetrical wide shot. From 0–1 seconds hold the initial stance. From 1–5 seconds she braces her legs, pushes her palms outward, and the left and right metal leaves slide horizontally away from the central seam, each remaining a rigid metal panel on its own track. The opening behind her gradually admits a bright diffuse light. She stays on this side of the doors; she does not turn around or walk backward through them. From 5–6.5 seconds she releases her palms and sets her arms in a resolute ready stance. From 6.5–8 seconds hold the open doors and her determined face. One physically heavy opening, no collapse or explosion. No bending metal, inward-swinging leaves, changing door count, additional hero, vehicle or crowd. No dialogue, narration, lip-synced speech, subtitles, written graphics, logos or generated music. Quiet nonverbal location sound is optional; all narrative captions, interface graphics, music and sound cues will be added in postproduction. End with a physically stable pose, with only natural breathing, blinking and environmental motion.",
+      "start_state": "H 카메라 정면, 양손은 뒤·옆의 닫힌 금속문 양쪽에 닿음. 망토 어깨.",
+      "end_state": "문 양쪽 패널이 수평으로 완전히 열려 뒤에서 밝은 빛, H 같은 쪽 전경에 서서 출동 준비.",
+      "action_plan": [
+        [
+          "0–1",
+          "닫힌 문/자세 확립"
+        ],
+        [
+          "1–5",
+          "양쪽으로 한 번 밀어 문 슬라이딩 개방"
+        ],
+        [
+          "5–6.5",
+          "손을 떼고 준비 자세"
+        ],
+        [
+          "6.5–8",
+          "열린 문 끝상태"
+        ]
+      ],
+      "qa_acceptance": [
+        "중앙 이음선에서 좌·우 두 패널이 각각 멀어짐",
+        "H가 문 앞 같은 쪽에 남고 몸/망토가 문을 통과하지 않음",
+        "주황 어깨 망토·짙은 청록 점프수트 유지"
+      ],
+      "risks": [
+        "보통: 첫 프레임의 손이 몸 뒤쪽 문에 있어 회전문처럼 해석하거나 인물이 문을 관통할 수 있음."
+      ],
+      "first_frame": "storyboards/2026-10-25_C07-C10-rewrite-v13/images/C08/S02.png",
+      "first_frame_absolute": "//wsl.localhost/Ubuntu-24.04/home/wooseok/wsy/samsung_related/slide/AI실행결과발표대회_디자인3종/storyboards/2026-10-25_C07-C10-rewrite-v13/images/C08/S02.png",
+      "first_frame_sha256": "dffeaca477d53a67afe3f47aaa686bf2a4cbbe940cc1fc059f32cbf27da008b5",
+      "first_frame_review": {
+        "actually_opened": true,
+        "method": "view_image actual individual PNG",
+        "status": "visually checked for motion planning; not a video QA pass"
+      },
+      "generation_spec": {
+        "duration_seconds": 8,
+        "aspect_ratio": "16:9",
+        "resolution": "720p",
+        "output_count": 1,
+        "input_mode": "first_frame_only",
+        "model": "Veo 3.1 Lite - parent observed actual UI; recheck before submission",
+        "submission_by_this_agent": false
+      },
+      "source_board_timing": {
+        "start": 2,
+        "end": 6,
+        "duration": 4
+      },
+      "postproduction": {
+        "dialogue": "없음",
+        "narration": "없음",
+        "caption_cues_source": [],
+        "composites": [],
+        "music_sfx_silence_source": "장대한 저음 금관/문 유압음. 실제로 없어도 화면 스케일로 전달.",
+        "editing": "완전 개방이 보이는 약 4초를 사용. 문 앞에서의 출동 준비까지만, 공간 이동은 사무실 컷으로 생략.",
+        "retiming": "생성물의 실제 동작 완료 지점으로 트림을 정한 뒤 자막/BGM/SFX 큐를 함께 재산정. 원본 8초 전부를 자동 사용하지 않음. 화면+자막만으로 검수."
+      },
+      "source_frame_start": "지하 출동실 H가 거대한 금속문 앞에서 양손을 대고 있다. 주황 망토는 뒤로, 문은 닫힘.",
+      "source_frame_end": "문이 열리고 바깥빛이 들어온다. H는 출동 직전의 전신 자세."
+    },
+    {
+      "queue_index": 3,
+      "concept_id": "C08",
+      "concept_title": "구조는 끝났습니다",
+      "scene_id": "S03",
+      "id": "C08_K03",
+      "summary_ko": "직원의 자기 원문 P를 공유 AI 정리 양식에 적용하는 트랙패드 동작. 정확한 UI와 카드 이동은 후합성.",
+      "prompt_en": "Create one continuous 8-second, 16:9 cinematic live-action image-to-video shot using the uploaded image as the exact first frame. Preserve the visible identities, clothing, prop sizes, lighting, screen axis and camera framing. Keep natural real-time human motion; no cuts, transitions, slow motion or time-lapse. Preserve the close over-the-shoulder view of the slim young East Asian man in the pale-yellow rolled-sleeve shirt at his silver laptop. Keep his right hand on the trackpad, the white paper with its teal corner tab on the desk, the closed mint lunchbox, and the empty black tray. The laptop screen must remain a flat, stable pale interface placeholder for later compositing, with the same screen corners, angle and brightness; do not generate legible interface words or changing results. Hold 0–1 seconds. From 1–2.8 seconds his right index finger performs one controlled press-and-drag gesture across the trackpad, then lifts to release it. His wrist remains supported, with the other fingers relaxed and separate. From 2.8–4 seconds he watches the laptop quietly, as if awaiting the result of applying a shared template to his own document. From 4–8 seconds hold the end position. Keep the desk paper physically still and unmarked; no page should move into the laptop or tray. No extra click sequence, typing, phone, generated check mark, automatic physical document movement, camera pan or zoom. No dialogue, narration, lip-synced speech, subtitles, written graphics, logos or generated music. Quiet nonverbal location sound is optional; all narrative captions, interface graphics, music and sound cues will be added in postproduction. End with a physically stable pose, with only natural breathing, blinking and environmental motion.",
+      "start_state": "공유 양식 후합성용 노트북 평면, 오른손 트랙패드 위. P 원문 책상, 트레이 비움.",
+      "end_state": "드래그 1회 완료 후 손과 노트북 안정. 후합성 UI에서만 자기 P 적용 결과가 나옴, 확인 체크는 없음.",
+      "action_plan": [
+        [
+          "0–1",
+          "화면·트랙패드 안정"
+        ],
+        [
+          "1–2.8",
+          "오른 검지 한 번 드래그 후 떼기"
+        ],
+        [
+          "2.8–4",
+          "결과를 기다리는 시선"
+        ],
+        [
+          "4–8",
+          "후합성 가능한 안정 플레이트"
+        ]
+      ],
+      "qa_acceptance": [
+        "노트북 화면 사각형·반사 변화가 작아 합성 추적 가능",
+        "오른손 단일 드래그이며 물리 문서는 움직이지 않음",
+        "K04 전 완료 체크가 나타나지 않음"
+      ],
+      "risks": [
+        "보통: 생성 UI에 임의 글자/체크가 생기거나 화면 평면이 흔들리면 합성 난이도 증가."
+      ],
+      "first_frame": "storyboards/2026-10-25_C07-C10-rewrite-v13/images/C08/S03.png",
+      "first_frame_absolute": "//wsl.localhost/Ubuntu-24.04/home/wooseok/wsy/samsung_related/slide/AI실행결과발표대회_디자인3종/storyboards/2026-10-25_C07-C10-rewrite-v13/images/C08/S03.png",
+      "first_frame_sha256": "075320615d6723c38ced0d3e47961181cc3772fc701952d7c2b3309fdfb5ab28",
+      "first_frame_review": {
+        "actually_opened": true,
+        "method": "view_image actual individual PNG",
+        "status": "visually checked for motion planning; not a video QA pass"
+      },
+      "generation_spec": {
+        "duration_seconds": 8,
+        "aspect_ratio": "16:9",
+        "resolution": "720p",
+        "output_count": 1,
+        "input_mode": "first_frame_only",
+        "model": "Veo 3.1 Lite - parent observed actual UI; recheck before submission",
+        "submission_by_this_agent": false
+      },
+      "source_board_timing": {
+        "start": 6,
+        "end": 9,
+        "duration": 3
+      },
+      "postproduction": {
+        "dialogue": "없음",
+        "narration": "없음",
+        "caption_cues_source": [
+          {
+            "start": 6.2,
+            "end": 9,
+            "text": "어제 공유된 그 방법.",
+            "placement": "상단 빈 여백"
+          }
+        ],
+        "composites": [
+          "노트북 정적 헤더 Q-AI Fair · 공유 AI 정리 양식. 왼쪽 P 원문 카드→오른쪽 빈 적용 칸으로 이동 후 같은 행을 정리한 결과 1개. 헤더·카드·별표·탭은 후합성. 자동 검증 완료/정확도 수치 없음.",
+          "노트북 UI는 Q-AI Fair · 공유 AI 정리 양식, P 원문 카드의 청록 삼각 탭/2행 검은 별표가 같은 결과로 이어짐. 한 파일만 이동. 정확도 수치·자동 완료 체크 없음."
+        ],
+        "music_sfx_silence_source": "출동음악은 계속, 마우스 클릭만 담담함.",
+        "editing": "영상은 약 3초, 카드 이동/결과 등장 타이밍을 실제 손 드래그에 맞춤. 결과는 자동 검증 완료가 아님.",
+        "retiming": "생성물의 실제 동작 완료 지점으로 트림을 정한 뒤 자막/BGM/SFX 큐를 함께 재산정. 원본 8초 전부를 자동 사용하지 않음. 화면+자막만으로 검수."
+      },
+      "source_frame_start": "노트북에 동료가 공유한 AI 정리 양식이 이미 열려 있다. 왼쪽 원문 파일 카드 P에는 청록 삼각 탭과 두 번째 행 검은 별표. 아직 양식 오른쪽의 빈 입력 칸에 들어가지 않았다. 책상에 같은 P 원문과 닫힌 도시락.",
+      "source_frame_end": "자기 P가 입력 칸에 들어가고 오른쪽 결과에 같은 청록 탭·같은 두 번째 행 별표가 정리되어 나타남. 확인 체크는 아직 없음."
+    },
+    {
+      "queue_index": 4,
+      "concept_id": "C08",
+      "concept_title": "구조는 끝났습니다",
+      "scene_id": "S04",
+      "id": "C08_K04",
+      "summary_ko": "직접 대조 후 오른손 펜으로 한 번 확인, 왼손으로 같은 종이를 왼쪽 완료 트레이에 밀어 넣는다.",
+      "prompt_en": "Create one continuous 8-second, 16:9 cinematic live-action image-to-video shot using the uploaded image as the exact first frame. Preserve the visible identities, clothing, prop sizes, lighting, screen axis and camera framing. Keep natural real-time human motion; no cuts, transitions, slow motion or time-lapse. Keep the fixed close desk view, the pale-yellow sleeves and the original hand anatomy. The man's RIGHT hand holds the black pen above the single white document with its teal corner tab. His LEFT hand steadies the document. The black tray is immediately to screen-left; the silver laptop beyond it retains a stable blank interface for later compositing. From 0–1 seconds hold, with the pen not yet marking the page. From 1–2.2 seconds make one short deliberate verification stroke at one place on that paper, then lift the pen clear. From 2.2–4.5 seconds his LEFT hand slides that exact paper across the desk into the adjacent black tray in one continuous motion; the right hand and pen remain clear of its path. The paper stays a single rigid sheet with a little natural flex, face upward, its teal tab still visible. From 4.5–6 seconds both hands withdraw from the tray. From 6–8 seconds hold the completed paper in the tray. No second document, repeated writing, paper dissolving, self-moving sheet, extra pen or mark appearing before pen contact. The closed lunchbox remains untouched. No dialogue, narration, lip-synced speech, subtitles, written graphics, logos or generated music. Quiet nonverbal location sound is optional; all narrative captions, interface graphics, music and sound cues will be added in postproduction. End with a physically stable pose, with only natural breathing, blinking and environmental motion.",
+      "start_state": "오른손 펜 원문 위, 왼손 원문 고정; 왼쪽 트레이 비움.",
+      "end_state": "같은 P 원문이 한 번 확인되어 트레이에 놓임, 양손 트레이에서 물러남. 도시락 여전히 닫힘.",
+      "action_plan": [
+        [
+          "0–1",
+          "펜 접촉 전"
+        ],
+        [
+          "1–2.2",
+          "오른손 확인 표시 1회 후 펜 들기"
+        ],
+        [
+          "2.2–4.5",
+          "왼손으로 P를 왼쪽 트레이에 연속 밀기"
+        ],
+        [
+          "4.5–6",
+          "양손 물러남"
+        ],
+        [
+          "6–8",
+          "확인 문서 트레이 끝상태"
+        ]
+      ],
+      "qa_acceptance": [
+        "한 장의 P가 실제로 트레이 안까지 이동",
+        "체크는 사람의 펜 접촉 이후 1회",
+        "양손·펜·문서가 관통/복제되지 않음"
+      ],
+      "risks": [
+        "보통: 체크+이동 두 단계가 있어 펜이 종이를 끌거나 확인 전에 문서가 트레이로 순간 이동할 수 있음."
+      ],
+      "fallback_split": "필요할 때만 확인 체크와 트레이 이동을 두 인서트로 분할. 기본은 1원본 연속 동작.",
+      "first_frame": "storyboards/2026-10-25_C07-C10-rewrite-v13/images/C08/S04.png",
+      "first_frame_absolute": "//wsl.localhost/Ubuntu-24.04/home/wooseok/wsy/samsung_related/slide/AI실행결과발표대회_디자인3종/storyboards/2026-10-25_C07-C10-rewrite-v13/images/C08/S04.png",
+      "first_frame_sha256": "ee2b96c9a152ee6c216a9c062969b34cba2418e193b072112fed479a3a83fc11",
+      "first_frame_review": {
+        "actually_opened": true,
+        "method": "view_image actual individual PNG",
+        "status": "visually checked for motion planning; not a video QA pass"
+      },
+      "generation_spec": {
+        "duration_seconds": 8,
+        "aspect_ratio": "16:9",
+        "resolution": "720p",
+        "output_count": 1,
+        "input_mode": "first_frame_only",
+        "model": "Veo 3.1 Lite - parent observed actual UI; recheck before submission",
+        "submission_by_this_agent": false
+      },
+      "source_board_timing": {
+        "start": 9,
+        "end": 11.5,
+        "duration": 2.5
+      },
+      "postproduction": {
+        "dialogue": "없음",
+        "narration": "없음",
+        "caption_cues_source": [
+          {
+            "start": 9.15,
+            "end": 11.5,
+            "text": "직접 확인까지, 끝.",
+            "placement": "상단 빈 부분"
+          }
+        ],
+        "composites": [
+          "같은 P 원문/정리 결과의 검은 별표 한 개·청록 탭 한 개. 원문에 작은 확인 체크. 길고 읽을 수 없는 가짜 문장 금지.",
+          "검은 별표와 작은 체크의 정확 형태는 후합성. 펜 실제 접촉 타이밍과 동기화."
+        ],
+        "music_sfx_silence_source": "음악 계속 고조. 펜소리·트레이 마찰은 작게.",
+        "editing": "원안 2.5초에 전체 행동이 자연스럽게 안 담기면 3.5~4초 확보하고 다른 정지 길이를 줄인다. 체크/트레이 완료를 잘라 인과를 없애지 않음.",
+        "retiming": "생성물의 실제 동작 완료 지점으로 트림을 정한 뒤 자막/BGM/SFX 큐를 함께 재산정. 원본 8초 전부를 자동 사용하지 않음. 화면+자막만으로 검수."
+      },
+      "source_frame_start": "K03의 청록 탭 P 원문과 노트북 정리 결과가 같은 두 번째 행의 검은 별표를 보여준다. E의 펜은 원문 확인 칸에 닿기 전.",
+      "source_frame_end": "자기 P가 체크된 채 완료 트레이에 있음. E의 손은 도시락 쪽으로 이동할 수 있게 비어 있다."
+    },
+    {
+      "queue_index": 5,
+      "concept_id": "C08",
+      "concept_title": "구조는 끝났습니다",
+      "scene_id": "S05",
+      "id": "C08_K05",
+      "summary_ko": "멀쩡한 오른쪽 벽을 영웅이 뚫고 들어와 한쪽 무릎 착지. 직원은 이미 점심 중이며 피해 없음.",
+      "prompt_en": "Create one continuous 8-second, 16:9 cinematic live-action image-to-video shot using the uploaded image as the exact first frame. Preserve the visible identities, clothing, prop sizes, lighting, screen axis and camera framing. Keep natural real-time human motion; no cuts, transitions, slow motion or time-lapse. Lock the bright office wide shot exactly to the uploaded first frame: the slim young East Asian employee with wavy black hair, round glasses and pale-yellow shirt is seated at the desk on the LEFT, lifting the lid of his mint lunchbox. The plaster-and-red-brick wall on the RIGHT is initially intact and no other person is visible. Hold that intact state for 0–1 seconds. From 1–4.5 seconds one localized human-sized opening breaks outward in that right wall and ONE muscular middle-aged East Asian woman steps through from behind it into the empty right foreground. She has a square jaw, strong dark eyebrows, short swept silver hair, a dark teal tactical jumpsuit, black belt and black work boots, and a short orange cape attached at her shoulders. She does not fly. As she crosses the opening, small white plaster pieces and red brick fragments fall down only within the right-side work area. From 4.5–6.5 seconds she settles into a dramatic one-knee landing, one palm on the floor, opposite knee raised, facing slightly left into the room. From 6.5–8 seconds she holds it as light dust clears. The employee calmly finishes opening his lunchbox without standing. Preserve a roughly person-sized opening and visible rubble; no rebuilding. Keep all debris away from employee, laptop, food and window. No extra hero, explosion, whole-wall collapse, ceiling damage, injury, teleportation or camera shake. No dialogue, narration, lip-synced speech, subtitles, written graphics, logos or generated music. Quiet nonverbal location sound is optional; all narrative captions, interface graphics, music and sound cues will be added in postproduction. End with a physically stable pose, with only natural breathing, blinking and environmental motion.",
+      "start_state": "E 왼쪽 책상 도시락 뚜껑 여는 중; 오른쪽 벽 온전하고 전경 비어 있음. H 화면 밖.",
+      "end_state": "오른쪽 벽 사람 크기 구멍/바닥 파편. H 어깨 망토 그대로 한쪽 무릎·한 손 착지. E 점심 시작, 안전한 책상.",
+      "action_plan": [
+        [
+          "0–1",
+          "온전한 벽과 점심 확립"
+        ],
+        [
+          "1–4.5",
+          "국소 벽 파손과 H의 실제 한 걸음 통과"
+        ],
+        [
+          "4.5–6.5",
+          "한쪽 무릎 착지"
+        ],
+        [
+          "6.5–8",
+          "먼지 가라앉고 자세 유지"
+        ]
+      ],
+      "qa_acceptance": [
+        "벽 온전함→국소 파손→통과→착지가 실제 순서로 보임",
+        "H 은발 중년 여성/청록 점프수트/주황 어깨 망토가 K02/K06과 수용 가능한 수준으로 일치",
+        "파편은 오른쪽에만, 천장·창·직원·책상 온전",
+        "K06에 연결할 한쪽 무릎 착지와 같은 구멍이 남음"
+      ],
+      "risks": [
+        "높음: 시작 이미지에 H가 없어 첫 프레임만으로 얼굴 동일성 보장 불가. 설명은 고정하지만 실제 결과의 K02/K06 비교 필수.",
+        "높음: 벽 파손/새 인물 진입/착지의 연속 물리 동작과 파편 통제가 복합적임."
+      ],
+      "fallback_split": "외형 불일치 또는 벽 관통 실패 시 임의 반복보다 PD 확인. 벽 파손/실루엣 진입과 동일 인물 착지 두 샷 분할이 대안이나 새 시작 이미지가 필요하므로 현재 20컷 기본 큐에는 자동 추가하지 않음.",
+      "first_frame": "storyboards/2026-10-25_C07-C10-rewrite-v13/images/C08/S05.png",
+      "first_frame_absolute": "//wsl.localhost/Ubuntu-24.04/home/wooseok/wsy/samsung_related/slide/AI실행결과발표대회_디자인3종/storyboards/2026-10-25_C07-C10-rewrite-v13/images/C08/S05.png",
+      "first_frame_sha256": "0f7bebbe281ab7bf9a4a4e36bb2d1c08c1739600091b332b6272d14c4300b33e",
+      "first_frame_review": {
+        "actually_opened": true,
+        "method": "view_image actual individual PNG",
+        "status": "visually checked for motion planning; not a video QA pass"
+      },
+      "generation_spec": {
+        "duration_seconds": 8,
+        "aspect_ratio": "16:9",
+        "resolution": "720p",
+        "output_count": 1,
+        "input_mode": "first_frame_only",
+        "model": "Veo 3.1 Lite - parent observed actual UI; recheck before submission",
+        "submission_by_this_agent": false
+      },
+      "source_board_timing": {
+        "start": 11.5,
+        "end": 17.5,
+        "duration": 6
+      },
+      "postproduction": {
+        "dialogue": "없음",
+        "narration": "없음",
+        "caption_cues_source": [],
+        "composites": [],
+        "music_sfx_silence_source": "액션최고조+세트파손. H착지직후음악끊음0.7초. 비명/고통소리없음.",
+        "editing": "주요 동작과 착지가 보이는 6초 내외. 착지 직후 음악을 0.7초 끊는 것은 편집에서.",
+        "retiming": "생성물의 실제 동작 완료 지점으로 트림을 정한 뒤 자막/BGM/SFX 큐를 함께 재산정. 원본 8초 전부를 자동 사용하지 않음. 화면+자막만으로 검수."
+      },
+      "source_frame_start": "E는 왼쪽 책상에서 이미 도시락 뚜껑을 열고 있다. 오른쪽 경량벽은 멀쩡하고 그 앞 공간은 비어 있음.",
+      "source_frame_end": "한 사람 크기 구멍, 바닥 붉은 벽돌, H의 주황 망토. E와 책상에는 파편이 닿지 않음."
+    },
+    {
+      "queue_index": 6,
+      "concept_id": "C08",
+      "concept_title": "구조는 끝났습니다",
+      "scene_id": "S06",
+      "id": "C08_K06",
+      "summary_ko": "직원이 빈 왼손으로 완료 트레이를 가리키고, 무릎 꿇은 영웅은 점심과 완료 문서를 본다.",
+      "prompt_en": "Create one continuous 8-second, 16:9 cinematic live-action image-to-video shot using the uploaded image as the exact first frame. Preserve the visible identities, clothing, prop sizes, lighting, screen axis and camera framing. Keep natural real-time human motion; no cuts, transitions, slow motion or time-lapse. Keep this fixed office two-shot: the muscular silver-haired middle-aged East Asian woman in a dark teal jumpsuit and orange shoulder cape holds her one-knee landing in the RIGHT foreground. Behind her on the LEFT, the slim young East Asian man with glasses and pale-yellow shirt remains seated with his open mint lunchbox. His RIGHT hand holds the black chopsticks; his LEFT hand is free beside the black completed-document tray. Preserve the human-sized broken wall and red-and-white rubble behind the woman. Hold 0–1 seconds. From 1–2.5 seconds the employee uses only his free LEFT hand to make a small open-palmed gesture toward the single teal-tabbed paper in the completed tray. Keep his right-hand chopsticks away from her. From 2.5–4.5 seconds the woman turns only her head and upper shoulders toward him, following the gesture to the completed tray and lunchbox. Her grand determination becomes quietly puzzled; the employee remains warm and matter-of-fact, without laughing. From 4.5–8 seconds hold that contrast. She stays kneeling and he stays seated throughout this shot. No speech, pointing with a duplicated hand, floating chopsticks, disappearing paper, repaired wall, standing transformation or extra actor. No dialogue, narration, lip-synced speech, subtitles, written graphics, logos or generated music. Quiet nonverbal location sound is optional; all narrative captions, interface graphics, music and sound cues will be added in postproduction. End with a physically stable pose, with only natural breathing, blinking and environmental motion.",
+      "start_state": "H 오른쪽 무릎 착지, E 왼쪽 앉아서 오른손 젓가락, 왼손 비움. 완료 문서 트레이.",
+      "end_state": "E 왼손 트레이 안내, H 무릎 자세에서 E/트레이/도시락 쪽 고개만 돌림.",
+      "action_plan": [
+        [
+          "0–1",
+          "착지와 점심 대비"
+        ],
+        [
+          "1–2.5",
+          "E 왼손 트레이 지시"
+        ],
+        [
+          "2.5–4.5",
+          "H 고개 돌려 완료 상태 확인"
+        ],
+        [
+          "4.5–8",
+          "당황과 담담함 안정"
+        ]
+      ],
+      "qa_acceptance": [
+        "E 오른손 젓가락 유지·왼손만 지시",
+        "H 한쪽 무릎 착지 자세 유지",
+        "완료 트레이와 도시락을 반응의 실제 대상으로 읽을 수 있음"
+      ],
+      "risks": [
+        "보통: 방향을 잘못 해석해 영웅이 반대쪽을 보거나, 오른손 젓가락과 왼손 지시가 뒤섞일 수 있음.",
+        "연결: 다음 K07은 둘 다 선 상태. 이 컷 안에 기립까지 추가하지 않고 약간의 시간 생략을 인정하는 하드 컷으로 편집."
+      ],
+      "first_frame": "storyboards/2026-10-25_C07-C10-rewrite-v13/images/C08/S06.png",
+      "first_frame_absolute": "//wsl.localhost/Ubuntu-24.04/home/wooseok/wsy/samsung_related/slide/AI실행결과발표대회_디자인3종/storyboards/2026-10-25_C07-C10-rewrite-v13/images/C08/S06.png",
+      "first_frame_sha256": "e3e84d457dd83cd8ded14a5db310d4363ad19be09f519f69d8148d595a26823c",
+      "first_frame_review": {
+        "actually_opened": true,
+        "method": "view_image actual individual PNG",
+        "status": "visually checked for motion planning; not a video QA pass"
+      },
+      "generation_spec": {
+        "duration_seconds": 8,
+        "aspect_ratio": "16:9",
+        "resolution": "720p",
+        "output_count": 1,
+        "input_mode": "first_frame_only",
+        "model": "Veo 3.1 Lite - parent observed actual UI; recheck before submission",
+        "submission_by_this_agent": false
+      },
+      "source_board_timing": {
+        "start": 17.5,
+        "end": 20.5,
+        "duration": 3
+      },
+      "postproduction": {
+        "dialogue": "없음",
+        "narration": "없음",
+        "caption_cues_source": [
+          {
+            "start": 17.75,
+            "end": 20.4,
+            "text": "끝났는데요.",
+            "placement": "E 어깨 위 빈 벽"
+          }
+        ],
+        "composites": [],
+        "music_sfx_silence_source": "젓가락 작은 클릭,0.5초정적뒤H망토펄럭임만.",
+        "editing": "트레이 지시→H 반응 약 3초. K06→K07은 기립/흙손 준비를 생략한 의도적 편집이며 연속 매치 액션이라 보고하지 않음.",
+        "retiming": "생성물의 실제 동작 완료 지점으로 트림을 정한 뒤 자막/BGM/SFX 큐를 함께 재산정. 원본 8초 전부를 자동 사용하지 않음. 화면+자막만으로 검수."
+      },
+      "source_frame_start": "H가 영웅 자세로 멈춘 전경, E는 후경에서 도시락 젓가락을 들고 있다. 완료 트레이가 E 옆에 보임.",
+      "source_frame_end": "H가 서서히 E의 도시락과 완료 트레이를 본다."
+    },
+    {
+      "queue_index": 7,
+      "concept_id": "C08",
+      "concept_title": "구조는 끝났습니다",
+      "scene_id": "S07",
+      "id": "C08_K07",
+      "summary_ko": "직원이 흙손 손잡이를 건네고 영웅의 오른손이 받아 자기 파손벽을 돌아본다.",
+      "prompt_en": "Create one continuous 8-second, 16:9 cinematic live-action image-to-video shot using the uploaded image as the exact first frame. Preserve the visible identities, clothing, prop sizes, lighting, screen axis and camera framing. Keep natural real-time human motion; no cuts, transitions, slow motion or time-lapse. Lock the medium office two-shot to the first frame. On the LEFT the slim young East Asian man with wavy black hair, round glasses and pale-yellow shirt offers one triangular gray masonry trowel; he supports its metal blade with his hands and the wooden handle points toward the woman. On the RIGHT the muscular silver-haired middle-aged East Asian woman in a dark teal jumpsuit and orange cape at her shoulders starts with both hands empty. Her own broken wall remains visible behind her; the desk, open lunchbox, chopsticks and completed tray stay where shown. Hold for 0–1 seconds. From 1–3.5 seconds she extends her RIGHT hand toward the wooden handle, wraps her fingers around only the handle, and visibly secures it. Only after she has a firm grip does the employee release the blade and withdraw both hands. From 3.5–5.5 seconds she lowers the single trowel beside her right thigh and turns her head toward the hole she made. He watches calmly, without ridicule. From 5.5–8 seconds hold the trowel in her right hand and the damaged wall unchanged. No exchanging faces, second trowel, blade gripping, object passing through palms, repairing the wall, cape moving to waist, or simultaneous release before the recipient grips. No dialogue, narration, lip-synced speech, subtitles, written graphics, logos or generated music. Quiet nonverbal location sound is optional; all narrative captions, interface graphics, music and sound cues will be added in postproduction. End with a physically stable pose, with only natural breathing, blinking and environmental motion.",
+      "start_state": "E 양손이 흙손 날 지지, 나무 손잡이 H 쪽. H 양손 비움, 망토 어깨.",
+      "end_state": "흙손 한 개 H 오른손 단독 소유, E 양손 비움, H 파손벽 봄.",
+      "action_plan": [
+        [
+          "0–1",
+          "제공/빈손 상태"
+        ],
+        [
+          "1–3.5",
+          "H 오른손 손잡이 확보→E 손 떼기"
+        ],
+        [
+          "3.5–5.5",
+          "흙손 낮추고 구멍 보기"
+        ],
+        [
+          "5.5–8",
+          "소유 이전 완료"
+        ]
+      ],
+      "qa_acceptance": [
+        "H가 손잡이를 잡은 뒤 E가 놓음",
+        "흙손 하나가 끊김 없이 E→H 이동",
+        "구멍·망토 어깨·도시락 유지"
+      ],
+      "risks": [
+        "보통: 좁은 손잡이에 양쪽 손이 겹칠 때 흙손이 복제되거나 날과 손잡이가 뒤집힐 수 있음."
+      ],
+      "first_frame": "storyboards/2026-10-25_C07-C10-rewrite-v13/images/C08/S07.png",
+      "first_frame_absolute": "//wsl.localhost/Ubuntu-24.04/home/wooseok/wsy/samsung_related/slide/AI실행결과발표대회_디자인3종/storyboards/2026-10-25_C07-C10-rewrite-v13/images/C08/S07.png",
+      "first_frame_sha256": "91ecd06fd3efaffbba7e524e4de3576f258e7be31a5aad115938b22dc53c803e",
+      "first_frame_review": {
+        "actually_opened": true,
+        "method": "view_image actual individual PNG",
+        "status": "visually checked for motion planning; not a video QA pass"
+      },
+      "generation_spec": {
+        "duration_seconds": 8,
+        "aspect_ratio": "16:9",
+        "resolution": "720p",
+        "output_count": 1,
+        "input_mode": "first_frame_only",
+        "model": "Veo 3.1 Lite - parent observed actual UI; recheck before submission",
+        "submission_by_this_agent": false
+      },
+      "source_board_timing": {
+        "start": 20.5,
+        "end": 24.5,
+        "duration": 4
+      },
+      "postproduction": {
+        "dialogue": "없음",
+        "narration": "없음",
+        "caption_cues_source": [
+          {
+            "start": 21,
+            "end": 24.3,
+            "text": "여기는 아직이네요.",
+            "placement": "상단 빈 벽"
+          }
+        ],
+        "composites": [],
+        "music_sfx_silence_source": "작은 흙손금속음. 액션음악을아주작은타악리듬으로축소.",
+        "editing": "K07→K08에 '잠시 후'로 수리 경과와 망토 허리 착용을 명시. 이 컷에서 수리 전체를 생성하지 않음.",
+        "retiming": "생성물의 실제 동작 완료 지점으로 트림을 정한 뒤 자막/BGM/SFX 큐를 함께 재산정. 원본 8초 전부를 자동 사용하지 않음. 화면+자막만으로 검수."
+      },
+      "source_frame_start": "E가 수리 흙손을 손잡이부터 내밀기 직전. H는 빈손, 뒤에는 자기가 뚫은 구멍.",
+      "source_frame_end": "H 손에 흙손, E는 도시락으로 복귀할 준비."
+    },
+    {
+      "queue_index": 8,
+      "concept_id": "C08",
+      "concept_title": "구조는 끝났습니다",
+      "scene_id": "S08",
+      "id": "C08_K08",
+      "summary_ko": "거의 수리된 같은 벽의 오른쪽 위 마지막 벽돌 한 장을 끼우되 오른쪽 끝을 조금 높게 놓는다.",
+      "prompt_en": "Create one continuous 8-second, 16:9 cinematic live-action image-to-video shot using the uploaded image as the exact first frame. Preserve the visible identities, clothing, prop sizes, lighting, screen axis and camera framing. Keep natural real-time human motion; no cuts, transitions, slow motion or time-lapse. Keep the fixed repair-area composition. The muscular middle-aged East Asian woman with short silver hair wears the same dark teal jumpsuit, but her orange cape is now tied around her WAIST. Both hands support the single final red brick at the upper-right remaining gap in the almost-filled wall patch. The slim glasses-wearing employee remains seated at the desk in the left background, with the open mint lunchbox. The mortar bucket and triangular trowel remain motionless on the floor at the right. Hold 0–1 seconds. From 1–4.5 seconds she moves that one brick a short distance into the one remaining upper-right gap, placing it firmly on the mortar bed. She inadvertently leaves its SCREEN-RIGHT end slightly higher than its left end, a small visible tilt of about two centimeters, without distorting the brick. From 4.5–6 seconds she releases both hands one at a time and lowers them, looking satisfied with her grand achievement. From 6–8 seconds hold the fixed, slightly crooked final brick. All other bricks remain stationary. The wall is fully filled with no open gap after placement. No self-growing wall, extra brick, changing patch outline, floating brick, suddenly held trowel, or cape returning to her shoulders. No dialogue, narration, lip-synced speech, subtitles, written graphics, logos or generated music. Quiet nonverbal location sound is optional; all narrative captions, interface graphics, music and sound cues will be added in postproduction. End with a physically stable pose, with only natural breathing, blinking and environmental motion.",
+      "start_state": "거의 메운 벽 오른쪽 위 한 칸, H 양손 마지막 벽돌, 망토 허리. 흙손·통 바닥.",
+      "end_state": "그 한 칸 같은 벽돌로 메움, 화면 오른쪽 끝 약간 높음. H 두 손 떨어짐.",
+      "action_plan": [
+        [
+          "0–1",
+          "마지막 빈 칸/벽돌"
+        ],
+        [
+          "1–4.5",
+          "한 벽돌 넣고 오른쪽 끝 조금 높게 얹기"
+        ],
+        [
+          "4.5–6",
+          "양손 떼기"
+        ],
+        [
+          "6–8",
+          "비뚤어진 끝상태"
+        ]
+      ],
+      "qa_acceptance": [
+        "같은 오른쪽 상단 한 칸에 벽돌 하나만 들어감",
+        "벽돌 오른쪽이 조금 높아 다음 수평 확인 이유가 보임",
+        "배경 벽돌·통·흙손 고정, 두 손 비움"
+      ],
+      "risks": [
+        "보통: 자연스럽게 잘 맞춰 버리면 K09 지적의 원인이 사라짐. 최종 기울기를 실제 확인해야 함."
+      ],
+      "first_frame": "storyboards/2026-10-25_C07-C10-rewrite-v13/images/C08/S08.png",
+      "first_frame_absolute": "//wsl.localhost/Ubuntu-24.04/home/wooseok/wsy/samsung_related/slide/AI실행결과발표대회_디자인3종/storyboards/2026-10-25_C07-C10-rewrite-v13/images/C08/S08.png",
+      "first_frame_sha256": "1edda9e3cb8394483f48c74454a1926f9b40712ec0632726c5c31e1708068f24",
+      "first_frame_review": {
+        "actually_opened": true,
+        "method": "view_image actual individual PNG",
+        "status": "visually checked for motion planning; not a video QA pass"
+      },
+      "generation_spec": {
+        "duration_seconds": 8,
+        "aspect_ratio": "16:9",
+        "resolution": "720p",
+        "output_count": 1,
+        "input_mode": "first_frame_only",
+        "model": "Veo 3.1 Lite - parent observed actual UI; recheck before submission",
+        "submission_by_this_agent": false
+      },
+      "source_board_timing": {
+        "start": 24.5,
+        "end": 29.5,
+        "duration": 5
+      },
+      "postproduction": {
+        "dialogue": "없음",
+        "narration": "없음",
+        "caption_cues_source": [
+          {
+            "start": 24.7,
+            "end": 26.2,
+            "text": "잠시 후",
+            "placement": "좌상단 작은 시간전환 표시"
+          }
+        ],
+        "composites": [
+          "초반 1.2초 작은 잠시 후. K05의 동일 구멍 윤곽과 수리 영역 유지."
+        ],
+        "music_sfx_silence_source": "아주비장한한박금관+벽돌툭. 음악은다시엄숙해짐.",
+        "editing": "시간 생략 표지 '잠시 후' 후합성은 24.7–26.2초 기존 큐(1.5초)를 우선. 이미지 문서의 1.2초 지시는 오래된 근삿값으로 취급하고 실제 편집에서 통일.",
+        "retiming": "생성물의 실제 동작 완료 지점으로 트림을 정한 뒤 자막/BGM/SFX 큐를 함께 재산정. 원본 8초 전부를 자동 사용하지 않음. 화면+자막만으로 검수."
+      },
+      "source_frame_start": "시간 생략 뒤 같은 벽 구멍이 거의 메워졌고 오른쪽 상단 마지막 한 칸만 비어 있다. H의 망토는 허리에 묶음. 양손에 마지막 벽돌. 흙손은 모르타르 통 옆 바닥에 놓여 있음.",
+      "source_frame_end": "마지막 벽돌 오른쪽 끝이 약간 높은 채 H 두 손은 떨어짐. 흙손은 계속 바닥. 벽 구멍은 이제 완전히 막힘."
+    },
+    {
+      "queue_index": 9,
+      "concept_id": "C08",
+      "concept_title": "구조는 끝났습니다",
+      "scene_id": "S09",
+      "id": "C08_K09",
+      "summary_ko": "같은 마지막 벽돌을 노란 수평계로 확인하고 한 장만 지적한 뒤 수평계를 오른손에 들어 아래로 비운다.",
+      "prompt_en": "Create one continuous 8-second, 16:9 cinematic live-action image-to-video shot using the uploaded image as the exact first frame. Preserve the visible identities, clothing, prop sizes, lighting, screen axis and camera framing. Keep natural real-time human motion; no cuts, transitions, slow motion or time-lapse. Use the exact selected first-frame geometry: the slim young East Asian man in glasses and a pale-yellow shirt stands near the repaired wall, holding one yellow spirit level immediately above the single upper-right red brick. The muscular silver-haired woman in dark teal with orange fabric tied at her waist stands to his left with both hands empty. This brick's screen-right end is slightly high; the rest of the masonry must not move. Hold 0–0.7 seconds. From 0.7–2 seconds he gently seats the level along the top face of that SAME upper-right brick, not a neighboring course. From 2–3 seconds both look at it. The level follows the brick's small slope, with its bubble tending toward the raised screen-right end. From 3–4 seconds his RIGHT hand keeps the level supported while his LEFT hand releases and briefly indicates only that brick. From 4–6 seconds he lifts the level clear with his RIGHT hand and lowers it beside his right thigh. His left hand relaxes empty. From 6–8 seconds hold with the entire brick top clear, the woman looking at that brick ready to correct it. Keep trowel and bucket on the floor. No measuring a different brick, brick moving during measurement, level duplication, passing through fingers, or hands correcting the brick before the level clears. No dialogue, narration, lip-synced speech, subtitles, written graphics, logos or generated music. Quiet nonverbal location sound is optional; all narrative captions, interface graphics, music and sound cues will be added in postproduction. End with a physically stable pose, with only natural breathing, blinking and environmental motion.",
+      "start_state": "최신 S09_v3: E 양손 노란 수평계가 오른쪽 상단 같은 벽돌 위; H 왼쪽 양손 비움.",
+      "end_state": "E 오른손 수평계가 오른 허벅지 옆, 왼손 비움. 같은 비뚤어진 벽돌 윗면 완전히 비움. H 교정 준비.",
+      "action_plan": [
+        [
+          "0–0.7",
+          "같은 목표 벽돌과 수평계"
+        ],
+        [
+          "0.7–2",
+          "수평계 얹기"
+        ],
+        [
+          "2–3",
+          "기울기 확인"
+        ],
+        [
+          "3–4",
+          "오른손 수평계 지지·왼손 한 장 지시"
+        ],
+        [
+          "4–6",
+          "오른손 수평계 들어 아래로 치우기"
+        ],
+        [
+          "6–8",
+          "벽돌 윗면 비운 끝상태"
+        ]
+      ],
+      "qa_acceptance": [
+        "S09_v3 오른쪽 상단 한 장만 검사",
+        "수평계 제거가 실제 화면에 보이고 K10 손동작 영역 비움",
+        "E 오른손 단독 수평계 소유로 끝남",
+        "기포 표현은 실제 방향/보임 확인, 자동으로 통과 처리하지 않음"
+      ],
+      "risks": [
+        "높음: 측정→지시→수평계 치우기 순서와 두 손 역할, 작은 기포 위치가 복합적임.",
+        "기포가 너무 작거나 틀리면 그 한 장의 기울기와 자막으로 전달 가능한지 검수. 필요한 경우 기포만 후합성하되 정확 측정 영상이라고 주장하지 않음."
+      ],
+      "fallback_split": "수평계 검사/지시가 성공했지만 제거가 실패하면 지시 컷+수평계 치우는 인서트 분할 검토. 자동 추가하지 않음.",
+      "first_frame": "storyboards/2026-10-25_C07-C10-rewrite-v13/images/C08/S09_v3.png",
+      "first_frame_absolute": "//wsl.localhost/Ubuntu-24.04/home/wooseok/wsy/samsung_related/slide/AI실행결과발표대회_디자인3종/storyboards/2026-10-25_C07-C10-rewrite-v13/images/C08/S09_v3.png",
+      "first_frame_sha256": "5d8fa570aac3d3a3dd4651ac5a9c8cf8bd13cd61f1bfc47f58789c644c72de89",
+      "first_frame_review": {
+        "actually_opened": true,
+        "method": "view_image actual individual PNG",
+        "status": "visually checked for motion planning; not a video QA pass"
+      },
+      "generation_spec": {
+        "duration_seconds": 8,
+        "aspect_ratio": "16:9",
+        "resolution": "720p",
+        "output_count": 1,
+        "input_mode": "first_frame_only",
+        "model": "Veo 3.1 Lite - parent observed actual UI; recheck before submission",
+        "submission_by_this_agent": false
+      },
+      "source_board_timing": {
+        "start": 29.5,
+        "end": 34.5,
+        "duration": 5
+      },
+      "postproduction": {
+        "dialogue": "없음",
+        "narration": "없음",
+        "caption_cues_source": [
+          {
+            "start": 30.7,
+            "end": 34.3,
+            "text": "이 한 장만, 다시요.",
+            "placement": "상단 벽돌빈영역"
+          }
+        ],
+        "composites": [],
+        "music_sfx_silence_source": "음악한박늦게멈춤. 수평계플라스틱툭. 소리꺼도기울기와지적이읽힘.",
+        "editing": "원안 5초 안에서 접촉→지적→수평계 비움 모두 보존. K09→K10 인물 전후 위치 교체는 같은 벽 작업 위치를 양보한 시간 생략으로 컷.",
+        "retiming": "생성물의 실제 동작 완료 지점으로 트림을 정한 뒤 자막/BGM/SFX 큐를 함께 재산정. 원본 8초 전부를 자동 사용하지 않음. 화면+자막만으로 검수."
+      },
+      "source_frame_start": "E가 노란 수평계를 마지막 벽돌 위에 얹기 직전. 오른쪽 끝이 높은 같은 벽돌. H 두 손은 비어 있고 흙손은 바닥.",
+      "source_frame_end": "수평계 기포는 오른쪽 높은 쪽. E가 수평계를 들어 옆 빈손으로 옮겨 벽돌 윗면을 비워 준 상태. H는 마지막 벽돌에 다시 손을 대기 직전."
+    },
+    {
+      "queue_index": 10,
+      "concept_id": "C08",
+      "concept_title": "구조는 끝났습니다",
+      "scene_id": "S10",
+      "id": "C08_K10",
+      "summary_ko": "영웅이 오른쪽 위 같은 벽돌을 살짝 들고 오른쪽 끝만 낮춰 다시 놓고 두 손을 뗀다.",
+      "prompt_en": "Create one continuous 8-second, 16:9 cinematic live-action image-to-video shot using the uploaded image as the exact first frame. Preserve the visible identities, clothing, prop sizes, lighting, screen axis and camera framing. Keep natural real-time human motion; no cuts, transitions, slow motion or time-lapse. Preserve this fixed office-wall view. The muscular middle-aged East Asian woman with short swept silver hair, dark teal jumpsuit and orange cape tied around her waist already has both hands lightly touching the SAME upper-right red brick. Its screen-right end is slightly higher than its left. The slim young man with round glasses and pale-yellow shirt stands behind her to screen-left, holding the yellow spirit level down at his RIGHT thigh; his left hand is empty. The bucket and trowel stay on the floor. From 0–1 seconds hold the current contact without changing the wall. From 1–4.5 seconds the woman lifts only that single brick a centimeter clear of its mortar bed, lowers its raised SCREEN-RIGHT end to horizontal, and seats it back into the same gap. This is a careful tiny correction, not removing the whole brick or rebuilding any other part. From 4.5–6 seconds she releases both hands and lowers them empty beside her body. The man gives one small approving nod while keeping the level in his right hand. From 6–8 seconds hold the corrected horizontal brick and empty hands. No additional tool, duplicate brick, moving surrounding masonry, disappearing level, body swap, camera move or title graphics. No dialogue, narration, lip-synced speech, subtitles, written graphics, logos or generated music. Quiet nonverbal location sound is optional; all narrative captions, interface graphics, music and sound cues will be added in postproduction. End with a physically stable pose, with only natural breathing, blinking and environmental motion.",
+      "start_state": "H 양손 이미 같은 오른쪽 상단 벽돌에 닿음. E 뒤왼쪽 오른손 수평계 아래. 통/흙손 바닥.",
+      "end_state": "같은 한 장 수평 교정 완료. H 양손 몸 옆 비움, E 작은 고개 끄덕임·오른손 수평계.",
+      "action_plan": [
+        [
+          "0–1",
+          "벽돌 접촉 시작 상태"
+        ],
+        [
+          "1–4.5",
+          "한 장 살짝 들어 오른끝 낮추고 재안착"
+        ],
+        [
+          "4.5–6",
+          "양손 내려 비움·E 작은 끄덕임"
+        ],
+        [
+          "6–8",
+          "교정 완료"
+        ]
+      ],
+      "qa_acceptance": [
+        "한 장만 교정하며 오른쪽 높은 끝을 낮춤",
+        "마지막에 양손 비고 수평계 E 오른손 유지",
+        "흙손은 바닥에서 손으로 순간 이동하지 않음"
+      ],
+      "risks": [
+        "보통: 미세한 기울기 교정이 눈에 안 보이거나 벽돌 전체가 변형될 수 있음.",
+        "자막 공간: 실제 S10 왼쪽은 직원/책상/창문으로 차 있어 긴 엔딩 자막을 안전하게 놓을 '빈 벽'이 없음."
+      ],
+      "first_frame": "storyboards/2026-10-25_C07-C10-rewrite-v13/images/C08/S10.png",
+      "first_frame_absolute": "//wsl.localhost/Ubuntu-24.04/home/wooseok/wsy/samsung_related/slide/AI실행결과발표대회_디자인3종/storyboards/2026-10-25_C07-C10-rewrite-v13/images/C08/S10.png",
+      "first_frame_sha256": "1cf6e3387bda9fc5af22dbcf7f0d2e879919f9a9c14b2e71eb8d7c6d7719dd17",
+      "first_frame_review": {
+        "actually_opened": true,
+        "method": "view_image actual individual PNG",
+        "status": "visually checked for motion planning; not a video QA pass"
+      },
+      "generation_spec": {
+        "duration_seconds": 8,
+        "aspect_ratio": "16:9",
+        "resolution": "720p",
+        "output_count": 1,
+        "input_mode": "first_frame_only",
+        "model": "Veo 3.1 Lite - parent observed actual UI; recheck before submission",
+        "submission_by_this_agent": false
+      },
+      "source_board_timing": {
+        "start": 34.5,
+        "end": 40.5,
+        "duration": 6
+      },
+      "postproduction": {
+        "dialogue": "없음",
+        "narration": "없음",
+        "caption_cues_source": [
+          {
+            "start": 35.1,
+            "end": 40.5,
+            "text": "한 사람의 방법이,\n여러 사람의 실력이 되는 곳.\nQ-AI Fair",
+            "placement": "좌측 빈 벽, 충분한 대비 패널"
+          }
+        ],
+        "composites": [
+          "스타일 감사 지시에 따라 '왼쪽 빈 벽' 자막 배치 폐기. 별도 짧은 엔딩 카드에 기존 문구를 후처리하고 기존 전체길이 내 재배분."
+        ],
+        "music_sfx_silence_source": "장대한음악을작은실내악한음으로마침. 새음성없음.",
+        "editing": "총 40.5초 기준 마지막 6초 슬롯을 동작 가시 구간 약 3~3.5초 + 별도 2.5~3초 엔딩 카드로 나눔. 손 놓기 완료를 먼저 보여주고, 긴 행사 문구를 얼굴/손 위에 덮지 않음. 생성된 8초를 통째로 사용하는 것이 아님.",
+        "retiming": "생성물의 실제 동작 완료 지점으로 트림을 정한 뒤 자막/BGM/SFX 큐를 함께 재산정. 원본 8초 전부를 자동 사용하지 않음. 화면+자막만으로 검수.",
+        "ending_card": {
+          "decision": "별도 후처리 카드",
+          "text": [
+            "한 사람의 방법이,",
+            "여러 사람의 실력이 되는 곳.",
+            "Q-AI Fair"
+          ],
+          "target_hold_seconds": 3,
+          "placement": "영상의 존재하지 않는 빈 벽 대신 별도 전체 프레임 카드",
+          "time_budget": "기존 40.5초 전체 구성 안에서 교정 완료 후 카드로 분할. 교정 동작을 먼저 끝내고 앞부분 정지 시간을 재배분. 6초 슬롯만으로 부족하면 동작을 자르지 말고 PD에게 실제 러닝타임 재산정 반환."
+        }
+      },
+      "source_frame_start": "수평계는 E가 옆으로 들어 두었고 H 두 손이 오른쪽 상단 벽돌을 잡기 직전. 비뚤어진 벽돌은 그대로, 흙손은 바닥 모르타르 통 옆.",
+      "source_frame_end": "벽돌이 수평으로 놓였고 H의 두 손은 빈 채 몸 옆으로 내려옴. E는 고개 한 번으로 수용. 흙손은 처음 놓은 바닥 위치, 새 도구를 손에 쥐지 않음."
+    },
+    {
+      "queue_index": 11,
+      "concept_id": "C09",
+      "concept_title": "나 없이도 괜찮겠어요?",
+      "scene_id": "S01",
+      "id": "C09_K01",
+      "summary_ko": "오른손으로 분홍 띠 흰 충전기만 집어 오른쪽 코트 주머니에 넣는다. 분홍폰은 책상에 남긴다.",
+      "prompt_en": "Create one continuous 8-second, 16:9 cinematic live-action image-to-video shot using the uploaded image as the exact first frame. Preserve the visible identities, clothing, prop sizes, lighting, screen axis and camera framing. Keep natural real-time human motion; no cuts, transitions, slow motion or time-lapse. Keep this fixed close insert of the older East Asian man's orange raincoat, navy shirt, RIGHT forearm, nearby RIGHT coat pocket and desk. His right hand starts just above the single white charger and its short coiled white cable held by a pink band. The pink-cased phone lies beside it and must stay untouched on the desk. Hold the exact starting image for 0–0.3 seconds. From 0.3–1.8 seconds his right hand casually gathers the charger and bundled cable together as ONE unit, lifts them only the short distance to the adjacent open RIGHT coat pocket, and places the entire bundle inside. This is an ordinary packing motion, not furtive theft or a dramatic reveal. From 1.8–2.5 seconds the hand releases the bundle fully inside the pocket and withdraws visibly empty. From 2.5–8 seconds hold: charger hidden in that right pocket, pink phone still on the desk. Keep the coat and pocket fixed in position. No moving the pink phone, second charger, uncoiling cable, left-hand participation, pocket teleportation, zipper operation or shot change. No face needs to enter this close crop. No dialogue, narration, lip-synced speech, subtitles, written graphics, logos or generated music. Quiet nonverbal location sound is optional; all narrative captions, interface graphics, music and sound cues will be added in postproduction. End with a physically stable pose, with only natural breathing, blinking and environmental motion.",
+      "start_state": "M 오른손 충전기 위, 오른 코트 주머니 바로 옆 열림. 분홍폰 책상.",
+      "end_state": "충전기+짧은 묶인 케이블 오른주머니 완전 수납, 오른손 비움, 분홍폰 그대로.",
+      "action_plan": [
+        [
+          "0–0.3",
+          "시작 인서트"
+        ],
+        [
+          "0.3–1.8",
+          "충전기 한 묶음 집어 인접 오른주머니 넣기"
+        ],
+        [
+          "1.8–2.5",
+          "오른손 빈 채 빼기"
+        ],
+        [
+          "2.5–8",
+          "소품 위치 안정"
+        ]
+      ],
+      "qa_acceptance": [
+        "흰 충전기/분홍 띠가 동일한 한 묶음으로 실제 주머니에 들어감",
+        "분홍폰이 책상에 남음",
+        "오른손·오른주머니 소유 고정, 케이블 갑자기 길어지지 않음"
+      ],
+      "risks": [
+        "보통: 원안 1.25초 사용시간이 실제 집기/수납 완료보다 짧을 수 있음. 숨겨진 주머니로 들어가는 순간 소품 소실처럼 보이지 않도록 검수."
+      ],
+      "first_frame": "storyboards/2026-10-25_C07-C10-rewrite-v13/images/C09/S01.png",
+      "first_frame_absolute": "//wsl.localhost/Ubuntu-24.04/home/wooseok/wsy/samsung_related/slide/AI실행결과발표대회_디자인3종/storyboards/2026-10-25_C07-C10-rewrite-v13/images/C09/S01.png",
+      "first_frame_sha256": "95f75b7e48b25ed8bef62d6ac2d4269483110b37349f228ffe65b1bd3fbdee45",
+      "first_frame_review": {
+        "actually_opened": true,
+        "method": "view_image actual individual PNG",
+        "status": "visually checked for motion planning; not a video QA pass"
+      },
+      "generation_spec": {
+        "duration_seconds": 8,
+        "aspect_ratio": "16:9",
+        "resolution": "720p",
+        "output_count": 1,
+        "input_mode": "first_frame_only",
+        "model": "Veo 3.1 Lite - parent observed actual UI; recheck before submission",
+        "submission_by_this_agent": false
+      },
+      "source_board_timing": {
+        "start": 0,
+        "end": 1.25,
+        "duration": 1.25
+      },
+      "postproduction": {
+        "dialogue": "없음",
+        "narration": "없음",
+        "caption_cues_source": [],
+        "composites": [],
+        "music_sfx_silence_source": "피아노 전주 한 음에서 곧바로 다음 멜로 와이드로. 충전기를 범죄 소품처럼 클로즈업 정지하지 않음.",
+        "editing": "완료 동작을 억지로 1.25초에 자르지 않음. 먼저 자연스런 1.5초 구간 확보, 부족하면 1.8~2.2초로 늘리고 뒤 멜로 정지를 줄여 총 60초 안에서 재산정.",
+        "retiming": "생성물의 실제 동작 완료 지점으로 트림을 정한 뒤 자막/BGM/SFX 큐를 함께 재산정. 원본 8초 전부를 자동 사용하지 않음. 화면+자막만으로 검수."
+      },
+      "source_frame_start": "책상 근접. M 오른손이 이미 분홍폰 옆의 분홍 띠 흰 충전기를 잡기 직전이고 열린 오른쪽 코트 주머니가 바로 옆에 보임. 다른 손은 화면 밖. W의 분홍폰은 책상에 둔 채.",
+      "source_frame_end": "흰 충전기가 오른쪽 주머니 속으로 완전히 들어감. 분홍폰은 W 책상에 그대로."
+    },
+    {
+      "queue_index": 12,
+      "concept_id": "C09",
+      "concept_title": "나 없이도 괜찮겠어요?",
+      "scene_id": "S02",
+      "id": "C09_K02",
+      "summary_ko": "남자만 과잉 이별 연기. 왼손으로 동료의 빈 왼손을 가슴 가까이 붙들었다가 그녀가 따뜻하게 회수한다.",
+      "prompt_en": "Create one continuous 8-second, 16:9 cinematic live-action image-to-video shot using the uploaded image as the exact first frame. Preserve the visible identities, clothing, prop sizes, lighting, screen axis and camera framing. Keep natural real-time human motion; no cuts, transitions, slow motion or time-lapse. Keep the fixed rainy bus-stop wide shot. On screen-right of the woman stands the older, stocky East Asian man with fluffy short white curls, round nose and soft double chin, wearing a bright orange raincoat over a navy shirt and brown shoes. His RIGHT hand holds the extended handle of one gray wheeled suitcase with a yellow ribbon; the suitcase stays upright. His LEFT hand starts extended toward the woman's empty LEFT hand. The petite East Asian woman on screen-left has short black hair, a teal rain jacket, black trousers and black backpack. Her RIGHT hand keeps the pink phone down by her side. Hold 0–0.7 seconds. From 0.7–3 seconds the man gently takes her empty LEFT hand with his LEFT hand and draws it near his chest, giving an absurdly heartfelt farewell look. Do not pull her body. From 3–5.5 seconds she smiles warmly, gently slips her left hand free, and glances toward the open bus door. From 5.5–8 seconds hold their separated hands, his right hand still on the suitcase. The cream bus stays stopped, door fully open, front toward screen-right. No mouth movements suggesting speech, tears, violent hand pull, swapped phones, luggage movement, touching the phone hand, or bus departure. No dialogue, narration, lip-synced speech, subtitles, written graphics, logos or generated music. Quiet nonverbal location sound is optional; all narrative captions, interface graphics, music and sound cues will be added in postproduction. End with a physically stable pose, with only natural breathing, blinking and environmental motion.",
+      "start_state": "M 오른손 가방, 왼손 W 빈 왼손 쪽. W 오른손 분홍폰. 버스 정차·문 열림.",
+      "end_state": "두 사람 왼손 분리되어 비움. M 오른손 가방/W 오른손 분홍폰 유지. W 버스 쪽 시선.",
+      "action_plan": [
+        [
+          "0–0.7",
+          "손 소유 확립"
+        ],
+        [
+          "0.7–3",
+          "M 왼손이 W 왼손 부드럽게 잡아 가슴 근처"
+        ],
+        [
+          "3–5.5",
+          "W 미소로 왼손 회수"
+        ],
+        [
+          "5.5–8",
+          "따뜻한 일상/혼자 과잉 이별 대비"
+        ]
+      ],
+      "qa_acceptance": [
+        "빈 왼손끼리만 접촉, W 오른손 분홍폰 유지",
+        "M 오른손 가방에서 떨어지지 않음",
+        "W가 비웃거나 차갑게 떠미는 연기 없음",
+        "버스 문 열린 정차 상태"
+      ],
+      "risks": [
+        "보통: 두 인물의 왼손끼리 접촉하는 특이한 자세가 악수로 바뀌어 손 소유가 뒤섞일 수 있음."
+      ],
+      "first_frame": "storyboards/2026-10-25_C07-C10-rewrite-v13/images/C09/S02.png",
+      "first_frame_absolute": "//wsl.localhost/Ubuntu-24.04/home/wooseok/wsy/samsung_related/slide/AI실행결과발표대회_디자인3종/storyboards/2026-10-25_C07-C10-rewrite-v13/images/C09/S02.png",
+      "first_frame_sha256": "f8b85f0e937425d1a6a31555d431311757f38a080679662b7e592029e94f4b35",
+      "first_frame_review": {
+        "actually_opened": true,
+        "method": "view_image actual individual PNG",
+        "status": "visually checked for motion planning; not a video QA pass"
+      },
+      "generation_spec": {
+        "duration_seconds": 8,
+        "aspect_ratio": "16:9",
+        "resolution": "720p",
+        "output_count": 1,
+        "input_mode": "first_frame_only",
+        "model": "Veo 3.1 Lite - parent observed actual UI; recheck before submission",
+        "submission_by_this_agent": false
+      },
+      "source_board_timing": {
+        "start": 1.25,
+        "end": 4.75,
+        "duration": 3.5
+      },
+      "postproduction": {
+        "dialogue": "없음",
+        "narration": "없음",
+        "caption_cues_source": [
+          {
+            "start": 1.6,
+            "end": 4.6,
+            "text": "저 없이 괜찮겠어요?",
+            "placement": "상단 비어 있는 정류장 벽"
+          }
+        ],
+        "composites": [],
+        "music_sfx_silence_source": "멜로현악과비소리. 대사0.",
+        "editing": "무음에서도 과장된 남자 표정과 따뜻한 여자 표정 차이가 읽히는 3.5초 내외. 손 회수 완료는 생략하지 않음.",
+        "retiming": "생성물의 실제 동작 완료 지점으로 트림을 정한 뒤 자막/BGM/SFX 큐를 함께 재산정. 원본 8초 전부를 자동 사용하지 않음. 화면+자막만으로 검수."
+      },
+      "source_frame_start": "버스정류장 지붕 아래. M은 오른손으로 회색 가방을 세워 쥐고 왼손으로 W의 빈 왼손을 애틋하게 붙들기 직전. W 오른손에는 분홍폰. 버스는 오른쪽에 정차.",
+      "source_frame_end": "M의 왼손은 비고 오른손은 가방. W는 자기 왼손을 회수했으며 오른손 분홍폰을 보여줄 수 있음."
+    },
+    {
+      "queue_index": 13,
+      "concept_id": "C09",
+      "concept_title": "나 없이도 괜찮겠어요?",
+      "scene_id": "S03",
+      "id": "C09_K03",
+      "summary_ko": "동료가 자기 분홍폰을 보여주고 남자는 스스로 해낸 것을 확인한 동료를 보며 서운함을 삼킨다.",
+      "prompt_en": "Create one continuous 8-second, 16:9 cinematic live-action image-to-video shot using the uploaded image as the exact first frame. Preserve the visible identities, clothing, prop sizes, lighting, screen axis and camera framing. Keep natural real-time human motion; no cuts, transitions, slow motion or time-lapse. Use the fixed bus-stop two-shot from the first frame. The petite East Asian woman on the LEFT has short black hair, teal waterproof jacket and black backpack. Her RIGHT hand already holds her pink-cased phone at chest height; her LEFT hand hangs empty. The older stocky East Asian man with white curls and orange raincoat stands to the right, holding his gray yellow-ribbon suitcase with his RIGHT hand, LEFT hand empty. Hold 0–1 seconds. From 1–3 seconds she gently rotates the pink phone in her RIGHT hand toward him, revealing a stable dark screen plane. Keep the screen blank and geometrically flat for a single check graphic to be composited later; no generated interface words, numbers or incoming call. From 3–4.5 seconds she gives a modest reassuring smile while he looks at the screen and swallows a small disappointed expression. His pride remains affectionate, not angry. From 4.5–6 seconds she glances toward the open bus door while keeping the pink phone in her right hand. Hold 6–8 seconds. The cream bus remains motionless with its door open and front pointing screen-right. No extra phone, left-hand phone transfer, suitcase movement, exaggerated crying, lip-sync or camera motion. No dialogue, narration, lip-synced speech, subtitles, written graphics, logos or generated music. Quiet nonverbal location sound is optional; all narrative captions, interface graphics, music and sound cues will be added in postproduction. End with a physically stable pose, with only natural breathing, blinking and environmental motion.",
+      "start_state": "W 오른손 분홍폰 가슴높이, M 오른손 가방/왼손 비움. 같은 정류장.",
+      "end_state": "W 오른손 폰 화면 M쪽 안정, M 확인 후 작은 서운함. W 버스 쪽 시선, 버스 정차.",
+      "action_plan": [
+        [
+          "0–1",
+          "기존 폰 소유"
+        ],
+        [
+          "1–3",
+          "오른손 폰을 M쪽 조금 회전"
+        ],
+        [
+          "3–4.5",
+          "확인과 작게 서운한 표정"
+        ],
+        [
+          "4.5–6",
+          "W 버스 시선"
+        ],
+        [
+          "6–8",
+          "폰 평면 안정"
+        ]
+      ],
+      "qa_acceptance": [
+        "W 자신의 분홍폰임이 유지되고 화면 합성이 가능",
+        "M은 체크를 본 뒤 반응",
+        "한 화면 한 확인이라는 단순 정보 전달"
+      ],
+      "risks": [
+        "보통: 폰 화면이 남자 쪽으로 너무 돌아 관객에게 안 보일 수 있음. 후합성은 보이는 면에만 하고 자막이 핵심 정보를 보완."
+      ],
+      "first_frame": "storyboards/2026-10-25_C07-C10-rewrite-v13/images/C09/S03.png",
+      "first_frame_absolute": "//wsl.localhost/Ubuntu-24.04/home/wooseok/wsy/samsung_related/slide/AI실행결과발표대회_디자인3종/storyboards/2026-10-25_C07-C10-rewrite-v13/images/C09/S03.png",
+      "first_frame_sha256": "15eddc6da256cba35a2de35f2ab486d8730a6d8496cfa6d6291a82a76132c87b",
+      "first_frame_review": {
+        "actually_opened": true,
+        "method": "view_image actual individual PNG",
+        "status": "visually checked for motion planning; not a video QA pass"
+      },
+      "generation_spec": {
+        "duration_seconds": 8,
+        "aspect_ratio": "16:9",
+        "resolution": "720p",
+        "output_count": 1,
+        "input_mode": "first_frame_only",
+        "model": "Veo 3.1 Lite - parent observed actual UI; recheck before submission",
+        "submission_by_this_agent": false
+      },
+      "source_board_timing": {
+        "start": 4.75,
+        "end": 9.5,
+        "duration": 4.75
+      },
+      "postproduction": {
+        "dialogue": "없음",
+        "narration": "없음",
+        "caption_cues_source": [
+          {
+            "start": 4.9,
+            "end": 9.5,
+            "text": "공유해주신 AI 방법,\n제가 해보고 확인했어요.",
+            "placement": "상단 빈 정류장 벽, 폰 화면과 얼굴 회피"
+          }
+        ],
+        "composites": [
+          "분홍폰: 공유 AI 방법 / 내 업무 적용, 큰 확인 체크 한 개. 별도 방법 단계·수치·추가 대사 자막 없음.",
+          "분홍폰 화면 후합성: '공유 AI 방법 / 내 업무 적용'과 큰 확인 체크 1개. 후면에 화면을 붙이지 말고 실제 보이는 면에만."
+        ],
+        "music_sfx_silence_source": "멜로음악은과하게진심을유지. 전화효과음아직없음.",
+        "editing": "원안 4.75초의 두 줄 자막 가독 시간 유지. 폰의 작은 글자만으로 AI 공유 정보를 전달하지 않음.",
+        "retiming": "생성물의 실제 동작 완료 지점으로 트림을 정한 뒤 자막/BGM/SFX 큐를 함께 재산정. 원본 8초 전부를 자동 사용하지 않음. 화면+자막만으로 검수."
+      },
+      "source_frame_start": "W가 오른손의 분홍폰을 M 쪽으로 돌리기 직전. 폰에는 공유받은 AI 활용 방법을 자기 업무에 적용한 단일 완료 체크 화면. M은 오른손 가방, 왼손은 빈 상태.",
+      "source_frame_end": "M이 체크를 보고 서운함을 삼킴. W는 폰을 오른손에 그대로 들고 버스 문을 바라봄."
+    },
+    {
+      "queue_index": 14,
+      "concept_id": "C09",
+      "concept_title": "나 없이도 괜찮겠어요?",
+      "scene_id": "S04",
+      "id": "C09_K04",
+      "summary_ko": "정차 버스의 낮은 한 단을 실제로 타고, 회색 가방도 함께 안으로 들어간다. 동료는 밖에서 잠깐 돕는다.",
+      "prompt_en": "Create one continuous 8-second, 16:9 cinematic live-action image-to-video shot using the uploaded image as the exact first frame. Preserve the visible identities, clothing, prop sizes, lighting, screen axis and camera framing. Keep natural real-time human motion; no cuts, transitions, slow motion or time-lapse. Preserve this fixed side-wide view of the stationary cream low-floor bus with its fully open door at screen-right. The older stocky East Asian man with white curls, orange raincoat, navy shirt and brown shoes stands outside the doorway, RIGHT hand on his gray suitcase handle; his LEFT hand is empty. The petite short-haired woman in teal jacket stays outside to his left, pink phone in her RIGHT hand and LEFT hand free to help. Hold 0–0.7 seconds. From 0.7–5.5 seconds the man boards in one continuous, unhurried movement: he brings the suitcase to the low threshold, lifts it just enough by the handle in his RIGHT hand, steps up the ONE low step, and pulls the suitcase all the way onto the bus floor. The woman briefly supports the suitcase body from below with her LEFT hand only while its wheels cross the threshold, then releases it and stays outside. Keep both feet and all suitcase wheels visible crossing the same threshold in a physically readable order; the suitcase never floats on its own. From 5.5–6.5 seconds he stands wholly inside with the suitcase beside him, right hand on its handle; she gives a small left-hand farewell. Hold 6.5–8 seconds. Bus wheels do not move and door stays fully open. No luggage left outside, woman boarding, hand switching, intersecting doorframe or disappearing step. No dialogue, narration, lip-synced speech, subtitles, written graphics, logos or generated music. Quiet nonverbal location sound is optional; all narrative captions, interface graphics, music and sound cues will be added in postproduction. End with a physically stable pose, with only natural breathing, blinking and environmental motion.",
+      "start_state": "M과 가방 모두 문 밖, 오른손 가방. W 오른손 폰/왼손 도움 직전. 버스 정차.",
+      "end_state": "M 양발과 가방 모든 바퀴 문 안. 오른손 손잡이, 왼손 비움. W 밖 왼손 인사.",
+      "action_plan": [
+        [
+          "0–0.7",
+          "문 열린 정차·발/바퀴 보임"
+        ],
+        [
+          "0.7–5.5",
+          "가방 턱 넘기며 한 단 승차, W 왼손 순간 보조"
+        ],
+        [
+          "5.5–6.5",
+          "승차 완성·W 손 놓기"
+        ],
+        [
+          "6.5–8",
+          "정차한 버스 안 끝상태"
+        ]
+      ],
+      "qa_acceptance": [
+        "남자와 가방 모두 실제로 문턱을 통과",
+        "W는 밖에 남고 오른손 폰 유지",
+        "가방 바퀴/발 접점과 물체 지지 순서 정상",
+        "버스 출발/문 닫힘 없음"
+      ],
+      "risks": [
+        "높음: 두 인물·가방·문턱 접촉이 동시에 있어 손/가방 관통 가능. 원안 3초에 전체 동작을 담기 어려울 수 있음."
+      ],
+      "fallback_split": "성공 구간이 부족할 때만 문턱 발/바퀴 인서트 분할 검토. 승차 완성을 별도 생성 없이 정지 이미지로 대체하지 않음.",
+      "first_frame": "storyboards/2026-10-25_C07-C10-rewrite-v13/images/C09/S04.png",
+      "first_frame_absolute": "//wsl.localhost/Ubuntu-24.04/home/wooseok/wsy/samsung_related/slide/AI실행결과발표대회_디자인3종/storyboards/2026-10-25_C07-C10-rewrite-v13/images/C09/S04.png",
+      "first_frame_sha256": "afb7f78ee135b3ca0a1af0887316eebcb146358b55b4856ab86daa72c6a85a48",
+      "first_frame_review": {
+        "actually_opened": true,
+        "method": "view_image actual individual PNG",
+        "status": "visually checked for motion planning; not a video QA pass"
+      },
+      "generation_spec": {
+        "duration_seconds": 8,
+        "aspect_ratio": "16:9",
+        "resolution": "720p",
+        "output_count": 1,
+        "input_mode": "first_frame_only",
+        "model": "Veo 3.1 Lite - parent observed actual UI; recheck before submission",
+        "submission_by_this_agent": false
+      },
+      "source_board_timing": {
+        "start": 9.5,
+        "end": 12.5,
+        "duration": 3
+      },
+      "postproduction": {
+        "dialogue": "없음",
+        "narration": "없음",
+        "caption_cues_source": [
+          {
+            "start": 9.7,
+            "end": 12.5,
+            "text": "편히 쉬고 오세요.",
+            "placement": "상단 차체의 빈 공간"
+          }
+        ],
+        "composites": [],
+        "music_sfx_silence_source": "이별멜로최고조지만위험한비극효과없음.",
+        "editing": "실제 승차 완료를 보존하는 약 3~4.5초 선택. 부족하면 길이 확보하고 전체 재산정, 동작을 끊어 가방을 순간이동시키지 않음.",
+        "retiming": "생성물의 실제 동작 완료 지점으로 트림을 정한 뒤 자막/BGM/SFX 큐를 함께 재산정. 원본 8초 전부를 자동 사용하지 않음. 화면+자막만으로 검수."
+      },
+      "source_frame_start": "버스는 완전 정차, 문 열림. M은 오른손으로 가방을 잡고 낮은 승강대 앞. W는 문 바깥 왼쪽에 서서 분홍폰을 오른손에 들고 왼손으로 가방을 잠깐 받쳐 주기 직전.",
+      "source_frame_end": "M과 회색 가방 모두 버스 안. 오른손 가방, 왼손은 왼주머니 검정폰을 꺼낼 수 있는 상태. W는 바깥에서 왼손 인사."
+    },
+    {
+      "queue_index": 15,
+      "concept_id": "C09",
+      "concept_title": "나 없이도 괜찮겠어요?",
+      "scene_id": "S05",
+      "id": "C09_K05",
+      "summary_ko": "버스 안 남자가 왼손 검정폰을 보고 '역시'라는 표정으로 왼쪽 귀에 올린다.",
+      "prompt_en": "Create one continuous 8-second, 16:9 cinematic live-action image-to-video shot using the uploaded image as the exact first frame. Preserve the visible identities, clothing, prop sizes, lighting, screen axis and camera framing. Keep natural real-time human motion; no cuts, transitions, slow motion or time-lapse. Preserve the fixed interior-bus medium shot of the older stocky East Asian man with fluffy short white curls and orange raincoat over a navy shirt. He stands entirely INSIDE the stationary bus near the open doorway. His RIGHT hand holds the extended handle of the same gray suitcase with the yellow ribbon. His LEFT hand already holds the black smartphone at chest height, with the BACK of the phone facing the camera. Hold 0–0.7 seconds. From 0.7–2 seconds his eyes notice an incoming call and his face brightens into an expectant, self-satisfied smile. From 2–3.5 seconds he raises that same black phone in his LEFT hand to his LEFT ear. From 3.5–5 seconds he turns his eyes slightly toward the open door, as if preparing to go back to his colleague, but stays wholly inside. From 5–8 seconds hold phone at left ear and right hand on suitcase. His lips stay relaxed and closed: this is a silent visual reaction, not a spoken line. Keep the phone's back physically plain; do not put a call screen or floating graphic on it. No second phone, black-to-pink color change, hand swap, exiting, door closing or moving bus. No dialogue, narration, lip-synced speech, subtitles, written graphics, logos or generated music. Quiet nonverbal location sound is optional; all narrative captions, interface graphics, music and sound cues will be added in postproduction. End with a physically stable pose, with only natural breathing, blinking and environmental motion.",
+      "start_state": "M 버스 안, 왼손 검정폰 가슴높이·뒷면 카메라, 오른손 가방.",
+      "end_state": "M 왼손 검정폰 왼귀, 오른손 가방 그대로, 여전히 버스 안.",
+      "action_plan": [
+        [
+          "0–0.7",
+          "검정폰 뒷면/버스 안"
+        ],
+        [
+          "0.7–2",
+          "기대하는 얼굴"
+        ],
+        [
+          "2–3.5",
+          "왼손 왼귀로 폰 올리기"
+        ],
+        [
+          "3.5–5",
+          "열린 문 쪽 시선"
+        ],
+        [
+          "5–8",
+          "통화 듣는 자세"
+        ]
+      ],
+      "qa_acceptance": [
+        "폰 왼손/왼귀, 가방 오른손",
+        "자막 없이도 전화 기대 표정이 보임",
+        "뒷면에 가짜 화면 없음",
+        "승하차는 다음 컷까지 시작하지 않음"
+      ],
+      "risks": [
+        "낮음~보통: 폰이 얼굴을 관통하거나 반대 귀로 가는 오류. 실제 전화음 없이 후합성 배지로 수신을 설명해야 함."
+      ],
+      "first_frame": "storyboards/2026-10-25_C07-C10-rewrite-v13/images/C09/S05.png",
+      "first_frame_absolute": "//wsl.localhost/Ubuntu-24.04/home/wooseok/wsy/samsung_related/slide/AI실행결과발표대회_디자인3종/storyboards/2026-10-25_C07-C10-rewrite-v13/images/C09/S05.png",
+      "first_frame_sha256": "42a96b64e7b97fd79945dbaa1742719c45e78f805a3484db6241810dd67fa373",
+      "first_frame_review": {
+        "actually_opened": true,
+        "method": "view_image actual individual PNG",
+        "status": "visually checked for motion planning; not a video QA pass"
+      },
+      "generation_spec": {
+        "duration_seconds": 8,
+        "aspect_ratio": "16:9",
+        "resolution": "720p",
+        "output_count": 1,
+        "input_mode": "first_frame_only",
+        "model": "Veo 3.1 Lite - parent observed actual UI; recheck before submission",
+        "submission_by_this_agent": false
+      },
+      "source_board_timing": {
+        "start": 12.5,
+        "end": 15,
+        "duration": 2.5
+      },
+      "postproduction": {
+        "dialogue": "없음",
+        "narration": "없음",
+        "caption_cues_source": [
+          {
+            "start": 13.15,
+            "end": 14.95,
+            "text": "역시.",
+            "placement": "상단 빈 좌석 영역"
+          }
+        ],
+        "composites": [
+          "검정폰은 뒷면이 카메라를 향한다. 전화 화면을 뒷면에 붙이지 않는다. 휴대폰 옆 빈 공간에 편집용 수신 배지 [전화 아이콘 · 동료]를 12.5~14.95초 후합성. 실제번호없음.",
+          "기존 12.5–14.95초 수신 배지 후합성, 13.15–14.95초 '역시.' 자막. 타임라인 변경 시 큐도 함께 재산정."
+        ],
+        "music_sfx_silence_source": "선택벨소리한번. 멜로음악이희망적으로상승. 무음에서도폰발신자와표정으로전달.",
+        "editing": "폰 옆 편집 배지 '[전화 아이콘 · 동료]'와 '역시.' 자막을 사용. 원본 폰 뒷면에 UI를 붙이지 않음.",
+        "retiming": "생성물의 실제 동작 완료 지점으로 트림을 정한 뒤 자막/BGM/SFX 큐를 함께 재산정. 원본 8초 전부를 자동 사용하지 않음. 화면+자막만으로 검수."
+      },
+      "source_frame_start": "M은 버스 안 문 가까이에 서 있으며 오른손 가방. 왼손에 방금 꺼낸 검정폰이 들려 있고 수신 반응이 시작되기 직전(휴대폰 옆 편집 배지로 표시). 문은 계속 열림.",
+      "source_frame_end": "검정폰은 M 왼손/왼귀. 오른손 가방을 잡고 열린 문을 향함. 아직 버스 안."
+    },
+    {
+      "queue_index": 16,
+      "concept_id": "C09",
+      "concept_title": "나 없이도 괜찮겠어요?",
+      "scene_id": "S06",
+      "id": "C09_K06",
+      "summary_ko": "정차 버스에서 남자와 가방이 실제로 내려오고, 가방을 세워 오른손을 비운 뒤 전화는 왼주머니 입구까지 내린다.",
+      "prompt_en": "Create one continuous 8-second, 16:9 cinematic live-action image-to-video shot using the uploaded image as the exact first frame. Preserve the visible identities, clothing, prop sizes, lighting, screen axis and camera framing. Keep natural real-time human motion; no cuts, transitions, slow motion or time-lapse. Keep the fixed exterior wide view of the same stationary cream bus, fully open door at screen-right. The older white-curled East Asian man in the orange raincoat starts fully INSIDE at the doorway, black phone in his LEFT hand at his LEFT ear, RIGHT hand holding the gray yellow-ribbon suitcase. The short-haired woman in teal jacket stands outside on screen-left with her pink phone in her RIGHT hand at her RIGHT ear. Hold 0–0.5 seconds. From 0.5–4.8 seconds the man lowers the suitcase by its handle in his RIGHT hand over the ONE low step until its wheels contact the wet pavement, then steps down with both feet and comes to rest beside it outside. The suitcase remains under his control and never slides away. The woman stays clear of his path. From 4.8–5.5 seconds he sets the suitcase upright on all wheels at his right side and only then releases its handle with his RIGHT hand. From 5.5–6.5 seconds he lowers the black phone with his LEFT hand from his ear to the mouth of his LEFT coat pocket, stopping with the phone still partly visible; the woman lowers her pink phone to chest height in her RIGHT hand. Hold 6.5–8 seconds. No bus movement, door closing, reverse-motion boarding, suitcase left inside, premature charger reveal, hand swaps or cut. No dialogue, narration, lip-synced speech, subtitles, written graphics, logos or generated music. Quiet nonverbal location sound is optional; all narrative captions, interface graphics, music and sound cues will be added in postproduction. End with a physically stable pose, with only natural breathing, blinking and environmental motion.",
+      "start_state": "M 문 안 왼폰 왼귀/오른손 가방. W 밖 오른폰 오른귀.",
+      "end_state": "M과 가방 모두 밖, 가방 오른쪽 자립 후 오른손 비움. 왼폰 왼주머니 입구에 일부 보임. W 오른폰 가슴높이.",
+      "action_plan": [
+        [
+          "0–0.5",
+          "문턱/통화 상태"
+        ],
+        [
+          "0.5–4.8",
+          "가방 바퀴 먼저 바닥 접촉→M 한 단 내려 양발 바깥"
+        ],
+        [
+          "4.8–5.5",
+          "가방 자립 뒤 오른손 놓기"
+        ],
+        [
+          "5.5–6.5",
+          "양자 폰 내리기, M 왼주머니 입구에서 멈춤"
+        ],
+        [
+          "6.5–8",
+          "S07_v2 연결 상태"
+        ]
+      ],
+      "qa_acceptance": [
+        "남자와 가방이 실제 하차 완료",
+        "자립 전 손잡이 놓지 않음",
+        "검정폰 왼주머니 입구에 여전히 보여 S07_v2와 연결",
+        "버스 계속 정차·열린 문"
+      ],
+      "risks": [
+        "높음: 하차·자립·폰 내리기의 순서가 8초 안에 필요. 한 단계 생략 시 K07 손 비움/폰 위치 인과가 깨짐."
+      ],
+      "fallback_split": "하차가 정상이나 폰/손 정리가 실패한 경우 손잡이 놓기·폰 내리기 짧은 연결 인서트가 유효. 무의미한 전 컷 재생성보다 문제 구간만 분할.",
+      "first_frame": "storyboards/2026-10-25_C07-C10-rewrite-v13/images/C09/S06.png",
+      "first_frame_absolute": "//wsl.localhost/Ubuntu-24.04/home/wooseok/wsy/samsung_related/slide/AI실행결과발표대회_디자인3종/storyboards/2026-10-25_C07-C10-rewrite-v13/images/C09/S06.png",
+      "first_frame_sha256": "e60bc41ab249988214310d620dedcff0f9241119344059c2f7283c258c7ef5eb",
+      "first_frame_review": {
+        "actually_opened": true,
+        "method": "view_image actual individual PNG",
+        "status": "visually checked for motion planning; not a video QA pass"
+      },
+      "generation_spec": {
+        "duration_seconds": 8,
+        "aspect_ratio": "16:9",
+        "resolution": "720p",
+        "output_count": 1,
+        "input_mode": "first_frame_only",
+        "model": "Veo 3.1 Lite - parent observed actual UI; recheck before submission",
+        "submission_by_this_agent": false
+      },
+      "source_board_timing": {
+        "start": 15,
+        "end": 18,
+        "duration": 3
+      },
+      "postproduction": {
+        "dialogue": "없음",
+        "narration": "없음",
+        "caption_cues_source": [],
+        "composites": [],
+        "music_sfx_silence_source": "희망적멜로계속. 바퀴내려오는툭한번. 무전/명령음없음.",
+        "editing": "원안 3초보다 완성 동작이 길면 4~5초로 확보. 프레임 역재생으로 승차를 하차로 대체하지 않음.",
+        "retiming": "생성물의 실제 동작 완료 지점으로 트림을 정한 뒤 자막/BGM/SFX 큐를 함께 재산정. 원본 8초 전부를 자동 사용하지 않음. 화면+자막만으로 검수."
+      },
+      "source_frame_start": "M이 열린 버스문 안쪽, 왼손 검정폰은 왼쪽 귀, 오른손은 회색 가방. W는 정류장 왼쪽에서 오른손 분홍폰을 귀에 댄 채.",
+      "source_frame_end": "M과 가방이 정류장에 완전히 내림. 가방은 똑바로 자립하고 M 오른손은 손잡이를 놓음. 왼손 검정폰은 귀에서 내려 왼주머니 입구에 닿아 있음. W는 분홍폰을 내려 보여주려는 상태."
+    },
+    {
+      "queue_index": 17,
+      "concept_id": "C09",
+      "concept_title": "나 없이도 괜찮겠어요?",
+      "scene_id": "S07",
+      "id": "C09_K07",
+      "summary_ko": "검정폰 왼주머니 수납을 끝낸 뒤 스스로 오른주머니에서 분홍 띠 충전기를 찾는다. 동료는 자기 폰 충전구만 보여준다.",
+      "prompt_en": "Create one continuous 8-second, 16:9 cinematic live-action image-to-video shot using the uploaded image as the exact first frame. Preserve the visible identities, clothing, prop sizes, lighting, screen axis and camera framing. Keep natural real-time human motion; no cuts, transitions, slow motion or time-lapse. Use the exact selected first frame with the black phone still visible at the LEFT pocket of the older white-curled East Asian man in the orange raincoat. His LEFT hand holds that black phone, his RIGHT hand is empty, and his gray suitcase with yellow ribbon stands independently on its wheels at his right. The short-haired woman in teal jacket on the LEFT holds her pink phone in her RIGHT hand with its charging-port edge presented toward him; her LEFT hand is empty and relaxed. Hold 0–0.3 seconds. From 0.3–1 seconds he finishes sliding the BLACK phone fully into his LEFT coat pocket with his LEFT hand, then withdraws that hand empty. From 1–2 seconds he looks at her pink phone, remembers something, and gives a small embarrassed pause. She does not point at either pocket. From 2–4.5 seconds only his RIGHT hand feels into his RIGHT coat pocket and withdraws ONE white charger with its short coiled cable secured by a pink band. Keep charger and cable together as one bundle. From 4.5–6.5 seconds he holds that bundle visibly in his right hand and looks from it back to her. From 6.5–8 seconds hold; no transfer yet. The suitcase stays self-standing, bus stopped and door open. No phone changing into charger, wrong pocket, duplicate object, woman clairvoyantly indicating his pocket, or extra hand. No dialogue, narration, lip-synced speech, subtitles, written graphics, logos or generated music. Quiet nonverbal location sound is optional; all narrative captions, interface graphics, music and sound cues will be added in postproduction. End with a physically stable pose, with only natural breathing, blinking and environmental motion.",
+      "start_state": "S07_v2 검정폰 왼손/왼주머니 입구, 오른손 비움. W 오른손 분홍폰 충전구 제시, 왼손 비움. 가방 자립.",
+      "end_state": "검정폰 왼주머니 완전 수납, 충전기 한 묶음 M 오른손, W 왼손 아직 비움.",
+      "action_plan": [
+        [
+          "0–0.3",
+          "S07_v2 정확 시작"
+        ],
+        [
+          "0.3–1",
+          "왼손 검정폰 왼주머니 수납 완료"
+        ],
+        [
+          "1–2",
+          "W 폰 보고 스스로 기억"
+        ],
+        [
+          "2–4.5",
+          "오른손 오른주머니 충전기 찾기/인출"
+        ],
+        [
+          "4.5–6.5",
+          "자신이 챙긴 물건 확인"
+        ],
+        [
+          "6.5–8",
+          "반환 직전 안정"
+        ]
+      ],
+      "qa_acceptance": [
+        "폰 먼저 왼주머니로 들어가고 충전기는 이후 오른주머니에서 나옴",
+        "검정폰과 충전기 변환/복제 없음",
+        "W가 주머니를 지목하지 않음",
+        "M 오른손 충전기, W 왼손 비움으로 끝남"
+      ],
+      "risks": [
+        "높음: 좌우 주머니와 소품이 섞이기 쉬운 순차 동작. 첫 S07_v2 선택 및 접수 전 프레임 확인 중요."
+      ],
+      "fallback_split": "수납과 인출이 계속 혼동되는 경우 왼폰 수납 인서트/오른 충전기 인출 2컷 분할 검토. 기준20컷 안에서 먼저 한 번 정상 동작 확보.",
+      "first_frame": "storyboards/2026-10-25_C07-C10-rewrite-v13/images/C09/S07_v2.png",
+      "first_frame_absolute": "//wsl.localhost/Ubuntu-24.04/home/wooseok/wsy/samsung_related/slide/AI실행결과발표대회_디자인3종/storyboards/2026-10-25_C07-C10-rewrite-v13/images/C09/S07_v2.png",
+      "first_frame_sha256": "e87c77df3962c1521da1758435b719b453a2afb93931063c99e0382b7698b8b4",
+      "first_frame_review": {
+        "actually_opened": true,
+        "method": "view_image actual individual PNG",
+        "status": "visually checked for motion planning; not a video QA pass"
+      },
+      "generation_spec": {
+        "duration_seconds": 8,
+        "aspect_ratio": "16:9",
+        "resolution": "720p",
+        "output_count": 1,
+        "input_mode": "first_frame_only",
+        "model": "Veo 3.1 Lite - parent observed actual UI; recheck before submission",
+        "submission_by_this_agent": false
+      },
+      "source_board_timing": {
+        "start": 18,
+        "end": 21.5,
+        "duration": 3.5
+      },
+      "postproduction": {
+        "dialogue": "없음",
+        "narration": "없음",
+        "caption_cues_source": [
+          {
+            "start": 18.15,
+            "end": 21.5,
+            "text": "혹시 제 충전기…",
+            "placement": "하단, 주머니와 손을 피한 좌측 빈 여백"
+          }
+        ],
+        "composites": [],
+        "music_sfx_silence_source": "M이충전기를보는순간멜로정지0.8초. 빗소리만남음.",
+        "editing": "충전기 발견 시점에만 음악 0.8초 끊기. 자막 '혹시 제 충전기…'는 발견 전에 노출하지만 흰 충전기 인출을 가리지 않음.",
+        "retiming": "생성물의 실제 동작 완료 지점으로 트림을 정한 뒤 자막/BGM/SFX 큐를 함께 재산정. 원본 8초 전부를 자동 사용하지 않음. 화면+자막만으로 검수."
+      },
+      "source_frame_start": "W는 자기 분홍폰의 충전단자 쪽을 오른손으로 보여주며 왼손은 빈 상태. M 왼손 검정폰은 왼주머니 입구에 걸쳐 있고 오른손은 빈 채, 오른쪽 바닥에 회색 가방이 자립.",
+      "source_frame_end": "M 검정폰은 왼주머니, 오른손에 흰 충전기. W는 자기 폰만 들고 있으며 받을 왼손은 아직 비어 있음. 가방은 바닥 자립."
+    },
+    {
+      "queue_index": 18,
+      "concept_id": "C09",
+      "concept_title": "나 없이도 괜찮겠어요?",
+      "scene_id": "S08",
+      "id": "C09_K08",
+      "summary_ko": "남자 오른손 충전기를 동료의 빈 왼손에 놓고 확실히 손을 떼어 소유 이전을 완료한다.",
+      "prompt_en": "Create one continuous 8-second, 16:9 cinematic live-action image-to-video shot using the uploaded image as the exact first frame. Preserve the visible identities, clothing, prop sizes, lighting, screen axis and camera framing. Keep natural real-time human motion; no cuts, transitions, slow motion or time-lapse. Keep the fixed medium two-shot from the first frame. The older stocky East Asian man with white curls, orange raincoat and navy shirt stands on the RIGHT. His RIGHT hand offers ONE white charger and its short white cable bundled with a pink band. His LEFT hand is empty, his black phone stays concealed in his LEFT coat pocket. The petite East Asian woman with short black hair and teal rain jacket stands on the LEFT; her open LEFT palm waits under the bundle, while her RIGHT hand holds the pink phone down by her right thigh. The gray suitcase with yellow ribbon stands on its own between and beside them. Hold 0–1 seconds. From 1–3.5 seconds he lowers the single charger bundle into her LEFT palm. She closes her left fingers around it before he lets go. From 3.5–4.5 seconds his RIGHT fingers release completely and withdraw a clear distance. From 4.5–6.5 seconds she gives him a small warm nod and lowers the charger slightly, still in her LEFT hand. From 6.5–8 seconds hold with her alone owning the charger, pink phone still in her RIGHT hand, and both his hands visibly empty. Bus stays stopped, door open. No split cable, second charger, merged fingers, hand swap, plugging into phone, or departure. No dialogue, narration, lip-synced speech, subtitles, written graphics, logos or generated music. Quiet nonverbal location sound is optional; all narrative captions, interface graphics, music and sound cues will be added in postproduction. End with a physically stable pose, with only natural breathing, blinking and environmental motion.",
+      "start_state": "M 오른손 충전기, W 왼손 빈 손바닥/오른손 분홍폰. 검정폰 왼주머니. 가방 자립.",
+      "end_state": "W 왼손 충전기 단독 소유·오른손 폰, M 양손 비움. 손 간격 보임.",
+      "action_plan": [
+        [
+          "0–1",
+          "전달 직전"
+        ],
+        [
+          "1–3.5",
+          "W 왼손에 놓고 수신자 그립"
+        ],
+        [
+          "3.5–4.5",
+          "M 오른손 완전히 놓고 분리"
+        ],
+        [
+          "4.5–6.5",
+          "W 따뜻한 작은 끄덕임"
+        ],
+        [
+          "6.5–8",
+          "반환 완료"
+        ]
+      ],
+      "qa_acceptance": [
+        "한 충전기의 오른손 M→왼손 W 소유 이전이 연속으로 보임",
+        "손이 떨어진 완료 상태 확보",
+        "W 오른손 폰 유지, 충전기 연결하지 않음"
+      ],
+      "risks": [
+        "보통: 작은 충전기·케이블과 손 접촉 구간에서 물체가 늘어나거나 소유가 불분명해질 수 있음."
+      ],
+      "first_frame": "storyboards/2026-10-25_C07-C10-rewrite-v13/images/C09/S08.png",
+      "first_frame_absolute": "//wsl.localhost/Ubuntu-24.04/home/wooseok/wsy/samsung_related/slide/AI실행결과발표대회_디자인3종/storyboards/2026-10-25_C07-C10-rewrite-v13/images/C09/S08.png",
+      "first_frame_sha256": "b78a5adac2d49c65ac045715ec993d63c8ba0306360abc9fd5f45b9cfa8f2d4a",
+      "first_frame_review": {
+        "actually_opened": true,
+        "method": "view_image actual individual PNG",
+        "status": "visually checked for motion planning; not a video QA pass"
+      },
+      "generation_spec": {
+        "duration_seconds": 8,
+        "aspect_ratio": "16:9",
+        "resolution": "720p",
+        "output_count": 1,
+        "input_mode": "first_frame_only",
+        "model": "Veo 3.1 Lite - parent observed actual UI; recheck before submission",
+        "submission_by_this_agent": false
+      },
+      "source_board_timing": {
+        "start": 21.5,
+        "end": 24.5,
+        "duration": 3
+      },
+      "postproduction": {
+        "dialogue": "없음",
+        "narration": "없음",
+        "caption_cues_source": [
+          {
+            "start": 21.8,
+            "end": 24.5,
+            "text": "고마워요. 푹 쉬세요.",
+            "placement": "상단 빈 배경"
+          }
+        ],
+        "composites": [],
+        "music_sfx_silence_source": "충전기작은플라스틱음. 따뜻한음악한음만복귀.",
+        "editing": "반환 완료 뒤까지 약 3초 선택. 손이 아직 겹친 상태에서 버스 출발로 넘어가지 않음.",
+        "retiming": "생성물의 실제 동작 완료 지점으로 트림을 정한 뒤 자막/BGM/SFX 큐를 함께 재산정. 원본 8초 전부를 자동 사용하지 않음. 화면+자막만으로 검수."
+      },
+      "source_frame_start": "M 오른손의 분홍 띠 흰 충전기가 W의 빈 왼손 앞. W 오른손 분홍폰, M 검정폰은 왼주머니. 회색 가방은 자립하고 버스 문은 열림.",
+      "source_frame_end": "W 왼손 충전기·오른손 분홍폰. M 두 손은 비고 가방은 옆 바닥. 반환 완료."
+    },
+    {
+      "queue_index": 19,
+      "concept_id": "C09",
+      "concept_title": "나 없이도 괜찮겠어요?",
+      "scene_id": "S09",
+      "id": "C09_K09",
+      "summary_ko": "충전기 반환이 끝난 뒤 버스 문이 닫히고 오른쪽으로 출발한다. 남자는 늦게 고개만 돌린다.",
+      "prompt_en": "Create one continuous 8-second, 16:9 cinematic live-action image-to-video shot using the uploaded image as the exact first frame. Preserve the visible identities, clothing, prop sizes, lighting, screen axis and camera framing. Keep natural real-time human motion; no cuts, transitions, slow motion or time-lapse. Lock the rainy bus-stop wide composition. On the LEFT the short-haired East Asian woman in a teal rain jacket holds the white pink-banded charger in her LEFT hand and the pink phone in her RIGHT hand. Beside her the older white-curled East Asian man in an orange raincoat rests his RIGHT hand on the upright gray suitcase handle, yellow ribbon unchanged; his black phone remains hidden in his LEFT pocket. Both stand still under the shelter, safely clear of the cream bus on the RIGHT. The bus begins fully stopped, door open, front pointing SCREEN-RIGHT. Hold 0–0.7 seconds. From 0.7–2 seconds its door closes fully as one normal door operation while every wheel remains stationary. Only AFTER the door is fully shut, from 2–6.2 seconds the same bus rolls slowly forward toward SCREEN-RIGHT and exits the right edge, its body translating naturally and wheels rotating in contact with the road. The man notices late and turns only his head toward the departing bus around 5 seconds. He does not chase or board; suitcase stays on the pavement. From 6.2–8 seconds hold the empty road and their quiet reaction. No moving before door closure, second bus, reversing, collision, passing through the people, bus shrinking or dissolving, charger transfer, or camera follow. No dialogue, narration, lip-synced speech, subtitles, written graphics, logos or generated music. Quiet nonverbal location sound is optional; all narrative captions, interface graphics, music and sound cues will be added in postproduction. End with a physically stable pose, with only natural breathing, blinking and environmental motion.",
+      "start_state": "W 왼손 충전기/오른폰, M 오른손 가방. 버스 정차 문 열림.",
+      "end_state": "문 완전히 닫은 버스 오른쪽 퇴장, 사람·가방 정류장 유지. M 뒤늦은 고개 회전.",
+      "action_plan": [
+        [
+          "0–0.7",
+          "반환 완료와 정차"
+        ],
+        [
+          "0.7–2",
+          "문 먼저 완전 닫기"
+        ],
+        [
+          "2–6.2",
+          "동일 버스 오른쪽 저속 출발·M 약5초 고개 회전"
+        ],
+        [
+          "6.2–8",
+          "버스 사라진 안정 상태"
+        ]
+      ],
+      "qa_acceptance": [
+        "문 닫힘 완료→바퀴 굴러 출발의 순서",
+        "버스 오른쪽 진행, 축/크기 유지하며 화면 밖으로 나감",
+        "M 도로 진입/추격 없이 고개만 회전",
+        "충전기 W 왼손, 가방 M 오른손 유지"
+      ],
+      "risks": [
+        "높음: 큰 버스가 오른쪽으로 실제 이동하지 않고 축소/페이드아웃되거나 문 열린 채 이동할 수 있음.",
+        "출발 시간: 느린 속도로 8초 내 완전 퇴장이 안 되면 퇴장 끝을 확보한 후 편집 길이 조정. 물체 소실을 퇴장으로 간주하지 않음."
+      ],
+      "fallback_split": "문 닫기와 실제 퇴장이 한 원본에 안 담기면 출발 원본/빈 정류장 K10의 일반 컷으로 연결하되 버스가 이동 시작한 물리 장면은 반드시 보존.",
+      "first_frame": "storyboards/2026-10-25_C07-C10-rewrite-v13/images/C09/S09.png",
+      "first_frame_absolute": "//wsl.localhost/Ubuntu-24.04/home/wooseok/wsy/samsung_related/slide/AI실행결과발표대회_디자인3종/storyboards/2026-10-25_C07-C10-rewrite-v13/images/C09/S09.png",
+      "first_frame_sha256": "92f2e904e473bbd3531eae0a8369d5ede38e95820a555f36627c3482ffe78677",
+      "first_frame_review": {
+        "actually_opened": true,
+        "method": "view_image actual individual PNG",
+        "status": "visually checked for motion planning; not a video QA pass"
+      },
+      "generation_spec": {
+        "duration_seconds": 8,
+        "aspect_ratio": "16:9",
+        "resolution": "720p",
+        "output_count": 1,
+        "input_mode": "first_frame_only",
+        "model": "Veo 3.1 Lite - parent observed actual UI; recheck before submission",
+        "submission_by_this_agent": false
+      },
+      "source_board_timing": {
+        "start": 24.5,
+        "end": 28.5,
+        "duration": 4
+      },
+      "postproduction": {
+        "dialogue": "없음",
+        "narration": "없음",
+        "caption_cues_source": [],
+        "composites": [],
+        "music_sfx_silence_source": "문닫힘·저속차량음,과장경적없음. 멜로가다시조용히등장.",
+        "editing": "원안 4초에서 문 닫기+출발+빈 도로가 모두 보이는지 확인. 필요한 경우 5~6초 사용, 다른 정지를 줄인다.",
+        "retiming": "생성물의 실제 동작 완료 지점으로 트림을 정한 뒤 자막/BGM/SFX 큐를 함께 재산정. 원본 8초 전부를 자동 사용하지 않음. 화면+자막만으로 검수."
+      },
+      "source_frame_start": "반환 완료 뒤. W 왼손 충전기·오른손 분홍폰. M 곁 회색 가방은 자립, M 오른손은 손잡이 위에 다시 가볍게 놓임. 배경 버스는 문 닫기 직전 바퀴 정지.",
+      "source_frame_end": "버스가화면오른쪽으로빠져나간다.M은뒤늦게고개를돌림.W는충전기소지."
+    },
+    {
+      "queue_index": 20,
+      "concept_id": "C09",
+      "concept_title": "나 없이도 괜찮겠어요?",
+      "scene_id": "S10",
+      "id": "C09_K10",
+      "summary_ko": "동료는 충전기와 폰을 각 손에 든 채 사옥 방향으로 돌아가고 남자만 가방과 남는다.",
+      "prompt_en": "Create one continuous 8-second, 16:9 cinematic live-action image-to-video shot using the uploaded image as the exact first frame. Preserve the visible identities, clothing, prop sizes, lighting, screen axis and camera framing. Keep natural real-time human motion; no cuts, transitions, slow motion or time-lapse. Keep the fixed wide shot of the covered rainy bus stop AFTER the bus has gone. Preserve the wet pavement reflections, shelter and office background. The older stocky East Asian man with white curls, orange raincoat, navy shirt and brown shoes stands center-right, RIGHT hand on his upright gray suitcase with yellow ribbon, black phone concealed in his LEFT pocket. He looks toward the departed bus direction at SCREEN-RIGHT. The petite short-haired East Asian woman in teal rain jacket and black backpack stands to his left, white charger with pink cable band in her LEFT hand and pink phone in her RIGHT hand. Hold 0–1 seconds. From 1–4.5 seconds she gives him a small friendly parting smile, turns away from the road toward the office-side sidewalk to screen-left and rear, and walks calmly out of the shot along that safe pedestrian route, keeping one object in each hand. The man remains at the shelter with his suitcase, a slightly deflated romantic-film expression, not crying or punished. From 4.5–8 seconds hold the lone man and his luggage in the empty bus-stop scene. No new bus, new person, phone-to-charger swap, abandoned suitcase, woman crossing the vehicle lane, departure chase, camera movement or text. No dialogue, narration, lip-synced speech, subtitles, written graphics, logos or generated music. Quiet nonverbal location sound is optional; all narrative captions, interface graphics, music and sound cues will be added in postproduction. End with a physically stable pose, with only natural breathing, blinking and environmental motion.",
+      "start_state": "버스 없음, W 왼손 충전기/오른폰, M 오른손 가방 들고 오른쪽 떠난 방향 봄.",
+      "end_state": "W 사옥 쪽 보행 경로로 떠남, M 가방과 지붕 아래 남음. 새 버스/시간표 없음.",
+      "action_plan": [
+        [
+          "0–1",
+          "버스 사라진 정류장"
+        ],
+        [
+          "1–4.5",
+          "W 미소 후 도로 반대 사옥 보행로로 퇴장"
+        ],
+        [
+          "4.5–8",
+          "M과 가방만 남은 멜로 끝상태"
+        ]
+      ],
+      "qa_acceptance": [
+        "W 충전기 왼손·폰 오른손 유지하며 안전한 보행로로 이동",
+        "M 오른손 가방·지붕 아래 잔류",
+        "남자 조롱/오열/징벌보다 자기 과잉해석의 작은 허탈함"
+      ],
+      "risks": [
+        "보통: 첫 이미지에 사옥 진입문이 보이지 않아 실제 목적지 도착까지 생성하지 않음. 화면 왼쪽/후방 보행 퇴장만.",
+        "자막 공간: 실제 S10 상단은 건물·나무·빛으로 차 있어 '빈 정류장 벽'이 없음."
+      ],
+      "first_frame": "storyboards/2026-10-25_C07-C10-rewrite-v13/images/C09/S10.png",
+      "first_frame_absolute": "//wsl.localhost/Ubuntu-24.04/home/wooseok/wsy/samsung_related/slide/AI실행결과발표대회_디자인3종/storyboards/2026-10-25_C07-C10-rewrite-v13/images/C09/S10.png",
+      "first_frame_sha256": "2efa880ec9cce65025e961b0c5e30b7de84ac52c30f6006b5ef21dd19029517c",
+      "first_frame_review": {
+        "actually_opened": true,
+        "method": "view_image actual individual PNG",
+        "status": "visually checked for motion planning; not a video QA pass"
+      },
+      "generation_spec": {
+        "duration_seconds": 8,
+        "aspect_ratio": "16:9",
+        "resolution": "720p",
+        "output_count": 1,
+        "input_mode": "first_frame_only",
+        "model": "Veo 3.1 Lite - parent observed actual UI; recheck before submission",
+        "submission_by_this_agent": false
+      },
+      "source_board_timing": {
+        "start": 28.5,
+        "end": 34,
+        "duration": 5.5
+      },
+      "postproduction": {
+        "dialogue": "없음",
+        "narration": "없음",
+        "caption_cues_source": [
+          {
+            "start": 28.7,
+            "end": 34,
+            "text": "내가 없어도 이어지는 방법.\nQ-AI Fair에서 나눕니다.",
+            "placement": "상단 빈 정류장 벽/반투명 대비 패널"
+          }
+        ],
+        "composites": [
+          "스타일 감사에 따라 실제 이미지에 없는 '상단 빈 정류장 벽' 자막 배치 폐기. 기존 전체길이 안에서 별도 엔딩 카드에 '내가 없어도 이어지는 방법. / Q-AI Fair에서 나눕니다.' 후합성."
+        ],
+        "music_sfx_silence_source": "처음멜로테마를일상의소규모악기로마무리. 대사없음.",
+        "editing": "기존 마지막 5.5초 슬롯을 W퇴장/남자 반응 약2.5~3초 + 별도2.5~3초 엔딩 카드로 나눔. 손 소유를 확인할 시간을 준 뒤 카드 전환.",
+        "retiming": "생성물의 실제 동작 완료 지점으로 트림을 정한 뒤 자막/BGM/SFX 큐를 함께 재산정. 원본 8초 전부를 자동 사용하지 않음. 화면+자막만으로 검수.",
+        "ending_card": {
+          "decision": "별도 후처리 카드",
+          "text": [
+            "내가 없어도 이어지는 방법.",
+            "Q-AI Fair에서 나눕니다."
+          ],
+          "target_hold_seconds": 3,
+          "placement": "복잡한 실제 상단 배경 대신 별도 전체 프레임 카드",
+          "time_budget": "기존 34초 전체 구성 안에서 마지막 반응 후 카드로 분할. K01/K04/K06/K07/K09 실제 동작 시간 확보가 먼저이며 앞부분 정지를 재배분. 필요한 시간이 없으면 60초 이내에서 PD 재산정, 미완 동작을 잘라 길이 맞추지 않음."
+        }
+      },
+      "source_frame_start": "버스가 사라진 정류장. W는 왼손 충전기·오른손 분홍폰을 가진 채 사옥으로 돌기 직전. M은 오른손 가방 손잡이를 잡고 떠난 쪽을 본다.",
+      "source_frame_end": "M은 가방과 다음 차를 기다리며 서 있고, W는 충전기를 들고 사옥 쪽으로 돌아간다."
+    }
+  ]
+}

@@ -1,0 +1,126 @@
+{
+  "concept": "C08",
+  "status": "RENDERED_TECHNICAL_AND_THREE_REVIEWER_VISUAL_CROSS_REVIEW_PASS_WITH_DOCUMENTED_LIMITATIONS",
+  "timeline": [
+    {
+      "cut": "K01",
+      "file": "C08_K01_take01.mp4",
+      "source_in": 0,
+      "source_out": 2.75,
+      "start": 0,
+      "end": 2.75,
+      "approved_for_final": true
+    },
+    {
+      "cut": "K02",
+      "file": "C08_K02_take01.mp4",
+      "source_in": 0.5,
+      "source_out": 4.5,
+      "start": 2.75,
+      "end": 6.75,
+      "approved_for_final": true
+    },
+    {
+      "cut": "K03",
+      "file": "C08_K03_take01.mp4",
+      "source_in": 0.5,
+      "source_out": 4,
+      "start": 6.75,
+      "end": 10.25,
+      "approved_for_final": true
+    },
+    {
+      "cut": "K04",
+      "file": "C08_K04_take01.mp4",
+      "source_in": 0,
+      "source_out": 5.25,
+      "start": 10.25,
+      "end": 15.5,
+      "approved_for_final": true
+    },
+    {
+      "cut": "K05",
+      "file": "C08_K05_take01.mp4",
+      "source_in": 0,
+      "source_out": 7.5,
+      "start": 15.5,
+      "end": 23.0,
+      "approved_for_final": true
+    },
+    {
+      "cut": "K06",
+      "file": "C08_K06_take01.mp4",
+      "source_in": 0.5,
+      "source_out": 4.25,
+      "start": 23.0,
+      "end": 26.75,
+      "approved_for_final": true
+    },
+    {
+      "cut": "K07",
+      "file": "C08_K07_take01.mp4",
+      "source_in": 0.5,
+      "source_out": 4.5,
+      "start": 26.75,
+      "end": 30.75,
+      "approved_for_final": true
+    },
+    {
+      "cut": "K08",
+      "file": "C08_K08_take02.mp4",
+      "source_in": 0,
+      "source_out": 5.5,
+      "start": 30.75,
+      "end": 36.25,
+      "approved_for_final": true,
+      "review": "Root actual0.5s sampled frames: fills last gray slot, releases empty hands by5s; no overlap."
+    },
+    {
+      "cut": "K09",
+      "file": "C08_K09_take01.mp4",
+      "source_in": 0,
+      "source_out": 5.75,
+      "start": 36.25,
+      "end": 42.0,
+      "approved_for_final": true
+    },
+    {
+      "cut": "K10",
+      "file": "C08_K10_take02.mp4",
+      "source_in": 0,
+      "source_out": 6,
+      "start": 42.0,
+      "end": 48.0,
+      "approved_for_final": true,
+      "review": "Root actual0.5s frames: same brick remains installed, tiny adjustment then empty arms lowered; no extraction or duplicate."
+    }
+  ],
+  "essential_voice": 0,
+  "end_card_seconds": 5,
+  "source_audio": "all excluded",
+  "duration_with_end_card": 53.0,
+  "resolved_fixes": [
+    {
+      "cut": "K08",
+      "issue": "Brick placed left of target, visible empty slot remains after hands release",
+      "evidence": [
+        "source_review/K08_1.50s.png",
+        "source_review/K08_4.50s.png",
+        "source_review/K08_5.50s.png"
+      ],
+      "selected_take": null
+    },
+    {
+      "cut": "K10",
+      "issue": "Upper brick removed then merged into an already occupied lower course; original upper brick remains",
+      "evidence": [
+        "source_review/K10_1.50s.png",
+        "source_review/K10_3.00s.png",
+        "source_review/K10_4.50s.png"
+      ],
+      "selected_take": null
+    }
+  ],
+  "pending_required_fixes": [],
+  "cross_review_record": "../cross_review.json"
+}

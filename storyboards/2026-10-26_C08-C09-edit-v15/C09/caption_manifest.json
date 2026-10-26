@@ -1,0 +1,78 @@
+[
+  {
+    "start": 2.65,
+    "end": 6.6,
+    "text": "저 없이 괜찮겠어요?",
+    "pos": "top",
+    "x": 760,
+    "y": 43,
+    "font_px": 42,
+    "kind": "subtitle"
+  },
+  {
+    "start": 6.85,
+    "end": 11.65,
+    "text": "공유해주신 AI 방법,\n제가 해보고 확인했어요.",
+    "pos": "bottom",
+    "x": null,
+    "y": null,
+    "font_px": 42,
+    "kind": "subtitle"
+  },
+  {
+    "start": 11.95,
+    "end": 14.85,
+    "text": "편히 쉬고 오세요.",
+    "pos": "top",
+    "x": 64,
+    "y": 43,
+    "font_px": 42,
+    "kind": "subtitle"
+  },
+  {
+    "start": 17.35,
+    "end": 18.85,
+    "text": "전화 · 동료",
+    "pos": "top",
+    "x": 825,
+    "y": 43,
+    "font_px": 42,
+    "kind": "external_call_badge"
+  },
+  {
+    "start": 18.95,
+    "end": 21.85,
+    "text": "역시.",
+    "pos": "top",
+    "x": 940,
+    "y": 43,
+    "font_px": 42,
+    "kind": "subtitle"
+  },
+  {
+    "start": 26.25,
+    "end": 29.45,
+    "text": "혹시 제 충전기…",
+    "pos": "bottom",
+    "x": null,
+    "y": null,
+    "font_px": 42,
+    "kind": "subtitle_question_before_reveal"
+  },
+  {
+    "start": 29.6,
+    "end": 32.75,
+    "text": "고마워요. 푹 쉬세요.",
+    "pos": "bottom",
+    "x": null,
+    "y": null,
+    "font_px": 42,
+    "kind": "subtitle_across_handoff_cut"
+  },
+  {
+    "start": 39.0,
+    "end": 44.0,
+    "text": "Q-AI Fair\n내가 없어도 이어지는 방법.\n품질팀 AI 성과 교류회",
+    "kind": "endcard"
+  }
+]
